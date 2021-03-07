@@ -32,7 +32,6 @@ def create_page(markata, page, tags=None):
         )
     output_file.parent.mkdir(exist_ok=True, parents=True)
     with open(output_file, "w+") as f:
-        print("writing index")
         f.write(
             template.safe_substitute(
                 body="".join(cards),
