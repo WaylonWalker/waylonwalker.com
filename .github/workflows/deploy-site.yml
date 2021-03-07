@@ -16,7 +16,7 @@ jobs:
         uses: actions/cache@v2
         with:
           path: .markata.cache
-          key: ${{ runner.os }}-markata
+          key: ${{ runner.os }}-${{ hashfiles('markata.toml') }}-markata
 
       - name: Set up Python 3.8
         uses: actions/setup-python@v1
