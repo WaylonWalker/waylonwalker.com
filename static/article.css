@@ -174,125 +174,139 @@ article.blog-post {
     article.blog-post ol {
         padding: 1.2rem;
     }
-    article.blog-post .highlight {
-        background: #282C34;
-        padding: 1rem;
-        margin: 0 -1rem;
-        width: calc(100% + 2rem);
-    }
-    article.blog-post pre {
-        width: 100%;
-        margin-bottom: 1rem;
-        align-self: flex-start;
-        padding: 10px;
-        max-width: calc(100vw - 20px);
-        overflow-x: scroll;
-    }
-    a {
-        color: #6f6bae;
-        text-decoration-color: #330026;
-        text-decoration-color: goldenrod;
-        /* Wyatt chose goldenrod */
-    }
-    p>img {
-        /* opacity: .8; */
-        box-shadow: 0.2rem 0.2rem 1rem rgba(51, 0, 38, 0.4);
-        max-width: 1000px;
-        width: 95vw;
-        align-self: center;
-        justify-self: center;
-        align-items: center;
-        justify-items: center;
-        margin: auto;
-    }
-    strong {
-        color: #d68fbb;
-        display: inline-block;
-        transform: rotate(-2deg);
-    }
-    em {
-        color: #6f6bae;
-        display: inline-block;
-        transform: rotate(0.2deg);
-        background: rgba(255, 255, 255, 0.04);
-        padding: 0.1rem 0.8rem;
-    }
-    /* p:has(> img) {
-margin: 8rem;
-display: flex;
-justify-content: center;
-align-items: center;
-} */
-    h2 {
-        margin-top: 5rem;
-    }
-    article.blog-post ul {
-        border-left: 1px solid #ff66c4;
-        padding: 0.5rem 0 0.025rem 3rem;
-        margin: 2rem;
-    }
-    blockquote {
-        color: #777;
-        border-left: 2px solid goldenrod;
-        font-size: 1rem;
-        padding: 1rem 0 1rem 0.5rem;
-        margin: 1.5rem 0;
-    }
-    hr {
-        border: none;
-        border-top: 1px solid goldenrod;
-        margin: 1rem auto;
-        background: none;
-        width: min(600px, 80%);
-    }
-    h1 {
-        margin-top: 5rem;
-    }
-    .tweet {
-        display: flex;
-        justify-content: flex-end;
-        margin: 1rem 0;
-    }
-    .tweet a {
-        display: inline-block;
-        border-radius: 5px;
-        padding: 0.5rem 1rem;
-        background: #645fc4;
-        color: #fedd58;
-        text-decoration: none;
-        vertical-align: center;
-    }
-    .share {
-        max-width: 800px;
-        margin: 0.8rem auto;
-        padding: 1rem 2rem;
-        display: flex;
-        align-items: center;
-        border: 1px solid #d68fbb;
-        background-color: rgba(214, 143, 187, 0.1);
-        border-radius: 5px;
-    }
-    .share a {
-        padding: 0.2rem 0.5rem;
-    }
-    .share p {
-        margin: 0;
-        padding: 0;
-        padding-right: 0.2rem;
-    }
-    .share ul li {
-        margin: 0;
-        padding: 0;
-    }
-    .shrare ul {
-        display: flex;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        border: none;
-        font-size: 1.3rem;
-    }
 }
+
+article.blog-post pre {
+    margin-bottom: 1rem;
+    align-self: flex-start;
+    max-width: calc(100vw - 20px);
+    padding: 10px;
+    overflow-x: auto;
+}
+
+article.blog-post .highlight {
+    background: #282C34;
+    padding: 1rem;
+    margin: 0 -1rem;
+    width: calc(100% + 2rem);
+}
+
+a {
+    color: #6f6bae;
+    text-decoration-color: #330026;
+    text-decoration-color: goldenrod;
+    /* Wyatt chose goldenrod */
+}
+
+p>img {
+    /* opacity: .8; */
+    box-shadow: 0.2rem 0.2rem 1rem rgba(51, 0, 38, 0.4);
+    max-width: 1000px;
+    width: 95vw;
+    align-self: center;
+    justify-self: center;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+}
+
+strong {
+    color: #d68fbb;
+    display: inline-block;
+    transform: rotate(-2deg);
+}
+
+em {
+    color: #6f6bae;
+    display: inline-block;
+    transform: rotate(0.2deg);
+    background: rgba(255, 255, 255, 0.04);
+    padding: 0.1rem 0.8rem;
+}
+
+h2 {
+    margin-top: 5rem;
+}
+
+article.blog-post ul {
+    border-left: 1px solid #ff66c4;
+    padding: 0.5rem 0 0.025rem 3rem;
+    margin: 2rem;
+}
+
+blockquote {
+    color: #777;
+    border-left: 2px solid goldenrod;
+    font-size: 1rem;
+    padding: 1rem 0 1rem 0.5rem;
+    margin: 1.5rem 0;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid goldenrod;
+    margin: 1rem auto;
+    background: none;
+    width: min(600px, 80%);
+}
+
+h1 {
+    margin-top: 5rem;
+}
+
+.tweet {
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem 0;
+}
+
+.tweet a {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    background: #645fc4;
+    color: #fedd58;
+    text-decoration: none;
+    vertical-align: center;
+}
+
+.share {
+    max-width: 800px;
+    margin: 0.8rem auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    border: 1px solid #d68fbb;
+    background-color: rgba(214, 143, 187, 0.1);
+    border-radius: 5px;
+}
+
+.share a {
+    padding: 0.2rem 0.5rem;
+}
+
+.share p {
+    margin: 0;
+    padding: 0;
+    padding-right: 0.2rem;
+}
+
+.share ul li {
+    margin: 0;
+    padding: 0;
+}
+
+.shrare ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 1.3rem;
+}
+
+
+/* stop was here */
 
 .post-body hr {
     border-top: 2px solid rgba(218, 165, 32, 0.2);
