@@ -292,7 +292,8 @@ ul.archive-tags li {
 ul.archive-tags li a {
     text-decoration: none;
     color: #fafafa;
-}#cover-wrapper {
+}
+#cover-wrapper {
     z-index: 2;
     width: 100%;
     min-height: min(420px, 100vw / 2.38);
@@ -477,6 +478,10 @@ article.blog-post {
     article.blog-post pre {
         width: 100%;
         margin-bottom: 1rem;
+        align-self: flex-start;
+        padding: 10px;
+        max-width: calc(100vw - 20px);
+        overflow-x: scroll;
     }
     a {
         color: #6f6bae;
@@ -782,7 +787,8 @@ a.onelinelink img {
 a.onelinelink .read-more {
     font-size: .6rem;
     color: rgba(255, 255, 255, .08);
-}body::-webkit-scrollbar {
+}
+body::-webkit-scrollbar {
     width: 1rem;
 }
 

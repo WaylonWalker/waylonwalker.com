@@ -183,6 +183,10 @@ article.blog-post {
     article.blog-post pre {
         width: 100%;
         margin-bottom: 1rem;
+        align-self: flex-start;
+        padding: 10px;
+        max-width: calc(100vw - 20px);
+        overflow-x: scroll;
     }
     a {
         color: #6f6bae;
