@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name='og:type' content='website' />
+    <meta name='og:title' name='og:title' content="${title}" />
+    <meta name="generator" content="Markata 0.0.1">
+    <meta name='twitter:title' name='twitter:title' content="${title}" />
+    <meta name='og:image' name='og:image' content='${url}/waylon-walker.png' />
+    <meta name='twitter:image' name='twitter:image' content='${url}/waylon-walker.png' />
+    <meta name='og:image:width' name='og:image:width' content='1000' />
+    <meta name='og:image:height' name='og:image:height' content='420' />
+    <meta name='og:url' name='og:url' content='${url}/archive' />
+    <meta name='description' name='description' content='${description}' />
+    <meta name='og:description' name='og:description' content='${description}' />
+    <meta name='twitter:description' name='twitter:description' content='${description}' />
+    <link rel="icon" href="/8bitcc.ico" type="image/png">
+    <meta property="monetization" name="monetization" content="$ilp.uphold.com/MGN2ni2YMXaQ">
+    <link rel='stylesheet' href='/archive-styles.css' />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
+    <link rel="preload" href="/scroll.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+    <link rel='stylesheet' href='/scroll.css' />
+  </noscript>
+    <link href="/manifest.json" rel="manifest">
+    <title>${title}</title>
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href='/'>Home</a></li>
+            <li><a href='/archive'>Archive</a></li>
+            <li>
+                <a href='${url}/rss' aria-label='RSS'>
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="16" width="16">
+            <path fill="currentColor"
+              d="M 4 4.44 v 2.83 c 7.03 0 12.73 5.7 12.73 12.73 h 2.83 c 0 -8.59 -6.97 -15.56 -15.56 -15.56 Z m 0 5.66 v 2.83 c 3.9 0 7.07 3.17 7.07 7.07 h 2.83 c 0 -5.47 -4.43 -9.9 -9.9 -9.9 Z M 6.18 15.64 A 2.18 2.18 0 0 1 6.18 20 A 2.18 2.18 0 0 1 6.18 15.64">
+            </path>
+          </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <h1>Post Archive</h1>
+    <ul class='archive-tags'>
+        <li>
+            <a href='/archive/python/'>
+        python
+      </a>
+        </li>
+        <li>
+            <a href='/archive/linux/'>
+        linux
+      </a>
+        </li>
+        <li>
+            <a href='/archive/vim/'>
+        vim
+      </a>
+        </li>
+        <li>
+            <a href='/archive/kedro/'>
+        kedro
+      </a>
+        </li>
+    </ul>
+    <div id='posts'>
+        <input type="search" class="fuzzy-search" placeholder="fuzzy search!">
+        <ul class='list archive-list'>
+            $body
+        </ul>
+    </div>
+</body>
+<script>
+    var postList = new List('posts', {
+        valueNames: ['title', 'description']
+    })
+</script>
+
+</html>

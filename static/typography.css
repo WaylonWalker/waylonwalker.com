@@ -1,0 +1,107 @@
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Space Mono", monospace;
+}
+
+h1 {
+    font-family: "Space Mono", monospace;
+    color: #6A65CA;
+    color: #FF66C4 !important;
+    /* font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px; */
+}
+
+h2 {
+    color: hsla(323, 47%, 70%, 1) !important;
+}
+
+h3 {
+    font-family: "Space Mono", monospace;
+    /* font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 15.4px; */
+}
+
+p {
+    font-family: "Space Mono", monospace;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 21px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 1.5;
+}
+@media only screen and (max-width: 700px) {
+    p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    p {
+        font-size: 12px;
+    }
+}
+
+blockquote {
+    font-family: "Space Mono", monospace;
+    /* font-size: 21px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 30px; */
+}
+
+code {
+    font-family: "Space Mono", monospace;
+}
+
+pre {
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-family: "Space Mono", monospace;
+    font-family: "Space Mono", monospace;
+    /* font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 18.5714px; */
+}
+
+a {
+    font-family: "Space Mono", monospace;
+    color: #6F6BAE;
+    text-decoration-color: goldenrod;
+}
+
+
+/* h1 {
+    font-size: 4rem;
+    font-family: 'Waterlily-Regular';
+    color: #6A65CA;
+    background: -webkit-linear-gradient(#a7a4e0, #6A65CA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, .3)
+} */

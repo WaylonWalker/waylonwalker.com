@@ -1,0 +1,185 @@
+# netlify redirects
+
+# image upload
+/upload                                                     https://github.com/WaylonWalker/waylonwalkerv2/upload/main/static
+/uploads                                                    https://github.com/WaylonWalker/waylonwalkerv2/upload/main/static
+/i                                                          https://github.com/WaylonWalker/waylonwalkerv2/upload/main/static
+/idea                                                       https://www.canva.com/design/DAEJ1hsI7KU/d_WFYFJaf5qr0ihA472lbQ/edit?category=tACZCtLTC_A
+/s                                                          https://github.com/WaylonWalker/waylonwalkerv2/upload/main/static/stories
+/st                                                         https://github.com/WaylonWalker/waylonwalkerv2/tree/main/static/stories
+/cover                                                      https://www.canva.com/design/DAEAZXYmmyU/oY65qjb_VDHVLwBqURFQ3w/edit
+/reading                                                    https://waylonwalker.com/notes/reading-list
+
+# profile image
+/profile                                                    https://images.waylonwalker.com/8bitc.png
+/p                                                          https://images.waylonwalker.com/8bitc.png
+
+# latest-post
+
+/latest                                                     /minimal-python-package
+/latest.png                                                 /minimal-python-package.png
+
+/latest-story.png                                           /stories/get-python-help-without-google.png
+
+# refactor routes
+/blog/*                                                     /:splat
+/notes/*                                                    /:splat
+
+# Short-Blog
+/k166                                                       /whats-new-in-kedro-0166
+/k166                                                       /whats-new-in-kedro-0166
+
+/apst   /automating-my-post-starter
+/apst.png   /automating-my-post-starter.png
+
+/svim  /save-vim-macro
+/svim.png  /save-vim-macro.png
+
+/fgca                                                       /fix-git-commit-author
+/fgca.png                                                   /fix-git-commit-author.png
+
+/kdrt                                                       /designing-kedro-router
+/kdrt.png                                                   /designing-kedro-router.png
+
+/ripy                                                       /reset-ipython
+/ripy.png                                                   /reset-ipython.png
+/wrbs                                                       /reusable-bash
+/kcre                                                       /kedro-catalog-search
+/8cat                                                       /eight-years-cat
+/parg                                                       /python-args-kwargs
+/pcia                                                       /pre-commit-is-awesome
+/ksvh                                                       /kedro-static-viz-0-3-0
+/kcho                                                       /kedro-class-hooks
+/bkho                                                       /brainstorming-kedro-hooks
+/thank-you                                                  /thank-you
+/ty                                                         /thank-you
+/kpre                                                       /creating-the-kedro-preflight-hook/
+/bdgl                                                       /til-bind-arguments-to-dynamically-generated-lambdas-in-python/
+/fpga                                                       /four-github-actions-python/
+/vndt                                                       /variables-names-dont-need-their-type
+/sega                                                       /send-email-with-github-actions/
+/waga                                                       /what-are-github-actions
+/knew                                                       /create-new-kedro-project/
+/wike                                                       /what-is-kedro
+/gdfm                                                       /today-i-learned-git-diff-feature-main/
+/csro                                                       /custom-scrollbar-design/
+/dwyt                                                       /don-t-waste-your-time-learning-everything/
+/dsgn                                                       /2020-rebrand/
+/hdrm                                                       /react-headroom/
+/styf                                                       /i-finally-fixed-my-styled-components-in-gatsby-js/
+/zeit                                                       /should-i-switch-to-zeit-now/
+/gitp                                                       /git-push-without-setting-upstream/
+/oosp                                                       /out-of-space/
+/purl                                                       /personal-url-shortener-with-netlify-redirects/
+/scli                                                       /simple-click/
+/cmdt                                                       /cmd-exe-tips/
+/wist                                                       /what-is-something-that-you-recently-learned-that-you-wish-you-would-have-learned-or-understood-earlier/
+/supz                                                       /supercharge-zsh-startup/
+/tqdm                                                       /quick-progress-bars-in-python-using-tqdm/
+/namt                                                       /named-tuples-data-science/
+/ipau                                                       /autoreload-ipython/
+/kdvs                                                       /keyboard-driven-vscode/
+/rgit                                                       /realistic-git-workflow/
+/frio                                                       /forestry-io/
+/gitr                                                       /git-rewrite-history/git-rewrite-history/
+/jour                                                       /journey/
+/gitu                                                       /git-update-user/
+/g019                                                       /goals-2019/
+/r019                                                       /2018-retrospective/
+/hapy                                                       /happy/
+/rtab                                                       /readme_tables/
+/pc18                                                       /Pycon_2018_roundup/
+/d3d4                                                       /d3-day4/
+/d3d3                                                       /d3-day3/
+/flxz                                                       /flexbox-zombies/
+/dsql                                                       /datacamp-sql/
+/dppt                                                       /No_More_Death_By_Powerpoint/
+/pc17                                                       /Pycon_2017_roundup/
+
+# master -> main
+
+/today-i-learned-git-diff-feature-master/                   /git-diff-feature-main/
+
+# underscores to -
+# this was a redesign done in 2020
+
+/autoreload_python                                          /autoreload-python
+/background_1                                               /background-1
+/No_More_Death_By_Powerpoint                                /death-by-powerpoint
+/pandas_pattern                                             /pandas-pattern
+/pug_reveal                                                 /pug-reveal
+/Pycon_2017_Roundup                                         /pycon-2017-roundup
+/Pycon_2018_Roundup                                         /pycon-2018-roundup
+/pyspark_v_pandas                                           /pyspark-v-pandas
+/python_tips                                                /python-tips
+/readme_tables                                              /readme-tables
+/vim_notes                                                  /vim-notes
+
+# rename long posts
+
+/i-finally-fixed-my-styled-components-in-gatsby-js          /fix-styled-components-in-gatsby
+/interrogate-is-a-pretty-awesome-brand-new-cli-for-python-packages  /interrogate
+/what-is-something-that-you-recently-learned-that-you-wish-you-would-have-learned-or-understood-earlier  /learn-early
+/what-is-your-advice-for-new-data-scientists                /data-scientist-advice
+/background-tasks-in-python-for-data-science                /background_py
+/strip-trailing-whitespace-from-git-projects                /strip-trailing-whitespace
+/rss-feed-for-your-gatsby-site /gatsby-rss-feed
+/personal-url-shortener-with-netlify-redirects              /personal-url-shortener
+/list-the-latest-files-to-change-in-a-git-repo              /last-n-git-files
+/how-to-get-dev-comments-from-an-article-url                /devto-comments-from-url
+/git-diff-feature-main                                      /git-diff-branches
+/variables-names-dont-need-thier-type                       /variable-names-dont-need-their-type
+/background-tasks-in-python-for-data-science                /python-data-science-background
+/building-kedro.dev/                                        /building-kedro-dev
+/building-kedro.dev                                         /building-kedro-dev
+/python-args-and-kwargs                                     /python-args-kwargs
+/variables-names-dont-need-their-type                       /variable-names-don-t-need-their-type
+
+/bash                                                       /notes/bash/
+
+# more encompassing
+/b/*                                                        /:splat
+
+/n/*                                                        /:splat
+
+/rss                                                        /rss.xml
+/md-rss                                                     /blog/markdown-rss.xml
+/sitemap                                                    /sitemap.xml
+
+/static/*                                                   /:splat
+
+#External
+
+/news                                                       https://emailoctopus.com/lists/b194a4af-9875-11ea-a3d0-06b4694bee2a/forms/subscribe
+/newsletter*                                                https://emailoctopus.com/lists/b194a4af-9875-11ea-a3d0-06b4694bee2a/forms/subscribe
+/zoom                                                       https://us04web.zoom.us/j/4579767936?pwd=YithZjVwSENrUlpiU2h6ckJiZ1o4QT09
+/kedro-class-hooks-template                                 https://gist.github.com/WaylonWalker/b97fd496e838422644ed300212ea0c1f
+/kcht                                                       https://gist.github.com/WaylonWalker/b97fd496e838422644ed300212ea0c1f
+/redirects                                                  https://github.com/WaylonWalker/waylonwalkerv2/edit/main/static/_redirects
+/actions                                                    https://github.com/WaylonWalker/waylonwalkerv2/actions
+/twitter                                                    https://twitter.com/_WaylonWalker
+/github                                                     https://github.com/WaylonWalker
+/devto                                                      https://dev.to/waylonwalker/
+/linkedin                                                   https://www.linkedin.com/in/waylonwalker/
+/li                                                         https://www.linkedin.com/in/waylonwalker/
+/instagram                                                  https://www.instagram.com/_waylonwalker/
+/ig                                                         https://www.instagram.com/_waylonwalker/
+/buffer                                                     https://publish.buffer.com/profile/5bc121e0dd50725a7130edd6/tab/queue
+/cars.csv                                                   https://gist.githubusercontent.com/noamross/e5d3e859aa0c794be10b/raw/b999fb4425b54c63cab088c0ce2c0d6ce961a563/cars.csv
+/key-edit                                                   http://www.keyboard-layout-editor.com/##@_backcolor=%231f1f1f&name=Waylon's%20Poker3&switchMount=cherry&switchBrand=cherry&switchType=MX1A-C1xx&pcb:true&plate:false%3B&@_c=%23393b3b&t=%238f8f8f%3B&=~%0A%60&_a:0%3B&=!%0A1%0A%0A%0AF1&=%2F@%0A2%0A%0A%0AF2&=%23%0A3%0A%0A%0AF3&=$%0A4%0A%0A%0AF4&=%25%0A5%0A%0A%0AF5&=%5E%0A6%0A%0A%0AF6&=%2F&%0A7%0A%0A%0AF7&=*%0A8%0A%0A%0AF8&=(%0A9%0A%0A%0AF9&=)%0A0%0A%0A%0AF10&=%2F_%0A-%0A%0A%0AF11&=+%0A%2F=%0A%0A%0AF12&_w:2%3B&=Backspace%0A%0A%0A%0ADEL%3B&@_a:4&w:1.5%3B&=Tab&_a:0%3B&=Q%0A%0A%0A%0A%F0%9F%94%88&=W%0A%0A%0A%0Afword&_x:1%3B&=R%0A%0A%0A%0A%F0%9F%94%8A&=T%0A%0A%0A%0A%60&=Y%0A%0A%0A%0Ayank%20line&=U%0A%0A%0A%0Aundo&=I%0A%0A%0A%0AHome&=O%0A%0A%0A%0Anew%20line&=P%0A%0A%0A%0Apaste&_a:4%3B&=%7B%0A%5B&=%7D%0A%5D&_a:0&w:1.5%3B&=%7C%0A%5C%0A%0A%0APRTCSN%3B&@_a:4&w:1.25&w2:1.75%3B&=Fn&_x:0.5&a:0%3B&=A%0A%0A%0A%0Aend&=S%0A%0A%0A%0A%E2%8F%AE&=D%0A%0A%0A%0Adel&_n:true%3B&=F%0A%0A%0A%0A%E2%8F%AD&=G%0A%0A%0A%0A%E2%8F%AF&=H%0A%0A%0A%0ALeft&=J%0A%0A%0A%0ADown&=K%0A%0A%0A%0AUp&=L%0A%0A%0A%0ARight&_a:4%3B&=%2F:%0A%2F%3B&_a:0%3B&=%22%0A'%0A%0A%0Adel&_a:4&w:2.25%3B&=Enter%3B&@_w:2.25%3B&=Shift&_a:0%3B&=Z%0A%0A%0A%0Aapp&_a:4%3B&=X&=C&=V&_a:0%3B&=B%0A%0A%0A%0Abword&_a:4%3B&=N&_a:0%3B&=M%0A%0A%0A%0ADefault&=%3C%0A,%0A%0A%0AL2&=%3E%0A.%0A%0A%0AL3&=%3F%0A%2F%2F%0A%0A%0AL4&_a:4&w:2.75%3B&=Shift%3B&@_w:1.25%3B&=Ctrl&_w:1.25%3B&=Win&_w:1.25%3B&=Alt&_a:3&w:6.25%3B&=%0A%0A%0A%0Aalt%20tab&_a:4&w:1.25%3B&=Alt&_w:1.25%3B&=FN&_w:1.25%3B&=PN&_w:1.25%3B&=Ctrl%3B&@_rx:1.25&y:1&x:2.25&a:0%3B&=E%0A%0A%0A%0A%F0%9F%94%89
+
+# nesting issue in blog post
+/testrepos.py https://github.com/WaylonWalker/waylonwalker-com-tests/blob/master/tests/test_repos.py
+/waitforagent.sh https://github.com/WaylonWalker/waylonwalker-com-tests/blob/main/.github/ci/wait_for_agent.sh
+
+
+# Fix 404's
+# These are mystery links that I cannot find, but are dinging my ahrefs report
+# They have zero inlinks so they are likely external
+/whats-on-your-github-profile/                              /whats-on-your-github-profile/
+/what-is-something-that-you-recently-learned-that-you-wish-you-would-have-learned-or-understood-earlier-1/ /learn-early
+/test-project-io-py-actions/                                /testproject-io-py-actions
+/gratitude/good-morning/                                    /gratitude
+/background_py                                              /python-data-science-background
+/stories/README/                                            https://github.com/WaylonWalker/waylonwalkerv2/blob/main/static/stories/README.md
+/www.cuttinscrap.com                                        https://cuttinscrap.com

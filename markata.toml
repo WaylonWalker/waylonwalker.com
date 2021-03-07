@@ -1,0 +1,85 @@
+[markata]
+glob_patterns = "pages/**/*.md"
+# markdown_extensions = ["plugins.one_line_link"]
+output_dir = "markout"
+assets_dir = "static"
+hooks = ["markata.plugins.publish_source", "plugins.index", "default", "plugins.one_line_link"]
+# hooks = ["markata.plugins.publish_source", "plugins.index", "default", ]
+disabled_hooks = "markata.plugins.covers"
+url = "https://dev.waylonwalker.com"
+title = "Waylon Walkers Digital Garden"
+description = "Waylon Walkers Digital Garden"
+rss_description = "Waylon Walkers posts"
+author_name = "Waylon Walker"
+author_email = "waylon@waylonwalaker.com"
+icon = "8bitcc.png"
+lang = "en"
+post_template = "pages/templates/post_template.html"
+theme_color = "#322D39"
+background_color = "#B73CF6"
+start_url = "/"
+site_name = "Waylon Walker"
+short_name = "ww"
+display = "minimal-ui"
+twitter_card = "summary_large_image"
+twitter_creator = "@_waylonwalker"
+twitter_site = "@_waylonwalker"
+
+[markata.archive]
+archive_template="pages/templates/archive_template.html"
+
+[markata.archive.pages.archive]
+
+[markata.archive.pages.python]
+tags='python'
+
+[markata.archive.pages.linux]
+tags='linux'
+
+[markata.archive.pages.vim]
+tags='vim'
+
+[markata.archive.pages.kedro]
+tags='kedro'
+
+[[markata.covers]]
+name='-dev'
+template = "static/cover-template.png"
+font = "./.github/scripts/waterlilly-script.ttf"
+font_color = "rgb(255,255,255)"
+
+[[markata.covers]]
+name='-og'
+template = "static/og-template.png"
+font = "./.github/scripts/waterlilly-script.ttf"
+font_color = "rgb(255,255,255)"
+# text_key = 'description'
+text_font = "./static/JosefinSans-Regular.ttf"
+text_font_color = "rgb(200,200,200)"
+
+[[markata.covers]]
+name='-hashnode'
+template = "static/hashnode-template.png"
+font = "./.github/scripts/waterlilly-script.ttf"
+font_color = "rgb(255,255,255)"
+
+[[markata.seo]]
+name = "og:type"
+property = "og:type"
+content = "article"
+
+[[markata.seo]]
+name = "og:author"
+property = "og:author"
+content = "Waylon Walker"
+
+[[markata.seo]]
+name = "og:site_name"
+property = "og:site_name"
+content = "Waylon Walker"
+
+[[markata.seo]]
+name = "theme-color"
+content="#322D39"
+
+

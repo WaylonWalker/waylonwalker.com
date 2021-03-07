@@ -1,0 +1,70 @@
+#!/usr/bin/python3
+
+import sys
+import datetime
+import pathlib
+import subprocess
+
+
+title = sys.argv[1].title()
+args = "".join(sys.argv[1:])
+tags = []
+
+tagwords = {
+    "py": "python",
+    "web": "webdev",
+    "blog": "blog",
+    "data": "data",
+    "bash": "bash",
+    "meta": "meta",
+    "aws": "aws",
+    "git": "git",
+    "docker": 'docker',
+    'help': 'help',
+    'discuss': 'discuss',
+    'sql': 'sql',
+    'javascript': 'javascript'
+}
+
+tags = [tagwords[tag] for tag in tagwords if tag in args.lower()]
+
+slug = title.lower().replace(" ", "-").replace("_", "-")
+frontmatter = f"""---
+templateKey: blog-post
+tags: {tags}
+title: {title}
+date: {datetime.date.today().strftime('%Y-%m-%dT%H:%M:%S')}
+status: draft
+description: ''
+cover: "/static/{slug}.png"
+
+---
+
+
+"""
+
+
+class PostExistsError(FileExistsError):
+    pass
+
+
+directory = pathlib.Path(__file__).parent
+path = pathlib.Path(f"{directory}/src/pages/blog/{slug}.md")
+
+if path.exists():
+    raise PostExistsError(f"Post Already exists at {path}")
+
+with open(path, "w+") as f:
+    f.write(frontmatter)
+
+gadd = subprocess.Popen(
+    f'cd {directory} && git add {str(path).replace(str(directory) + "/", "")} ',
+    shell=True,
+)
+gadd.wait()
+
+nvim = subprocess.Popen(
+    f'cd {directory} && nvim +12 +star {str(path).replace(str(directory) + "/", "")} ',
+    shell=True,
+)
+nvim.wait()

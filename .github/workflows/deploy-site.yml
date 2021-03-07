@@ -1,0 +1,48 @@
+name: 🌱 Deploy site
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Cache 
+        uses: actions/cache@v2
+        with:
+          path: .markata.cache
+          key: ${{ runner.os }}-markata
+
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+
+      - name: install markata
+        run: pip install git+https://github.com/WaylonWalker/markata.git@develop python-twitter background # checksumdir
+
+      - name: run markata
+        run: markata
+
+      - name: create root
+        run: cp markout/archive/index.html markout/index.html
+
+      - name: sw-version
+        run: export checksum=$(checksumdir markout ) && cat static/sw.js | envsubst > markout/sw.js
+
+      - name: Deploy to Netlify
+        uses: nwtgck/actions-netlify@v1.1.12
+        with:
+          publish-dir: "./markout"
+          production-branch: markout
+          production-deploy: true
+          deploy-message: "Deploy markout from GitHub Actions"
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+
