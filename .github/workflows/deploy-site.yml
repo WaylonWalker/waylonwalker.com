@@ -27,7 +27,7 @@ jobs:
         run: pip install git+https://github.com/WaylonWalker/markata.git@develop python-twitter background # checksumdir
 
       - name: run markata
-        run: markata
+        run: markata --no-rich
 
       - name: create root
         run: cp markout/archive/index.html markout/index.html
