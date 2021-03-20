@@ -38,7 +38,8 @@ def register_pipelines() -> Dict[str, Pipeline]:
     return {"__default__": Pipeline([])}
 ```
 
-* pipeline_registry only works in `kedro>=0.17.2`
+
+> pipeline_registry only works in `kedro>=0.17.2`
 
 ## Conflict Resolution
 
