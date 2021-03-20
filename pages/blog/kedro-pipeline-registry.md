@@ -51,7 +51,7 @@ worked so I stepped into a project and added to both my `hooks.py` and
 both modules, but pipelines from `hooks.py` always take precedence.  The entire
 duplicate pipeline will be over written by the one from `hooks.py`.
 
-* kedro automatically merges pipelines from both hooks.py takes precedence
+>  kedro automatically merges pipelines from both hooks.py takes precedence
 
 ## Ready to update
 
