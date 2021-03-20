@@ -23,16 +23,20 @@ this new module.
 You should now have something that looks like this in your
 `src/<package-name>/pipeline_registry.py`.
 
-``` python """Project pipelines.""" from typing import Dict
+``` python 
+"""Project pipelines."""
+from typing import Dict
 
 from kedro.pipeline import Pipeline
 
 
-def register_pipelines() -> Dict[str, Pipeline]: """Register the project's
-pipelines.
+def register_pipelines() -> Dict[str, Pipeline]:
+    """Register the project's pipelines.
 
-    Returns: A mapping from a pipeline name to a ``Pipeline`` object.  """
-    return {"__default__": Pipeline([])} ```
+    Returns: A mapping from a pipeline name to a ``Pipeline`` object.
+    """
+    return {"__default__": Pipeline([])}
+```
 
 * pipeline_registry only works in `kedro>=0.17.2`
 
