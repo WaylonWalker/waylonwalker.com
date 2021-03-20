@@ -1,5 +1,9 @@
---- templateKey: blog-post tags: ['python'] title: Kedro pipeline_registry.Py
-date: 2021-03-20T00:00:00 status: draft description: ''
+---
+templateKey: blog-post
+tags: ['python']
+title: Kedro pipeline_registry.py
+date: 2021-03-20T00:00:00 
+status: published
 
 ---
 
