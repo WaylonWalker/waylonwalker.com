@@ -9,6 +9,8 @@ status: published
 
 **DRAFT**
 
+test site stays up while building
+
 ## initial scan
 
 ## clone
