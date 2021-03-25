@@ -1,9 +1,9 @@
 # netlify redirects
 
 # image upload
-/upload                                                     https://github.com/WaylonWalker/waylonwalkerv2/upload/main/static
-/uploads                                                    https://github.com/WaylonWalker/waylonwalkerv2/upload/main/static
-/i                                                          https://github.com/WaylonWalker/waylonwalkerv2/upload/main/static
+/upload                                                     https://github.com/WaylonWalker/images.waylonwalker.com/upload/main/static
+/uploads                                                    https://github.com/WaylonWalker/images.waylonwalker.com/upload/main/static
+/i                                                          https://github.com/WaylonWalker/images.waylonwalker.com/upload/main/static
 /idea                                                       https://www.canva.com/design/DAEJ1hsI7KU/d_WFYFJaf5qr0ihA472lbQ/edit?category=tACZCtLTC_A
 /s                                                          https://github.com/WaylonWalker/waylonwalkerv2/upload/main/static/stories
 /st                                                         https://github.com/WaylonWalker/waylonwalkerv2/tree/main/static/stories
@@ -160,8 +160,8 @@
 /zoom                                                       https://us04web.zoom.us/j/4579767936?pwd=YithZjVwSENrUlpiU2h6ckJiZ1o4QT09
 /kedro-class-hooks-template                                 https://gist.github.com/WaylonWalker/b97fd496e838422644ed300212ea0c1f
 /kcht                                                       https://gist.github.com/WaylonWalker/b97fd496e838422644ed300212ea0c1f
-/redirects                                                  https://github.com/WaylonWalker/waylonwalkerv2/edit/main/static/_redirects
-/actions                                                    https://github.com/WaylonWalker/waylonwalkerv2/actions
+/redirects                                                  https://github.com/WaylonWalker/waylonwalker.com/edit/main/static/_redirects
+/actions                                                    https://github.com/WaylonWalker/waylonwalker.com/actions
 /twitter                                                    https://twitter.com/_WaylonWalker
 /github                                                     https://github.com/WaylonWalker
 /devto                                                      https://dev.to/waylonwalker/
