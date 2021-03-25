@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-tags: ['python']
+tags: ['kedro', 'python']
 title: Kedro pipeline_registry.py
 date: 2021-03-20T00:00:00 
 status: published
