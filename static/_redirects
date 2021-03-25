@@ -26,6 +26,18 @@
 /tags/*                                                     /archive/:splat
 /tag/*                                                      /archive/:splat
 
+# Common aliases to my tags
+/archive/python3/*                                          /archive/python/:splat
+/archive/python2/*                                          /archive/python/:splat
+
+/archive/neovim/*                                           /archive/vim/:splat
+/archive/nvim/*                                             /archive/vim/:splat
+
+/archive/unix/*                                             /archive/linux/:splat
+/archive/bash/*                                             /archive/linux/:splat
+/archive/command-line/*                                     /archive/linux/:splat
+/archive/cli/*                                              /archive/linux/:splat
+
 # refactor routes
 /blog/*                                                     /:splat
 /notes/*                                                    /:splat
