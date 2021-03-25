@@ -21,6 +21,11 @@
 
 /latest-story.png                                           /stories/get-python-help-without-google.png
 
+# im forgetful and can't remmember my own routes
+
+/tags/*                                                     /archive/:splat
+/tag/*                                                      /archive/:splat
+
 # refactor routes
 /blog/*                                                     /:splat
 /notes/*                                                    /:splat
