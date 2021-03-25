@@ -25,6 +25,7 @@
 #title-wrapper h1 {
     margin-top: 8rem;
     margin-bottom: 0;
+    word-break: break-all;
 }
 
 #title-wrapper p {
