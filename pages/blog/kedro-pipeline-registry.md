@@ -59,3 +59,6 @@ In my experience there were no issues upgrading from `0.17.1` to `0.17.2`.  I
 would reccomend only having one `register_pipelines` so decide to migrate to
 the new `pipeline_registry.py` or keep it in your `hooks.py`, but both is only
 going to lead to confusion.
+
+
+https://twitter.com/datajoely/status/1375193511264456705
