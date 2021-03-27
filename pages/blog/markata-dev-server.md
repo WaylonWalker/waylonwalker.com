@@ -65,7 +65,32 @@ proc.poll()
 
 ## Rich
 
+[rich](https://github.com/willmcgugan/rich) will assist in creating a beautiful
+terminal interface with minimal effort.  Here we are going to build a reuable
+component to later use inside of a rich layout.  When using `rich.print` or the
+live display rich will execute a `__rich__` method on our objects.
 
+
+``` pyhton
+class Min:
+    def __rich__(self) -> Panel:
+        return Panel("hello world")
+
+
+def make_min_layout():
+    layout = Layout()
+    layout.split(Layout(name="upper"), Layout(name="lower"))
+    layout["upper"].update(Min())
+    layout["lower"].update(Min())
+
+    return layout
+```
+
+There are many components to rich, but the basics I am using so far here are
+making my own components with a `__repr__` method, Panel, and Layout.  Panel is
+an object that will by default take up as much space as it can and draw a
+rounded border around itself.  Layout is an object that accepts other rich
+renderables, can be split and nested.
 
 ## Final Result
 
