@@ -75,7 +75,7 @@ server several times.  You will see a quick flash of <span
 style='color: red'>server died</span> followed by the
 sever back up and running on a new pid.
 
-![example](markata-dev-server-a1.gif)
+![example](https://images.waylonwalker.com/markata-dev-server-a1.gif)
  
 ``` python
 
