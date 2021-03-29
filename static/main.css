@@ -414,7 +414,6 @@ article.blog-post {
     padding-bottom: 5rem !important;
     border-radius: 2px;
     box-shadow: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.2);
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
     color: whitesmoke;
@@ -464,7 +463,7 @@ article.blog-post {
 
 @media (max-width: 1200px) {
     article.blog-post p {
-        padding: 0 0.8rem;
+        margin: 0 0.8rem;
     }
     article.blog-post ul,
     article.blog-post ol {
