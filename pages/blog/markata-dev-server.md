@@ -21,6 +21,14 @@ like dev servers theat automatically chooose an unused
 port and list out the running pid so that I can kill it if
 I need to.
 
+* automatic port number
+* auto-restart
+* display
+    * port
+    * pid
+    * uptime
+
+
 ## finding the port
 
 I am very novice at best when It comes to sockets, the following function came
@@ -31,7 +39,7 @@ find an unused port to return.
 ``` python
 def find_port(port=8000):
     """Find a port not in ues starting at given port"""
-    import socket, errno
+    import socket
 
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         if s.connect_ex(("localhost", port)) == 0:
@@ -52,6 +60,9 @@ import subprocess
 proc = subprocess.Popen(["python", "-m", "http.server", str(find_port)],)
 ```
 
+> Optionally if you wanted a live-reload you could opt into `live-reload` from
+> pypi.
+
 The above snippet will start my dev server on the first open port starting at
 `8000` and give me a `subprocess.Popen` object.  From there I can see a bit of
 information about the process.
@@ -65,13 +76,15 @@ proc.poll()
 
 ## Rich
 
+_a quick aside_
+
 [rich](https://github.com/willmcgugan/rich) will assist in creating a beautiful
 terminal interface with minimal effort.  Here we are going to build a reuable
 component to later use inside of a rich layout.  When using `rich.print` or the
 live display rich will execute a `__rich__` method on our objects.
 
 
-``` pyhton
+``` python
 class Min:
     def __rich__(self) -> Panel:
         return Panel("hello world")
@@ -86,11 +99,15 @@ def make_min_layout():
     return layout
 ```
 
+* `__repr__` - custom method
+* `Panel` - box around a renderable
+* `Layout` - split and nest renderables
+
 There are many components to rich, but the basics I am using so far here are
-making my own components with a `__repr__` method, Panel, and Layout.  Panel is
-an object that will by default take up as much space as it can and draw a
-rounded border around itself.  Layout is an object that accepts other rich
-renderables, can be split and nested.
+making my own components with a `__repr__` method, `Panel`, and `Layout`.
+Panel is an object that will by default take up as much space as it can and
+draw a rounded border around itself.  Layout is an object that accepts other
+rich renderables, can be split and nested.
 
 ## Final Result
 
@@ -115,7 +132,6 @@ class Server:
         import subprocess
 
         self.proc = subprocess.Popen(
-            # ["live-server", "-p", str(self.port)],
             ["python", "-m", "http.server", str(self.port)],
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
@@ -132,3 +148,10 @@ class Server:
 
             return Panel(f"[red]server died")
 ```
+
+## Future State
+
+Future state this is going to be integrated into the main layout for my
+personal website SSG markata.
+
+![markata live server](https://images.waylonwalker.com/markata-live-server-a2.gif)
