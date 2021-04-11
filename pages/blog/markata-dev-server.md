@@ -23,15 +23,12 @@ I need to.
 
 * automatic port number
 * auto-restart
-* display
-    * port
-    * pid
-    * uptime
+* display _( port, pid, uptime )_
 
 
 ## finding the port
 
-I am very novice at best when It comes to sockets, the following function came
+I am very novice at best when it comes to sockets, the following function came
 from searching StackOverflow for how to tell if a port is in use.  I
 recursively check if a port is being used, if it is I increment by one until I
 find an unused port to return.
