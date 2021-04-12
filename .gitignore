@@ -4,7 +4,6 @@ public/
 *.xcf
 *reduxcache
 .github/scripts/archive
-index.html
 markout/
 
 # Created by https://www.gitignore.io/api/vim,node,sublimetext,visualstudio,visualstudiocode
