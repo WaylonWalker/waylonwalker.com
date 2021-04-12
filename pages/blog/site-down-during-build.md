@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['webdev', 'actions']
 title: Site Down During Build
 date: 2021-03-22T00:00:00 
-status: draft
+status: publish
 
 ---
 
@@ -39,6 +39,25 @@ env:
 
 ## Opening the Nelify Console
 
-![images build](https://images.waylonwalker.com/netlify-build-images-waylonwalker.png)
 
-![site build](https://images.waylonwalker.com/netlify-build-waylonwalker.png)
+After poking at the netlify console for hours I realized that the issue was
+that netlify was still auto-deploying from a no longer existing directory and
+would cause 404's for every page. During build, then my build from GitHub
+Actions would deploy with the netlify cli.
+
+<div class='center-img'>
+    <img alt="images build" src="https://images.waylonwalker.com/netlify-build-images-waylonwalker.png">
+</div>
+
+Netlify really likes to put a lot of warnings up when you are not deploying
+from them.  I tured off automatic deploys, swore to the netlify gods this is
+what I wanted. Pushed a new deploy and 🎉 THE SITE DID NOT GO DOWN.
+
+jdiv class='center-img'>
+    <img alt="site build" src="https://images.waylonwalker.com/netlify-build-waylonwalker.png">
+</div>
+
+## TURN OFF AUTOMATIC BUILDS WHEN SWITCHING TO A SELF BUILD
+
+Moral of the story here is to turn off Netlify's automatic builds when building
+yourself and using the netlify cli.
