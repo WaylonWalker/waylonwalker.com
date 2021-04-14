@@ -201,3 +201,22 @@
 /background_py                                              /python-data-science-background/
 /stories/README/                                            https://github.com/WaylonWalker/waylonwalkerv2/blob/main/static/stories/README.md
 /www.cuttinscrap.com                                        https://cuttinscrap.com/
+
+# moved images
+
+https://waylonwalker.com/stories/get-python-help-without-google.png https://images.waylonwalker.com/stories/get-python-help-without-google.png
+https://waylonwalker.com/stories/quick-tdb.png              https://images.waylonwalker.com/stories/quick-tdb.png
+https://waylonwalker.com/stories/TIL-kedro-sorts-nodes.png  https://images.waylonwalker.com/stories/TIL-kedro-sorts-nodes.png
+https://waylonwalker.com/stories/use-venv.png               https://images.waylonwalker.com/stories/use-venv.png
+https://waylonwalker.com/stories/progress-over-perfection-comment.png https://images.waylonwalker.com/stories/progress-over-perfection-comment.png
+https://waylonwalker.com/stories/find-kedro-de1-contributor.png https://images.waylonwalker.com/stories/find-kedro-de1-contributor.png
+https://waylonwalker.com/stories/new-post-designing-kedro-router.png https://images.waylonwalker.com/stories/new-post-designing-kedro-router.png
+https://waylonwalker.com/stories/three-ds-openings.png      https://images.waylonwalker.com/stories/three-ds-openings.png
+https://waylonwalker.com/stories/hacktoberfest-2020-kedro-538-tests-pass.png https://images.waylonwalker.com/stories/hacktoberfest-2020-kedro-538-tests-pass.png
+https://waylonwalker.com/stories/itertools.product-cars-regions.png https://images.waylonwalker.com/stories/itertools.product-cars-regions.png
+https://waylonwalker.com/stories/power-is-nothing-without-control.png https://images.waylonwalker.com/stories/power-is-nothing-without-control.png
+https://waylonwalker.com/stories/kedro-run-only-missing.png https://images.waylonwalker.com/stories/kedro-run-only-missing.png
+https://waylonwalker.com/stories/discovered-social-cards.png https://images.waylonwalker.com/stories/discovered-social-cards.png
+https://waylonwalker.com/stories/running-ci-for-hacktoberfest-kedro.png https://images.waylonwalker.com/stories/running-ci-for-hacktoberfest-kedro.png
+https://waylonwalker.com/stories/disable-base-pip.png       https://images.waylonwalker.com/stories/disable-base-pip.png
+https://waylonwalker.com/gitui-status.png                   https://images.waylonwalker.com/gitui-status.png
