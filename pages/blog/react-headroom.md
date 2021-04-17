@@ -42,7 +42,7 @@ Simply wrap your existing content, Nav in my case, with the `<Headroom />` compo
 
 I think this simple package completely changes the ux of your site on mobile.  You can get that sticky nav out of the way, but its still right there with just a little bit of a scroll up.
 
-![showing it in action on waylonwalker.com](https://waylonwalker.com/react-headroom-b.gif)
+![showing it in action on waylonwalker.com](https://images.waylonwalker.com/react-headroom-b.gif)
 
 > Here it is on [waylonwalker.com](https://waylonwalker.com)
 

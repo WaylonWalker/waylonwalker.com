@@ -29,7 +29,7 @@ Here are three different options that I have used in the past to try out somethi
 
 [repl.it](https://repl.it) has been my go-to place to practice python away from my local machine. It's super quick to spin up a new "project" add files, install libraries, and run a script. It's not quite as nice as having all of my personal keyboard shortcuts and extensions, but its the closest thing I have found.
 
-![repl.it example](https://waylonwalker.com/repl-it.gif)
+![repl.it example](https://images.waylonwalker.com/repl-it.gif)
 
 ## Show up for Practice
 

@@ -48,7 +48,7 @@ I am really enjoying the slide output of my articles on
 far.
 
 ![my linked in slide
-activity](https://waylonwalker.com/linkedin-activity-slides.gif)
+activity](https://images.waylonwalker.com/linkedin-activity-slides.gif)
 
 ## Threads
 
