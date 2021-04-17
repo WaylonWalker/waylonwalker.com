@@ -1,28 +1,28 @@
 # from markdown import Extension
 # from markdown.inlinepatterns import InlineProcessor
 # from markdown.preprocessors import Preprocessor
-from bs4 import BeautifulSoup
-import textwrap
 import re
-import twitter
-from markata.hookspec import hook_impl
-import requests
-import background
+import textwrap
 from pathlib import Path
-from diskcache import Cache
 
+import background
+import requests
+import twitter
+from bs4 import BeautifulSoup
+from diskcache import Cache
+from markata.hookspec import hook_impl
 
 RE_ONE_LINE = re.compile("^https://waylonwalker.com/.*")
 RE_TWEET = re.compile("^https://twitter.com/.*")
 
 API = twitter.Api()
 
-MARKATA_CACHE_DIR = Path(".") / ".markata.cache"
-MARKATA_CACHE_DIR.mkdir(exist_ok=True)
-cache = Cache(MARKATA_CACHE_DIR)
+# ARKATA_CACHE_DIR = Path(".") / ".markata.cache"
+# MARKATA_CACHE_DIR.mkdir(exist_ok=True)
+# cache = Cache(MARKATA_CACHE_DIR)
 
 
-@cache.memoize(tag="markata.one_line_link.expand_line", expire=15 * 24 * 60)
+# @cache.memoize(tag="markata.one_line_link.expand_line", expire=15 * 24 * 60)
 def expand_line(line):
     """
     Todo: better error message over base exception
@@ -116,17 +116,20 @@ def render(markata):
         expanded_content_key = markata.make_hash(
             "one_line_link", "render", "expanded_content", article["content_hash"]
         )
+        # with markata.cache as cache:
         html_from_cache = markata.cache.get(html_key)
         expanded_content_from_cache = markata.cache.get(expanded_content_key)
 
         if expanded_content_from_cache is None:
             expanded_content = expand_article(article.content)
+            # with markata.cache as cache:
             markata.cache.add(expanded_content_key, expanded_content)
         else:
             expanded_content = expanded_content_from_cache
 
         if html_from_cache is None:
             html = markata.md.convert(expanded_content)
+            # with markata.cache as cache:
             markata.cache.add(html_key, html)
         else:
             html = html_from_cache
