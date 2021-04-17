@@ -16,7 +16,7 @@
 
 # latest-post
 
-/latest                                                     /minimal-python-package
+/latest                                                     /minimal-python-package/
 /latest.png                                                 /minimal-python-package.png
 
 /latest-story.png                                           /stories/get-python-help-without-google.png
@@ -39,8 +39,8 @@
 /archive/cli/*                                              /archive/linux/:splat
 
 # refactor routes
-/blog/*                                                     /:splat
-/notes/*                                                    /:splat
+/blog/*                                                     /:splat/
+/notes/*                                                    /:splat/
 
 # Short-Blog
 /k166                                                       /whats-new-in-kedro-0166/
@@ -115,7 +115,7 @@
 
 # master -> main
 
-/today-i-learned-git-diff-feature-master/                   /git-diff-feature-main/
+/today-i-learned-git-diff-feature-master/                   /git-diff-branches/
 
 # underscores to -
 # this was a redesign done in 2020
@@ -138,7 +138,6 @@
 /interrogate-is-a-pretty-awesome-brand-new-cli-for-python-packages  /interrogate/
 /what-is-something-that-you-recently-learned-that-you-wish-you-would-have-learned-or-understood-earlier  /learn-early/
 /what-is-your-advice-for-new-data-scientists                /data-scientist-advice/
-/background-tasks-in-python-for-data-science                /background_py/
 /strip-trailing-whitespace-from-git-projects                /strip-trailing-whitespace/
 /rss-feed-for-your-gatsby-site                              /gatsby-rss-feed/
 /personal-url-shortener-with-netlify-redirects              /personal-url-shortener/
@@ -195,7 +194,7 @@
 # These are mystery links that I cannot find, but are dinging my ahrefs report
 # They have zero inlinks so they are likely external
 /whats-on-your-github-profile/                              /whats-on-your-github-profile/
-/what-is-something-that-you-recently-learned-that-you-wish-you-would-have-learned-or-understood-earlier-1/ /learn-early
+/what-is-something-that-you-recently-learned-that-you-wish-you-would-have-learned-or-understood-earlier-1/ /learn-early/
 /test-project-io-py-actions/                                /testproject-io-py-actions/
 /gratitude/good-morning/                                    /gratitude/
 /background_py                                              /python-data-science-background/
