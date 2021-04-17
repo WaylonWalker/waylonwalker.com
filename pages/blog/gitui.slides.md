@@ -54,7 +54,7 @@ right.
 ## Navigate with hjkl
 
 By default, `gitui` uses arrow keys, but simply copying
-[vim_style_key_config.ron](https://github.com/extrawurst/gitui/blob/master/assets/vim_style_key_config.ron)
+[vim_style_key_config.ron](https://github.com/extrawurst/gitui/blob/master/vim_style_key_config.ron)
 to your config directory will get you vim-like keybindings.
 
 ## workflow
