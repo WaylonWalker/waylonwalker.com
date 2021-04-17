@@ -210,6 +210,15 @@ p>img {
     margin: auto;
 }
 
+.center-img>img{
+    max-width: 600px;
+    margin: .5rem;
+}
+.center-img{
+    display: flex;
+    justify-content: center;
+}
+
 strong {
     color: #d68fbb;
     display: inline-block;
