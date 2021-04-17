@@ -21,4 +21,5 @@ def render(markata: "Markata") -> None:
                 (str(Path(article["path"]).parent / Path(article["path"]).stem))
                 .replace("pages/", "")
                 .replace("blog/", "")
+                .replace("notes/", "")
             )
