@@ -45,7 +45,7 @@ def create_page(markata, page, tags=None):
 def create_card(markata, post):
     return f"""
 <li class='post'>
-  <a href="{"/" + post['slug']}">
+  <a href="/{post['slug']}/">
     <h2 class='title'>{post['title']}</h2>
     <p class='description'>{post['long_description']}</p>
     <p class='date'>{post['date'].year}-{post['date'].month}-{post['date'].day}</p>
