@@ -4,7 +4,6 @@ tags: ['vim', 'bash']
 title: Vim Wsl Clipboard
 date: 2021-04-17T00:00:00
 status: published
-cover: "/static/vim-wsl-clipbaord.png"
 
 ---
 
