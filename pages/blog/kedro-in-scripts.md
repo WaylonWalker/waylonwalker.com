@@ -49,3 +49,104 @@ runner.run(pipeline, catalog)
 
 ```
 
+## Semi-automatic catalog
+
+For some reason when I tried to use the DataCatalogWithDefault it did not pick
+up my datasets right.  I suspect this has something to do with not setting up a
+proper session, so this is what I did in a pinch to get that catalog goodness
+for my DataFrames without setting up each one manually.
+
+
+``` python
+catalog = DataCatalog(
+    {
+        name: ParquetDataSet(filepath=f"data/{name}.parquet")
+        for name in pipeline.all_outputs()
+    }
+)
+```
+
+> for use with pandas
+
+For the example above that does not use DataFrames I would pickle all of my
+outputs to enable re-loading them later.
+
+``` python
+catalog = DataCatalog(
+    {
+        name: PickleDataSet(filepath=f"data/{name}.pkl")
+        for name in pipeline.all_outputs()
+    }
+)
+````
+
+## Logging
+
+Once you explicitly add datasets kedro will start logging when its
+loading, running, or saving each node.  This will start to look a
+bit more familiar to anyone who has used kedro before.
+
+``` python
+ww3 ↪main ©22-ty v3.8.8 ipython
+❯ runner.run(pipeline, catalog)
+2021-04-18 09:30:58,099 - kedro.pipeline.node - INFO - Running node: <lambda>(None) -> [range]
+2021-04-18 09:30:58,100 - kedro.io.data_catalog - INFO - Saving data to `range` (PickleDataSet)...
+2021-04-18 09:30:58,104 - kedro.runner.sequential_runner - INFO - Completed 1 out of 5 tasks
+2021-04-18 09:30:58,105 - kedro.io.data_catalog - INFO - Loading data from `range` (PickleDataSet)...
+2021-04-18 09:30:58,105 - kedro.pipeline.node - INFO - Running node: <lambda>([range]) -> [range**2]
+2021-04-18 09:30:58,105 - kedro.io.data_catalog - INFO - Saving data to `range**2` (PickleDataSet)...
+2021-04-18 09:30:58,111 - kedro.runner.sequential_runner - INFO - Completed 2 out of 5 tasks
+2021-04-18 09:30:58,111 - kedro.io.data_catalog - INFO - Loading data from `range**2` (PickleDataSet)...
+2021-04-18 09:30:58,112 - kedro.pipeline.node - INFO - Running node: <lambda>([range**2]) -> [range>5k]
+2021-04-18 09:30:58,112 - kedro.io.data_catalog - INFO - Saving data to `range>5k` (PickleDataSet)...
+2021-04-18 09:30:58,115 - kedro.runner.sequential_runner - INFO - Completed 3 out of 5 tasks
+2021-04-18 09:30:58,115 - kedro.io.data_catalog - INFO - Loading data from `range>5k` (PickleDataSet)...
+2021-04-18 09:30:58,115 - kedro.pipeline.node - INFO - Running node: <lambda>([range>5k]) -> [range>5k-mean]
+2021-04-18 09:30:58,115 - kedro.io.data_catalog - INFO - Saving data to `range>5k-mean` (PickleDataSet)...
+2021-04-18 09:30:58,118 - kedro.runner.sequential_runner - INFO - Completed 4 out of 5 tasks
+2021-04-18 09:30:58,119 - kedro.io.data_catalog - INFO - Loading data from `range>5k` (PickleDataSet)...
+2021-04-18 09:30:58,119 - kedro.pipeline.node - INFO - Running node: <lambda>([range>5k]) -> [range>5k-head]
+2021-04-18 09:30:58,119 - kedro.io.data_catalog - INFO - Saving data to `range>5k-head` (PickleDataSet)...
+2021-04-18 09:30:58,122 - kedro.runner.sequential_runner - INFO - Completed 5 out of 5 tasks
+2021-04-18 09:30:58,122 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+```
+
+## Kedro Viz
+
+I was not able to easily get kedro viz up and running for my use case.  If you
+really wanted to you could start modifying their format_pipelines_data function
+in
+[server.py](https://github.com/quantumblacklabs/kedro-viz/blob/main/package/kedro_viz/server.py).
+Or you could render a new template, and put your pipeline there for viz
+purposes.
+
+> It's possible, but might as well stick to the template
+
+## cli
+
+For something that I would be using this on I am probably not going to put much
+effort into the cli as its not likely something that we are going to have a
+team of developers interacting with contstantly.  I would just put together the
+minimum necessary to run my application how I need.
+
+
+``` python
+import sys
+
+if '--skip-raw' in sys.argv:
+    runner.run(pipeline.from_inputs('range**2'), catalog)
+else:
+    runner.run(pipeline, catalog)
+
+```
+
+## It's a bit Rough
+
+While I might use this in production somewhere, its going to be inside of some
+other not kedro application. I will still be using something quite similar to
+their template for my pipleining projects.  It misses out on some really good
+things that brings me to kedro like hooks, plugins, credentials, catalog,
+logging config, cli, and viz.
+
+
+
