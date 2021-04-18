@@ -14,6 +14,7 @@ technique it will be a good tool to keep in my back pocket when I want to
 sprinkle in a bit of kedro goodness in existing projects.
 
 ## No More Rabbit Hole of Errors
+_as of 0.17.2_
 
 I've tried to do this in kedro `0.16.x` and it turned into a rabbit hole of
 errors.  First kedro needed a `conf` directory, if you tried to fake one in it
@@ -24,16 +25,25 @@ project.
 
 ## Kedro in a script
 
+In order to get kedro running you are going to need a pipeline, catalog, and
+runner at a minimum.  For those who have used kedro before the pipeline will
+look very similar to what you are familiar with, but the catalog will not be
+loaded from yaml and you will need to bring your own runner.
+
 ``` python 
 from kedro.pipeline import Pipeline, node
 from kedro.io import DataCatalog
 from kedro.runner.sequential_runner import SequentialRunner
 
+
 # additional datasets you want to use
 from kedro.extras.datasets.pandas.csv_dataset import CSVDataSet
 from kedro.extras.datasets.pandas.parquet_dataset import ParquetDataSet
 
+# the seqential runner is the simplest, it runs one node at a time.
 runner = SequentialRunner()
+
+# this is a super simple example pipeline
 pipeline = Pipeline(
     [
         node(lambda: range(100), None, "range"),
@@ -43,11 +53,41 @@ pipeline = Pipeline(
         node(lambda x: sum(x) / len(x), "range>5k", "range>5k-mean"),
     ]
 )
+
+# to get up and running you can use an empty catalog
 catalog = DataCatalog()
 
 runner.run(pipeline, catalog)
-
 ```
+
+> Above is the minimal setup to get a kedro pipeline running
+
+## more practically
+
+More often your kedro pipelines are going to use a real function rather than a
+lambda, and pandas dataframes.
+
+
+``` python
+def clean_columns(df: pd.DataFrame):
+    df.columns = [col.lower().strip() for col in df.columns]
+
+pipeline = Pipeline(
+    [
+        node(clean_columns, "raw_data", "clean_columns", name="create_clean_columns"),
+    ]
+)
+
+catalog = DataCatalog(
+    {
+        "raw_data": ParquetDataSet(filepath=f"data/raw_data.parquet")
+        "clean_columns": ParquetDataSet(filepath=f"data/clean_columns.parquet")
+    }
+)
+```
+
+
+> One single node pipeline to get you started
 
 ## Semi-automatic catalog
 
@@ -80,6 +120,8 @@ catalog = DataCatalog(
 )
 ````
 
+> for use with non-pandas datasets
+
 ## Logging
 
 Once you explicitly add datasets kedro will start logging when its
@@ -87,7 +129,7 @@ loading, running, or saving each node.  This will start to look a
 bit more familiar to anyone who has used kedro before.
 
 ``` python
-ww3 ↪main ©22-ty v3.8.8 ipython
+ww3 ↪main ©kedro-in-scripts v3.8.8 ipython
 ❯ runner.run(pipeline, catalog)
 2021-04-18 09:30:58,099 - kedro.pipeline.node - INFO - Running node: <lambda>(None) -> [range]
 2021-04-18 09:30:58,100 - kedro.io.data_catalog - INFO - Saving data to `range` (PickleDataSet)...
