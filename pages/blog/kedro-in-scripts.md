@@ -118,7 +118,8 @@ catalog = DataCatalog(
         for name in pipeline.all_outputs()
     }
 )
-````
+```
+
 
 > for use with non-pandas datasets
 
@@ -173,12 +174,13 @@ minimum necessary to run my application how I need.
 
 
 ``` python
-import sys
+if __name__ == "__main__":
+    import sys
 
-if '--skip-raw' in sys.argv:
-    runner.run(pipeline.from_inputs('range**2'), catalog)
-else:
-    runner.run(pipeline, catalog)
+    if '--skip-raw' in sys.argv:
+        runner.run(pipeline.from_inputs('range**2'), catalog)
+    else:
+        runner.run(pipeline, catalog)
 
 ```
 
