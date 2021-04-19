@@ -35,4 +35,4 @@ levels to ERROR as most errors should stop execution anyways.
 | DEBUG    | 10            |
 | NOTSET   | 0             |
 
-## Gett
+## Get
