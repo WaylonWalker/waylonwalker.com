@@ -157,7 +157,7 @@ Your average post.  There are a lot of great techniques to making the average po
 
 @taillogs has a good article on his process to writing a good post.
 
-For those struggling to find what to write about, this is a great article from @swyx [learn-in-public-hack](https://www.swyx.io/writing/learn-in-public-hack)
+For those struggling to find what to write about, this is a great article from @swyx [learn-in-public-hack](https://www.swyx.io/writing/puwtpd)
 
 ## series
 
