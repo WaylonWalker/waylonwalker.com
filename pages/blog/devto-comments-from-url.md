@@ -18,7 +18,7 @@ I want to incorporate some of the wonderful comments, 💕, 🦄, and 🔖's tha
 
 ## The API
 
-dev.to has an open API that allows us to easily get comments as HTML.  They have their API hosted at [https://docs.dev.to/api/#tag/comments](https://docs.dev.to/api/#tag/comments), let's take a look at it.
+dev.to has an open API that allows us to easily get comments as HTML.  They have their API hosted at [https://docs.forem.com/api/#tag/comments](https://docs.forem.com/api/#tag/comments), let's take a look at it.
 
 ![](https://images.waylonwalker.com/dev-to-api-comments.png)
 
