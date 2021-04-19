@@ -49,7 +49,7 @@ class PostExistsError(FileExistsError):
 
 
 directory = pathlib.Path(__file__).parent
-path = pathlib.Path(f"{directory}/src/pages/blog/{slug}.md")
+path = pathlib.Path(f"{directory}/pages/blog/{slug}.md")
 
 if path.exists():
     raise PostExistsError(f"Post Already exists at {path}")
