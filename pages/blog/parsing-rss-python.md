@@ -132,7 +132,7 @@ This post was super fun to explore.  I used an external library (`feedparser`) t
 
 ## Trying to step up your python game
 
-While trying to step up your skills you will need lots of practice.  Its good to have several options to try out ideas quickly.  I often use repl.it, check out this post to see how I use it.
+While trying to step up your skills you will need lots of practice.  Its good to have several options to try out ideas quickly.  I often use replit.com, check out this post to see how I use it.
 
 https://waylonwalker.com/practice-python-online
 

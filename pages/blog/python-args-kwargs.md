@@ -142,7 +142,7 @@ dinner ham
 
 ---
 
-I setup a repl.it with these examples so that you can quickly jump in, run it, break it, fix it, add breakpoints and really get a feel for them yourself. Check it out 👉 [https://repl.it/@WaylonWalker/args#main.py](https://repl.it/@WaylonWalker/args#main.py)
+I setup a replit.com with these examples so that you can quickly jump in, run it, break it, fix it, add breakpoints and really get a feel for them yourself. Check it out 👉 [https://replit.com/@WaylonWalker/args#main.py](https://replit.com/@WaylonWalker/args#main.py)
 
 ---
 
