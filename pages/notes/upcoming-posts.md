@@ -79,7 +79,7 @@ cover: ''
 * [ternary operators](https://stackoverflow.com/questions/394809/does-python-have-a-ternary-conditional-operator)
 * [check if file exists](https://stackoverflow.com/questions/82831/how-do-i-check-whether-a-file-exists-without-exceptions)
 * [calling external commands](https://stackoverflow.com/questions/89228/calling-an-external-command-from-python)
-* [merging dictionaries](https://stackoverflow.com/questions/38987/how-do-i-merge-two-dictionaries-in-a-single-expression-in-python-taking-union-o)
+* [merging dictionaries](https://stackoverflow.com/questions/38987/how-do-i-merge-two-dictionaries-in-a-single-expression-taking-union-of-dictiona)
 * zip
 
 ## learning

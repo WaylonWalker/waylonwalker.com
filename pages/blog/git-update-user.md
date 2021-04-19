@@ -9,7 +9,7 @@ tags:
 
 ---
 
-This morning I log into my VCS and check activity on my projects to find that **someone else** has been _very_ active on my projects fo the last few weeks. I quicklyhover over the missing avatar to find that **It's Me**.  What's wrong here, why do I look like two different people throughout the day!  upon further investigation I see the issue.  while setting up a new terminal environment I mistyped my email address by **one character**.  After much searching and a few failed attempts I was able to fix it by following this article https://help.github.com/articles/changing-author-info/.
+This morning I log into my VCS and check activity on my projects to find that **someone else** has been _very_ active on my projects fo the last few weeks. I quicklyhover over the missing avatar to find that **It's Me**.  What's wrong here, why do I look like two different people throughout the day!  upon further investigation I see the issue.  while setting up a new terminal environment I mistyped my email address by **one character**.  After much searching and a few failed attempts I was able to fix it by following an article no longer available (2021) from https://help.github.com/articles.
 
 
 ## Bare Clone

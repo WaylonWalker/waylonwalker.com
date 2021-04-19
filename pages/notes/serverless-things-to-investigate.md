@@ -28,6 +28,6 @@ cover: ''
 
 Free to get started
 
-[https://formkeep.com/pricing](https://formkeep.com/pricing "https://formkeep.com/pricing")
+[https://formkeep.com/?#pricing](https://formkeep.com/?#pricing "https://formkeep.com/?#pricing")
 
 Free 7 day trial $4.99 cheapest after

@@ -31,7 +31,7 @@ Mypy's config parser seems to be one of the most complex.  This is likely in par
 
 * only uses pyproject.toml
 
-[portray/config.py](https://github.com/timothycrosley/portray/blob/master/portray/config.py)
+[portray/config.py](https://github.com/timothycrosley/portray/blob/main/pomasterrtray/config.py)
 
 ## interrogate
 
