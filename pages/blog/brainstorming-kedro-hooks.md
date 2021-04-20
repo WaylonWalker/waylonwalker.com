@@ -73,7 +73,7 @@ hooks with `trylast` will be moved to the end of the list
   * Yes
 *
 
-### \[steel toes\](https://github.com/waylonwalker/steel-toes/)6
+### 🥾[steel toes](https://github.com/waylonwalker/steel-toes/)
 
 _I was way too excited about this one and already created it_
 
