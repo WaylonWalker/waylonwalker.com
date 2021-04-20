@@ -22,7 +22,7 @@ def create_page(markata, page, tags=None):
 
     if tags is not None:
         posts = [post for post in posts if set(post["tags"]) & set(tags)]
-        description = f"{description} of {tags}"
+        description = f"{description} of {tags[0]}"
 
 
     cards = [create_card(markata, post) for post in posts]
