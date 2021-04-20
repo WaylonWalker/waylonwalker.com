@@ -5,8 +5,6 @@ tags: []
 title: Serverless things to investigate
 date: 2020-02-10T15:00:00Z
 status: published
-description: ''
-cover: ''
 
 ---
 
@@ -24,7 +22,7 @@ cover: ''
 
 ## Form submission
 
-[https://getform.io/forms](https://getform.io/forms "https://getform.io/forms")
+[https://getform.io](https://getform.io/forms "https://getform.io")
 
 Free to get started
 
