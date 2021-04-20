@@ -18,8 +18,12 @@ def create_page(markata, page, tags=None):
 
     posts = [post for post in all_posts if post["status"] == "published"]
 
+    description = markata.description
+
     if tags is not None:
         posts = [post for post in posts if set(post["tags"]) & set(tags)]
+        description = f"{description} of {tags}"
+
 
     cards = [create_card(markata, post) for post in posts]
     with open(markata.config["archive"]["archive_template"]) as f:
@@ -31,12 +35,13 @@ def create_page(markata, page, tags=None):
             Path(markata.config["output_dir"]) / "archive" / page / "index.html"
         )
     output_file.parent.mkdir(exist_ok=True, parents=True)
+    
     with open(output_file, "w+") as f:
         f.write(
             template.safe_substitute(
                 body="".join(cards),
                 url=markata.config["url"],
-                descriiption=markata.config["description"],
+                descriiption=description,
                 title=markata.config["title"],
             )
         )
