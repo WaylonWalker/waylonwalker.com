@@ -25,7 +25,7 @@ First off if you are stuck using cmd.exe, do yourself a favor and get cmder.  It
 
 ## Example
 
-![](/cmd_exe_history_2.gif)
+![](https://images.waylonwalker.com/cmd_exe_history_2.gif)
 
 ## .bat
 
