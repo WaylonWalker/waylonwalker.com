@@ -41,7 +41,7 @@ def create_page(markata, page, tags=None):
             template.safe_substitute(
                 body="".join(cards),
                 url=markata.config["url"],
-                descriiption=description,
+                description=description,
                 title=markata.config["title"],
             )
         )
