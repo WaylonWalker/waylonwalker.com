@@ -13,6 +13,8 @@ using the version that I specify at creation.
 
 ## Mamba
 
+_from their readme_
+
 ---
 
 Mamba is a reimplementation of the conda package manager in C++.
@@ -24,8 +26,6 @@ Mamba is a reimplementation of the conda package manager in C++.
 At the same time, mamba utilize the same command line parser, package
 installation and deinstallation code and transaction verification routines as
 conda to stay as compatible as possible.
-
-_from their readme_
 
 ---
 
