@@ -11,6 +11,24 @@ I really like using conda (`miniconda`) as my python virtual environment
 manager of choice.  It's simple and it includes its own python interpreter
 using the version that I specify at creation.
 
+## Mamba
+
+---
+
+Mamba is a reimplementation of the conda package manager in C++.
+
+* parallel downloading of repository data and package files using multi-threading
+* libsolv for much faster dependency solving, a state of the art library used in the RPM package manager of Red Hat, Fedora and OpenSUSE
+* core parts of mamba are implemented in C++ for maximum efficiency
+
+At the same time, mamba utilize the same command line parser, package
+installation and deinstallation code and transaction verification routines as
+conda to stay as compatible as possible.
+
+_from their readme_
+
+---
+
 
 ## Installing Micromamba
 
