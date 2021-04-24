@@ -13,19 +13,19 @@ status: draft
 
 ## prefix+w
 
-![jump to existing sessions with prefix+w](https://images.waylonwalker.com/tmux-navigation-prefix+w.gif "using prefix+w")
+![jump to existing sessions with prefix+w](https://images.waylonwalker.com/tmux-navigation-2021-prefix+w.gif "using prefix+w")
 
 ## prefix+c-w prefix+c-g
 
-![create a new session from my ~/git directory](https://images.waylonwalker.com/tmux-navigation-prefix+c-g.gif "using prefix+c-g")
+![create a new session from my ~/git directory](https://images.waylonwalker.com/tmux-navigation-2021-prefix+c-g.gif "using prefix+c-g")
 
 ## prefix+c-j
 
-![jump to existing sessions with prefix+c-j](https://images.waylonwalker.com/tmux-navigation-prefix+c-j.gif "using prefix+c-j")
+![jump to existing sessions with prefix+c-j](https://images.waylonwalker.com/tmux-navigation-2021-prefix+c-j.gif "using prefix+c-j")
 
 ## M-N M-P
 
-![jump to next or previous sessions with m-N or m-P](https://images.waylonwalker.com/tmux-navigation-m-N-M-P.gif "using m-N and m-P")
+![jump to next or previous sessions with m-N or m-P](https://images.waylonwalker.com/tmux-navigation-2021-m-N-M-P.gif "using m-N and m-P")
 
 ## tkill
 
