@@ -34,6 +34,10 @@ change_speed = (speed) => [...document.querySelectorAll('video')].map(v => v.pla
 }
 </style>
 
+In 2021 I changed the way I navigate between tmux sessions big time.  Now I am
+able to create, kill, switch with ease and generally keeping work separated
+into logical groups.
+
 <!-- ![overview of how I switch and manage tmux sessions](https://images.waylonwalker.com/tmux-navigation-2021.gif "overview") -->
 <video controls muted autoplay playsinline loop=true width="100%">
     <source src="https://images.waylonwalker.com/tmux-navigation-2021.webm"
