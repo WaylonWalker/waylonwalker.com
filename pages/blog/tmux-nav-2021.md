@@ -41,6 +41,21 @@ In 2021 I changed the way I navigate between tmux sessions big time.  Now I am
 able to create, kill, switch with ease and generally keeping work separated
 into logical groups.
 
+## Chris Toomey's Tmux Course
+
+I took Chris's [tmux course](https://thoughtbot.com/upcase/tmux) in December
+2020 and it was fantastic.  Even as a seasoned tmux user I learned quite a bit.
+Prior to the course I was quite proficient in nagigating my tmux sessions, but
+rarely started more than one session.  A few months later I have adopted a lot
+of what I learned from Chris and made it my own.
+
+> Prior to the course I was quite proficient in nagigating my tmux sessions, but
+> rarely started more than one session.
+
+### 📝 NOTE
+
+Some of my config comes straight from the course, some of it has been extended to my liking.
+
 <!-- ![overview of how I switch and manage tmux sessions](https://images.waylonwalker.com/tmux-navigation-2021.gif "overview") -->
 <video controls muted autoplay playsinline loop=true width="100%">
     <source src="https://images.waylonwalker.com/tmux-navigation-2021.webm"
@@ -60,6 +75,24 @@ into logical groups.
 </div>
 
 ## ta
+
+<!-- ![overview of how I switch and manage tmux sessions](https://images.waylonwalker.com/tmux-navigation-2021-ta.gif "overview") -->
+<video controls muted autoplay playsinline loop=true width="100%">
+    <source src="https://images.waylonwalker.com/tmux-navigation-2021-ta.webm"
+            type="video/webm">
+    <source src="https://images.waylonwalker.com/tmux-navigation-2021-ta.mp4"
+            type="video/mp4">
+    Sorry, your browser doesn't support embedded videos.
+</video>
+
+<div class='speed-control'>
+    <button onclick="change_speed(.25)" >
+        speed up
+    </button>
+    <button onclick="change_speed(-.25)" >
+        slow down
+    </button>
+</div>
 
 ## prefix+w
 
