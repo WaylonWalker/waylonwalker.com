@@ -15,7 +15,10 @@ change_speed = (speed) => [...document.querySelectorAll('video')].map(v => v.pla
     display: flex;
     flex-direction: row;
     justify-content: center;
-
+    margin-top: -1rem;
+    padding: 1rem 0 .5rem;
+    background: rgba(0,0,0, .3);
+    pause-before:
 }
 .speed-control button {
     margin: .4;
