@@ -41,7 +41,7 @@ In 2021 I changed the way I navigate between tmux sessions big time.  Now I am
 able to create, kill, switch with ease and generally keeping work separated
 into logical groups.
 
-## Chris Toomey's Tmux Course
+## [Chris Toomey's](https://twitter.com/christoomey) Tmux Course
 
 I took Chris's [tmux course](https://thoughtbot.com/upcase/tmux) in December
 2020 and it was fantastic.  Even as a seasoned tmux user I learned quite a bit.
