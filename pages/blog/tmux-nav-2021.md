@@ -76,6 +76,12 @@ Some of my config comes straight from the course, some of it has been extended t
 
 ## ta
 
+At the heart of my tmux navigation is a highly customized version of Chris's
+tat script that I renamed `ta`.  Many folks add this to their bashrc `alias
+ta=tmux attach`.  Simply calling ta will do the same thing as shown below.  If
+your in a tmux session it does nothing, if your not in one it will attach you
+to the first one.
+
 <!-- ![overview of how I switch and manage tmux sessions](https://images.waylonwalker.com/tmux-navigation-2021-ta.gif "overview") -->
 <video controls muted autoplay playsinline loop=true width="100%">
     <source src="https://images.waylonwalker.com/tmux-navigation-2021-ta.webm"
@@ -93,6 +99,11 @@ Some of my config comes straight from the course, some of it has been extended t
         slow down
     </button>
 </div>
+
+### but theres more
+_give it a directory_
+
+passing in a 
 
 ## prefix+w
 
