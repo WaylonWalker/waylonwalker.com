@@ -203,6 +203,18 @@ bind S choose-session
 
 ## prefix+c-w prefix+c-g
 
+I setup to make it easy to open my non-work projects _(in my ~/git directory)_
+and my work projects _(in my ~/work directory)_.  I bound `prefix+c-g` and
+`prefix+c-w` to open a new session in their respecive directories.  I like
+mapping common prefix commands with control so I can keep my pinky mashed on
+that control key.
+
+``` bash
+# ~/.tmux.conf
+
+bind C-w new-window -n "work-session-picker" "ta ~/work"
+bind C-g new-window -n "git-session-picker" "ta ~/git"
+```
 
 <!-- ![create a new session from my ~/git directory](https://images.waylonwalker.com/tmux-navigation-2021-prefix+c-g.gif "using prefix+c-g") -->
 <video controls muted autoplay playsinline loop=true width="100%">
