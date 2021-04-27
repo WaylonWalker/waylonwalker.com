@@ -12,6 +12,7 @@ change_speed = (speed) => [...document.querySelectorAll('video')].map(v => v.pla
 </script>
 <style>
 table {
+    border-collapse: collapse;
     margin: auto;
 }
 table, th, td {
