@@ -1,18 +1,17 @@
 ---
 templateKey: blog-post
-related_post_label: Check out this related post
-tags: []
-title: understanding python *args and **kwargs
+tags: ['python']
+title: understanding python \*args and \*\*kwargs
 date: 2020-06-10T05:00:00Z
 status: published
-description: Python `*args` and `**kwargs` are super useful tools, that when
-  used properly can make you code much simpler and easier to maintain.  Large
-  manual conversions from a dataset to function arguments can be packed and
-  unpacked into lists or dictionaries. Beware though, this power **can** lead
-  to some really unreadable/unusable code if done wrong.
-cover: '/static/python-args-kwargs.png'
 
 ---
+
+Python `*args` and `**kwargs` are super useful tools, that when used properly
+can make you code much simpler and easier to maintain.  Large manual
+conversions from a dataset to function arguments can be packed and unpacked
+into lists or dictionaries. Beware though, this power **can** lead to some
+really unreadable/unusable code if done wrong.
 
 <style>
 /* h2 {display: block;} */
