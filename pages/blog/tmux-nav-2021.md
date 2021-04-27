@@ -74,6 +74,8 @@ Some of my config comes straight from the course, some of it has been extended t
     </button>
 </div>
 
+> Overview of how I navigate tmux
+
 ## ta
 
 At the heart of my tmux navigation is a highly customized version of Chris's
@@ -100,10 +102,50 @@ to the first one.
     </button>
 </div>
 
+> attaching to a session by default
+
+In my `~/.bashrc` or `~/.zshrc` I add the ta command to automatically connect
+to tmux.  Whenever I open my terminal I am automatically dropped into a tmux
+session, but if I am opening a split within tmux It's smart enough to know not
+to nest tmux sessions.
+
+``` bash
+ta
+```
+
 ### but theres more
+
 _give it a directory_
 
-passing in a 
+``` bash
+ta ~/git
+```
+
+<!-- ![overview of how I switch and manage tmux sessions](https://images.waylonwalker.com/tmux-navigation-2021-ta-directory.gif "overview") -->
+<video controls muted autoplay playsinline loop=true width="100%">
+    <source src="https://images.waylonwalker.com/tmux-navigation-2021-ta-directory.webm"
+            type="video/webm">
+    <source src="https://images.waylonwalker.com/tmux-navigation-2021-ta-directory.mp4"
+            type="video/mp4">
+    Sorry, your browser doesn't support embedded videos.
+</video>
+
+<div class='speed-control'>
+    <button onclick="change_speed(.25)" >
+        speed up
+    </button>
+    <button onclick="change_speed(-.25)" >
+        slow down
+    </button>
+</div>
+
+> give it a directory, it will ask for input to which project and start a new
+> named session in that directory.
+
+Note that starting from outside currently does not start in a split layout like
+it does when starting fromo within tmux.  I am still playing with this, but
+generally I want my terminal session to be plain when I first start my
+terminal.  Generally I am starting work after the first default session.
 
 ## prefix+w
 
