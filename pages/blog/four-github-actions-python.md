@@ -1,20 +1,21 @@
 ---
 templateKey: blog-post
-related_post_label: Check out this related post
 tags:
 - actions
+- python
 title: Four Github Actions for Python
 date: 2020-04-13T06:23:00.000+00:00
 status: published
-description: 
-  If you are developing python packages and using GitHub here are four actions
-  that you can use today to automate your release workflow.  Since python tools
-  generally have such a simple cli I have opted to use the cli for most of
-  these, that way I know exactly what is happening and have more control over
-  it if I need.
 cover: "/static/four-github-actions-python.png"
 
 ---
+
+If you are developing python packages and using GitHub here are four actions
+that you can use today to automate your release workflow.  Since python tools
+generally have such a simple cli I have opted to use the cli for most of these,
+that way I know exactly what is happening and have more control over it if I
+need.
+
 <style>
 h2 img { width: 100%; box-shadow: .5rem .5rem 3rem #141F2D, -.5rem -.5rem 3rem rgba(255,255,255,.1);}
 img{ max-width: 100% !important;}
