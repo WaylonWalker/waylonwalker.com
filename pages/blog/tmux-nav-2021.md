@@ -11,6 +11,12 @@ status: draft
 change_speed = (speed) => [...document.querySelectorAll('video')].map(v => v.playbackRate=v.playbackRate+speed)
 </script>
 <style>
+table {
+    margin: auto;
+}
+table, th, td {
+  border: 1px solid rgba(255,255,255,.4);
+}
 .speed-control {
     display: flex;
     flex-direction: row;
