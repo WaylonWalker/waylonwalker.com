@@ -183,6 +183,8 @@ hitting l, or fold it with h. You can search for a session name by hitting /.
 </div>
 
 ``` bash
+# ~/.tmux.conf
+
 # expanded to show all splits
 bind s choose-tree
 # simpler window to show only sessions
