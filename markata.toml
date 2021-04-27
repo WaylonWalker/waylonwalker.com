@@ -1,6 +1,6 @@
 [markata]
 # bump site version to bust GitHub actions cache
-site_version = 7
+site_version = 8
 glob_patterns = "pages/**/*.md"
 # markdown_extensions = ["plugins.one_line_link"]
 output_dir = "markout"
