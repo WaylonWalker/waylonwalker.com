@@ -1,19 +1,18 @@
 ---
 templateKey: blog-post
-related_post_label: Check out this related post
-tags: ['kedro']
+tags: ['kedro', 'python']
 title: What is Kedro
 date: 2020-02-24T12:48:00Z
 status: published
-description: Kedro is an open source data pipeline framework.  It provides
-  guardrails to set your project up right from the start without needing to
-  know deeply how to setup your own python library for data pipelining.  It
-  includes really great ways to manipulate `catalogs` and `pipelines`.  This
-  article will cover the 10K view of kedro, future articles will dive deper
-  into each one.
-cover: "/static/what-is-kedro.png"
 
 ---
+
+
+Kedro is an open source data pipeline framework.  It provides guardrails to set
+your project up right from the start without needing to know deeply how to
+setup your own python library for data pipelining.  It includes really great
+ways to manipulate `catalogs` and `pipelines`.  This article will cover the 10K
+view of kedro, future articles will dive deper into each one.
 
 [kedro](https://kedro.readthedocs.io) is an open-source data pipeline framework.  It provides guardrails to set your project up right from the start without needing to know deeply how to set up your own python library for data pipelining.  It includes great ways to manipulate `catalogs` and `pipelines`.  This article will cover the 10K view of [kedro](https://kedro.readthedocs.io), future articles will dive deeper into each one.
 
