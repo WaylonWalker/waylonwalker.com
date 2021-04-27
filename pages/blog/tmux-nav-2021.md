@@ -150,7 +150,7 @@ ta ~/git
     </button>
 </div>
 
-> give it a directory, it will ask for input to which project and start a new
+> 👆 give it a directory, it will ask for input to which project and start a new
 > named session in that directory.
 
 Note that starting from outside currently does not start in a split layout like
