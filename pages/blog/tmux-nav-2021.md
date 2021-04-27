@@ -102,7 +102,7 @@ to the first one.
     </button>
 </div>
 
-> attaching to a session by default
+> 👆 attaching to a session by default
 
 In my `~/.bashrc` or `~/.zshrc` I add the ta command to automatically connect
 to tmux.  Whenever I open my terminal I am automatically dropped into a tmux
@@ -115,11 +115,15 @@ ta
 
 ### but theres more
 
-_give it a directory_
+Give it a directory and a `fzy` dropdown will let you choose a subdirectory to
+start your session in, and name the session after that directory.
 
 ``` bash
 ta ~/git
 ```
+
+> 🔥 Bonus, use direnv to automatically set settings, echo your git status,
+> activate your environment, or whatever else you need.
 
 <!-- ![overview of how I switch and manage tmux sessions](https://images.waylonwalker.com/tmux-navigation-2021-ta-directory.gif "overview") -->
 <video controls muted autoplay playsinline loop=true width="100%">
@@ -148,6 +152,12 @@ generally I want my terminal session to be plain when I first start my
 terminal.  Generally I am starting work after the first default session.
 
 ## prefix+w
+_tmux choose-tree_
+
+By default tmux comes with a `tmux choose-tree` command bound to `prefix+w`,
+which opens in full screen.  The upper section of the screen will show every
+window opened.  While selected you can show the splits in each window by
+hitting l, or fold it with h. You can search for a session name by hitting /.
 
 <!-- ![jump to existing sessions with prefix+w](https://images.waylonwalker.com/tmux-navigation-2021-prefix+w.gif "using prefix+w") -->
 <video controls muted autoplay playsinline loop=true width="100%">
@@ -166,7 +176,25 @@ terminal.  Generally I am starting work after the first default session.
     </button>
 </div>
 
+``` bash
+# expanded to show all splits
+bind s choose-tree
+# simpler window to show only sessions
+bind S choose-session
+```
+
+### Keybindings in choose-tree/choose-session
+
+| action | key |
+|--------|-----|
+| fold   | h   |
+| unfold | l   |
+| up     | k   |
+| down   | j   |
+| search | /   |
+
 ## prefix+c-w prefix+c-g
+
 
 <!-- ![create a new session from my ~/git directory](https://images.waylonwalker.com/tmux-navigation-2021-prefix+c-g.gif "using prefix+c-g") -->
 <video controls muted autoplay playsinline loop=true width="100%">
