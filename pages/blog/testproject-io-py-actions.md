@@ -68,7 +68,7 @@ In your GitHub repo go to `settings>Secrets`, or append `settings/secrets` to th
 To expedite development I went ahead and set up development environment that I could log into on Digital Ocean.  This allowed me to get all of my tests working a bit quicker than just running them through GitHub, but being as similar as possible.  This allowed me to learn the ins and outs of setting up TestProject without needing to do a full install every time through Github's actions.
 
 <p style='text-align: center'>
-<a href='https://waylonwalker.com/notes/new-machine-tpio'>
+<a href='https://waylonwalker.com/notes/new-machine-tpio/'>
   <img
     style='width:500px; max-width:80%; margin: auto;'
     src="https://images.waylonwalker.com/new-machine-tpio-rm.png"
@@ -77,10 +77,10 @@ To expedite development I went ahead and set up development environment that I c
   </a>
 </p>
 
-> I am not going to go into full dev machine setup here, but you can read my [setup notes](https://waylonwalker.com/notes/new-machine-tpio).
+> I am not going to go into full dev machine setup here, but you can read my [setup notes](https://waylonwalker.com/notes/new-machine-tpio/).
 
 ## 🐍 Pytest
-_you can see all of the tests ran with pytest on [github](https://github.com/waylonwalker/waylonwalker-com-tests/tree/master/tests)_
+_you can see all of the tests ran with pytest on [github](https://github.com/waylonwalker/waylonwalker-com-tests/tree/main/tests)_
 
 I chose to go down the route of using pytest.  I really liked the idea of utilizing fixtures, automatically running my test functions, and utilizing a bit of the pytest reporting capabilities.
 
@@ -88,10 +88,10 @@ I chose to go down the route of using pytest.  I really liked the idea of utiliz
 
 
 ## conftest.py
-_You can see the [conftest.py](https://github.com/WaylonWalker/waylonwalker-com-tests/blob/master/tests/conftest.py) live on GitHub._
+_You can see the [conftest.py](https://github.com/WaylonWalker/waylonwalker-com-tests/blob/main/tests/conftest.py) live on GitHub._
 
 
-pytest automatically imports [conftest.py](https://github.com/WaylonWalker/waylonwalker-com-tests/blob/master/tests/conftest.py) modules from the same directory that you are working from.  It's common to place fixtures used across multiple files here.  I placed a driver fixture in this module so that as I create more tests it will be available everywhere by default.
+pytest automatically imports [conftest.py](https://github.com/WaylonWalker/waylonwalker-com-tests/blob/main/tests/conftest.py) modules from the same directory that you are working from.  It's common to place fixtures used across multiple files here.  I placed a driver fixture in this module so that as I create more tests it will be available everywhere by default.
 
 > conftest.py stores fixtures for all modules in a directory.
 
@@ -110,13 +110,13 @@ def driver():
     yield driver
     driver.quit()
 ```
-> Look at the full version of [conftest.py](https://github.com/WaylonWalker/waylonwalker-com-tests/blob/master/tests/conftest.py)
+> Look at the full version of [conftest.py](https://github.com/WaylonWalker/waylonwalker-com-tests/blob/main/tests/conftest.py)
 
 The above sample is a bit **simplified**.  I ran into some inconsistencies in the real version and found that some tests had a better pass rate if I added a wait.  I ended up with a `driver` and a `slow_driver` fixture.
 
 ## test_repos.py
 
-_see the full [testrepos.py](https://github.com/WaylonWalker/waylonwalker-com-tests/blob/master/tests/test_repos.py) on GitHub_
+_see the full [testrepos.py](https://github.com/WaylonWalker/waylonwalker-com-tests/blob/main/tests/test_repos.py) on GitHub_
 
 
 I have initially set up 3 different tests for the repo cards.  I set a list of repos that I expect to show up in the cards.  These tests are quite easy to do with TestProject.io as it is using selenium and a headless browser to execute javascript under the hood.
@@ -189,13 +189,13 @@ I was a bit confused about how to set up TestProject.io inside of actions.  I wa
 
 ## GitHub Actions 🎬
 
-_[test-waylonwalker-com.yml](https://github.com/WaylonWalker/waylonwalker-com-tests/blob/master/.github/workflows/test-waylonwalker-com.yml)_
+_[test-waylonwalker-com.yml](https://github.com/WaylonWalker/waylonwalker-com-tests/blob/main/.github/workflows/test-waylonwalker-com.yml)_
 
 GitHub actions are a continuous integration, continuous delivery service by GitHub that will spin up a VM and run a set of steps upon a number of triggers including push, pull request, and schedule.
 ---
 
 <p style='text-align: center'>
-<a href='https://waylonwalker.com/github-actions-syntax'>
+<a href='https://waylonwalker.com/github-actions-syntax/'>
   <img
     style='width:500px; max-width:80%; margin: auto;'
     src="https://images.waylonwalker.com/github-actions-syntax-rm.png"
@@ -208,13 +208,13 @@ GitHub actions are a continuous integration, continuous delivery service by GitH
 
 ---
 
-Now that I have my GitHub repo setup with my [tests](https://github.com/WaylonWalker/waylonwalker-com-tests/tree/master/tests) successfully running in pytest, let's get it running inside of GitHub actions automatically.
+Now that I have my GitHub repo setup with my [tests](https://github.com/WaylonWalker/waylonwalker-com-tests/tree/main/tests) successfully running in pytest, let's get it running inside of GitHub actions automatically.
 
 ``` yaml
 name: Test WaylonWalker.com
 
 # Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the master branch
+# events but only for the main branch
 on:
   push:
     branches: [ main ]
@@ -253,14 +253,14 @@ jobs:
         TP_AGENT_URL: http://localhost:8585
 ```
 
-In the test job you can see that we have rendered the [TP\_API\_KEY](https://app.TestProject.io/#/integrations/api) into the [docker-compose.yml](https://github.com/WaylonWalker/waylonwalker-com-tests/blob/master/.github/ci/docker-compose.yml) using `envsubst` file so that TestProject has access to it.  We have also exposed our [TP\_DEV\_TOKEN ](https://app.TestProject.io/#/integrations/sdk) to pytest.
+In the test job you can see that we have rendered the [TP\_API\_KEY](https://app.TestProject.io/#/integrations/api) into the [docker-compose.yml](https://github.com/WaylonWalker/waylonwalker-com-tests/blob/main/.github/ci/docker-compose.yml) using `envsubst` file so that TestProject has access to it.  We have also exposed our [TP\_DEV\_TOKEN ](https://app.TestProject.io/#/integrations/sdk) to pytest.
 
 
 ## docker-compose.yml
 
-_[docker-compose.yml](https://github.com/WaylonWalker/waylonwalker-com-tests/blob/master/.github/ci/docker-compose.yml)_
+_[docker-compose.yml](https://github.com/WaylonWalker/waylonwalker-com-tests/blob/main/.github/ci/docker-compose.yml)_
 
-The following [docker-compose.yml](https://github.com/WaylonWalker/waylonwalker-com-tests/blob/master/.github/ci/docker-compose.yml) file was graciously contributed by [@vitalybu](https://github.com/vitalybu) in the [testproject-io/java-sdk](https://github.com/testproject-io/java-sdk/blob/master/.github/ci/docker-compose.yml) repo.  It sets up a template with the **`TP_API_KEY`** as a variable for envsubst, headless browsers for chrome and firefox, and the TestProject.io agent.
+The following [docker-compose.yml](https://github.com/WaylonWalker/waylonwalker-com-tests/blob/main/.github/ci/docker-compose.yml) file was graciously contributed by [@vitalybu](https://github.com/vitalybu) in the [testproject-io/java-sdk](https://github.com/testproject-io/java-sdk/blob/master/.github/ci/docker-compose.yml) repo.  It sets up a template with the **`TP_API_KEY`** as a variable for envsubst, headless browsers for chrome and firefox, and the TestProject.io agent.
 
 ``` yaml
 version: "3.1"
@@ -297,7 +297,7 @@ services:
 ```
 
 ## ⌚ Waiting for the Agent to register
-_[wait for agent.sh](https://waylonwalker.com/waitforagent.sh)_
+_[wait for agent.sh](https://github.com/WaylonWalker/waylonwalker-com-tests/blob/main/.github/ci/wait_for_agent.sh)_
 
 I think the most interesting part of the workflow above is how we wait for the agent to register.  The shell script is a bit terse, but it looks for exceeding the `max_attempts` allowed or that the agent has started by using its `/api/status` rest API.  This prevents us from wasting too much time by setting a big wait, or trying to move on too early and running pytest without a running agent.
 
@@ -359,7 +359,7 @@ If you're new to actions check out this article on using actions.
 <TABLE>
 <TR>
    <TD>
-      <a href='https://waylonwalker.com/four-github-actions-website'>
+      <a href='https://waylonwalker.com/four-github-actions-website/'>
       <img
          style='margin: auto; float: left'
          src="https://images.waylonwalker.com/four-github-actions-website-rm.png"
@@ -368,7 +368,7 @@ If you're new to actions check out this article on using actions.
       </a>
    </TD>
    <TD>
-      <a href='https://waylonwalker.com/four-github-actions-python'>
+      <a href='https://waylonwalker.com/four-github-actions-python/'>
       <img
          style='margin: auto; float: right;'
          src="https://images.waylonwalker.com/four-github-actions-python-rm.png"
