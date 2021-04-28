@@ -59,7 +59,7 @@ in this directory on startup.  This is particularly handy to create custom
 prompts, search, or import packages automatically for certian profiles.
 
 
-https://waylonwalker.com/custom-ipython-prompt
+https://waylonwalker.com/custom-ipython-prompt/
 
 > This post creates a custom ipython prompt by creating a
 > `~/.ipython/profile_default/startup/prompt.py` file.
@@ -70,7 +70,7 @@ https://waylonwalker.com/custom-ipython-prompt
 There are tons of options that are in the `ipython_config.py` file.  My
 favorite is to automatically enable my favorite magic command autoreload.
 
-https://waylonwalker.com/autoreload-ipython
+https://waylonwalker.com/autoreload-ipython/
 
 ``` python
 c.InteractiveShellApp.extensions = ['autoreload'
