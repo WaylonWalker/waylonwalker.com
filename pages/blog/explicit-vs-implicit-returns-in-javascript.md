@@ -1,21 +1,20 @@
 ---
 templateKey: blog-post
-related_post_label: Check out this related post
-tags: []
+tags: ['javascript', 'webdev']
 title: Explicit vs Implicit Returns in Javascript
 date: 2020-05-03T11:55:00.000+00:00
 status: published
-description: Often when reading through javascript examples you will find some
-    arrow functions use parentheses `()` while others use braces `{}`.  This
-    key difference is that parentheses will implicitly return the last
-    statement while braces require an explicit return statement.  It is
-    important to understand the difference between them because it is likely
-    that you will find code examples of both and trying to edit code written
-    differently than you're used to may have unintended consequences.
 cover: "/static/explicit-vs-implicit-returns-in-javascript.png"
 
 ---
-Often when reading through javascript examples you will find some arrow functions use parentheses `()` while others use braces `{}`.  This key difference is that parentheses will implicitly return the last statement while braces require an explicit return statement.  It is important to understand the difference between them because it is likely that you will find code examples of both and trying to edit code written differently than you're used to may have unintended consequences.
+
+Often when reading through javascript examples you will find some arrow
+functions use parentheses `()` while others use braces `{}`.  This key
+difference is that parentheses will implicitly return the last statement while
+braces require an explicit return statement.  It is important to understand the
+difference between them because it is likely that you will find code examples
+of both and trying to edit code written differently than you're used to may
+have unintended consequences.
 
 ## ![Arrow functions](https://images.waylonwalker.com/explicit-vs-implicit-returns-in-javascript-1.png)
 
