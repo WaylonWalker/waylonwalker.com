@@ -1,18 +1,19 @@
 ---
 templateKey: blog-post
-related_post_label: Check out this related post
 tags:
 - actions
 title: What Are GitHub Actions
 date: 2020-03-16T05:00:00.000+00:00
 status: published
-description: GitHub actions are an amazing tool that allows us to run code based
-  on triggers inside of our repo.  Their is a large and growing community of actions
-  inside the marketplace to use with very little effort.  Best of all they are free
-  for public repositories, and private repos have a very generous free tier.
 cover: "/static/what-are-github-actions.png"
 
 ---
+
+GitHub actions are an amazing tool that allows us to run code based on triggers
+inside of our repo.  Their is a large and growing community of actions inside
+the marketplace to use with very little effort.  Best of all they are free for
+public repositories, and private repos have a very generous free tier.
+
 <style>
 h2 img { width: 100%; box-shadow: .5rem .5rem 3rem #141F2D, -.5rem -.5rem 3rem rgba(255,255,255,.1);}
 img{ max-width: 100% !important;}
