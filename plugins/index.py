@@ -29,10 +29,12 @@ def create_page(markata, page, tags=None):
         template = Template(f.read())
     if page == "archive":
         output_file = Path(markata.config["output_dir"]) / "archive" / "index.html"
+        canonical_url = f"{markata.config['url']}/archive/"
     else:
         output_file = (
             Path(markata.config["output_dir"]) / "archive" / page / "index.html"
         )
+        canonical_url = f"{markata.config['url']}/archive/{page}/"
     output_file.parent.mkdir(exist_ok=True, parents=True)
 
     with open(output_file, "w+") as f:
@@ -42,7 +44,7 @@ def create_page(markata, page, tags=None):
                 url=markata.config["url"],
                 description=description,
                 title=markata.config["title"],
-                canonical_url=f"{markata.config['url']}/archive/{page}/",
+                canonical_url=canonical_url,
             )
         )
 
