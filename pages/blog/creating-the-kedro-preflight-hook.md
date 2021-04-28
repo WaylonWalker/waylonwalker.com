@@ -1,19 +1,21 @@
 ---
 templateKey: blog-post
-related_post_label: Check out this related post
-tags: []
+tags: ['kedro', 'python']
 title: creating the kedro-preflight hook
 date: 2020-05-10T07:12:00.000+00:00
 status: published
-description: Kedro Hooks Intro - kedro hooks are an exciting upcoming feature of kedro
-  `0.16.0`.  They allow you to hook into `catalog_created`,`pipeline_run`, and `node_run`(nouns).
-  With a `before`, or `after` (adjective).  This really reminds me of reacts lifecycle
-  hooks, that let you hook into various state of react web components.  This is going
-  to make kedro so extendable by the community.  I am super pumped to see what the
-  community is able to do with this ability.
 cover: "/static/kedro-hooks.png"
 
 ---
+
+Kedro Hooks Intro - kedro hooks are an exciting upcoming feature of kedro
+`0.16.0`.  They allow you to hook into `catalog_created`,`pipeline_run`, and
+`node_run`(nouns).  With a `before`, or `after` (adjective).  This really
+reminds me of reacts lifecycle hooks, that let you hook into various state of
+react web components.  This is going to make kedro so extendable by the
+community.  I am super pumped to see what the community is able to do with this
+ability.
+
 kedro hooks are an exciting upcoming feature of kedro `0.16.0`.  They allow you to hook into `catalog_created`,`pipeline_run`, and `node_run`(nouns). With a `before`, or `after` (adjective).  This really reminds me of reacts lifecycle hooks, that let you hook into various state of react web components.  This is going to make kedro so extendable by the community.  I am super pumped to see what the community is able to do with this ability.
 
 
