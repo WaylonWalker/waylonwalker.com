@@ -1,18 +1,18 @@
 ---
 templateKey: blog-post
-related_post_label: Check out this related post
-tags: []
-title: SLIDES - understanding python *args and **kwargs
+tags: ['python']
+title: SLIDES - understanding python \*args and \*\*kwargs
 date: 2020-07-02T05:00:00Z
 status: published
-description: Python `*args` and `**kwargs` are super useful tools, that when
-  used properly can make you code much simpler and easier to maintain.  Large
-  manual conversions from a dataset to function arguments can be packed and
-  unpacked into lists or dictionaries. Beware though, this power **can** lead
-  to some really unreadable/unusable code if done wrong.
 cover: '/static/python-args-kwargs-slides.png'
 
 ---
+
+Python `*args` and `**kwargs` are super useful tools, that when used properly
+can make you code much simpler and easier to maintain.  Large manual
+conversions from a dataset to function arguments can be packed and unpacked
+into lists or dictionaries. Beware though, this power **can** lead to some
+really unreadable/unusable code if done wrong.
 
 I generally post these as a carousel on LinkedIn based on a full article.  Let mw know what you think of it shown inside of a blog [@_waylonwalker](https://twitter.com/_WaylonWalker).
 
