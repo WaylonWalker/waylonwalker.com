@@ -19,7 +19,7 @@ ability.
 kedro hooks are an exciting upcoming feature of kedro `0.16.0`.  They allow you to hook into `catalog_created`,`pipeline_run`, and `node_run`(nouns). With a `before`, or `after` (adjective).  This really reminds me of reacts lifecycle hooks, that let you hook into various state of react web components.  This is going to make kedro so extendable by the community.  I am super pumped to see what the community is able to do with this ability.
 
 
-https://waylonwalker.com/what-is-kedro
+https://waylonwalker.com/what-is-kedro/
 
 > If you are completely unsure what kedro is be sure to check out my what is kedro post
 
@@ -47,7 +47,7 @@ pip install colorama
 ## Create a sample project
 
 > ### Kedro new
-> For more details check out my full post on [kedro new](https://waylonwalker.com/knew)
+> For more details check out my full post on [kedro new](https://waylonwalker.com/create-new-kedro-project/)
 
 For this post I really just want a working pipeline as fast as possible.  For this I am going to use iris pipeline that is generated from the `kedro new` command in the cli.  It's **important** that you answer `y` to create an example pipeline.
 
