@@ -30,7 +30,9 @@ jobs:
         run: markata --no-rich
 
       - name: create root
-        run: cp markout/archive/index.html markout/index.html
+        run: |
+            cp markout/archive/index.html markout/index.html
+            sed -i 's/waylonwalker.com\/archive/waylonwalker.com/' markout/index.html
 
       - name: sw-version
         run: export checksum=$(checksumdir markout ) && cat static/sw.js | envsubst > markout/sw.js
