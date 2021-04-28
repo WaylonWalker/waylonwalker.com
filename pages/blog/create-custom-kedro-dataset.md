@@ -1,18 +1,13 @@
 ---
 templateKey: blog-post
-related_post_label: Check out this related post
-tags: []
+tags: ['kedro', 'python', 'data']
 title: Create Custom Kedro Dataset
 date: 2020-05-15T05:00:00Z
 status: published
-description: Kedro provides an efficient way to build out data catalogs with their
-  yaml api.  It allows you to be very declaritive about loading and saving your data.  For
-  the most part you just need to tell Kedro what connector to use and its filepath.  When
-  running Kedro takes care of all of the read/write, you just reference the catalog
-  key.
 cover: "/static/create-custom-kedro-dataset.png"
 
 ---
+
 Kedro provides an efficient way to build out data catalogs with their yaml api.  It allows you to be very declaritive about loading and saving your data.  For the most part you just need to tell Kedro what connector to use and its filepath.  When running Kedro takes care of all of the read/write, you just reference the catalog key.
 
 ## But what is happening behind the scenes
