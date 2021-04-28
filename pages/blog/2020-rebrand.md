@@ -106,4 +106,4 @@ Links to all of the tools referenced in this article.
 
 # Shameless 🔌
 
-I just started a newsletter [Join Here](https://waylonwalker.com/newsletter/ "https://waylonwalker.com/newsletter/") and lets start the discussion.  I want to know about my audience and what they want to hear about from me.
+I just started a newsletter [Join Here](https://emailoctopus.com/lists/b194a4af-9875-11ea-a3d0-06b4694bee2a/forms/subscribe "https://waylonwalker.com/newsletter/") and lets start the discussion.  I want to know about my audience and what they want to hear about from me.

@@ -60,4 +60,4 @@ I kinda like the idea of putting the 🥩 meat of the file up at the top so that
 
 # I started a newsletter
 
-I recently started a newsletter, [join in](https://waylonwalker.com/newsletter) and let me know what you want to hear about.
+I recently started a newsletter, [join in](https://emailoctopus.com/lists/b194a4af-9875-11ea-a3d0-06b4694bee2a/forms/subscribe) and let me know what you want to hear about.
