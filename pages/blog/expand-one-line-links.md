@@ -26,7 +26,7 @@ If you can call it a card 🤣.  This card was just an image wrapped in an ancho
 
 ``` html
 <p style='text-align: center'>
-  <a href='https://waylonwalker.com/notes/eight-years-cat'>
+  <a href='https://waylonwalker.com/notes/eight-years-cat/'>
     <img
     style='width:500px; max-width:80%; margin: auto;'
     src="https://images.waylonwalker.com/eight-years-cat.png"

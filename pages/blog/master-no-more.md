@@ -16,7 +16,7 @@ cover: '/static/master-no-more.png'
 
 It's been a long time coming.  We use some very harsh language within tech so much sometimes that we become numb to it.  It's time to do my very small part in this movement and purge this language from my active repos starting with this blog right here.
 
-https://waylonwalker.com/refactor-in-cli
+https://waylonwalker.com/refactor-in-cli/
 
 > this post follows my method of refactoring code bases from the command line,
 > read more about that in this article.

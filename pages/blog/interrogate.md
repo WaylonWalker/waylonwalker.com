@@ -37,7 +37,7 @@ interrogate -v <path>
 
 ## 😲 I have some work to do
 
-One of my new open source packages [find-kedro](https://find-kedro.waylonwalker.com/) only hit 71%.
+One of my new open source packages [find-kedro](https://find.kedro.dev/) only hit 71%.
 
 ```
 interrogate find-kedro -v

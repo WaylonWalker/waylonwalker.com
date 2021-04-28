@@ -19,7 +19,7 @@ grow to several hundred.  I start to question my ability 🤦‍♂️.
 If you already have an ipython config you can move on otherwise check out this
 post on creating an ipython config.
 
-https://waylonwalker.com/ipython-config
+https://waylonwalker.com/ipython-config/
 
 ## The Dream Prompt
 

@@ -45,6 +45,6 @@ register into the command.
 registers are in use with the `:reg` command.  There are a lot of them and many
 get populated automatically as you yank text or create macros.
 
-https://waylonwalker.com/save-vim-macro
+https://waylonwalker.com/save-vim-macro/
 
 > Also see how to use <C-R> to save macros to key bindings easily
