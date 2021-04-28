@@ -134,6 +134,6 @@ This post was super fun to explore.  I used an external library (`feedparser`) t
 
 While trying to step up your skills you will need lots of practice.  Its good to have several options to try out ideas quickly.  I often use replit.com, check out this post to see how I use it.
 
-https://waylonwalker.com/practice-python-online
+https://waylonwalker.com/practice-python-online/
 
 > Not a sponsor REPL.it is a great way to practice.
