@@ -15,8 +15,11 @@ table {
     border-collapse: collapse;
     margin: auto;
 }
+
 table, th, td {
   border: 1px solid rgba(255,255,255,.4);
+  min-width: 5rem;
+  padding: .2rem;
 }
 .speed-control {
     display: flex;
