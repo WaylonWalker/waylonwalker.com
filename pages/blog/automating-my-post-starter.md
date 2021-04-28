@@ -315,6 +315,6 @@ nvim = subprocess.Popen(
 nvim.wait()
 ```
 
-https://waylonwalker.com/quickly-edit-posts
+https://waylonwalker.com/quickly-edit-posts/
 
 > check out the next article in this series where I setup a bash function to quickly edit these posts
