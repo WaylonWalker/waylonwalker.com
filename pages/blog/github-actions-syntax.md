@@ -62,7 +62,7 @@ Let's start writing something that looks a bit more like a GitHub action.  GitHu
 
 #### ![Shortlist of GitHub action keys](https://images.waylonwalker.com/gh-actions-syntax-h3/4.png)
 
-These are the keys, with their parents, that I found most useful.  You can find a complete list on [workflow-syntax-for-github-actions](https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions).
+These are the keys, with their parents, that I found most useful.  You can find a complete list on [workflow-syntax-for-github-actions](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions).
 
 * name
 * on
