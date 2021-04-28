@@ -193,6 +193,7 @@
 # Fix 404's
 # These are mystery links that I cannot find, but are dinging my ahrefs report
 # They have zero inlinks so they are likely external
+/archive/archive/                                           /archive/
 /whats-on-your-github-profile/                              /whats-on-your-github-profile/
 /what-is-something-that-you-recently-learned-that-you-wish-you-would-have-learned-or-understood-earlier-1/ /learn-early/
 /test-project-io-py-actions/                                /testproject-io-py-actions/
