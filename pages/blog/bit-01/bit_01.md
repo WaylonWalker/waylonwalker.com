@@ -7,7 +7,7 @@ description: How to setup a data science project in python.
 
 ---
 
-# TLDR
+## TLDR
 
 Use **[.gitignore.io](https://www.gitignore.io)** and consider adding an alias to your terminal to quickly add a .gitignore to any project missing one.
 
