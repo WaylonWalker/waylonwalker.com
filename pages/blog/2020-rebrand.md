@@ -85,7 +85,7 @@ A few days later I saw this thread of tweets by [@sarah_edo](https://twitter.com
 
 [![](https://images.waylonwalker.com/2020-02-15 11-06-16_Start.png)](https://twitter.com/swyx/status/1227697956587032576 "follow up list of resources from Shawn swyx Wang")
 
-# Tool Links
+## Tool Links
 
 Links to all of the tools referenced in this article.
 
@@ -104,6 +104,6 @@ Links to all of the tools referenced in this article.
 [components.ai/box-shadows](https://t.co/tQ9NijDzUI?amp=1 "https://components.ai/box-shadows")
 
 
-# Shameless 🔌
+## Shameless 🔌
 
 I just started a newsletter [Join Here](https://emailoctopus.com/lists/b194a4af-9875-11ea-a3d0-06b4694bee2a/forms/subscribe "https://waylonwalker.com/newsletter/") and lets start the discussion.  I want to know about my audience and what they want to hear about from me.
