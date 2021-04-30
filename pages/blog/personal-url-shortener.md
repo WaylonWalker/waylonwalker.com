@@ -15,11 +15,11 @@ Photo by [Ozark Drones](https://unsplash.com/@ozarkdrones?utm_source=unsplash&ut
 
 I love using URL shorteners to easily share links without hitting character limits, but they loose their meaning. Services like bit.ly will save my links for me so that I can find them, but I would rather them to be easy to remember. [https://bit.ly/2ruLwQz](https://bit.ly/2ruLwQz "https://bit.ly/2ruLwQz") does not roll of the tongue so well.
 
-# 301 🤸‍♀️
+## 301 🤸‍♀️
 
 I recently discovered a really cool feature of netlify that I have always looked past, `_redirects`. It is so simple cool and powerful, every netlify site should do this!
 
-# But how 🤷‍♀️
+## But how 🤷‍♀️
 
 simply add a `_redirects` file to the root of your your published site with the following format. The trick I found with my gatsby site was that it needed to be in my static directory `/static/_redirects`, not root. Next you just put space separated links on separate lines. #'s can be used for comments.
 
@@ -49,7 +49,7 @@ simply add a `_redirects` file to the root of your your published site with the 
 /devto          https://dev.to/waylonwalker/
 ```
 
-# 🙌 Share those short links
+## 🙌 Share those short links
 
 Now with shorter links we have more space for our content without needing to use a service like bit.ly that makes our links unreadable.
 
