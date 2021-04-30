@@ -128,7 +128,7 @@ nodes.append(
 ```
 
 
-# Want a simple guide to get started with find kedro
+## Want a simple guide to get started with find kedro
 
 
 <p style='text-align: center' align='center'>
@@ -144,7 +144,7 @@ nodes.append(
 
 In [this doc](https://find.kedro.dev/examples/iris/) I transform the kedro iris template to find-kedro.
 
-# Ready to start using kedro
+## Ready to start using kedro
 
 If you still have not tried out kedro, it's easier than you think. Check out [create-new-kedro-project](https://waylonwalker.com/create-new-kedro-project) to get a project started in just a few minutes.
 
