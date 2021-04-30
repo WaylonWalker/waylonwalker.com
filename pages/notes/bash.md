@@ -153,7 +153,7 @@ find . -n "*.md" | xargs grepr python python3
 _++Vanilla Bonus_
 
 
-https://waylonwalker.com/refactor-in-cli
+https://waylonwalker.com/refactor-in-cli/
 
 
 > I use these replace commands heavily when doing large refactorings.
