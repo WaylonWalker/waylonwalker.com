@@ -22,7 +22,7 @@ Github actions are written in configuration files using the YAML syntax.  YAML i
 
 In YAML or JSON, the most basic containers for data are **arrays**, a 1D list of things, and **objects**, for key-value pairs.
 
-### Arrays]
+### Arrays
 
 The start of an array container is signified with a leading `-`.  This is probably one of the big things I didn't understand about YAML before writing this post, but hats off to the GitHub actions editor as it took care of a lot of my misunderstanding for me.
 
