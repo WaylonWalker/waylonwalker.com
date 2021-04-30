@@ -1,6 +1,5 @@
 ---
 templateKey: blog-post
-related_post_label: Check out this related post
 tags:
 - actions
 title: Send Emails with GitHub Actions
@@ -11,13 +10,14 @@ description: One useful action that you can utilize no matter what content your 
 cover: "/static/send-email-with-github-actions.png"
 
 ---
+
 Here is one useful thing that you can do with GitHub actions no matter what language you use, send email.  You might want to know right away when your ci passes.  You might want to give your team a nice pat on the back when a new release is deployed.  There might be subscribers wanting to see the latest release notes in their inbox as soon as the latest version is deployed.  Whatever it is, its pretty easy to do with an action right out of the actions marketplace.
 
 ## Mail on Star
 
 Here is a silly example that sends an email to yourself anytime someone stars your repo.
 
-``` yaml
+``` yml
 name: Mail on Star
 
 on:
