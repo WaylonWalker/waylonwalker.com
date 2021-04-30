@@ -1,22 +1,28 @@
 ---
 templateKey: blog-post
-tags: []
+tags: [python, kedro]
 title: Using Kedro In Scripts
 date: 2021-04-17T00:00:00
 status: draft
-description: ''
 
 ---
 
-With the latest releases of kedro `0.17.x` it is now possible to run kedro
+With the latest releases of kedro `0.17.x`, it is now possible to run kedro
 pipelines from within scripts.  While I would not start a project with this
-technique it will be a good tool to keep in my back pocket when I want to
+technique, it will be a good tool to keep in my back pocket when I want to
 sprinkle in a bit of kedro goodness in existing projects.
+
+## New to Kedro
+
+
+https://waylonwalker.com/what-is-kedro.md
+
+> If your just learning about kedro check out this post walking through it
 
 ## No More Rabbit Hole of Errors
 _as of 0.17.2_
 
-I've tried to do this in kedro `0.16.x` and it turned into a rabbit hole of
+I've tried to do this in kedro `0.16.x,` and it turned into a rabbit hole of
 errors.  First kedro needed a `conf` directory, if you tried to fake one in it
 would then ask for logging setup.  These errors just kept coming to the point
 it wasnt worth doing and I might as well use a proper template for real
@@ -25,8 +31,8 @@ project.
 
 ## Kedro in a script
 
-In order to get kedro running you are going to need a pipeline, catalog, and
-runner at a minimum.  For those who have used kedro before the pipeline will
+To get kedro running, you will need a pipeline, catalog, and
+runner at a minimum.  Those who have used kedro before the pipeline will
 look very similar to what you are familiar with, but the catalog will not be
 loaded from yaml and you will need to bring your own runner.
 
@@ -40,7 +46,7 @@ from kedro.runner.sequential_runner import SequentialRunner
 from kedro.extras.datasets.pandas.csv_dataset import CSVDataSet
 from kedro.extras.datasets.pandas.parquet_dataset import ParquetDataSet
 
-# the seqential runner is the simplest, it runs one node at a time.
+# the sequential runner is the simplest. It runs one node at a time.
 runner = SequentialRunner()
 
 # this is a super simple example pipeline
@@ -54,7 +60,7 @@ pipeline = Pipeline(
     ]
 )
 
-# to get up and running you can use an empty catalog
+# to get up and running, you can use an empty catalog
 catalog = DataCatalog()
 
 runner.run(pipeline, catalog)
@@ -64,8 +70,8 @@ runner.run(pipeline, catalog)
 
 ## more practically
 
-More often your kedro pipelines are going to use a real function rather than a
-lambda, and pandas dataframes.
+More often, your kedro pipelines are going to use a function rather than a
+lambda, and pandas DataFrames.
 
 
 ``` python
@@ -91,7 +97,7 @@ catalog = DataCatalog(
 
 ## Semi-automatic catalog
 
-For some reason when I tried to use the DataCatalogWithDefault it did not pick
+For some reason, when I tried to use the DataCatalogWithDefault it did not pick
 up my datasets right.  I suspect this has something to do with not setting up a
 proper session, so this is what I did in a pinch to get that catalog goodness
 for my DataFrames without setting up each one manually.
@@ -108,7 +114,7 @@ catalog = DataCatalog(
 
 > for use with pandas
 
-For the example above that does not use DataFrames I would pickle all of my
+For the example above that does not use DataFrames, I would pickle all of my
 outputs to enable re-loading them later.
 
 ``` python
@@ -125,8 +131,8 @@ catalog = DataCatalog(
 
 ## Logging
 
-Once you explicitly add datasets kedro will start logging when its
-loading, running, or saving each node.  This will start to look a
+Once you explicitly add datasets, kedro will start logging when it's
+loading, running, or saving each node.  Things will begin to look a
 bit more familiar to anyone who has used kedro before.
 
 ``` python
@@ -156,20 +162,20 @@ ww3 ↪main ©kedro-in-scripts v3.8.8 ipython
 
 ## Kedro Viz
 
-I was not able to easily get kedro viz up and running for my use case.  If you
+I was not able to quickly get kedro viz up and running for my use case.  If you
 really wanted to you could start modifying their format_pipelines_data function
 in
 [server.py](https://github.com/quantumblacklabs/kedro-viz/blob/main/package/kedro_viz/server.py).
-Or you could render a new template, and put your pipeline there for viz
+Or you could render a new template and put your pipeline there for viz
 purposes.
 
 > It's possible, but might as well stick to the template
 
 ## cli
 
-For something that I would be using this on I am probably not going to put much
-effort into the cli as its not likely something that we are going to have a
-team of developers interacting with contstantly.  I would just put together the
+For something that I would be using this on, I am probably not going to put much
+effort into the cli as it is not likely something that we will have a
+team of developers interacting with constantly.  I would just put together the
 minimum necessary to run my application how I need.
 
 
@@ -186,11 +192,9 @@ if __name__ == "__main__":
 
 ## It's a bit Rough
 
-While I might use this in production somewhere, its going to be inside of some
+While I might use this in production somewhere, it will be inside of some
 other not kedro application. I will still be using something quite similar to
-their template for my pipleining projects.  It misses out on some really good
-things that brings me to kedro like hooks, plugins, credentials, catalog,
+their template for my pipelining projects.  It misses some excellent
+things that bring me to kedro like hooks, plugins, credentials, catalog,
 logging config, cli, and viz.
-
-
 
