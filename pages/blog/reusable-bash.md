@@ -150,7 +150,7 @@ The easiest and most common way to handle an error in bash is through the use of
 
 Here I have a concrete example from earlier today. I was creating a bash script to run a python script from cron. The bash script is there to make sure that we have the python environment, activate it, and run. If it doesn't have it, it should create it.
 
-``` bash{15-19}{numberLines: true}
+``` bash
 # creates the conda environment
 create_env() {
     conda create -n "$1" python=3.8

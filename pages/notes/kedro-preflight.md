@@ -2,7 +2,7 @@
 templateKey: blog-post
 related_post_label: Check out this related post
 tags: []
-title: Kedro Preflight
+title: 📝 Kedro Preflight Notes
 date: 2020-05-09T15:01:00Z
 status: published
 description: run checks before running the pipeline
@@ -12,7 +12,7 @@ cover: ''
 
 This is a very rough idea for a kedro package to prevent time lost to get partway through a pipeline run only to realize that you dont have access to data or resources.
 
-# Must Haves
+## Must Haves
 
 * check that inputs exist or are of a type to skip (sql)
 
@@ -22,7 +22,7 @@ This is a very rough idea for a kedro package to prevent time lost to get partwa
 * check for spark install
 
 
-# Implementation
+## Implementation
 
 ``` python
 @hook_spec

@@ -1,16 +1,18 @@
 ---
 templateKey: blog-post
-title: Bash
+title: 📝 Bash Notes
 date: 2019-09-08T05:00:00.000+00:00
 status: published
 description: Waylon Walker's Bash Notes
 cover: "/static/hannah-gibbs-BINLgyrG_fI-unsplash.jpg"
 tags:
+- bash
+- linux
 - python
 - cli
 
 ---
-# Bash Notes
+
 
 Bash is super powerful.
 
@@ -258,7 +260,7 @@ input=$1
 echo input
 ```
 
-# Using pyp
+## Using pyp
 
 ``` bash
 pipx install pyp

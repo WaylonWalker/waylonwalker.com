@@ -78,7 +78,7 @@ cover: "./flex.png"
     }
 </style>
 
-# Flexbox-zombies
+## Flexbox-zombies
 
 I recently finished up the flexbox-zombies course to learn more about flexbox, and to become proficient with it.  I can truly say that this course has changed the way that I create layouts.  Flexbox is very intuitive now.  What this course does really well at is explaining the concepts and hitting you with a ton of examples that you can work through really quickly.
 

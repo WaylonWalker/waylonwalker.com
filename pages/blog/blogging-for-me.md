@@ -25,7 +25,7 @@ that to happen I would never post, or write at such a high level no one else
 Generally I know that I am directionally accurate for most of the article.  In
 fact there is often a part of the article that I don't feel the best about.  It
 may have been some code that could have been better.  I try to point these
-things out.  Often when I am honest and point out where I know there is
+things out.  Often when I am and point out where I know there is
 improvement to be had I get the most welcoming comments, "that was just fine
 how you did that", or "I tried that myself and saw a better abstraction.
 
@@ -47,7 +47,7 @@ High School, I was the one that didn't understand a lot of pop culture and was
 kinda treated as if I was always living under a rock.  I knew it was true and I
 owned it, so no one ever got too mean about it.
 
-# Honest, never fake
+## Honest, never fake
 
 I will not try to pretend that I know everything.  You may read my blog on
 occasion and think I know a lot, also possible that you think "wow what an

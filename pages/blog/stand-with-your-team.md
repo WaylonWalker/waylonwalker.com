@@ -54,7 +54,7 @@ to steer.
 
 There are times where it's appropriate to sit down and shut up.
 
-# Your Story 👇
+## Your Story 👇
 
 Do you have a story of how not standing with your team caused you pain later
 on.  I would love to hear and learn from your experience.

@@ -193,7 +193,7 @@ This last one doesnt work as well as I would like but it sure does get the job d
 ]
 ```
 
-# Bonus
+## Bonus
 
 ## Alt+r
 

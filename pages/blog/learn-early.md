@@ -10,13 +10,12 @@ description: What is something that you recently learned that you wish you would
 cover: "/static/david-travis-aVvZJC0ynBQ-unsplash.jpg"
 
 ---
-Cover Photo I call **gaining clarity** by [David Travis](https://unsplash.com/@dtravisphd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/clarity?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
-***
+
 
 Mine is the python debugger. I was a long holdout thinking that print statements were sufficient. That was untill I started having errors crop up in functions that took minutes to run. The thing that I most notably wish I would have known about is post_mortem.
 
-# Example
+## Example
 
     [ins] In [4]: def repeater(msg, repeats=1):
              ...:     "repeats messages {repeats} number of times"
@@ -43,14 +42,14 @@ Mine is the python debugger. I was a long holdout thinking that print statements
 
     %debug
 
-# Vanilla Debug
+## Vanilla Debug
 
     import pdb
     import sys
 
     pdb.post_mortem(sys.last_traceback)
 
-# More
+## More
 
 For more information about the debugger checkout the real python article. [https://realpython.com/python-debugging-pdb/](https://realpython.com/python-debugging-pdb/ "https://realpython.com/python-debugging-pdb/")
 

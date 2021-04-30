@@ -11,7 +11,6 @@ tags:
 - python
 
 ---
-# Autoreload in Ipython
 
 I have used `%autoreload` for several years now with great success and 🔥 rapid reloads.  It allows me to move super fast when developing libraries and modules.  They have made some great updates this year that allows class modules to be automatically be updated.
 

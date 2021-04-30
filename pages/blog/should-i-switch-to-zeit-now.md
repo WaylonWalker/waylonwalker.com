@@ -10,7 +10,8 @@ description: Should I switch to Zeit Now.  Netlify build times are starting to c
 cover: "/static/should-i-switch-to-zeit-now.png"
 
 ---
-# Netlify
+
+## Netlify
 
 I have happily had my personal site [waylonwalker.com](https://waylonwalker.com) hosted on netlify for nearly 2 years now.  In fact I have hosted about a dozen different toy projects to play with on there, 4 of which have gone far enough to get a custom domain name.  They are fast to deploy and consistently do so on every `git push` to main.
 

@@ -15,7 +15,7 @@ sprinkle in a bit of kedro goodness in existing projects.
 ## New to Kedro
 
 
-https://waylonwalker.com/what-is-kedro
+https://waylonwalker.com/what-is-kedro/
 
 > If your just learning about kedro check out this post walking through it
 

@@ -11,10 +11,10 @@ cover: "/static/steve-richey-enTun1g_5b4-unsplash.jpg"
 ---
 I started using aws in March 2019.  Here are some of my notes.
 
-# aws-cli
+## aws-cli
 
-# ec-2
+## ec-2
 
-# SageMaker
+## SageMaker
 
-# S3
+## S3

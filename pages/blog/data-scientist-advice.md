@@ -14,7 +14,7 @@ cover: "/static/16.png"
 * Your code does not need to be amazing
 * Keep Learning
 
-# Learn Git
+## Learn Git
 
 You dont have to start out as a git wizard with the cleanest possible commit history.  At first dont let yourself get too wrapped up in it, the most important part is that you make commits.  You will find needs for more advanced stuff later.
 
@@ -28,6 +28,6 @@ git push
 Get comfortable with this, then learn how to `branch`, `rebase`, `stash`, etc...
 
 
-# Your code does not need to be amazing
+## Your code does not need to be amazing
 
 Get the job done.  Keep it in small bite size pieces.  Make readable function definitions and variable names.  You will thank yourself for naming things well later.  Readability counts more than performance in most cases of data science.  If it gets the job done try not to over worry about things like performance.  A few extra seconds to clean a dataset or build a model is not worth hours of your time.  As you go you will have cases that performance is more critical and you will learn what to do from the start to avoid them.

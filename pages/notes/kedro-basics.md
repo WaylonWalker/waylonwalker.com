@@ -47,7 +47,7 @@ Learn Kedro in 5 days
 * kedro docker
 * GitHub Actions
 
-# Advanced Kedro
+## Advanced Kedro
 
 * hooks
 * custom datasets

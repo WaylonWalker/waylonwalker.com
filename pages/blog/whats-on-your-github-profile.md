@@ -21,7 +21,7 @@ I am still trying to figure out what to put on mine, but this is what I have so 
 
 [![my github profile](https://dev-to-uploads.s3.amazonaws.com/i/pk1ostnnpn9dmlbs4emv.png)](https://github.com/waylonwalker)
 
-# updated
+## updated
 
 I tightened mine up and took inspiration from a few others.
 
@@ -29,7 +29,7 @@ I tightened mine up and took inspiration from a few others.
 
 Share a screenshot and link of yours [on dev](https://dev.to/waylonwalker/what-s-on-your-github-profile-40p3).
 
-# updated again
+## updated again
 
 Updated with a list of latest Twitter followers, using GitHub actions.
 
