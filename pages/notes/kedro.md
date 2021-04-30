@@ -9,11 +9,11 @@ description: My Notes about using kedro
 cover: "/static/68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f7175616e74756d626c61636b6c6162732f6b6564726f2f6d61737465722f696d672f6b6564726f5f62616e6e65722e6a7067.jpg"
 
 ---
-# [#kedrotips](https://twitter.com/search?q=%23kedrotips&f=live)
+## [#kedrotips](https://twitter.com/search?q=%23kedrotips&f=live)
 
 I am tweeting out most of these snippets as I add them, you can find them all here [#kedrotips](https://twitter.com/search?q=%23kedrotips).
 
-# 🗣 Heads up
+## 🗣 Heads up
 
 Below are some quick snippets/notes for when using kedro to build data pipelines. So far I am just compiling snippets. Eventually I will create several posts on kedro. These are mostly things that I use In my everyday with kedro. Some are a bit more essoteric. Some are helpful when writing production code, some are useful more usefule for exploration.
 
