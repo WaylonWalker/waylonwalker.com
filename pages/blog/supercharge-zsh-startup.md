@@ -128,7 +128,6 @@ I applied the same logic to neovim and achieved similar results.  Again it just 
 
 ``` bash
 # ~/.config/nvim/init.vim
-...
 Plug 'valloric/youcompleteme', {'do': './install.py', 'on': 'NERDTreeToggle'}
-...
+
 ```
