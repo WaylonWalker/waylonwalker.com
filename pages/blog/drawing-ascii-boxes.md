@@ -14,67 +14,67 @@ When creating cli's I often want some nice full-width character.  I find it toug
 
 I rarely get very complex with my semi-manual ASCII art.  I can do 98% of what I need with bars and corners.  Using some simple full-width characters can really give your cli a nice clean look.
 
-# Example
+## Example
 
 I'd say 50% of what I need is just a full-width horizontal bar to give some visual flair or separation.
 
 ![](https://images.waylonwalker.com/fw-bar-print.png)
 
-# Bars
+## Bars
 
 ``` bash
 ― ⍽ ⎸ ⎹ ␣ ─ ━ │ ┃
 ```
 
-# Square Corners
+## Square Corners
 
 ``` bash
 ┌ ┍ ┎ ┏ ┐ ┑ ┒ ┓ └ ┕ ┖ ┗ ┘ ┙ ┚ ┛
 ```
 
-# Round Corners
+## Round Corners
 
 ``` bash
 ╭ ╮ ╯ ╰ ╱ ╲ ╳
 ```
 
-# Harpoons
+## Harpoons
 
 ``` bash
  ⃑ ⃬ ⃭ ↼ ↽ ↾ ↿ ⇀ ⇁ ⇂ ⇃ ⇋ ⇌ ⥊ ⥋ ⥌ ⥍ ⥎ ⥏ ⥐ ⥑ ⥒ ⥓ ⥔ ⥕ ⥖ ⥗ ⥘ ⥙ ⥚ ⥛ ⥜ ⥝ ⥞ ⥟ ⥠ ⥡ ⥢ ⥣ ⥤ ⥥ ⥦ ⥧ ⥨ ⥩ ⥪ ⥫ ⥬ ⥭ ⥮ ⥯
 ```
 
-# Double Boxes
+## Double Boxes
 
 ``` bash
 ═ ║ ╒ ╓ ╔ ╕ ╖ ╗ ╘ ╙ ╚ ╛ ╜ ╝ ╞ ╟ ╠ ╡ ╢ ╣ ╤ ╥ ╦ ╧ ╨ ╩ ╪ ╫ ╬
 ```
 
-# Dashed Boxes
+## Dashed Boxes
 
 ``` bash
 ┄ ┅ ┆ ┇ ┈ ┉ ┊ ┋╌ ╍ ╎ ╏
 ```
 
-# Connectors
+## Connectors
 
 ``` bash
 ├ ┝ ┞ ┟ ┠ ┡ ┢ ┣ ┤ ┥ ┦ ┧ ┨ ┩ ┪ ┫ ┬ ┭ ┮ ┯ ┰ ┱ ┲ ┳ ┴ ┵ ┶ ┷ ┸ ┹ ┺ ┻ ┼ ┽ ┾ ┿ ╀ ╁ ╂ ╃ ╄ ╅ ╆ ╇ ╈ ╉ ╊ ╋
 ```
 
-# Others
+## Others
 
 ``` bash
 ☐ ☑ ☒ ⫍ ⫎ ⮹ ⮽ ⺆ ⼌ ⼐ ⼕
 ```
 
-# Arrows
+## Arrows
 
 ``` bash
  ← ↑ → ↓ ↔ ↕ ↖ ↗ ↘ ↙ ↚ ↛ ↜ ↝ ↞ ↟ ↠ ↡ ↢ ↣ ↤ ↥ ↦ ↧ ↨ ↩ ↪ ↫ ↬ ↭ ↮ ↯ ↰ ↱ ↲ ↳ ↴ ↵ ↶ ↷ ↸ ↹ ↺ ↻ ⇄ ⇅ ⇆ ⇇ ⇈ ⇉ ⇊ ⇍ ⇎ ⇏ ⇐ ⇑ ⇒ ⇓ ⇔ ⇕ ⇖ ⇗ ⇘ ⇙ ⇚ ⇛ ⇜ ⇝ ⇞ ⇟ ⇠ ⇡ ⇢ ⇣ ⇤ ⇥ ⇦ ⇧ ⇨ ⇩ ⇪
 ```
 
-# Rounded Box
+## Rounded Box
 
 ``` bash
 ╭――――――――――――――――――╮
@@ -84,7 +84,7 @@ I'd say 50% of what I need is just a full-width horizontal bar to give some visu
 ╰――――――――――――――――――╯
 ```
 
-# Resources
+## Resources
 
 As I was putting this together I stumbled accross a good site to find ascii characters and copy them.
 [Unicode Full-Width Characters](!\[\](https://images.waylonwalker.com/ascii-boxes.png)https://xahlee.info/comp/unicode_full-width_chars.html)
