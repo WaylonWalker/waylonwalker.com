@@ -10,7 +10,8 @@ description: Stick to what you know, and learn a little bit of something new eve
 cover: "/static/dev.to.png"
 
 ---
-> # "Don’t waste your time learning everything."
+
+> "Don’t waste your time learning everything."
 
 ![](https://images.waylonwalker.com/dont-waste-your-time-learning-everythign-post.png)
 
