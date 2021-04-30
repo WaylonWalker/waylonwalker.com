@@ -1,13 +1,11 @@
 ---
 templateKey: blog-post
-related_post_label: Check out this related post
 tags: 
   - webdev
   - catalytic
 title: How I Built My GitHub Profile
 date: 2020-07-10T03:00:00Z
 status: published
-description:
 cover: '/static/my-github-profile.png'
 
 ---

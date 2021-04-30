@@ -1,6 +1,5 @@
 ---
 templateKey: blog-post
-related_post_label: Check out this related post
 tags: 
   - kedro
   - python
@@ -8,7 +7,6 @@ tags:
 title: Gracefully adopt kedro, the catalog
 date: 2020-06-29T03:00:00Z
 status: published
-description:
 cover: '/static/graceful-kedro-catalog.png'
 
 ---

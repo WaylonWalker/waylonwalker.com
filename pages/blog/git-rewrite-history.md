@@ -3,11 +3,10 @@ templateKey: 'blog-post'
 title: Rewrite History with Git
 date: 2019-02-05
 status: published
-description:
 tags:
     - git
 cover: "neonbrand-618322-unsplash.jpg"
-coverCredit: Photo by NeONBRAND on Unsplash
+
 ---
 
 
