@@ -10,7 +10,7 @@ cover: ""
 
 ---
 
-# Inputs
+## Inputs
 
 The input will be a yaml file containing a list of `Items` you want to stay up to date with.  Inside each item will be a url, and weight.
 
@@ -59,7 +59,7 @@ items:
 ```
 
 
-# Types
+## Types
 
 * rss feed (primary source)
 * youtube feed
