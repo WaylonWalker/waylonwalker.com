@@ -9,6 +9,7 @@ hooks = ["markata.plugins.publish_source", "plugins.index", "plugins.slug", "def
 # hooks = ["markata.plugins.publish_source", "plugins.index", "default", ]
 disabled_hooks = ["markata.plugins.covers", 'markata.plugins.flat_slug']
 url = "https://waylonwalker.com"
+images_url = "https://images.waylonwalker.com"
 title = "Waylon Walkers Digital Garden"
 description = "Waylon Walkers Digital Garden"
 rss_description = "Waylon Walkers posts"
