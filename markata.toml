@@ -56,7 +56,7 @@ name='-og'
 template = "static/og-template.png"
 font = "./.github/scripts/waterlilly-script.ttf"
 font_color = "rgb(255,255,255)"
-# text_key = 'description'
+# text_key = 'long_description'
 text_font = "./static/JosefinSans-Regular.ttf"
 text_font_color = "rgb(200,200,200)"
 
