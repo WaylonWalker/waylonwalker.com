@@ -11,40 +11,6 @@ status: draft
 change_speed = (speed) => [...document.querySelectorAll('video')].map(v => v.playbackRate=v.playbackRate+speed)
 </script>
 <style>
-table {
-    border-collapse: collapse;
-    margin: auto;
-}
-
-table, th, td {
-  border: 1px solid rgba(255,255,255,.4);
-  min-width: 5rem;
-  padding: .2rem;
-}
-.speed-control {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: -1rem;
-    padding: 1rem 0 .5rem;
-    background: rgba(0,0,0, .3);
-    pause-before:
-}
-.speed-control button {
-    margin: .4;
-    transition: all 0.2s;
-    border: .1rem solid #d3d3d3;
-    color: #d3d3d3;
-    background: none;
-    text-align: center;
-    padding: .35rem 1.2rem;
-    margin: .1rem .5rem;
-    border-radius: .12rem;
-}
-.speed-control button:hover {
-    color: black;
-    background: #d3d3d3;
-}
 </style>
 
 In 2021 I changed the way I navigate between tmux sessions big time.  Now I am
