@@ -88,7 +88,7 @@ expanded_content = "\n".join(
 
 
 <a class="onelinelink" href="https://waylonwalker.com/python-args-kwargs/">
-<img style="float: right;" align='right' src="https://images.waylonwalker.com/8c73a5e2f384efdcd17762c52faff94f/630fb/python-args-kwargs-xmas2020.png" alt="article cover">
+<img style="float: right;" align='right' src="https://images.waylonwalker.com/python-args-kwargs-slides-dev_250x105.png" alt="article cover">
 <div class="right">
     <h2>understanding python *args and **kwargs</h2>
     <p class="description">
