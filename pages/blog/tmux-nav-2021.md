@@ -24,6 +24,8 @@ with my muscle memory and already changing a ton of other non-tmux workflow,
 but I have seen the light, `:terminal` is pretty sweet.  I seem myslef
 migrating to embded nvim terminals for my repls, rather than a lower split.
 
+Looking forward to your tmux tech tuesday.
+
 ## [Chris Toomey's](https://twitter.com/christoomey) Tmux Course
 
 I took Chris's [tmux course](https://thoughtbot.com/upcase/tmux) in December
