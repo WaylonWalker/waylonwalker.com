@@ -17,6 +17,13 @@ In 2021 I changed the way I navigate between tmux sessions big time.  Now I am
 able to create, kill, switch with ease and generally keeping work separated
 into logical groups.
 
+## Note for ThePrimeagen.
+
+If your reading this hope you like all of the splits 😁.  Currently it works
+with my muscle memory and already changing a ton of other non-tmux workflow,
+but I have seen the light, `:terminal` is pretty sweet.  I seem myslef
+migrating to embded nvim terminals for my repls, rather than a lower split.
+
 ## [Chris Toomey's](https://twitter.com/christoomey) Tmux Course
 
 I took Chris's [tmux course](https://thoughtbot.com/upcase/tmux) in December
