@@ -24,7 +24,7 @@ def render(markata):
             related_articles = list(unique_everseen([*tagged_articles, *articles]))[:3]
             # article["related"] = related_articles
             article.content = (
-                article.content + "---\n## Check Out These Related Posts\n\n"
+                article.content + "\n\n---\n## Check Out These Related Posts\n\n"
             )
             article.content = article.content + "\n\n".join(
                 [
