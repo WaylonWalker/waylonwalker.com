@@ -30,8 +30,6 @@ Here are three different options that I have used in the past to try out somethi
 
 [replit.com](https://replit.com) has been my go-to place to practice python away from my local machine. It's super quick to spin up a new "project" add files, install libraries, and run a script. It's not quite as nice as having all of my personal keyboard shortcuts and extensions, but its the closest thing I have found.
 
-![replit.com example](https://images.waylonwalker.com/replit.com.gif)
-
 ## Show up for Practice
 
 The best way to learn something new in tech is to get your own fingers on the keyboard and start trying new things. Reading and watching videos is great to start, but to get a deep understanding for yourself you need to get your fingers on the keyboard. Make it easy for yourself and find several options that work well for you. [replit.com](https://replit.com) is one tool that works well for me.
