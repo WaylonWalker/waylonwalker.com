@@ -28,7 +28,7 @@ If you are developing python packages and using GitHub here are four actions tha
 * Package
 * Upload to PyPi
 
-## ![Lint With flake8](https://images.waylonwalker.com/gh-actions-python-headers/1.png)
+## Lint With flake8
 
 flake8 is pythons quintessential linting tool to ensure that your code is up to the standards that you have set for the project, and to help prevent hidden bugs.  I am a heavy user of `black` and `isort` as well, but for ci flake8 is typically considered the gold standard. `black` and `isort` will help you automate many fixes suggested by flake8.
 
@@ -42,7 +42,7 @@ flake8 is pythons quintessential linting tool to ensure that your code is up to 
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
 ```
 
-## ![Testing with pytest](https://images.waylonwalker.com/gh-actions-python-headers/2.png)
+## Testing with pytest
 
 pytest is such an amazing project, definitely one to check out and start using if you are not already doing so.
 
@@ -53,18 +53,18 @@ pytest is such an amazing project, definitely one to check out and start using i
          pytest
 ```
 
-## ![Building with setuptools](https://images.waylonwalker.com/gh-actions-python-headers/3.png)
+## Building with setuptools
 
 I am still using the older, less hipster, setuptools to build my projects.  Primarily because I am used to to, partly because things such as editable installs are not possible with the newer build tools, and I am a **HEAVY** user of editable installs.
 
-```
+``` yaml
     - name: build
       run: |
         pip install wheel
         python setup.py sdist bdist_wheel
 ```
 
-## ![Publishing to pypi](https://images.waylonwalker.com/gh-actions-python-headers/4.png)
+## Publishing to pypi
 
 Here I am going to use an amazing action from the GitHub marketplace by @webKnjaZ.  It is super simple.  First you need to log into your [pypi.org](https://pypi.org) account, go to account settings, enable 2FA, and add a Token, then paste that toke into a secret inside your repos settings.  Next just drop the name of that secret into the password field of the action and you are off.
 
