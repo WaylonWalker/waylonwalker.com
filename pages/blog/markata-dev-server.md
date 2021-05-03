@@ -115,7 +115,23 @@ server several times.  You will see a quick flash of <span
 style='color: red'>server died</span> followed by the
 sever back up and running on a new pid.
 
-![example](https://images.waylonwalker.com/markata-dev-server-a1.png)
+<video controls muted autoplay playsinline loop=true width="100%">
+    <source src="https://images.waylonwalker.com/markata-dev-server-a1.webm"
+            type="video/webm">
+    <source src="https://images.waylonwalker.com/markata-dev-server-a1.mp4"
+            type="video/mp4">
+    Sorry, your browser doesn't support embedded videos.
+</video>
+
+<div class='speed-control'>
+    <button onclick="change_speed(.25)" >
+        speed up
+    </button>
+    <button onclick="change_speed(-.25)" >
+        slow down
+    </button>
+</div>
+
  
 ``` python
 
@@ -152,4 +168,4 @@ class Server:
 Future state this is going to be integrated into the main layout for my
 personal website SSG markata.
 
-![markata live server](https://images.waylonwalker.com/markata-live-server-a2.gif)
+![markata live server](https://images.waylonwalker.com/markata-live-server-a2.png)
