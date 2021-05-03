@@ -22,7 +22,7 @@ stdin/stdout.  For a more comprehensive description check out the docs on
 Simply create a test function that accepts capsys as an argument and pytest
 will give you a capsys opject.
 
-``` python
+```python
 def test_print(capsys):
     print('hello')
     captured = capsys.readouterr()
