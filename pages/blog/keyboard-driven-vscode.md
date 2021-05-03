@@ -209,4 +209,3 @@ I recently found this one, and find it quite useful to quickly do things like re
   },
 ]
 ```
-![](https://images.waylonwalker.com/EIIMiJHWwAAqihV.png)
