@@ -1,17 +1,15 @@
 ---
 templateKey: blog-post
-related_post_label: Check out this related post
 tags: []
 title: Upcoming Posts
 date: 2020-06-27T05:00:00.000+00:00
 status: draft
-description: Upcoming po
-cover: ''
 
 ---
 
-
-Upcoming posts to the blog.  Have an idea edit [this post](https://github.com/WaylonWalker/waylonwalker.com/edit/main/pages/notes/upcoming-posts.md), submit a PR and we will talk.
+Upcoming posts to the blog.  Have an idea edit 
+[this post](https://github.com/WaylonWalker/waylonwalker.com/edit/main/pages/notes/upcoming-posts.md)
+, submit a PR and we will talk.
 
 ## 🧠
 
