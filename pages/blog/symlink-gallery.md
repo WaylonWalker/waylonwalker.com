@@ -16,7 +16,7 @@ Here is how I am creating a virtual directory of all my projects that is a
 combination of both work and not-work projects.  I am creating symlinks for
 every directory under `~/work` and `~/git`.
 
-``` bash
+```bash
 rm -rf ~/projects
 mkdir ~/projects
 ln -sf ~/work/* ~/projects
