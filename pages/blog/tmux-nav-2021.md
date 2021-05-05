@@ -214,6 +214,15 @@ bind C-g new-window -n "git-session-picker" "ta ~/git"
 
 ## prefix+c-j
 
+Now that I have `ta` rocking with a good create or attach setup I am rarely
+toggling through a list of running sessions, but when I do I am doing it with
+`prefix+c-j`. Thats keeping my finger on control and pressing `<space>+j`.
+This keybinding uses fzf to fuzzy match to an existing session and attach.
+
+``` bash
+bind C-j new-window -n "session-switcher" "tmux list-sessions | sed -E 's/:.*$//' | grep -v \"^$(tmux display-message -p '#S')\$\" | fzf --reverse | xargs tmux switch-client -t"
+```
+
 <!-- ![jump to existing sessions with prefix+c-j](https://images.waylonwalker.com/tmux-navigation-2021-prefix+c-j.gif "using prefix+c-j") -->
 <video controls muted autoplay playsinline loop=true width="100%">
     <source src="https://images.waylonwalker.com/tmux-navigation-2021-prefix+c-j.webm"
@@ -232,6 +241,10 @@ bind C-g new-window -n "git-session-picker" "ta ~/git"
 </div>
 
 ## M-N M-P
+
+Next and Previous sessions.  This is super handy when working with under 3
+sessions to be able to cycle through sessions holding `shift+alt` and pressing
+`n` or `p`.
 
 <!-- ![jump to next or previous sessions with m-N or m-P](https://images.waylonwalker.com/tmux-navigation-2021-m-N-M-P.gif "using m-N and m-P") -->
 <video controls muted autoplay playsinline loop=true width="100%">
@@ -252,11 +265,81 @@ bind C-g new-window -n "git-session-picker" "ta ~/git"
 
 ## tkill
 
+It's easy to get a long crufty list of sessions running throughout the day.
+Typically this is not too bad on system resources compared to running vscode in
+every working project, but it does make it more difficult to manage and wade
+through the sessions list.  I use a handy shell alias, thats been in my zshrc
+for quite some time.
+
+``` bash
+alias tkill="for s in \$(tmux list-sessions | awk '{print \$1}' | rg ':' -r '' | fzy); do tmux kill-session -t \$s; done;"
+```
+
+This is one that I don't have setup with a nice hotkey, but it works for my
+fingers.  Most often I pop open a lower split(`M-s`), tkill, and close (`M-x`).
+
+
 <!-- ![create a new session git-diff switch back to original session with prefix+c-g then use tkill to kill the git-diff session](https://images.waylonwalker.com/tmux-navigation-2021-tkill.gif "tkill example") -->
 <video controls muted autoplay playsinline loop=true width="100%">
     <source src="https://images.waylonwalker.com/tmux-navigation-2021-tkill.webm"
             type="video/webm">
     <source src="https://images.waylonwalker.com/tmux-navigation-2021-tkill.mp4"
+            type="video/mp4">
+    Sorry, your browser doesn't support embedded videos.
+</video>
+<div class='speed-control'>
+    <button onclick="change_speed(.25)" >
+        speed up
+    </button>
+    <button onclick="change_speed(-.25)" >
+        slow down
+    </button>
+</div>
+
+## Last Session
+
+While M-n and M-p work well with a small focused number of sessions, I often
+end up with too many sessions open and its not efficient to remember a double
+`M-N` followed by a tripple `M-P` to get back and fourth.  Most often I want to
+get between two sessions very quick no matter what the order is.
+
+``` bash
+bind -n M-B switch-client -l
+bind -n M-b switch-client -l
+```
+
+<video controls muted autoplay playsinline loop=true width="100%">
+    <source src="https://images.waylonwalker.com/tmux-navigation-2021-m-b.webm"
+            type="video/webm">
+    <source src="https://images.waylonwalker.com/tmux-navigation-2021-m-b.mp4"
+            type="video/mp4">
+    Sorry, your browser doesn't support embedded videos.
+</video>
+<div class='speed-control'>
+    <button onclick="change_speed(.25)" >
+        speed up
+    </button>
+    <button onclick="change_speed(-.25)" >
+        slow down
+    </button>
+</div>
+
+## More Precision
+
+The final layer of precision is for my most current projects that I need to get
+to with a single keysroke.  These are bound to a set of keybindings that were
+readily available, just above the home row.
+
+``` bash
+bind C-t new-session -A -s todo "cd ~/work/todo && nvim -O backlog.md doing.md done.md"
+bind -n M-i new-session -A -s ww3 "cd ~/git/ww3/ && nvim"
+bind -n M-o new-session -A -s images_waylonwalker_com "cd ~/git/images.waylonwalker.com/ && nvim"
+```
+
+<video controls muted autoplay playsinline loop=true width="100%">
+    <source src="https://images.waylonwalker.com/tmux-navigation-2021-m-i-m-o.webm"
+            type="video/webm">
+    <source src="https://images.waylonwalker.com/tmux-navigation-2021-m-i-m-o.mp4"
             type="video/mp4">
     Sorry, your browser doesn't support embedded videos.
 </video>
