@@ -23,32 +23,29 @@ ln -sf ~/work/* ~/projects
 ln -sf ~/git/* ~/projects
 ```
 
-> ⚠ Notice that first I am recreating the directory each time, this will ensure
+> ⚠ Notice that first I am recreating the directory each time. This will ensure
 > that any project that is deleted from their actual directory is removed from
 > the virtual gallery.
  
-## Updating the gallary
+## Updating the gallery
 
-Since they are links they are always kept up to date without any extra work,
-all the data is still in the same place it started.  But as new directories
-are added to any of the virtual directories they will not be automatically
-added to the virtual gallery.
+Since links are always kept up to date without any extra work, all the data is
+still in the same place it started.  But as new directories are added to any
+project directory they will not be automatically added to the virtual gallery.
 
 * cron
 * bashrc/zshrc
 
-If you're concerned about system resources you can add it to a cron job to run
-at a regular schedule that makes sense to you.  For me I just popped those 4
-lines right in my `~/.zshrc`.  Its a bit overkill, maybe bloat, but it runs in
+If you're concerned about system resources, you can add it to a cron job to run
+at a regular schedule that makes sense to you.  For me, I just popped those 4
+lines right in my `~/.zshrc`.  It's a bit overkill, maybe bloat, but it runs in
 an impercieveable amount of time.
 
 ## Automatically CD to the real directory
 
-When you cd into a `~/projects/my-proj` directory your `$PWD` will still be
-`~/projects/my-proj`.  I did not want this for my use case, I wanted to follow
-the symlink to the real directory.  I found there were two options that worked
-for me.
-
+When you cd into a `~/projects/my-proj` directory, your `$PWD` will still be
+`~/projects/my-proj`.  I did not want this for my use case.  I wanted to follow
+the symlink to the real directory.  I found two options that worked for me.
 
 ```
 alias cd='cd -P'
