@@ -357,5 +357,18 @@ bind -n M-o new-session -A -s images_waylonwalker_com "cd ~/git/images.waylonwal
 
 > These few directories are always at my fingertips encouraging me to keep better notes
 
-And yes I did steal this idea from Harpoon-man By The Way.
+And yes I did steal this last one from Harpoon-man By The Way.
+
+---
+
+Please let me know your thoughts
+[@waylonwalker](https://twitter.com/_WaylonWalker), this one took me a bit
+longer to put together with all of the animated gif's, but I think it helps
+visually show how I navigate tmux everyday.
+
+### Please give it a share if you liked it
+
+If you liked it give share it and tag me on
+[twitter](https://twitter.com/_WaylonWalker), I don't often ask but this one
+took a bit more to put together than my normal post.
 
