@@ -27,12 +27,12 @@ ln -sf ~/git/* ~/projects
 > that any project that is deleted from their actual directory is removed from
 > the virtual gallery.
  
- ## Updating the gallary
+## Updating the gallary
 
- Since they are links they are always kept up to date without any extra work,
- all the data is still in the same place it started.  But as new directories
- are added to any of the virtual directories they will not be automatically
- added to the virtual gallery.
+Since they are links they are always kept up to date without any extra work,
+all the data is still in the same place it started.  But as new directories
+are added to any of the virtual directories they will not be automatically
+added to the virtual gallery.
 
 * cron
 * bashrc/zshrc
