@@ -324,6 +324,9 @@ bind -n M-b switch-client -l
     </button>
 </div>
 
+> Once I get two sessions back to back I can switch between them with insane
+> speed and precision.
+
 ## More Precision
 
 The final layer of precision is for my most current projects that I need to get
@@ -351,4 +354,8 @@ bind -n M-o new-session -A -s images_waylonwalker_com "cd ~/git/images.waylonwal
         slow down
     </button>
 </div>
+
+> These few directories are always at my fingertips encouraging me to keep better notes
+
+And yes I did steal this idea from Harpoon-man By The Way.
 
