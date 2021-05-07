@@ -194,7 +194,7 @@ do things such as testing much easier.
 see if this module was called as a script or imported from somewhere else, and
 executing some different behavior based on how it was called.
 
-```
+```python
 if __name__ == "__main__":
     print("you are running me as main")
 ```
