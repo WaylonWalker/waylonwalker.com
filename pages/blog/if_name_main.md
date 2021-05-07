@@ -7,9 +7,12 @@ status: published
 
 ---
 
+<script>
+change_speed = (speed) => [...document.querySelectorAll('video')].map(v => v.playbackRate=v.playbackRate+speed)
+</script>
+
 When a python module is called it is assigned the `__name__` of `__main__`
 otherwise if its imported it will be assigned the `__name__` of the module.
-
 
 ## Concrete example
 
