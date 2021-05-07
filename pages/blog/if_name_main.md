@@ -152,6 +152,22 @@ The [rich](https://github.com/willmcgugan/rich) library uses it to make
 examples of each module print to the screen if its executed.  I personally
 think this is a fantastic idea.
 
+<video controls muted autoplay playsinline loop=true width="100%">
+    <source src="https://images.waylonwalker.com/if_name_main_rich.webm"
+            type="video/webm">
+    <source src="https://images.waylonwalker.com/if_name_main_rich.mp4"
+            type="video/mp4">
+    Sorry, your browser doesn't support embedded videos.
+</video>
+<div class='speed-control'>
+    <button onclick="change_speed(.25)" >
+        speed up
+    </button>
+    <button onclick="change_speed(-.25)" >
+        slow down
+    </button>
+<
+
 ### etl
 
 In my world of data analysis we often setup a script of functions that will
