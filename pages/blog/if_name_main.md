@@ -166,7 +166,7 @@ think this is a fantastic idea.
     <button onclick="change_speed(-.25)" >
         slow down
     </button>
-<
+</div>
 
 ### etl
 
