@@ -19,3 +19,7 @@ status: draft
 ``` vim
 :diffoff
 ```
+
+``` vim
+:Gdiff main
+```
