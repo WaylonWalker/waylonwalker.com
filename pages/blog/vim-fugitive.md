@@ -29,3 +29,6 @@ endfunction
 nnoremap gic :GitAdd<CR>
 ```
 
+## C-I C-O
+
+## C-W J / C-W L
