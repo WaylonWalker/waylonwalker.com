@@ -10,13 +10,13 @@ def save(markata):
         create_page(markata, page, **page_conf)
 
 
-def create_page(markata, page, tags=None):
+def create_page(markata, page, tags=None, status="published"):
     all_posts = reversed(sorted(markata.articles, key=lambda x: x["date"]))
 
     if type(tags) == str:
         tags = [tags]
 
-    posts = [post for post in all_posts if post["status"] == "published"]
+    posts = [post for post in all_posts if post["status"] == status]
 
     description = markata.description
 
