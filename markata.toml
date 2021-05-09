@@ -40,14 +40,30 @@ status='draft'
 [markata.archive.pages.python]
 tags='python'
 
+[markata.archive.pages.python-draft]
+tags='python'
+status='draft'
+
 [markata.archive.pages.linux]
 tags='linux'
+
+[markata.archive.pages.linux-draft]
+tags='linux'
+status='draft'
 
 [markata.archive.pages.vim]
 tags='vim'
 
+[markata.archive.pages.vim-draft]
+tags='vim'
+status='draft'
+
 [markata.archive.pages.kedro]
 tags='kedro'
+
+[markata.archive.pages.kedro-draft]
+tags='kedro'
+status='draft'
 
 [[markata.covers]]
 name='-dev'
