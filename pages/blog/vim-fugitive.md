@@ -14,7 +14,9 @@ status: draft
 :G commit
 :G add %
 :Gdiff
+:G push
 ```
+
 
 ## Add current file and commit with diff in a split
 
@@ -32,3 +34,5 @@ nnoremap gic :GitAdd<CR>
 ## C-I C-O
 
 ## C-W J / C-W L
+
+## :G log
