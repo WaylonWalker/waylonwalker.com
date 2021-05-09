@@ -34,6 +34,9 @@ archive_template="pages/templates/archive_template.html"
 
 [markata.archive.pages.archive]
 
+[markata.archive.pages.draft]
+status='draft'
+
 [markata.archive.pages.python]
 tags='python'
 
