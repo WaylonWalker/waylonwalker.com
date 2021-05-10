@@ -24,17 +24,11 @@ def create_page(markata, page, tags=None, status="published"):
         posts = [post for post in posts if set(post["tags"]) & set(tags)]
         description = f"{description} of {tags[0]}"
 
-    cards = [create_card(markata, post) for post in posts]
+    cards = [create_card(post) for post in posts]
     with open(markata.config["archive"]["archive_template"]) as f:
         template = Template(f.read())
-    if page == "archive":
-        output_file = Path(markata.config["output_dir"]) / "archive" / "index.html"
-        canonical_url = f"{markata.config['url']}/archive/"
-    else:
-        output_file = (
-            Path(markata.config["output_dir"]) / "archive" / page / "index.html"
-        )
-        canonical_url = f"{markata.config['url']}/archive/{page}/"
+    output_file = Path(markata.config["output_dir"]) / page / "index.html"
+    canonical_url = f"{markata.config['url']}/{page}/"
     output_file.parent.mkdir(exist_ok=True, parents=True)
 
     with open(output_file, "w+") as f:
@@ -49,7 +43,7 @@ def create_page(markata, page, tags=None, status="published"):
         )
 
 
-def create_card(markata, post):
+def create_card(post):
     return f"""
 <li class='post'>
   <a href="/{post['slug']}/">
