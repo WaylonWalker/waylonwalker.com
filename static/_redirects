@@ -244,3 +244,10 @@ https://waylonwalker.com/alt%20[svx].gif                              https://im
 https://waylonwalker.com/alt%20[hjkl].gif                             https://images.waylonwalker.com/alt%20[hjkl].gif
 https://waylonwalker.com/alt%20[cnp].gif                              https://images.waylonwalker.com/alt%20[cnp].gif
 
+
+# refactored archive
+
+/archive/linux/                                                     /linux
+/archive/python/                                                    /python
+/archive/kedro/                                                     /kedro
+/archive/vim/                                                       /vim
