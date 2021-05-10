@@ -17,15 +17,6 @@ In 2021 I changed the way I navigate between tmux sessions big time.  Now I am
 able to create, kill, switch with ease and generally keeping work separated
 into logical groups.
 
-## Note for ThePrimeagen.
-
-If your reading this hope you like all of the splits 😁.  Currently it works
-with my muscle memory and already changing a ton of other non-tmux workflow,
-but I have seen the light, `:terminal` is pretty sweet.  I seem myslef
-migrating to embded nvim terminals for my repls, rather than a lower split.
-
-Looking forward to your tmux tech tuesday.
-
 ## [Chris Toomey's](https://twitter.com/christoomey) Tmux Course
 
 I took Chris's [tmux course](https://thoughtbot.com/upcase/tmux) in December
@@ -98,6 +89,8 @@ to nest tmux sessions.
 ta
 ```
 
+Another article can dive into my `ta` command, this one is more about the methodology, workflow, and keybinds to get me there.  It's available in my [devtainer repo](https://github.com/WaylonWalker/devtainer/blob/main/bin/ta).
+
 ### but theres more
 
 Give it a directory and a `fzy` dropdown will let you choose a subdirectory to
@@ -136,7 +129,12 @@ it does when starting fromo within tmux.  I am still playing with this, but
 generally I want my terminal session to be plain when I first start my
 terminal.  Generally I am starting work after the first default session.
 
+
+> 🤔  I still use both fzy and fzf, it probably doesn't make sense to use both,
+> but I am currently giving fzy a try.
+
 ## prefix+w
+
 _tmux choose-tree_
 
 By default tmux comes with a `tmux choose-tree` command bound to `prefix+w`,
@@ -182,6 +180,8 @@ bind S choose-session
 
 ## prefix+c-w prefix+c-g
 
+_open a project_
+
 I setup to make it easy to open my non-work projects _(in my ~/git directory)_
 and my work projects _(in my ~/work directory)_.  I bound `prefix+c-g` and
 `prefix+c-w` to open a new session in their respecive directories.  I like
@@ -213,6 +213,8 @@ bind C-g new-window -n "git-session-picker" "ta ~/git"
 </div>
 
 ## prefix+c-j
+
+_jump to session_
 
 Now that I have `ta` rocking with a good create or attach setup I am rarely
 toggling through a list of running sessions, but when I do I am doing it with
@@ -265,6 +267,8 @@ sessions to be able to cycle through sessions holding `shift+alt` and pressing
 
 ## tkill
 
+_time to clean up_
+
 It's easy to get a long crufty list of sessions running throughout the day.
 Typically this is not too bad on system resources compared to running vscode in
 every working project, but it does make it more difficult to manage and wade
@@ -298,6 +302,8 @@ fingers.  Most often I pop open a lower split(`M-s`), tkill, and close (`M-x`).
 
 ## Last Session
 
+_back_
+
 While M-n and M-p work well with a small focused number of sessions, I often
 end up with too many sessions open and its not efficient to remember a double
 `M-N` followed by a tripple `M-P` to get back and fourth.  Most often I want to
@@ -328,6 +334,7 @@ bind -n M-b switch-client -l
 > speed and precision.
 
 ## More Precision
+_one keystroke_
 
 The final layer of precision is for my most current projects that I need to get
 to with a single keysroke.  These are bound to a set of keybindings that were
@@ -357,7 +364,20 @@ bind -n M-o new-session -A -s images_waylonwalker_com "cd ~/git/images.waylonwal
 
 > These few directories are always at my fingertips encouraging me to keep better notes
 
-And yes I did steal this last one from Harpoon-man By The Way.
+And yes I did steal this last one from [Harpoon-man](https://twitter.com/ThePrimeagen) By The Way.
+
+
+## Hub and Spoke
+_M-i M-b_
+
+I have really been digging this hub and spoke workflow where I am rocking away on a project hit `M-I`, take some notes
+then hit `M-b` to get back to where I was.
+
+
+![hub and spoke](https://images.waylonwalker.com/tmux-nav-hub-spoke.png)
+
+> Model of my current workflow
+
 
 ---
 
