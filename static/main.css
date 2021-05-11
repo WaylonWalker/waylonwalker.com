@@ -506,7 +506,7 @@ article.blog-post a {
 
 @media (max-width: 1200px) {
 p>img {
-    left: 0 -1.6rem;
+    left: -.8rem;
 }
 }
 p>img {
@@ -520,7 +520,7 @@ p>img {
     align-items: center;
     justify-items: center;
     margin: auto;
-    left: -.8rem;
+    left: -1.6rem;
 }
 
 .center-img>img{
