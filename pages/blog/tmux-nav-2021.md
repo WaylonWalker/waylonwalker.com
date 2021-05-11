@@ -246,6 +246,8 @@ bind C-j new-window -n "session-switcher" "tmux list-sessions | sed -E 's/:.*$//
 
 ## M-N M-P
 
+_next/prev_
+
 Next and Previous sessions.  This is super handy when working with under 3
 sessions to be able to cycle through sessions holding `shift+alt` and pressing
 `n` or `p`.
@@ -370,6 +372,7 @@ And yes I did steal this last one from [Harpoon-man](https://twitter.com/ThePrim
 
 
 ## Hub and Spoke
+
 _M-i M-b_
 
 I have really been digging this hub and spoke workflow where I am rocking away on a project hit `M-I`, take some notes
