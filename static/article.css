@@ -112,6 +112,7 @@ article.blog-post p > code {
     padding: 0 .2rem;
 }
 
+
 article.blog-post {
     overflow: hidden;
     background: rgba(51, 0, 38, 0.13);
@@ -208,8 +209,14 @@ article.blog-post a {
     /* Wyatt chose goldenrod */
 }
 
+@media (max-width: 1200px) {
+p>img {
+    left: 0 -1.6rem;
+}
+}
 p>img {
     /* opacity: .8; */
+    position: relative
     box-shadow: 0.2rem 0.2rem 1rem rgba(51, 0, 38, 0.4);
     max-width: 1000px;
     width: 95vw;
@@ -218,6 +225,7 @@ p>img {
     align-items: center;
     justify-items: center;
     margin: auto;
+    left: -.8rem;
 }
 
 .center-img>img{
