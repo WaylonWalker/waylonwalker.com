@@ -409,15 +409,15 @@ was.
 ### Example workflow
 
 1. open tmux session with ta
-2. `M-g` start work in a project using a fuzzy matcher
+2. `prefix+c-g` start work in a project using a fuzzy matcher
 3. `M-t` over to my todo list
 4. `M-b` back to my project
 5. `M-i` to my blog to look up notes/make notes
 6. `M-b` back to my project
-7. `M-g` start work in another project using a fuzzy matcher
+7. `prefix+c-g` start work in another project using a fuzzy matcher
 8. `M-t` over to my todo list
 9. `M-b` back to my project
-10. `M-j` fuzzy back to the first project
+10. `prefix+c-j` fuzzy back to the first project
 11. `M-b` back to the second project
 
 
