@@ -511,7 +511,7 @@ p>img {
 }
 p>img {
     /* opacity: .8; */
-    position: relative
+    position: relative;
     box-shadow: 0.2rem 0.2rem 1rem rgba(51, 0, 38, 0.4);
     max-width: 1000px;
     width: 95vw;
