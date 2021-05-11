@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['cli', 'linux']
 title: How I navigate tmux in 2021
-date: 2021-04-24T09:52:47
+date: 2021-05-11T09:14:07
 status: draft
 
 ---
@@ -21,11 +21,21 @@ into logical groups.
 
 I took Chris's [tmux course](https://thoughtbot.com/upcase/tmux) in December
 2020 and it was fantastic.  Even as a seasoned tmux user I learned quite a bit.
-Prior to the course I was quite proficient in nagigating my tmux sessions, but
-rarely started more than one session.  A few months later I have adopted a lot
-of what I learned from Chris and made it my own.
+Prior to the course I was quite proficient in navigating within each of my tmux
+sessions, but rarely started more than one session.  A few months later I have
+adopted a lot of what I learned from Chris and made it my own.
 
-> 📝 **NOTE:** Some of my config comes straight from the course, some of it has been extended to my liking.
+I am now keeping projects to their own session and am able to move between them
+fluidly with just a few keystroke.  For high traffic projects I have them bound
+to a single keystroke for instant switching.  This has been quite a game
+changer from the mess of windows I used to have and the nightmare it was to
+find work I was doing and end up duplicating project work in two separate
+windows.
+
+> 📝 **NOTE:** Some of my config comes straight from the course, some of it has
+> been extended to my liking.
+
+Let's take a quick look at how I am navigating through tmux on a day to day basis.
 
 <!-- ![overview of how I switch and manage tmux sessions](https://images.waylonwalker.com/tmux-navigation-2021.gif "overview") -->
 <video controls muted autoplay playsinline loop=true width="100%">
@@ -46,6 +56,13 @@ of what I learned from Chris and made it my own.
 </div>
 
 > 👆 Overview of how I navigate tmux
+
+## tmux ls
+
+Throughout this article I have a number of recordings showing how I use manage
+sessions with my keybindings.  I will often run A `tmux ls` command to
+highlight what is running a various points to help guide the viewer.
+
 
 ## ta
 _my attach/session switch script_
@@ -171,6 +188,11 @@ bind S choose-session
 ```
 
 ### Keybindings in choose-tree/choose-session
+
+The default keybindings of the tmux `choose-tree` and `choose-session` that I
+use are listed below.  J/K are very intuitive, but I just learned about h,l,/.
+When I do use one of these the / (search) can be super helpful to find
+sessions/windows faster.
 
 | action | key |
 |--------|-----|
