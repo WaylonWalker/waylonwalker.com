@@ -13,29 +13,29 @@ change_speed = (speed) => [...document.querySelectorAll('video')].map(v => v.pla
 <style>
 </style>
 
-In 2021 I changed the way I navigate between tmux sessions big time.  Now I am
-able to create, kill, switch with ease and generally keeping work separated
-into logical groups.
+In 2021 I changed the way I navigate between tmux sessions big time.  Now I can
+create, kill, switch with ease, and generally keep work separated into logical
+groups.
 
 ## [Chris Toomey's](https://twitter.com/christoomey) Tmux Course
 
 I took Chris's [tmux course](https://thoughtbot.com/upcase/tmux) in December
-2020 and it was fantastic.  Even as a seasoned tmux user I learned quite a bit.
-Prior to the course I was quite proficient in navigating within each of my tmux
-sessions, but rarely started more than one session.  A few months later I have
+2020 and it was fantastic.  Even as a seasoned tmux user, I learned quite a bit.
+Before the course, I was proficient in navigating within each of my tmux
+sessions but rarely started more than one session.  A few months later, I have
 adopted a lot of what I learned from Chris and made it my own.
 
-I am now keeping projects to their own session and am able to move between them
-fluidly with just a few keystroke.  For high traffic projects I have them bound
-to a single keystroke for instant switching.  This has been quite a game
-changer from the mess of windows I used to have and the nightmare it was to
-find work I was doing and end up duplicating project work in two separate
+I am now keeping projects to their own session and can move between them
+fluidly with just a few keystrokes.  For high-traffic projects, I have them
+bound to a single keystroke for instant switching.  This change has been a
+game-changer from the mess of windows I used to have and the nightmare it was
+to find work I was doing and end up duplicating project work in two separate
 windows.
 
-> 📝 **NOTE:** Some of my config comes straight from the course, some of it has
+> 📝 **NOTE:** Some of my config comes straight from the course, and some of it has
 > been extended to my liking.
 
-Let's take a quick look at how I am navigating through tmux on a day to day basis.
+Let's take a quick look at how I am navigating through tmux on a day-to-day basis.
 
 <!-- ![overview of how I switch and manage tmux sessions](https://images.waylonwalker.com/tmux-navigation-2021.gif "overview") -->
 <video controls muted autoplay playsinline loop=true width="100%">
@@ -59,9 +59,9 @@ Let's take a quick look at how I am navigating through tmux on a day to day basi
 
 ## tmux ls
 
-Throughout this article I have a number of recordings showing how I use manage
-sessions with my keybindings.  I will often run A `tmux ls` command to
-highlight what is running a various points to help guide the viewer.
+Throughout this article, I have several recordings showing how I use manage
+sessions with my keybindings.  I will often run a `tmux ls` command to
+highlight running sessions at various points to help guide the viewer.
 
 
 ## ta
@@ -70,8 +70,8 @@ _my attach/session switch script_
 At the heart of my tmux navigation is a highly customized version of Chris's
 tat script that I renamed `ta`.  Many folks add this to their bashrc `alias
 ta=tmux attach`.  Simply calling ta will do the same thing as shown below.  If
-your in a tmux session it does nothing, if your not in one it will attach you
-to the first one.
+you're in a tmux session, it does nothing, and if you're not in one, it will
+attach you to the first one.
 
 > get the full [script](https://github.com/WaylonWalker/devtainer/blob/main/bin/ta) from GitHub.
 
@@ -95,24 +95,24 @@ to the first one.
 
 > 👆 attaching to a session by default
 
-In my `~/.bashrc` or `~/.zshrc` I add the ta command to automatically connect
-to tmux.  Whenever I open my terminal I am automatically dropped into a tmux
-session, but if I am opening a split within tmux It's smart enough to know not
-to nest tmux sessions.
+In my `~/.bashrc` or `~/.zshrc` I add the `ta` command to keep myself in a tmux
+session at all times.  Whenever I open my terminal, I am automatically dropped
+into a tmux session, but if I am opening a split while in tmux it's smart
+enough to know not to nest tmux sessions.
 
 ``` bash
 ta
 ```
 
-Another article can dive into my `ta` command, this one is more about the
-methodology, workflow, and keybinds to get me there.  It's available in my
+Another article can dive into my `ta` command. This one is more about the
+methodology, workflow, and keybindings to get me there.  It's available in my
 [devtainer repo](https://github.com/WaylonWalker/devtainer/blob/main/bin/ta).
 
-### but theres more
+### but there's more
 
 _gettin fuzzy_
 
-Give it a directory and a `fzy` dropdown will let you choose a subdirectory to
+Give it a directory, and a `fzy` dropdown will let you choose a subdirectory to
 start your session in, and name the session after that directory.
 
 ``` bash
@@ -120,7 +120,7 @@ ta ~/git
 ```
 
 > 🔥 Bonus, use direnv to automatically set settings, echo your git status,
-> activate your environment, or whatever else you need.
+> activate your environment or whatever else you need.
 
 <!-- ![overview of how I switch and manage tmux sessions](https://images.waylonwalker.com/tmux-navigation-2021-ta-directory.gif "overview") -->
 <video controls muted autoplay playsinline loop=true width="100%">
@@ -144,21 +144,21 @@ ta ~/git
 > named session in that directory.
 
 Note that starting from outside currently does not start in a split layout like
-it does when starting fromo within tmux.  I am still playing with this, but
-generally I want my terminal session to be plain when I first start my
-terminal.  Generally I am starting work after the first default session.
+it does when starting from within tmux.  I am still playing with this, but
+generally, I want my terminal session to be plain when I first start my
+terminal. I usually am starting work after the first default session.
 
 
-> 🤔 I still use both fzy and fzf, it probably doesn't make sense to use both,
+> 🤔 I still use both fzy and fzf. It probably doesn't make sense to use both,
 > but I am currently giving fzy a try.
 
 ## prefix+w
 
 _tmux choose-tree_
 
-By default tmux comes with a `tmux choose-tree` command bound to `prefix+w`,
+By default, tmux comes with a `tmux choose-tree` command bound to `prefix+w`,
 which opens in full screen.  The upper section of the screen will show every
-window opened.  While selected you can show the splits in each window by
+window opened.  While selected, you can show the splits in each window by
 hitting l, or fold it with h. You can search for a session name by hitting /.
 
 <!-- ![jump to existing sessions with prefix+w](https://images.waylonwalker.com/tmux-navigation-2021-prefix+w.gif "using prefix+w") -->
@@ -191,7 +191,7 @@ bind S choose-session
 
 The default keybindings of the tmux `choose-tree` and `choose-session` that I
 use are listed below.  J/K are very intuitive, but I just learned about h,l,/.
-When I do use one of these the / (search) can be super helpful to find
+When I do use one of these, the / (search) can be super helpful to find
 sessions/windows faster.
 
 | action | key |
@@ -206,10 +206,10 @@ sessions/windows faster.
 
 _open a project_
 
-I setup to make it easy to open my non-work projects _(in my ~/git directory)_
+I have set up to make it easy to open my non-work projects _(in my ~/git directory)_
 and my work projects _(in my ~/work directory)_.  I bound `prefix+c-g` and
-`prefix+c-w` to open a new session in their respecive directories.  I like
-mapping common prefix commands with control so I can keep my pinky mashed on
+`prefix+c-w` to open a new session in their respective directories.  I like
+mapping common prefix commands with control to keep my pinky mashed on
 that control key.
 
 ``` bash
@@ -240,9 +240,9 @@ bind C-g new-window -n "git-session-picker" "ta ~/git"
 
 _jump to session_
 
-Now that I have `ta` rocking with a good create or attach setup I am rarely
-toggling through a list of running sessions, but when I do I am doing it with
-`prefix+c-j`. Thats keeping my finger on control and pressing `<space>+j`.
+Now that I have `ta` rocking with a good create or attach setup, I am rarely
+toggling through a list of running sessions, but I am doing it with
+`prefix+c-j` when I do it. Keeping my finger on control and pressing `<space>+j`.
 This keybinding uses fzf to fuzzy match to an existing session and attach.
 
 ``` bash
@@ -297,16 +297,16 @@ _time to clean up_
 
 It's easy to get a long crufty list of sessions running throughout the day.
 Typically this is not too bad on system resources compared to running vscode in
-every working project, but it does make it more difficult to manage and wade
-through the sessions list.  I use a handy shell alias, thats been in my zshrc
+every working project, but it does make it more challenging to manage and wade
+through the sessions list.  I use a handy shell alias that's been in my zshrc
 for quite some time.
 
 ``` bash
 alias tkill="for s in \$(tmux list-sessions | awk '{print \$1}' | rg ':' -r '' | fzy); do tmux kill-session -t \$s; done;"
 ```
 
-This is one that I don't have setup with a nice hotkey, but it works for my
-fingers.  Most often I pop open a lower split(`M-s`), tkill, and close (`M-x`).
+I don't have this one set up with a nice hotkey, but it works for my
+fingers.  I often pop open a lower split(`M-s`), run `tkill`, and close (`M-x`).
 
 
 <!-- ![create a new session git-diff switch back to original session with prefix+c-g then use tkill to kill the git-diff session](https://images.waylonwalker.com/tmux-navigation-2021-tkill.gif "tkill example") -->
@@ -330,10 +330,10 @@ fingers.  Most often I pop open a lower split(`M-s`), tkill, and close (`M-x`).
 
 _back_
 
-While M-n and M-p work well with a small focused number of sessions, I often
-end up with too many sessions open and its not efficient to remember a double
-`M-N` followed by a tripple `M-P` to get back and fourth.  Most often I want to
-get between two sessions very quick no matter what the order is.
+While `M-n` and `M-p` work well with a small, focused number of sessions, I often
+end up with too many sessions open, and it's not efficient to remember a double
+`M-N` followed by a triple `M-P` to get back and forth.  Most often, I want to
+get between two sessions quickly, no matter what the order is.
 
 ``` bash
 bind -n M-B switch-client -l
@@ -356,14 +356,14 @@ bind -n M-b switch-client -l
     </button>
 </div>
 
-> Once I get two sessions back to back I can switch between them with insane
+> Once I get two sessions back to back, I can switch between them with insane
 > speed and precision.
 
 ## More Precision
 _one keystroke_
 
-The final layer of precision is for my most current projects that I need to get
-to with a single keysroke.  These are bound to a set of keybindings that were
+The final layer of precision is for my most current project. I need to get
+to these with a single keystroke.  These are bound to a set of keybindings that were
 readily available, just above the home row.
 
 ``` bash
@@ -388,17 +388,18 @@ bind -n M-o new-session -A -s images_waylonwalker_com "cd ~/git/images.waylonwal
     </button>
 </div>
 
-> These few directories are always at my fingertips encouraging me to keep better notes
+> These few directories are always at my fingertips, encouraging me to keep better notes
 
-And yes I did steal this last one from [Harpoon-man](https://twitter.com/ThePrimeagen) By The Way.
+And yes, I did steal this last one from [Harpoon-man](https://twitter.com/ThePrimeagen) By The Way.
 
 
 ## Hub and Spoke
 
 _M-i M-b_
 
-I have really been digging this hub and spoke workflow where I am rocking away on a project hit `M-I`, take some notes
-then hit `M-b` to get back to where I was.
+I have really been digging this hub and spoke workflow where I am rocking away
+on a project hit `M-I`, take some notes then hit `M-b` to get back to where I
+was.
 
 
 ![hub and spoke](https://images.waylonwalker.com/tmux-nav-hub-spoke.png)
@@ -416,20 +417,21 @@ then hit `M-b` to get back to where I was.
 7. `M-g` start work in another project using a fuzzy matcher
 8. `M-t` over to my todo list
 9. `M-b` back to my project
-10. `M-j` fuzzy back to first project
-11. `M-b` back to second project
+10. `M-j` fuzzy back to the first project
+11. `M-b` back to the second project
 
 
 ---
 
-Please let me know your thoughts
+Please let me know your thoughts.
 [@waylonwalker](https://twitter.com/_WaylonWalker), this one took me a bit
 longer to put together with all of the animated gif's, but I think it helps
-visually show how I navigate tmux everyday.
+visually show how I navigate tmux every day.
 
 ### Please give it a share if you liked it
 
-If you liked it give share it and tag me on
-[twitter](https://twitter.com/_WaylonWalker), I don't often ask but this one
-took a bit more to put together than my normal post.
+If you liked it, give it a share and tag me on
+[twitter](https://twitter.com/_WaylonWalker).  I don't often ask but this
+article took a bit more to put together than my normal post.
+
 
