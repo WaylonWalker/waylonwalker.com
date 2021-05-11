@@ -25,12 +25,7 @@ Prior to the course I was quite proficient in nagigating my tmux sessions, but
 rarely started more than one session.  A few months later I have adopted a lot
 of what I learned from Chris and made it my own.
 
-> Prior to the course I was quite proficient in nagigating my tmux sessions, but
-> rarely started more than one session.
-
-### 📝 NOTE
-
-Some of my config comes straight from the course, some of it has been extended to my liking.
+> 📝 **NOTE:** Some of my config comes straight from the course, some of it has been extended to my liking.
 
 <!-- ![overview of how I switch and manage tmux sessions](https://images.waylonwalker.com/tmux-navigation-2021.gif "overview") -->
 <video controls muted autoplay playsinline loop=true width="100%">
@@ -50,7 +45,7 @@ Some of my config comes straight from the course, some of it has been extended t
     </button>
 </div>
 
-> Overview of how I navigate tmux
+> 👆 Overview of how I navigate tmux
 
 ## ta
 
@@ -93,6 +88,8 @@ Another article can dive into my `ta` command, this one is more about the method
 
 ### but theres more
 
+_gettin fuzzy_
+
 Give it a directory and a `fzy` dropdown will let you choose a subdirectory to
 start your session in, and name the session after that directory.
 
@@ -130,7 +127,7 @@ generally I want my terminal session to be plain when I first start my
 terminal.  Generally I am starting work after the first default session.
 
 
-> 🤔  I still use both fzy and fzf, it probably doesn't make sense to use both,
+> 🤔 I still use both fzy and fzf, it probably doesn't make sense to use both,
 > but I am currently giving fzy a try.
 
 ## prefix+w
