@@ -48,12 +48,15 @@ of what I learned from Chris and made it my own.
 > 👆 Overview of how I navigate tmux
 
 ## ta
+_my attach/session switch script_
 
 At the heart of my tmux navigation is a highly customized version of Chris's
 tat script that I renamed `ta`.  Many folks add this to their bashrc `alias
 ta=tmux attach`.  Simply calling ta will do the same thing as shown below.  If
 your in a tmux session it does nothing, if your not in one it will attach you
 to the first one.
+
+> get the full [script](https://github.com/WaylonWalker/devtainer/blob/main/bin/ta) from GitHub.
 
 <!-- ![overview of how I switch and manage tmux sessions](https://images.waylonwalker.com/tmux-navigation-2021-ta.gif "overview") -->
 <video controls muted autoplay playsinline loop=true width="100%">
@@ -84,7 +87,9 @@ to nest tmux sessions.
 ta
 ```
 
-Another article can dive into my `ta` command, this one is more about the methodology, workflow, and keybinds to get me there.  It's available in my [devtainer repo](https://github.com/WaylonWalker/devtainer/blob/main/bin/ta).
+Another article can dive into my `ta` command, this one is more about the
+methodology, workflow, and keybinds to get me there.  It's available in my
+[devtainer repo](https://github.com/WaylonWalker/devtainer/blob/main/bin/ta).
 
 ### but theres more
 
