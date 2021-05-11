@@ -166,9 +166,13 @@ article.blog-post {
     }
 }
 
+article.blog-post p {
+    margin: 2rem 0.8rem;
+}
+
 @media (max-width: 1200px) {
     article.blog-post p {
-        margin: 0 0.8rem;
+        margin: 2rem 0.8rem;
     }
     article.blog-post ul,
     article.blog-post ol {
@@ -191,7 +195,7 @@ article.blog-post .highlight {
     width: calc(100% + 2rem);
 }
 
-a {
+article.blog-post a {
     color: #6f6bae;
     text-decoration-color: #330026;
     text-decoration-color: goldenrod;
@@ -245,10 +249,11 @@ article.blog-post ul {
 
 blockquote {
     color: #777;
+    background: rgba(  255, 20, 147, .05);
     border-left: 2px solid goldenrod;
     font-size: 1rem;
     padding: 1rem 0 1rem 0.5rem;
-    margin: 1.5rem 0;
+    margin: 2rem 0;
 }
 
 hr {
