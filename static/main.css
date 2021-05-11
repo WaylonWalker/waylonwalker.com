@@ -402,6 +402,11 @@ h2.toc {
     color: #ff66c4;
 }
 
+article.blog-post code {
+    background: rgba(255,20,147,.3);
+    padding: 0 .2rem;
+}
+
 article.blog-post {
     overflow: hidden;
     background: rgba(51, 0, 38, 0.13);
