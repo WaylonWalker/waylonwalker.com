@@ -402,7 +402,7 @@ h2.toc {
     color: #ff66c4;
 }
 
-article.blog-post code {
+article.blog-post p > code {
     background: rgba(255,20,147,.3);
     padding: 0 .2rem;
 }
