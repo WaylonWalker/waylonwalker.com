@@ -128,6 +128,20 @@ def _create_seo_tag(meta: dict, soup: BeautifulSoup) -> "Tag":
     return tag
 
 
+def _clean_amp(soup: BeautifulSoup) -> None:
+    """modifies soup as a side effect"""
+    for script in soup.find_all("script"):
+        script.decompose()
+
+    for button in soup.find_all("button"):
+        button.decompose()
+
+    for img in soup.find_all("img"):
+        amp_img = soup.new_tag("amp-img", attrs=img.attrs)
+        img.parent.insert(img.parent.contents.index(img), amp_img)
+        img.decompose()
+
+
 @hook_impl
 def render(markata: Markata) -> None:
     for article in markata.iter_articles("add amp seo tags from seo.py"):
@@ -149,6 +163,7 @@ def render(markata: Markata) -> None:
             soup = BeautifulSoup(article.amp_html, features="lxml")
             seo = _create_seo(markata, soup, article)
             _add_seo_tags(seo, article, soup)
+            _clean_amp(soup)
             canonical_link = soup.new_tag("link")
             canonical_link.attrs["rel"] = "canonical"
             canonical_link.attrs["href"] = f'{markata.url}/{article.metadata["slug"]}/'
