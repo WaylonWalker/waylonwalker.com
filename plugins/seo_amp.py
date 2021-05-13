@@ -132,7 +132,9 @@ def _clean_amp(soup: BeautifulSoup) -> None:
     """modifies soup as a side effect"""
     for script in soup.find_all("script"):
         script.decompose()
-    script = soup.new_tag("script", attrs={"src": "https://cdn.ampproject.org/v0.js", "async": True})
+    script = soup.new_tag(
+        "script", attrs={"src": "https://cdn.ampproject.org/v0.js", "async": True}
+    )
     soup.head.append(script)
 
     for button in soup.find_all("button"):
@@ -147,7 +149,7 @@ def _clean_amp(soup: BeautifulSoup) -> None:
         button.decompose()
 
     for img in soup.find_all("img"):
-        amp_img = soup.new_tag("amp-img", attrs={**img.attrs, "layout": 'responsive')
+        amp_img = soup.new_tag("amp-img", attrs={**img.attrs, "layout": "responsive"})
         img.parent.insert(img.parent.contents.index(img), amp_img)
         img.decompose()
 
