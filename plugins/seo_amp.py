@@ -132,7 +132,7 @@ def _clean_amp(soup: BeautifulSoup) -> None:
     """modifies soup as a side effect"""
     for script in soup.find_all("script"):
         script.decompose()
-    script = soup.new_tag("script", attrs={"src": "https://cdn.ampproject.org/v0.js"})
+    script = soup.new_tag("script", attrs={"src": "https://cdn.ampproject.org/v0.js", "async": True})
     soup.head.append(script)
 
     for button in soup.find_all("button"):
