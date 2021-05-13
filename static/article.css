@@ -109,7 +109,7 @@ h2.toc {
 
 article.blog-post p > code,
 article.blog-post li > code {
-    background: rgba(255,20,147,.3);
+    background: rgba(255,20,147,.075);
     padding: 0 .2rem;
 }
 
