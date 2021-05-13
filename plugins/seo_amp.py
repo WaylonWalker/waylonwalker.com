@@ -138,6 +138,14 @@ def _clean_amp(soup: BeautifulSoup) -> None:
     for button in soup.find_all("button"):
         button.decompose()
 
+    body = soup.find("body")
+
+    for style in body.find_all("style"):
+        style.decompose()
+
+    for button in soup.find_all("button"):
+        button.decompose()
+
     for img in soup.find_all("img"):
         amp_img = soup.new_tag("amp-img", attrs=img.attrs)
         img.parent.insert(img.parent.contents.index(img), amp_img)
