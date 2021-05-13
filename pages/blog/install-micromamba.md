@@ -13,7 +13,7 @@ using the version that I specify at creation.
 
 ## Mamba
 
-_from their readme_
+_from their [readme](https://github.com/mamba-org/mamba)_
 
 ---
 
@@ -84,3 +84,8 @@ I used conda install years ago while on windows machines struggling to compile
 c-extensions and install certain troublesome packages, but I haven't used a
 `conda install` in years, pip works just fine for my use.
 
+## Useful Links
+
+* GitHub: https://github.com/mamba-org/mamba
+* Gitter: https://gitter.im/QuantStack/Lobby
+* Documentation: https://mamba.readthedocs.io/en/latest/
