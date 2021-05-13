@@ -35,5 +35,7 @@ def save(markata: "Markata") -> None:
                 article.amp_html.replace(
                     '<html lang="en">',
                     '<html ⚡ lang="en">',
-                ).replace('async=""', "async")
+                )
+                .replace('async=""', "async")
+                .replace('async="True"', "async")
             )
