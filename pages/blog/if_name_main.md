@@ -7,6 +7,9 @@ status: published
 
 ---
 
+newlines
+
+
 <script>
 change_speed = (speed) => [...document.querySelectorAll('video')].map(v => v.playbackRate=v.playbackRate+speed)
 </script>
@@ -198,3 +201,9 @@ executing some different behavior based on how it was called.
 if __name__ == "__main__":
     print("you are running me as main")
 ```
+
+## Related Links
+
+* example from [rich.live](https://github.com/willmcgugan/rich/blob/master/rich/live.py#L271)
+* [click](https://click.palletsprojects.com/en/7.x/) framework's docs
+* try it yourself in your browser with [replit.com](https://replit.com)

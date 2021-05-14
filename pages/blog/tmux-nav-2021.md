@@ -406,7 +406,7 @@ was.
 
 > Model of my current workflow
 
-### Example workflow
+## Example workflow
 
 1. open tmux session with ta
 2. `prefix+c-g` start work in a project using a fuzzy matcher
@@ -428,10 +428,16 @@ Please let me know your thoughts.
 longer to put together with all of the animated gif's, but I think it helps
 visually show how I navigate tmux every day.
 
-### Please give it a share if you liked it
+## Please give it a share if you liked it
 
 If you liked it, give it a share and tag me on
 [twitter](https://twitter.com/_WaylonWalker).  I don't often ask but this
 article took a bit more to put together than my normal post.
 
+---
 
+## Related Links
+
+* [Chris Toomey's](https://twitter.com/christoomey) Tmux Course
+* my [ta script](https://github.com/WaylonWalker/devtainer/blob/main/bin/ta) on GitHub
+* my [.tmux.conf](https://github.com/WaylonWalker/devtainer/blob/main/dotfiles/.tmux.conf)
