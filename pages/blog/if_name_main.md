@@ -207,3 +207,4 @@ if __name__ == "__main__":
 * example from [rich.live](https://github.com/willmcgugan/rich/blob/master/rich/live.py#L271)
 * [click](https://click.palletsprojects.com/en/7.x/) framework's docs
 * try it yourself in your browser with [replit.com](https://replit.com)
+* StackOverflow: [What does if **name** == “**main**”: do?](https://stackoverflow.com/questions/419163/what-does-if-name-main-do)
