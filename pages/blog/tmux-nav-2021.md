@@ -406,6 +406,27 @@ was.
 
 > Model of my current workflow
 
+### Example
+
+Here is an example of how I use the hub and spoke model to get to notes on my
+blog and back to my project quickly.
+
+<video controls muted autoplay playsinline loop=true width="100%">
+    <source src="https://images.waylonwalker.com/tmux-navigation-2921-quickly-access-notes.webm"
+            type="video/webm">
+    <source src="https://images.waylonwalker.com/tmux-navigation-2921-quickly-access-notes.mp4"
+            type="video/mp4">
+    Sorry, your browser doesn't support embedded videos.
+</video>
+<div class='speed-control'>
+    <button onclick="change_speed(.25)" >
+        speed up
+    </button>
+    <button onclick="change_speed(-.25)" >
+        slow down
+    </button>
+</div>
+
 ## Example workflow
 
 1. open tmux session with ta
