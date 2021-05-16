@@ -13,6 +13,7 @@ Upcoming posts to the blog.  Have an idea edit
 
 ## 🧠
 
+* Kedro run changed
 * How I manage Environments
 * My Data Workflow.
 * Daily Schedule
