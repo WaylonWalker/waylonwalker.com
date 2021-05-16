@@ -33,7 +33,7 @@ generator built in python.  Trying to find the root cause through the layers of
 plugin and cli modules can be a pain, but in this case building a very simple
 minimum reporducible error was much easier.
 
-```
+```python
 from pathlib import Path
 from diskcache import FanoutCache
 import time
