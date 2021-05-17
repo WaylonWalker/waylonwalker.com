@@ -15,6 +15,7 @@ status: draft
 :G add %
 :Gdiff
 :G push
+:Glog
 ```
 
 
@@ -36,3 +37,21 @@ nnoremap gic :GitAdd<CR>
 ## C-W J / C-W L
 
 ## :G log
+
+``` bash
+:G log
+:G log -p
+:Glog
+```
+
+## Ggrep
+
+``` bash
+:Ggrep python **/*md
+```
+
+Unlike `:vim[grep]` you don't need to specify a file glob.
+``` bash
+:Ggrep python
+```
+
