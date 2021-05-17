@@ -15,12 +15,12 @@ change_speed = (speed) => [...document.querySelectorAll('video')].map(v => v.pla
 </script>
 
 When a python module is called it is assigned the `__name__` of `__main__`
-otherwise if its imported it will be assigned the `__name__` of the module.
+otherwise if it's imported it will be assigned the `__name__` of the module.
 
 ## Concrete example
 
 Let's create a module to play with `__name__` a bit.  We will call this module
-`nodes.py`.  It is a module that we may want to run by itself or import and use
+`nodes.py`.  It is a module that we may want to run by it'self or import and use
 in other modules.
 
 ```python
@@ -38,7 +38,7 @@ if __name__ == "__main__":
 ```
 
 I have set this module up to execute one of two if statements based on whether
-the module itself is being ran or if the module is being imported.  
+the module it'self is being ran or if the module is being imported.  
 
 > Note it is not common to have a `if __name__ == "nodes":` block, this is just
 > for demnonstration purposes.
@@ -113,7 +113,7 @@ Let's create a second module `pipeline.py` and import the first module `nodes` a
 import nodes
 ```
 
-Just like nodes we can can run pipeline either way if its executable
+Just like nodes we can run pipeline either way if it's executable
 
 ```bash
 python pipeline.py
@@ -142,7 +142,7 @@ python pipeline.py
 ## REPL
 
 If we were to `import nodes` from the repl we would see an error in this case,
-due to the fact that there is no `__main__` file since its a repl session.
+due to the fact that there is no `__main__` file since it's a repl session.
 
 ## Use Cases
 
@@ -155,7 +155,7 @@ make it such that the module can be both imported and executed.
 ### rich
 
 The [rich](https://github.com/willmcgugan/rich) library uses it to make
-examples of each module print to the screen if its executed.  I personally
+examples of each module print to the screen if it's executed.  I personally
 think this is a fantastic idea.
 
 <video controls muted autoplay playsinline loop=true width="100%">
@@ -178,14 +178,14 @@ think this is a fantastic idea.
 
 In my world of data analysis we often setup a script of functions that will
 behave as an etl pipeline of sorts.  Since we may want to reuse some of these
-functions in other scripts its common to hide the actual execution of these
+functions in other scripts it's common to hide the actual execution of these
 functions in a `if __name__ == "__main__":` block so that we don't start making
 changes to the data simply by importing the module.
 
 ### cli
 
 Most cli applications will leverage `if __name__ == "__main__":` to run
-something when called as a script instead of being imported. This allows us do
+something when called as a script instead of being imported. This allows us dt
 do things such as testing much easier.
 
 > Check out the example on the first page of the
@@ -193,7 +193,7 @@ do things such as testing much easier.
 
 ## Recap
 
-`if __name__ == "__main__":` is not so cryptic or scary, its just looking to
+`if __name__ == "__main__":` is not so cryptic or scary, it's just looking to
 see if this module was called as a script or imported from somewhere else, and
 executing some different behavior based on how it was called.
 
