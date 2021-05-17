@@ -7,9 +7,6 @@ status: published
 
 ---
 
-newlines
-
-
 <script>
 change_speed = (speed) => [...document.querySelectorAll('video')].map(v => v.playbackRate=v.playbackRate+speed)
 </script>
