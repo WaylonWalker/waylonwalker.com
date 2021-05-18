@@ -34,6 +34,32 @@ nnoremap gic :GitAdd<CR>
 
 ## C-I C-O
 
+_cycle through the jumplist_
+
+This one has nothing to do with fugitive, but is a native vim feature that
+makes fugitive glorious.  Before I realized how to utilize `C-i` and `C-o`, I
+would get completely lost when using fugitive.  Digging deep into the log,
+opening a file from a specific commit, then no way to get back where I was in
+the log.
+
+
+> C-i jump
+
+### :jump[s]
+
+_show the jumplist_
+
+> The jumplist is sorted Oldest to newest
+
+
+### :Telescope jumplist
+
+When navigating the jumplist with `:Telescope jumplist`, it will add a new entry
+to the jumplist and let you get back to where you were with a `C-O`.
+
+> :Telescope jumplist adds to the jumplist
+
+
 ## C-W J / C-W L
 
 ## :G log
