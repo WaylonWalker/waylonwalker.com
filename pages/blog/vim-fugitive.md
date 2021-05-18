@@ -32,6 +32,13 @@ endfunction
 nnoremap gic :GitAdd<CR>
 ```
 
+## :on[ly]
+
+_C-W o_
+
+:on[ly] will make the current buffer the only one on the screen.  This is super helpful as many of fugitive commands will open in a split by default.
+
+
 ## C-I C-O
 
 _cycle through the jumplist_
