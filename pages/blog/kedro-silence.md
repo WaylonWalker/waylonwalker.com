@@ -2,8 +2,8 @@
 templateKey: blog-post
 tags: ['kedro', 'python']
 title: Silence Kedro Logs
-date: 2021-04-02T00:00:00 
-status: draft
+date: 2021-05-20T13:13:38
+status: published
 
 ---
 
@@ -107,3 +107,16 @@ def silent_loggers() -> None:
         logging.getLogger(logger).setLevel(logging.ERROR)
 ```
 
+This function comes right out of a plugin I am currently working on
+[kedro-diff](https://github.com/WaylonWalker/kedro-diff).  Check it out, give
+it a star, and watch it for release.
+
+
+https://waylonwalker.com/what-is-kedro/
+
+> Not familiar with kedro, check out this article to see what it's all about.
+
+## Master the log
+
+Python logs can seem super confusing at first, understanding how to get a
+logger and set its level are the first steps to mastering it.
