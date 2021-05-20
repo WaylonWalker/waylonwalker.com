@@ -7,8 +7,6 @@ status: draft
 
 ---
 
-
-
 Kedro can have a quite chatty logger.  While this is super nice in production
 so see everything that happened during a pipeline run, this can be troublesome
 while trying to implement a cli extension with clean output.
@@ -35,7 +33,8 @@ levels to ERROR as most errors should stop execution anyways.
 | DEBUG    | 10            |
 | NOTSET   | 0             |
 
-## Get
+
+## Get or Create a logger
 
 Getting a python logger is straightforward if we know the name of the logger.
 The following block will grab the logger object for the logger currently
@@ -44,6 +43,8 @@ registered under the name passed in.
 ``` python
 logger = logging.getLogger('kedro')
 ```
+
+> 🔥 If a logger doesn't exist under the passed in name it will create one for you.
 
 ## Set Level
 
@@ -58,9 +59,12 @@ difficult to integrate with other shell applications.
 logger.setLevel(logging.ERROR)
 ```
 
-> Note: it is possible to set the log level before kedro even registers the
-> logger, if there is no logger currently setup under getLogger, it will create
-> one.
+> ⚠ Be sure to leave some logging left, after the point of error you are not
+> going to get a clean output anyways.  So let the user see what happened.
+
+It is possible to set the log level before kedro even registers the
+logger, if there is no logger currently setup under getLogger, it will create
+one.
 
 ## Silent all kedro loggers
 
@@ -102,3 +106,4 @@ def silent_loggers() -> None:
     ]:
         logging.getLogger(logger).setLevel(logging.ERROR)
 ```
+
