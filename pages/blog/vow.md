@@ -11,20 +11,30 @@ status: draft
 
 I can still rememember the day that we we realized our new baby girl had gone
 days without a bowel movement.  Holding her while she looked as if she was
-about to pop at any moment, completely nervous for what was to come.  Little
-did we know what that strong little girl had in store for us.  She was
+about to pop at any moment, completely nervous for what was to come.  
+
+Little did we know what that strong little girl had in store for us.  She was
 perparing us for something much bigger.  Little did we know how much scary
-medical journeys would soon become a "normal" part of our life.  I still
-remember the day you drove my car home alone while I sat with our kids,
-patiently awaiting your arrival.  No words needed to be spoken, the minute you
-opened the car door I knew our lives had changed forever.  Scared out of our
-minds we held it together the best we could for those two kids we were holding.
-Fast forward 6 weeks, you are recovering from the biggest surgery of your life,
-and we notice that little girl is now feeding enough for herself. No longer in
-need of the feeding pump the g-tube.  No longer in need to wear a backpack with
-constant feed.  All along she was preparing us for something much bigger,
-soemthing we could not have imagined, something we could not be thrown into
-without the training she had given us.
+medical journeys would soon become a "normal" part of our life.  We spent two
+solid years fighting for this girl every day.
+
+I still remember that Fall day.  That day you drove my car home alone while I
+sat with our kids, patiently awaiting your arrival.  When you arrived, no words
+needed to be spoken, the minute you opened the car door I knew our lives had
+changed forever.
+
+Scared out of our minds we held it together the best we could for those two
+kids we were holding.  Fast forward 6 weeks, you are recovering from the
+biggest surgery of your life, and we notice that little girl is now feeding
+enough for herself. No longer in need of the feeding pump the g-tube.  No
+longer in need to wear a backpack with constant feed.  
+
+All along she was preparing us for something much bigger, soemthing we could
+not have imagined, something we could not have taken without the training
+she had given us.
+
+Together we are stronger after the battles we have faced.  The long battles we
+have won.  Stronger than ever we are ready for anything.
 
 
 # Promise
