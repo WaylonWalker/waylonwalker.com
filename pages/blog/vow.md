@@ -39,7 +39,9 @@ have won.  Stronger than ever we are ready for anything.
 
 # Promise
 
-I promis to hold your hand through the scary moments and tell you everything
+I promise to stay strong and grow with you.
+
+I promise to hold your hand through the scary moments and tell you everything
 will be ok.  We will find a solution, we always do.
 
 I will check the house in the middle of the night when there are noises no
