@@ -7,18 +7,18 @@ status: published
 
 ---
 
-Kedro can have a quite chatty logger.  While this is super nice in production
-so see everything that happened during a pipeline run, this can be troublesome
+Kedro can have a chatty logger.  While this is super nice in production
+so see everything that happened during a pipeline run. This can be troublesome
 while trying to implement a cli extension with clean output.
 
 ## Silence a Python log
 
-First how does one silence a python log?  Python loggers can be retrieved by
-the `logging` modules `getLogger` function, then their log level can be
-changed.  Much of kedro's chattyness comes from INFO level logs.  For my
-current use case I don't want to hear about anything unless its really
-important, i.e. there was a failure.  In this case I am going to set the log
-levels to ERROR as most errors should stop execution anyways.
+First, how does one silence a python log?  Python loggers can be retrieved by
+the `logging` module's `getLogger` function. Then their log level can be
+changed.  Much of kedro's chattiness comes from INFO level logs.  I don't want
+to hear about anything for my current use case unless it's essential, i.e., a
+failure.  In this case, I set the log levels to ERROR as most errors should
+stop execution anyways.
 
 
 ### python logging levels
@@ -44,22 +44,22 @@ registered under the name passed in.
 logger = logging.getLogger('kedro')
 ```
 
-> 🔥 If a logger doesn't exist under the passed in name it will create one for you.
+> 🔥 If a logger doesn't exist under the passed in name, it will create one for you.
 
 ## Set Level
 
-Once we get the logger we need to silence it by setting the log level.
-Typically its not appropriate to completely turn off loggers as you would still
-want information in the case of a complete failure.  If you are doing building
-a cli such as one that prints out the pipelines to the console you may not want
-to see logs that happen during normal operation as this would make it more
-difficult to integrate with other shell applications.
+Once we get the logger, we need to silence it by setting the log level.
+Typically it's not appropriate to completely turn off loggers as you would still
+want information in the case of a complete failure.  If you are building
+a cli such as one that prints out the pipelines to the console, you may not want
+to see logs that happen during regular operation as this would make it more
+challenging to integrate with other shell applications.
 
 ``` python 
 logger.setLevel(logging.ERROR)
 ```
 
-> ⚠ Be sure to leave some logging left, after the point of error you are not
+> ⚠ Be sure to leave some logging left. After the point of error, you are not
 > going to get a clean output anyways.  So let the user see what happened.
 
 It is possible to set the log level before kedro even registers the
@@ -68,9 +68,9 @@ one.
 
 ## Silent all kedro loggers
 
-As of `kedro==0.17.3` This function covers every logger that is issued by
+As of `kedro==0.17.3` this function covers every logger issued by
 kedro.  I generated this list of `known_kedro_loggers` by looking through their
-codebase and filling in a few  others I found by running it.
+codebase and filling in a few others I found by running it.
 
 ``` python
 def silent_loggers() -> None:
@@ -107,7 +107,7 @@ def silent_loggers() -> None:
         logging.getLogger(logger).setLevel(logging.ERROR)
 ```
 
-This function comes right out of a plugin I am currently working on
+This function comes right from a plugin I am currently working on
 [kedro-diff](https://github.com/WaylonWalker/kedro-diff).  Check it out, give
 it a star, and watch it for release.
 
@@ -120,3 +120,4 @@ https://waylonwalker.com/what-is-kedro/
 
 Python logs can seem super confusing at first, understanding how to get a
 logger and set its level are the first steps to mastering it.
+
