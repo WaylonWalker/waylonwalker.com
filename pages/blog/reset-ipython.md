@@ -10,12 +10,21 @@ description: Today we ran into an issue where we had a one-off script that just 
 cover: "/static/reset-ipython.png"
 
 ---
-Today we ran into an issue where we had a one-off script that just needed to work, but it was just chewing threw memory like nothing.
 
+Today I ran into an issue where we had a one-off script that just needed to
+work, but it was just chewing threw memory like nothing.
+
+It started with a colleague asking me How do I clear the memory in a Jupyter
+notebook, these are the steps we took to debug the issue and free up some
+memory in their notebook.
+
+> How do I clear the memory in a Jupyter notebook?
 
 ## Pre check the status of memory.
 
-There are a number of ways that you can check the amount of memory on your system.  The easiest is not necessarily my first go to is free... literally `free`.
+There are a number of ways that you can check the amount of memory on your
+system.  The easiest is not necessarily my first go to is free... literally
+`free`.
 
 _<small><mark>check for free space</mark></small>_
 
@@ -25,7 +34,10 @@ $ free -h
 Mem:           15G        15G       150M         0B        59M       8.7G
 ```
 
-Generally my first go to is a bit more graphical, and not available on a stock stystem, but far more useful.... `htop`.  [`htop`](https://htop.dev) is a terminal process explorer that shows cpu usage, mem usage, and running processes.
+Generally my first go to is a bit more graphical, and not available on a stock
+stystem, but far more useful.... `htop`.  [`htop`](https://htop.dev) is a
+terminal process explorer that shows cpu usage, mem usage, and running
+processes.
 
 _<small><mark>htop</mark></small>_
 
@@ -39,7 +51,9 @@ htop
 
 ## First step throw more swap at it
 
-Often before going through the process of getting a larger instance underneath the notebook you can hobble home with a bit more swap file.  It may not be pretty or fast, but gets the job done in a pinch.
+Often before going through the process of getting a larger instance underneath
+the notebook you can hobble home with a bit more swap file.  It may not be
+pretty or fast, but gets the job done in a pinch.
 
 _<small><mark>Check for free disk</mark></small>_
 
@@ -50,7 +64,8 @@ Filesystem      Size  Used Avail Use% Mounted on
 /dev/asdasd        200G   50G  150G   25% /
 ```
 
-> Make sure you check your free disk space first, filling both memory and disk can be bad news
+> Make sure you check your free disk space first, filling both memory and disk
+> can be bad news
 
 _<small><mark>make a swap file and activate it</mark></small>_
 
@@ -82,13 +97,19 @@ free -h
 
 [linuxize how to add swap space on ubuntu 20.04](https://linuxize.com/post/how-to-add-swap-space-on-ubuntu-20-04/)
 
-More details on creating swapfiles checkout [linuxize](https://linuxize.com/post/how-to-add-swap-space-on-ubuntu-20-04/).  It is my favorite linux tutorial site!
+More details on creating swapfiles checkout
+[linuxize](https://linuxize.com/post/how-to-add-swap-space-on-ubuntu-20-04/).
+It is my favorite linux tutorial site!
 
 ## Refactor - functions
 _keep big datasets inside functions returning aggregations_
 
 
-Sometimes there is a clear quick and simple way to just let the python garbage collector.  Often we pull in large datasets to create features then aggregate them down into smaller datasets that can be then joined into other datasets.  This pattern of pulling in  `big_data`, processing then aggregating can be a simple one.
+Sometimes there is a clear quick and simple way to just let the python garbage
+collector.  Often we pull in large datasets to create features then aggregate
+them down into smaller datasets that can be then joined into other datasets.
+This pattern of pulling in  `big_data`, processing then aggregating can be a
+simple one.
 
 _<small><mark>let the garbage collector take care of big data</mark></small>_
 
@@ -100,13 +121,17 @@ def process():
 data = process()
 ```
 
-If your notebook is following this type of pattern a simple `del` won't work because ipython adds extra references to your `big_data` that you didnt add.  These are things that enable features like `_`, `__`, `___`, umong others.
+If your notebook is following this type of pattern a simple `del` won't work
+because ipython adds extra references to your `big_data` that you didnt add.
+These are things that enable features like `_`, `__`, `___`, umong others.
 
 ## %reset
 
 _check out more on reset from the [ipython docs](https://ipython.readthedocs.io/en/stable/interactive/magics.html#magic-reset)_
 
-The last resort I would lean on here is an `ipython` specific feature `%reset` and `%reset_selective`.  These will flush out all user define variables or selecive ones based on a regex respectively.
+The last resort I would lean on here is an `ipython` specific feature `%reset`
+and `%reset_selective`.  These will flush out all user define variables or
+selecive ones based on a regex respectively.
 
 
 Following two example are directly from the [ipython docs](https://ipython.readthedocs.io/en/stable/interactive/magics.html#magic-reset)
@@ -167,7 +192,9 @@ Out[11]: ['a']
 
 ## Develop faster utilizing autoreload in ipython
 
-The above tips will help you reclaim used memory in ipython, but the following tip is one that single handedly is the reason I use Ipython for faster development over anything else.
+The above tips will help you reclaim used memory in ipython, but the following
+tip is one that single handedly is the reason I use Ipython for faster
+development over anything else.
 
 <p style='text-align: center'>
 <a href='https://waylonwalker.com/autoreload-ipython'>
