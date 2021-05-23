@@ -5,16 +5,17 @@ tags: ['python']
 title: 🐍 Parsing RSS feeds with Python
 date: 2020-07-13T03:00:00Z
 status: published
-description: I am looking into a way to replace my google reader experience
-    that I had back in 2013 before google took it from us. I am starting by
-    learning how to parse feeds with python, and without much previous knowledge
-    it proved to be much easier than anticipated thanks to the `feedparser`
-    library.
 cover: '/static/parsing-rss-python.png'
 
 ---
 
-I am looking into a way to replace my google reader experience that I had back in 2013 before google took it from us.  I am starting by learning how to parse feeds with python, and without much previous knowledge, it proved to be much easier than anticipated thanks to the `feedparser` library.
+I am looking into a way to replace my google reader experience that I had back
+in 2013 before google took it from us.  I am starting by learning how to parse
+feeds with python, and without much previous knowledge, it proved to be much
+easier than anticipated thanks to the `feedparser` library.
+
+This is how I used python to parse rss and setup my own custom feed.
+
 
 ## Install
 
@@ -35,14 +36,17 @@ feed = feedparser.parse('https://waylonwalker.com/rss.xml')
 
 ## The feed object
 
-The feed is a feedparser.FeedParserDict.  For all intents and purposes this seems to just behave like a dict with the following `keys()`.
+The feed is a feedparser.FeedParserDict.  For all intents and purposes this
+seems to just behave like a dict with the following `keys()`.
 
 ``` python
 feed.keys()
 ['feed', 'entries', 'bozo', 'headers', 'etag', 'href', 'status', 'encoding', 'version', 'namespaces', 'content'])
 ```
 
-**feed** has some general information about the rss feed, but the meat of the feed is in **entries**.  The rest of the keys weren't all that useful for me at the moment.
+**feed** has some general information about the rss feed, but the meat of the
+feed is in **entries**.  The rest of the keys weren't all that useful for me at
+the moment.
 
 
 ## pulling multiple feeds
@@ -57,7 +61,9 @@ urls = ['https://waylonwalker.com/rss',
 feeds = [feedparser.parse(url)['entries'] for url in urls]
 ```
 
-I checked out the keys, all three had the following keys.  Mine also had the full post under `'content'`, this is because I added an extra `custom_element` for publishing to `dev.to` from an RSS feed.
+I checked out the keys, all three had the following keys.  Mine also had the
+full post under `'content'`, this is because I added an extra `custom_element`
+for publishing to `dev.to` from an RSS feed.
 
 ``` python
 feeds[1][0].keys()
@@ -68,7 +74,8 @@ feeds[1][0].keys()
 
 ## NOTE: dev.to/feed
 
-I also pulled the [dev.to/feed](https://dev.to/feed).  Since is it setup for more Authors it had a few extra keys.
+I also pulled the [dev.to/feed](https://dev.to/feed).  Since is it setup for
+more Authors it had a few extra keys.
 
 ``` python
 feedparser.parse('https://dev.to/feed')[0].keys()
@@ -79,7 +86,9 @@ feedparser.parse('https://dev.to/feed')[0].keys()
 
 ## Combining Feeds
 
-Now that I have a list of feeds, I can create a single feed sorted by date with a list comprehension.  Note I did need to pull in `dateutil.parser` to convert the date strings to datetime objects to be sorted.
+Now that I have a list of feeds, I can create a single feed sorted by date with
+a list comprehension.  Note I did need to pull in `dateutil.parser` to convert
+the date strings to datetime objects to be sorted.
 
 ``` python
 import dateutil.parser
@@ -126,13 +135,20 @@ feed.sort(key=lambda x: dateutil.parser.parse(x['published']), reverse=True)
 
 ## Decentralized Feed
 
-I think the idea of RSS is super cool, and the idea that I can potentially create my own custom platform-agnostic decentralized feed is pretty cool.  I would love to have a google reader like experience back.
+I think the idea of RSS is super cool, and the idea that I can potentially
+create my own custom platform-agnostic decentralized feed is pretty cool.  I
+would love to have a google reader like experience back.
 
-This post was super fun to explore.  I used an external library (`feedparser`) to pull in the feeds, but other than that It was all vanilla python 3.8.  In DataScience we tend to get very `DataFrame` heavy and I miss working with vanilla datatypes sometimes.
+This post was super fun to explore.  I used an external library (`feedparser`)
+to pull in the feeds, but other than that It was all vanilla python 3.8.  In
+DataScience we tend to get very `DataFrame` heavy and I miss working with
+vanilla datatypes sometimes.
 
 ## Trying to step up your python game
 
-While trying to step up your skills you will need lots of practice.  Its good to have several options to try out ideas quickly.  I often use replit.com, check out this post to see how I use it.
+While trying to step up your skills you will need lots of practice.  Its good
+to have several options to try out ideas quickly.  I often use replit.com,
+check out this post to see how I use it.
 
 https://waylonwalker.com/practice-python-online/
 
