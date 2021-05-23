@@ -496,3 +496,5 @@ healthchecksdb
 # End of https://www.gitignore.io/api/vim,node,sublimetext,visualstudio,visualstudiocode
 disabled
 .markata.cache
+data
+.envrc
