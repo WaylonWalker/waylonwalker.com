@@ -66,7 +66,7 @@ catalog = DataCatalog()
 runner.run(pipeline, catalog)
 ```
 
-> Above is the minimal setup to get a kedro pipeline running
+> 👆 Above is the minimal setup to get a kedro pipeline running
 
 ## more practically
 
@@ -112,7 +112,7 @@ catalog = DataCatalog(
 )
 ```
 
-> for use with pandas
+> ⚠ If all of your datasets are pandas dataframes
 
 For the example above that does not use DataFrames, I would pickle all of my
 outputs to enable re-loading them later.
@@ -127,7 +127,7 @@ catalog = DataCatalog(
 ```
 
 
-> for use with non-pandas datasets
+> 🔥 for use with non-pandas datasets
 
 ## Logging
 
@@ -189,6 +189,11 @@ if __name__ == "__main__":
         runner.run(pipeline, catalog)
 
 ```
+
+> Keeping it simple 
+
+If I want to go down the route of having a full cli built out I am probably
+going to use the full kedro template, or something very similar.
 
 ## It's a bit Rough
 
