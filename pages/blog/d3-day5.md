@@ -2,14 +2,11 @@
 templateKey: 'blog-post'
 title: D3 Day 5
 slug: d3-day-5
-date: 2018-05-08
-category: Viz
+date: 2018-05-08T10:40:39
 tags:
     - webdev
-status: draft
-summary: Today we are adding Axes to the horizontal bar chart that we have worked on throughout the past few days.
-description: none
-cover: "./d3-cropped.png"
+status: published
+
 ---
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js'></script>
