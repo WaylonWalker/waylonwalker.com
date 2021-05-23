@@ -22,7 +22,8 @@ whitespace layout than it is to get closing brackets correct.  For actions, I
 believe this is mostly true.  I don't see any use case to get past 3-5 indents,
 which is completely manageable.
 
-> Can I just say that I learned more than I realized about YAML by writing this article
+> Can I just say that I learned more than I realized about YAML by writing this
+> article
 
 ## Arrays and Objects
 
@@ -161,7 +162,16 @@ folded: >
    a one-liner"
 }
 ```
-## Anchors are not supported
+
+> 🔥 I always use `|` for steps that are scripts
+
+https://waylonwalker.com/testproject-io-py-actions/
+
+In 👆 This article you can see how I use the `|` character to run some docker
+compose commands in a GitHub action to run some integration tests wtih pytet,
+testproject.io, a headless browser, and selenium.
+
+## Anchors are not supported 
 
 YAML has this amazing feature for reducing repetative content called anchors.
 You can save part of your configuration as a reusable variable in other
@@ -286,3 +296,14 @@ jobs:
         echo test, and deploy your project.
 
 ```
+
+
+https://waylonwalker.com/four-github-actions-website/
+
+## Python
+
+https://waylonwalker.com/four-github-actions-python/
+
+If you are a python deveoper like me you will likely want to use GitHub actions
+to Lint, Test, Package, and deploy your python projects. 👆 This article covers just that.
+
