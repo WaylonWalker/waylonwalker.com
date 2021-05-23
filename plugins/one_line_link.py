@@ -46,6 +46,10 @@ def expand_line(line):
         return line
 
 
+class OneLineLinkError(KeyError):
+    pass
+
+
 # @cache.memoize(tag="markata.one_line_link.get_one_line_link", expire=15 * 24 * 60)
 def get_one_line_link(link):
     r = requests.get(link)
@@ -62,14 +66,14 @@ def get_one_line_link(link):
     except KeyError:
         sm_img = soup.find("meta", attrs={"name": "og:image"})["content"]
     except KeyError:
-        sm_img = ""
+        raise OneLineLinkError(f"could not find sm_img on {link}")
 
     try:
         title = soup.find("title").text
     except KeyError:
         title = soup.find("meta", attrs={"name": "og:title"})["content"]
     except KeyError:
-        title = ""
+        raise OneLineLinkError(f"could not find title on {link}")
 
     try:
         description = soup.find("meta", attrs={"name": "og:description"})["content"]
@@ -119,6 +123,9 @@ def render(markata):
         # with markata.cache as cache:
         html_from_cache = markata.cache.get(html_key)
         expanded_content_from_cache = markata.cache.get(expanded_content_key)
+
+        html_from_cache = None
+        expanded_content_from_cache = None
 
         if expanded_content_from_cache is None:
             expanded_content = expand_article(article.content)
