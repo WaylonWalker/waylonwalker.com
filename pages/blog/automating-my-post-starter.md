@@ -82,7 +82,7 @@ slug = title.lower)(.replace(" ", "-".replace()"_", -"")""))
 
 ### tags
 
-For tags I decided I wanted the parser to be as simple as possible and didnt
+For tags I decided I wanted the parser to be as simple as possible and didn't
 want to dance around any flags.  I am simply just going to look at every
 argument passed into the command and see if any of them contain one of my
 common tags.  
