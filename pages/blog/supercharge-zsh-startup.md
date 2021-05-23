@@ -7,15 +7,24 @@ status: published
 
 ---
 
-I have been using oh-my-zsh successfully for about 2 years now. But lately my startup time has been really bothersome. It has grown to the point where it was taking about **5.5s** to startup a shell!  This is ok if I am going to spend some time in here for awhile and do some work that benefits from all of the autocompletions, plugins, and shortcuts that oh-my-zsh brings.  But to only jump in to run a handful of commands is infuriating.
+I have been using oh-my-zsh successfully for about 2 years now. But lately my
+startup time has been really bothersome. It has grown to the point where it was
+taking about **5.5s** to startup a shell!  This is ok if I am going to spend
+some time in here for awhile and do some work that benefits from all of the
+autocompletions, plugins, and shortcuts that oh-my-zsh brings.  But to only
+jump in to run a handful of commands is infuriating.
 
 ### 📑 My Setup
 
-I believe the real issue is io speed on wsl.  I have some remote servers with similar configs that are 10x faster or more, loading in 100s of milliseconds rather than seconds.  Sourcing all of the individual plugin files are just too much for it.
+I believe the real issue is io speed on wsl.  I have some remote servers with
+similar configs that are 10x faster or more, loading in 100s of milliseconds
+rather than seconds.  Sourcing all of the individual plugin files are just too
+much for it.
 
 ## 💨 How Fast can it be
 
-> Quick side note: your zsh config is controled by your \~/.zshrc file.  This file can source other files, load plugins, or run literally anything.
+> Quick side note: your zsh config is controled by your \~/.zshrc file.  This
+> file can source other files, load plugins, or run literally anything.
 
 Time the **initial** time
 
@@ -43,7 +52,13 @@ mv ~/.zshrc-back ~/.zshrc
 
 ## 🕵️‍♂️Profile your startup time
 
-It is possible to profile your zsh startup time by adding `zmodload zsh/zprof` to the start of your `~/.zshrc` file and `zprof` at the end.  This was unsuccessfull for me.  I ended up just backing up `~/.zshrc` file, then deleting half of it to see where the hot spots were.  I found that two places that were really hot for me.  One I was inadvertantly setting git and npm settings everytime that didnt need to be set everytime.  That was an easy 2s gain.  Another easy 3s gain was removing oh-my-zsh.
+It is possible to profile your zsh startup time by adding `zmodload zsh/zprof`
+to the start of your `~/.zshrc` file and `zprof` at the end.  This was
+unsuccessfull for me.  I ended up just backing up `~/.zshrc` file, then
+deleting half of it to see where the hot spots were.  I found that two places
+that were really hot for me.  One I was inadvertantly setting git and npm
+settings everytime that didn't need to be set everytime.  That was an easy 2s
+gain.  Another easy 3s gain was removing oh-my-zsh.
 
 ``` bash
 # ~/.zshrc
