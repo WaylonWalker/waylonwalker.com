@@ -23,6 +23,7 @@ Upcoming posts to the blog.  Have an idea edit
 * Why blog
 * search with fuse.js
 * Testing a blog with ahrefs
+* matrix testing in github actions
 
 
 * Think like a Senior Dev
