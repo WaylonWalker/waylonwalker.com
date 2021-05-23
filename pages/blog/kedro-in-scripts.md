@@ -2,8 +2,8 @@
 templateKey: blog-post
 tags: [python, kedro]
 title: Using Kedro In Scripts
-date: 2021-04-17T00:00:00
-status: draft
+date: 2021-05-23T11:00:44
+status: published
 
 ---
 
