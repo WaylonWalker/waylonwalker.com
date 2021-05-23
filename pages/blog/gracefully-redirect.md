@@ -12,7 +12,7 @@ cover: '/static/gracefully-redirect.png'
 
 I just did a quick refactoring of my JAMStack blog urls.  Some didn't fit with
 my style, some had `_` that I wanted to switch to `-`, and others were
-rediculously long.  I've been using forestry as my CMS, I write many of my
+ridiculously long.  I've been using forestry as my CMS, I write many of my
 posts there, and sometimes it picks some crazy file names (based on my titles).
 It was time to refactor.
 
