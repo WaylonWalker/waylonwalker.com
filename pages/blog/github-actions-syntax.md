@@ -3,7 +3,7 @@ templateKey: blog-post
 related_post_label: Check out this related post
 tags:
 - actions
-title: GitHub Actions Syntax
+title: Getting Started with GitHub Actions
 date: 2020-03-16T05:00:00.000+00:00
 status: published
 description: GitHub actions use YAML to configure your workflows.  What gets ran,
@@ -12,7 +12,6 @@ description: GitHub actions use YAML to configure your workflows.  What gets ran
 cover: "/static/github-actions-syntax.png"
 
 ---
-
 
 Github actions are written in configuration files using the YAML syntax.  YAML
 is a superset of JSON.  Most YAML can be expressed inline with JSON syntax.
