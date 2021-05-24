@@ -9,6 +9,8 @@ status: published
 
 How small can a minimum kedro pipeline ready to package be?  I made one within 4 files that you can pip install.  It's only a total of 35 lines of python, 8 in `setup.py` and 27 in `mini_kedro_pipeline.py`.
 
+> 📝 Note this is only a composable pipeline, not a full project, it does not contain a catalog or runner.
+
 ## Minimal Kedro Pipeline
 
 I have everything for this post hosted in this [gihub repo](https://github.com/WaylonWalker/mini-kedro-pipeline), you can fork it, clone it, or just follow along.
@@ -112,6 +114,11 @@ nodes.append(node(mult_data, "raw_data", "mult_data", name="create_mult_data"))
 
 pipeline = Pipeline(nodes)
 ```
+## Kedro in scripts
+
+https://waylonwalker.com/kedro-in-scripts/
+
+> If you enjoyed this one check out this companion article where I build a fully runnable kedro project in a single script.
 
 ## Share your pipelines
 
