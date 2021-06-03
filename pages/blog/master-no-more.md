@@ -1,6 +1,5 @@
 ---
 templateKey: blog-post
-related_post_label: Check out this related post
 tags: 
   - git
 title: Master No More

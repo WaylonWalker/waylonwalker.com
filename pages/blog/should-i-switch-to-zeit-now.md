@@ -1,6 +1,5 @@
 ---
 templateKey: blog-post
-related_post_label: Check out this related post
 tags: []
 title: Should I switch to Zeit Now
 date: 2020-02-06T22:38:00Z

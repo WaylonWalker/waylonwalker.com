@@ -1,6 +1,5 @@
 ---
 templateKey: blog-post
-related_post_label: Check out this related post
 tags: []
 title: 📝 Packages to Investigate Notes
 date: 2019-10-14T05:00:00.000+00:00

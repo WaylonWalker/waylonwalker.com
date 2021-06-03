@@ -1,6 +1,5 @@
 ---
 templateKey: blog-post
-related_post_label: Check out this related post
 tags: []
 title: python-deepwatch
 date: 2020-04-27T05:00:00Z

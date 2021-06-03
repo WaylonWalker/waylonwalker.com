@@ -1,6 +1,5 @@
 ---
 templateKey: blog-post
-related_post_label: Check out this related post
 tags: []
 title: List the latest files to change in a git repo
 date: 2020-10-08T05:00:00Z

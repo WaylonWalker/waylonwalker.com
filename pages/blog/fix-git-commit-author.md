@@ -1,6 +1,5 @@
 ---
 templateKey: blog-post
-related_post_label: Check out this related post
 tags: []
 title: Fix git commit author
 date: 2020-10-17T05:00:00.000+00:00

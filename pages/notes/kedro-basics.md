@@ -1,6 +1,5 @@
 ---
 templateKey: blog-post
-related_post_label: Check out this related post
 tags: []
 title: Kedro Basics
 date: 2020-08-08T05:00:00Z

@@ -1,6 +1,5 @@
 ---
 templateKey: blog-post
-related_post_label: Check out this related post
 tags: []
 title: "\U0001F4E2 Announcing find-kedro"
 date: 2020-05-04T11:53:00Z

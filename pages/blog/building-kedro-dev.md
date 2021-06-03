@@ -1,6 +1,5 @@
 ---
 templateKey: blog-post
-related_post_label: Check out this related post
 tags: []
 title: Building kedro.dev
 date: 2020-06-05T05:00:00Z

@@ -1,6 +1,5 @@
 ---
 templateKey: blog-post
-related_post_label: Check out this related post
 tags: []
 title: Thanks For Subscribing
 date: 2020-05-20T10:00:00Z

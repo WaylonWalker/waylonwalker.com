@@ -1,6 +1,5 @@
 ---
 templateKey: blog-post
-related_post_label: Check out this related post
 tags: []
 title: 📝 Kedro Preflight Notes
 date: 2020-05-09T15:01:00Z

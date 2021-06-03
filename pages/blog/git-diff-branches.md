@@ -1,6 +1,5 @@
 ---
 templateKey: blog-post
-related_post_label: Check out this related post
 tags: []
 title: Today I learned `git diff feature..main`
 date: 2020-03-03T11:58:00.000+00:00

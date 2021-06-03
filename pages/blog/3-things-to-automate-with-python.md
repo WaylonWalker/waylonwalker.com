@@ -1,6 +1,5 @@
 ---
 templateKey: blog-post
-related_post_label: Check out this related post
 tags: [python]
 title: Three things to Automate with Python using Pandas
 date: 2020-08-11T05:00:00.000+00:00

@@ -1,6 +1,5 @@
 ---
 templateKey: blog-post
-related_post_label: Check out this related post
 tags: ['python', 'kedro',]
 title: What's New in Kedro 0.16.4
 date: 2020-08-01T05:00:00Z

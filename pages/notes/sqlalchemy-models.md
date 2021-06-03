@@ -1,6 +1,5 @@
 ---
 templateKey: blog-post
-related_post_label: Check out this related post
 tags: []
 title: SqlAlchemy Models
 date: 2019-12-21T05:00:00Z

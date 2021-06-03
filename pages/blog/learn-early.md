@@ -1,6 +1,5 @@
 ---
 templateKey: blog-post
-related_post_label: Check out this related post
 tags: []
 title: What is something you should have learned or understood earlier?
 date: 2020-01-10T06:00:00Z

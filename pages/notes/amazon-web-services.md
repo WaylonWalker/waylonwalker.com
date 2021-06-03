@@ -1,6 +1,5 @@
 ---
 templateKey: blog-post
-related_post_label: Check out this related post
 tags: []
 title: Amazon Web Services
 date: 2019-09-22T05:00:00Z

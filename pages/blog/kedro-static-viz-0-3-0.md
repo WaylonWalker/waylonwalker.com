@@ -1,6 +1,5 @@
 ---
 templateKey: blog-post
-related_post_label: Check out this related post
 tags: []
 title: Kedro Static Viz 0.3.0 is out with Hooks Support
 date: 2020-05-28T05:00:00.000+00:00

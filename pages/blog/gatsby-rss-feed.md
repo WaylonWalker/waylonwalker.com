@@ -1,6 +1,5 @@
 ---
 templateKey: blog-post
-related_post_label: Check out this related post
 tags: []
 title: RSS feed for your Gatsby Site
 date: 2020-01-21T13:58:59Z

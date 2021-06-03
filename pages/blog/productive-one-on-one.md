@@ -1,6 +1,5 @@
 ---
 templateKey: blog-post
-related_post_label: Check out this related post
 tags: []
 title: Productive one on one
 date: 2020-02-24T12:53:00Z

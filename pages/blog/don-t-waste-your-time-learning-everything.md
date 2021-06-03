@@ -1,6 +1,5 @@
 ---
 templateKey: blog-post
-related_post_label: Check out this related post
 tags: []
 title: Don’t waste your time learning everything
 date: 2020-02-19T06:00:00Z

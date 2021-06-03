@@ -1,6 +1,5 @@
 ---
 templateKey: blog-post
-related_post_label: Check out this related post
 tags: []
 title: Personal URL shortener with Netlify Redirects
 date: 2020-01-29T06:00:00.000+00:00

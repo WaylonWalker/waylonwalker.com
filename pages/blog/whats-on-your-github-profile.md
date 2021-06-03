@@ -1,6 +1,5 @@
 ---
 templateKey: blog-post
-related_post_label: Check out this related post
 tags: 
   - discuss
 title: 🤓 What's on your GitHub Profile

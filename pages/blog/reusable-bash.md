@@ -1,6 +1,5 @@
 ---
 templateKey: blog-post
-related_post_label: Check out this related post
 tags: ['bash', 'linux']
 title: Creating Reusable Bash Scripts
 date: 2020-08-13T05:00:00Z

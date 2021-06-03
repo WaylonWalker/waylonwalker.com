@@ -1,6 +1,5 @@
 ---
 templateKey: blog-post
-related_post_label: Check out this related post
 tags: []
 title: Twitter deepdives
 date: 2020-05-01T05:00:00Z

@@ -1,6 +1,5 @@
 ---
 templateKey: blog-post
-related_post_label: Check out this related post
 tags: ['python']
 title: 🐍 Parsing RSS feeds with Python
 date: 2020-07-13T03:00:00Z
