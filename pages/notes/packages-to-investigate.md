@@ -5,8 +5,6 @@ tags: []
 title: 📝 Packages to Investigate Notes
 date: 2019-10-14T05:00:00.000+00:00
 status: published
-description: ''
-cover: ''
 
 ---
 * jmespath

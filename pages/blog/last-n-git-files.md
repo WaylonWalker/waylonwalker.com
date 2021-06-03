@@ -5,8 +5,6 @@ tags: []
 title: List the latest files to change in a git repo
 date: 2020-10-08T05:00:00Z
 status: 'false'
-description: ''
-cover: ''
 
 ---
 

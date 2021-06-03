@@ -4,7 +4,6 @@ tags: ['kedro', 'python', 'data']
 title: Kedro - My Data Is Not A Table
 date: 2021-01-14T00:00:00
 status: published
-description: ''
 
 ---
 

@@ -4,7 +4,6 @@ tags: [bash]
 title: Scripting Tmux Layouts
 date: 2020-12-13T00:00:00
 status: draft
-description: ''
 cover: "/static/scripting-tmux-layouts.png"
 
 ---

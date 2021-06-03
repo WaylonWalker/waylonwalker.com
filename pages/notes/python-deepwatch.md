@@ -5,8 +5,6 @@ tags: []
 title: python-deepwatch
 date: 2020-04-27T05:00:00Z
 status: published
-description: ''
-cover: ''
 
 ---
 Is it possible to deep watch a single python function for changes?

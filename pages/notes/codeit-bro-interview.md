@@ -5,7 +5,6 @@ tags: []
 title: Codeit Bro Interview
 date: 2020-11-02T06:00:00.000+00:00
 status: published
-description: ''
 cover: "static/codeit-bro-interview.png"
 
 ---

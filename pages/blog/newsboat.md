@@ -4,7 +4,6 @@ tags: ['bash']
 title: Newsboat
 date: 2021-01-02T00:00:00
 status: published
-description: ''
 cover: "/static/newsboat.png"
 
 ---

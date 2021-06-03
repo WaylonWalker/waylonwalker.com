@@ -5,8 +5,6 @@ tags: []
 title: Productive one on one
 date: 2020-02-24T12:53:00Z
 status: 'false'
-description: ''
-cover: ''
 
 ---
 

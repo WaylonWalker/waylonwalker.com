@@ -5,8 +5,6 @@ tags: []
 title: Reasons to Kedro
 date: 2020-10-31T05:00:00.000+00:00
 status: published
-description: ''
-cover: ''
 
 ---
 ## Reasons to Kedro
