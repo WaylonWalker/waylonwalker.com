@@ -5,8 +5,6 @@ tags: []
 title: Resume Tips
 date: 2020-11-06T06:00:00.000+00:00
 status: published
-description: ''
-cover: ''
 
 ---
 * customize for the job
