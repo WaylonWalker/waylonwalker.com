@@ -12,6 +12,27 @@ if TYPE_CHECKING:
     import frontmatter
     from bs4.element import Tag
 
+from urllib import request as ulreq
+from PIL import ImageFile
+
+
+def getsizes(uri, default_height=500, default_width=500):
+    # get file size *and* image size (None if not known)
+    # https://stackoverflow.com/questions/7460218/get-image-size-without-downloading-it-in-python
+    with ulreq.urlopen(uri) as file:
+        p = ImageFile.Parser()
+        while True:
+            data = file.read(1024)
+            if not data:
+                break
+            p.feed(data)
+            if p.image:
+                return p.image.size
+        return (
+            default_width,
+            default_height,
+        )
+
 
 def _create_seo(
     markata: Markata, soup: BeautifulSoup, article: "frontmatter.Post"
@@ -149,7 +170,16 @@ def _clean_amp(soup: BeautifulSoup) -> None:
         button.decompose()
 
     for img in soup.find_all("img"):
-        amp_img = soup.new_tag("amp-img", attrs={**img.attrs, "layout": "responsive"})
+        img_size = getsizes(img.attrs["src"])
+        amp_img = soup.new_tag(
+            "amp-img",
+            attrs={
+                **img.attrs,
+                "layout": "responsive",
+                "width": img_size[0],
+                "height": img_size[1],
+            },
+        )
         img.parent.insert(img.parent.contents.index(img), amp_img)
         img.decompose()
 
