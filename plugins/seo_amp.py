@@ -13,21 +13,24 @@ if TYPE_CHECKING:
     from bs4.element import Tag
 
 from urllib import request as ulreq
+from urllib.error import HTTPError
 from PIL import ImageFile
 
 
 def getsizes(uri, default_height=500, default_width=500):
     # get file size *and* image size (None if not known)
     # https://stackoverflow.com/questions/7460218/get-image-size-without-downloading-it-in-python
-    with ulreq.urlopen(uri) as file:
-        p = ImageFile.Parser()
-        while True:
-            data = file.read(1024)
-            if not data:
-                break
-            p.feed(data)
-            if p.image:
-                return p.image.size
+    try:
+        with ulreq.urlopen(uri) as file:
+            p = ImageFile.Parser()
+            while True:
+                data = file.read(1024)
+                if not data:
+                    break
+                p.feed(data)
+                if p.image:
+                    return p.image.size
+    except HTTPError:
         return (
             default_width,
             default_height,
@@ -182,6 +185,7 @@ def _clean_amp(soup: BeautifulSoup) -> None:
         )
         img.parent.insert(img.parent.contents.index(img), amp_img)
         img.decompose()
+    for iframe in soup.find_all('iframe'):
 
 
 @hook_impl
