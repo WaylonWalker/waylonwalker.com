@@ -183,15 +183,27 @@ def _clean_amp(soup: BeautifulSoup) -> None:
 
     for img in soup.find_all("img"):
         img_size = getsizes(img.attrs["src"])
-        amp_img = soup.new_tag(
-            "amp-img",
-            attrs={
-                **img.attrs,
-                "layout": "responsive",
-                "width": img_size[0],
-                "height": img_size[1],
-            },
-        )
+        try:
+            amp_img = soup.new_tag(
+                "amp-img",
+                attrs={
+                    **img.attrs,
+                    "layout": "responsive",
+                    "width": img_size[0],
+                    "height": img_size[1],
+                },
+            )
+        except TypeError:
+            # img_size is sometimes returning None
+            amp_img = soup.new_tag(
+                "amp-img",
+                attrs={
+                    **img.attrs,
+                    "layout": "responsive",
+                    "width": 500,
+                    "height": 500,
+                },
+            )
         img.parent.insert(img.parent.contents.index(img), amp_img)
         img.decompose()
 
