@@ -28,22 +28,22 @@ def expand_line(line):
     Todo: better error message over base exception
     Todo: try except decorator?
     """
-    # try:
-    r = RE_ONE_LINE.match(line)
-    if r and " " not in line:
-        return get_one_line_link(line)
-    r = RE_TWEET.match(line)
-    if r and " " not in line:
-        html = API.GetStatusOembed(url=line)["html"]
-        return html
+    try:
+        r = RE_ONE_LINE.match(line)
+        if r and " " not in line:
+            return get_one_line_link(line)
+        r = RE_TWEET.match(line)
+        if r and " " not in line:
+            html = API.GetStatusOembed(url=line)["html"]
+            return html
 
-    return line
-    # except BaseException as e:
-    #     import warnings
+        return line
+    except BaseException as e:
+        import warnings
 
-    #     warnings.warn(f"OneLineLink threw an error\n {e}")
+        warnings.warn(f"OneLineLink threw an error\n {e}")
 
-    #     return line
+        return line
 
 
 class OneLineLinkError(KeyError):
