@@ -2,11 +2,9 @@
 # bump site version to bust GitHub actions cache
 site_version = 9
 glob_patterns = "pages/**/*.md"
-# markdown_extensions = ["plugins.one_line_link"]
 output_dir = "markout"
 assets_dir = "static"
-hooks = ["markata.plugins.publish_source", "plugins.index", "plugins.slug", "default",  'plugins.related', 'plugins.seo_amp', 'plugins.publish_amp', ]
-# hooks = ["markata.plugins.publish_source", "plugins.index", "default", ]
+hooks = ["markata.plugins.publish_source", "plugins.index", "plugins.slug", "plugins.one_line_link", "default", 'plugins.related', 'plugins.seo_amp', 'plugins.publish_amp', ]
 disabled_hooks = ["markata.plugins.covers", 'markata.plugins.flat_slug']
 url = "https://waylonwalker.com"
 images_url = "https://images.waylonwalker.com"
