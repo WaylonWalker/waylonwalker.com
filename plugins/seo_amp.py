@@ -14,17 +14,14 @@ if TYPE_CHECKING:
 
 from urllib import request as ulreq
 from urllib.error import HTTPError
+from http.client import InvalidURL
+
 from PIL import ImageFile
 
 
 def getsizes(uri, default_height=500, default_width=500):
     # get file size *and* image size (None if not known)
     # https://stackoverflow.com/questions/7460218/get-image-size-without-downloading-it-in-python
-    if not uri.startswith("http"):
-        return (
-            default_width,
-            default_height,
-        )
 
     try:
         with ulreq.urlopen(uri) as file:
@@ -37,6 +34,12 @@ def getsizes(uri, default_height=500, default_width=500):
                 if p.image:
                     return p.image.size
     except HTTPError:
+        return (
+            default_width,
+            default_height,
+        )
+
+    except InvalidURL:
         return (
             default_width,
             default_height,
