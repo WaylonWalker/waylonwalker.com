@@ -86,4 +86,4 @@ I'd say 50% of what I need is just a full-width horizontal bar to give some visu
 ## Resources
 
 As I was putting this together I stumbled accross a good site to find ascii characters and copy them.
-[Unicode Full-Width Characters](!\[\](https://images.waylonwalker.com/ascii-boxes.png)https://xahlee.info/comp/unicode_full-width_chars.html)
+[Unicode Full-Width Characters](https://xahlee.info/comp/unicode_full-width_chars.html)
