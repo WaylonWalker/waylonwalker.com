@@ -185,7 +185,6 @@ def _clean_amp(soup: BeautifulSoup) -> None:
         )
         img.parent.insert(img.parent.contents.index(img), amp_img)
         img.decompose()
-    for iframe in soup.find_all('iframe'):
 
 
 @hook_impl
