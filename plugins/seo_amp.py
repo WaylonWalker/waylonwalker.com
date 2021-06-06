@@ -33,13 +33,7 @@ def getsizes(uri, default_height=500, default_width=500):
                 p.feed(data)
                 if p.image:
                     return p.image.size
-    except HTTPError:
-        return (
-            default_width,
-            default_height,
-        )
-
-    except InvalidURL:
+    except BaseException:
         return (
             default_width,
             default_height,
