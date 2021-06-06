@@ -129,7 +129,7 @@ _any single easy to type command, these are my common commands that I will open 
 
 The second benefit was that I can continue typing while plugins are loading.
 
-![](/static/type-while-loading-plugins.gif)
+![](https://waylonwalker.com/type-while-loading-plugins.gif)
 
 ## >Prompt
 

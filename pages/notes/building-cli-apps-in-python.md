@@ -1,11 +1,10 @@
 ---
 templateKey: blog-post
-tags: []
+tags: ['python']
 title: Building Cli apps in Python
 date: 2019-11-11T06:00:00.000+00:00
 status: published
 description: learning about building cli apps in python
-cover: "/static/jp-valery-6W9G5G2WXGY-unsplash.jpg"
 
 ---
 ## Packages

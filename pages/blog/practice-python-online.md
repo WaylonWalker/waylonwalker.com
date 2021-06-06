@@ -5,7 +5,6 @@ tags:
 title: 🐍 Practice Python Online
 date: 2020-07-25T05:00:00Z
 status: published
-cover: '/static/practice-python-online.png'
 
 ---
 

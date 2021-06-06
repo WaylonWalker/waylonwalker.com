@@ -4,10 +4,6 @@ tags: ['python']
 title: Designing a "Router" for kedro
 date: 2020-10-08T05:00:00Z
 status: published
-description: I released a router-like plugin for kedro back in April 2020.
-    This was not the first design, the idea actually came from one of the QB
-    folks who taught me kedro nearly a year before.
-cover: "/static/designing-kedro-router.png"
 
 ---
 

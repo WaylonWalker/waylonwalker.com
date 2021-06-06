@@ -6,7 +6,6 @@ tags:
 title: How I Built My GitHub Profile
 date: 2020-07-10T03:00:00Z
 status: published
-cover: '/static/my-github-profile.png'
 
 ---
 

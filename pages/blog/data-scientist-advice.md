@@ -1,13 +1,12 @@
 ---
 templateKey: blog-post
-tags: []
+tags: ['data']
 title: What is YOUR Advice for New Data Scientists
 date: 2020-02-26T12:55:00Z
 status: published
-description: What is YOUR Advice for New Data Scientists
-cover: "/static/16.png"
 
 ---
+
 * Learn the business
 * Learn Git
 * Your code does not need to be amazing

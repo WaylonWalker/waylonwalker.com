@@ -4,16 +4,12 @@ tags: []
 title: My first eight years as a working professional.
 date: 2020-06-19T05:00:00Z
 status: published
-description: This day 8 years ago I started my first day as a Mechanical
-  Engineer. I am so grateful for this journey that I have been able to have.
-  There is no way that I could have planned this journey from the beginning.
-cover: '/static/eight-years-cat.png'
 
 ---
 
-
-
-This day 8 years ago I started my first day as a Mechanical Engineer. I am so grateful for this journey that I have been able to have. There is no way that I could have planned this journey from the beginning.
+This day 8 years ago I started my first day as a Mechanical Engineer. I am so
+grateful for this journey that I have been able to have. There is no way that I
+could have planned this journey from the beginning.
 
 ## Keep Learning
 

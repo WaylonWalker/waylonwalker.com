@@ -1,13 +1,10 @@
 ---
 templateKey: blog-post
-tags: []
+tags: ['python', 'cli']
 title: simple click
 date: 2020-01-29T06:00:00.000+00:00
 status: published
 description: Add helpful cli to your python libraries... All of them!
-cover: "/static/2020-02-02 09-40-45_Start.png"
-category: ''
-summary: ''
 
 ---
 cli tools are super handy and easy to add to your python libraries to supercharge them. Even if your library is not a cli tool there are a number of things that a cli can do to your library.

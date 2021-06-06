@@ -4,7 +4,6 @@ tags: ['python']
 title: SLIDES - understanding python \*args and \*\*kwargs
 date: 2020-07-02T05:00:00Z
 status: published
-cover: '/static/python-args-kwargs-slides.png'
 
 ---
 

@@ -4,18 +4,15 @@ tags: []
 title: Create Configurable Kedro Hooks
 date: 2020-05-23T05:00:00.000+00:00
 status: published
-description: There are two main ways to create kedro hooks, with modules and classes.  Each
-  one still uses the same verbiage as the function/method names.  Class hooks seem
-  a bit special as they give you a way to configure them so that they are a bit more
-  generally useful.
-cover: "/static/configurable-kedro-hooks.png"
 
 ---
-There are two main ways to create kedro hooks, with modules and classes.  Each one still uses the same verbiage as the function/method names.
+There are two main ways to create kedro hooks, with modules and classes.  Each
+one still uses the same verbiage as the function/method names.
 
 Class hooks seem a bit special as they give you a way to configure them so that they are a bit more generally useful.
 
-> ### What is Kedro 🤔
+https://waylonwalker.com/what-is-kedro
+
 >
 > If you are completely unsure what kedro is be sure to check out my [what is kedro](https://waylonwalker.com/wike) post
 

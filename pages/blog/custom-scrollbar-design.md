@@ -1,16 +1,19 @@
 ---
 templateKey: blog-post
-tags: []
+tags: ['webdev']
 title: Custom Scrollbar Design
 date: 2020-02-21T12:11:00Z
 status: published
-description: Getting a custom scrollbar on your site makes it stand out a bit compared
-  to the very plain stock one that are on most sites.  This is how I set mine up on
-  my gatsby site.
-cover: "/static/custom-scrollbar-wtih-gatsbyjs.jpg"
 
 ---
-Inspired by Wes Bos's new [uses.tech](https://uses.tech) I wanted a custom scrollbar on my personal site.  I had tried to do it in the past, but gave up after it was not working.
+
+Getting a custom scrollbar on your site makes it stand out a bit compared to
+the very plain stock one that are on most sites.  This is how I set mine up on
+my gatsby site.
+
+Inspired by Wes Bos's new [uses.tech](https://uses.tech) I wanted a custom
+scrollbar on my personal site.  I had tried to do it in the past, but gave up
+after it was not working.
 
 ## Looking at the Source
 
@@ -63,7 +66,7 @@ import './static/scroll.css
 
  It was a bit finicky for me to find the right place to put everything, but this is the final result.  I found out that you can have a gradient on your `scrollbar-thumb`, but the `scrollbar-track` cannot, it also cannot be transparent.  I picked a color that matched my background the best for most use cases, but when the screen gets really narrow a line starts to appear.
 
-![My final result](/static/custom-scrollbar-with-css.gif "my final result, an example give of the final result live on waylonwalker.com")
+![My final result](https://images.waylonwalker.com/custom-scrollbar-with-css.gif "my final result, an example give of the final result live on waylonwalker.com")
 
 > My final result
 

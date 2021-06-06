@@ -3,7 +3,6 @@ templateKey: blog-post
 title: Background Tasks in Python for Data Science
 date: 2019-09-10T05:00:00.000+00:00
 status: published
-cover: "/static/erwan-hesry-elayN_YscVg-unsplash.jpg"
 tags:
 - python
 - data

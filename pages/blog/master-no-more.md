@@ -5,15 +5,13 @@ tags:
 title: Master No More
 date: 2020-06-11T05:00:00Z
 status: published
-description: It's been a long time coming.  We use some very harsh language
-    within tech so much sometimes that we become numb to it.  It's time to do
-    my very small part in this movement and purge this language from my active
-    repos starting with this blog right here.
-cover: '/static/master-no-more.png'
 
 ---
 
-It's been a long time coming.  We use some very harsh language within tech so much sometimes that we become numb to it.  It's time to do my very small part in this movement and purge this language from my active repos starting with this blog right here.
+It's been a long time coming.  We use some very harsh language within tech so
+much sometimes that we become numb to it.  It's time to do my very small part
+in this movement and purge this language from my active repos starting with
+this blog right here.
 
 https://waylonwalker.com/refactor-in-cli/
 

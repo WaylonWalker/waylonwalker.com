@@ -1,11 +1,14 @@
 ---
 templateKey: 'blog-post'
 title: It's not all about winning
+tags: 
+- catalytic
 date: 2019-02-02
 status: published
 description: This is my story into data science.
-cover: "./brett-patzke-725745-unsplash-cropped.jpg"
+
 ---
+
 _This is my story into data science._
 
 ## The Journey Begins

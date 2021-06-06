@@ -4,7 +4,6 @@ tags: ['kedro', 'python']
 title: creating the kedro-preflight hook
 date: 2020-05-10T07:12:00.000+00:00
 status: published
-cover: "/static/kedro-hooks.png"
 
 ---
 

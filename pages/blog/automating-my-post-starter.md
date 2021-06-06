@@ -4,7 +4,6 @@ tags: ['blog', 'python']
 title: Automating my Post Starter
 date: 2020-12-11T09:08
 status: published
-cover: "/static/automating-my-post-starter.png"
 
 ---
 

@@ -5,14 +5,16 @@ tags:
 title: Four github actions for your website
 date: 2020-05-18T13:02:00.000+00:00
 status: published
-description: GitHub actions can give you confidence that your site is up and running,
-  with the latests JavaScript packages, does not have broken links, and can even take
-  screenshots of what your website looks like on different screen sizes and operating
-  systems.
-cover: "/static/four-github-actions-website.png"
 
 ---
-GitHub's actions are a new GitHub feature that will trigger GitHub to spin up a virtual machine and run some tasks with some special access to your repo. It can interact with comments/issues, it can clone your repo, You can explicitly pass in secrets so that it can commit back to the repo or deploy to another service. The environment may be a Linux, windows, or even a mac machine. I believe this is wildly incredible for the open-source community, putting these tools in the same place that we are already collaborating is so convenient.
+
+GitHub's actions are a new GitHub feature that will trigger GitHub to spin up a
+virtual machine and run some tasks with some special access to your repo. It
+can interact with comments/issues, it can clone your repo, You can explicitly
+pass in secrets so that it can commit back to the repo or deploy to another
+service. The environment may be a Linux, windows, or even a mac machine. I
+believe this is wildly incredible for the open-source community, putting these
+tools in the same place that we are already collaborating is so convenient.
 
 ## What can they do for my personal website? 🤔
 

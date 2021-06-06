@@ -1,17 +1,16 @@
 ---
 templateKey: blog-post
-tags: []
+tags: ['python']
 title: 'TIL: Bind arguments to dynamically generated lambdas in python'
 date: 2020-04-27T12:13:00.000+00:00
 status: published
-description: This past week I had a really weird bug in my [kedro](https://kedro.readthedocs.io/)
-  pipeline.  For some reason data running through my pipeline was coming out completely
-  made no sense, but if I manually request raw data outside of the pipeline it matched
-  expectations.
-cover: "/static/bind-dynamic-lambdas.png"
 
 ---
-This past week I had a really weird bug in my [kedro](https://kedro.readthedocs.io/) pipeline.  For some reason data running through my pipeline was coming out completely made no sense, but if I manually request raw data outside of the pipeline it matched expectations.
+
+This past week I had a really weird bug in my
+[kedro](https://kedro.readthedocs.io/) pipeline.  For some reason data running
+through my pipeline was coming out completely made no sense, but if I manually
+request raw data outside of the pipeline it matched expectations.
 
 **NOTE** While this story is about a kedro pipeline, it can be applied anywhere closures are put into an iterable.
 

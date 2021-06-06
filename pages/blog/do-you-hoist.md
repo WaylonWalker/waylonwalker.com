@@ -1,16 +1,18 @@
 ---
 templateKey: blog-post
-tags: []
+tags: ['webdev']
 title: Do You Hoist
 date: 2020-02-25T12:52:00Z
 status: published
 description: Do you have any use cases that you use hoising?  Why?  It seems like
   a really cool feature in any language that uses it, but I dont really notice it
   in use.
-cover: "/static/do-you-hoist.png"
 
 ---
-I am working through Wes Bos's [beginnerjavascript.com/](https://beginnerjavascript.com/) I just hit module 18 on hoisting.  It's something that I always knew was there, Its not something I typically see used or use myself.
+I am working through Wes Bos's
+[beginnerjavascript.com/](https://beginnerjavascript.com/) I just hit module 18
+on hoisting.  It's something that I always knew was there, Its not something I
+typically see used or use myself.
 
 ## Do you Hoist?
 

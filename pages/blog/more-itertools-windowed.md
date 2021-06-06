@@ -4,7 +4,6 @@ tags: [python]
 title: Windowing Python Lists
 date: 2020-12-10T10:44:19
 status: published
-cover: "/static/more-itertools-windowed.png"
 
 ---
 

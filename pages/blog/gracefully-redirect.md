@@ -6,7 +6,6 @@ tags:
 title: Refactoring your blog urls
 date: 2020-06-11T05:00:00Z
 status: published
-cover: '/static/gracefully-redirect.png'
 
 ---
 

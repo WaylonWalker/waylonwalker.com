@@ -6,8 +6,7 @@ status: published
 description:
 tags:
     - git
-cover: /static/neonbrand-618322-unsplash.jpg
-coverCredit: Photo by NeONBRAND on Unsplash
+
 ---
 
 

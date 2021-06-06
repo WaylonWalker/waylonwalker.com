@@ -4,9 +4,6 @@ tags: ['webdev']
 title: I just added react-headroom to my site
 date: 2020-02-11T12:57:00.000+00:00
 status: published
-description: It was so easy to get a professional looking navbar with just 3 lines
-  of code.  This thing is so usable on mobile.
-cover: "/static/react-headroom.png"
 
 ---
 
@@ -58,7 +55,8 @@ a little bit of a scroll up.
 
 ## Configurable
 
-`react-headroom` is configurable, but I did not find it necessary.  I really like the simplicity that it brought by just adding the `<Headroom\>` component.
+`react-headroom` is configurable, but I did not find it necessary.  I really
+like the simplicity that it brought by just adding the `<Headroom\>` component.
 
 ![react-headroom docs](https://images.waylonwalker.com/react-headroom-docs.png)
 

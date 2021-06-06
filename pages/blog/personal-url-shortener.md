@@ -1,18 +1,18 @@
 ---
 templateKey: blog-post
-tags: []
+tags: ['webdev', 'blog'] 
 title: Personal URL shortener with Netlify Redirects
 date: 2020-01-29T06:00:00.000+00:00
 status: published
 description: Personal URL shortener with Netlify Redirects
-related_post:
-# cover: "/static/ozark-drones-oS8E1274cpY-unsplash.jpg"
-cover: "/static/URL shortener.png"
 
 ---
-Photo by [Ozark Drones](https://unsplash.com/@ozarkdrones?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/uturn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
-I love using URL shorteners to easily share links without hitting character limits, but they loose their meaning. Services like bit.ly will save my links for me so that I can find them, but I would rather them to be easy to remember. [https://bit.ly/2ruLwQz](https://bit.ly/2ruLwQz "https://bit.ly/2ruLwQz") does not roll of the tongue so well.
+I love using URL shorteners to easily share links without hitting character
+limits, but they loose their meaning. Services like bit.ly will save my links
+for me so that I can find them, but I would rather them to be easy to remember.
+[https://bit.ly/2ruLwQz](https://bit.ly/2ruLwQz "https://bit.ly/2ruLwQz") does
+not roll of the tongue so well.
 
 ## 301 🤸‍♀️
 

@@ -5,9 +5,9 @@ title: cmd.exe tips
 date: 2020-01-23T15:18:45.000+00:00
 status: published
 description: cmd.exe tips
-cover: "/static/2020-01-26 16-43-59_Start.png"
 
 ---
+
 I spend a lot of my time at the terminal for my daily work, mostly in Linux or wsl.  One big reason for using wsl over cmd.exe is the ease of walking through history that fzf provides.  This week we had a windows bug in a cli and I was stuck in vanilla cmd.exe 😭
 
 ## > Cmder

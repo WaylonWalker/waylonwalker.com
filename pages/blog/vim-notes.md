@@ -2,9 +2,8 @@
 templateKey: 'blog-post'
 title: Vim Notes
 date: 2018-02-01
-status: Draft
-description: none
-cover: "./flex.png"
+status: draft
+
 ---
 
 # vim notes
@@ -26,7 +25,8 @@ I have gone quite awhile without using ```c``` and instead using ```d```.  The r
 
 * edit a macro register
 * register
-
+* quickfix
+* gF
 
 ## autocomplete
 

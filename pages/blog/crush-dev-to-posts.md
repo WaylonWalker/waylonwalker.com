@@ -7,7 +7,6 @@ title: How to crush amazing posts on DEV
 date: 2020-08-07T05:00:00Z
 status: published
 description:  Here are a few of my top tips to help make dev.to posts more readable, and drive better engagement.
-cover: '/static/crush-dev-to-posts.png'
 
 ---
 

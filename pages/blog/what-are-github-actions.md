@@ -5,7 +5,6 @@ tags:
 title: What Are GitHub Actions
 date: 2020-03-16T05:00:00.000+00:00
 status: published
-cover: "/static/what-are-github-actions.png"
 
 ---
 

@@ -1,12 +1,11 @@
 ---
 templateKey: blog-post
-tags: []
+tags: ['catalytic']
 title: Don’t waste your time learning everything
 date: 2020-02-19T06:00:00Z
 status: published
 description: Stick to what you know, and learn a little bit of something new every
   day.
-cover: "/static/dev.to.png"
 
 ---
 

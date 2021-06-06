@@ -4,15 +4,13 @@ tags: ['python',]
 title: Integration testing with Python, TestProject.io, and GitHub Actions
 date: 2020-07-27T05:00:00Z
 status: published
-description: As I continue to build out
-    https://waylonwalker.com/ I sometimes run into some
-    errors that are not caught becuase I do not have good testing implemented. I
-    want to explore some integration testing options using GitHub actions.
-cover: /static/testproject-io-py-actions.png
 
 ---
 
-As I continue to build out [waylonwalker.com](https://waylonwalker.com/) I sometimes run into some errors that are not caught because I do not have good testing implemented.  I want to explore some integration testing options using GitHub's actions.
+As I continue to build out [waylonwalker.com](https://waylonwalker.com/) I
+sometimes run into some errors that are not caught because I do not have good
+testing implemented.  I want to explore some integration testing options using
+GitHub's actions.
 
 Running integration tests will not prevent bugs from happening completely, but it will allow me to quickly spot them and rollback.
 

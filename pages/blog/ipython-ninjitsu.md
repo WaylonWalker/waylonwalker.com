@@ -4,7 +4,6 @@ tags: ['python', 'bash']
 title: Ipython Ninjitsu
 date: 2020-12-14T00:00:00
 status: draft
-cover: "/static/ipython-ninjitsu.png"
 
 ---
 

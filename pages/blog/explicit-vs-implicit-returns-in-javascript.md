@@ -4,7 +4,6 @@ tags: ['javascript', 'webdev']
 title: Explicit vs Implicit Returns in Javascript
 date: 2020-05-03T11:55:00.000+00:00
 status: published
-cover: "/static/explicit-vs-implicit-returns-in-javascript.png"
 
 ---
 

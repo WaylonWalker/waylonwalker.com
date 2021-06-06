@@ -1,17 +1,19 @@
 ---
 templateKey: blog-post
-tags: []
+tags: ['kedro', 'python']
 title: Create New Kedro Project
 date: 2020-03-02T12:09:00.000+00:00
 status: published
-description: Getting up and going with a brand new [kedro](https://kedro.readthedocs.io) project
-  is super simple, thanks to the help of the `kedro new` command.  The ability to
-  add an example pipeline from the start makes it that much easier to get going and
-  have a template to follow for your own projects.
-cover: "/static/create-new-kedro-project.png"
 
 ---
-This is a quickstart to getting a new [kedro](https://kedro.readthedocs.io) pipeline up and running.  After this article you should be able to understand how to get started with [kedro](https://kedro.readthedocs.io).  You can learn more about this [Hello World Example](https://kedro.readthedocs.io/en/stable/02_getting_started/04_hello_world.html) in the [docs](https://kedro.readthedocs.io/en/stable/02_getting_started/04_hello_world.html)
+
+This is a quickstart to getting a new [kedro](https://kedro.readthedocs.io)
+pipeline up and running.  After this article you should be able to understand
+how to get started with [kedro](https://kedro.readthedocs.io).  You can learn
+more about this [Hello World
+Example](https://kedro.readthedocs.io/en/stable/02_getting_started/04_hello_world.html)
+in the
+[docs](https://kedro.readthedocs.io/en/stable/02_getting_started/04_hello_world.html)
 
 🧹 Install [Kedro](https://kedro.readthedocs.io)
 

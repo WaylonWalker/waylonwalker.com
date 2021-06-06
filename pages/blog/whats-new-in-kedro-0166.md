@@ -6,7 +6,6 @@ date: 2020-10-25T05:00:00Z
 status: published
 description: This version of kedro releases a new set of supported deployment
     options and the spaceflights pipeline is officially added as a starter alias.
-cover: '/static/whats-new-in-kedro-0166.png'
 
 ---
 

@@ -6,7 +6,6 @@ tags:
 title: Adding Audio to my blog posts
 date: 2020-11-25T20:52:22
 status: published
-cover: '/static/audio-for-blog.png'
 
 ---
 

@@ -6,7 +6,6 @@ tags:
 title: reasons-to-kedro
 date: 2020-11-01T05:00:00.000+00:00
 status: published
-cover: "/static/reasons-to-kedro.png"
 
 ---
 

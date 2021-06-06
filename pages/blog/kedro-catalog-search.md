@@ -4,11 +4,6 @@ tags: ['kedro', 'python', 'data']
 title: How to find things in your kedro catalog
 date: 2020-06-22T03:00:00Z
 status: published
-description: kedro 0.16.2 just dropped last week with a long-awaited feature...
-    catalog search!  I went as far as monkey patching this into each of my
-    projects.  I work jump between a few really big projects that have tons of
-    datasets.  Being able to quickly search for what I need is so useful.
-cover: '/static/kedro-catalog-search.png'
 
 ---
 

@@ -1,19 +1,15 @@
 ---
 templateKey: blog-post
-tags: []
+tags: 
+- kedro
+- python
 title: Kedro Static Viz 0.3.0 is out with Hooks Support
 date: 2020-05-28T05:00:00.000+00:00
 status: published
-description: kedro-static-viz is out with support for the newly released hooks
-    feature.  This means that you can have `kedro-static-viz` automatically
-    deploy a full gatsby site `before_pipeline_run` keeping your visualization
-    always up to date.
-cover: "/static/kedro-static-viz-0-3-0.png"
 
 ---
+
 [kedro-static-viz](https://github.com/WaylonWalker/kedro-static-viz) is out with support for the newly released hooks feature.  This means that you can have `kedro-static-viz` automatically deploy a full gatsby site `before_pipeline_run` keeping your visualization always up to date.
-
-
 
 Even though it is a static site there is no functionality lost.  The only thing that's missing is the flask server.  With [kedro-static-viz](https://github.com/WaylonWalker/kedro-static-viz) you can deploy your visualization to a number of static hosting providers such as GitHub pages free of charge with wicked fast performance
 

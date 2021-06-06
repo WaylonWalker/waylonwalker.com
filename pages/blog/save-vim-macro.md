@@ -4,7 +4,6 @@ tags: ['vim']
 title: Save Vim Macro
 date: 2021-01-04T00:00:00
 status: published
-cover: "/static/save-vim-macro.png"
 
 ---
 

@@ -1,10 +1,9 @@
 ---
 templateKey: blog-post
-tags: []
+tags: [python]
 title: Making good documentation in python
 date: 2019-09-22T05:00:00Z
-status: 'draft'
-cover: "/static/jonny-hayes-W1r5FAraSA0-unsplash.jpg"
+status: draft
 
 ---
 # Tools

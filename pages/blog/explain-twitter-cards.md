@@ -4,10 +4,6 @@ tags: ['blog', 'twitter']
 title: 🙋‍♂️ Can Anyone Explain Twitter Cards to me?
 date: 2020-07-11T03:00:00Z
 status: published
-description: Can someone explain how or why twitter cards render differently
-    from device to device? I do understand that twitter cards a built from meta
-    tags, the full list can be found in their
-cover: '/static/explain-twitter-cards.png'
 
 ---
 

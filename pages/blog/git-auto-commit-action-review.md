@@ -4,14 +4,11 @@ tags: ['actions']
 title: Review of the git-auto-commit-action
 date: 2020-08-03T05:00:00Z
 status: published
-description: It's a really cool GitHub action that will automatically commit
-    files changed during the action. I was using this to render a new readme
-    based on a template.
-cover: '/static/git-auto-commit-action-review.png'
-read_more_cover: /static/git-auto-commit-action-review-rm.png
 
 ---
 
+It's a really cool GitHub action that will automatically commit files changed
+during the action. I was using this to render a new readme based on a template.
 
 Check out the repo for [git-auto-commit-action](https://github.com/stefanzweifel/git-auto-commit-action).
 

@@ -4,7 +4,6 @@ title: 📝 Bash Notes
 date: 2019-09-08T05:00:00.000+00:00
 status: published
 description: Waylon Walker's Bash Notes
-cover: "/static/hannah-gibbs-BINLgyrG_fI-unsplash.jpg"
 tags:
 - bash
 - linux

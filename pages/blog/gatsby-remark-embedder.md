@@ -6,7 +6,6 @@ date: 2020-11-18T05:00:00.000+00:00
 status: published
 description: Inspired by discourse's link expansion I am rolling out 
   expansions for one line links on the blog
-cover: "/static/gatsby-remark-embedder.png"
 
 ---
 

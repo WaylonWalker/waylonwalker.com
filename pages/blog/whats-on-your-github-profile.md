@@ -5,8 +5,6 @@ tags:
 title: 🤓 What's on your GitHub Profile
 date: 2020-07-11T03:00:00Z
 status: published
-description: Comment on the DEV.to thread to show off what is on your GitHub profile.
-cover: '/static/whats-on-your-github-profile.png'
 
 ---
 

@@ -5,7 +5,6 @@ title: Reading List
 date: 2020-10-28T05:00:00Z
 status: published
 description: Things to read later
-cover: "/static/reading-list.png"
 
 ---
 STOP LEAVING Browser Tabs open and save them here!

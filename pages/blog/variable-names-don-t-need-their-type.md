@@ -1,15 +1,13 @@
 ---
 templateKey: blog-post
-tags: []
+tags: ['python', 'dicuss']
 title: Variables names don't need their type
 date: 2020-04-08T11:03:00Z
 status: published
-description: So often I see a variables `type()` inside of its name and it hurts me
-  a little inside.  Tell me I'm right or prove me wrong below.
-cover: "/static/career questions for data folks (2).png"
 
 ---
-So often I see a variables `type()` inside of its name and it hurts me a little inside.  Tell me I'm right or prove me wrong below.
+So often I see a variables `type()` inside of its name and it hurts me a little
+inside.  Tell me I'm right or prove me wrong below.
 
 ## Examples
 

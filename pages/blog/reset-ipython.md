@@ -4,9 +4,6 @@ tags: ['python']
 title: Reclaim memory usage in Jupyter
 date: 2020-10-01T05:00:00Z
 status: published
-description: Today we ran into an issue where we had a one-off script that just needed
-  to work, but it was just chewing threw memory like nothing.
-cover: "/static/reset-ipython.png"
 
 ---
 

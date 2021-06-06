@@ -2,15 +2,13 @@
 templateKey: blog-post
 title: Realistic Git Workflow
 date: 2019-05-27
-time: T05:00:00Z
 status: published
-description: My git workflow based on real life.  Its  not always clean and simple.
-cover: "/static/yousef-al-nasser-261164-unsplash.jpg"
 tags:
 - git
 
 ---
 
+My git workflow based on real life.  Its  not always clean and simple.
 
 _sometimes things get messy_
 

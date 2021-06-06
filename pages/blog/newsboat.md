@@ -1,10 +1,9 @@
 ---
 templateKey: blog-post
-tags: ['bash']
+tags: ['bash', 'cli', 'linux']
 title: Newsboat
 date: 2021-01-02T00:00:00
 status: published
-cover: "/static/newsboat.png"
 
 ---
 

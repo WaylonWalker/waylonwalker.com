@@ -4,11 +4,8 @@ title: Keyboard Driven VSCode
 date: 2019-07-07T05:00:00.000+00:00
 status: published
 description: Reimagining my tmux configuration inside of vscode.
-cover: "/static/alt b.png"
 tags:
 - vscode
-related_post:
-related_post_label: ''
 
 ---
 > Throw that mouse Away its time to setup some keyboard shortcuts.

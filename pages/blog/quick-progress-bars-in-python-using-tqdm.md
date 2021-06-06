@@ -4,15 +4,17 @@ title: Quick Progress Bars in python using TQDM
 date: 2019-09-18T05:00:00.000+00:00
 status: published
 description: Quick Progress Bars in python using TQDM
-cover: "/static/photo-1448387473223-5c37445527e7.jpg"
-related_post:
-# - src/pages/blog/autoreload_ipython.md
 tags:
 - python
-related_post_label: ''
 
 ---
-tqdm is one of my favorite general purpose utility libraries in python.  It allows me to see progress of multipart processes as they happen.  I really like this for when I am developing something that takes some amount of time and I am unsure of performance.  It allows me to be patient when the process is going well and will finish in sufficient time, and allows me to 💥 kill it and find a way to make it perform better if it will not finish in sufficient time.
+
+tqdm is one of my favorite general purpose utility libraries in python.  It
+allows me to see progress of multipart processes as they happen.  I really like
+this for when I am developing something that takes some amount of time and I am
+unsure of performance.  It allows me to be patient when the process is going
+well and will finish in sufficient time, and allows me to 💥 kill it and find a
+way to make it perform better if it will not finish in sufficient time.
 
 ![](/tqdm2.gif)
 

@@ -5,7 +5,6 @@ tags:
 title: Black Tech Pipeline
 date: 2020-08-03T05:00:00Z
 status: published
-cover: '/static/pariss-athena-on-black-tech-pipeline.png'
 
 ---
 

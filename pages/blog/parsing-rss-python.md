@@ -4,7 +4,6 @@ tags: ['python']
 title: 🐍 Parsing RSS feeds with Python
 date: 2020-07-13T03:00:00Z
 status: published
-cover: '/static/parsing-rss-python.png'
 
 ---
 

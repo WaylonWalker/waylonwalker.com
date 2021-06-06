@@ -6,7 +6,6 @@ date: 2020-02-06T22:38:00Z
 status: published
 description: Should I switch to Zeit Now.  Netlify build times are starting to creep
   in.
-cover: "/static/should-i-switch-to-zeit-now.png"
 
 ---
 

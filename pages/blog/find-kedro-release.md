@@ -8,7 +8,6 @@ description: kedro is an amazing project that allows for super-fast prototyping 
   data pipelines, yet yielding production-ready pipelines. find-kedro enhances this
   experience by adding a pytest-like node discovery eliminating the need to bubble
   up pipelines through modules.
-cover: "/static/find-kedro-1.png"
 
 ---
 

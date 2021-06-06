@@ -1,13 +1,13 @@
 ---
 templateKey: blog-post
-tags: []
+tags: ['python']
 title: Interrogate is a pretty awesome, brand new, cli for Python packages
 date: 2020-05-15T03:00:00.000+00:00
 status: published
 description: dead simple docstring coverage for your python project
-cover: "/static/interrogate-python.png"
 
 ---
+
 As usual while listening to [python bytes 181](https://pythonbytes.fm/episodes/show/181/it-s-time-to-interrogate-your-python-code) I heard of a tool that I had to try out right away!
 
 This thing is 🔥 hot off the press folks, we're talking the first release only 3 weeks ago. Its something that the python community needed years ago, and it belongs in your CI **today**. I had tried several tools that tried to do docstring coverage in the past but they were a bit cumbersome and were quickly forgotten about. Not interrogate, its dead simple!

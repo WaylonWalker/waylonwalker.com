@@ -8,7 +8,6 @@ description: Sometimes we get a little `git add . && git commit -m "WIP"` happy 
   mistakenly commit something that we just cant figure out.  This is a good way to
   figure out what the heck has changed on the current branch compared to any other
   branch.
-cover: "/static/git-diff-branches.png"
 
 ---
 Today I learned how to diff between two branches.
