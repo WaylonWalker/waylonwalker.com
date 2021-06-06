@@ -20,6 +20,12 @@ from PIL import ImageFile
 def getsizes(uri, default_height=500, default_width=500):
     # get file size *and* image size (None if not known)
     # https://stackoverflow.com/questions/7460218/get-image-size-without-downloading-it-in-python
+    if not uri.startswith("http"):
+        return (
+            default_width,
+            default_height,
+        )
+
     try:
         with ulreq.urlopen(uri) as file:
             p = ImageFile.Parser()
