@@ -24,20 +24,20 @@
 
 # im forgetful and can't remmember my own routes
 
-/tags/*                                                     /archive/:splat
-/tag/*                                                      /archive/:splat
+/tags/*                                                     /:splat
+/tag/*                                                      /:splat
 
 # Common aliases to my tags
-/archive/python3/*                                          /archive/python/:splat
-/archive/python2/*                                          /archive/python/:splat
+/archive/python3/*                                          /python/:splat
+/archive/python2/*                                          /python/:splat
 
-/archive/neovim/*                                           /archive/vim/:splat
-/archive/nvim/*                                             /archive/vim/:splat
+/archive/neovim/*                                           /vim/:splat
+/archive/nvim/*                                             /vim/:splat
 
-/archive/unix/*                                             /archive/linux/:splat
-/archive/bash/*                                             /archive/linux/:splat
-/archive/command-line/*                                     /archive/linux/:splat
-/archive/cli/*                                              /archive/linux/:splat
+/archive/unix/*                                             /linux/:splat
+/archive/bash/*                                             /linux/:splat
+/archive/command-line/*                                     /linux/:splat
+/archive/cli/*                                              /linux/:splat
 
 # refactor routes
 /blog/*                                                     /:splat/
