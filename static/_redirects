@@ -250,7 +250,7 @@ https://waylonwalker.com/alt%20[cnp].gif                              https://im
 
 # refactored archive
 
-/archive/linux/                                                     /linux
-/archive/python/                                                    /python
-/archive/kedro/                                                     /kedro
-/archive/vim/                                                       /vim
+/archive/linux/                                                     /linux/
+/archive/python/                                                    /python/
+/archive/kedro/                                                     /kedro/
+/archive/vim/                                                       /vim/
