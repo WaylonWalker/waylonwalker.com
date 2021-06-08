@@ -1,5 +1,5 @@
 # netlify redirects
-/blog /archive
+/blog /archive/
 
 # image upload
 /upload                                                     https://github.com/WaylonWalker/images.waylonwalker.com/upload/main/static
