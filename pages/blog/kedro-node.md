@@ -13,9 +13,48 @@ the results under.
 
 ## The node function
 
+The node function is the most common and reccomended way to define kedro nodes.
+It is a function that constructs and returns `Node` objects for you.
+
 ## Creating your first kedro node
 
+
+``` python
+def identity(df):
+    "a function that returns itself"
+    return df
+
+my_first_node = node(
+   func=identity,
+   inputs='raw_cars',
+   output='int_cars',
+   tags=['int',]
+   )
+```
+
 ### function
+
+#### Using a lambda as a function
+
+``` python
+my_first_node = node(
+   func=lambda x: x,
+   inputs='raw_cars',
+   output='int_cars',
+   tags=['int',]
+   )
+```
+
+#### Using a partial function
+
+```
+from functools import partial, update_wrapper
+
+def divide(array, by):
+    return [i/by for i in array]
+
+half = update_wrapper(partial(divide, by=2), divide)
+```
 
 ### inputs
 
@@ -40,3 +79,5 @@ the results under.
 ### from_inputs
 
 ### from outputs
+
+
