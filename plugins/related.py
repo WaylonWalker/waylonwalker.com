@@ -28,7 +28,7 @@ def pre_render(markata):
             )
             article.content = article.content + "\n\n".join(
                 [
-                    "https://waylonwalker.com/" + a["slug"] + "/"
+                    "https://waylonwalker.com/" + a.metadata["slug"] + "/"
                     for a in related_articles
                 ]
             )
