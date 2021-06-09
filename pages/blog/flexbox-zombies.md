@@ -6,8 +6,7 @@ category: Blog
 tags:
     - webdev
 status: published
-description: none
-cover: "./flex.png"
+
 ---
 
 <style>
