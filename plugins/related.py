@@ -22,6 +22,9 @@ def pre_render(markata):
                 if set(article["tags"]) & set(a["tags"]) and a != article
             ]
             related_articles = list(unique_everseen([*tagged_articles, *articles]))[:3]
+            related_articles = [
+                a for a in related_articles if "slug" in a.metadata.keys()
+            ]
             # article["related"] = related_articles
             article.content = (
                 article.content + "\n\n---\n## Check Out These Related Posts\n\n"
