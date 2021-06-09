@@ -16,12 +16,12 @@ def pre_render(markata):
             articles = published_articles[index:] + list(
                 reversed(published_articles[:index])
             )
+            articles = [a for a in articles if "slug" in a.metadata.keys()]
+
             tagged_articles = [
                 a
                 for a in articles
-                if set(article["tags"]) & set(a["tags"])
-                and a != article
-                and "slug" in a.metadata.keys()
+                if set(article["tags"]) & set(a["tags"]) and a != article
             ]
             related_articles = list(unique_everseen([*tagged_articles, *articles]))[:3]
             # article["related"] = related_articles
