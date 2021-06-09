@@ -1,6 +1,3 @@
-# from markdown import Extension
-# from markdown.inlinepatterns import InlineProcessor
-# from markdown.preprocessors import Preprocessor
 import re
 import textwrap
 from pathlib import Path
@@ -17,12 +14,7 @@ RE_TWEET = re.compile("^https://twitter.com/.*")
 
 API = twitter.Api()
 
-# ARKATA_CACHE_DIR = Path(".") / ".markata.cache"
-# MARKATA_CACHE_DIR.mkdir(exist_ok=True)
-# cache = Cache(MARKATA_CACHE_DIR)
 
-
-# @cache.memoize(tag="markata.one_line_link.expand_line", expire=15 * 24 * 60)
 def expand_line(line):
     """
     Todo: better error message over base exception
@@ -50,7 +42,6 @@ class OneLineLinkError(KeyError):
     pass
 
 
-# @cache.memoize(tag="markata.one_line_link.get_one_line_link", expire=15 * 24 * 60)
 def get_one_line_link(link):
     r = requests.get(link)
     if r.status_code != 200:
@@ -127,14 +118,12 @@ def get_one_line_link(link):
 background.n = 100
 
 
-# @background.task
 def expand_article(content):
     return "\n".join([expand_line(line) for line in content.split("\n")])
 
 
 @hook_impl
 def pre_render(markata):
-    # for article in markata.iter_articles("Expand One Line Links"):
     for article in markata.articles:
 
         html_key = markata.make_hash(
@@ -143,7 +132,6 @@ def pre_render(markata):
         expanded_content_key = markata.make_hash(
             "one_line_link", "render", "expanded_content", article["content_hash"]
         )
-        # with markata.cache as cache:
         html_from_cache = markata.cache.get(html_key)
         expanded_content_from_cache = markata.cache.get(expanded_content_key)
 
@@ -152,14 +140,12 @@ def pre_render(markata):
 
         if expanded_content_from_cache is None:
             expanded_content = expand_article(article.content)
-            # with markata.cache as cache:
             markata.cache.add(expanded_content_key, expanded_content)
         else:
             expanded_content = expanded_content_from_cache
 
         if html_from_cache is None:
             html = markata.md.convert(expanded_content)
-            # with markata.cache as cache:
             markata.cache.add(html_key, html)
         else:
             html = html_from_cache
