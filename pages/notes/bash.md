@@ -354,3 +354,11 @@ project_log() {
    _project_log $@ && cd $_dir || cd $_dir
 }
 ```
+
+## Finding Files
+
+``` bash
+rg --files . | rg bash
+rg --files . | ag bash
+rg --files . | fzf
+```
