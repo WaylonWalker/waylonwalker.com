@@ -24,7 +24,8 @@ hooks = [
    'plugins.related',
    'plugins.seo_amp',
    'plugins.publish_amp',
-   'plugins.custom_seo'
+   'plugins.custom_seo',
+   'plugins.gif_to_mp4',
    ]
 disabled_hooks = ["markata.plugins.covers", 'markata.plugins.flat_slug']
 
