@@ -6,7 +6,7 @@ from more_itertools import unique_everseen
 
 
 @hook_impl
-def render(markata):
+def pre_render(markata):
     published_articles = [a for a in markata.articles if a["status"] == "published"]
     published_articles.sort(key=lambda x: x["date"])
     for article in markata.iter_articles("related"):
