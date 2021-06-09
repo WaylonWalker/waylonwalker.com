@@ -1,12 +1,10 @@
 import re
 import textwrap
-from pathlib import Path
 
 import background
 import requests
 import twitter
 from bs4 import BeautifulSoup
-from diskcache import Cache
 from markata.hookspec import hook_impl
 
 RE_ONE_LINE = re.compile("^https://waylonwalker.com/.*")
