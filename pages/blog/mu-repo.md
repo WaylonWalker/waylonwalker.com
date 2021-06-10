@@ -19,6 +19,10 @@ mu register --recursive
 mu unregister --all
 ```
 
+https://waylonwalker.com/bash/
+
+> I have similar command line related shortcuts in my bash notes
+
 ## Full Help
 
 ``` bash
