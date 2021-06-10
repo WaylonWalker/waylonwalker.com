@@ -7,10 +7,25 @@ status: draft
 
 ---
 
+## Quickstart
+
 ``` bash
+# installation
 pip install mu-repo
+
+## register repos
+mu register --recursive
+mu list
+
+# run git commands
+mu status --short
+mu diff -U0 --color | bat
+
+# run shell commands
+mu sh $(grep -iRl "KEDRO_GID=0" | xargs sed -i "s/KEDRO_GID=0/KEDRO_GID=5/g")
 ```
 
+## Registering Repos
 ``` bash
 mu register --all
 mu register --all
