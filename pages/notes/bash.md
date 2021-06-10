@@ -358,7 +358,30 @@ project_log() {
 ## Finding Files
 
 ``` bash
+rg --files . | grep bash
 rg --files . | rg bash
 rg --files . | ag bash
 rg --files . | fzf
 ```
+
+## mu-repo
+
+``` bash
+# installation
+pip install mu-repo
+
+## register repos
+mu register --recursive
+mu list
+
+# run git commands
+mu status --short
+mu diff -U0 --color | bat
+
+# run shell commands
+mu sh $(grep -iRl "KEDRO_GID=0" | xargs sed -i "s/KEDRO_GID=0/KEDRO_GID=5/g")
+```
+
+https://waylonwalker.com/mu-repo/
+
+> See the full post for mu-repo for more
