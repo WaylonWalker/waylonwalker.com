@@ -10,6 +10,7 @@ if TYPE_CHECKING:
 
 
 def url_exists(url: str) -> bool:
+    "Checks that a given url has 200 response code"
     r = requests.head(url)
     return r.status_code == 200
 
@@ -48,6 +49,7 @@ def render_mp4(gif: "Tag") -> "Tag":
 
 
 def is_valid_gif(gif: "Tag") -> bool:
+    "checks the src of the image, must be from images.waylonwalker.com and a .gif"
     src = gif.attrs["src"]
     return src.startswith("https://images.waylonwalker.com") and src.endswith(".gif")
 
