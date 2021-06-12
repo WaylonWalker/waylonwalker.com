@@ -44,7 +44,7 @@ site generator that I built for it, Markata.
 * missing alt text
 
 
-## Building DAGS with 🐍 Python | 🛢 Writing data pipelines with Kedr
+## Building DAGS with 🐍 Python | 🛢 Writing data pipelines wih Kedro
 
 _Science & Technology | Every Friday • 7:00 AM - 9:00 AM CDT_
 
