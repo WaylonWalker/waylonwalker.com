@@ -48,7 +48,7 @@ To see what you have stored in each register, use the `:reg` command. This is a 
 
 _a little \<c-r\> magic_
 
-The magical shortcut that makes it easy is that control + r `<C-R>` followed by a register will paste that register wherever you currently are, including the command mode.
+Thgve magical shortcut that makes it easy is that control + r `<C-R>` followed by a register will paste that register wherever you currently are, including the command mode.
 
 ``` vim
 :nnoremap {binding} <C-R>{register}
