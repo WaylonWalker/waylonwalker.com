@@ -46,7 +46,7 @@ To see what you have stored in each register, use the `:reg` command. This is a 
 
 ## making a macro into a shortcut
 
-_a little <c-r> magic</c-r>_
+_a little \<c-r\> magic_
 
 The magical shortcut that makes it easy is that control + r `<C-R>` followed by a register will paste that register wherever you currently are, including the command mode.
 
