@@ -11,6 +11,13 @@ I recently started streaming on
 [twitch.tv/waylonwalker](https://www.twitch.tv/waylonwalker) and it's been a
 blast so far.
 
+* python
+* kedro
+* Data Science
+* Data Engineering
+* webdev
+* digital gardening
+
 ## Kedro Spaceflights
 
 It all started with
@@ -51,3 +58,8 @@ custom url.
 
 
 Come join me while I try to figure out what I am doing.
+
+
+[Deploying a kedro dataset to netlify](https://youtu.be/55g8FQr0kgA)
+
+> Here is a small clip from my latest
