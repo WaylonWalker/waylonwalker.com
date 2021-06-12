@@ -181,7 +181,8 @@ def _clean_amp(soup: BeautifulSoup) -> None:
             amp_img = soup.new_tag(
                 "amp-img",
                 attrs={
-                    **img.attrs,
+                    # causes amp failure if not a valid amp attribute
+                    # **img.attrs,
                     "layout": "responsive",
                     "width": img_size[0],
                     "height": img_size[1],
