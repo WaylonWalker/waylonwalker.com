@@ -55,6 +55,7 @@ def is_valid_gif(gif: "Tag") -> bool:
 
 
 def swap_gif(gif: "Tag") -> "Tag":
+    "Swap "
     if is_valid_gif(gif):
         return render_mp4(gif)
     else:
