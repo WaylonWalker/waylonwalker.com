@@ -58,6 +58,79 @@ half = update_wrapper(partial(divide, by=2), divide)
 
 ### inputs
 
+kedro inputs can be `None`, a catalog entry, or a dict mapping the functions
+keyword arguments to catalog entries.  Catalog entries are always represented
+as a string matching the key of the catalog entry you want to load.
+
+#### None
+
+Sometimes you may want to have a node without any inputs.  This node may be
+used to generate some data from scratch, or fetch some data that does not have
+an existing DataSet type setup.  DataSets are easy to setup, simply fork one of
+kedros built in ones and use it, but for one or two nodes the setup may not be
+worth it.
+
+``` python
+random_100_node = node(
+   func=lambda: random.sample(range(0, 100), 100),
+   inputs=None,
+   output='random_100',
+   name='create_random_100',
+   )
+```
+
+#### str
+
+This is by far the most common input that you will use.  This will simply tell
+kedro what dataset to load behind the scenes and passin to the function that
+you provide.
+
+``` python
+random_100_node = node(
+   func=lambda random_100: [x**2 for x in random_100],
+   inputs='random_100',
+   output='random_squared',
+   name='create_random_squared',
+   )
+```
+
+> Note, I am using a lot of lambdas here for simplicity as each function so far
+> is a simple one-liner.  These could also be a regular function if you are
+> uncomfortable with lambdas.
+
+#### list
+
+``` python
+random_100_node = node(
+   func=lambda random_100, random_squared: list(zip(random_100, random_squared)
+   inputs=['random_100', 'random_squared'],
+   output='random_join',
+   name='create_random_join',
+   )
+```
+
+
+#### dict
+
+kedro will unpack dictionaries into your function if you pass in a dictionary.
+In code review I start suggesting converting from a list to dict at 3 and
+require it above 5.  It gets way too hard to refactor and move things while
+keeping track of the order of really long sets of inputs.  Passing them in by
+name, as a dictionary, makes it such that order no longer matters.
+
+``` python
+random_100_node = node(
+   func=lambda x, y: list(zip(x, y)),
+   inputs={'x': 'random_100', 'y':'random_squared'},
+   output='random_join',
+   name='create_random_join',
+   )
+```
+
+> Switch from list to dict inputs between 3 and five inputs to improve
+> readability and prevent ordering mistakes.
+
+
 ### outputs
 
 ### tags
