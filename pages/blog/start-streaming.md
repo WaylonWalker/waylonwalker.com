@@ -45,6 +45,9 @@ I work on my website.
 
 I started storing all the replay, and some clips on
 [YouTube](https://www.youtube.com/channel/UChoRUssc5HoO-xQ9hUKZ1mA).  If that
-is more of your thing be sure to check it out.  I would greatly appreciate
-anyonw who subscribes to help me get to the 100 subscriber baseline to get my
+is more of your thing be sure to check it out.  To be completely honest the  editing/ clips will likely come at a minimum, as they take me a lot more time to edit.  I would greatly appreciate
+anyone who subscribes to help me get to the 100 subscriber baseline to get my
 custom url.
+
+
+Come join me while I try to figure out what I am doing.
