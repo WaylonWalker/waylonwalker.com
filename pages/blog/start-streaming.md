@@ -21,7 +21,7 @@ recording or editing somewhat polished vide is quite time consuming for me.
 
 ![kedro-issue-606](https://images.waylonwalker.com/kedro-issue-606.png)
 
-## Inpiration
+## Inspiration
 
 My introduction to twitch came from
 [twitch.tv/theprimeagen](https://twitch.tv/theprimeagen). I watched him on
