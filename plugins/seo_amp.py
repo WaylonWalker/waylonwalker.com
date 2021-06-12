@@ -183,6 +183,7 @@ def _clean_amp(soup: BeautifulSoup) -> None:
                 attrs={
                     # causes amp failure if not a valid amp attribute
                     # **img.attrs,
+                    "src": img.attrs["src"],
                     "layout": "responsive",
                     "width": img_size[0],
                     "height": img_size[1],
