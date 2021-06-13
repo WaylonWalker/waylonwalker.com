@@ -21,7 +21,9 @@ _~Mom_
 
 This happened to me in 2014. I have a mechanical engineering degree and had a really good position at the time. I owned full engineering control of a small subset of engine components. The problem was that Everything is so proprietary and hardly documented the process of learning did not click with me. I felt like I had learned a lot about the product early on, and was stuck without any more resources to learn more. On the side, I had started learning python and data science techniques to enhance my job.
 
-![mountains in the fog](https://d33wubrfki0l68.cloudfront.net/a093e6c28214bb9556a4e877f5d128cf77b82bd3/9c5c4/static/eberhard-grossgasteiger-382452-unsplash-6f1eb07825ef1b2165ea1a3805fff023.jpg)
+<!--
+[mountains in the fog](https://d33wubrfki0l68.cloudfront.net/a093e6c28214bb9556a4e877f5d128cf77b82bd3/9c5c4/static/eberhard-grossgasteiger-382452-unsplash-6f1eb07825ef1b2165ea1a3805fff023.jpg)
+-->
 
 > every time I feel like I have reached the peak of anyone topic the fog clears and I can now see a whole new mountain range that I did not know existed.
 
