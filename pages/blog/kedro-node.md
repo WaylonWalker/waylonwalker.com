@@ -34,6 +34,18 @@ my_first_node = node(
 
 ### function
 
+The `func` passed into node can be any callable that accepts the inputs yout
+have specified, and returns the correct output that you specify as your output.
+
+* function
+* lambda function
+* partial function
+
+https://waylonwalker.com/kedro-inputs/
+
+> For more information on how kedro passes inputs into your functions check out
+> this post
+
 #### Using a lambda as a function
 
 ``` python
@@ -53,7 +65,14 @@ from functools import partial, update_wrapper
 def divide(array, by):
     return [i/by for i in array]
 
-half = update_wrapper(partial(divide, by=2), divide)
+halfer = update_wrapper(partial(divide, by=2), divide)
+
+my_halfer_node = node(
+   func=halfer,
+   inputs='raw_cars',
+   output='int_cars',
+   tags=['int',]
+   )
 ```
 
 ### inputs
