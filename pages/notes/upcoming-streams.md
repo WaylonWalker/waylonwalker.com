@@ -28,9 +28,12 @@ On Wednesday morning I will be working on my personal website and the static
 site generator that I built for it, Markata.
 
 ### Features
-* ~one_line_gif~
-* automate mp4's - https://ahrefs.com/site-audit/2096186/66/data-explorer?columns=pageRating%2Curl%2ChttpCode%2CcontentType%2Csize%2CloadingTime%2CincomingImage&filterCollapsed=true&filterId=47a66a23cd538da9d08ea5e2c4f7c812&issueId=c64d8113-d0f4-11e7-8ed1-001e67ed4656&sorting=-size&udUrl=https%3A%2F%2Fimages.waylonwalker.com%2Ftqdm2.gif
+* DONE ~one_line_gif~
+* DONE automate mp4's - https://ahrefs.com/site-audit/2096186/66/data-explorer?columns=pageRating%2Curl%2ChttpCode%2CcontentType%2Csize%2CloadingTime%2CincomingImage&filterCollapsed=true&filterId=47a66a23cd538da9d08ea5e2c4f7c812&issueId=c64d8113-d0f4-11e7-8ed1-001e67ed4656&sorting=-size&udUrl=https%3A%2F%2Fimages.waylonwalker.com%2Ftqdm2.gif
+* Fix big images - https://ahrefs.com/site-audit/2096186/66/data-explorer?columns=pageRating%2Curl%2ChttpCode%2CcontentType%2Csize%2CloadingTime%2CincomingImage&filterCollapsed=true&filterId=47a66a23cd538da9d08ea5e2c4f7c812&issueId=c64d8113-d0f4-11e7-8ed1-001e67ed4656&sorting=-size
+* Fix Amp issues
 * speed up build times
+* measure plugin performance
 * speed up images.waylonwalker builds
 * build footer
 
