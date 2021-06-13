@@ -1,9 +1,10 @@
-from markata.hookspec import hook_impl
-from bs4 import BeautifulSoup
 import re
-import requests
-
+from pathlib import Path
 from typing import TYPE_CHECKING
+
+import requests
+from bs4 import BeautifulSoup
+from markata.hookspec import hook_impl
 
 if TYPE_CHECKING:
     from bs4.element import Tag
@@ -72,7 +73,24 @@ def swap_gifs(soup: BeautifulSoup) -> None:
 @hook_impl
 def post_render(markata):
     "Hook to replace gifs on images.waylonwalker.com with mp4's if they exist"
-    for article in markata.articles:
-        soup = BeautifulSoup(article.html, "html.parser")
-        swap_gifs(soup)
-        article.html = soup.prettify()
+    with markata.cache as cache:
+        for article in markata.articles:
+            key = markata.make_hash(
+                __file__,
+                Path(__file__).read_text(),
+                "post_render",
+                article["content_hash"],
+            )
+            html_from_cache = cache.get(key)
+            if html_from_cache is None:
+                soup = BeautifulSoup(article.html, "html.parser")
+                swap_gifs(soup)
+                html = soup.prettify()
+
+            else:
+                html = html_from_cache
+            article.html = html
+
+
+if __name__ == "__main__":
+    f = __file__
