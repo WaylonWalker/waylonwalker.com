@@ -9,9 +9,9 @@
 
 [markata]
 # bump site version to bust GitHub actions cache
+site_version = 11
 
 ## Markata Setup
-site_version = 11
 glob_patterns = "pages/**/*.md"
 output_dir = "markout"
 assets_dir = "static"
