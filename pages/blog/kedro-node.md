@@ -20,6 +20,8 @@ It is a function that constructs and returns `Node` objects for you.
 
 
 ``` python
+from kedro.pipeline import node
+
 def identity(df):
     "a function that returns itself"
     return df
@@ -37,18 +39,32 @@ my_first_node = node(
 The `func` passed into node can be any callable that accepts the inputs yout
 have specified, and returns the correct output that you specify as your output.
 
-* function
+* any callable
+* a function you write
+* a function from a library
+* class constructor
 * lambda function
 * partial function
+* literally any callable
 
 https://waylonwalker.com/kedro-inputs/
 
 > For more information on how kedro passes inputs into your functions check out
 > this post
 
+
+``` python
+import pandas as pd
+from kedro.pipeline import node
+
+range_node = node(lambda: range(100), None, "range", name="range"),
+dataframe_node = node(pd.DataFrame, "range", "df"),
+```
 #### Using a lambda as a function
 
 ``` python
+from kedro.pipeline import node
+
 my_first_node = node(
    func=lambda x: x,
    inputs='raw_cars',
@@ -60,6 +76,7 @@ my_first_node = node(
 #### Using a partial function
 
 ```
+from kedro.pipeline import node
 from functools import partial, update_wrapper
 
 def divide(array, by):
@@ -75,6 +92,18 @@ my_halfer_node = node(
    )
 ```
 
+To further show the point that any callable can be out node's `func`.
+
+``` python
+from kedro.pipeline import node
+import pandas as pd
+from functools import partial, update_wrapper
+
+MyDataFrame = update_wrapper(partial(pd.DataFrame, columns=["mycol"]), pd.DataFrame)
+
+range_node = node(lambda: range(100), None, "range", name="range"),
+dataframe_node = node(MyDataFrame, "range", "df"),
+```
 ### inputs
 
 kedro inputs can be `None`, a catalog entry, or a dict mapping the functions
@@ -90,6 +119,8 @@ kedros built in ones and use it, but for one or two nodes the setup may not be
 worth it.
 
 ``` python
+from kedro.pipeline import node
+
 random_100_node = node(
    func=lambda: random.sample(range(0, 100), 100),
    inputs=None,
@@ -105,6 +136,8 @@ kedro what dataset to load behind the scenes and passin to the function that
 you provide.
 
 ``` python
+from kedro.pipeline import node
+
 random_100_node = node(
    func=lambda random_100: [x**2 for x in random_100],
    inputs='random_100',
@@ -120,6 +153,8 @@ random_100_node = node(
 #### list
 
 ``` python
+from kedro.pipeline import node
+
 random_100_node = node(
    func=lambda random_100, random_squared: list(zip(random_100, random_squared)
    inputs=['random_100', 'random_squared'],
@@ -138,6 +173,8 @@ keeping track of the order of really long sets of inputs.  Passing them in by
 name, as a dictionary, makes it such that order no longer matters.
 
 ``` python
+from kedro.pipeline import node
+
 random_100_node = node(
    func=lambda x, y: list(zip(x, y)),
    inputs={'x': 'random_100', 'y':'random_squared'},
