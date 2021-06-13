@@ -19,16 +19,7 @@ _Also..._
 
 With this pattern all of the nodes needed to be importable by the module containing nodes_global.  I find that this becomes a big hurdle for new pipelines coming from jupyter to overcome and can be most infuriating when their nodes aren't getting ran after they added them.
 
-<p style='text-align: center' align='center'>
-<a href='https://waylonwalker.com/what-is-kedro'>
-  <img
-    style='width:400px; max-width:80%; margin: auto;'
-    src="https://images.waylonwalker.com/what-is-kedro.png"
-    alt="What is kedro"
-    width='400'
-  />
-  </a>
-</p>
+https://waylonwalker.com/what-is-kedro
 
 > If you are a bit unsure about what kedro is make sure to check out my [what-is-kedro](https://waylonwalker.com/what-is-kedro) article.
 
@@ -127,9 +118,9 @@ nodes.append(
 
 
 <p style='text-align: center' align='center'>
-<a href='https://find.kedro.dev/examples/iris/>
+<a href='https://find.kedro.dev/examples/iris/'>
   <img
-    style='width:400px; max-width:80%; border-radius: '35px'; margin: auto;'
+    style='width:400px; max-width:80%; border-radius: 35px; margin: auto;'
     width='400'
     src="https://images.waylonwalker.com/find-kedro-examples-iris.png"
     alt="Find Kedro Iris example"
@@ -143,14 +134,4 @@ In [this doc](https://find.kedro.dev/examples/iris/) I transform the kedro iris 
 
 If you still have not tried out kedro, it's easier than you think. Check out [create-new-kedro-project](https://waylonwalker.com/create-new-kedro-project) to get a project started in just a few minutes.
 
-<p style='text-align: center' align='center'>
-<a href='https://waylonwalker.com/create-new-kedro-project'>
-  <img
-    style='width:400px; max-width:80%; margin: auto;'
-    width='400'
-    src="https://images.waylonwalker.com/create-new-kedro-project.png"
-    alt="Create New Kedro Project"
-  />
-  </a>
-</p>
-
+https://waylonwalker.com/create-new-kedro-project
