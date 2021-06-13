@@ -101,7 +101,7 @@ prefer the readablility of the lambda most of the time, but if you like
 partials better, or need to assign it to a variable and reuse it, here are some
 partial examples.
 
-```
+``` python
 from kedro.pipeline import node
 from functools import partial, update_wrapper
 
@@ -184,6 +184,10 @@ random_100_node = node(
 #### list
 _several catalog entries, passed in by position_
 
+In order to start passing in more than one DataSet into a kedro node you need
+to use a list or dictionary as the input.  Using a list is convenient for a
+small number of inputs.
+
 ``` python
 from kedro.pipeline import node
 
@@ -224,11 +228,53 @@ random_100_node = node(
 
 ### tags
 
+Tags provide an easy way to add a label nodes for something to interact with
+them.  This may be a node that we want a plugin to modify or a set of nodes
+that we want quick access to during development.
+
+Tags are always passed in as a list of strings.  They must be a 1-d data
+structure.  You may create that data structure however you want, but its still
+just a list of strings.  Below I have set a global variable `TAGS` that I want
+to apply to every node within a given module, then I splat it into every nodes
+tags.  This lets me easily apply a whole set of tags to an entire module of
+nodes.  I can easily modify that list of nodes if I wanted to, but its acually
+rare that I do.
+
+``` python
+TAGS = ['cars']
+
+my_first_node = node(
+   func=identity,
+   inputs='raw_cars',
+   output='int_cars',
+   tags=['int', *TAGS]
+   )
+
+```
+
 ### name
 
+The name attribute is simple, it's the name of the node.  Later you can use the
+name to find the node or all nodes named a particular way.  This name will also
+show up in the logs provided by kedro or a plugin so naming things well makes
+everything much easier to read.
+
+
+---
+
+THis may be a separate post on the pipeline object
 ## Execution order
 
 ## Running specific nodes
+_the power of the DAG_
+
+One of the greatest benefits of using kedro is that it gives you a Pipeline
+object that is a DAG.  This is a powerful object that can quickly pull decide a
+set of nodes to run when you tell it to run to or from somewhere.  Somewhere
+being either a catalog entry or node.
+
+> DAG (directed acyclic graph) is a fancy word for a data structure that may
+> branch and join, but may not loop
 
 ### by name
 
