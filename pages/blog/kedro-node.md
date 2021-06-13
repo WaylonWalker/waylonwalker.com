@@ -11,6 +11,10 @@ The Kedro node is an essential part of the pipeline.  It defines what catalog
 entries get passed in, what function gets ran, and the catalog entry to save
 the results under.
 
+https://waylonwalker.com/what-is-kedro/
+
+> 👆 Unsure what kedro is?  Check out this post.
+
 ## The node function
 
 The node function is the most common and reccomended way to define kedro nodes.
