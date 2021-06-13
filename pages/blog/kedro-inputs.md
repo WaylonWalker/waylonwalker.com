@@ -18,7 +18,7 @@ passing a list or dictionary of catalog entries can be a bit confusing.
 
 Check out this post for a review of how `*args` `**kwargs` work in python.
 
-[![python args and kwargs](https://images.waylonwalker.com/python-args-kwargs.png)](https://waylonwalker.com/python-args-kwargs)
+https://waylonwalker.com/python-args-kwargs/
 > [python args and kwargs](https://waylonwalker.com/python-args-kwargs) article by [@_waylonwalker](https://twitter.com/_WaylonWalker)
 
 ## All Kedro inputs are catalog Entries
