@@ -1,8 +1,8 @@
 from pathlib import Path
 from typing import TYPE_CHECKING
 
-from markata.hookspec import hook_impl
 from jinja2 import Template
+from markata.hookspec import hook_impl
 
 if TYPE_CHECKING:
     from markata import Markata
@@ -13,14 +13,29 @@ def render(markata: "Markata") -> None:
     template_file = markata.config["amp_template"]
     with open(template_file) as f:
         template = Template(f.read())
-    for article in markata.iter_articles("apply template"):
-
-        article.amp_html = template.render(
-            body=article.article_html,
-            title=article.metadata["title"],
-            slug=article.metadata["slug"],
-            date=article.metadata["date"],
-        )
+    with markata.cache as cache:
+        for article in markata.iter_articles("apply amp template"):
+            key = markata.make_hash(
+                __file__,
+                Path(__file__).read_text(),
+                "render",
+                article["content_hash"],
+                article.article_html,
+                article.metadata["title"],
+                article.metadata["slug"],
+                article.metadata["date"],
+            )
+            amp_html_from_cache = cache.get(key)
+            if amp_html_from_cache is None:
+                amp_html = template.render(
+                    body=article.article_html,
+                    title=article.metadata["title"],
+                    slug=article.metadata["slug"],
+                    date=article.metadata["date"],
+                )
+            else:
+                amp_html = amp_html_from_cache
+            article.amp_html = amp_html
 
 
 @hook_impl
