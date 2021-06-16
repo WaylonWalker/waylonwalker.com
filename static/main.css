@@ -293,6 +293,18 @@ ul.archive-tags li a {
     text-decoration: none;
     color: #fafafa;
 }
+
+.social {
+display: flex;
+}
+.social li {
+list-style-type: None;
+}
+.social a {
+color: goldenrod;
+padding: 1rem .2rem;
+}
+
 #cover-wrapper {
     z-index: 2;
     width: 100%;
@@ -861,7 +873,6 @@ table, th, td {
     margin-top: -.2rem;
     padding: 1rem 0 .5rem;
     background: rgba(0,0,0, .3);
-    pause-before:
 }
 
 .speed-control button {

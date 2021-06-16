@@ -196,3 +196,15 @@ ul.archive-tags li a {
     text-decoration: none;
     color: #fafafa;
 }
+
+.social {
+display: flex;
+}
+.social li {
+list-style-type: None;
+}
+.social a {
+color: goldenrod;
+padding: 1rem .2rem;
+}
+
