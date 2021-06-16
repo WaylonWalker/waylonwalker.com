@@ -365,6 +365,17 @@ h1 {
     padding: 0;
 }
 
+.social {
+display: flex;
+}
+.social li {
+list-style-type: None;
+}
+.social a {
+color: goldenrod;
+padding: 1rem .2rem;
+}
+
 .h-card li {
     margin: 0;
     padding: 0;
