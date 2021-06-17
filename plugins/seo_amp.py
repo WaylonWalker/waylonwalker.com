@@ -4,7 +4,6 @@ from pathlib import Path
 from typing import TYPE_CHECKING, List
 
 from bs4 import BeautifulSoup
-
 from markata import Markata, __version__
 from markata.hookspec import hook_impl
 
@@ -12,9 +11,9 @@ if TYPE_CHECKING:
     import frontmatter
     from bs4.element import Tag
 
+from http.client import InvalidURL
 from urllib import request as ulreq
 from urllib.error import HTTPError
-from http.client import InvalidURL
 
 from PIL import ImageFile
 
@@ -194,7 +193,9 @@ def _clean_amp(soup: BeautifulSoup) -> None:
             amp_img = soup.new_tag(
                 "amp-img",
                 attrs={
-                    **img.attrs,
+                    # causes amp failure if not a valid amp attribute
+                    # **img.attrs,
+                    "src": img.attrs["src"],
                     "layout": "responsive",
                     "width": 500,
                     "height": 500,
