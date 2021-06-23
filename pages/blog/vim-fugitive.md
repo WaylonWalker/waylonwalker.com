@@ -88,3 +88,15 @@ Unlike `:vim[grep]` you don't need to specify a file glob.
 :Ggrep python
 ```
 
+## Staging Hunks
+
+In the file you want to stage hunks of run `:Gdiff`.  Then use vim's diff
+commands (`dp`, `do`, `:diffput`, `:diffget`) to move the hunk between the
+stage/index.  Then write the file to stage.
+
+``` python
+:Gdiff
+dp
+:w
+:Gcommit
+```
