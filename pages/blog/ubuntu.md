@@ -110,3 +110,28 @@ gnome-screenshot -a
 gnome-screenshot -ac
 ```
 
+### obs
+
+As od Jun 2021 the version of obs-studio installed using the instructions in
+their wiki is out of date.  I had success getting the latest version, which
+supports virtual webcams, using snap.
+
+``` bash
+sudo snap install obs-studio
+```
+
+### virtual webcam
+
+After getting the latest version of obs-studio whixh supports virtual webcam it
+still did not start.  After some searching I found that updating v4l2loopback
+resolved the issue.
+
+``` bash
+sudo apt purge v4l2loopback-dkms
+git clone https://github.com/umlaeute/v4l2loopback.git ~/git/v4l2loopback/
+cd ~/git/v4l2loopback/
+make
+sudo make install
+sudo modprobe v4l2loopback devices=1 exclusive_caps=1
+```
+
