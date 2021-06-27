@@ -1,7 +1,6 @@
 ---
 templateKey: blog-post
 tags: ['linux']
-title: I am moving from windows to Ubuntu here are some of my notes
 date: 2021-06-25T20:50:45
 status: draft
 
@@ -82,6 +81,21 @@ bind-key -T copy-mode-vi MouseDragEnd1Pane send-keys -X copy-pipe-and-cancel "xc
 ```
 
 ## Hotkeys
+
+| Key | Desc | 
+| --- | ---- |
+| super+j | move to workspace below |
+| super+k | move to workspace above |
+| super+shift+j | move window one workspace down |
+| super+shift+k | move window one workspace up |
+
+
+| Key | Command | Desc | 
+| --- | ------- | ---- |
+| Super+e | nautilus | File Browser|
+| Super+Shift+p | Area Screenshot | gnome-screenshot -a |
+| Super+Alt+p | Area Screenshot to clipboard | gnome-screenshot -ac |
+| Super+e | nautilus | File Browser|
 
 ### screenshots
 
