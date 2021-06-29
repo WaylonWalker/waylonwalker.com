@@ -24,6 +24,46 @@ gsettings set org.gnome.desktop.wm.preferences theme Nordic
 
 What I think actuagnome terminal showing scrollbar in tmuxlly worked was 
 
+
+## emoji support
+
+One thing that I really missed quite early from windows was the emoji virtual
+keyboard.  I like being able to quickly toss in those emoji that give just a
+bit of a visual cue 🔥, ⚠️,, 🎉, 🦄, 💜. 
+
+
+### installation
+
+I found an application called emote. that seems to do everything I need it to
+in the snap store.  Installation is a typicall snap install.
+
+```
+sudo snap install emote
+```
+
+
+### default keybinding
+
+
+The application came with a default keybinding `ctrl+alt+e`, but I could never remember it.
+
+```
+ctrl+alt+e
+```
+
+### Windows keybinding
+
+Old habits are hard to break, I opened up the gnome settings and set a hotket
+to `super+;` to run the command emote.
+
+
+```
+Super+;
+```
+
+
+
+
 ## Get that dock outta here
 
 I tried to disable the dock and it didn't immediately work for me,
