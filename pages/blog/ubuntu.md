@@ -135,3 +135,13 @@ sudo make install
 sudo modprobe v4l2loopback devices=1 exclusive_caps=1
 ```
 
+## i3
+
+I decided to give i3 a try, simply apt install it, then it shows up under the
+gear icon at the login screen after a reboot.  At this point I don't think I am
+ready for i3.  I have just changed a bunch of stuff in my workflow and honestly
+I got a decent gnome config setup in like 10 minutes.
+
+``` bash
+sudo apt install i3
+```
