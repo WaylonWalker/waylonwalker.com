@@ -49,7 +49,7 @@ def echo(string):
 
 ## [Yaspin](https://pypi.org/project/yaspin/ "Yaspin")
 
-![Yaspin Gif](https://warehouse-camo.cmh1.psfhosted.org/1bf73e6062750b03a63648f4cab5147b82e4be97/68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f706176646d79742f79617370696e2f6d61737465722f676966732f64656d6f2e676966)
+![Yaspin Gif](https://images.waylonwalker.com/yaspin-demo.gif)
 
 ## [Click Help Colors](https://github.com/click-contrib/click-help-colors)
 
