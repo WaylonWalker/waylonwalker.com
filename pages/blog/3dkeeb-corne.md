@@ -61,3 +61,10 @@ qmk setup
 apt install libhidapi-hidraw0
 qmk setup
 ```
+
+## inspiration
+
+
+``` python
+https://github.com/markstos/qmk_firmware/tree/markstos/keyboards/crkbd/keymaps/markstos
+```
