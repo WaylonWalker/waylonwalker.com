@@ -7,6 +7,7 @@ status: draft
 
 ---
 
+
 The Kedro node is an essential part of the pipeline.  It defines what catalog
 entries get passed in, what function gets ran, and the catalog entry to save
 the results under.
@@ -133,9 +134,9 @@ range_node = node(lambda: range(100), None, "range", name="range"),
 dataframe_node = node(MyDataFrame, "range", "df"),
 ```
 
-### inputs
+### inputs/outputs
 
-kedro inputs can be `None`, a catalog entry, or a dict mapping the functions
+kedro inputs and outputs can be `None`, a catalog entry, or a dict mapping the functions
 keyword arguments to catalog entries.  Catalog entries are always represented
 as a string matching the key of the catalog entry you want to load.
 
@@ -223,9 +224,6 @@ random_100_node = node(
 > Switch from list to dict inputs between 3 and five inputs to improve
 > readability and prevent ordering mistakes.
 
-
-### outputs
-
 ### tags
 
 Tags provide an easy way to add a label nodes for something to interact with
@@ -260,10 +258,31 @@ show up in the logs provided by kedro or a plugin so naming things well makes
 everything much easier to read.
 
 
+Consistent naming makes it easier to do things like extracting nodes out of a pipeline, running them, and making pipelines from them.
+
+``` python
+raw_nodes = Pipeline([node for node in pipeline.nodes if 'raw' in node.name])
+```
+
+> ⚠️ filtering by name requires a bit of diligence and consistency by the team,
+> its a fantastic way to grab some nodes adhoc, but for production you probably
+> want something a bit more robust.
+
+
 ---
 
-THis may be a separate post on the pipeline object
+This may be a separate post on the pipeline object
+
+
 ## Execution order
+
+Execution order is set by resolving catalog dependencies.  I imagine kedro
+taking a razer blade tool and slicing out all nodes with completed
+dependencies, throwing those in a bag drawing them out one by one randomly,
+then when the bag is full it slices more out and repeats until there are no
+more nodes.  This idea of randomness can be really maddening when there are two separate issues on your pipeline.  If you are debugging an error in your pipeline run the erroring node by itself.
+
+> 🔥  If you are debugging an error in your pipeline run the erroring node by itself.
 
 ## Running specific nodes
 _the power of the DAG_
