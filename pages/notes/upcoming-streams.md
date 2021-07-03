@@ -19,6 +19,9 @@ _Science & Technology | Every Monday • 7:00 AM - 9:00 AM CDT_
 On Monday's I am going to be working on open source packages/plugins for kedro.
 
 * kedro-diff
+* test kedro-diff on piplines with history
+* setup deploy pipeline
+* deply to pypi
 
 ## 🌱 Digital Gardening | Blogging with 🐍Python | Building 🔮Markata a static site generator in python for waylonwalker.com
 
