@@ -53,14 +53,14 @@ ctrl+alt+e
 
 ### Windows keybinding
 
-Old habits are hard to break, I opened up the gnome settings and set a hotket
+Old habits are hard to break, I opened up the gnome settings and set a hotkey
 to `super+;` to run the command emote.
-
 
 ```
 Super+;
 ```
 
+### How it works
 
 
 
