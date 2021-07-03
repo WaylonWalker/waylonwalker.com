@@ -23,7 +23,6 @@ It is a function that constructs and returns `Node` objects for you.
 
 ## Creating your first kedro node
 
-
 ``` python
 from kedro.pipeline import node
 
