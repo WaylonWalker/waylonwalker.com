@@ -30,6 +30,8 @@ LT(1, KC_TAB)
 LT(1, KC_SHIFT)
 
 MT(MOD_RSHFT, KC_ESC)
+MT(MOD_HYPR, KC_GESC)
+
 ```
 
 ## setting up qmk cli
