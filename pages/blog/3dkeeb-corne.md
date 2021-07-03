@@ -62,10 +62,10 @@ qmk setup
 # https://pypi.org/project/hid/
 apt install libhidapi-hidraw0
 qmk setup
+sudo apt-get install avrdude
 ```
 
 ## inspiration
-
 
 ``` python
 https://github.com/markstos/qmk_firmware/tree/markstos/keyboards/crkbd/keymaps/markstos

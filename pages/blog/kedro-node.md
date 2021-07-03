@@ -56,7 +56,6 @@ https://waylonwalker.com/kedro-inputs/
 > For more information on how kedro passes inputs into your functions check out
 > this post
 
-
 ``` python
 import pandas as pd
 from kedro.pipeline import node
@@ -64,6 +63,7 @@ from kedro.pipeline import node
 range_node = node(lambda: range(100), None, "range", name="range"),
 dataframe_node = node(pd.DataFrame, "range", "df"),
 ```
+
 #### Using a lambda as a function
 
 I keep my nodes short and sweet.  They do one thing and do it well. I turn
@@ -249,6 +249,14 @@ my_first_node = node(
 
 ```
 
+``` python
+# get a pipeline of one node
+one_node = pipeline.only_nodes_with_tags('int')
+
+# get a pipeline of a few nodes
+one_node = pipeline.only_nodes('raw', 'int')
+```
+
 ### name
 
 The name attribute is simple, it's the name of the node.  Later you can use the
@@ -257,9 +265,17 @@ show up in the logs provided by kedro or a plugin so naming things well makes
 everything much easier to read.
 
 
-Consistent naming makes it easier to do things like extracting nodes out of a pipeline, running them, and making pipelines from them.
+Consistent naming makes it easier to do things like extracting nodes out of a
+pipeline, running them, and making pipelines from them.
 
 ``` python
+# get a pipeline of one node
+one_node = pipeline.only_nodes('a_raw_cars')
+
+# get a pipeline of a few nodes
+one_node = pipeline.only_nodes('a_raw_cars', 'a_raw_trains')
+
+# create a pipeline by nodes that contain 'raw' in the name
 raw_nodes = Pipeline([node for node in pipeline.nodes if 'raw' in node.name])
 ```
 
@@ -271,7 +287,6 @@ raw_nodes = Pipeline([node for node in pipeline.nodes if 'raw' in node.name])
 ---
 
 This may be a separate post on the pipeline object
-
 
 ## Execution order
 
