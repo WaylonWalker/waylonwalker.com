@@ -13,6 +13,7 @@ site_version = 12
 
 ## Markata Setup
 glob_patterns = "pages/**/*.md"
+## glob_patterns = "pages/**/*spaceflights*.md"
 output_dir = "markout"
 assets_dir = "static"
 hooks = [
@@ -26,6 +27,7 @@ hooks = [
    'plugins.publish_amp',
    'plugins.custom_seo',
    'plugins.gif_to_mp4',
+   'plugins.youtube',
    ]
 disabled_hooks = ["markata.plugins.covers", 'markata.plugins.flat_slug']
 
