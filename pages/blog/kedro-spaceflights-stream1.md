@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['kedro', 'python', 'stream']
 title: Kedro Spaceflights - part 1 | Stream replay June 4, 2021
-date: 2021-06-12T16:15:04
+date: 2021-06-04T16:15:04
 status: published
 
 ---
