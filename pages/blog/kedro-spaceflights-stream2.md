@@ -14,8 +14,8 @@ This was my seconf time ever streaming on
 
 ## Links
 
-[Spaceflights Tutorial](https://kedro.readthedocs.io/en/stable/03_tutorial/01_spaceflights_tutorial.html)
-[my spaceflights repo](https://github.com/WaylonWalker/kedro-spaceflights)
+* [Spaceflights Tutorial](https://kedro.readthedocs.io/en/stable/03_tutorial/01_spaceflights_tutorial.html)
+* [my spaceflights repo](https://github.com/WaylonWalker/kedro-spaceflights)
 
 ## Notes to get started
 
