@@ -15,8 +15,6 @@ Doing some Digital Gardening on stream
 * ahrefs large images
 * Automatic gif to mp4
 
-https://youtu.be/I4VenHqIEng
-
 ## gif to mp4
 
 After this stream all gifs on my site are converted to mp4/webm if they exist.
