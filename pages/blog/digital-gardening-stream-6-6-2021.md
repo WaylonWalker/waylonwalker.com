@@ -7,6 +7,7 @@ status: published
 
 ---
 
+https://youtu.be/I4VenHqIEng
 
 Doing some Digital Gardening on stream
 
@@ -25,3 +26,6 @@ After this stream all gifs on my site are converted to mp4/webm if they exist.
 ```
 
 ![tmux-navigation-2021](https://images.waylonwalker.com/tmux-navigation-2021.gif)
+
+
+
