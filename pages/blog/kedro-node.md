@@ -254,7 +254,7 @@ my_first_node = node(
 one_node = pipeline.only_nodes_with_tags('int')
 
 # get a pipeline of a few nodes
-one_node = pipeline.only_nodes('raw', 'int')
+one_node = pipeline.only_nodes_with_tags('raw', 'int')
 ```
 
 ### name
@@ -282,6 +282,7 @@ raw_nodes = Pipeline([node for node in pipeline.nodes if 'raw' in node.name])
 > ⚠️ filtering by name requires a bit of diligence and consistency by the team,
 > its a fantastic way to grab some nodes adhoc, but for production you probably
 > want something a bit more robust.
+
 
 
 ---
