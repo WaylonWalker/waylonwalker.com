@@ -283,7 +283,41 @@ raw_nodes = Pipeline([node for node in pipeline.nodes if 'raw' in node.name])
 > its a fantastic way to grab some nodes adhoc, but for production you probably
 > want something a bit more robust.
 
+## Using PartitionedDataSets
 
+```python
+def timeseries_partitioned(cars: Dict):
+    return {k:len(car()) for k, car in cars.items()}
+
+nodes.append(
+        node(
+            func=timeseries_partitioned,
+            inputs='int_cars_partitioned',
+            outputs='int_cars_timeseries_partitioned',
+            name='create_int_cars_timeseries_partitioned',
+            )
+        )
+```
+
+## Using IncrementalDataSets
+
+```python
+def timeseries_incremental(cars: Dict):
+    return {k:len(car) for k, car in cars.items()}
+
+nodes.append(
+        node(
+            func=timeseries_incremental,
+            inputs='int_cars_incremental',
+            outputs='int_cars_timeseries_incremental',
+            name='create_int_cars_timeseries_incremental',
+            )
+        )
+```
+
+https://waylonwalker.com/kedro-inccremental-versioned-datasets 
+
+> for more information in incremental and partitioned datasets see this post
 
 ---
 
