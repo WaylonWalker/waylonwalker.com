@@ -10,6 +10,12 @@ status: draft
 
 ## setup project
 
+Setup a new project just as normal.  **note** I really like using pipx for
+global cli packages.  You can pick a specific version of kedro or opt for the
+latest while simply globally installing kedro and running kedro new is purely
+dependent on the last time you chose to update kedro.
+
+
 ``` bash
 pip install pipx
 
@@ -19,7 +25,12 @@ pip install kedro
 kedro install
 ```
 
+> I called my project versioned-partitioned-kedro-example
+
 ## update dependencies
+
+I popped open my dependencies, added `kedro[pandas]` and `find-kedro`. As those
+are extra packages our example will require.
 
 ```
 aiohttp
@@ -41,9 +52,21 @@ pytest~=6.2
 requests
 wheel>=0.35, <0.37
 ```
+
+**note** I created `find-kedro` and I really like using it to create my
+pipeline object.  Think of how pytest automatically picks up everything named
+`test`, `find-kedro` does the same thing for kedro.  It picks up everything
+with `node` or `pipeline` in the name and creates pipelines out of it.
+
 ## create a node
 
+For this example we need a node in order to do much.  This node is going to
+simply pass the `cars.csv` from a url to a `parquet` file.  I am going to use a
+lambda to build my identity function inline.
+
 ``` python
+# pipelines/cars_nodes.py
+
 from kedro.pipeline import node
 
 nodes = []
@@ -57,12 +80,20 @@ nodes.append(
             name='create_int_cars',
             )
         )
-
 ```
+
+> 🗒️ **note**`find-kedro`will automatically pick up these nodes for us after we
+> set up our `pipeline_registry.py`.
 
 ## implement find-kedro
 
+Next we need to tell kedro where our nodes are.  This is is where `find-kedro`
+comes in.  Here we simply point to the directory where our modules of
+nodes/pipelines are and it does the rest automatically. 
+
 ``` python
+# pipeline_registry.py
+
 """Project pipelines."""
 from typing import Dict
 from pathlib import Path
@@ -82,12 +113,23 @@ def register_pipelines() -> Dict[str, Pipeline]:
     return find_kedro(directory= pipeline_dir)
 ```
 
+> 🗒️ This is very similar to the default `pipeline_registry`except the last two
+> lines.
+
 ## create a baseline catalog
+
+Once we have a pipeline setup the kedro cli can automatically fill in missing
+catalog entries for us with  `MemoryDataSet`'s for us.  This helps scaffold the
+catalog in a consistent way, and ensre we don't end up with a typo in our
+dataset name.
 
 
 ``` bash
 kedro catalog create --pipeline cars_nodes
 ```
+
+Kedro will kick out the following catalog file to `base/catalog/cars_nodes.yml`
+for us to get started with.
 
 ``` yaml
 raw_cars:
@@ -96,7 +138,8 @@ int_cars:
   type: MemoryDataSet
 ```
 
-
+> 🔥 use the kedro cli to automatically fill in any missing datasets from the
+> catalog.
 
 
 ## make a versioned dataset
