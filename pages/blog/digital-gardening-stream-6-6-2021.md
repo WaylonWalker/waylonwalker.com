@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
-tags: ['kedro', 'python', 'stream']
-title: 🌱 Digital Gardening | Gif to Mp4 | Stream replay June 4, 2021
+tags: ['python', 'stream']
+title: 🌱 Digital Gardening | gif to Mp4 | Stream replay June 4, 2021
 date: 2021-06-06T16:15:04
 status: published
 
