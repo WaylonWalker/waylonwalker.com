@@ -157,11 +157,20 @@ int_cars:
 
 ## run the pipeline
 
+Once we have the nodes and catalog setup, we can run the pipeline a few times
+to get some versioned data.  Each time we run it will save a new version inside
+of the `int_cars.parquet` directory.
+
 ``` bash 
 kedro run
 ```
 
 ## inspect the data
+
+listing the files in `data/int_cars.parquet` shows that I now have 5 different
+datasets available.  I can load old ones, but by default kedro will load the
+latest one.
+
 
 ``` bash
 ls data/int_cars.parquet
@@ -173,7 +182,17 @@ ls data/int_cars.parquet
 2021-07-05T15.31.12.688Z
 ```
 
+> 🗒️ kedro sets the version at the timestamp that the session is started.  All
+> datasets created within the same run will have the same version.
+
 ## stack on a incremental dataset
+
+This is where things get interesting, kedro comes with an incremental dataset
+that will load all of the files from a particular directory into a dictionary
+wher the keys are the filename that was loaded.  To load up all datasets into
+this dictionary all we need to do is add a new catalog entry that is a  `type:
+PartitionedDataSet`, with a `path` pointing to the same place as the original,
+and a `dataset` type the same as the original.
 
 ``` yaml
 int_cars_partitioned:
@@ -185,6 +204,8 @@ int_cars_partitioned:
 
 ## catalog list
 
+Listing the catalog entries confirms that we have successfully added our new `PartitionedDataSet`.
+
 
 ``` python
 In [17]: context.catalog.list()
@@ -192,12 +213,14 @@ Out[17]:
 ['raw_cars',
  'int_cars',
  'int_cars_partitioned',
- 'int_cars_incremental',
  'parameters']
 ```
 
 
 ## loading an incremental dataset
+
+Now we can easily load the datasets from every run we just did into a single
+dictionary, simply by running `context.catalog.load('int_cars_incremental')`
 
 ``` python
 In [19]: context.catalog.load('int_cars_incremental')
