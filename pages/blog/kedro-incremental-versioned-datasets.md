@@ -220,7 +220,7 @@ Out[17]:
 ## loading an incremental dataset
 
 Now we can easily load the datasets from every run we just did into a single
-dictionary, simply by running `context.catalog.load('int_cars_incremental')`
+dictionary, simply by running `context.catalog.load('int_cars_incremental')`.
 
 ``` python
 In [19]: context.catalog.load('int_cars_incremental')
@@ -360,7 +360,13 @@ Out[19]:
  31           Volvo 142E  21.4    4  121.0  109  4.11  2.780  18.60   1   1     4     2}
 ```
 
+> 👆 notice that incremental datasets are all loaded for you, its a dict of `filepath:dataset`
+
 ## stack on a partitioned dataset
+
+Let's take a look at a similar type of dataset called `PartitionedDataSet`.  We
+can add it to the catalog in a very similar way to how we added the
+`IncrementalDataSet`.
 
 ``` yaml
 int_cars_incremental:
@@ -370,6 +376,12 @@ int_cars_incremental:
 ```
 
 ## loading an partitioned dataset
+
+Note this time we get a dict with the same keys as before, but this time the
+values are a load function rather than loaded data.  This could be helpful if
+you are operating on datasets that take up more memory than you have available.
+In our case of coupling this with versioned datasets its likely to grow quite
+large, so `PartitionedDataSet`'s are likely a better option for this use.
 
 ``` python
 In [18]: context.catalog.load('int_cars_partitioned')
@@ -383,10 +395,19 @@ Out[18]:
 
 ## incremental vs. partitioned
 
+`IncrementalDataSet`'s and `PartitionedDataSet`'s are very similar as they give
+you access to a whole directory of data that uses the same underlying dataset
+loader.  The major difference is whether you want your data pre loaded or if
+you want to load and dispose of it as you iterate over it.
+
 * incremental loads the data
 * partitioned give a load function
 
 ## creating nodes with partitioned datasets
+
+Let's create a node with this `PartitionedDataSet` to collect stats on our
+dataset over time.  This node does a dict comprehension to get the length of
+each version that we pulled.
 
 ```python
 def timeseries_partitioned(cars: Dict):
@@ -401,8 +422,14 @@ nodes.append(
             )
         )
 ```
+ 
+> 🗒️ note that inside of the dict comprehension car is a load funvtion that we need to call.
 
 ## creating nodes with incremental datasets
+
+Doing the same node with our `IncrementalDataSet` looks very similar, except
+this time car is loaded data inside of the dict comprehension, not a function
+that we need to call.
 
 ```python
 def timeseries_incremental(cars: Dict):
