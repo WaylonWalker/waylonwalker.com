@@ -18,14 +18,28 @@ dependent on the last time you chose to update kedro.
 
 ``` bash
 pip install pipx
-
 pipx run kedro new
+
 cd versioned-partitioned-kedro-example
+conda create -n versioned-partitioned-kedro-example python=3.8  -y
+conda activate versioned-partitioned-kedro-example
+
 pip install kedro
 kedro install
+
+git init
+git add .
+git commit -m  "init project from pipx run kedro new"
 ```
 
-> I called my project versioned-partitioned-kedro-example
+I called my project versioned-partitioned-kedro-example, you can call your
+project whatever you like.  If you try to use some special characters where
+they don't belong dedro will catch you.  Under the hood kedro is using a
+library called `cookiecutter`
+
+> ⚠️ Please do not skip out on using a virtual environment, you may use
+> whichever virtual environment tool you prefer, but please do not skip out.
+> Wrecking a running project for learning is not fun.
 
 ## update dependencies
 
@@ -58,6 +72,23 @@ pipeline object.  Think of how pytest automatically picks up everything named
 `test`, `find-kedro` does the same thing for kedro.  It picks up everything
 with `node` or `pipeline` in the name and creates pipelines out of it.
 
+## Install new dependencies
+
+After we have added our additional dependencies to the `requirements.in`, we
+can tell kedro to install everything and re compile the dependencies.  Behind
+the scenes `--build-reqs` uses a library called `pip-compile` to create a
+`requirements.txt` file that has hard pinned dependencies.  This is ideal for
+creating reproducible projects.  You and your future colleages may not thank
+you for this, but they sure as heck won't be cussing your name when they can't
+get the project to run.
+
+``` bash
+kedro install --build-reqs
+
+git add .
+git commit -m "added additional dependencies"
+```
+
 ## create a node
 
 For this example we need a node in order to do much.  This node is going to
@@ -71,7 +102,6 @@ from kedro.pipeline import node
 
 nodes = []
 
-
 nodes.append(
         node(
             func=lambda x:x,
@@ -84,6 +114,11 @@ nodes.append(
 
 > 🗒️ **note**`find-kedro`will automatically pick up these nodes for us after we
 > set up our `pipeline_registry.py`.
+
+``` bash
+git add .
+git commit -m "add create_int_cars node"
+```
 
 ## implement find-kedro
 
@@ -116,6 +151,11 @@ def register_pipelines() -> Dict[str, Pipeline]:
 > 🗒️ This is very similar to the default `pipeline_registry`except the last two
 > lines.
 
+``` bash
+git add .
+git commit -m "implement find-kedro"
+```
+
 ## create a baseline catalog
 
 Once we have a pipeline setup the kedro cli can automatically fill in missing
@@ -141,8 +181,11 @@ int_cars:
 > 🔥 use the kedro cli to automatically fill in any missing datasets from the
 > catalog.
 
-
 ## make a versioned dataset
+
+Kedro has scaffolded `MemoryDataSet`'s for us.  We will convert them to the
+appropriate dataset type and turn on versioning for our `int` layer, which is
+the first point we save in our environment.
 
 ``` yaml
 raw_cars:
@@ -154,6 +197,13 @@ int_cars:
   versioned: true
 ```
 
+Commit your changes to the catalog.
+
+``` bash
+git add .
+git commit -m "create catalog"
+```
+
 
 ## run the pipeline
 
@@ -163,7 +213,15 @@ of the `int_cars.parquet` directory.
 
 ``` bash 
 kedro run
+kedro run
+kedro run
+kedro run
+kedro run
 ```
+
+> 🗒️ we put our data in the data directory, by default this directory is
+> included in the `.gitignore` and will not be picked up by git.
+
 
 ## inspect the data
 
@@ -443,6 +501,33 @@ nodes.append(
             name='create_int_cars_timeseries_incremental',
             )
         )
+```
+
+## More catalog entries
+
+After adding those nodes we can add the catalog entries agian with the command
+line.  This will not overwrite any of the datasets we just created it will only
+add to it.
+
+``` bash
+kedro catalog create --pipeline cars_nodes
+```
+
+
+``` yaml
+int_cars_timeseries_partitioned:
+  type: MemoryDataSet
+int_cars_timeseries_incremental:
+  type: MemoryDataSet
+```
+
+``` yaml
+int_cars_timeseries_partitioned:
+  type: pickle.PickleDataSet
+  filepath: data/int_cars_timeseries_partitioned.parquet
+int_cars_timeseries_incremental:
+  type: pickle.PickleDataSet
+  filepath: data/int_cars_timeseries_incremental.parquet
 ```
 
 
