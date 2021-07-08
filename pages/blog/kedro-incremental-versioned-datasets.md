@@ -2,8 +2,8 @@
 templateKey: blog-post
 tags: ['kedro', 'python']
 title: Incremental Versioned Datasets in Kedro 
-date: 2021-07-05T11:12:25
-status: draft
+date: 2021-07-08T11:12:25
+status: published
 
 ---
 
