@@ -7,6 +7,23 @@ status: draft
 
 ---
 
+Kedro versioned datasets can be mixed with incremental and partitioned datasets
+to do some timeseries analysis on how our dataset changes over time.  Kedro is
+a very extensible and composible framework, that allows us to build solutions
+from the individual components that it provides.  This article is a great
+example of how you can combine these components in unique ways to achieve some
+powerful results with very little work.
+
+
+## How does our dataset change over time??
+
+This was a question presented to me at work.  We had some plots being produces
+as the output of our pipeline and the user wanted the ability to compare
+results over time.  Luckily this was asked early in the project so we were able
+to proactively setup versioning on the right datasets.
+
+To enable this all we needed to do now was to add `versioned: true` and we will
+be able to compare results over time.  Yes kedro makes it that easy to setup.
 
 ## set up a project
 
@@ -532,6 +549,12 @@ int_cars_timeseries_incremental:
 
 
 ## Loading the new datasets
+
+Loading the two dtasets that we just created show that we have the ended up
+with the same result using both incremental and partitioned datasets.  This
+result is a dictionary of filepaths mapped to the size of the dataset.  Since
+the default filepaths are timestamps we could start doing some time series
+analysis to see how our dataset is changing over time.
 
 ``` python
 In [32]: context.catalog.load('int_cars_timeseries_incremental')
