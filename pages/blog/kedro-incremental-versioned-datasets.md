@@ -586,6 +586,12 @@ https://waylonwalker.com/kedro-pickle
 > ☝️ I have a full article on creating datasets that are not tabular datasets
 > using pickle.
 
+
+## cross posted to dev
+
+If you like this article give it some ❤️🦄🏷️ on dev https://dev.to/waylonwalker/incremental-versioned-datasets-in-kedro-3ajn
+
+
 ---
 
 This post was primarily built live on https://twitch.tv/waylonwalker, give me a
