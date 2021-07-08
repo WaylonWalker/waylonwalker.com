@@ -14,6 +14,9 @@ from the individual components that it provides.  This article is a great
 example of how you can combine these components in unique ways to achieve some
 powerful results with very little work.
 
+https://waylonwalker.com/what-is-kedro/
+
+> 👆 Unsure what kedro is?  Check out this post.
 
 ## How does our dataset change over time??
 
@@ -578,3 +581,7 @@ Out[33]:
 
 ```
 
+https://waylonwalker.com/kedro-pickle
+
+> ☝️ I have a full article on creating datasets that are not tabular datasets
+> using pickle.
