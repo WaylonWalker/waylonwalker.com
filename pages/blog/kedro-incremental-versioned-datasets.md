@@ -585,3 +585,8 @@ https://waylonwalker.com/kedro-pickle
 
 > ☝️ I have a full article on creating datasets that are not tabular datasets
 > using pickle.
+
+---
+
+This post was primarily built live on https://twitch.tv/waylonwalker, give me a
+follow and join in the live show if that is something that interests you.
