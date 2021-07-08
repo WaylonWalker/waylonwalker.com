@@ -8,9 +8,9 @@ status: draft
 ---
 
 
-## setup project
+## set up a project
 
-Setup a new project just as normal.  **note** I really like using pipx for
+Set up a new project just as usual.  **note** I like using pipx for
 global cli packages.  You can pick a specific version of kedro or opt for the
 latest while simply globally installing kedro and running kedro new is purely
 dependent on the last time you chose to update kedro.
@@ -29,22 +29,21 @@ kedro install
 
 git init
 git add .
-git commit -m  "init project from pipx run kedro new"
+git commit -m "init project from pipx run kedro new"
 ```
 
-I called my project versioned-partitioned-kedro-example, you can call your
+I called my project versioned-partitioned-kedro-example. You can call your
 project whatever you like.  If you try to use some special characters where
-they don't belong dedro will catch you.  Under the hood kedro is using a
+they don't belong, kedro will catch you.  Under the hood, kedro is using a
 library called `cookiecutter`
 
-> ⚠️ Please do not skip out on using a virtual environment, you may use
+> ⚠️ Please do not skip out on using a virtual environment. You may use
 > whichever virtual environment tool you prefer, but please do not skip out.
 > Wrecking a running project for learning is not fun.
 
 ## update dependencies
 
-I popped open my dependencies, added `kedro[pandas]` and `find-kedro`. As those
-are extra packages our example will require.
+I popped open my dependencies, added `kedro[pandas]` and `find-kedro`. Since those are extra packages our example will require.
 
 ```
 aiohttp
@@ -67,19 +66,19 @@ requests
 wheel>=0.35, <0.37
 ```
 
-**note** I created `find-kedro` and I really like using it to create my
+**note** I created `find-kedro`, and I like using it to create my
 pipeline object.  Think of how pytest automatically picks up everything named
 `test`, `find-kedro` does the same thing for kedro.  It picks up everything
 with `node` or `pipeline` in the name and creates pipelines out of it.
 
 ## Install new dependencies
 
-After we have added our additional dependencies to the `requirements.in`, we
-can tell kedro to install everything and re compile the dependencies.  Behind
+After adding our additional dependencies to the `requirements.in`, we
+can tell kedro to install everything and compile the dependencies.  Behind
 the scenes `--build-reqs` uses a library called `pip-compile` to create a
-`requirements.txt` file that has hard pinned dependencies.  This is ideal for
-creating reproducible projects.  You and your future colleages may not thank
-you for this, but they sure as heck won't be cussing your name when they can't
+`requirements.txt` file with hard pinned dependencies, which is ideal for
+creating reproducible projects.  You and your future colleagues may not thank
+you for this, but they sure as heck won't be cursing your name when they can't
 get the project to run.
 
 ``` bash
@@ -91,8 +90,8 @@ git commit -m "added additional dependencies"
 
 ## create a node
 
-For this example we need a node in order to do much.  This node is going to
-simply pass the `cars.csv` from a url to a `parquet` file.  I am going to use a
+For this example, we need a node to do much.  This node will
+pass the `cars.csv` from a URL to a `parquet` file.  I am going to use a
 lambda to build my identity function inline.
 
 ``` python
@@ -112,7 +111,7 @@ nodes.append(
         )
 ```
 
-> 🗒️ **note**`find-kedro`will automatically pick up these nodes for us after we
+> 🗒️ **note**`find-kedro' will automatically pick up these nodes for us after we
 > set up our `pipeline_registry.py`.
 
 ``` bash
@@ -122,9 +121,9 @@ git commit -m "add create_int_cars node"
 
 ## implement find-kedro
 
-Next we need to tell kedro where our nodes are.  This is is where `find-kedro`
-comes in.  Here we simply point to the directory where our modules of
-nodes/pipelines are and it does the rest automatically. 
+Next, we need to tell kedro where our nodes are.  This is where `find-kedro`
+comes in.  Once we point to the directory where our modules of
+nodes/pipelines are, it creates the pipelines dictionary for us automatically.  It will even separate each module into a pipeline and stitch them all into one default pipeline.
 
 ``` python
 # pipeline_registry.py
@@ -142,13 +141,13 @@ def register_pipelines() -> Dict[str, Pipeline]:
     """Register the project's pipelines.
 
     Returns:
-        A mapping from a pipeline name to a ``Pipeline`` object.
+        A mapping from a pipeline name to a "Pipeline "object.
     """
     pipeline_dir = Path(__file__).parent / 'pipelines'
     return find_kedro(directory= pipeline_dir)
 ```
 
-> 🗒️ This is very similar to the default `pipeline_registry`except the last two
+> 🗒️ This is very similar to the default ` pipeline_registry'except the last two
 > lines.
 
 ``` bash
@@ -158,9 +157,9 @@ git commit -m "implement find-kedro"
 
 ## create a baseline catalog
 
-Once we have a pipeline setup the kedro cli can automatically fill in missing
-catalog entries for us with  `MemoryDataSet`'s for us.  This helps scaffold the
-catalog in a consistent way, and ensre we don't end up with a typo in our
+Once we have a pipeline setup, the kedro cli can automatically fill in missing
+catalog entries with  `MemoryDataSet`'s. Thus, using the cli helps consistently scaffold the
+catalog and ensure we don't end up with a typo in our
 dataset name.
 
 
@@ -178,12 +177,12 @@ int_cars:
   type: MemoryDataSet
 ```
 
-> 🔥 use the kedro cli to automatically fill in any missing datasets from the
+> 🔥 use the kedro cli to fill in any missing datasets from the automatically
 > catalog.
 
 ## make a versioned dataset
 
-Kedro has scaffolded `MemoryDataSet`'s for us.  We will convert them to the
+Kedro has scaffolded `MemoryDataSet` 's for us.  We will convert them to the
 appropriate dataset type and turn on versioning for our `int` layer, which is
 the first point we save in our environment.
 
@@ -208,8 +207,8 @@ git commit -m "create catalog"
 ## run the pipeline
 
 Once we have the nodes and catalog setup, we can run the pipeline a few times
-to get some versioned data.  Each time we run it will save a new version inside
-of the `int_cars.parquet` directory.
+to get some versioned data.  Each time we run, it will save a new version inside
+the `int_cars.parquet` directory.
 
 ``` bash 
 kedro run
@@ -219,14 +218,14 @@ kedro run
 kedro run
 ```
 
-> 🗒️ we put our data in the data directory, by default this directory is
+> 🗒️ we put our data in the data directory. By default, this directory is
 > included in the `.gitignore` and will not be picked up by git.
 
 
 ## inspect the data
 
-listing the files in `data/int_cars.parquet` shows that I now have 5 different
-datasets available.  I can load old ones, but by default kedro will load the
+Listing the files in `data/int_cars.parquet` shows that I now have five different
+datasets available.  I can load old ones, but by default, kedro will load the
 latest one.
 
 
@@ -240,14 +239,14 @@ ls data/int_cars.parquet
 2021-07-05T15.31.12.688Z
 ```
 
-> 🗒️ kedro sets the version at the timestamp that the session is started.  All
+> 🗒️ kedro sets the version at the timestamp that the session starts.  All
 > datasets created within the same run will have the same version.
 
-## stack on a incremental dataset
+## stack on an incremental dataset
 
-This is where things get interesting, kedro comes with an incremental dataset
+This is where things get interesting. Kedro comes with an incremental dataset
 that will load all of the files from a particular directory into a dictionary
-wher the keys are the filename that was loaded.  To load up all datasets into
+where the keys are the filename of the dataset.  To load up all datasets into
 this dictionary all we need to do is add a new catalog entry that is a  `type:
 PartitionedDataSet`, with a `path` pointing to the same place as the original,
 and a `dataset` type the same as the original.
@@ -433,13 +432,13 @@ int_cars_incremental:
   path: data/int_cars.parquet
 ```
 
-## loading an partitioned dataset
+## loading a partitioned dataset
 
-Note this time we get a dict with the same keys as before, but this time the
-values are a load function rather than loaded data.  This could be helpful if
+Note that we get a dict with the same keys as before, but this time the
+values are a load function rather than loaded data.  Partitioned datasets can be helpful if
 you are operating on datasets that take up more memory than you have available.
-In our case of coupling this with versioned datasets its likely to grow quite
-large, so `PartitionedDataSet`'s are likely a better option for this use.
+In our case of coupling this with versioned datasets, its likely to grow quite
+large, so `PartitionedDataSet` 's are likely a better option for this use.
 
 ``` python
 In [18]: context.catalog.load('int_cars_partitioned')
@@ -453,9 +452,9 @@ Out[18]:
 
 ## incremental vs. partitioned
 
-`IncrementalDataSet`'s and `PartitionedDataSet`'s are very similar as they give
+`IncrementalDataSet` 's and `PartitionedDataSet` 's are very similar as they give
 you access to a whole directory of data that uses the same underlying dataset
-loader.  The major difference is whether you want your data pre loaded or if
+loader.  The significant difference is whether you want your data pre-loaded or if
 you want to load and dispose of it as you iterate over it.
 
 * incremental loads the data
@@ -481,7 +480,7 @@ nodes.append(
         )
 ```
  
-> 🗒️ note that inside of the dict comprehension car is a load funvtion that we need to call.
+> 🗒️ note that inside of the dict comprehension car is a load function that we need to call.
 
 ## creating nodes with incremental datasets
 
@@ -505,8 +504,8 @@ nodes.append(
 
 ## More catalog entries
 
-After adding those nodes we can add the catalog entries agian with the command
-line.  This will not overwrite any of the datasets we just created it will only
+After adding those nodes, we can add the catalog entries again with the command
+line.  This will not overwrite any of the datasets we just created. It will only
 add to it.
 
 ``` bash
@@ -555,5 +554,4 @@ Out[33]:
  '2021-07-05T16.50.46.686Z/int_cars.parquet': 32}
 
 ```
-
 
