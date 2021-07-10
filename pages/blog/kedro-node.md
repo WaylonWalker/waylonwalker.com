@@ -88,7 +88,6 @@ my_first_node = node(
    output='int_cars',
    tags=['pri',]
    )
-
 ```
 
 #### Using a partial function
