@@ -1,22 +1,23 @@
 ---
 templateKey: blog-post
 tags: ['cli', 'linux']
-title: tmux floating popups
-date: 2021-07-15T23:51:21
+title: tmux last session
+date: 2021-07-16T23:51:21
 status: published
 
 ---
 
-https://youtu.be/2ZqFDsJywt8
+https://youtu.be/RB87EEnnMnU
 
-Tmux popups are actually floating windows that you can drag around the screen.  They always open in the middle (by default) when you open them, no matter where you leave them.
-
-Here are a couple of keybindings I use to open up popup windows.
+An ultimate productivity key-binding in tmux is one to switch to the last session.  I use this to quickly get between sessions really quick.  Often I am working and need to lookup a quick note, or copy something into my notes, then get back to where I was quickly.
 
 ``` bash
-bind C-g display-popup -E "ta ~/git"
-bind -n M-g display-popup -E "tmux new-session -A -s scratch"
+bind -n M-b switch-client -l
 ```
+
+I think of this hub and spoke model, and use `last-session` to quickly drive it.
+
+![hub and spoke](https://images.waylonwalker.com/tmux-nav-hub-spoke.png)
 
 https://waylonwalker.com/tmux-nav-2021/
 
