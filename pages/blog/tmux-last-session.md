@@ -5,7 +5,6 @@ title: tmux last session
 date: 2021-07-16T23:51:21
 status: published
 
-
 ---
 
 https://youtu.be/RB87EEnnMnU
