@@ -7,6 +7,8 @@ status: published
 
 ---
 
+https://youtu.be/79Y-kqAiMpw
+
 Choose tree is a powerful tmux utility that provides a graphical interface to
 preview all sessions, windows, and panes, move between them kill them, move
 them and much more.
@@ -21,7 +23,7 @@ bind-key -T prefix s choose-tree -s
 my preferred keybinding to open sessions and windows collapsed and Zoomed in.
 
 ```bash
-bind-key j choose-tree -swZ
+bind-key -T prefix s choose-tree -s
 ```
 
 From the man page.
