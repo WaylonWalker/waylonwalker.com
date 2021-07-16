@@ -62,6 +62,6 @@ def save(markata: "MarkataRss") -> None:
 
     for tag, fg in markata.rss_tags.items():
         output_file = output_dir / tag / "rss.xml"
-        output_file.parents.mkdir(parents=True, exist_ok=True)
+        output_file.parent.mkdir(parents=True, exist_ok=True)
 
         fg.rss_file(str(output_file))
