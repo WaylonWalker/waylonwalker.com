@@ -38,7 +38,7 @@ def make_rss(markata: MarkataRss, posts: list, tag:str) -> FeedGenerator:
     fg.author({"name": markata.author_name, "email": markata.author_email})
     fg.link(href=markata.url, rel="alternate")
     fg.logo(markata.icon)
-    fg.subtitle(f'{markata.rsarkatas_description} - {tag} posts')
+    fg.subtitle(f'{markata.rss_description} - {tag} posts')
     fg.link(href=markata.url + f"/{tag}-rss.xml", rel="self")
     fg.language(markata.lang)
 
