@@ -24,7 +24,7 @@ def render(markata: "MarkataRss") -> None:
     all_posts = reversed(sorted(markata.articles, key=lambda x: x["date"]))
     posts = [post for post in all_posts if post["status"] == status]
     tags = list(set(flatten([a['tags'] for a in markata.articles])))
-    tagged_posts = {tag: [post for post in all_posts if tag in post["tags"]] for tag in tags} 
+    tagged_posts = {tag: [post for post in posts if tag in post["tags"]] for tag in tags} 
 
 
     markata.rss_tags = {tag: make_rss(markata, posts, tag) for tag, posts in tagged_posts.items()}
