@@ -53,13 +53,12 @@ def make_rss(markata: MarkataRss, posts: list, tag:str) -> FeedGenerator:
         fe.link(href=markata.url + "/" + article["slug"])
         fe.content(article.article_html.translate(dict.fromkeys(range(32))))
 
-    rss = fg.rss_str(pretty=True)
-    return rss
+    return fg
 
 
 @hook_impl
 def save(markata: "MarkataRss") -> None:
     output_dir = Path(markata.output_dir)
 
-    for tag, rss in markata.rss_tags.items():
-        rss.rss_file(str(output_dir /tag/ "rss.xml"))
+    for tag, fg in markata.rss_tags.items():
+        fg.rss_file(str(output_dir /tag/ "rss.xml"))
