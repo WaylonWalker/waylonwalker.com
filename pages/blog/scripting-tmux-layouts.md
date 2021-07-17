@@ -2,6 +2,7 @@
 templateKey: hot-tip
 tags: 
 - bash
+- tmux
 title: Scripting Tmux Layouts
 date: 2020-12-13T00:00:00
 status: draft

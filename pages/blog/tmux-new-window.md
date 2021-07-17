@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-tags: ['cli', 'linux', 'tmux']
+tags: ['cli', 'linux', 'tmux', 'tmux']
 title: tmux new-window
 date: 2021-07-24T23:51:21
 status: published

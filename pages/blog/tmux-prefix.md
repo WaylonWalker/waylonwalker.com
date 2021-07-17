@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-tags: ['cli', 'linux']
+tags: ['cli', 'linux', 'tmux']
 title: tmux prefix
 date: 2021-07-18T23:51:21
 status: published
