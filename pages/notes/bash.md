@@ -362,6 +362,8 @@ rg --files . | grep bash
 rg --files . | rg bash
 rg --files . | ag bash
 rg --files . | fzf
+rg -e 'hook' -g '*.md'
+rg -e 'hook' -g '*.py'
 ```
 
 ## mu-repo
