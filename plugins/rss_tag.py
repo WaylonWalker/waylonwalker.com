@@ -1,16 +1,13 @@
 """tagged rss plugin"""
 from pathlib import Path
-from typing import TYPE_CHECKING, cast, Dict
+from typing import Dict
 
-import pytz
 from feedgen.feed import FeedGenerator
 from more_itertools import flatten
 
 from markata import Markata
 from markata.hookspec import hook_impl
 
-if TYPE_CHECKING:
-    from markata import Markata
 
 class MarkataRss(Markata):
     fg: "FeedGenerator"
@@ -23,25 +20,26 @@ def render(markata: "MarkataRss") -> None:
     status = "published"
     all_posts = reversed(sorted(markata.articles, key=lambda x: x["date"]))
     posts = [post for post in all_posts if post["status"] == status]
-    tags = list(set(flatten([a['tags'] for a in markata.articles])))
-    tagged_posts = {tag: [post for post in posts if tag in post["tags"]] for tag in tags} 
+    tags = list(set(flatten([a["tags"] for a in markata.articles])))
+    tagged_posts = {
+        tag: [post for post in posts if tag in post["tags"]] for tag in tags
+    }
+
+    markata.rss_tags = {
+        tag: make_rss(markata, posts, tag) for tag, posts in tagged_posts.items()
+    }
 
 
-    markata.rss_tags = {tag: make_rss(markata, posts, tag) for tag, posts in tagged_posts.items()}
-    
-
-
-def make_rss(markata: MarkataRss, posts: list, tag:str) -> FeedGenerator:
+def make_rss(markata: MarkataRss, posts: list, tag: str) -> FeedGenerator:
     fg = FeedGenerator()
     fg.id(markata.url + f"/{tag}-rss.xml")
-    fg.title(f'{markata.title} - {tag} posts')
+    fg.title(f"{markata.title} - {tag} posts")
     fg.author({"name": markata.author_name, "email": markata.author_email})
     fg.link(href=markata.url, rel="alternate")
     fg.logo(markata.icon)
-    fg.subtitle(f'{markata.rss_description} - {tag} posts')
+    fg.subtitle(f"{markata.rss_description} - {tag} posts")
     fg.link(href=markata.url + f"/{tag}-rss.xml", rel="self")
     fg.language(markata.lang)
-
 
     for article in posts:
         fe = fg.add_entry()
