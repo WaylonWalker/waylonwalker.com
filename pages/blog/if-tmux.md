@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-tags: ['bash']
+tags: ['bash', 'tmux']
 title: If Tmux
 date: 2021-01-09T00:00:00
 status: published
