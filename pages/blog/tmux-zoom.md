@@ -7,6 +7,8 @@ status: published
 
 ---
 
+https://youtu.be/Rn6mOarCQ-Y
+
 Zooming into the current split in tmux is a valuable tool to give yourself some
 screen real estate.  These days I am almost always presenting, streaming, or
 pairing up with a co-worker over a video call.  Since I am always sharing my
