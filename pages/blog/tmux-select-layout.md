@@ -7,6 +7,8 @@ status: published
 
 ---
 
+https://youtu.be/F0mHnwTrNNc
+
 When you get many splits going in tmux sometimes its time for a new layout.
 There are four layout strategies that I use, main-vertical, main-horizontal,
 even-vertical, even-horizontal. Almost always I am useing the main ones with

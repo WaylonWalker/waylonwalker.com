@@ -7,6 +7,8 @@ status: published
 
 ---
 
+https://youtu.be/hpFYE2LU7xc
+
 Resizing panes in tmux can be quite difficult in default tmux, I
 use a set of keybingings to help resize panes in the rare occasions
 that I do need just a bit more space.  I set the keybinding to the same as my
