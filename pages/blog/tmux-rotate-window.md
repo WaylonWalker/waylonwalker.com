@@ -7,10 +7,10 @@ status: published
 
 ---
 
-When you get many splits going in tmux sometimes its time for a new layout.
-There are four layout strategies that I use, main-vertical, main-horizontal,
-even-vertical, even-horizontal. Almost always I am useing the main ones with
-mod plus a or mod plus shift a keybindings.
+Rotate window is the main way that I navigated tmux before I learned
+`select-pane`.  It allows you to change your focused pane, or rotate the
+position of the panes easily.
+
 
 Default keybindings
 
