@@ -22,6 +22,7 @@ Default key bindings for zooming the current split
 bind-key          z resize-pane -Z
 ```
 
+
 I have rebound this to match the default binding with mod+z rather so that I
 get that single keystroke experience.
 
