@@ -57,3 +57,16 @@ lspconfig.pyls.setup {
   on_attach = on_attach
 }
 ```
+
+
+## mypy
+
+Getting mypy working with lsp was tricky for me.  I had some issues trying to
+run mypy in ci and pyright in my editor and I really wanted them to match.
+
+``` bash
+pipx install 'python-lsp-server[all]'
+pipx inject python-lsp-server pylsp-mypy
+```
+
+
