@@ -117,6 +117,17 @@ my_halfer_node = node(
    )
 ```
 
+We can achieve the same results that the partial gave with this lambda.
+
+``` python
+my_halfer_node = node(
+   func=lambda array: divide(array, 2),
+   inputs='raw_cars',
+   output='int_cars',
+   tags=['int',]
+   )
+```
+
 To further show the point that any callable can be out node's `func`, I have
 made a partial from the `pd.DataFrame` class that has column names pre
 populated.
