@@ -1,11 +1,13 @@
 ---
 templateKey: blog-post
 tags: ['cli', 'linux', 'tmux',]
-title: tmux break-pane
+title: tmux join-pane
 date: 2021-07-27T23:51:21
 status: published
 
 ---
+
+https://youtu.be/Vm5rRtcVXLw
 
 Join-pane allows you to join panes that you have broken away from your window,
 or created in a different window to the window you want it in.  As far as I
@@ -21,6 +23,7 @@ My keybindings, you must add this to your `~/.tmux.conf` file to use them.
 #――――――――――――――――――――――――――――――――――――――――――――
 bind -n M-m select-pane -m # mark
 bind -n M-M select-pane -M # unmark
+
 bind -n M-< join-pane
 ```
 
