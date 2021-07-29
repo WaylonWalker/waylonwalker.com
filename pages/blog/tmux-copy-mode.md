@@ -7,6 +7,8 @@ status: published
 
 ---
 
+https://youtu.be/-ypY_-VmBKk
+
 tmux copy-mode is a tmux mode that lets you scroll, search, copy, and jump your
 way through a pane.  There are a ton of keybindings for copy-mode, the main
 ones you will need to know are `/` for searching down `?` for searching up, `n`

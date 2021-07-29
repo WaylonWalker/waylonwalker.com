@@ -7,6 +7,8 @@ status: published
 
 ---
 
+https://youtu.be/LY41GLn_DGg
+
 tmux ls will list the sessions that you have running within the tmux server if
 tmux is currently running.  This is handy to combine with commands such as `attach`.
 

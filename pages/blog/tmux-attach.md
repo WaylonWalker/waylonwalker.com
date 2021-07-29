@@ -7,6 +7,8 @@ status: published
 
 ---
 
+https://youtu.be/JQ0yDCVu44E
+
 attach is one of the most useful features of tmux.  If you have no interest in
 tmux for pane and window management, you should use tmux for this.  It can be a
 life saver if you ever get disconnected from the host machine or accidently

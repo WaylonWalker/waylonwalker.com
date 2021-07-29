@@ -7,6 +7,8 @@ status: published
 
 ---
 
+https://youtu.be/A1qx3tNKDdA
+
 tmux detach is a handy tmux command that will quit your current session while
 keeping it running. The full name of the comamnd is `detach-client`, `detach`
 is a shorthand.
