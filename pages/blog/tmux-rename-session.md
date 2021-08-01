@@ -1,13 +1,16 @@
 ---
 Tags: ['cli', 'linux', 'tmux',]
-templateKey: blog-post title: tmux rename session
+templateKey: blog-post
+title: tmux rename session
 date: 2021-08-03T23:51:21
 status: published
 
 ---
 
+https://youtu.be/WRLRiQDjVIA
+
 So you have been working on your tmux workflow, you've dropped a too many
-window workflow for scoping wrok that belongs together into separate sessions,
+window workflow for scoping work that belongs together into separate sessions,
 but you cannot remember what session your work is in. If your diligent you have
 named your window when you created it, but sometimes its intent has changed or
 your were just plain too lazy at the time for the extra characters needed to

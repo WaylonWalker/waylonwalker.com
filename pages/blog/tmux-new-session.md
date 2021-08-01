@@ -7,6 +7,8 @@ status: published
 
 ---
 
+https://youtu.be/LbQNdCAUogE
+
 This one starts a new chapter in our series that is going to open up a whole
 new set of workflow productivity options, understanding how the `new-session`
 command is a critical command in our adventure into tmux glory.  This is going

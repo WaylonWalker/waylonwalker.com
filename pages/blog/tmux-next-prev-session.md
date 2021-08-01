@@ -7,6 +7,8 @@ status: published
 
 ---
 
+https://youtu.be/8kZnjHPYnKU
+
 Now that we are splitting up work into their own sessions, lets talk about how
 to navigate between them without the command line.  Navigating sessions is what
 kept me using a too many splits and windows workflow for far too long.  It was

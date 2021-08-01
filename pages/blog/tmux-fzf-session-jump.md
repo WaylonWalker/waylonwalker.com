@@ -7,6 +7,8 @@ status: published
 
 ---
 
+https://youtu.be/DkJ9rb85LC0
+
 Quickly getting between tmux splits is critical skill for productivity.  You
 can get by with `next` or `prev` session for awhile, but if you have more than
 about three session you need something a bit more targeted.
@@ -24,7 +26,7 @@ bind C-j new-window -n "session-switcher" "tmux list-sessions | sed -E 's/:.*$//
 
 ## Popup selector
 
-Like with many of my keyvindings I have swapped this one out for a popup
+Like with many of my keybindings I have swapped this one out for a popup
 version.  It just feels so smooth.
 
 ``` bash
