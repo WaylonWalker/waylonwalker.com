@@ -1,0 +1,42 @@
+---
+Tags: ['cli', 'linux', 'tmux',]
+templateKey: blog-post
+title: tmux fzf session jumper
+date: 2021-08-05T09:03:09
+status: published
+
+---
+
+Quickly getting between tmux splits is critical skill for productivity.  You
+can get by with `next` or `prev` session for awhile, but if you have more than
+about three session you need something a bit more targeted.
+
+
+## Full Screen selector
+
+I have used this fzf one keybinding for quite awhile,  honestly I did not make
+it up, and cannot remember where it came from. It will open up a session picker
+in a new full screen window.
+
+``` bash
+bind C-j new-window -n "session-switcher" "tmux list-sessions | sed -E 's/:.*$//' | grep -v \"^$(tmux display-message -p '#S')\$\" | fzf --reverse | xargs tmux switch-client -t"
+```
+
+## Popup selector
+
+Like with many of my keyvindings I have swapped this one out for a popup
+version.  It just feels so smooth.
+
+``` bash
+bind C-j display-popup -E "tmux list-sessions | sed -E 's/:.*$//' | grep -v \"^$(tmux display-message -p '#S')\$\" | fzf --reverse | xargs tmux switch-client -t"
+```
+
+https://waylonwalker.com/tmux-nav-2021/
+
+> for more information on how I navigate tmux, check out this full post
+
+
+Also check out the full YouTube
+[tmux-playlist](https://www.youtube.com/playlist?list=PLTRNG6WIHETB4reAxbWza3CZeP9KL6B)
+to see all of the videos in this series.
+
