@@ -12,7 +12,7 @@ generating yaml catalog entries for me.  It will create new yaml files for each
 pipeline, fill in missiing catalog entries, and respect already existing
 catalog entries.  It will reformat the file, and sort it based on catalog key.
 
-## running kedro catalog create
+## Running Kedro Catalog Create
 
 The command to ensure there are catalog entries for every dataset in the passed
 in pipeline.
@@ -21,19 +21,19 @@ in pipeline.
 kedro catalog create --pipeline history_nodes
 ```
 
-* Create's new yaml file
-* Fills in new dataset entries with the defaul dataset
+* Create's new yaml file, if needed
+* Fills in new dataset entries with the default dataset
 * Keeps existing datasets untouched
 * it will reformat your yaml file a bit
+    * default sorting will be applied
+    * empty newlines will be removed
 
 ## CONF_ROOT
 
 Kedro will respect your `CONF_ROOT` settings when it creates a new catalog
 file, or looks for existing catalog files.  You can change the location of your
-configuration files by editing your `CONF_ROOT` variable in your projects.  I
-prefer to keep my configuration packaged inside of my project.  This is partly
-due to how my team operates and deploys pipelines.
- 
+configuration files by editing your `CONF_ROOT` variable in your projects.  
+
 `settings.py`.
 ``` python
 # settings.py
@@ -43,6 +43,10 @@ CONF_ROOT = "conf"
 # I like to package my configuration
 CONF_ROOT = str(Path(__file__).parent / "conf")
 ```
+
+> I prefer to keep my configuration packaged inside of my project.  This is
+> partly due to how my team operates and deploys pipelines.
+ 
 
 ## File Location
 
