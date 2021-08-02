@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['kedro', 'python']
 title: kedro catalog create
 date: 2021-07-30T07:18:55
-status: draft
+status: published
 
 ---
 
@@ -11,6 +11,11 @@ I use `kedro catalog create` to boost my productivity by automatically
 generating yaml catalog entries for me.  It will create new yaml files for each
 pipeline, fill in missiing catalog entries, and respect already existing
 catalog entries.  It will reformat the file, and sort it based on catalog key.
+
+https://waylonwalker.com/what-is-kedro/
+
+> 👆 Unsure what kedro is?  Check out this post.
+
 
 ## Running Kedro Catalog Create
 
@@ -58,7 +63,7 @@ one in the exact file for your pipeline.  If you are going to use this command
 its important that you follow this pattern or copy what it generates into your
 own catalog file of choice.
 
-> It will not look in all of your existing catalog files for entries, only the
+> ⚠️ It will not look in all of your existing catalog files for entries, only the
 one in the exact file for your pipeline.
 
 ## MemoryDataSet's
@@ -106,7 +111,8 @@ range13:
 ## Formatting is not worthwhile
 
 If we decide this is too cramped for us we could add some space between
-dtasets.
+datasets.  The next time we run `kedro catalog create` empty lines will be
+removed.
 
 ``` yaml
 range12:
@@ -120,7 +126,8 @@ range13:
 
 If we coninue adding new nodes, and tell kedro to create catalog entries again,
 all of our effort given to formatting will be lost.  I wouldn't worry about it
-unless you have an autoformatter that you can run on your yaml files.
+unless you have an autoformatter that you can run on your yaml files.  The
+productivity gains in an semi-automated catalog are worth it.
 
 ``` yaml
 range12:
