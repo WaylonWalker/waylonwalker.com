@@ -23,7 +23,7 @@ bind-key -T prefix s choose-tree -s
 my preferred keybinding to open sessions and windows collapsed and Zoomed in.
 
 ```bash
-bind-key -T prefix s choose-tree -s
+bind-key j choose-tree -swZ
 ```
 
 From the man page.
