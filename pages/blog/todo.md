@@ -363,7 +363,45 @@ his course.  It helps us create or jump to project specific sessions with ease.
 
 ## a directory of projects
 
-My version of the `ta` script will let you pass it a directory, and it will give you a fuzzy popup.
+My version of the `ta` script will let you pass it a directory, and it will
+give you a fuzzy popup.
+
+``` bash
+ta ~/git
+```
+
+## setting up a keybinding
+
+``` bash
+bind C-g display-popup -E "ta ~/git"
+```
+
+![ta-git](https://images.waylonwalker.com/ta-git.png)
+
+## default layout
+
+By default I have my projects open with a vertical split, vim is on top, with
+my file finder open and the lower split is set to just my terminal.  This is
+what I do 90% of the time that I open a project anyways.
+
+![ta-git-layout](https://images.waylonwalker.com/ta-git-layout.png)
+
+## More projects
+
+I also have a directory setup that is a symlink-gallery of all of my projects,
+both private and public.  This makes it easy to have one key that lets me see
+all of my projects.
+
+```bash
+rm -rf ~/projects
+mkdir ~/projects
+ln -sf ~/work/* ~/projects
+ln -sf ~/git/* ~/projects
+```
+
+https://waylonwalker.com/symlink-gallery/
+
+> This post covers how I combine all my projects into a single directory.
 
 ## Related Links
 
@@ -373,5 +411,28 @@ My version of the `ta` script will let you pass it a directory, and it will give
 * my [.tmux.conf](https://github.com/WaylonWalker/devtainer/blob/main/tmux/.tmux.conf)
 
 # show-messages
+
+As we push the limits of tmux further and further you are bound to end up in a
+situation where you are mashing down a hotkey and it's just not doing what you
+want it to do, and you have no idea why.
+
+`show-messages` is a tmux command that can be used to show what tmux is
+actually doing behind the scenes.  This might highlight any hot key conflicts
+you might have in your `~/.tmux.conf`.
+
+## man page for show-messages
+
+In case you wnat more information about show-messages, here is the man page.
+
+``` bash
+show-messages [-JT] [-t target-client]
+            (alias: showmsgs)
+
+        Show server messages or information.  Messages are stored, up to a
+        maximum of the limit set by the message-limit server option.  -J and -T
+        show debugging information about jobs and terminals.
+```
+
+
 # using popups to send alerts
 # putting it all together
