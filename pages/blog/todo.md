@@ -118,8 +118,6 @@ autocmd bufwritepost .tmux.conf execute ':!tmux source-file %'
 autocmd bufwritepost .tmux.local.conf execute ':!tmux source-file %'
 ```
 
-# tat
-
 # status bar
 
 ##  show the status bar
@@ -229,7 +227,70 @@ to print before each key and -1 lists only the
 ```
 
 # has-session
+
+I see you there, trying to script out your tmux layouts. Tryig to get each
+project setup just perfect with a script, but you keep stumbling over yourself
+with `duplicate session` error messages
+
+The `has-session` tmux command is a handy tool to prevent this `duplicate
+session` error message when scripting your tmux layouts.
+
+## command line
+
+The command is pretty straight forward, you simply ask tmux if the session name
+you are looking for exists.
+
+``` bash
+tmux has-session -t "waylonwalker_com"
+```
+
 # killing tmux
+
+Now it's time to switch gears, we are onto a different part of our day and
+there are just too many sessions running and we need to clean up shop.
+
+## kill-server
+
+One viable option is to nuke the whole dang thing.  I actually do this more
+than you might think.
+
+``` bash
+tmux kill-server
+```
+
+> save and commit your work diligently before `kill-server`
+
+## kill-session
+
+A more reasonable option might be to kill a single session.
+
+``` bash
+# kills the current session
+tmux kill-session
+
+# kills the session named scratch
+tmux kill-session scratch
+```
+
+## choose-tree
+
+Jump into tmux
+
+
+## fuzzy matcher
+
+
+https://qmacro.org/autodidactics/2021/08/06/tmux-output-formatting/
+
+``` bash
+bind k display-popup -E "\
+    tmux list-sessions -F '#{?session_attached,,#{session_name}}' |\
+    fzf --reverse -m --header=kill-session |\
+    xargs -I {} tmux kill-session -t {}"
+```
+
+
+# tat
 # display-message
 # show-messages
 # using popups to send alerts
