@@ -274,13 +274,24 @@ tmux kill-session scratch
 
 ## choose-tree
 
-Jump into tmux
+Killing sessions one by one from the command line can be a bit tedious, and
+involve more keystrokes than necessary.  Another option built right into tmux
+is `choose-tree`.  By default `choose-tree` is bound to `prefix+s`, that's
+pressing control+b then s.  Once you are in `choose-tree`, you can navigate
+around with your configured navigation scheme, press `x` to kill a session, or
+pane or window then `y` to confirm.  You can also batch delete by tagging items
+with t, and killing them all at once with `X`.
 
+https://waylonwalker.com/tmux-choose-tree/
+
+> check out this post for a bit more information on choose-tree
 
 ## fuzzy matcher
 
-
-https://qmacro.org/autodidactics/2021/08/06/tmux-output-formatting/
+Here is my preferred way, using a fuzzy matcher.  I recently improved this one
+by making it a popup and cleaning it up based on a repsonse,
+[tmux-output-formatting](https://qmacro.org/autodidactics/2022/08/06/tmux-output-formatting/)
+by [DJ Adams](https://twitter.com/qmacro).  I press prefix+k to bring up a kill-session menu.
 
 ``` bash
 bind k display-popup -E "\
@@ -289,9 +300,78 @@ bind k display-popup -E "\
     xargs -I {} tmux kill-session -t {}"
 ```
 
+> note this is setup to multiple sessions all at once.
 
-# tat
+
 # display-message
+
+You've got some long running tasks, and you're trying to stay productive and
+knock tasks off that board, but you keep finding that your processes finish and
+you stay on other tasks for longer than you should.  You were in the flow and
+just did not check back in on it.  With `display-message` you can send yourself
+a notification when that long running task is complete.
+
+## from the man page
+
+Here is a snippet of `display-message` from the tmux man page.  I rarely need
+to do anything other than just display message, but there are other flags for
+it.
+
+``` bash
+display-message [-aINpv] [-c target-client] [-d delay] [-t target-pane] [message]
+            (alias: display)
+
+        Display a message.  If -p is given, the output is printed to stdout,
+        otherwise it is displayed in the target-client status line for up to
+        delay milliseconds.  If delay is not given, the message-time option is
+        used; a delay of zero waits for a key press.  ‘N’ ignores key presses
+        and closes only after the delay expires.  The format of message is
+        described in the FORMATS section;
+
+        information is taken from target-pane if -t is given, otherwise the
+        active pane.
+
+        -v prints verbose logging as the format is parsed and -a lists the
+        format variables and their values.
+
+        -I forwards any input read from stdin to the empty pane given by
+        target-pane.
+```
+
+## notifier
+
+With `display-message` we can do things like setup notifications that will work cross platform.
+
+``` bash
+cmatrix -t 2 && tmux display-message done
+```
+
+Without setting the target-pane `display-message` defaults to the active pane.
+This is a very handy feature that allows us to switch windows, or sessions and
+still recieve the message.
+
+# ta
+
+Now your creating, jumping, and killing sessions like a boss. You are slicing
+through projects with ease, let me show you one more thing that can be the
+cream on top of this silky smooth setup we have been working towards.
+
+## [Chris Toomey's](https://twitter.com/christoomey) Tmux Course
+
+This script is simply my fork of Chris Toomey's `tat` script straight out of
+his course.  It helps us create or jump to project specific sessions with ease.
+
+## a directory of projects
+
+My version of the `ta` script will let you pass it a directory, and it will give you a fuzzy popup.
+
+## Related Links
+
+* [default key bindings](https://gist.github.com/mzmonsour/8791835)
+* [Chris Toomey's](https://twitter.com/christoomey) Tmux Course
+* my [ta script](https://github.com/WaylonWalker/devtainer/blob/main/bin/.local/bin/ta)
+* my [.tmux.conf](https://github.com/WaylonWalker/devtainer/blob/main/tmux/.tmux.conf)
+
 # show-messages
 # using popups to send alerts
 # putting it all together
