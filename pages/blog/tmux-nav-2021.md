@@ -73,7 +73,7 @@ ta=tmux attach`.  Simply calling ta will do the same thing as shown below.  If
 you're in a tmux session, it does nothing, and if you're not in one, it will
 attach you to the first one.
 
-> get the full [script](https://github.com/WaylonWalker/devtainer/blob/main/bin/ta) from GitHub.
+> get the full [script](https://github.com/WaylonWalker/devtainer/blob/main/bin/.local/bin/ta) from GitHub.
 
 <!-- ![overview of how I switch and manage tmux sessions](https://images.waylonwalker.com/tmux-navigation-2021-ta.gif "overview") -->
 <video controls muted autoplay playsinline loop=true width="100%">
@@ -106,7 +106,7 @@ ta
 
 Another article can dive into my `ta` command. This one is more about the
 methodology, workflow, and keybindings to get me there.  It's available in my
-[devtainer repo](https://github.com/WaylonWalker/devtainer/blob/main/bin/ta).
+[script](https://github.com/WaylonWalker/devtainer/blob/main/bin/.local/bin/ta).
 
 ### but there's more
 
@@ -460,5 +460,5 @@ article took a bit more to put together than my normal post.
 ## Related Links
 
 * [Chris Toomey's](https://twitter.com/christoomey) Tmux Course
-* my [ta script](https://github.com/WaylonWalker/devtainer/blob/main/bin/ta) on GitHub
-* my [.tmux.conf](https://github.com/WaylonWalker/devtainer/blob/main/dotfiles/.tmux.conf)
+* my [ta script](https://github.com/WaylonWalker/devtainer/blob/main/bin/.local/bin/ta).
+* my [.tmux.conf](https://github.com/WaylonWalker/devtainer/blob/main/tmux/.tmux.conf)
