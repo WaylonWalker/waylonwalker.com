@@ -7,10 +7,11 @@ status: published
 
 ---
 
+https://youtu.be/dDq0depPrTs
+
 So you have been tricking out that `.tmux.conf`, you're looking for a silky
 smooth workflow that lets you fly through tmux with super speed, but every time
 you tweak out that `.tmux.conf` you have to restart your whole session. Not amymore, 
-
 
 Let's add this to the bottom of our tmux.conf so that you can see everytime it
 gets sourced.
