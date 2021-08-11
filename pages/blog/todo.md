@@ -51,4 +51,13 @@ edits, all straight from obs.
 * accessing the kedro session
 * installing kedro hooks 
 * creating your first kedro hook
-
+* mu-repo to update many projects
+* Custom DataSets
+* Setting up pre-commit
+* Visidata
+* Logging
+* Custom logger
+* kedro-lsp
+* find-kedro
+* Kedro-diff
+* Docker
