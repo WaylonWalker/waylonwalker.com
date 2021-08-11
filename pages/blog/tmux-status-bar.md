@@ -7,6 +7,8 @@ status: published
 
 ---
 
+https://youtu.be/mvgM8UH11_U
+
 The tmux status bar can be a handy tool to remind yourself where you are within
 tmux.  It can also include a bunch of system information like battery status,
 cpu, mem, whatever you can get from the command  line.  Honestly I like to keep
@@ -64,6 +66,8 @@ set -g status-right "#[fg=magenta] #[bg=gray] %b %d %Y %l:%M %p"
 set -g status-right '#(gitmux "#{pane_current_path}")' 
 set -g status-justify centre
 ```
+
+For more format options search for FORMATS in the tmux manpage.
 
 
 https://waylonwalker.com/tmux-nav-2021/
