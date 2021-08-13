@@ -24,7 +24,15 @@ pip install -e src
 conda info --envs
 ```
 
+* stores environment in a root directory i.e. `~/miniconda3`
+* conda can use its own way to manage environments `environment.yml`
+* the python interpreter is packaged with the environment
+
 ## virtualenv
+
+Virtual env (venv) is another very respectable option that is built right into
+python, and requires no additional installs or using a different distribution
+of pytyhon.
 
 ```
 python -m venv .venv
@@ -33,6 +41,9 @@ python  -m pip install --upgrade pip
 pip install -e src
 ```
 
+* environments are typically stored in the project directory
+* does not package the interpreter
+
 ## pipenv
 
 ```
@@ -40,3 +51,7 @@ pipx run pipenv shell
 python  -m pip install --upgrade pip
 pip install -e src
 ```
+
+* stores environment in a root directory i.e. `~/.local/share/virtualenvs/`
+* pipenv can use its own way to manage environments `pipfile`
+* does not package the interpreter
