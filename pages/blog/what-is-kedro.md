@@ -131,6 +131,13 @@ You can also ask a pipline for its edges with `inputs`, and `outputs`.  You can
 also list every dataset along the way with `all_inputs` or `all_outputs`.
 Lastly you can convert it back into a list of nodes with `nodes`.
 
+``` python
+from kedro.pipeline import Pipeline, node
+
+# using our nodes from last tim
+Pipeline(nodes)
+```
+
 ## Runner
 
 The runner is the bridge between kedro and the orchestrators.  The kedro team
@@ -146,4 +153,9 @@ number of different lifecycle methods that allow us to hook in around where
 kedro is running such as `before_pipeline_run` or `after_catalog_loaded`.
 
 ## Links
+
+* [Node](https://kedro.readthedocs.io/en/stable/kedro.pipeline.node.html)
+* [Pipeline](https://kedro.readthedocs.io/en/stable/kedro.pipeline.Pipeline.html#kedro.pipeline.Pipeline)
+* [Run a pipeline](https://kedro.readthedocs.io/en/stable/06_nodes_and_pipelines/04_run_a_pipeline.html)
+* [create pipelines](https://kedro.readthedocs.io/en/stable/03_tutorial/04_create_pipelines.html)
 * [kedro deployment](https://kedro.readthedocs.io/en/stable/10_deployment/01_deployment_guide.html)
