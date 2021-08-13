@@ -75,8 +75,8 @@ test:
 cars:
   type: pandas.CSVDataSet
   filepath: data/01_raw/company/cars.csv
-  load_args:
     sep: ','
+    load_args:
   save_args:
     index: False
     date_format: '%Y-%m-%d %H:%M'
@@ -123,7 +123,13 @@ nodes = [
 
 ## Pipeline
 
-todo
+The kedro `Pipeline`, is a DAG (Directed Acyclic Graph).  It is a graph object
+that flows in one direction.  You can slice into the pipeline using a few built
+in graph method `to_nodes`, `from_nodes`, `to_outputs`, and `from_inputs`.  You
+can chain up these method calls since each one returns a new `Pipeline` object.
+You can also ask a pipline for its edges with `inputs`, and `outputs`.  You can
+also list every dataset along the way with `all_inputs` or `all_outputs`.
+Lastly you can convert it back into a list of nodes with `nodes`.
 
 ## Runner
 
@@ -134,8 +140,10 @@ through the use of adding in a new runner to your project.
 
 ## Hooks
 
-todo
-
+Kedro allows you to hook into a number of lifecycle methods through the use of
+the `pluggy` framework.  Yes the one that `pytest` is built on.  There are a
+number of different lifecycle methods that allow us to hook in around where
+kedro is running such as `before_pipeline_run` or `after_catalog_loaded`.
 
 ## Links
 * [kedro deployment](https://kedro.readthedocs.io/en/stable/10_deployment/01_deployment_guide.html)

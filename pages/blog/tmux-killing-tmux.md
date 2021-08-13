@@ -7,6 +7,8 @@ status: published
 
 ---
 
+https://youtu.be/QWPyYx54JbE
+
 Now it's time to switch gears, we are onto a different part of our day and
 there are just too many sessions running and we need to clean up shop.
 
@@ -30,7 +32,7 @@ A more reasonable option might be to kill a single session.
 tmux kill-session
 
 # kills the session named scratch
-tmux kill-session scratch
+tmux kill-session -t scratch
 ```
 
 ## choose-tree

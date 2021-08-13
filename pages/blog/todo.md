@@ -15,8 +15,9 @@ This is meant to be low barrier to entry for me to create.  Like the tmux
 series, I hope to make a sub three minute video within one or two takes, no
 edits, all straight from obs.
 
-* whatis kedro
+* what is kedro
 * kedro new
+* three ways to create a kedro environment
 * kedro install
 * kedro pipeline create
 * making your first nodes in kedro
@@ -61,3 +62,11 @@ edits, all straight from obs.
 * find-kedro
 * Kedro-diff
 * Docker
+
+sony 205ms
+cannon 370ms
+
+## background glow
+
+* e1af66
+* c122ac

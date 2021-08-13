@@ -7,7 +7,9 @@ status: published
 
 ---
 
-Tmux list keys can be a useful tool to help remind you of what kebindinfs you
+https://youtu.be/Y1MYmL8ZolE
+
+Tmux list keys can be a useful tool to help remind you of what kebindings you
 have setup.  You can search for them and scroll just like in tmux copy-mode.
 
 ## command line

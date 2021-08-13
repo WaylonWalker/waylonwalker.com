@@ -7,6 +7,8 @@ status: published
 
 ---
 
+https://youtu.be/nT0FA1RNZEs
+
 Now your creating, jumping, and killing sessions like a boss. You are slicing
 through projects with ease, let me show you one more thing that can be the
 cream on top of this silky smooth setup we have been working towards.

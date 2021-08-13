@@ -7,6 +7,8 @@ status: published
 
 ---
 
+https://youtu.be/LLk94fKpGg4
+
 As we push the limits of tmux further and further you are bound to end up in a
 situation where you are mashing down a hotkey and it's just not doing what you
 want it to do, and you have no idea why.

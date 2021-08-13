@@ -7,6 +7,8 @@ status: published
 
 ---
 
+https://youtu.be/utfLA6L8o5s
+
 You've got some long running tasks, and you're trying to stay productive and
 knock tasks off that board, but you keep finding that your processes finish and
 you stay on other tasks for longer than you should.  You were in the flow and
@@ -25,6 +27,7 @@ display-message [-aINpv] [-c target-client] [-d delay] [-t target-pane] [message
 
         Display a message.  If -p is given, the output is printed to stdout,
         otherwise it is displayed in the target-client status line for up to
+
         delay milliseconds.  If delay is not given, the message-time option is
         used; a delay of zero waits for a key press.  ‘N’ ignores key presses
         and closes only after the delay expires.  The format of message is
@@ -42,10 +45,11 @@ display-message [-aINpv] [-c target-client] [-d delay] [-t target-pane] [message
 
 ## notifier
 
-With `display-message` we can do things like setup notifications that will work cross platform.
+With `display-message` we can do things like setup notifications that will work
+cross platform.
 
 ``` bash
-cmatrix -t 2 && tmux display-message done
+cmatrix -t 5 && tmux display-message done
 ```
 
 Without setting the target-pane `display-message` defaults to the active pane.

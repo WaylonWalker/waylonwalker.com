@@ -7,6 +7,8 @@ status: published
 
 ---
 
+https://youtu.be/XucVVgGmesM
+
 I see you there, trying to script out your tmux layouts. Tryig to get each
 project setup just perfect with a script, but you keep stumbling over yourself
 with `duplicate session` error messages
