@@ -15,13 +15,20 @@ This is meant to be low barrier to entry for me to create.  Like the tmux
 series, I hope to make a sub three minute video within one or two takes, no
 edits, all straight from obs.
 
+## written
 * what is kedro
 * kedro new
 * three ways to create a kedro environment
 * kedro install
+
+
+## staging
+
 * kedro pipeline create
 * making your first nodes in kedro
 * kedro run
+
+* add new dependencies
 * kedro catalog create
 * listing things from the kedro cli
     * kedro catalog list
