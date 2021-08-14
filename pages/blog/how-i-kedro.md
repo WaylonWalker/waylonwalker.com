@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['kedro']
 title: How I Kedro
-date: 2021-08-09T22:34:45
+date: 2021-08-16T22:34:45
 status: draft
 
 ---
@@ -23,10 +23,25 @@ and allows me to highlight things well.
 * One Dark Theme
 
 ## dotfiles
+ You can find my
+ [dotfiles](https://github.com/waylonwalker/devtainer) on
+ github.  Feel free to read through and take anything that you
+ find useful.  I would encourage you not to steal them, but to
+ integrate the parts that you want into your own dotfiles.
+ dotfiles are a very personal thing. They are an extension of
+ ones fingertips designed for how you think and type.
 
 ## zsh
 
+I use zsh as my default shell.  I like to use it as my
+interactive shell.  It works, and does a bit better with
+things like tab completion out of the box.
+
 ## starship
+
+I use the starship prompt for my shell.  It works well out of
+the box.  It looks good and inclueds all of the information
+that I would ever need.
 
 ## tmux
 
