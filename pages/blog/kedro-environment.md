@@ -46,6 +46,12 @@ pip install -e src
 
 ## pipenv
 
+Pipenv is another virtual enviroment tool that comes with its own system for
+managing dependencies using a `pipfile`.  It's main benefit is that it creates
+a lockfile that will allow users to replicate the exact version of all their
+packages.  The typical `requirements.txt` workflow can easily break as new
+version of dependecies are released between testing  and deplpoyment.
+
 ```
 pipx run pipenv shell
 python  -m pip install --upgrade pip
