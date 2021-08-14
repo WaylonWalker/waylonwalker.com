@@ -7,6 +7,7 @@ status: draft
 
 ---
 
+https://www.youtube.com/watch?v=bw5_FWDVRpU
 
 ## Ubuntu
 
