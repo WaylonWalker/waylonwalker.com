@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['kedro', 'python']
 title: What is Kedro
-date: 2020-02-24T12:48:00Z
+date: 2020-02-17T12:48:00Z
 status: published
 
 ---

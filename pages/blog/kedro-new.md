@@ -1,14 +1,11 @@
 ---
 templateKey: blog-post
 tags: ['kedro', 'python']
-title: kedro-new
+title: Kedro New
+date: 2021-08-19T20:40:45
 status: draft
 
 ---
-
-date: 2020-02-24T12:48:00Z
-status: draft  What you will need to do is to use the existing `DataSets` to
-build your data catalog.
 
 Kedro takes care of all fo the file io for you, you simply need to use the
 catalog to tell kedro what type of DataSet to use and any extra information
