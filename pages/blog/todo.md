@@ -16,20 +16,20 @@ series, I hope to make a sub three minute video within one or two takes, no
 edits, all straight from obs.
 
 ## written
-* what is kedro
-* kedro new
-* three ways to create a kedro environment
-* kedro install
-
+* how I kedro 8/16
+* what is kedro 8/17
+* kedro new 8/19
+* three ways to create a kedro environment 8/20
+* kedro install 8/21
+* kedro pipeline create 8/22
 
 ## staging
 
-* kedro pipeline create
 * making your first nodes in kedro
 * kedro run
 
-* add new dependencies
 * kedro catalog create
+* add new dependencies
 * listing things from the kedro cli
     * kedro catalog list
     * kedro pipeline list
