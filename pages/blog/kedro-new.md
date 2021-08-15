@@ -7,9 +7,17 @@ status: draft
 
 ---
 
-Kedro takes care of all fo the file io for you, you simply need to use the
-catalog to tell kedro what type of DataSet to use and any extra information
-that `DataSet` needs.  Much of the time this is simply a filepath.
+https://youtu.be/uqiv5LAiJe0
+
+Kedro new is simply a wrapper around the cookiecutter templating library.  The
+kedro team maintains a ready made template that has everything you need for a
+kedro project.  They also maintain a few kedro starters, which are very similar
+to the base template.
+
+https://waylonwalker.com/what-is-kedro/
+
+> Unsure what kedro is, Check out yesterdays post on What is Kedro.
+
 ## pipx
 
 I reccomend using `pipx` when running kedro new.  `pipx` is designed for system
@@ -20,25 +28,18 @@ The kedro team does not reccomend `pipx` in their docs as they already feel
 like there is a bit of a tool overload for folks that may be less familiar with
 
 ``` python
-
+pipx kedro new
 ```
 
-> Here is an example of three nodes taken from their [docs]()
-the python ecosystem.
-
-
-todo
 I like using `pipx` as it gives you better control over using a specific
 version or always the latest version, unlike when you run what you have on your
 system depends on when you last installed or upgraded.
 
 ## Kedro New
 
-Kedro new is simply a wrapper around the cookiecutter templating library.  The
-kedro team maintains a ready made template that has everything you need for a
-kedro project.  They also maintain a few kedro starters, which are very similar
-to the base template.
-todo
+The kedro team also has a set of starters, by passing in `--starter` you can
+start with a different template.  Here is an example with the kedro
+spaceflights starter.
 
 ``` bash
 pipx run kedro new --starter spaceflights
@@ -76,3 +77,7 @@ very specific version.
 ``` bash
 pipx run --spec kedro==0.16.6 kedro new
 ```
+
+https://waylonwalker.com/kedro-environment/
+
+> The next post in this series will help you create your virtual environment for your new kedro project.
