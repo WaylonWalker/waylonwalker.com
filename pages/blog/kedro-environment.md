@@ -7,6 +7,12 @@ status: draft
 
 ---
 
+Avoid serious version conflict issues, and use a virtual environment anytime
+you are running python, here are three ways you can setup a kedro virtual
+environment.
+
+https://youtu.be/KR9TdWh6Oz0
+
 ## conda
 
 I prefer to use conda as my virtual environment manager of choice as it give me
@@ -58,7 +64,7 @@ pipx run pipenv shell
 python  -m pip install --upgrade pip
 pip install -e src
 ```
-
 * stores environment in a root directory i.e. `~/.local/share/virtualenvs/`
 * pipenv can use its own way to manage environments `pipfile`
 * does not package the interpreter
+
