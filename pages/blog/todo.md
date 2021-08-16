@@ -85,7 +85,7 @@ Avoid serious version conflict issues, and use a virtual environment anytime you
 
 Full Post 👉 https://waylonwalker.com/kedro-environment/
 
-―――――――― Kecro ―――――――――――――
+―――――――― Kedro ―――――――――――――
 
 All of my kedro aticles: https://waylonwalker.com/kedro/
 
