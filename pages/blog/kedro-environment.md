@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['kedro', 'python']
 title: kedro-environment
-date: 2021-08-20T20:40:45
+date: 2021-08-19T20:40:45
 status: draft
 
 ---

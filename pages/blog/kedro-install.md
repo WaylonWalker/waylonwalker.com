@@ -2,13 +2,15 @@
 templateKey: blog-post
 tags: ['kedro', 'python']
 title: Kedro Install
-date: 2021-08-22T20:40:45
+date: 2021-08-21T20:40:45
 status: draft
 
 ---
 
 Kedro comes with an `install` command to install and manage all of your
 projects dependencies.
+
+https://youtu.be/P4RJAR_Zkn8
 
 ## cd into your project directory and activate env
 
@@ -90,5 +92,5 @@ dependencies.  If you are not, you surely do not want something to break with a
 new set of dependencies without a way of rolling back.
 
 ``` bash
-kedro install build-reqs
+kedro install --build-reqs
 ```

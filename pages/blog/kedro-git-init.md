@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['kedro', 'python']
 title: Kedro Git Init
-date: 2021-08-21T22:40:45
+date: 2021-08-20T22:40:45
 status: draft
 
 ---
