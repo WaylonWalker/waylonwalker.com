@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['kedro', 'python']
 title: What is Kedro
-date: 2020-02-17T12:48:00Z
+date: 2021-08-17T12:48:00Z
 status: published
 
 ---
@@ -23,13 +23,20 @@ https://waylonwalker.com/what-is-kedro-1/
 
 ---
 
+
+## Hot Take
+
+If you are doing a series of operations to data with python, especially if you
+are using something as supported as pandas, you should be using a framework
+that gives you a pipeline as a DAG and abstracts io.
+
 ## Orchestrators
 
 Like I said, `kedro` is unopinionated it does determine where or how your data
 should be ran.  The kedro team does support the following **Orchestrators**
 with very little add on to the base template.
 
-* [Argo Workflows](https://kedro.readthedocs.io/en/stable/10_deployment/04_argo.html)
+* [Argo Workflows](https://kedro.readthedocs.io/en/stable/13_deployment/04_argo.html)
 * [Prefect](https://kedro.readthedocs.io/en/stable/10_deployment/05_prefect.html)
 * [Kubeflow Workflows](https://kedro.readthedocs.io/en/stable/10_deployment/06_kubeflow.html)
 * [AWS Batch](https://kedro.readthedocs.io/en/stable/10_deployment/07_aws_batch.html)
@@ -43,7 +50,7 @@ be made into a kedro dataset.  Kedro comes out of the box with **many** purpose 
 `DataSets` like storing pandas DataFrames to parquet, csv, or a sql table.  If
 kedro does not come with support for the type of python objects you work with
 don't worry, you can for the closest option they support and build your own.
-Or if you do not want to builf your own, you can use a `PickleDataSet` for
+Or if you do not want to build your own, you can use a `PickleDataSet` for
 anything.
 
 
