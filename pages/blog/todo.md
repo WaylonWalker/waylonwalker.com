@@ -20,7 +20,7 @@ edits, all straight from obs.
 * what is kedro 8/17
 * kedro new 8/19
 * three ways to create a kedro environment 8/20
-* git init 8/20
+* git init 8/21
 * kedro install 8/22
 * kedro pipeline create 8/23
 
@@ -78,3 +78,24 @@ cannon 370ms
 
 * e1af66
 * c122ac
+
+## Description
+
+Avoid serious version conflict issues, and use a virtual environment anytime you are running python, here are three ways you can setup a kedro virtual environment.
+
+Full Post 👉 https://waylonwalker.com/kedro-environment/
+
+―――――――― Kecro ―――――――――――――
+
+All of my kedro aticles: https://waylonwalker.com/kedro/
+
+Full kedro series https://www.youtube.com/watch?v=bw5_FWDVRpU&list=PLTRNG6WIHETCoPt5gAKYSH_HCZvE_r41n
+
+Docs: https://kedro.readthedocs.io/en/stable/
+
+―――――――― Socials ――――――――――――
+
+twitter:  https://twitter.com/_WaylonWalker
+twitch: https://www.twitch.tv/waylonwalker
+github: https://github.com/waylonwalker/
+twitch: https://www.twitch.tv/waylonwalker
