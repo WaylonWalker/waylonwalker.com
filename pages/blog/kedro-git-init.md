@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['kedro', 'python']
 title: Kedro Git Init
-date: 2021-08-20T22:40:45
+date: 2021-08-21T22:40:45
 status: draft
 
 ---
@@ -12,6 +12,10 @@ thing you should always do after getting a new kedro template created is to
 `git init`.
 
 https://youtu.be/E_ec_OJpp6Q
+
+##  git init
+
+Its as simple as these three commands to get started.
 
 ``` bash
 git init
