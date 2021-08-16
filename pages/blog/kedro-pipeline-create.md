@@ -11,6 +11,8 @@ Kedro pipeline create is a command that makes creating new
 pipelines much easier.  There is much less boilerplate that
 you need to write yourself.
 
+https://youtu.be/HtyIKqlEoNw
+
 ## creating a new pipeline
 
 The kedro cli comes with the following command to scaffold out
