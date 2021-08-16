@@ -20,8 +20,9 @@ edits, all straight from obs.
 * what is kedro 8/17
 * kedro new 8/19
 * three ways to create a kedro environment 8/20
-* kedro install 8/21
-* kedro pipeline create 8/22
+* git init 8/20
+* kedro install 8/22
+* kedro pipeline create 8/23
 
 ## staging
 
