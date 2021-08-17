@@ -25,7 +25,7 @@ https://waylonwalker.com/what-is-kedro/
 ## Docs
 _a work in progress_
 
-As this is a part of an upcoming release you will need to look in the `latest` docs, **not** `stable` and you will find a [15_hoooks](https://kedro.readthedocs.io/en/latest/04_user_guide/15_hooks.html?highlight=hooks) page.  As these docs are still in development they are not very complete at this point and do require a bit more existing `kedro` knowledge to understand.  I am sure they will get much better as we approach the realease of hooks.
+As this is a part of an upcoming release you will need to look in the `latest` docs, **not** `stable` and you will find a [15_hoooks](https://kedro.readthedocs.io/en/stable/07_extend_kedro/02_hooks.html) page.  As these docs are still in development they are not very complete at this point and do require a bit more existing `kedro` knowledge to understand.  I am sure they will get much better as we approach the realease of hooks.
 
 > This doesn't mean that we can't still install the latest/unstable version and have some fun learning!
 

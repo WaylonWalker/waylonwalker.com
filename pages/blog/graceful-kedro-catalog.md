@@ -53,7 +53,7 @@ io = DataCatalog(
 )
 
 ```
-> taken right from the kedro [docs](https://kedro.readthedocs.io/en/stable/04_user_guide/04_data_catalog.html)
+> taken right from the kedro [docs](https://kedro.readthedocs.io/en/stable/05_data/01_data_catalog.html)
 
 👆 This can be done inside of a single Jupyter cell, and pulled out later.
 
