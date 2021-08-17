@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['kedro', 'python']
 title: Kedro New
 date: 2021-08-18T20:40:45
-status: draft
+status: published
 
 ---
 
