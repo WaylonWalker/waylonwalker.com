@@ -53,7 +53,7 @@ https://waylonwalker.com/tmux-choose-tree/
 
 Here is my preferred way, using a fuzzy matcher.  I recently improved this one
 by making it a popup and cleaning it up based on a repsonse,
-[tmux-output-formatting](https://qmacro.org/autodidactics/2022/08/06/tmux-output-formatting/)
+[tmux-output-formatting](https://qmacro.org/autodidactics/2021/08/06/tmux-output-formatting/)
 by [DJ Adams](https://twitter.com/qmacro).  I press prefix+k to bring up a kill-session menu.
 
 ``` bash
