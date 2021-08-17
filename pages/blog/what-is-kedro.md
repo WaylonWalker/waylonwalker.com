@@ -15,6 +15,8 @@ ran through a function, and saved by `Nodes`.  The order that these `Nodes` are
 executed are determined by the `Pipeline`, which is a  **DAG**.  It's the
 `runner`'s job to manage the execution of the `Nodes`.
 
+https://youtu.be/Wf4rnFsaFFU
+
 ---
 
 https://waylonwalker.com/what-is-kedro-1/
@@ -36,7 +38,7 @@ Like I said, `kedro` is unopinionated it does determine where or how your data
 should be ran.  The kedro team does support the following **Orchestrators**
 with very little add on to the base template.
 
-* [Argo Workflows](https://kedro.readthedocs.io/en/stable/13_deployment/04_argo.html)
+* [Argo Workflows](https://kedro.readthedocs.io/en/stable/10_deployment/04_argo.html)
 * [Prefect](https://kedro.readthedocs.io/en/stable/10_deployment/05_prefect.html)
 * [Kubeflow Workflows](https://kedro.readthedocs.io/en/stable/10_deployment/06_kubeflow.html)
 * [AWS Batch](https://kedro.readthedocs.io/en/stable/10_deployment/07_aws_batch.html)
