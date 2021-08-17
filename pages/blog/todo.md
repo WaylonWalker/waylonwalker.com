@@ -26,18 +26,17 @@ edits, all straight from obs.
 
 ## staging
 
-* making your first nodes in kedro
-* kedro run
-
-* kedro catalog create
-* add new dependencies
-* listing things from the kedro cli
-    * kedro catalog list
-    * kedro pipeline list
-* modular piplines
+* making your first nodes in kedro 8/23
+* kedro run 8/24
+* kedro catalog create 8/25
+* add new dependencies 8/26
+* Comprehensive nodes 8/27
+* listing things from the kedro cli 8/28
+* modular piplines 8/29
     * kedro pipeline package
     * kedro pipeline pull
-* Storing catalog entries
+* Storing catalog entries 8/30
+
 * parameters
 * pipeline registry
 * find-kedro
