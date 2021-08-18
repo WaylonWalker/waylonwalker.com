@@ -56,7 +56,7 @@ pushed myself to use only the terminal.  I felt that vscode was just getting
 slower and slower, and I was getting less benefit from it.  Especially now that
 the lsp is a part of nvim.
 
-![tmux-prefix+c-j](https://images.waylonwalker.com/tmux-navigation-2021-prefix+c-j.mp4)
+![tmux-prefix+c-j](https://images.waylonwalker.com/tmux-navigation-2021-prefix+c-j.gif)
 
 ## neovim
 
