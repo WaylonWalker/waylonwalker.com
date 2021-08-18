@@ -24,20 +24,20 @@
 
 # im forgetful and can't remmember my own routes
 
-/tags/*                                                     /:splat
-/tag/*                                                      /:splat
+/tags/*                                                     /:splat/
+/tag/*                                                      /:splat/
 
 # Common aliases to my tags
-/archive/python3/*                                          /python/:splat
-/archive/python2/*                                          /python/:splat
+/archive/python3/*                                          /python/:splat/
+/archive/python2/*                                          /python/:splat/
 
-/archive/neovim/*                                           /vim/:splat
-/archive/nvim/*                                             /vim/:splat
+/archive/neovim/*                                           /vim/:splat/
+/archive/nvim/*                                             /vim/:splat/
 
-/archive/unix/*                                             /linux/:splat
-/archive/bash/*                                             /linux/:splat
-/archive/command-line/*                                     /linux/:splat
-/archive/cli/*                                              /linux/:splat
+/archive/unix/*                                             /linux/:splat/
+/archive/bash/*                                             /linux/:splat/
+/archive/command-line/*                                     /linux/:splat/
+/archive/cli/*                                              /linux/:splat/
 
 # refactor routes
 /blog/*                                                     /:splat/
@@ -154,15 +154,15 @@
 /bash                                                       /notes/bash/
 
 # more encompassing
-/b/*                                                        /:splat
+/b/*                                                        /:splat/
 
-/n/*                                                        /:splat
+/n/*                                                        /:splat/
 
 /rss                                                        /rss.xml
 /md-rss                                                     /blog/markdown-rss.xml
 /sitemap                                                    /sitemap.xml
 
-/static/*                                                   /:splat
+/static/*                                                   /:splat/
 
 #External
 
