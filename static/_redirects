@@ -74,7 +74,7 @@
 /kpre                                                       /creating-the-kedro-preflight-hook/
 /bdgl                                                       /til-bind-arguments-to-dynamically-generated-lambdas-in-python/
 /fpga                                                       /four-github-actions-python/
-/vndt                                                       /variables-names-dont-need-their-type/
+/vndt                                                       /variable-names-don-t-need-their-type/
 /sega                                                       /send-email-with-github-actions/
 /waga                                                       /what-are-github-actions/
 /knew                                                       /create-new-kedro-project/
@@ -88,6 +88,7 @@
 /zeit                                                       /should-i-switch-to-zeit-now/
 /gitp                                                       /git-push-without-setting-upstream/
 /oosp                                                       /out-of-space/
+/b/oosp                                                     /out-of-space/
 /purl                                                       /personal-url-shortener/
 /scli                                                       /simple-click/
 /cmdt                                                       /cmd-exe-tips/
@@ -150,6 +151,7 @@
 /building-kedro.dev                                         /building-kedro-dev/
 /python-args-and-kwargs                                     /python-args-kwargs/
 /variables-names-dont-need-their-type                       /variable-names-don-t-need-their-type/
+/variables-names-dont-need-their-type/                      /variable-names-don-t-need-their-type/
 
 /bash                                                       /notes/bash/
 
