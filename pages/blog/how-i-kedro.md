@@ -18,7 +18,7 @@ box for me.  I am using gnome with a dark theme.
 ## Gnome Terminal
 
 I am still using the built in default gnome terminal, it just works.  It does
-all the things that I need it to do.  It supports transparancy renders my fonts
+all the things that I need it to do.  It supports transparency renders my fonts
 and allows me to highlight things well.
 
 * One Dark Theme
@@ -41,7 +41,7 @@ things like tab completion out of the box.
 ## starship
 
 I use the starship prompt for my shell.  It works well out of
-the box.  It looks good and inclueds all of the information
+the box.  It looks good and includes all of the information
 that I would ever need.
 
 ## tmux
