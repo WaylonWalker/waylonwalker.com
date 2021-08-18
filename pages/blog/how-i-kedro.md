@@ -24,6 +24,7 @@ and allows me to highlight things well.
 * One Dark Theme
 
 ## dotfiles
+
  You can find my
  [dotfiles](https://github.com/waylonwalker/devtainer) on
  github.  Feel free to read through and take anything that you
@@ -44,6 +45,8 @@ I use the starship prompt for my shell.  It works well out of
 the box.  It looks good and includes all of the information
 that I would ever need.
 
+![kedro-prompt](https://images.waylonwalker.com/kedro-prompt.png)
+
 ## tmux
 
 As a team lead I am in and out of many projects per day, tmux allows me to get
@@ -53,6 +56,8 @@ pushed myself to use only the terminal.  I felt that vscode was just getting
 slower and slower, and I was getting less benefit from it.  Especially now that
 the lsp is a part of nvim.
 
+![tmux-prefix+c-j](https://images.waylonwalker.com/tmux-navigation-2021-prefix+c-j.mp4)
+
 ## neovim
 
 I really like the raw speed and customizability of neovim.  You can see all the
@@ -61,6 +66,8 @@ customization, and plugins I have added in my dotfiles.
 * OneBuddy Theme
 * pylsp
 * kedro-lsp
+
+![nvim-kedro](https://images.waylonwalker.com/nvim-kedro.png)
 
 ## ipython
 
@@ -76,6 +83,8 @@ rich is installed.
 
 * custom prompt
 * rich traceback
+
+![kedro-ipython](https://images.waylonwalker.com/kedro-ipython.png)
 
 ## Links
 
