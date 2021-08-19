@@ -11,7 +11,7 @@ Immediately after `kedro new`, before you start running `kedro install` or your 
 thing you should always do after getting a new kedro template created is to
 `git init`.
 
-https://youtu.be/E_ec_OJpp6Q
+https://youtu.be/IGba3ytf_6U
 
 ##  git init
 
