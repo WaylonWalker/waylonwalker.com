@@ -2,8 +2,8 @@
 templateKey: blog-post
 tags: ['kedro', 'python']
 title: kedro-environment
-date: 2021-08-19T20:40:45
-status: draft
+date: 2023-08-19T20:40:45
+status: published
 
 ---
 
@@ -11,7 +11,7 @@ Avoid serious version conflict issues, and use a virtual environment anytime
 you are running python, here are three ways you can setup a kedro virtual
 environment.
 
-https://youtu.be/KR9TdWh6Oz0
+https://youtu.be/ZSxc5VVCBhM
 
 ## conda
 
