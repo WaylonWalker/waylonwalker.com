@@ -3,14 +3,14 @@ templateKey: blog-post
 tags: ['kedro', 'python']
 title: Kedro Install
 date: 2021-08-21T20:40:45
-status: draft
+status: published
 
 ---
 
 Kedro comes with an `install` command to install and manage all of your
 projects dependencies.
 
-https://youtu.be/P4RJAR_Zkn8
+https://youtu.be/xNG5POq4dN0
 
 ## cd into your project directory and activate env
 
