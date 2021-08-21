@@ -10,7 +10,7 @@ status: published
 Kedro comes with an `install` command to install and manage all of your
 projects dependencies.
 
-https://youtu.be/xNG5POq4dN0
+https://youtu.be/IWimEs-hHQg
 
 ## cd into your project directory and activate env
 
