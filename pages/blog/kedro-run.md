@@ -50,16 +50,15 @@ We will cover more of the benefits that we get from the graph nature of the DAG
 in the future, but here is a quick peek at some things we can do.
 
 ``` bash
-kedro run --pipeline dp --from-inputs preprocessed_shuttles
 kedro run --pipeline dp --to-outputs preprocessed_shuttles
+kedro run --pipeline dp --from-inputs preprocessed_shuttles
 kedro run --pipeline dp --to-nodes create_master_table_node
 ```
 
-
 ## Multiple things
 
-You can stack up multiple kedro dag concepts into a single run command.
 
+You can stack up multiple kedro dag concepts into a single run command.
 ```
 kedro run --pipeline dp --to-nodes create_master_table_node --to-nodes preprocess_shuttles_node
 ```
@@ -71,4 +70,5 @@ kedro run --pipeline dp --to-nodes create_master_table_node --to-nodes preproces
 https://waylonwalker.com/kedro-environment/
 
 https://waylonwalker.com/kedro-new/
+
 
