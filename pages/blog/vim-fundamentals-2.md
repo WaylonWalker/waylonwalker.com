@@ -8,6 +8,7 @@ status: draft
 ---
 
 newline
+another
 
 
 Mahesh Subrajmanium Venkatachalam - Plugins | Installing a Theme
