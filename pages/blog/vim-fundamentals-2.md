@@ -7,8 +7,10 @@ status: draft
 
 ---
 
+newline
 
-Mahesh Subramanium Venkatachalam - Plugins | Installing a Theme
+
+Mahesh Subrajmanium Venkatachalam - Plugins | Installing a Theme
 Hunter Phillips - Quickfix | Offline Ordering with getqflist
 Andrea Wackerle - Search & Replace | Macros
 
@@ -76,8 +78,9 @@ quickfix commands
 ``` vim
 :copen
 :cnext
-:cdo
+:cdo s/vim/nvim/g
 ```
+
 
 ## Some remaps to consider
 
