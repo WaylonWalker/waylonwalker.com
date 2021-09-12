@@ -7,7 +7,16 @@ status: draft
 
 ---
 
-Before we jump in with anything crazy, let's make some nodes with some vanilla data structures.
+Before we jump in with anything crazy, let's make some nodes with some vanilla
+data structures.
+
+## import node
+
+You will need to import node from kedro.pipeline to start creating nodes.
+
+``` python
+from kedro.pipeline import node
+```
 
 ## func
 
@@ -74,3 +83,12 @@ concat_ranges = node(
     inputs={'range': 'range', 'range_two': 'range_squared'}
     outputs='concat'
     )
+```
+
+## Links
+
+* [all of my kedro articles](https://waylonwalker.com/kedro/)
+* [kedro playlist on YouTube](https://www.youtube.com/watch?v=bw5_FWDVRpU&list=PLTRNG6WIHETCoPt5gAKYSH_HCZvE_r41n)
+* [node docs](https://kedro.readthedocs.io/en/stable/kedro.pipeline.node.html)
+* [first_nodes.py](https://gist.github.com/WaylonWalker/347b32c6ae7b799d1e0853c3811a98de)
+
