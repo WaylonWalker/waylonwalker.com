@@ -2,10 +2,12 @@
 templateKey: blog-post
 tags: ['kedro', 'python']
 title: Writing your first kedro Nodes
-date: 2021-08-23T22:40:45
-status: draft
+date: 2021-09-13T22:40:45
+status: published
 
 ---
+
+https://youtu.be/-gEwU-MrPuA
 
 Before we jump in with anything crazy, let's make some nodes with some vanilla
 data structures.
