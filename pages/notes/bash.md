@@ -388,6 +388,16 @@ https://waylonwalker.com/mu-repo/
 
 > See the full post for mu-repo for more
 
+
+## mu unregister all 
+
+I ran into some issues with mu unregister * before, but this seems to work everywhere.
+
+``` bash
+mu list | tail -n +3 | xargs -I {} mu unregister {}
+```
+
+
 ## mu register all repos that have an rg match
 
 Add all repos that have a versionspec of 3.7 in them.
