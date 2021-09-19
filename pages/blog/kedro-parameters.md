@@ -2,16 +2,20 @@
 templateKey: blog-post
 tags: ['kedro', 'python']
 title: Setting Parameters in kedro
-date: 2021-08-29
+date: 2021-09-19
 status: draft
 
 ---
 
-## Parameters
-
 Parameters are a place for you to store variables for your pipeline that can be
 accessed by any node that needs it, and can be easily changed by changing your
 environment.  Parameters are stored in the repository in yaml files.
+
+https://youtu.be/Jj5cQ5bqcjg
+
+https://waylonwalker.com/what-is-kedro/
+
+> 👆 Unsure what kedro is?  Check out this post.
 
 ## parameters files
 
@@ -27,6 +31,7 @@ parameters file.
 The base environment should contain all of the default values you want to run.
 
 ``` yaml
+# /conf/base/parameters.yml
 test_size: 0.2
 random_state: 3
 features:
@@ -89,6 +94,10 @@ def split_data(data: pd.DataFrame, parameters: Dict) -> Tuple:
     return X_train, X_test, y_train, y_test
 ```
 
+https://waylonwalker.com/kedro-node/
+
+> 👆 Check out this complete guide to creating kedro nodes.
+
 ## local
 
 The local parameters by default are in `conf/local/parameters.yml`.  They will
@@ -96,6 +105,7 @@ override the base parameters in a shallow fashion.  If a top level key exists
 in local, it will override that entire key in your parameters.
 
 ``` yaml
+# /conf/local/parameters.yml
 env: local
 features:
   - company_rating
@@ -110,6 +120,7 @@ default environment selected to override base.
 You can also have other environments that override the base environment.
 
 ``` yaml
+# /conf/new/parameters.yml
 env: new
 ```
 
@@ -143,6 +154,8 @@ os.environ['KEDRO_ENV'] = 'new'
 ## Links
 
 * [all of my kedro articles](https://waylonwalker.com/kedro/)
+* [what is kedro](https://waylonwalker.com/what-is-kedro/)
+* [comprehensive guide to creating kedro nodes](https://waylonwalker.com/kedro-node/)
 * [kedro playlist on YouTube](https://www.youtube.com/watch?v=bw5_FWDVRpU&list=PLTRNG6WIHETCoPt5gAKYSH_HCZvE_r41n)
 * [configuration docs](https://kedro.readthedocs.io/en/latest/04_kedro_project_setup/02_configuration.html)
 
