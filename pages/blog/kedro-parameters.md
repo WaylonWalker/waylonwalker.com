@@ -7,6 +7,21 @@ status: draft
 
 ---
 
+## Parameters
+
+Parameters are a place for you to store variables for your pipeline that can be
+accessed by any node that needs it, and can be easily changed by changing your
+environment.  Parameters are stored in the repository in yaml files.
+
+## parameters files
+
+You can have multiple parameters files and choose which ones to load by setting
+your environment.  By default kedro will give you a `base` and `local`
+parameters file.
+
+* `conf/base/parameters.yml`
+* `conf/local/parameters.yml`
+
 ## base
 
 The base environment should contain all of the default values you want to run.
@@ -29,14 +44,23 @@ features:
 
 ## accessing parameters
 
+Parameters can be accessed through context or through the catalog.  Generally
+when you are working with nodes it will be loaded through the catalog.
+
+Loding with the context.
+
 ``` python
 context = session.load_context()
 context.params
 ```
 
+Loading with the catalog.
+
 ``` python
 catalog.load('parameters')
 ```
+
+Loading a specific key with the catalog.
 
 ``` python
 catalog.load('params:test_size')
@@ -64,7 +88,6 @@ def split_data(data: pd.DataFrame, parameters: Dict) -> Tuple:
     )
     return X_train, X_test, y_train, y_test
 ```
-
 
 ## local
 
