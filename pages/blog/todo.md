@@ -30,12 +30,13 @@ edits, all straight from obs.
 * kedro run 8/24
 * kedro catalog create 8/25
 * add new dependencies 8/26
-* Comprehensive nodes 8/27
-* listing things from the kedro cli 8/28
+* listing things from the kedro cli 8/27
+* Storing catalog entries 8/30
+
+* Comprehensive nodes
 * modular piplines 8/29
     * kedro pipeline package
     * kedro pipeline pull
-* Storing catalog entries 8/30
 
 * parameters
 * pipeline registry
