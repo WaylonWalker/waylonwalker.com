@@ -172,7 +172,14 @@ git clone https://github.com/umlaeute/v4l2loopback.git ~/git/v4l2loopback/
 cd ~/git/v4l2loopback/
 make
 sudo make install
+
 sudo modprobe v4l2loopback devices=1 exclusive_caps=1
+```
+
+
+``` bash
+sudo depmod -a
+sudo modprobe v4l2loopback video_nr=10 card_label="OBS Video Source" exclusive_caps=1
 ```
 
 ## i3
