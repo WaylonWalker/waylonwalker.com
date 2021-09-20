@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['kedro', 'python']
 title: Setting Parameters in kedro
 date: 2021-09-19
-status: draft
+status: published
 
 ---
 
