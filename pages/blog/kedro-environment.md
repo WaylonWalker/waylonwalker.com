@@ -1,8 +1,8 @@
 ---
 templateKey: blog-post
 tags: ['kedro', 'python']
-title: kedro-environment
-date: 2023-08-19T20:40:45
+title: kedro Virtual Environment
+date: 2021-08-23T20:40:45
 status: published
 
 ---
@@ -12,6 +12,10 @@ you are running python, here are three ways you can setup a kedro virtual
 environment.
 
 https://youtu.be/ZSxc5VVCBhM
+
+* conda
+* venv
+* pipenv
 
 ## conda
 
