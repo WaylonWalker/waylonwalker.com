@@ -387,3 +387,21 @@ mu sh $(grep -iRl "KEDRO_GID=0" | xargs sed -i "s/KEDRO_GID=0/KEDRO_GID=5/g")
 https://waylonwalker.com/mu-repo/
 
 > See the full post for mu-repo for more
+
+
+## mu unregister all 
+
+I ran into some issues with mu unregister * before, but this seems to work everywhere.
+
+``` bash
+mu list | tail -n +3 | xargs -I {} mu unregister {}
+```
+
+
+## mu register all repos that have an rg match
+
+Add all repos that have a versionspec of 3.7 in them.
+
+``` bash
+rg --hidden=true 'versionSpec:.*.3.7' -l | xargs -I {} mu register {}
+```

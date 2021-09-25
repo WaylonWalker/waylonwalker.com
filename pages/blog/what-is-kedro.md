@@ -2,82 +2,109 @@
 templateKey: blog-post
 tags: ['kedro', 'python']
 title: What is Kedro
-date: 2020-02-24T12:48:00Z
+date: 2021-08-17T12:48:00Z
 status: published
 
 ---
 
+Kedro is an unopinionated Data Engineering framework that comes with a somewhat
+opinionated template. It gives the user a way to build pipelines that
+automatically take care of io through the use of abstract `DataSets` that the
+user specifies through `Catalog` entries.  These `Catalog` entries are loaded,
+ran through a function, and saved by `Nodes`.  The order that these `Nodes` are
+executed are determined by the `Pipeline`, which is a  **DAG**.  It's the
+`runner`'s job to manage the execution of the `Nodes`.
 
-Kedro is an open source data pipeline framework.  It provides guardrails to set
-your project up right from the start without needing to know deeply how to
-setup your own python library for data pipelining.  It includes really great
-ways to manipulate `catalogs` and `pipelines`.  This article will cover the 10K
-view of kedro, future articles will dive deper into each one.
+https://youtu.be/Wf4rnFsaFFU
 
-[kedro](https://kedro.readthedocs.io) is an open-source data pipeline framework.  It provides guardrails to set your project up right from the start without needing to know deeply how to set up your own python library for data pipelining.  It includes great ways to manipulate `catalogs` and `pipelines`.  This article will cover the 10K view of [kedro](https://kedro.readthedocs.io), future articles will dive deeper into each one.
+---
 
-<!-- {% slideshare DAZrqvJmuUUfFF %} -->
+https://waylonwalker.com/what-is-kedro-1/
 
+> This is an updated version of my original what-is-kedro article
 
-## Libraries
-
-Currently, [kedro](https://kedro.readthedocs.io) is broken down into 3 different libraries.
-
-💎 [kedro](https://kedro.readthedocs.io)
-
-📉 [kedro-viz](https://github.com/quantumblacklabs/kedro-viz)
-
-🏗 [kedro-docker](https://github.com/quantumblacklabs/kedro-docker)
-
-## [kedro](https://kedro.readthedocs.io)
-
-![kedro logo](https://images.waylonwalker.com/68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f7175616e74756d626c61636b6c6162732f6b6564726f2f6d61737465722f696d672f6b6564726f5f62616e6e65722e6a7067.jpg)
+---
 
 
-[kedro](https://kedro.readthedocs.io) is the core of the ecosystem.  It provides the docs, getting started, `kedro new` templates, and the core library including the catalog and pipeline.
+## Hot Take
 
-### Catalog
+If you are doing a series of operations to data with python, especially if you
+are using something as supported as pandas, you should be using a framework
+that gives you a pipeline as a DAG and abstracts io.
 
-![catalogs](https://dev-to-uploads.s3.amazonaws.com/i/trzfj86dbq0ronis26x1.jpg)
+## Orchestrators
 
-Inside this core library is a data catalog object.  This allows you to specify attributes about your data, then load and save it without ever writing a single line of read/write code, which can become very cumbersome.  Older versions would load this into the io variable, currently it loads into the catalog.  The power of the catalog is that it allows you to read and write data by just referencing its name.  Typically this is done inside of a YAML file, but can be done in python.
+Like I said, `kedro` is unopinionated it does determine where or how your data
+should be ran.  The kedro team does support the following **Orchestrators**
+with very little add on to the base template.
 
-Here is an example of a CSV dataset stored locally
+* [Argo Workflows](https://kedro.readthedocs.io/en/stable/10_deployment/04_argo.html)
+* [Prefect](https://kedro.readthedocs.io/en/stable/10_deployment/05_prefect.html)
+* [Kubeflow Workflows](https://kedro.readthedocs.io/en/stable/10_deployment/06_kubeflow.html)
+* [AWS Batch](https://kedro.readthedocs.io/en/stable/10_deployment/07_aws_batch.html)
+* [Databricks](https://kedro.readthedocs.io/en/stable/10_deployment/08_databricks.html)
+
+## DataSets
+
+Did I say kedro is unopionated?  Datasets are what allow kedro too be so
+flexible accross a number of different python objects.  Any python object can
+be made into a kedro dataset.  Kedro comes out of the box with **many** purpose built
+`DataSets` like storing pandas DataFrames to parquet, csv, or a sql table.  If
+kedro does not come with support for the type of python objects you work with
+don't worry, you can for the closest option they support and build your own.
+Or if you do not want to build your own, you can use a `PickleDataSet` for
+anything.
+
+
+## Catalog
+
+You will not often be creating your own datasets, most of what you need whould
+already be taken care of by the kedro framework.  What you will need to do is
+to use the existing `DataSets` to build your data catalog.
+
+Kedro takes care of all fo the file io for you, you simply need to use the
+catalog to tell kedro what type of DataSet to use and any extra information
+that `DataSet` needs.  Much of the time this is simply a filepath.
+
+Typically the catalog is specified in yaml format.  If you are not familiar
+with yaml, I suggest
+[learnxinyminutes.com/docs/yaml/](https://learnxinyminutes.com/docs/yaml/) as a
+resource of examples.
 
 ``` yaml
-# Example 1: Loads a local csv file
-bikes:
-  type: CSVLocalDataSet
-  filepath: "data/01_raw/bikes.csv"
+test:
+  type: pandas.CSVDataSet
+  filepath: s3://your_bucket/test.csv #
 ```
 
-This dataset can be loaded by name
+> Here is the most basic yaml catalog entry taken from the kedro
+> [docs](https://kedro.readthedocs.io/en/stable/05_data/01_data_catalog.html?highlight=catalog)
 
-``` python
-catalog.load('bikes')
+``` yaml
+cars:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/company/cars.csv
+    sep: ','
+    load_args:
+  save_args:
+    index: False
+    date_format: '%Y-%m-%d %H:%M'
+    decimal: .
 ```
 
-Though it's not typical practice it is possible to save data to a catalog entry ad-hoc.  Typically the pipeline is used to run functions and save data for you.
+> Here is a bit more complex example that takes in `load_args` and `save_args`
+> [docs](https://kedro.readthedocs.io/en/stable/05_data/01_data_catalog.html?highlight=catalog)
 
-``` python
-import pandas as pd
-bikes_df = pd.DataFrame({...<bikes_data>...})
-catalog.datasets.bikes.save(bikes_df)
-```
 
-### Pipeline
+## Nodes
 
-![building pipelines](https://images.waylonwalker.com/roman-pentin-T5QT2bmiD4E-unsplash.jpg)
-
-The pipeline object is the brains of [kedro](https://kedro.readthedocs.io).  When working with [kedro](https://kedro.readthedocs.io) you simply define functions that take in data as arguments, manipulate it, and return a new dataset.  The pipeline will decide what order to execute these functions ini based on their dependencies.  It will then work with the catalog to load the data from the catalog pass it to your function, the save the returned data in the catalog.
-
-Here is an example pipeline from the docs.
+Nodes are a very core part of kedro to build the **DAG**.  These nodes are what
+provides the definition of what catalog entries, get passed into which
+function, and output to another catalog entry.  
 
 ``` python
 import pandas as pd
 import numpy as np
-from kedro.pipeline import Pipeline
-from kedro.pipeline import node
 
 def clean_data(cars: pd.DataFrame,
                boats: pd.DataFrame) -> Dict[str, pd.DataFrame]:
@@ -98,41 +125,46 @@ nodes = [
          dict(data='clean_boats2017'),
          ['train_boats2017', 'test_boats2017'])
 ]
-
-pipeline = Pipeline(nodes)
 ```
 
-## [kedro-viz](https://github.com/quantumblacklabs/kedro-viz)
+> Here is an example of three nodes taken from their
+> [docs](https://kedro.readthedocs.io/en/stable/kedro.pipeline.node.html?highlight=node)
 
-[kedro-viz](https://github.com/quantumblacklabs/kedro-viz) is a priceless component to the [kedro](https://kedro.readthedocs.io) ecosystem.  It gives you x-ray vision into your project.  You can see exactly how data flows through your pipeline.  Since it is fully automated it is always up to date and never lies to you.  [kedro-viz](https://github.com/quantumblacklabs/kedro-viz) is an integral part of my daily debugging and refactoring toolbelt.
+## Pipeline
 
-Starting the viz from the command line is super easy
+The kedro `Pipeline`, is a DAG (Directed Acyclic Graph).  It is a graph object
+that flows in one direction.  You can slice into the pipeline using a few built
+in graph method `to_nodes`, `from_nodes`, `to_outputs`, and `from_inputs`.  You
+can chain up these method calls since each one returns a new `Pipeline` object.
+You can also ask a pipline for its edges with `inputs`, and `outputs`.  You can
+also list every dataset along the way with `all_inputs` or `all_outputs`.
+Lastly you can convert it back into a list of nodes with `nodes`.
 
-``` bash
-cd my-kedro-project
-kedro viz
+``` python
+from kedro.pipeline import Pipeline, node
+
+# using our nodes from last tim
+Pipeline(nodes)
 ```
 
-![](https://images.waylonwalker.com/pipeline_visualisation.png)
+## Runner
 
-## [kedro-docker](https://github.com/quantumblacklabs/kedro-docker)
+The runner is the bridge between kedro and the orchestrators.  The kedro team
+provides some basic runners for running pipelines locally, built right into the
+framework, but adding on new runners for different orchestrators is done
+through the use of adding in a new runner to your project.
 
-[kedro-docker](https://github.com/quantumblacklabs/kedro-docker) is a simple way to set up your project for production.  It provides a few simple cli commands
+## Hooks
 
-``` bash
-cd my-kedro-project
-kedro docker build
-kedro docker run
-```
+Kedro allows you to hook into a number of lifecycle methods through the use of
+the `pluggy` framework.  Yes the one that `pytest` is built on.  There are a
+number of different lifecycle methods that allow us to hook in around where
+kedro is running such as `before_pipeline_run` or `after_catalog_loaded`.
 
-## Other resources
+## Links
 
-The [kedro docs](https://kedro.readthedocs.io/) have a ton of great resources.  They are searchable, but can be a bit of an overwhelming amount of data.
-
-I keep adding to my [kedro notes](https://waylonwalker.com/kedro/) as I find new and interesting things.
-
-I tweet out most of those snippets as I add them, you can find them all here [#kedrotips](https://twitter.com/search?q=%23kedrotips).
-
-## More to come
-
-I am planning to do more articles like this, you can stay up to date with them by following me on [dev.to](https://dev.to/waylonwalker), subscribing to my [rss feed](https://waylonwalker.com/rss.xml), or subscribe to my [newsletter](https://emailoctopus.com/lists/b194a4af-9875-11ea-a3d0-06b4694bee2a/forms/subscribe)
+* [Node](https://kedro.readthedocs.io/en/stable/kedro.pipeline.node.html)
+* [Pipeline](https://kedro.readthedocs.io/en/stable/kedro.pipeline.Pipeline.html#kedro.pipeline.Pipeline)
+* [Run a pipeline](https://kedro.readthedocs.io/en/stable/06_nodes_and_pipelines/04_run_a_pipeline.html)
+* [create pipelines](https://kedro.readthedocs.io/en/stable/03_tutorial/04_create_pipelines.html)
+* [kedro deployment](https://kedro.readthedocs.io/en/stable/10_deployment/01_deployment_guide.html)

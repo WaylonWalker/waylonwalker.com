@@ -11,9 +11,9 @@ This is a quickstart to getting a new [kedro](https://kedro.readthedocs.io)
 pipeline up and running.  After this article you should be able to understand
 how to get started with [kedro](https://kedro.readthedocs.io).  You can learn
 more about this [Hello World
-Example](https://kedro.readthedocs.io/en/stable/02_getting_started/04_hello_world.html)
+Example](https://kedro.readthedocs.io/en/stable/02_get_started/03_hello_kedro.html)
 in the
-[docs](https://kedro.readthedocs.io/en/stable/02_getting_started/04_hello_world.html)
+[docs](https://kedro.readthedocs.io/en/stable/02_get_started/03_hello_kedro.html)
 
 🧹 Install [Kedro](https://kedro.readthedocs.io)
 

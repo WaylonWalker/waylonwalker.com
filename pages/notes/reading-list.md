@@ -18,4 +18,8 @@ STOP LEAVING Browser Tabs open and save them here!
 
 https://github.com/nanotee/nvim-lua-guide
 https://mlingelbach.com/neovim/issue_1/
+https://github.com/nvim-telescope/telescope.nvim/pull/987
 
+## ides are slow
+
+https://twitter.com/johnlindquist/status/1441475577693671427

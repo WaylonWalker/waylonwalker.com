@@ -19,7 +19,7 @@ This is really exciting to see more deployment options coming from the kedro tea
 * [Prefect](https://kedro.readthedocs.io/en/stable/10_deployment/05_prefect.html)
 * [Kubeflow](https://kedro.readthedocs.io/en/stable/10_deployment/06_kubeflow.html)
 * [Batch](https://kedro.readthedocs.io/en/stable/10_deployment/07_aws_batch.html)
-* [SageMaker](https://kedro.readthedocs.io/en/stable/10_deployment/08_aws_sagemaker.html)
+* [SageMaker](https://kedro.readthedocs.io/en/stable/10_deployment/09_aws_sagemaker.html)
 
 Most of them hinge on a sweet combination of the kedro cli, docker image, and the pipeline knowing your nodes dependencies. 
 

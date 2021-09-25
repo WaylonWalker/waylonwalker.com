@@ -21,10 +21,10 @@ status: published
 
 ## Form submission
 
-[https://getform.io](https://getform.io/forms "https://getform.io")
+[https://getform.io](https://getform.io/ "https://getform.io")
 
 Free to get started
 
-[https://formkeep.com/?#pricing](https://formkeep.com/?#pricing "https://formkeep.com/?#pricing")
+[https://formkeep.com/?#pricing](https://formkeep.com/)
 
 Free 7 day trial $4.99 cheapest after

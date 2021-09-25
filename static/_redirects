@@ -10,6 +10,9 @@
 /st                                                         https://github.com/WaylonWalker/waylonwalkerv2/tree/main/static/stories
 /cover                                                      https://www.canva.com/design/DAEAZXYmmyU/oY65qjb_VDHVLwBqURFQ3w/edit
 /reading                                                    https://waylonwalker.com/notes/reading-list
+/kedro-yt                                                   https://www.youtube.com/watch?v=bw5_FWDVRpU&list=PLTRNG6WIHETCoPt5gAKYSH_HCZvE_r41n
+/tmux-yt                                                    https://www.youtube.com/playlist?list=PLTRNG6WIHETB4reAxbWza3CZeP9KL6B
+
 
 # profile image
 /profile                                                    https://images.waylonwalker.com/8bitc.png
@@ -24,20 +27,20 @@
 
 # im forgetful and can't remmember my own routes
 
-/tags/*                                                     /:splat
-/tag/*                                                      /:splat
+/tags/*                                                     /:splat/
+/tag/*                                                      /:splat/
 
 # Common aliases to my tags
-/archive/python3/*                                          /python/:splat
-/archive/python2/*                                          /python/:splat
+/archive/python3/*                                          /python/:splat/
+/archive/python2/*                                          /python/:splat/
 
-/archive/neovim/*                                           /vim/:splat
-/archive/nvim/*                                             /vim/:splat
+/archive/neovim/*                                           /vim/:splat/
+/archive/nvim/*                                             /vim/:splat/
 
-/archive/unix/*                                             /linux/:splat
-/archive/bash/*                                             /linux/:splat
-/archive/command-line/*                                     /linux/:splat
-/archive/cli/*                                              /linux/:splat
+/archive/unix/*                                             /linux/:splat/
+/archive/bash/*                                             /linux/:splat/
+/archive/command-line/*                                     /linux/:splat/
+/archive/cli/*                                              /linux/:splat/
 
 # refactor routes
 /blog/*                                                     /:splat/
@@ -74,7 +77,7 @@
 /kpre                                                       /creating-the-kedro-preflight-hook/
 /bdgl                                                       /til-bind-arguments-to-dynamically-generated-lambdas-in-python/
 /fpga                                                       /four-github-actions-python/
-/vndt                                                       /variables-names-dont-need-their-type/
+/vndt                                                       /variable-names-don-t-need-their-type/
 /sega                                                       /send-email-with-github-actions/
 /waga                                                       /what-are-github-actions/
 /knew                                                       /create-new-kedro-project/
@@ -88,6 +91,7 @@
 /zeit                                                       /should-i-switch-to-zeit-now/
 /gitp                                                       /git-push-without-setting-upstream/
 /oosp                                                       /out-of-space/
+/b/oosp                                                     /out-of-space/
 /purl                                                       /personal-url-shortener/
 /scli                                                       /simple-click/
 /cmdt                                                       /cmd-exe-tips/
@@ -150,19 +154,20 @@
 /building-kedro.dev                                         /building-kedro-dev/
 /python-args-and-kwargs                                     /python-args-kwargs/
 /variables-names-dont-need-their-type                       /variable-names-don-t-need-their-type/
+/variables-names-dont-need-their-type/                      /variable-names-don-t-need-their-type/
 
 /bash                                                       /notes/bash/
 
 # more encompassing
-/b/*                                                        /:splat
+/b/*                                                        /:splat/
 
-/n/*                                                        /:splat
+/n/*                                                        /:splat/
 
 /rss                                                        /rss.xml
 /md-rss                                                     /blog/markdown-rss.xml
 /sitemap                                                    /sitemap.xml
 
-/static/*                                                   /:splat
+/static/*                                                   /:splat/
 
 #External
 
