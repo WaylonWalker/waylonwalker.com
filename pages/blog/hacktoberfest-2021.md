@@ -31,7 +31,7 @@ As a user, you might be in a unique position to see a library from the
 perspective of other users rather than from the eyes of a maintainer.  You can
 help bring the user perspective to your favorite library.
 
-{% tweet 1446440878864846909 %}
+https://twitter.com/_WaylonWalker/status/1446440878864846909
 
 My favorite error messages are those that I helped tweak just a bit to make it
 clear to the user what is happening and how to fix it.  As much as we all hate
