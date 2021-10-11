@@ -14,6 +14,8 @@ possible.  If you want to stay productive while coding without the temptation
 to hit YouTube or Twitter.  Use the built in help.  Here are 5 ways to get help
 without leaving your terminal.
 
+https://youtu.be/TZrRAP-9UMk
+
 ## Docstrings
 
 In any python repl you can access the docstring of a function by calling for `help`.
