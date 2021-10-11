@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-tags: ['kedro', 'python']
+tags: ['python']
 title: Just Ask Ipython for help
 date: 2021-10-10T21:38:26
 status: published
