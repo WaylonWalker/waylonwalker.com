@@ -16,10 +16,13 @@ STOP LEAVING Browser Tabs open and save them here!
 * [data-science-twitch-streamers-round-up](https://www.jessemaegan.com/blog/2021-05-28-data-science-twitch-streamers-round-up/)
 * [pandas assign](https://twitter.com/__mharrison__/status/1415728695264776192/photo/1)
 
-https://github.com/nanotee/nvim-lua-guide
-https://mlingelbach.com/neovim/issue_1/
-https://github.com/nvim-telescope/telescope.nvim/pull/987
-
 ## ides are slow
 
 https://twitter.com/johnlindquist/status/1441475577693671427
+
+## neovim
+
+* [nvim-lua-guide](https://github.com/nanotee/nvim-lua-guide)
+* [neorants](https://mlingelbach.com/neovim/issue_1/)
+* [telescope 987](https://github.com/nvim-telescope/telescope.nvim/pull/987)
+* [nvim how to doc plugins](https://github.com/tjdevries/tree-sitter-lua#how-to-generate-documentation)
