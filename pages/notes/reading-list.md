@@ -11,6 +11,9 @@ STOP LEAVING Browser Tabs open and save them here!
 
 * [How can a Data Scientist refactor Jupyter notebooks towards production-quality code?](https://laszlo.substack.com/p/how-can-a-data-scientist-refactor)
 * [Sourcing vs executing in Bash](https://qmacro.org/autodidactics/2021/10/14/sourcing-vs-executing-in-bash/)
+* [Should We Follow The Open-Closed Principle?](https://thevaluable.dev/open-closed-principle-revisited/)
+* [Create multi-dimensional arrays in pure Python: The Correct Way](https://limdauto.me/blog/create-multi-dimensional-arrays-in-pure-python/)
+* [Beware of These 9 Red Flags in a Developer Interview](https://javascript.plainenglish.io/beware-of-these-9-red-flags-in-a-developer-interview-16b7bf63336a)
 
 ---
 
