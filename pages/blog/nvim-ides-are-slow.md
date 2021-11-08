@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 tags: ['kedro', ]
-title: IDE's are slow
+title: nvim conf 2021 | IDE's are slow | Waylon Walker
 date: 2021-10-29
 status: published
 
