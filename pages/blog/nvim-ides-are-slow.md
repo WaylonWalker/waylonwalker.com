@@ -7,7 +7,7 @@ status: published
 
 ---
 
-https://www.youtube.com/watch?v=E18m4KkJUnI
+https://youtu.be/E18m4KkJUnI
 
 [//]: <> (## images)
 
