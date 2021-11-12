@@ -364,6 +364,9 @@ rg --files . | ag bash
 rg --files . | fzf
 rg -e 'hook' -g '*.md'
 rg -e 'hook' -g '*.py'
+
+rg --files-with-matches
+rg --files-without-match
 ```
 
 ## mu-repo
