@@ -25,7 +25,9 @@ STOP LEAVING Browser Tabs open and save them here!
 * [data-science-twitch-streamers-round-up](https://www.jessemaegan.com/blog/2021-05-28-data-science-twitch-streamers-round-up/)
 * [pandas assign](https://twitter.com/__mharrison__/status/1415728695264776192/photo/1)
 
-##
+## nix
+
+https://ianthehenry.com/posts/how-to-learn-nix/python3-alpha/
 
 ## ides are slow
 
