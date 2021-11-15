@@ -392,7 +392,7 @@ https://waylonwalker.com/mu-repo/
 > See the full post for mu-repo for more
 
 
-## mu unregister all 
+## mu unregister all
 
 I ran into some issues with mu unregister * before, but this seems to work everywhere.
 
@@ -407,4 +407,10 @@ Add all repos that have a versionspec of 3.7 in them.
 
 ``` bash
 rg --hidden=true 'versionSpec:.*.3.7' -l | xargs -I {} mu register {}
+```
+
+## xrandr
+
+``` bash
+xrandr -s 1920x1080
 ```
