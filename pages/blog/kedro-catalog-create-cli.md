@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['kedro', 'python']
 title: kedro catalog create
-date: 2021-07-30T07:18:55
+date: 2021-11-15T07:18:55
 status: published
 
 ---
