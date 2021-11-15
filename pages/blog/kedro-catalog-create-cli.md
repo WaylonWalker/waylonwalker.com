@@ -12,6 +12,8 @@ generating yaml catalog entries for me.  It will create new yaml files for each
 pipeline, fill in missiing catalog entries, and respect already existing
 catalog entries.  It will reformat the file, and sort it based on catalog key.
 
+https://youtu.be/_22ELT4kja4
+
 https://waylonwalker.com/what-is-kedro/
 
 > 👆 Unsure what kedro is?  Check out this post.
@@ -37,7 +39,7 @@ kedro catalog create --pipeline history_nodes
 
 Kedro will respect your `CONF_ROOT` settings when it creates a new catalog
 file, or looks for existing catalog files.  You can change the location of your
-configuration files by editing your `CONF_ROOT` variable in your projects.  
+configuration files by editing your `CONF_ROOT` variable in your projects.
 
 `settings.py`.
 ``` python
@@ -51,7 +53,7 @@ CONF_ROOT = str(Path(__file__).parent / "conf")
 
 > I prefer to keep my configuration packaged inside of my project.  This is
 > partly due to how my team operates and deploys pipelines.
- 
+
 
 ## File Location
 
@@ -91,7 +93,7 @@ range12:
 ## Continue adding nodes
 
 As we work we will keep adding nodes to our kedro pipeline, in this case we
-added another node that created a dataset called `range13`.  
+added another node that created a dataset called `range13`.
 
 ``` bash
 kedro catalog create --pipeline history_nodes
@@ -145,6 +147,4 @@ Notice the sorting order in the last entry, `range121` comes before `range13`.
 This is all based on how pythons `yaml.safe_dump` works, kedro has set the
 `default_flow_style` to `False`.  You can see where they write your file in the
 source code currently
-[here](https://github.com/quantumblacklabs/kedro/blob/master/kedro/framework/cli/catalog.py#L202) 
-
-
+[here](https://github.com/quantumblacklabs/kedro/blob/master/kedro/framework/cli/catalog.py#L202)
