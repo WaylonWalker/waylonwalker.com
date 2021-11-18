@@ -15,7 +15,7 @@ cover: "static/codeit-bro-interview.png"
 > share about your personal projects, publications, etc.\]
 
 I graduated with a Mechanical Engineering Degree 8 years ago.  Much of my work
-[early in my career](https://waylonwalker.com/eight-years-cat) was wrapped
+[early in my career](https://waylonwalker.com/eight-years-cat/) was wrapped
 around analyzing larger datasets for my group to understand quality, drive
 changes to improve quality or prove that quality was already good.
 
