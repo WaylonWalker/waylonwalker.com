@@ -16,7 +16,7 @@ strong {
 
 _The year of intenionality_
 
-This is a follow up to my previous post [2018-retrospective](/blog/2018-retrospective/)
+This is a follow up to my previous post [2018-retrospective](https://waylonwalker.com/2018-retrospective/)
 
 ## professional
 
