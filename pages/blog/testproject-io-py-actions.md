@@ -65,7 +65,7 @@ In your GitHub repo go to `settings>Secrets`, or append `settings/secrets` to th
 To expedite development I went ahead and set up development environment that I could log into on Digital Ocean.  This allowed me to get all of my tests working a bit quicker than just running them through GitHub, but being as similar as possible.  This allowed me to learn the ins and outs of setting up TestProject without needing to do a full install every time through Github's actions.
 
 <p style='text-align: center'>
-<a href='https://waylonwalker.com/notes/new-machine-tpio/'>
+<a href='https://waylonwalker.com/new-machine-tpio/'>
   <img
     style='width:500px; max-width:80%; margin: auto;'
     src="https://images.waylonwalker.com/new-machine-tpio-rm.png"
@@ -74,7 +74,7 @@ To expedite development I went ahead and set up development environment that I c
   </a>
 </p>
 
-> I am not going to go into full dev machine setup here, but you can read my [setup notes](https://waylonwalker.com/notes/new-machine-tpio/).
+> I am not going to go into full dev machine setup here, but you can read my [setup notes](https://waylonwalker.com/new-machine-tpio/).
 
 ## 🐍 Pytest
 _you can see all of the tests ran with pytest on [github](https://github.com/waylonwalker/waylonwalker-com-tests/tree/main/tests)_
