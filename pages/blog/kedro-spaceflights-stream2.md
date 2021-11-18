@@ -8,7 +8,7 @@ status: published
 ---
 
 This was my seconf time ever streaming on
-[twitch.tv/waylonwalker](twitch.tv/waylonwalker), and I completely botched my mic 2x.
+[twitch.tv/waylonwalker](https://twitch.tv/waylonwalker), and I completely botched my mic 2x.
 
 [https://youtu.be/_7MwgKu-844](https://youtu.be/_7MwgKu-844)
 
