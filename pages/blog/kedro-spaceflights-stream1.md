@@ -8,7 +8,7 @@ status: published
 ---
 
 This was my first time ever streaming on
-[twitch.tv/waylonwalker](twitch.tv/waylonwalker).  I am excited to get going.
+[twitch.tv/waylonwalker](https://twitch.tv/waylonwalker).  I am excited to get going.
 I have been streaming early in the morning while I am still waking up, so still
 a bit groggy as I go.
 
