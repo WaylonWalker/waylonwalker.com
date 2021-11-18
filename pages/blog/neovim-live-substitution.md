@@ -44,7 +44,7 @@ I had to do a bit of searching and found a great post from [vimcasts](http://vim
 
 I believe that this is a neovim only feature, add it into your
 `~/.config/nvim/init.vim` file. You can see it in my
-[dotfiles](https://github.com/WaylonWalker/devtainer/blob/main/dotfiles/.config/nvim/settings.vim#L155)
+[dotfiles](https://github.com/WaylonWalker/devtainer/blob/main/nvim/.config/nvim/settings.vim#L155)
 as well.
 
 ``` vim
