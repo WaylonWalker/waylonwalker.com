@@ -193,7 +193,7 @@ tip is one that single handedly is the reason I use Ipython for faster
 development over anything else.
 
 <p style='text-align: center'>
-<a href='https://waylonwalker.com/autoreload-ipython'>
+<a href='https://waylonwalker.com/autoreload-ipython/'>
   <img
     style='width:500px; max-width:80%; margin: auto;'
     src="https://images.waylonwalker.com/autoreload-ipython-rm.png"
@@ -202,4 +202,4 @@ development over anything else.
   </a>
 </p>
 
-[autoreload-ipython](https://waylonwalker.com/autoreload-ipython) one of my biggest productivity boosts.
+[autoreload-ipython](https://waylonwalker.com/autoreload-ipython/) one of my biggest productivity boosts.
