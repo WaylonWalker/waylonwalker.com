@@ -10,7 +10,6 @@ status: published
 
 ---
 
-
 ## Why use kedro catalog?
 
 While using the catalog alone will not reap all of the benefits of the framework, it does get you and your project ready for the full framework eventually.  For me the full benefit of the catalog comes when you combine it with the pipeline and dont even touch read/write steps at all.
@@ -106,7 +105,7 @@ catalog.add_feed_dict(new_catalog.datasets.__dict__)
 ```
 
 [![python args and kwargs](https://images.waylonwalker.com/python-args-kwargs.png)](https://waylonwalker.com/python-args-kwargs)
-> [python args and kwargs](https://waylonwalker.com/python-args-kwargs) article by [@_waylonwalker](https://twitter.com/_WaylonWalker)
+> [python args and kwargs](https://waylonwalker.com/python-args-kwargs/) article by [@_waylonwalker](https://twitter.com/_WaylonWalker)
 
 The framework makes appending
 
