@@ -104,7 +104,7 @@ Let's say that you are already using a kedro project, but you are wanting to dev
 catalog.add_feed_dict(new_catalog.datasets.__dict__)
 ```
 
-[![python args and kwargs](https://images.waylonwalker.com/python-args-kwargs.png)](https://waylonwalker.com/python-args-kwargs)
+[![python args and kwargs](https://images.waylonwalker.com/python-args-kwargs.png)](https://waylonwalker.com/python-args-kwargs/)
 > [python args and kwargs](https://waylonwalker.com/python-args-kwargs/) article by [@_waylonwalker](https://twitter.com/_WaylonWalker)
 
 The framework makes appending
