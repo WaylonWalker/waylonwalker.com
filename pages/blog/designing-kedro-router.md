@@ -21,7 +21,7 @@ With this pattern all of the nodes needed to be importable by the module contain
 
 https://waylonwalker.com/what-is-kedro
 
-> If you are a bit unsure about what kedro is make sure to check out my [what-is-kedro](https://waylonwalker.com/what-is-kedro) article.
+> If you are a bit unsure about what kedro is make sure to check out my [what-is-kedro](https://waylonwalker.com/what-is-kedro/) article.
 
 
 ## @node(inputs='a_raw_cars', outputs='b_int_cars')
@@ -132,6 +132,6 @@ In [this doc](https://find.kedro.dev/examples/iris/) I transform the kedro iris 
 
 ## Ready to start using kedro
 
-If you still have not tried out kedro, it's easier than you think. Check out [create-new-kedro-project](https://waylonwalker.com/create-new-kedro-project) to get a project started in just a few minutes.
+If you still have not tried out kedro, it's easier than you think. Check out [create-new-kedro-project](https://waylonwalker.com/create-new-kedro-project/) to get a project started in just a few minutes.
 
 https://waylonwalker.com/create-new-kedro-project
