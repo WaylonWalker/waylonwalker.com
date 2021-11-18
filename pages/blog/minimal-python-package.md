@@ -50,7 +50,7 @@ The name of the package can contain any letters, numbers, "_", or "-".  Even if 
 ## version
 
 This is the version number of your package.  Most packages follow
-[semver](semver.org).  At a high level its three numbers separated by a `.` that follow the format `major.minor.patch`.  It's a common courtesy to only break APIs on major changes, new releases on minor, and fixes on patch.  This can become much more blurry in practice so checkout [semver.org](https://semver.org/).
+[semver](https://semver.org).  At a high level its three numbers separated by a `.` that follow the format `major.minor.patch`.  It's a common courtesy to only break APIs on major changes, new releases on minor, and fixes on patch.  This can become much more blurry in practice so checkout [semver.org](https://semver.org/).
 
 ## py_modules
 
