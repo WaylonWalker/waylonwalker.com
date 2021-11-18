@@ -325,7 +325,7 @@ nodes.append(
         )
 ```
 
-https://waylonwalker.com/kedro-inccremental-versioned-datasets 
+https://waylonwalker.com/kedro-incremental-versioned-datasets/
 
 > for more information in incremental and partitioned datasets see this post
 
