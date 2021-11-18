@@ -9,8 +9,8 @@ status: published
 
 A common linting error thrown by various linters is for trailing whitespace.  I
 most often use flake8.  I generally have
-\[pre-commit\]([https://waylonwalker.com/pre-commit-is-awesome](https://waylonwalker.com/pre-commit-is-awesome
-"https://waylonwalker.com/pre-commit-is-awesome")) hooks setup to strip this,
+[pre-commit]([https://waylonwalker.com/pre-commit-is-awesome](https://waylonwalker.com/pre-commit-is-awesome/)
+hooks setup to strip this,
 but sometimes I run into situations where I jump into a project without it, and
 my editor lights up with errors.  A simple fix is to run this one-liner.
 
