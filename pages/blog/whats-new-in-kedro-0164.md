@@ -29,7 +29,7 @@ It feels a bit crazy that simply installing a package will change the way that y
 
 ## Implementation
 
-Reading through the [docs](https://kedro.readthedocs.io/en/stable/07_extend_kedro/05_plugins.html#hooks), they show us that we can make our hooks automatically register by adding a `kedro.hooks` endpoint that points to a _singleton_ instance of our hook.
+Reading through the [docs](https://kedro.readthedocs.io/en/stable/07_extend_kedro/04_plugins.html#hooks), they show us that we can make our hooks automatically register by adding a `kedro.hooks` endpoint that points to a _singleton_ instance of our hook.
 
 _from the docs_
 
