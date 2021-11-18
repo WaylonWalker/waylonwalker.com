@@ -34,9 +34,9 @@ how you did that", or "I tried that myself and saw a better abstraction.
 Generally the articles I want to read are directly relatable to things I am
 currently working on and vary over time.  Over the last year its been leaning a
 bit more towards automation with
-[bash](https://waylonwalker.com/archive/linux/),
-[python](https://waylonwalker.com/archive/python/),
-[kedro](https://waylonwalker.com/archive/kedro/) tools.
+[bash](https://waylonwalker.com/linux/),
+[python](https://waylonwalker.com/python/),
+[kedro](https://waylonwalker.com/kedro/) tools.
 
 ## On Brand
 
