@@ -23,6 +23,8 @@ https://youtu.be/t8AvImnwor0
 pip install jut
 ```
 
+![installing jut with pip](https://images.waylonwalker.com/jut-install.gif)
+
 ## examples
 
 
@@ -31,6 +33,8 @@ jut https://cantera.org/examples/jupyter/thermo/flame_temperature.ipynb
 jut https://cantera.org/examples/jupyter/thermo/flame_temperature.ipynb --head 3
 jut https://cantera.org/examples/jupyter/thermo/flame_temperature.ipynb --tail 2
 ```
+
+![running jut examples](https://images.waylonwalker.com/jut-command.gif)
 
 ## what are all the commands available for jut?
 
@@ -43,6 +47,8 @@ jut --help
 
 There is some good information on the projects
 [readme](https://github.com/kracekumar/jut) as well.
+
+![getting help with jut](https://images.waylonwalker.com/jut-help.gif)
 
 ## without installing
 _using pipx_
@@ -81,6 +87,8 @@ python -m http.server
 
 > Note, nb convert does not work with a url, you will need to have the notebook locally.
 
+![nbconvert to html to see images](https://images.waylonwalker.com/jut-nbconvert-html.gif)
+
 ## what other options does nbconvert offer?
 
 `nbconvert` also offers a standard help flag that you can access by passing in
@@ -101,6 +109,8 @@ jupyter nbconvert flame_temperature.ipynb --to maarkdown
 cat flameflame_temperature.md
 ```
 
+![nbconvert to markdown and displaying in bat](https://images.waylonwalker.com/jut-nbconvert-markdown-bat.gif)
+
 ### viewing markdown with glow
 
 Glow is a terminal markdown viewer that looks really good.  These days I use
@@ -111,6 +121,8 @@ looks pretty good.
 ```
 glow flameflame_temperature.md
 ```
+
+![nbconvert to markdown and displaying in glow](https://images.waylonwalker.com/jut-nbconvert-markdown-glow.gif)
 
 ### viewing markdown as slides with lookatme
 _[lookatme](https://github.com/d0c-s4vage/lookatme)_
@@ -129,6 +141,8 @@ headers to start new slides from.
 ``` bash
 lookatme flameflame_temperature.md
 ```
+
+![nbconvert to markdown and displaying as slides with lookatme](https://images.waylonwalker.com/jut-nbconvert-markdown-lookatme.gif)
 
 ### viewing markdown with rich
 
