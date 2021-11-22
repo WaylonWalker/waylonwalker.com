@@ -10,6 +10,9 @@ status: draft
 Trying to read a .ipynb file without starting a jupyter server?  jut has you
 covered.
 
+https://youtu.be/t8AvImnwor0
+
+> watch the video version of this post on [YouTube](https://youtu.be/t8AvImnwor0)
 
 ## install
 
@@ -39,7 +42,7 @@ jut --help
 ```
 
 There is some good information on the projects
-[readme](https://github.com/kracekumar/jut/blob/main/requirements.txt) as well.
+[readme](https://github.com/kracekumar/jut) as well.
 
 ## without installing
 _using pipx_
@@ -143,10 +146,10 @@ manage the installation sandbox for you.
 
 ## Links
 
-* [jut](https://github.com/kracekumar/jut/blob/main/requirements.txt)
-* [nbconvert](https://nbconvert.readthedocs.io/en/latest/usage.html)
-* [flame-temperature notebook](https://cantera.org/examples/jupyter/thermo/flame_temperature.ipynb)
-* [glow](https://github.com/charmbracelet/glow)
-* [lookatme](https://github.com/d0c-s4vage/lookatme)
-* [pipx](https://github.com/pypa/pipx)
-* [rich](https://github.com/willmcgugan/rich)
+* [jut](https://github.com/kracekumar/jut) - View notebooks in the terminal
+* [nbconvert](https://nbconvert.readthedocs.io/en/latest/usage.html) - convert notebooks to other formats
+* [flame-temperature notebook](https://cantera.org/examples/jupyter/thermo/flame_temperature.ipynb) - The sample notebook I used
+* [glow](https://github.com/charmbracelet/glow) - Terminal Markdown viewer
+* [lookatme](https://github.com/d0c-s4vage/lookatme) - Terminal Markdown slideshow tool
+* [pipx](https://github.com/pypa/pipx) - Run python cli's without maintianing a virtual environment
+* [rich](https://github.com/willmcgugan/rich) - Beautiful python terminal formatter
