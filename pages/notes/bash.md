@@ -219,6 +219,16 @@ for f in *.png; do
 done
 ```
 
+### using the rename command
+
+``` bash
+sudo apt install rename
+```
+
+``` bash
+rename "s/.GIF/.gif/" *.GIF
+```
+
 ## convert all files in a directory to unix
 
 ``` bash
