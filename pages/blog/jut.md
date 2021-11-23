@@ -61,6 +61,8 @@ of the biggest selling points for me.
 pipx run jut https://cantera.org/examples/jupyter/thermo/flame_temperature.ipynb --head 3
 ```
 
+![running jut with pipx](https://images.waylonwalker.com/jut-pipx.gif)
+
 ## nbconvert
 
 `jut` is the lightweight option that I think will fit the bill often for me,
@@ -157,6 +159,8 @@ python -m rich.markdown flame_temperature.md
 Rich still cannot pull directly from a url or display markdown with out being
 installed and managed by yourself.  Unlike how `jut` can leverage [`pipx`](https://github.com/pypa/pipx) to
 manage the installation sandbox for you.
+
+
 
 ## Links
 
