@@ -15,6 +15,8 @@ STOP LEAVING Browser Tabs open and save them here!
 * [Create multi-dimensional arrays in pure Python: The Correct Way](https://limdauto.me/blog/create-multi-dimensional-arrays-in-pure-python/)
 * [Beware of These 9 Red Flags in a Developer Interview](https://javascript.plainenglish.io/beware-of-these-9-red-flags-in-a-developer-interview-16b7bf63336a)
 * [How to Overcome Impostor Syndrome as a Developer](https://igorasilveira.hashnode.dev/how-to-overcome-impostor-syndrome-as-a-developer-ckv6ej6lc15qtp5s1hz5da4q3)
+* [lazy load youtube videos](https://css-tricks.com/lazy-load-embedded-youtube-videos/)
+* [lite youtube embeds](https://www.labnol.org/internet/light-youtube-embeds/27941/)
 
 ---
 
