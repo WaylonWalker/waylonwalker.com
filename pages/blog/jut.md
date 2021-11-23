@@ -1,4 +1,4 @@
--help-help-
+---
 templateKey: blog-post
 tags: ['linux', 'bash']
 title:  JUT | Read Notebooks in the Terminal
