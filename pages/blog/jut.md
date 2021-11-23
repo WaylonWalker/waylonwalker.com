@@ -25,6 +25,8 @@ pip install jut
 
 ![installing jut with pip](https://images.waylonwalker.com/jut-install.gif)
 
+> ! This is my first time including snippets of the video in the article like this, let me know what you think!
+
 ## examples
 
 
@@ -54,8 +56,8 @@ There is some good information on the projects
 _using pipx_
 
 Don't want jut cluttering up your venv, or want to save yourself from making a
-new one, [`pipx`](https://github.com/pypa/pipx) can manage a separate virual environment for you.  This is one
-of the biggest selling points for me.
+new one, [`pipx`](https://github.com/pypa/pipx) can manage a separate virual
+environment for you.  This is one of the biggest selling points for me.
 
 ``` bash
 pipx run jut https://cantera.org/examples/jupyter/thermo/flame_temperature.ipynb --head 3
