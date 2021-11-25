@@ -39,7 +39,7 @@ bind -n M-t popup -E -h 95% -w 95% -x 100% "htop"
 
 One thing that can be tricky is getting apps that need to be in a specific
 directory started in the directory that you want. Here are two examples I use
-to open `vifm` or `gitui`. 
+to open `vifm` or `gitui`.
 
 ``` bash
 bind -n M-e split-window -c '#{pane_current_path}' vifm . .\; resize-pane -Z;
@@ -67,8 +67,5 @@ https://waylonwalker.com/tmux-nav-2021/
 
 
 Also check out the full YouTube
-[tmux-playlist](https://www.youtube.com/playlist?list=PLTRNG6WIHETB4reAxbWza3CZeP9KL6B)
+[tmux-playlist](https://www.youtube.com/playlist?list=PLTRNG6WIHETB4reAxbWza3CZeP9KL6Bkr)
 to see all of the videos in this series.
-
-
-

@@ -23,7 +23,7 @@ Let's rename some sessions in the terminal.
 tmux rename-session me
 
 # rename the me session to scratch
-tmux rename-session -t me scratch 
+tmux rename-session -t me scratch
 ```
 
 There is a default keybinding that you can use `<prefix>+$` to rename the
@@ -46,8 +46,5 @@ https://waylonwalker.com/tmux-nav-2021/
 
 
 Also check out the full YouTube
-[tmux-playlist](https://www.youtube.com/playlist?list=PLTRNG6WIHETB4reAxbWza3CZeP9KL6B)
+[tmux-playlist](https://www.youtube.com/playlist?list=PLTRNG6WIHETB4reAxbWza3CZeP9KL6Bkr)
 to see all of the videos in this series.
-
-
-

@@ -61,7 +61,7 @@ set -g window-status-current-format "#[fg=black,bold bg=default]│#[fg=white bg
 set -g window-status-current-format "#[fg=black,bold bg=default]│#[fg=colour135 bg=black]#W#[fg=black,bold bg=default]│"
 set -g status-style bg=default
 set -g status-right "#[fg=magenta] #[bg=gray] %b %d %Y %l:%M %p"
-set -g status-right '#(gitmux "#{pane_current_path}")' 
+set -g status-right '#(gitmux "#{pane_current_path}")'
 set -g status-justify centre
 ```
 
@@ -72,6 +72,5 @@ https://waylonwalker.com/tmux-nav-2021/
 
 
 Also check out the full YouTube
-[tmux-playlist](https://www.youtube.com/playlist?list=PLTRNG6WIHETB4reAxbWza3CZeP9KL6B)
+[tmux-playlist](https://www.youtube.com/playlist?list=PLTRNG6WIHETB4reAxbWza3CZeP9KL6Bkr)
 to see all of the videos in this series.
-

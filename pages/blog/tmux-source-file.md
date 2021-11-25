@@ -11,7 +11,7 @@ https://youtu.be/dDq0depPrTs
 
 So you have been tricking out that `.tmux.conf`, you're looking for a silky
 smooth workflow that lets you fly through tmux with super speed, but every time
-you tweak out that `.tmux.conf` you have to restart your whole session. Not amymore, 
+you tweak out that `.tmux.conf` you have to restart your whole session. Not amymore,
 
 Let's add this to the bottom of our tmux.conf so that you can see everytime it
 gets sourced.
@@ -63,6 +63,5 @@ https://waylonwalker.com/tmux-nav-2021/
 
 
 Also check out the full YouTube
-[tmux-playlist](https://www.youtube.com/playlist?list=PLTRNG6WIHETB4reAxbWza3CZeP9KL6B)
+[tmux-playlist](https://www.youtube.com/playlist?list=PLTRNG6WIHETB4reAxbWza3CZeP9KL6Bkr)
 to see all of the videos in this series.
-

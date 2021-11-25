@@ -20,7 +20,7 @@ groups.
 ## Update
 
 Since making this post, I have made ~20 other posts in short form that all have a YouTube video to go along with them you can find them all on my
-[tmux-playlist](https://www.youtube.com/playlist?list=PLTRNG6WIHETB4reAxbWza3CZeP9KL6B).
+[tmux-playlist](https://www.youtube.com/playlist?list=PLTRNG6WIHETB4reAxbWza3CZeP9KL6Bkr).
 
 
 ## [Chris Toomey's](https://twitter.com/christoomey) Tmux Course

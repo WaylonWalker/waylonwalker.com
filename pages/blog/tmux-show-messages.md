@@ -36,9 +36,5 @@ https://waylonwalker.com/tmux-nav-2021/
 > for more information on how I navigate tmux, check out this full post
 
 Also check out the full YouTube
-[tmux-playlist](https://www.youtube.com/playlist?list=PLTRNG6WIHETB4reAxbWza3CZeP9KL6B)
+[tmux-playlist](https://www.youtube.com/playlist?list=PLTRNG6WIHETB4reAxbWza3CZeP9KL6Bkr)
 to see all of the videos in this series.
-
-
-
-
