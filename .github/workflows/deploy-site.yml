@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Cache 
+      - name: Cache
         uses: actions/cache@v2
         with:
           path: .markata.cache
@@ -31,7 +31,7 @@ jobs:
 
       - name: create root
         run: |
-            cp markout/archive/index.html markout/index.html
+            cp static/index.html markout/index.html
             sed -i 's/waylonwalker.com\/archive/waylonwalker.com/' markout/index.html
 
       - name: sw-version
@@ -47,4 +47,3 @@ jobs:
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-
