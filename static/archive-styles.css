@@ -4,7 +4,7 @@
 /* --icon-pencil: */
 
 
-/* --icon-abstract: 
+/* --icon-abstract:
 /* --icon-info: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 9h-2V7h2m0 10h-2v-6h2m-1-9A10 10 0 002 12a10 10 0 0010 10 10 10 0 0010-10A10 10 0 0012 2z"/></svg>'); */
 
 
@@ -73,8 +73,9 @@ body {
     padding: 0;
     background-size: 800px;
     min-height: 100vh;
-    background: rgb(40, 44, 52);
-    background: linear-gradient( 81deg, rgba(40, 44, 52, 1) 0%, rgba(58, 46, 61, 1) 100%);
+    /* background: rgb(40, 44, 52); */
+    /* background: linear-gradient( 81deg, rgba(40, 44, 52, 1) 0%, rgba(58, 46, 61, 1) 100%); */
+    background-image: url("https://images.waylonwalker.com/backdrop.png");
 }
 
 section {
@@ -102,6 +103,8 @@ li.post {
     border-style: solid;
     /* border-image: linear-gradient( to right, #ff66c4, rgba(255,102,196,.2)) 1 0 100%; */
     border-image: linear-gradient( to right, #ff66c4, rgba(255, 102, 196, .2)) 1 0 0 0;
+    backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, .25);
 }
 
 li.post:nth-child(2n-1) {
@@ -207,4 +210,3 @@ list-style-type: None;
 color: goldenrod;
 padding: 1rem .2rem;
 }
-
