@@ -114,8 +114,11 @@
       background: white;
       padding: 1rem 1.2rem;
     }
-    #cta a .flair{
+    .flair{
       color: #ff66c4;
+      background: -webkit-linear-gradient(-30deg, #e1af66, #c122ac);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
     .social-wrapper {
       position: absolute;
@@ -124,6 +127,10 @@
       justify-self: center;
       align-self: center;
       backdrop-filter: blur(5px);
+    }
+    strike {
+      color: rgba(255, 255, 255, .8);
+      text-decoration-color: #e1af66;
     }
 
   </style>
@@ -150,7 +157,7 @@
         </ul>
     </nav>
   <div class='inner'>
-    <h1>Waylon Walker</h1>
+    <h1 class='flair'>Waylon Walker</h1>
     <h2>Always Learning</h2>
     <h3>
       <a href='https://waylonwalker.com/linux'>Linux</a>,
@@ -160,10 +167,13 @@
   </div>
   <div id='about'>
   <p style='padding-left: 1.5rem;'>
-  👋 Hey there, I am Waylon Walker
+  👋 <span class='flair', style='font-size: 1.8rem'>Hey there</span>, I am Waylon Walker
   </p>
   <p>
-    I am a Data <strike>Scientist</strike>, <strike>Engineer</strike>, <strike>Person</strike>, ...uh
+    I am a Data <strike>Scientist</strike>, <strike>Engineer</strike>, <strike>Person</strike>,
+    <span style='position: relative; display: inline-block; left: -1rem; top: 1rem; transform: rotate(12deg);'>
+ ...uh
+  </span>
   </p>
   <p>
     I work with data, and make content about it here.
