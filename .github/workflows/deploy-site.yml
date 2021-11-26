@@ -32,7 +32,6 @@ jobs:
       - name: create root
         run: |
             cp static/index.html markout/index.html
-            sed -i 's/waylonwalker.com\/archive/waylonwalker.com/' markout/index.html
 
       - name: sw-version
         run: export checksum=$(checksumdir markout ) && cat static/sw.js | envsubst > markout/sw.js
