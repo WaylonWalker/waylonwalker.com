@@ -338,6 +338,7 @@ body {
     margin-top: -8rem;
     margin-bottom: 2.2rem;
     background: linear-gradient( 149deg, rgba(40, 44, 52, 1) 0%, rgba(58, 46, 61, .0) 100%);
+    background: linear-gradient( 149deg ,#e1af661f 0,#c122ac12 30%);
     border-bottom: 1px solid goldenrod;
 }
 
@@ -437,6 +438,7 @@ article.blog-post {
     overflow: hidden;
     background: rgba(51, 0, 38, 0.13);
     background: hsla(234, 33%, 15%, 0.66);
+    background: hsl(0deg 0% 7% / 90%);
     display: block;
     margin: 0.2rem;
     width: min(95vw, 1000px);
