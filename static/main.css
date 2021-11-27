@@ -175,6 +175,12 @@ body {
     background: url("https://images.waylonwalker.com/backdrop.png") no-repeat center center fixed;
     background-size: cover;
 }
+.flair{
+    color: #ff66c4;
+    background: -webkit-linear-gradient(-30deg, #e1af66, #c122ac);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 section {
     margin-bottom: 5rem;
