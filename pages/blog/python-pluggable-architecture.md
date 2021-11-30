@@ -181,7 +181,7 @@ class Post:
 
 **note** These plugins only implement one hook.  Each plugin may
 implement one or more hooks, a plugin is not required to only
-implement on hook.
+implement one hook.
 
 ## Plugin Manager
 _implementing the hooks into the library_
