@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-tags: ['linux', 'bash']
+tags: ['linux', 'bash', 'datascience']
 title:  JUT | Read Notebooks in the Terminal
 date: 2021-11-20T10:38:00
 status: published
@@ -9,6 +9,8 @@ status: published
 
 Trying to read a .ipynb file without starting a jupyter server?  jut has you
 covered.
+
+new hunk
 
 https://youtu.be/t8AvImnwor0
 
