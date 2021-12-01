@@ -10,8 +10,6 @@ status: published
 Trying to read a .ipynb file without starting a jupyter server?  jut has you
 covered.
 
-new hunk
-
 https://youtu.be/t8AvImnwor0
 
 > watch the video version of this post on [YouTube](https://youtu.be/t8AvImnwor0)
