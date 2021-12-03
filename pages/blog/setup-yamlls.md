@@ -9,6 +9,9 @@ status: published
 
 https://youtu.be/9B_P19O0MPw
 
+The video for this one is part of a
+[challenge-playlist](https://www.youtube.com/playlist?list=PLTRNG6WIHETAj0nR_WYAxxGjd7kXch5zj)
+I put out for myself to constantly improve my dotfiles for all of December.
 
 ## init.vim
 
@@ -143,6 +146,8 @@ require'lspconfig'.yamlls.setup{
 * [lspinstall yamlls]( https://github.com/kabouzeid/nvim-lspinstall/blob/main/lua/lspinstall/servers/yaml.lua )
 * [yaml-language-server npm]( https://www.npmjs.com/package/yaml-language-server?activeTab=readme )
 
+Follow the [YouTube channel](https://youtube.com/waylonwalker) or the
+[rss-feed](https://waylonwalker/rss/) to stay up to date.
 
 ## Also Check out My python lsp setup
 
