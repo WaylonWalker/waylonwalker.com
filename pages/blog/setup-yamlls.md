@@ -9,7 +9,13 @@ status: draft
 
 https://youtu.be/9B_P19O0MPw
 
+
+
 ## init.vim
+
+I have my `init.vim` setup to only source other modules, if you want everything
+in a single config, feel free to do as you wish.  I broke mine up earlier this
+year as I doubled into nvim and am not going back.
 
 ``` vim
 source ~/.config/nvim/plugins.vim
@@ -18,6 +24,26 @@ lua require'waylonwalker.lsp-config'
 ```
 
 ## Plugin setup
+
+You will need the following plugins.  I use plug, if you don't you will have to
+convert the syntax over to the plugin manager you use.
+
+
+[neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) is for
+configuring the lsp.  It comes with a bunch of sane defaults for most servers,
+so you pretty much just have to call setup on that server unless you want to
+change the defaults.
+
+[hrsh7th/nvim-cmp](https://github.com/hrsh7th/nvim-cmp) is what I use for
+autocomplete. If you are using something else you might need to set that up in
+a different way in order to get the autocomplete to work.  You will still get
+the diagnostics with just lsp-config.
+
+[kabouzeid/nvim-lspinstall](https://github.com/kabouzeid/nvim-lspinstall) will
+aide in installing lsp's if you want.  I have chosen not to because I want to
+have my full setup scripted so when I setup any new machine I just run my
+ansible-playbook.  This library is nice to just set things up quick and play
+with them.
 
 ``` vim
 " /home/u_walkews/.config/nvim/plugins.vim
@@ -33,7 +59,13 @@ Plug 'kabouzeid/nvim-lspinstall'
 
 ## cmp config
 
-Make sure that you have nvim_lsp as a source in your cmp config.
+Make sure that you have nvim_lsp as a source in your cmp config.  This is my
+config as of now, its likely to change in the future, set yours up how you
+like.  hrsh7th has a really good readme if you want help configuring cmp.
+
+> Again if you don't use cmp you can skip this step, cmp is for autocomplete.
+> You can use a different plugin for autocomplete, or not use a plugin at all
+> if that's your thing.
 
 ``` lua
 --  ~/.config/nvim/lua/waylonwalker/lsp-config.lua
@@ -81,6 +113,11 @@ sources = {
 
 ## lsp config
 
+Next up is the heart of this post, the lsp-config.lua.  This one is pretty
+straight forward, require lspconfig (which you need the plugin for), then set
+it up with cmp and the extra schemas.  I'm sure there are yaml schemas for tons
+of things, I'll probably add more in the future, but for now, this is what I
+have.
 
 
 ``` lua
@@ -106,3 +143,8 @@ require'lspconfig'.yamlls.setup{
 * [nvim-cmp GitHub]( https://github.com/hrsh7th/nvim-cmp )
 * [lspinstall yamlls]( https://github.com/kabouzeid/nvim-lspinstall/blob/main/lua/lspinstall/servers/yaml.lua )
 * [yaml-language-server npm]( https://www.npmjs.com/package/yaml-language-server?activeTab=readme )
+
+
+## Also Check out My python lsp setup
+
+https://waylonwalker.com/setup-pylsp/
