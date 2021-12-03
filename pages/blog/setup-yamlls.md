@@ -3,12 +3,11 @@ templateKey: blog-post
 tags: ['linux', 'vim', 'neovim']
 title: Setup a yaml schema | yamlls for a silky smooth setup
 date: 2021-11-30T23:24:52
-status: draft
+status: published
 
 ---
 
 https://youtu.be/9B_P19O0MPw
-
 
 
 ## init.vim
