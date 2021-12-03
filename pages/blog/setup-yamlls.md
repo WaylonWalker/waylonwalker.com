@@ -7,6 +7,10 @@ status: published
 
 ---
 
+I've gone far too long without a good setup for editing yaml
+files, I am missing out on autocomplete and proper diagnostics.
+This ends today as I setup yaml-language-server in neovim.
+
 https://youtu.be/9B_P19O0MPw
 
 The video for this one is part of a
