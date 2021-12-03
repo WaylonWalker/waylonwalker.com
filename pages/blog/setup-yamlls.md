@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['linux', 'vim', 'neovim']
 title: Setup a yaml schema | yamlls for a silky smooth setup
-date: 2021-11-30T23:24:52
+date: 2021-12-03T23:24:52
 status: published
 
 ---

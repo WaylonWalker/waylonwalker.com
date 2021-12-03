@@ -2,8 +2,8 @@
 templateKey: blog-post
 tags: ['linux', 'bash']
 title: Fuzzy File Editor from zsh
-date: 2021-11-29T11:34:47
-status: draft
+date: 2021-12-02T11:34:47
+status:
 
 ---
 
@@ -14,6 +14,9 @@ editor, so when I come back to that split and hit my keybinds to edit files I
 enter them into zsh rather than into nvim like I intended.  Today I am going to
 sand off that rough edge and get as similar behavior to nvim as I can with a
 couple of aliases.
+
+
+Make sure you check out the YouTube video to see
 
 ## what's an alias
 
