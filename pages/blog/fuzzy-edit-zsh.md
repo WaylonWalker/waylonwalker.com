@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['linux', 'bash']
 title: Fuzzy File Editor from zsh
 date: 2021-12-02T11:34:47
-status:
+status: published
 
 ---
 
