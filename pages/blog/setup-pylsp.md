@@ -68,5 +68,3 @@ run mypy in ci and pyright in my editor and I really wanted them to match.
 pipx install 'python-lsp-server[all]'
 pipx inject python-lsp-server pylsp-mypy
 ```
-
-
