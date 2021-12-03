@@ -14,6 +14,8 @@ catalog entries.  It will reformat the file, and sort it based on catalog key.
 
 https://youtu.be/_22ELT4kja4
 
+<!-- syntax highlighting broken after underscore from the link __ -->
+
 https://waylonwalker.com/what-is-kedro/
 
 > 👆 Unsure what kedro is?  Check out this post.
