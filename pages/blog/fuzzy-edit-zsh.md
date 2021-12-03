@@ -9,21 +9,21 @@ status: published
 
 https://youtu.be/PQw_is7rQSw
 
-I am often in a set of tmux splits flying back and forth, accidently close my
+I am often in a set of tmux splits flying back and forth, accidentally close my
 editor, so when I come back to that split and hit my keybinds to edit files I
 enter them into zsh rather than into nvim like I intended.  Today I am going to
 sand off that rough edge and get as similar behavior to nvim as I can with a
 couple of aliases.
 
 
-Make sure you check out the YouTube video to see
+Make sure you check out the YouTube video to see all of my improvements.
 
 ## what's an alias
 
-If you have never heard of an alias before it's essentialy a shortcut to a
+If you have never heard of an alias before it's essentially a shortcut to a
 given command.  You can pass additional flags to the underlying command and
 they will get passed in.  Most of the time they are just shorter versions of
-commands that you run often or even like in this case a common muscle memmory
+commands that you run often or even like in this case a common muscle memory
 typo that occurs for you.
 
 
