@@ -14,6 +14,7 @@ jobs:
       - name: Get current date
         id: date
         run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
+
       - name: Cache
         uses: actions/cache@v2
         with:
@@ -21,6 +22,13 @@ jobs:
           key: ${{ runner.os }}-${{ hashfiles('markata.toml') }}-${{ steps.date.outputs.date }}-markata
           restore-keys: |
             ${{ runner.os }}-${{ hashfiles('markata.toml') }}-markata
+
+      - uses: actions/cache@v2
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
 
       - name: Set up Python 3.8
         uses: actions/setup-python@v1
