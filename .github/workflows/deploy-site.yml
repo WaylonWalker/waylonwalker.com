@@ -51,11 +51,12 @@ jobs:
       #   env:
       #     NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
       #     NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-
-      - name: Publish
-        uses: netlify/actions/cli@master
+      - uses: actions/setup-node@v2
         with:
-          args: deploy --prod --dir=markout
+          node-version: '14'
+      - run: npm install -g netlify-cli
+      - name: Publish
+        run: netlify deploy --prod --dir=markout
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
