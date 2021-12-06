@@ -1,7 +1,5 @@
 """manifest plugin"""
-import json
-from pathlib import Path
-from typing import TYPE_CHECKING, List
+from typing import List, TYPE_CHECKING
 
 from bs4 import BeautifulSoup
 from markata import Markata, __version__
@@ -11,9 +9,7 @@ if TYPE_CHECKING:
     import frontmatter
     from bs4.element import Tag
 
-from http.client import InvalidURL
 from urllib import request as ulreq
-from urllib.error import HTTPError
 
 from PIL import ImageFile
 
@@ -173,6 +169,17 @@ def _clean_amp(soup: BeautifulSoup) -> None:
 
     for button in soup.find_all("button"):
         button.decompose()
+
+    for iframe in soup.find_all("iframe"):
+        amp_iframe = soup.new_tag(
+            "amp-img",
+            attrs={
+                # causes amp failure if not a valid amp attribute
+                **iframe.attrs,
+            },
+        )
+        iframe.parent.insert(iframe.parent.contents.index(iframe), amp_iframe)
+        iframe.decompose()
 
     for img in soup.find_all("img"):
         img_size = getsizes(img.attrs["src"])
