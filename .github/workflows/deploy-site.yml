@@ -19,6 +19,8 @@ jobs:
         with:
           path: .markata.cache
           key: ${{ runner.os }}-${{ hashfiles('markata.toml') }}-${{ steps.date.outputs.date }}-markata
+          restore-keys: |
+            ${{ runner.os }}-${{ hashfiles('markata.toml') }}-markata
 
       - name: Set up Python 3.8
         uses: actions/setup-python@v1
