@@ -23,6 +23,13 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-${{ hashfiles('markata.toml') }}-markata
 
+      - uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
       - name: Set up Python 3.8
         uses: actions/setup-python@v1
         with:
