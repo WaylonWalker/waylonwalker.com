@@ -1,10 +1,10 @@
-import re
 from pathlib import Path
+import re
 from typing import TYPE_CHECKING
 
-import requests
 from bs4 import BeautifulSoup
 from markata.hookspec import hook_impl
+import requests
 
 if TYPE_CHECKING:
     from bs4.element import Tag
@@ -56,7 +56,7 @@ def is_valid_gif(gif: "Tag") -> bool:
 
 
 def swap_gif(gif: "Tag") -> "Tag":
-    "Swap "
+    "Swap"
     if is_valid_gif(gif):
         return render_mp4(gif)
     else:
@@ -86,6 +86,7 @@ def post_render(markata):
                 soup = BeautifulSoup(article.html, "html.parser")
                 swap_gifs(soup)
                 html = soup.prettify()
+                cache.add(key, html)
 
             else:
                 html = html_from_cache
