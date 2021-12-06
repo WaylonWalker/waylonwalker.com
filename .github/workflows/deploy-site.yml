@@ -23,13 +23,6 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-${{ hashfiles('markata.toml') }}-markata
 
-      - uses: actions/cache@v2
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
-
       - name: Set up Python 3.8
         uses: actions/setup-python@v1
         with:
@@ -48,13 +41,21 @@ jobs:
       - name: sw-version
         run: export checksum=$(checksumdir markout ) && cat static/sw.js | envsubst > markout/sw.js
 
-      - name: Deploy to Netlify
-        uses: nwtgck/actions-netlify@v1.1.12
+      # - name: Deploy to Netlify
+      #   uses: nwtgck/actions-netlify@v1.1.12
+      #   with:
+      #     publish-dir: "./markout"
+      #     production-branch: markout
+      #     production-deploy: true
+      #     deploy-message: "Deploy markout from GitHub Actions"
+      #   env:
+      #     NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+      #     NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+
+      - name: Publish
+        uses: netlify/actions/cli@master
         with:
-          publish-dir: "./markout"
-          production-branch: markout
-          production-deploy: true
-          deploy-message: "Deploy markout from GitHub Actions"
+          args: deploy --prod --dir=markout
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
