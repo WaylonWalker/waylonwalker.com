@@ -7,11 +7,12 @@ from markata.hookspec import hook_impl
 if TYPE_CHECKING:
     from bs4.element import Tag
 
+
 def render_youtube(youtube: "Tag") -> "Tag":
     "Render an iframe given a validated anchor tag."
 
-    link = youtube.attrs['href']
-    id = link.replace('https://youtu.be/', '')
+    link = youtube.attrs["href"]
+    id = link.replace("https://youtu.be/", "")
 
     html = f"""
         <iframe width="800" height="450" src="https://youtube.com/embed/{id}" title="YouTube video
@@ -29,7 +30,7 @@ def is_valid_youtube(youtube: "Tag") -> bool:
 
 
 def swap_youtube(youtube: "Tag") -> "Tag":
-    "Swap "
+    "Swap"
 
     if is_valid_youtube(youtube):
         return render_youtube(youtube)
@@ -39,8 +40,8 @@ def swap_youtube(youtube: "Tag") -> "Tag":
 
 def swap_youtubes(soup: BeautifulSoup) -> None:
     """Finds youtubes in an articles soup and swaps for mp4s"""
-    links = [l for l in soup.find_all('a') if l.string != None]
-    onelinelinks = [l for l in links if l['href'] == l.string.strip()]
+    links = [l for l in soup.find_all("a") if l.string != None]
+    onelinelinks = [l for l in links if l["href"] == l.string.strip()]
 
     for link in onelinelinks:
         link.replace_with(swap_youtube(link))
@@ -51,18 +52,20 @@ def post_render(markata):
     "Hook to replace youtubes on images.waylonwalker.com with mp4's if they exist"
     with markata.cache as cache:
         for article in markata.articles:
-            # key = markata.make_hash(
-            #     __file__,
-            #     Path(__file__).read_text(),
-            #     "post_render",
-            #     article["content_hash"],
-            # )
-            # html_from_cache = cache.get(key)
-            html_from_cache = None
+            key = markata.make_hash(
+                __file__,
+                Path(__file__).read_text(),
+                "post_render",
+                article["content_hash"],
+            )
+
+            html_from_cache = cache.get(key)
+
             if html_from_cache is None:
                 soup = BeautifulSoup(article.html, "html.parser")
                 swap_youtubes(soup)
                 html = soup.prettify()
+                cache.add(key, html)
 
             else:
                 html = html_from_cache
