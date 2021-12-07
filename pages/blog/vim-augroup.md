@@ -7,10 +7,12 @@ status: Draft
 
 ---
 
-If your are running vim autocmd's without a group, your killing your
-performance.  Grantid your probably not sourcing your vimscript files with
+If you are running vim autocmd's without a group, you're killing your
+performance.  Granted your probably not sourcing your vimscript files with
 autocmd's too often, but every time you source that vimscript you are adding
 another command that needs to run redundantly.
+
+https://youtu.be/2ITTn4Dl0lc
 
 ## This is what I had
 _Not silky smooth_
@@ -32,6 +34,8 @@ great, it starts telling me that its formatting.
 ``` vim
 autocmd bufwritepre *.py :echo("formatting with black")
 ```
+
+![too-many-formats](https://images.waylonwalker.com/vim-augroups-too-many-formats.GIF)
 
 **BUT** as every time I give it the `:so %` it formats an extra time on every
 single save.
