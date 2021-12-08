@@ -12,6 +12,12 @@ editiing experience.  I've just started using pyflyby and it is solid so far.
 I have automatic imports on every save of a python file in neovim, and
 automatic imports on every command in ipython.
 
+## installation
+
+```
+pip install flybypy
+```
+
 ## configuration setup with stow
 
 If you're going to configure any of your tools the first thing you should do is
@@ -27,8 +33,10 @@ stow ipython
 
 ## How to Configure pyflyby
 
-pyflyby is configured simply by putting all of your import statements that you
-want to automatically import into your `~/.pyflyby` file.
+`pyflyby` is configured simply by putting all of your import statements that you
+want to automatically import into your `~/.pyflyby` file.  You can `import
+pandas`, `from pandas import DataFrame`, or even `import pandas as pd`, and all
+of these will work pretty much as expected.
 
 ``` python
 # comments start with a #
@@ -55,8 +63,42 @@ from numpy import copy
 
 ```
 
+## Commas are even supported
+
+This following example will setup auto import for both DataFrame and Series,
+they will both work separately.
+
+``` python
+from pandas import DataFrame, Series
+```
+
+> Even imports with a comma will be treated separately.
+
+## installing flybypy
+
+`flybypy` is hosted on pypi so you can install it using the pip command on any
+machine that has python already installed.
+
+``` bash
+pip istall flybypy
+```
+
+## jupyter note!
+
+I only really mention ipython here, but the same all applies to jupyter as
+well.  I just really like ipython itself, c'mon its right there in the terminal
+integrating with the rest of your terminal experience so well.
+
+
 ## ipython setup
 _Automatically import python libraries in ipython with pyflyby_
+
+The recommended way to setup `flybypy` from the docs is to run the following magic command
+
+
+``` python
+%load_ext flybypy
+```
 
 ## ipython setup next level
 _automatically import modules in python **without %load_ext**_
