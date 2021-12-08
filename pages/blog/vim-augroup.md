@@ -1,9 +1,9 @@
 ---
 templateKey: blog-post
 tags: ['linux', 'vim',]
-title: You must use augroup with aucmd in vim | Here's how
-date: 2021-12-04T11:34:47
-status: Draft
+title: You must use augroup with autocmd in vim | Here's how
+date: 2021-12-08T08:43:43
+status: Published
 
 ---
 
@@ -82,3 +82,4 @@ augroup end
 ## Related Links
 
 * [vim-help](https://vimhelp.org/autocmd.txt.html#%3Aaugroup)
+* [youtube video](https://youtu.be/2ITTn4Dl0lc) for this article
