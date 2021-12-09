@@ -60,10 +60,10 @@ jobs:
       #     NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
       #     NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
       - uses: actions/setup-node@v2
-        if: steps.node-cache.outputs.cache-hit != 'true'
         with:
           node-version: '14'
       - run: npm install -g netlify-cli
+        if: steps.node-cache.outputs.cache-hit != 'true'
       - name: Publish
         run: netlify deploy --prod --dir=markout
         env:
