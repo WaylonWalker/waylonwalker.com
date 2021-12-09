@@ -24,6 +24,7 @@ jobs:
             ${{ runner.os }}-${{ hashfiles('markata.toml') }}-markata
 
       - uses: actions/cache@v2
+        id: node-cache
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
@@ -59,6 +60,7 @@ jobs:
       #     NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
       #     NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
       - uses: actions/setup-node@v2
+        if: steps.node-cache.outputs.cache-hit != 'true'
         with:
           node-version: '14'
       - run: npm install -g netlify-cli
