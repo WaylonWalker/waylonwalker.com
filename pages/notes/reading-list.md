@@ -41,3 +41,7 @@ https://twitter.com/johnlindquist/status/1441475577693671427
 * [neorants](https://mlingelbach.com/neovim/issue_1/)
 * [telescope 987](https://github.com/nvim-telescope/telescope.nvim/pull/987)
 * [nvim how to doc plugins](https://github.com/tjdevries/tree-sitter-lua#how-to-generate-documentation)
+
+## prime and nic
+
+https://www.twitch.tv/videos/1229603481
