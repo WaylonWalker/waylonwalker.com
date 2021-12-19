@@ -8,11 +8,26 @@ status: Draft
 ---
 
 This is not a flaky works half the time kind of plugin, its a seriously smooth
-editiing experience.  I've just started using pyflyby and it is solid so far.
+editing experience.  I've just started using pyflyby and it is solid so far.
 I have automatic imports on every save of a python file in neovim, and
 automatic imports on every command in ipython.
 
+I can't tell you how pumped I am for this, and how good its felt to use over
+the past few weeks.  It's glorious.
+
+## YouTube video
+
+https://youtu.be/2QW5DJiEJH4
+
+Give the video a watch, I did not have noise cancelling on in obs. My
+appologies for the background hum and the mic stand bumps. I did my best to fix
+them up.
+
+
 ## installation
+
+pyflypy is hosted on pypi, so you can get it with pip.  I have had no issues
+installing it on 3.8+ so far.
 
 ```
 pip install flybypy
@@ -31,6 +46,8 @@ touch ipython/.pyflyby
 stow ipython
 ```
 
+> Seriously don't sleep on the stow.
+
 ## How to Configure pyflyby
 
 `pyflyby` is configured simply by putting all of your import statements that you
@@ -48,7 +65,6 @@ import s3fs
 import seaborn as sns
 import plotly
 
-
 # also supports from imports
 from rich.layout import Layout
 from rich.live import Live
@@ -63,10 +79,15 @@ from numpy import copy
 
 ```
 
+> Add all the things you would like to be imported automatically, just as you
+> would import them.  I went kinda crazy and added over 200 to mine based on
+> packages that I use.
+
 ## Commas are even supported
 
 This following example will setup auto import for both DataFrame and Series,
-they will both work separately.
+they will both work separately.  I removed these from my config as I felt it
+was cleaner without, but it works with them.
 
 ``` python
 from pandas import DataFrame, Series
@@ -74,14 +95,6 @@ from pandas import DataFrame, Series
 
 > Even imports with a comma will be treated separately.
 
-## installing flybypy
-
-`flybypy` is hosted on pypi so you can install it using the pip command on any
-machine that has python already installed.
-
-``` bash
-pip istall flybypy
-```
 
 ## jupyter note!
 
@@ -93,7 +106,9 @@ integrating with the rest of your terminal experience so well.
 ## ipython setup
 _Automatically import python libraries in ipython with pyflyby_
 
-The recommended way to setup `flybypy` from the docs is to run the following magic command
+The recommended way to setup `flybypy` from the docs is to run the following
+magic command.  This works well, but I wan even less typing, I want pyflyby
+automatically installed and importing things without me even thinking about it.
 
 
 ``` python
@@ -102,6 +117,10 @@ The recommended way to setup `flybypy` from the docs is to run the following mag
 
 ## ipython setup next level
 _automatically import modules in python **without %load_ext**_
+
+I really want pyflyby to just work in every environment without me thinking
+much about it.  I want it to load automatically, and even to attempt to install
+itself if its missing.
 
 ``` python
 from IPython import get_ipython
@@ -122,7 +141,21 @@ except ModuleNotFoundError:
     ipython.magic("load_ext pyflyby")
 ```
 
+> Note: if installation fails you will still make it into ipython, there will
+> just be a traceback to the failed command as you enter.
+
+I've had zero issues with this, but if there ever comes a time where it does
+not work in certain environments for you.  I'd strongly suggest you to add this
+to a separate profile.
+
 ## ipython auto import examples
+
+pyflyby can import all the various import types just fine.
+
+* import something
+* from module import something
+* import something as alias
+
 
 ``` python
 df = pd.read_csv("https://waylonwalker.com/cars.csv")
@@ -131,6 +164,9 @@ df = pd.read_csv("https://waylonwalker.com/cars.csv")
 
 ## Getting Help
 
+Want help on something that you have in your pyflyby config, just give it the
+`?`, `??`, or `help` and pyflyby will import it for you.
+
 ```
 Popen?
 ```
@@ -138,13 +174,27 @@ Popen?
 ## Autocomplete
 _This is next level python auto-import_
 
+pyflyby even goes as far as helping tab completion.  If you try to tab complete
+`Pop` it will complete to `Popen` without even adding `Popen` to your local
+namespace.  If you ask for something inside of a module i.e. `requests.<tab>`,
+then it will import requests.
+
+
 ```
+# does not populate the namespace
 Pop<tab>
+
+# !!does populate the local namespace
 requests.<tab>
 ```
 
 
 ## What happens when a module is not installed
+
+When you are in an environment where you do not have a module installed that is
+in your pyflyby config, it will throw a `ModuleNotFoundError` when it tries to
+import and it will not import or try to install for you.  You will have to
+change environments or install that module.
 
 ``` python
 ❯ pd?
@@ -158,18 +208,21 @@ requests.<tab>
 Object `pd` not found.
 
 ❯ df = pd.read_csv("https://waylonwalker.com/cars.csv")
-╭─────────────────────────────── Traceback (most recent call last) ────────────────────────────────╮
-│ <ipython-input-3-69b040434562>:1 in <module>                                                     │
-╰──────────────────────────────────────────────────────────────────────────────────────────────────╯
+<ipython-input-3-69b040434562>:1 in <module>
+
 NameError: name 'pd' is not defined
 
 ```
 
 
-
 ## nvim pyflyby setup
+
 _automatically importing python modules in vim, neovim, nvim_
 
+This is by far the best part of this article.  It makes development so fluid.
+It's not necessarily all about the speed.  It really helps you move at the
+speed of your thoughts, without needing to worry about imports.  Remembering
+where deeply nested modules are does not need to be a thing.
 
 ``` vim
 function! s:PyPreSave()
@@ -192,4 +245,142 @@ augroup waylonwalker
     autocmd bufwritepost .tmux.local.conf execute ':!tmux source-file %'
     autocmd bufwritepost *.vim execute ':source %'
 augroup end
+```
+
+
+## refactoring
+_This is where it really shines_
+
+This setup really shines when you are refactoring.  You can freely move modules
+and classes around without worrying about bringing imports with them. Often
+when refactoring some modules from one file to another the most tedious part is
+editing the imports.  Often you can't even grab whole lines because there are
+several imports and some are needed in both places but not all.  pyflyby
+handles all this like a champ.
+
+## Where to install for vim
+_just make sure the tidy-imports command is available to vim_
+
+pyflyby goes into the environment that you have active at the time that you
+start neovim.  Typically this is the virtual environment that I am using for
+the project I am editing.
+
+
+## What gets imported/removed
+_only give me what I actually use_
+
+Anything within the base config of pyflyby or your own config specified in
+`~/.pyflyby` will get automatically imported if it is used within the
+file/console.  If you are working in a file, and stop using a module, it will
+automatically get removed.
+
+* Anything that is used, and found in the config is added
+* Anything that is unused gets removed
+
+## Where does it put imports
+_after the last import_
+
+`pyflyby` does not sort imports into paragraphs or by category.  When it needs
+to add new imports.  It will find the last paragraph of imports in your file,
+add the new one, and sort that paragraph alphebetically.
+
+``` python
+from collections import Counter
+
+import requests
+
+from plugins.custom_seo import post_render
+# <-- pyflyby will put the import here
+```
+
+## What about isort
+_put those imports where they go_
+
+I did not like that I was getting pre-commit issues when using pyflyby, so I
+added isort to my chain of autocommands to automatically run isort and make my
+pre-commit happy.
+
+``` vim
+function! s:PyPostSave()
+    execute "silent !tidy-imports --black --quiet --replace-star-imports --action REPLACE " . bufname("%")
+    execute "silent !isort " . bufname("%")
+    execute "e"
+endfunction
+```
+
+Let's write some code
+
+```
+def get():
+    """
+    Get all the posts from waylonwalker.com.
+
+    Yes theres an rss feed, you should be subscribed if your not already.
+
+    Oh, and we don't need no stinkin error handing because it's always live
+    """
+    r = requests.get("https://waylonwalker.com/rss")
+    return r.content
+```
+
+Save it and pyflyby will inject requests into our file automatically, no need
+to type that out anymore.
+
+```
+import requests
+
+def get():
+    """
+    Get all the posts from waylonwalker.com.
+
+    Yes theres an rss feed, you should be subscribed if your not already.
+
+    Oh, and we don't need no stinkin error handing because it's always live
+    """
+    r = requests.get("https://waylonwalker.com/rss")
+    return r.content
+```
+
+## What about __init__ / api's
+_careful to fill in the `__all__` like you are supposed to_
+
+<!-- ` -->
+
+Files such as __init__.py often import things they do not need, this is simply
+there for a convenience of the library user and to make the api cleaner.  These
+type of modules should implement a `__all__` list of all the unused things that
+are imported according to pep8.  Pyflyby will remove any unused modules unless
+they are in the `__all__` list.
+
+```
+# snippet from kedro.extras.datasets.pandas
+
+__all__ = [
+    "CSVDataSet",
+    "ExcelDataSet",
+    "FeatherDataSet",
+    "GBQTableDataSet",
+    "ExcelDataSet",
+    "AppendableExcelDataSet",
+    "HDFDataSet",
+    "JSONDataSet",
+    "ParquetDataSet",
+    "SQLQueryDataSet",
+    "SQLTableDataSet",
+]
+
+```
+
+## py command
+_one liners that need imports_
+
+pyflyby also comes with a cli command to run one liners.  It's pretty genious,
+I'm sure I will find a use or two for it, but so far its been more of a novelty
+for me.
+
+``` bash
+py help pd
+py help pd.DataFrame
+
+py pd.read_csv 'https://waylonwalker.com/cars.csv'
 ```
