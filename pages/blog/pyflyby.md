@@ -29,7 +29,7 @@ them up.
 pyflypy is hosted on pypi, so you can get it with pip.  I have had no issues
 installing it on 3.8+ so far.
 
-```
+``` bash
 pip install flybypy
 ```
 
@@ -39,7 +39,7 @@ If you're going to configure any of your tools the first thing you should do is
 set it up with stow, seriously dont sleep on the stow.  If you don't have stow
 installed or choose not to use stow you can skip this part.
 
-```
+``` bash
 cd ~/dotfiles
 mkdir ipython
 touch ipython/.pyflyby
@@ -169,7 +169,7 @@ df = pd.read_csv("https://waylonwalker.com/cars.csv")
 Want help on something that you have in your pyflyby config, just give it the
 `?`, `??`, or `help` and pyflyby will import it for you.
 
-```
+``` python
 Popen?
 ```
 
@@ -182,7 +182,7 @@ namespace.  If you ask for something inside of a module i.e. `requests.<tab>`,
 then it will import requests.
 
 
-```
+``` python
 # does not populate the namespace
 Pop<tab>
 
@@ -315,7 +315,7 @@ endfunction
 
 Let's write some code
 
-```
+``` python
 def get():
     """
     Get all the posts from waylonwalker.com.
@@ -331,7 +331,7 @@ def get():
 Save it and pyflyby will inject requests into our file automatically, no need
 to type that out anymore.
 
-```
+``` python
 import requests
 
 def get():
@@ -357,7 +357,7 @@ type of modules should implement a `__all__` list of all the unused things that
 are imported according to pep8.  Pyflyby will remove any unused modules unless
 they are in the `__all__` list.
 
-```
+``` python
 # snippet from kedro.extras.datasets.pandas
 
 __all__ = [
