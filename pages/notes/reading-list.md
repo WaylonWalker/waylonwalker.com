@@ -7,6 +7,12 @@ status: published
 description: Things to read later
 
 ---
+
+
+## Latest Post
+
+https://waylonwalker.com/latest/
+
 STOP LEAVING Browser Tabs open and save them here!
 
 * [How can a Data Scientist refactor Jupyter notebooks towards production-quality code?](https://laszlo.substack.com/p/how-can-a-data-scientist-refactor)
@@ -45,3 +51,9 @@ https://twitter.com/johnlindquist/status/1441475577693671427
 ## prime and nic
 
 https://www.twitch.tv/videos/1229603481
+
+## How to Remove Background Sound in Real-Time for Linux
+ by
+@adfpizarro
+
+https://hackernoon.com/how-to-remove-background-sound-in-real-time-for-linux-uvea3w7n
