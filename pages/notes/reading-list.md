@@ -8,7 +8,6 @@ description: Things to read later
 
 ---
 
-
 ## Latest Post
 
 https://waylonwalker.com/latest/
