@@ -393,3 +393,8 @@ py pd.read_csv 'https://waylonwalker.com/cars.csv'
 ```
 
 ![pyflyby's py command can run one liners from bash or zsh even with imports](https://images.waylonwalker.com/pyflyby-py.gif)
+
+## Links
+
+* [pyflyby repo](https://github.com/deshaw/pyflyby)
+* [docs](https://deshaw.github.io/pyflyby/)
