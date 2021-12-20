@@ -1,15 +1,15 @@
-# 
-#  __  __            _         _         _                  _ 
+#
+#  __  __            _         _         _                  _
 # |  \/  | __ _ _ __| | ____ _| |_ __ _ | |_ ___  _ __ ___ | |
 # | |\/| |/ _` | '__| |/ / _` | __/ _` || __/ _ \| '_ ` _ \| |
 # | |  | | (_| | |  |   < (_| | || (_| || || (_) | | | | | | |
 # |_|  |_|\__,_|_|  |_|\_\__,_|\__\__,_(_)__\___/|_| |_| |_|_|
-#                                                             
+#
 #                                           waylonwalker.com
 
 [markata]
 # bump site version to bust GitHub actions cache
-site_version = 12
+site_version = 13
 
 ## Markata Setup
 glob_patterns = "pages/**/*.md"
@@ -129,5 +129,3 @@ content = "Waylon Walker"
 [[markata.seo]]
 name = "theme-color"
 content="#322D39"
-
-
