@@ -281,3 +281,9 @@ class MyPrompt(Prompts):
 ip = get_ipython()
 ip.prompts = MyPrompt(ip)
 ```
+
+## Want automatic imports??
+
+https://waylonwalker.com/pyflyby/
+
+> This article covers how I setup automatic imports in ipython

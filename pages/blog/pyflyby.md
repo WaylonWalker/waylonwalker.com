@@ -16,6 +16,7 @@ I can't tell you how pumped I am for this, and how good its felt to use over
 the past few weeks.  It's glorious.
 
 ## YouTube video
+_Listen to me rant on how great pyflyby is_
 
 https://youtu.be/2QW5DJiEJH4
 
@@ -25,6 +26,7 @@ them up.
 
 
 ## installation
+_How to install pyflyby for automatic python imports_
 
 pyflypy is hosted on pypi, so you can get it with pip.  I have had no issues
 installing it on 3.8+ so far.
@@ -34,6 +36,7 @@ pip install flybypy
 ```
 
 ## configuration setup with stow
+_always stow your dotfiles_
 
 If you're going to configure any of your tools the first thing you should do is
 set it up with stow, seriously dont sleep on the stow.  If you don't have stow
@@ -49,6 +52,7 @@ stow ipython
 > Seriously don't sleep on the stow.
 
 ## How to Configure pyflyby
+_its just a file full of import statements_
 
 `pyflyby` is configured simply by putting all of your import statements that you
 want to automatically import into your `~/.pyflyby` file.  You can `import
@@ -84,6 +88,7 @@ from numpy import copy
 > packages that I use.
 
 ## Commas are even supported
+_yep all the import styles are supported_
 
 This following example will setup auto import for both DataFrame and Series,
 they will both work separately.  I removed these from my config as I felt it
@@ -97,6 +102,7 @@ from pandas import DataFrame, Series
 
 
 ## jupyter note!
+_Both work the same, use what your comfortable with_
 
 I only really mention ipython here, but the same all applies to jupyter as
 well.  I just really like ipython itself, c'mon its right there in the terminal
@@ -150,6 +156,11 @@ I've had zero issues with this, but if there ever comes a time where it does
 not work in certain environments for you.  I'd strongly suggest you to add this
 to a separate profile.
 
+https://waylonwalker.com/ipython-config/
+
+> Check out this article for a bit more in depth ipython configuration
+
+
 ## ipython auto import examples
 
 pyflyby can import all the various import types just fine.
@@ -173,6 +184,8 @@ Want help on something that you have in your pyflyby config, just give it the
 Popen?
 ```
 
+https://waylonwalker.com/ipython-help/
+
 ## Autocomplete
 _This is next level python auto-import_
 
@@ -192,6 +205,7 @@ requests.<tab>
 
 
 ## What happens when a module is not installed
+_ModuleNotFoundError_
 
 When you are in an environment where you do not have a module installed that is
 in your pyflyby config, it will throw a `ModuleNotFoundError` when it tries to
@@ -218,7 +232,6 @@ NameError: name 'pd' is not defined
 
 
 ## nvim pyflyby setup
-
 _automatically importing python modules in vim, neovim, nvim_
 
 This is by far the best part of this article.  It makes development so fluid.
@@ -398,3 +411,8 @@ py pd.read_csv 'https://waylonwalker.com/cars.csv'
 
 * [pyflyby repo](https://github.com/deshaw/pyflyby)
 * [docs](https://deshaw.github.io/pyflyby/)
+* [My YouTube Video for pyflyby](https://youtu.be/2QW5DJiEJH4)
+* [configuring ipython](https://waylonwalker.com/ipython-config/)
+* [asking ipython for help??](https://waylonwalker.com/ipython-help/)
+* [sample data I used with pandas](https://waylonwalker.com/cars.csv)
+* [my rss feed](https://waylonwalker.com/rss)

@@ -69,7 +69,7 @@ to see what a function does.
 ## %run
 
 I turned my nose up at this one, prior to seeing the famous [I don't like
-notebooks](https://www.youtube.com/watch?v=7jiPeIFXb6U) by 
+notebooks](https://www.youtube.com/watch?v=7jiPeIFXb6U) by
 [Joel Grus](https://joelgrus.com/).  My first snobby reaction was that
 developing modules and using autoreload was superior.  I have since realized
 there is a place for `%run`, and it can cut down on some keystrokes to import,
@@ -127,3 +127,8 @@ c.TerminalInteractiveShell.autoformatter = "black"
 
 _Control R_
 
+## Want automatic imports??
+
+https://waylonwalker.com/pyflyby/
+
+> This article covers how I setup automatic imports in ipython

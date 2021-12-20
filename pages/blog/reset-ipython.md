@@ -203,3 +203,9 @@ development over anything else.
 </p>
 
 [autoreload-ipython](https://waylonwalker.com/autoreload-ipython/) one of my biggest productivity boosts.
+
+## Want automatic imports??
+
+https://waylonwalker.com/pyflyby/
+
+> This article covers how I setup automatic imports in ipython

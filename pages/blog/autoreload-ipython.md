@@ -91,3 +91,9 @@ _for more gifs like these follow me on twitter_ [_@waylonwalker_](https://twitte
 ## Go use it now
 
 Take the splash into rapid development of python functions with minimal distance between your modules/library and your ipython/jupyter session.
+
+## Want automatic imports??
+
+https://waylonwalker.com/pyflyby/
+
+> This article covers how I setup automatic imports in ipython
