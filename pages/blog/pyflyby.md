@@ -261,7 +261,7 @@ editing the imports.  Often you can't even grab whole lines because there are
 several imports and some are needed in both places but not all.  pyflyby
 handles all this like a champ.
 
-![simple refactoring example with pyflyby](pyflyby-refactoring.gif)
+![simple refactoring example with pyflyby](https://images.waylonwalker.com/pyflyby-refactoring.gif)
 
 ## Where to install for vim
 _just make sure the tidy-imports command is available to vim_
