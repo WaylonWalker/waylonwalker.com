@@ -112,8 +112,10 @@ automatically installed and importing things without me even thinking about it.
 
 
 ``` python
-%load_ext flybypy
+%load_ext pyflyby
 ```
+
+![basic example of pyflyby](https://images.waylonwalker.com/load_ext_pyflyby.gif)
 
 ## ipython setup next level
 _automatically import modules in python **without %load_ext**_
@@ -247,6 +249,7 @@ augroup waylonwalker
 augroup end
 ```
 
+![running pyflyby on save in nvim](https://images.waylonwalker.com/pyflyby-nvim.gif)
 
 ## refactoring
 _This is where it really shines_
@@ -257,6 +260,8 @@ when refactoring some modules from one file to another the most tedious part is
 editing the imports.  Often you can't even grab whole lines because there are
 several imports and some are needed in both places but not all.  pyflyby
 handles all this like a champ.
+
+![simple refactoring example with pyflyby](pyflyby-refactoring.gif)
 
 ## Where to install for vim
 _just make sure the tidy-imports command is available to vim_
@@ -371,6 +376,8 @@ __all__ = [
 
 ```
 
+![pyflyby in __init__ files](https://images.waylonwalker.com/pyflyby-__all__.gif)
+
 ## py command
 _one liners that need imports_
 
@@ -384,3 +391,5 @@ py help pd.DataFrame
 
 py pd.read_csv 'https://waylonwalker.com/cars.csv'
 ```
+
+![pyflyby's py command can run one liners from bash or zsh even with imports](https://images.waylonwalker.com/pyflyby-py.gif)
