@@ -2,8 +2,8 @@
 templateKey: blog-post
 tags: ['python', 'ipython', 'terminal']
 title: Develop Python Faster with automatic imports with pyflyby
-date: 2021-12-04T11:34:47
-status: Draft
+date: 2021-12-20T11:34:47
+status: published
 
 ---
 
