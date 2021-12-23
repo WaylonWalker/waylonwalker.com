@@ -1,7 +1,8 @@
-from markata.hookspec import hook_impl
+import textwrap
 from pathlib import Path
 from string import Template
-import textwrap
+
+from markata.hookspec import hook_impl
 
 
 @hook_impl
@@ -21,21 +22,12 @@ def create_page(
 ):
     all_posts = reversed(sorted(markata.articles, key=lambda x: x["date"]))
 
-    if type(tags) == str:
-        tags = [tags]
-
-    posts = [post for post in all_posts if post["status"] == status]
-
     description = markata.description
 
-    if tags is not None:
-        posts = [post for post in posts if set(post["tags"]) & set(tags)]
-        description = f"{description} of {tags[0]}"
-
     if filters is not None:
-        all_posts = reversed(sorted(markata.articles, key=lambda x: x["date"]))
-        for filter, value in filters.items():
-            posts = [post for post in all_posts if post[filter] == value]
+        posts = reversed(sorted(markata.articles, key=lambda x: x["date"]))
+        for filter in filters:
+            posts = [post for post in posts if eval(filter, post.to_dict(), {})]
 
     if template is None:
         template = markata.config["archive"]["archive_template"]
