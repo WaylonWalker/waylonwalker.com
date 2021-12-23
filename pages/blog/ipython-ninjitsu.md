@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-tags: ['python', 'bash']
+tags: ['python', 'bash', 'ipython']
 title: Ipython Ninjitsu
 date: 2020-12-14T00:00:00
 status: draft
