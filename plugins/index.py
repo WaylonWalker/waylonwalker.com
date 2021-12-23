@@ -1,8 +1,12 @@
-import textwrap
 from pathlib import Path
 from string import Template
+import textwrap
 
 from markata.hookspec import hook_impl
+
+
+class MarkataFilterError(RuntimeError):
+    ...
 
 
 @hook_impl
@@ -26,8 +30,18 @@ def create_page(
 
     if filters is not None:
         posts = reversed(sorted(markata.articles, key=lambda x: x["date"]))
-        for filter in filters:
-            posts = [post for post in posts if eval(filter, post.to_dict(), {})]
+        try:
+            for filter in filters:
+                posts = [post for post in posts if eval(filter, post.to_dict(), {})]
+        except BaseException as e:
+            msg = textwrap.dedent(
+                f"""
+                    While processing {page =} markata hit the following exception
+                    during {filter =}
+                    {e}
+                    """
+            )
+            raise MarkataFilterError(msg)
 
     if template is None:
         template = markata.config["archive"]["archive_template"]
