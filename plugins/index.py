@@ -1,7 +1,7 @@
-from typing import Union, List
 from markata.hookspec import hook_impl
-from string import Template
 from pathlib import Path
+from string import Template
+import textwrap
 
 
 @hook_impl
@@ -10,7 +10,15 @@ def save(markata):
         create_page(markata, page, **page_conf)
 
 
-def create_page(markata, page, tags=None, status="published"):
+def create_page(
+    markata,
+    page,
+    tags=None,
+    status="published",
+    template=None,
+    card_template=None,
+    filters=None,
+):
     all_posts = reversed(sorted(markata.articles, key=lambda x: x["date"]))
 
     if type(tags) == str:
@@ -24,8 +32,17 @@ def create_page(markata, page, tags=None, status="published"):
         posts = [post for post in posts if set(post["tags"]) & set(tags)]
         description = f"{description} of {tags[0]}"
 
-    cards = [create_card(post) for post in posts]
-    with open(markata.config["archive"]["archive_template"]) as f:
+    if filters is not None:
+        all_posts = reversed(sorted(markata.articles, key=lambda x: x["date"]))
+        for filter, value in filters.items():
+            posts = [post for post in all_posts if post[filter] == value]
+
+    if template is None:
+        template = markata.config["archive"]["archive_template"]
+
+    cards = [create_card(post, card_template) for post in posts]
+
+    with open(template) as f:
         template = Template(f.read())
     output_file = Path(markata.config["output_dir"]) / page / "index.html"
     canonical_url = f"{markata.config['url']}/{page}/"
@@ -43,13 +60,21 @@ def create_page(markata, page, tags=None, status="published"):
         )
 
 
-def create_card(post):
-    return f"""
-<li class='post'>
-  <a href="/{post['slug']}/">
-    <h2 class='title'>{post['title']}</h2>
-    <p class='description'>{post['long_description']}</p>
-    <p class='date'>{post['date'].year}-{post['date'].month}-{post['date'].day}</p>
-  </a>
-</li>
-"""
+def create_card(post, template=None):
+    if template is None:
+        return textwrap.dedent(
+            f"""
+            <li class='post'>
+            <a href="/{post['slug']}/">
+                <h2 class='title'>{post['title']}</h2>
+                <p class='description'>{post['long_description']}</p>
+                <p class='date'>{post['date'].year}-{post['date'].month}-{post['date'].day}</p>
+            </a>
+            </li>
+            """
+        )
+    with open(template) as f:
+        template = Template(f.read())
+    post["article_html"] = post.article_html
+
+    return template.safe_substitute(**post.to_dict())

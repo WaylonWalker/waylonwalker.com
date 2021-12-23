@@ -90,6 +90,12 @@ tags='kedro'
 tags='kedro'
 status='draft'
 
+[markata.archive.pages.gratitude]
+template="pages/templates/archive_template.html"
+card_template="pages/templates/gratitude_card.html"
+[markata.archive.pages.gratitude.filters]
+templateKey='gratitude'
+
 [[markata.covers]]
 name='-dev'
 template = "static/cover-template.png"
