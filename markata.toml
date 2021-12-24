@@ -143,8 +143,7 @@ filters=[
 template="pages/templates/archive_template.html"
 card_template="pages/templates/gratitude_card.html"
 filters=[
-    "date<=today",
-    "templateKey == 'til'",
+    "date<=today and templateKey == 'til'",
 ]
 
 [markata.archive.pages.til-vim]
