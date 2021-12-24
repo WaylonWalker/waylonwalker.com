@@ -41,3 +41,7 @@ out of the box.
     remote_src: yes
 
 ```
+
+https://waylonwalker.com/setup-yamlls/
+
+> check out how I install yamlls using ansible
