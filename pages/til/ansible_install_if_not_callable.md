@@ -4,7 +4,7 @@ templateKey: til
 title: Installing packages with ansible only if they do not exist
 tags:
   - python
-  - rich
+  - ansible
 
 ---
 
