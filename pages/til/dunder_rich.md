@@ -12,6 +12,7 @@ Adding a `__render__` method that returns a rich renderable to any python class
 makes it display this output if printed with rich.  This also includes being
 nested inside of a rich Layout.
 
+
 ``` python
 import rich
 from rich.panel import Panel
