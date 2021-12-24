@@ -8,7 +8,7 @@ tags:
 
 ---
 
-fugitive comes with a pretty sick way to commit files and see the diff at the
+Fugitive comes with a pretty sick way to commit files and see the diff at the
 same time with verbose commit.  Opening the fugitive menu with `:G` brings up
 your git status, you can stage files with `s`, unstage them with `u`, toggle
 them with `-`, and toggle their diff with `>`.  Once you have staged your files
