@@ -25,3 +25,5 @@ class ShowMe:
 if __name__ == "__main__":
     rich.print(ShowMe())
 ```
+
+![results of printing ShowMe with rich](https://images.waylonwalker.com/dunder_rich_showme.png)
