@@ -1,5 +1,5 @@
 ---
-date: 2021-12-25T20:24:48
+date: 2021-12-26T20:24:48
 templateKey: til
 title: Finding hidden (dotfiles) using Telescope in neovim
 tags:
