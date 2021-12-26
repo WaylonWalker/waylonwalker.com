@@ -19,7 +19,7 @@ files using the pnumonic go edit hidden.  I use ge for quite a few
 different things to take me directly to a specific file or picker.
 
 ``` python
-nnoremap geh :Telescope find_files hidden=true<CR>
+nnoremap geh <cmd>Telescope find_files hidden=true<cr>
 ```
 
 
