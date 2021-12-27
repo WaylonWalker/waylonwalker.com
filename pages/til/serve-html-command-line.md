@@ -1,5 +1,5 @@
 ---
-date: 2021-12-27T20:24:48
+date: 2021-12-28T20:24:48
 templateKey: til
 title: Serve html from your command line
 tags:
