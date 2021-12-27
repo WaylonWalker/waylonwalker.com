@@ -16,7 +16,6 @@ This is one of those things that can be a total pain to get right on
 some systems, and its so nice when its just there for you pretty much
 out of the box.
 
-
 1. make sure your user fonts directory exists
 2. chech if the font you want exists on your machine
 3. download and unzip fonts into the fonts directory
@@ -41,6 +40,10 @@ out of the box.
     remote_src: yes
 
 ```
+
+https://www.youtube.com/watch?v=2MEmsinxRK4
+
+> I made a YT based on this post
 
 ## Links
 
