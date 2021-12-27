@@ -35,3 +35,7 @@ this pattern.
   when: black_exists is failed
   shell: pipx install black
 ```
+
+https://www.youtube.com/watch?v=MCFg6-W5SBI
+
+> I made a video based on this post, check it out if its your thing
