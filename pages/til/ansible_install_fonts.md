@@ -13,7 +13,7 @@ completely missing fonts.  I noticed jumping into a new vm I had a bunch
 of broken devicons when using Telescope with the devicons plugins.
 
 This is one of those things that can be a total pain to get right on
-some systems, and its so nice when its just there for you pretty much
+some systems, and it's so nice when it's just there for you pretty much
 out of the box.
 
 1. make sure your user fonts directory exists
