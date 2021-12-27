@@ -7,8 +7,8 @@ status: published
 
 ---
 
-This is not a flaky works half the time kind of plugin, its a seriously smooth
-editing experience.  I've just started using pyflyby and it is solid so far.
+This is not a flaky works half the time kind of plugin, it's a seriously smooth
+editing experience.  I've just started using pyflyby, and it is solid so far.
 I have automatic imports on every save of a python file in neovim, and
 automatic imports on every command in ipython.
 
@@ -20,26 +20,26 @@ _Listen to me rant on how great pyflyby is_
 
 https://youtu.be/2QW5DJiEJH4
 
-Give the video a watch, I did not have noise cancelling on in obs. My
-appologies for the background hum and the mic stand bumps. I did my best to fix
+Give the video a watch, I did not have noise-cancelling on in obs. My
+apologies for the background hum and the mic stand bumps. I did my best to fix
 them up.
 
 
-## installation
+## Installation
 _How to install pyflyby for automatic python imports_
 
-pyflypy is hosted on pypi, so you can get it with pip.  I have had no issues
+pyflyby is hosted on pypi, so you can get it with pip.  I have had no issues
 installing it on 3.8+ so far.
 
 ``` bash
 pip install flybypy
 ```
 
-## configuration setup with stow
+## Configuration setup with stow
 _always stow your dotfiles_
 
 If you're going to configure any of your tools the first thing you should do is
-set it up with stow, seriously dont sleep on the stow.  If you don't have stow
+set it up with stow, seriously don't sleep on the stow.  If you don't have stow
 installed or choose not to use stow you can skip this part.
 
 ``` bash
@@ -52,7 +52,7 @@ stow ipython
 > Seriously don't sleep on the stow.
 
 ## How to Configure pyflyby
-_its just a file full of import statements_
+_it's just a file full of import statements_
 
 `pyflyby` is configured simply by putting all of your import statements that you
 want to automatically import into your `~/.pyflyby` file.  You can `import
@@ -90,7 +90,7 @@ from numpy import copy
 ## Commas are even supported
 _yep all the import styles are supported_
 
-This following example will setup auto import for both DataFrame and Series,
+This following example will set up auto import for both DataFrame and Series,
 they will both work separately.  I removed these from my config as I felt it
 was cleaner without, but it works with them.
 
@@ -101,19 +101,19 @@ from pandas import DataFrame, Series
 > Even imports with a comma will be treated separately.
 
 
-## jupyter note!
+## Jupyter note!
 _Both work the same, use what your comfortable with_
 
-I only really mention ipython here, but the same all applies to jupyter as
+I only really mention ipython here, but the same all applies to Jupyter as
 well.  I just really like ipython itself, c'mon its right there in the terminal
 integrating with the rest of your terminal experience so well.
 
 
-## ipython setup
+## Ipython setup
 _Automatically import python libraries in ipython with pyflyby_
 
-The recommended way to setup `flybypy` from the docs is to run the following
-magic command.  This works well, but I wan even less typing, I want pyflyby
+The recommended way to set uppyflybyfrom the docs is to run the following
+magic command.  This works well, but I want even less typing, I want pyflyby
 automatically installed and importing things without me even thinking about it.
 
 
@@ -123,12 +123,12 @@ automatically installed and importing things without me even thinking about it.
 
 ![basic example of pyflyby](https://images.waylonwalker.com/load_ext_pyflyby.gif)
 
-## ipython setup next level
+## Ipython setup next level
 _automatically import modules in python **without %load_ext**_
 
 I really want pyflyby to just work in every environment without me thinking
 much about it.  I want it to load automatically, and even to attempt to install
-itself if its missing.
+itself if it's missing.
 
 ``` python
 from IPython import get_ipython
@@ -152,7 +152,7 @@ except ModuleNotFoundError:
 > Note: if installation fails you will still make it into ipython, there will
 > just be a traceback to the failed command as you enter.
 
-I've had zero issues with this, but if there ever comes a time where it does
+I've had zero issues with this, but if there ever comes a time when it does
 not work in certain environments for you.  I'd strongly suggest you to add this
 to a separate profile.
 
@@ -209,7 +209,7 @@ _ModuleNotFoundError_
 
 When you are in an environment where you do not have a module installed that is
 in your pyflyby config, it will throw a `ModuleNotFoundError` when it tries to
-import and it will not import or try to install for you.  You will have to
+import, and it will not import or try to install for you.  You will have to
 change environments or install that module.
 
 ``` python
@@ -280,7 +280,7 @@ handles all this like a champ.
 _just make sure the tidy-imports command is available to vim_
 
 pyflyby goes into the environment that you have active at the time that you
-start neovim.  Typically this is the virtual environment that I am using for
+start neovim.  Typically, this is the virtual environment that I am using for
 the project I am editing.
 
 
@@ -300,7 +300,7 @@ _after the last import_
 
 `pyflyby` does not sort imports into paragraphs or by category.  When it needs
 to add new imports.  It will find the last paragraph of imports in your file,
-add the new one, and sort that paragraph alphebetically.
+add the new one, and sort that paragraph alphabetically.
 
 ``` python
 from collections import Counter
@@ -394,8 +394,8 @@ __all__ = [
 ## py command
 _one liners that need imports_
 
-pyflyby also comes with a cli command to run one liners.  It's pretty genious,
-I'm sure I will find a use or two for it, but so far its been more of a novelty
+pyflyby also comes with a cli command to run one liners.  It's pretty genius,
+I'm sure I will find a use or two for it, but so far it's been more of a novelty
 for me.
 
 ``` bash
