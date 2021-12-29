@@ -16,7 +16,7 @@ to open it inside my current session.
 _how to pass a custom command to telescope_
 
 Telescope is the fuzzy file finder I use every day inside of neovim.  Its pretty
-fantasic and easy to extent like this.  This first example I am only passing in
+fantastic and easy to extent like this.  This first example I am only passing in
 files from the current working directory by using `ls`.
 
 ``` vim
@@ -30,7 +30,7 @@ _how to pass a muli-argument command to telescope_
 
 Adding more arguments can be done by comma separating them as shown in the
 example below.  This command will run the silver-searcher, search for all
-occurances of nvim inside of a markdown file, and return only the filepaths so
+occurences of nvim inside of a markdown file, and return only the filepaths so
 Telescope can pick from them.
 
 ```vim
