@@ -17,6 +17,6 @@ hit the pile of logs at the bottom, but I was afraid I would have hit it
 hard and hurt myself.  Ayla went pretty high up and had the biggest
 smile on her face the hole time she was going down.
 
-![snowman](https://images.waylonwalker.com/snowman-dec-28-2021.png)
+![snowman](https://images.waylonwalker.com/snowman-dec-28-2021.jpg)
 
 > Our snowman at about half of its maximum height.
