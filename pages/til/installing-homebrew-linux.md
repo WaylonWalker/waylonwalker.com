@@ -1,5 +1,5 @@
 ---
-date: 2021-12-28T20:24:48
+date: 2021-12-29T20:24:48
 templateKey: til
 title: Installing Homebrew on Linux
 tags:
@@ -11,7 +11,7 @@ tags:
 Installing brew on linux proved quite easy and got pyenv running for me
 within 4 commands.
 
-I have never used homebrew before, honestly I thought it was a mac only
+I had never used homebrew before, honestly I thought it was a mac only
 thing for years.  Today I wanted to try out pyenv, and the reccommended
 way to install was using homebrew.  I am not yet sure if I want either
 in my normal workflow, so for now I am just going to pop open a new

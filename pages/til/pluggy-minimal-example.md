@@ -1,5 +1,5 @@
 ---
-date: 2021-12-31T20:35:27
+date: 2022-01-01T20:35:27
 templateKey: til
 title: The most minimal pluggy example
 tags:
