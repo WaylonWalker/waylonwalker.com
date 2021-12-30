@@ -499,3 +499,4 @@ disabled
 data
 .envrc
 temp.py
+.venv
