@@ -20,6 +20,14 @@ libraries I needed were only compatable with up to 3.8.
 I've been wanting to check out pyenv for awhile now, but without a
 burning need to do so.
 
+## installing
+
+Based on the Readme it looked like I needed to install using homebrew,so this
+is what I did, but I later realized that there is a pyenv-installer repo that
+may have saved me this need.
+
+https://waylonwalker.com/til/installing-homebrew-linux/
+
 ## List out install candidates
 
 You can list all of the available versions to install with
