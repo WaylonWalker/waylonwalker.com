@@ -11,6 +11,8 @@
 # bump site version to bust GitHub actions cache
 site_version = 13
 
+# 2 weeks in seconds
+default_cache_expire = 1209600
 ## Markata Setup
 glob_patterns = "pages/**/*.md"
 ## glob_patterns = "pages/**/*spaceflights*.md"

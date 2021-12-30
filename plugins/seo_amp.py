@@ -250,7 +250,7 @@ def render(markata: Markata) -> None:
 
                 # html = soup.prettify()
                 html = str(soup)
-                cache.add(key, html, expire=15 * 24 * 60)
+                cache.add(key, html, expire=15 * 24 * 60 * 60)
             else:
                 html = html_from_cache
             article.amp_html = html

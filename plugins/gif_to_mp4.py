@@ -86,7 +86,7 @@ def post_render(markata):
                 soup = BeautifulSoup(article.html, "html.parser")
                 swap_gifs(soup)
                 html = soup.prettify()
-                cache.add(key, html)
+                cache.add(key, html, expire=15 * 24 * 60 * 60)
 
             else:
                 html = html_from_cache
