@@ -60,102 +60,55 @@ twitter_site = "@_waylonwalker"
 archive_template="pages/templates/archive_template.html"
 
 [markata.archive.pages.archive]
-filters=[
-    "date<=today",
-    "templateKey=='blog-post'",
-    "status.lower()=='published'",
-]
+filter="date<=today and templateKey=='blog-post' and status.lower()=='published'"
 
 [markata.archive.pages.draft]
-filters=[
-    "status=='draft'",
-]
+filter="status=='draft'"
 
 [markata.archive.pages.scheduled]
-filters=[
-    "date>today",
-]
+filter="date>today"
 
 [markata.archive.pages.today]
-filters=[
-    "date==today",
-]
+filter="date==today"
 
 [markata.archive.pages.python]
-filters=[
-    "date<=today",
-    "'python' in tags",
-]
+filter="date<=today and 'python' in tags"
 
 [markata.archive.pages.python-draft]
-filters=[
-    "date<=today",
-    "'python' in tags",
-    "status=='draft'",
-]
+filter="date<=today and 'python' in tags and status=='draft'"
 
 [markata.archive.pages.linux]
-filters=[
-    "date<=today",
-    "'linux' in tags",
-]
+filter="date<=today and 'linux' in tags"
 
 [markata.archive.pages.linux-draft]
-filters=[
-    "date<=today",
-    "'linux' in tags",
-    "status=='draft'",
-]
+filter="date<=today and 'linux' in tags and status=='draft'"
 
 [markata.archive.pages.vim]
-filters=[
-    "date<=today",
-    "'vim' in tags",
-]
+filter="date<=today and 'vim' in tags"
 
 [markata.archive.pages.vim-draft]
-filters=[
-    "date<=today",
-    "'vim' in tags",
-    "status=='draft'",
-]
+filter="date<=today and 'vim' in tags and status=='draft'"
 
 [markata.archive.pages.kedro]
-filters=[
-    "date<=today",
-    "'kedro' in tags",
-]
+filter="date<=today and 'kedro' in tags"
 
 [markata.archive.pages.kedro-draft]
-filters=[
-    "date<=today",
-    "'kedro' in tags",
-    "status=='draft'",
-]
+filter="date<=today and 'kedro' in tags and status=='draft'"
 
 [markata.archive.pages.gratitude]
 template="pages/templates/archive_template.html"
 card_template="pages/templates/gratitude_card.html"
-filters=[
-    "date<=today",
-    "templateKey == 'gratitude'",
-]
+filter="date<=today and templateKey == 'gratitude'"
 
 [markata.archive.pages.til]
 template="pages/templates/archive_template.html"
 card_template="pages/templates/gratitude_card.html"
-filters=[
-    "date<=today and templateKey == 'til'",
-]
+filter="date<=today and templateKey == 'til'"
 
 [markata.archive.pages.til-vim]
 template="pages/templates/archive_template.html"
 card_template="pages/templates/gratitude_card.html"
-filters=[
-    "date<=today",
-    "templateKey == 'til'",
-    "'vim' in tags",
-]
+filter="date<=today and templateKey == 'til' and 'vim' in tags"
 
 [[markata.covers]]
 name='-dev'

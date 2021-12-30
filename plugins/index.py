@@ -22,17 +22,16 @@ def create_page(
     status="published",
     template=None,
     card_template=None,
-    filters=None,
+    filter=None,
 ):
     all_posts = reversed(sorted(markata.articles, key=lambda x: x["date"]))
 
     description = markata.description
 
-    if filters is not None:
+    if filter is not None:
         posts = reversed(sorted(markata.articles, key=lambda x: x["date"]))
         try:
-            for filter in filters:
-                posts = [post for post in posts if eval(filter, post.to_dict(), {})]
+            posts = [post for post in posts if eval(filter, post.to_dict(), {})]
         except BaseException as e:
             msg = textwrap.dedent(
                 f"""
@@ -42,7 +41,6 @@ def create_page(
                     """
             )
             raise MarkataFilterError(msg)
-
     if template is None:
         template = markata.config["archive"]["archive_template"]
 
