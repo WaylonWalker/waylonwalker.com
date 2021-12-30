@@ -52,6 +52,7 @@ def post_render(markata: Markata) -> None:
                 "post_render",
                 article.metadata["slug"],
                 markata.config["images_url"],
+                article.content,
             )
             html_from_cache = cache.get(key)
 
