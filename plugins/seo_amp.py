@@ -220,6 +220,7 @@ def render(markata: Markata) -> None:
                 "amp_seo",
                 "render",
                 article["content_hash"],
+                article.amp_html,
                 markata.site_name,
                 markata.url,
                 article.metadata["slug"],

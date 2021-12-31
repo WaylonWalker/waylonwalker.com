@@ -80,6 +80,7 @@ def post_render(markata):
                 Path(__file__).read_text(),
                 "post_render",
                 article["content_hash"],
+                article.html,
             )
             html_from_cache = cache.get(key)
             if html_from_cache is None:
