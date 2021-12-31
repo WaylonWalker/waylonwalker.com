@@ -2,10 +2,10 @@ import re
 import textwrap
 
 import background
-from bs4 import BeautifulSoup
-from markata.hookspec import hook_impl
 import requests
 import twitter
+from bs4 import BeautifulSoup
+from markata.hookspec import hook_impl
 
 RE_ONE_LINE = re.compile("^https://waylonwalker.com/.*")
 RE_TWEET = re.compile("^https://twitter.com/.*")

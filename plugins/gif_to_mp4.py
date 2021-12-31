@@ -1,10 +1,10 @@
-from pathlib import Path
 import re
+from pathlib import Path
 from typing import TYPE_CHECKING
 
+import requests
 from bs4 import BeautifulSoup
 from markata.hookspec import hook_impl
-import requests
 
 if TYPE_CHECKING:
     from bs4.element import Tag
