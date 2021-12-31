@@ -1,11 +1,8 @@
 """Custom HEADER tags for waylonwalker.com"""
-import json
-from pathlib import Path
 from typing import TYPE_CHECKING, List
 
 from bs4 import BeautifulSoup
-
-from markata import Markata, __version__
+from markata import Markata
 from markata.hookspec import hook_impl
 
 if TYPE_CHECKING:
