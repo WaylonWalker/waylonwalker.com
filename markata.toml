@@ -13,6 +13,7 @@ site_version = 13
 
 # 2 weeks in seconds
 default_cache_expire = 1209600
+
 ## Markata Setup
 glob_patterns = "pages/**/*.md"
 ## glob_patterns = "pages/**/*spaceflights*.md"
@@ -20,6 +21,7 @@ output_dir = "markout"
 assets_dir = "static"
 hooks = [
    "markata.plugins.publish_source",
+   "markata.plugins.publish_dev_to_source",
    "plugins.index",
    "plugins.slug",
    "plugins.one_line_link",
