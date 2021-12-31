@@ -31,6 +31,7 @@ hooks = [
    'plugins.gif_to_mp4',
    'plugins.youtube',
    'plugins.rss_tag',
+   'plugins.auto_publish',
    ]
 disabled_hooks = ["markata.plugins.covers", 'markata.plugins.flat_slug']
 
@@ -55,6 +56,9 @@ display = "minimal-ui"
 twitter_card = "summary_large_image"
 twitter_creator = "@_waylonwalker"
 twitter_site = "@_waylonwalker"
+
+[markata.auto_publish.filters]
+til='templateKey=="til" and date>=today'
 
 [markata.archive]
 archive_template="pages/templates/archive_template.html"
