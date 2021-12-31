@@ -1,0 +1,4 @@
+git+https://github.com/WaylonWalker/markata.git@develop
+python-twitter
+background
+pyinstrument
