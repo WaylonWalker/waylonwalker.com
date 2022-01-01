@@ -46,13 +46,15 @@ pip install pluggy
 ## Making a plugin driven framework
 _much less easy_
 
-I have yet to find a good minimal example of how to make a pluggin system with
-pluggy.  Last I read their docs, they went in deep, but missed out on a good
-hello world example.
+At the time I started playing with pluggy, their docs were less
+complete, or I was just plain blind, but this was a huge part of the
+docs that were missing for me that now actually appear to be there.  But
+to get some more examples out there, here is my version.
 
 ``` python
 import pluggy
 
+# These don't need to match
 HOOK_NAMESPACE = "pluggy_example"
 PROJECT_NAME = "pluggy_example"
 
@@ -126,6 +128,32 @@ class DefaultHook:
         print(pluggy_example.message)
 
 
+if __name__ == "__main__":
+    """
+    The user of this framework can apply the hook in their own code without
+    changing the behavior of the framework, but the library has
+    implemented it's own default hooks.
+    """
+    pe = PluggyExample(
+        message="hello world",
+        hooks=[
+            DefaultHook,
+        ],
+    )
+    pe.run()
+```
+
+## Modifying behavior
+_as a user of PluggyExample_
+
+Now Lets pretent the user of this library likes everything about it,
+except, they don't like all the shouting.  They can either search for a
+plugin on Google, github, or pypi and find one, or make it themself. the
+magic here is that they do not need to have the package maintainer patch
+the core library itself.
+
+```
+
 class LowerHook:
     """
     This is a new hook that a plugin author has created to modify the behavior
@@ -135,18 +163,15 @@ class LowerHook:
     def start(pluggy_example):
         pluggy_example.message = pluggy_example.message.lower()
 
-
-if __name__ == "__main__":
-    """
-    The user of this framework can apply the hook in their own code without
-    changing the behavior of the framework.
-    """
-    pe = PluggyExample(
-        message="hello world",
-        hooks=[
-            LowerHook,
-            DefaultHook,
-        ],
-    )
-    pe.run()
+from pluggy_example import PluggyExample
+pe = PluggyExample(
+    message="hello world",
+    hooks=[
+        DefaultHook,
+        LowerHook
+    ],
+)
+pe.run()
 ```
+
+![example video](https://images.waylonwalker.com/til-pluggy-example.gif)
