@@ -174,4 +174,9 @@ pe = PluggyExample(
 pe.run()
 ```
 
+## Running Pluggy Example
+
+Here is a short clip of me running the pluggy example in it's default
+state, then adding the LowerHook, and running a second time.
+
 ![example video](https://images.waylonwalker.com/til-pluggy-example.gif)
