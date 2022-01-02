@@ -26,7 +26,7 @@ hooks = [
    "plugins.slug",
    "plugins.one_line_link",
    "default",
-   'plugins.related',
+   # 'plugins.related',
    'plugins.seo_amp',
    'plugins.publish_amp',
    'plugins.custom_seo',
