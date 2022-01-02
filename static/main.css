@@ -905,6 +905,11 @@ table, th, td {
     color: black;
     background: #d3d3d3;
 }
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
 body::-webkit-scrollbar {
     width: 1rem;
 }
