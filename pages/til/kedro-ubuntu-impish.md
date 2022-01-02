@@ -4,6 +4,8 @@ templateKey: til
 title: Running Kedro on Ubuntu 21.10 Impish Indri
 tags:
   - kedro
+  - python
+  - datascience
 
 ---
 
