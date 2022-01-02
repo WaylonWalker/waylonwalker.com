@@ -910,6 +910,13 @@ iframe {
     display: block;
     margin: 0 auto;
 }
+
+footer {
+    margin: .5rem 0;
+    padding: 0;
+    background: rgba(0,0,0, .85);
+    width: 100%;
+}
 body::-webkit-scrollbar {
     width: 1rem;
 }
