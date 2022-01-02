@@ -5,8 +5,6 @@ title: Gratitude 105
 
 ---
 
-
-
 We've switched to scratch.  My son and I have one on one time twice per day,
 usually right at his chaotic times while medicine is kicking in.  Generally
 it's Minecrafts as that is a safe place to be as chaotic as we need to be, but
