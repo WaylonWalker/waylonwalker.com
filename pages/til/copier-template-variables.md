@@ -62,7 +62,8 @@ copier copy hello-py .
 
 ## results
 
-
+The resulting files will have your variables injected into them if you have
+setup your template and copier.yml up correctly.
 
 ``` python
 print('hello-you')
