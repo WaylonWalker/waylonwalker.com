@@ -79,7 +79,6 @@ def post_render(markata):
                 __file__,
                 Path(__file__).read_text(),
                 "post_render",
-                article["content_hash"],
                 article.html,
             )
             html_from_cache = cache.get(key)
@@ -92,7 +91,3 @@ def post_render(markata):
             else:
                 html = html_from_cache
             article.html = html
-
-
-if __name__ == "__main__":
-    f = __file__
