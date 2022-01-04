@@ -1,7 +1,7 @@
 ---
 date: 2022-01-04T10:55:12
 templateKey: til
-title: Adding _endops to copier
+title: Changing copier template strings (_endops)
 tags:
   - python
   - bash
@@ -25,5 +25,5 @@ _envops:
   variable_start_string: "{{"
 ```
 
-> Later I read the docs and realized that copier defaults to using `[[`
+> !RTFM: Later I read the docs and realized that copier defaults to using `[[`
 > and `]]` for its templates unlike other tools like cookiecutter.
