@@ -29,7 +29,7 @@ print('hello-[[name]]')
 Before running copier we need to tell copier what variables to ask for,
 we do this with a copier.yml file.
 
-```
+``` yml
 # copier.yml
 name:
   default: my_name
