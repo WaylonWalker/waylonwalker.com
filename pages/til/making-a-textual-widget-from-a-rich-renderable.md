@@ -8,7 +8,52 @@ tags:
 
 ---
 
+Once you have made your sick looking cli apps with rich, eventually you are
+going to want to add some keybindings to them.  Currently Textual, also written
+by [@willmcgugan](https://twitter.com/willmcgugan), does this extremely well.
+Fair Warning it is in super beta mode and expected to change a bunch.  So take
+it easy with hopping on the train so fast.
 
+## Get the things
+
+``` python
+from textual.app import App
+from textual.widget import Widget
+from rich.panel import Panel
+```
+
+## Make what you have a widget
+
+If you return your rich renderable out of class that inherits from
+`textual.widget.Widget`, you can then dock this inside of an app class
+inheriting from `textual.app.App`.
+
+``` python
+class MyWidget(Widget):
+    def render(self):
+        my_renderable = Panel("press q to quit")
+        return my_renderable
+
+class MyApp(App):
+    async def on_mount(self) -> None:
+        await self.view.dock(MyWidget(), edge="top")
+        await self.bind("q", "quit")
+```
+
+## run it
+
+You've made a TUI (text user interface).  Run the classmethod `run` to display
+the it in its full screen glory.
+
+``` python
+MyApp.run(log="textual.log")
+```
+
+## Final result
+
+At this point It probably does not look much different, but it can be
+interacitve by binding keys to any method on your app that starts with the word
+`action_`, this includes the built-in actions such as `action_quit`.
 
 ``` python
 from textual.app import App
