@@ -11,15 +11,16 @@ tags:
 
 
 ``` python
+from textual.app import App
 from textual.widget import Widget
 from rich.panel import Panel
 
 
 class MyWidget(Widget):
-
-    def render():
-        my_renderable = Panel('hello world')
+    def render(self):
+        my_renderable = Panel("press q to quit")
         return my_renderable
+
 
 class MyApp(App):
     async def on_mount(self) -> None:
@@ -27,5 +28,6 @@ class MyApp(App):
         await self.bind("q", "quit")
 
 
-MyApp.run(log="textual.log")
+if __name__ == "__main__":
+    MyApp.run(log="textual.log")
 ```
