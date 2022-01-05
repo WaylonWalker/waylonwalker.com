@@ -17,9 +17,9 @@ and position.
 # normal popup
 tmux popup figlet "Hello"
 # fullscreen popup
-tmux popup -h 100% -w 100% -x 0% figlet "Hello"
+tmux popup -h 100% -w 100% figlet "Hello"
 # 75% centered popup
-tmux popup -h 100% -w 75% -x 0% figlet "Hello"
+tmux popup -h 100% -w 75% figlet "Hello"
 # 75% popup on left side
 tmux popup -h 100% -w 75% -x 0% figlet "Hello"
 ```
