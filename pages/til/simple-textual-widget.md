@@ -19,7 +19,7 @@ it easy with hopping on the train so fast.
 
 Install them from the command line.
 
-```
+``` bash
 pip install textual
 pip install rich
 ```
@@ -62,7 +62,7 @@ MyApp.run(log="textual.log")
 ## Final result
 
 At this point It probably does not look much different, but it can be
-interacitve by binding keys to any method on your app that starts with the word
+interactive by binding keys to any method on your app that starts with the word
 `action_`, this includes the built-in actions such as `action_quit`.
 
 ``` python
