@@ -44,7 +44,7 @@ def _create_seo(
         ).strip()[:120]
 
     seo = [
-        *markata.seo,
+        *markata.config["seo"],
         {
             "name": "og:author",
             "property": "og:author",
@@ -221,13 +221,13 @@ def render(markata: Markata) -> None:
                 "render",
                 article["content_hash"],
                 article.amp_html,
-                markata.site_name,
-                markata.url,
+                markata.config["site_name"],
+                markata.config["url"],
                 article.metadata["slug"],
-                markata.twitter_card,
+                markata.config["twitter_card"],
                 article.metadata["title"],
-                markata.site_name,
-                str(markata.seo),
+                markata.config["site_name"],
+                str(markata.config["seo"]),
             )
             html_from_cache = cache.get(key)
 
@@ -240,13 +240,15 @@ def render(markata: Markata) -> None:
                 canonical_link.attrs["rel"] = "canonical"
                 canonical_link.attrs[
                     "href"
-                ] = f'{markata.url}/{article.metadata["slug"]}/'
+                ] = f'{markata.config["url"]}/{article.metadata["slug"]}/'
                 soup.head.append(canonical_link)
 
                 meta_url = soup.new_tag("meta")
                 meta_url.attrs["name"] = "og:url"
                 meta_url.attrs["property"] = "og:url"
-                meta_url.attrs["content"] = f'{markata.url}/{article.metadata["slug"]}/'
+                meta_url.attrs[
+                    "content"
+                ] = f'{markata.config["url"]}/{article.metadata["slug"]}/'
                 soup.head.append(meta_url)
 
                 # html = soup.prettify()

@@ -40,7 +40,7 @@ def render(markata: "Markata") -> None:
 
 @hook_impl
 def save(markata: "Markata") -> None:
-    output_dir = Path(markata.output_dir)
+    output_dir = Path(markata.config["output_dir"])
     output_dir.mkdir(parents=True, exist_ok=True)
     for article in markata.articles:
         article_path = output_dir / article["slug"] / "amp" / "index.html"

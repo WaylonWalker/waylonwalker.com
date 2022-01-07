@@ -32,23 +32,25 @@ def render(markata: "MarkataRss") -> None:
 
 def make_rss(markata: MarkataRss, posts: list, tag: str) -> FeedGenerator:
     fg = FeedGenerator()
-    fg.id(markata.url + f"/{tag}-rss.xml")
-    fg.title(f"{markata.title} - {tag} posts")
-    fg.author({"name": markata.author_name, "email": markata.author_email})
-    fg.link(href=markata.url, rel="alternate")
-    fg.logo(markata.icon)
-    fg.subtitle(f"{markata.rss_description} - {tag} posts")
-    fg.link(href=markata.url + f"/{tag}-rss.xml", rel="self")
-    fg.language(markata.lang)
+    fg.id(markata.config["url"] + f"/{tag}-rss.xml")
+    fg.title(f"{markata.config['title']} - {tag} posts")
+    fg.author(
+        {"name": markata.config["author_name"], "email": markata.config["author_email"]}
+    )
+    fg.link(href=markata.config["url"], rel="alternate")
+    fg.logo(markata.config["icon"])
+    fg.subtitle(f"{markata.config['rss_description']} - {tag} posts")
+    fg.link(href=markata.config["url"] + f"/{tag}-rss.xml", rel="self")
+    fg.language(markata.config["lang"])
 
     for article in posts:
         fe = fg.add_entry()
-        fe.id(markata.url + "/" + article["slug"])
+        fe.id(markata.config["url"] + "/" + article["slug"])
         fe.title(article.metadata["title"])
         fe.published(article.metadata["datetime"])
         fe.description(article.metadata["description"])
         fe.summary(article.metadata["long_description"])
-        fe.link(href=markata.url + "/" + article["slug"])
+        fe.link(href=markata.config["url"] + "/" + article["slug"])
         fe.content(article.article_html.translate(dict.fromkeys(range(32))))
 
     return fg
@@ -56,7 +58,7 @@ def make_rss(markata: MarkataRss, posts: list, tag: str) -> FeedGenerator:
 
 @hook_impl
 def save(markata: "MarkataRss") -> None:
-    output_dir = Path(markata.output_dir)
+    output_dir = Path(markata.config["output_dir"])
 
     for tag, fg in markata.rss_tags.items():
         output_file = output_dir / tag / "rss.xml"

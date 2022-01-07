@@ -26,7 +26,7 @@ def create_page(
 ):
     all_posts = reversed(sorted(markata.articles, key=lambda x: x["date"]))
 
-    description = markata.description
+    description = markata.config["description"]
 
     if filter is not None:
         posts = reversed(sorted(markata.articles, key=lambda x: x["date"]))
