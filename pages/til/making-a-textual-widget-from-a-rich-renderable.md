@@ -16,6 +16,16 @@ it easy with hopping on the train so fast.
 
 ## Get the things
 
+
+Install them from the command line.
+
+```
+pip install textual
+pip install rich
+```
+
+Import make a .py file and import them in it.
+
 ``` python
 from textual.app import App
 from textual.widget import Widget
