@@ -109,12 +109,12 @@ filter="date<=today and templateKey == 'gratitude'"
 
 [markata.archive.pages.til]
 template="pages/templates/archive_template.html"
-card_template="pages/templates/gratitude_card.html"
+# card_template="pages/templates/gratitude_card.html"
 filter="date<=today and templateKey == 'til'"
 
 [markata.archive.pages.til-vim]
 template="pages/templates/archive_template.html"
-card_template="pages/templates/gratitude_card.html"
+# card_template="pages/templates/gratitude_card.html"
 filter="date<=today and templateKey == 'til' and 'vim' in tags"
 
 [[markata.covers]]
