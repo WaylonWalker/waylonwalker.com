@@ -60,6 +60,4 @@ pip install pipx
         - pipx
 ```
 
-``` bash
-
-```
+![installation video](https://images.waylonwalker.com/pipx-install-ubuntu.gif)
