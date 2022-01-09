@@ -9,7 +9,14 @@ tags:
 
 ---
 
+I recently paired up with another dev running windows with Ubuntu running in
+wsl, and we had a bit of a stuggle to get our project off the ground because
+they were missing com system dependencies to get going.
+
 ## Straight in the terminal
+
+Open up a terminal and get your required system dependencies using the apt
+package manager and the standard ubuntu repos.
 
 ``` bash
 sudo apt update
@@ -23,6 +30,9 @@ pip install pipx
 ```
 
 ## Using an Ansible-Playbook
+
+I like running things like this through an ansible-playbook as it give me some
+extra control and repeatability next time I have a new machine to setup.
 
 ``` yaml
 - hosts: localhost
@@ -59,5 +69,10 @@ pip install pipx
       tags:
         - pipx
 ```
+
+## video clip
+
+Here is a clip of me getting pipx running on ubuntu 21.10, and running a few of
+my favorite pipx commands.
 
 ![installation video](https://images.waylonwalker.com/pipx-install-ubuntu.gif)
