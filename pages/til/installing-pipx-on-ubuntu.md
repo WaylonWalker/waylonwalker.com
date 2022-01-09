@@ -1,5 +1,5 @@
 ---
-date: 2022-01-09 23:14:05.379718
+date: 2022-01-10 23:14:05.379718
 templateKey: til
 title: Installing Pipx on Ubuntu
 tags:
@@ -76,3 +76,9 @@ Here is a clip of me getting pipx running on ubuntu 21.10, and running a few of
 my favorite pipx commands.
 
 ![installation video](https://images.waylonwalker.com/pipx-install-ubuntu.gif)
+
+<video autoplay="" controls="" loop="true" muted="" playsinline="" width="100%">
+      <source src="https://images.waylonwalker.com/tmux-popup-position.webm" type="video/webm">
+      <source src="https://images.waylonwalker.com/tmux-popup-position.mp4" type="video/mp4">
+      Sorry, your browser doesn't support embedded videos.
+     </video>
