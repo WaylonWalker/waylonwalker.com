@@ -78,7 +78,7 @@ my favorite pipx commands.
 ![installation video](https://images.waylonwalker.com/pipx-install-ubuntu.gif)
 
 <video autoplay="" controls="" loop="true" muted="" playsinline="" width="100%">
-      <source src="https://images.waylonwalker.com/tmux-popup-position.webm" type="video/webm">
-      <source src="https://images.waylonwalker.com/tmux-popup-position.mp4" type="video/mp4">
+      <source src="https://images.waylonwalker.com/pipx-install-ubuntu.webm" type="video/webm">
+      <source src="https://images.waylonwalker.com/pipx-install-ubuntu.mp4" type="video/mp4">
       Sorry, your browser doesn't support embedded videos.
-     </video>
+</video>
