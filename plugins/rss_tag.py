@@ -6,7 +6,7 @@ from feedgen.feed import FeedGenerator
 from more_itertools import flatten
 
 from markata import Markata
-from markata.hookspec import hook_impl
+from markata.hookspec import hook_impl, register_attr
 
 
 class MarkataRss(Markata):
@@ -16,6 +16,7 @@ class MarkataRss(Markata):
 
 
 @hook_impl(trylast=True)
+@register_attr("rss_tags")
 def render(markata: "MarkataRss") -> None:
     status = "published"
     all_posts = reversed(sorted(markata.articles, key=lambda x: x["date"]))
