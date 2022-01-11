@@ -1,7 +1,8 @@
 ---
 date: 2022-01-12 03:25:36.794864
+author: Waylon S. Walker
 templateKey: til
-title:
+title: Converting markdown to pdf with pandoc on linux
 tags:
   - linux
   - blog
@@ -9,8 +10,14 @@ tags:
 
 ---
 
+Converting markdown posts to pdf on ubuntu takes a few packages from the
+standard repos.  I had to go through a few stack overflow posts, and
+nothing seemed to have all the fonts and packages that I needed to
+convert markdown, but this is what ended up working for me.
 
-``` python
+## Installing all the packages
+
+``` bash
 sudo apt install \
   pandoc \
   texlive-latex-base \
@@ -20,6 +27,17 @@ sudo apt install \
   texlive-xetex
 ```
 
+## Using pandoc to convert markdown to a pdf.
+
 ``` python
-pandoc bash.md -o bash.pdf --latex-engine=xelatex
+pandoc pages/til/convert-markdown-pdf-linux.md -o convert-markdown-pdf.pdf --latex-engine=xelatex
+pandoc pages/til/convert-markdown-pdf-linux.md -o convert-markdown-pdf.pdf --pdf-engine=xelatex
 ```
+
+
+
+![results of converting this post to a pdf](https://images.waylonwalker.com/convert-markdown-pdf-linux-result.png)
+
+> Here is an image of what converting this article over to a pdf looks
+> like.  The raw markdown is
+> [here](https://waylonwalker.com/convert-markdown-pdf-linux.md).
