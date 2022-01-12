@@ -30,7 +30,9 @@ sudo apt install \
 ## Using pandoc to convert markdown to a pdf.
 
 ``` python
+# older versions of pandoc, I needed this one on ubuntu 18.04
 pandoc pages/til/convert-markdown-pdf-linux.md -o convert-markdown-pdf.pdf --latex-engine=xelatex
+# newer versions of pandoc, I needed this one on ubuntu 21.04
 pandoc pages/til/convert-markdown-pdf-linux.md -o convert-markdown-pdf.pdf --pdf-engine=xelatex
 ```
 
