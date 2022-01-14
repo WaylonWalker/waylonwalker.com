@@ -40,7 +40,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: run markata
-        run: markata build --no-rich
+        run: markata --profile build --no-rich
 
       - name: create root
         run: |
