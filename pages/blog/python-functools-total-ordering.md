@@ -13,7 +13,7 @@ operators to your custom classes much easier, and more likely that you
 remember all of them.
 
 > From the Docs: The class must define one of \_\_lt\_\_(), \_\_le\_\_(),
-> \_\_gt\_\_(), or \_\_ge\_\_(). In addition, the class should supply an
+> \_\_gt\_\_(), or \_\_ge\_\_ In addition, the class should supply an
 > \_\_eq\_\_() method.
 
 [Total Ordering Docs](https://docs.python.org/3/library/functools.html#functools.total_ordering)
