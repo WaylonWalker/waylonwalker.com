@@ -8,6 +8,17 @@ status: draft
 
 ---
 
+functools.total_ordering makes adding all of six of the rich comparison
+operators to your custom classes much easier, and more likely that you
+remember all of them.
+
+> From the Docs: The class must define one of __lt__(), __le__(),
+> __gt__(), or __ge__(). In addition, the class should supply an
+> __eq__() method.
+
+[Total Ordering Docs](https://docs.python.org/3/library/functools.html#functools.total_ordering)
+
+Here is an example using the Enum I was working on the other day.
 
 ```
 from enum import Enum, auto
