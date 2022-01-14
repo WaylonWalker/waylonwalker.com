@@ -20,7 +20,7 @@ remember all of them.
 
 Here is an example using the Enum I was working on the other day.
 
-```
+``` python
 from enum import Enum, auto
 from functools import total_ordering
 
