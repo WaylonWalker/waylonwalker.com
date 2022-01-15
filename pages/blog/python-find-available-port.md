@@ -4,11 +4,13 @@ templateKey: til
 title: Python Find Available Port
 tags:
   - python
-  - python
-  - python
-status: draft
 
 ---
+
+When running a python process that requires a port it's handy if there is an
+option for it to just run on the next avaialble port.  To do this we can use
+the socket module to determine if the port is in use or not before starting our
+process.
 
 ``` python
 import socket
