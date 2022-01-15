@@ -4,6 +4,8 @@ import textwrap
 from typing import TYPE_CHECKING, Dict, List
 
 from markata.hookspec import hook_impl, register_attr
+import json
+from pathlib import Path
 
 if TYPE_CHECKING:
     from markata import Markata
@@ -44,3 +46,9 @@ def render(markata: "Markata") -> None:
     markata.codeblocks = []
     for article in markata.iter_articles(description="creating codeblocks"):
         markata.codeblocks.extend(find_codeblocks(article.content))
+
+
+@hook_impl
+def save(markata: "Markata") -> None:
+    output_file = Path(markata.config["output_dir"]) / "codeblocks.json"
+    output_file.write_text(json.dumps(markata.codeblocks))
