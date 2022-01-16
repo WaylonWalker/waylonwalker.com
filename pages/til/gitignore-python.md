@@ -1,5 +1,5 @@
 ---
-date: 2022-01-18 15:16:33.238144
+date: 2022-01-17 15:16:33.238144
 templateKey: til
 title: Python Respect the .gitignore
 tags:

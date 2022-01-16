@@ -1,5 +1,5 @@
 ---
-date: 2022-01-17 15:27:22.251161
+date: 2022-01-16 15:27:22.251161
 templateKey: til
 title: Rename Python Variables with nvim
 tags:
