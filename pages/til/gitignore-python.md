@@ -36,4 +36,4 @@ if (Path(".gitignore").exists():
     ]
 ```
 
-https://github.com/cpburnz/python-path-specification
+`pathspec` [home page](https://github.com/cpburnz/python-path-specification)
