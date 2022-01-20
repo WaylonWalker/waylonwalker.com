@@ -50,6 +50,7 @@ you to fix.  Often times the list of errors grows before it shrinks.
 ``` toml
 [mypy]
 check_untyped_defs = True
+disallow_untyped_defs = True
 ```
 
 ## Anthony's video
