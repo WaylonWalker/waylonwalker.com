@@ -11,3 +11,4 @@ def pre_render(markata) -> None:
             article["year"] = article["date"].year
         except KeyError:
             article["year"] = datetime.datetime.today().year
+            article["date"] = datetime.datetime.today().min
