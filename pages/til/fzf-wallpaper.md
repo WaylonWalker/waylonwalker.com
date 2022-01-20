@@ -1,5 +1,5 @@
 ---
-date: 2022-01-20 01:17:26.193849
+date: 2022-01-19 01:17:26.193849
 templateKey: til
 title: fuzzy wallpaper with fzf
 tags:
