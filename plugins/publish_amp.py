@@ -8,6 +8,13 @@ if TYPE_CHECKING:
     from markata import Markata
 
 
+def _try_get_date(article):
+    try:
+        return article.metadata["date"]
+    except KeyError:
+        return None
+
+
 @hook_impl
 def render(markata: "Markata") -> None:
     template_file = markata.config["amp_template"]
@@ -15,6 +22,7 @@ def render(markata: "Markata") -> None:
         template = Template(f.read())
     with markata.cache as cache:
         for article in markata.iter_articles("apply amp template"):
+            date = _try_get_date(article)
             key = markata.make_hash(
                 __file__,
                 Path(__file__).read_text(),
@@ -23,7 +31,7 @@ def render(markata: "Markata") -> None:
                 article.article_html,
                 article.metadata["title"],
                 article.metadata["slug"],
-                article.metadata["date"],
+                date,
             )
             amp_html_from_cache = cache.get(key)
             if amp_html_from_cache is None:
@@ -31,7 +39,7 @@ def render(markata: "Markata") -> None:
                     body=article.article_html,
                     title=article.metadata["title"],
                     slug=article.metadata["slug"],
-                    date=article.metadata["date"],
+                    date=date,
                 )
             else:
                 amp_html = amp_html_from_cache
