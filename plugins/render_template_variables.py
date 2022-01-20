@@ -13,7 +13,8 @@ def pre_render(markata) -> None:
         except KeyError:
             article["year"] = datetime.datetime.today().year
             article["date"] = datetime.datetime.today().min
-        if isinstance(article["date"], datetime.date):
-            article["date"] = datetime.datetime.combine(
-                article["date"], datetime.datetime.min.time()
-            )
+        if isinstance(article["date"], datetime.datetime):
+            # article["date"] = datetime.datetime.combine(
+            #     article["date"], datetime.datetime.min.time()
+            # )
+            article["date"] = article["date"].date()
