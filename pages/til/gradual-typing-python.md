@@ -4,8 +4,6 @@ templateKey: til
 title: Gradual Typing in Python
 tags:
   - python
-  - python
-  - python
 
 ---
 
@@ -14,7 +12,7 @@ times.  Walking through his gradual typing process has really helped me
 understand typing better, and has helped me make some projects better over time
 rather than getting slammed with typing errors.
 
-https://www.youtube.com/watch?v=Rk-Y71P_9KE
+https://youtu.be/Rk-Y71P_9KE
 
 # Step 1
 
