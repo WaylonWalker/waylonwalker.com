@@ -32,7 +32,8 @@ mypy my-script.py
 ## Step 2
 
 Next we will add `check-untyped-defs`, this will start checking inside
-functions that are not typed.
+functions that are not typed.  To add this to your config create a
+`setup.cfg` with the following.
 
 ``` toml
 [mypy]
@@ -52,5 +53,8 @@ check_untyped_defs = True
 ```
 
 ## Anthony's video
+
+Make sure that you watch Anthony's video, give him a sub, he deserves it
+for all the great things he is doing for the python community.
 
 https://www.youtube.com/watch?v=Rk-Y71P_9KE
