@@ -14,6 +14,8 @@ https://waylonwalker.com/latest/
 
 STOP LEAVING Browser Tabs open and save them here!
 
+* [box python library](https://github.com/cdgriffith/Box/wiki/Types-of-Boxes#camel-killer-box)
+* [kedro on hn](https://news.ycombinator.com/item?id=30037766#30039809)
 * [How can a Data Scientist refactor Jupyter notebooks towards production-quality code?](https://laszlo.substack.com/p/how-can-a-data-scientist-refactor)
 * [Sourcing vs executing in Bash](https://qmacro.org/autodidactics/2021/10/14/sourcing-vs-executing-in-bash/)
 * [Should We Follow The Open-Closed Principle?](https://thevaluable.dev/open-closed-principle-revisited/)
