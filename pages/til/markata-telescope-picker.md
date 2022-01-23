@@ -29,3 +29,5 @@ nnoremap geig <cmd>Telescope find_files find_command=markata,list,--map,path,--f
 
 > NOTE telescope treates each word as a string, do not wrap an extra
 > layer of quotes around your words, it gets messy.
+
+![using this picker in neovim](https://images.waylonwalker.com/markata-list-telescope-picker.png)
