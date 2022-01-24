@@ -59,6 +59,15 @@ jobs:
       #   env:
       #     NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
       #     NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+      #
+      - name: GitHub Pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: crazy-max/ghaction-github-pages@v2.6.0
+        with:
+          target_branch: markout
+          build_dir: markout
+          jekyll: false
 
       - uses: actions/setup-node@v2
         with:
