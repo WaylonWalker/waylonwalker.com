@@ -27,7 +27,7 @@ def render(markata: "Markata") -> None:
                 __file__,
                 Path(__file__).read_text(),
                 "render",
-                article["content_hash"],
+                article["content"],
                 article.article_html,
                 article.metadata["title"],
                 article.metadata["slug"],

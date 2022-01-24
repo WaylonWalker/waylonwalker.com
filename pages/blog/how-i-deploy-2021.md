@@ -163,7 +163,7 @@ def render(markata: "Markata") -> None:
     with markata.cache as cache:
         for article in markata.iter_articles("rendering markdown"):
             key = markata.make_hash(
-                "render_markdown", "render", article["content_hash"]
+                "render_markdown", "render", article["content"]
             )
             html_from_cache = cache.get(key)
             if html_from_cache is None:
@@ -188,7 +188,7 @@ rebuild by changing anything inside of the configuration file.
 
 ``` yaml
 
-- name: Cache 
+- name: Cache
 uses: actions/cache@v2
 with:
     path: .markata.cache
@@ -208,4 +208,3 @@ run: markata --no-rich
 ## Netlify
 
 I deploy to netlify but any static site host would work.
-
