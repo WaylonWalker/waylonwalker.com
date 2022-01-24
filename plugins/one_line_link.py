@@ -126,10 +126,10 @@ def pre_render(markata):
         for article in markata.articles:
 
             html_key = markata.make_hash(
-                "one_line_link", "render", "html", article["content"]
+                "one_line_link", "render", "html", article.content
             )
             expanded_content_key = markata.make_hash(
-                "one_line_link", "render", "expanded_content", article["content"]
+                "one_line_link", "render", "expanded_content", article.content
             )
             html_from_cache = cache.get(html_key)
             expanded_content_from_cache = cache.get(expanded_content_key)

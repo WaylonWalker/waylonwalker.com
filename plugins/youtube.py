@@ -56,7 +56,7 @@ def post_render(markata):
                 __file__,
                 Path(__file__).read_text(),
                 "post_render",
-                article["content"],
+                article.content,
                 article.html,
             )
 

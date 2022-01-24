@@ -163,7 +163,7 @@ def render(markata: "Markata") -> None:
     with markata.cache as cache:
         for article in markata.iter_articles("rendering markdown"):
             key = markata.make_hash(
-                "render_markdown", "render", article["content"]
+                "render_markdown", "render", article.content
             )
             html_from_cache = cache.get(key)
             if html_from_cache is None:
