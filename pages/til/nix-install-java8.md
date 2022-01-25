@@ -13,10 +13,15 @@ With the latest version of minecraft it requires a very new, possibly
 the latest, version of java.  Lately we have been getting into modded
 minecraft and I maintain the server for us.  It's been tricky to say the
 least.  One hurdle I recently hit involves having the wrong version of
-java.  In researching our errors, I found this on a forum.
+java.
+
+I was getting this error trying to get a 1.12.2 forge server running.
+
+> Caused by: java.lang.ClassCastException: class jdk.internal.loader.ClassLoaders$AppClassLoader cannot be cast to class java.net.URLClassLoader (jdk.internal.loader.ClassLoaders$AppClassLoader and java.net.URLClassLoader are in module java.base of loader 'bootstrap')
+
+In researching our errors, I found this on a forum.
 
 > Pre-1.13 Forge only works with Java 8.
-
 
 I don't write java, or really know how to manage different versions of
 java, but I have nixpkgs installed and it has a ton of odd stuff like
