@@ -1,5 +1,5 @@
 ---
-date: 2022-01-25 02:50:56.920579
+date: 2022-01-26 02:50:56.920579
 templateKey: til
 title: Tmux and Vim Clipboard for Ubuntu
 tags:
