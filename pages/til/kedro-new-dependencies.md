@@ -1,12 +1,10 @@
 ---
-templateKey: blog-post
+templateKey: til
 tags: ['kedro', 'python']
 title: Add New Dependencies to Your Kedro Project
-date: 2021-08-24T22:40:45
-status: draft
+date: 2022-01-28T21:30:48
 
 ---
-
 
 As you work on your kedro projects you are bound to need to add more
 dependencies to the project eventually.  Kedro uses a fantastic command
@@ -21,6 +19,12 @@ your git status is clean.  I'd even reccomend starting a new branch for this,
 and if you are working on a team potentially submit this as its own PR for
 clarity.
 
+``` bash
+git status
+git checkout main
+git checkout -b add-rich-dependency
+```
+
 ## requirements.in
 
 New requirements get added to a requirements.in file.  If you need to specify
@@ -29,10 +33,10 @@ generally work you can leave it open.
 
 ``` bash
 # requirements.in
-colorama
+rich
 ```
 
-Here I added the popular colorama package to my `requirements.in` file.  Since
+Here I added the popular `rich` package to my `requirements.in` file.  Since
 I am ok with the latest version I am not going to pin anything, I am going to
 let the pip resolver pick the latest version that does not conflict with any of
 my dependencies for me.
@@ -56,9 +60,11 @@ submit a PR for them if you are working on a team.  This is a good way to
 document the discussion of adding new dependencies to your teams project.
 
 ``` bash
-git add .
-git commit -m "FEAT updated dependencies with colorama"
+git add requirements.in
+git add requirements.txt
+git status
+git commit -m "FEAT updated dependencies with rich"
+git push
+# go make a pr
+gh pr create --title "feat add rich to dependencies" --body "I added rich as a dependency, and ran pip-compile"
 ```
-
-
-
