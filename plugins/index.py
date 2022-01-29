@@ -69,6 +69,7 @@ def create_card(post, template=None):
         return textwrap.dedent(
             f"""
             <li class='post {post['templateKey']}'>
+            <a href="/{post['slug']}/">
                 <h2 class='title'>{post['title']}</h2>
                 <p class='description'>{post['long_description']}</p>
                 <div>
@@ -77,7 +78,6 @@ def create_card(post, template=None):
                     {post['templateKey']}
                     </p>
                 </div>
-            <a href="/{post['slug']}/">
             </a>
             </li>
             """
