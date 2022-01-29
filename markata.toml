@@ -63,13 +63,16 @@ twitter_creator = "@_waylonwalker"
 twitter_site = "@_waylonwalker"
 
 [markata.auto_publish.filters]
-til='templateKey=="til" and date>=today'
+til='templateKey=="til" and date<=today'
 
 [markata.archive]
 archive_template="pages/templates/archive_template.html"
 
 [markata.archive.pages.archive]
-filter="date<=today and templateKey=='blog-post' and status.lower()=='published'"
+filter="date<=today and templateKey in ['blog-post', 'til'] and status.lower()=='published'"
+
+[markata.archive.pages.blog]
+filter="date<=today and templateKey in ['blog-post'] and status.lower()=='published'"
 
 [markata.archive.pages.draft]
 filter="status=='draft'"
