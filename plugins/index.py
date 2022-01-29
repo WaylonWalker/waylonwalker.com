@@ -68,11 +68,16 @@ def create_card(post, template=None):
     if template is None:
         return textwrap.dedent(
             f"""
-            <li class='post'>
-            <a href="/{post['slug']}/">
+            <li class='post {post['templateKey']}'>
                 <h2 class='title'>{post['title']}</h2>
                 <p class='description'>{post['long_description']}</p>
-                <p class='date'>{post['date'].year}-{post['date'].month}-{post['date'].day}</p>
+                <div>
+                    <p class='date'>{post['date'].year}-{post['date'].month}-{post['date'].day}</p>
+                    <p>
+                    {post['templateKey']}
+                    </p>
+                </div>
+            <a href="/{post['slug']}/">
             </a>
             </li>
             """
