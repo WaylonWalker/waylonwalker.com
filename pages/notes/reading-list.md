@@ -49,6 +49,10 @@ https://twitter.com/johnlindquist/status/1441475577693671427
 * [telescope 987](https://github.com/nvim-telescope/telescope.nvim/pull/987)
 * [nvim how to doc plugins](https://github.com/tjdevries/tree-sitter-lua#how-to-generate-documentation)
 
+## Topic Ideation
+
+* [semrush](https://www.semrush.com/topic-research/61f49a2c01de510001fec3bb/overview/)
+
 ## prime and nic
 
 https://www.twitch.tv/videos/1229603481
