@@ -9,7 +9,7 @@ tags:
 
 I've never found a great use for a global `.gitignore` file.  Mostly I fear
 that by adding a lot of the common things like `.pyc` files it will be missing
-from the project and inevitibly be commited to the project by someone else.
+from the project and inevitably be committed to the project by someone else.
 
 ## Personal Tools
 
