@@ -1,5 +1,5 @@
 ---
-date: 2022-02-01 21:52:36.216253
+date: 2022-01-31 21:52:36.216253
 templateKey: til
 title: Lambda Function as a Kedro Node
 tags:
