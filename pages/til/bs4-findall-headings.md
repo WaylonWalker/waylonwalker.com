@@ -1,5 +1,5 @@
 ---
-date: 2022-02-02 16:17:18.632158
+date: 2022-02-01 16:17:18.632158
 templateKey: til
 title: Find all Headings with BeautifulSoup
 tags:
