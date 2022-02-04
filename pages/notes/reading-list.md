@@ -14,6 +14,7 @@ https://waylonwalker.com/latest/
 
 STOP LEAVING Browser Tabs open and save them here!
 
+* [photo prism](https://demo.photoprism.app/browse)
 * [box python library](https://github.com/cdgriffith/Box/wiki/Types-of-Boxes#camel-killer-box)
 * [kedro on hn](https://news.ycombinator.com/item?id=30037766#30039809)
 * [How can a Data Scientist refactor Jupyter notebooks towards production-quality code?](https://laszlo.substack.com/p/how-can-a-data-scientist-refactor)
