@@ -12,3 +12,5 @@ chance at training with treats, and its amazing how fast just a young
 pup is picking up commands.  He seems REALLY smart compared to most
 other animals that I have had close contact with.  It could also be that
 with Rhiannons great research we are starting him off on the right foot.
+
+[![Dobby Jumping Through the Snow](https://images.waylonwalker.com/dobby-snow-jump-feb-2022.webp)](https://images.waylonwalker.com/dobby-snow-jump-feb-2022-full.webp)
