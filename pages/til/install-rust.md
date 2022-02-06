@@ -15,7 +15,7 @@ replicate your development machine if it ever goes down.
 
 I try to install everything that I will want to use for more than just a
 trial inside of my ansible playbook.  This way I always get the same
-setup accross my work and home machines, and anytime I might setup a
+setup across my work and home machines, and anytime I might setup a
 throw away vm.
 
 ## reccommended install
