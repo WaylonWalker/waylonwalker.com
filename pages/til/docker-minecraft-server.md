@@ -65,6 +65,8 @@ attaching to it.
 docker attach walkercraft
 ```
 
+## A few common commands we run in the server
+
 We play very casually most of the time so we will set keepInventory to
 true so that we do not loose our inventory when we die.  Sometimes we
 also op ourselve so that we can toggle gamemode into creative.
