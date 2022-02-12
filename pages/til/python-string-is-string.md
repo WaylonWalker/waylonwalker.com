@@ -7,6 +7,8 @@ tags:
 
 ---
 
+In python, a string is a string until you add special characters.
+
 In browsing twitter this morning I came accross this tweet, that showed that
 you can use `is` accross two strings if they do not contain special characters.
 
