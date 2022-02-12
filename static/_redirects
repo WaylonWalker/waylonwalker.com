@@ -157,8 +157,6 @@
 /variables-names-dont-need-their-type                       /variable-names-don-t-need-their-type/
 /variables-names-dont-need-their-type/                      /variable-names-don-t-need-their-type/
 
-/bash                                                       /notes/bash/
-
 # more encompassing
 /b/*                                                        /:splat/
 
