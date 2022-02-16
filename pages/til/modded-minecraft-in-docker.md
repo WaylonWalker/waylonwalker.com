@@ -39,7 +39,7 @@ run multiple things, just for the simple start command.
 Create a directory for your server and add the following to a
 `docker-compose.yml` file.
 
-```
+``` yaml
 version: "3.8"
 
 services:
