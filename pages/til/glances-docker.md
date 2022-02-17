@@ -7,6 +7,13 @@ tags:
 
 ---
 
+Glances is a system monitor with a ton of features, including docker processes.
+
+I have started using portainer to look at running docker processes, its a great
+heavy-weight docker process monitor.  glances works as a great lightweight
+monitor to just give you the essentials, ( Name, Status, CPU%, MEM, /MAX,
+IOR/s, IOW/s, Rx/s, Tx/s, Command)
+
 ## install
 
 You will need to install glances to use the glances webui.  We can still use
@@ -26,6 +33,9 @@ done! ✨ 🌟 ✨
 ```
 
 ## results
+
+Now running glances will also show information about your running docker
+containers.
 
 ![running glances with docker installed will show your docker processes](https://images.waylonwalker.com/glances-docker.png)
 
