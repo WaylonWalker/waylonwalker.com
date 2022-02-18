@@ -1,5 +1,5 @@
 ---
-date: 2022-02-19 16:25:49.548226
+date: 2022-02-20 16:25:49.548226
 templateKey: til
 title: Glances webui with pipx
 tags:
