@@ -1,5 +1,5 @@
 ---
-date: 2022-02-18 15:44:02.824187
+date: 2022-02-21 15:44:02.824187
 templateKey: til
 title: Revive files from the dead with git
 tags:
