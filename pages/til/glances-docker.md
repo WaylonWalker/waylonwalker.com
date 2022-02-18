@@ -1,5 +1,5 @@
 ---
-date: 2022-02-20 16:38:42.811882
+date: 2022-02-22 16:38:42.811882
 templateKey: til
 title: Glances can watch docker processes
 tags:
