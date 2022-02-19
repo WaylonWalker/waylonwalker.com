@@ -13,7 +13,7 @@ Right inside the git [docs](https://git-scm.com/docs/git-reflog#_description),
 is states that the `git reflog` command runs `git reflog show` by default which
 is an alias for `git log -g --abbrev-commit --pretty=oneline`
 
-This epiphany depens my understanding of git, and lets me undersand that most
+This epiphany deepens my understanding of git, and lets me understand that most
 `git log` flags might also work with `git log -g`.
 
 
