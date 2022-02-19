@@ -1,9 +1,10 @@
 ---
 date: 2022-02-19 15:02:52.318805
 templateKey: til
-title: Git reflog is simply an alias for git log -g
+title: Git reflog is an alias for git log -g
 tags:
   - git
+  - cli
 
 ---
 
