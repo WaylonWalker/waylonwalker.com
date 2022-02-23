@@ -10,8 +10,8 @@ tags:
 
 Git has a built in way to rebase all the way back to the beginning of
 time.  There is no need to scroll through the log to find the first
-hash, or find the total number of commits. Just use `--root`
+hash, or find the total number of commits. Just use `--root`.
 
-```
+``` bash
 git rebase --root
 ```
