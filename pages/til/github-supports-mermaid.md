@@ -1,5 +1,5 @@
 ---
-date: 2022-02-25 15:22:31.386290
+date: 2022-02-24 15:22:31.386290
 templateKey: til
 title: GitHub Markdown now Supports Mermaid Diagrams
 tags:
@@ -18,7 +18,7 @@ tags:
       B-->D;
       C-->D-->OUT;
       E-->F-->G-->OUT
-      
+
 ```
 ```mermaid
 graph TD;
