@@ -37,6 +37,14 @@ suggested.
 flatpak run com.obsproject.Studio
 ```
 
+## It Works
+
+Pretty straightforward, following the instructions given it all worked
+for me, but it was missing a lot of the plugins that the current snap
+package I am using gives me (namely virtual webcam).  So I am not ready
+to jump onto it until I figure out how to manage my own obs plugins.
+For now I think the snap is working just well enough.
+
 ## Links
 
 * [flatpak setup for ubuntu](https://flatpak.org/setup/Ubuntu)
