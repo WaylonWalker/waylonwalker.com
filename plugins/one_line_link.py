@@ -98,15 +98,7 @@ def get_one_line_link(link):
     <div class="onelinelink-wrapper">
         <a class="onelinelink" href="{url}">
             <img style="float: right;" align='right' src="{sm_img}" alt="article cover for {title}"/>
-            <div class="right">
-                <h2>{title}</h2>
-                <p class="description">
-                {description}
-                </p>
-                <p class="url">
-                <span class="read-more">read more</span>  waylonwalker.com
-                </p>
-            </div>
+            <p><strong>{title}</strong></p>
         </a>
     </div>
     """
