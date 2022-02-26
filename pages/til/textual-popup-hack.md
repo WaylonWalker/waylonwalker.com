@@ -47,6 +47,13 @@ async def action_new_post(self) -> None:
     proc.wait()
 ```
 
+## example
+
+Here is what the running todo application looks like with the copier
+popup over it.
+
+![example of the popup running over textual](https://images.waylonwalker.com/textual-popup-hack.png)
+
 https://waylonwalker.com/tmux-popups/
 
 > a bit more on tmux-popus [here] https://waylonwalker.com/tmux-popups/)
