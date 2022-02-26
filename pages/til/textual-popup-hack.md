@@ -49,6 +49,8 @@ async def action_new_post(self) -> None:
 
 https://waylonwalker.com/tmux-popups/
 
+> a bit more on tmux-popus [here] https://waylonwalker.com/tmux-popups/)
+
 ## Links
 
 * [textual repo](https://github.com/Textualize/textual/)
