@@ -1,7 +1,7 @@
 ---
 date: 2022-03-04 19:08:49.539488
 templateKey: til
-title: Dedup your shell paths
+title: Dedupe your shell paths
 tags:
   - linux
   - cli
