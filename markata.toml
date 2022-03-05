@@ -40,9 +40,6 @@ hooks = [
    ]
 disabled_hooks = ["markata.plugins.covers", 'markata.plugins.flat_slug']
 
-[markata.auto_description.long_description]
-len=250
-
 ## Site Config
 url = "https://waylonwalker.com"
 images_url = "https://images.waylonwalker.com"
