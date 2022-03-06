@@ -99,8 +99,6 @@ graph TD;
     A --> B
     B --> C
 
-    subgraph raw_iot
-        a
     subgraph warehouse
         A
         C
