@@ -46,8 +46,8 @@ edits, all straight from obs.
 * filtering pipelines with list comps
 * globbing for catalog entries in the repl
 * activate-nbstripout
-* build-docs         
-* build-reqs         
+* build-docs
+* build-reqs
 * kedro package
 * kedro lint
 * kedro test
@@ -58,7 +58,7 @@ edits, all straight from obs.
 * create custom kedro cli commands
 * override kedro cli commands
 * accessing the kedro session
-* installing kedro hooks 
+* installing kedro hooks
 * creating your first kedro hook
 * mu-repo to update many projects
 * Custom DataSets
@@ -70,6 +70,8 @@ edits, all straight from obs.
 * find-kedro
 * Kedro-diff
 * Docker
+
+* pip-tools
 
 sony 205ms
 cannon 370ms
