@@ -7,6 +7,10 @@ tags:
 
 ---
 
+Has no upstream branch errors in git can be such a damn productivity killer.
+You gotta stop your flow and swap over the branch, there is a config so that
+you don't have to do this.
+
 ## **fatal** has no upstream branch
 
 If you have not yet configured git to always push to the current branch, you
