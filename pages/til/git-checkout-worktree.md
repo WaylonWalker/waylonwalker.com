@@ -1,7 +1,7 @@
 ---
 date: 2022-03-10 19:19:34.621410
 templateKey: til
-title: Git Checkout Worktree
+title: Git Worktrees are not so Scary
 tags:
   - git
   - cli
