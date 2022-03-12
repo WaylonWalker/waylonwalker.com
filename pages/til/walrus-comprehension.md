@@ -8,10 +8,10 @@ tags:
 ---
 
 Python 3.8 came out two and a half years ago and I have yet to really lean in
-on the walrus operator.  Partly becuase it always seemed like something kinda
+on the walrus operator.  Partly because it always seemed like something kinda
 silly (my use cases) to require a python version bump for, and partly because I
 really didn't understand it the best.  Primarily I have wanted to use it in
-comprensions, but I did not really understand how.
+comprehensions, but I did not really understand how.
 
 Now that Python 3.6 is end of life, and most folks are using at least `3.8` it
 seems time to learn and use it.
@@ -62,5 +62,5 @@ dictionary that we want to keep, and not hit the url twice.
 
 ## FIN
 
-The walrus is a nice to have option to save on extra funcion/network calls, and
+The walrus is a nice to have option to save on extra function/network calls, and
 micro optimize your code without adding much extra.
