@@ -76,9 +76,7 @@ def post_render(markata):
     with markata.cache as cache:
         for article in markata.articles:
             key = markata.make_hash(
-                __file__,
                 Path(__file__).read_text(),
-                "post_render",
                 article.html,
             )
             html_from_cache = cache.get(key)
@@ -86,7 +84,7 @@ def post_render(markata):
                 soup = BeautifulSoup(article.html, "html.parser")
                 swap_gifs(soup)
                 html = soup.prettify()
-                cache.add(key, html, expire=15 * 24 * 60 * 60)
+                cache.add(key, html, expire=markata.config["default_cache_expire"])
 
             else:
                 html = html_from_cache
