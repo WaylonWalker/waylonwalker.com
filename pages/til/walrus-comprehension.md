@@ -59,3 +59,8 @@ dictionary that we want to keep, and not hit the url twice.
     if (r := requests.get(url)).status_code == 200
 }
 ```
+
+## FIN
+
+The walrus is a nice to have option to save on extra funcion/network calls, and
+micro optimize your code without adding much extra.
