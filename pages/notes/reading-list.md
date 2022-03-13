@@ -14,6 +14,7 @@ https://waylonwalker.com/latest/
 
 STOP LEAVING Browser Tabs open and save them here!
 
+* [jbrancha til](https://dev.to/jbranchaud/how-i-built-a-learning-machine-45k9)
 * [The Video Course Launch that Made Me Think](https://christoph-rumpel.com/2020/8/the-video-course-launch-that-made-me-think)
 * [photo prism](https://demo.photoprism.app/browse)
 * [box python library](https://github.com/cdgriffith/Box/wiki/Types-of-Boxes#camel-killer-box)
