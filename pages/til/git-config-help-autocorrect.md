@@ -1,5 +1,5 @@
 ---
-date: 2022-03-16 00:43:25.577395
+date: 2022-03-15 00:43:25.577395
 templateKey: til
 title: Configure Git to Autocorrect Your Fat Fingers
 tags:
