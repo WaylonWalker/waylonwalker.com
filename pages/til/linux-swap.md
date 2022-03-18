@@ -1,5 +1,5 @@
 ---
-date: 2022-03-20 13:29:49.002948
+date: 2022-03-18 13:29:49.002948
 templateKey: til
 title: Create a Swapfile on Your Linux Machine
 tags:
@@ -40,4 +40,4 @@ Swap:          4.0Gi          0B       4.0Gi
 
 https://waylonwalker.com/reset-ipython
 
-> I also used this trick in this article
+> I also used this trick in this article to give my python process a bit more oompf and get it on home.
