@@ -26,6 +26,11 @@ sudo mkswap /swap
 sudo swapon /swap
 ```
 
+## make sure that your swap is on
+
+You can make sure that your swap is working by using the `free` command, I like
+using the `-h` flag to get human readable numbers.
+
 ```bash
 ❯ free -h
                total        used        free      shared  buff/cache   available
@@ -34,3 +39,5 @@ Swap:          4.0Gi          0B       4.0Gi
 ```
 
 https://waylonwalker.com/reset-ipython
+
+> I also used this trick in this article
