@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 tags: ['blog', ]
-title: How I deploy my blog in 2022
+title: How I deploy my blog in 2022 | https://waylonwalker.com/how-i-deploy-2022
 date: 2021-10-29
 status: draft
 
@@ -84,8 +84,6 @@ You are your biggest audience out of the gate.
               └────────────────┘
 ```
 
-
-
 ## Let's Make a Til
 _the process_
 
@@ -151,23 +149,12 @@ generator I decided it was time to switch to a language I was far more
 comfortable in.  At the time I was really interested in learning how to build
 my own frameworks with pluggy, so a new static site generator was born.
 
-## frontmatter
+## Part 3 How it's deployed
 
-By the time I get out of my
+This part might be a ton of code coming quick.
 
-``` yaml
----
-templateKey: blog-post
-tags: ['kedro', ]
-title: How I deploy my blog in 2022
-date: 2021-10-29
-status: draft
-
----
-```
-
-
-## Description
+* Show how it comes together
+* Link to the slides
 
 ## Markata was born
 
@@ -183,18 +170,29 @@ of active plugins in your markata.toml.
 * cache store
 * toml based configuration
 
-## Markdown
+## frontmatter
 
-All of the content on this site is written in markdown and always has been.
-Moving to the new site I chose to use pymdown-extensions so that I could
-potentially use some of their great existing extensions.
+By the time I get out of my
 
+``` yaml
+---
+templateKey: blog-post
+tags: ['kedro', ]
+title: How I deploy my blog in 2022
+date: 2021-10-29
+status: draft
+
+---
 ```
+
+## Everything is markdown
+
+``` python
 pymdown-extensions
 python-frontmatter
 ```
 
-setting up extensions
+## setting up extensions
 
 ``` python
 DEFAULT_MD_EXTENSIONS = [
@@ -214,32 +212,32 @@ DEFAULT_MD_EXTENSIONS = [
     "pymdownx.saneheaders",
     "codehilite",
 ]
+```
 
-self.markdown_extensions = [*DEFAULT_MD_EXTENSIONS, *markdown_extensions]
-self.md = markdown.Markdown(extensions=self.markdown_extensions)
+## setting the markdown object
+
+``` python
+self.markdown_extensions = [
+    *DEFAULT_MD_EXTENSIONS,
+    *markdown_extensions
+]
+self.md = markdown.Markdown(
+    extensions=self.markdown_extensions
+)
 ```
 
 ## Pluggy
 
-
 * comes from pytest
 * allows users to easily modify the framework to their liking
-
 
 ``` python
 """Define hook specs."""
 import pluggy
 
-HOOK_NAMESPACE = "markata"
 
-hook_spec = pluggy.HookspecMarker(HOOK_NAMESPACE)
-hook_impl = pluggy.HookimplMarker(HOOK_NAMESPACE)
-
-from typing import TYPE_CHECKING
-
-if TYPE_CHECKING:
-    from markata import Markata
-
+hook_spec = pluggy.HookspecMarker("markata")
+hook_impl = pluggy.HookimplMarker("markata")
 
 class MarkataSpecs:
     """
@@ -287,13 +285,14 @@ self._register_hooks()
 
 ## Diskcache
 
-Markata defines a diskcache cache for you.
+Diskcache allows you to setup a persistent cache layer
 
 ``` python
-    @property
-    def cache(self):
-        return FanoutCache(self.MARKATA_CACHE_DIR, statistics=True)
+def cache(self):
+    return FanoutCache(self.MARKATA_CACHE_DIR, statistics=True)
 ```
+
+## make a key
 
 Markata provides a convenience function to help make your own unique cache key
 consistently.
@@ -304,16 +303,21 @@ def make_hash(self, *keys: str) -> str:
     return hashlib.md5("".join(str_keys).encode("utf-8")).hexdigest()
 ```
 
+## accessing the cache
+
 Plugins can access the cache, add to it, and set thier own expiration interval.
 Here is an example from the built in markdown rendering function.
+
+## accessing the cache
 
 ``` python
 @hook_impl(tryfirst=True)
 def render(markata: "Markata") -> None:
     with markata.cache as cache:
-        for article in markata.iter_articles("rendering markdown"):
+        plugin_code = Path(__file__).read_text()
+        for article in markata.iter_articles():
             key = markata.make_hash(
-                "render_markdown", "render", article.content
+                 plugin_code, article.content
             )
             html_from_cache = cache.get(key)
             if html_from_cache is None:
@@ -336,6 +340,8 @@ straightforward with these four steps.  Keying off of the configuration will
 bust the cache every time we change the configuration.  You can hack a full
 rebuild by changing anything inside of the configuration file.
 
+## GitHub Actions
+
 ``` yaml
 
 - name: Cache
@@ -355,6 +361,16 @@ run: pip install git+https://github.com/WaylonWalker/markata.git@develop python-
 - name: run markata
 run: markata --no-rich
 ```
+
+## GitHub Actions
+
+``` python
+- name: install markata
+run: pip install git+https://github.com/WaylonWalker/markata.git@develop python-twitter background # checksumdir
+```
+
+I run bleeding edge, don't do that
+
 ## Netlify
 
 I deploy to netlify but any static site host would work.
@@ -364,3 +380,9 @@ I deploy to netlify but any static site host would work.
 Since Making the title I've moved to Cloudflare pages.
 
 > Netlify is great, but I'm cheap and wanted analytics
+
+## Results
+
+markata.dev
+
+Markdown to site, with seo, cover images, full works.
