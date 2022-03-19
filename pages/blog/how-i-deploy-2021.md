@@ -13,11 +13,24 @@ Content at the speed of thought.
 
 > well, as fast as I can type
 
-## 3 parts
+## Join the Slack
+
+Please ask questions in slack/slido
+
+If you are in the slack give me a 🔥🔥🔥🔥🔥🔥🔥
+
+## Channel: #track-1-appdev
+
+Let's light up slack 🔥🔥🔥🔥🔥🔥🔥
+
+## 4 parts
 
 * Why
 * My workflow
 * Under the hood
+* Open Source
+
+## Part 1 WHY
 
 ## I want to own my content
 
@@ -62,6 +75,10 @@ You are your biggest audience out of the gate.
 1. Let's start by making a post
 2. then show how it works under the hood
 
+## If you take away anything
+
+Focus on content that you want to consume.
+
 ## My Flow
 
 ``` txt
@@ -94,6 +111,12 @@ Check out his amazing [til repo](https://github.com/jbranchaud/til)
 > If you ask google very many questions about git, you will end up
 > finding him on the top
 
+## Copier
+
+I use [copier](https://copier.readthedocs.io/en/stable/) for single file
+templates.
+
+
 ## Copier give me a new page
 
 ``` bash
@@ -104,7 +127,7 @@ copier copy ~/.copier-templates/`ls ~/.copier-templates |\
 
 ## nvim open my file
 
-Once it starts getting uncomfortable to find posts, its nice to have
+!TIP Once it starts getting uncomfortable to find posts, its nice to have
 good shortcuts to get around.
 
 ## nvim open my file
@@ -142,6 +165,10 @@ I've tried to cross post to more, but it really gets overwhelming.
 * Twitter
 * dev.to
 
+## Cross Post
+
+I have a plugin to convert my markdown to a more dev.to friendly format.
+
 ## Part 3 How it's deployed
 
 After being sick of long and broken builds from my javascript-based static site
@@ -151,7 +178,7 @@ my own frameworks with pluggy, so a new static site generator was born.
 
 ## Part 3 How it's deployed
 
-This part might be a ton of code coming quick.
+This part might be a lot of code coming quick.
 
 * Show how it comes together
 * Link to the slides
@@ -170,6 +197,13 @@ of active plugins in your markata.toml.
 * cache store
 * toml based configuration
 
+## Everything is markdown
+
+``` python
+pymdown-extensions
+python-frontmatter
+```
+
 ## frontmatter
 
 By the time I get out of my
@@ -177,19 +211,12 @@ By the time I get out of my
 ``` yaml
 ---
 templateKey: blog-post
-tags: ['kedro', ]
+tags: ['webdev', 'meta' ]
 title: How I deploy my blog in 2022
 date: 2021-10-29
 status: draft
 
 ---
-```
-
-## Everything is markdown
-
-``` python
-pymdown-extensions
-python-frontmatter
 ```
 
 ## setting up extensions
@@ -230,6 +257,20 @@ self.md = markdown.Markdown(
 
 * comes from pytest
 * allows users to easily modify the framework to their liking
+
+## Pluggy
+
+This is what I use to create my lifecycle
+
+* configure
+* glob
+* load
+* pre_render
+* render
+* post_render
+* save
+
+## Pluggy
 
 ``` python
 """Define hook specs."""
@@ -386,3 +427,17 @@ Since Making the title I've moved to Cloudflare pages.
 markata.dev
 
 Markdown to site, with seo, cover images, full works.
+
+* seo/og tags
+* cover images
+* frontmatter cleansing
+* feeds
+* rss
+* cli
+* sitemap
+* heading links
+* build profiler
+
+## Links
+
+* [copier](https://copier.readthedocs.io/en/stable/) for single file
