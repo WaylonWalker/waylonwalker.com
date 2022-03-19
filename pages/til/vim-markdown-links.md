@@ -44,9 +44,13 @@ function! MdLinks()
     $norm o
     g/\[[^\]]\+\]([^)]\+)/t$
     silent! '^,$s/\v[^\[]*(\[[^\]]+\])\(([^)]+)\)[^\[]*/* \1(\2)/g
+    nohl
 endfunction
 command! MdLinks call MdLinks()
 ```
+
+So far it is working for me and saving me a few seconds off each post I
+make.
 
 ## Links
 
