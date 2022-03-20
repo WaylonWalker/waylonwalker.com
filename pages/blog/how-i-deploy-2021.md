@@ -2,8 +2,52 @@
 templateKey: blog-post
 tags: ['blog', ]
 title: How I deploy my blog in 2022 | https://waylonwalker.com/how-i-deploy-2022
+title: https://waylonwalker.com/how-i-deploy-2022
 date: 2021-10-29
 status: draft
+author: '@_waylonwalker'
+styles:
+    margin:
+        bottom: 0
+        left: 0
+        right: 0
+        top: 0
+    padding:
+        bottom: 0
+        left: 10
+        right: 10
+        top: 0
+    headings:
+        '1':
+            bg: default
+            fg: '#ff66c4,bold,italics'
+            prefix: ' ⇁ '
+            suffix: ' ↽ '
+    quote:
+        side: '│'
+        style:
+            bg: default
+            fg: '#aaa'
+        top_corner: '╭'
+        bottom_corner: '╰'
+    title:
+        bg: default
+        fg: '#e1af66,bold,italics'
+        fg: '#e1af66'
+    author:
+        bg: default
+        fg: '#ff66c4,bold,italics'
+        fg: '#368ce2'
+    date:
+        bg: default
+        fg: '#ff66c4,bold,italics'
+        fg: '#368ce2,bold,italics'
+        fg: '#368ce2'
+    slides:
+        bg: default
+        fg: '#ff66c4,bold,italics'
+        fg: '#368ce2,bold,italics'
+        fg: '#368ce2'
 
 ---
 
@@ -13,13 +57,28 @@ Content at the speed of thought.
 
 > well, as fast as I can type
 
-## Join the Slack
+## Ask Questions in slido
 
-Please ask questions in slack/slido
+Please ask questions in slido # 983 911 | App Dev 1 Track
+
+## Slido Poll
+
+Do **you** have a personal blog / notes / website?
+
+> * Yes - Static, built with python
+> * Yes - I manage a server running python
+> * Yes - Not python
+> * No
+
+we will circle back around in a few minutes
+
+## I'll give away my answer
+
+* Yes - Static, built with python
+
+## Slack Channel: #track-1-appdev
 
 If you are in the slack give me a 🔥🔥🔥🔥🔥🔥🔥
-
-## Channel: #track-1-appdev
 
 Let's light up slack 🔥🔥🔥🔥🔥🔥🔥
 
@@ -39,11 +98,20 @@ than a few hours old.
 
 ## [Learn In Public](https://www.swyx.io/learn-in-public/)
 
-I'm just some guy that posts about what I am learning.
+I'm creating learning exhaust.
 
 > Inspired by [swyx](https://www.swyx.io/learn-in-public/)
+> https://www.swyx.io/learn-in-public/
 
-## Some Stats
+## from swyx
+
+> Whatever your thing is, make the thing you wish you had found when you
+> were learning. Don’t judge your results by “claps” or retweets or
+> stars or upvotes - just talk to yourself from 3 months ago. I keep an
+> almost-daily dev blog written for no one else but me.
+
+
+## Some of my Stats
 
 * 48 Google top 10 ranking pages
 * 6500 monthly clicks on google
@@ -67,6 +135,10 @@ No one is going to make comments.
 You are your biggest audience out of the gate.
 
 > If you continue writing others like you will find you
+
+## Slido Check
+
+Please ask questions in slack/slido
 
 ## Part 2 Workflow and tools
 
@@ -101,7 +173,7 @@ Focus on content that you want to consume.
               └────────────────┘
 ```
 
-## Let's Make a Til
+## Let's start with a Til
 _the process_
 
 ### shoutout to @[jbrancha](https://twitter.com/jbrancha)
@@ -169,6 +241,10 @@ I've tried to cross post to more, but it really gets overwhelming.
 
 I have a plugin to convert my markdown to a more dev.to friendly format.
 
+## Slido Check
+
+Let'g grab a question from slack/slido
+
 ## Part 3 How it's deployed
 
 After being sick of long and broken builds from my javascript-based static site
@@ -183,19 +259,6 @@ This part might be a lot of code coming quick.
 * Show how it comes together
 * Link to the slides
 
-## Markata was born
-
-The idea of markata is a plugins all the way down static site generator at the
-intersection of markdown and data.  It comes with 6 defines lifecycle methods,
-21 pre-defined plugins, a cache store built on diskcahe, and a configuration
-system.  Creating new functionality is as easy as making as decorating
-lifecycle functions with a markata lifecycle method and adding it to the list
-of active plugins in your markata.toml.
-
-* 6 lifecycle methods
-* 21 pre-defined plugins
-* cache store
-* toml based configuration
 
 ## Everything is markdown
 
@@ -206,7 +269,7 @@ python-frontmatter
 
 ## frontmatter
 
-By the time I get out of my
+All the metadata is defined in yaml frontmatter.
 
 ``` yaml
 ---
@@ -220,6 +283,8 @@ status: draft
 ```
 
 ## setting up extensions
+
+markata supports pymdown-extensions.
 
 ``` python
 DEFAULT_MD_EXTENSIONS = [
@@ -326,23 +391,36 @@ self._register_hooks()
 
 ## Diskcache
 
-Diskcache allows you to setup a persistent cache layer
+Diskcache allows you to setup a persistent cache layer.
 
 ``` python
-def cache(self):
-    return FanoutCache(self.MARKATA_CACHE_DIR, statistics=True)
+cache = FanoutCache(self.MARKATA_CACHE_DIR, statistics=True)
 ```
 
 ## make a key
 
-Markata provides a convenience function to help make your own unique cache key
-consistently.
+To set soemthing to cache we need a unique identifier.
 
 ``` python
 def make_hash(self, *keys: str) -> str:
     str_keys = [str(key) for key in keys]
     return hashlib.md5("".join(str_keys).encode("utf-8")).hexdigest()
 ```
+
+## make a key
+
+From my plugins I cache anything that the function I run touches.
+
+* plugin code
+* article content
+* article frontmatter
+
+``` python
+from pathlib import Path
+
+key = make_hash(Path(__file__).read_text(), article.content, article.metadata['title'])
+```
+
 
 ## accessing the cache
 
@@ -351,28 +429,38 @@ Here is an example from the built in markdown rendering function.
 
 ## accessing the cache
 
+Now that we have a cache and a key we can ask the cache for values.
+
 ``` python
-@hook_impl(tryfirst=True)
-def render(markata: "Markata") -> None:
-    with markata.cache as cache:
-        plugin_code = Path(__file__).read_text()
-        for article in markata.iter_articles():
-            key = markata.make_hash(
-                 plugin_code, article.content
-            )
-            html_from_cache = cache.get(key)
-            if html_from_cache is None:
-                html = markata.md.convert(article.content)
-                cache.add(key, html, expire=15 * 24 * 60)
-            else:
-                html = html_from_cache
-            article.html = html
-            article.article_html = html
-````
+html_from_cache = cache.get(key)
+```
+
+## if it's not yet been set
+
+If the content is not yet set or has expired, you will get `None` back and need
+to create the value.
+
+``` python
+html_from_cache = cache.get(key)
+if html_from_cache is None:
+    html = markata.md.convert(article.content)
+    cache.add(key, html, expire=15 * 24 * 60)
+else:
+    html = html_from_cache
+```
 
 ## Configuration
 
 everything is in toml
+
+## Markata was born
+
+A plugins all the way doen static site generator written in python.
+
+* 6 lifecycle methods
+* 21 pre-defined plugins
+* cache store
+* toml based configuration
 
 ## GitHub Actions
 
@@ -380,6 +468,7 @@ Rendering the site inside of github actions with the cache is pretty
 straightforward with these four steps.  Keying off of the configuration will
 bust the cache every time we change the configuration.  You can hack a full
 rebuild by changing anything inside of the configuration file.
+
 
 ## GitHub Actions
 
@@ -438,6 +527,11 @@ Markdown to site, with seo, cover images, full works.
 * heading links
 * build profiler
 
+
 ## Links
 
-* [copier](https://copier.readthedocs.io/en/stable/) for single file
+* [Learn In Public](https://www.swyx.io/learn-in-public/)
+* [swyx](https://www.swyx.io/learn-in-public/)
+* [jbrancha](https://twitter.com/jbrancha)
+* [til repo](https://github.com/jbranchaud/til)
+* [copier](https://copier.readthedocs.io/en/stable/)
