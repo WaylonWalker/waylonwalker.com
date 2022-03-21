@@ -51,7 +51,18 @@ styles:
 
 ---
 
-## How I Continuously Deliver Content to my Blog with Markdown, GItHub, Python, and netlify
+## Todo
+
+* Be relatable
+* Be Human
+
+* Cut some of the code review
+* Focus more on why
+* Bring it back to why
+* Just hit submit
+
+
+## How I Continuously Deliver Content to my Blog with Markdown, GitHub, Python, and netlify
 
 Content at the speed of thought.
 
@@ -91,6 +102,8 @@ Let's light up slack 🔥🔥🔥🔥🔥🔥🔥
 
 ## Part 1 WHY
 
+## 2016
+
 ## I want to own my content
 
 Twitter is a great networking tool, but it's rare to see anything more
@@ -117,6 +130,8 @@ I'm creating learning exhaust.
 * 6500 monthly clicks on google
 * 12k page monthly views
 
+> from ahrefs and google search console
+
 ## Focus on content
 
 I could not do any of this if I was focused on Building rather than
@@ -126,9 +141,13 @@ writing.
 
 No one needs elastic search navigate your first 50 posts.
 
+> when you are starting
+
 ## Focus on content
 
 No one is going to make comments.
+
+> when you are starting
 
 ## Write for yourself
 
@@ -247,18 +266,30 @@ Let'g grab a question from slack/slido
 
 ## Part 3 How it's deployed
 
-After being sick of long and broken builds from my javascript-based static site
-generator I decided it was time to switch to a language I was far more
-comfortable in.  At the time I was really interested in learning how to build
-my own frameworks with pluggy, so a new static site generator was born.
+In March of 2021 I made the big switch from a javascript based framework
+to my own ssg.
+
+## I thought it would be easy....
+
+There are a bunch of open source libraries that do all the things I need
+an ssg to do.
+
+## Moving to python
+
+One of the biggest selling points to moving back to python was that I
+use it every day and know the ecosystem much better.
+
+* [ipython](https://ipython.org/)
+* [pyinstrument](https://github.com/joerick/pyinstrument)
+* breakpoint
 
 ## Part 3 How it's deployed
+_word of caution_
 
 This part might be a lot of code coming quick.
 
 * Show how it comes together
 * Link to the slides
-
 
 ## Everything is markdown
 
@@ -269,7 +300,9 @@ python-frontmatter
 
 ## frontmatter
 
-All the metadata is defined in yaml frontmatter.
+All the metadata is defined in yaml frontmatter and read in with the
+[python-frontmatter](https://github.com/eyeseast/python-frontmatter)
+library.
 
 ``` yaml
 ---
@@ -284,7 +317,7 @@ status: draft
 
 ## setting up extensions
 
-markata supports pymdown-extensions.
+markata supports [pymdown-extensions](https://facelessuser.github.io/pymdown-extensions/)
 
 ``` python
 DEFAULT_MD_EXTENSIONS = [
@@ -318,14 +351,18 @@ self.md = markdown.Markdown(
 )
 ```
 
-## Pluggy
+## [Pluggy](https://pluggy.readthedocs.io/en/stable/)
 
 * comes from pytest
 * allows users to easily modify the framework to their liking
 
-## Pluggy
+> one of the biggest reasons I started down this path is that I wanted
+> to build my own plugins all the way down framework.
 
-This is what I use to create my lifecycle
+## [Pluggy](https://pluggy.readthedocs.io/en/stable/)
+
+[Pluggy](https://pluggy.readthedocs.io/en/stable/) is what I use to
+implement my lifecycle.
 
 * configure
 * glob
@@ -337,14 +374,26 @@ This is what I use to create my lifecycle
 
 ## Pluggy
 
+Pluggy allows the framework to crate a `hook_spec` and plugin authors to
+implement hooks with the `hook_impl`.
+
 ``` python
 """Define hook specs."""
 import pluggy
 
 
+# the framework's definition
 hook_spec = pluggy.HookspecMarker("markata")
-hook_impl = pluggy.HookimplMarker("markata")
 
+# the plugin author's implementation
+hook_impl = pluggy.HookimplMarker("markata")
+```
+
+## creating the hookspec
+
+It's an empty class.
+
+``` python
 class MarkataSpecs:
     """
     Namespace that defines all specifications for Load hooks.
@@ -383,15 +432,22 @@ class MarkataSpecs:
         pass
 ```
 
+## creating the plugin manager
+
 ``` python
-self._pm = pluggy.PluginManager("markata")
-self._pm.add_hookspecs(hookspec.MarkataSpecs)
-self._register_hooks()
+pm = pluggy.PluginManager("markata")
+pm.add_hookspecs(hookspec.MarkataSpecs)
+
+# register hooks
+for hook in config.hooks:
+    plugin = importlib.import_module(hook)
+    pm.register(plugin)
 ```
 
 ## Diskcache
 
-Diskcache allows you to setup a persistent cache layer.
+[Diskcache](https://github.com/grantjenks/python-diskcache/) allows you
+to setup a persistent cache layer.
 
 ``` python
 cache = FanoutCache(self.MARKATA_CACHE_DIR, statistics=True)
@@ -421,12 +477,6 @@ from pathlib import Path
 key = make_hash(Path(__file__).read_text(), article.content, article.metadata['title'])
 ```
 
-
-## accessing the cache
-
-Plugins can access the cache, add to it, and set thier own expiration interval.
-Here is an example from the built in markdown rendering function.
-
 ## accessing the cache
 
 Now that we have a cache and a key we can ask the cache for values.
@@ -451,7 +501,42 @@ else:
 
 ## Configuration
 
-everything is in toml
+[anyconfig](https://github.com/ssato/python-anyconfig) is a great tool
+to pull your config from generic config files.
+
+* markta.toml
+* markta.yaml
+* markta.ini
+* pyproject.toml
+
+## Configuration
+
+Anyconfig needs a `path`, `parser`, and `keys`.  The key is your tools
+prefix
+
+``` python
+import anyconfig
+
+anyconfig.load(
+            path_specs= (Path() / f"markata.toml"),
+            ac_parser= "toml",
+            keys= ['markata'],
+        )
+```
+
+## Configuration
+
+Each key in the config files used with `anyconfig` must be prefixed with
+the tool's name.
+
+```
+# markata.toml
+[markata]
+default_cache_expire = 1209600
+
+[markata.auto_description.description]
+len=160
+```
 
 ## Markata was born
 
@@ -499,11 +584,11 @@ run: markata --no-rich
 run: pip install git+https://github.com/WaylonWalker/markata.git@develop python-twitter background # checksumdir
 ```
 
-I run bleeding edge, don't do that
+> Note: I run bleeding edge, don't do that
 
 ## Netlify
 
-I deploy to netlify but any static site host would work.
+I use deploy to netlify but any static site host would work.
 
 ## Netlify -> Cloudflare Pages
 
@@ -527,6 +612,14 @@ Markdown to site, with seo, cover images, full works.
 * heading links
 * build profiler
 
+## Markata.dev
+
+I now have several users running their site with what I have built
+
+## You can do it too
+
+Don't worry about having the perfect post, just make something that is
+useful to you, and others who will find it.
 
 ## Links
 
@@ -535,3 +628,12 @@ Markdown to site, with seo, cover images, full works.
 * [jbrancha](https://twitter.com/jbrancha)
 * [til repo](https://github.com/jbranchaud/til)
 * [copier](https://copier.readthedocs.io/en/stable/)
+* [ipython](https://ipython.org/)
+* [pyinstrument](https://github.com/joerick/pyinstrument)
+* [python-frontmatter](https://github.com/eyeseast/python-frontmatter)
+* [pymdown-extensions](https://facelessuser.github.io/pymdown-extensions/)
+* [Pluggy](https://pluggy.readthedocs.io/en/stable/)
+* [Pluggy](https://pluggy.readthedocs.io/en/stable/)
+* [Pluggy](https://pluggy.readthedocs.io/en/stable/)
+* [Diskcache](https://github.com/grantjenks/python-diskcache/)
+* [anyconfig](https://github.com/ssato/python-anyconfig)
