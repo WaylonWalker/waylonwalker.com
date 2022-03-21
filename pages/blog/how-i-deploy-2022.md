@@ -51,22 +51,18 @@ styles:
 
 ---
 
-## Todo
-
-* Be relatable
-* Be Human
-
-* Cut some of the code review
-* Focus more on why
-* Bring it back to why
-* Just hit submit
-
 
 ## How I Continuously Deliver Content to my Blog with Markdown, GitHub, Python, and netlify
 
 Content at the speed of thought.
 
 > well, as fast as I can type
+
+## Me
+
+* Mechanical Engineering
+* Data Engineering
+* Terminal Junkie
 
 ## Ask Questions in slido
 
@@ -109,6 +105,18 @@ Let's light up slack 🔥🔥🔥🔥🔥🔥🔥
 Twitter is a great networking tool, but it's rare to see anything more
 than a few hours old.
 
+## I want to own my content
+
+No one can take my domain or shut down the platform that my content is on.
+
+## Some of my Stats
+
+* 48 Google top 10 ranking pages
+* 6500 monthly clicks on google
+* 12k page monthly views
+
+> from ahrefs and google search console
+
 ## [Learn In Public](https://www.swyx.io/learn-in-public/)
 
 I'm creating learning exhaust.
@@ -123,14 +131,6 @@ I'm creating learning exhaust.
 > stars or upvotes - just talk to yourself from 3 months ago. I keep an
 > almost-daily dev blog written for no one else but me.
 
-
-## Some of my Stats
-
-* 48 Google top 10 ranking pages
-* 6500 monthly clicks on google
-* 12k page monthly views
-
-> from ahrefs and google search console
 
 ## Focus on content
 
@@ -154,6 +154,10 @@ No one is going to make comments.
 You are your biggest audience out of the gate.
 
 > If you continue writing others like you will find you
+
+## Don't worry about the Trolls
+
+No one is going to take your python keys away.
 
 ## Slido Check
 
@@ -210,6 +214,9 @@ templates.
 
 ## Copier give me a new page
 
+How I Present from the terminal with lookatme
+lookatme-slides
+
 ``` bash
 copier copy ~/.copier-templates/`ls ~/.copier-templates |\
     fzf --header $(pwd) --preview='tree ~/.copier-templates/{} |\
@@ -220,6 +227,8 @@ copier copy ~/.copier-templates/`ls ~/.copier-templates |\
 
 !TIP Once it starts getting uncomfortable to find posts, its nice to have
 good shortcuts to get around.
+
+> I have about 700 files on my blog to sift through
 
 ## nvim open my file
 
@@ -614,12 +623,65 @@ Markdown to site, with seo, cover images, full works.
 
 ## Markata.dev
 
+In early 2022 I packaged up my blog's backend as a package for others to use.
+
+## Markata.dev
+
 I now have several users running their site with what I have built
+
+* My buddy has a near clone of mine with 15 posts
+* Techdestructive
+
+## Markata.dev
+
+* plugins all the way down
+* use the parts you want
+* modify to your liking
+
+## Markata.dev
+
+It lets you get started quick, write content early, and grow into your own platform
+
+## Markata.dev
+
+⚠ I'ts still very much beta
+
+## Open Source
+
+```
+# install it for your application
+pip install markata
+
+# try it out
+pipx run markata build
+```
+
+## quickstart
+
+```
+mkdir pages
+echo '# My First Post' > first-post.md
+echo '# Hello World' > hello-world.md
+```
+
+```
+# or if pipx is your thing
+pix run markata build
+```
 
 ## You can do it too
 
 Don't worry about having the perfect post, just make something that is
 useful to you, and others who will find it.
+
+## Connect
+
+* [ twitter ](https://twitter.com/_WaylonWalker)
+* [ LinkedIn ](https://www.linkedin.com/in/waylonwalker/)
+* [ GitHub ](https://github.com/WaylonWalker)
+* [ Dev.to](https://dev.to/waylonwalker)
+* [ twitch ](https://www.twitch.tv/waylonwalker)
+
 
 ## Links
 
