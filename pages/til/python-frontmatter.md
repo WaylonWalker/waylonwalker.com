@@ -3,8 +3,6 @@ date: 2022-03-24 03:18:48.631729
 templateKey: til
 title: How I load Markdown in Python
 tags:
-  - linux
-  - python
   - python
 
 ---
