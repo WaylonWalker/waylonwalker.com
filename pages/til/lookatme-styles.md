@@ -145,7 +145,7 @@ slides:
     fg: '#368ce2'
 ```
 
-![lookatme slides with author styled](https://images.waylonwalker.com/lookatme-styles-add-author.png)
+![lookatme slides with author styled](https://images.waylonwalker.com/lookatme-styles-add-author-styles.png)
 
 ## reduce the padding
 
@@ -161,7 +161,7 @@ padding:
     top: 0
 ```
 
-![lookatme slides with no more padding](https://images.waylonwalker.com/lookatme-no-padding.png)
+![lookatme slides with no more padding](https://images.waylonwalker.com/lookatme-styles-no-padding.png)
 
 
 ## final results
