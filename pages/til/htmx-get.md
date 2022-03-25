@@ -9,6 +9,10 @@ tags:
 
 ---
 
+I recently attended
+[python web conf 2022](https://2022.pythonwebconf.com/)
+and after seeing some incredible presentations on it I am excited to
+give [htmx](https://htmx.org/) a try.
 
 ## The base page
 
@@ -89,3 +93,11 @@ easter egg.
 <button hx-get="./partial" hx-swap="outerHTML">
     Click Me
 </button>
+
+
+## Links
+
+* [python web conf 2022](https://2022.pythonwebconf.com/)
+* [htmx](https://htmx.org/)
+* [big beefcake of a button](https://images.waylonwalker.com/htmx-get-til-click-me.png)
+* [the final results](https://images.waylonwalker.com/htmx-get-til-hello.png)
