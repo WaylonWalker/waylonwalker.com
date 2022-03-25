@@ -13,7 +13,8 @@ tags:
 ## The base page
 
 Start with some html boilerplate, pop in a script tag to add the
-htmx.org script, and a button that says click me.
+htmx.org script, and a button that says click me.  I added just a tish
+of style so that it does not sear your delicate developer your eyes.
 
 ```html
 <!DOCTYPE html>
@@ -65,6 +66,20 @@ hello
 ![the final results](https://images.waylonwalker.com/htmx-get-til-hello.png)
 
 <script src="https://unpkg.com/htmx.org@1.7.0"></script>
+
+## Tree
+
+To make it a bit clearer here is what the file tree looks like after
+setting this up.
+
+```txt
+~/git/htmx  v3.9.7 (git)
+❯ tree
+.
+├── clicked
+│   └── index.html
+└── index.html
+```
 
 ## Demo
 
