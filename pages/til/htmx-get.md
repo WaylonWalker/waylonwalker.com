@@ -51,9 +51,26 @@ browser to `localhost:8000`
 
 ## The Partial
 
+Now the page has a button that is ready to replace itself, notice the
+`hx-swap="outerHTML">`, with the contents of /partial. To create a
+static api of sorts we can simply host a partial page in a file at
+`/partial/index.html` with the following contents.
 
 ```html
 <p>
 hello
 </p>
 ```
+
+![the final results](https://images.waylonwalker.com/htmx-get-til-hello.png)
+
+<script src="https://unpkg.com/htmx.org@1.7.0"></script>
+
+## Demo
+
+I added htmx to this page and setup a partial below, check out this
+easter egg.
+
+<button hx-get="./partial" hx-swap="outerHTML">
+    Click Me
+</button>
