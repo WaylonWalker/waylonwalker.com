@@ -1,7 +1,7 @@
 ---
-date: 2022-02-20 16:25:49.548226
+date: 2022-04-02 16:25:49.548226
 templateKey: til
-title: Glances webui with pipx
+title: Did my site build just go down?
 tags:
   - python
 
