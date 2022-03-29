@@ -21,6 +21,10 @@ python -m pip install diskcache
 
 ## setup the cache
 
+There are a couple of different types of cache, `Cache`, `FanoutCache`,
+and `DjangoCache`, you can read more about those in the
+[docs](https://grantjenks.com/docs/diskcache)
+
 ```python
 from diskcache import Cache
 cache = FanoutCache('.mycache', statistics=True)
@@ -29,10 +33,14 @@ cache = FanoutCache('.mycache', statistics=True)
 ## Adding to the cache
 
 ``` python
-cache.add('me',  )
+cache.add('me', 'waylonwalker' )
 ```
 
 ## Reading from the cache
+
+cache.get('waylonwalker')
+
+## Cache Misses
 
 https://github.com/grantjenks/python-diskcache
 https://grantjenks.com/docs/diskcache/
