@@ -1,5 +1,5 @@
 ---
-date: 2022-03-28 01:21:30.473713
+date: 2022-03-27 01:21:30.473713
 templateKey: til
 title: Set User Agent on pandas read_csv
 tags:

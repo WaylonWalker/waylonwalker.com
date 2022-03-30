@@ -1,5 +1,5 @@
 ---
-date: 2022-03-29 01:21:30.473713
+date: 2022-03-28 01:21:30.473713
 templateKey: til
 title: Cache a python function with lru_cache
 tags:

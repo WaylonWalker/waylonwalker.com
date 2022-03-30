@@ -1,5 +1,5 @@
 ---
-date: 2022-03-30 16:47:36.688035
+date: 2022-03-29 16:47:36.688035
 templateKey: til
 title: How I setup a sqlite cache in python
 tags:

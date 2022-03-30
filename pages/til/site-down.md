@@ -9,6 +9,10 @@ tags:
 
 ## Is it a fluke?
 
+## Is GitHub having issues?
+
+Check [github status](https://www.githubstatus.com/) for any downtime issues with actions.
+
 ## Site Down
 
 ``` python
