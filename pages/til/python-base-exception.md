@@ -1,5 +1,5 @@
 ---
-date: 2022-04-01 01:21:30.473713
+date: 2022-03-31 01:21:30.473713
 templateKey: til
 title: Don't inherit from python BaseException, Here's why.
 tags:
