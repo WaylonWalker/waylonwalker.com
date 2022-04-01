@@ -1,5 +1,5 @@
 ---
-date: 2022-04-02 16:25:49.548226
+date: 2022-04-01 16:25:49.548226
 templateKey: til
 title: Did my site build just go down?
 tags:
@@ -7,13 +7,30 @@ tags:
 
 ---
 
+My personal Site build went down last week, and I was unable to publish a new
+article.  This is the process I went through to get it back up and running
+quickly.
+
 ## Is it a fluke?
+
+Classic IT fix, rerun it and see if you get the same error.  Everyone is busy
+and when you have your build go down you are probably busy doing something
+else.  My first step is often to simply click rerun right from GitHub actions.
+Sometimes this will fix it, and sometimes it doesn't.  It's an easy fix to run
+in the meantime you are not focused on fixing it.
 
 ## Is GitHub having issues?
 
+Also worth a check to see if GitHub is having a hiccup or not.  This error felt
+pretty obviously not GitHub's fault, but it's a good one to check when you run
+into a weird unexplainable error.
+
 Check [github status](https://www.githubstatus.com/) for any downtime issues with actions.
 
-## Site Down
+## Build Down
+
+Alright down to the error message I got.  The error is pretty obvious that
+somewhere I am trying to import a non-existing module from click.
 
 ``` python
 Run markata build --no-pretty
@@ -47,17 +64,44 @@ Traceback (most recent call last):
 ImportError: cannot import name 'get_terminal_size' from 'click.termui' (/opt/hostedtoolcache/Python/3.8.12/x64/lib/python3.8/site-packages/click/termui.py)
 ```
 
-## Check pypi
+## Check pypi's release date of click
+
+So the latest click was released just a few hours before this build.  This
+feels like we are getting somewhere.  Either click did a poor job of issuing
+deprecation warnings, or I was ignoring them in my build pipeline.
 
 ![click 8.1.0 release date on pypi](https://images.waylonwalker.com/click-8-1-0-release-date.png)
 
 ## pin it and push
+_let's fix this build now_
 
+To get the build up and running today so that we don't stop the flow of new
+posts I am going to open my `requirements.txt` file, and pin under the version
+that was just built.
 
 ``` txt
 click<8.1.0
 ```
 
+Since I am still busy doing other things that fixing this, and am pretty
+confident that things were working before, I am just going to commit this and
+ship it.
+
 ## watch ci
 
-## raise issue
+Coming back to actions a few minutes later shows the site is building
+successfully without the same error as before.  New posts will now be flowing
+to the site with the slightly older version of click.
+
+## looking for an issue
+
+Let's make sure that the issue is going to be resolved. After not being busy
+and having time to investigate the issue, I can see that typer is the library
+making the import to `get_terminal_size`.  Lets checkout its
+[GitHub-repo](https://github.com/tiangolo/typer/) and make sure someone is
+working on it.
+
+By the time I go to the package that was having this issue there was already an
+[issue](https://github.com/tiangolo/typer/issues/377) up, and PR waiting
+approval.  I gave the Issue a reaction 👍 to signal that I also care, and
+appreciate the issue author taking time to submit.
