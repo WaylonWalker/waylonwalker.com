@@ -23,7 +23,7 @@ Before I dive in deep, I do want to mention that Dunk is super new and beta at
 this point.  I am making it my default pager, because I know what I am doing
 and can quickly shift back if I need to, no sweat.  If you are a little less
 comfortable with the command line, terminal, or reading any issues that might
-come up, it might be best if you just pipe into Dunk when you want to use it.
+eome up, it might be best if you just pipe into Dunk when you want to use it.
 
 ## try it
 
@@ -49,13 +49,18 @@ You can configure dunk as your default pager with the command line, or
 by editing your `.gitconfig` file.
 
 ```bash
-git config --global pager.diff dunk
+git config --global pager.diff "dunk | less -R`
 ```
 
 ```toml
 [pager]
-    diff = dunk
+    diff = dunk | less -R
 ```
+
+As [pointed out](https://twitter.com/_darrenburns/status/1511106440613797896) by
+[_darrenburns](https://twitter.com/_darrenburns) dunk is not a pager and you
+can gain back all of the benefits of using a pager by piping into less with the
+`-R` flag.
 
 ## reset it if you don't like it
 
