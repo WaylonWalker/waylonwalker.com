@@ -17,6 +17,14 @@ tweet by [_darrenburns](https://twitter.com/_darrenburns).
 
 https://twitter.com/_darrenburns/status/1510350016623394817
 
+## Dunk is beta
+
+Before I dive in deep, I do want to mention that Dunk is super new and beta at
+this point.  I am making it my default pager, because I know what I am doing
+and can quickly shift back if I need to, no sweat.  If you are a little less
+comfortable with the command line, terminal, or reading any issues that might
+come up, it might be best if you just pipe into Dunk when you want to use it.
+
 ## try it
 
 You can try it with pipx.
