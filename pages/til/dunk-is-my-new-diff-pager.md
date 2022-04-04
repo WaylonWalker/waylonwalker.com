@@ -47,7 +47,6 @@ git config --global pager.diff dunk
 ```toml
 [pager]
     diff = dunk
-
 ```
 
 ## reset it if you don't like it
