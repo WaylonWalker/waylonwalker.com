@@ -57,10 +57,10 @@ git config --global pager.diff "dunk | less -R`
     diff = dunk | less -R
 ```
 
-As [pointed out](https://twitter.com/_darrenburns/status/1511106440613797896) by
-[_darrenburns](https://twitter.com/_darrenburns) dunk is not a pager and you
-can gain back all of the benefits of using a pager by piping into less with the
-`-R` flag.
+> As [pointed out](https://twitter.com/_darrenburns/status/1511106440613797896) by
+> [_darrenburns](https://twitter.com/_darrenburns) dunk is not a pager and you
+> can gain back all of the benefits of using a pager by piping into less with the
+> `-R` flag.
 
 ## reset it if you don't like it
 
