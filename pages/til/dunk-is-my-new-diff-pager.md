@@ -64,7 +64,7 @@ I have some edits to a game my son and I are working on unstaged so I
 ran `git diff` on that project with and without dunk to compare the
 differences.
 
-![default diff](https://imgaes.waylonwalker.com/git-diff-creeper-adventure-default.png)
+![default diff](https://images.waylonwalker.com/git-diff-creeper-adventure-default.png)
 
 Dunk just looks so good.
 
