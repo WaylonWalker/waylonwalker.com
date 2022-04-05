@@ -33,6 +33,7 @@ something over top of a background.  I can simulate this by mixing colors.
 ```bash
 pastel color cornflowerblue | pastel mix goldenrod -f .1
 ```
+
 Here is one from the docs that show how you can generate a color palette from
 random colors, mix in some red, lighten and format all in one pipe.
 
@@ -69,7 +70,8 @@ hex value.
 ```bash
 pastel color 50,50,50 | pastel mix cornflowerblue -f .2
 ```
-![my terminal output from mixing grey](https://images.waylonwalker.com/pastel-mixing-grey.png)
+
+![my terminal output from mixing grey](https://images.waylonwalker.com/pastel-mix-grey.png)
 
 I really want to get this into my workflow.  I saw it quite awhile ago but have
 not done much color work.  Lately I have been doing a bit more front end, and
