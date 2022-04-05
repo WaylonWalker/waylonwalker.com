@@ -23,7 +23,12 @@ Before I dive in deep, I do want to mention that Dunk is super new and beta at
 this point.  I am making it my default pager, because I know what I am doing
 and can quickly shift back if I need to, no sweat.  If you are a little less
 comfortable with the command line, terminal, or reading any issues that might
-eome up, it might be best if you just pipe into Dunk when you want to use it.
+come up, it might be best if you just pipe into Dunk when you want to use it.
+
+The author really cautions the use of it as your default pager this early, I'm
+just showing that it's possible, and I'm trying it.
+
+> He notes that it might have some issues especially with partially staged files.
 
 ## try it
 
