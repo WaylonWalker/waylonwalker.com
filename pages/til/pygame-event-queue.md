@@ -131,6 +131,7 @@ events.
 events_one = pygame.event.get()
 events_two = pygame.event.get()
 ```
+
 printing the events reveals that there are no events, well i
 
 ```python
