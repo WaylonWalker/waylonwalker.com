@@ -33,6 +33,7 @@ Let's use pygames normal `event.get` method to get events.
 ```python
 events = pygame.event.get()
 ```
+
 printing the events reveal this
 
 ```python
@@ -147,7 +148,7 @@ queue.
 ```python
 import time
 events_one = pygame.event.get()
-time.sleep(.05)
+time.sleep(.05) # simulating some delay that would naturally occur
 events_two = pygame.event.get()
 ```
 
