@@ -50,3 +50,4 @@ The final commands that ended up getting me back in were installing and starting
 ``` bash
 sudo apt install gdm3
 sudo systemctl start gdm3
+```
