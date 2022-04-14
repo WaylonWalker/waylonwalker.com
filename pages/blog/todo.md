@@ -7,6 +7,9 @@ status: draft
 
 ---
 
+Overrated underrated command line applications
+
+
 ## kedro YouTube series
 
 Get started on daily kedro shorts, these are indended to be short clips that
@@ -80,6 +83,18 @@ cannon 370ms
 
 * e1af66
 * c122ac
+
+## stream ideas
+
+
+auto pyflyby
+
+``` python
+dir(getattr(getattr(pd, "util"), 'version'))
+def replace(text):
+    return re.sub("as.*", "", re.sub(".*import ", "", text))
+existing_flies = [replace(t) for t in Path("/home/u_walkews/.pyflyby").read_text().split("\n")]
+```
 
 ## Description
 

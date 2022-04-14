@@ -163,9 +163,9 @@ I thought `pump=False` would be the answer I was looking for, but I was
 proven wrong.  It does not behave intuitivly to me.
 
 ```python
-events_one = pygame.event.get(pump=False)
-events_two = pygame.event.get(pump=False)
-events_three = pygame.event.get()
+events_one = pygame.event.get(pump=False) # all events since last pump
+events_two = pygame.event.get(pump=False) # no events
+events_three = pygame.event.get() # all events since last pump
 ```
 
 `events_one` and `events_three` will have a list of events, while
