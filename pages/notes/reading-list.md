@@ -67,3 +67,7 @@ https://www.twitch.tv/videos/1229603481
 https://hackernoon.com/how-to-remove-background-sound-in-real-time-for-linux-uvea3w7n
 
 https://ultimatemotherfuckingwebsite.com/
+
+## 🔥 git aliases
+
+https://github.com/jsatk/dotfiles/blob/ck/tag-git/gitconfig
