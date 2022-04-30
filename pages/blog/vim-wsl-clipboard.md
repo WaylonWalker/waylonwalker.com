@@ -52,4 +52,22 @@ if system('uname -r') =~ "Microsoft"
         augroup END
 endif
 ```
+
 > add this to your ~/.vimrc or your ~/.config/nvim/init.vim
+
+## Wsl2
+
+Based on some
+[feedback](https://github.com/WaylonWalker/waylonwalker.com/issues/4)
+from [l-sannin](https://github.com/l-sannin) the 'uname -r' command now
+returns `uname -r command returns '5.10.16.3-microsoft-standard-WSL2'`
+So you will need an all lowercase microsoft.
+
+``` vim
+if system('uname -r') =~ "microsoft"
+  augroup Yank
+  autocmd!
+  autocmd TextYankPost * :call system('/mnt/c/windows/system32/clip.exe ',@")
+  augroup END
+endif
+```
