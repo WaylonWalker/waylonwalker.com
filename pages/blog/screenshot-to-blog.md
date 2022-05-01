@@ -27,6 +27,12 @@ create a the img tag in my blog.
 * publish
 * create img tag
 
+## Created in 🐍Python
+
+I created this tool for myself in python because that is what I am most
+familiar with, but realistically most of what I am calling are shell scripts
+that I could do in just about any language.
+
 ## Install my screenshot tool
 
 My screenshot tool is quite hacky and not configurable, but works wonderfully
@@ -38,12 +44,18 @@ install it with pipx.
 pipx install git+https://github.com/WaylonWalker/screenshots.waylonwalker.com
 ```
 
+> This is just a tool for me, it does not need to be in a package manager like pip.
+
 ## calling screenshot
 
 Now that screenshot is installed we can call it and make a screenshot.  I'll
 take a screenshot of the frontmatter of this exact post.
 
 ![screenshot-to-blog](https://screenshots.waylonwalker.com/screenshot-success-to-blog.webp)
+
+I have this tool exposed as a command that can be ran in the command line by
+calling `screenshot`.  I will rarely use it this way, but makes it easy to
+create a hotkey for later.
 
 ## Success
 
@@ -68,4 +80,19 @@ corresponding keybinding I want to my `~/.xbindkeysrc` file and restart with
 Now when I press `Shift + Mod4 + alt + p` I am presented with a little `zenity`
 box asking me what I want to name my screenshot, followed by flameshot.
 
+> xbindkeys allows me to bind this hotkey to my system so that no matter where
+> I am it will work.
+
+## Name it
+
+The one question I ask myself when creating the hotkey is for a filename.  On
+my ubuntu machine I do that with a simple gui application called zenity.  It
+looks like this when I open it up.
+
 ![screenshot-zenity-window](https://screenshots.waylonwalker.com/screenshot-zenity-window.webp)
+
+Under the hood my screenshot tool is running the following command in a subprocess.
+
+```bash
+zenity --entry --text="filename"
+```
