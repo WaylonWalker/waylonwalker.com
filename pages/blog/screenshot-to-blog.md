@@ -51,7 +51,7 @@ pipx install git+https://github.com/WaylonWalker/screenshots.waylonwalker.com
 Now that screenshot is installed we can call it and make a screenshot.  I'll
 take a screenshot of the frontmatter of this exact post.
 
-![screenshot-to-blog](https://screenshots.waylonwalker.com/screenshot-success-to-blog.webp)
+![screenshot-to-blog](https://screenshots.waylonwalker.com/screenshot-to-blog.webp)
 
 I have this tool exposed as a command that can be ran in the command line by
 calling `screenshot`.  I will rarely use it this way, but makes it easy to
