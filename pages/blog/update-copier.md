@@ -34,4 +34,6 @@ the `--pre` release.
 pipx install copier --pip-args='--pre'
 ```
 
-##
+## My update commit
+
+https://github.com/WaylonWalker/devtainer/commit/a06e47462e2c6d26ad69fbdc2e7990a1a73ab4b7
