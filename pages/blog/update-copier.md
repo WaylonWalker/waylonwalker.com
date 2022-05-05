@@ -1,7 +1,7 @@
 ---
 date: 2022-04-30 10:05:45
 templateKey: blog-post
-title: Copier >0.6.0 considered dangerous
+title: Copier < 6.0.0b0 considered dangerous
 tags:
   - python
   - python
