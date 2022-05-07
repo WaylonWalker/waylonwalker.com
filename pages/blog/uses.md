@@ -48,29 +48,44 @@ desktop.
 
 ### gnome-terminal
 
-I typically just use gnome-terminal.  It works, for the most part it gets out
-of the way and lets me do what I want.  I just want a terminal that runs tmux
-properly, runs without titltbars or scrollbars, and lets me theme it without
-much effort.
+For the longest time I just used
+[gnome-terminal](https://help.gnome.org/users/gnome-terminal/stable/).  It
+works, for the most part it gets out of the way and lets me do what I want.  I
+just want a terminal that runs tmux properly, runs without titltbars or
+scrollbars, and lets me theme it without much effort.
 
 ### kitty
 
-I generally keep a backup terminal. I have botched `gnome-terminal` in the past
-by linking the system python to python3.8 instead of python3.6 as
-gnome-terminal expected.  I was able to hop into my backup terminal without
-opening up a tty to get back going.
+[Kitty](https://sw.kovidgoyal.net/kitty/) is my main terminal, these days, it's
+nice, its easy to configure how I want it, but most of its fancier features do
+not work inside of tmux.  It does render incredibly fast, If I accidently cat
+out a massive file, it typically just handles it, compared to other terminals
+that will be printing for 30s or so.
 
-I really wanted kitty to work, and images to just work into my workflow, but I
-use tmux and it does not always play nicely with kitty.L
+### Windows Terminal
 
-Overall though kitty is nice, its easy to theme, make look good, a breeze to
-install, and has some great features that someone not running tmux would
-probably really like.  I have tmux scripting so deeply integrated into my
-workflow that its hard for me to use kitty.
+When I am on a windows terminal I use the _new_
+[Terminal](https://github.com/microsoft/terminal).  It's a massive improvement
+over any other terminal that I have ever tired on windows.  Text looks good,
+the built in themese look good, I use the One-Half-Dark Theme, and the built in
+Cascadia Code font.  Also things like system clipboards, copy, and paste just
+seem to work better, and integrate well with wsl.
+
+![My Windows Terminal from may 2022](https://images.waylonwalker.com/Windows-Terminal-0522.webp)
 
 ## Shell
 
-zsh
+The shell is the interpreter that interprets the commands that you send to it
+from the command line, unlike the terminal that displays the text.
+
+### zsh
+
+I use [zsh](https://www.zsh.org/) as my shell of choice.  I don't run
+oh-my-zsh, I just need a few plugins for things like
+[autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+[syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+[history-substring-search](https://github.com/zsh-users/zsh-history-substring-search).
+
 
 ## Tmux
 
