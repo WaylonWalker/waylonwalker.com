@@ -31,3 +31,9 @@ terminal.
 ``` bash
 export GPG_TTY=$(tty)
 ```
+
+## The log in menu
+
+This is what it looks like when it asks for the passphrase.
+
+![enter your passphrase to unlock your gpg key](https://images.waylonwalker.com/gpg-passphrase-unlock.png)
