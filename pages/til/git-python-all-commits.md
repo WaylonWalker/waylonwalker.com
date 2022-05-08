@@ -1,5 +1,5 @@
 ---
-date: 2022-05-07 21:24:12.550521
+date: 2022-05-09 21:24:12.550521
 templateKey: til
 title: List all git commits with GitPython
 tags:
