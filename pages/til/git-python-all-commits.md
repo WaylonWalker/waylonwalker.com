@@ -4,6 +4,7 @@ templateKey: til
 title: List all git commits with GitPython
 tags:
   - python
+  - git
 
 ---
 
