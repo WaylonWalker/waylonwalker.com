@@ -21,7 +21,12 @@ it up, and cannot remember where it came from. It will open up a session picker
 in a new full screen window.
 
 ``` bash
-bind C-j new-window -n "session-switcher" "tmux list-sessions | sed -E 's/:.*$//' | grep -v \"^$(tmux display-message -p '#S')\$\" | fzf --reverse | xargs tmux switch-client -t"
+bind C-j new-window -n "session-switcher" "\
+    tmux list-sessions -F '#{?session_attached,,#{session_name}}' |\
+    sed '/^$/d' |\
+    fzf --reverse --header jump-to-session --preview 'tmux capture-pane -pt {}'  |\
+    xargs tmux switch-client -t"
+
 ```
 
 ## Popup selector
@@ -30,7 +35,11 @@ Like with many of my keybindings I have swapped this one out for a popup
 version.  It just feels so smooth.
 
 ``` bash
-bind C-j display-popup -E "tmux list-sessions | sed -E 's/:.*$//' | grep -v \"^$(tmux display-message -p '#S')\$\" | fzf --reverse | xargs tmux switch-client -t"
+bind C-j display-popup -E "\
+    tmux list-sessions -F '#{?session_attached,,#{session_name}}' |\
+    sed '/^$/d' |\
+    fzf --reverse --header jump-to-session --preview 'tmux capture-pane -pt {}'  |\
+    xargs tmux switch-client -t"
 ```
 
 https://waylonwalker.com/tmux-nav-2021/
