@@ -4,7 +4,6 @@ templateKey: til
 title: Bash function to edit scripts faster
 tags:
   - bash
-status: draft
 
 ---
 
@@ -63,6 +62,16 @@ case `command -V $1` in
     *)
         $EDITOR `which "$1"`;;
 esac
+```
+
+## a bit more ergo, and less readable
+
+To make it easier to type, at the sacrifice of readability for anyone watching
+I added a single character `e` alias to ewhich.  So when I want to edit
+anything I just use `e`.
+
+```bash
+alias e=ewhich
 ```
 
 ## Results
