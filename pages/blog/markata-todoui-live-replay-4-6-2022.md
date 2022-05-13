@@ -18,6 +18,6 @@ We worked on markata todoui, a command tui trello board written in python using 
 
 During this stream we get RAIDED by TEEJ_DV! and chat about tmux a bit before calling the changes to markata-tui good and signing off.
 
-dotfiles: https://github.com/WaylonWalker/devtainer
-today's project: https://github.com/WaylonWalker/markata-todoui
-website: https://waylonwalker.com/
+* dotfiles: https://github.com/WaylonWalker/devtainer
+* today's project: https://github.com/WaylonWalker/markata-todoui
+* website: https://waylonwalker.com/
