@@ -255,7 +255,7 @@ Now the log of my `snapshots.vim` looks like this.  I saved the working
 version, and successfully updated to the latest versions of all plugins, with a
 save point I can revert back to.
 
-```
+``` log
 commit 20e901196b0d9633a42176f1fe1757e45f709fd3
 Author: Waylon S. Walker <waylon@waylonwalker.com>
 Date:   Fri May 13 20:37:03 2022 -0500
