@@ -1,17 +1,18 @@
 ---
 templateKey: blog-post
-tags: 
+tags:
   - blog
 title: Edit On GitHub
 date: 2020-07-18T05:00:00Z
 status: published
+jinja: false
 
 ---
 
 
 I recently added a button to my blog, and subsequently my posts on
 [DEV.to](https://dev.to/waylonwalker).  It's the best thing that I have done
-for it in a while.  It makes it so easy to do quick edits.  
+for it in a while.  It makes it so easy to do quick edits.
 
 ## finding errors
 
@@ -26,7 +27,7 @@ time for that.
 
 The slug that I am getting from gatsby is formatted as `/blog/this-post/`.
 Note the trailing slash and missing file extension, thats where the
-`${slug.slice(0, -1)}.md` comes in.  
+`${slug.slice(0, -1)}.md` comes in.
 
 
 ## The Full Link
@@ -47,13 +48,13 @@ Wrapping that URL up in a short snippet gave me the following result.
 ``` jsx
 <p style={{ display: 'flex', justify: 'center', textAlign: 'center', margin: '3rem auto' }}>
   <span role='img' aria-label=''>👀</span>
-  see an issue, edit this post on 
-  <a 
-    href={`https://github.com/WaylonWalker/waylonwalkerv2/edit/main/src/pages${slug.slice(0, -1)}.md`} 
-    alt='edit post url' 
+  see an issue, edit this post on
+  <a
+    href={`https://github.com/WaylonWalker/waylonwalkerv2/edit/main/src/pages${slug.slice(0, -1)}.md`}
+    alt='edit post url'
     title='edit this post'
    >
-  <FiGithub /> 
+  <FiGithub />
   GitHub
   </a>
 </p>

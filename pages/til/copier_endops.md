@@ -5,6 +5,7 @@ title: Changing copier template strings (_endops)
 tags:
   - python
   - bash
+jinja: false
 
 ---
 

@@ -7,6 +7,7 @@ tags:
   - linux
   - cli
 status: draft
+jinja: false
 
 ---
 

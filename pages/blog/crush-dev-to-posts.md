@@ -1,12 +1,13 @@
 ---
 templateKey: blog-post
-tags: 
+tags:
   - catalytic
   - blog
 title: How to crush amazing posts on DEV
 date: 2020-08-07T05:00:00Z
 status: published
 description:  Here are a few of my top tips to help make dev.to posts more readable, and drive better engagement.
+jinja: false
 
 ---
 
