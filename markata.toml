@@ -22,6 +22,7 @@ assets_dir = "static"
 hooks = [
    "markata.plugins.publish_source",
    "markata.plugins.publish_dev_to_source",
+   "markata.plugins.prevnext",
    "plugins.render_template_variables",
    "plugins.codeblocks",
    "plugins.index",
@@ -167,3 +168,11 @@ content = "Waylon Walker"
 [[markata.seo]]
 name = "theme-color"
 content="#322D39"
+
+
+[markata.prevnext]
+prevnext_color_angle = "#ff66c4"
+
+[markata.prevnext.maps.main]
+filter="date<=today and templateKey in ['blog-post', 'til'] and status.lower()=='published'"
+sort='slug'
