@@ -173,6 +173,6 @@ content="#322D39"
 [markata.prevnext]
 prevnext_color_angle = "#ff66c4"
 
-[markata.prevnext.maps.main]
+[[markata.prevnext.maps]]
 filter="date<=today and templateKey in ['blog-post', 'til'] and status.lower()=='published'"
 sort='slug'
