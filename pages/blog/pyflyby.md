@@ -32,7 +32,7 @@ pyflyby is hosted on pypi, so you can get it with pip.  I have had no issues
 installing it on 3.8+ so far.
 
 ``` bash
-pip install flybypy
+pip install pyflyby
 ```
 
 ## Configuration setup with stow
