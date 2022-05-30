@@ -36,27 +36,27 @@ Running help for newsboat directed me towards their config files at the bottom.
 ❯ newsboat --help
 newsboat r2.22
 usage: /snap/newsboat/3849/usr/local/bin/newsboat [-i <file>|-e] [-u <urlfile>] [-c <cachefile>] [-x <command> ...] [-h]
-	-e, --export-to-opml		export OPML feed to stdout
-	-r, --refresh-on-start		refresh feeds on start
-	-i, --import-from-opml=<file>	import OPML file
-	-u, --url-file=<urlfile>	read RSS feed URLs from <urlfile>
-	-c, --cache-file=<cachefile>	use <cachefile> as cache file
-	-C, --config-file=<configfile>	read configuration from <configfile>
-	-X, --vacuum			compact the cache
-	-x, --execute=<command>...	execute list of commands
-	-q, --quiet			quiet startup
-	-v, --version			get version information
-	-l, --log-level=<loglevel>	write a log with a certain loglevel (valid values: 1 to 6)
-	-d, --log-file=<logfile>	use <logfile> as output log file
-	-E, --export-to-file=<file>	export list of read articles to <file>
-	-I, --import-from-file=<file>	import list of read articles from <file>
-	-h, --help			this help
-	    --cleanup			remove unreferenced items from cache
+    -e, --export-to-opml        export OPML feed to stdout
+    -r, --refresh-on-start      refresh feeds on start
+    -i, --import-from-opml=<file>   import OPML file
+    -u, --url-file=<urlfile>    read RSS feed URLs from <urlfile>
+    -c, --cache-file=<cachefile>    use <cachefile> as cache file
+    -C, --config-file=<configfile>  read configuration from <configfile>
+    -X, --vacuum            compact the cache
+    -x, --execute=<command>...  execute list of commands
+    -q, --quiet         quiet startup
+    -v, --version           get version information
+    -l, --log-level=<loglevel>  write a log with a certain loglevel (valid values: 1 to 6)
+    -d, --log-file=<logfile>    use <logfile> as output log file
+    -E, --export-to-file=<file> export list of read articles to <file>
+    -I, --import-from-file=<file>   import list of read articles from <file>
+    -h, --help          this help
+        --cleanup           remove unreferenced items from cache
 
 Files:
-	- configuration:  /home/nic/snap/newsboat/3849/.newsboat/config
-	- feed URLs:      /home/nic/snap/newsboat/3849/.newsboat/urls
-	- cache:          /home/nic/snap/newsboat/3849/.newsboat/cache.db
+    - configuration:  /home/nic/snap/newsboat/3849/.newsboat/config
+    - feed URLs:      /home/nic/snap/newsboat/3849/.newsboat/urls
+    - cache:          /home/nic/snap/newsboat/3849/.newsboat/cache.db
 
 Support at #newsboat at https://freenode.net or on our mailing list https://groups.google.com/g/newsboat
 For more information, check out https://newsboat.org/
