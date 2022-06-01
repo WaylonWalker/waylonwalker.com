@@ -1,7 +1,7 @@
 ---
 date: 2022-06-01 10:31:09
 templateKey: til
-title: pip require-virtualenv
+title: The one pip config you need to have
 tags:
   - python
 
