@@ -41,9 +41,9 @@ STOP LEAVING Browser Tabs open and save them here!
 
 https://ianthehenry.com/posts/how-to-learn-nix/python3-alpha/
 
-## ides are slow
+## textual css
 
-https://twitter.com/johnlindquist/status/1441475577693671427
+https://twitter.com/willmcgugan/status/1531294412696956930
 
 ## neovim
 
