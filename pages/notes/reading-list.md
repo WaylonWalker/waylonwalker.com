@@ -27,6 +27,7 @@ STOP LEAVING Browser Tabs open and save them here!
 * [How to Overcome Impostor Syndrome as a Developer](https://igorasilveira.hashnode.dev/how-to-overcome-impostor-syndrome-as-a-developer-ckv6ej6lc15qtp5s1hz5da4q3)
 * [lazy load youtube videos](https://css-tricks.com/lazy-load-embedded-youtube-videos/)
 * [lite youtube embeds](https://www.labnol.org/internet/light-youtube-embeds/27941/)
+* [full subtitle youtube search](https://filmot.com/)
 
 ---
 
@@ -36,6 +37,7 @@ STOP LEAVING Browser Tabs open and save them here!
 * git course - [katacoda](https://www.katacoda.com/courses/git/1)
 * [data-science-twitch-streamers-round-up](https://www.jessemaegan.com/blog/2021-05-28-data-science-twitch-streamers-round-up/)
 * [pandas assign](https://twitter.com/__mharrison__/status/1415728695264776192/photo/1)
+
 
 ## nix
 
