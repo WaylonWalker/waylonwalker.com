@@ -31,7 +31,7 @@ The medium version is that it turned out to be really fun to write software, and
 Q: **Why** should a _"spreadsheet jockey"_ add something like Python to their
 toolbelt?
 
-To simply make their life a lot easier. Sure, heavy spreadsheet users have probably hit up against the size and performance limitations of their tool, and Python- or Scala-based tools are definitely viable solutions to that. But for me the power of imperative programming, of translating steps A to Z that you normally perform in a spreadsheet into **human- and machine-readable language**, is a magic you can't ignore once you know about it.
+A: To simply make their life a lot easier. Sure, heavy spreadsheet users have probably hit up against the size and performance limitations of their tool, and Python- or Scala-based tools are definitely viable solutions to that. But for me the power of imperative programming, of translating steps A to Z that you normally perform in a spreadsheet into **human- and machine-readable language**, is a magic you can't ignore once you know about it.
 
 On the ground, this magic translates into massive productivity gains, and frees you up to do higher-level thinking and experimentation which you don't normally have time for.
 
@@ -46,7 +46,7 @@ If you can't think of anything to automate, you're probably not looking hard eno
 
 Q: How do you fight imposter syndrome after a mid-career switch?
 
-I have no answer for this, as I still fight the syndrome on a daily basis! Anecdotally this doesn't really go away, even for CS majors with successful startup acquisitions, etc. My current theory for why this could be is the largely solitudinous nature of writing software. I don't think coding has to be a solo activity, but it's just worked out that way for most of us. As you know, Waylon, I really enjoy pair programming, especially as a way to teach and learn, but I also think it's a great way to fight the syndrome. This is partly because you'll inevitably discover that everyone's knowledge is uneven and that there's always something you as a novice can teach a more experienced dev. 
+A: I have no answer for this, as I still fight the syndrome on a daily basis! Anecdotally this doesn't really go away, even for CS majors with successful startup acquisitions, etc. My current theory for why this could be is the largely solitudinous nature of writing software. I don't think coding has to be a solo activity, but it's just worked out that way for most of us. As you know, Waylon, I really enjoy pair programming, especially as a way to teach and learn, but I also think it's a great way to fight the syndrome. This is partly because you'll inevitably discover that everyone's knowledge is uneven and that there's always something you as a novice can teach a more experienced dev. 
 
 To put it in simpler terms, how can you even know whether you're an imposter if you work in a one-person silo all day?
 
