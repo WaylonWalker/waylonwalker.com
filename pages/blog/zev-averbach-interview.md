@@ -26,7 +26,7 @@ I tried to get devs to automate those two things -- invoicing and assignment of 
 
 The short version of my journey is that I learned to code and ended up building these automations as my first "real world" projects.
 
-The medium version is that it turned out to be really fun to write software, and that I've built written quite a bit more since then, both for myself and my company as well as for others (open source and contract work). Then I got a job as a data engineer solely based on my Python skills, and have been writing and maintaining a pile of Airflow DAGs, as well as the code that generates many of them, for the past couple years.
+The medium version is that it turned out to be really fun to write software, and that I've written quite a bit more since then, both for myself and my company as well as for others (open source and contract work). Then I got a job as a data engineer solely based on my Python skills, and have been writing and maintaining a pile of Airflow DAGs, as well as the code that generates many of them, for the past couple years.
 
 Q: **Why** should a _"spreadsheet jockey"_ add something like Python to their
 toolbelt?
