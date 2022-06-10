@@ -2,7 +2,6 @@
 date: 2022-06-10 11:53:32
 templateKey: til
 title: gh repo create
-status: 'draft'
 tags:
   - git
 
