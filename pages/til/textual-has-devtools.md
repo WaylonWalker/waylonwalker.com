@@ -29,6 +29,10 @@ https://twitter.com/willmcgugan/status/1531294412696956930
 
 ## Why does textual need its own devtools
 
+Textual is a tui application framework. Unlike when you are building cli
+applications, when the tui takes over the terminal in full screen there is no
+where to print statement debug, and breakpoints don't work.
+
 ## getting the css branch
 
 In the future it will likely be in main and not need this, but for now you need
