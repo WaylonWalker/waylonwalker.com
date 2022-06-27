@@ -2,13 +2,14 @@
 date: 2022-06-28 12:31:10
 templateKey: til
 title: Two new shell aliases for git
-status: false
+status: 'published'
 tags:
   - git
 
 ---
 
-Recently I added two new bash/zsh aliases to make my git experience just a tad better.
+Recently I added two new bash/zsh aliases to make my git experience just a tad
+better.
 
 ## trackme
 
