@@ -214,20 +214,24 @@ def _clean_amp(soup: BeautifulSoup) -> None:
 
 @hook_impl
 def render(markata: Markata) -> None:
+
+    url = markata.get_config("url") or ""
+    site_name = markata.get_config("site_name") or ""
+    twitter_card = markata.get_config("twitter_card") or "summary_large_image"
+    config_seo = markata.get_config("seo", warn=False) or dict()
+
     with markata.cache as cache:
-        for article in markata.iter_articles("add amp seo tags from seo.py"):
+        for article in markata.iter_articles("add amp seo tags from seo_amp.py"):
             key = markata.make_hash(
-                "amp_seo",
+                "seo",
                 "render",
-                article.content,
-                article.amp_html,
-                markata.config["site_name"],
-                markata.config["url"],
+                article.html,
+                site_name,
+                url,
                 article.metadata["slug"],
-                markata.config["twitter_card"],
+                twitter_card,
                 article.metadata["title"],
-                markata.config["site_name"],
-                str(markata.config["seo"]),
+                str(config_seo),
             )
             html_from_cache = cache.get(key)
 
