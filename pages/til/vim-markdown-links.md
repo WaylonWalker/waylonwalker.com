@@ -1,7 +1,7 @@
 ---
 date: 2022-03-19 19:11:27.814228
 templateKey: til
-title: Automatically Generate a list of Markown Links in Vim
+title: Automatically Generate a list of Markdown Links in Vim
 tags:
   - vim
   - webdev
