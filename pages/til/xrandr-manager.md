@@ -5,6 +5,7 @@ title: Manage your displays with xrandr manager
 status: 'draft'
 tags:
   - python
+  - linux
 
 ---
 
