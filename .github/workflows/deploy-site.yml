@@ -31,10 +31,10 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - name: Set up Python 3.9
-        uses: actions/setup-python@v1
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v4.1.0
         with:
-          python-version: 3.9
+          python-version: 3.10
 
       - name: install markata
         run: pip install -r requirements.txt
