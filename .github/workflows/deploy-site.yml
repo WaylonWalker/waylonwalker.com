@@ -47,7 +47,7 @@ jobs:
             cp static/index.html markout/index.html
 
       - name: sw-version
-        run: export checksum=$(checksumdir markout ) && cat static/sw.js | envsubst > markout/sw.js
+        run: export checksum=$(checksumdir markout ) && cat static/service-worker.js | envsubst > markout/service-worker.js
 
       # - name: Deploy to Netlify
       #   uses: nwtgck/actions-netlify@v1.1.12
