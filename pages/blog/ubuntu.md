@@ -22,14 +22,14 @@ not show up until I relogged.
 gsettings set org.gnome.desktop.wm.preferences theme Nordic
 ```
 
-What I think actuagnome terminal showing scrollbar in tmuxlly worked was 
+What I think actuagnome terminal showing scrollbar in tmuxlly worked was
 
 
 ## emoji support
 
 One thing that I really missed quite early from windows was the emoji virtual
 keyboard.  I like being able to quickly toss in those emoji that give just a
-bit of a visual cue 🔥, ⚠️,, 🎉, 🦄, 💜. 
+bit of a visual cue 🔥, ⚠️,, 🎉, 🦄, 💜.
 
 
 ### installation
@@ -95,11 +95,11 @@ reason to let it take up any screen real estate.
 
 ### Hiding the scrollbar
 
-![hide the scrollbar](https://images.waylonwalker.com/gnome-terminal-hide-scrollbar)
+![hide the scrollbar](https://images.waylonwalker.com/gnome-terminal-hide-scrollbar.png)
 
 ### Hiding the menubar
 
-![hide the menubar](https://images.waylonwalker.com/gnome-terminal-hide-menubar)
+![hide the menubar](https://images.waylonwalker.com/gnome-terminal-hide-menubar.png)
 
 ## vim clipboard
 
@@ -122,7 +122,7 @@ bind-key -T copy-mode-vi MouseDragEnd1Pane send-keys -X copy-pipe-and-cancel "xc
 
 ## Hotkeys
 
-| Key | Desc | 
+| Key | Desc |
 | --- | ---- |
 | super+j | move to workspace below |
 | super+k | move to workspace above |
@@ -130,7 +130,7 @@ bind-key -T copy-mode-vi MouseDragEnd1Pane send-keys -X copy-pipe-and-cancel "xc
 | super+shift+k | move window one workspace up |
 
 
-| Key | Command | Desc | 
+| Key | Command | Desc |
 | --- | ------- | ---- |
 | Super+e | nautilus | File Browser|
 | Super+Shift+p | Area Screenshot | gnome-screenshot -a |
