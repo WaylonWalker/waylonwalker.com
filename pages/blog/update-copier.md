@@ -13,6 +13,11 @@ status: published
 Copier is a fantastic templating library written in python, but older versions
 have a dangerous bug if you are using it inside of existing directories.
 
+## !!UPDATE!!
+
+As of May 15, 2022, the stable release of copier now includes these changes, if
+you have not already make sure you update.
+
 ## This is a PSA
 
 I Use copier several times per day and get fantastic benefit from this project,
