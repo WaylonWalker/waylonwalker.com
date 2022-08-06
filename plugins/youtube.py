@@ -50,6 +50,7 @@ def swap_youtubes(soup: BeautifulSoup) -> None:
 @hook_impl
 def post_render(markata):
     "Hook to replace youtubes on images.waylonwalker.com with mp4's if they exist"
+    should_prettify = markata.config.get("prettify_html", False)
     with markata.cache as cache:
         for article in markata.articles:
             key = markata.make_hash(
@@ -65,7 +66,10 @@ def post_render(markata):
             if html_from_cache is None:
                 soup = BeautifulSoup(article.html, "html.parser")
                 swap_youtubes(soup)
-                html = soup.prettify()
+                if should_prettify:
+                    html = soup.prettify()
+                else:
+                    html = str(soup)
                 cache.add(key, html)
 
             else:
