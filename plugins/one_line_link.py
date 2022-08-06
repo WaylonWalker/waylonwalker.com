@@ -13,7 +13,7 @@ RE_TWEET = re.compile("^https://twitter.com/.*")
 API = twitter.Api()
 
 
-def expand_line(line):
+def expand_line(line, markata):
     """
     Todo: better error message over base exception
     Todo: try except decorator?
@@ -21,7 +21,7 @@ def expand_line(line):
     try:
         r = RE_ONE_LINE.match(line)
         if r and " " not in line:
-            return get_one_line_link(line)
+            return get_one_line_link(line, markata=markata)
         r = RE_TWEET.match(line)
         if r and " " not in line:
             html = API.GetStatusOembed(url=line)["html"]
@@ -40,58 +40,60 @@ class OneLineLinkError(KeyError):
     pass
 
 
-def get_one_line_link(link):
+def get_one_line_link(link, markata):
     r = requests.get(link)
+    slug = link.replace("https://waylonwalker.com/", "").strip("/")
+    post = markata.map("post", f'slug=="{slug}"')[0]
+    root_url = markata.get_config("url") or ""
+    url = f'{root_url}/{post.metadata["slug"]}/'
+    sm_img = f"https://images.waylonwalker.com/{slug}-og_250x140.png"
+    title = post.get("title", "")
+    description = post.get("description", "")
+
     if r.status_code != 200:
         return link
     soup = BeautifulSoup(r.text, "html.parser")
-    try:
-        url = soup.find("meta", attrs={"name": "og:url"})["content"]
-    except KeyError:
-        url = link
-    except TypeError:
-        url = link
 
-    try:
-        sm_img = soup.find("meta", attrs={"name": "og:sm_image"})["content"]
-    except KeyError:
-        try:
-            sm_img = soup.find("meta", attrs={"name": "og:image"})["content"]
-        except KeyError:
-            raise OneLineLinkError(f"could not find sm_img on {link}")
-    except TypeError:
-        try:
-            sm_img = soup.find("meta", attrs={"name": "og:image"})["content"]
-        except KeyError:
-            raise OneLineLinkError(f"could not find sm_img on {link}")
-        except TypeError:
-            raise OneLineLinkError(f"could not find sm_img on {link}")
+    # try:
+    #     sm_img = soup.find("meta", attrs={"name": "og:sm_image"})["content"]
+    # except KeyError:
+    #     try:
+    #         sm_img = soup.find("meta", attrs={"name": "og:image"})["content"]
+    #     except KeyError:
+    #         raise OneLineLinkError(f"could not find sm_img on {link}")
+    # except TypeError:
+    #     try:
+    #         sm_img = soup.find("meta", attrs={"name": "og:image"})["content"]
+    #     except KeyError:
+    #         raise OneLineLinkError(f"could not find sm_img on {link}")
+    #     except TypeError:
+    #         raise OneLineLinkError(f"could not find sm_img on {link}")
 
-    try:
-        title = soup.find("title").text
-    except KeyError:
-        try:
-            title = soup.find("meta", attrs={"name": "og:title"})["content"]
-        except KeyError:
-            raise OneLineLinkError(f"could not find title on {link}")
-        except TypeError:
-            raise OneLineLinkError(f"could not find title on {link}")
-    except TypeError:
-        try:
-            title = soup.find("meta", attrs={"name": "og:title"})["content"]
-        except KeyError:
-            raise OneLineLinkError(f"could not find title on {link}")
-        except TypeError:
-            raise OneLineLinkError(f"could not find title on {link}")
+    # try:
+    #     title = soup.find("title").text
+    # except KeyError:
+    #     try:
+    #         title = soup.find("meta", attrs={"name": "og:title"})["content"]
+    #     except KeyError:
+    #         raise OneLineLinkError(f"could not find title on {link}")
+    #     except TypeError:
+    #         raise OneLineLinkError(f"could not find title on {link}")
+    # except TypeError:
+    #     try:
+    #         title = soup.find("meta", attrs={"name": "og:title"})["content"]
+    #     except KeyError:
+    #         raise OneLineLinkError(f"could not find title on {link}")
+    #     except TypeError:
+    #         raise OneLineLinkError(f"could not find title on {link}")
 
-    try:
-        description = soup.find("meta", attrs={"name": "og:description"})["content"]
-    except KeyError:
-        description = soup.text[:120]
-    except TypeError:
-        description = soup.text[:120]
+    # try:
+    #     description = soup.find("meta", attrs={"name": "og:description"})["content"]
+    # except KeyError:
+    #     description = soup.text[:120]
+    # except TypeError:
+    #     description = soup.text[:120]
 
-    description = description.replace("\n", " ").replace("\r", "")
+    # description = description.replace("\n", " ").replace("\r", "")
 
     return textwrap.dedent(
         f"""
@@ -108,8 +110,10 @@ def get_one_line_link(link):
 background.n = 100
 
 
-def expand_article(content):
-    return "\n".join([expand_line(line) for line in content.split("\n")])
+def expand_article(content, markata):
+    return "\n".join(
+        [expand_line(line, markata=markata) for line in content.split("\n")]
+    )
 
 
 @hook_impl
@@ -130,7 +134,7 @@ def pre_render(markata):
             # expanded_content_from_cache = None
 
             if expanded_content_from_cache is None:
-                expanded_content = expand_article(article.content)
+                expanded_content = expand_article(article.content, markata=markata)
                 cache.add(expanded_content_key, expanded_content)
             else:
                 expanded_content = expanded_content_from_cache
