@@ -9,7 +9,7 @@ from markata.hookspec import hook_impl
 if TYPE_CHECKING:
     from bs4.element import Tag
 
-URLS = requests.get("https://images.waylonwalker.com/sitelist.txt").content.split('\n')
+URLS = requests.get("https://images.waylonwalker.com/sitelist.txt").content.decode().split('\n')
 
 def url_exists(url: str) -> bool:
     "Checks that a given url has 200 response code"
