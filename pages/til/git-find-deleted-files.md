@@ -47,3 +47,9 @@ git reflog --diff-filter D --pretty="format:" --name-only
 # this one has the empty lines cleaned up
 git reflog --diff-filter D --pretty="format:" --name-only | sed '/^$/d'
 ```
+
+## get the last commit from a file
+
+``` bash
+git log -n 1 --pretty=format:%H -- file
+```
