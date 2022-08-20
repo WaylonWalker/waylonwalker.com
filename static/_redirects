@@ -65,7 +65,7 @@
 # /archive/command-line/*                                     /linux/:splat/
 # /archive/cli/*                                              /linux/:splat/
 
-/blog/*                                                     /$1
+/blog/*                                                     /:splat/
 # refactor routes
 # /blog/*                                                     /:splat/
 # /notes/*                                                    /:splat/
