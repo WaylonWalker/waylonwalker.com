@@ -65,10 +65,11 @@
 # /archive/command-line/*                                     /linux/:splat/
 # /archive/cli/*                                              /linux/:splat/
 
-/blog/*                                                     /:splat/
 # refactor routes
-# /blog/*                                                     /:splat/
-# /notes/*                                                    /:splat/
+/blog/*                                                     /:splat/
+/notes/*                                                    /:splat/
+/b/*                                                     /:splat/
+/n/*                                                    /:splat/
 
 # Short-Blog
 /k166                                                       /whats-new-in-kedro-0166/
