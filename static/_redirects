@@ -1,5 +1,6 @@
-# netlify redirects
+# redirects
 /blog /archive/
+/rss                                                        /rss.xml
 
 # image upload
 /upload                                                     https://github.com/WaylonWalker/images.waylonwalker.com/upload/main/static
@@ -185,7 +186,6 @@
 
 /n/*                                                        /:splat/
 
-/rss                                                        /rss.xml
 /md-rss                                                     /blog/markdown-rss.xml
 /sitemap                                                    /sitemap.xml
 
