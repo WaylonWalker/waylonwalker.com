@@ -337,7 +337,7 @@ def get():
 
     Oh, and we don't need no stinkin error handing because it's always live
     """
-    r = requests.get("https://waylonwalker.com/rss")
+    r = requests.get("https://waylonwalker.com/rss.xml")
     return r.content
 ```
 
@@ -355,7 +355,7 @@ def get():
 
     Oh, and we don't need no stinkin error handing because it's always live
     """
-    r = requests.get("https://waylonwalker.com/rss")
+    r = requests.get("https://waylonwalker.com/rss.xml")
     return r.content
 ```
 
@@ -415,4 +415,4 @@ py pd.read_csv 'https://waylonwalker.com/cars.csv'
 * [configuring ipython](https://waylonwalker.com/ipython-config/)
 * [asking ipython for help??](https://waylonwalker.com/ipython-help/)
 * [sample data I used with pandas](https://waylonwalker.com/cars.csv)
-* [my rss feed](https://waylonwalker.com/rss)
+* [my rss feed](https://waylonwalker.com/rss.xml)

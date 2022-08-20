@@ -52,7 +52,7 @@ the moment.
 I grabbed a few popular RSS feeds that I was familiar with to get started.
 
 ```python
-urls = ['https://waylonwalker.com/rss',
+urls = ['https://waylonwalker.com/rss.xml',
         'https://joelhooks.com/rss.xml',
         'https://swyx.io/rss.xml',
     ]
