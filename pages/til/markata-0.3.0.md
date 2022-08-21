@@ -8,7 +8,9 @@ tags:
 
 ---
 
-[image from Dall-e](https://images.waylonwalker.com/DALL%C2%B7E%202022-08-21%2015.03.04%20-%20An%20expressive%20oil%20painting%20of%20a%20sprinter%20edging%20out%20their%20component%20at%20the%20finish%20line,%20depicted%20as%20an%20explosion%20of%20a%20nebula.webp)
+![image from Dall-e](https://images.waylonwalker.com/DALL%C2%B7E%202022-08-21%2015.03.04%20-%20An%20expressive%20oil%20painting%20of%20a%20sprinter%20edging%20out%20their%20component%20at%20the%20finish%20line,%20depicted%20as%20an%20explosion%20of%20a%20nebula.png)
+
+> a sprinter edging out his component by Dall-e
 
 It's about time to release Markata 0.3.0.  I've had 8 pre-releases since the
 last release, but more importantly it has about 3 months of updates.  Many of
