@@ -116,16 +116,11 @@ print out highlighted code wtih my
 
 ## Links
 
-* [py-tree-sitter](https://github.com/tree-sitter/py-tree-sitter)
-* [rich](https://github.com/Textualize/rich)
 * [@textualizeio](https://twitter.com/textualizeio)
-* [rich](https://github.com/Textualize/rich)
 * [another post](https://waylonwalker.com/designing-kedro-router)
-* [print-register-pipelines](https://screenshots.waylonwalker.com/print-register-pipelines.webp)
-* [rich](https://github.com/Textualize/rich)
 * [console-print-register-pipelines](https://screenshots.waylonwalker.com/console-print-register-pipelines.webp)
-* [rich](https://github.com/Textualize/rich)
-* [syntax-print-register-pipelines](https://screenshots.waylonwalker.com/syntax-print-register-pipelines.webp)
+* [print-register-pipelines](https://screenshots.waylonwalker.com/print-register-pipelines.webp)
+* [py-tree-sitter](https://github.com/tree-sitter/py-tree-sitter)
 * [rich](https://github.com/Textualize/rich)
 * [syntax-print-register-pipelines-highlight-line](https://screenshots.waylonwalker.com/syntax-print-register-pipelines-highlight-line.webp)
-* [py-tree-sitter](https://github.com/tree-sitter/py-tree-sitter)
+* [syntax-print-register-pipelines](https://screenshots.waylonwalker.com/syntax-print-register-pipelines.webp)
