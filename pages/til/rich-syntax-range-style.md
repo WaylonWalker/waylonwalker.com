@@ -72,6 +72,8 @@ console.print(syntax)
 
 ![syntax-print-register-pipelines](https://screenshots.waylonwalker.com/syntax-print-register-pipelines.webp)
 
+Now we are getting some really impressive print outs right in the terminal!
+
 > note that I have ipython set to use [rich](https://github.com/Textualize/rich), you will need to console.print() in scripts
 
 ## highlight lines
@@ -88,6 +90,8 @@ console.print(syntax)
 
 ![syntax-print-register-pipelines-highlight-line](https://screenshots.waylonwalker.com/syntax-print-register-pipelines-highlight-line.webp)
 
+This hows the line, but still is not very accurate.
+
 ## highlight text
 
 [@textualizeio] got back to me, let's see if What we can do with stylize_range!
@@ -101,8 +105,14 @@ syntax.stylize_range(style, (4, 4), (4, 22))
 console.print(syntax)
 ```
 
+This gives us the final result we are looking for, we can easily see what is
+being targeted here.  In this case the function name `register_pipelines`.
+
+![syntax-highlight-range-register-pipelines](https://screenshots.waylonwalker.com/syntax-highlight-range-register-pipelines.webp)
+
 This turns out to be exacly what I am looking for.  Now I have an easy way to
-print out highlighted code wtih my [py-tree-sitter](https://github.com/tree-sitter/py-tree-sitter) query results.
+print out highlighted code wtih my
+[py-tree-sitter](https://github.com/tree-sitter/py-tree-sitter) query results.
 
 ## Links
 
