@@ -2,6 +2,7 @@
 date: 2022-08-24 20:06:34
 templateKey: til
 title: Highlighting text ranges with Rich | python
+status: 'published'
 tags:
   - python
 
