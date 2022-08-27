@@ -1,4 +1,5 @@
 """manifest plugin"""
+from pathlib import Path
 from typing import TYPE_CHECKING, List
 
 from bs4 import BeautifulSoup
@@ -9,14 +10,26 @@ if TYPE_CHECKING:
     import frontmatter
     from bs4.element import Tag
 
+import json
 from urllib import request as ulreq
 
 from PIL import ImageFile
+
+KNOWN_IMG_SIZES_FILE = Path(__file__).parent / "known-img-sizes.json"
+if KNOWN_IMG_SIZES_FILE.exists():
+    KNOWN_IMG_SIZES = json.loads(KNOWN_IMG_SIZES_FILE.read_text())
+else:
+    KNOWN_IMG_SIZES = {}
 
 
 def getsizes(uri, default_height=500, default_width=500):
     # get file size *and* image size (None if not known)
     # https://stackoverflow.com/questions/7460218/get-image-size-without-downloading-it-in-python
+
+    try:
+        return KNOWN_IMG_SIZES[uri]
+    except KeyError:
+        ...
 
     try:
         with ulreq.urlopen(uri) as file:
@@ -27,8 +40,10 @@ def getsizes(uri, default_height=500, default_width=500):
                     break
                 p.feed(data)
                 if p.image:
+                    KNOWN_IMG_SIZES[uri] = p.image.size
                     return p.image.size
     except BaseException:
+        KNOWN_IMG_SIZES[uri] = (default_width, default_height)
         return (
             default_width,
             default_height,
@@ -261,3 +276,4 @@ def render(markata: Markata) -> None:
             else:
                 html = html_from_cache
             article.amp_html = html
+    KNOWN_IMG_SIZES_FILE.write_text(json.dumps(KNOWN_IMG_SIZES))
