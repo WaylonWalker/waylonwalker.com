@@ -2,7 +2,7 @@
 date: 2022-08-22 13:17:32
 templateKey: til
 title: vimgrep open buffers
-status: 'published'
+status: published
 tags:
   - vim
 
@@ -43,3 +43,5 @@ list.
 You're not a true vim enthusiast until you have spent 10 minutes writing a blog
 post about how vim saved you 5 minutes.  Check out all the other times this has
 happened to me in the [vim](https://waylonwalker.com/vim/) tag.
+
+

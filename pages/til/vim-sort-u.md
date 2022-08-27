@@ -2,7 +2,7 @@
 date: 2022-08-25 06:50:32
 templateKey: til
 title: use vim to remove duplicates
-status: 'published'
+status: published
 tags:
   - python
 

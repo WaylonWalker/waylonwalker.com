@@ -2,7 +2,7 @@
 date: 2022-08-24 20:06:34
 templateKey: til
 title: Highlighting text ranges with Rich | python
-status: 'published'
+status: published
 tags:
   - python
 
@@ -125,3 +125,5 @@ print out highlighted code wtih my
 * [rich](https://github.com/Textualize/rich)
 * [syntax-print-register-pipelines-highlight-line](https://screenshots.waylonwalker.com/syntax-print-register-pipelines-highlight-line.webp)
 * [syntax-print-register-pipelines](https://screenshots.waylonwalker.com/syntax-print-register-pipelines.webp)
+
+
