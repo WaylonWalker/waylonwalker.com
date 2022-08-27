@@ -2,9 +2,7 @@ import re
 import textwrap
 
 import background
-import requests
 import twitter
-from bs4 import BeautifulSoup
 from markata.hookspec import hook_impl
 
 RE_ONE_LINE = re.compile("^https://waylonwalker.com/.*")
@@ -41,59 +39,15 @@ class OneLineLinkError(KeyError):
 
 
 def get_one_line_link(link, markata):
-    r = requests.get(link)
     slug = link.replace("https://waylonwalker.com/", "").strip("/")
+    if slug not in markata.map("slug"):
+        return link
     post = markata.map("post", f'slug=="{slug}"')[0]
     root_url = markata.get_config("url") or ""
     url = f'{root_url}/{post.metadata["slug"]}/'
     sm_img = f"https://images.waylonwalker.com/{slug}-og_250x140.png"
     title = post.get("title", "")
     description = post.get("description", "")
-
-    if r.status_code != 200:
-        return link
-    soup = BeautifulSoup(r.text, "html.parser")
-
-    # try:
-    #     sm_img = soup.find("meta", attrs={"name": "og:sm_image"})["content"]
-    # except KeyError:
-    #     try:
-    #         sm_img = soup.find("meta", attrs={"name": "og:image"})["content"]
-    #     except KeyError:
-    #         raise OneLineLinkError(f"could not find sm_img on {link}")
-    # except TypeError:
-    #     try:
-    #         sm_img = soup.find("meta", attrs={"name": "og:image"})["content"]
-    #     except KeyError:
-    #         raise OneLineLinkError(f"could not find sm_img on {link}")
-    #     except TypeError:
-    #         raise OneLineLinkError(f"could not find sm_img on {link}")
-
-    # try:
-    #     title = soup.find("title").text
-    # except KeyError:
-    #     try:
-    #         title = soup.find("meta", attrs={"name": "og:title"})["content"]
-    #     except KeyError:
-    #         raise OneLineLinkError(f"could not find title on {link}")
-    #     except TypeError:
-    #         raise OneLineLinkError(f"could not find title on {link}")
-    # except TypeError:
-    #     try:
-    #         title = soup.find("meta", attrs={"name": "og:title"})["content"]
-    #     except KeyError:
-    #         raise OneLineLinkError(f"could not find title on {link}")
-    #     except TypeError:
-    #         raise OneLineLinkError(f"could not find title on {link}")
-
-    # try:
-    #     description = soup.find("meta", attrs={"name": "og:description"})["content"]
-    # except KeyError:
-    #     description = soup.text[:120]
-    # except TypeError:
-    #     description = soup.text[:120]
-
-    # description = description.replace("\n", " ").replace("\r", "")
 
     return textwrap.dedent(
         f"""
