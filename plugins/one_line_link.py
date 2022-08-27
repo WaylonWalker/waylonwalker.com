@@ -1,7 +1,6 @@
 import re
 import textwrap
 
-import background
 import twitter
 from markata.hookspec import hook_impl
 
@@ -61,9 +60,6 @@ def get_one_line_link(link, markata):
     )
 
 
-background.n = 100
-
-
 def expand_article(content, markata):
     return "\n".join(
         [expand_line(line, markata=markata) for line in content.split("\n")]
@@ -75,17 +71,10 @@ def pre_render(markata):
     with markata.cache as cache:
         for article in markata.articles:
 
-            html_key = markata.make_hash(
-                "one_line_link", "render", "html", article.content
-            )
             expanded_content_key = markata.make_hash(
                 "one_line_link", "render", "expanded_content", article.content
             )
-            html_from_cache = cache.get(html_key)
             expanded_content_from_cache = cache.get(expanded_content_key)
-
-            # html_from_cache = None
-            # expanded_content_from_cache = None
 
             if expanded_content_from_cache is None:
                 expanded_content = expand_article(article.content, markata=markata)
@@ -93,12 +82,4 @@ def pre_render(markata):
             else:
                 expanded_content = expanded_content_from_cache
 
-            if html_from_cache is None:
-                html = markata.md.convert(expanded_content)
-                cache.add(html_key, html)
-            else:
-                html = html_from_cache
-
             article.content = expanded_content
-            article.html = html
-            article.article_html = html
