@@ -8,6 +8,10 @@ tags:
 
 ---
 
+Hatch has an amazing versioning cli for python packages that just works.  It
+takes very little config to get going and you can start bumping versions
+without worry.
+
 ## project layout
 
 ``` bash
