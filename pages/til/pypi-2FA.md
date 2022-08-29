@@ -2,7 +2,7 @@
 date: 2022-08-29 07:51:54
 templateKey: til
 title: I turned on 2FA for all of my pypi packages
-status: 'draft'
+status: published
 tags:
   - python
 
