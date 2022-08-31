@@ -2,7 +2,7 @@
 date: 2022-09-01 13:19:22
 templateKey: til
 title: Versioning Python Projects with Hatch
-status: 'draft'
+status: 'published'
 tags:
   - python
 
@@ -185,7 +185,7 @@ commit, and deploy for me.
           git push
           git push --tags
 
-      - name: automatically pre-release develop branch
+      - name: automatically release main branch
         if: github.ref == 'refs/heads/main'
         run: |
           git config --global user.name 'autobump'
