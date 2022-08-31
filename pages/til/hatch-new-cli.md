@@ -8,4 +8,220 @@ tags:
 
 ---
 
+
 ![hatch-new-cli](https://screenshots.waylonwalker.com/hatch-new-cli.webp)
+
+```
+❯ pipx run hatch new --help
+Usage: hatch new [OPTIONS] [NAME] [LOCATION]
+
+  Create or initialize a project.
+
+Options:
+  -i, --interactive  Interactively choose details about the project
+  --cli              Give the project a command line interface
+  --init             Initialize an existing project
+  -h, --help         Show this message and exit.
+```
+
+```
+pipx run hatch new -i
+```
+
+``` bash
+❯ tree .
+.
+├── hatch_new
+│   ├── __about__.py
+│   └── __init__.py
+├── LICENSE.txt
+├── pyproject.toml
+├── README.md
+└── tests
+    └── __init__.py
+```
+
+## Non-Interative
+
+
+![hatch-new-another-project](https://screenshots.waylonwalker.com/hatch-new-another-project.webp)
+
+``` bash
+❯ pipx run hatch new "Another Project"
+another-project
+├── another_project
+│   ├── __about__.py
+│   └── __init__.py
+├── tests
+│   └── __init__.py
+├── LICENSE.txt
+├── README.md
+└── pyproject.toml
+```
+
+## --init
+
+`hatch new` has an `--init` flag in order to initialize a new hatch
+pyproject.toml in an existing project.  This feels like it would be useful if
+you are converting a project to hatch, or if like me you sometimes start making
+something before you realize it's something that you want to package.  Honestly
+this doesn't happen too much anymore I package most things, and I hope `hatch
+new` completely breaks this habbit of mine.
+
+Let's say I have the following existing project.
+
+``` bash
+❯ tree
+.
+└── hatch_init
+    └── __init__.py
+
+1 directory, 1 file
+```
+
+I can setup packaging with hatch by running.
+
+``` bash
+pipx run hatch new --init
+```
+
+![hatch-init-existing](https://screenshots.waylonwalker.com/hatch-init-existing.webp)
+
+
+The `pyproject.toml` that comes out is pretty similar to the one that comes out
+of the normal `hatch new`, but without any other files.
+
+> Note that you will need to setup a `__about__.py` yourself for the dynamic
+> versioning that it has setup for you.
+
+``` toml
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "hatch-init"
+description = 'initialize an existing project using hatch'
+readme = "README.md"
+requires-python = ">=3.7"
+license = "MIT"
+keywords = []
+authors = [
+  { name = "Waylon S. Walker", email = "waylon@waylonwalker.com" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = []
+dynamic = ["version"]
+
+[project.urls]
+Documentation = "https://github.com/unknown/hatch-init#readme"
+Issues = "https://github.com/unknown/hatch-init/issues"
+Source = "https://github.com/unknown/hatch-init"
+
+[tool.hatch.version]
+path = "hatch_init/__about__.py"
+
+[tool.hatch.envs.default]
+dependencies = [
+  "pytest",
+  "pytest-cov",
+]
+[tool.hatch.envs.default.scripts]
+cov = "pytest --cov-report=term-missing --cov-config=pyproject.toml --cov=hatch_init --cov=tests"
+no-cov = "cov --no-cov"
+
+[[tool.hatch.envs.test.matrix]]
+python = ["37", "38", "39", "310", "311"]
+
+[tool.coverage.run]
+branch = true
+parallel = true
+omit = [
+  "hatch_init/__about__.py",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]
+```
+
+## cli
+
+`hatch new` does not stop there, it also has a `--cli` flag to give you a cli out of the box as well.
+
+``` bash
+❯ pipx run hatch new "new cli" --cli
+new-cli
+├── new_cli
+│   ├── cli
+│   │   └── __init__.py
+│   ├── __about__.py
+│   ├── __init__.py
+│   └── __main__.py
+├── tests
+│   └── __init__.py
+├── LICENSE.txt
+├── README.md
+└── pyproject.toml
+```
+
+When you use the `--cli` flag you also get `click` as a dependency and
+`project.scripts` setup automatically.
+
+```
+[project]
+name = "new-cli"
+
+# ...
+
+dependencies = [
+  "click",
+]
+
+# ...
+
+[project.scripts]
+new-cli = "new_cli.cli:new_cli"
+```
+
+## what's in the cli
+
+It's a hello-world click application.
+
+``` python
+# SPDX-FileCopyrightText: 2022-present Waylon S. Walker <waylon@waylonwalker.com>
+#
+# SPDX-License-Identifier: MIT
+import click
+
+from ..__about__ import __version__
+
+
+@click.group(context_settings={'help_option_names': ['-h', '--help']}, invoke_without_command=True)
+@click.version_option(version=__version__, prog_name='new cli')
+@click.pass_context
+def new_cli(ctx: click.Context):
+    click.echo('Hello world!')
+```
+
+## sneak peek
+
+I'll dive more into environments and the run command later, but we can run the
+cli pretty damn quick with two commands. In under 5s I was able to run this cli
+that it created.  This is a pretty incredible startup time.
+
+
+![pipx-run-hatch-hello-world](https://screenshots.waylonwalker.com/pipx-run-hatch-hello-world.webp)
