@@ -208,5 +208,11 @@ commit, and deploy for me.
         uses: pypa/gh-action-pypi-publish@v1.1.0
         with:
           password: ${{ secrets.pypi_password }}
-
 ```
+
+## Hatch Version Action
+
+I am setting up a github custom action
+[waylonwalker/hatch-version-action](https://github.com/WaylonWalker/hatch-version-action)
+that will lint, test, bump, and publish for me in one step.  More on that in
+the future.
