@@ -1,5 +1,6 @@
-git+https://github.com/WaylonWalker/markata.git@develop
-python-twitter
 background
-pyinstrument
 click<8.1.0
+git+https://github.com/WaylonWalker/markata.git@develop
+markata-gh
+pyinstrument
+python-twitter
