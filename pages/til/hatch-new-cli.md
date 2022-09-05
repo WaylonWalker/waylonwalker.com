@@ -8,6 +8,10 @@ tags:
 
 ---
 
+I'm really getting into using hatch as my go to build system, and I am really
+liking it so far.  I am slowly finding new  things that just work really well.
+`hatch new` is one of those things that I didn't realize I needed until I had
+it.
 
 ![hatch-new-cli](https://screenshots.waylonwalker.com/hatch-new-cli.webp)
 
@@ -24,9 +28,22 @@ Options:
   -h, --help         Show this message and exit.
 ```
 
+> Note! I am running all of these commands with pipx. I like to use pipx for
+> all of my system level cli applications.  To emphasis this point in the
+> article I am going to use `pipx run hatch`, but you can `pipx install hatch`
+> then just run `hatch` from there.
+
+## Interacively create a new project
+
+Running `hatch new -i` will ask let you interactivly choose details about the
+project, such as the project's name.
+
 ```
 pipx run hatch new -i
 ```
+
+After running and naming the project **Hatch New** we end up with the following
+filetree.
 
 ``` bash
 ❯ tree .
@@ -43,6 +60,8 @@ pipx run hatch new -i
 
 ## Non-Interative
 
+You can also fill in the project name ahead of time, and it will run without
+any questions.
 
 ![hatch-new-another-project](https://screenshots.waylonwalker.com/hatch-new-another-project.webp)
 
@@ -59,7 +78,11 @@ another-project
 └── pyproject.toml
 ```
 
+> Note! all of these examples will create a project directory within your
+> current working directory.
+
 ## --init
+_existing project_
 
 `hatch new` has an `--init` flag in order to initialize a new hatch
 pyproject.toml in an existing project.  This feels like it would be useful if
@@ -160,7 +183,8 @@ exclude_lines = [
 
 ## cli
 
-`hatch new` does not stop there, it also has a `--cli` flag to give you a cli out of the box as well.
+`hatch new` does not stop there, it also has a `--cli` flag to give you a cli
+out of the box as well.
 
 ``` bash
 ❯ pipx run hatch new "new cli" --cli
