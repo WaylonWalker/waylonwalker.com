@@ -5,6 +5,7 @@ title: Versioning Python Projects with Hatch
 status: 'published'
 tags:
   - python
+cover: https://images.waylonwalker.com/hatch-version.png
 
 ---
 
