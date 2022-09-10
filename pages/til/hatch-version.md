@@ -13,7 +13,7 @@ Hatch has an amazing versioning cli for python packages that just works.  It
 takes very little config to get going and you can start bumping versions
 without worry.
 
-![Hatch new coveri image](https://images.waylonwalker.com/hatch-version.png)
+![Hatch version cover image](https://images.waylonwalker.com/hatch-version.png)
 
 > creating new versions created by myself with stable diffusion
 

@@ -5,6 +5,7 @@ title: Create a new Python Project with the Hatch Cli
 status: published
 tags:
   - python
+cover: https://images.waylonwalker.com/hatch-new.png
 
 ---
 
@@ -13,7 +14,13 @@ liking it so far.  I am slowly finding new  things that just work really well.
 `hatch new` is one of those things that I didn't realize I needed until I had
 it.
 
+
+![Hatch new cover image](https://images.waylonwalker.com/hatch-new.png)
+
+> creating new versions created by myself with stable diffusion
+
 ![hatch-new-cli](https://screenshots.waylonwalker.com/hatch-new-cli.webp)
+
 
 ```
 ❯ pipx run hatch new --help
