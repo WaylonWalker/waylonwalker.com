@@ -1,6 +1,6 @@
 ---
 date: 2022-09-05 11:00:46
-templateKey: til
+templateKey: blog-post
 title: Setting up snapper on Arch
 status: 'draft'
 tags:
@@ -15,6 +15,12 @@ snapper
 snap-pac
 grub-btrfs
 ```
+
+## Note
+
+These are mostly my notes to remind myself, I'd Highly reccomend watching
+[this-video]( https://www.youtube.com/watch?v=_97JOyC1o2o) or reading this
+[arch wiki page](https://wiki.archlinux.org/title/snapper)
 
 ## /.snapshots already exists error
 
@@ -91,7 +97,7 @@ sudo btrfs subvol get-default /
 ## ID 256 gen 105268 top level 5 path @
 ```
 
-![btrfs-subvol-set-default](https://screenshots.waylonwalker.com/btrfs-subvol-set-default.webp)
+![btrfs-subvol-set-default]( https://screenshots.waylonwalker.com/btrfs-subvol-set-default.webp )
 
 ## snapper ls
 
@@ -104,3 +110,25 @@ sudo snapper ls
 leaving off for now
 
 https://youtu.be/_97JOyC1o2o?t=909
+
+## config
+
+``` bash
+sudo nvim /etc/snapper/configs/root
+```
+
+``` bash
+ALLOW_GROUPS="wheel"
+
+# limits for timeline cleanup
+TIMELINE_MIN_AGE="1800"
+TIMELINE_LIMIT_HOURLY="5"
+TIMELINE_LIMIT_DAILY="7"
+TIMELINE_LIMIT_WEEKLY="0"
+TIMELINE_LIMIT_MONTHLY="0"
+TIMELINE_LIMIT_YEARLY="0"
+```
+
+```
+sudo chown -R :wheel /.snapshots/
+```
