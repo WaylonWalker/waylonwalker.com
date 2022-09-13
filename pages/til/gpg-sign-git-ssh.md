@@ -37,3 +37,15 @@ export GPG_TTY=$(tty)
 This is what it looks like when it asks for the passphrase.
 
 ![enter your passphrase to unlock your gpg key](https://images.waylonwalker.com/gpg-passphrase-unlock.png)
+
+## EDIT-another way
+
+So this did not fix the issue on Arch BTW, and I have seen it not work for wsl
+users either.  This did work for me and reported to have worked by a wsl user
+on a github issue.
+
+``` bash
+echo '' | gpg --clearsign
+```
+
+This will unlock the gpg key then let you commit.
