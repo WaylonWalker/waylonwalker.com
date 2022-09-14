@@ -2,6 +2,7 @@
 date: 2022-06-13 10:10:34
 templateKey: til
 title: IPython q to exit
+status: published
 tags:
   - python
 

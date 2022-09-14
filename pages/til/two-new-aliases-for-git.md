@@ -8,6 +8,8 @@ tags:
 
 ---
 
+![Astronaut doing a mic drop with explosion](https://stable-diffusion.waylonwalker.com/000172.3260819219.webp)
+
 Recently I added two new bash/zsh aliases to make my git experience just a tad
 better.
 

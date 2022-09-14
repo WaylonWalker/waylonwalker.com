@@ -3,6 +3,7 @@ date: 2022-06-11 12:37:50
 templateKey: til
 title: Copier Slugify | python templating | using cookiecutter
 jinja: False
+status: published
 tags:
   - python
 
