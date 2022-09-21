@@ -13,7 +13,7 @@ running snippets ofcode as I go.  Ipython is my repl of choice, and I hace
 tricked it out the best I can and I really like it.  The problem I recently
 discovered is that I have way overcomplicated it.
 
-[](https://stable-diffusion.waylonwalker.com/000221.3407229670.webp)
+![](https://stable-diffusion.waylonwalker.com/000221.3407229670.webp)
 
 ## What Have I done??
 
@@ -47,6 +47,8 @@ except UsageError:
         stderr=subprocess.DEVNULL,
     )
 ```
+
+![A man looking over to a glowing nuclear core with hundreds of wires running from it](https://stable-diffusion.waylonwalker.com/000255.43782833.webp)
 
 ## What I missed?
 
