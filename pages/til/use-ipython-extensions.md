@@ -2,7 +2,7 @@
 date: 2022-09-20 15:40:31
 templateKey: til
 title: I've made my ipython config too complicated, let's fix it.
-status: 'draft'
+status: 'published'
 tags:
   - python
 
@@ -12,6 +12,8 @@ When I am developing python code I often have a repl open alongside of it
 running snippets ofcode as I go.  Ipython is my repl of choice, and I hace
 tricked it out the best I can and I really like it.  The problem I recently
 discovered is that I have way overcomplicated it.
+
+[](https://stable-diffusion.waylonwalker.com/000221.3407229670.webp)
 
 ## What Have I done??
 
