@@ -145,7 +145,7 @@ source activate $(basename $PWD) || condanew
 ### Conda
 
 
-```
+``` bash
 direnv edit .
 ```
 
