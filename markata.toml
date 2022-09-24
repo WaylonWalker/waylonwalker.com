@@ -74,7 +74,7 @@ len=250
 [markata.auto_description.super_description]
 len=500
 [markata.auto_publish.filters]
-til='templateKey=="til" and date<=today and status is not "draft"'
+til='templateKey=="til" and date<=today and status != "draft"'
 
 [markata.archive]
 archive_template="pages/templates/archive_template.html"
