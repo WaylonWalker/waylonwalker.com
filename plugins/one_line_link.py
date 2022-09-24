@@ -44,7 +44,7 @@ def get_one_line_link(link, markata):
     post = markata.map("post", f'slug=="{slug}"')[0]
     root_url = markata.get_config("url") or ""
     url = f'{root_url}/{post.metadata["slug"]}/'
-    sm_img = f"https://images.waylonwalker.com/{slug}-og_250x140.png"
+    img = f"https://covers.waylonwalker.com/{slug}.jpg"
     title = post.get("title", "")
     description = post.get("description", "")
 
@@ -52,7 +52,7 @@ def get_one_line_link(link, markata):
         f"""
     <div class="onelinelink-wrapper">
         <a class="onelinelink" href="{url}">
-            <img style="float: right;" align='right' src="{sm_img}" alt="article cover for {title}"/>
+            <img style="float: right;" align='right' src="{img}" alt="article cover for {title}"/>
             <p><strong>{title}</strong></p>
         </a>
     </div>
