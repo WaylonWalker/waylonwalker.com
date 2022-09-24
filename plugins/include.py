@@ -7,9 +7,12 @@ def expand_content(content: str, markata):
         if line.startswith("%%include"):
             slugs.append(line.replace("%%include ", ""))
     for slug in slugs:
-        include_content = markata.filter(f'slug=="{slug}"')[0].content
-        content = content.replace(f"%%include {slug}", include_content)
-    return content
+        try:
+            include_content = markata.filter(f'slug=="{slug}"')[0].content
+            content = content.replace(f"%%include {slug}", include_content)
+            return content
+        except IndexError:
+            ...
 
 
 @hook_impl(trylast=True)
