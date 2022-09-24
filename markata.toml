@@ -218,9 +218,9 @@ content = "Waylon Walker"
 name = "og:author_email"
 content = "waylon@waylonwalker.com"
 
-[[markata.head.meta]]
-name = "generator"
-content = "markata {{ __version__ }}"
+# [[markata.head.meta]]
+# name = "generator"
+# content = "markata {{ __version__ }}"
 
 [[markata.head.meta]]
 name = "monetization"
