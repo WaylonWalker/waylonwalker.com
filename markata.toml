@@ -154,8 +154,8 @@ template = "static/hashnode-template.png"
 font = "./.github/scripts/waterlilly-script.ttf"
 font_color = "rgb(255,255,255)"
 
-[[markata.head.text]]
-value = '''<title>{{ title|e }}</title>'''
+# [[markata.head.text]]
+# value = '''<title>{{ title|e }}</title>'''
 
 [[markata.head.meta]]
 name = "description"
