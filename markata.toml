@@ -232,7 +232,23 @@ content = "markata {{ __version__ }}"
 
 [[markata.head.meta]]
 name = "monetization"
-content="$ilp.uphold.com/MGN2ni2YMXaQ"
+conten = "$ilp.uphold.com/MGN2ni2YMXaQ"
+
+[[markata.head.link]]
+rel = "preconnect"
+href = "https://images.waylonwalker.com"
+
+[[markata.head.link]]
+rel = "preconnect"
+href = "https://covers.waylonwalker.com"
+
+[[markata.head.link]]
+rel = "preconnect"
+href = "https://stable-diffusion.waylonwalker.com"
+
+[[markata.head.link]]
+rel = "preconnect"
+href = "https://screenshots.waylonwalker.com"
 
 [[markata.head.meta]]
 name = "theme-color"
