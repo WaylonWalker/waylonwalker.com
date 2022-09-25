@@ -12,7 +12,7 @@ storage location/brain dump of hook ideas.
 
 > ### What is Kedro 🤔
 >
-> If you are completely unsure what kedro is be sure to check out my [what is kedro](https://waylonwalker.com/wike) post
+> If you are completely unsure what kedro is be sure to check out my [what is kedro](https://waylonwalker.com/what-is-kedro/) post
 
 ## after_catalog_created
 

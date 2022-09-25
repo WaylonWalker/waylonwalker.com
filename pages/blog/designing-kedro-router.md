@@ -19,7 +19,7 @@ _Also..._
 
 With this pattern all of the nodes needed to be importable by the module containing nodes_global.  I find that this becomes a big hurdle for new pipelines coming from jupyter to overcome and can be most infuriating when their nodes aren't getting ran after they added them.
 
-https://waylonwalker.com/what-is-kedro
+https://waylonwalker.com/what-is-kedro/
 
 > If you are a bit unsure about what kedro is make sure to check out my [what-is-kedro](https://waylonwalker.com/what-is-kedro/) article.
 
@@ -83,7 +83,7 @@ class ProjectHooks:
         return find_kedro()
 ```
 
-## Use it 
+## Use it
 
 Check out the [readme](https://github.com/WaylonWalker/find-kedro) for more examples, but this one is the one that I use and recommend most often.  This method helps keep nodes close to functions that are designed for them.
 
@@ -134,4 +134,4 @@ In [this doc](https://find.kedro.dev/examples/iris/) I transform the kedro iris 
 
 If you still have not tried out kedro, it's easier than you think. Check out [create-new-kedro-project](https://waylonwalker.com/create-new-kedro-project/) to get a project started in just a few minutes.
 
-https://waylonwalker.com/create-new-kedro-project
+https://waylonwalker.com/create-new-kedro-project/
