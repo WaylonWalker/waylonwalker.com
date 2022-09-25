@@ -30,19 +30,19 @@ hooks = [
    "plugins.one_line_link",
    # "plugins.include",
    "default",
-   # 'plugins.related',
-   # 'plugins.seo_amp',
-   'plugins.publish_amp',
-   # 'plugins.custom_seo',
-   'plugins.gif_to_mp4',
-   'plugins.youtube',
-   'plugins.rss_tag',
-   'plugins.auto_publish',
+   # "plugins.related",
+   # "plugins.seo_amp",
+   "plugins.publish_amp",
+   # "plugins.custom_seo",
+   "plugins.gif_to_mp4",
+   "plugins.youtube",
+   "plugins.rss_tag",
+   "plugins.auto_publish",
    ]
 disabled_hooks = [
 "markata.plugins.covers",
-'markata.plugins.seo',
-# 'markata.plugins.flat_slug'
+"markata.plugins.seo",
+# "markata.plugins.flat_slug"
 ]
 
 ## Site Config
@@ -74,7 +74,7 @@ len=250
 [markata.auto_description.super_description]
 len=500
 [markata.auto_publish.filters]
-til='templateKey=="til" and date<=today and status != "draft"'
+til="templateKey=='til' and date<=today and status != 'draft'"
 
 [markata.archive]
 archive_template="pages/templates/archive_template.html"
@@ -155,15 +155,15 @@ font = "./.github/scripts/waterlilly-script.ttf"
 font_color = "rgb(255,255,255)"
 
 [[markata.head.text]]
-value = '<title>{{ title|e }}</title>'
+value = "<title>{{ title|e }}</title>"
 
 [[markata.head.meta]]
 name = "twitter:title"
-content = '{{ title|e }}'
+content = "{{ title|e }}"
 
 [[markata.head.meta]]
 name = "og:title"
-content = '{{ title|e }}'
+content = "{{ title|e }}"
 
 [[markata.head.meta]]
 name = "description"
@@ -191,7 +191,7 @@ href="{{ config.url }}/{{ slug }}/amp/"
 rel="amphtml"
 
 [[markata.head.meta]]
-name='og:url'
+name="og:url"
 content="{{ config.url }}/{{ slug }}/"
 
 [[markata.head.meta]]
@@ -243,4 +243,4 @@ prevnext_color_angle = "#ff66c4"
 
 [markata.feeds.published]
 filter="date<=today and templateKey in ['blog-post', 'til'] and status.lower()=='published'"
-sort='slug'
+sort="slug"
