@@ -81,3 +81,5 @@ with this page.
 I opened up the `urls.py` to discover that the only configured url was at
 `/admin`. I tried to log in as admin, but was unable to as I have not yet
 created a superuser.  Next time I play with django that is what I will explore.
+
+![An astronaut working in a dimly lit labratory, it is almost black, heavy dark blacks, black space, heavy vingette, hacking on a computer terminal, htop is running, shallow depth of field beakers, test tubes, by Alphonse Mucha, dynamic lighting, digital art](https://stable-diffusion.waylonwalker.com/000250.526887289.webp)
