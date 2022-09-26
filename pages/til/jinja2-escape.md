@@ -3,6 +3,7 @@ date: 2022-09-24 15:18:50
 templateKey: til
 title: how to escape variables in jinja templates
 status: 'published'
+jinja_md: False
 tags:
   - python
 
@@ -12,7 +13,7 @@ While updating my site to use Markata's new configurable head I ran into some
 escaping issues.  Things like single quotes would cause jinja to fail as it was
 closing quotes that it shouldnt have.
 
-![Nuclear core being help up by glowing neon wires, cyberpunk synthwave, intricate abstract. delicate artwork. by tooth wu, wlop, beeple, dan mumford. pink volumetric lighting, octane render, trending on artstation, greg rutkowski very coherent symmetrical artwork. cinematic, hyper realism, high detail, octane render, 8k, depth of field, bokeh. chrome accents.](https://stable-diffusion.waylonwalker.com/000258.1910330087.webp)
+![Nuclear core being help up by glowing neon wires, cyberpunk synthwave, intricate abstract. delicate artwork. by tooth wu, wlop, beeple, dan mumford. pink volumetric lighting, octane render, trending on artstation, greg rutkowski very coherent symmetrical artwork. cinematic, hyper realism, high detail, octane render, 8k, depth of field, bokeh. chrome accents.](https://stable-diffusion.waylonwalker.com/000258.1910330087.webp#cinematic)
 
 ## Jinja Escaping Strings
 
@@ -62,4 +63,4 @@ name = "og:title"
 content = "{{ title|e }}"
 ```
 
-![Nuclear core being help up by wires, intricate abstract. delicate artwork. by tooth wu, wlop, beeple, dan mumford. pink volumetric lighting, octane render, trending on artstation, greg rutkowski very coherent symmetrical artwork. cinematic, hyper realism, high detail, octane render, 8k, depth of field, bokeh. chrome accents.](https://stable-diffusion.waylonwalker.com/000255.3328233410.webp)
+![Nuclear core being help up by wires, intricate abstract. delicate artwork. by tooth wu, wlop, beeple, dan mumford. pink volumetric lighting, octane render, trending on artstation, greg rutkowski very coherent symmetrical artwork. cinematic, hyper realism, high detail, octane render, 8k, depth of field, bokeh. chrome accents.](https://stable-diffusion.waylonwalker.com/000255.3328233410.webp#cinematic)
