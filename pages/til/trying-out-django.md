@@ -2,7 +2,7 @@
 date: 2022-09-25 18:47:54
 templateKey: til
 title: Trying out django
-status: 'draft'
+status: 'published'
 tags:
   - python
 
