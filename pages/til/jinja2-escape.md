@@ -1,7 +1,7 @@
 ---
 date: 2022-09-24 15:18:50
 templateKey: til
-title: how to excape variables in jinja templates
+title: how to escape variables in jinja templates
 status: 'published'
 tags:
   - python
