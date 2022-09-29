@@ -5,6 +5,8 @@ title: django create superuser
 status: 'published'
 tags:
   - python
+  - web
+  - django
 
 ---
 
