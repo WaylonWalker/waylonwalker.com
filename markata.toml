@@ -24,24 +24,27 @@ hooks = [
    # "markata.plugins.publish_dev_to_source",
    "markata.plugins.prevnext",
    "plugins.render_template_variables",
-   "plugins.codeblocks",
-   "plugins.index",
-   "plugins.slug",
-   "plugins.one_line_link",
+   # "plugins.codeblocks",
+   # "plugins.index",
+   # "plugins.slug",
+   # "plugins.one_line_link",
    # "plugins.include",
    "default",
    # "plugins.related",
    # "plugins.seo_amp",
-   "plugins.publish_amp",
+   # "plugins.publish_amp",
    # "plugins.custom_seo",
-   "plugins.gif_to_mp4",
-   "plugins.youtube",
-   "plugins.rss_tag",
+   # "plugins.gif_to_mp4",
+   # "plugins.youtube",
+   # "plugins.rss_tag",
    "plugins.auto_publish",
    ]
 disabled_hooks = [
 "markata.plugins.covers",
+"markata.plugins.heading_link",
 "markata.plugins.seo",
+"markata.plugins.rss",
+"markata.plugins.manifest",
 # "markata.plugins.flat_slug"
 ]
 
@@ -232,7 +235,7 @@ content = "markata {{ __version__ }}"
 
 [[markata.head.meta]]
 name = "monetization"
-conten = "$ilp.uphold.com/MGN2ni2YMXaQ"
+content = "$ilp.uphold.com/MGN2ni2YMXaQ"
 
 [[markata.head.link]]
 rel = "preconnect"
