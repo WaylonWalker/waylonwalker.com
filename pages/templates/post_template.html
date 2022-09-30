@@ -31,7 +31,6 @@
     <link href='/8bitcc_384x384.png' rel='apple-touch-icon' sizes='384x384' />
     <link href='/8bitcc_512x512.png' rel='apple-touch-icon' sizes='512x512' />
 
-    <script src='/service-worker.js'/>
     {{ config.get('head', {}).pop('text') if 'text' in config.get('head',{}).keys() }}{% for tag, meta in config.get('head', {}).items() %}{% for _meta in meta %}
     <{{ tag }} {% for attr, value in _meta.items() %}{{ attr }}="{{ value }}"{% endfor %}/> {% endfor %}{% endfor %}
 </head>
