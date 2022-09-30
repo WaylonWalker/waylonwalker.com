@@ -21,10 +21,12 @@ const RUNTIME = 'runtime';
 const PRECACHE_URLS = [
   'index.html',
   './',
-  '/sample/',
-  '/8bitc_48x48.png',
-  '/archive-styles.css',
-  '/furo-purge.css',
+  '8bitcc.ico',
+  'main.min.css',
+  'one-dark.min.css',
+  'furo-purge.min.css',
+  'archive',
+  'manifest.json'
 ];
 
 // The install handler takes care of precaching the resources we always need.
