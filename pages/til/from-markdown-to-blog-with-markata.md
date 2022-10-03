@@ -21,4 +21,4 @@ Full transparancy... I built markata.
 The talk is live on YouTube.  Make sure you check out the other videos from the
 conference.  There were quite a few quality talks that deserve a watch as well.
 
-https://www.youtube.com/watch?v=Wq9YBamSgs0
+https://youtu.be/Wq9YBamSgs0
