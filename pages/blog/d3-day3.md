@@ -7,6 +7,7 @@ tags:
     - webdev
 summary: Creating my First d3.js viz by following along with Ben Clinkinbeard's d3 in 5 days email.
 description: none
+status: 'published'
 cover: "./d3-cropped.png"
 ---
 
