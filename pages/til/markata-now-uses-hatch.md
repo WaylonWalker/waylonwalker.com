@@ -1,8 +1,8 @@
 ---
-date: 2022-10-06 18:25:10
+date: 2022-10-08 07:25:10
 templateKey: til
 title: Markata now uses hatch
-status: 'draft'
+status: 'published'
 tags:
   - python
 
