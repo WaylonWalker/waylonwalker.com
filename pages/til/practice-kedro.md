@@ -15,6 +15,11 @@ saying that you need to spend all your free time practicing, but a few
 minutes trying new things can go a long way in how you understand what
 you are doing and make a hue impact on your long term productivity.
 
+
+https://waylonwalker.com/what-is-kedro/
+
+## Start practicing
+
 **practice** building pipelines with _#kedro_ today
 
 Go to your playground directory, and if you don't have one, make one.
@@ -22,6 +27,8 @@ Go to your playground directory, and if you don't have one, make one.
 ``` bash
 cd ~/playground
 ```
+
+## get pipx
 
 Install pipx in your system python.  This is one of the very few, and
 possibly the only python library that deserves to be installed in your
@@ -31,6 +38,8 @@ virtual environment automatically for you.
 ``` bash
 pip install pipx
 ```
+
+## make a new project
 
 From inside your `playground` directory, start your new kedro project.
 This is quite simple and painless.  So much so that if you mess this one
@@ -98,4 +107,4 @@ pip install -e src
 ## Make pipelines
 
 Now go make some pipelines with your new project, try something wild,
-break it, and make anther.
+break it, and make another.
