@@ -100,6 +100,8 @@ class ItemSerializer(serializers.ModelSerializer):
 
 ## api/views.py
 
+!["cell shaded full body shot of a shiny golden cybernetic soldier with glowing eyes looking through binoculars, llustration, post grunge, pink glowing volumetric lighting, engulfed in smoke and fog, concept art by josan gonzales and wlop, by james jean, Victo ngai, David Rubín, Mike Mignola, Laurie Greasley, highly detailed, sharp focus,alien,Trending on Artstation, HQ, deviantart, art by artgem" -s50 -W832 -H416 -C18.0 -Ak_lms -S2111691103 cell shaded full body shot of a shiny golden cybernetic soldier with glowing eyes looking through binoculars, llustration, post grunge, pink glowing volumetric lighting, engulfed in smoke and fog, concept art by josan gonzales and wlop, by james jean, Victo ngai, David Rubín, Mike Mignola, Laurie Greasley, highly detailed, sharp focus,alien,Trending on Artstation, HQ, deviantart, art by artgem command ](https://stable-diffusion.waylonwalker.com/000340.2111691103.webp)
+
 Now we need a view leveraging the `djangorestframework`.  The serializer we
 just created will be used to serialize all of the rows into a list of objects
 that Response can handle.
@@ -131,6 +133,8 @@ def add_item(request):
 ```
 
 ## api/urls.py
+
+!["cell shaded full body shot of a shiny golden cybernetic soldier with glowing eyes looking at a map, llustration, post grunge, pink glowing volumetric lighting, engulfed in smoke and fog, concept art by josan gonzales and wlop, by james jean, Victo ngai, David Rubín, Mike Mignola, Laurie Greasley, highly detailed, sharp focus,alien,Trending on Artstation, HQ, deviantart, art by artgem" -s50 -W832 -H416 -C18.0 -Ak_lms -S192089936 ](https://stable-diffusion.waylonwalker.com/000341.192089936.webp)
 
 Now we need to setup routing to access the views through an url.
 
