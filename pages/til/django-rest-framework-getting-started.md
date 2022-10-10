@@ -2,7 +2,7 @@
 date: 2022-10-09 15:57:37
 templateKey: til
 title: Getting Started with Django REST framework
-status: 'draft'
+status: 'published'
 tags:
   - python
   - django
