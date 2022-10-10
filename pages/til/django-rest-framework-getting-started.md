@@ -5,6 +5,8 @@ title: Getting Started with Django REST framework
 status: 'draft'
 tags:
   - python
+  - django
+  - webdev
 
 ---
 

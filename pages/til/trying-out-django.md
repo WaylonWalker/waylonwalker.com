@@ -5,7 +5,8 @@ title: Trying out django
 status: 'published'
 tags:
   - python
-  - web
+  - django
+  - webdev
 
 ---
 

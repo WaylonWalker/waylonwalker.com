@@ -5,6 +5,9 @@ title: Using Django Rest Framework inside react
 status: 'draft'
 tags:
   - python
+  - django
+  - react
+  - webdev
 
 ---
 

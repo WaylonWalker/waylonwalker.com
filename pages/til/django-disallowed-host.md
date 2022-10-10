@@ -5,6 +5,8 @@ title: django disallowed host
 status: 'draft'
 tags:
   - python
+  - django
+  - webdev
 
 ---
 
