@@ -11,6 +11,8 @@ tags:
 In my adventure to learn django, I want to be able to setup REST api's to feed
 into dynamic front end sites.  Potentially sites running react under the hood.
 
+![cell shaded full body shot of a cybernetic blue soldier with glowing eyes working ina lab, llustration, post grunge, pink glowing volumetric lighting, engulfed in smoke and fog, concept art by josan gonzales and wlop, by james jean, Victo ngai, David Rubín, Mike Mignola, Laurie Greasley, highly detailed, sharp focus,alien,Trending on Artstation, HQ, deviantart, art by artgem" -s50 -W832 -H416 -C18.0 -Ak_lms -S4270306418](https://stable-diffusion.waylonwalker.com/000327.4270306418.webp)
+
 ## Install
 
 To get started lets open up a `todo` app that I created with `django-admin startproject todo`.
@@ -39,6 +41,8 @@ Next I will create all the files that I need to get the api running.
 mkdir api
 touch api/__init__.py api/serializers.py api/urls.py api/views.py
 ```
+
+![cell shaded full body shot of a cybernetic blue soldier with glowing eyes working ina lab, llustration, post grunge, pink glowing volumetric lighting, concept art by josan gonzales and wlop, by james jean, Victo ngai, David Rubín, Mike Mignola, Laurie Greasley, highly detailed, sharp focus,alien,Trending on Artstation, HQ, deviantart, art by artgem" -s50 -W832 -H416 -C7.5 -Ak_lms -S3862698977](https://stable-diffusion.waylonwalker.com/000323.3862698977.webp)
 
 ## base/models.py
 
@@ -157,3 +161,8 @@ urlpatterns = [
 ``` python
 python manage.py runserver
 ```
+
+Running the developement server and going to `localhost:8000/api` we can see
+the full list of items in th api.
+
+![djangorestframework-get-items](https://screenshots.waylonwalker.com/djangorestframework-get-items.webp)
