@@ -42,7 +42,7 @@ hooks = [
    ]
 disabled_hooks = [
 "markata.plugins.covers",
-"markata.plugins.heading_link",
+# "markata.plugins.heading_link",
 "markata.plugins.seo",
 # "markata.plugins.rss",
 # "markata.plugins.manifest",
