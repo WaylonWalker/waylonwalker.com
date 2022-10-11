@@ -4,6 +4,7 @@ templateKey: til
 title: Installing Rust and Cargo on Ubuntu 21.10 using Ansible
 tags:
   - linux
+jinja: false
 
 ---
 

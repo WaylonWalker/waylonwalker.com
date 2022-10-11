@@ -6,6 +6,7 @@ title: https://waylonwalker.com/how-i-deploy-2022
 date: 2021-10-29
 status: draft
 author: '@_waylonwalker'
+jinja: false
 styles:
     margin:
         bottom: 0

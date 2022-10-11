@@ -5,6 +5,7 @@ title: Installing system nerd-fonts with ansible
 tags:
   - dotfiles
   - ansible
+jinja: false
 
 ---
 

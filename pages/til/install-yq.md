@@ -5,6 +5,7 @@ title: Install yq | A light weight yaml parser cli
 tags:
   - linux
   - cli
+jinja: false
 
 ---
 

@@ -5,6 +5,7 @@ tags:
 title: Getting Started with GitHub Actions
 date: 2020-03-16T05:00:00.000+00:00
 status: published
+jinja: false
 
 ---
 
@@ -166,7 +167,7 @@ In 👆 This article you can see how I use the `|` character to run some docker
 compose commands in a GitHub action to run some integration tests wtih pytet,
 testproject.io, a headless browser, and selenium.
 
-## Anchors are not supported 
+## Anchors are not supported
 
 YAML has this amazing feature for reducing repetative content called anchors.
 You can save part of your configuration as a reusable variable in other
@@ -301,4 +302,3 @@ https://waylonwalker.com/four-github-actions-python/
 
 If you are a python deveoper like me you will likely want to use GitHub actions
 to Lint, Test, Package, and deploy your python projects. 👆 This article covers just that.
-

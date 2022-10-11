@@ -4,6 +4,7 @@ tags: ['python',]
 title: Integration testing with Python, TestProject.io, and GitHub Actions
 date: 2020-07-27T05:00:00Z
 status: published
+jinja: false
 
 ---
 

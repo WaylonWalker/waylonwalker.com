@@ -2,8 +2,9 @@
 templateKey: blog-post
 tags: ['webdev', 'actions']
 title: Site Down During Build
-date: 2021-03-22T00:00:00 
+date: 2021-03-22T00:00:00
 status: publish
+jinja: false
 
 ---
 

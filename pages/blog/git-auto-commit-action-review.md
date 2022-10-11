@@ -4,6 +4,7 @@ tags: ['actions']
 title: Review of the git-auto-commit-action
 date: 2020-08-03T05:00:00Z
 status: published
+jinja: false
 
 ---
 

@@ -6,6 +6,7 @@ status: 'published'
 tags:
   - python
 cover: https://images.waylonwalker.com/hatch-version.png
+jinja: false
 
 ---
 
