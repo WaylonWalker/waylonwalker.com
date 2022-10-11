@@ -25,7 +25,7 @@ hooks = [
    "markata.plugins.prevnext",
    "plugins.render_template_variables",
    # "plugins.codeblocks",
-   # "plugins.index",
+   "plugins.index",
    # "plugins.slug",
    "plugins.one_line_link",
    # "plugins.include",
