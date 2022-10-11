@@ -2,7 +2,7 @@
 date: 2022-09-26 06:15:24
 templateKey: til
 title: django disallowed host
-status: 'draft'
+status: 'published'
 tags:
   - python
   - django
@@ -25,3 +25,5 @@ the things that I could really use in my toolbelt.
 ``` python
 ALLOWED_HOSTS = ['localhost.waylonwalker.com']
 ```
+
+!["cell shaded long shot of a cybernetic blue bald soldier with glowing blue eyes as Borderlands 3 concept art, llustration, post grunge, concept art by josan gonzales and wlop, by james jean, Victo ngai, David Rubín, Mike Mignola, Laurie Greasley, highly detailed, sharp focus,alien,Trending on Artstation, HQ, deviantart, art by artgem" -s50 -W832 -H416 -C7.5 -Ak_lms -S3422093952 ](https://stable-diffusion.waylonwalker.com/000321.3422093952.webp)
