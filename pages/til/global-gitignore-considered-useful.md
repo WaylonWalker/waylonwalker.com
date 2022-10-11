@@ -27,6 +27,11 @@ Like any `.gitignore` it supports gits wildignore syntax.  I made a
 ```bash
 .envrc
 .pyflyby
+.copier-defaults
+.venv*/
+.python-version
+markout
+.markata.cache
 ```
 
 Once I had this file, I stowed it into `~/.global_gitignore`.
