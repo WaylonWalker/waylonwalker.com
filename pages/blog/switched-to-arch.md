@@ -1,4 +1,4 @@
---
+---
 date: 2022-07-23 12:05:55
 templateKey: blog-post
 title: The one reason I switched to arch
