@@ -38,6 +38,7 @@ hooks = [
    "plugins.youtube",
    # "plugins.rss_tag",
    "plugins.auto_publish",
+   "markata.plugins.service_worker",
    ]
 disabled_hooks = [
 "markata.plugins.covers",
@@ -69,6 +70,18 @@ display = "minimal-ui"
 twitter_card = "summary_large_image"
 twitter_creator = "@_waylonwalker"
 twitter_site = "@_waylonwalker"
+
+precache_urls = [
+  '8bitcc.ico',
+  'archive',
+  'archive-styles.css',
+  'furo-purge.min.css',
+  'main.min.css',
+  'manifest.json'
+  'manifest.json',
+  'one-dark.min.css',
+  'scroll.css',
+  ]
 
 [markata.auto_description.description]
 len=160
@@ -262,4 +275,14 @@ prevnext_color_angle = "#ff66c4"
 
 [markata.feeds.published]
 filter="date<=today and templateKey in ['blog-post', 'til'] and status.lower()=='published'"
+sort="slug"
+precache=true
+
+[markata.feeds.all]
+filter="True"
+sort="slug"
+
+
+[markata.feeds.recent]
+filter="date<today and date>today-timedelta(days=30) and status.lower()=='published'"
 sort="slug"
