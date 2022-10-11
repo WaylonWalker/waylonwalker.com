@@ -25,7 +25,7 @@ hooks = [
    "markata.plugins.prevnext",
    "plugins.render_template_variables",
    # "plugins.codeblocks",
-   "plugins.index",
+   # "plugins.index",
    # "plugins.slug",
    "plugins.one_line_link",
    # "plugins.include",
@@ -72,16 +72,15 @@ twitter_creator = "@_waylonwalker"
 twitter_site = "@_waylonwalker"
 
 precache_urls = [
-  '8bitcc.ico',
-  'archive',
-  'archive-styles.css',
-  'furo-purge.min.css',
-  'main.min.css',
-  'manifest.json'
-  'manifest.json',
-  'one-dark.min.css',
-  'scroll.css',
-  ]
+  "8bitcc.ico",
+  "archive",
+  "archive-styles.css",
+  "furo-purge.min.css",
+  "main.min.css",
+  "manifest.json",
+  "one-dark.min.css",
+  "scroll.css",
+]
 
 [markata.auto_description.description]
 len=160
