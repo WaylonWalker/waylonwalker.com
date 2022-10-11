@@ -6,7 +6,8 @@ category: Viz
 tags:
     - webdev
 summary: Today we are adding scale to day 3's example horizontal bar chart.
-description: none
+description: Today we are adding scale to day 3's example horizontal bar chart.
+status: 'published'
 cover: "./d3-cropped.png"
 ---
 <!--
