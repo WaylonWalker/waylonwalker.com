@@ -31,7 +31,7 @@ hooks = [
    # "plugins.include",
    "default",
    # "plugins.related",
-   "plugins.seo_amp",
+   # "plugins.seo_amp",
    "plugins.publish_amp",
    # "plugins.custom_seo",
    "plugins.gif_to_mp4",
