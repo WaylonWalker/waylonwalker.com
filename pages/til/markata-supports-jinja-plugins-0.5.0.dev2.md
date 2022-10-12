@@ -3,21 +3,52 @@ date: 2022-10-11 14:34:35
 templateKey: til
 title: Markata Supports Jinja Plugins 0.5.0.dev2
 status: 'draft'
+jinja: false
 tags:
   - python
 
 ---
+
+Markata now allows you to create jinja extensions that will be loaded right in
+with nothing more than a `pip install`.
 
 
 ## From the Changelog
 
 The entry for 0.5.0.dev2 from markata's [changelog](https://markata.dev/changelog/)
 
-
 * Created entrypoint hook allowing for users to extend marka with jinja
   exensions #60 0.5.0.dev2
 
 ## markata-gh
+
+The first example that you can use right now is `markata-gh`.  It will render
+repos by GitHub topic and user using the gh cli, which is available in github
+actions!
+
+Get it with a pip install
+
+``` bash
+pip install markata-gh
+```
+
+Use it with some jinja in your markdown.
+
+``` markdown
+## Markata plugins
+
+It uses the logged in uer by default.
+
+{% gh_repo_list_topic "markata" %}
+
+You can more explicitly grab your username, and a topic.
+{% gh_repo_list_topic "waylonwalker", "personal-website" %}
+```
+
+## How is this achieved
+
+The jinja extension details are for another post, but this is how `markata-gh`
+exposes itslef as a jinja extension.
 
 ``` python
 class GhRepoListTopic(Extension):
@@ -44,9 +75,15 @@ class GhRepoListTopic(Extension):
         return repo_md(username=username, topic=topic)
 ```
 
-## Creating entrypoints in pyproject.toml
+## Entrypoints
 
-If your project is using `pyproject.toml` for packaging you can setup an entrypoint as follows.
+Then `markata-gh` exposes itself as an extension through entrypoints.
+
+### Creating entrypoints in pyproject.toml
+
+If your project is using `pyproject.toml` for packaging you can setup an
+entrypoint as follows.
+
 
 ``` toml
 [project.entry-points."markata.jinja_md"]
@@ -54,3 +91,16 @@ markta_gh = "markata_gh.repo_list:GhRepoListTopic"
 ```
 
 ## Creating entrypoints in setup.py
+
+If your project is using `setup.py` for packaging you can setup an
+entrypoint as follows.
+
+``` python
+setup(
+    ...
+    entry_points={
+        "markata.jinja_md": ["markta_gh" = "markata_gh.repo_list:GhRepoListTopic"]
+    },
+    ...
+)
+```
