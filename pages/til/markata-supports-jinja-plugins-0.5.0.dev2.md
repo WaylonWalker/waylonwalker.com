@@ -20,6 +20,8 @@ The entry for 0.5.0.dev2 from markata's [changelog](https://markata.dev/changelo
 * Created entrypoint hook allowing for users to extend marka with jinja
   exensions #60 0.5.0.dev2
 
+!["cybernetic soldier working on a rusting tape machine robot, cinematic lighting, detailed, cell shaded, 4 k, warm colours, concept art, by wlop, ilya kuvshinov, artgerm, krenz cushart, greg rutkowski, pixiv. cinematic dramatic atmosphere, sharp focus, volumetric lighting, cinematic lighting, studio quality" -s50 -W832 -H416 -C12.0 -Ak_lms -S1808537114](https://stable-diffusion.waylonwalker.com/000368.1808537114.webp)
+
 ## markata-gh
 
 The first example that you can use right now is `markata-gh`.  It will render
@@ -75,6 +77,8 @@ class GhRepoListTopic(Extension):
         return repo_md(username=username, topic=topic)
 ```
 
+!["cybernetic soldier working on a rusting tape machine robot, cinematic lighting, detailed, cell shaded, 4 k, warm colours, concept art, by wlop, ilya kuvshinov, artgerm, krenz cushart, greg rutkowski, pixiv. cinematic dramatic atmosphere, sharp focus, volumetric lighting, cinematic lighting, studio quality" -s50 -W832 -H416 -C12.0 -Ak_lms -S2487720618 ](https://stable-diffusion.waylonwalker.com/000368.2487720618.webp)
+
 ## Entrypoints
 
 Then `markata-gh` exposes itself as an extension through entrypoints.
@@ -104,3 +108,5 @@ setup(
     ...
 )
 ```
+
+!["cybernetic soldier working on a rusting tape machine robot, cinematic lighting, detailed, cell shaded, 4 k, warm colours, concept art, by wlop, ilya kuvshinov, artgerm, krenz cushart, greg rutkowski, pixiv. cinematic dramatic atmosphere, sharp focus, volumetric lighting, cinematic lighting, studio quality" -s50 -W832 -H416 -C12.0 -Ak_lms -S655826089](https://stable-diffusion.waylonwalker.com/000368.655826089.webp)
