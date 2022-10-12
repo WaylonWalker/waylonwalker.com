@@ -252,8 +252,8 @@ def render(markata: Markata) -> None:
 
             if html_from_cache is None:
                 soup = BeautifulSoup(article.amp_html, features="lxml")
-                seo = _create_seo(markata, soup, article)
-                _add_seo_tags(seo, article, soup)
+                # seo = _create_seo(markata, soup, article)
+                # _add_seo_tags(seo, article, soup)
                 _clean_amp(soup)
                 canonical_link = soup.new_tag("link")
                 canonical_link.attrs["rel"] = "canonical"
