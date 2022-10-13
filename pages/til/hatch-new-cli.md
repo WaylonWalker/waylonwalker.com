@@ -88,6 +88,8 @@ another-project
 > Note! all of these examples will create a project directory within your
 > current working directory.
 
+!["An astronaut working in a lab, there is a series of eggs ready to hatch baby snakes on the table, experiments running, beakers, test tubes, cyberpunk, octane render, trending on artstation, neon lighting, volumetric lighting, pink lighting" -s50 -W800 -H450 -C10.0 -Ak_lms -S324995023](https://stable-diffusion.waylonwalker.com/000146.324995023.webp)
+
 ## --init
 _existing project_
 
@@ -228,6 +230,9 @@ dependencies = [
 new-cli = "new_cli.cli:new_cli"
 ```
 
+!["An astronaut working in a lab, there is a series of eggs ready to hatch baby snakes on the table, experiments running, beakers, test tubes, cyberpunk trending on artstation" -s50 -W800 -H450 -C7.5 -Ak_lms -S98801549
+](https://stable-diffusion.waylonwalker.com/000130.98801549.webp)
+
 ## what's in the cli
 
 It's a hello-world click application.
@@ -256,3 +261,5 @@ that it created.  This is a pretty incredible startup time.
 
 
 ![pipx-run-hatch-hello-world](https://screenshots.waylonwalker.com/pipx-run-hatch-hello-world.webp)
+
+!["An astronaut working in a lab, there is a series of eggs ready to hatch baby snakes on the table, experiments running, beakers, test tubes, cyberpunk trending on artstation, neon lighting, volumetric lighting, pink lighting" -s50 -W800 -H450 -C7.5 -Ak_lms -S2274808816](https://stable-diffusion.waylonwalker.com/000136.2274808816.webp)
