@@ -10,6 +10,10 @@ tags:
 
 ---
 
+My next step into django made me realize that I do not have access to the admin panel, turns out that I need to create a cuper user first.
+
+!["cybernetic soldier working on a rusting tape machine robot, cinematic lighting, detailed, cell shaded, 4 k, warm colours, concept art, by wlop, ilya kuvshinov, artgerm, krenz cushart, greg rutkowski, pixiv. cinematic dramatic atmosphere, sharp focus, volumetric lighting, cinematic lighting, studio quality" -s50 -W832 -H416 -C12.0 -Ak_lms -S3309980874](https://stable-diffusion.waylonwalker.com/000368.3309980874.webp)
+
 ## Run Migrations
 
 Right away when trying to setup the superuser I ran into this issue
@@ -35,6 +39,11 @@ python manage.py createsuperuser
 ```
 
 ![](https://screenshots.waylonwalker.com/trydjango-create-superuser.png)
+
+The super user has been created.
+
+![!["cybernetic soldier working on a rusting tape machine robot, cinematic lighting, detailed, cell shaded, 4 k, warm colours, concept art, by wlop, ilya kuvshinov, artgerm, krenz cushart, greg rutkowski, pixiv. cinematic dramatic atmosphere, sharp focus, volumetric lighting, cinematic lighting, studio quality" -s50 -W832 -H416 -C12.0 -Ak_lms -S2018296614](https://screenshots.waylonwalker.com/trydjango-trusted-origin-failure.png)
+](https://stable-diffusion.waylonwalker.com/000368.2018296614.webp)
 
 ## CSRF FAILURE
 
@@ -63,3 +72,5 @@ You might find these settings helpful as well if you are trying to run your
 site on a remote host like aws, digital ocean, linode, or any sort of cloud
 providor.  I had it running in my home lab while I was out of the house and
 ssh'd in over with a chromebook.
+
+!["cybernetic soldier working on a rusting tape machine robot, cinematic lighting, detailed, cell shaded, 4 k, warm colours, concept art, by wlop, ilya kuvshinov, artgerm, krenz cushart, greg rutkowski, pixiv. cinematic dramatic atmosphere, sharp focus, volumetric lighting, cinematic lighting, studio quality" -s50 -W832 -H416 -C12.0 -Ak_lms -S1092166059](https://stable-diffusion.waylonwalker.com/000368.1092166059.webp)
