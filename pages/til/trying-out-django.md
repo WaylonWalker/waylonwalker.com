@@ -17,6 +17,8 @@ python developer.
 
 If you found this at all helpful make sure you check out the [django tutorial](https://docs.djangoproject.com/en/4.1/intro/tutorial01/)
 
+
+!["An atronaut working in a lab, there is a long snake working along side, shallow depth of field beakers, test tubes, volumetric lighting, pink lighting, by victo ngai, killian eng vibrant colours, dynamic lighting, digital art" -s50 -W768 -H448 -C7.5 -Ak_lms -S2250540408](https://stable-diffusion.waylonwalker.com/000243.2250540408.webp)
 ## install django
 
 The first thing I need to do is render out a template to start the project.
