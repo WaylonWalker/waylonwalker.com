@@ -32,7 +32,8 @@ def render(markata: "Markata") -> None:
             str(markata.config.get("head", {})), undefined=SilentUndefined
         )
     with markata.cache as cache:
-        for article in markata.iter_articles("apply amp template"):
+        # for article in markata.iter_articles("apply amp template"):
+        for article in markata.articles:
 
             if head_template:
                 head = eval(
@@ -43,6 +44,7 @@ def render(markata: "Markata") -> None:
                         **article,
                     )
                 )
+
             date = _try_get_date(article)
             key = markata.make_hash(
                 __file__,
@@ -62,8 +64,8 @@ def render(markata: "Markata") -> None:
                         **markata.config,
                         **{"head": head},
                     },
-                    # title=article.metadata["title"],
-                    # slug=article.metadata["slug"],
+                    title=article.metadata["title"],
+                    slug=article.metadata["slug"],
                     date=date,
                 )
             else:
