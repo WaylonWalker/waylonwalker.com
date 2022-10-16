@@ -25,14 +25,6 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-${{ hashfiles('markata.toml') }}-markata
 
-      - uses: actions/cache@v2
-        id: node-cache
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
-
       - name: Set up Python 3.10
         uses: actions/setup-python@v4.1.0
         with:
@@ -48,20 +40,6 @@ jobs:
         run: |
             cp static/index.html markout/index.html
 
-      - name: sw-version
-        run: export checksum=$(checksumdir markout ) && cat static/service-worker.js | envsubst > markout/service-worker.js
-
-      # - name: Deploy to Netlify
-      #   uses: nwtgck/actions-netlify@v1.1.12
-      #   with:
-      #     publish-dir: "./markout"
-      #     production-branch: markout
-      #     production-deploy: true
-      #     deploy-message: "Deploy markout from GitHub Actions"
-      #   env:
-      #     NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-      #     NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-      #
       - name: GitHub Pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -70,14 +48,3 @@ jobs:
           target_branch: markout
           build_dir: markout
           jekyll: false
-
-      # - uses: actions/setup-node@v2
-      #   with:
-      #     node-version: '14'
-      # - run: npm install -g netlify-cli
-      #   if: steps.node-cache.outputs.cache-hit != 'true'
-      # - name: Publish
-      #   run: netlify deploy --prod --dir=markout
-      #   env:
-      #     NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-      #     NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
