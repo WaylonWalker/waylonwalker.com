@@ -34,7 +34,7 @@ jobs:
           cache: 'pip'
 
       - name: install markata
-        run: pip install -r requirements.txt
+        run: pip install --no-deps -r requirements.txt
 
       - name: run markata
         run: markata build --no-pretty
