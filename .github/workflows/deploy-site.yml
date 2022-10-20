@@ -33,6 +33,7 @@ jobs:
         uses: actions/setup-python@v4.1.0
         with:
           python-version: '3.10'
+          cache: 'pip'
 
       - name: install markata
         run: pip install -r requirements.txt
