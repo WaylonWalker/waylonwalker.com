@@ -17,10 +17,17 @@ jobs:
       - name: Cache
         uses: actions/cache@v3.0.11
         with:
-          path: .markata.cache
+          path: |
+            ./.markata.cache
+            ./markout
           key: ${{ runner.os }}-${{ hashfiles('markata.toml') }}-markata-${{ github.sha }}
           restore-keys: |
-            ${{ runner.os }}-${{ hashfiles('markata.toml') }}-markata
+            ${{ runner.os }}-${{ hashfiles('markata.toml') }}-markata-${{ github.sha }}-
+            ${{ runner.os }}-${{ hashfiles('markata.toml') }}-markata-
+            ${{ runner.os }}-${{ hashfiles('markata.toml') }}-
+            ${{ runner.os }}-
+      - name: did cache restore?
+        run: ls markout
 
       - name: Set up Python 3.10
         uses: actions/setup-python@v4.1.0
