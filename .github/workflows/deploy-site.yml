@@ -26,8 +26,8 @@ jobs:
             ${{ runner.os }}-${{ hashfiles('markata.toml') }}-markata-
             ${{ runner.os }}-${{ hashfiles('markata.toml') }}-
             ${{ runner.os }}-
-      # - name: did cache restore?
-      #   run: ls markout
+      - name: did cache restore?
+        run: ls markout
 
       - name: Set up Python 3.10
         uses: actions/setup-python@v4.1.0
