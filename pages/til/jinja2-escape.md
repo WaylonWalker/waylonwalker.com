@@ -3,7 +3,7 @@ date: 2022-09-24 15:18:50
 templateKey: til
 title: how to escape variables in jinja templates
 status: 'published'
-jinja_md: False
+jinja: False
 tags:
   - python
 
