@@ -43,6 +43,7 @@ jobs:
               }
 
           source .venv/bin/activate  > /dev/null 2>&1 || venvnew
+          pip install --upgrade markata --pre
 
 
       # - name: install markata
