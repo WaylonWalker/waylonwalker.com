@@ -24,7 +24,7 @@ jobs:
             ./.venv
           key: ${{ runner.os }}-${{ hashfiles('markata.toml') }}-markata-${{ github.sha }}
           restore-keys: |
-            ${{ runner.os }}-${{ hashfiles('markata.toml') }}-markata-${{ github.sha }}-
+            ${{ runner.os }}-${{ hashfiles('markata.toml') }}-markata-${{ github.sha }}
             ${{ runner.os }}-${{ hashfiles('markata.toml') }}-markata-
             ${{ runner.os }}-${{ hashfiles('markata.toml') }}-
 
