@@ -26,7 +26,6 @@ first wooden pick.
 
 I ended the first day by sleeping in my bed safe from mobs.
 
-
 ### Achievements
 
 * bed
@@ -38,3 +37,13 @@ I ended the first day by sleeping in my bed safe from mobs.
 ## Day 1
 
 ![mcdoc-day-1](https://screenshots.waylonwalker.com/mcdoc-day-1.webp)
+
+Thoughout the course of day one I collected wood and started the framework for
+my new house.
+
+
+## Day 2
+
+![mcdoc-day-2](https://screenshots.waylonwalker.com/mcdoc-day-2.webp)
+
+> The sun sets over the new frame of my house on Day 1
