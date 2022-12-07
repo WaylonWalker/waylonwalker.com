@@ -54,5 +54,16 @@ before I made it in.
 
 ## Day 3
 
+On day three I completed the roofline of the base, gathered some wood, and
+cleared out all the grass in the tree farm.  The tree farm has a fresh planting
+of oak and acacia trees in it.
 
 ![mcdoc-day-3](https://screenshots.waylonwalker.com/mcdoc-day-3.webp)
+> end of day 2
+
+## Day 4
+
+
+
+![mcdoc-day-4](https://screenshots.waylonwalker.com/mcdoc-day-4.webp)
+> end of day 3
