@@ -47,3 +47,12 @@ my new house.
 ![mcdoc-day-2](https://screenshots.waylonwalker.com/mcdoc-day-2.webp)
 
 > The sun sets over the new frame of my house on Day 1
+
+Day two continued the framework of the house, and a bit of sand collection for
+windows.  I was a bit late to bed and saw four mobs spawn on the journeymap
+before I made it in.
+
+## Day 3
+
+
+![mcdoc-day-3](https://screenshots.waylonwalker.com/mcdoc-day-3.webp)
