@@ -8,6 +8,10 @@ status: draft
 
 ---
 
+This is my first time journaling a Minecraft hardcore world, my son Wyatt is
+also documenting his journey in a survival world on
+[wyattbubbylee.com](https://www.wyattbubbylee.com/).
+
 
 ## Day 0
 _init_
