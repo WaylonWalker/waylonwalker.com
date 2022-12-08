@@ -58,16 +58,22 @@ before I made it in.
 
 ## Day 3
 
+![mcdoc-day-3](https://screenshots.waylonwalker.com/mcdoc-day-3.webp)
+> end of day 2
+
 On day three I completed the roofline of the base, gathered some wood, and
 cleared out all the grass in the tree farm.  The tree farm has a fresh planting
 of oak and acacia trees in it.
 
-![mcdoc-day-3](https://screenshots.waylonwalker.com/mcdoc-day-3.webp)
-> end of day 2
-
 ## Day 4
 
-
+Thoughout day 4 I kept farming trees and creating my first outter perimeter
+fence made of oak.
 
 ![mcdoc-day-4](https://screenshots.waylonwalker.com/mcdoc-day-4.webp)
 > end of day 3
+
+## Day 5
+![mcdoc-day-5](https://screenshots.waylonwalker.com/mcdoc-day-5.webp)
+
+> start of of day 5
