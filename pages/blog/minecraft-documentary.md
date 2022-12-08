@@ -77,3 +77,7 @@ fence made of oak.
 ![mcdoc-day-5](https://screenshots.waylonwalker.com/mcdoc-day-5.webp)
 
 > start of of day 5
+
+On day 5 I completed the perimeter fence and worked on my first animal pen.
+
+![mcdoc-day-6](https://screenshots.waylonwalker.com/mcdoc-day-6.webp)
