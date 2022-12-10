@@ -89,3 +89,26 @@ I completed another animal pen.
 
 ![mcdoc-day-7](https://screenshots.waylonwalker.com/mcdoc-day-7.webp)
 > a new animal pen from day 6
+
+
+## Day 7
+
+On day 7 I left the game paused and went to some meetings, I came back to a
+death screen 😥.  I am not going out this way, I opened to lan with cheats and
+reset my gamemode to survival.
+
+![mcdoc-day-8](https://screenshots.waylonwalker.com/mcdoc-day-8.webp)
+
+## Day 8
+
+I started a storage silo by doing some terraforming and placing down the first
+chests.
+
+![mcdoc-day-9](https://screenshots.waylonwalker.com/mcdoc-day-9.webp)
+
+## Day 9
+
+On Day 9 I started a challenge from Wyatt to create a tiny base.  I chose to
+make a secret storage area in the storage silo.
+
+![mcdoc-day-10](https://screenshots.waylonwalker.com/mcdoc-day-10.webp)
