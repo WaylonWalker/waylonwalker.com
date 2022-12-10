@@ -112,3 +112,15 @@ On Day 9 I started a challenge from Wyatt to create a tiny base.  I chose to
 make a secret storage area in the storage silo.
 
 ![mcdoc-day-10](https://screenshots.waylonwalker.com/mcdoc-day-10.webp)
+
+## Day 10
+
+On day 10 Wyatt joined me, he built a dock and I found a zombie spawner.
+
+![mcdoc-day-11](https://screenshots.waylonwalker.com/mcdoc-day-11.webp)
+
+> We conquered the Zombie Spawner
+
+![mcdoc-day-11b](https://screenshots.waylonwalker.com/mcdoc-day-11b.webp)
+
+> Standing on Wyatt's new dock
