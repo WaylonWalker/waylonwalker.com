@@ -136,3 +136,13 @@ Wyatt planted some beets, and made space for pumpkins.
 On day 12 we gathered up some farm animals.
 
 ![mcdoc-day-13](https://screenshots.waylonwalker.com/mcdoc-day-13.webp)
+
+## Day 13-15
+
+Wyatt and I went spelunking in the caves for iron.
+
+## Day 16
+
+Wyatt started his floating base
+
+![mcdoc-day-17](https://screenshots.waylonwalker.com/mcdoc-day-17.webp)
