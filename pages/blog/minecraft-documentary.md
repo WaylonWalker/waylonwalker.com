@@ -146,3 +146,9 @@ Wyatt and I went spelunking in the caves for iron.
 Wyatt started his floating base
 
 ![mcdoc-day-17](https://screenshots.waylonwalker.com/mcdoc-day-17.webp)
+
+## Day 17
+
+On Day 18 I created the crows nest on top of the storage silo.
+
+![mcdoc-day-18](https://screenshots.waylonwalker.com/mcdoc-day-18.webp)
