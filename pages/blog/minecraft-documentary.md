@@ -130,3 +130,9 @@ On day 10 Wyatt joined me, he built a dock and I found a zombie spawner.
 Wyatt planted some beets, and made space for pumpkins.
 
 ![mcdoc-day-12](https://screenshots.waylonwalker.com/mcdoc-day-12.webp)
+
+##  Day 12
+
+On day 12 we gathered up some farm animals.
+
+![mcdoc-day-13](https://screenshots.waylonwalker.com/mcdoc-day-13.webp)
