@@ -7,6 +7,10 @@ tags:
 
 ---
 
+It's nearly impossible to completely loose a file if it is commited to git.
+It's  likely harder to fully remove the file than it is to recover it, but how
+do we go about recovering those precious files that we have lost.
+
 Listing all the deleted files in all of git history can be done by
 combining `git log` with `--diff-filter`.  The log gives you lots of
 options to show different bits of information about the commit that
