@@ -313,7 +313,7 @@ sort="date"
 
 [markata.feeds.gratitude]
 template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
+card_template = "pages/templates/gratitude_card.html"
 filter="date<=today and templateKey == 'gratitude'"
 sort="date"
 
