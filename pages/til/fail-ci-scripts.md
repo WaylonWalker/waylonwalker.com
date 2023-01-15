@@ -7,6 +7,7 @@ tags:
   - bash
   - github
   - actions
+  - ci-cd
 
 ---
 
