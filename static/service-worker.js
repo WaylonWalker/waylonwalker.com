@@ -1,50 +1,332 @@
-const PRECACHE = '{{ output_dirhash }}';
-const RUNTIME = '{{ output_dirhash }}';
+const PRECACHE = "{{ output_dirhash }}";
+const RUNTIME = "{{ output_dirhash }}";
 
 // A list of local resources we always want to be cached.
-const PRECACHE_URLS = {{ config.get('precache_urls', []) }};
+const PRECACHE_URLS = [
+  "/markata-now-uses-hatch/",
+  "/2020-rebrand/",
+  "/find-replace/",
+  "/simple-click/",
+  "/symlink-gallery/",
+  "/setup-yamlls/",
+  "/flexbox-zombies/",
+  "/tmux-select-pane/",
+  "/kedro-catalog/",
+  "/published/",
+  "/linux/",
+  "/vim-draft/",
+  "/nvim-ides-are-slow/",
+  "/ipython-q-exit/",
+  "/tmux-prefix/",
+  "/supercharge-zsh-startup/",
+  "/tmux-targeted-session/",
+  "scroll.css",
+  "/tmux-rename-session/",
+  "/custom-ipython-prompt/",
+  "/gratitude/",
+  "/ipython-config/",
+  "/vim-augroup/",
+  "/tmux-ls/",
+  "/variable-names-don-t-need-their-type/",
+  "/start-streaming/",
+  "/tmux-choose-tree/",
+  "/expand-one-line-links/",
+  "/github-actions-syntax/",
+  "/codeit-bro-interview/",
+  "/kedro-incremental-versioned-datasets/",
+  "/new-machine-tpio/",
+  "/telegraph-release/",
+  "/react-headroom/",
+  "/blog/",
+  "/named-tuples-data-science/",
+  "/realistic-git-workflow/",
+  "/custom-scrollbar-design/",
+  "/2021-content-strategy/",
+  "/rich-syntax-range-style/",
+  "/markdown-cli/",
+  "/keyboard-driven-vscode/",
+  "/kedro-parameters/",
+  "/master-no-more/",
+  "/tmux-has-session/",
+  "/learn-early/",
+  "/digital-gardening-stream-6-6-2021/",
+  "/tmux-status-bar/",
+  "/vimgrep-open-buffers/",
+  "/gracefully-redirect/",
+  "/what-are-github-actions/",
+  "/kedro-run/",
+  "/3-things-to-automate-with-python/",
+  "/kedro-basics/",
+  "/packages-to-investigate/",
+  "/tmux-zoom/",
+  "/digital-ocean/",
+  "/tmux-new-window/",
+  "/i-spoke-at-python-web-conf-2022/",
+  "main.min.css",
+  "/neovim-live-substitution/",
+  "/vim/",
+  "one-dark.min.css",
+  "/pyflyby/",
+  "/graceful-kedro-catalog/",
+  "/kedro/",
+  "/recent/",
+  "/kedro-silence/",
+  "/fuzzy-edit-zsh/",
+  "/jinja2-escape/",
+  "/python-draft/",
+  "/out-of-space/",
+  "/fix-git-commit-author/",
+  "/chrome-extensions-i-use/",
+  "/autoreload-ipython/",
+  "/python-args-kwargs-slides/",
+  "/draft/",
+  "/designing-kedro-router/",
+  "/scheduled/",
+  "/reader/",
+  "/forestry-io/",
+  "/kedro-your-first-nodes/",
+  "/diffurcate/",
+  "/interrogate/",
+  "/data-scientist-advice/",
+  "/do-you-hoist/",
+  "/should-i-switch-to-zeit-now/",
+  "/python-data-science-background/",
+  "/git-rewrite-history/",
+  "/kedro-environment/",
+  "/pariss-athena-on-black-tech-pipeline/",
+  "/talk-python-kedro/",
+  "/tmux-splitting-panes/",
+  "/pytest-capsys/",
+  "/vim-replace-visual-star/",
+  "/practice-python-online/",
+  "/building-cli-apps-in-python/",
+  "/markata-dev-server/",
+  "/quick-progress-bars-in-python-using-tqdm/",
+  "/dotfile-rice-challenge-intro/",
+  "/explain-twitter-cards/",
+  "/kedro-draft/",
+  "/minimal-python-package/",
+  "/why-use-cms/",
+  "/what-is-kedro-1/",
+  "/til/",
+  "/tmux-copy-mode/",
+  "/tmux-list-keys/",
+  "/adding-google-fonts-to-a-gatsbyjs-site/",
+  "/journey/",
+  "/ssh-key-permissions/",
+  "/gatsby-remark-embedder/",
+  "/creating-the-kedro-preflight-hook/",
+  "/til-vim/",
+  "/from-markdown-to-blog-with-markata/",
+  "/nvim-navic/",
+  "/kedro-inputs/",
+  "/kedro-pipeline-registry/",
+  "/tmux-next-prev-session/",
+  "/ipython-help/",
+  "/if-tmux/",
+  "/kedro-class-hooks/",
+  "/eight-years-cat/",
+  "/archive/",
+  "/whats-new-in-kedro-0164/",
+  "/markata-todoui-live-replay-4-6-2022/",
+  "/git-in-depth/",
+  "/tmux-join-pane/",
+  "/crush-dev-to-posts/",
+  "/send-email-with-github-actions/",
+  "/git-diff-branches/",
+  "/kedro-spaceflights-stream2/",
+  "/python/",
+  "/trying-out-django/",
+  "/twitter-deepdives/",
+  "/hatch-new-cli/",
+  "/pypi-2fa/",
+  "/kedro-catalog-search/",
+  "/hatch-version/",
+  "/explicit-vs-implicit-returns-in-javascript/",
+  "/tmux-fzf-session-jump/",
+  "/goals-2019/",
+  "/how-i-kedro/",
+  "/serverless-things-to-investigate/",
+  "/minimal-kedro-pipeline/",
+  "/reasons-to-kedro/",
+  "/find-kedro-release/",
+  "/reusable-bash/",
+  "8bitcc.ico",
+  "/switched-to-arch/",
+  "archive",
+  "/drawing-ascii-boxes/",
+  "/sqlalchemy-models/",
+  "/what-is-kedro/",
+  "/tmux-killing-tmux/",
+  "/more-itertools-windowed/",
+  "/gitui/",
+  "/audio-for-blog/",
+  "/devto-comments-from-url/",
+  "/maintianing-multiple-git-remotes/",
+  "/bind-dynamic-lambdas/",
+  "/create-new-kedro-project/",
+  "/whats-new-in-kedro-0166/",
+  "/create-custom-kedro-dataset/",
+  "./",
+  "/use-ipython-extensions/",
+  "/personal-url-shortener/",
+  "/gh-rm-workflow-runs/",
+  "/kedro-pickle/",
+  "/python-args-kwargs/",
+  "/tmux-new-session/",
+  "/gatsby-scripts-with-onload/",
+  "/newsboat/",
+  "/markata-supports-jinja-plugins-0-5-0-dev2/",
+  "/tmux-nav-2021/",
+  "/brainstorming-kedro-hooks/",
+  "/fix-styled-components-in-gatsby/",
+  "/ssh-copy-id/",
+  "/kedro-git-init/",
+  "/git-update-user/",
+  "/all/",
+  "/tmux-show-messages/",
+  "/d3-day3/",
+  "/if-name-main/",
+  "/my-github-profile/",
+  "/cmd-exe-tips/",
+  "/copier-slugify/",
+  "/reset-ipython/",
+  "/save-vim-macro/",
+  "/happy/",
+  "/reading-list/",
+  "/update-copier/",
+  "/today/",
+  "/reasons-to-kedro-notes/",
+  "/linux-draft/",
+  "/2018-retrospective/",
+  "/install-nvim-skit/",
+  "/automating-my-post-starter/",
+  "/vim-wsl-clipboard/",
+  "/don-t-waste-your-time-learning-everything/",
+  "/fail-ci-scripts/",
+  "/obs-virtual-camera-on-boot/",
+  "/four-github-actions-website/",
+  "/two-new-aliases-for-git/",
+  "/building-kedro-dev/",
+  "/kedro-install/",
+  "/vim-sort-u/",
+  "/tmux-source-file/",
+  "/django-rest-framework-getting-started/",
+  "/django-create-superuser/",
+  "/install-micromamba/",
+  "/stand-with-your-team/",
+  "/four-github-actions-python/",
+  "/get-python-package-versions/",
+  "/kedro-new/",
+  "/trim-branches/",
+  "/just-use-pathlib/",
+  "/debugging-python/",
+  "/tmux-select-layout/",
+  "/tmux-command-line/",
+  "/resume-tips/",
+  "/git-auto-commit-action-review/",
+  "/localstack-status-permission/",
+  "archive-styles.css",
+  "/arch-rejects-password/",
+  "/tmux-ta/",
+  "/tmux-floating-popups/",
+  "/stories-10-10-2020-10-21-2020/",
+  "/keep-location-list-closed/",
+  "index.html",
+  "/kedro-in-scripts/",
+  "/markata-configure-head/",
+  "/filtering-pandas/",
+  "/packages-i-maintain/",
+  "furo-purge.min.css",
+  "/refactor-in-cli/",
+  "/jut/",
+  "/how-python-tools-config/",
+  "/kedro-preflight/",
+  "/git-push-without-setting-upstream/",
+  "/blogging-for-me/",
+  "/arch-says-password-incorrect/",
+  "/tmux-last-session/",
+  "/parsing-rss-python/",
+  "/edit-on-github/",
+  "/tmux-start-application/",
+  "/tmux-resize-panes/",
+  "/pre-commit-is-awesome/",
+  "/kedro-spaceflights-stream1/",
+  "/kedro-static-viz-0-3-0/",
+  "/pipx-textual-devtools/",
+  "/d3-day-5/",
+  "/whats-on-your-github-profile/",
+  "/markata-0-3-0/",
+  "/django-disallowed-host/",
+  "/testproject-io-py-actions/",
+  "/kedro-catalog-create-cli/",
+  "/tmux-attach/",
+  "/tmux-rotate-window/",
+  "/kedro172-replit/",
+  "/strip-trailing-whitespace/",
+  "/tmux-display-message/",
+  "/tmux-popups/",
+  "/install-miniconda/",
+  "/python-deepwatch/",
+  "/bash/",
+  "/custom-python-exceptions/",
+  "/d3-day4/",
+  "/break-pane/",
+  "manifest.json",
+  "/quickly-edit-posts/",
+  "/quickly-change-conda-env-with-fzf/",
+];
 
 // The install handler takes care of precaching the resources we always need.
-self.addEventListener('install', event => {
+self.addEventListener("install", (event) => {
   event.waitUntil(
-    caches.open(PRECACHE)
-      .then(cache => cache.addAll(PRECACHE_URLS))
+    caches
+      .open(PRECACHE)
+      .then((cache) => cache.addAll(PRECACHE_URLS))
       .then(self.skipWaiting())
   );
 });
 
 // The activate handler takes care of cleaning up old caches.
-self.addEventListener('activate', event => {
+self.addEventListener("activate", (event) => {
   const currentCaches = [PRECACHE, RUNTIME];
   event.waitUntil(
-    caches.keys().then(cacheNames => {
-      return cacheNames.filter(cacheName => !currentCaches.includes(cacheName));
-    }).then(cachesToDelete => {
-      return Promise.all(cachesToDelete.map(cacheToDelete => {
-        return caches.delete(cacheToDelete);
-      }));
-    }).then(() => self.clients.claim())
+    caches
+      .keys()
+      .then((cacheNames) => {
+        return cacheNames.filter(
+          (cacheName) => !currentCaches.includes(cacheName)
+        );
+      })
+      .then((cachesToDelete) => {
+        return Promise.all(
+          cachesToDelete.map((cacheToDelete) => {
+            return caches.delete(cacheToDelete);
+          })
+        );
+      })
+      .then(() => self.clients.claim())
   );
 });
 
 // The fetch handler serves responses for same-origin resources from a cache.
 // If no response is found, it populates the runtime cache with the response
 // from the network before returning it to the page.
-self.addEventListener('fetch', event => {
+self.addEventListener("fetch", (event) => {
   event.respondWith(
-    caches.match(event.request).then(cachedResponse => {
+    caches.match(event.request).then((cachedResponse) => {
       if (cachedResponse) {
         return cachedResponse;
       }
 
-      return fetch(event.request).then(response => {
-        if (!response || response.status !== 200 || response.type !== 'basic') {
+      return fetch(event.request).then((response) => {
+        if (!response || response.status !== 200 || response.type !== "basic") {
           return response;
         }
 
         const responseToCache = response.clone();
 
-        caches.open(RUNTIME).then(cache => {
+        caches.open(RUNTIME).then((cache) => {
           cache.put(event.request, responseToCache);
         });
 
