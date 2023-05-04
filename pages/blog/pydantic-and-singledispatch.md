@@ -6,7 +6,7 @@ tags:
   - python
   - python
   - python
-status: draft
+status: published
 ---
 
 I was reading about
