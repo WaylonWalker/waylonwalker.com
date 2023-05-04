@@ -123,13 +123,19 @@ results.
 where_am_i(settings)
 ```
 
+results in
+
 ```{.console .darkmark_output}
 I am in dev
 ```
 
+Let's check prod
+
 ```{.python .darkmark}
 where_am_i(Settings.parse_obj({'env': 'prod'}).__root__)
 ```
+
+results in
 
 ```{.console .darkmark_output}
 I am in prod
@@ -146,6 +152,8 @@ os.environ.clear()
 os.environ['APP_ENV'] = 'prod'
 where_am_i(Settings().__root__)
 ```
+
+results in
 
 ```console
 ValidationError: 1 validation error for Settings
