@@ -38,7 +38,7 @@ hooks = [
    "plugins.youtube",
    # "plugins.rss_tag",
    "plugins.auto_publish",
-   # "markata.plugins.service_worker",
+   "markata.plugins.service_worker",
    ]
 disabled_hooks = [
 "markata.plugins.covers",
