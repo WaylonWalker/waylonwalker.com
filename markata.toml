@@ -220,7 +220,7 @@ template="pages/templates/archive_template.html"
 card_template = "pages/templates/feed_card.html"
 filter="date<=today and templateKey in ['blog-post', 'til'] and status.lower()=='published'"
 sort="date"
-precache=true
+# precache=true
 
 [markata.feeds.recent]
 template="pages/templates/archive_template.html"
