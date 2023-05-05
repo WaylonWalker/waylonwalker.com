@@ -43,13 +43,13 @@
     <link href="/8bitcc_384x384.png" rel="apple-touch-icon" sizes="384x384" />
     <link href="/8bitcc_512x512.png" rel="apple-touch-icon" sizes="512x512" />
     <script>
-      if ("serviceWorker" in navigator) {
-        navigator.serviceWorker.register("/service-worker.js");
-        navigator.serviceWorker.addEventListener("controllerchange", () => {
-          console.log("new worker");
-          window.location.reload();
-        });
-      }
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("/service-worker.js");
+            navigator.serviceWorker.addEventListener("controllerchange", () => {
+                console.log("new worker");
+                window.location.reload();
+            });
+        }
     </script>
 
     {{ config.get('head', {}).pop('text') if 'text' in

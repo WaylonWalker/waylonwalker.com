@@ -150,14 +150,13 @@
     </style>
 
     <script>
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/service-worker.js');
-            navigator.serviceWorker.addEventListener('controllerchange', () => {
-                console.log('new worker')
-                window.location.reload()
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("/service-worker.js");
+            navigator.serviceWorker.addEventListener("controllerchange", () => {
+                console.log("new worker");
+                window.location.reload();
             });
         }
-
     </script>
 </head>
 
