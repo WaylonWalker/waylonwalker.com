@@ -1,12 +1,14 @@
 ---
 templateKey: blog-post
-tags: []
+tags: ["python"]
 title: Playing Star Wars Text Adventure with a 10 yr old
 date: 2023-05-15T12:08:00Z
 published: True
+status: published
 ---
 
-The following is a playthrough of Star Wars Text Adventure with a 10 yr old.
+The following is a playthrough of Star Wars Text Adventure with a 10 yr old.The
+following is a playthrough of StarThe following is a playthrough of Star
 
 ```console
 ❯ sw-adventure game run
