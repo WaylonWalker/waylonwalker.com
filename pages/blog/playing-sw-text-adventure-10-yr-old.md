@@ -7,6 +7,12 @@ published: True
 status: published
 ---
 
+<style>
+article.blog-post {
+    max-width: 1200px;
+}
+</style>
+
 The following is a playthrough of Star Wars Text Adventure with a 10 yr old.The
 following is a playthrough of StarThe following is a playthrough of Star
 
