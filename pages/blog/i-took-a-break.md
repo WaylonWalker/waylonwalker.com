@@ -42,6 +42,15 @@ Currently its it a big refactoring phase to get everything moved into pydantic.
 It's been quite awhile since I've had a release, but there has been steady
 progress going into the `pydantic` branch.
 
+## AI
+
+Ai is really hot in 2023. I've been trying to keep my finger on the pulse and
+play with it. I tried to make a library to interface with openai
+[lockhart](https://github.com/waylonwalker/lockhart). It was a cli where you
+can store prompt template. I also made a full text adventure game with a new
+library from prefect.io, called marvin. [marvin star wars text
+adventure](https://github.com/WaylonWalker/marvin-sw-text-adventure)
+
 ## I took a break
 
 It's defintitely good to take breaks from big projects, and for me its often
