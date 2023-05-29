@@ -51,12 +51,13 @@ setup(
 _adding features_
 
 Now to get devtools through a cli without running through `textual run --dev`.
-I pulled open the textual cli source code, and this is what it does currently.
+I pulled open the textual cli source code, and this is what it does at the time
+of writing.
 
-> Note: I used sys.argv as a very simple way to implement a `--dev` flag in the
-> tutorial. For a real project, I'd setup argparse, click, or typer. `typer`
-> is my go to these days, unless I am really trying to limit dependencies, then
-> the standard library `argparse` might be what I go with.
+> Note: I used sys.argv as a way to implement a `--dev` quickly tutorial. For a
+> real project, I'd setup argparse, click, or typer. `typer` is my go to these
+> days, unless I am really trying to limit dependencies, then the standard
+> library `argparse` might be what I go with.
 
 ```python
 def tui():
@@ -91,6 +92,7 @@ FEATURES: Final = {"devtools", "debug", "headless"}
 
 ## Run it
 
-Here it is running with `tutorial --dev` on the left, and `textual console` on the right.
+Here it is running with `tutorial --dev` on the left, and `textual console` on
+the right.
 
 ![textual-tutorial-devtools](https://screenshots.waylonwalker.com/textual-tutorial-devtools.webp)
