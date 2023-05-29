@@ -2,10 +2,9 @@
 date: 2022-10-24 07:42:48
 templateKey: til
 title: textual app devtools
-status: 'draft'
+status: published
 tags:
   - python
-
 ---
 
 I am working through the textual tutorial, and I want to put it in a proper cli
@@ -17,23 +16,23 @@ to run.
 
 ## pyproject.toml entrypoints
 
-I setup a new project running `hatch new`, and added the following entrypoint,
+I set up a new project running `hatch new`, and added the following entrypoint,
 giving me a `tutorial` cli command to run.
 
-``` toml
+```toml
 ...
 
 [project.scripts]
 tutorial = 'textual_tutorial.tui:tui'
 ```
 
-https://waylonwalker.com/hatch-new-cli/
+<https://waylonwalker.com/hatch-new-cli/>
 
 ## setup.py entrypoints
 
 If you are using `setup.py`, you can set up entrypoints in the `setup` command.
 
-``` python
+```python
 from setuptools import setup
 
 setup(
@@ -45,20 +44,21 @@ setup(
 )
 ```
 
-https://waylonwalker.com/minimal-python-package/
+<https://waylonwalker.com/minimal-python-package/>
 
 ## tui.py
+
 _adding features_
 
 Now to get devtools through a cli without running through `textual run --dev`.
 I pulled open the textual cli source code, and this is what it does currently.
 
 > Note: I used sys.argv as a very simple way to implement a `--dev` flag in the
-> tutorial.  For a real project, I'd setup argparse, click, or typer.  `typer`
+> tutorial. For a real project, I'd setup argparse, click, or typer. `typer`
 > is my go to these days, unless I am really trying to limit dependencies, then
 > the standard library `argparse` might be what I go with.
 
-``` python
+```python
 def tui():
 
     from textual.features import parse_features
@@ -85,7 +85,7 @@ if __name__ == "__main__":
 
 If you look at the source, there is one other flag for `headless` mode.
 
-``` python
+```python
 FEATURES: Final = {"devtools", "debug", "headless"}
 ```
 
