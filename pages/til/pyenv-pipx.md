@@ -7,6 +7,8 @@ tags:
   - python
 ---
 
+!["cell shaded, long, full body, shot of a cybernetic blue soldier with glowing pink eyes, llustration, post grunge, cinebatic dramatic atmosphere, sharp focus, pink glowing volumetric lighting, concept art by josan gonzales and wlop, by james jean, Victo ngai, David Rubín, Mike Mignola, Laurie Greasley, highly detailed, sharp focus,alien,Trending on Artstation, HQ, deviantart, art by artgem" -s50 -W832 -H416 -C7.5 -Ak_lms -S70567464](https://stable-diffusion.waylonwalker.com/000363.70567464.webp)
+
 I love using pipx for automatic virtual environment management of my globally
 installed python cli applications, but sometimes the application is not
 compatible with your globally installed `pipx`
