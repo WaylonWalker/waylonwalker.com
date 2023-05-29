@@ -1,5 +1,5 @@
 ---
-date: 2022-08-09 20:38:42
+date: 2022-05-28 20:38:42
 templateKey: blog-post
 title: Using Different versions of python with pipx | pyenv
 status: published
