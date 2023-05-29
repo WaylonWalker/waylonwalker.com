@@ -23,8 +23,8 @@ hooks = [
    "markata.plugins.publish_source",
    # "markata.plugins.publish_dev_to_source",
    # "markata.plugins.prevnext",
-   "plugins.render_template_variables",
-   # "plugins.codeblocks",
+   # "plugins.render_template_variables",
+   # # "plugins.codeblocks",
    # "plugins.index",
    # "plugins.slug",
    # "plugins.one_line_link",
@@ -248,7 +248,7 @@ sort="date"
 [markata.feeds.draft]
 template="pages/templates/archive_template.html"
 card_template = "pages/templates/feed_card.html"
-filter="status=='draft'"
+filter="status=='draft' and templateKey in ['blog-post', 'til']"
 sort="date"
 
 [markata.feeds.scheduled]
