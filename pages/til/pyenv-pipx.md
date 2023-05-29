@@ -15,8 +15,9 @@ compatible with your globally installed `pipx`
 
 ## Which version of python is `pipx` using??
 
-This one was not obvious to me at first, please let me know if there is a
-better way. I am pretty certain that this is not the ideal way, but it works.
+This one took me a minute to figure out at first, please let me know if there
+is a better way. I am pretty certain that this is not the ideal way, but it
+works.
 
 My first technique was to make a package that printed out `sys.version`.
 
@@ -56,7 +57,7 @@ set PIP_REQUIRE_VIRTUALENV=true
 
 ## Exceptions happen
 
-This is my one exception. I've had better luck just putting pipx right in the
+This is my one exception. I've had better luck putting pipx right in the
 global python environment. Not the system python, but each python version that
 I install with pyenv.
 
