@@ -89,6 +89,6 @@ pipx run --spec git+https://github.com/waylonwalker/pyvers pyvers
 [GCC 12.1.0]
 ```
 
-Now once I clost this shell I will always end up with
+Now once I close this shell I will always end up with
 `PYTHON_REQUIRE_VIRTUALENV=true`, since it's in my shell startup script. So
 make sure that you reset it or kill this shell before doing any damage.
