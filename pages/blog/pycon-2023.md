@@ -1,0 +1,50 @@
+---
+date: 2023-06-09 09:59:07
+templateKey: blog-post
+title: Pycon 2023
+tags:
+  - python
+  - python
+  - python
+status: draft
+---
+
+## Keynote Speaker - James Powell
+
+I don't want to be an expert python developer.
+
+<https://www.youtube.com/watch?v=iKzOBWOHGFE>
+
+![keynote-speaker---james-powell](https://screenshots.waylonwalker.com/keynote-speaker---james-powell.webp)
+
+### usage of keyword only arguments to prevent pain for users of libraries
+
+```python
+# Version 1
+def newton(f, x0, fprime, maxiter=100):
+    ...
+
+# Version 2
+def newton(f, x0, fprime, tol=1e-6, maxiter=100):
+    ...
+
+# 🔴 Broke in Version 2
+newton(f, x0, fprime, 100)
+```
+
+In an alternate timeline the maintainer of newton could have chose to use
+keyword only arguments to prevent pain for users of libraries, or poor api
+design due to fear of changing api on users.
+
+```python
+# Version 1
+def newton(f, x0, fprime, *, maxiter=100):
+    ...
+
+# Version 2
+def newton(f, x0, fprime, *, tol=1e-6, maxiter=100):
+    ...
+
+# 🟢 user forced to use keyword only arguments never notices change
+newton(f, x0, fprime, maxiter=100)
+```
