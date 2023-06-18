@@ -12,6 +12,8 @@ it's docs, that's a 30% bump in performance at the current state. This
 performance will come when virtual environments are stored in the same
 directory as the source code.
 
+!["One lone jedi stands in Glowing chains of interconnected network of technological cubes, in the middle of a futuristic cyberpunk dubai city, in the art style of dan mumford and marc simonetti, atmospheric lighting, intricate, volumetric lighting, beautiful, sharp focus, ultra detailed" -s50 -W800 -H350 -C7.5 -Ak_lms -S1657735302](https://stable-diffusion.waylonwalker.com/000300.1657735302.webp)
+
 ## What happened??
 
 I was looking through my profiler for some unexpected performance hits, and
