@@ -7,6 +7,12 @@ status: draft
 
 ---
 
+``` python
+import this
+
+print("that")
+```
+
 # title
 
 ## subtitle

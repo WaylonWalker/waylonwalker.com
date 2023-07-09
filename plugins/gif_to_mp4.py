@@ -1,5 +1,4 @@
 import re
-from pathlib import Path
 from typing import TYPE_CHECKING
 
 import requests
@@ -82,7 +81,6 @@ def post_render(markata):
     with markata.cache as cache:
         for article in markata.articles:
             key = markata.make_hash(
-                Path(__file__).read_text(),
                 article.html,
             )
             html_from_cache = cache.get(key)

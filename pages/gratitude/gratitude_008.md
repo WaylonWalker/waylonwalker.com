@@ -1,3 +1,8 @@
+---
+templateKey: gratitude
+date: 2017-12-20
+---
+
 #### Strength
 
 I have been getting back on my feet after a long turn of a low mindset. My wife has been my main inspiration through this process. She is working very hard herself to be a more positive person, and has been for several months. She has been my inspiration. I have started this journal, drinking keytones, tracking goals, keeping up with email, trello, using pomodoro, and started working out. All of these steps are giving me strength to keep a positive attitude through a very rough time in our life. I am very happy with the improvements that I have made over the last 8 days, and glad that these changes are giving me the strength to keep a positive attitude through the day.

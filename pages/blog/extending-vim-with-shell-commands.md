@@ -18,6 +18,12 @@ codeformatters with autocmds, using lf/ranger as a tui file manager, generating
 new files using a template framework like cookiecutter/copier/yeoman, using ag
 to populate your quickfix.
 
+## run a command
+
+```
+vimconf!!<esc>!!figlet
+```
+
 ## formatters
 
 ``` lua
@@ -42,12 +48,15 @@ autocmd({ "BufWritePost" }, {
 ## File Navigation
 
 ``` lua
+vim.keymap.set('n', 'geit', '<cmd>terminal markata list --map path --filter \'"til" in path\' --fast --no-pager<cr>')
+```
+
+``` lua
 vim.keymap.set('n', 'geit', '<cmd>Telescope find_files find_command=markata,list,--map,path,--filter,date==today,--fast<cr>')
 ```
 
-
 ``` lua
-vim.keymap.set('n', 'gee', '<cmd>vertical terminal lf<cr>')
+vim.keymap.set('n', '<leader>ee', '<cmd>vertical terminal lf<cr>')
 ```
 
 ## FloatTerm

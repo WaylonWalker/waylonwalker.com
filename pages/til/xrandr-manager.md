@@ -2,17 +2,18 @@
 date: 2022-07-16 08:43:17
 templateKey: til
 title: Manage your displays with xrandr manager
-status: 'draft'
+status: "draft"
 tags:
   - python
   - linux
-
 ---
 
+![a stable diffusion done with a111 web ui](https://images.waylonwalker.com/9cd8d65495366b8d57d805ca0faf5fd5.webp)
+
 xrandr is a great cli to manage your windows in a linux distro using x11, which
-is most of them.  The issue is that I can never remember all the flags to the
+is most of them. The issue is that I can never remember all the flags to the
 command, and if you are using it with something like a laptop using a dock the
-names of all the displays tend to change every time you redock.  This makes it
+names of all the displays tend to change every time you redock. This makes it
 really hard to make scripts that work right every time.
 
 ## Homepage
@@ -24,11 +25,11 @@ details on it.
 ## installation
 
 xrander-manager is a python cli application that is simply a nice interface
-into xrandr.  So you must have xrandr already installed, which is generally
+into xrandr. So you must have xrandr already installed, which is generally
 just there on any x11 window manager, I've never had to install it.
 
 As with any python cli that is indended to be used as a global/system level cli
-application I always install them with pipx.  This automates the process of
+application I always install them with pipx. This automates the process of
 creating a virtual environment for xrandr-manager for me, and does not clutter
 up my system packages with its dependencies that may eventually clash with
 another that I want to use.
@@ -60,8 +61,8 @@ xrandr-manager --prompt
 
 ## direction
 
-This is what I most often use xrandr-manager for.  Once you have the main
-display set you can tell it where to put the other monitor.  I've only tried
+This is what I most often use xrandr-manager for. Once you have the main
+display set you can tell it where to put the other monitor. I've only tried
 this with two monitors, I have no idea what happens with more monitors.
 
 ```
@@ -75,7 +76,7 @@ xrandr-manager -d below
 
 One thing that I always need to jump through hoops to do is mirror.
 Occasionally I want to mirror so that more people can see the screen while we
-are split screen gaming.  This has seemed like a pain in any other xrandr
+are split screen gaming. This has seemed like a pain in any other xrandr
 utility, but trivial in xrandr-manager.
 
 ```
@@ -90,8 +91,8 @@ init script.
 
 ## Guis
 
-Ya there are guis that do this.  I've had good luck with arandr.  It's more
-intuitive to drag windows around like what you would do in windows.  Every once
+Ya there are guis that do this. I've had good luck with arandr. It's more
+intuitive to drag windows around like what you would do in windows. Every once
 in awhile it messes up and my polybar overlaps my windows, or my windows end up
 only on half the screen.
 

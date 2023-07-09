@@ -1,5 +1,9 @@
 #!python
-from markata import Markata
 from typing import Union
 
-Markata().run()
+from markata import Markata
+
+# https://mypy.readthedocs.io/en/stable/running_mypy.html
+
+# Markata().run()
+pd.DataFrame()

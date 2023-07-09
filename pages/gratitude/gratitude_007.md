@@ -1,3 +1,8 @@
+---
+templateKey: gratitude
+date: 2017-12-19
+---
+
 #### Accommodations
 
 I am grateful for the accommodations that have been made for our family medical situation. I enjoy being able to support everyone in their appointments, and making sure that everyone is able to get where they need to be every day. Without these kind of accommodations it would be impossible to keep everyone healthy. Some career paths would not have allowed this as working in person at a specified time is crutial.

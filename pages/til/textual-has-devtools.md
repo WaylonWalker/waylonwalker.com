@@ -2,12 +2,11 @@
 date: 2022-06-09 21:21:11
 templateKey: til
 title: Textual has devtools
-status: draft
+status: published
 tags:
   - python
   - python
   - python
-
 ---
 
 Textual has devtools in the upcoming css branch, and its pretty awesome!
@@ -15,7 +14,7 @@ Textual has devtools in the upcoming css branch, and its pretty awesome!
 ## It's still early
 
 Textual is still very early and not really ready for prime time, but it's quite
-amazing how easy some things such as creating keybindings is.  The docs are
+amazing how easy some things such as creating keybindings is. The docs are
 coming, but missing right now so if you want to use textual be ready for
 reading source code and examples.
 
@@ -25,7 +24,7 @@ As [@willmcgugan](https://twitter.com/willmcgugan) shows in this tweet it's
 pretty easy to setup, it requires having two terminals open, or using tmux, and
 currently you have to use the css branch.
 
-https://twitter.com/willmcgugan/status/1531294412696956930
+<https://twitter.com/willmcgugan/status/1531294412696956930>
 
 ## Why does textual need its own devtools
 
@@ -38,7 +37,7 @@ where to print statement debug, and breakpoints don't work.
 In the future it will likely be in main and not need this, but for now you need
 to get the css branch to get devtools.
 
-``` bash
+```bash
 git clone https://github.com/Textualize/textual
 git fetch --alll
 git checkout css
@@ -50,7 +49,7 @@ Now you can create a virtual environment, feel free to use whatever virtual
 environment tool you want, venv is built in to most python distributions
 though, and should just be there.
 
-``` bash
+```bash
 python3 -m venv .venv --prompt textual
 source .venv/bin/activate
 pip install .

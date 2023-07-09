@@ -54,10 +54,7 @@ def post_render(markata):
     with markata.cache as cache:
         for article in markata.articles:
             key = markata.make_hash(
-                __file__,
                 Path(__file__).read_text(),
-                "post_render",
-                article.content,
                 article.html,
             )
 

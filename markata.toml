@@ -30,14 +30,16 @@ hooks = [
    # "plugins.one_line_link",
    # "plugins.include",
    "default",
-   # "plugins.related",
+   "plugins.related",
    # "plugins.seo_amp",
-   "plugins.publish_amp",
    # "plugins.custom_seo",
-   "plugins.gif_to_mp4",
-   "plugins.youtube",
    # "plugins.rss_tag",
-   "plugins.auto_publish",
+
+#might need these, but they are not importing
+   # "plugins.publish_amp",
+   # "plugins.gif_to_mp4",
+   # "plugins.youtube",
+   # "plugins.auto_publish",
    "markata.plugins.service_worker",
    ]
 disabled_hooks = [
@@ -141,6 +143,7 @@ name = "og:type"
 content = "article"
 
 [[markata.head.link]]
+
 href="{{ config.url }}/{{ slug }}/"
 rel="canonical"
 
