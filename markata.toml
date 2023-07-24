@@ -161,11 +161,11 @@ content="{{ config.get('covers_url') }}/{{ slug }}.jpg"
 
 [[markata.head.meta]]
 name="og:image:width"
-content=1200
+content='1200'
 
 [[markata.head.meta]]
 name="og:image:height"
-content=600
+content='600'
 
 [[markata.head.meta]]
 name="twitter:creator"
@@ -218,119 +218,119 @@ content="#322D39"
 [markata.prevnext]
 prevnext_color_angle = "#ff66c4"
 
-[markata.feeds.published]
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
-filter="date<=today and templateKey in ['blog-post', 'til'] and status.lower()=='published'"
-sort="date"
-# precache=true
+# [markata.feeds.published]
+# template="pages/templates/archive_template.html"
+# card_template = "pages/templates/feed_card.html"
+# filter="date<=today and templateKey in ['blog-post', 'til'] and status.lower()=='published'"
+# sort="date"
+# # precache=true
 
-[markata.feeds.recent]
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
-filter="date<today and date>today-timedelta(days=30) and status.lower()=='published'"
-sort="date"
+# [markata.feeds.recent]
+# template="pages/templates/archive_template.html"
+# card_template = "pages/templates/feed_card.html"
+# filter="date<today and date>today-timedelta(days=30) and status.lower()=='published'"
+# sort="date"
 
-[markata.feeds.all]
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
-sort="date"
+# [markata.feeds.all]
+# template="pages/templates/archive_template.html"
+# card_template = "pages/templates/feed_card.html"
+# sort="date"
 
-[markata.feeds.archive]
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
-filter="date<=today and templateKey in ['blog-post', 'til'] and status.lower()=='published'"
-sort="date"
+# [markata.feeds.archive]
+# template="pages/templates/archive_template.html"
+# card_template = "pages/templates/feed_card.html"
+# filter="date<=today and templateKey in ['blog-post', 'til'] and status.lower()=='published'"
+# sort="date"
 
-[markata.feeds.blog]
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
-filter="date<=today and templateKey in ['blog-post'] and status.lower()=='published'"
-sort="date"
+# [markata.feeds.blog]
+# template="pages/templates/archive_template.html"
+# card_template = "pages/templates/feed_card.html"
+# filter="date<=today and templateKey in ['blog-post'] and status.lower()=='published'"
+# sort="date"
 
-[markata.feeds.draft]
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
-filter="status=='draft' and templateKey in ['blog-post', 'til']"
-sort="date"
+# [markata.feeds.draft]
+# template="pages/templates/archive_template.html"
+# card_template = "pages/templates/feed_card.html"
+# filter="status=='draft' and templateKey in ['blog-post', 'til']"
+# sort="date"
 
-[markata.feeds.scheduled]
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
-filter="date>today"
-sort="date"
+# [markata.feeds.scheduled]
+# template="pages/templates/archive_template.html"
+# card_template = "pages/templates/feed_card.html"
+# filter="date>today"
+# sort="date"
 
-[markata.feeds.today]
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
-filter="date==today"
-sort="date"
+# [markata.feeds.today]
+# template="pages/templates/archive_template.html"
+# card_template = "pages/templates/feed_card.html"
+# filter="date==today"
+# sort="date"
 
-[markata.feeds.python]
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
-filter="date<=today and 'python' in tags"
-sort="date"
+# [markata.feeds.python]
+# template="pages/templates/archive_template.html"
+# card_template = "pages/templates/feed_card.html"
+# filter="date<=today and 'python' in tags"
+# sort="date"
 
-[markata.feeds.python-draft]
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
-filter="date<=today and 'python' in tags and status=='draft'"
-sort="date"
+# [markata.feeds.python-draft]
+# template="pages/templates/archive_template.html"
+# card_template = "pages/templates/feed_card.html"
+# filter="date<=today and 'python' in tags and status=='draft'"
+# sort="date"
 
-[markata.feeds.linux]
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
-filter="date<=today and 'linux' in tags"
-sort="date"
+# [markata.feeds.linux]
+# template="pages/templates/archive_template.html"
+# card_template = "pages/templates/feed_card.html"
+# filter="date<=today and 'linux' in tags"
+# sort="date"
 
-[markata.feeds.linux-draft]
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
-filter="date<=today and 'linux' in tags and status=='draft'"
-sort="date"
+# [markata.feeds.linux-draft]
+# template="pages/templates/archive_template.html"
+# card_template = "pages/templates/feed_card.html"
+# filter="date<=today and 'linux' in tags and status=='draft'"
+# sort="date"
 
-[markata.feeds.vim]
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
-filter="date<=today and 'vim' in tags"
-sort="date"
+# [markata.feeds.vim]
+# template="pages/templates/archive_template.html"
+# card_template = "pages/templates/feed_card.html"
+# filter="date<=today and 'vim' in tags"
+# sort="date"
 
-[markata.feeds.vim-draft]
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
-filter="date<=today and 'vim' in tags and status=='draft'"
-sort="date"
+# [markata.feeds.vim-draft]
+# template="pages/templates/archive_template.html"
+# card_template = "pages/templates/feed_card.html"
+# filter="date<=today and 'vim' in tags and status=='draft'"
+# sort="date"
 
-[markata.feeds.kedro]
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
-filter="date<=today and 'kedro' in tags"
-sort="date"
+# [markata.feeds.kedro]
+# template="pages/templates/archive_template.html"
+# card_template = "pages/templates/feed_card.html"
+# filter="date<=today and 'kedro' in tags"
+# sort="date"
 
-[markata.feeds.kedro-draft]
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
-filter="date<=today and 'kedro' in tags and status=='draft'"
-sort="date"
+# [markata.feeds.kedro-draft]
+# template="pages/templates/archive_template.html"
+# card_template = "pages/templates/feed_card.html"
+# filter="date<=today and 'kedro' in tags and status=='draft'"
+# sort="date"
 
-[markata.feeds.gratitude]
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/gratitude_card.html"
-filter="date<=today and templateKey == 'gratitude'"
-sort="date"
+# [markata.feeds.gratitude]
+# template="pages/templates/archive_template.html"
+# card_template = "pages/templates/gratitude_card.html"
+# filter="date<=today and templateKey == 'gratitude'"
+# sort="date"
 
-[markata.feeds.til]
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
-filter="date<=today and templateKey == 'til'"
-sort="date"
+# [markata.feeds.til]
+# template="pages/templates/archive_template.html"
+# card_template = "pages/templates/feed_card.html"
+# filter="date<=today and templateKey == 'til'"
+# sort="date"
 
-[markata.feeds.til-vim]
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
-filter="date<=today and templateKey == 'til' and 'vim' in tags"
-sort="date"
+# [markata.feeds.til-vim]
+# template="pages/templates/archive_template.html"
+# card_template = "pages/templates/feed_card.html"
+# filter="date<=today and templateKey == 'til' and 'vim' in tags"
+# sort="date"
 
 
 [markata.summary]
