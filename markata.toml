@@ -30,7 +30,7 @@ hooks = [
    # "plugins.one_line_link",
    # "plugins.include",
    "default",
-   "plugins.related",
+   # "plugins.related",
    # "plugins.seo_amp",
    # "plugins.custom_seo",
    # "plugins.rss_tag",
