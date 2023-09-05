@@ -2,7 +2,7 @@
 date: 2022-08-31 10:01:09
 templateKey: til
 title: From Markdown to Blog with Markata | lightning talk | python web conf 2022
-status: 'published'
+published: true
 tags:
   - python
 

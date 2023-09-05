@@ -1,12 +1,12 @@
 ---
 templateKey: blog-post
-tags: 
+tags:
   - kedro
   - python
   - data
 title: How Kedro handles your inputs
 date: 2020-06-19T03:00:00Z
-status: published
+published: true
 
 ---
 

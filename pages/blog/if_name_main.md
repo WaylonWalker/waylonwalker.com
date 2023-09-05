@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['python']
 title: What is if __name__ == "__main___", and how do I use it.
 date: 2021-05-07T09:47:24
-status: published
+published: true
 
 ---
 
@@ -35,7 +35,7 @@ if __name__ == "__main__":
 ```
 
 I have set this module up to execute one of two if statements based on whether
-the module it'self is being ran or if the module is being imported.  
+the module it'self is being ran or if the module is being imported.
 
 > Note it is not common to have a `if __name__ == "nodes":` block, this is just
 > for demnonstration purposes.

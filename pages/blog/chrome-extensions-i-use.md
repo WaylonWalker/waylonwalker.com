@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: []
 title: Chrome Extensions I use
 date: 2020-09-13T05:00:00Z
-status: published
+published: true
 
 ---
 There are many useful chrome extensions out there.  I probably have way too many installed, here are four that I am currently using.

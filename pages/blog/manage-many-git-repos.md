@@ -1,16 +1,14 @@
 ---
 templateKey: blog-post
-tags: ['python']
+tags: ["python"]
 title: Manage many git repos with ease
 date: 2021-06-13T09:41:22
-status: draft
-
+published: false
 ---
 
 mu-repo
 
-
-``` bash
+```bash
 pip install mu
 
 mu status --short

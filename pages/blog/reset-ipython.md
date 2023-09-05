@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['python']
 title: Reclaim memory usage in Jupyter
 date: 2020-10-01T05:00:00Z
-status: published
+published: true
 
 ---
 

@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['linux', 'bash']
 title: Open files FAST from zsh | or bash if thats your thing
 date: 2021-12-02T11:34:47
-status: published
+published: true
 
 ---
 

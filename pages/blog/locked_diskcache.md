@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['python']
 title: Python Diskcahe is locked
 date: 2021-05-14T18:38:45
-status: draft
+published: false
 
 ---
 
@@ -133,4 +133,3 @@ solve with minimum viable errors.
 * [diskcache-pypi](https://pypi.org/project/diskcache/)
 * [diskcache-tutorial](http://www.grantjenks.com/docs/diskcache/tutorial.html)
 * [diskcache-github](https://github.com/grantjenks/python-diskcache) 👈 Give it a star
-

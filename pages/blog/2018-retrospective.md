@@ -2,7 +2,7 @@
 templateKey: 'blog-post'
 title: 2018 Retrospective
 date: 2019-01-05
-status: published
+published: true
 
 ---
 

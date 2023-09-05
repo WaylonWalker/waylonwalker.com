@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['python', 'stream']
 title: 🌱 Digital Gardening | gif to Mp4 | Stream replay June 4, 2021
 date: 2021-06-06T16:15:04
-status: published
+published: true
 
 ---
 
@@ -24,6 +24,3 @@ After this stream all gifs on my site are converted to mp4/webm if they exist.
 ```
 
 ![tmux-navigation-2021](https://images.waylonwalker.com/tmux-navigation-2021.gif)
-
-
-

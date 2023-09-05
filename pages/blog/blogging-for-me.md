@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['blog']
 title: Blogging For Me
 date: 2021-01-21T00:00:00
-status: published
+published: true
 
 ---
 
@@ -55,5 +55,3 @@ idiot".  I welcome you to share your thoughts and techniques in a positive way.
 I often cringe at some of my old posts and think about how differently I would
 approach something not that long after posting.  I honest, never fake know what
 I need to know and don't pretend to know anything outside of my wheelhouse.
-
-

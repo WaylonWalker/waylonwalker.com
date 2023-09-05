@@ -2,7 +2,7 @@
 date: 2022-09-01 13:19:22
 templateKey: til
 title: Versioning Python Projects with Hatch
-status: 'published'
+published: true
 tags:
   - python
 cover: https://images.waylonwalker.com/hatch-version.png

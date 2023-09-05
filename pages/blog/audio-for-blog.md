@@ -5,7 +5,7 @@ tags:
   - blog
 title: Adding Audio to my blog posts
 date: 2020-11-25T20:52:22
-status: published
+published: true
 
 ---
 
@@ -35,7 +35,7 @@ necessarily expect the audio to be
 word for word.
 
 
-## Code blocks 
+## Code blocks
 
 There are a lot of code blocks in my blog, which don't translate directly into
 I will do my best to read short one liners or describe larger blocks, but don't

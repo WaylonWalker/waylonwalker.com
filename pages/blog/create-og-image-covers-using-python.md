@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['python']
 title: Create Og Image Covers Using Python
 date: 2021-01-22T00:00:00
-status: draft
+published: false
 
 ---
 

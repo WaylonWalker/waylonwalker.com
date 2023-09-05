@@ -4,7 +4,7 @@ tags:
   - python
 title: 🐍 Practice Python Online
 date: 2020-07-25T05:00:00Z
-status: published
+published: true
 
 ---
 

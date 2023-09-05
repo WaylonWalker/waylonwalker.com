@@ -4,7 +4,7 @@ templateKey: blog-post
 title: minecraft documentary
 tags:
   - minecraft
-status: published
+published: true
 ---
 
 This is my first time journaling a Minecraft hardcore world, my son Wyatt is

@@ -4,8 +4,7 @@ templateKey: blog-post
 title: extending vim with shell commands
 tags:
   - vim
-status: draft
-
+published: false
 ---
 
 Vimconf 2022
@@ -13,7 +12,7 @@ Vimconf 2022
 ## The pitch
 
 Extending vim does not need to be complicated and can be done using cli tools
-that you might already be comfortable with.  Examples, setting up
+that you might already be comfortable with. Examples, setting up
 codeformatters with autocmds, using lf/ranger as a tui file manager, generating
 new files using a template framework like cookiecutter/copier/yeoman, using ag
 to populate your quickfix.
@@ -26,7 +25,7 @@ vimconf!!<esc>!!figlet
 
 ## formatters
 
-``` lua
+```lua
 local settings = require'waylonwalker.settings'
 
 M.waylonwalker_augroup = augroup('waylonwalker', { clear = true })
@@ -47,32 +46,32 @@ autocmd({ "BufWritePost" }, {
 
 ## File Navigation
 
-``` lua
+```lua
 vim.keymap.set('n', 'geit', '<cmd>terminal markata list --map path --filter \'"til" in path\' --fast --no-pager<cr>')
 ```
 
-``` lua
+```lua
 vim.keymap.set('n', 'geit', '<cmd>Telescope find_files find_command=markata,list,--map,path,--filter,date==today,--fast<cr>')
 ```
 
-``` lua
+```lua
 vim.keymap.set('n', '<leader>ee', '<cmd>vertical terminal lf<cr>')
 ```
 
 ## FloatTerm
 
-``` lua
+```lua
 vim.keymap.set('n', '<leader><leader>w', '<cmd>FloatermNew waylonwalker<cr>')
 vim.g['floaterm_opener'] = 'vsplit'
 vim.keymap.set('n', 'gee', '<cmd>FloatermNew lf<cr>')
 ```
 
-## vimgrep over hidden files ##
+## vimgrep over hidden files
 
 I know all the files that I care to search for are called build.yml, and they
 are in a hidden directory.
 
-``` vim
+```vim
 :args `fd -H build.yml`
 :vimgrep /upload docs/ ##
 ```

@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['python']
 title: pre-commit is awesome
 date: 2020-06-05T05:00:00.000+00:00
-status: published
+published: true
 
 ---
 

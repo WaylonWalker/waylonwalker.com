@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: []
 title: RSS feed for your Gatsby Site
 date: 2020-01-21T13:58:59Z
-status: draft
+published: false
 description: Add an rss feed to your Gatsby Site
 cover: ''
 

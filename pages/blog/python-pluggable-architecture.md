@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['python']
 title: 🐍 Pluggable Architecture with Python
 date: 2021-01-23T00:00:00
-status: draft
+published: false
 
 ---
 
@@ -107,7 +107,7 @@ module.
 
 ## hookspec
 
-_empty hooks created by the library author 
+_empty hooks created by the library author
 
 
 ``` python

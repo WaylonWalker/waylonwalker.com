@@ -5,7 +5,7 @@ slug: d3-day-5
 date: 2018-05-08T10:40:39
 tags:
     - webdev
-status: published
+published: true
 
 ---
 

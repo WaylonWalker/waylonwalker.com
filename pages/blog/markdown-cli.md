@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['python', 'blog']
 title: Markdown Cli
 date: 2021-01-20T00:00:00
-status: published
+published: true
 
 ---
 
@@ -82,7 +82,7 @@ data
 $ markata
 
 [
-  { 
+  {
     "title": "post title",
     "description": "this is a post",
     "filepath": "path_to.md",
@@ -95,6 +95,3 @@ $ markata
 
 ``` bash
 ```
-
-
-

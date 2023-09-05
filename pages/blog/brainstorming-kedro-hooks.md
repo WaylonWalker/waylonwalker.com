@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: []
 title: Brainstorming Kedro Hooks
 date: 2020-05-22T22:02:00.000+00:00
-status: published
+published: true
 
 ---
 

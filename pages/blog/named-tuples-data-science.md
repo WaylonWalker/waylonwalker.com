@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Clean up Your Data Science with Named Tuples
 date: 2019-09-11
-status: published
+published: true
 related_post:
 tags:
 - python

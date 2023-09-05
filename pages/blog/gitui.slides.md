@@ -3,14 +3,14 @@ templateKey: slides
 tags: ['git']
 title: Gitui is a blazing fast terminal git interface
 date: 2021-01-17T00:00:00
-status: published
+published: true
 
 ---
 
 ## GitUI
 
 Gitui is a terminal-based git user interface (TUI) that will change the way
-that you work with git. 
+that you work with git.
 
 ## Works alongside the cli
 
@@ -59,7 +59,7 @@ to your config directory will get you vim-like keybindings.
 
 ## workflow
 
-* pop open `gitui`, 
+* pop open `gitui`,
 * use **j/k** to get to the file I want to commit,
 * glance at the diff to the right
 * press enter to stage the file

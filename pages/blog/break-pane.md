@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['cli', 'linux', 'tmux',]
 title: tmux break-pane
 date: 2021-07-26T23:51:21
-status: published
+published: true
 
 ---
 
@@ -23,4 +23,3 @@ bind-key          ! break-pane
 https://waylonwalker.com/tmux-nav-2021/
 
 > for more information on how I navigate tmux, check out this full post
-

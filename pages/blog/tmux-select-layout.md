@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['cli', 'linux', 'tmux']
 title: tmux select-layout
 date: 2021-07-21T23:51:21
-status: published
+published: true
 
 ---
 
@@ -18,7 +18,7 @@ mod plus a or mod plus shift a keybindings.
 # Select Layouts
 #―――――――――――――――――
 bind -n M-a select-layout main-vertical
-bind -n M-A select-layout main-horizontal 
+bind -n M-A select-layout main-horizontal
 bind -n M-E select-layout even-vertical
 bind -n M-V select-layout even-horizontal
 ```

@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['kedro']
 title: How I Kedro
 date: 2021-08-16T22:34:45
-status: published
+published: true
 
 ---
 
@@ -75,7 +75,7 @@ I really like ipython, it lets me edit code in my code editor, then import it
 or run it quickly.  Ipython gives me the right level of tooling.  I don't need
 markdown mixed in my code, I put those notes into docstrings, a readme, or
 wiki.  When I need to see plots I just store them as png or html and view them
-in my browser.  
+in my browser.
 
 I do a bit of customization to my ipython session that you can find in my
 dotfiles repo.  I use a custom prompt and use rich formatting and tracebacks if

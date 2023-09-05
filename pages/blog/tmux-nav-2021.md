@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['cli', 'linux', 'tmux']
 title: How I navigate tmux in 2021
 date: 2021-05-11T09:14:07
-status: published
+published: true
 
 ---
 

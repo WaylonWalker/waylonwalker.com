@@ -3,9 +3,9 @@ templateKey: blog-post
 tags: [python]
 title: Making good documentation in python
 date: 2019-09-22T05:00:00Z
-status: draft
-
+published: false
 ---
+
 # Tools
 
 ## Sphinx

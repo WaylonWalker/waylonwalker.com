@@ -2,7 +2,7 @@
 date: 2022-02-14 14:53:17.647087
 templateKey: til
 title: "Vim remaps use cmd in place of :"
-status: draft
+published: false
 tags:
   - vim
   - linux

@@ -3,7 +3,7 @@ Tags: ['cli', 'linux', 'tmux',]
 templateKey: blog-post
 title: tmux source-file
 date: 2021-08-06T09:03:09
-status: published
+published: true
 
 ---
 

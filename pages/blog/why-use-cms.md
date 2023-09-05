@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['webdev']
 title: Why use a cms
 date: 2020-07-14T03:00:00Z
-status: published
+published: true
 
 ---
 

@@ -3,34 +3,34 @@ templateKey: blog-post
 tags: []
 title: 📝 Kedro Preflight Notes
 date: 2020-05-09T15:01:00Z
-status: published
+published: true
 description: run checks before running the pipeline
-cover: ''
-
+cover: ""
 ---
 
 This is a very rough idea for a kedro package to prevent time lost to get partway through a pipeline run only to realize that you dont have access to data or resources.
 
 ## Must Haves
 
-* check that inputs exist or are of a type to skip (sql)
+- check that inputs exist or are of a type to skip (sql)
 
 # Good to haves
-* check that all input and output databases are accessible with good credentials
-* check for s3 bucket access
-* check for spark install
 
+- check that all input and output databases are accessible with good credentials
+- check for s3 bucket access
+- check for spark install
 
 ## Implementation
 
-``` python
+```python
 @hook_spec
 def before_pipeline_run(run_params, pipeline, catalog):
 
 ```
 
 ## run params
-``` json
+
+```json
 {
   "run_id": str
   "project_path": str,

@@ -2,8 +2,8 @@
 templateKey: blog-post
 tags: ['kedro', 'python']
 title: Kedro pipeline_registry.py
-date: 2021-03-20T00:00:00 
-status: published
+date: 2021-03-20T00:00:00
+published: true
 
 ---
 
@@ -23,7 +23,7 @@ this new module.
 You should now have something that looks like this in your
 `src/<package-name>/pipeline_registry.py`.
 
-``` python 
+``` python
 """Project pipelines."""
 from typing import Dict
 

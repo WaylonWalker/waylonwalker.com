@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['webdev', 'blog']
 title: I finally fixed my Styled-Components in gatsby.js
 date: 2020-02-08T15:07:00.000+00:00
-status: published
+published: true
 
 ---
 

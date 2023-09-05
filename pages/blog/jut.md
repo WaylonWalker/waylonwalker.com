@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['linux', 'bash', 'datascience']
 title:  JUT | Read Notebooks in the Terminal
 date: 2021-11-20T10:38:00
-status: published
+published: true
 
 ---
 

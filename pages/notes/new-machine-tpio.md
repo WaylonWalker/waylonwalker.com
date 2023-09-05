@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: []
 title: New Machine for developing Tests with TestProject.io
 date: 2020-07-25T05:00:00.000+00:00
-status: published
+published: true
 description: Today I setup a new machine on Digital Ocean to use with
   TestProject.io, Here are my installation notes.
 

@@ -5,7 +5,7 @@ tags:
 - python
 title: Four Github Actions for Python
 date: 2020-04-13T06:23:00.000+00:00
-status: published
+published: true
 jinja: false
 
 ---

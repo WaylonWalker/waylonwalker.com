@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: []
 title: Fix git commit author
 date: 2020-10-17T05:00:00.000+00:00
-status: published
+published: true
 description: "I was 20 commits into a hackoberfest PR when I suddenly realized they
   they all had my work email on them instead of my personal email \U0001F631."
 
@@ -19,7 +19,7 @@ I was 20 commits into a hackoberfest PR when I suddenly realized they they all h
 1. [Done](#done)
 1. [ReCap](#recap)
 
-    
+
 ## Change the email for this repo
 
 _stop the bleeding_
@@ -44,7 +44,7 @@ Author: WaylonWalker <email@work.com>
 Date:   Sat Oct 17 10:28:59 2020 -0500
 
     give name of function inside incorrect parameters error
-  
+
 commit 1756f5d121bd06c459560b2e982e0d7b6879e9ca
 Author: Kiyohito Kunii (Kiyo) <8097799+921kiyo@users.noreply.github.com>
 Date:   Fri Oct 2 15:33:09 2020 +0100

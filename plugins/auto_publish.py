@@ -9,7 +9,10 @@ def load(markata):
     ...
     config = markata.get_plugin_config(__file__)
     for article in markata.articles:
-        article["status"] = article.get("status", "draft")
+        try:
+            article["status"] = article.get("status", "draft")
+        except:
+            article["status"] = article.__dict__.get("status", "draft")
         if article["status"] == "published" and "published" not in article.keys():
             article["published"] = article.get("published", True)
         else:

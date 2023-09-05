@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['kedro', 'python', 'data']
 title: How to find things in your kedro catalog
 date: 2020-06-22T03:00:00Z
-status: published
+published: true
 
 ---
 

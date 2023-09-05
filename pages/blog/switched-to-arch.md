@@ -5,7 +5,7 @@ title: The one reason I switched to arch
 tags:
   - linux
   - arch
-status: published
+published: true
 
 ---
 

@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['kedro', 'python']
 title: Kedro Pipeline Create
 date: 2021-08-22T22:40:45
-status: draft
+published: false
 
 ---
 
@@ -38,4 +38,3 @@ src/kedro_conda/pipelines
     ├── pipeline.py
     └── README.md
 ```
-

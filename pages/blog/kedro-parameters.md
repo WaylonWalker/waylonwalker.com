@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['kedro', 'python']
 title: Setting Parameters in kedro
 date: 2021-09-19
-status: published
+published: true
 
 ---
 
@@ -158,4 +158,3 @@ os.environ['KEDRO_ENV'] = 'new'
 * [comprehensive guide to creating kedro nodes](https://waylonwalker.com/kedro-node/)
 * [kedro playlist on YouTube](https://www.youtube.com/watch?v=bw5_FWDVRpU&list=PLTRNG6WIHETCoPt5gAKYSH_HCZvE_r41n)
 * [configuration docs](https://kedro.readthedocs.io/en/latest/04_kedro_project_setup/02_configuration.html)
-

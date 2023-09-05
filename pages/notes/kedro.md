@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['kedro', 'python']
 title: Kedro
 date: 2019-11-02T05:00:00.000+00:00
-status: published
+published: true
 description: My Notes about using kedro
 
 ---

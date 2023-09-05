@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['python']
 title: ⚙ How Python Tools Are Configured
 date: 2021-01-21T00:00:00
-status: draft
+published: false
 
 ---
 
@@ -263,7 +263,7 @@ This is quite beneficial as catalogs can become incredebly repetative.
 
 ## pytest
 
-Currently pytest is configured 
+Currently pytest is configured
 
 ## resolution order
 

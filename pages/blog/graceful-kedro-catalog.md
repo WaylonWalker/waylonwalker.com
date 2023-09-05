@@ -1,12 +1,12 @@
 ---
 templateKey: blog-post
-tags: 
+tags:
   - kedro
   - python
   - data
 title: Gracefully adopt kedro, the catalog
 date: 2020-06-29T03:00:00Z
-status: published
+published: true
 
 ---
 

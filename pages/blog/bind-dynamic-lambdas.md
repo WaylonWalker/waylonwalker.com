@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['python']
 title: 'TIL: Bind arguments to dynamically generated lambdas in python'
 date: 2020-04-27T12:13:00.000+00:00
-status: published
+published: true
 
 ---
 

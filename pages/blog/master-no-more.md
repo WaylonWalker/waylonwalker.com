@@ -1,10 +1,10 @@
 ---
 templateKey: blog-post
-tags: 
+tags:
   - git
 title: Master No More
 date: 2020-06-11T05:00:00Z
-status: published
+published: true
 
 ---
 
@@ -114,6 +114,3 @@ git config --global alias.new '!git init && git symbolic-ref HEAD refs/heads/mai
 ## See the Full Diff
 
 If you happen to want to see the full diff of my change you can see it [here](https://github.com/WaylonWalker/waylonwalkerv2/commit/4bd26ba8faaf7c72e01cc4946d989e3284302cd0).
-
-
-

@@ -1,11 +1,11 @@
 ---
 templateKey: blog-post
-tags: 
+tags:
   - webdev
   - blog
 title: Refactoring your blog urls
 date: 2020-06-11T05:00:00Z
-status: published
+published: true
 
 ---
 
@@ -38,7 +38,7 @@ from the old route to the new route there.
 
 ## rename long posts
 
-``` bash 
+``` bash
 /blog/i-finally-fixed-my-styled-components-in-gatsby-js
 /blog/fix-styled-components-in-gatsby
 /blog/interrogate-is-a-pretty-awesome-brand-new-cli-for-python-packages
@@ -51,4 +51,3 @@ This is probably being a bit pedantic.  Realistically my urls were probably ok.
 These posts probably aren't going to be topping the google search charts
 anyways, but I wanted to do it without killing off any links that I may have
 happened to post somewhere.
-

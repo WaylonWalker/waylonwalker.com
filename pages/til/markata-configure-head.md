@@ -2,7 +2,7 @@
 date: 2022-09-11 20:25:45
 templateKey: til
 title: markata extend <head> in configuration
-status: 'published'
+published: true
 tags:
   - python
 
@@ -79,5 +79,5 @@ post_template = "pages/templates/post_template.html"
 
 Once you have this in your `markata.toml` you can put whatever you want in your
 own template.
-  
+
 !["An astronaut working in a lab, colorful explosion, powder, particles, smoke, 35mm, bokeh, fog, f1.2, shallow depth of field, experiments running, beakers, test tubes, cyberpunk, octane render, trending on artstation, neon lighting, volumetric lighting, pink lighting" -s50 -W800 -H450 -C7.5 -Ak_lms -S2678273305](https://stable-diffusion.waylonwalker.com/000172.2678273305.webp)

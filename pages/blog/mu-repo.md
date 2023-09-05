@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: []
 title: Maintianing multiple git repos with mu-repo
 date: 2021-06-10T10:44:17
-status: draft
+published: false
 
 ---
 
@@ -113,14 +113,12 @@ mu fb [-r] pat= Shortcut for find-branch
 Any other command is passed directly to git for each repository:
 I.e.:
 
-mu pull            
-mu fetch           
-mu push            
+mu pull
+mu fetch
+mu push
 mu checkout release
 
 Note: Actions considered safe may always be executed in parallel (i.e.: mu st)
 
 Note: Passing --timeit in any command will print the time for the command.
 ```
-
-

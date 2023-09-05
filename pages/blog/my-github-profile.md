@@ -1,11 +1,11 @@
 ---
 templateKey: blog-post
-tags: 
+tags:
   - webdev
   - catalytic
 title: How I Built My GitHub Profile
 date: 2020-07-10T03:00:00Z
-status: published
+published: true
 
 ---
 

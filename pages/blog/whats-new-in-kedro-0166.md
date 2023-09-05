@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['python', 'kedro',]
 title: What's New in Kedro 0.16.6
 date: 2020-10-25T05:00:00Z
-status: published
+published: true
 description: This version of kedro releases a new set of supported deployment
     options and the spaceflights pipeline is officially added as a starter alias.
 
@@ -21,7 +21,7 @@ This is really exciting to see more deployment options coming from the kedro tea
 * [Batch](https://kedro.readthedocs.io/en/stable/10_deployment/07_aws_batch.html)
 * [SageMaker](https://kedro.readthedocs.io/en/stable/10_deployment/09_aws_sagemaker.html)
 
-Most of them hinge on a sweet combination of the kedro cli, docker image, and the pipeline knowing your nodes dependencies. 
+Most of them hinge on a sweet combination of the kedro cli, docker image, and the pipeline knowing your nodes dependencies.
 
 Argo, Prefect, and Kubeflow have an interesting technique where they translate the pipeline and its dependencies from kedro to their language.
 
@@ -32,7 +32,7 @@ I did a quick and dirty test of one of these by simulating the technique in a ba
 
 ## Spaceflight starter
 
-They have officially added the spaceflights pipeline as a starter. I have not yet had a chance to try this out, but I anticipate this will be a great pipeline to teach from as it is a bit more complex than the iris pipeline. 
+They have officially added the spaceflights pipeline as a starter. I have not yet had a chance to try this out, but I anticipate this will be a great pipeline to teach from as it is a bit more complex than the iris pipeline.
 
 I tell folks all the time the best way to learn something new like kedro is to **practice, practice, practice**. Having this at their fingertips will give an easy way to fire up a pipeline that is ok to break try out some new ideas and leave it. I see this helping me testing out plugins on more complex pipelines and writing blog posts with examples that readers can more easily follow along with.
 

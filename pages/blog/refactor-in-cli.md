@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: []
 title: Large Refactor At The Command Line
 date: 2020-12-30T00:00:00
-status: published
+published: true
 
 ---
 
@@ -173,4 +173,3 @@ git checkout -- /src/pages/blog
 I really love using `gitui` as a handy terminal interface to browse logs, diffs, and commit a few files at a time.  It starts up crazy fast and is very intuitive to navigate through diffs of changes like this one file at a time if the `git diff` gets too overwhelming.
 
 https://github.com/extrawurst/gitui/
-

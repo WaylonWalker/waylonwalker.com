@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['python']
 title: understanding python \*args and \*\*kwargs
 date: 2020-06-10T05:00:00Z
-status: published
+published: true
 
 ---
 

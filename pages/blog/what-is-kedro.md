@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['kedro', 'python']
 title: What is Kedro
 date: 2021-08-17T12:48:00Z
-status: published
+published: true
 
 ---
 
@@ -100,7 +100,7 @@ cars:
 
 Nodes are a very core part of kedro to build the **DAG**.  These nodes are what
 provides the definition of what catalog entries, get passed into which
-function, and output to another catalog entry.  
+function, and output to another catalog entry.
 
 ``` python
 import pandas as pd

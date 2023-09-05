@@ -1,22 +1,20 @@
 ---
 templateKey: blog-post
-tags: ['cli', 'linux', 'tmux']
+tags: ["cli", "linux", "tmux"]
 title: tmux choose-tree
 date: 2021-07-19T23:51:21
-status: published
-
+published: true
 ---
 
-https://youtu.be/79Y-kqAiMpw
+<https://youtu.be/79Y-kqAiMpw>
 
 Choose tree is a powerful tmux utility that provides a graphical interface to
 preview all sessions, windows, and panes, move between them kill them, move
 them and much more.
 
-
 The default keybinding
 
-``` bash
+```bash
 bind-key -T prefix s choose-tree -s
 ```
 
@@ -28,7 +26,7 @@ bind-key j choose-tree -swZ
 
 From the man page.
 
-``` bash
+```bash
 choose-tree [-GNrswZ] [-F format] [-f filter] [-K key-format] [-O sort-order] [-t target-pane] [template]
         Put a pane into tree mode, where a session, window or pane may be chosen interactively from a tree.  Each session, window or pane is shown on
         one line.  A shortcut key is shown on the left in brackets allowing for immediate choice, or the tree may be navigated and an item chosen or
@@ -72,6 +70,6 @@ choose-tree [-GNrswZ] [-F format] [-f filter] [-K key-format] [-O sort-order] [-
         works only if at least one client is attached.
 ```
 
-https://waylonwalker.com/tmux-nav-2021/
+<https://waylonwalker.com/tmux-nav-2021/>
 
 > for more information on how I navigate tmux, check out this full post

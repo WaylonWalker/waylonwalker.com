@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['kedro', 'python']
 title: Silence Kedro Logs
 date: 2021-05-20T13:13:38
-status: published
+published: true
 
 ---
 
@@ -55,7 +55,7 @@ a cli such as one that prints out the pipelines to the console, you may not want
 to see logs that happen during regular operation as this would make it more
 challenging to integrate with other shell applications.
 
-``` python 
+``` python
 logger.setLevel(logging.ERROR)
 ```
 
@@ -120,4 +120,3 @@ https://waylonwalker.com/what-is-kedro/
 
 Python logs can seem super confusing at first, understanding how to get a
 logger and set its level are the first steps to mastering it.
-

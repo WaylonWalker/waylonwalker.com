@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['data']
 title: What is YOUR Advice for New Data Scientists
 date: 2020-02-26T12:55:00Z
-status: published
+published: true
 
 ---
 

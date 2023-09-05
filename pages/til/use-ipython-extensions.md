@@ -2,7 +2,7 @@
 date: 2022-09-20 15:40:31
 templateKey: til
 title: I've made my ipython config too complicated, let's fix it.
-status: 'published'
+published: true
 tags:
   - python
 

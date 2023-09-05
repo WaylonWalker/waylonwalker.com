@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: []
 title: drawing ascii boxes
 date: 2020-05-12T22:05:00Z
-status: published
+published: true
 description: I always struggle to find a good reference of ascii characters.  This
   is a compilation of my most wanted ascii characters.
 

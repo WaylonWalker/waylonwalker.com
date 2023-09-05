@@ -1,9 +1,9 @@
 ---
 templateKey: blog-post
 tags: ['kedro', 'python']
-title: Incremental Versioned Datasets in Kedro 
+title: Incremental Versioned Datasets in Kedro
 date: 2021-07-08T11:12:25
-status: published
+published: true
 
 ---
 
@@ -230,7 +230,7 @@ Once we have the nodes and catalog setup, we can run the pipeline a few times
 to get some versioned data.  Each time we run, it will save a new version inside
 the `int_cars.parquet` directory.
 
-``` bash 
+``` bash
 kedro run
 kedro run
 kedro run
@@ -499,7 +499,7 @@ nodes.append(
             )
         )
 ```
- 
+
 > 🗒️ note that inside of the dict comprehension car is a load function that we need to call.
 
 ## creating nodes with incremental datasets

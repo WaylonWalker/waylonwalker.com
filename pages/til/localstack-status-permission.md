@@ -2,7 +2,7 @@
 date: 2022-10-17 08:55:26
 templateKey: til
 title: localstack status permission
-status: 'published'
+published: true
 tags:
   - aws
 

@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: []
 title: What is something you should have learned or understood earlier?
 date: 2020-01-10T06:00:00Z
-status: published
+published: true
 description: What is something that you recently learned that you wish you would have
   learned or understood earlier?
 

@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['kedro', 'python']
 title: Writing your first kedro Nodes
 date: 2021-09-13T22:40:45
-status: published
+published: true
 
 ---
 
@@ -93,4 +93,3 @@ concat_ranges = node(
 * [kedro playlist on YouTube](https://www.youtube.com/watch?v=bw5_FWDVRpU&list=PLTRNG6WIHETCoPt5gAKYSH_HCZvE_r41n)
 * [node docs](https://kedro.readthedocs.io/en/stable/kedro.pipeline.node.html)
 * [first_nodes.py](https://gist.github.com/WaylonWalker/347b32c6ae7b799d1e0853c3811a98de)
-

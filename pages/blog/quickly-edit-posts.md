@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['bash']
 title: Quickly Edit Posts
 date: 2021-01-18T00:00:00
-status: published
+published: true
 
 ---
 
@@ -93,4 +93,3 @@ ep () {
     _ep && cd $_dir || cd $_dir
 }
 ```
-

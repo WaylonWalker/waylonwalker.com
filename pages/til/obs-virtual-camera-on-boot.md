@@ -2,7 +2,7 @@
 date: 2022-10-18 08:34:25
 templateKey: til
 title: obs virtual camera on boot
-status: 'published'
+published: true
 tags:
   - linux
 

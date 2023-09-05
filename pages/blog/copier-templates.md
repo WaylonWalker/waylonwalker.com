@@ -6,7 +6,7 @@ tags:
   - python
   - linux
   - cli
-status: draft
+published: false
 jinja: false
 
 ---

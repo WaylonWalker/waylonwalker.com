@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: []
 title: Sample
 date: 2021-01-25T00:00:00
-status: draft
+published: false
 
 ---
 

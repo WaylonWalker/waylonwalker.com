@@ -4,13 +4,12 @@ templateKey: blog-post
 title: Links
 tags:
   - meta
-status: draft
-
+published: false
 ---
 
-* [twitter](https://twitter.com/_WaylonWalker)
-* [twitch](https://twitch.com/WaylonWalker)
-* [github](https://github.com/WaylonWalker)
-* [dev.to](https://dev.to/waylonwalker)
-* [LinkedIn](https://www.linkedin.com/in/waylonwalker/)
-* [YouTube](https://www.youtube.com/waylonwalker)
+- [twitter](https://twitter.com/_WaylonWalker)
+- [twitch](https://twitch.com/WaylonWalker)
+- [github](https://github.com/WaylonWalker)
+- [dev.to](https://dev.to/waylonwalker)
+- [LinkedIn](https://www.linkedin.com/in/waylonwalker/)
+- [YouTube](https://www.youtube.com/waylonwalker)

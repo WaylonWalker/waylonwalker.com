@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ["vim"]
 title: Keep Location List Closed
 date: 2020-01-1T00:00:00
-status: published
+published: true
 
 ---
 

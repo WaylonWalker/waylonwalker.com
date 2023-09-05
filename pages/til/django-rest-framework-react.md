@@ -2,7 +2,7 @@
 date: 2022-10-09 20:56:19
 templateKey: til
 title: Using Django Rest Framework inside react
-status: 'draft'
+published: false
 tags:
   - python
   - django

@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['catalytic']
 title: Don’t waste your time learning everything
 date: 2020-02-19T06:00:00Z
-status: published
+published: true
 description: Stick to what you know, and learn a little bit of something new every
   day.
 

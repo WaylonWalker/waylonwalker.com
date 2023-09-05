@@ -2,7 +2,7 @@
 templateKey: 'blog-post'
 title: Follow Your Passion
 date: 2019-01-01
-status: Draft
+published: false
 description: none
 cover: "./flex.png"
 ---

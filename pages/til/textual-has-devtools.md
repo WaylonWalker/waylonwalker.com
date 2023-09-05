@@ -2,7 +2,7 @@
 date: 2022-06-09 21:21:11
 templateKey: til
 title: Textual has devtools
-status: published
+published: true
 tags:
   - python
   - python

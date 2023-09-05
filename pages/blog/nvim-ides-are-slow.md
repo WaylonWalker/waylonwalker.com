@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['kedro', ]
 title: nvim conf 2021 | IDE's are slow | Waylon Walker
 date: 2021-10-29
-status: published
+published: true
 
 ---
 
@@ -58,7 +58,7 @@ vim is so well integrated into the terminal, take advantage
 
 As a team lead I bounce betweeen a dozen projects a per day
 
-https://pbs.twimg.com/media/FAEmRjYUcAUk2eR?format=jpg&name=large 
+https://pbs.twimg.com/media/FAEmRjYUcAUk2eR?format=jpg&name=large
 
 [//]: <> (Trying to run more than one instance of an ide is hard, especially when)
 [//]: <> (projects are so similar and all start looking the same.)

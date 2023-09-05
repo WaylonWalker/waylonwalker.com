@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: []
 title: cmd.exe tips
 date: 2020-01-23T15:18:45.000+00:00
-status: published
+published: true
 description: cmd.exe tips
 
 ---

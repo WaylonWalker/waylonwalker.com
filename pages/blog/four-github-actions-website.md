@@ -4,7 +4,7 @@ tags:
 - actions
 title: Four github actions for your website
 date: 2020-05-18T13:02:00.000+00:00
-status: published
+published: true
 jinja: false
 
 ---

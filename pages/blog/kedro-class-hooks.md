@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: []
 title: Create Configurable Kedro Hooks
 date: 2020-05-23T05:00:00.000+00:00
-status: published
+published: true
 
 ---
 There are two main ways to create kedro hooks, with modules and classes.  Each

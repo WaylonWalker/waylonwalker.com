@@ -1,10 +1,10 @@
 ---
 templateKey: blog-post
-tags: 
+tags:
   - catalytic
 title: Black Tech Pipeline
 date: 2020-08-03T05:00:00Z
-status: published
+published: true
 
 ---
 

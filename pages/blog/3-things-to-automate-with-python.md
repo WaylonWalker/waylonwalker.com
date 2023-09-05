@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: [python]
 title: Three things to Automate with Python using Pandas
 date: 2020-08-11T05:00:00.000+00:00
-status: published
+published: true
 
 ---
 

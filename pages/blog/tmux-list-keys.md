@@ -3,7 +3,7 @@ Tags: ['cli', 'linux', 'tmux',]
 templateKey: blog-post
 title: tmux list-keys
 date: 2021-08-08T09:03:09
-status: published
+published: true
 
 ---
 

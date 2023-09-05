@@ -2,7 +2,7 @@
 date: 2022-10-24 07:42:48
 templateKey: til
 title: textual app devtools
-status: published
+published: true
 tags:
   - python
 ---

@@ -3,7 +3,7 @@
 date: 2022-09-01 19:12:34
 templateKey: til
 title: GitHub Actions Delete all Workflow Runs
-status: 'published'
+published: true
 tags:
   - bash
 

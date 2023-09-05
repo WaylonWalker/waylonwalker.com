@@ -2,7 +2,7 @@
 date: 2022-10-27 20:13:20
 templateKey: til
 title: nvim navic
-status: 'published'
+published: true
 jinja: false
 tags:
   - vim

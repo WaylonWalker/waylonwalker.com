@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['linux', 'vim', 'neovim']
 title: How linux users install a text editor
 date: 2021-11-30T23:18:24
-status: published
+published: true
 
 ---
 

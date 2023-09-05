@@ -2,7 +2,7 @@
 date: 2022-12-04 20:10:05
 templateKey: til
 title: ssh copy id
-status: 'published'
+published: true
 tags:
   - linux
 

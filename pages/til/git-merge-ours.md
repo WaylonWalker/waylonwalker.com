@@ -2,7 +2,7 @@
 date: 2022-05-24 12:12:09
 templateKey: til
 title: git merge ours
-status: 'draft'
+published: false
 tags:
   - git
 

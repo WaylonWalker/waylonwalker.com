@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['kedro', 'python']
 title: Running your Kedro Pipeline from the command line
 date: 2021-08-24T22:40:45
-status: published
+published: true
 
 ---
 
@@ -25,7 +25,7 @@ To run the whole darn project all we need to do is fire up a terminal, activate
 our environment, and tell kedro to run.
 
 ``` bash
-kedro run 
+kedro run
 ```
 
 ## Specific Pipelines
@@ -74,4 +74,3 @@ kedro run --pipeline dp --to-nodes create_model_input_table_node --to-nodes prep
 * [setting up a kedro environment](https://waylonwalker.com/kedro-environment/)
 * [creating a new kedro project](https://waylonwalker.com/kedro-new/)
 * [kedro run docs](https://kedro.readthedocs.io/en/latest/06_nodes_and_pipelines/04_run_a_pipeline.html)
-

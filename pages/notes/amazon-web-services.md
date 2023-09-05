@@ -1,12 +1,12 @@
 ---
 templateKey: blog-post
-tags: ['cli']
+tags: ["cli"]
 title: Amazon Web Services
 date: 2019-09-22T05:00:00Z
-status: draft
-
+published: false
 ---
-I started using aws in March 2019.  Here are some of my notes.
+
+I started using aws in March 2019. Here are some of my notes.
 
 ## aws-cli
 

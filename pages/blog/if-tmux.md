@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['bash', 'tmux']
 title: If Tmux
 date: 2021-01-09T00:00:00
-status: published
+published: true
 
 ---
 
@@ -34,7 +34,7 @@ in tmux.  This function makes sure tht I start in tmux everytime.
 Using `if_tmux` to ensure vim is opened in tmux.
 
 ``` bash
-vim () { 
+vim () {
   in_tmux \
     && nvim \
     || bash -c "\

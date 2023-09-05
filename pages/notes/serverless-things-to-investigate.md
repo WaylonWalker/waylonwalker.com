@@ -3,21 +3,20 @@ templateKey: blog-post
 tags: []
 title: Serverless things to investigate
 date: 2020-02-10T15:00:00Z
-status: published
-
+published: true
 ---
 
 ## Social Automation
 
 ### Zappier
 
-* Free
-* only one step is free
-* can take rss to social
+- Free
+- only one step is free
+- can take rss to social
 
 ### Automate.io
 
-*
+-
 
 ## Form submission
 

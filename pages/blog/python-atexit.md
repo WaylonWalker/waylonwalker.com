@@ -6,15 +6,13 @@ tags:
   - python
   - python
   - python
-status: draft
-
+published: false
 ---
 
 I'm still trying to understand this one, but this is how you force a
 python object to stop atexit.
 
-
-``` python
+```python
 import atexit
 
 class Server:

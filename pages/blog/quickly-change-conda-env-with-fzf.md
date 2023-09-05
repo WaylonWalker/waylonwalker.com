@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['python']
 title: Quickly Change Conda Env With Fzf
 date: 2021-01-11T00:00:00
-status: published
+published: true
 
 ---
 
@@ -143,5 +143,3 @@ https://waylonwalker.com/reusable-bash/
 > favorite articles
 
 I am always on the lookout for cool new use cases for `fzf`, if you have one please share it with me.
-
-

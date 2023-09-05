@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['python', 'blog', 'data']
 title: Blog Data With Python
 date: 2021-01-18T00:00:00
-status: draft
+published: false
 
 ---
 

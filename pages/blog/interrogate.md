@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['python']
 title: Interrogate is a pretty awesome, brand new, cli for Python packages
 date: 2020-05-15T03:00:00.000+00:00
-status: published
+published: true
 description: dead simple docstring coverage for your python project
 
 ---

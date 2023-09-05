@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['python']
 title: Custom Ipython Prompt
 date: 2020-12-20T00:00:00
-status: published
+published: true
 
 ---
 

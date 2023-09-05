@@ -2,7 +2,7 @@
 date: 2022-09-26 06:15:24
 templateKey: til
 title: django disallowed host
-status: 'published'
+published: true
 tags:
   - python
   - django

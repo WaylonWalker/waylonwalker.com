@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['python']
 title: Designing a "Router" for kedro
 date: 2020-10-08T05:00:00Z
-status: published
+published: true
 
 ---
 

@@ -4,7 +4,7 @@ templateKey: til
 title: python functools total ordering
 tags:
   - python
-status: draft
+published: false
 
 ---
 

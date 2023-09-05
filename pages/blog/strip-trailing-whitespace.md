@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: []
 title: Strip Trailing Whitespace from Git projects
 date: 2020-09-30T05:00:00Z
-status: published
+published: true
 
 ---
 

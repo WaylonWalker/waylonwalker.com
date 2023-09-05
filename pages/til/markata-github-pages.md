@@ -2,7 +2,7 @@
 date: 2022-10-19 18:03:31
 templateKey: til
 title: Markata GitHub Pages
-status: 'draft'
+published: false
 tags:
   - python
 

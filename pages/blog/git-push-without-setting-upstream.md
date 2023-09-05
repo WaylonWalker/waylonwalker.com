@@ -5,7 +5,7 @@ tags:
 - cli
 title: git push without setting upstream
 date: 2020-02-04T12:18:00Z
-status: published
+published: true
 
 ---
 

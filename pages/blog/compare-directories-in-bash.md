@@ -1,11 +1,11 @@
 ---
 templateKey: hot-tip
-tags: 
+tags:
   - bash
   - tip
 title: Compare Directories In Bash
 date: 2020-12-11T00:00:00
-status: draft
+published: false
 
 ---
 

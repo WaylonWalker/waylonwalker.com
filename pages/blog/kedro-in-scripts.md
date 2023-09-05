@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: [python, kedro]
 title: Using Kedro In Scripts
 date: 2021-05-23T11:00:44
-status: published
+published: true
 
 ---
 
@@ -36,7 +36,7 @@ runner at a minimum.  Those who have used kedro before the pipeline will
 look very similar to what you are familiar with, but the catalog will not be
 loaded from yaml and you will need to bring your own runner.
 
-``` python 
+``` python
 from kedro.pipeline import Pipeline, node
 from kedro.io import DataCatalog
 from kedro.runner.sequential_runner import SequentialRunner
@@ -190,7 +190,7 @@ if __name__ == "__main__":
 
 ```
 
-> Keeping it simple 
+> Keeping it simple
 
 If I want to go down the route of having a full cli built out I am probably
 going to use the full kedro template, or something very similar.
@@ -202,4 +202,3 @@ other not kedro application. I will still be using something quite similar to
 their template for my pipelining projects.  It misses some excellent
 things that bring me to kedro like hooks, plugins, credentials, catalog,
 logging config, cli, and viz.
-

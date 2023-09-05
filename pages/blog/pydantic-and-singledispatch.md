@@ -6,7 +6,7 @@ tags:
   - python
   - python
   - python
-status: published
+published: true
 ---
 
 I was reading about

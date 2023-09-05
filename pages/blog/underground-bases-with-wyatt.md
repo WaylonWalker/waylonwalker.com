@@ -4,7 +4,7 @@ templateKey: blog-post
 title: Underground Bases with Wyatt
 tags:
   - minecraft
-status: published
+published: true
 ---
 
 Playing minecraft with Wyatt today he started a server all on his own and had

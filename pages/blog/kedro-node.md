@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ["kedro", "python"]
 title: Comprehensive guide to creating kedro nodes
 date: 2021-06-03T21:30:35
-status: draft
+published: false
 ---
 
 The Kedro node is an essential part of the pipeline. It defines what catalog

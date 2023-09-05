@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ["blog", "python"]
 title: Automating my Post Starter
 date: 2020-12-11 09:08:00
-status: published
+published: true
 ---
 
 One thing we all dread is mundane work of getting started, and all the hoops it
@@ -126,7 +126,7 @@ templateKey: blog-post
 tags: {tags}
 title: {title}
 date: {datetime.date.today().strftime('%Y-%m-%dT%H:%M:%S')}
-status: draft
+published: false
 description: ''
 cover: "/static/{slug}.png"
 
@@ -284,7 +284,7 @@ templateKey: blog-post
 tags: {tags}
 title: {title}
 date: {datetime.date.today().strftime('%Y-%m-%dT%H:%M:%S')}
-status: draft
+published: false
 description: ''
 cover: "/static/{slug}.png"
 

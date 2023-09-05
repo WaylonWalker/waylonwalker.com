@@ -1,11 +1,11 @@
 ---
 templateKey: blog-post
-tags: 
+tags:
   - kedro
   - python
 title: reasons-to-kedro
 date: 2020-11-01T05:00:00.000+00:00
-status: published
+published: true
 
 ---
 
@@ -226,7 +226,7 @@ running and scheduling production a breeze.
 kedro run --node node1
 
 # single nodes and all of their dependencies
-kedro run --to-nodes node1,node2 
+kedro run --to-nodes node1,node2
 
 # from a dataset to all of its dependents
 kedro run --from-inputs dataset1,dataset2

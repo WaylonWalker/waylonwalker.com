@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['linux', 'bash']
 title: Create a Virtual File Gallery with Symlinks
 date: 2021-05-05T08:23:33
-status: published
+published: true
 
 ---
 
@@ -26,7 +26,7 @@ ln -sf ~/git/* ~/projects
 > ⚠ Notice that first I am recreating the directory each time. This will ensure
 > that any project that is deleted from their actual directory is removed from
 > the virtual gallery.
- 
+
 ## Updating the gallery
 
 Since links are always kept up to date without any extra work, all the data is
@@ -54,4 +54,3 @@ set -o physical
 
 > Add either of these to your `.bashrc`/`.zshrc` to follow symlinks to the
 > actual directory.
-

@@ -1,9 +1,9 @@
 ---
 templateKey: blog-post
-tags: ['webdev', 'blog'] 
+tags: ['webdev', 'blog']
 title: Personal URL shortener with Netlify Redirects
 date: 2020-01-29T06:00:00.000+00:00
-status: published
+published: true
 description: Personal URL shortener with Netlify Redirects
 
 ---

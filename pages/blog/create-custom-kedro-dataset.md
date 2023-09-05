@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['kedro', 'python', 'data']
 title: Create Custom Kedro Dataset
 date: 2020-05-15T05:00:00Z
-status: published
+published: true
 
 ---
 

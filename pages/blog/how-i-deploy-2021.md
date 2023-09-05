@@ -4,7 +4,7 @@ tags: ['blog', ]
 title: How I deploy my blog in 2022 | https://waylonwalker.com/how-i-deploy-2022
 title: https://waylonwalker.com/how-i-deploy-2022
 date: 2021-10-29
-status: draft
+published: false
 author: '@_waylonwalker'
 jinja: false
 styles:
@@ -319,7 +319,7 @@ templateKey: blog-post
 tags: ['webdev', 'meta' ]
 title: How I deploy my blog in 2022
 date: 2021-10-29
-status: draft
+published: false
 
 ---
 ```

@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: [webdev]
 title: Expand One Line Links
 date: 2020-11-18T05:00:00.000+00:00
-status: published
+published: true
 
 ---
 
@@ -209,7 +209,7 @@ CSS is not my strong suit, but I can generally hammer something into a shape tha
     z-index: 2;
     background: #262236;
   }
-  
+
   img {
     max-width: 300px;
     max-height: 126px;
@@ -236,7 +236,7 @@ On desktop, it renders horizontally.
 
 ## Expansion
 
-I'm sure that all of this can be better, my js skills are still forming.  It's quite humbling to see how hard it is to think in an unfamiliar language.  The following `oneLineLineCard` renders a string template literal from a paragraph with a single anchor to a card that contains some of that pages meta information.  The 
+I'm sure that all of this can be better, my js skills are still forming.  It's quite humbling to see how hard it is to think in an unfamiliar language.  The following `oneLineLineCard` renders a string template literal from a paragraph with a single anchor to a card that contains some of that pages meta information.  The
  getDescription` function uses a fetch to get the metadata right from the content of the page.
 
 ``` javascript

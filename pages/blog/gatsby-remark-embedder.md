@@ -3,8 +3,8 @@ templateKey: blog-post
 tags: ['webdev']
 title: gatsby-remark-embedder
 date: 2020-11-18T05:00:00.000+00:00
-status: published
-description: Inspired by discourse's link expansion I am rolling out 
+published: true
+description: Inspired by discourse's link expansion I am rolling out
   expansions for one line links on the blog
 
 ---
@@ -71,4 +71,3 @@ module.exports = {
 ```
 
 Thats it, now I can embed tweets and YouTube videos by just leaving the link on a single line.
-

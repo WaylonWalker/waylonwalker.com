@@ -1,10 +1,10 @@
 ---
 templateKey: blog-post
-tags: 
+tags:
   - kedro
 title: Kedro-Broken-Urls
 date: 2021-10-20T00:00:00
-status: draft
+published: false
 
 ---
 
@@ -80,4 +80,3 @@ status: draft
 - [ ] https://kedro.readthedocs.io/en/stable/11_faq/01_faq.html#how-can-i-use-a-development-version-of-kedro
 - [ ] https://github.com/intake/filesystem_spec.
 - [ ] https://uktcawards.com/announcing-the-award-winners-for-2020/
-

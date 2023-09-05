@@ -2,7 +2,7 @@
 date: 2022-10-11 14:34:35
 templateKey: til
 title: Markata Supports Jinja Plugins 0.5.0.dev2
-status: 'published'
+published: true
 jinja: false
 tags:
   - python

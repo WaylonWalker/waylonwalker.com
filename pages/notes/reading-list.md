@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: []
 title: Reading List
 date: 2020-10-28T05:00:00Z
-status: published
+published: true
 description: Things to read later
 
 ---

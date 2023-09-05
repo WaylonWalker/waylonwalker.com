@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['python']
 title: Just Ask Ipython for help
 date: 2021-10-10T21:38:26
-status: published
+published: true
 
 ---
 

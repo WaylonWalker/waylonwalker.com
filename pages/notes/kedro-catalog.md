@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: []
 title: Kedro Catalog
 date: 2020-07-24T05:00:00Z
-status: published
+published: true
 description: I am exploring a kedro catalog meta data hook
 cover: ''
 

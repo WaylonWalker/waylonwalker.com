@@ -2,7 +2,7 @@
 date: 2022-08-22 13:17:32
 templateKey: til
 title: vimgrep open buffers
-status: published
+published: true
 tags:
   - vim
 

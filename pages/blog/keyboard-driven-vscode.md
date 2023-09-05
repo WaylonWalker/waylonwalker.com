@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Keyboard Driven VSCode
 date: 2019-07-07T05:00:00.000+00:00
-status: published
+published: true
 description: Reimagining my tmux configuration inside of vscode.
 tags:
 - vscode

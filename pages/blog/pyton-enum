@@ -4,7 +4,7 @@ templateKey: blog-post
 title: python enum
 tags:
   - python
-status: draft
+published: false
 
 ---
 

@@ -2,7 +2,7 @@
 date: 2023-06-17 20:19:59
 templateKey: til
 title: Python scandir ignores hidden directories
-status: "published"
+published: true
 tags:
   - python
 ---

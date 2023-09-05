@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: []
 title: My first eight years as a working professional.
 date: 2020-06-19T05:00:00Z
-status: published
+published: true
 
 ---
 

@@ -4,7 +4,7 @@ tags:
 - single-page
 title: Awesome People
 date: 2021-06-05T10:57:59
-status: draft
+published: false
 
 ---
 

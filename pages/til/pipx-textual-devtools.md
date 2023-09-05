@@ -2,7 +2,7 @@
 date: 2022-10-24 08:16:33
 templateKey: til
 title: pipx textual devtools
-status: 'published'
+published: true
 tags:
   - python
 

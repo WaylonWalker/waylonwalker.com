@@ -2,7 +2,7 @@
 date: 2022-11-22 16:16:38
 templateKey: til
 title: ssh key permissions
-status: 'published'
+published: true
 tags:
   - linux
 

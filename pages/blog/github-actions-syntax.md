@@ -4,7 +4,7 @@ tags:
 - actions
 title: Getting Started with GitHub Actions
 date: 2020-03-16T05:00:00.000+00:00
-status: published
+published: true
 jinja: false
 
 ---

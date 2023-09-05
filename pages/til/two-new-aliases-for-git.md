@@ -2,7 +2,7 @@
 date: 2022-06-28 12:31:10
 templateKey: til
 title: Two new shell aliases for git
-status: 'published'
+published: true
 tags:
   - git
 

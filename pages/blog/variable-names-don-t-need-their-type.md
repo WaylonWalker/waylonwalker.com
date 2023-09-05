@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['python', 'dicuss']
 title: Variables names don't need their type
 date: 2020-04-08T11:03:00Z
-status: published
+published: true
 
 ---
 So often I see a variables `type()` inside of its name and it hurts me a little

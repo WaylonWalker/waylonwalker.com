@@ -2,7 +2,7 @@
 date: 2022-08-30 08:40:22
 templateKey: til
 title: I spoke at Python Web Conf 2022
-status: published
+published: true
 tags:
   - python
 

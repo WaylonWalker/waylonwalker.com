@@ -2,20 +2,19 @@
 date: 2022-12-07 13:09:37
 templateKey: til
 title: dash e your github docker actions
-status: 'published'
+published: true
 tags:
   - bash
   - github
   - actions
   - ci-cd
-
 ---
 
 Give github actions the -e flag in the shebang `#!` so they fail on any one
-command failure.  Otherwise each line will set the exit status, but only the
+command failure. Otherwise each line will set the exit status, but only the
 last one will be passed to ci.
 
-``` bash
+```bash
 #!/bin/bash -e
 ```
 
@@ -32,12 +31,12 @@ troubleshoot your script and ensure that it runs correctly.
 
 ## Solution for Windows
 
-In windows the solution is not quite as simple.  You can define a function in a
+In windows the solution is not quite as simple. You can define a function in a
 Windows batch script that wraps an if statement to check the exit status of a
 command and handle any errors that may have occurred. Here is an example of how
 you might define a function called "check_error" that does this:
 
-``` cmd
+```cmd
 :check_error
 if errorlevel 1 (
   echo An error occurred!
@@ -48,7 +47,7 @@ if errorlevel 1 (
 To use this function in your script, you would simply call it after running a
 command, like this:
 
-``` cmd
+```cmd
 some_command
 call :check_error
 ```

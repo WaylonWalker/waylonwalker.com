@@ -1,12 +1,12 @@
 ---
 title: Career Day Wapello 2021
 date: 2021-03-25T22:16:15
+templateKey: "slide"
 ---
 
 ## Waylon Walker
 
 _Senor Data Scientist_
-
 
 <style>
 h3 {
@@ -28,31 +28,28 @@ color: goldenrod;
 }
 </style>
 
-
 ---
 
 ### Waylon Walker
 
-* Iowa State University
-* Musco Sports Lighting
-* Caterpillar
+- Iowa State University
+- Musco Sports Lighting
+- Caterpillar
 
 ---
 
 ### Values
 
-* Continuous Learning
-* Respect
-* Networking
+- Continuous Learning
+- Respect
+- Networking
 
 ## Continuous Learning
 
 _Learning doesn't stop here_
-
 
 ## Respect
 
 _Don't be an ass_
 
 ## Networking
-

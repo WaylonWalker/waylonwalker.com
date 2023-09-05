@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['git', ]
 title: Git in Depth Notes
 date: 2021-07-31T08:44:44
-status: published
+published: true
 
 ---
 
@@ -19,5 +19,3 @@ These are my notes from taking @nnja's FEM course [git-in-depth](https://fronten
 ``` bash
 echo "hello" | git hash-object --stdin
 ```
-
-

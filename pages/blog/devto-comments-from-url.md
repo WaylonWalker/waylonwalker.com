@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['blog', 'javascript']
 title: How to get Dev Comments from an article Url
 date: 2020-05-20T10:00:00Z
-status: published
+published: true
 
 ---
 

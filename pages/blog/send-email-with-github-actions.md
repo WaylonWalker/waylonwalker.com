@@ -4,7 +4,7 @@ tags:
 - actions
 title: Send Emails with GitHub Actions
 date: 2020-03-31T03:39:00Z
-status: published
+published: true
 jinja: false
 
 ---

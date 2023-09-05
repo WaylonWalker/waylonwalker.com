@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['cli', 'linux', ]
 title: notify-send
 date: 2021-08-01T10:33:17
-status: draft
+published: false
 
 ---
 

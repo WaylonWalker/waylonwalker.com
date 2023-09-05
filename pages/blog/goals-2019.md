@@ -2,7 +2,7 @@
 templateKey: 'blog-post'
 title: 2019 goals
 date: 2019-01-12
-status: published
+published: true
 description: 2019 goals
 
 ---

@@ -4,7 +4,7 @@ tags: ["python"]
 title: Playing Star Wars Text Adventure with a 10 yr old
 date: 2023-05-15T12:08:00Z
 published: True
-status: published
+published: true
 ---
 
 <style>

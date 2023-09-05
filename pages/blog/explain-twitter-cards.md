@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['blog', 'twitter']
 title: 🙋‍♂️ Can Anyone Explain Twitter Cards to me?
 date: 2020-07-11T03:00:00Z
-status: published
+published: true
 
 ---
 

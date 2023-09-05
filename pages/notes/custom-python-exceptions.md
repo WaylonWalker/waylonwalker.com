@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: []
 title: Custom Python Exceptions
 date: 2019-09-25T05:00:00.000+00:00
-status: published
+published: true
 description: Custom Python Exceptions
 
 ---

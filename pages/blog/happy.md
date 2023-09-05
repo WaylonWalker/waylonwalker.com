@@ -2,7 +2,7 @@
 templateKey: 'blog-post'
 title: Do More of What Brings You Joy
 date: 2019-01-01
-status: published
+published: true
 description: happiness in the workplace
 
 ---

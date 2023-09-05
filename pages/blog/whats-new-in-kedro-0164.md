@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['python', 'kedro',]
 title: What's New in Kedro 0.16.4
 date: 2020-08-01T05:00:00Z
-status: published
+published: true
 
 ---
 

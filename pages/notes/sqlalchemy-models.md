@@ -1,11 +1,10 @@
 ---
 templateKey: blog-post
-tags: ['python']
+tags: ["python"]
 title: SqlAlchemy Models
 date: 2019-12-21T05:00:00Z
-status: published
+published: true
 description: My Notes about using sqlalchemy models
-
 ---
 
 ## Make a connection
@@ -16,10 +15,9 @@ def get_engine():
     return create_engine("sqlite:///mode_examples.sqlite")
 ```
 
-
 ## Make a session
 
-``` python
+```python
 from sqlalchemy.orm import sessionmaker
 def get_session():
     con = get_engine()
@@ -32,7 +30,7 @@ def get_session():
 
 ## Make a Base Class
 
-``` python
+```python
 from sqlalchemy.ext.declarative import declarative_base
 Base = declarative_base()
 Base.metadata.bind = get_engine()
@@ -40,7 +38,7 @@ Base.metadata.bind = get_engine()
 
 ## Make your First Model
 
-``` python
+```python
 class User(Base):
     __tablename__ = "users"
     username = Column('username', Text())
@@ -50,7 +48,7 @@ class User(Base):
 
 ## Make your own Base Class to inherit From
 
-``` python
+```python
 class MyBaseHelper:
     def to_dict(self):
         return {k: v for k, v in self.__dict__.items() if k[0] != "_"}
@@ -63,7 +61,7 @@ class MyBaseHelper:
 
 ## Use the Custom Base Class
 
-``` python
+```python
 class User(Base, MyBaseHelper):
     __tablename__ = "users"
     username = Column('username', Text())

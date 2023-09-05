@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['python']
 title: Minimal Python Package
 date: 2021-01-10T00:00:00
-status: published
+published: true
 
 ---
 
@@ -43,7 +43,7 @@ setup(
 
 ## name
 
-The name of the package can contain any letters, numbers, "_", or "-".  Even if it's for internal/personal consumption only I usually check for discrepancy with pypi so that you don't run into conflicts. 
+The name of the package can contain any letters, numbers, "_", or "-".  Even if it's for internal/personal consumption only I usually check for discrepancy with pypi so that you don't run into conflicts.
 
 > Note that pypi treats "-" and "_" as the same thing, beware of name clashes
 

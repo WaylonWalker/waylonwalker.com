@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: []
 title: Kedro Basics
 date: 2020-08-08T05:00:00Z
-status: published
+published: true
 description: In my upcoming free kedro course, you can learn how to start building
   pipelines in 5 days.
 cover: ''

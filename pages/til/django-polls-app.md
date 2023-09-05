@@ -2,7 +2,7 @@
 date: 2022-09-26 09:17:52
 templateKey: til
 title: django polls app
-status: 'draft'
+published: false
 tags:
   - python
   - django

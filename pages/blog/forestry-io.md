@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Forestry.io
 date: 2019-04-23T08:02:00.000+00:00
-status: published
+published: true
 description: Creating Posts from forestry.io.
 tags:
 - webdev

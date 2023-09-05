@@ -1,10 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: It's not all about winning
-tags: 
+tags:
 - catalytic
 date: 2019-02-02
-status: published
+published: true
 description: This is my story into data science.
 
 ---

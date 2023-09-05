@@ -2,7 +2,7 @@
 date: 2022-07-16 08:43:17
 templateKey: til
 title: Manage your displays with xrandr manager
-status: "draft"
+published: false
 tags:
   - python
   - linux

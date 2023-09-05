@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['git']
 title: Gitui is a blazing fast terminal git interface
 date: 2021-01-17T00:00:00
-status: published
+published: true
 
 ---
 

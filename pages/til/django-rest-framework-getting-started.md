@@ -2,16 +2,15 @@
 date: 2022-10-09 15:57:37
 templateKey: til
 title: Getting Started with Django REST framework
-status: 'published'
+published: true
 tags:
   - python
   - django
   - webdev
-
 ---
 
 In my adventure to learn django, I want to be able to setup REST api's to feed
-into dynamic front end sites.  Potentially sites running react under the hood.
+into dynamic front end sites. Potentially sites running react under the hood.
 
 ![cell shaded full body shot of a cybernetic blue soldier with glowing eyes working ina lab, llustration, post grunge, pink glowing volumetric lighting, engulfed in smoke and fog, concept art by josan gonzales and wlop, by james jean, Victo ngai, David Rubín, Mike Mignola, Laurie Greasley, highly detailed, sharp focus,alien,Trending on Artstation, HQ, deviantart, art by artgem" -s50 -W832 -H416 -C18.0 -Ak_lms -S4270306418](https://stable-diffusion.waylonwalker.com/000327.4270306418.webp)
 
@@ -19,7 +18,7 @@ into dynamic front end sites.  Potentially sites running react under the hood.
 
 To get started lets open up a `todo` app that I created with `django-admin startproject todo`.
 
-``` bash
+```bash
 pip install djangorestframework
 ```
 
@@ -27,7 +26,7 @@ pip install djangorestframework
 
 Now we need to declare `rest_framwork` as an `INSTALLED_APP`.
 
-``` bash
+```bash
 INSTALLED_APPS = [
     ...
     "rest_framework",
@@ -39,7 +38,7 @@ INSTALLED_APPS = [
 
 Next I will create all the files that I need to get the api running.
 
-``` bash
+```bash
 mkdir api
 touch api/__init__.py api/serializers.py api/urls.py api/views.py
 ```
@@ -55,7 +54,7 @@ will suffice as it is not the focus of what I am learning for now.
 > automatically pluralize it in places like the admin panel, and you would end
 > up with Itemss.
 
-``` python
+```python
 from django.db import models
 
 # Create your models here.
@@ -68,10 +67,10 @@ class Item(models.Model):
         return f"{self.priority} {self.name}"
 ```
 
-Next I will make some dummy data to be able to return.  I popped open `ipython`
+Next I will make some dummy data to be able to return. I popped open `ipython`
 and made a few records.
 
-``` python
+```python
 from base.models import Item
 
 Item.objects.create(name='first')
@@ -82,11 +81,10 @@ Item.objects.create(name='third')
 ## api/serializers.py
 
 Next we need to set up a serializer to seriaze and de-serialize data between
-our model and json.  You can specify each field individually or all of them by
+our model and json. You can specify each field individually or all of them by
 passing in `__all__`.
 
-
-``` python
+```python
 from rest_framework import serializers
 
 from base.models import Item
@@ -102,13 +100,13 @@ class ItemSerializer(serializers.ModelSerializer):
 
 !["cell shaded full body shot of a shiny golden cybernetic soldier with glowing eyes looking through binoculars, llustration, post grunge, pink glowing volumetric lighting, engulfed in smoke and fog, concept art by josan gonzales and wlop, by james jean, Victo ngai, David Rubín, Mike Mignola, Laurie Greasley, highly detailed, sharp focus,alien,Trending on Artstation, HQ, deviantart, art by artgem" -s50 -W832 -H416 -C18.0 -Ak_lms -S2111691103 cell shaded full body shot of a shiny golden cybernetic soldier with glowing eyes looking through binoculars, llustration, post grunge, pink glowing volumetric lighting, engulfed in smoke and fog, concept art by josan gonzales and wlop, by james jean, Victo ngai, David Rubín, Mike Mignola, Laurie Greasley, highly detailed, sharp focus,alien,Trending on Artstation, HQ, deviantart, art by artgem command ](https://stable-diffusion.waylonwalker.com/000340.2111691103.webp)
 
-Now we need a view leveraging the `djangorestframework`.  The serializer we
+Now we need a view leveraging the `djangorestframework`. The serializer we
 just created will be used to serialize all of the rows into a list of objects
 that Response can handle.
 
 > Note: to return a collection of model objects we need to set many to `True`
 
-``` python
+```python
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 
@@ -138,7 +136,7 @@ def add_item(request):
 
 Now we need to setup routing to access the views through an url.
 
-``` python
+```python
 from django.urls import path
 
 from . import views
@@ -153,7 +151,7 @@ urlpatterns = [
 
 Then we need to include these urls from our api in the urls specified by `settings.ROOT_URLCONf`
 
-``` python
+```python
 from django.urls import path
 
 urlpatterns = [
@@ -164,7 +162,7 @@ urlpatterns = [
 
 ## Run it
 
-``` python
+```python
 python manage.py runserver
 ```
 

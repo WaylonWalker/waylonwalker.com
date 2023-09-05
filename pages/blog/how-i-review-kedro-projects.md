@@ -2,8 +2,8 @@
 templateKey: blog-post
 tags: ['python']
 title: How I Review Pipeline Code
-date: 2021-03-21T00:00:00 
-status: draft
+date: 2021-03-21T00:00:00
+published: false
 
 ---
 
@@ -24,7 +24,7 @@ https://waylonwalker.com/what-is-kedro
 * Docsttrings generally make sense
 
 
-Phase1 is typically a quick scan over the PR right within the PR window in my browser.  
+Phase1 is typically a quick scan over the PR right within the PR window in my browser.
 
 ### Passing CI
 

@@ -2,7 +2,7 @@
 date: 2022-09-26 07:14:04
 templateKey: til
 title: django create superuser
-status: 'published'
+published: true
 tags:
   - python
   - django

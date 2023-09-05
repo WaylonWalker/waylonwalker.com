@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: []
 title: "\U0001F4E2 Announcing find-kedro"
 date: 2020-05-04T11:53:00Z
-status: published
+published: true
 description: kedro is an amazing project that allows for super-fast prototyping of
   data pipelines, yet yielding production-ready pipelines. find-kedro enhances this
   experience by adding a pytest-like node discovery eliminating the need to bubble

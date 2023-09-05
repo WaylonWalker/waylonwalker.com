@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['webdev']
 title: 2020 waylonwalker.com rebrand
 date: 2020-02-17T13:02:00Z
-status: published
+published: true
 description: I documented the story of my 2020 waylonwalker.com redesign on my blog.  This
   post walks through the tools and inspiration for the card design.
 

@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: []
 title: Today I learned `git diff feature..main`
 date: 2020-03-03T11:58:00.000+00:00
-status: published
+published: true
 description: Sometimes we get a little `git add . && git commit -m "WIP"` happy and
   mistakenly commit something that we just cant figure out.  This is a good way to
   figure out what the heck has changed on the current branch compared to any other

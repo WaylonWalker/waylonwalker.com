@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['webdev']
 title: Custom Scrollbar Design
 date: 2020-02-21T12:11:00Z
-status: published
+published: true
 
 ---
 

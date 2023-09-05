@@ -1,14 +1,14 @@
 ---
 templateKey: blog-post
 tags:
-- python
+  - python
 title: Just Use Pathlib
 date: 2019-09-26T05:00:00.000+00:00
-status: published
+published: true
 description: Pathlib is an amazing cross-platform path tool.
-cover: ''
-
+cover: ""
 ---
+
 Pathlib is an amazing cross-platform path tool.
 
 ## Import

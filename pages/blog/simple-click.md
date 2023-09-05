@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['python', 'cli']
 title: simple click
 date: 2020-01-29T06:00:00.000+00:00
-status: published
+published: true
 description: Add helpful cli to your python libraries... All of them!
 
 ---

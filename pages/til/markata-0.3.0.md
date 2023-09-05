@@ -2,7 +2,7 @@
 date: 2022-08-21 13:53:20
 templateKey: til
 title: markata 0.3.0 is 15-20% faster
-status: 'published'
+published: true
 tags:
   - python
 

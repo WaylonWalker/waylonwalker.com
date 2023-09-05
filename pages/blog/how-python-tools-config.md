@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['python', ]
 title: How python tools configure
 date: 2020-07-21T05:00:00Z
-status: published
+published: true
 
 ---
 

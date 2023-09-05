@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['kedro', 'python', 'stream']
 title: Kedro Spaceflights - part 2 | Stream replay June 7, 2021
 date: 2021-06-07T16:15:04
-status: published
+published: true
 
 ---
 
@@ -27,4 +27,3 @@ source .venv/bin/activate
 pip install kedro
 kedro install
 ```
-

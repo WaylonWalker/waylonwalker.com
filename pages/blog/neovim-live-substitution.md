@@ -1,11 +1,11 @@
 ---
 templateKey: blog-post
-tags: 
+tags:
   - linux
   - vim
 title: Live Substitution In Neovim
 date: 2021-01-04T00:00:00
-status: published
+published: true
 cover: "/static/neovim-live-substitution.png"
 
 ---
@@ -29,7 +29,7 @@ I had to do a bit of searching and found a great post from [vimcasts](http://vim
 ``` vim
 'inccommand' 'icm'	string	(default "")
 			global
-			
+
 	"nosplit": Shows the effects of a command incrementally, as you type.
 	"split"	 : Also shows partial off-screen results in a preview window.
 

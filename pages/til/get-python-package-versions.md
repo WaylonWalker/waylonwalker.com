@@ -2,7 +2,7 @@
 date: 2022-07-29 15:48:36
 templateKey: til
 title: get the version of any python package | python api
-status: 'published'
+published: true
 tags:
   - python
 

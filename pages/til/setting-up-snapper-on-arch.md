@@ -2,7 +2,7 @@
 date: 2022-09-05 11:00:46
 templateKey: blog-post
 title: Setting up snapper on Arch
-status: 'draft'
+published: false
 tags:
   - linux
 

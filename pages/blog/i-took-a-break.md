@@ -4,7 +4,7 @@ templateKey: blog-post
 title: I took a break
 tags:
   - personal
-status: published
+published: true
 ---
 
 Life comes in waves, and sometimes you need to set down some of your projects to

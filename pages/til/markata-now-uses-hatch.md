@@ -2,7 +2,7 @@
 date: 2022-10-08 07:25:10
 templateKey: til
 title: Markata now uses hatch
-status: 'published'
+published: true
 jinja: false
 tags:
   - python

@@ -2,7 +2,7 @@
 templateKey: 'blog-post'
 title: Vim Notes
 date: 2018-02-01
-status: draft
+published: false
 
 ---
 

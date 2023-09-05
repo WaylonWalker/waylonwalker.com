@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['keeb', ]
 title: My experience with a new 3dkeeb corne
 date: 2021-06-21T14:27:19
-status: draft
+published: false
 
 ---
 
@@ -51,7 +51,7 @@ qmk setup
 ```
 
 ``` bash
-qmk setup 
+qmk setup
 ImportError: Unable to load any of the following libraries:libhidapi-hidraw.so libhidapi-hidraw.so.0 libhidapi-libusb.so libhidapi-libusb.so.0 libhidapi-iohidmanager.so libhidapi-iohidmanager.so.0 libhidapi.dylib hidapi.dll libhidapi-0.dll
 
 pip install hidapi

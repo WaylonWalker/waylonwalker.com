@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['bash', 'linux']
 title: Supercharge Zsh Startup
 date: 2020-01-03T06:00:00.000+00:00
-status: published
+published: true
 
 ---
 

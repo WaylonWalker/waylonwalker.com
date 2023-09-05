@@ -1,20 +1,18 @@
 ---
 templateKey: blog-post
-tags: [ 'python']
+tags: ["python"]
 title: Pytest capsys
 date: 2021-04-05T08:46:08
-status: published
-
+published: true
 ---
 
 Testing print/log statements in pytest can be a bit tricky, capsys makes it
 super easy, but I often struggle to find it.
 
-
 ## capsys
 
 capsys is a builtin pytest fixture that can be passed into any test to capture
-stdin/stdout.  For a more comprehensive description check out the docs on
+stdin/stdout. For a more comprehensive description check out the docs on
 [capsys](https://docs.pytest.org/en/stable/capture.html#accessing-captured-output-from-a-test-function)
 
 ## using capsys

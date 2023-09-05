@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Autoreload in Ipython
 date: 2019-09-08T05:00:00.000+00:00
-status: published
+published: true
 description: Autoreload in python
 tags:
 - python

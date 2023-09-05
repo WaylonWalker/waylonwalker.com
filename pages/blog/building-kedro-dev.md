@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: []
 title: Building kedro.dev
 date: 2020-06-05T05:00:00Z
-status: published
+published: true
 description: This is my journey to building up the community page.
 cover: ''
 

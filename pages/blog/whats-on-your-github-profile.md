@@ -1,10 +1,10 @@
 ---
 templateKey: blog-post
-tags: 
+tags:
   - discuss
 title: 🤓 What's on your GitHub Profile
 date: 2020-07-11T03:00:00Z
-status: published
+published: true
 
 ---
 

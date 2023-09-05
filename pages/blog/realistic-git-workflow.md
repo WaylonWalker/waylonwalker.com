@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Realistic Git Workflow
 date: 2019-05-27
-status: published
+published: true
 tags:
 - git
 

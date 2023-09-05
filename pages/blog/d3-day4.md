@@ -7,7 +7,7 @@ tags:
     - webdev
 summary: Today we are adding scale to day 3's example horizontal bar chart.
 description: Today we are adding scale to day 3's example horizontal bar chart.
-status: 'published'
+published: true
 cover: "./d3-cropped.png"
 ---
 <!--

@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: [python]
 title: Windowing Python Lists
 date: 2020-12-10T10:44:19
-status: published
+published: true
 
 ---
 
@@ -17,7 +17,7 @@ I am working on a  one-line-link expander for my blog.  I ended up doing it, jus
 ## simplified rendering function
 
 I have a function that will check to see if the line should be expanded, then render the correct template.  Fist step is to check if the line contains no spaces and starts with `https`, if it
-does render the template. 
+does render the template.
 
 The real expand_line function uses requests to pull some metadata about the post to insert into the card, more on that in another post.
 

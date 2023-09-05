@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['webdev']
 title: I just added react-headroom to my site
 date: 2020-02-11T12:57:00.000+00:00
-status: published
+published: true
 
 ---
 

@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['bash', 'cli', 'linux']
 title: Newsboat
 date: 2021-01-02T00:00:00
-status: published
+published: true
 
 ---
 

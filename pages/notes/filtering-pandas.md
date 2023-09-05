@@ -5,7 +5,7 @@ tags:
 - data
 title: Filtering Pandas
 date: 2019-09-24T05:00:00Z
-status: published
+published: true
 description: Filtering pandas DataFrames many different ways.
 
 ---

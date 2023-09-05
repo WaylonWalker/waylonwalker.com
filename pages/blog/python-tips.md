@@ -2,7 +2,7 @@
 templateKey: 'blog-post'
 title: Python Tips
 date: 2019-01-21
-status: draft
+published: false
 description:
 
 ---

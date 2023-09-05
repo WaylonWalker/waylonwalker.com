@@ -3,11 +3,11 @@ templateKey: blog-post
 tags: ['kedro', 'python']
 title: Custom Kedro Logger
 date: 2021-05-02T09:45:22
-status: draft
+published: false
 
 ---
 
-DRAFT - 
+DRAFT -
 
 
 
@@ -33,4 +33,3 @@ root:
     level: INFO
     handlers: [console, info_file_handler, error_file_handler]
 ```
-

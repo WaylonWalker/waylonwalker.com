@@ -3,7 +3,7 @@ templateKey: blog-post
 tags: ['bash', 'python']
 title: How to Install miniconda on linux (from the command line only)
 date: 2020-08-10T05:00:00Z
-status: published
+published: true
 description: Installing miniconda from only the command line can be a bit of
     an intimidating task your first time. Lets walk through how to do it.
 

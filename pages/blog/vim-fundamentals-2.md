@@ -1,15 +1,13 @@
 ---
 templateKey: blog-post
-tags: ['vim', ]
+tags: ["vim"]
 title: Notes for second vim-fundamentals course meetup
 date: 2021-08-27T22:40:45
-status: draft
-
+published: false
 ---
 
 newline
 another
-
 
 Mahesh Subrajmanium Venkatachalam - Plugins | Installing a Theme
 Hunter Phillips - Quickfix | Offline Ordering with getqflist
@@ -21,19 +19,19 @@ Zev Averbach - Harpoon | Wrap up
 
 ## Plugin-manager
 
-* get a plugin manager
-* unless you are going full lua, most people use vim-plug by the great junegunn
+- get a plugin manager
+- unless you are going full lua, most people use vim-plug by the great junegunn
 
-https://github.com/junegunn/vim-plug
+<https://github.com/junegunn/vim-plug>
 
 ## Install pluggged
 
-``` bash
+```bash
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim     
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
-``` vim
+```vim
 call plug#begin('~/.vim/plugged')
 
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -44,7 +42,7 @@ call plug#end()
 
 ## Install Plugins
 
-``` vim
+```vim
 :PlugInstall
 :PlugClean
 :PlugUpdate
@@ -54,13 +52,13 @@ call plug#end()
 
 install using plug
 
-``` vim
+```vim
 Plug 'ayu-theme/ayu-vim'
 ```
 
 set the theme
 
-``` vim
+```vim
 set termguicolors
 let ayucolor="dark"
 colorscheme ayu
@@ -70,22 +68,21 @@ colorscheme ayu
 
 sending things to the quickfix list
 
-``` vim
+```vim
 :grep SOCKET_OPEN **/*.(c\|h)
 ```
 
 quickfix commands
 
-``` vim
+```vim
 :copen
 :cnext
 :cdo s/vim/nvim/g
 ```
 
-
 ## Some remaps to consider
 
-``` vim
+```vim
 nnoremap <C-k> :cnext<CR>
 nnoremap <C-j> :cprev<CR>
 nnoremap <C-E> :copen<CR>
@@ -97,14 +94,14 @@ nnoremap <C-E> :copen<CR>
 
 Walk through example.
 
-```  bash
+```bash
 curl https://raw.githubusercontent.com/ThePrimeagen/vim-fundamentals/master/course-website/lessons/exercise-3-search-and-replace.md > exercise.md && vim exercise.md
 ```
 
 ## Macros
 
-* Macro Pressure
+- Macro Pressure
 
-``` bash
+```bash
 curl https://raw.githubusercontent.com/ThePrimeagen/vim-fundamentals/master/course-website/lessons/exercise-4-macros.md > exercise.md && vim exercise.md
 ```

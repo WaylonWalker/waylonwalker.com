@@ -1,18 +1,14 @@
 ---
-templateKey: 'blog-post'
+templateKey: "blog-post"
 title: My favorite pandas pattern
 date: 2018-03-01
-status: Draft
+published: false
 description: none
-
 ---
 
 # My favorite pandas pattern
 
-
-I work with a lot of transactional timeseries data that includes categories.  I often want to create timeseries plots with each category as its own line.  This is the method that I use almost data to achieve this result.  Typically the data that am working with changes very slowly and trends happen over years not days or weeks.  Plotting daily/weekly data tends to be noisy and hides the trend.  I use this pattern because it works well with my data and is easy to explain to my stakeholders.
-
-
+I work with a lot of transactional timeseries data that includes categories. I often want to create timeseries plots with each category as its own line. This is the method that I use almost data to achieve this result. Typically the data that am working with changes very slowly and trends happen over years not days or weeks. Plotting daily/weekly data tends to be noisy and hides the trend. I use this pattern because it works well with my data and is easy to explain to my stakeholders.
 
 ```python
 import pandas as pd
@@ -22,9 +18,7 @@ import numpy as np
 
 ## Lets Fake some data
 
-
-Here I am trying to simulate a subset of a large transactional data set. This could be something like sales data, production data, hourly billing, anything that has a date, category, and value.  Since we generated this data we know that it is clean.  I am still going to assume that it contains some nulls, and an irregular date range.
-
+Here I am trying to simulate a subset of a large transactional data set. This could be something like sales data, production data, hourly billing, anything that has a date, category, and value. Since we generated this data we know that it is clean. I am still going to assume that it contains some nulls, and an irregular date range.
 
 ```python
 n = 365*5
@@ -42,9 +36,6 @@ data = (pd.DataFrame(np.random.randint(0, 10, size=(n, 4)),
 data.head()
 ```
 
-
-
-
 <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -58,6 +49,7 @@ data.head()
     .dataframe thead th {
         text-align: right;
     }
+
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -103,12 +95,9 @@ data.head()
 </table>
 </div>
 
-
-
 ## The pattern
 
-Here I am going to take my groupby date and item, this will take care of duplicate entries with the same time stamp.  Select the value I want to sum on. unstack the items index into columns.  Resample the data by month.  I could easily use any of the [available rules](https://pandas.pydata.org/pandas-docs/stable/timeseries.html#offset-aliases). Fill any missing months with 0, since there wasnt a transaction during that month. Apply a rolling window to get the annual sum.  I find that this helps to ground values in values that my stakeholders are used to seeing on a regular basis and reduces the need for them to recalculate in their head.  Then I am going to drop the nulls created by the rolling window for the first 11 rows.
-
+Here I am going to take my groupby date and item, this will take care of duplicate entries with the same time stamp. Select the value I want to sum on. unstack the items index into columns. Resample the data by month. I could easily use any of the [available rules](https://pandas.pydata.org/pandas-docs/stable/timeseries.html#offset-aliases). Fill any missing months with 0, since there wasnt a transaction during that month. Apply a rolling window to get the annual sum. I find that this helps to ground values in values that my stakeholders are used to seeing on a regular basis and reduces the need for them to recalculate in their head. Then I am going to drop the nulls created by the rolling window for the first 11 rows.
 
 ```python
 plot_data = (data
@@ -126,9 +115,6 @@ plot_data = (data
 plot_data.head()
 ```
 
-
-
-
 <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -142,6 +128,7 @@ plot_data.head()
     .dataframe thead th {
         text-align: right;
     }
+
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -200,9 +187,6 @@ plot_data.head()
 </table>
 </div>
 
-
-
-
 ```python
 plot_data.plot(title='Rolling annual sum of Categorical Random Data');
 ```
@@ -211,7 +195,6 @@ plot_data.plot(title='Rolling annual sum of Categorical Random Data');
 
 ### Groupby
 
-
 ```python
 plot_data = (data
              .groupby(['date', 'item'])
@@ -219,9 +202,6 @@ plot_data = (data
              )
 plot_data.head()
 ```
-
-
-
 
 <div>
 <style scoped>
@@ -236,6 +216,7 @@ plot_data.head()
     .dataframe thead th {
         text-align: right;
     }
+
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -277,21 +258,15 @@ plot_data.head()
 </table>
 </div>
 
-
-
 ### Select Values
 
 In this case I chose to do this to avoid working with a multiple levels in the columns that would be created in the unstack() step.
-
 
 ```python
 plot_data = plot_data['qty']
 
 plot_data.head()
 ```
-
-
-
 
     date        item
     2017-01-01  markers       9
@@ -301,21 +276,15 @@ plot_data.head()
     2017-01-02  markers       4
     Name: qty, dtype: int32
 
-
-
 ### unstack
 
 transform the last column in the index ('item') into rows.
-
 
 ```python
 plot_data = plot_data.unstack()
 
 plot_data.head()
 ```
-
-
-
 
 <div>
 <style scoped>
@@ -330,6 +299,7 @@ plot_data.head()
     .dataframe thead th {
         text-align: right;
     }
+
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -388,21 +358,15 @@ plot_data.head()
 </table>
 </div>
 
-
-
 ### resample
 
 This step is important for irregular data in order to get the data into regular intervals.
-
 
 ```python
 plot_data = plot_data.resample('m').sum()
 
 plot_data.head()
 ```
-
-
-
 
 <div>
 <style scoped>
@@ -417,6 +381,7 @@ plot_data.head()
     .dataframe thead th {
         text-align: right;
     }
+
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -475,21 +440,15 @@ plot_data.head()
 </table>
 </div>
 
-
-
 ### rolling
 
-I like to use rolling because it get the data into annual numbers, and reduces noise.  I have found that most of my datasets have patterns and trends that are greater than 1y.  This  is just due to the industry that I am in.  Play with the resample and rolling rules to fit the need of your own data.
-
+I like to use rolling because it get the data into annual numbers, and reduces noise. I have found that most of my datasets have patterns and trends that are greater than 1y. This is just due to the industry that I am in. Play with the resample and rolling rules to fit the need of your own data.
 
 ```python
 plot_data = plot_data.rolling(12).sum()
 
 plot_data.head(20)
 ```
-
-
-
 
 <div>
 <style scoped>
@@ -504,6 +463,7 @@ plot_data.head(20)
     .dataframe thead th {
         text-align: right;
     }
+
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -667,21 +627,15 @@ plot_data.head(20)
 </table>
 </div>
 
-
-
 ### dropna
 
 get rid of the first 11 null rows
-
 
 ```python
 plot_data = plot_data.dropna()
 
 plot_data.head(10)
 ```
-
-
-
 
 <div>
 <style scoped>
@@ -696,6 +650,7 @@ plot_data.head(10)
     .dataframe thead th {
         text-align: right;
     }
+
 </style>
 <table border="1" class="dataframe">
   <thead>
