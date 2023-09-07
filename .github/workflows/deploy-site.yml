@@ -42,7 +42,6 @@ jobs:
 
       - name: run markata
         run: |
-          source .venv/bin/activate
           markata build --no-pretty
 
       - name: create root
