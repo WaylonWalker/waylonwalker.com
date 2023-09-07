@@ -2,10 +2,9 @@
 date: 2022-10-24 16:07:20
 templateKey: til
 title: Grainger Pre questions
-published: True
+published: False
 tags:
   -
-
 ---
 
 For both the Senior Data Engineer and Data Engineer.
@@ -28,7 +27,7 @@ Customer ID, Customer First Name, Customer Last Name, and Number of Orders.
 
 ● Will the query below solve this problem? If not, what would you recommend to change?
 
-``` sql
+```sql
 SELECT
     customer_id,
     first_name,
@@ -47,17 +46,17 @@ WHERE
 
 ## Answer
 
-I do not believe this will solve the problem stated.  The subquery for the
+I do not believe this will solve the problem stated. The subquery for the
 count does not get filtered for the last two weeks, it will be a count of all
 records.
 
 I find the subquery for the `number_of_orders` in the SELECT clause to be more
-confusing than necessary.  Refactoring this to join an aggregated `num_orders`
+confusing than necessary. Refactoring this to join an aggregated `num_orders`
 subquery joining on customer_id, and counting on one of the records in the
 sales table would make thiss easier to follow, and solve the issue in the
 `WHERE` statement is not really filtering anything.
 
-``` sql
+```sql
 SELECT
     customers.customer_id,
     customers.first_name,
@@ -79,7 +78,7 @@ WHERE
 ```
 
 In the etl roles that I have held, data like this has been ingested into a
-python pipeline.  If the data is quite large, some initial filtering would be
+python pipeline. If the data is quite large, some initial filtering would be
 done in sql, but logic like this would be done in a pandas groupby.
 
 ## Python Question
@@ -90,9 +89,9 @@ instances of customers using “.” and “+” in their email addresses. They 
 deduplicated list of customers by removing all periods before the @. They would also like to
 remove all characters from the + to the @. They have provided the following test case for you:
 
-● Original Email 1: tommy.t.tester+throw.away.acct@gmail.com
-● Original Email 2: tommy.t.tester+shopping@gmail.com
-● Transformed Email: tommyttester@gmail.com
+● Original Email 1: <tommy.t.tester+throw.away.acct@gmail.com>
+● Original Email 2: <tommy.t.tester+shopping@gmail.com>
+● Transformed Email: <tommyttester@gmail.com>
 
 Please review the function below and answer the questions.
 
@@ -104,18 +103,18 @@ eventually be merged into main through the team's CI/CD tooling.
 ## Answer
 
 The code will work as expected as long as an email address contains only one
-`@` sign.  I am not sure if more than one `@` sign is possible.  It creates a
+`@` sign. I am not sure if more than one `@` sign is possible. It creates a
 function that creates an empty list of clean emails, iterates over a one
 dimensional array that is input, cleans the email, appends it to the list, then
-returns a deduplicated list.  During the cleaning it splits the string into a
-list of strings using `@` as the delimiter.  It treats the first item in this
-list as the username, and the second item as the domain.  It removes all `.`
-from the username.  It splits the username into a list of strings using `+` as
-the delimiter, and gets the first entry to call the new username.  It then
-creates a cleaned email formatting the username and domain into  a string
+returns a deduplicated list. During the cleaning it splits the string into a
+list of strings using `@` as the delimiter. It treats the first item in this
+list as the username, and the second item as the domain. It removes all `.`
+from the username. It splits the username into a list of strings using `+` as
+the delimiter, and gets the first entry to call the new username. It then
+creates a cleaned email formatting the username and domain into a string
 separated by an `@` sign.
 
-``` python
+```python
 def parse_data(customer_data): # parse_data does not describe the requirement very well, customer_data is "ok", but still not great
     d_o = list() # when I see Instanciate then modify, I generally look for a way to refactor into a list comprehension
     for data in customer_data:
@@ -134,7 +133,7 @@ I have provided a refactoring that I would do. Before merging into CI/CD, I
 would reccomend getting full test coverage for these two functions with a
 variety of different examples.
 
-``` python
+```python
 
 from typing import List
 
