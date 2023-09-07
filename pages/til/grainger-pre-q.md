@@ -1,6 +1,6 @@
 ---
 date: 2022-10-24 16:07:20
-templateKey: til
+templateKey: blog-post
 title: Grainger Pre questions
 published: False
 tags:
