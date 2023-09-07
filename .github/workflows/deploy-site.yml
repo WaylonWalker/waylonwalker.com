@@ -32,17 +32,9 @@ jobs:
         uses: actions/setup-python@v4.3.0
         with:
           python-version: "3.11"
-          # cache: 'pip'
 
       - name: install
         run: |
-          venvnew() {
-              python3 -m venv .venv --prompt $(basename $PWD)
-              source .venv/bin/activate
-              pip install --no-deps -r requirements.txt
-              }
-
-          source .venv/bin/activate  > /dev/null 2>&1 || venvnew
           pip install --upgrade markata --pre
 
       # - name: install markata
