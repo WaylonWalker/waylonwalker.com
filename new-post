@@ -34,7 +34,7 @@ templateKey: blog-post
 tags: {tags}
 title: {title}
 date: {datetime.date.today().strftime('%Y-%m-%dT%H:%M:%S')}
-status: draft
+published: false
 cover: "/static/{slug}.png"
 
 ---
