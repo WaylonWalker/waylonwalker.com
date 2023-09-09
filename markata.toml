@@ -21,6 +21,7 @@ output_dir = "markout"
 assets_dir = "static"
 hooks = [
 'plugins.post_model',
+'plugins.thoughts',
    # "markata.plugins.publish_source",
    # "markata.plugins.publish_dev_to_source",
    # "markata.plugins.prevnext",
@@ -221,6 +222,14 @@ content="#322D39"
 
 [markata.prevnext]
 prevnext_color_angle = "#ff66c4"
+
+[[markata.feeds]]
+slug='thoughts'
+template="pages/templates/archive_template.html"
+card_template = "pages/templates/feed_card.html"
+filter="date<=today and templateKey in ['thoughts',] and published"
+sort="date"
+reverse=true
 
 [[markata.feeds]]
 slug='archive'
