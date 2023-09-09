@@ -70,7 +70,7 @@ linkify-it-py==2.0.2
     # via markata
 lxml==4.9.3
     # via feedgen
-markata==0.8.0.dev2
+markata==0.8.0.dev3
     # via
     #   -r requirements.in
     #   markata-gh
