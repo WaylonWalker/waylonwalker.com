@@ -4,7 +4,7 @@ templateKey: blog-post
 title: Make the easy things easy
 tags:
   - catalytic
-status: draft
+published: true
 ---
 
 It's so easy to get out of rhythm, get busy, and drop the ball on some things
@@ -19,7 +19,13 @@ about that feel good to use again.
 Simple Repetitive Tasks that I have to do often can just feel soul crushing,
 and one main thing that got me interested in programming.
 
-TODO - fill this in
+AI tools are becoming more and more useful at solving these problems. For
+instance code generation tools like co-pilot or codeium are really good at
+boilerplate and pattern repetition. Things that used to be a few vim macros is
+now just banging on tab.
+
+I often look for setting up templates or some sort of snippet to replace a big
+chunk of boilerplate that I know I will need over and over.
 
 ## timebox
 
