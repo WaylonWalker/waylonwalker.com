@@ -1,6 +1,7 @@
 # redirects
 /blog /archive/
-/rss                                                        /rss.xml
+/rss                                                        /archive/rss.xml
+/rss.xml                                                    /archive/rss.xml
 
 # image upload
 /upload                                                     https://github.com/WaylonWalker/images.waylonwalker.com/upload/main/static
