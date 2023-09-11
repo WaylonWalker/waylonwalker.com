@@ -103,10 +103,55 @@ with it.
 }
 ```
 
+## Colors
+
+This goes for colors too. When I want to do things like make a button look
+clickable, all I need to do is bump the color up or down by 100, I don't need
+to know deep color theory to understand if it will be noticable, the team has
+designed it to work better than I can come up with.
+
 ## Installation
+
+`npm` is used to install the cli that you will need to configure and compile tailwindcss.
 
 ```sh
 npm install -g tailwindcss-cli
 ```
 
-## The design rythm is well thought out
+## Setup
+
+You will need to create a tailwind.config.js file, to get this you can use the cli.
+
+```sh
+npx tailwindcss init
+```
+
+## Using tailwind with jinja templates
+
+To setup tailwind to work with jinja templates you will need to point the
+tailwind config content to your jinja templates directory.
+
+```js
+module.exports = {
+  content: ["templates/**/*.html"],
+};
+```
+
+## Setting up the base styles
+
+I like to use the `@tailwind base;`, to do this I setup an input.css file.
+
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+## Compiling
+
+Now that its all setup you can run the tailwindcss command. You will get an
+output.css with base tailwind plus any of the classes that you used.
+
+```sh
+tailwindcss -i ./input.css -o ./output.css --watch
+```
