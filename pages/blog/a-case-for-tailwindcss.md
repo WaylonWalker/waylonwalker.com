@@ -128,7 +128,7 @@ npx tailwindcss init
 
 ## Using tailwind with jinja templates
 
-To setup tailwind to work with jinja templates you will need to point the
+To set up tailwind to work with jinja templates you will need to point the
 tailwind config content to your jinja templates directory.
 
 ```js
@@ -139,7 +139,7 @@ module.exports = {
 
 ## Setting up the base styles
 
-I like to use the `@tailwind base;`, to do this I setup an input.css file.
+I like to use the `@tailwind base;`, to do this I set up an input.css file.
 
 ```css
 @tailwind base;
