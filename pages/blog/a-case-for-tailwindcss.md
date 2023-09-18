@@ -2,9 +2,10 @@
 date: 2023-09-10 19:46:19
 templateKey: blog-post
 title: A Case For Tailwindcss
+published: True
 tags:
   - webdev
-published: False
+
 ---
 
 I was watching @theprimeagen recently and I think he sold me on using
