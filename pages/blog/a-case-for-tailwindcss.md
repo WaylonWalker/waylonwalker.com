@@ -9,10 +9,10 @@ published: False
 
 I was watching @theprimeagen recently and I think he sold me on using
 tailwindcss. The thing about tailwind is that it is not a big component
-library, its just a set of css classes mapped to a few (usually one) style.
+library, it's a set of css classes mapped to a few (usually one) style.
 
 > All css classes are shitty, so you might as well use someone else's shitty
-> css classes on all your projects rather than thinking your being smart with a
+> css classes on all your projects rather than thinking you're being smart with a
 > new set of classes that you will hate in 6 months when you come back to the
 > project. _roughly quoted from memory of @theprimeagen_
 
@@ -25,7 +25,7 @@ using.
 
 ## It's hard to clash
 
-since the classes are so small and single purpose it's hard to end up with
+Since the classes are so small and single purpose it's hard to end up with
 something like `.card` in two places that mean different things causing you to
 duplicate most of that css anyways so that the whole design doesn't break when
 you change one or the other.
@@ -110,48 +110,63 @@ clickable, all I need to do is bump the color up or down by 100, I don't need
 to know deep color theory to understand if it will be noticable, the team has
 designed it to work better than I can come up with.
 
-## Installation
-
-`npm` is used to install the cli that you will need to configure and compile tailwindcss.
-
-```sh
-npm install -g tailwindcss-cli
-```
-
-## Setup
-
-You will need to create a tailwind.config.js file, to get this you can use the cli.
-
-```sh
-npx tailwindcss init
-```
-
-## Using tailwind with jinja templates
-
-To set up tailwind to work with jinja templates you will need to point the
-tailwind config content to your jinja templates directory.
-
-```js
-module.exports = {
-  content: ["templates/**/*.html"],
-};
-```
-
-## Setting up the base styles
-
-I like to use the `@tailwind base;`, to do this I set up an input.css file.
-
 ```css
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+.bg-stone-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 245 244 / var(--tw-bg-opacity));
+}
+
+.bg-stone-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(231 229 228 / var(--tw-bg-opacity));
+}
+
+.bg-stone-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(214 211 209 / var(--tw-bg-opacity));
+}
+
+.bg-stone-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(168 162 158 / var(--tw-bg-opacity));
+}
+
+.bg-stone-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 250 249 / var(--tw-bg-opacity));
+}
+
+.bg-stone-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(120 113 108 / var(--tw-bg-opacity));
+}
+
+.bg-stone-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(87 83 78 / var(--tw-bg-opacity));
+}
+
+.bg-stone-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(68 64 60 / var(--tw-bg-opacity));
+}
+
+.bg-stone-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(28 25 23 / var(--tw-bg-opacity));
+}
 ```
 
-## Compiling
+## Am I going to start using tailwind?
 
-Now that its all setup you can run the tailwindcss command. You will get an
-output.css with base tailwind plus any of the classes that you used.
+Right not I am working on some projects that I am going to use tailwind on. I
+really see myself liking it. I don't like that I need to install it with
+`npm`, but I can get past that. Cli tools seem to work out pretty well, but
+anytime I have a project that installs a bagillion node modules they all come
+crashing down in 6 month or a year when the project has not been touched and I
+just need one small change.
 
-```sh
-tailwindcss -i ./input.css -o ./output.css --watch
-```
+I really like the idea of all these classes being consistent across all my
+projects and really being a short hop away from hand writing css vs a heavy
+component library. Most of all I like their well thought out design system
+that I definitly could not get right myself.
