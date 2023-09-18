@@ -2,7 +2,7 @@
 date: 2023-09-17 17:10:32
 templateKey: til
 title: Setup Tailwind for Jinja
-status: published
+published: True
 tags:
   - python
 ---
