@@ -49,6 +49,13 @@ jobs:
         run: |
           cp static/index.html markout/index.html
 
+      - name: Use Node v20
+        uses: actions/setup-node@v1
+        with:
+          node-version: 20
+      - name: Create Pagefind
+        run: npx pagefind --site markout
+
       - name: GitHub Pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
