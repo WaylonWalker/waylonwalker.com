@@ -155,7 +155,7 @@
             </p>
         </div>
 
-        <div id="post-body" {{ 'data-pagefind-body' if post in markata.feeds.archive.posts else '' }}>{{ body }}</div>
+        <div id="post-body" {{ 'data-pagefind-body' if post in markata.feeds.pagefind.posts else '' }}>{{ body }}</div>
 
         <div id="posts" hx-get="https://thoughts.waylonwalker.com/posts/html/" hx-target="#posts" hx-swap="outerHTML"
             hx-trigger="load"></div>

@@ -240,6 +240,14 @@ sort="date"
 reverse=true
 
 [[markata.feeds]]
+slug='pagefind'
+template="pages/templates/archive_template.html"
+card_template = "pages/templates/feed_card.html"
+filter="date<=today and templateKey in ['blog-post', 'til', 'thoughts'] and published"
+sort="date"
+reverse=true
+
+[[markata.feeds]]
 slug='published'
 template="pages/templates/archive_template.html"
 card_template = "pages/templates/feed_card.html"
