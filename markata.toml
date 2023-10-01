@@ -29,7 +29,7 @@ hooks = [
    # # "plugins.codeblocks",
    # "plugins.index",
    # "plugins.slug",
-   "plugins.one_line_link",
+   # "plugins.one_line_link",
    # "plugins.include",
    "default",
    # "plugins.related",
@@ -235,7 +235,7 @@ reverse=true
 slug='archive'
 template="pages/templates/archive_template.html"
 card_template = "pages/templates/feed_card.html"
-filter="date<=today and templateKey in ['blog-post', 'til'] and published"
+filter="date<=today and templateKey in ['blog-post', 'til', 'thoughts'] and published"
 sort="date"
 reverse=true
 
@@ -251,7 +251,7 @@ reverse=true
 slug='published'
 template="pages/templates/archive_template.html"
 card_template = "pages/templates/feed_card.html"
-filter="date<=today and templateKey in ['blog-post', 'til'] and published"
+filter="date<=today and templateKey in ['blog-post', 'til', 'thoughts'] and published"
 sort="date"
 reverse=true
 # precache=true
@@ -275,7 +275,7 @@ reverse=true
 slug='archive'
 template="pages/templates/archive_template.html"
 card_template = "pages/templates/feed_card.html"
-filter="date<=today and templateKey in ['blog-post', 'til'] and published"
+filter="date<=today and templateKey in ['blog-post', 'til', 'thoughts'] and published"
 sort="date"
 reverse=true
 
@@ -291,7 +291,7 @@ reverse=true
 slug='draft'
 template="pages/templates/archive_template.html"
 card_template = "pages/templates/feed_card.html"
-filter="not published and templateKey in ['blog-post', 'til']"
+filter="not published and templateKey in ['blog-post', 'til', 'thoughts']"
 sort="date"
 reverse=true
 
