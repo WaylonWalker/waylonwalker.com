@@ -4,6 +4,7 @@ templateKey: blog-post
 title: why-is-postgres-default
 tags:
   - webdev
+  - data
 published: True
 ---
 
