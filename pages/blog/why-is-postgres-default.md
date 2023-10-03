@@ -35,12 +35,12 @@ SQLite is a file on your filesystem. It's not a web service. It's not a cloud
 service. Not that postgres is insecure, but it is one more endpoint that you
 have to think about securing.
 
+> this means that is probably also cheaper 🤑
+
 ## SQLite is easy to replicate
 
-Want to run your new feature with prod data? pull a replica. If you are using
-something like litestream you can restore a replica into your local dev
-environment. You aren't, well it's just a file that you can cp into your local
-dev environment if you have access.
+Want to run your new feature with prod data? Pull a replica or backup. It's a
+file, you can cp, scp, rsync it whatever you have available.
 
 ## SQLite Does everything of what I need in an application db
 
@@ -62,3 +62,34 @@ replication complexity.
 For a large number of use cases SQLite is probably the best thing to get you
 off the ground quick, and likely all that you will need. Consider using it
 before defaulting to postgres.
+
+## You probably already know how to maintain it
+
+If you know a bit of cli commands and remember that your database is just a
+file, this will feel very intuitive. If not you can probably poke around a
+file system gui and still make most of it work.
+
+```bash
+## create a database
+touch database.db
+## back it up
+cp database.db database.db.bak
+## drop the database
+rm database.db
+## restore the backup
+cp database.db.bak database.db
+## drop the backup
+rm database.db.bak
+## create an offsite backup
+aws s3 cp database.db s3://my-backup-bucket/
+scp database.db username@to_host:/remote/directory/
+rsync -a database.db username@to_host:/remote/directory/
+```
+
+## Need High Concurrent writes
+
+You might consider postgres.
+
+## Need Remote connection string
+
+You might consider postgres.
