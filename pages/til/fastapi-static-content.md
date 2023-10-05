@@ -7,7 +7,16 @@ tags:
   - python
 ---
 
-I wanted to host some static files through fastapi
+I wanted to host some static files through fastapi. Typical use cases for this
+might be some static web content like html/css/js. It could also be images or
+some data that doesn't need dynamically rendered.
+
+## From the Docs
+
+The docs cover how to host static files, and give this solution that is built
+into fastapi.
+
+<https://fastapi.tiangolo.com/tutorial/static-files/>
 
 ```python
 from fastapi import FastAPI
