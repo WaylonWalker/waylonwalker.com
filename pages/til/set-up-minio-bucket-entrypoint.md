@@ -2,7 +2,7 @@
 date: 2023-10-01 20:11:51
 templateKey: til
 title: Set up minio bucket entrypoint
-status: "published"
+published: true
 tags:
   - data
 ---
