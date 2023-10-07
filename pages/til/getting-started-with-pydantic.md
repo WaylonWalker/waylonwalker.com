@@ -8,6 +8,13 @@ tags:
   - pydantic
 ---
 
+```{.python .darkmark}
+global Field
+global BaseModel
+from pydantic import BaseModel
+from pydantic import Field
+```
+
 Pydantic is a Python library for serializing data into models that can be
 validated with a deep set of built in valitators or your own custom validators,
 and deserialize back to JSON or dictionary.
@@ -31,42 +38,11 @@ This is a python class that inherits from `pydantic.BaseModel`.
 ```{.python .darkmark}
 from pydantic import BaseModel
 from pydantic import Field
+from typing import Optional
 
 class Person(BaseModel):
     name: str = Field(...)
-    age: int = Field(...)
-```
-
-```{.console .darkmark_error}
-
-```
-
-```{.console .darkmark_error}
-
-```
-
-```{.console .darkmark_error}
-
-```
-
-```{.console .darkmark_error}
-
-```
-
-```{.console .darkmark_error}
-
-```
-
-```{.console .darkmark_error}
-
-```
-
-```{.console .darkmark_error}
-
-```
-
-```{.console .darkmark_output}
-
+    age: int
 ```
 
 ## parsing an object
@@ -75,34 +51,11 @@ class Person(BaseModel):
 person = Person(name="John Doe", age=30)
 print(person)
 ```
-
-```{.console .darkmark_error}
-
-```
-
-```{.console .darkmark_error}
+``` {.console .darkmark_output}
+name='John Doe' age=30
 
 ```
 
-```{.console .darkmark_error}
-
-```
-
-```{.console .darkmark_error}
-
-```
-
-```{.console .darkmark_error}
-
-```
-
-```{.console .darkmark_error}
-
-```
-
-```{.console .darkmark_error}
-
-```
 
 ## data serialization
 
@@ -114,72 +67,26 @@ person = Person(name=12, age="30")
 print(f'name: {person.name}, type: {type(person.name)}')
 print(f'age: {person.age}, type: {type(person.age)}')
 ```
-
-```{.console .darkmark_error}
-
+``` {.console .darkmark_output}
+1 validation error for Person
+name
+  Input should be a valid string [type=string_type, input_value=12, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.3/v/string_type
 ```
 
-```{.console .darkmark_error}
-
-```
-
-```{.console .darkmark_error}
-
-```
-
-```{.console .darkmark_error}
-
-```
-
-```{.console .darkmark_error}
-
-```
-
-```{.console .darkmark_error}
-
-```
-
-```{.console .darkmark_error}
-
-```
 
 ```{.python .darkmark}
 person = Person(name="John Doe", age='thirty')
 print(f'name: {person.name}, type: {type(person.name)}')
 print(f'age: {person.age}, type: {type(person.age)}')
 ```
-
-```{.console .darkmark_error}
-
+``` {.console .darkmark_output}
+1 validation error for Person
+age
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='thirty', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.3/v/int_parsing
 ```
 
-```{.console .darkmark_error}
-
-```
-
-```{.console .darkmark_error}
-
-```
-
-```{.console .darkmark_error}
-
-```
-
-```{.console .darkmark_error}
-
-```
-
-```{.console .darkmark_error}
-
-```
-
-```{.console .darkmark_error}
-
-```
-
-```{.console .darkmark_output}
-
-```
 
 ## loading from json
 
