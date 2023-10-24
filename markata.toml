@@ -29,7 +29,7 @@ hooks = [
    # # "plugins.codeblocks",
    # "plugins.index",
    # "plugins.slug",
-   "plugins.one_line_link",
+   # "plugins.one_line_link",
    # "plugins.include",
    "default",
    # "plugins.related",
