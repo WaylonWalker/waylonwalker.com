@@ -10,7 +10,7 @@ if TYPE_CHECKING:
 @hook_impl(trylast=True)
 def load(markata: "Markata") -> None:
     posts = requests.get(
-        "https://thoughts.waylonwalker.com/posts?page_size=9999999999"
+        "https://thoughts.waylonwalker.com/posts/waylonwalker/?page_size=9999999999"
     ).json()
 
     for post in posts:
