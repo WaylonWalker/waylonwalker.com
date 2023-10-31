@@ -49,6 +49,11 @@ jobs:
         run: |
           cp static/index.html markout/index.html
 
+      - name: rm markata.json
+        run: |
+          # too big for cloudflare pages
+          rm static/markata.json
+
       - name: Use Node v20
         uses: actions/setup-node@v3.8.1
         with:
