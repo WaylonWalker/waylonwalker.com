@@ -52,7 +52,7 @@ jobs:
       - name: rm markata.json
         run: |
           # too big for cloudflare pages
-          rm static/markata.json
+          rm markout/markata.json
 
       - name: Use Node v20
         uses: actions/setup-node@v3.8.1
