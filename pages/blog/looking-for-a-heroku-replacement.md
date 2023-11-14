@@ -90,4 +90,66 @@ that buttery smooth deploy experience that I get from fly.io. I have to log
 into the machine, edit some files, and docker compose up every time I want to
 deploy.
 
+## I was certain there was a better way
+
+I knew there was something better out there that was not a complex pain in the
+ass to setup. I know small companies run their own infra with a small team.
+There has to be tools that don't take an enterprise to manage.
+
+## What about kubernetes
+
 [![screenshot of https://kubernetes.io/](http://shots.wayl.one/shot/?url=https://kubernetes.io/&height=450&width=800&scaled_width=800&scaled_height=450&selectors=)](https://kubernetes.io/)
+
+In my search I keep seeing kubernetes as the solution, just run k8s, k3s, k0s,
+minikube, or kind. But EVERYTHING I have heard about kubernetes is that its a
+pain in the ass to deploy, takes a team to manage, and if you don't have a $1M
+problem to solve don't bother cause k8s will create a $1M problem for you.
+
+## Let's jump on k3s
+
+[![screenshot of https://k3s.io/](http://shots.wayl.one/shot/?url=https://k3s.io/&height=450&width=800&scaled_width=800&scaled_height=450&selectors=)](https://k3s.io/)
+
+I've never ran kubernetes myself, but after seeing it so many times in my
+searches for a fly.io replacement, I decided to give it a shot. I chose k3s as
+it seems like a nice balance of easy to setup, maintain, and feature complete
+kubernetes service.
+
+```bash
+# install and start k3s
+curl -sfL https://get.k3s.io | sh -
+# check to see if your nodes are started
+sudo kubectl get nodes
+```
+
+My main hiccup so far was the machine I am running on runs a fairly new ubuntu
+install with zfs on root, and it would not start the master node. Rather than
+figuring out how to make zfs play nice I just pointed k3s to a drive that is
+not zfs.
+
+```bash
+# manuallly
+sudo k3s server -d /mnt/vault/.rancher/k3s
+# without editing systemd service
+sudo ln -s /mnt/vault/.rancher/k3s /var/lib/rancher/k3s
+```
+
+Next I needed to be able to completely manage my k3s cluster form my main machine while this one sits far away in a closet.
+
+```bash
+# from the server
+sudo cp /etc/rancher/k3s/k3s.yaml ~/.config/kube
+
+# from my local machine
+scp falcon@falcon:~/.config/kube/k3s.yaml ~/.config/kube/falcon-k3s.yaml
+sudo cp /etc/rancher/k3s/k3s.yaml /home/waylon/.config/kube
+sudo chown -R waylon:waylon ~/.config/kube
+export KUBECONFIG=~/.config/kube/k3s.yaml
+```
+
+## kompose
+
+Since everything I was runnign prior was in docker compose, I found kompose.io
+to be a fantastic tool to help me start converting my docker deployments into
+kubernetes.
+
+[![screenshot of https://kompose.io/](http://shots.wayl.one/shot/?url=https://kompose.io/&height=450&width=800&scaled_width=800&scaled_height=450&selectors=)](https://kompose.io/)
