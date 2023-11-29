@@ -10,7 +10,7 @@ tags:
 published: False
 ---
 
-I've long hosted a by personal blog as a static site on waylonwalker.com. It's
+I've long hosted my personal blog as a static site on waylonwalker.com. It's
 all markdown, converted to html, and shipped as is. It's been great, I've
 moved it from Github Pages, to netlify, tried vercel for a minute, and have
 landed on Cloudflare Pages currently. Each migration has not really been that
