@@ -5,6 +5,7 @@ title: Still Loving Tailwind
 published: true
 tags:
   - webdev
+jinja: false
 ---
 
 ![](https://images.waylonwalker.com/img-c8Fom5UqPWT6IzLefZ3YKU68.png)
