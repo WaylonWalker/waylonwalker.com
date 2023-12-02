@@ -42,7 +42,7 @@ hooks = [
    # "plugins.gif_to_mp4",
    "plugins.youtube",
    # "plugins.auto_publish",
-   "markata.plugins.service_worker",
+   # "markata.plugins.service_worker",
    ]
 disabled_hooks = [
 "markata.plugins.covers",

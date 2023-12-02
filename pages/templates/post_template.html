@@ -5,15 +5,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" href="/8bitcc.ico" type="image/png" />
+    <meta name="og:type" content="website" />
+    <meta name="og:title" name="og:title" content="{{title|e}}" />
+    <meta name="twitter:title" name="twitter:title" content="{{title|e}}" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="og:image" name="og:image"
+        content="http://shots.wayl.one/shot/?url=https://waylonwalker.com/thoughts-160/&height=640&width=1280&scaled_width=1280&scaled_height=640&selectors=' --output 32629435059d0cac49ee8464cc892d0f-1280x640-1280x640.png" />
+    <meta name="twitter:image" name="twitter:image"
+        content="http://shots.wayl.one/shot/?url=https://waylonwalker.com/thoughts-160/&height=600&width=1200&scaled_width=1200&scaled_height=600&selectors=' --output 32629435059d0cac49ee8464cc892d0f-1200x600-1200x600.png" />
+    <meta name="og:image:height" content="640" />
+    <meta name="og:image:width" content="1280" />
+    <meta name="og:url" name="og:url" content="{{url}}/archive/" />
+    <meta name="description" name="description" content="{{description|e}}" />
+    <meta name="og:description" name="og:description" content="{{description|e}}" />
+    <meta name="twitter:description" name="twitter:description" content="{{description|e}}" />
+
+    <meta name="twitter:creator" content="@_waylonwalker">
+    <meta name="og:author" content="Waylon Walker">
+    <meta name="og:site_name" content="Waylon Walker">
+    <meta name="og:author_email" content="waylon@waylonwalker.com">
+    <meta content="markata {{ __version__ }}" name="generator">
+    <meta name="monetization" content="$ilp.uphold.com/MGN2ni2YMXaQ">
+    <meta name="theme-color" content="#322D39">
+
+    <link href="{{canonical_url}}" rel="canonical" />
+
     <link rel="amphtml" href="https://waylonwalker.com/{{ slug }}/amp/" />
     <meta property="monetization" name="monetization" content="$ilp.uphold.com/MGN2ni2YMXaQ" />
-    <link rel="stylesheet" href="/main.min.css" />
-    <link rel="preload" href="/one-dark.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-    <link rel="preload" href="/furo-purge.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <link rel="preload" href="/app.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
     <noscript>
-        <link rel="stylesheet" href="/one-dark.min.css" />
-        <link rel="stylesheet" href="/furo-purge.min.css" />
+        <link rel="stylesheet" href="/app.css" />
     </noscript>
+
     <link href="/8bitcc_48x48.png" rel="apple-touch-icon" sizes="48x48" />
     <link href="/8bitcc_72x72.png" rel="apple-touch-icon" sizes="72x72" />
     <link href="/8bitcc_96x96.png" rel="apple-touch-icon" sizes="96x96" />
@@ -23,172 +46,169 @@
     <link href="/8bitcc_384x384.png" rel="apple-touch-icon" sizes="384x384" />
     <link href="/8bitcc_512x512.png" rel="apple-touch-icon" sizes="512x512" />
     <script>
-        if ("serviceWorker" in navigator) {
-            navigator.serviceWorker.register("/service-worker.js");
-            navigator.serviceWorker.addEventListener("controllerchange", () => {
-                console.log("new worker");
-                window.location.reload();
-            });
-        }
+        navigator.serviceWorker.getRegistrations().then(function (registrations) {
+            for (let registration of registrations) {
+                registration.unregister();
+            }
+        });
+
     </script>
-
-    {% for text in config.head.text %}
-    {{ text.value }}
-    {% endfor %}
-
-    {% for meta in config.head.meta %}
-    {% for _meta in meta %}
-    <meta content="{{ meta.content }}" name="{{ meta.name }}" />
-    {% endfor %}
-    {% endfor %}
 </head>
 
-<body>
-    <nav>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/archive/">Archive</a></li>
-            <li>
-                <a href="/rss.xml" aria-label="RSS">
-                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="16" width="16">
-                        <path fill="currentColor"
-                            d="M 4 4.44 v 2.83 c 7.03 0 12.73 5.7 12.73 12.73 h 2.83 c 0 -8.59 -6.97 -15.56 -15.56 -15.56 Z m 0 5.66 v 2.83 c 3.9 0 7.07 3.17 7.07 7.07 h 2.83 c 0 -5.47 -4.43 -9.9 -9.9 -9.9 Z M 6.18 15.64 A 2.18 2.18 0 0 1 6.18 20 A 2.18 2.18 0 0 1 6.18 15.64">
-                        </path>
-                    </svg>
-                </a>
-            </li>
-
-            <li style='background: white; height: 100%; z-index: 9999; width: 30rem; '>
-            <div position="relative">
-            <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-            <script src="/pagefind/pagefind-ui.js"></script>
-            <style>
-            :root {
-            --pagefind-ui-scale: .8;
-            --pagefind-ui-primary: #034ad8;
-            --pagefind-ui-text: #393939;
-            --pagefind-ui-background: #ffffff;
-            --pagefind-ui-border: #eeeeee;
-            --pagefind-ui-tag: #eeeeee;
-            --pagefind-ui-border-width: 2px;
-            --pagefind-ui-border-radius: 4px;
-            --pagefind-ui-image-border-radius: 8px;
-            --pagefind-ui-image-box-ratio: 3 / 2;
-            --pagefind-ui-font: monospace;
-
-            --pagefind-ui-primary: #eeeeee;
-            --pagefind-ui-text: #eeeeee;
-            --pagefind-ui-background: #152028;
-            --pagefind-ui-border: #0c141a;
-            --pagefind-ui-tag: #152028;
-            }
-            .pagefind-ui__drawer {
-                background: var(--pagefind-ui-background);
-            }
-            .pagefind-ui__drawer li {
-                border-bottom: 1px solid var(--pagefind-ui-border);
-            }
-
-            .pagefine-ui .pagefind-ui__form {
-                position: absolute;
-                background: white;
-                background: #130c14 !important;
-                width: 30rem;
-
-            }
-            #search {
-                position: absolute;
-                background: white;
-                height: 100%;
-                width: 100%;
-                width: 30rem;
-            }
-            </style>
-
-            <div id="search">
-            </div>
-            </div>
-            <script>
-                window.addEventListener('DOMContentLoaded', (event) => {
-                    new PagefindUI({element: "#search", showSubResults: true});
-                });
-            </script>
-            </li>
-        </ul>
-    </nav>
-    <article class="blog-post h-entry">
-        <div id="title-wrapper">
-            <a class="u-url" href="https://waylonwalker.com/{{ slug }}/">
-                <h1 class="flair" id="title" style="
-              text-align: right;
-              z-index: 2;
-              padding-right: 0.2rem;
-              text-wrap: balance;
-              font-size: 4rem;
-            " class="blog title no-link">
-                    {{ title }}
-                </h1>
-            </a>
-            <p>
-                <time class="dt-published post-date" datetime="{{ date }}" style="text-align: right; z-index: 2">{{ date
-                    }}</time>
-            </p>
-            <div class="h-card p-author" rel="author">
-                <div class="content">
-                    <a class="p-name u-url" href="https://waylonwalker.com/">
-                        <p>
-                            <span class="p-given-name">Waylon</span>
-                            <span class="p-family-name">Walker</span>
-                        </p>
+<body position="relative">
+    <div class="neon-ring"></div>
+    <div class="dubs">
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/archive/">Archive</a></li>
+                <li>
+                    <a href="/rss.xml" aria-label="RSS">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="16" width="16">
+                            <path fill="currentColor"
+                                d="M 4 4.44 v 2.83 c 7.03 0 12.73 5.7 12.73 12.73 h 2.83 c 0 -8.59 -6.97 -15.56 -15.56 -15.56 Z m 0 5.66 v 2.83 c 3.9 0 7.07 3.17 7.07 7.07 h 2.83 c 0 -5.47 -4.43 -9.9 -9.9 -9.9 Z M 6.18 15.64 A 2.18 2.18 0 0 1 6.18 20 A 2.18 2.18 0 0 1 6.18 15.64">
+                            </path>
+                        </svg>
                     </a>
-                    <p class="p-note">
-                        Learning in Public
-                        <a href="https://twitter.com/_WaylonWalker">@_WaylonWalker</a>
-                    </p>
+                </li>
+
+                <!-- <li style='background: white; height: 100%; z-index: 9999; width: 30rem; '> -->
+                <!--     <div position="relative"> -->
+                <!--         <link href="/pagefind/pagefind-ui.css" rel="stylesheet"> -->
+                <!--         <script src="/pagefind/pagefind-ui.js"></script> -->
+                <!--         <style> -->
+                <!--             :root { -->
+                <!--                 --pagefind-ui-scale: .8; -->
+                <!--                 --pagefind-ui-primary: #034ad8; -->
+                <!--                 --pagefind-ui-text: #393939; -->
+                <!--                 --pagefind-ui-background: #ffffff; -->
+                <!--                 --pagefind-ui-border: #eeeeee; -->
+                <!--                 --pagefind-ui-tag: #eeeeee; -->
+                <!--                 --pagefind-ui-border-width: 2px; -->
+                <!--                 --pagefind-ui-border-radius: 4px; -->
+                <!--                 --pagefind-ui-image-border-radius: 8px; -->
+                <!--                 --pagefind-ui-image-box-ratio: 3 / 2; -->
+                <!--                 --pagefind-ui-font: monospace; -->
+
+                <!--                 --pagefind-ui-primary: #eeeeee; -->
+                <!--                 --pagefind-ui-text: #eeeeee; -->
+                <!--                 --pagefind-ui-background: #152028; -->
+                <!--                 --pagefind-ui-border: #0c141a; -->
+                <!--                 --pagefind-ui-tag: #152028; -->
+                <!--             } -->
+
+                <!--             .pagefind-ui__drawer { -->
+                <!--                 background: var(--pagefind-ui-background); -->
+                <!--             } -->
+
+                <!--             .pagefind-ui__drawer li { -->
+                <!--                 border-bottom: 1px solid var(--pagefind-ui-border); -->
+                <!--             } -->
+
+                <!--             .pagefine-ui .pagefind-ui__form { -->
+                <!--                 position: absolute; -->
+                <!--                 background: white; -->
+                <!--                 background: #130c14 !important; -->
+                <!--                 width: 30rem; -->
+
+                <!--             } -->
+
+                <!--             #search { -->
+                <!--                 position: absolute; -->
+                <!--                 background: white; -->
+                <!--                 height: 100%; -->
+                <!--                 width: 100%; -->
+                <!--                 width: 30rem; -->
+                <!--             } -->
+                <!--         </style> -->
+
+                <!--         <div id="search"> -->
+                <!--         </div> -->
+                <!--     </div> -->
+                <!-- <script> -->
+                <!--     window.addEventListener('DOMContentLoaded', (event) => { -->
+                <!--         new PagefindUI({element: "#search", showSubResults: true}); -->
+                <!--     }); -->
+                <!-- </script> -->
+                </li>
+            </ul>
+        </nav>
+        <article class="blog-post h-entry">
+            <div id="title-wrapper">
+                <a class="u-url" href="https://waylonwalker.com/{{ slug }}/">
+                    <h1 class="flair" id="title" style="
+
+              <!-- text-align: right; -->
+              <!-- z-index: 2; -->
+              <!-- padding-right: 0.2rem; -->
+              <!-- text-wrap: balance; -->
+              <!-- font-size: 4rem; -->
+              " class="blog title no-link">
+                        {{ title }}
+                    </h1>
+                </a>
+                <p class='m-0 sm:m-[-2rem]'>
+                    <time class="dt-published post-date" datetime="{{ date }}" style="text-align: right; z-index: 2">{{
+                        date
+                        }}</time>
+                </p>
+                <div class="h-card p-author" rel="author">
+                    <div class="content">
+                        <a class="p-name u-url" href="https://waylonwalker.com/">
+                            <p>
+                                <span class="p-given-name">Waylon</span>
+                                <span class="p-family-name">Walker</span>
+                            </p>
+                        </a>
+                        <p class="p-note">
+                            Learning in Public
+                            <a href="https://twitter.com/_WaylonWalker">@_WaylonWalker</a>
+                        </p>
+                    </div>
                 </div>
+
+                <!-- edit -->
+                <!-- <p> -->
+                <!--     <a href="https://github.com/WaylonWalker/waylonwalker.com/edit/main/pages/blog/{{ slug }}.md" -->
+                <!--         alt="edit post url" title="edit this post">edit<span role="img" aria-label="">✏️</span></a> -->
+                <!-- </p> -->
             </div>
 
-            <!-- edit -->
-            <p>
-                <a href="https://github.com/WaylonWalker/waylonwalker.com/edit/main/pages/blog/{{ slug }}.md"
-                    alt="edit post url" title="edit this post">edit<span role="img" aria-label="">✏️</span></a>
-            </p>
-        </div>
+            <div id="post-body" {{ 'data-pagefind-body' if post in markata.feeds.pagefind.posts else '' }}>{{ body }}
+            </div>
 
-        <div id="post-body" {{ 'data-pagefind-body' if post in markata.feeds.pagefind.posts else '' }}>{{ body }}</div>
+            <div id="posts" hx-get="https://thoughts.waylonwalker.com/posts/html/" hx-target="#posts"
+                hx-swap="outerHTML" hx-trigger="load"></div>
 
-        <div id="posts" hx-get="https://thoughts.waylonwalker.com/posts/html/" hx-target="#posts" hx-swap="outerHTML"
-            hx-trigger="load"></div>
-
-        <hr />
-        <div id="show"></div>
-    </article>
-    <footer>
-        <ul class="social">
-            <li>
-                <a href="https://twitter.com/_WaylonWalker">twitter</a>
-            </li>
-            <li>
-                <a href="https://youtube.com/waylonwalker">youtube</a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/channel/UCHuxc1HRsd3aRjvL6C817tQ">gaming-youtube</a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/waylonwalker/">LinkedIn</a>
-            </li>
-            <li>
-                <a href="https://github.com/WaylonWalker">GitHub</a>
-            </li>
-            <li>
-                <a href="https://dev.to/waylonwalker">Dev.to</a>
-            </li>
-            <li>
-                <a href="https://www.twitch.tv/waylonwalker">twitch</a>
-            </li>
-        </ul>
-        <p>© {{ date.year }} - {{ today.year }}</p>
-    </footer>
+            <hr />
+            <div id="show"></div>
+        </article>
+        <footer>
+            <ul class="social">
+                <li>
+                    <a href="https://twitter.com/_WaylonWalker">twitter</a>
+                </li>
+                <li>
+                    <a href="https://youtube.com/waylonwalker">youtube</a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UCHuxc1HRsd3aRjvL6C817tQ">gaming-youtube</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/waylonwalker/">LinkedIn</a>
+                </li>
+                <li>
+                    <a href="https://github.com/WaylonWalker">GitHub</a>
+                </li>
+                <li>
+                    <a href="https://dev.to/waylonwalker">Dev.to</a>
+                </li>
+                <li>
+                    <a href="https://www.twitch.tv/waylonwalker">twitch</a>
+                </li>
+            </ul>
+            <p>© {{ date.year }} - {{ today.year }}</p>
+        </footer>
 </body>
 
 </html>
