@@ -15,7 +15,7 @@ it. I've been using it to create some rapid prototypes that may or may not
 ever become something, a document that is likely to go to print (a resume), and some quick
 dashboards.
 
-## fokais.comm
+## fokais.com
 
 I started working on fokais.com only a few weeks ago, It's going to be a SAS to
 make blogging easier. I've started hosting some tools for this blog that I
@@ -69,15 +69,6 @@ everything it needs right in the template.
   {% endif %}
 </div>
 ```
-
-## Resume'
-
-I needed to update my resume' recently and It's gone back and forth between
-looking nice, and being in a format I enjoy editing. My last iteration was
-honestly neither. This time I set out to update it so that I can write it in
-markdown, build it with [markata](markata.dev), and I wanted to style it with
-tailwind. It turned out fantastic, its now pretty easy to edit, and looks
-great thanks to tailwind.
 
 ## grid
 
