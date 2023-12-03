@@ -1,8 +1,12 @@
-<li class="post" style="max-width: fit-content">
+<li class="post group {{post['templateKey']}}" j>
     <a href="/{{markata.config.path_prefix}}{{ post.slug }}/">
+        {% if title | length > 50 %}
+        <h2 class="title">{{ title[:50] }}...</h2>
+        {% else %}
         <h2 class="title">{{ title }}</h2>
-        <p class="description">{{ post.description }}</p>
-        <div style="display: flex; flex-direction: row; width: 50rem">
+        {% endif %}
+        <p class="description">{{ post.description|e }}</p>
+        <div class="card-footer">
             <p>{{post['templateKey'].replace('til', 'TIL: Today I Learned')}}</p>
             <p align="right">
                 {{ post.date.year }}-{{ post.date.month }}-{{ post.date.day }}
