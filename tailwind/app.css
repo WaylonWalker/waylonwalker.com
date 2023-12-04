@@ -102,24 +102,9 @@
   @apply text-white/70 group-hover:text-white;
   @apply p-4;
 }
-#posts .card-footer p {
-  @apply m-0 p-0;
-}
 
-#posts h2 {
-  @apply text-2xl;
-  @apply text-white/70 group-hover:text-white;
-}
-
-#posts .thoughts h2 {
-  @apply text-sm;
-  @apply m-0 p-0;
-  @apply text-white/20 group-hover:text-white;
-}
 #posts .thoughts p {
   @apply text-lg;
-  @apply m-0 p-0;
-  @apply text-white/90 group-hover:text-white;
 }
 
 html {
@@ -195,10 +180,14 @@ footer p {
   @apply text-lg font-bold;
 }
 
-#title-wrapper a {
+#title-wrapper .h-card a {
   @apply underline;
   @apply decoration-yellow-400;
   @apply text-yellow-400;
+}
+
+#title-wrapper h1 a {
+  @apply no-underline;
 }
 
 #title-wrapper p {
@@ -266,7 +255,7 @@ h1 {
 }
 
 h1.flair {
-  @apply text-center block;
+  @apply text-center block no-underline;
 }
 h2.text-center {
   @apply block;

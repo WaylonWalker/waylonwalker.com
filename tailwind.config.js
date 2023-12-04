@@ -1,10 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["templates/**/*.{html,js}"],
+  content: ["templates/**/*.{html,js}", "markout/**/*.{html,js}"],
   plugins: [require("@tailwindcss/typography")],
-  purge: {
-    enabled: true,
-  },
   theme: {
     extend: {
       saturate: {
