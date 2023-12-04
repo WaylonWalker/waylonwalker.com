@@ -1,5 +1,5 @@
 ---
-date: 2023-11-13 20:29:46
+date: 2023-12-04 20:29:46
 templateKey: blog-post
 title: Looking for a Heroku replacement, What I found was shocking!
 tags:
@@ -7,7 +7,7 @@ tags:
   - self-hosted
   - webdev
   - python
-published: False
+published: True
 ---
 
 I've long hosted my personal blog as a static site on waylonwalker.com. It's
@@ -103,7 +103,12 @@ There has to be tools that don't take an enterprise to manage.
 In my search I keep seeing kubernetes as the solution, just run k8s, k3s, k0s,
 minikube, or kind. But EVERYTHING I have heard about kubernetes is that its a
 pain in the ass to deploy, takes a team to manage, and if you don't have a $1M
-problem to solve don't bother cause k8s will create a $1M problem for you.
+problem to solve don't bother cause k8s will create a $1M problem for you. For
+this reason alone I turned my nose up to k8's and nearly didn't even give it a
+chance. Everyone jokes about blogs and simple sites running on k8s, and how
+rediculous that must be.
+
+> If you don't have a $1M problem to solve don't bother cause k8s will create a $1M problem for you.
 
 ## Let's jump on k3s
 
@@ -148,8 +153,24 @@ export KUBECONFIG=~/.config/kube/k3s.yaml
 
 ## kompose
 
-Since everything I was runnign prior was in docker compose, I found kompose.io
+Since everything I was running prior was in docker compose, I found kompose.io
 to be a fantastic tool to help me start converting my docker deployments into
 kubernetes.
 
 [![screenshot of https://kompose.io/](http://shots.wayl.one/shot/?url=https://kompose.io/&height=450&width=800&scaled_width=800&scaled_height=450&selectors=)](https://kompose.io/)
+
+## A Month Later
+
+I started this post a month ago, and I am still enjoying k3s. For clarity, I
+did have a bit of k8's experience going in, but zero experience running it by
+myself. k3's seems to have made it pretty straightforward so far. My worst
+issues have been with ingress. Docker registries were a bit of a pain due to
+their large blob sizes, and a service I wanted to try to self host (sshx)
+required grpc, which is not supported by cloudflare tunnels.
+
+## TLDR
+
+Don't believe everyone's pre-conceived notions about tech you have never tried.
+Most of these things come from the echo chamber that is twitter anyways.
+Create your own opinions by trying new things, learning for yourself, and
+forming your own opnions.
