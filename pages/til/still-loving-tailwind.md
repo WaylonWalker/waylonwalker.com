@@ -15,6 +15,17 @@ it. I've been using it to create some rapid prototypes that may or may not
 ever become something, a document that is likely to go to print (a resume), and some quick
 dashboards.
 
+## I started using Tailwind a few month back
+
+A few months back in september of 2023 I made [a case for
+tailwindcss](https://waylonwalker.com/a-case-for-tailwindcss/). And have been
+using it on quite a few projects since.
+
+- values are well thought out
+- it's really easy to use
+- classes that make sense
+- tree shakable
+
 ## fokais.com
 
 I started working on fokais.com only a few weeks ago, It's going to be a SAS to
@@ -68,6 +79,52 @@ everything it needs right in the template.
   </a>
   {% endif %}
 </div>
+```
+
+## internal apps
+
+I've built several interal apps, and tailwind has been really great for this.
+Its super quick to pop classes on components and get things to look decent
+quickly, or put some real polish into making them look nice.
+
+## My Website waylonwalker.com
+
+I've dropped my old decrepid css for some tailwind on my main site. My css was
+much smaller, but did not work quite as well on all devices, and most
+importantly was becoming a house of cards. Every time I fixed one thing several
+other things would fail. Colors were a bit muddy, and not as nicely configured
+as tailwind.
+
+> Most importantly was becoming a house of cards. Every time I fixed one thing
+> several other things would fail.
+
+One rough side of styling a blog in tailwind is that you don't necessarily have
+control over granular details of how your pages get rendered without getting
+really deep into the markdown renderer, or writing your posts in html. It ends
+up looking a bit ugly, and is against the tailwind best practices, but it seems
+like the best way for a site like this.
+
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "./highlight.css";
+
+.social {
+  @apply font-bold;
+  @apply flex flex-row;
+  @apply gap-4;
+  @apply justify-center;
+  @apply py-8;
+}
+
+#posts ul ul {
+  @apply backdrop-blur-sm;
+  @apply flex flex-col sm:grid grid-flow-row-dense;
+  @apply gap-4;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  @apply p-4;
+}
 ```
 
 ## grid
