@@ -10,12 +10,18 @@ published: False
 ---
 
 - shots
+- ogs
+  - scrape og info, generate og image
 - drops
 - archives
 - og-links
 - ai-covers
 - ai-summaries
-- ai-voice
+- ai-voice - voices
+
+## Limits
+
+cloudflare file size 100mb <https://developers.cloudflare.com/cache/concepts/default-cache-behavior/>
 
 ## Free Tier
 
@@ -68,3 +74,8 @@ published: False
   - 4096x50 characters
 - 500 covers
   - 4096x50 characters
+
+## existing solutions
+
+- og-images, similar to shots <https://ogimage.org/templates>
+  - $49/mo $99 setupfee

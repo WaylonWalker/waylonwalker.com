@@ -17,8 +17,8 @@ published: True
 
 I've long hosted my personal blog as a static site on waylonwalker.com. It's
 all markdown, converted to html, and shipped as is. It's been great, I've
-moved it from Github Pages, to netlify, tried vercel for a minute, and have
-landed on Cloudflare Pages currently. Each migration has not really been that
+moved it from GitHub Pages, to Netlify, tried Vercel for a minute, and have
+landed on Cloudflare Pages. Each migration has not really been that
 hard, it's just pointing ci to a different host after the site has built.
 
 <a href='https://pages.cloudflare.com/' >

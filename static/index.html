@@ -11,14 +11,17 @@
     <!-- <link rel='stylesheet' href='/fonts.css' />
   <link rel='stylesheet' href='/archive-styles.css' />
   <link rel='stylesheet' href='/article.css' /> -->
-    <link rel='stylesheet' href='https://waylonwalker.com/main.min.css' />
-    <link rel="preload" href="/one-dark.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <link rel="preload" href="/furo-purge.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <!-- <link rel="preload" href="/scroll.css" as="style" onload="this.onload=null;this.rel='stylesheet'"> -->
+    <!-- <link rel='stylesheet' href='https://waylonwalker.com/main.min.css' /> -->
+    <!-- <!-1- <link rel="preload" href="/scroll.css" as="style" onload="this.onload=null;this.rel='stylesheet'"> -1-> -->
+    <!-- <noscript> -->
+    <!--     <!-1- <link rel='stylesheet' href='/scroll.css' /> -1-> -->
+    <!--     <link rel='stylesheet' href='/one-dark.min.css' /> -->
+    <!--     <link rel='stylesheet' href='/furo-purge.min.css' /> -->
+    <!-- </noscript> -->
+
+    <link rel="preload" href="/app.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
     <noscript>
-        <!-- <link rel='stylesheet' href='/scroll.css' /> -->
-        <link rel='stylesheet' href='/one-dark.min.css' />
-        <link rel='stylesheet' href='/furo-purge.min.css' />
+        <link rel="stylesheet" href="/app.css" />
     </noscript>
 
     <link href='8bitcc_48x48.png' rel='apple-touch-icon' sizes='48x48' />
@@ -34,9 +37,12 @@
     <style>
         html {
             background: black;
+            overflow: hidden !important;
         }
 
+
         body {
+            overflow: hidden;
             background: #111;
         }
 
@@ -65,8 +71,12 @@
             text-decoration: none;
         }
 
+        #splash-wrapper {
+            position: relative;
+        }
+
         #splash {
-            position: absolute;
+            position: fixed;
             top: 0;
             left: 0;
             width: 100%;
@@ -112,14 +122,9 @@
             align-items: flex-start;
             backdrop-filter: blur(10px);
             align-self: center;
-            margin-top: 10vh;
+
         }
 
-        #cta {
-            align-items: flex-start;
-            padding: 0 4rem;
-            width: 100vw;
-        }
 
         #cta a.feed {
             text-transform: uppercase;
@@ -168,11 +173,11 @@
     <!-- </script> -->
 </head>
 
-<body>
-    <video autoplay muted id="splash">
-        <source src="https://images.waylonwalker.com/tutorial-splash.webm" type="video/mp4">
+<body class='overflow-hidden'>
+    <video autoplay muted id="splash" class='absolute'>
+        <source src="https://images.waylonwalker.com/tutorial-splash.webm" type="video/mp4" />
     </video>
-    <section id='tagline'>
+    <section id='tagline' class='z-10 absolute'>
         <nav>
             <ul>
                 <li><a href='/'>Home</a></li>
@@ -188,9 +193,9 @@
                 </li>
             </ul>
         </nav>
-        <div class='inner'>
+        <div class='inner absolute'>
             <h1 class='flair'>Waylon Walker</h1>
-            <h2>Always Learning</h2>
+            <h2 class='font-bold'>Always Learning</h2>
             <h3>
                 <a href='https://waylonwalker.com/linux/'>Linux</a>,
                 <a href='https://waylonwalker.com/vim/'>Vim</a>,
@@ -201,59 +206,57 @@
                         style="color:goldenrod;">/packages-i-maintain/</a>
                 </p>
         </div>
-        <div id='about'>
-            <p style='padding-left: 1.5rem;'>
-                👋 <span class='flair' , style='font-size: 1.8rem'>Hey there</span>, I am Waylon Walker
-            </p>
-            <p>
-                I am a Data <strike>Scientist</strike>, <strike>Engineer</strike>, <strike>Person</strike>,
-                <span
-                    style='position: relative; display: inline-block; left: -1rem; top: 1rem; transform: rotate(12deg);'>
-                    ...uh
-                </span>
-            </p>
-            <p>
-                I work with data, and make content about it here.
-            </p>
+        <div class='wrapper flex flex-col h-screen w-full justify-center align-middle'>
+            <div id='about'
+                class='container max-w-screen-md mx-auto prose-lg sm:prose-2xl rounded px-4 py-2 shadow-xlc shadow-slate-950/80'>
+                <p> 👋 <span>Hey there</span>, I am Waylon Walker
+                </p>
+                <p>
+                    I am a Husband, Father of two beautiful children, Senior Python
+                    Developer currently working in the Data Engineering platform
+                    space. I am a continuous learner, and share my learning in public.
+                </p>
+
+
+            </div>
+            <section id='cta' class='mt-12 mx-auto '>
+                <a class='feed self-center rounded ' href='https://waylonwalker.com/archive/'>check out my <span
+                        class='flair'>feed</span></a>
+            </section>
         </div>
 
-        <!-- <div class='motd' -->
-        <!--     style='background: rgba(80, 25, 80, .9); width: 50%;position:absolute;top:4rem;right:0;padding:.5rem;'> -->
-        <!--     <p>I started a gaming channel on -->
-        <!--         <a href='https://www.youtube.com/channel/UCHuxc1HRsd3aRjvL6C817tQ'>gaming.waylonwalker</a> -->
-        <!-- </div> -->
-
-    </section>
-    <section id='cta'>
-        <a class='feed' href='https://waylonwalker.com/archive/'>check out the <span class='flair'>feed</span></a>
     </section>
 
-    <div class='social-wrapper'>
-        <h2>Socials</h2>
-        <ul class='social'>
-            <li>
-                <a href="https://twitter.com/_WaylonWalker">twitter</a>
-            </li>
-            <li>
-                <a href="https://youtube.com/waylonwalker">youtube</a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/channel/UCHuxc1HRsd3aRjvL6C817tQ">gaming-youtube</a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/waylonwalker/">LinkedIn</a>
-            </li>
-            <li>
-                <a href="https://github.com/WaylonWalker">GitHub</a>
-            </li>
-            <li>
-                <a href="https://dev.to/waylonwalker">Dev.to</a>
-            </li>
-            <li>
-                <a href="https://www.twitch.tv/waylonwalker">twitch</a>
-            </li>
-        </ul>
+    <div class='wrapper flex h-screen w-full justify-center'>
+        <div class='social-wrapper' class='z-10 absolute'>
+            <h2 class='text-center text-xl font-bold'>Socials</h2>
+            <ul class='social'>
+                <li>
+                    <a class='text-2xl' href="https://twitter.com/_WaylonWalker">twitter</a>
+                </li>
+                <li>
+                    <a class='text-2xl' href="https://youtube.com/waylonwalker">youtube</a>
+                </li>
+                <li>
+                    <a class='text-2xl'
+                        href="https://www.youtube.com/channel/UCHuxc1HRsd3aRjvL6C817tQ">gaming-youtube</a>
+                </li>
+                <li>
+                    <a class='text-2xl' href="https://www.linkedin.com/in/waylonwalker/">LinkedIn</a>
+                </li>
+                <li>
+                    <a class='text-2xl' href="https://github.com/WaylonWalker">GitHub</a>
+                </li>
+                <li>
+                    <a class='text-2xl' href="https://dev.to/waylonwalker">Dev.to</a>
+                </li>
+                <li>
+                    <a class='text-2xl' href="https://www.twitch.tv/waylonwalker">twitch</a>
+                </li>
+            </ul>
+        </div>
     </div>
+
 </body>
 
 </html>

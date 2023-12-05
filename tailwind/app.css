@@ -3,6 +3,20 @@
 @tailwind utilities;
 @import "./highlight.css";
 
+audio {
+  filter: sepia(20%) saturate(70%) grayscale(1) contrast(90%) invert(100%);
+  /* -webkit-transition: all 0.2s linear; */
+  /* -moz-transition: all 0.2s linear; */
+  /* -o-transition: all 0.2s linear; */
+  /* transition: all 0.2s linear; */
+  @apply shadow-lg shadow-white rounded-full;
+}
+audio::-webkit-media-controls-panel {
+  @apply bg-zinc-200 rounded text-white fill-white ring-4 ring-zinc-200 shadow-2xl shadow-zinc-900 border-4 border-zinc-900;
+}
+audio {
+  @apply w-full mx-auto;
+}
 .inapage {
   @apply m-0 sm:m-[-2rem];
 }
@@ -37,6 +51,7 @@
 #posts {
   @apply overflow-x-hidden;
 }
+
 #posts ul ul {
   @apply backdrop-blur-sm;
   @apply flex flex-col sm:grid grid-flow-row-dense;
