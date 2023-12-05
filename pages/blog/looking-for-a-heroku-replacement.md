@@ -10,6 +10,11 @@ tags:
 published: True
 ---
 
+<audio controls="controls">
+  <source type="audio/mp3" src="https://dev-app.fokais.com/voice?url=https://waylonwalker.com/looking-for-a-heroku-replacement/"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
+
 I've long hosted my personal blog as a static site on waylonwalker.com. It's
 all markdown, converted to html, and shipped as is. It's been great, I've
 moved it from Github Pages, to netlify, tried vercel for a minute, and have
