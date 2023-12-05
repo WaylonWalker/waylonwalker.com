@@ -209,7 +209,7 @@ src='https://shots.wayl.one/shot/?url=https://kompose.io/&height=450&width=800&s
 height='450'
 width='800'
 />
-<a/>
+</a>
 
 ## A Month Later
 
