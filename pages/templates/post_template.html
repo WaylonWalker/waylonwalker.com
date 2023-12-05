@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" href="/8bitcc.ico" type="image/png" />
     <meta name="og:type" content="website" />
+    <title>{{title|e}}</title>
     <meta name="og:title" name="og:title" content="{{title|e}}" />
     <meta name="twitter:title" name="twitter:title" content="{{title|e}}" />
     <meta name="twitter:card" content="summary_large_image">
@@ -171,10 +172,6 @@
             <div id="post-body" {{ 'data-pagefind-body' if post in markata.feeds.pagefind.posts else '' }}>{{ body }}
             </div>
 
-            <div id="posts" hx-get="https://thoughts.waylonwalker.com/posts/html/" hx-target="#posts"
-                hx-swap="outerHTML" hx-trigger="load"></div>
-
-            <hr />
             <div id="show"></div>
         </article>
         <footer>
