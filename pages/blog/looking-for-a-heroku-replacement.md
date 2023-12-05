@@ -21,7 +21,14 @@ moved it from Github Pages, to netlify, tried vercel for a minute, and have
 landed on Cloudflare Pages currently. Each migration has not really been that
 hard, it's just pointing ci to a different host after the site has built.
 
-[![screenshot of https://pages.cloudflare.com/](https://shots.wayl.one/shot/?url=https://pages.cloudflare.com/&height=450&width=800&scaled_width=800&scaled_height=450&selectors=)](https://pages.cloudflare.com/)
+<a href='https://pages.cloudflare.com/' >
+<img
+    src='https://shots.wayl.one/shot/?url=https://pages.cloudflare.com/&height=450&width=800&scaled_width=800&scaled_height=450&selectors='
+    alt='screenshot of https://pages.cloudflare.com/'
+    height='450'
+    width='800'
+/>
+</a>
 
 ## What about server side
 
@@ -32,7 +39,13 @@ disk all ready for you to use at a moments notice.
 
 ## Honestly
 
-[![screenshot of https://heroku.com](https://shots.wayl.one/shot/?url=https://heroku.com&height=450&width=800&scaled_width=800&scaled_height=450&selectors=)](https://heroku.com)
+<a href='https://heroku.com'>
+<img
+alt='screenshot of https://heroku.com'
+src='https://shots.wayl.one/shot/?url=https://heroku.com&height=450&width=800&scaled_width=800&scaled_height=450&selectors='
+height='450'
+width='800'
+</a>
 
 I never really deployed anything that useful on heroku, but it seems like the
 klenex of the bunch that's why they are in the title. I've moved between
@@ -43,7 +56,13 @@ be using all the time.
 
 ## fly.io
 
-[![screenshot of https://fly.io](https://shots.wayl.one/shot/?url=https://fly.io&height=450&width=800&scaled_width=800&scaled_height=450&selectors=)](https://fly.io)
+<a href='https://fly.io'>
+<img
+src='https://shots.wayl.one/shot/?url=https://fly.io&height=450&width=800&scaled_width=800&scaled_height=450&selectors='
+alt='screenshot of https://fly.io'
+height='450'
+width='800'
+</a>
 
 fly is absolutely amazing to get off the ground. Their cli is top notch. They
 have servers all over the place and have a great interface to get your
@@ -81,7 +100,14 @@ have 8 dedicated cpu, 16GB RAM, 500GB boot disk, and a 4TB hard disk.
 
 ## Cloudflare tunnels
 
-[![screenshot of https://www.cloudflare.com/products/tunnel/](https://shots.wayl.one/shot/?url=https://www.cloudflare.com/products/tunnel/&height=600&width=1200&scaled_width=1200&scaled_height=600&selectors=)](https://www.cloudflare.com/products/tunnel/)
+<a href='https://www.cloudflare.com/products/tunnel/'>
+<img
+alt='screenshot of https://www.cloudflare.com/products/tunnel/'
+src='https://shots.wayl.one/shot/?url=https://www.cloudflare.com/products/tunnel/&height=600&width=1200&scaled_width=1200&scaled_height=600&selectors='
+height='600'
+width='1200'
+/>
+</a>
 
 Cloudflare Tunnels allow me to route traffic to my own server sitting right
 next to me and have it publically accessible. They take care of ssl certs,
@@ -103,7 +129,14 @@ There has to be tools that don't take an enterprise to manage.
 
 ## What about kubernetes
 
-[![screenshot of https://kubernetes.io/](https://shots.wayl.one/shot/?url=https://kubernetes.io/&height=450&width=800&scaled_width=800&scaled_height=450&selectors=)](https://kubernetes.io/)
+<a href='https://kubernetes.io/'>
+<img
+alt='screenshot of https://kubernetes.io/'
+src='https://shots.wayl.one/shot/?url=https://kubernetes.io/&height=450&width=800&scaled_width=800&scaled_height=450&selectors='
+height='450'
+width='800'
+/>
+</a>
 
 In my search I keep seeing kubernetes as the solution, just run k8s, k3s, k0s,
 minikube, or kind. But EVERYTHING I have heard about kubernetes is that its a
@@ -117,7 +150,14 @@ rediculous that must be.
 
 ## Let's jump on k3s
 
-[![screenshot of https://k3s.io/](https://shots.wayl.one/shot/?url=https://k3s.io/&height=450&width=800&scaled_width=800&scaled_height=450&selectors=)](https://k3s.io/)
+<a href='https://k3s.io/'>
+<img
+alt='screenshot of https://k3s.io/'
+src='https://shots.wayl.one/shot/?url=https://k3s.io/&height=450&width=800&scaled_width=800&scaled_height=450&selectors='
+height='450'
+width='800'
+/>
+</a>
 
 I've never ran kubernetes myself, but after seeing it so many times in my
 searches for a fly.io replacement, I decided to give it a shot. I chose k3s as
@@ -162,7 +202,14 @@ Since everything I was running prior was in docker compose, I found kompose.io
 to be a fantastic tool to help me start converting my docker deployments into
 kubernetes.
 
-[![screenshot of https://kompose.io/](https://shots.wayl.one/shot/?url=https://kompose.io/&height=450&width=800&scaled_width=800&scaled_height=450&selectors=)](https://kompose.io/)
+<a href='https://kompose.io/'>
+<img
+alt='screenshot of https://kompose.io'
+src='https://shots.wayl.one/shot/?url=https://kompose.io/&height=450&width=800&scaled_width=800&scaled_height=450&selectors='
+height='450'
+width='800'
+/>
+<a/>
 
 ## A Month Later
 
