@@ -20,10 +20,7 @@
     <link rel="icon" href="/8bitcc.ico" type="image/png" />
     <meta property="monetization" name="monetization" content="$ilp.uphold.com/MGN2ni2YMXaQ" />
 
-    <link rel="preload" href="/app.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-    <noscript>
-        <link rel="stylesheet" href="/app.css" />
-    </noscript>
+    <link rel="stylesheet" href="/app.css" />
     <link href="/manifest.json" rel="manifest" />
     <link href="{{canonical_url}}" rel="canonical" />
     <title>{{title}}</title>
@@ -107,11 +104,7 @@
                 </li>
             </ul>
         </details>
-        <article id="posts">
-            <ul class="list archive-list">
-                {{ body }}
-            </ul>
-        </article>
+        <article id="posts" class="list archive-list">{{ body }}</article>
         <h2 class="text-center">Socials</h2>
         <ul class="social">
             <li>

@@ -1,22 +1,16 @@
 <li class="post group {{post['templateKey']}}">
     <a href="/{{markata.config.path_prefix}}{{ post.slug }}/">
         {% if title | length > 50 %}
-        <h2
-            class="title m-0 py-2 text-white/20 group-hover:text-white {% if post['templateKey'] == 'thoughts' %} text-sm {% else %} text-2xl {% endif %}">
-            {{ title[:50] }}...
-        </h2>
+        <h2>{{ title[:50] }}...</h2>
         {% else %}
-        <h2
-            class="title m-0 py-2 text-white/20 group-hover:text-white {% if post['templateKey'] == 'thoughts' %} text-sm {% else %} text-2xl {% endif %}">
-            {{ title }}
-        </h2>
+        <h2>{{ title }}</h2>
         {% endif %}
         <p class="description p-0 px-1 m-0">{{ post.description|e }}</p>
         <div class="card-footer">
-            <p class="m-0 p-0 text-white/20 group-hover:text-white">
+            <p class="m-0 p-0 text-white/60 group-hover:text-white">
                 {{post['templateKey'].replace('til', 'TIL: Today I Learned')}}
             </p>
-            <p class="m-0 p-0 text-white/20 group-hover:text-white">
+            <p class="m-0 p-0 text-white/60 group-hover:text-white">
                 {{ post.date.year }}-{{ post.date.month }}-{{ post.date.day }}
             </p>
         </div>
