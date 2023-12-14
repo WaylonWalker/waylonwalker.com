@@ -9,7 +9,7 @@
 
 [markata]
 # bump site version to bust GitHub actions cache
-site_version = 21
+site_version = 22
 
 # 2 weeks in seconds
 default_cache_expire = 1209600
