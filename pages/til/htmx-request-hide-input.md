@@ -5,6 +5,7 @@ title: Hiding Form input During htmx Request
 published: true
 tags:
   - webdev
+jinja: false
 ---
 
 I am working on fokais.com's signup page, and I want to hide the form input during
