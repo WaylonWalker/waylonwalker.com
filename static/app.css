@@ -2943,6 +2943,7 @@ article :is(:where(p):not(:where([class~="not-prose"],[class~="not-prose"] *))) 
 article {
   --tw-bg-opacity: 1;
   background-color: rgb(24 24 27 / var(--tw-bg-opacity));
+  border-radius: 1.5rem;
   width: 100%;
 }
 
@@ -3017,6 +3018,10 @@ article {
   }
 }
 
+article {
+  max-width: 48rem;
+}
+
 @media (min-width: 640px) {
   article {
     max-width: 768px;
@@ -3050,7 +3055,6 @@ article {
 article {
   /* @apply min-w-sm; */
   /* @apply sm:max-w-24 md:max-w-screen-md lg:max-w-screen-lg; */
-  border-radius: 0.25rem;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2.5rem;
