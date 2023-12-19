@@ -962,12 +962,20 @@ video {
   aspect-ratio: 800/450;
 }
 
+.h-16 {
+  height: 4rem;
+}
+
 .h-5 {
   height: 1.25rem;
 }
 
 .h-screen {
   height: 100vh;
+}
+
+.w-16 {
+  width: 4rem;
 }
 
 .w-32 {
@@ -1040,6 +1048,10 @@ video {
   flex-wrap: wrap;
 }
 
+.items-center {
+  align-items: center;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -1074,6 +1086,10 @@ video {
 
 .rounded {
   border-radius: 0.25rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .rounded-lg {

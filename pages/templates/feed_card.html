@@ -1,18 +1,21 @@
-<li class="post group {{post['templateKey']}}">
-    <a href="/{{markata.config.path_prefix}}{{ post.slug }}/">
+<li class="post group {{post['templateKey']}} h-entry hentry">
+    <a href="/{{markata.config.path_prefix}}{{ post.slug }}/" class="u-url" rel="bookmark">
         {% if title | length > 50 %}
-        <h2>{{ title[:50] }}...</h2>
+        <h2 class="p-name entry-title">{{ title[:50] }}...</h2>
         {% else %}
-        <h2>{{ title }}</h2>
+        <h2 class="p-name entry-title">{{ title }}</h2>
         {% endif %}
-        <p class="description p-0 px-1 m-0">{{ post.description|e }}</p>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            {{ post.description|e }}
+        </p>
         <div class="card-footer">
-            <p class="m-0 p-0 text-white/60 group-hover:text-white">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
                 {{post['templateKey'].replace('til', 'TIL: Today I Learned')}}
             </p>
-            <p class="m-0 p-0 text-white/60 group-hover:text-white">
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="{{ post.date }}">
                 {{ post.date.year }}-{{ post.date.month }}-{{ post.date.day }}
-            </p>
+            </time>
         </div>
     </a>
 </li>
