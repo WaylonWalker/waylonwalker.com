@@ -57,6 +57,22 @@
         });
 
     </script>
+    <script type="application/ld+json">
+    {
+     "@context": "https://schema.org/",
+     "@type": "WebPage",
+     "name": "{{title|e}}",
+     "speakable":
+     {
+      "@type": "SpeakableSpecification",
+      "cssSelector": [
+        "#title",
+        "#post-body"
+        ]
+      },
+     "url": "{{canonical_url}}"
+     }
+    </script>
 </head>
 
 <body position="relative">
