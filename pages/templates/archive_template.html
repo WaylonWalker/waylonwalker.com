@@ -19,6 +19,7 @@
     <meta name="twitter:description" name="twitter:description" content="{{description}}" />
     <link rel="icon" href="/8bitcc.ico" type="image/png" />
     <meta property="monetization" name="monetization" content="$ilp.uphold.com/MGN2ni2YMXaQ" />
+    <link rel="authorization_endpoint" href="https://indieauth.com/auth">
 
     <link rel="stylesheet" href="/app.css" />
     <link href="/manifest.json" rel="manifest" />
@@ -46,7 +47,7 @@
         </nav>
         <ul class="social">
             <li>
-                <a href="https://twitter.com/_WaylonWalker">twitter</a>
+                <a href="https://twitter.com/_WaylonWalker" rel='me'>twitter</a>
             </li>
             <li>
                 <a href="https://youtube.com/waylonwalker">youtube</a>
@@ -58,7 +59,7 @@
                 <a href="https://www.linkedin.com/in/waylonwalker/">LinkedIn</a>
             </li>
             <li>
-                <a href="https://github.com/WaylonWalker">GitHub</a>
+                <a href="https://github.com/WaylonWalker" rel='me'>GitHub</a>
             </li>
             <li>
                 <a href="https://dev.to/waylonwalker">Dev.to</a>
@@ -104,11 +105,13 @@
                 </li>
             </ul>
         </details>
-        <article id="posts" class="list archive-list">{{ body }}</article>
+        <article id="posts" class="h-feed hfeed list archive-list">
+            {{ body }}
+        </article>
         <h2 class="text-center">Socials</h2>
         <ul class="social">
             <li>
-                <a href="https://twitter.com/_WaylonWalker">twitter</a>
+                <a href="https://twitter.com/_WaylonWalker" rel="me">twitter</a>
             </li>
             <li>
                 <a href="https://youtube.com/waylonwalker">youtube</a>
@@ -120,7 +123,7 @@
                 <a href="https://www.linkedin.com/in/waylonwalker/">LinkedIn</a>
             </li>
             <li>
-                <a href="https://github.com/WaylonWalker">GitHub</a>
+                <a href="https://github.com/WaylonWalker" rel="me">GitHub</a>
             </li>
             <li>
                 <a href="https://dev.to/waylonwalker">Dev.to</a>
