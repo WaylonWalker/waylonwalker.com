@@ -3021,7 +3021,7 @@ article {
 article {
   width: -moz-max-content;
   width: max-content;
-  max-width: 42rem;
+  max-width: 48rem;
 }
 
 @media (min-width: 640px) {
