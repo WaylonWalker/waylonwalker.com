@@ -10,6 +10,9 @@ published: False
 ---
 
 - shots
+  - shots templates
+  - gradient backgrounds
+  - premium feature upload your own background
 - ogs
   - scrape og info, generate og image
 - drops
@@ -18,6 +21,7 @@ published: False
 - ai-covers
 - ai-summaries
 - ai-voice - voices
+- image-optimization
 
 ## Limits
 
@@ -39,7 +43,7 @@ cloudflare file size 100mb <https://developers.cloudflare.com/cache/concepts/def
 - 10 covers
   - 4096 characters
 
-## Starter Tier $5
+## Starter Tier $10
 
 - 500 shots
   - 500kb
@@ -47,7 +51,7 @@ cloudflare file size 100mb <https://developers.cloudflare.com/cache/concepts/def
 - 500 drops
   - 500kb
 
-## Hobby Tier $15
+## Hobby Tier $25
 
 - 500 shots
   - 500kb
