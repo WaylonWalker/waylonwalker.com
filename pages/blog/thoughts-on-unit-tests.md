@@ -8,6 +8,11 @@ published: True
 
 ---
 
+<audio controls="controls">
+  <source type="audio/mp3" src="https://dev-app.fokais.com/voice?url=https://waylonwalker.com/thoughts-on-unit-tests/"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
+
 Theo's response puts a lot of my feelings about unit testing into words.  Many
 of us have grown up in this world preaching unit testing.  We often hear these
 statements "Everything must be unit tested, tests make code more maintainable."
@@ -19,7 +24,7 @@ probably the wrong approach.
 ## Most of us are assemblers
 
 So much of software engineering is assembling existing well tested code. Crud
-applications, ui, Data Pipelines, building on top of battle tested code.
+applications, UI, Data Pipelines, building on top of battle tested code.
 
 ## Manufacturing Analogy - Unit Testing
 
