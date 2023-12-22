@@ -8,6 +8,8 @@ published: True
 
 ---
 
+![thoughts on unit tests cover image](https://images.waylonwalker.com/thought-on-unit-tests.png)
+
 <audio controls="controls">
   <source type="audio/mp3" src="https://dev-app.fokais.com/voice?url=https://waylonwalker.com/thoughts-on-unit-tests/"></source>
   <p>Your browser does not support the audio element.</p>
