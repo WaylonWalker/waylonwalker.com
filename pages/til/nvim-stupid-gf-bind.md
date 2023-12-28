@@ -5,6 +5,7 @@ title: nvim stupid gf bind
 published: true
 tags:
   - vim
+jinja: false
 
 ---
 
