@@ -366,12 +366,20 @@ hr {
   @apply hidden;
 }
 
+pre {
+  @apply col-start-1 !important;
+  @apply col-end-5 !important;
+  @apply bg-neutral-950 bg-opacity-0;
+}
 pre.wrapper {
+    @apply flex py-4 min-h-[4rem];
+
+  @apply bg-neutral-950 bg-opacity-100;
   @apply overflow-x-auto;
   @apply relative;
-  @apply py-0;
   /* @apply py-[-2rem]; */
   @apply px-8;
+  @apply shadow-lgc shadow-white/10;
 }
 .highlight pre {
   @apply p-0;
@@ -388,10 +396,6 @@ pre.wrapper {
   fill: white;
 }
 
-pre {
-  @apply col-start-1 !important;
-  @apply col-end-5 !important;
-}
 
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
@@ -433,7 +437,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 .highlight {
-  background: #1f2022;
   color: #eefbfe;
   filter: brightness(0.85);
   border-radius: 0 0 4px 4px;
