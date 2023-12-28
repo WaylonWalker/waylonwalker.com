@@ -4,11 +4,7 @@
 @import "./highlight.css";
 
 audio {
-  filter: sepia(20%) saturate(70%) grayscale(1) contrast(90%) invert(100%);
-  /* -webkit-transition: all 0.2s linear; */
-  /* -moz-transition: all 0.2s linear; */
-  /* -o-transition: all 0.2s linear; */
-  /* transition: all 0.2s linear; */
+  filter: invert(100%);
   @apply shadow-lg shadow-white rounded-full;
 }
 audio::-webkit-media-controls-panel {
@@ -437,7 +433,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 .highlight {
-  min-height: 75px;
   background: #1f2022;
   color: #eefbfe;
   filter: brightness(0.85);
