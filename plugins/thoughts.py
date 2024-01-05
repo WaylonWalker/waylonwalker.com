@@ -15,6 +15,7 @@ def load(markata: "Markata") -> None:
 
     for post in posts:
         post["path"] = f"thoughts-{post['id']}"
+        post["slug"] = f"thoughts-{post['id']}"
         post["templateKey"] = "thoughts"
         post["markata"] = markata
         post[
