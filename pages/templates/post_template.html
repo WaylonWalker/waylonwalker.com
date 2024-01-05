@@ -213,51 +213,52 @@
                 {% endfor %}
             </ul>
 
+        </div>
+        <div class="m-auto my-8 max-w-md rounded rounded-3xl border-2 border-yellow-400 shadow-xlc shadow-yellow-950/50 ad">
             <h2 class='text-center'>Advertisement</h2>
             <p class="mx-4 text-center">Your Ad could be here. I want to
                 connect my readers to relavant ads. If you have a product
                 targeted at developers, let's talk.
-                <a class='block my-6 text-aqua-500'
-                   href='mailto:advertise@waylonwalker.com'>advertise@waylonwalker.com</a>
+                <a class='block my-6 text-aqua-500' href='mailto:advertise@waylonwalker.com'>advertise@waylonwalker.com</a>
             </p>
+        </div>
 
-            <div class="e-content" id="post-body" {{ 'data-pagefind-body' if post in markata.feeds.pagefind.posts
-                 else '' }}>
-                {{ body }}
-            </div>
+        <div class="e-content" id="post-body" {{ 'data-pagefind-body' if post in markata.feeds.pagefind.posts else '' }}>
+            {{ body }}
+        </div>
 
-            <div id="show"></div>
-        </article>
-        <footer>
-            <ul class="social">
-                <li>
-                    <a href="https://twitter.com/_WaylonWalker" rel="me">twitter</a>
-                </li>
-                <li>
-                    <a href="https://youtube.com/waylonwalker">youtube</a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/channel/UCHuxc1HRsd3aRjvL6C817tQ">gaming-youtube</a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/waylonwalker/">LinkedIn</a>
-                </li>
-                <li>
-                    <a href="https://github.com/WaylonWalker" rel="me">GitHub</a>
-                </li>
-                <li>
-                    <a href="https://dev.to/waylonwalker">Dev.to</a>
-                </li>
-                <li>
-                    <a href="https://www.twitch.tv/waylonwalker">twitch</a>
-                </li>
-                <li>
-                    <a href="mailto:hello@waylonwalker.com" rel="me">hello@waylonwalker.com</a>
-                </li>
+        <div id="show"></div>
+    </article>
+    <footer>
+        <ul class="social">
+            <li>
+                <a href="https://twitter.com/_WaylonWalker" rel="me">twitter</a>
+            </li>
+            <li>
+                <a href="https://youtube.com/waylonwalker">youtube</a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/channel/UCHuxc1HRsd3aRjvL6C817tQ">gaming-youtube</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/waylonwalker/">LinkedIn</a>
+            </li>
+            <li>
+                <a href="https://github.com/WaylonWalker" rel="me">GitHub</a>
+            </li>
+            <li>
+                <a href="https://dev.to/waylonwalker">Dev.to</a>
+            </li>
+            <li>
+                <a href="https://www.twitch.tv/waylonwalker">twitch</a>
+            </li>
+            <li>
+                <a href="mailto:hello@waylonwalker.com" rel="me">hello@waylonwalker.com</a>
+            </li>
 
-            </ul>
-            <p>© {{ date.year }} - {{ today.year }}</p>
-        </footer>
-    </body>
+        </ul>
+        <p>© {{ date.year }} - {{ today.year }}</p>
+    </footer>
+</body>
 
 </html>
