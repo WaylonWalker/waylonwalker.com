@@ -404,34 +404,28 @@ async def get_home(request: Request):
     return config.templates.TemplateResponse("index.html", {"request": request, **data})
 ```
 
-### Filters
+### Globals
 
 I need a nice way to convert the openweathermap timestamps to human readable values.
 
 ``` python
 from datetime import datetime
-from datetime import timezone
 
-templates.env.filters["timestamp"] = lambda u: datetime.fromtimestamp(
-    u, tz=timezone.utc
-).strftime("%B %d, %Y")
+templates.env.globals["datetime"] = datetime
 ```
+
+Then in jinja I can format the `weather.dt` variable like so.
 
 ``` python
-import os
-from rich.console import Console
-
-console = Console()
-
-templates.env.globals["https_url_for"] = https_url_for
-if os.environ.get("ENV") in ["dev", "qa", "prod"]:
-    templates.env.globals["url_for"] = https_url_for
-    console.print("Using HTTPS")
-else:
-    console.print("Using HTTP")
-
-return templates
+{{ datetime.fromtimestamp(weather.dt).strftime(format = '%A') }}
 ```
+
+### Putting it together
+
+I put a get_templates function in my config, and the config object is passed
+the results as config.  Again I copy pasted a function `https_url_for` from
+my other project so that I can use `url_for` in my templates and it work on
+both localhost and production.
 
 ``` python
 import os
@@ -443,6 +437,13 @@ from rich.console import Console
 
 console = Console()
 
+
+@pass_context
+def https_url_for(context: dict, name: str, **path_params: Any) -> str:
+    request = context["request"]
+    http_url = request.url_for(name, **path_params)
+    return str(http_url).replace("http", "https", 1)
+
 def get_templates(config: BaseSettings) -> Jinja2Templates:
     templates = Jinja2Templates(directory="templates")
     templates.env.filters["quote_plus"] = lambda u: quote_plus(str(u))
@@ -452,6 +453,8 @@ def get_templates(config: BaseSettings) -> Jinja2Templates:
     templates.env.globals["https_url_for"] = https_url_for
     templates.env.globals["config"] = config
     templates.env.globals["datetime"] = datetime
+    templates.env.globals["len"] = len
+    templates.env.globals["int"] = int
     console.print(f'Using environment: {os.environ.get("ENV")}')
 
     if os.environ.get("ENV") in ["dev", "qa", "prod"]:
@@ -465,6 +468,82 @@ def get_templates(config: BaseSettings) -> Jinja2Templates:
 
 ## Styles
 
+I've been all in on tailwind lately.  I was a long holdout. I used Sass back in
+2016/2017 when I was first getting into webdev, then went many years just
+straight vanilla.  Tailwind just has some really well thought out color and
+rythm that makes it easy.  I have also really been appreciating the locality of
+behavior part of it.  I can make components in jinja with everything they need.
+
+I set up my `tailwind.config.js` like so.  It includes the typography plugin
+and some extra box shadows that are centered.
+
+``` js
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["templates/**/*.html"],
+  plugins: [require("@tailwindcss/typography")],
+  theme: {
+    extend: {
+      boxShadow: {
+        xlc: "0 0 60px 15px rgba(0, 0, 0, 0.3)",
+        lgc: "0 0 20px 0px rgba(0, 0, 0, 0.3)",
+      },
+
+    },
+  },
+};
+```
+
+For my `tailwind/app.css` I set the background color of the page dark, text
+white, and make the scrollbar not default.
+
+``` css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  @apply bg-zinc-800 text-white autofill:bg-yellow-500;
+}
+
+::-webkit-scrollbar {
+  @apply h-4 w-4;
+}
+
+::-webkit-scrollbar-track {
+  @apply rounded-full bg-zinc-900;
+}
+
+body::-webkit-scrollbar-track {
+  @apply rounded-full bg-pink-600;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply rounded-full bg-zinc-600 hover:bg-zinc-500;
+}
+
+body::-webkit-scrollbar-thumb {
+  @apply rounded-full bg-cyan-500 hover:bg-cyan-400;
+}
+```
+
+### Compiling tailwind
+
+I run tailwind using npx after first installing the typography plugin.  This
+will use my `tailwind.config.js` file, and the `tailwind/app.css` file as
+input, and output to `static/app.css`.
+
+!!! Note
+   --watch will watch for changes, and automatically recompile as you make changes to any templates.
+
+``` bash
+# install the typography plugin
+npm i @tailwindcss/typography
+# compile the css
+npx tailwindcss --input tailwind/app.css --output static/app.css --watch
+```
+
 ## Deployment
 
 ## Docker
@@ -472,3 +551,5 @@ def get_templates(config: BaseSettings) -> Jinja2Templates:
 ## CI
 
 ## K8s
+
+## TEXT BASED
