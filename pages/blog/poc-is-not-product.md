@@ -20,6 +20,8 @@ screenshot of the page.  It converts the url into a key that I can lookup to
 see if I have the shot, if I don't I go get it.  With the open source libraries
 out there, this is not too hard of a task.
 
+### Progress Thus Far
+
 * /shot
 
 > But this wasn't enough
@@ -34,6 +36,9 @@ users, login, logout, and email recovery.  I've never had to use an email
 service before that wasn't already mandated by a company or an iternal smtp
 server.  After some searching I chose resend for email.
 
+### Progress thus far
+
+* /shot
 * email service for account recovery
 * database to store users
 * /login
@@ -58,6 +63,18 @@ config inside of stripe.  I setup a pricing page with jinja based on the data
 right out of stripe, a way to create checkout sessions, a page to come back to
 once you have executed a checkout, and a way to cancel your subscription.
 
+### Progress thus far
+
+* /shot
+* email service for account recovery
+* database to store users
+* /login
+* /forgot-password
+* /recover-account
+* /logout
+* /signup
+* /access-token
+* /account
 * stripe account
 * stripe api integration
 * /pricing
@@ -74,6 +91,25 @@ subscription might have a watermark, while a higher tier will remove the
 watermark.  Now I need a way to track shots per user, and keep them up to date
 with subscriptions.
 
+### Progress thus far
+
+* /shot
+* email service for account recovery
+* database to store users
+* /login
+* /forgot-password
+* /recover-account
+* /logout
+* /signup
+* /access-token
+* /account
+* stripe account
+* stripe api integration
+* /pricing
+* /create-checkout-session
+* /checkout-success
+* /cancel-subscription
+* /reactivate-subscription
 * POST /shot
 * GET /shot/{id}
 
