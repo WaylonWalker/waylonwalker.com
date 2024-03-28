@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0">
+<channel>
+    <title>today</title>
+    <link>https://waylonwalker.com/</link>
+    <description>I write about how I use python and linux in data science.</description>
+    <generator>Markata</generator>
+    <image>
+        <url>static/8bitcc.png</url>
+        <link>https://waylonwalker.com/</link>
+    </image>
+    <language>en</language>
+
+  <item>
+      <title>Sealed Secrets</title>
+      <link>https://waylonwalker.com//thoughts-229</link>
+      <description>Here kubeseal is a pretty simple to get started with way to manage secrets such that they can be stored in a git repo and be picked up by your continuous delive</description>
+      <guid>https://waylonwalker.com//thoughts-229</guid>
+      <pubDate>2024-03-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+<lastBuildDate></lastBuildDate>
+</channel>
+</rss>

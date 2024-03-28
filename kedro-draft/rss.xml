@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0">
+<channel>
+    <title>kedro_draft</title>
+    <link>https://waylonwalker.com/</link>
+    <description>I write about how I use python and linux in data science.</description>
+    <generator>Markata</generator>
+    <image>
+        <url>static/8bitcc.png</url>
+        <link>https://waylonwalker.com/</link>
+    </image>
+    <language>en</language>
+
+  <item>
+      <title>Kedro-Broken-Urls</title>
+      <link>https://waylonwalker.com//kedro-broken-urls</link>
+      <description>[ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [</description>
+      <guid>https://waylonwalker.com//kedro-broken-urls</guid>
+      <pubDate>2021-10-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Kedro Pipeline Create</title>
+      <link>https://waylonwalker.com//kedro-pipeline-create</link>
+      <description>Kedro pipeline create is a command that makes creating new https://youtu.be/HtyIKqlEoNw The kedro cli comes with the following command to scaffold out The direc</description>
+      <guid>https://waylonwalker.com//kedro-pipeline-create</guid>
+      <pubDate>2021-08-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Upcoming Stream</title>
+      <link>https://waylonwalker.com//upcoming-streams</link>
+      <description>I am starting to stream 3 days per week, before I start work in the morning. On Monday kedro-diff test kedro-diff on piplines with history setup deploy pipeline</description>
+      <guid>https://waylonwalker.com//upcoming-streams</guid>
+      <pubDate>2021-06-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Comprehensive Guide To Creating Kedro Nodes</title>
+      <link>https://waylonwalker.com//kedro-node</link>
+      <description>The Kedro node is an essential part of the pipeline. It defines what catalog 👆 Unsure what kedro is? Check out this post. The node function is the most common a</description>
+      <guid>https://waylonwalker.com//kedro-node</guid>
+      <pubDate>2021-06-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Creating Pypi-List With Kedro</title>
+      <link>https://waylonwalker.com//kedro-pypi-list</link>
+      <description>I had an idea come to me via twitter. Short one word name packages are becoming I started with the simple index.  Pypi provides a single page listing to every</description>
+      <guid>https://waylonwalker.com//kedro-pypi-list</guid>
+      <pubDate>2021-05-23</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Vim Fugitive</title>
+      <link>https://waylonwalker.com//vim-fugitive</link>
+      <description>:on This one has nothing to do with fugitive, but is a native vim feature that C-i jump The jumplist is sorted Oldest to newest When navigating the jumplist wit</description>
+      <guid>https://waylonwalker.com//vim-fugitive</guid>
+      <pubDate>2021-05-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Custom Kedro Logger</title>
+      <link>https://waylonwalker.com//custom-kedro-logger</link>
+      <description>DRAFT -</description>
+      <guid>https://waylonwalker.com//custom-kedro-logger</guid>
+      <pubDate>2021-05-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Testing Data Pipelines</title>
+      <link>https://waylonwalker.com//testing-data-pipelines</link>
+      <description>Thinking through testing best practices for Data Pipelines</description>
+      <guid>https://waylonwalker.com//testing-data-pipelines</guid>
+      <pubDate>2020-11-16</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+<lastBuildDate></lastBuildDate>
+</channel>
+</rss>

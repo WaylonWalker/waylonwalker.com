@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width" name="viewport"/>
+<link href="/8bitcc.ico" rel="icon" type="image/png"/>
+<meta content="website" name="og:type"/>
+<title>Clean Up Your Data Science With Named Tuples</title>
+<meta content="Clean Up Your Data Science With Named Tuples" name="og:title"/>
+<meta content="Clean Up Your Data Science With Named Tuples" name="twitter:title"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="http://shots.wayl.one/shot/?url=https://waylonwalker.com/named-tuples-data-science&amp;height=640&amp;width=1280&amp;scaled_width=1280&amp;scaled_height=640" name="og:image"/>
+<meta content="http://shots.wayl.one/shot/?url=https://waylonwalker.com/named-tuples-data-science&amp;height=600&amp;width=1200&amp;scaled_width=1200&amp;scaled_height=600" name="twitter:image"/>
+<meta content="640" name="og:image:height"/>
+<meta content="1280" name="og:image:width"/>
+<meta content="https://waylonwalker.com//named-tuples-data-science" name="og:url"/>
+<meta content="If you are a regular listener of  As you graduate your scripts into modules and libraries you might start to notice that you need to pass a lot of data around t" name="description"/>
+<meta content="If you are a regular listener of  As you graduate your scripts into modules and libraries you might start to notice that you need to pass a lot of data around t" name="og:description"/>
+<meta content="If you are a regular listener of  As you graduate your scripts into modules and libraries you might start to notice that you need to pass a lot of data around t" name="twitter:description"/>
+<meta content="@_waylonwalker" name="twitter:creator"/>
+<meta content="Waylon Walker" name="og:author"/>
+<meta content="Waylon Walker" name="og:site_name"/>
+<meta content="waylon@waylonwalker.com" name="og:author_email"/>
+<meta content="markata 0.8.0.dev6" name="generator"/>
+<meta content="$ilp.uphold.com/MGN2ni2YMXaQ" name="monetization"/>
+<meta content="#322D39" name="theme-color"/>
+<link href="https://indieauth.com/auth" rel="authorization_endpoint"/>
+<link href="https://tokens.indieauth.com/token" rel="token_endpoint"/>
+<link href="https://waylonwalker.com/archive" rel="micropub"/>
+<link href="https://webmention.io/waylonwalker.com/webmention" rel="webmention"/>
+<link href="" rel="canonical"/>
+<link href="https://waylonwalker.com/named-tuples-data-science/amp/" rel="amphtml"/>
+<meta content="$ilp.uphold.com/MGN2ni2YMXaQ" name="monetization" property="monetization"/>
+<!-- <link rel="preload" href="/app.css" as="style" onload="this.onload=null;this.rel='stylesheet'" /> -->
+<!-- <noscript> -->
+<!--     <link rel="stylesheet" href="/app.css" /> -->
+<!-- </noscript> -->
+<link href="/app.css" rel="stylesheet"/>
+<link href="/8bitcc_48x48.png" rel="apple-touch-icon" sizes="48x48"/>
+<link href="/8bitcc_72x72.png" rel="apple-touch-icon" sizes="72x72"/>
+<link href="/8bitcc_96x96.png" rel="apple-touch-icon" sizes="96x96"/>
+<link href="/8bitcc_144x144.png" rel="apple-touch-icon" sizes="144x144"/>
+<link href="/8bitcc_192x192.png" rel="apple-touch-icon" sizes="192x192"/>
+<link href="/8bitcc_256x256.png" rel="apple-touch-icon" sizes="256x256"/>
+<link href="/8bitcc_384x384.png" rel="apple-touch-icon" sizes="384x384"/>
+<link href="/8bitcc_512x512.png" rel="apple-touch-icon" sizes="512x512"/>
+<script>
+            navigator.serviceWorker.getRegistrations().then(function (registrations) {
+                for (let registration of registrations) {
+                    registration.unregister();
+                }
+            });
+
+        </script>
+<script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "WebPage",
+                "name": "Clean Up Your Data Science With Named Tuples",
+                "headline": "Clean Up Your Data Science With Named Tuples",
+                "datePublished": "2019-09-11",
+                "dateModified": "2019-09-11",
+                "author": {
+                    "@type": "Person",
+                    "name": "Waylon Walker"
+                    "url": "https://waylonwalker.com"
+                },
+                "image": [
+                    "https://shots.wayl.one/shot/?url=https://waylonwalker.com/named-tuples-data-science&height=640&width=1280&scaled_width=1280&scaled_height=640",
+                ]
+                "speakable":
+                {
+                    "@type": "SpeakableSpecification",
+                    "cssSelector": [
+                        "#title",
+                        "#post-body"
+                    ]
+                },
+                "url": "https://waylonwalker.com/named-tuples-data-science"
+            }
+        </script>
+<link href="/manifest.json" rel="manifest"/></head>
+<body position="relative">
+<div class="neon-ring"></div>
+<div class="dubs">
+<nav>
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/archive/">Archive</a></li>
+<li>
+<a aria-label="RSS" href="/rss.xml">
+<svg class="icon" height="16" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+<path d="M 4 4.44 v 2.83 c 7.03 0 12.73 5.7 12.73 12.73 h 2.83 c 0 -8.59 -6.97 -15.56 -15.56 -15.56 Z m 0 5.66 v 2.83 c 3.9 0 7.07 3.17 7.07 7.07 h 2.83 c 0 -5.47 -4.43 -9.9 -9.9 -9.9 Z M 6.18 15.64 A 2.18 2.18 0 0 1 6.18 20 A 2.18 2.18 0 0 1 6.18 15.64" fill="currentColor">
+</path>
+</svg>
+</a>
+</li>
+<!-- <li style='background: white; height: 100%; z-index: 9999; width: 30rem; '> -->
+<!--     <div position="relative"> -->
+<!--         <link href="/pagefind/pagefind-ui.css" rel="stylesheet"> -->
+<!--         <script src="/pagefind/pagefind-ui.js"></script> -->
+<!--         <style> -->
+<!--             :root { -->
+<!--                 --pagefind-ui-scale: .8; -->
+<!--                 --pagefind-ui-primary: #034ad8; -->
+<!--                 --pagefind-ui-text: #393939; -->
+<!--                 --pagefind-ui-background: #ffffff; -->
+<!--                 --pagefind-ui-border: #eeeeee; -->
+<!--                 --pagefind-ui-tag: #eeeeee; -->
+<!--                 --pagefind-ui-border-width: 2px; -->
+<!--                 --pagefind-ui-border-radius: 4px; -->
+<!--                 --pagefind-ui-image-border-radius: 8px; -->
+<!--                 --pagefind-ui-image-box-ratio: 3 / 2; -->
+<!--                 --pagefind-ui-font: monospace; -->
+<!--                 --pagefind-ui-primary: #eeeeee; -->
+<!--                 --pagefind-ui-text: #eeeeee; -->
+<!--                 --pagefind-ui-background: #152028; -->
+<!--                 --pagefind-ui-border: #0c141a; -->
+<!--                 --pagefind-ui-tag: #152028; -->
+<!--             } -->
+<!--             .pagefind-ui__drawer { -->
+<!--                 background: var(--pagefind-ui-background); -->
+<!--             } -->
+<!--             .pagefind-ui__drawer li { -->
+<!--                 border-bottom: 1px solid var(--pagefind-ui-border); -->
+<!--             } -->
+<!--             .pagefine-ui .pagefind-ui__form { -->
+<!--                 position: absolute; -->
+<!--                 background: white; -->
+<!--                 background: #130c14 !important; -->
+<!--                 width: 30rem; -->
+<!--             } -->
+<!--             #search { -->
+<!--                 position: absolute; -->
+<!--                 background: white; -->
+<!--                 height: 100%; -->
+<!--                 width: 100%; -->
+<!--                 width: 30rem; -->
+<!--             } -->
+<!--         </style> -->
+<!--         <div id="search"> -->
+<!--         </div> -->
+<!--     </div> -->
+<!-- <script> -->
+<!--     window.addEventListener('DOMContentLoaded', (event) => { -->
+<!--         new PagefindUI({element: "#search", showSubResults: true}); -->
+<!--     }); -->
+<!-- </script> -->
+</ul>
+</nav>
+<article class="blog-post h-entry">
+<div id="title-wrapper">
+<a class="no-underline u-url" href="https://waylonwalker.com/named-tuples-data-science/">
+<h1 class="flair blog title no-link" id="title">
+                        Clean Up Your Data Science With Named Tuples
+                    </h1>
+</a>
+<p class="m-0 sm:m-[-2rem]">
+<time class="dt-published post-date" datetime="2019-09-11" style="text-align: right; z-index: 2">2019-09-11</time>
+</p>
+<div class="flex flex-row h-card p-author space-between" rel="author">
+<img class="m-auto ml-0 w-16 h-16 rounded-full u-photo" src="https://images.waylonwalker.com/8bitc.png"/>
+<div class="content">
+<a class="p-name u-url h-card p-author" href="https://waylonwalker.com/" rel="me">
+<p>
+<span class="p-given-name">Waylon</span>
+<span class="p-family-name">Walker</span>
+</p>
+</a>
+<p class="p-note">
+                            Learning in Public
+                            <a href="https://twitter.com/_WaylonWalker" rel="me">@_WaylonWalker</a>
+</p>
+</div>
+</div>
+<!-- edit -->
+<!-- <p> -->
+<!--     <a href="https://github.com/WaylonWalker/waylonwalker.com/edit/main/pages/blog/named-tuples-data-science.md" -->
+<!--         alt="edit post url" title="edit this post">edit<span role="img" aria-label="">✏️</span></a> -->
+<!-- </p> -->
+</div>
+<h2 class="m-auto max-w-md text-sm text-center text-zinc-500 no-link">Tags<a alt="id" class="heading-permalink" href="#None" title="link to #None"><span class="visually-hidden"></span><svg aria-hidden="true" fill="currentColor" focusable="false" height="1em" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<ul class="flex flex-wrap justify-center p-0 m-auto max-w-md border-yellow-400 tags">
+<li class="px-4 list-none rounded-full ring-1 ring-pink-500">
+<a class="p-category" href="https://waylonwalker.com/python">python</a>
+</li>
+<li class="px-4 list-none rounded-full ring-1 ring-pink-500">
+<a class="p-category" href="https://waylonwalker.com/data">data</a>
+</li>
+</ul>
+<div class="m-auto my-8 max-w-md rounded rounded-3xl border-2 border-yellow-400 shadow-xlc shadow-yellow-950/50 ad">
+<h2 class="text-center">Advertisement<a alt="id" class="heading-permalink" href="#None" title="link to #None"><span class="visually-hidden"></span><svg aria-hidden="true" fill="currentColor" focusable="false" height="1em" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p class="mx-4 text-center">Your Ad could be here. I want to
+                    connect my readers to relavant ads. If you have a product
+                    targeted at developers, let's talk.
+                    <a class="block my-6 text-aqua-500" href="mailto:advertise@waylonwalker.com">advertise@waylonwalker.com</a>
+</p>
+</div>
+<div class="e-content" data-pagefind-body="" id="post-body">
+<p>If you are a regular listener of <a href="https://talkpython.fm">TalkPython</a> or PythonBytes you have hear Michael Kennedy talk about Named Tuples many times, but what are they and how do they fit into my data science workflow.</p>
+<h2>Example<a alt="id" class="heading-permalink" href="#None" title="link to #None"><span class="visually-hidden"></span><svg aria-hidden="true" fill="currentColor" focusable="false" height="1em" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>As you graduate your scripts into modules and libraries you might start to notice that you need to pass a lot of data around to all of the functions that you have created. For example if you are running some analysis utilizing <code>sales</code>, <code>inventory</code>, and <code>pricing</code> data.  You may need to calculate total revenue, inventory on hand.  You may need to pass these data sets into various models to drive production or pricing based on predicted volumes.</p>
+<h2>Load data<a alt="id" class="heading-permalink" href="#None" title="link to #None"><span class="visually-hidden"></span><svg aria-hidden="true" fill="currentColor" focusable="false" height="1em" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>Here we setup functions that can load data from the sales database.  Assume that we also have similar functions to <code>get_inventory</code> and <code>get_pricing</code>.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">get_engine</span><span class="p">():</span>
+    <span class="n">engine</span> <span class="o">=</span> <span class="n">create_engine</span><span class="p">(</span><span class="s1">'postgresql://scott:tiger@localhost:5432/mydatabase'</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">get_sales</span><span class="p">():</span>
+<span class="w">    </span><span class="sd">'''</span>
+<span class="sd">    gets sales history from the sales database</span>
+<span class="sd">    '''</span>
+    <span class="n">engine</span> <span class="o">=</span> <span class="n">get_engine</span><span class="p">()</span>
+    <span class="k">with</span> <span class="n">engine</span><span class="o">.</span><span class="n">connect</span><span class="p">()</span> <span class="k">as</span> <span class="n">con</span><span class="p">:</span>
+        <span class="n">sql</span> <span class="o">=</span> <span class="s1">'''select * from sales.history'''</span>
+        <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_sql</span><span class="p">(</span><span class="n">sql</span><span class="p">,</span> <span class="n">con</span><span class="p">)</span>
+    <span class="n">engine</span><span class="o">.</span><span class="n">dispose</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">df</span>
+
+<span class="k">def</span> <span class="nf">get_inventory</span><span class="p">():</span>
+    <span class="o">...</span>
+
+<span class="k">def</span> <span class="nf">get_pricing</span><span class="p">():</span>
+    <span class="o">...</span>
+</pre></div>
+
+</pre>
+<h3>Create Metrics<a alt="id" class="heading-permalink" href="#None" title="link to #None"><span class="visually-hidden"></span><svg aria-hidden="true" fill="currentColor" focusable="false" height="1em" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h3>
+<p>Here we create our first function to calculate some metrics.  There are likely many of these functions that repeat a similar pattern.  They use similar data and have their own custom logic for calculations and joins.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">calculate_total_revenue</span><span class="p">(</span><span class="n">sales</span><span class="p">,</span> <span class="n">pricing</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">"""calculates the total sales revenue for all of company XYZ"""</span>
+    <span class="n">sales</span> <span class="o">=</span> <span class="n">sales</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">pricing</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">'sku'</span><span class="p">),</span> <span class="n">on</span><span class="o">=</span><span class="s1">'sku'</span><span class="p">)</span>
+    <span class="n">sales</span><span class="p">[</span><span class="s1">'revenue'</span><span class="p">]</span> <span class="o">=</span> <span class="n">sales</span><span class="p">[</span><span class="s1">'qty'</span><span class="p">]</span> <span class="o">*</span> <span class="n">sales</span><span class="p">[</span><span class="s1">'price'</span><span class="p">]</span>
+    <span class="k">return</span> <span class="n">sales</span><span class="p">[</span><span class="s1">'revenue'</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+
+<span class="k">def</span> <span class="nf">calculate_inventory_sale_ratio</span><span class="p">(</span><span class="n">sales</span><span class="p">,</span> <span class="n">inventory</span><span class="p">,</span> <span class="n">pricing</span><span class="p">):</span>
+    <span class="o">...</span>
+
+<span class="k">def</span> <span class="nf">calculate_inventory_sale_ratio</span><span class="p">(</span><span class="n">inventory</span><span class="p">,</span> <span class="n">sales</span><span class="p">):</span>
+    <span class="o">...</span>
+</pre></div>
+
+</pre>
+<p>Furthermore these functions will need to be called somewhere, this might be in a <code>make_report()</code> function that puts this data into an html template to be sent out to stakeholders, or to be served on a website. Notice how we have the same data showing up time and time again.  And sometimes we even ask for it in a different order 😲.It is important to recognize this early in the project before this gets our of hand.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">make_report</span><span class="p">():</span>
+<span class="w">    </span><span class="sd">"""Makes stakeholder report for company XYZ"""</span>
+    <span class="n">sales</span> <span class="o">=</span> <span class="n">get_sales</span><span class="p">()</span>
+    <span class="n">inventory</span> <span class="o">=</span> <span class="n">get_inventory</span><span class="p">()</span>
+    <span class="n">pricing</span> <span class="o">=</span> <span class="n">get_pricing</span><span class="p">()</span>
+
+    <span class="n">revenue</span> <span class="o">=</span> <span class="n">calculate_total_revenue</span><span class="p">(</span><span class="n">sales</span><span class="p">,</span> <span class="n">pricing</span><span class="p">)</span>
+    <span class="n">sales_ratio</span> <span class="o">=</span> <span class="n">inventory_sale_ratio</span><span class="p">(</span><span class="n">sales</span><span class="p">,</span> <span class="n">inventory</span><span class="p">,</span> <span class="n">pricing</span><span class="p">)</span>
+    <span class="n">inventory_sale_ratio</span><span class="p">(</span><span class="n">inventory</span><span class="p">,</span> <span class="n">sales</span><span class="p">)</span>
+</pre></div>
+
+</pre>
+<h3>getting out of hand<a alt="id" class="heading-permalink" href="#None" title="link to #None"><span class="visually-hidden"></span><svg aria-hidden="true" fill="currentColor" focusable="false" height="1em" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h3>
+<p>Along the way our features, models, and out supervisors have all had their own needs and we have added new datasets, and several flags. This is the point at which anxiety starts creeping in.  We start spending a lot of time double checking the order of each call to make sure that we dont make a mistake.  And when someone else touches this model, we know what it looks like and cant help but think, "Oh God I hope they didn't screw up that horrid module!"</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">calculate_total_revenue</span><span class="p">(</span><span class="n">sales</span><span class="p">,</span> <span class="n">pricing</span><span class="p">,</span> <span class="n">inventory</span><span class="p">,</span> <span class="n">stored_at</span><span class="o">=</span><span class="s1">'LAX'</span><span class="p">,</span> <span class="n">min_price</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">start_date</span><span class="o">=</span><span class="s1">'01-01-1999'</span><span class="p">,</span> <span class="n">end_date</span><span class="o">=</span><span class="s1">'01-01-3000'</span><span class="p">):</span>
+    <span class="n">sales</span> <span class="o">=</span> <span class="p">(</span><span class="n">sales</span>
+                <span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">pricing</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">'sku'</span><span class="p">),</span> <span class="n">on</span><span class="o">=</span><span class="s1">'sku'</span><span class="p">)</span>
+                <span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">inventory</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">'sku'</span><span class="p">),</span> <span class="n">on</span><span class="o">=</span><span class="s1">'sku'</span><span class="p">)</span>
+            <span class="p">)</span>
+    <span class="n">sales</span><span class="p">[</span><span class="s1">'revenue'</span><span class="p">]</span> <span class="o">=</span> <span class="n">sales</span><span class="p">[</span><span class="s1">'qty'</span><span class="p">]</span> <span class="o">*</span> <span class="n">sales</span><span class="p">[</span><span class="s1">'price'</span><span class="p">]</span>
+    <span class="n">sales</span>  <span class="o">=</span> <span class="n">sales</span><span class="o">.</span><span class="n">query</span><span class="p">(</span><span class="sa">f</span><span class="s1">'price &gt; </span><span class="si">{</span><span class="n">min_price</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span>
+    <span class="n">sales</span>  <span class="o">=</span> <span class="n">sales</span><span class="o">.</span><span class="n">query</span><span class="p">(</span><span class="sa">f</span><span class="s1">'sale_date &gt; </span><span class="si">{</span><span class="n">min_date</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span>
+    <span class="n">sales</span>  <span class="o">=</span> <span class="n">sales</span><span class="o">.</span><span class="n">query</span><span class="p">(</span><span class="sa">f</span><span class="s1">'sale_date &lt; </span><span class="si">{</span><span class="n">end_date</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">sales</span><span class="p">[</span><span class="s1">'revenue'</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+
+<span class="k">def</span> <span class="nf">calculate_inventory_sale_ratio</span><span class="p">(</span><span class="n">sales</span><span class="p">,</span> <span class="n">pricing</span><span class="p">,</span> <span class="n">inventory</span><span class="p">,</span> <span class="n">stored_at</span><span class="o">=</span><span class="s1">'LAX'</span><span class="p">,</span> <span class="n">min_price</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">start_date</span><span class="o">=</span><span class="s1">'01-01-1999'</span><span class="p">,</span> <span class="n">end_date</span><span class="o">=</span><span class="s1">'01-01-3000'</span><span class="p">):</span>
+    <span class="o">...</span>
+
+<span class="k">def</span> <span class="nf">calculate_inventory_sale_ratio</span><span class="p">(</span><span class="n">sales</span><span class="p">,</span> <span class="n">pricing</span><span class="p">,</span> <span class="n">inventory</span><span class="p">,</span> <span class="n">stored_at</span><span class="o">=</span><span class="s1">'LAX'</span><span class="p">,</span> <span class="n">min_price</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">start_date</span><span class="o">=</span><span class="s1">'01-01-1999'</span><span class="p">,</span> <span class="n">end_date</span><span class="o">=</span><span class="s1">'01-01-3000'</span><span class="p">):</span>
+    <span class="o">...</span>
+
+<span class="k">def</span> <span class="nf">model_new_prices</span><span class="p">(</span><span class="n">sales</span><span class="p">,</span> <span class="n">pricing</span><span class="p">,</span> <span class="n">inventory</span><span class="p">,</span> <span class="n">stored_at</span><span class="o">=</span><span class="s1">'LAX'</span><span class="p">,</span> <span class="n">min_price</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">start_date</span><span class="o">=</span><span class="s1">'01-01-1999'</span><span class="p">,</span> <span class="n">end_date</span><span class="o">=</span><span class="s1">'01-01-3000'</span><span class="p">):</span>
+    <span class="o">...</span>
+
+<span class="k">def</span> <span class="nf">model_production</span><span class="p">(</span><span class="n">sales</span><span class="p">,</span> <span class="n">pricing</span><span class="p">,</span> <span class="n">inventory</span><span class="p">,</span> <span class="n">stored_at</span><span class="o">=</span><span class="s1">'LAX'</span><span class="p">,</span> <span class="n">min_price</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">start_date</span><span class="o">=</span><span class="s1">'01-01-1999'</span><span class="p">,</span> <span class="n">end_date</span><span class="o">=</span><span class="s1">'01-01-3000'</span><span class="p">):</span>
+    <span class="o">...</span>
+
+<span class="k">def</span> <span class="nf">completely_custom_metric_for_steve</span><span class="p">(</span><span class="n">sales</span><span class="p">,</span> <span class="n">pricing</span><span class="p">,</span> <span class="n">inventory</span><span class="p">,</span> <span class="n">stored_at</span><span class="o">=</span><span class="s1">'LAX'</span><span class="p">,</span> <span class="n">min_price</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">start_date</span><span class="o">=</span><span class="s1">'01-01-1999'</span><span class="p">,</span> <span class="n">end_date</span><span class="o">=</span><span class="s1">'01-01-3000'</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">"""Steve has been here 30 years and doesnt trust our metrics unless he can validate against the old metrics"""</span>
+    <span class="o">...</span>
+</pre></div>
+
+</pre>
+<p>It gets even crazier when you start calling all of these functions! Note that we have a common theme of the same data getting passed into</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">make_report</span><span class="p">(</span><span class="n">stored_at</span><span class="o">=</span><span class="s1">'LAX'</span><span class="p">,</span> <span class="n">min_price</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">start_date</span><span class="o">=</span><span class="s1">'01-01-1999'</span><span class="p">,</span> <span class="n">end_date</span><span class="o">=</span><span class="s1">'01-01-3000'</span><span class="p">,</span> <span class="n">is_for_steve</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">"""Makes stakeholder report for company XYZ"""</span>
+    <span class="n">sales</span> <span class="o">=</span> <span class="n">get_sales</span><span class="p">()</span>
+    <span class="n">inventory</span> <span class="o">=</span> <span class="n">get_inventory</span><span class="p">()</span>
+    <span class="n">pricing</span> <span class="o">=</span> <span class="n">get_pricing</span><span class="p">()</span>
+
+    <span class="n">revenue</span> <span class="o">=</span> <span class="n">calculate_total_revenue</span><span class="p">(</span><span class="n">stored_at</span><span class="o">=</span><span class="s1">'LAX'</span><span class="p">,</span> <span class="n">min_price</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">start_date</span><span class="o">=</span><span class="s1">'01-01-1999'</span><span class="p">,</span> <span class="n">end_date</span><span class="o">=</span><span class="s1">'01-01-3000'</span><span class="p">)</span>
+    <span class="n">sales_ratio</span> <span class="o">=</span> <span class="n">sales_ratio</span> <span class="o">=</span> <span class="n">inventory_sale_ratio</span><span class="p">(</span><span class="n">stored_at</span><span class="o">=</span><span class="s1">'LAX'</span><span class="p">,</span> <span class="n">min_price</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">start_date</span><span class="o">=</span><span class="s1">'01-01-1999'</span><span class="p">,</span> <span class="n">end_date</span><span class="o">=</span><span class="s1">'01-01-3000'</span><span class="p">)</span>
+    <span class="n">inventory_sale_ratio</span> <span class="o">=</span> <span class="n">inventory_sale_ratio</span><span class="p">(</span><span class="n">stored_at</span><span class="o">=</span><span class="s1">'LAX'</span><span class="p">,</span> <span class="n">min_price</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">start_date</span><span class="o">=</span><span class="s1">'01-01-1999'</span><span class="p">,</span> <span class="n">end_date</span><span class="o">=</span><span class="s1">'01-01-3000'</span><span class="p">)</span>
+    <span class="n">predicted_prices</span> <span class="o">=</span> <span class="n">model_new_prices</span><span class="p">(</span><span class="n">stored_at</span><span class="o">=</span><span class="s1">'LAX'</span><span class="p">,</span> <span class="n">min_price</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">start_date</span><span class="o">=</span><span class="s1">'01-01-1999'</span><span class="p">,</span> <span class="n">end_date</span><span class="o">=</span><span class="s1">'01-01-3000'</span><span class="p">)</span>
+    <span class="n">predicted_production_rates</span> <span class="o">=</span> <span class="n">model_production_rate</span><span class="p">(</span><span class="n">stored_at</span><span class="o">=</span><span class="s1">'LAX'</span><span class="p">,</span> <span class="n">min_price</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">start_date</span><span class="o">=</span><span class="s1">'01-01-1999'</span><span class="p">,</span> <span class="n">end_date</span><span class="o">=</span><span class="s1">'01-01-3000'</span><span class="p">)</span>
+    <span class="n">completely_custom_metric_for_steve</span><span class="p">(</span><span class="n">stored_at</span><span class="o">=</span><span class="s1">'LAX'</span><span class="p">,</span> <span class="n">min_price</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">start_date</span><span class="o">=</span><span class="s1">'01-01-1999'</span><span class="p">,</span> <span class="n">end_date</span><span class="o">=</span><span class="s1">'01-01-3000'</span><span class="p">)</span>
+
+    <span class="c1"># render report</span>
+    <span class="o">...</span>
+</pre></div>
+
+</pre>
+<h3>This code Stinks<a alt="id" class="heading-permalink" href="#None" title="link to #None"><span class="visually-hidden"></span><svg aria-hidden="true" fill="currentColor" focusable="false" height="1em" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h3>
+<p>⌚ <em>Time for refactoring</em></p>
+<p>While our code started out good it has grown stinky over time.  It will works fine, but it could be better and more enjoyable to work with.  What we have here is a code smell called <code>data clump</code>.  This is a group of data that always appears together.  It would be appropriate to formally group this data together.  One way to do this in python is to use nametuples.  It is a very simple technique that allows us to define a data structure that contains a specific set of attributes that we can access using <code>.attribute_name</code>.  Replacing this <code>data clump</code> with a formal group of data will allow us to reduce the number of arguments in all of our functions. Add new attributes easily. And not rely on positional arguments.  This code will be easier to maintain, read, and write.</p>
+<blockquote>
+<p>What we have here is a code smell called <code>data clump</code></p>
+</blockquote>
+<p><strong>create a namedtuple</strong></p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">namedtuple</span>
+
+<span class="n">ModelData</span> <span class="o">=</span> <span class="n">namedtuple</span><span class="p">(</span><span class="s1">'modin_data'</span><span class="p">,</span> <span class="s1">'sales pricing inventory stored_at min_price start_date end_date'</span><span class="p">)</span>
+</pre></div>
+
+</pre>
+<p><strong>use the namedtuple</strong></p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">ModelData</span><span class="p">(</span>
+    <span class="n">sales</span><span class="o">=</span><span class="n">get_sales</span><span class="p">(),</span>
+    <span class="n">pricing</span><span class="o">=</span><span class="n">get_pricing</span><span class="p">(),</span>
+    <span class="n">inventory</span><span class="o">=</span><span class="n">get_inventory</span><span class="p">(),</span>
+    <span class="n">stored_at</span><span class="o">=</span><span class="s1">'LAX'</span>
+    <span class="n">min_price</span><span class="o">=</span><span class="mi">100</span>
+    <span class="n">start_date</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">today</span><span class="p">()</span> <span class="o">-</span> <span class="n">datetime</span><span class="o">.</span><span class="n">timedelta</span><span class="p">(</span><span class="n">days</span><span class="o">=</span><span class="mi">30</span><span class="p">)</span>
+    <span class="n">end_date</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">today</span><span class="p">()</span>
+    <span class="p">)</span>
+</pre></div>
+
+</pre>
+<p><strong>refactor functions</strong>
+Now that we have a clean data object how do we use it.  Simple, we pass in one data object, then access each attribute with the dot operator. These functions are now much cleaner to call and read.  Here I have chosen a poor name for our <code>data</code>, but in a real scenario you may have multple <code>namedtuples</code>.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">calculate_total_revenue</span><span class="p">(</span><span class="n">data</span><span class="p">):</span>
+    <span class="n">sales</span> <span class="o">=</span> <span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">sales</span>
+                <span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">pricing</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">'sku'</span><span class="p">),</span> <span class="n">on</span><span class="o">=</span><span class="s1">'sku'</span><span class="p">)</span>
+                <span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">inventory</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">'sku'</span><span class="p">),</span> <span class="n">on</span><span class="o">=</span><span class="s1">'sku'</span><span class="p">)</span>
+            <span class="p">)</span>
+    <span class="n">sales</span><span class="p">[</span><span class="s1">'revenue'</span><span class="p">]</span> <span class="o">=</span> <span class="n">sales</span><span class="p">[</span><span class="s1">'qty'</span><span class="p">]</span> <span class="o">*</span> <span class="n">sales</span><span class="p">[</span><span class="s1">'price'</span><span class="p">]</span>
+    <span class="n">sales</span>  <span class="o">=</span> <span class="n">sales</span><span class="o">.</span><span class="n">query</span><span class="p">(</span><span class="sa">f</span><span class="s1">'price &gt; </span><span class="si">{</span><span class="n">data</span><span class="o">.</span><span class="n">min_price</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span>
+    <span class="n">sales</span>  <span class="o">=</span> <span class="n">sales</span><span class="o">.</span><span class="n">query</span><span class="p">(</span><span class="sa">f</span><span class="s1">'sale_date &gt; </span><span class="si">{</span><span class="n">data</span><span class="o">.</span><span class="n">min_date</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span>
+    <span class="n">sales</span>  <span class="o">=</span> <span class="n">sales</span><span class="o">.</span><span class="n">query</span><span class="p">(</span><span class="sa">f</span><span class="s1">'sale_date &lt; </span><span class="si">{</span><span class="n">data</span><span class="o">.</span><span class="n">end_date</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">sales</span><span class="p">[</span><span class="s1">'revenue'</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+
+<span class="o">...</span>
+</pre></div>
+
+</pre>
+<p><strong>call the function</strong></p>
+<p>Now that all of the data is store in a single object it is really easy to call each of our functions using one data instance.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">make_report</span><span class="p">(</span><span class="n">stored_at</span><span class="o">=</span><span class="s1">'LAX'</span><span class="p">,</span> <span class="n">min_price</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">start_date</span><span class="o">=</span><span class="s1">'01-01-1999'</span><span class="p">,</span> <span class="n">end_date</span><span class="o">=</span><span class="s1">'01-01-3000'</span><span class="p">,</span> <span class="n">is_for_steve</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">"""Makes stakeholder report for company XYZ"""</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="n">ModelData</span><span class="p">(</span><span class="n">stored_at</span><span class="o">=</span><span class="n">stored_at</span><span class="p">,</span> <span class="n">min_price</span><span class="o">=</span><span class="n">min_price</span><span class="p">,</span> <span class="n">start_date</span><span class="o">=</span><span class="n">start_date</span><span class="p">,</span> <span class="n">end_date</span><span class="o">=</span><span class="n">end_date</span><span class="p">)</span>
+
+    <span class="n">revenue</span> <span class="o">=</span> <span class="n">calculate_total_revenue</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+    <span class="n">sales_ratio</span> <span class="o">=</span> <span class="n">sales_ratio</span> <span class="o">=</span> <span class="n">inventory_sale_ratio</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+    <span class="n">inventory_sale_ratio</span> <span class="o">=</span> <span class="n">inventory_sale_ratio</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+    <span class="n">predicted_prices</span> <span class="o">=</span> <span class="n">model_new_prices</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+    <span class="n">predicted_production_rates</span> <span class="o">=</span> <span class="n">model_production_rate</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+    <span class="n">completely_custom_metric_for_steve</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+
+    <span class="c1"># render report</span>
+    <span class="o">...</span>
+</pre></div>
+
+</pre>
+<h3>🧹 Clean up your data science<a alt="id" class="heading-permalink" href="#None" title="link to #None"><span class="visually-hidden"></span><svg aria-hidden="true" fill="currentColor" focusable="false" height="1em" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h3>
+<p>Named Tuples are a great way to clean up your data science code and reduce <code>Data Clumps</code>.  Anytime you have multiple data sets that almost always get used together <code>namedtuple</code>s are a great way to clean up your code, make it more readable and more maintainable.  If you find that you also have functions that are tightly coupled to this data you might want to consider using a <code>class</code> instead of a <code>namedtuple</code>, but that is for another article.</p>
+</div>
+<div id="show"></div>
+</article>
+<footer>
+<ul class="social">
+<li>
+<a href="https://twitter.com/_WaylonWalker" rel="me">twitter</a>
+</li>
+<li>
+<a href="https://youtube.com/waylonwalker">youtube</a>
+</li>
+<li>
+<a href="https://www.youtube.com/channel/UCHuxc1HRsd3aRjvL6C817tQ">gaming-youtube</a>
+</li>
+<li>
+<a href="https://www.linkedin.com/in/waylonwalker/">LinkedIn</a>
+</li>
+<li>
+<a href="https://github.com/WaylonWalker" rel="me">GitHub</a>
+</li>
+<li>
+<a href="https://dev.to/waylonwalker">Dev.to</a>
+</li>
+<li>
+<a href="https://www.twitch.tv/waylonwalker">twitch</a>
+</li>
+<li>
+<a href="mailto:hello@waylonwalker.com" rel="me">hello@waylonwalker.com</a>
+</li>
+</ul>
+<p>© 2019 - 2024</p>
+</footer>
+</div></body>
+</html>

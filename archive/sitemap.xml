@@ -1,0 +1,4233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/sitemap.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-229</loc>
+      <lastmod>2024-03-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//kubernetes-kubeseal</loc>
+      <lastmod>2024-03-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-227</loc>
+      <lastmod>2024-03-26</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-228</loc>
+      <lastmod>2024-03-26</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-224</loc>
+      <lastmod>2024-03-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-223</loc>
+      <lastmod>2024-03-24</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-222</loc>
+      <lastmod>2024-03-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-220</loc>
+      <lastmod>2024-03-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-221</loc>
+      <lastmod>2024-03-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-219</loc>
+      <lastmod>2024-03-19</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-218</loc>
+      <lastmod>2024-03-18</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-215</loc>
+      <lastmod>2024-03-15</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-216</loc>
+      <lastmod>2024-03-15</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-217</loc>
+      <lastmod>2024-03-15</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-214</loc>
+      <lastmod>2024-03-14</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-212</loc>
+      <lastmod>2024-03-09</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-213</loc>
+      <lastmod>2024-03-09</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-208</loc>
+      <lastmod>2024-03-07</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-209</loc>
+      <lastmod>2024-03-07</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-210</loc>
+      <lastmod>2024-03-07</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-211</loc>
+      <lastmod>2024-03-07</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-205</loc>
+      <lastmod>2024-03-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-206</loc>
+      <lastmod>2024-03-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-207</loc>
+      <lastmod>2024-03-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-204</loc>
+      <lastmod>2024-02-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-201</loc>
+      <lastmod>2024-01-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-202</loc>
+      <lastmod>2024-01-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-203</loc>
+      <lastmod>2024-01-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//poc-is-not-product</loc>
+      <lastmod>2024-01-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-197</loc>
+      <lastmod>2024-01-26</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-198</loc>
+      <lastmod>2024-01-26</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-199</loc>
+      <lastmod>2024-01-26</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-200</loc>
+      <lastmod>2024-01-26</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-196</loc>
+      <lastmod>2024-01-14</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-195</loc>
+      <lastmod>2024-01-12</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//nvim-stupid-gf-bind</loc>
+      <lastmod>2023-12-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-194</loc>
+      <lastmod>2023-12-26</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-193</loc>
+      <lastmod>2023-12-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-192</loc>
+      <lastmod>2023-12-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-on-unit-tests</loc>
+      <lastmod>2023-12-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-191</loc>
+      <lastmod>2023-12-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-189</loc>
+      <lastmod>2023-12-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-190</loc>
+      <lastmod>2023-12-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-187</loc>
+      <lastmod>2023-12-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-188</loc>
+      <lastmod>2023-12-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//cli-auth</loc>
+      <lastmod>2023-12-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-184</loc>
+      <lastmod>2023-12-15</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-185</loc>
+      <lastmod>2023-12-15</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-186</loc>
+      <lastmod>2023-12-15</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-182</loc>
+      <lastmod>2023-12-14</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-183</loc>
+      <lastmod>2023-12-14</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//htmx-request-hide-input</loc>
+      <lastmod>2023-12-14</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-178</loc>
+      <lastmod>2023-12-13</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-179</loc>
+      <lastmod>2023-12-13</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-180</loc>
+      <lastmod>2023-12-13</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-181</loc>
+      <lastmod>2023-12-13</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-176</loc>
+      <lastmod>2023-12-12</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-177</loc>
+      <lastmod>2023-12-12</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-175</loc>
+      <lastmod>2023-12-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//stripe-cancellations</loc>
+      <lastmod>2023-12-09</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-174</loc>
+      <lastmod>2023-12-07</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-172</loc>
+      <lastmod>2023-12-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-173</loc>
+      <lastmod>2023-12-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//looking-for-a-heroku-replacement</loc>
+      <lastmod>2023-12-04</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-169</loc>
+      <lastmod>2023-11-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-170</loc>
+      <lastmod>2023-11-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-171</loc>
+      <lastmod>2023-11-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//still-loving-tailwind</loc>
+      <lastmod>2023-11-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-168</loc>
+      <lastmod>2023-11-29</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-167</loc>
+      <lastmod>2023-11-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-163</loc>
+      <lastmod>2023-11-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-164</loc>
+      <lastmod>2023-11-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-165</loc>
+      <lastmod>2023-11-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-162</loc>
+      <lastmod>2023-11-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-161</loc>
+      <lastmod>2023-11-14</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-160</loc>
+      <lastmod>2023-11-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-158</loc>
+      <lastmod>2023-11-05</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-157</loc>
+      <lastmod>2023-10-31</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-155</loc>
+      <lastmod>2023-10-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-156</loc>
+      <lastmod>2023-10-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-152</loc>
+      <lastmod>2023-10-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-153</loc>
+      <lastmod>2023-10-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-154</loc>
+      <lastmod>2023-10-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-151</loc>
+      <lastmod>2023-10-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-149</loc>
+      <lastmod>2023-10-23</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-146</loc>
+      <lastmod>2023-10-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-147</loc>
+      <lastmod>2023-10-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-148</loc>
+      <lastmod>2023-10-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-142</loc>
+      <lastmod>2023-10-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-143</loc>
+      <lastmod>2023-10-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-144</loc>
+      <lastmod>2023-10-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-145</loc>
+      <lastmod>2023-10-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-140</loc>
+      <lastmod>2023-10-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-141</loc>
+      <lastmod>2023-10-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-139</loc>
+      <lastmod>2023-10-19</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-135</loc>
+      <lastmod>2023-10-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-136</loc>
+      <lastmod>2023-10-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-137</loc>
+      <lastmod>2023-10-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-138</loc>
+      <lastmod>2023-10-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-133</loc>
+      <lastmod>2023-10-14</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-134</loc>
+      <lastmod>2023-10-14</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-132</loc>
+      <lastmod>2023-10-12</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-130</loc>
+      <lastmod>2023-10-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-131</loc>
+      <lastmod>2023-10-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-128</loc>
+      <lastmod>2023-10-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-129</loc>
+      <lastmod>2023-10-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-126</loc>
+      <lastmod>2023-10-08</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-127</loc>
+      <lastmod>2023-10-08</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-122</loc>
+      <lastmod>2023-10-05</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-123</loc>
+      <lastmod>2023-10-05</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-124</loc>
+      <lastmod>2023-10-05</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//fastapi-static-content</loc>
+      <lastmod>2023-10-04</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//jpillora-installer</loc>
+      <lastmod>2023-10-04</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-120</loc>
+      <lastmod>2023-10-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-121</loc>
+      <lastmod>2023-10-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-119</loc>
+      <lastmod>2023-10-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//set-up-minio-bucket-entrypoint</loc>
+      <lastmod>2023-10-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-116</loc>
+      <lastmod>2023-09-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-117</loc>
+      <lastmod>2023-09-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-118</loc>
+      <lastmod>2023-09-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//why-is-postgres-default</loc>
+      <lastmod>2023-09-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-115</loc>
+      <lastmod>2023-09-23</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-114</loc>
+      <lastmod>2023-09-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-112</loc>
+      <lastmod>2023-09-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//tailwind-and-jinja</loc>
+      <lastmod>2023-09-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-111</loc>
+      <lastmod>2023-09-13</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-110</loc>
+      <lastmod>2023-09-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//a-case-for-tailwindcss</loc>
+      <lastmod>2023-09-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-109</loc>
+      <lastmod>2023-09-08</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-107</loc>
+      <lastmod>2023-09-07</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-108</loc>
+      <lastmod>2023-09-07</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//make-the-easy-things-easy</loc>
+      <lastmod>2023-09-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-105</loc>
+      <lastmod>2023-09-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-106</loc>
+      <lastmod>2023-09-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-104</loc>
+      <lastmod>2023-09-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-103</loc>
+      <lastmod>2023-08-26</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-102</loc>
+      <lastmod>2023-08-24</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-100</loc>
+      <lastmod>2023-08-23</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-95</loc>
+      <lastmod>2023-08-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-96</loc>
+      <lastmod>2023-08-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-97</loc>
+      <lastmod>2023-08-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-98</loc>
+      <lastmod>2023-08-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-99</loc>
+      <lastmod>2023-08-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-94</loc>
+      <lastmod>2023-08-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-93</loc>
+      <lastmod>2023-08-19</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-89</loc>
+      <lastmod>2023-08-16</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-90</loc>
+      <lastmod>2023-08-16</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-88</loc>
+      <lastmod>2023-08-15</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-80</loc>
+      <lastmod>2023-08-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-81</loc>
+      <lastmod>2023-08-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-79</loc>
+      <lastmod>2023-08-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-76</loc>
+      <lastmod>2023-08-09</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-77</loc>
+      <lastmod>2023-08-09</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-78</loc>
+      <lastmod>2023-08-09</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-74</loc>
+      <lastmod>2023-08-08</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-75</loc>
+      <lastmod>2023-08-08</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-73</loc>
+      <lastmod>2023-08-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-70</loc>
+      <lastmod>2023-08-05</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-71</loc>
+      <lastmod>2023-08-05</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-72</loc>
+      <lastmod>2023-08-05</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-67</loc>
+      <lastmod>2023-08-04</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-68</loc>
+      <lastmod>2023-08-04</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-69</loc>
+      <lastmod>2023-08-04</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-66</loc>
+      <lastmod>2023-08-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-64</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-65</loc>
+      <lastmod>2023-08-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-63</loc>
+      <lastmod>2023-07-31</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-61</loc>
+      <lastmod>2023-07-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-62</loc>
+      <lastmod>2023-07-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-53</loc>
+      <lastmod>2023-07-29</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-54</loc>
+      <lastmod>2023-07-29</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-55</loc>
+      <lastmod>2023-07-29</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-56</loc>
+      <lastmod>2023-07-29</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-57</loc>
+      <lastmod>2023-07-29</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-58</loc>
+      <lastmod>2023-07-29</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-59</loc>
+      <lastmod>2023-07-29</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-60</loc>
+      <lastmod>2023-07-29</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-2</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-3</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-4</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-5</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-6</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-7</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-8</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-9</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-10</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-11</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-12</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-13</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-14</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-15</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-16</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-25</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-26</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-27</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-28</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-29</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-30</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-31</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-32</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-33</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-34</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-35</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-36</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-37</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-38</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-39</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-40</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-42</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-43</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-44</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-45</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-46</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-47</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-48</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-49</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-50</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-51</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//thoughts-52</loc>
+      <lastmod>2023-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//underground-bases-with-wyatt</loc>
+      <lastmod>2023-07-09</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//python-scandir-ignores-hidden-directories</loc>
+      <lastmod>2023-06-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//setting-up-paru</loc>
+      <lastmod>2023-05-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//i-took-a-break</loc>
+      <lastmod>2023-05-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//playing-sw-text-adventure-10-yr-old</loc>
+      <lastmod>2023-05-15</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//pydantic-and-singledispatch</loc>
+      <lastmod>2023-05-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//gh-release</loc>
+      <lastmod>2023-01-23</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//arch-rejects-password</loc>
+      <lastmod>2023-01-19</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//fail-ci-scripts</loc>
+      <lastmod>2022-12-07</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//minecraft-documentary</loc>
+      <lastmod>2022-12-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//ssh-copy-id</loc>
+      <lastmod>2022-12-04</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//ssh-key-permissions</loc>
+      <lastmod>2022-11-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//nvim-navic</loc>
+      <lastmod>2022-10-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//pipx-textual-devtools</loc>
+      <lastmod>2022-10-24</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//textual-app-devtools</loc>
+      <lastmod>2022-10-24</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//obs-virtual-camera-on-boot</loc>
+      <lastmod>2022-10-18</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//localstack-status-permission</loc>
+      <lastmod>2022-10-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//markata-supports-jinja-plugins-0-5-0-dev2</loc>
+      <lastmod>2022-10-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//django-rest-framework-getting-started</loc>
+      <lastmod>2022-10-09</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//markata-now-uses-hatch</loc>
+      <lastmod>2022-10-08</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//django-create-superuser</loc>
+      <lastmod>2022-09-26</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//django-disallowed-host</loc>
+      <lastmod>2022-09-26</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//trying-out-django</loc>
+      <lastmod>2022-09-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//jinja2-escape</loc>
+      <lastmod>2022-09-24</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//use-ipython-extensions</loc>
+      <lastmod>2022-09-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//markata-configure-head</loc>
+      <lastmod>2022-09-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//hatch-new-cli</loc>
+      <lastmod>2022-09-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//hatch-version</loc>
+      <lastmod>2022-09-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//gh-rm-workflow-runs</loc>
+      <lastmod>2022-09-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//from-markdown-to-blog-with-markata</loc>
+      <lastmod>2022-08-31</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//i-spoke-at-python-web-conf-2022</loc>
+      <lastmod>2022-08-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//packages-i-maintain</loc>
+      <lastmod>2022-08-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//pypi-2fa</loc>
+      <lastmod>2022-08-29</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//talk-python-kedro</loc>
+      <lastmod>2022-08-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//vim-sort-u</loc>
+      <lastmod>2022-08-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//rich-syntax-range-style</loc>
+      <lastmod>2022-08-24</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//vimgrep-open-buffers</loc>
+      <lastmod>2022-08-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//markata-0-3-0</loc>
+      <lastmod>2022-08-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//get-python-package-versions</loc>
+      <lastmod>2022-07-29</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//switched-to-arch</loc>
+      <lastmod>2022-07-23</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//two-new-aliases-for-git</loc>
+      <lastmod>2022-06-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//ipython-q-exit</loc>
+      <lastmod>2022-06-13</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//copier-slugify</loc>
+      <lastmod>2022-06-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//gh-repo-create</loc>
+      <lastmod>2022-06-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//textual-has-devtools</loc>
+      <lastmod>2022-06-09</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//pip-require-virtualenv</loc>
+      <lastmod>2022-06-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//pyenv-no-sqlite3</loc>
+      <lastmod>2022-05-31</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//pyenv-pipx</loc>
+      <lastmod>2022-05-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//vim-plugged-snapshot</loc>
+      <lastmod>2022-05-13</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//markata-todoui-live-replay-4-6-2022</loc>
+      <lastmod>2022-05-12</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//clean-qutebrowser</loc>
+      <lastmod>2022-05-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//qutebroswer-write-config-py</loc>
+      <lastmod>2022-05-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//ewhich</loc>
+      <lastmod>2022-05-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//git-python-all-commits</loc>
+      <lastmod>2022-05-09</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//gpg-sign-git-ssh</loc>
+      <lastmod>2022-05-08</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//review-pull-requests-with-git-worktrees</loc>
+      <lastmod>2022-05-04</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//python-git</loc>
+      <lastmod>2022-04-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//update-copier</loc>
+      <lastmod>2022-04-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//pipx-on-windows</loc>
+      <lastmod>2022-04-18</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//python-sys-excepthook</loc>
+      <lastmod>2022-04-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//linux-tty</loc>
+      <lastmod>2022-04-08</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//pygame-event-queue</loc>
+      <lastmod>2022-04-07</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//pygame-image-load</loc>
+      <lastmod>2022-04-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//pastel-cli</loc>
+      <lastmod>2022-04-05</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//dunk-is-my-new-diff-pager</loc>
+      <lastmod>2022-04-04</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//pygame-boilerplate-apr-2022</loc>
+      <lastmod>2022-04-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//linux-unzip-directory</loc>
+      <lastmod>2022-04-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//site-down</loc>
+      <lastmod>2022-04-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//python-base-exception</loc>
+      <lastmod>2022-03-31</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//python-cache-key</loc>
+      <lastmod>2022-03-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//python-diskcache</loc>
+      <lastmod>2022-03-29</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//python-lru-cache</loc>
+      <lastmod>2022-03-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//pandas-read-csv-user-agent</loc>
+      <lastmod>2022-03-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//python-requests-get</loc>
+      <lastmod>2022-03-26</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//htmx-get</loc>
+      <lastmod>2022-03-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//lookatme-styles</loc>
+      <lastmod>2022-03-24</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//python-frontmatter</loc>
+      <lastmod>2022-03-23</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//python-pep-584</loc>
+      <lastmod>2022-03-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//lookatme-slides</loc>
+      <lastmod>2022-03-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//pathlib-read-text</loc>
+      <lastmod>2022-03-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//vim-markdown-links</loc>
+      <lastmod>2022-03-19</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//linux-swap</loc>
+      <lastmod>2022-03-18</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//python-pathlib-glob</loc>
+      <lastmod>2022-03-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//git-pager</loc>
+      <lastmod>2022-03-16</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//git-config-help-autocorrect</loc>
+      <lastmod>2022-03-15</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//install-yq</loc>
+      <lastmod>2022-03-14</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//pytest-mock-basics</loc>
+      <lastmod>2022-03-14</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//walrus-comprehension</loc>
+      <lastmod>2022-03-12</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//kedro-rich</loc>
+      <lastmod>2022-03-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//git-checkout-worktree</loc>
+      <lastmod>2022-03-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//git-push-default-current</loc>
+      <lastmod>2022-03-09</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//open-ssh-setup</loc>
+      <lastmod>2022-03-08</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//mermaid-highlight</loc>
+      <lastmod>2022-03-07</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//nvr-open-files</loc>
+      <lastmod>2022-03-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//mermaid-subgraphs</loc>
+      <lastmod>2022-03-05</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//dedupe-your-shell-paths</loc>
+      <lastmod>2022-03-04</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//mermaid-html</loc>
+      <lastmod>2022-03-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//bash-mktemp</loc>
+      <lastmod>2022-03-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//git-recover-checkout</loc>
+      <lastmod>2022-03-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//git-find-deleted-files</loc>
+      <lastmod>2022-02-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//git-diff-filter</loc>
+      <lastmod>2022-02-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//textual-popup-hack</loc>
+      <lastmod>2022-02-26</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//install-obs-flatpak</loc>
+      <lastmod>2022-02-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//github-supports-mermaid</loc>
+      <lastmod>2022-02-24</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//git-rebase-root</loc>
+      <lastmod>2022-02-23</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//glances-docker</loc>
+      <lastmod>2022-02-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//git-revive-dead-files</loc>
+      <lastmod>2022-02-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//pipx-w</loc>
+      <lastmod>2022-02-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//git-reflog-is-an-alias</loc>
+      <lastmod>2022-02-19</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//pipx-run-glances</loc>
+      <lastmod>2022-02-18</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//python-nested-requires</loc>
+      <lastmod>2022-02-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//modded-minecraft-in-docker</loc>
+      <lastmod>2022-02-16</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//aws-eventbridge-visidata</loc>
+      <lastmod>2022-02-15</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//tmux-copy-mode-binding</loc>
+      <lastmod>2022-02-13</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//python-string-is-string</loc>
+      <lastmod>2022-02-12</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//linux-bluetoothctl</loc>
+      <lastmod>2022-02-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//popen-stderr</loc>
+      <lastmod>2022-02-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//simple-samba</loc>
+      <lastmod>2022-02-09</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//ag-ahead</loc>
+      <lastmod>2022-02-08</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//docker-minecraft-server</loc>
+      <lastmod>2022-02-07</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//install-rust</loc>
+      <lastmod>2022-02-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//python-markdown-ast-paragraph</loc>
+      <lastmod>2022-02-05</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//neovim-config-for-git</loc>
+      <lastmod>2022-02-04</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//python-dict-get</loc>
+      <lastmod>2022-02-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//nixery-versions-by-commit-count</loc>
+      <lastmod>2022-02-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//bs4-findall-headings</loc>
+      <lastmod>2022-02-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//kedro-lambda-node</loc>
+      <lastmod>2022-01-31</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//global-gitignore-considered-useful</loc>
+      <lastmod>2022-01-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//stow-simulate</loc>
+      <lastmod>2022-01-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//squoosh-cli</loc>
+      <lastmod>2022-01-29</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//kedro-new-dependencies</loc>
+      <lastmod>2022-01-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//practice-kedro</loc>
+      <lastmod>2022-01-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//ubuntu-terminal-clipboard</loc>
+      <lastmod>2022-01-26</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//nix-install-java8</loc>
+      <lastmod>2022-01-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//tmux-copier-templates</loc>
+      <lastmod>2022-01-24</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//markata-telescope-picker</loc>
+      <lastmod>2022-01-23</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//copier-tasks</loc>
+      <lastmod>2022-01-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//gradual-typing-python</loc>
+      <lastmod>2022-01-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//python-reverse-sluggify</loc>
+      <lastmod>2022-01-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//fzf-wallpaper</loc>
+      <lastmod>2022-01-19</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//python-docstring-ast</loc>
+      <lastmod>2022-01-18</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//gitignore-python</loc>
+      <lastmod>2022-01-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//nvim-rename-python</loc>
+      <lastmod>2022-01-16</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//python-find-available-port</loc>
+      <lastmod>2022-01-15</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//python-auto-pdb</loc>
+      <lastmod>2022-01-13</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//convert-markdown-pdf-linux</loc>
+      <lastmod>2022-01-12</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//python-enum</loc>
+      <lastmod>2022-01-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//installing-pipx-on-ubuntu</loc>
+      <lastmod>2022-01-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//2-minutes-to-stow</loc>
+      <lastmod>2022-01-09</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//copier-answers</loc>
+      <lastmod>2022-01-08</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//simple-textual-widget</loc>
+      <lastmod>2022-01-07</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//remove-vim-tab-characters</loc>
+      <lastmod>2022-01-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//tmux-pop-size</loc>
+      <lastmod>2022-01-05</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//copier-endops</loc>
+      <lastmod>2022-01-04</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//copier-template-variables</loc>
+      <lastmod>2022-01-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//kedro-ubuntu-impish</loc>
+      <lastmod>2022-01-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//pluggy-minimal-example</loc>
+      <lastmod>2022-01-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//list-all-files-containing-phrase</loc>
+      <lastmod>2021-12-31</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//pyenv-first-impressions</loc>
+      <lastmod>2021-12-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//installing-homebrew-linux</loc>
+      <lastmod>2021-12-29</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//serve-html-command-line</loc>
+      <lastmod>2021-12-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//nvim-telescope-custom-command</loc>
+      <lastmod>2021-12-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//nvim-telescope-hidden-files</loc>
+      <lastmod>2021-12-26</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//ansible-install-fonts</loc>
+      <lastmod>2021-12-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//ansible-install-if-not-callable</loc>
+      <lastmod>2021-12-24</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//dunder-rich</loc>
+      <lastmod>2021-12-23</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//fugitive-commit-verbose</loc>
+      <lastmod>2021-12-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//pyflyby</loc>
+      <lastmod>2021-12-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//vim-augroup</loc>
+      <lastmod>2021-12-08</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//diffurcate</loc>
+      <lastmod>2021-12-04</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//setup-yamlls</loc>
+      <lastmod>2021-12-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//fuzzy-edit-zsh</loc>
+      <lastmod>2021-12-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//install-nvim-skit</loc>
+      <lastmod>2021-11-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//dotfile-rice-challenge-intro</loc>
+      <lastmod>2021-11-29</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//jut</loc>
+      <lastmod>2021-11-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//kedro-catalog-create-cli</loc>
+      <lastmod>2021-11-15</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//nvim-ides-are-slow</loc>
+      <lastmod>2021-10-29</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//ipython-help</loc>
+      <lastmod>2021-10-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//hacktoberfest-2021</loc>
+      <lastmod>2021-10-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//telegraph-release</loc>
+      <lastmod>2021-10-05</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//kedro-parameters</loc>
+      <lastmod>2021-09-19</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//kedro-your-first-nodes</loc>
+      <lastmod>2021-09-13</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//kedro-run</loc>
+      <lastmod>2021-08-24</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//kedro-environment</loc>
+      <lastmod>2021-08-23</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//kedro-install</loc>
+      <lastmod>2021-08-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//kedro-git-init</loc>
+      <lastmod>2021-08-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//kedro-new</loc>
+      <lastmod>2021-08-18</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//what-is-kedro</loc>
+      <lastmod>2021-08-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//how-i-kedro</loc>
+      <lastmod>2021-08-16</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//tmux-show-messages</loc>
+      <lastmod>2021-08-14</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//tmux-ta</loc>
+      <lastmod>2021-08-13</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//tmux-display-message</loc>
+      <lastmod>2021-08-12</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//tmux-killing-tmux</loc>
+      <lastmod>2021-08-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//tmux-has-session</loc>
+      <lastmod>2021-08-09</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//tmux-list-keys</loc>
+      <lastmod>2021-08-08</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//tmux-status-bar</loc>
+      <lastmod>2021-08-07</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//tmux-source-file</loc>
+      <lastmod>2021-08-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//tmux-fzf-session-jump</loc>
+      <lastmod>2021-08-05</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//tmux-next-prev-session</loc>
+      <lastmod>2021-08-04</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//tmux-start-application</loc>
+      <lastmod>2021-08-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//tmux-rename-session</loc>
+      <lastmod>2021-08-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//tmux-targeted-session</loc>
+      <lastmod>2021-08-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//tmux-detach</loc>
+      <lastmod>2021-08-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//tmux-new-session</loc>
+      <lastmod>2021-08-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//git-in-depth</loc>
+      <lastmod>2021-07-31</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//tmux-attach</loc>
+      <lastmod>2021-07-31</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//tmux-ls</loc>
+      <lastmod>2021-07-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//tmux-command-line</loc>
+      <lastmod>2021-07-29</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//tmux-copy-mode</loc>
+      <lastmod>2021-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//tmux-join-pane</loc>
+      <lastmod>2021-07-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//break-pane</loc>
+      <lastmod>2021-07-26</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//tmux-zoom</loc>
+      <lastmod>2021-07-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//tmux-new-window</loc>
+      <lastmod>2021-07-24</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//tmux-select-pane</loc>
+      <lastmod>2021-07-23</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//tmux-rotate-window</loc>
+      <lastmod>2021-07-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//tmux-select-layout</loc>
+      <lastmod>2021-07-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//tmux-resize-panes</loc>
+      <lastmod>2021-07-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//tmux-choose-tree</loc>
+      <lastmod>2021-07-19</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//tmux-prefix</loc>
+      <lastmod>2021-07-18</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//tmux-splitting-panes</loc>
+      <lastmod>2021-07-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//tmux-last-session</loc>
+      <lastmod>2021-07-16</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//tmux-floating-popups</loc>
+      <lastmod>2021-07-15</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//tmux-popups</loc>
+      <lastmod>2021-07-14</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//kedro-incremental-versioned-datasets</loc>
+      <lastmod>2021-07-08</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//start-streaming</loc>
+      <lastmod>2021-06-12</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//kedro-spaceflights-stream2</loc>
+      <lastmod>2021-06-07</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//digital-gardening-stream-6-6-2021</loc>
+      <lastmod>2021-06-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//kedro-spaceflights-stream1</loc>
+      <lastmod>2021-06-04</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//modal-jumping</loc>
+      <lastmod>2021-06-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//kedro-in-scripts</loc>
+      <lastmod>2021-05-23</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//kedro-silence</loc>
+      <lastmod>2021-05-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//tmux-nav-2021</loc>
+      <lastmod>2021-05-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//trim-branches</loc>
+      <lastmod>2021-05-07</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//if-name-main</loc>
+      <lastmod>2021-05-07</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//symlink-gallery</loc>
+      <lastmod>2021-05-05</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//install-micromamba</loc>
+      <lastmod>2021-04-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//vim-wsl-clipboard</loc>
+      <lastmod>2021-04-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//kedro172-replit</loc>
+      <lastmod>2021-04-15</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//zev-averbach-interview</loc>
+      <lastmod>2021-04-09</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//pytest-capsys</loc>
+      <lastmod>2021-04-05</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//markata-dev-server</loc>
+      <lastmod>2021-03-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//site-down-during-build</loc>
+      <lastmod>2021-03-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//kedro-pipeline-registry</loc>
+      <lastmod>2021-03-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//stand-with-your-team</loc>
+      <lastmod>2021-01-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//blogging-for-me</loc>
+      <lastmod>2021-01-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//minimal-kedro-pipeline</loc>
+      <lastmod>2021-01-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//markdown-cli</loc>
+      <lastmod>2021-01-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//2021-content-strategy</loc>
+      <lastmod>2021-01-19</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//quickly-edit-posts</loc>
+      <lastmod>2021-01-18</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//gitui</loc>
+      <lastmod>2021-01-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//kedro-pickle</loc>
+      <lastmod>2021-01-14</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//quickly-change-conda-env-with-fzf</loc>
+      <lastmod>2021-01-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//vim-replace-visual-star</loc>
+      <lastmod>2021-01-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//minimal-python-package</loc>
+      <lastmod>2021-01-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//if-tmux</loc>
+      <lastmod>2021-01-09</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//neovim-live-substitution</loc>
+      <lastmod>2021-01-04</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//save-vim-macro</loc>
+      <lastmod>2021-01-04</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//newsboat</loc>
+      <lastmod>2021-01-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//refactor-in-cli</loc>
+      <lastmod>2020-12-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//custom-ipython-prompt</loc>
+      <lastmod>2020-12-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//ipython-config</loc>
+      <lastmod>2020-12-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//automating-my-post-starter</loc>
+      <lastmod>2020-12-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//more-itertools-windowed</loc>
+      <lastmod>2020-12-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//audio-for-blog</loc>
+      <lastmod>2020-11-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//expand-one-line-links</loc>
+      <lastmod>2020-11-18</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//gatsby-remark-embedder</loc>
+      <lastmod>2020-11-18</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//find-replace</loc>
+      <lastmod>2020-11-12</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//resume-tips</loc>
+      <lastmod>2020-11-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//codeit-bro-interview</loc>
+      <lastmod>2020-11-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//reasons-to-kedro</loc>
+      <lastmod>2020-11-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//reasons-to-kedro-notes</loc>
+      <lastmod>2020-10-31</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//reading-list</loc>
+      <lastmod>2020-10-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//whats-new-in-kedro-0166</loc>
+      <lastmod>2020-10-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//stories-10-10-2020-10-21-2020</loc>
+      <lastmod>2020-10-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//fix-git-commit-author</loc>
+      <lastmod>2020-10-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//designing-kedro-router</loc>
+      <lastmod>2020-10-08</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//reset-ipython</loc>
+      <lastmod>2020-10-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//strip-trailing-whitespace</loc>
+      <lastmod>2020-09-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//chrome-extensions-i-use</loc>
+      <lastmod>2020-09-13</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//reusable-bash</loc>
+      <lastmod>2020-08-13</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//3-things-to-automate-with-python</loc>
+      <lastmod>2020-08-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//install-miniconda</loc>
+      <lastmod>2020-08-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//crush-dev-to-posts</loc>
+      <lastmod>2020-08-07</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//pariss-athena-on-black-tech-pipeline</loc>
+      <lastmod>2020-08-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//git-auto-commit-action-review</loc>
+      <lastmod>2020-08-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//whats-new-in-kedro-0164</loc>
+      <lastmod>2020-08-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//testproject-io-py-actions</loc>
+      <lastmod>2020-07-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//new-machine-tpio</loc>
+      <lastmod>2020-07-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//practice-python-online</loc>
+      <lastmod>2020-07-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//kedro-catalog</loc>
+      <lastmod>2020-07-24</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//how-python-tools-config</loc>
+      <lastmod>2020-07-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//edit-on-github</loc>
+      <lastmod>2020-07-18</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//why-use-cms</loc>
+      <lastmod>2020-07-14</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//parsing-rss-python</loc>
+      <lastmod>2020-07-13</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//reader</loc>
+      <lastmod>2020-07-12</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//explain-twitter-cards</loc>
+      <lastmod>2020-07-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//whats-on-your-github-profile</loc>
+      <lastmod>2020-07-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//my-github-profile</loc>
+      <lastmod>2020-07-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//python-args-kwargs-slides</loc>
+      <lastmod>2020-07-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//graceful-kedro-catalog</loc>
+      <lastmod>2020-06-29</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//kedro-catalog-search</loc>
+      <lastmod>2020-06-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//eight-years-cat</loc>
+      <lastmod>2020-06-19</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//kedro-inputs</loc>
+      <lastmod>2020-06-19</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//gracefully-redirect</loc>
+      <lastmod>2020-06-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//master-no-more</loc>
+      <lastmod>2020-06-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//python-args-kwargs</loc>
+      <lastmod>2020-06-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//building-kedro-dev</loc>
+      <lastmod>2020-06-05</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//pre-commit-is-awesome</loc>
+      <lastmod>2020-06-05</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//kedro-static-viz-0-3-0</loc>
+      <lastmod>2020-05-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//kedro-class-hooks</loc>
+      <lastmod>2020-05-23</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//gatsby-scripts-with-onload</loc>
+      <lastmod>2020-05-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//brainstorming-kedro-hooks</loc>
+      <lastmod>2020-05-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//devto-comments-from-url</loc>
+      <lastmod>2020-05-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//four-github-actions-website</loc>
+      <lastmod>2020-05-18</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//adding-google-fonts-to-a-gatsbyjs-site</loc>
+      <lastmod>2020-05-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//create-custom-kedro-dataset</loc>
+      <lastmod>2020-05-15</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//interrogate</loc>
+      <lastmod>2020-05-15</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//drawing-ascii-boxes</loc>
+      <lastmod>2020-05-12</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//creating-the-kedro-preflight-hook</loc>
+      <lastmod>2020-05-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//kedro-preflight</loc>
+      <lastmod>2020-05-09</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//maintianing-multiple-git-remotes</loc>
+      <lastmod>2020-05-07</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//find-kedro-release</loc>
+      <lastmod>2020-05-04</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//explicit-vs-implicit-returns-in-javascript</loc>
+      <lastmod>2020-05-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//twitter-deepdives</loc>
+      <lastmod>2020-05-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//python-deepwatch</loc>
+      <lastmod>2020-04-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//bind-dynamic-lambdas</loc>
+      <lastmod>2020-04-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//four-github-actions-python</loc>
+      <lastmod>2020-04-13</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//variable-names-don-t-need-their-type</loc>
+      <lastmod>2020-04-08</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//send-email-with-github-actions</loc>
+      <lastmod>2020-03-31</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//github-actions-syntax</loc>
+      <lastmod>2020-03-16</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//what-are-github-actions</loc>
+      <lastmod>2020-03-16</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//git-diff-branches</loc>
+      <lastmod>2020-03-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//create-new-kedro-project</loc>
+      <lastmod>2020-03-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//data-scientist-advice</loc>
+      <lastmod>2020-02-26</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//do-you-hoist</loc>
+      <lastmod>2020-02-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//what-is-kedro-1</loc>
+      <lastmod>2020-02-24</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//custom-scrollbar-design</loc>
+      <lastmod>2020-02-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//don-t-waste-your-time-learning-everything</loc>
+      <lastmod>2020-02-19</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//2020-rebrand</loc>
+      <lastmod>2020-02-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//react-headroom</loc>
+      <lastmod>2020-02-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//serverless-things-to-investigate</loc>
+      <lastmod>2020-02-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//fix-styled-components-in-gatsby</loc>
+      <lastmod>2020-02-08</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//should-i-switch-to-zeit-now</loc>
+      <lastmod>2020-02-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//git-push-without-setting-upstream</loc>
+      <lastmod>2020-02-04</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//out-of-space</loc>
+      <lastmod>2020-02-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//personal-url-shortener</loc>
+      <lastmod>2020-01-29</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//simple-click</loc>
+      <lastmod>2020-01-29</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//cmd-exe-tips</loc>
+      <lastmod>2020-01-23</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//learn-early</loc>
+      <lastmod>2020-01-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//supercharge-zsh-startup</loc>
+      <lastmod>2020-01-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//keep-location-list-closed</loc>
+      <lastmod>2020-01-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//sqlalchemy-models</loc>
+      <lastmod>2019-12-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//building-cli-apps-in-python</loc>
+      <lastmod>2019-11-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//kedro</loc>
+      <lastmod>2019-11-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//packages-to-investigate</loc>
+      <lastmod>2019-10-14</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//debugging-python</loc>
+      <lastmod>2019-10-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//just-use-pathlib</loc>
+      <lastmod>2019-09-26</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//custom-python-exceptions</loc>
+      <lastmod>2019-09-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//filtering-pandas</loc>
+      <lastmod>2019-09-24</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//digital-ocean</loc>
+      <lastmod>2019-09-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//quick-progress-bars-in-python-using-tqdm</loc>
+      <lastmod>2019-09-18</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//named-tuples-data-science</loc>
+      <lastmod>2019-09-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//python-data-science-background</loc>
+      <lastmod>2019-09-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//bash</loc>
+      <lastmod>2019-09-08</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//autoreload-ipython</loc>
+      <lastmod>2019-09-08</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//keyboard-driven-vscode</loc>
+      <lastmod>2019-07-07</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//realistic-git-workflow</loc>
+      <lastmod>2019-05-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//forestry-io</loc>
+      <lastmod>2019-04-23</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//git-rewrite-history</loc>
+      <lastmod>2019-02-05</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//git-rewrite-history</loc>
+      <lastmod>2019-02-05</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//journey</loc>
+      <lastmod>2019-02-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//git-update-user</loc>
+      <lastmod>2019-01-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//goals-2019</loc>
+      <lastmod>2019-01-12</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//2018-retrospective</loc>
+      <lastmod>2019-01-05</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//happy</loc>
+      <lastmod>2019-01-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//readme-tables</loc>
+      <lastmod>2018-05-16</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//pycon-2018-roundup</loc>
+      <lastmod>2018-05-12</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//d3-day-5</loc>
+      <lastmod>2018-05-08</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//d3-day4</loc>
+      <lastmod>2018-05-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//d3-day3</loc>
+      <lastmod>2018-05-05</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//flexbox-zombies</loc>
+      <lastmod>2018-04-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//datacamp-sql</loc>
+      <lastmod>2018-03-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//death-by-powerpoint</loc>
+      <lastmod>2017-12-31</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//background-1</loc>
+      <lastmod>2017-09-16</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//pycon-2017-roundup</loc>
+      <lastmod>2017-05-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+</urlset>

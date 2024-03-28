@@ -1,0 +1,522 @@
+# redirects
+/blog /archive/
+/rss                                                        /archive/rss.xml
+/rss.xml                                                    /archive/rss.xml
+
+# image upload
+/upload                                                     https://github.com/WaylonWalker/images.waylonwalker.com/upload/main/static
+/uploads                                                    https://github.com/WaylonWalker/images.waylonwalker.com/upload/main/static
+/i                                                          https://github.com/WaylonWalker/images.waylonwalker.com/upload/main/static
+/idea                                                       https://www.canva.com/design/DAEJ1hsI7KU/d_WFYFJaf5qr0ihA472lbQ/edit?category=tACZCtLTC_A
+/s                                                          https://github.com/WaylonWalker/waylonwalkerv2/upload/main/static/stories
+/st                                                         https://github.com/WaylonWalker/waylonwalkerv2/tree/main/static/stories
+/cover                                                      https://www.canva.com/design/DAEAZXYmmyU/oY65qjb_VDHVLwBqURFQ3w/edit
+/reading                                                    https://waylonwalker.com/notes/reading-list
+/kedro-yt                                                   https://www.youtube.com/watch?v=bw5_FWDVRpU&list=PLTRNG6WIHETCoPt5gAKYSH_HCZvE_r41n
+/tmux-yt                                                    https://www.youtube.com/playlist?list=PLTRNG6WIHETB4reAxbWza3CZeP9KL6B
+/bootstrap                                                  https://raw.githubusercontent.com/WaylonWalker/devtainer/main/bootstrap
+/bootstrap-arch                                             https://raw.githubusercontent.com/WaylonWalker/devtainer/main/bootstrap-arch
+
+#External
+
+/news                                                       https://tinyletter.com/waylonwalker
+/newsletter*                                                https://tinyletter.com/waylonwalker
+/zoom                                                       https://us04web.zoom.us/j/4579767936?pwd=YithZjVwSENrUlpiU2h6ckJiZ1o4QT09
+/whereby                                                    https://whereby.com/waylon-walker
+/kedro-class-hooks-template                                 https://gist.github.com/WaylonWalker/b97fd496e838422644ed300212ea0c1f
+/kcht                                                       https://gist.github.com/WaylonWalker/b97fd496e838422644ed300212ea0c1f
+/redirects                                                  https://github.com/WaylonWalker/waylonwalker.com/edit/main/static/_redirects
+/actions                                                    https://github.com/WaylonWalker/waylonwalker.com/actions
+/twitter                                                    https://twitter.com/_WaylonWalker
+/x                                                          https://twitter.com/_WaylonWalker
+/github                                                     https://github.com/WaylonWalker
+/devto                                                      https://dev.to/waylonwalker
+/linkedin                                                   https://www.linkedin.com/in/waylonwalker
+/li                                                         https://www.linkedin.com/in/waylonwalker
+/instagram                                                  https://www.instagram.com/_waylonwalker
+/ig                                                         https://www.instagram.com/_waylonwalker
+
+/buffer                                                     https://publish.buffer.com/profile/5bc121e0dd50725a7130edd6/tab/queue
+/key-edit                                                   http://www.keyboard-layout-editor.com/##@_backcolor=%231f1f1f&name=Waylon's%20Poker3&switchMount=cherry&switchBrand=cherry&switchType=MX1A-C1xx&pcb:true&plate:false%3B&@_c=%23393b3b&t=%238f8f8f%3B&=~%0A%60&_a:0%3B&=!%0A1%0A%0A%0AF1&=%2F@%0A2%0A%0A%0AF2&=%23%0A3%0A%0A%0AF3&=$%0A4%0A%0A%0AF4&=%25%0A5%0A%0A%0AF5&=%5E%0A6%0A%0A%0AF6&=%2F&%0A7%0A%0A%0AF7&=*%0A8%0A%0A%0AF8&=(%0A9%0A%0A%0AF9&=)%0A0%0A%0A%0AF10&=%2F_%0A-%0A%0A%0AF11&=+%0A%2F=%0A%0A%0AF12&_w:2%3B&=Backspace%0A%0A%0A%0ADEL%3B&@_a:4&w:1.5%3B&=Tab&_a:0%3B&=Q%0A%0A%0A%0A%F0%9F%94%88&=W%0A%0A%0A%0Afword&_x:1%3B&=R%0A%0A%0A%0A%F0%9F%94%8A&=T%0A%0A%0A%0A%60&=Y%0A%0A%0A%0Ayank%20line&=U%0A%0A%0A%0Aundo&=I%0A%0A%0A%0AHome&=O%0A%0A%0A%0Anew%20line&=P%0A%0A%0A%0Apaste&_a:4%3B&=%7B%0A%5B&=%7D%0A%5D&_a:0&w:1.5%3B&=%7C%0A%5C%0A%0A%0APRTCSN%3B&@_a:4&w:1.25&w2:1.75%3B&=Fn&_x:0.5&a:0%3B&=A%0A%0A%0A%0Aend&=S%0A%0A%0A%0A%E2%8F%AE&=D%0A%0A%0A%0Adel&_n:true%3B&=F%0A%0A%0A%0A%E2%8F%AD&=G%0A%0A%0A%0A%E2%8F%AF&=H%0A%0A%0A%0ALeft&=J%0A%0A%0A%0ADown&=K%0A%0A%0A%0AUp&=L%0A%0A%0A%0ARight&_a:4%3B&=%2F:%0A%2F%3B&_a:0%3B&=%22%0A'%0A%0A%0Adel&_a:4&w:2.25%3B&=Enter%3B&@_w:2.25%3B&=Shift&_a:0%3B&=Z%0A%0A%0A%0Aapp&_a:4%3B&=X&=C&=V&_a:0%3B&=B%0A%0A%0A%0Abword&_a:4%3B&=N&_a:0%3B&=M%0A%0A%0A%0ADefault&=%3C%0A,%0A%0A%0AL2&=%3E%0A.%0A%0A%0AL3&=%3F%0A%2F%2F%0A%0A%0AL4&_a:4&w:2.75%3B&=Shift%3B&@_w:1.25%3B&=Ctrl&_w:1.25%3B&=Win&_w:1.25%3B&=Alt&_a:3&w:6.25%3B&=%0A%0A%0A%0Aalt%20tab&_a:4&w:1.25%3B&=Alt&_w:1.25%3B&=FN&_w:1.25%3B&=PN&_w:1.25%3B&=Ctrl%3B&@_rx:1.25&y:1&x:2.25&a:0%3B&=E%0A%0A%0A%0A%F0%9F%94%89
+
+# profile image
+/profile                                                    https://images.waylonwalker.com/8bitc.png
+/p                                                          https://images.waylonwalker.com/8bitc.png
+
+# latest-post
+
+/latest                                                     https://waylonwalker.com/pyflyby/
+/latest.png                                                 https://images.waylonwalker.com/pyflyby-og.png
+
+/latest-story.png                                           https://images.waylonwalker.com/tmux-nav-hub-spoke.png
+
+# im forgetful and can't remmember my own routes
+
+/tags/*                                                     /:splat/
+/tag/*                                                      /:splat/
+
+# Common aliases to my tags
+# /archive/python3/*                                          /python/:splat/
+# /archive/python2/*                                          /python/:splat/
+
+# /archive/neovim/*                                           /vim/:splat/
+# /archive/nvim/*                                             /vim/:splat/
+
+# /archive/unix/*                                             /linux/:splat/
+# /archive/bash/*                                             /linux/:splat/
+# /archive/command-line/*                                     /linux/:splat/
+# /archive/cli/*                                              /linux/:splat/
+
+# refactor routes
+/blog/*                                                     /:splat/
+/notes/*                                                    /:splat/
+/b/*                                                     /:splat/
+/n/*                                                    /:splat/
+
+# Short-Blog
+/k166                                                       /whats-new-in-kedro-0166/
+
+/apst                                                       /automating-my-post-starter/
+/apst.png                                                   /automating-my-post-starter.png
+
+/svim  /save-vim-macro/
+/svim.png  /save-vim-macro.png
+
+/fgca                                                       /fix-git-commit-author/
+/fgca.png                                                   /fix-git-commit-author.png
+
+/kdrt                                                       /designing-kedro-router/
+/kdrt.png                                                   /designing-kedro-router.png
+
+/ripy                                                       /reset-ipython/
+/ripy.png                                                   /reset-ipython.png
+
+/wrbs                                                       /reusable-bash/
+/kcre                                                       /kedro-catalog-search/
+/8cat                                                       /eight-years-cat/
+/parg                                                       /python-args-kwargs/
+/pcia                                                       /pre-commit-is-awesome/
+/ksvh                                                       /kedro-static-viz-0-3-0/
+/kcho                                                       /kedro-class-hooks/
+/bkho                                                       /brainstorming-kedro-hooks/
+/thank-you                                                  /thank-you/
+/ty                                                         /thank-you/
+/kpre                                                       /creating-the-kedro-preflight-hook/
+/bdgl                                                       /til-bind-arguments-to-dynamically-generated-lambdas-in-python/
+/fpga                                                       /four-github-actions-python/
+/vndt                                                       /variable-names-don-t-need-their-type/
+/sega                                                       /send-email-with-github-actions/
+/waga                                                       /what-are-github-actions/
+/knew                                                       /create-new-kedro-project/
+/wike                                                       /what-is-kedro/
+/gdfm                                                       /today-i-learned-git-diff-feature-main/
+/csro                                                       /custom-scrollbar-design/
+/dwyt                                                       /don-t-waste-your-time-learning-everything/
+/dsgn                                                       /2020-rebrand/
+/hdrm                                                       /react-headroom/
+/styf                                                       /i-finally-fixed-my-styled-components-in-gatsby-js/
+/zeit                                                       /should-i-switch-to-zeit-now/
+/gitp                                                       /git-push-without-setting-upstream/
+/oosp                                                       /out-of-space/
+/b/oosp                                                     /out-of-space/
+/purl                                                       /personal-url-shortener/
+/scli                                                       /simple-click/
+/cmdt                                                       /cmd-exe-tips/
+/wist                                                       /what-is-something-that-you-recently-learned-that-you-wish-you-would-have-learned-or-understood-earlier/
+/supz                                                       /supercharge-zsh-startup/
+/tqdm                                                       /quick-progress-bars-in-python-using-tqdm/
+/namt                                                       /named-tuples-data-science/
+/ipau                                                       /autoreload-ipython/
+/kdvs                                                       /keyboard-driven-vscode/
+/rgit                                                       /realistic-git-workflow/
+/frio                                                       /forestry-io/
+/gitr                                                       /git-rewrite-history/git-rewrite-history/
+/jour                                                       /journey/
+/gitu                                                       /git-update-user/
+/g019                                                       /goals-2019/
+/r019                                                       /2018-retrospective/
+/hapy                                                       /happy/
+/rtab                                                       /readme_tables/
+/pc18                                                       /Pycon_2018_roundup/
+/d3d4                                                       /d3-day4/
+/d3d3                                                       /d3-day3/
+/flxz                                                       /flexbox-zombies/
+/dsql                                                       /datacamp-sql/
+/dppt                                                       /No_More_Death_By_Powerpoint/
+/pc17                                                       /pycon-2017-roundup/
+
+# master -> main
+
+/today-i-learned-git-diff-feature-master/                   /git-diff-branches/
+
+# underscores to -
+# this was a redesign done in 2020
+
+/autoreload_python                                          /autoreload-python/
+/background_1                                               /background-1/
+/No_More_Death_By_Powerpoint                                /death-by-powerpoint/
+/pandas_pattern                                             /pandas-pattern/
+/pug_reveal                                                 /pug-reveal/
+/Pycon_2017_Roundup                                         /pycon-2017-roundup/
+/Pycon_2018_Roundup                                         /pycon-2018-roundup/
+# broken here
+/pyspark_v_pandas                                           /pyspark-v-pandas/
+/python_tips                                                /python-tips/
+/readme_tables                                              /readme-tables/
+/vim_notes                                                  /vim-notes/
+/pycon_2017_roundup/                                         /pycon-2017-roundup/
+
+# rename long posts
+
+/i-finally-fixed-my-styled-components-in-gatsby-js          /fix-styled-components-in-gatsby/
+/interrogate-is-a-pretty-awesome-brand-new-cli-for-python-packages  /interrogate/
+/what-is-something-that-you-recently-learned-that-you-wish-you-would-have-learned-or-understood-earlier  /learn-early/
+/what-is-your-advice-for-new-data-scientists                /data-scientist-advice/
+/strip-trailing-whitespace-from-git-projects                /strip-trailing-whitespace/
+/rss-feed-for-your-gatsby-site                              /gatsby-rss-feed/
+/personal-url-shortener-with-netlify-redirects              /personal-url-shortener/
+/list-the-latest-files-to-change-in-a-git-repo              /last-n-git-files/
+/how-to-get-dev-comments-from-an-article-url                /devto-comments-from-url/
+/git-diff-feature-main                                      /git-diff-branches/
+/background-tasks-in-python-for-data-science                /python-data-science-background/
+/building-kedro.dev/                                        /building-kedro-dev/
+/building-kedro.dev                                         /building-kedro-dev/
+/python-args-and-kwargs                                     /python-args-kwargs/
+/variables-names-dont-need-their-type                       /variable-names-don-t-need-their-type/
+/variables-names-dont-need-their-type/                      /variable-names-don-t-need-their-type/
+
+# more encompassing
+/b/*                                                        /:splat/
+
+/n/*                                                        /:splat/
+
+/md-rss                                                     /blog/markdown-rss.xml
+/sitemap                                                    /sitemap.xml
+
+/static/*                                                   /:splat/
+
+
+# nesting issue in blog post
+/testrepos.py https://github.com/WaylonWalker/waylonwalker-com-tests/blob/master/tests/test_repos.py
+/waitforagent.sh https://github.com/WaylonWalker/waylonwalker-com-tests/blob/main/.github/ci/wait_for_agent.sh
+
+
+# Fix 404's
+# These are mystery links that I cannot find, but are dinging my ahrefs report
+# They have zero inlinks so they are likely external
+/archive/archive/                                           /archive/
+/whats-on-your-github-profile/                              /whats-on-your-github-profile/
+/what-is-something-that-you-recently-learned-that-you-wish-you-would-have-learned-or-understood-earlier-1/ /learn-early/
+/test-project-io-py-actions/                                /testproject-io-py-actions/
+/gratitude/good-morning/                                    /gratitude/
+/background_py                                              /python-data-science-background/
+/stories/README/                                            https://github.com/WaylonWalker/waylonwalkerv2/blob/main/static/stories/README.md
+/www.cuttinscrap.com                                        https://cuttinscrap.com/
+/content-strategy-for-2021                                  /2021-content-strategy/
+https://waylonwalker.com/minimal-python-package/semver.org  https://semver.org
+https://waylonwalker.com/automating-my-posts?ref=hackernoon.com https://waylonwalker.com/automating-my-post-starter/
+
+# moved images
+
+https://waylonwalker.com/84be324f285880e9934e2d86232daffa/a8734/parsing-rss-python-xmas2020.png https://images.waylonwalker.com/parsing-rss-python-og.png
+https://waylonwalker.com/52ac834bbe2cd9380151f27bf1e1abe5/a8734/gitui-xmas2020.png https://images.waylonwalker.com/gitui-og.png
+https://waylonwalker.com/stories/get-python-help-without-google.png https://images.waylonwalker.com/stories/get-python-help-without-google.png
+https://waylonwalker.com/stories/quick-tdb.png              https://images.waylonwalker.com/stories/quick-tdb.png
+https://waylonwalker.com/stories/TIL-kedro-sorts-nodes.png  https://images.waylonwalker.com/stories/TIL-kedro-sorts-nodes.png
+https://waylonwalker.com/stories/use-venv.png               https://images.waylonwalker.com/stories/use-venv.png
+https://waylonwalker.com/stories/progress-over-perfection-comment.png https://images.waylonwalker.com/stories/progress-over-perfection-comment.png
+https://waylonwalker.com/stories/find-kedro-de1-contributor.png https://images.waylonwalker.com/stories/find-kedro-de1-contributor.png
+https://waylonwalker.com/stories/new-post-designing-kedro-router.png https://images.waylonwalker.com/stories/new-post-designing-kedro-router.png
+https://waylonwalker.com/stories/three-ds-openings.png      https://images.waylonwalker.com/stories/three-ds-openings.png
+https://waylonwalker.com/stories/hacktoberfest-2020-kedro-538-tests-pass.png https://images.waylonwalker.com/stories/hacktoberfest-2020-kedro-538-tests-pass.png
+https://waylonwalker.com/stories/itertools.product-cars-regions.png https://images.waylonwalker.com/stories/itertools.product-cars-regions.png
+https://waylonwalker.com/stories/power-is-nothing-without-control.png https://images.waylonwalker.com/stories/power-is-nothing-without-control.png
+https://waylonwalker.com/stories/kedro-run-only-missing.png https://images.waylonwalker.com/stories/kedro-run-only-missing.png
+https://waylonwalker.com/stories/discovered-social-cards.png https://images.waylonwalker.com/stories/discovered-social-cards.png
+https://waylonwalker.com/stories/running-ci-for-hacktoberfest-kedro.png https://images.waylonwalker.com/stories/running-ci-for-hacktoberfest-kedro.png
+https://waylonwalker.com/stories/disable-base-pip.png       https://images.waylonwalker.com/stories/disable-base-pip.png
+https://waylonwalker.com/gitui-status.png                   https://images.waylonwalker.com/gitui-status.png
+https://waylonwalker.com/static/abdc8a2104d22615e0174f9a9cc42d80/a8734/assertions.png https://images.waylonwalker.com/assertions.png
+https://waylonwalker.com/abdc8a2104d22615e0174f9a9cc42d80/a8734/assertions.png https://images.waylonwalker.com/assertions.png
+https://waylonwalker.com/static/type-while-loading-plugins.gif https://imaged.waylonwalker.com/type-while-loading-plugins.gif
+https://waylonwalker.com/type-while-loading-plugins.gif https://imaged.waylonwalker.com/type-while-loading-plugins.gif
+https://waylonwalker.com/static/custom-scrollbar-with-css.gif https://images.waylonwalker.com/custom-scrollbar-with-css.gif
+https://waylonwalker.com/custom-scrollbar-with-css.gif https://images.waylonwalker.com/custom-scrollbar-with-css.gif
+https://waylonwalker.com/tqdm2.gif                                    https://images.waylonwalker.com/tqdm2.gif
+https://waylonwalker.com/test_autoreload4.gif                         https://images.waylonwalker.com/test_autoreload4.gif
+https://waylonwalker.com/test_autoreload_jupyter.gif                  https://images.waylonwalker.com/test_autoreload_jupyter.gif
+https://waylonwalker.com/how-i-pick-colors.gif                        https://images.waylonwalker.com/how-i-pick-colors.gif
+https://waylonwalker.com/how-i-create-gradients.gif                   https://images.waylonwalker.com/how-i-create-gradients.gif
+https://waylonwalker.com/how-i-adjust-colors.gif                      https://images.waylonwalker.com/how-i-adjust-colors.gif
+https://waylonwalker.com/forestry_image_3.gif                         https://images.waylonwalker.com/forestry_image_3.gif
+https://waylonwalker.com/flexbox-zombies/flexbox-zombies-12.gif       https://images.waylonwalker.com/flexbox-zombies/flexbox-zombies-12.gif
+https://waylonwalker.com/alt%20z.gif                                  https://images.waylonwalker.com/alt%20z.gif
+https://waylonwalker.com/alt%20b.gif                                  https://images.waylonwalker.com/alt%20b.gif
+https://waylonwalker.com/alt%20[svx].gif                              https://images.waylonwalker.com/alt%20[svx].gif
+https://waylonwalker.com/alt%20[hjkl].gif                             https://images.waylonwalker.com/alt%20[hjkl].gif
+https://waylonwalker.com/alt%20[cnp].gif                              https://images.waylonwalker.com/alt%20[cnp].gif
+https://waylonwalker.com/tmux-kill-tmux/                              https://waylonwalker.com/tmux-killing-tmux/
+https://waylonwalker.com/tmux-break-pane/                             https://waylonwalker.com/break-pane/
+https://waylonwalker.com/kedro-catalog-create/                        https://waylonwalker.com/kedro-catalog-create-cli/
+
+
+# refactored archive
+
+/archive/linux/                                                     /linux/
+/archive/python/                                                    /python/
+/archive/kedro/                                                     /kedro/
+/archive/vim/                                                       /vim/
+
+
+# marakta migrate to slugify redirects
+/fail github docker actions                                  /fail-github-docker-actions
+/pypi-2FA                                                    /pypi-2fa
+/markata-0.3.0                                               /markata-0-3-0
+/dunder_rich                                                 /dunder-rich
+/copier_endops                                               /copier-endops
+/ansible_install_if_not_callable                             /ansible-install-if-not-callable
+/ansible_install_fonts                                       /ansible-install-fonts
+/AUG2020                                                     /aug2020
+/gratitude_104                                               /gratitude-104
+/gratitude_103                                               /gratitude-103
+/gratitude_090                                               /gratitude-090
+/gratitude_089                                               /gratitude-089
+/gratitude_088                                               /gratitude-088
+/gratitude_087                                               /gratitude-087
+/gratitude_086                                               /gratitude-086
+/gratitude_085                                               /gratitude-085
+/gratitude_084                                               /gratitude-084
+/gratitude_083                                               /gratitude-083
+/gratitude_082                                               /gratitude-082
+/gratitude_081                                               /gratitude-081
+/gratitude_080                                               /gratitude-080
+/gratitude_079                                               /gratitude-079
+/gratitude_078                                               /gratitude-078
+/gratitude_077                                               /gratitude-077
+/gratitude_076                                               /gratitude-076
+/gratitude_075                                               /gratitude-075
+/gratitude_074                                               /gratitude-074
+/gratitude_073                                               /gratitude-073
+/gratitude_072                                               /gratitude-072
+/gratitude_071                                               /gratitude-071
+/gratitude_070                                               /gratitude-070
+/gratitude_069                                               /gratitude-069
+/gratitude_068                                               /gratitude-068
+/gratitude_067                                               /gratitude-067
+/gratitude_066                                               /gratitude-066
+/gratitude_065                                               /gratitude-065
+/gratitude_064                                               /gratitude-064
+/gratitude_063                                               /gratitude-063
+/gratitude_062                                               /gratitude-062
+/gratitude_061                                               /gratitude-061
+/gratitude_060                                               /gratitude-060
+/gratitude_059                                               /gratitude-059
+/gratitude_058                                               /gratitude-058
+/gratitude_057                                               /gratitude-057
+/gratitude_056                                               /gratitude-056
+/gratitude_055                                               /gratitude-055
+/gratitude_054                                               /gratitude-054
+/gratitude_053                                               /gratitude-053
+/gratitude_052                                               /gratitude-052
+/gratitude_051                                               /gratitude-051
+/gratitude_050                                               /gratitude-050
+/gratitude_049                                               /gratitude-049
+/gratitude_048                                               /gratitude-048
+/gratitude_047                                               /gratitude-047
+/gratitude_046                                               /gratitude-046
+/gratitude_045                                               /gratitude-045
+/gratitude_044                                               /gratitude-044
+/gratitude_043                                               /gratitude-043
+/gratitude_042                                               /gratitude-042
+/gratitude_041                                               /gratitude-041
+/gratitude_040                                               /gratitude-040
+/gratitude_039                                               /gratitude-039
+/gratitude_037                                               /gratitude-037
+/gratitude_036                                               /gratitude-036
+/gratitude_035                                               /gratitude-035
+/gratitude_034                                               /gratitude-034
+/gratitude_033                                               /gratitude-033
+/gratitude_032                                               /gratitude-032
+/gratitude_031                                               /gratitude-031
+/gratitude_030                                               /gratitude-030
+/gratitude_029                                               /gratitude-029
+/gratitude_028                                               /gratitude-028
+/gratitude_027                                               /gratitude-027
+/gratitude_026                                               /gratitude-026
+/gratitude_025                                               /gratitude-025
+/gratitude_024                                               /gratitude-024
+/gratitude_023                                               /gratitude-023
+/gratitude_022                                               /gratitude-022
+/gratitude_021                                               /gratitude-021
+/gratitude_020                                               /gratitude-020
+/gratitude_019                                               /gratitude-019
+/gratitude_018                                               /gratitude-018
+/gratitude_017                                               /gratitude-017
+/gratitude_016                                               /gratitude-016
+/gratitude_015                                               /gratitude-015
+/gratitude_014                                               /gratitude-014
+/gratitude_013                                               /gratitude-013
+/gratitude_012                                               /gratitude-012
+/gratitude_011                                               /gratitude-011
+/gratitude_010                                               /gratitude-010
+/gratitude_009                                               /gratitude-009
+/bit_01                                                      /bit-01
+/auto_conda_env                                              /auto-conda-env
+/building-with-3.11-dev                                      /building-with-3-11-dev
+/stories_10-10-2020_10-21-2020                               /stories-10-10-2020-10-21-2020
+/locked_diskcache                                            /locked-diskcache
+/kedro172_replit                                             /kedro172-replit
+
+/til/two-new-aliases-for-git/                               /two-new-aliases-for-git/
+/til/linux-swap/                                            /linux-swap/
+/til/global-gitignore-considered-useful/                    /global-gitignore-considered-useful/
+/til/jinja2-escape/                                         /jinja2-escape/
+/til/use-ipython-extensions/                                /use-ipython-extensions/
+/til/ipython-q-exit/                                        /ipython-q-exit/
+/til/copier-slugify/                                        /copier-slugify/
+/til/gpg-sign-git-ssh/                                      /gpg-sign-git-ssh/
+/til/markata-configure-head/                                /markata-configure-head/
+/til/hatch-version/                                         /hatch-version/
+/til/hatch-new-cli/                                         /hatch-new-cli/
+/til/setting-up-snapper-on-arch/                            /setting-up-snapper-on-arch/
+/til/gh-rm-workflow-runs/                                   /gh-rm-workflow-runs/
+/til/fail-github-docker-actions/                            /fail-github-docker-actions/
+/til/fail-github-docker-actions/                            /fail-github-docker-actions/
+/til/from-markdown-to-blog-with-markata/                    /from-markdown-to-blog-with-markata/
+/til/i-spoke-at-python-web-conf-2022/                       /i-spoke-at-python-web-conf-2022/
+/til/pypi-2fa/                                              /pypi-2fa/
+/til/vimgrep-open-buffers/                                  /vimgrep-open-buffers/
+/til/rich-syntax-range-style/                               /rich-syntax-range-style/
+/til/vim-sort-u/                                            /vim-sort-u/
+/til/markata-0-3-0/                                         /markata-0-3-0/
+/til/git-find-deleted-files/                                /git-find-deleted-files/
+/til/pyenv-pipx/                                            /pyenv-pipx/
+/til/kedro-disable-hook/                                    /kedro-disable-hook/
+/til/polybar-gpu-stats/                                     /polybar-gpu-stats/
+/til/setting-up-paru/                                       /setting-up-paru/
+/til/get-python-package-versions/                           /get-python-package-versions/
+/til/arch-fonts/                                            /arch-fonts/
+/til/xrandr-manager/                                        /xrandr-manager/
+/til/ijq/                                                   /ijq/
+/til/vim-markdown-links/                                    /vim-markdown-links/
+/til/walrus-comprehension/                                  /walrus-comprehension/
+/til/vim-plugged-snapshot/                                  /vim-plugged-snapshot/
+/til/vim-cmd/                                               /vim-cmd/
+/til/ubuntu-terminal-clipboard/                             /ubuntu-terminal-clipboard/
+/til/tmux-pop-size/                                         /tmux-pop-size/
+/til/tmux-copy-mode-binding/                                /tmux-copy-mode-binding/
+/til/tmux-copier-templates/                                 /tmux-copier-templates/
+/til/title/                                                 /title/
+/til/textual-popup-hack/                                    /textual-popup-hack/
+/til/textual-has-devtools/                                  /textual-has-devtools/
+/til/stow-simulate/                                         /stow-simulate/
+/til/squoosh-cli/                                           /squoosh-cli/
+/til/site-down/                                             /site-down/
+/til/simple-textual-widget/                                 /simple-textual-widget/
+/til/simple-samba/                                          /simple-samba/
+/til/serve-html-command-line/                               /serve-html-command-line/
+/til/review-pull-requests-with-git-worktrees/               /review-pull-requests-with-git-worktrees/
+/til/remove-vim-tab-characters/                             /remove-vim-tab-characters/
+/til/qutebroswer-write-config-py/                           /qutebroswer-write-config-py/
+/til/python-web-conf-snippet/                               /python-web-conf-snippet/
+/til/python-web-conf-complete/                              /python-web-conf-complete/
+/til/python-sys-excepthook/                                 /python-sys-excepthook/
+/til/python-string-is-string/                               /python-string-is-string/
+/til/python-reverse-sluggify/                               /python-reverse-sluggify/
+/til/python-requests-get/                                   /python-requests-get/
+/til/python-pep-584/                                        /python-pep-584/
+/til/python-pathlib-glob/                                   /python-pathlib-glob/
+/til/python-nested-requires/                                /python-nested-requires/
+/til/python-markdown-ast-paragraph/                         /python-markdown-ast-paragraph/
+/til/python-lru-cache/                                      /python-lru-cache/
+/til/python-git/                                            /python-git/
+/til/python-frontmatter/                                    /python-frontmatter/
+/til/python-enum/                                           /python-enum/
+/til/python-docstring-ast/                                  /python-docstring-ast/
+/til/python-diskcache/                                      /python-diskcache/
+/til/python-dict-get/                                       /python-dict-get/
+/til/python-cache-key/                                      /python-cache-key/
+/til/python-base-exception/                                 /python-base-exception/
+/til/python-auto-pdb/                                       /python-auto-pdb/
+/til/pytest-mock-basics/                                    /pytest-mock-basics/
+/til/pygame-image-load/                                     /pygame-image-load/
+/til/pygame-event-queue/                                    /pygame-event-queue/
+/til/pygame-boilerplate-apr-2022/                           /pygame-boilerplate-apr-2022/
+/til/pyenv-no-sqlite3/                                      /pyenv-no-sqlite3/
+/til/pyenv-first-impressions/                               /pyenv-first-impressions/
+/til/practice-kedro/                                        /practice-kedro/
+/til/popen-stderr/                                          /popen-stderr/
+/til/pluggy-minimal-example/                                /pluggy-minimal-example/
+/til/pipx-w/                                                /pipx-w/
+/til/pipx-run-glances/                                      /pipx-run-glances/
+/til/pipx-on-windows/                                       /pipx-on-windows/
+/til/pip-require-virtualenv/                                /pip-require-virtualenv/
+/til/pathlib-read-text/                                     /pathlib-read-text/
+/til/pastel-cli/                                            /pastel-cli/
+/til/pandas-read-csv-user-agent/                            /pandas-read-csv-user-agent/
+/til/open-ssh-setup/                                        /open-ssh-setup/
+/til/nvr-open-files/                                        /nvr-open-files/
+/til/nvim-telescope-hidden-files/                           /nvim-telescope-hidden-files/
+/til/nvim-telescope-custom-command/                         /nvim-telescope-custom-command/
+/til/nvim-rename-python/                                    /nvim-rename-python/
+/til/nixery-versions-by-commit-count/                       /nixery-versions-by-commit-count/
+/til/nix-install-java8/                                     /nix-install-java8/
+/til/neovim-config-for-git/                                 /neovim-config-for-git/
+/til/modded-minecraft-in-docker/                            /modded-minecraft-in-docker/
+/til/mermaid-subgraphs/                                     /mermaid-subgraphs/
+/til/mermaid-html/                                          /mermaid-html/
+/til/mermaid-highlight/                                     /mermaid-highlight/
+/til/markata-telescope-picker/                              /markata-telescope-picker/
+/til/lookatme-styles/                                       /lookatme-styles/
+/til/lookatme-slides/                                       /lookatme-slides/
+/til/list-all-files-containing-phrase/                      /list-all-files-containing-phrase/
+/til/linux-unzip-directory/                                 /linux-unzip-directory/
+/til/linux-tty/                                             /linux-tty/
+/til/linux-bluetoothctl/                                    /linux-bluetoothctl/
+/til/kedro-ubuntu-impish/                                   /kedro-ubuntu-impish/
+/til/kedro-rich/                                            /kedro-rich/
+/til/kedro-new-dependencies/                                /kedro-new-dependencies/
+/til/kedro-lambda-node/                                     /kedro-lambda-node/
+/til/installing-pipx-on-ubuntu/                             /installing-pipx-on-ubuntu/
+/til/installing-homebrew-linux/                             /installing-homebrew-linux/
+/til/install-yq/                                            /install-yq/
+/til/install-rust/                                          /install-rust/
+/til/install-obs-flatpak/                                   /install-obs-flatpak/
+/til/htmx-get/                                              /htmx-get/
+/til/gradual-typing-python/                                 /gradual-typing-python/
+/til/glances-docker/                                        /glances-docker/
+/til/gitignore-python/                                      /gitignore-python/
+/til/github-supports-mermaid/                               /github-supports-mermaid/
+/til/git-revive-dead-files/                                 /git-revive-dead-files/
+/til/git-reflog-is-an-alias/                                /git-reflog-is-an-alias/
+/til/git-recover-checkout/                                  /git-recover-checkout/
+/til/git-rebase-root/                                       /git-rebase-root/
+/til/git-python-all-commits/                                /git-python-all-commits/
+/til/git-push-default-current/                              /git-push-default-current/
+/til/git-pager/                                             /git-pager/
+/til/git-merge-ours/                                        /git-merge-ours/
+/til/git-diff-filter/                                       /git-diff-filter/
+/til/git-config-help-autocorrect/                           /git-config-help-autocorrect/
+/til/git-checkout-worktree/                                 /git-checkout-worktree/
+/til/gh-repo-create/                                        /gh-repo-create/
+/til/fzf-wallpaper/                                         /fzf-wallpaper/
+/til/fugitive-commit-verbose/                               /fugitive-commit-verbose/
+/til/ewhich/                                                /ewhich/
+/til/dunk-is-my-new-diff-pager/                             /dunk-is-my-new-diff-pager/
+/til/dunder-rich/                                           /dunder-rich/
+/til/docker-minecraft-server/                               /docker-minecraft-server/
+/til/dedupe-your-shell-paths/                               /dedupe-your-shell-paths/
+/til/copier-endops/                                         /copier-endops/
+/til/copier-template-variables/                             /copier-template-variables/
+/til/copier-tasks/                                          /copier-tasks/
+/til/copier-answers/                                        /copier-answers/
+/til/convert-markdown-pdf-linux/                            /convert-markdown-pdf-linux/
+/til/clean-qutebrowser/                                     /clean-qutebrowser/
+/til/bs4-findall-headings/                                  /bs4-findall-headings/
+/til/bash-mktemp/                                           /bash-mktemp/
+/til/aws-eventbridge-visidata/                              /aws-eventbridge-visidata/
+/til/ansible-install-if-not-callable/                       /ansible-install-if-not-callable/
+/til/ansible-install-fonts/                                 /ansible-install-fonts/
+/til/ag-ahead/                                              /ag-ahead/
+/til/2-minutes-to-stow/                                     /2-minutes-to-stow/
+/automating-my-posts/                                       /automating-my-post-starter/

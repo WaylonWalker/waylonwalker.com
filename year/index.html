@@ -1,0 +1,2730 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width" name="viewport"/>
+<link href="/8bitcc.ico" rel="icon" type="image/png"/>
+<meta content="website" name="og:type"/>
+<title>Highlighting Text Ranges With Rich | Python</title>
+<meta content="Highlighting Text Ranges With Rich | Python" name="og:title"/>
+<meta content="Highlighting Text Ranges With Rich | Python" name="twitter:title"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="http://shots.wayl.one/shot/?url=https://waylonwalker.com/year&amp;height=640&amp;width=1280&amp;scaled_width=1280&amp;scaled_height=640" name="og:image"/>
+<meta content="http://shots.wayl.one/shot/?url=https://waylonwalker.com/year&amp;height=600&amp;width=1200&amp;scaled_width=1200&amp;scaled_height=600" name="twitter:image"/>
+<meta content="640" name="og:image:height"/>
+<meta content="1280" name="og:image:width"/>
+<meta content="https://waylonwalker.com//year" name="og:url"/>
+<meta content="" name="description"/>
+<meta content="" name="og:description"/>
+<meta content="" name="twitter:description"/>
+<meta content="@_waylonwalker" name="twitter:creator"/>
+<meta content="Waylon Walker" name="og:author"/>
+<meta content="Waylon Walker" name="og:site_name"/>
+<meta content="waylon@waylonwalker.com" name="og:author_email"/>
+<meta content="markata 0.8.0.dev6" name="generator"/>
+<meta content="$ilp.uphold.com/MGN2ni2YMXaQ" name="monetization"/>
+<meta content="#322D39" name="theme-color"/>
+<link href="https://indieauth.com/auth" rel="authorization_endpoint"/>
+<link href="https://tokens.indieauth.com/token" rel="token_endpoint"/>
+<link href="https://waylonwalker.com/archive" rel="micropub"/>
+<link href="https://webmention.io/waylonwalker.com/webmention" rel="webmention"/>
+<link href="" rel="canonical"/>
+<link href="https://waylonwalker.com/year/amp/" rel="amphtml"/>
+<meta content="$ilp.uphold.com/MGN2ni2YMXaQ" name="monetization" property="monetization"/>
+<!-- <link rel="preload" href="/app.css" as="style" onload="this.onload=null;this.rel='stylesheet'" /> -->
+<!-- <noscript> -->
+<!--     <link rel="stylesheet" href="/app.css" /> -->
+<!-- </noscript> -->
+<link href="/app.css" rel="stylesheet"/>
+<link href="/8bitcc_48x48.png" rel="apple-touch-icon" sizes="48x48"/>
+<link href="/8bitcc_72x72.png" rel="apple-touch-icon" sizes="72x72"/>
+<link href="/8bitcc_96x96.png" rel="apple-touch-icon" sizes="96x96"/>
+<link href="/8bitcc_144x144.png" rel="apple-touch-icon" sizes="144x144"/>
+<link href="/8bitcc_192x192.png" rel="apple-touch-icon" sizes="192x192"/>
+<link href="/8bitcc_256x256.png" rel="apple-touch-icon" sizes="256x256"/>
+<link href="/8bitcc_384x384.png" rel="apple-touch-icon" sizes="384x384"/>
+<link href="/8bitcc_512x512.png" rel="apple-touch-icon" sizes="512x512"/>
+<script>
+            navigator.serviceWorker.getRegistrations().then(function (registrations) {
+                for (let registration of registrations) {
+                    registration.unregister();
+                }
+            });
+
+        </script>
+<script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "WebPage",
+                "name": "Highlighting Text Ranges With Rich | Python",
+                "headline": "Highlighting Text Ranges With Rich | Python",
+                "datePublished": "2022-08-24",
+                "dateModified": "2022-08-24",
+                "author": {
+                    "@type": "Person",
+                    "name": "Waylon Walker"
+                    "url": "https://waylonwalker.com"
+                },
+                "image": [
+                    "https://shots.wayl.one/shot/?url=https://waylonwalker.com/year&height=640&width=1280&scaled_width=1280&scaled_height=640",
+                ]
+                "speakable":
+                {
+                    "@type": "SpeakableSpecification",
+                    "cssSelector": [
+                        "#title",
+                        "#post-body"
+                    ]
+                },
+                "url": "https://waylonwalker.com/year"
+            }
+        </script>
+<link href="/manifest.json" rel="manifest"/></head>
+<body position="relative">
+<div class="neon-ring"></div>
+<div class="dubs">
+<nav>
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/archive/">Archive</a></li>
+<li>
+<a aria-label="RSS" href="/rss.xml">
+<svg class="icon" height="16" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+<path d="M 4 4.44 v 2.83 c 7.03 0 12.73 5.7 12.73 12.73 h 2.83 c 0 -8.59 -6.97 -15.56 -15.56 -15.56 Z m 0 5.66 v 2.83 c 3.9 0 7.07 3.17 7.07 7.07 h 2.83 c 0 -5.47 -4.43 -9.9 -9.9 -9.9 Z M 6.18 15.64 A 2.18 2.18 0 0 1 6.18 20 A 2.18 2.18 0 0 1 6.18 15.64" fill="currentColor">
+</path>
+</svg>
+</a>
+</li>
+<!-- <li style='background: white; height: 100%; z-index: 9999; width: 30rem; '> -->
+<!--     <div position="relative"> -->
+<!--         <link href="/pagefind/pagefind-ui.css" rel="stylesheet"> -->
+<!--         <script src="/pagefind/pagefind-ui.js"></script> -->
+<!--         <style> -->
+<!--             :root { -->
+<!--                 --pagefind-ui-scale: .8; -->
+<!--                 --pagefind-ui-primary: #034ad8; -->
+<!--                 --pagefind-ui-text: #393939; -->
+<!--                 --pagefind-ui-background: #ffffff; -->
+<!--                 --pagefind-ui-border: #eeeeee; -->
+<!--                 --pagefind-ui-tag: #eeeeee; -->
+<!--                 --pagefind-ui-border-width: 2px; -->
+<!--                 --pagefind-ui-border-radius: 4px; -->
+<!--                 --pagefind-ui-image-border-radius: 8px; -->
+<!--                 --pagefind-ui-image-box-ratio: 3 / 2; -->
+<!--                 --pagefind-ui-font: monospace; -->
+<!--                 --pagefind-ui-primary: #eeeeee; -->
+<!--                 --pagefind-ui-text: #eeeeee; -->
+<!--                 --pagefind-ui-background: #152028; -->
+<!--                 --pagefind-ui-border: #0c141a; -->
+<!--                 --pagefind-ui-tag: #152028; -->
+<!--             } -->
+<!--             .pagefind-ui__drawer { -->
+<!--                 background: var(--pagefind-ui-background); -->
+<!--             } -->
+<!--             .pagefind-ui__drawer li { -->
+<!--                 border-bottom: 1px solid var(--pagefind-ui-border); -->
+<!--             } -->
+<!--             .pagefine-ui .pagefind-ui__form { -->
+<!--                 position: absolute; -->
+<!--                 background: white; -->
+<!--                 background: #130c14 !important; -->
+<!--                 width: 30rem; -->
+<!--             } -->
+<!--             #search { -->
+<!--                 position: absolute; -->
+<!--                 background: white; -->
+<!--                 height: 100%; -->
+<!--                 width: 100%; -->
+<!--                 width: 30rem; -->
+<!--             } -->
+<!--         </style> -->
+<!--         <div id="search"> -->
+<!--         </div> -->
+<!--     </div> -->
+<!-- <script> -->
+<!--     window.addEventListener('DOMContentLoaded', (event) => { -->
+<!--         new PagefindUI({element: "#search", showSubResults: true}); -->
+<!--     }); -->
+<!-- </script> -->
+</ul>
+</nav>
+<article class="blog-post h-entry">
+<div id="title-wrapper">
+<a class="no-underline u-url" href="https://waylonwalker.com/year/">
+<h1 class="flair blog title no-link" id="title">
+                        Highlighting Text Ranges With Rich | Python
+                    </h1>
+</a>
+<p class="m-0 sm:m-[-2rem]">
+<time class="dt-published post-date" datetime="2022-08-24" style="text-align: right; z-index: 2">2022-08-24</time>
+</p>
+<div class="flex flex-row h-card p-author space-between" rel="author">
+<img class="m-auto ml-0 w-16 h-16 rounded-full u-photo" src="https://images.waylonwalker.com/8bitc.png"/>
+<div class="content">
+<a class="p-name u-url h-card p-author" href="https://waylonwalker.com/" rel="me">
+<p>
+<span class="p-given-name">Waylon</span>
+<span class="p-family-name">Walker</span>
+</p>
+</a>
+<p class="p-note">
+                            Learning in Public
+                            <a href="https://twitter.com/_WaylonWalker" rel="me">@_WaylonWalker</a>
+</p>
+</div>
+</div>
+<!-- edit -->
+<!-- <p> -->
+<!--     <a href="https://github.com/WaylonWalker/waylonwalker.com/edit/main/pages/blog/year.md" -->
+<!--         alt="edit post url" title="edit this post">edit<span role="img" aria-label="">✏️</span></a> -->
+<!-- </p> -->
+</div>
+<h2 class="m-auto max-w-md text-sm text-center text-zinc-500 no-link">Tags<a alt="id" class="heading-permalink" href="#None" title="link to #None"><span class="visually-hidden"></span><svg aria-hidden="true" fill="currentColor" focusable="false" height="1em" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<ul class="flex flex-wrap justify-center p-0 m-auto max-w-md border-yellow-400 tags">
+<li class="px-4 list-none rounded-full ring-1 ring-pink-500">
+<a class="p-category" href="https://waylonwalker.com/python">python</a>
+</li>
+</ul>
+<div class="m-auto my-8 max-w-md rounded rounded-3xl border-2 border-yellow-400 shadow-xlc shadow-yellow-950/50 ad">
+<h2 class="text-center">Advertisement<a alt="id" class="heading-permalink" href="#None" title="link to #None"><span class="visually-hidden"></span><svg aria-hidden="true" fill="currentColor" focusable="false" height="1em" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p class="mx-4 text-center">Your Ad could be here. I want to
+                    connect my readers to relavant ads. If you have a product
+                    targeted at developers, let's talk.
+                    <a class="block my-6 text-aqua-500" href="mailto:advertise@waylonwalker.com">advertise@waylonwalker.com</a>
+</p>
+</div>
+<div class="e-content" id="post-body">
+<h2>2023<a alt="id" class="heading-permalink" href="#None" title="link to #None"><span class="visually-hidden"></span><svg aria-hidden="true" fill="currentColor" focusable="false" height="1em" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<ul>
+<li>
+<p><a href="/nvim-stupid-gf-bind">Nvim Stupid Gf Bind - 12/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-194">Template Designer Documentation — Jinja Documentation (3.0.X) - 12/26</a></p>
+</li>
+<li>
+<p><a href="/thoughts-193">Minecraft Server On Docker (Java Edition) - 12/25</a></p>
+</li>
+<li>
+<p><a href="/thoughts-192">We Finally Agree On Unit Tests - Youtube - 12/22</a></p>
+</li>
+<li>
+<p><a href="/thoughts-on-unit-tests">Thoughts On Unit Tests - 12/22</a></p>
+</li>
+<li>
+<p><a href="/thoughts-191">Mastodon.Py — Mastodon.Py 1.8.1 Documentation - 12/21</a></p>
+</li>
+<li>
+<p><a href="/thoughts-189">Indiewebify.Me - A Guide To Getting You On The Indieweb - 12/20</a></p>
+</li>
+<li>
+<p><a href="/thoughts-190">Bunny.Net - The Content Delivery Platform That Truly Hops! - 12/20</a></p>
+</li>
+<li>
+<p><a href="/thoughts-187">Handling Errors - Fastapi - 12/17</a></p>
+</li>
+<li>
+<p><a href="/thoughts-188">Fastapi - Dependency Inside Middleware? - Stack Overflow - 12/17</a></p>
+</li>
+<li>
+<p><a href="/cli-auth">Cli Auth - 12/17</a></p>
+</li>
+<li>
+<p><a href="/thoughts-184">Waylon Walker (Getting Focus'D Fokais.Com) On X: "Bloggers Where Do You Put Your Markdown?" / X - 12/15</a></p>
+</li>
+<li>
+<p><a href="/thoughts-185">How To Group Fastapi Endpoints In Swagger Ui?  - 12/15</a></p>
+</li>
+<li>
+<p><a href="/thoughts-186">Logs With Fastapi And Uvicorn · Issue #1508 · Tiangolo/Fastapi - 12/15</a></p>
+</li>
+<li>
+<p><a href="/thoughts-182">Nvim: <code>Vim.O.Cmdheight=0</code> - 12/14</a></p>
+</li>
+<li>
+<p><a href="/thoughts-183">Show Some Equivalent List Comprehensions In Filter Examples · Issue #1068 · Pallets/Jinja - 12/14</a></p>
+</li>
+<li>
+<p><a href="/htmx-request-hide-input">Hiding Form Input During Htmx Request - 12/14</a></p>
+</li>
+<li>
+<p><a href="/thoughts-178">Why You Should Write A Blog - 12/13</a></p>
+</li>
+<li>
+<p><a href="/thoughts-179">Adam Wathan On X: "Hear Me Out. Https://T.Co/Qhkei6Sjyz" / X - 12/13</a></p>
+</li>
+<li>
+<p><a href="/thoughts-180">Imagemagick – Color Names - 12/13</a></p>
+</li>
+<li>
+<p><a href="/thoughts-181">Datadog/Ddqa: Datadog'S Qa Manager For Releases Of Github Repositories - 12/13</a></p>
+</li>
+<li>
+<p><a href="/thoughts-176">Protect Api Docs Behind Authentication? · Issue #364 · Tiangolo/Fastapi - 12/12</a></p>
+</li>
+<li>
+<p><a href="/thoughts-177">Path Operation Advanced Configuration - Fastapi - 12/12</a></p>
+</li>
+<li>
+<p><a href="/thoughts-175">Cancel Subscriptions | Stripe Documentation - 12/10</a></p>
+</li>
+<li>
+<p><a href="/stripe-cancellations">Stripe Cancellations In Fastapi And Sqlmodel - 12/9</a></p>
+</li>
+<li>
+<p><a href="/thoughts-174">Retrieve An Upcoming Invoice | Stripe Api Reference - 12/7</a></p>
+</li>
+<li>
+<p><a href="/thoughts-172">Stripe Keys And Ids - 12/6</a></p>
+</li>
+<li>
+<p><a href="/thoughts-173">Search | Stripe Documentation - 12/6</a></p>
+</li>
+<li>
+<p><a href="/looking-for-a-heroku-replacement">Looking For A Heroku Replacement, What I Found Was Shocking! - 12/4</a></p>
+</li>
+<li>
+<p><a href="/thoughts-169">Page-Break-After - Css: Cascading Style Sheets | Mdn - 11/30</a></p>
+</li>
+<li>
+<p><a href="/thoughts-170">Css @Media Print Issues With Background-Color; - Stack Overflow - 11/30</a></p>
+</li>
+<li>
+<p><a href="/thoughts-171">Overworked - Youtube - 11/30</a></p>
+</li>
+<li>
+<p><a href="/still-loving-tailwind">Still Loving Tailwind - 11/30</a></p>
+</li>
+<li>
+<p><a href="/thoughts-168">Go By Example - 11/29</a></p>
+</li>
+<li>
+<p><a href="/thoughts-167">How To Build A Website Or App - 11/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-163">Separations Of Concerns Is A Lie - Youtube - 11/27</a></p>
+</li>
+<li>
+<p><a href="/thoughts-164">Sebastián Ramírez On X: "Now @Fastapi Has 65K+ Github Stars! ✨🎉 Since Today, Fastapi Has A Few More Github Stars Than Flask. 🤯 Now Fastapi Is The Second Most Starred Python Web Framework, Right After Django. 🥈 Https://T.Co/Ywi0I665Vo" / X - 11/27</a></p>
+</li>
+<li>
+<p><a href="/thoughts-165">Will Mcgugan On X: "Just A Wee Thing That Came Up Today. I Think This Is Kind Of Neat. Https://T.Co/Un8Frz2Tsj" / X - 11/27</a></p>
+</li>
+<li>
+<p><a href="/thoughts-162">Pype|Dev🐍 (Py-Puh-Day) On X: "@Wtravishubbard Management Is Abhorrent To Me" / X - 11/22</a></p>
+</li>
+<li>
+<p><a href="/thoughts-161">Heroicons - 11/14</a></p>
+</li>
+<li>
+<p><a href="/thoughts-160">Uptime Kuma - 11/11</a></p>
+</li>
+<li>
+<p><a href="/thoughts-158">Kv - Command | Vault | Hashicorp Developer - 11/5</a></p>
+</li>
+<li>
+<p><a href="/thoughts-157">Johanhaleby/Kubetail: Bash Script To Tail Kubernetes Logs From Multiple Pods At The Same Time - 10/31</a></p>
+</li>
+<li>
+<p><a href="/thoughts-155">Waylon Walker 🐍 On X: "Which Is More Complicated" / X - 10/30</a></p>
+</li>
+<li>
+<p><a href="/thoughts-156">(90) Kubernetes Secrets In 5 Minutes! - Youtube - 10/30</a></p>
+</li>
+<li>
+<p><a href="/thoughts-152">Creating K8S Jobs With Python - 10/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-153">&lt;/&gt; Htmx ~ Locality Of Behaviour (Lob) - 10/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-154">Wes Bos On X: "🔥 The Stale-While-Revalidate Header Is Suuuuuuper Handy For Striking A Balance Between Fast Loads And And Frequently Changed Content. Here I Am Using It To Instantly Deliver An Og Image That Takes ~8S To Generate. Https://T.Co/Baitzswu9O" / X - 10/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-151">Diagnostic - Neovim Docs - 10/25</a></p>
+</li>
+<li>
+<p><a href="/thoughts-149">How To Kill Process Based On The Port Number In Linux - Linux Tutorials - Learn Linux Configuration - 10/23</a></p>
+</li>
+<li>
+<p><a href="/thoughts-146">Translate A Docker Compose File To Kubernetes Resources | Kubernetes - 10/22</a></p>
+</li>
+<li>
+<p><a href="/thoughts-147">Casey/Just: 🤖 Just A Command Runner - 10/22</a></p>
+</li>
+<li>
+<p><a href="/thoughts-148">Mkimuram/K8Sviz: Generate Kubernetes Architecture Diagrams From The Actual State In A Namespace - 10/22</a></p>
+</li>
+<li>
+<p><a href="/thoughts-142">Can'T Create Secret In Kubernetes: Illegal Base64 Data At Input - Stack Overflow - 10/21</a></p>
+</li>
+<li>
+<p><a href="/thoughts-143">Inspect A Kubernetes Persistentvolumeclaim | Frank Sauerburger - 10/21</a></p>
+</li>
+<li>
+<p><a href="/thoughts-144">Kubernetes Persistent Volumes With Deployment And Statefulset - 10/21</a></p>
+</li>
+<li>
+<p><a href="/thoughts-145">Daniel Nashed'S Blog - 10/21</a></p>
+</li>
+<li>
+<p><a href="/thoughts-140">Quick-Start Guide | K3S - 10/20</a></p>
+</li>
+<li>
+<p><a href="/thoughts-141">Can I Access K3S Using Just Kubectl (No Sudo And No K3S Command) : Kubernetes - 10/20</a></p>
+</li>
+<li>
+<p><a href="/thoughts-139">(70) Tailwind Connect 2023 — Keynote - Youtube - 10/19</a></p>
+</li>
+<li>
+<p><a href="/thoughts-135">(68) Has Web Development Regressed? A Conversation With Wes Bos | Backend Banter 023 - Youtube - 10/17</a></p>
+</li>
+<li>
+<p><a href="/thoughts-136">Twitter Requires Full Image_Urls - 10/17</a></p>
+</li>
+<li>
+<p><a href="/thoughts-137">Delete A Postgres Cluster · Fly Docs - 10/17</a></p>
+</li>
+<li>
+<p><a href="/thoughts-138">Episode #433 Litestar: Effortlessly Build Performant Apis - [Talk Python To Me Podcast] - 10/17</a></p>
+</li>
+<li>
+<p><a href="/thoughts-133">Ollama - 10/14</a></p>
+</li>
+<li>
+<p><a href="/thoughts-134">David-Kunz/Gen.Nvim: Neovim Plugin To Generate Text Using Llms With Customizable Prompts - 10/14</a></p>
+</li>
+<li>
+<p><a href="/thoughts-132">Sysid/Sse-Starlette - 10/12</a></p>
+</li>
+<li>
+<p><a href="/thoughts-130">How To Create A Custom Scrollbar - 10/11</a></p>
+</li>
+<li>
+<p><a href="/thoughts-131">Overflow - Tailwind Css - 10/11</a></p>
+</li>
+<li>
+<p><a href="/thoughts-128">Change Autocomplete Styles In Webkit Browsers | Css-Tricks - Css-Tricks - 10/10</a></p>
+</li>
+<li>
+<p><a href="/thoughts-129">Wincent/Aspects/Dotfiles/Files/.Zshrc At 85Fc42D9E96D408A5B36739F6C10E6D686B70B34 · Wincent/Wincent - 10/10</a></p>
+</li>
+<li>
+<p><a href="/thoughts-126">Automatic Browser Reloading In Fastapi - 10/8</a></p>
+</li>
+<li>
+<p><a href="/thoughts-127">Florimondmanca/Arel: Lightweight Browser Hot Reload For Python Asgi Web Apps - 10/8</a></p>
+</li>
+<li>
+<p><a href="/thoughts-122">Open Source, Not Open Contribution With Ben Johnson (Changelog Interviews #433) |&gt; Changelog - 10/5</a></p>
+</li>
+<li>
+<p><a href="/thoughts-123">Teej Dv 🔭 On X: "Hypermedia Fixes This Hateoas Gonna Hate" / X - 10/5</a></p>
+</li>
+<li>
+<p><a href="/thoughts-124">Bob Belderbos On X: "Forget Python For A Sec, Here'S How Vim Helped Me Out Today ... 💪 📈 Ever Felt Like You Needed A Quick String Replacement Without Diving Into A Script? Here'S A Vim Trick I Just Used ... I Wanted To Replace All Occurrences Of: Name,Name@Example.Com,0,171,,2023-09-21 With:…" / X - 10/5</a></p>
+</li>
+<li>
+<p><a href="/fastapi-static-content">How To Host Static Content With Fastapi - 10/4</a></p>
+</li>
+<li>
+<p><a href="/jpillora-installer">Jpillora-Installer - 10/4</a></p>
+</li>
+<li>
+<p><a href="/thoughts-120">Djangocon Europe 2023 | Use Sqlite In Production - Youtube - 10/3</a></p>
+</li>
+<li>
+<p><a href="/thoughts-121">Point-In-Time Recovery - Wikipedia - 10/3</a></p>
+</li>
+<li>
+<p><a href="/thoughts-119">Benbjohnson/Litestream: Streaming Replication For Sqlite. - 10/1</a></p>
+</li>
+<li>
+<p><a href="/set-up-minio-bucket-entrypoint">Set Up Minio Bucket Entrypoint - 10/1</a></p>
+</li>
+<li>
+<p><a href="/thoughts-116">Litefs Cloud: Distributed Sqlite With Managed Backups · The Fly Blog - 9/30</a></p>
+</li>
+<li>
+<p><a href="/thoughts-117">I'M All-In On Server-Side Sqlite · The Fly Blog - 9/30</a></p>
+</li>
+<li>
+<p><a href="/thoughts-118">Why I Built Litestream - Litestream - 9/30</a></p>
+</li>
+<li>
+<p><a href="/why-is-postgres-default">Why-Is-Postgres-Default - 9/30</a></p>
+</li>
+<li>
+<p><a href="/thoughts-115">Jpillora/Installer: One-Liner For Installing Binaries From Github Releases - 9/23</a></p>
+</li>
+<li>
+<p><a href="/thoughts-114">How To Run Pods As Systemd Services With Podman | Enable Sysadmin - 9/22</a></p>
+</li>
+<li>
+<p><a href="/thoughts-112">Pagefind | Pagefind — Static Low-Bandwidth Search At Scale - 9/20</a></p>
+</li>
+<li>
+<p><a href="/tailwind-and-jinja">Setup Tailwind For Jinja - 9/17</a></p>
+</li>
+<li>
+<p><a href="/thoughts-111">(27) Bo Burnham, I Mean Miriah, Says Lower Your Programming Expectations A Lot... - Youtube - 9/13</a></p>
+</li>
+<li>
+<p><a href="/thoughts-110">Simon Willison On X: "Anyone Got A Lead On A Good Embedding Model That Can Embed Both Images And Text Into The Same Space, So You Can Search For "Dog" And Get Back Images Most Likely To Contain A Dog? It Looks Like Visualbert Is One, What Are Others?" / X - 9/10</a></p>
+</li>
+<li>
+<p><a href="/a-case-for-tailwindcss">A Case For Tailwindcss - 9/10</a></p>
+</li>
+<li>
+<p><a href="/thoughts-109">Aca/Emmet-Ls: Emmet Support Based On Lsp. - 9/8</a></p>
+</li>
+<li>
+<p><a href="/thoughts-107">Formatter - 9/7</a></p>
+</li>
+<li>
+<p><a href="/thoughts-108">Llm Now Provides Tools For Working With Embeddings - 9/7</a></p>
+</li>
+<li>
+<p><a href="/make-the-easy-things-easy">Make The Easy Things Easy - 9/6</a></p>
+</li>
+<li>
+<p><a href="/thoughts-105">&lt;/&gt; Htmx ~ Hx-Indicator Attribute - 9/2</a></p>
+</li>
+<li>
+<p><a href="/thoughts-106">&lt;/&gt; Htmx ~ The Disable-Element Extension - 9/2</a></p>
+</li>
+<li>
+<p><a href="/thoughts-104">(19) The Truth About Htmx | Prime Reacts - Youtube - 9/1</a></p>
+</li>
+<li>
+<p><a href="/thoughts-103">&lt;/&gt; Htmx ~ Examples ~ Updating Other Content - 8/26</a></p>
+</li>
+<li>
+<p><a href="/thoughts-102">Bigger Applications - Multiple Files - Fastapi - 8/24</a></p>
+</li>
+<li>
+<p><a href="/thoughts-100">Custom Pages And Templates - Datasette Documentation - 8/23</a></p>
+</li>
+<li>
+<p><a href="/thoughts-95">Sharkdp/Bat: A Cat(1) Clone With Wings. - 8/21</a></p>
+</li>
+<li>
+<p><a href="/thoughts-96">Sqlite Fts5 Extension - 8/21</a></p>
+</li>
+<li>
+<p><a href="/thoughts-97">Curl Command Without Using Cache | Baeldung On Linux - 8/21</a></p>
+</li>
+<li>
+<p><a href="/thoughts-98">Tailwind Css Cheat Sheet - 8/21</a></p>
+</li>
+<li>
+<p><a href="/thoughts-99">Preline Ui - Tailwind Css Component Library | Preline Ui, Crafted With Tailwind Css - 8/21</a></p>
+</li>
+<li>
+<p><a href="/thoughts-94">Sqlite_Utils Python Library - Sqlite-Utils - 8/20</a></p>
+</li>
+<li>
+<p><a href="/thoughts-93">How To Format All Files In A Directory With Prettier | By Dr. Derek Austin 🥳 | Level Up Coding - 8/19</a></p>
+</li>
+<li>
+<p><a href="/thoughts-89">Simonw/Shot-Scraper: A Command-Line Utility For Taking Automated Screenshots Of Websites - 8/16</a></p>
+</li>
+<li>
+<p><a href="/thoughts-90">Simonw/Datasette-Render-Markdown: Datasette Plugin For Rendering Markdown - 8/16</a></p>
+</li>
+<li>
+<p><a href="/thoughts-88">Shot-Scraper: Automated Screenshots For Documentation, Built On Playwright - 8/15</a></p>
+</li>
+<li>
+<p><a href="/thoughts-80">Html Over The Wire | Hotwire - 8/11</a></p>
+</li>
+<li>
+<p><a href="/thoughts-81">(128) #Learning #Webdevelopment - Youtube - 8/11</a></p>
+</li>
+<li>
+<p><a href="/thoughts-79">How Do I Post Form Data Using Curl? - 8/10</a></p>
+</li>
+<li>
+<p><a href="/thoughts-76">Create Models With A Many-To-Many Link - Sqlmodel - 8/9</a></p>
+</li>
+<li>
+<p><a href="/thoughts-77">How To Use Html To Open A Link In A New Tab - 8/9</a></p>
+</li>
+<li>
+<p><a href="/thoughts-78">Lifecycle Hooks | Vue.Js - 8/9</a></p>
+</li>
+<li>
+<p><a href="/thoughts-74">Chebykinn/Sedmario: Nes Super Mario Bros Level 1 Written In Pure Sed! - 8/8</a></p>
+</li>
+<li>
+<p><a href="/thoughts-75">Python - How To Use A Pydantic Model With Form Data In Fastapi? - Stack Overflow - 8/8</a></p>
+</li>
+<li>
+<p><a href="/thoughts-73">Formatting On Save · Jose-Elias-Alvarez/Null-Ls.Nvim Wiki - 8/6</a></p>
+</li>
+<li>
+<p><a href="/thoughts-70">Use Alembic Check To Check For Possible Upgrades - 8/5</a></p>
+</li>
+<li>
+<p><a href="/thoughts-71"><code>Valueerror: Constraint Must Have A Name</code> In Alembic 1.10.0 · Issue #1195 · Sqlalchemy/Alembic - 8/5</a></p>
+</li>
+<li>
+<p><a href="/thoughts-72">Debugging | Pywebview - 8/5</a></p>
+</li>
+<li>
+<p><a href="/thoughts-67">(124) Tailwind Css Crash Course - Youtube - 8/4</a></p>
+</li>
+<li>
+<p><a href="/thoughts-68">Api — Jinja Documentation (3.0.X) - 8/4</a></p>
+</li>
+<li>
+<p><a href="/thoughts-69">Api — Jinja Documentation (3.0.X) - 8/4</a></p>
+</li>
+<li>
+<p><a href="/thoughts-66">Github - Wagoodman/Dive: A Tool For Exploring Each Layer In A Docker Image - 8/2</a></p>
+</li>
+<li>
+<p><a href="/thoughts-64">Read A Range Of Data - Limit And Offset - Sqlmodel - 8/1</a></p>
+</li>
+<li>
+<p><a href="/thoughts-65">Gzip Compression Test | Giftofspeed - 8/1</a></p>
+</li>
+<li>
+<p><a href="/thoughts-63">Duckdb Vs. Motherduck — Should You Switch To The Cloud Version? | Kestra - 7/31</a></p>
+</li>
+<li>
+<p><a href="/thoughts-61">S3-Tree · Pypi - 7/30</a></p>
+</li>
+<li>
+<p><a href="/thoughts-62">Center Things - Textual - 7/30</a></p>
+</li>
+<li>
+<p><a href="/thoughts-53">Wesley Aptekar-Cassels | Reasons To Avoid Javascript Cdns - 7/29</a></p>
+</li>
+<li>
+<p><a href="/thoughts-54">Using Rich Inspect To Interrogate Python Objects - Textual - 7/29</a></p>
+</li>
+<li>
+<p><a href="/thoughts-55">Testdisk Step By Step - Cgsecurity - 7/29</a></p>
+</li>
+<li>
+<p><a href="/thoughts-56">Podman - Archwiki - 7/29</a></p>
+</li>
+<li>
+<p><a href="/thoughts-57">Containers/Aardvark-Dns: Authoritative Dns Server For A/Aaaa Container Records. Forwards Other Request To Host'S /Etc/Resolv.Conf - 7/29</a></p>
+</li>
+<li>
+<p><a href="/thoughts-58">Relocating The Docker Root Directory - Ibm Documentation - 7/29</a></p>
+</li>
+<li>
+<p><a href="/thoughts-59">Kndndrj/Nvim-Dbee: Interactive Database Client For Neovim - 7/29</a></p>
+</li>
+<li>
+<p><a href="/thoughts-60">Python - Sqlalchemy Order By Descending? - Stack Overflow - 7/29</a></p>
+</li>
+<li>
+<p><a href="/thoughts-2">Lazyvim Installation - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-3">Python Script Is Not Found - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-4">How To Pull From Images From Docker.Io With Podman - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-5">Dear Red Hat... Featuring Jeff Geerling (Changelog &amp; Friends #7) |&gt; Changelog - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-6">Deleting Specific Lines In A File With Sed Or Yq - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-7">Flask Trailing Slashes 404 - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-8">How To Fix Zfs Pool Not Importing At Boot :: ./Techtipsy — Herman'S Blog - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-9">How To Manage 'Systemd' Services And Units Using 'Systemctl' In Linux - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-10">Jq Cheat Sheet - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-11">Sqlite-Utils Command-Line Tool - Sqlite-Utils - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-12">Sqlite-Utils Command-Line Tool - Sqlite-Utils - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-13">Full-Text Search - Datasette Documentation - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-14">Chris Coyier On Twitter: "I Was Unaware Of <code>Text-Wrap: Pretty;</code> I Knew About The (New/Cool) <code>Text-Wrap: Balance;</code> — But Sometimes That'S A Bit... Too Much. I Feel Like It'S Nice On Headers But Not Smaller Type. Here'S What I Mean." / Twitter - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-15">Changelog On Twitter: "🗣️ @Kelseyhightower On His Demos: That Happy Path Gets People Out Of Their Chairs. They’Re Going Back To The Computer, Like: “Yo, I’M Gonna Try It Right Now.” Come On… I’D Rather Have That. And I’Ll Take The Bit Of Criticism That Comes With It. Https://T.Co/M9R2Kzjnqo" / Twitter - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-16">(106) Python Sucks And I Love It | Prime Reacts - Youtube - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-25">Encodeuricomponent() - Javascript | Mdn - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-26">Url Decoding Query Strings Or Form Parameters In Python | Urldecoder - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-27">Filter Data - Where - Sqlmodel - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-28">(1) Doyensec On Twitter: "Announcing Wsrepl, The Websocket Testing Tool From Doyensec! This Intuitive Tool Is Super Easy To Use And Makes Automation Around Websockets Simple! Check Out Our Blog For The Details And Download It Today! Https://T.Co/Km5M7K6Pb0 #Doyensec #Appsec #Websockets #Burpsuite Https://T.Co/Uvlymusk95" / Twitter - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-29">Doyensec/Wsrepl: Websocket Repl For Pentesters - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-30">String - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-31">Dark Form - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-32">Pytest-Subtests · Pypi - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-33">Sql On Pandas - Duckdb - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-34">Python Api - Duckdb - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-35">Harlequin Sql Ide - Duckdb - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-36">First-Class Session Support In Fastapi · Issue #754 · Tiangolo/Fastapi - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-37">(109) Htmx Looks Pretty Neat #Coding #Javascript - Youtube - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-38">Static Files - Fastapi - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-39">&lt;/&gt; Htmx ~ The Client-Side-Templates Extension - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-40">Python 3.X - Fastapi Redirection For Trailing Slash Returns Non-Ssl Link - Stack Overflow - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-42">&lt;/&gt; Htmx ~ Documentation - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-43">Templates - Fastapi - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-44">Template Designer Documentation — Jinja Documentation (3.1.X) - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-45">Column Insert/Update Defaults — Sqlalchemy 1.4 Documentation - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-46">Pywebview - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-47">Form Data - Fastapi - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-48">(113) Session Vs Token Authentication In 100 Seconds - Youtube - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-49">Sqlite-Utils Now Supports Plugins - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-50">1J01/Textual-Paint: :Art: Ms Paint... In Your Terminal. - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-51">Header Parameters - Fastapi - 7/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-52">&lt;/&gt; Htmx ~ The Json-Enc Extension - 7/28</a></p>
+</li>
+<li>
+<p><a href="/underground-bases-with-wyatt">Underground Bases With Wyatt - 7/9</a></p>
+</li>
+<li>
+<p><a href="/python-scandir-ignores-hidden-directories">Python Scandir Ignores Hidden Directories - 6/17</a></p>
+</li>
+<li>
+<p><a href="/setting-up-paru">Setting Up Paru | Installing From The Aur For The First Time - 5/27</a></p>
+</li>
+<li>
+<p><a href="/i-took-a-break">I Took A Break - 5/27</a></p>
+</li>
+<li>
+<p><a href="/playing-sw-text-adventure-10-yr-old">Playing Star Wars Text Adventure With A 10 Yr Old - 5/15</a></p>
+</li>
+<li>
+<p><a href="/pydantic-and-singledispatch">Pydantic And Singledispatch - 5/3</a></p>
+</li>
+<li>
+<p><a href="/gh-release">Releasing A New Version Of Your Python Package Just Got Easier - 1/23</a></p>
+</li>
+<li>
+<p><a href="/arch-rejects-password">Arch Linux Randomly Rejecting Passwords - 1/19</a></p>
+</li>
+</ul>
+<h2>2024<a alt="id" class="heading-permalink" href="#None" title="link to #None"><span class="visually-hidden"></span><svg aria-hidden="true" fill="currentColor" focusable="false" height="1em" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<ul>
+<li>
+<p><a href="/thoughts-227">Fastapi Decorators - 3/26</a></p>
+</li>
+<li>
+<p><a href="/thoughts-228">Middleware Explained - Youtube - 3/26</a></p>
+</li>
+<li>
+<p><a href="/thoughts-224">Simon Willison On X: "Til Google Chrome Has A --Headless Option You Can Use To Take A Screenshot From The Cli That'S Built Into The Default Installation Https://T.Co/Hoa4Ujpsth" / X - 3/25</a></p>
+</li>
+<li>
+<p><a href="/thoughts-223">Fastapi Https Url_For - 3/24</a></p>
+</li>
+<li>
+<p><a href="/thoughts-222">Cassidy On X: "I Made An App ✨ Https://T.Co/Biyx8Xzqdk" / X - 3/21</a></p>
+</li>
+<li>
+<p><a href="/thoughts-220">Joining The Split Keyboards Club: A Moonlander Story - 3/20</a></p>
+</li>
+<li>
+<p><a href="/thoughts-221">Learning Strawberry - 3/20</a></p>
+</li>
+<li>
+<p><a href="/thoughts-219">My Workflow, Part 1 - 3/19</a></p>
+</li>
+<li>
+<p><a href="/thoughts-218">Using Netlify Analytics To Build A List Of Popular Posts - Jim Nielsen’S Blog - 3/18</a></p>
+</li>
+<li>
+<p><a href="/thoughts-215">Docker - Where Does The Convention Of Using /Healthz For Application Health Checks Come From? - Stack Overflow - 3/15</a></p>
+</li>
+<li>
+<p><a href="/thoughts-216">Configure Liveness, Readiness And Startup Probes | Kubernetes - 3/15</a></p>
+</li>
+<li>
+<p><a href="/thoughts-217">605: Jim Nielsen On Subversive Urls, Blogging + Ai, And Design Engineers – Shoptalk - 3/15</a></p>
+</li>
+<li>
+<p><a href="/thoughts-214">Placehold | A Simple, Fast And Free Image Placeholder Service - 3/14</a></p>
+</li>
+<li>
+<p><a href="/thoughts-212">Flake8-To-Ruff · Pypi - 3/9</a></p>
+</li>
+<li>
+<p><a href="/thoughts-213">My New Python Lsp Setup - 3/9</a></p>
+</li>
+<li>
+<p><a href="/thoughts-208">Jesseduffield/Lazydocker: The Lazier Way To Manage Everything Docker - 3/7</a></p>
+</li>
+<li>
+<p><a href="/thoughts-209">Formatting Codes – Minecraft Wiki - 3/7</a></p>
+</li>
+<li>
+<p><a href="/thoughts-210">Lonecraft - 3/7</a></p>
+</li>
+<li>
+<p><a href="/thoughts-211">Searching My Thoughts Locally - 3/7</a></p>
+</li>
+<li>
+<p><a href="/thoughts-205">Python - Concepts Of Backref And Back_Populate In Sqlalchemy? - Stack Overflow - 3/6</a></p>
+</li>
+<li>
+<p><a href="/thoughts-206">(265) Creating One-To-Many Relationships In Flask-Sqlalchemy - Youtube - 3/6</a></p>
+</li>
+<li>
+<p><a href="/thoughts-207">(265) I'M Coming Around To Go... - Youtube - 3/6</a></p>
+</li>
+<li>
+<p><a href="/thoughts-204">2.5 Admins 180: Email 777 – 2.5 Admins - 2/3</a></p>
+</li>
+<li>
+<p><a href="/thoughts-201">I'M Skeptical Of Low Code - Youtube - 1/30</a></p>
+</li>
+<li>
+<p><a href="/thoughts-202">(212) Dawn Gate - The Game That Solved Toxicity - 2 - Youtube - 1/30</a></p>
+</li>
+<li>
+<p><a href="/thoughts-203">(212) Replace Github Copilot With A Local Llm - Youtube - 1/30</a></p>
+</li>
+<li>
+<p><a href="/poc-is-not-product">Poc Is Not Product - 1/28</a></p>
+</li>
+<li>
+<p><a href="/thoughts-197">Charmbracelet/Mods: Ai On The Command Line - 1/26</a></p>
+</li>
+<li>
+<p><a href="/thoughts-198">Charmbracelet/Mods: Ai On The Command Line - 1/26</a></p>
+</li>
+<li>
+<p><a href="/thoughts-199">Java - Archwiki - 1/26</a></p>
+</li>
+<li>
+<p><a href="/thoughts-200">The One Eyed Fighting Kirby - 1/26</a></p>
+</li>
+<li>
+<p><a href="/thoughts-196">Gridfinity | The Modular, Open-Source Grid Storage System For Your Workshop. - 1/14</a></p>
+</li>
+<li>
+<p><a href="/thoughts-195">Read A Range Of Data - Limit And Offset - Sqlmodel - 1/12</a></p>
+</li>
+</ul>
+<h2>2020<a alt="id" class="heading-permalink" href="#None" title="link to #None"><span class="visually-hidden"></span><svg aria-hidden="true" fill="currentColor" focusable="false" height="1em" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<ul>
+<li>
+<p><a href="/refactor-in-cli">Large Refactor At The Command Line - 12/30</a></p>
+</li>
+<li>
+<p><a href="/custom-ipython-prompt">Custom Ipython Prompt - 12/20</a></p>
+</li>
+<li>
+<p><a href="/ipython-config">Ipython-Config - 12/20</a></p>
+</li>
+<li>
+<p><a href="/automating-my-post-starter">Automating My Post Starter - 12/11</a></p>
+</li>
+<li>
+<p><a href="/more-itertools-windowed">Windowing Python Lists - 12/10</a></p>
+</li>
+<li>
+<p><a href="/audio-for-blog">Adding Audio To My Blog Posts - 11/25</a></p>
+</li>
+<li>
+<p><a href="/expand-one-line-links">Expand One Line Links - 11/18</a></p>
+</li>
+<li>
+<p><a href="/gatsby-remark-embedder">Gatsby-Remark-Embedder - 11/18</a></p>
+</li>
+<li>
+<p><a href="/find-replace">Find And Replace In The Terminal. - 11/12</a></p>
+</li>
+<li>
+<p><a href="/resume-tips">Resume Tips - 11/6</a></p>
+</li>
+<li>
+<p><a href="/codeit-bro-interview">Codeit Bro Interview - 11/2</a></p>
+</li>
+<li>
+<p><a href="/reasons-to-kedro">Reasons-To-Kedro - 11/1</a></p>
+</li>
+<li>
+<p><a href="/reasons-to-kedro-notes">Reasons To Kedro - 10/31</a></p>
+</li>
+<li>
+<p><a href="/reading-list">Reading List - 10/28</a></p>
+</li>
+<li>
+<p><a href="/whats-new-in-kedro-0166">What'S New In Kedro 0.16.6 - 10/25</a></p>
+</li>
+<li>
+<p><a href="/stories-10-10-2020-10-21-2020">A Brain Dump Of Stories - 10/21</a></p>
+</li>
+<li>
+<p><a href="/fix-git-commit-author">Fix Git Commit Author - 10/17</a></p>
+</li>
+<li>
+<p><a href="/designing-kedro-router">Designing A "Router" For Kedro - 10/8</a></p>
+</li>
+<li>
+<p><a href="/reset-ipython">Reclaim Memory Usage In Jupyter - 10/1</a></p>
+</li>
+<li>
+<p><a href="/strip-trailing-whitespace">Strip Trailing Whitespace From Git Projects - 9/30</a></p>
+</li>
+<li>
+<p><a href="/chrome-extensions-i-use">Chrome Extensions I Use - 9/13</a></p>
+</li>
+<li>
+<p><a href="/reusable-bash">Creating Reusable Bash Scripts - 8/13</a></p>
+</li>
+<li>
+<p><a href="/3-things-to-automate-with-python">Three Things To Automate With Python Using Pandas - 8/11</a></p>
+</li>
+<li>
+<p><a href="/install-miniconda">How To Install Miniconda On Linux (From The Command Line Only) - 8/10</a></p>
+</li>
+<li>
+<p><a href="/crush-dev-to-posts">How To Crush Amazing Posts On Dev - 8/7</a></p>
+</li>
+<li>
+<p><a href="/pariss-athena-on-black-tech-pipeline">Black Tech Pipeline - 8/3</a></p>
+</li>
+<li>
+<p><a href="/git-auto-commit-action-review">Review Of The Git-Auto-Commit-Action - 8/3</a></p>
+</li>
+<li>
+<p><a href="/whats-new-in-kedro-0164">What'S New In Kedro 0.16.4 - 8/1</a></p>
+</li>
+<li>
+<p><a href="/025">025.Md - 7/29</a></p>
+</li>
+<li>
+<p><a href="/026">026.Md - 7/28</a></p>
+</li>
+<li>
+<p><a href="/testproject-io-py-actions">Integration Testing With Python, Testproject.Io, And Github Actions - 7/27</a></p>
+</li>
+<li>
+<p><a href="/new-machine-tpio">New Machine For Developing Tests With Testproject.Io - 7/25</a></p>
+</li>
+<li>
+<p><a href="/practice-python-online">🐍 Practice Python Online - 7/25</a></p>
+</li>
+<li>
+<p><a href="/kedro-catalog">Kedro Catalog - 7/24</a></p>
+</li>
+<li>
+<p><a href="/how-python-tools-config">How Python Tools Configure - 7/21</a></p>
+</li>
+<li>
+<p><a href="/edit-on-github">Edit On Github - 7/18</a></p>
+</li>
+<li>
+<p><a href="/why-use-cms">Why Use A Cms - 7/14</a></p>
+</li>
+<li>
+<p><a href="/parsing-rss-python">🐍 Parsing Rss Feeds With Python - 7/13</a></p>
+</li>
+<li>
+<p><a href="/reader">Reader - 7/12</a></p>
+</li>
+<li>
+<p><a href="/explain-twitter-cards">🙋‍♂️ Can Anyone Explain Twitter Cards To Me? - 7/11</a></p>
+</li>
+<li>
+<p><a href="/whats-on-your-github-profile">🤓 What'S On Your Github Profile - 7/11</a></p>
+</li>
+<li>
+<p><a href="/my-github-profile">How I Built My Github Profile - 7/10</a></p>
+</li>
+<li>
+<p><a href="/python-args-kwargs-slides">Slides - Understanding Python *Args And **Kwargs - 7/2</a></p>
+</li>
+<li>
+<p><a href="/graceful-kedro-catalog">Gracefully Adopt Kedro, The Catalog - 6/29</a></p>
+</li>
+<li>
+<p><a href="/kedro-catalog-search">How To Find Things In Your Kedro Catalog - 6/22</a></p>
+</li>
+<li>
+<p><a href="/020">020 - 6/21</a></p>
+</li>
+<li>
+<p><a href="/021">021 - 6/21</a></p>
+</li>
+<li>
+<p><a href="/022">022 - 6/21</a></p>
+</li>
+<li>
+<p><a href="/023">023 - 6/21</a></p>
+</li>
+<li>
+<p><a href="/024">024 - 6/21</a></p>
+</li>
+<li>
+<p><a href="/019">019 - 6/21</a></p>
+</li>
+<li>
+<p><a href="/eight-years-cat">My First Eight Years As A Working Professional. - 6/19</a></p>
+</li>
+<li>
+<p><a href="/kedro-inputs">How Kedro Handles Your Inputs - 6/19</a></p>
+</li>
+<li>
+<p><a href="/018">018 - 6/14</a></p>
+</li>
+<li>
+<p><a href="/016">016 - 6/14</a></p>
+</li>
+<li>
+<p><a href="/015">015 - 6/14</a></p>
+</li>
+<li>
+<p><a href="/017">017 - 6/14</a></p>
+</li>
+<li>
+<p><a href="/014">014 - 6/12</a></p>
+</li>
+<li>
+<p><a href="/gracefully-redirect">Refactoring Your Blog Urls - 6/11</a></p>
+</li>
+<li>
+<p><a href="/master-no-more">Master No More - 6/11</a></p>
+</li>
+<li>
+<p><a href="/python-args-kwargs">Understanding Python *Args And **Kwargs - 6/10</a></p>
+</li>
+<li>
+<p><a href="/008">008 - 6/7</a></p>
+</li>
+<li>
+<p><a href="/013">013 - 6/7</a></p>
+</li>
+<li>
+<p><a href="/011">011 - 6/7</a></p>
+</li>
+<li>
+<p><a href="/012">012 - 6/7</a></p>
+</li>
+<li>
+<p><a href="/009">009 - 6/7</a></p>
+</li>
+<li>
+<p><a href="/010">010 - 6/7</a></p>
+</li>
+<li>
+<p><a href="/006">006 - 6/6</a></p>
+</li>
+<li>
+<p><a href="/007">007 - 6/6</a></p>
+</li>
+<li>
+<p><a href="/005">005 - 6/6</a></p>
+</li>
+<li>
+<p><a href="/building-kedro-dev">Building Kedro.Dev - 6/5</a></p>
+</li>
+<li>
+<p><a href="/pre-commit-is-awesome">Pre-Commit Is Awesome - 6/5</a></p>
+</li>
+<li>
+<p><a href="/003">003 - 5/31</a></p>
+</li>
+<li>
+<p><a href="/004">004 - 5/31</a></p>
+</li>
+<li>
+<p><a href="/002">002 - 5/28</a></p>
+</li>
+<li>
+<p><a href="/kedro-static-viz-0-3-0">Kedro Static Viz 0.3.0 Is Out With Hooks Support - 5/28</a></p>
+</li>
+<li>
+<p><a href="/001">001 - 5/26</a></p>
+</li>
+<li>
+<p><a href="/kedro-class-hooks">Create Configurable Kedro Hooks - 5/23</a></p>
+</li>
+<li>
+<p><a href="/gatsby-scripts-with-onload">Gatsby Scripts With Onload - 5/22</a></p>
+</li>
+<li>
+<p><a href="/brainstorming-kedro-hooks">Brainstorming Kedro Hooks - 5/22</a></p>
+</li>
+<li>
+<p><a href="/devto-comments-from-url">How To Get Dev Comments From An Article Url - 5/20</a></p>
+</li>
+<li>
+<p><a href="/four-github-actions-website">Four Github Actions For Your Website - 5/18</a></p>
+</li>
+<li>
+<p><a href="/adding-google-fonts-to-a-gatsbyjs-site">Adding Google Fonts To A Gatsbyjs Site - 5/17</a></p>
+</li>
+<li>
+<p><a href="/create-custom-kedro-dataset">Create Custom Kedro Dataset - 5/15</a></p>
+</li>
+<li>
+<p><a href="/interrogate">Interrogate Is A Pretty Awesome, Brand New, Cli For Python Packages - 5/15</a></p>
+</li>
+<li>
+<p><a href="/drawing-ascii-boxes">Drawing Ascii Boxes - 5/12</a></p>
+</li>
+<li>
+<p><a href="/creating-the-kedro-preflight-hook">Creating The Kedro-Preflight Hook - 5/10</a></p>
+</li>
+<li>
+<p><a href="/kedro-preflight">📝 Kedro Preflight Notes - 5/9</a></p>
+</li>
+<li>
+<p><a href="/maintianing-multiple-git-remotes">Maintianing Multiple Git Remotes - 5/7</a></p>
+</li>
+<li>
+<p><a href="/find-kedro-release">📢 Announcing Find-Kedro - 5/4</a></p>
+</li>
+<li>
+<p><a href="/explicit-vs-implicit-returns-in-javascript">Explicit Vs Implicit Returns In Javascript - 5/3</a></p>
+</li>
+<li>
+<p><a href="/twitter-deepdives">Twitter Deepdives - 5/1</a></p>
+</li>
+<li>
+<p><a href="/python-deepwatch">Python-Deepwatch - 4/27</a></p>
+</li>
+<li>
+<p><a href="/bind-dynamic-lambdas">Til: Bind Arguments To Dynamically Generated Lambdas In Python - 4/27</a></p>
+</li>
+<li>
+<p><a href="/four-github-actions-python">Four Github Actions For Python - 4/13</a></p>
+</li>
+<li>
+<p><a href="/variable-names-don-t-need-their-type">Variables Names Don'T Need Their Type - 4/8</a></p>
+</li>
+<li>
+<p><a href="/send-email-with-github-actions">Send Emails With Github Actions - 3/31</a></p>
+</li>
+<li>
+<p><a href="/github-actions-syntax">Getting Started With Github Actions - 3/16</a></p>
+</li>
+<li>
+<p><a href="/what-are-github-actions">What Are Github Actions - 3/16</a></p>
+</li>
+<li>
+<p><a href="/git-diff-branches">Today I Learned <code>Git Diff Feature..Main</code> - 3/3</a></p>
+</li>
+<li>
+<p><a href="/create-new-kedro-project">Create New Kedro Project - 3/2</a></p>
+</li>
+<li>
+<p><a href="/data-scientist-advice">What Is Your Advice For New Data Scientists - 2/26</a></p>
+</li>
+<li>
+<p><a href="/do-you-hoist">Do You Hoist - 2/25</a></p>
+</li>
+<li>
+<p><a href="/what-is-kedro-1">What Is Kedro - 2/24</a></p>
+</li>
+<li>
+<p><a href="/custom-scrollbar-design">Custom Scrollbar Design - 2/21</a></p>
+</li>
+<li>
+<p><a href="/don-t-waste-your-time-learning-everything">Don’T Waste Your Time Learning Everything - 2/19</a></p>
+</li>
+<li>
+<p><a href="/2020-rebrand">2020 Waylonwalker.Com Rebrand - 2/17</a></p>
+</li>
+<li>
+<p><a href="/react-headroom">I Just Added React-Headroom To My Site - 2/11</a></p>
+</li>
+<li>
+<p><a href="/serverless-things-to-investigate">Serverless Things To Investigate - 2/10</a></p>
+</li>
+<li>
+<p><a href="/fix-styled-components-in-gatsby">I Finally Fixed My Styled-Components In Gatsby.Js - 2/8</a></p>
+</li>
+<li>
+<p><a href="/should-i-switch-to-zeit-now">Should I Switch To Zeit Now - 2/6</a></p>
+</li>
+<li>
+<p><a href="/git-push-without-setting-upstream">Git Push Without Setting Upstream - 2/4</a></p>
+</li>
+<li>
+<p><a href="/out-of-space">Out Of Space - 2/1</a></p>
+</li>
+<li>
+<p><a href="/personal-url-shortener">Personal Url Shortener With Netlify Redirects - 1/29</a></p>
+</li>
+<li>
+<p><a href="/simple-click">Simple Click - 1/29</a></p>
+</li>
+<li>
+<p><a href="/cmd-exe-tips">Cmd.Exe Tips - 1/23</a></p>
+</li>
+<li>
+<p><a href="/learn-early">What Is Something You Should Have Learned Or Understood Earlier? - 1/10</a></p>
+</li>
+<li>
+<p><a href="/supercharge-zsh-startup">Supercharge Zsh Startup - 1/3</a></p>
+</li>
+<li>
+<p><a href="/keep-location-list-closed">Keep Location List Closed - 1/1</a></p>
+</li>
+</ul>
+<h2>2019<a alt="id" class="heading-permalink" href="#None" title="link to #None"><span class="visually-hidden"></span><svg aria-hidden="true" fill="currentColor" focusable="false" height="1em" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<ul>
+<li>
+<p><a href="/sqlalchemy-models">Sqlalchemy Models - 12/21</a></p>
+</li>
+<li>
+<p><a href="/building-cli-apps-in-python">Building Cli Apps In Python - 11/11</a></p>
+</li>
+<li>
+<p><a href="/kedro">Kedro - 11/2</a></p>
+</li>
+<li>
+<p><a href="/packages-to-investigate">📝 Packages To Investigate Notes - 10/14</a></p>
+</li>
+<li>
+<p><a href="/debugging-python">Debugging Python - 10/1</a></p>
+</li>
+<li>
+<p><a href="/just-use-pathlib">Just Use Pathlib - 9/26</a></p>
+</li>
+<li>
+<p><a href="/custom-python-exceptions">Custom Python Exceptions - 9/25</a></p>
+</li>
+<li>
+<p><a href="/filtering-pandas">Filtering Pandas - 9/24</a></p>
+</li>
+<li>
+<p><a href="/digital-ocean">Digital Ocean - 9/22</a></p>
+</li>
+<li>
+<p><a href="/the-good-old-days">The Good Old Days - 9/22</a></p>
+</li>
+<li>
+<p><a href="/quick-progress-bars-in-python-using-tqdm">Quick Progress Bars In Python Using Tqdm - 9/18</a></p>
+</li>
+<li>
+<p><a href="/named-tuples-data-science">Clean Up Your Data Science With Named Tuples - 9/11</a></p>
+</li>
+<li>
+<p><a href="/python-data-science-background">Background Tasks In Python For Data Science - 9/10</a></p>
+</li>
+<li>
+<p><a href="/bash">📝 Bash Notes - 9/8</a></p>
+</li>
+<li>
+<p><a href="/autoreload-ipython">Autoreload In Ipython - 9/8</a></p>
+</li>
+<li>
+<p><a href="/keyboard-driven-vscode">Keyboard Driven Vscode - 7/7</a></p>
+</li>
+<li>
+<p><a href="/realistic-git-workflow">Realistic Git Workflow - 5/27</a></p>
+</li>
+<li>
+<p><a href="/gratitude-095">Gratitude 095 - 5/21</a></p>
+</li>
+<li>
+<p><a href="/gratitude-093">Gratitude 093 - 5/20</a></p>
+</li>
+<li>
+<p><a href="/gratitude-093-1">Gratitude 094 - 5/20</a></p>
+</li>
+<li>
+<p><a href="/gratitude-91">Gratitude 91 - 5/17</a></p>
+</li>
+<li>
+<p><a href="/forestry-io">Forestry.Io - 4/23</a></p>
+</li>
+<li>
+<p><a href="/gratitude-090">Gratitude 090 - 2/25</a></p>
+</li>
+<li>
+<p><a href="/gratitude-089">Gratitude 089 - 2/24</a></p>
+</li>
+<li>
+<p><a href="/gratitude-088">Gratitude 088 - 2/17</a></p>
+</li>
+<li>
+<p><a href="/gratitude-087">Gratitude 087 - 2/16</a></p>
+</li>
+<li>
+<p><a href="/gratitude-086">Gratitude 086 - 2/15</a></p>
+</li>
+<li>
+<p><a href="/gratitude-085">Gratitude 085 - 2/14</a></p>
+</li>
+<li>
+<p><a href="/gratitude-084">Gratitude 084 - 2/11</a></p>
+</li>
+<li>
+<p><a href="/gratitude-083">Gratitude 083 - 2/10</a></p>
+</li>
+<li>
+<p><a href="/gratitude-082">Gratitude 082 - 2/8</a></p>
+</li>
+<li>
+<p><a href="/gratitude-081">Gratitude 081 - 2/7</a></p>
+</li>
+<li>
+<p><a href="/gratitude-080">Gratitude 080 - 2/6</a></p>
+</li>
+<li>
+<p><a href="/gratitude-079">Gratitude 079 - 2/5</a></p>
+</li>
+<li>
+<p><a href="/git-rewrite-history">Rewrite History With Git - 2/5</a></p>
+</li>
+<li>
+<p><a href="/git-rewrite-history">Rewrite History With Git - 2/5</a></p>
+</li>
+<li>
+<p><a href="/gratitude-078">Gratitude 078 - 2/4</a></p>
+</li>
+<li>
+<p><a href="/journey">It'S Not All About Winning - 2/2</a></p>
+</li>
+<li>
+<p><a href="/gratitude-077">Gratitude 077 - 2/1</a></p>
+</li>
+<li>
+<p><a href="/gratitude-076">Gratitude 076 - 1/21</a></p>
+</li>
+<li>
+<p><a href="/git-update-user">Update Git User - 1/21</a></p>
+</li>
+<li>
+<p><a href="/gratitude-075">Gratitude 075 - 1/19</a></p>
+</li>
+<li>
+<p><a href="/gratitude-074">Gratitude 074 - 1/18</a></p>
+</li>
+<li>
+<p><a href="/gratitude-073">Gratitude 073 - 1/15</a></p>
+</li>
+<li>
+<p><a href="/gratitude-072">Gratitude 072 - 1/14</a></p>
+</li>
+<li>
+<p><a href="/gratitude-071">Gratitude 071 - 1/12</a></p>
+</li>
+<li>
+<p><a href="/goals-2019">2019 Goals - 1/12</a></p>
+</li>
+<li>
+<p><a href="/gratitude-070">Gratitude 070 - 1/11</a></p>
+</li>
+<li>
+<p><a href="/gratitude-069">Gratitude 069 - 1/10</a></p>
+</li>
+<li>
+<p><a href="/gratitude-068">Gratitude 068 - 1/9</a></p>
+</li>
+<li>
+<p><a href="/gratitude-067">Gratitude 067 - 1/8</a></p>
+</li>
+<li>
+<p><a href="/gratitude-066">Gratitude 066 - 1/5</a></p>
+</li>
+<li>
+<p><a href="/2018-retrospective">2018 Retrospective - 1/5</a></p>
+</li>
+<li>
+<p><a href="/gratitude-065">Gratitude 065 - 1/4</a></p>
+</li>
+<li>
+<p><a href="/gratitude-064">Gratitude 64 - 1/3</a></p>
+</li>
+<li>
+<p><a href="/gratitude-020">Gratitude 020 - 1/3</a></p>
+</li>
+<li>
+<p><a href="/gratitude-063">Gratitude 063 - 1/2</a></p>
+</li>
+<li>
+<p><a href="/gratitude-062">Gratitude 062 - 1/1</a></p>
+</li>
+<li>
+<p><a href="/gratitude-018">Gratitude 018 - 1/1</a></p>
+</li>
+<li>
+<p><a href="/happy">Do More Of What Brings You Joy - 1/1</a></p>
+</li>
+</ul>
+<h2>2022<a alt="id" class="heading-permalink" href="#None" title="link to #None"><span class="visually-hidden"></span><svg aria-hidden="true" fill="currentColor" focusable="false" height="1em" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<ul>
+<li>
+<p><a href="/fail-ci-scripts">Dash E Your Github Docker Actions - 12/7</a></p>
+</li>
+<li>
+<p><a href="/minecraft-documentary">Minecraft Documentary - 12/6</a></p>
+</li>
+<li>
+<p><a href="/ssh-copy-id">Ssh Copy Id - 12/4</a></p>
+</li>
+<li>
+<p><a href="/ssh-key-permissions">Ssh Key Permissions - 11/22</a></p>
+</li>
+<li>
+<p><a href="/nvim-navic">Nvim Navic - 10/27</a></p>
+</li>
+<li>
+<p><a href="/pipx-textual-devtools">Pipx Textual Devtools - 10/24</a></p>
+</li>
+<li>
+<p><a href="/textual-app-devtools">Textual App Devtools - 10/24</a></p>
+</li>
+<li>
+<p><a href="/obs-virtual-camera-on-boot">Obs Virtual Camera On Boot - 10/18</a></p>
+</li>
+<li>
+<p><a href="/localstack-status-permission">Localstack Status Permission - 10/17</a></p>
+</li>
+<li>
+<p><a href="/markata-supports-jinja-plugins-0-5-0-dev2">Markata Supports Jinja Plugins 0.5.0.Dev2 - 10/11</a></p>
+</li>
+<li>
+<p><a href="/django-rest-framework-getting-started">Getting Started With Django Rest Framework - 10/9</a></p>
+</li>
+<li>
+<p><a href="/markata-now-uses-hatch">Markata Now Uses Hatch - 10/8</a></p>
+</li>
+<li>
+<p><a href="/django-create-superuser">Django Create Superuser - 9/26</a></p>
+</li>
+<li>
+<p><a href="/django-disallowed-host">Django Disallowed Host - 9/26</a></p>
+</li>
+<li>
+<p><a href="/trying-out-django">Trying Out Django - 9/25</a></p>
+</li>
+<li>
+<p><a href="/jinja2-escape">How To Escape Variables In Jinja Templates - 9/24</a></p>
+</li>
+<li>
+<p><a href="/use-ipython-extensions">I'Ve Made My Ipython Config Too Complicated, Let'S Fix It. - 9/20</a></p>
+</li>
+<li>
+<p><a href="/markata-configure-head">Markata Extend  In Configuration - 9/11</a></p>
+</li>
+<li>
+<p><a href="/hatch-new-cli">Create A New Python Project With The Hatch Cli - 9/2</a></p>
+</li>
+<li>
+<p><a href="/hatch-version">Versioning Python Projects With Hatch - 9/1</a></p>
+</li>
+<li>
+<p><a href="/gh-rm-workflow-runs">Github Actions Delete All Workflow Runs - 9/1</a></p>
+</li>
+<li>
+<p><a href="/from-markdown-to-blog-with-markata">From Markdown To Blog With Markata | Lightning Talk | Python Web Conf 2022 - 8/31</a></p>
+</li>
+<li>
+<p><a href="/i-spoke-at-python-web-conf-2022">I Spoke At Python Web Conf 2022 - 8/30</a></p>
+</li>
+<li>
+<p><a href="/packages-i-maintain">Packages I Maintain - 8/30</a></p>
+</li>
+<li>
+<p><a href="/pypi-2fa">I Turned On 2Fa For All Of My Pypi Packages - 8/29</a></p>
+</li>
+<li>
+<p><a href="/talk-python-kedro">I Was On Talk Python - 8/27</a></p>
+</li>
+<li>
+<p><a href="/vim-sort-u">Use Vim To Remove Duplicates - 8/25</a></p>
+</li>
+<li>
+<p><a href="/rich-syntax-range-style">Highlighting Text Ranges With Rich | Python - 8/24</a></p>
+</li>
+<li>
+<p><a href="/vimgrep-open-buffers">Vimgrep Open Buffers - 8/22</a></p>
+</li>
+<li>
+<p><a href="/markata-0-3-0">Markata 0.3.0 Is 15-20% Faster - 8/21</a></p>
+</li>
+<li>
+<p><a href="/gratitude-196">Gratitude 196 - 8/15</a></p>
+</li>
+<li>
+<p><a href="/gratitude-195">Gratitude 195 - 8/9</a></p>
+</li>
+<li>
+<p><a href="/gratitude-194">Gratitude 194 - 8/8</a></p>
+</li>
+<li>
+<p><a href="/gratitude-193">Gratitude 193 - 8/3</a></p>
+</li>
+<li>
+<p><a href="/gratitude-192">Gratitude 192 - 8/2</a></p>
+</li>
+<li>
+<p><a href="/gratitude-191">Gratitude 191 - 8/1</a></p>
+</li>
+<li>
+<p><a href="/gratitude-190">Gratitude 190 - 7/30</a></p>
+</li>
+<li>
+<p><a href="/get-python-package-versions">Get The Version Of Any Python Package | Python Api - 7/29</a></p>
+</li>
+<li>
+<p><a href="/gratitude-189">Gratitude 189 - 7/28</a></p>
+</li>
+<li>
+<p><a href="/gratitude-188">Gratitude 188 - 7/27</a></p>
+</li>
+<li>
+<p><a href="/switched-to-arch">The One Reason I Switched To Arch - 7/23</a></p>
+</li>
+<li>
+<p><a href="/two-new-aliases-for-git">Two New Shell Aliases For Git - 6/28</a></p>
+</li>
+<li>
+<p><a href="/ipython-q-exit">Ipython Q To Exit - 6/13</a></p>
+</li>
+<li>
+<p><a href="/copier-slugify">Copier Slugify | Python Templating | Using Cookiecutter - 6/11</a></p>
+</li>
+<li>
+<p><a href="/gh-repo-create">Gh Repo Create - 6/10</a></p>
+</li>
+<li>
+<p><a href="/textual-has-devtools">Textual Has Devtools - 6/9</a></p>
+</li>
+<li>
+<p><a href="/pip-require-virtualenv">The One Pip Config You Need To Have - 6/1</a></p>
+</li>
+<li>
+<p><a href="/pyenv-no-sqlite3">Pyenv No Module Named '_Sqlite3' - 5/31</a></p>
+</li>
+<li>
+<p><a href="/pyenv-pipx">Using Different Versions Of Python With Pipx | Pyenv - 5/28</a></p>
+</li>
+<li>
+<p><a href="/gratitude-187">Gratitude 187 - 5/13</a></p>
+</li>
+<li>
+<p><a href="/vim-plugged-snapshot">Vim Plugged Snapshot - 5/13</a></p>
+</li>
+<li>
+<p><a href="/gratitude-186">Gratitude 186 - 5/12</a></p>
+</li>
+<li>
+<p><a href="/markata-todoui-live-replay-4-6-2022">Live-Replay - Python Dev | Markata Todoui | 4/6/2022 - 5/12</a></p>
+</li>
+<li>
+<p><a href="/clean-qutebrowser">Qutebrowser Clean Up All Status Bars - 5/11</a></p>
+</li>
+<li>
+<p><a href="/qutebroswer-write-config-py">Convert Your Qutebrowser Config To Config.Py - 5/11</a></p>
+</li>
+<li>
+<p><a href="/gratitude-185">Gratitude 185 - 5/10</a></p>
+</li>
+<li>
+<p><a href="/ewhich">Bash Function To Edit Scripts Faster - 5/10</a></p>
+</li>
+<li>
+<p><a href="/gratitude-184">Gratitude 184 - 5/9</a></p>
+</li>
+<li>
+<p><a href="/git-python-all-commits">List All Git Commits With Gitpython - 5/9</a></p>
+</li>
+<li>
+<p><a href="/gpg-sign-git-ssh">Gpg Signing Commits Over Ssh - 5/8</a></p>
+</li>
+<li>
+<p><a href="/gratitude-183">Gratitude 183 - 5/4</a></p>
+</li>
+<li>
+<p><a href="/review-pull-requests-with-git-worktrees">Review Pull Requests With Git Worktrees - 5/4</a></p>
+</li>
+<li>
+<p><a href="/gratitude-182">Gratitude 182 - 5/3</a></p>
+</li>
+<li>
+<p><a href="/gratitude-181">Gratitude 181 - 4/30</a></p>
+</li>
+<li>
+<p><a href="/python-git">Using Git From Python - 4/30</a></p>
+</li>
+<li>
+<p><a href="/update-copier">Copier &lt; 6.0.0B0 Considered Dangerous - 4/30</a></p>
+</li>
+<li>
+<p><a href="/gratitude-180">Gratitude 180 - 4/29</a></p>
+</li>
+<li>
+<p><a href="/gratitude-179">Gratitude 178 - 4/27</a></p>
+</li>
+<li>
+<p><a href="/pipx-on-windows">Pipx On Windows - 4/18</a></p>
+</li>
+<li>
+<p><a href="/python-sys-excepthook">Python Sys.Excepthook - 4/10</a></p>
+</li>
+<li>
+<p><a href="/linux-tty">A Tty Can Save Your Bacon - 4/8</a></p>
+</li>
+<li>
+<p><a href="/pygame-event-queue">Pygame Events Are Queued | Don'T Make This Mistake - 4/7</a></p>
+</li>
+<li>
+<p><a href="/pygame-image-load">Display Sprites In Pygame | Load And Blit - 4/6</a></p>
+</li>
+<li>
+<p><a href="/pastel-cli">Mixing Colors At The Command Line - 4/5</a></p>
+</li>
+<li>
+<p><a href="/dunk-is-my-new-diff-pager">Dunk Is My New Diff Pager - 4/4</a></p>
+</li>
+<li>
+<p><a href="/pygame-boilerplate-apr-2022">Pygame Boilerplate Apr 2022 - 4/3</a></p>
+</li>
+<li>
+<p><a href="/linux-unzip-directory">Unzip Minecraft Mods To Their Directory From The Command Line - 4/2</a></p>
+</li>
+<li>
+<p><a href="/site-down">Did My Site Build Just Go Down? - 4/1</a></p>
+</li>
+<li>
+<p><a href="/gratitude-178">Gratitude 178 - 3/31</a></p>
+</li>
+<li>
+<p><a href="/python-base-exception">Don'T Inherit From Python Baseexception, Here'S Why. - 3/31</a></p>
+</li>
+<li>
+<p><a href="/python-cache-key">How I Make Cache-Keys From Python Objects - 3/30</a></p>
+</li>
+<li>
+<p><a href="/gratitude-177">Gratitude 177 - 3/29</a></p>
+</li>
+<li>
+<p><a href="/python-diskcache">How I Setup A Sqlite Cache In Python - 3/29</a></p>
+</li>
+<li>
+<p><a href="/python-lru-cache">Cache A Python Function With Lru_Cache - 3/28</a></p>
+</li>
+<li>
+<p><a href="/pandas-read-csv-user-agent">Set User Agent On Pandas Read_Csv - 3/27</a></p>
+</li>
+<li>
+<p><a href="/python-requests-get">Get Webpage With Python Requests - 3/26</a></p>
+</li>
+<li>
+<p><a href="/htmx-get">Ease Into Htmx With Htmx-Get - 3/25</a></p>
+</li>
+<li>
+<p><a href="/lookatme-styles">Style Lookatme Slides A Bit More Personal - 3/24</a></p>
+</li>
+<li>
+<p><a href="/python-frontmatter">How I Load Markdown In Python - 3/23</a></p>
+</li>
+<li>
+<p><a href="/python-pep-584">Python'S Dict Union Operator | Pep 584 - 3/22</a></p>
+</li>
+<li>
+<p><a href="/lookatme-slides">How I Present Markdown Slides From The Terminal - 3/21</a></p>
+</li>
+<li>
+<p><a href="/pathlib-read-text">How I Read Files In Python - 3/20</a></p>
+</li>
+<li>
+<p><a href="/vim-markdown-links">Automatically Generate A List Of Markdown Links In Vim - 3/19</a></p>
+</li>
+<li>
+<p><a href="/linux-swap">Create A Swapfile On Your Linux Machine - 3/18</a></p>
+</li>
+<li>
+<p><a href="/gratitude-176">Gratitude 176 - 3/17</a></p>
+</li>
+<li>
+<p><a href="/python-pathlib-glob">How I Glob For Files In Python - 3/17</a></p>
+</li>
+<li>
+<p><a href="/gratitude-175">Gratitude 175 - 3/16</a></p>
+</li>
+<li>
+<p><a href="/git-pager">Set Your Git Pager Config - 3/16</a></p>
+</li>
+<li>
+<p><a href="/gratitude-174">Gratitude 174 - 3/15</a></p>
+</li>
+<li>
+<p><a href="/git-config-help-autocorrect">Configure Git To Autocorrect Your Fat Fingers - 3/15</a></p>
+</li>
+<li>
+<p><a href="/gratitude-173">Gratitude 173 - 3/14</a></p>
+</li>
+<li>
+<p><a href="/install-yq">Install Yq | A Light Weight Yaml Parser Cli - 3/14</a></p>
+</li>
+<li>
+<p><a href="/pytest-mock-basics">Pytest-Mock Basics - 3/14</a></p>
+</li>
+<li>
+<p><a href="/gratitude-172">Gratitude 172 - 3/12</a></p>
+</li>
+<li>
+<p><a href="/walrus-comprehension">Python Walrus Inside List Comprehension - 3/12</a></p>
+</li>
+<li>
+<p><a href="/gratitude-171">Gratitude 171 - 3/11</a></p>
+</li>
+<li>
+<p><a href="/kedro-rich">Make Kedro Runs Beautiful - 3/11</a></p>
+</li>
+<li>
+<p><a href="/gratitude-170">Gratitude 170 - 3/10</a></p>
+</li>
+<li>
+<p><a href="/git-checkout-worktree">Git Worktrees Are Not So Scary - 3/10</a></p>
+</li>
+<li>
+<p><a href="/git-push-default-current">Configure Git To Always Push To The Current Branch - 3/9</a></p>
+</li>
+<li>
+<p><a href="/gratitude-169">Gratitude 169 - 3/8</a></p>
+</li>
+<li>
+<p><a href="/open-ssh-setup">Setup Ssh From Chromebook To Home Desktop - 3/8</a></p>
+</li>
+<li>
+<p><a href="/gratitude-168">Gratitude 168 - 3/7</a></p>
+</li>
+<li>
+<p><a href="/mermaid-highlight">Mermaid Highlight - 3/7</a></p>
+</li>
+<li>
+<p><a href="/gratitude-167">Gratitude 167 - 3/6</a></p>
+</li>
+<li>
+<p><a href="/nvr-open-files">Open Files With Nvim Remote - 3/6</a></p>
+</li>
+<li>
+<p><a href="/gratitude-166">Gratitude 166 - 3/5</a></p>
+</li>
+<li>
+<p><a href="/mermaid-subgraphs">Grouping Mermaid Nodes In Subgraphs - 3/5</a></p>
+</li>
+<li>
+<p><a href="/gratitude-165">Gratitude 165 - 3/4</a></p>
+</li>
+<li>
+<p><a href="/dedupe-your-shell-paths">Dedupe Your Shell Paths - 3/4</a></p>
+</li>
+<li>
+<p><a href="/gratitude-164">Gratitude 164 - 3/3</a></p>
+</li>
+<li>
+<p><a href="/mermaid-html">Simple Plain Text Diagrams In Html - 3/3</a></p>
+</li>
+<li>
+<p><a href="/gratitude-163">Gratitude 163 - 3/2</a></p>
+</li>
+<li>
+<p><a href="/bash-mktemp">Bash Mktemp - 3/2</a></p>
+</li>
+<li>
+<p><a href="/gratitude-162">Gratitude 162 - 3/1</a></p>
+</li>
+<li>
+<p><a href="/git-recover-checkout">Recover A Lost Git Branch With Checkout - 3/1</a></p>
+</li>
+<li>
+<p><a href="/gratitude-161">Gratitude 161 - 2/28</a></p>
+</li>
+<li>
+<p><a href="/git-find-deleted-files">Git Find Deleted Files - 2/28</a></p>
+</li>
+<li>
+<p><a href="/gratitude-160">Gratitude 160 - 2/27</a></p>
+</li>
+<li>
+<p><a href="/git-diff-filter">Git Diff-Filter - 2/27</a></p>
+</li>
+<li>
+<p><a href="/gratitude-159">Gratitude 159 - 2/26</a></p>
+</li>
+<li>
+<p><a href="/textual-popup-hack">Textual Popup Hack - 2/26</a></p>
+</li>
+<li>
+<p><a href="/gratitude-158">Gratitude 158 - 2/25</a></p>
+</li>
+<li>
+<p><a href="/install-obs-flatpak">Install Obs Flatpak - 2/25</a></p>
+</li>
+<li>
+<p><a href="/gratitude-157">Gratitude 157 - 2/24</a></p>
+</li>
+<li>
+<p><a href="/github-supports-mermaid">Github Markdown Now Supports Mermaid Diagrams - 2/24</a></p>
+</li>
+<li>
+<p><a href="/gratitude-156">Gratitude 156 - 2/23</a></p>
+</li>
+<li>
+<p><a href="/git-rebase-root">Git Rebase To The Beginning Of Time - 2/23</a></p>
+</li>
+<li>
+<p><a href="/glances-docker">Glances Can Watch Docker Processes - 2/22</a></p>
+</li>
+<li>
+<p><a href="/gratitude-155">Gratitude 155 - 2/21</a></p>
+</li>
+<li>
+<p><a href="/git-revive-dead-files">Revive Files From The Dead With Git - 2/21</a></p>
+</li>
+<li>
+<p><a href="/gratitude-154">Gratitude 154 - 2/20</a></p>
+</li>
+<li>
+<p><a href="/pipx-w">Glances Webui With Pipx - 2/20</a></p>
+</li>
+<li>
+<p><a href="/gratitude-153">Gratitude 153 - 2/19</a></p>
+</li>
+<li>
+<p><a href="/git-reflog-is-an-alias">Git Reflog Is An Alias For Git Log -G - 2/19</a></p>
+</li>
+<li>
+<p><a href="/pipx-run-glances">Run Glances Without Install With Pipx - 2/18</a></p>
+</li>
+<li>
+<p><a href="/python-nested-requires">Nested Requirements.Txt In Python - 2/17</a></p>
+</li>
+<li>
+<p><a href="/gratitude-152">Gratitude 152 - 2/16</a></p>
+</li>
+<li>
+<p><a href="/modded-minecraft-in-docker">Modded Minecraft In Docker - 2/16</a></p>
+</li>
+<li>
+<p><a href="/aws-eventbridge-visidata">View Aws Event Bridge Rules With Visidata - 2/15</a></p>
+</li>
+<li>
+<p><a href="/gratitude-151">Gratitude 151 - 2/14</a></p>
+</li>
+<li>
+<p><a href="/gratitude-150">Gratitude 150 - 2/13</a></p>
+</li>
+<li>
+<p><a href="/tmux-copy-mode-binding">A Better Copy-Mode Bind For Tmux - 2/13</a></p>
+</li>
+<li>
+<p><a href="/gratitude-149">Gratitude 149 - 2/12</a></p>
+</li>
+<li>
+<p><a href="/python-string-is-string">Python String Of Letters Is A String Of Letters, But Not With Special - 2/12</a></p>
+</li>
+<li>
+<p><a href="/gratitude-148">Gratitude 148 - 2/11</a></p>
+</li>
+<li>
+<p><a href="/linux-bluetoothctl">Bluetooth At The Command Line On Ubuntu - 2/11</a></p>
+</li>
+<li>
+<p><a href="/gratitude-147">Gratitude 147 - 2/10</a></p>
+</li>
+<li>
+<p><a href="/popen-stderr">Read Stderr From Python Subprocess.Popen - 2/10</a></p>
+</li>
+<li>
+<p><a href="/gratitude-146">Gratitude 146 - 2/9</a></p>
+</li>
+<li>
+<p><a href="/simple-samba">Simple Samba Share Setup - 2/9</a></p>
+</li>
+<li>
+<p><a href="/ag-ahead">Ag Silver Searcher Look Ahead And Look Behind - 2/8</a></p>
+</li>
+<li>
+<p><a href="/gratitude-144">Gratitude 144 - 2/7</a></p>
+</li>
+<li>
+<p><a href="/docker-minecraft-server">Running A Minecraft Server In Docker - 2/7</a></p>
+</li>
+<li>
+<p><a href="/gratitude-143">Gratitude 143 - 2/6</a></p>
+</li>
+<li>
+<p><a href="/install-rust">Installing Rust And Cargo On Ubuntu 21.10 Using Ansible - 2/6</a></p>
+</li>
+<li>
+<p><a href="/gratitude-142">Gratitude 142 - 2/5</a></p>
+</li>
+<li>
+<p><a href="/python-markdown-ast-paragraph">Using A Python Markdown Ast To Find All Paragraphs - 2/5</a></p>
+</li>
+<li>
+<p><a href="/gratitude-141">Gratitude 141 - 2/4</a></p>
+</li>
+<li>
+<p><a href="/neovim-config-for-git">Neovim Config For Git - 2/4</a></p>
+</li>
+<li>
+<p><a href="/gratitude-140">Gratitude 140 - 2/3</a></p>
+</li>
+<li>
+<p><a href="/python-dict-get">Python Dict Get - 2/3</a></p>
+</li>
+<li>
+<p><a href="/gratitude-139">Gratitude 139 - 2/2</a></p>
+</li>
+<li>
+<p><a href="/nixery-versions-by-commit-count">Nix Versions By Commit Count - 2/2</a></p>
+</li>
+<li>
+<p><a href="/gratitude-138">Gratitude 138 - 2/1</a></p>
+</li>
+<li>
+<p><a href="/bs4-findall-headings">Find All Headings With Beautifulsoup - 2/1</a></p>
+</li>
+<li>
+<p><a href="/gratitude-137">Gratitude 137 - 1/31</a></p>
+</li>
+<li>
+<p><a href="/kedro-lambda-node">Lambda Function As A Kedro Node - 1/31</a></p>
+</li>
+<li>
+<p><a href="/gratitude-136">Gratitude 136 - 1/30</a></p>
+</li>
+<li>
+<p><a href="/global-gitignore-considered-useful">A Good Use For Global .Gitignore - 1/30</a></p>
+</li>
+<li>
+<p><a href="/stow-simulate">How To Properly Simulate Stow - 1/30</a></p>
+</li>
+<li>
+<p><a href="/gratitude-135">Gratitude 135 - 1/29</a></p>
+</li>
+<li>
+<p><a href="/squoosh-cli">Squoosh Cli - 1/29</a></p>
+</li>
+<li>
+<p><a href="/gratitude-134">Gratitude 134 - 1/28</a></p>
+</li>
+<li>
+<p><a href="/kedro-new-dependencies">Add New Dependencies To Your Kedro Project - 1/28</a></p>
+</li>
+<li>
+<p><a href="/gratitude-133">Gratitude 133 - 1/27</a></p>
+</li>
+<li>
+<p><a href="/practice-kedro">Practice Making Pipelines With Kedro - 1/27</a></p>
+</li>
+<li>
+<p><a href="/gratitude-132">Gratitude 132 - 1/26</a></p>
+</li>
+<li>
+<p><a href="/ubuntu-terminal-clipboard">Tmux And Vim Clipboard For Ubuntu - 1/26</a></p>
+</li>
+<li>
+<p><a href="/gratitude-131">Gratitude 131 - 1/25</a></p>
+</li>
+<li>
+<p><a href="/nix-install-java8">Nix Rescues Modded Minecraft Night - 1/25</a></p>
+</li>
+<li>
+<p><a href="/gratitude-130">Gratitude 130 - 1/24</a></p>
+</li>
+<li>
+<p><a href="/tmux-copier-templates">Tmux Hotkey For Copier Templates - 1/24</a></p>
+</li>
+<li>
+<p><a href="/gratitude-129">Gratitude 129 - 1/23</a></p>
+</li>
+<li>
+<p><a href="/markata-telescope-picker">Markata Filters As Telescope Pickers In Neovim - 1/23</a></p>
+</li>
+<li>
+<p><a href="/gratitude-128">Gratitude 128 - 1/22</a></p>
+</li>
+<li>
+<p><a href="/copier-tasks">Copier Tasks | Python Templating Post Run Task - 1/22</a></p>
+</li>
+<li>
+<p><a href="/gratitude-127">Gratitude 127 - 1/21</a></p>
+</li>
+<li>
+<p><a href="/gradual-typing-python">Gradual Typing In Python - 1/21</a></p>
+</li>
+<li>
+<p><a href="/gratitude-126">Gratitude 126 - 1/20</a></p>
+</li>
+<li>
+<p><a href="/python-reverse-sluggify">Python Reverse Sluggify - 1/20</a></p>
+</li>
+<li>
+<p><a href="/gratitude-125">Gratitude 125 - 1/19</a></p>
+</li>
+<li>
+<p><a href="/fzf-wallpaper">Fuzzy Wallpaper With Fzf - 1/19</a></p>
+</li>
+<li>
+<p><a href="/gratitude-124">Gratitude 124 - 1/18</a></p>
+</li>
+<li>
+<p><a href="/python-docstring-ast">Get Python Docstring With Ast - 1/18</a></p>
+</li>
+<li>
+<p><a href="/gratitude-123">Gratitude 123 - 1/17</a></p>
+</li>
+<li>
+<p><a href="/gitignore-python">Python Respect The .Gitignore - 1/17</a></p>
+</li>
+<li>
+<p><a href="/gratitude-122">Gratitude 122 - 1/16</a></p>
+</li>
+<li>
+<p><a href="/nvim-rename-python">Rename Python Variables With Nvim - 1/16</a></p>
+</li>
+<li>
+<p><a href="/python-find-available-port">Python Find Available Port - 1/15</a></p>
+</li>
+<li>
+<p><a href="/gratitude-121">Gratitude 121 - 1/14</a></p>
+</li>
+<li>
+<p><a href="/gratitude-120">Gratitude 120 - 1/13</a></p>
+</li>
+<li>
+<p><a href="/python-auto-pdb">Implement --Pdb In A Python Cli - 1/13</a></p>
+</li>
+<li>
+<p><a href="/gratitude-119">Gratitude 119 - 1/12</a></p>
+</li>
+<li>
+<p><a href="/convert-markdown-pdf-linux">Converting Markdown To Pdf With Pandoc On Linux - 1/12</a></p>
+</li>
+<li>
+<p><a href="/gratitude-118">Gratitude 118 - 1/11</a></p>
+</li>
+<li>
+<p><a href="/python-enum">Python Enum - 1/11</a></p>
+</li>
+<li>
+<p><a href="/gratitude-117">Gratitude 117 - 1/10</a></p>
+</li>
+<li>
+<p><a href="/installing-pipx-on-ubuntu">Installing Pipx On Ubuntu - 1/10</a></p>
+</li>
+<li>
+<p><a href="/gratitude-116">Gratitude 116 - 1/9</a></p>
+</li>
+<li>
+<p><a href="/2-minutes-to-stow">2 Minutes To Stow - 1/9</a></p>
+</li>
+<li>
+<p><a href="/gratitude-115">Gratitude 115 - 1/8</a></p>
+</li>
+<li>
+<p><a href="/copier-answers">Using Copier Answers To Rerun Templates Quickly - 1/8</a></p>
+</li>
+<li>
+<p><a href="/gratitude-114">Gratitude 114 - 1/7</a></p>
+</li>
+<li>
+<p><a href="/simple-textual-widget">Making A Textual Widget From A Rich Renderable - 1/7</a></p>
+</li>
+<li>
+<p><a href="/gratitude-113">Gratitude 113 - 1/6</a></p>
+</li>
+<li>
+<p><a href="/remove-vim-tab-characters">Remove Vim Tab Characters - 1/6</a></p>
+</li>
+<li>
+<p><a href="/gratitude-112">Gratitude 112 - 1/5</a></p>
+</li>
+<li>
+<p><a href="/tmux-pop-size">Tmux Pop Size - 1/5</a></p>
+</li>
+<li>
+<p><a href="/gratitude-111">Gratitude 111 - 1/4</a></p>
+</li>
+<li>
+<p><a href="/copier-endops">Changing Copier Template Strings (_Endops) - 1/4</a></p>
+</li>
+<li>
+<p><a href="/gratitude-110">Gratitude 110 - 1/3</a></p>
+</li>
+<li>
+<p><a href="/copier-template-variables">Copier Template Variables - 1/3</a></p>
+</li>
+<li>
+<p><a href="/gratitude-109">Gratitude 109 - 1/2</a></p>
+</li>
+<li>
+<p><a href="/kedro-ubuntu-impish">Running Kedro On Ubuntu 21.10 Impish Indri - 1/2</a></p>
+</li>
+<li>
+<p><a href="/gratitude-108">Gratitude 108 - 1/1</a></p>
+</li>
+<li>
+<p><a href="/pluggy-minimal-example">A Minimal Pluggy Example - 1/1</a></p>
+</li>
+</ul>
+<h2>2021<a alt="id" class="heading-permalink" href="#None" title="link to #None"><span class="visually-hidden"></span><svg aria-hidden="true" fill="currentColor" focusable="false" height="1em" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<ul>
+<li>
+<p><a href="/gratitude-107">Gratitude 107 - 12/31</a></p>
+</li>
+<li>
+<p><a href="/list-all-files-containing-phrase">List All The Files Containing A Phrase - 12/31</a></p>
+</li>
+<li>
+<p><a href="/gratitude-106">Gratitude 106 - 12/30</a></p>
+</li>
+<li>
+<p><a href="/pyenv-first-impressions">My First Impressions With Pyenv - 12/30</a></p>
+</li>
+<li>
+<p><a href="/gratitude-105">Gratitude 105 - 12/29</a></p>
+</li>
+<li>
+<p><a href="/installing-homebrew-linux">Installing Homebrew On Linux - 12/29</a></p>
+</li>
+<li>
+<p><a href="/gratitude-104">Gratitude 104 - 12/28</a></p>
+</li>
+<li>
+<p><a href="/serve-html-command-line">Serve Html From Your Command Line - 12/28</a></p>
+</li>
+<li>
+<p><a href="/gratitude-103">Gratitude 103 - 12/27</a></p>
+</li>
+<li>
+<p><a href="/nvim-telescope-custom-command">Opening Files In Vim From Output Of Command - 12/27</a></p>
+</li>
+<li>
+<p><a href="/gratitude-102">Gratitude 102 - 12/26</a></p>
+</li>
+<li>
+<p><a href="/nvim-telescope-hidden-files">Finding Hidden (Dotfiles) Using Telescope In Neovim - 12/26</a></p>
+</li>
+<li>
+<p><a href="/gratitude-101">Gratitude 101 - 12/25</a></p>
+</li>
+<li>
+<p><a href="/ansible-install-fonts">Installing System Nerd-Fonts With Ansible - 12/25</a></p>
+</li>
+<li>
+<p><a href="/gratitude-100">Gratitude 100 - 12/24</a></p>
+</li>
+<li>
+<p><a href="/ansible-install-if-not-callable">Installing Packages With Ansible Only If They Do Not Exist - 12/24</a></p>
+</li>
+<li>
+<p><a href="/gratitude-99">Gratitude 099 - 12/23</a></p>
+</li>
+<li>
+<p><a href="/dunder-rich">Adding <strong>Rich</strong> Methods To Python Classes - 12/23</a></p>
+</li>
+<li>
+<p><a href="/gratitude-98">Gratitude 098 - 12/22</a></p>
+</li>
+<li>
+<p><a href="/fugitive-commit-verbose">Fugitive Verbose Commit - 12/22</a></p>
+</li>
+<li>
+<p><a href="/pyflyby">Smoother Python With Automatic Imports | Pyflyby - 12/20</a></p>
+</li>
+<li>
+<p><a href="/vim-augroup">You Must Use Augroup With Autocmd In Vim | Here'S How - 12/8</a></p>
+</li>
+<li>
+<p><a href="/diffurcate">Code Review From The Comfort Of Vim | Diffurcate - 12/4</a></p>
+</li>
+<li>
+<p><a href="/setup-yamlls">Setup A Yaml Schema | Yamlls For A Silky Smooth Setup - 12/3</a></p>
+</li>
+<li>
+<p><a href="/fuzzy-edit-zsh">Open Files Fast From Zsh | Or Bash If Thats Your Thing - 12/2</a></p>
+</li>
+<li>
+<p><a href="/install-nvim-skit">How Linux Users Install A Text Editor - 11/30</a></p>
+</li>
+<li>
+<p><a href="/dotfile-rice-challenge-intro">30 Days Dotfile Ricing - 11/29</a></p>
+</li>
+<li>
+<p><a href="/jut">Jut | Read Notebooks In The Terminal - 11/20</a></p>
+</li>
+<li>
+<p><a href="/kedro-catalog-create-cli">Kedro Catalog Create - 11/15</a></p>
+</li>
+<li>
+<p><a href="/nvim-ides-are-slow">Nvim Conf 2021 | Ide'S Are Slow | Waylon Walker - 10/29</a></p>
+</li>
+<li>
+<p><a href="/ipython-help">Just Ask Ipython For Help - 10/10</a></p>
+</li>
+<li>
+<p><a href="/hacktoberfest-2021">Hacktoberfest 2021? - 10/10</a></p>
+</li>
+<li>
+<p><a href="/telegraph-release">I Made A Neovim Plugin - 10/5</a></p>
+</li>
+<li>
+<p><a href="/kedro-parameters">Setting Parameters In Kedro - 9/19</a></p>
+</li>
+<li>
+<p><a href="/kedro-your-first-nodes">Writing Your First Kedro Nodes - 9/13</a></p>
+</li>
+<li>
+<p><a href="/kedro-run">Running Your Kedro Pipeline From The Command Line - 8/24</a></p>
+</li>
+<li>
+<p><a href="/kedro-environment">Kedro Virtual Environment - 8/23</a></p>
+</li>
+<li>
+<p><a href="/kedro-install">Kedro Install - 8/21</a></p>
+</li>
+<li>
+<p><a href="/kedro-git-init">Kedro Git Init - 8/20</a></p>
+</li>
+<li>
+<p><a href="/kedro-new">Kedro New - 8/18</a></p>
+</li>
+<li>
+<p><a href="/what-is-kedro">What Is Kedro - 8/17</a></p>
+</li>
+<li>
+<p><a href="/how-i-kedro">How I Kedro - 8/16</a></p>
+</li>
+<li>
+<p><a href="/tmux-show-messages">Tmux Show-Messages - 8/14</a></p>
+</li>
+<li>
+<p><a href="/tmux-ta">Tmux Ta - 8/13</a></p>
+</li>
+<li>
+<p><a href="/tmux-display-message">Tmux Display-Message - 8/12</a></p>
+</li>
+<li>
+<p><a href="/tmux-killing-tmux">Killing Tmux - 8/11</a></p>
+</li>
+<li>
+<p><a href="/tmux-has-session">Tmux Has-Session - 8/9</a></p>
+</li>
+<li>
+<p><a href="/tmux-list-keys">Tmux List-Keys - 8/8</a></p>
+</li>
+<li>
+<p><a href="/tmux-status-bar">Tmux Status-Bar - 8/7</a></p>
+</li>
+<li>
+<p><a href="/tmux-source-file">Tmux Source-File - 8/6</a></p>
+</li>
+<li>
+<p><a href="/tmux-fzf-session-jump">Tmux Fzf Session Jumper - 8/5</a></p>
+</li>
+<li>
+<p><a href="/tmux-next-prev-session">Tmux Next/Prev Session - 8/4</a></p>
+</li>
+<li>
+<p><a href="/tmux-start-application">Tmux Start Application - 8/3</a></p>
+</li>
+<li>
+<p><a href="/tmux-rename-session">Tmux Rename Session - 8/3</a></p>
+</li>
+<li>
+<p><a href="/tmux-targeted-session">Tmux Targeted Session - 8/2</a></p>
+</li>
+<li>
+<p><a href="/tmux-detach">Tmux Detach - 8/1</a></p>
+</li>
+<li>
+<p><a href="/tmux-new-session">Tmux New-Session - 8/1</a></p>
+</li>
+<li>
+<p><a href="/git-in-depth">Git In Depth Notes - 7/31</a></p>
+</li>
+<li>
+<p><a href="/tmux-attach">Tmux Attach - 7/31</a></p>
+</li>
+<li>
+<p><a href="/tmux-ls">Tmux Ls - 7/30</a></p>
+</li>
+<li>
+<p><a href="/tmux-command-line">Tmux Command Line - 7/29</a></p>
+</li>
+<li>
+<p><a href="/tmux-copy-mode">Tmux Copy-Mode - 7/28</a></p>
+</li>
+<li>
+<p><a href="/tmux-join-pane">Tmux Join-Pane - 7/27</a></p>
+</li>
+<li>
+<p><a href="/break-pane">Tmux Break-Pane - 7/26</a></p>
+</li>
+<li>
+<p><a href="/tmux-zoom">Tmux Zoom - 7/25</a></p>
+</li>
+<li>
+<p><a href="/tmux-new-window">Tmux New-Window - 7/24</a></p>
+</li>
+<li>
+<p><a href="/tmux-select-pane">Tmux Slect-Pane - 7/23</a></p>
+</li>
+<li>
+<p><a href="/tmux-rotate-window">Tmux Rotate-Window - 7/22</a></p>
+</li>
+<li>
+<p><a href="/tmux-select-layout">Tmux Select-Layout - 7/21</a></p>
+</li>
+<li>
+<p><a href="/tmux-resize-panes">Tmux Resize-Panes - 7/20</a></p>
+</li>
+<li>
+<p><a href="/tmux-choose-tree">Tmux Choose-Tree - 7/19</a></p>
+</li>
+<li>
+<p><a href="/tmux-prefix">Tmux Prefix - 7/18</a></p>
+</li>
+<li>
+<p><a href="/tmux-splitting-panes">Tmux Splitting Panes - 7/17</a></p>
+</li>
+<li>
+<p><a href="/tmux-last-session">Tmux Last Session - 7/16</a></p>
+</li>
+<li>
+<p><a href="/tmux-floating-popups">Tmux Floating Popups - 7/15</a></p>
+</li>
+<li>
+<p><a href="/tmux-popups">Tmux Popups - 7/14</a></p>
+</li>
+<li>
+<p><a href="/kedro-incremental-versioned-datasets">Incremental Versioned Datasets In Kedro - 7/8</a></p>
+</li>
+<li>
+<p><a href="/gratitude-096">Gratitude 097 - 6/23</a></p>
+</li>
+<li>
+<p><a href="/gratitude-97">Gratitude 096 - 6/22</a></p>
+</li>
+<li>
+<p><a href="/start-streaming">I Started Streaming On Twitch - 6/12</a></p>
+</li>
+<li>
+<p><a href="/kedro-spaceflights-stream2">Kedro Spaceflights - Part 2 | Stream Replay June 7, 2021 - 6/7</a></p>
+</li>
+<li>
+<p><a href="/digital-gardening-stream-6-6-2021">🌱 Digital Gardening | Gif To Mp4 | Stream Replay June 4, 2021 - 6/6</a></p>
+</li>
+<li>
+<p><a href="/kedro-spaceflights-stream1">Kedro Spaceflights - Part 1 | Stream Replay June 4, 2021 - 6/4</a></p>
+</li>
+<li>
+<p><a href="/modal-jumping">Modal Jumping - 6/3</a></p>
+</li>
+<li>
+<p><a href="/kedro-in-scripts">Using Kedro In Scripts - 5/23</a></p>
+</li>
+<li>
+<p><a href="/kedro-silence">Silence Kedro Logs - 5/20</a></p>
+</li>
+<li>
+<p><a href="/tmux-nav-2021">How I Navigate Tmux In 2021 - 5/11</a></p>
+</li>
+<li>
+<p><a href="/trim-branches">Trim Unused Git Branches - 5/7</a></p>
+</li>
+<li>
+<p><a href="/if-name-main">What Is If <strong>Name</strong> == "<strong>Main</strong>_", And How Do I Use It. - 5/7</a></p>
+</li>
+<li>
+<p><a href="/symlink-gallery">Create A Virtual File Gallery With Symlinks - 5/5</a></p>
+</li>
+<li>
+<p><a href="/install-micromamba">How To Install Micromamba On Linux (From The Comamnd Line Only) - 4/21</a></p>
+</li>
+<li>
+<p><a href="/vim-wsl-clipboard">Vim Wsl Clipboard - 4/17</a></p>
+</li>
+<li>
+<p><a href="/kedro172-replit">Kedro Replit - 4/15</a></p>
+</li>
+<li>
+<p><a href="/zev-averbach-interview">Zev Averbach Interview - 4/9</a></p>
+</li>
+<li>
+<p><a href="/pytest-capsys">Pytest Capsys - 4/5</a></p>
+</li>
+<li>
+<p><a href="/markata-dev-server">Building Rich A Dev Server - 3/27</a></p>
+</li>
+<li>
+<p><a href="/career-day-wapello-2021">Career Day Wapello 2021 - 3/25</a></p>
+</li>
+<li>
+<p><a href="/site-down-during-build">Site Down During Build - 3/22</a></p>
+</li>
+<li>
+<p><a href="/kedro-pipeline-registry">Kedro Pipeline_Registry.Py - 3/20</a></p>
+</li>
+<li>
+<p><a href="/stand-with-your-team">Stand With Your Team - 1/22</a></p>
+</li>
+<li>
+<p><a href="/blogging-for-me">Blogging For Me - 1/21</a></p>
+</li>
+<li>
+<p><a href="/minimal-kedro-pipeline">Minimal Kedro Pipeline - 1/20</a></p>
+</li>
+<li>
+<p><a href="/markdown-cli">Markdown Cli - 1/20</a></p>
+</li>
+<li>
+<p><a href="/2021-content-strategy">My Content Strategy For 2021 - 1/19</a></p>
+</li>
+<li>
+<p><a href="/quickly-edit-posts">Quickly Edit Posts - 1/18</a></p>
+</li>
+<li>
+<p><a href="/gitui-slides">Gitui Is A Blazing Fast Terminal Git Interface - 1/17</a></p>
+</li>
+<li>
+<p><a href="/gitui">Gitui Is A Blazing Fast Terminal Git Interface - 1/17</a></p>
+</li>
+<li>
+<p><a href="/kedro-pickle">Kedro - My Data Is Not A Table - 1/14</a></p>
+</li>
+<li>
+<p><a href="/quickly-change-conda-env-with-fzf">Quickly Change Conda Env With Fzf - 1/11</a></p>
+</li>
+<li>
+<p><a href="/vim-replace-visual-star">Vim Replace Visual Star - 1/10</a></p>
+</li>
+<li>
+<p><a href="/minimal-python-package">Minimal Python Package - 1/10</a></p>
+</li>
+<li>
+<p><a href="/if-tmux">If Tmux - 1/9</a></p>
+</li>
+<li>
+<p><a href="/neovim-live-substitution">Live Substitution In Neovim - 1/4</a></p>
+</li>
+<li>
+<p><a href="/save-vim-macro">Save Vim Macro - 1/4</a></p>
+</li>
+<li>
+<p><a href="/newsboat">Newsboat - 1/2</a></p>
+</li>
+</ul>
+<h2>2018<a alt="id" class="heading-permalink" href="#None" title="link to #None"><span class="visually-hidden"></span><svg aria-hidden="true" fill="currentColor" focusable="false" height="1em" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<ul>
+<li>
+<p><a href="/gratitude-061">Gratitude 061 - 12/19</a></p>
+</li>
+<li>
+<p><a href="/gratitude-060">Gratitude 060 - 12/18</a></p>
+</li>
+<li>
+<p><a href="/gratitude-059">Gratitude 059 - 12/13</a></p>
+</li>
+<li>
+<p><a href="/gratitude-058">Gratitude 058 - 12/12</a></p>
+</li>
+<li>
+<p><a href="/gratitude-057">Gratitude 057 - 12/1</a></p>
+</li>
+<li>
+<p><a href="/gratitude-056">Gratitude 056 - 11/19</a></p>
+</li>
+<li>
+<p><a href="/gratitude-055">Gratitude 055 - 11/19</a></p>
+</li>
+<li>
+<p><a href="/gratitude-054">Gratitude 054 - 11/13</a></p>
+</li>
+<li>
+<p><a href="/gratitude-053">Gratitude 053 - 11/11</a></p>
+</li>
+<li>
+<p><a href="/gratitude-052">Gratitude 052 - 11/9</a></p>
+</li>
+<li>
+<p><a href="/gratitude-051">Gratitude 051 - 11/5</a></p>
+</li>
+<li>
+<p><a href="/gratitude-050">Gratitude 049 - 10/18</a></p>
+</li>
+<li>
+<p><a href="/gratitude-049">Gratitude 049 - 8/30</a></p>
+</li>
+<li>
+<p><a href="/readme-tables">Generating Readme Tables From Pandas - 5/16</a></p>
+</li>
+<li>
+<p><a href="/pycon-2018-roundup">Pycon 2018 Roundup - 5/12</a></p>
+</li>
+<li>
+<p><a href="/d3-day-5">D3 Day 5 - 5/8</a></p>
+</li>
+<li>
+<p><a href="/d3-day4">D3 Day 4 - 5/6</a></p>
+</li>
+<li>
+<p><a href="/d3-day3">D3 Day 3 - 5/5</a></p>
+</li>
+<li>
+<p><a href="/gratitude-048">Gratitude 048 - 4/22</a></p>
+</li>
+<li>
+<p><a href="/flexbox-zombies">Flexbox - 4/22</a></p>
+</li>
+<li>
+<p><a href="/gratitude-047">Gratitude 047 - 4/21</a></p>
+</li>
+<li>
+<p><a href="/gratitude-046">Gratitude 046 - 4/17</a></p>
+</li>
+<li>
+<p><a href="/gratitude-045">Gratitude 045 - 4/14</a></p>
+</li>
+<li>
+<p><a href="/gratitude-044">Gratitude 044 - 4/13</a></p>
+</li>
+<li>
+<p><a href="/gratitude-043">Gratitude 043 - 3/30</a></p>
+</li>
+<li>
+<p><a href="/gratitude-042">Gratitude 042 - 3/26</a></p>
+</li>
+<li>
+<p><a href="/datacamp-sql">Stepping Up My Sql Game - 3/25</a></p>
+</li>
+<li>
+<p><a href="/gratitude-041">Gratitude 0040 - 3/24</a></p>
+</li>
+<li>
+<p><a href="/gratitude-040">Gratitude 0040 - 3/18</a></p>
+</li>
+<li>
+<p><a href="/gratitude-039">Gratitude 039 - 3/14</a></p>
+</li>
+<li>
+<p><a href="/gratitude-037">Gratitude 037 - 2/4</a></p>
+</li>
+<li>
+<p><a href="/gratitude-036">Gratitude 036 - 2/3</a></p>
+</li>
+<li>
+<p><a href="/gratitude-035">Gratitude 035 - 2/1</a></p>
+</li>
+<li>
+<p><a href="/gratitude-032">Gratitude 032 - 1/29</a></p>
+</li>
+<li>
+<p><a href="/gratitude-033">Gratitude 033 - 1/29</a></p>
+</li>
+<li>
+<p><a href="/gratitude-034">Gratitude 034 - 1/29</a></p>
+</li>
+<li>
+<p><a href="/gratitude-031">Gratitude 031 - 1/26</a></p>
+</li>
+<li>
+<p><a href="/gratitude-030">Gratitude 030 - 1/25</a></p>
+</li>
+<li>
+<p><a href="/gratitude-029">Gratitude 029 - 1/24</a></p>
+</li>
+<li>
+<p><a href="/gratitude-028">Gratitude 028 - 1/23</a></p>
+</li>
+<li>
+<p><a href="/gratitude-027">Gratitude 027 - 1/22</a></p>
+</li>
+<li>
+<p><a href="/gratitude-026">Gratitude 026 - 1/21</a></p>
+</li>
+<li>
+<p><a href="/gratitude-025">Gratitude 025 - 1/14</a></p>
+</li>
+<li>
+<p><a href="/gratitude-024">Gratitude 024 - 1/11</a></p>
+</li>
+<li>
+<p><a href="/gratitude-023">Gratitude 023 - 1/10</a></p>
+</li>
+<li>
+<p><a href="/gratitude-022">Gratitude 022 - 1/8</a></p>
+</li>
+<li>
+<p><a href="/gratitude-021">Gratitude 022 - 1/7</a></p>
+</li>
+<li>
+<p><a href="/gratitude-019">Gratitude 019 - 1/2</a></p>
+</li>
+<li>
+<p><a href="/gratitude-017">Gratitude 017 - 1/1</a></p>
+</li>
+</ul>
+<h2>2017<a alt="id" class="heading-permalink" href="#None" title="link to #None"><span class="visually-hidden"></span><svg aria-hidden="true" fill="currentColor" focusable="false" height="1em" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<ul>
+<li>
+<p><a href="/death-by-powerpoint">No More Death By Powerpoint - 12/31</a></p>
+</li>
+<li>
+<p><a href="/gratitude-014">Gratitude 014 - 12/29</a></p>
+</li>
+<li>
+<p><a href="/gratitude-015">Gratitude 015 - 12/29</a></p>
+</li>
+<li>
+<p><a href="/gratitude-013">Gratitude 013 - 12/26</a></p>
+</li>
+<li>
+<p><a href="/gratitude-012">Gratitude 012 - 12/25</a></p>
+</li>
+<li>
+<p><a href="/gratitude-011">Gratitude 011 - 12/23</a></p>
+</li>
+<li>
+<p><a href="/gratitude-010">Gratitude 010 - 12/22</a></p>
+</li>
+<li>
+<p><a href="/gratitude-009">Gratitude 009 - 12/21</a></p>
+</li>
+<li>
+<p><a href="/gratitude-016">Gratitude 016 - 12/21</a></p>
+</li>
+<li>
+<p><a href="/gratitude-008">Gratitude_008 - 12/20</a></p>
+</li>
+<li>
+<p><a href="/gratitude-007">Gratitude_007 - 12/19</a></p>
+</li>
+<li>
+<p><a href="/gratitude-006">Gratitude_006 - 12/18</a></p>
+</li>
+<li>
+<p><a href="/gratitude-005">Gratitude_005 - 12/17</a></p>
+</li>
+<li>
+<p><a href="/gratitude-004">Gratitude_004 - 12/16</a></p>
+</li>
+<li>
+<p><a href="/gratitude-003">Gratitude_003 - 12/15</a></p>
+</li>
+<li>
+<p><a href="/gratitude-002">Gratitude_002 - 12/14</a></p>
+</li>
+<li>
+<p><a href="/gratitude-001">Gratitude_001 - 12/13</a></p>
+</li>
+<li>
+<p><a href="/background-1">Background Tasks In Python - 9/16</a></p>
+</li>
+<li>
+<p><a href="/pycon-2017-roundup">Pycon 2017 Roundup - 5/30</a></p>
+</li>
+</ul>
+<h2>1<a alt="id" class="heading-permalink" href="#None" title="link to #None"><span class="visually-hidden"></span><svg aria-hidden="true" fill="currentColor" focusable="false" height="1em" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<ul>
+<li><a href="/good-morning">Good Morning - 1/1</a></li>
+</ul>
+</div>
+<div id="show"></div>
+</article>
+<footer>
+<ul class="social">
+<li>
+<a href="https://twitter.com/_WaylonWalker" rel="me">twitter</a>
+</li>
+<li>
+<a href="https://youtube.com/waylonwalker">youtube</a>
+</li>
+<li>
+<a href="https://www.youtube.com/channel/UCHuxc1HRsd3aRjvL6C817tQ">gaming-youtube</a>
+</li>
+<li>
+<a href="https://www.linkedin.com/in/waylonwalker/">LinkedIn</a>
+</li>
+<li>
+<a href="https://github.com/WaylonWalker" rel="me">GitHub</a>
+</li>
+<li>
+<a href="https://dev.to/waylonwalker">Dev.to</a>
+</li>
+<li>
+<a href="https://www.twitch.tv/waylonwalker">twitch</a>
+</li>
+<li>
+<a href="mailto:hello@waylonwalker.com" rel="me">hello@waylonwalker.com</a>
+</li>
+</ul>
+<p>© 2022 - 2024</p>
+</footer>
+</div></body></html>

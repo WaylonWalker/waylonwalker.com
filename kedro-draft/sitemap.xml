@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/sitemap.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+      <loc>https://waylonwalker.com//kedro-broken-urls</loc>
+      <lastmod>2021-10-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//kedro-pipeline-create</loc>
+      <lastmod>2021-08-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//upcoming-streams</loc>
+      <lastmod>2021-06-08</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//kedro-node</loc>
+      <lastmod>2021-06-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//kedro-pypi-list</loc>
+      <lastmod>2021-05-23</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//vim-fugitive</loc>
+      <lastmod>2021-05-08</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//custom-kedro-logger</loc>
+      <lastmod>2021-05-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//testing-data-pipelines</loc>
+      <lastmod>2020-11-16</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+</urlset>

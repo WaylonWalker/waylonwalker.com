@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/sitemap.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+      <loc>https://waylonwalker.com//useful-btrfs-tools</loc>
+      <lastmod>2023-03-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//setting-up-snapper-on-arch</loc>
+      <lastmod>2022-09-05</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//arch-fonts</loc>
+      <lastmod>2022-07-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//xrandr-manager</loc>
+      <lastmod>2022-07-16</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//vim-cmd</loc>
+      <lastmod>2022-02-14</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//pipx-examples</loc>
+      <lastmod>2022-01-07</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//copier-templates</loc>
+      <lastmod>2022-01-05</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//update-alternatives</loc>
+      <lastmod>2021-11-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//about</loc>
+      <lastmod>2021-11-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//notify-send</loc>
+      <lastmod>2021-08-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//git-settings</loc>
+      <lastmod>2021-06-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//ubuntu</loc>
+      <lastmod>2021-06-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//setup-pylsp</loc>
+      <lastmod>2021-05-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//vim-diffsplit</loc>
+      <lastmod>2021-05-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://waylonwalker.com//docker-deep-dive</loc>
+      <lastmod>2021-04-23</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+</urlset>

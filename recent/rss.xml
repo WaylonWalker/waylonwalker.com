@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0">
+<channel>
+    <title>recent</title>
+    <link>https://waylonwalker.com/</link>
+    <description>I write about how I use python and linux in data science.</description>
+    <generator>Markata</generator>
+    <image>
+        <url>static/8bitcc.png</url>
+        <link>https://waylonwalker.com/</link>
+    </image>
+    <language>en</language>
+
+  <item>
+      <title>Kubernetes Kubeseal</title>
+      <link>https://waylonwalker.com//kubernetes-kubeseal</link>
+      <description>Installation happens in two steps.  You need the kubernetes controller and the For a more complete instruction see the ! sealed-secrets is installed using the h</description>
+      <guid>https://waylonwalker.com//kubernetes-kubeseal</guid>
+      <pubDate>2024-03-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Fastapi Decorators</title>
+      <link>https://waylonwalker.com//thoughts-227</link>
+      <description>Here I After listening to yesterday This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-227</guid>
+      <pubDate>2024-03-26</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Middleware Explained - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-228</link>
+      <description>Here Great episode covering a seemingly simple topic.  What I really benefitted from was hearing all the different use cases, from logging, debugging, to a/b te</description>
+      <guid>https://waylonwalker.com//thoughts-228</guid>
+      <pubDate>2024-03-26</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Simon Willison On X: &#34;Til Google Chrome Has A --Headless Option You Can Use To Take A Screenshot From The Cli That&#39;S Built Into The Default Installation Https://T.Co/Hoa4Ujpsth&#34; / X</title>
+      <link>https://waylonwalker.com//thoughts-224</link>
+      <description>Here Huh, so this is just built right into the chrome cli. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-224</guid>
+      <pubDate>2024-03-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Fastapi Https Url_For</title>
+      <link>https://waylonwalker.com//thoughts-223</link>
+      <description>Here jinja This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-223</guid>
+      <pubDate>2024-03-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Cassidy On X: &#34;I Made An App ✨ Https://T.Co/Biyx8Xzqdk&#34; / X</title>
+      <link>https://waylonwalker.com//thoughts-222</link>
+      <description>Here Damn are one time paid and have it apps making a comeback?  Seems like the perfect thing to have someone else automate and not pay a subscription for. Geni</description>
+      <guid>https://waylonwalker.com//thoughts-222</guid>
+      <pubDate>2024-03-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Joining The Split Keyboards Club: A Moonlander Story</title>
+      <link>https://waylonwalker.com//thoughts-220</link>
+      <description>Here I switched from a 60% vortex pok3r to a 40% corne June, 2021.  I can relate to a lot of what Carlos talks about here.  I think going from 60%-40% made my j</description>
+      <guid>https://waylonwalker.com//thoughts-220</guid>
+      <pubDate>2024-03-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Learning Strawberry</title>
+      <link>https://waylonwalker.com//thoughts-221</link>
+      <description>Here This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-221</guid>
+      <pubDate>2024-03-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>My Workflow, Part 1</title>
+      <link>https://waylonwalker.com//thoughts-219</link>
+      <description>Here Carlos has a pretty sick setup here, I can relate to mostly, cept the macos part.  My main critique is that I don Most of the time I have a single, maximiz</description>
+      <guid>https://waylonwalker.com//thoughts-219</guid>
+      <pubDate>2024-03-19</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Using Netlify Analytics To Build A List Of Popular Posts - Jim Nielsen’S Blog</title>
+      <link>https://waylonwalker.com//thoughts-218</link>
+      <description>Here This is a sick feature of Jim This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-218</guid>
+      <pubDate>2024-03-18</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Docker - Where Does The Convention Of Using /Healthz For Application Health Checks Come From? - Stack Overflow</title>
+      <link>https://waylonwalker.com//thoughts-215</link>
+      <description>Here The convention of  This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-215</guid>
+      <pubDate>2024-03-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Configure Liveness, Readiness And Startup Probes | Kubernetes</title>
+      <link>https://waylonwalker.com//thoughts-216</link>
+      <description>Here What is the difference between health, liveness, readiness, and startup?  This article does a great job at a full writeup description of how it works in ku</description>
+      <guid>https://waylonwalker.com//thoughts-216</guid>
+      <pubDate>2024-03-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>605: Jim Nielsen On Subversive Urls, Blogging + Ai, And Design Engineers – Shoptalk</title>
+      <link>https://waylonwalker.com//thoughts-217</link>
+      <description>Here An absolute fantastic episode about blogging, thinking about a web1.0 kind of world today, and what it means moving forward. Web 1.0 is robust, you own you</description>
+      <guid>https://waylonwalker.com//thoughts-217</guid>
+      <pubDate>2024-03-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Placehold | A Simple, Fast And Free Image Placeholder Service</title>
+      <link>https://waylonwalker.com//thoughts-214</link>
+      <description>Here This is a handy placeholder generator for generating placeholder items like images, and videos. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-214</guid>
+      <pubDate>2024-03-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Flake8-To-Ruff · Pypi</title>
+      <link>https://waylonwalker.com//thoughts-212</link>
+      <description>Here Underrated python library to on board ruff, or just use it on a project where its not the norm.  ruff claims that its 99.9% compatible with black and when </description>
+      <guid>https://waylonwalker.com//thoughts-212</guid>
+      <pubDate>2024-03-09</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>My New Python Lsp Setup</title>
+      <link>https://waylonwalker.com//thoughts-213</link>
+      <description>Here I figured out the killer combination for python lsp servers, ruff and jedi This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-213</guid>
+      <pubDate>2024-03-09</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Jesseduffield/Lazydocker: The Lazier Way To Manage Everything Docker</title>
+      <link>https://waylonwalker.com//thoughts-208</link>
+      <description>Here I tldr  This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-208</guid>
+      <pubDate>2024-03-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Formatting Codes – Minecraft Wiki</title>
+      <link>https://waylonwalker.com//thoughts-209</link>
+      <description>Here Minecraft MOTD and server names have formatting codes so that you can get colors, bold, underlined, italics, in your message of the day or server name.  Se</description>
+      <guid>https://waylonwalker.com//thoughts-209</guid>
+      <pubDate>2024-03-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Lonecraft</title>
+      <link>https://waylonwalker.com//thoughts-210</link>
+      <description>Here This is the best tree I have ever built in minecraft.  It took at least 4 stacks of logs and leaves despite what it looks like. It is placed where Welscraf</description>
+      <guid>https://waylonwalker.com//thoughts-210</guid>
+      <pubDate>2024-03-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Searching My Thoughts Locally</title>
+      <link>https://waylonwalker.com//thoughts-211</link>
+      <description>Here First I need to fetch my thoughts from the api, and put it in a local sqlite database using  Now that I have my posts in a local sqlite database I can use </description>
+      <guid>https://waylonwalker.com//thoughts-211</guid>
+      <pubDate>2024-03-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Python - Concepts Of Backref And Back_Populate In Sqlalchemy? - Stack Overflow</title>
+      <link>https://waylonwalker.com//thoughts-205</link>
+      <description>Here Today I came across some sqlalchemy models that created some relationships, some used  https://docs.sqlalchemy.org/en/14/orm/backref.html As stated in the </description>
+      <guid>https://waylonwalker.com//thoughts-205</guid>
+      <pubDate>2024-03-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>(265) Creating One-To-Many Relationships In Flask-Sqlalchemy - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-206</link>
+      <description>Here Great example from Anthony showing how easy it is to practice building database orm models and playing with them in a repl.  This is good practice even if </description>
+      <guid>https://waylonwalker.com//thoughts-206</guid>
+      <pubDate>2024-03-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>(265) I&#39;M Coming Around To Go... - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-207</link>
+      <description>Here Go is feeling more and more like something I could throw in my tool belt as a python dev.  I really like that it This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-207</guid>
+      <pubDate>2024-03-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+<lastBuildDate></lastBuildDate>
+</channel>
+</rss>

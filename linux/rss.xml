@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0">
+<channel>
+    <title>linux</title>
+    <link>https://waylonwalker.com/</link>
+    <description>I write about how I use python and linux in data science.</description>
+    <generator>Markata</generator>
+    <image>
+        <url>static/8bitcc.png</url>
+        <link>https://waylonwalker.com/</link>
+    </image>
+    <language>en</language>
+
+  <item>
+      <title>Testdisk Step By Step - Cgsecurity</title>
+      <link>https://waylonwalker.com//thoughts-55</link>
+      <description>Here testdisk This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-55</guid>
+      <pubDate>2023-07-29</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Setting Up Paru | Installing From The Aur For The First Time</title>
+      <link>https://waylonwalker.com//setting-up-paru</link>
+      <description>paru is an aur helper that allows you to use a package manager to install The Aur is a set of community managed packages that can be installed on arch based dis</description>
+      <guid>https://waylonwalker.com//setting-up-paru</guid>
+      <pubDate>2023-05-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Useful Btrfs Tools</title>
+      <link>https://waylonwalker.com//useful-btrfs-tools</link>
+      <description>Looking at disk usage on any of these must be done using a tool built for it if -T for tabular format</description>
+      <guid>https://waylonwalker.com//useful-btrfs-tools</guid>
+      <pubDate>2023-03-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Arch Linux Randomly Rejecting Passwords</title>
+      <link>https://waylonwalker.com//arch-rejects-password</link>
+      <description>Fix Arch Linux randomly rejecting passwords with one command. Try If you The good news is that there is a simple fix for this issue. The following bash bash fai</description>
+      <guid>https://waylonwalker.com//arch-rejects-password</guid>
+      <pubDate>2023-01-19</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Ssh Copy Id</title>
+      <link>https://waylonwalker.com//ssh-copy-id</link>
+      <description>I recently setup some vm</description>
+      <guid>https://waylonwalker.com//ssh-copy-id</guid>
+      <pubDate>2022-12-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Ssh Key Permissions</title>
+      <link>https://waylonwalker.com//ssh-key-permissions</link>
+      <description>I just shared some ssh keys with myself and ran into this error telling me that I changed them with the following commands.</description>
+      <guid>https://waylonwalker.com//ssh-key-permissions</guid>
+      <pubDate>2022-11-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Obs Virtual Camera On Boot</title>
+      <link>https://waylonwalker.com//obs-virtual-camera-on-boot</link>
+      <description>For far too long I have had to fidget with v4l2oloopback after reboot.  I After a reboot the start virtual camera button won Today I learned that you can turn o</description>
+      <guid>https://waylonwalker.com//obs-virtual-camera-on-boot</guid>
+      <pubDate>2022-10-18</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Setting Up Snapper On Arch</title>
+      <link>https://waylonwalker.com//setting-up-snapper-on-arch</link>
+      <description>https://www.youtube.com/watch?v= These are mostly my notes to remind myself, I When I started running  You should now see  so that you can boot into snapper sna</description>
+      <guid>https://waylonwalker.com//setting-up-snapper-on-arch</guid>
+      <pubDate>2022-09-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>The One Reason I Switched To Arch</title>
+      <link>https://waylonwalker.com//switched-to-arch</link>
+      <description>The community, that I am a tinkerer, I am not going to run a stock desktop manager, mostly becuase I love minimal installs.  I love just building up my system f</description>
+      <guid>https://waylonwalker.com//switched-to-arch</guid>
+      <pubDate>2022-07-23</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Arch Fonts</title>
+      <link>https://waylonwalker.com//arch-fonts</link>
+      <description>https://gist.github.com/YoEight/d19112db56cd8f93835bf2d009d617f7</description>
+      <guid>https://waylonwalker.com//arch-fonts</guid>
+      <pubDate>2022-07-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Manage Your Displays With Xrandr Manager</title>
+      <link>https://waylonwalker.com//xrandr-manager</link>
+      <description>xrandr is a great cli to manage your windows in a linux distro using x11, which Check out the xrander-manager is a python cli application that is simply a nice </description>
+      <guid>https://waylonwalker.com//xrandr-manager</guid>
+      <pubDate>2022-07-16</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Qutebrowser Clean Up All Status Bars</title>
+      <link>https://waylonwalker.com//clean-qutebrowser</link>
+      <description>I really like the super clean look of no status menus, no url bar, no bookmarks</description>
+      <guid>https://waylonwalker.com//clean-qutebrowser</guid>
+      <pubDate>2022-05-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>A Tty Can Save Your Bacon</title>
+      <link>https://waylonwalker.com//linux-tty</link>
+      <description>I recently was unable to boot into my home Linux Desktop, it got stuck at https://twitter.com/ There Normally you have 6 TTY ctrl+alt+F1: login screen ctrl+alt+</description>
+      <guid>https://waylonwalker.com//linux-tty</guid>
+      <pubDate>2022-04-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Dunk Is My New Diff Pager</title>
+      <link>https://waylonwalker.com//dunk-is-my-new-diff-pager</link>
+      <description>Browsing through twitter the other day I discovered it through this https://twitter.com/ Before I dive in deep, I do want to mention that Dunk is super new and </description>
+      <guid>https://waylonwalker.com//dunk-is-my-new-diff-pager</guid>
+      <pubDate>2022-04-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Unzip Minecraft Mods To Their Directory From The Command Line</title>
+      <link>https://waylonwalker.com//linux-unzip-directory</link>
+      <description>This morning I was trying to install a modpack on my minecraft server after So I Then I go back to my server and download the modpack with wget. Now I can unzip</description>
+      <guid>https://waylonwalker.com//linux-unzip-directory</guid>
+      <pubDate>2022-04-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Create A Swapfile On Your Linux Machine</title>
+      <link>https://waylonwalker.com//linux-swap</link>
+      <description>If you ever end up on a linux machine that just does not have enough ram to You can put this where you wish, for this example I am going to pop it into You can </description>
+      <guid>https://waylonwalker.com//linux-swap</guid>
+      <pubDate>2022-03-18</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Install Yq | A Light Weight Yaml Parser Cli</title>
+      <link>https://waylonwalker.com//install-yq</link>
+      <description>yq I love that all of these modern tools built in go and rust, just give you a I use a bunch of these tools, and for what its worth I trust the devs behind Sinc</description>
+      <guid>https://waylonwalker.com//install-yq</guid>
+      <pubDate>2022-03-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Git Worktrees Are Not So Scary</title>
+      <link>https://waylonwalker.com//git-checkout-worktree</link>
+      <description>So worktrees, I always thought they were a big scary things.  Turns out they I thought you had to be all in or worktrees or normal git, but not both.  When Maki</description>
+      <guid>https://waylonwalker.com//git-checkout-worktree</guid>
+      <pubDate>2022-03-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Setup Ssh From Chromebook To Home Desktop</title>
+      <link>https://waylonwalker.com//open-ssh-setup</link>
+      <description>I write many of these posts from a 10 year old desktop that sits in my I Today I am giving it a second try, but this time with ssh. Before doing anything I chec</description>
+      <guid>https://waylonwalker.com//open-ssh-setup</guid>
+      <pubDate>2022-03-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Dedupe Your Shell Paths</title>
+      <link>https://waylonwalker.com//dedupe-your-shell-paths</link>
+      <description>If you have ever ran </description>
+      <guid>https://waylonwalker.com//dedupe-your-shell-paths</guid>
+      <pubDate>2022-03-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Bash Mktemp</title>
+      <link>https://waylonwalker.com//bash-mktemp</link>
+      <description>There is GNU coreutils command called  Here are some examples of making temp directories in different places, my Here is a sample script that shows how to captu</description>
+      <guid>https://waylonwalker.com//bash-mktemp</guid>
+      <pubDate>2022-03-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Recover A Lost Git Branch With Checkout</title>
+      <link>https://waylonwalker.com//git-recover-checkout</link>
+      <description>Once you give a branch the big D ( Checkout is your savior, all you need is the commit hash. We have all done this, you give  branch the big D only to realize i</description>
+      <guid>https://waylonwalker.com//git-recover-checkout</guid>
+      <pubDate>2022-03-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Install Obs Flatpak</title>
+      <link>https://waylonwalker.com//install-obs-flatpak</link>
+      <description>Big announcement recently that obs studio now builds out to a flatpak, I did not have flatpak installed so the first thing I had to do was get Once I had flatpa</description>
+      <guid>https://waylonwalker.com//install-obs-flatpak</guid>
+      <pubDate>2022-02-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Vim Remaps Use Cmd In Place Of :</title>
+      <link>https://waylonwalker.com//vim-cmd</link>
+      <description>Anyone just starting out their vim customization journey is bound to run into this error. I If you run  You still need to map your remaps with a : if you do not</description>
+      <guid>https://waylonwalker.com//vim-cmd</guid>
+      <pubDate>2022-02-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Bluetooth At The Command Line On Ubuntu</title>
+      <link>https://waylonwalker.com//linux-bluetoothctl</link>
+      <description>One thing about moving to a tiling window manager like awesome wm or i3 is that Running  Here is what I had to do to connect my headphones. Here is the output o</description>
+      <guid>https://waylonwalker.com//linux-bluetoothctl</guid>
+      <pubDate>2022-02-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Simple Samba Share Setup</title>
+      <link>https://waylonwalker.com//simple-samba</link>
+      <description>Samba is an implementation of the smb protocol that allows me to setup network I think the homelab is starting to intrigue me enought to dive into the path of T</description>
+      <guid>https://waylonwalker.com//simple-samba</guid>
+      <pubDate>2022-02-09</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Ag Silver Searcher Look Ahead And Look Behind</title>
+      <link>https://waylonwalker.com//ag-ahead</link>
+      <description>A super useful tool when doing PR It</description>
+      <guid>https://waylonwalker.com//ag-ahead</guid>
+      <pubDate>2022-02-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Installing Rust And Cargo On Ubuntu 21.10 Using Ansible</title>
+      <link>https://waylonwalker.com//install-rust</link>
+      <description>Installing rust in your own ansible playbook will make sure that you can I try to install everything that I will want to use for more than just a This is how ru</description>
+      <guid>https://waylonwalker.com//install-rust</guid>
+      <pubDate>2022-02-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Neovim Config For Git</title>
+      <link>https://waylonwalker.com//neovim-config-for-git</link>
+      <description>Creating a minimal config specifically for git commits has made running The other thing that is engrained into my muscle memory is  Here is the config that has </description>
+      <guid>https://waylonwalker.com//neovim-config-for-git</guid>
+      <pubDate>2022-02-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>How To Properly Simulate Stow</title>
+      <link>https://waylonwalker.com//stow-simulate</link>
+      <description></description>
+      <guid>https://waylonwalker.com//stow-simulate</guid>
+      <pubDate>2022-01-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Tmux And Vim Clipboard For Ubuntu</title>
+      <link>https://waylonwalker.com//ubuntu-terminal-clipboard</link>
+      <description>One of the first things I noticed broken in my terminal based workflow moving First off you need to get  I have tmux setup to automatically copy any selection I</description>
+      <guid>https://waylonwalker.com//ubuntu-terminal-clipboard</guid>
+      <pubDate>2022-01-26</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Tmux Hotkey For Copier Templates</title>
+      <link>https://waylonwalker.com//tmux-copier-templates</link>
+      <description>I have added a hotkey to my copier template setup to quickly access all my I</description>
+      <guid>https://waylonwalker.com//tmux-copier-templates</guid>
+      <pubDate>2022-01-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Copier Tasks | Python Templating Post Run Task</title>
+      <link>https://waylonwalker.com//copier-tasks</link>
+      <description>Copier allows you to run post render tasks, just like cookiecutter. These are The example I have below runs an  I have put the script in </description>
+      <guid>https://waylonwalker.com//copier-tasks</guid>
+      <pubDate>2022-01-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Fuzzy Wallpaper With Fzf</title>
+      <link>https://waylonwalker.com//fzf-wallpaper</link>
+      <description>I really appreciate that in linux anything can be scripted, including I set my default wallpaper with  Leaning in on feh, we can use fzf to pick a wallpaper fro</description>
+      <guid>https://waylonwalker.com//fzf-wallpaper</guid>
+      <pubDate>2022-01-19</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Converting Markdown To Pdf With Pandoc On Linux</title>
+      <link>https://waylonwalker.com//convert-markdown-pdf-linux</link>
+      <description>Converting markdown posts to pdf on ubuntu takes a few packages from the Here is an image of what converting this article over to a pdf looks</description>
+      <guid>https://waylonwalker.com//convert-markdown-pdf-linux</guid>
+      <pubDate>2022-01-12</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Installing Pipx On Ubuntu</title>
+      <link>https://waylonwalker.com//installing-pipx-on-ubuntu</link>
+      <description>I recently paired up with another dev running windows with Ubuntu running in Open up a terminal and get your required system dependencies using the apt I like r</description>
+      <guid>https://waylonwalker.com//installing-pipx-on-ubuntu</guid>
+      <pubDate>2022-01-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>2 Minutes To Stow</title>
+      <link>https://waylonwalker.com//2-minutes-to-stow</link>
+      <description>Stow is an incredible way to manage your dotfiles.  It works by managing When using stow its easiest to keep your dotfiles directory (you may name it Then each </description>
+      <guid>https://waylonwalker.com//2-minutes-to-stow</guid>
+      <pubDate>2022-01-09</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Using Copier Answers To Rerun Templates Quickly</title>
+      <link>https://waylonwalker.com//copier-answers</link>
+      <description>The copier answers file is a key component to making your templates Inside of my  Inside my copier.yml I have setup my  Once I change the  I After rendering the</description>
+      <guid>https://waylonwalker.com//copier-answers</guid>
+      <pubDate>2022-01-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Pipx Examples</title>
+      <link>https://waylonwalker.com//pipx-examples</link>
+      <description></description>
+      <guid>https://waylonwalker.com//pipx-examples</guid>
+      <pubDate>2022-01-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Remove Vim Tab Characters</title>
+      <link>https://waylonwalker.com//remove-vim-tab-characters</link>
+      <description>I It turns out they are tabs, and you can get rid of the little leading</description>
+      <guid>https://waylonwalker.com//remove-vim-tab-characters</guid>
+      <pubDate>2022-01-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Tmux Pop Size</title>
+      <link>https://waylonwalker.com//tmux-pop-size</link>
+      <description>tmux popups can be sized how you like based on the % width of the</description>
+      <guid>https://waylonwalker.com//tmux-pop-size</guid>
+      <pubDate>2022-01-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Copier Templates</title>
+      <link>https://waylonwalker.com//copier-templates</link>
+      <description>%%include til/copier %%include til/copier-template-variables %%include til/copier-answers</description>
+      <guid>https://waylonwalker.com//copier-templates</guid>
+      <pubDate>2022-01-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>List All The Files Containing A Phrase</title>
+      <link>https://waylonwalker.com//list-all-files-containing-phrase</link>
+      <description>One of the most useful skills you can acquire to make you faster at I Passing the flag  Giving </description>
+      <guid>https://waylonwalker.com//list-all-files-containing-phrase</guid>
+      <pubDate>2021-12-31</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>My First Impressions With Pyenv</title>
+      <link>https://waylonwalker.com//pyenv-first-impressions</link>
+      <description>pyenv provides an easy way to install almost any version of python from I needed to install an older version of python on ubuntu I Based on the Readme it looked</description>
+      <guid>https://waylonwalker.com//pyenv-first-impressions</guid>
+      <pubDate>2021-12-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Installing Homebrew On Linux</title>
+      <link>https://waylonwalker.com//installing-homebrew-linux</link>
+      <description>Installing brew on linux proved quite easy and got pyenv running for me I had never used homebrew before, honestly I thought it was a mac only That was it, now </description>
+      <guid>https://waylonwalker.com//installing-homebrew-linux</guid>
+      <pubDate>2021-12-29</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Serve Html From Your Command Line</title>
+      <link>https://waylonwalker.com//serve-html-command-line</link>
+      <description>When I first moved to vim from and ide like vscode or sublime text one of my You will need a way to run another process alongside vim, here are a couple use bac</description>
+      <guid>https://waylonwalker.com//serve-html-command-line</guid>
+      <pubDate>2021-12-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>You Must Use Augroup With Autocmd In Vim | Here&#39;S How</title>
+      <link>https://waylonwalker.com//vim-augroup</link>
+      <description>If you are running vim autocmd https://youtu.be/2ITTn4Dl0lc For  Lets create a new file called  I What you need to do is clear out all commands in the augroup w</description>
+      <guid>https://waylonwalker.com//vim-augroup</guid>
+      <pubDate>2021-12-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Code Review From The Comfort Of Vim | Diffurcate</title>
+      <link>https://waylonwalker.com//diffurcate</link>
+      <description>I often review Pull requests from the browser as it just makes it so easy to see https://youtu.be/5NKaZFavM0E This all stems from the great plugin by First to q</description>
+      <guid>https://waylonwalker.com//diffurcate</guid>
+      <pubDate>2021-12-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Setup A Yaml Schema | Yamlls For A Silky Smooth Setup</title>
+      <link>https://waylonwalker.com//setup-yamlls</link>
+      <description>I The video for this one is part of a I have my  You will need the following plugins. I use plug, if you don Make sure that you have nvim Again if you don Next </description>
+      <guid>https://waylonwalker.com//setup-yamlls</guid>
+      <pubDate>2021-12-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Open Files Fast From Zsh | Or Bash If Thats Your Thing</title>
+      <link>https://waylonwalker.com//fuzzy-edit-zsh</link>
+      <description>https://youtu.be/PQw I am often in a set of tmux splits flying back and forth, accidentally close my Make sure you check out the YouTube video to see all of my </description>
+      <guid>https://waylonwalker.com//fuzzy-edit-zsh</guid>
+      <pubDate>2021-12-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>How Linux Users Install A Text Editor</title>
+      <link>https://waylonwalker.com//install-nvim-skit</link>
+      <description>In honor of the neovim 0.6.0 release, I decided to do a funny skit installing https://youtu.be/64oKLphhBuo The thing that took me the longest to realize was....</description>
+      <guid>https://waylonwalker.com//install-nvim-skit</guid>
+      <pubDate>2021-11-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>30 Days Dotfile Ricing</title>
+      <link>https://waylonwalker.com//dotfile-rice-challenge-intro</link>
+      <description>I am challenging myself to 30 days of dotfile ricing. I have been on linux This is primarily going to be focused on productivity, but may have a few Follow the </description>
+      <guid>https://waylonwalker.com//dotfile-rice-challenge-intro</guid>
+      <pubDate>2021-11-29</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Jut | Read Notebooks In The Terminal</title>
+      <link>https://waylonwalker.com//jut</link>
+      <description>Trying to read a .ipynb file without starting a jupyter server?  jut has you https://youtu.be/t8AvImnwor0 watch the video version of this post on  jut ! Take a </description>
+      <guid>https://waylonwalker.com//jut</guid>
+      <pubDate>2021-11-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Update Alternatives In Linux</title>
+      <link>https://waylonwalker.com//update-alternatives</link>
+      <description></description>
+      <guid>https://waylonwalker.com//update-alternatives</guid>
+      <pubDate>2021-11-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Waylon Walker</title>
+      <link>https://waylonwalker.com//about</link>
+      <description>👋 Hi, I am Waylon Walker.  I Love creating things on the web, learning, and I am currently a Data Analytics team lead where I do a lot of code review, pair</description>
+      <guid>https://waylonwalker.com//about</guid>
+      <pubDate>2021-11-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>I Made A Neovim Plugin</title>
+      <link>https://waylonwalker.com//telegraph-release</link>
+      <description>I Check out the project  I want a simple way to make remaps into shell commands that can open new tmux For example I want to make remaps to do things like open </description>
+      <guid>https://waylonwalker.com//telegraph-release</guid>
+      <pubDate>2021-10-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Tmux Detach</title>
+      <link>https://waylonwalker.com//tmux-detach</link>
+      <description>tmux detach is a handy tmux command that will quit your current session while default keybinding I have mine bound to  for more information on how I navigate tm</description>
+      <guid>https://waylonwalker.com//tmux-detach</guid>
+      <pubDate>2021-08-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Notify-Send</title>
+      <link>https://waylonwalker.com//notify-send</link>
+      <description></description>
+      <guid>https://waylonwalker.com//notify-send</guid>
+      <pubDate>2021-08-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Tmux Attach</title>
+      <link>https://waylonwalker.com//tmux-attach</link>
+      <description>https://youtu.be/JQ0yDCVu44E attach is one of the most useful features of tmux.  If you have no interest in this command will simply attach back to tmux if you </description>
+      <guid>https://waylonwalker.com//tmux-attach</guid>
+      <pubDate>2021-07-31</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Tmux Ls</title>
+      <link>https://waylonwalker.com//tmux-ls</link>
+      <description>https://youtu.be/LY41GLn tmux ls will list the sessions that you have running within the tmux server if https://waylonwalker.com/tmux-attach/ https://waylonwalk</description>
+      <guid>https://waylonwalker.com//tmux-ls</guid>
+      <pubDate>2021-07-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Tmux Command Line</title>
+      <link>https://waylonwalker.com//tmux-command-line</link>
+      <description>https://youtu.be/SNu-4IrkjAs So far we have covered a lot of tmux commands and how they map to keybindings Let Or we can open the tmux command line and run it f</description>
+      <guid>https://waylonwalker.com//tmux-command-line</guid>
+      <pubDate>2021-07-29</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Tmux Copy-Mode</title>
+      <link>https://waylonwalker.com//tmux-copy-mode</link>
+      <description>https://youtu.be/-ypY tmux copy-mode is a tmux mode that lets you scroll, search, copy, and jump your Default keybinding to get into copy mode is  If you are a </description>
+      <guid>https://waylonwalker.com//tmux-copy-mode</guid>
+      <pubDate>2021-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Tmux Join-Pane</title>
+      <link>https://waylonwalker.com//tmux-join-pane</link>
+      <description>https://youtu.be/Vm5rRtcVXLw Join-pane allows you to join panes that you have broken away from your window, Before you can join a pane you must first have a pan</description>
+      <guid>https://waylonwalker.com//tmux-join-pane</guid>
+      <pubDate>2021-07-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Tmux Break-Pane</title>
+      <link>https://waylonwalker.com//break-pane</link>
+      <description>https://youtu.be/ICL609F2xnc Break-pane is a handy tmux command when your layout gets too cramped and you Default key binding for  https://waylonwalker.com/tmux</description>
+      <guid>https://waylonwalker.com//break-pane</guid>
+      <pubDate>2021-07-26</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Tmux Zoom</title>
+      <link>https://waylonwalker.com//tmux-zoom</link>
+      <description>https://youtu.be/Rn6mOarCQ-Y Zooming into the current split in tmux is a valuable tool to give yourself some Default key bindings for zooming the current split </description>
+      <guid>https://waylonwalker.com//tmux-zoom</guid>
+      <pubDate>2021-07-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Tmux New-Window</title>
+      <link>https://waylonwalker.com//tmux-new-window</link>
+      <description>https://youtu.be/YRPZBv-iYyE New window as it sounds makes new windows in tmux.  Windows are kind of like Default key bindings for creating and navigating windo</description>
+      <guid>https://waylonwalker.com//tmux-new-window</guid>
+      <pubDate>2021-07-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Tmux Slect-Pane</title>
+      <link>https://waylonwalker.com//tmux-select-pane</link>
+      <description>https://youtu.be/CPZJZjN9YTY These are my MOST often used keybindings that I use in tmux.  They allow me to https://waylonwalker.com/tmux-nav-2021/ for more inf</description>
+      <guid>https://waylonwalker.com//tmux-select-pane</guid>
+      <pubDate>2021-07-23</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Tmux Rotate-Window</title>
+      <link>https://waylonwalker.com//tmux-rotate-window</link>
+      <description>https://youtu.be/06z5qf81ofo Rotate window is the main way that I navigated tmux before I learned Default keybindings My keybindings look just a bit different t</description>
+      <guid>https://waylonwalker.com//tmux-rotate-window</guid>
+      <pubDate>2021-07-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Tmux Select-Layout</title>
+      <link>https://waylonwalker.com//tmux-select-layout</link>
+      <description>https://youtu.be/F0mHnwTrNNc When you get many splits going in tmux sometimes its time for a new layout. https://waylonwalker.com/tmux-nav-2021/ for more inform</description>
+      <guid>https://waylonwalker.com//tmux-select-layout</guid>
+      <pubDate>2021-07-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Tmux Resize-Panes</title>
+      <link>https://waylonwalker.com//tmux-resize-panes</link>
+      <description>https://youtu.be/hpFYE2LU7xc Resizing panes in tmux can be quite difficult in default tmux, I Most often when I need to resize panes I just grab the edge of the</description>
+      <guid>https://waylonwalker.com//tmux-resize-panes</guid>
+      <pubDate>2021-07-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Tmux Choose-Tree</title>
+      <link>https://waylonwalker.com//tmux-choose-tree</link>
+      <description>Choose tree is a powerful tmux utility that provides a graphical interface to The default keybinding my preferred keybinding to open sessions and windows collap</description>
+      <guid>https://waylonwalker.com//tmux-choose-tree</guid>
+      <pubDate>2021-07-19</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Tmux Prefix</title>
+      <link>https://waylonwalker.com//tmux-prefix</link>
+      <description>https://youtu.be/BMkpbfhbkKM The prefix key is an essential part of tmux, by default all of tmux A few of the essential default key-bindings. A more complete li</description>
+      <guid>https://waylonwalker.com//tmux-prefix</guid>
+      <pubDate>2021-07-18</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Tmux Splitting Panes</title>
+      <link>https://waylonwalker.com//tmux-splitting-panes</link>
+      <description>https://youtu.be/kzgyiHap1nQ splitting panes is a core feature of tmux.  It allows us to split the terminal 🗒️ note that   https://waylonwalker.com/tmux-nav-202</description>
+      <guid>https://waylonwalker.com//tmux-splitting-panes</guid>
+      <pubDate>2021-07-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Tmux Last Session</title>
+      <link>https://waylonwalker.com//tmux-last-session</link>
+      <description>https://youtu.be/RB87EEnnMnU An ultimate productivity key-binding in tmux is one to switch to the last session.  I use this to quickly get between sessions real</description>
+      <guid>https://waylonwalker.com//tmux-last-session</guid>
+      <pubDate>2021-07-16</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Tmux Floating Popups</title>
+      <link>https://waylonwalker.com//tmux-floating-popups</link>
+      <description>https://youtu.be/2ZqFDsJywt8 Tmux popups are actually floating windows that you can drag around the screen.  They always open in the middle (by default) when yo</description>
+      <guid>https://waylonwalker.com//tmux-floating-popups</guid>
+      <pubDate>2021-07-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Tmux Popups</title>
+      <link>https://waylonwalker.com//tmux-popups</link>
+      <description>https://youtu.be/2I8fB28zfB4 Tmux-popups are a great feature that is relatively new to tmux, many repos such https://waylonwalker.com/tmux-nav-2021/ for more in</description>
+      <guid>https://waylonwalker.com//tmux-popups</guid>
+      <pubDate>2021-07-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>How I Configure Git</title>
+      <link>https://waylonwalker.com//git-settings</link>
+      <description>Git can be a bit tricky to get configured correctly.  I often stumble into</description>
+      <guid>https://waylonwalker.com//git-settings</guid>
+      <pubDate>2021-06-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Ubuntu</title>
+      <link>https://waylonwalker.com//ubuntu</link>
+      <description>I ran this, but have no idea if it had any effect as the theme did What I think actuagnome terminal showing scrollbar in tmuxlly worked was One thing that I rea</description>
+      <guid>https://waylonwalker.com//ubuntu</guid>
+      <pubDate>2021-06-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Python Lsp Setup</title>
+      <link>https://waylonwalker.com//setup-pylsp</link>
+      <description>Setting up python with the native nvim&amp;gt;0.5 lsp was mr https://github.com/neovim/nvim-lspconfig https://github.com/palantir/python-language-server/issues/190 </description>
+      <guid>https://waylonwalker.com//setup-pylsp</guid>
+      <pubDate>2021-05-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>How I Navigate Tmux In 2021</title>
+      <link>https://waylonwalker.com//tmux-nav-2021</link>
+      <description>In 2021 I changed the way I navigate between tmux sessions big time.  Now I can Since making this post, I have made ~20 other posts in short form that all have </description>
+      <guid>https://waylonwalker.com//tmux-nav-2021</guid>
+      <pubDate>2021-05-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Trim Unused Git Branches</title>
+      <link>https://waylonwalker.com//trim-branches</link>
+      <description></description>
+      <guid>https://waylonwalker.com//trim-branches</guid>
+      <pubDate>2021-05-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>How To Compare Two Files In Vim</title>
+      <link>https://waylonwalker.com//vim-diffsplit</link>
+      <description></description>
+      <guid>https://waylonwalker.com//vim-diffsplit</guid>
+      <pubDate>2021-05-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Create A Virtual File Gallery With Symlinks</title>
+      <link>https://waylonwalker.com//symlink-gallery</link>
+      <description>Creating a directory that is a union of several directories can be achieved Here is how I am creating a virtual directory of all my projects that is a ⚠ Notice </description>
+      <guid>https://waylonwalker.com//symlink-gallery</guid>
+      <pubDate>2021-05-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>📝 Docker Deep Dive - Notes</title>
+      <link>https://waylonwalker.com//docker-deep-dive</link>
+      <description>https://www.hanselminutes.com/784/doing-open-source-with-brian-douglas A handy way to try weird things in docker is using Installing on Ubuntu. In order to run </description>
+      <guid>https://waylonwalker.com//docker-deep-dive</guid>
+      <pubDate>2021-04-23</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Live Substitution In Neovim</title>
+      <link>https://waylonwalker.com//neovim-live-substitution</link>
+      <description>Replacing text in vim can be quite frustrating especially since it doesn https://twitter.com/ I had to do a bit of searching and found a great post from  I beli</description>
+      <guid>https://waylonwalker.com//neovim-live-substitution</guid>
+      <pubDate>2021-01-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Newsboat</title>
+      <link>https://waylonwalker.com//newsboat</link>
+      <description>Web browsers are a black hole of productivity.  I try to use them as little as I am going to give a terminal rss reader a try for a bit and see how that goes I </description>
+      <guid>https://waylonwalker.com//newsboat</guid>
+      <pubDate>2021-01-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Find And Replace In The Terminal.</title>
+      <link>https://waylonwalker.com//find-replace</link>
+      <description>notes about find and replace techniques</description>
+      <guid>https://waylonwalker.com//find-replace</guid>
+      <pubDate>2020-11-12</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Creating Reusable Bash Scripts</title>
+      <link>https://waylonwalker.com//reusable-bash</link>
+      <description>Bash is a language that is quite useful for automation no matter what language I have three techniques that help me write more composable bash scripts. Function</description>
+      <guid>https://waylonwalker.com//reusable-bash</guid>
+      <pubDate>2020-08-13</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Supercharge Zsh Startup</title>
+      <link>https://waylonwalker.com//supercharge-zsh-startup</link>
+      <description>I have been using oh-my-zsh successfully for about 2 years now. But lately my I believe the real issue is io speed on wsl.  I have some remote servers with Quic</description>
+      <guid>https://waylonwalker.com//supercharge-zsh-startup</guid>
+      <pubDate>2020-01-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>📝 Bash Notes</title>
+      <link>https://waylonwalker.com//bash</link>
+      <description>Waylon Walker&#39;s Bash Notes</description>
+      <guid>https://waylonwalker.com//bash</guid>
+      <pubDate>2019-09-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+<lastBuildDate></lastBuildDate>
+</channel>
+</rss>

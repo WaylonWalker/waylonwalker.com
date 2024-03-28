@@ -1,0 +1,1844 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0">
+<channel>
+    <title>thoughts</title>
+    <link>https://waylonwalker.com/</link>
+    <description>I write about how I use python and linux in data science.</description>
+    <generator>Markata</generator>
+    <image>
+        <url>static/8bitcc.png</url>
+        <link>https://waylonwalker.com/</link>
+    </image>
+    <language>en</language>
+
+  <item>
+      <title>Sealed Secrets</title>
+      <link>https://waylonwalker.com//thoughts-229</link>
+      <description>Here kubeseal is a pretty simple to get started with way to manage secrets such that they can be stored in a git repo and be picked up by your continuous delive</description>
+      <guid>https://waylonwalker.com//thoughts-229</guid>
+      <pubDate>2024-03-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Fastapi Decorators</title>
+      <link>https://waylonwalker.com//thoughts-227</link>
+      <description>Here I After listening to yesterday This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-227</guid>
+      <pubDate>2024-03-26</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Middleware Explained - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-228</link>
+      <description>Here Great episode covering a seemingly simple topic.  What I really benefitted from was hearing all the different use cases, from logging, debugging, to a/b te</description>
+      <guid>https://waylonwalker.com//thoughts-228</guid>
+      <pubDate>2024-03-26</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Simon Willison On X: &#34;Til Google Chrome Has A --Headless Option You Can Use To Take A Screenshot From The Cli That&#39;S Built Into The Default Installation Https://T.Co/Hoa4Ujpsth&#34; / X</title>
+      <link>https://waylonwalker.com//thoughts-224</link>
+      <description>Here Huh, so this is just built right into the chrome cli. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-224</guid>
+      <pubDate>2024-03-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Fastapi Https Url_For</title>
+      <link>https://waylonwalker.com//thoughts-223</link>
+      <description>Here jinja This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-223</guid>
+      <pubDate>2024-03-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Cassidy On X: &#34;I Made An App ✨ Https://T.Co/Biyx8Xzqdk&#34; / X</title>
+      <link>https://waylonwalker.com//thoughts-222</link>
+      <description>Here Damn are one time paid and have it apps making a comeback?  Seems like the perfect thing to have someone else automate and not pay a subscription for. Geni</description>
+      <guid>https://waylonwalker.com//thoughts-222</guid>
+      <pubDate>2024-03-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Joining The Split Keyboards Club: A Moonlander Story</title>
+      <link>https://waylonwalker.com//thoughts-220</link>
+      <description>Here I switched from a 60% vortex pok3r to a 40% corne June, 2021.  I can relate to a lot of what Carlos talks about here.  I think going from 60%-40% made my j</description>
+      <guid>https://waylonwalker.com//thoughts-220</guid>
+      <pubDate>2024-03-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Learning Strawberry</title>
+      <link>https://waylonwalker.com//thoughts-221</link>
+      <description>Here This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-221</guid>
+      <pubDate>2024-03-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>My Workflow, Part 1</title>
+      <link>https://waylonwalker.com//thoughts-219</link>
+      <description>Here Carlos has a pretty sick setup here, I can relate to mostly, cept the macos part.  My main critique is that I don Most of the time I have a single, maximiz</description>
+      <guid>https://waylonwalker.com//thoughts-219</guid>
+      <pubDate>2024-03-19</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Using Netlify Analytics To Build A List Of Popular Posts - Jim Nielsen’S Blog</title>
+      <link>https://waylonwalker.com//thoughts-218</link>
+      <description>Here This is a sick feature of Jim This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-218</guid>
+      <pubDate>2024-03-18</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Docker - Where Does The Convention Of Using /Healthz For Application Health Checks Come From? - Stack Overflow</title>
+      <link>https://waylonwalker.com//thoughts-215</link>
+      <description>Here The convention of  This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-215</guid>
+      <pubDate>2024-03-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Configure Liveness, Readiness And Startup Probes | Kubernetes</title>
+      <link>https://waylonwalker.com//thoughts-216</link>
+      <description>Here What is the difference between health, liveness, readiness, and startup?  This article does a great job at a full writeup description of how it works in ku</description>
+      <guid>https://waylonwalker.com//thoughts-216</guid>
+      <pubDate>2024-03-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>605: Jim Nielsen On Subversive Urls, Blogging + Ai, And Design Engineers – Shoptalk</title>
+      <link>https://waylonwalker.com//thoughts-217</link>
+      <description>Here An absolute fantastic episode about blogging, thinking about a web1.0 kind of world today, and what it means moving forward. Web 1.0 is robust, you own you</description>
+      <guid>https://waylonwalker.com//thoughts-217</guid>
+      <pubDate>2024-03-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Placehold | A Simple, Fast And Free Image Placeholder Service</title>
+      <link>https://waylonwalker.com//thoughts-214</link>
+      <description>Here This is a handy placeholder generator for generating placeholder items like images, and videos. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-214</guid>
+      <pubDate>2024-03-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Flake8-To-Ruff · Pypi</title>
+      <link>https://waylonwalker.com//thoughts-212</link>
+      <description>Here Underrated python library to on board ruff, or just use it on a project where its not the norm.  ruff claims that its 99.9% compatible with black and when </description>
+      <guid>https://waylonwalker.com//thoughts-212</guid>
+      <pubDate>2024-03-09</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>My New Python Lsp Setup</title>
+      <link>https://waylonwalker.com//thoughts-213</link>
+      <description>Here I figured out the killer combination for python lsp servers, ruff and jedi This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-213</guid>
+      <pubDate>2024-03-09</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Jesseduffield/Lazydocker: The Lazier Way To Manage Everything Docker</title>
+      <link>https://waylonwalker.com//thoughts-208</link>
+      <description>Here I tldr  This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-208</guid>
+      <pubDate>2024-03-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Formatting Codes – Minecraft Wiki</title>
+      <link>https://waylonwalker.com//thoughts-209</link>
+      <description>Here Minecraft MOTD and server names have formatting codes so that you can get colors, bold, underlined, italics, in your message of the day or server name.  Se</description>
+      <guid>https://waylonwalker.com//thoughts-209</guid>
+      <pubDate>2024-03-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Lonecraft</title>
+      <link>https://waylonwalker.com//thoughts-210</link>
+      <description>Here This is the best tree I have ever built in minecraft.  It took at least 4 stacks of logs and leaves despite what it looks like. It is placed where Welscraf</description>
+      <guid>https://waylonwalker.com//thoughts-210</guid>
+      <pubDate>2024-03-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Searching My Thoughts Locally</title>
+      <link>https://waylonwalker.com//thoughts-211</link>
+      <description>Here First I need to fetch my thoughts from the api, and put it in a local sqlite database using  Now that I have my posts in a local sqlite database I can use </description>
+      <guid>https://waylonwalker.com//thoughts-211</guid>
+      <pubDate>2024-03-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Python - Concepts Of Backref And Back_Populate In Sqlalchemy? - Stack Overflow</title>
+      <link>https://waylonwalker.com//thoughts-205</link>
+      <description>Here Today I came across some sqlalchemy models that created some relationships, some used  https://docs.sqlalchemy.org/en/14/orm/backref.html As stated in the </description>
+      <guid>https://waylonwalker.com//thoughts-205</guid>
+      <pubDate>2024-03-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>(265) Creating One-To-Many Relationships In Flask-Sqlalchemy - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-206</link>
+      <description>Here Great example from Anthony showing how easy it is to practice building database orm models and playing with them in a repl.  This is good practice even if </description>
+      <guid>https://waylonwalker.com//thoughts-206</guid>
+      <pubDate>2024-03-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>(265) I&#39;M Coming Around To Go... - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-207</link>
+      <description>Here Go is feeling more and more like something I could throw in my tool belt as a python dev.  I really like that it This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-207</guid>
+      <pubDate>2024-03-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>2.5 Admins 180: Email 777 – 2.5 Admins</title>
+      <link>https://waylonwalker.com//thoughts-204</link>
+      <description>Here How do you pronounce URL, is it U.R.L or Earle?  I Episode also included a fastinating corrdinated attack that used Ars Technica profile photos communicate</description>
+      <guid>https://waylonwalker.com//thoughts-204</guid>
+      <pubDate>2024-02-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>I&#39;M Skeptical Of Low Code - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-201</link>
+      <description>Here Great take on low code.  I have definitely felt the pressure of being presented low code options,  As pointed out here when they fall short rather than bei</description>
+      <guid>https://waylonwalker.com//thoughts-201</guid>
+      <pubDate>2024-01-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>(212) Dawn Gate - The Game That Solved Toxicity - 2 - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-202</link>
+      <description>Here Thor is just straight up a great Human being This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-202</guid>
+      <pubDate>2024-01-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>(212) Replace Github Copilot With A Local Llm - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-203</link>
+      <description>Here This really makes me want to try Dolphin Mixtral with ollama now.  It looks very impressive from this video.  The ability to keep adding features before be</description>
+      <guid>https://waylonwalker.com//thoughts-203</guid>
+      <pubDate>2024-01-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Charmbracelet/Mods: Ai On The Command Line</title>
+      <link>https://waylonwalker.com//thoughts-197</link>
+      <description>Here This is a pretty sweet interface into llms.  I used it a bit with my son tonight while he was asking me for datapack ideas. You can continue the conversati</description>
+      <guid>https://waylonwalker.com//thoughts-197</guid>
+      <pubDate>2024-01-26</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Charmbracelet/Mods: Ai On The Command Line</title>
+      <link>https://waylonwalker.com//thoughts-198</link>
+      <description>Here This is a pretty sweet interface into llms.  I used it a bit with my son tonight while he was asking me for datapack ideas. You can continue the conversati</description>
+      <guid>https://waylonwalker.com//thoughts-198</guid>
+      <pubDate>2024-01-26</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Java - Archwiki</title>
+      <link>https://waylonwalker.com//thoughts-199</link>
+      <description>Here Today I learned that arch has a helper script  This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-199</guid>
+      <pubDate>2024-01-26</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>The One Eyed Fighting Kirby</title>
+      <link>https://waylonwalker.com//thoughts-200</link>
+      <description>Here I This is a vim substitute comand to replace text in the buffer.  the one eyed fighting kirby is a regex capture group to capture everything between matche</description>
+      <guid>https://waylonwalker.com//thoughts-200</guid>
+      <pubDate>2024-01-26</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Gridfinity | The Modular, Open-Source Grid Storage System For Your Workshop.</title>
+      <link>https://waylonwalker.com//thoughts-196</link>
+      <description>Here I am starting to build out some custom tool holders for my tool box, and using gridfinity.  This is a super handy reference guide for spec This post was a </description>
+      <guid>https://waylonwalker.com//thoughts-196</guid>
+      <pubDate>2024-01-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Read A Range Of Data - Limit And Offset - Sqlmodel</title>
+      <link>https://waylonwalker.com//thoughts-195</link>
+      <description>Here Today I was running some sqlmodel queries through the sqlalchemy orm.  Admittedly I It is incredibly slow, and gives me the following warning. What I learn</description>
+      <guid>https://waylonwalker.com//thoughts-195</guid>
+      <pubDate>2024-01-12</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Template Designer Documentation — Jinja Documentation (3.0.X)</title>
+      <link>https://waylonwalker.com//thoughts-194</link>
+      <description>Here html code generated by my jinja templates generally look half garbage because of indents and whitespace all over the place.  I just learned about these pes</description>
+      <guid>https://waylonwalker.com//thoughts-194</guid>
+      <pubDate>2023-12-26</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Minecraft Server On Docker (Java Edition)</title>
+      <link>https://waylonwalker.com//thoughts-193</link>
+      <description>Here I just learned that if you can exec into the container running minecraft with the itzg/minecraft container you can run  This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-193</guid>
+      <pubDate>2023-12-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>We Finally Agree On Unit Tests - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-192</link>
+      <description>Here Theo This video made me think so much that it turned into it This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-192</guid>
+      <pubDate>2023-12-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Mastodon.Py — Mastodon.Py 1.8.1 Documentation</title>
+      <link>https://waylonwalker.com//thoughts-191</link>
+      <description>Here Mastadon.py is a python api client for mastadon that makes it easy to cross post to mastadon. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-191</guid>
+      <pubDate>2023-12-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Indiewebify.Me - A Guide To Getting You On The Indieweb</title>
+      <link>https://waylonwalker.com//thoughts-189</link>
+      <description>Here This is a sick guided site to validate indieweb tags on your site.  It makes it much easier than trying to do it yourself. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-189</guid>
+      <pubDate>2023-12-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Bunny.Net - The Content Delivery Platform That Truly Hops!</title>
+      <link>https://waylonwalker.com//thoughts-190</link>
+      <description>Here bunny.net looks like an interesting cloudflare alternative. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-190</guid>
+      <pubDate>2023-12-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Handling Errors - Fastapi</title>
+      <link>https://waylonwalker.com//thoughts-187</link>
+      <description>Here This page shows how to customize your fastapi errors.  I found this very useful to setup common templates so that I can return the same 404 This post was a</description>
+      <guid>https://waylonwalker.com//thoughts-187</guid>
+      <pubDate>2023-12-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Fastapi - Dependency Inside Middleware? - Stack Overflow</title>
+      <link>https://waylonwalker.com//thoughts-188</link>
+      <description>Here After struggling to get dependencies inside of middleware I learned that you can make global dependencies at the app level.  I used this to set the user on</description>
+      <guid>https://waylonwalker.com//thoughts-188</guid>
+      <pubDate>2023-12-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Waylon Walker (Getting Focus&#39;D Fokais.Com) On X: &#34;Bloggers Where Do You Put Your Markdown?&#34; / X</title>
+      <link>https://waylonwalker.com//thoughts-184</link>
+      <description>Here Most bloggers on my twitter blog right into a file that goes on git.  I kinda expected to have more database folk.  I have my blog in markdown on git and t</description>
+      <guid>https://waylonwalker.com//thoughts-184</guid>
+      <pubDate>2023-12-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>How To Group Fastapi Endpoints In Swagger Ui? </title>
+      <link>https://waylonwalker.com//thoughts-185</link>
+      <description>Here Here is a full example from the post. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-185</guid>
+      <pubDate>2023-12-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Logs With Fastapi And Uvicorn · Issue #1508 · Tiangolo/Fastapi</title>
+      <link>https://waylonwalker.com//thoughts-186</link>
+      <description>Here Setting an additional log handler to the uvicorn logger for access logs in fastapi was not straightforward, but This post was very helpful. This post was a</description>
+      <guid>https://waylonwalker.com//thoughts-186</guid>
+      <pubDate>2023-12-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Nvim: `Vim.O.Cmdheight=0`</title>
+      <link>https://waylonwalker.com//thoughts-182</link>
+      <description>Here I fixed my missing macro recording indicator that I lost and was never quite sure why. (because I forgot that I set cmdheight=0). This post was a thought b</description>
+      <guid>https://waylonwalker.com//thoughts-182</guid>
+      <pubDate>2023-12-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Show Some Equivalent List Comprehensions In Filter Examples · Issue #1068 · Pallets/Jinja</title>
+      <link>https://waylonwalker.com//thoughts-183</link>
+      <description>Here I often want to reach for non existing list comprehensions in jinja 2, Here are a few nice equivalents. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-183</guid>
+      <pubDate>2023-12-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Why You Should Write A Blog</title>
+      <link>https://waylonwalker.com//thoughts-178</link>
+      <description>Here Nice message by  Write it down. You had to dig deeper than face value at something. Write it down. You had to combine  multiple pages of docs. Write it dow</description>
+      <guid>https://waylonwalker.com//thoughts-178</guid>
+      <pubDate>2023-12-13</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Adam Wathan On X: &#34;Hear Me Out. Https://T.Co/Qhkei6Sjyz&#34; / X</title>
+      <link>https://waylonwalker.com//thoughts-179</link>
+      <description>Here I Down in the comments  Basically every layout overflow bug ever boils down to some flex or grid child needing min-width: 0 😄 Oh and  I ... do this. This p</description>
+      <guid>https://waylonwalker.com//thoughts-179</guid>
+      <pubDate>2023-12-13</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Imagemagick – Color Names</title>
+      <link>https://waylonwalker.com//thoughts-180</link>
+      <description>Here Full list of imagemagick color names. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-180</guid>
+      <pubDate>2023-12-13</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Datadog/Ddqa: Datadog&#39;S Qa Manager For Releases Of Github Repositories</title>
+      <link>https://waylonwalker.com//thoughts-181</link>
+      <description>Here DataDog ddqa is building out a textual app and deploying it with pyapp.  They have CI setup to fully build and cross compile their textual tui into github </description>
+      <guid>https://waylonwalker.com//thoughts-181</guid>
+      <pubDate>2023-12-13</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Protect Api Docs Behind Authentication? · Issue #364 · Tiangolo/Fastapi</title>
+      <link>https://waylonwalker.com//thoughts-176</link>
+      <description>Here You can protect your fastapi docs behind auth so that not only can certain roles not run certain routes, but they cannot even see the docs at all.  This wa</description>
+      <guid>https://waylonwalker.com//thoughts-176</guid>
+      <pubDate>2023-12-12</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Path Operation Advanced Configuration - Fastapi</title>
+      <link>https://waylonwalker.com//thoughts-177</link>
+      <description>Here I Now you do not need to deploy favicons to your api in any way,  it is nice to have it in your browser tab, but more importantly to me I hate having conso</description>
+      <guid>https://waylonwalker.com//thoughts-177</guid>
+      <pubDate>2023-12-12</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Cancel Subscriptions | Stripe Documentation</title>
+      <link>https://waylonwalker.com//thoughts-175</link>
+      <description>Here This is a handy guide to cancelling stripe subscriptions. You can even inverse it by flipping  This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-175</guid>
+      <pubDate>2023-12-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Retrieve An Upcoming Invoice | Stripe Api Reference</title>
+      <link>https://waylonwalker.com//thoughts-174</link>
+      <description>Here You can find your customers next billing date through the stripe api by using  Within the invoice, you can find the next This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-174</guid>
+      <pubDate>2023-12-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Stripe Keys And Ids</title>
+      <link>https://waylonwalker.com//thoughts-172</link>
+      <description>Here Stripe has so many keys and ids this is a very helpful list to decode what exactly an id is for. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-172</guid>
+      <pubDate>2023-12-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Search | Stripe Documentation</title>
+      <link>https://waylonwalker.com//thoughts-173</link>
+      <description>Here Stripe has it This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-173</guid>
+      <pubDate>2023-12-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Page-Break-After - Css: Cascading Style Sheets | Mdn</title>
+      <link>https://waylonwalker.com//thoughts-169</link>
+      <description>Here I I found a way in css to only allow page breaks to happen on h2 and h3, and it turned out perfect, suck it WSIWIG editors This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-169</guid>
+      <pubDate>2023-11-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Css @Media Print Issues With Background-Color; - Stack Overflow</title>
+      <link>https://waylonwalker.com//thoughts-170</link>
+      <description>Here Get those print colors exact This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-170</guid>
+      <pubDate>2023-11-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Overworked - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-171</link>
+      <description>Here Dang this is such a good message.  I can This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-171</guid>
+      <pubDate>2023-11-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Go By Example</title>
+      <link>https://waylonwalker.com//thoughts-168</link>
+      <description>Here Fantastic resource for learning go.  You work through small examples quickly, learning single concepts along the way. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-168</guid>
+      <pubDate>2023-11-29</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>How To Build A Website Or App</title>
+      <link>https://waylonwalker.com//thoughts-167</link>
+      <description>Here Use good data or good fake data make it have some variation like long and short text Don end to end test, (does the site load page x) You DONT NEED all thi</description>
+      <guid>https://waylonwalker.com//thoughts-167</guid>
+      <pubDate>2023-11-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Separations Of Concerns Is A Lie - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-163</link>
+      <description>Here Nice take by  This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-163</guid>
+      <pubDate>2023-11-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Sebastián Ramírez On X: &#34;Now @Fastapi Has 65K+ Github Stars! ✨🎉 Since Today, Fastapi Has A Few More Github Stars Than Flask. 🤯 Now Fastapi Is The Second Most Starred Python Web Framework, Right After Django. 🥈 Https://T.Co/Ywi0I665Vo&#34; / X</title>
+      <link>https://waylonwalker.com//thoughts-164</link>
+      <description>Here Fastapi passes flask in GitHub stars This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-164</guid>
+      <pubDate>2023-11-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Will Mcgugan On X: &#34;Just A Wee Thing That Came Up Today. I Think This Is Kind Of Neat. Https://T.Co/Un8Frz2Tsj&#34; / X</title>
+      <link>https://waylonwalker.com//thoughts-165</link>
+      <description>Here Textual is so sick, Will just made a live markdown editor in the terminal This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-165</guid>
+      <pubDate>2023-11-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Pype|Dev🐍 (Py-Puh-Day) On X: &#34;@Wtravishubbard Management Is Abhorrent To Me&#34; / X</title>
+      <link>https://waylonwalker.com//thoughts-162</link>
+      <description>Here Today I learned the meaning of abhorrent abhorrent This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-162</guid>
+      <pubDate>2023-11-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Heroicons</title>
+      <link>https://waylonwalker.com//thoughts-161</link>
+      <description>Here heroicons is a really nice set of many of the basic icons that you will need for building nice ui This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-161</guid>
+      <pubDate>2023-11-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Uptime Kuma</title>
+      <link>https://waylonwalker.com//thoughts-160</link>
+      <description>Here Uptime kuma is a fantastic self hosted monitoring tool.  One docker run command and you are up and running.  Once you are in you have full control over che</description>
+      <guid>https://waylonwalker.com//thoughts-160</guid>
+      <pubDate>2023-11-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Kv - Command | Vault | Hashicorp Developer</title>
+      <link>https://waylonwalker.com//thoughts-158</link>
+      <description>Here hashi vault lets you manage secrets right from your cli. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-158</guid>
+      <pubDate>2023-11-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Johanhaleby/Kubetail: Bash Script To Tail Kubernetes Logs From Multiple Pods At The Same Time</title>
+      <link>https://waylonwalker.com//thoughts-157</link>
+      <description>Here Kubetail is a pretty sick bash script that allows you to tail logs for multiple pods in one stream.  Very handy when you have more than one replica running</description>
+      <guid>https://waylonwalker.com//thoughts-157</guid>
+      <pubDate>2023-10-31</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Waylon Walker 🐍 On X: &#34;Which Is More Complicated&#34; / X</title>
+      <link>https://waylonwalker.com//thoughts-155</link>
+      <description>Here Wow, shocked at these results.  All this time I This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-155</guid>
+      <pubDate>2023-10-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>(90) Kubernetes Secrets In 5 Minutes! - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-156</link>
+      <description>Here I am converting my docker compose env secrets over to k8s secrets.  This guide was clear and to the point how I can replicate this exact workflow. First se</description>
+      <guid>https://waylonwalker.com//thoughts-156</guid>
+      <pubDate>2023-10-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Creating K8S Jobs With Python</title>
+      <link>https://waylonwalker.com//thoughts-152</link>
+      <description>Here I was looking to add running kubernetes jobs to a python cli I am creating, and I found this solution, mostly thanks to  This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-152</guid>
+      <pubDate>2023-10-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>&lt;/&gt; Htmx ~ Locality Of Behaviour (Lob)</title>
+      <link>https://waylonwalker.com//thoughts-153</link>
+      <description>Here Interesting principle here.  What a great example, If I Consider two different implementations of an AJAX request in HTML, the first in htmx: This post was</description>
+      <guid>https://waylonwalker.com//thoughts-153</guid>
+      <pubDate>2023-10-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Wes Bos On X: &#34;🔥 The Stale-While-Revalidate Header Is Suuuuuuper Handy For Striking A Balance Between Fast Loads And And Frequently Changed Content. Here I Am Using It To Instantly Deliver An Og Image That Takes ~8S To Generate. Https://T.Co/Baitzswu9O&#34; / X</title>
+      <link>https://waylonwalker.com//thoughts-154</link>
+      <description>Here Wes has some of the coolest OG images i This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-154</guid>
+      <pubDate>2023-10-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Diagnostic - Neovim Docs</title>
+      <link>https://waylonwalker.com//thoughts-151</link>
+      <description>Here Clear out lsp diagnostics in nvim. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-151</guid>
+      <pubDate>2023-10-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>How To Kill Process Based On The Port Number In Linux - Linux Tutorials - Learn Linux Configuration</title>
+      <link>https://waylonwalker.com//thoughts-149</link>
+      <description>Here I Here is how I just killed the process using port 5000 using  You can also get information about the process by running  This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-149</guid>
+      <pubDate>2023-10-23</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Translate A Docker Compose File To Kubernetes Resources | Kubernetes</title>
+      <link>https://waylonwalker.com//thoughts-146</link>
+      <description>Here kompose This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-146</guid>
+      <pubDate>2023-10-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Casey/Just: 🤖 Just A Command Runner</title>
+      <link>https://waylonwalker.com//thoughts-147</link>
+      <description>Here I think just, might just be the thing I have been looking for.  I I installed with installer. I set up my devtainer builds with just.  Here is my  This pos</description>
+      <guid>https://waylonwalker.com//thoughts-147</guid>
+      <pubDate>2023-10-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Mkimuram/K8Sviz: Generate Kubernetes Architecture Diagrams From The Actual State In A Namespace</title>
+      <link>https://waylonwalker.com//thoughts-148</link>
+      <description>Here This is a sick kubernetes architecture diagran generation tool. Here is an example This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-148</guid>
+      <pubDate>2023-10-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Can&#39;T Create Secret In Kubernetes: Illegal Base64 Data At Input - Stack Overflow</title>
+      <link>https://waylonwalker.com//thoughts-142</link>
+      <description>Here In order to use k8s secrets manifest you first need to encode the data values. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-142</guid>
+      <pubDate>2023-10-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Inspect A Kubernetes Persistentvolumeclaim | Frank Sauerburger</title>
+      <link>https://waylonwalker.com//thoughts-143</link>
+      <description>Here I was curious to see what was going on inside of my minio object storage. Great technique here by Frank to create an inspector pod, then you can do as you </description>
+      <guid>https://waylonwalker.com//thoughts-143</guid>
+      <pubDate>2023-10-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Kubernetes Persistent Volumes With Deployment And Statefulset</title>
+      <link>https://waylonwalker.com//thoughts-144</link>
+      <description>Here Example of how to add a pvc to a deployment. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-144</guid>
+      <pubDate>2023-10-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Daniel Nashed&#39;S Blog</title>
+      <link>https://waylonwalker.com//thoughts-145</link>
+      <description>Here Running your own docker registry in one line This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-145</guid>
+      <pubDate>2023-10-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Quick-Start Guide | K3S</title>
+      <link>https://waylonwalker.com//thoughts-140</link>
+      <description>Here I recently spun up k3s in my homelab.  I My main hiccup so far was the machine I am running on runs zfs on root, and it would not start the master node.  R</description>
+      <guid>https://waylonwalker.com//thoughts-140</guid>
+      <pubDate>2023-10-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Can I Access K3S Using Just Kubectl (No Sudo And No K3S Command) : Kubernetes</title>
+      <link>https://waylonwalker.com//thoughts-141</link>
+      <description>Here Right after installing k3s you are going to need to use  To do this I used  This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-141</guid>
+      <pubDate>2023-10-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>(70) Tailwind Connect 2023 — Keynote - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-139</link>
+      <description>Here Tailwind comes with  This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-139</guid>
+      <pubDate>2023-10-19</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>(68) Has Web Development Regressed? A Conversation With Wes Bos | Backend Banter 023 - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-135</link>
+      <description>Here Boot.dev is crushing it with these interviews. This one has Wes Bos, includes teaching, webdev, where is webdev headed. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-135</guid>
+      <pubDate>2023-10-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Twitter Requires Full Image_Urls</title>
+      <link>https://waylonwalker.com//thoughts-136</link>
+      <description>Here Yet again twitter cards were causing me pain.  This time it was me not realizing that they require full urls, and not relative or abolute urls. This was no</description>
+      <guid>https://waylonwalker.com//thoughts-136</guid>
+      <pubDate>2023-10-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Delete A Postgres Cluster · Fly Docs</title>
+      <link>https://waylonwalker.com//thoughts-137</link>
+      <description>Here Deleting a fly postgres db cluster was not straightforward to me as the app name is not inferred from the toml like it is for the main app. This post was a</description>
+      <guid>https://waylonwalker.com//thoughts-137</guid>
+      <pubDate>2023-10-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Episode #433 Litestar: Effortlessly Build Performant Apis - [Talk Python To Me Podcast]</title>
+      <link>https://waylonwalker.com//thoughts-138</link>
+      <description>Here Litestar is an interesting api framework similar to fastpi, that I am interested to check out to see if it fits into some project scope.  It sounds like it</description>
+      <guid>https://waylonwalker.com//thoughts-138</guid>
+      <pubDate>2023-10-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Ollama</title>
+      <link>https://waylonwalker.com//thoughts-133</link>
+      <description>Here ollama is the easiest to get going local llm tool that I have tried, and seems to be crazy fast.  It feels faster than chat gpt, which has not been the exp</description>
+      <guid>https://waylonwalker.com//thoughts-133</guid>
+      <pubDate>2023-10-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>David-Kunz/Gen.Nvim: Neovim Plugin To Generate Text Using Llms With Customizable Prompts</title>
+      <link>https://waylonwalker.com//thoughts-134</link>
+      <description>Here This seems like a promising tool to use with ollama. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-134</guid>
+      <pubDate>2023-10-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Sysid/Sse-Starlette</title>
+      <link>https://waylonwalker.com//thoughts-132</link>
+      <description>Here sse-starlette provides server sent events for startlette and FastApi.  I This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-132</guid>
+      <pubDate>2023-10-12</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>How To Create A Custom Scrollbar</title>
+      <link>https://waylonwalker.com//thoughts-130</link>
+      <description>Here Default scrollbars on a dark theme website are just the ugliest thing.  This page covers all the pseudo selectors needed to style the scrollbar. This post </description>
+      <guid>https://waylonwalker.com//thoughts-130</guid>
+      <pubDate>2023-10-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Overflow - Tailwind Css</title>
+      <link>https://waylonwalker.com//thoughts-131</link>
+      <description>Here Controlling overflow with tailwindcss This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-131</guid>
+      <pubDate>2023-10-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Change Autocomplete Styles In Webkit Browsers | Css-Tricks - Css-Tricks</title>
+      <link>https://waylonwalker.com//thoughts-128</link>
+      <description>Here All the hover, select, autofil, focus combinations have left me confused on how to consistently get my form elements styled in dark mode This snippet from </description>
+      <guid>https://waylonwalker.com//thoughts-128</guid>
+      <pubDate>2023-10-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Wincent/Aspects/Dotfiles/Files/.Zshrc At 85Fc42D9E96D408A5B36739F6C10E6D686B70B34 · Wincent/Wincent</title>
+      <link>https://waylonwalker.com//thoughts-129</link>
+      <description>Here Wincent (Greg Hurrel) has a pretty solid and fast zshrc.  I recently grabbed his completion section and it seems to be working better than whatever I had. </description>
+      <guid>https://waylonwalker.com//thoughts-129</guid>
+      <pubDate>2023-10-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Automatic Browser Reloading In Fastapi</title>
+      <link>https://waylonwalker.com//thoughts-126</link>
+      <description>Here I just discovered  On app startup add the  install  In the template, load the script when in debug mode. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-126</guid>
+      <pubDate>2023-10-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Florimondmanca/Arel: Lightweight Browser Hot Reload For Python Asgi Web Apps</title>
+      <link>https://waylonwalker.com//thoughts-127</link>
+      <description>Here arel is a  I just implemented this on my thoughts website using fastapi, and it When in development mode, this snippet gets injected directly on the page a</description>
+      <guid>https://waylonwalker.com//thoughts-127</guid>
+      <pubDate>2023-10-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Open Source, Not Open Contribution With Ben Johnson (Changelog Interviews #433) |&gt; Changelog</title>
+      <link>https://waylonwalker.com//thoughts-122</link>
+      <description>Here Ben Johnson was on the Changelog a few years back covering his work on litestream, and talks about why he chose to go open source, but not open contributio</description>
+      <guid>https://waylonwalker.com//thoughts-122</guid>
+      <pubDate>2023-10-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Teej Dv 🔭 On X: &#34;Hypermedia Fixes This Hateoas Gonna Hate&#34; / X</title>
+      <link>https://waylonwalker.com//thoughts-123</link>
+      <description>Here HATEOAS gonna hate. More and more htmx seems like the js library for backend devs.  So rather than making 55 rest calls here, just make an endpoint that do</description>
+      <guid>https://waylonwalker.com//thoughts-123</guid>
+      <pubDate>2023-10-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Bob Belderbos On X: &#34;Forget Python For A Sec, Here&#39;S How Vim Helped Me Out Today ... 💪 📈 Ever Felt Like You Needed A Quick String Replacement Without Diving Into A Script? Here&#39;S A Vim Trick I Just Used ... I Wanted To Replace All Occurrences Of: Name,Name@Example.Com,0,171,,2023-09-21 With:…&#34; / X</title>
+      <link>https://waylonwalker.com//thoughts-124</link>
+      <description>Here I need to learn regex capture groups better.  This is so dang powerful. I really like the  I wanted to replace all occurrences of: name,name@example.com,0,</description>
+      <guid>https://waylonwalker.com//thoughts-124</guid>
+      <pubDate>2023-10-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Djangocon Europe 2023 | Use Sqlite In Production - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-120</link>
+      <description>Here Very inspiring talk, TLDR, you probably don This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-120</guid>
+      <pubDate>2023-10-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Point-In-Time Recovery - Wikipedia</title>
+      <link>https://waylonwalker.com//thoughts-121</link>
+      <description>Here I just learned that the term PITR means  This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-121</guid>
+      <pubDate>2023-10-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Benbjohnson/Litestream: Streaming Replication For Sqlite.</title>
+      <link>https://waylonwalker.com//thoughts-119</link>
+      <description>Here Install is fast using installer, no compilation, just copy the binary and run. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-119</guid>
+      <pubDate>2023-10-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Litefs Cloud: Distributed Sqlite With Managed Backups · The Fly Blog</title>
+      <link>https://waylonwalker.com//thoughts-116</link>
+      <description>Here Fly.io This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-116</guid>
+      <pubDate>2023-09-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>I&#39;M All-In On Server-Side Sqlite · The Fly Blog</title>
+      <link>https://waylonwalker.com//thoughts-117</link>
+      <description>Here SQLite is the next big database trend.  with more horizontal scaling, close to user read heavy applications, having your database in the same application s</description>
+      <guid>https://waylonwalker.com//thoughts-117</guid>
+      <pubDate>2023-09-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Why I Built Litestream - Litestream</title>
+      <link>https://waylonwalker.com//thoughts-118</link>
+      <description>Here As applications scale to the edge, to put compute as close to the user as possible, database queries back to the master node get slower and slower.  Enter </description>
+      <guid>https://waylonwalker.com//thoughts-118</guid>
+      <pubDate>2023-09-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Jpillora/Installer: One-Liner For Installing Binaries From Github Releases</title>
+      <link>https://waylonwalker.com//thoughts-115</link>
+      <description>Here This is a sick looking bash script generator for installing binaries off of github releases.  it reccomends curl into bash, but you could curl into install</description>
+      <guid>https://waylonwalker.com//thoughts-115</guid>
+      <pubDate>2023-09-23</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>How To Run Pods As Systemd Services With Podman | Enable Sysadmin</title>
+      <link>https://waylonwalker.com//thoughts-114</link>
+      <description>Here podman comes with a nice command for generating systemd service files (units). This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-114</guid>
+      <pubDate>2023-09-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Pagefind | Pagefind — Static Low-Bandwidth Search At Scale</title>
+      <link>https://waylonwalker.com//thoughts-112</link>
+      <description>Here Pagefind is absolutely insane.  I I setup pagefind in about 2 minutes on my site where it found and indexed 833 pages in 2 minutes. The only downside I see</description>
+      <guid>https://waylonwalker.com//thoughts-112</guid>
+      <pubDate>2023-09-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>(27) Bo Burnham, I Mean Miriah, Says Lower Your Programming Expectations A Lot... - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-111</link>
+      <description>Here Dang Mariah, killing it with continuous learning perspective. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-111</guid>
+      <pubDate>2023-09-13</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Simon Willison On X: &#34;Anyone Got A Lead On A Good Embedding Model That Can Embed Both Images And Text Into The Same Space, So You Can Search For &#34;Dog&#34; And Get Back Images Most Likely To Contain A Dog? It Looks Like Visualbert Is One, What Are Others?&#34; / X</title>
+      <link>https://waylonwalker.com//thoughts-110</link>
+      <description>Here Kinda mindblown that this is even possible.  This is so far outside of my current thinking that i didn Based on the number of responses CLIP is the thing t</description>
+      <guid>https://waylonwalker.com//thoughts-110</guid>
+      <pubDate>2023-09-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Aca/Emmet-Ls: Emmet Support Based On Lsp.</title>
+      <link>https://waylonwalker.com//thoughts-109</link>
+      <description>Here This is the greatest nvim emmet plugin I have tried.  In the past I had tried the vim plugin a few times and just could not get a good flow with the keybin</description>
+      <guid>https://waylonwalker.com//thoughts-109</guid>
+      <pubDate>2023-09-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Formatter</title>
+      <link>https://waylonwalker.com//thoughts-107</link>
+      <description>Here Tried out biome today and it worked better than prettier on jinja templates, I might adopt this over prettier. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-107</guid>
+      <pubDate>2023-09-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Llm Now Provides Tools For Working With Embeddings</title>
+      <link>https://waylonwalker.com//thoughts-108</link>
+      <description>Here Simon This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-108</guid>
+      <pubDate>2023-09-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>&lt;/&gt; Htmx ~ Hx-Indicator Attribute</title>
+      <link>https://waylonwalker.com//thoughts-105</link>
+      <description>Here The  By default the target element will the  The only way to override the name of the class is through config. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-105</guid>
+      <pubDate>2023-09-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>&lt;/&gt; Htmx ~ The Disable-Element Extension</title>
+      <link>https://waylonwalker.com//thoughts-106</link>
+      <description>Here An extension to disable elements during flight of an htmx request, Looks super useful for things like a create or delete button where the server would end </description>
+      <guid>https://waylonwalker.com//thoughts-106</guid>
+      <pubDate>2023-09-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>(19) The Truth About Htmx | Prime Reacts - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-104</link>
+      <description>Here Prime concisely made sense of why htmx is so awesome compared to what has become modern reactive web dev in 2 minutes.  I had never thought of it this way </description>
+      <guid>https://waylonwalker.com//thoughts-104</guid>
+      <pubDate>2023-09-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>&lt;/&gt; Htmx ~ Examples ~ Updating Other Content</title>
+      <link>https://waylonwalker.com//thoughts-103</link>
+      <description>Here Three ways to support updating other content.  Fantastic article walking through the different ways to update other parts of the screen using htmx. In htmx</description>
+      <guid>https://waylonwalker.com//thoughts-103</guid>
+      <pubDate>2023-08-26</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Bigger Applications - Multiple Files - Fastapi</title>
+      <link>https://waylonwalker.com//thoughts-102</link>
+      <description>Here Fastapi lets you tag your  Now all routes in  This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-102</guid>
+      <pubDate>2023-08-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Custom Pages And Templates - Datasette Documentation</title>
+      <link>https://waylonwalker.com//thoughts-100</link>
+      <description>Here Datasette has its own static server that can host assets such as style sheets. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-100</guid>
+      <pubDate>2023-08-23</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Sharkdp/Bat: A Cat(1) Clone With Wings.</title>
+      <link>https://waylonwalker.com//thoughts-95</link>
+      <description>Here Bat is my favorite pager, its the one for me that seems to just work more than the rest. colors, syntax highlighting, line numbers search, it just feels th</description>
+      <guid>https://waylonwalker.com//thoughts-95</guid>
+      <pubDate>2023-08-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Sqlite Fts5 Extension</title>
+      <link>https://waylonwalker.com//thoughts-96</link>
+      <description>Here sqlite has 3 different tokenizers,  These can be used with sqlite-utils. And with the python api. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-96</guid>
+      <pubDate>2023-08-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Curl Command Without Using Cache | Baeldung On Linux</title>
+      <link>https://waylonwalker.com//thoughts-97</link>
+      <description>Here Busting cache with curl.  I This article suggests 3 different techniques. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-97</guid>
+      <pubDate>2023-08-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Tailwind Css Cheat Sheet</title>
+      <link>https://waylonwalker.com//thoughts-98</link>
+      <description>Here A nice searchable cheatsheet for tailwindcss classes. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-98</guid>
+      <pubDate>2023-08-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Preline Ui - Tailwind Css Component Library | Preline Ui, Crafted With Tailwind Css</title>
+      <link>https://waylonwalker.com//thoughts-99</link>
+      <description>Here Tailwind css component library.  There are many examples with copy and pastabily with the tailwind classes already setup. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-99</guid>
+      <pubDate>2023-08-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Sqlite_Utils Python Library - Sqlite-Utils</title>
+      <link>https://waylonwalker.com//thoughts-94</link>
+      <description>Here sqlite-utils is primarily a cli tool for sqlite operations such as enabling full text search, and executing searches, but it also has a nice python api tha</description>
+      <guid>https://waylonwalker.com//thoughts-94</guid>
+      <pubDate>2023-08-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>How To Format All Files In A Directory With Prettier | By Dr. Derek Austin 🥳 | Level Up Coding</title>
+      <link>https://waylonwalker.com//thoughts-93</link>
+      <description>Here Use prettier to format all files in a directory.  By default prettier does not write, it just echos out the format that it would do.  Give it the  I just u</description>
+      <guid>https://waylonwalker.com//thoughts-93</guid>
+      <pubDate>2023-08-19</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Simonw/Shot-Scraper: A Command-Line Utility For Taking Automated Screenshots Of Websites</title>
+      <link>https://waylonwalker.com//thoughts-89</link>
+      <description>Here Daaaang, this is such an elegantly simple way to get web screenshots with a cli.  I was literally up and running with two commands on my arch linux machine</description>
+      <guid>https://waylonwalker.com//thoughts-89</guid>
+      <pubDate>2023-08-16</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Simonw/Datasette-Render-Markdown: Datasette Plugin For Rendering Markdown</title>
+      <link>https://waylonwalker.com//thoughts-90</link>
+      <description>Here datasette really does everything doesn This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-90</guid>
+      <pubDate>2023-08-16</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Shot-Scraper: Automated Screenshots For Documentation, Built On Playwright</title>
+      <link>https://waylonwalker.com//thoughts-88</link>
+      <description>Here An interesting way to build automatically annotaatd docs with arrows pointing to elements on a webpage. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-88</guid>
+      <pubDate>2023-08-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Html Over The Wire | Hotwire</title>
+      <link>https://waylonwalker.com//thoughts-80</link>
+      <description>Here An alternative approach to building modern web withhout heavy js and json, but instead html over the wire, keeping the logic in the backend of rails. This </description>
+      <guid>https://waylonwalker.com//thoughts-80</guid>
+      <pubDate>2023-08-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>(128) #Learning #Webdevelopment - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-81</link>
+      <description>Here I This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-81</guid>
+      <pubDate>2023-08-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>How Do I Post Form Data Using Curl?</title>
+      <link>https://waylonwalker.com//thoughts-79</link>
+      <description>Here How to pass form data with curl, give it the d. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-79</guid>
+      <pubDate>2023-08-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Create Models With A Many-To-Many Link - Sqlmodel</title>
+      <link>https://waylonwalker.com//thoughts-76</link>
+      <description>Here Creating many to many relationships with sqlmodel requires a LinkTable Model.  The link model will keep track of the linked id &amp;lt;img src=&amp;quot;https://sq</description>
+      <guid>https://waylonwalker.com//thoughts-76</guid>
+      <pubDate>2023-08-09</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>How To Use Html To Open A Link In A New Tab</title>
+      <link>https://waylonwalker.com//thoughts-77</link>
+      <description>Here Most of the time when creating links in html you want to maintain the default behavior, as this is what users are going to expect, but sometimes your site </description>
+      <guid>https://waylonwalker.com//thoughts-77</guid>
+      <pubDate>2023-08-09</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Lifecycle Hooks | Vue.Js</title>
+      <link>https://waylonwalker.com//thoughts-78</link>
+      <description>Here A super handy reference to the vuejs lifecycle. &amp;lt;img src=&amp;quot;https://vuejs.org/assets/lifecycle.16e4c08e.png&amp;quot; alt=&amp;quot;vuejs lifecycle&amp;quot; sty</description>
+      <guid>https://waylonwalker.com//thoughts-78</guid>
+      <pubDate>2023-08-09</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Chebykinn/Sedmario: Nes Super Mario Bros Level 1 Written In Pure Sed!</title>
+      <link>https://waylonwalker.com//thoughts-74</link>
+      <description>Here 🤯 NES Super Mario Bros level 1 written in pure sed, this is madmess. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-74</guid>
+      <pubDate>2023-08-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Python - How To Use A Pydantic Model With Form Data In Fastapi? - Stack Overflow</title>
+      <link>https://waylonwalker.com//thoughts-75</link>
+      <description>Here I went down the route of leveraging the  Taking a second look into this issue, rather than using  copied from https://stackoverflow.com/questions/60127234/</description>
+      <guid>https://waylonwalker.com//thoughts-75</guid>
+      <pubDate>2023-08-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Formatting On Save · Jose-Elias-Alvarez/Null-Ls.Nvim Wiki</title>
+      <link>https://waylonwalker.com//thoughts-73</link>
+      <description>Here neovim stopped formatting on save for me awhile ago and I have just been dealing with it.  looks like there may have been an api change, idk. I had to make</description>
+      <guid>https://waylonwalker.com//thoughts-73</guid>
+      <pubDate>2023-08-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Use Alembic Check To Check For Possible Upgrades</title>
+      <link>https://waylonwalker.com//thoughts-70</link>
+      <description>Here Since using alembic I have been just running out a new revision checking its content and deleting it if its empty, today I learned there is an  This post w</description>
+      <guid>https://waylonwalker.com//thoughts-70</guid>
+      <pubDate>2023-08-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>`Valueerror: Constraint Must Have A Name` In Alembic 1.10.0 · Issue #1195 · Sqlalchemy/Alembic</title>
+      <link>https://waylonwalker.com//thoughts-71</link>
+      <description>Here After a nasty time with alembic upgrades, thoughts is about to get a new users table.  This may have came from incorrectly setting up alembic for sqlite fr</description>
+      <guid>https://waylonwalker.com//thoughts-71</guid>
+      <pubDate>2023-08-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Debugging | Pywebview</title>
+      <link>https://waylonwalker.com//thoughts-72</link>
+      <description>Here How to enable debug mode in pywebview. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-72</guid>
+      <pubDate>2023-08-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>(124) Tailwind Css Crash Course - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-67</link>
+      <description>Here Nice intro into tailwind, I definitely started grasping some of the concepts after watching Brad. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-67</guid>
+      <pubDate>2023-08-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Api — Jinja Documentation (3.0.X)</title>
+      <link>https://waylonwalker.com//thoughts-68</link>
+      <description>Here I The path can be relative or absolute. Relative paths are relative to the current working directory. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-68</guid>
+      <pubDate>2023-08-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Api — Jinja Documentation (3.0.X)</title>
+      <link>https://waylonwalker.com//thoughts-69</link>
+      <description>Here 🤯 jinja comes with a loader to  This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-69</guid>
+      <pubDate>2023-08-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Github - Wagoodman/Dive: A Tool For Exploring Each Layer In A Docker Image</title>
+      <link>https://waylonwalker.com//thoughts-66</link>
+      <description>Here Really cool tui to inspect docker imaages that runs with docker. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-66</guid>
+      <pubDate>2023-08-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Read A Range Of Data - Limit And Offset - Sqlmodel</title>
+      <link>https://waylonwalker.com//thoughts-64</link>
+      <description>Here Implement paging in sqlmodel with where, limit, and offset. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-64</guid>
+      <pubDate>2023-08-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Gzip Compression Test | Giftofspeed</title>
+      <link>https://waylonwalker.com//thoughts-65</link>
+      <description>Here A nice tool to check compression on a public url. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-65</guid>
+      <pubDate>2023-08-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Duckdb Vs. Motherduck — Should You Switch To The Cloud Version? | Kestra</title>
+      <link>https://waylonwalker.com//thoughts-63</link>
+      <description>Here duckdb is a new in process database that has been making its rounds in analytics for its high performance in those applications. Mother duck is  a centeral</description>
+      <guid>https://waylonwalker.com//thoughts-63</guid>
+      <pubDate>2023-07-31</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>S3-Tree · Pypi</title>
+      <link>https://waylonwalker.com//thoughts-61</link>
+      <description>Here Super useful way to show a tree view of  an s3 bucket This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-61</guid>
+      <pubDate>2023-07-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Center Things - Textual</title>
+      <link>https://waylonwalker.com//thoughts-62</link>
+      <description>Here How to center things in textual. Textual has a very unique way of styling text user interfaces for the terminal using css.  If you know css it feels natura</description>
+      <guid>https://waylonwalker.com//thoughts-62</guid>
+      <pubDate>2023-07-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Wesley Aptekar-Cassels | Reasons To Avoid Javascript Cdns</title>
+      <link>https://waylonwalker.com//thoughts-53</link>
+      <description>Here And this is why we don This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-53</guid>
+      <pubDate>2023-07-29</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Using Rich Inspect To Interrogate Python Objects - Textual</title>
+      <link>https://waylonwalker.com//thoughts-54</link>
+      <description>Here I love rich inspect.  It I have a pyflyby entry for it so that I can just run it ang get automatic imports.  To not clash with the standard library inspect</description>
+      <guid>https://waylonwalker.com//thoughts-54</guid>
+      <pubDate>2023-07-29</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Testdisk Step By Step - Cgsecurity</title>
+      <link>https://waylonwalker.com//thoughts-55</link>
+      <description>Here testdisk This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-55</guid>
+      <pubDate>2023-07-29</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Podman - Archwiki</title>
+      <link>https://waylonwalker.com//thoughts-56</link>
+      <description>Here I kept running into limits in the number of subuid and subgid What I needed to do to fix the error. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-56</guid>
+      <pubDate>2023-07-29</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Containers/Aardvark-Dns: Authoritative Dns Server For A/Aaaa Container Records. Forwards Other Request To Host&#39;S /Etc/Resolv.Conf</title>
+      <link>https://waylonwalker.com//thoughts-57</link>
+      <description>Here I ran into some dns issues while running podman on arch, aparantly I had missed an optional dependency of aardvark-dns for container to container dns resol</description>
+      <guid>https://waylonwalker.com//thoughts-57</guid>
+      <pubDate>2023-07-29</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Relocating The Docker Root Directory - Ibm Documentation</title>
+      <link>https://waylonwalker.com//thoughts-58</link>
+      <description>Here A very straightforward guide to moving your docker data, such as container storage to a different location.  In my case I wanted it off of my boot drive. T</description>
+      <guid>https://waylonwalker.com//thoughts-58</guid>
+      <pubDate>2023-07-29</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Kndndrj/Nvim-Dbee: Interactive Database Client For Neovim</title>
+      <link>https://waylonwalker.com//thoughts-59</link>
+      <description>Here A neovim database client that I need to check out. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-59</guid>
+      <pubDate>2023-07-29</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Python - Sqlalchemy Order By Descending? - Stack Overflow</title>
+      <link>https://waylonwalker.com//thoughts-60</link>
+      <description>Here How to sort results from a sqlalchemy based orm. I needed this to enable paging on my thoughts api. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-60</guid>
+      <pubDate>2023-07-29</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Lazyvim Installation</title>
+      <link>https://waylonwalker.com//thoughts-2</link>
+      <description>Here Lately in 2023 I have been leaning on lazyvim for my new setups where I am not necessarily ready to drop my full config.  It This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-2</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Python Script Is Not Found</title>
+      <link>https://waylonwalker.com//thoughts-3</link>
+      <description>Here When setting up a new machine, vm, docker image you might be installing command line tools from places like pip.  They will often put executables in your  </description>
+      <guid>https://waylonwalker.com//thoughts-3</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>How To Pull From Images From Docker.Io With Podman</title>
+      <link>https://waylonwalker.com//thoughts-4</link>
+      <description>Here By default podman will not pull images from docker.io and will need setup.  This guide worked for me. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-4</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Dear Red Hat... Featuring Jeff Geerling (Changelog &amp; Friends #7) |&gt; Changelog</title>
+      <link>https://waylonwalker.com//thoughts-5</link>
+      <description>Here Loved this explanation about all the recent lock down with RHEL from Jeff Geerling. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-5</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Deleting Specific Lines In A File With Sed Or Yq</title>
+      <link>https://waylonwalker.com//thoughts-6</link>
+      <description>Here sed can be a tricky beast, I often stumble when trying to pipe into it.  Next time I need to use sed, I should reference this article by Nick Janetakis.  H</description>
+      <guid>https://waylonwalker.com//thoughts-6</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Flask Trailing Slashes 404</title>
+      <link>https://waylonwalker.com//thoughts-7</link>
+      <description>Here In flask apps I often get a 404 for routes with a trailing slash.  This Stack Overflow post shows how to configure flask to allow trailing slashes on some </description>
+      <guid>https://waylonwalker.com//thoughts-7</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>How To Fix Zfs Pool Not Importing At Boot :: ./Techtipsy — Herman&#39;S Blog</title>
+      <link>https://waylonwalker.com//thoughts-8</link>
+      <description>Here Hacky solution to get  This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-8</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>How To Manage &#39;Systemd&#39; Services And Units Using &#39;Systemctl&#39; In Linux</title>
+      <link>https://waylonwalker.com//thoughts-9</link>
+      <description>Here A fantastic overview of the systemd cli. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-9</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Jq Cheat Sheet</title>
+      <link>https://waylonwalker.com//thoughts-10</link>
+      <description>Here A nice cheat sheet for jq. jq looks so nice, but it so quickly gets overwhelming on how to select what you want.  I was able to make a jq contains query. T</description>
+      <guid>https://waylonwalker.com//thoughts-10</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Sqlite-Utils Command-Line Tool - Sqlite-Utils</title>
+      <link>https://waylonwalker.com//thoughts-11</link>
+      <description>Here insert a json array directly into into sqlite with sqlite-utils. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-11</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Sqlite-Utils Command-Line Tool - Sqlite-Utils</title>
+      <link>https://waylonwalker.com//thoughts-12</link>
+      <description>Here I want to like jq, but I think Simon is selling me on sqlite, maybe its just me but this looks readable, hackable, editable, memorizable.  Everytime I try </description>
+      <guid>https://waylonwalker.com//thoughts-12</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Full-Text Search - Datasette Documentation</title>
+      <link>https://waylonwalker.com//thoughts-13</link>
+      <description>Here Enable full-text search in sqlite using sqlite-utils. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-13</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Chris Coyier On Twitter: &#34;I Was Unaware Of `Text-Wrap: Pretty;` I Knew About The (New/Cool) `Text-Wrap: Balance;` — But Sometimes That&#39;S A Bit... Too Much. I Feel Like It&#39;S Nice On Headers But Not Smaller Type. Here&#39;S What I Mean.&#34; / Twitter</title>
+      <link>https://waylonwalker.com//thoughts-14</link>
+      <description>Here Next time I This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-14</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Changelog On Twitter: &#34;🗣️ @Kelseyhightower On His Demos: That Happy Path Gets People Out Of Their Chairs. They’Re Going Back To The Computer, Like: “Yo, I’M Gonna Try It Right Now.” Come On… I’D Rather Have That. And I’Ll Take The Bit Of Criticism That Comes With It. Https://T.Co/M9R2Kzjnqo&#34; / Twitter</title>
+      <link>https://waylonwalker.com//thoughts-15</link>
+      <description>Here Such an inspiring clip from Kelsey Heightower.  Make good shit that inspires people rather than fake ppts of how things  This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-15</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>(106) Python Sucks And I Love It | Prime Reacts - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-16</link>
+      <description>Here Prime reviews an article with some hot takes about python being slow and quirky, but good enough for a lot of things.  Especially data applications that ha</description>
+      <guid>https://waylonwalker.com//thoughts-16</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Encodeuricomponent() - Javascript | Mdn</title>
+      <link>https://waylonwalker.com//thoughts-25</link>
+      <description>Here In order to send data that includes special characters such as  I curl example generated from the fastapi swagger docs. Here is how I used javascript This </description>
+      <guid>https://waylonwalker.com//thoughts-25</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Url Decoding Query Strings Or Form Parameters In Python | Urldecoder</title>
+      <link>https://waylonwalker.com//thoughts-26</link>
+      <description>Here In order to turn url encoded links back into links that I would find in the database of my thoughts project I need to urldecode them when they hit the api.</description>
+      <guid>https://waylonwalker.com//thoughts-26</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Filter Data - Where - Sqlmodel</title>
+      <link>https://waylonwalker.com//thoughts-27</link>
+      <description>Here When fetching pydantic models from the database with sqlmodel, and you cannot select your item by id, you probably need to use a where clause.  This is the</description>
+      <guid>https://waylonwalker.com//thoughts-27</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>(1) Doyensec On Twitter: &#34;Announcing Wsrepl, The Websocket Testing Tool From Doyensec! This Intuitive Tool Is Super Easy To Use And Makes Automation Around Websockets Simple! Check Out Our Blog For The Details And Download It Today! Https://T.Co/Km5M7K6Pb0 #Doyensec #Appsec #Websockets #Burpsuite Https://T.Co/Uvlymusk95&#34; / Twitter</title>
+      <link>https://waylonwalker.com//thoughts-28</link>
+      <description>Here wsrepl is an epic websocket repl built in python on the textual framework. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-28</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Doyensec/Wsrepl: Websocket Repl For Pentesters</title>
+      <link>https://waylonwalker.com//thoughts-29</link>
+      <description>Here Very inspiring textual project to check out how they set up the ui.  Their intro video has a pretty epic dev experience. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-29</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>String</title>
+      <link>https://waylonwalker.com//thoughts-30</link>
+      <description>Here string This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-30</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Dark Form</title>
+      <link>https://waylonwalker.com//thoughts-31</link>
+      <description>Here A nice codepen reference for dark forms.   I am using it for my thoughts chrome extension. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-31</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Pytest-Subtests · Pypi</title>
+      <link>https://waylonwalker.com//thoughts-32</link>
+      <description>Here pytest-subtests is a package to register multiple subtests within a similar test function. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-32</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Sql On Pandas - Duckdb</title>
+      <link>https://waylonwalker.com//thoughts-33</link>
+      <description>Here duckdb can just query any pandas dataframe that is in memory. I tried running it against a list of objects and got this error.  Great error message that gi</description>
+      <guid>https://waylonwalker.com//thoughts-33</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Python Api - Duckdb</title>
+      <link>https://waylonwalker.com//thoughts-34</link>
+      <description>Here To persist data in duckdb you need to first make a connection to a duck db database. Then work off of the connection  This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-34</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Harlequin Sql Ide - Duckdb</title>
+      <link>https://waylonwalker.com//thoughts-35</link>
+      <description>Here Harlequin is a pretty sweet example of what textual can be used to create.   Its a terminal based sql ide for DuckDB. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-35</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>First-Class Session Support In Fastapi · Issue #754 · Tiangolo/Fastapi</title>
+      <link>https://waylonwalker.com//thoughts-36</link>
+      <description>Here Here is a snippet provided by @tiangolo to store the users jwt inside of a session cookie in fatapi.  This was written in feb 12, 2020 and admits that this</description>
+      <guid>https://waylonwalker.com//thoughts-36</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>(109) Htmx Looks Pretty Neat #Coding #Javascript - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-37</link>
+      <description>Here Love the poling example with hx-trigger= This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-37</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Static Files - Fastapi</title>
+      <link>https://waylonwalker.com//thoughts-38</link>
+      <description>Here Mounting static files in fastapi. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-38</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>&lt;/&gt; Htmx ~ The Client-Side-Templates Extension</title>
+      <link>https://waylonwalker.com//thoughts-39</link>
+      <description>Here Using templates with htmx requires the client-side-templates extension, and the template engine to be loaded in a  example htmx using templates. This post </description>
+      <guid>https://waylonwalker.com//thoughts-39</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Python 3.X - Fastapi Redirection For Trailing Slash Returns Non-Ssl Link - Stack Overflow</title>
+      <link>https://waylonwalker.com//thoughts-40</link>
+      <description>Here I am trying to use htmx on a new fastapi site for my thoughts, and have been hitting this error. I have an htmx component that gets the current users name,</description>
+      <guid>https://waylonwalker.com//thoughts-40</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>&lt;/&gt; Htmx ~ Documentation</title>
+      <link>https://waylonwalker.com//thoughts-42</link>
+      <description>Here A complete reference of all of the htmx swapping methods. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-42</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Templates - Fastapi</title>
+      <link>https://waylonwalker.com//thoughts-43</link>
+      <description>Here A guide to add Jinja2Templates to fastapi. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-43</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Template Designer Documentation — Jinja Documentation (3.1.X)</title>
+      <link>https://waylonwalker.com//thoughts-44</link>
+      <description>Here A feature of jinja that I just discovered is including sub templates. Here is an example from the docs. And inside of my thoughts project I used it to rend</description>
+      <guid>https://waylonwalker.com//thoughts-44</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Column Insert/Update Defaults — Sqlalchemy 1.4 Documentation</title>
+      <link>https://waylonwalker.com//thoughts-45</link>
+      <description>Here sqlalchemy server This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-45</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Pywebview</title>
+      <link>https://waylonwalker.com//thoughts-46</link>
+      <description>Here I am creating this post from a desktop app that I  This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-46</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Form Data - Fastapi</title>
+      <link>https://waylonwalker.com//thoughts-47</link>
+      <description>Here Getting form data inside of fastapi was not intuitive to me at first. Everything I had used in fastapi leaned on pydantic models.  Form data comes in diffe</description>
+      <guid>https://waylonwalker.com//thoughts-47</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>(113) Session Vs Token Authentication In 100 Seconds - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-48</link>
+      <description>Here Great short explaination of session vs token authentication. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-48</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Sqlite-Utils Now Supports Plugins</title>
+      <link>https://waylonwalker.com//thoughts-49</link>
+      <description>Here As the title states sqlite-utils now supports plugins.  I dug in just a bit and Simon implemented this completely with entrypoints, no framework or library</description>
+      <guid>https://waylonwalker.com//thoughts-49</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>1J01/Textual-Paint: :Art: Ms Paint... In Your Terminal.</title>
+      <link>https://waylonwalker.com//thoughts-50</link>
+      <description>Here This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-50</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Header Parameters - Fastapi</title>
+      <link>https://waylonwalker.com//thoughts-51</link>
+      <description>Here Getting request headers in fastapi has a pretty nice stetup, it allows you to get headers values as function arguments, I was able to use headers to detect</description>
+      <guid>https://waylonwalker.com//thoughts-51</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>&lt;/&gt; Htmx ~ The Json-Enc Extension</title>
+      <link>https://waylonwalker.com//thoughts-52</link>
+      <description>Here json-enc extension converts url encoded form values into json encoded data, this is very useful for fastapi to have the same interface for htmx and curl ty</description>
+      <guid>https://waylonwalker.com//thoughts-52</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+<lastBuildDate></lastBuildDate>
+</channel>
+</rss>

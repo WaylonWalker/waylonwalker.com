@@ -1,0 +1,2169 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0">
+<channel>
+    <title>python</title>
+    <link>https://waylonwalker.com/</link>
+    <description>I write about how I use python and linux in data science.</description>
+    <generator>Markata</generator>
+    <image>
+        <url>static/8bitcc.png</url>
+        <link>https://waylonwalker.com/</link>
+    </image>
+    <language>en</language>
+
+  <item>
+      <title>One Day Build - Play Outside</title>
+      <link>https://waylonwalker.com//odb-play-outside</link>
+      <description>Inspired by Adam Savage and his One Day builds on youtube.  I often build This post will not directly show how to make a weather app, but document the It often </description>
+      <guid>https://waylonwalker.com//odb-play-outside</guid>
+      <pubDate>2024-01-16</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>We Finally Agree On Unit Tests - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-192</link>
+      <description>Here Theo This video made me think so much that it turned into it This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-192</guid>
+      <pubDate>2023-12-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Thoughts On Unit Tests</title>
+      <link>https://waylonwalker.com//thoughts-on-unit-tests</link>
+      <description>Theo So much of software engineering is assembling existing well tested code. Crud This kind of reminds me of Manufacturing.  Individual components are QA teste</description>
+      <guid>https://waylonwalker.com//thoughts-on-unit-tests</guid>
+      <pubDate>2023-12-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Mastodon.Py — Mastodon.Py 1.8.1 Documentation</title>
+      <link>https://waylonwalker.com//thoughts-191</link>
+      <description>Here Mastadon.py is a python api client for mastadon that makes it easy to cross post to mastadon. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-191</guid>
+      <pubDate>2023-12-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Datadog/Ddqa: Datadog&#39;S Qa Manager For Releases Of Github Repositories</title>
+      <link>https://waylonwalker.com//thoughts-181</link>
+      <description>Here DataDog ddqa is building out a textual app and deploying it with pyapp.  They have CI setup to fully build and cross compile their textual tui into github </description>
+      <guid>https://waylonwalker.com//thoughts-181</guid>
+      <pubDate>2023-12-13</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Stripe Cancellations In Fastapi And Sqlmodel</title>
+      <link>https://waylonwalker.com//stripe-cancellations</link>
+      <description>Today I am working on fokais.com, trying to get to a point where I can launch I am building the fokais backent in python primarilyt with fastapi and sqlmodel He</description>
+      <guid>https://waylonwalker.com//stripe-cancellations</guid>
+      <pubDate>2023-12-09</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Looking For A Heroku Replacement, What I Found Was Shocking!</title>
+      <link>https://waylonwalker.com//looking-for-a-heroku-replacement</link>
+      <description>I Now the part that I have struggled with is how to cheaply host a server I never really deployed anything that useful on heroku, but it seems like the fly is a</description>
+      <guid>https://waylonwalker.com//looking-for-a-heroku-replacement</guid>
+      <pubDate>2023-12-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Hosted Platform Brainstorm</title>
+      <link>https://waylonwalker.com//fokais</link>
+      <description>&amp;lt;img
+src=&amp;quot;http://localhost:8000/shot/?url=https://asdf.com&amp;amp;height=450&amp;amp;width=800&amp;amp;scaled_width=800&amp;amp;scaled_height=450&amp;amp;selectors=&amp;quot; </description>
+      <guid>https://waylonwalker.com//fokais</guid>
+      <pubDate>2023-11-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>How To Host Static Content With Fastapi</title>
+      <link>https://waylonwalker.com//fastapi-static-content</link>
+      <description>I wanted to host some static files through fastapi. Typical use cases for this The docs cover how to host static files, and give this solution that is built If </description>
+      <guid>https://waylonwalker.com//fastapi-static-content</guid>
+      <pubDate>2023-10-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Setup Tailwind For Jinja</title>
+      <link>https://waylonwalker.com//tailwind-and-jinja</link>
+      <description>I https://waylonwalker.com/a-case-for-tailwindcss npm You will need to create a tailwind.config.js file, to get this you can use the cli. To set up tailwind to </description>
+      <guid>https://waylonwalker.com//tailwind-and-jinja</guid>
+      <pubDate>2023-09-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Read A Range Of Data - Limit And Offset - Sqlmodel</title>
+      <link>https://waylonwalker.com//thoughts-64</link>
+      <description>Here Implement paging in sqlmodel with where, limit, and offset. This post was a thought by </description>
+      <guid>https://waylonwalker.com//thoughts-64</guid>
+      <pubDate>2023-08-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Python Script Is Not Found</title>
+      <link>https://waylonwalker.com//thoughts-3</link>
+      <description>Here When setting up a new machine, vm, docker image you might be installing command line tools from places like pip.  They will often put executables in your  </description>
+      <guid>https://waylonwalker.com//thoughts-3</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>(106) Python Sucks And I Love It | Prime Reacts - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-16</link>
+      <description>Here Prime reviews an article with some hot takes about python being slow and quirky, but good enough for a lot of things.  Especially data applications that ha</description>
+      <guid>https://waylonwalker.com//thoughts-16</guid>
+      <pubDate>2023-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Python Scandir Ignores Hidden Directories</title>
+      <link>https://waylonwalker.com//python-scandir-ignores-hidden-directories</link>
+      <description>The next version of markata will be around a full second faster at building I was looking through my profiler for some unexpected performance hits, and I starte</description>
+      <guid>https://waylonwalker.com//python-scandir-ignores-hidden-directories</guid>
+      <pubDate>2023-06-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Pycon 2023</title>
+      <link>https://waylonwalker.com//pycon-2023</link>
+      <description>I don In an alternate timeline the maintainer of newton could have chose to use</description>
+      <guid>https://waylonwalker.com//pycon-2023</guid>
+      <pubDate>2023-06-09</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Getting Started With Pydantic</title>
+      <link>https://waylonwalker.com//getting-started-with-pydantic</link>
+      <description>Pydantic is a Python library for serializing data into models that can be To install pydantic you will first need python and pip. Once you have pip Always insta</description>
+      <guid>https://waylonwalker.com//getting-started-with-pydantic</guid>
+      <pubDate>2023-05-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Marvin&#39;S Ai_Fn</title>
+      <link>https://waylonwalker.com//marvin-s-ai-fn</link>
+      <description></description>
+      <guid>https://waylonwalker.com//marvin-s-ai-fn</guid>
+      <pubDate>2023-05-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Playing Star Wars Text Adventure With A 10 Yr Old</title>
+      <link>https://waylonwalker.com//playing-sw-text-adventure-10-yr-old</link>
+      <description>The following is a playthrough of Star Wars Text Adventure with a 10 yr old.The</description>
+      <guid>https://waylonwalker.com//playing-sw-text-adventure-10-yr-old</guid>
+      <pubDate>2023-05-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Pydantic And Singledispatch</title>
+      <link>https://waylonwalker.com//pydantic-and-singledispatch</link>
+      <description>I was reading about Let Here is our model for our settings. We will create a CommonSettings model Now let Let results in Let results in So far one down side to </description>
+      <guid>https://waylonwalker.com//pydantic-and-singledispatch</guid>
+      <pubDate>2023-05-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Corteva Onboarding</title>
+      <link>https://waylonwalker.com//corteve-onboarding</link>
+      <description>https://passwordselfhelp.corteva.com/PMUser/ winget was installed wsl was super slow mattermost url: mattermost.research.auto.pioneer.com share: timeout=60</description>
+      <guid>https://waylonwalker.com//corteve-onboarding</guid>
+      <pubDate>2022-11-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Pipx Textual Devtools</title>
+      <link>https://waylonwalker.com//pipx-textual-devtools</link>
+      <description>I really like having global cli command installed with pipx.  Since textual You can pipx install textual. But if you try to run any textual cli commands you wil</description>
+      <guid>https://waylonwalker.com//pipx-textual-devtools</guid>
+      <pubDate>2022-10-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Textual App Devtools</title>
+      <link>https://waylonwalker.com//textual-app-devtools</link>
+      <description>I am working through the textual tutorial, and I want to put it in a proper cli I set up a new project running  If you are using  Now to get devtools through a </description>
+      <guid>https://waylonwalker.com//textual-app-devtools</guid>
+      <pubDate>2022-10-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Caching Python Virtual Environments In Github Actions</title>
+      <link>https://waylonwalker.com//github-actions-cache-venv</link>
+      <description></description>
+      <guid>https://waylonwalker.com//github-actions-cache-venv</guid>
+      <pubDate>2022-10-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Markata Github Pages</title>
+      <link>https://waylonwalker.com//markata-github-pages</link>
+      <description>11ty https://www.rockyourcode.com/how-to-deploy-eleventy-to-github-pages-with-github-actions/ hugo puts it in the base url https://gohugo.io/getting-started/con</description>
+      <guid>https://waylonwalker.com//markata-github-pages</guid>
+      <pubDate>2022-10-19</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Markata Supports Jinja Plugins 0.5.0.Dev2</title>
+      <link>https://waylonwalker.com//markata-supports-jinja-plugins-0-5-0-dev2</link>
+      <description>Markata now allows you to create jinja extensions that will be loaded right in The entry for 0.5.0.dev2 from markata Created entrypoint hook allowing for users </description>
+      <guid>https://waylonwalker.com//markata-supports-jinja-plugins-0-5-0-dev2</guid>
+      <pubDate>2022-10-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Getting Started With Django Rest Framework</title>
+      <link>https://waylonwalker.com//django-rest-framework-getting-started</link>
+      <description>In my adventure to learn django, I want to be able to setup REST api To get started lets open up a  Now we need to declare  Next I will create all the files tha</description>
+      <guid>https://waylonwalker.com//django-rest-framework-getting-started</guid>
+      <pubDate>2022-10-09</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Using Django Rest Framework Inside React</title>
+      <link>https://waylonwalker.com//django-rest-framework-react</link>
+      <description></description>
+      <guid>https://waylonwalker.com//django-rest-framework-react</guid>
+      <pubDate>2022-10-09</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Markata Now Uses Hatch</title>
+      <link>https://waylonwalker.com//markata-now-uses-hatch</link>
+      <description>Markata now uses hatch as its build backend, and version bumping tool. Markata 0.5.0 is now out, and it Over the last month I made a big push to get 0.5.0 out, </description>
+      <guid>https://waylonwalker.com//markata-now-uses-hatch</guid>
+      <pubDate>2022-10-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Cone</title>
+      <link>https://waylonwalker.com//cone</link>
+      <description>Qaun Tell me about what you are doing most recently Tell me about when you started python Be honest and open Look into Dynamo db BDD vs TDD how have you used ap</description>
+      <guid>https://waylonwalker.com//cone</guid>
+      <pubDate>2022-10-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Qb-Kedro</title>
+      <link>https://waylonwalker.com//qb-kedro</link>
+      <description>Role - Daily tasks Rate Health Ins Travel</description>
+      <guid>https://waylonwalker.com//qb-kedro</guid>
+      <pubDate>2022-09-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Django Create Superuser</title>
+      <link>https://waylonwalker.com//django-create-superuser</link>
+      <description>My next step into django made me realize that I do not have access to the admin panel, turns out that I need to create a cuper user first. Right away when tryin</description>
+      <guid>https://waylonwalker.com//django-create-superuser</guid>
+      <pubDate>2022-09-26</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Django Disallowed Host</title>
+      <link>https://waylonwalker.com//django-disallowed-host</link>
+      <description>I am continuing my journey into django, but today I am not at my workstation. I I found this in </description>
+      <guid>https://waylonwalker.com//django-disallowed-host</guid>
+      <pubDate>2022-09-26</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Django Polls App</title>
+      <link>https://waylonwalker.com//django-polls-app</link>
+      <description></description>
+      <guid>https://waylonwalker.com//django-polls-app</guid>
+      <pubDate>2022-09-26</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Trying Out Django</title>
+      <link>https://waylonwalker.com//trying-out-django</link>
+      <description>I have no experience in django, and in my exploration to become a better python If you found this at all helpful make sure you check out the  The first thing I </description>
+      <guid>https://waylonwalker.com//trying-out-django</guid>
+      <pubDate>2022-09-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>How To Escape Variables In Jinja Templates</title>
+      <link>https://waylonwalker.com//jinja2-escape</link>
+      <description>While updating my site to use Markata Jinja comes with a handy utility for escaping strings.  I definitly tried to The issue I ran into was when trying to setup</description>
+      <guid>https://waylonwalker.com//jinja2-escape</guid>
+      <pubDate>2022-09-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>I&#39;Ve Made My Ipython Config Too Complicated, Let&#39;S Fix It.</title>
+      <link>https://waylonwalker.com//use-ipython-extensions</link>
+      <description>When I am developing python code I often have a repl open alongside of it So in the past the way I have setup a few extensions for myself is to add I missed the</description>
+      <guid>https://waylonwalker.com//use-ipython-extensions</guid>
+      <pubDate>2022-09-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Markata Extend &lt;Head&gt; In Configuration</title>
+      <link>https://waylonwalker.com//markata-configure-head</link>
+      <description>A long needed feature of markata has been the ability to really configure out Now you can add some extra style to your site with the existing built-in Each text</description>
+      <guid>https://waylonwalker.com//markata-configure-head</guid>
+      <pubDate>2022-09-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Create A New Python Project With The Hatch Cli</title>
+      <link>https://waylonwalker.com//hatch-new-cli</link>
+      <description>I creating new versions created by myself with stable diffusion Note Running  After running and naming the project  You can also fill in the project name ahead </description>
+      <guid>https://waylonwalker.com//hatch-new-cli</guid>
+      <pubDate>2022-09-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Versioning Python Projects With Hatch</title>
+      <link>https://waylonwalker.com//hatch-version</link>
+      <description>Hatch has an amazing versioning cli for python packages that just works.  It creating new versions created by myself with stable diffusion For trying out the  T</description>
+      <guid>https://waylonwalker.com//hatch-version</guid>
+      <pubDate>2022-09-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>From Markdown To Blog With Markata | Lightning Talk | Python Web Conf 2022</title>
+      <link>https://waylonwalker.com//from-markdown-to-blog-with-markata</link>
+      <description>Markata is a great python framework that allows you to go from markdown to a Full transparancy... I built markata. The talk is live on YouTube.  Make sure you c</description>
+      <guid>https://waylonwalker.com//from-markdown-to-blog-with-markata</guid>
+      <pubDate>2022-08-31</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>I Spoke At Python Web Conf 2022</title>
+      <link>https://waylonwalker.com//i-spoke-at-python-web-conf-2022</link>
+      <description>I spoke at python webconf in March 2022 about how I deploy this blog on a Building this blog has brought me a lot of benefits.  I have I also bump into people f</description>
+      <guid>https://waylonwalker.com//i-spoke-at-python-web-conf-2022</guid>
+      <pubDate>2022-08-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Packages I Maintain</title>
+      <link>https://waylonwalker.com//packages-i-maintain</link>
+      <description>I open sourced the static site framework that I use to build {% gh {% gh I am a heavy user of the  {% gh I use vim for all of my text editing needs. It brings m</description>
+      <guid>https://waylonwalker.com//packages-i-maintain</guid>
+      <pubDate>2022-08-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>I Turned On 2Fa For All Of My Pypi Packages</title>
+      <link>https://waylonwalker.com//pypi-2fa</link>
+      <description>I got all the pypi packages that I own behind 2 factor authentication. 💪 Recently this really made it I feel like this caused a bit of confusion as turning on 2</description>
+      <guid>https://waylonwalker.com//pypi-2fa</guid>
+      <pubDate>2022-08-29</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>I Was On Talk Python</title>
+      <link>https://waylonwalker.com//talk-python-kedro</link>
+      <description>After years of listening to  I was quite nervous to talk on a show that I helped shape my career in such a During the episode I tried my best to let Yetu and Iv</description>
+      <guid>https://waylonwalker.com//talk-python-kedro</guid>
+      <pubDate>2022-08-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Use Vim To Remove Duplicates</title>
+      <link>https://waylonwalker.com//vim-sort-u</link>
+      <description>I just love how some features of vim are so discoverable and memorable once you I recently used this to dedupe my autogenerated links section for Here is what t</description>
+      <guid>https://waylonwalker.com//vim-sort-u</guid>
+      <pubDate>2022-08-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Highlighting Text Ranges With Rich | Python</title>
+      <link>https://waylonwalker.com//year</link>
+      <description></description>
+      <guid>https://waylonwalker.com//year</guid>
+      <pubDate>2022-08-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Highlighting Text Ranges With Rich | Python</title>
+      <link>https://waylonwalker.com//rich-syntax-range-style</link>
+      <description>Today I https://twitter.com/ While waiting for that reply let Lets import all the classes that we need from  Now we need some code to highlight. I am going to r</description>
+      <guid>https://waylonwalker.com//rich-syntax-range-style</guid>
+      <pubDate>2022-08-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Markata 0.3.0 Is 15-20% Faster</title>
+      <link>https://waylonwalker.com//markata-0-3-0</link>
+      <description>a sprinter edging out his opponent by Dall-e It Markata started off partly as a python developer frustrated with using nodejs Over time this side project has gr</description>
+      <guid>https://waylonwalker.com//markata-0-3-0</guid>
+      <pubDate>2022-08-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>How To Disable Kedro Viz | Or Any Kedro Hook</title>
+      <link>https://waylonwalker.com//kedro-disable-hook</link>
+      <description></description>
+      <guid>https://waylonwalker.com//kedro-disable-hook</guid>
+      <pubDate>2022-08-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Gpu Stats In My Linux Statusbar</title>
+      <link>https://waylonwalker.com//polybar-gpu-stats</link>
+      <description></description>
+      <guid>https://waylonwalker.com//polybar-gpu-stats</guid>
+      <pubDate>2022-08-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Get The Version Of Any Python Package | Python Api</title>
+      <link>https://waylonwalker.com//get-python-package-versions</link>
+      <description>A common meta thing that I need in python is to find the version of a package. In searching the internet for an answer nearly every one of them pointed me to Wh</description>
+      <guid>https://waylonwalker.com//get-python-package-versions</guid>
+      <pubDate>2022-07-29</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Running My Blog On 3.11-Dev</title>
+      <link>https://waylonwalker.com//building-with-3-11-dev</link>
+      <description>3.10.5: 109.441</description>
+      <guid>https://waylonwalker.com//building-with-3-11-dev</guid>
+      <pubDate>2022-07-29</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Manage Your Displays With Xrandr Manager</title>
+      <link>https://waylonwalker.com//xrandr-manager</link>
+      <description>xrandr is a great cli to manage your windows in a linux distro using x11, which Check out the xrander-manager is a python cli application that is simply a nice </description>
+      <guid>https://waylonwalker.com//xrandr-manager</guid>
+      <pubDate>2022-07-16</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Ipython Q To Exit</title>
+      <link>https://waylonwalker.com//ipython-q-exit</link>
+      <description>So many terminal applications bind  After digging way too deep into how IPython implements its  It was that simple. This is not a game changer by any means, but</description>
+      <guid>https://waylonwalker.com//ipython-q-exit</guid>
+      <pubDate>2022-06-13</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Copier Slugify | Python Templating | Using Cookiecutter</title>
+      <link>https://waylonwalker.com//copier-slugify</link>
+      <description>It Yes the solution comes from a competing templating framework. I install copier with pipx, so I need to inject cookiecutter in to my copier If you are using a</description>
+      <guid>https://waylonwalker.com//copier-slugify</guid>
+      <pubDate>2022-06-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Textual Has Devtools</title>
+      <link>https://waylonwalker.com//textual-has-devtools</link>
+      <description>Textual has devtools in the upcoming css branch, and its pretty awesome Textual is still very early and not really ready for prime time, but it As  Textual is a</description>
+      <guid>https://waylonwalker.com//textual-has-devtools</guid>
+      <pubDate>2022-06-09</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>The One Pip Config You Need To Have</title>
+      <link>https://waylonwalker.com//pip-require-virtualenv</link>
+      <description>Whenever you are installing python packages, you should always use a virtual Pip is the pacakage tool for python.  It installs third-party packages and is pytho</description>
+      <guid>https://waylonwalker.com//pip-require-virtualenv</guid>
+      <pubDate>2022-06-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Pyenv No Module Named &#39;_Sqlite3&#39;</title>
+      <link>https://waylonwalker.com//pyenv-no-sqlite3</link>
+      <description>I I talked about why and how to use pyenv along with my first impressions in According to  libsqlite3-dev When I make a fresh env and install ipython I still ge</description>
+      <guid>https://waylonwalker.com//pyenv-no-sqlite3</guid>
+      <pubDate>2022-05-31</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Using Different Versions Of Python With Pipx | Pyenv</title>
+      <link>https://waylonwalker.com//pyenv-pipx</link>
+      <description>I love using pipx for automatic virtual environment management of my globally This one took me a minute to figure out at first, please let me know if there My f</description>
+      <guid>https://waylonwalker.com//pyenv-pipx</guid>
+      <pubDate>2022-05-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Live-Replay - Python Dev | Markata Todoui | 4/6/2022</title>
+      <link>https://waylonwalker.com//markata-todoui-live-replay-4-6-2022</link>
+      <description>https://youtu.be/-42A5210HYo Super fun steam Broadcasted live on Twitch -- Watch live at https://www.twitch.tv/waylonwalker We worked on markata todoui, a comma</description>
+      <guid>https://waylonwalker.com//markata-todoui-live-replay-4-6-2022</guid>
+      <pubDate>2022-05-12</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Qutebrowser Clean Up All Status Bars</title>
+      <link>https://waylonwalker.com//clean-qutebrowser</link>
+      <description>I really like the super clean look of no status menus, no url bar, no bookmarks</description>
+      <guid>https://waylonwalker.com//clean-qutebrowser</guid>
+      <pubDate>2022-05-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Convert Your Qutebrowser Config To Config.Py</title>
+      <link>https://waylonwalker.com//qutebroswer-write-config-py</link>
+      <description>When you first start qutebrowser It will create some config files in As far as I know qutebrowser will create this default config out of the You might want to c</description>
+      <guid>https://waylonwalker.com//qutebroswer-write-config-py</guid>
+      <pubDate>2022-05-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>List All Git Commits With Gitpython</title>
+      <link>https://waylonwalker.com//git-python-all-commits</link>
+      <description>I am getting ready to do some timeseries analysis on a git repo with python, my This returns a generator, if you are iterating over them this is likely what The</description>
+      <guid>https://waylonwalker.com//git-python-all-commits</guid>
+      <pubDate>2022-05-09</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Using Git From Python</title>
+      <link>https://waylonwalker.com//python-git</link>
+      <description>GitPython I recently made myself a handy tool for making screenshots in python and it https://waylonwalker.com/screenshot-to-blog/ GitPython Import Repo from th</description>
+      <guid>https://waylonwalker.com//python-git</guid>
+      <pubDate>2022-04-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Copier &lt; 6.0.0B0 Considered Dangerous</title>
+      <link>https://waylonwalker.com//update-copier</link>
+      <description>Copier is a fantastic templating library written in python, but older versions As of May 15, 2022, the stable release of copier now includes these changes, if I</description>
+      <guid>https://waylonwalker.com//update-copier</guid>
+      <pubDate>2022-04-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>How I Quickly Capture Screenshots Directly Into My Blog</title>
+      <link>https://waylonwalker.com//screenshot-to-blog</link>
+      <description>When I am creating blog posts it When I have something to take a screenshot of, I need to take the shot, take screenshot optimize conversion publish create img </description>
+      <guid>https://waylonwalker.com//screenshot-to-blog</guid>
+      <pubDate>2022-04-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Pipx On Windows</title>
+      <link>https://waylonwalker.com//pipx-on-windows</link>
+      <description>Python, click install Edit the System Environment Variables Environment Variables button Add the following path to your users Path Variable</description>
+      <guid>https://waylonwalker.com//pipx-on-windows</guid>
+      <pubDate>2022-04-18</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Pyohio Cfp&#39;S</title>
+      <link>https://waylonwalker.com//pyohio-cfp</link>
+      <description>https://pretalx.com/pyohio-2022/cfp Markata is a plugins all the way down static site generator, that covers all Lets build a whole blog site in 5 minutes. Some</description>
+      <guid>https://waylonwalker.com//pyohio-cfp</guid>
+      <pubDate>2022-04-12</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Python Sys.Excepthook</title>
+      <link>https://waylonwalker.com//python-sys-excepthook</link>
+      <description>Sometimes you just want python to do something else when you hit an exception, I am working on a quick and dirty python script designed to take screenshots I co</description>
+      <guid>https://waylonwalker.com//python-sys-excepthook</guid>
+      <pubDate>2022-04-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Pygame Events Are Queued | Don&#39;T Make This Mistake</title>
+      <link>https://waylonwalker.com//pygame-event-queue</link>
+      <description>pygame events are stored in a queue, by default the most suggested way You don Let printing the events reveal this Let printing the events reveals that there ar</description>
+      <guid>https://waylonwalker.com//pygame-event-queue</guid>
+      <pubDate>2022-04-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Display Sprites In Pygame | Load And Blit</title>
+      <link>https://waylonwalker.com//pygame-image-load</link>
+      <description>One of the most essential concepts of pygame to start making a game you will I started by making a spotlight in Gimp, by opening a 64x64 pixel image and This is</description>
+      <guid>https://waylonwalker.com//pygame-image-load</guid>
+      <pubDate>2022-04-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Dunk Is My New Diff Pager</title>
+      <link>https://waylonwalker.com//dunk-is-my-new-diff-pager</link>
+      <description>Browsing through twitter the other day I discovered it through this https://twitter.com/ Before I dive in deep, I do want to mention that Dunk is super new and </description>
+      <guid>https://waylonwalker.com//dunk-is-my-new-diff-pager</guid>
+      <pubDate>2022-04-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Pygame Boilerplate Apr 2022</title>
+      <link>https://waylonwalker.com//pygame-boilerplate-apr-2022</link>
+      <description>I I What currently have is a single module starter package that is on github Since it You can make a quick game by inheriting from Game, and calling Here is wha</description>
+      <guid>https://waylonwalker.com//pygame-boilerplate-apr-2022</guid>
+      <pubDate>2022-04-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Did My Site Build Just Go Down?</title>
+      <link>https://waylonwalker.com//site-down</link>
+      <description>My personal Site build went down last week, and I was unable to publish a new Classic IT fix, rerun it and see if you get the same error.  Everyone is busy Also</description>
+      <guid>https://waylonwalker.com//site-down</guid>
+      <pubDate>2022-04-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Don&#39;T Inherit From Python Baseexception, Here&#39;S Why.</title>
+      <link>https://waylonwalker.com//python-base-exception</link>
+      <description>I ran into a PR this week where the author was inheriting what BaseException Try running these examples in a  Since things such as  If you except from exception</description>
+      <guid>https://waylonwalker.com//python-base-exception</guid>
+      <pubDate>2022-03-31</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>How I Make Cache-Keys From Python Objects</title>
+      <link>https://waylonwalker.com//python-cache-key</link>
+      <description>When I need a consistent key for a pythohn object I often reach for Yesterday we talked about setting up a persistant cache with python diskcache. https://waylo</description>
+      <guid>https://waylonwalker.com//python-cache-key</guid>
+      <pubDate>2022-03-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>How I Setup A Sqlite Cache In Python</title>
+      <link>https://waylonwalker.com//python-diskcache</link>
+      <description>When I need to cache some data between runs or share a cache accross multiple Install diskcache into your virtual environement of choice using pip from your com</description>
+      <guid>https://waylonwalker.com//python-diskcache</guid>
+      <pubDate>2022-03-29</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Cache A Python Function With Lru_Cache</title>
+      <link>https://waylonwalker.com//python-lru-cache</link>
+      <description>The easiest way to speed up any code is to run less code.  A common technique The easiest and most common to setup in python is a builtin functools.lru Any time</description>
+      <guid>https://waylonwalker.com//python-lru-cache</guid>
+      <pubDate>2022-03-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Set User Agent On Pandas Read_Csv</title>
+      <link>https://waylonwalker.com//pandas-read-csv-user-agent</link>
+      <description>I keep a small  I recently switched hosting from netlify over to cloudflare.  Well cloudflare This breaks my go to example dataset. What After a bit of googling</description>
+      <guid>https://waylonwalker.com//pandas-read-csv-user-agent</guid>
+      <pubDate>2022-03-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Get Webpage With Python Requests</title>
+      <link>https://waylonwalker.com//python-requests-get</link>
+      <description>Python Requests is on pypi and can be installed into your virtual environtment with pip. Requests makes getting content from a web url as easy as possible. Requ</description>
+      <guid>https://waylonwalker.com//python-requests-get</guid>
+      <pubDate>2022-03-26</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Style Lookatme Slides A Bit More Personal</title>
+      <link>https://waylonwalker.com//lookatme-styles</link>
+      <description>I recently gave a talk at python web conf 2022, and one of the things I did Lets use this section to show what it  ☝ This is how my  write markdown build site p</description>
+      <guid>https://waylonwalker.com//lookatme-styles</guid>
+      <pubDate>2022-03-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>How I Load Markdown In Python</title>
+      <link>https://waylonwalker.com//python-frontmatter</link>
+      <description>I use a package It Frontmatter is a handy way to add metadata to your plain text files.  It Here is the exact frontmatter for this post you are reading on my si</description>
+      <guid>https://waylonwalker.com//python-frontmatter</guid>
+      <pubDate>2022-03-23</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Python&#39;S Dict Union Operator | Pep 584</title>
+      <link>https://waylonwalker.com//python-pep-584</link>
+      <description>Today I was watching the python web conf 2022 and saw I https://waylonwalker.com/python-args-kwargs/ More on unpacking in this post. With the release there is a</description>
+      <guid>https://waylonwalker.com//python-pep-584</guid>
+      <pubDate>2022-03-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>How I Present Markdown Slides From The Terminal</title>
+      <link>https://waylonwalker.com//lookatme-slides</link>
+      <description>I love the freedom of writing in markdown.  It allows me to write content from I will most often just present right from the terminal using I sometimes also use</description>
+      <guid>https://waylonwalker.com//lookatme-slides</guid>
+      <pubDate>2022-03-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>How I Read Files In Python</title>
+      <link>https://waylonwalker.com//pathlib-read-text</link>
+      <description>When I need to read contents from a plain text file in python I find the</description>
+      <guid>https://waylonwalker.com//pathlib-read-text</guid>
+      <pubDate>2022-03-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>How I Glob For Files In Python</title>
+      <link>https://waylonwalker.com//python-pathlib-glob</link>
+      <description>A very common task for any script is to look for files on the system.  My go to I setup a directory to make some examples about globbing.  Here is what the 1 di</description>
+      <guid>https://waylonwalker.com//python-pathlib-glob</guid>
+      <pubDate>2022-03-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Pytest-Mock Basics</title>
+      <link>https://waylonwalker.com//pytest-mock-basics</link>
+      <description>Last Thursday I learned about  Watching him use  pytest-mock is out on pypi and can be installed with pip. Sometimes I fall victim to making these posts nice an</description>
+      <guid>https://waylonwalker.com//pytest-mock-basics</guid>
+      <pubDate>2022-03-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Python Walrus Inside List Comprehension</title>
+      <link>https://waylonwalker.com//walrus-comprehension</link>
+      <description>Python 3.8 came out two and a half years ago and I have yet to really lean in Now that Python 3.6 is end of life, and most folks are using at least  The assignm</description>
+      <guid>https://waylonwalker.com//walrus-comprehension</guid>
+      <pubDate>2022-03-12</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Make Kedro Runs Beautiful</title>
+      <link>https://waylonwalker.com//kedro-rich</link>
+      <description>Kedro rich is a very new and unstable (it There is no pypi package yet, but it You can run your pipeline just as you normally would, except you get progress Lis</description>
+      <guid>https://waylonwalker.com//kedro-rich</guid>
+      <pubDate>2022-03-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Open Files With Nvim Remote</title>
+      <link>https://waylonwalker.com//nvr-open-files</link>
+      <description>I recently found a really great  I have this added to my  In my workflow I open a tmux session for each project, so this First open neovim, but with the  If you</description>
+      <guid>https://waylonwalker.com//nvr-open-files</guid>
+      <pubDate>2022-03-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Textual Popup Hack</title>
+      <link>https://waylonwalker.com//textual-popup-hack</link>
+      <description>As I am toying around with textual, I am wanting some popup user input The main issue is that when you are in a textual app, it kinda owns the textual is still </description>
+      <guid>https://waylonwalker.com//textual-popup-hack</guid>
+      <pubDate>2022-02-26</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Github Markdown Now Supports Mermaid Diagrams</title>
+      <link>https://waylonwalker.com//github-supports-mermaid</link>
+      <description>Mermaid diagrams provide a way to display graphs defined as plain text. You can define nodes like this in mermaid, and GitHub will now render</description>
+      <guid>https://waylonwalker.com//github-supports-mermaid</guid>
+      <pubDate>2022-02-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Glances Can Watch Docker Processes</title>
+      <link>https://waylonwalker.com//glances-docker</link>
+      <description>Glances is a system monitor with a ton of features, including docker processes. I have started using portainer to look at running docker processes, its a great </description>
+      <guid>https://waylonwalker.com//glances-docker</guid>
+      <pubDate>2022-02-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Glances Webui With Pipx</title>
+      <link>https://waylonwalker.com//pipx-w</link>
+      <description>Glances has a pretty incredible webui to view system processes and information The nice thing about the webui is that it can be accessed from a remote system. Y</description>
+      <guid>https://waylonwalker.com//pipx-w</guid>
+      <pubDate>2022-02-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Run Glances Without Install With Pipx</title>
+      <link>https://waylonwalker.com//pipx-run-glances</link>
+      <description>Glances is a fully featured system monitoring tool written in python.  Out of Once you run this you will be in a tui application similar to htop.  You can</description>
+      <guid>https://waylonwalker.com//pipx-run-glances</guid>
+      <pubDate>2022-02-18</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Nested Requirements.Txt In Python</title>
+      <link>https://waylonwalker.com//python-nested-requires</link>
+      <description>python requirements text files can in fact depend on each other due to Lets create two requirements files in a new directory to play with. Then add the followin</description>
+      <guid>https://waylonwalker.com//python-nested-requires</guid>
+      <pubDate>2022-02-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>View Aws Event Bridge Rules With Visidata</title>
+      <link>https://waylonwalker.com//aws-eventbridge-visidata</link>
+      <description>Reading eventbridge rules from the command line can be a total drag, pipe it I just love when I start thinking through how to parse a bunch of json at the</description>
+      <guid>https://waylonwalker.com//aws-eventbridge-visidata</guid>
+      <pubDate>2022-02-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Python String Of Letters Is A String Of Letters, But Not With Special</title>
+      <link>https://waylonwalker.com//python-string-is-string</link>
+      <description>In python, a string is a string until you add special characters. In browsing twitter this morning I came accross this tweet, that showed that https://twitter.c</description>
+      <guid>https://waylonwalker.com//python-string-is-string</guid>
+      <pubDate>2022-02-12</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Read Stderr From Python Subprocess.Popen</title>
+      <link>https://waylonwalker.com//popen-stderr</link>
+      <description>I often run shell commands from python with Popen, but not often enough To get the stderr we must get it from the proc, read it, and decode the Now that we can </description>
+      <guid>https://waylonwalker.com//popen-stderr</guid>
+      <pubDate>2022-02-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Using A Python Markdown Ast To Find All Paragraphs</title>
+      <link>https://waylonwalker.com//python-markdown-ast-paragraph</link>
+      <description>In looking for a way to automatically generate descriptions for pages I It When I originally wrote this post, I did not realize at the time that</description>
+      <guid>https://waylonwalker.com//python-markdown-ast-paragraph</guid>
+      <pubDate>2022-02-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Python Dict Get</title>
+      <link>https://waylonwalker.com//python-dict-get</link>
+      <description>For an embarassingly long time, til today, I have been wrapping my dict Lets consider this example for prices of supplies.  Here we set a variable of What I wou</description>
+      <guid>https://waylonwalker.com//python-dict-get</guid>
+      <pubDate>2022-02-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Find All Headings With Beautifulsoup</title>
+      <link>https://waylonwalker.com//bs4-findall-headings</link>
+      <description>BeautifulSoup is a DOM like library for python.  It Lets make a sample.html file with the following contents.  It mainly has Lets import our packages, read in o</description>
+      <guid>https://waylonwalker.com//bs4-findall-headings</guid>
+      <pubDate>2022-02-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Lambda Function As A Kedro Node</title>
+      <link>https://waylonwalker.com//kedro-lambda-node</link>
+      <description>I keep my nodes short and sweet.  They do one thing and do it well. I Here are two examples, the first one  Many times I just want to get the data in as fast as</description>
+      <guid>https://waylonwalker.com//kedro-lambda-node</guid>
+      <pubDate>2022-01-31</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Add New Dependencies To Your Kedro Project</title>
+      <link>https://waylonwalker.com//kedro-new-dependencies</link>
+      <description>As you work on your kedro projects you are bound to need to add more Before you start mucking around with any changes to dependencies make sure that New require</description>
+      <guid>https://waylonwalker.com//kedro-new-dependencies</guid>
+      <pubDate>2022-01-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Practice Making Pipelines With Kedro</title>
+      <link>https://waylonwalker.com//practice-kedro</link>
+      <description>I am a huge believer in practicing your craft.  Professional athletes https://waylonwalker.com/what-is-kedro/ Go to your playground directory, and if you don In</description>
+      <guid>https://waylonwalker.com//practice-kedro</guid>
+      <pubDate>2022-01-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Tmux Hotkey For Copier Templates</title>
+      <link>https://waylonwalker.com//tmux-copier-templates</link>
+      <description>I have added a hotkey to my copier template setup to quickly access all my I</description>
+      <guid>https://waylonwalker.com//tmux-copier-templates</guid>
+      <pubDate>2022-01-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Markata Filters As Telescope Pickers In Neovim</title>
+      <link>https://waylonwalker.com//markata-telescope-picker</link>
+      <description>I often pop into my blog from neovim with the intent to look at just a To tie these into a Telescope picker you add the command as the NOTE telescope treates ea</description>
+      <guid>https://waylonwalker.com//markata-telescope-picker</guid>
+      <pubDate>2022-01-23</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Copier Tasks | Python Templating Post Run Task</title>
+      <link>https://waylonwalker.com//copier-tasks</link>
+      <description>Copier allows you to run post render tasks, just like cookiecutter. These are The example I have below runs an  I have put the script in </description>
+      <guid>https://waylonwalker.com//copier-tasks</guid>
+      <pubDate>2022-01-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Gradual Typing In Python</title>
+      <link>https://waylonwalker.com//gradual-typing-python</link>
+      <description>I https://youtu.be/Rk-Y71P Run Mypy as is, don Next we will add  The final stage to this series is to add  Make sure that you watch Anthony https://www.youtube.</description>
+      <guid>https://waylonwalker.com//gradual-typing-python</guid>
+      <pubDate>2022-01-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Python Reverse Sluggify</title>
+      <link>https://waylonwalker.com//python-reverse-sluggify</link>
+      <description>In order to make an auto title plugin for markata I needed to come up ! Here I have  a  To turn this into a markata plugin I put it into a pre</description>
+      <guid>https://waylonwalker.com//python-reverse-sluggify</guid>
+      <pubDate>2022-01-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Get Python Docstring With Ast</title>
+      <link>https://waylonwalker.com//python-docstring-ast</link>
+      <description>Getting docstrings from python First you need to load in some python code as a string, and parse it with You can then use  To get all of the functions docstring</description>
+      <guid>https://waylonwalker.com//python-docstring-ast</guid>
+      <pubDate>2022-01-18</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Python Respect The .Gitignore</title>
+      <link>https://waylonwalker.com//gitignore-python</link>
+      <description>Many tools such as ripgrep respect the  Editors like vscode often do not include files that are .gitignored in pathspec pathspec</description>
+      <guid>https://waylonwalker.com//gitignore-python</guid>
+      <pubDate>2022-01-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Rename Python Variables With Nvim</title>
+      <link>https://waylonwalker.com//nvim-rename-python</link>
+      <description>I don I first tried the nvim lsp rename, and it failed, Then I pip installed Once you have rope installed you can call rename on the variable.</description>
+      <guid>https://waylonwalker.com//nvim-rename-python</guid>
+      <pubDate>2022-01-16</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Python Find Available Port</title>
+      <link>https://waylonwalker.com//python-find-available-port</link>
+      <description>When running a python process that requires a port it</description>
+      <guid>https://waylonwalker.com//python-find-available-port</guid>
+      <pubDate>2022-01-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Python Functools Total Ordering</title>
+      <link>https://waylonwalker.com//python-functools-total-ordering</link>
+      <description>functools.total From the Docs: The class must define one of  Here is an example using the Enum I was working on the other day.</description>
+      <guid>https://waylonwalker.com//python-functools-total-ordering</guid>
+      <pubDate>2022-01-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Implement --Pdb In A Python Cli</title>
+      <link>https://waylonwalker.com//python-auto-pdb</link>
+      <description>Adding a </description>
+      <guid>https://waylonwalker.com//python-auto-pdb</guid>
+      <pubDate>2022-01-13</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Python Enum</title>
+      <link>https://waylonwalker.com//python-enum</link>
+      <description>Python comes with an enum module for creating enums.  You can make your Enum values can be auto incremented by importing auto, and calling Enum</description>
+      <guid>https://waylonwalker.com//python-enum</guid>
+      <pubDate>2022-01-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Installing Pipx On Ubuntu</title>
+      <link>https://waylonwalker.com//installing-pipx-on-ubuntu</link>
+      <description>I recently paired up with another dev running windows with Ubuntu running in Open up a terminal and get your required system dependencies using the apt I like r</description>
+      <guid>https://waylonwalker.com//installing-pipx-on-ubuntu</guid>
+      <pubDate>2022-01-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Using Copier Answers To Rerun Templates Quickly</title>
+      <link>https://waylonwalker.com//copier-answers</link>
+      <description>The copier answers file is a key component to making your templates Inside of my  Inside my copier.yml I have setup my  Once I change the  I After rendering the</description>
+      <guid>https://waylonwalker.com//copier-answers</guid>
+      <pubDate>2022-01-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Making A Textual Widget From A Rich Renderable</title>
+      <link>https://waylonwalker.com//simple-textual-widget</link>
+      <description>Once you have made your sick looking cli apps with rich, eventually you are Install them from the command line. Import make a .py file and import them in it. If</description>
+      <guid>https://waylonwalker.com//simple-textual-widget</guid>
+      <pubDate>2022-01-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Pipx Examples</title>
+      <link>https://waylonwalker.com//pipx-examples</link>
+      <description></description>
+      <guid>https://waylonwalker.com//pipx-examples</guid>
+      <pubDate>2022-01-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Copier Templates</title>
+      <link>https://waylonwalker.com//copier-templates</link>
+      <description>%%include til/copier %%include til/copier-template-variables %%include til/copier-answers</description>
+      <guid>https://waylonwalker.com//copier-templates</guid>
+      <pubDate>2022-01-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Changing Copier Template Strings (_Endops)</title>
+      <link>https://waylonwalker.com//copier-endops</link>
+      <description>I was completely stuck for awhile.  copier was not replacing my template !</description>
+      <guid>https://waylonwalker.com//copier-endops</guid>
+      <pubDate>2022-01-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Copier Template Variables</title>
+      <link>https://waylonwalker.com//copier-template-variables</link>
+      <description>I By default copier uses double square brackets for its variables. note Before running copier we need to tell copier what variables to ask for, I prefer to inst</description>
+      <guid>https://waylonwalker.com//copier-template-variables</guid>
+      <pubDate>2022-01-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Running Kedro On Ubuntu 21.10 Impish Indri</title>
+      <link>https://waylonwalker.com//kedro-ubuntu-impish</link>
+      <description>I just installed a brand new Ubuntu 21.10 Impish Indri, and wanted a But what I got back was not what I expected This is weird, why cant I run kedro new with pi</description>
+      <guid>https://waylonwalker.com//kedro-ubuntu-impish</guid>
+      <pubDate>2022-01-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>A Minimal Pluggy Example</title>
+      <link>https://waylonwalker.com//pluggy-minimal-example</link>
+      <description>Pluggy makes it so easy to allow users to modify the behavior of a framework I As long as the framework document the hooks that are available and what it Instal</description>
+      <guid>https://waylonwalker.com//pluggy-minimal-example</guid>
+      <pubDate>2022-01-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>My First Impressions With Pyenv</title>
+      <link>https://waylonwalker.com//pyenv-first-impressions</link>
+      <description>pyenv provides an easy way to install almost any version of python from I needed to install an older version of python on ubuntu I Based on the Readme it looked</description>
+      <guid>https://waylonwalker.com//pyenv-first-impressions</guid>
+      <pubDate>2021-12-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Installing Packages With Ansible Only If They Do Not Exist</title>
+      <link>https://waylonwalker.com//ansible-install-if-not-callable</link>
+      <description>Part of my neovim setup requires having the  re-installing a bunch of things that are already installed can be quite check if the command is installed with  reg</description>
+      <guid>https://waylonwalker.com//ansible-install-if-not-callable</guid>
+      <pubDate>2021-12-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Adding __Rich__ Methods To Python Classes</title>
+      <link>https://waylonwalker.com//dunder-rich</link>
+      <description>Adding a </description>
+      <guid>https://waylonwalker.com//dunder-rich</guid>
+      <pubDate>2021-12-23</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Smoother Python With Automatic Imports | Pyflyby</title>
+      <link>https://waylonwalker.com//pyflyby</link>
+      <description>This is not a flaky works half the time kind of plugin, it I can https://youtu.be/2QW5DJiEJH4 Give the video a watch, I did not have noise-cancelling on in obs.</description>
+      <guid>https://waylonwalker.com//pyflyby</guid>
+      <pubDate>2021-12-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Kedro Course</title>
+      <link>https://waylonwalker.com//kedro-course</link>
+      <description>find all nodes with raw in the name use parameters make and use a logger use find-kedro in spaceflights slide in a new node vizualize your pipeline find slow no</description>
+      <guid>https://waylonwalker.com//kedro-course</guid>
+      <pubDate>2021-12-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Kedro Catalog Create</title>
+      <link>https://waylonwalker.com//kedro-catalog-create-cli</link>
+      <description>I use  https://youtu.be/ https://waylonwalker.com/what-is-kedro/ 👆 Unsure what kedro is?  Check out this post. The command to ensure there are catalog entries f</description>
+      <guid>https://waylonwalker.com//kedro-catalog-create-cli</guid>
+      <pubDate>2021-11-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Using Nix To Manage My Python Interpreter</title>
+      <link>https://waylonwalker.com//nix-python-interpreter</link>
+      <description>I recently started playing with nix. automatically select correct python version per project activating one doesn https://search.nixos.org/</description>
+      <guid>https://waylonwalker.com//nix-python-interpreter</guid>
+      <pubDate>2021-11-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Just Ask Ipython For Help</title>
+      <link>https://waylonwalker.com//ipython-help</link>
+      <description>We can https://youtu.be/TZrRAP-9UMk In any python repl you can access the docstring of a function by calling for  In Ipython we can even get some syntax highlig</description>
+      <guid>https://waylonwalker.com//ipython-help</guid>
+      <pubDate>2021-10-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Setting Parameters In Kedro</title>
+      <link>https://waylonwalker.com//kedro-parameters</link>
+      <description>Parameters are a place for you to store variables for your pipeline that can be https://youtu.be/Jj5cQ5bqcjg https://waylonwalker.com/what-is-kedro/ 👆 Unsure wh</description>
+      <guid>https://waylonwalker.com//kedro-parameters</guid>
+      <pubDate>2021-09-19</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Writing Your First Kedro Nodes</title>
+      <link>https://waylonwalker.com//kedro-your-first-nodes</link>
+      <description>https://youtu.be/-gEwU-MrPuA Before we jump in with anything crazy, let You will need to import node from kedro.pipeline to start creating nodes. The  Inputs an</description>
+      <guid>https://waylonwalker.com//kedro-your-first-nodes</guid>
+      <pubDate>2021-09-13</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Running Your Kedro Pipeline From The Command Line</title>
+      <link>https://waylonwalker.com//kedro-run</link>
+      <description>Running your kedro pipeline from the command line could not be any easier to https://youtu.be/ZmccpLy-OEI https://waylonwalker.com/what-is-kedro/ 👆 Unsure what </description>
+      <guid>https://waylonwalker.com//kedro-run</guid>
+      <pubDate>2021-08-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Kedro Virtual Environment</title>
+      <link>https://waylonwalker.com//kedro-environment</link>
+      <description>Avoid serious version conflict issues, and use a virtual environment anytime conda venv pipenv I prefer to use conda as my virtual environment manager of choice</description>
+      <guid>https://waylonwalker.com//kedro-environment</guid>
+      <pubDate>2021-08-23</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Kedro Pipeline Create</title>
+      <link>https://waylonwalker.com//kedro-pipeline-create</link>
+      <description>Kedro pipeline create is a command that makes creating new https://youtu.be/HtyIKqlEoNw The kedro cli comes with the following command to scaffold out The direc</description>
+      <guid>https://waylonwalker.com//kedro-pipeline-create</guid>
+      <pubDate>2021-08-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Kedro Install</title>
+      <link>https://waylonwalker.com//kedro-install</link>
+      <description>Kedro comes with an  https://youtu.be/IWimEs-hHQg You must start by having your kedro project either cloned down https://waylonwalker.com/kedro-new/ this post c</description>
+      <guid>https://waylonwalker.com//kedro-install</guid>
+      <pubDate>2021-08-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Kedro Git Init</title>
+      <link>https://waylonwalker.com//kedro-git-init</link>
+      <description>Immediately after  https://youtu.be/IGba3ytf Its as simple as these three commands to get started. I don</description>
+      <guid>https://waylonwalker.com//kedro-git-init</guid>
+      <pubDate>2021-08-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Kedro New</title>
+      <link>https://waylonwalker.com//kedro-new</link>
+      <description>https://youtu.be/uqiv5LAiJe0 Kedro new is simply a wrapper around the cookiecutter templating library.  The https://waylonwalker.com/what-is-kedro/ Unsure what </description>
+      <guid>https://waylonwalker.com//kedro-new</guid>
+      <pubDate>2021-08-18</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>What Is Kedro</title>
+      <link>https://waylonwalker.com//what-is-kedro</link>
+      <description>Kedro is an unopinionated Data Engineering framework that comes with a somewhat https://youtu.be/Wf4rnFsaFFU https://waylonwalker.com/what-is-kedro-1/ This is a</description>
+      <guid>https://waylonwalker.com//what-is-kedro</guid>
+      <pubDate>2021-08-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Incremental Versioned Datasets In Kedro</title>
+      <link>https://waylonwalker.com//kedro-incremental-versioned-datasets</link>
+      <description>Kedro versioned datasets can be mixed with incremental and partitioned datasets https://waylonwalker.com/what-is-kedro/ 👆 Unsure what kedro is?  Check out this </description>
+      <guid>https://waylonwalker.com//kedro-incremental-versioned-datasets</guid>
+      <pubDate>2021-07-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Manage Many Git Repos With Ease</title>
+      <link>https://waylonwalker.com//manage-many-git-repos</link>
+      <description>mu-repo</description>
+      <guid>https://waylonwalker.com//manage-many-git-repos</guid>
+      <pubDate>2021-06-13</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>I Started Streaming On Twitch</title>
+      <link>https://waylonwalker.com//start-streaming</link>
+      <description>I recently started streaming on python kedro Data Science Data Engineering webdev digital gardening It all started with My introduction to twitch came from Afte</description>
+      <guid>https://waylonwalker.com//start-streaming</guid>
+      <pubDate>2021-06-12</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Upcoming Stream</title>
+      <link>https://waylonwalker.com//upcoming-streams</link>
+      <description>I am starting to stream 3 days per week, before I start work in the morning. On Monday kedro-diff test kedro-diff on piplines with history setup deploy pipeline</description>
+      <guid>https://waylonwalker.com//upcoming-streams</guid>
+      <pubDate>2021-06-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Kedro Spaceflights - Part 2 | Stream Replay June 7, 2021</title>
+      <link>https://waylonwalker.com//kedro-spaceflights-stream2</link>
+      <description>This was my seconf time ever streaming on</description>
+      <guid>https://waylonwalker.com//kedro-spaceflights-stream2</guid>
+      <pubDate>2021-06-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>🌱 Digital Gardening | Gif To Mp4 | Stream Replay June 4, 2021</title>
+      <link>https://waylonwalker.com//digital-gardening-stream-6-6-2021</link>
+      <description>https://youtu.be/I4VenHqIEng Doing some Digital Gardening on stream Ahrefs Errors ahrefs large images Automatic gif to mp4 After this stream all gifs on my site</description>
+      <guid>https://waylonwalker.com//digital-gardening-stream-6-6-2021</guid>
+      <pubDate>2021-06-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Kedro Spaceflights - Part 1 | Stream Replay June 4, 2021</title>
+      <link>https://waylonwalker.com//kedro-spaceflights-stream1</link>
+      <description>This was my first time ever streaming on https://youtu.be/Y07UBr9Ccjs It all started with</description>
+      <guid>https://waylonwalker.com//kedro-spaceflights-stream1</guid>
+      <pubDate>2021-06-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Comprehensive Guide To Creating Kedro Nodes</title>
+      <link>https://waylonwalker.com//kedro-node</link>
+      <description>The Kedro node is an essential part of the pipeline. It defines what catalog 👆 Unsure what kedro is? Check out this post. The node function is the most common a</description>
+      <guid>https://waylonwalker.com//kedro-node</guid>
+      <pubDate>2021-06-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Using Kedro In Scripts</title>
+      <link>https://waylonwalker.com//kedro-in-scripts</link>
+      <description>With the latest releases of kedro  https://waylonwalker.com/what-is-kedro/ If your just learning about kedro check out this post walking through it I To get ked</description>
+      <guid>https://waylonwalker.com//kedro-in-scripts</guid>
+      <pubDate>2021-05-23</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Creating Pypi-List With Kedro</title>
+      <link>https://waylonwalker.com//kedro-pypi-list</link>
+      <description>I had an idea come to me via twitter. Short one word name packages are becoming I started with the simple index.  Pypi provides a single page listing to every</description>
+      <guid>https://waylonwalker.com//kedro-pypi-list</guid>
+      <pubDate>2021-05-23</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Silence Kedro Logs</title>
+      <link>https://waylonwalker.com//kedro-silence</link>
+      <description>Kedro can have a chatty logger.  While this is super nice in production First, how does one silence a python log?  Python loggers can be retrieved by | Level   </description>
+      <guid>https://waylonwalker.com//kedro-silence</guid>
+      <pubDate>2021-05-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Python Lsp Setup</title>
+      <link>https://waylonwalker.com//setup-pylsp</link>
+      <description>Setting up python with the native nvim&amp;gt;0.5 lsp was mr https://github.com/neovim/nvim-lspconfig https://github.com/palantir/python-language-server/issues/190 </description>
+      <guid>https://waylonwalker.com//setup-pylsp</guid>
+      <pubDate>2021-05-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Python Diskcahe Is Locked</title>
+      <link>https://waylonwalker.com//locked-diskcache</link>
+      <description>Running multiple processes using the same diskcache object can cause issues Minimum reporducible error is one of my superpowers in development.  I do this Marka</description>
+      <guid>https://waylonwalker.com//locked-diskcache</guid>
+      <pubDate>2021-05-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Vim Fugitive</title>
+      <link>https://waylonwalker.com//vim-fugitive</link>
+      <description>:on This one has nothing to do with fugitive, but is a native vim feature that C-i jump The jumplist is sorted Oldest to newest When navigating the jumplist wit</description>
+      <guid>https://waylonwalker.com//vim-fugitive</guid>
+      <pubDate>2021-05-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>What Is If __Name__ == &#34;__Main___&#34;, And How Do I Use It.</title>
+      <link>https://waylonwalker.com//if-name-main</link>
+      <description>When a python module is called it is assigned the  Let I have set this module up to execute one of two if statements based on whether Note it is not common to h</description>
+      <guid>https://waylonwalker.com//if-name-main</guid>
+      <pubDate>2021-05-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Custom Kedro Logger</title>
+      <link>https://waylonwalker.com//custom-kedro-logger</link>
+      <description>DRAFT -</description>
+      <guid>https://waylonwalker.com//custom-kedro-logger</guid>
+      <pubDate>2021-05-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>How To Install Micromamba On Linux (From The Comamnd Line Only)</title>
+      <link>https://waylonwalker.com//install-micromamba</link>
+      <description>I really like using conda ( Mamba is a reimplementation of the conda package manager in C++. parallel downloading of repository data and package files using mul</description>
+      <guid>https://waylonwalker.com//install-micromamba</guid>
+      <pubDate>2021-04-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Kedro Replit</title>
+      <link>https://waylonwalker.com//kedro172-replit</link>
+      <description>I am trying to see what an embeded replit</description>
+      <guid>https://waylonwalker.com//kedro172-replit</guid>
+      <pubDate>2021-04-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Zev Averbach Interview</title>
+      <link>https://waylonwalker.com//zev-averbach-interview</link>
+      <description>Zev Averbach, Q: Tell me about your journey as a spreadsheet jockey into Data Engineering? A: First of all, it I Now that I As the business grew I was spending </description>
+      <guid>https://waylonwalker.com//zev-averbach-interview</guid>
+      <pubDate>2021-04-09</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Pytest Capsys</title>
+      <link>https://waylonwalker.com//pytest-capsys</link>
+      <description>Testing print/log statements in pytest can be a bit tricky, capsys makes it capsys is a builtin pytest fixture that can be passed into any test to capture Simpl</description>
+      <guid>https://waylonwalker.com//pytest-capsys</guid>
+      <pubDate>2021-04-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Building Rich A Dev Server</title>
+      <link>https://waylonwalker.com//markata-dev-server</link>
+      <description>I I am working on a project in which I want to have a dev automatic port number auto-restart display  I am very novice at best when it comes to sockets, the fol</description>
+      <guid>https://waylonwalker.com//markata-dev-server</guid>
+      <pubDate>2021-03-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Fix Crlf For Entire Git Repo</title>
+      <link>https://waylonwalker.com//fix-crlf-entire-repo</link>
+      <description></description>
+      <guid>https://waylonwalker.com//fix-crlf-entire-repo</guid>
+      <pubDate>2021-03-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Automatic Conda Environments</title>
+      <link>https://waylonwalker.com//auto-conda-env</link>
+      <description>I have automated my process to create virtual environments in my python I You can learn more about  direnv is in many package repos, or can be installed from bi</description>
+      <guid>https://waylonwalker.com//auto-conda-env</guid>
+      <pubDate>2021-03-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>How I Review Pipeline Code</title>
+      <link>https://waylonwalker.com//how-i-review-kedro-projects</link>
+      <description>I have started doing more regular PR https://waylonwalker.com/what-is-kedro passing ci Variable Names Antipatterns No commented out code Docsttrings generally m</description>
+      <guid>https://waylonwalker.com//how-i-review-kedro-projects</guid>
+      <pubDate>2021-03-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Kedro Pipeline_Registry.Py</title>
+      <link>https://waylonwalker.com//kedro-pipeline-registry</link>
+      <description>With the realease of  create a  register_pipelines register hook_impl class You should now have something that looks like this in your pipeline I was not able t</description>
+      <guid>https://waylonwalker.com//kedro-pipeline-registry</guid>
+      <pubDate>2021-03-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>🐍 Pluggable Architecture With Python</title>
+      <link>https://waylonwalker.com//python-pluggable-architecture</link>
+      <description>pytest has open sourced their amazing plugin framework  My experience so far as a plugin user, and plugin author has been great. A hook is a single function tha</description>
+      <guid>https://waylonwalker.com//python-pluggable-architecture</guid>
+      <pubDate>2021-01-23</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Create Og Image Covers Using Python</title>
+      <link>https://waylonwalker.com//create-og-image-covers-using-python</link>
+      <description>There are so many tutorials out there for creating OG images with </description>
+      <guid>https://waylonwalker.com//create-og-image-covers-using-python</guid>
+      <pubDate>2021-01-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>⚙ How Python Tools Are Configured</title>
+      <link>https://waylonwalker.com//python-tool-config</link>
+      <description>There are various ways to configure python tools, config files, code, or This will not include how they are implemented, I The motivation of this article is to </description>
+      <guid>https://waylonwalker.com//python-tool-config</guid>
+      <pubDate>2021-01-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Minimal Kedro Pipeline</title>
+      <link>https://waylonwalker.com//minimal-kedro-pipeline</link>
+      <description>How small can a minimum kedro pipeline ready to package be?  I made one within 4 files that you can pip install.  It 📝 Note this is only a composable pipeline, </description>
+      <guid>https://waylonwalker.com//minimal-kedro-pipeline</guid>
+      <pubDate>2021-01-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Markdown Cli</title>
+      <link>https://waylonwalker.com//markdown-cli</link>
+      <description>This is a post that may be a work in progress for awhile, Its a collections of posts tags draft posts frontmatter filepath content template html Markdown.Markdo</description>
+      <guid>https://waylonwalker.com//markdown-cli</guid>
+      <pubDate>2021-01-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Blog Data With Python</title>
+      <link>https://waylonwalker.com//blog-data-with-python</link>
+      <description>Generating an api for a blog is much simpler than one might expect with python. fix missing data</description>
+      <guid>https://waylonwalker.com//blog-data-with-python</guid>
+      <pubDate>2021-01-18</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Kedro - My Data Is Not A Table</title>
+      <link>https://waylonwalker.com//kedro-pickle</link>
+      <description>In python data science/engineering most of our data is in the form of some sort These containers for data contain many convenient methods to manipulate table ht</description>
+      <guid>https://waylonwalker.com//kedro-pickle</guid>
+      <pubDate>2021-01-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Quickly Change Conda Env With Fzf</title>
+      <link>https://waylonwalker.com//quickly-change-conda-env-with-fzf</link>
+      <description>Changing conda environments is a bit verbose, I use a function with fzf that I have used conda as a virtual environment tool for years now.  I started using Wha</description>
+      <guid>https://waylonwalker.com//quickly-change-conda-env-with-fzf</guid>
+      <pubDate>2021-01-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Minimal Python Package</title>
+      <link>https://waylonwalker.com//minimal-python-package</link>
+      <description>What does it take to create an installable python package that can be hosted on pypi? setup.py my This post is somewhat inspired by the bottle framework, which </description>
+      <guid>https://waylonwalker.com//minimal-python-package</guid>
+      <pubDate>2021-01-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Custom Ipython Prompt</title>
+      <link>https://waylonwalker.com//custom-ipython-prompt</link>
+      <description>I If you already have an ipython config you can move on otherwise check out this https://waylonwalker.com/ipython-config/ I want something similar to the starsh</description>
+      <guid>https://waylonwalker.com//custom-ipython-prompt</guid>
+      <pubDate>2020-12-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Ipython-Config</title>
+      <link>https://waylonwalker.com//ipython-config</link>
+      <description>I use my ipython terminal daily.  It Activate your virtual environment of choice and pip install it.  Any time you You are using a virtual environment right? Vi</description>
+      <guid>https://waylonwalker.com//ipython-config</guid>
+      <pubDate>2020-12-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Ipython Ninjitsu</title>
+      <link>https://waylonwalker.com//ipython-ninjitsu</link>
+      <description>?docstring ??sourcecode %run %debug %autoreload %history autoformat %reset ! Stop going to google everytime your stuck and stay in your workflow.  The Docstring</description>
+      <guid>https://waylonwalker.com//ipython-ninjitsu</guid>
+      <pubDate>2020-12-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Automating My Post Starter</title>
+      <link>https://waylonwalker.com//automating-my-post-starter</link>
+      <description>One thing we all dread is mundane work of getting started, and all the hoops it When I start a new post I need to cd into my blog directory, start neovim in a f</description>
+      <guid>https://waylonwalker.com//automating-my-post-starter</guid>
+      <pubDate>2020-12-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Windowing Python Lists</title>
+      <link>https://waylonwalker.com//more-itertools-windowed</link>
+      <description>In python data science we often will reach for pandas a bit more than necessary. While pandas can save us so much there are times where there are alternatives t</description>
+      <guid>https://waylonwalker.com//more-itertools-windowed</guid>
+      <pubDate>2020-12-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Testing Data Pipelines</title>
+      <link>https://waylonwalker.com//testing-data-pipelines</link>
+      <description>Thinking through testing best practices for Data Pipelines</description>
+      <guid>https://waylonwalker.com//testing-data-pipelines</guid>
+      <pubDate>2020-11-16</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Reasons-To-Kedro</title>
+      <link>https://waylonwalker.com//reasons-to-kedro</link>
+      <description>There are many reasons that you should be using kedro.  If you are on a team of https://waylonwalker.com/what-is-kedro Kedro makes it super easy to get started </description>
+      <guid>https://waylonwalker.com//reasons-to-kedro</guid>
+      <pubDate>2020-11-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>What&#39;S New In Kedro 0.16.6</title>
+      <link>https://waylonwalker.com//whats-new-in-kedro-0166</link>
+      <description>This version of kedro releases a new set of supported deployment options and the spaceflights pipeline is officially added as a starter alias.</description>
+      <guid>https://waylonwalker.com//whats-new-in-kedro-0166</guid>
+      <pubDate>2020-10-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Designing A &#34;Router&#34; For Kedro</title>
+      <link>https://waylonwalker.com//designing-kedro-router</link>
+      <description>I released a router-like plugin for kedro back in April 2020.  This was not the first design, the idea actually came from one of the QB folks who taught me kedr</description>
+      <guid>https://waylonwalker.com//designing-kedro-router</guid>
+      <pubDate>2020-10-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Reclaim Memory Usage In Jupyter</title>
+      <link>https://waylonwalker.com//reset-ipython</link>
+      <description>Today I ran into an issue where we had a one-off script that just needed to It started with a colleague asking me How do I clear the memory in a Jupyter How do </description>
+      <guid>https://waylonwalker.com//reset-ipython</guid>
+      <pubDate>2020-10-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Three Things To Automate With Python Using Pandas</title>
+      <link>https://waylonwalker.com//3-things-to-automate-with-python</link>
+      <description>Here are three things that I see my non programming counterparts doing every single day.  These really sum up so much of what folks do within an office.  So man</description>
+      <guid>https://waylonwalker.com//3-things-to-automate-with-python</guid>
+      <pubDate>2020-08-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>How To Install Miniconda On Linux (From The Command Line Only)</title>
+      <link>https://waylonwalker.com//install-miniconda</link>
+      <description>Installing miniconda from only the command line can be a bit of an intimidating task your first time. Lets walk through how to do it.</description>
+      <guid>https://waylonwalker.com//install-miniconda</guid>
+      <pubDate>2020-08-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>What&#39;S New In Kedro 0.16.4</title>
+      <link>https://waylonwalker.com//whats-new-in-kedro-0164</link>
+      <description>If we take a look at the  This one comes a bit surprising as it was just casually mentioned in  As mentioned in  It feels a bit crazy that simply installing a p</description>
+      <guid>https://waylonwalker.com//whats-new-in-kedro-0164</guid>
+      <pubDate>2020-08-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Integration Testing With Python, Testproject.Io, And Github Actions</title>
+      <link>https://waylonwalker.com//testproject-io-py-actions</link>
+      <description>As I continue to build out  Running integration tests will not prevent bugs from happening completely, but it will allow me to quickly spot them and rollback. T</description>
+      <guid>https://waylonwalker.com//testproject-io-py-actions</guid>
+      <pubDate>2020-07-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>🐍 Practice Python Online</title>
+      <link>https://waylonwalker.com//practice-python-online</link>
+      <description>When learning a new skill it When learning a new skill it Here are three different options that I have used in the past to try out something at some various lev</description>
+      <guid>https://waylonwalker.com//practice-python-online</guid>
+      <pubDate>2020-07-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>How Python Tools Configure</title>
+      <link>https://waylonwalker.com//how-python-tools-config</link>
+      <description>Mypy only uses pyproject.toml only uses pyproject.toml</description>
+      <guid>https://waylonwalker.com//how-python-tools-config</guid>
+      <pubDate>2020-07-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>🐍 Parsing Rss Feeds With Python</title>
+      <link>https://waylonwalker.com//parsing-rss-python</link>
+      <description>I am looking into a way to replace my google reader experience that I had back This is how I used python to parse rss and setup my own custom feed. Install the </description>
+      <guid>https://waylonwalker.com//parsing-rss-python</guid>
+      <pubDate>2020-07-13</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Slides - Understanding Python \*Args And \*\*Kwargs</title>
+      <link>https://waylonwalker.com//python-args-kwargs-slides</link>
+      <description>Python  I generally post these as a carousel on LinkedIn based on a full article.  Let mw know what you think of it shown inside of a blog  See the full article</description>
+      <guid>https://waylonwalker.com//python-args-kwargs-slides</guid>
+      <pubDate>2020-07-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Gracefully Adopt Kedro, The Catalog</title>
+      <link>https://waylonwalker.com//graceful-kedro-catalog</link>
+      <description>While using the catalog alone will not reap all of the benefits of the framework, it does get you and your project ready for the full framework eventually.  For</description>
+      <guid>https://waylonwalker.com//graceful-kedro-catalog</guid>
+      <pubDate>2020-06-29</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>How To Find Things In Your Kedro Catalog</title>
+      <link>https://waylonwalker.com//kedro-catalog-search</link>
+      <description>kedro 0.16.2 just dropped last week with a long-awaited feature...  The kedro data catalog is a key component to the kedro framework.  It handles all data loadi</description>
+      <guid>https://waylonwalker.com//kedro-catalog-search</guid>
+      <pubDate>2020-06-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>How Kedro Handles Your Inputs</title>
+      <link>https://waylonwalker.com//kedro-inputs</link>
+      <description>Passing inputs into kedro is a key concept.  Understanding how it accepts a Check out this post for a review of how  https://waylonwalker.com/python-args-kwargs</description>
+      <guid>https://waylonwalker.com//kedro-inputs</guid>
+      <pubDate>2020-06-19</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>018</title>
+      <link>https://waylonwalker.com//018</link>
+      <description></description>
+      <guid>https://waylonwalker.com//018</guid>
+      <pubDate>2020-06-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>016</title>
+      <link>https://waylonwalker.com//016</link>
+      <description></description>
+      <guid>https://waylonwalker.com//016</guid>
+      <pubDate>2020-06-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>015</title>
+      <link>https://waylonwalker.com//015</link>
+      <description></description>
+      <guid>https://waylonwalker.com//015</guid>
+      <pubDate>2020-06-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>017</title>
+      <link>https://waylonwalker.com//017</link>
+      <description></description>
+      <guid>https://waylonwalker.com//017</guid>
+      <pubDate>2020-06-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Understanding Python \*Args And \*\*Kwargs</title>
+      <link>https://waylonwalker.com//python-args-kwargs</link>
+      <description>Python  Python  * When recieving variables as a  Never add  Generally I find  If your  Here  Here the function signature makes it clear what  Inversely we can s</description>
+      <guid>https://waylonwalker.com//python-args-kwargs</guid>
+      <pubDate>2020-06-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>011</title>
+      <link>https://waylonwalker.com//011</link>
+      <description>Load </description>
+      <guid>https://waylonwalker.com//011</guid>
+      <pubDate>2020-06-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>012</title>
+      <link>https://waylonwalker.com//012</link>
+      <description>👆 add this to your </description>
+      <guid>https://waylonwalker.com//012</guid>
+      <pubDate>2020-06-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>009</title>
+      <link>https://waylonwalker.com//009</link>
+      <description>Combine a directory of </description>
+      <guid>https://waylonwalker.com//009</guid>
+      <pubDate>2020-06-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>010</title>
+      <link>https://waylonwalker.com//010</link>
+      <description>load remote </description>
+      <guid>https://waylonwalker.com//010</guid>
+      <pubDate>2020-06-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>006</title>
+      <link>https://waylonwalker.com//006</link>
+      <description>Setup </description>
+      <guid>https://waylonwalker.com//006</guid>
+      <pubDate>2020-06-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>005</title>
+      <link>https://waylonwalker.com//005</link>
+      <description></description>
+      <guid>https://waylonwalker.com//005</guid>
+      <pubDate>2020-06-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Pre-Commit Is Awesome</title>
+      <link>https://waylonwalker.com//pre-commit-is-awesome</link>
+      <description>I recently discovered the ✨ awesomeness that is pre-commit. I steered away I recently discovered the ✨ awesomeness that is pre-commit. I steered away from it fo</description>
+      <guid>https://waylonwalker.com//pre-commit-is-awesome</guid>
+      <pubDate>2020-06-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>002</title>
+      <link>https://waylonwalker.com//002</link>
+      <description></description>
+      <guid>https://waylonwalker.com//002</guid>
+      <pubDate>2020-05-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Kedro Static Viz 0.3.0 Is Out With Hooks Support</title>
+      <link>https://waylonwalker.com//kedro-static-viz-0-3-0</link>
+      <description>Even though it is a static site there is no functionality lost.  The only thing that Even though it Kedro viz is a fantastic kedro plugin that allows you to vis</description>
+      <guid>https://waylonwalker.com//kedro-static-viz-0-3-0</guid>
+      <pubDate>2020-05-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>001</title>
+      <link>https://waylonwalker.com//001</link>
+      <description></description>
+      <guid>https://waylonwalker.com//001</guid>
+      <pubDate>2020-05-26</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Create Custom Kedro Dataset</title>
+      <link>https://waylonwalker.com//create-custom-kedro-dataset</link>
+      <description>Kedro provides an efficient way to build out data catalogs with their yaml api.  It allows you to be very declaritive about loading and saving your data.  For t</description>
+      <guid>https://waylonwalker.com//create-custom-kedro-dataset</guid>
+      <pubDate>2020-05-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Interrogate Is A Pretty Awesome, Brand New, Cli For Python Packages</title>
+      <link>https://waylonwalker.com//interrogate</link>
+      <description>dead simple docstring coverage for your python project</description>
+      <guid>https://waylonwalker.com//interrogate</guid>
+      <pubDate>2020-05-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Creating The Kedro-Preflight Hook</title>
+      <link>https://waylonwalker.com//creating-the-kedro-preflight-hook</link>
+      <description>Kedro Hooks Intro - kedro hooks are an exciting upcoming feature of kedro kedro hooks are an exciting upcoming feature of kedro  https://waylonwalker.com/what-i</description>
+      <guid>https://waylonwalker.com//creating-the-kedro-preflight-hook</guid>
+      <pubDate>2020-05-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Til: Bind Arguments To Dynamically Generated Lambdas In Python</title>
+      <link>https://waylonwalker.com//bind-dynamic-lambdas</link>
+      <description>This past week I had a really weird bug in my After a few days of looking at it off and on, I pinpointed that it was all the way down in the raw layer. Right as</description>
+      <guid>https://waylonwalker.com//bind-dynamic-lambdas</guid>
+      <pubDate>2020-04-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Four Github Actions For Python</title>
+      <link>https://waylonwalker.com//four-github-actions-python</link>
+      <description>If you are developing python packages and using GitHub here are four actions If you are developing python packages and using GitHub here are four actions that y</description>
+      <guid>https://waylonwalker.com//four-github-actions-python</guid>
+      <pubDate>2020-04-13</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Variables Names Don&#39;T Need Their Type</title>
+      <link>https://waylonwalker.com//variable-names-don-t-need-their-type</link>
+      <description>So often I see a variables  Pandas  Sometimes vanilla structures too It Always name your containers plural, so that naming while iterating is simple. Before I s</description>
+      <guid>https://waylonwalker.com//variable-names-don-t-need-their-type</guid>
+      <pubDate>2020-04-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Create New Kedro Project</title>
+      <link>https://waylonwalker.com//create-new-kedro-project</link>
+      <description>This is a quickstart to getting a new  🧹 Install  🛢 Create the Example Pipeline 💨 Run the example 📉 Show the pipeline visualization I use conda to control my vi</description>
+      <guid>https://waylonwalker.com//create-new-kedro-project</guid>
+      <pubDate>2020-03-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>What Is Kedro</title>
+      <link>https://waylonwalker.com//what-is-kedro-1</link>
+      <description>https://waylonwalker.com/what-is-kedro This is my original what-is-kedro article.  There is a brand new one Kedro is an open source data pipeline framework.  It</description>
+      <guid>https://waylonwalker.com//what-is-kedro-1</guid>
+      <pubDate>2020-02-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Simple Click 2</title>
+      <link>https://waylonwalker.com//simple-click-2</link>
+      <description></description>
+      <guid>https://waylonwalker.com//simple-click-2</guid>
+      <pubDate>2020-02-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Simple Click</title>
+      <link>https://waylonwalker.com//simple-click</link>
+      <description>Add helpful cli to your python libraries... All of them!</description>
+      <guid>https://waylonwalker.com//simple-click</guid>
+      <pubDate>2020-01-29</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Sqlalchemy Models</title>
+      <link>https://waylonwalker.com//sqlalchemy-models</link>
+      <description>My Notes about using sqlalchemy models</description>
+      <guid>https://waylonwalker.com//sqlalchemy-models</guid>
+      <pubDate>2019-12-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Building Cli Apps In Python</title>
+      <link>https://waylonwalker.com//building-cli-apps-in-python</link>
+      <description>learning about building cli apps in python</description>
+      <guid>https://waylonwalker.com//building-cli-apps-in-python</guid>
+      <pubDate>2019-11-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Kedro</title>
+      <link>https://waylonwalker.com//kedro</link>
+      <description>My Notes about using kedro</description>
+      <guid>https://waylonwalker.com//kedro</guid>
+      <pubDate>2019-11-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Just Use Pathlib</title>
+      <link>https://waylonwalker.com//just-use-pathlib</link>
+      <description>Pathlib is an amazing cross-platform path tool.</description>
+      <guid>https://waylonwalker.com//just-use-pathlib</guid>
+      <pubDate>2019-09-26</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Filtering Pandas</title>
+      <link>https://waylonwalker.com//filtering-pandas</link>
+      <description>Filtering pandas DataFrames many different ways.</description>
+      <guid>https://waylonwalker.com//filtering-pandas</guid>
+      <pubDate>2019-09-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Making Good Documentation In Python</title>
+      <link>https://waylonwalker.com//making-good-documentation-in-python</link>
+      <description>I just started using portray and it is amazingly simple to use</description>
+      <guid>https://waylonwalker.com//making-good-documentation-in-python</guid>
+      <pubDate>2019-09-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Quick Progress Bars In Python Using Tqdm</title>
+      <link>https://waylonwalker.com//quick-progress-bars-in-python-using-tqdm</link>
+      <description>Quick Progress Bars in python using TQDM</description>
+      <guid>https://waylonwalker.com//quick-progress-bars-in-python-using-tqdm</guid>
+      <pubDate>2019-09-18</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Clean Up Your Data Science With Named Tuples</title>
+      <link>https://waylonwalker.com//named-tuples-data-science</link>
+      <description>If you are a regular listener of  As you graduate your scripts into modules and libraries you might start to notice that you need to pass a lot of data around t</description>
+      <guid>https://waylonwalker.com//named-tuples-data-science</guid>
+      <pubDate>2019-09-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Background Tasks In Python For Data Science</title>
+      <link>https://waylonwalker.com//python-data-science-background</link>
+      <description>This post is intended as an extension/update from  This post is intended as an extension/update from  I use it in more places than I probably should Before we g</description>
+      <guid>https://waylonwalker.com//python-data-science-background</guid>
+      <pubDate>2019-09-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>📝 Bash Notes</title>
+      <link>https://waylonwalker.com//bash</link>
+      <description>Waylon Walker&#39;s Bash Notes</description>
+      <guid>https://waylonwalker.com//bash</guid>
+      <pubDate>2019-09-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Autoreload In Ipython</title>
+      <link>https://waylonwalker.com//autoreload-ipython</link>
+      <description>Autoreload in python</description>
+      <guid>https://waylonwalker.com//autoreload-ipython</guid>
+      <pubDate>2019-09-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Generating Readme Tables From Pandas</title>
+      <link>https://waylonwalker.com//readme-tables</link>
+      <description>none</description>
+      <guid>https://waylonwalker.com//readme-tables</guid>
+      <pubDate>2018-05-16</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Pycon 2018 Roundup</title>
+      <link>https://waylonwalker.com//pycon-2018-roundup</link>
+      <description>none</description>
+      <guid>https://waylonwalker.com//pycon-2018-roundup</guid>
+      <pubDate>2018-05-12</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Background Tasks In Python</title>
+      <link>https://waylonwalker.com//background-1</link>
+      <description>none</description>
+      <guid>https://waylonwalker.com//background-1</guid>
+      <pubDate>2017-09-16</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Pycon 2017 Roundup</title>
+      <link>https://waylonwalker.com//pycon-2017-roundup</link>
+      <description>none</description>
+      <guid>https://waylonwalker.com//pycon-2017-roundup</guid>
+      <pubDate>2017-05-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Python Atexit</title>
+      <link>https://waylonwalker.com//python-atexit</link>
+      <description>I</description>
+      <guid>https://waylonwalker.com//python-atexit</guid>
+      <pubDate>2000-01-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+<lastBuildDate></lastBuildDate>
+</channel>
+</rss>

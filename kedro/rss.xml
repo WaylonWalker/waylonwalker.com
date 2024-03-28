@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0">
+<channel>
+    <title>kedro</title>
+    <link>https://waylonwalker.com/</link>
+    <description>I write about how I use python and linux in data science.</description>
+    <generator>Markata</generator>
+    <image>
+        <url>static/8bitcc.png</url>
+        <link>https://waylonwalker.com/</link>
+    </image>
+    <language>en</language>
+
+  <item>
+      <title>Make Kedro Runs Beautiful</title>
+      <link>https://waylonwalker.com//kedro-rich</link>
+      <description>Kedro rich is a very new and unstable (it There is no pypi package yet, but it You can run your pipeline just as you normally would, except you get progress Lis</description>
+      <guid>https://waylonwalker.com//kedro-rich</guid>
+      <pubDate>2022-03-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Lambda Function As A Kedro Node</title>
+      <link>https://waylonwalker.com//kedro-lambda-node</link>
+      <description>I keep my nodes short and sweet.  They do one thing and do it well. I Here are two examples, the first one  Many times I just want to get the data in as fast as</description>
+      <guid>https://waylonwalker.com//kedro-lambda-node</guid>
+      <pubDate>2022-01-31</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Add New Dependencies To Your Kedro Project</title>
+      <link>https://waylonwalker.com//kedro-new-dependencies</link>
+      <description>As you work on your kedro projects you are bound to need to add more Before you start mucking around with any changes to dependencies make sure that New require</description>
+      <guid>https://waylonwalker.com//kedro-new-dependencies</guid>
+      <pubDate>2022-01-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Practice Making Pipelines With Kedro</title>
+      <link>https://waylonwalker.com//practice-kedro</link>
+      <description>I am a huge believer in practicing your craft.  Professional athletes https://waylonwalker.com/what-is-kedro/ Go to your playground directory, and if you don In</description>
+      <guid>https://waylonwalker.com//practice-kedro</guid>
+      <pubDate>2022-01-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Running Kedro On Ubuntu 21.10 Impish Indri</title>
+      <link>https://waylonwalker.com//kedro-ubuntu-impish</link>
+      <description>I just installed a brand new Ubuntu 21.10 Impish Indri, and wanted a But what I got back was not what I expected This is weird, why cant I run kedro new with pi</description>
+      <guid>https://waylonwalker.com//kedro-ubuntu-impish</guid>
+      <pubDate>2022-01-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Kedro Catalog Create</title>
+      <link>https://waylonwalker.com//kedro-catalog-create-cli</link>
+      <description>I use  https://youtu.be/ https://waylonwalker.com/what-is-kedro/ 👆 Unsure what kedro is?  Check out this post. The command to ensure there are catalog entries f</description>
+      <guid>https://waylonwalker.com//kedro-catalog-create-cli</guid>
+      <pubDate>2021-11-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Nvim Conf 2021 | Ide&#39;S Are Slow | Waylon Walker</title>
+      <link>https://waylonwalker.com//nvim-ides-are-slow</link>
+      <description>https://youtu.be/E18m4KkJUnI Using Vim as a Team Lead I 💜 Tmux Why I stopped using @code Get there fast How I vim Use a graphical IDE if it works for you. vim i</description>
+      <guid>https://waylonwalker.com//nvim-ides-are-slow</guid>
+      <pubDate>2021-10-29</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Kedro-Broken-Urls</title>
+      <link>https://waylonwalker.com//kedro-broken-urls</link>
+      <description>[ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [</description>
+      <guid>https://waylonwalker.com//kedro-broken-urls</guid>
+      <pubDate>2021-10-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Setting Parameters In Kedro</title>
+      <link>https://waylonwalker.com//kedro-parameters</link>
+      <description>Parameters are a place for you to store variables for your pipeline that can be https://youtu.be/Jj5cQ5bqcjg https://waylonwalker.com/what-is-kedro/ 👆 Unsure wh</description>
+      <guid>https://waylonwalker.com//kedro-parameters</guid>
+      <pubDate>2021-09-19</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Writing Your First Kedro Nodes</title>
+      <link>https://waylonwalker.com//kedro-your-first-nodes</link>
+      <description>https://youtu.be/-gEwU-MrPuA Before we jump in with anything crazy, let You will need to import node from kedro.pipeline to start creating nodes. The  Inputs an</description>
+      <guid>https://waylonwalker.com//kedro-your-first-nodes</guid>
+      <pubDate>2021-09-13</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Running Your Kedro Pipeline From The Command Line</title>
+      <link>https://waylonwalker.com//kedro-run</link>
+      <description>Running your kedro pipeline from the command line could not be any easier to https://youtu.be/ZmccpLy-OEI https://waylonwalker.com/what-is-kedro/ 👆 Unsure what </description>
+      <guid>https://waylonwalker.com//kedro-run</guid>
+      <pubDate>2021-08-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Kedro Virtual Environment</title>
+      <link>https://waylonwalker.com//kedro-environment</link>
+      <description>Avoid serious version conflict issues, and use a virtual environment anytime conda venv pipenv I prefer to use conda as my virtual environment manager of choice</description>
+      <guid>https://waylonwalker.com//kedro-environment</guid>
+      <pubDate>2021-08-23</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Kedro Pipeline Create</title>
+      <link>https://waylonwalker.com//kedro-pipeline-create</link>
+      <description>Kedro pipeline create is a command that makes creating new https://youtu.be/HtyIKqlEoNw The kedro cli comes with the following command to scaffold out The direc</description>
+      <guid>https://waylonwalker.com//kedro-pipeline-create</guid>
+      <pubDate>2021-08-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Kedro Install</title>
+      <link>https://waylonwalker.com//kedro-install</link>
+      <description>Kedro comes with an  https://youtu.be/IWimEs-hHQg You must start by having your kedro project either cloned down https://waylonwalker.com/kedro-new/ this post c</description>
+      <guid>https://waylonwalker.com//kedro-install</guid>
+      <pubDate>2021-08-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Kedro Git Init</title>
+      <link>https://waylonwalker.com//kedro-git-init</link>
+      <description>Immediately after  https://youtu.be/IGba3ytf Its as simple as these three commands to get started. I don</description>
+      <guid>https://waylonwalker.com//kedro-git-init</guid>
+      <pubDate>2021-08-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Kedro New</title>
+      <link>https://waylonwalker.com//kedro-new</link>
+      <description>https://youtu.be/uqiv5LAiJe0 Kedro new is simply a wrapper around the cookiecutter templating library.  The https://waylonwalker.com/what-is-kedro/ Unsure what </description>
+      <guid>https://waylonwalker.com//kedro-new</guid>
+      <pubDate>2021-08-18</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>What Is Kedro</title>
+      <link>https://waylonwalker.com//what-is-kedro</link>
+      <description>Kedro is an unopinionated Data Engineering framework that comes with a somewhat https://youtu.be/Wf4rnFsaFFU https://waylonwalker.com/what-is-kedro-1/ This is a</description>
+      <guid>https://waylonwalker.com//what-is-kedro</guid>
+      <pubDate>2021-08-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>How I Kedro</title>
+      <link>https://waylonwalker.com//how-i-kedro</link>
+      <description>https://youtu.be/bw5 I recently switched over to using Ubuntu, it works well pretty much out of the I am still using the built in default gnome terminal, it jus</description>
+      <guid>https://waylonwalker.com//how-i-kedro</guid>
+      <pubDate>2021-08-16</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Incremental Versioned Datasets In Kedro</title>
+      <link>https://waylonwalker.com//kedro-incremental-versioned-datasets</link>
+      <description>Kedro versioned datasets can be mixed with incremental and partitioned datasets https://waylonwalker.com/what-is-kedro/ 👆 Unsure what kedro is?  Check out this </description>
+      <guid>https://waylonwalker.com//kedro-incremental-versioned-datasets</guid>
+      <pubDate>2021-07-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>I Started Streaming On Twitch</title>
+      <link>https://waylonwalker.com//start-streaming</link>
+      <description>I recently started streaming on python kedro Data Science Data Engineering webdev digital gardening It all started with My introduction to twitch came from Afte</description>
+      <guid>https://waylonwalker.com//start-streaming</guid>
+      <pubDate>2021-06-12</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Upcoming Stream</title>
+      <link>https://waylonwalker.com//upcoming-streams</link>
+      <description>I am starting to stream 3 days per week, before I start work in the morning. On Monday kedro-diff test kedro-diff on piplines with history setup deploy pipeline</description>
+      <guid>https://waylonwalker.com//upcoming-streams</guid>
+      <pubDate>2021-06-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Kedro Spaceflights - Part 2 | Stream Replay June 7, 2021</title>
+      <link>https://waylonwalker.com//kedro-spaceflights-stream2</link>
+      <description>This was my seconf time ever streaming on</description>
+      <guid>https://waylonwalker.com//kedro-spaceflights-stream2</guid>
+      <pubDate>2021-06-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Kedro Spaceflights - Part 1 | Stream Replay June 4, 2021</title>
+      <link>https://waylonwalker.com//kedro-spaceflights-stream1</link>
+      <description>This was my first time ever streaming on https://youtu.be/Y07UBr9Ccjs It all started with</description>
+      <guid>https://waylonwalker.com//kedro-spaceflights-stream1</guid>
+      <pubDate>2021-06-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Comprehensive Guide To Creating Kedro Nodes</title>
+      <link>https://waylonwalker.com//kedro-node</link>
+      <description>The Kedro node is an essential part of the pipeline. It defines what catalog 👆 Unsure what kedro is? Check out this post. The node function is the most common a</description>
+      <guid>https://waylonwalker.com//kedro-node</guid>
+      <pubDate>2021-06-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Using Kedro In Scripts</title>
+      <link>https://waylonwalker.com//kedro-in-scripts</link>
+      <description>With the latest releases of kedro  https://waylonwalker.com/what-is-kedro/ If your just learning about kedro check out this post walking through it I To get ked</description>
+      <guid>https://waylonwalker.com//kedro-in-scripts</guid>
+      <pubDate>2021-05-23</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Creating Pypi-List With Kedro</title>
+      <link>https://waylonwalker.com//kedro-pypi-list</link>
+      <description>I had an idea come to me via twitter. Short one word name packages are becoming I started with the simple index.  Pypi provides a single page listing to every</description>
+      <guid>https://waylonwalker.com//kedro-pypi-list</guid>
+      <pubDate>2021-05-23</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Silence Kedro Logs</title>
+      <link>https://waylonwalker.com//kedro-silence</link>
+      <description>Kedro can have a chatty logger.  While this is super nice in production First, how does one silence a python log?  Python loggers can be retrieved by | Level   </description>
+      <guid>https://waylonwalker.com//kedro-silence</guid>
+      <pubDate>2021-05-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Vim Fugitive</title>
+      <link>https://waylonwalker.com//vim-fugitive</link>
+      <description>:on This one has nothing to do with fugitive, but is a native vim feature that C-i jump The jumplist is sorted Oldest to newest When navigating the jumplist wit</description>
+      <guid>https://waylonwalker.com//vim-fugitive</guid>
+      <pubDate>2021-05-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Custom Kedro Logger</title>
+      <link>https://waylonwalker.com//custom-kedro-logger</link>
+      <description>DRAFT -</description>
+      <guid>https://waylonwalker.com//custom-kedro-logger</guid>
+      <pubDate>2021-05-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Kedro Replit</title>
+      <link>https://waylonwalker.com//kedro172-replit</link>
+      <description>I am trying to see what an embeded replit</description>
+      <guid>https://waylonwalker.com//kedro172-replit</guid>
+      <pubDate>2021-04-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Kedro Pipeline_Registry.Py</title>
+      <link>https://waylonwalker.com//kedro-pipeline-registry</link>
+      <description>With the realease of  create a  register_pipelines register hook_impl class You should now have something that looks like this in your pipeline I was not able t</description>
+      <guid>https://waylonwalker.com//kedro-pipeline-registry</guid>
+      <pubDate>2021-03-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Minimal Kedro Pipeline</title>
+      <link>https://waylonwalker.com//minimal-kedro-pipeline</link>
+      <description>How small can a minimum kedro pipeline ready to package be?  I made one within 4 files that you can pip install.  It 📝 Note this is only a composable pipeline, </description>
+      <guid>https://waylonwalker.com//minimal-kedro-pipeline</guid>
+      <pubDate>2021-01-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Kedro - My Data Is Not A Table</title>
+      <link>https://waylonwalker.com//kedro-pickle</link>
+      <description>In python data science/engineering most of our data is in the form of some sort These containers for data contain many convenient methods to manipulate table ht</description>
+      <guid>https://waylonwalker.com//kedro-pickle</guid>
+      <pubDate>2021-01-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Testing Data Pipelines</title>
+      <link>https://waylonwalker.com//testing-data-pipelines</link>
+      <description>Thinking through testing best practices for Data Pipelines</description>
+      <guid>https://waylonwalker.com//testing-data-pipelines</guid>
+      <pubDate>2020-11-16</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Reasons-To-Kedro</title>
+      <link>https://waylonwalker.com//reasons-to-kedro</link>
+      <description>There are many reasons that you should be using kedro.  If you are on a team of https://waylonwalker.com/what-is-kedro Kedro makes it super easy to get started </description>
+      <guid>https://waylonwalker.com//reasons-to-kedro</guid>
+      <pubDate>2020-11-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>What&#39;S New In Kedro 0.16.6</title>
+      <link>https://waylonwalker.com//whats-new-in-kedro-0166</link>
+      <description>This version of kedro releases a new set of supported deployment options and the spaceflights pipeline is officially added as a starter alias.</description>
+      <guid>https://waylonwalker.com//whats-new-in-kedro-0166</guid>
+      <pubDate>2020-10-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>What&#39;S New In Kedro 0.16.4</title>
+      <link>https://waylonwalker.com//whats-new-in-kedro-0164</link>
+      <description>If we take a look at the  This one comes a bit surprising as it was just casually mentioned in  As mentioned in  It feels a bit crazy that simply installing a p</description>
+      <guid>https://waylonwalker.com//whats-new-in-kedro-0164</guid>
+      <pubDate>2020-08-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Gracefully Adopt Kedro, The Catalog</title>
+      <link>https://waylonwalker.com//graceful-kedro-catalog</link>
+      <description>While using the catalog alone will not reap all of the benefits of the framework, it does get you and your project ready for the full framework eventually.  For</description>
+      <guid>https://waylonwalker.com//graceful-kedro-catalog</guid>
+      <pubDate>2020-06-29</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>How To Find Things In Your Kedro Catalog</title>
+      <link>https://waylonwalker.com//kedro-catalog-search</link>
+      <description>kedro 0.16.2 just dropped last week with a long-awaited feature...  The kedro data catalog is a key component to the kedro framework.  It handles all data loadi</description>
+      <guid>https://waylonwalker.com//kedro-catalog-search</guid>
+      <pubDate>2020-06-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>How Kedro Handles Your Inputs</title>
+      <link>https://waylonwalker.com//kedro-inputs</link>
+      <description>Passing inputs into kedro is a key concept.  Understanding how it accepts a Check out this post for a review of how  https://waylonwalker.com/python-args-kwargs</description>
+      <guid>https://waylonwalker.com//kedro-inputs</guid>
+      <pubDate>2020-06-19</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>003</title>
+      <link>https://waylonwalker.com//003</link>
+      <description>🔥 #kedrotips hooks can be created using modules</description>
+      <guid>https://waylonwalker.com//003</guid>
+      <pubDate>2020-05-31</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>004</title>
+      <link>https://waylonwalker.com//004</link>
+      <description>🔥 #kedrotips use find-kedro to assembly your pipelines</description>
+      <guid>https://waylonwalker.com//004</guid>
+      <pubDate>2020-05-31</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>002</title>
+      <link>https://waylonwalker.com//002</link>
+      <description></description>
+      <guid>https://waylonwalker.com//002</guid>
+      <pubDate>2020-05-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Kedro Static Viz 0.3.0 Is Out With Hooks Support</title>
+      <link>https://waylonwalker.com//kedro-static-viz-0-3-0</link>
+      <description>Even though it is a static site there is no functionality lost.  The only thing that Even though it Kedro viz is a fantastic kedro plugin that allows you to vis</description>
+      <guid>https://waylonwalker.com//kedro-static-viz-0-3-0</guid>
+      <pubDate>2020-05-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>001</title>
+      <link>https://waylonwalker.com//001</link>
+      <description></description>
+      <guid>https://waylonwalker.com//001</guid>
+      <pubDate>2020-05-26</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Create Custom Kedro Dataset</title>
+      <link>https://waylonwalker.com//create-custom-kedro-dataset</link>
+      <description>Kedro provides an efficient way to build out data catalogs with their yaml api.  It allows you to be very declaritive about loading and saving your data.  For t</description>
+      <guid>https://waylonwalker.com//create-custom-kedro-dataset</guid>
+      <pubDate>2020-05-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Creating The Kedro-Preflight Hook</title>
+      <link>https://waylonwalker.com//creating-the-kedro-preflight-hook</link>
+      <description>Kedro Hooks Intro - kedro hooks are an exciting upcoming feature of kedro kedro hooks are an exciting upcoming feature of kedro  https://waylonwalker.com/what-i</description>
+      <guid>https://waylonwalker.com//creating-the-kedro-preflight-hook</guid>
+      <pubDate>2020-05-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Create New Kedro Project</title>
+      <link>https://waylonwalker.com//create-new-kedro-project</link>
+      <description>This is a quickstart to getting a new  🧹 Install  🛢 Create the Example Pipeline 💨 Run the example 📉 Show the pipeline visualization I use conda to control my vi</description>
+      <guid>https://waylonwalker.com//create-new-kedro-project</guid>
+      <pubDate>2020-03-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>What Is Kedro</title>
+      <link>https://waylonwalker.com//what-is-kedro-1</link>
+      <description>https://waylonwalker.com/what-is-kedro This is my original what-is-kedro article.  There is a brand new one Kedro is an open source data pipeline framework.  It</description>
+      <guid>https://waylonwalker.com//what-is-kedro-1</guid>
+      <pubDate>2020-02-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+  <item>
+      <title>Kedro</title>
+      <link>https://waylonwalker.com//kedro</link>
+      <description>My Notes about using kedro</description>
+      <guid>https://waylonwalker.com//kedro</guid>
+      <pubDate>2019-11-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+
+<lastBuildDate></lastBuildDate>
+</channel>
+</rss>
