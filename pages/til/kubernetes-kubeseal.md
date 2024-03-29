@@ -10,6 +10,17 @@ tags:
 ---
 
 
+In my homelab kubernetes cluster I am using kubeseal to encrypt secrets.  I
+have been using it successfully for a few months now wtih great success. It
+allows me to commit all of my secrets manifests to git with out risk of leaking
+secrets.
+
+You see kubeseal encrypts your secrets with a private key only stored in your
+cluster, so only the cluster itself can decrypt them using the kubeseal
+controller.
+
+![cover](https://screenshots.waylonwalker.com/kubeseal-post.png)
+
 ## KubeSeal
 
 <https://sealed-secrets.netlify.app/>
@@ -50,7 +61,9 @@ helm install sealed-secrets -n kube-system --set-string fullnameOverride=sealed-
 
 ## installation - client
 
-For the client you can check your OS package manager, brew, or the [github-releases](https://github.com/bitnami-labs/sealed-secrets/releases/).  For me I found it in the main arch repos.
+For the client you can check your OS package manager, brew, or the
+[github-releases](https://github.com/bitnami-labs/sealed-secrets/releases/).
+For me I found it in the main arch repos.
 
 ``` bash
 paru -S kubeseal
@@ -59,6 +72,10 @@ sudo pacman -S kubeseal
 # or
 brew install kubeseal
 ```
+
+!!! note
+  You will need to install kubeseal on every device that you will want to
+  create sealed secrets on.
 
 ## Example
 
