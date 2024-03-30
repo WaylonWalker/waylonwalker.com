@@ -17,6 +17,7 @@ audio {
   @apply m-0 sm:m-[-2rem];
   @apply text-sm;
   @apply text-base;
+  @apply mx-4 text-center
 }
 
 * {

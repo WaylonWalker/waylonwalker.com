@@ -77,6 +77,17 @@
             </div>
 
             <div id="post-body">
+
+                        <p style='margin: 2rem;'>
+                            This is a styled rss feed.
+                        </p>
+                        <p style='margin: 2rem;'>
+                            It's styled xml.
+                        </p>
+                        <p style='margin: 2rem; margin-top: 0;margin-bottom: 4rem;'>
+                            YES, that means you can use this feed in your rss reader.
+                        </p>
+
                 <ul>
                     <xsl:for-each select="/rss/channel/item">
                         <li class="post">
