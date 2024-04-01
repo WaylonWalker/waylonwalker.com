@@ -20,8 +20,10 @@ def load(markata: "Markata") -> None:
         post["templateKey"] = "thoughts"
         post["markata"] = markata
         post["content"] = f"""
-This post is a [thought](https://thoughts.waylonwalker.com).  It's a short note that I make about someone else's
-content online.  Learn more about the process [here](https://waylonwalker.com/thoughts)
+
+!!! note
+    This post is a [thought](https://thoughts.waylonwalker.com).  It's a short note that I make about someone else's
+    content online.  Learn more about the process [here](https://waylonwalker.com/thoughts)
 
 Here's my thought on [{post["title"]}]({post["link"]})
 
