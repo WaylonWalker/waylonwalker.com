@@ -14,13 +14,12 @@ def load(markata: "Markata") -> None:
     ).json()
 
     for post in posts:
+        post["title"] = "💭 " + post["title"].lstrip("💭 ")
         post["path"] = f"thoughts-{post['id']}"
         post["slug"] = f"thoughts-{post['id']}"
         post["templateKey"] = "thoughts"
         post["markata"] = markata
-        post[
-            "content"
-        ] = f"""
+        post["content"] = f"""
 Here's my thought on [{post["title"]}]({post["link"]})
 
 ---
