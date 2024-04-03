@@ -24,6 +24,8 @@ come back to later when I have forgotten where I have seen something.
 * [web](https://waylonwalker.com/thoughts)
 * [rss](https://waylonwalker.com/thoughts/rss.xml)
 
+> All thoughts posts cross posted to my site are prefixed with a thought balloon 💭.
+
 ## The tech
 
 Since this blog is mostly a tech blog about software development, and my
