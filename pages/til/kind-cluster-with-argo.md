@@ -1,7 +1,7 @@
 ---
 date: 2024-04-04 18:42:18
 templateKey: til
-title: setting up a kind cluster with argo
+title: setting up a kind cluster with argocd installed
 published: true
 tags:
   - python
