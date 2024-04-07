@@ -3,6 +3,7 @@ date: 2024-04-05 20:43:32
 templateKey: til
 title: fastapi jinja url_for with query params
 published: true
+jinja: false
 tags:
   - python
 
