@@ -3,6 +3,7 @@ date: 2024-04-07 14:54:08
 templateKey: til
 title: jinja macros
 published: true
+jinja: false
 tags:
   - python
 
