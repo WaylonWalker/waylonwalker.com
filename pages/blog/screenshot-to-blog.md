@@ -4,9 +4,7 @@ templateKey: blog-post
 title: How I Quickly Capture Screenshots directly into My Blog
 tags:
   - python
-  - python
-  - python
-published: false
+published: true
 ---
 
 When I am creating blog posts it's often helpful to add screenshots to them to
