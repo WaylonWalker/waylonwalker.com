@@ -3,6 +3,7 @@ date: 2024-04-06 20:47:13
 templateKey: til
 title: jinja loop variable and htmx
 published: true
+jinja: false
 tags:
   - python
   - htmx
