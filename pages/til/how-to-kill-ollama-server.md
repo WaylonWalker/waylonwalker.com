@@ -1,5 +1,5 @@
 ---
-date: 2024-04-10 18:31:36
+date: 2024-04-14 18:31:36
 templateKey: til
 title: How to kill ollama server
 published: true
