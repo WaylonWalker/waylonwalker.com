@@ -9,7 +9,7 @@ tags:
 
 ---
 
-I recently updated ollama, and it now installs a systemd service that I was not
+I recently updated [ollama](https://ollama.com/), and it now installs a systemd service that I was not
 expecting.  Seems like a great option, but it was using up gpu, and I do other
 things on my machine with a gpu.  I tried pkill, kill, and everything, it was
 still coming back.
