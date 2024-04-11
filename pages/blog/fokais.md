@@ -41,6 +41,13 @@ style="width: 800px; height: 450px;"
   - use the image optimization pipelie for shots to give you an optimized image
 - blur ups
 
+## Community
+
+host it yourself
+
+- reader
+- markata
+
 ## Limits
 
 cloudflare file size 100mb <https://developers.cloudflare.com/cache/concepts/default-cache-behavior/>
@@ -107,7 +114,6 @@ cloudflare file size 100mb <https://developers.cloudflare.com/cache/concepts/def
 ### Shots
 
 - [ ] Watermarks
-
 
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 629.5838486947605 460.14269017839115" width="629.5838486947605" height="460.14269017839115" filter="invert(93%) hue-rotate(180deg)">
   <!-- svg-source:excalidraw -->
