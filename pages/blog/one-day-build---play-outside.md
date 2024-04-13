@@ -14,6 +14,8 @@ Inspired by Adam Savage and his One Day builds on youtube.  I often build
 things, and want to make them generally useful for others and over configure
 out of the gate.  This project is purely for me inspired by a need I have.
 
+* [play-outside](https://play-outside.wayl.one/)
+
 ## !How-To
 
 This post will not directly show how to make a weather app, but document the
@@ -51,14 +53,14 @@ This is a one day build, I have both kids at home from school, so this is
 realistically only like 2-3 hours at most, so this has to be chosen based on
 familiarity.
 
-- Docker
-- k8s
-- Python
-- FastAPI
-- tailwind
-- httpx
-- OpenWeatherMap API
-- ipwho.is
+* Docker
+* k8s
+* Python
+* FastAPI
+* tailwind
+* httpx
+* OpenWeatherMap API
+* ipwho.is
 
 This is the same stack (minue the apis) that I am using to build my startup
 fokais.com with.  I am quite familiar with it and should be able to quickly
@@ -554,3 +556,5 @@ npx tailwindcss --input tailwind/app.css --output static/app.css --watch
 ## K8s
 
 ## TEXT BASED
+
+* [play-outside](https://play-outside.wayl.one/)
