@@ -6,6 +6,7 @@ published: true
 tags:
   - vim
 jinja: false
+sidebar: 'all'
 
 ---
 
@@ -47,6 +48,7 @@ I tried all sorts of changes to my path, but it still didn't work.
 
 ``` lua
 vim.api.nvim_command("set path+=templates/**")
+
 ```
 
 ## What I found
@@ -61,4 +63,13 @@ always close it and assume that vim failed to `:find` the file.
 ``` lua
 -- Allow gf to open non-existent files
 set("", "gf", ":edit <cfile><CR>")
+```
+
+## Yes, after that fix I still needed to adjust my path
+
+I ended up with the following in my options.lua.
+
+``` lua
+-- look for jinja templates in the templates directory
+vim.opt.path:append("templates/**")
 ```
