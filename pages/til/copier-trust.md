@@ -1,5 +1,5 @@
 ---
-date: 2024-04-15 20:41:06
+date: 2024-04-19 20:41:06
 templateKey: til
 title: copier trust
 published: true
