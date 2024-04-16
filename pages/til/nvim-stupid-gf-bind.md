@@ -6,7 +6,6 @@ published: true
 tags:
   - vim
 jinja: false
-sidebar: 'all'
 
 ---
 
