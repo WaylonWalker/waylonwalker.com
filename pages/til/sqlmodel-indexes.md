@@ -1,5 +1,5 @@
 ---
-date: 2024-04-16 21:55:25
+date: 2024-04-17 21:55:25
 templateKey: til
 title: sqlmodel indexes
 published: true
