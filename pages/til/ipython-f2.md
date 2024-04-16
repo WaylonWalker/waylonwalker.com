@@ -1,5 +1,5 @@
 ---
-date: 2024-04-17 20:40:41
+date: 2024-04-18 20:40:41
 templateKey: til
 title: ipython f2
 published: true
