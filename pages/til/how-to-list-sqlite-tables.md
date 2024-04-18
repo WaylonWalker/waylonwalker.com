@@ -1,5 +1,5 @@
 ---
-date: 2024-04-17 20:03:27
+date: 2024-04-23 20:03:27
 templateKey: til
 title: How to List Sqlite tables
 published: true
