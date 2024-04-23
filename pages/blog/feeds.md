@@ -9,7 +9,9 @@ published: True
 ---
 
 
-I have several feeds that you can consume my content with
+I have several feeds that you can consume my content with.  Many posts will
+cross between them, so if you would like to follow a certain stream of content
+in your rss reader thats what this is for.
 
 ## All
 
