@@ -21,3 +21,5 @@ over dreamed, nearly undocumented framework to that I love and maintain.
 
 I am a Senior Software Engineer specializing in building data pipelines and web
 platforms with python.
+
+If you are wondering how I built this site see [[ about-this-site ]].
