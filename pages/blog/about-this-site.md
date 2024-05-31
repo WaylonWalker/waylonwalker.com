@@ -26,7 +26,7 @@ very similar to what happened to the tech industry in 2024.
 * portfolio
 * my personal corner of the internet
 
-## It's NOT{.text-red-500 font-bold text-2xl} Perfect
+## It's [NOT]{.text-red-500 font-bold text-2xl} Perfect
 
 * There will be mistakes
 * I will learn
