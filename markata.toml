@@ -136,8 +136,7 @@ config = { markata = "markata" }
 
 
 [markata.glob]
-# glob_patterns = "pages/**/*.md"
-glob_patterns = "pages/**/*tailwind-markdown*.md"
+glob_patterns = "pages/**/*.md"
 
 [markata.auto_description.description]
 len = 160
