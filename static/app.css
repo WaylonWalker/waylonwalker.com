@@ -1678,6 +1678,11 @@ video {
   line-height: 1;
 }
 
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -1785,6 +1790,10 @@ video {
 
 .no-underline {
   text-decoration-line: none;
+}
+
+.decoration-teal-500 {
+  text-decoration-color: #14b8a6;
 }
 
 .decoration-white {
@@ -3729,6 +3738,22 @@ h2.text-center {
 #post-body * {
   grid-column-start: 2;
   grid-column-end: 4;
+}
+
+#post-body a {
+  text-decoration-color: #eab308;
+  --tw-text-opacity: 1;
+  color: rgb(234 179 8 / var(--tw-text-opacity));
+  font-weight: 600;
+  text-decoration-thickness: 1px;
+}
+
+#post-body a.wikilink, #post-body a.hoverlink {
+  text-decoration-color: #db2777;
+  --tw-text-opacity: 1;
+  color: rgb(236 72 153 / var(--tw-text-opacity));
+  font-weight: 400;
+  text-decoration-thickness: 2px;
 }
 
 hr {

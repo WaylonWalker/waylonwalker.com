@@ -7,10 +7,17 @@ from markata.hookspec import hook_impl
 if TYPE_CHECKING:
     from bs4.element import Tag
 
+external_svg = """
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4 inline align-middle">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+</svg>
+"""
+
 
 def hover_links(soup):
     wikilinks = soup.find_all("a", {"class": "wikilink"})
-    for link in wikilinks:
+    hoverlinks = soup.find_all("a", {"class": "hoverlink"})
+    for link in wikilinks + hoverlinks:
         parent = link.parent
         parent["class"] = parent.get("class", []) + [
             "hover:z-20",
@@ -18,10 +25,14 @@ def hover_links(soup):
         href = link.attrs.get("href")
         if not href.startswith("https://"):
             href = f"https://waylonwalker.com/{href}"
+        if link in hoverlinks:
+            prefix = external_svg
+        else:
+            prefix = ""
         title = link.text
         img = f"""
     <span class="z-10 group group-hover:z-20 relative inline-block">
-        <a class="wikilink text-pink-500 hover:underline" href="{href}" title="{title}">{title}</a>
+        <a class="wikilink text-pink-500 hover:underline" href="{href}" title="{title}">{prefix} {title}</a>
         <button class="ml-2 text-pink-500 hover:underline focus:outline-none" aria-label="Preview">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" class="h-5 w-5 inline align-middle">
@@ -33,7 +44,7 @@ def hover_links(soup):
             class="hidden absolute top-6 left-0 z-20 group-hover:block ">
             <img alt="shot"
                 class="rounded-xl transition-height ease-in duration-75 h-0 opacity-0 group-hover:opacity-100 group-hover:h-[500px] max-w-none "
-                height="500" style=' box-shadow: rgba(0, 0, 0, 0.6) 0 0 50rem 50rem; '
+                height="500" style=' box-shadow: rgba(0, 0, 0, 0.6) 0 0 500rem 500rem; '
                 src="http://shots.wayl.one/shot/?url={href}&amp;height=1200&amp;width=1000&amp;scaled_width=1000&amp;scaled_height=800&amp;selectors="
                 width="auto">
         </a>
@@ -57,7 +68,7 @@ def post_render(markata):
             html_from_cache = cache.get(key)
             html_from_cache = None
 
-            if "wikilink" in article.html:
+            if "wikilink" in article.html or "hoverlink" in article.html:
                 if html_from_cache is None:
                     soup = BeautifulSoup(article.html, "lxml")
                     hover_links(soup)

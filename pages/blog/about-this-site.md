@@ -17,6 +17,8 @@ very similar to what happened to the tech industry in 2024.
 
 > This was very similar to what happened to the tech industry in 2024.
 
+See [[ about ]] for more about me.
+
 ## What is this site?
 
 * It's a blog
@@ -26,7 +28,7 @@ very similar to what happened to the tech industry in 2024.
 * portfolio
 * my personal corner of the internet
 
-## It's [NOT]{.text-red-500 font-bold text-2xl} Perfect
+## It's [NOT]{.text-red-500 .text-6xl .font-bold} Perfect
 
 * There will be mistakes
 * I will learn
@@ -34,9 +36,9 @@ very similar to what happened to the tech industry in 2024.
 * Code will run on my machine, but not guaranteed to be perfect
 * There will be days when the whole site is broken
 
-## It's a blog
+## It started as a blog
 
-This site started out as a big B Blog.  It was me trying to learn how to write
+This site started out as a [big B]{.font-bold .underline .decoration-teal-500} Blog.  It was me trying to learn how to write
 and build content online.  This content was to the best of my ability polished
 and complete.  Posts took a long time to make.  I liked working on it, but
 sometimes ideas came faster than I could explore an idea polish the content and
@@ -48,8 +50,8 @@ Somewhere along the line I found a really great community of people who create
 content in ways that they does not require that level of depth and polish on
 each and every post they make.  Ideas flow out and content gets made over time.
 
-[Maggie Appleton](https://maggieappleton.com) and the idea of [digital
-gardening](https://maggieappleton.com/garden-history) has been very
+[Maggie Appleton](https://maggieappleton.com){.hoverlink} and the idea of [digital
+gardening](https://maggieappleton.com/garden-history){.hoverlink} has been very
 inspiriational. She makes really great content with amazing drawings in them.
 She publishes early and often and labels content with the state that it is in,
 early and often.  Some posts are budding, and some are evergreen.  She also
@@ -57,8 +59,8 @@ distinguishes between notes and essays.
 
 ## Learn in public
 
-[Shawn Wang](https://www.swyx.io/) (swyx) Has been very inpsiring with ideas
-around [Learn In Public](https://www.swyx.io/learn-in-public).  
+[Shawn Wang](https://www.swyx.io/){.hoverlink} (swyx) Has been very inpsiring with ideas
+around [Learn In Public](https://www.swyx.io/learn-in-public){.hoverlink}.  
 
 > Whatever your thing is, make the thing you wish you had found when you were
 > learning. Don’t judge your results by “claps” or retweets or stars or upvotes
@@ -73,8 +75,8 @@ you don't have all the right words for it yet.  Don't be afraid to be wrong.
 ## TIL
 
 On to one of the most inspirational pieces that I have taken ideas from
-[@jbrancha](https://x.com/jbrancha) [#til
-repository](https://github.com/jbranchaud/til).  He has been posting daily Tils
+[@jbrancha](https://x.com/jbrancha){.hoverlink} [#til
+repository](https://github.com/jbranchaud/til){.hoverlink}.  He has been posting daily Tils
 for Years, and they do pretty damn well on google despite what SEO experts say
 his results end up in my google search quite often.
 
@@ -99,7 +101,7 @@ development.
 This site has gone from html, to gatsby, and finally I built my own static site
 generator [[ markata ]].  It's been through a few different hosts, but at the
 end of the day the content is all
-[markdown](https://www.markdownguide.org/basic-syntax/) with frontmatter.
+[markdown](https://www.markdownguide.org/basic-syntax/){.hoverlink} with frontmatter.
 
 For instance the beginning of this post looks like this.
 

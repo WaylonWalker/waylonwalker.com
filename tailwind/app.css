@@ -3,6 +3,7 @@
 @tailwind utilities;
 @import "./highlight.css";
 
+
 audio {
   filter: invert(100%);
   @apply shadow-lg shadow-white rounded-full;
@@ -334,6 +335,19 @@ h2.text-center {
 #post-body * {
   @apply col-start-2;
   @apply col-end-4;
+}
+#post-body a {
+  @apply decoration-yellow-500;
+  @apply text-yellow-500;
+  @apply font-semibold;
+  @apply decoration-1;
+}
+
+#post-body a.wikilink, #post-body a.hoverlink {
+  @apply decoration-pink-600;
+  @apply text-pink-500;
+  @apply font-normal;
+  @apply decoration-2;
 }
 
 hr {
