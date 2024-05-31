@@ -30,7 +30,7 @@ def hover_links(soup):
             </svg>
         </button>
         <a href="{href}"
-            class="block absolute top-6 left-0 z-20 group-hover:block ">
+            class="hidden absolute top-6 left-0 z-20 group-hover:block ">
             <img alt="shot"
                 class="rounded-xl transition-height ease-in duration-75 h-0 opacity-0 group-hover:opacity-100 group-hover:h-[500px] max-w-none "
                 height="500" style=' box-shadow: rgba(0, 0, 0, 0.6) 0 0 50rem 50rem; '
