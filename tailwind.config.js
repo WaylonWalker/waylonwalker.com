@@ -5,6 +5,9 @@ module.exports = {
     "markout/**/*.{html,js}",
     "static/**/*.{html,js}",
   ],
+  safelist: [
+    // add things here if they are not picked up.
+  ],
   plugins: [require("@tailwindcss/typography")],
   theme: {
     extend: {

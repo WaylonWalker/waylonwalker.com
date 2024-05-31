@@ -1,3 +1,13 @@
+clean:
+    markata clean
+build:
+    markata build
+serve:
+    python -m http.server -b 0.0.0.0 8000 -d markout
+tailwind:
+    npx tailwindcss --input tailwind/app.css --output static/app.css --watch
+tailwind-dev:
+    npx tailwindcss --input tailwind/app.css --output markout/app.css --watch
 sync:
     aws --endpoint-url https://minio.wayl.one s3 sync . s3://waylonwalker.com \
         --exclude "*.venv/**/*" \

@@ -367,6 +367,28 @@ hr {
   @apply hidden;
 }
 
+.admonition-title {
+  @apply text-3xl;
+  @apply font-light;
+  @apply flex gap-2;
+  @apply my-8;
+}
+
+.admonition {
+  @apply my-8;
+  @apply mx-8;
+  @apply px-4;
+}
+.admonition.note .admonition-title {
+  @apply text-pink-500;
+}
+.admonition.note {
+  /* @apply border-l-2; */
+  /* @apply border-white; */
+  @apply shadow-lg   shadow-pink-500/50 shadow-[rgba(0,0,15,0.5)_-16px_0px_10px_-10px];
+
+}
+
 pre {
   @apply col-start-1 !important;
   @apply col-end-5 !important;

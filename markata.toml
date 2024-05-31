@@ -18,42 +18,44 @@ default_cache_expire = 1209600
 
 ## Markata Setup
 
-## glob_patterns = "pages/**/*spaceflights*.md"
 output_dir = "markout"
 assets_dir = "static"
 hooks = [
-'plugins.post_model',
-'plugins.thoughts',
-   # "markata.plugins.publish_source",
-   # "markata.plugins.publish_dev_to_source",
-   # "markata.plugins.prevnext",
-   # "plugins.render_template_variables",
-   # # "plugins.codeblocks",
-   # "plugins.index",
-   # "plugins.slug",
-   # "plugins.one_line_link",
-   # "plugins.include",
-   "default",
-   # "plugins.related",
-   # "plugins.seo_amp",
-   # "plugins.custom_seo",
-   # "plugins.rss_tag",
+    'plugins.post_model',
+    'plugins.thoughts',
+    "plugins.wikilink_hover",
+    # 'plugins.server',
+    # "markata.plugins.publish_source",
+    # "markata.plugins.publish_dev_to_source",
+    # "markata.plugins.prevnext",
+    # "plugins.render_template_variables",
+    # # "plugins.codeblocks",
+    # "plugins.index",
+    # "plugins.slug",
+    # "plugins.one_line_link",
+    # "plugins.include",
+    "default",
+    # "plugins.related",
+    # "plugins.seo_amp",
+    # "plugins.custom_seo",
+    # "plugins.rss_tag",
 
-#might need these, but they are not importing
-   # "plugins.publish_amp",
-   # "plugins.gif_to_mp4",
-   "plugins.youtube",
-   # "plugins.auto_publish",
-   # "markata.plugins.service_worker",
-   ]
-disabled_hooks = [
-"markata.plugins.covers",
-# "markata.plugins.heading_link",
-"markata.plugins.seo",
-"markata.plugins.rss",
-# "markata.plugins.manifest",
-# "markata.plugins.flat_slug"
+    #might need these, but they are not importing
+    # "plugins.publish_amp",
+    # "plugins.gif_to_mp4",
+    "plugins.youtube",
+    # "plugins.auto_publish",
+    # "markata.plugins.service_worker",
 ]
+disabled_hooks = [
+    "markata.plugins.covers",
+    # "markata.plugins.heading_link",
+    "markata.plugins.seo",
+    "markata.plugins.rss",
+    # "markata.plugins.manifest",
+    # "markata.plugins.flat_slug"
+]
+
 
 ## Site Config
 url = "https://waylonwalker.com"
@@ -66,7 +68,7 @@ author_email = "waylon@waylonwalaker.com"
 icon = "8bitcc.png"
 lang = "en"
 post_template = "pages/templates/post_template.html"
-amp_template = "pages/templates/post_template.amp.html"
+# amp_template = "pages/templates/post_template.amp.html"
 theme_color = "#322D39"
 background_color = "#B73CF6"
 start_url = "/"
@@ -78,36 +80,82 @@ twitter_creator = "@_waylonwalker"
 twitter_site = "@_waylonwalker"
 
 precache_urls = [
-  "8bitcc.ico",
-  "archive",
-  "archive-styles.css",
-  "furo-purge.min.css",
-  "main.min.css",
-  "manifest.json",
-  "one-dark.min.css",
-  "scroll.css",
+    "8bitcc.ico",
+    "archive",
+    "archive-styles.css",
+    "furo-purge.min.css",
+    "main.min.css",
+    "manifest.json",
+    "one-dark.min.css",
+    "scroll.css",
 ]
 
+# markdown_it flavor
+[markata.markdown_it_py]
+config = 'gfm-like'
+# markdown_it built-in plugins
+enable = ["table"]
+disable = ["image"]
+
+# add custom markdown_it plugins
+[[markata.markdown_it_py.plugins]]
+plugin = "mdit_py_plugins.admon:admon_plugin"
+
+[[markata.markdown_it_py.plugins]]
+plugin = "mdit_py_plugins.attrs:attrs_plugin"
+config = { spans = true }
+
+[[markata.markdown_it_py.plugins]]
+plugin = "mdit_py_plugins.attrs:attrs_block_plugin"
+
+[[markata.markdown_it_py.plugins]]
+plugin = "markata.plugins.mdit_details:details_plugin"
+
+[[markata.markdown_it_py.plugins]]
+plugin = "mdit_py_plugins.anchors:anchors_plugin"
+
+[markata.markdown_it_py.plugins.config]
+permalink = true
+permalinkSymbol = '<svg class="heading-permalink" aria-hidden="true" fill="currentColor" focusable="false" height="1em" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg>'
+
+[[markata.markdown_it_py.plugins]]
+plugin = "markata.plugins.md_it_wikilinks:wikilinks_plugin"
+config = { markata = "markata" }
+
+
+[markata.nav]
+'home' = '/'
+'twitter' = 'https://twitter.com/_waylonwalker'
+'youtube' = 'https://www.youtube.com/@waylonwalker'
+'gaming-youtube' = 'https://www.youtube.com/channel/UCHuxc1HRsd3aRjvL6C817tQ'
+'LinkedIn' = 'https://www.linkedin.com/in/waylonwalker/'
+'devto' = 'https://dev.to/waylonwalker'
+'twitch' = 'https://www.twitch.tv/waylonwalker'
+'hello@waylonwalker.com' = 'mailto:hello@waylonwalker.com'
+'GitHub' = 'https://github.com/WaylonWalker/'
+
+
 [markata.glob]
-glob_patterns = "pages/**/*.md"
+# glob_patterns = "pages/**/*.md"
+glob_patterns = "pages/**/*tailwind-markdown*.md"
 
 [markata.auto_description.description]
-len=160
+len = 160
 [markata.auto_description.long_description]
-len=250
+len = 250
 [markata.auto_description.super_description]
-len=500
+len = 500
 [markata.auto_publish.filters]
-til="templateKey=='til' and date<=today and not published"
+til = "templateKey=='til' and date<=today and not published"
 
 [[markata.covers]]
-name='-dev'
+name = '-dev'
 template = "static/cover-template.png"
 font = "./.github/scripts/waterlilly-script.ttf"
 font_color = "rgb(255,255,255)"
 
 [[markata.covers]]
-name='-og'
+name = '-og'
 template = "static/og-template.png"
 font = "./.github/scripts/waterlilly-script.ttf"
 font_color = "rgb(255,255,255)"
@@ -116,7 +164,7 @@ text_font = "./static/JosefinSans-Regular.ttf"
 text_font_color = "rgb(200,200,200)"
 
 [[markata.covers]]
-name='-hashnode'
+name = '-hashnode'
 template = "static/hashnode-template.png"
 font = "./.github/scripts/waterlilly-script.ttf"
 font_color = "rgb(255,255,255)"
@@ -151,36 +199,36 @@ content = "article"
 
 [[markata.head.link]]
 
-href="{{ config.url }}/{{ slug }}/"
-rel="canonical"
+href = "{{ config.url }}/{{ slug }}/"
+rel = "canonical"
 
 [[markata.head.link]]
-href="{{ config.url }}/{{ slug }}/amp/"
-rel="amphtml"
+href = "{{ config.url }}/{{ slug }}/amp/"
+rel = "amphtml"
 
 [[markata.head.meta]]
-name="og:url"
-content="{{ config.url }}/{{ slug }}/"
+name = "og:url"
+content = "{{ config.url }}/{{ slug }}/"
 
 [[markata.head.meta]]
-name="og:image"
-content="{{ config.get('covers_url') }}/{{ slug }}.jpg"
+name = "og:image"
+content = "{{ config.get('covers_url') }}/{{ slug }}.jpg"
 
 [[markata.head.meta]]
-name="og:image:width"
-content='1200'
+name = "og:image:width"
+content = '1200'
 
 [[markata.head.meta]]
-name="og:image:height"
-content='600'
+name = "og:image:height"
+content = '600'
 
 [[markata.head.meta]]
-name="twitter:creator"
-content="@_waylonwalker"
+name = "twitter:creator"
+content = "@_waylonwalker"
 
 [[markata.head.meta]]
-name="twitter:card"
-content="summary_large_image"
+name = "twitter:card"
+content = "summary_large_image"
 
 [[markata.head.meta]]
 name = "og:author"
