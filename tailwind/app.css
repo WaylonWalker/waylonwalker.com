@@ -267,9 +267,11 @@ article {
 }
 
 .heading-permalink {
-  @apply h-10 w-10;
+  @apply h-6 w-6;
   @apply text-base;
   @apply inline-block;
+  @apply text-pink-500;
+
 }
 
 h1 {
