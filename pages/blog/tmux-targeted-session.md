@@ -7,7 +7,7 @@ published: true
 
 ---
 
-[https://youtu.be/5KE7Il7SOEk](https://youtu.be/5KE7Il7SOEk){.hoverlink}
+[https://youtu.be/5KE7Il7SOEk](https://youtu.be/5KE7Il7SOEk){.youtube-embed}
 
 This is something that I made up but use every single day, this is what keeps
 much of what is on my blog or my teams private work wiki going.  I have a few

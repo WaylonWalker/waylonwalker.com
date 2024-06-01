@@ -6,7 +6,7 @@ date: 2021-08-13T09:03:09
 published: true
 ---
 
-[https://youtu.be/nT0FA1RNZEs](https://youtu.be/nT0FA1RNZEs){.hoverlink}
+[https://youtu.be/nT0FA1RNZEs](https://youtu.be/nT0FA1RNZEs){.youtube-embed}
 
 Now your creating, jumping, and killing sessions like a boss. You are slicing
 through projects with ease, let me show you one more thing that can be the

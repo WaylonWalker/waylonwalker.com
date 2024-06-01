@@ -7,7 +7,7 @@ published: true
 
 ---
 
-[https://youtu.be/Rn6mOarCQ-Y](https://youtu.be/Rn6mOarCQ-Y){.hoverlink}
+[https://youtu.be/Rn6mOarCQ-Y](https://youtu.be/Rn6mOarCQ-Y){.youtube-embed}
 
 Zooming into the current split in tmux is a valuable tool to give yourself some
 screen real estate.  These days I am almost always presenting, streaming, or

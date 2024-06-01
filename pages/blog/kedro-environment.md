@@ -10,7 +10,7 @@ Avoid serious version conflict issues, and use a virtual environment anytime
 you are running python, here are three ways you can setup a kedro virtual
 environment.
 
-[https://youtu.be/ZSxc5VVCBhM](https://youtu.be/ZSxc5VVCBhM){.hoverlink}
+[https://youtu.be/ZSxc5VVCBhM](https://youtu.be/ZSxc5VVCBhM){.youtube-embed}
 
 - conda
 - venv

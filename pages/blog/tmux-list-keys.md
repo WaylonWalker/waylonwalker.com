@@ -7,7 +7,7 @@ published: true
 
 ---
 
-[https://youtu.be/Y1MYmL8ZolE](https://youtu.be/Y1MYmL8ZolE){.hoverlink}
+[https://youtu.be/Y1MYmL8ZolE](https://youtu.be/Y1MYmL8ZolE){.youtube-embed}
 
 Tmux list keys can be a useful tool to help remind you of what kebindings you
 have setup.  You can search for them and scroll just like in tmux copy-mode.

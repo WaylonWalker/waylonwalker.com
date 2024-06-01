@@ -7,7 +7,7 @@ published: true
 
 ---
 
-[https://youtu.be/CPZJZjN9YTY](https://youtu.be/CPZJZjN9YTY){.hoverlink}
+[https://youtu.be/CPZJZjN9YTY](https://youtu.be/CPZJZjN9YTY){.youtube-embed}
 
 These are my MOST often used keybindings that I use in tmux.  They allow me to
 jump between splits with ease with a vim style layout.  I can hold mod and jump

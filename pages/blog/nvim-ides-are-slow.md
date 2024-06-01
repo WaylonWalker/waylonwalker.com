@@ -7,7 +7,7 @@ published: true
 
 ---
 
-[https://youtu.be/E18m4KkJUnI](https://youtu.be/E18m4KkJUnI){.hoverlink}
+[https://youtu.be/E18m4KkJUnI](https://youtu.be/E18m4KkJUnI){.youtube-embed}
 
 [//]: <> (## images)
 

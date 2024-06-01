@@ -7,7 +7,7 @@ published: true
 
 ---
 
-[https://youtu.be/8kZnjHPYnKU](https://youtu.be/8kZnjHPYnKU){.hoverlink}
+[https://youtu.be/8kZnjHPYnKU](https://youtu.be/8kZnjHPYnKU){.youtube-embed}
 
 Now that we are splitting up work into their own sessions, lets talk about how
 to navigate between them without the command line.  Navigating sessions is what

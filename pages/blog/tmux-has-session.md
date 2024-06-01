@@ -7,7 +7,7 @@ published: true
 
 ---
 
-[https://youtu.be/XucVVgGmesM](https://youtu.be/XucVVgGmesM){.hoverlink}
+[https://youtu.be/XucVVgGmesM](https://youtu.be/XucVVgGmesM){.youtube-embed}
 
 I see you there, trying to script out your tmux layouts. Tryig to get each
 project setup just perfect with a script, but you keep stumbling over yourself

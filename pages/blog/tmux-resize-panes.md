@@ -7,7 +7,7 @@ published: true
 
 ---
 
-[https://youtu.be/hpFYE2LU7xc](https://youtu.be/hpFYE2LU7xc){.hoverlink}
+[https://youtu.be/hpFYE2LU7xc](https://youtu.be/hpFYE2LU7xc){.youtube-embed}
 
 Resizing panes in tmux can be quite difficult in default tmux, I
 use a set of keybingings to help resize panes in the rare occasions

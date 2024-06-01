@@ -10,7 +10,7 @@ I've gone far too long without a good setup for editing yaml
 files, I am missing out on autocomplete and proper diagnostics.
 This ends today as I setup yaml-language-server in neovim.
 
-[https://youtu.be/xo4HrFoKF4c](https://youtu.be/xo4HrFoKF4c){.hoverlink}
+[https://youtu.be/xo4HrFoKF4c](https://youtu.be/xo4HrFoKF4c){.youtube-embed}
 
 The video for this one is part of a
 [challenge-playlist](https://www.youtube.com/playlist?list=PLTRNG6WIHETAj0nR_WYAxxGjd7kXch5zj)

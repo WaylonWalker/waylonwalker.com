@@ -7,7 +7,7 @@ published: true
 
 ---
 
-[https://youtu.be/mvgM8UH11_U](https://youtu.be/mvgM8UH11_U){.hoverlink}
+[https://youtu.be/mvgM8UH11_U](https://youtu.be/mvgM8UH11_U){.youtube-embed}
 
 The tmux status bar can be a handy tool to remind yourself where you are within
 tmux.  It can also include a bunch of system information like battery status,

@@ -7,7 +7,7 @@ published: true
 
 ---
 
-[https://youtu.be/F0mHnwTrNNc](https://youtu.be/F0mHnwTrNNc){.hoverlink}
+[https://youtu.be/F0mHnwTrNNc](https://youtu.be/F0mHnwTrNNc){.youtube-embed}
 
 When you get many splits going in tmux sometimes its time for a new layout.
 There are four layout strategies that I use, main-vertical, main-horizontal,

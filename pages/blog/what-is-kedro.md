@@ -15,7 +15,7 @@ ran through a function, and saved by `Nodes`.  The order that these `Nodes` are
 executed are determined by the `Pipeline`, which is a  **DAG**.  It's the
 `runner`'s job to manage the execution of the `Nodes`.
 
-[https://youtu.be/Wf4rnFsaFFU](https://youtu.be/Wf4rnFsaFFU){.hoverlink}
+[https://youtu.be/Wf4rnFsaFFU](https://youtu.be/Wf4rnFsaFFU){.youtube-embed}
 
 ---
 

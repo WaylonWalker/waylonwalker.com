@@ -7,7 +7,7 @@ published: true
 
 ---
 
-[https://youtu.be/06z5qf81ofo](https://youtu.be/06z5qf81ofo){.hoverlink}
+[https://youtu.be/06z5qf81ofo](https://youtu.be/06z5qf81ofo){.youtube-embed}
 
 Rotate window is the main way that I navigated tmux before I learned
 `select-pane`.  It allows you to change your focused pane, or rotate the

@@ -12,7 +12,7 @@ I've slowly adding more and more lua functions into my neovim configuration,
 and recently I noticed a pattern for a class of functions that reach out to run
 shell commands that can be abstracted away.
 
-[https://youtu.be/8m5ipBuopPU](https://youtu.be/8m5ipBuopPU){.hoverlink}
+[https://youtu.be/8m5ipBuopPU](https://youtu.be/8m5ipBuopPU){.youtube-embed}
 
 ## Telegraph.nvim
 

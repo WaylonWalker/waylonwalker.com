@@ -6,7 +6,7 @@ date: 2021-11-29T11:34:47
 published: true
 ---
 
-[https://youtu.be/Jq1Y48F_rOU](https://youtu.be/Jq1Y48F_rOU){.hoverlink}
+[https://youtu.be/Jq1Y48F_rOU](https://youtu.be/Jq1Y48F_rOU){.youtube-embed}
 
 I am challenging myself to 30 days of dotfile ricing. I have been on linux
 desktop for a few months now and have a pretty good workflow going, I have the

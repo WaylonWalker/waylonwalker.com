@@ -7,7 +7,7 @@ published: true
 
 ---
 
-[https://youtu.be/Vm5rRtcVXLw](https://youtu.be/Vm5rRtcVXLw){.hoverlink}
+[https://youtu.be/Vm5rRtcVXLw](https://youtu.be/Vm5rRtcVXLw){.youtube-embed}
 
 Join-pane allows you to join panes that you have broken away from your window,
 or created in a different window to the window you want it in.  As far as I

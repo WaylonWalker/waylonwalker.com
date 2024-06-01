@@ -7,7 +7,7 @@ published: true
 
 ---
 
-[https://youtu.be/ICL609F2xnc](https://youtu.be/ICL609F2xnc){.hoverlink}
+[https://youtu.be/ICL609F2xnc](https://youtu.be/ICL609F2xnc){.youtube-embed}
 
 Break-pane is a handy tmux command when your layout gets too cramped and you
 want to just move a split into its own window.  Calling `break-pane` does

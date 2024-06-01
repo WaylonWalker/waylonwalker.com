@@ -7,7 +7,7 @@ published: true
 
 ---
 
-[https://youtu.be/LLk94fKpGg4](https://youtu.be/LLk94fKpGg4){.hoverlink}
+[https://youtu.be/LLk94fKpGg4](https://youtu.be/LLk94fKpGg4){.youtube-embed}
 
 As we push the limits of tmux further and further you are bound to end up in a
 situation where you are mashing down a hotkey and it's just not doing what you

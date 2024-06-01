@@ -6,7 +6,7 @@ date: 2021-07-19T23:51:21
 published: true
 ---
 
-[https://youtu.be/79Y-kqAiMpw](https://youtu.be/79Y-kqAiMpw){.hoverlink}
+[https://youtu.be/79Y-kqAiMpw](https://youtu.be/79Y-kqAiMpw){.youtube-embed}
 
 Choose tree is a powerful tmux utility that provides a graphical interface to
 preview all sessions, windows, and panes, move between them kill them, move

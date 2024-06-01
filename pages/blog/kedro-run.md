@@ -13,7 +13,7 @@ your workflow, but its good to have under your belt.  I personally do this half
 the time and run from ipython half the time.  In production, I mostly use docker
 and that is all done with this cli.
 
-[https://youtu.be/ZmccpLy-OEI](https://youtu.be/ZmccpLy-OEI){.hoverlink}
+[https://youtu.be/ZmccpLy-OEI](https://youtu.be/ZmccpLy-OEI){.youtube-embed}
 
 [[ what-is-kedro ]]
 
