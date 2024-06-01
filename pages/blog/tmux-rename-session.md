@@ -7,7 +7,7 @@ published: true
 
 ---
 
-https://youtu.be/WRLRiQDjVIA
+<https://youtu.be/WRLRiQDjVIA>
 
 So you have been working on your tmux workflow, you've dropped a too many
 window workflow for scoping work that belongs together into separate sessions,
@@ -40,10 +40,9 @@ anymore. You will see why in an upcoming video.
 bind -n M-W command-prompt "rename-session '%%'"
 ```
 
-https://waylonwalker.com/tmux-nav-2021/
+[[ tmux-nav-2021 ]]
 
 > for more information on how I navigate tmux, check out this full post
-
 
 Also check out the full YouTube
 [tmux-playlist](https://www.youtube.com/playlist?list=PLTRNG6WIHETB4reAxbWza3CZeP9KL6Bkr)

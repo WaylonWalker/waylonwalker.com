@@ -7,7 +7,7 @@ published: true
 
 ---
 
-https://youtu.be/XucVVgGmesM
+<https://youtu.be/XucVVgGmesM>
 
 I see you there, trying to script out your tmux layouts. Tryig to get each
 project setup just perfect with a script, but you keep stumbling over yourself
@@ -25,10 +25,9 @@ you are looking for exists.
 tmux has-session -t "waylonwalker_com"
 ```
 
-https://waylonwalker.com/tmux-nav-2021/
+[[ tmux-nav-2021 ]]
 
 > for more information on how I navigate tmux, check out this full post
-
 
 Also check out the full YouTube
 [tmux-playlist](https://www.youtube.com/playlist?list=PLTRNG6WIHETB4reAxbWza3CZeP9KL6Bkr)

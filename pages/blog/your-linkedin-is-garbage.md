@@ -38,7 +38,7 @@ engineering.
 If you took security seriously you would not include you work history at all,
 and any hiring manager who gives a shit would see that and should understand.
 Reality is that they probably don't and it probably raised more questions than
-answers for them . [[my-linked-in-work-history]].
+answers for them.
 
 [[my-linked-in-work-history]]
 

@@ -7,12 +7,11 @@ published: true
 
 ---
 
-https://youtu.be/06z5qf81ofo
+<https://youtu.be/06z5qf81ofo>
 
 Rotate window is the main way that I navigated tmux before I learned
 `select-pane`.  It allows you to change your focused pane, or rotate the
 position of the panes easily.
-
 
 Default keybindings
 
@@ -30,6 +29,6 @@ bind -n M-o select-pane -t :.+
 bind -n M-O rotate-window
 ```
 
-https://waylonwalker.com/tmux-nav-2021/
+[[ tmux-nav-2021 ]]
 
 > for more information on how I navigate tmux, check out this full post

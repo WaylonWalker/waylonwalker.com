@@ -7,7 +7,7 @@ published: true
 
 ---
 
-https://youtu.be/c-a2Bnv_NJ0
+<https://youtu.be/c-a2Bnv_NJ0>
 
 Scripting tmux to open up specific applications can be intimidating your first
 time.  It can be tricky to get it to start in the right directory.  If you are
@@ -61,10 +61,9 @@ bind -n M-e display-popup -d '#{pane_current_path}' -E vifm
 bind C-k display-popup -d '#{pane_current_path}' -E 'gitui'
 ```
 
-https://waylonwalker.com/tmux-nav-2021/
+[[ tmux-nav-2021 ]]
 
 > for more information on how I navigate tmux, check out this full post
-
 
 Also check out the full YouTube
 [tmux-playlist](https://www.youtube.com/playlist?list=PLTRNG6WIHETB4reAxbWza3CZeP9KL6Bkr)

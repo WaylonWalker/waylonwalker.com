@@ -69,14 +69,13 @@ The key here is that I have to put the HTML into the markdown.  It looks a bit d
 
 ```
 
-https://waylonwalker.com/eight-years-cat/
+[[ eight-years-cat ]]
 
 ## First step
 
 My first attempt was to make my own transformer for `gatsby-remark-embedder`. I previously set this up on my site for Twitter and YouTube.  I tried to get some custom transformers going, to do what I wanted for my own website, but failed.  I really struggled to understand what data was coming in and out of the transformer.  My lack of js/node debugging skills was really showing.
 
-https://waylonwalker.com/gatsby-remark-embedder/
-
+[[ gatsby-remark-embedder ]]
 
 > using gatsby-remark-embedder to expand Twitter/YouTube
 
@@ -84,7 +83,7 @@ https://waylonwalker.com/gatsby-remark-embedder/
 
 It also works with redirects. I have a redirect to my "latest" post.  It's something that I don't do the best job at keeping up to date, but when I feel really proud of a post I make it the latest.
 
-https://waylonwalker.com/latest/
+[[ latest ]]
 
 > this post is a redirect to my "latest post"
 
@@ -279,10 +278,9 @@ const oneLineLinkCard = (url) => {
 }
 ```
 
-## It works...
+## It works
 
 And it works.  Whenever I reference my own blog with just a single link on a line in markdown I get a nice card link out to the other post, with a small image sized for the card, the title, and the description of the post.
-
 
 ## But
 

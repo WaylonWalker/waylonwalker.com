@@ -7,7 +7,7 @@ published: true
 
 ---
 
-https://youtu.be/E18m4KkJUnI
+<https://youtu.be/E18m4KkJUnI>
 
 [//]: <> (## images)
 
@@ -32,7 +32,6 @@ https://youtu.be/E18m4KkJUnI
 [//]: <> (* I use tmux)
 [//]: <> (* quickfix)
 
-
 ## Other possible titles
 
 * Using Vim as a Team Lead
@@ -40,7 +39,6 @@ https://youtu.be/E18m4KkJUnI
 * Why I stopped using @code
 * Get there fast
 * How I vim
-
 
 ## It's ok
 
@@ -58,7 +56,7 @@ vim is so well integrated into the terminal, take advantage
 
 As a team lead I bounce betweeen a dozen projects a per day
 
-https://pbs.twimg.com/media/FAEmRjYUcAUk2eR?format=jpg&name=large
+<https://pbs.twimg.com/media/FAEmRjYUcAUk2eR?format=jpg&name=large>
 
 [//]: <> (Trying to run more than one instance of an ide is hard, especially when)
 [//]: <> (projects are so similar and all start looking the same.)
@@ -67,7 +65,7 @@ https://pbs.twimg.com/media/FAEmRjYUcAUk2eR?format=jpg&name=large
 
 Running vim inside tmux lets me move swiftly between the exact project I need.
 
-https://twitter.com/_WaylonWalker/status/1438849269407047686/photo/1
+<https://twitter.com/_WaylonWalker/status/1438849269407047686/photo/1>
 [//]: <> (__)
 
 ## Hub and Spoke
@@ -76,8 +74,7 @@ https://twitter.com/_WaylonWalker/status/1438849269407047686/photo/1
 * fuzzy into all projects
 * fuzzy into open projects
 
-
-https://waylonwalker.com/tmux-nav-2021/#hub-and-spoke
+[[ tmux-nav-2021 ]]#hub-and-spoke
 
 [//]: <> (I'm sure there are other ways do do this, I bet you can get a vim plugin to do this)
 
@@ -90,34 +87,32 @@ https://waylonwalker.com/tmux-nav-2021/#hub-and-spoke
 
 [//]: <> (## Check messages)
 
-
 [//]: <> (a short interruption where I am called back to work where I show flying swiftly)
 [//]: <> (between projects with the perfect intent.)
 
 ## yes, vim is ugly, make it yours
 
 @rook
+
 ``` vim
 command! Q :q
 ```
 
 @_waylonwalker
+
 ``` vim
 nnoremap <leader>6 <c-^>
 ```
 
-
 [//]: <> (__)
 
 ## lsp
-
 
 ``` vim
 lua vim.lsp.buf.definition()
 ```
 
 ## treesitter
-
 
 ``` vim
 Plug 'nvim-treesitter/nvim-treesitter-textobjects'

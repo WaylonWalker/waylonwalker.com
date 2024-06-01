@@ -84,7 +84,7 @@ amounts of text and is brilliant at figuring out what you mean with just a few
 characters.  We can use it here to list out all of our conda environments and
 select the one we want to activate with just a few keystrokes.
 
-### Selecting the environment.
+### Selecting the environment
 
 Piping our list of environments directly into `fzf` gives us a fuzzy selection
 where we can type a few characters and it will return the row we were looking
@@ -137,7 +137,7 @@ a () {
 }
 ```
 
-https://waylonwalker.com/reusable-bash/
+[[ reusable-bash ]]
 
 > for more information on writing reusable bash scripts check out one of my
 > favorite articles

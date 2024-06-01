@@ -7,7 +7,7 @@ published: true
 
 ---
 
-https://youtu.be/QWPyYx54JbE
+<https://youtu.be/QWPyYx54JbE>
 
 Now it's time to switch gears, we are onto a different part of our day and
 there are just too many sessions running and we need to clean up shop.
@@ -45,7 +45,7 @@ around with your configured navigation scheme, press `x` to kill a session, or
 pane or window then `y` to confirm.  You can also batch delete by tagging items
 with t, and killing them all at once with `X`.
 
-https://waylonwalker.com/tmux-choose-tree/
+[[ tmux-choose-tree ]]
 
 > check out this post for a bit more information on choose-tree
 
@@ -65,10 +65,9 @@ bind k display-popup -E "\
 
 > note this is setup to multiple sessions all at once.
 
-https://waylonwalker.com/tmux-nav-2021/
+[[ tmux-nav-2021 ]]
 
 > for more information on how I navigate tmux, check out this full post
-
 
 Also check out the full YouTube
 [tmux-playlist](https://www.youtube.com/playlist?list=PLTRNG6WIHETB4reAxbWza3CZeP9KL6Bkr)

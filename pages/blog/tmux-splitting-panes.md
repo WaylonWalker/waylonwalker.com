@@ -7,7 +7,7 @@ published: true
 
 ---
 
-https://youtu.be/kzgyiHap1nQ
+<https://youtu.be/kzgyiHap1nQ>
 
 splitting panes is a core feature of tmux.  It allows us to split the terminal
 vertically or horizontally into new panes.
@@ -21,7 +21,6 @@ bind -n M-X kill-pane
 > 🗒️ note that  '#{pane_current_path}'will keep the split in the same directory
 > as it's parent, without this it will default to your home directory.
 
-
-https://waylonwalker.com/tmux-nav-2021/
+[[ tmux-nav-2021 ]]
 
 > for more information on how I navigate tmux, check out this full post

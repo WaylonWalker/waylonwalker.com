@@ -7,7 +7,7 @@ published: true
 
 ---
 
-https://youtu.be/Rn6mOarCQ-Y
+<https://youtu.be/Rn6mOarCQ-Y>
 
 Zooming into the current split in tmux is a valuable tool to give yourself some
 screen real estate.  These days I am almost always presenting, streaming, or
@@ -17,13 +17,11 @@ anytime I make a split it is really uncomfortable, being able to zoom into the
 split I am focused on is a big help, and also help anyone watching follow where
 I am currently working.
 
-
 Default key bindings for zooming the current split
 
 ``` bash
 bind-key          z resize-pane -Z
 ```
-
 
 I have rebound this to match the default binding with mod+z rather so that I
 get that single keystroke experience.
@@ -32,6 +30,6 @@ get that single keystroke experience.
 bind -n M-z resize-pane -Z
 ```
 
-https://waylonwalker.com/tmux-nav-2021/
+[[ tmux-nav-2021 ]]
 
 > for more information on how I navigate tmux, check out this full post

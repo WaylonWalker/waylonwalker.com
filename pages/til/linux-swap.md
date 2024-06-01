@@ -38,6 +38,6 @@ Mem:            15Gi       5.5Gi       4.9Gi       458Mi       5.2Gi       9.3Gi
 Swap:          4.0Gi          0B       4.0Gi
 ```
 
-https://waylonwalker.com/reset-ipython/
+[[ reset-ipython ]]
 
 > I also used this trick in this article to give my python process a bit more oompf and get it on home.

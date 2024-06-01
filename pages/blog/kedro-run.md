@@ -13,9 +13,9 @@ your workflow, but its good to have under your belt.  I personally do this half
 the time and run from ipython half the time.  In production, I mostly use docker
 and that is all done with this cli.
 
-https://youtu.be/ZmccpLy-OEI
+<https://youtu.be/ZmccpLy-OEI>
 
-https://waylonwalker.com/what-is-kedro/
+[[ what-is-kedro ]]
 
 > 👆 Unsure what kedro is?  Check out this post.
 
@@ -62,8 +62,8 @@ kedro run --pipeline dp --to-nodes create_model_input_table_node
 
 ## Multiple things
 
-
 You can stack up multiple kedro dag concepts into a single run command.
+
 ```
 kedro run --pipeline dp --to-nodes create_model_input_table_node --to-nodes preprocess_shuttles_node
 ```

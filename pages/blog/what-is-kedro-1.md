@@ -8,7 +8,7 @@ jinja: false
 
 ---
 
-https://waylonwalker.com/what-is-kedro
+[[ what-is-kedro ]]
 
 > This is my original what-is-kedro article.  There is a brand new one
 
@@ -24,7 +24,6 @@ view of kedro, future articles will dive deper into each one.
 
 <!-- {% slideshare DAZrqvJmuUUfFF %} -->
 
-
 ## Libraries
 
 Currently, [kedro](https://kedro.readthedocs.io) is broken down into 3 different libraries.
@@ -38,7 +37,6 @@ Currently, [kedro](https://kedro.readthedocs.io) is broken down into 3 different
 ## [kedro](https://kedro.readthedocs.io)
 
 ![kedro logo](https://images.waylonwalker.com/68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f7175616e74756d626c61636b6c6162732f6b6564726f2f6d61737465722f696d672f6b6564726f5f62616e6e65722e6a7067.jpg)
-
 
 [kedro](https://kedro.readthedocs.io) is the core of the ecosystem.  It provides the docs, getting started, `kedro new` templates, and the core library including the catalog and pipeline.
 

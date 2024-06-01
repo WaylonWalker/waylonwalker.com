@@ -26,6 +26,7 @@ mu sh $(grep -iRl "KEDRO_GID=0" | xargs sed -i "s/KEDRO_GID=0/KEDRO_GID=5/g")
 ```
 
 ## Registering Repos
+
 ``` bash
 mu register --all
 mu register --all
@@ -34,7 +35,7 @@ mu register --recursive
 mu unregister --all
 ```
 
-https://waylonwalker.com/bash/
+[[ bash ]]
 
 > I have similar command line related shortcuts in my bash notes
 

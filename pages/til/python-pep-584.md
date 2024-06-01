@@ -40,8 +40,7 @@ print(config)
 # {'url': 'https://waylonwalker.com', 'assets_dir': 'static'}
 ```
 
-
-https://waylonwalker.com/python-args-kwargs/
+[[ python-args-kwargs ]]
 
 > More on unpacking in this post.
 

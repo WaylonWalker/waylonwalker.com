@@ -94,6 +94,6 @@ Take the splash into rapid development of python functions with minimal distance
 
 ## Want automatic imports??
 
-https://waylonwalker.com/pyflyby/
+[[ pyflyby ]]
 
 > This article covers how I setup automatic imports in ipython

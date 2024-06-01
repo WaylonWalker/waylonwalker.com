@@ -12,7 +12,7 @@ published: true
 <iframe src="https://anchor.fm/waylon-walker/embed/episodes/Launching-Audio-for-the-Blog-en6kof" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 
 This is episode 1 of the Waylon Walker Audio experience, posts from
-[waylonwalker.com](https://waylonwalker.com) in audio form.
+[waylonwalker.com](https://waylonwalker.com){.hoverlink} in audio form.
 
 So I have had this idea for awhile to add audio to my blog posts.  The idea
 partly comes from the aws blog, if you have ever been on their blog you will
@@ -34,7 +34,6 @@ At the same time written text doesn't translate directly to audio well so don't
 necessarily expect the audio to be
 word for word.
 
-
 ## Code blocks
 
 There are a lot of code blocks in my blog, which don't translate directly into
@@ -52,10 +51,10 @@ embeded audio on the post.
 
 If you like this idea give the posts a listen, share them with your friends,
 give me a shout out on twitter
-[@_waylonwalker](https://twitter.com/_WaylonWalker).
+[@_waylonwalker](https://twitter.com/_WaylonWalker){.hoverlink}.
 
 ---
 
-https://waylonwalker.com/crush-dev-to-posts
+[[ crush-dev-to-posts ]]
 
 > If you enjoyed this post you may enjoy another "meta" post

@@ -7,12 +7,11 @@ published: true
 
 ---
 
-https://youtu.be/DkJ9rb85LC0
+<https://youtu.be/DkJ9rb85LC0>
 
 Quickly getting between tmux splits is critical skill for productivity.  You
 can get by with `next` or `prev` session for awhile, but if you have more than
 about three session you need something a bit more targeted.
-
 
 ## Full Screen selector
 
@@ -42,10 +41,9 @@ bind C-j display-popup -E "\
     xargs tmux switch-client -t"
 ```
 
-https://waylonwalker.com/tmux-nav-2021/
+[[ tmux-nav-2021 ]]
 
 > for more information on how I navigate tmux, check out this full post
-
 
 Also check out the full YouTube
 [tmux-playlist](https://www.youtube.com/playlist?list=PLTRNG6WIHETB4reAxbWza3CZeP9KL6Bkr)

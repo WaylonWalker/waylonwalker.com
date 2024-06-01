@@ -23,3 +23,9 @@ against that company.
 
 I care about the security of these companies I work for and their reputation,
 so I refuse to publically share it.
+
+## Need to know
+
+If somehow you need to know where I work it's my choice to tell you.  I don't
+need to advertise to every social engineering hacker where I work on the
+platform that they go to get that information from.

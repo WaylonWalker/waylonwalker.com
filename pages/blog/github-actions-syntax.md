@@ -43,7 +43,6 @@ of my misunderstanding for me.
 ['one', 'two', 'three']
 ```
 
-
 ### Objects
 
 Objects are just `{key: "value"}` pairs without any `-` before them.  I find
@@ -104,6 +103,7 @@ jobs:
         - name: step-three
           uses: package
 ```
+
 ``` json
 {
   "jobs": {
@@ -127,7 +127,6 @@ jobs:
   }
 }
 ```
-
 
 ## Multiline Strings
 
@@ -161,7 +160,7 @@ folded: >
 
 > 🔥 I always use `|` for steps that are scripts
 
-https://waylonwalker.com/testproject-io-py-actions/
+[[ testproject-io-py-actions ]]
 
 In 👆 This article you can see how I use the `|` character to run some docker
 compose commands in a GitHub action to run some integration tests wtih pytet,
@@ -250,6 +249,7 @@ with it.  Your first step for any action requiring code from your repo is to
  # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
  - uses: actions/checkout@v
 ```
+
 ### Default example
 
 This example runs a workflow called `CI` on ubuntu on every push or PR to the
@@ -293,12 +293,11 @@ jobs:
 
 ```
 
-
-https://waylonwalker.com/four-github-actions-website/
+[[ four-github-actions-website ]]
 
 ## Python
 
-https://waylonwalker.com/four-github-actions-python/
+[[ four-github-actions-python ]]
 
 If you are a python deveoper like me you will likely want to use GitHub actions
 to Lint, Test, Package, and deploy your python projects. 👆 This article covers just that.

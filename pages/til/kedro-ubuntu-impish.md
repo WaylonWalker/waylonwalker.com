@@ -42,11 +42,12 @@ ERROR: Could not find a version that satisfies the requirement kedro (from versi
 ERROR: No matching distribution found for kedro
 ```
 
-https://waylonwalker.com/what-is-kedro/
+[[ what-is-kedro ]]
 
 > Curious what kedro is?  Check out this article.
 
-## What's up..
+## What's up
+
 _wrong python version_
 
 The issue is that kedro only runs on up to `python 3.8`, and on Ubuntu
@@ -68,7 +69,7 @@ distribution that does not come from the standard repo.
 
 ## I have two articles that can help you
 
-https://waylonwalker.com/install-miniconda/
+[[ install-miniconda ]]
 
 > Using miniconda
 
@@ -76,7 +77,7 @@ https://waylonwalker.com/install-miniconda/
 conda create -n myenv python=3.8
 ```
 
-https://waylonwalker.com/til/pyenv-first-impressions/
+[[ til/pyenv-first-impressions ]]
 
 > Using pyenv
 

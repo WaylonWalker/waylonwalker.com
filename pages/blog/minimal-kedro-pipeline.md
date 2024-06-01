@@ -52,7 +52,7 @@ class ProjectHooks:
 
 This builds on another post that I made about creating the minimal python package.  I am not sure if it should be called a package, it's a module, but what do you call it after you build it and host it on pypi?
 
-https://waylonwalker.com/minimal-python-package/
+[[ minimal-python-package ]]
 
 ## Directory structure
 
@@ -114,9 +114,10 @@ nodes.append(node(mult_data, "raw_data", "mult_data", name="create_mult_data"))
 
 pipeline = Pipeline(nodes)
 ```
+
 ## Kedro in scripts
 
-https://waylonwalker.com/kedro-in-scripts/
+[[ kedro-in-scripts ]]
 
 > If you enjoyed this one check out this companion article where I build a fully runnable kedro project in a single script.
 

@@ -18,7 +18,7 @@ passing a list or dictionary of catalog entries can be a bit confusing.
 
 Check out this post for a review of how `*args` `**kwargs` work in python.
 
-https://waylonwalker.com/python-args-kwargs/
+[[ python-args-kwargs ]]
 > [python args and kwargs](https://waylonwalker.com/python-args-kwargs) article by [@_waylonwalker](https://twitter.com/_WaylonWalker)
 
 ## All Kedro inputs are catalog Entries
@@ -101,7 +101,7 @@ my_node = node(
 )
 ```
 
-## `*args` scares the crap out of me!
+## `*args` scares the crap out of me
 
 It's great for the `unioner` example where its a collection of similar things where order
 does not matter.  But for the `create_sales_report` function.  Those are distinctly different

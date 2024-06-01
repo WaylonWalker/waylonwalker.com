@@ -7,13 +7,11 @@ published: true
 
 ---
 
-https://youtu.be/YRPZBv-iYyE
+<https://youtu.be/YRPZBv-iYyE>
 
 New window as it sounds makes new windows in tmux.  Windows are kind of like
 tabs.  They are another screen within your sessions that you can name and make
 new panes in.
-
-
 
 Default key bindings for creating and navigating windows in tmux.
 
@@ -38,6 +36,6 @@ many panes and windows.  It became a nightmare to manage and quickly get
 between two sets work efficiently.  This year I leaned in on sessions quite
 heavily.  Checkout this 👇 post to see that workflow in depth.
 
-https://waylonwalker.com/tmux-nav-2021/
+[[ tmux-nav-2021 ]]
 
 > for more information on how I navigate tmux, check out this full post

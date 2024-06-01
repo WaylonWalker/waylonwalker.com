@@ -7,7 +7,7 @@ published: true
 
 ---
 
-https://youtu.be/mvgM8UH11_U
+<https://youtu.be/mvgM8UH11_U>
 
 The tmux status bar can be a handy tool to remind yourself where you are within
 tmux.  It can also include a bunch of system information like battery status,
@@ -16,7 +16,7 @@ it minimal, and actually keep it turned off most of the time.  I find that it
 helps a little bit for others to follow along if I keep it on in certain
 circumstances.
 
-##  show the status bar
+## show the status bar
 
 You can set a hotkey to show or hide the status bar.
 
@@ -69,11 +69,9 @@ set -g status-justify centre
 
 For more format options search for FORMATS in the tmux manpage.
 
-
-https://waylonwalker.com/tmux-nav-2021/
+[[ tmux-nav-2021 ]]
 
 > for more information on how I navigate tmux, check out this full post
-
 
 Also check out the full YouTube
 [tmux-playlist](https://www.youtube.com/playlist?list=PLTRNG6WIHETB4reAxbWza3CZeP9KL6Bkr)

@@ -7,7 +7,7 @@ published: true
 
 ---
 
-https://youtu.be/LLk94fKpGg4
+<https://youtu.be/LLk94fKpGg4>
 
 As we push the limits of tmux further and further you are bound to end up in a
 situation where you are mashing down a hotkey and it's just not doing what you
@@ -30,8 +30,7 @@ show-messages [-JT] [-t target-client]
         show debugging information about jobs and terminals.
 ```
 
-
-https://waylonwalker.com/tmux-nav-2021/
+[[ tmux-nav-2021 ]]
 
 > for more information on how I navigate tmux, check out this full post
 

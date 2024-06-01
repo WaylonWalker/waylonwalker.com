@@ -10,7 +10,7 @@ published: true
 Recently I automated starting new posts with a python script.  Today I want to
 work on the next part that is editing those posts quickly.
 
-https://waylonwalker.com/automating-my-post-starter
+[[ automating-my-post-starter ]]
 
 > Check out this post about setting up my posts with python 🐍
 
@@ -47,7 +47,7 @@ ep () {
 }
 ```
 
-https://waylonwalker.com/reusable-bash
+[[ reusable-bash ]]
 
 > check out this post for more information about writing reusable bash scripts.
 

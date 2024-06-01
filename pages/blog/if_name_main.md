@@ -67,7 +67,7 @@ python nodes.py
     </button>
 </div>
 
-https://waylonwalker.com/install-miniconda/
+[[ install-miniconda ]]
 
 > If you don't already have python installed try using miniconda or replit.com
 

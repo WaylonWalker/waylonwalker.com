@@ -15,7 +15,7 @@ built on top of [rich](https://github.com/Textualize/rich).
 Browsing through twitter the other day I discovered it through this
 tweet by [_darrenburns](https://twitter.com/_darrenburns).
 
-https://twitter.com/_darrenburns/status/1510350016623394817
+<https://twitter.com/_darrenburns/status/1510350016623394817>
 
 ## Dunk is beta
 
@@ -42,7 +42,6 @@ git diff | pipx run dunk
 
 If you like it, you can install it with pip or pipx, I prefer pipx for
 cli applications like this.
-
 
 ```bash
 pipx install dunk
@@ -108,6 +107,6 @@ its not exactly like the last.
   shell: pipx install dunk
 ```
 
-https://waylonwalker.com/til/ansible_install_if_not_callable/
+[[ til/ansible_install_if_not_callable ]]
 
 > More on conditionally installing tools with ansible in this post.

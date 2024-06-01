@@ -11,7 +11,7 @@ one still uses the same verbiage as the function/method names.
 
 Class hooks seem a bit special as they give you a way to configure them so that they are a bit more generally useful.
 
-https://waylonwalker.com/what-is-kedro
+[[ what-is-kedro ]]
 
 >
 > If you are completely unsure what kedro is be sure to check out my [what is kedro](https://waylonwalker.com/wike) post

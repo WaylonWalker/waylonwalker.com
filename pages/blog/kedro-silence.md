@@ -20,9 +20,7 @@ to hear about anything for my current use case unless it's essential, i.e., a
 failure.  In this case, I set the log levels to ERROR as most errors should
 stop execution anyways.
 
-
 ### python logging levels
-
 
 | Level    | Numeric value |
 |----------|---------------|
@@ -32,7 +30,6 @@ stop execution anyways.
 | INFO     | 20            |
 | DEBUG    | 10            |
 | NOTSET   | 0             |
-
 
 ## Get or Create a logger
 
@@ -111,8 +108,7 @@ This function comes right from a plugin I am currently working on
 [kedro-diff](https://github.com/WaylonWalker/kedro-diff).  Check it out, give
 it a star, and watch it for release.
 
-
-https://waylonwalker.com/what-is-kedro/
+[[ what-is-kedro ]]
 
 > Not familiar with kedro, check out this article to see what it's all about.
 
