@@ -3,6 +3,21 @@
 @tailwind utilities;
 @import "./highlight.css";
 
+html {
+  overflow-x: hidden;
+  font-size: 16px;
+}
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 22px;
+  }
+}
+
 
 audio {
   filter: invert(100%);
@@ -26,8 +41,11 @@ audio {
 }
 
 .social {
+  @apply max-w-[95vw];
+  @apply mx-auto;
+
   @apply font-bold;
-  @apply flex flex-row;
+  @apply flex flex-row flex-wrap;
   @apply gap-4;
   @apply justify-center;
   @apply py-8;
@@ -140,7 +158,6 @@ html {
 }
 
 body {
-  /* @apply prose-2xl prose-gray lg:prose-xl prose-invert; */
   @apply text-white;
   @apply min-h-screen;
 }
@@ -193,6 +210,7 @@ footer p {
 #title-wrapper {
   @apply p-4;
   @apply text-right;
+  @apply rounded-t-3xl;
   /* @apply bg-red-500; */
   @apply bg-gradient-to-r from-indigo-900/20 to-indigo-950/20;
   @apply border-b-2;
@@ -255,17 +273,24 @@ footer p {
 }
 
 article {
-  @apply prose-p:text-2xl prose prose-gray prose-invert sm:prose-2xl lg:prose-xl;
+  /* @apply prose-p:text-2xl sm:prose-p:text-2xl; */
+  @apply prose-2xl prose-invert lg:prose-xl;
+  /* @apply prose-xl prose-invert; */
   @apply bg-zinc-900;
   @apply rounded-3xl;
-  @apply container md:mx-auto;
 
-  @apply container w-max max-w-3xl sm:max-w-screen-md md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl;
+  @apply container w-[98vw] ml-0 sm:m-auto max-w-3xl   lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl;
   /* @apply min-w-sm; */
   /* @apply sm:max-w-24 md:max-w-screen-md lg:max-w-screen-lg; */
-  @apply mx-auto mb-10 mt-2 pb-10;
+  @apply mb-10 mt-2 pb-10;
   @apply shadow-2xl shadow-cyan-300/20 ring-4 ring-cyan-800/10;
 }
+
+article ul {
+  @apply list-[circle];
+  @apply list-inside;
+}
+
 
 .heading-permalink {
   @apply h-6 w-6;
@@ -318,11 +343,11 @@ h2.text-center {
 /*   @apply my-2; */
 /* } */
 
-/* blockquote { */
-/*   @apply px-4; */
-/*   @apply border-l-4; */
-/*   @apply border-zinc-600; */
-/* } */
+blockquote {
+  @apply px-4;
+  @apply border-l-4;
+  @apply border-l-pink-600;
+}
 
 /* p { */
 /*   @apply mb-4; */
@@ -330,7 +355,13 @@ h2.text-center {
 
 #post-body {
   @apply grid;
-  grid-template-columns: 2rem 1fr 1fr 2rem;
+  grid-template-columns: .5rem 1fr 1fr 1rem;
+}
+
+@media screen and (min-width: 640px) {
+  #post-body {
+    grid-template-columns: 2rem 1fr 1fr 2rem;
+  }
 }
 #post-body * {
   @apply col-start-2;
