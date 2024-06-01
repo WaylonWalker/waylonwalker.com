@@ -15,7 +15,7 @@ def render_youtube(youtube: "Tag") -> "Tag":
     id = link.replace("https://youtu.be/", "")
 
     html = f"""
-        <iframe width="800" height="450" src="https://youtube.com/embed/{id}" title="YouTube video
+        <iframe class='m-auto my-8' width="800" height="450" src="https://youtube.com/embed/{id}" title="YouTube video
         player" frameborder="0" allow="accelerometer; autoplay;
         clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
@@ -53,15 +53,12 @@ def post_render(markata):
     should_prettify = markata.config.get("prettify_html", False)
     with markata.cache as cache:
         for article in markata.articles:
-            key = markata.make_hash(
-                Path(__file__).read_text(),
-                article.html,
-            )
+            key = markata.make_hash(article.html)
 
             html_from_cache = cache.get(key)
 
             if html_from_cache is None:
-                soup = BeautifulSoup(article.html, "html.parser")
+                soup = BeautifulSoup(article.html, "lxml")
                 swap_youtubes(soup)
                 if should_prettify:
                     html = soup.prettify()
