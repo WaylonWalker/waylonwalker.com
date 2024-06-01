@@ -6,7 +6,7 @@ date: 2021-06-08T20:27:53
 published: false
 ---
 
-https://stackoverflow.com/questions/16720541/python-string-replace-regular-expression
+[https://stackoverflow.com/questions/16720541/python-string-replace-regular-expression](https://stackoverflow.com/questions/16720541/python-string-replace-regular-expression){.hoverlink}
 
 I am starting to stream 3 days per week, before I start work in the morning.
 These streams will likely be me just talking through things I am already doing.

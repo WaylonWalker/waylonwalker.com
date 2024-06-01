@@ -13,7 +13,7 @@ published: false
 
 I don't want to be an expert python developer.
 
-<https://www.youtube.com/watch?v=iKzOBWOHGFE>
+[https://www.youtube.com/watch?v=iKzOBWOHGFE](https://www.youtube.com/watch?v=iKzOBWOHGFE){.hoverlink}
 
 ![keynote-speaker---james-powell](https://screenshots.waylonwalker.com/keynote-speaker---james-powell.webp)
 

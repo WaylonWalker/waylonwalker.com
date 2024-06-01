@@ -10,7 +10,7 @@ published: true
 
 Here are some CFP's that I used for PyOhio 2022.
 
-<https://pretalx.com/pyohio-2022/cfp>
+[https://pretalx.com/pyohio-2022/cfp](https://pretalx.com/pyohio-2022/cfp){.hoverlink}
 
 ## Idea to blog post in minutes - Shorter
 

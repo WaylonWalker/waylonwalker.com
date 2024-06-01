@@ -7,7 +7,7 @@ published: true
 
 ---
 
-<https://youtu.be/DkJ9rb85LC0>
+[https://youtu.be/DkJ9rb85LC0](https://youtu.be/DkJ9rb85LC0){.hoverlink}
 
 Quickly getting between tmux splits is critical skill for productivity.  You
 can get by with `next` or `prev` session for awhile, but if you have more than

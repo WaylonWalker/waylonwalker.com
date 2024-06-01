@@ -23,7 +23,7 @@ the maintainer and chime in with my experience as a user of kedro.
 
 ## Video Version
 
-https://youtu.be/WTcjvwkXoY0
+[https://youtu.be/WTcjvwkXoY0](https://youtu.be/WTcjvwkXoY0){.hoverlink}
 
 Michael made the call available on youtube as well as the audio only
 [podcast](https://talkpython.fm/episodes/show/337/kedro-for-maintainable-data-science)

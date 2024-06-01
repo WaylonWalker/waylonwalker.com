@@ -7,7 +7,7 @@ published: true
 
 ---
 
-<https://youtu.be/QWPyYx54JbE>
+[https://youtu.be/QWPyYx54JbE](https://youtu.be/QWPyYx54JbE){.hoverlink}
 
 Now it's time to switch gears, we are onto a different part of our day and
 there are just too many sessions running and we need to clean up shop.

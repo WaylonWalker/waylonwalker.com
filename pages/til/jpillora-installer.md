@@ -20,12 +20,12 @@ Check out some example links.
 
 opening in a browser will show metadata
 
-https://i.jpillora.com/serve
+[https://i.jpillora.com/serve](https://i.jpillora.com/serve){.hoverlink}
 
 If you pass in script=true it will instead return the install script as it
 would by default through curl.
 
-https://i.jpillora.com/serve?script=true
+[https://i.jpillora.com/serve?script=true](https://i.jpillora.com/serve?script=true){.hoverlink}
 
 ## Use it to install neovim
 

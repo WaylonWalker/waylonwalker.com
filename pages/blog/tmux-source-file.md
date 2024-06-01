@@ -7,7 +7,7 @@ published: true
 
 ---
 
-<https://youtu.be/dDq0depPrTs>
+[https://youtu.be/dDq0depPrTs](https://youtu.be/dDq0depPrTs){.hoverlink}
 
 So you have been tricking out that `.tmux.conf`, you're looking for a silky
 smooth workflow that lets you fly through tmux with super speed, but every time

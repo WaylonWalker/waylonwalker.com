@@ -10,7 +10,7 @@ tags:
 
 ## inspiration
 
-<https://blog.ostermiller.org/removing-and-purging-files-from-git-history/>
+[https://blog.ostermiller.org/removing-and-purging-files-from-git-history/](https://blog.ostermiller.org/removing-and-purging-files-from-git-history/){.hoverlink}
 
 ```bash
 git log --all --pretty=format: --name-only --diff-filter=D | sed -r 's|[^/]+$||g' | sort -u

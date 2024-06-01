@@ -7,7 +7,7 @@ published: true
 
 ---
 
-<https://youtu.be/YRPZBv-iYyE>
+[https://youtu.be/YRPZBv-iYyE](https://youtu.be/YRPZBv-iYyE){.hoverlink}
 
 New window as it sounds makes new windows in tmux.  Windows are kind of like
 tabs.  They are another screen within your sessions that you can name and make

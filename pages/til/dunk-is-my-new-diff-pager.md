@@ -15,7 +15,7 @@ built on top of [rich](https://github.com/Textualize/rich).
 Browsing through twitter the other day I discovered it through this
 tweet by [_darrenburns](https://twitter.com/_darrenburns).
 
-https://twitter.com/_darrenburns/status/1510350016623394817
+[https://twitter.com/_darrenburns/status/1510350016623394817](https://twitter.com/_darrenburns/status/1510350016623394817){.hoverlink}
 
 ## Dunk is beta
 

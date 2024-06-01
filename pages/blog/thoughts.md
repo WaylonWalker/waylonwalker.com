@@ -43,7 +43,7 @@ journey as I learn, lets talk tech.
 The core of the site is a python web server running fastapi.  Most of the
 endpoints return html via jinja templates to the browser and json to anything
 else.  So you go to the list of posts at
-<https://thoughts.waylonwalker.com/posts/waylonwalker/?page_size=9999999999> in
+[https://thoughts.waylonwalker.com/posts/waylonwalker/?page_size=9999999999 in](https://thoughts.waylonwalker.com/posts/waylonwalker/?page_size=9999999999 in){.hoverlink}
 a web browser it will be a rendered feed, but from curl you will get json.
 
 ### htmx

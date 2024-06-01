@@ -7,7 +7,7 @@ published: true
 
 ---
 
-<https://youtu.be/kzgyiHap1nQ>
+[https://youtu.be/kzgyiHap1nQ](https://youtu.be/kzgyiHap1nQ){.hoverlink}
 
 splitting panes is a core feature of tmux.  It allows us to split the terminal
 vertically or horizontally into new panes.

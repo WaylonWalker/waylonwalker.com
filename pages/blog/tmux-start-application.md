@@ -7,7 +7,7 @@ published: true
 
 ---
 
-<https://youtu.be/c-a2Bnv_NJ0>
+[https://youtu.be/c-a2Bnv_NJ0](https://youtu.be/c-a2Bnv_NJ0){.hoverlink}
 
 Scripting tmux to open up specific applications can be intimidating your first
 time.  It can be tricky to get it to start in the right directory.  If you are

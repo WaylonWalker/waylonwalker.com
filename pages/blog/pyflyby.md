@@ -19,7 +19,7 @@ the past few weeks.  It's glorious.
 
 _Listen to me rant on how great pyflyby is_
 
-<https://youtu.be/2QW5DJiEJH4>
+[https://youtu.be/2QW5DJiEJH4](https://youtu.be/2QW5DJiEJH4){.hoverlink}
 
 Give the video a watch, I did not have noise-cancelling on in obs. My
 apologies for the background hum and the mic stand bumps. I did my best to fix

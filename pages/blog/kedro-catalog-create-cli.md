@@ -12,7 +12,7 @@ generating yaml catalog entries for me.  It will create new yaml files for each
 pipeline, fill in missiing catalog entries, and respect already existing
 catalog entries.  It will reformat the file, and sort it based on catalog key.
 
-<https://youtu.be/_22ELT4kja4>
+[https://youtu.be/_22ELT4kja4](https://youtu.be/_22ELT4kja4){.hoverlink}
 
 <!-- syntax highlighting broken after underscore from the link __ -->
 

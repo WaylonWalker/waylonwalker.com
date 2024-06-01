@@ -7,7 +7,7 @@ published: true
 
 ---
 
-<https://youtu.be/BMkpbfhbkKM>
+[https://youtu.be/BMkpbfhbkKM](https://youtu.be/BMkpbfhbkKM){.hoverlink}
 
 The prefix key is an essential part of tmux, by default all of tmux's
 key-bindings sit behind a prefix.  This prefix is very similar to vim's leader

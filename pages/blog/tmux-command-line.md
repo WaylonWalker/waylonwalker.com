@@ -7,7 +7,7 @@ published: true
 
 ---
 
-<https://youtu.be/SNu-4IrkjAs>
+[https://youtu.be/SNu-4IrkjAs](https://youtu.be/SNu-4IrkjAs){.hoverlink}
 
 So far we have covered a lot of tmux commands and how they map to keybindings
 but these same commands can be executed at the command line.

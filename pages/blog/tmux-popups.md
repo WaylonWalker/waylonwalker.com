@@ -7,7 +7,7 @@ published: true
 
 ---
 
-<https://youtu.be/2I8fB28zfB4>
+[https://youtu.be/2I8fB28zfB4](https://youtu.be/2I8fB28zfB4){.hoverlink}
 
 Tmux-popups are a great feature that is relatively new to tmux, many repos such
 as the standard ubuntu repos do not have it.   Popups came in 3.2a, if your

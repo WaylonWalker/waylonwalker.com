@@ -40,11 +40,11 @@ STOP LEAVING Browser Tabs open and save them here!
 
 ## nix
 
-https://ianthehenry.com/posts/how-to-learn-nix/python3-alpha/
+[https://ianthehenry.com/posts/how-to-learn-nix/python3-alpha/](https://ianthehenry.com/posts/how-to-learn-nix/python3-alpha/){.hoverlink}
 
 ## textual css
 
-https://twitter.com/willmcgugan/status/1531294412696956930
+[https://twitter.com/willmcgugan/status/1531294412696956930](https://twitter.com/willmcgugan/status/1531294412696956930){.hoverlink}
 
 ## neovim
 
@@ -59,17 +59,17 @@ https://twitter.com/willmcgugan/status/1531294412696956930
 
 ## prime and nic
 
-https://www.twitch.tv/videos/1229603481
+[https://www.twitch.tv/videos/1229603481](https://www.twitch.tv/videos/1229603481){.hoverlink}
 
 ## How to Remove Background Sound in Real-Time for Linux
 
  by
 @adfpizarro
 
-https://hackernoon.com/how-to-remove-background-sound-in-real-time-for-linux-uvea3w7n
+[https://hackernoon.com/how-to-remove-background-sound-in-real-time-for-linux-uvea3w7n](https://hackernoon.com/how-to-remove-background-sound-in-real-time-for-linux-uvea3w7n){.hoverlink}
 
-https://ultimatemotherfuckingwebsite.com/
+[https://ultimatemotherfuckingwebsite.com/](https://ultimatemotherfuckingwebsite.com/){.hoverlink}
 
 ## 🔥 git aliases
 
-https://github.com/jsatk/dotfiles/blob/ck/tag-git/gitconfig
+[https://github.com/jsatk/dotfiles/blob/ck/tag-git/gitconfig](https://github.com/jsatk/dotfiles/blob/ck/tag-git/gitconfig){.hoverlink}

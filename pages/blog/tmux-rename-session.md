@@ -7,7 +7,7 @@ published: true
 
 ---
 
-https://youtu.be/WRLRiQDjVIA
+[https://youtu.be/WRLRiQDjVIA](https://youtu.be/WRLRiQDjVIA){.hoverlink}
 
 So you have been working on your tmux workflow, you've dropped a too many
 window workflow for scoping work that belongs together into separate sessions,

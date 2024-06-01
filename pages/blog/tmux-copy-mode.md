@@ -7,7 +7,7 @@ published: true
 
 ---
 
-<https://youtu.be/-ypY_-VmBKk>
+[https://youtu.be/-ypY_-VmBKk](https://youtu.be/-ypY_-VmBKk){.hoverlink}
 
 tmux copy-mode is a tmux mode that lets you scroll, search, copy, and jump your
 way through a pane.  There are a ton of keybindings for copy-mode, the main

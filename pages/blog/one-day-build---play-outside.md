@@ -143,7 +143,7 @@ async def get_weather(lat_long):
 
 Since no one is going to know their current latitude and longitude we need a
 way to look this up for it to actually be useful. For this I leaned on
-<https://ipwhois.io/>
+[https://ipwhois.io/](https://ipwhois.io/){.hoverlink}
 
 <a href='https://ipwhois.io/' >
 <img

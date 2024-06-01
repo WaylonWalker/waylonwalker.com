@@ -12,7 +12,7 @@ the results under.
 
 ## does this link work?
 
-<https://waylonwalker.com/what-is-kedro/>
+[https://waylonwalker.com/what-is-kedro/](https://waylonwalker.com/what-is-kedro/){.hoverlink}
 
 > 👆 Unsure what kedro is? Check out this post.
 
@@ -51,7 +51,7 @@ have specified, and returns the correct output that you specify as your output.
 - partial function
 - literally any callable
 
-<https://waylonwalker.com/kedro-inputs/>
+[https://waylonwalker.com/kedro-inputs/](https://waylonwalker.com/kedro-inputs/){.hoverlink}
 
 > For more information on how kedro passes inputs into your functions check out
 > this post
@@ -327,7 +327,7 @@ nodes.append(
         )
 ```
 
-<https://waylonwalker.com/kedro-incremental-versioned-datasets/>
+[https://waylonwalker.com/kedro-incremental-versioned-datasets/](https://waylonwalker.com/kedro-incremental-versioned-datasets/){.hoverlink}
 
 > for more information in incremental and partitioned datasets see this post
 

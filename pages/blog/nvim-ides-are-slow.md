@@ -7,7 +7,7 @@ published: true
 
 ---
 
-<https://youtu.be/E18m4KkJUnI>
+[https://youtu.be/E18m4KkJUnI](https://youtu.be/E18m4KkJUnI){.hoverlink}
 
 [//]: <> (## images)
 
@@ -56,7 +56,7 @@ vim is so well integrated into the terminal, take advantage
 
 As a team lead I bounce betweeen a dozen projects a per day
 
-<https://pbs.twimg.com/media/FAEmRjYUcAUk2eR?format=jpg&name=large>
+[https://pbs.twimg.com/media/FAEmRjYUcAUk2eR?format=jpg&name=large](https://pbs.twimg.com/media/FAEmRjYUcAUk2eR?format=jpg&name=large){.hoverlink}
 
 [//]: <> (Trying to run more than one instance of an ide is hard, especially when)
 [//]: <> (projects are so similar and all start looking the same.)
@@ -65,7 +65,7 @@ As a team lead I bounce betweeen a dozen projects a per day
 
 Running vim inside tmux lets me move swiftly between the exact project I need.
 
-<https://twitter.com/_WaylonWalker/status/1438849269407047686/photo/1>
+[https://twitter.com/_WaylonWalker/status/1438849269407047686/photo/1](https://twitter.com/_WaylonWalker/status/1438849269407047686/photo/1){.hoverlink}
 [//]: <> (__)
 
 ## Hub and Spoke

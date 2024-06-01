@@ -7,7 +7,7 @@ published: true
 
 ---
 
-<https://youtu.be/RB87EEnnMnU>
+[https://youtu.be/RB87EEnnMnU](https://youtu.be/RB87EEnnMnU){.hoverlink}
 
 An ultimate productivity key-binding in tmux is one to switch to the last session.  I use this to quickly get between sessions really quick.  Often I am working and need to lookup a quick note, or copy something into my notes, then get back to where I was quickly.
 

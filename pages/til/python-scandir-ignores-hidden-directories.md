@@ -42,7 +42,7 @@ len([Path(f) for f in glob.glob("**/*.py", recursive=True)])
 After digging into the docs I found that `glob.glob` uses `os.scandir` which
 ignores '.' and '..' directories while Path.glob does not.
 
-https://docs.python.org/3/library/os.html#os.scandir
+[https://docs.python.org/3/library/os.html#os.scandir](https://docs.python.org/3/library/os.html#os.scandir){.hoverlink}
 
 ## results?
 

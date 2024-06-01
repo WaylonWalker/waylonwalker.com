@@ -7,7 +7,7 @@ published: true
 
 ---
 
-<https://youtu.be/uqiv5LAiJe0>
+[https://youtu.be/uqiv5LAiJe0](https://youtu.be/uqiv5LAiJe0){.hoverlink}
 
 Kedro new is simply a wrapper around the cookiecutter templating library.  The
 kedro team maintains a ready made template that has everything you need for a

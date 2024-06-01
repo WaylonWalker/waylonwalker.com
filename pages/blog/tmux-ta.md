@@ -6,7 +6,7 @@ date: 2021-08-13T09:03:09
 published: true
 ---
 
-https://youtu.be/nT0FA1RNZEs
+[https://youtu.be/nT0FA1RNZEs](https://youtu.be/nT0FA1RNZEs){.hoverlink}
 
 Now your creating, jumping, and killing sessions like a boss. You are slicing
 through projects with ease, let me show you one more thing that can be the
@@ -55,7 +55,7 @@ ln -sf ~/work/* ~/projects
 ln -sf ~/git/* ~/projects
 ```
 
-https://waylonwalker.com/symlink-gallery/
+[https://waylonwalker.com/symlink-gallery/](https://waylonwalker.com/symlink-gallery/){.hoverlink}
 
 > This post covers how I combine all my projects into a single directory.
 
@@ -66,7 +66,7 @@ https://waylonwalker.com/symlink-gallery/
 - my [ta script](https://github.com/WaylonWalker/devtainer/blob/main/bin/.local/bin/ta)
 - my [.tmux.conf](https://github.com/WaylonWalker/devtainer/blob/main/tmux/.tmux.conf)
 
-https://waylonwalker.com/tmux-nav-2021/
+[https://waylonwalker.com/tmux-nav-2021/](https://waylonwalker.com/tmux-nav-2021/){.hoverlink}
 
 > for more information on how I navigate tmux, check out this full post
 

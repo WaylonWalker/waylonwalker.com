@@ -26,7 +26,7 @@ giving me a `tutorial` cli command to run.
 tutorial = 'textual_tutorial.tui:tui'
 ```
 
-https://waylonwalker.com/hatch-new-cli/
+[https://waylonwalker.com/hatch-new-cli/](https://waylonwalker.com/hatch-new-cli/){.hoverlink}
 
 ## setup.py entrypoints
 
@@ -44,7 +44,7 @@ setup(
 )
 ```
 
-https://waylonwalker.com/minimal-python-package/
+[https://waylonwalker.com/minimal-python-package/](https://waylonwalker.com/minimal-python-package/){.hoverlink}
 
 ## tui.py
 

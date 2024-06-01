@@ -7,7 +7,7 @@ published: true
 
 ---
 
-<https://youtu.be/2ZqFDsJywt8>
+[https://youtu.be/2ZqFDsJywt8](https://youtu.be/2ZqFDsJywt8){.hoverlink}
 
 Tmux popups are actually floating windows that you can drag around the screen.  They always open in the middle (by default) when you open them, no matter where you leave them.
 
