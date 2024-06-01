@@ -42,7 +42,7 @@ out of the box.
 
 ```
 
-<https://www.youtube.com/watch?v=2MEmsinxRK4>
+https://www.youtube.com/watch?v=2MEmsinxRK4
 
 > I made a YT based on this post
 

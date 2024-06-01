@@ -23,7 +23,7 @@ controller.
 
 ## KubeSeal
 
-<https://sealed-secrets.netlify.app/>
+https://sealed-secrets.netlify.app/
 
 <a href='https://sealed-secrets.netlify.app/' >
 <img

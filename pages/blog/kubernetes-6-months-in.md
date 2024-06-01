@@ -13,7 +13,7 @@ published: True
  logging into a server and building and deploying like a cave man.  I wanted a
  smoother experience than docker compose was giving me.
 
-<https://waylonwalker.com/looking-for-a-heroku-replacement/>
+https://waylonwalker.com/looking-for-a-heroku-replacement/
 
 ## Kompose
 
@@ -33,7 +33,7 @@ blindly using its output so I have tried to use it less and less.  I'm now not s
 
 ## Argocd
 
-<https://argoproj.github.io/cd>
+https://argoproj.github.io/cd
 
 <a href='https://argoproj.github.io/cd/' >
 <img
@@ -46,7 +46,7 @@ blindly using its output so I have tried to use it less and less.  I'm now not s
 
 ## Argo Rollouts
 
-<https://argoproj.github.io/rollouts>
+https://argoproj.github.io/rollouts
 
 <a href='https://argoproj.github.io/rollouts/' >
 <img
@@ -59,7 +59,7 @@ blindly using its output so I have tried to use it less and less.  I'm now not s
 
 ## KubeSeal
 
-<https://sealed-secrets.netlify.app/>
+https://sealed-secrets.netlify.app/
 
 <a href='https://sealed-secrets.netlify.app/' >
 <img

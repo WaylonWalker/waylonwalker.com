@@ -307,7 +307,7 @@ done
 
 ## convert markdown files to reveal.js
 
-<https://github.com/jgm/pandoc/wiki/Using-pandoc-to-produce-reveal.js-slides>
+https://github.com/jgm/pandoc/wiki/Using-pandoc-to-produce-reveal.js-slides
 install pandoc
 
 ``` bash

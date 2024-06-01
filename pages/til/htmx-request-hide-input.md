@@ -103,7 +103,7 @@ the form input during the request.
 
 Yes this is styled using tailwindcss.
 
-<https://waylonwalker.com/still-loving-tailwind/>
+https://waylonwalker.com/still-loving-tailwind/
 
 ## CSS
 

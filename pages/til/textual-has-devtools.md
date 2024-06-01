@@ -24,7 +24,7 @@ As [@willmcgugan](https://twitter.com/willmcgugan) shows in this tweet it's
 pretty easy to setup, it requires having two terminals open, or using tmux, and
 currently you have to use the css branch.
 
-<https://twitter.com/willmcgugan/status/1531294412696956930>
+https://twitter.com/willmcgugan/status/1531294412696956930
 
 ## Why does textual need its own devtools
 

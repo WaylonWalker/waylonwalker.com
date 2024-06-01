@@ -10,7 +10,7 @@ tags:
 I've recently given tailwindcss a second chance and am really liking it. Here
 is how I set it up for my python based projects.
 
-<https://waylonwalker.com/a-case-for-tailwindcss>
+https://waylonwalker.com/a-case-for-tailwindcss
 
 ## Installation
 
