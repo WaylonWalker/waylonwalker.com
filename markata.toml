@@ -34,6 +34,7 @@ hooks = [
     # "plugins.slug",
     # "plugins.one_line_link",
     # "plugins.include",
+    "markata.plugins.jinja_md",
     "default",
     # "plugins.related",
     # "plugins.seo_amp",
