@@ -30,6 +30,10 @@ The wikilink syntax is a slug wrapped in double square brackets.
 
 Marksman lsp will even autocomplete these for you, its pretty sweet.
 
+!!! Note
+  I recently implemented hover for wikilinks and and am pretty stoked about the
+  result.  Check this one out [[ sick-wikilink-hover ]].
+
 ## Vim Quickfix
 
 You could use `vimgrep` to fill your quickfix list will all of the one line links
@@ -57,3 +61,8 @@ from the primeagen [[ thoughts-200 ]].
 
 This converts all of the full links into a slug wrapped in double square
 brackets.
+
+## More
+
+There was a bit more to the full refactor, for instance some had a til/ preix,
+some were for youtube, and some were not pointed to my site.
