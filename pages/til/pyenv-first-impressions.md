@@ -26,7 +26,7 @@ Based on the Readme it looked like I needed to install using homebrew,so this
 is what I did, but I later realized that there is a pyenv-installer repo that
 may have saved me this need.
 
-[[ til/installing-homebrew-linux ]]
+[[ installing-homebrew-linux ]]
 
 ## List out install candidates
 
@@ -112,4 +112,5 @@ that virtual environment, and is the version of python that was used to
 create the environment.
 
 ## Links
+
 [https://github.com/pyenv/pyenv#installation](https://github.com/pyenv/pyenv#installation){.hoverlink}

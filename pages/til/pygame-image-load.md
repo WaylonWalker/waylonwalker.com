@@ -71,7 +71,7 @@ github into your own virtual environment.
 pip install git+https://github.com/WaylonWalker/pygame-starter
 ```
 
-[[ til/pygame-boilerplate-apr-2022 ]]
+[[ pygame-boilerplate-apr-2022 ]]
 
 > You can read more about my starter in this post
 

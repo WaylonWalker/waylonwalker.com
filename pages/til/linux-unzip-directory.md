@@ -46,7 +46,7 @@ unzip One+Block+Server+Pack-1.4.zip -d minecraft-data
 I run the minecraft server with docker, which is setup to mount the
 minecraft-data directory.
 
-[[ til/docker-minecraft-server ]]
+[[ docker-minecraft-server ]]
 
 A bit more on that in the other post, but when I download the whole modpack
 like this I make these changes to my docker compose. (commented out lines)

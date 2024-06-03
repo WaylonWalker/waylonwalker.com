@@ -77,7 +77,7 @@ distribution that does not come from the standard repo.
 conda create -n myenv python=3.8
 ```
 
-[[ til/pyenv-first-impressions ]]
+[[ pyenv-first-impressions ]]
 
 > Using pyenv
 

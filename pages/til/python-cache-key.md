@@ -17,7 +17,7 @@ Yesterday we talked about setting up a persistant cache with python diskcache.
 In order to make this really work we need a good way to make consistent cache
 keys from some sort of python object.
 
-[[ til/python-diskcache ]]
+[[ python-diskcache ]]
 
 ## hash
 
