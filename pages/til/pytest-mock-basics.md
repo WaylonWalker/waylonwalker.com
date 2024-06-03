@@ -4,8 +4,6 @@ templateKey: til
 title: pytest-mock Basics
 tags:
   - python
-  - python
-  - python
 
 ---
 

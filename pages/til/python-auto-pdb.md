@@ -4,8 +4,6 @@ templateKey: til
 title: Implement --pdb in a python cli
 tags:
   - python
-  - python
-  - python
 
 ---
 

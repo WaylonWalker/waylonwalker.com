@@ -4,7 +4,5 @@ templateKey: blog-post
 title: Marvin's ai_fn
 tags:
   - python
-  - python
-  - python
 published: false
 ---

@@ -5,8 +5,6 @@ title: Textual has devtools
 published: true
 tags:
   - python
-  - python
-  - python
 ---
 
 Textual has devtools in the upcoming css branch, and its pretty awesome!

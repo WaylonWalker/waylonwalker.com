@@ -4,8 +4,6 @@ templateKey: til
 title: Python atexit
 tags:
   - python
-  - python
-  - python
 published: false
 ---
 

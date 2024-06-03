@@ -4,8 +4,6 @@ templateKey: til
 title: Display Sprites in Pygame | Load and Blit
 tags:
   - python
-  - python
-  - python
 
 ---
 

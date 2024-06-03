@@ -4,8 +4,6 @@ templateKey: til
 title: How I read Files in Python
 tags:
   - python
-  - python
-  - python
 
 ---
 

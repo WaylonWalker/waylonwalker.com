@@ -4,8 +4,6 @@ templateKey: blog-post
 title: sick wikilink hover
 tags:
   - python
-  - python
-  - python
 published: True
 
 ---

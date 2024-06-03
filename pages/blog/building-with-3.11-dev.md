@@ -4,8 +4,6 @@ templateKey: blog-post
 title: Running My Blog on 3.11-dev
 tags:
   - python
-  - python
-  - python
 published: false
 
 ---

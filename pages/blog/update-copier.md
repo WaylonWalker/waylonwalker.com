@@ -4,8 +4,6 @@ templateKey: blog-post
 title: Copier < 6.0.0b0 considered dangerous
 tags:
   - python
-  - python
-  - python
 published: true
 
 ---

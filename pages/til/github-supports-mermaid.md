@@ -4,8 +4,6 @@ templateKey: til
 title: GitHub Markdown now Supports Mermaid Diagrams
 tags:
   - python
-  - python
-  - python
 
 ---
 

@@ -4,8 +4,6 @@ templateKey: blog-post
 title: Pycon 2023
 tags:
   - python
-  - python
-  - python
 published: false
 ---
 
