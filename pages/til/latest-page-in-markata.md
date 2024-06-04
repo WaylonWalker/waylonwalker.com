@@ -6,6 +6,7 @@ published: true
 tags:
   - python
   - markata
+jinja: false
 
 ---
 
