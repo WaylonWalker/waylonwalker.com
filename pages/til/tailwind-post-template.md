@@ -17,7 +17,7 @@ inject the post title, description, and other frontmatter elements.
 <iframe src='/playground/tailwind-post-template' width='100%' height='800px' class='overflow-hidden' scrolling='no'/>
 
 I think this is a pretty cool layout, I could make a
-[carbon.sh](https://carbon.sh){.hoverlink} clone or more realistically I could
+[carbon.now.sh](https://carbon.now.sh){.hoverlink} clone or more realistically I could
 make it into a template for blog pages and this could become og images.
 
 {.mx-auto .block .w-fit .mb-0}
