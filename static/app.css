@@ -1233,10 +1233,6 @@ video {
   margin-top: 0px;
 }
 
-.mt-1 {
-  margin-top: 0.25rem;
-}
-
 .mt-12 {
   margin-top: 3rem;
 }
@@ -1380,10 +1376,6 @@ video {
 
 .max-w-screen-md {
   max-width: 768px;
-}
-
-.max-w-screen-xl {
-  max-width: 1280px;
 }
 
 .max-w-xl {
@@ -1611,11 +1603,6 @@ video {
   background-color: rgb(82 82 82 / 0.1);
 }
 
-.bg-neutral-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(38 38 38 / var(--tw-bg-opacity));
-}
-
 .bg-neutral-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(23 23 23 / var(--tw-bg-opacity));
@@ -1773,10 +1760,6 @@ video {
   padding: 1.5rem;
 }
 
-.p-8 {
-  padding: 2rem;
-}
-
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -1795,11 +1778,6 @@ video {
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-}
-
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 .py-2 {
@@ -1934,16 +1912,6 @@ video {
   color: rgb(34 197 94 / var(--tw-text-opacity));
 }
 
-.text-neutral-200 {
-  --tw-text-opacity: 1;
-  color: rgb(229 229 229 / var(--tw-text-opacity));
-}
-
-.text-neutral-600 {
-  --tw-text-opacity: 1;
-  color: rgb(82 82 82 / var(--tw-text-opacity));
-}
-
 .text-pink-400 {
   --tw-text-opacity: 1;
   color: rgb(244 114 182 / var(--tw-text-opacity));
@@ -2033,12 +2001,6 @@ video {
 .shadow-lg {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.shadow-lgc {
-  --tw-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
-  --tw-shadow-colored: 0 0 20px 0px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -4269,11 +4231,6 @@ body::-webkit-scrollbar-thumb:hover {
 .hover\:bg-indigo-600:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(79 70 229 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-neutral-700:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(64 64 64 / var(--tw-bg-opacity));
 }
 
 .hover\:underline:hover {
