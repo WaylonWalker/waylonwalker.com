@@ -11,6 +11,7 @@
 # bump site version to bust GitHub actions cache
 site_version = 22
 markdown_backend='markdown-it-py'
+templates_dir = "templates"
 
 
 # 2 weeks in seconds
@@ -96,7 +97,6 @@ precache_urls = [
 config = 'gfm-like'
 # markdown_it built-in plugins
 enable = ["table"]
-# disable = ["image"]
 
 # add custom markdown_it plugins
 [[markata.markdown_it_py.plugins]]
@@ -212,7 +212,7 @@ content = "{{ config.url }}/{{ slug }}/"
 
 [[markata.head.meta]]
 name = "og:image"
-content = "{{ config.get('covers_url') }}/{{ slug }}.jpg"
+content = "{{ config.covers_url }}/{{ slug }}.jpg"
 
 [[markata.head.meta]]
 name = "og:image:width"
@@ -268,186 +268,145 @@ href = "https://screenshots.waylonwalker.com"
 
 [[markata.head.meta]]
 name = "theme-color"
-content="#322D39"
+content = "#322D39"
+
+# [markata.markdown_it_py.plugins.config]
+# permalink = true
+# permalinkSymbol = '<svg class="heading-permalink" aria-hidden="true" fill="currentColor" focusable="false" height="1em" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg>'
 
 [markata.prevnext]
 prevnext_color_angle = "#ff66c4"
 
 [[markata.feeds]]
-slug='thoughts'
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
-filter="date<=today and templateKey in ['thoughts',] and published"
-sort="date"
-reverse=true
+slug = 'thoughts'
+filter = "date<=today and templateKey in ['thoughts',] and published"
+sort = "date"
+reverse = false
 
 [[markata.feeds]]
-slug='archive'
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
-filter="date<=today and templateKey in ['blog-post', 'til', 'thoughts'] and published"
-sort="date"
-reverse=true
+slug = 'archive'
+filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts'] and published"
+sort = "date"
+reverse = true
 
 [[markata.feeds]]
-slug='pagefind'
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
-filter="date<=today and templateKey in ['blog-post', 'til', 'thoughts'] and published"
-sort="date"
-reverse=true
+slug = 'pagefind'
+filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts'] and published"
+sort = "date"
+reverse = true
 
 [[markata.feeds]]
-slug='published'
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
-filter="date<=today and templateKey in ['blog-post', 'til', 'thoughts'] and published"
-sort="date"
-reverse=true
-# precache=true
+slug = 'published'
+filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts'] and published"
+sort = "date"
+reverse = true
 
 [[markata.feeds]]
-slug='recent'
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
-filter="date<today and date>today-timedelta(days=30) and published"
-sort="date"
-reverse=true
+slug = 'recent'
+filter = "date<today and date>today-timedelta(days=30) and published"
+sort = "date"
+reverse = true
 
 [[markata.feeds]]
-slug='all'
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
-sort="date"
-reverse=true
+slug = 'all'
+sort = "date"
+reverse = true
 
 [[markata.feeds]]
-slug='archive'
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
-filter="date<=today and templateKey in ['blog-post', 'til', 'thoughts'] and published"
-sort="date"
-reverse=true
+slug = 'archive'
+filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts'] and published"
+sort = "date"
+reverse = true
 
 [[markata.feeds]]
-slug='blog'
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
-filter="date<=today and templateKey in ['blog-post'] and published"
-sort="date"
-reverse=true
+slug = 'blogfeed'
+filter = "date<=today and templateKey in ['blog-post'] and published"
+sort = "date"
+reverse = true
 
 [[markata.feeds]]
-slug='draft'
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
-filter="not published and templateKey in ['blog-post', 'til', 'thoughts']"
-sort="date"
-reverse=true
+slug = 'draft'
+filter = "not published and templateKey in ['blog-post', 'til', 'thoughts']"
+sort = "date"
+reverse = true
 
 [[markata.feeds]]
-slug='scheduled'
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
-filter="date>today"
-sort="date"
-reverse=true
+slug = 'scheduled'
+filter = "date>today"
+sort = "date"
+reverse = true
 
 [[markata.feeds]]
-slug='today'
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
-filter="date==today"
-sort="date"
-reverse=true
+slug = 'today'
+filter = "date==today"
+sort = "date"
+reverse = true
 
 [[markata.feeds]]
-slug='python'
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
-filter="date<=today and 'python' in tags"
-sort="date"
-reverse=true
+slug = 'python'
+filter = "date<=today and 'python' in tags"
+sort = "date"
+reverse = true
 
 [[markata.feeds]]
-slug='python-draft'
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
-filter="date<=today and 'python' in tags and not published"
-sort="date"
-reverse=true
+slug = 'python-draft'
+filter = "date<=today and 'python' in tags and not published"
+sort = "date"
+reverse = true
 
 [[markata.feeds]]
-slug='linux'
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
-filter="date<=today and 'linux' in tags"
-sort="date"
-reverse=true
+slug = 'linux'
+filter = "date<=today and 'linux' in tags"
+sort = "date"
+reverse = true
 
 [[markata.feeds]]
-slug='linux-draft'
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
-filter="date<=today and 'linux' in tags and not published"
-sort="date"
-reverse=true
+slug = 'linux-draft'
+filter = "date<=today and 'linux' in tags and not published"
+sort = "date"
+reverse = true
 
 [[markata.feeds]]
-slug='vim'
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
-filter="date<=today and 'vim' in tags"
-sort="date"
-reverse=true
+slug = 'vim'
+filter = "date<=today and 'vim' in tags"
+sort = "date"
+reverse = true
 
 [[markata.feeds]]
-slug='vim-draft'
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
-filter="date<=today and 'vim' in tags and not published"
-sort="date"
-reverse=true
+slug = 'vim-draft'
+filter = "date<=today and 'vim' in tags and not published"
+sort = "date"
+reverse = true
 
 [[markata.feeds]]
-slug='kedro'
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
-filter="date<=today and 'kedro' in tags"
-sort="date"
-reverse=true
+slug = 'kedro'
+filter = "date<=today and 'kedro' in tags"
+sort = "date"
+reverse = true
 
 [[markata.feeds]]
-slug='kedro-draft'
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
-filter="date<=today and 'kedro' in tags and not published"
-sort="date"
-reverse=true
+slug = 'kedro-draft'
+filter = "date<=today and 'kedro' in tags and not published"
+sort = "date"
+reverse = true
 
 [[markata.feeds]]
-slug='gratitude'
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/gratitude_card.html"
-filter="date<=today and templateKey == 'gratitude'"
-sort="date"
-reverse=true
+slug = 'gratitude'
+filter = "date<=today and templateKey == 'gratitude'"
+sort = "date"
+reverse = true
 
 [[markata.feeds]]
-slug='til'
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
-filter="date<=today and templateKey == 'til'"
-sort="date"
-reverse=true
+slug = 'til'
+filter = "date<=today and templateKey == 'til'"
+sort = "date"
+reverse = true
 
 [[markata.feeds]]
-slug='til-vim'
-template="pages/templates/archive_template.html"
-card_template = "pages/templates/feed_card.html"
-filter="date<=today and templateKey == 'til' and 'vim' in tags"
-sort="date"
-reverse=true
+slug = 'til-vim'
+filter = "date<=today and templateKey == 'til' and 'vim' in tags"
+sort = "date"
+reverse = true
 
 [markata.summary]
 grid_attr = ['tags', 'series']
