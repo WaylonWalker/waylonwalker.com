@@ -22,6 +22,11 @@ def hover_links(soup):
         parent["class"] = parent.get("class", []) + [
             "hover:z-20",
         ]
+        # if parent of parent is an admonition with class of .admonition
+        if "admonition" in parent.parent.get("class", []):
+            parent.parent["class"] = parent.parent.get("class", []) + [
+                "hover:z-20",
+            ]
         href = link.attrs.get("href")
         if not href.startswith("https://"):
             href = f"https://waylonwalker.com/{href}"
@@ -63,10 +68,9 @@ def post_render(markata):
     should_prettify = markata.config.get("prettify_html", False)
     with markata.cache as cache:
         for article in markata.articles:
-            key = markata.make_hash(article.html)
+            key = markata.make_hash("wikilink_hover", article.html)
 
-            html_from_cache = cache.get(key)
-            html_from_cache = None
+            html_from_cache = markata.precache.get(key)
 
             if "wikilink" in article.html or "hoverlink" in article.html:
                 if html_from_cache is None:
