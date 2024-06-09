@@ -15,4 +15,4 @@ link if you are not automatically redirected.
 
 TEMP - this page will not redirect until I fix it, the link is also broken, try [[ blog ]].
 
-<meta http-equiv="Refresh" content="0; url='/{{ markata.feeds.blog.posts[0].slug }}'" />  
+<meta http-equiv="Refresh" content="0; url='{{ config.url }}/{{ markata.feeds.blog.posts[0].slug }}'" />  
