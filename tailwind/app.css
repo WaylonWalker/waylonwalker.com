@@ -276,14 +276,14 @@ article {
   /* @apply prose-p:text-2xl sm:prose-p:text-2xl; */
   @apply prose-2xl prose-invert lg:prose-xl;
   /* @apply prose-xl prose-invert; */
-  @apply bg-zinc-900;
+  @apply bg-gray-950;
   @apply rounded-3xl;
 
   @apply container w-[98vw] ml-0 sm:m-auto max-w-3xl   lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl;
   /* @apply min-w-sm; */
   /* @apply sm:max-w-24 md:max-w-screen-md lg:max-w-screen-lg; */
   @apply mb-10 mt-2 pb-10;
-  @apply shadow-2xl shadow-cyan-300/20 ring-4 ring-cyan-800/10;
+  @apply shadow-[0_0_60px_-20px_rgba(0,0,0,0.5)] shadow-violet-600/40 ring-2 ring-white/40;
 }
 
 article ul {
