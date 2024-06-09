@@ -387,6 +387,11 @@ hr {
   @apply my-10;
 }
 
+iframe {
+  @apply col-start-1 !important;
+  @apply col-end-5 !important;
+}
+
 .left {
   @apply col-start-1;
   @apply col-end-3;
