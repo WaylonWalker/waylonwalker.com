@@ -19,3 +19,9 @@ inject the post title, description, and other frontmatter elements.
 I think this is a pretty cool layout, I could make a carbon.sh clone or more
 realistically I could make it into a template for blog pages and this could
 become og images.
+
+{.mx-auto .block .w-fit .mb-0}
+Check out this post
+
+{.mx-auto .block .w-fit .mt-0}
+[[ still-loving-tailwind ]]
