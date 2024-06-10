@@ -169,49 +169,55 @@ font = "./.github/scripts/waterlilly-script.ttf"
 font_color = "rgb(255,255,255)"
 
 [[markata.head.text]]
-value = "<title>{{ title|e }}</title>"
+value = "<title>{{ post.title|e }}</title>"
+
+[[markata.head.link]]
+href='/app.css'
+rel='stylesheet'
 
 [[markata.head.meta]]
 name = "twitter:title"
-content = "{{ title|e }}"
+content = "{{ post.title|e }}"
 
 [[markata.head.meta]]
 name = "og:title"
-content = "{{ title|e }}"
+content = "{{ post.title|e }}"
 
 [[markata.head.meta]]
 name = "description"
-content = "{{ description|e }}"
+content = "{{ post.description|e }}"
 
 [[markata.head.meta]]
 name = "og:description"
-content = "{{ description|e }}"
+content = "{{ post.description|e }}"
 
 [[markata.head.meta]]
 name = "twitter:description"
-content = "{{ description|e }}"
-
+content = "{{ post.description|e }}"
 
 [[markata.head.meta]]
 name = "og:type"
 content = "article"
 
 [[markata.head.link]]
-
-href = "{{ config.url }}/{{ slug }}/"
+href = "{{ config.url }}{{ post.slug }}/"
 rel = "canonical"
 
 [[markata.head.link]]
-href = "{{ config.url }}/{{ slug }}/amp/"
+href = "{{ config.url }}{{ post.slug }}/amp/"
 rel = "amphtml"
 
 [[markata.head.meta]]
 name = "og:url"
-content = "{{ config.url }}/{{ slug }}/"
+content = "{{ config.url }}{{ post.slug }}"
 
 [[markata.head.meta]]
 name = "og:image"
-content = "{{ config.covers_url }}/{{ slug }}.jpg"
+content = "http://shots.wayl.one/shot/?url={{ config.url }}{{ post.slug }}&height=600&width=1200&scaled_width=1200&scaled_height=600"
+
+[[markata.head.meta]]
+name = "twitter:image"
+content = "http://shots.wayl.one/shot/?url={{ config.url }}{{ post.slug }}&height=640&width=1280&scaled_width=1280&scaled_height=640"
 
 [[markata.head.meta]]
 name = "og:image:width"
@@ -249,6 +255,30 @@ content = "markata {{ __version__ }}"
 name = "monetization"
 content = "$ilp.uphold.com/MGN2ni2YMXaQ"
 
+[[ markata.head.link ]]
+href = "https://indieauth.com/auth"
+rel = "authorization_endpoint"
+
+[[ markata.head.link ]]
+href = "https://tokens.indieauth.com/token"
+rel = "token_endpoint"
+
+[[ markata.head.link ]]
+href = "{{ config.url }}{{ post.slug }}/amp"
+rel = "amphtml"
+
+[[ markata.head.link ]]
+href = "{{ config.url }}archive"
+rel = "micropub"
+
+[[ markata.head.link ]]
+href = "https://webmention.io/waylonwalker.com/webmention"
+rel = "webmention"
+
+[[markata.head.meta]]
+name = "theme-color"
+content = "#322D39"
+
 [[markata.head.link]]
 rel = "preconnect"
 href = "https://images.waylonwalker.com"
@@ -265,9 +295,46 @@ href = "https://stable-diffusion.waylonwalker.com"
 rel = "preconnect"
 href = "https://screenshots.waylonwalker.com"
 
-[[markata.head.meta]]
-name = "theme-color"
-content = "#322D39"
+
+[[ markata.head.link ]]
+href="/8bitcc_48x48.png"
+rel="apple-touch-icon"
+sizes="48x48"
+
+[[ markata.head.link ]]
+href="/8bitcc_72x72.png"
+rel="apple-touch-icon"
+sizes="72x72"
+
+[[ markata.head.link ]]
+href="/8bitcc_96x96.png"
+rel="apple-touch-icon"
+sizes="96x96"
+
+[[ markata.head.link ]]
+href="/8bitcc_144x144.png"
+rel="apple-touch-icon"
+sizes="144x144"
+
+[[ markata.head.link ]]
+href="/8bitcc_192x192.png"
+rel="apple-touch-icon"
+sizes="192x192"
+
+[[ markata.head.link ]]
+href="/8bitcc_256x256.png"
+rel="apple-touch-icon"
+sizes="256x256"
+
+[[ markata.head.link ]]
+href="/8bitcc_384x384.png"
+rel="apple-touch-icon"
+sizes="384x384"
+
+[[ markata.head.link ]]
+href="/8bitcc_512x512.png"
+rel="apple-touch-icon"
+sizes="512x512"
 
 # [markata.markdown_it_py.plugins.config]
 # permalink = true
@@ -277,63 +344,76 @@ content = "#322D39"
 prevnext_color_angle = "#ff66c4"
 
 [[markata.feeds]]
-slug = 'thoughts'
+name = 'thoughtsfeed'
+slug = 'thoughts-feed'
 filter = "date<=today and templateKey in ['thoughts',] and published"
 sort = "date"
 reverse = false
+description = 'A feed of my thoughts of links from the internet originally posted on https://thoughts.waylonwalker.com'
 
 [[markata.feeds]]
 slug = 'archive'
 filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts'] and published"
 sort = "date"
 reverse = true
+description = 'The main feed of all my main posts'
 
 [[markata.feeds]]
 slug = 'pagefind'
 filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts'] and published"
 sort = "date"
 reverse = true
+description = 'A feed for pagefind search to use for searching the site.'
 
 [[markata.feeds]]
 slug = 'published'
 filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts'] and published"
 sort = "date"
 reverse = true
+description = 'The main feed of all my main posts'
+
+[[markata.feeds]]
+slug = 'lasthirty'
+filter = "date<today and date>today-timedelta(days=30) and templateKey in ['blog-post', 'til', 'thoughts'] and published"
+sort = "date"
+reverse = true
+description = 'The main feed of the last thirty days of my main posts'
 
 [[markata.feeds]]
 slug = 'recent'
-filter = "date<today and date>today-timedelta(days=30) and published"
+filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts'] and published"
+head = 10
 sort = "date"
 reverse = true
+description = 'The main feed of the last 10 posts of my main posts'
 
 [[markata.feeds]]
 slug = 'all'
 sort = "date"
 reverse = true
+description = 'All of the posts on my site'
 
 [[markata.feeds]]
-slug = 'archive'
-filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts'] and published"
-sort = "date"
-reverse = true
-
-[[markata.feeds]]
-slug = 'blogfeed'
+name = 'blogfeed'
+slug = 'blog-feed'
 filter = "date<=today and templateKey in ['blog-post'] and published"
 sort = "date"
 reverse = true
+description = 'The main feed of all my full blog posts'
 
 [[markata.feeds]]
 slug = 'draft'
 filter = "not published and templateKey in ['blog-post', 'til', 'thoughts']"
 sort = "date"
 reverse = true
+description = 'A feed of all my draft posts'
 
 [[markata.feeds]]
 slug = 'scheduled'
 filter = "date>today"
 sort = "date"
 reverse = true
+description = 'A feed of all my scheduled posts'
 
 [[markata.feeds]]
 slug = 'today'
@@ -346,66 +426,77 @@ slug = 'python'
 filter = "date<=today and 'python' in tags"
 sort = "date"
 reverse = true
+description = 'A feed of all my python posts'
 
 [[markata.feeds]]
 slug = 'python-draft'
 filter = "date<=today and 'python' in tags and not published"
 sort = "date"
 reverse = true
+description = 'A feed of all my python draft posts'
 
 [[markata.feeds]]
 slug = 'linux'
 filter = "date<=today and 'linux' in tags"
 sort = "date"
 reverse = true
+description = 'A feed of all my linux posts'
 
 [[markata.feeds]]
 slug = 'linux-draft'
 filter = "date<=today and 'linux' in tags and not published"
 sort = "date"
 reverse = true
+description = 'A feed of all my linux draft posts'
 
 [[markata.feeds]]
 slug = 'vim'
 filter = "date<=today and 'vim' in tags"
 sort = "date"
 reverse = true
+description = 'A feed of all my vim posts'
 
 [[markata.feeds]]
 slug = 'vim-draft'
 filter = "date<=today and 'vim' in tags and not published"
 sort = "date"
 reverse = true
+description = 'A feed of all my vim draft posts'
 
 [[markata.feeds]]
 slug = 'kedro'
 filter = "date<=today and 'kedro' in tags"
 sort = "date"
 reverse = true
+description = 'A feed of all my kedro posts'
 
 [[markata.feeds]]
 slug = 'kedro-draft'
 filter = "date<=today and 'kedro' in tags and not published"
 sort = "date"
 reverse = true
+description = 'A feed of all my kedro draft posts'
 
 [[markata.feeds]]
 slug = 'gratitude'
 filter = "date<=today and templateKey == 'gratitude'"
 sort = "date"
 reverse = true
+description = 'A feed of all my gratitude posts'
 
 [[markata.feeds]]
 slug = 'til'
 filter = "date<=today and templateKey == 'til'"
 sort = "date"
 reverse = true
+description = 'A feed of all my til posts'
 
 [[markata.feeds]]
 slug = 'til-vim'
 filter = "date<=today and templateKey == 'til' and 'vim' in tags"
 sort = "date"
 reverse = true
+description = 'A feed of all my vim til posts'
 
 [markata.summary]
 grid_attr = ['tags', 'series']
