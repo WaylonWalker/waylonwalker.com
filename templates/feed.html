@@ -1,29 +1,28 @@
 {% extends "base.html" %}
 {% block content %}
-{% include "nav.html" %}
-{% include 'social.html' %}
-<h1 class="flair text-center">Post Archive</h1>
-<ul class="archive-tags">
-    <li>
-        <a href="/python/"> python </a>
-    </li>
-    <li>
-        <a href="/linux/"> linux </a>
-    </li>
-    <li>
-        <a href="/vim/"> vim </a>
-    </li>
-    <li>
-        <a href="/kedro/"> kedro </a>
-    </li>
-</ul>
-<article id="posts" class="h-feed hfeed list archive-list">
-    <ul>
-        {% for post in feed.posts %}
-        {% include feed.config.card_template %}
-        {% endfor %}
+    {% include "nav.html" %}
+    {% include 'social.html' %}
+    <h1 class="flair text-center">Post Archive</h1>
+    <ul class="archive-tags">
+        <li>
+            <a href="/python/"> python </a>
+        </li>
+        <li>
+            <a href="/linux/"> linux </a>
+        </li>
+        <li>
+            <a href="/vim/"> vim </a>
+        </li>
+        <li>
+            <a href="/kedro/"> kedro </a>
+        </li>
     </ul>
-</article>
-<h2 class="text-center">Socials</h2>
-{% include 'footer.html' %}
+    <article id="posts" class="h-feed hfeed list archive-list">
+        <ul>
+            {% for post in feed.posts %}
+                {% include feed.config.card_template %}
+            {% endfor %}
+        </ul>
+    </article>
+    {% include 'footer.html' %}
 {% endblock %}
