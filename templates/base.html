@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" href="/8bitcc.ico" type="image/png" />
+    <meta name="og:type" content="website" />
+    <title>{{post.title|e}}</title>
+    {% include 'head.html' %}
+    <!-- <meta name="og:title" name="og:title" content="{{post.title|e}}" /> -->
+    <!-- <meta name="twitter:title" name="twitter:title" content="{{post.title|e}}" /> -->
+    <!-- <meta name="twitter:card" content="summary_large_image"> -->
+    <!-- <meta name="og:image" name="og:image" -->
+    <!--     content="http://shots.wayl.one/shot/?url={{config.url}}{{slug}}&height=640&width=1280&scaled_width=1280&scaled_height=640" /> -->
+    <!-- <meta name="twitter:image" name="twitter:image" -->
+    <!--     content="http://shots.wayl.one/shot/?url={{config.url}}{{slug}}&height=600&width=1200&scaled_width=1200&scaled_height=600" /> -->
+    <!-- <meta name="og:image:height" content="640" /> -->
+    <!-- <meta name="og:image:width" content="1280" /> -->
+    <!-- <meta name="og:url" name="og:url" content="{{config.url}}/{{slug}}" /> -->
+    <!-- <meta name="description" name="description" content="{{description|e}}" /> -->
+    <!-- <meta name="og:description" name="og:description" content="{{description|e}}" /> -->
+    <!-- <meta name="twitter:description" name="twitter:description" content="{{description|e}}" /> -->
+    <!---->
+    <!-- <meta name="twitter:creator" content="@_waylonwalker"> -->
+    <!-- <meta name="og:author" content="Waylon Walker"> -->
+    <!-- <meta name="og:site_name" content="Waylon Walker"> -->
+    <!-- <meta name="og:author_email" content="waylon@waylonwalker.com"> -->
+    <!-- <meta content="markata {{ __version__ }}" name="generator"> -->
+    <!-- <meta name="monetization" content="$ilp.uphold.com/MGN2ni2YMXaQ"> -->
+    <!-- <meta name="theme-color" content="#322D39"> -->
+    <!-- <link rel="authorization_endpoint" href="https://indieauth.com/auth"> -->
+    <!-- <link rel="token_endpoint" href="https://tokens.indieauth.com/token"> -->
+    <!-- <link rel="micropub" href="https://waylonwalker.com/archive"> -->
+    <!-- <link rel="webmention" href="https://webmention.io/waylonwalker.com/webmention" /> -->
+    <!---->
+    <!-- <link href="{{canonical_url}}" rel="canonical" /> -->
+    <!---->
+    <!-- <link rel="amphtml" href="https://waylonwalker.com/{{ slug }}/amp/" /> -->
+    <!-- <meta property="monetization" name="monetization" content="$ilp.uphold.com/MGN2ni2YMXaQ" /> -->
+
+    <!-- <link rel="preload" href="/app.css" as="style" onload="this.onload=null;this.rel='stylesheet'" /> -->
+    <!-- <noscript> -->
+    <!--     <link rel="stylesheet" href="/app.css" /> -->
+    <!-- </noscript> -->
+
+    <!-- <link rel="stylesheet" href="/app.css" /> -->
+    <!---->
+    <!-- <link href="/8bitcc_48x48.png" rel="apple-touch-icon" sizes="48x48" /> -->
+    <!-- <link href="/8bitcc_72x72.png" rel="apple-touch-icon" sizes="72x72" /> -->
+    <!-- <link href="/8bitcc_96x96.png" rel="apple-touch-icon" sizes="96x96" /> -->
+    <!-- <link href="/8bitcc_144x144.png" rel="apple-touch-icon" sizes="144x144" /> -->
+    <!-- <link href="/8bitcc_192x192.png" rel="apple-touch-icon" sizes="192x192" /> -->
+    <!-- <link href="/8bitcc_256x256.png" rel="apple-touch-icon" sizes="256x256" /> -->
+    <!-- <link href="/8bitcc_384x384.png" rel="apple-touch-icon" sizes="384x384" /> -->
+    <!-- <link href="/8bitcc_512x512.png" rel="apple-touch-icon" sizes="512x512" /> -->
+    <script>
+        navigator.serviceWorker.getRegistrations().then(function (registrations) {
+            for (let registration of registrations) {
+                registration.unregister();
+            }
+        });
+
+    </script>
+    <script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "WebPage",
+                "name": "{{post.title|e}}",
+                "headline": "{{post.title|e}}",
+                "datePublished": "{{post.date}}",
+                "dateModified": "{{post.date}}",
+                "author": {
+                    "@type": "Person",
+                    "name": "Waylon Walker"
+                    "url": "https://waylonwalker.com"
+                },
+                "image": [
+                    "https://shots.wayl.one/shot/?url={{config.url}}{{slug}}&height=640&width=1280&scaled_width=1280&scaled_height=640",
+                ]
+                "speakable":
+                {
+                    "@type": "SpeakableSpecification",
+                    "cssSelector": [
+                        "#title",
+                        "#post-body"
+                    ]
+                },
+                "url": "{{config.url}}{{slug}}"
+            }
+        </script>
+</head>
+
+<body position="relative">
+    <div class="neon-ring"></div>
+    <div class="dubs">
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</body>
+
+</html>

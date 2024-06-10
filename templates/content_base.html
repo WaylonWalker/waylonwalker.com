@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+
+<body position="relative">
+    <div class="neon-ring"></div>
+    <div class="dubs">
+        {% include "nav.html" %}
+        <article class="blog-post h-entry">
+
+            <h2 class="m-auto max-w-md text-sm text-center text-zinc-500 no-link">Tags</h2>
+            <ul class="flex flex-wrap justify-center p-0 m-auto max-w-md border-yellow-400 tags">
+                {% for tag in post.tags %}
+                <li class='px-4 list-none rounded-full ring-1 ring-pink-500'>
+                    <a class="p-category" href="https://waylonwalker.com/{{ tag }}">{{ tag }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+
+            <div class="e-content" id="post-body" {{ 'data-pagefind-body' if post in markata.feeds.pagefind.posts
+                else '' }}>
+                {{ body }}
+            </div>
+
+            <div id="show"></div>
+        </article>
+        {% include 'footer.html' %}
+</body>
+{% endblock %}

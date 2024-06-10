@@ -1,0 +1,33 @@
+<div id="title-wrapper">
+    <a class="no-underline u-url" href="https://waylonwalker.com/{{ slug }}/">
+        <h1 id="title" class="flair blog title no-link">
+            {{ post.title }}
+        </h1>
+    </a>
+    <p class='m-0 sm:m-[-2rem]'>
+        <time class="dt-published post-date" datetime="{{ date }}" style="text-align: right; z-index: 2">{{
+            date
+            }}</time>
+    </p>
+    <div class="flex flex-row h-card p-author space-between" rel="author">
+        <img class="m-auto ml-0 w-16 h-16 rounded-full u-photo" src="https://images.waylonwalker.com/8bitc.png" />
+        <div class="content">
+            <a class="p-name u-url h-card p-author" rel='me' href="https://waylonwalker.com/">
+                <p>
+                    <span class="p-given-name">Waylon</span>
+                    <span class="p-family-name">Walker</span>
+                </p>
+            </a>
+            <p class="p-note">
+                Learning in Public
+                <a href="https://twitter.com/_WaylonWalker" rel="me">@_WaylonWalker</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- edit -->
+    <!-- <p> -->
+    <!--     <a href="https://github.com/WaylonWalker/waylonwalker.com/edit/main/pages/blog/{{ slug }}.md" -->
+    <!--         alt="edit post url" title="edit this post">edit<span role="img" aria-label="">✏️</span></a> -->
+    <!-- </p> -->
+</div>
