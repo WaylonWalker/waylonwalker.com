@@ -25,3 +25,12 @@ sync:
 
 sync-md:
     aws --endpoint-url https://minio.wayl.one s3 sync . s3://waylonwalker.com --exclude "*" --include "pages/**/*.md"
+
+deploy:
+    #!/usr/bin/env bash
+    set -euxo pipefail
+    podman build -t docker.io/waylonwalker/waylonwalker-com .
+    version=$(cat version)
+    podman tag docker.io/waylonwalker/waylonwalker-com docker.io/waylonwalker/waylonwalker-com:$version
+    podman push docker.io/waylonwalker/waylonwalker-com
+    podman push docker.io/waylonwalker/waylonwalker-com:$version
