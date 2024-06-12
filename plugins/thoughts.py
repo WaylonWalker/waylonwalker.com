@@ -20,8 +20,8 @@ def load(markata: "Markata") -> None:
         post["slug"] = f"thoughts-{post['id']}"
         post["templateKey"] = "thoughts"
         post["markata"] = markata
+        post["description"] = post["message"][:120]
         post["content"] = f"""
-
 !!! note
     This post is a [thought](https://thoughts.waylonwalker.com).  It's a short note that I make about someone else's
     content online.  Learn more about the process [[ thoughts ]]
