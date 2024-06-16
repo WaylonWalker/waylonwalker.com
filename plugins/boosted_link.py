@@ -1,36 +1,21 @@
-from pathlib import Path
 from typing import TYPE_CHECKING
+from urllib.parse import urljoin, urlparse
 
 from bs4 import BeautifulSoup
 from markata.hookspec import hook_impl
 
-if TYPE_CHECKING:
-    from bs4.element import Tag
-
 
 def boosted_links(soup):
-    from urllib.parse import urljoin, urlparse
-
-    from bs4 import BeautifulSoup
-
     base_url = "https://waylonwalker.com"
 
-    # Parse the HTML content
-    # soup = BeautifulSoup(html_content, 'html.parser')
     site_domain = urlparse(base_url).netloc
 
-    # Find all <a> tags
     for a_tag in soup.find_all("a", href=True):
-        # Resolve relative links to absolute URLs
         absolute_url = urljoin(base_url, a_tag["href"])
         parsed_url = urlparse(absolute_url)
 
-        # Check if the link points to the site's domain
         if parsed_url.netloc == site_domain and not a_tag.has_attr("hx-boost"):
             a_tag["hx-boost"] = "true"
-    # for a_tag in soup.find_all("a"):
-    #     if not a_tag.has_attr("hx-boost"):
-    #         a_tag["hx-boost"] = "true"
     return soup
 
 
