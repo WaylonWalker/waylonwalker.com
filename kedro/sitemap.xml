@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/sitemap.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <title>kedro</title>
+    <link>https://waylonwalker.com/</link>
+   <url>
+      <title>Make Kedro Runs Beautiful</title>
+      <description>Kedro rich is a very new and unstable (it There is no pypi package yet, but it You can run your pipeline just as you normally would, except you get progress Lis</description>
+      <loc>https://waylonwalker.com//kedro-rich</loc>
+      <lastmod>2022-03-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Lambda Function As A Kedro Node</title>
+      <description>I keep my nodes short and sweet.  They do one thing and do it well. I Here are two examples, the first one  Many times I just want to get the data in as fast as</description>
+      <loc>https://waylonwalker.com//kedro-lambda-node</loc>
+      <lastmod>2022-01-31</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Add New Dependencies To Your Kedro Project</title>
+      <description>As you work on your kedro projects you are bound to need to add more Before you start mucking around with any changes to dependencies make sure that New require</description>
+      <loc>https://waylonwalker.com//kedro-new-dependencies</loc>
+      <lastmod>2022-01-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Practice Making Pipelines With Kedro</title>
+      <description>I am a huge believer in practicing your craft.  Professional athletes [ Go to your playground directory, and if you don Install pipx in your system python.  Thi</description>
+      <loc>https://waylonwalker.com//practice-kedro</loc>
+      <lastmod>2022-01-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Running Kedro On Ubuntu 21.10 Impish Indri</title>
+      <description>I just installed a brand new Ubuntu 21.10 Impish Indri, and wanted a But what I got back was not what I expected This is weird, why cant I run kedro new with pi</description>
+      <loc>https://waylonwalker.com//kedro-ubuntu-impish</loc>
+      <lastmod>2022-01-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Kedro Catalog Create</title>
+      <description>I use  [ 👆 Unsure what kedro is?  Check out this post. The command to ensure there are catalog entries for every dataset in the passed Create Fills in new datas</description>
+      <loc>https://waylonwalker.com//kedro-catalog-create-cli</loc>
+      <lastmod>2021-11-15</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Nvim Conf 2021 | Ide&#39;S Are Slow | Waylon Walker</title>
+      <description>Using Vim as a Team Lead I 💜 Tmux Why I stopped using @code Get there fast How I vim Use a graphical IDE if it works for you. vim is so well integrated into the</description>
+      <loc>https://waylonwalker.com//nvim-ides-are-slow</loc>
+      <lastmod>2021-10-29</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Kedro-Broken-Urls</title>
+      <description>[ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [</description>
+      <loc>https://waylonwalker.com//kedro-broken-urls</loc>
+      <lastmod>2021-10-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Setting Parameters In Kedro</title>
+      <description>Parameters are a place for you to store variables for your pipeline that can be [ 👆 Unsure what kedro is?  Check out this post. You can have multiple parameters</description>
+      <loc>https://waylonwalker.com//kedro-parameters</loc>
+      <lastmod>2021-09-19</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Writing Your First Kedro Nodes</title>
+      <description>https://youtu.be/-gEwU-MrPuA Before we jump in with anything crazy, let You will need to import node from kedro.pipeline to start creating nodes. The  Inputs an</description>
+      <loc>https://waylonwalker.com//kedro-your-first-nodes</loc>
+      <lastmod>2021-09-13</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Running Your Kedro Pipeline From The Command Line</title>
+      <description>Running your kedro pipeline from the command line could not be any easier to [ 👆 Unsure what kedro is?  Check out this post. To run the whole darn project all w</description>
+      <loc>https://waylonwalker.com//kedro-run</loc>
+      <lastmod>2021-08-24</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Kedro Virtual Environment</title>
+      <description>Avoid serious version conflict issues, and use a virtual environment anytime conda venv pipenv I prefer to use conda as my virtual environment manager of choice</description>
+      <loc>https://waylonwalker.com//kedro-environment</loc>
+      <lastmod>2021-08-23</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Kedro Pipeline Create</title>
+      <description>Kedro pipeline create is a command that makes creating new https://youtu.be/HtyIKqlEoNw The kedro cli comes with the following command to scaffold out The direc</description>
+      <loc>https://waylonwalker.com//kedro-pipeline-create</loc>
+      <lastmod>2021-08-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Kedro Install</title>
+      <description>Kedro comes with an  https://youtu.be/IWimEs-hHQg You must start by having your kedro project either cloned down [ this post covers kedro new [ This post covers</description>
+      <loc>https://waylonwalker.com//kedro-install</loc>
+      <lastmod>2021-08-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Kedro Git Init</title>
+      <description>Immediately after  https://youtu.be/IGba3ytf Its as simple as these three commands to get started. I don</description>
+      <loc>https://waylonwalker.com//kedro-git-init</loc>
+      <lastmod>2021-08-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Kedro New</title>
+      <description>Kedro new is simply a wrapper around the cookiecutter templating library.  The [ Unsure what kedro is, Check out yesterdays post on What is Kedro. I reccomend u</description>
+      <loc>https://waylonwalker.com//kedro-new</loc>
+      <lastmod>2021-08-18</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>What Is Kedro</title>
+      <description>Kedro is an unopinionated Data Engineering framework that comes with a somewhat [ This is an updated version of my original what-is-kedro article If you are doi</description>
+      <loc>https://waylonwalker.com//what-is-kedro</loc>
+      <lastmod>2021-08-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>How I Kedro</title>
+      <description>https://youtu.be/bw5 I recently switched over to using Ubuntu, it works well pretty much out of the I am still using the built in default gnome terminal, it jus</description>
+      <loc>https://waylonwalker.com//how-i-kedro</loc>
+      <lastmod>2021-08-16</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Incremental Versioned Datasets In Kedro</title>
+      <description>Kedro versioned datasets can be mixed with incremental and partitioned datasets [ 👆 Unsure what kedro is?  Check out this post. This was a question presented to</description>
+      <loc>https://waylonwalker.com//kedro-incremental-versioned-datasets</loc>
+      <lastmod>2021-07-08</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>I Started Streaming On Twitch</title>
+      <description>I recently started streaming on python kedro Data Science Data Engineering webdev digital gardening It all started with My introduction to twitch came from Afte</description>
+      <loc>https://waylonwalker.com//start-streaming</loc>
+      <lastmod>2021-06-12</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Upcoming Stream</title>
+      <description>I am starting to stream 3 days per week, before I start work in the morning. On Monday kedro-diff test kedro-diff on piplines with history setup deploy pipeline</description>
+      <loc>https://waylonwalker.com//upcoming-streams</loc>
+      <lastmod>2021-06-08</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Kedro Spaceflights - Part 2 | Stream Replay June 7, 2021</title>
+      <description>This was my seconf time ever streaming on</description>
+      <loc>https://waylonwalker.com//kedro-spaceflights-stream2</loc>
+      <lastmod>2021-06-07</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Kedro Spaceflights - Part 1 | Stream Replay June 4, 2021</title>
+      <description>This was my first time ever streaming on https://youtu.be/Y07UBr9Ccjs It all started with</description>
+      <loc>https://waylonwalker.com//kedro-spaceflights-stream1</loc>
+      <lastmod>2021-06-04</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Comprehensive Guide To Creating Kedro Nodes</title>
+      <description>The Kedro node is an essential part of the pipeline. It defines what catalog 👆 Unsure what kedro is? Check out this post. The node function is the most common a</description>
+      <loc>https://waylonwalker.com//kedro-node</loc>
+      <lastmod>2021-06-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Creating Pypi-List With Kedro</title>
+      <description>I had an idea come to me via twitter. Short one word name packages are becoming I started with the simple index.  Pypi provides a single page listing to every</description>
+      <loc>https://waylonwalker.com//kedro-pypi-list</loc>
+      <lastmod>2021-05-23</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Using Kedro In Scripts</title>
+      <description>With the latest releases of kedro  [ If your just learning about kedro check out this post walking through it I To get kedro running, you will need a pipeline, </description>
+      <loc>https://waylonwalker.com//kedro-in-scripts</loc>
+      <lastmod>2021-05-23</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Silence Kedro Logs</title>
+      <description>Kedro can have a chatty logger.  While this is super nice in production First, how does one silence a python log?  Python loggers can be retrieved by | Level   </description>
+      <loc>https://waylonwalker.com//kedro-silence</loc>
+      <lastmod>2021-05-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Vim Fugitive</title>
+      <description>:on This one has nothing to do with fugitive, but is a native vim feature that C-i jump The jumplist is sorted Oldest to newest When navigating the jumplist wit</description>
+      <loc>https://waylonwalker.com//vim-fugitive</loc>
+      <lastmod>2021-05-08</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Custom Kedro Logger</title>
+      <description>DRAFT -</description>
+      <loc>https://waylonwalker.com//custom-kedro-logger</loc>
+      <lastmod>2021-05-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Kedro Replit</title>
+      <description>I am trying to see what an embeded replit</description>
+      <loc>https://waylonwalker.com//kedro172-replit</loc>
+      <lastmod>2021-04-15</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Kedro Pipeline_Registry.Py</title>
+      <description>With the realease of  create a  register_pipelines register hook_impl class You should now have something that looks like this in your pipeline I was not able t</description>
+      <loc>https://waylonwalker.com//kedro-pipeline-registry</loc>
+      <lastmod>2021-03-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Minimal Kedro Pipeline</title>
+      <description>How small can a minimum kedro pipeline ready to package be?  I made one within 4 files that you can pip install.  It 📝 Note this is only a composable pipeline, </description>
+      <loc>https://waylonwalker.com//minimal-kedro-pipeline</loc>
+      <lastmod>2021-01-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Kedro - My Data Is Not A Table</title>
+      <description>In python data science/engineering most of our data is in the form of some sort These containers for data contain many convenient methods to manipulate table [ </description>
+      <loc>https://waylonwalker.com//kedro-pickle</loc>
+      <lastmod>2021-01-14</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Testing Data Pipelines</title>
+      <description>Thinking through testing best practices for Data Pipelines</description>
+      <loc>https://waylonwalker.com//testing-data-pipelines</loc>
+      <lastmod>2020-11-16</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Reasons-To-Kedro</title>
+      <description>There are many reasons that you should be using kedro.  If you are on a team of [ Kedro makes it super easy to get started with their cli that utilizes [ read m</description>
+      <loc>https://waylonwalker.com//reasons-to-kedro</loc>
+      <lastmod>2020-11-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>What&#39;S New In Kedro 0.16.6</title>
+      <description>This version of kedro releases a new set of supported deployment options and the spaceflights pipeline is officially added as a starter alias.</description>
+      <loc>https://waylonwalker.com//whats-new-in-kedro-0166</loc>
+      <lastmod>2020-10-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>What&#39;S New In Kedro 0.16.4</title>
+      <description>If we take a look at the  This one comes a bit surprising as it was just casually mentioned in  As mentioned in  It feels a bit crazy that simply installing a p</description>
+      <loc>https://waylonwalker.com//whats-new-in-kedro-0164</loc>
+      <lastmod>2020-08-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Gracefully Adopt Kedro, The Catalog</title>
+      <description>While using the catalog alone will not reap all of the benefits of the framework, it does get you and your project ready for the full framework eventually.  For</description>
+      <loc>https://waylonwalker.com//graceful-kedro-catalog</loc>
+      <lastmod>2020-06-29</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>How To Find Things In Your Kedro Catalog</title>
+      <description>kedro 0.16.2 just dropped last week with a long-awaited feature...  The kedro data catalog is a key component to the kedro framework.  It handles all data loadi</description>
+      <loc>https://waylonwalker.com//kedro-catalog-search</loc>
+      <lastmod>2020-06-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>How Kedro Handles Your Inputs</title>
+      <description>Passing inputs into kedro is a key concept.  Understanding how it accepts a Check out this post for a review of how  [ When kedro runs your pipeline it uses the</description>
+      <loc>https://waylonwalker.com//kedro-inputs</loc>
+      <lastmod>2020-06-19</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>003</title>
+      <description>🔥 #kedrotips hooks can be created using modules</description>
+      <loc>https://waylonwalker.com//003</loc>
+      <lastmod>2020-05-31</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>004</title>
+      <description>🔥 #kedrotips use find-kedro to assembly your pipelines</description>
+      <loc>https://waylonwalker.com//004</loc>
+      <lastmod>2020-05-31</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Kedro Static Viz 0.3.0 Is Out With Hooks Support</title>
+      <description>Even though it is a static site there is no functionality lost.  The only thing that Even though it Kedro viz is a fantastic kedro plugin that allows you to vis</description>
+      <loc>https://waylonwalker.com//kedro-static-viz-0-3-0</loc>
+      <lastmod>2020-05-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>002</title>
+      <description></description>
+      <loc>https://waylonwalker.com//002</loc>
+      <lastmod>2020-05-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>001</title>
+      <description></description>
+      <loc>https://waylonwalker.com//001</loc>
+      <lastmod>2020-05-26</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Create Custom Kedro Dataset</title>
+      <description>Kedro provides an efficient way to build out data catalogs with their yaml api.  It allows you to be very declaritive about loading and saving your data.  For t</description>
+      <loc>https://waylonwalker.com//create-custom-kedro-dataset</loc>
+      <lastmod>2020-05-15</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Creating The Kedro-Preflight Hook</title>
+      <description>Kedro Hooks Intro - kedro hooks are an exciting upcoming feature of kedro kedro hooks are an exciting upcoming feature of kedro  [ If you are completely unsure </description>
+      <loc>https://waylonwalker.com//creating-the-kedro-preflight-hook</loc>
+      <lastmod>2020-05-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Create New Kedro Project</title>
+      <description>This is a quickstart to getting a new  🧹 Install  🛢 Create the Example Pipeline 💨 Run the example 📉 Show the pipeline visualization I use conda to control my vi</description>
+      <loc>https://waylonwalker.com//create-new-kedro-project</loc>
+      <lastmod>2020-03-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>What Is Kedro</title>
+      <description>[ This is my original what-is-kedro article.  There is a brand new one Kedro is an open source data pipeline framework.  It provides guardrails to set Currently</description>
+      <loc>https://waylonwalker.com//what-is-kedro-1</loc>
+      <lastmod>2020-02-24</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Kedro</title>
+      <description>My Notes about using kedro</description>
+      <loc>https://waylonwalker.com//kedro</loc>
+      <lastmod>2019-11-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+</urlset>

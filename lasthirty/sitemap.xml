@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/sitemap.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <title>lasthirty</title>
+    <link>https://waylonwalker.com/</link>
+   <url>
+      <title>💭 (394) Why You Should Build Your Homelab Now - Youtube</title>
+      <description>Homelabbers have been some of the best co-workers I have ever had.  Typically have a get shit done, If there&#39;s a way I w</description>
+      <loc>https://waylonwalker.com//thoughts-310</loc>
+      <lastmod>2024-06-14</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Darrenburns/Posting: Test Your Http Api Using A Powerful And Modern Terminal User Interface</title>
+      <description>Currently Posting is a super early postman like tui (terminal user interface).  It looks so good.  Darren is really gett</description>
+      <loc>https://waylonwalker.com//thoughts-307</loc>
+      <lastmod>2024-06-12</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Customize And Apply Backgrounds Fast | Svg Backgrounds</title>
+      <description>svgbackgrounds is a really awesome resource for svg things recently featured on [https://shoptalkshow.com/618/](https://</description>
+      <loc>https://waylonwalker.com//thoughts-308</loc>
+      <lastmod>2024-06-12</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Podman Requries Qemu-System On Ubuntu</title>
+      <description>podman requires qemu-system on 
+
+
+``` bash
+❯ podman machine init
+Looking up Podman Machine image at quay.io/podman/machi</description>
+      <loc>https://waylonwalker.com//thoughts-309</loc>
+      <lastmod>2024-06-12</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 A Link Blog In The Year 2024 | Kellan Elliott-Mccrea: Blog</title>
+      <description>Kellan brings some interesting thoughts on where the internet is headed in 2024.  Interestingly I see myself headed in a</description>
+      <loc>https://waylonwalker.com//thoughts-304</loc>
+      <lastmod>2024-06-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 A Link Blog In The Year 2024</title>
+      <description>THIS! is the same reasons that I built [thoughts](https://thoughts.waylonwalker.com){.hoverlink}.  Simon has bee a big i</description>
+      <loc>https://waylonwalker.com//thoughts-305</loc>
+      <lastmod>2024-06-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Blogmarks That Use Markdown</title>
+      <description>Oh I kinda like the name blogmark, as opposed to thoughts like I have chose for the same thing.  Aparantly Simon beat me</description>
+      <loc>https://waylonwalker.com//thoughts-306</loc>
+      <lastmod>2024-06-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Argoproj/Argo-Events: Event-Driven Automation Framework For Kubernetes</title>
+      <description>Argo events is an event driven automation framework for kubernetes that can create kubernetes objects among other things</description>
+      <loc>https://waylonwalker.com//thoughts-302</loc>
+      <lastmod>2024-06-09</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 How To Configure Dns Over Tls (Dot) Using Unbound Dns In Opnsense</title>
+      <description>Setting up DNS overTLS in opnsense has made my dns just a bit more secure and reliable.  I recently had an outage of hal</description>
+      <loc>https://waylonwalker.com//thoughts-303</loc>
+      <lastmod>2024-06-09</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>What I&#39;M Learning In 2024</title>
+      <description>2024 has been a learning fueled year, Diving deep into things I never would k8s tailwind fastapi htmx jinja opnsense play-outside reader thoughts thoughts chrom</description>
+      <loc>https://waylonwalker.com//learning-2024</loc>
+      <lastmod>2024-06-09</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Tailwind Post Template</title>
+      <description>Today I am playing around with tailwind, flexing the css muscle and learning I created a new post template that mimics a terminal look in css where I could I th</description>
+      <loc>https://waylonwalker.com//tailwind-post-template</loc>
+      <lastmod>2024-06-08</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Ulauncher — Application Launcher For Linux 🐧</title>
+      <description>Just discovered this really cool launcher from the DHH distro omakub.  [github.com/omakub](https://github.com/basecamp/o</description>
+      <loc>https://waylonwalker.com//thoughts-300</loc>
+      <lastmod>2024-06-07</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Catppuccin/Ulauncher: 🇺 Soothing Pastel Theme For Ulauncher</title>
+      <description>I am using this theme for Ulauncher in arch and it looks fantastic!  One line install (read it first).
+
+``` bash
+python3</description>
+      <loc>https://waylonwalker.com//thoughts-301</loc>
+      <lastmod>2024-06-07</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 From The Circle To Epicycles (Part 1) - An Animated Introduction To Fourier Series | Andreinc</title>
+      <description>This is a really cool animated visual representation of how sine waves work, how they relate to circles, pi, rad, and ho</description>
+      <loc>https://waylonwalker.com//thoughts-297</loc>
+      <lastmod>2024-06-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Basecamp/Omakub: Opinionated Ubuntu Setup</title>
+      <description>This is DHH&#39;s linux startup script.  Call it a distro if you want, but he doesn&#39;t.  It&#39;s made to take a vanilla ubuntu i</description>
+      <loc>https://waylonwalker.com//thoughts-298</loc>
+      <lastmod>2024-06-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Steam Deck Dock</title>
+      <description>This is a sick steam deck dock!   With a corne built in laptop style.</description>
+      <loc>https://waylonwalker.com//thoughts-299</loc>
+      <lastmod>2024-06-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Darren Burns 🌱 On X: &#34;Here&#39;S An Early Clip Of My New (Work In Progress) App: Posting. It&#39;S An Http Client (Like Postman, Insomnia, Etc) But It Runs Entirely In The Terminal. Keyboard-Centric, Snappy, And Works Over Ssh. It&#39;S Written In Python Using The Textual Framework. Https://T.Co/7Yatztk0Rt Https://T.Co/Wb64Aiw7Fm&#34; / X</title>
+      <description>This looks like a sweet tui postman clone.  Darren is really rolling with these tui&#39;s.  Cant wait to see where this one </description>
+      <loc>https://waylonwalker.com//thoughts-296</loc>
+      <lastmod>2024-06-04</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Xxhash · Pypi</title>
+      <description>I hit an issue with markata where even though a bunch of articles were cached, the site build was still slow because I w</description>
+      <loc>https://waylonwalker.com//thoughts-292</loc>
+      <lastmod>2024-06-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Xxhash - Extremely Fast Non-Cryptographic Hash Algorithm</title>
+      <description>&gt; xxHash is an extremely fast non-cryptographic hash algorithm, working at RAM speed limit. It is proposed in four flavo</description>
+      <loc>https://waylonwalker.com//thoughts-293</loc>
+      <lastmod>2024-06-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 How To Force Dark Mode On Every Website In Google Chrome</title>
+      <description>Sometimes I struggle to get my os to report dark mode to chrome, luckily there is a way to force chrome to always use da</description>
+      <loc>https://waylonwalker.com//thoughts-295</loc>
+      <lastmod>2024-06-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Tailscale Ssh</title>
+      <description>Tailscale allows you to ssh into all of your tailscale machines, it busts I picked this up from the tailscale youtube channel. [</description>
+      <loc>https://waylonwalker.com//tailscale-ssh</loc>
+      <lastmod>2024-06-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Be Fast | Jake Worth</title>
+      <description>Be Fast, Practice, Hone your craft.  There&#39;s a lot to be said here about honing your craft for editing text, picking up </description>
+      <loc>https://waylonwalker.com//thoughts-289</loc>
+      <lastmod>2024-06-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 How To Deliver Code Every Day | Jake Worth</title>
+      <description>Great set of tips here!
+
+&gt; No waiting. No “waiting until tomorrow” or “It’s Friday, let’s wait until Monday” to deploy. </description>
+      <loc>https://waylonwalker.com//thoughts-290</loc>
+      <lastmod>2024-06-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Replicate — Run Ai With An Api</title>
+      <description>This is so easy compared to self hosting stable diffusion yourself.  It even has a nice api that you can hit with curl o</description>
+      <loc>https://waylonwalker.com//thoughts-291</loc>
+      <lastmod>2024-06-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Latest Page In Markata</title>
+      <description>I just implemented a latest blog post link in Markata by asking for the first Feeds are setup in  For more information on markata check out the full </description>
+      <loc>https://waylonwalker.com//latest-page-in-markata</loc>
+      <lastmod>2024-06-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>About This Site</title>
+      <description>I registered waylonwalker.com and started making content for it in 2017 after a This was very similar to what happened to the tech industry in 2024. See  It Dig</description>
+      <loc>https://waylonwalker.com//about-this-site</loc>
+      <lastmod>2024-05-31</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Refactoring One Line Links Into Wikilinks</title>
+      <description>Previously I had setup a feature of my website to expand one line links into a [ Wikilinks are standard to a lot of wikis written in markdown. The wikilink synt</description>
+      <loc>https://waylonwalker.com//refactoring-into-wikilinks</loc>
+      <lastmod>2024-05-31</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 We Have A Right To Repair! With Kyle Wiens, Founder And Ceo At Ifixit (Changelog Interviews #582)</title>
+      <description>This is one of my favorite changelog episodes of all time.  I had no idea all the work that has gone into the right to r</description>
+      <loc>https://waylonwalker.com//thoughts-285</loc>
+      <lastmod>2024-05-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Digital Gardening For Non-Technical Folks</title>
+      <description>Maggie is a fantastic proponent to the digital gardening movement. In this article she proposes 3 ways for someone to st</description>
+      <loc>https://waylonwalker.com//thoughts-286</loc>
+      <lastmod>2024-05-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Text Decoration - Tailwind Css</title>
+      <description>Tailwind calls strikethrough line-through.  This caught me off guard and took me a minute to find.
+
+&gt; Control how text i</description>
+      <loc>https://waylonwalker.com//thoughts-287</loc>
+      <lastmod>2024-05-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Zellij On X: &#34;Pov Your Sysadmin Rigged Your Terminal To Show This When You Ssh Into Production Https://T.Co/Vtuvfk19Bl&#34; / X</title>
+      <description>This one is too funny.  opening a sixel image in the terminal when logging into prod.</description>
+      <loc>https://waylonwalker.com//thoughts-288</loc>
+      <lastmod>2024-05-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Your Linkedin Is Garbage</title>
+      <description>Your linkedin link sits at the top of your resume, its one of the first things Save that space on your resume for something useful. Fine if you want it on your </description>
+      <loc>https://waylonwalker.com//your-linkedin-is-garbage</loc>
+      <lastmod>2024-05-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Markata</title>
+      <description>This post is a work in progress. Markata is the static site generator that I created to build my website  It Gatsby and Next.js hit the scene as the next genera</description>
+      <loc>https://waylonwalker.com//markata</loc>
+      <lastmod>2024-05-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>My Linked In Work History</title>
+      <description>My linked in work history is empty.  I made up a position about content If you have taken any security class for your job seriously you have already I care abou</description>
+      <loc>https://waylonwalker.com//my-linked-in-work-history</loc>
+      <lastmod>2024-05-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Sick Wikilink Hover</title>
+      <description>Today I set up some sick wikilink hover effects using tailwind see  I</description>
+      <loc>https://waylonwalker.com//sick-wikilink-hover</loc>
+      <lastmod>2024-05-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Stlgears.Com | The Free Stl Gear Designer</title>
+      <description>This is a pretty nice gear generator.  I printed a few gears today and it worked great so far.</description>
+      <loc>https://waylonwalker.com//thoughts-283</loc>
+      <lastmod>2024-05-26</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Try Out The Latest Linux Gnome De With Distrobox</title>
+      <description>Get gnome running in distrobox.</description>
+      <loc>https://waylonwalker.com//thoughts-284</loc>
+      <lastmod>2024-05-26</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Eraser-Dev/Eraser: 🧹 Cleaning Up Images From Kubernetes Nodes</title>
+      <description>This is kinda sick, its a tool to clean up container images in a k8s cluster.</description>
+      <loc>https://waylonwalker.com//thoughts-282</loc>
+      <lastmod>2024-05-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Ublue-Os/Image-Template: Build Your Own Custom Universal Blue Image!</title>
+      <description>ublue-os makes a github template for making your own git repo with actions that build out your own personal ublue iso.</description>
+      <loc>https://waylonwalker.com//thoughts-279</loc>
+      <lastmod>2024-05-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Are We Anti-Cheat Yet?</title>
+      <description>A comprehensive community built index of anti-cheat support for linux very similar to proton, but specific to anticheat </description>
+      <loc>https://waylonwalker.com//thoughts-280</loc>
+      <lastmod>2024-05-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Distrobox</title>
+      <description>distrobox gives you `distrobox-host-exec` to run commands on the host. This is handy to get access to host level clis th</description>
+      <loc>https://waylonwalker.com//thoughts-281</loc>
+      <lastmod>2024-05-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Ublue-Os/Obs-Studio-Portable: Oci Container Image Of Obs Studio That Bundles A Curated Collection Of 3Rd Party Plugins</title>
+      <description>Distrobox is so interesting and cool, I&#39;ve only recently started realizing how much it can do especially related to hard</description>
+      <loc>https://waylonwalker.com//thoughts-278</loc>
+      <lastmod>2024-05-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+</urlset>

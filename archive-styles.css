@@ -1,0 +1,224 @@
+/* --icon-search: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M0 0h24v24H0z" stroke="none"/><circle cx="10" cy="10" r="7"/><path d="M21 21l-6-6"/></svg>'); */
+
+/* --icon-pencil: */
+
+/* --icon-abstract:
+/* --icon-info: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 9h-2V7h2m0 10h-2v-6h2m-1-9A10 10 0 002 12a10 10 0 0010 10 10 10 0 0010-10A10 10 0 0012 2z"/></svg>'); */
+
+/* --icon-flame: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.55 11.2c-.23-.3-.5-.56-.76-.82-.65-.6-1.4-1.03-2.03-1.66C13.3 7.26 13 4.85 13.91 3c-.91.23-1.75.75-2.45 1.32-2.54 2.08-3.54 5.75-2.34 8.9.04.1.08.2.08.33 0 .22-.15.42-.35.5-.22.1-.46.04-.64-.12a.83.83 0 01-.15-.17c-1.1-1.43-1.28-3.48-.53-5.12C5.89 10 5 12.3 5.14 14.47c.04.5.1 1 .27 1.5.14.6.4 1.2.72 1.73 1.04 1.73 2.87 2.97 4.84 3.22 2.1.27 4.35-.12 5.96-1.6 1.8-1.66 2.45-4.32 1.5-6.6l-.13-.26c-.2-.46-.47-.87-.8-1.25l.05-.01m-3.1 6.3c-.28.24-.73.5-1.08.6-1.1.4-2.2-.16-2.87-.82 1.19-.28 1.89-1.16 2.09-2.05.17-.8-.14-1.46-.27-2.23-.12-.74-.1-1.37.18-2.06.17.38.37.76.6 1.06.76 1 1.95 1.44 2.2 2.8.04.14.06.28.06.43.03.82-.32 1.72-.92 2.27h.01z"/></svg>'); */
+
+/* --icon-question: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.07 11.25l-.9.92C13.45 12.89 13 13.5 13 15h-2v-.5c0-1.11.45-2.11 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41a2 2 0 00-2-2 2 2 0 00-2 2H8a4 4 0 014-4 4 4 0 014 4 3.2 3.2 0 01-.93 2.25M13 19h-2v-2h2M12 2A10 10 0 002 12a10 10 0 0010 10 10 10 0 0010-10c0-5.53-4.5-10-10-10z"/></svg>'); */
+
+/* --icon-warning: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14h-2v-4h2m0 8h-2v-2h2M1 21h22L12 2 1 21z"/></svg>'); */
+
+/* --icon-failure: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2c5.53 0 10 4.47 10 10s-4.47 10-10 10S2 17.53 2 12 6.47 2 12 2m3.59 5L12 10.59 8.41 7 7 8.41 10.59 12 7 15.59 8.41 17 12 13.41 15.59 17 17 15.59 13.41 12 17 8.41 15.59 7z"/></svg>'); */
+
+/* --icon-spark: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.5 20l4.86-9.73H13V4l-5 9.73h3.5V20M12 2c2.75 0 5.1 1 7.05 2.95C21 6.9 22 9.25 22 12s-1 5.1-2.95 7.05C17.1 21 14.75 22 12 22s-5.1-1-7.05-2.95C3 17.1 2 14.75 2 12s1-5.1 2.95-7.05C6.9 3 9.25 2 12 2z"/></svg>'); */
+
+/* --icon-admonition-default: var(--icon-abstract); */
+
+* {
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "SF Mono", "Monaco", "Inconsolata", "Fira Mono",
+    "Droid Sans Mono", "Source Code Pro", monospace;
+}
+
+div,
+html,
+body,
+nav,
+header,
+hgroup,
+footer,
+section,
+article {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+ul,
+li,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+html,
+body {
+  min-height: 100vh;
+  max-width: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 2rem;
+  color: #fafafa;
+  display: flex;
+  padding: 0;
+  background-size: 800px;
+  min-height: 100vh;
+  /* background: rgb(40, 44, 52); */
+  /* background: linear-gradient( 81deg, rgba(40, 44, 52, 1) 0%, rgba(58, 46, 61, 1) 100%); */
+  background: black url("https://images.waylonwalker.com/backdrop.webp")
+    no-repeat center center fixed;
+  background-size: cover;
+}
+.flair {
+  color: #ff66c4;
+  background: -webkit-linear-gradient(-30deg, #e1af66, #c122ac);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+section {
+  margin-bottom: 5rem;
+}
+
+h1 {
+  color: #ff66c4;
+}
+
+ul.archive-list {
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.3),
+    -8rem -6rem 8rem -6rem rgba(253, 221, 88, 0.2),
+    4rem 0 8rem rgba(88, 82, 185, 0.3),
+    0rem 0rem 2rem -1.6rem rgba(255, 215, 70, 0.8);
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-top: 1rem;
+}
+
+li.post {
+  margin: 0;
+  width: 100%;
+  /* border-top: 1px solid #ff66c4; */
+  list-style-type: none;
+  border-width: 1px;
+  border-style: solid;
+  /* border-image: linear-gradient( to right, #ff66c4, rgba(255,102,196,.2)) 1 0 100%; */
+  border-image: linear-gradient(to right, #ff66c4, rgba(255, 102, 196, 0.2)) 1 0
+    0 0;
+  backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.25);
+}
+
+li.post:nth-child(2n-1) {
+  background-color: rgba(255, 255, 255, 0.01);
+  background-image: linear-gradient(
+    22deg,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.03)
+  );
+}
+
+li.post:nth-child(2n) {
+  background-color: rgba(0, 0, 0, 0.02);
+  background-image: linear-gradient(
+    22deg,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.03)
+  );
+}
+
+li.post a {
+  color: #fafafa;
+  text-decoration: none;
+}
+
+li.post h2,
+li.post p {
+  max-width: 800px;
+  width: calc(100vw - 100px);
+}
+
+li.post h2,
+li.post p {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+li.post:hover h2,
+li.post a:focus-visible h2 {
+  color: #ff66c4;
+}
+
+p {
+  color: lightgrey;
+}
+
+li.post:hover p,
+li.post a:focus-visible p {
+  color: #fafafa;
+}
+
+nav {
+  padding: 1rem 0;
+  align-items: flex-end;
+  max-width: 1000px;
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 0.4rem;
+}
+
+nav ul li a {
+  text-align: center;
+  color: gainsboro;
+  text-decoration: none;
+  padding: 0.5rem !important;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+  align-items: flex-end;
+}
+
+ul.archive-tags li:hover a,
+ul.archive-tags li a:focus-visible,
+nav ul li a:focus-visible,
+nav ul li:hover a {
+  color: #ff66c4;
+}
+
+ul.archive-tags {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  color: gainsboro;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+ul.archive-tags li {
+  padding: 0.2rem 1rem;
+}
+
+ul.archive-tags li a {
+  text-decoration: none;
+  color: #fafafa;
+}
+
+.social {
+  display: flex;
+}
+.social li {
+  list-style-type: None;
+}
+.social a {
+  color: goldenrod;
+  padding: 1rem 0.2rem;
+}

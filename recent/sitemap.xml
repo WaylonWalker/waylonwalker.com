@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/sitemap.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <title>recent</title>
+    <link>https://waylonwalker.com/</link>
+   <url>
+      <title>💭 Episode #323 Best Practices For Docker In Production - [Talk Python To Me Podcast]</title>
+      <description>Great listen for anyone interested in productionizing python code with docker.  Itamar brings up some 
+
+
+Don&#39;t trust bas</description>
+      <loc>https://waylonwalker.com//thoughts-311</loc>
+      <lastmod>2024-06-16</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 (394) Why You Should Build Your Homelab Now - Youtube</title>
+      <description>Homelabbers have been some of the best co-workers I have ever had.  Typically have a get shit done, If there&#39;s a way I w</description>
+      <loc>https://waylonwalker.com//thoughts-310</loc>
+      <lastmod>2024-06-14</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Darrenburns/Posting: Test Your Http Api Using A Powerful And Modern Terminal User Interface</title>
+      <description>Currently Posting is a super early postman like tui (terminal user interface).  It looks so good.  Darren is really gett</description>
+      <loc>https://waylonwalker.com//thoughts-307</loc>
+      <lastmod>2024-06-12</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Customize And Apply Backgrounds Fast | Svg Backgrounds</title>
+      <description>svgbackgrounds is a really awesome resource for svg things recently featured on [https://shoptalkshow.com/618/](https://</description>
+      <loc>https://waylonwalker.com//thoughts-308</loc>
+      <lastmod>2024-06-12</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Podman Requries Qemu-System On Ubuntu</title>
+      <description>podman requires qemu-system on 
+
+
+``` bash
+❯ podman machine init
+Looking up Podman Machine image at quay.io/podman/machi</description>
+      <loc>https://waylonwalker.com//thoughts-309</loc>
+      <lastmod>2024-06-12</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 A Link Blog In The Year 2024 | Kellan Elliott-Mccrea: Blog</title>
+      <description>Kellan brings some interesting thoughts on where the internet is headed in 2024.  Interestingly I see myself headed in a</description>
+      <loc>https://waylonwalker.com//thoughts-304</loc>
+      <lastmod>2024-06-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 A Link Blog In The Year 2024</title>
+      <description>THIS! is the same reasons that I built [thoughts](https://thoughts.waylonwalker.com){.hoverlink}.  Simon has bee a big i</description>
+      <loc>https://waylonwalker.com//thoughts-305</loc>
+      <lastmod>2024-06-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Blogmarks That Use Markdown</title>
+      <description>Oh I kinda like the name blogmark, as opposed to thoughts like I have chose for the same thing.  Aparantly Simon beat me</description>
+      <loc>https://waylonwalker.com//thoughts-306</loc>
+      <lastmod>2024-06-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Argoproj/Argo-Events: Event-Driven Automation Framework For Kubernetes</title>
+      <description>Argo events is an event driven automation framework for kubernetes that can create kubernetes objects among other things</description>
+      <loc>https://waylonwalker.com//thoughts-302</loc>
+      <lastmod>2024-06-09</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 How To Configure Dns Over Tls (Dot) Using Unbound Dns In Opnsense</title>
+      <description>Setting up DNS overTLS in opnsense has made my dns just a bit more secure and reliable.  I recently had an outage of hal</description>
+      <loc>https://waylonwalker.com//thoughts-303</loc>
+      <lastmod>2024-06-09</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+</urlset>

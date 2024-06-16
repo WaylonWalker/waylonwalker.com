@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/sitemap.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <title>today</title>
+    <link>https://waylonwalker.com/</link>
+   <url>
+      <title>💭 Episode #323 Best Practices For Docker In Production - [Talk Python To Me Podcast]</title>
+      <description>Great listen for anyone interested in productionizing python code with docker.  Itamar brings up some 
+
+
+Don&#39;t trust bas</description>
+      <loc>https://waylonwalker.com//thoughts-311</loc>
+      <lastmod>2024-06-16</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+</urlset>

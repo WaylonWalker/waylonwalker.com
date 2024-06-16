@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0">
+<channel>
+    <title>linux_draft</title>
+    <link>https://waylonwalker.com/</link>
+    <description>I write about how I use python and linux in data science.</description>
+    <generator>Markata</generator>
+    <image>
+        <url>static/8bitcc.png</url>
+        <link>https://waylonwalker.com/</link>
+    </image>
+    <language>en</language>
+  <item>
+      <title>Useful Btrfs Tools</title>
+      <link>https://waylonwalker.com//useful-btrfs-tools</link>
+      <description>Looking at disk usage on any of these must be done using a tool built for it if -T for tabular format</description>
+      <guid>https://waylonwalker.com//useful-btrfs-tools</guid>
+      <pubDate>2023-03-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Setting Up Snapper On Arch</title>
+      <link>https://waylonwalker.com//setting-up-snapper-on-arch</link>
+      <description>https://www.youtube.com/watch?v= These are mostly my notes to remind myself, I When I started running  You should now see  so that you can boot into snapper sna</description>
+      <guid>https://waylonwalker.com//setting-up-snapper-on-arch</guid>
+      <pubDate>2022-09-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Arch Fonts</title>
+      <link>https://waylonwalker.com//arch-fonts</link>
+      <description>https://gist.github.com/YoEight/d19112db56cd8f93835bf2d009d617f7</description>
+      <guid>https://waylonwalker.com//arch-fonts</guid>
+      <pubDate>2022-07-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Manage Your Displays With Xrandr Manager</title>
+      <link>https://waylonwalker.com//xrandr-manager</link>
+      <description>xrandr is a great cli to manage your windows in a linux distro using x11, which Check out the xrander-manager is a python cli application that is simply a nice </description>
+      <guid>https://waylonwalker.com//xrandr-manager</guid>
+      <pubDate>2022-07-16</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Vim Remaps Use Cmd In Place Of :</title>
+      <link>https://waylonwalker.com//vim-cmd</link>
+      <description>Anyone just starting out their vim customization journey is bound to run into this error. I If you run  You still need to map your remaps with a : if you do not</description>
+      <guid>https://waylonwalker.com//vim-cmd</guid>
+      <pubDate>2022-02-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Pipx Examples</title>
+      <link>https://waylonwalker.com//pipx-examples</link>
+      <description></description>
+      <guid>https://waylonwalker.com//pipx-examples</guid>
+      <pubDate>2022-01-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Copier Templates</title>
+      <link>https://waylonwalker.com//copier-templates</link>
+      <description>%%include til/copier %%include til/copier-template-variables %%include til/copier-answers</description>
+      <guid>https://waylonwalker.com//copier-templates</guid>
+      <pubDate>2022-01-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Update Alternatives In Linux</title>
+      <link>https://waylonwalker.com//update-alternatives</link>
+      <description></description>
+      <guid>https://waylonwalker.com//update-alternatives</guid>
+      <pubDate>2021-11-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Notify-Send</title>
+      <link>https://waylonwalker.com//notify-send</link>
+      <description></description>
+      <guid>https://waylonwalker.com//notify-send</guid>
+      <pubDate>2021-08-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Ubuntu</title>
+      <link>https://waylonwalker.com//ubuntu</link>
+      <description>I ran this, but have no idea if it had any effect as the theme did What I think actuagnome terminal showing scrollbar in tmuxlly worked was One thing that I rea</description>
+      <guid>https://waylonwalker.com//ubuntu</guid>
+      <pubDate>2021-06-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>How I Configure Git</title>
+      <link>https://waylonwalker.com//git-settings</link>
+      <description>Git can be a bit tricky to get configured correctly.  I often stumble into</description>
+      <guid>https://waylonwalker.com//git-settings</guid>
+      <pubDate>2021-06-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Python Lsp Setup</title>
+      <link>https://waylonwalker.com//setup-pylsp</link>
+      <description>Setting up python with the native nvim&amp;gt;0.5 lsp was mr https://github.com/neovim/nvim-lspconfig https://github.com/palantir/python-language-server/issues/190 </description>
+      <guid>https://waylonwalker.com//setup-pylsp</guid>
+      <pubDate>2021-05-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>How To Compare Two Files In Vim</title>
+      <link>https://waylonwalker.com//vim-diffsplit</link>
+      <description></description>
+      <guid>https://waylonwalker.com//vim-diffsplit</guid>
+      <pubDate>2021-05-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>📝 Docker Deep Dive - Notes</title>
+      <link>https://waylonwalker.com//docker-deep-dive</link>
+      <description>https://www.hanselminutes.com/784/doing-open-source-with-brian-douglas A handy way to try weird things in docker is using Installing on Ubuntu. In order to run </description>
+      <guid>https://waylonwalker.com//docker-deep-dive</guid>
+      <pubDate>2021-04-23</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+<lastBuildDate></lastBuildDate>
+</channel>
+</rss>

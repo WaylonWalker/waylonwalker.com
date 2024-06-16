@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0">
+<channel>
+    <title>recent</title>
+    <link>https://waylonwalker.com/</link>
+    <description>I write about how I use python and linux in data science.</description>
+    <generator>Markata</generator>
+    <image>
+        <url>static/8bitcc.png</url>
+        <link>https://waylonwalker.com/</link>
+    </image>
+    <language>en</language>
+  <item>
+      <title>💭 Episode #323 Best Practices For Docker In Production - [Talk Python To Me Podcast]</title>
+      <link>https://waylonwalker.com//thoughts-311</link>
+      <description>Great listen for anyone interested in productionizing python code with docker.  Itamar brings up some 
+
+
+Don&#39;t trust bas</description>
+      <guid>https://waylonwalker.com//thoughts-311</guid>
+      <pubDate>2024-06-16</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 (394) Why You Should Build Your Homelab Now - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-310</link>
+      <description>Homelabbers have been some of the best co-workers I have ever had.  Typically have a get shit done, If there&#39;s a way I w</description>
+      <guid>https://waylonwalker.com//thoughts-310</guid>
+      <pubDate>2024-06-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Darrenburns/Posting: Test Your Http Api Using A Powerful And Modern Terminal User Interface</title>
+      <link>https://waylonwalker.com//thoughts-307</link>
+      <description>Currently Posting is a super early postman like tui (terminal user interface).  It looks so good.  Darren is really gett</description>
+      <guid>https://waylonwalker.com//thoughts-307</guid>
+      <pubDate>2024-06-12</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Customize And Apply Backgrounds Fast | Svg Backgrounds</title>
+      <link>https://waylonwalker.com//thoughts-308</link>
+      <description>svgbackgrounds is a really awesome resource for svg things recently featured on [https://shoptalkshow.com/618/](https://</description>
+      <guid>https://waylonwalker.com//thoughts-308</guid>
+      <pubDate>2024-06-12</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Podman Requries Qemu-System On Ubuntu</title>
+      <link>https://waylonwalker.com//thoughts-309</link>
+      <description>podman requires qemu-system on 
+
+
+``` bash
+❯ podman machine init
+Looking up Podman Machine image at quay.io/podman/machi</description>
+      <guid>https://waylonwalker.com//thoughts-309</guid>
+      <pubDate>2024-06-12</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 A Link Blog In The Year 2024 | Kellan Elliott-Mccrea: Blog</title>
+      <link>https://waylonwalker.com//thoughts-304</link>
+      <description>Kellan brings some interesting thoughts on where the internet is headed in 2024.  Interestingly I see myself headed in a</description>
+      <guid>https://waylonwalker.com//thoughts-304</guid>
+      <pubDate>2024-06-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 A Link Blog In The Year 2024</title>
+      <link>https://waylonwalker.com//thoughts-305</link>
+      <description>THIS! is the same reasons that I built [thoughts](https://thoughts.waylonwalker.com){.hoverlink}.  Simon has bee a big i</description>
+      <guid>https://waylonwalker.com//thoughts-305</guid>
+      <pubDate>2024-06-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Blogmarks That Use Markdown</title>
+      <link>https://waylonwalker.com//thoughts-306</link>
+      <description>Oh I kinda like the name blogmark, as opposed to thoughts like I have chose for the same thing.  Aparantly Simon beat me</description>
+      <guid>https://waylonwalker.com//thoughts-306</guid>
+      <pubDate>2024-06-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Argoproj/Argo-Events: Event-Driven Automation Framework For Kubernetes</title>
+      <link>https://waylonwalker.com//thoughts-302</link>
+      <description>Argo events is an event driven automation framework for kubernetes that can create kubernetes objects among other things</description>
+      <guid>https://waylonwalker.com//thoughts-302</guid>
+      <pubDate>2024-06-09</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 How To Configure Dns Over Tls (Dot) Using Unbound Dns In Opnsense</title>
+      <link>https://waylonwalker.com//thoughts-303</link>
+      <description>Setting up DNS overTLS in opnsense has made my dns just a bit more secure and reliable.  I recently had an outage of hal</description>
+      <guid>https://waylonwalker.com//thoughts-303</guid>
+      <pubDate>2024-06-09</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+<lastBuildDate></lastBuildDate>
+</channel>
+</rss>
