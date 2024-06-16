@@ -28,16 +28,20 @@ def hover_links(soup):
                 "hover:z-20",
             ]
         href = link.attrs.get("href")
+
+        prefix = ""
+        boost = ""
         if not href.startswith("https://"):
             href = f"https://waylonwalker.com/{href}"
+            boost = ' hx-boost="true"'
+        if link in wikilinks:
+            boost = ' hx-boost="true"'
         if link in hoverlinks:
             prefix = external_svg
-        else:
-            prefix = ""
         title = link.text
         img = f"""
     <span class="z-10 group group-hover:z-20 relative inline-block">
-        <a class="wikilink text-pink-500 hover:underline" href="{href}" title="{title}">{prefix} {title}</a>
+        <a class="wikilink text-pink-500 hover:underline" href="{href}" title="{title}"{boost}>{prefix} {title}</a>
         <button class="ml-2 text-pink-500 hover:underline focus:outline-none" aria-label="Preview">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" class="h-5 w-5 inline align-middle">

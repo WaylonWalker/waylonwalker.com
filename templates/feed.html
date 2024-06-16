@@ -5,24 +5,18 @@
     <h1 class="flair text-center">Post Archive</h1>
     <ul class="archive-tags">
         <li>
-            <a href="/python/"> python </a>
+            <a href="/python/" hx-boost="true"> python </a>
         </li>
         <li>
-            <a href="/linux/"> linux </a>
+            <a href="/linux/" hx-boost="true"> linux </a>
         </li>
         <li>
-            <a href="/vim/"> vim </a>
+            <a href="/vim/" hx-boost="true"> vim </a>
         </li>
         <li>
-            <a href="/kedro/"> kedro </a>
+            <a href="/kedro/" hx-boost="true"> kedro </a>
         </li>
     </ul>
-    <article id="posts" class="h-feed hfeed list archive-list">
-        <ul>
-            {% for post in feed.posts %}
-                {% include feed.config.card_template %}
-            {% endfor %}
-        </ul>
-    </article>
+    {% include 'feed_partial.html' %}
     {% include 'footer.html' %}
 {% endblock %}

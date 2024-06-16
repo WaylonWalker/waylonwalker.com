@@ -1,5 +1,5 @@
 <li class="post group {{post.templateKey}} h-entry hentry">
-    <a href="/{{markata.config.path_prefix}}{{ post.slug }}/" class="u-url" rel="bookmark">
+    <a href="/{{markata.config.path_prefix}}{{ post.slug }}/" class="u-url" rel="bookmark" hx-boost="true">
         {% if post.title | length > 50 %}
         <h2 class="p-name entry-title">{{ post.title[:50] }}...</h2>
         {% else %}

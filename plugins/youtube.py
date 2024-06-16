@@ -53,9 +53,9 @@ def post_render(markata):
     should_prettify = markata.config.get("prettify_html", False)
     with markata.cache as cache:
         for article in markata.articles:
-            key = markata.make_hash(article.html)
+            key = markata.make_hash("youtube", article.html)
 
-            html_from_cache = cache.get(key)
+            html_from_cache = markata.precache.get(key)
 
             if html_from_cache is None:
                 soup = BeautifulSoup(article.html, "lxml")

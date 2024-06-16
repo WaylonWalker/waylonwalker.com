@@ -25,6 +25,7 @@ hooks = [
     'plugins.post_model',
     'plugins.thoughts',
     "plugins.wikilink_hover",
+    "plugins.boosted_link",
     # 'plugins.server',
     # "markata.plugins.publish_source",
     # "markata.plugins.publish_dev_to_source",
@@ -206,6 +207,10 @@ rel = "canonical"
 [[markata.head.link]]
 href = "{{ config.url }}{{ post.slug }}/amp/"
 rel = "amphtml"
+
+[[markata.head.script]]
+src='/htmx.min.js'
+
 
 [[markata.head.meta]]
 name = "og:url"
