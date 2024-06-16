@@ -26,6 +26,7 @@ hooks = [
     'plugins.thoughts',
     "plugins.wikilink_hover",
     "plugins.boosted_link",
+    "plugins.permalink_aria",
     # 'plugins.server',
     # "markata.plugins.publish_source",
     # "markata.plugins.publish_dev_to_source",

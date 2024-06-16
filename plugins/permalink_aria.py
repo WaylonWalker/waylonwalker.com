@@ -5,17 +5,9 @@ from bs4 import BeautifulSoup
 from markata.hookspec import hook_impl
 
 
-def boosted_links(soup):
-    base_url = "https://waylonwalker.com"
-
-    site_domain = urlparse(base_url).netloc
-
-    for a_tag in soup.find_all("a", href=True):
-        absolute_url = urljoin(base_url, a_tag["href"])
-        parsed_url = urlparse(absolute_url)
-
-        if parsed_url.netloc == site_domain and not a_tag.has_attr("hx-boost"):
-            a_tag["hx-boost"] = "true"
+def permalink_aria(soup):
+    for a_tag in soup.find_all("a", href=True, class_="header-anchor"):
+        a_tag["aria-label"] = f"Permalink to Heading {a_tag.parent.text}"
     return soup
 
 
@@ -24,13 +16,13 @@ def post_render(markata):
     should_prettify = markata.config.get("prettify_html", False)
     with markata.cache as cache:
         for article in markata.articles:
-            key = markata.make_hash("boosted_link", article.html)
+            key = markata.make_hash("permalink_aria", article.html)
 
             html_from_cache = markata.precache.get(key)
 
             if html_from_cache is None:
                 soup = BeautifulSoup(article.html, "lxml")
-                boosted_links(soup)
+                permalink_aria(soup)
                 if should_prettify:
                     html = soup.prettify()
                 else:
