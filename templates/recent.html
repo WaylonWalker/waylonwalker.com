@@ -1,2 +1,9 @@
 <h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Recent Posts</h2>
-<div hx-get='/recent/partial' hx-trigger='intersect once'></div>
+{% with feed = markata.feeds.recently_written %}
+{% include 'feed_sm_partial.html' %}
+{% endwith %}
+
+<h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Recent <a href="/thoughts/">Thoughts</a></h2>
+{% with feed = markata.feeds.recent_thoughts %}
+{% include 'feed_sm_partial.html' %}
+{% endwith %}
