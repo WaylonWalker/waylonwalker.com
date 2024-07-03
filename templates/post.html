@@ -1,14 +1,18 @@
 {% extends "base.html" %}
 {% block content %}
     {% include "nav.html" %}
-    <article class="blog-post h-entry">
-        {% include 'post-title.html' %}
-        {% include 'tags.html' %}
-        <div class="e-content" id="post-body" {{ 'data-pagefind-body' if post in markata.feeds.pagefind.posts else '' }}>
-            {{ body }}
-        </div>
-        <div id="show"></div>
-    </article>
-    {% include 'recent.html' %}
+    <div>
+        <article class="blog-post h-entry">
+            {% include 'post-title.html' %}
+            {% include 'tags.html' %}
+            <div class="e-content" id="post-body" {{ 'data-pagefind-body' if post in markata.feeds.pagefind.posts else '' }}>
+                {{ body }}
+            </div>
+        </article>
+
+        <article>
+            {% include 'recent.html' %}
+        </article>
+    </div>
     {% include 'footer.html' %}
 {% endblock %}
