@@ -1,7 +1,7 @@
 ---
 date: 2024-06-25 18:23:41
 templateKey: til
-title: playerctl fixes arch
+title: playerctl fixes arch media keys
 published: true
 tags:
   - linux
