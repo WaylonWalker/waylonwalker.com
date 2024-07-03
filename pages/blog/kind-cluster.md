@@ -59,7 +59,7 @@ kind load docker-image $REPOSITORY:$TAG --name <CLUSTER_NAME>
 ```
 
 !!! Note
-    the CLUSTER_NAME is the name that you gave kind when you started the kind cluster.
+     the CLUSTER_NAME is the name that you gave kind when you started the kind cluster.
 
 ## Argocd
 

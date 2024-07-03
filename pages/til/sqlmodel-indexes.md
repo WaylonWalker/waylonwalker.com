@@ -27,6 +27,6 @@ class Hero(SQLModel, table=True):
 _example courtesy of the docs_
 
 !!! Note
-    primary keys are indexed by default.
+     primary keys are indexed by default.
 
 > The docs cover this pretty well, and in quite depth - [Optimizing Queries](https://sqlmodel.tiangolo.com/tutorial/indexes/)

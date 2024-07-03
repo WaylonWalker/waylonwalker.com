@@ -12,8 +12,8 @@ with a way to reverse the slug of a post to create a title for one that
 does not explicitly have a title.
 
 !!! Note "slugs"
-   a slug is generally all lowercase and free of spaces, and is a way to
-   make website routes (urls)
+    a slug is generally all lowercase and free of spaces, and is a way to
+    make website routes (urls)
 
 
 Here I have  a `path` available that gives me the articles path, ex.

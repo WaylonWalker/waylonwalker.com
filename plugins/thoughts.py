@@ -23,8 +23,8 @@ def load(markata: "Markata") -> None:
         post["description"] = post["message"][:120]
         post["content"] = f"""
 !!! note
-    This post is a [thought](https://thoughts.waylonwalker.com).  It's a short note that I make about someone else's
-    content online.  Learn more about the process [[ thoughts ]]
+     This post is a [thought](https://thoughts.waylonwalker.com).  It's a short note that I make about someone else's
+     content online.  Learn more about the process [[ thoughts ]]
 
 Here's my thought on [{post["title"]}]({post["link"]})
 

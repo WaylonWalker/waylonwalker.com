@@ -31,8 +31,8 @@ The wikilink syntax is a slug wrapped in double square brackets.
 Marksman lsp will even autocomplete these for you, its pretty sweet.
 
 !!! Note
-  I recently implemented hover for wikilinks and and am pretty stoked about the
-  result.  Check this one out [[ sick-wikilink-hover ]].
+    I recently implemented hover for wikilinks and and am pretty stoked about the
+    result.  Check this one out [[ sick-wikilink-hover ]].
 
 ## Vim Quickfix
 

@@ -68,7 +68,7 @@ As a scrappy startup we are running light on infrastructure and are caching
 hard at the CDN to avoid excessive server hits.
 
 !!! Note
-I am doing a `POST` request to do the cancellation from a form.
+     I am doing a `POST` request to do the cancellation from a form.
 
 ```python
 @pricing_router.get("/cancel")

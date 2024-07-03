@@ -282,9 +282,9 @@ Since I will be needing all of the data together upon every request I put
 together one `get_data` function to return a dict of all of the data.
 
 !!! note forecast
-    I pulled the forecast endpoint from openweathermap as well, it looks like a
-    stripped down version of the regular weather endpoint, but every few hours
-    over the course of the next 5 days.
+     I pulled the forecast endpoint from openweathermap as well, it looks like a
+     stripped down version of the regular weather endpoint, but every few hours
+     over the course of the next 5 days.
 
 ``` python
 async def get_data(request: Request):
@@ -397,7 +397,7 @@ I like from other projects, and at least one specific to just this project.
 Once they are in my config object, I use them like so.
 
 !!! Note
-    The `request` parameter is a requirement for all templates.
+     The `request` parameter is a requirement for all templates.
 
 ``` python
 @app.get("/")
@@ -538,7 +538,7 @@ will use my `tailwind.config.js` file, and the `tailwind/app.css` file as
 input, and output to `static/app.css`.
 
 !!! Note
-   --watch will watch for changes, and automatically recompile as you make changes to any templates.
+    --watch will watch for changes, and automatically recompile as you make changes to any templates.
 
 ``` bash
 # install the typography plugin
