@@ -22,4 +22,4 @@ tailscale set --ssh
 
 I picked this up from the tailscale youtube channel.
 
-[[ https://www.youtube.com/watch?v=08clF9srJ2k&t=35s ]]{.youtube-embed}
+[Tailscale](https://www.youtube.com/watch?v=08clF9srJ2k&t=35s){.youtube-embed}

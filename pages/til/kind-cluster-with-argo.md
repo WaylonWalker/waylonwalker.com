@@ -30,3 +30,22 @@ helm install argo argo/argo-cd --namespace argocd --create-namespace
 # deploy the app of apps
 kubectl apply -f apps/apps.yaml
 ```
+
+If you want to add repos and apps to your cluster you can use the argo cli to
+do that, but first you will need forward the argocd port and login.
+
+``` bash
+# Wait until Argo CD API server is available
+echo "Waiting for Argo CD API server to be available..."
+while ! kubectl wait --for=condition=available --timeout=60s deployment/argo-argocd-server -n argocd; do
+  echo "Waiting for Argo CD API server to be ready..."
+  sleep 10
+done
+
+
+kubectl port-forward svc/argo-argocd-server -n argocd 8080:443 &
+argocd_admin_password=$(kubectl get secret argocd-initial-admin-secret -n argocd -o jsonpath="{.data.password}" | base64 -d)
+argocd login localhost:8080 --insecure --username admin --password $argocd_admin_password
+argocd repo add https://github.com/fokais-com/app.fokais.git --username waylonwalker --password ${GH_ARGO_PAT}
+argocd app create app-fokais-local --repo https://github.com/fokais-com/app.fokais.git --path k8s/overlays/local --dest-server https://kubernetes.default.svc --sync-policy automated --sync-option Prune=true
+```

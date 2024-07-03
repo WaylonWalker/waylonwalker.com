@@ -32,6 +32,9 @@ git log --diff-filter D --pretty="format:" --name-only
 # this one has the empty lines cleaned up
 git log --diff-filter D --pretty="format:" --name-only | sed '/^$/d'
 ```
+
+[[ git-diff-filter ]]
+
 ## git reflog --diff-filter
 
 The reflog can be super powerful in finding lost files here, as it only
@@ -57,3 +60,5 @@ git reflog --diff-filter D --pretty="format:" --name-only | sed '/^$/d'
 ``` bash
 git log -n 1 --pretty=format:%H -- file
 ```
+
+If you want dont like how the output looks or you want your default pager to be different you can configure the default pager see [[ git-pager ]].
