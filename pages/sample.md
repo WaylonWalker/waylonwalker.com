@@ -17,11 +17,11 @@ print("that")
 
 ## subtitle
 
-!!! note "sample note"
+!!! note sample note
 
      this is a sameple
 
-!!! danger "be careful"
+!!! danger be careful
 
      this is super dang.
 

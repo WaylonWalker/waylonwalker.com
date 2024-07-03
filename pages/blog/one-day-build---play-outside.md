@@ -538,7 +538,7 @@ will use my `tailwind.config.js` file, and the `tailwind/app.css` file as
 input, and output to `static/app.css`.
 
 !!! Note
-    --watch will watch for changes, and automatically recompile as you make changes to any templates.
+     --watch will watch for changes, and automatically recompile as you make changes to any templates.
 
 ``` bash
 # install the typography plugin

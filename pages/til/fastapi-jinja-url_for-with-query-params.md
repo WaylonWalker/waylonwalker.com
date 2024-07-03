@@ -70,15 +70,15 @@ def get_templates():
 ```
 
 !!! Note "https"
-    If you want url_for to work in production you need some way to convert http
-    to https.  Here is how I make it work, for local development I `export
-    ENV=local` then for each environment that I am running on a server I include
-    it in the list and update `ENV` appropriately.
+     If you want url_for to work in production you need some way to convert http
+     to https.  Here is how I make it work, for local development I `export
+     ENV=local` then for each environment that I am running on a server I include
+     it in the list and update `ENV` appropriately.
 
-    ``` python
-        if os.environ.get("ENV") in ["dev", "qa", "prod"]:
-            updated_url = updated_url.replace("http", "https", 1)
-    ```
+     ``` python
+         if os.environ.get("ENV") in ["dev", "qa", "prod"]:
+             updated_url = updated_url.replace("http", "https", 1)
+     ```
 
 The route might look something like this.
 

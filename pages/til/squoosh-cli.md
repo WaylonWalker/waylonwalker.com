@@ -15,14 +15,14 @@ is a wasm powered cli that supports a bunch of formats that I would want to
 convert my website images to.
 
 !!! Note from the future
-     > Unfortunately, due to a few people leaving the team, and staffing issues
-     > resulting from the current economic climate (ugh), I'm deprecating the
-     > CLI and libsquoosh parts of Squoosh. The web app will continue to be
-     > supported and improved. I know that sucks, but there simply isn't the
-     > time & people to work on this. If anyone from the community wants to fork
-     > it, you have my blessing.
+      > Unfortunately, due to a few people leaving the team, and staffing issues
+      > resulting from the current economic climate (ugh), I'm deprecating the
+      > CLI and libsquoosh parts of Squoosh. The web app will continue to be
+      > supported and improved. I know that sucks, but there simply isn't the
+      > time & people to work on this. If anyone from the community wants to fork
+      > it, you have my blessing.
 
-     https://github.com/GoogleChromeLabs/squoosh/pull/1321
+      https://github.com/GoogleChromeLabs/squoosh/pull/1321
 
 ## Web App
 

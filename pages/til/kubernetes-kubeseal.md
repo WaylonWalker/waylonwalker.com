@@ -44,7 +44,8 @@ For a more complete instruction see the
 
 ## installation - controller
 
-!!! warning context
+!!! warning
+     **context**
      Make sure that you are in the right context before running any kubectl commands.
 
 ``` bash
@@ -74,8 +75,8 @@ brew install kubeseal
 ```
 
 !!! note
-   You will need to install kubeseal on every device that you will want to
-   create sealed secrets on.
+     You will need to install kubeseal on every device that you will want to
+     create sealed secrets on.
 
 ## Example
 
@@ -106,12 +107,12 @@ metadata:
 ```
 
 !!! note
-    The data is base64 encoded.
+     The data is base64 encoded.
 
-  ``` bash
-  echo -n bar | base64
-  # YmFy
-  ```
+     ``` bash
+     echo -n bar | base64
+     # YmFy
+     ```
 
 ``` bash
 # This is the important bit:

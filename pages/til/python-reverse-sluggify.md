@@ -12,9 +12,8 @@ with a way to reverse the slug of a post to create a title for one that
 does not explicitly have a title.
 
 !!! Note "slugs"
-    a slug is generally all lowercase and free of spaces, and is a way to
-    make website routes (urls)
-
+     a slug is generally all lowercase and free of spaces, and is a way to
+     make website routes (urls)
 
 Here I have  a `path` available that gives me the articles path, ex.
 `python-reverse-sluggify.md`.  An easy way to get rid of the file
@@ -27,8 +26,6 @@ article["title"] = (
     Path(article["path"]).stem.replace("-", " ").replace("_", " ").title()
 )
 ```
-
-
 
 To turn this into a markata plugin I put it into a pre_render hook.
 
