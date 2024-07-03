@@ -9,7 +9,7 @@ published: True
 
 ---
 
-[kind](https://kind.sigs.k8s.io/) is a very useful tool to quickly standup and
+[kind](https://kind.sigs.k8s.io/){.hoverlink} is a very useful tool to quickly standup and
 teardown kubernetes clusters.  I use it to run clusters locally.  Generally
 they are short lived clusters for trying, testing, and learning about
 kubernetes.
@@ -24,8 +24,8 @@ suggest kind as the best option to get a cluster up and running locally.
 ## Not Production
 
 If you are looking for a production ready cluster this is not it.  I really
-like [k3s](https://k3s.io/).  At the time that I chose k3s it was the most lightweight option that
-easily supported multinode clusters.
+like [k3s](https://k3s.io/){.hoverlink}.  At the time that I chose k3s it was
+the most lightweight option that easily supported multi-node clusters.
 
 ## Starting a kind cluster
 
