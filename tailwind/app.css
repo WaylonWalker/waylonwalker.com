@@ -436,11 +436,101 @@ iframe {
   @apply text-pink-500;
 }
 .admonition.note {
-  /* @apply border-l-2; */
-  /* @apply border-white; */
   @apply shadow-lg   shadow-pink-500/50 shadow-[rgba(0,0,15,0.5)_-16px_0px_10px_-10px];
-
 }
+
+.admonition.info .admonition-title {
+  @apply text-blue-500;
+}
+.admonition.info {
+  @apply shadow-lg   shadow-blue-500/50 shadow-[rgba(0,0,15,0.5)_-16px_0px_10px_-10px];
+}
+
+.admonition.tip .admonition-title {
+  @apply text-green-500;
+}
+.admonition.tip {
+  @apply shadow-lg   shadow-green-500/50 shadow-[rgba(0,0,15,0.5)_-16px_0px_10px_-10px];
+}
+
+.admonition.danger .admonition-title {
+  @apply text-red-500;
+}
+.admonition.danger {
+  @apply shadow-lg   shadow-red-500/50 shadow-[rgba(0,0,15,0.5)_-16px_0px_10px_-10px];
+}
+
+.admonition.error .admonition-title {
+  @apply text-red-500;
+}
+.admonition.error {
+  @apply shadow-lg   shadow-red-500/50 shadow-[rgba(0,0,15,0.5)_-16px_0px_10px_-10px];
+}
+
+.admonition.warning .admonition-title {
+  @apply text-yellow-500;
+}
+.admonition.warning {
+  @apply shadow-lg   shadow-yellow-500/50 shadow-[rgba(0,0,15,0.5)_-16px_0px_10px_-10px];
+}
+
+.admonition.caution .admonition-title {
+  @apply text-orange-500;
+}
+.admonition.caution {
+  @apply shadow-lg   shadow-orange-500/50 shadow-[rgba(0,0,15,0.5)_-16px_0px_10px_-10px];
+}
+
+.admonition.hint .admonition-title {
+  @apply text-teal-500;
+}
+.admonition.hint {
+  @apply shadow-lg   shadow-teal-500/50 shadow-[rgba(0,0,15,0.5)_-16px_0px_10px_-10px];
+}
+
+.admonition.reminder .admonition-title {
+  @apply text-purple-500;
+}
+.admonition.reminder {
+  @apply shadow-lg   shadow-purple-500/50 shadow-[rgba(0,0,15,0.5)_-16px_0px_10px_-10px];
+}
+
+.admonition.settings .admonition-title {
+  @apply text-emerald-500;
+}
+.admonition.settings {
+  @apply shadow-lg   shadow-emerald-500/50 shadow-[rgba(0,0,15,0.5)_-16px_0px_10px_-10px];
+}
+
+.admonition.seealso .admonition-title {
+  @apply text-emerald-500;
+}
+.admonition.seealso {
+  @apply shadow-lg   shadow-emerald-500/50 shadow-[rgba(0,0,15,0.5)_-16px_0px_10px_-10px];
+}
+
+.admonition.important .admonition-title {
+  @apply text-rose-500;
+}
+.admonition.important {
+  @apply shadow-lg   shadow-rose-500/50 shadow-[rgba(0,0,15,0.5)_-16px_0px_10px_-10px];
+}
+
+.admonition.attention .admonition-title {
+  @apply text-amber-500;
+}
+.admonition.attention {
+  @apply shadow-lg   shadow-amber-500/50 shadow-[rgba(0,0,15,0.5)_-16px_0px_10px_-10px];
+}
+
+.admonition.todo .admonition-title {
+  @apply text-purple-500;
+}
+.admonition.todo {
+  @apply shadow-lg   shadow-purple-500/50 shadow-[rgba(0,0,15,0.5)_-16px_0px_10px_-10px];
+}
+
+
 
 pre {
   @apply col-start-1 !important;
