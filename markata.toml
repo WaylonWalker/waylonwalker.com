@@ -211,7 +211,7 @@ rel = "amphtml"
 
 [[markata.head.script]]
 src='/htmx.min.js'
-
+async = true
 
 [[markata.head.meta]]
 name = "og:url"
@@ -391,7 +391,29 @@ filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts'] and pu
 head = 10
 sort = "date"
 reverse = true
+card_template='feed_card_sm.html'
+partial_template='feed_sm_partial.html'
 description = 'The main feed of the last 10 posts of my main posts'
+
+[[markata.feeds]]
+slug = 'recent-thoughts'
+filter = "date<=today and templateKey in ['thoughts'] and published"
+head = 10
+sort = "date"
+reverse = true
+card_template='feed_card_sm.html'
+partial_template='feed_sm_partial.html'
+description = 'The main feed of the last 10 posts of my thoughts posts'
+
+[[markata.feeds]]
+slug = 'recently-written'
+filter = "date<=today and templateKey in ['blog-post', 'til'] and published"
+head = 10
+sort = "date"
+reverse = true
+card_template='feed_card_sm.html'
+partial_template='feed_sm_partial.html'
+description = 'The main feed of the last 10 posts of my written posts'
 
 [[markata.feeds]]
 slug = 'all'
