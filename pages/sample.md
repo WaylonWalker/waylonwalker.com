@@ -78,7 +78,9 @@ This is not markdown
 </div>
 
 <div markdown="1">
+
 # markdown in html
 
 This is a *Markdown* Paragraph.
+
 </div>
