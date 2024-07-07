@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 tags: []
-title: Reader
+title: Reader-2020
 date: 2020-07-12T05:00:00.000+00:00
 published: true
 description: Notes about my reader idea
@@ -12,7 +12,6 @@ cover: ""
 ## Inputs
 
 The input will be a yaml file containing a list of `Items` you want to stay up to date with.  Inside each item will be a url, and weight.
-
 
 ``` yaml
 email:
@@ -57,7 +56,6 @@ items:
         url: https://pypi.org/project/kedro/
 ```
 
-
 ## Types
 
 * rss feed (primary source)
@@ -79,7 +77,6 @@ a_raw (raw plain text / json items) -> b_int (cleaned items) -> c_pri (single fe
 ## output
 
 Pipeline outputs will be email, json, markdown, xml, html.  Each will be able to be configured by the config file (max-entries, output location).
-
 
 ## Running
 
