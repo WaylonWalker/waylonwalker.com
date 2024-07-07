@@ -61,4 +61,5 @@ git reflog --diff-filter D --pretty="format:" --name-only | sed '/^$/d'
 git log -n 1 --pretty=format:%H -- file
 ```
 
-If you want dont like how the output looks or you want your default pager to be different you can configure the default pager see [[ git-pager ]].
+If you want dont like how the output looks or you want your default pager to be
+different you can configure the default pager see [[ git-pager ]].

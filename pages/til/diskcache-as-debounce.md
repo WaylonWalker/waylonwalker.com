@@ -9,7 +9,7 @@ tags:
 ---
 
 I've been using fastapi more and more lately and one feature I just started
-using is background tasks [[ thoughts-333 ]].  
+using is background tasks [[ thoughts-333 ]].
 
 !!! seealso
     basic diskcache example [[ python-diskcache ]]
