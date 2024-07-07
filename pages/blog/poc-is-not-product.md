@@ -5,6 +5,7 @@ title: poc is not product
 tags:
   - startup
 published: True
+jinja: false
 
 ---
 
@@ -38,7 +39,9 @@ server.  After some searching I chose resend for email.
 
 ### Progress thus far
 
-* /shot
+
+
+* /shot{.text-gray-500}
 * email service for account recovery
 * database to store users
 * /login
@@ -65,16 +68,16 @@ once you have executed a checkout, and a way to cancel your subscription.
 
 ### Progress thus far
 
-* /shot
-* email service for account recovery
-* database to store users
-* /login
-* /forgot-password
-* /recover-account
-* /logout
-* /signup
-* /access-token
-* /account
+* /shot{.text-gray-500}
+* email service for account recovery{.text-gray-500}
+* database to store users{.text-gray-500}
+* /login{.text-gray-500}
+* /forgot-password{.text-gray-500}
+* /recover-account{.text-gray-500}
+* /logout{.text-gray-500}
+* /signup{.text-gray-500}
+* /access-token{.text-gray-500}
+* /account{.text-gray-500}
 * stripe account
 * stripe api integration
 * /pricing
@@ -93,23 +96,23 @@ with subscriptions.
 
 ### Progress thus far
 
-* /shot
-* email service for account recovery
-* database to store users
-* /login
-* /forgot-password
-* /recover-account
-* /logout
-* /signup
-* /access-token
-* /account
-* stripe account
-* stripe api integration
-* /pricing
-* /create-checkout-session
-* /checkout-success
-* /cancel-subscription
-* /reactivate-subscription
+* /shot{.text-gray-500}
+* email service for account recovery{.text-gray-500}
+* database to store users{.text-gray-500}
+* /login{.text-gray-500}
+* /forgot-password{.text-gray-500}
+* /recover-account{.text-gray-500}
+* /logout{.text-gray-500}
+* /signup{.text-gray-500}
+* /access-token{.text-gray-500}
+* /account{.text-gray-500}
+* stripe account{.text-gray-500}
+* stripe api integration{.text-gray-500}
+* /pricing{.text-gray-500}
+* /create-checkout-session{.text-gray-500}
+* /checkout-success{.text-gray-500}
+* /cancel-subscription{.text-gray-500}
+* /reactivate-subscription{.text-gray-500}
 * POST /shot
 * GET /shot/{id}
 

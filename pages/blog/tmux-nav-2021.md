@@ -19,9 +19,9 @@ groups.
 
 ## Update
 
-Since making this post, I have made ~20 other posts in short form that all have a YouTube video to go along with them you can find them all on my
+Since making this post, I have made ~20 other posts in short form that all have
+a YouTube video to go along with them you can find them all on my
 [tmux-playlist](https://www.youtube.com/playlist?list=PLTRNG6WIHETB4reAxbWza3CZeP9KL6Bkr).
-
 
 ## [Chris Toomey's](https://twitter.com/christoomey) Tmux Course
 
@@ -69,8 +69,8 @@ Throughout this article, I have several recordings showing how I use manage
 sessions with my keybindings.  I will often run a `tmux ls` command to
 highlight running sessions at various points to help guide the viewer.
 
-
 ## ta
+
 _my attach/session switch script_
 
 At the heart of my tmux navigation is a highly customized version of Chris's
@@ -153,7 +153,6 @@ Note that starting from outside currently does not start in a split layout like
 it does when starting from within tmux.  I am still playing with this, but
 generally, I want my terminal session to be plain when I first start my
 terminal. I usually am starting work after the first default session.
-
 
 > 🤔 I still use both fzy and fzf. It probably doesn't make sense to use both,
 > but I am currently giving fzy a try.
@@ -314,7 +313,6 @@ alias tkill="for s in \$(tmux list-sessions | awk '{print \$1}' | rg ':' -r '' |
 I don't have this one set up with a nice hotkey, but it works for my
 fingers.  I often pop open a lower split(`M-s`), run `tkill`, and close (`M-x`).
 
-
 <!-- ![create a new session git-diff switch back to original session with prefix+c-g then use tkill to kill the git-diff session](https://images.waylonwalker.com/tmux-navigation-2021-tkill.gif "tkill example") -->
 <video controls muted autoplay playsinline loop=true width="100%">
     <source src="https://images.waylonwalker.com/tmux-navigation-2021-tkill.webm"
@@ -366,6 +364,7 @@ bind -n M-b switch-client -l
 > speed and precision.
 
 ## More Precision
+
 _one keystroke_
 
 The final layer of precision is for my most current project. I need to get
@@ -398,7 +397,6 @@ bind -n M-o new-session -A -s images_waylonwalker_com "cd ~/git/images.waylonwal
 
 And yes, I did steal this last one from [Harpoon-man](https://twitter.com/ThePrimeagen) By The Way.
 
-
 ## Hub and Spoke
 
 _M-i M-b_
@@ -406,7 +404,6 @@ _M-i M-b_
 I have really been digging this hub and spoke workflow where I am rocking away
 on a project hit `M-I`, take some notes then hit `M-b` to get back to where I
 was.
-
 
 ![hub and spoke](https://images.waylonwalker.com/tmux-nav-hub-spoke.png)
 
@@ -446,7 +443,6 @@ blog and back to my project quickly.
 9. `M-b` back to my project
 10. `prefix+c-j` fuzzy back to the first project
 11. `M-b` back to the second project
-
 
 ---
 
