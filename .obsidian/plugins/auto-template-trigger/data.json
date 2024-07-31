@@ -1,0 +1,16 @@
+{
+  "folderSpecificTemplates": [
+    {
+      "folderPath": "pages/blog",
+      "templateName": "blog-post"
+    },
+    {
+      "folderPath": "pages/til",
+      "templateName": "til-post"
+    },
+    {
+      "folderPath": "",
+      "templateName": ""
+    }
+  ]
+}

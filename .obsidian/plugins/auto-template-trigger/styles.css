@@ -1,0 +1,9 @@
+
+:root {
+    --auto-template-prompt-modal-opacity: 100;
+}
+
+.modal-container {
+    opacity: var(--auto-template-prompt-modal-opacity);
+    transition: opacity 0.2s ease-in-out;
+}

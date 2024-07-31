@@ -1,0 +1,37 @@
+{
+  "collapse-filter": false,
+  "search": "markata",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#markata  ",
+      "color": {
+        "a": 1,
+        "rgb": 6608476
+      }
+    },
+    {
+      "query": "file:markata",
+      "color": {
+        "a": 1,
+        "rgb": 16719647
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 1.099666366588034,
+  "close": false
+}
