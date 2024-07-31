@@ -1,10 +1,11 @@
 ---
 templateKey: blog-post
-tags: ['meta', ]
+tags:
+  - meta
+  - tmux
 title: Uses
 date: 2021-11-20T10:38:00
 published: false
-
 ---
 
 This is a listing of all the things that I use on a daily basis to build data

@@ -5,7 +5,7 @@ title: markata 0.3.0 is 15-20% faster
 published: true
 tags:
   - python
-
+  - markata
 ---
 
 ![image from Dall-e](https://images.waylonwalker.com/DALL%C2%B7E%202022-08-21%2015.03.04%20-%20An%20expressive%20oil%20painting%20of%20a%20sprinter%20edging%20out%20their%20component%20at%20the%20finish%20line,%20depicted%20as%20an%20explosion%20of%20a%20nebula.png)

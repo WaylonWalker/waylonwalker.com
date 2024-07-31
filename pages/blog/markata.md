@@ -4,8 +4,8 @@ templateKey: blog-post
 title: markata
 tags:
   - python
-published: True
-
+  - markata
+published: true
 ---
 
 This post is a work in progress.

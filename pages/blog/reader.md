@@ -4,8 +4,8 @@ templateKey: blog-post
 title: reader
 tags:
   - catalytic
-published: False
-
+  - markata
+published: false
 ---
 
 In 2024 I built my own reader after years of being bitter about google killing

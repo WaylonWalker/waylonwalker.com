@@ -4,9 +4,9 @@ templateKey: blog-post
 title: I've added htmx to my blog
 tags:
   - webdev
-published: False
-jinja: True
-
+  - markata
+published: false
+jinja: true
 ---
 
 I've added htmx to my blog.  It's extra bloatware that I long avoided, but it's

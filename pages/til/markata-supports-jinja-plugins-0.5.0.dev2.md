@@ -6,7 +6,7 @@ published: true
 jinja: false
 tags:
   - python
-
+  - markata
 ---
 
 Markata now allows you to create jinja extensions that will be loaded right in

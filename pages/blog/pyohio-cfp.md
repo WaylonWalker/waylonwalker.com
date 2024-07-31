@@ -4,8 +4,8 @@ templateKey: blog-post
 title: PyOhio CFP's
 tags:
   - python
+  - markata
 published: true
-
 ---
 
 Here are some CFP's that I used for PyOhio 2022.

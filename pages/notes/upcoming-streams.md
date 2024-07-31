@@ -1,6 +1,11 @@
 ---
 templateKey: blog-post
-tags: [stream, kedro, python, blog]
+tags:
+  - stream
+  - kedro
+  - python
+  - blog
+  - markata
 title: Upcoming Stream
 date: 2021-06-08T20:27:53
 published: false

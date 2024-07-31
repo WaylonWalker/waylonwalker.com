@@ -6,7 +6,7 @@ published: true
 jinja: false
 tags:
   - python
-
+  - markata
 ---
 
 Markata now uses hatch as its build backend, and version bumping tool.

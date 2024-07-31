@@ -6,8 +6,8 @@ tags:
   - python
   - linux
   - cli
+  - markata
 published: false
-
 ---
 
 ## count lines of code

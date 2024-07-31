@@ -6,7 +6,7 @@ tags:
   - python
   - cli
   - vim
-
+  - markata
 ---
 
 I often pop into my blog from neovim with the intent to look at just a

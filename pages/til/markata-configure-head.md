@@ -5,7 +5,7 @@ title: markata extend <head> in configuration
 published: true
 tags:
   - python
-
+  - markata
 ---
 
 ![Astronauts stunting some stylish color explosion](https://stable-diffusion.waylonwalker.com/000172.2339173599.webp)

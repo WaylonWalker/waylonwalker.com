@@ -5,14 +5,18 @@ date: 2019-07-07T05:00:00.000+00:00
 published: true
 description: Reimagining my tmux configuration inside of vscode.
 tags:
-- vscode
-
+  - vscode
+  - tmux
 ---
 > Throw that mouse Away its time to setup some keyboard shortcuts.
 
 These sortcuts were the baseline for switching from tmux/vim to vscode.  Most folks posts I was able to find gave great tips on replacing vim, but very few have focused on the hackability of tmux.  tmux allows me to rapidly fire up a workspace, create new windows and splits.  Then When I switch tasks I can leave that workspace open and and jump right back in later exactly where I left off.  There is nothing quite like it.  The shortcuts listed here make the transition a bit better. The worst thing I found when using vscode at first was no way to switch between the terminal and editor without the mouse.  This first set of keybindings solve that issue.
 
 > The worst thing I found when using vscode at first was no way to switch between the terminal and editor without the mouse.
+
+
+!!! see-also
+	I have an updated article in my tmux workflow [[tmux-nav-2021]]
 
 ## Alt+\[hjkl\]
 

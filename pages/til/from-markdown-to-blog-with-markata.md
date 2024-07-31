@@ -5,7 +5,7 @@ title: From Markdown to Blog with Markata | lightning talk | python web conf 202
 published: true
 tags:
   - python
-
+  - markata
 ---
 
 Markata is a great python framework that allows you to go from markdown to a
