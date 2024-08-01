@@ -15,4 +15,4 @@ I'm giving obsidian a go as an editor for my blog and one of the main things I w
 Once the images are there they are pushed and deployed as their own site to cloudflare pages.  I made a quick edit to my [[sick-wikilink-hover]] plugin for my blog.  if it sees a wikilink ending in webp, convert the domain over to obsidian-assets.waylonwalker.com, and clean up the remaining `"!  "` that the python md-it library leaves behind.
 
 !!! note
-   after first try I needed to increase the width from 600 to 1400, the image in this post was unreadable.
+    after first try I needed to increase the width from 600 to 1400, the image in this post was unreadable.
