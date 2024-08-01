@@ -1,6 +1,8 @@
 ---
 templateKey: gratitude
 date: 2017-12-18
+tags:
+  - gratitude
 ---
 
 #### Restart

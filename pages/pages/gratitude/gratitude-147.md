@@ -2,7 +2,8 @@
 date: 2022-02-10 03:22:59.324809
 templateKey: gratitude
 title: Gratitude 147
-
+tags:
+  - gratitude
 ---
 
 Rhiannon is kicking butt today 🦵!  She finished setting up our movers,

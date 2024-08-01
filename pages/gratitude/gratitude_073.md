@@ -1,4 +1,7 @@
 ---
+tags:
+  - gratitude
+
 title: gratitude 073
 date: 2019-01-15
 templateKey: gratitude

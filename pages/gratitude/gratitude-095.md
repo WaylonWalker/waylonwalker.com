@@ -1,6 +1,9 @@
 ---
 date: 2019-05-21T20:04:40Z
 templateKey: gratitude
+tags:
+  - gratitude
+
 title: Gratitude 095
 
 ---

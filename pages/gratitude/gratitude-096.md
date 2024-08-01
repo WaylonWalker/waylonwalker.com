@@ -1,6 +1,9 @@
 ---
 date: 2021-06-23T20:39:31
 templateKey: gratitude
+tags:
+  - gratitude
+
 title: Gratitude 097
 
 ---

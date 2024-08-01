@@ -1,6 +1,9 @@
 ---
 date: 2024-04-15 20:38:17
 templateKey: gratitude
+tags:
+  - gratitude
+
 title: Gratitude 198
 
 ---

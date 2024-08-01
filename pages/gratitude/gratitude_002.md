@@ -1,6 +1,8 @@
 ---
 templateKey: gratitude
 date: 2017-12-14
+tags:
+  - gratitude
 ---
 
 #### Persistence

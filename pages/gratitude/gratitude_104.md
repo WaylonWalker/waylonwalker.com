@@ -1,6 +1,9 @@
 ---
 date: 2021-12-28T20:26:38
 templateKey: gratitude
+tags:
+  - gratitude
+
 title: Gratitude 104
 
 ---

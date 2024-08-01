@@ -1,5 +1,7 @@
 ---
-templateKey: "gratitude"
+templateKey: gratitude
+tags:
+  - gratitude
 ---
 
 ### My own Pace

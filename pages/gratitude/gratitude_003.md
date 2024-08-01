@@ -1,6 +1,8 @@
 ---
 templateKey: gratitude
 date: 2017-12-15
+tags:
+  - gratitude
 ---
 
 #### Community

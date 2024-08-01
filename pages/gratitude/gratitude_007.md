@@ -1,6 +1,8 @@
 ---
 templateKey: gratitude
 date: 2017-12-19
+tags:
+  - gratitude
 ---
 
 #### Accommodations

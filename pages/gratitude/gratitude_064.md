@@ -1,4 +1,7 @@
 ---
+tags:
+  - gratitude
+
 title: Gratitude 64
 date: 2019-01-03
 templateKey: gratitude

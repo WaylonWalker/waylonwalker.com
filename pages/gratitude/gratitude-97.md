@@ -1,6 +1,9 @@
 ---
 date: 2021-06-22T20:39:31
 templateKey: gratitude
+tags:
+  - gratitude
+
 title: Gratitude 096
 
 ---
@@ -22,4 +25,3 @@ Rhiannon pushed me to getting checked out.  I am so
 grateful that my doctor took me back in as a patient after
 not seeing him for so long though the pandemic.  Finally I
 am ready for some relief.
- 
