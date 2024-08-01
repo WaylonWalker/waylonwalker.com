@@ -1,5 +1,6 @@
 [
-  "auto-template-trigger",
   "obsidian-git",
-  "image-converter"
+  "image-converter",
+  "tag-wrangler",
+  "templater-obsidian"
 ]

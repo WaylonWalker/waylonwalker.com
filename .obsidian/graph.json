@@ -1,29 +1,22 @@
 {
   "collapse-filter": false,
-  "search": "markata",
+  "search": "gratitude",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "tag:#markata  ",
+      "query": "[\"published\":false]",
       "color": {
         "a": 1,
-        "rgb": 6608476
-      }
-    },
-    {
-      "query": "file:markata",
-      "color": {
-        "a": 1,
-        "rgb": 16719647
+        "rgb": 14048348
       }
     }
   ],
   "collapse-display": false,
-  "showArrow": true,
+  "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
@@ -32,6 +25,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.099666366588034,
+  "scale": 0.7023319615912172,
   "close": false
 }

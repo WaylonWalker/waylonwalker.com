@@ -4,29 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "7545a7f5a782e917",
+        "id": "8e5c5a3b2c735175",
         "type": "tabs",
         "children": [
           {
-            "id": "f0923c9f46606cce",
+            "id": "7fe1103b1349813f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test-doc-from-obsidian.md",
+                "file": "pages/gratitude/gratitude-199.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5fd009a985091ccc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/blog/about.md",
-                "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
@@ -60,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git config origin",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test-doc-from-obsidian.md",
+                "file": "pages/gratitude/gratitude-199.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "test-doc-from-obsidian.md",
+                "file": "pages/gratitude/gratitude-199.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,16 +126,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "test-doc-from-obsidian.md"
+                "file": "pages/gratitude/gratitude-199.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,51 +144,57 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "f0923c9f46606cce",
+  "active": "7fe1103b1349813f",
   "lastOpenFiles": [
+    "waylonwalker.com-obsidian-assets/gratitude-199.md-20240801124248777.webp",
+    "templates/gratitude.md",
+    "pages/gratitude/gratitude-199.md",
+    "pages/gratitude/gratitude-198.md.md",
+    "pages/gratitude/gratitude-111.md.md",
+    "pages/gratitude/gratitude-110.md.md",
     "Untitled 1.md",
-    "markout/thoughts-2",
-    "markout/thoughts-3",
-    "markout/thoughts-4",
-    "markout/thoughts-5",
-    "markout/thoughts-6",
-    "markout/thoughts-7",
-    "markout/thoughts-8",
-    "markout/thoughts-9",
-    "markout/thoughts-10",
-    "markout/thoughts-11",
-    "test-doc-from-obsidian.md",
+    "pages/gratitude/gratitude-109.md.md",
+    "pages/gratitude/gratitude-108.md.md",
+    "pages/gratitude/gratitude-000000.md",
+    "pages/gratitude/gratitude-108.md.md",
+    "Untitled 3.md",
+    "pages/gratitude/gratitude-[object Promise].md 2.md",
+    "pages/gratitude/gratitude-[object Promise].md 1.md",
     "templates/til-post.md",
-    "templates/blog-post.md",
-    "waylonwalker.com-obsidian-assets/test-doc-from-obsidian-20240730114105163.webp",
-    "pages/til/git-push-default-current.md",
-    "pages/blog/about.md",
-    "pages/templates/til-post.md",
-    "waylonwalker.com-obsidian-assets/test doc from obsidian-20240730113231725.webp",
-    "waylonwalker.com-obsidian-assets/test doc from obsidian-20240730112051583.webp",
-    "assets/test doc from obsidian-20240730112051583.webp",
-    "Untitled 2.md",
-    "Untitled.md",
-    "pages/templates/blog-post.md",
-    "pages/blog/tailwind-markdown.md",
-    "pages/blog/htmx-on-my-blog.md",
-    "pages/blog/how-i-deploy-2022.md",
-    "pages/blog/packages-i-maintain.md",
-    "pages/til/from-markdown-to-blog-with-markata.md",
-    "pages/blog/markata-todoui-live-replay-4-6-2022.md",
-    "pages/til/markata-github-pages.md",
-    "pages/til/markata-configure-head.md",
-    "pages/til/markata-now-uses-hatch.md",
-    "pages/til/markata-telescope-picker.md",
-    "pages/til/markata-supports-jinja-plugins-0.5.0.dev2.md",
-    "pages/til/markata-0.3.0.md",
-    "pages/blog/pyohio-cfp.md",
-    "pages/blog/pipx-examples.md",
-    "pages/blog/reader.md",
-    "static/w.svg",
-    "static/88-8bitcc.webp"
+    "pages/gratitude/gratitude-[object Promise].md.md",
+    "new one.md",
+    "here i am.md",
+    "here.md",
+    "jjkkasdf.md",
+    "newgratitudee.md",
+    "pages/pages/gratitude/gratitude-147.md",
+    "pages/gratitude/gratitude_007.md",
+    "pages/gratitude/good-morning.md",
+    "pages/gratitude/gratitude_005.md",
+    "pages/gratitude/gratitude_003.md",
+    "markout/thoughts-377",
+    "markout/thoughts-378",
+    "markout/obsidian-image-converter/index.html",
+    "markout/obsidian-image-converter",
+    "waylonwalker.com-obsidian-assets/obsidian-image-converter-20240731211310793.webp",
+    "waylonwalker.com-obsidian-assets/obsidian-image-converter-20240731210212624.webp",
+    "pages/gratitude/tag.py",
+    "obsidianignore",
+    "markout/htmx.min.js",
+    "markout/_redirects",
+    "markout/8bitcc.webp",
+    "markout/app.min.css",
+    "markout/88-8bitcc.webp",
+    "markout/W.kra",
+    "markout/w-filled.svg",
+    "markout/w-rotate.svg",
+    "markout/w.svg",
+    "markout/til/pygame-image-load/spotlight.png",
+    "markout/8bitcc.png",
+    "markout/8bitcc_512x512.png"
   ]
 }

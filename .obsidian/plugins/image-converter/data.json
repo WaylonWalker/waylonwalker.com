@@ -23,9 +23,9 @@
   "resizeMode": "Width",
   "autoNonDestructiveResize": "disabled",
   "customSize": "",
-  "desiredWidth": 600,
+  "desiredWidth": 1400,
   "desiredHeight": 800,
-  "desiredLength": 800,
+  "desiredLength": 600,
   "resizeByDragging": true,
   "resizeWithShiftScrollwheel": true,
   "rightClickContextMenu": true
