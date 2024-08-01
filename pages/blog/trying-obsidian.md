@@ -1,6 +1,6 @@
 ---
 date: 2024-07-31
-templateKey: blog
+templateKey: blog-post
 title:
 published: true
 tags:
