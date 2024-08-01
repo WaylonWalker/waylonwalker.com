@@ -16,3 +16,7 @@ Once the images are there they are pushed and deployed as their own site to clou
 
 !!! note
     after first try I needed to increase the width from 600 to 1400, the image in this post was unreadable.
+
+
+
+This is part of me getting set up and [[trying-obsidian]]

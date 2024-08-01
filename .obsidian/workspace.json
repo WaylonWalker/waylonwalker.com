@@ -13,10 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/gratitude/gratitude-199.md",
+                "file": "templates/post-templates/blog-post.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": false
+                "source": true
               }
             }
           }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/gratitude/gratitude-199.md",
+                "file": "templates/post-templates/blog-post.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pages/gratitude/gratitude-199.md",
+                "file": "templates/post-templates/blog-post.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/gratitude/gratitude-199.md"
+                "file": "templates/post-templates/blog-post.md"
               }
             }
           }
@@ -150,13 +150,28 @@
   },
   "active": "7fe1103b1349813f",
   "lastOpenFiles": [
-    "waylonwalker.com-obsidian-assets/gratitude-199.md-20240801124248777.webp",
-    "templates/gratitude.md",
+    "templates/post-templates/til-post.md",
+    "pages/til/alt-tab-to-the-cursor.md",
+    "pages/til/await-the-cursor.md",
+    "pages/til/try-the-cursor-again.md",
+    "pages/til/give-me-the-cursor.md",
+    "pages/til/give-me-a-title-on-a-new-line.md",
+    "pages/til/give-me-a-title.md",
+    "pages/til/another-new-til-post.md",
+    "Untitled 1.md",
+    "pages/til/testing-template.md",
+    "templates/post-templates/gratitude.md",
+    "Untitled.md",
+    "templates/post-templates/blog-post.md",
+    "pages/dil/obsidian-templater-move-file.md.md",
+    "pages/dil",
+    "templates/post-templates",
+    "templates/Untitled.md",
     "pages/gratitude/gratitude-199.md",
+    "waylonwalker.com-obsidian-assets/gratitude-199.md-20240801124248777.webp",
     "pages/gratitude/gratitude-198.md.md",
     "pages/gratitude/gratitude-111.md.md",
     "pages/gratitude/gratitude-110.md.md",
-    "Untitled 1.md",
     "pages/gratitude/gratitude-109.md.md",
     "pages/gratitude/gratitude-108.md.md",
     "pages/gratitude/gratitude-000000.md",
@@ -164,18 +179,6 @@
     "Untitled 3.md",
     "pages/gratitude/gratitude-[object Promise].md 2.md",
     "pages/gratitude/gratitude-[object Promise].md 1.md",
-    "templates/til-post.md",
-    "pages/gratitude/gratitude-[object Promise].md.md",
-    "new one.md",
-    "here i am.md",
-    "here.md",
-    "jjkkasdf.md",
-    "newgratitudee.md",
-    "pages/pages/gratitude/gratitude-147.md",
-    "pages/gratitude/gratitude_007.md",
-    "pages/gratitude/good-morning.md",
-    "pages/gratitude/gratitude_005.md",
-    "pages/gratitude/gratitude_003.md",
     "markout/thoughts-377",
     "markout/thoughts-378",
     "markout/obsidian-image-converter/index.html",
@@ -187,14 +190,11 @@
     "markout/htmx.min.js",
     "markout/_redirects",
     "markout/8bitcc.webp",
-    "markout/app.min.css",
     "markout/88-8bitcc.webp",
-    "markout/W.kra",
     "markout/w-filled.svg",
     "markout/w-rotate.svg",
     "markout/w.svg",
     "markout/til/pygame-image-load/spotlight.png",
-    "markout/8bitcc.png",
-    "markout/8bitcc_512x512.png"
+    "markout/8bitcc.png"
   ]
 }
