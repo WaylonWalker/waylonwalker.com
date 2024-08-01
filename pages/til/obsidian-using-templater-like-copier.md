@@ -1,5 +1,5 @@
 ---
-date: 2024-08-01 13:34
+date: 2024-07-31 13:34
 templateKey: til
 title: Obsidian Using Templater Like Copier
 published: true
@@ -7,7 +7,11 @@ tags:
   - obsidian
 ---
 
-I've long used copier to create all of my posts for my blog, and it works really well for my workflow.  I think of a title, call a template, and give it a title.  out of the box obsidian did not seem to work this way.  It seems like it wants me to right click a file tree and make a new file using the tree, this is not my jam.
+I've long used copier to create all of my posts for my blog, and it works
+really well for my workflow.  I think of a title, call a template, and give it
+a title.  out of the box obsidian did not seem to work this way.  It seems like
+it wants me to right click a file tree and make a new file using the tree, this
+is not my jam.
 
 Here is what I came up with to replace my til template.
 
