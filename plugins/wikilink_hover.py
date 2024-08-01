@@ -1,11 +1,10 @@
-from pathlib import Path
 from typing import TYPE_CHECKING
 
 from bs4 import BeautifulSoup
 from markata.hookspec import hook_impl
 
 if TYPE_CHECKING:
-    from bs4.element import Tag
+    pass
 
 external_svg = """
 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4 inline align-middle">
@@ -31,7 +30,10 @@ def hover_links(soup):
 
         prefix = ""
         boost = ""
-        if not href.startswith("https://"):
+        if href.endswith(".webp"):
+            href = f"https://obsidian-assets.waylonwalker.com/{href}"
+            boost = ' hx-boost="true"'
+        elif not href.startswith("https://"):
             href = f"https://waylonwalker.com/{href}"
             boost = ' hx-boost="true"'
         if link in wikilinks:
@@ -39,7 +41,13 @@ def hover_links(soup):
         if link in hoverlinks:
             prefix = external_svg
         title = link.text
-        img = f"""
+        if href.endswith(".webp"):
+            img = f"""
+            <img src="{href}" alt="{title}"{boost}>
+            """
+
+        else:
+            img = f"""
     <span class="z-10 group group-hover:z-20 relative inline-block">
         <a class="wikilink text-pink-500 hover:underline" href="{href}" title="{title}"{boost}>{prefix} {title}</a>
         <button class="ml-2 text-pink-500 hover:underline focus:outline-none" aria-label="Preview">
@@ -53,7 +61,7 @@ def hover_links(soup):
             class="hidden absolute top-6 left-0 z-20 group-hover:block ">
             <img alt="a screenshot of {href}"
                 class="rounded-xl transition-height ease-in duration-75 h-0 opacity-0 group-hover:opacity-100 group-hover:h-[800px] max-w-none "
-                height="800" width="600" 
+                height="800" width="600"
                 style=' box-shadow: rgba(0, 0, 0, 0.6) 0 0 500rem 500rem; '
                 src="https://shots.wayl.one/shot/?url={href}&amp;height=1600&amp;width=1200&amp;scaled_width=600&amp;scaled_height=800&amp;selectors="
                 >
@@ -62,7 +70,12 @@ def hover_links(soup):
 """
 
         extra_soup = BeautifulSoup(img, "html.parser")
-        link.replace_with(extra_soup)
+        if href.endswith(".webp"):
+            parent = link.parent
+            parent.clear()
+            parent.append(extra_soup)
+        else:
+            link.replace_with(extra_soup)
 
     return soup
 
@@ -73,7 +86,7 @@ def post_render(markata):
     should_prettify = markata.config.get("prettify_html", False)
     with markata.cache as cache:
         for article in markata.articles:
-            key = markata.make_hash("wikilink_hover", article.html)
+            key = markata.make_hash("wikilink_hover_v5", article.html)
 
             html_from_cache = markata.precache.get(key)
 
