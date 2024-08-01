@@ -43,7 +43,9 @@ def hover_links(soup):
         title = link.text
         if href.endswith(".webp"):
             img = f"""
-            <img src="{href}" alt="{title}"{boost}>
+            <a class="obsidian-asset" href="{href}" title="{title}">
+                <img src="{href}" alt="{title}">
+            </a>
             """
 
         else:
@@ -86,7 +88,7 @@ def post_render(markata):
     should_prettify = markata.config.get("prettify_html", False)
     with markata.cache as cache:
         for article in markata.articles:
-            key = markata.make_hash("wikilink_hover_v5", article.html)
+            key = markata.make_hash("wikilink_hover_v6", article.html)
 
             html_from_cache = markata.precache.get(key)
 
