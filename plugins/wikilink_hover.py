@@ -42,13 +42,13 @@ def hover_links(soup):
         title = link.text
         if href.endswith(".webp"):
             img = f"""
-            <a class="obsidian-asset" href="{href}" title="{title}">
+            <a class="obsidian-asset obsidian-asset--image" href="{href}" title="{title}">
                 <img src="{href}" alt="{title}">
             </a>
             """
         if href.endswith(".mp4"):
             img = f"""
-            <a class="obsidian-asset" href="{href}" title="{title}">
+            <a class="obsidian-asset obsidian-asset--video" href="{href}" title="{title}">
             <video src="{href}" controls></video>
             </a>
             """
