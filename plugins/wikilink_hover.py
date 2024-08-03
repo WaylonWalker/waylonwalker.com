@@ -39,14 +39,16 @@ def hover_links(soup):
             boost = ' hx-boost="true"'
         if link in hoverlinks:
             prefix = external_svg
+
         title = link.text
+
         if href.endswith(".webp"):
             img = f"""
             <a class="obsidian-asset obsidian-asset--image" href="{href}" title="{title}">
                 <img src="{href}" alt="{title}">
             </a>
             """
-        if href.endswith(".mp4"):
+        elif href.endswith(".mp4"):
             img = f"""
             <a class="obsidian-asset obsidian-asset--video" href="{href}" title="{title}">
             <video src="{href}" controls></video>
@@ -93,7 +95,7 @@ def post_render(markata):
     should_prettify = markata.config.get("prettify_html", False)
     with markata.cache as cache:
         for article in markata.articles:
-            key = markata.make_hash("wikilink_hover_v7", article.html)
+            key = markata.make_hash("wikilink_hover_v8", article.html)
 
             html_from_cache = markata.precache.get(key)
 
