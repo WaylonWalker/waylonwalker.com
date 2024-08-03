@@ -45,13 +45,13 @@ def hover_links(soup):
         if href.endswith(".webp"):
             img = f"""
             <a class="obsidian-asset obsidian-asset--image" href="{href}" title="{title}">
-                <img src="{href}" alt="{title}">
+                <img src="{href}" style="max-height:800px;" alt="{title}">
             </a>
             """
         elif href.endswith(".mp4"):
             img = f"""
             <a class="obsidian-asset obsidian-asset--video" href="{href}" title="{title}">
-            <video src="{href}" controls></video>
+            <video src="{href}" class="m-auto" controls></video>
             </a>
             """
 
@@ -95,7 +95,7 @@ def post_render(markata):
     should_prettify = markata.config.get("prettify_html", False)
     with markata.cache as cache:
         for article in markata.articles:
-            key = markata.make_hash("wikilink_hover_v8", article.html)
+            key = markata.make_hash("wikilink_hover_v9", article.html)
 
             html_from_cache = markata.precache.get(key)
 
