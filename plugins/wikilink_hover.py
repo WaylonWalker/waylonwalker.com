@@ -30,9 +30,8 @@ def hover_links(soup):
 
         prefix = ""
         boost = ""
-        if href.endswith(".webp"):
+        if href.endswith(".webp") or href.endswith(".mp4"):
             href = f"https://obsidian-assets.waylonwalker.com/{href}"
-            boost = ' hx-boost="true"'
         elif not href.startswith("https://"):
             href = f"https://waylonwalker.com/{href}"
             boost = ' hx-boost="true"'
@@ -45,6 +44,12 @@ def hover_links(soup):
             img = f"""
             <a class="obsidian-asset" href="{href}" title="{title}">
                 <img src="{href}" alt="{title}">
+            </a>
+            """
+        if href.endswith(".mp4"):
+            img = f"""
+            <a class="obsidian-asset" href="{href}" title="{title}">
+            <video src="{href}" controls></video>
             </a>
             """
 
@@ -72,7 +77,7 @@ def hover_links(soup):
 """
 
         extra_soup = BeautifulSoup(img, "html.parser")
-        if href.endswith(".webp"):
+        if href.endswith(".webp") or href.endswith(".mp4"):
             parent = link.parent
             parent.clear()
             parent.append(extra_soup)
