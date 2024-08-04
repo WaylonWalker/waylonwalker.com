@@ -1,11 +1,11 @@
 ---
 templateKey: blog-post
-tags: []
+tags:
+  - linux
 title: Out of Space
 date: 2020-02-01T06:00:00Z
 published: true
 description: Out of Space! How to remove 65 conda environments in one command.
-
 ---
 This morning I logged into my machine and was nearly out of space
 

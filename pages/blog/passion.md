@@ -1,10 +1,13 @@
 ---
-templateKey: 'blog-post'
+templateKey: blog-post
 title: Follow Your Passion
 date: 2019-01-01
 published: false
 description: none
-cover: "./flex.png"
+cover: ./flex.png
+tags:
+  - soft
+  - catalytic
 ---
 
 ## Follow Your Passion

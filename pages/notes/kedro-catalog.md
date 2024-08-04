@@ -1,12 +1,13 @@
 ---
 templateKey: blog-post
-tags: []
+tags:
+  - python
+  - kedro
 title: Kedro Catalog
 date: 2020-07-24T05:00:00Z
 published: true
 description: I am exploring a kedro catalog meta data hook
-cover: ''
-
+cover: ""
 ---
 I am exploring a kedro catalog meta data hook, these are some notes about what I am thinking.
 

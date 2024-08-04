@@ -1,6 +1,6 @@
 ---
 date: 2024-08-03 09:54
-templateKey: blog
+templateKey: blog-post
 title: Printing 42 keys at once
 published: false
 tags:

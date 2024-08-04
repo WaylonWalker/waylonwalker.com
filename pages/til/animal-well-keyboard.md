@@ -4,8 +4,8 @@ templateKey: til
 title: animal well keyboard
 published: true
 tags:
-  - animal well
-
+  - animal-well
+  - game
 ---
 
 Animal well does not let you remap keys, and really doesn't even inform you

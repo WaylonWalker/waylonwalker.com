@@ -1,9 +1,11 @@
 ---
-templateKey: "blog-post"
+templateKey: blog-post
 title: My favorite pandas pattern
 date: 2018-03-01
 published: false
-description: none
+description:
+tags:
+  - python
 ---
 
 # My favorite pandas pattern

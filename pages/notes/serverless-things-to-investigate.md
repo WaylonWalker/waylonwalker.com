@@ -1,6 +1,8 @@
 ---
 templateKey: blog-post
-tags: []
+tags:
+  - webdev
+  - pre-commit
 title: Serverless things to investigate
 date: 2020-02-10T15:00:00Z
 published: true

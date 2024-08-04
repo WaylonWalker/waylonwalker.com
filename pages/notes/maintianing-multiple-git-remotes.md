@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
-tags: []
+tags:
+  - git
 title: Maintianing multiple git remotes
 date: 2020-05-07T11:56:00Z
 published: true

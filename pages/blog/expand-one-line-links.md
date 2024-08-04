@@ -1,10 +1,12 @@
 ---
 templateKey: blog-post
-tags: [webdev]
+tags:
+  - webdev
+  - blog
+  - meta
 title: Expand One Line Links
 date: 2020-11-18T05:00:00.000+00:00
 published: true
-
 ---
 
 I wanted a super simple way to cross-link blog posts that require as little effort as possible, yet still looks good in vanilla markdown in GitHub.  I have been using a snippet that puts HTML into the markdown.  While this works, it's more manual/difficult for me does not look the best, and does not read well as

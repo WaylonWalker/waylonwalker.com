@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
-tags: []
+tags:
+  - python
 title: Pyspark
 date: 2019-09-22T05:00:00Z
 published: false

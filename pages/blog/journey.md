@@ -1,12 +1,12 @@
 ---
-templateKey: 'blog-post'
+templateKey: blog-post
 title: It's not all about winning
 tags:
-- catalytic
+  - catalytic
+  - goals
 date: 2019-02-02
 published: true
 description: This is my story into data science.
-
 ---
 
 _This is my story into data science._

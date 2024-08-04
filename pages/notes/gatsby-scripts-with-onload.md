@@ -1,10 +1,10 @@
 ---
 templateKey: blog-post
-tags: []
+tags:
+  - webdev
 title: Gatsby Scripts with onload
 date: 2020-05-22T05:00:00Z
 status: published
-
 ---
 This might be useful
 

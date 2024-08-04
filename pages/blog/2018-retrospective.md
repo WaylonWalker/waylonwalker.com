@@ -1,9 +1,10 @@
 ---
-templateKey: 'blog-post'
+templateKey: blog-post
 title: 2018 Retrospective
 date: 2019-01-05
 published: true
-
+tags:
+  - goals
 ---
 
 2018 was a year of many ups and downs, and learning to deal with a whole new

@@ -1,12 +1,11 @@
 ---
 templateKey: blog-post
-tags: []
+tags:
+  - webdev
 title: Should I switch to Zeit Now
 date: 2020-02-06T22:38:00Z
 published: true
-description: Should I switch to Zeit Now.  Netlify build times are starting to creep
-  in.
-
+description: Should I switch to Zeit Now.  Netlify build times are starting to creep in.
 ---
 
 ## Netlify

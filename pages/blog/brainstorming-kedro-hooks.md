@@ -1,10 +1,10 @@
 ---
 templateKey: blog-post
-tags: []
+tags:
+  - kedro
 title: Brainstorming Kedro Hooks
 date: 2020-05-22T22:02:00.000+00:00
 published: true
-
 ---
 
 This post is a 🧠 branstorming work in progress.  I will likely use it as a
