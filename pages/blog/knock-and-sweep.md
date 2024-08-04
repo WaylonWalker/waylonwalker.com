@@ -6,6 +6,7 @@ published: false
 tags:
   - 3d-printing
   - tmk
+  - keeb
 ---
 I'm working on creating some gcode to create a whole set of key caps in one print, it is getting tedious to print them one at a time, and my past experience with my printer proves that printing a bunch of separate pieces increases the chances of failure.  I don't want to end up with 42 keys that are half done and a ball of filament.
 
