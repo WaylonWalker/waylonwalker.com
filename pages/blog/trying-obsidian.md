@@ -43,6 +43,9 @@ link.  I get this feature in using the marksman lsp, and it's nice to see that
 it works pretty similarly, but with much less setup and configuration.
 
 ![[trying-obsidian-20240804194934445.webp]]
+## creating new files
+
+The same keybinding that will take you to a new fill will create a [[obsidian-new-file]] in the root directory of your project.  This is very handy to create a bunch of new links and files quickly.  This feature does not work the greatest for my blog currently as it does not create them from a template, and I use templates to start all of my posts. see [[obsidian-using-templater-like-copier]].  I am now seeing why these plugins push so much automation into the templating system by directory.
 
 ## New keybindings
 

@@ -151,9 +151,16 @@
   },
   "active": "7b7e604a73b0dbf6",
   "lastOpenFiles": [
+    "pages/til/obsidian-new-file.md",
+    "pages/til/slug.md",
+    "pages/blog/trying-obsidian.md",
+    "obsidian-new-file.md",
+    "pages/blog/blogging-in-2024.md",
+    "pages/blog/reader.md",
+    "waylonwalker.com-obsidian-assets/blogging-in-2024-20240805080137554.webp",
+    "waylonwalker.com-obsidian-assets/blogging-in-2024-20240805080104035.webp",
     "pages/til/obsidian-go-to-definition.md",
     "pages/til/obsidian-image-converter.md",
-    "pages/blog/trying-obsidian.md",
     "markout/weeknote-0",
     "pages/weeknotes/weeknote-0.md",
     "pages/weeknotes",
@@ -180,11 +187,6 @@
     "pages/blog/goals-2019.md",
     "pages/notes/debugging-python.md",
     "pages/blog/gatsby-rss-feed.md",
-    "pages/notes/pyspark.md",
-    "pages/notes/packages-to-investigate.md",
-    "pages/blog/git-diff-branches.md",
-    "pages/blog/practice-your-craft.md",
-    "pages/blog/mentorship-vs-sponsorship.md",
     "waylonwalker.com-obsidian-assets/knock-and-sweep.mp4",
     "waylonwalker.com-obsidian-assets/output.mp4",
     "waylonwalker.com-obsidian-assets/designing-a-knock-off-key-20240803150150445.webp",
@@ -194,8 +196,6 @@
     "markout/htmx.min.js",
     "markout/8bitcc.webp",
     "markout/88-8bitcc.webp",
-    "markout/w-filled.svg",
-    "markout/w-rotate.svg",
-    "markout/w.svg"
+    "markout/w-filled.svg"
   ]
 }
