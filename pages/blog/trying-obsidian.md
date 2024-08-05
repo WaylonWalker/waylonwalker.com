@@ -56,7 +56,16 @@ without leaving the editor, needing to close the file or anything.  You can
 just go to the top of the file and change the name without needing to find it
 in a file tree or anything.  Its a very nice and clean feature.
 
-## Recent Posts
+## I miss my gqap
+
+There are still some vim features like `gqap` that I use constantly to reflow
+long lines into readable paragraphs no matter where I open them that I cannot
+find a way to do in obsidian, and I miss it. ## Recent Posts.
+
+!!! Note
+    ok, so vim mode inside of obsidian really does work, and it does this, its
+    just less obvious because of obsidians softwraps in the editor.  And I
+    don't think it works on indented lines like these, in this note.
 
 Using obsidian I edited  over 260 posts just this week!  Some whole sections
 like my gratidute posts were kinda sitting completely untagged and I fixed that
