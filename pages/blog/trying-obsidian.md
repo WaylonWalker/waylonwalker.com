@@ -13,6 +13,8 @@ lot of images just because it takes so much longer just to get the post out.  I
 store them in a separate repo, I need to resize and compress them for the web
 so they aren't so big.
 
+## Images are easy!
+
 This is my current wallpaper.
 
 ![[trying-obsidian-20240731135759007.webp]]
