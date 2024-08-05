@@ -63,7 +63,7 @@ in a file tree or anything.  Its a very nice and clean feature.
 
 ## I miss my gqap
 
-There are still some vim features like `gqap` that I use constantly to reflow
+There are still some vim features like [[vim-gq]] that I use constantly to reflow
 long lines into readable paragraphs no matter where I open them that I cannot
 find a way to do in obsidian, and I miss it. ## Recent Posts.
 
