@@ -67,6 +67,18 @@ find a way to do in obsidian, and I miss it. ## Recent Posts.
     just less obvious because of obsidians softwraps in the editor.  And I
     don't think it works on indented lines like these, in this note.
 
+## missing seemless publish
+
+I run pre-commit on my posts to clean up the whitespace and line endings.
+Generally this does not do much, but aparantly obsidian is clashing with my
+setup, and not running pre-commit correctly so I need to leave my editor to
+publish a post.
+
+With neovim I have a hotkey to commit verbosely with fugitive, `gic`, and to
+push `gpp`, and I use this all the time as I am writing.
+
+## Recent Posts
+
 Using obsidian I edited  over 260 posts just this week!  Some whole sections
 like my gratidute posts were kinda sitting completely untagged and I fixed that
 up.
