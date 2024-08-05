@@ -1,9 +1,18 @@
+assets:
+    #!/usr/bin/env bash
+    set -euxo pipefail
+    cd waylonwalker.com-obsidian-assets
+    git add .
+    git commit -m 'update assets'
+    git push
+
+
 clean:
     markata clean
 build:
     markata build
 serve:
-    python -m http.server -b 0.0.0.0 8000 -d markout
+    python -m http.server -b 0.0.0.0 8005 -d markout
 tailwind:
     npx tailwindcss --input tailwind/app.css --output static/app.css --watch
 tailwind-dev:

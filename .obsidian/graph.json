@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "gratitude",
+  "search": "",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -25,6 +25,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.7023319615912172,
+  "scale": 1.580246913580243,
   "close": false
 }

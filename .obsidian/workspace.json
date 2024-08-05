@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "8e5c5a3b2c735175",
+        "id": "ce4c4759a443d0a4",
         "type": "tabs",
         "children": [
           {
-            "id": "7fe1103b1349813f",
+            "id": "7b7e604a73b0dbf6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/post-templates/blog-post.md",
+                "file": "pages/blog/trying-obsidian.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": true
+                "source": false
               }
             }
           }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:animal",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "templates/post-templates/blog-post.md",
+                "file": "pages/blog/trying-obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "templates/post-templates/blog-post.md",
+                "file": "pages/blog/trying-obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "templates/post-templates/blog-post.md"
+                "file": "pages/blog/trying-obsidian.md"
               }
             }
           }
@@ -148,53 +149,53 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7fe1103b1349813f",
+  "active": "7b7e604a73b0dbf6",
   "lastOpenFiles": [
-    "templates/post-templates/til-post.md",
-    "pages/til/alt-tab-to-the-cursor.md",
-    "pages/til/await-the-cursor.md",
-    "pages/til/try-the-cursor-again.md",
-    "pages/til/give-me-the-cursor.md",
-    "pages/til/give-me-a-title-on-a-new-line.md",
-    "pages/til/give-me-a-title.md",
-    "pages/til/another-new-til-post.md",
-    "Untitled 1.md",
-    "pages/til/testing-template.md",
+    "pages/til/obsidian-go-to-definition.md",
+    "pages/til/obsidian-image-converter.md",
+    "pages/blog/trying-obsidian.md",
+    "markout/weeknote-0",
+    "pages/weeknotes/weeknote-0.md",
+    "pages/weeknotes",
+    "scripts/weeknotes.py",
+    "markout/thoughts-379",
+    "markout/knock-and-sweep",
+    "Recent-Posts.md",
+    "scripts/recent-obsidian.py",
+    "waylonwalker.com-obsidian-assets/trying-obsidian-20240804194934445.webp",
+    "waylonwalker.com-obsidian-assets/trying-obsidian-20240804194656515.webp",
+    "pages/blog/knock-and-sweep.md",
+    "pages/blog/what-is-refactoring.md",
+    "pages/blog/journey.md",
     "templates/post-templates/gratitude.md",
-    "Untitled.md",
-    "templates/post-templates/blog-post.md",
-    "pages/dil/obsidian-templater-move-file.md.md",
-    "pages/dil",
-    "templates/post-templates",
-    "templates/Untitled.md",
-    "pages/gratitude/gratitude-199.md",
-    "waylonwalker.com-obsidian-assets/gratitude-199.md-20240801124248777.webp",
-    "pages/gratitude/gratitude-198.md.md",
-    "pages/gratitude/gratitude-111.md.md",
-    "pages/gratitude/gratitude-110.md.md",
-    "pages/gratitude/gratitude-109.md.md",
-    "pages/gratitude/gratitude-108.md.md",
-    "pages/gratitude/gratitude-000000.md",
-    "pages/gratitude/gratitude-108.md.md",
-    "Untitled 3.md",
-    "pages/gratitude/gratitude-[object Promise].md 2.md",
-    "pages/gratitude/gratitude-[object Promise].md 1.md",
-    "markout/thoughts-377",
-    "markout/thoughts-378",
-    "markout/obsidian-image-converter/index.html",
-    "markout/obsidian-image-converter",
-    "waylonwalker.com-obsidian-assets/obsidian-image-converter-20240731211310793.webp",
-    "waylonwalker.com-obsidian-assets/obsidian-image-converter-20240731210212624.webp",
-    "pages/gratitude/tag.py",
-    "obsidianignore",
+    "pages/blog/productive-one-on-one.md",
+    "pages/notes/kedro-basics.md",
+    "pages/blog/passion.md",
+    "markout/stories/README.md",
+    "pages/blog/thank-you.md",
+    "pages/til/animal-well-keyboard.md",
+    "pages/blog/automate-your-deploys.md",
+    "pages/blog/expand-one-line-links.md",
+    "pages/blog/2018-retrospective.md",
+    "pages/blog/goals-2019.md",
+    "pages/notes/debugging-python.md",
+    "pages/blog/gatsby-rss-feed.md",
+    "pages/notes/pyspark.md",
+    "pages/notes/packages-to-investigate.md",
+    "pages/blog/git-diff-branches.md",
+    "pages/blog/practice-your-craft.md",
+    "pages/blog/mentorship-vs-sponsorship.md",
+    "waylonwalker.com-obsidian-assets/knock-and-sweep.mp4",
+    "waylonwalker.com-obsidian-assets/output.mp4",
+    "waylonwalker.com-obsidian-assets/designing-a-knock-off-key-20240803150150445.webp",
+    "waylonwalker.com-obsidian-assets/designing-a-knock-off-key-20240803095740665.webp",
+    "waylonwalker.com-obsidian-assets/designing-a-knock-off-key-20240803095731272.webp",
+    "plugins/obsidian_assets.py",
     "markout/htmx.min.js",
-    "markout/_redirects",
     "markout/8bitcc.webp",
     "markout/88-8bitcc.webp",
     "markout/w-filled.svg",
     "markout/w-rotate.svg",
-    "markout/w.svg",
-    "markout/til/pygame-image-load/spotlight.png",
-    "markout/8bitcc.png"
+    "markout/w.svg"
   ]
 }
