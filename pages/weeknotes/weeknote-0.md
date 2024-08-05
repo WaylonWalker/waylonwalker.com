@@ -1,7 +1,7 @@
 ---
 title: "Weeknote 0"
 templateKey: "weeknote"
-date: "<class 'datetime.date'>"
+date: 2024-08-04
 slug: "weeknote-0"
 tags:
     - weeknote
