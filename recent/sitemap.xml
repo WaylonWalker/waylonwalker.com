@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/sitemap.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <title>recent</title>
+    <link>https://waylonwalker.com/</link>
+   <url>
+      <title>💭 The Tank - Youtube</title>
+      <description>Thor always comes in hard with fire takes in his shorts.   Especially if you are early in our career take this in.  If y</description>
+      <loc>https://waylonwalker.com//thoughts-377</loc>
+      <lastmod>2024-08-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 (8) I Invented Airless Cornhole Bags - Youtube</title>
+      <description>This is such a cool 3d printed cornhole game.</description>
+      <loc>https://waylonwalker.com//thoughts-378</loc>
+      <lastmod>2024-08-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Trying Obsidian</title>
+      <description>I am giving obsidian a try, this is a test post to learn the flow.  Something This is my current wallpaper. ![</description>
+      <loc>https://waylonwalker.com//trying-obsidian</loc>
+      <lastmod>2024-07-31</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Obsidian Using Templater Like Copier</title>
+      <description>I Here is what I came up with to replace my til template. tR to.file.cursor()</description>
+      <loc>https://waylonwalker.com//obsidian-using-templater-like-copier</loc>
+      <lastmod>2024-07-31</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Obsidian Image Converter</title>
+      <description>I ![ Once the images are there they are pushed and deployed as their own site to ! This is part of me getting set up and </description>
+      <loc>https://waylonwalker.com//obsidian-image-converter</loc>
+      <lastmod>2024-07-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 How Fly.Io Uses Docker (Without Docker) - Youtube</title>
+      <description>Docker no Docker, what!!!
+
+
+So fly.io uses Dockerfiles to deploy your app, but no docker.  They use containerd to downlo</description>
+      <loc>https://waylonwalker.com//thoughts-374</loc>
+      <lastmod>2024-07-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 This Is Goodbye? - Youtube</title>
+      <description>Damn Johnny is always such a positive vibe, just getting steamrolled by this braille shit.  WTF are these brand sleeping</description>
+      <loc>https://waylonwalker.com//thoughts-372</loc>
+      <lastmod>2024-07-26</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Ultimate Modular Macro Keyboard &#34;Kibly&#34; : R/Mechanicalkeyboards</title>
+      <description>This is a pretty sick design, touch screen macropad, trackball, ring, and knobs for days.  I just want to play with it a</description>
+      <loc>https://waylonwalker.com//thoughts-373</loc>
+      <lastmod>2024-07-26</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Add Quick-Tap-Ms And Require-Prior-Idle-Ms · Waylonwalker/Zmk-Config-42Block@Cb2Cda4</title>
+      <description>Even after switching to my hm and ht behaviors I am running into some issues where sometimes I am still accidentally hit</description>
+      <loc>https://waylonwalker.com//thoughts-360</loc>
+      <lastmod>2024-07-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Note-Taking With Zettelkasten - An Introduction - Youtube</title>
+      <description>Niklas Luhmann created the Zettelkasten method of notetaking, He was the Da Vinci of writing, holding a high standard th</description>
+      <loc>https://waylonwalker.com//thoughts-361</loc>
+      <lastmod>2024-07-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+</urlset>

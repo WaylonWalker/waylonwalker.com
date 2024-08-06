@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/sitemap.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <title>today</title>
+    <link>https://waylonwalker.com/</link>
+   <url>
+      <title>💭 The Tank - Youtube</title>
+      <description>Thor always comes in hard with fire takes in his shorts.   Especially if you are early in our career take this in.  If y</description>
+      <loc>https://waylonwalker.com//thoughts-377</loc>
+      <lastmod>2024-08-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 (8) I Invented Airless Cornhole Bags - Youtube</title>
+      <description>This is such a cool 3d printed cornhole game.</description>
+      <loc>https://waylonwalker.com//thoughts-378</loc>
+      <lastmod>2024-08-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Gratitude 199</title>
+      <description>A few weeks back we took a trip back to my family farm and Rhiannon took this amazing picture of the two of us.  We all had a great time, it was just a quick af</description>
+      <loc>https://waylonwalker.com//gratitude-199</loc>
+      <lastmod>2024-08-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+</urlset>

@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/sitemap.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <title>lasthirty</title>
+    <link>https://waylonwalker.com/</link>
+   <url>
+      <title>Trying Obsidian</title>
+      <description>I am giving obsidian a try, this is a test post to learn the flow.  Something This is my current wallpaper. ![</description>
+      <loc>https://waylonwalker.com//trying-obsidian</loc>
+      <lastmod>2024-07-31</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Obsidian Using Templater Like Copier</title>
+      <description>I Here is what I came up with to replace my til template. tR to.file.cursor()</description>
+      <loc>https://waylonwalker.com//obsidian-using-templater-like-copier</loc>
+      <lastmod>2024-07-31</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Obsidian Image Converter</title>
+      <description>I ![ Once the images are there they are pushed and deployed as their own site to ! This is part of me getting set up and </description>
+      <loc>https://waylonwalker.com//obsidian-image-converter</loc>
+      <lastmod>2024-07-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 How Fly.Io Uses Docker (Without Docker) - Youtube</title>
+      <description>Docker no Docker, what!!!
+
+
+So fly.io uses Dockerfiles to deploy your app, but no docker.  They use containerd to downlo</description>
+      <loc>https://waylonwalker.com//thoughts-374</loc>
+      <lastmod>2024-07-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 This Is Goodbye? - Youtube</title>
+      <description>Damn Johnny is always such a positive vibe, just getting steamrolled by this braille shit.  WTF are these brand sleeping</description>
+      <loc>https://waylonwalker.com//thoughts-372</loc>
+      <lastmod>2024-07-26</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Ultimate Modular Macro Keyboard &#34;Kibly&#34; : R/Mechanicalkeyboards</title>
+      <description>This is a pretty sick design, touch screen macropad, trackball, ring, and knobs for days.  I just want to play with it a</description>
+      <loc>https://waylonwalker.com//thoughts-373</loc>
+      <lastmod>2024-07-26</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Add Quick-Tap-Ms And Require-Prior-Idle-Ms · Waylonwalker/Zmk-Config-42Block@Cb2Cda4</title>
+      <description>Even after switching to my hm and ht behaviors I am running into some issues where sometimes I am still accidentally hit</description>
+      <loc>https://waylonwalker.com//thoughts-360</loc>
+      <lastmod>2024-07-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Note-Taking With Zettelkasten - An Introduction - Youtube</title>
+      <description>Niklas Luhmann created the Zettelkasten method of notetaking, He was the Da Vinci of writing, holding a high standard th</description>
+      <loc>https://waylonwalker.com//thoughts-361</loc>
+      <lastmod>2024-07-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 He&#39;S Back Again</title>
+      <description>Wyatt is again inspired to leave his thoughts on the world while watching me take notes on the zettelkasten method.</description>
+      <loc>https://waylonwalker.com//thoughts-369</loc>
+      <lastmod>2024-07-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Convert Mp4 For Twitter With Ffmpeg</title>
+      <description>I</description>
+      <loc>https://waylonwalker.com//convert-mp4-for-twitter-with-ffmpeg</loc>
+      <lastmod>2024-07-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 There’S A Tui For That With Nick Janetakis (Changelog &amp; Friends #53)</title>
+      <description>50 minutes into this episode they start a discussion on seo, and naming posts.  They give Jerod the task of googling for</description>
+      <loc>https://waylonwalker.com//thoughts-356</loc>
+      <lastmod>2024-07-24</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Sqlite-Jiff</title>
+      <description>Sqlite is getting rust extensions now, and datetimes make it totally worth if if they work well and and fast, two things</description>
+      <loc>https://waylonwalker.com//thoughts-357</loc>
+      <lastmod>2024-07-24</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Git Fork Vs Git Clone (Animated) - Youtube</title>
+      <description>Damn Prime covers this so well from all angles.  Can&#39;t overstate the importance of that last step.  Look at the issues, </description>
+      <loc>https://waylonwalker.com//thoughts-358</loc>
+      <lastmod>2024-07-24</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Tickle My Keys</title>
+      <description>I&#39;ve been working on something, I&#39;m gong to combine my mechanical engineering skills with my love of great keyboards and</description>
+      <loc>https://waylonwalker.com//thoughts-359</loc>
+      <lastmod>2024-07-24</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 The Verge On X: &#34;Stress Testing A Snack-Proof Keyboard Https://T.Co/Asrdv6O0E8&#34; / X</title>
+      <description>This is a wild keyboard test.  This is exactly what I want to see from ticklemykeys.com.  I want to make ergomechanical </description>
+      <loc>https://waylonwalker.com//thoughts-355</loc>
+      <lastmod>2024-07-23</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 All Lt Keys To Hl · Waylonwalker/Zmk-Config-42Block@Ce25356</title>
+      <description>Today I swapped out all of my keys that are used dual purpose for letters and layers to homerow layers.  This prevents g</description>
+      <loc>https://waylonwalker.com//thoughts-354</loc>
+      <lastmod>2024-07-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 /Tips-For-Being-Happier--Healthier--More-Productive</title>
+      <description>Deep breath, the deepest you can take in
+
+Smile, a real fukin smile not some pansy bullshit
+
+Say I&#39;m not going to give a</description>
+      <loc>https://waylonwalker.com//thoughts-353</loc>
+      <lastmod>2024-07-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Can&#39;T Use System Update - Invalid Signature When Validating Asn.1 Encoded Signature · Issue #1316 · Ublue-Os/Bazzite · Github</title>
+      <description>This fixed my bazzite update issues after the signing key was rotated recently.  This team is killing it with such a gre</description>
+      <loc>https://waylonwalker.com//thoughts-352</loc>
+      <lastmod>2024-07-18</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Update Kconfig.Shield Rec By Bravekarma · Waylonwalker/Zmk-Config-Ninepad@8B76B76</title>
+      <description>This one space killed my whole config and held me back from learning zmk.</description>
+      <loc>https://waylonwalker.com//thoughts-351</loc>
+      <lastmod>2024-07-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Red Herring - Solenoid Edition Sound Test - Youtube</title>
+      <description>This keyboard layout looks weird af the mix of column staggar and row stagger is wild.  Not sure if its genius or an abo</description>
+      <loc>https://waylonwalker.com//thoughts-348</loc>
+      <lastmod>2024-07-15</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Nec M-System</title>
+      <description>They had split ergo boards back in 1983??? WTF who the heck keeps these row stagger boards going.  This board looks like</description>
+      <loc>https://waylonwalker.com//thoughts-349</loc>
+      <lastmod>2024-07-15</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Dragonfruit</title>
+      <description>The trackball spinner looks sick here.  I can imagine using that spinner like a scroll wheel.</description>
+      <loc>https://waylonwalker.com//thoughts-350</loc>
+      <lastmod>2024-07-15</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Text Cursor Bug In My Chrome Browser That Causes The Blinking Cursor To Appear Everywhere I Click - Stack Overflow</title>
+      <description>today I learned that there is an accessibility feature in chrome that allows you to place a text cursor anywhere on the </description>
+      <loc>https://waylonwalker.com//thoughts-347</loc>
+      <lastmod>2024-07-12</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Remove Background Web - A Hugging Face Space By Xenova</title>
+      <description>I&#39;ve long been a user of remove.bg, and I just discovered that you can run this transformer right within your browser wi</description>
+      <loc>https://waylonwalker.com//thoughts-343</loc>
+      <lastmod>2024-07-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Render-Blocking On Purpose</title>
+      <description>You can explicitly make a script render blocking, nothing will be rendered until this js is ready.
+
+
+``` html
+&lt;script bl</description>
+      <loc>https://waylonwalker.com//thoughts-344</loc>
+      <lastmod>2024-07-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Command Line Interface Guidelines</title>
+      <description>This is a pretty sick set of guidelines to help you write better cli programs, I&#39;m definitely coming back to reading thi</description>
+      <loc>https://waylonwalker.com//thoughts-345</loc>
+      <lastmod>2024-07-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Python Is Simultaneously At The Top And The Bottom Of The Tier List</title>
+      <description>Hard to argue this take, happy to see that its at the top.  With it being such an old language its amazing that it still</description>
+      <loc>https://waylonwalker.com//thoughts-346</loc>
+      <lastmod>2024-07-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Pinout And Schematic - Nice!Nano</title>
+      <description>Pinout for nice!nano boards.   Note that P0.15 means gpio port 0 pin 15, they can be referenced in zmk when setting colu</description>
+      <loc>https://waylonwalker.com//thoughts-340</loc>
+      <lastmod>2024-07-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Fasthx</title>
+      <description>Very interesting approach to htmx and fast api.  It uses separate decorators for returning template partials and json th</description>
+      <loc>https://waylonwalker.com//thoughts-341</loc>
+      <lastmod>2024-07-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Fasthx</title>
+      <description>Very interesting approach to htmx and fast api.  It uses separate decorators for returning template partials and json th</description>
+      <loc>https://waylonwalker.com//thoughts-342</loc>
+      <lastmod>2024-07-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Linux - What Is Stored In /Dev/Pts Files And Can We Open Them? - Unix &amp; Linux Stack Exchange</title>
+      <description>today I learned that /dev/pts is a pseudo-tty.  It amazes me how much linux is still built around things like hardware t</description>
+      <loc>https://waylonwalker.com//thoughts-339</loc>
+      <lastmod>2024-07-07</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Blogging In 2024</title>
+      <description></description>
+      <loc>https://waylonwalker.com//blogging-in-2024</loc>
+      <lastmod>2024-07-07</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Wcurl Is Here | Daniel.Haxx.Se</title>
+      <description>interesting, seems like such a simple way to completely remove the need of a whole other cli.  No offense to anyone work</description>
+      <loc>https://waylonwalker.com//thoughts-335</loc>
+      <lastmod>2024-07-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Inside 22,734 Steam Games | Daniel.Haxx.Se</title>
+      <description>Interesting to see that curl is used in so many places.  I often think of things like games being so windows centric and</description>
+      <loc>https://waylonwalker.com//thoughts-336</loc>
+      <lastmod>2024-07-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Pacman/Tips And Tricks - Archwiki</title>
+      <description>The arch wiki is always full of good content, and pacman tips and tricks does not disappoint.  Today I discovered this c</description>
+      <loc>https://waylonwalker.com//thoughts-337</loc>
+      <lastmod>2024-07-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Svenstaro/Miniserve: 🌟 For When You Really Just Want To Serve Some Files Over Http Right Now!</title>
+      <description>miniserve is a sweet http server, replacement for `python -m http.server`.  It&#39;s fast, runs off a small binary, but why </description>
+      <loc>https://waylonwalker.com//thoughts-338</loc>
+      <lastmod>2024-07-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Arch Remove Orphaned Packages</title>
+      <description></description>
+      <loc>https://waylonwalker.com//arch-remove-orphaned-packages</loc>
+      <lastmod>2024-07-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>K8S Kustomize Diff</title>
+      <description>I You can enable color diffs by using an external diff provider like colordiff. You might need to install colordiff if you don Now I can try out kustomize chang</description>
+      <loc>https://waylonwalker.com//kubebernetes-kustomize-diff</loc>
+      <lastmod>2024-07-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Email Address Obfuscation · Cloudflare Web Application Firewall (Waf) Docs</title>
+      <description>I recently started seeing email-decode.min.js show up on my blog posts, and I wondered what the heck ?  I didn&#39;t put it </description>
+      <loc>https://waylonwalker.com//thoughts-334</loc>
+      <lastmod>2024-07-04</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Animal Well Keyboard</title>
+      <description>Animal well does not let you remap keys, and really doesn wasd - move space - jump / a enter - interact / b x - throw c - inventory 1 - left item / rb 2 - open </description>
+      <loc>https://waylonwalker.com//animal-well-keyboard</loc>
+      <lastmod>2024-07-04</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 (416) Kustomize: The Best Way To Manage Your Kubernetes Configs - Youtube</title>
+      <description>Great intro into kustomize.  This helped me get started with kustomize.</description>
+      <loc>https://waylonwalker.com//thoughts-330</loc>
+      <lastmod>2024-07-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Diskcache Api Reference — Diskcache 5.6.1 Documentation</title>
+      <description>diskcache has a peekitem method that allows you to lookup the expire_time of a cached item without changing it.  I recen</description>
+      <loc>https://waylonwalker.com//thoughts-331</loc>
+      <lastmod>2024-07-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Markdown-It-Pyrs · Pypi</title>
+      <description>markdown it py running in rust claims to be 20x faster.  I&#39;ll definitely look into this if markdown it py is ever a bott</description>
+      <loc>https://waylonwalker.com//thoughts-332</loc>
+      <lastmod>2024-07-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Background Tasks - Fastapi</title>
+      <description>fastapi comes with a concept of background tasks which are functions that can be ran in the background after a function </description>
+      <loc>https://waylonwalker.com//thoughts-333</loc>
+      <lastmod>2024-07-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Diskcache As Debounce</title>
+      <description>I ! I am using it for longer running tasks and I don check if a job is running automatically expire jobs My brain first went to thinking I needed another servic</description>
+      <loc>https://waylonwalker.com//diskcache-as-debounce</loc>
+      <lastmod>2024-07-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+</urlset>

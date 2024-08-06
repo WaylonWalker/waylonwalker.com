@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0">
+<channel>
+    <title>recent</title>
+    <link>https://waylonwalker.com/</link>
+    <description>I write about how I use python and linux in data science.</description>
+    <generator>Markata</generator>
+    <image>
+        <url>static/8bitcc.png</url>
+        <link>https://waylonwalker.com/</link>
+    </image>
+    <language>en</language>
+  <item>
+      <title>💭 The Tank - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-377</link>
+      <description>Thor always comes in hard with fire takes in his shorts.   Especially if you are early in our career take this in.  If y</description>
+      <guid>https://waylonwalker.com//thoughts-377</guid>
+      <pubDate>2024-08-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 (8) I Invented Airless Cornhole Bags - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-378</link>
+      <description>This is such a cool 3d printed cornhole game.</description>
+      <guid>https://waylonwalker.com//thoughts-378</guid>
+      <pubDate>2024-08-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Trying Obsidian</title>
+      <link>https://waylonwalker.com//trying-obsidian</link>
+      <description>I am giving obsidian a try, this is a test post to learn the flow.  Something This is my current wallpaper. ![</description>
+      <guid>https://waylonwalker.com//trying-obsidian</guid>
+      <pubDate>2024-07-31</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Obsidian Using Templater Like Copier</title>
+      <link>https://waylonwalker.com//obsidian-using-templater-like-copier</link>
+      <description>I Here is what I came up with to replace my til template. tR to.file.cursor()</description>
+      <guid>https://waylonwalker.com//obsidian-using-templater-like-copier</guid>
+      <pubDate>2024-07-31</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Obsidian Image Converter</title>
+      <link>https://waylonwalker.com//obsidian-image-converter</link>
+      <description>I ![ Once the images are there they are pushed and deployed as their own site to ! This is part of me getting set up and </description>
+      <guid>https://waylonwalker.com//obsidian-image-converter</guid>
+      <pubDate>2024-07-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 How Fly.Io Uses Docker (Without Docker) - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-374</link>
+      <description>Docker no Docker, what!!!
+
+
+So fly.io uses Dockerfiles to deploy your app, but no docker.  They use containerd to downlo</description>
+      <guid>https://waylonwalker.com//thoughts-374</guid>
+      <pubDate>2024-07-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 This Is Goodbye? - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-372</link>
+      <description>Damn Johnny is always such a positive vibe, just getting steamrolled by this braille shit.  WTF are these brand sleeping</description>
+      <guid>https://waylonwalker.com//thoughts-372</guid>
+      <pubDate>2024-07-26</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Ultimate Modular Macro Keyboard &#34;Kibly&#34; : R/Mechanicalkeyboards</title>
+      <link>https://waylonwalker.com//thoughts-373</link>
+      <description>This is a pretty sick design, touch screen macropad, trackball, ring, and knobs for days.  I just want to play with it a</description>
+      <guid>https://waylonwalker.com//thoughts-373</guid>
+      <pubDate>2024-07-26</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Add Quick-Tap-Ms And Require-Prior-Idle-Ms · Waylonwalker/Zmk-Config-42Block@Cb2Cda4</title>
+      <link>https://waylonwalker.com//thoughts-360</link>
+      <description>Even after switching to my hm and ht behaviors I am running into some issues where sometimes I am still accidentally hit</description>
+      <guid>https://waylonwalker.com//thoughts-360</guid>
+      <pubDate>2024-07-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Note-Taking With Zettelkasten - An Introduction - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-361</link>
+      <description>Niklas Luhmann created the Zettelkasten method of notetaking, He was the Da Vinci of writing, holding a high standard th</description>
+      <guid>https://waylonwalker.com//thoughts-361</guid>
+      <pubDate>2024-07-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+<lastBuildDate></lastBuildDate>
+</channel>
+</rss>

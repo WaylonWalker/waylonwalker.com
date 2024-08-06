@@ -1,0 +1,1768 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0">
+<channel>
+    <title>til</title>
+    <link>https://waylonwalker.com/</link>
+    <description>I write about how I use python and linux in data science.</description>
+    <generator>Markata</generator>
+    <image>
+        <url>static/8bitcc.png</url>
+        <link>https://waylonwalker.com/</link>
+    </image>
+    <language>en</language>
+  <item>
+      <title>Obsidian Using Templater Like Copier</title>
+      <link>https://waylonwalker.com//obsidian-using-templater-like-copier</link>
+      <description>I Here is what I came up with to replace my til template. tR to.file.cursor()</description>
+      <guid>https://waylonwalker.com//obsidian-using-templater-like-copier</guid>
+      <pubDate>2024-07-31</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Obsidian Image Converter</title>
+      <link>https://waylonwalker.com//obsidian-image-converter</link>
+      <description>I ![ Once the images are there they are pushed and deployed as their own site to ! This is part of me getting set up and </description>
+      <guid>https://waylonwalker.com//obsidian-image-converter</guid>
+      <pubDate>2024-07-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Convert Mp4 For Twitter With Ffmpeg</title>
+      <link>https://waylonwalker.com//convert-mp4-for-twitter-with-ffmpeg</link>
+      <description>I</description>
+      <guid>https://waylonwalker.com//convert-mp4-for-twitter-with-ffmpeg</guid>
+      <pubDate>2024-07-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Arch Remove Orphaned Packages</title>
+      <link>https://waylonwalker.com//arch-remove-orphaned-packages</link>
+      <description></description>
+      <guid>https://waylonwalker.com//arch-remove-orphaned-packages</guid>
+      <pubDate>2024-07-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>K8S Kustomize Diff</title>
+      <link>https://waylonwalker.com//kubebernetes-kustomize-diff</link>
+      <description>I You can enable color diffs by using an external diff provider like colordiff. You might need to install colordiff if you don Now I can try out kustomize chang</description>
+      <guid>https://waylonwalker.com//kubebernetes-kustomize-diff</guid>
+      <pubDate>2024-07-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Animal Well Keyboard</title>
+      <link>https://waylonwalker.com//animal-well-keyboard</link>
+      <description>Animal well does not let you remap keys, and really doesn wasd - move space - jump / a enter - interact / b x - throw c - inventory 1 - left item / rb 2 - open </description>
+      <guid>https://waylonwalker.com//animal-well-keyboard</guid>
+      <pubDate>2024-07-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Diskcache As Debounce</title>
+      <link>https://waylonwalker.com//diskcache-as-debounce</link>
+      <description>I ! I am using it for longer running tasks and I don check if a job is running automatically expire jobs My brain first went to thinking I needed another servic</description>
+      <guid>https://waylonwalker.com//diskcache-as-debounce</guid>
+      <pubDate>2024-07-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Install Sealed-Secreats Via Manifest</title>
+      <link>https://waylonwalker.com//install-sealed-secreats-via-manifest</link>
+      <description>Yesterday I realized that I have overlooked the default installation method of</description>
+      <guid>https://waylonwalker.com//install-sealed-secreats-via-manifest</guid>
+      <pubDate>2024-07-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Playerctl Fixes Arch Media Keys</title>
+      <link>https://waylonwalker.com//playerctl-fixes-arch</link>
+      <description>I Once it is installed all of my media keys started working right away. I played around with it a bit more and came up with a way to display the</description>
+      <guid>https://waylonwalker.com//playerctl-fixes-arch</guid>
+      <pubDate>2024-06-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tailwind Post Template</title>
+      <link>https://waylonwalker.com//tailwind-post-template</link>
+      <description>Today I am playing around with tailwind, flexing the css muscle and learning I created a new post template that mimics a terminal look in css where I could I th</description>
+      <guid>https://waylonwalker.com//tailwind-post-template</guid>
+      <pubDate>2024-06-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tailscale Ssh</title>
+      <link>https://waylonwalker.com//tailscale-ssh</link>
+      <description>Tailscale allows you to ssh into all of your tailscale machines, it busts I picked this up from the tailscale youtube channel.</description>
+      <guid>https://waylonwalker.com//tailscale-ssh</guid>
+      <pubDate>2024-06-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Latest Page In Markata</title>
+      <link>https://waylonwalker.com//latest-page-in-markata</link>
+      <description>I just implemented a latest blog post link in Markata by asking for the first Feeds are setup in  For more information on markata check out the full </description>
+      <guid>https://waylonwalker.com//latest-page-in-markata</guid>
+      <pubDate>2024-06-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Just Picker</title>
+      <link>https://waylonwalker.com//just-picker</link>
+      <description></description>
+      <guid>https://waylonwalker.com//just-picker</guid>
+      <pubDate>2024-05-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Showmount-E</title>
+      <link>https://waylonwalker.com//showmount-e</link>
+      <description>TIL how to display the list of nfs mounts on your network. You can even look for mounts of other machines on your network.</description>
+      <guid>https://waylonwalker.com//showmount-e</guid>
+      <pubDate>2024-04-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Control Minio Token Access</title>
+      <link>https://waylonwalker.com//control-minio-token-access</link>
+      <description>To allow access only to the </description>
+      <guid>https://waylonwalker.com//control-minio-token-access</guid>
+      <pubDate>2024-04-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>How To List Sqlite Tables</title>
+      <link>https://waylonwalker.com//how-to-list-sqlite-tables</link>
+      <description>You can inspect sqlite tables with the sqlite shell. note that you get into the shell with  I also learned that  Here is an output from my redka database.  The </description>
+      <guid>https://waylonwalker.com//how-to-list-sqlite-tables</guid>
+      <pubDate>2024-04-23</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Redka Runs On Sqlite</title>
+      <link>https://waylonwalker.com//redka-runs-on-sqlite</link>
+      <description>With the liscense changes to redis there are several new forks out there.  One We now have redis running on port 6379 that we can connect to with a redis We can</description>
+      <guid>https://waylonwalker.com//redka-runs-on-sqlite</guid>
+      <pubDate>2024-04-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Am I Vulnerable To The Xz Backdoor?</title>
+      <link>https://waylonwalker.com//am-i-vulnerable-to-the-xz-backdoor</link>
+      <description>The main system that I am concerned about is my arch BTW machine. I found a For my machine I am concerned with this line. The xz packages prior to version 5.6.1</description>
+      <guid>https://waylonwalker.com//am-i-vulnerable-to-the-xz-backdoor</guid>
+      <pubDate>2024-04-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Arch Dependencies</title>
+      <link>https://waylonwalker.com//arch-dependencies</link>
+      <description>paru has some nice features that I rarely use, and hav to look up when I need You can check all the packages depended on by nodejs by running the following.</description>
+      <guid>https://waylonwalker.com//arch-dependencies</guid>
+      <pubDate>2024-04-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Copier Trust</title>
+      <link>https://waylonwalker.com//copier-trust</link>
+      <description>I recently had to update my copier-gallery command to trust my own templates All the the copier copy api can be found with help.</description>
+      <guid>https://waylonwalker.com//copier-trust</guid>
+      <pubDate>2024-04-19</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Ipython F2</title>
+      <link>https://waylonwalker.com//ipython-f2</link>
+      <description>Today I accidentally ran f2 in ipython to discover that it opens your $EDITOR better yet add </description>
+      <guid>https://waylonwalker.com//ipython-f2</guid>
+      <pubDate>2024-04-18</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Sqlmodel Indexes</title>
+      <link>https://waylonwalker.com//sqlmodel-indexes</link>
+      <description>I For every field that you will be querying on, you can create an index, by ! The docs cover this pretty well, and in quite depth - </description>
+      <guid>https://waylonwalker.com//sqlmodel-indexes</guid>
+      <pubDate>2024-04-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Python Inline Snapshot</title>
+      <link>https://waylonwalker.com//python-inline-snapshot</link>
+      <description>inline-snapshot Here is the most basic starter. Now when I run  It also works with pydantic models.</description>
+      <guid>https://waylonwalker.com//python-inline-snapshot</guid>
+      <pubDate>2024-04-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Sqlite Vacuum</title>
+      <link>https://waylonwalker.com//sqlite-vacuum</link>
+      <description>Today I learned how to VACUUM a sqlite database and cut its size in about half. Why is it important to do a VACUUM? In short its becuase the file system gets To</description>
+      <guid>https://waylonwalker.com//sqlite-vacuum</guid>
+      <pubDate>2024-04-16</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tailwind Animations</title>
+      <link>https://waylonwalker.com//tailwind-animations</link>
+      <description>I learned that tailwind animations are pretty easy to add only needing a few Here are the classes that I used to transition my colors very slowly. And the entir</description>
+      <guid>https://waylonwalker.com//tailwind-animations</guid>
+      <pubDate>2024-04-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>How To Kill Ollama Server</title>
+      <link>https://waylonwalker.com//how-to-kill-ollama-server</link>
+      <description>I recently updated  No matter what it comes back You can confirm this with the following command. Next time you want to start you can do it as before with </description>
+      <guid>https://waylonwalker.com//how-to-kill-ollama-server</guid>
+      <pubDate>2024-04-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Composing Typer Clis</title>
+      <link>https://waylonwalker.com//composing-typer-clis</link>
+      <description>Typer makes it easy to compose your cli applications, like you might with a web You will see similar patterns in the wild, namely the  Lets setup the cli app it</description>
+      <guid>https://waylonwalker.com//composing-typer-clis</guid>
+      <pubDate>2024-04-13</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tailwind Arbitrary Values</title>
+      <link>https://waylonwalker.com//tailwind-custom-size</link>
+      <description>I learned not to fear the arbitrary size feature of tailwind.  While building Don Learn more about using-arbitrary-values from their docs</description>
+      <guid>https://waylonwalker.com//tailwind-custom-size</guid>
+      <pubDate>2024-04-12</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Fix Npm Global Install Needs Sudo</title>
+      <link>https://waylonwalker.com//fix-npm-global-install-needs-sudo</link>
+      <description>Each time I go to set up npm I am frustrated by the errors saying that I don For the fix to remain persistent you need to put these two lines in your shell</description>
+      <guid>https://waylonwalker.com//fix-npm-global-install-needs-sudo</guid>
+      <pubDate>2024-04-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Darkmode Scrollbars</title>
+      <link>https://waylonwalker.com//darkmode-scrollbars</link>
+      <description>If you are designing a website in dark mode the scrollbars can be finicky to Want a rounded scrollbar thumb? add these styles. This makes a very nice looking de</description>
+      <guid>https://waylonwalker.com//darkmode-scrollbars</guid>
+      <pubDate>2024-04-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Udating Cloudflare Pages Using The Wrangler Cli</title>
+      <link>https://waylonwalker.com//updating-cloudflare-pages-using-the-wrangler-cli</link>
+      <description>Before deploying to cloudflare pages with wrangler you need a cloudflare api Next install wrangler using npm. Before you deploy to cloudflare pages you need to </description>
+      <guid>https://waylonwalker.com//updating-cloudflare-pages-using-the-wrangler-cli</guid>
+      <pubDate>2024-04-09</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Scheduling Cron Jobs In Kubernetes</title>
+      <link>https://waylonwalker.com//scheduling-cron-jobs-in-kubernetes</link>
+      <description>For my reader app I am using cronjobs to schedule my a new build and upload to</description>
+      <guid>https://waylonwalker.com//scheduling-cron-jobs-in-kubernetes</guid>
+      <pubDate>2024-04-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Jinja Macros</title>
+      <link>https://waylonwalker.com//jinja-macros</link>
+      <description>I am working on a page for Now I can use the same code for all of my links, and call the macro to use it.</description>
+      <guid>https://waylonwalker.com//jinja-macros</guid>
+      <pubDate>2024-04-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Jinja Loop Variable And Htmx</title>
+      <link>https://waylonwalker.com//jinja-loop-variable-and-htmx</link>
+      <description>jinja has a loop variable that is very handy to use with htmx.  Whether you Now for every chunk of contacts that we load we will trigger the infinite</description>
+      <guid>https://waylonwalker.com//jinja-loop-variable-and-htmx</guid>
+      <pubDate>2024-04-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Fastapi Jinja Url_For With Query Params</title>
+      <link>https://waylonwalker.com//fastapi-jinja-url-for-with-query-params</link>
+      <description>Out of the box Starlette does not support url In my searching for this I found  ! The route might look something like this. To access the home route using url</description>
+      <guid>https://waylonwalker.com//fastapi-jinja-url-for-with-query-params</guid>
+      <pubDate>2024-04-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Setting Up A Kind Cluster With Argocd Installed</title>
+      <link>https://waylonwalker.com//kind-cluster-with-argo</link>
+      <description>Kind (Kubernetes in Docker) is a tool that makes it easy to create and tear Argocd is a continuous delivery tool that makes it easy to setup gitops Here is how </description>
+      <guid>https://waylonwalker.com//kind-cluster-with-argo</guid>
+      <pubDate>2024-04-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Kubernetes Kubeseal</title>
+      <link>https://waylonwalker.com//kubernetes-kubeseal</link>
+      <description>In my homelab kubernetes cluster I am using kubeseal to encrypt secrets.  I You see kubeseal encrypts your secrets with a private key only stored in your Instal</description>
+      <guid>https://waylonwalker.com//kubernetes-kubeseal</guid>
+      <pubDate>2024-03-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Nvim Stupid Gf Bind</title>
+      <link>https://waylonwalker.com//nvim-stupid-gf-bind</link>
+      <description>So after months of fighting with gf not going to template files, I finally This was the dumbest keybind in my config, that I copied from someone else I have jin</description>
+      <guid>https://waylonwalker.com//nvim-stupid-gf-bind</guid>
+      <pubDate>2023-12-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Cli Auth</title>
+      <link>https://waylonwalker.com//cli-auth</link>
+      <description>Authentication from cli tools can be a bit of a bear, and I have to look it up I set up a fastapi server running on port 8000, it uses a basic auth with The og </description>
+      <guid>https://waylonwalker.com//cli-auth</guid>
+      <pubDate>2023-12-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Hiding Form Input During Htmx Request</title>
+      <link>https://waylonwalker.com//htmx-request-hide-input</link>
+      <description>I am working on fokais.com It also felt like nothing was happening while sending the email to the user for Let The intent is to hide the spinner until the reque</description>
+      <guid>https://waylonwalker.com//htmx-request-hide-input</guid>
+      <pubDate>2023-12-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Stripe Cancellations In Fastapi And Sqlmodel</title>
+      <link>https://waylonwalker.com//stripe-cancellations</link>
+      <description>Today I am working on fokais.com, trying to get to a point where I can launch I am building the fokais backent in python primarilyt with fastapi and sqlmodel He</description>
+      <guid>https://waylonwalker.com//stripe-cancellations</guid>
+      <pubDate>2023-12-09</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Still Loving Tailwind</title>
+      <link>https://waylonwalker.com//still-loving-tailwind</link>
+      <description>I A few months back in september of 2023 I made  values are well thought out it classes that make sense tree shakable I started working on fokais.com only a few</description>
+      <guid>https://waylonwalker.com//still-loving-tailwind</guid>
+      <pubDate>2023-11-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Jpillora-Installer</title>
+      <link>https://waylonwalker.com//jpillora-installer</link>
+      <description>jpillora/installer is the install script generator I have been looking for. It Also these pre-compiled binaries install rediculously fast compared to building C</description>
+      <guid>https://waylonwalker.com//jpillora-installer</guid>
+      <pubDate>2023-10-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>How To Host Static Content With Fastapi</title>
+      <link>https://waylonwalker.com//fastapi-static-content</link>
+      <description>I wanted to host some static files through fastapi. Typical use cases for this The docs cover how to host static files, and give this solution that is built If </description>
+      <guid>https://waylonwalker.com//fastapi-static-content</guid>
+      <pubDate>2023-10-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Set Up Minio Bucket Entrypoint</title>
+      <link>https://waylonwalker.com//set-up-minio-bucket-entrypoint</link>
+      <description>I recently se tup minio object storage in my homelab for litestream sqlite First I had to configure the Key ID and Secret Access Key generated in the Then set t</description>
+      <guid>https://waylonwalker.com//set-up-minio-bucket-entrypoint</guid>
+      <pubDate>2023-10-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Setup Tailwind For Jinja</title>
+      <link>https://waylonwalker.com//tailwind-and-jinja</link>
+      <description>I npm You will need to create a tailwind.config.js file, to get this you can use the cli. To set up tailwind to work with jinja templates you will need to point</description>
+      <guid>https://waylonwalker.com//tailwind-and-jinja</guid>
+      <pubDate>2023-09-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Python Scandir Ignores Hidden Directories</title>
+      <link>https://waylonwalker.com//python-scandir-ignores-hidden-directories</link>
+      <description>The next version of markata will be around a full second faster at building I was looking through my profiler for some unexpected performance hits, and I starte</description>
+      <guid>https://waylonwalker.com//python-scandir-ignores-hidden-directories</guid>
+      <pubDate>2023-06-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Getting Started With Pydantic</title>
+      <link>https://waylonwalker.com//getting-started-with-pydantic</link>
+      <description>Pydantic is a Python library for serializing data into models that can be To install pydantic you will first need python and pip. Once you have pip Always insta</description>
+      <guid>https://waylonwalker.com//getting-started-with-pydantic</guid>
+      <pubDate>2023-05-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Setting Up Paru | Installing From The Aur For The First Time</title>
+      <link>https://waylonwalker.com//setting-up-paru</link>
+      <description>paru is an aur helper that allows you to use a package manager to install The Aur is a set of community managed packages that can be installed on arch based dis</description>
+      <guid>https://waylonwalker.com//setting-up-paru</guid>
+      <pubDate>2023-05-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Releasing A New Version Of Your Python Package Just Got Easier</title>
+      <link>https://waylonwalker.com//gh-release</link>
+      <description>Quickly and easily create new versions of your Python package with the  Releasing a new version of your Python package can be a daunting task. You need to make </description>
+      <guid>https://waylonwalker.com//gh-release</guid>
+      <pubDate>2023-01-23</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Arch Linux Randomly Rejecting Passwords</title>
+      <link>https://waylonwalker.com//arch-rejects-password</link>
+      <description>Fix Arch Linux randomly rejecting passwords with one command. Try If you The good news is that there is a simple fix for this issue. The following bash bash fai</description>
+      <guid>https://waylonwalker.com//arch-rejects-password</guid>
+      <pubDate>2023-01-19</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Dash E Your Github Docker Actions</title>
+      <link>https://waylonwalker.com//fail-ci-scripts</link>
+      <description>Give github actions the -e flag in the shebang  The -e flag to the bash command allows your script to exit immediately if any In windows the solution is not qui</description>
+      <guid>https://waylonwalker.com//fail-ci-scripts</guid>
+      <pubDate>2022-12-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Ssh Copy Id</title>
+      <link>https://waylonwalker.com//ssh-copy-id</link>
+      <description>I recently setup some vm</description>
+      <guid>https://waylonwalker.com//ssh-copy-id</guid>
+      <pubDate>2022-12-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Ssh Key Permissions</title>
+      <link>https://waylonwalker.com//ssh-key-permissions</link>
+      <description>I just shared some ssh keys with myself and ran into this error telling me that I changed them with the following commands.</description>
+      <guid>https://waylonwalker.com//ssh-key-permissions</guid>
+      <pubDate>2022-11-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Formatme</title>
+      <link>https://waylonwalker.com//formatme</link>
+      <description></description>
+      <guid>https://waylonwalker.com//formatme</guid>
+      <pubDate>2022-11-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Nvim Navic</title>
+      <link>https://waylonwalker.com//nvim-navic</link>
+      <description>With the latest release of version of nvim 0.8.0 we get access to a new winbar nvim exposes the winbar api in lua, and you can send any text to the winbar as fo</description>
+      <guid>https://waylonwalker.com//nvim-navic</guid>
+      <pubDate>2022-10-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Pipx Textual Devtools</title>
+      <link>https://waylonwalker.com//pipx-textual-devtools</link>
+      <description>I really like having global cli command installed with pipx.  Since textual You can pipx install textual. But if you try to run any textual cli commands you wil</description>
+      <guid>https://waylonwalker.com//pipx-textual-devtools</guid>
+      <pubDate>2022-10-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Textual App Devtools</title>
+      <link>https://waylonwalker.com//textual-app-devtools</link>
+      <description>I am working through the textual tutorial, and I want to put it in a proper cli I set up a new project running  If you are using  Now to get devtools through a </description>
+      <guid>https://waylonwalker.com//textual-app-devtools</guid>
+      <pubDate>2022-10-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Caching Python Virtual Environments In Github Actions</title>
+      <link>https://waylonwalker.com//github-actions-cache-venv</link>
+      <description></description>
+      <guid>https://waylonwalker.com//github-actions-cache-venv</guid>
+      <pubDate>2022-10-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Markata Github Pages</title>
+      <link>https://waylonwalker.com//markata-github-pages</link>
+      <description>11ty https://www.rockyourcode.com/how-to-deploy-eleventy-to-github-pages-with-github-actions/ hugo puts it in the base url https://gohugo.io/getting-started/con</description>
+      <guid>https://waylonwalker.com//markata-github-pages</guid>
+      <pubDate>2022-10-19</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Obs Virtual Camera On Boot</title>
+      <link>https://waylonwalker.com//obs-virtual-camera-on-boot</link>
+      <description>For far too long I have had to fidget with v4l2oloopback after reboot.  I After a reboot the start virtual camera button won Today I learned that you can turn o</description>
+      <guid>https://waylonwalker.com//obs-virtual-camera-on-boot</guid>
+      <pubDate>2022-10-18</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Localstack Status Permission</title>
+      <link>https://waylonwalker.com//localstack-status-permission</link>
+      <description>I ran into an issue where I was unable to ask localstack for its status. I I would run this to ask for the status. And get this error It dawned on me that the f</description>
+      <guid>https://waylonwalker.com//localstack-status-permission</guid>
+      <pubDate>2022-10-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Running Aws Cli Commands With Localstack</title>
+      <link>https://waylonwalker.com//running-aws-cli-commands-with-localstack</link>
+      <description>Upon first running an  The easy easiest way is to leverage a package called  If you want to use the cli pro</description>
+      <guid>https://waylonwalker.com//running-aws-cli-commands-with-localstack</guid>
+      <pubDate>2022-10-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Markata Supports Jinja Plugins 0.5.0.Dev2</title>
+      <link>https://waylonwalker.com//markata-supports-jinja-plugins-0-5-0-dev2</link>
+      <description>Markata now allows you to create jinja extensions that will be loaded right in The entry for 0.5.0.dev2 from markata Created entrypoint hook allowing for users </description>
+      <guid>https://waylonwalker.com//markata-supports-jinja-plugins-0-5-0-dev2</guid>
+      <pubDate>2022-10-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Using Django Rest Framework Inside React</title>
+      <link>https://waylonwalker.com//django-rest-framework-react</link>
+      <description></description>
+      <guid>https://waylonwalker.com//django-rest-framework-react</guid>
+      <pubDate>2022-10-09</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Getting Started With Django Rest Framework</title>
+      <link>https://waylonwalker.com//django-rest-framework-getting-started</link>
+      <description>In my adventure to learn django, I want to be able to setup REST api To get started lets open up a  Now we need to declare  Next I will create all the files tha</description>
+      <guid>https://waylonwalker.com//django-rest-framework-getting-started</guid>
+      <pubDate>2022-10-09</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Markata Now Uses Hatch</title>
+      <link>https://waylonwalker.com//markata-now-uses-hatch</link>
+      <description>Markata now uses hatch as its build backend, and version bumping tool. Markata 0.5.0 is now out, and it Over the last month I made a big push to get 0.5.0 out, </description>
+      <guid>https://waylonwalker.com//markata-now-uses-hatch</guid>
+      <pubDate>2022-10-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Django Create Superuser</title>
+      <link>https://waylonwalker.com//django-create-superuser</link>
+      <description>My next step into django made me realize that I do not have access to the admin panel, turns out that I need to create a cuper user first. Right away when tryin</description>
+      <guid>https://waylonwalker.com//django-create-superuser</guid>
+      <pubDate>2022-09-26</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Django Disallowed Host</title>
+      <link>https://waylonwalker.com//django-disallowed-host</link>
+      <description>I am continuing my journey into django, but today I am not at my workstation. I I found this in </description>
+      <guid>https://waylonwalker.com//django-disallowed-host</guid>
+      <pubDate>2022-09-26</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Django Polls App</title>
+      <link>https://waylonwalker.com//django-polls-app</link>
+      <description></description>
+      <guid>https://waylonwalker.com//django-polls-app</guid>
+      <pubDate>2022-09-26</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Trying Out Django</title>
+      <link>https://waylonwalker.com//trying-out-django</link>
+      <description>I have no experience in django, and in my exploration to become a better python If you found this at all helpful make sure you check out the  The first thing I </description>
+      <guid>https://waylonwalker.com//trying-out-django</guid>
+      <pubDate>2022-09-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>How To Escape Variables In Jinja Templates</title>
+      <link>https://waylonwalker.com//jinja2-escape</link>
+      <description>While updating my site to use Markata Jinja comes with a handy utility for escaping strings.  I definitly tried to The issue I ran into was when trying to setup</description>
+      <guid>https://waylonwalker.com//jinja2-escape</guid>
+      <pubDate>2022-09-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>I&#39;Ve Made My Ipython Config Too Complicated, Let&#39;S Fix It.</title>
+      <link>https://waylonwalker.com//use-ipython-extensions</link>
+      <description>When I am developing python code I often have a repl open alongside of it So in the past the way I have setup a few extensions for myself is to add I missed the</description>
+      <guid>https://waylonwalker.com//use-ipython-extensions</guid>
+      <pubDate>2022-09-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Markata Extend &lt;Head&gt; In Configuration</title>
+      <link>https://waylonwalker.com//markata-configure-head</link>
+      <description>A long needed feature of markata has been the ability to really configure out Now you can add some extra style to your site with the existing built-in Each text</description>
+      <guid>https://waylonwalker.com//markata-configure-head</guid>
+      <pubDate>2022-09-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Create A New Python Project With The Hatch Cli</title>
+      <link>https://waylonwalker.com//hatch-new-cli</link>
+      <description>I creating new versions created by myself with stable diffusion Note Running  After running and naming the project  You can also fill in the project name ahead </description>
+      <guid>https://waylonwalker.com//hatch-new-cli</guid>
+      <pubDate>2022-09-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Github Actions Delete All Workflow Runs</title>
+      <link>https://waylonwalker.com//gh-rm-workflow-runs</link>
+      <description>Today I ran a bunch of actions, but I wanted to clean up all the runs that I I found </description>
+      <guid>https://waylonwalker.com//gh-rm-workflow-runs</guid>
+      <pubDate>2022-09-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Versioning Python Projects With Hatch</title>
+      <link>https://waylonwalker.com//hatch-version</link>
+      <description>Hatch has an amazing versioning cli for python packages that just works.  It creating new versions created by myself with stable diffusion For trying out the  T</description>
+      <guid>https://waylonwalker.com//hatch-version</guid>
+      <pubDate>2022-09-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>From Markdown To Blog With Markata | Lightning Talk | Python Web Conf 2022</title>
+      <link>https://waylonwalker.com//from-markdown-to-blog-with-markata</link>
+      <description>Markata is a great python framework that allows you to go from markdown to a Full transparancy... I built markata. The talk is live on YouTube.  Make sure you c</description>
+      <guid>https://waylonwalker.com//from-markdown-to-blog-with-markata</guid>
+      <pubDate>2022-08-31</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>I Spoke At Python Web Conf 2022</title>
+      <link>https://waylonwalker.com//i-spoke-at-python-web-conf-2022</link>
+      <description>I spoke at python webconf in March 2022 about how I deploy this blog on a Building this blog has brought me a lot of benefits.  I have I also bump into people f</description>
+      <guid>https://waylonwalker.com//i-spoke-at-python-web-conf-2022</guid>
+      <pubDate>2022-08-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>I Turned On 2Fa For All Of My Pypi Packages</title>
+      <link>https://waylonwalker.com//pypi-2fa</link>
+      <description>I got all the pypi packages that I own behind 2 factor authentication. 💪 Recently this really made it I feel like this caused a bit of confusion as turning on 2</description>
+      <guid>https://waylonwalker.com//pypi-2fa</guid>
+      <pubDate>2022-08-29</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Use Vim To Remove Duplicates</title>
+      <link>https://waylonwalker.com//vim-sort-u</link>
+      <description>I just love how some features of vim are so discoverable and memorable once you I recently used this to dedupe my autogenerated links section for Here is what t</description>
+      <guid>https://waylonwalker.com//vim-sort-u</guid>
+      <pubDate>2022-08-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Highlighting Text Ranges With Rich | Python</title>
+      <link>https://waylonwalker.com//year</link>
+      <description>{% for year in markata.map( {% for post in markata.map( [</description>
+      <guid>https://waylonwalker.com//year</guid>
+      <pubDate>2022-08-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Highlighting Text Ranges With Rich | Python</title>
+      <link>https://waylonwalker.com//rich-syntax-range-style</link>
+      <description>Today I https://twitter.com/ While waiting for that reply let Lets import all the classes that we need from  Now we need some code to highlight. I am going to r</description>
+      <guid>https://waylonwalker.com//rich-syntax-range-style</guid>
+      <pubDate>2022-08-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Vimgrep Open Buffers</title>
+      <link>https://waylonwalker.com//vimgrep-open-buffers</link>
+      <description>How to vimgrep over hidden files. I needed to delete all build pipeline steps that were named  Today After searching through all the projects it was clear that </description>
+      <guid>https://waylonwalker.com//vimgrep-open-buffers</guid>
+      <pubDate>2022-08-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Markata 0.3.0 Is 15-20% Faster</title>
+      <link>https://waylonwalker.com//markata-0-3-0</link>
+      <description>a sprinter edging out his opponent by Dall-e It Markata started off partly as a python developer frustrated with using nodejs Over time this side project has gr</description>
+      <guid>https://waylonwalker.com//markata-0-3-0</guid>
+      <pubDate>2022-08-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>How To Disable Kedro Viz | Or Any Kedro Hook</title>
+      <link>https://waylonwalker.com//kedro-disable-hook</link>
+      <description></description>
+      <guid>https://waylonwalker.com//kedro-disable-hook</guid>
+      <pubDate>2022-08-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Gpu Stats In My Linux Statusbar</title>
+      <link>https://waylonwalker.com//polybar-gpu-stats</link>
+      <description></description>
+      <guid>https://waylonwalker.com//polybar-gpu-stats</guid>
+      <pubDate>2022-08-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Get The Version Of Any Python Package | Python Api</title>
+      <link>https://waylonwalker.com//get-python-package-versions</link>
+      <description>A common meta thing that I need in python is to find the version of a package. In searching the internet for an answer nearly every one of them pointed me to Wh</description>
+      <guid>https://waylonwalker.com//get-python-package-versions</guid>
+      <pubDate>2022-07-29</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Arch Fonts</title>
+      <link>https://waylonwalker.com//arch-fonts</link>
+      <description>https://gist.github.com/YoEight/d19112db56cd8f93835bf2d009d617f7</description>
+      <guid>https://waylonwalker.com//arch-fonts</guid>
+      <pubDate>2022-07-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Manage Your Displays With Xrandr Manager</title>
+      <link>https://waylonwalker.com//xrandr-manager</link>
+      <description>xrandr is a great cli to manage your windows in a linux distro using x11, which Check out the xrander-manager is a python cli application that is simply a nice </description>
+      <guid>https://waylonwalker.com//xrandr-manager</guid>
+      <pubDate>2022-07-16</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Get Better At Jq Interactively | Ijq</title>
+      <link>https://waylonwalker.com//ijq</link>
+      <description>[ [</description>
+      <guid>https://waylonwalker.com//ijq</guid>
+      <pubDate>2022-07-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Two New Shell Aliases For Git</title>
+      <link>https://waylonwalker.com//two-new-aliases-for-git</link>
+      <description>Recently I added two new bash/zsh aliases to make my git experience just a tad Most of our work repos were recently migrated to new remote urls, we scriped The </description>
+      <guid>https://waylonwalker.com//two-new-aliases-for-git</guid>
+      <pubDate>2022-06-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Ipython Q To Exit</title>
+      <link>https://waylonwalker.com//ipython-q-exit</link>
+      <description>So many terminal applications bind  After digging way too deep into how IPython implements its  It was that simple. This is not a game changer by any means, but</description>
+      <guid>https://waylonwalker.com//ipython-q-exit</guid>
+      <pubDate>2022-06-13</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Copier Slugify | Python Templating | Using Cookiecutter</title>
+      <link>https://waylonwalker.com//copier-slugify</link>
+      <description>It Yes the solution comes from a competing templating framework. I install copier with pipx, so I need to inject cookiecutter in to my copier If you are using a</description>
+      <guid>https://waylonwalker.com//copier-slugify</guid>
+      <pubDate>2022-06-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Gh Repo Create</title>
+      <link>https://waylonwalker.com//gh-repo-create</link>
+      <description>I love getting faster in my workflow, something I have recently added in is Check out what I created here.</description>
+      <guid>https://waylonwalker.com//gh-repo-create</guid>
+      <pubDate>2022-06-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Textual Has Devtools</title>
+      <link>https://waylonwalker.com//textual-has-devtools</link>
+      <description>Textual has devtools in the upcoming css branch, and its pretty awesome Textual is still very early and not really ready for prime time, but it As  Textual is a</description>
+      <guid>https://waylonwalker.com//textual-has-devtools</guid>
+      <pubDate>2022-06-09</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>The One Pip Config You Need To Have</title>
+      <link>https://waylonwalker.com//pip-require-virtualenv</link>
+      <description>Whenever you are installing python packages, you should always use a virtual Pip is the pacakage tool for python.  It installs third-party packages and is pytho</description>
+      <guid>https://waylonwalker.com//pip-require-virtualenv</guid>
+      <pubDate>2022-06-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Pyenv No Module Named &#39;_Sqlite3&#39;</title>
+      <link>https://waylonwalker.com//pyenv-no-sqlite3</link>
+      <description>I I talked about why and how to use pyenv along with my first impressions in According to  libsqlite3-dev When I make a fresh env and install ipython I still ge</description>
+      <guid>https://waylonwalker.com//pyenv-no-sqlite3</guid>
+      <pubDate>2022-05-31</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Git Merge Ours</title>
+      <link>https://waylonwalker.com//git-merge-ours</link>
+      <description>Sometimes you have a pretty old branch you are trying to merge into and you are The first step is to make sure your local copy of the branch you are moving It M</description>
+      <guid>https://waylonwalker.com//git-merge-ours</guid>
+      <pubDate>2022-05-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Vim Plugged Snapshot</title>
+      <link>https://waylonwalker.com//vim-plugged-snapshot</link>
+      <description>A few of my friends and I all just borked our neovim configs during a plug https://twitter.com/pypeaday/status/1524882893914398732 Lucky for me I did it on a ho</description>
+      <guid>https://waylonwalker.com//vim-plugged-snapshot</guid>
+      <pubDate>2022-05-13</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Convert Your Qutebrowser Config To Config.Py</title>
+      <link>https://waylonwalker.com//qutebroswer-write-config-py</link>
+      <description>When you first start qutebrowser It will create some config files in As far as I know qutebrowser will create this default config out of the You might want to c</description>
+      <guid>https://waylonwalker.com//qutebroswer-write-config-py</guid>
+      <pubDate>2022-05-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Qutebrowser Clean Up All Status Bars</title>
+      <link>https://waylonwalker.com//clean-qutebrowser</link>
+      <description>I really like the super clean look of no status menus, no url bar, no bookmarks</description>
+      <guid>https://waylonwalker.com//clean-qutebrowser</guid>
+      <pubDate>2022-05-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Bash Function To Edit Scripts Faster</title>
+      <link>https://waylonwalker.com//ewhich</link>
+      <description>I am often editing my own scripts as I develop them. I want to make a better Currently I am combining  for now lets use my todo command as an example On first p</description>
+      <guid>https://waylonwalker.com//ewhich</guid>
+      <pubDate>2022-05-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>List All Git Commits With Gitpython</title>
+      <link>https://waylonwalker.com//git-python-all-commits</link>
+      <description>I am getting ready to do some timeseries analysis on a git repo with python, my This returns a generator, if you are iterating over them this is likely what The</description>
+      <guid>https://waylonwalker.com//git-python-all-commits</guid>
+      <pubDate>2022-05-09</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Gpg Signing Commits Over Ssh</title>
+      <link>https://waylonwalker.com//gpg-sign-git-ssh</link>
+      <description>I was editing some blog posts over ssh, when I ran into This is the error message I was seeing. The fix ended up being pretty simple, but quite a ways down this</description>
+      <guid>https://waylonwalker.com//gpg-sign-git-ssh</guid>
+      <pubDate>2022-05-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Review Pull Requests With Git Worktrees</title>
+      <link>https://waylonwalker.com//review-pull-requests-with-git-worktrees</link>
+      <description>Sometimes you get a PR on a project, but cannot review it without wrecking your This will create a new directory </description>
+      <guid>https://waylonwalker.com//review-pull-requests-with-git-worktrees</guid>
+      <pubDate>2022-05-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Using Git From Python</title>
+      <link>https://waylonwalker.com//python-git</link>
+      <description>GitPython I recently made myself a handy tool for making screenshots in python and it [ GitPython Import Repo from the git library and create an instance of the</description>
+      <guid>https://waylonwalker.com//python-git</guid>
+      <pubDate>2022-04-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Pipx On Windows</title>
+      <link>https://waylonwalker.com//pipx-on-windows</link>
+      <description>Python, click install Edit the System Environment Variables Environment Variables button Add the following path to your users Path Variable</description>
+      <guid>https://waylonwalker.com//pipx-on-windows</guid>
+      <pubDate>2022-04-18</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Python Sys.Excepthook</title>
+      <link>https://waylonwalker.com//python-sys-excepthook</link>
+      <description>Sometimes you just want python to do something else when you hit an exception, I am working on a quick and dirty python script designed to take screenshots I co</description>
+      <guid>https://waylonwalker.com//python-sys-excepthook</guid>
+      <pubDate>2022-04-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>A Tty Can Save Your Bacon</title>
+      <link>https://waylonwalker.com//linux-tty</link>
+      <description>I recently was unable to boot into my home Linux Desktop, it got stuck at https://twitter.com/ There Normally you have 6 TTY ctrl+alt+F1: login screen ctrl+alt+</description>
+      <guid>https://waylonwalker.com//linux-tty</guid>
+      <pubDate>2022-04-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Pygame Events Are Queued | Don&#39;T Make This Mistake</title>
+      <link>https://waylonwalker.com//pygame-event-queue</link>
+      <description>pygame events are stored in a queue, by default the most suggested way You don Let printing the events reveal this Let printing the events reveals that there ar</description>
+      <guid>https://waylonwalker.com//pygame-event-queue</guid>
+      <pubDate>2022-04-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Display Sprites In Pygame | Load And Blit</title>
+      <link>https://waylonwalker.com//pygame-image-load</link>
+      <description>One of the most essential concepts of pygame to start making a game you will I started by making a spotlight in Gimp, by opening a 64x64 pixel image and This is</description>
+      <guid>https://waylonwalker.com//pygame-image-load</guid>
+      <pubDate>2022-04-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Mixing Colors At The Command Line</title>
+      <link>https://waylonwalker.com//pastel-cli</link>
+      <description>From the same Author that brought us command line essentials like  You can install from one of the Something I often do to blend colors together is add a little</description>
+      <guid>https://waylonwalker.com//pastel-cli</guid>
+      <pubDate>2022-04-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Dunk Is My New Diff Pager</title>
+      <link>https://waylonwalker.com//dunk-is-my-new-diff-pager</link>
+      <description>Browsing through twitter the other day I discovered it through this Before I dive in deep, I do want to mention that Dunk is super new and beta at The author re</description>
+      <guid>https://waylonwalker.com//dunk-is-my-new-diff-pager</guid>
+      <pubDate>2022-04-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Pygame Boilerplate Apr 2022</title>
+      <link>https://waylonwalker.com//pygame-boilerplate-apr-2022</link>
+      <description>I I What currently have is a single module starter package that is on github Since it You can make a quick game by inheriting from Game, and calling Here is wha</description>
+      <guid>https://waylonwalker.com//pygame-boilerplate-apr-2022</guid>
+      <pubDate>2022-04-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Unzip Minecraft Mods To Their Directory From The Command Line</title>
+      <link>https://waylonwalker.com//linux-unzip-directory</link>
+      <description>This morning I was trying to install a modpack on my minecraft server after So I Then I go back to my server and download the modpack with wget. Now I can unzip</description>
+      <guid>https://waylonwalker.com//linux-unzip-directory</guid>
+      <pubDate>2022-04-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Did My Site Build Just Go Down?</title>
+      <link>https://waylonwalker.com//site-down</link>
+      <description>My personal Site build went down last week, and I was unable to publish a new Classic IT fix, rerun it and see if you get the same error.  Everyone is busy Also</description>
+      <guid>https://waylonwalker.com//site-down</guid>
+      <pubDate>2022-04-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Don&#39;T Inherit From Python Baseexception, Here&#39;S Why.</title>
+      <link>https://waylonwalker.com//python-base-exception</link>
+      <description>I ran into a PR this week where the author was inheriting what BaseException Try running these examples in a  Since things such as  If you except from exception</description>
+      <guid>https://waylonwalker.com//python-base-exception</guid>
+      <pubDate>2022-03-31</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>How I Make Cache-Keys From Python Objects</title>
+      <link>https://waylonwalker.com//python-cache-key</link>
+      <description>When I need a consistent key for a pythohn object I often reach for Yesterday we talked about setting up a persistant cache with python diskcache. [ My first th</description>
+      <guid>https://waylonwalker.com//python-cache-key</guid>
+      <pubDate>2022-03-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>How I Setup A Sqlite Cache In Python</title>
+      <link>https://waylonwalker.com//python-diskcache</link>
+      <description>When I need to cache some data between runs or share a cache accross multiple Install diskcache into your virtual environement of choice using pip from your com</description>
+      <guid>https://waylonwalker.com//python-diskcache</guid>
+      <pubDate>2022-03-29</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Cache A Python Function With Lru_Cache</title>
+      <link>https://waylonwalker.com//python-lru-cache</link>
+      <description>The easiest way to speed up any code is to run less code.  A common technique The easiest and most common to setup in python is a builtin functools.lru Any time</description>
+      <guid>https://waylonwalker.com//python-lru-cache</guid>
+      <pubDate>2022-03-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Set User Agent On Pandas Read_Csv</title>
+      <link>https://waylonwalker.com//pandas-read-csv-user-agent</link>
+      <description>I keep a small  I recently switched hosting from netlify over to cloudflare.  Well cloudflare This breaks my go to example dataset. What After a bit of googling</description>
+      <guid>https://waylonwalker.com//pandas-read-csv-user-agent</guid>
+      <pubDate>2022-03-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Get Webpage With Python Requests</title>
+      <link>https://waylonwalker.com//python-requests-get</link>
+      <description>Python Requests is on pypi and can be installed into your virtual environtment with pip. Requests makes getting content from a web url as easy as possible. Requ</description>
+      <guid>https://waylonwalker.com//python-requests-get</guid>
+      <pubDate>2022-03-26</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Ease Into Htmx With Htmx-Get</title>
+      <link>https://waylonwalker.com//htmx-get</link>
+      <description>I recently attended Start with some html boilerplate, pop in a script tag to add the Save this as  If you don Now the page has a button that is ready to replace</description>
+      <guid>https://waylonwalker.com//htmx-get</guid>
+      <pubDate>2022-03-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Style Lookatme Slides A Bit More Personal</title>
+      <link>https://waylonwalker.com//lookatme-styles</link>
+      <description>I recently gave a talk at python web conf 2022, and one of the things I did Lets use this section to show what it  ☝ This is how my  write markdown build site p</description>
+      <guid>https://waylonwalker.com//lookatme-styles</guid>
+      <pubDate>2022-03-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>How I Load Markdown In Python</title>
+      <link>https://waylonwalker.com//python-frontmatter</link>
+      <description>I use a package It Frontmatter is a handy way to add metadata to your plain text files.  It Here is the exact frontmatter for this post you are reading on my si</description>
+      <guid>https://waylonwalker.com//python-frontmatter</guid>
+      <pubDate>2022-03-23</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Python&#39;S Dict Union Operator | Pep 584</title>
+      <link>https://waylonwalker.com//python-pep-584</link>
+      <description>Today I was watching the python web conf 2022 and saw I [ More on unpacking in this post. With the release there is also a new update syntax  Are you writing li</description>
+      <guid>https://waylonwalker.com//python-pep-584</guid>
+      <pubDate>2022-03-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>How I Present Markdown Slides From The Terminal</title>
+      <link>https://waylonwalker.com//lookatme-slides</link>
+      <description>I love the freedom of writing in markdown.  It allows me to write content from I will most often just present right from the terminal using I sometimes also use</description>
+      <guid>https://waylonwalker.com//lookatme-slides</guid>
+      <pubDate>2022-03-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>How I Read Files In Python</title>
+      <link>https://waylonwalker.com//pathlib-read-text</link>
+      <description>When I need to read contents from a plain text file in python I find the</description>
+      <guid>https://waylonwalker.com//pathlib-read-text</guid>
+      <pubDate>2022-03-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Automatically Generate A List Of Markdown Links In Vim</title>
+      <link>https://waylonwalker.com//vim-markdown-links</link>
+      <description>Let Before you run someone Something that I have always appreciated form Searchng through the internet I was able to find an article from Here is my interpretat</description>
+      <guid>https://waylonwalker.com//vim-markdown-links</guid>
+      <pubDate>2022-03-19</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Create A Swapfile On Your Linux Machine</title>
+      <link>https://waylonwalker.com//linux-swap</link>
+      <description>If you ever end up on a linux machine that just does not have enough ram to You can put this where you wish, for this example I am going to pop it into You can </description>
+      <guid>https://waylonwalker.com//linux-swap</guid>
+      <pubDate>2022-03-18</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>How I Glob For Files In Python</title>
+      <link>https://waylonwalker.com//python-pathlib-glob</link>
+      <description>A very common task for any script is to look for files on the system.  My go to I setup a directory to make some examples about globbing.  Here is what the 1 di</description>
+      <guid>https://waylonwalker.com//python-pathlib-glob</guid>
+      <pubDate>2022-03-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Set Your Git Pager Config</title>
+      <link>https://waylonwalker.com//git-pager</link>
+      <description>Setting up your git pager to your liking can help you navigate diffs and logs You can set the pager right from your command line with the following command. You</description>
+      <guid>https://waylonwalker.com//git-pager</guid>
+      <pubDate>2022-03-16</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Configure Git To Autocorrect Your Fat Fingers</title>
+      <link>https://waylonwalker.com//git-config-help-autocorrect</link>
+      <description>If you have ever mistyped a git command very close to an existing one What you might not have known is that you can configure git to just run Now when you typo </description>
+      <guid>https://waylonwalker.com//git-config-help-autocorrect</guid>
+      <pubDate>2022-03-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Install Yq | A Light Weight Yaml Parser Cli</title>
+      <link>https://waylonwalker.com//install-yq</link>
+      <description>yq I love that all of these modern tools built in go and rust, just give you a I use a bunch of these tools, and for what its worth I trust the devs behind Sinc</description>
+      <guid>https://waylonwalker.com//install-yq</guid>
+      <pubDate>2022-03-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Pytest-Mock Basics</title>
+      <link>https://waylonwalker.com//pytest-mock-basics</link>
+      <description>Last Thursday I learned about  Watching him use  pytest-mock is out on pypi and can be installed with pip. Sometimes I fall victim to making these posts nice an</description>
+      <guid>https://waylonwalker.com//pytest-mock-basics</guid>
+      <pubDate>2022-03-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Python Walrus Inside List Comprehension</title>
+      <link>https://waylonwalker.com//walrus-comprehension</link>
+      <description>Python 3.8 came out two and a half years ago and I have yet to really lean in Now that Python 3.6 is end of life, and most folks are using at least  The assignm</description>
+      <guid>https://waylonwalker.com//walrus-comprehension</guid>
+      <pubDate>2022-03-12</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Make Kedro Runs Beautiful</title>
+      <link>https://waylonwalker.com//kedro-rich</link>
+      <description>Kedro rich is a very new and unstable (it There is no pypi package yet, but it You can run your pipeline just as you normally would, except you get progress Lis</description>
+      <guid>https://waylonwalker.com//kedro-rich</guid>
+      <pubDate>2022-03-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Git Worktrees Are Not So Scary</title>
+      <link>https://waylonwalker.com//git-checkout-worktree</link>
+      <description>So worktrees, I always thought they were a big scary things.  Turns out they I thought you had to be all in or worktrees or normal git, but not both.  When Maki</description>
+      <guid>https://waylonwalker.com//git-checkout-worktree</guid>
+      <pubDate>2022-03-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Configure Git To Always Push To The Current Branch</title>
+      <link>https://waylonwalker.com//git-push-default-current</link>
+      <description>Has no upstream branch errors in git can be such a damn productivity killer. If you have not yet configured git to always push to the current branch, you Let Yo</description>
+      <guid>https://waylonwalker.com//git-push-default-current</guid>
+      <pubDate>2022-03-09</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Setup Ssh From Chromebook To Home Desktop</title>
+      <link>https://waylonwalker.com//open-ssh-setup</link>
+      <description>I write many of these posts from a 10 year old desktop that sits in my I Today I am giving it a second try, but this time with ssh. Before doing anything I chec</description>
+      <guid>https://waylonwalker.com//open-ssh-setup</guid>
+      <pubDate>2022-03-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Mermaid Highlight</title>
+      <link>https://waylonwalker.com//mermaid-highlight</link>
+      <description>Mermaid gives us a way to style nodes through the use of css, but rather than produces the following graph style one fill:#BADA55</description>
+      <guid>https://waylonwalker.com//mermaid-highlight</guid>
+      <pubDate>2022-03-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Open Files With Nvim Remote</title>
+      <link>https://waylonwalker.com//nvr-open-files</link>
+      <description>I recently found a really great  I have this added to my  In my workflow I open a tmux session for each project, so this First open neovim, but with the  If you</description>
+      <guid>https://waylonwalker.com//nvr-open-files</guid>
+      <pubDate>2022-03-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Grouping Mermaid Nodes In Subgraphs</title>
+      <link>https://waylonwalker.com//mermaid-subgraphs</link>
+      <description>Mermaid provides some really great ways to group or fence in parts of your Here we can model some sort of data ingest with some raw iot device and our If we wan</description>
+      <guid>https://waylonwalker.com//mermaid-subgraphs</guid>
+      <pubDate>2022-03-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Dedupe Your Shell Paths</title>
+      <link>https://waylonwalker.com//dedupe-your-shell-paths</link>
+      <description>If you have ever ran </description>
+      <guid>https://waylonwalker.com//dedupe-your-shell-paths</guid>
+      <pubDate>2022-03-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Simple Plain Text Diagrams In Html</title>
+      <link>https://waylonwalker.com//mermaid-html</link>
+      <description>Since GitHub started supporting mermaid in their markdown I wanted to The docs kinda just jumped right into their mermaid language and really You  just write me</description>
+      <guid>https://waylonwalker.com//mermaid-html</guid>
+      <pubDate>2022-03-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Bash Mktemp</title>
+      <link>https://waylonwalker.com//bash-mktemp</link>
+      <description>There is GNU coreutils command called  Here are some examples of making temp directories in different places, my Here is a sample script that shows how to captu</description>
+      <guid>https://waylonwalker.com//bash-mktemp</guid>
+      <pubDate>2022-03-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Recover A Lost Git Branch With Checkout</title>
+      <link>https://waylonwalker.com//git-recover-checkout</link>
+      <description>Once you give a branch the big D ( Checkout is your savior, all you need is the commit hash. We have all done this, you give  branch the big D only to realize i</description>
+      <guid>https://waylonwalker.com//git-recover-checkout</guid>
+      <pubDate>2022-03-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Git Find Deleted Files</title>
+      <link>https://waylonwalker.com//git-find-deleted-files</link>
+      <description>It Listing all the deleted files in all of git history can be done by These various commands will show all files that were ever deleted on [ The reflog can be s</description>
+      <guid>https://waylonwalker.com//git-find-deleted-files</guid>
+      <pubDate>2022-02-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Git Diff-Filter</title>
+      <link>https://waylonwalker.com//git-diff-filter</link>
+      <description>Git commands such as  You can find the full description by searching for  Open up a git repo and play around with this, here are some example that</description>
+      <guid>https://waylonwalker.com//git-diff-filter</guid>
+      <pubDate>2022-02-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Textual Popup Hack</title>
+      <link>https://waylonwalker.com//textual-popup-hack</link>
+      <description>As I am toying around with textual, I am wanting some popup user input The main issue is that when you are in a textual app, it kinda owns the textual is still </description>
+      <guid>https://waylonwalker.com//textual-popup-hack</guid>
+      <pubDate>2022-02-26</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Install Obs Flatpak</title>
+      <link>https://waylonwalker.com//install-obs-flatpak</link>
+      <description>Big announcement recently that obs studio now builds out to a flatpak, I did not have flatpak installed so the first thing I had to do was get Once I had flatpa</description>
+      <guid>https://waylonwalker.com//install-obs-flatpak</guid>
+      <pubDate>2022-02-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Github Markdown Now Supports Mermaid Diagrams</title>
+      <link>https://waylonwalker.com//github-supports-mermaid</link>
+      <description>Mermaid diagrams provide a way to display graphs defined as plain text. You can define nodes like this in mermaid, and GitHub will now render</description>
+      <guid>https://waylonwalker.com//github-supports-mermaid</guid>
+      <pubDate>2022-02-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Git Rebase To The Beginning Of Time</title>
+      <link>https://waylonwalker.com//git-rebase-root</link>
+      <description>Git has a built in way to rebase all the way back to the beginning of</description>
+      <guid>https://waylonwalker.com//git-rebase-root</guid>
+      <pubDate>2022-02-23</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Glances Can Watch Docker Processes</title>
+      <link>https://waylonwalker.com//glances-docker</link>
+      <description>Glances is a system monitor with a ton of features, including docker processes. I have started using portainer to look at running docker processes, its a great </description>
+      <guid>https://waylonwalker.com//glances-docker</guid>
+      <pubDate>2022-02-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Revive Files From The Dead With Git</title>
+      <link>https://waylonwalker.com//git-revive-dead-files</link>
+      <description>Git reflog can perform some serious magic in reviving your hard work You must git commit I really like to practice these techniques before I need to use them so</description>
+      <guid>https://waylonwalker.com//git-revive-dead-files</guid>
+      <pubDate>2022-02-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Glances Webui With Pipx</title>
+      <link>https://waylonwalker.com//pipx-w</link>
+      <description>Glances has a pretty incredible webui to view system processes and information The nice thing about the webui is that it can be accessed from a remote system. Y</description>
+      <guid>https://waylonwalker.com//pipx-w</guid>
+      <pubDate>2022-02-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Git Reflog Is An Alias For Git Log -G</title>
+      <link>https://waylonwalker.com//git-reflog-is-an-alias</link>
+      <description>Right inside the git  This epiphany deepens my understanding of git, and lets me understand that most Here are some git commands for you to try out on your own </description>
+      <guid>https://waylonwalker.com//git-reflog-is-an-alias</guid>
+      <pubDate>2022-02-19</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Run Glances Without Install With Pipx</title>
+      <link>https://waylonwalker.com//pipx-run-glances</link>
+      <description>Glances is a fully featured system monitoring tool written in python.  Out of Once you run this you will be in a tui application similar to htop.  You can</description>
+      <guid>https://waylonwalker.com//pipx-run-glances</guid>
+      <pubDate>2022-02-18</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Nested Requirements.Txt In Python</title>
+      <link>https://waylonwalker.com//python-nested-requires</link>
+      <description>python requirements text files can in fact depend on each other due to Lets create two requirements files in a new directory to play with. Then add the followin</description>
+      <guid>https://waylonwalker.com//python-nested-requires</guid>
+      <pubDate>2022-02-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Modded Minecraft In Docker</title>
+      <link>https://waylonwalker.com//modded-minecraft-in-docker</link>
+      <description>In my adventure to put more homelab in docker, I moved our modded So far I have found all of our mods from  under the hood docker is using wget to get the mod. </description>
+      <guid>https://waylonwalker.com//modded-minecraft-in-docker</guid>
+      <pubDate>2022-02-16</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>View Aws Event Bridge Rules With Visidata</title>
+      <link>https://waylonwalker.com//aws-eventbridge-visidata</link>
+      <description>Reading eventbridge rules from the command line can be a total drag, pipe it I just love when I start thinking through how to parse a bunch of json at the</description>
+      <guid>https://waylonwalker.com//aws-eventbridge-visidata</guid>
+      <pubDate>2022-02-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Vim Remaps Use Cmd In Place Of :</title>
+      <link>https://waylonwalker.com//vim-cmd</link>
+      <description>Anyone just starting out their vim customization journey is bound to run into this error. I If you run  You still need to map your remaps with a : if you do not</description>
+      <guid>https://waylonwalker.com//vim-cmd</guid>
+      <pubDate>2022-02-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>A Better Copy-Mode Bind For Tmux</title>
+      <link>https://waylonwalker.com//tmux-copy-mode-binding</link>
+      <description>The default keybinding for copy-mode  To do this I just popped open my  I have a full video on copy-mode you can find here. [</description>
+      <guid>https://waylonwalker.com//tmux-copy-mode-binding</guid>
+      <pubDate>2022-02-13</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Python String Of Letters Is A String Of Letters, But Not With Special</title>
+      <link>https://waylonwalker.com//python-string-is-string</link>
+      <description>In python, a string is a string until you add special characters. In browsing twitter this morning I came accross this tweet, that showed that https://twitter.c</description>
+      <guid>https://waylonwalker.com//python-string-is-string</guid>
+      <pubDate>2022-02-12</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Bluetooth At The Command Line On Ubuntu</title>
+      <link>https://waylonwalker.com//linux-bluetoothctl</link>
+      <description>One thing about moving to a tiling window manager like awesome wm or i3 is that Running  Here is what I had to do to connect my headphones. Here is the output o</description>
+      <guid>https://waylonwalker.com//linux-bluetoothctl</guid>
+      <pubDate>2022-02-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Read Stderr From Python Subprocess.Popen</title>
+      <link>https://waylonwalker.com//popen-stderr</link>
+      <description>I often run shell commands from python with Popen, but not often enough To get the stderr we must get it from the proc, read it, and decode the Now that we can </description>
+      <guid>https://waylonwalker.com//popen-stderr</guid>
+      <pubDate>2022-02-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Simple Samba Share Setup</title>
+      <link>https://waylonwalker.com//simple-samba</link>
+      <description>Samba is an implementation of the smb protocol that allows me to setup network I think the homelab is starting to intrigue me enought to dive into the path of T</description>
+      <guid>https://waylonwalker.com//simple-samba</guid>
+      <pubDate>2022-02-09</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Ag Silver Searcher Look Ahead And Look Behind</title>
+      <link>https://waylonwalker.com//ag-ahead</link>
+      <description>A super useful tool when doing PR It</description>
+      <guid>https://waylonwalker.com//ag-ahead</guid>
+      <pubDate>2022-02-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Running A Minecraft Server In Docker</title>
+      <link>https://waylonwalker.com//docker-minecraft-server</link>
+      <description>I In all these years, I My buddy Nic has been sharing me some of his homelab setup, and it I ended up running the first thing in the Readme that included a volu</description>
+      <guid>https://waylonwalker.com//docker-minecraft-server</guid>
+      <pubDate>2022-02-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Installing Rust And Cargo On Ubuntu 21.10 Using Ansible</title>
+      <link>https://waylonwalker.com//install-rust</link>
+      <description>Installing rust in your own ansible playbook will make sure that you can I try to install everything that I will want to use for more than just a This is how ru</description>
+      <guid>https://waylonwalker.com//install-rust</guid>
+      <pubDate>2022-02-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Using A Python Markdown Ast To Find All Paragraphs</title>
+      <link>https://waylonwalker.com//python-markdown-ast-paragraph</link>
+      <description>In looking for a way to automatically generate descriptions for pages I It When I originally wrote this post, I did not realize at the time that</description>
+      <guid>https://waylonwalker.com//python-markdown-ast-paragraph</guid>
+      <pubDate>2022-02-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Neovim Config For Git</title>
+      <link>https://waylonwalker.com//neovim-config-for-git</link>
+      <description>Creating a minimal config specifically for git commits has made running The other thing that is engrained into my muscle memory is  Here is the config that has </description>
+      <guid>https://waylonwalker.com//neovim-config-for-git</guid>
+      <pubDate>2022-02-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Python Dict Get</title>
+      <link>https://waylonwalker.com//python-dict-get</link>
+      <description>For an embarassingly long time, til today, I have been wrapping my dict Lets consider this example for prices of supplies.  Here we set a variable of What I wou</description>
+      <guid>https://waylonwalker.com//python-dict-get</guid>
+      <pubDate>2022-02-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Nix Versions By Commit Count</title>
+      <link>https://waylonwalker.com//nixery-versions-by-commit-count</link>
+      <description>I was listening to  Since many things still want to see a version number, there is one automatic</description>
+      <guid>https://waylonwalker.com//nixery-versions-by-commit-count</guid>
+      <pubDate>2022-02-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Find All Headings With Beautifulsoup</title>
+      <link>https://waylonwalker.com//bs4-findall-headings</link>
+      <description>BeautifulSoup is a DOM like library for python.  It Lets make a sample.html file with the following contents.  It mainly has Lets import our packages, read in o</description>
+      <guid>https://waylonwalker.com//bs4-findall-headings</guid>
+      <pubDate>2022-02-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Lambda Function As A Kedro Node</title>
+      <link>https://waylonwalker.com//kedro-lambda-node</link>
+      <description>I keep my nodes short and sweet.  They do one thing and do it well. I Here are two examples, the first one  Many times I just want to get the data in as fast as</description>
+      <guid>https://waylonwalker.com//kedro-lambda-node</guid>
+      <pubDate>2022-01-31</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>A Good Use For Global .Gitignore</title>
+      <link>https://waylonwalker.com//global-gitignore-considered-useful</link>
+      <description>I Within the past year I have added some tools to my personal setup that are not Like any  Once I had this file, I stowed it into  Always stow your dotfiles, do</description>
+      <guid>https://waylonwalker.com//global-gitignore-considered-useful</guid>
+      <pubDate>2022-01-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>How To Properly Simulate Stow</title>
+      <link>https://waylonwalker.com//stow-simulate</link>
+      <description></description>
+      <guid>https://waylonwalker.com//stow-simulate</guid>
+      <pubDate>2022-01-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Squoosh Cli</title>
+      <link>https://waylonwalker.com//squoosh-cli</link>
+      <description>Today I discovered a sweet new cli for compressing images. ! First the main feature of squoosh is a  What is even cooler is that once you have settings you are </description>
+      <guid>https://waylonwalker.com//squoosh-cli</guid>
+      <pubDate>2022-01-29</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Add New Dependencies To Your Kedro Project</title>
+      <link>https://waylonwalker.com//kedro-new-dependencies</link>
+      <description>As you work on your kedro projects you are bound to need to add more Before you start mucking around with any changes to dependencies make sure that New require</description>
+      <guid>https://waylonwalker.com//kedro-new-dependencies</guid>
+      <pubDate>2022-01-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Practice Making Pipelines With Kedro</title>
+      <link>https://waylonwalker.com//practice-kedro</link>
+      <description>I am a huge believer in practicing your craft.  Professional athletes [ Go to your playground directory, and if you don Install pipx in your system python.  Thi</description>
+      <guid>https://waylonwalker.com//practice-kedro</guid>
+      <pubDate>2022-01-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tmux And Vim Clipboard For Ubuntu</title>
+      <link>https://waylonwalker.com//ubuntu-terminal-clipboard</link>
+      <description>One of the first things I noticed broken in my terminal based workflow moving First off you need to get  I have tmux setup to automatically copy any selection I</description>
+      <guid>https://waylonwalker.com//ubuntu-terminal-clipboard</guid>
+      <pubDate>2022-01-26</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Nix Rescues Modded Minecraft Night</title>
+      <link>https://waylonwalker.com//nix-install-java8</link>
+      <description>With the latest version of minecraft it requires a very new, possibly I was getting this error trying to get a 1.12.2 forge server running. Caused by: java.lang</description>
+      <guid>https://waylonwalker.com//nix-install-java8</guid>
+      <pubDate>2022-01-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tmux Hotkey For Copier Templates</title>
+      <link>https://waylonwalker.com//tmux-copier-templates</link>
+      <description>I have added a hotkey to my copier template setup to quickly access all my I</description>
+      <guid>https://waylonwalker.com//tmux-copier-templates</guid>
+      <pubDate>2022-01-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Markata Filters As Telescope Pickers In Neovim</title>
+      <link>https://waylonwalker.com//markata-telescope-picker</link>
+      <description>I often pop into my blog from neovim with the intent to look at just a To tie these into a Telescope picker you add the command as the NOTE telescope treates ea</description>
+      <guid>https://waylonwalker.com//markata-telescope-picker</guid>
+      <pubDate>2022-01-23</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Copier Tasks | Python Templating Post Run Task</title>
+      <link>https://waylonwalker.com//copier-tasks</link>
+      <description>Copier allows you to run post render tasks, just like cookiecutter. These are The example I have below runs an  I have put the script in </description>
+      <guid>https://waylonwalker.com//copier-tasks</guid>
+      <pubDate>2022-01-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Gradual Typing In Python</title>
+      <link>https://waylonwalker.com//gradual-typing-python</link>
+      <description>I https://youtu.be/Rk-Y71P Run Mypy as is, don Next we will add  The final stage to this series is to add  Make sure that you watch Anthony https://www.youtube.</description>
+      <guid>https://waylonwalker.com//gradual-typing-python</guid>
+      <pubDate>2022-01-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Python Reverse Sluggify</title>
+      <link>https://waylonwalker.com//python-reverse-sluggify</link>
+      <description>In order to make an auto title plugin for markata I needed to come up ! Here I have  a  To turn this into a markata plugin I put it into a pre</description>
+      <guid>https://waylonwalker.com//python-reverse-sluggify</guid>
+      <pubDate>2022-01-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Fuzzy Wallpaper With Fzf</title>
+      <link>https://waylonwalker.com//fzf-wallpaper</link>
+      <description>I really appreciate that in linux anything can be scripted, including I set my default wallpaper with  Leaning in on feh, we can use fzf to pick a wallpaper fro</description>
+      <guid>https://waylonwalker.com//fzf-wallpaper</guid>
+      <pubDate>2022-01-19</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Get Python Docstring With Ast</title>
+      <link>https://waylonwalker.com//python-docstring-ast</link>
+      <description>Getting docstrings from python First you need to load in some python code as a string, and parse it with You can then use  To get all of the functions docstring</description>
+      <guid>https://waylonwalker.com//python-docstring-ast</guid>
+      <pubDate>2022-01-18</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Python Respect The .Gitignore</title>
+      <link>https://waylonwalker.com//gitignore-python</link>
+      <description>Many tools such as ripgrep respect the  Editors like vscode often do not include files that are .gitignored in pathspec pathspec</description>
+      <guid>https://waylonwalker.com//gitignore-python</guid>
+      <pubDate>2022-01-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Rename Python Variables With Nvim</title>
+      <link>https://waylonwalker.com//nvim-rename-python</link>
+      <description>I don I first tried the nvim lsp rename, and it failed, Then I pip installed Once you have rope installed you can call rename on the variable.</description>
+      <guid>https://waylonwalker.com//nvim-rename-python</guid>
+      <pubDate>2022-01-16</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Python Find Available Port</title>
+      <link>https://waylonwalker.com//python-find-available-port</link>
+      <description>When running a python process that requires a port it</description>
+      <guid>https://waylonwalker.com//python-find-available-port</guid>
+      <pubDate>2022-01-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Python Functools Total Ordering</title>
+      <link>https://waylonwalker.com//python-functools-total-ordering</link>
+      <description>functools.total From the Docs: The class must define one of  one of these and required to have this one Here is an example using the Enum I was working on the o</description>
+      <guid>https://waylonwalker.com//python-functools-total-ordering</guid>
+      <pubDate>2022-01-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Implement --Pdb In A Python Cli</title>
+      <link>https://waylonwalker.com//python-auto-pdb</link>
+      <description>Adding a </description>
+      <guid>https://waylonwalker.com//python-auto-pdb</guid>
+      <pubDate>2022-01-13</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Converting Markdown To Pdf With Pandoc On Linux</title>
+      <link>https://waylonwalker.com//convert-markdown-pdf-linux</link>
+      <description>Converting markdown posts to pdf on ubuntu takes a few packages from the Here is an image of what converting this article over to a pdf looks</description>
+      <guid>https://waylonwalker.com//convert-markdown-pdf-linux</guid>
+      <pubDate>2022-01-12</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Python Enum</title>
+      <link>https://waylonwalker.com//python-enum</link>
+      <description>Python comes with an enum module for creating enums.  You can make your Enum values can be auto incremented by importing auto, and calling Enum</description>
+      <guid>https://waylonwalker.com//python-enum</guid>
+      <pubDate>2022-01-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Installing Pipx On Ubuntu</title>
+      <link>https://waylonwalker.com//installing-pipx-on-ubuntu</link>
+      <description>I recently paired up with another dev running windows with Ubuntu running in Open up a terminal and get your required system dependencies using the apt I like r</description>
+      <guid>https://waylonwalker.com//installing-pipx-on-ubuntu</guid>
+      <pubDate>2022-01-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>2 Minutes To Stow</title>
+      <link>https://waylonwalker.com//2-minutes-to-stow</link>
+      <description>Stow is an incredible way to manage your dotfiles.  It works by managing When using stow its easiest to keep your dotfiles directory (you may name it Then each </description>
+      <guid>https://waylonwalker.com//2-minutes-to-stow</guid>
+      <pubDate>2022-01-09</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Using Copier Answers To Rerun Templates Quickly</title>
+      <link>https://waylonwalker.com//copier-answers</link>
+      <description>The copier answers file is a key component to making your templates Inside of my  Inside my copier.yml I have setup my  Once I change the  I After rendering the</description>
+      <guid>https://waylonwalker.com//copier-answers</guid>
+      <pubDate>2022-01-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Making A Textual Widget From A Rich Renderable</title>
+      <link>https://waylonwalker.com//simple-textual-widget</link>
+      <description>Once you have made your sick looking cli apps with rich, eventually you are Install them from the command line. Import make a .py file and import them in it. If</description>
+      <guid>https://waylonwalker.com//simple-textual-widget</guid>
+      <pubDate>2022-01-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Remove Vim Tab Characters</title>
+      <link>https://waylonwalker.com//remove-vim-tab-characters</link>
+      <description>I It turns out they are tabs, and you can get rid of the little leading</description>
+      <guid>https://waylonwalker.com//remove-vim-tab-characters</guid>
+      <pubDate>2022-01-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tmux Pop Size</title>
+      <link>https://waylonwalker.com//tmux-pop-size</link>
+      <description>tmux popups can be sized how you like based on the % width of the</description>
+      <guid>https://waylonwalker.com//tmux-pop-size</guid>
+      <pubDate>2022-01-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Changing Copier Template Strings (_Endops)</title>
+      <link>https://waylonwalker.com//copier-endops</link>
+      <description>I was completely stuck for awhile.  copier was not replacing my template !</description>
+      <guid>https://waylonwalker.com//copier-endops</guid>
+      <pubDate>2022-01-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Copier Template Variables</title>
+      <link>https://waylonwalker.com//copier-template-variables</link>
+      <description>I By default copier uses double square brackets for its variables. note Before running copier we need to tell copier what variables to ask for, I prefer to inst</description>
+      <guid>https://waylonwalker.com//copier-template-variables</guid>
+      <pubDate>2022-01-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Running Kedro On Ubuntu 21.10 Impish Indri</title>
+      <link>https://waylonwalker.com//kedro-ubuntu-impish</link>
+      <description>I just installed a brand new Ubuntu 21.10 Impish Indri, and wanted a But what I got back was not what I expected This is weird, why cant I run kedro new with pi</description>
+      <guid>https://waylonwalker.com//kedro-ubuntu-impish</guid>
+      <pubDate>2022-01-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>A Minimal Pluggy Example</title>
+      <link>https://waylonwalker.com//pluggy-minimal-example</link>
+      <description>Pluggy makes it so easy to allow users to modify the behavior of a framework I As long as the framework document the hooks that are available and what it Instal</description>
+      <guid>https://waylonwalker.com//pluggy-minimal-example</guid>
+      <pubDate>2022-01-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>List All The Files Containing A Phrase</title>
+      <link>https://waylonwalker.com//list-all-files-containing-phrase</link>
+      <description>One of the most useful skills you can acquire to make you faster at I Passing the flag  Giving </description>
+      <guid>https://waylonwalker.com//list-all-files-containing-phrase</guid>
+      <pubDate>2021-12-31</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>My First Impressions With Pyenv</title>
+      <link>https://waylonwalker.com//pyenv-first-impressions</link>
+      <description>pyenv provides an easy way to install almost any version of python from I needed to install an older version of python on ubuntu I Based on the Readme it looked</description>
+      <guid>https://waylonwalker.com//pyenv-first-impressions</guid>
+      <pubDate>2021-12-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Installing Homebrew On Linux</title>
+      <link>https://waylonwalker.com//installing-homebrew-linux</link>
+      <description>Installing brew on linux proved quite easy and got pyenv running for me I had never used homebrew before, honestly I thought it was a mac only That was it, now </description>
+      <guid>https://waylonwalker.com//installing-homebrew-linux</guid>
+      <pubDate>2021-12-29</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Serve Html From Your Command Line</title>
+      <link>https://waylonwalker.com//serve-html-command-line</link>
+      <description>When I first moved to vim from and ide like vscode or sublime text one of my You will need a way to run another process alongside vim, here are a couple use bac</description>
+      <guid>https://waylonwalker.com//serve-html-command-line</guid>
+      <pubDate>2021-12-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Opening Files In Vim From Output Of Command</title>
+      <link>https://waylonwalker.com//nvim-telescope-custom-command</link>
+      <description>Many command line tools can output a list of files, this is quite powerful. Telescope is the fuzzy file finder I use every day inside of neovim.  Its pretty Thi</description>
+      <guid>https://waylonwalker.com//nvim-telescope-custom-command</guid>
+      <pubDate>2021-12-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Finding Hidden (Dotfiles) Using Telescope In Neovim</title>
+      <link>https://waylonwalker.com//nvim-telescope-hidden-files</link>
+      <description>Finding hidden files using Telescope as you fuzzy file finder is not too I have this keymap set to help me list out all files including hidden see the</description>
+      <guid>https://waylonwalker.com//nvim-telescope-hidden-files</guid>
+      <pubDate>2021-12-26</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Installing System Nerd-Fonts With Ansible</title>
+      <link>https://waylonwalker.com//ansible-install-fonts</link>
+      <description>Lately I This is one of those things that can be a total pain to get right on make sure your user fonts directory exists chech if the font you want exists on yo</description>
+      <guid>https://waylonwalker.com//ansible-install-fonts</guid>
+      <pubDate>2021-12-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Installing Packages With Ansible Only If They Do Not Exist</title>
+      <link>https://waylonwalker.com//ansible-install-if-not-callable</link>
+      <description>Part of my neovim setup requires having the  re-installing a bunch of things that are already installed can be quite check if the command is installed with  reg</description>
+      <guid>https://waylonwalker.com//ansible-install-if-not-callable</guid>
+      <pubDate>2021-12-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Adding __Rich__ Methods To Python Classes</title>
+      <link>https://waylonwalker.com//dunder-rich</link>
+      <description>Adding a </description>
+      <guid>https://waylonwalker.com//dunder-rich</guid>
+      <pubDate>2021-12-23</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Fugitive Verbose Commit</title>
+      <link>https://waylonwalker.com//fugitive-commit-verbose</link>
+      <description>Fugitive comes with a pretty sick way to commit files and see the diff at the example of a verbose commit in fugitive</description>
+      <guid>https://waylonwalker.com//fugitive-commit-verbose</guid>
+      <pubDate>2021-12-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Python Atexit</title>
+      <link>https://waylonwalker.com//python-atexit</link>
+      <description>I</description>
+      <guid>https://waylonwalker.com//python-atexit</guid>
+      <pubDate>2000-01-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+<lastBuildDate></lastBuildDate>
+</channel>
+</rss>

@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0">
+<channel>
+    <title>lasthirty</title>
+    <link>https://waylonwalker.com/</link>
+    <description>I write about how I use python and linux in data science.</description>
+    <generator>Markata</generator>
+    <image>
+        <url>static/8bitcc.png</url>
+        <link>https://waylonwalker.com/</link>
+    </image>
+    <language>en</language>
+  <item>
+      <title>Trying Obsidian</title>
+      <link>https://waylonwalker.com//trying-obsidian</link>
+      <description>I am giving obsidian a try, this is a test post to learn the flow.  Something This is my current wallpaper. ![</description>
+      <guid>https://waylonwalker.com//trying-obsidian</guid>
+      <pubDate>2024-07-31</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Obsidian Using Templater Like Copier</title>
+      <link>https://waylonwalker.com//obsidian-using-templater-like-copier</link>
+      <description>I Here is what I came up with to replace my til template. tR to.file.cursor()</description>
+      <guid>https://waylonwalker.com//obsidian-using-templater-like-copier</guid>
+      <pubDate>2024-07-31</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Obsidian Image Converter</title>
+      <link>https://waylonwalker.com//obsidian-image-converter</link>
+      <description>I ![ Once the images are there they are pushed and deployed as their own site to ! This is part of me getting set up and </description>
+      <guid>https://waylonwalker.com//obsidian-image-converter</guid>
+      <pubDate>2024-07-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 How Fly.Io Uses Docker (Without Docker) - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-374</link>
+      <description>Docker no Docker, what!!!
+
+
+So fly.io uses Dockerfiles to deploy your app, but no docker.  They use containerd to downlo</description>
+      <guid>https://waylonwalker.com//thoughts-374</guid>
+      <pubDate>2024-07-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 This Is Goodbye? - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-372</link>
+      <description>Damn Johnny is always such a positive vibe, just getting steamrolled by this braille shit.  WTF are these brand sleeping</description>
+      <guid>https://waylonwalker.com//thoughts-372</guid>
+      <pubDate>2024-07-26</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Ultimate Modular Macro Keyboard &#34;Kibly&#34; : R/Mechanicalkeyboards</title>
+      <link>https://waylonwalker.com//thoughts-373</link>
+      <description>This is a pretty sick design, touch screen macropad, trackball, ring, and knobs for days.  I just want to play with it a</description>
+      <guid>https://waylonwalker.com//thoughts-373</guid>
+      <pubDate>2024-07-26</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Add Quick-Tap-Ms And Require-Prior-Idle-Ms · Waylonwalker/Zmk-Config-42Block@Cb2Cda4</title>
+      <link>https://waylonwalker.com//thoughts-360</link>
+      <description>Even after switching to my hm and ht behaviors I am running into some issues where sometimes I am still accidentally hit</description>
+      <guid>https://waylonwalker.com//thoughts-360</guid>
+      <pubDate>2024-07-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Note-Taking With Zettelkasten - An Introduction - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-361</link>
+      <description>Niklas Luhmann created the Zettelkasten method of notetaking, He was the Da Vinci of writing, holding a high standard th</description>
+      <guid>https://waylonwalker.com//thoughts-361</guid>
+      <pubDate>2024-07-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 He&#39;S Back Again</title>
+      <link>https://waylonwalker.com//thoughts-369</link>
+      <description>Wyatt is again inspired to leave his thoughts on the world while watching me take notes on the zettelkasten method.</description>
+      <guid>https://waylonwalker.com//thoughts-369</guid>
+      <pubDate>2024-07-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Convert Mp4 For Twitter With Ffmpeg</title>
+      <link>https://waylonwalker.com//convert-mp4-for-twitter-with-ffmpeg</link>
+      <description>I</description>
+      <guid>https://waylonwalker.com//convert-mp4-for-twitter-with-ffmpeg</guid>
+      <pubDate>2024-07-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 There’S A Tui For That With Nick Janetakis (Changelog &amp; Friends #53)</title>
+      <link>https://waylonwalker.com//thoughts-356</link>
+      <description>50 minutes into this episode they start a discussion on seo, and naming posts.  They give Jerod the task of googling for</description>
+      <guid>https://waylonwalker.com//thoughts-356</guid>
+      <pubDate>2024-07-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Sqlite-Jiff</title>
+      <link>https://waylonwalker.com//thoughts-357</link>
+      <description>Sqlite is getting rust extensions now, and datetimes make it totally worth if if they work well and and fast, two things</description>
+      <guid>https://waylonwalker.com//thoughts-357</guid>
+      <pubDate>2024-07-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Git Fork Vs Git Clone (Animated) - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-358</link>
+      <description>Damn Prime covers this so well from all angles.  Can&#39;t overstate the importance of that last step.  Look at the issues, </description>
+      <guid>https://waylonwalker.com//thoughts-358</guid>
+      <pubDate>2024-07-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Tickle My Keys</title>
+      <link>https://waylonwalker.com//thoughts-359</link>
+      <description>I&#39;ve been working on something, I&#39;m gong to combine my mechanical engineering skills with my love of great keyboards and</description>
+      <guid>https://waylonwalker.com//thoughts-359</guid>
+      <pubDate>2024-07-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 The Verge On X: &#34;Stress Testing A Snack-Proof Keyboard Https://T.Co/Asrdv6O0E8&#34; / X</title>
+      <link>https://waylonwalker.com//thoughts-355</link>
+      <description>This is a wild keyboard test.  This is exactly what I want to see from ticklemykeys.com.  I want to make ergomechanical </description>
+      <guid>https://waylonwalker.com//thoughts-355</guid>
+      <pubDate>2024-07-23</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 All Lt Keys To Hl · Waylonwalker/Zmk-Config-42Block@Ce25356</title>
+      <link>https://waylonwalker.com//thoughts-354</link>
+      <description>Today I swapped out all of my keys that are used dual purpose for letters and layers to homerow layers.  This prevents g</description>
+      <guid>https://waylonwalker.com//thoughts-354</guid>
+      <pubDate>2024-07-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 /Tips-For-Being-Happier--Healthier--More-Productive</title>
+      <link>https://waylonwalker.com//thoughts-353</link>
+      <description>Deep breath, the deepest you can take in
+
+Smile, a real fukin smile not some pansy bullshit
+
+Say I&#39;m not going to give a</description>
+      <guid>https://waylonwalker.com//thoughts-353</guid>
+      <pubDate>2024-07-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Can&#39;T Use System Update - Invalid Signature When Validating Asn.1 Encoded Signature · Issue #1316 · Ublue-Os/Bazzite · Github</title>
+      <link>https://waylonwalker.com//thoughts-352</link>
+      <description>This fixed my bazzite update issues after the signing key was rotated recently.  This team is killing it with such a gre</description>
+      <guid>https://waylonwalker.com//thoughts-352</guid>
+      <pubDate>2024-07-18</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Update Kconfig.Shield Rec By Bravekarma · Waylonwalker/Zmk-Config-Ninepad@8B76B76</title>
+      <link>https://waylonwalker.com//thoughts-351</link>
+      <description>This one space killed my whole config and held me back from learning zmk.</description>
+      <guid>https://waylonwalker.com//thoughts-351</guid>
+      <pubDate>2024-07-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Red Herring - Solenoid Edition Sound Test - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-348</link>
+      <description>This keyboard layout looks weird af the mix of column staggar and row stagger is wild.  Not sure if its genius or an abo</description>
+      <guid>https://waylonwalker.com//thoughts-348</guid>
+      <pubDate>2024-07-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Nec M-System</title>
+      <link>https://waylonwalker.com//thoughts-349</link>
+      <description>They had split ergo boards back in 1983??? WTF who the heck keeps these row stagger boards going.  This board looks like</description>
+      <guid>https://waylonwalker.com//thoughts-349</guid>
+      <pubDate>2024-07-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Dragonfruit</title>
+      <link>https://waylonwalker.com//thoughts-350</link>
+      <description>The trackball spinner looks sick here.  I can imagine using that spinner like a scroll wheel.</description>
+      <guid>https://waylonwalker.com//thoughts-350</guid>
+      <pubDate>2024-07-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Text Cursor Bug In My Chrome Browser That Causes The Blinking Cursor To Appear Everywhere I Click - Stack Overflow</title>
+      <link>https://waylonwalker.com//thoughts-347</link>
+      <description>today I learned that there is an accessibility feature in chrome that allows you to place a text cursor anywhere on the </description>
+      <guid>https://waylonwalker.com//thoughts-347</guid>
+      <pubDate>2024-07-12</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Remove Background Web - A Hugging Face Space By Xenova</title>
+      <link>https://waylonwalker.com//thoughts-343</link>
+      <description>I&#39;ve long been a user of remove.bg, and I just discovered that you can run this transformer right within your browser wi</description>
+      <guid>https://waylonwalker.com//thoughts-343</guid>
+      <pubDate>2024-07-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Render-Blocking On Purpose</title>
+      <link>https://waylonwalker.com//thoughts-344</link>
+      <description>You can explicitly make a script render blocking, nothing will be rendered until this js is ready.
+
+
+``` html
+&lt;script bl</description>
+      <guid>https://waylonwalker.com//thoughts-344</guid>
+      <pubDate>2024-07-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Command Line Interface Guidelines</title>
+      <link>https://waylonwalker.com//thoughts-345</link>
+      <description>This is a pretty sick set of guidelines to help you write better cli programs, I&#39;m definitely coming back to reading thi</description>
+      <guid>https://waylonwalker.com//thoughts-345</guid>
+      <pubDate>2024-07-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Python Is Simultaneously At The Top And The Bottom Of The Tier List</title>
+      <link>https://waylonwalker.com//thoughts-346</link>
+      <description>Hard to argue this take, happy to see that its at the top.  With it being such an old language its amazing that it still</description>
+      <guid>https://waylonwalker.com//thoughts-346</guid>
+      <pubDate>2024-07-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Pinout And Schematic - Nice!Nano</title>
+      <link>https://waylonwalker.com//thoughts-340</link>
+      <description>Pinout for nice!nano boards.   Note that P0.15 means gpio port 0 pin 15, they can be referenced in zmk when setting colu</description>
+      <guid>https://waylonwalker.com//thoughts-340</guid>
+      <pubDate>2024-07-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Fasthx</title>
+      <link>https://waylonwalker.com//thoughts-341</link>
+      <description>Very interesting approach to htmx and fast api.  It uses separate decorators for returning template partials and json th</description>
+      <guid>https://waylonwalker.com//thoughts-341</guid>
+      <pubDate>2024-07-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Fasthx</title>
+      <link>https://waylonwalker.com//thoughts-342</link>
+      <description>Very interesting approach to htmx and fast api.  It uses separate decorators for returning template partials and json th</description>
+      <guid>https://waylonwalker.com//thoughts-342</guid>
+      <pubDate>2024-07-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Linux - What Is Stored In /Dev/Pts Files And Can We Open Them? - Unix &amp; Linux Stack Exchange</title>
+      <link>https://waylonwalker.com//thoughts-339</link>
+      <description>today I learned that /dev/pts is a pseudo-tty.  It amazes me how much linux is still built around things like hardware t</description>
+      <guid>https://waylonwalker.com//thoughts-339</guid>
+      <pubDate>2024-07-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Blogging In 2024</title>
+      <link>https://waylonwalker.com//blogging-in-2024</link>
+      <description></description>
+      <guid>https://waylonwalker.com//blogging-in-2024</guid>
+      <pubDate>2024-07-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Wcurl Is Here | Daniel.Haxx.Se</title>
+      <link>https://waylonwalker.com//thoughts-335</link>
+      <description>interesting, seems like such a simple way to completely remove the need of a whole other cli.  No offense to anyone work</description>
+      <guid>https://waylonwalker.com//thoughts-335</guid>
+      <pubDate>2024-07-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Inside 22,734 Steam Games | Daniel.Haxx.Se</title>
+      <link>https://waylonwalker.com//thoughts-336</link>
+      <description>Interesting to see that curl is used in so many places.  I often think of things like games being so windows centric and</description>
+      <guid>https://waylonwalker.com//thoughts-336</guid>
+      <pubDate>2024-07-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Pacman/Tips And Tricks - Archwiki</title>
+      <link>https://waylonwalker.com//thoughts-337</link>
+      <description>The arch wiki is always full of good content, and pacman tips and tricks does not disappoint.  Today I discovered this c</description>
+      <guid>https://waylonwalker.com//thoughts-337</guid>
+      <pubDate>2024-07-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Svenstaro/Miniserve: 🌟 For When You Really Just Want To Serve Some Files Over Http Right Now!</title>
+      <link>https://waylonwalker.com//thoughts-338</link>
+      <description>miniserve is a sweet http server, replacement for `python -m http.server`.  It&#39;s fast, runs off a small binary, but why </description>
+      <guid>https://waylonwalker.com//thoughts-338</guid>
+      <pubDate>2024-07-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Arch Remove Orphaned Packages</title>
+      <link>https://waylonwalker.com//arch-remove-orphaned-packages</link>
+      <description></description>
+      <guid>https://waylonwalker.com//arch-remove-orphaned-packages</guid>
+      <pubDate>2024-07-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>K8S Kustomize Diff</title>
+      <link>https://waylonwalker.com//kubebernetes-kustomize-diff</link>
+      <description>I You can enable color diffs by using an external diff provider like colordiff. You might need to install colordiff if you don Now I can try out kustomize chang</description>
+      <guid>https://waylonwalker.com//kubebernetes-kustomize-diff</guid>
+      <pubDate>2024-07-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Email Address Obfuscation · Cloudflare Web Application Firewall (Waf) Docs</title>
+      <link>https://waylonwalker.com//thoughts-334</link>
+      <description>I recently started seeing email-decode.min.js show up on my blog posts, and I wondered what the heck ?  I didn&#39;t put it </description>
+      <guid>https://waylonwalker.com//thoughts-334</guid>
+      <pubDate>2024-07-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Animal Well Keyboard</title>
+      <link>https://waylonwalker.com//animal-well-keyboard</link>
+      <description>Animal well does not let you remap keys, and really doesn wasd - move space - jump / a enter - interact / b x - throw c - inventory 1 - left item / rb 2 - open </description>
+      <guid>https://waylonwalker.com//animal-well-keyboard</guid>
+      <pubDate>2024-07-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 (416) Kustomize: The Best Way To Manage Your Kubernetes Configs - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-330</link>
+      <description>Great intro into kustomize.  This helped me get started with kustomize.</description>
+      <guid>https://waylonwalker.com//thoughts-330</guid>
+      <pubDate>2024-07-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Diskcache Api Reference — Diskcache 5.6.1 Documentation</title>
+      <link>https://waylonwalker.com//thoughts-331</link>
+      <description>diskcache has a peekitem method that allows you to lookup the expire_time of a cached item without changing it.  I recen</description>
+      <guid>https://waylonwalker.com//thoughts-331</guid>
+      <pubDate>2024-07-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Markdown-It-Pyrs · Pypi</title>
+      <link>https://waylonwalker.com//thoughts-332</link>
+      <description>markdown it py running in rust claims to be 20x faster.  I&#39;ll definitely look into this if markdown it py is ever a bott</description>
+      <guid>https://waylonwalker.com//thoughts-332</guid>
+      <pubDate>2024-07-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Background Tasks - Fastapi</title>
+      <link>https://waylonwalker.com//thoughts-333</link>
+      <description>fastapi comes with a concept of background tasks which are functions that can be ran in the background after a function </description>
+      <guid>https://waylonwalker.com//thoughts-333</guid>
+      <pubDate>2024-07-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Diskcache As Debounce</title>
+      <link>https://waylonwalker.com//diskcache-as-debounce</link>
+      <description>I ! I am using it for longer running tasks and I don check if a job is running automatically expire jobs My brain first went to thinking I needed another servic</description>
+      <guid>https://waylonwalker.com//diskcache-as-debounce</guid>
+      <pubDate>2024-07-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+<lastBuildDate></lastBuildDate>
+</channel>
+</rss>

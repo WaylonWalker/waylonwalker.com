@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0">
+<channel>
+    <title>recently_written</title>
+    <link>https://waylonwalker.com/</link>
+    <description>I write about how I use python and linux in data science.</description>
+    <generator>Markata</generator>
+    <image>
+        <url>static/8bitcc.png</url>
+        <link>https://waylonwalker.com/</link>
+    </image>
+    <language>en</language>
+  <item>
+      <title>Trying Obsidian</title>
+      <link>https://waylonwalker.com//trying-obsidian</link>
+      <description>I am giving obsidian a try, this is a test post to learn the flow.  Something This is my current wallpaper. ![</description>
+      <guid>https://waylonwalker.com//trying-obsidian</guid>
+      <pubDate>2024-07-31</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Obsidian Using Templater Like Copier</title>
+      <link>https://waylonwalker.com//obsidian-using-templater-like-copier</link>
+      <description>I Here is what I came up with to replace my til template. tR to.file.cursor()</description>
+      <guid>https://waylonwalker.com//obsidian-using-templater-like-copier</guid>
+      <pubDate>2024-07-31</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Obsidian Image Converter</title>
+      <link>https://waylonwalker.com//obsidian-image-converter</link>
+      <description>I ![ Once the images are there they are pushed and deployed as their own site to ! This is part of me getting set up and </description>
+      <guid>https://waylonwalker.com//obsidian-image-converter</guid>
+      <pubDate>2024-07-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Convert Mp4 For Twitter With Ffmpeg</title>
+      <link>https://waylonwalker.com//convert-mp4-for-twitter-with-ffmpeg</link>
+      <description>I</description>
+      <guid>https://waylonwalker.com//convert-mp4-for-twitter-with-ffmpeg</guid>
+      <pubDate>2024-07-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Blogging In 2024</title>
+      <link>https://waylonwalker.com//blogging-in-2024</link>
+      <description></description>
+      <guid>https://waylonwalker.com//blogging-in-2024</guid>
+      <pubDate>2024-07-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Arch Remove Orphaned Packages</title>
+      <link>https://waylonwalker.com//arch-remove-orphaned-packages</link>
+      <description></description>
+      <guid>https://waylonwalker.com//arch-remove-orphaned-packages</guid>
+      <pubDate>2024-07-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>K8S Kustomize Diff</title>
+      <link>https://waylonwalker.com//kubebernetes-kustomize-diff</link>
+      <description>I You can enable color diffs by using an external diff provider like colordiff. You might need to install colordiff if you don Now I can try out kustomize chang</description>
+      <guid>https://waylonwalker.com//kubebernetes-kustomize-diff</guid>
+      <pubDate>2024-07-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Animal Well Keyboard</title>
+      <link>https://waylonwalker.com//animal-well-keyboard</link>
+      <description>Animal well does not let you remap keys, and really doesn wasd - move space - jump / a enter - interact / b x - throw c - inventory 1 - left item / rb 2 - open </description>
+      <guid>https://waylonwalker.com//animal-well-keyboard</guid>
+      <pubDate>2024-07-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Diskcache As Debounce</title>
+      <link>https://waylonwalker.com//diskcache-as-debounce</link>
+      <description>I ! I am using it for longer running tasks and I don check if a job is running automatically expire jobs My brain first went to thinking I needed another servic</description>
+      <guid>https://waylonwalker.com//diskcache-as-debounce</guid>
+      <pubDate>2024-07-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Kind Cluster</title>
+      <link>https://waylonwalker.com//kind-cluster</link>
+      <description>Kind is Kubernetes in Docker, its very fast to get a new cluster up and If you are looking for a production ready cluster this is not it.  I really The first st</description>
+      <guid>https://waylonwalker.com//kind-cluster</guid>
+      <pubDate>2024-07-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+<lastBuildDate></lastBuildDate>
+</channel>
+</rss>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/sitemap.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <title>recently_written</title>
+    <link>https://waylonwalker.com/</link>
+   <url>
+      <title>Trying Obsidian</title>
+      <description>I am giving obsidian a try, this is a test post to learn the flow.  Something This is my current wallpaper. ![</description>
+      <loc>https://waylonwalker.com//trying-obsidian</loc>
+      <lastmod>2024-07-31</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Obsidian Using Templater Like Copier</title>
+      <description>I Here is what I came up with to replace my til template. tR to.file.cursor()</description>
+      <loc>https://waylonwalker.com//obsidian-using-templater-like-copier</loc>
+      <lastmod>2024-07-31</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Obsidian Image Converter</title>
+      <description>I ![ Once the images are there they are pushed and deployed as their own site to ! This is part of me getting set up and </description>
+      <loc>https://waylonwalker.com//obsidian-image-converter</loc>
+      <lastmod>2024-07-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Convert Mp4 For Twitter With Ffmpeg</title>
+      <description>I</description>
+      <loc>https://waylonwalker.com//convert-mp4-for-twitter-with-ffmpeg</loc>
+      <lastmod>2024-07-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Blogging In 2024</title>
+      <description></description>
+      <loc>https://waylonwalker.com//blogging-in-2024</loc>
+      <lastmod>2024-07-07</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Arch Remove Orphaned Packages</title>
+      <description></description>
+      <loc>https://waylonwalker.com//arch-remove-orphaned-packages</loc>
+      <lastmod>2024-07-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>K8S Kustomize Diff</title>
+      <description>I You can enable color diffs by using an external diff provider like colordiff. You might need to install colordiff if you don Now I can try out kustomize chang</description>
+      <loc>https://waylonwalker.com//kubebernetes-kustomize-diff</loc>
+      <lastmod>2024-07-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Animal Well Keyboard</title>
+      <description>Animal well does not let you remap keys, and really doesn wasd - move space - jump / a enter - interact / b x - throw c - inventory 1 - left item / rb 2 - open </description>
+      <loc>https://waylonwalker.com//animal-well-keyboard</loc>
+      <lastmod>2024-07-04</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Diskcache As Debounce</title>
+      <description>I ! I am using it for longer running tasks and I don check if a job is running automatically expire jobs My brain first went to thinking I needed another servic</description>
+      <loc>https://waylonwalker.com//diskcache-as-debounce</loc>
+      <lastmod>2024-07-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Kind Cluster</title>
+      <description>Kind is Kubernetes in Docker, its very fast to get a new cluster up and If you are looking for a production ready cluster this is not it.  I really The first st</description>
+      <loc>https://waylonwalker.com//kind-cluster</loc>
+      <lastmod>2024-07-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+</urlset>
