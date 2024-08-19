@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/blog/trying-obsidian.md",
+                "file": "pages/gratitude/gratitude-193.md.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:animal",
+                "query": "[\"templateKey\":b",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/blog/trying-obsidian.md",
+                "file": "pages/gratitude/gratitude-193.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pages/blog/trying-obsidian.md",
+                "file": "pages/gratitude/gratitude-193.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/blog/trying-obsidian.md"
+                "file": "pages/gratitude/gratitude-193.md.md"
               }
             }
           }
@@ -151,9 +151,19 @@
   },
   "active": "7b7e604a73b0dbf6",
   "lastOpenFiles": [
+    "pages/til/print-in-place-nuts-with-cura.md",
+    "pages/gratitude/gratitude-193.md.md",
+    "pages/blog/tickle-my-keys.md",
+    "pages/blog/new-caps-for-porta-john.md",
+    "waylonwalker.com-obsidian-assets/new-caps-for-porta-john-20240805193001765.webp",
+    "waylonwalker.com-obsidian-assets/new-caps-for-porta-john-20240805190716762.webp",
+    "waylonwalker.com-obsidian-assets/new-caps-for-porta-john-20240805190712987.webp",
+    "pages/blog/trying-obsidian.md",
+    "pages/til/vim-gq.md",
+    "waylonwalker.com-obsidian-assets/vim-gq-20240805122700026.webp",
+    "waylonwalker.com-obsidian-assets/vim-gq-20240805122634078.webp",
     "pages/til/obsidian-new-file.md",
     "pages/til/slug.md",
-    "pages/blog/trying-obsidian.md",
     "obsidian-new-file.md",
     "pages/blog/blogging-in-2024.md",
     "pages/blog/reader.md",
@@ -182,20 +192,10 @@
     "pages/blog/thank-you.md",
     "pages/til/animal-well-keyboard.md",
     "pages/blog/automate-your-deploys.md",
-    "pages/blog/expand-one-line-links.md",
-    "pages/blog/2018-retrospective.md",
-    "pages/blog/goals-2019.md",
-    "pages/notes/debugging-python.md",
-    "pages/blog/gatsby-rss-feed.md",
     "waylonwalker.com-obsidian-assets/knock-and-sweep.mp4",
     "waylonwalker.com-obsidian-assets/output.mp4",
     "waylonwalker.com-obsidian-assets/designing-a-knock-off-key-20240803150150445.webp",
-    "waylonwalker.com-obsidian-assets/designing-a-knock-off-key-20240803095740665.webp",
-    "waylonwalker.com-obsidian-assets/designing-a-knock-off-key-20240803095731272.webp",
     "plugins/obsidian_assets.py",
-    "markout/htmx.min.js",
-    "markout/8bitcc.webp",
-    "markout/88-8bitcc.webp",
-    "markout/w-filled.svg"
+    "markout/htmx.min.js"
   ]
 }
