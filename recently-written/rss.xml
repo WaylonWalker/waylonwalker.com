@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0">
+<channel>
+    <title>recently_written</title>
+    <link>https://waylonwalker.com/</link>
+    <description>I write about how I use python and linux in data science.</description>
+    <generator>Markata</generator>
+    <image>
+        <url>static/8bitcc.png</url>
+        <link>https://waylonwalker.com/</link>
+    </image>
+    <language>en</language>
+  <item>
+      <title>K3S Config After First Install</title>
+      <link>https://waylonwalker.com//k3s-config-after-first-install</link>
+      <description></description>
+      <guid>https://waylonwalker.com//k3s-config-after-first-install</guid>
+      <pubDate>2024-09-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Vim-Gq</title>
+      <link>https://waylonwalker.com//vim-gq</link>
+      <description>Vim has a handy feature to format text with  ![ ![</description>
+      <guid>https://waylonwalker.com//vim-gq</guid>
+      <pubDate>2024-08-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Slug</title>
+      <link>https://waylonwalker.com//slug</link>
+      <description>A slug is the part of the url that comes after the domain.  Commonly matches the file name of a markdown file many blogging systems.  These are typically human </description>
+      <guid>https://waylonwalker.com//slug</guid>
+      <pubDate>2024-08-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Obsidian-New-File</title>
+      <link>https://waylonwalker.com//obsidian-new-file</link>
+      <description>Wikilinks are a core concept within obsidian to link to documents by  Obsidian gives you a keybinding </description>
+      <guid>https://waylonwalker.com//obsidian-new-file</guid>
+      <pubDate>2024-08-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>New-Caps-For-Porta-John</title>
+      <link>https://waylonwalker.com//new-caps-for-porta-john</link>
+      <description>Today I dropped some new caps in the porta-john.  I need to do a bunch of The model of the caps are ![ I printed these at home on my ender3 s1 pro with a black </description>
+      <guid>https://waylonwalker.com//new-caps-for-porta-john</guid>
+      <pubDate>2024-08-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Blogging In 2024</title>
+      <link>https://waylonwalker.com//blogging-in-2024</link>
+      <description>Over the past years couple of years blog traffic has been tanking, for some time I thought it might have just been me, but then i heard it from Dave Rupert on S</description>
+      <guid>https://waylonwalker.com//blogging-in-2024</guid>
+      <pubDate>2024-08-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Obsidian-Go-To-Definition</title>
+      <link>https://waylonwalker.com//obsidian-go-to-definition</link>
+      <description>It was not obvious to me, but if you have a wikilink such as </description>
+      <guid>https://waylonwalker.com//obsidian-go-to-definition</guid>
+      <pubDate>2024-08-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Obsidian Using Templater Like Copier</title>
+      <link>https://waylonwalker.com//obsidian-using-templater-like-copier</link>
+      <description>I Here is what I came up with to replace my til template. tR to.file.cursor()</description>
+      <guid>https://waylonwalker.com//obsidian-using-templater-like-copier</guid>
+      <pubDate>2024-07-31</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Trying Obsidian</title>
+      <link>https://waylonwalker.com//trying-obsidian</link>
+      <description>I am giving obsidian a try, this is a test post to learn the flow.  Something This is my current wallpaper. ![ I took he screenshot and just pasted it in. I hav</description>
+      <guid>https://waylonwalker.com//trying-obsidian</guid>
+      <pubDate>2024-07-31</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Obsidian Image Converter</title>
+      <link>https://waylonwalker.com//obsidian-image-converter</link>
+      <description>I ![ Once the images are there they are pushed and deployed as their own site to ! This is part of me getting set up and </description>
+      <guid>https://waylonwalker.com//obsidian-image-converter</guid>
+      <pubDate>2024-07-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+<lastBuildDate></lastBuildDate>
+</channel>
+</rss>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/sitemap.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <title>recent</title>
+    <link>https://waylonwalker.com/</link>
+   <url>
+      <title>K3S Config After First Install</title>
+      <description></description>
+      <loc>https://waylonwalker.com//k3s-config-after-first-install</loc>
+      <lastmod>2024-09-15</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Wes Bos On X: &#34;Are You Using Position: Absolute; To Overlap Elements? It&#39;S Almost Always Better To Use Css Grid Instead! Https://T.Co/Hmpbexr88Q&#34; / X</title>
+      <description>This is a pretty incredible use of css grid to overlay items overtop of each other without needing to resort to `positio</description>
+      <loc>https://waylonwalker.com//thoughts-387</loc>
+      <lastmod>2024-09-13</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Alternatives To Using Pure Black (#000000) For Text And Backgrounds | By Dmitry Sergushkin | Aug, 2024 | Ux Planet</title>
+      <description>A nice set of blacks to use in web design. Subtle variants off of black or white like this can really make your design l</description>
+      <loc>https://waylonwalker.com//thoughts-388</loc>
+      <lastmod>2024-09-13</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Buttery Icons</title>
+      <description>Some sick looking icons no attribution needed.</description>
+      <loc>https://waylonwalker.com//thoughts-386</loc>
+      <lastmod>2024-09-07</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Not - Ltt Screwdriver - Fancy By Erer2001 | Download Free Stl Model | Printables.Com</title>
+      <description>someone has created a knock off of the ltt screwdriver and made it printable</description>
+      <loc>https://waylonwalker.com//thoughts-385</loc>
+      <lastmod>2024-08-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Installing Python - Uv</title>
+      <description>`uv` now can install python for you.  `uv` is inspired by rust&#39;s cargo, an all in one fast package and installation mana</description>
+      <loc>https://waylonwalker.com//thoughts-384</loc>
+      <lastmod>2024-08-23</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Switching Configs In Neovim • Michael Uloth</title>
+      <description>Switching between nvim configs can be really easy to do since they implemented the `NVIM_APPNAME` Environment Variable.
+</description>
+      <loc>https://waylonwalker.com//thoughts-383</loc>
+      <lastmod>2024-08-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Hotkey To Open Link Under At The Text Cursor Position While Typing In Edit Mode - Help - Obsidian Forum</title>
+      <description>Obsidian has a go to definition like feature, the keybind is alt+enter, I would have never guessed this one.</description>
+      <loc>https://waylonwalker.com//thoughts-381</loc>
+      <lastmod>2024-08-05</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Keyboard Build Log | Halfwit’S Dev Blog</title>
+      <description>This is the coolest scrappy build, no printer or modeling required, no fancy tools, just straight chisel and claw hammer</description>
+      <loc>https://waylonwalker.com//thoughts-382</loc>
+      <lastmod>2024-08-05</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Vim-Gq</title>
+      <description>Vim has a handy feature to format text with  ![ ![</description>
+      <loc>https://waylonwalker.com//vim-gq</loc>
+      <lastmod>2024-08-05</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+</urlset>

@@ -1,0 +1,2064 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0">
+<channel>
+    <title>blogfeed</title>
+    <link>https://waylonwalker.com/</link>
+    <description>I write about how I use python and linux in data science.</description>
+    <generator>Markata</generator>
+    <image>
+        <url>static/8bitcc.png</url>
+        <link>https://waylonwalker.com/</link>
+    </image>
+    <language>en</language>
+  <item>
+      <title>New-Caps-For-Porta-John</title>
+      <link>https://waylonwalker.com//new-caps-for-porta-john</link>
+      <description>Today I dropped some new caps in the porta-john.  I need to do a bunch of The model of the caps are ![ I printed these at home on my ender3 s1 pro with a black </description>
+      <guid>https://waylonwalker.com//new-caps-for-porta-john</guid>
+      <pubDate>2024-08-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Blogging In 2024</title>
+      <link>https://waylonwalker.com//blogging-in-2024</link>
+      <description>Over the past years couple of years blog traffic has been tanking, for some time I thought it might have just been me, but then i heard it from Dave Rupert on S</description>
+      <guid>https://waylonwalker.com//blogging-in-2024</guid>
+      <pubDate>2024-08-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Trying Obsidian</title>
+      <link>https://waylonwalker.com//trying-obsidian</link>
+      <description>I am giving obsidian a try, this is a test post to learn the flow.  Something This is my current wallpaper. ![ I took he screenshot and just pasted it in. I hav</description>
+      <guid>https://waylonwalker.com//trying-obsidian</guid>
+      <pubDate>2024-07-31</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Animal Well Codes</title>
+      <link>https://waylonwalker.com//animal-well-codes</link>
+      <description>bar dir 1 r</description>
+      <guid>https://waylonwalker.com//animal-well-codes</guid>
+      <pubDate>2024-07-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Kind Cluster</title>
+      <link>https://waylonwalker.com//kind-cluster</link>
+      <description>Kind is Kubernetes in Docker, its very fast to get a new cluster up and If you are looking for a production ready cluster this is not it.  I really The first st</description>
+      <guid>https://waylonwalker.com//kind-cluster</guid>
+      <pubDate>2024-07-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>What I&#39;M Learning In 2024</title>
+      <link>https://waylonwalker.com//learning-2024</link>
+      <description>2024 has been a learning fueled year, Diving deep into things I never would k8s tailwind fastapi htmx jinja opnsense play-outside reader thoughts thoughts chrom</description>
+      <guid>https://waylonwalker.com//learning-2024</guid>
+      <pubDate>2024-06-09</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>About This Site</title>
+      <link>https://waylonwalker.com//about-this-site</link>
+      <description>I registered waylonwalker.com and started making content for it in 2017 after a This was very similar to what happened to the tech industry in 2024. See  It Dig</description>
+      <guid>https://waylonwalker.com//about-this-site</guid>
+      <pubDate>2024-05-31</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Refactoring One Line Links Into Wikilinks</title>
+      <link>https://waylonwalker.com//refactoring-into-wikilinks</link>
+      <description>Previously I had setup a feature of my website to expand one line links into a [ Wikilinks are standard to a lot of wikis written in markdown. The wikilink synt</description>
+      <guid>https://waylonwalker.com//refactoring-into-wikilinks</guid>
+      <pubDate>2024-05-31</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>My Linked In Work History</title>
+      <link>https://waylonwalker.com//my-linked-in-work-history</link>
+      <description>My linked in work history is empty.  I made up a position about content If you have taken any security class for your job seriously you have already I care abou</description>
+      <guid>https://waylonwalker.com//my-linked-in-work-history</guid>
+      <pubDate>2024-05-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Your Linkedin Is Garbage</title>
+      <link>https://waylonwalker.com//your-linkedin-is-garbage</link>
+      <description>Your linkedin link sits at the top of your resume, its one of the first things Save that space on your resume for something useful. Fine if you want it on your </description>
+      <guid>https://waylonwalker.com//your-linkedin-is-garbage</guid>
+      <pubDate>2024-05-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Markata</title>
+      <link>https://waylonwalker.com//markata</link>
+      <description>This post is a work in progress. Markata is the static site generator that I created to build my website  It Gatsby and Next.js hit the scene as the next genera</description>
+      <guid>https://waylonwalker.com//markata</guid>
+      <pubDate>2024-05-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Sick Wikilink Hover</title>
+      <link>https://waylonwalker.com//sick-wikilink-hover</link>
+      <description>Today I set up some sick wikilink hover effects using tailwind see  I</description>
+      <guid>https://waylonwalker.com//sick-wikilink-hover</guid>
+      <pubDate>2024-05-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>One Day Build - Play Outside</title>
+      <link>https://waylonwalker.com//odb-play-outside</link>
+      <description>Inspired by Adam Savage and his One Day builds on youtube.  I often build This post will not directly show how to make a weather app, but document the It often </description>
+      <guid>https://waylonwalker.com//odb-play-outside</guid>
+      <pubDate>2024-04-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Feeds</title>
+      <link>https://waylonwalker.com//feeds</link>
+      <description>I have several feeds that you can consume my content with.  Many posts will This is a feed of everything that I have published on my site to date. This is a fee</description>
+      <guid>https://waylonwalker.com//feeds</guid>
+      <pubDate>2024-04-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Thoughts</title>
+      <link>https://waylonwalker.com//thoughts</link>
+      <description>These are generally my thoughts on a web page or some sort of url, except a These posts are intended to in two ways.  One, link building for the author.  I All </description>
+      <guid>https://waylonwalker.com//thoughts</guid>
+      <pubDate>2024-04-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Kubernetes 6 Months In</title>
+      <link>https://waylonwalker.com//kubernetes-6-months-in</link>
+      <description>I stumbled into kubernetes December 2023 when I was looking for a better way This post turned into a list of tools that I have adopted into my k8s workflow, Kom</description>
+      <guid>https://waylonwalker.com//kubernetes-6-months-in</guid>
+      <pubDate>2024-03-26</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Poc Is Not Product</title>
+      <link>https://waylonwalker.com//poc-is-not-product</link>
+      <description>A poc is  For the poc, I made a single fastapi endpoint that takes a url and returns a /shot But this wasn All it does so far for this first tool is take screen</description>
+      <guid>https://waylonwalker.com//poc-is-not-product</guid>
+      <pubDate>2024-01-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Thoughts On Unit Tests</title>
+      <link>https://waylonwalker.com//thoughts-on-unit-tests</link>
+      <description>Theo So much of software engineering is assembling existing well tested code. Crud This kind of reminds me of Manufacturing.  Individual components are QA teste</description>
+      <guid>https://waylonwalker.com//thoughts-on-unit-tests</guid>
+      <pubDate>2023-12-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Looking For A Heroku Replacement, What I Found Was Shocking!</title>
+      <link>https://waylonwalker.com//looking-for-a-heroku-replacement</link>
+      <description>I Now the part that I have struggled with is how to cheaply host a server I never really deployed anything that useful on heroku, but it seems like the fly is a</description>
+      <guid>https://waylonwalker.com//looking-for-a-heroku-replacement</guid>
+      <pubDate>2023-12-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Why-Is-Postgres-Default</title>
+      <link>https://waylonwalker.com//why-is-postgres-default</link>
+      <description>Serious question. But, why. It Don Why is that? Because there is nothing else to stand up. Nothing else to Don SQLite is a file on your filesystem. It this mean</description>
+      <guid>https://waylonwalker.com//why-is-postgres-default</guid>
+      <pubDate>2023-09-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>A Case For Tailwindcss</title>
+      <link>https://waylonwalker.com//a-case-for-tailwindcss</link>
+      <description>I was watching @theprimeagen recently and I think he sold me on using All css classes are shitty, so you might as well use someone else So unlike big component </description>
+      <guid>https://waylonwalker.com//a-case-for-tailwindcss</guid>
+      <pubDate>2023-09-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Make The Easy Things Easy</title>
+      <link>https://waylonwalker.com//make-the-easy-things-easy</link>
+      <description>It Simple Repetitive Tasks that I have to do often can just feel soul crushing, AI tools are becoming more and more useful at solving these problems. For I ofte</description>
+      <guid>https://waylonwalker.com//make-the-easy-things-easy</guid>
+      <pubDate>2023-09-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Underground Bases With Wyatt</title>
+      <link>https://waylonwalker.com//underground-bases-with-wyatt</link>
+      <description>Playing minecraft with Wyatt today he started a server all on his own and had I spawned into the server and it was already night time. I gathered up some Now to</description>
+      <guid>https://waylonwalker.com//underground-bases-with-wyatt</guid>
+      <pubDate>2023-07-09</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>I Took A Break</title>
+      <link>https://waylonwalker.com//i-took-a-break</link>
+      <description>Life comes in waves, and sometimes you need to set down some of your projects to You can see in my growing list of I haven I Ai is really hot in 2023. I It</description>
+      <guid>https://waylonwalker.com//i-took-a-break</guid>
+      <pubDate>2023-05-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Playing Star Wars Text Adventure With A 10 Yr Old</title>
+      <link>https://waylonwalker.com//playing-sw-text-adventure-10-yr-old</link>
+      <description>The following is a playthrough of Star Wars Text Adventure with a 10 yr old.The</description>
+      <guid>https://waylonwalker.com//playing-sw-text-adventure-10-yr-old</guid>
+      <pubDate>2023-05-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Pydantic And Singledispatch</title>
+      <link>https://waylonwalker.com//pydantic-and-singledispatch</link>
+      <description>I was reading about Let Here is our model for our settings. We will create a CommonSettings model Now let Let results in Let results in So far one down side to </description>
+      <guid>https://waylonwalker.com//pydantic-and-singledispatch</guid>
+      <pubDate>2023-05-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Minecraft Documentary</title>
+      <link>https://waylonwalker.com//minecraft-documentary</link>
+      <description>This is my first time journaling a Minecraft hardcore world, my son Wyatt is I logged into a brand new hardcore world. I was welcomed by a great Acacia I crafte</description>
+      <guid>https://waylonwalker.com//minecraft-documentary</guid>
+      <pubDate>2022-12-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Packages I Maintain</title>
+      <link>https://waylonwalker.com//packages-i-maintain</link>
+      <description>I open sourced the static site framework that I use to build {% gh {% gh I am a heavy user of the  {% gh I use vim for all of my text editing needs. It brings m</description>
+      <guid>https://waylonwalker.com//packages-i-maintain</guid>
+      <pubDate>2022-08-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>I Was On Talk Python</title>
+      <link>https://waylonwalker.com//talk-python-kedro</link>
+      <description>After years of listening to  I was quite nervous to talk on a show that I helped shape my career in such a During the episode I tried my best to let Yetu and Iv</description>
+      <guid>https://waylonwalker.com//talk-python-kedro</guid>
+      <pubDate>2022-08-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>The One Reason I Switched To Arch</title>
+      <link>https://waylonwalker.com//switched-to-arch</link>
+      <description>The community, that I am a tinkerer, I am not going to run a stock desktop manager, mostly becuase I love minimal installs.  I love just building up my system f</description>
+      <guid>https://waylonwalker.com//switched-to-arch</guid>
+      <pubDate>2022-07-23</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Using Different Versions Of Python With Pipx | Pyenv</title>
+      <link>https://waylonwalker.com//pyenv-pipx</link>
+      <description>I love using pipx for automatic virtual environment management of my globally This one took me a minute to figure out at first, please let me know if there My f</description>
+      <guid>https://waylonwalker.com//pyenv-pipx</guid>
+      <pubDate>2022-05-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Live-Replay - Python Dev | Markata Todoui | 4/6/2022</title>
+      <link>https://waylonwalker.com//markata-todoui-live-replay-4-6-2022</link>
+      <description>https://youtu.be/-42A5210HYo Super fun steam Broadcasted live on Twitch -- Watch live at https://www.twitch.tv/waylonwalker We worked on markata todoui, a comma</description>
+      <guid>https://waylonwalker.com//markata-todoui-live-replay-4-6-2022</guid>
+      <pubDate>2022-05-12</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>How I Quickly Capture Screenshots Directly Into My Blog</title>
+      <link>https://waylonwalker.com//screenshot-to-blog</link>
+      <description>When I am creating blog posts it When I have something to take a screenshot of, I need to take the shot, take screenshot optimize conversion publish create img </description>
+      <guid>https://waylonwalker.com//screenshot-to-blog</guid>
+      <pubDate>2022-04-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Copier &lt; 6.0.0B0 Considered Dangerous</title>
+      <link>https://waylonwalker.com//update-copier</link>
+      <description>Copier is a fantastic templating library written in python, but older versions As of May 15, 2022, the stable release of copier now includes these changes, if I</description>
+      <guid>https://waylonwalker.com//update-copier</guid>
+      <pubDate>2022-04-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Pyohio Cfp&#39;S</title>
+      <link>https://waylonwalker.com//pyohio-cfp</link>
+      <description>Here are some CFP Markata is a plugins all the way down static site generator, that covers all Lets build a whole blog site in 5 minutes. Sometimes python scrip</description>
+      <guid>https://waylonwalker.com//pyohio-cfp</guid>
+      <pubDate>2022-04-12</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Smoother Python With Automatic Imports | Pyflyby</title>
+      <link>https://waylonwalker.com//pyflyby</link>
+      <description>This is not a flaky works half the time kind of plugin, it I can Give the video a watch, I did not have noise-cancelling on in obs. My pyflyby is hosted on pypi</description>
+      <guid>https://waylonwalker.com//pyflyby</guid>
+      <pubDate>2021-12-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>You Must Use Augroup With Autocmd In Vim | Here&#39;S How</title>
+      <link>https://waylonwalker.com//vim-augroup</link>
+      <description>If you are running vim autocmd https://youtu.be/2ITTn4Dl0lc For  Lets create a new file called  I What you need to do is clear out all commands in the augroup w</description>
+      <guid>https://waylonwalker.com//vim-augroup</guid>
+      <pubDate>2021-12-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Code Review From The Comfort Of Vim | Diffurcate</title>
+      <link>https://waylonwalker.com//diffurcate</link>
+      <description>I often review Pull requests from the browser as it just makes it so easy to see https://youtu.be/5NKaZFavM0E This all stems from the great plugin by First to q</description>
+      <guid>https://waylonwalker.com//diffurcate</guid>
+      <pubDate>2021-12-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Setup A Yaml Schema | Yamlls For A Silky Smooth Setup</title>
+      <link>https://waylonwalker.com//setup-yamlls</link>
+      <description>I The video for this one is part of a I have my  You will need the following plugins. I use plug, if you don Make sure that you have nvim Again if you don Next </description>
+      <guid>https://waylonwalker.com//setup-yamlls</guid>
+      <pubDate>2021-12-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Open Files Fast From Zsh | Or Bash If Thats Your Thing</title>
+      <link>https://waylonwalker.com//fuzzy-edit-zsh</link>
+      <description>https://youtu.be/PQw I am often in a set of tmux splits flying back and forth, accidentally close my Make sure you check out the YouTube video to see all of my </description>
+      <guid>https://waylonwalker.com//fuzzy-edit-zsh</guid>
+      <pubDate>2021-12-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>How Linux Users Install A Text Editor</title>
+      <link>https://waylonwalker.com//install-nvim-skit</link>
+      <description>In honor of the neovim 0.6.0 release, I decided to do a funny skit installing https://youtu.be/64oKLphhBuo The thing that took me the longest to realize was....</description>
+      <guid>https://waylonwalker.com//install-nvim-skit</guid>
+      <pubDate>2021-11-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>30 Days Dotfile Ricing</title>
+      <link>https://waylonwalker.com//dotfile-rice-challenge-intro</link>
+      <description>I am challenging myself to 30 days of dotfile ricing. I have been on linux This is primarily going to be focused on productivity, but may have a few Follow the </description>
+      <guid>https://waylonwalker.com//dotfile-rice-challenge-intro</guid>
+      <pubDate>2021-11-29</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Waylon Walker</title>
+      <link>https://waylonwalker.com//about</link>
+      <description>👋 Hi, I am Waylon Walker.  Husband, Father of two, and creator things on the I believe in a decentralized platform where everyone has their own space on I am a </description>
+      <guid>https://waylonwalker.com//about</guid>
+      <pubDate>2021-11-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Jut | Read Notebooks In The Terminal</title>
+      <link>https://waylonwalker.com//jut</link>
+      <description>Trying to read a .ipynb file without starting a jupyter server?  jut has you https://youtu.be/t8AvImnwor0 watch the video version of this post on  jut ! Take a </description>
+      <guid>https://waylonwalker.com//jut</guid>
+      <pubDate>2021-11-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Kedro Catalog Create</title>
+      <link>https://waylonwalker.com//kedro-catalog-create-cli</link>
+      <description>I use  [ 👆 Unsure what kedro is?  Check out this post. The command to ensure there are catalog entries for every dataset in the passed Create Fills in new datas</description>
+      <guid>https://waylonwalker.com//kedro-catalog-create-cli</guid>
+      <pubDate>2021-11-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Nvim Conf 2021 | Ide&#39;S Are Slow | Waylon Walker</title>
+      <link>https://waylonwalker.com//nvim-ides-are-slow</link>
+      <description>Using Vim as a Team Lead I 💜 Tmux Why I stopped using @code Get there fast How I vim Use a graphical IDE if it works for you. vim is so well integrated into the</description>
+      <guid>https://waylonwalker.com//nvim-ides-are-slow</guid>
+      <pubDate>2021-10-29</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Hacktoberfest 2021?</title>
+      <link>https://waylonwalker.com//hacktoberfest-2021</link>
+      <description>Are you participating in Hacktoberfest 2021? I got my start with open source with Hacktoberfest 2018. I remember being so Something that it really did for me wa</description>
+      <guid>https://waylonwalker.com//hacktoberfest-2021</guid>
+      <pubDate>2021-10-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Just Ask Ipython For Help</title>
+      <link>https://waylonwalker.com//ipython-help</link>
+      <description>We can https://youtu.be/TZrRAP-9UMk In any python repl you can access the docstring of a function by calling for  In Ipython we can even get some syntax highlig</description>
+      <guid>https://waylonwalker.com//ipython-help</guid>
+      <pubDate>2021-10-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>I Made A Neovim Plugin</title>
+      <link>https://waylonwalker.com//telegraph-release</link>
+      <description>I Check out the project  I want a simple way to make remaps into shell commands that can open new tmux For example I want to make remaps to do things like open </description>
+      <guid>https://waylonwalker.com//telegraph-release</guid>
+      <pubDate>2021-10-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Setting Parameters In Kedro</title>
+      <link>https://waylonwalker.com//kedro-parameters</link>
+      <description>Parameters are a place for you to store variables for your pipeline that can be [ 👆 Unsure what kedro is?  Check out this post. You can have multiple parameters</description>
+      <guid>https://waylonwalker.com//kedro-parameters</guid>
+      <pubDate>2021-09-19</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Writing Your First Kedro Nodes</title>
+      <link>https://waylonwalker.com//kedro-your-first-nodes</link>
+      <description>https://youtu.be/-gEwU-MrPuA Before we jump in with anything crazy, let You will need to import node from kedro.pipeline to start creating nodes. The  Inputs an</description>
+      <guid>https://waylonwalker.com//kedro-your-first-nodes</guid>
+      <pubDate>2021-09-13</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Running Your Kedro Pipeline From The Command Line</title>
+      <link>https://waylonwalker.com//kedro-run</link>
+      <description>Running your kedro pipeline from the command line could not be any easier to [ 👆 Unsure what kedro is?  Check out this post. To run the whole darn project all w</description>
+      <guid>https://waylonwalker.com//kedro-run</guid>
+      <pubDate>2021-08-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Kedro Virtual Environment</title>
+      <link>https://waylonwalker.com//kedro-environment</link>
+      <description>Avoid serious version conflict issues, and use a virtual environment anytime conda venv pipenv I prefer to use conda as my virtual environment manager of choice</description>
+      <guid>https://waylonwalker.com//kedro-environment</guid>
+      <pubDate>2021-08-23</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Kedro Install</title>
+      <link>https://waylonwalker.com//kedro-install</link>
+      <description>Kedro comes with an  https://youtu.be/IWimEs-hHQg You must start by having your kedro project either cloned down [ this post covers kedro new [ This post covers</description>
+      <guid>https://waylonwalker.com//kedro-install</guid>
+      <pubDate>2021-08-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Kedro Git Init</title>
+      <link>https://waylonwalker.com//kedro-git-init</link>
+      <description>Immediately after  https://youtu.be/IGba3ytf Its as simple as these three commands to get started. I don</description>
+      <guid>https://waylonwalker.com//kedro-git-init</guid>
+      <pubDate>2021-08-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Kedro New</title>
+      <link>https://waylonwalker.com//kedro-new</link>
+      <description>Kedro new is simply a wrapper around the cookiecutter templating library.  The [ Unsure what kedro is, Check out yesterdays post on What is Kedro. I reccomend u</description>
+      <guid>https://waylonwalker.com//kedro-new</guid>
+      <pubDate>2021-08-18</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>What Is Kedro</title>
+      <link>https://waylonwalker.com//what-is-kedro</link>
+      <description>Kedro is an unopinionated Data Engineering framework that comes with a somewhat [ This is an updated version of my original what-is-kedro article If you are doi</description>
+      <guid>https://waylonwalker.com//what-is-kedro</guid>
+      <pubDate>2021-08-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>How I Kedro</title>
+      <link>https://waylonwalker.com//how-i-kedro</link>
+      <description>https://youtu.be/bw5 I recently switched over to using Ubuntu, it works well pretty much out of the I am still using the built in default gnome terminal, it jus</description>
+      <guid>https://waylonwalker.com//how-i-kedro</guid>
+      <pubDate>2021-08-16</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tmux Show-Messages</title>
+      <link>https://waylonwalker.com//tmux-show-messages</link>
+      <description>As we push the limits of tmux further and further you are bound to end up in a show-messages In case you wnat more information about show-messages, here is the </description>
+      <guid>https://waylonwalker.com//tmux-show-messages</guid>
+      <pubDate>2021-08-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tmux Ta</title>
+      <link>https://waylonwalker.com//tmux-ta</link>
+      <description>Now your creating, jumping, and killing sessions like a boss. You are slicing This script is simply my fork of Chris Toomey My version of the  By default I have</description>
+      <guid>https://waylonwalker.com//tmux-ta</guid>
+      <pubDate>2021-08-13</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tmux Display-Message</title>
+      <link>https://waylonwalker.com//tmux-display-message</link>
+      <description>You Here is a snippet of  With  Without setting the target-pane  [ for more information on how I navigate tmux, check out this full post Also check out the full</description>
+      <guid>https://waylonwalker.com//tmux-display-message</guid>
+      <pubDate>2021-08-12</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Killing Tmux</title>
+      <link>https://waylonwalker.com//tmux-killing-tmux</link>
+      <description>Now it One viable option is to nuke the whole dang thing.  I actually do this more save and commit your work diligently before  A more reasonable option might b</description>
+      <guid>https://waylonwalker.com//tmux-killing-tmux</guid>
+      <pubDate>2021-08-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tmux Has-Session</title>
+      <link>https://waylonwalker.com//tmux-has-session</link>
+      <description>I see you there, trying to script out your tmux layouts. Tryig to get each The  The command is pretty straight forward, you simply ask tmux if the session name </description>
+      <guid>https://waylonwalker.com//tmux-has-session</guid>
+      <pubDate>2021-08-09</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tmux List-Keys</title>
+      <link>https://waylonwalker.com//tmux-list-keys</link>
+      <description>Tmux list keys can be a useful tool to help remind you of what kebindings you You can call list-keys from the command line but the interface is not very Running</description>
+      <guid>https://waylonwalker.com//tmux-list-keys</guid>
+      <pubDate>2021-08-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tmux Status-Bar</title>
+      <link>https://waylonwalker.com//tmux-status-bar</link>
+      <description>The tmux status bar can be a handy tool to remind yourself where you are within You can set a hotkey to show or hide the status bar. I really want a minimal sta</description>
+      <guid>https://waylonwalker.com//tmux-status-bar</guid>
+      <pubDate>2021-08-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tmux Source-File</title>
+      <link>https://waylonwalker.com//tmux-source-file</link>
+      <description>So you have been tricking out that  Let We can run this command from your shell to re-source your changed  It also works from the tmux command line. It This is </description>
+      <guid>https://waylonwalker.com//tmux-source-file</guid>
+      <pubDate>2021-08-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tmux Fzf Session Jumper</title>
+      <link>https://waylonwalker.com//tmux-fzf-session-jump</link>
+      <description>Quickly getting between tmux splits is critical skill for productivity.  You I have used this fzf one keybinding for quite awhile,  honestly I did not make Like</description>
+      <guid>https://waylonwalker.com//tmux-fzf-session-jump</guid>
+      <pubDate>2021-08-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tmux Next/Prev Session</title>
+      <link>https://waylonwalker.com//tmux-next-prev-session</link>
+      <description>Now that we are splitting up work into their own sessions, lets talk about how [ for more information on how I navigate tmux, check out this full post Also chec</description>
+      <guid>https://waylonwalker.com//tmux-next-prev-session</guid>
+      <pubDate>2021-08-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tmux Start Application</title>
+      <link>https://waylonwalker.com//tmux-start-application</link>
+      <description>Scripting tmux to open up specific applications can be intimidating your first I used this one for a number of years to take a quick peek into my systems 🗒️ not</description>
+      <guid>https://waylonwalker.com//tmux-start-application</guid>
+      <pubDate>2021-08-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tmux Rename Session</title>
+      <link>https://waylonwalker.com//tmux-rename-session</link>
+      <description>So you have been working on your tmux workflow, you Let There is a default keybinding that you can use  I [ for more information on how I navigate tmux, check o</description>
+      <guid>https://waylonwalker.com//tmux-rename-session</guid>
+      <pubDate>2021-08-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tmux Targeted Session</title>
+      <link>https://waylonwalker.com//tmux-targeted-session</link>
+      <description>This is something that I made up but use every single day, this is what keeps [ This one is building off of yeserday [ for more information on how I navigate tm</description>
+      <guid>https://waylonwalker.com//tmux-targeted-session</guid>
+      <pubDate>2021-08-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tmux Detach</title>
+      <link>https://waylonwalker.com//tmux-detach</link>
+      <description>tmux detach is a handy tmux command that will quit your current session while default keybinding I have mine bound to  for more information on how I navigate tm</description>
+      <guid>https://waylonwalker.com//tmux-detach</guid>
+      <pubDate>2021-08-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tmux New-Session</title>
+      <link>https://waylonwalker.com//tmux-new-session</link>
+      <description>This one starts a new chapter in our series that is going to open up a whole [ for more information on how I navigate tmux, check out this full post Also check </description>
+      <guid>https://waylonwalker.com//tmux-new-session</guid>
+      <pubDate>2021-08-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tmux Attach</title>
+      <link>https://waylonwalker.com//tmux-attach</link>
+      <description>https://youtu.be/JQ0yDCVu44E attach is one of the most useful features of tmux.  If you have no interest in this command will simply attach back to tmux if you </description>
+      <guid>https://waylonwalker.com//tmux-attach</guid>
+      <pubDate>2021-07-31</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Git In Depth Notes</title>
+      <link>https://waylonwalker.com//git-in-depth</link>
+      <description>These are my notes from taking @nnja git --version</description>
+      <guid>https://waylonwalker.com//git-in-depth</guid>
+      <pubDate>2021-07-31</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tmux Ls</title>
+      <link>https://waylonwalker.com//tmux-ls</link>
+      <description>tmux ls will list the sessions that you have running within the tmux server if [ [ for more information on how I navigate tmux, check out this full post Also ch</description>
+      <guid>https://waylonwalker.com//tmux-ls</guid>
+      <pubDate>2021-07-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tmux Command Line</title>
+      <link>https://waylonwalker.com//tmux-command-line</link>
+      <description>So far we have covered a lot of tmux commands and how they map to keybindings Let Or we can open the tmux command line and run it from tmux 🗒️ note that the tmu</description>
+      <guid>https://waylonwalker.com//tmux-command-line</guid>
+      <pubDate>2021-07-29</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tmux Copy-Mode</title>
+      <link>https://waylonwalker.com//tmux-copy-mode</link>
+      <description>tmux copy-mode is a tmux mode that lets you scroll, search, copy, and jump your Default keybinding to get into copy mode is  If you are a vim user you will like</description>
+      <guid>https://waylonwalker.com//tmux-copy-mode</guid>
+      <pubDate>2021-07-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tmux Join-Pane</title>
+      <link>https://waylonwalker.com//tmux-join-pane</link>
+      <description>Join-pane allows you to join panes that you have broken away from your window, Before you can join a pane you must first have a pane marked to join.  Once you M</description>
+      <guid>https://waylonwalker.com//tmux-join-pane</guid>
+      <pubDate>2021-07-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tmux Break-Pane</title>
+      <link>https://waylonwalker.com//break-pane</link>
+      <description>Break-pane is a handy tmux command when your layout gets too cramped and you Default key binding for  [ for more information on how I navigate tmux, check out t</description>
+      <guid>https://waylonwalker.com//break-pane</guid>
+      <pubDate>2021-07-26</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tmux Zoom</title>
+      <link>https://waylonwalker.com//tmux-zoom</link>
+      <description>Zooming into the current split in tmux is a valuable tool to give yourself some Default key bindings for zooming the current split I have rebound this to match </description>
+      <guid>https://waylonwalker.com//tmux-zoom</guid>
+      <pubDate>2021-07-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tmux New-Window</title>
+      <link>https://waylonwalker.com//tmux-new-window</link>
+      <description>New window as it sounds makes new windows in tmux.  Windows are kind of like Default key bindings for creating and navigating windows in tmux. As always I have </description>
+      <guid>https://waylonwalker.com//tmux-new-window</guid>
+      <pubDate>2021-07-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tmux Slect-Pane</title>
+      <link>https://waylonwalker.com//tmux-select-pane</link>
+      <description>These are my MOST often used keybindings that I use in tmux.  They allow me to [ for more information on how I navigate tmux, check out this full post</description>
+      <guid>https://waylonwalker.com//tmux-select-pane</guid>
+      <pubDate>2021-07-23</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tmux Rotate-Window</title>
+      <link>https://waylonwalker.com//tmux-rotate-window</link>
+      <description>Rotate window is the main way that I navigated tmux before I learned Default keybindings My keybindings look just a bit different than the default ones, I do no</description>
+      <guid>https://waylonwalker.com//tmux-rotate-window</guid>
+      <pubDate>2021-07-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tmux Select-Layout</title>
+      <link>https://waylonwalker.com//tmux-select-layout</link>
+      <description>When you get many splits going in tmux sometimes its time for a new layout. [ for more information on how I navigate tmux, check out this full post</description>
+      <guid>https://waylonwalker.com//tmux-select-layout</guid>
+      <pubDate>2021-07-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tmux Resize-Panes</title>
+      <link>https://waylonwalker.com//tmux-resize-panes</link>
+      <description>Resizing panes in tmux can be quite difficult in default tmux, I Most often when I need to resize panes I just grab the edge of the pane with my [ for more info</description>
+      <guid>https://waylonwalker.com//tmux-resize-panes</guid>
+      <pubDate>2021-07-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tmux Choose-Tree</title>
+      <link>https://waylonwalker.com//tmux-choose-tree</link>
+      <description>Choose tree is a powerful tmux utility that provides a graphical interface to The default keybinding my preferred keybinding to open sessions and windows collap</description>
+      <guid>https://waylonwalker.com//tmux-choose-tree</guid>
+      <pubDate>2021-07-19</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tmux Prefix</title>
+      <link>https://waylonwalker.com//tmux-prefix</link>
+      <description>The prefix key is an essential part of tmux, by default all of tmux A few of the essential default key-bindings. A more complete list of key-bindings can be fou</description>
+      <guid>https://waylonwalker.com//tmux-prefix</guid>
+      <pubDate>2021-07-18</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tmux Splitting Panes</title>
+      <link>https://waylonwalker.com//tmux-splitting-panes</link>
+      <description>splitting panes is a core feature of tmux.  It allows us to split the terminal 🗒️ note that   [ for more information on how I navigate tmux, check out this full</description>
+      <guid>https://waylonwalker.com//tmux-splitting-panes</guid>
+      <pubDate>2021-07-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tmux Last Session</title>
+      <link>https://waylonwalker.com//tmux-last-session</link>
+      <description>An ultimate productivity key-binding in tmux is one to switch to the last session.  I use this to quickly get between sessions really quick.  Often I am working</description>
+      <guid>https://waylonwalker.com//tmux-last-session</guid>
+      <pubDate>2021-07-16</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tmux Floating Popups</title>
+      <link>https://waylonwalker.com//tmux-floating-popups</link>
+      <description>Tmux popups are actually floating windows that you can drag around the screen.  They always open in the middle (by default) when you open them, no matter where </description>
+      <guid>https://waylonwalker.com//tmux-floating-popups</guid>
+      <pubDate>2021-07-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tmux Popups</title>
+      <link>https://waylonwalker.com//tmux-popups</link>
+      <description>Tmux-popups are a great feature that is relatively new to tmux, many repos such [ for more information on how I navigate tmux, check out this full post I use po</description>
+      <guid>https://waylonwalker.com//tmux-popups</guid>
+      <pubDate>2021-07-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Incremental Versioned Datasets In Kedro</title>
+      <link>https://waylonwalker.com//kedro-incremental-versioned-datasets</link>
+      <description>Kedro versioned datasets can be mixed with incremental and partitioned datasets [ 👆 Unsure what kedro is?  Check out this post. This was a question presented to</description>
+      <guid>https://waylonwalker.com//kedro-incremental-versioned-datasets</guid>
+      <pubDate>2021-07-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>I Started Streaming On Twitch</title>
+      <link>https://waylonwalker.com//start-streaming</link>
+      <description>I recently started streaming on python kedro Data Science Data Engineering webdev digital gardening It all started with My introduction to twitch came from Afte</description>
+      <guid>https://waylonwalker.com//start-streaming</guid>
+      <pubDate>2021-06-12</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Kedro Spaceflights - Part 2 | Stream Replay June 7, 2021</title>
+      <link>https://waylonwalker.com//kedro-spaceflights-stream2</link>
+      <description>This was my seconf time ever streaming on</description>
+      <guid>https://waylonwalker.com//kedro-spaceflights-stream2</guid>
+      <pubDate>2021-06-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>🌱 Digital Gardening | Gif To Mp4 | Stream Replay June 4, 2021</title>
+      <link>https://waylonwalker.com//digital-gardening-stream-6-6-2021</link>
+      <description>https://youtu.be/I4VenHqIEng Doing some Digital Gardening on stream Ahrefs Errors ahrefs large images Automatic gif to mp4 After this stream all gifs on my site</description>
+      <guid>https://waylonwalker.com//digital-gardening-stream-6-6-2021</guid>
+      <pubDate>2021-06-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Kedro Spaceflights - Part 1 | Stream Replay June 4, 2021</title>
+      <link>https://waylonwalker.com//kedro-spaceflights-stream1</link>
+      <description>This was my first time ever streaming on https://youtu.be/Y07UBr9Ccjs It all started with</description>
+      <guid>https://waylonwalker.com//kedro-spaceflights-stream1</guid>
+      <pubDate>2021-06-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Modal Jumping</title>
+      <link>https://waylonwalker.com//modal-jumping</link>
+      <description></description>
+      <guid>https://waylonwalker.com//modal-jumping</guid>
+      <pubDate>2021-06-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Using Kedro In Scripts</title>
+      <link>https://waylonwalker.com//kedro-in-scripts</link>
+      <description>With the latest releases of kedro  [ If your just learning about kedro check out this post walking through it I To get kedro running, you will need a pipeline, </description>
+      <guid>https://waylonwalker.com//kedro-in-scripts</guid>
+      <pubDate>2021-05-23</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Silence Kedro Logs</title>
+      <link>https://waylonwalker.com//kedro-silence</link>
+      <description>Kedro can have a chatty logger.  While this is super nice in production First, how does one silence a python log?  Python loggers can be retrieved by | Level   </description>
+      <guid>https://waylonwalker.com//kedro-silence</guid>
+      <pubDate>2021-05-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Python Diskcahe Is Locked</title>
+      <link>https://waylonwalker.com//locked-diskcache</link>
+      <description>Running multiple processes using the same diskcache object can cause issues Minimum reporducible error is one of my superpowers in development.  I do this Marka</description>
+      <guid>https://waylonwalker.com//locked-diskcache</guid>
+      <pubDate>2021-05-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>How I Navigate Tmux In 2021</title>
+      <link>https://waylonwalker.com//tmux-nav-2021</link>
+      <description>In 2021 I changed the way I navigate between tmux sessions big time.  Now I can Since making this post, I have made ~20 other posts in short form that all have </description>
+      <guid>https://waylonwalker.com//tmux-nav-2021</guid>
+      <pubDate>2021-05-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>What Is If __Name__ == &#34;__Main___&#34;, And How Do I Use It.</title>
+      <link>https://waylonwalker.com//if-name-main</link>
+      <description>When a python module is called it is assigned the  Let I have set this module up to execute one of two if statements based on whether Note it is not common to h</description>
+      <guid>https://waylonwalker.com//if-name-main</guid>
+      <pubDate>2021-05-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Trim Unused Git Branches</title>
+      <link>https://waylonwalker.com//trim-branches</link>
+      <description></description>
+      <guid>https://waylonwalker.com//trim-branches</guid>
+      <pubDate>2021-05-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Create A Virtual File Gallery With Symlinks</title>
+      <link>https://waylonwalker.com//symlink-gallery</link>
+      <description>Creating a directory that is a union of several directories can be achieved Here is how I am creating a virtual directory of all my projects that is a ⚠ Notice </description>
+      <guid>https://waylonwalker.com//symlink-gallery</guid>
+      <pubDate>2021-05-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>How To Install Micromamba On Linux (From The Comamnd Line Only)</title>
+      <link>https://waylonwalker.com//install-micromamba</link>
+      <description>I really like using conda ( Mamba is a reimplementation of the conda package manager in C++. parallel downloading of repository data and package files using mul</description>
+      <guid>https://waylonwalker.com//install-micromamba</guid>
+      <pubDate>2021-04-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Vim Wsl Clipboard</title>
+      <link>https://waylonwalker.com//vim-wsl-clipboard</link>
+      <description>I wsl can access clip.exe.  You can do some cool things with it, such as Let pipe streams of text into clip.exe I recently made mine feel a bit more natural by </description>
+      <guid>https://waylonwalker.com//vim-wsl-clipboard</guid>
+      <pubDate>2021-04-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Kedro Replit</title>
+      <link>https://waylonwalker.com//kedro172-replit</link>
+      <description>I am trying to see what an embeded replit</description>
+      <guid>https://waylonwalker.com//kedro172-replit</guid>
+      <pubDate>2021-04-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Zev Averbach Interview</title>
+      <link>https://waylonwalker.com//zev-averbach-interview</link>
+      <description>Zev Averbach, Q: Tell me about your journey as a spreadsheet jockey into Data Engineering? A: First of all, it I Now that I As the business grew I was spending </description>
+      <guid>https://waylonwalker.com//zev-averbach-interview</guid>
+      <pubDate>2021-04-09</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Pytest Capsys</title>
+      <link>https://waylonwalker.com//pytest-capsys</link>
+      <description>Testing print/log statements in pytest can be a bit tricky, capsys makes it capsys is a builtin pytest fixture that can be passed into any test to capture Simpl</description>
+      <guid>https://waylonwalker.com//pytest-capsys</guid>
+      <pubDate>2021-04-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Building Rich A Dev Server</title>
+      <link>https://waylonwalker.com//markata-dev-server</link>
+      <description>I I am working on a project in which I want to have a dev automatic port number auto-restart display  I am very novice at best when it comes to sockets, the fol</description>
+      <guid>https://waylonwalker.com//markata-dev-server</guid>
+      <pubDate>2021-03-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Site Down During Build</title>
+      <link>https://waylonwalker.com//site-down-during-build</link>
+      <description>Recently I noticed a new netlify site of mine was down while I was checking to Do other Netlify sites go down during build??? Short Answer NO. All of my google </description>
+      <guid>https://waylonwalker.com//site-down-during-build</guid>
+      <pubDate>2021-03-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Kedro Pipeline_Registry.Py</title>
+      <link>https://waylonwalker.com//kedro-pipeline-registry</link>
+      <description>With the realease of  create a  register_pipelines register hook_impl class You should now have something that looks like this in your pipeline I was not able t</description>
+      <guid>https://waylonwalker.com//kedro-pipeline-registry</guid>
+      <pubDate>2021-03-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Stand With Your Team</title>
+      <link>https://waylonwalker.com//stand-with-your-team</link>
+      <description>People who are quick to toss team members under a bus are not well trusted or While collaborating on any project there are going to be decisions made that Durin</description>
+      <guid>https://waylonwalker.com//stand-with-your-team</guid>
+      <pubDate>2021-01-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Blogging For Me</title>
+      <link>https://waylonwalker.com//blogging-for-me</link>
+      <description>I create this blog with one person in mind, me. This is not completely selfish, as there are likely many others out there that I am as accurate as possible.  I </description>
+      <guid>https://waylonwalker.com//blogging-for-me</guid>
+      <pubDate>2021-01-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Markdown Cli</title>
+      <link>https://waylonwalker.com//markdown-cli</link>
+      <description>This is a post that may be a work in progress for awhile, Its a collections of posts tags draft posts frontmatter filepath content template html Markdown.Markdo</description>
+      <guid>https://waylonwalker.com//markdown-cli</guid>
+      <pubDate>2021-01-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Minimal Kedro Pipeline</title>
+      <link>https://waylonwalker.com//minimal-kedro-pipeline</link>
+      <description>How small can a minimum kedro pipeline ready to package be?  I made one within 4 files that you can pip install.  It 📝 Note this is only a composable pipeline, </description>
+      <guid>https://waylonwalker.com//minimal-kedro-pipeline</guid>
+      <pubDate>2021-01-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>My Content Strategy For 2021</title>
+      <link>https://waylonwalker.com//2021-content-strategy</link>
+      <description>I am making another push in 2021 to get my content out in the world and meeting users where they are. See how I plan to execute. waylonwalker.com Twitter DEV ha</description>
+      <guid>https://waylonwalker.com//2021-content-strategy</guid>
+      <pubDate>2021-01-19</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Quickly Edit Posts</title>
+      <link>https://waylonwalker.com//quickly-edit-posts</link>
+      <description>Recently I automated starting new posts with a python script.  Today I want to [ Check out this post about setting up my posts with python 🐍 For the process of </description>
+      <guid>https://waylonwalker.com//quickly-edit-posts</guid>
+      <pubDate>2021-01-18</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Gitui Is A Blazing Fast Terminal Git Interface</title>
+      <link>https://waylonwalker.com//gitui</link>
+      <description>Gitui is a terminal-based git user interface (TUI) that will change the way Go to their  It opens blazing fast. Sometimes I edit a number of files and want to c</description>
+      <guid>https://waylonwalker.com//gitui</guid>
+      <pubDate>2021-01-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Kedro - My Data Is Not A Table</title>
+      <link>https://waylonwalker.com//kedro-pickle</link>
+      <description>In python data science/engineering most of our data is in the form of some sort These containers for data contain many convenient methods to manipulate table [ </description>
+      <guid>https://waylonwalker.com//kedro-pickle</guid>
+      <pubDate>2021-01-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Quickly Change Conda Env With Fzf</title>
+      <link>https://waylonwalker.com//quickly-change-conda-env-with-fzf</link>
+      <description>Changing conda environments is a bit verbose, I use a function with fzf that I have used conda as a virtual environment tool for years now.  I started using Wha</description>
+      <guid>https://waylonwalker.com//quickly-change-conda-env-with-fzf</guid>
+      <pubDate>2021-01-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Minimal Python Package</title>
+      <link>https://waylonwalker.com//minimal-python-package</link>
+      <description>What does it take to create an installable python package that can be hosted on pypi? setup.py my This post is somewhat inspired by the bottle framework, which </description>
+      <guid>https://waylonwalker.com//minimal-python-package</guid>
+      <pubDate>2021-01-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Vim Replace Visual Star</title>
+      <link>https://waylonwalker.com//vim-replace-visual-star</link>
+      <description>Replacing text based on whats in the current search register is a quite handy If there is one thing that I Like most about vim it Vim can often be a bit verbose</description>
+      <guid>https://waylonwalker.com//vim-replace-visual-star</guid>
+      <pubDate>2021-01-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>If Tmux</title>
+      <link>https://waylonwalker.com//if-tmux</link>
+      <description>I do much of my work from tmux, I love it so much that I want to setup some Bash function to check if the shell is in a tmux session. I often open up vim to do </description>
+      <guid>https://waylonwalker.com//if-tmux</guid>
+      <pubDate>2021-01-09</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Save Vim Macro</title>
+      <link>https://waylonwalker.com//save-vim-macro</link>
+      <description>If you are like me, you have created a macro or two that is pure glory, and you forget how you made it after a day or so, or you immediately want to store it aw</description>
+      <guid>https://waylonwalker.com//save-vim-macro</guid>
+      <pubDate>2021-01-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Live Substitution In Neovim</title>
+      <link>https://waylonwalker.com//neovim-live-substitution</link>
+      <description>Replacing text in vim can be quite frustrating especially since it doesn https://twitter.com/ I had to do a bit of searching and found a great post from  I beli</description>
+      <guid>https://waylonwalker.com//neovim-live-substitution</guid>
+      <pubDate>2021-01-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Newsboat</title>
+      <link>https://waylonwalker.com//newsboat</link>
+      <description>Web browsers are a black hole of productivity.  I try to use them as little as I am going to give a terminal rss reader a try for a bit and see how that goes I </description>
+      <guid>https://waylonwalker.com//newsboat</guid>
+      <pubDate>2021-01-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Large Refactor At The Command Line</title>
+      <link>https://waylonwalker.com//refactor-in-cli</link>
+      <description>As projects grow patterns that worked early on break and we need to change things to make the project easier to work with, and more welcoming to new developers.</description>
+      <guid>https://waylonwalker.com//refactor-in-cli</guid>
+      <pubDate>2020-12-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Ipython-Config</title>
+      <link>https://waylonwalker.com//ipython-config</link>
+      <description>I use my ipython terminal daily.  It Activate your virtual environment of choice and pip install it.  Any time you You are using a virtual environment right? Vi</description>
+      <guid>https://waylonwalker.com//ipython-config</guid>
+      <pubDate>2020-12-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Custom Ipython Prompt</title>
+      <link>https://waylonwalker.com//custom-ipython-prompt</link>
+      <description>I If you already have an ipython config you can move on otherwise check out this [ I want something similar to the starship prompt I am using in the python vers</description>
+      <guid>https://waylonwalker.com//custom-ipython-prompt</guid>
+      <pubDate>2020-12-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Automating My Post Starter</title>
+      <link>https://waylonwalker.com//automating-my-post-starter</link>
+      <description>One thing we all dread is mundane work of getting started, and all the hoops it When I start a new post I need to cd into my blog directory, start neovim in a f</description>
+      <guid>https://waylonwalker.com//automating-my-post-starter</guid>
+      <pubDate>2020-12-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Windowing Python Lists</title>
+      <link>https://waylonwalker.com//more-itertools-windowed</link>
+      <description>In python data science we often will reach for pandas a bit more than This post is a walkthrough of me solving a problem with  I am working on a  one-line-link </description>
+      <guid>https://waylonwalker.com//more-itertools-windowed</guid>
+      <pubDate>2020-12-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Adding Audio To My Blog Posts</title>
+      <link>https://waylonwalker.com//audio-for-blog</link>
+      <description>This is episode 1 of the Waylon Walker Audio experience, posts from So I have had this idea for awhile to add audio to my blog posts.  The idea Honestly I don I</description>
+      <guid>https://waylonwalker.com//audio-for-blog</guid>
+      <pubDate>2020-11-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Gatsby-Remark-Embedder</title>
+      <link>https://waylonwalker.com//gatsby-remark-embedder</link>
+      <description>Inspired by discourse&#39;s link expansion I am rolling out expansions for one line links on the blog</description>
+      <guid>https://waylonwalker.com//gatsby-remark-embedder</guid>
+      <pubDate>2020-11-18</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Expand One Line Links</title>
+      <link>https://waylonwalker.com//expand-one-line-links</link>
+      <description>I wanted a super simple way to cross-link blog posts that require as little effort as possible, yet still looks good in vanilla markdown in GitHub.  I have been</description>
+      <guid>https://waylonwalker.com//expand-one-line-links</guid>
+      <pubDate>2020-11-18</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Find And Replace In The Terminal.</title>
+      <link>https://waylonwalker.com//find-replace</link>
+      <description>notes about find and replace techniques</description>
+      <guid>https://waylonwalker.com//find-replace</guid>
+      <pubDate>2020-11-12</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Resume Tips</title>
+      <link>https://waylonwalker.com//resume-tips</link>
+      <description>customize for the job Why are you a good fit? What will you bring to the role? Give real outcomes give real experience Stop tech vomiting if you link to GitHub </description>
+      <guid>https://waylonwalker.com//resume-tips</guid>
+      <pubDate>2020-11-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Codeit Bro Interview</title>
+      <link>https://waylonwalker.com//codeit-bro-interview</link>
+      <description>use this profile image Please share your professional role as a data scientist?  I graduated with a Mechanical Engineering Degree 8 years ago. Much of my work T</description>
+      <guid>https://waylonwalker.com//codeit-bro-interview</guid>
+      <pubDate>2020-11-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Reasons-To-Kedro</title>
+      <link>https://waylonwalker.com//reasons-to-kedro</link>
+      <description>There are many reasons that you should be using kedro.  If you are on a team of [ Kedro makes it super easy to get started with their cli that utilizes [ read m</description>
+      <guid>https://waylonwalker.com//reasons-to-kedro</guid>
+      <pubDate>2020-11-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Reasons To Kedro</title>
+      <link>https://waylonwalker.com//reasons-to-kedro-notes</link>
+      <description>collaboration Sharable catalog small nodes over monolithic notebooks catalog easily load anything without needing to run No need to write read/write code pipeli</description>
+      <guid>https://waylonwalker.com//reasons-to-kedro-notes</guid>
+      <pubDate>2020-10-31</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Reading List</title>
+      <link>https://waylonwalker.com//reading-list</link>
+      <description>Things to read later</description>
+      <guid>https://waylonwalker.com//reading-list</guid>
+      <pubDate>2020-10-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>What&#39;S New In Kedro 0.16.6</title>
+      <link>https://waylonwalker.com//whats-new-in-kedro-0166</link>
+      <description>This version of kedro releases a new set of supported deployment options and the spaceflights pipeline is officially added as a starter alias.</description>
+      <guid>https://waylonwalker.com//whats-new-in-kedro-0166</guid>
+      <pubDate>2020-10-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>A Brain Dump Of Stories</title>
+      <link>https://waylonwalker.com//stories-10-10-2020-10-21-2020</link>
+      <description>I started making stories as kind of a brain dump a few times per day and I store all the stories on my website with the hopes of doing something with</description>
+      <guid>https://waylonwalker.com//stories-10-10-2020-10-21-2020</guid>
+      <pubDate>2020-10-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Fix Git Commit Author</title>
+      <link>https://waylonwalker.com//fix-git-commit-author</link>
+      <description>I was 20 commits into a hackoberfest PR when I suddenly realized they they all had my work email on them instead of my personal email 😱.</description>
+      <guid>https://waylonwalker.com//fix-git-commit-author</guid>
+      <pubDate>2020-10-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Designing A &#34;Router&#34; For Kedro</title>
+      <link>https://waylonwalker.com//designing-kedro-router</link>
+      <description>I released a router-like plugin for kedro back in April 2020.  This was not the first design, the idea actually came from one of the QB folks who taught me kedr</description>
+      <guid>https://waylonwalker.com//designing-kedro-router</guid>
+      <pubDate>2020-10-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Reclaim Memory Usage In Jupyter</title>
+      <link>https://waylonwalker.com//reset-ipython</link>
+      <description>Today I ran into an issue where we had a one-off script that just needed to It started with a colleague asking me How do I clear the memory in a Jupyter How do </description>
+      <guid>https://waylonwalker.com//reset-ipython</guid>
+      <pubDate>2020-10-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Strip Trailing Whitespace From Git Projects</title>
+      <link>https://waylonwalker.com//strip-trailing-whitespace</link>
+      <description>A common linting error thrown by various linters is for trailing whitespace.  I read more about how  </description>
+      <guid>https://waylonwalker.com//strip-trailing-whitespace</guid>
+      <pubDate>2020-09-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Chrome Extensions I Use</title>
+      <link>https://waylonwalker.com//chrome-extensions-i-use</link>
+      <description>There are many useful chrome extensions out there.  I probably have way too many installed, here are four that I am currently using. This post was inspired from</description>
+      <guid>https://waylonwalker.com//chrome-extensions-i-use</guid>
+      <pubDate>2020-09-13</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Creating Reusable Bash Scripts</title>
+      <link>https://waylonwalker.com//reusable-bash</link>
+      <description>Bash is a language that is quite useful for automation no matter what language I have three techniques that help me write more composable bash scripts. Function</description>
+      <guid>https://waylonwalker.com//reusable-bash</guid>
+      <pubDate>2020-08-13</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Three Things To Automate With Python Using Pandas</title>
+      <link>https://waylonwalker.com//3-things-to-automate-with-python</link>
+      <description>Here are three things that I see my non programming counterparts doing every single day.  These really sum up so much of what folks do within an office.  So man</description>
+      <guid>https://waylonwalker.com//3-things-to-automate-with-python</guid>
+      <pubDate>2020-08-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>How To Install Miniconda On Linux (From The Command Line Only)</title>
+      <link>https://waylonwalker.com//install-miniconda</link>
+      <description>Installing miniconda from only the command line can be a bit of an intimidating task your first time. Lets walk through how to do it.</description>
+      <guid>https://waylonwalker.com//install-miniconda</guid>
+      <pubDate>2020-08-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>How To Crush Amazing Posts On Dev</title>
+      <link>https://waylonwalker.com//crush-dev-to-posts</link>
+      <description>Here are a few of my top tips to help make dev.to posts more readable, and drive better engagement.</description>
+      <guid>https://waylonwalker.com//crush-dev-to-posts</guid>
+      <pubDate>2020-08-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Review Of The Git-Auto-Commit-Action</title>
+      <link>https://waylonwalker.com//git-auto-commit-action-review</link>
+      <description>It Check out the repo for  It This has been by far the easiest way to commit back to a repo that I have seen.  Other patterns often require fully setting up the</description>
+      <guid>https://waylonwalker.com//git-auto-commit-action-review</guid>
+      <pubDate>2020-08-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Black Tech Pipeline</title>
+      <link>https://waylonwalker.com//pariss-athena-on-black-tech-pipeline</link>
+      <description>I was particularly inspired by @chantastic episode 103 of the react podcast with @ParissAthena. They spoke about the black tech pipeline as well as Diversity, E</description>
+      <guid>https://waylonwalker.com//pariss-athena-on-black-tech-pipeline</guid>
+      <pubDate>2020-08-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>What&#39;S New In Kedro 0.16.4</title>
+      <link>https://waylonwalker.com//whats-new-in-kedro-0164</link>
+      <description>If we take a look at the  This one comes a bit surprising as it was just casually mentioned in  As mentioned in  It feels a bit crazy that simply installing a p</description>
+      <guid>https://waylonwalker.com//whats-new-in-kedro-0164</guid>
+      <pubDate>2020-08-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Integration Testing With Python, Testproject.Io, And Github Actions</title>
+      <link>https://waylonwalker.com//testproject-io-py-actions</link>
+      <description>As I continue to build out  Running integration tests will not prevent bugs from happening completely, but it will allow me to quickly spot them and rollback. T</description>
+      <guid>https://waylonwalker.com//testproject-io-py-actions</guid>
+      <pubDate>2020-07-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>🐍 Practice Python Online</title>
+      <link>https://waylonwalker.com//practice-python-online</link>
+      <description>When learning a new skill it When learning a new skill it Here are three different options that I have used in the past to try out something at some various lev</description>
+      <guid>https://waylonwalker.com//practice-python-online</guid>
+      <pubDate>2020-07-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>New Machine For Developing Tests With Testproject.Io</title>
+      <link>https://waylonwalker.com//new-machine-tpio</link>
+      <description>Today I setup a new machine on Digital Ocean to use with TestProject.io, Here are my installation notes.</description>
+      <guid>https://waylonwalker.com//new-machine-tpio</guid>
+      <pubDate>2020-07-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Kedro Catalog</title>
+      <link>https://waylonwalker.com//kedro-catalog</link>
+      <description>I am exploring a kedro catalog meta data hook</description>
+      <guid>https://waylonwalker.com//kedro-catalog</guid>
+      <pubDate>2020-07-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>How Python Tools Configure</title>
+      <link>https://waylonwalker.com//how-python-tools-config</link>
+      <description>Mypy only uses pyproject.toml only uses pyproject.toml</description>
+      <guid>https://waylonwalker.com//how-python-tools-config</guid>
+      <pubDate>2020-07-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Edit On Github</title>
+      <link>https://waylonwalker.com//edit-on-github</link>
+      <description>I recently added a button to my blog, and subsequently my posts on I refer back to my old posts quite a bit, sometimes I find errors in them. The slug that I am</description>
+      <guid>https://waylonwalker.com//edit-on-github</guid>
+      <pubDate>2020-07-18</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Why Use A Cms</title>
+      <link>https://waylonwalker.com//why-use-cms</link>
+      <description>When first learning to code its very common to hard code everything right into Hard coding everything right into your code makes it really hard for The cms gene</description>
+      <guid>https://waylonwalker.com//why-use-cms</guid>
+      <pubDate>2020-07-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>🐍 Parsing Rss Feeds With Python</title>
+      <link>https://waylonwalker.com//parsing-rss-python</link>
+      <description>I am looking into a way to replace my google reader experience that I had back This is how I used python to parse rss and setup my own custom feed. Install the </description>
+      <guid>https://waylonwalker.com//parsing-rss-python</guid>
+      <pubDate>2020-07-13</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Reader-2020</title>
+      <link>https://waylonwalker.com//reader-2020</link>
+      <description>Notes about my reader idea</description>
+      <guid>https://waylonwalker.com//reader-2020</guid>
+      <pubDate>2020-07-12</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>🤓 What&#39;S On Your Github Profile</title>
+      <link>https://waylonwalker.com//whats-on-your-github-profile</link>
+      <description>I ran this post on dev.to and got a great response of great examples,  The GitHub profile feature just went live for a subset of users.  Simply creating a repo </description>
+      <guid>https://waylonwalker.com//whats-on-your-github-profile</guid>
+      <pubDate>2020-07-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>🙋‍♂️ Can Anyone Explain Twitter Cards To Me?</title>
+      <link>https://waylonwalker.com//explain-twitter-cards</link>
+      <description>Can someone explain how or why twitter cards render differently from device to device?  I do understand that twitter cards a built from meta tags, the full list</description>
+      <guid>https://waylonwalker.com//explain-twitter-cards</guid>
+      <pubDate>2020-07-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>How I Built My Github Profile</title>
+      <link>https://waylonwalker.com//my-github-profile</link>
+      <description>I ran a discussion on dev that collected quite a list of examples in the comment section.  So many great calls to action, animations, memes, and weird tricks. U</description>
+      <guid>https://waylonwalker.com//my-github-profile</guid>
+      <pubDate>2020-07-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Slides - Understanding Python \*Args And \*\*Kwargs</title>
+      <link>https://waylonwalker.com//python-args-kwargs-slides</link>
+      <description>Python  I generally post these as a carousel on LinkedIn based on a full article.  Let mw know what you think of it shown inside of a blog  See the full article</description>
+      <guid>https://waylonwalker.com//python-args-kwargs-slides</guid>
+      <pubDate>2020-07-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Gracefully Adopt Kedro, The Catalog</title>
+      <link>https://waylonwalker.com//graceful-kedro-catalog</link>
+      <description>While using the catalog alone will not reap all of the benefits of the framework, it does get you and your project ready for the full framework eventually.  For</description>
+      <guid>https://waylonwalker.com//graceful-kedro-catalog</guid>
+      <pubDate>2020-06-29</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>How To Find Things In Your Kedro Catalog</title>
+      <link>https://waylonwalker.com//kedro-catalog-search</link>
+      <description>kedro 0.16.2 just dropped last week with a long-awaited feature...  The kedro data catalog is a key component to the kedro framework.  It handles all data loadi</description>
+      <guid>https://waylonwalker.com//kedro-catalog-search</guid>
+      <pubDate>2020-06-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>How Kedro Handles Your Inputs</title>
+      <link>https://waylonwalker.com//kedro-inputs</link>
+      <description>Passing inputs into kedro is a key concept.  Understanding how it accepts a Check out this post for a review of how  [ When kedro runs your pipeline it uses the</description>
+      <guid>https://waylonwalker.com//kedro-inputs</guid>
+      <pubDate>2020-06-19</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>My First Eight Years As A Working Professional.</title>
+      <link>https://waylonwalker.com//eight-years-cat</link>
+      <description>This day 8 years ago I started my first day as a Mechanical Engineer. I am so My initial career plans were down a completely different path. I have been very fl</description>
+      <guid>https://waylonwalker.com//eight-years-cat</guid>
+      <pubDate>2020-06-19</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Refactoring Your Blog Urls</title>
+      <link>https://waylonwalker.com//gracefully-redirect</link>
+      <description>I just did a quick refactoring of my JAMStack blog urls.  Some didn [ When refactorings similar to this get really big I often need to do some My post urls are </description>
+      <guid>https://waylonwalker.com//gracefully-redirect</guid>
+      <pubDate>2020-06-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Master No More</title>
+      <link>https://waylonwalker.com//master-no-more</link>
+      <description>It [ this post follows my method of refactoring code bases from the command line, First off browsing through the content of my blog I found many references to m</description>
+      <guid>https://waylonwalker.com//master-no-more</guid>
+      <pubDate>2020-06-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Understanding Python \*Args And \*\*Kwargs</title>
+      <link>https://waylonwalker.com//python-args-kwargs</link>
+      <description>Python  Python  * When recieving variables as a  Never add  Generally I find  If your  Here  Here the function signature makes it clear what  Inversely we can s</description>
+      <guid>https://waylonwalker.com//python-args-kwargs</guid>
+      <pubDate>2020-06-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Pre-Commit Is Awesome</title>
+      <link>https://waylonwalker.com//pre-commit-is-awesome</link>
+      <description>I recently discovered the ✨ awesomeness that is pre-commit. I steered away I recently discovered the ✨ awesomeness that is pre-commit. I steered away from it fo</description>
+      <guid>https://waylonwalker.com//pre-commit-is-awesome</guid>
+      <pubDate>2020-06-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Building Kedro.Dev</title>
+      <link>https://waylonwalker.com//building-kedro-dev</link>
+      <description>This is my journey to building up the community page.</description>
+      <guid>https://waylonwalker.com//building-kedro-dev</guid>
+      <pubDate>2020-06-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Kedro Static Viz 0.3.0 Is Out With Hooks Support</title>
+      <link>https://waylonwalker.com//kedro-static-viz-0-3-0</link>
+      <description>Even though it is a static site there is no functionality lost.  The only thing that Even though it Kedro viz is a fantastic kedro plugin that allows you to vis</description>
+      <guid>https://waylonwalker.com//kedro-static-viz-0-3-0</guid>
+      <pubDate>2020-05-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Create Configurable Kedro Hooks</title>
+      <link>https://waylonwalker.com//kedro-class-hooks</link>
+      <description>There are two main ways to create kedro hooks, with modules and classes.  Each Class hooks seem a bit special as they give you a way to configure them so that t</description>
+      <guid>https://waylonwalker.com//kedro-class-hooks</guid>
+      <pubDate>2020-05-23</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Brainstorming Kedro Hooks</title>
+      <link>https://waylonwalker.com//brainstorming-kedro-hooks</link>
+      <description>This post is a 🧠 branstorming work in progress.  I will likely use it as a If you are completely unsure what kedro is be sure to check out my  filepath replacer</description>
+      <guid>https://waylonwalker.com//brainstorming-kedro-hooks</guid>
+      <pubDate>2020-05-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Gatsby Scripts With Onload</title>
+      <link>https://waylonwalker.com//gatsby-scripts-with-onload</link>
+      <description>This might be useful</description>
+      <guid>https://waylonwalker.com//gatsby-scripts-with-onload</guid>
+      <pubDate>2020-05-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>How To Get Dev Comments From An Article Url</title>
+      <link>https://waylonwalker.com//devto-comments-from-url</link>
+      <description>I want to incorporate some of the wonderful comments,  I want to incorporate some of the wonderful comments, 💕, 🦄, and 🔖 dev.to has an open API that allows us t</description>
+      <guid>https://waylonwalker.com//devto-comments-from-url</guid>
+      <pubDate>2020-05-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Four Github Actions For Your Website</title>
+      <link>https://waylonwalker.com//four-github-actions-website</link>
+      <description>GitHub GitHub actions can give you confidence that your site is up and running, with the latest JavaScript packages, does not have broken links, and can even ta</description>
+      <guid>https://waylonwalker.com//four-github-actions-website</guid>
+      <pubDate>2020-05-18</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Adding Google Fonts To A Gatsbyjs Site</title>
+      <link>https://waylonwalker.com//adding-google-fonts-to-a-gatsbyjs-site</link>
+      <description>https://stackoverflow.com/questions/47488440/how-do-i-add-google-fonts-to-a-gatsby-site</description>
+      <guid>https://waylonwalker.com//adding-google-fonts-to-a-gatsbyjs-site</guid>
+      <pubDate>2020-05-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Interrogate Is A Pretty Awesome, Brand New, Cli For Python Packages</title>
+      <link>https://waylonwalker.com//interrogate</link>
+      <description>dead simple docstring coverage for your python project</description>
+      <guid>https://waylonwalker.com//interrogate</guid>
+      <pubDate>2020-05-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Create Custom Kedro Dataset</title>
+      <link>https://waylonwalker.com//create-custom-kedro-dataset</link>
+      <description>Kedro provides an efficient way to build out data catalogs with their yaml api.  It allows you to be very declaritive about loading and saving your data.  For t</description>
+      <guid>https://waylonwalker.com//create-custom-kedro-dataset</guid>
+      <pubDate>2020-05-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Drawing Ascii Boxes</title>
+      <link>https://waylonwalker.com//drawing-ascii-boxes</link>
+      <description>I always struggle to find a good reference of ascii characters.  This is a compilation of my most wanted ascii characters.</description>
+      <guid>https://waylonwalker.com//drawing-ascii-boxes</guid>
+      <pubDate>2020-05-12</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Creating The Kedro-Preflight Hook</title>
+      <link>https://waylonwalker.com//creating-the-kedro-preflight-hook</link>
+      <description>Kedro Hooks Intro - kedro hooks are an exciting upcoming feature of kedro kedro hooks are an exciting upcoming feature of kedro  [ If you are completely unsure </description>
+      <guid>https://waylonwalker.com//creating-the-kedro-preflight-hook</guid>
+      <pubDate>2020-05-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>📝 Kedro Preflight Notes</title>
+      <link>https://waylonwalker.com//kedro-preflight</link>
+      <description>run checks before running the pipeline</description>
+      <guid>https://waylonwalker.com//kedro-preflight</guid>
+      <pubDate>2020-05-09</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Maintianing Multiple Git Remotes</title>
+      <link>https://waylonwalker.com//maintianing-multiple-git-remotes</link>
+      <description></description>
+      <guid>https://waylonwalker.com//maintianing-multiple-git-remotes</guid>
+      <pubDate>2020-05-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>📢 Announcing Find-Kedro</title>
+      <link>https://waylonwalker.com//find-kedro-release</link>
+      <description>kedro is an amazing project that allows for super-fast prototyping of data pipelines, yet yielding production-ready pipelines. find-kedro enhances this experience by adding a pytest-like node discovery eliminating the need to bubble up pipelines through modules.</description>
+      <guid>https://waylonwalker.com//find-kedro-release</guid>
+      <pubDate>2020-05-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Explicit Vs Implicit Returns In Javascript</title>
+      <link>https://waylonwalker.com//explicit-vs-implicit-returns-in-javascript</link>
+      <description>Often when reading through javascript examples you will find some arrow Arrow functions are one-liner functions in javascript that have two main syntactical way</description>
+      <guid>https://waylonwalker.com//explicit-vs-implicit-returns-in-javascript</guid>
+      <pubDate>2020-05-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Twitter Deepdives</title>
+      <link>https://waylonwalker.com//twitter-deepdives</link>
+      <description>Inspired by Chris Achard List comps Classes Inheritance Background Click Lambdas Cataloging Custom datasets Reusable pipelines find-kedro Email course inspired </description>
+      <guid>https://waylonwalker.com//twitter-deepdives</guid>
+      <pubDate>2020-05-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Til: Bind Arguments To Dynamically Generated Lambdas In Python</title>
+      <link>https://waylonwalker.com//bind-dynamic-lambdas</link>
+      <description>This past week I had a really weird bug in my After a few days of looking at it off and on, I pinpointed that it was all the way down in the raw layer. Right as</description>
+      <guid>https://waylonwalker.com//bind-dynamic-lambdas</guid>
+      <pubDate>2020-04-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Python-Deepwatch</title>
+      <link>https://waylonwalker.com//python-deepwatch</link>
+      <description>Is it possible to deep watch a single python function for changes? keeping track of a python functions hash is quite simple. There is a Using hashlib provides a</description>
+      <guid>https://waylonwalker.com//python-deepwatch</guid>
+      <pubDate>2020-04-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Four Github Actions For Python</title>
+      <link>https://waylonwalker.com//four-github-actions-python</link>
+      <description>If you are developing python packages and using GitHub here are four actions If you are developing python packages and using GitHub here are four actions that y</description>
+      <guid>https://waylonwalker.com//four-github-actions-python</guid>
+      <pubDate>2020-04-13</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Variables Names Don&#39;T Need Their Type</title>
+      <link>https://waylonwalker.com//variable-names-don-t-need-their-type</link>
+      <description>So often I see a variables  Pandas  Sometimes vanilla structures too It Always name your containers plural, so that naming while iterating is simple. Before I s</description>
+      <guid>https://waylonwalker.com//variable-names-don-t-need-their-type</guid>
+      <pubDate>2020-04-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Send Emails With Github Actions</title>
+      <link>https://waylonwalker.com//send-email-with-github-actions</link>
+      <description>Here is one useful thing that you can do with GitHub actions no matter what language you use, send email.  You might want to know right away when your ci passes</description>
+      <guid>https://waylonwalker.com//send-email-with-github-actions</guid>
+      <pubDate>2020-03-31</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>What Are Github Actions</title>
+      <link>https://waylonwalker.com//what-are-github-actions</link>
+      <description>GitHub actions are an amazing tool that allows us to run code based on triggers I have been diving deep into Github actions for about a month now and they are w</description>
+      <guid>https://waylonwalker.com//what-are-github-actions</guid>
+      <pubDate>2020-03-16</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Getting Started With Github Actions</title>
+      <link>https://waylonwalker.com//github-actions-syntax</link>
+      <description>Github actions are written in configuration files using the YAML syntax.  YAML Can I just say that I learned more than I realized about YAML by writing this In </description>
+      <guid>https://waylonwalker.com//github-actions-syntax</guid>
+      <pubDate>2020-03-16</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Today I Learned `Git Diff Feature..Main`</title>
+      <link>https://waylonwalker.com//git-diff-branches</link>
+      <description>Sometimes we get a little `git add . &amp;&amp; git commit -m &#34;WIP&#34;` happy and mistakenly commit something that we just cant figure out.  This is a good way to figure out what the heck has changed on the current branch compared to any other branch.</description>
+      <guid>https://waylonwalker.com//git-diff-branches</guid>
+      <pubDate>2020-03-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Create New Kedro Project</title>
+      <link>https://waylonwalker.com//create-new-kedro-project</link>
+      <description>This is a quickstart to getting a new  🧹 Install  🛢 Create the Example Pipeline 💨 Run the example 📉 Show the pipeline visualization I use conda to control my vi</description>
+      <guid>https://waylonwalker.com//create-new-kedro-project</guid>
+      <pubDate>2020-03-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>What Is Your Advice For New Data Scientists</title>
+      <link>https://waylonwalker.com//data-scientist-advice</link>
+      <description>Learn the business Learn Git Your code does not need to be amazing Keep Learning You dont have to start out as a git wizard with the cleanest possible commit hi</description>
+      <guid>https://waylonwalker.com//data-scientist-advice</guid>
+      <pubDate>2020-02-26</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Do You Hoist</title>
+      <link>https://waylonwalker.com//do-you-hoist</link>
+      <description>Do you have any use cases that you use hoising?  Why?  It seems like a really cool feature in any language that uses it, but I dont really notice it in use.</description>
+      <guid>https://waylonwalker.com//do-you-hoist</guid>
+      <pubDate>2020-02-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>What Is Kedro</title>
+      <link>https://waylonwalker.com//what-is-kedro-1</link>
+      <description>[ This is my original what-is-kedro article.  There is a brand new one Kedro is an open source data pipeline framework.  It provides guardrails to set Currently</description>
+      <guid>https://waylonwalker.com//what-is-kedro-1</guid>
+      <pubDate>2020-02-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Custom Scrollbar Design</title>
+      <link>https://waylonwalker.com//custom-scrollbar-design</link>
+      <description>Getting a custom scrollbar on your site makes it stand out a bit compared to Inspired by Wes Bos Since  My first step was to take his css and copy it into a sty</description>
+      <guid>https://waylonwalker.com//custom-scrollbar-design</guid>
+      <pubDate>2020-02-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Don’T Waste Your Time Learning Everything</title>
+      <link>https://waylonwalker.com//don-t-waste-your-time-learning-everything</link>
+      <description>Stick to what you know, and learn a little bit of something new every day.</description>
+      <guid>https://waylonwalker.com//don-t-waste-your-time-learning-everything</guid>
+      <pubDate>2020-02-19</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>2020 Waylonwalker.Com Rebrand</title>
+      <link>https://waylonwalker.com//2020-rebrand</link>
+      <description>I documented the story of my 2020 waylonwalker.com redesign on my blog.  This post walks through the tools and inspiration for the card design.</description>
+      <guid>https://waylonwalker.com//2020-rebrand</guid>
+      <pubDate>2020-02-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>I Just Added React-Headroom To My Site</title>
+      <link>https://waylonwalker.com//react-headroom</link>
+      <description>It was so easy to get a professional looking navbar with just 3 lines of code. installation is easy There was no instructions for es6 style imports that are com</description>
+      <guid>https://waylonwalker.com//react-headroom</guid>
+      <pubDate>2020-02-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Serverless Things To Investigate</title>
+      <link>https://waylonwalker.com//serverless-things-to-investigate</link>
+      <description>Free only one step is free can take rss to social Free to get started Free 7 day trial $4.99 cheapest after</description>
+      <guid>https://waylonwalker.com//serverless-things-to-investigate</guid>
+      <pubDate>2020-02-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>I Finally Fixed My Styled-Components In Gatsby.Js</title>
+      <link>https://waylonwalker.com//fix-styled-components-in-gatsby</link>
+      <description>I finally fixed my Styled-Components in gatsby.js. I am starting a redesign of I have a small issue that has plagued the site for at least a year I have been us</description>
+      <guid>https://waylonwalker.com//fix-styled-components-in-gatsby</guid>
+      <pubDate>2020-02-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Should I Switch To Zeit Now</title>
+      <link>https://waylonwalker.com//should-i-switch-to-zeit-now</link>
+      <description>Should I switch to Zeit Now.  Netlify build times are starting to creep in.</description>
+      <guid>https://waylonwalker.com//should-i-switch-to-zeit-now</guid>
+      <pubDate>2020-02-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Git Push Without Setting Upstream</title>
+      <link>https://waylonwalker.com//git-push-without-setting-upstream</link>
+      <description>Finally after years of hand typing out a full  This one setting will now </description>
+      <guid>https://waylonwalker.com//git-push-without-setting-upstream</guid>
+      <pubDate>2020-02-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Out Of Space</title>
+      <link>https://waylonwalker.com//out-of-space</link>
+      <description>Out of Space! How to remove 65 conda environments in one command.</description>
+      <guid>https://waylonwalker.com//out-of-space</guid>
+      <pubDate>2020-02-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Simple Click</title>
+      <link>https://waylonwalker.com//simple-click</link>
+      <description>Add helpful cli to your python libraries... All of them!</description>
+      <guid>https://waylonwalker.com//simple-click</guid>
+      <pubDate>2020-01-29</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Personal Url Shortener With Netlify Redirects</title>
+      <link>https://waylonwalker.com//personal-url-shortener</link>
+      <description>Personal URL shortener with Netlify Redirects</description>
+      <guid>https://waylonwalker.com//personal-url-shortener</guid>
+      <pubDate>2020-01-29</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Cmd.Exe Tips</title>
+      <link>https://waylonwalker.com//cmd-exe-tips</link>
+      <description>cmd.exe tips</description>
+      <guid>https://waylonwalker.com//cmd-exe-tips</guid>
+      <pubDate>2020-01-23</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>What Is Something You Should Have Learned Or Understood Earlier?</title>
+      <link>https://waylonwalker.com//learn-early</link>
+      <description>What is something that you recently learned that you wish you would have learned or understood earlier?</description>
+      <guid>https://waylonwalker.com//learn-early</guid>
+      <pubDate>2020-01-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Supercharge Zsh Startup</title>
+      <link>https://waylonwalker.com//supercharge-zsh-startup</link>
+      <description>I have been using oh-my-zsh successfully for about 2 years now. But lately my I believe the real issue is io speed on wsl.  I have some remote servers with Quic</description>
+      <guid>https://waylonwalker.com//supercharge-zsh-startup</guid>
+      <pubDate>2020-01-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Keep Location List Closed</title>
+      <link>https://waylonwalker.com//keep-location-list-closed</link>
+      <description>Vim Location List eating up the screen while I am zoomed in and trying to live code Through some google search I found the culprit was syntastic.  It has an  I </description>
+      <guid>https://waylonwalker.com//keep-location-list-closed</guid>
+      <pubDate>2020-01-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Sqlalchemy Models</title>
+      <link>https://waylonwalker.com//sqlalchemy-models</link>
+      <description>My Notes about using sqlalchemy models</description>
+      <guid>https://waylonwalker.com//sqlalchemy-models</guid>
+      <pubDate>2019-12-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Building Cli Apps In Python</title>
+      <link>https://waylonwalker.com//building-cli-apps-in-python</link>
+      <description>learning about building cli apps in python</description>
+      <guid>https://waylonwalker.com//building-cli-apps-in-python</guid>
+      <pubDate>2019-11-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Kedro</title>
+      <link>https://waylonwalker.com//kedro</link>
+      <description>My Notes about using kedro</description>
+      <guid>https://waylonwalker.com//kedro</guid>
+      <pubDate>2019-11-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>📝 Packages To Investigate Notes</title>
+      <link>https://waylonwalker.com//packages-to-investigate</link>
+      <description>jmespath Tabnine |-|-| I definitely want to try this out with kedro. Bulwark is a package for convenient property-based testing of pandas dataframes, supported </description>
+      <guid>https://waylonwalker.com//packages-to-investigate</guid>
+      <pubDate>2019-10-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Debugging Python</title>
+      <link>https://waylonwalker.com//debugging-python</link>
+      <description>Debugging Python</description>
+      <guid>https://waylonwalker.com//debugging-python</guid>
+      <pubDate>2019-10-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Just Use Pathlib</title>
+      <link>https://waylonwalker.com//just-use-pathlib</link>
+      <description>Pathlib is an amazing cross-platform path tool.</description>
+      <guid>https://waylonwalker.com//just-use-pathlib</guid>
+      <pubDate>2019-09-26</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Custom Python Exceptions</title>
+      <link>https://waylonwalker.com//custom-python-exceptions</link>
+      <description>Custom Python Exceptions</description>
+      <guid>https://waylonwalker.com//custom-python-exceptions</guid>
+      <pubDate>2019-09-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Filtering Pandas</title>
+      <link>https://waylonwalker.com//filtering-pandas</link>
+      <description>Filtering pandas DataFrames many different ways.</description>
+      <guid>https://waylonwalker.com//filtering-pandas</guid>
+      <pubDate>2019-09-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Digital Ocean</title>
+      <link>https://waylonwalker.com//digital-ocean</link>
+      <description>I love digital ocean for it</description>
+      <guid>https://waylonwalker.com//digital-ocean</guid>
+      <pubDate>2019-09-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Quick Progress Bars In Python Using Tqdm</title>
+      <link>https://waylonwalker.com//quick-progress-bars-in-python-using-tqdm</link>
+      <description>Quick Progress Bars in python using TQDM</description>
+      <guid>https://waylonwalker.com//quick-progress-bars-in-python-using-tqdm</guid>
+      <pubDate>2019-09-18</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Clean Up Your Data Science With Named Tuples</title>
+      <link>https://waylonwalker.com//named-tuples-data-science</link>
+      <description>If you are a regular listener of  As you graduate your scripts into modules and libraries you might start to notice that you need to pass a lot of data around t</description>
+      <guid>https://waylonwalker.com//named-tuples-data-science</guid>
+      <pubDate>2019-09-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Background Tasks In Python For Data Science</title>
+      <link>https://waylonwalker.com//python-data-science-background</link>
+      <description>This post is intended as an extension/update from  This post is intended as an extension/update from  I use it in more places than I probably should Before we g</description>
+      <guid>https://waylonwalker.com//python-data-science-background</guid>
+      <pubDate>2019-09-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Autoreload In Ipython</title>
+      <link>https://waylonwalker.com//autoreload-ipython</link>
+      <description>Autoreload in python</description>
+      <guid>https://waylonwalker.com//autoreload-ipython</guid>
+      <pubDate>2019-09-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>📝 Bash Notes</title>
+      <link>https://waylonwalker.com//bash</link>
+      <description>Waylon Walker&#39;s Bash Notes</description>
+      <guid>https://waylonwalker.com//bash</guid>
+      <pubDate>2019-09-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Keyboard Driven Vscode</title>
+      <link>https://waylonwalker.com//keyboard-driven-vscode</link>
+      <description>Reimagining my tmux configuration inside of vscode.</description>
+      <guid>https://waylonwalker.com//keyboard-driven-vscode</guid>
+      <pubDate>2019-07-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Realistic Git Workflow</title>
+      <link>https://waylonwalker.com//realistic-git-workflow</link>
+      <description>My git workflow based on real life.  Its  not always clean and simple. As complicated as that seems it is pretty straight forward.  When you sit down to work th</description>
+      <guid>https://waylonwalker.com//realistic-git-workflow</guid>
+      <pubDate>2019-05-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Forestry.Io</title>
+      <link>https://waylonwalker.com//forestry-io</link>
+      <description>Creating Posts from forestry.io.</description>
+      <guid>https://waylonwalker.com//forestry-io</guid>
+      <pubDate>2019-04-23</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Rewrite History With Git</title>
+      <link>https://waylonwalker.com//git-rewrite-history</link>
+      <description>rebase git commit --amend rage quit git reset HEAD~n  removes modifications keeps hitsory of changes and undoes them git checkout HEAD~n --  keeps modifications</description>
+      <guid>https://waylonwalker.com//git-rewrite-history</guid>
+      <pubDate>2019-02-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Rewrite History With Git</title>
+      <link>https://waylonwalker.com//git-rewrite-history</link>
+      <description>rebase git commit --amend rage quit git reset HEAD~n  removes modifications keeps hitsory of changes and undoes them git checkout HEAD~n --  keeps modifications</description>
+      <guid>https://waylonwalker.com//git-rewrite-history</guid>
+      <pubDate>2019-02-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>It&#39;S Not All About Winning</title>
+      <link>https://waylonwalker.com//journey</link>
+      <description>This is my story into data science.</description>
+      <guid>https://waylonwalker.com//journey</guid>
+      <pubDate>2019-02-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Update Git User</title>
+      <link>https://waylonwalker.com//git-update-user</link>
+      <description>This morning I log into my VCS and check activity on my projects to find that  Clone the repo, note it must be a  Curl down the  Run the script, and push the up</description>
+      <guid>https://waylonwalker.com//git-update-user</guid>
+      <pubDate>2019-01-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>2019 Goals</title>
+      <link>https://waylonwalker.com//goals-2019</link>
+      <description>2019 goals</description>
+      <guid>https://waylonwalker.com//goals-2019</guid>
+      <pubDate>2019-01-12</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>2018 Retrospective</title>
+      <link>https://waylonwalker.com//2018-retrospective</link>
+      <description>2018 was a year of many ups and downs, and learning to deal with a whole new At home the doctor appointments keep piling in.  While I am learning to deal Here a</description>
+      <guid>https://waylonwalker.com//2018-retrospective</guid>
+      <pubDate>2019-01-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Do More Of What Brings You Joy</title>
+      <link>https://waylonwalker.com//happy</link>
+      <description>happiness in the workplace</description>
+      <guid>https://waylonwalker.com//happy</guid>
+      <pubDate>2019-01-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Generating Readme Tables From Pandas</title>
+      <link>https://waylonwalker.com//readme-tables</link>
+      <description>none</description>
+      <guid>https://waylonwalker.com//readme-tables</guid>
+      <pubDate>2018-05-16</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Pycon 2018 Roundup</title>
+      <link>https://waylonwalker.com//pycon-2018-roundup</link>
+      <description>none</description>
+      <guid>https://waylonwalker.com//pycon-2018-roundup</guid>
+      <pubDate>2018-05-12</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>D3 Day 5</title>
+      <link>https://waylonwalker.com//d3-day-5</link>
+      <description>For what we are creating in these posts d3 is way overkill and very verbose, but I need to start somewhere</description>
+      <guid>https://waylonwalker.com//d3-day-5</guid>
+      <pubDate>2018-05-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>D3 Day 4</title>
+      <link>https://waylonwalker.com//d3-day4</link>
+      <description>Today we are adding scale to day 3&#39;s example horizontal bar chart.</description>
+      <guid>https://waylonwalker.com//d3-day4</guid>
+      <pubDate>2018-05-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>D3 Day 3</title>
+      <link>https://waylonwalker.com//d3-day3</link>
+      <description>none</description>
+      <guid>https://waylonwalker.com//d3-day3</guid>
+      <pubDate>2018-05-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Flexbox</title>
+      <link>https://waylonwalker.com//flexbox-zombies</link>
+      <description>I recently finished up the flexbox-zombies course to learn more about flexbox, and to become proficient with it.  I can truly say that this course has changed t</description>
+      <guid>https://waylonwalker.com//flexbox-zombies</guid>
+      <pubDate>2018-04-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Stepping Up My Sql Game</title>
+      <link>https://waylonwalker.com//datacamp-sql</link>
+      <description>none</description>
+      <guid>https://waylonwalker.com//datacamp-sql</guid>
+      <pubDate>2018-03-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Vim Notes</title>
+      <link>https://waylonwalker.com//vim-notes</link>
+      <description>I have gone quite awhile without using  edit a macro register register quickfix gF &amp;lt;C-x&amp;gt; zn</description>
+      <guid>https://waylonwalker.com//vim-notes</guid>
+      <pubDate>2018-02-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>No More Death By Powerpoint</title>
+      <link>https://waylonwalker.com//death-by-powerpoint</link>
+      <description>none</description>
+      <guid>https://waylonwalker.com//death-by-powerpoint</guid>
+      <pubDate>2017-12-31</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Background Tasks In Python</title>
+      <link>https://waylonwalker.com//background-1</link>
+      <description>none</description>
+      <guid>https://waylonwalker.com//background-1</guid>
+      <pubDate>2017-09-16</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Pycon 2017 Roundup</title>
+      <link>https://waylonwalker.com//pycon-2017-roundup</link>
+      <description>none</description>
+      <guid>https://waylonwalker.com//pycon-2017-roundup</guid>
+      <pubDate>2017-05-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+<lastBuildDate></lastBuildDate>
+</channel>
+</rss>

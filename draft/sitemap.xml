@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/sitemap.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <title>draft</title>
+    <link>https://waylonwalker.com/</link>
+   <url>
+      <title>Printing 42 Keys At Once</title>
+      <description>I To figure out the coordinates I printed one key cap, and manually jogged the printer in position to knock off the cap, then sweep it out of the way. ![ print </description>
+      <loc>https://waylonwalker.com//knock-and-sweep</loc>
+      <lastmod>2024-08-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Reader</title>
+      <description>In 2024 I built my own reader after years of being bitter about google killing ! I built it on top of my own static site generator  After putting all the work I</description>
+      <loc>https://waylonwalker.com//reader</loc>
+      <lastmod>2024-07-07</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>I&#39;Ve Added Htmx To My Blog</title>
+      <description>I Ok so it [ Commit</description>
+      <loc>https://waylonwalker.com//htmx-on-my-blog</loc>
+      <lastmod>2024-06-15</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Latest</title>
+      <description>My latest blog post is </description>
+      <loc>https://waylonwalker.com//latest</loc>
+      <lastmod>2024-06-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Thinking About Static Sites In 2024</title>
+      <description>actions build k8s build fastapi sqlite</description>
+      <loc>https://waylonwalker.com//thinking-about-static-sites-in-2024</loc>
+      <lastmod>2024-05-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Tailwind And Markdown</title>
+      <description>This post is a bit of an experiment to see what I can do. Lets start with a [ [ {.text-pink-500} This text should be pink This text should be not pink Now will </description>
+      <loc>https://waylonwalker.com//tailwind-markdown</loc>
+      <lastmod>2024-02-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Hosted Platform Brainstorm</title>
+      <description>&amp;lt;img
+src=&amp;quot;http://localhost:8000/shot/?url=https://asdf.com&amp;amp;height=450&amp;amp;width=800&amp;amp;scaled_width=800&amp;amp;scaled_height=450&amp;amp;selectors=&amp;quot; </description>
+      <loc>https://waylonwalker.com//fokais</loc>
+      <lastmod>2023-11-15</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Pycon 2023</title>
+      <description>I don In an alternate timeline the maintainer of newton could have chose to use</description>
+      <loc>https://waylonwalker.com//pycon-2023</loc>
+      <lastmod>2023-06-09</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Getting Started With Pydantic</title>
+      <description>Pydantic is a Python library for serializing data into models that can be To install pydantic you will first need python and pip. Once you have pip Always insta</description>
+      <loc>https://waylonwalker.com//getting-started-with-pydantic</loc>
+      <lastmod>2023-05-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Marvin&#39;S Ai_Fn</title>
+      <description></description>
+      <loc>https://waylonwalker.com//marvin-s-ai-fn</loc>
+      <lastmod>2023-05-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Useful Btrfs Tools</title>
+      <description>Looking at disk usage on any of these must be done using a tool built for it if -T for tabular format</description>
+      <loc>https://waylonwalker.com//useful-btrfs-tools</loc>
+      <lastmod>2023-03-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Devops Philosophy</title>
+      <description>How to keep a secret - </description>
+      <loc>https://waylonwalker.com//devops-philosophy</loc>
+      <lastmod>2022-12-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Extending Vim With Shell Commands</title>
+      <description>Vimconf 2022 Extending vim does not need to be complicated and can be done using cli tools I know all the files that I care to search for are called build.yml, </description>
+      <loc>https://waylonwalker.com//extending-vim-with-shell-commands</loc>
+      <lastmod>2022-11-12</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Formatme</title>
+      <description></description>
+      <loc>https://waylonwalker.com//formatme</loc>
+      <lastmod>2022-11-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Caching Python Virtual Environments In Github Actions</title>
+      <description></description>
+      <loc>https://waylonwalker.com//github-actions-cache-venv</loc>
+      <lastmod>2022-10-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Markata Github Pages</title>
+      <description>11ty https://www.rockyourcode.com/how-to-deploy-eleventy-to-github-pages-with-github-actions/ hugo puts it in the base url https://gohugo.io/getting-started/con</description>
+      <loc>https://waylonwalker.com//markata-github-pages</loc>
+      <lastmod>2022-10-19</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Running Aws Cli Commands With Localstack</title>
+      <description>Upon first running an  The easy easiest way is to leverage a package called  If you want to use the cli pro</description>
+      <loc>https://waylonwalker.com//running-aws-cli-commands-with-localstack</loc>
+      <lastmod>2022-10-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Using Django Rest Framework Inside React</title>
+      <description></description>
+      <loc>https://waylonwalker.com//django-rest-framework-react</loc>
+      <lastmod>2022-10-09</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Django Polls App</title>
+      <description></description>
+      <loc>https://waylonwalker.com//django-polls-app</loc>
+      <lastmod>2022-09-26</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Setting Up Snapper On Arch</title>
+      <description>https://www.youtube.com/watch?v= These are mostly my notes to remind myself, I When I started running  You should now see  so that you can boot into snapper sna</description>
+      <loc>https://waylonwalker.com//setting-up-snapper-on-arch</loc>
+      <lastmod>2022-09-05</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Highlighting Text Ranges With Rich | Python</title>
+      <description>{% for year in markata.map( {% for post in markata.map( [</description>
+      <loc>https://waylonwalker.com//year</loc>
+      <lastmod>2022-08-24</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>How To Disable Kedro Viz | Or Any Kedro Hook</title>
+      <description></description>
+      <loc>https://waylonwalker.com//kedro-disable-hook</loc>
+      <lastmod>2022-08-08</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Gpu Stats In My Linux Statusbar</title>
+      <description></description>
+      <loc>https://waylonwalker.com//polybar-gpu-stats</loc>
+      <lastmod>2022-08-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Running My Blog On 3.11-Dev</title>
+      <description>3.10.5: 109.441</description>
+      <loc>https://waylonwalker.com//building-with-3-11-dev</loc>
+      <lastmod>2022-07-29</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Arch Fonts</title>
+      <description>https://gist.github.com/YoEight/d19112db56cd8f93835bf2d009d617f7</description>
+      <loc>https://waylonwalker.com//arch-fonts</loc>
+      <lastmod>2022-07-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Manage Your Displays With Xrandr Manager</title>
+      <description>xrandr is a great cli to manage your windows in a linux distro using x11, which Check out the xrander-manager is a python cli application that is simply a nice </description>
+      <loc>https://waylonwalker.com//xrandr-manager</loc>
+      <lastmod>2022-07-16</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Get Better At Jq Interactively | Ijq</title>
+      <description>[ [</description>
+      <loc>https://waylonwalker.com//ijq</loc>
+      <lastmod>2022-07-15</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Git Merge Ours</title>
+      <description>Sometimes you have a pretty old branch you are trying to merge into and you are The first step is to make sure your local copy of the branch you are moving It M</description>
+      <loc>https://waylonwalker.com//git-merge-ours</loc>
+      <lastmod>2022-05-24</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Links</title>
+      <description></description>
+      <loc>https://waylonwalker.com//links</loc>
+      <lastmod>2022-05-07</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Vim Remaps Use Cmd In Place Of :</title>
+      <description>Anyone just starting out their vim customization journey is bound to run into this error. I If you run  You still need to map your remaps with a : if you do not</description>
+      <loc>https://waylonwalker.com//vim-cmd</loc>
+      <lastmod>2022-02-14</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Pipx Examples</title>
+      <description></description>
+      <loc>https://waylonwalker.com//pipx-examples</loc>
+      <lastmod>2022-01-07</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Copier Templates</title>
+      <description>%%include til/copier %%include til/copier-template-variables %%include til/copier-answers</description>
+      <loc>https://waylonwalker.com//copier-templates</loc>
+      <lastmod>2022-01-05</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Kedro Course</title>
+      <description>find all nodes with raw in the name use parameters make and use a logger use find-kedro in spaceflights slide in a new node vizualize your pipeline find slow no</description>
+      <loc>https://waylonwalker.com//kedro-course</loc>
+      <lastmod>2021-12-04</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Update Alternatives In Linux</title>
+      <description></description>
+      <loc>https://waylonwalker.com//update-alternatives</loc>
+      <lastmod>2021-11-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Uses</title>
+      <description>This is a listing of all the things that I use on a daily basis to build data Everything installed on my machines is done through ansible-playbooks.  It I run U</description>
+      <loc>https://waylonwalker.com//uses</loc>
+      <lastmod>2021-11-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Using Nix To Manage My Python Interpreter</title>
+      <description>I recently started playing with nix. automatically select correct python version per project activating one doesn https://search.nixos.org/</description>
+      <loc>https://waylonwalker.com//nix-python-interpreter</loc>
+      <lastmod>2021-11-14</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Https://Waylonwalker.Com/How-I-Deploy-2022</title>
+      <description>Content at the speed of thought. well, as fast as I can type Mechanical Engineering Data Engineering Terminal Junkie Please ask questions in slido # 983 911 | A</description>
+      <loc>https://waylonwalker.com//how-i-deploy-2021</loc>
+      <lastmod>2021-10-29</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Https://Waylonwalker.Com/How-I-Deploy-2022</title>
+      <description>Content at the speed of thought. well, as fast as I can type Mechanical Engineering Data Engineering Terminal Junkie Please ask questions in slido # 983 911 | A</description>
+      <loc>https://waylonwalker.com//how-i-deploy-2022</loc>
+      <lastmod>2021-10-29</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Kedro-Broken-Urls</title>
+      <description>[ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [ [</description>
+      <loc>https://waylonwalker.com//kedro-broken-urls</loc>
+      <lastmod>2021-10-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Notes For Second Vim-Fundamentals Course Meetup</title>
+      <description>newline Mahesh Subrajmanium Venkatachalam - Plugins | Installing a Theme Matthew Fletcher - Registers | Advanced Motions Jump, Delete,  get a plugin manager unl</description>
+      <loc>https://waylonwalker.com//vim-fundamentals-2</loc>
+      <lastmod>2021-08-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Kedro Pipeline Create</title>
+      <description>Kedro pipeline create is a command that makes creating new https://youtu.be/HtyIKqlEoNw The kedro cli comes with the following command to scaffold out The direc</description>
+      <loc>https://waylonwalker.com//kedro-pipeline-create</loc>
+      <lastmod>2021-08-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Notify-Send</title>
+      <description></description>
+      <loc>https://waylonwalker.com//notify-send</loc>
+      <lastmod>2021-08-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>How I Configure Git</title>
+      <description>Git can be a bit tricky to get configured correctly.  I often stumble into</description>
+      <loc>https://waylonwalker.com//git-settings</loc>
+      <lastmod>2021-06-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Ubuntu</title>
+      <description>These are the notes that I used as I set up my first ever ubuntu desktop. I ran this, but have no idea if it had any effect as the theme did What I think actuag</description>
+      <loc>https://waylonwalker.com//ubuntu</loc>
+      <lastmod>2021-06-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>My Experience With A New 3Dkeeb Corne</title>
+      <description>What did I sign myself up for? If the lower typing speed with alpha characters</description>
+      <loc>https://waylonwalker.com//3dkeeb-corne</loc>
+      <lastmod>2021-06-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Manage Many Git Repos With Ease</title>
+      <description>mu-repo</description>
+      <loc>https://waylonwalker.com//manage-many-git-repos</loc>
+      <lastmod>2021-06-13</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Maintianing Multiple Git Repos With Mu-Repo</title>
+      <description>[ I have similar command line related shortcuts in my bash notes</description>
+      <loc>https://waylonwalker.com//mu-repo</loc>
+      <lastmod>2021-06-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Upcoming Stream</title>
+      <description>I am starting to stream 3 days per week, before I start work in the morning. On Monday kedro-diff test kedro-diff on piplines with history setup deploy pipeline</description>
+      <loc>https://waylonwalker.com//upcoming-streams</loc>
+      <lastmod>2021-06-08</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Awesome People</title>
+      <description>These are awesome people that inspire me every day. http://swyx.io/</description>
+      <loc>https://waylonwalker.com//awesome-people</loc>
+      <lastmod>2021-06-05</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Comprehensive Guide To Creating Kedro Nodes</title>
+      <description>The Kedro node is an essential part of the pipeline. It defines what catalog 👆 Unsure what kedro is? Check out this post. The node function is the most common a</description>
+      <loc>https://waylonwalker.com//kedro-node</loc>
+      <lastmod>2021-06-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Rockstar74 Interview Review</title>
+      <description>https://www.twitch.tv/videos/1042380964</description>
+      <loc>https://waylonwalker.com//rockstar74-interview-review</loc>
+      <lastmod>2021-06-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Creating Pypi-List With Kedro</title>
+      <description>I had an idea come to me via twitter. Short one word name packages are becoming I started with the simple index.  Pypi provides a single page listing to every</description>
+      <loc>https://waylonwalker.com//kedro-pypi-list</loc>
+      <lastmod>2021-05-23</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Build A Portfolio</title>
+      <description>https://twitter.com/oliverjumpertz/status/1395689074594287625 Follow this over time.  If you want to use code repositories for your portfolio. They don Make sur</description>
+      <loc>https://waylonwalker.com//build-a-portfolio</loc>
+      <lastmod>2021-05-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Vows</title>
+      <description>I can still rememember the day that we we realized our new baby girl had gone Little did we know what that strong little girl had in store for us. She was I sti</description>
+      <loc>https://waylonwalker.com//vow</loc>
+      <lastmod>2021-05-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Python Lsp Setup</title>
+      <description>Setting up python with the native nvim&amp;gt;0.5 lsp was mr https://github.com/neovim/nvim-lspconfig https://github.com/palantir/python-language-server/issues/190 </description>
+      <loc>https://waylonwalker.com//setup-pylsp</loc>
+      <lastmod>2021-05-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>How To Use Git Cherry Pick</title>
+      <description></description>
+      <loc>https://waylonwalker.com//cherry-pick</loc>
+      <lastmod>2021-05-13</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Vim Fugitive</title>
+      <description>:on This one has nothing to do with fugitive, but is a native vim feature that C-i jump The jumplist is sorted Oldest to newest When navigating the jumplist wit</description>
+      <loc>https://waylonwalker.com//vim-fugitive</loc>
+      <lastmod>2021-05-08</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>How To Compare Two Files In Vim</title>
+      <description></description>
+      <loc>https://waylonwalker.com//vim-diffsplit</loc>
+      <lastmod>2021-05-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Custom Kedro Logger</title>
+      <description>DRAFT -</description>
+      <loc>https://waylonwalker.com//custom-kedro-logger</loc>
+      <lastmod>2021-05-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>📝 Docker Deep Dive - Notes</title>
+      <description>https://www.hanselminutes.com/784/doing-open-source-with-brian-douglas A handy way to try weird things in docker is using Installing on Ubuntu. In order to run </description>
+      <loc>https://waylonwalker.com//docker-deep-dive</loc>
+      <lastmod>2021-04-23</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Mentorship Vs Sponsorship</title>
+      <description></description>
+      <loc>https://waylonwalker.com//mentorship-vs-sponsorship</loc>
+      <lastmod>2021-04-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Fix Crlf For Entire Git Repo</title>
+      <description></description>
+      <loc>https://waylonwalker.com//fix-crlf-entire-repo</loc>
+      <lastmod>2021-03-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Automatic Conda Environments</title>
+      <description>I have automated my process to create virtual environments in my python I You can learn more about  direnv is in many package repos, or can be installed from bi</description>
+      <loc>https://waylonwalker.com//auto-conda-env</loc>
+      <lastmod>2021-03-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>How I Review Pipeline Code</title>
+      <description>I have started doing more regular PR [ passing ci Variable Names Antipatterns No commented out code Docsttrings generally make sense Phase1 is typically a quick</description>
+      <loc>https://waylonwalker.com//how-i-review-kedro-projects</loc>
+      <lastmod>2021-03-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Sample</title>
+      <description>! ! ! ! ! ! ! ! ! ! ! ! ! This is not markdown This is a </description>
+      <loc>https://waylonwalker.com//sample</loc>
+      <lastmod>2021-01-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>🐍 Pluggable Architecture With Python</title>
+      <description>pytest has open sourced their amazing plugin framework  My experience so far as a plugin user, and plugin author has been great. A hook is a single function tha</description>
+      <loc>https://waylonwalker.com//python-pluggable-architecture</loc>
+      <lastmod>2021-01-23</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Create Og Image Covers Using Python</title>
+      <description>There are so many tutorials out there for creating OG images with </description>
+      <loc>https://waylonwalker.com//create-og-image-covers-using-python</loc>
+      <lastmod>2021-01-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>⚙ How Python Tools Are Configured</title>
+      <description>There are various ways to configure python tools, config files, code, or This will not include how they are implemented, I The motivation of this article is to </description>
+      <loc>https://waylonwalker.com//python-tool-config</loc>
+      <lastmod>2021-01-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Kedro Dependency Management</title>
+      <description>https://kedro.readthedocs.io/en/stable/04 requirements.in requirements.txt</description>
+      <loc>https://waylonwalker.com//kedro-dependency-management</loc>
+      <lastmod>2021-01-19</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Blog Data With Python</title>
+      <description>Generating an api for a blog is much simpler than one might expect with python. fix missing data</description>
+      <loc>https://waylonwalker.com//blog-data-with-python</loc>
+      <lastmod>2021-01-18</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Todo</title>
+      <description>Overrated underrated command line applications Get started on daily kedro shorts, these are indended to be short clips that how I kedro 8/16 what is kedro 8/17 </description>
+      <loc>https://waylonwalker.com//todo</loc>
+      <lastmod>2021-01-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Ipython Ninjitsu</title>
+      <description>?docstring ??sourcecode %run %debug %autoreload %history autoformat %reset ! Stop going to google everytime your stuck and stay in your workflow.  The Docstring</description>
+      <loc>https://waylonwalker.com//ipython-ninjitsu</loc>
+      <lastmod>2020-12-14</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Testing Data Pipelines</title>
+      <description>Thinking through testing best practices for Data Pipelines</description>
+      <loc>https://waylonwalker.com//testing-data-pipelines</loc>
+      <lastmod>2020-11-16</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Kedro Factory</title>
+      <description>Kedro Plugin Idea for creating Dags quickly</description>
+      <loc>https://waylonwalker.com//kedro-factory</loc>
+      <lastmod>2020-11-16</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Rebrand</title>
+      <description>A few notes for my next refactoring of waylonwalker.com</description>
+      <loc>https://waylonwalker.com//rebrand</loc>
+      <lastmod>2020-11-14</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Avoid Nesting Loops In Python</title>
+      <description>Nesting loops inside of each other in python makes for much harder code to understand, it takes more brain power to understand, and is thus more error prone tha</description>
+      <loc>https://waylonwalker.com//avoid-nesting-loops-in-python</loc>
+      <lastmod>2020-10-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>List The Latest Files To Change In A Git Repo</title>
+      <description></description>
+      <loc>https://waylonwalker.com//last-n-git-files</loc>
+      <lastmod>2020-10-08</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Kedro Basics</title>
+      <description>In my upcoming free kedro course, you can learn how to start building pipelines in 5 days.</description>
+      <loc>https://waylonwalker.com//kedro-basics</loc>
+      <lastmod>2020-08-08</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Upcoming Posts</title>
+      <description>Upcoming posts to the blog. Have an idea edit Kedro run changed How I manage Environments My Data Workflow. Daily Schedule desk keeb Material Shell Why blog sea</description>
+      <loc>https://waylonwalker.com//upcoming-posts</loc>
+      <lastmod>2020-06-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Newsletter 3</title>
+      <description>It I learned the most from this post. It I GitHub profiles were released recently and I asked on DEV.to  This post was super fun to write. It Bash is a language</description>
+      <loc>https://waylonwalker.com//aug2020</loc>
+      <lastmod>2020-06-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Thanks For Subscribing</title>
+      <description>You&#39;re awesome! Thanks for subscribing to my newsletter.</description>
+      <loc>https://waylonwalker.com//thank-you</loc>
+      <lastmod>2020-05-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Practice Your Craft</title>
+      <description></description>
+      <loc>https://waylonwalker.com//practice-your-craft</loc>
+      <lastmod>2020-03-04</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Productive One On One</title>
+      <description></description>
+      <loc>https://waylonwalker.com//productive-one-on-one</loc>
+      <lastmod>2020-02-24</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Long Variable Names Are Good</title>
+      <description>🏷️ Long variable names are a good thing. Self documenting code is more important than poorly documented code. Simply adding a few characters to your variable na</description>
+      <loc>https://waylonwalker.com//long-variable-names-are-good</loc>
+      <lastmod>2020-02-24</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>What Is Refactoring</title>
+      <description>Make the change easy Make the easy change Martin Fowler When to refactor</description>
+      <loc>https://waylonwalker.com//what-is-refactoring</loc>
+      <lastmod>2020-02-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Automate Your Deploys</title>
+      <description></description>
+      <loc>https://waylonwalker.com//automate-your-deploys</loc>
+      <lastmod>2020-02-07</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Simple Click 2</title>
+      <description></description>
+      <loc>https://waylonwalker.com//simple-click-2</loc>
+      <lastmod>2020-02-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Rss Feed For Your Gatsby Site</title>
+      <description>Add an rss feed to your Gatsby Site</description>
+      <loc>https://waylonwalker.com//gatsby-rss-feed</loc>
+      <lastmod>2020-01-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Conda Build</title>
+      <description>none</description>
+      <loc>https://waylonwalker.com//condabuild</loc>
+      <lastmod>2020-01-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>What Datascientists Should Know About S3</title>
+      <description>What DataScientists Should Know About S3</description>
+      <loc>https://waylonwalker.com//s3-datascience</loc>
+      <lastmod>2019-12-15</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Amazon Web Services</title>
+      <description>I started using aws in March 2019. Here are some of my notes.</description>
+      <loc>https://waylonwalker.com//amazon-web-services</loc>
+      <lastmod>2019-09-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Making Good Documentation In Python</title>
+      <description>I just started using portray and it is amazingly simple to use</description>
+      <loc>https://waylonwalker.com//making-good-documentation-in-python</loc>
+      <lastmod>2019-09-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Pyspark</title>
+      <description>I have been using pyspark since March 2019, here are my thoughts.</description>
+      <loc>https://waylonwalker.com//pyspark</loc>
+      <lastmod>2019-09-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Minimal Project Structure</title>
+      <description>How to setup a data science project in python.</description>
+      <loc>https://waylonwalker.com//bit-01</loc>
+      <lastmod>2019-02-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Python Tips</title>
+      <description>** func( locals().update(d)</description>
+      <loc>https://waylonwalker.com//python-tips</loc>
+      <lastmod>2019-01-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Remove Git Cruft</title>
+      <description>My original inspiration for this post came from steven ostermiller I was able to find it on the way back machine though.</description>
+      <loc>https://waylonwalker.com//git-rm-cruft</loc>
+      <lastmod>2019-01-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Follow Your Passion</title>
+      <description>none</description>
+      <loc>https://waylonwalker.com//test</loc>
+      <lastmod>2019-01-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Follow Your Passion</title>
+      <description>none</description>
+      <loc>https://waylonwalker.com//passion</loc>
+      <lastmod>2019-01-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>My Favorite Pandas Pattern</title>
+      <description>I work with a lot of transactional timeseries data that includes categories. I often want to create timeseries plots with each category as its own line. This is</description>
+      <loc>https://waylonwalker.com//pandas-pattern</loc>
+      <lastmod>2018-03-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Pug Reveal</title>
+      <description>none</description>
+      <loc>https://waylonwalker.com//pug-reveal</loc>
+      <lastmod>2017-12-31</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Python Atexit</title>
+      <description>I</description>
+      <loc>https://waylonwalker.com//python-atexit</loc>
+      <lastmod>2000-01-15</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+</urlset>

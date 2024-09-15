@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0">
+<channel>
+    <title>lasthirty</title>
+    <link>https://waylonwalker.com/</link>
+    <description>I write about how I use python and linux in data science.</description>
+    <generator>Markata</generator>
+    <image>
+        <url>static/8bitcc.png</url>
+        <link>https://waylonwalker.com/</link>
+    </image>
+    <language>en</language>
+  <item>
+      <title>💭 Wes Bos On X: &#34;Are You Using Position: Absolute; To Overlap Elements? It&#39;S Almost Always Better To Use Css Grid Instead! Https://T.Co/Hmpbexr88Q&#34; / X</title>
+      <link>https://waylonwalker.com//thoughts-387</link>
+      <description>This is a pretty incredible use of css grid to overlay items overtop of each other without needing to resort to `positio</description>
+      <guid>https://waylonwalker.com//thoughts-387</guid>
+      <pubDate>2024-09-13</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Alternatives To Using Pure Black (#000000) For Text And Backgrounds | By Dmitry Sergushkin | Aug, 2024 | Ux Planet</title>
+      <link>https://waylonwalker.com//thoughts-388</link>
+      <description>A nice set of blacks to use in web design. Subtle variants off of black or white like this can really make your design l</description>
+      <guid>https://waylonwalker.com//thoughts-388</guid>
+      <pubDate>2024-09-13</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Buttery Icons</title>
+      <link>https://waylonwalker.com//thoughts-386</link>
+      <description>Some sick looking icons no attribution needed.</description>
+      <guid>https://waylonwalker.com//thoughts-386</guid>
+      <pubDate>2024-09-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Not - Ltt Screwdriver - Fancy By Erer2001 | Download Free Stl Model | Printables.Com</title>
+      <link>https://waylonwalker.com//thoughts-385</link>
+      <description>someone has created a knock off of the ltt screwdriver and made it printable</description>
+      <guid>https://waylonwalker.com//thoughts-385</guid>
+      <pubDate>2024-08-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Installing Python - Uv</title>
+      <link>https://waylonwalker.com//thoughts-384</link>
+      <description>`uv` now can install python for you.  `uv` is inspired by rust&#39;s cargo, an all in one fast package and installation mana</description>
+      <guid>https://waylonwalker.com//thoughts-384</guid>
+      <pubDate>2024-08-23</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Switching Configs In Neovim • Michael Uloth</title>
+      <link>https://waylonwalker.com//thoughts-383</link>
+      <description>Switching between nvim configs can be really easy to do since they implemented the `NVIM_APPNAME` Environment Variable.
+</description>
+      <guid>https://waylonwalker.com//thoughts-383</guid>
+      <pubDate>2024-08-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+<lastBuildDate></lastBuildDate>
+</channel>
+</rss>
