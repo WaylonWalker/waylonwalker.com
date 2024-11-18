@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0">
+<channel>
+    <title>recent_thoughts</title>
+    <link>https://waylonwalker.com/</link>
+    <description>I write about how I use python and linux in data science.</description>
+    <generator>Markata</generator>
+    <image>
+        <url>static/8bitcc.png</url>
+        <link>https://waylonwalker.com/</link>
+    </image>
+    <language>en</language>
+  <item>
+      <title>💭 Statically Makes Og Images **Easy** (2048×1170)</title>
+      <link>https://waylonwalker.com//thoughts-429</link>
+      <description>Staically makes creating OG images so easy, you can just pop this in your &lt;head&gt; section with some og tags.
+
+``` html
+  </description>
+      <guid>https://waylonwalker.com//thoughts-429</guid>
+      <pubDate>2024-11-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 E576: Error While Reading Shada File: There Is An Item At Position 270498 That Must Not Be There: Missing Itemsare For Internal Uses Only · Issue #6875 · Neovim/Neovim</title>
+      <link>https://waylonwalker.com//thoughts-428</link>
+      <description>I hit an interesting error after updating my nvim plugins today.  I&#39;m sti not even quite sure what a ShaDa file is, but </description>
+      <guid>https://waylonwalker.com//thoughts-428</guid>
+      <pubDate>2024-11-16</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Production-Ready Python Docker Containers With Uv</title>
+      <link>https://waylonwalker.com//thoughts-427</link>
+      <description>Hynek has a sick dockerfile setup for using uv in python projects.</description>
+      <guid>https://waylonwalker.com//thoughts-427</guid>
+      <pubDate>2024-11-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Proper Handling Of None In Where Condition · Issue #109 · Fastapi/Sqlmodel · Github</title>
+      <link>https://waylonwalker.com//thoughts-426</link>
+      <description>SQLModel models ship with an `is_`, and `is_not` that you can use to compare to None without pesky linters complaining.
+</description>
+      <guid>https://waylonwalker.com//thoughts-426</guid>
+      <pubDate>2024-11-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Gridfinity Rugged Storage Box, Parametric And Customizable By Bulbasaur0 | Download Free Stl Model | Printables.Com</title>
+      <link>https://waylonwalker.com//thoughts-423</link>
+      <description>gridfinity rugged box openscad
+</description>
+      <guid>https://waylonwalker.com//thoughts-423</guid>
+      <pubDate>2024-11-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Rugged Storage Box, Parametric And Customizable By Bulbasaur0 | Download Free Stl Model | Printables.Com</title>
+      <link>https://waylonwalker.com//thoughts-424</link>
+      <description>Non Gridfinity Rugged boxes</description>
+      <guid>https://waylonwalker.com//thoughts-424</guid>
+      <pubDate>2024-11-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Cluster Api Book</title>
+      <link>https://waylonwalker.com//thoughts-422</link>
+      <description>Cluster API book</description>
+      <guid>https://waylonwalker.com//thoughts-422</guid>
+      <pubDate>2024-11-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Gridfinity Generator</title>
+      <link>https://waylonwalker.com//thoughts-421</link>
+      <description>Gridfinity generator uses open scad, so you can make rugged boxes, bins and base plates with form input.  not fully cust</description>
+      <guid>https://waylonwalker.com//thoughts-421</guid>
+      <pubDate>2024-11-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Framework Portable Handheld Case (Beth Deck) By Beth Le | Download Free Stl Model | Printables.Com</title>
+      <link>https://waylonwalker.com//thoughts-420</link>
+      <description>The BethDeck is a sick looking DIY steam deck _competitor_ built on top of the framework 13&#34; mainboard.  No soldering ne</description>
+      <guid>https://waylonwalker.com//thoughts-420</guid>
+      <pubDate>2024-11-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 My Favorite Fingerboard Obstacles &amp; Why - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-419</link>
+      <description>        I really like how Spencer walked through how to make quite a few unique setups with only a few simple obstacles.</description>
+      <guid>https://waylonwalker.com//thoughts-419</guid>
+      <pubDate>2024-10-31</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+<lastBuildDate></lastBuildDate>
+</channel>
+</rss>

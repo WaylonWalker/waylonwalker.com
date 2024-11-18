@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/sitemap.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <title>lasthirty</title>
+    <link>https://waylonwalker.com/</link>
+   <url>
+      <title>💭 Statically Makes Og Images **Easy** (2048×1170)</title>
+      <description>Staically makes creating OG images so easy, you can just pop this in your &lt;head&gt; section with some og tags.
+
+``` html
+  </description>
+      <loc>https://waylonwalker.com//thoughts-429</loc>
+      <lastmod>2024-11-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 E576: Error While Reading Shada File: There Is An Item At Position 270498 That Must Not Be There: Missing Itemsare For Internal Uses Only · Issue #6875 · Neovim/Neovim</title>
+      <description>I hit an interesting error after updating my nvim plugins today.  I&#39;m sti not even quite sure what a ShaDa file is, but </description>
+      <loc>https://waylonwalker.com//thoughts-428</loc>
+      <lastmod>2024-11-16</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Production-Ready Python Docker Containers With Uv</title>
+      <description>Hynek has a sick dockerfile setup for using uv in python projects.</description>
+      <loc>https://waylonwalker.com//thoughts-427</loc>
+      <lastmod>2024-11-15</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Proper Handling Of None In Where Condition · Issue #109 · Fastapi/Sqlmodel · Github</title>
+      <description>SQLModel models ship with an `is_`, and `is_not` that you can use to compare to None without pesky linters complaining.
+</description>
+      <loc>https://waylonwalker.com//thoughts-426</loc>
+      <lastmod>2024-11-08</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Gridfinity Rugged Storage Box, Parametric And Customizable By Bulbasaur0 | Download Free Stl Model | Printables.Com</title>
+      <description>gridfinity rugged box openscad
+</description>
+      <loc>https://waylonwalker.com//thoughts-423</loc>
+      <lastmod>2024-11-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Rugged Storage Box, Parametric And Customizable By Bulbasaur0 | Download Free Stl Model | Printables.Com</title>
+      <description>Non Gridfinity Rugged boxes</description>
+      <loc>https://waylonwalker.com//thoughts-424</loc>
+      <lastmod>2024-11-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Cluster Api Book</title>
+      <description>Cluster API book</description>
+      <loc>https://waylonwalker.com//thoughts-422</loc>
+      <lastmod>2024-11-05</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Gridfinity Generator</title>
+      <description>Gridfinity generator uses open scad, so you can make rugged boxes, bins and base plates with form input.  not fully cust</description>
+      <loc>https://waylonwalker.com//thoughts-421</loc>
+      <lastmod>2024-11-04</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Framework Portable Handheld Case (Beth Deck) By Beth Le | Download Free Stl Model | Printables.Com</title>
+      <description>The BethDeck is a sick looking DIY steam deck _competitor_ built on top of the framework 13&#34; mainboard.  No soldering ne</description>
+      <loc>https://waylonwalker.com//thoughts-420</loc>
+      <lastmod>2024-11-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 My Favorite Fingerboard Obstacles &amp; Why - Youtube</title>
+      <description>        I really like how Spencer walked through how to make quite a few unique setups with only a few simple obstacles.</description>
+      <loc>https://waylonwalker.com//thoughts-419</loc>
+      <lastmod>2024-10-31</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Document How To Provide A Negative Number As An Argument · Fastapi/Typer · Discussion #798 · Github</title>
+      <description>Today I learned that you cannot pass negative integers as values to typer.  in this case `context_settings={&#34;ignore_unkn</description>
+      <loc>https://waylonwalker.com//thoughts-418</loc>
+      <lastmod>2024-10-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Ticklemykeys On X: &#34;Porta John Got Some Pink Caps Https://T.Co/I2Oufocmfk&#34; / X</title>
+      <description>Loving this 6 pink with blueforward multicolor combo the porta john has going right now.  Also my son printed me a cute </description>
+      <loc>https://waylonwalker.com//thoughts-415</loc>
+      <lastmod>2024-10-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Will Mcgugan On X: &#34;New Version Of #Textual Released! 😎🤓🦾 The Demo Has Been Updated. It&#39;S Not Quite Finished, Expect An Update Next Release, But It Is A Lot Of Fun. Press C At Any Point To See The Code Powering That Page (Makes A Great Learning Tool). Video 👇 Https://T.Co/P2Scsul7Gz Https://T.Co/R1Bvhsyw4W&#34; / X</title>
+      <description>This new demo of textual is wildly awesome, so many widgets and features being added into the main library.  The themes </description>
+      <loc>https://waylonwalker.com//thoughts-416</loc>
+      <lastmod>2024-10-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Aaron Francis On X: &#34;📣 We&#39;Re Excited To Announce Mastering Postgres, A Video Course Coming October 15Th. @Steve_Tenuto And I Started This Business With Dreams To Improve The Quality Of Database Education. With The Help Of @Xata, This Course Is Our Next Step In That Direction. Https://T.Co/Gydp6Ccmqx&#34; / X</title>
+      <description>Aaron Francis is a database master, pumped for thsi dude and all that he is able to accomplish. </description>
+      <loc>https://waylonwalker.com//thoughts-417</loc>
+      <lastmod>2024-10-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Not A Split Keyboard, But Perhaps A Companion To One: The Ploopy Trackpad. An Open-Source Trackpad Powered By Qmk. All Design Files Available For Free. Complete Assembly Instructions. See Comments For Details. : R/Ergomechkeyboards</title>
+      <description>ploopy just dropped a trackpad that runs qmk.  This sounds so cool.  I&#39;m excited to see some videos on it.  It would be </description>
+      <loc>https://waylonwalker.com//thoughts-414</loc>
+      <lastmod>2024-10-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+</urlset>

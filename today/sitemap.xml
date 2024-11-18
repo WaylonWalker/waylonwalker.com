@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/sitemap.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <title>today</title>
+    <link>https://waylonwalker.com/</link>
+   <url>
+      <title>Price An Stl Print On Slant3D</title>
+      <description>I I You will need an api key from the slant api, which currently requires a google Then you can run the python script to price out your print.  I</description>
+      <loc>https://waylonwalker.com//price-an-stl-print-on-slant3d</loc>
+      <lastmod>2024-11-18</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+</urlset>
