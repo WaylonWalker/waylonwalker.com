@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0">
+<channel>
+    <title>recent_thoughts</title>
+    <link>https://waylonwalker.com/</link>
+    <description>I write about how I use python and linux in data science.</description>
+    <generator>Markata</generator>
+    <image>
+        <url>static/8bitcc.png</url>
+        <link>https://waylonwalker.com/</link>
+    </image>
+    <language>en</language>
+  <item>
+      <title>💭 Using Opnsense With Tailscale · Tailscale Docs</title>
+      <link>https://waylonwalker.com//thoughts-439</link>
+      <description>On reboot of my opnsense router it did not tailscale up.  I&#39;m not sure if a key expired or what happened.  The fix was t</description>
+      <guid>https://waylonwalker.com//thoughts-439</guid>
+      <pubDate>2024-12-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Fitting Two Hard Drives And An Ssd In A Dell Optiplex 7010 Sff</title>
+      <link>https://waylonwalker.com//thoughts-438</link>
+      <description>This guy fit 2 3.5&#34; drives and an sdd in a dell 7050 SFF.  It looks tight, and there it probably not much airflow runnin</description>
+      <guid>https://waylonwalker.com//thoughts-438</guid>
+      <pubDate>2024-11-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Changelog On X: &#34;🗣️@Dhh On Kubernetes&#39; Migration Pitch: “Oh, We’Re On Amazon? Flip The Switch, George! Let’S Move Over To Gcp.” Vs Reality: &#34;Flip The Switch, George! We’Ll Start Having The Meetings About The Meetings About How We Can Move Out Four Years From Now.&#34; Https://T.Co/Rs5Iwt93Zt&#34; / X</title>
+      <link>https://waylonwalker.com//thoughts-435</link>
+      <description>switching cloud providers, theres no easy way.  K8s was supposed to get us there, haha, the deep integrations with each </description>
+      <guid>https://waylonwalker.com//thoughts-435</guid>
+      <pubDate>2024-11-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 If Anyone Else Is Having Sound Clicking With Chair : Here Is The Document Admitting It’S Manufacturer Defect. : R/Secretlab</title>
+      <link>https://waylonwalker.com//thoughts-436</link>
+      <description>This is definitely happening to my secretlabs chair.  I did the fix this morning, its still not perfect, but it&#39;s better</description>
+      <guid>https://waylonwalker.com//thoughts-436</guid>
+      <pubDate>2024-11-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 How To Fix An Office Chair Popping Noise? With Root Causes - Toergonomics</title>
+      <link>https://waylonwalker.com//thoughts-437</link>
+      <description>I tried this fix on my secretlabs chair, but unfortunately it did nothing for me.  Mine ended up being an issue in the t</description>
+      <guid>https://waylonwalker.com//thoughts-437</guid>
+      <pubDate>2024-11-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 (44) How To Make A Good First Impression In Business #Dewalt #Tools #Smallbusiness - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-434</link>
+      <description>Dang, love this guys branding.  Hooks to get stuff offDaBench, what a freaking cool name.</description>
+      <guid>https://waylonwalker.com//thoughts-434</guid>
+      <pubDate>2024-11-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Inside Argo: Automating The Future - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-433</link>
+      <description>This is a really amazing documentary of argocd.  I got into k8s pretty late in the game.  Which is pretty typical for me</description>
+      <guid>https://waylonwalker.com//thoughts-433</guid>
+      <pubDate>2024-11-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Introduction - Bootc</title>
+      <link>https://waylonwalker.com//thoughts-432</link>
+      <description>bootc is the underlying technology that enables OS&#39;s like bazzite, and Aurora from the uBlue ecosystem.</description>
+      <guid>https://waylonwalker.com//thoughts-432</guid>
+      <pubDate>2024-11-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Wes Bos On X: &#34;Css Anchors: Flip A Tooltip To The Bottom When It Goes Offscreen Https://T.Co/Uyrqiipmn9&#34; / X</title>
+      <link>https://waylonwalker.com//thoughts-430</link>
+      <description>These css anchors are crazy that you can do this with html and not a bunch of js, probably requiring a library or framew</description>
+      <guid>https://waylonwalker.com//thoughts-430</guid>
+      <pubDate>2024-11-19</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Saghen/Blink.Cmp: Performant, Batteries-Included Completion Plugin For Neovim</title>
+      <link>https://waylonwalker.com//thoughts-431</link>
+      <description>A new completion plugin that I might give a try.  Readme makes it sound like its built on some fast teck that allows the</description>
+      <guid>https://waylonwalker.com//thoughts-431</guid>
+      <pubDate>2024-11-19</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+<lastBuildDate></lastBuildDate>
+</channel>
+</rss>

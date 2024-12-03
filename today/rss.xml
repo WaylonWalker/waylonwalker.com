@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0">
+<channel>
+    <title>today</title>
+    <link>https://waylonwalker.com/</link>
+    <description>I write about how I use python and linux in data science.</description>
+    <generator>Markata</generator>
+    <image>
+        <url>static/8bitcc.png</url>
+        <link>https://waylonwalker.com/</link>
+    </image>
+    <language>en</language>
+  <item>
+      <title>💭 Using Opnsense With Tailscale · Tailscale Docs</title>
+      <link>https://waylonwalker.com//thoughts-439</link>
+      <description>On reboot of my opnsense router it did not tailscale up.  I&#39;m not sure if a key expired or what happened.  The fix was t</description>
+      <guid>https://waylonwalker.com//thoughts-439</guid>
+      <pubDate>2024-12-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Debug Cloudflared Tunnel</title>
+      <link>https://waylonwalker.com//debug-cloudflared-tunnel</link>
+      <description>I In yesterday [</description>
+      <guid>https://waylonwalker.com//debug-cloudflared-tunnel</guid>
+      <pubDate>2024-12-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+<lastBuildDate></lastBuildDate>
+</channel>
+</rss>

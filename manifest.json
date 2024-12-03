@@ -1,0 +1,10 @@
+{
+    "name": "Waylon Walker",
+    "short_name": "ww",
+    "start_url": "/",
+    "display": "minimal-ui",
+    "background_color": "#b73cf6",
+    "theme_color": "#322d39",
+    "description": "I write about how I use python and linux in data science.",
+    "icons": []
+}

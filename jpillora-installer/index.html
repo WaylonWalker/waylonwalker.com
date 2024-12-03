@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width" name="viewport"/>
+<link href="/8bitcc.ico" rel="icon" type="image/png"/>
+<meta content="website" name="og:type"/>
+<title>Jpillora-Installer</title>
+<meta content="Jpillora-Installer" name="twitter:title"/>
+<meta content="Jpillora-Installer" name="og:title"/>
+<meta content="jpillora/installer is the install script generator I have been looking for. It Also these pre-compiled binaries install rediculously fast compared to building C" name="description"/>
+<meta content="jpillora/installer is the install script generator I have been looking for. It Also these pre-compiled binaries install rediculously fast compared to building C" name="og:description"/>
+<meta content="jpillora/installer is the install script generator I have been looking for. It Also these pre-compiled binaries install rediculously fast compared to building C" name="twitter:description"/>
+<meta content="article" name="og:type"/>
+<meta content="https://waylonwalker.com/jpillora-installer" name="og:url"/>
+<meta content="http://shots.wayl.one/shot/?url=https://waylonwalker.com/jpillora-installer&amp;height=600&amp;width=1200&amp;scaled_width=1200&amp;scaled_height=600" name="og:image"/>
+<meta content="http://shots.wayl.one/shot/?url=https://waylonwalker.com/jpillora-installer&amp;height=640&amp;width=1280&amp;scaled_width=1280&amp;scaled_height=640" name="twitter:image"/>
+<meta content="1200" name="og:image:width"/>
+<meta content="600" name="og:image:height"/>
+<meta content="@_waylonwalker" name="twitter:creator"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Waylon Walker" name="og:author"/>
+<meta content="Waylon Walker" name="og:site_name"/>
+<meta content="waylon@waylonwalker.com" name="og:author_email"/>
+<meta content="markata 0.8.1.dev11" name="generator"/>
+<meta content="$ilp.uphold.com/MGN2ni2YMXaQ" name="monetization"/>
+<meta content="#322D39" name="theme-color"/>
+<link href="/app.css" rel="stylesheet"/>
+<link href="https://waylonwalker.com/jpillora-installer/" rel="canonical"/>
+<link href="https://waylonwalker.com/jpillora-installer/amp/" rel="amphtml"/>
+<link href="https://indieauth.com/auth" rel="authorization_endpoint"/>
+<link href="https://tokens.indieauth.com/token" rel="token_endpoint"/>
+<link href="https://waylonwalker.com/jpillora-installer/amp" rel="amphtml"/>
+<link href="https://waylonwalker.com/archive" rel="micropub"/>
+<link href="https://webmention.io/waylonwalker.com/webmention" rel="webmention"/>
+<link href="https://images.waylonwalker.com" rel="preconnect"/>
+<link href="https://covers.waylonwalker.com" rel="preconnect"/>
+<link href="https://stable-diffusion.waylonwalker.com" rel="preconnect"/>
+<link href="https://screenshots.waylonwalker.com" rel="preconnect"/>
+<link href="/8bitcc_48x48.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_72x72.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_96x96.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_144x144.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_192x192.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_256x256.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_384x384.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_512x512.png" rel="apple-touch-icon"/>
+<script src="/htmx.min.js"></script> <script>
+        navigator.serviceWorker.getRegistrations().then(function (registrations) {
+            for (let registration of registrations) {
+                registration.unregister();
+            }
+        });
+
+    </script>
+<script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "WebPage",
+                "name": "Jpillora-Installer",
+                "headline": "Jpillora-Installer",
+                "datePublished": "2023-10-04",
+                "dateModified": "2023-10-04",
+                "author": {
+                    "@type": "Person",
+                    "name": "Waylon Walker"
+                    "url": "https://waylonwalker.com"
+                },
+                "image": [
+                    "https://shots.wayl.one/shot/?url=https://waylonwalker.com/&height=640&width=1280&scaled_width=1280&scaled_height=640",
+                ]
+                "speakable":
+                {
+                    "@type": "SpeakableSpecification",
+                    "cssSelector": [
+                        "#title",
+                        "#post-body"
+                    ]
+                },
+                "url": "https://waylonwalker.com/"
+            }
+        </script>
+</head>
+<body position="relative">
+<div class="neon-ring"></div>
+<div class="dubs">
+<nav class="w-full bg-gray-950 py-4 mb-8 sticky border-b border-pink-500">
+<ul>
+<li><a href="/" hx-boost="true">Home</a></li>
+<li><a href="/archive/" hx-boost="true">Archive</a></li>
+<li><a href="/about/" hx-boost="true">About</a></li>
+<li><a href="/feeds/" hx-boost="true">RSS</a></li>
+</ul>
+</nav> <div>
+<article class="blog-post h-entry">
+<div id="title-wrapper">
+<a class="no-underline u-url" href="https://waylonwalker.com//" hx-boost="true">
+<h1 class="flair blog title no-link" id="title">
+            Jpillora-Installer
+        </h1>
+</a>
+<p class="m-0 sm:m-[-2rem]">
+<time class="dt-published post-date" datetime="" style="text-align: right; z-index: 2"></time>
+</p>
+<div class="flex flex-row h-card p-author space-between" rel="author">
+<img alt="pixelated avatar of Waylon Walker with a yellow and pink background" class="m-auto ml-0 w-16 h-16 rounded-full u-photo shadow-[0_0_5px_5px_rgba(0,0,0,0.4)]" src="/88-8bitcc.webp"/>
+<div class="content">
+<a class="p-name u-url h-card p-author" href="https://waylonwalker.com/" hx-boost="true" rel="me">
+<p>
+<span class="p-given-name">Waylon</span>
+<span class="p-family-name">Walker</span>
+</p>
+</a>
+<p class="p-note">
+                Learning in Public
+                <a href="https://twitter.com/_WaylonWalker" rel="me">@_WaylonWalker</a>
+</p>
+</div>
+</div>
+<!-- edit -->
+<!-- <p> -->
+<!--     <a href="https://github.com/WaylonWalker/waylonwalker.com/edit/main/pages/blog/.md" -->
+<!--         alt="edit post url" title="edit this post">edit<span role="img" aria-label="">✏️</span></a> -->
+<!-- </p> -->
+</div><h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Tags</h2>
+<ul class="flex flex-wrap justify-center p-0 m-auto max-w-md border-yellow-400 tags">
+<li class="px-4 mx-2 list-none rounded-full ring-1 ring-pink-500">
+<a class="p-category" href="https://waylonwalker.com/bash" hx-boost="true">bash</a>
+</li>
+</ul> <div class="e-content" data-pagefind-body="" id="post-body">
+<p>jpillora/installer is the install script generator I have been looking for. It
+downloads binaries for your machine from GitHub releases and unzips them for
+you. It grabs the latest release, so you can easily update them. I have
+tried scripting these installs in the past and struggled to consistently get
+the latest version for every package and unpack it correctly.</p>
+<p>Also these pre-compiled binaries install rediculously fast compared to building
+them from source.</p>
+<p>Check out some example links.</p>
+<p>opening in a browser will show metadata</p>
+<p class="hover:z-20">
+<span class="z-10 group group-hover:z-20 relative inline-block">
+<a class="wikilink text-pink-500 hover:underline" href="https://i.jpillora.com/serve" title="https://i.jpillora.com/serve">
+<svg class="h-4 w-4 inline align-middle" fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+ https://i.jpillora.com/serve</a>
+<button aria-label="Preview" class="ml-2 text-pink-500 hover:underline focus:outline-none">
+<svg class="h-5 w-5 inline align-middle" fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="m2.25 15.75 5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5 1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5Zm10.5-11.25h.008v.008h-.008V8.25Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</button>
+<a class="hidden absolute top-6 left-0 z-20 group-hover:block" href="https://i.jpillora.com/serve">
+<img alt="a screenshot of https://i.jpillora.com/serve" class="rounded-xl transition-height ease-in duration-75 h-0 opacity-0 group-hover:opacity-100 group-hover:h-[800px] max-w-none" height="800" src="https://shots.wayl.one/shot/?url=https://i.jpillora.com/serve&amp;height=1600&amp;width=1200&amp;scaled_width=600&amp;scaled_height=800&amp;selectors=" style=" box-shadow: rgba(0, 0, 0, 0.6) 0 0 500rem 500rem; " width="600"/>
+</a>
+</span>
+</p>
+<p>If you pass in script=true it will instead return the install script as it
+would by default through curl.</p>
+<p class="hover:z-20">
+<span class="z-10 group group-hover:z-20 relative inline-block">
+<a class="wikilink text-pink-500 hover:underline" href="https://i.jpillora.com/serve?script=true" title="https://i.jpillora.com/serve?script=true">
+<svg class="h-4 w-4 inline align-middle" fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+ https://i.jpillora.com/serve?script=true</a>
+<button aria-label="Preview" class="ml-2 text-pink-500 hover:underline focus:outline-none">
+<svg class="h-5 w-5 inline align-middle" fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="m2.25 15.75 5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5 1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5Zm10.5-11.25h.008v.008h-.008V8.25Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</button>
+<a class="hidden absolute top-6 left-0 z-20 group-hover:block" href="https://i.jpillora.com/serve?script=true">
+<img alt="a screenshot of https://i.jpillora.com/serve?script=true" class="rounded-xl transition-height ease-in duration-75 h-0 opacity-0 group-hover:opacity-100 group-hover:h-[800px] max-w-none" height="800" src="https://shots.wayl.one/shot/?url=https://i.jpillora.com/serve?script=true&amp;height=1600&amp;width=1200&amp;scaled_width=600&amp;scaled_height=800&amp;selectors=" style=" box-shadow: rgba(0, 0, 0, 0.6) 0 0 500rem 500rem; " width="600"/>
+</a>
+</span>
+</p>
+<h2 id="use-it-to-install-neovim">Use it to install neovim <a aria-label="Permalink to Heading Use it to install neovim " class="header-anchor" href="#use-it-to-install-neovim" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>All you need to do to generate an install script is to pass in the GitHub repo
+slug with the org.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span>curl<span class="w"> </span>https://i.jpillora.com/neovim/neovim<span class="w"> </span><span class="p">|</span><span class="w"> </span>bash
+</pre></div>
+
+</pre>
+<p>The shell script that it generates for neovim looks like this.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="ch">#!/bin/bash</span>
+<span class="k">if</span><span class="w"> </span><span class="o">[</span><span class="w"> </span><span class="s2">"</span><span class="nv">$DEBUG</span><span class="s2">"</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">"1"</span><span class="w"> </span><span class="o">]</span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
+<span class="w">    </span><span class="nb">set</span><span class="w"> </span>-x
+<span class="k">fi</span>
+<span class="nv">TMP_DIR</span><span class="o">=</span><span class="k">$(</span>mktemp<span class="w"> </span>-d<span class="w"> </span>-t<span class="w"> </span>jpillora-installer-XXXXXXXXXX<span class="k">)</span>
+<span class="k">function</span><span class="w"> </span>cleanup<span class="w"> </span><span class="o">{</span>
+<span class="w">    </span>rm<span class="w"> </span>-rf<span class="w"> </span><span class="nv">$TMP_DIR</span><span class="w"> </span>&gt;<span class="w"> </span>/dev/null
+<span class="o">}</span>
+<span class="k">function</span><span class="w"> </span>fail<span class="w"> </span><span class="o">{</span>
+<span class="w">    </span>cleanup
+<span class="w">    </span><span class="nv">msg</span><span class="o">=</span><span class="nv">$1</span>
+<span class="w">    </span><span class="nb">echo</span><span class="w"> </span><span class="s2">"============"</span>
+<span class="w">    </span><span class="nb">echo</span><span class="w"> </span><span class="s2">"Error: </span><span class="nv">$msg</span><span class="s2">"</span><span class="w"> </span><span class="m">1</span>&gt;<span class="p">&amp;</span><span class="m">2</span>
+<span class="w">    </span><span class="nb">exit</span><span class="w"> </span><span class="m">1</span>
+<span class="o">}</span>
+<span class="k">function</span><span class="w"> </span>install<span class="w"> </span><span class="o">{</span>
+<span class="w">    </span><span class="c1">#settings</span>
+<span class="w">    </span><span class="nv">USER</span><span class="o">=</span><span class="s2">"neovim"</span>
+<span class="w">    </span><span class="nv">PROG</span><span class="o">=</span><span class="s2">"neovim"</span>
+<span class="w">    </span><span class="nv">ASPROG</span><span class="o">=</span><span class="s2">""</span>
+<span class="w">    </span><span class="nv">MOVE</span><span class="o">=</span><span class="s2">"false"</span>
+<span class="w">    </span><span class="nv">RELEASE</span><span class="o">=</span><span class="s2">"stable"</span>
+<span class="w">    </span><span class="nv">INSECURE</span><span class="o">=</span><span class="s2">"false"</span>
+<span class="w">    </span><span class="nv">OUT_DIR</span><span class="o">=</span><span class="s2">"</span><span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span><span class="s2">"</span>
+<span class="w">    </span><span class="nv">GH</span><span class="o">=</span><span class="s2">"https://github.com"</span>
+<span class="w">    </span><span class="c1">#bash check</span>
+<span class="w">    </span><span class="o">[</span><span class="w"> </span>!<span class="w"> </span><span class="s2">"</span><span class="nv">$BASH_VERSION</span><span class="s2">"</span><span class="w"> </span><span class="o">]</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>fail<span class="w"> </span><span class="s2">"Please use bash instead"</span>
+<span class="w">    </span><span class="o">[</span><span class="w"> </span>!<span class="w"> </span>-d<span class="w"> </span><span class="nv">$OUT_DIR</span><span class="w"> </span><span class="o">]</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>fail<span class="w"> </span><span class="s2">"output directory missing: </span><span class="nv">$OUT_DIR</span><span class="s2">"</span>
+<span class="w">    </span><span class="c1">#dependency check, assume we are a standard POISX machine</span>
+<span class="w">    </span>which<span class="w"> </span>find<span class="w"> </span>&gt;<span class="w"> </span>/dev/null<span class="w"> </span><span class="o">||</span><span class="w"> </span>fail<span class="w"> </span><span class="s2">"find not installed"</span>
+<span class="w">    </span>which<span class="w"> </span>xargs<span class="w"> </span>&gt;<span class="w"> </span>/dev/null<span class="w"> </span><span class="o">||</span><span class="w"> </span>fail<span class="w"> </span><span class="s2">"xargs not installed"</span>
+<span class="w">    </span>which<span class="w"> </span>sort<span class="w"> </span>&gt;<span class="w"> </span>/dev/null<span class="w"> </span><span class="o">||</span><span class="w"> </span>fail<span class="w"> </span><span class="s2">"sort not installed"</span>
+<span class="w">    </span>which<span class="w"> </span>tail<span class="w"> </span>&gt;<span class="w"> </span>/dev/null<span class="w"> </span><span class="o">||</span><span class="w"> </span>fail<span class="w"> </span><span class="s2">"tail not installed"</span>
+<span class="w">    </span>which<span class="w"> </span>cut<span class="w"> </span>&gt;<span class="w"> </span>/dev/null<span class="w"> </span><span class="o">||</span><span class="w"> </span>fail<span class="w"> </span><span class="s2">"cut not installed"</span>
+<span class="w">    </span>which<span class="w"> </span>du<span class="w"> </span>&gt;<span class="w"> </span>/dev/null<span class="w"> </span><span class="o">||</span><span class="w"> </span>fail<span class="w"> </span><span class="s2">"du not installed"</span>
+<span class="w">    </span><span class="c1">#choose an HTTP client</span>
+<span class="w">    </span><span class="nv">GET</span><span class="o">=</span><span class="s2">""</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span>which<span class="w"> </span>curl<span class="w"> </span>&gt;<span class="w"> </span>/dev/null<span class="p">;</span><span class="w"> </span><span class="k">then</span>
+<span class="w">        </span><span class="nv">GET</span><span class="o">=</span><span class="s2">"curl"</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="o">[[</span><span class="w"> </span><span class="nv">$INSECURE</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"true"</span><span class="w"> </span><span class="o">]]</span><span class="p">;</span><span class="w"> </span><span class="k">then</span><span class="w"> </span><span class="nv">GET</span><span class="o">=</span><span class="s2">"</span><span class="nv">$GET</span><span class="s2"> --insecure"</span><span class="p">;</span><span class="w"> </span><span class="k">fi</span>
+<span class="w">        </span><span class="nv">GET</span><span class="o">=</span><span class="s2">"</span><span class="nv">$GET</span><span class="s2"> --fail -# -L"</span>
+<span class="w">    </span><span class="k">elif</span><span class="w"> </span>which<span class="w"> </span>wget<span class="w"> </span>&gt;<span class="w"> </span>/dev/null<span class="p">;</span><span class="w"> </span><span class="k">then</span>
+<span class="w">        </span><span class="nv">GET</span><span class="o">=</span><span class="s2">"wget"</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="o">[[</span><span class="w"> </span><span class="nv">$INSECURE</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"true"</span><span class="w"> </span><span class="o">]]</span><span class="p">;</span><span class="w"> </span><span class="k">then</span><span class="w"> </span><span class="nv">GET</span><span class="o">=</span><span class="s2">"</span><span class="nv">$GET</span><span class="s2"> --no-check-certificate"</span><span class="p">;</span><span class="w"> </span><span class="k">fi</span>
+<span class="w">        </span><span class="nv">GET</span><span class="o">=</span><span class="s2">"</span><span class="nv">$GET</span><span class="s2"> -qO-"</span>
+<span class="w">    </span><span class="k">else</span>
+<span class="w">        </span>fail<span class="w"> </span><span class="s2">"neither wget/curl are installed"</span>
+<span class="w">    </span><span class="k">fi</span>
+<span class="w">    </span><span class="c1">#debug HTTP</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="o">[</span><span class="w"> </span><span class="s2">"</span><span class="nv">$DEBUG</span><span class="s2">"</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">"1"</span><span class="w"> </span><span class="o">]</span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
+<span class="w">        </span><span class="nv">GET</span><span class="o">=</span><span class="s2">"</span><span class="nv">$GET</span><span class="s2"> -v"</span>
+<span class="w">    </span><span class="k">fi</span>
+<span class="w">    </span><span class="c1">#optional auth to install from private repos</span>
+<span class="w">    </span><span class="c1">#NOTE: this also needs to be set on your instance of installer</span>
+<span class="w">    </span><span class="nv">AUTH</span><span class="o">=</span><span class="s2">"</span><span class="si">${</span><span class="nv">GITHUB_TOKEN</span><span class="si">}</span><span class="s2">"</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="o">[</span><span class="w"> </span>!<span class="w"> </span>-z<span class="w"> </span><span class="s2">"</span><span class="nv">$AUTH</span><span class="s2">"</span><span class="w"> </span><span class="o">]</span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
+<span class="w">        </span><span class="nv">GET</span><span class="o">=</span><span class="s2">"</span><span class="nv">$GET</span><span class="s2"> -H 'Authorization: </span><span class="nv">$AUTH</span><span class="s2">'"</span>
+<span class="w">    </span><span class="k">fi</span>
+<span class="w">    </span><span class="c1">#find OS #TODO BSDs and other posixs</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="sb">`</span>uname<span class="w"> </span>-s<span class="sb">`</span><span class="w"> </span><span class="k">in</span>
+<span class="w">    </span>Darwin<span class="o">)</span><span class="w"> </span><span class="nv">OS</span><span class="o">=</span><span class="s2">"darwin"</span><span class="p">;;</span>
+<span class="w">    </span>Linux<span class="o">)</span><span class="w"> </span><span class="nv">OS</span><span class="o">=</span><span class="s2">"linux"</span><span class="p">;;</span>
+<span class="w">    </span>*<span class="o">)</span><span class="w"> </span>fail<span class="w"> </span><span class="s2">"unknown os: </span><span class="k">$(</span>uname<span class="w"> </span>-s<span class="k">)</span><span class="s2">"</span><span class="p">;;</span>
+<span class="w">    </span><span class="k">esac</span>
+<span class="w">    </span><span class="c1">#find ARCH</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span>uname<span class="w"> </span>-m<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s1">'(arm|arch)64'</span><span class="w"> </span>&gt;<span class="w"> </span>/dev/null<span class="p">;</span><span class="w"> </span><span class="k">then</span>
+<span class="w">        </span><span class="nv">ARCH</span><span class="o">=</span><span class="s2">"arm64"</span>
+
+<span class="w">        </span><span class="c1"># no m1 assets. if on mac arm64, rosetta allows fallback to amd64</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="o">[[</span><span class="w"> </span><span class="nv">$OS</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"darwin"</span><span class="w"> </span><span class="o">]]</span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
+<span class="w">            </span><span class="nv">ARCH</span><span class="o">=</span><span class="s2">"amd64"</span>
+<span class="w">        </span><span class="k">fi</span>
+
+<span class="w">    </span><span class="k">elif</span><span class="w"> </span>uname<span class="w"> </span>-m<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span><span class="m">64</span><span class="w"> </span>&gt;<span class="w"> </span>/dev/null<span class="p">;</span><span class="w"> </span><span class="k">then</span>
+<span class="w">        </span><span class="nv">ARCH</span><span class="o">=</span><span class="s2">"amd64"</span>
+<span class="w">    </span><span class="k">elif</span><span class="w"> </span>uname<span class="w"> </span>-m<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>arm<span class="w"> </span>&gt;<span class="w"> </span>/dev/null<span class="p">;</span><span class="w"> </span><span class="k">then</span>
+<span class="w">        </span><span class="nv">ARCH</span><span class="o">=</span><span class="s2">"arm"</span><span class="w"> </span><span class="c1">#TODO armv6/v7</span>
+<span class="w">    </span><span class="k">elif</span><span class="w"> </span>uname<span class="w"> </span>-m<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span><span class="m">386</span><span class="w"> </span>&gt;<span class="w"> </span>/dev/null<span class="p">;</span><span class="w"> </span><span class="k">then</span>
+<span class="w">        </span><span class="nv">ARCH</span><span class="o">=</span><span class="s2">"386"</span>
+<span class="w">    </span><span class="k">else</span>
+<span class="w">        </span>fail<span class="w"> </span><span class="s2">"unknown arch: </span><span class="k">$(</span>uname<span class="w"> </span>-m<span class="k">)</span><span class="s2">"</span>
+<span class="w">    </span><span class="k">fi</span>
+<span class="w">    </span><span class="c1">#choose from asset list</span>
+<span class="w">    </span><span class="nv">URL</span><span class="o">=</span><span class="s2">""</span>
+<span class="w">    </span><span class="nv">FTYPE</span><span class="o">=</span><span class="s2">""</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="s2">"</span><span class="si">${</span><span class="nv">OS</span><span class="si">}</span><span class="s2">_</span><span class="si">${</span><span class="nv">ARCH</span><span class="si">}</span><span class="s2">"</span><span class="w"> </span><span class="k">in</span>
+<span class="w">    </span><span class="s2">"linux_amd64"</span><span class="o">)</span>
+<span class="w">        </span><span class="nv">URL</span><span class="o">=</span><span class="s2">"https://github.com/neovim/neovim/releases/download/stable/nvim-linux64.tar.gz"</span>
+<span class="w">        </span><span class="nv">FTYPE</span><span class="o">=</span><span class="s2">".tar.gz"</span>
+<span class="w">        </span><span class="p">;;</span>
+<span class="w">    </span><span class="s2">"darwin_amd64"</span><span class="o">)</span>
+<span class="w">        </span><span class="nv">URL</span><span class="o">=</span><span class="s2">"https://github.com/neovim/neovim/releases/download/stable/nvim-macos.tar.gz"</span>
+<span class="w">        </span><span class="nv">FTYPE</span><span class="o">=</span><span class="s2">".tar.gz"</span>
+<span class="w">        </span><span class="p">;;</span>
+<span class="w">    </span>*<span class="o">)</span><span class="w"> </span>fail<span class="w"> </span><span class="s2">"No asset for platform </span><span class="si">${</span><span class="nv">OS</span><span class="si">}</span><span class="s2">-</span><span class="si">${</span><span class="nv">ARCH</span><span class="si">}</span><span class="s2">"</span><span class="p">;;</span>
+<span class="w">    </span><span class="k">esac</span>
+<span class="w">    </span><span class="c1">#got URL! download it...</span>
+<span class="w">    </span><span class="nb">echo</span><span class="w"> </span>-n<span class="w"> </span><span class="s2">"Downloading"</span>
+<span class="w">    </span><span class="nb">echo</span><span class="w"> </span>-n<span class="w"> </span><span class="s2">" </span><span class="nv">$USER</span><span class="s2">/</span><span class="nv">$PROG</span><span class="s2">"</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="o">[</span><span class="w"> </span>!<span class="w"> </span>-z<span class="w"> </span><span class="s2">"</span><span class="nv">$RELEASE</span><span class="s2">"</span><span class="w"> </span><span class="o">]</span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
+<span class="w">        </span><span class="nb">echo</span><span class="w"> </span>-n<span class="w"> </span><span class="s2">" </span><span class="nv">$RELEASE</span><span class="s2">"</span>
+<span class="w">    </span><span class="k">fi</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="o">[</span><span class="w"> </span>!<span class="w"> </span>-z<span class="w"> </span><span class="s2">"</span><span class="nv">$ASPROG</span><span class="s2">"</span><span class="w"> </span><span class="o">]</span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
+<span class="w">        </span><span class="nb">echo</span><span class="w"> </span>-n<span class="w"> </span><span class="s2">" as </span><span class="nv">$ASPROG</span><span class="s2">"</span>
+<span class="w">    </span><span class="k">fi</span>
+<span class="w">    </span><span class="nb">echo</span><span class="w"> </span>-n<span class="w"> </span><span class="s2">" (</span><span class="si">${</span><span class="nv">OS</span><span class="si">}</span><span class="s2">/</span><span class="si">${</span><span class="nv">ARCH</span><span class="si">}</span><span class="s2">)"</span>
+
+<span class="w">    </span><span class="nb">echo</span><span class="w"> </span><span class="s2">"....."</span>
+
+<span class="w">    </span><span class="c1">#enter tempdir</span>
+<span class="w">    </span>mkdir<span class="w"> </span>-p<span class="w"> </span><span class="nv">$TMP_DIR</span>
+<span class="w">    </span><span class="nb">cd</span><span class="w"> </span><span class="nv">$TMP_DIR</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="o">[[</span><span class="w"> </span><span class="nv">$FTYPE</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">".gz"</span><span class="w"> </span><span class="o">]]</span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
+<span class="w">        </span>which<span class="w"> </span>gzip<span class="w"> </span>&gt;<span class="w"> </span>/dev/null<span class="w"> </span><span class="o">||</span><span class="w"> </span>fail<span class="w"> </span><span class="s2">"gzip is not installed"</span>
+<span class="w">        </span>bash<span class="w"> </span>-c<span class="w"> </span><span class="s2">"</span><span class="nv">$GET</span><span class="s2"> </span><span class="nv">$URL</span><span class="s2">"</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>gzip<span class="w"> </span>-d<span class="w"> </span>-<span class="w"> </span>&gt;<span class="w"> </span><span class="nv">$PROG</span><span class="w"> </span><span class="o">||</span><span class="w"> </span>fail<span class="w"> </span><span class="s2">"download failed"</span>
+<span class="w">    </span><span class="k">elif</span><span class="w"> </span><span class="o">[[</span><span class="w"> </span><span class="nv">$FTYPE</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">".tar.bz"</span><span class="w"> </span><span class="o">]]</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="o">[[</span><span class="w"> </span><span class="nv">$FTYPE</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">".tar.bz2"</span><span class="w"> </span><span class="o">]]</span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
+<span class="w">        </span>which<span class="w"> </span>tar<span class="w"> </span>&gt;<span class="w"> </span>/dev/null<span class="w"> </span><span class="o">||</span><span class="w"> </span>fail<span class="w"> </span><span class="s2">"tar is not installed"</span>
+<span class="w">        </span>which<span class="w"> </span>bzip2<span class="w"> </span>&gt;<span class="w"> </span>/dev/null<span class="w"> </span><span class="o">||</span><span class="w"> </span>fail<span class="w"> </span><span class="s2">"bzip2 is not installed"</span>
+<span class="w">        </span>bash<span class="w"> </span>-c<span class="w"> </span><span class="s2">"</span><span class="nv">$GET</span><span class="s2"> </span><span class="nv">$URL</span><span class="s2">"</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>tar<span class="w"> </span>jxf<span class="w"> </span>-<span class="w"> </span><span class="o">||</span><span class="w"> </span>fail<span class="w"> </span><span class="s2">"download failed"</span>
+<span class="w">    </span><span class="k">elif</span><span class="w"> </span><span class="o">[[</span><span class="w"> </span><span class="nv">$FTYPE</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">".tar.gz"</span><span class="w"> </span><span class="o">]]</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="o">[[</span><span class="w"> </span><span class="nv">$FTYPE</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">".tgz"</span><span class="w"> </span><span class="o">]]</span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
+<span class="w">        </span>which<span class="w"> </span>tar<span class="w"> </span>&gt;<span class="w"> </span>/dev/null<span class="w"> </span><span class="o">||</span><span class="w"> </span>fail<span class="w"> </span><span class="s2">"tar is not installed"</span>
+<span class="w">        </span>which<span class="w"> </span>gzip<span class="w"> </span>&gt;<span class="w"> </span>/dev/null<span class="w"> </span><span class="o">||</span><span class="w"> </span>fail<span class="w"> </span><span class="s2">"gzip is not installed"</span>
+<span class="w">        </span>bash<span class="w"> </span>-c<span class="w"> </span><span class="s2">"</span><span class="nv">$GET</span><span class="s2"> </span><span class="nv">$URL</span><span class="s2">"</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>tar<span class="w"> </span>zxf<span class="w"> </span>-<span class="w"> </span><span class="o">||</span><span class="w"> </span>fail<span class="w"> </span><span class="s2">"download failed"</span>
+<span class="w">    </span><span class="k">elif</span><span class="w"> </span><span class="o">[[</span><span class="w"> </span><span class="nv">$FTYPE</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">".zip"</span><span class="w"> </span><span class="o">]]</span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
+<span class="w">        </span>which<span class="w"> </span>unzip<span class="w"> </span>&gt;<span class="w"> </span>/dev/null<span class="w"> </span><span class="o">||</span><span class="w"> </span>fail<span class="w"> </span><span class="s2">"unzip is not installed"</span>
+<span class="w">        </span>bash<span class="w"> </span>-c<span class="w"> </span><span class="s2">"</span><span class="nv">$GET</span><span class="s2"> </span><span class="nv">$URL</span><span class="s2">"</span><span class="w"> </span>&gt;<span class="w"> </span>tmp.zip<span class="w"> </span><span class="o">||</span><span class="w"> </span>fail<span class="w"> </span><span class="s2">"download failed"</span>
+<span class="w">        </span>unzip<span class="w"> </span>-o<span class="w"> </span>-qq<span class="w"> </span>tmp.zip<span class="w"> </span><span class="o">||</span><span class="w"> </span>fail<span class="w"> </span><span class="s2">"unzip failed"</span>
+<span class="w">        </span>rm<span class="w"> </span>tmp.zip<span class="w"> </span><span class="o">||</span><span class="w"> </span>fail<span class="w"> </span><span class="s2">"cleanup failed"</span>
+<span class="w">    </span><span class="k">elif</span><span class="w"> </span><span class="o">[[</span><span class="w"> </span><span class="nv">$FTYPE</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">".bin"</span><span class="w"> </span><span class="o">]]</span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
+<span class="w">        </span>bash<span class="w"> </span>-c<span class="w"> </span><span class="s2">"</span><span class="nv">$GET</span><span class="s2"> </span><span class="nv">$URL</span><span class="s2">"</span><span class="w"> </span>&gt;<span class="w"> </span><span class="s2">"neovim_</span><span class="si">${</span><span class="nv">OS</span><span class="si">}</span><span class="s2">_</span><span class="si">${</span><span class="nv">ARCH</span><span class="si">}</span><span class="s2">"</span><span class="w"> </span><span class="o">||</span><span class="w"> </span>fail<span class="w"> </span><span class="s2">"download failed"</span>
+<span class="w">    </span><span class="k">else</span>
+<span class="w">        </span>fail<span class="w"> </span><span class="s2">"unknown file type: </span><span class="nv">$FTYPE</span><span class="s2">"</span>
+<span class="w">    </span><span class="k">fi</span>
+<span class="w">    </span><span class="c1">#search subtree largest file (bin)</span>
+<span class="w">    </span><span class="nv">TMP_BIN</span><span class="o">=</span><span class="k">$(</span>find<span class="w"> </span>.<span class="w"> </span>-type<span class="w"> </span>f<span class="w"> </span><span class="p">|</span><span class="w"> </span>xargs<span class="w"> </span>du<span class="w"> </span><span class="p">|</span><span class="w"> </span>sort<span class="w"> </span>-n<span class="w"> </span><span class="p">|</span><span class="w"> </span>tail<span class="w"> </span>-n<span class="w"> </span><span class="m">1</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>cut<span class="w"> </span>-f<span class="w"> </span><span class="m">2</span><span class="k">)</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="o">[</span><span class="w"> </span>!<span class="w"> </span>-f<span class="w"> </span><span class="s2">"</span><span class="nv">$TMP_BIN</span><span class="s2">"</span><span class="w"> </span><span class="o">]</span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
+<span class="w">        </span>fail<span class="w"> </span><span class="s2">"could not find find binary (largest file)"</span>
+<span class="w">    </span><span class="k">fi</span>
+<span class="w">    </span><span class="c1">#ensure its larger than 1MB</span>
+<span class="w">    </span><span class="c1">#TODO linux=elf/darwin=macho file detection?</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="o">[[</span><span class="w"> </span><span class="k">$(</span>du<span class="w"> </span>-m<span class="w"> </span><span class="nv">$TMP_BIN</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>cut<span class="w"> </span>-f1<span class="k">)</span><span class="w"> </span>-lt<span class="w"> </span><span class="m">1</span><span class="w"> </span><span class="o">]]</span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
+<span class="w">        </span>fail<span class="w"> </span><span class="s2">"no binary found (</span><span class="nv">$TMP_BIN</span><span class="s2"> is not larger than 1MB)"</span>
+<span class="w">    </span><span class="k">fi</span>
+<span class="w">    </span><span class="c1">#move into PATH or cwd</span>
+<span class="w">    </span>chmod<span class="w"> </span>+x<span class="w"> </span><span class="nv">$TMP_BIN</span><span class="w"> </span><span class="o">||</span><span class="w"> </span>fail<span class="w"> </span><span class="s2">"chmod +x failed"</span>
+<span class="w">    </span><span class="nv">DEST</span><span class="o">=</span><span class="s2">"</span><span class="nv">$OUT_DIR</span><span class="s2">/</span><span class="nv">$PROG</span><span class="s2">"</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="o">[</span><span class="w"> </span>!<span class="w"> </span>-z<span class="w"> </span><span class="s2">"</span><span class="nv">$ASPROG</span><span class="s2">"</span><span class="w"> </span><span class="o">]</span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
+<span class="w">        </span><span class="nv">DEST</span><span class="o">=</span><span class="s2">"</span><span class="nv">$OUT_DIR</span><span class="s2">/</span><span class="nv">$ASPROG</span><span class="s2">"</span>
+<span class="w">    </span><span class="k">fi</span>
+<span class="w">    </span><span class="c1">#move without sudo</span>
+<span class="w">    </span><span class="nv">OUT</span><span class="o">=</span><span class="k">$(</span>mv<span class="w"> </span><span class="nv">$TMP_BIN</span><span class="w"> </span><span class="nv">$DEST</span><span class="w"> </span><span class="m">2</span>&gt;<span class="p">&amp;</span><span class="m">1</span><span class="k">)</span>
+<span class="w">    </span><span class="nv">STATUS</span><span class="o">=</span><span class="nv">$?</span>
+<span class="w">    </span><span class="c1"># failed and string contains "Permission denied"</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="o">[</span><span class="w"> </span><span class="nv">$STATUS</span><span class="w"> </span>-ne<span class="w"> </span><span class="m">0</span><span class="w"> </span><span class="o">]</span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="o">[[</span><span class="w"> </span><span class="nv">$OUT</span><span class="w"> </span><span class="o">=</span>~<span class="w"> </span><span class="s2">"Permission denied"</span><span class="w"> </span><span class="o">]]</span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
+<span class="w">            </span><span class="nb">echo</span><span class="w"> </span><span class="s2">"mv with sudo..."</span>
+<span class="w">            </span>sudo<span class="w"> </span>mv<span class="w"> </span><span class="nv">$TMP_BIN</span><span class="w"> </span><span class="nv">$DEST</span><span class="w"> </span><span class="o">||</span><span class="w"> </span>fail<span class="w"> </span><span class="s2">"sudo mv failed"</span>
+<span class="w">        </span><span class="k">else</span>
+<span class="w">            </span>fail<span class="w"> </span><span class="s2">"mv failed (</span><span class="nv">$OUT</span><span class="s2">)"</span>
+<span class="w">        </span><span class="k">fi</span>
+<span class="w">    </span><span class="k">fi</span>
+<span class="w">    </span><span class="nb">echo</span><span class="w"> </span><span class="s2">"Downloaded to </span><span class="nv">$DEST</span><span class="s2">"</span>
+<span class="w">    </span><span class="c1">#done</span>
+<span class="w">    </span>cleanup
+<span class="o">}</span>
+install
+</pre></div>
+
+</pre>
+<h2 id="self-host-your-own">Self Host Your Own <a aria-label="Permalink to Heading Self Host Your Own " class="header-anchor" href="#self-host-your-own" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>I'd reccomend self hosting your own. This way you know that it's consistent
+and unlikely to change in a way that breaks your use.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span>curl -s https://i.jpillora.com/installer | bash
+</pre></div>
+
+</pre>
+<h2 id="repos-i-am-using-installer-for">Repos I am using installer for <a aria-label="Permalink to Heading Repos I am using installer for " class="header-anchor" href="#repos-i-am-using-installer-for" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>Here are the repos I am using installer for.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span>atuinsh/atuin
+benbjohnson/litestream
+bootandy/dust
+BurntSushi/ripgrep
+chmln/sd
+cjbassi/ytop
+dalance/procs
+dbrgn/tealdeer
+ducaale/xh
+go-task/task
+imsnif/bandwhich
+imsnif/diskonaut
+kovidgoyal/kitty
+mgdm/htmlq
+neovim/neovim
+ogham/dog
+ogham/exa
+pemistahl/grex
+sharkdp/bat
+sharkdp/fd
+sharkdp/pastel
+sirwart/ripsecrets
+starship/starship
+topgrade-rs/topgrade
+zellij-org/zellij
+</pre></div>
+
+</pre>
+</div>
+</article>
+<article>
+<h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Recent Posts</h2>
+<ul class="px-0">
+<li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/debug-cloudflared-tunnel/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Debug Cloudflared Tunnel
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-12-03">
+                2024-12-3
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/setup-cloudflared-tunnel-on-ubuntu/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Setup Cloudflared Tunnel On Ubuntu
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-12-02">
+                2024-12-2
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/price-an-stl-print-on-slant3d/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Price An Stl Print On Slant3D
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-11-18">
+                2024-11-18
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/k3s-config-after-first-install/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            K3S Config After First Install
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-09-15">
+                2024-9-15
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/new-caps-for-porta-john/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            New-Caps-For-Porta-John
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-08-05">
+                2024-8-5
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/blogging-in-2024/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Blogging In 2024
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-08-05">
+                2024-8-5
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/obsidian-new-file/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Obsidian-New-File
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-08-05">
+                2024-8-5
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/vim-gq/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Vim-Gq
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-08-05">
+                2024-8-5
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/slug/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Slug
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-08-05">
+                2024-8-5
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/obsidian-go-to-definition/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Obsidian-Go-To-Definition
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-08-04">
+                2024-8-4
+            </time>
+</p>
+</a>
+</li></ul>
+<h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Recent <a href="/thoughts/" hx-boost="true">Thoughts</a></h2>
+<ul class="px-0">
+<li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-439/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Using Opnsense With Tailscale · Tailscale Docs
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-12-03">
+                2024-12-3
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-438/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Fitting Two Hard Drives And An Ssd In A Dell Opt
+            ...
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-11-27">
+                2024-11-27
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-435/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Changelog On X: "🗣️@Dhh On Kubernetes' Migration
+            ...
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-11-25">
+                2024-11-25
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-436/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 If Anyone Else Is Having Sound Clicking With Cha
+            ...
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-11-25">
+                2024-11-25
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-437/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 How To Fix An Office Chair Popping Noise? With R
+            ...
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-11-25">
+                2024-11-25
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-434/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 (44) How To Make A Good First Impression In Busi
+            ...
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-11-24">
+                2024-11-24
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-433/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Inside Argo: Automating The Future - Youtube
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-11-22">
+                2024-11-22
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-432/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Introduction - Bootc
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-11-21">
+                2024-11-21
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-430/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Wes Bos On X: "Css Anchors: Flip A Tooltip To Th
+            ...
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-11-19">
+                2024-11-19
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-431/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Saghen/Blink.Cmp: Performant, Batteries-Included
+            ...
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-11-19">
+                2024-11-19
+            </time>
+</p>
+</a>
+</li></ul>
+<h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Recent Posts from People I read</h2>
+<div hx-get="https://reader.waylonwlker.com/10-written" hx-swap="outerHTML" hx-trigger="load"></div>
+<h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Recent Posts from my YouTube subs</h2>
+<div hx-get="https://reader.waylonwlker.com/10-video" hx-swap="outerHTML" hx-trigger="load"></div>
+<h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Recent Posts from my favorite pods</h2>
+<div hx-get="https://reader.waylonwlker.com/10-video" hx-swap="outerHTML" hx-trigger="load"></div> </article>
+</div>
+<footer class="bg-gray-900 border-t border-pink-800 pb-8">
+<ul class="social my-8">
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://waylonwalker.com/feeds" hx-boost="true" rel="me">RSS</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://twitter.com/_WaylonWalker" rel="me">twitter</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://youtube.com/waylonwalker">youtube</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://www.youtube.com/channel/UCHuxc1HRsd3aRjvL6C817tQ">gaming-youtube</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://www.linkedin.com/in/waylonwalker/">LinkedIn</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://github.com/WaylonWalker" rel="me">GitHub</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://dev.to/waylonwalker">Dev.to</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://www.twitch.tv/waylonwalker">twitch</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="mailto:hello@waylonwalker.com" rel="me">hello@waylonwalker.com</a>
+</li>
+</ul>
+<p>© 2023 - 2024</p>
+</footer> </div>
+</body>
+</html>

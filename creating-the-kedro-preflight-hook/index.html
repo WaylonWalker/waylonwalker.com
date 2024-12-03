@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width" name="viewport"/>
+<link href="/8bitcc.ico" rel="icon" type="image/png"/>
+<meta content="website" name="og:type"/>
+<title>Creating The Kedro-Preflight Hook</title>
+<meta content="Creating The Kedro-Preflight Hook" name="twitter:title"/>
+<meta content="Creating The Kedro-Preflight Hook" name="og:title"/>
+<meta content="Kedro Hooks Intro - kedro hooks are an exciting upcoming feature of kedro kedro hooks are an exciting upcoming feature of kedro  [ If you are completely unsure " name="description"/>
+<meta content="Kedro Hooks Intro - kedro hooks are an exciting upcoming feature of kedro kedro hooks are an exciting upcoming feature of kedro  [ If you are completely unsure " name="og:description"/>
+<meta content="Kedro Hooks Intro - kedro hooks are an exciting upcoming feature of kedro kedro hooks are an exciting upcoming feature of kedro  [ If you are completely unsure " name="twitter:description"/>
+<meta content="article" name="og:type"/>
+<meta content="https://waylonwalker.com/creating-the-kedro-preflight-hook" name="og:url"/>
+<meta content="http://shots.wayl.one/shot/?url=https://waylonwalker.com/creating-the-kedro-preflight-hook&amp;height=600&amp;width=1200&amp;scaled_width=1200&amp;scaled_height=600" name="og:image"/>
+<meta content="http://shots.wayl.one/shot/?url=https://waylonwalker.com/creating-the-kedro-preflight-hook&amp;height=640&amp;width=1280&amp;scaled_width=1280&amp;scaled_height=640" name="twitter:image"/>
+<meta content="1200" name="og:image:width"/>
+<meta content="600" name="og:image:height"/>
+<meta content="@_waylonwalker" name="twitter:creator"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Waylon Walker" name="og:author"/>
+<meta content="Waylon Walker" name="og:site_name"/>
+<meta content="waylon@waylonwalker.com" name="og:author_email"/>
+<meta content="markata 0.8.1.dev11" name="generator"/>
+<meta content="$ilp.uphold.com/MGN2ni2YMXaQ" name="monetization"/>
+<meta content="#322D39" name="theme-color"/>
+<link href="/app.css" rel="stylesheet"/>
+<link href="https://waylonwalker.com/creating-the-kedro-preflight-hook/" rel="canonical"/>
+<link href="https://waylonwalker.com/creating-the-kedro-preflight-hook/amp/" rel="amphtml"/>
+<link href="https://indieauth.com/auth" rel="authorization_endpoint"/>
+<link href="https://tokens.indieauth.com/token" rel="token_endpoint"/>
+<link href="https://waylonwalker.com/creating-the-kedro-preflight-hook/amp" rel="amphtml"/>
+<link href="https://waylonwalker.com/archive" rel="micropub"/>
+<link href="https://webmention.io/waylonwalker.com/webmention" rel="webmention"/>
+<link href="https://images.waylonwalker.com" rel="preconnect"/>
+<link href="https://covers.waylonwalker.com" rel="preconnect"/>
+<link href="https://stable-diffusion.waylonwalker.com" rel="preconnect"/>
+<link href="https://screenshots.waylonwalker.com" rel="preconnect"/>
+<link href="/8bitcc_48x48.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_72x72.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_96x96.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_144x144.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_192x192.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_256x256.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_384x384.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_512x512.png" rel="apple-touch-icon"/>
+<script src="/htmx.min.js"></script> <script>
+        navigator.serviceWorker.getRegistrations().then(function (registrations) {
+            for (let registration of registrations) {
+                registration.unregister();
+            }
+        });
+
+    </script>
+<script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "WebPage",
+                "name": "Creating The Kedro-Preflight Hook",
+                "headline": "Creating The Kedro-Preflight Hook",
+                "datePublished": "2020-05-10",
+                "dateModified": "2020-05-10",
+                "author": {
+                    "@type": "Person",
+                    "name": "Waylon Walker"
+                    "url": "https://waylonwalker.com"
+                },
+                "image": [
+                    "https://shots.wayl.one/shot/?url=https://waylonwalker.com/&height=640&width=1280&scaled_width=1280&scaled_height=640",
+                ]
+                "speakable":
+                {
+                    "@type": "SpeakableSpecification",
+                    "cssSelector": [
+                        "#title",
+                        "#post-body"
+                    ]
+                },
+                "url": "https://waylonwalker.com/"
+            }
+        </script>
+</head>
+<body position="relative">
+<div class="neon-ring"></div>
+<div class="dubs">
+<nav class="w-full bg-gray-950 py-4 mb-8 sticky border-b border-pink-500">
+<ul>
+<li><a href="/" hx-boost="true">Home</a></li>
+<li><a href="/archive/" hx-boost="true">Archive</a></li>
+<li><a href="/about/" hx-boost="true">About</a></li>
+<li><a href="/feeds/" hx-boost="true">RSS</a></li>
+</ul>
+</nav> <div>
+<article class="blog-post h-entry">
+<div id="title-wrapper">
+<a class="no-underline u-url" href="https://waylonwalker.com//" hx-boost="true">
+<h1 class="flair blog title no-link" id="title">
+            Creating The Kedro-Preflight Hook
+        </h1>
+</a>
+<p class="m-0 sm:m-[-2rem]">
+<time class="dt-published post-date" datetime="" style="text-align: right; z-index: 2"></time>
+</p>
+<div class="flex flex-row h-card p-author space-between" rel="author">
+<img alt="pixelated avatar of Waylon Walker with a yellow and pink background" class="m-auto ml-0 w-16 h-16 rounded-full u-photo shadow-[0_0_5px_5px_rgba(0,0,0,0.4)]" src="/88-8bitcc.webp"/>
+<div class="content">
+<a class="p-name u-url h-card p-author" href="https://waylonwalker.com/" hx-boost="true" rel="me">
+<p>
+<span class="p-given-name">Waylon</span>
+<span class="p-family-name">Walker</span>
+</p>
+</a>
+<p class="p-note">
+                Learning in Public
+                <a href="https://twitter.com/_WaylonWalker" rel="me">@_WaylonWalker</a>
+</p>
+</div>
+</div>
+<!-- edit -->
+<!-- <p> -->
+<!--     <a href="https://github.com/WaylonWalker/waylonwalker.com/edit/main/pages/blog/.md" -->
+<!--         alt="edit post url" title="edit this post">edit<span role="img" aria-label="">✏️</span></a> -->
+<!-- </p> -->
+</div><h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Tags</h2>
+<ul class="flex flex-wrap justify-center p-0 m-auto max-w-md border-yellow-400 tags">
+<li class="px-4 mx-2 list-none rounded-full ring-1 ring-pink-500">
+<a class="p-category" href="https://waylonwalker.com/kedro" hx-boost="true">kedro</a>
+</li>
+<li class="px-4 mx-2 list-none rounded-full ring-1 ring-pink-500">
+<a class="p-category" href="https://waylonwalker.com/python" hx-boost="true">python</a>
+</li>
+</ul> <div class="e-content" data-pagefind-body="" id="post-body">
+<p>Kedro Hooks Intro - kedro hooks are an exciting upcoming feature of kedro
+<code>0.16.0</code>.  They allow you to hook into <code>catalog_created</code>,<code>pipeline_run</code>, and
+<code>node_run</code>(nouns).  With a <code>before</code>, or <code>after</code> (adjective).  This really
+reminds me of reacts lifecycle hooks, that let you hook into various state of
+react web components.  This is going to make kedro so extendable by the
+community.  I am super pumped to see what the community is able to do with this
+ability.</p>
+<p>kedro hooks are an exciting upcoming feature of kedro <code>0.16.0</code>.  They allow you to hook into <code>catalog_created</code>,<code>pipeline_run</code>, and <code>node_run</code>(nouns). With a <code>before</code>, or <code>after</code> (adjective).  This really reminds me of reacts lifecycle hooks, that let you hook into various state of react web components.  This is going to make kedro so extendable by the community.  I am super pumped to see what the community is able to do with this ability.</p>
+<p class="hover:z-20">
+<span class="z-10 group group-hover:z-20 relative inline-block">
+<a class="wikilink text-pink-500 hover:underline" href="https://waylonwalker.com//what-is-kedro" hx-boost="true" title="what-is-kedro"> what-is-kedro</a>
+<button aria-label="Preview" class="ml-2 text-pink-500 hover:underline focus:outline-none">
+<svg class="h-5 w-5 inline align-middle" fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="m2.25 15.75 5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5 1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5Zm10.5-11.25h.008v.008h-.008V8.25Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</button>
+<a class="hidden absolute top-6 left-0 z-20 group-hover:block" href="https://waylonwalker.com//what-is-kedro">
+<img alt="a screenshot of https://waylonwalker.com//what-is-kedro" class="rounded-xl transition-height ease-in duration-75 h-0 opacity-0 group-hover:opacity-100 group-hover:h-[800px] max-w-none" height="800" src="https://shots.wayl.one/shot/?url=https://waylonwalker.com//what-is-kedro&amp;height=1600&amp;width=1200&amp;scaled_width=600&amp;scaled_height=800&amp;selectors=" style=" box-shadow: rgba(0, 0, 0, 0.6) 0 0 500rem 500rem; " width="600"/>
+</a>
+</span>
+</p>
+<blockquote>
+<p>If you are completely unsure what kedro is be sure to check out my what is kedro post</p>
+</blockquote>
+<h2 id="docs">Docs <a aria-label="Permalink to Heading Docs " class="header-anchor" href="#docs" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p><em>a work in progress</em></p>
+<p>As this is a part of an upcoming release you will need to look in the <code>latest</code> docs, <strong>not</strong> <code>stable</code> and you will find a <a href="https://kedro.readthedocs.io/en/stable/07_extend_kedro/02_hooks.html">15_hoooks</a> page.  As these docs are still in development they are not very complete at this point and do require a bit more existing <code>kedro</code> knowledge to understand.  I am sure they will get much better as we approach the realease of hooks.</p>
+<blockquote>
+<p>This doesn't mean that we can't still install the latest/unstable version and have some fun learning!</p>
+</blockquote>
+<h2 id="installation">Installation <a aria-label="Permalink to Heading Installation " class="header-anchor" href="#installation" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p><em>Straight from GitHub</em></p>
+<p>As this is part of an upcoming release you will need to get the library straight from github.  Since this is not a stable release of <code>kedro</code> I cannot express the importance of using a virtual environment enough.  Trying to install this version in the same place that you are trying to develop a pipeline potentially break your existing working development environment.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span>conda<span class="w"> </span>create<span class="w"> </span>-n<span class="w"> </span>kedro0160<span class="w"> </span>-y
+conda<span class="w"> </span>activate<span class="w"> </span>kedro0160<span class="w"> </span><span class="c1"># may also be source activate kedro0160 or activate kedro0160</span>
+pip<span class="w"> </span>install<span class="w"> </span>git+https://github.com/quantumblacklabs/kedro.git
+pip<span class="w"> </span>install<span class="w"> </span>colorama
+</pre></div>
+
+</pre>
+<blockquote>
+<p><strong>note</strong> the version is still somewhere between <code>0.15.9</code> and <code>0,16.0</code>.  <code>kedro.__version__</code> will still be <code>0.15.9</code> and wiill not roll until the official release.</p>
+</blockquote>
+<h2 id="create-a-sample-project">Create a sample project <a aria-label="Permalink to Heading Create a sample project " class="header-anchor" href="#create-a-sample-project" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<blockquote>
+<h3>Kedro new</h3>
+<p>For more details check out my full post on <a href="https://waylonwalker.com/create-new-kedro-project/" hx-boost="true">kedro new</a></p>
+</blockquote>
+<p>For this post I really just want a working pipeline as fast as possible.  For this I am going to use iris pipeline that is generated from the <code>kedro new</code> command in the cli.  It's <strong>important</strong> that you answer <code>y</code> to create an example pipeline.</p>
+<blockquote>
+<h3>Hold On ✋</h3>
+<p>Did you create a separate environment for this?  Please do.</p>
+</blockquote>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span>kedro<span class="w"> </span>new
+</pre></div>
+
+</pre>
+<p>After you run the <code>kedro new</code> command it will ask a series of questions.  👇 Here is how I answered them.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span>Project<span class="w"> </span>Name:
+<span class="o">=============</span>
+Please<span class="w"> </span>enter<span class="w"> </span>a<span class="w"> </span>human<span class="w"> </span>readable<span class="w"> </span>name<span class="w"> </span><span class="k">for</span><span class="w"> </span>your<span class="w"> </span>new<span class="w"> </span>project.
+Spaces<span class="w"> </span>and<span class="w"> </span>punctuation<span class="w"> </span>are<span class="w"> </span>allowed.
+<span class="w"> </span><span class="o">[</span>New<span class="w"> </span>Kedro<span class="w"> </span>Project<span class="o">]</span>:<span class="w"> </span>Kedro<span class="w"> </span>Hooks
+Repository<span class="w"> </span>Name:
+<span class="o">================</span>
+Please<span class="w"> </span>enter<span class="w"> </span>a<span class="w"> </span>directory<span class="w"> </span>name<span class="w"> </span><span class="k">for</span><span class="w"> </span>your<span class="w"> </span>new<span class="w"> </span>project<span class="w"> </span>repository.
+Alphanumeric<span class="w"> </span>characters,<span class="w"> </span>hyphens<span class="w"> </span>and<span class="w"> </span>underscores<span class="w"> </span>are<span class="w"> </span>allowed.
+Lowercase<span class="w"> </span>is<span class="w"> </span>recommended.
+<span class="w"> </span><span class="o">[</span>kedro-hooks<span class="o">]</span>:
+Python<span class="w"> </span>Package<span class="w"> </span>Name:
+<span class="o">====================</span>
+Please<span class="w"> </span>enter<span class="w"> </span>a<span class="w"> </span>valid<span class="w"> </span>Python<span class="w"> </span>package<span class="w"> </span>name<span class="w"> </span><span class="k">for</span><span class="w"> </span>your<span class="w"> </span>project<span class="w"> </span>package.
+Alphanumeric<span class="w"> </span>characters<span class="w"> </span>and<span class="w"> </span>underscores<span class="w"> </span>are<span class="w"> </span>allowed.
+Lowercase<span class="w"> </span>is<span class="w"> </span>recommended.<span class="w"> </span>Package<span class="w"> </span>name<span class="w"> </span>must<span class="w"> </span>start<span class="w"> </span>with<span class="w"> </span>a<span class="w"> </span>letter<span class="w"> </span>or<span class="w"> </span>underscore.
+<span class="w"> </span><span class="o">[</span>kedro_hooks<span class="o">]</span>:
+Generate<span class="w"> </span>Example<span class="w"> </span>Pipeline:
+<span class="o">==========================</span>
+Do<span class="w"> </span>you<span class="w"> </span>want<span class="w"> </span>to<span class="w"> </span>generate<span class="w"> </span>an<span class="w"> </span>example<span class="w"> </span>pipeline<span class="w"> </span><span class="k">in</span><span class="w"> </span>your<span class="w"> </span>project?
+Good<span class="w"> </span><span class="k">for</span><span class="w"> </span>first-time<span class="w"> </span>users.<span class="w"> </span><span class="o">(</span><span class="nv">default</span><span class="o">=</span>N<span class="o">)</span>
+<span class="w"> </span><span class="o">[</span>y/N<span class="o">]</span>:<span class="w"> </span>y
+Change<span class="w"> </span>directory<span class="w"> </span>to<span class="w"> </span>the<span class="w"> </span>project<span class="w"> </span>generated<span class="w"> </span><span class="k">in</span><span class="w"> </span>/mnt/c/temp/kedro-hooks/
+A<span class="w"> </span>best-practice<span class="w"> </span>setup<span class="w"> </span>includes<span class="w"> </span>initialising<span class="w"> </span>git<span class="w"> </span>and<span class="w"> </span>creating<span class="w"> </span>a<span class="w"> </span>virtual<span class="w"> </span>environment<span class="w"> </span>before<span class="w"> </span>running<span class="w"> </span><span class="sb">`</span>kedro<span class="w"> </span>install<span class="sb">`</span><span class="w"> </span>to<span class="w"> </span>install<span class="w"> </span>project-specific<span class="w"> </span>dependencies.<span class="w"> </span>Refer<span class="w"> </span>to<span class="w"> </span>the<span class="w"> </span>Kedro<span class="w"> </span>documentation:<span class="w"> </span>https://kedro.readthedocs.io/
+</pre></div>
+
+</pre>
+<h3>Install the Project</h3>
+<p>Next install the project itself and all of its dependencies with the <code>kedro install</code> command.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>kedro-hooks
+kedro<span class="w"> </span>install
+</pre></div>
+
+</pre>
+<h3>🏃‍♀️ Run the pipeline</h3>
+<p>Before we start developing any hooks lets make sure everything is setup correctly by running the pipeline with <code>kedro run</code>.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span>kedro<span class="w"> </span>run
+</pre></div>
+
+</pre>
+<h2 id="lets-make-a-hook">Let's make a hook <a aria-label="Permalink to Heading Let's make a hook " class="header-anchor" href="#lets-make-a-hook" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p><em>getting to the meat of the post</em></p>
+<p>Now that we have a project scaffolded up and running we can develop a hook for it.  As far as I can tell hooks can be implemented one of <strong>two ways</strong>.  As a <strong>function</strong> inside of a module, then import that module and pass it into the hooks list, or implemented as a method on a <strong>class</strong>, then the class is passed into the hooks list.  Either method must follow the naming convention with the <code>@hook_impl</code> decorator.  Each module/class can implement more than one hook, but not more than one of the same type. One of each kind will be created below.</p>
+<h3>Full list of hooks available</h3>
+<blockquote>
+<p><code>before_catalog_created</code></p>
+<p><code>after_catalog_created</code></p>
+<p><code>before_pipeline_run</code></p>
+<p><code>after_pipeline_run</code></p>
+<p><code>before_node_run</code></p>
+<p><code>after_node_run</code></p>
+</blockquote>
+<h2 id="debug_hook-class">debug_hook (class) <a aria-label="Permalink to Heading debug_hook (class) " class="header-anchor" href="#debug_hook-class" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p><em>quick and dirty</em></p>
+<p>I highly recommend this as your first hook.  It's super easy to make and lets you explore the arguments passed into the hook.  For this one I am going to pop the following class right into <code>kedro-hooks/src/kedro-hooks/run.py</code>, remember that I chose <code>kedro-hooks</code> as my project name.  Your path might be slightly different.  If you wanted to make a real hook it might make sense to put it in its own module, but for simplicity of your first hook you can put it directly in the same module that it gets implemented.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">debug_hook</span><span class="p">:</span>
+    <span class="nd">@hook_impl</span>
+    <span class="k">def</span> <span class="nf">before_pipeline_run</span><span class="p">(</span><span class="n">run_params</span><span class="p">,</span> <span class="n">pipeline</span><span class="p">,</span> <span class="n">catalog</span><span class="p">):</span>
+        <span class="s2">"pops into a debugger before pipeline run"</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">'I hooked in right before the pipeline run'</span><span class="p">)</span>
+        <span class="nb">breakpoint</span><span class="p">()</span>
+</pre></div>
+
+</pre>
+<p>It is really that easy to create a kedro hook!  Now lets apply it to our project.  All we need to do is add one line (<code>hooks = [debug_hook]</code>) to the existing <code>ProjectContext</code> class within <code>kedro-hooks/src/kedro-hooks/run.py</code>.  Once we do that our <code>ProjectContext</code> will look like this.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">ProjectContext</span><span class="p">(</span><span class="n">KedroContext</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">"""Users can override the remaining methods from the parent class here,</span>
+<span class="sd">    or create new ones (e.g. as required by plugins)</span>
+<span class="sd">    """</span>
+
+    <span class="n">project_name</span> <span class="o">=</span> <span class="s2">"kedro-hooks"</span>
+    <span class="c1"># `project_version` is the version of kedro used to generate the project</span>
+    <span class="n">project_version</span> <span class="o">=</span> <span class="s2">"0.15.9"</span>
+    <span class="n">package_name</span> <span class="o">=</span> <span class="s2">"kedro-hooks"</span>
+
+    <span class="n">hooks</span> <span class="o">=</span> <span class="p">[</span> <span class="n">debug_hook</span> <span class="p">]</span> <span class="c1"># 👈 This is where you implement the hook</span>
+
+    <span class="k">def</span> <span class="nf">_get_pipelines</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Pipeline</span><span class="p">]:</span>
+        <span class="k">return</span> <span class="n">create_pipelines</span><span class="p">()</span>
+</pre></div>
+
+</pre>
+<p>Run it!  While you are in the debugger, explore what the <code>run_params</code>, <code>pipeine</code>, and <code>catalog</code> arguments give you.  This will give you some insight to what to expect when creating your next hook.</p>
+<h2 id="preflight-hook-module">preflight hook (module) <a aria-label="Permalink to Heading preflight hook (module) " class="header-anchor" href="#preflight-hook-module" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p><em>giving it a bit more flair</em></p>
+<p>Create a new file <code>kedro-hooks/src/kedro-hooks/preflight.py</code> and place the following content into the file.  This will raise a <code>DataSetNotFoundError</code> before wasting time running any of the pipeline.  This could be useful to save some developer time for long running pipelines by warning them that they don't have all of the raw data they need before running.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="c1"># kedro-hooks/src/kedro-hooks/preflight.py</span>
+<span class="kn">from</span> <span class="nn">kedro.hooks</span> <span class="kn">import</span> <span class="n">hook_impl</span>
+<span class="kn">from</span> <span class="nn">kedro.io.core</span> <span class="kn">import</span> <span class="n">DataSetNotFoundError</span>
+<span class="kn">from</span> <span class="nn">colorama</span> <span class="kn">import</span> <span class="n">Fore</span>
+<span class="kn">import</span> <span class="nn">textwrap</span>
+
+
+<span class="nd">@hook_impl</span>
+<span class="k">def</span> <span class="nf">before_pipeline_run</span><span class="p">(</span><span class="n">run_params</span><span class="p">,</span> <span class="n">pipeline</span><span class="p">,</span> <span class="n">catalog</span><span class="p">):</span>
+    <span class="n">missing_input</span> <span class="o">=</span> <span class="p">[</span><span class="n">i</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">pipeline</span><span class="o">.</span><span class="n">inputs</span><span class="p">()</span> <span class="k">if</span> <span class="ow">not</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">catalog</span><span class="o">.</span><span class="n">datasets</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span><span class="o">.</span><span class="n">_exists</span><span class="p">()]</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">missing_input</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="n">DataSetNotFoundError</span><span class="p">(</span><span class="n">textwrap</span><span class="o">.</span><span class="n">dedent</span><span class="p">(</span><span class="sa">f</span><span class="s1">'''</span>
+
+<span class="s1">    </span><span class="si">{</span><span class="n">Fore</span><span class="o">.</span><span class="n">LIGHTBLACK_EX</span><span class="si">}</span><span class="s1">――――――――  </span><span class="si">{</span><span class="n">Fore</span><span class="o">.</span><span class="n">RED</span><span class="si">}</span><span class="s1">PREFLIGHT ERROR </span><span class="si">{</span><span class="n">Fore</span><span class="o">.</span><span class="n">LIGHTBLACK_EX</span><span class="si">}</span><span class="s1">―――――――――</span>
+<span class="s1">    </span><span class="si">{</span><span class="n">Fore</span><span class="o">.</span><span class="n">RESET</span><span class="si">}</span><span class="s1"> preflight of pipeline failed due to </span><span class="si">{</span><span class="n">Fore</span><span class="o">.</span><span class="n">YELLOW</span><span class="si">}</span><span class="s1">missing datasets</span>
+<span class="s1">    </span><span class="si">{</span><span class="n">Fore</span><span class="o">.</span><span class="n">BLUE</span><span class="si">}</span><span class="s1"> </span><span class="si">{</span><span class="n">missing_input</span><span class="si">}{</span><span class="n">Fore</span><span class="o">.</span><span class="n">RESET</span><span class="si">}</span>
+<span class="s1">    '''</span><span class="p">))</span>
+</pre></div>
+
+</pre>
+<p>Once we are happy with this hook, it can live anywhere.  It can be a module inside our project.  It can be a separate libarary that gets handed out as a back ally wheel, or we can even publish it as its own package to pypi so that anyone can easily pip install it.</p>
+<h3>One Step Back</h3>
+<p><em>a bit of explanation of preflight</em></p>
+<p>If you are not familiar, <code>pipeline.inputs()</code> gives us all of the edge inputs into the pipeline.  kedro does also have a <code>pipeline.all_inputs()</code> that tells us all of the edge and internal pipeline inputs that will be called throughout the pipeline run.  For this hook we are just concerned with the edge inputs as internal inputs will be generated during the run.</p>
+<p>Also each one of the kedro datasets have an <code>_exists()</code> method attached to them to check if the dataset exists or not.  For a more robust implementation of <code>preflight</code> it would probably be best to ignore <code>AttributeError</code>s, i.e the dataset type does not have an implementation of <code>_exists</code>.  It would probably also be a good idea to filter for types such as <code>SQLQueryDataSet</code>s that assume <code>_exists</code> is False by default.</p>
+<h2 id="ideas">Ideas <a aria-label="Permalink to Heading Ideas " class="header-anchor" href="#ideas" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>Now that the juices are flowing what ideas do you have for <code>kedro</code> hooks?</p>
+</div>
+</article>
+<article>
+<h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Recent Posts</h2>
+<ul class="px-0">
+<li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/debug-cloudflared-tunnel/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Debug Cloudflared Tunnel
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-12-03">
+                2024-12-3
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/setup-cloudflared-tunnel-on-ubuntu/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Setup Cloudflared Tunnel On Ubuntu
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-12-02">
+                2024-12-2
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/price-an-stl-print-on-slant3d/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Price An Stl Print On Slant3D
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-11-18">
+                2024-11-18
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/k3s-config-after-first-install/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            K3S Config After First Install
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-09-15">
+                2024-9-15
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/new-caps-for-porta-john/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            New-Caps-For-Porta-John
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-08-05">
+                2024-8-5
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/blogging-in-2024/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Blogging In 2024
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-08-05">
+                2024-8-5
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/obsidian-new-file/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Obsidian-New-File
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-08-05">
+                2024-8-5
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/vim-gq/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Vim-Gq
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-08-05">
+                2024-8-5
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/slug/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Slug
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-08-05">
+                2024-8-5
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/obsidian-go-to-definition/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Obsidian-Go-To-Definition
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-08-04">
+                2024-8-4
+            </time>
+</p>
+</a>
+</li></ul>
+<h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Recent <a href="/thoughts/" hx-boost="true">Thoughts</a></h2>
+<ul class="px-0">
+<li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-439/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Using Opnsense With Tailscale · Tailscale Docs
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-12-03">
+                2024-12-3
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-438/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Fitting Two Hard Drives And An Ssd In A Dell Opt
+            ...
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-11-27">
+                2024-11-27
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-435/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Changelog On X: "🗣️@Dhh On Kubernetes' Migration
+            ...
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-11-25">
+                2024-11-25
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-436/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 If Anyone Else Is Having Sound Clicking With Cha
+            ...
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-11-25">
+                2024-11-25
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-437/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 How To Fix An Office Chair Popping Noise? With R
+            ...
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-11-25">
+                2024-11-25
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-434/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 (44) How To Make A Good First Impression In Busi
+            ...
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-11-24">
+                2024-11-24
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-433/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Inside Argo: Automating The Future - Youtube
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-11-22">
+                2024-11-22
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-432/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Introduction - Bootc
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-11-21">
+                2024-11-21
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-430/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Wes Bos On X: "Css Anchors: Flip A Tooltip To Th
+            ...
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-11-19">
+                2024-11-19
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-431/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Saghen/Blink.Cmp: Performant, Batteries-Included
+            ...
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-11-19">
+                2024-11-19
+            </time>
+</p>
+</a>
+</li></ul>
+<h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Recent Posts from People I read</h2>
+<div hx-get="https://reader.waylonwlker.com/10-written" hx-swap="outerHTML" hx-trigger="load"></div>
+<h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Recent Posts from my YouTube subs</h2>
+<div hx-get="https://reader.waylonwlker.com/10-video" hx-swap="outerHTML" hx-trigger="load"></div>
+<h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Recent Posts from my favorite pods</h2>
+<div hx-get="https://reader.waylonwlker.com/10-video" hx-swap="outerHTML" hx-trigger="load"></div> </article>
+</div>
+<footer class="bg-gray-900 border-t border-pink-800 pb-8">
+<ul class="social my-8">
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://waylonwalker.com/feeds" hx-boost="true" rel="me">RSS</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://twitter.com/_WaylonWalker" rel="me">twitter</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://youtube.com/waylonwalker">youtube</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://www.youtube.com/channel/UCHuxc1HRsd3aRjvL6C817tQ">gaming-youtube</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://www.linkedin.com/in/waylonwalker/">LinkedIn</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://github.com/WaylonWalker" rel="me">GitHub</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://dev.to/waylonwalker">Dev.to</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://www.twitch.tv/waylonwalker">twitch</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="mailto:hello@waylonwalker.com" rel="me">hello@waylonwalker.com</a>
+</li>
+</ul>
+<p>© 2020 - 2024</p>
+</footer> </div>
+</body>
+</html>

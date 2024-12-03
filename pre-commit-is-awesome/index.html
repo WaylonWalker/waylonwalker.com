@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width" name="viewport"/>
+<link href="/8bitcc.ico" rel="icon" type="image/png"/>
+<meta content="website" name="og:type"/>
+<title>Pre-Commit Is Awesome</title>
+<meta content="Pre-Commit Is Awesome" name="twitter:title"/>
+<meta content="Pre-Commit Is Awesome" name="og:title"/>
+<meta content="I recently discovered the ✨ awesomeness that is pre-commit. I steered away I recently discovered the ✨ awesomeness that is pre-commit. I steered away from it fo" name="description"/>
+<meta content="I recently discovered the ✨ awesomeness that is pre-commit. I steered away I recently discovered the ✨ awesomeness that is pre-commit. I steered away from it fo" name="og:description"/>
+<meta content="I recently discovered the ✨ awesomeness that is pre-commit. I steered away I recently discovered the ✨ awesomeness that is pre-commit. I steered away from it fo" name="twitter:description"/>
+<meta content="article" name="og:type"/>
+<meta content="https://waylonwalker.com/pre-commit-is-awesome" name="og:url"/>
+<meta content="http://shots.wayl.one/shot/?url=https://waylonwalker.com/pre-commit-is-awesome&amp;height=600&amp;width=1200&amp;scaled_width=1200&amp;scaled_height=600" name="og:image"/>
+<meta content="http://shots.wayl.one/shot/?url=https://waylonwalker.com/pre-commit-is-awesome&amp;height=640&amp;width=1280&amp;scaled_width=1280&amp;scaled_height=640" name="twitter:image"/>
+<meta content="1200" name="og:image:width"/>
+<meta content="600" name="og:image:height"/>
+<meta content="@_waylonwalker" name="twitter:creator"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Waylon Walker" name="og:author"/>
+<meta content="Waylon Walker" name="og:site_name"/>
+<meta content="waylon@waylonwalker.com" name="og:author_email"/>
+<meta content="markata 0.8.1.dev11" name="generator"/>
+<meta content="$ilp.uphold.com/MGN2ni2YMXaQ" name="monetization"/>
+<meta content="#322D39" name="theme-color"/>
+<link href="/app.css" rel="stylesheet"/>
+<link href="https://waylonwalker.com/pre-commit-is-awesome/" rel="canonical"/>
+<link href="https://waylonwalker.com/pre-commit-is-awesome/amp/" rel="amphtml"/>
+<link href="https://indieauth.com/auth" rel="authorization_endpoint"/>
+<link href="https://tokens.indieauth.com/token" rel="token_endpoint"/>
+<link href="https://waylonwalker.com/pre-commit-is-awesome/amp" rel="amphtml"/>
+<link href="https://waylonwalker.com/archive" rel="micropub"/>
+<link href="https://webmention.io/waylonwalker.com/webmention" rel="webmention"/>
+<link href="https://images.waylonwalker.com" rel="preconnect"/>
+<link href="https://covers.waylonwalker.com" rel="preconnect"/>
+<link href="https://stable-diffusion.waylonwalker.com" rel="preconnect"/>
+<link href="https://screenshots.waylonwalker.com" rel="preconnect"/>
+<link href="/8bitcc_48x48.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_72x72.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_96x96.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_144x144.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_192x192.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_256x256.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_384x384.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_512x512.png" rel="apple-touch-icon"/>
+<script src="/htmx.min.js"></script> <script>
+        navigator.serviceWorker.getRegistrations().then(function (registrations) {
+            for (let registration of registrations) {
+                registration.unregister();
+            }
+        });
+
+    </script>
+<script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "WebPage",
+                "name": "Pre-Commit Is Awesome",
+                "headline": "Pre-Commit Is Awesome",
+                "datePublished": "2020-06-05",
+                "dateModified": "2020-06-05",
+                "author": {
+                    "@type": "Person",
+                    "name": "Waylon Walker"
+                    "url": "https://waylonwalker.com"
+                },
+                "image": [
+                    "https://shots.wayl.one/shot/?url=https://waylonwalker.com/&height=640&width=1280&scaled_width=1280&scaled_height=640",
+                ]
+                "speakable":
+                {
+                    "@type": "SpeakableSpecification",
+                    "cssSelector": [
+                        "#title",
+                        "#post-body"
+                    ]
+                },
+                "url": "https://waylonwalker.com/"
+            }
+        </script>
+</head>
+<body position="relative">
+<div class="neon-ring"></div>
+<div class="dubs">
+<nav class="w-full bg-gray-950 py-4 mb-8 sticky border-b border-pink-500">
+<ul>
+<li><a href="/" hx-boost="true">Home</a></li>
+<li><a href="/archive/" hx-boost="true">Archive</a></li>
+<li><a href="/about/" hx-boost="true">About</a></li>
+<li><a href="/feeds/" hx-boost="true">RSS</a></li>
+</ul>
+</nav> <div>
+<article class="blog-post h-entry">
+<div id="title-wrapper">
+<a class="no-underline u-url" href="https://waylonwalker.com//" hx-boost="true">
+<h1 class="flair blog title no-link" id="title">
+            Pre-Commit Is Awesome
+        </h1>
+</a>
+<p class="m-0 sm:m-[-2rem]">
+<time class="dt-published post-date" datetime="" style="text-align: right; z-index: 2"></time>
+</p>
+<div class="flex flex-row h-card p-author space-between" rel="author">
+<img alt="pixelated avatar of Waylon Walker with a yellow and pink background" class="m-auto ml-0 w-16 h-16 rounded-full u-photo shadow-[0_0_5px_5px_rgba(0,0,0,0.4)]" src="/88-8bitcc.webp"/>
+<div class="content">
+<a class="p-name u-url h-card p-author" href="https://waylonwalker.com/" hx-boost="true" rel="me">
+<p>
+<span class="p-given-name">Waylon</span>
+<span class="p-family-name">Walker</span>
+</p>
+</a>
+<p class="p-note">
+                Learning in Public
+                <a href="https://twitter.com/_WaylonWalker" rel="me">@_WaylonWalker</a>
+</p>
+</div>
+</div>
+<!-- edit -->
+<!-- <p> -->
+<!--     <a href="https://github.com/WaylonWalker/waylonwalker.com/edit/main/pages/blog/.md" -->
+<!--         alt="edit post url" title="edit this post">edit<span role="img" aria-label="">✏️</span></a> -->
+<!-- </p> -->
+</div><h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Tags</h2>
+<ul class="flex flex-wrap justify-center p-0 m-auto max-w-md border-yellow-400 tags">
+<li class="px-4 mx-2 list-none rounded-full ring-1 ring-pink-500">
+<a class="p-category" href="https://waylonwalker.com/python" hx-boost="true">python</a>
+</li>
+</ul> <div class="e-content" data-pagefind-body="" id="post-body">
+<p>I recently discovered the ✨ awesomeness that is pre-commit. I steered away
+from it for so long because it seemed like a big daunting thing to set up, but
+really it's easy. It will automatically run checks for you. In some cases, it
+will even automatically fix them for you. Out of the box, it will do things
+like automatically trim extra whitespace, fix file endings, and ensure file
+sizes are not too large for git.</p>
+<p>I recently discovered the ✨ awesomeness that is pre-commit. I steered away from it for so long because it seemed like a big daunting thing to set up, but really it's easy. It will automatically run checks for you. In some cases, it will even automatically fix them for you. Out of the box, it will do things like automatically trim extra whitespace, fix file endings, and ensure file sizes are not too large for git.</p>
+<h2 id="quickstart">Quickstart <a aria-label="Permalink to Heading Quickstart " class="header-anchor" href="#quickstart" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>It comes with a <code>sample-config</code> that is pretty general purpose and use for just about any project in git.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span>pip<span class="w"> </span>instal<span class="w"> </span>pre-commit
+pre-commit<span class="w"> </span>sample-config<span class="w"> </span>&gt;<span class="w"> </span>.pre-commit-config.yaml
+pre-commit<span class="w"> </span>install
+git<span class="w"> </span>add<span class="w"> </span>.
+git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">"added pre-commit"</span>
+</pre></div>
+
+</pre>
+<h2 id="cloned-repo">Cloned Repo <a aria-label="Permalink to Heading Cloned Repo " class="header-anchor" href="#cloned-repo" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>Once someone has created the <code>.pre-commit-config.yaml</code> everyone on the team will want to be running it for consistency's sake. (make sure everyone agrees with the config you have chosen first). Simply install the existing config.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span>pip<span class="w"> </span>install<span class="w"> </span>pre-commit
+git<span class="w"> </span>clone<span class="w"> </span>&lt;repo&gt;
+pre-commit<span class="w"> </span>install
+git<span class="w"> </span>add<span class="w"> </span>.
+git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">"added pre-commit"</span>
+</pre></div>
+
+</pre>
+<h2 id="sample-config">sample-config <a aria-label="Permalink to Heading sample-config " class="header-anchor" href="#sample-config" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>The sample configuration does some really basic, file ending, trailing-whitespace fixing. And checks for files too large for git. This one saved me when I tried to commit linux <code>rpm</code> once 🤦‍♀️.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="c1"># See https://pre-commit.com for more information</span>
+<span class="c1"># See https://pre-commit.com/hooks.html for more hooks</span>
+<span class="nt">repos</span><span class="p">:</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">repo</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://github.com/pre-commit/pre-commit-hooks</span>
+<span class="w">    </span><span class="l l-Scalar l-Scalar-Plain">rev</span><span class="p p-Indicator">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">v2.4.0</span>
+<span class="w">    </span><span class="l l-Scalar l-Scalar-Plain">hooks</span><span class="p p-Indicator">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">trailing-whitespace</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">end-of-file-fixer</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">check-yaml</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">check-added-large-files</span>
+</pre></div>
+
+</pre>
+<h2 id="adding-some-extras-from-pre-commit-themselves">Adding some extras from pre-commit themselves <a aria-label="Permalink to Heading Adding some extras from pre-commit themselves " class="header-anchor" href="#adding-some-extras-from-pre-commit-themselves" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>Here I have added a couple of extra ones form pre-commit</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">check-case-conflict</span><span class="w"> </span><span class="c1"># Check for files that would conflict in case-insensitive filesystems</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">check-merge-conflict</span><span class="w"> </span><span class="c1"># Check for files that contain merge conflict strings.</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">debug-statements</span><span class="w"> </span><span class="c1"># Check for debugger imports and py37+ `breakpoint()` calls in python source.</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">requirements-txt-fixer</span><span class="w"> </span><span class="c1"># Sorts entries in requirements.txt</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">forbid-new-submodules</span><span class="w"> </span><span class="c1"># Check for git submodules</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">flake8</span><span class="w"> </span><span class="c1"># runs python flake8</span>
+</pre></div>
+
+</pre>
+<p>The submodules one is big. I have seen several folks trying to learn git for the first time mistakenly start nesting all of their projects underneath each other and eventually losing a lot of work. Trying to learn the command line and git all at once can be really confusing.</p>
+<h2 id="skip-pre-commit">skip pre-commit <a aria-label="Permalink to Heading skip pre-commit " class="header-anchor" href="#skip-pre-commit" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>So you have a big codebase and you are trying to get pre-commit ready, but you just need your changes in.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="l l-Scalar l-Scalar-Plain">git commit -m "commiting wihout pre-commit" --no-verify</span>
+</pre></div>
+
+</pre>
+<h2 id="manually-run-pre-commit">manually run pre-commit <a aria-label="Permalink to Heading manually run pre-commit " class="header-anchor" href="#manually-run-pre-commit" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>If you have an existing repo and want to run pre-commit on everything, since it was pre-existing, you can do that manually.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="l l-Scalar l-Scalar-Plain">pre-commit run --all-files</span>
+</pre></div>
+
+</pre>
+<h2 id="so-pre-commit-changed-some-files">So pre-commit changed some files <a aria-label="Permalink to Heading So pre-commit changed some files " class="header-anchor" href="#so-pre-commit-changed-some-files" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>Since <code>pre-commit</code> only runs against staged files, but makes changes to the local files you need to add them.</p>
+<p>Here is a git status after committing with some trailing whitespace issues.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span>❯<span class="w"> </span>git<span class="w"> </span>status
+On<span class="w"> </span>branch<span class="w"> </span>main
+Changes<span class="w"> </span>to<span class="w"> </span>be<span class="w"> </span>committed:
+<span class="w">  </span><span class="o">(</span>use<span class="w"> </span><span class="s2">"git restore --staged &lt;file&gt;..."</span><span class="w"> </span>to<span class="w"> </span>unstage<span class="o">)</span>
+<span class="w">        </span>modified:<span class="w"> </span>README.md
+
+Changes<span class="w"> </span>not<span class="w"> </span>staged<span class="w"> </span><span class="k">for</span><span class="w"> </span>commit:
+<span class="w">  </span><span class="o">(</span>use<span class="w"> </span><span class="s2">"git add &lt;file&gt;..."</span><span class="w"> </span>to<span class="w"> </span>update<span class="w"> </span>what<span class="w"> </span>will<span class="w"> </span>be<span class="w"> </span>committed<span class="o">)</span>
+<span class="w">  </span><span class="o">(</span>use<span class="w"> </span><span class="s2">"git restore &lt;file&gt;..."</span><span class="w"> </span>to<span class="w"> </span>discard<span class="w"> </span>changes<span class="w"> </span><span class="k">in</span><span class="w"> </span>working<span class="w"> </span>directory<span class="o">)</span>
+<span class="w">        </span>modified:<span class="w"> </span>README.md
+</pre></div>
+
+</pre>
+<p><code>pre-commit</code> will keep yelling at you about <code>trailing whitespace</code> until you add the files.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span>git<span class="w"> </span>add<span class="w"> </span>README.md
+</pre></div>
+
+</pre>
+<h2 id="community-developed-plugins">Community Developed plugins <a aria-label="Permalink to Heading Community Developed plugins " class="header-anchor" href="#community-developed-plugins" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p><em>give me more</em></p>
+<p>These almost make it <strong>too</strong> easy. Sharing your process to get up and running without <code>pre-commit</code> can involve a lot of instructions. Installing several different tools, then running them manually, probably forgetting to do so sometimes. These will automatically install and only run scoped to the files that have changed, not on the whole repo.</p>
+<h3>isort</h3>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">repo</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://github.com/asottile/seed-isort-config</span>
+<span class="nt">rev</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">v2.1.1</span>
+<span class="nt">hooks</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">seed-isort-config</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">repo</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://github.com/pre-commit/mirrors-isort</span>
+<span class="nt">rev</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">v4.3.21</span>
+<span class="nt">hooks</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">isort</span>
+</pre></div>
+
+</pre>
+<h3>.isort.cfg</h3>
+<p>In order to get isort to play nicely with black, I found great success with the following config placed in the root of the repo at <code>.isort.cfg</code>. Without these settings, I found that you commits will consistently fail checks because <code>isort</code> and <code>black</code> are fighting each other.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="k">[settings]</span>
+<span class="n">multi_line_output</span><span class="o">=</span><span class="mi">3</span>
+<span class="n">include_trailing_comma</span><span class="o">=</span><span class="n">True</span>
+<span class="n">force_grid_wrap</span><span class="o">=</span><span class="mi">0</span>
+<span class="n">use_parentheses</span><span class="o">=</span><span class="n">True</span>
+<span class="n">line_length</span><span class="o">=</span><span class="mi">88</span>
+</pre></div>
+
+</pre>
+<h3>.flake8</h3>
+<p>Just as with <code>isort</code> flake8 tends to complain about a few things that black does. To get them to play nicely together place this file in the root of the repo at <code>.flake8</code>.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="c1"># taken from black</span>
+<span class="c1"># added E231 as is conflicts with black formatting</span>
+<span class="k">[flake8]</span>
+<span class="n">ignore</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">E203</span><span class="p">,</span><span class="w"> </span><span class="n">E266</span><span class="p">,</span><span class="w"> </span><span class="n">E501</span><span class="p">,</span><span class="w"> </span><span class="n">W503</span><span class="p">,</span><span class="w"> </span><span class="n">E231</span><span class="p">,</span><span class="w"> </span><span class="n">F541</span>
+<span class="n">max-line-length</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">88</span>
+<span class="n">max-complexity</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">18</span>
+<span class="n">select</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">B</span><span class="p">,</span><span class="n">C</span><span class="p">,</span><span class="n">E</span><span class="p">,</span><span class="n">F</span><span class="p">,</span><span class="n">W</span><span class="p">,</span><span class="n">T4</span><span class="p">,</span><span class="n">B9</span>
+</pre></div>
+
+</pre>
+<h3>black</h3>
+<p>Black is an amazing CLI tool the python community has been blessed with. It was developed by python core dev Lukasz Langa after deep research of real python projects. It will autoformat your project and will check that the AST before and after remains the same ensuring that the code will run exactly the same. It only makes it more readable. I keep black installed and set to run on save. Many times I will bang out some sloppy code with long lines or poor indentation hit save and let black take care of the easy work.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">repo</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://github.com/asottile/blacken-docs</span>
+<span class="w">    </span><span class="l l-Scalar l-Scalar-Plain">rev</span><span class="p p-Indicator">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">v1.7.0</span>
+<span class="w">    </span><span class="l l-Scalar l-Scalar-Plain">hooks</span><span class="p p-Indicator">:</span>
+<span class="w">        </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">blacken-docs</span>
+<span class="w">        </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">additional_dependencies</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="nv">black</span><span class="p p-Indicator">]</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">repo</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://github.com/psf/black</span>
+<span class="w">    </span><span class="l l-Scalar l-Scalar-Plain">rev</span><span class="p p-Indicator">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">19.3b0</span>
+<span class="w">    </span><span class="l l-Scalar l-Scalar-Plain">hooks</span><span class="p p-Indicator">:</span>
+<span class="w">        </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">black</span>
+</pre></div>
+
+</pre>
+<h3>mypy</h3>
+<p>I have recently fallen in love with mypy. It has saved me from shipping some bugs that would not have been caught with tests, even with 100% coverage. I don't have 100% coverage across every possible type entered.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">repo</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://github.com/pre-commit/mirrors-mypy</span>
+<span class="w">      </span><span class="nt">rev</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">v0.720</span>
+<span class="w">      </span><span class="nt">hooks</span><span class="p">:</span>
+<span class="w">          </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">mypy</span>
+<span class="w">            </span><span class="nt">exclude</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">tests/</span>
+</pre></div>
+
+</pre>
+<h2 id="your-own-plugin">Your own plugin <a aria-label="Permalink to Heading Your own plugin " class="header-anchor" href="#your-own-plugin" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>Sometimes you have a CLI tool that you want to run, but there is no plugin. No worries, you can install manually set the repo to local, and add an entry for your CLI command to run.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">repo</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">local</span>
+<span class="w">      </span><span class="nt">hooks</span><span class="p">:</span>
+<span class="w">          </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">interrogate</span>
+<span class="err">   		</span><span class="w"> </span><span class="w w-Error"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">"Interrogate</span><span class="nv"> </span><span class="s">docstring</span><span class="nv"> </span><span class="s">coverage</span><span class="nv"> </span><span class="s">check"</span>
+<span class="w">          </span><span class="nt">types</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="nv">file</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="nv">python</span><span class="p p-Indicator">]</span>
+<span class="w">          </span><span class="nt">entry</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">interrogate -f 100 -vv</span>
+</pre></div>
+
+</pre>
+<hr/>
+<p>I have been writing short snippets about my mentality breaking into the tech/data industry in my newsletter, 👇 check it out and lets get the conversation started.</p>
+<p><a href="https://emailoctopus.com/lists/b194a4af-9875-11ea-a3d0-06b4694bee2a/forms/subscribe"><img alt="Sign up for my Newsletter" src="https://images.waylonwalker.com/waylon-walker-newsletter.png"/></a></p>
+</div>
+</article>
+<article>
+<h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Recent Posts</h2>
+<ul class="px-0">
+<li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/debug-cloudflared-tunnel/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Debug Cloudflared Tunnel
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-12-03">
+                2024-12-3
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/setup-cloudflared-tunnel-on-ubuntu/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Setup Cloudflared Tunnel On Ubuntu
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-12-02">
+                2024-12-2
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/price-an-stl-print-on-slant3d/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Price An Stl Print On Slant3D
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-11-18">
+                2024-11-18
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/k3s-config-after-first-install/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            K3S Config After First Install
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-09-15">
+                2024-9-15
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/new-caps-for-porta-john/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            New-Caps-For-Porta-John
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-08-05">
+                2024-8-5
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/blogging-in-2024/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Blogging In 2024
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-08-05">
+                2024-8-5
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/obsidian-new-file/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Obsidian-New-File
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-08-05">
+                2024-8-5
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/vim-gq/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Vim-Gq
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-08-05">
+                2024-8-5
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/slug/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Slug
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-08-05">
+                2024-8-5
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/obsidian-go-to-definition/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Obsidian-Go-To-Definition
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-08-04">
+                2024-8-4
+            </time>
+</p>
+</a>
+</li></ul>
+<h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Recent <a href="/thoughts/" hx-boost="true">Thoughts</a></h2>
+<ul class="px-0">
+<li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-439/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Using Opnsense With Tailscale · Tailscale Docs
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-12-03">
+                2024-12-3
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-438/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Fitting Two Hard Drives And An Ssd In A Dell Opt
+            ...
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-11-27">
+                2024-11-27
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-435/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Changelog On X: "🗣️@Dhh On Kubernetes' Migration
+            ...
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-11-25">
+                2024-11-25
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-436/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 If Anyone Else Is Having Sound Clicking With Cha
+            ...
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-11-25">
+                2024-11-25
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-437/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 How To Fix An Office Chair Popping Noise? With R
+            ...
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-11-25">
+                2024-11-25
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-434/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 (44) How To Make A Good First Impression In Busi
+            ...
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-11-24">
+                2024-11-24
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-433/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Inside Argo: Automating The Future - Youtube
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-11-22">
+                2024-11-22
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-432/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Introduction - Bootc
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-11-21">
+                2024-11-21
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-430/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Wes Bos On X: "Css Anchors: Flip A Tooltip To Th
+            ...
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-11-19">
+                2024-11-19
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-431/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Saghen/Blink.Cmp: Performant, Batteries-Included
+            ...
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-11-19">
+                2024-11-19
+            </time>
+</p>
+</a>
+</li></ul>
+<h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Recent Posts from People I read</h2>
+<div hx-get="https://reader.waylonwlker.com/10-written" hx-swap="outerHTML" hx-trigger="load"></div>
+<h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Recent Posts from my YouTube subs</h2>
+<div hx-get="https://reader.waylonwlker.com/10-video" hx-swap="outerHTML" hx-trigger="load"></div>
+<h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Recent Posts from my favorite pods</h2>
+<div hx-get="https://reader.waylonwlker.com/10-video" hx-swap="outerHTML" hx-trigger="load"></div> </article>
+</div>
+<footer class="bg-gray-900 border-t border-pink-800 pb-8">
+<ul class="social my-8">
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://waylonwalker.com/feeds" hx-boost="true" rel="me">RSS</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://twitter.com/_WaylonWalker" rel="me">twitter</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://youtube.com/waylonwalker">youtube</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://www.youtube.com/channel/UCHuxc1HRsd3aRjvL6C817tQ">gaming-youtube</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://www.linkedin.com/in/waylonwalker/">LinkedIn</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://github.com/WaylonWalker" rel="me">GitHub</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://dev.to/waylonwalker">Dev.to</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://www.twitch.tv/waylonwalker">twitch</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="mailto:hello@waylonwalker.com" rel="me">hello@waylonwalker.com</a>
+</li>
+</ul>
+<p>© 2020 - 2024</p>
+</footer> </div>
+</body>
+</html>

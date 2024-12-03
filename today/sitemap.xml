@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/sitemap.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <title>today</title>
+    <link>https://waylonwalker.com/</link>
+   <url>
+      <title>💭 Using Opnsense With Tailscale · Tailscale Docs</title>
+      <description>On reboot of my opnsense router it did not tailscale up.  I&#39;m not sure if a key expired or what happened.  The fix was t</description>
+      <loc>https://waylonwalker.com//thoughts-439</loc>
+      <lastmod>2024-12-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Debug Cloudflared Tunnel</title>
+      <description>I In yesterday [</description>
+      <loc>https://waylonwalker.com//debug-cloudflared-tunnel</loc>
+      <lastmod>2024-12-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+</urlset>

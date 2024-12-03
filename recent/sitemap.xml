@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/sitemap.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <title>recent</title>
+    <link>https://waylonwalker.com/</link>
+   <url>
+      <title>💭 Using Opnsense With Tailscale · Tailscale Docs</title>
+      <description>On reboot of my opnsense router it did not tailscale up.  I&#39;m not sure if a key expired or what happened.  The fix was t</description>
+      <loc>https://waylonwalker.com//thoughts-439</loc>
+      <lastmod>2024-12-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Debug Cloudflared Tunnel</title>
+      <description>I In yesterday [</description>
+      <loc>https://waylonwalker.com//debug-cloudflared-tunnel</loc>
+      <lastmod>2024-12-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Setup Cloudflared Tunnel On Ubuntu</title>
+      <description>I run a cloudflared tunnel on my ubuntu server to expose applications running Now setup the config directory.  For the systemd service to work, the config Now w</description>
+      <loc>https://waylonwalker.com//setup-cloudflared-tunnel-on-ubuntu</loc>
+      <lastmod>2024-12-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Fitting Two Hard Drives And An Ssd In A Dell Optiplex 7010 Sff</title>
+      <description>This guy fit 2 3.5&#34; drives and an sdd in a dell 7050 SFF.  It looks tight, and there it probably not much airflow runnin</description>
+      <loc>https://waylonwalker.com//thoughts-438</loc>
+      <lastmod>2024-11-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Changelog On X: &#34;🗣️@Dhh On Kubernetes&#39; Migration Pitch: “Oh, We’Re On Amazon? Flip The Switch, George! Let’S Move Over To Gcp.” Vs Reality: &#34;Flip The Switch, George! We’Ll Start Having The Meetings About The Meetings About How We Can Move Out Four Years From Now.&#34; Https://T.Co/Rs5Iwt93Zt&#34; / X</title>
+      <description>switching cloud providers, theres no easy way.  K8s was supposed to get us there, haha, the deep integrations with each </description>
+      <loc>https://waylonwalker.com//thoughts-435</loc>
+      <lastmod>2024-11-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 If Anyone Else Is Having Sound Clicking With Chair : Here Is The Document Admitting It’S Manufacturer Defect. : R/Secretlab</title>
+      <description>This is definitely happening to my secretlabs chair.  I did the fix this morning, its still not perfect, but it&#39;s better</description>
+      <loc>https://waylonwalker.com//thoughts-436</loc>
+      <lastmod>2024-11-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 How To Fix An Office Chair Popping Noise? With Root Causes - Toergonomics</title>
+      <description>I tried this fix on my secretlabs chair, but unfortunately it did nothing for me.  Mine ended up being an issue in the t</description>
+      <loc>https://waylonwalker.com//thoughts-437</loc>
+      <lastmod>2024-11-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 (44) How To Make A Good First Impression In Business #Dewalt #Tools #Smallbusiness - Youtube</title>
+      <description>Dang, love this guys branding.  Hooks to get stuff offDaBench, what a freaking cool name.</description>
+      <loc>https://waylonwalker.com//thoughts-434</loc>
+      <lastmod>2024-11-24</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Inside Argo: Automating The Future - Youtube</title>
+      <description>This is a really amazing documentary of argocd.  I got into k8s pretty late in the game.  Which is pretty typical for me</description>
+      <loc>https://waylonwalker.com//thoughts-433</loc>
+      <lastmod>2024-11-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Introduction - Bootc</title>
+      <description>bootc is the underlying technology that enables OS&#39;s like bazzite, and Aurora from the uBlue ecosystem.</description>
+      <loc>https://waylonwalker.com//thoughts-432</loc>
+      <lastmod>2024-11-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+</urlset>

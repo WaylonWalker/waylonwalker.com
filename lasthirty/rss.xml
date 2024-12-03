@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0">
+<channel>
+    <title>lasthirty</title>
+    <link>https://waylonwalker.com/</link>
+    <description>I write about how I use python and linux in data science.</description>
+    <generator>Markata</generator>
+    <image>
+        <url>static/8bitcc.png</url>
+        <link>https://waylonwalker.com/</link>
+    </image>
+    <language>en</language>
+  <item>
+      <title>Setup Cloudflared Tunnel On Ubuntu</title>
+      <link>https://waylonwalker.com//setup-cloudflared-tunnel-on-ubuntu</link>
+      <description>I run a cloudflared tunnel on my ubuntu server to expose applications running Now setup the config directory.  For the systemd service to work, the config Now w</description>
+      <guid>https://waylonwalker.com//setup-cloudflared-tunnel-on-ubuntu</guid>
+      <pubDate>2024-12-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Fitting Two Hard Drives And An Ssd In A Dell Optiplex 7010 Sff</title>
+      <link>https://waylonwalker.com//thoughts-438</link>
+      <description>This guy fit 2 3.5&#34; drives and an sdd in a dell 7050 SFF.  It looks tight, and there it probably not much airflow runnin</description>
+      <guid>https://waylonwalker.com//thoughts-438</guid>
+      <pubDate>2024-11-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Changelog On X: &#34;🗣️@Dhh On Kubernetes&#39; Migration Pitch: “Oh, We’Re On Amazon? Flip The Switch, George! Let’S Move Over To Gcp.” Vs Reality: &#34;Flip The Switch, George! We’Ll Start Having The Meetings About The Meetings About How We Can Move Out Four Years From Now.&#34; Https://T.Co/Rs5Iwt93Zt&#34; / X</title>
+      <link>https://waylonwalker.com//thoughts-435</link>
+      <description>switching cloud providers, theres no easy way.  K8s was supposed to get us there, haha, the deep integrations with each </description>
+      <guid>https://waylonwalker.com//thoughts-435</guid>
+      <pubDate>2024-11-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 If Anyone Else Is Having Sound Clicking With Chair : Here Is The Document Admitting It’S Manufacturer Defect. : R/Secretlab</title>
+      <link>https://waylonwalker.com//thoughts-436</link>
+      <description>This is definitely happening to my secretlabs chair.  I did the fix this morning, its still not perfect, but it&#39;s better</description>
+      <guid>https://waylonwalker.com//thoughts-436</guid>
+      <pubDate>2024-11-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 How To Fix An Office Chair Popping Noise? With Root Causes - Toergonomics</title>
+      <link>https://waylonwalker.com//thoughts-437</link>
+      <description>I tried this fix on my secretlabs chair, but unfortunately it did nothing for me.  Mine ended up being an issue in the t</description>
+      <guid>https://waylonwalker.com//thoughts-437</guid>
+      <pubDate>2024-11-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 (44) How To Make A Good First Impression In Business #Dewalt #Tools #Smallbusiness - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-434</link>
+      <description>Dang, love this guys branding.  Hooks to get stuff offDaBench, what a freaking cool name.</description>
+      <guid>https://waylonwalker.com//thoughts-434</guid>
+      <pubDate>2024-11-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Inside Argo: Automating The Future - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-433</link>
+      <description>This is a really amazing documentary of argocd.  I got into k8s pretty late in the game.  Which is pretty typical for me</description>
+      <guid>https://waylonwalker.com//thoughts-433</guid>
+      <pubDate>2024-11-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Introduction - Bootc</title>
+      <link>https://waylonwalker.com//thoughts-432</link>
+      <description>bootc is the underlying technology that enables OS&#39;s like bazzite, and Aurora from the uBlue ecosystem.</description>
+      <guid>https://waylonwalker.com//thoughts-432</guid>
+      <pubDate>2024-11-21</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Wes Bos On X: &#34;Css Anchors: Flip A Tooltip To The Bottom When It Goes Offscreen Https://T.Co/Uyrqiipmn9&#34; / X</title>
+      <link>https://waylonwalker.com//thoughts-430</link>
+      <description>These css anchors are crazy that you can do this with html and not a bunch of js, probably requiring a library or framew</description>
+      <guid>https://waylonwalker.com//thoughts-430</guid>
+      <pubDate>2024-11-19</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Saghen/Blink.Cmp: Performant, Batteries-Included Completion Plugin For Neovim</title>
+      <link>https://waylonwalker.com//thoughts-431</link>
+      <description>A new completion plugin that I might give a try.  Readme makes it sound like its built on some fast teck that allows the</description>
+      <guid>https://waylonwalker.com//thoughts-431</guid>
+      <pubDate>2024-11-19</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Price An Stl Print On Slant3D</title>
+      <link>https://waylonwalker.com//price-an-stl-print-on-slant3d</link>
+      <description>I I You will need an api key from the slant api, which currently requires a google Then you can run the python script to price out your print.  I</description>
+      <guid>https://waylonwalker.com//price-an-stl-print-on-slant3d</guid>
+      <pubDate>2024-11-18</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Statically Makes Og Images **Easy** (2048×1170)</title>
+      <link>https://waylonwalker.com//thoughts-429</link>
+      <description>Staically makes creating OG images so easy, you can just pop this in your &lt;head&gt; section with some og tags.
+
+``` html
+  </description>
+      <guid>https://waylonwalker.com//thoughts-429</guid>
+      <pubDate>2024-11-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 E576: Error While Reading Shada File: There Is An Item At Position 270498 That Must Not Be There: Missing Itemsare For Internal Uses Only · Issue #6875 · Neovim/Neovim</title>
+      <link>https://waylonwalker.com//thoughts-428</link>
+      <description>I hit an interesting error after updating my nvim plugins today.  I&#39;m sti not even quite sure what a ShaDa file is, but </description>
+      <guid>https://waylonwalker.com//thoughts-428</guid>
+      <pubDate>2024-11-16</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Production-Ready Python Docker Containers With Uv</title>
+      <link>https://waylonwalker.com//thoughts-427</link>
+      <description>Hynek has a sick dockerfile setup for using uv in python projects.</description>
+      <guid>https://waylonwalker.com//thoughts-427</guid>
+      <pubDate>2024-11-15</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Proper Handling Of None In Where Condition · Issue #109 · Fastapi/Sqlmodel · Github</title>
+      <link>https://waylonwalker.com//thoughts-426</link>
+      <description>SQLModel models ship with an `is_`, and `is_not` that you can use to compare to None without pesky linters complaining.
+</description>
+      <guid>https://waylonwalker.com//thoughts-426</guid>
+      <pubDate>2024-11-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Gridfinity Rugged Storage Box, Parametric And Customizable By Bulbasaur0 | Download Free Stl Model | Printables.Com</title>
+      <link>https://waylonwalker.com//thoughts-423</link>
+      <description>gridfinity rugged box openscad
+</description>
+      <guid>https://waylonwalker.com//thoughts-423</guid>
+      <pubDate>2024-11-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Rugged Storage Box, Parametric And Customizable By Bulbasaur0 | Download Free Stl Model | Printables.Com</title>
+      <link>https://waylonwalker.com//thoughts-424</link>
+      <description>Non Gridfinity Rugged boxes</description>
+      <guid>https://waylonwalker.com//thoughts-424</guid>
+      <pubDate>2024-11-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Cluster Api Book</title>
+      <link>https://waylonwalker.com//thoughts-422</link>
+      <description>Cluster API book</description>
+      <guid>https://waylonwalker.com//thoughts-422</guid>
+      <pubDate>2024-11-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Gridfinity Generator</title>
+      <link>https://waylonwalker.com//thoughts-421</link>
+      <description>Gridfinity generator uses open scad, so you can make rugged boxes, bins and base plates with form input.  not fully cust</description>
+      <guid>https://waylonwalker.com//thoughts-421</guid>
+      <pubDate>2024-11-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+<lastBuildDate></lastBuildDate>
+</channel>
+</rss>
