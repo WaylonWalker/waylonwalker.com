@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/sitemap.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <title>lasthirty</title>
+    <link>https://waylonwalker.com/</link>
+   <url>
+      <title>💭 Hostnamectl To Easily Change Hostname | Pype.Dev</title>
+      <description>For some reason the ublue ecosystem does not prompt you to set your hostname on install and you get a hostname like bazz</description>
+      <loc>https://waylonwalker.com//thoughts-441</loc>
+      <lastmod>2024-12-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Ansible Galaxy - Amazon.Aws</title>
+      <description>Great examples for working with s3 buckets with ansible.</description>
+      <loc>https://waylonwalker.com//thoughts-440</loc>
+      <lastmod>2024-12-05</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Using Opnsense With Tailscale · Tailscale Docs</title>
+      <description>On reboot of my opnsense router it did not tailscale up.  I&#39;m not sure if a key expired or what happened.  The fix was t</description>
+      <loc>https://waylonwalker.com//thoughts-439</loc>
+      <lastmod>2024-12-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Debug Cloudflared Tunnel</title>
+      <description>I In yesterday [</description>
+      <loc>https://waylonwalker.com//debug-cloudflared-tunnel</loc>
+      <lastmod>2024-12-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Setup Cloudflared Tunnel On Ubuntu</title>
+      <description>I run a cloudflared tunnel on my ubuntu server to expose applications running Now setup the config directory.  For the systemd service to work, the config Now w</description>
+      <loc>https://waylonwalker.com//setup-cloudflared-tunnel-on-ubuntu</loc>
+      <lastmod>2024-12-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Fitting Two Hard Drives And An Ssd In A Dell Optiplex 7010 Sff</title>
+      <description>This guy fit 2 3.5&#34; drives and an sdd in a dell 7050 SFF.  It looks tight, and there it probably not much airflow runnin</description>
+      <loc>https://waylonwalker.com//thoughts-438</loc>
+      <lastmod>2024-11-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Changelog On X: &#34;🗣️@Dhh On Kubernetes&#39; Migration Pitch: “Oh, We’Re On Amazon? Flip The Switch, George! Let’S Move Over To Gcp.” Vs Reality: &#34;Flip The Switch, George! We’Ll Start Having The Meetings About The Meetings About How We Can Move Out Four Years From Now.&#34; Https://T.Co/Rs5Iwt93Zt&#34; / X</title>
+      <description>switching cloud providers, theres no easy way.  K8s was supposed to get us there, haha, the deep integrations with each </description>
+      <loc>https://waylonwalker.com//thoughts-435</loc>
+      <lastmod>2024-11-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 If Anyone Else Is Having Sound Clicking With Chair : Here Is The Document Admitting It’S Manufacturer Defect. : R/Secretlab</title>
+      <description>This is definitely happening to my secretlabs chair.  I did the fix this morning, its still not perfect, but it&#39;s better</description>
+      <loc>https://waylonwalker.com//thoughts-436</loc>
+      <lastmod>2024-11-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 How To Fix An Office Chair Popping Noise? With Root Causes - Toergonomics</title>
+      <description>I tried this fix on my secretlabs chair, but unfortunately it did nothing for me.  Mine ended up being an issue in the t</description>
+      <loc>https://waylonwalker.com//thoughts-437</loc>
+      <lastmod>2024-11-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 (44) How To Make A Good First Impression In Business #Dewalt #Tools #Smallbusiness - Youtube</title>
+      <description>Dang, love this guys branding.  Hooks to get stuff offDaBench, what a freaking cool name.</description>
+      <loc>https://waylonwalker.com//thoughts-434</loc>
+      <lastmod>2024-11-24</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Inside Argo: Automating The Future - Youtube</title>
+      <description>This is a really amazing documentary of argocd.  I got into k8s pretty late in the game.  Which is pretty typical for me</description>
+      <loc>https://waylonwalker.com//thoughts-433</loc>
+      <lastmod>2024-11-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Introduction - Bootc</title>
+      <description>bootc is the underlying technology that enables OS&#39;s like bazzite, and Aurora from the uBlue ecosystem.</description>
+      <loc>https://waylonwalker.com//thoughts-432</loc>
+      <lastmod>2024-11-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Wes Bos On X: &#34;Css Anchors: Flip A Tooltip To The Bottom When It Goes Offscreen Https://T.Co/Uyrqiipmn9&#34; / X</title>
+      <description>These css anchors are crazy that you can do this with html and not a bunch of js, probably requiring a library or framew</description>
+      <loc>https://waylonwalker.com//thoughts-430</loc>
+      <lastmod>2024-11-19</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Saghen/Blink.Cmp: Performant, Batteries-Included Completion Plugin For Neovim</title>
+      <description>A new completion plugin that I might give a try.  Readme makes it sound like its built on some fast teck that allows the</description>
+      <loc>https://waylonwalker.com//thoughts-431</loc>
+      <lastmod>2024-11-19</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Price An Stl Print On Slant3D</title>
+      <description>I I You will need an api key from the slant api, which currently requires a google Then you can run the python script to price out your print.  I</description>
+      <loc>https://waylonwalker.com//price-an-stl-print-on-slant3d</loc>
+      <lastmod>2024-11-18</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Statically Makes Og Images **Easy** (2048×1170)</title>
+      <description>Staically makes creating OG images so easy, you can just pop this in your &lt;head&gt; section with some og tags.
+
+``` html
+  </description>
+      <loc>https://waylonwalker.com//thoughts-429</loc>
+      <lastmod>2024-11-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 E576: Error While Reading Shada File: There Is An Item At Position 270498 That Must Not Be There: Missing Itemsare For Internal Uses Only · Issue #6875 · Neovim/Neovim</title>
+      <description>I hit an interesting error after updating my nvim plugins today.  I&#39;m sti not even quite sure what a ShaDa file is, but </description>
+      <loc>https://waylonwalker.com//thoughts-428</loc>
+      <lastmod>2024-11-16</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Production-Ready Python Docker Containers With Uv</title>
+      <description>Hynek has a sick dockerfile setup for using uv in python projects.</description>
+      <loc>https://waylonwalker.com//thoughts-427</loc>
+      <lastmod>2024-11-15</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+</urlset>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0">
+<channel>
+    <title>recent</title>
+    <link>https://waylonwalker.com/</link>
+    <description>I write about how I use python and linux in data science.</description>
+    <generator>Markata</generator>
+    <image>
+        <url>static/8bitcc.png</url>
+        <link>https://waylonwalker.com/</link>
+    </image>
+    <language>en</language>
+  <item>
+      <title>💭 Hostnamectl To Easily Change Hostname | Pype.Dev</title>
+      <link>https://waylonwalker.com//thoughts-441</link>
+      <description>For some reason the ublue ecosystem does not prompt you to set your hostname on install and you get a hostname like bazz</description>
+      <guid>https://waylonwalker.com//thoughts-441</guid>
+      <pubDate>2024-12-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Ansible Galaxy - Amazon.Aws</title>
+      <link>https://waylonwalker.com//thoughts-440</link>
+      <description>Great examples for working with s3 buckets with ansible.</description>
+      <guid>https://waylonwalker.com//thoughts-440</guid>
+      <pubDate>2024-12-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Using Opnsense With Tailscale · Tailscale Docs</title>
+      <link>https://waylonwalker.com//thoughts-439</link>
+      <description>On reboot of my opnsense router it did not tailscale up.  I&#39;m not sure if a key expired or what happened.  The fix was t</description>
+      <guid>https://waylonwalker.com//thoughts-439</guid>
+      <pubDate>2024-12-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Debug Cloudflared Tunnel</title>
+      <link>https://waylonwalker.com//debug-cloudflared-tunnel</link>
+      <description>I In yesterday [</description>
+      <guid>https://waylonwalker.com//debug-cloudflared-tunnel</guid>
+      <pubDate>2024-12-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Setup Cloudflared Tunnel On Ubuntu</title>
+      <link>https://waylonwalker.com//setup-cloudflared-tunnel-on-ubuntu</link>
+      <description>I run a cloudflared tunnel on my ubuntu server to expose applications running Now setup the config directory.  For the systemd service to work, the config Now w</description>
+      <guid>https://waylonwalker.com//setup-cloudflared-tunnel-on-ubuntu</guid>
+      <pubDate>2024-12-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Fitting Two Hard Drives And An Ssd In A Dell Optiplex 7010 Sff</title>
+      <link>https://waylonwalker.com//thoughts-438</link>
+      <description>This guy fit 2 3.5&#34; drives and an sdd in a dell 7050 SFF.  It looks tight, and there it probably not much airflow runnin</description>
+      <guid>https://waylonwalker.com//thoughts-438</guid>
+      <pubDate>2024-11-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Changelog On X: &#34;🗣️@Dhh On Kubernetes&#39; Migration Pitch: “Oh, We’Re On Amazon? Flip The Switch, George! Let’S Move Over To Gcp.” Vs Reality: &#34;Flip The Switch, George! We’Ll Start Having The Meetings About The Meetings About How We Can Move Out Four Years From Now.&#34; Https://T.Co/Rs5Iwt93Zt&#34; / X</title>
+      <link>https://waylonwalker.com//thoughts-435</link>
+      <description>switching cloud providers, theres no easy way.  K8s was supposed to get us there, haha, the deep integrations with each </description>
+      <guid>https://waylonwalker.com//thoughts-435</guid>
+      <pubDate>2024-11-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 If Anyone Else Is Having Sound Clicking With Chair : Here Is The Document Admitting It’S Manufacturer Defect. : R/Secretlab</title>
+      <link>https://waylonwalker.com//thoughts-436</link>
+      <description>This is definitely happening to my secretlabs chair.  I did the fix this morning, its still not perfect, but it&#39;s better</description>
+      <guid>https://waylonwalker.com//thoughts-436</guid>
+      <pubDate>2024-11-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 How To Fix An Office Chair Popping Noise? With Root Causes - Toergonomics</title>
+      <link>https://waylonwalker.com//thoughts-437</link>
+      <description>I tried this fix on my secretlabs chair, but unfortunately it did nothing for me.  Mine ended up being an issue in the t</description>
+      <guid>https://waylonwalker.com//thoughts-437</guid>
+      <pubDate>2024-11-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 (44) How To Make A Good First Impression In Business #Dewalt #Tools #Smallbusiness - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-434</link>
+      <description>Dang, love this guys branding.  Hooks to get stuff offDaBench, what a freaking cool name.</description>
+      <guid>https://waylonwalker.com//thoughts-434</guid>
+      <pubDate>2024-11-24</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+<lastBuildDate></lastBuildDate>
+</channel>
+</rss>
