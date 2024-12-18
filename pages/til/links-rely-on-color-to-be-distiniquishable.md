@@ -1,5 +1,5 @@
 ---
-date: 2024-12-17 20:25:13
+date: 2024-12-17 20:25:12
 templateKey: til
 title: Links rely on color to be distiniquishable
 published: true
