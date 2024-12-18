@@ -19,3 +19,7 @@ really care for the semi-dark brown anyways.  I'm liking the near black
 `bg-zinc-950` much better now.
 
 ![screenshot-2024-12-18T02-45-53-807Z.png](https://dropper.wayl.one/api/file/8b4f2087-3f24-4212-ad00-74f294aff114.webp)
+
+Now I got that 100 A11y score in lighthouse.
+
+![screenshot-2024-12-18T03-02-18-934Z.png](https://dropper.wayl.one/api/file/17497676-3730-4875-9e10-c6d121ba537a.webp)
