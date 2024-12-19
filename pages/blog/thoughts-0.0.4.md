@@ -1,5 +1,5 @@
 ---
-date: 2024-12-20 19:04:27
+date: 2024-12-18 19:04:27
 templateKey: blog-post
 title: thoughts 0.0.4
 tags:
@@ -104,4 +104,36 @@ Similarly on the Cancel button.
         onclick="document.getElementById('modal-container').innerHTML = ''">
     Cancel
 </button>
+```
+
+## Hotkeys
+
+Now I struggled to get this right with htmx, and it seemed like things were
+getting more complicated by trying to get the buttons to trigger using htmx
+triggered keyboard events, I ended up just using javascript.  Its still in the
+same file, so locality of behavior is barely an issue on this one anyways, and
+the js was just working.
+
+``` html
+<script>
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+        document.getElementById('modal-container').innerHTML = '';
+    }
+    if (e.key === 'Enter' && e.ctrlKey) {
+        e.preventDefault();
+        htmx.trigger('#websiteForm', 'submit');
+    }
+});
+</script>
+```
+
+## Other small change
+
+When the server is returns an empty list of posts the post container would
+change size and cause a layout shift.  Now the empty posts element, while not
+great does not cause layout shift.
+
+``` html
+<ul id="posts" class="min-h-screen"><li>No posts</li></ul>
 ```
