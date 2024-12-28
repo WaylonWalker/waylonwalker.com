@@ -1,5 +1,5 @@
 ---
-date: 2024-12-20 08:55:50
+date: 2024-12-27 08:55:50
 templateKey: blog-post
 title: setting up ucore-zfs
 tags:
@@ -15,7 +15,7 @@ This is a gateway FX6860 manufactured in 2010.
 
 My current boot log shows that I first started daily driving bazzite back in
 August 2024.  I've been hapily using it since my arch install was plaugued
-with a crippling display driver error, or soemthing that would lock the disply
+with a crippling display driver error, or something that would lock the display
 for minutes every 30s or so, it became unusable.  I switched because this is
   what I put my son on and it was working great for him.
 
