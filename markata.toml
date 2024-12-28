@@ -9,7 +9,7 @@
 
 [markata]
 # bump site version to bust GitHub actions cache
-site_version = 30
+site_version = 31
 markdown_backend='markdown-it-py'
 templates_dir = "templates"
 
