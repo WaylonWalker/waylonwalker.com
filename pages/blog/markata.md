@@ -5,6 +5,7 @@ title: markata
 tags:
   - python
   - markata
+  - slash
 published: true
 ---
 
@@ -36,7 +37,7 @@ thought it would be easier to just build my own than learn how to make one do
 what I wanted it to.  Not invented here syndrome hitting hard.
 
 > I really lacked the depth of knowledge in the js ecosystem to really work on
-> it (gatsby) effectively.  
+> it (gatsby) effectively.
 
 ## Plugins all the way down
 

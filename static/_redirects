@@ -3,6 +3,10 @@
 /rss                                                        /archive/rss.xml
 /rss.xml                                                    /archive/rss.xml
 
+/podroll                                                    https://reader.waylonwalker.com/podcast/
+/blogroll                                                   https://reader.waylonwalker.com/written/
+/postroll                                                   https://thoughts.waylonwalker.com/
+
 # image upload
 /upload                                                     https://github.com/WaylonWalker/images.waylonwalker.com/upload/main/static
 /uploads                                                    https://github.com/WaylonWalker/images.waylonwalker.com/upload/main/static
