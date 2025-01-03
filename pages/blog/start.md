@@ -25,3 +25,9 @@ I have quite a few different feeds that you can browse or subscribe to in your r
 [Slash pages](https://slashpages.net/){.hoverlink} are some evergreen pages that I will do my best to keep up to date,
 they are typically not targeted to a specific moment in time, but designed to
 be ever living.
+
+{% set result = [] %}
+{% for feed in markata.feeds.slashes | sort(attribute='slug') %}
+    {% set result = result + ["* [[ " ~ feed.slug ~ " ]] - " ~ feed.description] %}
+{% endfor %}
+{{ result | join('\n') }}
