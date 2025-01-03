@@ -8,6 +8,7 @@ tags:
   - webdev
   - slash
 published: True
+jinja: True
 
 ---
 
@@ -32,3 +33,9 @@ are pulled in as a regular posts, all is hosted on cloudflare pages.
 * [[ markata ]]
 * [[ thoughts ]]
 * cloudflare pages
+
+## meta
+
+More about this site on these _meta_ posts.
+
+{{ '\n'.join(markata.map('f"* [[ {slug} ]] - {description}"', sort='slug', filter='"meta" in tags')[:-1]) }}
