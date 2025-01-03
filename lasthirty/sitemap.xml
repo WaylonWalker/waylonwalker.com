@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/sitemap.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <title>lasthirty</title>
+    <link>https://waylonwalker.com/</link>
+   <url>
+      <title>💭 Linkding | Linkding</title>
+      <description>linkding looks like an interesting alternative to thoughts.  Thoughts is focused on the note being a value add tweet len</description>
+      <loc>https://waylonwalker.com//thoughts-492</loc>
+      <lastmod>2025-01-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 (102) We Need To Have A Talk... - Youtube</title>
+      <description>Theo does a fantastic history of serverless here.
+
+## Kubernetes shit
+
+Theo can&#39;t have an infra video without shitting o</description>
+      <loc>https://waylonwalker.com//thoughts-493</loc>
+      <lastmod>2025-01-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Slash Pages</title>
+      <description>A nice list of slashpages you might want to consider including / aliasing / 301ing. These feel like nice things to setup</description>
+      <loc>https://waylonwalker.com//thoughts-494</loc>
+      <lastmod>2025-01-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Changelog • Robb Knight</title>
+      <description>Well done changelog with some really good inspirational nuggets.  Many slash pages I want to check out and an 11ty contr</description>
+      <loc>https://waylonwalker.com//thoughts-495</loc>
+      <lastmod>2025-01-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Slow Nfs Performance</title>
+      <description>I I I just started trying to build this site in a cronjob, It was taking 20 minutes I just moved into the master node and the results were wild at ~30x faster I</description>
+      <loc>https://waylonwalker.com//slow-nfs-performance</loc>
+      <lastmod>2025-01-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Colophon</title>
+      <description>All posts on this site are written by  This site is a static site build with my own static site generator  [ [ cloudflare pages More about this site on these  {</description>
+      <loc>https://waylonwalker.com//colophon</loc>
+      <lastmod>2025-01-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Why Your Backend Shouldn&#39;T Serve Files - Youtube</title>
+      <description>Lane from boot.dev madde this fantastic video about serving files on the internet.  It has me wondering if I need to ret</description>
+      <loc>https://waylonwalker.com//thoughts-488</loc>
+      <lastmod>2024-12-31</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Wrapping Your Favorite Cli In Neovim - Youtube</title>
+      <description>cool video on expanding vim with cli.
+
+
+## piping commands into vim
+
+![piping commands into vim](https://dropper.wayl.on</description>
+      <loc>https://waylonwalker.com//thoughts-489</loc>
+      <lastmod>2024-12-31</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Gary Vaynerchuk: &#34;2025 : The Year Of Action … Who’S Finally Ready ? Ps: Text Me For Any Follow Up Questions At 📱 1-212-931-5731 #2025 #Todo #Todolist #Motivation #Garyvee&#34; — Bluesky</title>
+      <description>Gary Vee, is the goat.  leaving this image as a reminder for myself
+
+![image](https://dropper.wayl.one/api/file/074edddb</description>
+      <loc>https://waylonwalker.com//thoughts-481</loc>
+      <lastmod>2024-12-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Addy Osmani: &#34;Tip: Chrome Devtools Can Override The Content Of Fetch/Xhr Requests! Useful For Mocking Apis Without Waiting On Backend Changes.&#34; — Bluesky</title>
+      <description>WTF, you can just change a server response from devtools and update a vuejs app?  Just tried with htmx, and my GET reque</description>
+      <loc>https://waylonwalker.com//thoughts-482</loc>
+      <lastmod>2024-12-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 How To Configure Base Url For All Requests Using Htmx? - Stack Overflow</title>
+      <description>Today I learned how to configure the baseurl for htmx using the &lt;base&gt; tag.  This is pretty handy to be able to configur</description>
+      <loc>https://waylonwalker.com//thoughts-484</loc>
+      <lastmod>2024-12-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Teleport To Coop Partner | Hypixel Forums</title>
+      <description>/p warp will warp your party to your current server in hypixel skyblock
+
+![image](https://dropper.wayl.one/api/file/a4f5</description>
+      <loc>https://waylonwalker.com//thoughts-485</loc>
+      <lastmod>2024-12-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 The Beautiful Sentence That Is The Web</title>
+      <description>Nicely worded Cassidy!  Javascript can be too much, it can bog down low powered devices, we can ship so much that its un</description>
+      <loc>https://waylonwalker.com//thoughts-486</loc>
+      <lastmod>2024-12-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Curl With Partial Files | Daniel.Haxx.Se</title>
+      <description>This is a cool new feature coming to bash, I can&#39;t think of a use case I have out of the gate, but it looks cool.  I&#39;m t</description>
+      <loc>https://waylonwalker.com//thoughts-487</loc>
+      <lastmod>2024-12-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 (100) Hybrid Cloud Show – Episode 20 - Youtube</title>
+      <description>Red Hat has donated the whole open alternative to docker to the CNCF, the hosts weigh in with thier opinions all being p</description>
+      <loc>https://waylonwalker.com//thoughts-474</loc>
+      <lastmod>2024-12-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Ellie Huxtable: &#34;Atuin V18.4 Is Out Now! Including `Atuin Wrapped`, Your Year In Shell History 🐢 Thanks @Daveeddy.Com For The Suggestion!&#34; — Bluesky</title>
+      <description>Atuin v18.4 is out with an atuin wrapped command.
+
+
+Here&#39;s Ellie&#39;s Wrapped.
+
+![image](https://dropper.wayl.one/api/file/</description>
+      <loc>https://waylonwalker.com//thoughts-475</loc>
+      <lastmod>2024-12-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Kitze 🚀 On X: &#34;Holy Fk I Thought Package.Json Was Bad But Til Python Stores Dependencies In A .Txt File 💀 Https://T.Co/0Cczqkz2Qt&#34; / X</title>
+      <description>kitze hating on  python packaging in new ways.  Python packaging has a lot of quirks that can make it infuriating.  Not </description>
+      <loc>https://waylonwalker.com//thoughts-471</loc>
+      <lastmod>2024-12-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Getting A Dev Job In 2025 - Youtube</title>
+      <description>Theo weighing in on the 2025 job market.  It&#39;s no 2018 out there right now, the ratio of jobs to engineers in the market</description>
+      <loc>https://waylonwalker.com//thoughts-472</loc>
+      <lastmod>2024-12-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Are We Cooked W/ O3? - Youtube</title>
+      <description>Holy shit these AGI models are incredibly expensive to run, require lots of wild hardware that there is not enough to go</description>
+      <loc>https://waylonwalker.com//thoughts-473</loc>
+      <lastmod>2024-12-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Setting Up Ucore-Zfs</title>
+      <description>I just setup my oldest hardware on the newest hotest server distro ucore-zfs. My current boot log shows that I first started daily driving bazzite back in Four </description>
+      <loc>https://waylonwalker.com//setting-up-ucore-zfs</loc>
+      <lastmod>2024-12-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 (98) 4 Tips For Building A Production-Ready Fastapi Backend - Youtube</title>
+      <description>Great list of 4 tips for running fastapi applications.  
+
+## Keep routes small
+
+Fat routers with all of the logic built </description>
+      <loc>https://waylonwalker.com//thoughts-468</loc>
+      <lastmod>2024-12-26</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 (98) Ubuntu Summit 2024 | Umu - A Unified Tool For Easily Running Your Games Outside Of Steam - Youtube</title>
+      <description>Damn Glorious Eggrolls is still making gaming on linux better.  Of course its containerization that drives everything on</description>
+      <loc>https://waylonwalker.com//thoughts-469</loc>
+      <lastmod>2024-12-26</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 (98) Custom Gridfinity Bins For Anything! - Youtube</title>
+      <description>This tip of using tinkercad to do boolean operations on an stl of a solid gridfinity bin and an outline is absolute fire</description>
+      <loc>https://waylonwalker.com//thoughts-470</loc>
+      <lastmod>2024-12-26</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Depot</title>
+      <description>Just learned about depot today ironically because it seems to be down and fly is using them under the hood to do the con</description>
+      <loc>https://waylonwalker.com//thoughts-464</loc>
+      <lastmod>2024-12-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Deploy To Fly Using A Depot Builder</title>
+      <description>Here the integration to depot appears to be opt in using the `--depot` flag on `fly deploy`.  This must have changed ove</description>
+      <loc>https://waylonwalker.com//thoughts-465</loc>
+      <lastmod>2024-12-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Status | Depot</title>
+      <description>Depot&#39;s uptime seems to be great.  I definitely hit some issues with it this afternoon 12/24/24 that were not reported. </description>
+      <loc>https://waylonwalker.com//thoughts-466</loc>
+      <lastmod>2024-12-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Building Python Tools With A One-Shot Prompt Using Uv Run And Claude Projects</title>
+      <description>This is really interesting, the lazy uv scripts are really becoming quite appealing, especially for something like this </description>
+      <loc>https://waylonwalker.com//thoughts-467</loc>
+      <lastmod>2024-12-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Lazy Self-Installing Python Scripts With Uv</title>
+      <description>I really like Trey&#39;s steps to making an executable python script with uv
+
+his old process seems to be the same with a ne</description>
+      <loc>https://waylonwalker.com//thoughts-458</loc>
+      <lastmod>2024-12-24</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Switching From Virtualenvwrapper To Direnv, Starship, And Uv</title>
+      <description>I&#39;ve kinda fallen out of using direnv now that a lot of my projects use hatch, I generally just hatch shell into them.  </description>
+      <loc>https://waylonwalker.com//thoughts-459</loc>
+      <lastmod>2024-12-24</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Pep 723 – Inline Script Metadata | Peps.Python.Org</title>
+      <description>PEP 723 is what is inspiring all of these lazy self installing python scripts, Authored by the author of hatch and pyapp</description>
+      <loc>https://waylonwalker.com//thoughts-460</loc>
+      <lastmod>2024-12-24</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 (98) Talking With Typecraft - Youtube</title>
+      <description>This is a pretty great episode talking shop with typecraft.  They talk setups, cameras, content creation. I found them t</description>
+      <loc>https://waylonwalker.com//thoughts-461</loc>
+      <lastmod>2024-12-24</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Dedicated Servers | Intel Servers | Amd Servers - Dedicated Hosting</title>
+      <description>Dax talked about this in a recent How about tomorrow podcast https://thoughts.waylonwalker.com/post/461.  He is using it</description>
+      <loc>https://waylonwalker.com//thoughts-462</loc>
+      <lastmod>2024-12-24</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 (91) Cursor + Windsurf Settings To 5X Ai&#39;S Output Quality (Works With Vs Code Too) - Youtube</title>
+      <description>This was an eye opening video into agentic editing workflows.
+
+
+## setting rules
+
+Dfferent ai tools use different rules </description>
+      <loc>https://waylonwalker.com//thoughts-463</loc>
+      <lastmod>2024-12-24</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 My Approach To Running A Link Blog</title>
+      <description>I still cannot believe I thought I had such a unique idea with thoughts only to find out shortly thereafter that Simon b</description>
+      <loc>https://waylonwalker.com//thoughts-457</loc>
+      <lastmod>2024-12-23</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 How I Use Obsidian Templater</title>
+      <description>I really like this idea of keeping a set up contacts in a markdown repo, and being able to wikilink them to different ti</description>
+      <loc>https://waylonwalker.com//thoughts-454</loc>
+      <lastmod>2024-12-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 How I Use Obsidian Templater</title>
+      <description>This is a test post.  I just updated the chrome extension for thoughts to take a the thumbnail image on open of the chro</description>
+      <loc>https://waylonwalker.com//thoughts-455</loc>
+      <lastmod>2024-12-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 How I Use Obsidian Templater</title>
+      <description>Ok, second post on this one.  I am sending only head requests, so I want to see the first request for the image, which h</description>
+      <loc>https://waylonwalker.com//thoughts-456</loc>
+      <lastmod>2024-12-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Docker Context (And An Issue To Question Your Sanity) | Pype.Dev</title>
+      <description>Dang context can really cause you to pull your hair out.  Context seems so freaking convenient, but I&#39;ve avoided it and </description>
+      <loc>https://waylonwalker.com//thoughts-453</loc>
+      <lastmod>2024-12-19</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 How To Make Your Rss Feed Pretty</title>
+      <description>I love me some styled rss, it&#39;s how the OG internet was made to be.  You choose what you want to read and when.  There i</description>
+      <loc>https://waylonwalker.com//thoughts-448</loc>
+      <lastmod>2024-12-18</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Damn, I Love Dropper Already</title>
+      <description>Damn I&#39;m loving using dropper already, I am able to copy paste images right into posts on thoughts.  This is my first po</description>
+      <loc>https://waylonwalker.com//thoughts-449</loc>
+      <lastmod>2024-12-18</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 I Got The Adhd, Too - Daverupert.Com</title>
+      <description>Cheers to the Unique brains dave.  I can say I am 100% with Dave on all of these, except the clean environment thing, lu</description>
+      <loc>https://waylonwalker.com//thoughts-450</loc>
+      <lastmod>2024-12-18</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 (88) Styling Better Custom Inputs With Dave Rupert - Youtube</title>
+      <description>Reminder to tune in later, can&#39;t watch now, but saw a link on Dave&#39;s blog.
+
+![image](https://dropper.wayl.one/api/file/e</description>
+      <loc>https://waylonwalker.com//thoughts-451</loc>
+      <lastmod>2024-12-18</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Thoughts 0.0.4</title>
+      <description>This is such an improvement to the backend of my website it warrants a blog Let This is the tiny ass form nested deeply in the flow of the feed.  When I made th</description>
+      <loc>https://waylonwalker.com//thoughts-0-0-4</loc>
+      <lastmod>2024-12-18</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Links Rely On Color To Be Distiniquishable</title>
+      <description>Today i got hit by this accessibility issue on my site.  Low contrast links are I ended up dropping the background color of the site down a notch as I didn Now </description>
+      <loc>https://waylonwalker.com//links-rely-on-color-to-be-distiniquishable</loc>
+      <lastmod>2024-12-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Add A Healthcheck To Your Fastapi App | Pype.Dev</title>
+      <description>Nice example of adding a healthcheck to fastapi, and integrating it with docker.  Don&#39;t forget to include curl in the in</description>
+      <loc>https://waylonwalker.com//thoughts-446</loc>
+      <lastmod>2024-12-16</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Dropper</title>
+      <description>Dropper is a place for me to drop files for quick posts like this.
+
+![image](https://dropper.wayl.one/api/file/c3a4c39d-</description>
+      <loc>https://waylonwalker.com//thoughts-447</loc>
+      <lastmod>2024-12-16</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Hurl - Run And Test Http Requests</title>
+      <description>Hurl was mentioned by [@gerhard](https://gerhard.io/) on the latest [changelog and Friends](https://www.youtube.com/watc</description>
+      <loc>https://waylonwalker.com//thoughts-443</loc>
+      <lastmod>2024-12-14</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Pipedream/Justfile At Main · Thechangelog/Pipedream</title>
+      <description>I found this nugget in thechangelogs justfile, it lets you add color to your justfile with variables quite easily.
+
+``` </description>
+      <loc>https://waylonwalker.com//thoughts-444</loc>
+      <lastmod>2024-12-14</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Casey/Just: 🤖 Just A Command Runner</title>
+      <description>new versions of just now come with color variables already set.
+
+``` bash
+[group(&#39;manage&#39;)]
+version:
+    #!/usr/bin/env </description>
+      <loc>https://waylonwalker.com//thoughts-445</loc>
+      <lastmod>2024-12-14</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Urllink</title>
+      <description>Today I discovered the </description>
+      <loc>https://waylonwalker.com//urllink</loc>
+      <lastmod>2024-12-14</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Watchfiles</title>
+      <description>Simple, modern and high performance file watching and code reload in python.</description>
+      <loc>https://waylonwalker.com//thoughts-442</loc>
+      <lastmod>2024-12-13</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Hostnamectl To Easily Change Hostname | Pype.Dev</title>
+      <description>For some reason the ublue ecosystem does not prompt you to set your hostname on install and you get a hostname like bazz</description>
+      <loc>https://waylonwalker.com//thoughts-441</loc>
+      <lastmod>2024-12-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Ansible Galaxy - Amazon.Aws</title>
+      <description>Great examples for working with s3 buckets with ansible.</description>
+      <loc>https://waylonwalker.com//thoughts-440</loc>
+      <lastmod>2024-12-05</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+</urlset>

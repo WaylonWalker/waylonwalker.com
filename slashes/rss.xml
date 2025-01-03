@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0">
+<channel>
+    <title>slashes</title>
+    <link>https://waylonwalker.com/</link>
+    <description>I write about how I use python and linux in data science.</description>
+    <generator>Markata</generator>
+    <image>
+        <url>static/8bitcc.png</url>
+        <link>https://waylonwalker.com/</link>
+    </image>
+    <language>en</language>
+  <item>
+      <title>Start</title>
+      <link>https://waylonwalker.com//start</link>
+      <description>Welcome to waylonwalker.com, my small corner of the internet.  I currently have I have quite a few different feeds that you can browse or subscribe to in your r</description>
+      <guid>https://waylonwalker.com//start</guid>
+      <pubDate>2025-01-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Colophon</title>
+      <link>https://waylonwalker.com//colophon</link>
+      <description>All posts on this site are written by  This site is a static site build with my own static site generator  [ [ cloudflare pages More about this site on these  {</description>
+      <guid>https://waylonwalker.com//colophon</guid>
+      <pubDate>2025-01-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Markata</title>
+      <link>https://waylonwalker.com//markata</link>
+      <description>This post is a work in progress. Markata is the static site generator that I created to build my website  It Gatsby and Next.js hit the scene as the next genera</description>
+      <guid>https://waylonwalker.com//markata</guid>
+      <pubDate>2024-05-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Thoughts</title>
+      <link>https://waylonwalker.com//thoughts</link>
+      <description>These are generally my thoughts on a web page or some sort of url, except a These posts are intended to in two ways.  One, link building for the author.  I All </description>
+      <guid>https://waylonwalker.com//thoughts</guid>
+      <pubDate>2024-04-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Waylon Walker</title>
+      <link>https://waylonwalker.com//about</link>
+      <description>👋 Hi, I am Waylon Walker.  Husband, Father of two, and creator things on the I believe in a decentralized platform where everyone has their own space on I am a </description>
+      <guid>https://waylonwalker.com//about</guid>
+      <pubDate>2021-11-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+<lastBuildDate></lastBuildDate>
+</channel>
+</rss>

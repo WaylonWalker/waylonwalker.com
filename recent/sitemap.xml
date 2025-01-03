@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/sitemap.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <title>recent</title>
+    <link>https://waylonwalker.com/</link>
+   <url>
+      <title>💭 Fork Around And Find Out | Remaining Authentic In Retirement With Kelsey Hightower</title>
+      <description>What a great first guest for FAFO.  Kelsey is always such a great listen.  He talks about killedbygoogle and how enginee</description>
+      <loc>https://waylonwalker.com//thoughts-496</loc>
+      <lastmod>2025-01-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Own Your Web • Buttondown</title>
+      <description>I&#39;m a sucker for good own your own shit on the web blogs, and Matthias Ott has a top notch one here.  The archive has be</description>
+      <loc>https://waylonwalker.com//thoughts-497</loc>
+      <lastmod>2025-01-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Start</title>
+      <description>Welcome to waylonwalker.com, my small corner of the internet.  I currently have I have quite a few different feeds that you can browse or subscribe to in your r</description>
+      <loc>https://waylonwalker.com//start</loc>
+      <lastmod>2025-01-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Linkding | Linkding</title>
+      <description>linkding looks like an interesting alternative to thoughts.  Thoughts is focused on the note being a value add tweet len</description>
+      <loc>https://waylonwalker.com//thoughts-492</loc>
+      <lastmod>2025-01-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 (102) We Need To Have A Talk... - Youtube</title>
+      <description>Theo does a fantastic history of serverless here.
+
+## Kubernetes shit
+
+Theo can&#39;t have an infra video without shitting o</description>
+      <loc>https://waylonwalker.com//thoughts-493</loc>
+      <lastmod>2025-01-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Slash Pages</title>
+      <description>A nice list of slashpages you might want to consider including / aliasing / 301ing. These feel like nice things to setup</description>
+      <loc>https://waylonwalker.com//thoughts-494</loc>
+      <lastmod>2025-01-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Changelog • Robb Knight</title>
+      <description>Well done changelog with some really good inspirational nuggets.  Many slash pages I want to check out and an 11ty contr</description>
+      <loc>https://waylonwalker.com//thoughts-495</loc>
+      <lastmod>2025-01-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Slow Nfs Performance</title>
+      <description>I I I just started trying to build this site in a cronjob, It was taking 20 minutes I just moved into the master node and the results were wild at ~30x faster I</description>
+      <loc>https://waylonwalker.com//slow-nfs-performance</loc>
+      <lastmod>2025-01-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Colophon</title>
+      <description>All posts on this site are written by  This site is a static site build with my own static site generator  [ [ cloudflare pages More about this site on these  {</description>
+      <loc>https://waylonwalker.com//colophon</loc>
+      <lastmod>2025-01-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Why Your Backend Shouldn&#39;T Serve Files - Youtube</title>
+      <description>Lane from boot.dev madde this fantastic video about serving files on the internet.  It has me wondering if I need to ret</description>
+      <loc>https://waylonwalker.com//thoughts-488</loc>
+      <lastmod>2024-12-31</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+</urlset>

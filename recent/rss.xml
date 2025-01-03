@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0">
+<channel>
+    <title>recent</title>
+    <link>https://waylonwalker.com/</link>
+    <description>I write about how I use python and linux in data science.</description>
+    <generator>Markata</generator>
+    <image>
+        <url>static/8bitcc.png</url>
+        <link>https://waylonwalker.com/</link>
+    </image>
+    <language>en</language>
+  <item>
+      <title>💭 Fork Around And Find Out | Remaining Authentic In Retirement With Kelsey Hightower</title>
+      <link>https://waylonwalker.com//thoughts-496</link>
+      <description>What a great first guest for FAFO.  Kelsey is always such a great listen.  He talks about killedbygoogle and how enginee</description>
+      <guid>https://waylonwalker.com//thoughts-496</guid>
+      <pubDate>2025-01-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Own Your Web • Buttondown</title>
+      <link>https://waylonwalker.com//thoughts-497</link>
+      <description>I&#39;m a sucker for good own your own shit on the web blogs, and Matthias Ott has a top notch one here.  The archive has be</description>
+      <guid>https://waylonwalker.com//thoughts-497</guid>
+      <pubDate>2025-01-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Start</title>
+      <link>https://waylonwalker.com//start</link>
+      <description>Welcome to waylonwalker.com, my small corner of the internet.  I currently have I have quite a few different feeds that you can browse or subscribe to in your r</description>
+      <guid>https://waylonwalker.com//start</guid>
+      <pubDate>2025-01-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Linkding | Linkding</title>
+      <link>https://waylonwalker.com//thoughts-492</link>
+      <description>linkding looks like an interesting alternative to thoughts.  Thoughts is focused on the note being a value add tweet len</description>
+      <guid>https://waylonwalker.com//thoughts-492</guid>
+      <pubDate>2025-01-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 (102) We Need To Have A Talk... - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-493</link>
+      <description>Theo does a fantastic history of serverless here.
+
+## Kubernetes shit
+
+Theo can&#39;t have an infra video without shitting o</description>
+      <guid>https://waylonwalker.com//thoughts-493</guid>
+      <pubDate>2025-01-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Slash Pages</title>
+      <link>https://waylonwalker.com//thoughts-494</link>
+      <description>A nice list of slashpages you might want to consider including / aliasing / 301ing. These feel like nice things to setup</description>
+      <guid>https://waylonwalker.com//thoughts-494</guid>
+      <pubDate>2025-01-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Changelog • Robb Knight</title>
+      <link>https://waylonwalker.com//thoughts-495</link>
+      <description>Well done changelog with some really good inspirational nuggets.  Many slash pages I want to check out and an 11ty contr</description>
+      <guid>https://waylonwalker.com//thoughts-495</guid>
+      <pubDate>2025-01-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Slow Nfs Performance</title>
+      <link>https://waylonwalker.com//slow-nfs-performance</link>
+      <description>I I I just started trying to build this site in a cronjob, It was taking 20 minutes I just moved into the master node and the results were wild at ~30x faster I</description>
+      <guid>https://waylonwalker.com//slow-nfs-performance</guid>
+      <pubDate>2025-01-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Colophon</title>
+      <link>https://waylonwalker.com//colophon</link>
+      <description>All posts on this site are written by  This site is a static site build with my own static site generator  [ [ cloudflare pages More about this site on these  {</description>
+      <guid>https://waylonwalker.com//colophon</guid>
+      <pubDate>2025-01-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Why Your Backend Shouldn&#39;T Serve Files - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-488</link>
+      <description>Lane from boot.dev madde this fantastic video about serving files on the internet.  It has me wondering if I need to ret</description>
+      <guid>https://waylonwalker.com//thoughts-488</guid>
+      <pubDate>2024-12-31</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+<lastBuildDate></lastBuildDate>
+</channel>
+</rss>

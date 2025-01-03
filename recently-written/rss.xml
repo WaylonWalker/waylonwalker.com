@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0">
+<channel>
+    <title>recently_written</title>
+    <link>https://waylonwalker.com/</link>
+    <description>I write about how I use python and linux in data science.</description>
+    <generator>Markata</generator>
+    <image>
+        <url>static/8bitcc.png</url>
+        <link>https://waylonwalker.com/</link>
+    </image>
+    <language>en</language>
+  <item>
+      <title>Start</title>
+      <link>https://waylonwalker.com//start</link>
+      <description>Welcome to waylonwalker.com, my small corner of the internet.  I currently have I have quite a few different feeds that you can browse or subscribe to in your r</description>
+      <guid>https://waylonwalker.com//start</guid>
+      <pubDate>2025-01-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Slow Nfs Performance</title>
+      <link>https://waylonwalker.com//slow-nfs-performance</link>
+      <description>I I I just started trying to build this site in a cronjob, It was taking 20 minutes I just moved into the master node and the results were wild at ~30x faster I</description>
+      <guid>https://waylonwalker.com//slow-nfs-performance</guid>
+      <pubDate>2025-01-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Colophon</title>
+      <link>https://waylonwalker.com//colophon</link>
+      <description>All posts on this site are written by  This site is a static site build with my own static site generator  [ [ cloudflare pages More about this site on these  {</description>
+      <guid>https://waylonwalker.com//colophon</guid>
+      <pubDate>2025-01-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Setting Up Ucore-Zfs</title>
+      <link>https://waylonwalker.com//setting-up-ucore-zfs</link>
+      <description>I just setup my oldest hardware on the newest hotest server distro ucore-zfs. My current boot log shows that I first started daily driving bazzite back in Four </description>
+      <guid>https://waylonwalker.com//setting-up-ucore-zfs</guid>
+      <pubDate>2024-12-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Thoughts 0.0.4</title>
+      <link>https://waylonwalker.com//thoughts-0-0-4</link>
+      <description>This is such an improvement to the backend of my website it warrants a blog Let This is the tiny ass form nested deeply in the flow of the feed.  When I made th</description>
+      <guid>https://waylonwalker.com//thoughts-0-0-4</guid>
+      <pubDate>2024-12-18</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Links Rely On Color To Be Distiniquishable</title>
+      <link>https://waylonwalker.com//links-rely-on-color-to-be-distiniquishable</link>
+      <description>Today i got hit by this accessibility issue on my site.  Low contrast links are I ended up dropping the background color of the site down a notch as I didn Now </description>
+      <guid>https://waylonwalker.com//links-rely-on-color-to-be-distiniquishable</guid>
+      <pubDate>2024-12-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Urllink</title>
+      <link>https://waylonwalker.com//urllink</link>
+      <description>Today I discovered the </description>
+      <guid>https://waylonwalker.com//urllink</guid>
+      <pubDate>2024-12-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Debug Cloudflared Tunnel</title>
+      <link>https://waylonwalker.com//debug-cloudflared-tunnel</link>
+      <description>I In yesterday [</description>
+      <guid>https://waylonwalker.com//debug-cloudflared-tunnel</guid>
+      <pubDate>2024-12-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Setup Cloudflared Tunnel On Ubuntu</title>
+      <link>https://waylonwalker.com//setup-cloudflared-tunnel-on-ubuntu</link>
+      <description>I run a cloudflared tunnel on my ubuntu server to expose applications running Now setup the config directory.  For the systemd service to work, the config Now w</description>
+      <guid>https://waylonwalker.com//setup-cloudflared-tunnel-on-ubuntu</guid>
+      <pubDate>2024-12-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Price An Stl Print On Slant3D</title>
+      <link>https://waylonwalker.com//price-an-stl-print-on-slant3d</link>
+      <description>I I You will need an api key from the slant api, which currently requires a google Then you can run the python script to price out your print.  I</description>
+      <guid>https://waylonwalker.com//price-an-stl-print-on-slant3d</guid>
+      <pubDate>2024-11-18</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+<lastBuildDate></lastBuildDate>
+</channel>
+</rss>

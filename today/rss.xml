@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0">
+<channel>
+    <title>today</title>
+    <link>https://waylonwalker.com/</link>
+    <description>I write about how I use python and linux in data science.</description>
+    <generator>Markata</generator>
+    <image>
+        <url>static/8bitcc.png</url>
+        <link>https://waylonwalker.com/</link>
+    </image>
+    <language>en</language>
+  <item>
+      <title>💭 Fork Around And Find Out | Remaining Authentic In Retirement With Kelsey Hightower</title>
+      <link>https://waylonwalker.com//thoughts-496</link>
+      <description>What a great first guest for FAFO.  Kelsey is always such a great listen.  He talks about killedbygoogle and how enginee</description>
+      <guid>https://waylonwalker.com//thoughts-496</guid>
+      <pubDate>2025-01-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Own Your Web • Buttondown</title>
+      <link>https://waylonwalker.com//thoughts-497</link>
+      <description>I&#39;m a sucker for good own your own shit on the web blogs, and Matthias Ott has a top notch one here.  The archive has be</description>
+      <guid>https://waylonwalker.com//thoughts-497</guid>
+      <pubDate>2025-01-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Start</title>
+      <link>https://waylonwalker.com//start</link>
+      <description>Welcome to waylonwalker.com, my small corner of the internet.  I currently have I have quite a few different feeds that you can browse or subscribe to in your r</description>
+      <guid>https://waylonwalker.com//start</guid>
+      <pubDate>2025-01-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+<lastBuildDate></lastBuildDate>
+</channel>
+</rss>

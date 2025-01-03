@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width" name="viewport"/>
+<link href="/8bitcc.ico" rel="icon" type="image/png"/>
+<meta content="website" name="og:type"/>
+<title>Incremental Versioned Datasets In Kedro</title>
+<meta content="Incremental Versioned Datasets In Kedro" name="twitter:title"/>
+<meta content="Incremental Versioned Datasets In Kedro" name="og:title"/>
+<meta content="Kedro versioned datasets can be mixed with incremental and partitioned datasets [ 👆 Unsure what kedro is?  Check out this post. This was a question presented to" name="description"/>
+<meta content="Kedro versioned datasets can be mixed with incremental and partitioned datasets [ 👆 Unsure what kedro is?  Check out this post. This was a question presented to" name="og:description"/>
+<meta content="Kedro versioned datasets can be mixed with incremental and partitioned datasets [ 👆 Unsure what kedro is?  Check out this post. This was a question presented to" name="twitter:description"/>
+<meta content="article" name="og:type"/>
+<meta content="https://waylonwalker.com/kedro-incremental-versioned-datasets" name="og:url"/>
+<meta content="http://shots.wayl.one/shot/?url=https://waylonwalker.com/kedro-incremental-versioned-datasets&amp;height=600&amp;width=1200&amp;scaled_width=1200&amp;scaled_height=600" name="og:image"/>
+<meta content="http://shots.wayl.one/shot/?url=https://waylonwalker.com/kedro-incremental-versioned-datasets&amp;height=640&amp;width=1280&amp;scaled_width=1280&amp;scaled_height=640" name="twitter:image"/>
+<meta content="1200" name="og:image:width"/>
+<meta content="600" name="og:image:height"/>
+<meta content="@_waylonwalker" name="twitter:creator"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Waylon Walker" name="og:author"/>
+<meta content="Waylon Walker" name="og:site_name"/>
+<meta content="waylon@waylonwalker.com" name="og:author_email"/>
+<meta content="markata 0.8.1.dev12" name="generator"/>
+<meta content="$ilp.uphold.com/MGN2ni2YMXaQ" name="monetization"/>
+<meta content="#322D39" name="theme-color"/>
+<link href="/app.css" rel="stylesheet"/>
+<link href="https://waylonwalker.com/kedro-incremental-versioned-datasets/" rel="canonical"/>
+<link href="https://waylonwalker.com/kedro-incremental-versioned-datasets/amp/" rel="amphtml"/>
+<link href="https://indieauth.com/auth" rel="authorization_endpoint"/>
+<link href="https://tokens.indieauth.com/token" rel="token_endpoint"/>
+<link href="https://waylonwalker.com/kedro-incremental-versioned-datasets/amp" rel="amphtml"/>
+<link href="https://waylonwalker.com/archive" rel="micropub"/>
+<link href="https://webmention.io/waylonwalker.com/webmention" rel="webmention"/>
+<link href="https://images.waylonwalker.com" rel="preconnect"/>
+<link href="https://covers.waylonwalker.com" rel="preconnect"/>
+<link href="https://stable-diffusion.waylonwalker.com" rel="preconnect"/>
+<link href="https://screenshots.waylonwalker.com" rel="preconnect"/>
+<link href="/8bitcc_48x48.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_72x72.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_96x96.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_144x144.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_192x192.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_256x256.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_384x384.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_512x512.png" rel="apple-touch-icon"/>
+<script src="/htmx.min.js"></script> <script>
+        navigator.serviceWorker.getRegistrations().then(function (registrations) {
+            for (let registration of registrations) {
+                registration.unregister();
+            }
+        });
+
+    </script>
+<script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "WebPage",
+                "name": "Incremental Versioned Datasets In Kedro",
+                "headline": "Incremental Versioned Datasets In Kedro",
+                "datePublished": "2021-07-08",
+                "dateModified": "2021-07-08",
+                "author": {
+                    "@type": "Person",
+                    "name": "Waylon Walker"
+                    "url": "https://waylonwalker.com"
+                },
+                "image": [
+                    "https://shots.wayl.one/shot/?url=https://waylonwalker.com/&height=640&width=1280&scaled_width=1280&scaled_height=640",
+                ]
+                "speakable":
+                {
+                    "@type": "SpeakableSpecification",
+                    "cssSelector": [
+                        "#title",
+                        "#post-body"
+                    ]
+                },
+                "url": "https://waylonwalker.com/"
+            }
+        </script>
+</head>
+<body position="relative">
+<div class="neon-ring"></div>
+<div class="dubs">
+<nav class="w-full bg-gray-950 py-4 mb-8 sticky border-b border-pink-500">
+<ul>
+<li><a href="/" hx-boost="true">Home</a></li>
+<li><a href="/start/" hx-boost="true">Start Here</a></li>
+<li><a href="/archive/" hx-boost="true">Archive</a></li>
+<li><a href="/about/" hx-boost="true">About</a></li>
+<li><a href="/feeds/" hx-boost="true">RSS</a></li>
+</ul>
+</nav> <div>
+<article class="blog-post h-entry">
+<div id="title-wrapper">
+<a class="no-underline u-url" href="https://waylonwalker.com//" hx-boost="true">
+<h1 class="flair blog title no-link" id="title">
+            Incremental Versioned Datasets In Kedro
+        </h1>
+</a>
+<p class="m-0 sm:m-[-2rem]">
+<time class="dt-published post-date" datetime="" style="text-align: right; z-index: 2"></time>
+</p>
+<div class="flex flex-row h-card p-author space-between" rel="author">
+<img alt="pixelated avatar of Waylon Walker with a yellow and pink background" class="m-auto ml-0 w-16 h-16 rounded-full u-photo shadow-[0_0_5px_5px_rgba(0,0,0,0.4)]" src="/88-8bitcc.webp"/>
+<div class="content">
+<a class="p-name u-url h-card p-author" href="https://waylonwalker.com/" hx-boost="true" rel="me">
+<p>
+<span class="p-given-name">Waylon</span>
+<span class="p-family-name">Walker</span>
+</p>
+</a>
+<p class="p-note">
+                Learning in Public
+                <a href="https://twitter.com/_WaylonWalker" rel="me">@_WaylonWalker</a>
+</p>
+</div>
+</div>
+<!-- edit -->
+<!-- <p> -->
+<!--     <a href="https://github.com/WaylonWalker/waylonwalker.com/edit/main/pages/blog/.md" -->
+<!--         alt="edit post url" title="edit this post">edit<span role="img" aria-label="">✏️</span></a> -->
+<!-- </p> -->
+</div><h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Tags</h2>
+<ul class="flex flex-wrap justify-center p-0 m-auto max-w-md border-yellow-400 tags">
+<li class="px-4 mx-2 list-none rounded-full ring-1 ring-pink-500">
+<a class="p-category" href="https://waylonwalker.com/kedro" hx-boost="true">kedro</a>
+</li>
+<li class="px-4 mx-2 list-none rounded-full ring-1 ring-pink-500">
+<a class="p-category" href="https://waylonwalker.com/python" hx-boost="true">python</a>
+</li>
+</ul> <div class="e-content" data-pagefind-body="" id="post-body">
+<p>Kedro versioned datasets can be mixed with incremental and partitioned datasets
+to do some timeseries analysis on how our dataset changes over time.  Kedro is
+a very extensible and composible framework, that allows us to build solutions
+from the individual components that it provides.  This article is a great
+example of how you can combine these components in unique ways to achieve some
+powerful results with very little work.</p>
+<p class="hover:z-20">
+<span class="z-10 group group-hover:z-20 relative inline-block">
+<a class="wikilink text-pink-500 hover:underline" href="https://waylonwalker.com//what-is-kedro" hx-boost="true" title="what-is-kedro"> what-is-kedro</a>
+<button aria-label="Preview" class="ml-2 text-pink-500 hover:underline focus:outline-none">
+<svg class="h-5 w-5 inline align-middle" fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="m2.25 15.75 5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5 1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5Zm10.5-11.25h.008v.008h-.008V8.25Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</button>
+<a class="hidden absolute top-6 left-0 z-20 group-hover:block" href="https://waylonwalker.com//what-is-kedro">
+<img alt="a screenshot of https://waylonwalker.com//what-is-kedro" class="rounded-xl transition-height ease-in duration-75 h-0 opacity-0 group-hover:opacity-100 group-hover:h-[800px] max-w-none" height="800" src="https://shots.wayl.one/shot/?url=https://waylonwalker.com//what-is-kedro&amp;height=1600&amp;width=1200&amp;scaled_width=600&amp;scaled_height=800&amp;selectors=" style=" box-shadow: rgba(0, 0, 0, 0.6) 0 0 500rem 500rem; " width="600"/>
+</a>
+</span>
+</p>
+<blockquote>
+<p>👆 Unsure what kedro is?  Check out this post.</p>
+</blockquote>
+<h2 id="how-does-our-dataset-change-over-time">How does our dataset change over time?? <a aria-label="Permalink to Heading How does our dataset change over time?? " class="header-anchor" href="#how-does-our-dataset-change-over-time" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>This was a question presented to me at work.  We had some plots being produces
+as the output of our pipeline and the user wanted the ability to compare
+results over time.  Luckily this was asked early in the project so we were able
+to proactively setup versioning on the right datasets.</p>
+<p>To enable this all we needed to do now was to add <code>versioned: true</code> and we will
+be able to compare results over time.  Yes kedro makes it that easy to setup.</p>
+<h2 id="set-up-a-project">set up a project <a aria-label="Permalink to Heading set up a project " class="header-anchor" href="#set-up-a-project" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>Set up a new project just as usual.  <strong>note</strong> I like using pipx for
+global cli packages.  You can pick a specific version of kedro or opt for the
+latest while simply globally installing kedro and running kedro new is purely
+dependent on the last time you chose to update kedro.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span>pip<span class="w"> </span>install<span class="w"> </span>pipx
+pipx<span class="w"> </span>run<span class="w"> </span>kedro<span class="w"> </span>new
+
+<span class="nb">cd</span><span class="w"> </span>versioned-partitioned-kedro-example
+conda<span class="w"> </span>create<span class="w"> </span>-n<span class="w"> </span>versioned-partitioned-kedro-example<span class="w"> </span><span class="nv">python</span><span class="o">=</span><span class="m">3</span>.8<span class="w">  </span>-y
+conda<span class="w"> </span>activate<span class="w"> </span>versioned-partitioned-kedro-example
+
+pip<span class="w"> </span>install<span class="w"> </span>kedro
+kedro<span class="w"> </span>install
+
+git<span class="w"> </span>init
+git<span class="w"> </span>add<span class="w"> </span>.
+git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">"init project from pipx run kedro new"</span>
+</pre></div>
+
+</pre>
+<p>I called my project versioned-partitioned-kedro-example. You can call your
+project whatever you like.  If you try to use some special characters where
+they don't belong, kedro will catch you.  Under the hood, kedro is using a
+library called <code>cookiecutter</code></p>
+<blockquote>
+<p>⚠️ Please do not skip out on using a virtual environment. You may use
+whichever virtual environment tool you prefer, but please do not skip out.
+Wrecking a running project for learning is not fun.</p>
+</blockquote>
+<h2 id="update-dependencies">update dependencies <a aria-label="Permalink to Heading update dependencies " class="header-anchor" href="#update-dependencies" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>I popped open my dependencies, added <code>kedro[pandas]</code> and <code>find-kedro</code>. Since those are extra packages our example will require.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span>aiohttp
+black==21.5b1
+find-kedro
+flake8&gt;=3.7.9, &lt;4.0
+ipython
+isort~=5.0
+jupyter_client&gt;=5.1, &lt;7.0
+jupyterlab~=3.0
+jupyter~=1.0
+kedro-telemetry~=0.1.0
+kedro==0.17.4
+kedro[pandas]
+nbstripout~=0.4
+pytest-cov~=2.5
+pytest-mock&gt;=1.7.1, &lt;2.0
+pytest~=6.2
+requests
+wheel&gt;=0.35, &lt;0.37
+</pre></div>
+
+</pre>
+<p><strong>note</strong> I created <code>find-kedro</code>, and I like using it to create my
+pipeline object.  Think of how pytest automatically picks up everything named
+<code>test</code>, <code>find-kedro</code> does the same thing for kedro.  It picks up everything
+with <code>node</code> or <code>pipeline</code> in the name and creates pipelines out of it.</p>
+<h2 id="install-new-dependencies">Install new dependencies <a aria-label="Permalink to Heading Install new dependencies " class="header-anchor" href="#install-new-dependencies" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>After adding our additional dependencies to the <code>requirements.in</code>, we
+can tell kedro to install everything and compile the dependencies.  Behind
+the scenes <code>--build-reqs</code> uses a library called <code>pip-compile</code> to create a
+<code>requirements.txt</code> file with hard pinned dependencies, which is ideal for
+creating reproducible projects.  You and your future colleagues may not thank
+you for this, but they sure as heck won't be cursing your name when they can't
+get the project to run.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span>kedro<span class="w"> </span>install<span class="w"> </span>--build-reqs
+
+git<span class="w"> </span>add<span class="w"> </span>.
+git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">"added additional dependencies"</span>
+</pre></div>
+
+</pre>
+<h2 id="create-a-node">create a node <a aria-label="Permalink to Heading create a node " class="header-anchor" href="#create-a-node" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>For this example, we need a node to do much.  This node will
+pass the <code>cars.csv</code> from a URL to a <code>parquet</code> file.  I am going to use a
+lambda to build my identity function inline.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="c1"># pipelines/cars_nodes.py</span>
+
+<span class="kn">from</span> <span class="nn">kedro.pipeline</span> <span class="kn">import</span> <span class="n">node</span>
+
+<span class="n">nodes</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="n">nodes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span>
+        <span class="n">node</span><span class="p">(</span>
+            <span class="n">func</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span><span class="n">x</span><span class="p">,</span>
+            <span class="n">inputs</span><span class="o">=</span><span class="s1">'raw_cars'</span><span class="p">,</span>
+            <span class="n">outputs</span><span class="o">=</span><span class="s1">'int_cars'</span><span class="p">,</span>
+            <span class="n">name</span><span class="o">=</span><span class="s1">'create_int_cars'</span><span class="p">,</span>
+            <span class="p">)</span>
+        <span class="p">)</span>
+</pre></div>
+
+</pre>
+<blockquote>
+<p>🗒️ <strong>note</strong><code>find-kedro' will automatically pick up these nodes for us after we set up our </code>pipeline_registry.py`.</p>
+</blockquote>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span>git<span class="w"> </span>add<span class="w"> </span>.
+git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">"add create_int_cars node"</span>
+</pre></div>
+
+</pre>
+<h2 id="implement-find-kedro">implement find-kedro <a aria-label="Permalink to Heading implement find-kedro " class="header-anchor" href="#implement-find-kedro" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>Next, we need to tell kedro where our nodes are.  This is where <code>find-kedro</code>
+comes in.  Once we point to the directory where our modules of
+nodes/pipelines are, it creates the pipelines dictionary for us automatically.  It will even separate each module into a pipeline and stitch them all into one default pipeline.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="c1"># pipeline_registry.py</span>
+
+<span class="sd">"""Project pipelines."""</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Dict</span>
+<span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
+
+<span class="kn">from</span> <span class="nn">kedro.pipeline</span> <span class="kn">import</span> <span class="n">Pipeline</span>
+
+<span class="kn">from</span> <span class="nn">find_kedro</span> <span class="kn">import</span> <span class="n">find_kedro</span>
+
+
+<span class="k">def</span> <span class="nf">register_pipelines</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Pipeline</span><span class="p">]:</span>
+<span class="w">    </span><span class="sd">"""Register the project's pipelines.</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        A mapping from a pipeline name to a "Pipeline "object.</span>
+<span class="sd">    """</span>
+    <span class="n">pipeline_dir</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">parent</span> <span class="o">/</span> <span class="s1">'pipelines'</span>
+    <span class="k">return</span> <span class="n">find_kedro</span><span class="p">(</span><span class="n">directory</span><span class="o">=</span> <span class="n">pipeline_dir</span><span class="p">)</span>
+</pre></div>
+
+</pre>
+<blockquote>
+<p>🗒️ This is very similar to the default ` pipeline_registry'except the last two
+lines.</p>
+</blockquote>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span>git<span class="w"> </span>add<span class="w"> </span>.
+git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">"implement find-kedro"</span>
+</pre></div>
+
+</pre>
+<h2 id="create-a-baseline-catalog">create a baseline catalog <a aria-label="Permalink to Heading create a baseline catalog " class="header-anchor" href="#create-a-baseline-catalog" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>Once we have a pipeline setup, the kedro cli can automatically fill in missing
+catalog entries with  <code>MemoryDataSet</code>'s. Thus, using the cli helps consistently scaffold the
+catalog and ensure we don't end up with a typo in our
+dataset name.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span>kedro<span class="w"> </span>catalog<span class="w"> </span>create<span class="w"> </span>--pipeline<span class="w"> </span>cars_nodes
+</pre></div>
+
+</pre>
+<p>Kedro will kick out the following catalog file to <code>base/catalog/cars_nodes.yml</code>
+for us to get started with.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="nt">raw_cars</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">MemoryDataSet</span>
+<span class="nt">int_cars</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">MemoryDataSet</span>
+</pre></div>
+
+</pre>
+<blockquote>
+<p>🔥 use the kedro cli to fill in any missing datasets from the automatically
+catalog.</p>
+</blockquote>
+<h2 id="make-a-versioned-dataset">make a versioned dataset <a aria-label="Permalink to Heading make a versioned dataset " class="header-anchor" href="#make-a-versioned-dataset" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>Kedro has scaffolded <code>MemoryDataSet</code> 's for us.  We will convert them to the
+appropriate dataset type and turn on versioning for our <code>int</code> layer, which is
+the first point we save in our environment.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="nt">raw_cars</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">pandas.CSVDataSet</span>
+<span class="w">  </span><span class="nt">filepath</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://waylonwalker.com/cars.csv</span>
+<span class="nt">int_cars</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">pandas.ParquetDataSet</span>
+<span class="w">  </span><span class="nt">filepath</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">data/int_cars.parquet</span>
+<span class="w">  </span><span class="nt">versioned</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+</pre></div>
+
+</pre>
+<p>Commit your changes to the catalog.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span>git<span class="w"> </span>add<span class="w"> </span>.
+git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">"create catalog"</span>
+</pre></div>
+
+</pre>
+<h2 id="run-the-pipeline">run the pipeline <a aria-label="Permalink to Heading run the pipeline " class="header-anchor" href="#run-the-pipeline" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>Once we have the nodes and catalog setup, we can run the pipeline a few times
+to get some versioned data.  Each time we run, it will save a new version inside
+the <code>int_cars.parquet</code> directory.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span>kedro<span class="w"> </span>run
+kedro<span class="w"> </span>run
+kedro<span class="w"> </span>run
+kedro<span class="w"> </span>run
+kedro<span class="w"> </span>run
+</pre></div>
+
+</pre>
+<blockquote>
+<p>🗒️ we put our data in the data directory. By default, this directory is
+included in the <code>.gitignore</code> and will not be picked up by git.</p>
+</blockquote>
+<h2 id="inspect-the-data">inspect the data <a aria-label="Permalink to Heading inspect the data " class="header-anchor" href="#inspect-the-data" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>Listing the files in <code>data/int_cars.parquet</code> shows that I now have five different
+datasets available.  I can load old ones, but by default, kedro will load the
+latest one.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span>ls<span class="w"> </span>data/int_cars.parquet
+
+<span class="m">2021</span>-07-05T15.24.53.164Z
+<span class="m">2021</span>-07-05T15.29.56.144Z
+<span class="m">2021</span>-07-05T15.30.23.101Z
+<span class="m">2021</span>-07-05T15.30.26.555Z
+<span class="m">2021</span>-07-05T15.31.12.688Z
+</pre></div>
+
+</pre>
+<blockquote>
+<p>🗒️ kedro sets the version at the timestamp that the session starts.  All
+datasets created within the same run will have the same version.</p>
+</blockquote>
+<h2 id="stack-on-an-incremental-dataset">stack on an incremental dataset <a aria-label="Permalink to Heading stack on an incremental dataset " class="header-anchor" href="#stack-on-an-incremental-dataset" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>This is where things get interesting. Kedro comes with an incremental dataset
+that will load all of the files from a particular directory into a dictionary
+where the keys are the filename of the dataset.  To load up all datasets into
+this dictionary all we need to do is add a new catalog entry that is a  <code>type: PartitionedDataSet</code>, with a <code>path</code> pointing to the same place as the original,
+and a <code>dataset</code> type the same as the original.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="nt">int_cars_partitioned</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PartitionedDataSet</span>
+<span class="w">  </span><span class="nt">dataset</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">pandas.ParquetDataSet</span>
+<span class="w">  </span><span class="nt">path</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">data/int_cars.parquet</span>
+</pre></div>
+
+</pre>
+<h2 id="catalog-list">catalog list <a aria-label="Permalink to Heading catalog list " class="header-anchor" href="#catalog-list" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>Listing the catalog entries confirms that we have successfully added our new <code>PartitionedDataSet</code>.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="n">In</span> <span class="p">[</span><span class="mi">17</span><span class="p">]:</span> <span class="n">context</span><span class="o">.</span><span class="n">catalog</span><span class="o">.</span><span class="n">list</span><span class="p">()</span>
+<span class="n">Out</span><span class="p">[</span><span class="mi">17</span><span class="p">]:</span>
+<span class="p">[</span><span class="s1">'raw_cars'</span><span class="p">,</span>
+ <span class="s1">'int_cars'</span><span class="p">,</span>
+ <span class="s1">'int_cars_partitioned'</span><span class="p">,</span>
+ <span class="s1">'parameters'</span><span class="p">]</span>
+</pre></div>
+
+</pre>
+<h2 id="loading-an-incremental-dataset">loading an incremental dataset <a aria-label="Permalink to Heading loading an incremental dataset " class="header-anchor" href="#loading-an-incremental-dataset" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>Now we can easily load the datasets from every run we just did into a single
+dictionary, simply by running <code>context.catalog.load('int_cars_incremental')</code>.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="n">In</span> <span class="p">[</span><span class="mi">19</span><span class="p">]:</span> <span class="n">context</span><span class="o">.</span><span class="n">catalog</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s1">'int_cars_incremental'</span><span class="p">)</span>
+<span class="mi">2021</span><span class="o">-</span><span class="mi">07</span><span class="o">-</span><span class="mi">05</span> <span class="mi">11</span><span class="p">:</span><span class="mi">32</span><span class="p">:</span><span class="mi">40</span><span class="p">,</span><span class="mi">534</span> <span class="o">-</span> <span class="n">kedro</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">data_catalog</span> <span class="o">-</span> <span class="n">INFO</span> <span class="o">-</span> <span class="n">Loading</span> <span class="n">data</span> <span class="kn">from</span> <span class="err">`</span><span class="n">int_cars_incremental</span><span class="err">`</span> <span class="p">(</span><span class="n">IncrementalDataSet</span><span class="p">)</span><span class="o">...</span>
+<span class="n">Out</span><span class="p">[</span><span class="mi">19</span><span class="p">]:</span>
+<span class="p">{</span><span class="s1">'2021-07-05T15.29.56.144Z/int_cars.parquet'</span><span class="p">:</span>              <span class="n">Unnamed</span><span class="p">:</span> <span class="mi">0</span>   <span class="n">mpg</span>  <span class="n">cyl</span>   <span class="n">disp</span>   <span class="n">hp</span>  <span class="n">drat</span>     <span class="n">wt</span>   <span class="n">qsec</span>  <span class="n">vs</span>  <span class="n">am</span>  <span class="n">gear</span>  <span class="n">carb</span>
+ <span class="mi">0</span>             <span class="n">Mazda</span> <span class="n">RX4</span>  <span class="mf">21.0</span>    <span class="mi">6</span>  <span class="mf">160.0</span>  <span class="mi">110</span>  <span class="mf">3.90</span>  <span class="mf">2.620</span>  <span class="mf">16.46</span>   <span class="mi">0</span>   <span class="mi">1</span>     <span class="mi">4</span>     <span class="mi">4</span>
+ <span class="mi">1</span>         <span class="n">Mazda</span> <span class="n">RX4</span> <span class="n">Wag</span>  <span class="mf">21.0</span>    <span class="mi">6</span>  <span class="mf">160.0</span>  <span class="mi">110</span>  <span class="mf">3.90</span>  <span class="mf">2.875</span>  <span class="mf">17.02</span>   <span class="mi">0</span>   <span class="mi">1</span>     <span class="mi">4</span>     <span class="mi">4</span>
+ <span class="mi">2</span>            <span class="n">Datsun</span> <span class="mi">710</span>  <span class="mf">22.8</span>    <span class="mi">4</span>  <span class="mf">108.0</span>   <span class="mi">93</span>  <span class="mf">3.85</span>  <span class="mf">2.320</span>  <span class="mf">18.61</span>   <span class="mi">1</span>   <span class="mi">1</span>     <span class="mi">4</span>     <span class="mi">1</span>
+ <span class="mi">3</span>        <span class="n">Hornet</span> <span class="mi">4</span> <span class="n">Drive</span>  <span class="mf">21.4</span>    <span class="mi">6</span>  <span class="mf">258.0</span>  <span class="mi">110</span>  <span class="mf">3.08</span>  <span class="mf">3.215</span>  <span class="mf">19.44</span>   <span class="mi">1</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">1</span>
+ <span class="mi">4</span>     <span class="n">Hornet</span> <span class="n">Sportabout</span>  <span class="mf">18.7</span>    <span class="mi">8</span>  <span class="mf">360.0</span>  <span class="mi">175</span>  <span class="mf">3.15</span>  <span class="mf">3.440</span>  <span class="mf">17.02</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">2</span>
+ <span class="mi">5</span>               <span class="n">Valiant</span>  <span class="mf">18.1</span>    <span class="mi">6</span>  <span class="mf">225.0</span>  <span class="mi">105</span>  <span class="mf">2.76</span>  <span class="mf">3.460</span>  <span class="mf">20.22</span>   <span class="mi">1</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">1</span>
+ <span class="mi">6</span>            <span class="n">Duster</span> <span class="mi">360</span>  <span class="mf">14.3</span>    <span class="mi">8</span>  <span class="mf">360.0</span>  <span class="mi">245</span>  <span class="mf">3.21</span>  <span class="mf">3.570</span>  <span class="mf">15.84</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">4</span>
+ <span class="mi">7</span>             <span class="n">Merc</span> <span class="mi">240</span><span class="n">D</span>  <span class="mf">24.4</span>    <span class="mi">4</span>  <span class="mf">146.7</span>   <span class="mi">62</span>  <span class="mf">3.69</span>  <span class="mf">3.190</span>  <span class="mf">20.00</span>   <span class="mi">1</span>   <span class="mi">0</span>     <span class="mi">4</span>     <span class="mi">2</span>
+ <span class="mi">8</span>              <span class="n">Merc</span> <span class="mi">230</span>  <span class="mf">22.8</span>    <span class="mi">4</span>  <span class="mf">140.8</span>   <span class="mi">95</span>  <span class="mf">3.92</span>  <span class="mf">3.150</span>  <span class="mf">22.90</span>   <span class="mi">1</span>   <span class="mi">0</span>     <span class="mi">4</span>     <span class="mi">2</span>
+ <span class="mi">9</span>              <span class="n">Merc</span> <span class="mi">280</span>  <span class="mf">19.2</span>    <span class="mi">6</span>  <span class="mf">167.6</span>  <span class="mi">123</span>  <span class="mf">3.92</span>  <span class="mf">3.440</span>  <span class="mf">18.30</span>   <span class="mi">1</span>   <span class="mi">0</span>     <span class="mi">4</span>     <span class="mi">4</span>
+ <span class="mi">10</span>            <span class="n">Merc</span> <span class="mi">280</span><span class="n">C</span>  <span class="mf">17.8</span>    <span class="mi">6</span>  <span class="mf">167.6</span>  <span class="mi">123</span>  <span class="mf">3.92</span>  <span class="mf">3.440</span>  <span class="mf">18.90</span>   <span class="mi">1</span>   <span class="mi">0</span>     <span class="mi">4</span>     <span class="mi">4</span>
+ <span class="mi">11</span>           <span class="n">Merc</span> <span class="mi">450</span><span class="n">SE</span>  <span class="mf">16.4</span>    <span class="mi">8</span>  <span class="mf">275.8</span>  <span class="mi">180</span>  <span class="mf">3.07</span>  <span class="mf">4.070</span>  <span class="mf">17.40</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">3</span>
+ <span class="mi">12</span>           <span class="n">Merc</span> <span class="mi">450</span><span class="n">SL</span>  <span class="mf">17.3</span>    <span class="mi">8</span>  <span class="mf">275.8</span>  <span class="mi">180</span>  <span class="mf">3.07</span>  <span class="mf">3.730</span>  <span class="mf">17.60</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">3</span>
+ <span class="mi">13</span>          <span class="n">Merc</span> <span class="mi">450</span><span class="n">SLC</span>  <span class="mf">15.2</span>    <span class="mi">8</span>  <span class="mf">275.8</span>  <span class="mi">180</span>  <span class="mf">3.07</span>  <span class="mf">3.780</span>  <span class="mf">18.00</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">3</span>
+ <span class="mi">14</span>   <span class="n">Cadillac</span> <span class="n">Fleetwood</span>  <span class="mf">10.4</span>    <span class="mi">8</span>  <span class="mf">472.0</span>  <span class="mi">205</span>  <span class="mf">2.93</span>  <span class="mf">5.250</span>  <span class="mf">17.98</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">4</span>
+ <span class="mi">15</span>  <span class="n">Lincoln</span> <span class="n">Continental</span>  <span class="mf">10.4</span>    <span class="mi">8</span>  <span class="mf">460.0</span>  <span class="mi">215</span>  <span class="mf">3.00</span>  <span class="mf">5.424</span>  <span class="mf">17.82</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">4</span>
+ <span class="mi">16</span>    <span class="n">Chrysler</span> <span class="n">Imperial</span>  <span class="mf">14.7</span>    <span class="mi">8</span>  <span class="mf">440.0</span>  <span class="mi">230</span>  <span class="mf">3.23</span>  <span class="mf">5.345</span>  <span class="mf">17.42</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">4</span>
+ <span class="mi">17</span>             <span class="n">Fiat</span> <span class="mi">128</span>  <span class="mf">32.4</span>    <span class="mi">4</span>   <span class="mf">78.7</span>   <span class="mi">66</span>  <span class="mf">4.08</span>  <span class="mf">2.200</span>  <span class="mf">19.47</span>   <span class="mi">1</span>   <span class="mi">1</span>     <span class="mi">4</span>     <span class="mi">1</span>
+ <span class="mi">18</span>          <span class="n">Honda</span> <span class="n">Civic</span>  <span class="mf">30.4</span>    <span class="mi">4</span>   <span class="mf">75.7</span>   <span class="mi">52</span>  <span class="mf">4.93</span>  <span class="mf">1.615</span>  <span class="mf">18.52</span>   <span class="mi">1</span>   <span class="mi">1</span>     <span class="mi">4</span>     <span class="mi">2</span>
+ <span class="mi">19</span>       <span class="n">Toyota</span> <span class="n">Corolla</span>  <span class="mf">33.9</span>    <span class="mi">4</span>   <span class="mf">71.1</span>   <span class="mi">65</span>  <span class="mf">4.22</span>  <span class="mf">1.835</span>  <span class="mf">19.90</span>   <span class="mi">1</span>   <span class="mi">1</span>     <span class="mi">4</span>     <span class="mi">1</span>
+ <span class="mi">20</span>        <span class="n">Toyota</span> <span class="n">Corona</span>  <span class="mf">21.5</span>    <span class="mi">4</span>  <span class="mf">120.1</span>   <span class="mi">97</span>  <span class="mf">3.70</span>  <span class="mf">2.465</span>  <span class="mf">20.01</span>   <span class="mi">1</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">1</span>
+ <span class="mi">21</span>     <span class="n">Dodge</span> <span class="n">Challenger</span>  <span class="mf">15.5</span>    <span class="mi">8</span>  <span class="mf">318.0</span>  <span class="mi">150</span>  <span class="mf">2.76</span>  <span class="mf">3.520</span>  <span class="mf">16.87</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">2</span>
+ <span class="mi">22</span>          <span class="n">AMC</span> <span class="n">Javelin</span>  <span class="mf">15.2</span>    <span class="mi">8</span>  <span class="mf">304.0</span>  <span class="mi">150</span>  <span class="mf">3.15</span>  <span class="mf">3.435</span>  <span class="mf">17.30</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">2</span>
+ <span class="mi">23</span>           <span class="n">Camaro</span> <span class="n">Z28</span>  <span class="mf">13.3</span>    <span class="mi">8</span>  <span class="mf">350.0</span>  <span class="mi">245</span>  <span class="mf">3.73</span>  <span class="mf">3.840</span>  <span class="mf">15.41</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">4</span>
+ <span class="mi">24</span>     <span class="n">Pontiac</span> <span class="n">Firebird</span>  <span class="mf">19.2</span>    <span class="mi">8</span>  <span class="mf">400.0</span>  <span class="mi">175</span>  <span class="mf">3.08</span>  <span class="mf">3.845</span>  <span class="mf">17.05</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">2</span>
+ <span class="mi">25</span>            <span class="n">Fiat</span> <span class="n">X1</span><span class="o">-</span><span class="mi">9</span>  <span class="mf">27.3</span>    <span class="mi">4</span>   <span class="mf">79.0</span>   <span class="mi">66</span>  <span class="mf">4.08</span>  <span class="mf">1.935</span>  <span class="mf">18.90</span>   <span class="mi">1</span>   <span class="mi">1</span>     <span class="mi">4</span>     <span class="mi">1</span>
+ <span class="mi">26</span>        <span class="n">Porsche</span> <span class="mi">914</span><span class="o">-</span><span class="mi">2</span>  <span class="mf">26.0</span>    <span class="mi">4</span>  <span class="mf">120.3</span>   <span class="mi">91</span>  <span class="mf">4.43</span>  <span class="mf">2.140</span>  <span class="mf">16.70</span>   <span class="mi">0</span>   <span class="mi">1</span>     <span class="mi">5</span>     <span class="mi">2</span>
+ <span class="mi">27</span>         <span class="n">Lotus</span> <span class="n">Europa</span>  <span class="mf">30.4</span>    <span class="mi">4</span>   <span class="mf">95.1</span>  <span class="mi">113</span>  <span class="mf">3.77</span>  <span class="mf">1.513</span>  <span class="mf">16.90</span>   <span class="mi">1</span>   <span class="mi">1</span>     <span class="mi">5</span>     <span class="mi">2</span>
+ <span class="mi">28</span>       <span class="n">Ford</span> <span class="n">Pantera</span> <span class="n">L</span>  <span class="mf">15.8</span>    <span class="mi">8</span>  <span class="mf">351.0</span>  <span class="mi">264</span>  <span class="mf">4.22</span>  <span class="mf">3.170</span>  <span class="mf">14.50</span>   <span class="mi">0</span>   <span class="mi">1</span>     <span class="mi">5</span>     <span class="mi">4</span>
+ <span class="mi">29</span>         <span class="n">Ferrari</span> <span class="n">Dino</span>  <span class="mf">19.7</span>    <span class="mi">6</span>  <span class="mf">145.0</span>  <span class="mi">175</span>  <span class="mf">3.62</span>  <span class="mf">2.770</span>  <span class="mf">15.50</span>   <span class="mi">0</span>   <span class="mi">1</span>     <span class="mi">5</span>     <span class="mi">6</span>
+ <span class="mi">30</span>        <span class="n">Maserati</span> <span class="n">Bora</span>  <span class="mf">15.0</span>    <span class="mi">8</span>  <span class="mf">301.0</span>  <span class="mi">335</span>  <span class="mf">3.54</span>  <span class="mf">3.570</span>  <span class="mf">14.60</span>   <span class="mi">0</span>   <span class="mi">1</span>     <span class="mi">5</span>     <span class="mi">8</span>
+ <span class="mi">31</span>           <span class="n">Volvo</span> <span class="mi">142</span><span class="n">E</span>  <span class="mf">21.4</span>    <span class="mi">4</span>  <span class="mf">121.0</span>  <span class="mi">109</span>  <span class="mf">4.11</span>  <span class="mf">2.780</span>  <span class="mf">18.60</span>   <span class="mi">1</span>   <span class="mi">1</span>     <span class="mi">4</span>     <span class="mi">2</span><span class="p">,</span>
+ <span class="s1">'2021-07-05T15.30.23.101Z/int_cars.parquet'</span><span class="p">:</span>              <span class="n">Unnamed</span><span class="p">:</span> <span class="mi">0</span>   <span class="n">mpg</span>  <span class="n">cyl</span>   <span class="n">disp</span>   <span class="n">hp</span>  <span class="n">drat</span>     <span class="n">wt</span>   <span class="n">qsec</span>  <span class="n">vs</span>  <span class="n">am</span>  <span class="n">gear</span>  <span class="n">carb</span>
+ <span class="mi">0</span>             <span class="n">Mazda</span> <span class="n">RX4</span>  <span class="mf">21.0</span>    <span class="mi">6</span>  <span class="mf">160.0</span>  <span class="mi">110</span>  <span class="mf">3.90</span>  <span class="mf">2.620</span>  <span class="mf">16.46</span>   <span class="mi">0</span>   <span class="mi">1</span>     <span class="mi">4</span>     <span class="mi">4</span>
+ <span class="mi">1</span>         <span class="n">Mazda</span> <span class="n">RX4</span> <span class="n">Wag</span>  <span class="mf">21.0</span>    <span class="mi">6</span>  <span class="mf">160.0</span>  <span class="mi">110</span>  <span class="mf">3.90</span>  <span class="mf">2.875</span>  <span class="mf">17.02</span>   <span class="mi">0</span>   <span class="mi">1</span>     <span class="mi">4</span>     <span class="mi">4</span>
+ <span class="mi">2</span>            <span class="n">Datsun</span> <span class="mi">710</span>  <span class="mf">22.8</span>    <span class="mi">4</span>  <span class="mf">108.0</span>   <span class="mi">93</span>  <span class="mf">3.85</span>  <span class="mf">2.320</span>  <span class="mf">18.61</span>   <span class="mi">1</span>   <span class="mi">1</span>     <span class="mi">4</span>     <span class="mi">1</span>
+ <span class="mi">3</span>        <span class="n">Hornet</span> <span class="mi">4</span> <span class="n">Drive</span>  <span class="mf">21.4</span>    <span class="mi">6</span>  <span class="mf">258.0</span>  <span class="mi">110</span>  <span class="mf">3.08</span>  <span class="mf">3.215</span>  <span class="mf">19.44</span>   <span class="mi">1</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">1</span>
+ <span class="mi">4</span>     <span class="n">Hornet</span> <span class="n">Sportabout</span>  <span class="mf">18.7</span>    <span class="mi">8</span>  <span class="mf">360.0</span>  <span class="mi">175</span>  <span class="mf">3.15</span>  <span class="mf">3.440</span>  <span class="mf">17.02</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">2</span>
+ <span class="mi">5</span>               <span class="n">Valiant</span>  <span class="mf">18.1</span>    <span class="mi">6</span>  <span class="mf">225.0</span>  <span class="mi">105</span>  <span class="mf">2.76</span>  <span class="mf">3.460</span>  <span class="mf">20.22</span>   <span class="mi">1</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">1</span>
+ <span class="mi">6</span>            <span class="n">Duster</span> <span class="mi">360</span>  <span class="mf">14.3</span>    <span class="mi">8</span>  <span class="mf">360.0</span>  <span class="mi">245</span>  <span class="mf">3.21</span>  <span class="mf">3.570</span>  <span class="mf">15.84</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">4</span>
+ <span class="mi">7</span>             <span class="n">Merc</span> <span class="mi">240</span><span class="n">D</span>  <span class="mf">24.4</span>    <span class="mi">4</span>  <span class="mf">146.7</span>   <span class="mi">62</span>  <span class="mf">3.69</span>  <span class="mf">3.190</span>  <span class="mf">20.00</span>   <span class="mi">1</span>   <span class="mi">0</span>     <span class="mi">4</span>     <span class="mi">2</span>
+ <span class="mi">8</span>              <span class="n">Merc</span> <span class="mi">230</span>  <span class="mf">22.8</span>    <span class="mi">4</span>  <span class="mf">140.8</span>   <span class="mi">95</span>  <span class="mf">3.92</span>  <span class="mf">3.150</span>  <span class="mf">22.90</span>   <span class="mi">1</span>   <span class="mi">0</span>     <span class="mi">4</span>     <span class="mi">2</span>
+ <span class="mi">9</span>              <span class="n">Merc</span> <span class="mi">280</span>  <span class="mf">19.2</span>    <span class="mi">6</span>  <span class="mf">167.6</span>  <span class="mi">123</span>  <span class="mf">3.92</span>  <span class="mf">3.440</span>  <span class="mf">18.30</span>   <span class="mi">1</span>   <span class="mi">0</span>     <span class="mi">4</span>     <span class="mi">4</span>
+ <span class="mi">10</span>            <span class="n">Merc</span> <span class="mi">280</span><span class="n">C</span>  <span class="mf">17.8</span>    <span class="mi">6</span>  <span class="mf">167.6</span>  <span class="mi">123</span>  <span class="mf">3.92</span>  <span class="mf">3.440</span>  <span class="mf">18.90</span>   <span class="mi">1</span>   <span class="mi">0</span>     <span class="mi">4</span>     <span class="mi">4</span>
+ <span class="mi">11</span>           <span class="n">Merc</span> <span class="mi">450</span><span class="n">SE</span>  <span class="mf">16.4</span>    <span class="mi">8</span>  <span class="mf">275.8</span>  <span class="mi">180</span>  <span class="mf">3.07</span>  <span class="mf">4.070</span>  <span class="mf">17.40</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">3</span>
+ <span class="mi">12</span>           <span class="n">Merc</span> <span class="mi">450</span><span class="n">SL</span>  <span class="mf">17.3</span>    <span class="mi">8</span>  <span class="mf">275.8</span>  <span class="mi">180</span>  <span class="mf">3.07</span>  <span class="mf">3.730</span>  <span class="mf">17.60</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">3</span>
+ <span class="mi">13</span>          <span class="n">Merc</span> <span class="mi">450</span><span class="n">SLC</span>  <span class="mf">15.2</span>    <span class="mi">8</span>  <span class="mf">275.8</span>  <span class="mi">180</span>  <span class="mf">3.07</span>  <span class="mf">3.780</span>  <span class="mf">18.00</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">3</span>
+ <span class="mi">14</span>   <span class="n">Cadillac</span> <span class="n">Fleetwood</span>  <span class="mf">10.4</span>    <span class="mi">8</span>  <span class="mf">472.0</span>  <span class="mi">205</span>  <span class="mf">2.93</span>  <span class="mf">5.250</span>  <span class="mf">17.98</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">4</span>
+ <span class="mi">15</span>  <span class="n">Lincoln</span> <span class="n">Continental</span>  <span class="mf">10.4</span>    <span class="mi">8</span>  <span class="mf">460.0</span>  <span class="mi">215</span>  <span class="mf">3.00</span>  <span class="mf">5.424</span>  <span class="mf">17.82</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">4</span>
+ <span class="mi">16</span>    <span class="n">Chrysler</span> <span class="n">Imperial</span>  <span class="mf">14.7</span>    <span class="mi">8</span>  <span class="mf">440.0</span>  <span class="mi">230</span>  <span class="mf">3.23</span>  <span class="mf">5.345</span>  <span class="mf">17.42</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">4</span>
+ <span class="mi">17</span>             <span class="n">Fiat</span> <span class="mi">128</span>  <span class="mf">32.4</span>    <span class="mi">4</span>   <span class="mf">78.7</span>   <span class="mi">66</span>  <span class="mf">4.08</span>  <span class="mf">2.200</span>  <span class="mf">19.47</span>   <span class="mi">1</span>   <span class="mi">1</span>     <span class="mi">4</span>     <span class="mi">1</span>
+ <span class="mi">18</span>          <span class="n">Honda</span> <span class="n">Civic</span>  <span class="mf">30.4</span>    <span class="mi">4</span>   <span class="mf">75.7</span>   <span class="mi">52</span>  <span class="mf">4.93</span>  <span class="mf">1.615</span>  <span class="mf">18.52</span>   <span class="mi">1</span>   <span class="mi">1</span>     <span class="mi">4</span>     <span class="mi">2</span>
+ <span class="mi">19</span>       <span class="n">Toyota</span> <span class="n">Corolla</span>  <span class="mf">33.9</span>    <span class="mi">4</span>   <span class="mf">71.1</span>   <span class="mi">65</span>  <span class="mf">4.22</span>  <span class="mf">1.835</span>  <span class="mf">19.90</span>   <span class="mi">1</span>   <span class="mi">1</span>     <span class="mi">4</span>     <span class="mi">1</span>
+ <span class="mi">20</span>        <span class="n">Toyota</span> <span class="n">Corona</span>  <span class="mf">21.5</span>    <span class="mi">4</span>  <span class="mf">120.1</span>   <span class="mi">97</span>  <span class="mf">3.70</span>  <span class="mf">2.465</span>  <span class="mf">20.01</span>   <span class="mi">1</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">1</span>
+ <span class="mi">21</span>     <span class="n">Dodge</span> <span class="n">Challenger</span>  <span class="mf">15.5</span>    <span class="mi">8</span>  <span class="mf">318.0</span>  <span class="mi">150</span>  <span class="mf">2.76</span>  <span class="mf">3.520</span>  <span class="mf">16.87</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">2</span>
+ <span class="mi">22</span>          <span class="n">AMC</span> <span class="n">Javelin</span>  <span class="mf">15.2</span>    <span class="mi">8</span>  <span class="mf">304.0</span>  <span class="mi">150</span>  <span class="mf">3.15</span>  <span class="mf">3.435</span>  <span class="mf">17.30</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">2</span>
+ <span class="mi">23</span>           <span class="n">Camaro</span> <span class="n">Z28</span>  <span class="mf">13.3</span>    <span class="mi">8</span>  <span class="mf">350.0</span>  <span class="mi">245</span>  <span class="mf">3.73</span>  <span class="mf">3.840</span>  <span class="mf">15.41</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">4</span>
+ <span class="mi">24</span>     <span class="n">Pontiac</span> <span class="n">Firebird</span>  <span class="mf">19.2</span>    <span class="mi">8</span>  <span class="mf">400.0</span>  <span class="mi">175</span>  <span class="mf">3.08</span>  <span class="mf">3.845</span>  <span class="mf">17.05</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">2</span>
+ <span class="mi">25</span>            <span class="n">Fiat</span> <span class="n">X1</span><span class="o">-</span><span class="mi">9</span>  <span class="mf">27.3</span>    <span class="mi">4</span>   <span class="mf">79.0</span>   <span class="mi">66</span>  <span class="mf">4.08</span>  <span class="mf">1.935</span>  <span class="mf">18.90</span>   <span class="mi">1</span>   <span class="mi">1</span>     <span class="mi">4</span>     <span class="mi">1</span>
+ <span class="mi">26</span>        <span class="n">Porsche</span> <span class="mi">914</span><span class="o">-</span><span class="mi">2</span>  <span class="mf">26.0</span>    <span class="mi">4</span>  <span class="mf">120.3</span>   <span class="mi">91</span>  <span class="mf">4.43</span>  <span class="mf">2.140</span>  <span class="mf">16.70</span>   <span class="mi">0</span>   <span class="mi">1</span>     <span class="mi">5</span>     <span class="mi">2</span>
+ <span class="mi">27</span>         <span class="n">Lotus</span> <span class="n">Europa</span>  <span class="mf">30.4</span>    <span class="mi">4</span>   <span class="mf">95.1</span>  <span class="mi">113</span>  <span class="mf">3.77</span>  <span class="mf">1.513</span>  <span class="mf">16.90</span>   <span class="mi">1</span>   <span class="mi">1</span>     <span class="mi">5</span>     <span class="mi">2</span>
+ <span class="mi">28</span>       <span class="n">Ford</span> <span class="n">Pantera</span> <span class="n">L</span>  <span class="mf">15.8</span>    <span class="mi">8</span>  <span class="mf">351.0</span>  <span class="mi">264</span>  <span class="mf">4.22</span>  <span class="mf">3.170</span>  <span class="mf">14.50</span>   <span class="mi">0</span>   <span class="mi">1</span>     <span class="mi">5</span>     <span class="mi">4</span>
+ <span class="mi">29</span>         <span class="n">Ferrari</span> <span class="n">Dino</span>  <span class="mf">19.7</span>    <span class="mi">6</span>  <span class="mf">145.0</span>  <span class="mi">175</span>  <span class="mf">3.62</span>  <span class="mf">2.770</span>  <span class="mf">15.50</span>   <span class="mi">0</span>   <span class="mi">1</span>     <span class="mi">5</span>     <span class="mi">6</span>
+ <span class="mi">30</span>        <span class="n">Maserati</span> <span class="n">Bora</span>  <span class="mf">15.0</span>    <span class="mi">8</span>  <span class="mf">301.0</span>  <span class="mi">335</span>  <span class="mf">3.54</span>  <span class="mf">3.570</span>  <span class="mf">14.60</span>   <span class="mi">0</span>   <span class="mi">1</span>     <span class="mi">5</span>     <span class="mi">8</span>
+ <span class="mi">31</span>           <span class="n">Volvo</span> <span class="mi">142</span><span class="n">E</span>  <span class="mf">21.4</span>    <span class="mi">4</span>  <span class="mf">121.0</span>  <span class="mi">109</span>  <span class="mf">4.11</span>  <span class="mf">2.780</span>  <span class="mf">18.60</span>   <span class="mi">1</span>   <span class="mi">1</span>     <span class="mi">4</span>     <span class="mi">2</span><span class="p">,</span>
+ <span class="s1">'2021-07-05T15.30.26.555Z/int_cars.parquet'</span><span class="p">:</span>              <span class="n">Unnamed</span><span class="p">:</span> <span class="mi">0</span>   <span class="n">mpg</span>  <span class="n">cyl</span>   <span class="n">disp</span>   <span class="n">hp</span>  <span class="n">drat</span>     <span class="n">wt</span>   <span class="n">qsec</span>  <span class="n">vs</span>  <span class="n">am</span>  <span class="n">gear</span>  <span class="n">carb</span>
+ <span class="mi">0</span>             <span class="n">Mazda</span> <span class="n">RX4</span>  <span class="mf">21.0</span>    <span class="mi">6</span>  <span class="mf">160.0</span>  <span class="mi">110</span>  <span class="mf">3.90</span>  <span class="mf">2.620</span>  <span class="mf">16.46</span>   <span class="mi">0</span>   <span class="mi">1</span>     <span class="mi">4</span>     <span class="mi">4</span>
+ <span class="mi">1</span>         <span class="n">Mazda</span> <span class="n">RX4</span> <span class="n">Wag</span>  <span class="mf">21.0</span>    <span class="mi">6</span>  <span class="mf">160.0</span>  <span class="mi">110</span>  <span class="mf">3.90</span>  <span class="mf">2.875</span>  <span class="mf">17.02</span>   <span class="mi">0</span>   <span class="mi">1</span>     <span class="mi">4</span>     <span class="mi">4</span>
+ <span class="mi">2</span>            <span class="n">Datsun</span> <span class="mi">710</span>  <span class="mf">22.8</span>    <span class="mi">4</span>  <span class="mf">108.0</span>   <span class="mi">93</span>  <span class="mf">3.85</span>  <span class="mf">2.320</span>  <span class="mf">18.61</span>   <span class="mi">1</span>   <span class="mi">1</span>     <span class="mi">4</span>     <span class="mi">1</span>
+ <span class="mi">3</span>        <span class="n">Hornet</span> <span class="mi">4</span> <span class="n">Drive</span>  <span class="mf">21.4</span>    <span class="mi">6</span>  <span class="mf">258.0</span>  <span class="mi">110</span>  <span class="mf">3.08</span>  <span class="mf">3.215</span>  <span class="mf">19.44</span>   <span class="mi">1</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">1</span>
+ <span class="mi">4</span>     <span class="n">Hornet</span> <span class="n">Sportabout</span>  <span class="mf">18.7</span>    <span class="mi">8</span>  <span class="mf">360.0</span>  <span class="mi">175</span>  <span class="mf">3.15</span>  <span class="mf">3.440</span>  <span class="mf">17.02</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">2</span>
+ <span class="mi">5</span>               <span class="n">Valiant</span>  <span class="mf">18.1</span>    <span class="mi">6</span>  <span class="mf">225.0</span>  <span class="mi">105</span>  <span class="mf">2.76</span>  <span class="mf">3.460</span>  <span class="mf">20.22</span>   <span class="mi">1</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">1</span>
+ <span class="mi">6</span>            <span class="n">Duster</span> <span class="mi">360</span>  <span class="mf">14.3</span>    <span class="mi">8</span>  <span class="mf">360.0</span>  <span class="mi">245</span>  <span class="mf">3.21</span>  <span class="mf">3.570</span>  <span class="mf">15.84</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">4</span>
+ <span class="mi">7</span>             <span class="n">Merc</span> <span class="mi">240</span><span class="n">D</span>  <span class="mf">24.4</span>    <span class="mi">4</span>  <span class="mf">146.7</span>   <span class="mi">62</span>  <span class="mf">3.69</span>  <span class="mf">3.190</span>  <span class="mf">20.00</span>   <span class="mi">1</span>   <span class="mi">0</span>     <span class="mi">4</span>     <span class="mi">2</span>
+ <span class="mi">8</span>              <span class="n">Merc</span> <span class="mi">230</span>  <span class="mf">22.8</span>    <span class="mi">4</span>  <span class="mf">140.8</span>   <span class="mi">95</span>  <span class="mf">3.92</span>  <span class="mf">3.150</span>  <span class="mf">22.90</span>   <span class="mi">1</span>   <span class="mi">0</span>     <span class="mi">4</span>     <span class="mi">2</span>
+ <span class="mi">9</span>              <span class="n">Merc</span> <span class="mi">280</span>  <span class="mf">19.2</span>    <span class="mi">6</span>  <span class="mf">167.6</span>  <span class="mi">123</span>  <span class="mf">3.92</span>  <span class="mf">3.440</span>  <span class="mf">18.30</span>   <span class="mi">1</span>   <span class="mi">0</span>     <span class="mi">4</span>     <span class="mi">4</span>
+ <span class="mi">10</span>            <span class="n">Merc</span> <span class="mi">280</span><span class="n">C</span>  <span class="mf">17.8</span>    <span class="mi">6</span>  <span class="mf">167.6</span>  <span class="mi">123</span>  <span class="mf">3.92</span>  <span class="mf">3.440</span>  <span class="mf">18.90</span>   <span class="mi">1</span>   <span class="mi">0</span>     <span class="mi">4</span>     <span class="mi">4</span>
+ <span class="mi">11</span>           <span class="n">Merc</span> <span class="mi">450</span><span class="n">SE</span>  <span class="mf">16.4</span>    <span class="mi">8</span>  <span class="mf">275.8</span>  <span class="mi">180</span>  <span class="mf">3.07</span>  <span class="mf">4.070</span>  <span class="mf">17.40</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">3</span>
+ <span class="mi">12</span>           <span class="n">Merc</span> <span class="mi">450</span><span class="n">SL</span>  <span class="mf">17.3</span>    <span class="mi">8</span>  <span class="mf">275.8</span>  <span class="mi">180</span>  <span class="mf">3.07</span>  <span class="mf">3.730</span>  <span class="mf">17.60</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">3</span>
+ <span class="mi">13</span>          <span class="n">Merc</span> <span class="mi">450</span><span class="n">SLC</span>  <span class="mf">15.2</span>    <span class="mi">8</span>  <span class="mf">275.8</span>  <span class="mi">180</span>  <span class="mf">3.07</span>  <span class="mf">3.780</span>  <span class="mf">18.00</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">3</span>
+ <span class="mi">14</span>   <span class="n">Cadillac</span> <span class="n">Fleetwood</span>  <span class="mf">10.4</span>    <span class="mi">8</span>  <span class="mf">472.0</span>  <span class="mi">205</span>  <span class="mf">2.93</span>  <span class="mf">5.250</span>  <span class="mf">17.98</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">4</span>
+ <span class="mi">15</span>  <span class="n">Lincoln</span> <span class="n">Continental</span>  <span class="mf">10.4</span>    <span class="mi">8</span>  <span class="mf">460.0</span>  <span class="mi">215</span>  <span class="mf">3.00</span>  <span class="mf">5.424</span>  <span class="mf">17.82</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">4</span>
+ <span class="mi">16</span>    <span class="n">Chrysler</span> <span class="n">Imperial</span>  <span class="mf">14.7</span>    <span class="mi">8</span>  <span class="mf">440.0</span>  <span class="mi">230</span>  <span class="mf">3.23</span>  <span class="mf">5.345</span>  <span class="mf">17.42</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">4</span>
+ <span class="mi">17</span>             <span class="n">Fiat</span> <span class="mi">128</span>  <span class="mf">32.4</span>    <span class="mi">4</span>   <span class="mf">78.7</span>   <span class="mi">66</span>  <span class="mf">4.08</span>  <span class="mf">2.200</span>  <span class="mf">19.47</span>   <span class="mi">1</span>   <span class="mi">1</span>     <span class="mi">4</span>     <span class="mi">1</span>
+ <span class="mi">18</span>          <span class="n">Honda</span> <span class="n">Civic</span>  <span class="mf">30.4</span>    <span class="mi">4</span>   <span class="mf">75.7</span>   <span class="mi">52</span>  <span class="mf">4.93</span>  <span class="mf">1.615</span>  <span class="mf">18.52</span>   <span class="mi">1</span>   <span class="mi">1</span>     <span class="mi">4</span>     <span class="mi">2</span>
+ <span class="mi">19</span>       <span class="n">Toyota</span> <span class="n">Corolla</span>  <span class="mf">33.9</span>    <span class="mi">4</span>   <span class="mf">71.1</span>   <span class="mi">65</span>  <span class="mf">4.22</span>  <span class="mf">1.835</span>  <span class="mf">19.90</span>   <span class="mi">1</span>   <span class="mi">1</span>     <span class="mi">4</span>     <span class="mi">1</span>
+ <span class="mi">20</span>        <span class="n">Toyota</span> <span class="n">Corona</span>  <span class="mf">21.5</span>    <span class="mi">4</span>  <span class="mf">120.1</span>   <span class="mi">97</span>  <span class="mf">3.70</span>  <span class="mf">2.465</span>  <span class="mf">20.01</span>   <span class="mi">1</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">1</span>
+ <span class="mi">21</span>     <span class="n">Dodge</span> <span class="n">Challenger</span>  <span class="mf">15.5</span>    <span class="mi">8</span>  <span class="mf">318.0</span>  <span class="mi">150</span>  <span class="mf">2.76</span>  <span class="mf">3.520</span>  <span class="mf">16.87</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">2</span>
+ <span class="mi">22</span>          <span class="n">AMC</span> <span class="n">Javelin</span>  <span class="mf">15.2</span>    <span class="mi">8</span>  <span class="mf">304.0</span>  <span class="mi">150</span>  <span class="mf">3.15</span>  <span class="mf">3.435</span>  <span class="mf">17.30</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">2</span>
+ <span class="mi">23</span>           <span class="n">Camaro</span> <span class="n">Z28</span>  <span class="mf">13.3</span>    <span class="mi">8</span>  <span class="mf">350.0</span>  <span class="mi">245</span>  <span class="mf">3.73</span>  <span class="mf">3.840</span>  <span class="mf">15.41</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">4</span>
+ <span class="mi">24</span>     <span class="n">Pontiac</span> <span class="n">Firebird</span>  <span class="mf">19.2</span>    <span class="mi">8</span>  <span class="mf">400.0</span>  <span class="mi">175</span>  <span class="mf">3.08</span>  <span class="mf">3.845</span>  <span class="mf">17.05</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">2</span>
+ <span class="mi">25</span>            <span class="n">Fiat</span> <span class="n">X1</span><span class="o">-</span><span class="mi">9</span>  <span class="mf">27.3</span>    <span class="mi">4</span>   <span class="mf">79.0</span>   <span class="mi">66</span>  <span class="mf">4.08</span>  <span class="mf">1.935</span>  <span class="mf">18.90</span>   <span class="mi">1</span>   <span class="mi">1</span>     <span class="mi">4</span>     <span class="mi">1</span>
+ <span class="mi">26</span>        <span class="n">Porsche</span> <span class="mi">914</span><span class="o">-</span><span class="mi">2</span>  <span class="mf">26.0</span>    <span class="mi">4</span>  <span class="mf">120.3</span>   <span class="mi">91</span>  <span class="mf">4.43</span>  <span class="mf">2.140</span>  <span class="mf">16.70</span>   <span class="mi">0</span>   <span class="mi">1</span>     <span class="mi">5</span>     <span class="mi">2</span>
+ <span class="mi">27</span>         <span class="n">Lotus</span> <span class="n">Europa</span>  <span class="mf">30.4</span>    <span class="mi">4</span>   <span class="mf">95.1</span>  <span class="mi">113</span>  <span class="mf">3.77</span>  <span class="mf">1.513</span>  <span class="mf">16.90</span>   <span class="mi">1</span>   <span class="mi">1</span>     <span class="mi">5</span>     <span class="mi">2</span>
+ <span class="mi">28</span>       <span class="n">Ford</span> <span class="n">Pantera</span> <span class="n">L</span>  <span class="mf">15.8</span>    <span class="mi">8</span>  <span class="mf">351.0</span>  <span class="mi">264</span>  <span class="mf">4.22</span>  <span class="mf">3.170</span>  <span class="mf">14.50</span>   <span class="mi">0</span>   <span class="mi">1</span>     <span class="mi">5</span>     <span class="mi">4</span>
+ <span class="mi">29</span>         <span class="n">Ferrari</span> <span class="n">Dino</span>  <span class="mf">19.7</span>    <span class="mi">6</span>  <span class="mf">145.0</span>  <span class="mi">175</span>  <span class="mf">3.62</span>  <span class="mf">2.770</span>  <span class="mf">15.50</span>   <span class="mi">0</span>   <span class="mi">1</span>     <span class="mi">5</span>     <span class="mi">6</span>
+ <span class="mi">30</span>        <span class="n">Maserati</span> <span class="n">Bora</span>  <span class="mf">15.0</span>    <span class="mi">8</span>  <span class="mf">301.0</span>  <span class="mi">335</span>  <span class="mf">3.54</span>  <span class="mf">3.570</span>  <span class="mf">14.60</span>   <span class="mi">0</span>   <span class="mi">1</span>     <span class="mi">5</span>     <span class="mi">8</span>
+ <span class="mi">31</span>           <span class="n">Volvo</span> <span class="mi">142</span><span class="n">E</span>  <span class="mf">21.4</span>    <span class="mi">4</span>  <span class="mf">121.0</span>  <span class="mi">109</span>  <span class="mf">4.11</span>  <span class="mf">2.780</span>  <span class="mf">18.60</span>   <span class="mi">1</span>   <span class="mi">1</span>     <span class="mi">4</span>     <span class="mi">2</span><span class="p">,</span>
+ <span class="s1">'2021-07-05T15.31.12.688Z/int_cars.parquet'</span><span class="p">:</span>              <span class="n">Unnamed</span><span class="p">:</span> <span class="mi">0</span>   <span class="n">mpg</span>  <span class="n">cyl</span>   <span class="n">disp</span>   <span class="n">hp</span>  <span class="n">drat</span>     <span class="n">wt</span>   <span class="n">qsec</span>  <span class="n">vs</span>  <span class="n">am</span>  <span class="n">gear</span>  <span class="n">carb</span>
+ <span class="mi">0</span>             <span class="n">Mazda</span> <span class="n">RX4</span>  <span class="mf">21.0</span>    <span class="mi">6</span>  <span class="mf">160.0</span>  <span class="mi">110</span>  <span class="mf">3.90</span>  <span class="mf">2.620</span>  <span class="mf">16.46</span>   <span class="mi">0</span>   <span class="mi">1</span>     <span class="mi">4</span>     <span class="mi">4</span>
+ <span class="mi">1</span>         <span class="n">Mazda</span> <span class="n">RX4</span> <span class="n">Wag</span>  <span class="mf">21.0</span>    <span class="mi">6</span>  <span class="mf">160.0</span>  <span class="mi">110</span>  <span class="mf">3.90</span>  <span class="mf">2.875</span>  <span class="mf">17.02</span>   <span class="mi">0</span>   <span class="mi">1</span>     <span class="mi">4</span>     <span class="mi">4</span>
+ <span class="mi">2</span>            <span class="n">Datsun</span> <span class="mi">710</span>  <span class="mf">22.8</span>    <span class="mi">4</span>  <span class="mf">108.0</span>   <span class="mi">93</span>  <span class="mf">3.85</span>  <span class="mf">2.320</span>  <span class="mf">18.61</span>   <span class="mi">1</span>   <span class="mi">1</span>     <span class="mi">4</span>     <span class="mi">1</span>
+ <span class="mi">3</span>        <span class="n">Hornet</span> <span class="mi">4</span> <span class="n">Drive</span>  <span class="mf">21.4</span>    <span class="mi">6</span>  <span class="mf">258.0</span>  <span class="mi">110</span>  <span class="mf">3.08</span>  <span class="mf">3.215</span>  <span class="mf">19.44</span>   <span class="mi">1</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">1</span>
+ <span class="mi">4</span>     <span class="n">Hornet</span> <span class="n">Sportabout</span>  <span class="mf">18.7</span>    <span class="mi">8</span>  <span class="mf">360.0</span>  <span class="mi">175</span>  <span class="mf">3.15</span>  <span class="mf">3.440</span>  <span class="mf">17.02</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">2</span>
+ <span class="mi">5</span>               <span class="n">Valiant</span>  <span class="mf">18.1</span>    <span class="mi">6</span>  <span class="mf">225.0</span>  <span class="mi">105</span>  <span class="mf">2.76</span>  <span class="mf">3.460</span>  <span class="mf">20.22</span>   <span class="mi">1</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">1</span>
+ <span class="mi">6</span>            <span class="n">Duster</span> <span class="mi">360</span>  <span class="mf">14.3</span>    <span class="mi">8</span>  <span class="mf">360.0</span>  <span class="mi">245</span>  <span class="mf">3.21</span>  <span class="mf">3.570</span>  <span class="mf">15.84</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">4</span>
+ <span class="mi">7</span>             <span class="n">Merc</span> <span class="mi">240</span><span class="n">D</span>  <span class="mf">24.4</span>    <span class="mi">4</span>  <span class="mf">146.7</span>   <span class="mi">62</span>  <span class="mf">3.69</span>  <span class="mf">3.190</span>  <span class="mf">20.00</span>   <span class="mi">1</span>   <span class="mi">0</span>     <span class="mi">4</span>     <span class="mi">2</span>
+ <span class="mi">8</span>              <span class="n">Merc</span> <span class="mi">230</span>  <span class="mf">22.8</span>    <span class="mi">4</span>  <span class="mf">140.8</span>   <span class="mi">95</span>  <span class="mf">3.92</span>  <span class="mf">3.150</span>  <span class="mf">22.90</span>   <span class="mi">1</span>   <span class="mi">0</span>     <span class="mi">4</span>     <span class="mi">2</span>
+ <span class="mi">9</span>              <span class="n">Merc</span> <span class="mi">280</span>  <span class="mf">19.2</span>    <span class="mi">6</span>  <span class="mf">167.6</span>  <span class="mi">123</span>  <span class="mf">3.92</span>  <span class="mf">3.440</span>  <span class="mf">18.30</span>   <span class="mi">1</span>   <span class="mi">0</span>     <span class="mi">4</span>     <span class="mi">4</span>
+ <span class="mi">10</span>            <span class="n">Merc</span> <span class="mi">280</span><span class="n">C</span>  <span class="mf">17.8</span>    <span class="mi">6</span>  <span class="mf">167.6</span>  <span class="mi">123</span>  <span class="mf">3.92</span>  <span class="mf">3.440</span>  <span class="mf">18.90</span>   <span class="mi">1</span>   <span class="mi">0</span>     <span class="mi">4</span>     <span class="mi">4</span>
+ <span class="mi">11</span>           <span class="n">Merc</span> <span class="mi">450</span><span class="n">SE</span>  <span class="mf">16.4</span>    <span class="mi">8</span>  <span class="mf">275.8</span>  <span class="mi">180</span>  <span class="mf">3.07</span>  <span class="mf">4.070</span>  <span class="mf">17.40</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">3</span>
+ <span class="mi">12</span>           <span class="n">Merc</span> <span class="mi">450</span><span class="n">SL</span>  <span class="mf">17.3</span>    <span class="mi">8</span>  <span class="mf">275.8</span>  <span class="mi">180</span>  <span class="mf">3.07</span>  <span class="mf">3.730</span>  <span class="mf">17.60</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">3</span>
+ <span class="mi">13</span>          <span class="n">Merc</span> <span class="mi">450</span><span class="n">SLC</span>  <span class="mf">15.2</span>    <span class="mi">8</span>  <span class="mf">275.8</span>  <span class="mi">180</span>  <span class="mf">3.07</span>  <span class="mf">3.780</span>  <span class="mf">18.00</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">3</span>
+ <span class="mi">14</span>   <span class="n">Cadillac</span> <span class="n">Fleetwood</span>  <span class="mf">10.4</span>    <span class="mi">8</span>  <span class="mf">472.0</span>  <span class="mi">205</span>  <span class="mf">2.93</span>  <span class="mf">5.250</span>  <span class="mf">17.98</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">4</span>
+ <span class="mi">15</span>  <span class="n">Lincoln</span> <span class="n">Continental</span>  <span class="mf">10.4</span>    <span class="mi">8</span>  <span class="mf">460.0</span>  <span class="mi">215</span>  <span class="mf">3.00</span>  <span class="mf">5.424</span>  <span class="mf">17.82</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">4</span>
+ <span class="mi">16</span>    <span class="n">Chrysler</span> <span class="n">Imperial</span>  <span class="mf">14.7</span>    <span class="mi">8</span>  <span class="mf">440.0</span>  <span class="mi">230</span>  <span class="mf">3.23</span>  <span class="mf">5.345</span>  <span class="mf">17.42</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">4</span>
+ <span class="mi">17</span>             <span class="n">Fiat</span> <span class="mi">128</span>  <span class="mf">32.4</span>    <span class="mi">4</span>   <span class="mf">78.7</span>   <span class="mi">66</span>  <span class="mf">4.08</span>  <span class="mf">2.200</span>  <span class="mf">19.47</span>   <span class="mi">1</span>   <span class="mi">1</span>     <span class="mi">4</span>     <span class="mi">1</span>
+ <span class="mi">18</span>          <span class="n">Honda</span> <span class="n">Civic</span>  <span class="mf">30.4</span>    <span class="mi">4</span>   <span class="mf">75.7</span>   <span class="mi">52</span>  <span class="mf">4.93</span>  <span class="mf">1.615</span>  <span class="mf">18.52</span>   <span class="mi">1</span>   <span class="mi">1</span>     <span class="mi">4</span>     <span class="mi">2</span>
+ <span class="mi">19</span>       <span class="n">Toyota</span> <span class="n">Corolla</span>  <span class="mf">33.9</span>    <span class="mi">4</span>   <span class="mf">71.1</span>   <span class="mi">65</span>  <span class="mf">4.22</span>  <span class="mf">1.835</span>  <span class="mf">19.90</span>   <span class="mi">1</span>   <span class="mi">1</span>     <span class="mi">4</span>     <span class="mi">1</span>
+ <span class="mi">20</span>        <span class="n">Toyota</span> <span class="n">Corona</span>  <span class="mf">21.5</span>    <span class="mi">4</span>  <span class="mf">120.1</span>   <span class="mi">97</span>  <span class="mf">3.70</span>  <span class="mf">2.465</span>  <span class="mf">20.01</span>   <span class="mi">1</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">1</span>
+ <span class="mi">21</span>     <span class="n">Dodge</span> <span class="n">Challenger</span>  <span class="mf">15.5</span>    <span class="mi">8</span>  <span class="mf">318.0</span>  <span class="mi">150</span>  <span class="mf">2.76</span>  <span class="mf">3.520</span>  <span class="mf">16.87</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">2</span>
+ <span class="mi">22</span>          <span class="n">AMC</span> <span class="n">Javelin</span>  <span class="mf">15.2</span>    <span class="mi">8</span>  <span class="mf">304.0</span>  <span class="mi">150</span>  <span class="mf">3.15</span>  <span class="mf">3.435</span>  <span class="mf">17.30</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">2</span>
+ <span class="mi">23</span>           <span class="n">Camaro</span> <span class="n">Z28</span>  <span class="mf">13.3</span>    <span class="mi">8</span>  <span class="mf">350.0</span>  <span class="mi">245</span>  <span class="mf">3.73</span>  <span class="mf">3.840</span>  <span class="mf">15.41</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">4</span>
+ <span class="mi">24</span>     <span class="n">Pontiac</span> <span class="n">Firebird</span>  <span class="mf">19.2</span>    <span class="mi">8</span>  <span class="mf">400.0</span>  <span class="mi">175</span>  <span class="mf">3.08</span>  <span class="mf">3.845</span>  <span class="mf">17.05</span>   <span class="mi">0</span>   <span class="mi">0</span>     <span class="mi">3</span>     <span class="mi">2</span>
+ <span class="mi">25</span>            <span class="n">Fiat</span> <span class="n">X1</span><span class="o">-</span><span class="mi">9</span>  <span class="mf">27.3</span>    <span class="mi">4</span>   <span class="mf">79.0</span>   <span class="mi">66</span>  <span class="mf">4.08</span>  <span class="mf">1.935</span>  <span class="mf">18.90</span>   <span class="mi">1</span>   <span class="mi">1</span>     <span class="mi">4</span>     <span class="mi">1</span>
+ <span class="mi">26</span>        <span class="n">Porsche</span> <span class="mi">914</span><span class="o">-</span><span class="mi">2</span>  <span class="mf">26.0</span>    <span class="mi">4</span>  <span class="mf">120.3</span>   <span class="mi">91</span>  <span class="mf">4.43</span>  <span class="mf">2.140</span>  <span class="mf">16.70</span>   <span class="mi">0</span>   <span class="mi">1</span>     <span class="mi">5</span>     <span class="mi">2</span>
+ <span class="mi">27</span>         <span class="n">Lotus</span> <span class="n">Europa</span>  <span class="mf">30.4</span>    <span class="mi">4</span>   <span class="mf">95.1</span>  <span class="mi">113</span>  <span class="mf">3.77</span>  <span class="mf">1.513</span>  <span class="mf">16.90</span>   <span class="mi">1</span>   <span class="mi">1</span>     <span class="mi">5</span>     <span class="mi">2</span>
+ <span class="mi">28</span>       <span class="n">Ford</span> <span class="n">Pantera</span> <span class="n">L</span>  <span class="mf">15.8</span>    <span class="mi">8</span>  <span class="mf">351.0</span>  <span class="mi">264</span>  <span class="mf">4.22</span>  <span class="mf">3.170</span>  <span class="mf">14.50</span>   <span class="mi">0</span>   <span class="mi">1</span>     <span class="mi">5</span>     <span class="mi">4</span>
+ <span class="mi">29</span>         <span class="n">Ferrari</span> <span class="n">Dino</span>  <span class="mf">19.7</span>    <span class="mi">6</span>  <span class="mf">145.0</span>  <span class="mi">175</span>  <span class="mf">3.62</span>  <span class="mf">2.770</span>  <span class="mf">15.50</span>   <span class="mi">0</span>   <span class="mi">1</span>     <span class="mi">5</span>     <span class="mi">6</span>
+ <span class="mi">30</span>        <span class="n">Maserati</span> <span class="n">Bora</span>  <span class="mf">15.0</span>    <span class="mi">8</span>  <span class="mf">301.0</span>  <span class="mi">335</span>  <span class="mf">3.54</span>  <span class="mf">3.570</span>  <span class="mf">14.60</span>   <span class="mi">0</span>   <span class="mi">1</span>     <span class="mi">5</span>     <span class="mi">8</span>
+ <span class="mi">31</span>           <span class="n">Volvo</span> <span class="mi">142</span><span class="n">E</span>  <span class="mf">21.4</span>    <span class="mi">4</span>  <span class="mf">121.0</span>  <span class="mi">109</span>  <span class="mf">4.11</span>  <span class="mf">2.780</span>  <span class="mf">18.60</span>   <span class="mi">1</span>   <span class="mi">1</span>     <span class="mi">4</span>     <span class="mi">2</span><span class="p">}</span>
+</pre></div>
+
+</pre>
+<blockquote>
+<p>👆 notice that incremental datasets are all loaded for you, its a dict of <code>filepath:dataset</code></p>
+</blockquote>
+<h2 id="stack-on-a-partitioned-dataset">stack on a partitioned dataset <a aria-label="Permalink to Heading stack on a partitioned dataset " class="header-anchor" href="#stack-on-a-partitioned-dataset" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>Let's take a look at a similar type of dataset called <code>PartitionedDataSet</code>.  We
+can add it to the catalog in a very similar way to how we added the
+<code>IncrementalDataSet</code>.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="nt">int_cars_incremental</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">IncrementalDataSet</span>
+<span class="w">  </span><span class="nt">dataset</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">pandas.ParquetDataSet</span>
+<span class="w">  </span><span class="nt">path</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">data/int_cars.parquet</span>
+</pre></div>
+
+</pre>
+<h2 id="loading-a-partitioned-dataset">loading a partitioned dataset <a aria-label="Permalink to Heading loading a partitioned dataset " class="header-anchor" href="#loading-a-partitioned-dataset" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>Note that we get a dict with the same keys as before, but this time the
+values are a load function rather than loaded data.  Partitioned datasets can be helpful if
+you are operating on datasets that take up more memory than you have available.
+In our case of coupling this with versioned datasets, its likely to grow quite
+large, so <code>PartitionedDataSet</code> 's are likely a better option for this use.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="n">In</span> <span class="p">[</span><span class="mi">18</span><span class="p">]:</span> <span class="n">context</span><span class="o">.</span><span class="n">catalog</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s1">'int_cars_partitioned'</span><span class="p">)</span>
+<span class="mi">2021</span><span class="o">-</span><span class="mi">07</span><span class="o">-</span><span class="mi">05</span> <span class="mi">11</span><span class="p">:</span><span class="mi">31</span><span class="p">:</span><span class="mi">11</span><span class="p">,</span><span class="mi">253</span> <span class="o">-</span> <span class="n">kedro</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">data_catalog</span> <span class="o">-</span> <span class="n">INFO</span> <span class="o">-</span> <span class="n">Loading</span> <span class="n">data</span> <span class="kn">from</span> <span class="err">`</span><span class="n">int_cars_partitioned</span><span class="err">`</span> <span class="p">(</span><span class="n">PartitionedDataSet</span><span class="p">)</span><span class="o">...</span>
+<span class="n">Out</span><span class="p">[</span><span class="mi">18</span><span class="p">]:</span>
+<span class="p">{</span><span class="s1">'2021-07-05T15.29.56.144Z/int_cars.parquet'</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">bound</span> <span class="n">method</span> <span class="n">AbstractVersionedDataSet</span><span class="o">.</span><span class="n">load</span> <span class="n">of</span> <span class="o">&lt;</span><span class="n">kedro</span><span class="o">.</span><span class="n">extras</span><span class="o">.</span><span class="n">datasets</span><span class="o">.</span><span class="n">pandas</span><span class="o">.</span><span class="n">parquet_dataset</span><span class="o">.</span><span class="n">ParquetDataSet</span> <span class="nb">object</span> <span class="n">at</span> <span class="mh">0x7f4bb1570820</span><span class="o">&gt;&gt;</span><span class="p">,</span>
+ <span class="s1">'2021-07-05T15.30.23.101Z/int_cars.parquet'</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">bound</span> <span class="n">method</span> <span class="n">AbstractVersionedDataSet</span><span class="o">.</span><span class="n">load</span> <span class="n">of</span> <span class="o">&lt;</span><span class="n">kedro</span><span class="o">.</span><span class="n">extras</span><span class="o">.</span><span class="n">datasets</span><span class="o">.</span><span class="n">pandas</span><span class="o">.</span><span class="n">parquet_dataset</span><span class="o">.</span><span class="n">ParquetDataSet</span> <span class="nb">object</span> <span class="n">at</span> <span class="mh">0x7f4bb1570850</span><span class="o">&gt;&gt;</span><span class="p">,</span>
+ <span class="s1">'2021-07-05T15.30.26.555Z/int_cars.parquet'</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">bound</span> <span class="n">method</span> <span class="n">AbstractVersionedDataSet</span><span class="o">.</span><span class="n">load</span> <span class="n">of</span> <span class="o">&lt;</span><span class="n">kedro</span><span class="o">.</span><span class="n">extras</span><span class="o">.</span><span class="n">datasets</span><span class="o">.</span><span class="n">pandas</span><span class="o">.</span><span class="n">parquet_dataset</span><span class="o">.</span><span class="n">ParquetDataSet</span> <span class="nb">object</span> <span class="n">at</span> <span class="mh">0x7f4bb1570910</span><span class="o">&gt;&gt;</span><span class="p">,</span>
+ <span class="s1">'2021-07-05T15.31.12.688Z/int_cars.parquet'</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">bound</span> <span class="n">method</span> <span class="n">AbstractVersionedDataSet</span><span class="o">.</span><span class="n">load</span> <span class="n">of</span> <span class="o">&lt;</span><span class="n">kedro</span><span class="o">.</span><span class="n">extras</span><span class="o">.</span><span class="n">datasets</span><span class="o">.</span><span class="n">pandas</span><span class="o">.</span><span class="n">parquet_dataset</span><span class="o">.</span><span class="n">ParquetDataSet</span> <span class="nb">object</span> <span class="n">at</span> <span class="mh">0x7f4bb15709a0</span><span class="o">&gt;&gt;</span><span class="p">}</span>
+</pre></div>
+
+</pre>
+<h2 id="incremental-vs-partitioned">incremental vs. partitioned <a aria-label="Permalink to Heading incremental vs. partitioned " class="header-anchor" href="#incremental-vs-partitioned" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p><code>IncrementalDataSet</code> 's and <code>PartitionedDataSet</code> 's are very similar as they give
+you access to a whole directory of data that uses the same underlying dataset
+loader.  The significant difference is whether you want your data pre-loaded or if
+you want to load and dispose of it as you iterate over it.</p>
+<ul>
+<li>incremental loads the data</li>
+<li>partitioned give a load function</li>
+</ul>
+<h2 id="creating-nodes-with-partitioned-datasets">creating nodes with partitioned datasets <a aria-label="Permalink to Heading creating nodes with partitioned datasets " class="header-anchor" href="#creating-nodes-with-partitioned-datasets" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>Let's create a node with this <code>PartitionedDataSet</code> to collect stats on our
+dataset over time.  This node does a dict comprehension to get the length of
+each version that we pulled.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">timeseries_partitioned</span><span class="p">(</span><span class="n">cars</span><span class="p">:</span> <span class="n">Dict</span><span class="p">):</span>
+    <span class="k">return</span> <span class="p">{</span><span class="n">k</span><span class="p">:</span><span class="nb">len</span><span class="p">(</span><span class="n">car</span><span class="p">())</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">car</span> <span class="ow">in</span> <span class="n">cars</span><span class="o">.</span><span class="n">items</span><span class="p">()}</span>
+
+<span class="n">nodes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span>
+        <span class="n">node</span><span class="p">(</span>
+            <span class="n">func</span><span class="o">=</span><span class="n">timeseries_partitioned</span><span class="p">,</span>
+            <span class="n">inputs</span><span class="o">=</span><span class="s1">'int_cars_partitioned'</span><span class="p">,</span>
+            <span class="n">outputs</span><span class="o">=</span><span class="s1">'int_cars_timeseries_partitioned'</span><span class="p">,</span>
+            <span class="n">name</span><span class="o">=</span><span class="s1">'create_int_cars_timeseries_partitioned'</span><span class="p">,</span>
+            <span class="p">)</span>
+        <span class="p">)</span>
+</pre></div>
+
+</pre>
+<blockquote>
+<p>🗒️ note that inside of the dict comprehension car is a load function that we need to call.</p>
+</blockquote>
+<h2 id="creating-nodes-with-incremental-datasets">creating nodes with incremental datasets <a aria-label="Permalink to Heading creating nodes with incremental datasets " class="header-anchor" href="#creating-nodes-with-incremental-datasets" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>Doing the same node with our <code>IncrementalDataSet</code> looks very similar, except
+this time car is loaded data inside of the dict comprehension, not a function
+that we need to call.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">timeseries_incremental</span><span class="p">(</span><span class="n">cars</span><span class="p">:</span> <span class="n">Dict</span><span class="p">):</span>
+    <span class="k">return</span> <span class="p">{</span><span class="n">k</span><span class="p">:</span><span class="nb">len</span><span class="p">(</span><span class="n">car</span><span class="p">)</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">car</span> <span class="ow">in</span> <span class="n">cars</span><span class="o">.</span><span class="n">items</span><span class="p">()}</span>
+
+<span class="n">nodes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span>
+        <span class="n">node</span><span class="p">(</span>
+            <span class="n">func</span><span class="o">=</span><span class="n">timeseries_incremental</span><span class="p">,</span>
+            <span class="n">inputs</span><span class="o">=</span><span class="s1">'int_cars_incremental'</span><span class="p">,</span>
+            <span class="n">outputs</span><span class="o">=</span><span class="s1">'int_cars_timeseries_incremental'</span><span class="p">,</span>
+            <span class="n">name</span><span class="o">=</span><span class="s1">'create_int_cars_timeseries_incremental'</span><span class="p">,</span>
+            <span class="p">)</span>
+        <span class="p">)</span>
+</pre></div>
+
+</pre>
+<h2 id="more-catalog-entries">More catalog entries <a aria-label="Permalink to Heading More catalog entries " class="header-anchor" href="#more-catalog-entries" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>After adding those nodes, we can add the catalog entries again with the command
+line.  This will not overwrite any of the datasets we just created. It will only
+add to it.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span>kedro<span class="w"> </span>catalog<span class="w"> </span>create<span class="w"> </span>--pipeline<span class="w"> </span>cars_nodes
+</pre></div>
+
+</pre>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="nt">int_cars_timeseries_partitioned</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">MemoryDataSet</span>
+<span class="nt">int_cars_timeseries_incremental</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">MemoryDataSet</span>
+</pre></div>
+
+</pre>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="nt">int_cars_timeseries_partitioned</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">pickle.PickleDataSet</span>
+<span class="w">  </span><span class="nt">filepath</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">data/int_cars_timeseries_partitioned.parquet</span>
+<span class="nt">int_cars_timeseries_incremental</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">pickle.PickleDataSet</span>
+<span class="w">  </span><span class="nt">filepath</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">data/int_cars_timeseries_incremental.parquet</span>
+</pre></div>
+
+</pre>
+<h2 id="loading-the-new-datasets">Loading the new datasets <a aria-label="Permalink to Heading Loading the new datasets " class="header-anchor" href="#loading-the-new-datasets" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>Loading the two dtasets that we just created show that we have the ended up
+with the same result using both incremental and partitioned datasets.  This
+result is a dictionary of filepaths mapped to the size of the dataset.  Since
+the default filepaths are timestamps we could start doing some time series
+analysis to see how our dataset is changing over time.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="n">In</span> <span class="p">[</span><span class="mi">32</span><span class="p">]:</span> <span class="n">context</span><span class="o">.</span><span class="n">catalog</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s1">'int_cars_timeseries_incremental'</span><span class="p">)</span>
+<span class="mi">2021</span><span class="o">-</span><span class="mi">07</span><span class="o">-</span><span class="mi">05</span> <span class="mi">12</span><span class="p">:</span><span class="mi">00</span><span class="p">:</span><span class="mi">55</span><span class="p">,</span><span class="mi">014</span> <span class="o">-</span> <span class="n">kedro</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">data_catalog</span> <span class="o">-</span> <span class="n">INFO</span> <span class="o">-</span> <span class="n">Loading</span> <span class="n">data</span> <span class="kn">from</span> <span class="err">`</span><span class="n">int_cars_timeseries_incremental</span><span class="err">`</span> <span class="p">(</span><span class="n">PickleDataSet</span><span class="p">)</span><span class="o">...</span>
+<span class="n">Out</span><span class="p">[</span><span class="mi">32</span><span class="p">]:</span>
+<span class="p">{</span><span class="s1">'2021-07-05T15.29.56.144Z/int_cars.parquet'</span><span class="p">:</span> <span class="mi">32</span><span class="p">,</span>
+ <span class="s1">'2021-07-05T15.30.23.101Z/int_cars.parquet'</span><span class="p">:</span> <span class="mi">32</span><span class="p">,</span>
+ <span class="s1">'2021-07-05T15.30.26.555Z/int_cars.parquet'</span><span class="p">:</span> <span class="mi">32</span><span class="p">,</span>
+ <span class="s1">'2021-07-05T15.31.12.688Z/int_cars.parquet'</span><span class="p">:</span> <span class="mi">32</span><span class="p">,</span>
+ <span class="s1">'2021-07-05T16.43.43.088Z/int_cars.parquet'</span><span class="p">:</span> <span class="mi">32</span><span class="p">}</span>
+
+<span class="n">In</span> <span class="p">[</span><span class="mi">33</span><span class="p">]:</span> <span class="n">context</span><span class="o">.</span><span class="n">catalog</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s1">'int_cars_timeseries_partitioned'</span><span class="p">)</span>
+<span class="mi">2021</span><span class="o">-</span><span class="mi">07</span><span class="o">-</span><span class="mi">05</span> <span class="mi">12</span><span class="p">:</span><span class="mi">01</span><span class="p">:</span><span class="mi">03</span><span class="p">,</span><span class="mi">223</span> <span class="o">-</span> <span class="n">kedro</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">data_catalog</span> <span class="o">-</span> <span class="n">INFO</span> <span class="o">-</span> <span class="n">Loading</span> <span class="n">data</span> <span class="kn">from</span> <span class="err">`</span><span class="n">int_cars_timeseries_partitioned</span><span class="err">`</span> <span class="p">(</span><span class="n">PickleDataSet</span><span class="p">)</span><span class="o">...</span>
+<span class="n">Out</span><span class="p">[</span><span class="mi">33</span><span class="p">]:</span>
+<span class="p">{</span><span class="s1">'2021-07-05T15.29.56.144Z/int_cars.parquet'</span><span class="p">:</span> <span class="mi">32</span><span class="p">,</span>
+ <span class="s1">'2021-07-05T15.30.23.101Z/int_cars.parquet'</span><span class="p">:</span> <span class="mi">32</span><span class="p">,</span>
+ <span class="s1">'2021-07-05T15.30.26.555Z/int_cars.parquet'</span><span class="p">:</span> <span class="mi">32</span><span class="p">,</span>
+ <span class="s1">'2021-07-05T15.31.12.688Z/int_cars.parquet'</span><span class="p">:</span> <span class="mi">32</span><span class="p">,</span>
+ <span class="s1">'2021-07-05T16.43.43.088Z/int_cars.parquet'</span><span class="p">:</span> <span class="mi">32</span><span class="p">,</span>
+ <span class="s1">'2021-07-05T16.50.46.686Z/int_cars.parquet'</span><span class="p">:</span> <span class="mi">32</span><span class="p">}</span>
+</pre></div>
+
+</pre>
+<p class="hover:z-20">
+<span class="z-10 group group-hover:z-20 relative inline-block">
+<a class="wikilink text-pink-500 hover:underline" href="https://waylonwalker.com//kedro-pickle" hx-boost="true" title="kedro-pickle"> kedro-pickle</a>
+<button aria-label="Preview" class="ml-2 text-pink-500 hover:underline focus:outline-none">
+<svg class="h-5 w-5 inline align-middle" fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="m2.25 15.75 5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5 1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5Zm10.5-11.25h.008v.008h-.008V8.25Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</button>
+<a class="hidden absolute top-6 left-0 z-20 group-hover:block" href="https://waylonwalker.com//kedro-pickle">
+<img alt="a screenshot of https://waylonwalker.com//kedro-pickle" class="rounded-xl transition-height ease-in duration-75 h-0 opacity-0 group-hover:opacity-100 group-hover:h-[800px] max-w-none" height="800" src="https://shots.wayl.one/shot/?url=https://waylonwalker.com//kedro-pickle&amp;height=1600&amp;width=1200&amp;scaled_width=600&amp;scaled_height=800&amp;selectors=" style=" box-shadow: rgba(0, 0, 0, 0.6) 0 0 500rem 500rem; " width="600"/>
+</a>
+</span>
+</p>
+<blockquote>
+<p>☝️ I have a full article on creating datasets that are not tabular datasets
+using pickle.</p>
+</blockquote>
+<h2 id="cross-posted-to-dev">cross posted to dev <a aria-label="Permalink to Heading cross posted to dev " class="header-anchor" href="#cross-posted-to-dev" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>If you like this article give it some ❤️🦄🏷️ on dev <a href="https://dev.to/waylonwalker/incremental-versioned-datasets-in-kedro-3ajn">https://dev.to/waylonwalker/incremental-versioned-datasets-in-kedro-3ajn</a></p>
+<hr/>
+<p>This post was primarily built live on <a href="https://twitch.tv/waylonwalker">https://twitch.tv/waylonwalker</a>, give me a
+follow and join in the live show if that is something that interests you.</p>
+</div>
+</article>
+<article>
+<h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Recent Posts</h2>
+<ul class="px-0">
+<li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/start/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Start
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-03">
+                2025-1-3
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/slow-nfs-performance/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Slow Nfs Performance
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-02">
+                2025-1-2
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/colophon/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Colophon
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-02">
+                2025-1-2
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/setting-up-ucore-zfs/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Setting Up Ucore-Zfs
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-12-27">
+                2024-12-27
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-0-0-4/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Thoughts 0.0.4
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-12-18">
+                2024-12-18
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/links-rely-on-color-to-be-distiniquishable/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Links Rely On Color To Be Distiniquishable
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-12-17">
+                2024-12-17
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/urllink/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Urllink
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-12-14">
+                2024-12-14
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/debug-cloudflared-tunnel/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Debug Cloudflared Tunnel
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-12-03">
+                2024-12-3
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/setup-cloudflared-tunnel-on-ubuntu/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Setup Cloudflared Tunnel On Ubuntu
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-12-02">
+                2024-12-2
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/price-an-stl-print-on-slant3d/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Price An Stl Print On Slant3D
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-11-18">
+                2024-11-18
+            </time>
+</p>
+</a>
+</li></ul>
+<h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Recent <a href="/thoughts/" hx-boost="true">Thoughts</a></h2>
+<ul class="px-0">
+<li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-496/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Fork Around And Find Out | Remaining Authentic I
+            ...
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-03">
+                2025-1-3
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-497/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Own Your Web • Buttondown
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-03">
+                2025-1-3
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-492/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Linkding | Linkding
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-02">
+                2025-1-2
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-493/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 (102) We Need To Have A Talk... - Youtube
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-02">
+                2025-1-2
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-494/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Slash Pages
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-02">
+                2025-1-2
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-495/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Changelog • Robb Knight
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-02">
+                2025-1-2
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-488/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Why Your Backend Shouldn'T Serve Files - Youtube
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-12-31">
+                2024-12-31
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-489/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Wrapping Your Favorite Cli In Neovim - Youtube
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-12-31">
+                2024-12-31
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-481/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Gary Vaynerchuk: "2025 : The Year Of Action … Wh
+            ...
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-12-30">
+                2024-12-30
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-482/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Addy Osmani: "Tip: Chrome Devtools Can Override 
+            ...
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-12-30">
+                2024-12-30
+            </time>
+</p>
+</a>
+</li></ul>
+<h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Recent Posts from People I read</h2>
+<div hx-get="https://reader.waylonwlker.com/10-written" hx-swap="outerHTML" hx-trigger="load"></div>
+<h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Recent Posts from my YouTube subs</h2>
+<div hx-get="https://reader.waylonwlker.com/10-video" hx-swap="outerHTML" hx-trigger="load"></div>
+<h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Recent Posts from my favorite pods</h2>
+<div hx-get="https://reader.waylonwlker.com/10-video" hx-swap="outerHTML" hx-trigger="load"></div> </article>
+</div>
+<footer class="bg-gray-900 border-t border-pink-800 pb-8">
+<ul class="social my-8">
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://waylonwalker.com/feeds" hx-boost="true" rel="me">RSS</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://twitter.com/_WaylonWalker" rel="me">twitter</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://youtube.com/waylonwalker">youtube</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://www.youtube.com/channel/UCHuxc1HRsd3aRjvL6C817tQ">gaming-youtube</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://www.linkedin.com/in/waylonwalker/">LinkedIn</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://github.com/WaylonWalker" rel="me">GitHub</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://dev.to/waylonwalker">Dev.to</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://www.twitch.tv/waylonwalker">twitch</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="mailto:hello@waylonwalker.com" rel="me">hello@waylonwalker.com</a>
+</li>
+</ul>
+<p>© 2021 - 2025</p>
+</footer> </div>
+</body>
+</html>

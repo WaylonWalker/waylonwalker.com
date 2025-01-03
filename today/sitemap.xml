@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/sitemap.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <title>today</title>
+    <link>https://waylonwalker.com/</link>
+   <url>
+      <title>💭 Fork Around And Find Out | Remaining Authentic In Retirement With Kelsey Hightower</title>
+      <description>What a great first guest for FAFO.  Kelsey is always such a great listen.  He talks about killedbygoogle and how enginee</description>
+      <loc>https://waylonwalker.com//thoughts-496</loc>
+      <lastmod>2025-01-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Own Your Web • Buttondown</title>
+      <description>I&#39;m a sucker for good own your own shit on the web blogs, and Matthias Ott has a top notch one here.  The archive has be</description>
+      <loc>https://waylonwalker.com//thoughts-497</loc>
+      <lastmod>2025-01-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Start</title>
+      <description>Welcome to waylonwalker.com, my small corner of the internet.  I currently have I have quite a few different feeds that you can browse or subscribe to in your r</description>
+      <loc>https://waylonwalker.com//start</loc>
+      <lastmod>2025-01-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+</urlset>

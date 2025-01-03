@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/sitemap.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <title>linux</title>
+    <link>https://waylonwalker.com/</link>
+   <url>
+      <title>💭 Curl With Partial Files | Daniel.Haxx.Se</title>
+      <description>This is a cool new feature coming to bash, I can&#39;t think of a use case I have out of the gate, but it looks cool.  I&#39;m t</description>
+      <loc>https://waylonwalker.com//thoughts-487</loc>
+      <lastmod>2024-12-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 (100) Hybrid Cloud Show – Episode 20 - Youtube</title>
+      <description>Red Hat has donated the whole open alternative to docker to the CNCF, the hosts weigh in with thier opinions all being p</description>
+      <loc>https://waylonwalker.com//thoughts-474</loc>
+      <lastmod>2024-12-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Setting Up Ucore-Zfs</title>
+      <description>I just setup my oldest hardware on the newest hotest server distro ucore-zfs. My current boot log shows that I first started daily driving bazzite back in Four </description>
+      <loc>https://waylonwalker.com//setting-up-ucore-zfs</loc>
+      <lastmod>2024-12-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Linux - What Is Stored In /Dev/Pts Files And Can We Open Them? - Unix &amp; Linux Stack Exchange</title>
+      <description>today I learned that /dev/pts is a pseudo-tty.  It amazes me how much linux is still built around things like hardware t</description>
+      <loc>https://waylonwalker.com//thoughts-339</loc>
+      <lastmod>2024-07-07</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Wcurl Is Here | Daniel.Haxx.Se</title>
+      <description>interesting, seems like such a simple way to completely remove the need of a whole other cli.  No offense to anyone work</description>
+      <loc>https://waylonwalker.com//thoughts-335</loc>
+      <lastmod>2024-07-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Inside 22,734 Steam Games | Daniel.Haxx.Se</title>
+      <description>Interesting to see that curl is used in so many places.  I often think of things like games being so windows centric and</description>
+      <loc>https://waylonwalker.com//thoughts-336</loc>
+      <lastmod>2024-07-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Arch Remove Orphaned Packages</title>
+      <description></description>
+      <loc>https://waylonwalker.com//arch-remove-orphaned-packages</loc>
+      <lastmod>2024-07-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Playerctl Fixes Arch Media Keys</title>
+      <description>I Once it is installed all of my media keys started working right away. I played around with it a bit more and came up with a way to display the</description>
+      <loc>https://waylonwalker.com//playerctl-fixes-arch</loc>
+      <lastmod>2024-06-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Ulauncher — Application Launcher For Linux 🐧</title>
+      <description>Just discovered this really cool launcher from the DHH distro omakub.  [github.com/omakub](https://github.com/basecamp/o</description>
+      <loc>https://waylonwalker.com//thoughts-300</loc>
+      <lastmod>2024-06-07</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Catppuccin/Ulauncher: 🇺 Soothing Pastel Theme For Ulauncher</title>
+      <description>I am using this theme for Ulauncher in arch and it looks fantastic!  One line install (read it first).
+
+``` bash
+python3</description>
+      <loc>https://waylonwalker.com//thoughts-301</loc>
+      <lastmod>2024-06-07</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Basecamp/Omakub: Opinionated Ubuntu Setup</title>
+      <description>This is DHH&#39;s linux startup script.  Call it a distro if you want, but he doesn&#39;t.  It&#39;s made to take a vanilla ubuntu i</description>
+      <loc>https://waylonwalker.com//thoughts-298</loc>
+      <lastmod>2024-06-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 How To Force Dark Mode On Every Website In Google Chrome</title>
+      <description>Sometimes I struggle to get my os to report dark mode to chrome, luckily there is a way to force chrome to always use da</description>
+      <loc>https://waylonwalker.com//thoughts-295</loc>
+      <lastmod>2024-06-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Tailscale Ssh</title>
+      <description>Tailscale allows you to ssh into all of your tailscale machines, it busts I picked this up from the tailscale youtube channel.</description>
+      <loc>https://waylonwalker.com//tailscale-ssh</loc>
+      <lastmod>2024-06-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 (342) Install Pokemon Tcg Live On Steam Deck - Installation Guide - Get Past The White Login Screen - Youtube</title>
+      <description>I had no idea that you could just drop an msi installer right in steam.  This worked for me, and was much easier to inst</description>
+      <loc>https://waylonwalker.com//thoughts-270</loc>
+      <lastmod>2024-05-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Just Picker</title>
+      <description></description>
+      <loc>https://waylonwalker.com//just-picker</loc>
+      <lastmod>2024-05-08</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Showmount-E</title>
+      <description>TIL how to display the list of nfs mounts on your network. You can even look for mounts of other machines on your network.</description>
+      <loc>https://waylonwalker.com//showmount-e</loc>
+      <lastmod>2024-04-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Redka Runs On Sqlite</title>
+      <description>With the liscense changes to redis there are several new forks out there.  One We now have redis running on port 6379 that we can connect to with a redis We can</description>
+      <loc>https://waylonwalker.com//redka-runs-on-sqlite</loc>
+      <lastmod>2024-04-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Am I Vulnerable To The Xz Backdoor?</title>
+      <description>The main system that I am concerned about is my arch BTW machine. I found a For my machine I am concerned with this line. The xz packages prior to version 5.6.1</description>
+      <loc>https://waylonwalker.com//am-i-vulnerable-to-the-xz-backdoor</loc>
+      <lastmod>2024-04-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Arch Dependencies</title>
+      <description>paru has some nice features that I rarely use, and hav to look up when I need You can check all the packages depended on by nodejs by running the following.</description>
+      <loc>https://waylonwalker.com//arch-dependencies</loc>
+      <lastmod>2024-04-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>How To Kill Ollama Server</title>
+      <description>I recently updated  No matter what it comes back You can confirm this with the following command. Next time you want to start you can do it as before with </description>
+      <loc>https://waylonwalker.com//how-to-kill-ollama-server</loc>
+      <lastmod>2024-04-14</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Testdisk Step By Step - Cgsecurity</title>
+      <description>`testdisk` is an amazing command line utility (interactive tui) that just saved me a hard drive that was filled with dat</description>
+      <loc>https://waylonwalker.com//thoughts-55</loc>
+      <lastmod>2023-07-29</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Setting Up Paru | Installing From The Aur For The First Time</title>
+      <description>paru is an aur helper that allows you to use a package manager to install The Aur is a set of community managed packages that can be installed on arch based dis</description>
+      <loc>https://waylonwalker.com//setting-up-paru</loc>
+      <lastmod>2023-05-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Useful Btrfs Tools</title>
+      <description>Looking at disk usage on any of these must be done using a tool built for it if -T for tabular format</description>
+      <loc>https://waylonwalker.com//useful-btrfs-tools</loc>
+      <lastmod>2023-03-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Arch Linux Randomly Rejecting Passwords</title>
+      <description>Fix Arch Linux randomly rejecting passwords with one command. Try If you The good news is that there is a simple fix for this issue. The following bash bash fai</description>
+      <loc>https://waylonwalker.com//arch-rejects-password</loc>
+      <lastmod>2023-01-19</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Ssh Copy Id</title>
+      <description>I recently setup some vm</description>
+      <loc>https://waylonwalker.com//ssh-copy-id</loc>
+      <lastmod>2022-12-04</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Ssh Key Permissions</title>
+      <description>I just shared some ssh keys with myself and ran into this error telling me that I changed them with the following commands.</description>
+      <loc>https://waylonwalker.com//ssh-key-permissions</loc>
+      <lastmod>2022-11-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Obs Virtual Camera On Boot</title>
+      <description>For far too long I have had to fidget with v4l2oloopback after reboot.  I After a reboot the start virtual camera button won Today I learned that you can turn o</description>
+      <loc>https://waylonwalker.com//obs-virtual-camera-on-boot</loc>
+      <lastmod>2022-10-18</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Setting Up Snapper On Arch</title>
+      <description>https://www.youtube.com/watch?v= These are mostly my notes to remind myself, I When I started running  You should now see  so that you can boot into snapper sna</description>
+      <loc>https://waylonwalker.com//setting-up-snapper-on-arch</loc>
+      <lastmod>2022-09-05</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>The One Reason I Switched To Arch</title>
+      <description>The community, that I am a tinkerer, I am not going to run a stock desktop manager, mostly becuase I love minimal installs.  I love just building up my system f</description>
+      <loc>https://waylonwalker.com//switched-to-arch</loc>
+      <lastmod>2022-07-23</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Arch Fonts</title>
+      <description>https://gist.github.com/YoEight/d19112db56cd8f93835bf2d009d617f7</description>
+      <loc>https://waylonwalker.com//arch-fonts</loc>
+      <lastmod>2022-07-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Manage Your Displays With Xrandr Manager</title>
+      <description>xrandr is a great cli to manage your windows in a linux distro using x11, which Check out the xrander-manager is a python cli application that is simply a nice </description>
+      <loc>https://waylonwalker.com//xrandr-manager</loc>
+      <lastmod>2022-07-16</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Qutebrowser Clean Up All Status Bars</title>
+      <description>I really like the super clean look of no status menus, no url bar, no bookmarks</description>
+      <loc>https://waylonwalker.com//clean-qutebrowser</loc>
+      <lastmod>2022-05-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>A Tty Can Save Your Bacon</title>
+      <description>I recently was unable to boot into my home Linux Desktop, it got stuck at https://twitter.com/ There Normally you have 6 TTY ctrl+alt+F1: login screen ctrl+alt+</description>
+      <loc>https://waylonwalker.com//linux-tty</loc>
+      <lastmod>2022-04-08</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Dunk Is My New Diff Pager</title>
+      <description>Browsing through twitter the other day I discovered it through this Before I dive in deep, I do want to mention that Dunk is super new and beta at The author re</description>
+      <loc>https://waylonwalker.com//dunk-is-my-new-diff-pager</loc>
+      <lastmod>2022-04-04</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Unzip Minecraft Mods To Their Directory From The Command Line</title>
+      <description>This morning I was trying to install a modpack on my minecraft server after So I Then I go back to my server and download the modpack with wget. Now I can unzip</description>
+      <loc>https://waylonwalker.com//linux-unzip-directory</loc>
+      <lastmod>2022-04-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Create A Swapfile On Your Linux Machine</title>
+      <description>If you ever end up on a linux machine that just does not have enough ram to You can put this where you wish, for this example I am going to pop it into You can </description>
+      <loc>https://waylonwalker.com//linux-swap</loc>
+      <lastmod>2022-03-18</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Install Yq | A Light Weight Yaml Parser Cli</title>
+      <description>yq I love that all of these modern tools built in go and rust, just give you a I use a bunch of these tools, and for what its worth I trust the devs behind Sinc</description>
+      <loc>https://waylonwalker.com//install-yq</loc>
+      <lastmod>2022-03-14</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Git Worktrees Are Not So Scary</title>
+      <description>So worktrees, I always thought they were a big scary things.  Turns out they I thought you had to be all in or worktrees or normal git, but not both.  When Maki</description>
+      <loc>https://waylonwalker.com//git-checkout-worktree</loc>
+      <lastmod>2022-03-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Setup Ssh From Chromebook To Home Desktop</title>
+      <description>I write many of these posts from a 10 year old desktop that sits in my I Today I am giving it a second try, but this time with ssh. Before doing anything I chec</description>
+      <loc>https://waylonwalker.com//open-ssh-setup</loc>
+      <lastmod>2022-03-08</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Dedupe Your Shell Paths</title>
+      <description>If you have ever ran </description>
+      <loc>https://waylonwalker.com//dedupe-your-shell-paths</loc>
+      <lastmod>2022-03-04</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Bash Mktemp</title>
+      <description>There is GNU coreutils command called  Here are some examples of making temp directories in different places, my Here is a sample script that shows how to captu</description>
+      <loc>https://waylonwalker.com//bash-mktemp</loc>
+      <lastmod>2022-03-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Recover A Lost Git Branch With Checkout</title>
+      <description>Once you give a branch the big D ( Checkout is your savior, all you need is the commit hash. We have all done this, you give  branch the big D only to realize i</description>
+      <loc>https://waylonwalker.com//git-recover-checkout</loc>
+      <lastmod>2022-03-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Install Obs Flatpak</title>
+      <description>Big announcement recently that obs studio now builds out to a flatpak, I did not have flatpak installed so the first thing I had to do was get Once I had flatpa</description>
+      <loc>https://waylonwalker.com//install-obs-flatpak</loc>
+      <lastmod>2022-02-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Vim Remaps Use Cmd In Place Of :</title>
+      <description>Anyone just starting out their vim customization journey is bound to run into this error. I If you run  You still need to map your remaps with a : if you do not</description>
+      <loc>https://waylonwalker.com//vim-cmd</loc>
+      <lastmod>2022-02-14</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Bluetooth At The Command Line On Ubuntu</title>
+      <description>One thing about moving to a tiling window manager like awesome wm or i3 is that Running  Here is what I had to do to connect my headphones. Here is the output o</description>
+      <loc>https://waylonwalker.com//linux-bluetoothctl</loc>
+      <lastmod>2022-02-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Simple Samba Share Setup</title>
+      <description>Samba is an implementation of the smb protocol that allows me to setup network I think the homelab is starting to intrigue me enought to dive into the path of T</description>
+      <loc>https://waylonwalker.com//simple-samba</loc>
+      <lastmod>2022-02-09</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Ag Silver Searcher Look Ahead And Look Behind</title>
+      <description>A super useful tool when doing PR It</description>
+      <loc>https://waylonwalker.com//ag-ahead</loc>
+      <lastmod>2022-02-08</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Installing Rust And Cargo On Ubuntu 21.10 Using Ansible</title>
+      <description>Installing rust in your own ansible playbook will make sure that you can I try to install everything that I will want to use for more than just a This is how ru</description>
+      <loc>https://waylonwalker.com//install-rust</loc>
+      <lastmod>2022-02-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Neovim Config For Git</title>
+      <description>Creating a minimal config specifically for git commits has made running The other thing that is engrained into my muscle memory is  Here is the config that has </description>
+      <loc>https://waylonwalker.com//neovim-config-for-git</loc>
+      <lastmod>2022-02-04</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>How To Properly Simulate Stow</title>
+      <description></description>
+      <loc>https://waylonwalker.com//stow-simulate</loc>
+      <lastmod>2022-01-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Tmux And Vim Clipboard For Ubuntu</title>
+      <description>One of the first things I noticed broken in my terminal based workflow moving First off you need to get  I have tmux setup to automatically copy any selection I</description>
+      <loc>https://waylonwalker.com//ubuntu-terminal-clipboard</loc>
+      <lastmod>2022-01-26</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Tmux Hotkey For Copier Templates</title>
+      <description>I have added a hotkey to my copier template setup to quickly access all my I</description>
+      <loc>https://waylonwalker.com//tmux-copier-templates</loc>
+      <lastmod>2022-01-24</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Copier Tasks | Python Templating Post Run Task</title>
+      <description>Copier allows you to run post render tasks, just like cookiecutter. These are The example I have below runs an  I have put the script in </description>
+      <loc>https://waylonwalker.com//copier-tasks</loc>
+      <lastmod>2022-01-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Fuzzy Wallpaper With Fzf</title>
+      <description>I really appreciate that in linux anything can be scripted, including I set my default wallpaper with  Leaning in on feh, we can use fzf to pick a wallpaper fro</description>
+      <loc>https://waylonwalker.com//fzf-wallpaper</loc>
+      <lastmod>2022-01-19</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Converting Markdown To Pdf With Pandoc On Linux</title>
+      <description>Converting markdown posts to pdf on ubuntu takes a few packages from the Here is an image of what converting this article over to a pdf looks</description>
+      <loc>https://waylonwalker.com//convert-markdown-pdf-linux</loc>
+      <lastmod>2022-01-12</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Installing Pipx On Ubuntu</title>
+      <description>I recently paired up with another dev running windows with Ubuntu running in Open up a terminal and get your required system dependencies using the apt I like r</description>
+      <loc>https://waylonwalker.com//installing-pipx-on-ubuntu</loc>
+      <lastmod>2022-01-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>2 Minutes To Stow</title>
+      <description>Stow is an incredible way to manage your dotfiles.  It works by managing When using stow its easiest to keep your dotfiles directory (you may name it Then each </description>
+      <loc>https://waylonwalker.com//2-minutes-to-stow</loc>
+      <lastmod>2022-01-09</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Using Copier Answers To Rerun Templates Quickly</title>
+      <description>The copier answers file is a key component to making your templates Inside of my  Inside my copier.yml I have setup my  Once I change the  I After rendering the</description>
+      <loc>https://waylonwalker.com//copier-answers</loc>
+      <lastmod>2022-01-08</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Pipx Examples</title>
+      <description></description>
+      <loc>https://waylonwalker.com//pipx-examples</loc>
+      <lastmod>2022-01-07</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Remove Vim Tab Characters</title>
+      <description>I It turns out they are tabs, and you can get rid of the little leading</description>
+      <loc>https://waylonwalker.com//remove-vim-tab-characters</loc>
+      <lastmod>2022-01-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Copier Templates</title>
+      <description>%%include til/copier %%include til/copier-template-variables %%include til/copier-answers</description>
+      <loc>https://waylonwalker.com//copier-templates</loc>
+      <lastmod>2022-01-05</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Tmux Pop Size</title>
+      <description>tmux popups can be sized how you like based on the % width of the</description>
+      <loc>https://waylonwalker.com//tmux-pop-size</loc>
+      <lastmod>2022-01-05</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>List All The Files Containing A Phrase</title>
+      <description>One of the most useful skills you can acquire to make you faster at I Passing the flag  Giving </description>
+      <loc>https://waylonwalker.com//list-all-files-containing-phrase</loc>
+      <lastmod>2021-12-31</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>My First Impressions With Pyenv</title>
+      <description>pyenv provides an easy way to install almost any version of python from I needed to install an older version of python on ubuntu I Based on the Readme it looked</description>
+      <loc>https://waylonwalker.com//pyenv-first-impressions</loc>
+      <lastmod>2021-12-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Installing Homebrew On Linux</title>
+      <description>Installing brew on linux proved quite easy and got pyenv running for me I had never used homebrew before, honestly I thought it was a mac only That was it, now </description>
+      <loc>https://waylonwalker.com//installing-homebrew-linux</loc>
+      <lastmod>2021-12-29</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Serve Html From Your Command Line</title>
+      <description>When I first moved to vim from and ide like vscode or sublime text one of my You will need a way to run another process alongside vim, here are a couple use bac</description>
+      <loc>https://waylonwalker.com//serve-html-command-line</loc>
+      <lastmod>2021-12-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>You Must Use Augroup With Autocmd In Vim | Here&#39;S How</title>
+      <description>If you are running vim autocmd https://youtu.be/2ITTn4Dl0lc For  Lets create a new file called  I What you need to do is clear out all commands in the augroup w</description>
+      <loc>https://waylonwalker.com//vim-augroup</loc>
+      <lastmod>2021-12-08</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Code Review From The Comfort Of Vim | Diffurcate</title>
+      <description>I often review Pull requests from the browser as it just makes it so easy to see https://youtu.be/5NKaZFavM0E This all stems from the great plugin by First to q</description>
+      <loc>https://waylonwalker.com//diffurcate</loc>
+      <lastmod>2021-12-04</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Setup A Yaml Schema | Yamlls For A Silky Smooth Setup</title>
+      <description>I The video for this one is part of a I have my  You will need the following plugins. I use plug, if you don Make sure that you have nvim Again if you don Next </description>
+      <loc>https://waylonwalker.com//setup-yamlls</loc>
+      <lastmod>2021-12-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Open Files Fast From Zsh | Or Bash If Thats Your Thing</title>
+      <description>https://youtu.be/PQw I am often in a set of tmux splits flying back and forth, accidentally close my Make sure you check out the YouTube video to see all of my </description>
+      <loc>https://waylonwalker.com//fuzzy-edit-zsh</loc>
+      <lastmod>2021-12-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>How Linux Users Install A Text Editor</title>
+      <description>In honor of the neovim 0.6.0 release, I decided to do a funny skit installing https://youtu.be/64oKLphhBuo The thing that took me the longest to realize was....</description>
+      <loc>https://waylonwalker.com//install-nvim-skit</loc>
+      <lastmod>2021-11-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>30 Days Dotfile Ricing</title>
+      <description>I am challenging myself to 30 days of dotfile ricing. I have been on linux This is primarily going to be focused on productivity, but may have a few Follow the </description>
+      <loc>https://waylonwalker.com//dotfile-rice-challenge-intro</loc>
+      <lastmod>2021-11-29</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Jut | Read Notebooks In The Terminal</title>
+      <description>Trying to read a .ipynb file without starting a jupyter server?  jut has you https://youtu.be/t8AvImnwor0 watch the video version of this post on  jut ! Take a </description>
+      <loc>https://waylonwalker.com//jut</loc>
+      <lastmod>2021-11-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Update Alternatives In Linux</title>
+      <description></description>
+      <loc>https://waylonwalker.com//update-alternatives</loc>
+      <lastmod>2021-11-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>I Made A Neovim Plugin</title>
+      <description>I Check out the project  I want a simple way to make remaps into shell commands that can open new tmux For example I want to make remaps to do things like open </description>
+      <loc>https://waylonwalker.com//telegraph-release</loc>
+      <lastmod>2021-10-05</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Notify-Send</title>
+      <description></description>
+      <loc>https://waylonwalker.com//notify-send</loc>
+      <lastmod>2021-08-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Tmux Detach</title>
+      <description>tmux detach is a handy tmux command that will quit your current session while default keybinding I have mine bound to  for more information on how I navigate tm</description>
+      <loc>https://waylonwalker.com//tmux-detach</loc>
+      <lastmod>2021-08-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Tmux Attach</title>
+      <description>https://youtu.be/JQ0yDCVu44E attach is one of the most useful features of tmux.  If you have no interest in this command will simply attach back to tmux if you </description>
+      <loc>https://waylonwalker.com//tmux-attach</loc>
+      <lastmod>2021-07-31</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Tmux Ls</title>
+      <description>tmux ls will list the sessions that you have running within the tmux server if [ [ for more information on how I navigate tmux, check out this full post Also ch</description>
+      <loc>https://waylonwalker.com//tmux-ls</loc>
+      <lastmod>2021-07-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Tmux Command Line</title>
+      <description>So far we have covered a lot of tmux commands and how they map to keybindings Let Or we can open the tmux command line and run it from tmux 🗒️ note that the tmu</description>
+      <loc>https://waylonwalker.com//tmux-command-line</loc>
+      <lastmod>2021-07-29</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Tmux Copy-Mode</title>
+      <description>tmux copy-mode is a tmux mode that lets you scroll, search, copy, and jump your Default keybinding to get into copy mode is  If you are a vim user you will like</description>
+      <loc>https://waylonwalker.com//tmux-copy-mode</loc>
+      <lastmod>2021-07-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Tmux Join-Pane</title>
+      <description>Join-pane allows you to join panes that you have broken away from your window, Before you can join a pane you must first have a pane marked to join.  Once you M</description>
+      <loc>https://waylonwalker.com//tmux-join-pane</loc>
+      <lastmod>2021-07-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Tmux Break-Pane</title>
+      <description>Break-pane is a handy tmux command when your layout gets too cramped and you Default key binding for  [ for more information on how I navigate tmux, check out t</description>
+      <loc>https://waylonwalker.com//break-pane</loc>
+      <lastmod>2021-07-26</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Tmux Zoom</title>
+      <description>Zooming into the current split in tmux is a valuable tool to give yourself some Default key bindings for zooming the current split I have rebound this to match </description>
+      <loc>https://waylonwalker.com//tmux-zoom</loc>
+      <lastmod>2021-07-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Tmux New-Window</title>
+      <description>New window as it sounds makes new windows in tmux.  Windows are kind of like Default key bindings for creating and navigating windows in tmux. As always I have </description>
+      <loc>https://waylonwalker.com//tmux-new-window</loc>
+      <lastmod>2021-07-24</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Tmux Slect-Pane</title>
+      <description>These are my MOST often used keybindings that I use in tmux.  They allow me to [ for more information on how I navigate tmux, check out this full post</description>
+      <loc>https://waylonwalker.com//tmux-select-pane</loc>
+      <lastmod>2021-07-23</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Tmux Rotate-Window</title>
+      <description>Rotate window is the main way that I navigated tmux before I learned Default keybindings My keybindings look just a bit different than the default ones, I do no</description>
+      <loc>https://waylonwalker.com//tmux-rotate-window</loc>
+      <lastmod>2021-07-22</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Tmux Select-Layout</title>
+      <description>When you get many splits going in tmux sometimes its time for a new layout. [ for more information on how I navigate tmux, check out this full post</description>
+      <loc>https://waylonwalker.com//tmux-select-layout</loc>
+      <lastmod>2021-07-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Tmux Resize-Panes</title>
+      <description>Resizing panes in tmux can be quite difficult in default tmux, I Most often when I need to resize panes I just grab the edge of the pane with my [ for more info</description>
+      <loc>https://waylonwalker.com//tmux-resize-panes</loc>
+      <lastmod>2021-07-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Tmux Choose-Tree</title>
+      <description>Choose tree is a powerful tmux utility that provides a graphical interface to The default keybinding my preferred keybinding to open sessions and windows collap</description>
+      <loc>https://waylonwalker.com//tmux-choose-tree</loc>
+      <lastmod>2021-07-19</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Tmux Prefix</title>
+      <description>The prefix key is an essential part of tmux, by default all of tmux A few of the essential default key-bindings. A more complete list of key-bindings can be fou</description>
+      <loc>https://waylonwalker.com//tmux-prefix</loc>
+      <lastmod>2021-07-18</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Tmux Splitting Panes</title>
+      <description>splitting panes is a core feature of tmux.  It allows us to split the terminal 🗒️ note that   [ for more information on how I navigate tmux, check out this full</description>
+      <loc>https://waylonwalker.com//tmux-splitting-panes</loc>
+      <lastmod>2021-07-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Tmux Last Session</title>
+      <description>An ultimate productivity key-binding in tmux is one to switch to the last session.  I use this to quickly get between sessions really quick.  Often I am working</description>
+      <loc>https://waylonwalker.com//tmux-last-session</loc>
+      <lastmod>2021-07-16</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Tmux Floating Popups</title>
+      <description>Tmux popups are actually floating windows that you can drag around the screen.  They always open in the middle (by default) when you open them, no matter where </description>
+      <loc>https://waylonwalker.com//tmux-floating-popups</loc>
+      <lastmod>2021-07-15</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Tmux Popups</title>
+      <description>Tmux-popups are a great feature that is relatively new to tmux, many repos such [ for more information on how I navigate tmux, check out this full post I use po</description>
+      <loc>https://waylonwalker.com//tmux-popups</loc>
+      <lastmod>2021-07-14</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>How I Configure Git</title>
+      <description>Git can be a bit tricky to get configured correctly.  I often stumble into</description>
+      <loc>https://waylonwalker.com//git-settings</loc>
+      <lastmod>2021-06-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Ubuntu</title>
+      <description>These are the notes that I used as I set up my first ever ubuntu desktop. I ran this, but have no idea if it had any effect as the theme did What I think actuag</description>
+      <loc>https://waylonwalker.com//ubuntu</loc>
+      <lastmod>2021-06-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Python Lsp Setup</title>
+      <description>Setting up python with the native nvim&amp;gt;0.5 lsp was mr https://github.com/neovim/nvim-lspconfig https://github.com/palantir/python-language-server/issues/190 </description>
+      <loc>https://waylonwalker.com//setup-pylsp</loc>
+      <lastmod>2021-05-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>How I Navigate Tmux In 2021</title>
+      <description>In 2021 I changed the way I navigate between tmux sessions big time.  Now I can Since making this post, I have made ~20 other posts in short form that all have </description>
+      <loc>https://waylonwalker.com//tmux-nav-2021</loc>
+      <lastmod>2021-05-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Trim Unused Git Branches</title>
+      <description></description>
+      <loc>https://waylonwalker.com//trim-branches</loc>
+      <lastmod>2021-05-07</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>How To Compare Two Files In Vim</title>
+      <description></description>
+      <loc>https://waylonwalker.com//vim-diffsplit</loc>
+      <lastmod>2021-05-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Create A Virtual File Gallery With Symlinks</title>
+      <description>Creating a directory that is a union of several directories can be achieved Here is how I am creating a virtual directory of all my projects that is a ⚠ Notice </description>
+      <loc>https://waylonwalker.com//symlink-gallery</loc>
+      <lastmod>2021-05-05</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>📝 Docker Deep Dive - Notes</title>
+      <description>https://www.hanselminutes.com/784/doing-open-source-with-brian-douglas A handy way to try weird things in docker is using Installing on Ubuntu. In order to run </description>
+      <loc>https://waylonwalker.com//docker-deep-dive</loc>
+      <lastmod>2021-04-23</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Live Substitution In Neovim</title>
+      <description>Replacing text in vim can be quite frustrating especially since it doesn https://twitter.com/ I had to do a bit of searching and found a great post from  I beli</description>
+      <loc>https://waylonwalker.com//neovim-live-substitution</loc>
+      <lastmod>2021-01-04</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Newsboat</title>
+      <description>Web browsers are a black hole of productivity.  I try to use them as little as I am going to give a terminal rss reader a try for a bit and see how that goes I </description>
+      <loc>https://waylonwalker.com//newsboat</loc>
+      <lastmod>2021-01-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Find And Replace In The Terminal.</title>
+      <description>notes about find and replace techniques</description>
+      <loc>https://waylonwalker.com//find-replace</loc>
+      <lastmod>2020-11-12</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Creating Reusable Bash Scripts</title>
+      <description>Bash is a language that is quite useful for automation no matter what language I have three techniques that help me write more composable bash scripts. Function</description>
+      <loc>https://waylonwalker.com//reusable-bash</loc>
+      <lastmod>2020-08-13</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>New Machine For Developing Tests With Testproject.Io</title>
+      <description>Today I setup a new machine on Digital Ocean to use with TestProject.io, Here are my installation notes.</description>
+      <loc>https://waylonwalker.com//new-machine-tpio</loc>
+      <lastmod>2020-07-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Out Of Space</title>
+      <description>Out of Space! How to remove 65 conda environments in one command.</description>
+      <loc>https://waylonwalker.com//out-of-space</loc>
+      <lastmod>2020-02-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Supercharge Zsh Startup</title>
+      <description>I have been using oh-my-zsh successfully for about 2 years now. But lately my I believe the real issue is io speed on wsl.  I have some remote servers with Quic</description>
+      <loc>https://waylonwalker.com//supercharge-zsh-startup</loc>
+      <lastmod>2020-01-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>📝 Bash Notes</title>
+      <description>Waylon Walker&#39;s Bash Notes</description>
+      <loc>https://waylonwalker.com//bash</loc>
+      <lastmod>2019-09-08</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+</urlset>

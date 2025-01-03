@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/sitemap.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <title>recently_written</title>
+    <link>https://waylonwalker.com/</link>
+   <url>
+      <title>Start</title>
+      <description>Welcome to waylonwalker.com, my small corner of the internet.  I currently have I have quite a few different feeds that you can browse or subscribe to in your r</description>
+      <loc>https://waylonwalker.com//start</loc>
+      <lastmod>2025-01-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Slow Nfs Performance</title>
+      <description>I I I just started trying to build this site in a cronjob, It was taking 20 minutes I just moved into the master node and the results were wild at ~30x faster I</description>
+      <loc>https://waylonwalker.com//slow-nfs-performance</loc>
+      <lastmod>2025-01-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Colophon</title>
+      <description>All posts on this site are written by  This site is a static site build with my own static site generator  [ [ cloudflare pages More about this site on these  {</description>
+      <loc>https://waylonwalker.com//colophon</loc>
+      <lastmod>2025-01-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Setting Up Ucore-Zfs</title>
+      <description>I just setup my oldest hardware on the newest hotest server distro ucore-zfs. My current boot log shows that I first started daily driving bazzite back in Four </description>
+      <loc>https://waylonwalker.com//setting-up-ucore-zfs</loc>
+      <lastmod>2024-12-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Thoughts 0.0.4</title>
+      <description>This is such an improvement to the backend of my website it warrants a blog Let This is the tiny ass form nested deeply in the flow of the feed.  When I made th</description>
+      <loc>https://waylonwalker.com//thoughts-0-0-4</loc>
+      <lastmod>2024-12-18</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Links Rely On Color To Be Distiniquishable</title>
+      <description>Today i got hit by this accessibility issue on my site.  Low contrast links are I ended up dropping the background color of the site down a notch as I didn Now </description>
+      <loc>https://waylonwalker.com//links-rely-on-color-to-be-distiniquishable</loc>
+      <lastmod>2024-12-17</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Urllink</title>
+      <description>Today I discovered the </description>
+      <loc>https://waylonwalker.com//urllink</loc>
+      <lastmod>2024-12-14</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Debug Cloudflared Tunnel</title>
+      <description>I In yesterday [</description>
+      <loc>https://waylonwalker.com//debug-cloudflared-tunnel</loc>
+      <lastmod>2024-12-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Setup Cloudflared Tunnel On Ubuntu</title>
+      <description>I run a cloudflared tunnel on my ubuntu server to expose applications running Now setup the config directory.  For the systemd service to work, the config Now w</description>
+      <loc>https://waylonwalker.com//setup-cloudflared-tunnel-on-ubuntu</loc>
+      <lastmod>2024-12-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Price An Stl Print On Slant3D</title>
+      <description>I I You will need an api key from the slant api, which currently requires a google Then you can run the python script to price out your print.  I</description>
+      <loc>https://waylonwalker.com//price-an-stl-print-on-slant3d</loc>
+      <lastmod>2024-11-18</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+</urlset>
