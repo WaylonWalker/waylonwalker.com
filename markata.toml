@@ -526,5 +526,12 @@ sort = "date"
 reverse = true
 description = 'A feed of all my vim til posts'
 
+[[markata.feeds]]
+slug = 'slashes'
+filter = "date<=today and 'slash' in tags"
+sort = "date"
+reverse = true
+description = 'A feed of all my vim til posts'
+
 [markata.summary]
 grid_attr = ['tags', 'series']
