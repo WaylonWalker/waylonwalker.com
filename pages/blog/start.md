@@ -10,17 +10,9 @@ jinja: True
 
 ---
 
-<!-- markata feeds need counts -->
-{% set title_count = 0 %}
-{% for post in markata.feeds.archive.posts %}
-      {% set title_count = title_count + 1 %}
-{% endfor %}
-
-{{ title_count }}
-
 Welcome to waylonwalker.com, my small corner of the internet.  I currently have
-{{ title_count }} posts published, here are some links to
-help you get started around here.
+{{ markata.feeds.archive | select('title') | list | length }} posts published,
+here are some links to help you get started around here.
 
 ## Feeds
 
