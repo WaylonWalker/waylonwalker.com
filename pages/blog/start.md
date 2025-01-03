@@ -11,7 +11,7 @@ jinja: True
 ---
 
 Welcome to waylonwalker.com, my small corner of the internet.  I currently have
-{{ markata.feeds.archive.posts | length }} posts published, here are some links to
+{{ markata.feeds.archive.posts | length | default(0) }} posts published, here are some links to
 help you get started around here.
 
 ## Feeds
