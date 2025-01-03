@@ -8,4 +8,4 @@ mkdir -p markout
 markata build
 rm markout/markata.json
 wrangler pages deploy markout --project-name dev-waylonwalker-com --branch main --commit-message "deploy main $(date)"
-wrangler pages deploy markout --project-name reader-waylonwalker-com --branch markout
+wrangler pages deploy markout --project-name waylonwalker-com --branch markout
