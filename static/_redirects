@@ -2,6 +2,9 @@
 /blog /archive/
 /rss                                                        /archive/rss.xml
 /rss.xml                                                    /archive/rss.xml
+/feed                                                       /archive/rss.xml
+/feed.xml                                                   /archive/rss.xml
+/index.xml
 
 /podroll                                                    https://reader.waylonwalker.com/podcast/
 /blogroll                                                   https://reader.waylonwalker.com/written/
