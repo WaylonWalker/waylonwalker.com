@@ -33,5 +33,3 @@ I have quite a few different feeds that you can browse or subscribe to in your r
 [Slash pages](https://slashpages.net/){.hoverlink} are some evergreen pages that I will do my best to keep up to date,
 they are typically not targeted to a specific moment in time, but designed to
 be ever living.
-
-{{ '\n'.join(markata.feeds.slashes.map('f"* [[ {slug} ]] - {description}"', sort='slug')) }}
