@@ -13,10 +13,9 @@ jinja: True
 <!-- markata feeds need counts -->
 {% set title_count = 0 %}
 {% for post in markata.feeds.archive.posts %}
-    {% if post.title is not none %}
-        {% set title_count = title_count + 1 %}
-    {% endif %}
+      {% set title_count = title_count + 1 %}
 {% endfor %}
+
 {{ title_count }}
 
 Welcome to waylonwalker.com, my small corner of the internet.  I currently have
