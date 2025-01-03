@@ -127,6 +127,7 @@ config = { markata = "markata" }
 
 [markata.nav]
 'home' = '/'
+'start here' = '/start'
 'twitter' = 'https://twitter.com/_waylonwalker'
 'youtube' = 'https://www.youtube.com/@waylonwalker'
 'gaming-youtube' = 'https://www.youtube.com/channel/UCHuxc1HRsd3aRjvL6C817tQ'
