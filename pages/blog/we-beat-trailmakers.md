@@ -36,6 +36,16 @@ floating islands and is the cockpit fo the space ship.
 I thought this was a cool shot of one of our builds with the suspension fully
 squatted out with a heavy load on the back.
 
+## Multiple Salvages
+
+It took us way to long to realize that we had enough power cores to add a bunch
+of tractor beams to do multiple salvages at once. Each tractor beam only has
+the ability to pick up one salvage at a time.
+
+![screenshot-2025-01-11T03-14-29-022Z.png](https://dropper.wayl.one/api/file/36f1b541-e9c1-46f9-8219-e37bbed67344.webp)
+
+## Some wild moments
+
 ![image](https://dropper.wayl.one/api/file/e68cfa29-bc0b-41cc-8ae8-79ef26d1aa97.webp)
 
 This clip brought both of us to curled over laughter, I wish I had recording on
