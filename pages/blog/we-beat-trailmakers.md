@@ -1,0 +1,55 @@
+---
+date: 2025-01-10 19:53:14
+templateKey: blog-post
+title: we beat trailmakers
+tags:
+  - trailmakers
+  - gaming
+published: True
+
+---
+
+Today we broke through the atmosphere in trailmakers ready for pickup from those back at mission conrol.
+
+> I haven't posted a lot of gaming content to by blog, idk why, but I think I
+> am going to start, especially for the ones that are good memories with my
+> son.
+
+Today we hit 100% of the required parts required to build the space ship and
+leave the atmosphere of the planet that the story is set in.  Trailmakers is a
+game where you design and build your own vehicles.  The campaign mode standed
+is a story where you are in a high tech freighter ship that crash lands on a
+distant planet.  Your crew back home can come as far as the planet your on but
+cannot break through the atmosphere.  Your job is to collect all the wreckage
+and gain all the parts required for a space ship build to take you out of the
+atmosphere to meet them.
+
+![end screen](https://dropper.wayl.one/api/file/f751d33e-1829-47ea-a593-f1d940c86f4f.webp)
+
+![end achievement](https://dropper.wayl.one/api/file/73fed115-7d6a-4629-a9a3-be6819def314.webp)
+
+There were a couple really heavy salvages to gather up, this one is high in the
+floating islands and is the cockpit fo the space ship.
+
+![image](https://dropper.wayl.one/api/file/7ab6954a-4dd5-4ab8-b50e-91440c89570b.webp)
+
+I thought this was a cool shot of one of our builds with the suspension fully
+squatted out with a heavy load on the back.
+
+![image](https://dropper.wayl.one/api/file/e68cfa29-bc0b-41cc-8ae8-79ef26d1aa97.webp)
+
+This clip brought both of us to curled over laughter, I wish I had recording on
+to get a full clip of it, this screenshot is the best I got.  What happened was
+my son was being super silly and blew us up, but somehow the seat of the last
+build stayed in while we respawnd and our new vehicle picked it up.  Not only
+that, but the broken seat was still usable and he was able to sit in it!
+
+![image](https://dropper.wayl.one/api/file/636f3409-b8ad-44f7-9545-9b38d0393f07.webp)
+
+## acheivements status
+
+Currently I am quite a ways from getting 100% of the achievements for the game.
+I think I will finish 100% of the stranded campaign because it is super fun,
+but probably wont 100% it.
+
+![screenshot-2025-01-11T01-58-45-192Z.png](https://dropper.wayl.one/api/file/2fa177b8-d4d3-41ef-b006-67b369459175.webp)
