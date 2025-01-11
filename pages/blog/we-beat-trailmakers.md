@@ -63,3 +63,9 @@ I think I will finish 100% of the stranded campaign because it is super fun,
 but probably wont 100% it.
 
 ![screenshot-2025-01-11T01-58-45-192Z.png](https://dropper.wayl.one/api/file/2fa177b8-d4d3-41ef-b006-67b369459175.webp)
+
+## I'm trying out video
+
+does this work?
+
+<video src="https://dropper.wayl.one/api/file/efd58566-2f64-47d1-8b0b-13129b60a860.mp4" controls></video>
