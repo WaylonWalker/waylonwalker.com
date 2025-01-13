@@ -666,7 +666,7 @@ article {
 }
 
 article.blog-post {
-  @apply mx-0;
+  @apply mx-auto;
   /* @apply max-w-full; */
 }
 
