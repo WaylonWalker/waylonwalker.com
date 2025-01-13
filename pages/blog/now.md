@@ -21,3 +21,4 @@ Last update Sun Jan 12 09:08:07 PM CST 2025
   minimally touching the code and only instructing windsurf
 * mostly-one-shot-apps - I just built [[ nvim-manager ]] as a mostly
   one-shot-app (i.e. the app was nearly v1 out of the first prompt)
+* Family focus - [[ we-beat-trailmakers ]]
