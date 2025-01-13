@@ -8,6 +8,10 @@ published: True
 
 ---
 
+This page is meant to be simple view into what is happening in my life right now. Inspired by [@NowNowNow](https://nownownow.com/). and Derek Sivers.
+
+---
+
 Last update Sun Jan 12 09:08:07 PM CST 2025
 
 * Moving from Arch to Bazzite, I'm fully here but making everything just that
