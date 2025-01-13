@@ -1,3 +1,10 @@
+_default:
+   @just --list
+
+
+version := `cat version`
+
+# documentation
 assets:
     #!/usr/bin/env bash
     set -euxo pipefail
@@ -14,9 +21,9 @@ build:
 serve:
     python -m http.server -b 0.0.0.0 8005 -d markout
 tailwind:
-    npx tailwindcss --input tailwind/app.css --output static/app.css --watch
+    npx tailwindcss --input tailwind/app.css --output static/app-{{version}}.css --watch
 tailwind-dev:
-    npx tailwindcss --input tailwind/app.css --output markout/app.css --watch
+    npx tailwindcss --input tailwind/app.css --output markout/app-{{version}}.css --watch
 sync:
     aws --endpoint-url https://minio.wayl.one s3 sync . s3://waylonwalker.com \
         --exclude "*.venv/**/*" \
@@ -38,8 +45,47 @@ sync-md:
 deploy:
     #!/usr/bin/env bash
     set -euxo pipefail
-    podman build -t docker.io/waylonwalker/waylonwalker-com .
     version=$(cat version)
-    podman tag docker.io/waylonwalker/waylonwalker-com docker.io/waylonwalker/waylonwalker-com:$version
-    podman push docker.io/waylonwalker/waylonwalker-com
-    podman push docker.io/waylonwalker/waylonwalker-com:$version
+    podman build -t registry.wayl.one/waylonwalker-com -t registry.wayl.one/waylonwalker-com:$version .
+    podman push registry.wayl.one/waylonwalker-com
+    podman push registry.wayl.one/waylonwalker-com:$version
+
+
+url:
+    #!/usr/bin/bash
+    ########
+    ### Special text formating
+    ########
+    ## Function to generate a clickable link, you can call this using
+    # url=$(Urllink "https://ublue.it" "Visit the ublue website")
+    # echo "${url}"
+    function Urllink (){
+        URL=$1
+        TEXT=$2
+
+        # Generate a clickable hyperlink
+        printf "\e]8;;%s\e\\%s\e]8;;\e\\" "$URL" "$TEXT${n}"
+    }
+
+    echo
+    echo "$(Urllink "https://waylonwalker.com" "Click to open the website")"
+url2:
+    #!/usr/bin/bash
+    source libformatting.sh
+    echo "$(Urllink "https://docs.projectbluefin.io/administration#community-aliases-and-workarounds" "Click here to view the Universal Blue just documentation")"
+
+url3:
+    #!/usr/bin/env zsh
+
+    # Function to generate a clickable link
+    Urllink() {
+        local URL="$1"
+        local TEXT="$2"
+
+        # Use printf with correct escape sequences
+        print -P "\e]8;;$URL\a$TEXT\e]8;;\a"
+    }
+
+    # Test the function
+    echo
+    Urllink "https://waylonwalker.com" "Click to open the website"
