@@ -42,4 +42,6 @@ see more about these components in [[ about-this-site ]]
 
 More about this site on these _meta_ posts.
 
-{{ '\n'.join(markata.map['f"* [[ {slug} ]] - {description}"', sort='slug', filter='"meta" in tags'](:-1)) }}
+{% for post in markata.feeds.meta.posts %}
+[[ {post.slug} ]] - {post.description}
+{% endfor %}

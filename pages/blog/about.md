@@ -2,8 +2,12 @@
 templateKey: blog-post
 tags: ['meta', 'slash']
 title:  Waylon Walker
+tags:
+  - meta
+  - slash
 date: 2021-11-20T10:38:00
 published: true
+jinja: True
 
 ---
 
@@ -30,4 +34,6 @@ stack in [[ colophon ]].
 
 Some evergreen pages that are more about me or this site.
 
-{{ '\n'.join(markata.feeds.slashes.map('f"* [[ {slug} ]] - {description}"', sort='slug')) }}
+{% for post in markata.feeds.meta.posts %}
+[[ {post.slug} ]] - {post.description}
+{% endfor %}
