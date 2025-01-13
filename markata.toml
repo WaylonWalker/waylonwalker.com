@@ -532,7 +532,14 @@ slug = 'slashes'
 filter = "date<=today and 'slash' in tags"
 sort = "date"
 reverse = true
-description = 'A feed of all my vim til posts'
+description = 'A collection of all of my slash posts'
+
+[[markata.feeds]]
+slug = 'meta'
+filter = "date<=today and 'meta' in tags"
+sort = "date"
+reverse = true
+description = 'All of the posts about this site'
 
 [markata.summary]
 grid_attr = ['tags', 'series']
