@@ -40,8 +40,7 @@ see more about these components in [[ about-this-site ]]
 
 ## meta
 
-More about this site on these _meta_ posts.
+Some evergreen pages that are more about me or this site from the [[ meta ]] feed.
 
-{% for post in markata.feeds.meta.posts %}
-[[ {post.slug} ]] - {post.description}
+{% for post in markata.feeds.meta.posts %}* [[ {{post.slug}} ]] - {{post.description}}
 {% endfor %}
