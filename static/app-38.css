@@ -2326,29 +2326,24 @@ audio {
 }
 
 .inapage {
-  margin: 0px;
-}
-
-@media (min-width: 640px) {
-  .inapage {
-    margin: -2rem;
-  }
-}
-
-.inapage {
-  font-size: 1rem;
-  line-height: 1.5rem;
   margin-left: 1rem;
   margin-right: 1rem;
   text-align: center;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 h2.inapage {
   display: block;
 }
 
+.inapage {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 * {
-  z-index: 10;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 .social {
@@ -2474,7 +2469,7 @@ h2.inapage {
 }
 
 #posts ul {
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
 }
 
 #posts a {
@@ -3346,6 +3341,8 @@ article {
   --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
   --tw-ring-color: rgb(255 255 255 / 0.4);
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 article ul {
