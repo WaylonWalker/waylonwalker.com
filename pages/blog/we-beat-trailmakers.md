@@ -9,7 +9,8 @@ published: True
 
 ---
 
-Today we broke through the atmosphere in trailmakers ready for pickup from those back at mission conrol.
+Today we broke through the atmosphere in trailmakers ready for pickup from
+those back at mission conrol.
 
 > I haven't posted a lot of gaming content to by blog, idk why, but I think I
 > am going to start, especially for the ones that are good memories with my
@@ -66,6 +67,10 @@ but probably wont 100% it.
 
 ## I'm trying out video
 
-does this work?
+I turned on steam recording and played for a minute to test out hosting video here.
 
 <video src="https://dropper.wayl.one/api/file/efd58566-2f64-47d1-8b0b-13129b60a860.mp4" controls></video>
+
+## I accidentally entered deep space
+
+![screenshot-2025-01-12T02-04-53-917Z.png](https://dropper.wayl.one/api/file/956214ef-5f83-439b-9414-49be0c26b77a.webp)
