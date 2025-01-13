@@ -22,4 +22,12 @@ over dreamed, nearly undocumented framework to that I love and maintain.
 I am a Senior Software Engineer specializing in building data pipelines and web
 platforms with python.
 
-If you are wondering how I built this site see [[ about-this-site ]].
+If you are wondering what all makes up this site and how I think about it
+see [[ about-this-site ]] or how the site is built and the specific tech
+stack in [[ colophon ]].
+
+## slash pages
+
+Some evergreen pages that are more about me or this site.
+
+{{ '\n'.join(markata.feeds.slashes.map('f"* [[ {slug} ]] - {description}"', sort='slug')) }}

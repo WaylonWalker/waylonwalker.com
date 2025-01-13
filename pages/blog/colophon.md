@@ -23,6 +23,8 @@ Walker](https://waylonwalker.com), the typical content has changed and evolved
 over time.  I go back and make a few corrections, but for the most part things
 stay pretty much as they were published originally.
 
+see more in [[ about ]]
+
 ## tech
 
 This site is a static site build with my own static site generator [[ markata
@@ -34,8 +36,10 @@ are pulled in as a regular posts, all is hosted on cloudflare pages.
 * [[ thoughts ]]
 * cloudflare pages
 
+see more about these components in [[ about-this-site ]]
+
 ## meta
 
 More about this site on these _meta_ posts.
 
-{{ '\n'.join(markata.map('f"* [[ {slug} ]] - {description}"', sort='slug', filter='"meta" in tags')[:-1]) }}
+{{ '\n'.join(markata.map['f"* [[ {slug} ]] - {description}"', sort='slug', filter='"meta" in tags'](:-1)) }}
