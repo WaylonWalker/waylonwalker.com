@@ -17,12 +17,16 @@ nvim dotfiles install.
 
 ## Why
 
+{.bg-blue-900 .border-r-8 .border-black .rounded-xl .max-w-xl .p-6 .font-bold}
 Don't we have stow?
 
+{.bg-green-900 .border-l-8 .border-black .rounded-xl .max-w-xl .p-6 .ml-auto .mr-0 .font-bold}
 Ya, thats not enough.
 
+{.bg-blue-900 .border-r-8 .border-black .rounded-xl .max-w-xl .p-6 .font-bold}
 Why not??
 
+{.bg-green-900 .border-l-8 .border-black .rounded-xl .max-w-xl .p-6 .ml-auto .mr-0 .font-bold}
 Inevitably shit goes sideways and I break my vim install.
 
 ## How is nvim manager any better
