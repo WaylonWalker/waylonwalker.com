@@ -19,8 +19,16 @@ We initially spawned in a plains biome near an acacia and forest biome.
 
 ## Night one Zombie fight
 
+On the first night we had the obligitory zombie fight before getting beds and bases set.
+
 ![image](https://dropper.wayl.one/api/file/28b09b9c-6dd9-4437-9330-bf0e52401b6d.webp)
 
 ## Salmon Wrangler
 
+I was the designated food provider.  I setup a small wheat farm with about 64
+seeds, then went out to hunt down some salmon for the immediate food need.  I
+ended up with about a stack of salmon at the end of the session.
+
 ![image](https://dropper.wayl.one/api/file/28b09b9c-6dd9-4437-9330-bf0e52401b6d.webp)
+
+taaaaouch
