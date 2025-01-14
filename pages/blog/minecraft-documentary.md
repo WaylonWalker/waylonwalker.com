@@ -4,6 +4,7 @@ templateKey: blog-post
 title: minecraft documentary
 tags:
   - minecraft
+  - gaming
 published: true
 ---
 
