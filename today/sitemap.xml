@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/sitemap.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <title>today</title>
+    <link>https://waylonwalker.com/</link>
+   <url>
+      <title>💭 Supermini Nrf52840 Wireless Controller Development Board - Kriscables</title>
+      <description>The SuperMini nrf52840 is a sick controller for building keyboards, affordable, easy to get, and compact.  Bluetooth and</description>
+      <loc>https://waylonwalker.com//thoughts-529</loc>
+      <lastmod>2025-01-13</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Availability</title>
+      <description>nice overview of availability measurements and what they really mean.  The crazy world we live in today depends on so ma</description>
+      <loc>https://waylonwalker.com//thoughts-530</loc>
+      <lastmod>2025-01-13</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Why I Write</title>
+      <description>It&#39;s interesting how many people in tech maintain a blog.  I think part of this brings us back to web 1.0 days when so m</description>
+      <loc>https://waylonwalker.com//thoughts-531</loc>
+      <lastmod>2025-01-13</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 (110) The Future Of Htmx - Youtube</title>
+      <description>I like the charts that Theo brings to to these videos.  Shout out for a positive k8s reference and not shitting on it.
+
+</description>
+      <loc>https://waylonwalker.com//thoughts-532</loc>
+      <lastmod>2025-01-13</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Wondercraft Session One</title>
+      <description>My son and I are starting a new Minecraft server today called wondercraft. We initially spawned in a plains biome near an acacia and forest biome.</description>
+      <loc>https://waylonwalker.com//wondercraft-session-one</loc>
+      <lastmod>2025-01-13</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+</urlset>

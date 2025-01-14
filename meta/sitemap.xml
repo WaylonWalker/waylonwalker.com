@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/sitemap.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <title>meta</title>
+    <link>https://waylonwalker.com/</link>
+   <url>
+      <title>Start</title>
+      <description>Welcome to waylonwalker.com, my small corner of the internet.  I currently have I have quite a few different feeds that you can browse or subscribe to in your r</description>
+      <loc>https://waylonwalker.com//start</loc>
+      <lastmod>2025-01-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Colophon</title>
+      <description>All posts on this site are written by  see more in  This site is a static site build with my own static site generator  [ [ cloudflare pages see more about thes</description>
+      <loc>https://waylonwalker.com//colophon</loc>
+      <lastmod>2025-01-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Blogging In 2024</title>
+      <description>Over the past years couple of years blog traffic has been tanking, for some I dug into my emails from the google search console team and found two results ![ Ma</description>
+      <loc>https://waylonwalker.com//blogging-in-2024</loc>
+      <lastmod>2024-08-05</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Latest</title>
+      <description>My latest blog post is </description>
+      <loc>https://waylonwalker.com//latest</loc>
+      <lastmod>2024-06-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>About This Site</title>
+      <description>I registered waylonwalker.com and started making content for it in 2017 after a This was very similar to what happened to the tech industry in 2024. See  It Dig</description>
+      <loc>https://waylonwalker.com//about-this-site</loc>
+      <lastmod>2024-05-31</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Thoughts</title>
+      <description>These are generally my thoughts on a web page or some sort of url, except a These posts are intended to in two ways.  One, link building for the author.  I All </description>
+      <loc>https://waylonwalker.com//thoughts</loc>
+      <lastmod>2024-04-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Links</title>
+      <description></description>
+      <loc>https://waylonwalker.com//links</loc>
+      <lastmod>2022-05-07</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Automatically Generate A List Of Markdown Links In Vim</title>
+      <description>Let Before you run someone Something that I have always appreciated form Searchng through the internet I was able to find an article from Here is my interpretat</description>
+      <loc>https://waylonwalker.com//vim-markdown-links</loc>
+      <lastmod>2022-03-19</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Waylon Walker</title>
+      <description>👋 Hi, I am Waylon Walker.  Husband, Father of two, and creator things on the I believe in a decentralized platform where everyone has their own space on I am a </description>
+      <loc>https://waylonwalker.com//about</loc>
+      <lastmod>2021-11-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Uses</title>
+      <description>This is a listing of all the things that I use on a daily basis to build data Everything installed on my machines is done through ansible-playbooks.  It I run U</description>
+      <loc>https://waylonwalker.com//uses</loc>
+      <lastmod>2021-11-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Expand One Line Links</title>
+      <description>I wanted a super simple way to cross-link blog posts that require as little effort as possible, yet still looks good in vanilla markdown in GitHub.  I have been</description>
+      <loc>https://waylonwalker.com//expand-one-line-links</loc>
+      <lastmod>2020-11-18</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Thanks For Subscribing</title>
+      <description>You&#39;re awesome! Thanks for subscribing to my newsletter.</description>
+      <loc>https://waylonwalker.com//thank-you</loc>
+      <lastmod>2020-05-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+</urlset>

@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0">
+<channel>
+    <title>vim</title>
+    <link>https://waylonwalker.com/</link>
+    <description>I write about how I use python and linux in data science.</description>
+    <generator>Markata</generator>
+    <image>
+        <url>static/8bitcc.png</url>
+        <link>https://waylonwalker.com/</link>
+    </image>
+    <language>en</language>
+  <item>
+      <title>Nvim-Manager</title>
+      <link>https://waylonwalker.com//nvim-manager</link>
+      <description>I recently built a cli application as a nearly-one-shot-app called {.bg-blue-900 .border-r-8 .border-black .rounded-xl .max-w-xl .p-6 .font-bold} {.bg-green-900</description>
+      <guid>https://waylonwalker.com//nvim-manager</guid>
+      <pubDate>2025-01-12</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Vim-Gq</title>
+      <link>https://waylonwalker.com//vim-gq</link>
+      <description>Vim has a handy feature to format text with  ![ ![</description>
+      <guid>https://waylonwalker.com//vim-gq</guid>
+      <pubDate>2024-08-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Refactoring One Line Links Into Wikilinks</title>
+      <link>https://waylonwalker.com//refactoring-into-wikilinks</link>
+      <description>Previously I had setup a feature of my website to expand one line links into a [ Wikilinks are standard to a lot of wikis written in markdown. The wikilink synt</description>
+      <guid>https://waylonwalker.com//refactoring-into-wikilinks</guid>
+      <pubDate>2024-05-31</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 My Harpoon Config</title>
+      <link>https://waylonwalker.com//thoughts-242</link>
+      <description>Install it
+
+``` lua
+	{
+		&#34;ThePrimeagen/harpoon&#34;,
+		branch = &#34;harpoon2&#34;,
+		dependencies = { &#34;nvim-lua/plenary.nvim&#34; },
+		</description>
+      <guid>https://waylonwalker.com//thoughts-242</guid>
+      <pubDate>2024-04-16</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Nvim Stupid Gf Bind</title>
+      <link>https://waylonwalker.com//nvim-stupid-gf-bind</link>
+      <description>So after months of fighting with gf not going to template files, I finally This was the dumbest keybind in my config, that I copied from someone else I have jin</description>
+      <guid>https://waylonwalker.com//nvim-stupid-gf-bind</guid>
+      <pubDate>2023-12-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Diagnostic - Neovim Docs</title>
+      <link>https://waylonwalker.com//thoughts-151</link>
+      <description>Clear out lsp diagnostics in nvim.
+
+
+``` lua
+lua vim.diagnostic.reset()
+```</description>
+      <guid>https://waylonwalker.com//thoughts-151</guid>
+      <pubDate>2023-10-25</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Extending Vim With Shell Commands</title>
+      <link>https://waylonwalker.com//extending-vim-with-shell-commands</link>
+      <description>Vimconf 2022 Extending vim does not need to be complicated and can be done using cli tools I know all the files that I care to search for are called build.yml, </description>
+      <guid>https://waylonwalker.com//extending-vim-with-shell-commands</guid>
+      <pubDate>2022-11-12</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Nvim Navic</title>
+      <link>https://waylonwalker.com//nvim-navic</link>
+      <description>With the latest release of version of nvim 0.8.0 we get access to a new winbar nvim exposes the winbar api in lua, and you can send any text to the winbar as fo</description>
+      <guid>https://waylonwalker.com//nvim-navic</guid>
+      <pubDate>2022-10-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Vimgrep Open Buffers</title>
+      <link>https://waylonwalker.com//vimgrep-open-buffers</link>
+      <description>How to vimgrep over hidden files. I needed to delete all build pipeline steps that were named  Today After searching through all the projects it was clear that </description>
+      <guid>https://waylonwalker.com//vimgrep-open-buffers</guid>
+      <pubDate>2022-08-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Vim Plugged Snapshot</title>
+      <link>https://waylonwalker.com//vim-plugged-snapshot</link>
+      <description>A few of my friends and I all just borked our neovim configs during a plug https://twitter.com/pypeaday/status/1524882893914398732 Lucky for me I did it on a ho</description>
+      <guid>https://waylonwalker.com//vim-plugged-snapshot</guid>
+      <pubDate>2022-05-13</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Automatically Generate A List Of Markdown Links In Vim</title>
+      <link>https://waylonwalker.com//vim-markdown-links</link>
+      <description>Let Before you run someone Something that I have always appreciated form Searchng through the internet I was able to find an article from Here is my interpretat</description>
+      <guid>https://waylonwalker.com//vim-markdown-links</guid>
+      <pubDate>2022-03-19</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Open Files With Nvim Remote</title>
+      <link>https://waylonwalker.com//nvr-open-files</link>
+      <description>I recently found a really great  I have this added to my  In my workflow I open a tmux session for each project, so this First open neovim, but with the  If you</description>
+      <guid>https://waylonwalker.com//nvr-open-files</guid>
+      <pubDate>2022-03-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Vim Remaps Use Cmd In Place Of :</title>
+      <link>https://waylonwalker.com//vim-cmd</link>
+      <description>Anyone just starting out their vim customization journey is bound to run into this error. I If you run  You still need to map your remaps with a : if you do not</description>
+      <guid>https://waylonwalker.com//vim-cmd</guid>
+      <pubDate>2022-02-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Neovim Config For Git</title>
+      <link>https://waylonwalker.com//neovim-config-for-git</link>
+      <description>Creating a minimal config specifically for git commits has made running The other thing that is engrained into my muscle memory is  Here is the config that has </description>
+      <guid>https://waylonwalker.com//neovim-config-for-git</guid>
+      <pubDate>2022-02-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tmux And Vim Clipboard For Ubuntu</title>
+      <link>https://waylonwalker.com//ubuntu-terminal-clipboard</link>
+      <description>One of the first things I noticed broken in my terminal based workflow moving First off you need to get  I have tmux setup to automatically copy any selection I</description>
+      <guid>https://waylonwalker.com//ubuntu-terminal-clipboard</guid>
+      <pubDate>2022-01-26</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Markata Filters As Telescope Pickers In Neovim</title>
+      <link>https://waylonwalker.com//markata-telescope-picker</link>
+      <description>I often pop into my blog from neovim with the intent to look at just a To tie these into a Telescope picker you add the command as the NOTE telescope treates ea</description>
+      <guid>https://waylonwalker.com//markata-telescope-picker</guid>
+      <pubDate>2022-01-23</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Rename Python Variables With Nvim</title>
+      <link>https://waylonwalker.com//nvim-rename-python</link>
+      <description>I don I first tried the nvim lsp rename, and it failed, Then I pip installed Once you have rope installed you can call rename on the variable.</description>
+      <guid>https://waylonwalker.com//nvim-rename-python</guid>
+      <pubDate>2022-01-16</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Remove Vim Tab Characters</title>
+      <link>https://waylonwalker.com//remove-vim-tab-characters</link>
+      <description>I It turns out they are tabs, and you can get rid of the little leading</description>
+      <guid>https://waylonwalker.com//remove-vim-tab-characters</guid>
+      <pubDate>2022-01-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>List All The Files Containing A Phrase</title>
+      <link>https://waylonwalker.com//list-all-files-containing-phrase</link>
+      <description>One of the most useful skills you can acquire to make you faster at I Passing the flag  Giving </description>
+      <guid>https://waylonwalker.com//list-all-files-containing-phrase</guid>
+      <pubDate>2021-12-31</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Serve Html From Your Command Line</title>
+      <link>https://waylonwalker.com//serve-html-command-line</link>
+      <description>When I first moved to vim from and ide like vscode or sublime text one of my You will need a way to run another process alongside vim, here are a couple use bac</description>
+      <guid>https://waylonwalker.com//serve-html-command-line</guid>
+      <pubDate>2021-12-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Opening Files In Vim From Output Of Command</title>
+      <link>https://waylonwalker.com//nvim-telescope-custom-command</link>
+      <description>Many command line tools can output a list of files, this is quite powerful. Telescope is the fuzzy file finder I use every day inside of neovim.  Its pretty Thi</description>
+      <guid>https://waylonwalker.com//nvim-telescope-custom-command</guid>
+      <pubDate>2021-12-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Finding Hidden (Dotfiles) Using Telescope In Neovim</title>
+      <link>https://waylonwalker.com//nvim-telescope-hidden-files</link>
+      <description>Finding hidden files using Telescope as you fuzzy file finder is not too I have this keymap set to help me list out all files including hidden see the</description>
+      <guid>https://waylonwalker.com//nvim-telescope-hidden-files</guid>
+      <pubDate>2021-12-26</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Fugitive Verbose Commit</title>
+      <link>https://waylonwalker.com//fugitive-commit-verbose</link>
+      <description>Fugitive comes with a pretty sick way to commit files and see the diff at the example of a verbose commit in fugitive</description>
+      <guid>https://waylonwalker.com//fugitive-commit-verbose</guid>
+      <pubDate>2021-12-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>You Must Use Augroup With Autocmd In Vim | Here&#39;S How</title>
+      <link>https://waylonwalker.com//vim-augroup</link>
+      <description>If you are running vim autocmd https://youtu.be/2ITTn4Dl0lc For  Lets create a new file called  I What you need to do is clear out all commands in the augroup w</description>
+      <guid>https://waylonwalker.com//vim-augroup</guid>
+      <pubDate>2021-12-08</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Setup A Yaml Schema | Yamlls For A Silky Smooth Setup</title>
+      <link>https://waylonwalker.com//setup-yamlls</link>
+      <description>I The video for this one is part of a I have my  You will need the following plugins. I use plug, if you don Make sure that you have nvim Again if you don Next </description>
+      <guid>https://waylonwalker.com//setup-yamlls</guid>
+      <pubDate>2021-12-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>How Linux Users Install A Text Editor</title>
+      <link>https://waylonwalker.com//install-nvim-skit</link>
+      <description>In honor of the neovim 0.6.0 release, I decided to do a funny skit installing https://youtu.be/64oKLphhBuo The thing that took me the longest to realize was....</description>
+      <guid>https://waylonwalker.com//install-nvim-skit</guid>
+      <pubDate>2021-11-30</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>I Made A Neovim Plugin</title>
+      <link>https://waylonwalker.com//telegraph-release</link>
+      <description>I Check out the project  I want a simple way to make remaps into shell commands that can open new tmux For example I want to make remaps to do things like open </description>
+      <guid>https://waylonwalker.com//telegraph-release</guid>
+      <pubDate>2021-10-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Notes For Second Vim-Fundamentals Course Meetup</title>
+      <link>https://waylonwalker.com//vim-fundamentals-2</link>
+      <description>newline Mahesh Subrajmanium Venkatachalam - Plugins | Installing a Theme Matthew Fletcher - Registers | Advanced Motions Jump, Delete,  get a plugin manager unl</description>
+      <guid>https://waylonwalker.com//vim-fundamentals-2</guid>
+      <pubDate>2021-08-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Modal Jumping</title>
+      <link>https://waylonwalker.com//modal-jumping</link>
+      <description></description>
+      <guid>https://waylonwalker.com//modal-jumping</guid>
+      <pubDate>2021-06-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Python Lsp Setup</title>
+      <link>https://waylonwalker.com//setup-pylsp</link>
+      <description>Setting up python with the native nvim&amp;gt;0.5 lsp was mr https://github.com/neovim/nvim-lspconfig https://github.com/palantir/python-language-server/issues/190 </description>
+      <guid>https://waylonwalker.com//setup-pylsp</guid>
+      <pubDate>2021-05-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>How To Compare Two Files In Vim</title>
+      <link>https://waylonwalker.com//vim-diffsplit</link>
+      <description></description>
+      <guid>https://waylonwalker.com//vim-diffsplit</guid>
+      <pubDate>2021-05-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Vim Wsl Clipboard</title>
+      <link>https://waylonwalker.com//vim-wsl-clipboard</link>
+      <description>I wsl can access clip.exe.  You can do some cool things with it, such as Let pipe streams of text into clip.exe I recently made mine feel a bit more natural by </description>
+      <guid>https://waylonwalker.com//vim-wsl-clipboard</guid>
+      <pubDate>2021-04-17</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Vim Replace Visual Star</title>
+      <link>https://waylonwalker.com//vim-replace-visual-star</link>
+      <description>Replacing text based on whats in the current search register is a quite handy If there is one thing that I Like most about vim it Vim can often be a bit verbose</description>
+      <guid>https://waylonwalker.com//vim-replace-visual-star</guid>
+      <pubDate>2021-01-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Save Vim Macro</title>
+      <link>https://waylonwalker.com//save-vim-macro</link>
+      <description>If you are like me, you have created a macro or two that is pure glory, and you forget how you made it after a day or so, or you immediately want to store it aw</description>
+      <guid>https://waylonwalker.com//save-vim-macro</guid>
+      <pubDate>2021-01-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Live Substitution In Neovim</title>
+      <link>https://waylonwalker.com//neovim-live-substitution</link>
+      <description>Replacing text in vim can be quite frustrating especially since it doesn https://twitter.com/ I had to do a bit of searching and found a great post from  I beli</description>
+      <guid>https://waylonwalker.com//neovim-live-substitution</guid>
+      <pubDate>2021-01-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Keep Location List Closed</title>
+      <link>https://waylonwalker.com//keep-location-list-closed</link>
+      <description>Vim Location List eating up the screen while I am zoomed in and trying to live code Through some google search I found the culprit was syntastic.  It has an  I </description>
+      <guid>https://waylonwalker.com//keep-location-list-closed</guid>
+      <pubDate>2020-01-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Vim Notes</title>
+      <link>https://waylonwalker.com//vim-notes</link>
+      <description>I have gone quite awhile without using  edit a macro register register quickfix gF &amp;lt;C-x&amp;gt; zn</description>
+      <guid>https://waylonwalker.com//vim-notes</guid>
+      <pubDate>2018-02-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+<lastBuildDate></lastBuildDate>
+</channel>
+</rss>

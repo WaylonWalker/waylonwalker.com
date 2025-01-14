@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0">
+<channel>
+    <title>meta</title>
+    <link>https://waylonwalker.com/</link>
+    <description>I write about how I use python and linux in data science.</description>
+    <generator>Markata</generator>
+    <image>
+        <url>static/8bitcc.png</url>
+        <link>https://waylonwalker.com/</link>
+    </image>
+    <language>en</language>
+  <item>
+      <title>Start</title>
+      <link>https://waylonwalker.com//start</link>
+      <description>Welcome to waylonwalker.com, my small corner of the internet.  I currently have I have quite a few different feeds that you can browse or subscribe to in your r</description>
+      <guid>https://waylonwalker.com//start</guid>
+      <pubDate>2025-01-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Colophon</title>
+      <link>https://waylonwalker.com//colophon</link>
+      <description>All posts on this site are written by  see more in  This site is a static site build with my own static site generator  [ [ cloudflare pages see more about thes</description>
+      <guid>https://waylonwalker.com//colophon</guid>
+      <pubDate>2025-01-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Blogging In 2024</title>
+      <link>https://waylonwalker.com//blogging-in-2024</link>
+      <description>Over the past years couple of years blog traffic has been tanking, for some I dug into my emails from the google search console team and found two results ![ Ma</description>
+      <guid>https://waylonwalker.com//blogging-in-2024</guid>
+      <pubDate>2024-08-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Latest</title>
+      <link>https://waylonwalker.com//latest</link>
+      <description>My latest blog post is </description>
+      <guid>https://waylonwalker.com//latest</guid>
+      <pubDate>2024-06-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>About This Site</title>
+      <link>https://waylonwalker.com//about-this-site</link>
+      <description>I registered waylonwalker.com and started making content for it in 2017 after a This was very similar to what happened to the tech industry in 2024. See  It Dig</description>
+      <guid>https://waylonwalker.com//about-this-site</guid>
+      <pubDate>2024-05-31</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Thoughts</title>
+      <link>https://waylonwalker.com//thoughts</link>
+      <description>These are generally my thoughts on a web page or some sort of url, except a These posts are intended to in two ways.  One, link building for the author.  I All </description>
+      <guid>https://waylonwalker.com//thoughts</guid>
+      <pubDate>2024-04-01</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Links</title>
+      <link>https://waylonwalker.com//links</link>
+      <description></description>
+      <guid>https://waylonwalker.com//links</guid>
+      <pubDate>2022-05-07</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Automatically Generate A List Of Markdown Links In Vim</title>
+      <link>https://waylonwalker.com//vim-markdown-links</link>
+      <description>Let Before you run someone Something that I have always appreciated form Searchng through the internet I was able to find an article from Here is my interpretat</description>
+      <guid>https://waylonwalker.com//vim-markdown-links</guid>
+      <pubDate>2022-03-19</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Waylon Walker</title>
+      <link>https://waylonwalker.com//about</link>
+      <description>👋 Hi, I am Waylon Walker.  Husband, Father of two, and creator things on the I believe in a decentralized platform where everyone has their own space on I am a </description>
+      <guid>https://waylonwalker.com//about</guid>
+      <pubDate>2021-11-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Uses</title>
+      <link>https://waylonwalker.com//uses</link>
+      <description>This is a listing of all the things that I use on a daily basis to build data Everything installed on my machines is done through ansible-playbooks.  It I run U</description>
+      <guid>https://waylonwalker.com//uses</guid>
+      <pubDate>2021-11-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Expand One Line Links</title>
+      <link>https://waylonwalker.com//expand-one-line-links</link>
+      <description>I wanted a super simple way to cross-link blog posts that require as little effort as possible, yet still looks good in vanilla markdown in GitHub.  I have been</description>
+      <guid>https://waylonwalker.com//expand-one-line-links</guid>
+      <pubDate>2020-11-18</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Thanks For Subscribing</title>
+      <link>https://waylonwalker.com//thank-you</link>
+      <description>You&#39;re awesome! Thanks for subscribing to my newsletter.</description>
+      <guid>https://waylonwalker.com//thank-you</guid>
+      <pubDate>2020-05-20</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+<lastBuildDate></lastBuildDate>
+</channel>
+</rss>

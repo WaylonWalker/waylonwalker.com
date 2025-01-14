@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width" name="viewport"/>
+<link href="/8bitcc.ico" rel="icon" type="image/png"/>
+<meta content="website" name="og:type"/>
+<title>Tmux Source-File</title>
+<meta content="Tmux Source-File" name="twitter:title"/>
+<meta content="Tmux Source-File" name="og:title"/>
+<meta content="So you have been tricking out that  Let We can run this command from your shell to re-source your changed  It also works from the tmux command line. It This is " name="description"/>
+<meta content="So you have been tricking out that  Let We can run this command from your shell to re-source your changed  It also works from the tmux command line. It This is " name="og:description"/>
+<meta content="So you have been tricking out that  Let We can run this command from your shell to re-source your changed  It also works from the tmux command line. It This is " name="twitter:description"/>
+<meta content="article" name="og:type"/>
+<meta content="https://waylonwalker.com/tmux-source-file" name="og:url"/>
+<meta content="http://shots.wayl.one/shot/?url=https://waylonwalker.com/tmux-source-file&amp;height=600&amp;width=1200&amp;scaled_width=1200&amp;scaled_height=600" name="og:image"/>
+<meta content="http://shots.wayl.one/shot/?url=https://waylonwalker.com/tmux-source-file&amp;height=640&amp;width=1280&amp;scaled_width=1280&amp;scaled_height=640" name="twitter:image"/>
+<meta content="1200" name="og:image:width"/>
+<meta content="600" name="og:image:height"/>
+<meta content="@_waylonwalker" name="twitter:creator"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Waylon Walker" name="og:author"/>
+<meta content="Waylon Walker" name="og:site_name"/>
+<meta content="waylon@waylonwalker.com" name="og:author_email"/>
+<meta content="markata 0.8.1.dev12" name="generator"/>
+<meta content="$ilp.uphold.com/MGN2ni2YMXaQ" name="monetization"/>
+<meta content="#322D39" name="theme-color"/>
+<link href="/app-39.css" rel="stylesheet"/>
+<link href="https://waylonwalker.com/tmux-source-file/" rel="canonical"/>
+<link href="https://waylonwalker.com/tmux-source-file/amp/" rel="amphtml"/>
+<link href="https://indieauth.com/auth" rel="authorization_endpoint"/>
+<link href="https://tokens.indieauth.com/token" rel="token_endpoint"/>
+<link href="https://waylonwalker.com/tmux-source-file/amp" rel="amphtml"/>
+<link href="https://waylonwalker.com/archive" rel="micropub"/>
+<link href="https://webmention.io/waylonwalker.com/webmention" rel="webmention"/>
+<link href="https://images.waylonwalker.com" rel="preconnect"/>
+<link href="https://covers.waylonwalker.com" rel="preconnect"/>
+<link href="https://stable-diffusion.waylonwalker.com" rel="preconnect"/>
+<link href="https://screenshots.waylonwalker.com" rel="preconnect"/>
+<link href="/8bitcc_48x48.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_72x72.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_96x96.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_144x144.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_192x192.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_256x256.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_384x384.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_512x512.png" rel="apple-touch-icon"/>
+<script src="/htmx.min.js"></script> <script>
+        navigator.serviceWorker.getRegistrations().then(function (registrations) {
+            for (let registration of registrations) {
+                registration.unregister();
+            }
+        });
+
+    </script>
+<script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "WebPage",
+                "name": "Tmux Source-File",
+                "headline": "Tmux Source-File",
+                "datePublished": "2021-08-06",
+                "dateModified": "2021-08-06",
+                "author": {
+                    "@type": "Person",
+                    "name": "Waylon Walker"
+                    "url": "https://waylonwalker.com"
+                },
+                "image": [
+                    "https://shots.wayl.one/shot/?url=https://waylonwalker.com/&height=640&width=1280&scaled_width=1280&scaled_height=640",
+                ]
+                "speakable":
+                {
+                    "@type": "SpeakableSpecification",
+                    "cssSelector": [
+                        "#title",
+                        "#post-body"
+                    ]
+                },
+                "url": "https://waylonwalker.com/"
+            }
+        </script>
+</head>
+<body position="relative">
+<div class="neon-ring"></div>
+<div class="dubs">
+<nav class="w-full bg-gray-950 py-4 mb-8 sticky border-b border-pink-500">
+<ul>
+<li><a href="/" hx-boost="true">Home</a></li>
+<li><a href="/start/" hx-boost="true">Start Here</a></li>
+<li><a href="/archive/" hx-boost="true">Archive</a></li>
+<li><a href="/about/" hx-boost="true">About</a></li>
+<li><a href="/feeds/" hx-boost="true">RSS</a></li>
+</ul>
+</nav> <div>
+<article class="blog-post h-entry">
+<div id="title-wrapper">
+<a class="no-underline u-url" href="https://waylonwalker.com//" hx-boost="true">
+<h1 class="flair blog title no-link" id="title">
+            Tmux Source-File
+        </h1>
+</a>
+<p class="m-0 sm:m-[-2rem]">
+<time class="dt-published post-date" datetime="" style="text-align: right; z-index: 2"></time>
+</p>
+<div class="flex flex-row h-card p-author space-between" rel="author">
+<img alt="pixelated avatar of Waylon Walker with a yellow and pink background" class="m-auto ml-0 w-16 h-16 rounded-full u-photo shadow-[0_0_5px_5px_rgba(0,0,0,0.4)]" src="/88-8bitcc.webp"/>
+<div class="content">
+<a class="p-name u-url h-card p-author" href="https://waylonwalker.com/" hx-boost="true" rel="me">
+<p>
+<span class="p-given-name">Waylon</span>
+<span class="p-family-name">Walker</span>
+</p>
+</a>
+<p class="p-note">
+                Learning in Public
+                <a href="https://twitter.com/_WaylonWalker" rel="me">@_WaylonWalker</a>
+</p>
+</div>
+</div>
+<!-- edit -->
+<!-- <p> -->
+<!--     <a href="https://github.com/WaylonWalker/waylonwalker.com/edit/main/pages/blog/.md" -->
+<!--         alt="edit post url" title="edit this post">edit<span role="img" aria-label="">✏️</span></a> -->
+<!-- </p> -->
+</div><h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Tags</h2>
+<ul class="flex flex-wrap justify-center p-0 m-auto max-w-md border-yellow-400 tags">
+</ul> <div class="e-content" data-pagefind-body="" id="post-body">
+<p>
+<iframe allow="accelerometer; autoplay;
+        clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="m-auto my-8" frameborder="0" height="450" src="https://youtube.com/embed/dDq0depPrTs" title="YouTube video
+        player" width="800"></iframe>
+</p>
+<p>So you have been tricking out that <code>.tmux.conf</code>, you're looking for a silky
+smooth workflow that lets you fly through tmux with super speed, but every time
+you tweak out that <code>.tmux.conf</code> you have to restart your whole session. Not amymore,</p>
+<p>Let's add this to the bottom of our tmux.conf so that you can see everytime it
+gets sourced.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span>display-message<span class="w"> </span><span class="s2">"hello beautiful"</span>
+</pre></div>
+
+</pre>
+<h2 id="command">command <a aria-label="Permalink to Heading command " class="header-anchor" href="#command" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>We can run this command from your shell to re-source your changed <code>.tmux.conf</code></p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span>tmux<span class="w"> </span>source-file<span class="w"> </span>~/.tmux.conf
+</pre></div>
+
+</pre>
+<p>It also works from the tmux command line.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span>source-file<span class="w"> </span>~/.tmux.conf
+</pre></div>
+
+</pre>
+<h2 id="tmux-hotkey">tmux hotkey <a aria-label="Permalink to Heading tmux hotkey " class="header-anchor" href="#tmux-hotkey" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>It's very common to set this up as a keybinding so that you can do it easily
+without needing to memorize the exact command.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="nb">bind</span><span class="w"> </span>-T<span class="w"> </span>prefix<span class="w"> </span>r<span class="w"> </span>source-file<span class="w"> </span>~/.tmux.conf
+<span class="nb">bind</span><span class="w"> </span>-n<span class="w"> </span>M-r<span class="w"> </span>source-file<span class="w"> </span>~/.tmux.conf
+</pre></div>
+
+</pre>
+<h2 id="from-vim">from vim <a aria-label="Permalink to Heading from vim " class="header-anchor" href="#from-vim" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>This is my preferred way of re-sourcing my <code>.tmux.conf</code>.  It sits quietly in
+the background, and I dont need to remember to do anything.  If you are a vim
+user you can automate this process by creating a <code>autocmd bufwritepost</code>.  This
+will shell out the <code>tmux source-file</code> everytime you save your <code>.tmux.conf</code>.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span>autocmd bufwritepost .tmux.<span class="k">conf</span> execute <span class="s1">':!tmux source-file %'</span>
+autocmd bufwritepost .tmux.local.<span class="k">conf</span> execute <span class="s1">':!tmux source-file %'</span>
+</pre></div>
+
+</pre>
+<p class="hover:z-20">
+<span class="z-10 group group-hover:z-20 relative inline-block">
+<a class="wikilink text-pink-500 hover:underline" href="https://waylonwalker.com//tmux-nav-2021" hx-boost="true" title="tmux-nav-2021"> tmux-nav-2021</a>
+<button aria-label="Preview" class="ml-2 text-pink-500 hover:underline focus:outline-none">
+<svg class="h-5 w-5 inline align-middle" fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="m2.25 15.75 5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5 1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5Zm10.5-11.25h.008v.008h-.008V8.25Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</button>
+<a class="hidden absolute top-6 left-0 z-20 group-hover:block" href="https://waylonwalker.com//tmux-nav-2021">
+<img alt="a screenshot of https://waylonwalker.com//tmux-nav-2021" class="rounded-xl transition-height ease-in duration-75 h-0 opacity-0 group-hover:opacity-100 group-hover:h-[800px] max-w-none" height="800" src="https://shots.wayl.one/shot/?url=https://waylonwalker.com//tmux-nav-2021&amp;height=1600&amp;width=1200&amp;scaled_width=600&amp;scaled_height=800&amp;selectors=" style=" box-shadow: rgba(0, 0, 0, 0.6) 0 0 500rem 500rem; " width="600"/>
+</a>
+</span>
+</p>
+<blockquote>
+<p>for more information on how I navigate tmux, check out this full post</p>
+</blockquote>
+<p>Also check out the full YouTube
+<a href="https://www.youtube.com/playlist?list=PLTRNG6WIHETB4reAxbWza3CZeP9KL6Bkr">tmux-playlist</a>
+to see all of the videos in this series.</p>
+</div>
+</article>
+<article>
+<h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Recent Posts</h2>
+<ul class="px-0">
+<li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/wondercraft-session-one/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Wondercraft Session One
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-13">
+                2025-1-13
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/one-shot-s3-cleanup/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            One-Shot-S3-Cleanup
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-12">
+                2025-1-12
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/nvim-manager/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Nvim-Manager
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-12">
+                2025-1-12
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/now/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Now
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-12">
+                2025-1-12
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/we-beat-trailmakers/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            We Beat Trailmakers
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-10">
+                2025-1-10
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/postiz-file-upload/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Postiz-File-Upload
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-10">
+                2025-1-10
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/start/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Start
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-03">
+                2025-1-3
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/slow-nfs-performance/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Slow Nfs Performance
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-02">
+                2025-1-2
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/colophon/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Colophon
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-02">
+                2025-1-2
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/setting-up-ucore-zfs/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Setting Up Ucore-Zfs
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-12-27">
+                2024-12-27
+            </time>
+</p>
+</a>
+</li></ul>
+<h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Recent <a href="/thoughts/" hx-boost="true">Thoughts</a></h2>
+<ul class="px-0">
+<li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-529/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Supermini Nrf52840 Wireless Controller Developme
+            ...
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-13">
+                2025-1-13
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-530/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Availability
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-13">
+                2025-1-13
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-531/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Why I Write
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-13">
+                2025-1-13
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-532/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 (110) The Future Of Htmx - Youtube
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-13">
+                2025-1-13
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-524/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 (107) Why You Should Game On Linux (Feat. Glorio
+            ...
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-11">
+                2025-1-11
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-526/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Bluesky Is More Like Twitter Than X Is
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-11">
+                2025-1-11
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-527/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Quick Start - Kotaemon Docs
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-11">
+                2025-1-11
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-523/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 V2 Suddenly Getting Client-Not-Enrolled Today - 
+            ...
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-10">
+                2025-1-10
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-515/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Olimorris/Codecompanion.Nvim: ✨ Ai-Powered Codin
+            ...
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-09">
+                2025-1-9
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-516/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Gitingest
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-09">
+                2025-1-9
+            </time>
+</p>
+</a>
+</li></ul>
+<h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Recent Posts from People I read</h2>
+<div hx-get="https://reader.waylonwlker.com/10-written" hx-swap="outerHTML" hx-trigger="load"></div>
+<h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Recent Posts from my YouTube subs</h2>
+<div hx-get="https://reader.waylonwlker.com/10-video" hx-swap="outerHTML" hx-trigger="load"></div>
+<h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Recent Posts from my favorite pods</h2>
+<div hx-get="https://reader.waylonwlker.com/10-video" hx-swap="outerHTML" hx-trigger="load"></div> </article>
+</div>
+<footer class="bg-gray-900 border-t border-pink-800 pb-8">
+<ul class="social my-8">
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://waylonwalker.com/feeds" hx-boost="true" rel="me">RSS</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://twitter.com/_WaylonWalker" rel="me">twitter</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://youtube.com/waylonwalker">youtube</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://www.youtube.com/channel/UCHuxc1HRsd3aRjvL6C817tQ">gaming-youtube</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://www.linkedin.com/in/waylonwalker/">LinkedIn</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://github.com/WaylonWalker" rel="me">GitHub</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://dev.to/waylonwalker">Dev.to</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://www.twitch.tv/waylonwalker">twitch</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="mailto:hello@waylonwalker.com" rel="me">hello@waylonwalker.com</a>
+</li>
+</ul>
+<p>© 2021 - 2025</p>
+</footer> </div>
+</body>
+</html>

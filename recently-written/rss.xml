@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0">
+<channel>
+    <title>recently_written</title>
+    <link>https://waylonwalker.com/</link>
+    <description>I write about how I use python and linux in data science.</description>
+    <generator>Markata</generator>
+    <image>
+        <url>static/8bitcc.png</url>
+        <link>https://waylonwalker.com/</link>
+    </image>
+    <language>en</language>
+  <item>
+      <title>Wondercraft Session One</title>
+      <link>https://waylonwalker.com//wondercraft-session-one</link>
+      <description>My son and I are starting a new Minecraft server today called wondercraft. We initially spawned in a plains biome near an acacia and forest biome.</description>
+      <guid>https://waylonwalker.com//wondercraft-session-one</guid>
+      <pubDate>2025-01-13</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>One-Shot-S3-Cleanup</title>
+      <link>https://waylonwalker.com//one-shot-s3-cleanup</link>
+      <description>So I made a mistake in an app I am working on and ended up creating thumbnails I got the idea of the one shot app from  Here is the result of the s3 Here is the</description>
+      <guid>https://waylonwalker.com//one-shot-s3-cleanup</guid>
+      <pubDate>2025-01-12</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Nvim-Manager</title>
+      <link>https://waylonwalker.com//nvim-manager</link>
+      <description>I recently built a cli application as a nearly-one-shot-app called {.bg-blue-900 .border-r-8 .border-black .rounded-xl .max-w-xl .p-6 .font-bold} {.bg-green-900</description>
+      <guid>https://waylonwalker.com//nvim-manager</guid>
+      <pubDate>2025-01-12</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Now</title>
+      <link>https://waylonwalker.com//now</link>
+      <description>Last update Sun Jan 12 09:08:07 PM CST 2025 Moving from Arch to Bazzite, I kubernetes - trying to get better k8s in the homelab - All of my services I run in my</description>
+      <guid>https://waylonwalker.com//now</guid>
+      <pubDate>2025-01-12</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>We Beat Trailmakers</title>
+      <link>https://waylonwalker.com//we-beat-trailmakers</link>
+      <description>Today we broke through the atmosphere in trailmakers ready for pickup from I haven Today we hit 100% of the required parts required to build the space ship and </description>
+      <guid>https://waylonwalker.com//we-beat-trailmakers</guid>
+      <pubDate>2025-01-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Postiz-File-Upload</title>
+      <link>https://waylonwalker.com//postiz-file-upload</link>
+      <description>Today I learned that the docs in postiz are a bit behind, (fantastic docs btw, This  looking into my running instance I can see my images there.</description>
+      <guid>https://waylonwalker.com//postiz-file-upload</guid>
+      <pubDate>2025-01-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Start</title>
+      <link>https://waylonwalker.com//start</link>
+      <description>Welcome to waylonwalker.com, my small corner of the internet.  I currently have I have quite a few different feeds that you can browse or subscribe to in your r</description>
+      <guid>https://waylonwalker.com//start</guid>
+      <pubDate>2025-01-03</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Slow Nfs Performance</title>
+      <link>https://waylonwalker.com//slow-nfs-performance</link>
+      <description>I I I just started trying to build this site in a cronjob, It was taking 20 minutes I just moved into the master node and the results were wild at ~30x faster I</description>
+      <guid>https://waylonwalker.com//slow-nfs-performance</guid>
+      <pubDate>2025-01-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Colophon</title>
+      <link>https://waylonwalker.com//colophon</link>
+      <description>All posts on this site are written by  see more in  This site is a static site build with my own static site generator  [ [ cloudflare pages see more about thes</description>
+      <guid>https://waylonwalker.com//colophon</guid>
+      <pubDate>2025-01-02</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Setting Up Ucore-Zfs</title>
+      <link>https://waylonwalker.com//setting-up-ucore-zfs</link>
+      <description>I just setup my oldest hardware on the newest hotest server distro ucore-zfs. My current boot log shows that I first started daily driving bazzite back in Four </description>
+      <guid>https://waylonwalker.com//setting-up-ucore-zfs</guid>
+      <pubDate>2024-12-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+<lastBuildDate></lastBuildDate>
+</channel>
+</rss>

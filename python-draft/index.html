@@ -1,0 +1,858 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" href="/8bitcc.ico" type="image/png" />
+    <meta name="og:type" content="website" />
+    <title>All Posts</title>
+<meta name="twitter:title" content="All Posts" />
+<meta name="og:title" content="All Posts" />
+<meta name="description" content="A feed of all my python draft posts" />
+<meta name="og:description" content="A feed of all my python draft posts" />
+<meta name="twitter:description" content="A feed of all my python draft posts" />
+<meta name="og:type" content="article" />
+<meta name="og:url" content="https://waylonwalker.com/python-draft" />
+<meta name="og:image" content="http://shots.wayl.one/shot/?url=https://waylonwalker.com/python-draft&height=600&width=1200&scaled_width=1200&scaled_height=600" />
+<meta name="twitter:image" content="http://shots.wayl.one/shot/?url=https://waylonwalker.com/python-draft&height=640&width=1280&scaled_width=1280&scaled_height=640" />
+<meta name="og:image:width" content="1200" />
+<meta name="og:image:height" content="600" />
+<meta name="twitter:creator" content="@_waylonwalker" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="og:author" content="Waylon Walker" />
+<meta name="og:site_name" content="Waylon Walker" />
+<meta name="og:author_email" content="waylon@waylonwalker.com" />
+<meta name="generator" content="markata 0.8.1.dev12" />
+<meta name="monetization" content="$ilp.uphold.com/MGN2ni2YMXaQ" />
+<meta name="theme-color" content="#322D39" />
+
+<link rel="stylesheet" href="/app-39.css" />
+<link rel="canonical" href="https://waylonwalker.com/python-draft/" />
+<link rel="amphtml" href="https://waylonwalker.com/python-draft/amp/" />
+<link rel="authorization_endpoint" href="https://indieauth.com/auth" />
+<link rel="token_endpoint" href="https://tokens.indieauth.com/token" />
+<link rel="amphtml" href="https://waylonwalker.com/python-draft/amp" />
+<link rel="micropub" href="https://waylonwalker.com/archive" />
+<link rel="webmention" href="https://webmention.io/waylonwalker.com/webmention" />
+<link rel="preconnect" href="https://images.waylonwalker.com" />
+<link rel="preconnect" href="https://covers.waylonwalker.com" />
+<link rel="preconnect" href="https://stable-diffusion.waylonwalker.com" />
+<link rel="preconnect" href="https://screenshots.waylonwalker.com" />
+<link rel="apple-touch-icon" href="/8bitcc_48x48.png" />
+<link rel="apple-touch-icon" href="/8bitcc_72x72.png" />
+<link rel="apple-touch-icon" href="/8bitcc_96x96.png" />
+<link rel="apple-touch-icon" href="/8bitcc_144x144.png" />
+<link rel="apple-touch-icon" href="/8bitcc_192x192.png" />
+<link rel="apple-touch-icon" href="/8bitcc_256x256.png" />
+<link rel="apple-touch-icon" href="/8bitcc_384x384.png" />
+<link rel="apple-touch-icon" href="/8bitcc_512x512.png" />
+
+<script src="/htmx.min.js"></script>    <script>
+        navigator.serviceWorker.getRegistrations().then(function (registrations) {
+            for (let registration of registrations) {
+                registration.unregister();
+            }
+        });
+
+    </script>
+    <script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "WebPage",
+                "name": "All Posts",
+                "headline": "All Posts",
+                "datePublished": "",
+                "dateModified": "",
+                "author": {
+                    "@type": "Person",
+                    "name": "Waylon Walker"
+                    "url": "https://waylonwalker.com"
+                },
+                "image": [
+                    "https://shots.wayl.one/shot/?url=https://waylonwalker.com/&height=640&width=1280&scaled_width=1280&scaled_height=640",
+                ]
+                "speakable":
+                {
+                    "@type": "SpeakableSpecification",
+                    "cssSelector": [
+                        "#title",
+                        "#post-body"
+                    ]
+                },
+                "url": "https://waylonwalker.com/"
+            }
+        </script>
+</head>
+
+<body position="relative">
+    <div class="neon-ring"></div>
+    <div class="dubs">
+<nav class='w-full bg-gray-950 py-4 mb-8 sticky border-b border-pink-500'>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/start/" hx-boost="true">Start Here</a></li>
+        <li><a href="/archive/" hx-boost="true">Archive</a></li>
+        <li><a href="/about/" hx-boost="true">About</a></li>
+        <li><a href="/feeds/" hx-boost="true">RSS</a></li>
+    </ul>
+</nav><ul class="social">
+    <li>
+        <a href="https://twitter.com/_WaylonWalker" rel='me'>twitter</a>
+    </li>
+    <li>
+        <a href="https://youtube.com/waylonwalker">youtube</a>
+    </li>
+    <li>
+        <a href="https://www.youtube.com/channel/UCHuxc1HRsd3aRjvL6C817tQ">gaming-youtube</a>
+    </li>
+    <li>
+        <a href="https://www.linkedin.com/in/waylonwalker/">LinkedIn</a>
+    </li>
+    <li>
+        <a href="https://github.com/WaylonWalker" rel='me'>GitHub</a>
+    </li>
+    <li>
+        <a href="https://dev.to/waylonwalker">Dev.to</a>
+    </li>
+    <li>
+        <a href="https://www.twitch.tv/waylonwalker">twitch</a>
+    </li>
+</ul>    <h1 class="flair text-center">Post Archive</h1>
+    <ul class="archive-tags">
+        <li>
+            <a href="/python/" hx-boost="true"> python </a>
+        </li>
+        <li>
+            <a href="/linux/" hx-boost="true"> linux </a>
+        </li>
+        <li>
+            <a href="/vim/" hx-boost="true"> vim </a>
+        </li>
+        <li>
+            <a href="/kedro/" hx-boost="true"> kedro </a>
+        </li>
+    </ul>
+<article id="posts" class="h-feed hfeed list archive-list">
+    <ul>
+<li class="post group blog-post h-entry hentry">
+    <a href="/thinking-about-static-sites-in-2024/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">Thinking About Static Sites In 2024</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            actions build k8s build fastapi sqlite
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                blog-post
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2024-05-30">
+                2024-5-30
+            </time>
+        </div>
+    </a>
+</li><li class="post group blog-post h-entry hentry">
+    <a href="/fokais/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">Hosted Platform Brainstorm</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            &amp;lt;img
+src=&amp;quot;http://localhost:8000/shot/?url=https://asdf.com&amp;amp;height=450&amp;amp;width=800&amp;amp;scaled_width=800&amp;amp;scaled_height=450&amp;amp;selectors=&amp;quot; 
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                blog-post
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2023-11-15">
+                2023-11-15
+            </time>
+        </div>
+    </a>
+</li><li class="post group blog-post h-entry hentry">
+    <a href="/pycon-2023/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">Pycon 2023</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            I don In an alternate timeline the maintainer of newton could have chose to use
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                blog-post
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2023-06-09">
+                2023-6-9
+            </time>
+        </div>
+    </a>
+</li><li class="post group til h-entry hentry">
+    <a href="/getting-started-with-pydantic/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">Getting Started With Pydantic</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            Pydantic is a Python library for serializing data into models that can be To install pydantic you will first need python and pip. Once you have pip Always insta
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                TIL: Today I Learned
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2023-05-30">
+                2023-5-30
+            </time>
+        </div>
+    </a>
+</li><li class="post group blog-post h-entry hentry">
+    <a href="/marvin-s-ai-fn/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">Marvin'S Ai_Fn</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                blog-post
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2023-05-17">
+                2023-5-17
+            </time>
+        </div>
+    </a>
+</li><li class="post group til h-entry hentry">
+    <a href="/github-actions-cache-venv/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">Caching Python Virtual Environments In Github Acti...</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                TIL: Today I Learned
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2022-10-21">
+                2022-10-21
+            </time>
+        </div>
+    </a>
+</li><li class="post group til h-entry hentry">
+    <a href="/markata-github-pages/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">Markata Github Pages</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            11ty https://www.rockyourcode.com/how-to-deploy-eleventy-to-github-pages-with-github-actions/ hugo puts it in the base url https://gohugo.io/getting-started/con
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                TIL: Today I Learned
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2022-10-19">
+                2022-10-19
+            </time>
+        </div>
+    </a>
+</li><li class="post group til h-entry hentry">
+    <a href="/django-rest-framework-react/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">Using Django Rest Framework Inside React</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                TIL: Today I Learned
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2022-10-09">
+                2022-10-9
+            </time>
+        </div>
+    </a>
+</li><li class="post group til h-entry hentry">
+    <a href="/django-polls-app/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">Django Polls App</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                TIL: Today I Learned
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2022-09-26">
+                2022-9-26
+            </time>
+        </div>
+    </a>
+</li><li class="post group til h-entry hentry">
+    <a href="/year/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">Highlighting Text Ranges With Rich | Python</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            {% for year in markata.map( {% for post in markata.map( [
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                TIL: Today I Learned
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2022-08-24">
+                2022-8-24
+            </time>
+        </div>
+    </a>
+</li><li class="post group til h-entry hentry">
+    <a href="/kedro-disable-hook/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">How To Disable Kedro Viz | Or Any Kedro Hook</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                TIL: Today I Learned
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2022-08-08">
+                2022-8-8
+            </time>
+        </div>
+    </a>
+</li><li class="post group til h-entry hentry">
+    <a href="/polybar-gpu-stats/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">Gpu Stats In My Linux Statusbar</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                TIL: Today I Learned
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2022-08-03">
+                2022-8-3
+            </time>
+        </div>
+    </a>
+</li><li class="post group blog-post h-entry hentry">
+    <a href="/building-with-3-11-dev/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">Running My Blog On 3.11-Dev</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            3.10.5: 109.441
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                blog-post
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2022-07-29">
+                2022-7-29
+            </time>
+        </div>
+    </a>
+</li><li class="post group til h-entry hentry">
+    <a href="/xrandr-manager/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">Manage Your Displays With Xrandr Manager</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            xrandr is a great cli to manage your windows in a linux distro using x11, which Check out the xrander-manager is a python cli application that is simply a nice 
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                TIL: Today I Learned
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2022-07-16">
+                2022-7-16
+            </time>
+        </div>
+    </a>
+</li><li class="post group blog-post h-entry hentry">
+    <a href="/pipx-examples/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">Pipx Examples</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                blog-post
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2022-01-07">
+                2022-1-7
+            </time>
+        </div>
+    </a>
+</li><li class="post group blog-post h-entry hentry">
+    <a href="/copier-templates/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">Copier Templates</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            %%include til/copier %%include til/copier-template-variables %%include til/copier-answers
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                blog-post
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2022-01-05">
+                2022-1-5
+            </time>
+        </div>
+    </a>
+</li><li class="post group blog-post h-entry hentry">
+    <a href="/kedro-course/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">Kedro Course</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            find all nodes with raw in the name use parameters make and use a logger use find-kedro in spaceflights slide in a new node vizualize your pipeline find slow no
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                blog-post
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2021-12-04">
+                2021-12-4
+            </time>
+        </div>
+    </a>
+</li><li class="post group blog-post h-entry hentry">
+    <a href="/nix-python-interpreter/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">Using Nix To Manage My Python Interpreter</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            I recently started playing with nix. automatically select correct python version per project activating one doesn https://search.nixos.org/
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                blog-post
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2021-11-14">
+                2021-11-14
+            </time>
+        </div>
+    </a>
+</li><li class="post group blog-post h-entry hentry">
+    <a href="/kedro-pipeline-create/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">Kedro Pipeline Create</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            Kedro pipeline create is a command that makes creating new https://youtu.be/HtyIKqlEoNw The kedro cli comes with the following command to scaffold out The direc
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                blog-post
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2021-08-22">
+                2021-8-22
+            </time>
+        </div>
+    </a>
+</li><li class="post group blog-post h-entry hentry">
+    <a href="/manage-many-git-repos/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">Manage Many Git Repos With Ease</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            mu-repo
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                blog-post
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2021-06-13">
+                2021-6-13
+            </time>
+        </div>
+    </a>
+</li><li class="post group blog-post h-entry hentry">
+    <a href="/upcoming-streams/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">Upcoming Stream</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            I am starting to stream 3 days per week, before I start work in the morning. On Monday kedro-diff test kedro-diff on piplines with history setup deploy pipeline
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                blog-post
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2021-06-08">
+                2021-6-8
+            </time>
+        </div>
+    </a>
+</li><li class="post group blog-post h-entry hentry">
+    <a href="/kedro-node/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">Comprehensive Guide To Creating Kedro Nodes</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            The Kedro node is an essential part of the pipeline. It defines what catalog 👆 Unsure what kedro is? Check out this post. The node function is the most common a
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                blog-post
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2021-06-03">
+                2021-6-3
+            </time>
+        </div>
+    </a>
+</li><li class="post group blog-post h-entry hentry">
+    <a href="/kedro-pypi-list/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">Creating Pypi-List With Kedro</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            I had an idea come to me via twitter. Short one word name packages are becoming I started with the simple index.  Pypi provides a single page listing to every
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                blog-post
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2021-05-23">
+                2021-5-23
+            </time>
+        </div>
+    </a>
+</li><li class="post group blog-post h-entry hentry">
+    <a href="/setup-pylsp/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">Python Lsp Setup</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            Setting up python with the native nvim&amp;gt;0.5 lsp was mr https://github.com/neovim/nvim-lspconfig https://github.com/palantir/python-language-server/issues/190 
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                blog-post
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2021-05-17">
+                2021-5-17
+            </time>
+        </div>
+    </a>
+</li><li class="post group blog-post h-entry hentry">
+    <a href="/vim-fugitive/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">Vim Fugitive</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            :on This one has nothing to do with fugitive, but is a native vim feature that C-i jump The jumplist is sorted Oldest to newest When navigating the jumplist wit
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                blog-post
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2021-05-08">
+                2021-5-8
+            </time>
+        </div>
+    </a>
+</li><li class="post group blog-post h-entry hentry">
+    <a href="/custom-kedro-logger/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">Custom Kedro Logger</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            DRAFT -
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                blog-post
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2021-05-02">
+                2021-5-2
+            </time>
+        </div>
+    </a>
+</li><li class="post group blog-post h-entry hentry">
+    <a href="/auto-conda-env/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">Automatic Conda Environments</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            I have automated my process to create virtual environments in my python I You can learn more about  direnv is in many package repos, or can be installed from bi
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                blog-post
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2021-03-22">
+                2021-3-22
+            </time>
+        </div>
+    </a>
+</li><li class="post group blog-post h-entry hentry">
+    <a href="/fix-crlf-entire-repo/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">Fix Crlf For Entire Git Repo</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                blog-post
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2021-03-22">
+                2021-3-22
+            </time>
+        </div>
+    </a>
+</li><li class="post group blog-post h-entry hentry">
+    <a href="/how-i-review-kedro-projects/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">How I Review Pipeline Code</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            I have started doing more regular PR [ passing ci Variable Names Antipatterns No commented out code Docsttrings generally make sense Phase1 is typically a quick
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                blog-post
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2021-03-21">
+                2021-3-21
+            </time>
+        </div>
+    </a>
+</li><li class="post group blog-post h-entry hentry">
+    <a href="/python-pluggable-architecture/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">🐍 Pluggable Architecture With Python</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            pytest has open sourced their amazing plugin framework  My experience so far as a plugin user, and plugin author has been great. A hook is a single function tha
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                blog-post
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2021-01-23">
+                2021-1-23
+            </time>
+        </div>
+    </a>
+</li><li class="post group blog-post h-entry hentry">
+    <a href="/create-og-image-covers-using-python/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">Create Og Image Covers Using Python</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            There are so many tutorials out there for creating OG images with 
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                blog-post
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2021-01-22">
+                2021-1-22
+            </time>
+        </div>
+    </a>
+</li><li class="post group blog-post h-entry hentry">
+    <a href="/python-tool-config/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">⚙ How Python Tools Are Configured</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            There are various ways to configure python tools, config files, code, or This will not include how they are implemented, I The motivation of this article is to 
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                blog-post
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2021-01-21">
+                2021-1-21
+            </time>
+        </div>
+    </a>
+</li><li class="post group blog-post h-entry hentry">
+    <a href="/blog-data-with-python/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">Blog Data With Python</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            Generating an api for a blog is much simpler than one might expect with python. fix missing data
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                blog-post
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2021-01-18">
+                2021-1-18
+            </time>
+        </div>
+    </a>
+</li><li class="post group blog-post h-entry hentry">
+    <a href="/ipython-ninjitsu/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">Ipython Ninjitsu</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            ?docstring ??sourcecode %run %debug %autoreload %history autoformat %reset ! Stop going to google everytime your stuck and stay in your workflow.  The Docstring
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                blog-post
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2020-12-14">
+                2020-12-14
+            </time>
+        </div>
+    </a>
+</li><li class="post group blog-post h-entry hentry">
+    <a href="/testing-data-pipelines/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">Testing Data Pipelines</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            Thinking through testing best practices for Data Pipelines
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                blog-post
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2020-11-16">
+                2020-11-16
+            </time>
+        </div>
+    </a>
+</li><li class="post group blog-post h-entry hentry">
+    <a href="/long-variable-names-are-good/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">Long Variable Names Are Good</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            🏷️ Long variable names are a good thing. Self documenting code is more important than poorly documented code. Simply adding a few characters to your variable na
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                blog-post
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2020-02-24">
+                2020-2-24
+            </time>
+        </div>
+    </a>
+</li><li class="post group blog-post h-entry hentry">
+    <a href="/simple-click-2/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">Simple Click 2</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                blog-post
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2020-02-03">
+                2020-2-3
+            </time>
+        </div>
+    </a>
+</li><li class="post group blog-post h-entry hentry">
+    <a href="/making-good-documentation-in-python/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">Making Good Documentation In Python</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            I just started using portray and it is amazingly simple to use
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                blog-post
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2019-09-22">
+                2019-9-22
+            </time>
+        </div>
+    </a>
+</li><li class="post group blog-post h-entry hentry">
+    <a href="/pyspark/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">Pyspark</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            I have been using pyspark since March 2019, here are my thoughts.
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                blog-post
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2019-09-22">
+                2019-9-22
+            </time>
+        </div>
+    </a>
+</li><li class="post group blog-post h-entry hentry">
+    <a href="/python-tips/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">Python Tips</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            ** func( locals().update(d)
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                blog-post
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2019-01-21">
+                2019-1-21
+            </time>
+        </div>
+    </a>
+</li><li class="post group blog-post h-entry hentry">
+    <a href="/pandas-pattern/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">My Favorite Pandas Pattern</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            I work with a lot of transactional timeseries data that includes categories. I often want to create timeseries plots with each category as its own line. This is
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                blog-post
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2018-03-01">
+                2018-3-1
+            </time>
+        </div>
+    </a>
+</li><li class="post group til h-entry hentry">
+    <a href="/python-atexit/" class="u-url" rel="bookmark" hx-boost="true">
+        <h2 class="p-name entry-title">Python Atexit</h2>
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            I
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                TIL: Today I Learned
+            </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="2000-01-15">
+                2000-1-15
+            </time>
+        </div>
+    </a>
+</li>    </ul>
+</article><footer class='bg-gray-900 border-t border-pink-800 pb-8'>
+    <ul class="social my-8">
+        <li>
+            <a class='decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100'
+                href="https://waylonwalker.com/feeds" rel="me">RSS</a>
+        </li>
+        <li>
+            <a class='decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100'
+                href="https://twitter.com/_WaylonWalker" rel="me">twitter</a>
+        </li>
+        <li>
+            <a class='decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100'
+                href="https://youtube.com/waylonwalker">youtube</a>
+        </li>
+        <li>
+            <a class='decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100'
+                href="https://www.youtube.com/channel/UCHuxc1HRsd3aRjvL6C817tQ">gaming-youtube</a>
+        </li>
+        <li>
+            <a class='decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100'
+                href="https://www.linkedin.com/in/waylonwalker/">LinkedIn</a>
+        </li>
+        <li>
+            <a class='decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100'
+                href="https://github.com/WaylonWalker" rel="me">GitHub</a>
+        </li>
+        <li>
+            <a class='decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100'
+                href="https://dev.to/waylonwalker">Dev.to</a>
+        </li>
+        <li>
+            <a class='decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100'
+                href="https://www.twitch.tv/waylonwalker">twitch</a>
+        </li>
+        <li>
+            <a class='decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100'
+                href="mailto:hello@waylonwalker.com" rel="me">hello@waylonwalker.com</a>
+        </li>
+
+    </ul>
+    <p>© </p>
+
+</footer>    </div>
+</body>
+</body>
+
+</html>

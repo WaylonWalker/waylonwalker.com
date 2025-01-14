@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0">
+<channel>
+    <title>recent_thoughts</title>
+    <link>https://waylonwalker.com/</link>
+    <description>I write about how I use python and linux in data science.</description>
+    <generator>Markata</generator>
+    <image>
+        <url>static/8bitcc.png</url>
+        <link>https://waylonwalker.com/</link>
+    </image>
+    <language>en</language>
+  <item>
+      <title>💭 Supermini Nrf52840 Wireless Controller Development Board - Kriscables</title>
+      <link>https://waylonwalker.com//thoughts-529</link>
+      <description>The SuperMini nrf52840 is a sick controller for building keyboards, affordable, easy to get, and compact.  Bluetooth and</description>
+      <guid>https://waylonwalker.com//thoughts-529</guid>
+      <pubDate>2025-01-13</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Availability</title>
+      <link>https://waylonwalker.com//thoughts-530</link>
+      <description>nice overview of availability measurements and what they really mean.  The crazy world we live in today depends on so ma</description>
+      <guid>https://waylonwalker.com//thoughts-530</guid>
+      <pubDate>2025-01-13</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Why I Write</title>
+      <link>https://waylonwalker.com//thoughts-531</link>
+      <description>It&#39;s interesting how many people in tech maintain a blog.  I think part of this brings us back to web 1.0 days when so m</description>
+      <guid>https://waylonwalker.com//thoughts-531</guid>
+      <pubDate>2025-01-13</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 (110) The Future Of Htmx - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-532</link>
+      <description>I like the charts that Theo brings to to these videos.  Shout out for a positive k8s reference and not shitting on it.
+
+</description>
+      <guid>https://waylonwalker.com//thoughts-532</guid>
+      <pubDate>2025-01-13</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 (107) Why You Should Game On Linux (Feat. Gloriouseggroll Of Nobara) - Youtube</title>
+      <link>https://waylonwalker.com//thoughts-524</link>
+      <description>This man is responsible for making gaming on linux what it is today.  Such a heartfelt story to hear that reviving his d</description>
+      <guid>https://waylonwalker.com//thoughts-524</guid>
+      <pubDate>2025-01-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Bluesky Is More Like Twitter Than X Is</title>
+      <link>https://waylonwalker.com//thoughts-526</link>
+      <description>Bluesky is almost excatly like twitter was when I joined years ago.  It&#39;s gone crazy lately bogged deep in politics, bot</description>
+      <guid>https://waylonwalker.com//thoughts-526</guid>
+      <pubDate>2025-01-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Quick Start - Kotaemon Docs</title>
+      <link>https://waylonwalker.com//thoughts-527</link>
+      <description>interesting UI for RAG based workflows, i.e. chatting with your documents.  It looks like it can run a number of models,</description>
+      <guid>https://waylonwalker.com//thoughts-527</guid>
+      <pubDate>2025-01-11</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 V2 Suddenly Getting Client-Not-Enrolled Today - X Api - X Developers</title>
+      <link>https://waylonwalker.com//thoughts-523</link>
+      <description>Just tried using my twitter api key for the first time in quite awhile.  Apps now need to be tied to projects in order t</description>
+      <guid>https://waylonwalker.com//thoughts-523</guid>
+      <pubDate>2025-01-10</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Olimorris/Codecompanion.Nvim: ✨ Ai-Powered Coding, Seamlessly In Neovim</title>
+      <link>https://waylonwalker.com//thoughts-515</link>
+      <description>Definitely need to give codecompanion.nvim a try, it looks like a competitor to windsurf but in nvim.  It looks so featu</description>
+      <guid>https://waylonwalker.com//thoughts-515</guid>
+      <pubDate>2025-01-09</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>💭 Gitingest</title>
+      <link>https://waylonwalker.com//thoughts-516</link>
+      <description>Replace **hub** with **ingest** in any **github** and get a prompt friendly codebase ready to feed into any llm.  It com</description>
+      <guid>https://waylonwalker.com//thoughts-516</guid>
+      <pubDate>2025-01-09</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+<lastBuildDate></lastBuildDate>
+</channel>
+</rss>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/sitemap.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <title>recent_thoughts</title>
+    <link>https://waylonwalker.com/</link>
+   <url>
+      <title>💭 Supermini Nrf52840 Wireless Controller Development Board - Kriscables</title>
+      <description>The SuperMini nrf52840 is a sick controller for building keyboards, affordable, easy to get, and compact.  Bluetooth and</description>
+      <loc>https://waylonwalker.com//thoughts-529</loc>
+      <lastmod>2025-01-13</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Availability</title>
+      <description>nice overview of availability measurements and what they really mean.  The crazy world we live in today depends on so ma</description>
+      <loc>https://waylonwalker.com//thoughts-530</loc>
+      <lastmod>2025-01-13</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Why I Write</title>
+      <description>It&#39;s interesting how many people in tech maintain a blog.  I think part of this brings us back to web 1.0 days when so m</description>
+      <loc>https://waylonwalker.com//thoughts-531</loc>
+      <lastmod>2025-01-13</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 (110) The Future Of Htmx - Youtube</title>
+      <description>I like the charts that Theo brings to to these videos.  Shout out for a positive k8s reference and not shitting on it.
+
+</description>
+      <loc>https://waylonwalker.com//thoughts-532</loc>
+      <lastmod>2025-01-13</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 (107) Why You Should Game On Linux (Feat. Gloriouseggroll Of Nobara) - Youtube</title>
+      <description>This man is responsible for making gaming on linux what it is today.  Such a heartfelt story to hear that reviving his d</description>
+      <loc>https://waylonwalker.com//thoughts-524</loc>
+      <lastmod>2025-01-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Bluesky Is More Like Twitter Than X Is</title>
+      <description>Bluesky is almost excatly like twitter was when I joined years ago.  It&#39;s gone crazy lately bogged deep in politics, bot</description>
+      <loc>https://waylonwalker.com//thoughts-526</loc>
+      <lastmod>2025-01-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Quick Start - Kotaemon Docs</title>
+      <description>interesting UI for RAG based workflows, i.e. chatting with your documents.  It looks like it can run a number of models,</description>
+      <loc>https://waylonwalker.com//thoughts-527</loc>
+      <lastmod>2025-01-11</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 V2 Suddenly Getting Client-Not-Enrolled Today - X Api - X Developers</title>
+      <description>Just tried using my twitter api key for the first time in quite awhile.  Apps now need to be tied to projects in order t</description>
+      <loc>https://waylonwalker.com//thoughts-523</loc>
+      <lastmod>2025-01-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Olimorris/Codecompanion.Nvim: ✨ Ai-Powered Coding, Seamlessly In Neovim</title>
+      <description>Definitely need to give codecompanion.nvim a try, it looks like a competitor to windsurf but in nvim.  It looks so featu</description>
+      <loc>https://waylonwalker.com//thoughts-515</loc>
+      <lastmod>2025-01-09</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>💭 Gitingest</title>
+      <description>Replace **hub** with **ingest** in any **github** and get a prompt friendly codebase ready to feed into any llm.  It com</description>
+      <loc>https://waylonwalker.com//thoughts-516</loc>
+      <lastmod>2025-01-09</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+</urlset>

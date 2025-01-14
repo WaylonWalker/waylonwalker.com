@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/sitemap.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <title>slashes</title>
+    <link>https://waylonwalker.com/</link>
+   <url>
+      <title>Now</title>
+      <description>Last update Sun Jan 12 09:08:07 PM CST 2025 Moving from Arch to Bazzite, I kubernetes - trying to get better k8s in the homelab - All of my services I run in my</description>
+      <loc>https://waylonwalker.com//now</loc>
+      <lastmod>2025-01-12</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Start</title>
+      <description>Welcome to waylonwalker.com, my small corner of the internet.  I currently have I have quite a few different feeds that you can browse or subscribe to in your r</description>
+      <loc>https://waylonwalker.com//start</loc>
+      <lastmod>2025-01-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Colophon</title>
+      <description>All posts on this site are written by  see more in  This site is a static site build with my own static site generator  [ [ cloudflare pages see more about thes</description>
+      <loc>https://waylonwalker.com//colophon</loc>
+      <lastmod>2025-01-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Markata</title>
+      <description>This post is a work in progress. Markata is the static site generator that I created to build my website  It Gatsby and Next.js hit the scene as the next genera</description>
+      <loc>https://waylonwalker.com//markata</loc>
+      <lastmod>2024-05-30</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Thoughts</title>
+      <description>These are generally my thoughts on a web page or some sort of url, except a These posts are intended to in two ways.  One, link building for the author.  I All </description>
+      <loc>https://waylonwalker.com//thoughts</loc>
+      <lastmod>2024-04-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Waylon Walker</title>
+      <description>👋 Hi, I am Waylon Walker.  Husband, Father of two, and creator things on the I believe in a decentralized platform where everyone has their own space on I am a </description>
+      <loc>https://waylonwalker.com//about</loc>
+      <lastmod>2021-11-20</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+</urlset>

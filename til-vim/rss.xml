@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0">
+<channel>
+    <title>til_vim</title>
+    <link>https://waylonwalker.com/</link>
+    <description>I write about how I use python and linux in data science.</description>
+    <generator>Markata</generator>
+    <image>
+        <url>static/8bitcc.png</url>
+        <link>https://waylonwalker.com/</link>
+    </image>
+    <language>en</language>
+  <item>
+      <title>Vim-Gq</title>
+      <link>https://waylonwalker.com//vim-gq</link>
+      <description>Vim has a handy feature to format text with  ![ ![</description>
+      <guid>https://waylonwalker.com//vim-gq</guid>
+      <pubDate>2024-08-05</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Nvim Stupid Gf Bind</title>
+      <link>https://waylonwalker.com//nvim-stupid-gf-bind</link>
+      <description>So after months of fighting with gf not going to template files, I finally This was the dumbest keybind in my config, that I copied from someone else I have jin</description>
+      <guid>https://waylonwalker.com//nvim-stupid-gf-bind</guid>
+      <pubDate>2023-12-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Nvim Navic</title>
+      <link>https://waylonwalker.com//nvim-navic</link>
+      <description>With the latest release of version of nvim 0.8.0 we get access to a new winbar nvim exposes the winbar api in lua, and you can send any text to the winbar as fo</description>
+      <guid>https://waylonwalker.com//nvim-navic</guid>
+      <pubDate>2022-10-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Vimgrep Open Buffers</title>
+      <link>https://waylonwalker.com//vimgrep-open-buffers</link>
+      <description>How to vimgrep over hidden files. I needed to delete all build pipeline steps that were named  Today After searching through all the projects it was clear that </description>
+      <guid>https://waylonwalker.com//vimgrep-open-buffers</guid>
+      <pubDate>2022-08-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Vim Plugged Snapshot</title>
+      <link>https://waylonwalker.com//vim-plugged-snapshot</link>
+      <description>A few of my friends and I all just borked our neovim configs during a plug https://twitter.com/pypeaday/status/1524882893914398732 Lucky for me I did it on a ho</description>
+      <guid>https://waylonwalker.com//vim-plugged-snapshot</guid>
+      <pubDate>2022-05-13</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Automatically Generate A List Of Markdown Links In Vim</title>
+      <link>https://waylonwalker.com//vim-markdown-links</link>
+      <description>Let Before you run someone Something that I have always appreciated form Searchng through the internet I was able to find an article from Here is my interpretat</description>
+      <guid>https://waylonwalker.com//vim-markdown-links</guid>
+      <pubDate>2022-03-19</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Open Files With Nvim Remote</title>
+      <link>https://waylonwalker.com//nvr-open-files</link>
+      <description>I recently found a really great  I have this added to my  In my workflow I open a tmux session for each project, so this First open neovim, but with the  If you</description>
+      <guid>https://waylonwalker.com//nvr-open-files</guid>
+      <pubDate>2022-03-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Vim Remaps Use Cmd In Place Of :</title>
+      <link>https://waylonwalker.com//vim-cmd</link>
+      <description>Anyone just starting out their vim customization journey is bound to run into this error. I If you run  You still need to map your remaps with a : if you do not</description>
+      <guid>https://waylonwalker.com//vim-cmd</guid>
+      <pubDate>2022-02-14</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Neovim Config For Git</title>
+      <link>https://waylonwalker.com//neovim-config-for-git</link>
+      <description>Creating a minimal config specifically for git commits has made running The other thing that is engrained into my muscle memory is  Here is the config that has </description>
+      <guid>https://waylonwalker.com//neovim-config-for-git</guid>
+      <pubDate>2022-02-04</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Tmux And Vim Clipboard For Ubuntu</title>
+      <link>https://waylonwalker.com//ubuntu-terminal-clipboard</link>
+      <description>One of the first things I noticed broken in my terminal based workflow moving First off you need to get  I have tmux setup to automatically copy any selection I</description>
+      <guid>https://waylonwalker.com//ubuntu-terminal-clipboard</guid>
+      <pubDate>2022-01-26</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Markata Filters As Telescope Pickers In Neovim</title>
+      <link>https://waylonwalker.com//markata-telescope-picker</link>
+      <description>I often pop into my blog from neovim with the intent to look at just a To tie these into a Telescope picker you add the command as the NOTE telescope treates ea</description>
+      <guid>https://waylonwalker.com//markata-telescope-picker</guid>
+      <pubDate>2022-01-23</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Rename Python Variables With Nvim</title>
+      <link>https://waylonwalker.com//nvim-rename-python</link>
+      <description>I don I first tried the nvim lsp rename, and it failed, Then I pip installed Once you have rope installed you can call rename on the variable.</description>
+      <guid>https://waylonwalker.com//nvim-rename-python</guid>
+      <pubDate>2022-01-16</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Remove Vim Tab Characters</title>
+      <link>https://waylonwalker.com//remove-vim-tab-characters</link>
+      <description>I It turns out they are tabs, and you can get rid of the little leading</description>
+      <guid>https://waylonwalker.com//remove-vim-tab-characters</guid>
+      <pubDate>2022-01-06</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>List All The Files Containing A Phrase</title>
+      <link>https://waylonwalker.com//list-all-files-containing-phrase</link>
+      <description>One of the most useful skills you can acquire to make you faster at I Passing the flag  Giving </description>
+      <guid>https://waylonwalker.com//list-all-files-containing-phrase</guid>
+      <pubDate>2021-12-31</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Serve Html From Your Command Line</title>
+      <link>https://waylonwalker.com//serve-html-command-line</link>
+      <description>When I first moved to vim from and ide like vscode or sublime text one of my You will need a way to run another process alongside vim, here are a couple use bac</description>
+      <guid>https://waylonwalker.com//serve-html-command-line</guid>
+      <pubDate>2021-12-28</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Opening Files In Vim From Output Of Command</title>
+      <link>https://waylonwalker.com//nvim-telescope-custom-command</link>
+      <description>Many command line tools can output a list of files, this is quite powerful. Telescope is the fuzzy file finder I use every day inside of neovim.  Its pretty Thi</description>
+      <guid>https://waylonwalker.com//nvim-telescope-custom-command</guid>
+      <pubDate>2021-12-27</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Finding Hidden (Dotfiles) Using Telescope In Neovim</title>
+      <link>https://waylonwalker.com//nvim-telescope-hidden-files</link>
+      <description>Finding hidden files using Telescope as you fuzzy file finder is not too I have this keymap set to help me list out all files including hidden see the</description>
+      <guid>https://waylonwalker.com//nvim-telescope-hidden-files</guid>
+      <pubDate>2021-12-26</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+  <item>
+      <title>Fugitive Verbose Commit</title>
+      <link>https://waylonwalker.com//fugitive-commit-verbose</link>
+      <description>Fugitive comes with a pretty sick way to commit files and see the diff at the example of a verbose commit in fugitive</description>
+      <guid>https://waylonwalker.com//fugitive-commit-verbose</guid>
+      <pubDate>2021-12-22</pubDate>
+      <author>Waylon Walker</author>
+  </item>
+<lastBuildDate></lastBuildDate>
+</channel>
+</rss>

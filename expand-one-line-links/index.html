@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width" name="viewport"/>
+<link href="/8bitcc.ico" rel="icon" type="image/png"/>
+<meta content="website" name="og:type"/>
+<title>Expand One Line Links</title>
+<meta content="Expand One Line Links" name="twitter:title"/>
+<meta content="Expand One Line Links" name="og:title"/>
+<meta content="I wanted a super simple way to cross-link blog posts that require as little effort as possible, yet still looks good in vanilla markdown in GitHub.  I have been" name="description"/>
+<meta content="I wanted a super simple way to cross-link blog posts that require as little effort as possible, yet still looks good in vanilla markdown in GitHub.  I have been" name="og:description"/>
+<meta content="I wanted a super simple way to cross-link blog posts that require as little effort as possible, yet still looks good in vanilla markdown in GitHub.  I have been" name="twitter:description"/>
+<meta content="article" name="og:type"/>
+<meta content="https://waylonwalker.com/expand-one-line-links" name="og:url"/>
+<meta content="http://shots.wayl.one/shot/?url=https://waylonwalker.com/expand-one-line-links&amp;height=600&amp;width=1200&amp;scaled_width=1200&amp;scaled_height=600" name="og:image"/>
+<meta content="http://shots.wayl.one/shot/?url=https://waylonwalker.com/expand-one-line-links&amp;height=640&amp;width=1280&amp;scaled_width=1280&amp;scaled_height=640" name="twitter:image"/>
+<meta content="1200" name="og:image:width"/>
+<meta content="600" name="og:image:height"/>
+<meta content="@_waylonwalker" name="twitter:creator"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Waylon Walker" name="og:author"/>
+<meta content="Waylon Walker" name="og:site_name"/>
+<meta content="waylon@waylonwalker.com" name="og:author_email"/>
+<meta content="markata 0.8.1.dev12" name="generator"/>
+<meta content="$ilp.uphold.com/MGN2ni2YMXaQ" name="monetization"/>
+<meta content="#322D39" name="theme-color"/>
+<link href="/app-39.css" rel="stylesheet"/>
+<link href="https://waylonwalker.com/expand-one-line-links/" rel="canonical"/>
+<link href="https://waylonwalker.com/expand-one-line-links/amp/" rel="amphtml"/>
+<link href="https://indieauth.com/auth" rel="authorization_endpoint"/>
+<link href="https://tokens.indieauth.com/token" rel="token_endpoint"/>
+<link href="https://waylonwalker.com/expand-one-line-links/amp" rel="amphtml"/>
+<link href="https://waylonwalker.com/archive" rel="micropub"/>
+<link href="https://webmention.io/waylonwalker.com/webmention" rel="webmention"/>
+<link href="https://images.waylonwalker.com" rel="preconnect"/>
+<link href="https://covers.waylonwalker.com" rel="preconnect"/>
+<link href="https://stable-diffusion.waylonwalker.com" rel="preconnect"/>
+<link href="https://screenshots.waylonwalker.com" rel="preconnect"/>
+<link href="/8bitcc_48x48.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_72x72.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_96x96.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_144x144.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_192x192.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_256x256.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_384x384.png" rel="apple-touch-icon"/>
+<link href="/8bitcc_512x512.png" rel="apple-touch-icon"/>
+<script src="/htmx.min.js"></script> <script>
+        navigator.serviceWorker.getRegistrations().then(function (registrations) {
+            for (let registration of registrations) {
+                registration.unregister();
+            }
+        });
+
+    </script>
+<script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "WebPage",
+                "name": "Expand One Line Links",
+                "headline": "Expand One Line Links",
+                "datePublished": "2020-11-18",
+                "dateModified": "2020-11-18",
+                "author": {
+                    "@type": "Person",
+                    "name": "Waylon Walker"
+                    "url": "https://waylonwalker.com"
+                },
+                "image": [
+                    "https://shots.wayl.one/shot/?url=https://waylonwalker.com/&height=640&width=1280&scaled_width=1280&scaled_height=640",
+                ]
+                "speakable":
+                {
+                    "@type": "SpeakableSpecification",
+                    "cssSelector": [
+                        "#title",
+                        "#post-body"
+                    ]
+                },
+                "url": "https://waylonwalker.com/"
+            }
+        </script>
+</head>
+<body position="relative">
+<div class="neon-ring"></div>
+<div class="dubs">
+<nav class="w-full bg-gray-950 py-4 mb-8 sticky border-b border-pink-500">
+<ul>
+<li><a href="/" hx-boost="true">Home</a></li>
+<li><a href="/start/" hx-boost="true">Start Here</a></li>
+<li><a href="/archive/" hx-boost="true">Archive</a></li>
+<li><a href="/about/" hx-boost="true">About</a></li>
+<li><a href="/feeds/" hx-boost="true">RSS</a></li>
+</ul>
+</nav> <div>
+<article class="blog-post h-entry">
+<div id="title-wrapper">
+<a class="no-underline u-url" href="https://waylonwalker.com//" hx-boost="true">
+<h1 class="flair blog title no-link" id="title">
+            Expand One Line Links
+        </h1>
+</a>
+<p class="m-0 sm:m-[-2rem]">
+<time class="dt-published post-date" datetime="" style="text-align: right; z-index: 2"></time>
+</p>
+<div class="flex flex-row h-card p-author space-between" rel="author">
+<img alt="pixelated avatar of Waylon Walker with a yellow and pink background" class="m-auto ml-0 w-16 h-16 rounded-full u-photo shadow-[0_0_5px_5px_rgba(0,0,0,0.4)]" src="/88-8bitcc.webp"/>
+<div class="content">
+<a class="p-name u-url h-card p-author" href="https://waylonwalker.com/" hx-boost="true" rel="me">
+<p>
+<span class="p-given-name">Waylon</span>
+<span class="p-family-name">Walker</span>
+</p>
+</a>
+<p class="p-note">
+                Learning in Public
+                <a href="https://twitter.com/_WaylonWalker" rel="me">@_WaylonWalker</a>
+</p>
+</div>
+</div>
+<!-- edit -->
+<!-- <p> -->
+<!--     <a href="https://github.com/WaylonWalker/waylonwalker.com/edit/main/pages/blog/.md" -->
+<!--         alt="edit post url" title="edit this post">edit<span role="img" aria-label="">✏️</span></a> -->
+<!-- </p> -->
+</div><h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Tags</h2>
+<ul class="flex flex-wrap justify-center p-0 m-auto max-w-md border-yellow-400 tags">
+<li class="px-4 mx-2 list-none rounded-full ring-1 ring-pink-500">
+<a class="p-category" href="https://waylonwalker.com/webdev" hx-boost="true">webdev</a>
+</li>
+<li class="px-4 mx-2 list-none rounded-full ring-1 ring-pink-500">
+<a class="p-category" href="https://waylonwalker.com/blog" hx-boost="true">blog</a>
+</li>
+<li class="px-4 mx-2 list-none rounded-full ring-1 ring-pink-500">
+<a class="p-category" href="https://waylonwalker.com/meta" hx-boost="true">meta</a>
+</li>
+</ul> <div class="e-content" data-pagefind-body="" id="post-body">
+<p>I wanted a super simple way to cross-link blog posts that require as little effort as possible, yet still looks good in vanilla markdown in GitHub.  I have been using a snippet that puts HTML into the markdown.  While this works, it's more manual/difficult for me does not look the best, and does not read well as</p>
+<h2 id="goals-for-new-card">Goals for new card <a aria-label="Permalink to Heading Goals for new card " class="header-anchor" href="#goals-for-new-card" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>The new card should be fully automated to expand with title, description, and
+cover image.  Bonus if I am able to attach a comment behind it.</p>
+<ul>
+<li>fully automated</li>
+<li>card expansion</li>
+<li>Title</li>
+<li>description</li>
+<li>cover image</li>
+</ul>
+<h2 id="old-card">Old Card <a aria-label="Permalink to Heading Old Card " class="header-anchor" href="#old-card" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>If you can call it a card 🤣.  This card was just an image wrapped in an anchor tag and a paragraph tag.  I found this was the most consistent way to get an image narrower and centered in both GitHub and <a href="http://dev.to">dev.to</a>.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">p</span> <span class="na">style</span><span class="o">=</span><span class="s">'text-align: center'</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">'https://waylonwalker.com/notes/eight-years-cat/'</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">img</span>
+    <span class="na">style</span><span class="o">=</span><span class="s">'width:500px; max-width:80%; margin: auto;'</span>
+    <span class="na">src</span><span class="o">=</span><span class="s">"https://images.waylonwalker.com/eight-years-cat.png"</span>
+    <span class="na">alt</span><span class="o">=</span><span class="s">"My first eight years as a working professional article"</span>
+    <span class="p">/&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</pre></div>
+
+</pre>
+<p style="text-align: center">
+<a href="https://waylonwalker.com/notes/eight-years-cat" hx-boost="true">
+<img alt="My first eight years as a working professional article" src="https://images.waylonwalker.com/eight-years-cat.png" style="width:500px; max-width:80%; margin: auto;"/>
+</a>
+</p>
+<p>The key here is that I have to put the HTML into the markdown.  It looks a bit dirty while editing and quite frankly it's a pain to deal with.</p>
+<hr/>
+<h2 id="new-card">New Card <a aria-label="Permalink to Heading New Card " class="header-anchor" href="#new-card" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span>&lt;a class="onelinelink" href="https://waylonwalker.com/eight-years-cat/"&gt;
+&lt;img style="float: right;" align='right' src="https://images.waylonwalker.com/29cdf6fcfb17d7fd766fc438144fb3e4/630fb/eight-years-cat-xmas2020.png" alt="article cover for My first eight years as a working professional."&gt;
+&lt;div class="right"&gt;
+    &lt;h2&gt;My first eight years as a working professional.&lt;/h2&gt;
+    &lt;p class="description"&gt;
+    This day 8 years ago I started my first day as a Mechanical Engineer. I am so grateful for this journey that I have been able to have. There is no way that I could have planned this journey from the beginning.
+    &lt;/p&gt;
+    &lt;p class="url"&gt;
+    &lt;span class="read-more"&gt;read more&lt;/span&gt;  waylonwalker.com
+    &lt;/p&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+</pre></div>
+
+</pre>
+<p class="hover:z-20">
+<span class="z-10 group group-hover:z-20 relative inline-block">
+<a class="wikilink text-pink-500 hover:underline" href="https://waylonwalker.com//eight-years-cat" hx-boost="true" title="eight-years-cat"> eight-years-cat</a>
+<button aria-label="Preview" class="ml-2 text-pink-500 hover:underline focus:outline-none">
+<svg class="h-5 w-5 inline align-middle" fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="m2.25 15.75 5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5 1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5Zm10.5-11.25h.008v.008h-.008V8.25Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</button>
+<a class="hidden absolute top-6 left-0 z-20 group-hover:block" href="https://waylonwalker.com//eight-years-cat">
+<img alt="a screenshot of https://waylonwalker.com//eight-years-cat" class="rounded-xl transition-height ease-in duration-75 h-0 opacity-0 group-hover:opacity-100 group-hover:h-[800px] max-w-none" height="800" src="https://shots.wayl.one/shot/?url=https://waylonwalker.com//eight-years-cat&amp;height=1600&amp;width=1200&amp;scaled_width=600&amp;scaled_height=800&amp;selectors=" style=" box-shadow: rgba(0, 0, 0, 0.6) 0 0 500rem 500rem; " width="600"/>
+</a>
+</span>
+</p>
+<h2 id="first-step">First step <a aria-label="Permalink to Heading First step " class="header-anchor" href="#first-step" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>My first attempt was to make my own transformer for <code>gatsby-remark-embedder</code>. I previously set this up on my site for Twitter and YouTube.  I tried to get some custom transformers going, to do what I wanted for my own website, but failed.  I really struggled to understand what data was coming in and out of the transformer.  My lack of js/node debugging skills was really showing.</p>
+<p class="hover:z-20">
+<span class="z-10 group group-hover:z-20 relative inline-block">
+<a class="wikilink text-pink-500 hover:underline" href="https://waylonwalker.com//gatsby-remark-embedder" hx-boost="true" title="gatsby-remark-embedder"> gatsby-remark-embedder</a>
+<button aria-label="Preview" class="ml-2 text-pink-500 hover:underline focus:outline-none">
+<svg class="h-5 w-5 inline align-middle" fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="m2.25 15.75 5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5 1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5Zm10.5-11.25h.008v.008h-.008V8.25Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</button>
+<a class="hidden absolute top-6 left-0 z-20 group-hover:block" href="https://waylonwalker.com//gatsby-remark-embedder">
+<img alt="a screenshot of https://waylonwalker.com//gatsby-remark-embedder" class="rounded-xl transition-height ease-in duration-75 h-0 opacity-0 group-hover:opacity-100 group-hover:h-[800px] max-w-none" height="800" src="https://shots.wayl.one/shot/?url=https://waylonwalker.com//gatsby-remark-embedder&amp;height=1600&amp;width=1200&amp;scaled_width=600&amp;scaled_height=800&amp;selectors=" style=" box-shadow: rgba(0, 0, 0, 0.6) 0 0 500rem 500rem; " width="600"/>
+</a>
+</span>
+</p>
+<blockquote>
+<p>using gatsby-remark-embedder to expand Twitter/YouTube</p>
+</blockquote>
+<h2 id="redirects">Redirects <a aria-label="Permalink to Heading Redirects " class="header-anchor" href="#redirects" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>It also works with redirects. I have a redirect to my "latest" post.  It's something that I don't do the best job at keeping up to date, but when I feel really proud of a post I make it the latest.</p>
+<p class="hover:z-20">
+<span class="z-10 group group-hover:z-20 relative inline-block">
+<a class="wikilink text-pink-500 hover:underline" href="https://waylonwalker.com//latest" hx-boost="true" title="latest"> latest</a>
+<button aria-label="Preview" class="ml-2 text-pink-500 hover:underline focus:outline-none">
+<svg class="h-5 w-5 inline align-middle" fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="m2.25 15.75 5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5 1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5Zm10.5-11.25h.008v.008h-.008V8.25Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</button>
+<a class="hidden absolute top-6 left-0 z-20 group-hover:block" href="https://waylonwalker.com//latest">
+<img alt="a screenshot of https://waylonwalker.com//latest" class="rounded-xl transition-height ease-in duration-75 h-0 opacity-0 group-hover:opacity-100 group-hover:h-[800px] max-w-none" height="800" src="https://shots.wayl.one/shot/?url=https://waylonwalker.com//latest&amp;height=1600&amp;width=1200&amp;scaled_width=600&amp;scaled_height=800&amp;selectors=" style=" box-shadow: rgba(0, 0, 0, 0.6) 0 0 500rem 500rem; " width="600"/>
+</a>
+</span>
+</p>
+<blockquote>
+<p>this post is a redirect to my "latest post"</p>
+</blockquote>
+<h2 id="client-side">Client Side <a aria-label="Permalink to Heading Client Side " class="header-anchor" href="#client-side" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>I started out by running this card expansion client side. This was the strategy that I used to find the list of elements that should be transformed.</p>
+<ul>
+<li>get all anchors</li>
+<li>get all paragraphs</li>
+<li>filter paragraphs where the content is one of the links</li>
+<li>filter paragraphs where there is only one element in the paragraph</li>
+<li>filter to paragraphs with links that <code>shouldTransform</code></li>
+<li>These elements should have the <code>oneLineLinkCard</code> applied.</li>
+</ul>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="kd">const</span><span class="w"> </span><span class="nx">oneLineLinks</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="nx">linkText</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[...</span><span class="nb">document</span><span class="p">.</span><span class="nx">querySelectorAll</span><span class="p">(</span><span class="s1">'.post-body p a'</span><span class="p">)].</span><span class="nx">map</span><span class="p">(</span>
+<span class="w">    </span><span class="p">(</span><span class="nx">p</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="nx">p</span><span class="p">.</span><span class="nx">innerText</span>
+<span class="w">  </span><span class="p">)</span>
+<span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="nx">paragraphs</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">document</span><span class="p">.</span><span class="nx">querySelectorAll</span><span class="p">(</span><span class="s1">'.post-body p'</span><span class="p">)</span><span class="w"> </span><span class="c1">//</span>
+
+<span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="nx">regex</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="sr">/^https?:\/\/waylonwalker\.com\//</span>
+<span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="nx">shouldTransform</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="nx">url</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="nx">regex</span><span class="p">.</span><span class="nx">test</span><span class="p">(</span><span class="nx">url</span><span class="p">)</span>
+
+<span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="nx">anchorOnly</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[...</span><span class="nx">paragraphs</span><span class="p">].</span><span class="nx">filter</span><span class="p">(</span>
+<span class="w">    </span><span class="p">(</span><span class="nx">p</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="nx">linkText</span><span class="p">.</span><span class="nx">includes</span><span class="p">(</span><span class="nx">p</span><span class="p">.</span><span class="nx">innerText</span><span class="p">)</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nx">p</span><span class="p">.</span><span class="nx">childElementCount</span><span class="w"> </span><span class="o">===</span><span class="w"> </span><span class="mf">1</span>
+<span class="w">  </span><span class="p">)</span>
+
+<span class="w">  </span><span class="nx">anchorOnly</span>
+<span class="w">    </span><span class="p">.</span><span class="nx">filter</span><span class="p">((</span><span class="nx">p</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="nx">shouldTransform</span><span class="p">(</span><span class="nx">p</span><span class="p">.</span><span class="nx">firstElementChild</span><span class="p">.</span><span class="nx">href</span><span class="p">))</span>
+<span class="w">    </span><span class="p">.</span><span class="nx">map</span><span class="p">(</span>
+<span class="w">      </span><span class="k">async</span><span class="w"> </span><span class="p">(</span><span class="nx">p</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span>
+<span class="w">        </span><span class="p">(</span><span class="nx">p</span><span class="p">.</span><span class="nx">outerHTML</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">oneLineLinkCard</span><span class="p">(</span><span class="nx">p</span><span class="p">.</span><span class="nx">firstElementChild</span><span class="p">.</span><span class="nx">href</span><span class="p">))</span>
+<span class="w">    </span><span class="p">)</span>
+<span class="p">}</span>
+</pre></div>
+
+</pre>
+<h2 id="styles">Styles <a aria-label="Permalink to Heading Styles " class="header-anchor" href="#styles" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>CSS is not my strong suit, but I can generally hammer something into a shape that I am happy with.  For this one, I did struggle a bit with how it looked on various screens, particularly because I was holding the cover image size to a hard 300px.  I ended up with more media queries than I needed, but it works.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="p">.</span><span class="nc">onelinelink</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nt">blockquote</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="k">position</span><span class="p">:</span><span class="w"> </span><span class="kc">relative</span><span class="p">;</span>
+<span class="w">  </span><span class="k">left</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="kt">rem</span><span class="p">;</span>
+<span class="w">  </span><span class="k">background</span><span class="p">:</span><span class="w"> </span><span class="nb">rgba</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mf">.2</span><span class="p">);</span>
+<span class="w">  </span><span class="k">margin</span><span class="p">:</span><span class="w"> </span><span class="mi">-6</span><span class="kt">rem</span><span class="w"> </span><span class="kc">auto</span><span class="w"> </span><span class="mi">1</span><span class="kt">rem</span><span class="p">;</span>
+<span class="w">  </span><span class="k">padding-top</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="kt">rem</span><span class="p">;</span>
+<span class="w">  </span><span class="k">border</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="kt">px</span><span class="w"> </span><span class="kc">solid</span><span class="w"> </span><span class="kc">goldenrod</span><span class="p">;</span>
+<span class="w">  </span><span class="k">border-top</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="kt">px</span><span class="w"> </span><span class="kc">solid</span><span class="w"> </span><span class="kc">goldenrod</span><span class="p">;</span>
+
+<span class="w">  </span><span class="k">max-width</span><span class="p">:</span><span class="w"> </span><span class="mi">300</span><span class="kt">px</span><span class="p">;</span>
+<span class="w">  </span><span class="err">@media</span><span class="w"> </span><span class="err">(</span><span class="k">max-width</span><span class="p">:</span><span class="w"> </span><span class="mi">350</span><span class="kt">px</span><span class="p">)</span><span class="w"> </span><span class="err">{</span>
+<span class="w">  </span><span class="kc">left</span><span class="o">:</span><span class="w"> </span><span class="mi">0</span><span class="kt">rem</span><span class="p">;</span>
+<span class="w">  </span><span class="k">margin-left</span><span class="p">:</span><span class="w"> </span><span class="mf">.4</span><span class="kt">rem</span><span class="p">;</span>
+<span class="w">  </span><span class="k">margin-right</span><span class="p">:</span><span class="w"> </span><span class="mf">.4</span><span class="kt">rem</span><span class="p">;</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="w">  </span><span class="p">@</span><span class="k">media</span><span class="w"> </span><span class="o">(</span><span class="nt">min-width</span><span class="o">:</span><span class="w"> </span><span class="nt">800px</span><span class="o">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">max-width</span><span class="o">:</span><span class="w"> </span><span class="nt">600px</span><span class="o">;</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="w">  </span><span class="p">@</span><span class="k">media</span><span class="w"> </span><span class="o">(</span><span class="nt">min-width</span><span class="o">:</span><span class="w"> </span><span class="nt">900px</span><span class="o">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">max-width</span><span class="o">:</span><span class="w"> </span><span class="nt">700px</span><span class="o">;</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="w">  </span><span class="p">@</span><span class="k">media</span><span class="w"> </span><span class="o">(</span><span class="nt">min-width</span><span class="o">:</span><span class="w"> </span><span class="nt">1000px</span><span class="o">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">max-width</span><span class="o">:</span><span class="w"> </span><span class="nt">800px</span><span class="o">;</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="w">  </span><span class="nt">border-radius</span><span class="o">:</span><span class="w"> </span><span class="nt">15px</span><span class="o">/</span><span class="nt">45px</span><span class="o">;</span>
+<span class="w">  </span><span class="nt">display</span><span class="o">:</span><span class="w"> </span><span class="nt">block</span><span class="o">;</span>
+<span class="w">  </span><span class="err">}</span>
+
+<span class="err">}</span>
+
+<span class="p">.</span><span class="nc">onelinelink</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="k">position</span><span class="p">:</span><span class="w"> </span><span class="kc">relative</span><span class="p">;</span>
+<span class="w">  </span><span class="k">z-index</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span>
+<span class="w">  </span><span class="k">margin</span><span class="p">:</span><span class="w"> </span><span class="mi">4</span><span class="kt">rem</span><span class="p">;</span>
+<span class="w">  </span><span class="k">overflow</span><span class="p">:</span><span class="w"> </span><span class="kc">hidden</span><span class="p">;</span>
+<span class="w">  </span><span class="k">display</span><span class="p">:</span><span class="w"> </span><span class="kc">flex</span><span class="p">;</span>
+<span class="w">  </span><span class="k">border</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="kt">px</span><span class="w"> </span><span class="kc">solid</span><span class="w"> </span><span class="nb">rgba</span><span class="p">(</span><span class="mi">255</span><span class="p">,</span><span class="w"> </span><span class="mi">50</span><span class="p">,</span><span class="w"> </span><span class="mi">50</span><span class="p">,</span><span class="w"> </span><span class="mf">.1</span><span class="p">);</span>
+<span class="w">  </span><span class="k">background</span><span class="p">:</span><span class="w"> </span><span class="nb">rgba</span><span class="p">(</span><span class="mi">255</span><span class="p">,</span><span class="w"> </span><span class="mi">50</span><span class="p">,</span><span class="w"> </span><span class="mi">50</span><span class="p">,</span><span class="w"> </span><span class="mf">.015</span><span class="p">);</span>
+<span class="w">  </span><span class="k">background</span><span class="p">:</span><span class="w"> </span><span class="mh">#262236</span><span class="p">;</span>
+<span class="w">  </span><span class="k">text-decoration</span><span class="p">:</span><span class="w"> </span><span class="kc">none</span><span class="p">;</span>
+<span class="w">  </span><span class="k">border-radius</span><span class="p">:</span><span class="w"> </span><span class="mi">8</span><span class="kt">px</span><span class="p">;</span>
+<span class="w">  </span><span class="k">max-height</span><span class="p">:</span><span class="w"> </span><span class="mi">126</span><span class="kt">px</span><span class="p">;</span>
+
+<span class="w">  </span><span class="err">@media</span><span class="w"> </span><span class="err">(</span><span class="k">max-width</span><span class="p">:</span><span class="w"> </span><span class="mi">800</span><span class="kt">px</span><span class="p">)</span><span class="w"> </span><span class="err">{</span>
+<span class="w">    </span><span class="kc">flex</span><span class="o">-</span><span class="k">direction</span><span class="o">:</span><span class="w"> </span><span class="kc">column</span><span class="p">;</span>
+<span class="w">    </span><span class="k">max-height</span><span class="p">:</span><span class="w"> </span><span class="mi">800</span><span class="kt">px</span><span class="p">;</span>
+<span class="w">    </span><span class="k">max-width</span><span class="p">:</span><span class="w"> </span><span class="mi">300</span><span class="kt">px</span><span class="p">;</span>
+<span class="w">    </span><span class="k">margin</span><span class="p">:</span><span class="w"> </span><span class="mi">4</span><span class="kt">rem</span><span class="w"> </span><span class="kc">auto</span><span class="p">;</span>
+
+<span class="w">  </span><span class="p">}</span>
+
+<span class="w">  </span><span class="nt">h2</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">top</span><span class="p">:</span><span class="w"> </span><span class="mf">-1.2</span><span class="kt">rem</span><span class="p">;</span>
+<span class="w">    </span><span class="n">postition</span><span class="p">:</span><span class="w"> </span><span class="kc">relative</span><span class="p">;</span>
+<span class="w">    </span><span class="k">margin</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">    </span><span class="k">padding</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">    </span><span class="k">font-size</span><span class="p">:</span><span class="w"> </span><span class="mf">.8</span><span class="kt">rem</span><span class="p">;</span>
+<span class="w">    </span><span class="k">font-weight</span><span class="p">:</span><span class="w"> </span><span class="mi">400</span><span class="p">;</span>
+
+<span class="w">  </span><span class="p">}</span>
+
+<span class="w">  </span><span class="p">.</span><span class="nc">right</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="k">width</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="kt">%</span><span class="p">;</span>
+<span class="w">    </span><span class="k">padding</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="kt">px</span><span class="w"> </span><span class="mi">15</span><span class="kt">px</span><span class="p">;</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="w">  </span><span class="p">.</span><span class="nc">description</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">font-size</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="kt">rem</span><span class="p">;</span>
+<span class="w">    </span><span class="k">line-height</span><span class="p">:</span><span class="w"> </span><span class="mf">1.2</span><span class="kt">rem</span><span class="p">;</span>
+<span class="w">    </span><span class="k">height</span><span class="p">:</span><span class="w"> </span><span class="nb">calc</span><span class="p">(</span><span class="mi">100</span><span class="kt">%</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">31</span><span class="kt">px</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">1</span><span class="kt">rem</span><span class="p">);</span>
+<span class="w">    </span><span class="k">padding</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">    </span><span class="k">padding-bottom</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="kt">rem</span><span class="p">;</span>
+<span class="w">    </span><span class="k">padding-top</span><span class="p">:</span><span class="w"> </span><span class="mf">.1</span><span class="kt">rem</span><span class="p">;</span>
+<span class="w">    </span><span class="k">margin</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="w">  </span><span class="p">.</span><span class="nc">url</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">padding-right</span><span class="p">:</span><span class="w"> </span><span class="mi">30</span><span class="kt">px</span><span class="p">;</span>
+<span class="w">    </span><span class="k">color</span><span class="p">:</span><span class="w"> </span><span class="nb">rgba</span><span class="p">(</span><span class="mi">255</span><span class="p">,</span><span class="w"> </span><span class="mi">255</span><span class="p">,</span><span class="w"> </span><span class="mi">255</span><span class="p">,</span><span class="w"> </span><span class="mf">.1</span><span class="p">);</span>
+<span class="w">    </span><span class="k">text-align</span><span class="p">:</span><span class="w"> </span><span class="kc">right</span><span class="p">;</span>
+<span class="w">    </span><span class="k">position</span><span class="p">:</span><span class="w"> </span><span class="kc">relative</span><span class="p">;</span>
+<span class="w">    </span><span class="k">z-index</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span>
+<span class="w">    </span><span class="k">background</span><span class="p">:</span><span class="w"> </span><span class="mh">#262236</span><span class="p">;</span>
+<span class="w">  </span><span class="p">}</span>
+
+<span class="w">  </span><span class="nt">img</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">max-width</span><span class="p">:</span><span class="w"> </span><span class="mi">300</span><span class="kt">px</span><span class="p">;</span>
+<span class="w">    </span><span class="k">max-height</span><span class="p">:</span><span class="w"> </span><span class="mi">126</span><span class="kt">px</span><span class="p">;</span>
+<span class="w">    </span><span class="k">padding</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">    </span><span class="k">margin</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">    </span><span class="k">border-radius</span><span class="p">:</span><span class="w"> </span><span class="mi">8</span><span class="kt">px</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="mi">8</span><span class="kt">px</span><span class="p">;</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="w">  </span><span class="p">.</span><span class="nc">read-more</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">font-size</span><span class="p">:</span><span class="w"> </span><span class="mf">.6</span><span class="kt">rem</span><span class="p">;</span>
+<span class="w">    </span><span class="k">color</span><span class="p">:</span><span class="w"> </span><span class="nb">rgba</span><span class="p">(</span><span class="mi">255</span><span class="p">,</span><span class="w"> </span><span class="mi">255</span><span class="p">,</span><span class="w"> </span><span class="mi">255</span><span class="p">,</span><span class="w"> </span><span class="mf">.08</span><span class="p">);</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="err">}</span>
+</pre></div>
+
+</pre>
+<h3>Final Look</h3>
+<p>On mobile, it renders vertically.</p>
+<p><img alt="mobile" src="https://images.waylonwalker.com/one-line-link-vertical.png"/></p>
+<p>On desktop, it renders horizontally.</p>
+<p><img alt="desktop" src="https://images.waylonwalker.com/one-line-link-horizontal.png"/></p>
+<h2 id="expansion">Expansion <a aria-label="Permalink to Heading Expansion " class="header-anchor" href="#expansion" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>I'm sure that all of this can be better, my js skills are still forming.  It's quite humbling to see how hard it is to think in an unfamiliar language.  The following <code>oneLineLineCard</code> renders a string template literal from a paragraph with a single anchor to a card that contains some of that pages meta information.  The
+getDescription` function uses a fetch to get the metadata right from the content of the page.</p>
+<pre class="wrapper">
+
+<div class="copy-wrapper">
+
+<button class="copy" onclick="navigator.clipboard.writeText(this.parentElement.parentElement.querySelector('pre').textContent)" title="copy code to clipboard"><svg id="Layer_1" style="enable-background:new 0 0 115.77 122.88" version="1.1" viewbox="0 0 115.77 122.88" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M89.62,13.96v7.73h12.19h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02v0.02 v73.27v0.01h-0.02c-0.01,3.84-1.57,7.33-4.1,9.86c-2.51,2.5-5.98,4.06-9.82,4.07v0.02h-0.02h-61.7H40.1v-0.02 c-3.84-0.01-7.34-1.57-9.86-4.1c-2.5-2.51-4.06-5.98-4.07-9.82h-0.02v-0.02V92.51H13.96h-0.01v-0.02c-3.84-0.01-7.34-1.57-9.86-4.1 c-2.5-2.51-4.06-5.98-4.07-9.82H0v-0.02V13.96v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07V0h0.02h61.7 h0.01v0.02c3.85,0.01,7.34,1.57,9.86,4.1c2.5,2.51,4.06,5.98,4.07,9.82h0.02V13.96L89.62,13.96z M79.04,21.69v-7.73v-0.02h0.02 c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v64.59v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h12.19V35.65 v-0.01h0.02c0.01-3.85,1.58-7.34,4.1-9.86c2.51-2.5,5.98-4.06,9.82-4.07v-0.02h0.02H79.04L79.04,21.69z M105.18,108.92V35.65v-0.02 h0.02c0-0.91-0.39-1.75-1.01-2.37c-0.61-0.61-1.46-1-2.37-1v0.02h-0.01h-61.7h-0.02v-0.02c-0.91,0-1.75,0.39-2.37,1.01 c-0.61,0.61-1,1.46-1,2.37h0.02v0.01v73.27v0.02h-0.02c0,0.91,0.39,1.75,1.01,2.37c0.61,0.61,1.46,1,2.37,1v-0.02h0.01h61.7h0.02 v0.02c0.91,0,1.75-0.39,2.37-1.01c0.61-0.61,1-1.46,1-2.37h-0.02V108.92L105.18,108.92z"></path></g></svg></button>
+</div>
+        
+<div class="highlight"><pre><span></span><span class="kd">const</span><span class="w"> </span><span class="nx">getDescription</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="nx">url</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span>
+<span class="w">  </span><span class="nx">fetch</span><span class="p">(</span><span class="nx">url</span><span class="p">)</span>
+<span class="w">    </span><span class="p">.</span><span class="nx">then</span><span class="p">((</span><span class="nx">r</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="nx">r</span><span class="p">.</span><span class="nx">text</span><span class="p">())</span>
+<span class="w">    </span><span class="p">.</span><span class="nx">then</span><span class="p">((</span><span class="nx">html</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="kd">let</span><span class="w"> </span><span class="nx">parser</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">DOMParser</span><span class="p">()</span>
+<span class="w">      </span><span class="kd">let</span><span class="w"> </span><span class="nx">doc</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">parser</span><span class="p">.</span><span class="nx">parseFromString</span><span class="p">(</span><span class="nx">html</span><span class="p">,</span><span class="w"> </span><span class="s1">'text/html'</span><span class="p">)</span>
+<span class="w">      </span><span class="kd">let</span><span class="w"> </span><span class="nx">meta</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">doc</span><span class="p">.</span><span class="nx">querySelectorAll</span><span class="p">(</span><span class="s1">'meta'</span><span class="p">)</span>
+<span class="w">      </span><span class="kd">const</span><span class="w"> </span><span class="nx">description</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[...</span><span class="nx">meta</span><span class="p">].</span><span class="nx">filter</span><span class="p">(</span>
+<span class="w">        </span><span class="p">(</span><span class="nx">m</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="nx">m</span><span class="p">.</span><span class="nx">name</span><span class="w"> </span><span class="o">===</span><span class="w"> </span><span class="s1">'og:description'</span>
+<span class="w">      </span><span class="p">)[</span><span class="mf">0</span><span class="p">].</span><span class="nx">content</span>
+<span class="w">      </span><span class="kd">const</span><span class="w"> </span><span class="nx">image</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[...</span><span class="nx">meta</span><span class="p">].</span><span class="nx">filter</span><span class="p">((</span><span class="nx">m</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="nx">m</span><span class="p">.</span><span class="nx">name</span><span class="w"> </span><span class="o">===</span><span class="w"> </span><span class="s1">'og:image'</span><span class="p">)[</span><span class="mf">0</span><span class="p">]</span><span class="o">?</span><span class="p">.</span><span class="nx">content</span>
+<span class="w">      </span><span class="kd">const</span><span class="w"> </span><span class="nx">sm_image</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[...</span><span class="nx">meta</span><span class="p">].</span><span class="nx">filter</span><span class="p">((</span><span class="nx">m</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="nx">m</span><span class="p">.</span><span class="nx">name</span><span class="w"> </span><span class="o">===</span><span class="w"> </span><span class="s1">'og:sm_image'</span><span class="p">)[</span><span class="mf">0</span><span class="p">]</span>
+<span class="w">        </span><span class="o">?</span><span class="p">.</span><span class="nx">content</span>
+<span class="w">      </span><span class="kd">const</span><span class="w"> </span><span class="nx">url</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[...</span><span class="nx">meta</span><span class="p">].</span><span class="nx">filter</span><span class="p">((</span><span class="nx">m</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="nx">m</span><span class="p">.</span><span class="nx">name</span><span class="w"> </span><span class="o">===</span><span class="w"> </span><span class="s1">'og:url'</span><span class="p">)[</span><span class="mf">0</span><span class="p">]</span><span class="o">?</span><span class="p">.</span><span class="nx">content</span>
+<span class="w">      </span><span class="kd">const</span><span class="w"> </span><span class="nx">title</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[...</span><span class="nx">meta</span><span class="p">].</span><span class="nx">filter</span><span class="p">((</span><span class="nx">m</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="nx">m</span><span class="p">.</span><span class="nx">name</span><span class="w"> </span><span class="o">===</span><span class="w"> </span><span class="s1">'title'</span><span class="p">)[</span><span class="mf">0</span><span class="p">]</span><span class="o">?</span><span class="p">.</span><span class="nx">content</span>
+<span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">description</span><span class="p">,</span><span class="w"> </span><span class="nx">image</span><span class="p">,</span><span class="w"> </span><span class="nx">url</span><span class="p">,</span><span class="w"> </span><span class="nx">title</span><span class="p">,</span><span class="w"> </span><span class="nx">sm_image</span><span class="w"> </span><span class="p">}</span>
+<span class="w">    </span><span class="p">})</span>
+
+<span class="kd">const</span><span class="w"> </span><span class="nx">oneLineLinkCard</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="nx">url</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="nx">getDescription</span><span class="p">(</span><span class="nx">url</span><span class="p">).</span><span class="nx">then</span><span class="p">(</span>
+<span class="w">    </span><span class="p">(</span><span class="nx">meta</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span>
+<span class="w">      </span><span class="sb">`&lt;a class="onelinelink" href=</span><span class="si">${</span><span class="nx">meta</span><span class="p">.</span><span class="nx">url</span><span class="si">}</span><span class="sb">&gt;</span>
+<span class="sb">  &lt;img src='</span><span class="si">${</span><span class="nx">meta</span><span class="p">.</span><span class="nx">sm_image</span><span class="w"> </span><span class="o">?</span><span class="w"> </span><span class="nx">meta</span><span class="p">.</span><span class="nx">sm_image</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="nx">meta</span><span class="p">.</span><span class="nx">image</span><span class="w"> </span><span class="o">?</span><span class="w"> </span><span class="nx">meta</span><span class="p">.</span><span class="nx">image</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="s1">''</span><span class="si">}</span><span class="sb">' alt='cover image for </span><span class="si">${</span><span class="nx">meta</span><span class="p">.</span><span class="nx">title</span><span class="w"> </span><span class="o">?</span><span class="w"> </span><span class="nx">meta</span><span class="p">.</span><span class="nx">title</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="s1">''</span><span class="si">}</span><span class="sb">&gt;</span>
+<span class="sb">  &lt;div class="right"&gt;</span>
+<span class="sb">    &lt;h2&gt;</span><span class="si">${</span><span class="nx">meta</span><span class="p">.</span><span class="nx">title</span><span class="w"> </span><span class="o">?</span><span class="w"> </span><span class="nx">meta</span><span class="p">.</span><span class="nx">title</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="s1">''</span><span class="si">}</span><span class="sb">&lt;/h2&gt;</span>
+<span class="sb">    &lt;p class='description'&gt;</span>
+<span class="sb">      </span><span class="si">${</span><span class="nx">meta</span><span class="p">.</span><span class="nx">description</span><span class="w"> </span><span class="o">?</span><span class="w"> </span><span class="nx">meta</span><span class="p">.</span><span class="nx">description</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="s1">''</span><span class="si">}</span>
+<span class="sb">    &lt;/p&gt;</span>
+<span class="sb">    &lt;p class="url"&gt;</span>
+<span class="sb">       &lt;span class='read-more'&gt;read more&lt;/span&gt;  waylonwalker.com</span>
+<span class="sb">    &lt;/p&gt;</span>
+<span class="sb">  &lt;/div&gt;</span>
+
+<span class="sb">&lt;/a&gt;</span>
+<span class="sb">  `</span>
+<span class="w">  </span><span class="p">)</span>
+<span class="p">}</span>
+</pre></div>
+
+</pre>
+<h2 id="it-works">It works <a aria-label="Permalink to Heading It works " class="header-anchor" href="#it-works" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>And it works.  Whenever I reference my own blog with just a single link on a line in markdown I get a nice card link out to the other post, with a small image sized for the card, the title, and the description of the post.</p>
+<h2 id="but">But <a aria-label="Permalink to Heading But " class="header-anchor" href="#but" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<ul>
+<li>too much client-side</li>
+<li>does not work well with cross-posting</li>
+</ul>
+<p>For every link I do this with the client will pull the full page just to get a bit of metadata.  I am already doing a bit more than I want to do client-side for a blog, so I would prefer to do it ahead of time.</p>
+<p>Additionally, since it is done client-side it does not translate well when I copy my markdown to various other blogging platforms.  If it were rendered right into the markdown cross-posting would be much easier.</p>
+<h2 id="future-state">Future State <a aria-label="Permalink to Heading Future State " class="header-anchor" href="#future-state" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p><em>actually already implemented at this point</em></p>
+<p>The direction I am going to try is to use python to load each post, look for lines that contain only a link, then render this same markup right in the markdown.  For this I am going to use a language I am more familiar with, python, and do this inside of GitHub actions just before build time so that the markdown I write stays the same, the cards will only be rendered in prod.</p>
+<h2 id="why-python-">Why Python 🐍 <a aria-label="Permalink to Heading Why Python 🐍 " class="header-anchor" href="#why-python-" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>Python is my every day what I know, I work much more efficiently and cleanly with it.  Also the more I blog the more abstractions I am seeing and the lazier I am getting.  Things like description, SEO, cover images are all getting automated. Gatsby really doesn't like to run when some of those things are missing, probably due to my lack of JS error handling skills.  I find it much easier to load up all the pages and patch up the frontmatter in python before
+build time.</p>
+<p>I am kinda curious if eventually, I can re-create everything I need in python because I am honestly not using react for much more than a glorified templating system, besides search.  If I can pre-render everything in python</p>
+<h2 id="what-do-you-think">What do you think?? <a aria-label="Permalink to Heading What do you think?? " class="header-anchor" href="#what-do-you-think" hx-boost="true"><svg aria-hidden="true" class="heading-permalink" fill="currentColor" focusable="false" height="1em" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.199 13.599a5.99 5.99 0 0 0 3.949 2.345 5.987 5.987 0 0 0 5.105-1.702l2.995-2.994a5.992 5.992 0 0 0 1.695-4.285 5.976 5.976 0 0 0-1.831-4.211 5.99 5.99 0 0 0-6.431-1.242 6.003 6.003 0 0 0-1.905 1.24l-1.731 1.721a.999.999 0 1 0 1.41 1.418l1.709-1.699a3.985 3.985 0 0 1 2.761-1.123 3.975 3.975 0 0 1 2.799 1.122 3.997 3.997 0 0 1 .111 5.644l-3.005 3.006a3.982 3.982 0 0 1-3.395 1.126 3.987 3.987 0 0 1-2.632-1.563A1 1 0 0 0 9.201 13.6zm5.602-3.198a5.99 5.99 0 0 0-3.949-2.345 5.987 5.987 0 0 0-5.105 1.702l-2.995 2.994a5.992 5.992 0 0 0-1.695 4.285 5.976 5.976 0 0 0 1.831 4.211 5.99 5.99 0 0 0 6.431 1.242 6.003 6.003 0 0 0 1.905-1.24l1.723-1.723a.999.999 0 1 0-1.414-1.414L9.836 19.81a3.985 3.985 0 0 1-2.761 1.123 3.975 3.975 0 0 1-2.799-1.122 3.997 3.997 0 0 1-.111-5.644l3.005-3.006a3.982 3.982 0 0 1 3.395-1.126 3.987 3.987 0 0 1 2.632 1.563 1 1 0 0 0 1.602-1.198z"></path></svg></a></h2>
+<p>Do they look good?  Could they be better?</p>
+</div>
+</article>
+<article>
+<h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Recent Posts</h2>
+<ul class="px-0">
+<li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/wondercraft-session-one/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Wondercraft Session One
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-13">
+                2025-1-13
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/one-shot-s3-cleanup/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            One-Shot-S3-Cleanup
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-12">
+                2025-1-12
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/nvim-manager/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Nvim-Manager
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-12">
+                2025-1-12
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/now/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Now
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-12">
+                2025-1-12
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/we-beat-trailmakers/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            We Beat Trailmakers
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-10">
+                2025-1-10
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/postiz-file-upload/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Postiz-File-Upload
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-10">
+                2025-1-10
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/start/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Start
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-03">
+                2025-1-3
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/slow-nfs-performance/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Slow Nfs Performance
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-02">
+                2025-1-2
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/colophon/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Colophon
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-02">
+                2025-1-2
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/setting-up-ucore-zfs/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            Setting Up Ucore-Zfs
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2024-12-27">
+                2024-12-27
+            </time>
+</p>
+</a>
+</li></ul>
+<h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Recent <a href="/thoughts/" hx-boost="true">Thoughts</a></h2>
+<ul class="px-0">
+<li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-529/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Supermini Nrf52840 Wireless Controller Developme
+            ...
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-13">
+                2025-1-13
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-530/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Availability
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-13">
+                2025-1-13
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-531/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Why I Write
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-13">
+                2025-1-13
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-532/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 (110) The Future Of Htmx - Youtube
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-13">
+                2025-1-13
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-524/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 (107) Why You Should Game On Linux (Feat. Glorio
+            ...
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-11">
+                2025-1-11
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-526/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Bluesky Is More Like Twitter Than X Is
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-11">
+                2025-1-11
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-527/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Quick Start - Kotaemon Docs
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-11">
+                2025-1-11
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-523/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 V2 Suddenly Getting Client-Not-Enrolled Today - 
+            ...
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-10">
+                2025-1-10
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-515/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Olimorris/Codecompanion.Nvim: ✨ Ai-Powered Codin
+            ...
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-09">
+                2025-1-9
+            </time>
+</p>
+</a>
+</li><li class="px-4 mx-0 post group h-entry hentry list-none">
+<a class="u-url" href="/thoughts-516/" hx-boost="true" rel="bookmark">
+<p class="p-0 m-0 p-name entry-title text-base group-hover:text-yellow-500 flex flex-row flex-wrap">
+            💭 Gitingest
+            <time class="dt-published published font-normal pl-4 m-0 p-0 text-white/60 group-hover:text-white" datetime="2025-01-09">
+                2025-1-9
+            </time>
+</p>
+</a>
+</li></ul>
+<h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Recent Posts from People I read</h2>
+<div hx-get="https://reader.waylonwlker.com/10-written" hx-swap="outerHTML" hx-trigger="load"></div>
+<h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Recent Posts from my YouTube subs</h2>
+<div hx-get="https://reader.waylonwlker.com/10-video" hx-swap="outerHTML" hx-trigger="load"></div>
+<h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Recent Posts from my favorite pods</h2>
+<div hx-get="https://reader.waylonwlker.com/10-video" hx-swap="outerHTML" hx-trigger="load"></div> </article>
+</div>
+<footer class="bg-gray-900 border-t border-pink-800 pb-8">
+<ul class="social my-8">
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://waylonwalker.com/feeds" hx-boost="true" rel="me">RSS</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://twitter.com/_WaylonWalker" rel="me">twitter</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://youtube.com/waylonwalker">youtube</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://www.youtube.com/channel/UCHuxc1HRsd3aRjvL6C817tQ">gaming-youtube</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://www.linkedin.com/in/waylonwalker/">LinkedIn</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://github.com/WaylonWalker" rel="me">GitHub</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://dev.to/waylonwalker">Dev.to</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="https://www.twitch.tv/waylonwalker">twitch</a>
+</li>
+<li>
+<a class="decoration-pink-500 hover:decoration-pink-300 hover:text-pink-100" href="mailto:hello@waylonwalker.com" rel="me">hello@waylonwalker.com</a>
+</li>
+</ul>
+<p>© 2020 - 2025</p>
+</footer> </div>
+</body>
+</html>

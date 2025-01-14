@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/sitemap.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <title>recently_written</title>
+    <link>https://waylonwalker.com/</link>
+   <url>
+      <title>Wondercraft Session One</title>
+      <description>My son and I are starting a new Minecraft server today called wondercraft. We initially spawned in a plains biome near an acacia and forest biome.</description>
+      <loc>https://waylonwalker.com//wondercraft-session-one</loc>
+      <lastmod>2025-01-13</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>One-Shot-S3-Cleanup</title>
+      <description>So I made a mistake in an app I am working on and ended up creating thumbnails I got the idea of the one shot app from  Here is the result of the s3 Here is the</description>
+      <loc>https://waylonwalker.com//one-shot-s3-cleanup</loc>
+      <lastmod>2025-01-12</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Nvim-Manager</title>
+      <description>I recently built a cli application as a nearly-one-shot-app called {.bg-blue-900 .border-r-8 .border-black .rounded-xl .max-w-xl .p-6 .font-bold} {.bg-green-900</description>
+      <loc>https://waylonwalker.com//nvim-manager</loc>
+      <lastmod>2025-01-12</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Now</title>
+      <description>Last update Sun Jan 12 09:08:07 PM CST 2025 Moving from Arch to Bazzite, I kubernetes - trying to get better k8s in the homelab - All of my services I run in my</description>
+      <loc>https://waylonwalker.com//now</loc>
+      <lastmod>2025-01-12</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>We Beat Trailmakers</title>
+      <description>Today we broke through the atmosphere in trailmakers ready for pickup from I haven Today we hit 100% of the required parts required to build the space ship and </description>
+      <loc>https://waylonwalker.com//we-beat-trailmakers</loc>
+      <lastmod>2025-01-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Postiz-File-Upload</title>
+      <description>Today I learned that the docs in postiz are a bit behind, (fantastic docs btw, This  looking into my running instance I can see my images there.</description>
+      <loc>https://waylonwalker.com//postiz-file-upload</loc>
+      <lastmod>2025-01-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Start</title>
+      <description>Welcome to waylonwalker.com, my small corner of the internet.  I currently have I have quite a few different feeds that you can browse or subscribe to in your r</description>
+      <loc>https://waylonwalker.com//start</loc>
+      <lastmod>2025-01-03</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Slow Nfs Performance</title>
+      <description>I I I just started trying to build this site in a cronjob, It was taking 20 minutes I just moved into the master node and the results were wild at ~30x faster I</description>
+      <loc>https://waylonwalker.com//slow-nfs-performance</loc>
+      <lastmod>2025-01-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Colophon</title>
+      <description>All posts on this site are written by  see more in  This site is a static site build with my own static site generator  [ [ cloudflare pages see more about thes</description>
+      <loc>https://waylonwalker.com//colophon</loc>
+      <lastmod>2025-01-02</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <title>Setting Up Ucore-Zfs</title>
+      <description>I just setup my oldest hardware on the newest hotest server distro ucore-zfs. My current boot log shows that I first started daily driving bazzite back in Four </description>
+      <loc>https://waylonwalker.com//setting-up-ucore-zfs</loc>
+      <lastmod>2024-12-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+</urlset>
