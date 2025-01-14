@@ -5,6 +5,8 @@ title: Running a Minecraft Server in Docker
 tags:
   - docker
   - homelab
+  - minecraft
+  - gaming
 
 ---
 
@@ -25,7 +27,6 @@ I ended up running the first thing in the Readme that included a volume
 mount.  If you are going to run this container, I HIGHLY reccomend that
 you make sure that you have your world volume mounted, otherwise it will
 die with your docker container.
-
 
 ## Docker Compose
 
