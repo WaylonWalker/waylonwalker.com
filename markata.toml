@@ -843,13 +843,6 @@ reverse = true
 description = "Posts about slash"
 
 [[markata.feeds]]
-slug = ""
-filter = "date<=today and '' in str(tags).lower() and published"
-sort = "date"
-reverse = true
-description = "Posts about "
-
-[[markata.feeds]]
 slug = "k3s"
 filter = "date<=today and 'k3s' in str(tags).lower() and published"
 sort = "date"
