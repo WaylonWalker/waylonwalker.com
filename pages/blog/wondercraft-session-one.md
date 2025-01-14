@@ -4,6 +4,7 @@ templateKey: blog-post
 title: wondercraft session one
 tags:
   - wondercraft
+  - minecraft
   - gaming
 published: True
 

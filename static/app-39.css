@@ -1936,6 +1936,11 @@ video {
   border-color: rgb(157 23 77 / var(--tw-border-opacity));
 }
 
+.border-pink-900 {
+  --tw-border-opacity: 1;
+  border-color: rgb(131 24 67 / var(--tw-border-opacity));
+}
+
 .border-rose-800 {
   --tw-border-opacity: 1;
   border-color: rgb(159 18 57 / var(--tw-border-opacity));
