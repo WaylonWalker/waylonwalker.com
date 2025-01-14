@@ -105,3 +105,7 @@ almost instantly.
       type="video/mp4">
      Sorry, your browser doesn't support embedded videos.
 </video>
+
+## Note to self
+
+Next time run Minecraft in full screen so you don't dox your start menu.
