@@ -1,141 +1,143 @@
 <!doctype html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="og:type" content="website" />
-    <meta name="og:title" name="og:title" content="{{title}}" />
-    <meta name="generator" content="Markata 0.0.1" />
-    <meta content="markata {{ __version__ }}" name="generator" />
-    <meta name="twitter:title" name="twitter:title" content="{{title}}" />
-    <meta name="og:image" name="og:image" content="{{url}}/waylon-walker.png" />
-    <meta name="twitter:image" name="twitter:image" content="{{url}}/waylon-walker.png" />
-    <meta name="og:image:width" name="og:image:width" content="1000" />
-    <meta name="og:image:height" name="og:image:height" content="420" />
-    <meta name="og:url" name="og:url" content="{{url}}/archive/" />
-    <meta name="description" name="description" content="{{description}}" />
-    <meta name="og:description" name="og:description" content="{{description}}" />
-    <meta name="twitter:description" name="twitter:description" content="{{description}}" />
-    <link rel="icon" href="/8bitcc.ico" type="image/png" />
-    <meta property="monetization" name="monetization" content="$ilp.uphold.com/MGN2ni2YMXaQ" />
-    <link rel="authorization_endpoint" href="https://indieauth.com/auth">
-    <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
-    <link rel="micropub" href="https://waylonwalker.com/archive">
-    <link rel="webmention" href="https://webmention.io/waylonwalker.com/webmention" />
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="og:type" content="website" />
+        <meta name="og:title" name="og:title" content="{{title}}" />
+        <meta name="generator" content="Markata 0.0.1" />
+        <meta content="markata {{ __version__ }}" name="generator" />
+        <meta name="twitter:title" name="twitter:title" content="{{title}}" />
+        <meta name="og:image" name="og:image" content="{{url}}/waylon-walker.png" />
+        <meta name="twitter:image" name="twitter:image" content="{{url}}/waylon-walker.png" />
+        <meta name="og:image:width" name="og:image:width" content="1000" />
+        <meta name="og:image:height" name="og:image:height" content="420" />
+        <meta name="og:url" name="og:url" content="{{url}}/archive/" />
+        <meta name="description" name="description" content="{{description}}" />
+        <meta name="og:description" name="og:description" content="{{description}}" />
+        <meta name="twitter:description" name="twitter:description" content="{{description}}" />
+        <link rel="icon" href="/8bitcc.ico" type="image/png" />
+        <meta property="monetization" name="monetization" content="$ilp.uphold.com/MGN2ni2YMXaQ" />
+        <link rel="authorization_endpoint" href="https://indieauth.com/auth">
+        <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
+        <link rel="micropub" href="https://waylonwalker.com/archive">
+        <link rel="webmention" href="https://webmention.io/waylonwalker.com/webmention" />
 
-    <link rel="stylesheet" href="/app.css" />
-    <link href="/manifest.json" rel="manifest" />
-    <link href="{{canonical_url}}" rel="canonical" />
-    <title>{{title}}</title>
-</head>
+        <link rel="stylesheet" href="/app.css" />
+        <link href="/manifest.json" rel="manifest" />
+        <link href="{{canonical_url}}" rel="canonical" />
+        <title>{{title}}</title>
+    </head>
 
-<body>
-    <div class="neon-ring"></div>
-    <div class="dubs">
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/archive/">Archive</a></li>
+    <body>
+        <div class="neon-ring"></div>
+        <div class="dubs">
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/archive/">Archive</a></li>
+                    <li>
+                        <a href="{{url}}/rss.xml" aria-label="RSS">
+                            <svg class="icon" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" height="16" width="16">
+                                <path fill="currentColor"
+                                      d="M 4 4.44 v 2.83 c 7.03 0 12.73 5.7 12.73 12.73 h 2.83 c 0 -8.59 -6.97 -15.56 -15.56 -15.56 Z m 0 5.66 v 2.83 c 3.9 0 7.07 3.17 7.07 7.07 h 2.83 c 0 -5.47 -4.43 -9.9 -9.9 -9.9 Z M 6.18 15.64 A 2.18 2.18 0 0 1 6.18 20 A 2.18 2.18 0 0 1 6.18 15.64">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="social">
                 <li>
-                    <a href="{{url}}/rss.xml" aria-label="RSS">
-                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="16" width="16">
-                            <path fill="currentColor"
-                                d="M 4 4.44 v 2.83 c 7.03 0 12.73 5.7 12.73 12.73 h 2.83 c 0 -8.59 -6.97 -15.56 -15.56 -15.56 Z m 0 5.66 v 2.83 c 3.9 0 7.07 3.17 7.07 7.07 h 2.83 c 0 -5.47 -4.43 -9.9 -9.9 -9.9 Z M 6.18 15.64 A 2.18 2.18 0 0 1 6.18 20 A 2.18 2.18 0 0 1 6.18 15.64">
-                            </path>
-                        </svg>
-                    </a>
+                    <a href="https://twitter.com/_WaylonWalker" rel='me'>twitter</a>
+                </li>
+                <li>
+                    <a href="https://youtube.com/waylonwalker">youtube</a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UCHuxc1HRsd3aRjvL6C817tQ">gaming-youtube</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/waylonwalker/">LinkedIn</a>
+                </li>
+                <li>
+                    <a href="https://github.com/WaylonWalker" rel='me'>GitHub</a>
+                </li>
+                <li>
+                    <a href="https://dev.to/waylonwalker">Dev.to</a>
+                </li>
+                <li>
+                    <a href="https://www.twitch.tv/waylonwalker">twitch</a>
                 </li>
             </ul>
-        </nav>
-        <ul class="social">
-            <li>
-                <a href="https://twitter.com/_WaylonWalker" rel='me'>twitter</a>
-            </li>
-            <li>
-                <a href="https://youtube.com/waylonwalker">youtube</a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/channel/UCHuxc1HRsd3aRjvL6C817tQ">gaming-youtube</a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/waylonwalker/">LinkedIn</a>
-            </li>
-            <li>
-                <a href="https://github.com/WaylonWalker" rel='me'>GitHub</a>
-            </li>
-            <li>
-                <a href="https://dev.to/waylonwalker">Dev.to</a>
-            </li>
-            <li>
-                <a href="https://www.twitch.tv/waylonwalker">twitch</a>
-            </li>
-        </ul>
-        <h1 class="flair text-center">Post Archive</h1>
-        <ul class="archive-tags">
-            <li>
-                <a href="/python/"> python </a>
-            </li>
-            <li>
-                <a href="/linux/"> linux </a>
-            </li>
-            <li>
-                <a href="/vim/"> vim </a>
-            </li>
-            <li>
-                <a href="/kedro/"> kedro </a>
-            </li>
-        </ul>
-        <details style="width: 100%">
-            <summary style="
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            margin-bottom: 1rem;
-            cursor: pointer;
-          ">
-                how big
-            </summary>
+            <h1 class="flair text-center">Post Archive</h1>
             <ul class="archive-tags">
                 <li>
-                    <a href="/archive/"> all posts </a>
+                    <a href="/python/"> python </a>
                 </li>
                 <li>
-                    <a href="/blog/"> only full blog posts </a>
+                    <a href="/linux/"> linux </a>
                 </li>
                 <li>
-                    <a href="/til/"> only short tils </a>
+                    <a href="/vim/"> vim </a>
+                </li>
+                <li>
+                    <a href="/kedro/"> kedro </a>
                 </li>
             </ul>
-        </details>
-        <article id="posts" class="h-feed hfeed list archive-list">
-            {{ body }}
-        </article>
-        <h2 class="text-center">Socials</h2>
-        <ul class="social">
-            <li>
-                <a href="https://twitter.com/_WaylonWalker" rel="me">twitter</a>
-            </li>
-            <li>
-                <a href="https://youtube.com/waylonwalker">youtube</a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/channel/UCHuxc1HRsd3aRjvL6C817tQ">gaming-youtube</a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/waylonwalker/">LinkedIn</a>
-            </li>
-            <li>
-                <a href="https://github.com/WaylonWalker" rel="me">GitHub</a>
-            </li>
-            <li>
-                <a href="https://dev.to/waylonwalker">Dev.to</a>
-            </li>
-            <li>
-                <a href="https://www.twitch.tv/waylonwalker">twitch</a>
-            </li>
-        </ul>
-    </div>
-</body>
+            <details style="width: 100%">
+                <summary style="
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: center;
+                                margin-bottom: 1rem;
+                                cursor: pointer;
+                               ">
+                    how big
+                </summary>
+                <ul class="archive-tags">
+                    <li>
+                        <a href="/archive/"> all posts </a>
+                    </li>
+                    <li>
+                        <a href="/blog/"> only full blog posts </a>
+                    </li>
+                    <li>
+                        <a href="/til/"> only short tils </a>
+                    </li>
+                </ul>
+            </details>
+            <article id="posts" class="h-feed hfeed list archive-list">
+                {% for post in posts %}
+                    {% include feed.config.card_template %}
+                {% endfor %}
+            </article>
+            <h2 class="text-center">Socials</h2>
+            <ul class="social">
+                <li>
+                    <a href="https://twitter.com/_WaylonWalker" rel="me">twitter</a>
+                </li>
+                <li>
+                    <a href="https://youtube.com/waylonwalker">youtube</a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UCHuxc1HRsd3aRjvL6C817tQ">gaming-youtube</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/waylonwalker/">LinkedIn</a>
+                </li>
+                <li>
+                    <a href="https://github.com/WaylonWalker" rel="me">GitHub</a>
+                </li>
+                <li>
+                    <a href="https://dev.to/waylonwalker">Dev.to</a>
+                </li>
+                <li>
+                    <a href="https://www.twitch.tv/waylonwalker">twitch</a>
+                </li>
+            </ul>
+        </div>
+    </body>
 
 </html>

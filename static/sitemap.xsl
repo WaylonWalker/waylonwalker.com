@@ -1,5 +1,5 @@
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
- xmlns:sm="http://www.sitemaps.org/schemas/sitemap/0.9">
+<xsl:stylesheet version="1.0" xmlns:xsl="https://www.w3.org/1999/XSL/Transform"
+ xmlns:sm="https://www.sitemaps.org/schemas/sitemap/0.9">
     <xsl:template match="/">
         <html lang="en">
 
@@ -35,7 +35,7 @@
                     <li><a href="/archive/">Archive</a></li>
                     <li>
                         <a href="/rss.xml" aria-label="RSS">
-                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="16"
+                            <svg class="icon" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" height="16"
                                 width="16">
                                 <path fill="currentColor"
                                     d="M 4 4.44 v 2.83 c 7.03 0 12.73 5.7 12.73 12.73 h 2.83 c 0 -8.59 -6.97 -15.56 -15.56 -15.56 Z m 0 5.66 v 2.83 c 3.9 0 7.07 3.17 7.07 7.07 h 2.83 c 0 -5.47 -4.43 -9.9 -9.9 -9.9 Z M 6.18 15.64 A 2.18 2.18 0 0 1 6.18 20 A 2.18 2.18 0 0 1 6.18 15.64">

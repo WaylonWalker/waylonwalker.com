@@ -131,5 +131,5 @@ solve with minimum viable errors.
 ## Useful Links
 
 * [diskcache-pypi](https://pypi.org/project/diskcache/)
-* [diskcache-tutorial](http://www.grantjenks.com/docs/diskcache/tutorial.html)
+* [diskcache-tutorial](https://www.grantjenks.com/docs/diskcache/tutorial.html)
 * [diskcache-github](https://github.com/grantjenks/python-diskcache) 👈 Give it a star

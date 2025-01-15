@@ -66,11 +66,11 @@ plugin author.
 
 ## Floris Bruynooghe
 
-https://www.youtube.com/watch?v=zZsNPDfOoHU
+<https://www.youtube.com/watch?v=zZsNPDfOoHU>
 
 Floris Bruynooghe has a great talk from [EuroPython
 2015](https://www.youtube.com/watch?v=zZsNPDfOoHU) where he shows how to build
-a project thats plugins all the way down.  His [slides](http://devork.be/talks/pluggy) are also available.
+a project thats plugins all the way down.  His [slides](https://devork.be/talks/pluggy) are also available.
 
 ## Kedro
 
@@ -88,27 +88,24 @@ Another example is the palantir python language server.  Check out their
 [hookspec](https://github.com/palantir/python-language-server/blob/91a13687dbd5247374253b245124befb8d9c60c9/pyls/hookspecs.py)
 module.
 
-
 ## Tutorial
-
 
 ## Plugin Components
 
 * project_name
-    * implemented by the library author
-    * gives a namespace for pluggy to store hooks
+  * implemented by the library author
+  * gives a namespace for pluggy to store hooks
 * hookspec
-    * created and used by libary author
+  * created and used by libary author
 * hookimpl
-    * created by libary author
-    * used by plugin author
+  * created by libary author
+  * used by plugin author
 * PluginManager
-    * implementation of plugins in the library
+  * implementation of plugins in the library
 
 ## hookspec
 
 _empty hooks created by the library author
-
 
 ``` python
 # hookspec.py
@@ -128,8 +125,8 @@ class PrinterHooks:
         pass
 ```
 
-
 ## hookimpl
+
 _used by the plugin author_
 
 Implementations of plugins much match the name of the spec exactly.
@@ -137,7 +134,6 @@ They can include some or all of the arguments listed in the spec,
 but no others.  They can be implemented as a module with functions
 that match the name of the spec or as a class with methods that
 match the name of the spec.
-
 
 ### Class Style Plugin
 
@@ -184,6 +180,7 @@ implement one or more hooks, a plugin is not required to only
 implement one hook.
 
 ## Plugin Manager
+
 _implementing the hooks into the library_
 
 ### Simple Example

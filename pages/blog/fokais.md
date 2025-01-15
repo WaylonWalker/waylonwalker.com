@@ -113,7 +113,7 @@ cloudflare file size 100mb <https://developers.cloudflare.com/cache/concepts/def
 
 - [ ] Watermarks
 
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 629.5838486947605 460.14269017839115" width="629.5838486947605" height="460.14269017839115" filter="invert(93%) hue-rotate(180deg)">
+<svg version="1.1" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 629.5838486947605 460.14269017839115" width="629.5838486947605" height="460.14269017839115" filter="invert(93%) hue-rotate(180deg)">
   <!-- svg-source:excalidraw -->
 
   <defs>
