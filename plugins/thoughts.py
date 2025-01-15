@@ -2,6 +2,7 @@ from markata.hookspec import hook_impl
 import re
 import requests
 from typing import TYPE_CHECKING
+from urllib.parse import quote_plus
 
 if TYPE_CHECKING:
     from markata import Markata
@@ -43,10 +44,9 @@ def load(markata: "Markata") -> None:
         post["templateKey"] = "thoughts"
         post["markata"] = markata
         post["description"] = clean_description(post["message"][:120])
+        post["link"] = quote_plus(post["link"])
         post["content"] = f"""
-!!! note
-     This post is a [thought](https://thoughts.waylonwalker.com).  It's a short note that I make about someone else's
-     content online.  Learn more about the process [[ thoughts ]]
+[![{ post["title"] }](https://shots.wayl.one/shot/?url={ post["link"] }&height=450&width=800&scaled_width=800&scaled_height=450&selectors=)]({ post["link"] })
 
 Here's my thought on [{post["title"]}]({post["link"]})
 
@@ -56,6 +56,10 @@ Here's my thought on [{post["title"]}]({post["link"]})
 
 ---
 
+!!! note
+     This post is a [thought](https://thoughts.waylonwalker.com).  It's a short note that I make about someone else's
+     content online.  Learn more about the process [[ thoughts ]]
+
 {text_opacity_80}
 This post was a thought by [Waylon Walker](https://waylonwalker.com) see all my
 thoughts at
@@ -63,7 +67,7 @@ thoughts at
         """
         post["jinja"] = False
         post["published"] = True
-        post["tags"] = post["tags"].split(",")
+        post["tags"] = [tag.strip() for tag in post["tags"].split(",")]
 
     thoughts = markata.Posts.parse_obj(
         {"posts": posts},
