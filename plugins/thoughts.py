@@ -1,7 +1,7 @@
-from typing import TYPE_CHECKING
+from markata.hookspec import hook_impl
 import re
 import requests
-from markata.hookspec import hook_impl
+from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
     from markata import Markata
@@ -9,7 +9,7 @@ if TYPE_CHECKING:
 
 def clean_title(title: str) -> str:
     # Remove parenthetical content that starts with a number
-    title = re.sub(r'\(\d+[^)]*\)', '', title)
+    title = re.sub(r"\(\d+[^)]*\)", "", title)
     # Trim whitespace
     title = title.strip()
     # Limit to 65 characters
@@ -20,11 +20,11 @@ def clean_title(title: str) -> str:
 
 def clean_description(text: str) -> str:
     # Remove markdown links
-    text = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', text)
+    text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)
     # Remove markdown formatting characters
-    text = re.sub(r'[*_`#]', '', text)
+    text = re.sub(r"[*_`#]", "", text)
     # Clean up any extra whitespace
-    text = ' '.join(text.split())
+    text = " ".join(text.split())
     return text
 
 
@@ -63,6 +63,7 @@ thoughts at
         """
         post["jinja"] = False
         post["published"] = True
+        post["tags"] = post["tags"].split(",")
 
     thoughts = markata.Posts.parse_obj(
         {"posts": posts},
