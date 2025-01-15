@@ -14,9 +14,8 @@ These sortcuts were the baseline for switching from tmux/vim to vscode.  Most fo
 
 > The worst thing I found when using vscode at first was no way to switch between the terminal and editor without the mouse.
 
-
 !!! see-also
-	I have an updated article in my tmux workflow [[tmux-nav-2021]]
+ I have an updated article in my tmux workflow [[tmux-nav-2021]]
 
 ## Alt+\[hjkl\]
 
@@ -32,7 +31,7 @@ _navigation_
 
 This is by var the most useful set of keybindings that I use in vscode and is directly replicated from my tmux configuration.  It allows me to quickly jump up, down, left, right.  Do note that if you use vertical splits it does not work as well as tmux 😢.
 
-![navigating vscode with keyboard shortcuts](https://images.waylonwalker.com/alt \[hjkl\].gif "Alt+[hjkl]")
+![navigating vscode with keyboard shortcuts](https://images.waylonwalker.com/alt%20[hjkl].gif)
 
 ``` json
 [
@@ -87,7 +86,7 @@ _toggle bloat_
 
 Since closing the sidebar is assigned to `ctrl+b` I thought that it made most sense to simulate the activity bar with `alt+b`.  There are many times when I just want to get as much out of the way as possible and this little bit does help.
 
-![hiding the activity bar ](https://images.waylonwalker.com/alt b.gif "Alt+b")
+![hiding the activity bar ](https://images.waylonwalker.com/alt%20b.gif)
 
 ``` json
 [
@@ -111,7 +110,7 @@ _Split it up_
 
 This is another one replicated from tmux for quickly creatiting horizontal (s) and vertical (v) splits.  Once I am done with them I can close them with alt+x.
 
-![Make and destroy splits with ease in vscode.](https://images.waylonwalker.com/alt \[svx\].gif "spliting the editor")
+![Make and destroy splits with ease in vscode.](https://images.waylonwalker.com/alt%20[svx].gif)
 
 ``` json
 [
@@ -142,6 +141,7 @@ This is another one replicated from tmux for quickly creatiting horizontal (s) a
     }
 ]
 ```
+
 ## Alt+\[cnp\]
 
 🤲 **Create** new workspace **alt+c**
@@ -154,7 +154,7 @@ Sometimes the terminal window gets a bit cramped inside of splits and you need t
 
 I am often using this one when I have a process running that I watch like gatsby, and I need to quickly pop into a new pane to run a git command and back in to gatsby before jumping up to my editor.
 
-![](https://images.waylonwalker.com/alt \[cnp\].gif)
+![](https://images.waylonwalker.com/alt%20[cnp].gif)
 
 ``` json
 [
@@ -183,7 +183,7 @@ I am often using this one when I have a process running that I watch like gatsby
 
 This last one doesnt work as well as I would like but it sure does get the job done.  It Zooms (z) into the terminal from anywhere in vscode.  I can be in my editor and zoom out of the terminal to make more room, or zoom in to see what happened from my last edit.
 
-![](https://images.waylonwalker.com/alt z.gif)
+![](<https://images.waylonwalker.com/alt> z.gif)
 
 ``` json
 [
