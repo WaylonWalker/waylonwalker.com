@@ -8,7 +8,11 @@ published: True
 
 ---
 
-## Round 1
+## Round 1 - Orange
+
+I thought I had him on this one.  I had this rare power up that allows me to
+shot through walls.  It came down to the very last round and he had too much
+firepowerfor me.
 
 <video autoplay="" controls="" loop="true" muted="" playsinline="" width="100%" class="rounded-xl border-pink-900 border-2">
      <source
@@ -17,7 +21,12 @@ published: True
      Sorry, your browser doesn't support embedded videos.
 </video>
 
-## Round 2
+## Round 2 - Blue
+
+The final round of round 2 was Super fast.  I felt like I nerfed my homing
+power up by adding fastball to it and it didn't really home in anymore.  What
+made it so quick, I think he had glass cannon and I laid down two well placed
+shots.
 
 <video autoplay="" controls="" loop="true" muted="" playsinline="" width="100%" class="rounded-xl border-pink-900 border-2">
      <source
@@ -26,7 +35,11 @@ published: True
      Sorry, your browser doesn't support embedded videos.
 </video>
 
-## Round 3
+## Round 3 - Orange
+
+Round three he got some really good cards, but too much firepower and stacking
+bouncy and ricochet made it too much to control and he friendly fired both
+rounds.
 
 <video autoplay="" controls="" loop="true" muted="" playsinline="" width="100%" class="rounded-xl border-pink-900 border-2">
      <source
@@ -35,7 +48,11 @@ published: True
      Sorry, your browser doesn't support embedded videos.
 </video>
 
-## Round 4
+## Round 4 - Blue
+
+Round 4 I stacked up radiance and saw and just went for it.  Radiance emits the
+power of the sun while reloading, so I went in guns blazin, pulled the shield
+for saw and ran at him.
 
 <video autoplay="" controls="" loop="true" muted="" playsinline="" width="100%" class="rounded-xl border-pink-900 border-2">
      <source
@@ -45,6 +62,9 @@ published: True
 </video>
 
 ## Round 5
+
+Round 5 I stacked up a multi shot, Big bullet, and timed explosion.  I didn't
+let off the firepower and there was no chance.
 
 <video autoplay="" controls="" loop="true" muted="" playsinline="" width="100%" class="rounded-xl border-pink-900 border-2">
      <source
