@@ -9,7 +9,10 @@ published: True
 ---
 
 Tonight my son and I played rounds, I pulled clips of all the final rounds of
-each set of rounds.
+each set of rounds.  We play hardly any games with guns in them, this is one of
+the few exceptions, it feels quite whimsical, fun, and strategic, and not at
+all realistic or first person.  The strategy part really brings me back to the
+fps games I would play with friends in my teens.
 
 ## Round 1 - Orange
 
