@@ -2342,3 +2342,10 @@ filter = "date<=today and 'flask' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about flask"
+
+[[markata.feeds]]
+slug = "github-stars"
+filter = "date<=today and 'github-stars' in str(tags).lower() and published"
+sort = "date"
+reverse = true
+description = "Posts about github-stars"
