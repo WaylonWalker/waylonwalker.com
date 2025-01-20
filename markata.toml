@@ -361,21 +361,21 @@ description = 'A feed of my thoughts of links from the internet originally poste
 
 [[markata.feeds]]
 slug = 'archive'
-filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts'] and published"
+filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts', 'stars'] and published"
 sort = "date"
 reverse = true
 description = 'The main feed of all my main posts'
 
 [[markata.feeds]]
 slug = 'pagefind'
-filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts'] and published"
+filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts', 'stars'] and published"
 sort = "date"
 reverse = true
 description = 'A feed for pagefind search to use for searching the site.'
 
 [[markata.feeds]]
 slug = 'published'
-filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts'] and published"
+filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts', 'stars'] and published"
 sort = "date"
 reverse = true
 description = 'The main feed of all my main posts'
@@ -541,6 +541,13 @@ filter = "date<=today and 'meta' in str(tags).lower()"
 sort = "date"
 reverse = true
 description = 'All of the posts about this site'
+
+[[markata.feeds]]
+slug = 'stars'
+filter = "templateKey == 'stars'"
+sort = "date"
+reverse = true
+description = 'A feed of all my stars posts'
 
 [markata.summary]
 grid_attr = ['tags', 'series']

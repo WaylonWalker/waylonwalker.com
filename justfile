@@ -89,3 +89,9 @@ url3:
     # Test the function
     echo
     Urllink "https://waylonwalker.com" "Click to open the website"
+
+stars:
+  ./scripts/stars.py waylonwalker --token `gh auth token`
+
+stars-noa:
+  ./scripts/stars.py waylonwalker
