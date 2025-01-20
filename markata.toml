@@ -555,7 +555,9 @@ filter = "templateKey == 'stars'"
 head = 10
 sort = "date"
 reverse = true
-description = 'My last GitHub Stars'
+card_template='feed_card_sm.html'
+partial_template='feed_sm_partial.html'
+description = 'My latest GitHub Stars'
 
 [markata.summary]
 grid_attr = ['tags', 'series']
