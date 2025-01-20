@@ -549,6 +549,14 @@ sort = "date"
 reverse = true
 description = 'A feed of all my stars posts'
 
+[[markata.feeds]]
+slug = 'recent-stars'
+filter = "templateKey == 'stars'"
+head = 10
+sort = "date"
+reverse = true
+description = 'My last GitHub Stars'
+
 [markata.summary]
 grid_attr = ['tags', 'series']
 
