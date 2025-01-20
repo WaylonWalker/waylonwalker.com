@@ -8,6 +8,9 @@ published: True
 
 ---
 
+Tonight my son and I played rounds, I pulled clips of all the final rounds of
+each set of rounds.
+
 ## Round 1 - Orange
 
 I thought I had him on this one.  I had this rare power up that allows me to
