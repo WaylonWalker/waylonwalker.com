@@ -5,6 +5,8 @@ title: Modded Minecraft in Docker
 tags:
   - homelab
   - docker
+  - minecraft
+  - gaming
 
 ---
 
@@ -26,7 +28,6 @@ under the hood docker is using wget to get the mod. The link you click
 on from curseforge will block wget.  What I do is pop open the devtools
 (f12 in chrome), click on the network tab, click the download link on
 the web page, and watch the real link show up.
-
 
 ![minecraft mod in netwrok tab](https://images.waylonwalker.com/minecraft-mod-wget-file.png)
 
