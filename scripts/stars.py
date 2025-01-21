@@ -80,12 +80,13 @@ def save_post(owner: str, repo: str, content: str):
     post_path = os.path.join(POSTS_DIR, f"{clean_owner}--{clean_repo}.md")
 
     if os.path.exists(post_path):
-        print(f"Skipping existing post: {post_path}")
         return
 
     os.makedirs(os.path.dirname(post_path), exist_ok=True)
     with open(post_path, "w") as f:
         f.write(content)
+
+    print(f"Processed: {post_path}")
 
 
 def fetch_github_stars(username: str, token: str):
@@ -108,7 +109,9 @@ def fetch_github_stars(username: str, token: str):
         page_data = response.json()
         for repo in page_data:
             if repo.get("repo", {}).get("owner") is None:
-                print(f"Skipping repository without owner: {repo}")
+                print(
+                    f"Skipping repository without owner: {repo.get('repo', {}).get('name')}"
+                )
                 continue
             stars.append(
                 {
@@ -139,7 +142,6 @@ def main(
             repo["owner"], repo["name"], repo["description"], repo["starred_at"]
         )
         save_post(repo["owner"], repo["name"], post_content)
-        print(f"Processed: {repo['owner']}/{repo['name']}")
 
 
 if __name__ == "__main__":
