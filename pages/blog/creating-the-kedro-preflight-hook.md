@@ -38,7 +38,7 @@ As this is part of an upcoming release you will need to get the library straight
 ``` bash
 conda create -n kedro0160 -y
 conda activate kedro0160 # may also be source activate kedro0160 or activate kedro0160
-pip install git+https://github.com/quantumblacklabs/kedro.git
+pip install git+https://github.com/kedro-org/kedro.git
 pip install colorama
 ```
 

@@ -30,9 +30,9 @@ Currently, [kedro](https://kedro.readthedocs.io) is broken down into 3 different
 
 💎 [kedro](https://kedro.readthedocs.io)
 
-📉 [kedro-viz](https://github.com/quantumblacklabs/kedro-viz)
+📉 [kedro-viz](https://github.com/kedro-org/kedro-viz)
 
-🏗 [kedro-docker](https://github.com/quantumblacklabs/kedro-docker)
+🏗 [kedro-docker](https://github.com/kedro-org/kedro-docker)
 
 ## [kedro](https://kedro.readthedocs.io)
 
@@ -106,9 +106,9 @@ nodes = [
 pipeline = Pipeline(nodes)
 ```
 
-## [kedro-viz](https://github.com/quantumblacklabs/kedro-viz)
+## [kedro-viz](https://github.com/kedro-org/kedro-viz)
 
-[kedro-viz](https://github.com/quantumblacklabs/kedro-viz) is a priceless component to the [kedro](https://kedro.readthedocs.io) ecosystem.  It gives you x-ray vision into your project.  You can see exactly how data flows through your pipeline.  Since it is fully automated it is always up to date and never lies to you.  [kedro-viz](https://github.com/quantumblacklabs/kedro-viz) is an integral part of my daily debugging and refactoring toolbelt.
+[kedro-viz](https://github.com/kedro-org/kedro-viz) is a priceless component to the [kedro](https://kedro.readthedocs.io) ecosystem.  It gives you x-ray vision into your project.  You can see exactly how data flows through your pipeline.  Since it is fully automated it is always up to date and never lies to you.  [kedro-viz](https://github.com/kedro-org/kedro-viz) is an integral part of my daily debugging and refactoring toolbelt.
 
 Starting the viz from the command line is super easy
 
@@ -119,9 +119,9 @@ kedro viz
 
 ![](https://images.waylonwalker.com/pipeline_visualisation.png)
 
-## [kedro-docker](https://github.com/quantumblacklabs/kedro-docker)
+## [kedro-docker](https://github.com/kedro-org/kedro-docker)
 
-[kedro-docker](https://github.com/quantumblacklabs/kedro-docker) is a simple way to set up your project for production.  It provides a few simple cli commands
+[kedro-docker](https://github.com/kedro-org/kedro-docker) is a simple way to set up your project for production.  It provides a few simple cli commands
 
 ``` bash
 cd my-kedro-project

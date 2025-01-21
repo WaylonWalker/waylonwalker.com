@@ -77,9 +77,9 @@ a project thats plugins all the way down.  His [slides](https://devork.be/talks/
 Kedro is a data pipelining framekwork that includes a hooks based architecture
 that allows users to modify the behavior of the framework at different points
 through the lifecycle.  There is a
-[hooks](https://github.com/quantumblacklabs/kedro/tree/dc1ee8e06b255d4d5a4348ad8a2e78048c547279/kedro/framework/hooks)
+[hooks](https://github.com/kedro-org/kedro/tree/dc1ee8e06b255d4d5a4348ad8a2e78048c547279/kedro/framework/hooks)
 module that implements everything, and a
-[test_plugin](https://github.com/quantumblacklabs/kedro/blob/dc1ee8e06b255d4d5a4348ad8a2e78048c547279/features/steps/test_plugin/plugin.py)
+[test_plugin](https://github.com/kedro-org/kedro/blob/dc1ee8e06b255d4d5a4348ad8a2e78048c547279/features/steps/test_plugin/plugin.py)
 that is used for testing, but also serves as a good example.
 
 ## palantir/python-language-server

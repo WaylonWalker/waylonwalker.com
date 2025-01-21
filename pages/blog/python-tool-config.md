@@ -150,6 +150,7 @@ may be inside your codebase or installed and imported in.
 * ~/.mypy.ini
 
 ### Example
+
 _mypy.ini_
 
 ```
@@ -180,10 +181,9 @@ one for how the framework behaves and the other for actual project config.
 Kedro does utilizes a `settings.py` and `pyproject.toml` to define a bit more
 of the framework settings.  These are the outter layer of your project.
 
-
 These files sit at the root of the project.
 
-### [pyproject.toml](https://github.com/quantumblacklabs/kedro/blob/fb88cc2504ddbfc93b9b859ca436130b396b93c4/docs/source/12_faq/02_architecture_overview.md#pyprojecttoml)
+### [pyproject.toml](https://github.com/kedro-org/kedro/blob/fb88cc2504ddbfc93b9b859ca436130b396b93c4/docs/source/12_faq/02_architecture_overview.md#pyprojecttoml)
 
 This replaces much of what used to be specified in run.py.
 
@@ -192,7 +192,7 @@ This replaces much of what used to be specified in run.py.
 * project_version
 * source_dir
 
-### [Settings.py](https://github.com/quantumblacklabs/kedro/blob/fb88cc2504ddbfc93b9b859ca436130b396b93c4/docs/source/12_faq/02_architecture_overview.md#settingspy)
+### [Settings.py](https://github.com/kedro-org/kedro/blob/fb88cc2504ddbfc93b9b859ca436130b396b93c4/docs/source/12_faq/02_architecture_overview.md#settingspy)
 
 * DISABLE_HOOKS_FOR_PLUGINS
 * HOOKS
@@ -209,7 +209,6 @@ ignored and most commonly used for credentials.
 * catalog
 * logging
 * credentials
-
 
 ### Config Loader
 
@@ -234,7 +233,6 @@ additionally tell kedro to reach into `conf/<env-name>` for configuration.
 
 kedro will load each config starting from `base`, `local`, then `env` and will
 overrite any colllisions along the way.
-
 
 **precedence heirarchy**
 
@@ -283,7 +281,6 @@ the resolution highlighted above through a number of directories and returns
 the config closest to the test module.
 
 ## Example pytest config
-
 
 ``` ini
 # pytest.ini

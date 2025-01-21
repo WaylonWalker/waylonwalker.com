@@ -148,4 +148,4 @@ Notice the sorting order in the last entry, `range121` comes before `range13`.
 This is all based on how pythons `yaml.safe_dump` works, kedro has set the
 `default_flow_style` to `False`.  You can see where they write your file in the
 source code currently
-[here](https://github.com/quantumblacklabs/kedro/blob/master/kedro/framework/cli/catalog.py#L202)
+[here](https://github.com/kedro-org/kedro/blob/master/kedro/framework/cli/catalog.py#L202)

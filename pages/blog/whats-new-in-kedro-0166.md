@@ -9,7 +9,7 @@ description: This version of kedro releases a new set of supported deployment
 
 ---
 
-Kedro [0.16.6](https://github.com/quantumblacklabs/kedro/releases) is out! Let's take a look through the release notes
+Kedro [0.16.6](https://github.com/kedro-org/kedro/releases) is out! Let's take a look through the release notes
 
 ## Deployment Docs
 
@@ -27,7 +27,6 @@ Argo, Prefect, and Kubeflow have an interesting technique where they translate t
 
 Batch uses the aws cli to submit jobs, one node per job, and listen for them to complete. It will submit all nodes with completed dependencies at once, meaning that we can get some massive parallelization.
 
-
 I did a quick and dirty test of one of these by simulating the technique in a bash script and saw a 40 hr pipeline finish in about 1 hour. I am excited to get this working in my production workflow.
 
 ## Spaceflight starter
@@ -36,10 +35,10 @@ They have officially added the spaceflights pipeline as a starter. I have not ye
 
 I tell folks all the time the best way to learn something new like kedro is to **practice, practice, practice**. Having this at their fingertips will give an easy way to fire up a pipeline that is ok to break try out some new ideas and leave it. I see this helping me testing out plugins on more complex pipelines and writing blog posts with examples that readers can more easily follow along with.
 
-- practice
-- testing
-- blog posts
-- tutorials
+* practice
+* testing
+* blog posts
+* tutorials
 
 ## Better Error Messages
 

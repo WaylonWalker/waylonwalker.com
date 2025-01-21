@@ -161,7 +161,7 @@ ww3 ↪main ©kedro-in-scripts v3.8.8 ipython
 I was not able to quickly get kedro viz up and running for my use case.  If you
 really wanted to you could start modifying their format_pipelines_data function
 in
-[server.py](https://github.com/quantumblacklabs/kedro-viz/blob/main/package/kedro_viz/server.py).
+[server.py](https://github.com/kedro-org/kedro-viz/blob/main/package/kedro_viz/server.py).
 Or you could render a new template and put your pipeline there for viz
 purposes.
 

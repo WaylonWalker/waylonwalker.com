@@ -26,7 +26,7 @@ _Photo by jesse orrico on Unsplash_
 
 ``` python
 import pandas as pd
-iris = pd.read_csv('https://raw.githubusercontent.com/quantumblacklabs/kedro/d3218bd89ce8d1148b1f79dfe589065f47037be6/kedro/template/%7B%7B%20cookiecutter.repo_name%20%7D%7D/data/01_raw/iris.csv')
+iris = pd.read_csv('https://raw.githubusercontent.com/kedro-org/kedro/d3218bd89ce8d1148b1f79dfe589065f47037be6/kedro/template/%7B%7B%20cookiecutter.repo_name%20%7D%7D/data/01_raw/iris.csv')
 
 data_set = CSVLocalDataSet(filepath="test.csv",
                                  load_args=None,
@@ -51,7 +51,7 @@ test_data:
 
 ``` python
 cities = CSVHTTPDataSet(
-    fileurl="https://raw.githubusercontent.com/quantumblacklabs/kedro/d3218bd89ce8d1148b1f79dfe589065f47037be6/kedro/template/%7B%7B%20cookiecutter.repo_name%20%7D%7D/data/01_raw/iris.csv",
+    fileurl="https://raw.githubusercontent.com/kedro-org/kedro/d3218bd89ce8d1148b1f79dfe589065f47037be6/kedro/template/%7B%7B%20cookiecutter.repo_name%20%7D%7D/data/01_raw/iris.csv",
     auth=None,
     load_args=None)
 
@@ -72,7 +72,7 @@ cities:
 import pandas as pd
 from kedro.io import HDFLocalDataSet
 
-iris = pd.read_csv('https://raw.githubusercontent.com/quantumblacklabs/kedro/d3218bd89ce8d1148b1f79dfe589065f47037be6/kedro/template/%7B%7B%20cookiecutter.repo_name%20%7D%7D/data/01_raw/iris.csv')
+iris = pd.read_csv('https://raw.githubusercontent.com/kedro-org/kedro/d3218bd89ce8d1148b1f79dfe589065f47037be6/kedro/template/%7B%7B%20cookiecutter.repo_name%20%7D%7D/data/01_raw/iris.csv')
 iris_data_set = HDFLocalDataSet(filepath="iris.hdf",
                            key="test_hdf_key",
                            load_args=None,
@@ -95,7 +95,7 @@ cars:
 import pandas as pd
 from kedro.io import HDFS3DataSet
 
-iris = pd.read_csv('https://raw.githubusercontent.com/quantumblacklabs/kedro/d3218bd89ce8d1148b1f79dfe589065f47037be6/kedro/template/%7B%7B%20cookiecutter.repo_name%20%7D%7D/data/01_raw/iris.csv')
+iris = pd.read_csv('https://raw.githubusercontent.com/kedro-org/kedro/d3218bd89ce8d1148b1f79dfe589065f47037be6/kedro/template/%7B%7B%20cookiecutter.repo_name%20%7D%7D/data/01_raw/iris.csv')
 iris_data_set = HDFS3DataSet(filepath="iris.hdf",
                         bucket_name="bucket-us-west-1",
                         key="test_hdf_key",
@@ -120,7 +120,7 @@ cars:
 import pandas as pd
 from kedro.io import JSONLocalDataSet
 
-iris = pd.read_csv('https://raw.githubusercontent.com/quantumblacklabs/kedro/d3218bd89ce8d1148b1f79dfe589065f47037be6/kedro/template/%7B%7B%20cookiecutter.repo_name%20%7D%7D/data/01_raw/iris.csv')
+iris = pd.read_csv('https://raw.githubusercontent.com/kedro-org/kedro/d3218bd89ce8d1148b1f79dfe589065f47037be6/kedro/template/%7B%7B%20cookiecutter.repo_name%20%7D%7D/data/01_raw/iris.csv')
 cars = JSONLocalDataSet(filepath="iris.json",
                         load_args=None,
                         save_args=None)
@@ -141,7 +141,7 @@ cars:
 import pandas as pd
 from kedro.io import ParquetLocalDataSet
 
-iris = pd.read_csv('https://raw.githubusercontent.com/quantumblacklabs/kedro/d3218bd89ce8d1148b1f79dfe589065f47037be6/kedro/template/%7B%7B%20cookiecutter.repo_name%20%7D%7D/data/01_raw/iris.csv')
+iris = pd.read_csv('https://raw.githubusercontent.com/kedro-org/kedro/d3218bd89ce8d1148b1f79dfe589065f47037be6/kedro/template/%7B%7B%20cookiecutter.repo_name%20%7D%7D/data/01_raw/iris.csv')
 
 iris_data_set = ParquetLocalDataSet('iris',
                            engine='auto',
@@ -209,7 +209,7 @@ _see on_ [_#kedrotips_](https://twitter.com/_WaylonWalker/status/119713098065973
 query = 'raw sales'
 data_sets = catalog.list()
 for word in query.split():
-	data_sets = [
+ data_sets = [
        data
        for data in data_sets
        if query in data
@@ -297,13 +297,13 @@ catalog.yolo.__doc__ = "you only load once"
 all_pri = catalog.yolo('c_pri')
 ```
 
-
 ### adding catalogs together
 
 ``` python
 from kedro.io import DataCatalog
 DataCatalog({**cat1.__dict__['_data_sets'], **cat2.__dict__['_data_sets']})
 ```
+
 ## 🛢 Building pipelines
 
 ![building pipelines](https://images.waylonwalker.com/roman-pentin-T5QT2bmiD4E-unsplash.jpg)

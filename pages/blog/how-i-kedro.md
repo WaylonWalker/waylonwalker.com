@@ -7,13 +7,12 @@ published: true
 
 ---
 
-https://youtu.be/bw5_FWDVRpU
+<https://youtu.be/bw5_FWDVRpU>
 
 ## Ubuntu
 
 I recently switched over to using Ubuntu, it works well pretty much out of the
 box for me.  I am using gnome with a dark theme.
-
 
 ## Gnome Terminal
 
@@ -91,6 +90,6 @@ rich is installed.
 * [tmux](https://github.com/tmux/tmux)
 * [dotfiles](https://github.com/waylonWalker/devtainer)
 * [starship.rs](https://starship.rs/)
-* [kedro](https://github.com/quantumblacklabs/kedro)
+* [kedro](https://github.com/kedro-org/kedro)
 * [ipython](https://ipython.readthedocs.io/en/6.5.0/index.html)
 * [rich](https://github.com/willmcgugan/rich)

@@ -50,7 +50,7 @@ items:
     url: https://stackoverflow.com/questions/tagged/kedro
     Kedro GitHub:
     weight: 4
-    url: https://github.com/quantumblacklabs/kedro
+    url: https://github.com/kedro-org/kedro
     Kedro Pypi
         weight: 10
         url: https://pypi.org/project/kedro/

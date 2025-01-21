@@ -17,9 +17,9 @@ Even though it is a static site there is no functionality lost.  The only thing 
 
 Even though it's built on gatsbyjs the full site builds in under 2s even on slower hardware.  This is because the site is already pre-rendered and stripped of any excess.  It's zipped up right into the python package and is typically used with the cli, but now can be used with python, or as a hook as well.
 
-> ### What is [kedro-viz](https://github.com/quantumblacklabs/kedro-viz) 🤔
+> ### What is [kedro-viz](https://github.com/kedro-org/kedro-viz) 🤔
 
-Kedro viz is a fantastic kedro plugin that allows you to visualize your data pipeline.  Kedro allows you to quickly build production-ready pipelines where you just configure a catalog, then toss python functions into a big pile.  Kedro figures out the order everything needs ran in for you, allows you to run a datasets dependencies or dependents only.  [kedro-viz](https://github.com/quantumblacklabs/kedro-viz) gives you a great way to see this ordering visually.
+Kedro viz is a fantastic kedro plugin that allows you to visualize your data pipeline.  Kedro allows you to quickly build production-ready pipelines where you just configure a catalog, then toss python functions into a big pile.  Kedro figures out the order everything needs ran in for you, allows you to run a datasets dependencies or dependents only.  [kedro-viz](https://github.com/kedro-org/kedro-viz) gives you a great way to see this ordering visually.
 
 ![a visualization of a kedro data pipeline featuring data and functions flowing together.](https://images.waylonwalker.com/pipeline_visualisation-1.png "kedro visualization")
 

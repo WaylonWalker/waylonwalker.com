@@ -88,13 +88,13 @@ kedro run
 
 ## Viz
 
-[kedro-viz](https://github.com/quantumblacklabs/kedro-viz) is a priceless feature of [kedro](https://kedro.readthedocs.io).  It's like x-ray vision into your pipeline.  I can't imagine working without it after having it over the past year.  Unlike traditional documentation [kedro-viz](https://github.com/quantumblacklabs/kedro-viz) cannot lie to you.  It will help guarantee your changes line up properly, plan out adding nodes, and identify dependencies of deprecating nodes.
+[kedro-viz](https://github.com/kedro-org/kedro-viz) is a priceless feature of [kedro](https://kedro.readthedocs.io).  It's like x-ray vision into your pipeline.  I can't imagine working without it after having it over the past year.  Unlike traditional documentation [kedro-viz](https://github.com/kedro-org/kedro-viz) cannot lie to you.  It will help guarantee your changes line up properly, plan out adding nodes, and identify dependencies of deprecating nodes.
 
-> Unlike traditional documentation [kedro-viz](https://github.com/quantumblacklabs/kedro-viz) cannot lie to you.
+> Unlike traditional documentation [kedro-viz](https://github.com/kedro-org/kedro-viz) cannot lie to you.
 
-## Install [kedro-viz](https://github.com/quantumblacklabs/kedro-viz)
+## Install [kedro-viz](https://github.com/kedro-org/kedro-viz)
 
-[kedro-viz](https://github.com/quantumblacklabs/kedro-viz) is also on pypi and can be installed just like any other python package with `pip`.
+[kedro-viz](https://github.com/kedro-org/kedro-viz) is also on pypi and can be installed just like any other python package with `pip`.
 
 ```bash
 pip install kedro-viz
@@ -102,7 +102,7 @@ pip install kedro-viz
 
 ## Visualize the pipeline
 
-[kedro-viz](https://github.com/quantumblacklabs/kedro-viz) is ran from the command line in the same directory as your kedro project.  There are ways to store your pipeline data as json, then load them from outside your project, but we will follow the standard practice for now.
+[kedro-viz](https://github.com/kedro-org/kedro-viz) is ran from the command line in the same directory as your kedro project.  There are ways to store your pipeline data as json, then load them from outside your project, but we will follow the standard practice for now.
 
 ``` bash
 kedro viz
@@ -112,11 +112,11 @@ kedro viz
 
 ## 🏗 Docker
 
-There is another package that makes creating docker images from kedro projects super simple [kedro-docker](https://github.com/quantumblacklabs/kedro-docker).
+There is another package that makes creating docker images from kedro projects super simple [kedro-docker](https://github.com/kedro-org/kedro-docker).
 
 If you dont already have docker installed on your machine, feel free to skip this section.
 
-### install [kedro-docker](https://github.com/quantumblacklabs/kedro-docker)
+### install [kedro-docker](https://github.com/kedro-org/kedro-docker)
 
 ``` bash
 pip install kedro-docker
