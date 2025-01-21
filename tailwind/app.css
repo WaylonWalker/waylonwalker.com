@@ -189,7 +189,12 @@ body {
 
 #post-body ol li {
   @apply pl-4;
-  display: list-item;
+}
+#post-body li {
+  @apply list-disc;
+}
+#post-body ol {
+  @apply list-decimal list-inside;
 }
 
 @media screen and (min-width: 640px) {
