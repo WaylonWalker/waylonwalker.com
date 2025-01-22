@@ -9,7 +9,6 @@ import seaborn as sns
 
 
 class AnalyticsConfig(pydantic.BaseModel):
-    output_dir: str = "analytics"
     contributions_max_post_scale: int = 5
     contributions_cmap: str = "rocket"
 
@@ -26,7 +25,7 @@ def config_model(markata: "Markata") -> None:
 
 @hook_impl
 def pre_render(markata: "Markata") -> None:
-    output_dir = Path(markata.config.analytics.output_dir)
+    output_dir = Path(markata.config.output_dir)
     output_dir.mkdir(exist_ok=True, parents=True)
 
     post_dates = [post["date"] for post in markata.articles]
@@ -45,6 +44,7 @@ def pre_render(markata: "Markata") -> None:
 
     day_labels = ["", "MON", "", "WED", "", "FRI", ""]
     month_labels = [
+        "",
         "Jan",
         "Feb",
         "Mar",
@@ -67,6 +67,26 @@ def pre_render(markata: "Markata") -> None:
     plt.style.use("dark_background")
 
     for year in df["year"].unique():
+        first_day_of_year = pd.Timestamp(f"{year}-01-01").weekday()
+        start_date = pd.Timestamp(f"{year}-01-01") - pd.Timedelta(
+            days=first_day_of_year + 1
+        )
+        padded_data = pd.DataFrame(
+            {
+                "date": pd.date_range(
+                    start=start_date, periods=first_day_of_year + 1, freq="D"
+                )
+            }
+        )
+        print(year)
+        print(start_date)
+        print(first_day_of_year)
+        print(padded_data)
+        padded_data["year"] = padded_data["date"].dt.year
+        padded_data["week"] = padded_data["date"].dt.isocalendar().week
+        padded_data["day_of_week"] = padded_data["date"].dt.weekday
+        df = pd.concat([padded_data, df])
+
         fig, ax = plt.subplots(figsize=(15, 3))
         yearly_data = df[df["year"] == year]
         heatmap_data = (
@@ -92,26 +112,6 @@ def pre_render(markata: "Markata") -> None:
         ax.set_xlabel("")
         ax.set_ylabel("")
         ax.tick_params(left=False, bottom=False)
-        ax.set_title(f"Post Contributions in {year}", color="white", fontsize=16)
-
-        # Add bottom scale with matching square sizes
-        scale_data = pd.DataFrame(
-            [[0, vmax * 0.33, vmax * 0.67, vmax]], index=[0], columns=range(4)
-        )
-        scale_ax = fig.add_axes([0.8, 0.1, 0.15, 0.05])
-        sns.heatmap(
-            scale_data,
-            cmap=markata.config.analytics.contributions_cmap,
-            linewidths=3,
-            linecolor="black",
-            square=True,
-            ax=scale_ax,
-            cbar=False,
-        )
-        scale_ax.set_xticks([])
-        scale_ax.set_yticks([])
-        scale_ax.set_title(f"{vmax} posts", color="white", fontsize=12, x=2, y=-0.2)
-        scale_ax.axis("off")
 
         plt.savefig(
             output_dir / f"contributions_{year}.png",
