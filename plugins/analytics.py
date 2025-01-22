@@ -28,7 +28,7 @@ def pre_render(markata: "Markata") -> None:
     output_dir = Path(markata.config.output_dir)
     output_dir.mkdir(exist_ok=True, parents=True)
 
-    post_dates = [post["date"] for post in markata.articles]
+    post_dates = markata.map("date", filter="date<=today and published")
     post_dates.sort()
 
     # Contribution Graph as Heatmap
@@ -78,10 +78,6 @@ def pre_render(markata: "Markata") -> None:
                 )
             }
         )
-        print(year)
-        print(start_date)
-        print(first_day_of_year)
-        print(padded_data)
         padded_data["year"] = padded_data["date"].dt.year
         padded_data["week"] = padded_data["date"].dt.isocalendar().week
         padded_data["day_of_week"] = padded_data["date"].dt.weekday
@@ -126,3 +122,30 @@ def pre_render(markata: "Markata") -> None:
             pad_inches=0.1,
         )
         plt.close()
+
+    # Total Posts Over Time
+    cumulative_posts = df.groupby("date").size().cumsum()
+    plt.figure(figsize=(10, 5))
+    plt.plot(cumulative_posts.index, cumulative_posts.values, color="#c4204f")
+    plt.text(
+        cumulative_posts.index[-1],
+        cumulative_posts.values[-1],
+        f"{cumulative_posts.values[-1]} posts",
+        color="white",
+        fontsize=12,
+        ha="right",
+    )
+    plt.axis("off")
+    plt.savefig(
+        output_dir / "total_posts_over_time.png",
+        facecolor="black",
+        bbox_inches="tight",
+        pad_inches=0.1,
+    )
+    plt.savefig(
+        output_dir / "total_posts_over_time.svg",
+        facecolor="black",
+        bbox_inches="tight",
+        pad_inches=0.1,
+    )
+    plt.close()
