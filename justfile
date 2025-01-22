@@ -91,7 +91,13 @@ url3:
     Urllink "https://waylonwalker.com" "Click to open the website"
 
 stars:
+  git diff --cached --quiet
   ./scripts/stars.py waylonwalker --token `gh auth token`
+  git add pages/stars
+  git commit -m 'update stars'
 
 stars-noa:
   ./scripts/stars.py waylonwalker
+
+compile:
+  uv pip compile requirements.in -o requirements.txt
