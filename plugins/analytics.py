@@ -135,6 +135,18 @@ def pre_render(markata: "Markata") -> None:
         fontsize=12,
         ha="right",
     )
+    for year in df["year"].unique():
+        year_start = pd.Timestamp(f"{year}-01-01")
+        plt.axvline(x=year_start, color="#130c24", linestyle="--")
+        plt.text(
+            year_start,
+            -cumulative_posts.values.max() * 0.1,
+            str(year),
+            color="white",
+            fontsize=10,
+            ha="center",
+        )
+    plt.title("Total Number of Posts Over Time", color="white")
     plt.axis("off")
     plt.savefig(
         output_dir / "total_posts_over_time.png",
