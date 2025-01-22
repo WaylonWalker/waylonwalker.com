@@ -1,5 +1,5 @@
 ---
-date: 2000-01-15 23:45:55.942093
+date: 2020-01-15 23:45:55.942093
 templateKey: til
 title: Python atexit
 tags:
