@@ -20,6 +20,7 @@ def hover_links(soup):
         parent = link.parent
         parent["class"] = parent.get("class", []) + [
             "hover:z-20",
+            "relative",
         ]
         # if parent of parent is an admonition with class of .admonition
         if "admonition" in parent.parent.get("class", []):
