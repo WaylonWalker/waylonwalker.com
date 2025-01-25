@@ -72,7 +72,7 @@ linkify-it-py==2.0.2
     # via markata
 lxml==4.9.3
     # via feedgen
-markata==0.8.2.dev1
+markata==0.9.0.dev3
     # via
     #   -r requirements.in
     #   markata-gh
@@ -221,6 +221,8 @@ svgwrite==1.4.3
 text-unidecode==1.3
     # via python-slugify
 toml==0.10.2
+    # via markata
+tomli==2.2.1
     # via markata
 typer==0.9.0
     # via markata
