@@ -1,11 +1,8 @@
 """Analytics plugin for Markata"""
 
 from markata.hookspec import hook_impl, register_attr
-from matplotlib import pyplot as plt
-import pandas as pd
 from pathlib import Path
 import pydantic
-import seaborn as sns
 
 
 class AnalyticsConfig(pydantic.BaseModel):
@@ -31,8 +28,24 @@ def pre_render(markata: "Markata") -> None:
     post_dates = markata.map("date", filter="date<=today and published")
     post_dates.sort()
 
+    analytics_key = markata.make_hash("analytics", post_dates)
+    with markata.cache as cache:
+        contributions = cache.get(analytics_key)
+    if (
+        contributions is not None
+        and (output_dir / "total_posts_over_time.png").exists()
+    ):
+        # if conributions have not changed, don't render again
+
+        return
+
+    import pandas as pd
+    import seaborn as sns
+    from matplotlib import pyplot as plt
+
     # Contribution Graph as Heatmap
     df = pd.DataFrame(post_dates, columns=["date"])
+
     df["date"] = pd.to_datetime(df["date"])
 
     df["year"] = df["date"].dt.year
@@ -161,3 +174,6 @@ def pre_render(markata: "Markata") -> None:
         pad_inches=0.1,
     )
     plt.close()
+
+    with markata.cache as cache:
+        cache.set(analytics_key, "done")

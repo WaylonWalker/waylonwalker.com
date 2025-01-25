@@ -51,7 +51,7 @@ def pre_render(markata: "Markata") -> None:
 
         # Normalize tags using synonyms
         normalized_tags = set()
-        for tag in original_tags:
+        for tag in sorted(list(original_tags)):  # Preserve order of original_tags:
             normalized = False
             for correct_tag, replacements in synonyms.items():
                 if tag in replacements:
@@ -66,6 +66,7 @@ def pre_render(markata: "Markata") -> None:
         final_tags = expand_tags(normalized_tags, additional)
 
         added_tags = final_tags - normalized_tags
+        added_tags = sorted(added_tags)
         if added_tags:
             added_tags_report.append(f"[[ {post['slug']} ]]: {', '.join(added_tags)}")
 
@@ -76,7 +77,11 @@ def pre_render(markata: "Markata") -> None:
     # config_section = (
     #     f"## Current Config\n\n```\n{markata.config.tag_aggregator.dict()}\n```\n"
     # )
-    config_section = f"## Current Config\n\n```\n{json.dumps(markata.config.tag_aggregator.dict(), indent=4)}\n```\n"
+
+    tag_aggregator_config = markata.config.tag_aggregator.dict()
+    config_section = f"## Current Config\n\n```\n{json.dumps(tag_aggregator_config, indent=4)}\n```\n"
+    tag_changes.sort()
+    added_tags_report.sort()
     renamed_tags_section = (
         f"## Renamed Tags ( {len(tag_changes)} )\n\n* " + "\n* ".join(tag_changes)
         if tag_changes

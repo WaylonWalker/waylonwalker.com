@@ -9,11 +9,10 @@ published: True
 
 ---
 
-
 I've been posting on this site since 2016, when there was a huge rollout of
 layoffs at the company I was working at at the time.  In fear of being laid off
-I started looking at what I needed to do to start building my resume, having a
 personal blog and side projects was at the top of the suggestions so off I
+I started looking at what I needed to do to start building my resume, having a
 went. This site is built on markata, more about that in the [[ colophon ]].
 
 ## Total Posts over time

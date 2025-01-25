@@ -1,6 +1,5 @@
 from typing import TYPE_CHECKING
 
-from bs4 import BeautifulSoup
 from markata.hookspec import hook_impl
 
 if TYPE_CHECKING:
@@ -14,6 +13,8 @@ external_svg = """
 
 
 def hover_links(soup):
+    from bs4 import BeautifulSoup
+
     wikilinks = soup.find_all("a", {"class": "wikilink"})
     hoverlinks = soup.find_all("a", {"class": "hoverlink"})
     for link in wikilinks + hoverlinks:
@@ -93,9 +94,12 @@ def hover_links(soup):
 @hook_impl
 def post_render(markata):
     "Hook to replace youtubes on images.waylonwalker.com with mp4's if they exist"
+
+    from bs4 import BeautifulSoup
+
     should_prettify = markata.config.get("prettify_html", False)
     with markata.cache as cache:
-        for article in markata.articles:
+        for article in markata.filter("skip==False"):
             key = markata.make_hash("wikilink_hover_v9", article.html)
 
             html_from_cache = markata.precache.get(key)

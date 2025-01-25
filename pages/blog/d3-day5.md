@@ -9,6 +9,11 @@ published: true
 
 ---
 
+select rowid, key, raw, store_time, expire_time, access_time, access_count, tag, size, mode, filename from Cache where key='e3cd37c97980ab2c';
+'e3cd37c97980ab2c'
+'e3cd37c97980ab2c'
+select rowid, key, raw, store_time, expire_time, access_time, access_count, tag, size, mode, filename from Cache where key='c14050404a107d5e';
+
 <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js'></script>
 <style>
     #content{
@@ -48,10 +53,10 @@ published: true
     }
 </style>
 
-
 ## Learn D3 in 5 days
 
 For what we are creating in these posts d3 is way overkill and very verbose, but I need to start somewhere!  These are just stepping stones into real custom visualizations that cannot be done in any other tool today.  I still cannot explain how excited I am to say **"I created that in d3!!!"**
+
 ### Todays Result
 
 ## Recall Example 3 from yesterday
@@ -71,8 +76,6 @@ For what we are creating in these posts d3 is way overkill and very verbose, but
 
 <div id="chart4" class='chart'></div>
 
-
-
 <script>
     const data4 = [
         { name: 'Alice', math: 93, science: 84},
@@ -83,7 +86,6 @@ For what we are creating in these posts d3 is way overkill and very verbose, but
     ]
 
     chart4 = document.getElementById('chart4')
-
 
     let width = function() {
         return chart4.getBoundingClientRect().width
@@ -146,7 +148,6 @@ For what we are creating in these posts d3 is way overkill and very verbose, but
     chart4_size('big')
 </script>
 
-
 ## Final Result
 
 <div id='buttons5'>
@@ -164,8 +165,6 @@ For what we are creating in these posts d3 is way overkill and very verbose, but
 
 <div id="chart5" class='chart'></div>
 
-
-
 <script>
     const data5 = [
         { name: 'Alice', math: 93, science: 84},
@@ -177,7 +176,6 @@ For what we are creating in these posts d3 is way overkill and very verbose, but
 
     chart5 = document.getElementById('chart5')
 
-
     let width5 = function() {
         return chart5.getBoundingClientRect().width
         }
@@ -187,7 +185,6 @@ For what we are creating in these posts d3 is way overkill and very verbose, but
     let barHeight5 = function() {
         height5() /  data5.length + 'px'
         }
-
 
     function chart5_size(size) {
         d3.select('#sizes5')
@@ -220,7 +217,6 @@ For what we are creating in these posts d3 is way overkill and very verbose, but
             .scaleLinear()
             .domain([50, 100])
             .range([0, width5()]);
-
 
         const bars5 = d3.select('#chart5')
             .selectAll('div')

@@ -1,15 +1,15 @@
-from pathlib import Path
 from typing import TYPE_CHECKING
 
-from bs4 import BeautifulSoup
 from markata.hookspec import hook_impl
 
 if TYPE_CHECKING:
     from bs4.element import Tag
+    from bs4 import BeautifulSoup
 
 
 def render_youtube(youtube: "Tag") -> "Tag":
     "Render an iframe given a validated anchor tag."
+    from bs4 import BeautifulSoup
 
     link = youtube.attrs["href"]
     id = link.replace("https://youtu.be/", "")
@@ -38,7 +38,7 @@ def swap_youtube(youtube: "Tag") -> "Tag":
         return youtube
 
 
-def swap_youtubes(soup: BeautifulSoup) -> None:
+def swap_youtubes(soup: "BeautifulSoup") -> None:
     """Finds youtubes in an articles soup and swaps for mp4s"""
     links = [l for l in soup.find_all("a") if l.string != None]
     onelinelinks = [l for l in links if l["href"] == l.string.strip()]
@@ -50,9 +50,13 @@ def swap_youtubes(soup: BeautifulSoup) -> None:
 @hook_impl
 def post_render(markata):
     "Hook to replace youtubes on images.waylonwalker.com with mp4's if they exist"
+    if not markata.filter("skip==True"):
+        return
+    from bs4 import BeautifulSoup
+
     should_prettify = markata.config.get("prettify_html", False)
     with markata.cache as cache:
-        for article in markata.articles:
+        for article in markata.filter("skip==False"):
             key = markata.make_hash("youtube", article.html)
 
             html_from_cache = markata.precache.get(key)

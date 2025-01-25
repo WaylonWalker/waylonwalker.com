@@ -47,6 +47,13 @@ come back to later when I have forgotten where I have seen something.
 * [web](https://waylonwalker.com/thoughts)
 * [rss](https://waylonwalker.com/thoughts/rss.xml)
 
+## stars
+
+I pull in all of my github stars into one feed [[ PESOS ]] style.
+
+* [web](https://waylonwalker.com/stars)
+* [rss](https://waylonwalker.com/stars/rss.xml)
+
 ## Recent
 
 This is a shorter version of **All**, as it is filtered down to only the posts

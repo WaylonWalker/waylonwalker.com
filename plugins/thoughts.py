@@ -1,8 +1,6 @@
 from markata.hookspec import hook_impl
 import re
-import requests
 from typing import TYPE_CHECKING
-from urllib.parse import quote_plus
 
 if TYPE_CHECKING:
     from markata import Markata
@@ -29,8 +27,11 @@ def clean_description(text: str) -> str:
     return text
 
 
-@hook_impl(trylast=True)
+@hook_impl()
 def load(markata: "Markata") -> None:
+    from urllib.parse import quote_plus
+    import requests
+
     posts = requests.get(
         "https://thoughts.waylonwalker.com/posts/waylonwalker/?page_size=9999999999"
     ).json()
@@ -65,6 +66,7 @@ This post was a thought by [Waylon Walker](https://waylonwalker.com) see all my
 thoughts at
 [https://waylonwalker.com/thoughts](https://waylonwalker.com/thoughts)
         """
+        post["raw"] = post["content"]
         post["jinja"] = False
         post["published"] = True
         post["tags"] = [tag.strip() for tag in post["tags"].split(",")]

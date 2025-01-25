@@ -1,7 +1,5 @@
-from typing import TYPE_CHECKING
 from urllib.parse import urljoin, urlparse
 
-from bs4 import BeautifulSoup
 from markata.hookspec import hook_impl
 
 
@@ -21,9 +19,13 @@ def boosted_links(soup):
 
 @hook_impl
 def post_render(markata):
+    if not markata.filter("skip==True"):
+        return
+    from bs4 import BeautifulSoup
+
     should_prettify = markata.config.get("prettify_html", False)
     with markata.cache as cache:
-        for article in markata.articles:
+        for article in markata.filter("skip==False"):
             key = markata.make_hash("boosted_link", article.html)
 
             html_from_cache = markata.precache.get(key)
