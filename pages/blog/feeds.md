@@ -49,7 +49,7 @@ come back to later when I have forgotten where I have seen something.
 
 ## stars
 
-I pull in all of my github stars into one feed [[ PESOS ]] style.
+I pull in all of my github stars into one feed [[ pesos ]] style.
 
 * [web](https://waylonwalker.com/stars)
 * [rss](https://waylonwalker.com/stars/rss.xml)
