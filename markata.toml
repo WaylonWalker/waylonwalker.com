@@ -24,7 +24,6 @@ assets_dir = "static"
 hooks = [
     'plugins.analytics',
     'plugins.post_model',
-    "markata.plugins.md_it_wikilinks",
     'plugins.thoughts',
     "plugins.wikilink_hover",
     "plugins.boosted_link",
