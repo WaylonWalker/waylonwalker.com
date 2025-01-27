@@ -107,6 +107,6 @@ its not exactly like the last.
   shell: pipx install dunk
 ```
 
-[[ ansible_install_if_not_callable ]]
+[[ ansible-install-if-not-callable ]]
 
 > More on conditionally installing tools with ansible in this post.
