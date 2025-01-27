@@ -1,6 +1,7 @@
 """manifest plugin"""
+
 from pathlib import Path
-from typing import TYPE_CHECKING, List
+from typing import List, TYPE_CHECKING
 
 from bs4 import BeautifulSoup
 from markata import Markata, __version__
@@ -229,7 +230,6 @@ def _clean_amp(soup: BeautifulSoup) -> None:
 
 @hook_impl
 def render(markata: Markata) -> None:
-
     url = markata.get_config("url") or ""
     site_name = markata.get_config("site_name") or ""
     twitter_card = markata.get_config("twitter_card") or "summary_large_image"
@@ -257,22 +257,22 @@ def render(markata: Markata) -> None:
                 _clean_amp(soup)
                 canonical_link = soup.new_tag("link")
                 canonical_link.attrs["rel"] = "canonical"
-                canonical_link.attrs[
-                    "href"
-                ] = f'{markata.config["url"]}/{article.metadata["slug"]}/'
+                canonical_link.attrs["href"] = (
+                    f'{markata.config["url"]}/{article.metadata["slug"]}/'
+                )
                 soup.head.append(canonical_link)
 
                 meta_url = soup.new_tag("meta")
                 meta_url.attrs["name"] = "og:url"
                 meta_url.attrs["property"] = "og:url"
-                meta_url.attrs[
-                    "content"
-                ] = f'{markata.config["url"]}/{article.metadata["slug"]}/'
+                meta_url.attrs["content"] = (
+                    f'{markata.config["url"]}/{article.metadata["slug"]}/'
+                )
                 soup.head.append(meta_url)
 
                 # html = soup.prettify()
                 html = str(soup)
-                cache.add(key, html, expire=15 * 24 * 60 * 60)
+                cache.set(key, html, expire=15 * 24 * 60 * 60)
             else:
                 html = html_from_cache
             article.amp_html = html

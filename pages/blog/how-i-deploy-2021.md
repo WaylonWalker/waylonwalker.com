@@ -122,7 +122,7 @@ No one can take my domain or shut down the platform that my content is on.
 I'm creating learning exhaust.
 
 > Inspired by [swyx](https://www.swyx.io/learn-in-public/)
-> https://www.swyx.io/learn-in-public/
+> <https://www.swyx.io/learn-in-public/>
 
 ## from swyx
 
@@ -130,7 +130,6 @@ I'm creating learning exhaust.
 > were learning. Don’t judge your results by “claps” or retweets or
 > stars or upvotes - just talk to yourself from 3 months ago. I keep an
 > almost-daily dev blog written for no one else but me.
-
 
 ## Focus on content
 
@@ -197,6 +196,7 @@ Focus on content that you want to consume.
 ```
 
 ## Let's start with a Til
+
 _the process_
 
 ### shoutout to @[jbrancha](https://twitter.com/jbrancha)
@@ -210,7 +210,6 @@ Check out his amazing [til repo](https://github.com/jbranchaud/til)
 
 I use [copier](https://copier.readthedocs.io/en/stable/) for single file
 templates.
-
 
 ## Copier give me a new page
 
@@ -278,7 +277,7 @@ Let'g grab a question from slack/slido
 In March of 2021 I made the big switch from a javascript based framework
 to my own ssg.
 
-## I thought it would be easy....
+## I thought it would be easy
 
 There are a bunch of open source libraries that do all the things I need
 an ssg to do.
@@ -293,6 +292,7 @@ use it every day and know the ecosystem much better.
 * breakpoint
 
 ## Part 3 How it's deployed
+
 _word of caution_
 
 This part might be a lot of code coming quick.
@@ -503,7 +503,7 @@ to create the value.
 html_from_cache = cache.get(key)
 if html_from_cache is None:
     html = markata.md.convert(article.content)
-    cache.add(key, html, expire=15 * 24 * 60)
+    cache.set(key, html, expire=15 * 24 * 60)
 else:
     html = html_from_cache
 ```
@@ -562,7 +562,6 @@ Rendering the site inside of github actions with the cache is pretty
 straightforward with these four steps.  Keying off of the configuration will
 bust the cache every time we change the configuration.  You can hack a full
 rebuild by changing anything inside of the configuration file.
-
 
 ## GitHub Actions
 
@@ -676,12 +675,11 @@ useful to you, and others who will find it.
 
 ## Connect
 
-* [ twitter ](https://twitter.com/_WaylonWalker)
-* [ LinkedIn ](https://www.linkedin.com/in/waylonwalker/)
-* [ GitHub ](https://github.com/WaylonWalker)
-* [ Dev.to](https://dev.to/waylonwalker)
-* [ twitch ](https://www.twitch.tv/waylonwalker)
-
+* [twitter](https://twitter.com/_WaylonWalker)
+* [LinkedIn](https://www.linkedin.com/in/waylonwalker/)
+* [GitHub](https://github.com/WaylonWalker)
+* [Dev.to](https://dev.to/waylonwalker)
+* [twitch](https://www.twitch.tv/waylonwalker)
 
 ## Links
 

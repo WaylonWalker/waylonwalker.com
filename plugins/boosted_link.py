@@ -37,7 +37,7 @@ def post_render(markata):
                     html = soup.prettify()
                 else:
                     html = str(soup)
-                cache.add(key, html)
+                cache.set(key, html)
 
             else:
                 html = html_from_cache

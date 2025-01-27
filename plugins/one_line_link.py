@@ -1,8 +1,8 @@
 import re
 import textwrap
 
-import twitter
 from markata.hookspec import hook_impl
+import twitter
 
 RE_ONE_LINE = re.compile("^https://waylonwalker.com/.*")
 RE_TWEET = re.compile("^https://twitter.com/.*")
@@ -70,7 +70,6 @@ def expand_article(content, markata):
 def pre_render(markata):
     with markata.cache as cache:
         for article in markata.articles:
-
             expanded_content_key = markata.make_hash(
                 "one_line_link", "render", "expanded_content", article.content
             )
@@ -78,7 +77,7 @@ def pre_render(markata):
 
             if expanded_content_from_cache is None:
                 expanded_content = expand_article(article.content, markata=markata)
-                cache.add(expanded_content_key, expanded_content)
+                cache.set(expanded_content_key, expanded_content)
             else:
                 expanded_content = expanded_content_from_cache
 

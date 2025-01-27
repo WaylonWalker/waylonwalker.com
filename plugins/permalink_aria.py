@@ -1,10 +1,12 @@
-from markata.hookspec import hook_impl
 from lxml import html
+from markata.hookspec import hook_impl
 
 
 def permalink_aria(doc):
     for a_tag in doc.xpath("//a[@class='header-anchor'][@href]"):
-        a_tag.attrib["aria-label"] = f"Permalink to Heading {a_tag.getparent().text_content()}"
+        a_tag.attrib["aria-label"] = (
+            f"Permalink to Heading {a_tag.getparent().text_content()}"
+        )
     return doc
 
 
@@ -21,10 +23,10 @@ def post_render(markata):
                 doc = html.fromstring(article.html)
                 permalink_aria(doc)
                 if should_prettify:
-                    html_str = html.tostring(doc, pretty_print=True, encoding='unicode')
+                    html_str = html.tostring(doc, pretty_print=True, encoding="unicode")
                 else:
-                    html_str = html.tostring(doc, encoding='unicode')
-                cache.add(key, html_str)
+                    html_str = html.tostring(doc, encoding="unicode")
+                cache.set(key, html_str)
 
             else:
                 html_str = html_from_cache

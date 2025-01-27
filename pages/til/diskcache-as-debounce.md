@@ -57,14 +57,14 @@ async def get_shot_by_id(
 
     is_running = jobs_cache.get(shot_id)
 
-    if is_running: 
+    if is_running:
         expire_time = datetime.fromtimestamp(jobs_cache.peekitem(expire_time=True)[1]) - datetime.now()
         console.print("[red]Already running store_shot: ", shot_id)
         console.print(f"[red]Can retry in {expire_time.seconds}s")
     else:
-        jobs_cache.add(shot_id, True, 60)
+        jobs_cache.set(shot_id, True, 60)
         background_tasks.add_task(
             store_shot,
             shot_id=shot_id,
-        ) 
+        )
 ```

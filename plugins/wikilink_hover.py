@@ -1,7 +1,7 @@
 from typing import TYPE_CHECKING
 
-from markata.hookspec import hook_impl
 from lxml import html
+from markata.hookspec import hook_impl
 
 if TYPE_CHECKING:
     pass
@@ -25,7 +25,9 @@ def hover_links(doc):
 
         # if parent of parent is an admonition with class of .admonition
         parent_parent = parent.getparent()
-        if parent_parent is not None and "admonition" in (parent_parent.get("class", "") or ""):
+        if parent_parent is not None and "admonition" in (
+            parent_parent.get("class", "") or ""
+        ):
             pp_classes = parent_parent.get("class", "").split()
             pp_classes.append("hover:z-20")
             parent_parent.set("class", " ".join(pp_classes))
@@ -108,10 +110,12 @@ def post_render(markata):
                     doc = html.fromstring(article.html)
                     hover_links(doc)
                     if should_prettify:
-                        html_str = html.tostring(doc, pretty_print=True, encoding='unicode')
+                        html_str = html.tostring(
+                            doc, pretty_print=True, encoding="unicode"
+                        )
                     else:
-                        html_str = html.tostring(doc, encoding='unicode')
-                    cache.add(key, html_str)
+                        html_str = html.tostring(doc, encoding="unicode")
+                    cache.set(key, html_str)
                 else:
                     html_str = html_from_cache
                 article.html = html_str
