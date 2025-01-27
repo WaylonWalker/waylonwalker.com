@@ -98,7 +98,7 @@ I have posts about htmx going back to [[ htmx-get ]] on 3/25/2022.  I've been
 interested for awhile, but just didn't really have the platform to use it till
 recently.  My public content has been all static built content for a long time,
 but now I am building applications for myself that are server rendered such as
-[[ thoughts ]] and [[ one-day-build-play-outside ]].  I've had more use cases
+[[ thoughts ]] and [[ odb-play-outside ]].  I've had more use cases
 for using htmx.
 
 The last pre-release of markata from 6/15/2022 now supports feed partials.
