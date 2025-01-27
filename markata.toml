@@ -498,7 +498,7 @@ reverse = true
 description = 'A feed of all my vim draft posts'
 
 [[markata.feeds]]
-slug = 'kedro'
+slug = 'kedro-feed'
 filter = "date<=today and 'kedro' in str(tags).lower()"
 sort = "date"
 reverse = true
