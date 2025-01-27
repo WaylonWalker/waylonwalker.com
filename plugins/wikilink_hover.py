@@ -1,6 +1,7 @@
 from typing import TYPE_CHECKING
 
 from markata.hookspec import hook_impl
+from lxml import html
 
 if TYPE_CHECKING:
     pass
@@ -12,23 +13,24 @@ external_svg = """
 """
 
 
-def hover_links(soup):
-    from bs4 import BeautifulSoup
+def hover_links(doc):
+    wikilinks = doc.xpath("//a[@class='wikilink']")
+    hoverlinks = doc.xpath("//a[@class='hoverlink']")
 
-    wikilinks = soup.find_all("a", {"class": "wikilink"})
-    hoverlinks = soup.find_all("a", {"class": "hoverlink"})
     for link in wikilinks + hoverlinks:
-        parent = link.parent
-        parent["class"] = parent.get("class", []) + [
-            "hover:z-20",
-            "relative",
-        ]
+        parent = link.getparent()
+        classes = parent.get("class", "").split()
+        classes.extend(["hover:z-20", "relative"])
+        parent.set("class", " ".join(classes))
+
         # if parent of parent is an admonition with class of .admonition
-        if "admonition" in parent.parent.get("class", []):
-            parent.parent["class"] = parent.parent.get("class", []) + [
-                "hover:z-20",
-            ]
-        href = link.attrs.get("href").lstrip("/")
+        parent_parent = parent.getparent()
+        if parent_parent is not None and "admonition" in (parent_parent.get("class", "") or ""):
+            pp_classes = parent_parent.get("class", "").split()
+            pp_classes.append("hover:z-20")
+            parent_parent.set("class", " ".join(pp_classes))
+
+        href = link.get("href", "").lstrip("/")
 
         prefix = ""
         boost = ""
@@ -80,40 +82,36 @@ def hover_links(soup):
     </span>
 """
 
-        extra_soup = BeautifulSoup(img, "html.parser")
+        extra_doc = html.fromstring(img)
         if href.endswith(".webp") or href.endswith(".mp4"):
-            parent = link.parent
+            parent = link.getparent()
             parent.clear()
-            parent.append(extra_soup)
+            parent.append(extra_doc)
         else:
-            link.replace_with(extra_soup)
+            link.getparent().replace(link, extra_doc)
 
-    return soup
+    return doc
 
 
 @hook_impl
 def post_render(markata):
     "Hook to replace youtubes on images.waylonwalker.com with mp4's if they exist"
 
-    from bs4 import BeautifulSoup
-
     should_prettify = markata.config.get("prettify_html", False)
     with markata.cache as cache:
         for article in markata.filter("skip==False"):
-            key = markata.make_hash("wikilink_hover_v9", article.html)
-
+            key = markata.make_hash("wikilink_hover", article.html)
             html_from_cache = markata.precache.get(key)
 
             if "wikilink" in article.html or "hoverlink" in article.html:
                 if html_from_cache is None:
-                    soup = BeautifulSoup(article.html, "lxml")
-                    hover_links(soup)
+                    doc = html.fromstring(article.html)
+                    hover_links(doc)
                     if should_prettify:
-                        html = soup.prettify()
+                        html_str = html.tostring(doc, pretty_print=True, encoding='unicode')
                     else:
-                        html = str(soup)
-                    cache.add(key, html)
-
+                        html_str = html.tostring(doc, encoding='unicode')
+                    cache.add(key, html_str)
                 else:
-                    html = html_from_cache
-                article.html = html
+                    html_str = html_from_cache
+                article.html = html_str

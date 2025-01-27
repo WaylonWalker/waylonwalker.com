@@ -29,7 +29,6 @@ def clean_description(text: str) -> str:
 
 @hook_impl()
 def load(markata: "Markata") -> None:
-    from urllib.parse import quote_plus
     import requests
 
     posts = requests.get(
@@ -39,17 +38,18 @@ def load(markata: "Markata") -> None:
     text_opacity_80 = "{.text-opacity-80}"
     for post in posts:
         cleaned_title = clean_title(post["title"])
+        post["markata"] = markata
         post["title"] = "💭 " + cleaned_title.lstrip("💭 ")
         post["path"] = f"thoughts-{post['id']}"
         post["slug"] = f"thoughts-{post['id']}"
         post["templateKey"] = "thoughts"
         post["markata"] = markata
         post["description"] = clean_description(post["message"][:120])
-        post["link"] = quote_plus(post["link"])
+        # post["link"] = quote_plus(post["link"])
         post["content"] = f"""
 [![{ post["title"] }](https://shots.wayl.one/shot/?url={ post["link"] }&height=450&width=800&scaled_width=800&scaled_height=450&selectors=)]({ post["link"] })
 
-Here's my thought on [{post["title"]}]({post["link"]})
+Here's my thought on <a href="{post["link"]}">{post["title"]}</a>
 
 ---
 

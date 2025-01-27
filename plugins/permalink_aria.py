@@ -1,16 +1,15 @@
 from markata.hookspec import hook_impl
+from lxml import html
 
 
-def permalink_aria(soup):
-    for a_tag in soup.find_all("a", href=True, class_="header-anchor"):
-        a_tag["aria-label"] = f"Permalink to Heading {a_tag.parent.text}"
-    return soup
+def permalink_aria(doc):
+    for a_tag in doc.xpath("//a[@class='header-anchor'][@href]"):
+        a_tag.attrib["aria-label"] = f"Permalink to Heading {a_tag.getparent().text_content()}"
+    return doc
 
 
 @hook_impl
 def post_render(markata):
-    from bs4 import BeautifulSoup
-
     should_prettify = markata.config.get("prettify_html", False)
     with markata.cache as cache:
         for article in markata.filter("skip==False"):
@@ -19,14 +18,14 @@ def post_render(markata):
             html_from_cache = markata.precache.get(key)
 
             if html_from_cache is None:
-                soup = BeautifulSoup(article.html, "lxml")
-                permalink_aria(soup)
+                doc = html.fromstring(article.html)
+                permalink_aria(doc)
                 if should_prettify:
-                    html = soup.prettify()
+                    html_str = html.tostring(doc, pretty_print=True, encoding='unicode')
                 else:
-                    html = str(soup)
-                cache.add(key, html)
+                    html_str = html.tostring(doc, encoding='unicode')
+                cache.add(key, html_str)
 
             else:
-                html = html_from_cache
-            article.html = html
+                html_str = html_from_cache
+            article.html = html_str

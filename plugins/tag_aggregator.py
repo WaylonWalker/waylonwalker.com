@@ -109,11 +109,11 @@ Generated on {today}
     # Create a blog post
     post_args = {
         "markata": markata,
-        "templateKey": "post",
-        "path": "tag-aggregator.md",
+        "templateKey": "plugin-report",
+        "path": "tag-aggregator-report.md",
         "content": content,
         "raw": content,
-        "tags": ["debug"],
+        "tags": ["plugin-report"],
         "slug": "tag-aggregator-report",
         "title": "Tag Aggregator Report",
         "description": "Generated report from the tag aggregator plugin",

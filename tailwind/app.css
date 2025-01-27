@@ -29,6 +29,17 @@ audio::-webkit-media-controls-panel {
 audio {
   @apply w-full mx-auto;
 }
+
+
+img, video {
+  @apply rounded-xl;
+  @apply border-pink-500;
+  @apply border;
+  @apply mx-auto;
+  @apply shadow-2xl;
+  @apply shadow-[0_0_45px_5px_rgba(219,39,119,.2)];
+}
+
 .inapage {
   @apply mx-4 text-base text-center;
   @apply text-sm;
@@ -164,11 +175,29 @@ body {
 
 .dubs {
   @apply w-full max-w-full overflow-x-hidden;
+  position: relative;
+  background-color: transparent;
   background-image: url("/w.svg");
-  background-size: contain;
-  background-size: 10rem auto;
+  background-size: 5rem auto;
   background-repeat: repeat;
   background-attachment: fixed;
+  z-index: 0;
+}
+
+.dubs-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2)),
+    url("/noise.svg");
+  background-repeat: repeat;
+  mix-blend-mode: overlay;
+  opacity: 0.4;
+  pointer-events: none;
+  z-index: 1;
 }
 
 #article-wrapper {
@@ -675,9 +704,6 @@ article.blog-post {
   /* @apply max-w-full; */
 }
 
-img {
-  @apply mx-auto;
-}
 
 nav ul {
   @apply list-none;
@@ -754,7 +780,7 @@ footer p {
 }
 
 .neon-ring {
-  z-index: -1;
+  z-index: -2;
   position: fixed;
   overflow: hidden;
   width: 5000px;

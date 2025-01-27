@@ -23,7 +23,7 @@ noticed that lists have left padding but no discs or numbers.  I popped open my
 }
 ```
 
-And rebuild, which I actually do with [[ casey--just ]], but showing the
+And rebuild, which I actually do with [[ casey-just ]], but showing the
 command here for clarity.
 
 ``` bash

@@ -21,7 +21,7 @@ The model of the caps are
 [braindefender](https://github.com/braindefender) , they are super rounded and
 smooth.  They look really good on camera and feel good to the finders.
 
-![[new-caps-for-porta-john-20240805193001765.webp]]
+![new-caps-for-porta-john-20240805193001765.webp](https://dropper.wayl.one/api/file/46c218f4-911c-4083-8ec1-8fe6ae11eb0a.webp)
 
 I printed these at home on my ender3 s1 pro with a black and purple silk
 filliment.  I printed all 42 at once using a [[knock-and-sweep]] technique.
@@ -35,11 +35,11 @@ nearly as drastic.
 
 Check out the final shots as I set up the porta-john with these sweet caps.
 
-![[new-caps-for-porta-john-20240805190712987.webp]]
+![new-caps-for-porta-john-20240805190712987.webp](https://dropper.wayl.one/api/file/7d2ab237-26dc-42b9-9594-9ee044755bbc.webp)
 
 And here they are all set up.
 
-![[new-caps-for-porta-john-20240805190716762.webp]]
+![new-caps-for-porta-john-20240805190716762.webp](https://dropper.wayl.one/api/file/903ae2e9-411c-4686-bd28-fa0de8571360.webp)
 
 ## Full Disclosure
 

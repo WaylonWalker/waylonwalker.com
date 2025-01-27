@@ -13,7 +13,6 @@ site_version = 31
 markdown_backend='markdown-it-py'
 templates_dir = "templates"
 
-
 # 2 weeks in seconds
 default_cache_expire = 1209600
 
@@ -22,7 +21,7 @@ default_cache_expire = 1209600
 output_dir = "markout"
 assets_dir = "static"
 hooks = [
-    'plugins.analytics',
+    'plugins.md_video',
     'plugins.post_model',
     'plugins.thoughts',
     "plugins.wikilink_hover",
@@ -41,6 +40,7 @@ hooks = [
     # "plugins.one_line_link",
     # "plugins.include",
     "markata.plugins.jinja_md",
+    'markata.plugins.analytics',
     "default",
     # "plugins.related",
     # "plugins.seo_amp",
@@ -180,7 +180,7 @@ font_color = "rgb(255,255,255)"
 value = "<title>{{ post.title|e }}</title>"
 
 [[markata.head.link]]
-href='/app-41.css'
+href='/app-43.css'
 rel='stylesheet'
 
 [[markata.head.meta]]
@@ -700,6 +700,11 @@ json = ['webdev']
 jq = ['json']
 systemd = ['linux']
 zfs = ['linux']
+
+[ markata.analytics ]
+contributions_max_post_scale = 5
+contributions_cmap = "rocket"
+filter = "date<=today and published"
 
 
 # ---- GENERATED TAGS ----
@@ -2488,3 +2493,10 @@ filter = "date<=today and 'github-stars' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about github-stars"
+
+[[markata.feeds]]
+slug = "plugin-report"
+filter = "'plugin-report' in str(tags).lower()"
+sort = "date"
+reverse = true
+description = "Markata build plugin reports"
