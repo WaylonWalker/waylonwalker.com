@@ -49,9 +49,8 @@ def convert_media_tags(markata: "Markata", post) -> str:
 @hook_impl
 # @register_attr("md_video_conversions")
 def pre_render(markata: "Markata") -> None:
-    # markata.md_video_conversions = []
-    for post in markata.posts:
-        with markata.cache as cache:
+    with markata.cache as cache:
+        for post in markata.posts:
             content_key = markata.make_hash("md_video_content", post.content)
             content = cache.get(content_key)
             # conversions_key = markata.make_hash("md_video_conversions", post.content)
