@@ -15,4 +15,5 @@ now lets keep some cold build links around for reference.
 
 ## 01/27/2025
 
-* <https://ec314b08.waylonwalker-com.pages.dev/_profile/> - markata 0.9.0.dev5 has md_video open cache on every post issue
+* <https://ec314b08.waylonwalker-com.pages.dev/_profile/> - 429s - markata==0.9.0.dev5 has md_video open cache on every post issue
+* <https://27f117fd.waylonwalker-com.pages.dev/_profile/> - 112s- markata==0.9.0.dev5 after fixing md_video issue
