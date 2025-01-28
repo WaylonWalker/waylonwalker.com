@@ -50,7 +50,7 @@ def convert_media_tags(markata: "Markata", post) -> str:
 # @register_attr("md_video_conversions")
 def pre_render(markata: "Markata") -> None:
     with markata.cache as cache:
-        for post in markata.posts:
+        for post in markata.filter("not skip"):
             content_key = markata.make_hash("md_video_content", post.content)
             content = cache.get(content_key)
             # conversions_key = markata.make_hash("md_video_conversions", post.content)
