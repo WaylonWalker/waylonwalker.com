@@ -57,7 +57,7 @@ def pre_render(markata: "Markata") -> None:
             # conversions_key = markata.make_hash("md_video_conversions", post.content)
             # conversions = cache.get(conversions_key)
 
-            if content is None or conversions is None:
+            if content is None:
                 md_video_conversions, post.content = convert_media_tags(markata, post)
                 # markata.md_video_conversions.extend(md_video_conversions)
                 cache.set(content_key, post.content)
