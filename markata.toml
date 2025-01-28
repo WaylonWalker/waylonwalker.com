@@ -25,7 +25,7 @@ hooks = [
     'plugins.post_model',
     'plugins.thoughts',
     "plugins.wikilink_hover",
-    "plugins.boosted_link",
+    # "plugins.boosted_link",
     "plugins.permalink_aria",
     "plugins.tag_aggregator",
     # "plugins.generate_feed_conf",
