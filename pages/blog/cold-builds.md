@@ -17,3 +17,5 @@ now lets keep some cold build links around for reference.
 
 * <https://ec314b08.waylonwalker-com.pages.dev/_profile/> - 429s - markata==0.9.0.dev5 has md_video open cache on every post issue
 * <https://27f117fd.waylonwalker-com.pages.dev/_profile/> - 112s- markata==0.9.0.dev5 after fixing md_video issue
+* <https://e6b8f64a.waylonwalker-com.pages.dev/_profile/> - 16s - markata==0.9.0.dev5 1 post not skipped, this one
+* <https://10b778b4.waylonwalker-com.pages.dev/_profile/> - 5.65s - markata==0.9.0.dev5 fully hot cache build with no changes
