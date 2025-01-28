@@ -1,7 +1,6 @@
 """md_video plugin"""
 
-from datetime import datetime
-from markata.hookspec import hook_impl, register_attr
+from markata.hookspec import hook_impl
 import pydantic
 import re
 from typing import TYPE_CHECKING
@@ -47,55 +46,52 @@ def convert_media_tags(markata: "Markata", post) -> str:
     )
 
 
-converted_videos = []
-
-
 @hook_impl
-@register_attr("md_video_conversions")
+# @register_attr("md_video_conversions")
 def pre_render(markata: "Markata") -> None:
-    markata.md_video_conversions = []
+    # markata.md_video_conversions = []
     for post in markata.posts:
         with markata.cache as cache:
             content_key = markata.make_hash("md_video_content", post.content)
             content = cache.get(content_key)
-            conversions_key = markata.make_hash("md_video_conversions", post.content)
-            conversions = cache.get(conversions_key)
+            # conversions_key = markata.make_hash("md_video_conversions", post.content)
+            # conversions = cache.get(conversions_key)
 
             if content is None or conversions is None:
                 md_video_conversions, post.content = convert_media_tags(markata, post)
-                markata.md_video_conversions.extend(md_video_conversions)
-                cache.add(content_key, post.content)
-                cache.add(conversions_key, markata.md_video_conversions)
+                # markata.md_video_conversions.extend(md_video_conversions)
+                cache.set(content_key, post.content)
+                # cache.set(conversions_key, markata.md_video_conversions)
                 continue
             else:
                 post.content = content
-                markata.md_video_conversions.extend(conversions)
+                # markata.md_video_conversions.extend(conversions)
 
-    # Create a report post
-    content_lines = [
-        "# md-video Report",
-        "",
-        "## Converted Videos",
-        "",
-        *markata.md_video_conversions,
-    ]
+    # # Create a report post
+    # content_lines = [
+    #     "# md-video Report",
+    #     "",
+    #     "## Converted Videos",
+    #     "",
+    #     *markata.md_video_conversions,
+    # ]
+    #
+    # content = "\n".join(content_lines)
 
-    content = "\n".join(content_lines)
-
-    post_args = {
-        "markata": markata,
-        "templateKey": "plugin-report",
-        "path": f'{MARKATA_PLUGIN_PACKAGE_NAME.strip().replace("_", "-")}.md',
-        "content": content,
-        "raw": content,
-        "tags": ["plugin-report"],
-        "slug": f"{MARKATA_PLUGIN_PACKAGE_NAME.strip().replace('_', '-')}-plugin-report",
-        "title": "md-video Report",
-        "description": "Generated report from the md-video plugin",
-        "published": False,
-        "date": datetime.now().isoformat(),
-    }
-
-    post = markata.Post.parse_obj(post_args)
-    markata.Post.validate(post)
-    markata.posts.append(post)
+    # post_args = {
+    #     "markata": markata,
+    #     "templateKey": "plugin-report",
+    #     "path": f'{MARKATA_PLUGIN_PACKAGE_NAME.strip().replace("_", "-")}.md',
+    #     "content": content,
+    #     "raw": content,
+    #     "tags": ["plugin-report"],
+    #     "slug": f"{MARKATA_PLUGIN_PACKAGE_NAME.strip().replace('_', '-')}-plugin-report",
+    #     "title": "md-video Report",
+    #     "description": "Generated report from the md-video plugin",
+    #     "published": False,
+    #     "date": datetime.now().isoformat(),
+    # }
+    #
+    # post = markata.Post.parse_obj(post_args)
+    # markata.Post.validate(post)
+    # markata.posts.append(post)
