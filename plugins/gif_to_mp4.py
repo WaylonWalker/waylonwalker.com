@@ -79,7 +79,7 @@ def post_render(markata):
     "Hook to replace gifs on images.waylonwalker.com with mp4's if they exist"
     should_prettify = markata.config.get("prettify_html", False)
     with markata.cache as cache:
-        for article in markata.filter("skip==False"):
+        for article in markata.filter("not skip"):
             key = markata.make_hash(
                 article.html,
             )

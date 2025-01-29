@@ -1,6 +1,6 @@
-from typing import TYPE_CHECKING
 from functools import lru_cache
 from string import Template
+from typing import TYPE_CHECKING
 
 from markata.hookspec import hook_impl
 
@@ -17,22 +17,26 @@ YOUTUBE_TEMPLATE = Template("""
     allowfullscreen></iframe>
 """)
 
+
 @lru_cache(maxsize=100)
 def render_youtube(link: str) -> str:
     "Render an iframe given a YouTube link - now using string templates for better performance"
     id = link.replace("https://youtu.be/", "")
     return YOUTUBE_TEMPLATE.substitute(id=id)
 
+
 def is_valid_youtube(youtube: "Tag") -> bool:
     "checks if the link is a valid YouTube link"
     href = youtube.attrs["href"]
     return href.startswith("https://youtu.be")
+
 
 def swap_youtube(youtube: "Tag") -> str:
     "Convert YouTube link to embed HTML"
     if is_valid_youtube(youtube):
         return render_youtube(youtube.attrs["href"])
     return str(youtube)
+
 
 def swap_youtubes(soup: "BeautifulSoup") -> None:
     """Finds youtubes in an article's soup and swaps for embeds"""
@@ -43,17 +47,19 @@ def swap_youtubes(soup: "BeautifulSoup") -> None:
         if link.string and link["href"] == link.string.strip():
             link.replace_with(swap_youtube(link))
 
+
 @hook_impl
 def post_render(markata):
     "Hook to replace YouTube links with embeds"
-    if not markata.filter("skip==True"):
+    if not markata.filter("not skip"):
         return
 
     from bs4 import BeautifulSoup
+
     should_prettify = markata.config.get("prettify_html", False)
 
     with markata.cache as cache:
-        for article in markata.filter("skip==False"):
+        for article in markata.filter("not skip"):
             # Quick check for potential YouTube links before parsing
             if "youtu.be" not in article.content:
                 continue

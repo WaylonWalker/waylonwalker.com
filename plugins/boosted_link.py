@@ -19,13 +19,13 @@ def boosted_links(soup):
 
 @hook_impl
 def post_render(markata):
-    if not markata.filter("skip==True"):
+    if not markata.filter("not skip"):
         return
     from bs4 import BeautifulSoup
 
     should_prettify = markata.config.get("prettify_html", False)
     with markata.cache as cache:
-        for article in markata.filter("skip==False"):
+        for article in markata.filter("not skip"):
             key = markata.make_hash("boosted_link", article.html)
 
             html_from_cache = markata.precache.get(key)

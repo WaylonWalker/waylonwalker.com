@@ -101,7 +101,7 @@ def post_render(markata):
 
     should_prettify = markata.config.get("prettify_html", False)
     with markata.cache as cache:
-        for article in markata.filter("skip==False"):
+        for article in markata.filter("not skip"):
             key = markata.make_hash("wikilink_hover", article.html)
             html_from_cache = markata.precache.get(key)
 
