@@ -16,7 +16,7 @@ often go to look up the docs for a plugin and forget that the path is
 and try something like `feed` and get a 404.  So I added a  `didyoumean` plugin
 to markata that takes care of this.
 
-![markata-didyoumean.mp4](/api/file/3e9a1af6-59e0-4d0a-9540-2514c492cc49.mp4)
+![markata-didyoumean.mp4](https://dropper.wayl.one/api/file/3e9a1af6-59e0-4d0a-9540-2514c492cc49.mp4)
 
 ## Happy Path
 
