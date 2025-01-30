@@ -1,22 +1,22 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="icon" href="/8bitcc.ico" type="image/png" />
-    <meta name="og:type" content="website" />
-    <title>{{post.title|e}}</title>
-    {% include 'head.html' %}
-    <script>
-        navigator.serviceWorker.getRegistrations().then(function (registrations) {
-            for (let registration of registrations) {
-                registration.unregister();
-            }
-        });
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="icon" href="/8bitcc.ico" type="image/png" />
+        <meta name="og:type" content="website" />
+        <title>{{post.title|e}}</title>
+        {% include 'head.html' %}
+        <script>
+            navigator.serviceWorker.getRegistrations().then(function (registrations) {
+                for (let registration of registrations) {
+                    registration.unregister();
+                }
+            });
 
-    </script>
-    <script type="application/ld+json">
+        </script>
+        <script type="application/ld+json">
             {
                 "@context": "https://schema.org/",
                 "@type": "WebPage",
@@ -43,14 +43,14 @@
                 "url": "{{config.url}}{{slug}}"
             }
         </script>
-</head>
+    </head>
 
-<body position="relative">
-    <div class="neon-ring"></div>
-    <div class="dubs">
-        {% block content %}{% endblock %}
-    </div>
-</body>
-</body>
+    <body position="relative">
+        <div class="neon-ring"></div>
+        <div class="dubs">
+        <!-- <div class="dubs-overlay"></div> -->
+            {% block content %}{% endblock %}
+        </div>
+    </body>
 
 </html>
