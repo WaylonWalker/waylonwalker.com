@@ -29,4 +29,4 @@ rss reader, you can find them on my [[ feeds ]] page.
 they are typically not targeted to a specific moment in time, but designed to
 be ever living.
 
-{{ '\n'.join(markata.feeds.slashes.map('f"* [[ {slug} ]] - {description}"', sort='slug')) }}
+{{ '\n'.join(markata.feeds.slashes.map('f"* [[ {post.slug} ]] - {post.description}"', sort='slug')) }}
