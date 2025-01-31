@@ -90,7 +90,13 @@ def hover_links(doc):
             parent.clear()
             parent.append(extra_doc)
         else:
+            # Get the tail text (text that comes after the link)
+            tail_text = link.tail
+            # Replace the link with our new hover structure
             link.getparent().replace(link, extra_doc)
+            # If there was text after the link, add it back
+            if tail_text:
+                extra_doc.tail = tail_text
 
     return doc
 
