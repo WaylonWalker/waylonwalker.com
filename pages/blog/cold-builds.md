@@ -13,6 +13,8 @@ long time and would like to have some references to go back to, and wish I had
 kept a few profiles of cold builds laying around to compare with. The time is
 now lets keep some cold build links around for reference.
 
+![screenshot-2025-01-31T21-23-56-725Z.png](https://dropper.wayl.one/api/file/cd8f9d96-948a-4e94-aa3d-2c352bb5657b.png)
+
 ## 01/27/2025
 
 * <https://ec314b08.waylonwalker-com.pages.dev/_profile/> - 429s - markata==0.9.0.dev5 has md_video open cache on every post issue

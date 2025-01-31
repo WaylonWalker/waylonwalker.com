@@ -15,6 +15,8 @@ personal blog and side projects was at the top of the suggestions so off I
 I started looking at what I needed to do to start building my resume, having a
 went. This site is built on markata, more about that in the [[ colophon ]].
 
+![screenshot-2025-01-31T21-23-13-643Z.png](https://dropper.wayl.one/api/file/7b6cf2c2-2299-4320-b58f-b0bebf2d0504.png)
+
 ## Total Posts over time
 
 ![Total Cumulative Posts Over Time](/total_posts_over_time.svg)

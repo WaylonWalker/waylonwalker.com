@@ -15,6 +15,8 @@ I recently built a cli application as a nearly-one-shot-app called
 [nvim-manager](https://github.com/waylonwalker/nvim-manager). It manages your
 nvim dotfiles install.
 
+![screenshot-2025-01-31T21-21-40-707Z.png](https://dropper.wayl.one/api/file/20f800f1-64a6-43a3-93eb-e805b07d86b1.png)
+
 ## Why
 
 {.bg-blue-900 .border-r-8 .border-black .rounded-xl .max-w-xl .p-6 .font-bold}

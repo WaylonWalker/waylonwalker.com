@@ -14,6 +14,8 @@ So I made a mistake in an app I am working on and ended up creating thumbnails
 of thumbnails, and thumbnails of thumbnails of thumbnails... etc. I was able to
 delete them all, but I wanted to make a one-shot script to do it.
 
+![screenshot-2025-01-31T21-20-56-934Z.png](https://dropper.wayl.one/api/file/e804dd2c-e3d9-4a83-83fa-95a720cdc92b.png)
+
 ## One Shot App
 
 I got the idea of the one shot app from [Simon

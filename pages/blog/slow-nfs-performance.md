@@ -13,6 +13,8 @@ I'm running a two node k3s cluster at home, I _thought_ I could simply mount an
 nfs share on each worker node, and essentially have the same storage accross
 all nodes.  I'm already learning why this is not reccommended.
 
+![screenshot-2025-01-31T21-18-43-543Z.png](https://dropper.wayl.one/api/file/0e1f8cc5-4212-4c9a-b71c-e714abd43692.png)
+
 ## Slow
 
 I've been running some cronjobs and argo workflows on the second node for
