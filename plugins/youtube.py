@@ -11,10 +11,13 @@ if TYPE_CHECKING:
 
 # Cache the template to avoid repeated string creation
 YOUTUBE_TEMPLATE = Template("""
-<iframe class='m-auto my-8' width="800" height="450" src="https://youtube.com/embed/$id" title="YouTube video
-player" frameborder="0" allow="accelerometer; autoplay;
-clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe>
+<div class="relative w-full aspect-video">
+    <iframe class='absolute top-0 left-0 w-full h-full' src="https://youtube.com/embed/$id" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+    </iframe>
+</div>
 """)
 
 
@@ -38,7 +41,7 @@ def swap_youtube(youtube: "Tag") -> str:
         iframe_html = render_youtube(youtube.attrs["href"])
         # Parse the iframe HTML to create a proper BeautifulSoup element
         iframe_soup = BeautifulSoup(iframe_html, "lxml")
-        return iframe_soup.iframe
+        return iframe_soup.div
     return str(youtube)
 
 
