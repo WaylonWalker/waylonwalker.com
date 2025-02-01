@@ -45,11 +45,3 @@ We get the following output with only the middle one working correctly.
     The inline version of `.cinematic` works, but `.aspect-[2.39/1]` does not,
     it turns into text after the image.  The block version with the class
     before the image applies to the paragraph, not the image.
-
-## I'm debugging something here
-
-{{ post.today }}
-
-{{ post.date }}
-
-{{ post.date  <= post.today }}
