@@ -14,6 +14,7 @@ This page is meant to be simple view into what is happening in my life right now
 
 Last update Sun Jan 12 09:08:07 PM CST 2025
 
+* Heavy Focus in on [[ markata ]], upcoming [[ markata-search ]] and [[ markata-didyoumean ]]
 * Moving from Arch to Bazzite, I'm fully here but making everything just that
   much smoother in a container based world.
 * kubernetes - trying to get better
@@ -25,4 +26,5 @@ Last update Sun Jan 12 09:08:07 PM CST 2025
   minimally touching the code and only instructing windsurf
 * mostly-one-shot-apps - I just built [[ nvim-manager ]] as a mostly
   one-shot-app (i.e. the app was nearly v1 out of the first prompt)
-* Family focus - [[ we-beat-trailmakers ]]
+* markata plugins with chatgpt project using rag - [[ analytics ]] - tag aggregator
+* Family focus - [[ we-beat-trailmakers ]] [[ a-night-of-rounds ]]
