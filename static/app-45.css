@@ -2474,6 +2474,32 @@ img, video {
      object-fit: cover;
 }
 
+.chat-left {
+  max-width: 36rem;
+  border-radius: 0.75rem;
+  border-right-width: 8px;
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 58 138 / var(--tw-bg-opacity));
+  padding: 1.5rem;
+  font-weight: 700;
+}
+
+.chat-right {
+  margin-left: auto;
+  margin-right: 0px;
+  max-width: 36rem;
+  border-radius: 0.75rem;
+  border-left-width: 8px;
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(20 83 45 / var(--tw-bg-opacity));
+  padding: 1.5rem;
+  font-weight: 700;
+}
+
 .cinematic {
   aspect-ratio: 2.39/1;
 }

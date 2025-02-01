@@ -38,6 +38,21 @@ img, video {
   @apply mx-auto;
   @apply shadow-2xl;
   @apply shadow-[0_0_45px_5px_rgba(219,39,119,.2)];
+  @apply object-cover;
+}
+
+.chat-left {
+  @apply bg-blue-900 border-r-8 border-black rounded-xl max-w-xl p-6 font-bold
+}
+.chat-right {
+  @apply bg-green-900 border-l-8 border-black rounded-xl max-w-xl p-6 ml-auto mr-0 font-bold
+}
+.cinematic {
+  @apply aspect-[2.39/1];
+}
+
+.more-cinematic {
+  @apply aspect-[4/1];
 }
 
 .inapage {
