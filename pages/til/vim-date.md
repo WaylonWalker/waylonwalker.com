@@ -34,3 +34,6 @@ Sat Feb  1 08:53:20 PM CST 2025
 This outputs the following
 
 2025-01-31
+
+What I like about the `:put =strftime(` method is that you can add a format,
+but that is a lot more for me to remember than `!!date`
