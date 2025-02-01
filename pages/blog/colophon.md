@@ -1,7 +1,7 @@
 ---
 date: 2025-01-02 10:21:23
 templateKey: blog-post
-title: colophon
+title: /colophon
 tags:
   - blog
   - meta

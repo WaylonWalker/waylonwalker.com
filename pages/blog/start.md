@@ -1,7 +1,7 @@
 ---
 date: 2025-01-03 10:49:47
 templateKey: blog-post
-title: start
+title: /start
 tags:
   - meta
   - slash
