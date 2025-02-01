@@ -1,7 +1,7 @@
 ---
 date: 2025-01-12 21:07:12
 templateKey: blog-post
-title: now
+title: /now
 tags:
   - slash
 published: True
@@ -12,7 +12,7 @@ This page is meant to be simple view into what is happening in my life right now
 
 ---
 
-Last update Sun Jan 12 09:08:07 PM CST 2025
+Last update Fri Jan 31 08:43:10 PM CST 2025
 
 * Heavy Focus in on [[ markata ]], upcoming [[ markata-search ]] and [[ markata-didyoumean ]]
 * Moving from Arch to Bazzite, I'm fully here but making everything just that
