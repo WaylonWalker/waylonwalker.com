@@ -92,3 +92,37 @@ Now within a [paragraph]{.text-pink-500} can we add [inline classes]{.text-pink-
 * lorem
 * ipsum
 * dolor
+
+## Classes on images
+
+Attrs does not like '/' characters in its classes, so to use some tailwind
+classes we must make new classes in our tailwind input css.
+
+``` css
+.cinematic {
+  @apply aspect-[2.39/1];
+}
+```
+
+Given the following markdown
+
+``` markdown
+![screenshot-2025-01-31T14-50-00-094Z.png](https://dropper.wayl.one/api/file/50cfa8dc-9d46-4f02-877b-688fa5510a83.png){.aspect-[2.39/1]}
+
+![screenshot-2025-01-31T14-50-00-094Z.png](https://dropper.wayl.one/api/file/50cfa8dc-9d46-4f02-877b-688fa5510a83.png){.cinematic}
+
+{.cinematic}
+![screenshot-2025-01-31T14-50-00-094Z.png](https://dropper.wayl.one/api/file/50cfa8dc-9d46-4f02-877b-688fa5510a83.png)
+```
+
+We get the following output.
+
+![screenshot-2025-01-31T14-50-00-094Z.png](https://dropper.wayl.one/api/file/50cfa8dc-9d46-4f02-877b-688fa5510a83.png){.aspect-[2.39/1]}
+
+![screenshot-2025-01-31T14-50-00-094Z.png](https://dropper.wayl.one/api/file/50cfa8dc-9d46-4f02-877b-688fa5510a83.png){.cinematic}
+
+{.cinematic}
+![screenshot-2025-01-31T14-50-00-094Z.png](https://dropper.wayl.one/api/file/50cfa8dc-9d46-4f02-877b-688fa5510a83.png)
+
+!!! Note
+    Both the block and inline version of `.cinematic` works, but `.aspect-[2.39/1]` does not, it turns into text after the image.
