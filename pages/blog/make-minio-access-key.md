@@ -15,6 +15,14 @@ than poking through the ui like I have before.
 
 ![screenshot-2025-02-03T02-13-38-628Z.png](https://dropper.wayl.one/api/file/2f706c5d-c591-4465-8d2b-eb18ce26aeca.png){.cinematic}
 
+## Global Level vs User Level
+
+The MinIO CLI has two levels of access, global and user level. Most of the
+commands in this post will have several ways to do similar tasks that would
+potentially work.  We are going to prefer to use the user level commands for
+more control.  For some commands such as listing Keys it is handy to use the
+global level.
+
 ## The Policy
 
 First we are going to make a new policy file named `mypages_rw_policy.json`.
@@ -163,6 +171,17 @@ User: MYPAGESUSER
     IL4*****************, expires: 3 weeks from now, sts: false
 ```
 
+You can also get a list of the service accounts for a user with this command.
+
+``` bash
+mc admin user svcacct ls myminio/ MYPAGESUSER
+```
+
+``` bash
+   Access Key        | Expiry
+IL4***************** | 2025-03-01 06:00:00 +0000 UTC
+````
+
 !!! Note
     You cannot see all of these keys from the web ui, the cli seems to be the
     only way to display all access keys, including access keys for other users.
@@ -226,3 +245,48 @@ Expiration: 2025-03-01 06:00:00 +0000 UTC
     * This is the secret key, do not share it with anyone.
     * This secret key will only be displayed once here, make sure you copy it
       to a secure location now.
+
+## Removing a service account
+
+If you want to remove a service account, you can use the `rm` command to remove
+the Access Key, by alias and Access Key.
+
+``` bash
+mc admin user svcacct rm myminio/ QH6*****************
+```
+
+## Getting info
+
+You can get the info for a user or service accounts using the `info`
+subcommands.
+
+``` bash
+⬢ [devtainer] ❯ mc admin user info minio-wayl-one/ MYPAGESUSER
+AccessKey: MYPAGESUSER
+Status: enabled
+PolicyName: mypages-readwrite
+MemberOf: []
+
+⬢ [devtainer] ❯ mc admin user svcacct ls minio-wayl-one/ MYPAGESUSER
+   Access Key        | Expiry
+KDM***************** | 2025-03-01 06:00:00 +0000 UTC
+IL4***************** | 2025-03-01 06:00:00 +0000 UTC
+
+⬢ [devtainer] ❯ mc admin user svcacct info myminio/ IL4*****************
+AccessKey: IL4*****************
+ParentUser: MYPAGESUSER
+Status: on
+Name: mypagesRWKey
+Description: MYPAGESUSER Key for myminio
+Policy: implied
+Expiration: 3 weeks from now
+
+⬢ [devtainer] ❯ mc admin user svcacct info myminio/ KDM*****************
+AccessKey: KDM*****************
+ParentUser: MYPAGESUSER
+Status: on
+Name: mypagesRWKey
+Description: MYPAGESUSER READ ONLY Key for myminio
+Policy: embedded
+Expiration: 3 weeks from now
+```
