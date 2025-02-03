@@ -4,6 +4,7 @@ templateKey: blog-post
 title: Make MinIO Access Key
 tags:
   - homelab
+  - minio
 published: True
 
 ---
@@ -94,9 +95,9 @@ mc config host add myminio https://minio.wayl.one $NEWUSERNAME $NEWPASSWORD
 
 # create a new access key for the user with thier permissions
 mc admin user svcacct add                       \
-minio-wayl-one MYPAGESUSER                     \
+myminio MYPAGESUSER                     \
 --name mypagesRWKey                       \
---description "MYPAGESUSER Key for minio-wayl-one" \
+--description "MYPAGESUSER Key for myminio" \
 --expiry 2025-03-01
 ```
 
@@ -107,6 +108,11 @@ Access Key: IL4*****************
 Secret Key: M3D*************************************
 Expiration: 2025-03-01 06:00:00 +0000 UTC
 ```
+
+!!! Attention
+    * This is the secret key, do not share it with anyone.
+    * This secret key will only be displayed once here, make sure you copy it
+      to a secure location now.
 
 ## Give it a test
 
@@ -132,3 +138,91 @@ aws s3 ls s3://mybucket
 
 !!! note
     I am using the aws cli to test, I installed it with pip.
+
+    ``` bash
+    pipx install awscli
+    ```
+
+## Managing Access Keys
+
+You can list all of the access keys for a user, or all users.
+
+``` bash
+# for one user
+mc admin accesskey ls myminio/ MYPAGESUSER
+
+# for all users
+mc admin accesskey ls myminio/ --all
+```
+
+The output will show you all of the access keys for each user.
+
+``` bash
+User: MYPAGESUSER
+  Access Keys:
+    IL4*****************, expires: 3 weeks from now, sts: false
+```
+
+!!! Note
+    You cannot see all of these keys from the web ui, the cli seems to be the
+    only way to display all access keys, including access keys for other users.
+
+## Creating an RO Access Key
+
+I ran into errors when trying to create a new key with exactly the same
+permissions as the user, I'm not sure if adding a policy that does not match
+the user is allowed or not.
+
+I made a new policy that has read only access to the bucket as `mypages_ro_policy.json`
+
+``` json
+{
+"Version": "2012-10-17",
+"Statement": [
+    {
+    "Action": [
+        "s3:GetBucketLocation",
+        "s3:ListBucket"
+    ],
+    "Effect": "Allow",
+    "Resource": [
+        "arn:aws:s3:::mypages"
+    ]
+    },
+    {
+    "Action": [
+        "s3:GetObject",
+        "s3:ListMultipartUploadParts"
+    ],
+    "Effect": "Allow",
+    "Resource": [
+        "arn:aws:s3:::mypages/*"
+    ]
+    }
+]
+}
+```
+
+This command will use the above policy to create a new read only access key.
+
+``` bash
+mc admin user svcacct add \
+  myminio MYPAGESUSER \
+  --name mypagesRWKey \
+  --description "MYPAGESUSER READ ONLY Key for myminio" \
+  --expiry 2025-03-01 \
+  --policy mypages_ro_policy.json
+```
+
+The output will show you the access key and secret key.
+
+``` bash
+Access Key: KDM*****************
+Secret Key: 8Ww*************************************
+Expiration: 2025-03-01 06:00:00 +0000 UTC
+```
+
+!!! Attention
+    * This is the secret key, do not share it with anyone.
+    * This secret key will only be displayed once here, make sure you copy it
+      to a secure location now.
