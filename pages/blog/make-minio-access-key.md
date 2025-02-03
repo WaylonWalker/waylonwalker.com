@@ -76,14 +76,36 @@ create the user, attach the policy to the user and add the user to the alias.
 ``` bash
 #!/bin/bash
 NEWUSERNAME=MYPAGESUSER
-NEWSECRETKEY=mysupersecretkey
-echo NEWSECRETKEY
-echo $NEWSECRETKEY
+NEWPASSWORD=mysupersecretkey
+echo USERNAME: $NEWUSERNAME
+echo PASSWORD: $NEWPASSWORD
 
+# create a new policy for read/write to the bucket
 mc admin policy create myminio mybucket-readwrite mypages_rw_policy.json
-mc admin user add myminio $NEWUSERNAME $NEWSECRETKEY
+
+# create a new user
+mc admin user add myminio $NEWUSERNAME $NEWPASSWORD
+
+# attach the policy to the user, giving them read/write to the bucket
 mc admin policy attach myminio mybucket-readwrite --user $NEWUSERNAME
-mc config host add myminio https://minio.wayl.one $NEWUSERNAME $NEWSECRETKEY
+
+# add the user to the alias
+mc config host add myminio https://minio.wayl.one $NEWUSERNAME $NEWPASSWORD
+
+# create a new access key for the user with thier permissions
+mc admin user svcacct add                       \
+minio-wayl-one MYPAGESUSER                     \
+--name mypagesRWKey                       \
+--description "MYPAGESUSER Key for minio-wayl-one" \
+--expiry 2025-03-01
+```
+
+``` bash
+NEWSECRETKEY
+3e11************************************************************
+Access Key: IL4*****************
+Secret Key: M3D*************************************
+Expiration: 2025-03-01 06:00:00 +0000 UTC
 ```
 
 ## Give it a test
@@ -94,8 +116,8 @@ bucket.
 ``` bash
 # set up to work with the aws cli
 export AWS_DEFAULT_REGION=us-east-1
-export AWS_ACCESS_KEY_ID=$NEWUSERNAME
-export AWS_SECRET_ACCESS_KEY=$NEWSECRETKEY
+export AWS_ACCESS_KEY_ID=IL4*****************
+export AWS_SECRET_ACCESS_KEY=M3D*************************************
 export AWS_ENDPOINT_URL=https://myminio.example.com
 
 # create a test file
