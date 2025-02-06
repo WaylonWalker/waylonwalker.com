@@ -8,13 +8,12 @@ tags:
   - markata
 ---
 
-![Astronauts stunting some stylish color explosion](https://stable-diffusion.waylonwalker.com/000172.2339173599.webp)
+![Astronauts stunting some stylish color explosion](https://stable-diffusion.waylonwalker.com/000172.2339173599.webp){.more-cinematic}
 
 A long needed feature of markata has been the ability to really configure out
 templates with configuration rather.  It's been long that you needed that if
 you really want to change the style, meta tags, or anything in the head you
 needed to write a plugin or eject out of the template and use your own.
-
 
 ## Adding some Head
 
@@ -70,7 +69,6 @@ If this does not take you far enough yet, you can still eject out and use your
 own template pretty easy.  If you are going for a full custom site it's likely
 that this will be the workflow for awhile.  Markata should only get better and
 make this required less often as it matures.
-
 
 ``` toml
 [markata]

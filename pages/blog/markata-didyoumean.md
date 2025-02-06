@@ -16,7 +16,7 @@ often go to look up the docs for a plugin and forget that the path is
 and try something like `feed` and get a 404.  So I added a  `didyoumean` plugin
 to markata that takes care of this.
 
-![screenshot-2025-01-31T14-53-31-264Z.png](https://dropper.wayl.one/api/file/9c1e92dd-4ea1-4b0f-80bc-e6c3414cf219.png)
+![screenshot-2025-01-31T14-53-31-264Z.png](https://dropper.wayl.one/api/file/9c1e92dd-4ea1-4b0f-80bc-e6c3414cf219.png){.more-cinematic}
 
 I made a quick recording of this early feature, pay close attention to the url
 as it automatically updates to the correct page.

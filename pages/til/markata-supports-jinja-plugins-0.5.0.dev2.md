@@ -12,7 +12,6 @@ tags:
 Markata now allows you to create jinja extensions that will be loaded right in
 with nothing more than a `pip install`.
 
-
 ## From the Changelog
 
 The entry for 0.5.0.dev2 from markata's [changelog](https://markata.dev/changelog/)
@@ -20,7 +19,7 @@ The entry for 0.5.0.dev2 from markata's [changelog](https://markata.dev/changelo
 * Created entrypoint hook allowing for users to extend marka with jinja
   exensions #60 0.5.0.dev2
 
-!["cybernetic soldier working on a rusting tape machine robot, cinematic lighting, detailed, cell shaded, 4 k, warm colours, concept art, by wlop, ilya kuvshinov, artgerm, krenz cushart, greg rutkowski, pixiv. cinematic dramatic atmosphere, sharp focus, volumetric lighting, cinematic lighting, studio quality" -s50 -W832 -H416 -C12.0 -Ak_lms -S1808537114](https://stable-diffusion.waylonwalker.com/000368.1808537114.webp)
+!["cybernetic soldier working on a rusting tape machine robot, cinematic lighting, detailed, cell shaded, 4 k, warm colours, concept art, by wlop, ilya kuvshinov, artgerm, krenz cushart, greg rutkowski, pixiv. cinematic dramatic atmosphere, sharp focus, volumetric lighting, cinematic lighting, studio quality" -s50 -W832 -H416 -C12.0 -Ak_lms -S1808537114](https://stable-diffusion.waylonwalker.com/000368.1808537114.webp){.more-cinematic}
 
 ## markata-gh
 
@@ -87,7 +86,6 @@ Then `markata-gh` exposes itself as an extension through entrypoints.
 
 If your project is using `pyproject.toml` for packaging you can setup an
 entrypoint as follows.
-
 
 ``` toml
 [project.entry-points."markata.jinja_md"]

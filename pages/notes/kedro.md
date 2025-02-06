@@ -7,13 +7,21 @@ published: true
 description: My Notes about using kedro
 
 ---
+
+See all of my kedro related posts in [[ kedro-feed ]].
+
 ## [#kedrotips](https://twitter.com/search?q=%23kedrotips&f=live)
 
-I am tweeting out most of these snippets as I add them, you can find them all here [#kedrotips](https://twitter.com/search?q=%23kedrotips).
+I am tweeting out most of these snippets as I add them, you can find them all
+here [#kedrotips](https://twitter.com/search?q=%23kedrotips).
 
 ## 🗣 Heads up
 
-Below are some quick snippets/notes for when using kedro to build data pipelines. So far I am just compiling snippets. Eventually I will create several posts on kedro. These are mostly things that I use In my everyday with kedro. Some are a bit more essoteric. Some are helpful when writing production code, some are useful more usefule for exploration.
+Below are some quick snippets/notes for when using kedro to build data
+pipelines. So far I am just compiling snippets. Eventually I will create
+several posts on kedro. These are mostly things that I use In my everyday with
+kedro. Some are a bit more essoteric. Some are helpful when writing production
+code, some are useful more usefule for exploration.
 
 ## 📚 Catalog
 

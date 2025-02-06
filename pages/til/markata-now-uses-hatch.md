@@ -12,7 +12,7 @@ tags:
 Markata now uses hatch as its build backend, and version bumping tool.
 `setup.py`, and `setup.cfg` are completely gone.
 
-!["An astronaut working in a lab, there is a series of eggs ready to hatch baby snakes on the table, experiments running, beakers, test tubes, cyberpunk trending on artstation, neon lighting, volumetric lighting, pink lighting" -s50 -W800 -H450 -C7.5 -Ak_lms -S4048189038](https://stable-diffusion.waylonwalker.com/000136.4048189038.webp)
+!["An astronaut working in a lab, there is a series of eggs ready to hatch baby snakes on the table, experiments running, beakers, test tubes, cyberpunk trending on artstation, neon lighting, volumetric lighting, pink lighting" -s50 -W800 -H450 -C7.5 -Ak_lms -S4048189038](https://stable-diffusion.waylonwalker.com/000136.4048189038.webp){.more-cinematic}
 
 ## 0.5.0 is big
 
@@ -77,6 +77,7 @@ test-lint = "lint-test"
 ```
 
 ## Typical branching workflow
+
 _with automatic versioning_
 
 My typical workflow is to work on features in their own branch where they do
@@ -128,6 +129,6 @@ env:
 
 If you want to see all of the details on how markata moved over to hatch, you can check out this diff.
 
-https://github.com/WaylonWalker/markata/compare/v0.4.0..v0.5.0.dev0
+<https://github.com/WaylonWalker/markata/compare/v0.4.0..v0.5.0.dev0>
 
 !["An astronaut working in a lab, hacking on a computer terminal, htop is running, shallow depth of field beakers, test tubes, volumetric lighting, pink lighting, by victo ngai, killian eng vibrant colours, dynamic lighting, digital art" -s50 -W768 -H448 -C7.5 -Ak_lms -U 4.0 0.6 -S2409791448 ](https://stable-diffusion.waylonwalker.com/000224.2409791448.webp)
