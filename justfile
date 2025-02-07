@@ -21,9 +21,9 @@ build:
 serve:
     python -m http.server -b 0.0.0.0 8005 -d markout
 tailwind:
-    npx tailwindcss --input tailwind/app.css --output static/app-{{version}}.css --watch
+    tailwindcss --input tailwind/app.css --output static/app-{{version}}.css --watch
 tailwind-dev:
-    npx tailwindcss --input tailwind/app.css --output markout/app-{{version}}.css --watch
+    tailwindcss --input tailwind/app.css --output markout/app-{{version}}.css --watch
 sync:
     aws --endpoint-url https://minio.wayl.one s3 sync . s3://waylonwalker.com \
         --exclude "*.venv/**/*" \
@@ -101,3 +101,52 @@ stars-noa:
 
 compile:
   uv pip compile requirements.in -o requirements.txt
+
+delete-release:
+    #!/usr/bin/env bash
+    set -euo pipefail
+
+    # Get the version
+    VERSION=$(cat version)
+
+    # Delete the release
+    gh release delete "v$VERSION"
+
+create-tag:
+    #!/usr/bin/env bash
+    VERSION=$(cat version)
+    git tag -a "v$VERSION" -m "Release v$VERSION"
+    git push origin "v$VERSION"
+
+create-release: create-tag
+    #!/usr/bin/env bash
+    VERSION=$(cat version)
+    git add version
+    git add requirements.in
+    git add requirements.txt
+    git add tailwind/app.css
+    git add static/app-{{version}}.css
+    ./scripts/get_release_notes.py "$VERSION" > release_notes.tmp
+    gh release create "v$VERSION" \
+        --title "v$VERSION" \
+        --notes-file release_notes.tmp \
+    rm release_notes.tmp
+
+
+release:
+   #!/bin/bash
+   tailwindcss --input tailwind/app.css --output static/app-{{version}}.css
+   git add version
+   git add requirements.in
+   git add requirements.txt
+   git add tailwind/app.css
+   git add static/app-{{version}}.css
+   git commit -m "Release v$(cat version)"
+   git tag -a "v$(cat version)" -m "Release v$(cat version)"
+    ./scripts/get_release_notes.py "$VERSION" > release_notes.tmp
+    gh release create "v$VERSION" \
+        --title "v$VERSION" \
+        --notes-file release_notes.tmp \
+    rm release_notes.tmp
+   git push
+   git push --tags
