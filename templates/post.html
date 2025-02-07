@@ -1,18 +1,24 @@
 {% extends "base.html" %}
 {% block content %}
     {% include "nav.html" %}
-    <div>
-        <article class="blog-post h-entry">
-            {% include 'post-title.html' %}
-            {% include 'tags.html' %}
-            <div class="e-content" id="post-body" {{ 'data-pagefind-body' if post in markata.feeds.pagefind.posts else '' }}>
-                {{ body }}
-            </div>
-        </article>
+    <!-- <div class='grid grid-cols-l mx-0 sm:mx-4 gap-4 xl:grid-cols-5 2xl:grid-cols-6'> -->
+    <div class=''>
+        <div id='didyoumean-search-wrapper' class='max-w-xl mx-auto my-4'>
+            {% include 'didyoumean_partial.html' %}
+        </div>
+        <div class='col-span-1 xl:col-span-4'>
+            <article class="blog-post h-entry">
+                {% include 'post-title.html' %}
+                {% include 'tags.html' %}
+                <div class="e-content" id="post-body" {{ 'data-pagefind-body' if post in markata.feeds.pagefind.posts else '' }}>
+                    {{ body }}
+                </div>
+            </article>
 
-        <article>
-            {% include 'recent.html' %}
-        </article>
+            <article>
+                {% include 'recent.html' %}
+            </article>
+        </div>
     </div>
     {% include 'footer.html' %}
 {% endblock %}
