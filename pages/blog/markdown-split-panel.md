@@ -17,6 +17,7 @@ admonitions.
 
 ![screenshot-2025-02-04T02-28-46-750Z.png](https://dropper.wayl.one/api/file/e3d40c22-643d-433c-8eb4-c3ddf91d0527.png){.more-cinematic}
 
+{.rounded-xl }
 !!! Note Mobile Users 🔄
 
     You will need to rotate your device to see the side by side feature.
@@ -83,9 +84,7 @@ Here is the result of that markdown.
         Here is a hello world application written in the typer cli framework
         for cli.
 
-
     !!! vsplit ""
-
         ``` python
         #!/usr/bin/env -S uv run --quiet --script
         # ///

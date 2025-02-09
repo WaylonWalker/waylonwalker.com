@@ -1,0 +1,86 @@
+#posts {
+  @apply overflow-x-hidden;
+  @apply p-4 lg:p-8;
+}
+
+#posts ul {
+  @apply backdrop-blur-xs;
+  @apply flex flex-col sm:grid grid-flow-row-dense;
+  @apply gap-4 lg:gap-8;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+}
+
+#posts a {
+  @apply no-underline;
+}
+
+#posts .post {
+  @apply list-none;
+  @apply m-0;
+}
+#posts .post > a {
+  @apply flex flex-col min-h-full;
+}
+
+#posts .post h2 {
+  @apply text-white/70 group-hover:text-white;
+}
+
+#posts .card-footer {
+  @apply mt-auto justify-self-end;
+  @apply flex flex-row justify-between;
+  @apply text-white/80 group-hover:text-white;
+  @apply p-4;
+}
+
+#posts .thoughts p {
+  @apply text-lg;
+}
+
+#posts .blog-post h2 {
+  @apply text-6xl font-black;
+}
+
+#posts .post.til h2 {
+  @apply text-3xl text-white/90;
+}
+
+#posts .post.thoughts h2 {
+  @apply text-sm;
+}
+
+#posts ul {
+  @apply m-0 p-0;
+}
+
+#posts .thoughts {
+  /* @apply bg-blue-800/10; */
+  /* @apply m-4; */
+  @apply rounded-sm;
+
+  -webkit-box-shadow: 0px 0px 20px 5px rgba(255, 0, 255, 0.1);
+  -moz-box-shadow: 0px 0px 20px 5px rgba(255, 0, 255, 0.1);
+  box-shadow: 0px 0px 5px 1px #00f3ff24;
+}
+
+#posts .til {
+  @apply col-span-2 row-span-2;
+  @apply ring-2 ring-pink-500/50;
+  -webkit-box-shadow: 0px 0px 20px 5px rgba(255, 0, 255, 0.1);
+  -moz-box-shadow: 0px 0px 20px 5px rgba(255, 0, 255, 0.1);
+  box-shadow: 0px 0px 20px 5px rgba(255, 0, 255, 0.1);
+  /* @apply bg-pink-900; */
+
+  @apply rounded-sm;
+}
+
+#posts .blog-post {
+  @apply mx-0 max-w-full;
+  @apply ring-4 ring-zinc-200;
+  -webkit-box-shadow: 0px 0px 20px 5px rgba(255, 255, 255, 0.1);
+  -moz-box-shadow: 0px 0px 20px 5px rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 0px 20px 5px rgba(255, 255, 255, 0.1);
+  /* @apply bg-green-500; */
+  @apply rounded-sm;
+  @apply col-span-full row-span-2;
+}

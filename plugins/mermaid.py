@@ -49,7 +49,7 @@ from typing import TYPE_CHECKING
 if TYPE_CHECKING:
     from markata import Markata
 
-MERMAID_BLOCK_RE = re.compile(r"```mermaid\n(.*?)\n```", re.DOTALL)
+MERMAID_BLOCK_RE = re.compile(r"```[\s]*mermaid\n(.*?)\n```", re.DOTALL)
 
 
 @hook_impl

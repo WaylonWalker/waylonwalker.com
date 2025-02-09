@@ -1,3 +1,13 @@
+.highlight pre {
+  @apply p-0;
+  @apply m-0;
+  @apply rounded-none;
+}
+
+.highlight {
+  @apply overflow-x-auto;
+}
+
 .highlight {
   min-height: 75px;
   /* background: #1f2022; */

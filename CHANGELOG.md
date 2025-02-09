@@ -1,3 +1,9 @@
+## 47
+
+- upgrade from tailwind v 3.3.5 to tailwind v4.0.4
+- upgrade from markata 0.9.1.dev3 to markata 0.9.1.dev5
+- mermaid plugin support for ``` mermaid with a space between the fence and name
+
 ## 46
 
 version 46 comes with many new features for markdown posts.

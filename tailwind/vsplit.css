@@ -1,0 +1,58 @@
+#post-body > .vsplit {
+  @apply col-span-full;
+  @apply grid grid-cols-1 md:grid-cols-2;
+  @apply gap-0;
+  @apply justify-center;
+  @apply mx-0 px-0;
+  @apply col-start-1;
+  @apply col-end-5;
+}
+
+#post-body > .vsplit .admonition-title {
+  @apply mx-4;
+  @apply col-span-full;
+}
+
+#post-body > .vsplit .vsplit {
+  @apply mx-0 px-0;
+  @apply my-4;
+  @apply col-start-auto;
+  @apply border-y-2;
+  @apply border-zinc-600;
+  @apply grid;
+  grid-auto-rows: min-content;
+  align-content: start;
+
+  grid-template-columns: .5rem 1fr 1fr .5rem;
+}
+
+#post-body > .vsplit .vsplit > * {
+  @apply col-start-2;
+  @apply col-end-4;
+}
+
+#post-body > .vsplit .vsplit pre {
+  @apply my-0;
+  @apply h-full;
+  @apply col-start-auto;
+  @apply col-end-auto;
+}
+
+#post-body >.vsplit > div.vsplit:first-of-type {
+  @apply border-l-0 md:border-r-2;
+  @apply mb-0 md:mb-4;
+}
+
+#post-body >.vsplit > div.vsplit:last-of-type {
+  @apply mt-0 md:mt-4;
+  @apply border-t-0 md:border-t-2;
+}
+.vsplit > div.vsplit:not(:first-of-type):not(:last-of-type) {
+  /* Styles for all inner .vsplit elements except the first and the last */
+  @apply border-t-0 md:border-t-2;
+  @apply my-0 md:my-4;
+}
+
+.clean  * {
+  @apply border-0!;
+}
