@@ -8,6 +8,10 @@ published: True
 
 ---
 
+Wyatt is also documenting his run, while we aren't playing in the same world we
+are playing together.
+
+<https://wyattbubbylee.com/dst-forever-world/>
 
 ## Loading into the world
 
