@@ -69,3 +69,19 @@ low heath at the end of this play session.
 ![image](https://dropper.wayl.one/api/file/805aadc7-9dff-44ee-8640-8f8ec1d21de8.webp)
 
 > Here is the clockwork bishop stats from the [wiki](https://dontstarve.fandom.com/wiki/Clockwork_Bishop)
+
+## Session Two
+
+I awoken the [TreeGuard](https://dontstarve.fandom.com/wiki/Treeguard)
+
+![dst-2-1.mp4](/api/file/24fa3268-04a5-4c23-b62c-c60bfdad0084.mp4)
+
+![image](https://dropper.wayl.one/api/file/61712606-6aeb-43b1-bea0-5f879d52345b.webp)
+
+![dst-2-2.mp4](/api/file/f12b162b-c1be-431d-91ae-a8559490befe.mp4)
+
+![dst-2-4.mp4](/api/file/510c8290-01b1-4350-b668-ac8ca53cf6c1.mp4)
+
+![dst-2-3.mp4](/api/file/9c8b4b37-beb4-41e3-b264-388811eb8f62.mp4)
+
+![dst-2-5.mp4](/api/file/33c62075-535f-47c9-847e-3f0b0a05ec10.mp4)
