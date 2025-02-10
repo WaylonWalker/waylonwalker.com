@@ -76,7 +76,7 @@ I awoken the [TreeGuard](https://dontstarve.fandom.com/wiki/Treeguard)
 
 ![dst-2-1.mp4](https://dropper.wayl.one/api/file/24fa3268-04a5-4c23-b62c-c60bfdad0084.mp4)
 
-![image](https://dropper.wayl.onehttps://dropper.wayl.one/api/file/61712606-6aeb-43b1-bea0-5f879d52345b.webp)
+![image](https://dropper.wayl.one/api/file/61712606-6aeb-43b1-bea0-5f879d52345b.webp)
 
 ![dst-2-2.mp4](https://dropper.wayl.one/api/file/f12b162b-c1be-431d-91ae-a8559490befe.mp4)
 
