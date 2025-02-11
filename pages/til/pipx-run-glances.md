@@ -12,7 +12,6 @@ the box it's quite similar to htop, but has quite a few more features, and can
 be ran without installing anything other than `pipx`, which you should already
 have installed if you do anything with python.
 
-
 ``` bash
 pipx run glances
 ```
@@ -25,7 +24,7 @@ and up and down to select different processes.
 
 ## Links
 
-* [pipx](https://pypa.github.io/pipx/)
+* [pipx](https://pipx.pypa.io/stable/)
 * [website](https://nicolargo.github.io/glances/)
 * [docs](https://glances.readthedocs.io/en/latest/index.html)
 * [github](https://github.com/nicolargo/glances)

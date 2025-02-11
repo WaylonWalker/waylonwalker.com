@@ -39,11 +39,10 @@ containers.
 
 ![running glances with docker installed will show your docker processes](https://images.waylonwalker.com/glances-docker.png)
 
-
 ## Links
 
 * [glances docker](https://glances.readthedocs.io/en/catest/docker.html)
-* [pipx](https://pypa.github.io/pipx/)
+* [pipx](https://pipx.pypa.io/stable/)
 * [website](https://nicolargo.github.io/glances/)
 * [docs](https://glances.readthedocs.io/en/latest/index.html)
 * [github](https://github.com/nicolargo/glances)
