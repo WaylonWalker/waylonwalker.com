@@ -82,8 +82,6 @@ thoughts at
         post["jinja"] = False
         post["published"] = True
         post["tags"] = [tag.strip() for tag in post["tags"].split(",")]
-        if post["id"] == 227:
-            breakpoint()
 
     thoughts = markata.Posts.parse_obj(
         {"posts": posts},
