@@ -69,7 +69,8 @@ and it appeared that lazy was running before the error.
 
 Once I really thought about <package> not installed, it clicked.  It must be
 the order of operations. I popped open my `init.lua` and there it was, lazy
-running after things that use treesitter.  A little ++d dkkkkkp++ and it was fixed
+running after things that use treesitter.  A little ++d+d+k+k+k+k+k+p++ and it
+was fixed. running `just testnvim` the next time there was no flashbang!
 
 ``` diff
   local M = {}
