@@ -1,9 +1,20 @@
-from markata.hookspec import hook_impl
+from markata.hookspec import hook_impl, register_attr
+from pydantic import BaseModel
 import re
-from typing import TYPE_CHECKING
+from typing import Optional, TYPE_CHECKING
 
 if TYPE_CHECKING:
     from markata import Markata
+
+
+class LinkPost(BaseModel):
+    link: Optional[str] = None
+
+
+@hook_impl()
+@register_attr("post_models")
+def post_model(markata: "Markata") -> None:
+    markata.post_models.append(LinkPost)
 
 
 def clean_title(title: str) -> str:
@@ -45,7 +56,8 @@ def load(markata: "Markata") -> None:
         post["templateKey"] = "thoughts"
         post["markata"] = markata
         post["description"] = clean_description(post["message"][:120])
-        # post["link"] = quote_plus(post["link"])
+        if post["link"] is None or post["link"] == "None":
+            post["link"] = "https://waylonwalker.com/" + post["slug"] + "/"
         post["content"] = f"""
 [![{ post["title"] }](https://shots.wayl.one/shot/?url={ post["link"] }&height=450&width=800&scaled_width=800&scaled_height=450&selectors=)]({ post["link"] })
 
@@ -70,6 +82,8 @@ thoughts at
         post["jinja"] = False
         post["published"] = True
         post["tags"] = [tag.strip() for tag in post["tags"].split(",")]
+        if post["id"] == 227:
+            breakpoint()
 
     thoughts = markata.Posts.parse_obj(
         {"posts": posts},
