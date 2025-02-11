@@ -59,7 +59,14 @@ def load(markata: "Markata") -> None:
         if post["link"] is None or post["link"] == "None":
             post["link"] = "https://waylonwalker.com/" + post["slug"] + "/"
         post["content"] = f"""
-[![{ post["title"] }](https://shots.wayl.one/shot/?url={ post["link"] }&height=450&width=800&scaled_width=800&scaled_height=450&selectors=)]({ post["link"] })
+<a href="{ post["link"] }">
+    <img
+        src="https://shots.wayl.one/shot/?url={ post["link"] }&height=450&width=800&scaled_width=800&scaled_height=450&selectors=""
+        alt="shot of post - { post["title"] }"
+        height=450
+        width=800
+    >
+</a>
 
 Here's my thought on <a href="{post["link"]}">{post["title"]}</a>
 
