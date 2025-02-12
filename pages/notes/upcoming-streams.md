@@ -11,6 +11,11 @@ date: 2021-06-08T20:27:53
 published: false
 ---
 
+
+!!! Caution  I'm no longer streaming
+    As much as I would really love to make streaming work, its really hard for
+    my family situation to make large blocks of time work for me.
+
 [https://stackoverflow.com/questions/16720541/python-string-replace-regular-expression](https://stackoverflow.com/questions/16720541/python-string-replace-regular-expression){.hoverlink}
 
 I am starting to stream 3 days per week, before I start work in the morning.
@@ -37,8 +42,8 @@ site generator that I built for it, Markata.
 ### Features
 
 - DONE ~one_line_gif~
-- DONE automate mp4's - <https://ahrefs.com/site-audit/2096186/66/data-explorer?columns=pageRating%2Curl%2ChttpCode%2CcontentType%2Csize%2CloadingTime%2CincomingImage&filterCollapsed=true&filterId=47a66a23cd538da9d08ea5e2c4f7c812&issueId=c64d8113-d0f4-11e7-8ed1-001e67ed4656&sorting=-size&udUrl=https%3A%2F%2Fimages.waylonwalker.com%2Ftqdm2.gif>
-- Fix big images - <https://ahrefs.com/site-audit/2096186/66/data-explorer?columns=pageRating%2Curl%2ChttpCode%2CcontentType%2Csize%2CloadingTime%2CincomingImage&filterCollapsed=true&filterId=47a66a23cd538da9d08ea5e2c4f7c812&issueId=c64d8113-d0f4-11e7-8ed1-001e67ed4656&sorting=-size>
+- DONE automate mp4's
+- Fix big images
 - Fix Amp issues
 - speed up build times
 - measure plugin performance
