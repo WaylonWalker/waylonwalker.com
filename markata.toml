@@ -2504,6 +2504,13 @@ reverse = true
 description = "Posts about payment"
 
 [[markata.feeds]]
+slug = "steamdeck"
+filter = "date<=today and 'steamdeck' in str(tags).lower() and published"
+sort = "date"
+reverse = true
+description = "Posts about steamdeck"
+
+[[markata.feeds]]
 slug = "github-stars"
 filter = "date<=today and 'github-stars' in str(tags).lower() and published"
 sort = "date"
