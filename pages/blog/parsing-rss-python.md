@@ -140,8 +140,8 @@ vanilla datatypes sometimes.
 ## Trying to step up your python game
 
 While trying to step up your skills you will need lots of practice.  Its good
-to have several options to try out ideas quickly.  I often use replit.com,
-check out this post to see how I use it.
+to have several options to try out ideas quickly.  I often use
+<https://replit.com>, check out this post to see how I use it.
 
 [[ practice-python-online ]]
 
