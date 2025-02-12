@@ -16,7 +16,7 @@ This morning I logged into my machine and was nearly out of space
 
 ## Find it
 
-![screenshot-2025-02-12T22-32-14-298Z.png](/api/file/1214e7fb-6806-44cf-8712-c98685fb2e1d.png){.more-cinematic}
+![screenshot-2025-02-12T22-32-14-298Z.png](https://dropper.wayl.one/api/file/1214e7fb-6806-44cf-8712-c98685fb2e1d.png){.more-cinematic}
 
 These are the commands that I often use to reclaim space.  Its so easy to fill
 up small vm's in the cloud, or in my case today let your dev machine go way too
@@ -98,7 +98,7 @@ install a lot of new environments.
 
 ## Docker
 
-![screenshot-2025-02-12T22-33-29-874Z.png](/api/file/005e33d7-69dd-4cb9-8e3f-9c6e4511b410.png){.more-cinematic}
+![screenshot-2025-02-12T22-35-00-679Z.png](https://dropper.wayl.one/api/file/1c81ce90-4f54-4267-8bb4-88e708131803.png){.more-cinematic}
 
 For more information read this article,
 [https://docs.docker.com/config/pruning/](https://docs.docker.com/config/pruning/
