@@ -39,11 +39,9 @@ the go. I use [forestry.io](https://forestry.io) to do this for the most part.
 It gives me an image uploader, and a markdown editor to edit this blog right
 from my phone.
 
-
-![forestry editor](https://images.waylonwalker.com/2019-05-09 10-40-11_forestry.io.png)
+![forestry editor](https://dropper.wayl.one/api/file/0555114b-1c25-41c4-803b-43d0a528e3cc.png)
 
 > My Blog on forestry.io
-
 
 ## What do they output
 
