@@ -139,4 +139,6 @@ I tweet out most of those snippets as I add them, you can find them all here [#k
 
 ## More to come
 
-I am planning to do more articles like this, you can stay up to date with them by following me on [dev.to](https://dev.to/waylonwalker), subscribing to my [rss feed](https://waylonwalker.com/rss.xml), or subscribe to my [newsletter](https://emailoctopus.com/lists/b194a4af-9875-11ea-a3d0-06b4694bee2a/forms/subscribe)
+I am planning to do more articles like this, you can stay up to date with them
+by following me on [dev.to](https://dev.to/waylonwalker), subscribing to my
+[rss feed](https://waylonwalker.com/rss.xml).
