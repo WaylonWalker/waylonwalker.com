@@ -39,13 +39,22 @@ You can see on the website the whole dang set of tags was being treated as a sin
 
 ## Broken images
 
-![screenshot-2025-01-15T17-31-20-430Z.png](/api/file/b3a1e8de-9344-40b4-8020-9e75a59b5dd9.png)
+I'm not fully sure what happened to all of these gifs in my old host and why
+they didn't show up, but I moved them all and they are solid now.
+
+![screenshot-2025-01-15T17-31-20-430Z.png](https://dropper.wayl.one/api/file/b3a1e8de-9344-40b4-8020-9e75a59b5dd9.png)
 
 ## I burned all of my January Credits
 
- v
+So I had an issue with my self hosted shots not making them fast enough for
+ahrefs, and essentially ddosing myself on one of their runs.  The long wait
+times for images burnt all of my credits.
+
+Here was the next successful run with a HUGE improvement in overall score.
 
 ![image](https://dropper.wayl.one/api/file/cfed3e97-8dd4-4381-b38f-5dc6f40e7fad.webp)
+
+The trend for errors is looking quite good.
 
 ![image](https://dropper.wayl.one/api/file/1ffbd8f7-1f81-40b9-b110-1b0f03bdd56f.webp)
 
@@ -61,4 +70,13 @@ never had a file extension and Pathlib was throwing isADirecotryError because
 the path was already a directory for the index.html, adding a .md to the path
 for the thoughts plugin fixed it.
 
-<https://github.com/WaylonWalker/waylonwalker.com/commit/e0bbc777efd5d0309a107b0d3e7355b2426e8c47>
+I made this fix in commit
+[e0bbc](https://github.com/WaylonWalker/waylonwalker.com/commit/e0bbc777efd5d0309a107b0d3e7355b2426e8c47)
+on my site repo.
+
+## Broken links to tags
+
+I wrote a cli plugin to automatically generate feeds for my tags, but I have
+not ran it in awhile so I had a number of posts trying to link tags to feeds
+that did not exist.  I fixed this in commit
+[5d2e22](<https://github.com/WaylonWalker/waylonwalker.com/commit/5d2e227a03acb1104e4214507872c61ae2a47d64>].
