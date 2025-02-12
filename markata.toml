@@ -33,7 +33,7 @@ hooks = [
     "plugins.tag_aggregator",
     # "plugins.generate_feed_conf",
     # 'plugins.server',
-    # "markata.plugins.publish_source",
+    "markata.plugins.publish_source",
     # "markata.plugins.publish_dev_to_source",
     # "markata.plugins.prevnext",
     # "plugins.render_template_variables",

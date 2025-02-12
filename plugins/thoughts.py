@@ -51,7 +51,7 @@ def load(markata: "Markata") -> None:
         cleaned_title = clean_title(post["title"])
         post["markata"] = markata
         post["title"] = "💭 " + cleaned_title.lstrip("💭 ")
-        post["path"] = f"thoughts-{post['id']}"
+        post["path"] = f"thoughts-{post['id']}.md"
         post["slug"] = f"thoughts-{post['id']}"
         post["templateKey"] = "thoughts"
         post["markata"] = markata
