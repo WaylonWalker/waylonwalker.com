@@ -7,12 +7,12 @@ published: false
 
 ---
 
-https://www.hanselminutes.com/784/doing-open-source-with-brian-douglas
+<https://www.hanselminutes.com/784/doing-open-source-with-brian-douglas>
 
 ## Play With Docker
 
 A handy way to try weird things in docker is using
-[play-with-docker](play-with-docker.com).  You get a four hour session for
+[play-with-docker](https://play-with-docker.com).  You get a four hour session for
 free, after four hours everything will be deleted, but you can start a new
 session.
 
@@ -29,22 +29,19 @@ wget -qO- https://get.docker.com/ | sh
 In order to run docker commands without using sudo you need to add docker to
 your group.
 
-
 ``` bash
 sudo usermod -aG docker ubuntu
 ```
 
 ## Architecture and Theory
 
-
 **Container** - Isolated area of an OS with resource usage limits applied.
 
 Namespaces and Control Groups are hard, which is why containers were unusable
 by mortals before docker.
 
-
-
 ## Namespaces
+
 _Isolation_
 
 Each container looks and feels like a regular OS. It has its own eth0, users,
@@ -60,5 +57,6 @@ Namespaces are analogous to what Hypervisors do on hardware.
 * UTS (uts)
 * User (usr)
 
-##  Control Groups
+## Control Groups
+
 _Resource usage limits_
