@@ -2555,3 +2555,54 @@ filter = "'plugin-report' in str(tags).lower()"
 sort = "date"
 reverse = true
 description = "Markata build plugin reports"
+
+# ---- GENERATED TAGS ----
+
+[[markata.feeds]]
+slug = "ahrefs"
+filter = "date<=today and 'ahrefs' in tags.lower() and published"
+sort = "date"
+reverse = true
+description = "Posts about ahrefs"
+
+[[markata.feeds]]
+slug = "minio"
+filter = "date<=today and 'minio' in tags.lower() and published"
+sort = "date"
+reverse = true
+description = "Posts about minio"
+
+[[markata.feeds]]
+slug = "starship"
+filter = "date<=today and 'starship' in tags.lower() and published"
+sort = "date"
+reverse = true
+description = "Posts about starship"
+
+[[markata.feeds]]
+slug = "data-viz"
+filter = "date<=today and 'data-viz' in tags.lower() and published"
+sort = "date"
+reverse = true
+description = "Posts about data-viz"
+
+[[markata.feeds]]
+slug = "seaborn"
+filter = "date<=today and 'seaborn' in tags.lower() and published"
+sort = "date"
+reverse = true
+description = "Posts about seaborn"
+
+[[markata.feeds]]
+slug = "font"
+filter = "date<=today and 'font' in tags.lower() and published"
+sort = "date"
+reverse = true
+description = "Posts about font"
+
+[[markata.feeds]]
+slug = "nerdfont"
+filter = "date<=today and 'nerdfont' in tags.lower() and published"
+sort = "date"
+reverse = true
+description = "Posts about nerdfont"
