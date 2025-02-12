@@ -37,7 +37,7 @@ journey as I learn, lets talk tech.
 * htmx
 * sqlite
 * docker
-* fly.io
+* <https://fly.io>
 
 ### fastapi
 
@@ -67,10 +67,10 @@ community, and stack overflow posts that sqlalchemy has.
 Docker is my go to way for containerizing web applications.  I know it really
 well and makes it easy to build and deploy on a number of platforms.
 
-### fly.io
+### <https://fly.io>
 
-I have this running on fly.io.  Its my first real production application
-running on fly.io, and its been great for me.  It runs my container for me,
+I have this running on <https://fly.io>.  Its my first real production application
+running on <https://fly.io>, and its been great for me.  It runs my container for me,
 gives me tools to scale, and ssh right into the running container.  It's still
 free for the time being, but goes up quick for my cheap taste if I were to
 scale it up much.
