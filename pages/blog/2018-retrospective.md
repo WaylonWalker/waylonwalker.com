@@ -118,7 +118,7 @@ _4 official courses completed_
 
 * d3 in 5 days
 * flexbox zombies
-* cssgrid.io
+* <https://cssgrid.io>
 * datacamp sql
 * linux command line (many blogs/youtube... not a course)
 
@@ -170,7 +170,5 @@ get started next year.  Having the past few weeks off has really given me time
 for a reset that I didn't realize I needed.  Looking at these goals reminds me
 of the things that had started slipping towards the end during that last hard
 push to the end.
-
-
 
 🎉🎉 Hapy New Year 🎉🎉
