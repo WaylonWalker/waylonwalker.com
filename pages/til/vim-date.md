@@ -1,5 +1,6 @@
 ---
-date: 2025-01-31 20:43:29
+dateCreated: 2025-01-31 20:43:29
+date: 2025-02-12 12:51
 templateKey: til
 title: vim date
 published: true
@@ -37,3 +38,19 @@ This outputs the following
 
 What I like about the `:put =strftime(` method is that you can add a format,
 but that is a lot more for me to remember than `!!date`
+
+## A few weeks later
+
+I'm going through a bunch of blog posts and dont want my date formats to change
+to the Wed Feb format so I broke down and made these keybindings.  I think I'm
+still going to be using `.!date` a lot, but these keybindings will be nice for
+editing blog post frontmatter.
+
+``` lua
+set("n", "<leader>dd", "<cmd>put =strftime('%Y-%m-%d')<cr>", { noremap = true, silent = true })
+set("n", "<leader>dt", "<cmd>put =strftime('%Y-%m-%d %H:%M:%S')<cr>", { noremap = true, silent = true })
+```
+
+* <leader>dd 2025-02-12
+* <leader>dt 2025-02-12 12:53:47
+* :.!date    Wed Feb 12 12:53:47 PM CST 2025
