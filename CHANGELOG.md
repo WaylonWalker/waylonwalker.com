@@ -1,3 +1,8 @@
+## 49
+
+- upgrade from markata 0.9.1.dev6 to markata 0.9.1.dev7
+- 47 was missing og properties
+
 ## 48
 
 - upgrade from markata 0.9.1.dev5 to markata 0.9.1.dev6

@@ -100,7 +100,7 @@ stars-noa:
   ./scripts/stars.py waylonwalker
 
 compile:
-  uv pip compile requirements.in -o requirements.txt
+  uv pip compile requirements.in -o requirements.txt --refresh
 
 delete-release:
     #!/usr/bin/env bash
