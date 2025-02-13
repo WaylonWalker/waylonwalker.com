@@ -31,7 +31,7 @@ hooks = [
     # "plugins.boosted_link",
     "plugins.permalink_aria",
     "plugins.tag_aggregator",
-    # "plugins.generate_feed_conf",
+    "plugins.generate_feed_conf",
     # 'plugins.server',
     "markata.plugins.publish_source",
     # "markata.plugins.publish_dev_to_source",
@@ -69,6 +69,7 @@ disabled_hooks = [
 ]
 
 
+
 ## Site Config
 url = "https://waylonwalker.com"
 covers_url = "https://covers.waylonwalker.com"
@@ -79,7 +80,6 @@ author_name = "Waylon Walker"
 author_email = "waylon@waylonwalaker.com"
 icon = "8bitcc.png"
 lang = "en"
-post_template = "post.html"
 theme_color = "#322D39"
 background_color = "#B73CF6"
 start_url = "/"
@@ -100,6 +100,12 @@ precache_urls = [
     "one-dark.min.css",
     "scroll.css",
 ]
+
+post_template = "post.html"
+
+# [markata.post_template]
+# index = "post.html"
+# og = "post.html"
 
 # markdown_it flavor
 [markata.markdown_it_py]
@@ -137,17 +143,17 @@ enabled = true
 # [[markata.markdown_it_py.plugins]]
 # plugin = "plugins.emoji:emoji_plugin"
 #
-[[markata.markdown_it_py.plugins]]
-plugin = "plugins.keys:keys_plugin"
-
-[[markata.markdown_it_py.plugins]]
-plugin = "plugins.subscript:subscript_plugin"
-
-[[markata.markdown_it_py.plugins]]
-plugin = "plugins.superscript:superscript_plugin"
-
-[[markata.markdown_it_py.plugins]]
-plugin = "plugins.mark:mark_plugin"
+# [[markata.markdown_it_py.plugins]]
+# plugin = "plugins.keys:keys_plugin"
+#
+# [[markata.markdown_it_py.plugins]]
+# plugin = "plugins.subscript:subscript_plugin"
+#
+# [[markata.markdown_it_py.plugins]]
+# plugin = "plugins.superscript:superscript_plugin"
+#
+# [[markata.markdown_it_py.plugins]]
+# plugin = "plugins.mark:mark_plugin"
 
 [[markata.markdown_it_py.plugins]]
 plugin = "mdit_py_plugins.container:container_plugin"
