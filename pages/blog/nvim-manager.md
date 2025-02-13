@@ -11,8 +11,6 @@ published: True
 
 ---
 
-bump
-
 I recently built a cli application as a nearly-one-shot-app called
 [nvim-manager](https://github.com/waylonwalker/nvim-manager). It manages your
 nvim dotfiles install.
@@ -69,17 +67,81 @@ dotfiles repo, name it what you like, and set your NVIM_APPNAME if you want to
 default to a stable `nvim` and force yourself to `unset NVIM_APPNAME` to live
 on the edge.
 
+## Install nvim-manager
+
+``` bash
+apt install curl git unzip
+curl https://i.jpillora.com/MordechaiHadad/bob | bash
+bob install nightly
+bob use nightly
+ln -s ~/.local/share/bob/nvim-bin/nvim ~/.local/bin
+curl https://i.jpillora.com/waylonwalker/nvim-manager | bash
+```
+
+## Install your own dotfiles
+
+Setup with the following environment variables.
+
 ``` bash
 # nvim-manager
-export NVIM_MANAGER_GITHUB_REPO=https://github.com/WaylonWalker/devtainer
+export NVIM_MANAGER_REPO=https://github.com/WaylonWalker/devtainer
 export NVIM_CONFIG_PATH=nvim/.config/nvim
 export NVIM_MANAGER_INSTALL_DIR=$HOME/.config
-export NVIM_MANAGER_PREFIX="nvim-waylonwalker-"
-export NVIM_APPNAME=${NVIM_MANAGER_PREFIX}v0.0.1
+export NVIM_MANAGER_PREFIX="nvim-waylonwalker"
+export NVIM_APPNAME=${NVIM_MANAGER_PREFIX}-v0.0.1
+```
+
+``` bash
+nvim-manager install v0.0.1
+nvim
 ```
 
 > Note I like installer by jpillora, I self host it for my own security, but
 > feel free to download from GH if it makes you feel safer.
+
+## Ubuntu Container Speedrun
+
+Here is a speedrun to getting nvim up and running in an ubuntu container.
+
+``` bash
+set -euxo
+mkdir -p ~/.local/bin
+export PATH=$PATH:~/.local/bin
+apt update
+apt install curl git unzip -y
+curl -LsSf https://astral.sh/uv/install.sh | sh
+curl https://i.jpillora.com/MordechaiHadad/bob | bash
+mv bob ~/.local/bin
+bob install nightly
+bob use nightly
+ln -s ~/.local/share/bob/nvim-bin/nvim ~/.local/bin
+curl https://i.jpillora.com/waylonwalker/nvim-manager | bash
+mv nvim-manager ~/.local/bin
+export NVIM_MANAGER_REPO=https://github.com/WaylonWalker/devtainer
+export NVIM_CONFIG_PATH=nvim/.config/nvim
+export NVIM_MANAGER_INSTALL_DIR=$HOME/.config
+export NVIM_MANAGER_PREFIX="nvim-waylonwalker"
+export NVIM_APPNAME=${NVIM_MANAGER_PREFIX}-v0.0.1
+nvim-manager install v0.0.1
+nvim-manager install --distro lazyvim
+nvim-manager install --distro astronvim
+nvim-manager install --distro nvchad
+nvim-manager install --distro kickstart
+nvim-manager install --distro lunarvim
+
+# plugins like treesiter need gcc and make
+apt install gcc make -y
+export TZ="America/Chicago"
+export DEBIAN_FRONTEND=noninteractive
+apt update
+apt install tzdata -y
+ln -fs /usr/share/zoneinfo/$TZ /etc/localtime
+dpkg-reconfigure -f noninteractive tzdata
+# Some of the mason installs need npm
+apt install nodejs npm -y
+# plugins like telescope require ripgrep
+apt install fzf ripgrep -y
+```
 
 ## Give it a Star
 
