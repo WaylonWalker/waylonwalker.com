@@ -199,6 +199,8 @@
 
 /md-rss                                                     /blog/markdown-rss.xml
 /sitemap                                                    /sitemap.xml
+/kedro/rss.xml                                              /kedro-feed/rss.xml
+/thoughts/rss.xml                                              /thoughts-feed/rss.xml
 
 /static/*                                                   /:splat/
 
