@@ -85,7 +85,7 @@ on:
 
 _removing **master** completely_
 
-I mostly just followed this [post by Scott Hanselman](https://www.hanselman.com/blog/EasilyRenameYourGitDefaultBranchFromMasterToMain.aspx).
+I mostly just followed this [post by Scott Hanselman](https://www.hanselman.com/blog/easily-rename-your-git-default-branch-from-master-to-main).
 
 ``` bash
 git branch -m master main
