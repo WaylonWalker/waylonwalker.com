@@ -1,3 +1,10 @@
+## 48
+
+- upgrade from markata 0.9.1.dev5 to markata 0.9.1.dev6
+- fix old feed slugs with broken links with redirect
+- fix drafts not populating
+- add word break for long admonition titles
+
 ## 47
 
 - upgrade from tailwind v 3.3.5 to tailwind v4.0.4

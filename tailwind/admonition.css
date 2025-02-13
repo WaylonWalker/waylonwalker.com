@@ -3,6 +3,7 @@
   @apply font-light;
   @apply flex gap-2;
   @apply my-8;
+  @apply break-all;
 }
 
 .admonition {
