@@ -479,7 +479,7 @@ description = 'The main feed of all my full blog posts'
 
 [[markata.feeds]]
 slug = 'draft'
-filter = "not published and templateKey in ['blog-post', 'til', 'thoughts']"
+filter = "(not published or date>today) and templateKey in ['blog-post', 'til', 'thoughts']"
 sort = "date"
 reverse = true
 description = 'A feed of all my draft posts'
