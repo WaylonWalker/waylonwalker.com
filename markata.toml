@@ -64,6 +64,8 @@ disabled_hooks = [
     "markata.plugins.rss",
     "markata.plugins.to_json",
     "markata.plugins.sitemap",
+    # "markata.plugins.feed",
+
     # "markata.plugins.manifest",
     # "markata.plugins.flat_slug"
 ]
@@ -101,11 +103,11 @@ precache_urls = [
     "scroll.css",
 ]
 
-post_template = "post.html"
+# post_template = "post.html"
 
-# [markata.post_template]
-# index = "post.html"
-# og = "post.html"
+[markata.post_template]
+index = "post.html"
+og = "og.html"
 
 # markdown_it flavor
 [markata.markdown_it_py]
@@ -185,6 +187,8 @@ name = ""
 
 [markata.glob]
 glob_patterns = "pages/**/*.md"
+# glob_patterns = "pages/sample.md"
+
 
 [markata.auto_description.description]
 len = 160
@@ -265,11 +269,11 @@ content = "{{ config.url }}{{ post.slug }}"
 
 [[markata.head.meta]]
 property = "og:image"
-content = "https://shots.wayl.one/shot/?url={{ config.url }}{{ post.slug }}&height=600&width=1200&scaled_width=1200&scaled_height=600"
+content = "https://shots.wayl.one/shot/?url={{ config.url }}{{ post.slug }}/og/&height=600&width=1200&scaled_width=1200&scaled_height=600"
 
 [[markata.head.meta]]
 name = "twitter:image"
-content = "https://shots.wayl.one/shot/?url={{ config.url }}{{ post.slug }}&height=640&width=1280&scaled_width=1280&scaled_height=640"
+content = "https://shots.wayl.one/shot/?url={{ config.url }}{{ post.slug }}/og/&height=640&width=1280&scaled_width=1280&scaled_height=640"
 
 [[markata.head.meta]]
 name = "twitter:image:alt"

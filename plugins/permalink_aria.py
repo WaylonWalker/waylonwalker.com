@@ -10,24 +10,54 @@ def permalink_aria(doc):
     return doc
 
 
+def process_html_content(html_content, cache, cache_key, should_prettify):
+    """Process a single HTML content with permalink_aria transformation.
+
+    Args:
+        html_content: The HTML content to process
+        cache: The markata cache object
+        cache_key: The cache key for this content
+        should_prettify: Whether to prettify the output HTML
+
+    Returns:
+        The processed HTML string
+    """
+    html_from_cache = cache.get(cache_key)
+    if html_from_cache is None:
+        doc = html.fromstring(html_content)
+        permalink_aria(doc)
+        if should_prettify:
+            html_str = html.tostring(doc, pretty_print=True, encoding="unicode")
+        else:
+            html_str = html.tostring(doc, encoding="unicode")
+        cache.set(cache_key, html_str)
+        return html_str
+    return html_from_cache
+
+
 @hook_impl
 def post_render(markata):
     should_prettify = markata.config.get("prettify_html", False)
     with markata.cache as cache:
         for article in markata.filter("not skip"):
-            key = markata.make_hash("permalink_aria", article.html)
-
-            html_from_cache = markata.precache.get(key)
-
-            if html_from_cache is None:
-                doc = html.fromstring(article.html)
-                permalink_aria(doc)
-                if should_prettify:
-                    html_str = html.tostring(doc, pretty_print=True, encoding="unicode")
-                else:
-                    html_str = html.tostring(doc, encoding="unicode")
-                cache.set(key, html_str)
-
+            if isinstance(article.html, dict):
+                # Handle dictionary case
+                processed_html = {}
+                for key, html_content in article.html.items():
+                    cache_key = markata.make_hash("permalink_aria", html_content)
+                    processed_html[key] = process_html_content(
+                        html_content,
+                        markata.precache,
+                        cache_key,
+                        should_prettify
+                    )
+                article.html = processed_html
             else:
-                html_str = html_from_cache
-            article.html = html_str
+                # Handle string case
+                cache_key = markata.make_hash("permalink_aria", article.html)
+                article.html = process_html_content(
+                    article.html,
+                    markata.precache,
+                    cache_key,
+                    should_prettify
+                )

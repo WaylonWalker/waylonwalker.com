@@ -118,31 +118,37 @@ create-tag:
     git tag -a "v$VERSION" -m "Release v$VERSION"
     git push origin "v$VERSION"
 
-create-release: create-tag
+delete-tag:
     #!/usr/bin/env bash
     VERSION=$(cat version)
-    git add version
-    git add requirements.in
-    git add requirements.txt
-    git add tailwind/app.css
-    git add static/app-{{version}}.css
+    git tag -d "v$VERSION"
+    git push --delete origin "v$VERSION"
+
+create-release:
+    #!/usr/bin/env bash
+    VERSION=$(cat version)
+    # git add version
+    # git add requirements.in
+    # git add requirements.txt
+    # git add tailwind/app.css
+    # git add static/app-{{version}}.css
     ./scripts/get_release_notes.py "$VERSION" > release_notes.tmp
     gh release create "v$VERSION" \
         --title "v$VERSION" \
-        --notes-file release_notes.tmp \
+        --notes-file release_notes.tmp
     rm release_notes.tmp
 
 
 release:
    #!/bin/bash
-   tailwindcss --input tailwind/app.css --output static/app-{{version}}.css
-   git add version
-   git add requirements.in
-   git add requirements.txt
-   git add tailwind/app.css
-   git add static/app-{{version}}.css
-   git commit -m "Release v$(cat version)"
-   git tag -a "v$(cat version)" -m "Release v$(cat version)"
+   # tailwindcss --input tailwind/app.css --output static/app-{{version}}.css
+   # git add version
+   # git add requirements.in
+   # git add requirements.txt
+   # git add tailwind/app.css
+   # git add static/app-{{version}}.css
+   # git commit -m "Release v$(cat version)"
+   # git tag -a "v$(cat version)" -m "Release v$(cat version)"
     ./scripts/get_release_notes.py "$VERSION" > release_notes.tmp
     gh release create "v$VERSION" \
         --title "v$VERSION" \
@@ -150,3 +156,6 @@ release:
     rm release_notes.tmp
    git push
    git push --tags
+
+dev:
+   mc cp ./markout/ minio-wayl-one/k8s-pages/wwdev --recursive

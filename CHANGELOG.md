@@ -1,3 +1,7 @@
+## 50
+
+- working custom og pages
+
 ## 49
 
 - upgrade from markata 0.9.1.dev6 to markata 0.9.1.dev7

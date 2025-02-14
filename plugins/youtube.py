@@ -38,6 +38,7 @@ def swap_youtube(youtube: "Tag") -> str:
     "Convert YouTube link to embed HTML"
     if is_valid_youtube(youtube):
         from bs4 import BeautifulSoup
+
         iframe_html = render_youtube(youtube.attrs["href"])
         # Parse the iframe HTML to create a proper BeautifulSoup element
         iframe_soup = BeautifulSoup(iframe_html, "lxml")
@@ -55,34 +56,63 @@ def swap_youtubes(soup: "BeautifulSoup") -> None:
             link.replace_with(swap_youtube(link))
 
 
+def process_html_content(
+    html_content: str, cache, cache_key: str, should_prettify: bool
+) -> str:
+    """Process a single HTML content by replacing YouTube links with embeds.
+
+    Args:
+        html_content: The HTML content to process
+        cache: The markata cache object
+        cache_key: The cache key for this content
+        should_prettify: Whether to prettify the output HTML
+
+    Returns:
+        The processed HTML string
+    """
+    # Quick check for potential YouTube links before parsing
+    if "youtu.be" not in html_content:
+        return html_content
+
+    if cache_key in cache:
+        return cache[cache_key]
+
+    # Use lxml parser for better performance
+    from bs4 import BeautifulSoup
+
+    soup = BeautifulSoup(html_content, "lxml")
+    swap_youtubes(soup)
+
+    result = soup.prettify() if should_prettify else str(soup)
+    cache[cache_key] = result
+    return result
+
+
 @hook_impl
 def post_render(markata):
     "Hook to replace YouTube links with embeds"
     if not markata.filter("not skip"):
         return
 
-    from bs4 import BeautifulSoup
-
     should_prettify = markata.config.get("prettify_html", False)
 
     with markata.cache as cache:
         for article in markata.filter("not skip"):
-            # Quick check for potential YouTube links before parsing
-            if "youtu.be" not in article.content:
-                continue
-
-            key = markata.make_hash("youtube", article.html)
-
-            if key in cache:
-                article.html = cache[key]
-                continue
-
-            # Use lxml parser for better performance
-            soup = BeautifulSoup(article.html, "lxml")
-            swap_youtubes(soup)
-
-            article.html = soup.prettify() if should_prettify else str(soup)
-            cache[key] = article.html
+            if isinstance(article.html, dict):
+                # Handle dictionary case
+                processed_html = {}
+                for key, html_content in article.html.items():
+                    cache_key = markata.make_hash("youtube", html_content)
+                    processed_html[key] = process_html_content(
+                        html_content, cache, cache_key, should_prettify
+                    )
+                article.html = processed_html
+            else:
+                # Handle string case
+                cache_key = markata.make_hash("youtube", article.html)
+                article.html = process_html_content(
+                    article.html, cache, cache_key, should_prettify
+                )
 
 
 if __name__ == "__main__":
