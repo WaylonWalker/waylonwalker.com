@@ -1,0 +1,25 @@
+<style>
+    a[data-favicon]:before {
+        content: "";
+        display: inline-block;
+        vertical-align: middle;
+        width: 1em;
+        height: 1em;
+        margin: 0 .2em;
+        background-size: contain;
+        background-image: var(--favicon-url);
+    }
+</style>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll("a[href^='http']").forEach(link => {
+            let url = new URL(link.href);
+// ignore internal links
+            if (url.origin === window.location.origin) return;
+            if (url.origin === 'https://waylonwalker.com') return;
+            let faviconUrl = "https://avatars.wayl.one/avatar/" + encodeURIComponent(url.origin) + "/";
+            link.style.setProperty('--favicon-url', `url(${faviconUrl})`);
+            link.setAttribute("data-favicon", faviconUrl);
+        });
+    });
+</script>

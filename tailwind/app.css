@@ -530,3 +530,17 @@ kbd {
 #post-body .carousel > *:nth-child(even){
   @apply bg-red-900;
 }
+
+body :target::before,
+body [fragmention]::before {
+    content: "Highlighted Fragment:\A";
+    white-space: pre-line;
+    @apply font-bold text-yellow-600;
+}
+
+body :target, body [fragmention] {
+    @apply bg-yellow-400/10;
+    @apply border-2 border-dashed border-yellow-500;
+    @apply rounded-md;
+    @apply px-2 py-1;
+}
