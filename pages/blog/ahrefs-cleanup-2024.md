@@ -80,3 +80,7 @@ I wrote a cli plugin to automatically generate feeds for my tags, but I have
 not ran it in awhile so I had a number of posts trying to link tags to feeds
 that did not exist.  I fixed this in commit
 [5d2e22](<https://github.com/WaylonWalker/waylonwalker.com/commit/5d2e227a03acb1104e4214507872c61ae2a47d64>].
+
+## fix: Open Graph URL not matching canonical
+
+[[ thoughts-565 ]] fixes an error introduced while fixing og tags.
