@@ -265,7 +265,7 @@ async = true
 
 [[markata.head.meta]]
 property = "og:url"
-content = "{{ config.url }}{{ post.slug }}"
+content = "{{ config.url }}{{ post.slug }}/"
 
 [[markata.head.meta]]
 property = "og:image"
