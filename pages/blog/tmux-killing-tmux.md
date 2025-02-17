@@ -53,7 +53,7 @@ with t, and killing them all at once with `X`.
 
 Here is my preferred way, using a fuzzy matcher.  I recently improved this one
 by making it a popup and cleaning it up based on a repsonse,
-[tmux-output-formatting](https://qmacro.org/autodidactics/2021/08/06/tmux-output-formatting/)
+[tmux-output-formatting](https://qmacro.org/blog/posts/2021/08/06/tmux-output-formatting/)
 by [DJ Adams](https://twitter.com/qmacro).  I press prefix+k to bring up a kill-session menu.
 
 ``` bash
