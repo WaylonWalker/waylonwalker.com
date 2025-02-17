@@ -1794,6 +1794,9 @@
   .text-yellow-200 {
     color: var(--color-yellow-200);
   }
+  .text-yellow-600 {
+    color: var(--color-yellow-600);
+  }
   .text-zinc-500 {
     color: var(--color-zinc-500);
   }
@@ -4073,6 +4076,24 @@ kbd {
 }
 #post-body .carousel > *:nth-child(even) {
   background-color: var(--color-red-900);
+}
+body :target::before, body [fragmention]::before {
+  content: "Highlighted Fragment:\A";
+  white-space: pre-line;
+  --tw-font-weight: var(--font-weight-bold);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-yellow-600);
+}
+body :target, body [fragmention] {
+  background-color: color-mix(in oklab, var(--color-yellow-400) 10%, transparent);
+  border-style: var(--tw-border-style);
+  border-width: 2px;
+  --tw-border-style: dashed;
+  border-style: dashed;
+  border-color: var(--color-yellow-500);
+  border-radius: var(--radius-md);
+  padding-inline: calc(var(--spacing) * 2);
+  padding-block: calc(var(--spacing) * 1);
 }
 @keyframes spin {
   to {
