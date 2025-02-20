@@ -8,6 +8,10 @@ published: True
 
 ---
 
+On the road to **Gap Master** achievement I got all Warehouse Gaps in THPS1.
+
+[[ thps-1-school-gaps ]]
+
 ![image](https://dropper.wayl.one/api/file/8b21df1c-9a79-4a07-a7c6-b660979aa3a1.webp)
 
 ## Big Rail
