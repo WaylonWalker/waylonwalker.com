@@ -10,7 +10,7 @@ published: False
 
 ---
 
-Working on schook gaps
+Working on school gaps
 
 [[ thps-1-warehouse-gaps ]]
 
