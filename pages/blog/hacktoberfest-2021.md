@@ -2,7 +2,7 @@
 title: Hacktoberfest 2021?
 published: true
 date: 2021-10-10T09:43:52
-tags: discuss
+tags: [discuss]
 templateKey: "blog-post"
 ---
 
