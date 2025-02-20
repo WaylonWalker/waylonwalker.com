@@ -24,12 +24,12 @@ def process_html_content(html_content, cache, cache_key, should_prettify):
     """
     html_from_cache = cache.get(cache_key)
     if html_from_cache is None:
-        doc = html.fromstring(html_content)
+        doc = html.document_fromstring(html_content)
         permalink_aria(doc)
         if should_prettify:
-            html_str = html.tostring(doc, pretty_print=True, encoding="unicode")
+            html_str = html.tostring(doc, pretty_print=True, encoding="unicode", doctype='<!DOCTYPE html>')
         else:
-            html_str = html.tostring(doc, encoding="unicode")
+            html_str = html.tostring(doc, encoding="unicode", doctype='<!DOCTYPE html>')
         cache.set(cache_key, html_str)
         return html_str
     return html_from_cache
