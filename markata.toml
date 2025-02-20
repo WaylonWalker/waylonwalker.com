@@ -260,9 +260,9 @@ rel = "canonical"
 href = "{{ config.url }}{{ post.slug }}/amp/"
 rel = "amphtml"
 
-[[markata.head.script]]
-src='/htmx.min.js'
-async = true
+# [[markata.head.script]]
+# src='/htmx.min.js'
+# async = true
 
 [[markata.head.meta]]
 property = "og:url"
