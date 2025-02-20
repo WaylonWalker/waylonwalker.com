@@ -535,7 +535,7 @@ body :target::before,
 body [fragmention]::before {
     content: "Highlighted Fragment:\A";
     white-space: pre-line;
-    @apply font-bold text-yellow-600;
+    @apply font-bold text-yellow-600 text-lg;
 }
 
 body :target, body [fragmention] {
