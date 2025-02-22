@@ -12,9 +12,8 @@ On the road to **Gap Master** achievement I got all Warehouse Gaps in THPS1.
 This is this classic warehouse level that everyone thinks of when THPS is
 mentioned.  Such a good level, compact, easy to play, with some fun gaps that
 might take a few tries to hit.
-[[ thps-1-warehouse-gaps ]]
 
-[[ thps-1-school-gaps ]]
+Next up [[ thps-1-school-gaps ]]
 
 ![image](https://dropper.wayl.one/api/file/8b21df1c-9a79-4a07-a7c6-b660979aa3a1.webp)
 

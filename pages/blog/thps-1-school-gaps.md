@@ -1,18 +1,21 @@
 ---
-date: 2025-02-20 10:39:28
+date: 2025-02-23 10:39:28
 templateKey: blog-post
 title: thps-1-school-gaps
 tags:
-  - python
-  - python
-  - python
-published: False
+  - gaming
+published: True
 
 ---
 
-Working on school gaps
+On the road to **Gap Master** achievement I got all School Gaps in THPS1.
+This is a super fun level, I'll have to admit that I had to look up at least a
+quarter of them, and could not find them myself, mostly due to the naming, all
+of the rail tricks were actually ledges and I was looking for big rails.  None
+of the warehouse gaps were manuals so I had no idea that the downhill and
+accross the gym would be manual tricks.
 
-[[ thps-1-warehouse-gaps ]]
+Previously [[ thps-1-warehouse-gaps ]]
 
 ![screenshot-2025-02-20T16-38-32-148Z.png](https://dropper.wayl.one/api/file/0e56dc1e-27b6-4695-b4de-b8bc298285d7.png)
 ![screenshot-2025-02-20T16-39-53-452Z.png](https://dropper.wayl.one/api/file/71768034-e93c-4c48-bc0c-3d0b930dc327.png)
@@ -103,14 +106,24 @@ Working on school gaps
 
 ## Accross the Gym
 
+![THPS1-2-AccrossTheGym.mp4](https://dropper.wayl.one/api/file/096328b8-a6b0-46be-b77e-ac89b5cac85e.mp4)
+
 ## Roof Hop
 
 ![THPS1-2-RoofHop.mp4](https://dropper.wayl.one/api/file/394c6a37-892a-47e3-8269-63bec30da2d8.mp4)
 
 ## Down the Awning
 
+![THPS1-2-DownTheAwning.mp4](https://dropper.wayl.one/api/file/6a11fdcb-fc52-49ba-b858-1936deda6c9c.mp4)
+
 ## Perfectly Balanced
+
+![THPS1-2-PerfectlyBalanced.mp4](https://dropper.wayl.one/api/file/b561af30-30d2-4fc3-9e42-8ee1b630fa32.mp4)
 
 ## Gigantic Rail
 
+![THPS1-2-GiganticRail.mp4](/api/file/7beb12ae-3b44-466f-a7d5-59bde6584929.mp4)
+
 ## Ridiculous Rail
+
+![THPS1-2-RidiculousRail.mp4](https://dropper.wayl.one/api/file/d3583f74-ce98-49bf-91d8-c5e5e6afe0c8.mp4)
