@@ -127,3 +127,7 @@ Previously [[ thps-1-warehouse-gaps ]]
 ## Ridiculous Rail
 
 ![THPS1-2-RidiculousRail.mp4](https://dropper.wayl.one/api/file/d3583f74-ce98-49bf-91d8-c5e5e6afe0c8.mp4)
+
+## Got the badge
+
+![image](https://dropper.wayl.one/api/file/d6cfd19a-0f9d-4faa-a22f-887620ed9b6e.webp)
