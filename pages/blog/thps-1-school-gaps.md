@@ -16,6 +16,7 @@ of the warehouse gaps were manuals so I had no idea that the downhill and
 accross the gym would be manual tricks.
 
 Previously [[ thps-1-warehouse-gaps ]]
+next [[ thps-1-mall-gaps ]]
 
 ![screenshot-2025-02-20T16-38-32-148Z.png](https://dropper.wayl.one/api/file/0e56dc1e-27b6-4695-b4de-b8bc298285d7.png)
 ![screenshot-2025-02-20T16-39-53-452Z.png](https://dropper.wayl.one/api/file/71768034-e93c-4c48-bc0c-3d0b930dc327.png)
