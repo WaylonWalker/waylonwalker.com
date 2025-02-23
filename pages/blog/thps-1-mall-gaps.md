@@ -15,6 +15,7 @@ thought there would be, there are definitely a lot that you can make up on your
 own.  Anyways here's my playthrough of all the mall gaps in THPS1 on my way to gap master.
 
 Previously [[ thps-1-school-gaps ]]
+Next [[ thps-1-skate-park-gaps ]]
 
 ![image](https://dropper.wayl.one/api/file/e4c2feb1-4d5c-480d-b9bd-7e98b9a7c58c.webp)
 
