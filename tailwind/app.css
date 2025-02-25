@@ -166,15 +166,15 @@ img, video {
   @apply py-8;
 }
 
-.archive-tags {
-  @apply flex flex-row gap-2 justify-center;
+ul.archive-tags {
   @apply py-8 sm:p-0;
   @apply mx-auto;
   @apply container max-w-min px-8 py-2 rounded-sm;
 
-  @apply bg-zinc-800/20;
-  box-shadow: 0px 0px 10px 1px rgba(255, 255, 255, 0.1);
-  @apply backdrop-blur-xs;
+  /* @apply bg-zinc-800/20; */
+  /* box-shadow: 0px 0px 10px 1px rgba(255, 255, 255, 0.1); */
+  /* @apply backdrop-blur-xs; */
+  @apply flex flex-row gap-2 justify-center;
 }
 
 .archive-tags a {

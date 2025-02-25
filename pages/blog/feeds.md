@@ -13,6 +13,9 @@ I have several feeds that you can consume my content with.  Many posts will
 cross between them, so if you would like to follow a certain stream of content
 in your rss reader thats what this is for.
 
+!!! Note TLDR
+    If you are looking for everything look here <https://waylonwalker.com/archive/rss.xml>
+
 ## All
 
 This is a feed of everything that I have published on my site to date.
@@ -68,6 +71,9 @@ These are my full big **B** **B**log posts.  They are what I started writing,
 typically take a bit more time to put together.  I write fewer of them these
 days than I used to.  I'd like to think that they are the more polished posts
 of the bunch.
+
+* [web](https://waylonwalker.com/blog)
+* [rss](https://waylonwalker.com/blog/rss.xml)
 
 ## Today
 
