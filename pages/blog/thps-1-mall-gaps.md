@@ -8,7 +8,6 @@ published: True
 
 ---
 
-
 This is one of the most memorable levels for me in THPS1 from when I had
 originally played it.  Surprisingly there aren't as many gaps in it as I
 thought there would be, there are definitely a lot that you can make up on your
