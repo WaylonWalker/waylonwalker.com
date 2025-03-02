@@ -8,9 +8,11 @@ published: True
 
 ---
 
-Previously [[ thps-1-mall-gaps ]]
 
 ![image](https://dropper.wayl.one/api/file/75b658de-1c88-4147-b06b-5c0cc0bc8b80.webp)
+
+Previously [[ thps-1-mall-gaps ]]
+Next [[ thps-1-downtown-gaps ]]
 
 ## Acid Drop
 
