@@ -34,17 +34,24 @@ All of this is built in python, and mostly before vibe coding was a thing, its
 mostly me trying to get out ideas as quick as my son is spitting out the the
 next idea.
 
-## Cyote
+## Coyote
 
-It includes a few frames of cyote so it feels a bit more like most games.
+It includes a few frames of coyote so it feels a bit more like most games.
+
+!! Note
+    If you are unfamiliar with the term coyote in platformers it allows you to
+    jump for a few frames after falling off a platform, like wiley coyoyte in
+    Luney Toons.
 
 ## Wall slide/jump
 
 Wall slide and jump work, but so is wall climb as an unintended side effect.
+When you are touching a wall, your fall speed is halved.
 
 ## Levels and loader
 
-There is a crude level loader that loads json levels with pydantic.
+There is a crude level loader that loads json levels with pydantic.  No editor
+yet, just hand editing levels with json.
 
 ## Checkpoints
 
@@ -58,5 +65,5 @@ another level.
 ## no art
 
 There is no art yet, just the skin of a platformer, levels, checkpoints, and
-cyote.  No portals, but there is a pointer with a janky box that covers my
+coyote.  No portals, but there is a pointer with a janky box that covers my
 lighting.
