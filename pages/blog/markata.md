@@ -7,9 +7,11 @@ tags:
   - markata
   - slash
 published: true
+jinja: true
 ---
 
 This post is a work in progress.
+
 
 Markata is the static site generator that I created to build my website [[
 about-this-site ]].  I built it for me and I enjoy using it.  I know everying
@@ -47,3 +49,13 @@ extend it called pluggy.  I had a great experience extending kedro using pluggy
 and wanted to build something with based on pluggy when I had started markata.
 
 [[ pluggy-minimal-example ]]
+
+## More Posts
+
+I have more posts about markata in the [[markata-feed]].
+
+do the jinja
+
+{% for post in markata.feeds.markatafeed.map(reverse=True) %}
+* [{{post.title}}](/{{post.slug}}) - {{post.date}}
+{% endfor %}
