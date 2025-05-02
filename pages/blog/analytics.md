@@ -67,12 +67,31 @@ projects and templates using [[ kedro ]]
 
 ## Post Contributions in 2018
 
+This was the year I really started reaching for the terminal kicking off the
+year with [[vim-notes]] and roudning out with [[bash-notes]].  I had been
+watching luke smith for a awhile, and started managing my first linux server at
+work.  I was stuck with windows at the time, but wsl was a new thing that let
+me run linux in the terminal.
+
 ![Post Contributions in 2018](/contributions_2018.svg)
 
 ## Post Contributions in 2017
 
+2017 was the year of getting started, I was coming up on 5 years into my
+career, and layoffs were happening hard at the time.  I remember fist landing 5
+years before and being told in the companies long history they have never laid
+off engineers, it was a very safe place to be.  This was a wake up call that it
+might all turn around and I would take nothing with me.  Blogging became my way
+to document things I was learning, it was making be better at communicating,
+and giving me a reason to take a deeper dive into interesting topics.
+
 ![Post Contributions in 2017](/contributions_2017.svg)
 
 ## Post Contributions in 2016
+
+2016 was the year that I created my github account, and really got serious
+about career switching from Mechanical Engineering to Software Engineering.
+All of my 2016 posts are back-dated github stars.
+
 
 ![Post Contributions in 2016](/contributions_2016.svg)
