@@ -12,7 +12,8 @@ tags:
 
 I was looking back at my [[analytics]] page today and wondered what were my
 posts about back at the beginning.  My blog is managed by [[markata]] so I
-looked at a few ways you could pull those posts up.
+looked at a few ways you could pull those posts up.  Turns out it's pretty
+simple to do, use the markata map with a filter.
 
 
 ``` python
@@ -20,6 +21,10 @@ from markata import Markata
 
 m.map('title, slug, date', filter='date.year==2016', sort='date')
 ```
+
+!!! Note
+    the filter is python eval that should evaluate to a boolean, all of the
+    attributes of the post are available to filter on.
 
 ### Result
 
@@ -42,6 +47,9 @@ m.map('title, slug, date', filter='date.year==2016', sort='date')
 ]
 ```
 
+You could use the `list` command as well right within your shell and the same
+map and filters work.
+
 ``` bash
 ⬢ [devtainer-0.1.3] ❯ markata list --map title --filter='date.year==2016'
 [22:35:06] 2088/2145 posts skipped                                                                       skip.py:36
@@ -55,13 +63,19 @@ m.map('title, slug, date', filter='date.year==2016', sort='date')
 ⭐ jupyterlab jupyterlab
 ```
 
-``` html
+You could also do it with jin right inside of a markdown post using the
+[jinja_md](https://markata.dev/markata/plugins/jinja-md/) plugin.
+
+``` md
 {% raw %}
 {% for title, slug, date in markata.map('title, slug, date', filter='date.year==2016', sort='date') %}
 * [{{title}}]({{slug}}) - {{date}}
 {% endfor %}
 {% endraw %}
 ```
+
+!!! Note
+    You do have to `jinja: true` in the frontmatter of the post.
 
 ### Result
 
