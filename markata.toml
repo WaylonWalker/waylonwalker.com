@@ -406,6 +406,15 @@ sizes="512x512"
 prevnext_color_angle = "#ff66c4"
 
 [[markata.feeds]]
+name = 'markatafeed'
+slug = 'markata-feed'
+filter = "date<=today and 'markata' in str(tags).lower() and published"
+sort = "date"
+reverse = false
+card_template='feed_card_sm.html'
+description = 'A feed of my posts about my static site generator markata.'
+
+[[markata.feeds]]
 name = 'thoughtsfeed'
 slug = 'thoughts-feed'
 filter = "date<=today and templateKey in ['thoughts',] and published"
