@@ -1,5 +1,5 @@
 click==8.0.4
-markata==0.9.1.dev8
+markata==0.9.1.dev9
 markata-gh==0.7.0
 pyinstrument==4.5.1
 python-twitter==3.5
