@@ -68,7 +68,7 @@ projects and templates using [[ kedro ]]
 ## Post Contributions in 2018
 
 This was the year I really started reaching for the terminal kicking off the
-year with [[vim-notes]] and roudning out with [[bash-notes]].  I had been
+year with [[vim-notes]] and rounding out with [[bash]].  I had been
 watching luke smith for a awhile, and started managing my first linux server at
 work.  I was stuck with windows at the time, but wsl was a new thing that let
 me run linux in the terminal.
