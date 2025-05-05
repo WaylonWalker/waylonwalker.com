@@ -1,19 +1,33 @@
 <li class="post group {{post.templateKey}} h-entry hentry">
     <a href="/{{markata.config.path_prefix}}{{ post.slug }}/" class="u-url" rel="bookmark" hx-boost="true">
         {% if post.title | length > 50 %}
-        <h2 class="p-name entry-title">{{ post.title[:50] }}...</h2>
+            <h2 class="p-name entry-title">
+                {% if post.templateKey == 'thought' %}
+                    <img src='https://avatars.wayl.one/avatar/{{ post.link }}'/>
+                {% endif %}
+                {{ post.title[:50] }}...
+            </h2>
         {% else %}
-        <h2 class="p-name entry-title">{{ post.title }}</h2>
+            <h2 class="p-name entry-title">
+                {% if post.templateKey == 'thought' %}
+                    <img src='https://avatars.wayl.one/avatar/{{ post.link }}'/>
+                {% endif %}
+                {{ post.title }}
+            </h2>
         {% endif %}
         <p class="description p-0 px-1 m-0 p-summary entry-summary">
+        {% if post.templateKey in ['til', 'blog-post'] %}
+            {{ post.super_description|e }}
+        {% else %}
             {{ post.description|e }}
+        {% endif %}
         </p>
         <div class="card-footer">
             <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
                 {{post.templateKey.replace('til', 'TIL: Today I Learned')}}
             </p>
             <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
-                datetime="{{ post.date }}">
+                  datetime="{{ post.date }}">
                 {{ post.date.year }}-{{ post.date.month }}-{{ post.date.day }}
             </time>
         </div>
