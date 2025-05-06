@@ -35,6 +35,8 @@ My daily driver keyboard is a custom built 40% monoblock keyboard I absolutely
 love using it, it perfectly plops down on a laptop when I am in laptop mode and
 really fits me quite well for my wrok as a software/infrastructure engineer.
 
+![screenshot-2025-05-06T02-36-55-641Z.png](https://dropper.wayl.one/api/file/9fd1dbf7-4c5d-4bb3-adaf-138755f90d54.png)
+
 ## WASD
 
 _We've got to talk about pinky stagger_
