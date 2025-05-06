@@ -59,7 +59,7 @@ where each finger has a primary direction instead of using one finger for both
 up and down.
 
 
-!!! Note vim keys
+!!! Note vim keys, but mirrored
     I chose to mirror vim keys with down towards the middle.  I had it the other
     way, but when I played, I kept pressing it the other way.
 
