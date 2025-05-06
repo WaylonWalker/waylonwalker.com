@@ -95,3 +95,10 @@ I realize now that Hollow Knight rarely needs quick swiching between up and
 down and would probably be fine on a wasd layout if i were to be using a split
 keyboard or a bit less pinky stagger that would work out, but for now I am
 giving this a shot.
+
+## False Knight down
+
+The recording somehow stuck on the menu screen and did not record video, but I
+got this screenshot of the victory.
+
+![image](https://dropper.wayl.one/api/file/be00de02-1cac-4dc2-8c05-9c52c9f1f124.webp)
