@@ -13,7 +13,7 @@ published: True
 I just made it past 100% in my main hollow knight run, so now I will allow
 myself to get silksong when it comes out.  I did this with a little bit of YT
 guidance, but mostly just figuring it out.  I only just discovered the
-[[ReznoRMichael--hollow-knight-completion-check]] which got me an extra 2% for
+[[reznormichael-hollow-knight-completion-check]] which got me an extra 2% for
 a few items I must have got and not saved on, because I was sure I had them.
 
 
