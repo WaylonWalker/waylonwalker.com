@@ -81,6 +81,15 @@ up and down.
     * m - map
     * g - dream nail
 
+## This seems weird
+
+So Ya, I know it's weird. I did some searching wasn't able to find much other
+than this one [ reddit post ](https://www.reddit.com/r/KeyboardLayouts/comments/18kdnl0/using_asdf_instead_of_wasd_for_gaming/)
+talking about using asdf.  oddly one person reccommended sdfg, this souds so
+much like vim, which makes a lot of sense, but brings back moving fingers off
+of home row position or using one finger for down and right, which aint gonna
+work.
+
 ## First thoughts
 
 I'm about 20 minutes in and struggling on False Knight, I could be a bit more
