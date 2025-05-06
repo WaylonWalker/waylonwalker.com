@@ -107,6 +107,14 @@ down and would probably be fine on a wasd layout if i were to be using a split
 keyboard or a bit less pinky stagger that would work out, but for now I am
 giving this a shot.
 
+## My Son's experience
+
+So my son is playing along with me, new save as well. He went with wasd and
+mouse, while this sounds insane to me to use mouse for clicking and no movement
+the natural feel that it has, has him blazing through faster than he does on
+controller, doing pogos he's never done before.
+
+
 ## False Knight down
 
 The recording somehow stuck on the menu screen and did not record video, but I
