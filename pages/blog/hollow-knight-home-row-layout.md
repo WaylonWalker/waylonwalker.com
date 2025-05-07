@@ -121,3 +121,12 @@ The recording somehow stuck on the menu screen and did not record video, but I
 got this screenshot of the victory.
 
 ![image](https://dropper.wayl.one/api/file/be00de02-1cac-4dc2-8c05-9c52c9f1f124.webp)
+
+## Vengeful Spirit
+
+Day 2 I managed to make it to the Ancestral Mound and get the Vengeful Spirit
+cast.  Everything is starting to feel much better and more natural.
+Surprisingly my main issue is with up and down since they are used a bit less,
+left with my pinky has not been any issue.
+
+![hollow-knight-keeb-run-vengeful-spirit.mp4](https://dropper.wayl.one/api/file/3c461bd2-3276-45da-8411-c85073f66497.mp4)
