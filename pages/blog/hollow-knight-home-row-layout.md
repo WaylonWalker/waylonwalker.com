@@ -130,3 +130,21 @@ Surprisingly my main issue is with up and down since they are used a bit less,
 left with my pinky has not been any issue.
 
 ![hollow-knight-keeb-run-vengeful-spirit.mp4](https://dropper.wayl.one/api/file/3c461bd2-3276-45da-8411-c85073f66497.mp4)
+
+## Hornet Battle 1
+
+I made it successfully through the first hornet battle I was able to snag this
+clip of a few nicely timed pogos.  Its getting better, I am still really
+struggling between down srike and up strike.
+
+![hollow-knight-keeb-run-hornet-pogos.mp4](https://dropper.wayl.one/api/file/f627cb2c-8da5-4508-9d05-c3a12ed4c2b9.mp4)
+
+## Mothwing Cloak
+
+I got so lucky  with the finish of hornet, I thought she hit me while healing,
+kinda lost where we were tanked a hit and almost took one last hit again and
+beat her to the final punch.
+
+![hollow-knight-keeb-run-hornet-finish.mp4](https://dropper.wayl.one/api/file/d8784c22-2baa-410a-af23-d7ebebaa6608.mp4)
+
+![20250507172106_1.jpg](https://dropper.wayl.one/api/file/d82dd000-a7b1-401e-8f78-72939a296328.jpg)
