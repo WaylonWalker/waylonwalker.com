@@ -148,3 +148,15 @@ beat her to the final punch.
 ![hollow-knight-keeb-run-hornet-finish.mp4](https://dropper.wayl.one/api/file/d8784c22-2baa-410a-af23-d7ebebaa6608.mp4)
 
 ![20250507172106_1.jpg](https://dropper.wayl.one/api/file/d82dd000-a7b1-401e-8f78-72939a296328.jpg)
+
+## Gruz Mother
+
+After completing gruz mother I went to grab my macropad to click the clip
+button when her babies came out, and it was at this moment my son told me I was
+done for, there was no recovering from this.  I was already at 2 hearts, and a
+mistake left me with one.  You can see me fumble for the up key in the clip as
+I get repositioned fully on back on the board.
+
+![hollow-knight-keeb-run-gruz-mother.mp4](/api/file/0a6ffb43-f416-46e4-9e17-05c3ac9c3429.mp4)
+
+Now we have Sly the merchant unlocked and can buy items from him.
