@@ -157,6 +157,6 @@ done for, there was no recovering from this.  I was already at 2 hearts, and a
 mistake left me with one.  You can see me fumble for the up key in the clip as
 I get repositioned fully on back on the board.
 
-![hollow-knight-keeb-run-gruz-mother.mp4](/api/file/0a6ffb43-f416-46e4-9e17-05c3ac9c3429.mp4)
+![hollow-knight-keeb-run-gruz-mother.mp4](https://dropper.wayl.one/api/file/0a6ffb43-f416-46e4-9e17-05c3ac9c3429.mp4)
 
 Now we have Sly the merchant unlocked and can buy items from him.
