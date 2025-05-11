@@ -6,6 +6,11 @@ Screen {
     color: $text;
 }
 
+#output {
+    border: none;
+    height: 1fr;
+    overflow: auto;
+}
 #meta {
     /* padding: 1 2; */
     padding: 0;
@@ -18,14 +23,16 @@ Screen {
 #main {
     height: 1fr;
     layout: vertical;
+    overflow-y: scroll;
 }
 
 Static {
     border: round $accent;
     padding: 1 2;
     background: $surface;
-    height: 1fr;
-    overflow: auto;
+    height: auto;
+    overflow-y: auto;
+    width: 100%;
 }
 
 Input {
