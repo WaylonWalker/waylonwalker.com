@@ -1,0 +1,35 @@
+/* style.css */
+
+Screen {
+    layout: vertical;
+    background: $background;
+    color: $text;
+}
+
+#meta {
+    /* padding: 1 2; */
+    padding: 0;
+    height: 4;
+    border: round $primary;
+    background: $panel;
+    color: $text;
+}
+
+#main {
+    height: 1fr;
+    layout: vertical;
+}
+
+Static {
+    border: round $accent;
+    padding: 1 2;
+    background: $surface;
+    height: 1fr;
+    overflow: auto;
+}
+
+Input {
+    border: round $primary;
+    padding: 0 1;
+    height: 3;
+}
