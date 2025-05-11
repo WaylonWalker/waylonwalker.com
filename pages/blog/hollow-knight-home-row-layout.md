@@ -160,3 +160,12 @@ I get repositioned fully on back on the board.
 ![hollow-knight-keeb-run-gruz-mother.mp4](https://dropper.wayl.one/api/file/0a6ffb43-f416-46e4-9e17-05c3ac9c3429.mp4)
 
 Now we have Sly the merchant unlocked and can buy items from him.
+
+## City
+
+I made it to the city, but on my way, it looks like one of the smokey layers
+were getting put on top of the game instead of layer in behind. I've never seen
+this, so I really have no idea what it is.  During the thorny area it was in
+and out and right as I entered the city it locked on top and did not leave.
+
+![image](https://dropper.wayl.one/api/file/f2fe3da0-9078-4292-9fef-9f4efd306d63.webp)
