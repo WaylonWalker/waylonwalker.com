@@ -40,7 +40,7 @@ kubectl commands a breeze and much less verbose.  I don't know how useful this
 will be, but as a learning exercise I am working on a k9s experience for my
 blog generator [[ markata ]].
 
-![m9a-1-trimmed.webm](https://dropper.wayl.one/api/file/c3b66bee-b57a-4814-b957-51d3e89202b8.webm)
+![m9a-1-trimmed.webm](https://dropper.wayl.one/api/file/53671f5a-acc5-4d17-aa2d-2e9ac6db5674.webm)
 
 ## Learning
 
