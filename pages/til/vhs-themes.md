@@ -28,6 +28,7 @@ have made it a bit better, but still over-saturated.
 What I found is that vhs has themes, setting it to `dracula` made everything much better.
 
 ``` diff
+# sort.tape
 Output assets/sort.mp4
 Output assets/sort.gif
 
