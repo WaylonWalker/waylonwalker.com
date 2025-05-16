@@ -14,7 +14,7 @@ tags:
 I've been working on
 [ninesui](https://github.com/WaylonWalker/ninesui/blob/main/README.md),
 inspired by k9s see [thoughts-633](https://thoughts.waylonwalker.com/post/633).
-I want a good flow for making video for the readme and I am using vhs for this.
+I want a good flow for making video for the readme and I am using [char.sh](https://charm.sh/apps/)'s [vhs](https://github.com/charmbracelet/vhs) for this.
 Its running in an archBTW distrobox and looks gawdaweful.
 
 ![sort.mp4](https://dropper.wayl.one/api/file/e86047ed-6881-43f7-8e3a-30411d51afaf.mp4)
