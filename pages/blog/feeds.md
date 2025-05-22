@@ -3,11 +3,10 @@ date: 2024-04-02 20:01:44
 templateKey: blog-post
 title: feeds
 tags:
-  - python
+  - meta
 published: True
 
 ---
-
 
 I have several feeds that you can consume my content with.  Many posts will
 cross between them, so if you would like to follow a certain stream of content
