@@ -579,7 +579,7 @@ reverse = true
 description = 'A feed of all my kedro draft posts'
 
 [[markata.feeds]]
-slug = 'gratitude'
+slug = 'gratitude-feed'
 filter = "date<=today and templateKey == 'gratitude'"
 sort = "date"
 reverse = true
