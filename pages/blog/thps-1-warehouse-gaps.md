@@ -1,7 +1,7 @@
 ---
 date: 2025-02-22 20:46:03
 templateKey: blog-post
-title: thps-1-warehouse-gaps
+title: THPS 1 Warehouse Gaps
 tags:
   - gaming
 published: True
