@@ -7,6 +7,9 @@ tags:
   - slash
 published: True
 jinja: True
+description: Start here, a guided experience accross waylonwalker.com, my small
+corner of the internet that contains all of my interests, some you might like
+some you might not care about, I've tried to organize by interest to help you.
 
 ---
 
