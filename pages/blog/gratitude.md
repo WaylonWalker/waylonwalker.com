@@ -4,6 +4,7 @@ templateKey: blog-post
 title: gratitude
 tags:
   - gratitude
+  - slash
 published: True
 jinja: True
 
