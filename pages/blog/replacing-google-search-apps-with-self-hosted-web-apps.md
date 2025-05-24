@@ -37,6 +37,13 @@ and chose to just do it right in the google search with a few tabs running.
 
 ## Dice
 
-A simple dice roller, this one is the one that I decided to start adding `?` for help.
+A simple dice roller, this one is the one that I decided to start adding `?`
+for help.
 
 [![screenshot of https://dice.wayl.one](http://shots.wayl.one/shot/?url=https://dice.wayl.one&height=450&width=800&scaled_width=800&scaled_height=450&selectors=)](https://dice.wayl.one)
+
+## UUID
+
+It displays a uuid, thats it.  <kbd>ctrl</kbd> + <kbd>c</kbd> to copy.
+
+[![screenshot of https://uuid.wayl.one](http://shots.wayl.one/shot/?url=https://uuid.wayl.one&height=450&width=800&scaled_width=800&scaled_height=450&selectors=)](https://uuid.wayl.one)
