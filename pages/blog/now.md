@@ -12,6 +12,21 @@ This page is meant to be simple view into what is happening in my life right now
 
 ---
 
+Last Update 2025-05-22 14:27:47
+
+* Working on [[ninesui]]
+* Working on [[krayt]]
+* learning observability with grafana
+* Fairly happy with [[markata]], at the moment, less focus and some small fixes
+* The blog is fully k8s, love the experience
+* replacing Google apps with self hosted apps [[replacing-google-search-apps-with-self-hosted-web-apps]]
+* Doing a second run through [[hollow-knight-home-row-layout]]
+* Also second run of animal well
+* put a pause on the thps gap project [[thps-gaps]]
+* working on a split version of my keyboard
+
+---
+
 Last update Fri Jan 31 08:43:10 PM CST 2025
 
 * Heavy Focus in on [[ markata ]], upcoming [[ markata-search ]] and [[ markata-didyoumean ]]
