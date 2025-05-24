@@ -2639,3 +2639,10 @@ filter = "date<=today and 'nerdfont' in tags.lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about nerdfont"
+
+[[markata.feeds]]
+slug = "thps-gaps"
+filter = "date<=today and 'thps-gaps' in tags.lower() and published"
+sort = "date"
+reverse = true
+description = "Tony Hawk Pro Skater Gaps Project, getting clips of every gap in the game"
