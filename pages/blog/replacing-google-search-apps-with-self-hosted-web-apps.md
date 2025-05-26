@@ -47,3 +47,13 @@ for help.
 It displays a uuid, thats it.  <kbd>ctrl</kbd> + <kbd>c</kbd> to copy.
 
 [![screenshot of https://uuid.wayl.one](http://shots.wayl.one/shot/?url=https://uuid.wayl.one&height=450&width=800&scaled_width=800&scaled_height=450&selectors=)](https://uuid.wayl.one)
+
+## b64
+
+Today i spent some time on [b64](b64.wayl.one), it is a base64 decoder/encoder.
+Just start tying to enter text, or paste, escape to deselect the text box, d to
+decode, e to encode, ? for help.  It took a bit to get all of the keymaps right
+with the differnt modes and make sure that for instance you don't keep typing
+in the input box while in help mode, or decode/encode while in the input box.
+
+[![screenshot of https://b64.wayl.one](http://shots.wayl.one/shot/?url=https://b64.wayl.one&height=450&width=800&scaled_width=800&scaled_height=450&selectors=)](https://b64.wayl.one)
