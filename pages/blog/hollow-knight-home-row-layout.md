@@ -173,10 +173,10 @@ I made my way over to the soul master, dying several times along the way to a
 few [Soul Twisters](https://hollowknight.fandom.com/wiki/Soul_Twister), its
 time to battle.
 
-![hollow-knight-keeb-run-soul-meeting-master.mp4](/api/file/2d664476-ac45-4461-8e33-43211d493e9e.mp4)
+![hollow-knight-keeb-run-soul-meeting-master.mp4](https://dropper.wayl.one/api/file/2d664476-ac45-4461-8e33-43211d493e9e.mp4)
 
 After beating his second room, (this clip makes him look way too easy as he
 wasn't targeting me fore some reason at the end), I picked up desolate dive,
 which brings a new key combo to get familiar with down+cast.
 
-![hollow-knight-keeb-run-soul-master-finish.mp4](/api/file/af9df166-33cd-4260-85df-910e8a18116c.mp4)
+![hollow-knight-keeb-run-soul-master-finish.mp4](https://dropper.wayl.one/api/file/af9df166-33cd-4260-85df-910e8a18116c.mp4)
