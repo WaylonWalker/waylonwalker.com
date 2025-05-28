@@ -16,7 +16,6 @@ guidance, but mostly just figuring it out.  I only just discovered the
 [[reznormichael-hollow-knight-completion-check]] which got me an extra 2% for
 a few items I must have got and not saved on, because I was sure I had them.
 
-
 ## Controller
 
 Hollow Knight is a game that can be played with keyboard or controller, You can
@@ -58,7 +57,6 @@ asdf a try for arrow keys.  This will work much more akin to a fight stick
 where each finger has a primary direction instead of using one finger for both
 up and down.
 
-
 !!! Note vim keys, but mirrored
     I chose to mirror vim keys with down towards the middle.  I had it the other
     way, but when I played, I kept pressing it the other way.
@@ -84,7 +82,7 @@ up and down.
 ## This seems weird
 
 So Ya, I know it's weird. I did some searching wasn't able to find much other
-than this one [ reddit post ](https://www.reddit.com/r/KeyboardLayouts/comments/18kdnl0/using_asdf_instead_of_wasd_for_gaming/)
+than this one [reddit post](https://www.reddit.com/r/KeyboardLayouts/comments/18kdnl0/using_asdf_instead_of_wasd_for_gaming/)
 talking about using asdf.  oddly one person reccommended sdfg, this souds so
 much like vim, which makes a lot of sense, but brings back moving fingers off
 of home row position or using one finger for down and right, which aint gonna
@@ -113,7 +111,6 @@ So my son is playing along with me, new save as well. He went with wasd and
 mouse, while this sounds insane to me to use mouse for clicking and no movement
 the natural feel that it has, has him blazing through faster than he does on
 controller, doing pogos he's never done before.
-
 
 ## False Knight down
 
@@ -169,3 +166,17 @@ this, so I really have no idea what it is.  During the thorny area it was in
 and out and right as I entered the city it locked on top and did not leave.
 
 ![image](https://dropper.wayl.one/api/file/f2fe3da0-9078-4292-9fef-9f4efd306d63.webp)
+
+## Soul Master
+
+I made my way over to the soul master, dying several times along the way to a
+few [Soul Twisters](https://hollowknight.fandom.com/wiki/Soul_Twister), its
+time to battle.
+
+![hollow-knight-keeb-run-soul-meeting-master.mp4](/api/file/2d664476-ac45-4461-8e33-43211d493e9e.mp4)
+
+After beating his second room, (this clip makes him look way too easy as he
+wasn't targeting me fore some reason at the end), I picked up desolate dive,
+which brings a new key combo to get familiar with down+cast.
+
+![hollow-knight-keeb-run-soul-master-finish.mp4](/api/file/af9df166-33cd-4260-85df-910e8a18116c.mp4)
