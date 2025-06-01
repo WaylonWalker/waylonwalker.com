@@ -48,3 +48,10 @@ set("n", "<f4>", "]s")
 set("n", "<f5>", "[s")
 set("n", "<f6>", "<cmd>Telescope spell_suggest<cr>")
 ```
+
+## One Failure
+
+I went down a long rabbit hole before this trying to populate the quickfix with
+spelling errors, I tried looking for existing plugins, tried to get ai to give
+me a good prototype to start with, and everything was over complicated.  So far
+I'm really liking this setup.
