@@ -17,6 +17,8 @@ secure enough that I can leave it, but not secure enough that I want to leave
 it unlocked.  So when I need to leave it behind for the restroom I need to lock
 it up.
 
+[arch wiki](https://man.archlinux.org/man/extra/i3lock/i3lock.1.en)
+
 
 ``` bash
 paru -S i3lock
@@ -44,3 +46,17 @@ You can use your window manager or something more generic like xbindkeys to set
 a hotkey. This way you don't have to open a terminal and type out the command
 every time you leave your desk.  You can just press something like `SUPER+L`
 like you would on other OS's.
+
+## Fancy
+
+
+If you like it a bit fancier, you can use `i3lock-fancy`, it can blur,
+pixelate, and greyscale your current screen.  I did not really like this
+because you can still tell what is going on the screen.  It's probably secure
+enough and looks better, but I went with regular `i3lock`.
+
+``` bash
+paru -S i3lock-fancy-git
+# or
+apt install i3lock-fancy
+```
