@@ -3,6 +3,7 @@ date: 2025-03-01 10:39:28
 templateKey: blog-post
 title: THPS 1 School Gaps
 tags:
+  - thps-gaps
   - gaming
 published: True
 
