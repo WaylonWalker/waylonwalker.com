@@ -9,8 +9,8 @@ published: True
 ---
 
 I've gone too long without a proper spellcheck setup in nvim.  I know it's
-there, I just don't use it, I don't have the right key binds to make it work,
-and its clunky.
+there, I just don't use it, I don't have the right keybinds, like I do with
+[[vim-date]], to make it work, and its clunky.
 
 ## Default keybinds
 
