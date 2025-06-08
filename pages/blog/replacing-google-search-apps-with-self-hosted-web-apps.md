@@ -1,9 +1,11 @@
 ---
 date: 2025-05-22 14:31:29
 templateKey: blog-post
-title: replacing google search apps with self hosted web apps
+title: tinyapps
 tags:
   - self-hosted
+  - slash
+  - meta
 published: True
 
 ---
@@ -11,7 +13,11 @@ published: True
 I'm working on replacing my usage of google inline search apps with real apps,
 these are ones that I create and host on my own homelab.  The first three that
 I created are mostly chatgpt based, with a bit of hand edit after the fact,
-uploaded to minio and become an app on my [k8s-pages](<https://github.com/waylonwalker/k8s-pages>
+uploaded to minio and become an app on my
+[k8s-pages](https://github.com/waylonwalker/k8s-pages)
+
+!!! Note renamed
+    The original title of this post was "Replacing Google Search Apps With Self Hosted Web Apps"
 
 I'm leaning on [[web-wakelock]] to keep the screen on while these apps are
 running, primarily clos, timer, and stopwatch.
