@@ -19,7 +19,6 @@ it up.
 
 [arch wiki](https://man.archlinux.org/man/extra/i3lock/i3lock.1.en)
 
-
 ``` bash
 paru -S i3lock
 # or
@@ -48,7 +47,6 @@ every time you leave your desk.  You can just press something like `SUPER+L`
 like you would on other OS's.
 
 ## Fancy
-
 
 If you like it a bit fancier, you can use `i3lock-fancy`, it can blur,
 pixelate, and greyscale your current screen.  I did not really like this
