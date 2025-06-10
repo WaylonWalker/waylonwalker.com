@@ -9,6 +9,8 @@ published: false
 
 Overrated underrated command line applications
 
+* Ship More
+* Ship Less - get feedback and apply feedback, build the right things
 
 ## kedro YouTube series
 
@@ -19,6 +21,7 @@ series, I hope to make a sub three minute video within one or two takes, no
 edits, all straight from obs.
 
 ## written
+
 * how I kedro 8/16
 * what is kedro 8/17
 * kedro new 8/18
@@ -38,8 +41,8 @@ edits, all straight from obs.
 
 * Comprehensive nodes
 * modular piplines 8/29
-    * kedro pipeline package
-    * kedro pipeline pull
+  * kedro pipeline package
+  * kedro pipeline pull
 
 * parameters
 * pipeline registry
@@ -86,7 +89,6 @@ cannon 370ms
 
 ## stream ideas
 
-
 auto pyflyby
 
 ``` python
@@ -100,19 +102,19 @@ existing_flies = [replace(t) for t in Path("/home/u_walkews/.pyflyby").read_text
 
 Avoid serious version conflict issues, and use a virtual environment anytime you are running python, here are three ways you can setup a kedro virtual environment.
 
-Full Post 👉 https://waylonwalker.com/kedro-environment/
+Full Post 👉 <https://waylonwalker.com/kedro-environment/>
 
 ―――――――― Kedro ―――――――――――――
 
-All of my kedro aticles: https://waylonwalker.com/kedro/
+All of my kedro aticles: <https://waylonwalker.com/kedro/>
 
-Full kedro series https://www.youtube.com/watch?v=bw5_FWDVRpU&list=PLTRNG6WIHETCoPt5gAKYSH_HCZvE_r41n
+Full kedro series <https://www.youtube.com/watch?v=bw5_FWDVRpU&list=PLTRNG6WIHETCoPt5gAKYSH_HCZvE_r41n>
 
-Docs: https://kedro.readthedocs.io/en/stable/
+Docs: <https://kedro.readthedocs.io/en/stable/>
 
 ―――――――― Socials ――――――――――――
 
-twitter:  https://twitter.com/_WaylonWalker
-twitch: https://www.twitch.tv/waylonwalker
-github: https://github.com/waylonwalker/
-twitch: https://www.twitch.tv/waylonwalker
+twitter:  <https://twitter.com/_WaylonWalker>
+twitch: <https://www.twitch.tv/waylonwalker>
+github: <https://github.com/waylonwalker/>
+twitch: <https://www.twitch.tv/waylonwalker>
