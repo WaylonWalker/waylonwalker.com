@@ -11,8 +11,6 @@ jinja: True
 
 ---
 
-this is what I'm [[now|upto]] work nope again again
-
 👋 Hi, I am Waylon Walker.  Husband, Father of two, and creator things on the
 web, learning, and teaching others.  I play lots of Minecraft, make art, and
 skate everyday with my kids.  I finish the day binging episodes of Big Bang
