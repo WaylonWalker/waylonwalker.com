@@ -12,7 +12,6 @@ jinja: true
 
 This post is a work in progress.
 
-
 Markata is the static site generator that I created to build my website [[
 about-this-site ]].  I built it for me and I enjoy using it.  I know everying
 it can do and I can extend it to do more easily.  I have set it up for some
@@ -34,12 +33,13 @@ website, but I really lacked the depth of knowledge in the js ecosystem to
 really work on it effectively.  For instance when it got slow, it was hard for
 me to profile and find out why.  What I really wanted was my site written in
 python, which I knew the ecosystem for very well, but I did not find the
-existing site generators easy to extend to do the things I needed.  Naievly I
+existing site generators easy to extend to do the things I needed.  Naively I
 thought it would be easier to just build my own than learn how to make one do
 what I wanted it to.  Not invented here syndrome hitting hard.
 
-> I really lacked the depth of knowledge in the js ecosystem to really work on
-> it (gatsby) effectively.
+!!! Note "In their Defense"
+    I really lacked the depth of knowledge in the js ecosystem to really work on
+    it (gatsby) effectively.
 
 ## Plugins all the way down
 
@@ -54,8 +54,7 @@ and wanted to build something with based on pluggy when I had started markata.
 
 I have more posts about markata in the [[markata-feed]].
 
-do the jinja
-
 {% for post in markata.feeds.markatafeed.map(reverse=True) %}
+
 * [{{post.title}}](/{{post.slug}}) - {{post.date}}
 {% endfor %}
