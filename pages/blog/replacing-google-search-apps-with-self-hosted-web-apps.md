@@ -63,3 +63,13 @@ with the differnt modes and make sure that for instance you don't keep typing
 in the input box while in help mode, or decode/encode while in the input box.
 
 [![screenshot of https://b64.wayl.one](http://shots.wayl.one/shot/?url=https://b64.wayl.one&height=450&width=800&scaled_width=800&scaled_height=450&selectors=)](https://b64.wayl.one)
+
+## PocketCal
+
+This one is not mine, it's made by [Cassidy
+Williams](https://cassidoo.co/post/pocketcal-build-log/)), but is within the
+ethos and deserves a mention here.  Its a single page calendar that is a static
+site completely rendered on the front end, data is stored in the url as you
+interact with it.  None of your data goes to a server.
+
+[![screenshot of https://pocketcal.com](http://shots.wayl.one/shot/?url=https://pocketcal.com&height=450&width=800&scaled_width=800&scaled_height=450&selectors=)](https://pocketcal.com)
