@@ -17,6 +17,7 @@ def hover_links(doc):
     wikilinks = doc.xpath("//a[@class='wikilink']")
     hoverlinks = doc.xpath("//a[@class='hoverlink']")
 
+    print(f"found {len(wikilinks)} wikilinks and {len(hoverlinks)} hoverlinks")
     for link in wikilinks + hoverlinks:
         parent = link.getparent()
         classes = parent.get("class", "").split()
@@ -105,23 +106,37 @@ def hover_links(doc):
 def post_render(markata):
     "Hook to replace youtubes on images.waylonwalker.com with mp4's if they exist"
 
-    should_prettify = markata.config.get("prettify_html", False)
+    print("looking for wikilinks")
     with markata.cache as cache:
-        for article in markata.filter("not skip"):
-            key = markata.make_hash("wikilink_hover", article.html)
-            html_from_cache = markata.precache.get(key)
+        for post in markata.filter("not skip"):
+            if post.html is None:
+                print("No html for post:", post.slug)
+                continue
 
-            if "wikilink" in article.html or "hoverlink" in article.html:
-                if html_from_cache is None:
-                    doc = html.fromstring(article.html)
-                    hover_links(doc)
-                    if should_prettify:
-                        html_str = html.tostring(
-                            doc, pretty_print=True, encoding="unicode"
-                        )
-                    else:
-                        html_str = html.tostring(doc, encoding="unicode")
-                    cache.set(key, html_str)
-                else:
-                    html_str = html_from_cache
-                article.html = html_str
+            if isinstance(post.html, dict):
+                for key, post_html in post.html.items():
+                    post.html[key] = do_hover_links(
+                        cache, markata, post_html, post.slug
+                    )
+            else:
+                post.html = do_hover_links(cache, markata, post.html, post.slug)
+
+
+def do_hover_links(cache, markata, post_html, post_slug):
+    should_prettify = markata.config.get("prettify_html", False)
+    key = markata.make_hash("wikilink_hover", post_html)
+    html_from_cache = markata.precache.get(key)
+    if "wikilink" in post_html or "hoverlink" in post_html:
+        if html_from_cache is None:
+            doc = html.fromstring(post_html)
+            hover_links(doc)
+            if should_prettify:
+                html_str = html.tostring(doc, pretty_print=True, encoding="unicode")
+            else:
+                html_str = html.tostring(doc, encoding="unicode")
+            cache.set(key, html_str)
+        else:
+            html_str = html_from_cache
+        return html_str
+    else:
+        return post_html
