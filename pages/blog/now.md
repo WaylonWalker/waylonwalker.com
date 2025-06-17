@@ -6,7 +6,12 @@ tags:
   - slash
 published: True
 
+aliases:
+  - doing
+  - upto
+
 ---
+
 
 This page is meant to be simple view into what is happening in my life right now. Inspired by [@NowNowNow](https://nownownow.com/). and Derek Sivers.
 
@@ -29,7 +34,7 @@ Last Update 2025-05-22 14:27:47
 
 Last update Fri Jan 31 08:43:10 PM CST 2025
 
-* Heavy Focus in on [[ markata ]], upcoming [[ markata-search ]] and [[ markata-didyoumean ]]
+* Heavy Focus in on [[markata]], upcoming [[ markata-search ]] and [[ markata-didyoumean ]]
 * Moving from Arch to Bazzite, I'm fully here but making everything just that
   much smoother in a container based world.
 * kubernetes - trying to get better
