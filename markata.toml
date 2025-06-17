@@ -7,6 +7,9 @@
 #
 #                                           waylonwalker.com
 
+[markata.jinja_env]
+templates_dir = ["templates"]  # Additional template paths to search
+
 [markata]
 # bump site version to bust GitHub actions cache
 site_version = 31
@@ -31,7 +34,7 @@ hooks = [
     # "plugins.boosted_link",
     "plugins.permalink_aria",
     "plugins.tag_aggregator",
-    # "plugins.generate_feed_conf",
+    "plugins.generate_feed_conf",
     # 'plugins.server',
     "markata.plugins.publish_source",
     # "markata.plugins.publish_dev_to_source",
@@ -428,6 +431,7 @@ slug = 'thoughts-feed'
 filter = "date<=today and templateKey in ['thoughts',] and published"
 sort = "date"
 reverse = false
+card_template='feed_card_sm.html'
 description = 'A feed of my thoughts of links from the internet originally posted on https://thoughts.waylonwalker.com'
 
 [[markata.feeds]]
@@ -2646,3 +2650,143 @@ filter = "date<=today and 'thps-gaps' in tags.lower() and published"
 sort = "date"
 reverse = true
 description = "Tony Hawk Pro Skater Gaps Project, getting clips of every gap in the game"
+
+[[markata.feeds]]
+slug = "longhorn"
+filter = "date<=today and 'longhorn' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about longhorn"
+
+[[markata.feeds]]
+slug = "nextcloud"
+filter = "date<=today and 'nextcloud' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about nextcloud"
+
+[[markata.feeds]]
+slug = "hollow-knight"
+filter = "date<=today and 'hollow-knight' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about hollow-knight"
+
+[[markata.feeds]]
+slug = "ruff"
+filter = "date<=today and 'ruff' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about ruff"
+
+[[markata.feeds]]
+slug = "otel"
+filter = "date<=today and 'otel' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about otel"
+
+[[markata.feeds]]
+slug = "grafana"
+filter = "date<=today and 'grafana' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about grafana"
+
+[[markata.feeds]]
+slug = "vhs"
+filter = "date<=today and 'vhs' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about vhs"
+
+[[markata.feeds]]
+slug = "awesomewm"
+filter = "date<=today and 'awesomewm' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about awesomewm"
+
+[[markata.feeds]]
+slug = "video-editor"
+filter = "date<=today and 'video-editor' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about video-editor"
+
+[[markata.feeds]]
+slug = "oss"
+filter = "date<=today and 'oss' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about oss"
+
+[[markata.feeds]]
+slug = "versioning"
+filter = "date<=today and 'versioning' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about versioning"
+
+[[markata.feeds]]
+slug = "writing"
+filter = "date<=today and 'writing' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about writing"
+
+[[markata.feeds]]
+slug = "event"
+filter = "date<=today and 'event' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about event"
+
+[[markata.feeds]]
+slug = "recommended"
+filter = "date<=today and 'recommended' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about recommended"
+
+[[markata.feeds]]
+slug = "observability"
+filter = "date<=today and 'observability' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about observability"
+
+[[markata.feeds]]
+slug = "vibes"
+filter = "date<=today and 'vibes' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about vibes"
+
+[[markata.feeds]]
+slug = "fleeting"
+filter = "date<=today and 'fleeting' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about fleeting"
+
+[[markata.feeds]]
+slug = "loki"
+filter = "date<=today and 'loki' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about loki"
+
+[[markata.feeds]]
+slug = "tempo"
+filter = "date<=today and 'tempo' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about tempo"
+
+[[markata.feeds]]
+slug = "vector"
+filter = "date<=today and 'vector' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about vector"
