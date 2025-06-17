@@ -46,7 +46,12 @@ def cli(app, markata):
                     else:
                         config += f'[[markata.feeds]]\nslug = "{tag.lower()}"\nfilter = "date<=today and \'{tag}\' in tags and published"\nsort = "date"\nreverse = true\ndescription = "Posts about {tag}"\n\n'
 
-        console.print(config)
-        import pyperclip
+        console.print(config, markup=False)
+        try:
+            import pyperclip
 
-        pyperclip.copy(config)
+            pyperclip.copy(config)
+        except ImportError:
+            console.print(
+                "[red]ERROR: pyperclip is not installed. Please install it to get results in your clipboard.[/red]"
+            )
