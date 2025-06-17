@@ -8,9 +8,11 @@ tags:
 
 ---
 
-I've been using gitingest [[ thoughts-516 ]] for quite awhile to serialize git repo into llm
-friendly text files.  This gives tools context about repos that are not in the
-training data so that it knows about it and how to use the code in the repo.
+I've been using [gitingest](https://gitingest.com/) web ui [[ thoughts-516 ]]
+for quite awhile to serialize git repo into llm friendly text files.  This
+gives tools context about repos that are not in the training data so that it
+knows about it and how to use the code in the repo.  gitingest also has a
+python library [[ thoughts-517 ]]
 
 I had a use case for a project not yet on git, and found yek.
 
