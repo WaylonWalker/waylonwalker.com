@@ -7,9 +7,6 @@
 #
 #                                           waylonwalker.com
 
-[markata.jinja_env]
-templates_dir = ["templates"]  # Additional template paths to search
-
 [markata]
 # bump site version to bust GitHub actions cache
 site_version = 31
