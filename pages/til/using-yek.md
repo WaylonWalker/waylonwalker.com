@@ -8,7 +8,7 @@ tags:
 
 ---
 
-I've been using gitingest for quite awhile to serialize git repo into llm
+I've been using gitingest [[ thoughts-516 ]] for quite awhile to serialize git repo into llm
 friendly text files.  This gives tools context about repos that are not in the
 training data so that it knows about it and how to use the code in the repo.
 
