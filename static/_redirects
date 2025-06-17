@@ -47,8 +47,11 @@
 /key-edit                                                   http://www.keyboard-layout-editor.com/##@_backcolor=%231f1f1f&name=Waylon's%20Poker3&switchMount=cherry&switchBrand=cherry&switchType=MX1A-C1xx&pcb:true&plate:false%3B&@_c=%23393b3b&t=%238f8f8f%3B&=~%0A%60&_a:0%3B&=!%0A1%0A%0A%0AF1&=%2F@%0A2%0A%0A%0AF2&=%23%0A3%0A%0A%0AF3&=$%0A4%0A%0A%0AF4&=%25%0A5%0A%0A%0AF5&=%5E%0A6%0A%0A%0AF6&=%2F&%0A7%0A%0A%0AF7&=*%0A8%0A%0A%0AF8&=(%0A9%0A%0A%0AF9&=)%0A0%0A%0A%0AF10&=%2F_%0A-%0A%0A%0AF11&=+%0A%2F=%0A%0A%0AF12&_w:2%3B&=Backspace%0A%0A%0A%0ADEL%3B&@_a:4&w:1.5%3B&=Tab&_a:0%3B&=Q%0A%0A%0A%0A%F0%9F%94%88&=W%0A%0A%0A%0Afword&_x:1%3B&=R%0A%0A%0A%0A%F0%9F%94%8A&=T%0A%0A%0A%0A%60&=Y%0A%0A%0A%0Ayank%20line&=U%0A%0A%0A%0Aundo&=I%0A%0A%0A%0AHome&=O%0A%0A%0A%0Anew%20line&=P%0A%0A%0A%0Apaste&_a:4%3B&=%7B%0A%5B&=%7D%0A%5D&_a:0&w:1.5%3B&=%7C%0A%5C%0A%0A%0APRTCSN%3B&@_a:4&w:1.25&w2:1.75%3B&=Fn&_x:0.5&a:0%3B&=A%0A%0A%0A%0Aend&=S%0A%0A%0A%0A%E2%8F%AE&=D%0A%0A%0A%0Adel&_n:true%3B&=F%0A%0A%0A%0A%E2%8F%AD&=G%0A%0A%0A%0A%E2%8F%AF&=H%0A%0A%0A%0ALeft&=J%0A%0A%0A%0ADown&=K%0A%0A%0A%0AUp&=L%0A%0A%0A%0ARight&_a:4%3B&=%2F:%0A%2F%3B&_a:0%3B&=%22%0A'%0A%0A%0Adel&_a:4&w:2.25%3B&=Enter%3B&@_w:2.25%3B&=Shift&_a:0%3B&=Z%0A%0A%0A%0Aapp&_a:4%3B&=X&=C&=V&_a:0%3B&=B%0A%0A%0A%0Abword&_a:4%3B&=N&_a:0%3B&=M%0A%0A%0A%0ADefault&=%3C%0A,%0A%0A%0AL2&=%3E%0A.%0A%0A%0AL3&=%3F%0A%2F%2F%0A%0A%0AL4&_a:4&w:2.75%3B&=Shift%3B&@_w:1.25%3B&=Ctrl&_w:1.25%3B&=Win&_w:1.25%3B&=Alt&_a:3&w:6.25%3B&=%0A%0A%0A%0Aalt%20tab&_a:4&w:1.25%3B&=Alt&_w:1.25%3B&=FN&_w:1.25%3B&=PN&_w:1.25%3B&=Ctrl%3B&@_rx:1.25&y:1&x:2.25&a:0%3B&=E%0A%0A%0A%0A%F0%9F%94%89
 
 # profile image
-/profile                                                    https://images.waylonwalker.com/8bitc.png
-/p                                                          https://images.waylonwalker.com/8bitc.png
+/profile                                                    https://waylonwalker.com/8bitc.png
+/.well-known/profile                                        https://waylonwalker.com/8bitc.png
+/avatar                                                     https://waylonwalker.com/8bitc.png
+/.well-known/avatar                                         https://waylonwalker.com/8bitc.png
+/p                                                          https://waylonwalker.com/8bitc.png
 
 # latest-post
 
