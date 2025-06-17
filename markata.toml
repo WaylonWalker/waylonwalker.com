@@ -2433,13 +2433,6 @@ reverse = true
 description = "Posts about auth"
 
 [[markata.feeds]]
-slug = "fatapi"
-filter = "date<=today and 'fatapi' in str(tags).lower() and published"
-sort = "date"
-reverse = true
-description = "Posts about fatapi"
-
-[[markata.feeds]]
 slug = "pywebview"
 filter = "date<=today and 'pywebview' in str(tags).lower() and published"
 sort = "date"
@@ -2482,32 +2475,11 @@ reverse = true
 description = "Posts about pytest"
 
 [[markata.feeds]]
-slug = "string"
-filter = "date<=today and 'string' in str(tags).lower() and published"
-sort = "date"
-reverse = true
-description = "Posts about string"
-
-[[markata.feeds]]
 slug = "websockets"
 filter = "date<=today and 'websockets' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about websockets"
-
-[[markata.feeds]]
-slug = "select"
-filter = "date<=today and 'select' in str(tags).lower() and published"
-sort = "date"
-reverse = true
-description = "Posts about select"
-
-[[markata.feeds]]
-slug = "where"
-filter = "date<=today and 'where' in str(tags).lower() and published"
-sort = "date"
-reverse = true
-description = "Posts about where"
 
 [[markata.feeds]]
 slug = "urlib"
@@ -2592,8 +2564,6 @@ filter = "'plugin-report' in str(tags).lower()"
 sort = "date"
 reverse = true
 description = "Markata build plugin reports"
-
-# ---- GENERATED TAGS ----
 
 [[markata.feeds]]
 slug = "ahrefs"
