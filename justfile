@@ -17,6 +17,9 @@ assets:
 clean:
     markata clean
 build:
+    #!/usr/bin/env bash
+    set -euxo pipefail
+    . ./.venv/bin/activate
     markata build
 serve:
     python -m http.server -b 0.0.0.0 8005 -d markout
@@ -158,4 +161,10 @@ release:
    git push --tags
 
 dev:
-   mc cp ./markout/ minio-wayl-one/k8s-pages/wwdev --recursive
+   # mc cp ./markout/ minio-wayl-one/k8s-pages/wwdev --recursive
+   # mc mirror ./markout minio-wayl-one/k8s-pages/wwdev --overwrite --watch --exclude "*.log"
+   uvx --with awscli aws s3 sync ./markout s3://k8s-pages/wwdev --exclude "*.log"
+
+get-fragmention:
+    curl https://raw.githubusercontent.com/chapmanu/fragmentions/refs/heads/master/fragmention.min.js > static/fragmention.min.js
+    curl https://raw.githubusercontent.com/kartikprabhu/fragmentioner/refs/heads/master/fragmentioner.js > static/fragmentioner.js
