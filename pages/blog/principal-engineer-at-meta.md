@@ -18,6 +18,10 @@ on given title an thumbnail, but turned out to be very impactful.  Jake is such
 a smart guy with a lot of great insights, and I can tell he thinks really quick
 on his feet, he just pulled all of these things out of his head on the fly.
 
+!!! Note "WIP"
+    I'm still working on this post, have a scheduled publish date, but hope to
+    finish before then.
+
 ## Long onboarding
 
 Jake had a super long period of onboarding at meta, he came in as a seasoned
