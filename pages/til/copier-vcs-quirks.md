@@ -57,8 +57,5 @@ day to create posts on this blog using [[ tmux-copier-templates ]].  This is
 the first time this quirk has got me and it had me puzzled for 45 minutes as I
 did not expect this behavior whatsoever.
 
-I have {% markata.feeds.copier.posts | length %} posts on copier, wow I did not
-realize it was that many or I had been using it for so long.
-
 {% for post in markata.feeds.meta.posts %}* [[ {{post.slug}} ]] - {{post.description}}
 {% endfor %}
