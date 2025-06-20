@@ -17,7 +17,6 @@ def hover_links(doc):
     wikilinks = doc.xpath("//a[@class='wikilink']")
     hoverlinks = doc.xpath("//a[@class='hoverlink']")
 
-    print(f"found {len(wikilinks)} wikilinks and {len(hoverlinks)} hoverlinks")
     for link in wikilinks + hoverlinks:
         parent = link.getparent()
         classes = parent.get("class", "").split()
@@ -106,11 +105,9 @@ def hover_links(doc):
 def post_render(markata):
     "Hook to replace youtubes on images.waylonwalker.com with mp4's if they exist"
 
-    print("looking for wikilinks")
     with markata.cache as cache:
         for post in markata.filter("not skip"):
             if post.html is None:
-                print("No html for post:", post.slug)
                 continue
 
             if isinstance(post.html, dict):
