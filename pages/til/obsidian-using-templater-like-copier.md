@@ -5,6 +5,8 @@ title: Obsidian Using Templater Like Copier
 published: true
 tags:
   - obsidian
+  - copier
+
 ---
 
 I've long used copier to create all of my posts for my blog, and it works

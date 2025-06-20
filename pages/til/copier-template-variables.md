@@ -5,6 +5,7 @@ title: copier template variables
 tags:
   - python
   - bash
+  - copier
 
 ---
 

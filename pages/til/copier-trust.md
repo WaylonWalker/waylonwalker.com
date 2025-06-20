@@ -5,6 +5,7 @@ title: copier trust
 published: true
 tags:
   - python
+  - copier
 
 ---
 

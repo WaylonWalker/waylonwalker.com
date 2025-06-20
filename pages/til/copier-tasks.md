@@ -6,6 +6,7 @@ tags:
   - python
   - cli
   - linux
+  - copier
 
 ---
 
@@ -27,7 +28,6 @@ _tasks:
 I have put the script in `~/.local/bin` so that I know it's always on my
 `$PATH`.  It will reach back into the `copier.yml` and update the default
 number.
-
 
 ``` bash
 #!/bin/bash
