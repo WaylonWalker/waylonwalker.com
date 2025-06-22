@@ -5,14 +5,56 @@ _default:
 version := `cat version`
 
 # documentation
+default:
+    #!/usr/bin/env bash
+    set -euxo pipefail
+    just --choose
+
+setup:
+    #!/usr/bin/env bash
+    set -euxo pipefail
+    just clone-assets
+    just pull-assets
+    just venv
+
 assets:
     #!/usr/bin/env bash
     set -euxo pipefail
+    juts clone-assets
+    just pull-assets
+    just push-assets
+
+clone-assets:
+    #!/usr/bin/env bash
+    set -euxo pipefail
+    if [ ! -d waylonwalker.com-obsidian-assets ]; then
+    git clone https://github.com/waylonwalker/waylonwalker.com-obsidian-assets.git
+    fi
+
+push-assets:
+    #!/usr/bin/env bash
+    set -euxo pipefail
     cd waylonwalker.com-obsidian-assets
+    if [ -n "$(git status --porcelain)" ]; then
     git add .
     git commit -m 'update assets'
     git push
+    else
+    echo "no changes"
+    fi
 
+pull-assets:
+    #!/usr/bin/env bash
+    set -euxo pipefail
+    cd waylonwalker.com-obsidian-assets
+    git pull
+
+venv:
+    #!/usr/bin/env bash
+    set -euxo pipefail
+    uv venv
+    source .venv/bin/activate
+    uv pip install -r requirements.txt
 
 clean:
     markata clean
