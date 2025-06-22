@@ -42,7 +42,7 @@ His key metric is how well is this person receiving information.  If they are
 coming back with the same questions every 3 months he is going to start telling
 them he does not have the time.
 
-<https://youtube.com/clip/Ugkxjwsds5Z9qqqIlJonyHNZDy4B_ArcLjNx?si=9Oi-ODqqYR215kJn>
+[![✂️ Always Open for a Chat](https://i.ytimg.com/vi/QUhC5BDZt-E/maxresdefault.jpg)](https://youtube.com/clip/Ugkxjwsds5Z9qqqIlJonyHNZDy4B_ArcLjNx?si=9Oi-ODqqYR215kJn)
 
 I've had a fair amount of personal experience with this.  Early in my career I
 experience quite a bit of higher ranks feeling untouchable, they were
@@ -68,20 +68,20 @@ relationships or job opportunities.
 
 ## If we are not getting enough feedback, move faster
 
-<https://youtube.com/clip/UgkxBSPjfIERR8JcJXCOVXduYCRyn8VO6Kl0?si=MVaRDQROXC0D7Wn9>
+[![✂️ rollout faster](https://i.ytimg.com/vi/QUhC5BDZt-E/maxresdefault.jpg)](https://youtube.com/clip/UgkxBSPjfIERR8JcJXCOVXduYCRyn8VO6Kl0?si=MVaRDQROXC0D7Wn9)
 
 ## Take Down Prod Sometimes
 
-<https://youtube.com/clip/Ugkx-Jofyn4OmTOkxFzxU__5_7BAeG3O3IkE?si=8yAj3H_ZB-7vjw0W>
+[![✂️ take down prod sometimes](https://i.ytimg.com/vi/QUhC5BDZt-E/maxresdefault.jpg)](https://youtube.com/clip/Ugkx-Jofyn4OmTOkxFzxU__5_7BAeG3O3IkE?si=8yAj3H_ZB-7vjw0W)
 
 ## Go where you are rare
 
-<https://youtube.com/clip/UgkxZHKW3EHYH9Z8qPvyNlLQYN55BkufhmsJ?si=SwkO7bfrE16WFoyN>
+[![✂️ go where your rare](https://i.ytimg.com/vi/QUhC5BDZt-E/maxresdefault.jpg)](https://youtube.com/clip/UgkxZHKW3EHYH9Z8qPvyNlLQYN55BkufhmsJ?si=SwkO7bfrE16WFoyN)
 
 ## Do work that you don't get credit for
 
-<https://youtube.com/clip/UgkxFp3xC-SrxNtLw3FW24b26DRhNrMra3m8?si=5I5JhuxwNFKWZsL7>
+[![✂️ 20% of time won't get credit](https://i.ytimg.com/vi/QUhC5BDZt-E/maxresdefault.jpg)](https://youtube.com/clip/UgkxFp3xC-SrxNtLw3FW24b26DRhNrMra3m8?si=5I5JhuxwNFKWZsL7)
 
 ## Work Diary - the value of writing things down
 
-<https://youtube.com/clip/UgkxBC5Y_WL40hiEHY_zqjOVkLwkSQyyYvcC?si=l_tsY238JstdFSaA>
+[![✂️ work diary](https://i.ytimg.com/vi/QUhC5BDZt-E/maxresdefault.jpg)](https://youtube.com/clip/UgkxBC5Y_WL40hiEHY_zqjOVkLwkSQyyYvcC?si=l_tsY238JstdFSaA)
