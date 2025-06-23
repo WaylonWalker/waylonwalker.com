@@ -57,5 +57,5 @@ day to create posts on this blog using [[ tmux-copier-templates ]].  This is
 the first time this quirk has got me and it had me puzzled for 45 minutes as I
 did not expect this behavior whatsoever.
 
-{% for post in markata.feeds.meta.posts %}* [[ {{post.slug}} ]] - {{post.description}}
+{% for post in markata.feeds.copier.posts %}* [[ {{post.slug}} ]] - {{post.description}}
 {% endfor %}
