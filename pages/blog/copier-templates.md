@@ -6,6 +6,7 @@ tags:
   - python
   - linux
   - cli
+  - copier
 published: false
 jinja: false
 
