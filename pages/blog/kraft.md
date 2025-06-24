@@ -4,7 +4,7 @@ templateKey: blog-post
 title: kraft
 tags:
   - gaming
-published: False
+published: True
 
 ---
 
