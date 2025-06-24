@@ -32,6 +32,8 @@ No custom config necessary.
 Supports relative and absolute links. Invalid URLs may have `target_domain` as `None`.
 """
 
+from more_itertools import unique_everseen
+from operator import attrgetter
 import pydantic
 from markata.hookspec import hook_impl, register_attr
 from urllib.parse import urlparse, urljoin
@@ -56,7 +58,7 @@ def post_model(markata: "Markata") -> None:
 
 @hook_impl
 @register_attr("links")
-def post_render(markata: "Markata") -> None:
+def render(markata: "Markata") -> None:
     """
     Collect all links from posts and add to markata.links.
     """
@@ -161,6 +163,7 @@ def post_render(markata: "Markata") -> None:
     # except NameError:
     #     posts = markata.filter("True")
     posts = markata.filter("True")
+
     for post in posts:
         post.inlinks = [
             link
@@ -169,6 +172,7 @@ def post_render(markata: "Markata") -> None:
             and link.target_post.slug == post.slug
             and not link.is_self
         ]
+        post.inlinks = list(unique_everseen(post.inlinks, key=attrgetter("source_url")))
         post.outlinks = [
             link
             for link in links
@@ -176,6 +180,7 @@ def post_render(markata: "Markata") -> None:
             and link.source_post.slug == post.slug
             and not link.is_self
         ]
+        post.outlinks = list(unique_everseen(post.outlinks, key=attrgetter("target_url")))
 
 
 from collections import Counter
@@ -206,3 +211,4 @@ def count_domains(links: List[Dict[str, str]]) -> Counter:
     - Counter of target_domain occurrences
     """
     return Counter(link["target_domain"] for link in links if "target_domain" in link)
+
