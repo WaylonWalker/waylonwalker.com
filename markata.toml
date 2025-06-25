@@ -225,7 +225,7 @@ font_color = "rgb(255,255,255)"
 value = "<title>{{ post.title|e }}</title>"
 
 [[markata.head.link]]
-href='/app-50.css'
+href='/app-52.css'
 rel='stylesheet'
 
 [[markata.head.meta]]
@@ -477,7 +477,7 @@ sort = "date"
 reverse = true
 card_template='feed_card_sm.html'
 partial_template='feed_sm_partial.html'
-description = 'The main feed of the last 10 posts of my thoughts posts'
+description = "The last 10 thoughts (comments) I've written to other people"
 
 [[markata.feeds]]
 slug = 'recently-written'
@@ -629,7 +629,7 @@ sort = "date"
 reverse = true
 card_template='feed_card_sm.html'
 partial_template='feed_sm_partial.html'
-description = 'My latest GitHub Stars'
+description = 'My last 10 GitHub Stars'
 
 [markata.summary]
 grid_attr = ['tags', 'series']
@@ -1520,7 +1520,7 @@ reverse = true
 description = "Posts about docker"
 
 [[markata.feeds]]
-slug = "just"
+slug = "just-feed"
 filter = "date<=today and 'just' in str(tags).lower() and published"
 sort = "date"
 reverse = true
@@ -2757,3 +2757,10 @@ filter = "date<=today and 'vector' in tags and published"
 sort = "date"
 reverse = true
 description = "Posts about vector"
+
+[[markata.feeds]]
+slug = "copier"
+filter = "date<=today and 'copier' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about copier, the python templating cli library."
