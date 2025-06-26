@@ -72,6 +72,19 @@ relationships or job opportunities.
 
 ## Take Down Prod Sometimes
 
+This was an interesting take.  None of us really want to take down prod.  No
+one is advocating for major outages, but this is is not 2005 shipping out
+software on CD's anymore.  This take 100% depends on what you do and where you
+work.  Obviously some sectors cannot take any downtime; nuclear power, cloud
+systems supporting nuclear power, navigation systems, idk theres a bunch of
+stuff.  I bet if you are reading this that aint you.  You're probably writing
+some backend dashboard for the marketing team, or building out a website to
+upload cat photos on ... Wait, thats literally what jake is doing here.
+
+Idea being if you don't occasionally cause some small production issues, you
+probably are not taking enough risk.  You are moving too slow, getting feedback
+too late, your competitors just ran past you.
+
 [![✂️ take down prod sometimes](https://i.ytimg.com/vi/QUhC5BDZt-E/maxresdefault.jpg)](https://youtube.com/clip/Ugkx-Jofyn4OmTOkxFzxU__5_7BAeG3O3IkE?si=8yAj3H_ZB-7vjw0W)
 
 ## Go where you are rare
