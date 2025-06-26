@@ -25,9 +25,10 @@ You want to run containers?
 
 ## "But it’s complicated!"
 
-Shut up.  Close twitter and fucking do something.  Life is complicated. You know what else is complicated? Email. DNS. Life.
-Kubernetes is the least painful way to orchestrate containers at scale.
-**Docker Compose is for your laptop.**
+Shut up.  Close twitter and fucking do something.  Life is complicated. You
+know what else is complicated? Email. DNS. Life. Kubernetes is the least
+painful way to orchestrate containers at scale. **Docker Compose is for your
+laptop.**
 
 * Swarm is dead.
 * Nomad is just sad.
@@ -74,6 +75,20 @@ Compared to what?
 
 Your handcrafted, artisanal, single-node LXC setup running on an Intel NUC from 2014?
 
+Heard of k3s? k0s? No.  These fuckers will have you running kubernetes running
+on your grandpas goddamn gateway 2000 right next to AOL messenger without
+splooging out the the ashes of his Marlboro Reds.
+
+---
+
+## SSH?
+
+You don't need no goddam ssh to install your 200lb gorilla editor so you can
+hand edit your init files and carefully contruct your init system.  This is
+kubernetes, you use the fucking api, all you need is a connection and a
+kubeconfig.  This motherfucker runs containers so you can keep your bitch-ass
+editor where it belongs, off the fucking host machine!
+
 ---
 
 ## "What if it’s overkill?"
@@ -89,10 +104,14 @@ kubernets won't cut over to your broke ass release if that shit don't pass. No
 more writing janky scripts that SSH into prod and run git pull while praying to
 the CI/CD gods.
 
+---
+
 ## "What if I still fuck it up - How do I roll back?"
 
 `k9s` is your best friend, pop that shit open find your broke ass deployment,
 jump owner to the replicaset and roll that bitch back to the working shit.
+
+---
 
 ## I need to scale
 
@@ -102,7 +121,12 @@ server, its fucking cattle.  Load balancing just fucking happens, don't think
 about it just use it, and it will work for your six goddamn friends that
 actually use your shit.
 
+---
+
 ## I want gitops
+
+Let me introduce you to argocd, this fucker uses helm so one fucking command
+and your ass is on the beach while your dev team deploys their own shit.
 
 ---
 
@@ -113,7 +137,6 @@ actually use your shit.
 * There are like 500 open-source projects built just to make it easier.
 * It runs on your laptop, your server, the cloud, and inside your dreams.
 * It *will* make your resume better.
-* It even has a goddamn **dashboard** now.
 
 ---
 
