@@ -124,8 +124,10 @@ def render(markata: "Markata") -> None:
             is_self = False
             if is_internal:
                 target_slug = urlparse(target_url).path.strip("/")
+
+                safe_target_slug = repr(target_slug)
                 possible_target_post = markata.map(
-                    "post", filter=f"slug=='{target_slug}'"
+                    "post", filter=f"slug=={safe_target_slug}"
                 )
                 if len(possible_target_post) == 1:
                     target_post = possible_target_post[0]
@@ -180,7 +182,9 @@ def render(markata: "Markata") -> None:
             and link.source_post.slug == post.slug
             and not link.is_self
         ]
-        post.outlinks = list(unique_everseen(post.outlinks, key=attrgetter("target_url")))
+        post.outlinks = list(
+            unique_everseen(post.outlinks, key=attrgetter("target_url"))
+        )
 
 
 from collections import Counter
@@ -211,4 +215,3 @@ def count_domains(links: List[Dict[str, str]]) -> Counter:
     - Counter of target_domain occurrences
     """
     return Counter(link["target_domain"] for link in links if "target_domain" in link)
-
