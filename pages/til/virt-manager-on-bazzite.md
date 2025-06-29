@@ -8,7 +8,7 @@ tags:
 
 ---
 
-I got virtual machine manager running on two bazzite machines today.  It was a
+I got virtual machine manager running on two Bazzite machines today.  It was a
 bit tricky, more than I thought actually.  I ran into all sorts of
 virtualisation not setup issues when I tried the flatpak.  Then I found that
 Bazzite comes with a `ujust setup-virtualization` command that does all the
@@ -18,10 +18,24 @@ working, this time it feels like flatpak issues.
 In a Hail Mary attempt I got it working by using an ubuntu distrobox container
 to run the UI.  And it worked!
 
+## from the host
+
+From the host we create the container to use from distrobox.  This is an ubuntu
+machine, it can be any os of your choosing, preferably one that you are
+familiar with and contains virt-manager in its package repos.
+
 ``` bash
 distrobox create -i ubuntu
 distrobox enter ubuntu
 ```
+
+## from inside the distrobox container
+
+Now that we are in the distrobox we are no longer in an immutable distro and we
+can easily install anything we want.  I actually like this process.  I might
+have shit like this that I use for a month or a few months, on a normal distro,
+this is fully installed on the os, raises the potential of package conflicts
+and lengthens the update time.
 
 ``` bash
 sudo apt update
