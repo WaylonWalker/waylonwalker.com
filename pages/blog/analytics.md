@@ -13,7 +13,7 @@ I've been posting on this site since 2016, when there was a huge rollout of
 layoffs at the company I was working at at the time.  In fear of being laid off
 personal blog and side projects was at the top of the suggestions so off I
 I started looking at what I needed to do to start building my resume, having a
-went. This site is built on markata, more about that in the [[ colophon ]].
+went. This site is built on [[ markata ]], more about that in the [[ colophon ]].
 
 ![screenshot-2025-01-31T21-23-13-643Z.png](https://dropper.wayl.one/api/file/7b6cf2c2-2299-4320-b58f-b0bebf2d0504.png)
 
@@ -92,6 +92,5 @@ and giving me a reason to take a deeper dive into interesting topics.
 2016 was the year that I created my github account, and really got serious
 about career switching from Mechanical Engineering to Software Engineering.
 All of my 2016 posts are back-dated github stars.
-
 
 ![Post Contributions in 2016](/contributions_2016.svg)
