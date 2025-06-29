@@ -22,17 +22,18 @@ on his feet, he just pulled all of these things out of his head on the fly.
     I'm still working on this post, have a scheduled publish date, but hope to
     finish before then.
 
-## Long onboarding
+## Long On Boarding
 
-Jake had a super long period of onboarding at meta, he came in as a seasoned
+Jake had a super long period of on boarding at meta, he came in as a seasoned
 leader yet took many months to get going.  This was a phase during or near the
-end of the covid-19 pandemic and his team was so swamped they were unable to
+end of the COVID-19 pandemic and his team was so swamped they were unable to
 give him time to help him.  He felt his on boarding was taking longer than he
 wanted, and found backend work at Instagram.  Moving to Instagram he jumped in
 and starting making impact quick and found his way moving up the ladder serving
 as tech lead for several teams.
 
-> I grabbed a ton of clips from this video, but did not for this section as it was kinda long.
+> I grabbed a ton of clips from this video, but did not for this section as it
+> was kinda long.
 
 ## Always open for a Chat
 
@@ -59,7 +60,7 @@ containers, cloud, and good practices into small teams.
 
 I remember a course in college shared the famous quote "There's always time for
 coffee" and it stuck with me.  The demonstration goes that no matter how much
-you fill your day with big rocks and tiny sand particles, theres always a
+you fill your day with big rocks and tiny sand particles, there's always a
 little more room for coffee, and he dumps coffee into a jar that he has already
 filled up.
 
