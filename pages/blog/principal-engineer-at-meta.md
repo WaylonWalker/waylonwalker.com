@@ -18,9 +18,12 @@ on given title an thumbnail, but turned out to be very impactful.  Jake is such
 a smart guy with a lot of great insights, and I can tell he thinks really quick
 on his feet, he just pulled all of these things out of his head on the fly.
 
-!!! Note "WIP"
-    I'm still working on this post, have a scheduled publish date, but hope to
-    finish before then.
+!!! Note "YT Algorithm Gold"
+    I don't know what it is about this title and thumbnail, but it gives me "ex
+    google, ex facebook, ex microsoft, $100M engineer" vibes in a cringy and
+    not satire kind of way.  I would have never clicked on it, it autoplayed
+    after a podcast and it hit, immediately I'm like who are these guys? subd
+    and started this post it was so good.
 
 ## Long On Boarding
 
@@ -90,12 +93,51 @@ too late, your competitors just ran past you.
 
 ## Go where you are rare
 
+I find this interesting.  I've found myself within non-software companies doing
+sofware and data analysis most of my career, the amount of value you can bring
+by being that one guy that knows some pandas, containerization, how to run a vm
+is massive in an org that uses excel as its primary database.  The rest of the
+org generally has massive knowledge in the business, but greatly slowed down by
+their ability to find value in the data.
+
 [![✂️ go where your rare](https://i.ytimg.com/vi/QUhC5BDZt-E/maxresdefault.jpg)](https://youtube.com/clip/UgkxZHKW3EHYH9Z8qPvyNlLQYN55BkufhmsJ?si=SwkO7bfrE16WFoyN)
 
 ## Do work that you don't get credit for
 
+I've worked with a lot of people in my 15 years of professional work, and I can
+tell you the worst ones to work with are the ones that focus too much on value.
+Every ounce of effort they bring needs to be backed by dollars comming into the
+business.  I've seen this shake out a number of ways.  You got the guy who sits
+on his ass all of January waiting for goals to be set, you got the guy who
+holds everything he knows close to his chest so that he is the one that can
+take the glory, and you got the guy who wont ever; refactor his code, cleanup,
+lint, update dependencies, and so on; because that does not have direct line to
+dollars coming into the business.
+
 [![✂️ 20% of time won't get credit](https://i.ytimg.com/vi/QUhC5BDZt-E/maxresdefault.jpg)](https://youtube.com/clip/UgkxFp3xC-SrxNtLw3FW24b26DRhNrMra3m8?si=5I5JhuxwNFKWZsL7)
+
+The clip goes a bit further than this, and hints at things that are going to
+enable you and your org to move faster.  You might shave off 2 minutes off of
+ci, or docker builds.  You might give everyone an easy way to run dev
+containers with production like dependencies in a snap.  You might give them a
+way to clone prod data into a sandbox.  These type of things provide no dollars
+to the company, it's likely that few will notice but damn they add up to an
+efficient running organization.
 
 ## Work Diary - the value of writing things down
 
+This one hits home, for far too long I've been in between note taking systems
+and am finally getting [[ marakta ]] setup to build out a really good
+zettelkasten style work notes.  I've kinda had this on my blog for a long time,
+but not fully.  I think the piece that I am missing here is the dumping ground.
+I don't **yet** have a daily notes implementation that lets me just dump idea
+onto a page that I care little about, but is the process of starting something
+bigger, crosslinking between people, meetings, tasks, and launchdocs.
+
 [![✂️ work diary](https://i.ytimg.com/vi/QUhC5BDZt-E/maxresdefault.jpg)](https://youtube.com/clip/UgkxBC5Y_WL40hiEHY_zqjOVkLwkSQyyYvcC?si=l_tsY238JstdFSaA)
+
+I hadn't heard of the term launchdoc before this, but I took it and I am using
+it.  I generally do an ok doc in the changelog of my products and spice it up
+to go to the announcement chat channel, but I don't fully keep record of it,
+pulling the changelog into a launchdoc gives me that chance to spice it up and
+have the language it needs to go right into chat.
