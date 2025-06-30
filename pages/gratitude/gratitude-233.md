@@ -6,7 +6,7 @@ title: Gratitude 233
 ---
 
 
-Today we washed our van... ourselves. In our journey to save all that we can we
+Today we washed our van... Ourselves. In our journey to save all that we can we
 are ditching the car wash and trying this out ourselves.  The results were
 fantastic, it looks better than it does after a good automatic car wash, but
 let me tell you it was some effort.  I think we can get the process down to
