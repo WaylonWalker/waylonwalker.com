@@ -1,5 +1,6 @@
 # redirects
 /blog /archive/
+/notes /archive/
 /rss                                                        /archive/rss.xml
 /rss.xml                                                    /archive/rss.xml
 /feed                                                       /archive/rss.xml
