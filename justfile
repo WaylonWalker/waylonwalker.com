@@ -66,9 +66,9 @@ build:
 serve:
     python -m http.server -b 0.0.0.0 8005 -d markout
 tailwind:
-    tailwindcss --input tailwind/app.css --output static/app-{{version}}.css --minify --watch
+    npx tailwindcss --input tailwind/app.css --output static/app-{{version}}.css --minify --watch
 tailwind-dev:
-    tailwindcss --input tailwind/app.css --output markout/app-{{version}}.css --minify --watch
+    npx tailwindcss --input tailwind/app.css --output markout/app-{{version}}.css --minify --watch
 sync:
     aws --endpoint-url https://minio.wayl.one s3 sync . s3://waylonwalker.com \
         --exclude "*.venv/**/*" \
