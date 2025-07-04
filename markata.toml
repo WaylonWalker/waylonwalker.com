@@ -21,6 +21,8 @@ default_cache_expire = 1209600
 output_dir = "markout"
 assets_dir = "static"
 hooks = [
+    'plugins.csv_fence',
+    'plugins.lunr_js',
     # 'plugins.vega_lite',
     'plugins.mermaid',
     'plugins.md_video',
@@ -45,6 +47,7 @@ hooks = [
     'markata.plugins.analytics',
     "markata.plugins.jinja_md",
     "default",
+    'plugins.link_collector',
     # "plugins.related",
     # "plugins.seo_amp",
     # "plugins.custom_seo",
@@ -64,6 +67,7 @@ disabled_hooks = [
     "markata.plugins.rss",
     "markata.plugins.to_json",
     "markata.plugins.sitemap",
+    # "markata.plugins.skip",
     # "markata.plugins.feed",
 
     # "markata.plugins.manifest",
@@ -107,6 +111,7 @@ precache_urls = [
 
 [markata.post_template]
 index = "post.html"
+partial = "post_partial.html"
 og = "og.html"
 
 # markdown_it flavor
@@ -581,10 +586,10 @@ description = 'A feed of all my kedro draft posts'
 
 [[markata.feeds]]
 slug = 'gratitude-feed'
-filter = "date<=today and templateKey == 'gratitude'"
+filter = "date<=today and templateKey in ['gratitude', 'daily']"
 sort = "date"
 reverse = true
-description = 'A feed of all my gratitude posts'
+description = 'A feed of all my gratitude and daily notes posts'
 
 [[markata.feeds]]
 slug = 'til'
