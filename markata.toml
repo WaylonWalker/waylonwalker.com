@@ -47,7 +47,7 @@ hooks = [
     'markata.plugins.analytics',
     "markata.plugins.jinja_md",
     "default",
-    'plugins.link_collector',
+    # 'plugins.link_collector',
     # "plugins.related",
     # "plugins.seo_amp",
     # "plugins.custom_seo",
