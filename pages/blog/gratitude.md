@@ -11,6 +11,8 @@ description: I try to gratitude journal for 5 minutes each day, listing at least
 
 ---
 
+{% for post in markata.feeds.gratitude_feed.config.description %}
+
 {% for post in markata.feeds.gratitude_feed.posts %}
 
 {.mb-0 .text-base}
