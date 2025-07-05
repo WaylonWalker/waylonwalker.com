@@ -438,7 +438,7 @@ description = 'A feed of my thoughts of links from the internet originally poste
 
 [[markata.feeds]]
 slug = 'archive'
-filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts', 'stars'] and published"
+filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts', 'stars', 'daily'] and published"
 sort = "date"
 reverse = true
 description = 'The main feed of all my main posts'
@@ -2769,3 +2769,10 @@ filter = "date<=today and 'copier' in tags and published"
 sort = "date"
 reverse = true
 description = "Posts about copier, the python templating cli library."
+
+[[markata.feeds]]
+slug = 'daily'
+filter = "date<=today and templateKey in ['daily']"
+sort = "date"
+reverse = true
+description = 'A feed of all my daily notes posts'
