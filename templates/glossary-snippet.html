@@ -1,0 +1,17 @@
+<span tabindex="0" class="glossary-term group/{{ post.slug }} cursor-help border-b border-dotted border-pink-500 hover/{{ post.slug }}:tooltip inline-block">
+    <strong class='pt-8'>{{ glossary_term }}</strong>
+    <span class="
+        glossary-tooltip
+        tooltip absolute left-0 right-0 lg:left-auto lg:right-auto lg:w-md   bg-black border-2 border-dotted ring-6 ring-black
+        -translate-y-full
+        lg:-translate-x-1/4
+        border-pink-500 text-center text-white py-1  rounded z-10
+        text-base
+        invisible
+        group-hover/{{ post.slug }}:visible hover/{{ post.slug }}:visible
+        group-active/{{ post.slug }}:visible active/{{ post.slug }}:visible
+        group-focus/{{ post.slug }}:visible focus/{{ post.slug }}:visible
+        " hx-get="/glossary/{{ post.slug }}/partial" hx-trigger="load">
+    loading glossary
+    </span>
+</span>
