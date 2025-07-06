@@ -22,6 +22,7 @@ output_dir = "markout"
 assets_dir = "static"
 hooks = [
     'plugins.csv_fence',
+    'plugins.glossary',
     # 'plugins.lunr_js',
     # 'plugins.vega_lite',
     'plugins.mermaid',
@@ -108,6 +109,10 @@ precache_urls = [
 ]
 
 # post_template = "post.html"
+
+[markata.glossary]
+filter = '"glossary" in post.templateKey'
+template_path = "templates/glossary-snippet.html"
 
 [markata.post_template]
 index = "post.html"
