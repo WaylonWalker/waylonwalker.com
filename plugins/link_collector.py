@@ -100,11 +100,10 @@ def render(markata: "Markata") -> None:
             slug = getattr(post, "slug", "")
             base_url = urljoin(str(markata.config.url), slug)
 
-            if post.article_html is None:
-                soup = BeautifulSoup(post.output_html.read_text(), "html.parser")
-                soup = soup.find(id="post-body")
-            else:
-                soup = BeautifulSoup(post.article_html, "html.parser")
+            soup = BeautifulSoup(post.article_html, "html.parser")
+
+            if soup is None:
+                print("No soup")
 
             post.hrefs = [a["href"] for a in soup.find_all("a", href=True)]
 
