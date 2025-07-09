@@ -4,7 +4,8 @@ templateKey: til
 title: tmux clipboard on hyprland
 published: true
 tags:
-  - python
+  - archlinux
+  - hyprland
 
 ---
 
