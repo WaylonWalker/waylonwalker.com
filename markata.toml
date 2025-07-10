@@ -26,6 +26,7 @@ hooks = [
     # 'plugins.lunr_js',
     # 'plugins.vega_lite',
     'plugins.mermaid',
+    'plugins.chartjs',
     'plugins.md_video',
     'plugins.post_model',
     'plugins.thoughts',
