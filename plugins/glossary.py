@@ -14,7 +14,7 @@ hooks = ["markata.plugins.glossary"]
 # Configuration
 
 ```toml
-[markata.glossary]
+[glossary]
 filter = '"glossary" in post.templateKey'  # Filter to identify glossary posts
 template_path = "templates/glossary-snippet.html"  # Jinja template for rendering glossary
 ```
@@ -28,17 +28,14 @@ template_path = "templates/glossary-snippet.html"  # Jinja template for renderin
 # Notes
 
 - Only the first occurrence of a glossary term in each post is replaced.
-- Aliases, titles, and slugs are respected when matching terms.
-- Matches are ignored if they appear in code blocks, inline code, links, images, or HTML blocks.
-- The glossary is not injected into glossary posts themselves.
+- Aliases are respected when matching terms.
 """
 
 from markata.hookspec import hook_impl, register_attr
 import pydantic
+import re
 from pathlib import Path
 from jinja2 import Template
-from markdown_it import MarkdownIt
-from markdown_it.token import Token
 
 MARKATA_PLUGIN_NAME = "Glossary Terms"
 MARKATA_PLUGIN_PACKAGE_NAME = "glossary"
@@ -76,11 +73,11 @@ def load(markata: "Markata") -> None:
     glossary = {}
 
     for post in glossary_posts:
-        terms = [post.title, post.slug]
+        terms = [post.slug]
         if hasattr(post, "aliases"):
-            terms.extend(post.aliases)
+            terms.extend([alias.lower() for alias in post.aliases])
         for term in terms:
-            glossary[term.lower()] = post
+            glossary[term] = post
     markata.glossary_terms = glossary
 
 
@@ -89,45 +86,25 @@ def pre_render(markata: "Markata") -> None:
     glossary = markata.glossary_terms
     template_file = Path(markata.config.glossary.template_path)
     template = Template(template_file.read_text())
-    md = MarkdownIt()
 
     for post in markata.filter("not skip"):
         used_terms = set()
-        tokens = md.parse(post.content)
+        content = post.content
 
-        for token in tokens:
-            if token.type == "inline":
-                new_children = []
-                for child in token.children:
-                    if child.type != "text":
-                        new_children.append(child)
-                        continue
+        for term, glossary_post in glossary.items():
+            if term in used_terms:
+                continue
+            pattern = r"\\b" + re.escape(term) + r"\\b"
 
-                    content = child.content
-                    lowered = content.lower()
-                    for term, glossary_post in glossary.items():
-                        if glossary_post == post:
-                            continue
-                        if term in used_terms:
-                            continue
-                        index = lowered.find(term)
-                        if index == -1:
-                            continue
-                        rendered = template.render(
-                            post=glossary_post, glossary_term=term
-                        )
-                        before = content[:index]
-                        after = content[index + len(term) :]
-                        new_children.append(Token("text", "", 0, content=before))
-                        new_children.append(
-                            Token("html_inline", "", 0, content=rendered)
-                        )
-                        new_children.append(Token("text", "", 0, content=after))
-                        used_terms.add(term)
-                        break
-                    else:
-                        new_children.append(child)
-                token.children = new_children
+            def replacer(match):
+                rendered = template.render(post=glossary_post)
+                used_terms.add(term)
+                return rendered
 
-        rendered_content = md.renderer.render(tokens, md.options, {})
-        post.content = rendered_content
+            new_content, count = re.subn(
+                pattern, replacer, content, count=1, flags=re.IGNORECASE
+            )
+            if count > 0:
+                content = new_content
+
+        post.content = content
