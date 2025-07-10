@@ -22,7 +22,7 @@ output_dir = "markout"
 assets_dir = "static"
 hooks = [
     'plugins.csv_fence',
-    # 'plugins.glossary',
+    'plugins.glossary',
     # 'plugins.lunr_js',
     # 'plugins.vega_lite',
     'plugins.mermaid',
@@ -112,7 +112,7 @@ precache_urls = [
 
 [markata.glossary]
 filter = '"glossary" in post.templateKey'
-template_path = "templates/glossary-snippet.html"
+template_path = "glossary-snippet.html"
 
 [markata.post_template]
 index = "post.html"
@@ -198,6 +198,8 @@ name = ""
 
 [markata.glob]
 glob_patterns = "pages/**/*.md"
+# fast patterns for testing
+# glob_patterns = "pages/glossary/**/*.md"
 # glob_patterns = "pages/sample.md"
 
 
