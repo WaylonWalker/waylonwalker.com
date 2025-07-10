@@ -1,49 +1,47 @@
 """
-Glossary Terms Plugin
-
-Replaces the first instance of a glossary term in each post with a rendered glossary snippet.
+glossary - inline glossary definitions
 
 # Installation
 
-Add to your `markata.toml` config:
-
 ```toml
-hooks = ["markata.plugins.glossary"]
+hooks = [
+  "markata.plugins.glossary",
+]
 ```
 
 # Configuration
 
 ```toml
-[glossary]
-filter = '"glossary" in post.templateKey'  # Filter to identify glossary posts
-template_path = "templates/glossary-snippet.html"  # Jinja template for rendering glossary
+[markata.glossary]
+filter = 'post.templateKey == "glossary"'  # filter to find glossary posts
+template = "{{ term }}"                       # jinja2 template used to inject definition
 ```
 
 # Usage
 
-- Add short glossary entries to your content with `templateKey = "glossary"`.
-- Include a list of `aliases` in each glossary post’s metadata.
-- When rendering other posts, the plugin will find the first usage of each glossary term or alias and replace it with the rendered glossary snippet.
+Use this to inject inline definitions from glossary posts into other posts.
+Glossary posts must have a templateKey == "glossary".
+They can define `aliases` as a list of strings to match alternate terms.
 
 # Notes
 
-- Only the first occurrence of a glossary term in each post is replaced.
-- Aliases are respected when matching terms.
+Only the first occurrence of each glossary term or alias in a post is replaced.
+Replacement occurs in paragraph elements only, not in code blocks, titles, or other HTML structures.
+Glossary terms are not replaced within their own post.
+
 """
 
 from markata.hookspec import hook_impl, register_attr
 import pydantic
-import re
-from pathlib import Path
-from jinja2 import Template
+from bs4 import BeautifulSoup
 
-MARKATA_PLUGIN_NAME = "Glossary Terms"
+MARKATA_PLUGIN_NAME = "Glossary"
 MARKATA_PLUGIN_PACKAGE_NAME = "glossary"
 
 
 class GlossaryConfig(pydantic.BaseModel):
-    filter: str = '"glossary" in post.templateKey'
-    template_path: str = "templates/glossary-snippet.html"
+    filter: str = 'post.templateKey == "glossary"'
+    template: str = "{{ term }}"
 
     model_config = pydantic.ConfigDict(
         validate_assignment=True,
@@ -62,49 +60,64 @@ class Config(pydantic.BaseModel):
 
 @hook_impl
 @register_attr("config_models")
-def config_model(markata: "Markata") -> None:
+def config_model(markata):
     markata.config_models.append(Config)
 
 
 @hook_impl
 @register_attr("glossary_terms")
-def load(markata: "Markata") -> None:
+def load(markata):
+    markata.glossary_terms = {}
     glossary_posts = markata.map("post", filter=markata.config.glossary.filter)
-    glossary = {}
 
     for post in glossary_posts:
-        terms = [post.slug]
-        if hasattr(post, "aliases"):
-            terms.extend([alias.lower() for alias in post.aliases])
+        terms = [post.title, post.slug] + post.get("aliases", [])
         for term in terms:
-            glossary[term] = post
-    markata.glossary_terms = glossary
+            markata.glossary_terms[term.lower()] = post
 
 
 @hook_impl
-def pre_render(markata: "Markata") -> None:
-    glossary = markata.glossary_terms
-    template_file = Path(markata.config.glossary.template_path)
-    template = Template(template_file.read_text())
+def post_render(markata):
+    template = markata.jinja_env.get_template(markata.config.glossary.template_path)
+    for post in markata.posts:
+        # if post.templateKey == "glossary":
+        #     continue
 
-    for post in markata.filter("not skip"):
-        used_terms = set()
-        content = post.content
+        html_map = post.html if isinstance(post.html, dict) else {"default": post.html}
+        new_html_map = {}
 
-        for term, glossary_post in glossary.items():
-            if term in used_terms:
-                continue
-            pattern = r"\\b" + re.escape(term) + r"\\b"
+        for key, html in html_map.items():
+            soup = BeautifulSoup(html, "html.parser")
+            seen_terms = set()
 
-            def replacer(match):
-                rendered = template.render(post=glossary_post)
-                used_terms.add(term)
-                return rendered
+            for p in soup.find_all("p"):
+                text = p.decode_contents()
 
-            new_content, count = re.subn(
-                pattern, replacer, content, count=1, flags=re.IGNORECASE
-            )
-            if count > 0:
-                content = new_content
+                for term, glossary_post in markata.glossary_terms.items():
+                    if term in seen_terms:
+                        continue
+                    if glossary_post.slug == post.slug:
+                        continue
+                    if term in text.lower():
+                        seen_terms.add(term)
 
-        post.content = content
+                        rendered = template.render(
+                            term=term,
+                            glossary_post=glossary_post,
+                            post=post,
+                        )
+
+                        # Replace only first occurrence with original casing
+                        idx = text.lower().find(term)
+                        original = text[idx : idx + len(term)]
+                        text = text[:idx] + rendered + text[idx + len(term) :]
+
+                        p.clear()
+                        p.append(BeautifulSoup(text, "html.parser"))
+                        break
+
+            new_html_map[key] = str(soup)
+
+        post.html = (
+            new_html_map if isinstance(post.html, dict) else new_html_map.get("default")
+        )
