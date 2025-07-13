@@ -22,7 +22,7 @@ output_dir = "markout"
 assets_dir = "static"
 hooks = [
     'plugins.csv_fence',
-    'plugins.glossary',
+    # 'plugins.glossary',
     # 'plugins.lunr_js',
     # 'plugins.vega_lite',
     'plugins.mermaid',
