@@ -594,10 +594,10 @@ description = 'A feed of all my kedro draft posts'
 
 [[markata.feeds]]
 slug = 'gratitude-feed'
-filter = "date<=today and templateKey in ['gratitude', 'daily']"
+filter = "date<=today and templateKey in ['gratitude']"
 sort = "date"
 reverse = true
-description = 'A feed of all my gratitude and daily notes posts'
+description = 'A feed of all my gratitude'
 
 [[markata.feeds]]
 slug = 'til'
