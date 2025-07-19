@@ -17,6 +17,8 @@ with the ability to tack something on at the beginning or end.
 TIL about `fc`, which opens the last command in your shell history in your
 `$EDITOR` or pass in your editor `-e nvim`.
 
+[man fc](https://manned.org/fc)
+
 ## Rcap of how !! works
 
 `!!` pronounces `bang bang` and will run the last command in your history.
