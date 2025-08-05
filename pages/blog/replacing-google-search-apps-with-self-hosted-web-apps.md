@@ -73,3 +73,15 @@ site completely rendered on the front end, data is stored in the url as you
 interact with it.  None of your data goes to a server.
 
 [![screenshot of https://pocketcal.com](http://shots.wayl.one/shot/?url=https://pocketcal.com&height=450&width=800&scaled_width=800&scaled_height=450&selectors=)](https://pocketcal.com)
+
+## qrcode
+
+Today I wanted to finish an article that I was on afk and It killed me to get
+it from my work computer to my phone, so I made a qrcode generator.  Paste in
+or type in your message and it shows up as a qr code live.  This one needed an
+event listener for window resize since the library creates a rigid canvas qr
+code that does not fit on the screen once you create it then resize the window.
+
+[[![screenshot of https://b64.wayl.one](https://shots.wayl.one/shot/?url=https://qrcode.waylonwalker.com/?text=https://waylonwalker.com/replacing-google-search-apps-with-self-hosted-web-apps%2F%3Ftext%3Dhttps%3A%2F%2Fshots.wayl.one%2F&width=450&height=500)](https://qrcode.waylonwalker.com/?text=https://waylonwalker.com/replacing-google-search-apps-with-self-hosted-web-apps/)
+
+[[![screenshot of https://b64.wayl.one](https://shots.wayl.one/shot/?url=https://qrcode.waylonwalker.com/?text=https://waylonwalker.com/replacing-google-search-apps-with-self-hosted-web-apps%2F%3Ftext%3Dhttps%3A%2F%2Fshots.wayl.one%2F%26color%3Dff69b4%26bg%3Dffcc00&width=450&height=500)](https://qrcode.waylonwalker.com/?text=https://waylonwalker.com/replacing-google-search-apps-with-self-hosted-web-apps/)
