@@ -21,6 +21,7 @@ default_cache_expire = 1209600
 output_dir = "markout"
 assets_dir = "static"
 hooks = [
+    'plugins.qrcode',
     'plugins.csv_fence',
     # 'plugins.glossary',
     # 'plugins.lunr_js',
@@ -110,6 +111,12 @@ precache_urls = [
 ]
 
 # post_template = "post.html"
+
+[markata.qrcode]
+filter = "True"                  # Python expression to filter posts
+module_color = "#f6339b"         # Color of the QR modules (foreground)
+background = "transparent"           # Background color of the QR code
+scale = -1                        # If scale <= 0, sets omithw=True
 
 [markata.glossary]
 filter = '"glossary" in post.templateKey'
@@ -238,7 +245,7 @@ font_color = "rgb(255,255,255)"
 value = "<title>{{ post.title|e }}</title>"
 
 [[markata.head.link]]
-href='/app-53.css'
+href='/app.css'
 rel='stylesheet'
 
 [[markata.head.meta]]

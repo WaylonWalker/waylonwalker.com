@@ -155,6 +155,8 @@ pymdown-extensions==10.3
     # via markata
 pyparsing==3.2.1
     # via matplotlib
+pyqrcode==1.2.1
+    # via -r requirements.in
 python-dateutil==2.8.2
     # via
     #   arrow
