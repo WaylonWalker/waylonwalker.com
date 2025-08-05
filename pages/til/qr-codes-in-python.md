@@ -36,3 +36,5 @@ Here is the final svg result.
 Here is what it looks like in the terminal.
 
 ![screenshot-2025-08-05T13-53-17-368Z.png](https://dropper.wayl.one/api/file/c644bd34-b5da-48a3-b6cf-c89efb546114.png)
+
+If you want fancier qrcodes check out <https://mydigitalharbor.com/>
