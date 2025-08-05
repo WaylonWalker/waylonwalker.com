@@ -82,6 +82,8 @@ or type in your message and it shows up as a qr code live.  This one needed an
 event listener for window resize since the library creates a rigid canvas qr
 code that does not fit on the screen once you create it then resize the window.
 
-[[![screenshot of https://b64.wayl.one](https://shots.wayl.one/shot/?url=https://qrcode.waylonwalker.com/?text=https://waylonwalker.com/replacing-google-search-apps-with-self-hosted-web-apps%2F%3Ftext%3Dhttps%3A%2F%2Fshots.wayl.one%2F&width=450&height=500)](https://qrcode.waylonwalker.com/?text=https://waylonwalker.com/replacing-google-search-apps-with-self-hosted-web-apps/)
+[![screenshot of https://b64.wayl.one](https://shots.wayl.one/shot/?url=https://qrcode.waylonwalker.com/?text=https://waylonwalker.com/replacing-google-search-apps-with-self-hosted-web-apps%2F%3Ftext%3Dhttps%3A%2F%2Fshots.wayl.one%2F&width=450&height=500)](https://qrcode.waylonwalker.com/?text=https://waylonwalker.com/replacing-google-search-apps-with-self-hosted-web-apps/)
 
-[[![screenshot of https://b64.wayl.one](https://shots.wayl.one/shot/?url=https://qrcode.waylonwalker.com/?text=https://waylonwalker.com/replacing-google-search-apps-with-self-hosted-web-apps%2F%3Ftext%3Dhttps%3A%2F%2Fshots.wayl.one%2F%26color%3Dff69b4%26bg%3Dffcc00&width=450&height=500)](https://qrcode.waylonwalker.com/?text=https://waylonwalker.com/replacing-google-search-apps-with-self-hosted-web-apps/)
+I even added query params to pass hex codes in for `color` and `bg`.
+
+[![screenshot of https://b64.wayl.one](https://shots.wayl.one/shot/?url=https://qrcode.waylonwalker.com/?text=https://waylonwalker.com/replacing-google-search-apps-with-self-hosted-web-apps%2F%3Ftext%3Dhttps%3A%2F%2Fshots.wayl.one%2F%26color%3Dff69b4%26bg%3Dffcc00&width=450&height=500)](https://qrcode.waylonwalker.com/?text=https://waylonwalker.com/replacing-google-search-apps-with-self-hosted-web-apps/)
