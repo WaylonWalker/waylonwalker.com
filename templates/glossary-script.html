@@ -1,0 +1,46 @@
+<script type="module">
+  async function enhanceGlossaryTerms() {
+    const res = await fetch('/glossary-terms.json');
+    const glossary = await res.json();
+    const postBody = document.querySelector('#post-body');
+    if (!postBody) return;
+
+    const terms = Object.keys(glossary);
+
+    for (const term of terms) {
+      const slug = glossary[term];
+      const regex = new RegExp(`\\b(${term})\\b`, 'i');
+
+      const paragraphs = postBody.querySelectorAll('p');
+      for (const p of paragraphs) {
+        if (regex.test(p.textContent)) {
+          const html = p.innerHTML;
+          const updated = html.replace(
+            regex,
+            // `<span 
+            //   class="glossary-term" 
+            //   hx-get="/${slug}/glossary-span/index.html" 
+            //   hx-trigger="mouseenter" 
+            //   hx-target="#glossary-tooltip" 
+            //   hx-swap="innerHTML"
+            //   style="text-decoration: underline dotted; cursor: help;"
+            // >$1</span>`
+            `
+<span tabindex="0" class="glossary-term group cursor-help border-b border-dotted border-pink-500 inline-block">
+  <a href="https://waylonwalker.com/glossary/${slug}" class="no-underline">
+    <span class="glossary-tooltip">
+    <strong class="pt-8">$1</strong>
+    </span>
+  </a>
+</span>
+            `
+          );
+          p.innerHTML = updated;
+          break; // only replace first occurrence per term
+        }
+      }
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', enhanceGlossaryTerms);
+</script>
