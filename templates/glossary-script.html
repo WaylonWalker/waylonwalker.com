@@ -17,20 +17,13 @@
           const html = p.innerHTML;
           const updated = html.replace(
             regex,
-            // `<span 
-            //   class="glossary-term" 
-            //   hx-get="/${slug}/glossary-span/index.html" 
-            //   hx-trigger="mouseenter" 
-            //   hx-target="#glossary-tooltip" 
-            //   hx-swap="innerHTML"
-            //   style="text-decoration: underline dotted; cursor: help;"
-            // >$1</span>`
             `
-<span tabindex="0" class="glossary-term group cursor-help border-b border-dotted border-pink-500 inline-block">
-  <a href="https://waylonwalker.com/glossary/${slug}" class="no-underline">
-    <span class="glossary-tooltip">
-    <strong class="pt-8">$1</strong>
-    </span>
+<span tabindex="0" 
+      class="glossary-term group cursor-help border-b border-dotted border-pink-500 inline-block relative"
+      data-slug="${slug}">
+  <a href="/glossary/${slug}" class="no-underline">
+    <span class="glossary-tooltip hidden absolute z-50 bg-white dark:bg-gray-900 text-black dark:text-white border border-gray-300 dark:border-gray-600 shadow-lg p-2 w-64 max-w-sm"></span>
+    $1
   </a>
 </span>
             `
@@ -40,7 +33,41 @@
         }
       }
     }
+
+    // Attach hover/focus events to fetch partial HTML on demand
+    document.querySelectorAll('.glossary-term').forEach(termEl => {
+      const slug = termEl.dataset.slug;
+      const tooltip = termEl.querySelector('.glossary-tooltip');
+      let loaded = false;
+
+      async function loadTooltip() {
+        if (loaded) return;
+        try {
+          const res = await fetch(`/glossary/${slug}/partial/index.html`);
+          if (!res.ok) throw new Error(`Failed to load tooltip for ${slug}`);
+          tooltip.innerHTML = await res.text();
+          loaded = true;
+        } catch (err) {
+          tooltip.innerHTML = `<em>Failed to load content</em>`;
+        }
+      }
+
+      // Show tooltip on hover/focus
+      termEl.addEventListener('mouseenter', async () => {
+        await loadTooltip();
+        tooltip.classList.remove('hidden');
+      });
+      termEl.addEventListener('focus', async () => {
+        await loadTooltip();
+        tooltip.classList.remove('hidden');
+      });
+
+      // Hide tooltip on mouseleave/blur
+      termEl.addEventListener('mouseleave', () => tooltip.classList.add('hidden'));
+      termEl.addEventListener('blur', () => tooltip.classList.add('hidden'));
+    });
   }
 
   document.addEventListener('DOMContentLoaded', enhanceGlossaryTerms);
 </script>
+
