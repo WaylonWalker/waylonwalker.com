@@ -32,11 +32,15 @@ Now for the moment we all had been waiting this whole day for.
 
 BEACH TIME!
 
+![Beach Time](https://dropper.wayl.one/api/file/5199c8f1-cd08-456b-ac79-323996729e45.mp4)
+
 We walked down to the beach from our house, it was a cozy 5 minute walk.  Once
 we hit the beach it was like someone took away all the humidity, stress of
 life, the noise, and it was just us and the waves.  There was not another soul
 on the beach, maybe a boat off in the distance, and some tracks from a family
 and their dog that were long gone.
+
+![screenshot-2025-08-02T16-41-31-083Z.png](https://dropper.wayl.one/api/file/01fe10ce-514a-4872-ac22-d3cce1b1b6bc.png)
 
 We brought a paddle board from the house and this was our first time ever even
 touching one, everyone took turns on it.  Me first of course, then each kid
@@ -45,10 +49,12 @@ even get on it, and she rocked it.  She was on the longest of any of us
 cruising through the waves while the kids and I were off looking for the best
 seashells.
 
+![screenshot-2025-08-02T16-42-50-833Z.png](https://dropper.wayl.one/api/file/212a791a-f470-4e0d-b04d-41fcd6d561d4.png)
+
 Once we walked our tired selves back to the old house we spotted a hose to
 cleanup with, and hit the shower.
 
 We finished off the day with an exciting game of ping pong, and wound down with
 shuffleboard.
 
-
+![screenshot-2025-08-03T01-48-23-666Z.png](https://dropper.wayl.one/api/file/006b2ea1-137a-4ec9-88f9-77991937d97c.png)
