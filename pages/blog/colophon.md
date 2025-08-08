@@ -12,7 +12,8 @@ jinja: True
 
 ---
 
-> [Colophon](https://indieweb.org/colophon) a page that describes how the site is made, with what tools, supporting what technologies
+> [Colophon](https://indieweb.org/colophon) a page that describes how the site
+> is made, with what tools, supporting what technologies
 
 ## Author
 
@@ -37,6 +38,12 @@ are pulled in as a regular posts, all is hosted on cloudflare pages.
 * cloudflare pages
 
 see more about these components in [[ about-this-site ]]
+
+## Analytics
+
+I do not track users, I respect the privacy of my readers and do not track
+their information.  I do track [[ analytics ]] on my own writing a post rate.
+Its more of an interesting history of the site.
 
 ## meta
 
