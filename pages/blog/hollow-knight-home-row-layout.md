@@ -180,3 +180,13 @@ wasn't targeting me fore some reason at the end), I picked up desolate dive,
 which brings a new key combo to get familiar with down+cast.
 
 ![hollow-knight-keeb-run-soul-master-finish.mp4](https://dropper.wayl.one/api/file/af9df166-33cd-4260-85df-910e8a18116c.mp4)
+
+## Moss Knight
+
+I took a break for awhile on the game, my son got bored and moved on.  He tends
+to switch out games a lot faster than me.  I came back to it tonight after a
+few months off and just got some geo from the moss knights for awhile.  I got
+this decent clip of clearing them, I'm no pro, but getting better at timing on
+the keeb layout.
+
+![hollow-knight-keeb-moss-knight.mp4](https://dropper.wayl.one/api/file/d8571451-7a1e-4997-85eb-b5ce2cfdc209.mp4)

@@ -4,7 +4,6 @@ templateKey: blog-post
 title: gratitude
 tags:
   - gratitude
-  - slash
 published: True
 jinja: True
 description: I try to gratitude journal for 5 minutes each day, listing at least one thing I am grateful for.
