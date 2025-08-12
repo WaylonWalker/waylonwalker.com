@@ -1,0 +1,233 @@
+{
+  "main": {
+    "id": "6e5cd62a294f8685",
+    "type": "split",
+    "children": [
+      {
+        "id": "94b8c1ef09f50a5d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c5683f96467e967d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "templates/post-templates/blog-post-template.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "blog-post-template"
+            }
+          },
+          {
+            "id": "50ef320ab041aebc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/gratitude/gratitude-257.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "gratitude-257"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3236b8c174415aff",
+    "type": "split",
+    "children": [
+      {
+        "id": "1a8b96868491faa2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3a0bfb4870a7ae56",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "dbb1b933a6fb0a00",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8db958f23a633cb7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4e45594a44a383d1",
+    "type": "split",
+    "children": [
+      {
+        "id": "0cdec492abef3936",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c56fdc894524e312",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "72648c01fa8b84c8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "b8af0bde393a92f3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "8222571e71094a0a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "cmdr:Templater: Open insert template modal": false
+    }
+  },
+  "active": "50ef320ab041aebc",
+  "lastOpenFiles": [
+    "pages/gratitude/gratitude-254.md",
+    "pages/gratitude/gratitude-257.md",
+    "pages/gratitude/gratitude-257.md.md",
+    "pages/gratitude/gratitude-251.md",
+    "pages/gratitude/gratitude-256.md.md",
+    "pages/gratitude/gratitude-344.md.md",
+    "pages/gratitude/gratitude-256.md",
+    "pages/gratitude/gratitude-253.md",
+    "pages/gratitude/gratitude-104.md",
+    "pages/gratitude/gratitude-103.md",
+    "pages/gratitude/gratitude-090.md",
+    "pages/gratitude/gratitude-089.md",
+    "pages/gratitude/gratitude-088.md",
+    "pages/gratitude/gratitude-087.md",
+    "pages/gratitude/gratitude-086.md",
+    "pages/gratitude/gratitude-085.md",
+    "pages/gratitude/gratitude-084.md",
+    "pages/gratitude/gratitude-083.md",
+    "pages/gratitude/gratitude-082.md",
+    "pages/gratitude/gratitude-081.md",
+    "pages/gratitude/gratitude-080.md",
+    "pages/gratitude/gratitude-079.md",
+    "pages/gratitude/gratitude-078.md",
+    "pages/gratitude/gratitude-077.md",
+    "pages/gratitude/gratitude-076.md",
+    "pages/gratitude/gratitude-075.md",
+    "markout/nic-daily/og/index.html",
+    "markout/nic-daily/og",
+    "markout/nic-daily/partial/index.html",
+    "markout/nic-daily/partial",
+    "markout/nic-daily/index.html",
+    "markout/nic-daily/qr.svg",
+    "markout/nic-daily",
+    "markout/thoughts-783/og/index.html",
+    "markout/thoughts-783/og",
+    "markout/thoughts-783/partial/index.html",
+    "markout/thoughts-783/partial",
+    "markout/should-i-kubernetes-my-homelab/qr.svg",
+    "markout/2025-08-08-notes/qr.svg",
+    "markout/gratitude-245/qr.svg",
+    "markout/gratitude-255/qr.svg",
+    "markout/gratitude-250/qr.svg",
+    "markout/gratitude-249/qr.svg",
+    "markout/gratitude-248/qr.svg",
+    "markout/gratitude-252/qr.svg",
+    "markout/gratitude-254/qr.svg"
+  ]
+}
