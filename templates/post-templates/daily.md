@@ -5,10 +5,10 @@ title: <% tp.date.now("YYYY-MM-DD") %> Notes
 published: true
 <%*
   // Folder where daily notes live
-  const targetDir = "daily/pages/daily";
+  const targetDir = "pages/daily";
 
   // File name for today
-  const fileName = `${tp.date.now("YYYY-MM-DD")}-notes.md`;
+  const fileName = `${tp.date.now("YYYY-MM-DD")}-notes`;
 
   // Full relative path
   const newPath = `${targetDir}/${fileName}`;
