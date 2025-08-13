@@ -1498,13 +1498,6 @@ reverse = true
 description = "Posts about server"
 
 [[markata.feeds]]
-slug = "shots"
-filter = "date<=today and 'shots' in str(tags).lower() and published"
-sort = "date"
-reverse = true
-description = "Posts about shots"
-
-[[markata.feeds]]
 slug = "containers"
 filter = "date<=today and 'containers' in str(tags).lower() and published"
 sort = "date"
@@ -2791,3 +2784,11 @@ filter = "date<=today and templateKey in ['daily']"
 sort = "date"
 reverse = true
 description = 'A feed of all my daily notes posts'
+
+[[markata.feeds]]
+slug = 'shots'
+filter = "date<=today and templateKey in ['shots']"
+sort = "date"
+reverse = true
+description = 'A feed of all my shots, inspired by https://justin.searls.co/shots/'
+card_template='full-card.html'
