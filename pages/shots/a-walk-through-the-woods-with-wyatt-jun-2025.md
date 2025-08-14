@@ -1,5 +1,5 @@
 ---
-date: 2025-08-13 09:10:36
+date: 2025-06-22 09:10:36
 templateKey: shots
 title: A Walk Through The Woods With Wyatt Jun 2025
 tags:
