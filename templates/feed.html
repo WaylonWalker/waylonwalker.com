@@ -2,7 +2,8 @@
 {% block content %}
     {% include "nav.html" %}
     {% include 'social.html' %}
-    <h1 class="flair text-center">Post Archive</h1>
+    <h1 class="flair text-center">{{ feed.config.title }}</h1>
+    <p class='max-w-md text-center mx-auto'>{{ feed.config.description }}</p>
     <ul class="archive-tags">
         <li>
             <a href="/python/" hx-boost="true"> python </a>

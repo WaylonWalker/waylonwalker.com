@@ -1,0 +1,20 @@
+<li class="group {{post.templateKey}} h-entry hentry">
+    <a href="/{{markata.config.path_prefix}}{{ post.slug }}/" class="u-url" rel="bookmark" hx-boost="true">
+
+    {% set src, ext = post.image.rsplit('.', 1) %}
+    {% if ext.lower() in ['mp4', 'webm', 'avi'] %}
+    <p>
+    <video autoplay loop muted playsinline controls
+        class="aspect-square object-cover"
+        ><source src="{{src}}.{{ext}}" type="video/{{ext}}">Your browser does not support the video tag.</video>
+    </p>
+    {% else %}
+    <img 
+      title="{{post.title}}"
+      alt="{{post.description}}"
+      src="{{post.image}}"
+    >
+    {% endif %}
+
+    </a>
+</li>

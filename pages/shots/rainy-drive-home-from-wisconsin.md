@@ -6,6 +6,7 @@ tags:
   - shots
 published: True
 slug: shots/rainy-drive-home-from-wisconsin
+image: https://dropper.wayl.one/api/file/8ee60707-0308-4e6b-a545-326cd468fc47.mp4
 
 ---
 

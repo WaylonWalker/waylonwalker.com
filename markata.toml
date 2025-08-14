@@ -2786,9 +2786,10 @@ reverse = true
 description = 'A feed of all my daily notes posts'
 
 [[markata.feeds]]
+title = 'Shots'
 slug = 'shots'
 filter = "date<=today and templateKey in ['shots']"
 sort = "date"
 reverse = true
 description = 'A feed of all my shots, inspired by https://justin.searls.co/shots/'
-card_template='full-card.html'
+card_template='image-card.html'

@@ -5,6 +5,7 @@ title: Quary Lake Photos
 tags:
   - shots
 published: True
+image: https://dropper.wayl.one/api/file/88c15e92-719e-4224-bc77-d78bfc10b1ab.png
 
 ---
 

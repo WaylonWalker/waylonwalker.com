@@ -6,7 +6,7 @@
 #posts ul {
   @apply backdrop-blur-xs;
   @apply flex flex-col sm:grid grid-flow-row-dense;
-  @apply gap-4 lg:gap-8;
+  @apply gap-1 lg:gap-2;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
 }
 
@@ -83,4 +83,21 @@
   /* @apply bg-green-500; */
   @apply rounded-sm;
   @apply col-span-full row-span-2;
+}
+
+#posts .shots ,
+#posts .shots p,
+#posts .shots a,
+#posts .shots video,
+#posts .shots img
+{
+  @apply p-0 px-0 py-0;
+  @apply m-0 mx-0 my-0;
+}
+#posts .shots video,
+#posts .shots img {
+  @apply w-full h-full;
+  @apply aspect-square object-cover;
+  @apply shadow-none;
+  @apply border-none hover:border-2;
 }

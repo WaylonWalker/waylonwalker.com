@@ -565,3 +565,12 @@ body :target, body [fragmention] {
 .mermaid svg {
   @apply m-auto;
 }
+
+.glossary-tooltip {
+      @apply absolute left-0 right-0 lg:left-auto lg:right-auto lg:w-md;
+      @apply bg-black border-2 border-dotted ring-6 ring-black;
+      @apply -translate-y-full lg:-translate-x-1/4;
+      @apply border-pink-500 text-center text-white py-1 rounded z-10 text-base;
+      @apply invisible group-hover:visible group-focus:visible group-active:visible;
+      @apply hover:visible focus:visible active:visible;
+}

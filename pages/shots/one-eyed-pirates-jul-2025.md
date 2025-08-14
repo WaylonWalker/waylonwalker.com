@@ -5,6 +5,8 @@ title: One Eyed Pirates Jul 2025
 tags:
   - shots
 published: True
+image: https://dropper.wayl.one/api/file/9461fbd1-6b08-4a5a-a1da-1eb42b58664d.png
+slug: shots/one-eyed-pirates-jul-2025
 
 ---
 
