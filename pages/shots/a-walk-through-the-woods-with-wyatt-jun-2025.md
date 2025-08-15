@@ -6,6 +6,7 @@ tags:
   - shots
 published: True
 image: https://dropper.wayl.one/api/file/b99efec3-3be2-4888-8fad-46b29dbe357e.png
+card_classes: col-span-2
 
 ---
 

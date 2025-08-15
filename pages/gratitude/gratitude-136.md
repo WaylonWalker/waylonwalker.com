@@ -23,4 +23,4 @@ activity we simply redirect him to a desireable activity.  There's
 obviously a lot more detail that goes into this, but distilled down as
 far as I can this is the essential strategy we are taking.
 
-![Waylon sitting with Dobby on his first day home](https://images.waylonwalker.com/waylon-dobby-jan-2022.webp)
+![Waylon sitting with Dobby on his first day home](https://dropper.wayl.one/api/file/283b3612-3e58-4367-97a3-a75f18d56acf.png)
