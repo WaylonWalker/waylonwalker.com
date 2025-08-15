@@ -101,3 +101,15 @@
   @apply shadow-none;
   @apply border-none hover:border-2;
 }
+
+#posts .shots.aspect-auto video,
+#posts .shots.aspect-auto img {
+  @apply w-full h-full;
+  @apply aspect-auto object-cover;
+}
+
+#posts .shots.col-span-2 video,
+#posts .shots.col-span-2 img {
+  @apply w-full h-full;
+  @apply aspect-[2/1] object-cover;
+}
