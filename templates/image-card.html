@@ -1,4 +1,5 @@
-<li class="group {{post.templateKey}} h-entry hentry">
+<li class="group {{post.templateKey}} h-entry hentry {{ post.card_classes }}"
+    >
     <a href="/{{markata.config.path_prefix}}{{ post.slug }}/" class="u-url" rel="bookmark" hx-boost="true">
 
     {% set src, ext = post.image.rsplit('.', 1) %}
