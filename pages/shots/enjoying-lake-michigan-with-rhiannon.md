@@ -4,6 +4,7 @@ templateKey: shots
 title: Enjoying Lake Michigan With Rhiannon
 tags:
   - shots
+  - family
 published: True
 slug: shots/enjoying-lake-michigan-with-rhiannon
 image: https://dropper.wayl.one/api/file/212a791a-f470-4e0d-b04d-41fcd6d561d4.png

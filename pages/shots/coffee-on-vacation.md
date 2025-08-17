@@ -4,6 +4,7 @@ templateKey: shots
 title: Coffee On Vacation
 tags:
   - shots
+  - family
 published: True
 slug: shots/coffee-on-vacation
 image: https://dropper.wayl.one/api/file/84aa33e5-9b1f-4c87-8164-776c451a1353.mp4

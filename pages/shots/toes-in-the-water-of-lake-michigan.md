@@ -4,6 +4,7 @@ templateKey: shots
 title: Toes In The Water Of Lake Michigan
 tags:
   - shots
+  - family
 published: True
 slug: shots/toes-in-the-water-of-lake-michigan
 image: https://dropper.wayl.one/api/file/c32445a9-b834-4f5f-8a9a-757c8161480d.png

@@ -4,6 +4,7 @@ templateKey: shots
 title: Wyatt's Perfect Avocado
 tags:
   - shots
+  - family
 published: True
 slug: shots/perfect-avocado
 image: https://dropper.wayl.one/api/file/49b1e054-a82d-40f9-bc21-2f2a1feccf99.png

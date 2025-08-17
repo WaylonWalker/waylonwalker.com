@@ -4,6 +4,7 @@ templateKey: shots
 title: Beach Time With Rhiannon
 tags:
   - shots
+  - family
 published: True
 slug: shots/beach-time-with-rhiannon
 image: https://dropper.wayl.one/api/file/d5fbc521-7bb3-4bcb-a689-d7fde98d0cf2.png

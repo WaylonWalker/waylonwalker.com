@@ -4,6 +4,7 @@ templateKey: shots
 title: Smoothie Break At Hy-Vee With Ayla 
 tags:
   - shots
+  - family
 published: True
 slug: shots/smoothie-break-at-hy-vee-with-ayla-
 image: https://dropper.wayl.one/api/file/f692419c-ba67-4e8e-bfe8-a3f498299bad.webp

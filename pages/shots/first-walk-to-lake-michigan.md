@@ -4,6 +4,7 @@ templateKey: shots
 title: First Walk To Lake Michigan
 tags:
   - shots
+  - family
 published: True
 slug: shots/first-walk-to-lake-michigan
 image: https://dropper.wayl.one/api/file/01fe10ce-514a-4872-ac22-d3cce1b1b6bc.png

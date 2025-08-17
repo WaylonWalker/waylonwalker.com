@@ -4,6 +4,7 @@ templateKey: shots
 title: 3d Printed Microphone Mount
 tags:
   - shots
+  - family
 published: True
 slug: shots/3d-printed-microphone-mount
 image: https://dropper.wayl.one/api/file/bea1b351-4303-4eb5-b4db-dbcba7d550a3.webp

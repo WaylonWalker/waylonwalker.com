@@ -4,6 +4,7 @@ templateKey: shots
 title: Happy Pets Curled Up Together
 tags:
   - shots
+  - family
 published: True
 slug: shots/happy-pets-curled-up-together
 image: https://dropper.wayl.one/api/file/d56aa7a5-736a-4d9a-9282-d68a2635dee6.webp

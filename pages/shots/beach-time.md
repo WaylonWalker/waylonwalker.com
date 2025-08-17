@@ -4,6 +4,7 @@ templateKey: shots
 title: Beach Time
 tags:
   - shots
+  - family
 published: True
 slug: shots/beach-time
 image: https://dropper.wayl.one/api/file/5199c8f1-cd08-456b-ac79-323996729e45.mp4

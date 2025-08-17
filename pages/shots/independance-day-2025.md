@@ -4,6 +4,7 @@ templateKey: shots
 title: Independance Day 2025
 tags:
   - shots
+  - family
 published: True
 slug: shots/independance-day-2025
 image: https://dropper.wayl.one/api/file/2330dd9c-a170-4163-9459-f55b44993705.webp

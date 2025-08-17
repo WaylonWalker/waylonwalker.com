@@ -4,6 +4,7 @@ templateKey: shots
 title: I Built An Ingloo With Wyatt
 tags:
   - shots
+  - family
 published: True
 slug: shots/i-built-an-ingloo-with-wyatt
 image: https://dropper.wayl.one/api/file/04b75909-b1eb-4903-bfd7-a992f8b3ee4e.png

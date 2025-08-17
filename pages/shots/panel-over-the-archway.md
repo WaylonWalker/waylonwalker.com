@@ -4,6 +4,7 @@ templateKey: shots
 title: Panel Over The Archway
 tags:
   - shots
+  - family
 published: True
 slug: shots/panel-over-the-archway
 image: https://dropper.wayl.one/api/file/7fcc8594-6abd-410d-b499-237c56f5490e.webp

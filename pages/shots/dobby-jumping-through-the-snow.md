@@ -4,6 +4,7 @@ templateKey: shots
 title: Dobby Jumping Through The Snow
 tags:
   - shots
+  - family
 published: True
 slug: shots/doby-jumping-through-the-snow
 image: https://dropper.wayl.one/api/file/861b1e6b-0ac2-4df9-9283-8ab3e7b29c60.png

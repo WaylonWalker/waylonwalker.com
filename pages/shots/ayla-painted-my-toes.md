@@ -4,6 +4,7 @@ templateKey: shots
 title: Ayla Painted My Toes
 tags:
   - shots
+  - family
 published: True
 slug: shots/ayla-painted-my-toes
 image: https://dropper.wayl.one/api/file/f0fbd064-b4aa-4c4a-bbb4-26afa7b6205c.png

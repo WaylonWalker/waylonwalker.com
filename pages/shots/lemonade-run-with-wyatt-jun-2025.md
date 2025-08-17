@@ -4,6 +4,7 @@ templateKey: shots
 title: Lemonaide Run With Wyatt Jun 2025
 tags:
   - shots
+  - family
 published: True
 slug: shots/lemonaide-run-with-wyatt-jun-2025
 image: https://dropper.wayl.one/api/file/f3ac8949-2587-42b5-8a34-a7650d612b6f.webp

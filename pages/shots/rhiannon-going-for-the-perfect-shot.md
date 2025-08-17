@@ -4,6 +4,7 @@ templateKey: shots
 title: Rhiannon Going For The Perfect Shot
 tags:
   - shots
+  - family
 published: True
 slug: shots/rhiannon-going-for-the-perfect-shot
 image: https://dropper.wayl.one/api/file/8cf5387a-efb5-4a45-9c9a-89b6d0218f94.png

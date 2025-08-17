@@ -4,6 +4,7 @@ templateKey: shots
 title: Swingng With Ayla In East Peoria
 tags:
   - shots
+  - family
 published: True
 slug: shots/swingng-with-ayla-in-east-peoria
 image: https://dropper.wayl.one/api/file/c215942e-61f6-45f5-a06d-935caf529480.webp

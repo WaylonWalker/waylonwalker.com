@@ -4,6 +4,7 @@ templateKey: shots
 title: Wyatt About Rolled Off The Trampoline.
 tags:
   - shots
+  - family
 published: True
 slug: shots/wyatt-about-rolled-off-the-trampoline.
 image: https://dropper.wayl.one/api/file/4d7c7191-2510-4643-9a8f-678ecfe5dd7b.webp
