@@ -9,11 +9,11 @@
   "tag-pane": true,
   "properties": false,
   "page-preview": true,
-  "daily-notes": true,
+  "daily-notes": false,
   "templates": true,
   "note-composer": true,
   "command-palette": true,
-  "slash-command": false,
+  "slash-command": true,
   "editor-status": true,
   "bookmarks": true,
   "markdown-importer": false,
@@ -27,5 +27,7 @@
   "file-recovery": true,
   "publish": false,
   "sync": true,
-  "webviewer": false
+  "webviewer": false,
+  "footnotes": false,
+  "bases": true
 }

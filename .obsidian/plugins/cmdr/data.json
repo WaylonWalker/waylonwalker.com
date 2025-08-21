@@ -2,7 +2,14 @@
   "confirmDeletion": true,
   "showAddCommand": true,
   "debug": false,
-  "editorMenu": [],
+  "editorMenu": [
+    {
+      "id": "templater-obsidian:create-new-note-from-template",
+      "icon": "templater-icon",
+      "name": "Templater: Create new note from template",
+      "mode": "any"
+    }
+  ],
   "fileMenu": [
     {
       "id": "templater-obsidian:create-new-note-from-template",
@@ -13,22 +20,15 @@
   ],
   "leftRibbon": [
     {
-      "id": "templater-obsidian:insert-templater",
+      "id": "templater-obsidian:create-new-note-from-template",
       "icon": "templater-icon",
-      "name": "Templater: Open insert template modal",
+      "name": "Templater: Create new note from template",
       "mode": "any"
     }
   ],
   "rightRibbon": [],
   "titleBar": [],
   "statusBar": [
-    {
-      "id": "insert-template",
-      "icon": "lucide-copy",
-      "name": "Templates: Insert template",
-      "mode": "any",
-      "color": "#e100ff"
-    },
     {
       "id": "templater-obsidian:create-new-note-from-template",
       "icon": "templater-icon",
@@ -38,7 +38,14 @@
   ],
   "pageHeader": [],
   "macros": [],
-  "explorer": [],
+  "explorer": [
+    {
+      "id": "templater-obsidian:create-new-note-from-template",
+      "icon": "templater-icon",
+      "name": "Templater: Create new note from template",
+      "mode": "any"
+    }
+  ],
   "hide": {
     "statusbar": [],
     "leftRibbon": []
@@ -52,6 +59,6 @@
     "columnLayout": false,
     "mappedIcons": [],
     "tooltips": false,
-    "heightOffset": 0
+    "heightOffset": 26
   }
 }
