@@ -190,3 +190,21 @@ this decent clip of clearing them, I'm no pro, but getting better at timing on
 the keeb layout.
 
 ![hollow-knight-keeb-moss-knight.mp4](https://dropper.wayl.one/api/file/d8571451-7a1e-4997-85eb-b5ce2cfdc209.mp4)
+
+## Lumafly Lantern
+
+While I had a lot of geo from the Moss Knights I finished out getting 1800 geo
+to get the lumafly lantern from sly's shop at dirtmouth.
+
+![hollow-knight-keeb-lumafly-lantern.mp4](https://dropper.wayl.one/api/file/2ea5790c-66d7-401d-95c7-c81a2bccb743.mp4)
+
+## Royal Waterway
+
+I decided to head back to the city of tears and into the royal waterway to
+fight the dung defender and collect Isma's tear.
+
+![hollow-knight-keeb-royal-waterway-unlock.mp4](https://dropper.wayl.one/api/file/3713bdd1-c645-46c5-85d2-451356383842.mp4)
+
+![hollow-knight-keeb-royal-waterway-entering.mp4](https://dropper.wayl.one/api/file/58235f4d-701f-4ddc-a26d-ab5f9e0bdbfc.mp4)
+
+![hollow-knight-keeb-royal-waterway-bench.mp4](https://dropper.wayl.one/api/file/bdf1985b-6a32-4bf4-9f9a-d6f814db7136.mp4)
