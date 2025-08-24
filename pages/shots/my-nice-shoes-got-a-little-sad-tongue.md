@@ -4,6 +4,7 @@ templateKey: shots
 title: My Nice Shoes Got A Little Sad Tongue
 tags:
   - shots
+  - family
 published: True
 slug: shots/my-nice-shoes-got-a-little-sad-tongue
 image: https://dropper.wayl.one/api/file/83c5ec0c-4e84-47a4-913f-50655260cb12.png
