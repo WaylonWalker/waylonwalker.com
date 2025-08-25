@@ -10,6 +10,11 @@
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
 }
 
+#posts ul#shots-feed {
+  @apply grid grid-flow-row-dense;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
 #posts a {
   @apply no-underline;
 }

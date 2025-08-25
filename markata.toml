@@ -539,7 +539,7 @@ description = 'A feed of all my scheduled posts'
 
 [[markata.feeds]]
 slug = 'today'
-filter = "date==today"
+filter = "date==today and templateKey not in ['plugin-report']"
 sort = "date"
 reverse = true
 
