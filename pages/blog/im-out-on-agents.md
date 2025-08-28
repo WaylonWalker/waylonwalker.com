@@ -13,8 +13,8 @@ before ai takes our jobs, and the big push right now is agents, managing
 agents.  I will fully concede to I'm not doing it right, or a future state gets
 better than where we are right now, but right now they kinda suck.
 
-!!! Transparency
-    
+!!! Note Transparency
+
     I'm sitting offline right now as I write this, These are my feels, no
     research, no links, no ai, just vibes.
 
