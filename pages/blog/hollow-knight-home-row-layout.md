@@ -246,3 +246,34 @@ I wandered around the world a bit today and found a few small items, nothing of 
 ![hollow-knight-keeb-thorny-mask-shard.mp4](https://dropper.wayl.one/api/file/2b9b5302-7437-4910-a98c-bc96650e353c.mp4)
 ![hollow-knight-keeb-spore-shroom.mp4](https://dropper.wayl.one/api/file/a15c7895-bd25-4238-9634-f58c2590730a.mp4)
 ![hollow-knight-keeb-thorny-wanderers-journal.mp4](https://dropper.wayl.one/api/file/d8cdee6e-4627-444a-99a0-b5b35e960dd8.mp4)
+
+## Challenging Mantis Lords
+
+It felt like time to challenge the Mantis Lords.  For the reason to prove to
+myself that I am getting better at this layout.
+
+I drew my nail and ready for the challenge.
+
+![hollow-knight-keeb-challenging-mantis-lords.mp4](https://dropper.wayl.one/api/file/dfe1c93b-3dd8-4941-8991-7ec8d4b49beb.mp4)
+
+First try I made it past the first one, and deep into the second one, I think
+If I would have remembered the healing window for them I would have had a shot
+at a first try on them.
+
+![hollow-knight-keeb-mantis-lords-1.mp4](https://dropper.wayl.one/api/file/98e34601-2cdd-4a38-98a1-97719b38c843.mp4)
+
+After three tries I had it.  Maybe its not apples to apples with my first ever
+run years ago on steam deck, but it took months.  I would have about 20 minutes
+a day waiting for kids pickup at school and I would just keep grinding at them
+for what added up to be likely several hours.
+
+![hollow-knight-keeb-defeating-mantis-lords.mp4](https://dropper.wayl.one/api/file/90bb2a30-c781-4dfd-98aa-ed933b24f1e3.mp4)
+
+After defeating them I'm let into the treasure room where I get a bench,
+Hallownest seal, a big loot box, and the [mark of
+pride](https://hollowknight.fandom.com/wiki/Mark_of_Pride).  This is actually
+one of my favorite charms as it gives you an extra 25% range to your nail
+attacks.  This opens up the window for pogos and reach attacks without taking
+damage.
+
+![hollow-knight-keeb-mark-of-pride.mp4](https://dropper.wayl.one/api/file/b9af2296-60e9-4d92-989f-1529a59c75a1.mp4)
