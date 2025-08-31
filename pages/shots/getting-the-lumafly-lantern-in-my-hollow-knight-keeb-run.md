@@ -4,6 +4,7 @@ templateKey: shots
 title: Getting The Lumafly Lantern In My Hollow Knight Keeb Run
 tags:
   - shots
+  - hollow-knight
   - gaming
 published: True
 slug: shots/getting-the-lumafly-lantern-in-my-hollow-knight-keeb-run

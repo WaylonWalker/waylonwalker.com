@@ -4,6 +4,7 @@ templateKey: shots
 title: Unlock Royal Waterway Bench In Hollow Knight Keeb
 tags:
   - shots
+  - hollow-knight
   - gaming
 published: True
 slug: shots/unlock-royal-waterway-bench-in-hollow-knight-keeb

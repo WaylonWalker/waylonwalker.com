@@ -22,7 +22,7 @@ This is a feed of everything that I have published on my site to date.
 * [web](https://waylonwalker.com/published)
 * [rss](https://waylonwalker.com/published/rss.xml)
 
-## til
+## til - daily(ish)
 
 This is a feed of all of my TIL's (Today I Learned).  These are generally short
 single topic posts that I write up quickly.  They are generally things that are
@@ -32,7 +32,7 @@ internet, and felt that It needed yet one more article with my voice.
 * [web](https://waylonwalker.com/til)
 * [rss](https://waylonwalker.com/til/rss.xml)
 
-## Thoughts
+## Thoughts - daily+
 
 These are generally my thoughts on a web page or some sort of url, except a
 rare few don't have a link.  These are dual published off of my
@@ -64,7 +64,7 @@ created within the last 30 days.
 * [web](https://waylonwalker.com/recent)
 * [rss](https://waylonwalker.com/recent/rss.xml)
 
-## Blog
+## Blog - weekly/monthly
 
 These are my full big **B** **B**log posts.  They are what I started writing,
 typically take a bit more time to put together.  I write fewer of them these

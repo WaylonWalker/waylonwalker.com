@@ -208,3 +208,41 @@ fight the dung defender and collect Isma's tear.
 ![hollow-knight-keeb-royal-waterway-entering.mp4](https://dropper.wayl.one/api/file/58235f4d-701f-4ddc-a26d-ab5f9e0bdbfc.mp4)
 
 ![hollow-knight-keeb-royal-waterway-bench.mp4](https://dropper.wayl.one/api/file/bdf1985b-6a32-4bf4-9f9a-d6f814db7136.mp4)
+
+The Dung Defender battle, great lore with this guy, lots of bouncy movement,
+but overall not too hard of a boss.  He is not very accurate with attacks, so
+you have time to just sit in the corners and heal.
+
+![hollow-knight-keeb-dung-defender.mp4](https://dropper.wayl.one/api/file/982091a0-a65a-44a4-aca6-fbffcff9ed90.mp4)
+
+Once the Dung Defender was defeated, I continued on up to the Kings Station and unlocked it.
+
+![hollow-knight-keeb-kings-station.mp4](https://dropper.wayl.one/api/file/3651c0e1-6d99-4b54-95eb-5b955323a2e9.mp4)
+
+I could not remember where ismas tear was and I ended up all the way down in
+deep nest, the climb out is a bit of a challenge, here I am going right by the
+route you take with crystal dash to get isma's tear.
+
+![climbing-out-of-deep-nest.mp4](https://dropper.wayl.one/api/file/9a4befef-e694-4a3c-8b0e-edd06a3f741c.mp4)
+
+## Isma's Tear
+
+I managed to find my way through the royal waterway and where you crystal dash
+over to isma's tear.  This battle took two attempts, because the first I had no
+health left and walked in with two masks.
+
+![hollow-knight-keeb-ismas-tear-battle.mp4](https://dropper.wayl.one/api/file/4dd7d2cd-7d4a-473e-a483-f8f8512c6442.mp4)
+
+Now the tear coats our shell and allows us to swim through the acid, and we can
+get a lot more places, and some places are just easier to get without precision
+parkour over the acid.
+
+![hollow-knight-keeb-ismas-tear.mp4](https://dropper.wayl.one/api/file/c6a334a4-d8d3-4742-82ea-3b6e9eaa9923.mp4)
+
+## Thorny Mask
+
+I wandered around the world a bit today and found a few small items, nothing of major concequence.
+
+![hollow-knight-keeb-thorny-mask-shard.mp4](https://dropper.wayl.one/api/file/2b9b5302-7437-4910-a98c-bc96650e353c.mp4)
+![hollow-knight-keeb-spore-shroom.mp4](https://dropper.wayl.one/api/file/a15c7895-bd25-4238-9634-f58c2590730a.mp4)
+![hollow-knight-keeb-thorny-wanderers-journal.mp4](https://dropper.wayl.one/api/file/d8cdee6e-4627-444a-99a0-b5b35e960dd8.mp4)

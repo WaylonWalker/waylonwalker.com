@@ -4,6 +4,7 @@ templateKey: shots
 title: Unlocking Royal Waterways In Hollow Knight Keeb Run
 tags:
   - shots
+  - hollow-knight
   - gaming
 published: True
 slug: shots/unlocking-royal-waterways-in-hollow-knight-keeb-run

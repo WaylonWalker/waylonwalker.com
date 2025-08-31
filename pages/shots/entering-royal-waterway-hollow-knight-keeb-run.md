@@ -4,6 +4,7 @@ templateKey: shots
 title: Entering Royal Waterway Hollow Knight Keeb Run
 tags:
   - shots
+  - hollow-knight
   - gaming
 published: True
 slug: shots/entering-royal-waterway-hollow-knight-keeb-run
