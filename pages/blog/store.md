@@ -20,7 +20,8 @@ longboard go with the thicker size.
 
 [![PXL_20250911_012148865.jpg](https://dropper.wayl.one/api/file/f2654443-fd69-48a8-a151-0199d053b5a6.jpg)](https://teleportpod.com/portal/a47fd522-d265-43b9-a8b0-8fa2395f7c46?item=588)
 
-> [regular size](https://teleportpod.com/portal/a47fd522-d265-43b9-a8b0-8fa2395f7c46?item=588)
+* [regular size](https://teleportpod.com/portal/a47fd522-d265-43b9-a8b0-8fa2395f7c46?item=588)
+* [over size](https://teleportpod.com/portal/c6a85018-4ed3-4a34-98f3-cfb660d64bf5?item=589)
 
 
 
