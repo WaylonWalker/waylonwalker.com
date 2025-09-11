@@ -35,5 +35,19 @@ longboard go with the thicker size.
 * [regular size](https://teleportpod.com/portal/a47fd522-d265-43b9-a8b0-8fa2395f7c46?item=588)
 * [over size](https://teleportpod.com/portal/c6a85018-4ed3-4a34-98f3-cfb660d64bf5?item=589)
 
+## Mic stand Clips
+
+These clips will hold your cables on your mic stand nicely and look nice while
+doing it.  I've got them on both of my mic stands, there are two versions, one
+for a smaller stand with usb cable, and one for a larger stand with an xlr
+  cable make sure you measure your mic stand before buying.
+
+![13mm-xlr-cropped.jpg](https://dropper.wayl.one/api/file/5d6967bf-63cd-40d8-9d71-03eb90cc3fdd.jpg)
+
+* [13mm stand | 6mm xlr cable](https://teleportpod.com/portal/0bf5a12c-47f3-4472-a3f7-70206546c3ec?item=618)
+
+![10-mm-usb.jpg](https://dropper.wayl.one/api/file/95717ce4-600a-4fd0-877a-8e926414e815.jpg)
+
+* [10mm stand | 4mm usb ](https://teleportpod.com/portal/8ebe3274-6445-44e9-b68e-0b4897e23e4a?item=619)
 
 
