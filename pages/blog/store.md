@@ -9,6 +9,18 @@ published: True
 
 ---
 
+I've been 3d printing for years, and create a lot of my own designs.  Many of
+them are hyper specific to me, but for the ones that I think others might find
+useful I will be putting up here for sale, you can buy prints that will show up
+to your door in a few days.  I'm leaning on the slant3d print farm so this
+depends on your proximity to them.  The prints are typically black petg, if you
+would like a different color reach out to me and I will see what other options
+we have, or for an additional fee I can print it myself and ship out
+special colors.
+
+These are all designs that I made and actually use myself, they bring me joy
+knowing that I made just the thing that I wanted to exist and if you buy
+something I hope that it brings you this joy as well.
 
 ## Skateboard Wall Mount
 
