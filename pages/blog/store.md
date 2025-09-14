@@ -51,3 +51,13 @@ for a smaller stand with usb cable, and one for a larger stand with an xlr
 * [10mm stand | 4mm usb ](https://teleportpod.com/portal/8ebe3274-6445-44e9-b68e-0b4897e23e4a?item=619)
 
 
+## Cat Door
+
+In our house we have a cat liter box in the basement, so we need to leave the
+door open for our cat.  But if our dog goes down there he seems to only cause
+trouble.  So I modeled this door prop to leave the door just enough open for
+the cat, but keep the dog out.
+
+![PXL_20250913_232149104.jpg](https://dropper.wayl.one/api/file/01a33e73-7bdc-4bfe-842e-d83d77c856d2.jpg)
+
+https://teleportpod.com/portal/f4500ce2-6f32-4773-a82a-e049a91b7da1?item=732
