@@ -16,11 +16,14 @@
         }
     </style>
 
-    <div class='min-h-screen flex flex-col items-center justify-center p-8' style="height: 600px; max-height: 600px;">
+    <div class='min-h-screen flex flex-col items-center justify-center p-8 pb-22' style="height: 600px; max-height: 600px;">
         <div class='w-full max-w-4xl flex flex-col justify-between h-full overflow-hidden'>
             <!-- Title Container with max height -->
             <div class="flex-1 flex items-center">
                 {% set title_length = post.title | string | length %}
+                {% if post.image is not none %}
+                    <h1 id="og-title" class='font-bold leading-tight line-clamp-3 max-w-6xl' style="font-size: 2rem;">
+                {% else %}
                 {% if title_length > 100 %}
                     <h1 id="og-title" class='font-bold leading-tight line-clamp-3 max-w-3xl' style="font-size: 2rem;">
                 {% elif title_length > 70 %}
@@ -38,9 +41,15 @@
                 {% else %}
                     <h1 id="og-title" class='font-bold leading-tight line-clamp-2 max-w-3xl' style="font-size: 3.5rem;">
                 {% endif %}
+                {% endif %}
                 {{ post.title }}
             </h1>
         </div>
+        <img 
+            src="{{ post.image }}" 
+            alt="{{ post.title }}"
+            class="max-h-[50vh]" 
+        >
 
             <!-- Footer -->
         <div class='flex items-center justify-between border-t border-pink-800 pt-4 bg-black absolute left-0 right-0 bottom-0 overflow-hidden px-12'>
