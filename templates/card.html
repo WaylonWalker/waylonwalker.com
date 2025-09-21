@@ -1,3 +1,6 @@
+{% if post.templateKey == 'shots' %}
+{% include 'image-card.html' %}
+{% else %}
 <li class="post group {{post.templateKey}} h-entry hentry">
     <a href="/{{markata.config.path_prefix}}{{ post.slug }}/" class="u-url" rel="bookmark" hx-boost="true">
         {% if post.title | length > 50 %}
@@ -33,3 +36,4 @@
         </div>
     </a>
 </li>
+{% endif %}

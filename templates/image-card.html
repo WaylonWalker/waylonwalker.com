@@ -1,21 +1,46 @@
-<li class="group {{post.templateKey}} h-entry hentry {{ post.card_classes }}"
-    >
-    <a href="/{{markata.config.path_prefix}}{{ post.slug }}/" class="u-url" rel="bookmark" hx-boost="true">
+<li class="group {{ post.templateKey }} h-entry hentry {{ post.card_classes }}">
+  <a href="/{{ markata.config.path_prefix }}{{ post.slug }}/" class="u-url" rel="bookmark" hx-boost="true">
 
-    {% set src, ext = post.image.rsplit('.', 1) %}
-    {% if ext.lower() in ['mp4', 'webm', 'avi'] %}
-    <p>
-    <video autoplay loop muted playsinline controls
-        class="aspect-square object-cover"
-        ><source src="{{src}}.{{ext}}" type="video/{{ext}}">Your browser does not support the video tag.</video>
-    </p>
+    {# safe defaults, avoid None #}
+    {% set img = post.image|default('', true) %}
+    {% set li = img|lower %}
+
+    {# suffix checks via slicing; no methods, no split #}
+    {% set is_mp4  = li[-4:] == '.mp4' %}
+    {% set is_webm = li[-5:] == '.webm' %}
+    {% set is_avi  = li[-4:] == '.avi' %}
+    {% set is_mov  = li[-4:] == '.mov' %}
+    {% set is_mkv  = li[-4:] == '.mkv' %}
+
+    {% set is_video = is_mp4 or is_webm or is_avi or is_mov or is_mkv %}
+
+    {% if is_video %}
+      {% set mime =
+        'video/mp4' if is_mp4 else
+        'video/webm' if is_webm else
+        'video/x-msvideo' if is_avi else
+        'video/quicktime' if is_mov else
+        'video/x-matroska'
+      %}
+      <p>
+        <video autoplay loop muted playsinline controls class="aspect-square object-cover">
+          <source src="{{ img }}" type="{{ mime }}">
+          Your browser does not support the video tag.
+        </video>
+      </p>
     {% else %}
-    <img 
-      title="{{post.title}}"
-      alt="{{post.description}}"
-      src="{{post.image}}"
-    >
+      {% set alt_text = post.description|default(post.title, true)|default('', true) %}
+      <img
+        title="{{ post.title }}"
+        alt="{{ alt_text }}"
+        src="{{ img }}"
+        loading="lazy"
+        decoding="async"
+        class="aspect-square object-cover"
+      >
+      <noscript><img title="{{ post.title }}" alt="{{ alt_text }}" src="{{ img }}"></noscript>
     {% endif %}
 
-    </a>
+  </a>
 </li>
+
