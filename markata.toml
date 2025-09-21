@@ -206,6 +206,7 @@ name = ""
 
 [markata.glob]
 glob_patterns = "pages/**/*.md"
+# glob_patterns = "pages/shots/**/*.md"
 # fast patterns for testing
 # glob_patterns = "pages/glossary/**/*.md"
 # glob_patterns = "pages/sample.md"
@@ -453,7 +454,7 @@ description = 'A feed of my thoughts of links from the internet originally poste
 
 [[markata.feeds]]
 slug = 'archive'
-filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts', 'stars', 'daily'] and published"
+filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts', 'stars', 'daily', 'shots'] and published and 'family' not in tags"
 sort = "date"
 reverse = true
 description = 'The main feed of all my main posts'
@@ -2788,8 +2789,17 @@ description = 'A feed of all my daily notes posts'
 [[markata.feeds]]
 title = 'Shots'
 slug = 'shots'
-filter = "date<=today and templateKey in ['shots']"
+filter = "date<=today and templateKey in ['shots'] and 'family' not in tags"
 sort = "date"
 reverse = true
 description = 'A feed of all my shots, inspired by https://justin.searls.co/shots/'
+card_template='image-card.html'
+
+[[markata.feeds]]
+title = 'Famlily Shots'
+slug = 'family-shots'
+filter = "date<=today and templateKey in ['shots'] and 'family' in tags"
+sort = "date"
+reverse = true
+description = 'A feed of my family shots'
 card_template='image-card.html'
