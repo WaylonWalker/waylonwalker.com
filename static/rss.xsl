@@ -48,7 +48,7 @@
                 </ul>
             </nav>
             <div id="title-wrapper">
-                <a class="u-url" href="https://waylonwalker.com/{{ slug }}/">
+            <a class="u-url" href="https://waylonwalker.com/{{ slug.lstrip('/', '').rstrip('/', '') }}/">
                     <h1 id="title" style="
                 text-align: right;
                 z-index: 2;
