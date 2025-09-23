@@ -57,7 +57,7 @@ def load(markata: "Markata") -> None:
         post["markata"] = markata
         post["description"] = clean_description(post["message"][:120])
         if post["link"] is None or post["link"] == "None":
-            post["link"] = "https://waylonwalker.com/" + post["slug"] + "/"
+            post["link"] = "https://waylonwalker.com/" + post["slug"].lstrip('/').rstrip('/') + "/"
         post["content"] = f"""
 <a href="{ post["link"] }">
     <img
@@ -81,7 +81,7 @@ Here's my thought on <a href="{post["link"]}">{post["title"]}</a>
      content online.  Learn more about the process [[ thoughts ]]
 
 {text_opacity_80}
-This post was a thought by [Waylon Walker](https://waylonwalker.com) see all my
+This post was a thought by [Waylon Walker](https://waylonwalker.com/) see all my
 thoughts at
 [https://waylonwalker.com/thoughts](https://waylonwalker.com/thoughts)
         """
