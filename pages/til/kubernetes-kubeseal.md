@@ -19,7 +19,7 @@ You see kubeseal encrypts your secrets with a private key only stored in your
 cluster, so only the cluster itself can decrypt them using the kubeseal
 controller.
 
-![cover](https://screenshots.waylonwalker.com/kubeseal-post.png)
+![kubeseal-post.png](https://dropper.wayl.one/api/file/833e8681-8220-4096-b211-80c33eb10c1c.png)
 
 ## KubeSeal
 

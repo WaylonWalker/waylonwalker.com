@@ -19,8 +19,7 @@ it.
 
 > creating new versions created by myself with stable diffusion
 
-![hatch-new-cli](https://screenshots.waylonwalker.com/hatch-new-cli.webp)
-
+![hatch-new-cli.webp](https://dropper.wayl.one/api/file/765d9f0c-c73a-44e5-8f0a-0027dff67abe.webp)
 
 ```
 ❯ pipx run hatch new --help
@@ -70,7 +69,7 @@ filetree.
 You can also fill in the project name ahead of time, and it will run without
 any questions.
 
-![hatch-new-another-project](https://screenshots.waylonwalker.com/hatch-new-another-project.webp)
+![hatch-new-another-project.webp](https://dropper.wayl.one/api/file/7d902784-e69e-4990-a711-22365665594c.webp)
 
 ``` bash
 ❯ pipx run hatch new "Another Project"
@@ -117,7 +116,7 @@ I can setup packaging with hatch by running.
 pipx run hatch new --init
 ```
 
-![hatch-init-existing](https://screenshots.waylonwalker.com/hatch-init-existing.webp)
+![hatch-init-existing.webp](https://dropper.wayl.one/api/file/8e43edca-57d9-4bbf-9ca8-c6d026356be3.webp)
 
 
 The `pyproject.toml` that comes out is pretty similar to the one that comes out
@@ -260,6 +259,6 @@ cli pretty damn quick with two commands. In under 5s I was able to run this cli
 that it created.  This is a pretty incredible startup time.
 
 
-![pipx-run-hatch-hello-world](https://screenshots.waylonwalker.com/pipx-run-hatch-hello-world.webp)
+![pipx-run-hatch-hello-world.webp](https://dropper.wayl.one/api/file/608b7c9c-3cff-4659-87d4-6e5618f6dbcb.webp)
 
 !["An astronaut working in a lab, there is a series of eggs ready to hatch baby snakes on the table, experiments running, beakers, test tubes, cyberpunk trending on artstation, neon lighting, volumetric lighting, pink lighting" -s50 -W800 -H450 -C7.5 -Ak_lms -S2274808816](https://stable-diffusion.waylonwalker.com/000136.2274808816.webp)

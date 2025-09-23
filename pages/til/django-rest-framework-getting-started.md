@@ -169,4 +169,4 @@ python manage.py runserver
 Running the developement server and going to `localhost:8000/api` we can see
 the full list of items in th api.
 
-![djangorestframework-get-items](https://screenshots.waylonwalker.com/djangorestframework-get-items.webp)
+![djangorestframework-get-items.webp](https://dropper.wayl.one/api/file/1142afab-b71f-474d-bf5c-27bd2a01309b.webp)

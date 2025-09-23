@@ -30,7 +30,7 @@ tells me that I need to run migrations to setup some tables for the
 python manage.py migrate
 ```
 
-![Running the database migrations](https://screenshots.waylonwalker.com/trydjango-migration.png)
+![trydjango-migration.png](https://dropper.wayl.one/api/file/c5774ced-b535-42d3-bbdc-8be39da7795e.png)
 
 > yes I am still running remote on from my chromebook.
 
@@ -38,19 +38,17 @@ python manage.py migrate
 python manage.py createsuperuser
 ```
 
-![](https://screenshots.waylonwalker.com/trydjango-create-superuser.png)
+![trydjango-create-superuser.png](https://dropper.wayl.one/api/file/b46c5a29-56d2-413f-bc14-f49353169ea3.png)
 
 The super user has been created.
 
-![!["cybernetic soldier working on a rusting tape machine robot, cinematic lighting, detailed, cell shaded, 4 k, warm colours, concept art, by wlop, ilya kuvshinov, artgerm, krenz cushart, greg rutkowski, pixiv. cinematic dramatic atmosphere, sharp focus, volumetric lighting, cinematic lighting, studio quality" -s50 -W832 -H416 -C12.0 -Ak_lms -S2018296614](https://screenshots.waylonwalker.com/trydjango-trusted-origin-failure.png)
-](https://stable-diffusion.waylonwalker.com/000368.2018296614.webp)
+!["cybernetic soldier working on a rusting tape machine robot, cinematic lighting, detailed, cell shaded, 4 k, warm colours, concept art, by wlop, ilya kuvshinov, artgerm, krenz cushart, greg rutkowski, pixiv. cinematic dramatic atmosphere, sharp focus, volumetric lighting, cinematic lighting, studio quality" -s50 -W832 -H416 -C12.0 -Ak_lms -S2018296614](https://stable-diffusion.waylonwalker.com/000368.2018296614.webp)
 
 ## CSRF FAILURE
 
 My next issue trying to run off of a separate domain was a cross site request
 forgery error.
 
-![](https://screenshots.waylonwalker.com/trydjango-trusted-origin-failure.png)
 
 Since this is a valid domain that we are hosting the app from we need to tell
 Django that this is safe.  We can do this again in the `settings.py`, but this
@@ -64,7 +62,7 @@ CSRF_TRUSTED_ORIGINS = ['https://localhost.waylonwalker.com']
 
 And we are in, and welcomed for the first time with this django admin panel.
 
-![The Django admin panel](https://screenshots.waylonwalker.com/trydjango-hello-admin.png)
+![trydjango-hello.webp](https://dropper.wayl.one/api/file/839b17ce-1850-44d4-a560-014e878934bd.webp)
 
 ## Remote Hosting
 

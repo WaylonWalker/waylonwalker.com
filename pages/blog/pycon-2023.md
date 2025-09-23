@@ -13,7 +13,7 @@ I don't want to be an expert python developer.
 
 [https://www.youtube.com/watch?v=iKzOBWOHGFE](https://www.youtube.com/watch?v=iKzOBWOHGFE){.hoverlink}
 
-![keynote-speaker---james-powell](https://screenshots.waylonwalker.com/keynote-speaker---james-powell.webp)
+![keynote-speaker---james-powell.webp](https://dropper.wayl.one/api/file/8275d2a5-72da-470c-a71d-86019415b303.webp)
 
 ### usage of keyword only arguments to prevent pain for users of libraries
 

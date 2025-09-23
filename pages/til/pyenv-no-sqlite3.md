@@ -53,7 +53,7 @@ pyenv install 3.8.13
 I think I had tried this several times, but was missing the `-y` option each
 time.  You gotta read errors like this, I am really good at glossing over them.
 
-![pyenv-install-exists](https://screenshots.waylonwalker.com/pyenv-install-exists.webp)
+![pyenv-install-exists.webp](https://dropper.wayl.one/api/file/017121e2-1f51-4910-bfce-86813a7f90a3.webp)
 
 ## Let's never have this issue again.
 

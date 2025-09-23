@@ -33,7 +33,7 @@ django-admin startproject try_django
 cd try_django
 ```
 
-![django-startproject](https://screenshots.waylonwalker.com/django-startproject.webp)
+![django-startproject.webp](https://dropper.wayl.one/api/file/1913211c-81ac-4de4-af49-9a532f0786f7.webp)
 
 ## Make a venv
 
@@ -46,7 +46,7 @@ me"_ command.
 hatch shell
 ```
 
-![trydjango-venv](https://screenshots.waylonwalker.com/trydjango-venv.webp)
+![trydjango-venv.webp](https://dropper.wayl.one/api/file/974809a1-02bd-46c4-acf9-783fd5128b35.webp)
 
 If hatch is a bit bleeding edge for you, or it has died out by the time you
 read this.  The ol trusty venv will likely stand the test of time, this is what
@@ -67,18 +67,18 @@ it clashed with a currently running web server port.
 python manage.py runserver
 ```
 
-![django-runserver-oops](https://screenshots.waylonwalker.com/django-runserver-oops.webp)
+![django-runserver-oops.webp](https://dropper.wayl.one/api/file/ac1397f4-71b9-4617-9438-33cfa2e53c75.webp)
 
 I jumped over to that tmux session, killed the process and I was up and running.
 
-![trydjango-runserver](https://screenshots.waylonwalker.com/trydjango-runserver.webp)
+![trydjango-runserver.webp](https://dropper.wayl.one/api/file/828d8e21-00c7-4f02-bd47-e3cebc318adc.webp)
 
 ## What's running
 
 The default django hello world looks well designed.  You are first presented
 with this page.
 
-![trydjango-hello](https://screenshots.waylonwalker.com/trydjango-hello.webp)
+![trydjango-hello.webp](https://dropper.wayl.one/api/file/e5523925-1565-454c-bab3-c70c4deabc83.webp)
 
 ## Next
 

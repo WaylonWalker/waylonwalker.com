@@ -48,7 +48,7 @@ pipx install git+https://github.com/WaylonWalker/screenshots.waylonwalker.com
 Now that screenshot is installed we can call it and make a screenshot. I'll
 take a screenshot of the frontmatter of this exact post.
 
-![screenshot-to-blog](https://screenshots.waylonwalker.com/screenshot-to-blog.webp)
+![screenshot-to-blog.webp](https://dropper.wayl.one/api/file/6ffe0670-fb5d-4fb2-bfe2-04f5cf6ff844.webp)
 
 I have this tool exposed as a command that can be ran in the command line by
 calling `screenshot`. I will rarely use it this way, but makes it easy to
@@ -58,7 +58,7 @@ create a hotkey for later.
 
 Once the screenshot is successful, I get a `notify-send` message popup telling me so.
 
-![screenshot-success](https://screenshots.waylonwalker.com/screenshot-success.webp)
+![screenshot-success.webp](https://dropper.wayl.one/api/file/1aff2331-ac42-4796-b60c-1b58e7bd15f6.webp)
 
 ## xbindkeys
 
@@ -86,7 +86,7 @@ The one question I ask myself when creating the hotkey is for a filename. On
 my ubuntu machine I do that with a simple gui application called zenity. It
 looks like this when I open it up.
 
-![screenshot-zenity-window](https://screenshots.waylonwalker.com/screenshot-zenity-window.webp)
+![screenshot-zenity-window.webp](https://dropper.wayl.one/api/file/36bb612f-c0a5-402e-9891-af24e7b95a14.webp)
 
 Under the hood my screenshot tool is running the following command in a subprocess.
 
