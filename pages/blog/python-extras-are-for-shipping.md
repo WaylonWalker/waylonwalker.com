@@ -1,6 +1,6 @@
 ---
-date: 2025-10-02 20:18:23
-templateKey: blog
+date: 2025-10-03 20:18:23
+templateKey: blog-post
 title: python extras are for shipping
 published: true
 tags:
@@ -205,12 +205,17 @@ uv run --all-groups --all-extras ipython
 ## Potential `uv` bug
 
 At the time of writing once a dependency group is used it persists in the
-virtual environment for the rest of the project.
+virtual environment for the rest of the project.  This is not the case with
+`extras` it only includes the `extras` you ask for on each run.  The state is
+clean and consistent with `extras`, but `groups` depend on what you have ran
+before in the project.
 
 ``` bash
 ❯ uv --version
 uv 0.8.22 (ade2bdbd2 2025-09-23)
 ```
+
+example
 
 ``` bash
 # install docs group
