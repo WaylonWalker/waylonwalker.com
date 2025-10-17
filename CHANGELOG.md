@@ -1,3 +1,7 @@
+## 56
+
+- fix: make entrypoint executable
+
 ## 55
 
 - bump markata to 0.10.0dev4
