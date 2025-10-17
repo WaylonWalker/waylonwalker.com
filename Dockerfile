@@ -1,4 +1,4 @@
-FROM ubuntu:noble
+FROM docker.io/ubuntu:noble
 
 ENV PATH="/root/.local/bin:$PATH"
 ENV VIRTUAL_ENV="/opt/venv"
@@ -19,7 +19,7 @@ WORKDIR /app
 
 COPY requirements.txt .
 COPY README.md .
-COPY metrics.json /root/.config/wrangler/metrics.json
+# COPY metrics.json /root/.config/wrangler/metrics.json
 
 RUN uv pip install --upgrade pip setuptools wheel
 RUN uv pip install -r requirements.txt
@@ -29,5 +29,6 @@ ENV CLOUDFLARE_API_TOKEN=
 # ENV TZ=America/Chicago
 
 COPY entrypoint.sh .
+RUN chmod +x entrypoint.sh
 # ENTRYPOINT ['entrypoint.sh']
 CMD '/app/entrypoint.sh'
