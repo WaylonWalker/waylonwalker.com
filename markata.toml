@@ -32,6 +32,8 @@ hooks = [
     'plugins.post_model',
     'plugins.thoughts',
     "plugins.wikilink_hover",
+    # "plugins.wikilink_hover",
+    "plugins.wa_wikilink_hover",
     # "plugins.abbreviations",
     # "plugins.boosted_link",
     "plugins.permalink_aria",
