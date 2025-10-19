@@ -75,49 +75,11 @@ def load(markata):
         for term in terms:
             markata.glossary_terms[term.lower()] = post
 
+    import json
 
-@hook_impl
-def post_render(markata):
-    template = markata.jinja_env.get_template(markata.config.glossary.template_path)
-    for post in markata.posts:
-        # if post.templateKey == "glossary":
-        #     continue
-
-        html_map = post.html if isinstance(post.html, dict) else {"default": post.html}
-        new_html_map = {}
-
-        for key, html in html_map.items():
-            soup = BeautifulSoup(html, "html.parser")
-            seen_terms = set()
-
-            for p in soup.find_all("p"):
-                text = p.decode_contents()
-
-                for term, glossary_post in markata.glossary_terms.items():
-                    if term in seen_terms:
-                        continue
-                    if glossary_post.slug == post.slug:
-                        continue
-                    if term in text.lower():
-                        seen_terms.add(term)
-
-                        rendered = template.render(
-                            term=term,
-                            glossary_post=glossary_post,
-                            post=post,
-                        )
-
-                        # Replace only first occurrence with original casing
-                        idx = text.lower().find(term)
-                        original = text[idx : idx + len(term)]
-                        text = text[:idx] + rendered + text[idx + len(term) :]
-
-                        p.clear()
-                        p.append(BeautifulSoup(text, "html.parser"))
-                        break
-
-            new_html_map[key] = str(soup)
-
-        post.html = (
-            new_html_map if isinstance(post.html, dict) else new_html_map.get("default")
-        )
+    glossary_json = {term: post.slug for term, post in markata.glossary_terms.items()}
+    # sort by value length
+    glossary_json = {
+        k: v for k, v in sorted(glossary_json.items(), key=lambda item: len(item[1]), reverse=True)
+    }
+    (markata.config.output_dir / "glossary.json").write_text(json.dumps(glossary_json))
