@@ -23,7 +23,8 @@ assets_dir = "static"
 hooks = [
     'plugins.qrcode',
     'plugins.csv_fence',
-    # 'plugins.glossary',
+    'plugins.doctype_enforcer',
+    'plugins.glossary',
     # 'plugins.lunr_js',
     # 'plugins.vega_lite',
     'plugins.mermaid',
@@ -31,9 +32,9 @@ hooks = [
     'plugins.md_video',
     'plugins.post_model',
     'plugins.thoughts',
-    "plugins.wikilink_hover",
     # "plugins.wikilink_hover",
-    "plugins.wa_wikilink_hover",
+    # "plugins.wa_wikilink_hover",
+    "plugins.tippy_wikilink_hover",
     # "plugins.abbreviations",
     # "plugins.boosted_link",
     "plugins.permalink_aria",
@@ -208,10 +209,11 @@ name = ""
 
 [markata.glob]
 glob_patterns = "pages/**/*.md"
-# glob_patterns = "pages/shots/**/*.md"
 # fast patterns for testing
+# glob_patterns = "pages/shots/**/*.md"
 # glob_patterns = "pages/glossary/**/*.md"
 # glob_patterns = "pages/sample.md"
+# glob_patterns = ["pages/glossary/**/*.md","pages/sample.md"]
 
 
 [markata.auto_description.description]

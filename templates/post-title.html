@@ -3,9 +3,10 @@
         <h1 id="title" class="flair blog title no-link">
             {{ post.title }}
         </h1>
-        <img id='post-qr-link' class='qr border-none shadow-none mt-0 mr-0 mb-auto ml-auto p-0 w-16 h-16 rounded-none'  src='qr.svg'
-        style='margin-right: 0; margin-top: 0; box-shadow: none;'
-        >
+        <!-- <img id='post-qr-link' class='qr border-none shadow-none mt-0 mr-0 mb-auto ml-auto p-0 w-16 h-16 rounded-none'  src='qr.svg' -->
+        <!-- style='margin-right: 0; margin-top: 0; box-shadow: none;' -->
+        <!-- > -->
+        <wa-qr-code value="{{ config.url }}{{ post.slug }}" fill="deeppink" background="transparant" radius="0.5"></wa-qr-code>
     </a>
     <p class='m-0 sm:m-[-2rem]'>
         <time class="dt-published post-date" datetime="{{ date }}" style="text-align: right; z-index: 2">{{

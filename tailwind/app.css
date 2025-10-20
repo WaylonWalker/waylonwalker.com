@@ -4,9 +4,18 @@
 @import './admonition.css';
 @import './chat.css';
 @import './scrollbar.css';
+@import './avatar.css';
 @import './highlight.css' layer(utilities);
 
 @config '../tailwind.config.js';
+
+
+.tippy-box[data-theme~='waylon'] {
+  background-color: #0b0b0b;          /* background */
+  color: #e5e7eb;                      /* text color (optional) */
+  border: 2px solid #ec4899;           /* border & color */
+  border-radius: 12px;                 /* border radius */
+}
 
 /*
   The default border color has changed to `currentColor` in Tailwind CSS v4,

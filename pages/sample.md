@@ -21,9 +21,20 @@ version: 12
 
 ###### sub-sub-sub-sub-subtitle
 
+
+## Glossary
+
+There is a glossary item in vibe coding here and clippy no simpy.
+
+Now you don't have to manually link to how to create a virtual environment
+every time you mention virtual environments in any post that needs a virtual
+environment.
+
+
 ## Paragraph
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+<span class="bg-pink-500" id="inline-tooltip">Hover me</span>
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
 nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
@@ -654,3 +665,58 @@ architecture-beta
         ```
 
 version {{ version }}
+
+<wa-tooltip  for="inline-tooltip" trigger='manual' id='inline-tooltip-tooltip'>
+    <div class='bg-black rounded-xl border-2 border-pink-500 max-h-96 overflow-y-scroll'>
+        <a href='/glossary/vibe-coding' class="bg-pink-500 text-white uppercase mx-4" style='color:white'>Vibe Coding</a>
+        <div  hx-get='/glossary/vibe-coding/partial' hx-trigger='load' hx-swap='outerHTML'></div>
+    </div>
+</wa-tooltip>
+
+<script>
+  const tooltip = document.getElementById('inline-tooltip-tooltip');
+  const anchor  = document.getElementById('inline-tooltip');
+
+  let overAnchor = false;
+  let overTip    = false;
+  let closeTimer = null;
+
+  function openTip() {
+    clearTimeout(closeTimer);
+    tooltip.open = true;
+  }
+  function scheduleClose(delay = 200) {
+    clearTimeout(closeTimer);
+    closeTimer = setTimeout(() => {
+      if (!overAnchor && !overTip) tooltip.open = false;
+    }, delay);
+  }
+
+  // Anchor hover intent
+  anchor.addEventListener('pointerenter', () => {
+    overAnchor = true;
+    openTip();
+  });
+  anchor.addEventListener('pointerleave', () => {
+    overAnchor = false;
+    // give the user time to move into the tooltip
+    scheduleClose(200);
+  });
+
+  // Tooltip hover intent
+  tooltip.addEventListener('pointerenter', () => {
+    overTip = true;
+    openTip();
+  });
+  tooltip.addEventListener('pointerleave', () => {
+    overTip = false;
+    scheduleClose(100);
+  });
+
+  // Optional: open on focus, close on blur/Escape for a11y
+  anchor.addEventListener('focusin', openTip);
+  anchor.addEventListener('focusout', () => scheduleClose(100));
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') tooltip.open = false;
+  });
+</script>

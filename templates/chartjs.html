@@ -1,3 +1,4 @@
+{% if 'chartjs' in post.content %}
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
 document.addEventListener("DOMContentLoaded", () => {
@@ -14,4 +15,6 @@ document.addEventListener("DOMContentLoaded", () => {
       console.error("Failed to render Chart.js chart", err);
     }
   });
-});    </script>
+});    
+</script>
+{% endif %}

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width" />
@@ -10,10 +9,13 @@
         {% include 'head.html' %}
         {% include 'avatar.html' %}
         {% include 'mermaid.html' %}
+        {% include 'glossary.html' %}
         {% include 'chartjs.html' %}
         <script src="/admonition.js"></script>
         <script src="/fragmention.min.js"></script>
         <script src="/htmx.min.js"></script>
+        <script src="https://unpkg.com/@popperjs/core@2"></script>
+        <script src="https://unpkg.com/tippy.js@6"></script>
         <script>
             document.addEventListener("mouseup", function () {
                 const selectedText = window.getSelection().toString().trim().replace(/\s+/g, "+");
@@ -58,12 +60,8 @@
             }
         </script>
     </head>
-
     <body position="relative">
-
-        <!-- <div class="neon-ring"></div> -->
         <div class="dubs">
-        <!-- <div class="dubs-overlay"></div> -->
             {% block content %}{% endblock %}
         </div>
     </body>
