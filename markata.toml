@@ -1538,13 +1538,6 @@ reverse = true
 description = "Posts about docker"
 
 [[markata.feeds]]
-slug = "just-feed"
-filter = "date<=today and 'just' in str(tags).lower() and published"
-sort = "date"
-reverse = true
-description = "Posts about just"
-
-[[markata.feeds]]
 slug = "testing"
 filter = "date<=today and 'testing' in str(tags).lower() and published"
 sort = "date"
@@ -2034,8 +2027,15 @@ sort = "date"
 reverse = true
 description = "Posts about distrobox"
 
+# [[markata.feeds]]
+# slug = "just"
+# filter = "date<=today and 'just' in str(tags).lower() and published"
+# sort = "date"
+# reverse = true
+# description = "Posts about just"
+
 [[markata.feeds]]
-slug = "just"
+slug = "just-feed"
 filter = "date<=today and 'just' in str(tags).lower() and published"
 sort = "date"
 reverse = true
