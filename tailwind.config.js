@@ -17,9 +17,9 @@ module.exports = {
         25: ".25",
         75: ".75",
       },
-      screens: {
-        print: { raw: "print" },
-      },
+      // screens: {
+      //   print: { raw: "print" },
+      // },
       width: {
         128: "32rem",
       },
