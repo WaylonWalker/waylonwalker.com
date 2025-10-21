@@ -11,11 +11,11 @@
         {% include 'mermaid.html' %}
         {% include 'glossary.html' %}
         {% include 'chartjs.html' %}
-        <script src="/admonition.js"></script>
+        <script src="/admonition.js" defer></script>
         <script src="/fragmention.min.js"></script>
-        <script src="/htmx.min.js"></script>
-        <script src="https://unpkg.com/@popperjs/core@2"></script>
-        <script src="https://unpkg.com/tippy.js@6"></script>
+        <script src="/htmx.min.js" defer></script>
+        <script src="https://unpkg.com/@popperjs/core@2" defer></script>
+        <script src="https://unpkg.com/tippy.js@6" defer></script>
         <script>
             document.addEventListener("mouseup", function () {
                 const selectedText = window.getSelection().toString().trim().replace(/\s+/g, "+");
