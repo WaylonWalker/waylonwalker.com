@@ -21,13 +21,13 @@ let debounceTimeout = null;
 
 // Light placeholder
 const showEmpty = () => {
-  resultsEl.innerHTML = '<p class="text-gray-500 col-span-full text-center py-8">Start typing to search…</p>';
+  resultsEl.innerHTML = '<li class="text-gray-500 col-span-full text-center py-8">Start typing to search…</li>';
 };
 const showLoading = () => {
-  resultsEl.innerHTML = '<p class="text-gray-400 col-span-full text-center py-8 animate-pulse">Loading suggestions…</p>';
+  resultsEl.innerHTML = '<li class="text-gray-400 col-span-full text-center py-8 animate-pulse">Loading suggestions…</li>';
 };
 const showError = (msg = 'Could not load suggestions.') => {
-  resultsEl.innerHTML = `<p class="text-red-400 col-span-full text-center py-8">${msg}</p>`;
+  resultsEl.innerHTML = `<li class="text-red-400 col-span-full text-center py-8">${msg}</li>`;
 };
 
 // Initial placeholder
