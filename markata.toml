@@ -21,7 +21,7 @@ default_cache_expire = 1209600
 output_dir = "markout"
 assets_dir = "static"
 hooks = [
-    'plugins.qrcode',
+    # 'plugins.qrcode',
     'plugins.csv_fence',
     'plugins.doctype_enforcer',
     'plugins.glossary',
@@ -31,7 +31,7 @@ hooks = [
     'plugins.chartjs',
     'plugins.md_video',
     'plugins.post_model',
-    'plugins.thoughts',
+    # 'plugins.thoughts',
     # "plugins.wikilink_hover",
     # "plugins.wa_wikilink_hover",
     "plugins.tippy_wikilink_hover",
@@ -50,7 +50,7 @@ hooks = [
     # "plugins.slug",
     # "plugins.one_line_link",
     # "plugins.include",
-    'markata.plugins.analytics',
+    # 'markata.plugins.analytics',
     "markata.plugins.jinja_md",
     "default",
     # 'plugins.link_collector',
@@ -209,6 +209,7 @@ name = ""
 
 [markata.glob]
 glob_patterns = "pages/**/*.md"
+
 # fast patterns for testing
 # glob_patterns = "pages/shots/**/*.md"
 # glob_patterns = "pages/glossary/**/*.md"
@@ -379,20 +380,7 @@ content = "#322D39"
 
 [[markata.head.link]]
 rel = "preconnect"
-href = "https://images.waylonwalker.com"
-
-[[markata.head.link]]
-rel = "preconnect"
-href = "https://covers.waylonwalker.com"
-
-[[markata.head.link]]
-rel = "preconnect"
-href = "https://stable-diffusion.waylonwalker.com"
-
-[[markata.head.link]]
-rel = "preconnect"
-href = "https://screenshots.waylonwalker.com"
-
+href = "https://dropper.wayl.one"
 
 [[ markata.head.link ]]
 href="/8bitcc_48x48.png"
@@ -458,7 +446,9 @@ description = 'A feed of my thoughts of links from the internet originally poste
 
 [[markata.feeds]]
 slug = 'archive'
-filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts', 'stars', 'daily', 'shots'] and published and 'family' not in tags"
+# dropper needs to have a smaller image size
+# filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts', 'stars', 'daily', 'shots'] and published and 'family' not in tags"
+filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts', 'stars', 'daily'] and published and 'family' not in tags"
 sort = "date"
 reverse = true
 description = 'The main feed of all my main posts'
