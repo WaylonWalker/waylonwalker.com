@@ -15,12 +15,16 @@ want s3 sync to work.  `dotenv run` is the tool that I've been using for this,
 and this uv one liner lets it run fully isolated from the project.
 
 
+## one liner
 
 ``` bash
 uv tool run --from 'python-dotenv[cli]' dotenv run -- uv tool run --from awscli aws s3 sync s3://bucket data
 ```
 
-> one liner
+
+## multi-line
+
+same thing formatted for readability
 
 ``` bash
 uv tool run \
@@ -31,4 +35,5 @@ uv tool run \
   aws s3 sync s3://dropper data
 ```
 
-> same thing formatted for readability
+There are probably 10 ways to skin this cat, but this is what I did, if you
+have a better way let me know, I'll link you below.
