@@ -5,7 +5,7 @@ title: Versioning Python Projects with Hatch
 published: true
 tags:
   - python
-cover: https://images.waylonwalker.com/hatch-version.png
+cover: https://dropper.wayl.one/api/file/7564575a-6264-4d38-8ead-4ddb6c86f7c4.png
 jinja: false
 
 ---
