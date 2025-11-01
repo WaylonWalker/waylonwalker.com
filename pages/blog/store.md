@@ -60,4 +60,11 @@ the cat, but keep the dog out.
 
 ![PXL_20250913_232149104.jpg](https://dropper.wayl.one/api/file/01a33e73-7bdc-4bfe-842e-d83d77c856d2.jpg)
 
-https://teleportpod.com/portal/f4500ce2-6f32-4773-a82a-e049a91b7da1?item=732
+* [cat door](https://teleportpod.com/portal/f4500ce2-6f32-4773-a82a-e049a91b7da1?item=732)
+
+## Kicker Ramp
+
+[kicker ramp](https://teleportpod.com/portal/0d6283fc-889e-4445-b0fd-29e40cf82fca?item=521)
+
+[manny pad](https://teleportpod.com/portal/671a9184-b0ed-419c-9be3-8f3cb52657e3?item=520)
+
