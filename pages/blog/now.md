@@ -12,8 +12,15 @@ aliases:
 
 ---
 
-
 This page is meant to be simple view into what is happening in my life right now. Inspired by [@NowNowNow](https://nownownow.com/). and Derek Sivers.
+
+Last Update 2025-10-29
+
+* Silksong has my attention, it's great
+* Working on new features for dropper
+   * Vibe coding sucks
+   * Images will soon be able to be resized and be more efficient over the network.
+* Trying to branch out and add more than software to the blog.  Things like design and 3d printing.
 
 ---
 
