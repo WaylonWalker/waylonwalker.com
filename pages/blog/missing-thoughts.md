@@ -1,5 +1,5 @@
 ---
-date: 2025-11-06 19:57:36
+date: 2025-11-05 07:23:35
 templateKey: blog-post
 title: Missing Thoughts
 tags:
@@ -54,6 +54,19 @@ issue.
 
 > Huh, that's odd
 
+## The Discovery
+
+I didn't realize I even had an issue until later that week when I went to my [[
+archive ]] myself and noticed the shape of it looks off.  When I opened up my
+feed something felt off, it was only the big posts.  Thoughts show up as a
+different kind of card
+
+Then it hit me.
+
+> Something just felt off
+
+Thoughts are Gone!
+
 ## The Fix
 
 I popped open my config and immediately knew what happened.  I turned off some
@@ -84,3 +97,12 @@ index 59539bab..a55a494d 100644
      # "plugins.wa_wikilink_hover",
      "plugins.tippy_wikilink_hover",
 ```
+
+## Owning Everything has a cost
+
+You see here I am a one man show.  I own the content, the build, the infra that
+does the build.  I love it, but there is so much to do for one persons side
+project passion project.  Did I bite off more than I can chew? Did I choose the
+wrong abstraction level for my needs?  Should I have better tests in place? Or
+is this just a digital garden that has ebs and flows, growing weeds and pruning
+them every few months?
