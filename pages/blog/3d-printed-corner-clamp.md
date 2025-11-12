@@ -3,7 +3,7 @@ date: 2025-11-11 21:13:07
 templateKey: blog-post
 title: 3d-Printed Corner Clamp
 tags:
-  - python
+  - 3d-printing
 published: True
 
 ---
