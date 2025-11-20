@@ -14,6 +14,15 @@
 
     {% set is_video = is_mp4 or is_webm or is_avi or is_mov or is_mkv %}
 
+    {# only add width=250 for images from dropper #}
+    {% if img.startswith('https://dropper.wayl.one') %}
+      {% if '?' in img %}
+        {% set img = img ~ '&width=250' %}
+      {% else %}
+        {% set img = img ~ '?width=250' %}
+      {% endif %}
+    {% endif %}
+
     {% if is_video %}
       {% set mime =
         'video/mp4' if is_mp4 else
