@@ -24,10 +24,16 @@ enabled = true                          # Turn the plugin on/off
 
 # Behaviour
 
-- Finds all `<img>` and `<video>` tags whose `src` begins with `base_url`.
-- Wraps each in an `<a>` that links to the **original** (unsized) URL.
-- If the `src` has **no** `?` query string and `default_width` is truthy,
-  it updates the `src` to `src + "?width={default_width}"`.
+- Finds all `<img>` tags whose `src` begins with `base_url`.
+- Finds all `<video>` tags that either:
+  - have a `src` beginning with `base_url`, **or**
+  - contain a `<source>` child whose `src` begins with `base_url`.
+- Uses the actual URL-bearing element (`<img>` or `<source>`/`<video>`) to
+  apply the `?width=` query parameter.
+- Wraps each `<img>` / `<video>` in an `<a>` that links to the **original**
+  (unsized) URL.
+- If the media URL has **no** `?` query string and `default_width` is truthy,
+  it updates that URL to `src + "?width={default_width}"`.
 - If the media tag is already inside an `<a>`, it reuses that anchor rather
   than nesting another one.
 - Adds some `data-dropper-*` attributes for debugging/inspection.
@@ -36,12 +42,13 @@ Example result (simplified):
 
 ```html
 <a href="https://dropper.wayl.one/api/file/…" data-dropper-anchor="created">
-  <img
-    src="https://dropper.wayl.one/api/file/…?width=500"
+  <video
     data-dropper="processed"
     data-dropper-width="added"
     data-dropper-wrap="new-wrapper"
   >
+    <source src="https://dropper.wayl.one/api/file/…?width=500" type="video/mp4" />
+  </video>
 </a>
 ```
 
@@ -57,6 +64,7 @@ from typing import Any, Dict, Union
 
 import pydantic
 from bs4 import BeautifulSoup
+from bs4.element import Tag
 from markata.hookspec import hook_impl, register_attr
 
 MARKATA_PLUGIN_NAME = "Dropper Media Wrapper"
@@ -93,6 +101,36 @@ def config_model(markata: "Markata") -> None:  # type: ignore[name-defined]
     markata.config_models.append(Config)
 
 
+def _find_video_media_tag(video: Tag, base_url: str) -> tuple[str | None, Tag | None]:
+    """Find the effective media URL for a `<video>` tag.
+
+    Preference order:
+    1. First `<source>` child whose `src` starts with `base_url`.
+    2. The `<video>`'s own `src` attribute, if present and matching.
+
+    Returns a tuple of `(src, tag_with_src)` where `tag_with_src` is the
+    element whose `src` attribute should be updated (either the `<source>` or
+    the `<video>` itself). If no matching URL is found, returns `(None, None)`.
+    """
+
+    base_url = base_url.rstrip("/")
+
+    # Prefer <source> children
+    for source in video.find_all("source", recursive=False):
+        if not isinstance(source, Tag):  # pragma: no cover - defensive
+            continue
+        src = source.get("src")
+        if src and src.startswith(base_url):
+            return src, source
+
+    # Fallback to <video src="..."> if present
+    src = video.get("src")
+    if src and src.startswith(base_url):
+        return src, video
+
+    return None, None
+
+
 def _wrap_dropper_media_in_links(
     html: str,
     *,
@@ -101,9 +139,13 @@ def _wrap_dropper_media_in_links(
 ) -> str:
     """Wrap Dropper `<img>`/`<video>` tags in anchors and size them.
 
-    - Only touches tags whose `src` begins with `base_url`.
-    - Wraps each in an `<a>` to the original (pre-sized) URL.
-    - Adds `?width=default_width` to the `src` when no query string exists.
+    - Only touches media whose URL begins with `base_url`.
+      - For `<img>`, this is the `src` on the `<img>` itself.
+      - For `<video>`, this can be either the `src` on `<video>` or the `src`
+        of the first `<source>` child within the `<video>`.
+    - Wraps each `<img>` / `<video>` in an `<a>` to the original (pre-sized)
+      URL.
+    - Adds `?width=default_width` to the media URL when no query string exists.
     - Adds `data-dropper-*` attributes for debugging.
     """
 
@@ -117,29 +159,45 @@ def _wrap_dropper_media_in_links(
 
     # Only affect <img> and <video> elements
     for node in soup.find_all(["img", "video"]):
-        src = node.get("src")
-        if not src or not src.startswith(base_url):
+        if not isinstance(node, Tag):  # pragma: no cover - defensive
             continue
 
-        original_href = src  # what we link to
+        media_url: str | None
+        media_tag: Tag
+
+        if node.name == "img":
+            media_url = node.get("src")
+            media_tag = node
+        else:  # node.name == "video"
+            media_url, media_tag_or_none = _find_video_media_tag(node, base_url)
+            if media_tag_or_none is None:
+                # No matching <source> or <video src> with our base_url
+                continue
+            media_tag = media_tag_or_none
+
+        if not media_url or not media_url.startswith(base_url):
+            continue
+
+        original_href = media_url  # what we link to
 
         # Ensure width query param only if there is no existing query
-        if "?" in src:
+        if "?" in media_url:
             node["data-dropper-width"] = "existing-query"
         else:
             if default_width:
-                sized_src = f"{src}?width={int(default_width)}"
-                node["src"] = sized_src
+                sized_src = f"{media_url}?width={int(default_width)}"
+                media_tag["src"] = sized_src
                 node["data-dropper-width"] = "added"
             else:
                 node["data-dropper-width"] = "no-default"
 
+        # Mark the root media node (img/video) as processed
         node["data-dropper"] = "processed"
 
         # Check if already inside an <a>
-        anchor_ancestor = None
+        anchor_ancestor: Tag | None = None
         parent = node.parent
-        while parent is not None and getattr(parent, "name", None):
+        while parent is not None and isinstance(parent, Tag):
             if parent.name == "a":
                 anchor_ancestor = parent
                 break
