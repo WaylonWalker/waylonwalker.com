@@ -1,5 +1,7 @@
 """
-wikilink hover using htmx + tippy.js
+Improved Markata plugin for wikilink hover previews using HTMX + Tippy.js
+Fixes HTMX swap errors by deferring hx-get trigger until tooltip is visible
+and ensures proper initialization order.
 """
 
 from typing import TYPE_CHECKING
@@ -12,7 +14,7 @@ if TYPE_CHECKING:
 
 def hover_links(doc):
     wikilinks = doc.xpath("//a[@class='wikilink']")
-    hoverlinks = doc.xpath("//a[@class='hoverlink']")
+    hoverlinks = []
 
     for link in wikilinks + hoverlinks:
         href = link.get("href", "").lstrip("/")
@@ -26,32 +28,25 @@ def hover_links(doc):
         link.set("data-tippy-interactive", "true")
         link.set("data-tippy-placement", "bottom-start")
 
-        # Create a hidden template for the tooltip content.
-        # htmx will load the partial HTML into this div.
+        # Create hidden template for tooltip content
         tooltip_html = f"""
 <div id="{name}-tooltip-content-template" class="hidden">
   <p class="p-4 text-gray-400 text-xs">
-  <a href="/{href.strip('/')}">
-      {title}
-  </a>
-    wikilink
+    <a href="/{href.strip('/')}">{title}</a> wikilink
   </p>
   <div class="rounded-xl overflow-y-scroll w-80 sm:w-96 h-64 sm:h-96 text-lg">
     <div 
-      hx-get="/{href.strip('/')}/partial/" 
-      hx-trigger="load"
+      hx-get="/{href.strip('/')}/partial/"
+      hx-trigger="tippy:shown once"
       hx-target="this"
       hx-swap="outerHTML"
       class="flex items-center justify-center text-gray-400 text-xs p-4">
       loading...
     </div>
-    <p class="p-2 text-right text-gray-400 text-xs italic">
-      ...click to see full post
-    </p>
+    <p class="p-2 text-right text-gray-400 text-xs italic">...click to see full post</p>
   </div>
 </div>
 """
-
         body = doc.xpath("//body")[0]
         body.append(html.fromstring(tooltip_html))
 
@@ -85,46 +80,60 @@ def do_hover_links(cache, markata, post_html, post_slug):
             doc = html.fromstring(post_html)
             hover_links(doc)
 
-            # Inject tippy.js init script once per page
-            script_tag = html.fromstring("""
+            # Inject tippy.js initialization script (fixed order)
+            script_tag = html.fromstring(
+                """
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  // Initialize all tippy tooltips
   tippy('[data-tippy-content]', {
-      theme: ' waylon',
+    theme: 'waylon',
     placement: 'bottom-start',
     arrow: false,
     allowHTML: true,
     interactive: true,
     maxWidth: 'none',
-    onShow(instance) {
+    onShown(instance) {
       const id = instance.reference.id.replace('-wikilink', '-tooltip-content-template');
-      const content = document.getElementById(id);
-      if (content) {
-        instance.setContent(content.innerHTML);
+      const tpl = document.getElementById(id);
+      if (!tpl) return;
+
+      // 1) Inject template HTML into tooltip
+      instance.setContent(tpl.innerHTML);
+
+      // 2) Re-process for HTMX bindings
+      htmx.process(instance.popper);
+
+      // 3) Dispatch event for hx-trigger="tippy:shown"
+      const hxNode = instance.popper.querySelector('[hx-get]');
+      if (hxNode) {
+        hxNode.dispatchEvent(new Event('tippy:shown', { bubbles: true }));
       }
+
+      console.log('Tippy shown + HTMX processed');
     },
   });
 });
 </script>
-""")
-            style_tag = html.fromstring("""
-<style>
+"""
+            )
 
+            style_tag = html.fromstring(
+                """
+<style>
 .tippy-box[data-theme~='waylon'] {
-  background-color: #0b0b0b;          /* background */
-  color: #e5e7eb;                      /* text color (optional) */
-  border: 2px solid #ec4899;           /* border & color */
-  border-radius: 12px;                 /* border radius */
+  background-color: #0b0b0b;
+  color: #e5e7eb;
+  border: 2px solid #ec4899;
+  border-radius: 12px;
 }
 </style>
-""")
+"""
+            )
+
             doc.xpath("//body")[0].append(script_tag)
             doc.xpath("//head")[0].append(style_tag)
 
-            html_str = html.tostring(
-                doc, pretty_print=should_prettify, encoding="unicode"
-            )
+            html_str = html.tostring(doc, pretty_print=should_prettify, encoding="unicode")
             cache.set(key, html_str)
         else:
             html_str = html_from_cache
