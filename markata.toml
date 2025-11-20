@@ -21,6 +21,7 @@ default_cache_expire = 1209600
 output_dir = "markout"
 assets_dir = "static"
 hooks = [
+    'plugins.dropper_resize',
     # 'plugins.qrcode',
     'plugins.csv_fence',
     'plugins.doctype_enforcer',
