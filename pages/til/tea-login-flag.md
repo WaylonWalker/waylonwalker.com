@@ -5,6 +5,9 @@ title: tea login flag
 published: true
 tags:
   - cli
+  - git
+  - gitea
+  - forgejo
 
 ---
 
