@@ -448,8 +448,8 @@ description = 'A feed of my thoughts of links from the internet originally poste
 [[markata.feeds]]
 slug = 'archive'
 # dropper needs to have a smaller image size
-# filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts', 'stars', 'daily', 'shots'] and published and 'family' not in tags"
-filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts', 'stars', 'daily'] and published and 'family' not in tags"
+filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts', 'stars', 'daily', 'shots'] and published and 'family' not in tags"
+# filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts', 'stars', 'daily'] and published and 'family' not in tags"
 sort = "date"
 reverse = true
 description = 'The main feed of all my main posts'
