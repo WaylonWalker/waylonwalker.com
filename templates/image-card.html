@@ -17,9 +17,9 @@
     {# only add width=250 for images from dropper #}
     {% if img.startswith('https://dropper.wayl.one') %}
       {% if '?' in img %}
-        {% set img = img ~ '&width=250' %}
+        {% set img = img ~ '&width=320' %}
       {% else %}
-        {% set img = img ~ '?width=250' %}
+        {% set img = img ~ '?width=320' %}
       {% endif %}
     {% endif %}
 
