@@ -1,5 +1,10 @@
 <li class="group {{ post.templateKey }} h-entry hentry {{ post.card_classes }}">
-  <a href="/{{ markata.config.path_prefix }}{{ post.slug }}/" class="u-url" rel="bookmark" hx-boost="true">
+  <a href="/{{ markata.config.path_prefix }}{{ post.slug }}/"
+     class="u-url"
+     rel="bookmark"
+     hx-boost="true"
+     aria-label="{{ post.description|default(post.title, true)|default('', true)|e }}"
+    >
 
     {# safe defaults, avoid None #}
     {% set img = post.image|default('', true) %}
@@ -18,7 +23,7 @@
     {% if img.startswith('https://dropper.wayl.one') %}
       {% if '?' in img %}
         {% set img = img ~ '&width=320' %}
-      {% else %}
+        {% else %}
         {% set img = img ~ '?width=320' %}
       {% endif %}
     {% endif %}
@@ -32,7 +37,15 @@
         'video/x-matroska'
       %}
       <p>
-        <video autoplay loop muted playsinline controls class="aspect-square object-cover">
+        <video
+          autoplay
+          loop
+          muted
+          playsinline
+          controls
+          class="aspect-square object-cover"
+          aria-hidden="true"
+          >
           <source src="{{ img }}" type="{{ mime }}">
           Your browser does not support the video tag.
         </video>
@@ -40,14 +53,14 @@
     {% else %}
       {% set alt_text = post.description|default(post.title, true)|default('', true) %}
       <img
-        title="{{ post.title }}"
-        alt="{{ alt_text }}"
+        title="{{ post.title|e }}"
+        alt="{{ alt_text|e }}"
         src="{{ img }}"
         loading="lazy"
         decoding="async"
         class="aspect-square object-cover"
       >
-      <noscript><img title="{{ post.title }}" alt="{{ alt_text }}" src="{{ img }}"></noscript>
+      <noscript><img title="{{ post.title|e }}" alt="{{ alt_text|e }}" src="{{ img }}"></noscript>
     {% endif %}
 
   </a>
