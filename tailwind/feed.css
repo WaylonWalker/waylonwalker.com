@@ -5,7 +5,7 @@
 
 #posts ul {
   @apply backdrop-blur-xs;
-  @apply flex flex-col sm:grid grid-flow-row-dense;
+  @apply flex flex-col items-center sm:grid grid-flow-row-dense;
   @apply gap-1 lg:gap-2;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
 }

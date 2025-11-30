@@ -2,7 +2,7 @@
 {% include 'image-card.html' %}
 {% else %}
 <li class="post group {{post.templateKey}} h-entry hentry">
-    <a href="/{{markata.config.path_prefix}}{{ post.slug }}/" class="u-url" rel="bookmark" hx-boost="true">
+    <a href="/{{markata.config.path_prefix}}{{ post.slug }}/" class="u-url" rel="bookmark" hx-boost="false">
         {% if post.title | length > 50 %}
             <h2 class="p-name entry-title">
                 {% if post.templateKey == 'thought' %}
