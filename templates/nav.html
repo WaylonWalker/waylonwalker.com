@@ -1,0 +1,38 @@
+<nav class='w-full bg-gray-950 py-4 mb-8 sticky border-b border-pink-500'>
+    <div class="container mx-auto px-4">
+        <div class="flex justify-end items-center">
+            <!-- Mobile menu button -->
+            <button class="md:hidden" id="mobile-menu-button" aria-label="Menu">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+
+            <!-- Navigation Links -->
+            <ul class="hidden md:flex md:items-center md:space-x-8 mx-auto" id="nav-links">
+                <li><a href="/" class="hover:text-pink-500 transition-colors">Home</a></li>
+                <li><a href="/start/" class="hover:text-pink-500 transition-colors" hx-boost="true">Start Here</a></li>
+                <li><a href="/archive/" class="hover:text-pink-500 transition-colors" hx-boost="true">Archive</a></li>
+                <li><a href="/about/" class="hover:text-pink-500 transition-colors" hx-boost="true">About</a></li>
+                <li><a href="/feeds/" class="hover:text-pink-500 transition-colors" hx-boost="true">RSS</a></li>
+            </ul>
+        </div>
+
+        <!-- Mobile menu -->
+        <div class="md:hidden hidden" id="mobile-menu">
+            <ul class="pt-4 space-y-4 flex flex-col">
+                <li><a href="/" class="block hover:text-pink-500 transition-colors">Home</a></li>
+                <li><a href="/start/" class="block hover:text-pink-500 transition-colors" hx-boost="true">Start Here</a></li>
+                <li><a href="/archive/" class="block hover:text-pink-500 transition-colors" hx-boost="true">Archive</a></li>
+                <li><a href="/about/" class="block hover:text-pink-500 transition-colors" hx-boost="true">About</a></li>
+                <li><a href="/feeds/" class="block hover:text-pink-500 transition-colors" hx-boost="true">RSS</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<script>
+    document.getElementById('mobile-menu-button').addEventListener('click', function() {
+        document.getElementById('mobile-menu').classList.toggle('hidden');
+    });
+</script>

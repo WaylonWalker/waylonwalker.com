@@ -47,8 +47,7 @@ grepr() {grep -iRl "$1" | xargs sed -i "s|$1|$2|g"}
 
 You can find this function and more of my bash notes.
 
-https://waylonwalker.com/bash/
-
+[[ bash ]]
 
 ## Example
 
@@ -80,12 +79,12 @@ git commit -m "moved routes from /blog to /"
 
 Working in small steps gives us an easy way to undo steps that may have been a mistake before it's too late.
 
-https://waylonwalker.com/master-no-more/
-
+[[ master-no-more ]]
 
 > I used the technique from this post to switch master to main on my blog.
 
 ## git reset
+
 _How I do Mass Undo_
 
 **be careful** work from a branch, make sure you started clean
@@ -105,11 +104,13 @@ Upon inspection of the `git diff` we notice that there was an unintentional chan
 **note** These resets are irreversible.  Make sure that you started with a clean `git status` and you are confident that you didn't have any work on your machine, not in the remote repo.
 
 _<small><mark>match the remote and wipe out any changes</mark></small>_
+
 ``` bash
 git reset --hard origin/main
 ```
 
 _<small><mark>match our last commit</mark></small>_
+
 ``` bash
 git reset --hard HEAD
 ```
@@ -123,6 +124,7 @@ agr() {ag -l "$1" | xargs sed -i "s/$1/$2/g"}
 ```
 
 ## git clean
+
 _how I remove untracked files_
 
 Sometimes our refactoring requires moving files around. If we want to undo steps like this git will not clean up untracked files.
@@ -132,17 +134,19 @@ mv conf/base/sales-catalog.yml conf/base/sales/catalg.yml
 ```
 
 _<small><mark>clean up untracked files</mark></small>_
+
 ``` bash
 git clean -f
 ```
 
 _<small><mark>clean up untracked directories</mark></small>_
+
 ``` bash
 git clean -d
 ```
 
-
 _<small><mark>clean up ignored files</mark></small>_
+
 ``` bash
 git clean -x
 ```
@@ -150,6 +154,7 @@ git clean -x
 `-x` can be a bit dangerous, be careful with it.  You can lose significant time by wiping out a `node_modules`, `venv`, or credentials.
 
 ## git  checkout
+
 _How I undo single files_
 
 If our command was mostly successful, but just a few extra files were touched I will manually revert them with `git checkout <filename>`
@@ -159,6 +164,7 @@ git checkout conf/base/supply-catalog.yml
 ```
 
 ## git checkout --
+
 _How I undo an entire directory_
 
 Sometimes we need to undo an entire directory.  This command will undo changes
@@ -172,4 +178,4 @@ git checkout -- /src/pages/blog
 
 I really love using `gitui` as a handy terminal interface to browse logs, diffs, and commit a few files at a time.  It starts up crazy fast and is very intuitive to navigate through diffs of changes like this one file at a time if the `git diff` gets too overwhelming.
 
-https://github.com/extrawurst/gitui/
+[https://github.com/extrawurst/gitui/](https://github.com/extrawurst/gitui/){.hoverlink}

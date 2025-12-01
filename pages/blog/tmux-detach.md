@@ -6,7 +6,7 @@ date: 2021-08-01T23:51:21
 published: true
 ---
 
-<https://youtu.be/A1qx3tNKDdA>
+[https://youtu.be/A1qx3tNKDdA](https://youtu.be/A1qx3tNKDdA){.youtube-embed}
 
 tmux detach is a handy tmux command that will quit your current session while
 keeping it running. The full name of the comamnd is `detach-client`, `detach`
@@ -24,7 +24,7 @@ I have mine bound to `mod+d` where mod is alt.
 bind -n M-d detach-client
 ```
 
-<https://waylonwalker.com/tmux-nav-2021/>
+[https://waylonwalker.com/tmux-nav-2021/](https://waylonwalker.com/tmux-nav-2021/){.hoverlink}
 
 > for more information on how I navigate tmux, check out this full post
 

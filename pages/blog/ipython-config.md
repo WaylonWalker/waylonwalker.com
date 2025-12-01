@@ -11,13 +11,11 @@ I use my ipython terminal daily.  It's my go to way of running python most of
 the time.  After you use it for a little bit you will probably want to setup a
 bit of your own configuration.
 
-
 ## install ipython
 
 Activate your virtual environment of choice and pip install it.  Any time you
 are running your project in a virtual environment, you will need to install
 ipython inside it to access those packages from ipython.
-
 
 ```bash
 pip install ipython
@@ -56,19 +54,17 @@ Inside the profile there will be a startup directory
 in this directory on startup.  This is particularly handy to create custom
 prompts, search, or import packages automatically for certian profiles.
 
-
-https://waylonwalker.com/custom-ipython-prompt/
+[[ custom-ipython-prompt ]]
 
 > This post creates a custom ipython prompt by creating a
 > `~/.ipython/profile_default/startup/prompt.py` file.
 
 ## ipython_config.py
 
-
 There are tons of options that are in the `ipython_config.py` file.  My
 favorite is to automatically enable my favorite magic command autoreload.
 
-https://waylonwalker.com/autoreload-ipython/
+[[ autoreload-ipython ]]
 
 ``` python
 c.InteractiveShellApp.extensions = ['autoreload'
@@ -78,6 +74,6 @@ c.InteractiveShellApp.exec_lines.append('print("Warning: disable autoreload in i
 
 ## Want automatic imports??
 
-https://waylonwalker.com/pyflyby/
+[[ pyflyby ]]
 
 > This article covers how I setup automatic imports in ipython

@@ -7,7 +7,7 @@ published: true
 
 ---
 
-https://youtu.be/SNu-4IrkjAs
+[https://youtu.be/SNu-4IrkjAs](https://youtu.be/SNu-4IrkjAs){.youtube-embed}
 
 So far we have covered a lot of tmux commands and how they map to keybindings
 but these same commands can be executed at the command line.
@@ -30,6 +30,7 @@ can be opened with `prefix+[`.
 ``` bash
 display-popup -E -d '#{pane_current_path}' 'git status && sleep 5'
 ```
+
 > 🗒️ note that the tmux command is called by default when inside of tmux.
 
 ## Make it a keybinding
@@ -42,10 +43,9 @@ command, then we can execute this in the tmux command line or add it to our
 bind s display-popup -E -d '#{pane_current_path}' 'git status && sleep 5'
 ```
 
-https://waylonwalker.com/tmux-nav-2021/
+[[ tmux-nav-2021 ]]
 
 > for more information on how I navigate tmux, check out this full post
-
 
 Also check out the full YouTube
 [tmux-playlist](https://www.youtube.com/playlist?list=PLTRNG6WIHETB4reAxbWza3CZeP9KL6Bkr)

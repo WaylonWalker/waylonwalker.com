@@ -1,10 +1,10 @@
 ---
 templateKey: blog-post
-tags: []
+tags:
+  - kedro
 title: Kedro Dependency Management
 date: 2021-01-19T00:00:00
 published: false
-
 ---
 
 

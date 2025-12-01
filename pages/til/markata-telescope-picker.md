@@ -6,7 +6,7 @@ tags:
   - python
   - cli
   - vim
-
+  - markata
 ---
 
 I often pop into my blog from neovim with the intent to look at just a
@@ -14,7 +14,7 @@ single series of posts, `til`, `gratitude`, or just see todays posts.
 [Markata](https://markata.dev/) has a great way of mapping over posts
 and returning their path that is designe exactly for this use case.
 
-[Markata listing out posts from the command line](https://images.waylonwalker.com/markta-list-todays-posts.png)
+![Markata listing out posts from the command line](https://images.waylonwalker.com/markta-list-todays-posts.png){.wide}
 
 To tie these into a Telescope picker you add the command as the
 find_command, and comma separate the words of the command, with no
@@ -30,4 +30,4 @@ nnoremap geig <cmd>Telescope find_files find_command=markata,list,--map,path,--f
 > NOTE telescope treates each word as a string, do not wrap an extra
 > layer of quotes around your words, it gets messy.
 
-![using this picker in neovim](https://images.waylonwalker.com/markata-list-telescope-picker.png)
+![using this picker in neovim](https://images.waylonwalker.com/markata-list-telescope-picker.png){.wide}

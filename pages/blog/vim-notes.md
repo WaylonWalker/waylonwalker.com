@@ -1,9 +1,10 @@
 ---
-templateKey: 'blog-post'
+templateKey: blog-post
 title: Vim Notes
 date: 2018-02-01
-published: false
-
+published: true
+tags:
+  - vim
 ---
 
 # vim notes

@@ -15,16 +15,15 @@ ran through a function, and saved by `Nodes`.  The order that these `Nodes` are
 executed are determined by the `Pipeline`, which is a  **DAG**.  It's the
 `runner`'s job to manage the execution of the `Nodes`.
 
-https://youtu.be/Wf4rnFsaFFU
+[https://youtu.be/Wf4rnFsaFFU](https://youtu.be/Wf4rnFsaFFU){.youtube-embed}
 
 ---
 
-https://waylonwalker.com/what-is-kedro-1/
+[[ what-is-kedro-1 ]]
 
 > This is an updated version of my original what-is-kedro article
 
 ---
-
 
 ## Hot Take
 
@@ -54,7 +53,6 @@ kedro does not come with support for the type of python objects you work with
 don't worry, you can for the closest option they support and build your own.
 Or if you do not want to build your own, you can use a `PickleDataSet` for
 anything.
-
 
 ## Catalog
 
@@ -94,7 +92,6 @@ cars:
 
 > Here is a bit more complex example that takes in `load_args` and `save_args`
 > [docs](https://kedro.readthedocs.io/en/stable/05_data/01_data_catalog.html?highlight=catalog)
-
 
 ## Nodes
 

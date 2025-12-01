@@ -42,7 +42,7 @@ out of the box.
 
 ```
 
-https://www.youtube.com/watch?v=2MEmsinxRK4
+[https://www.youtube.com/watch?v=2MEmsinxRK4](https://www.youtube.com/watch?v=2MEmsinxRK4){.hoverlink}
 
 > I made a YT based on this post
 
@@ -50,6 +50,6 @@ https://www.youtube.com/watch?v=2MEmsinxRK4
 
 * ansible docs for [builtin.unarchive](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/unarchive_module.html)
 
-https://waylonwalker.com/setup-yamlls/
+[[ setup-yamlls ]]
 
 > check out how I install yamlls using ansible

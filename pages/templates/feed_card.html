@@ -1,12 +1,21 @@
-<li class="post" style="max-width: fit-content">
-    <a href="/{{markata.config.path_prefix}}{{ post.slug }}/">
-        <h2 class="title">{{ title }}</h2>
-        <p class="description">{{ post.description }}</p>
-        <div style="display: flex; flex-direction: row; width: 50rem">
-            <p>{{post['templateKey'].replace('til', 'TIL: Today I Learned')}}</p>
-            <p align="right">
-                {{ post.date.year }}-{{ post.date.month }}-{{ post.date.day }}
+<li class="post group {{post['templateKey']}} h-entry hentry">
+    <a href="/{{markata.config.path_prefix}}{{ post.slug }}/" class="u-url" rel="bookmark"> {% if title | length > 50 %}
+        <h2 class="p-name entry-title">{{ title[:50] }}...</h2>
+        {% else %}
+        <h2 class="p-name entry-title">{{ title }}</h2>
+        {% endif %}
+        <p class="description p-0 px-1 m-0 p-summary entry-summary">
+            im in pages/templates
+            {{ post.description|e }}
+        </p>
+        <div class="card-footer">
+            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+                {{post['templateKey'].replace('til', 'TIL: Today I Learned')}}
             </p>
+            <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
+                datetime="{{ post.date }}">
+                {{ post.date.year }}-{{ post.date.month }}-{{ post.date.day }}
+            </time>
         </div>
     </a>
 </li>

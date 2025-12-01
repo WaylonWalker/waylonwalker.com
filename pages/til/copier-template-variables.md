@@ -5,6 +5,7 @@ title: copier template variables
 tags:
   - python
   - bash
+  - copier
 
 ---
 
@@ -24,7 +25,7 @@ print('hello-[[name]]')
 ```
 
 > note! by default copier will not inject variables into your
-> [[template-strings]] unless you use a .tmpl suffix.
+> `template-strings` unless you use a .tmpl suffix.
 
 Before running copier we need to tell copier what variables to ask for,
 we do this with a copier.yml file.
@@ -47,6 +48,7 @@ virtual environment for it myself.
 ``` bash
 pipx install copier
 ```
+
 ## running copier
 
 When running `copier copy` we pass in the directory of the template, and

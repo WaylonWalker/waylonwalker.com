@@ -13,7 +13,6 @@ jinja: false
 
 This post was inspired by a comment I left on @dsteenman's  post.
 
-
 {% post dsteenman/how-long-should-a-blogpost-be-2k6n %}
 
 Most of the time I prefer short as I am more likely to read the whole thing.  If its setup as a series I am more likely to work my way through the whole series in a matter of a few sessions.  Just my preference
@@ -59,7 +58,6 @@ console.log(
   .join('\n')
 )
 ```
-
 
 ## Break it up
 
@@ -130,7 +128,6 @@ When Editing a post click the Liquid Tag reference to the right, for a list of e
 
 As I can see there are several **article types** on DEV
 
-
 1. [superpost](#superpost)
 1. [single post](#single-post)
 1. [series](#series)
@@ -163,7 +160,6 @@ For those struggling to find what to write about, this is a great article from @
 Using the `series` tag you can break super posts into smaller ones.  This puts fewer of your eggs in the same basket.  I typically start a series when I know that I am going to post about a single topic often, but don't have it all laid out.  I've been told for these to be really successful it needs a bit more pre-thought.
 
 I do notice that I get a bit of engagement back to older posts every time a new one is posted.  so this does help drive engagement by continuously pulling readers in.  I am not sure if its quite as good as a link, or liquid embed.  Keep in mind when doing this the series component will show the first 2 and the last two without clicking.  Make sure that the first two really count, they will likely get the most traffic benefit from the series.
-
 
 {% post waylonwalker/what-are-github-actions-1lhh %}
 

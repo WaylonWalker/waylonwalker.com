@@ -21,7 +21,7 @@ blast so far.
 ## Kedro Spaceflights
 
 It all started with
-[kedro/issues/606](https://github.com/quantumblacklabs/kedro/issues/606), Yetu
+[kedro/issues/606](https://github.com/kedro-org/kedro/issues/606), Yetu
 called out for users of kedro to record themselves doing a walk through of
 their tutorials.  I wanted to do this, but was really stuck at the fact that
 recording or editing somewhat polished vide is quite time consuming for me.
@@ -56,9 +56,7 @@ is more of your thing be sure to check it out.  To be completely honest the  edi
 anyone who subscribes to help me get to the 100 subscriber baseline to get my
 custom url.
 
-
 Come join me while I try to figure out what I am doing.
-
 
 [Deploying a kedro dataset to netlify](https://youtu.be/55g8FQr0kgA)
 

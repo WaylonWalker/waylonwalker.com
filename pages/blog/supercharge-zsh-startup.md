@@ -135,7 +135,7 @@ The second benefit was that I can continue typing while plugins are loading.
 
 After removing oh-my-zsh the first thing that I missed was the themes that it provided.  I went through a number of them and the one that seemed to have the smallest effect on performance and everything I needed was [starship](https://starship.rs/).  It's a really fast prompt written in rust.  The biggest thing that I needed to have that other prompts were misssing was conda environments.  I live much of my work life running python from various conda environments and it is crutial that I can see what environment I am in at all times.
 
-![](https://images.waylonwalker.com/2020-01-04 12-36-31_Cortana.png)
+![2020-01-04 12-36-31_Cortana.png](https://dropper.wayl.one/api/file/08d01b82-df3d-4695-bad1-39acd8961707.png)
 
 ## 💰 Bonus
 

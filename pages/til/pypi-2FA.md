@@ -34,7 +34,7 @@ on their projects that they put so much work into.
 
 When I log in I now get this extra screen asking for an auth token.
 
-![pypi-2fa-code](https://screenshots.waylonwalker.com/pypi-2fa-code.webp)
+![pypi-2fa-code.webp](https://dropper.wayl.one/api/file/ba6d1b7b-ea84-4b03-b53f-53ef7b1e9174.webp)
 
 ## My packages
 
@@ -43,7 +43,7 @@ each project.  I am not sure how much safety there is in pypi, it might require
 all maintainers to have it turned on before it allows packages to have it
 turned on.
 
-![my-pypi-packages-aug-2022](https://screenshots.waylonwalker.com/my-pypi-packages-aug-2022.webp)
+![my-pypi-packages-aug-2022.webp](https://dropper.wayl.one/api/file/8a8c66d5-61a0-4a89-a23c-09976b8e95ae.webp)
 
 Once turned on it requires anyone who maintains the project to have 2FA on to
 be able to edit any sensitive content.

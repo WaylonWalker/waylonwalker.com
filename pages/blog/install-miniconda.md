@@ -43,7 +43,6 @@ Installs Miniconda3 4.6.14
 -t           run package tests after installation (may install conda-build)
 ```
 
-
 ## Silent/Logged
 
 A quick and easy way to silence everything or to log it to a file during an automated install is to wrap the script into a bash function, or save it to its own file, and call the file.  I like the function method since I can still copy it right into a terminal, or keep my install script as one single file.
@@ -60,21 +59,24 @@ rm -rf ~/miniconda3/miniconda.sh
 ```
 
 **normal**
+
 ```
 install_miniconda
 ```
 
 **silent**
+
 ```
 install_miniconda > /dev/null 2>&1
 ```
 
 **logged**
+
 ```
 install_miniconda > miniconda_install.log 2>&1
 ```
 
-https://waylonwalker.com/reusable-bash/
+[[ reusable-bash ]]
 
 > This posts covers more ways to write reuable bash scripts
 

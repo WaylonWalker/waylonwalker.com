@@ -1,6 +1,8 @@
 ---
 templateKey: blog-post
-tags: []
+tags:
+  - catalytic
+  - soft
 title: Productive one on one
 date: 2020-02-24T12:53:00Z
 published: false

@@ -1,0 +1,8 @@
+<article id="posts" class="h-feed hfeed list archive-list">
+    <ul id='{{ feed.config.slug }}-feed' class="{{ feed.config.extra_classes }}">
+        {% for post in feed.posts %}
+            {% set priority = loop.index0 < 6 %}
+            {% include feed.config.card_template %}
+        {% endfor %}
+    </ul>
+</article>

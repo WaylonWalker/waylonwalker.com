@@ -1,10 +1,12 @@
 ---
 templateKey: blog-post
-tags: ["linux"]
+tags:
+  - linux
+  - tmux
 date: 2021-06-25T20:50:45
 published: false
 ---
-
+These are the notes that I used as I set up my first ever ubuntu desktop.
 ## gnome-tweaks
 
 ```bash

@@ -7,20 +7,19 @@ published: true
 
 ---
 
-https://youtu.be/2I8fB28zfB4
+[https://youtu.be/2I8fB28zfB4](https://youtu.be/2I8fB28zfB4){.youtube-embed}
 
 Tmux-popups are a great feature that is relatively new to tmux, many repos such
 as the standard ubuntu repos do not have it.   Popups came in 3.2a, if your
 package manager does not have it, you can follow the [tmux's install
 instructions](https://github.com/tmux/tmux#installation) to build from source.
 
-
 ``` bash
 # open a popup scratchpad
 bind -n M-g display-popup -E "tmux new-session -A -s scratch"
 ```
 
-https://waylonwalker.com/tmux-nav-2021/
+[[ tmux-nav-2021 ]]
 
 > for more information on how I navigate tmux, check out this full post
 

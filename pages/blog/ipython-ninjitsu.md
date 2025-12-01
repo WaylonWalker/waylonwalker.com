@@ -93,11 +93,11 @@ long_func()
 
 ## %reset
 
-https://waylonwalker.com/reset-ipython
+[[ reset-ipython ]]
 
 ## %autoreload
 
-https://waylonwalker.com/autoreload-ipython
+[[ autoreload-ipython ]]
 
 ``` python
 c.InteractiveShellApp.extensions = ["autoreload"]
@@ -129,6 +129,6 @@ _Control R_
 
 ## Want automatic imports??
 
-https://waylonwalker.com/pyflyby/
+[[ pyflyby ]]
 
 > This article covers how I setup automatic imports in ipython

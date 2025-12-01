@@ -12,12 +12,12 @@ This was my first time ever streaming on
 I have been streaming early in the morning while I am still waking up, so still
 a bit groggy as I go.
 
-https://youtu.be/Y07UBr9Ccjs
+<https://youtu.be/Y07UBr9Ccjs>
 
 ## Kedro Spaceflights
 
 It all started with
-[kedro/issues/606](https://github.com/quantumblacklabs/kedro/issues/606), Yetu
+[kedro/issues/606](https://github.com/kedro-org/kedro/issues/606), Yetu
 called out for users of kedro to record themselves doing a walk through of
 their tutorials.  I wanted to do this, but was really stuck at the fact that
 recording or editing somewhat polished vide is quite time consuming for me.

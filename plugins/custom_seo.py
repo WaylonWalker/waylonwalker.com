@@ -1,5 +1,6 @@
 """Custom HEADER tags for waylonwalker.com"""
-from typing import TYPE_CHECKING, List
+
+from typing import List, TYPE_CHECKING
 
 from bs4 import BeautifulSoup
 from markata import Markata
@@ -64,7 +65,7 @@ def post_render(markata: Markata) -> None:
                     html = soup.prettify()
                 else:
                     html = str(soup)
-                cache.add(key, html, expire=config["cache_expire"])
+                cache.set(key, html, expire=config["cache_expire"])
             else:
                 html = html_from_cache
             article.html = html

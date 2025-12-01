@@ -5,7 +5,7 @@ title: Versioning Python Projects with Hatch
 published: true
 tags:
   - python
-cover: https://images.waylonwalker.com/hatch-version.png
+cover: https://dropper.wayl.one/api/file/7564575a-6264-4d38-8ead-4ddb6c86f7c4.png
 jinja: false
 
 ---
@@ -14,7 +14,7 @@ Hatch has an amazing versioning cli for python packages that just works.  It
 takes very little config to get going and you can start bumping versions
 without worry.
 
-![Hatch version cover image](https://images.waylonwalker.com/hatch-version.png)
+![Hatch version cover image](https://images.waylonwalker.com/hatch-version.png){.more-cinematic}
 
 > creating new versions created by myself with stable diffusion
 
@@ -60,6 +60,7 @@ path = "pkg/__about__.py"
 ```
 
 ## statically versioning
+
 _project.version_
 
 It is possible to set the version number inside the `pyproject.toml`
@@ -75,13 +76,14 @@ version = "0.0.0"
 
 > Statically versioning in pyproject.toml will not work with `hatch version`
 
-![hatch-static-version-error](https://screenshots.waylonwalker.com/hatch-static-version-error.webp)
+![hatch-static-version-error.webp](https://dropper.wayl.one/api/file/5e0db9e0-e60a-4a50-8f96-02f194347b2c.webp)
 
 ``` bash
 Cannot set version when it is statically defined by the `project.version` field
 ```
 
 ## dynamically Versioning
+
 _project.dynamic_
 
 Setting the project verion dynamically can be done by changing up the following
@@ -104,7 +106,7 @@ path = "pkg/__about__.py"
 ```
 
 > Note: you can configure hatch to use a different pattern
-> https://hatch.pypa.io/1.2/version/#configuration, but I have not found it to
+> <https://hatch.pypa.io/1.2/version/#configuration>, but I have not found it to
 > be something that I need.
 
 ## __about__.py
@@ -115,12 +117,12 @@ to store it's version. It's sole content is a single `__version__` variable.  I
 don't have any personal issues with this so I am going to be following this in
 my projects that use hatch.
 
-
 ``` python
 __version__ = "0.0.0"
 ```
 
 ## versioning
+
 _[hatch version docs](https://hatch.pypa.io/1.2/version/#updating)_
 
 Hatch has a pretty intuitive versioning api.  `hatch version` gives you the
@@ -158,7 +160,7 @@ hatch release
 
 Here is a screenshot of bumping a projet along.
 
-![hatch-version-cli](https://screenshots.waylonwalker.com/hatch-version-cli.webp)
+![hatch-version-cli.webp](https://dropper.wayl.one/api/file/322a0310-0cea-4320-9f13-955bcd6b5e17.webp)
 
 ## GitOps
 

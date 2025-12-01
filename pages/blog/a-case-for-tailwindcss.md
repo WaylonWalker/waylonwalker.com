@@ -5,7 +5,6 @@ title: A Case For Tailwindcss
 published: True
 tags:
   - webdev
-
 ---
 
 I was watching @theprimeagen recently and I think he sold me on using
@@ -160,7 +159,7 @@ designed it to work better than I can come up with.
 
 ## Am I going to start using tailwind?
 
-Right not I am working on some projects that I am going to use tailwind on. I
+Right now I am working on some projects that I am going to use tailwind on. I
 really see myself liking it. I don't like that I need to install it with
 `npm`, but I can get past that. Cli tools seem to work out pretty well, but
 anytime I have a project that installs a bagillion node modules they all come

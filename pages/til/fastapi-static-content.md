@@ -16,7 +16,7 @@ some data that doesn't need dynamically rendered.
 The docs cover how to host static files, and give this solution that is built
 into fastapi.
 
-<https://fastapi.tiangolo.com/tutorial/static-files/>
+[https://fastapi.tiangolo.com/tutorial/static-files/](https://fastapi.tiangolo.com/tutorial/static-files/){.hoverlink}
 
 ```python
 from fastapi import FastAPI

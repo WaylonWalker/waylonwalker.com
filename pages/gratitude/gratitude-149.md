@@ -1,6 +1,9 @@
 ---
 date: 2022-02-12 03:13:59.141587
 templateKey: gratitude
+tags:
+  - gratitude
+
 title: Gratitude 149
 
 ---
@@ -16,4 +19,4 @@ understanding that she needs to do it.
 
 Today she gave me her number, oh and her house is 4.
 
-[![Ayla's Nummber from feb 2022](https://images.waylonwalker.com/aylas-number-feb-2022.webp)](https://images.waylonwalker.com/aylas-number-feb-2022-full.webp)
+![Ayla's Nummber from feb 2022](https://dropper.wayl.one/api/file/1cb8c196-d356-46f6-88e6-96e96abe2859.png)

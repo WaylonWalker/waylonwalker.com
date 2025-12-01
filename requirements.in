@@ -1,0 +1,9 @@
+pyqrcode==1.2.1
+click==8.0.4
+markata==0.10.0.dev4
+markata-gh==0.7.0
+pyinstrument==4.5.1
+python-twitter==3.5
+seaborn==0.13.2
+matplotlib==3.10.0
+pandas==2.2.3

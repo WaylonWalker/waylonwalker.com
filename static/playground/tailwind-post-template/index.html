@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Markata</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          keyframes: {
+            blink: {
+              '0%, 100%': {opacity: 1},
+              '50%': {opacity: 0}
+            }
+          },
+          animation: {
+            blink: 'blink 1s step-end infinite'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-gray-950 flex items-center justify-center min-h-screen min-w-[1024px]">
+  <div
+    class="bg-gradient-to-r from-purple-600 to-blue-500 p-1 rounded-3xl w-96 min-w-[768px] border-2 border-gray-800 shadow-[0_0_60px_0_rgba(255,0,217,0.2)]">
+    <div class="flex justify-between items-center m-2 mb-4">
+      <div class="flex space-x-1">
+        <div class="w-5 h-5 bg-red-500 rounded-full border-2 border-gray-800"></div>
+        <div class="w-5 h-5 bg-yellow-500 rounded-full border-2 border-gray-800"></div>
+        <div class="w-5 h-5 bg-green-500 rounded-full border-2 border-gray-800"></div>
+      </div>
+      <div class="bg-gray-800/75 px-6 min-w-1/3 rounded border-2 border-gray-800">
+        <p><span class="text-pink-400 text-3xl font-black uppercase">markata</span></p>
+      </div>
+      <div class="w-3"></div>
+    </div>
+    <div
+      class="text-white text-2xl font-mono bg-gray-800/85 p-6 rounded rounded-b-3xl font-mono border-2 border-gray-800 pb-0">
+      <p><span class="text-pink-400">---</span> </p>
+      <p><span class="text-pink-400">title</span><span class='text-gray-400'>:</span><span
+          class="text-yellow-200">"markata"</span>
+      </p>
+      <p><span class="text-pink-400">docs</span><span class='text-gray-400'>:</span><span
+          class="text-green-400 underline"><a href="https://markata.dev">markata.dev</a></span>
+      </p>
+
+      <p><span class="text-pink-400">repo</span><span class='text-gray-400'>:</span><span
+          class="text-green-400 underline"><a
+            href="https://github.com/waylonwalker/markata">waylonwalker/markata</a></span>
+      </p>
+      <p><span class=" text-pink-400">description</span><span class='text-gray-400'>:</span><span
+          class="text-yellow-200">"markata
+          is
+          a plugins all the way down static site generator written in python"</span> </p>
+      <p><span class="text-pink-400">published</span><span class='text-gray-400'>:</span><span
+          class="text-green-400">true</span>
+      <p><span class="text-pink-400">version</span><span class='text-gray-400'>:</span><span
+          class="text-green-400">0.8.1</span>
+      </p>
+      <p><span class="text-pink-400">---</span> </p>
+      Hello<span class="animate-ping duration-600 ease-out blink right-1 bottom-1">|</span>
+      <div class='mt-8 flex border-t-2 border-gray-800 mx-[-24px] bg-gray-800/75 rounded-b-3xl'>
+        <div class='bg-blue-500 px-2 rounded-bl-3xl pl-4'>Insert</div>
+        <div class='text-gray-200 bg-green-800/75 flex justify-center items-center px-2'>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" class='h-6 w-6 fill-gray-200' viewBox="0 0 512 512">
+            <title>ionicons-v5-d</title>
+            <path
+              d="M416,160a64,64,0,1,0-96.27,55.24c-2.29,29.08-20.08,37-75,48.42-17.76,3.68-35.93,7.45-52.71,13.93V151.39a64,64,0,1,0-64,0V360.61a64,64,0,1,0,64.42.24c2.39-18,16-24.33,65.26-34.52,27.43-5.67,55.78-11.54,79.78-26.95,29-18.58,44.53-46.78,46.36-83.89A64,64,0,0,0,416,160ZM160,64a32,32,0,1,1-32,32A32,32,0,0,1,160,64Zm0,384a32,32,0,1,1,32-32A32,32,0,0,1,160,448ZM352,192a32,32,0,1,1,32-32A32,32,0,0,1,352,192Z" />
+          </svg> develop
+        </div>
+        <div class='px-2 bg-pink-800/75'>index.md</div>
+        <div class='bg-gray-800/75 ml-auto justify-self-end rounded-br-3xl pr-2'>markdown</div>
+
+
+      </div>
+
+    </div>
+
+  </div>
+</body>
+
+</html>

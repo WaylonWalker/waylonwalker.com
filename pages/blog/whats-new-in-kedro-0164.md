@@ -7,7 +7,7 @@ published: true
 
 ---
 
-If we take a look at the [release notes](https://github.com/quantumblacklabs/kedro/blob/master/RELEASE.md) I see one **major** feature improvement on the list, auto-discovery of hooks.
+If we take a look at the [release notes](https://github.com/kedro-org/kedro/blob/master/RELEASE.md) I see one **major** feature improvement on the list, auto-discovery of hooks.
 
 ``` markdown
 ## Major features and improvements
@@ -15,13 +15,13 @@ If we take a look at the [release notes](https://github.com/quantumblacklabs/ked
 * Enabled auto-discovery of hooks implementations coming from installed plugins.
 ```
 
-This one comes a bit surprising as it was just casually mentioned in [#435](https://github.com/quantumblacklabs/kedro/issues/435)
+This one comes a bit surprising as it was just casually mentioned in [#435](https://github.com/kedro-org/kedro/issues/435)
 
-[![auto enabled plugins mentioned in issue 435](https://images.waylonwalker.com/kedro-435.png)](https://github.com/quantumblacklabs/kedro/issues/435)
+[![auto enabled plugins mentioned in issue 435](https://images.waylonwalker.com/kedro-435.png)](https://github.com/kedro-org/kedro/issues/435)
 
 ## Think pytest
 
-As mentioned in [#435](https://github.com/quantumblacklabs/kedro/issues/435) this is the model that pytest uses. Not all plugins automatically start doing things right out of the box but require a CLI argument.
+As mentioned in [#435](https://github.com/kedro-org/kedro/issues/435) this is the model that pytest uses. Not all plugins automatically start doing things right out of the box but require a CLI argument.
 
 ## simplicity
 

@@ -89,7 +89,7 @@ to navigate to the same place that I am in the project.
  waylonwalker/app.py   Link >  on_click
 ```
 
-![nvim-navic-example](https://screenshots.waylonwalker.com/nvim-navic-example.webp)
+![nvim-navic-example.webp](https://dropper.wayl.one/api/file/d01f3307-6397-4fdf-a870-0165b331d186.webp)
 
 ## Diff
 
@@ -120,4 +120,4 @@ call plug#begin('~/.local/share/nvim/plugged')
 If you want to see the change on GitHub, here is the
 [diff](https://github.com/WaylonWalker/devtainer/commit/62298a935d93a2cf21e1c965d323363bcbd22881)
 
-[![nvim-navic-setup-gh-diff](https://screenshots.waylonwalker.com/nvim-navic-setup-gh-diff.webp)](https://github.com/WaylonWalker/devtainer/commit/62298a935d93a2cf21e1c965d323363bcbd22881)
+[![nvim-navic-setup-gh-diff.webp](https://dropper.wayl.one/api/file/5efbd396-2716-49d3-833b-3004f1726afe.webp)](https://github.com/WaylonWalker/devtainer/commit/62298a935d93a2cf21e1c965d323363bcbd22881)

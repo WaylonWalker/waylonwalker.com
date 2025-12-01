@@ -14,12 +14,12 @@ sprinkle in a bit of kedro goodness in existing projects.
 
 ## New to Kedro
 
-
-https://waylonwalker.com/what-is-kedro/
+[[ what-is-kedro ]]
 
 > If your just learning about kedro check out this post walking through it
 
 ## No More Rabbit Hole of Errors
+
 _as of 0.17.2_
 
 I've tried to do this in kedro `0.16.x,` and it turned into a rabbit hole of
@@ -73,7 +73,6 @@ runner.run(pipeline, catalog)
 More often, your kedro pipelines are going to use a function rather than a
 lambda, and pandas DataFrames.
 
-
 ``` python
 def clean_columns(df: pd.DataFrame):
     df.columns = [col.lower().strip() for col in df.columns]
@@ -92,7 +91,6 @@ catalog = DataCatalog(
 )
 ```
 
-
 > One single node pipeline to get you started
 
 ## Semi-automatic catalog
@@ -101,7 +99,6 @@ For some reason, when I tried to use the DataCatalogWithDefault it did not pick
 up my datasets right.  I suspect this has something to do with not setting up a
 proper session, so this is what I did in a pinch to get that catalog goodness
 for my DataFrames without setting up each one manually.
-
 
 ``` python
 catalog = DataCatalog(
@@ -125,7 +122,6 @@ catalog = DataCatalog(
     }
 )
 ```
-
 
 > 🔥 for use with non-pandas datasets
 
@@ -165,7 +161,7 @@ ww3 ↪main ©kedro-in-scripts v3.8.8 ipython
 I was not able to quickly get kedro viz up and running for my use case.  If you
 really wanted to you could start modifying their format_pipelines_data function
 in
-[server.py](https://github.com/quantumblacklabs/kedro-viz/blob/main/package/kedro_viz/server.py).
+[server.py](https://github.com/kedro-org/kedro-viz/blob/main/package/kedro_viz/server.py).
 Or you could render a new template and put your pipeline there for viz
 purposes.
 
@@ -177,7 +173,6 @@ For something that I would be using this on, I am probably not going to put much
 effort into the cli as it is not likely something that we will have a
 team of developers interacting with constantly.  I would just put together the
 minimum necessary to run my application how I need.
-
 
 ``` python
 if __name__ == "__main__":

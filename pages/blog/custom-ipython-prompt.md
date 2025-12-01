@@ -14,11 +14,10 @@ grow to several hundred.  I start to question my ability 🤦‍♂️.
 
 ## Configuration
 
-
 If you already have an ipython config you can move on otherwise check out this
 post on creating an ipython config.
 
-https://waylonwalker.com/ipython-config/
+[[ ipython-config ]]
 
 ## The Dream Prompt
 
@@ -89,11 +88,13 @@ from `platform.python_version`, this seemed to get me the most concise version
 that I was looking for to match the starship prompt.
 
 _<small><mark>update imports</mark></small>_
+
 ``` python
 from platform import python_version
 ```
 
 _<small><mark>update prompt</mark></small>_
+
 ``` python
 def in_prompt_tokens(self, cli=None):
     return [
@@ -115,12 +116,14 @@ environment from the `CONDA_DEFAULT_ENV` environment variable that is set by
 conda when you change your environment.
 
 _<small><mark>update imports</mark></small>_
+
 ``` python
 from platform import python_version
 import os
 ```
 
 _<small><mark>update prompt</mark></small>_
+
 ``` python
 def in_prompt_tokens(self, cli=None):
     return [
@@ -146,6 +149,7 @@ did need to do a bit of googling to figure out that git has a
 `--show-current` option.
 
 _<small><mark>getting the current git branch</mark></small>_
+
 ``` python
 def get_branch():
     try:
@@ -165,6 +169,7 @@ errors after every command as this function tries to ask for the git branch.
 Sending stderr to devnull will avoid this inconvenience.
 
 _<small><mark>add git branch to prompt</mark></small>_
+
 ``` python
 def in_prompt_tokens(self, cli=None):
     return [
@@ -192,12 +197,13 @@ planned on using python `<3.6` I would probably use something else, but this is
 what I know and I can't think of the last time I used `<3.6>` for anything.
 
 _<small><mark>update imports</mark></small>_
+
 ``` python
 from pathlib import Path
 ```
 
-
 _<small><mark>add git branch to prompt</mark></small>_
+
 ``` python
 def in_prompt_tokens(self, cli=None):
     return [
@@ -226,10 +232,10 @@ def in_prompt_tokens(self, cli=None):
 That's it for my prompt at the moment.  I have been using it for about a week.
 It seems to have everything I need so far, and skips on things I don't need.
 
-
 Enjoy the full script.
 
 _<small><mark>my final prompt</mark></small>_
+
 ``` python
 from IPython.terminal.prompts import Prompts, Token
 from pathlib import Path
@@ -284,6 +290,6 @@ ip.prompts = MyPrompt(ip)
 
 ## Want automatic imports??
 
-https://waylonwalker.com/pyflyby/
+[[ pyflyby ]]
 
 > This article covers how I setup automatic imports in ipython

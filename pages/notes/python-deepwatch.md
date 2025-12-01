@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
-tags: []
+tags:
+  - python
 title: python-deepwatch
 date: 2020-04-27T05:00:00Z
 published: true

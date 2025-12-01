@@ -18,11 +18,12 @@ You must start by having your kedro project either cloned down
 from an existing project or created from kedro new.  Then
 activate your environment.
 
-https://waylonwalker.com/kedro-new/
+[[ kedro-new ]]
 
 > this post covers kedro new
 
-https://waylonwalker.com/kedro-environment/
+
+[[ kedro-environment ]]
 
 > This post covers creating your virtual environment for kedro
 
@@ -58,7 +59,6 @@ If kedro does not see a `requirements.in` file it will automatically move your
 ``` bash
 No requirements.in found. Copying contents from requirements.txt...
 ```
-
 
 ## kedro install
 

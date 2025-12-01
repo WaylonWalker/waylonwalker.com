@@ -1,12 +1,11 @@
 ---
 templateKey: blog-post
-tags: []
+tags:
+  - git
 title: Fix git commit author
 date: 2020-10-17T05:00:00.000+00:00
 published: true
-description: "I was 20 commits into a hackoberfest PR when I suddenly realized they
-  they all had my work email on them instead of my personal email \U0001F631."
-
+description: I was 20 commits into a hackoberfest PR when I suddenly realized they they all had my work email on them instead of my personal email 😱.
 ---
 
 I was 20 commits into a hackoberfest PR when I suddenly realized they they all had my work email on them instead of my personal email 😱.  This is the story of how I corrected my email address on 19 individual commits after already submitting for a PR.

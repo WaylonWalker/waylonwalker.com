@@ -28,6 +28,7 @@ sudo snap install newsboat
 ```
 
 ## Adding feeds
+
 _super simple_
 
 Running help for newsboat directed me towards their config files at the bottom.
@@ -74,17 +75,15 @@ The Urls file is just a list of urls to rss feeds.  Adding mine in allowed me to
 https://waylonwalker.com/rss.xml
 ```
 
-
 ## Config
 
 I took most of my config from a [blog
-post](http://evantravers.com/articles/2020/04/15/reworking-my-rss-reading/)
+post](https://evantravers.com/articles/2020/04/15/reworking-my-rss-reading/)
 that I found by Evan Travers.  It set some sane defaults to the reading width
 and vim keys.
 
-
 ``` bash
-# http://evantravers.com/articles/2020/04/15/reworking-my-rss-reading/
+# https://evantravers.com/articles/2020/04/15/reworking-my-rss-reading/
 # Hide feeds where all the items are read.
 show-read-feeds no
 
@@ -132,7 +131,6 @@ bind-key I rev-sort
 No matter how many different guides I tried I keedp getting `error code 127`
 when trying to `open-in-browser`.  Please let me know if you know how to fix
 this. For now I am just going to roll with it.
-
 
 ## Here's how it looks
 

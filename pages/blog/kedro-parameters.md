@@ -11,9 +11,9 @@ Parameters are a place for you to store variables for your pipeline that can be
 accessed by any node that needs it, and can be easily changed by changing your
 environment.  Parameters are stored in the repository in yaml files.
 
-https://youtu.be/Jj5cQ5bqcjg
+[https://youtu.be/Jj5cQ5bqcjg](https://youtu.be/Jj5cQ5bqcjg){.youtube-embed}
 
-https://waylonwalker.com/what-is-kedro/
+[[ what-is-kedro ]]
 
 > 👆 Unsure what kedro is?  Check out this post.
 
@@ -94,7 +94,7 @@ def split_data(data: pd.DataFrame, parameters: Dict) -> Tuple:
     return X_train, X_test, y_train, y_test
 ```
 
-https://waylonwalker.com/kedro-node/
+[[ kedro-node ]]
 
 > 👆 Check out this complete guide to creating kedro nodes.
 

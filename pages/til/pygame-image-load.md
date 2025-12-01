@@ -4,8 +4,6 @@ templateKey: til
 title: Display Sprites in Pygame | Load and Blit
 tags:
   - python
-  - python
-  - python
 
 ---
 
@@ -71,7 +69,7 @@ github into your own virtual environment.
 pip install git+https://github.com/WaylonWalker/pygame-starter
 ```
 
-https://waylonwalker.com/til/pygame-boilerplate-apr-2022/
+[[ pygame-boilerplate-apr-2022 ]]
 
 > You can read more about my starter in this post
 

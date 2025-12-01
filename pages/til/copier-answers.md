@@ -6,6 +6,7 @@ tags:
   - python
   - linux
   - cli
+  - copier
 
 ---
 
@@ -53,6 +54,7 @@ I'm making a library of personal copier templates in my
 ``` bash
 copier copy ~/.copier-templates/setup.py
 ```
+
 ## Results
 
 After rendering the template we have the following content in our

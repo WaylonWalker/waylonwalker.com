@@ -7,7 +7,7 @@ published: true
 
 ---
 
-https://youtu.be/Y1MYmL8ZolE
+[https://youtu.be/Y1MYmL8ZolE](https://youtu.be/Y1MYmL8ZolE){.youtube-embed}
 
 Tmux list keys can be a useful tool to help remind you of what kebindings you
 have setup.  You can search for them and scroll just like in tmux copy-mode.
@@ -62,10 +62,9 @@ list-keys [-1aN] [-P prefix-string -T key-table] [key]
 
 ```
 
-https://waylonwalker.com/tmux-nav-2021/
+[[ tmux-nav-2021 ]]
 
 > for more information on how I navigate tmux, check out this full post
-
 
 Also check out the full YouTube
 [tmux-playlist](https://www.youtube.com/playlist?list=PLTRNG6WIHETB4reAxbWza3CZeP9KL6Bkr)

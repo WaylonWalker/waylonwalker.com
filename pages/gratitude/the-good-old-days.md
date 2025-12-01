@@ -1,6 +1,9 @@
 ---
 date: 2019-09-22T16:55:19Z
 templateKey: gratitude
+tags:
+  - gratitude
+
 title: The Good Old Days
 
 ---

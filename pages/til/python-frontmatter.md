@@ -8,7 +8,7 @@ tags:
 ---
 
 I use a package
-[eyeseast/python-frontmatter](https://github.com/eyeseast/python-frontmatter)
+[eyeseast/python-frontmatter](https://github.com/eyeseast/python-frontmatter){.hoverlink}
 to load files with frontmatter in them.  Its a handy package that allows you to
 load files with structured frontmatter (yaml, json, or toml).
 
@@ -49,26 +49,26 @@ This is where the markdown content for the post goes.
 ## So it's yaml
 
 yaml is the most commmon, but
-[python-frontmatter](https://pypi.org/project/python-frontmatter/)
+[python-frontmatter](https://pypi.org/project/python-frontmatter/){.hoverlink}
 also supports
-[Handlers](https://python-frontmatter.readthedocs.io/en/latest/handlers.html?highlight=toml#module-frontmatter.default_handlers)
+[Handlers](https://python-frontmatter.readthedocs.io/en/latest/handlers.html?highlight=toml#module-frontmatter.default_handlers){.hoverlink}
 for toml and json.
 
 If you want a good set of examples of yaml
-[learnxinyminutes](https://learnxinyminutes.com/docs/yaml/) has a fantastic set
+[learnxinyminutes](https://learnxinyminutes.com/docs/yaml/){.hoverlink} has a fantastic set
 of examples in one page.
 
 ## How to load yaml frontmatter in python
 
 Here is how I would load this post into python using
-[python-frontmatter](https://pypi.org/project/python-frontmatter/).
+[python-frontmatter](https://pypi.org/project/python-frontmatter/){.hoverlink}.
 
 ```python
 import frontmatter
 inspect(frontmatter.load("pages/til/python-frontmatter.md"))
 ```
 
-We can use [rich](https://github.com/Textualize/rich) to inspect the Post
+We can use [rich](https://github.com/Textualize/rich){.hoverlink} to inspect the Post
 object to see what all it contains.
 
 ```python
@@ -119,7 +119,7 @@ post.get('date')
 # datetime.datetime(2022, 3, 24, 3, 18, 48, 631729)
 ```
 
-https://waylonwalker.com/til/python-dict-get/
+[[ python-dict-get ]]
 
 > I have recently become fond of the `.get` method to give it an easy default value.
 

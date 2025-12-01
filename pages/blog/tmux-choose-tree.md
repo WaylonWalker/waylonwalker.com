@@ -6,7 +6,7 @@ date: 2021-07-19T23:51:21
 published: true
 ---
 
-<https://youtu.be/79Y-kqAiMpw>
+[https://youtu.be/79Y-kqAiMpw](https://youtu.be/79Y-kqAiMpw){.youtube-embed}
 
 Choose tree is a powerful tmux utility that provides a graphical interface to
 preview all sessions, windows, and panes, move between them kill them, move
@@ -70,6 +70,6 @@ choose-tree [-GNrswZ] [-F format] [-f filter] [-K key-format] [-O sort-order] [-
         works only if at least one client is attached.
 ```
 
-<https://waylonwalker.com/tmux-nav-2021/>
+[https://waylonwalker.com/tmux-nav-2021/](https://waylonwalker.com/tmux-nav-2021/){.hoverlink}
 
 > for more information on how I navigate tmux, check out this full post

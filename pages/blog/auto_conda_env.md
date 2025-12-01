@@ -15,7 +15,7 @@ whenever I cd into a directory. One thing I wanted to add to this was,
 automatic activation of python environments whenever I cd into a directory, or
 create a new environment if one does not exist.
 
-<https://waylonwalker.com/tmux-nav-2021/>
+[https://waylonwalker.com/tmux-nav-2021/](https://waylonwalker.com/tmux-nav-2021/){.hoverlink}
 
 ## Direnv
 
@@ -128,7 +128,7 @@ I dive deeper into this subject in this post about creating
 scripts. But to auto create the environment I am going to try to activate. If
 it fails, create a new environment based on the name of the project.
 
-<https://waylonwalker.com/reusable-bash/#error-handling>
+[https://waylonwalker.com/reusable-bash/#error-handling](https://waylonwalker.com/reusable-bash/#error-handling){.hoverlink}
 
 ```bash
 source activate $(basename $PWD) || condanew

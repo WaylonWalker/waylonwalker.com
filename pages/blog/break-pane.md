@@ -7,7 +7,7 @@ published: true
 
 ---
 
-https://youtu.be/ICL609F2xnc
+[https://youtu.be/ICL609F2xnc](https://youtu.be/ICL609F2xnc){.youtube-embed}
 
 Break-pane is a handy tmux command when your layout gets too cramped and you
 want to just move a split into its own window.  Calling `break-pane` does
@@ -20,6 +20,6 @@ Default key binding for `break-pane`
 bind-key          ! break-pane
 ```
 
-https://waylonwalker.com/tmux-nav-2021/
+[[ tmux-nav-2021 ]]
 
 > for more information on how I navigate tmux, check out this full post

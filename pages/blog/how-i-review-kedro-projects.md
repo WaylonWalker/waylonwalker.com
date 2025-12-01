@@ -13,7 +13,7 @@ two phase approach to the review in order to give the reviewee both quick and
 detailed feedback.
 
 
-https://waylonwalker.com/what-is-kedro
+[[ what-is-kedro ]]
 
 ## initial scan (Phase1)
 

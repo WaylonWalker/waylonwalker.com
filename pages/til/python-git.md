@@ -18,7 +18,7 @@ I recently made myself a handy tool for making screenshots in python and it
 need to do a git commit and push from within the script.  For this I reached
 for `GitPython`.
 
-https://waylonwalker.com/screenshot-to-blog/
+[[ screenshot-to-blog ]]
 
 ## Installation
 
@@ -103,7 +103,7 @@ they were deleted.
 print(repo.git.log('--diff-filter', 'D', '--name-only', '--pretty=format:"%h"'))
 ```
 
-https://waylonwalker.com/git-find-deleted-files/
+[[ git-find-deleted-files ]]
 
 > full post on finding deleted files
 

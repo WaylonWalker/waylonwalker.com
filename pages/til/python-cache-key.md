@@ -17,7 +17,7 @@ Yesterday we talked about setting up a persistant cache with python diskcache.
 In order to make this really work we need a good way to make consistent cache
 keys from some sort of python object.
 
-https://waylonwalker.com/til/python-diskcache/
+[[ python-diskcache ]]
 
 ## hash
 
@@ -26,7 +26,6 @@ _does not work_
 My first thought was to just hash the files, this will give me a unique key for
 each.  This will work, and give you a consistant key for one and only one given
 python process.  If you start a new interpreter you will get different keys.
-
 
 ```python
 waylonwalker.com on  main [$✘!?] via  v5.1.5  v3.8.0 (waylonwalker.com)
@@ -115,7 +114,7 @@ def make_hash(self, *keys: str) -> str:
     return hashlib.md5("".join(str_keys).encode("utf-8")).hexdigest()
 ```
 
-https://waylonwalker.com/python-args-kwargs/
+[[ python-args-kwargs ]]
 
 > If the *args is confusing, I have a full article on `*args` and `**kwargs`.
 

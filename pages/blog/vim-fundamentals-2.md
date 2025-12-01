@@ -22,7 +22,7 @@ Zev Averbach - Harpoon | Wrap up
 - get a plugin manager
 - unless you are going full lua, most people use vim-plug by the great junegunn
 
-<https://github.com/junegunn/vim-plug>
+[https://github.com/junegunn/vim-plug](https://github.com/junegunn/vim-plug){.hoverlink}
 
 ## Install pluggged
 

@@ -5,7 +5,7 @@ title: How I Present Markdown Slides from the Terminal
 tags:
   - python
   - cli
-
+  - tmux
 ---
 
 I love the freedom of writing in markdown.  It allows me to write content from

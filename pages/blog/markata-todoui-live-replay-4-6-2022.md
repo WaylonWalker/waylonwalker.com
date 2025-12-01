@@ -4,10 +4,8 @@ templateKey: blog-post
 title: LIVE-REPLAY - Python dev | Markata todoui | 4/6/2022
 tags:
   - python
-  - python
-  - python
+  - markata
 published: true
-
 ---
 
 https://youtu.be/-42A5210HYo

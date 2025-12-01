@@ -4,8 +4,6 @@ templateKey: til
 title: pipx on windows
 tags:
   - python
-  - python
-  - python
 
 ---
 

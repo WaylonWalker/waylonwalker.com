@@ -4,8 +4,6 @@ templateKey: til
 title: Python Enum
 tags:
   - python
-  - python
-  - python
 
 ---
 

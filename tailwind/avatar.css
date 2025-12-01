@@ -1,0 +1,10 @@
+  a[data-favicon]:before {
+      content: "";
+      display: inline-block;
+      vertical-align: middle;
+      width: 1em;
+      height: 1em;
+      margin: 0 .2em;
+      background-size: contain;
+      background-image: var(--favicon-url);
+  }

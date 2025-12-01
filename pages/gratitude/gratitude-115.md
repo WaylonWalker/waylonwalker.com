@@ -1,6 +1,9 @@
 ---
 date: 2022-01-08T20:39:38
 templateKey: gratitude
+tags:
+  - gratitude
+
 title: Gratitude 115
 
 ---

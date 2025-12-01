@@ -1,9 +1,9 @@
 import re
 from typing import TYPE_CHECKING
 
-import requests
 from bs4 import BeautifulSoup
 from markata.hookspec import hook_impl
+import requests
 
 if TYPE_CHECKING:
     from bs4.element import Tag
@@ -79,7 +79,7 @@ def post_render(markata):
     "Hook to replace gifs on images.waylonwalker.com with mp4's if they exist"
     should_prettify = markata.config.get("prettify_html", False)
     with markata.cache as cache:
-        for article in markata.articles:
+        for article in markata.filter("not skip"):
             key = markata.make_hash(
                 article.html,
             )
@@ -91,7 +91,7 @@ def post_render(markata):
                     html = soup.prettify()
                 else:
                     html = str(soup)
-                cache.add(key, html, expire=markata.config["default_cache_expire"])
+                cache.set(key, html, expire=markata.config["default_cache_expire"])
 
             else:
                 html = html_from_cache

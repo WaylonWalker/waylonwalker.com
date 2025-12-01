@@ -1,5 +1,4 @@
 name: 🌱 Deploy site
-
 on:
   workflow_dispatch:
   push:
@@ -7,60 +6,57 @@ on:
       - main
 env:
   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3.1.0
-
-      # is a cached .venv any faster?
-      - name: Cache
-        uses: actions/cache@v3.0.11
+      - uses: szenius/set-timezone@v2.0
         with:
-          path: |
-            ./.markata.cache
-            ./markout
-            ./.venv
-          key: ${{ runner.os }}-${{ hashfiles('markata.toml') }}-markata-${{ github.sha }}
-          restore-keys: |
-            ${{ runner.os }}-${{ hashfiles('markata.toml') }}-markata-${{ github.sha }}
-            ${{ runner.os }}-${{ hashfiles('markata.toml') }}-markata-
-            ${{ runner.os }}-${{ hashfiles('markata.toml') }}-
-
-      - name: Set up Python 3.11
-        uses: actions/setup-python@v4.3.0
-        with:
-          python-version: "3.11"
-
-      - name: install
-        run: |
-          pip install --upgrade markata --pre
-          pip install -r requirements.txt
-
-      # - name: install markata
-      #   run: pip install --no-deps -r requirements.txt
-
-      - name: run markata
-        run: |
-          markata build --no-pretty
-
-      - name: create root
-        run: |
-          cp static/index.html markout/index.html
-
-      - name: Use Node v20
-        uses: actions/setup-node@v3.8.1
-        with:
-          node-version: 20
-      - name: Create Pagefind
-        run: npx pagefind --site markout
-
-      - name: GitHub Pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        uses: crazy-max/ghaction-github-pages@v3.0.0
-        with:
-          target_branch: markout
-          build_dir: markout
-          jekyll: false
+          timezoneLinux: "America/Chicago"
+          timezoneMacos: "America/Chicago"
+          timezoneWindows: "America/Chicago"
+    # - uses: actions/checkout@v3.1.0
+    # # is a cached .venv any faster?
+    # - name: Cache
+    #   uses: actions/cache@v3.0.11
+    #   with:
+    #     path: |
+    #       ./.markata.cache
+    #       ./markout
+    #       ./.venv
+    #     key: ${{ runner.os }}-${{ hashfiles('markata.toml') }}-markata-${{ github.sha }}
+    #     restore-keys: |
+    #       ${{ runner.os }}-${{ hashfiles('markata.toml') }}-markata-${{ github.sha }}
+    #       ${{ runner.os }}-${{ hashfiles('markata.toml') }}-markata-
+    #       ${{ runner.os }}-${{ hashfiles('markata.toml') }}-
+    # - name: Set up Python 3.11
+    #   uses: actions/setup-python@v4.3.0
+    #   with:
+    #     python-version: "3.11"
+    # - name: install
+    #   run: |
+    #     pip install -r requirements.txt
+    # - name: run markata
+    #   run: |
+    #     markata build --no-pretty
+    # - name: create root
+    #   run: |
+    #     cp static/index.html markout/index.html
+    # - name: rm markata.json
+    #   run: |
+    #     # too big for cloudflare pages
+    #     rm markout/markata.json
+    # - name: Use Node v20
+    #   uses: actions/setup-node@v3.8.1
+    #   with:
+    #     node-version: 20
+    # - name: Create Pagefind
+    #   run: npx pagefind --site markout
+    # - name: GitHub Pages
+    #   env:
+    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    #   uses: crazy-max/ghaction-github-pages@v3.0.0
+    #   with:
+    #     target_branch: markout
+    #     build_dir: markout
+    #     jekyll: false

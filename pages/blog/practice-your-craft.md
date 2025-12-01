@@ -1,10 +1,11 @@
 ---
 templateKey: blog-post
-tags: []
+tags:
+  - catalytic
+  - soft
 title: Practice your craft
 date: 2020-03-04T06:00:00.000+00:00
 published: false
-
 ---
 
 ## Show up For Practice

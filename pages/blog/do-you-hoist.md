@@ -22,7 +22,6 @@ Do you have any use cases that you use hoising?  Why?  It seems like a really co
 
 There are many articles that cover this in far more depth, but its the idea that variable declarations and functions are defined before they are executed.  This means that it doesnt matter if you call a function before or after it is defined.
 
-
 ## Hoisting
 
 ``` javascript
@@ -58,7 +57,3 @@ Really it feels weird to call function definitions before using them.  I really 
 ## Is hoisting more readable?
 
 I kinda like the idea of putting the 🥩 meat of the file up at the top so that someone reading it will see the good stuff first, then can optionally dig into the weeds if they need to.
-
-## I started a newsletter
-
-I recently started a newsletter, [join in](https://emailoctopus.com/lists/b194a4af-9875-11ea-a3d0-06b4694bee2a/forms/subscribe) and let me know what you want to hear about.

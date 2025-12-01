@@ -8,7 +8,7 @@ published: true
 ---
 There are many useful chrome extensions out there.  I probably have way too many installed, here are four that I am currently using.
 
-This post was inspired from Chris over at [daily-dev-tips](https://daily-dev-tips.com/posts/top-10-chrome-extensions-for-developers-%F0%9F%91%80/)
+This post was inspired from Chris over at [daily-dev-tips](https://daily-dev-tips.com/posts/top-10-chrome-extensions-for-developers/)
 
 1. [LastPass](#lastpass)
 2. [Stylus](#stylus)

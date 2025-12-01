@@ -14,7 +14,6 @@ easier than anticipated thanks to the `feedparser` library.
 
 This is how I used python to parse rss and setup my own custom feed.
 
-
 ## Install
 
 Install the feedparser library.
@@ -46,7 +45,6 @@ feed.keys()
 feed is in **entries**.  The rest of the keys weren't all that useful for me at
 the moment.
 
-
 ## pulling multiple feeds
 
 I grabbed a few popular RSS feeds that I was familiar with to get started.
@@ -69,7 +67,6 @@ feeds[1][0].keys()
 , 'published_parsed'])
 ```
 
-
 ## NOTE: dev.to/feed
 
 I also pulled the [dev.to/feed](https://dev.to/feed).  Since is it setup for
@@ -80,7 +77,6 @@ feedparser.parse('https://dev.to/feed')[0].keys()
 >>> dict_keys(['title', 'title_detail', 'authors', 'author', 'author_detail', 'published', 'published_parsed', 'links
 ', 'link', 'id', 'guidislink', 'summary', 'summary_detail', 'tags'])
 ```
-
 
 ## Combining Feeds
 
@@ -130,7 +126,6 @@ feed.sort(key=lambda x: dateutil.parser.parse(x['published']), reverse=True)
   'link': 'https://swyx.io/speaking/coding-careers-vincit'}]
 ```
 
-
 ## Decentralized Feed
 
 I think the idea of RSS is super cool, and the idea that I can potentially
@@ -145,9 +140,9 @@ vanilla datatypes sometimes.
 ## Trying to step up your python game
 
 While trying to step up your skills you will need lots of practice.  Its good
-to have several options to try out ideas quickly.  I often use replit.com,
-check out this post to see how I use it.
+to have several options to try out ideas quickly.  I often use
+<https://replit.com>, check out this post to see how I use it.
 
-https://waylonwalker.com/practice-python-online/
+[[ practice-python-online ]]
 
 > Not a sponsor REPL.it is a great way to practice.

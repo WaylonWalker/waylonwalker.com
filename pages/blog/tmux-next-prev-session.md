@@ -7,7 +7,7 @@ published: true
 
 ---
 
-https://youtu.be/8kZnjHPYnKU
+[https://youtu.be/8kZnjHPYnKU](https://youtu.be/8kZnjHPYnKU){.youtube-embed}
 
 Now that we are splitting up work into their own sessions, lets talk about how
 to navigate between them without the command line.  Navigating sessions is what
@@ -20,10 +20,9 @@ bind -n M-P switch-client -p
 bind -n M-N switch-client -n
 ```
 
-https://waylonwalker.com/tmux-nav-2021/
+[[ tmux-nav-2021 ]]
 
 > for more information on how I navigate tmux, check out this full post
-
 
 Also check out the full YouTube
 [tmux-playlist](https://www.youtube.com/playlist?list=PLTRNG6WIHETB4reAxbWza3CZeP9KL6Bkr)

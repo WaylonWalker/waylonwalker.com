@@ -31,4 +31,4 @@ bind -n M-Enter copy-mode
 
 I have a full video on copy-mode you can find here.
 
-https://waylonwalker.com/tmux-copy-mode/
+[[ tmux-copy-mode ]]

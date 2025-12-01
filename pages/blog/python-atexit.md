@@ -1,13 +1,13 @@
 ---
-date: 2000-01-15 23:45:55.942093
+date: 2022-06-02 23:45:55.942093
 templateKey: til
 title: Python atexit
 tags:
   - python
-  - python
-  - python
 published: false
 ---
+
+> totally guessed at this post's date
 
 I'm still trying to understand this one, but this is how you force a
 python object to stop atexit.

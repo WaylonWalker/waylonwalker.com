@@ -26,7 +26,7 @@ giving me a `tutorial` cli command to run.
 tutorial = 'textual_tutorial.tui:tui'
 ```
 
-<https://waylonwalker.com/hatch-new-cli/>
+[https://waylonwalker.com/hatch-new-cli/](https://waylonwalker.com/hatch-new-cli/){.hoverlink}
 
 ## setup.py entrypoints
 
@@ -44,7 +44,7 @@ setup(
 )
 ```
 
-<https://waylonwalker.com/minimal-python-package/>
+[https://waylonwalker.com/minimal-python-package/](https://waylonwalker.com/minimal-python-package/){.hoverlink}
 
 ## tui.py
 
@@ -95,4 +95,4 @@ FEATURES: Final = {"devtools", "debug", "headless"}
 Here it is running with `tutorial --dev` on the left, and `textual console` on
 the right.
 
-![textual-tutorial-devtools](https://screenshots.waylonwalker.com/textual-tutorial-devtools.webp)
+![textual-tutorial-devtools.webp](https://dropper.wayl.one/api/file/01c4b236-fc55-4760-814a-d61d141ef1db.webp)

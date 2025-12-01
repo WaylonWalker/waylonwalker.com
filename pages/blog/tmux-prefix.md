@@ -7,7 +7,7 @@ published: true
 
 ---
 
-https://youtu.be/BMkpbfhbkKM
+[https://youtu.be/BMkpbfhbkKM](https://youtu.be/BMkpbfhbkKM){.youtube-embed}
 
 The prefix key is an essential part of tmux, by default all of tmux's
 key-bindings sit behind a prefix.  This prefix is very similar to vim's leader
@@ -38,8 +38,8 @@ n      next window
 p      previous window
 ```
 
-A more complete list of key-bindings can be found in this gist https://gist.github.com/mzmonsour/8791835.
+A more complete list of key-bindings can be found in this gist <https://gist.github.com/mzmonsour/8791835>.
 
-https://waylonwalker.com/tmux-nav-2021/
+[[ tmux-nav-2021 ]]
 
 > for more information on how I navigate tmux, check out this full post

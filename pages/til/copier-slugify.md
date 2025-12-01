@@ -6,6 +6,7 @@ jinja: False
 published: true
 tags:
   - python
+  - copier
 
 ---
 
@@ -43,13 +44,13 @@ your template.
 _jinja_extensions:
     - cookiecutter.extensions.SlugifyExtension
 ```
+
 ## Use it | slugify
 
 _use-it_
 
 Now to use it, anywhere that you want to slugify a variable, you just pipe it
 into slugify.
-
 
 ``` bash
 ❯ tree .
@@ -78,7 +79,7 @@ _jinja_extensions:
 
 Running the template looks a bit like this.
 
-![running python copier with the cookiecutter slugify extension](https://screenshots.waylonwalker.com/copier-cookiecutter-slugify.webp)
+![copier-cookiecutter-slugify.webp](https://dropper.wayl.one/api/file/ffd34b52-cef7-4de8-b451-4426989fb70c.webp)
 
 ---
 
@@ -91,7 +92,6 @@ https://cookiecutter.readthedocs.io/en/latest/advanced/template_extensions.html#
 
 The `cookiecutter.extensions.SlugifyExtension` extension provides a `slugify`
 filter in templates that converts string into its dashed ("slugified") version:
-
 
 ``` jinja
 {% "It's a random version" | slugify %}

@@ -11,7 +11,7 @@ Replacing text based on whats in the current search register is a quite handy
 tool that I use often.  I believe I picked this tip up from Nick Janetakis,
 check out his YouTube channel for some amazing vim tips.
 
-https://www.youtube.com/watch?v=fP_ckZ30gbs
+[https://www.youtube.com/watch?v=fP_ckZ30gbs](https://www.youtube.com/watch?v=fP_ckZ30gbs){.hoverlink}
 
 If there is one thing that I Like most about vim it's the ability to hack on it
 and make it work well for you.
@@ -45,6 +45,6 @@ register into the command.
 registers are in use with the `:reg` command.  There are a lot of them and many
 get populated automatically as you yank text or create macros.
 
-https://waylonwalker.com/save-vim-macro/
+[[ save-vim-macro ]]
 
 > Also see how to use <C-R> to save macros to key bindings easily

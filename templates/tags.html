@@ -1,0 +1,8 @@
+<h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Tags</h2>
+<ul class="flex flex-wrap justify-center p-0 m-auto max-w-md border-yellow-400 tags">
+    {% for tag in post.tags %}
+        <li class='px-4 mx-2 list-none rounded-full ring-1 ring-pink-500'>
+            <a class="p-category" href="https://waylonwalker.com/{{ tag }}/" hx-boost="true">{{ tag }}</a>
+        </li>
+    {% endfor %}
+</ul>

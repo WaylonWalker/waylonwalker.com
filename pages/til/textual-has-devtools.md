@@ -5,8 +5,6 @@ title: Textual has devtools
 published: true
 tags:
   - python
-  - python
-  - python
 ---
 
 Textual has devtools in the upcoming css branch, and its pretty awesome!
@@ -24,7 +22,7 @@ As [@willmcgugan](https://twitter.com/willmcgugan) shows in this tweet it's
 pretty easy to setup, it requires having two terminals open, or using tmux, and
 currently you have to use the css branch.
 
-<https://twitter.com/willmcgugan/status/1531294412696956930>
+[https://twitter.com/willmcgugan/status/1531294412696956930](https://twitter.com/willmcgugan/status/1531294412696956930){.hoverlink}
 
 ## Why does textual need its own devtools
 
@@ -63,4 +61,4 @@ Once textual is installed you can open up the devtools by running textual consol
 textual console
 ```
 
-![textual-console](https://screenshots.waylonwalker.com/textual-console.webp)
+![textual-console.webp](https://dropper.wayl.one/api/file/9a528fd8-7f06-4a6d-b46e-26165e4a0e93.webp)

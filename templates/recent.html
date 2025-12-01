@@ -1,0 +1,23 @@
+<h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Recent Posts</h2>
+{% with feed = markata.feeds.recently_written %}
+    {% include 'feed_sm_partial.html' %}
+{% endwith %}
+
+<h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Recent <a href="/thoughts/">Thoughts</a></h2>
+{% with feed = markata.feeds.recent_thoughts %}
+    {% include 'feed_sm_partial.html' %}
+{% endwith %}
+
+<h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Recent <a href="/thoughts/">Stars</a></h2>
+{% with feed = markata.feeds.recent_stars %}
+    {% include 'feed_sm_partial.html' %}
+{% endwith %}
+
+<!-- <h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Recent Posts from People I read</h2> -->
+<!-- <div hx-get='https://reader.waylonwalker.com/ten-written' hx-trigger='load' hx-swap='outerHTML'></div> -->
+<!---->
+<!-- <h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Recent Posts from my YouTube subs</h2> -->
+<!-- <div hx-get='https://reader.waylonwalker.com/ten-video' hx-trigger='load' hx-swap='outerHTML'></div> -->
+<!---->
+<!-- <h2 class="m-auto max-w-md text-sm text-center text-gray-200 no-link">Recent Posts from my favorite pods</h2> -->
+<!-- <div hx-get='https://reader.waylonwalker.com/ten-video' hx-trigger='load' hx-swap='outerHTML'></div> -->

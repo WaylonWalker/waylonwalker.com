@@ -7,7 +7,7 @@ published: true
 
 ---
 
-https://youtu.be/-ypY_-VmBKk
+[https://youtu.be/-ypY_-VmBKk](https://youtu.be/-ypY_-VmBKk){.youtube-embed}
 
 tmux copy-mode is a tmux mode that lets you scroll, search, copy, and jump your
 way through a pane.  There are a ton of keybindings for copy-mode, the main
@@ -23,7 +23,6 @@ bind-key          [ copy-mode
 
 If you are a vim user you will likely want to use vi style keys, add this to
 your `~/.tmux.conf` file to enable vi mode.
-
 
 ``` bash
 setw -g mode-keys vi
@@ -108,10 +107,9 @@ full list of copy-mode keybindings from the man page.
            top-line                                     H               M-R
 ```
 
-https://waylonwalker.com/tmux-nav-2021/
+[[ tmux-nav-2021 ]]
 
 > for more information on how I navigate tmux, check out this full post
-
 
 Also check out the full YouTube
 [tmux-playlist](https://www.youtube.com/playlist?list=PLTRNG6WIHETB4reAxbWza3CZeP9KL6Bkr)

@@ -19,12 +19,12 @@ _Also..._
 
 With this pattern all of the nodes needed to be importable by the module containing nodes_global.  I find that this becomes a big hurdle for new pipelines coming from jupyter to overcome and can be most infuriating when their nodes aren't getting ran after they added them.
 
-https://waylonwalker.com/what-is-kedro/
+[[ what-is-kedro ]]
 
 > If you are a bit unsure about what kedro is make sure to check out my [what-is-kedro](https://waylonwalker.com/what-is-kedro/) article.
 
-
 ## @node(inputs='a_raw_cars', outputs='b_int_cars')
+
 I set off to design something that was flask-like.  Around November I had something working.  You could simply start creating functions. and decorate these functions with a decorator just like with flask.  I even had it setup to autoname the nodes things like `create_b_int_cars`.
 
 _But...._
@@ -32,6 +32,7 @@ _But...._
 This did not lend well to pulling in functions from a library or dynamically creating nodes.  I didn't realize how few nodes I actually make in my pipelines that are a 1:1 relationship between the node and function in real work.  Most examples work this way, but for some reason when I step into a project we end up pulling a lot of functions out of existing libraries, or dynamically creating many datasets from a list of options.
 
 ## pytest inspired
+
 _simplicity_
 
 The final design ended up being suggested by a colleague of mine who is not using kedro, but is a  brilliant python dev.  The idea was to walk through the project like pytest does looking for modules and variables with a certain pattern (`node`, or `pipeline`).
@@ -113,9 +114,7 @@ nodes.append(
 )
 ```
 
-
 ## Want a simple guide to get started with find kedro
-
 
 <p style='text-align: center' align='center'>
 <a href='https://find.kedro.dev/examples/iris/'>
@@ -134,4 +133,4 @@ In [this doc](https://find.kedro.dev/examples/iris/) I transform the kedro iris 
 
 If you still have not tried out kedro, it's easier than you think. Check out [create-new-kedro-project](https://waylonwalker.com/create-new-kedro-project/) to get a project started in just a few minutes.
 
-https://waylonwalker.com/create-new-kedro-project/
+[[ create-new-kedro-project ]]

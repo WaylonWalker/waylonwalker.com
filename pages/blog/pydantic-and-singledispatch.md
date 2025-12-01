@@ -4,8 +4,6 @@ templateKey: blog-post
 title: Pydantic and singledispatch
 tags:
   - python
-  - python
-  - python
 published: true
 ---
 

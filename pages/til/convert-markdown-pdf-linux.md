@@ -27,7 +27,7 @@ sudo apt install \
   texlive-xetex
 ```
 
-## Using pandoc to convert markdown to a pdf.
+## Using pandoc to convert markdown to a pdf
 
 ``` python
 # older versions of pandoc, I needed this one on ubuntu 18.04
@@ -36,10 +36,8 @@ pandoc pages/til/convert-markdown-pdf-linux.md -o convert-markdown-pdf.pdf --lat
 pandoc pages/til/convert-markdown-pdf-linux.md -o convert-markdown-pdf.pdf --pdf-engine=xelatex
 ```
 
-
-
 ![results of converting this post to a pdf](https://images.waylonwalker.com/convert-markdown-pdf-linux-result.png)
 
 > Here is an image of what converting this article over to a pdf looks
 > like.  The raw markdown is
-> [here](https://waylonwalker.com/convert-markdown-pdf-linux.md).
+> [here](https://waylonwalker.com/convert-markdown-pdf-linux.md "a link to the raw markdown of this post").

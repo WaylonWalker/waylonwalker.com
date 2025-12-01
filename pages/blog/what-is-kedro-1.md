@@ -8,7 +8,7 @@ jinja: false
 
 ---
 
-https://waylonwalker.com/what-is-kedro
+[[ what-is-kedro ]]
 
 > This is my original what-is-kedro article.  There is a brand new one
 
@@ -24,21 +24,19 @@ view of kedro, future articles will dive deper into each one.
 
 <!-- {% slideshare DAZrqvJmuUUfFF %} -->
 
-
 ## Libraries
 
 Currently, [kedro](https://kedro.readthedocs.io) is broken down into 3 different libraries.
 
 💎 [kedro](https://kedro.readthedocs.io)
 
-📉 [kedro-viz](https://github.com/quantumblacklabs/kedro-viz)
+📉 [kedro-viz](https://github.com/kedro-org/kedro-viz)
 
-🏗 [kedro-docker](https://github.com/quantumblacklabs/kedro-docker)
+🏗 [kedro-docker](https://github.com/kedro-org/kedro-docker)
 
 ## [kedro](https://kedro.readthedocs.io)
 
 ![kedro logo](https://images.waylonwalker.com/68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f7175616e74756d626c61636b6c6162732f6b6564726f2f6d61737465722f696d672f6b6564726f5f62616e6e65722e6a7067.jpg)
-
 
 [kedro](https://kedro.readthedocs.io) is the core of the ecosystem.  It provides the docs, getting started, `kedro new` templates, and the core library including the catalog and pipeline.
 
@@ -108,9 +106,9 @@ nodes = [
 pipeline = Pipeline(nodes)
 ```
 
-## [kedro-viz](https://github.com/quantumblacklabs/kedro-viz)
+## [kedro-viz](https://github.com/kedro-org/kedro-viz)
 
-[kedro-viz](https://github.com/quantumblacklabs/kedro-viz) is a priceless component to the [kedro](https://kedro.readthedocs.io) ecosystem.  It gives you x-ray vision into your project.  You can see exactly how data flows through your pipeline.  Since it is fully automated it is always up to date and never lies to you.  [kedro-viz](https://github.com/quantumblacklabs/kedro-viz) is an integral part of my daily debugging and refactoring toolbelt.
+[kedro-viz](https://github.com/kedro-org/kedro-viz) is a priceless component to the [kedro](https://kedro.readthedocs.io) ecosystem.  It gives you x-ray vision into your project.  You can see exactly how data flows through your pipeline.  Since it is fully automated it is always up to date and never lies to you.  [kedro-viz](https://github.com/kedro-org/kedro-viz) is an integral part of my daily debugging and refactoring toolbelt.
 
 Starting the viz from the command line is super easy
 
@@ -121,9 +119,9 @@ kedro viz
 
 ![](https://images.waylonwalker.com/pipeline_visualisation.png)
 
-## [kedro-docker](https://github.com/quantumblacklabs/kedro-docker)
+## [kedro-docker](https://github.com/kedro-org/kedro-docker)
 
-[kedro-docker](https://github.com/quantumblacklabs/kedro-docker) is a simple way to set up your project for production.  It provides a few simple cli commands
+[kedro-docker](https://github.com/kedro-org/kedro-docker) is a simple way to set up your project for production.  It provides a few simple cli commands
 
 ``` bash
 cd my-kedro-project
@@ -141,4 +139,6 @@ I tweet out most of those snippets as I add them, you can find them all here [#k
 
 ## More to come
 
-I am planning to do more articles like this, you can stay up to date with them by following me on [dev.to](https://dev.to/waylonwalker), subscribing to my [rss feed](https://waylonwalker.com/rss.xml), or subscribe to my [newsletter](https://emailoctopus.com/lists/b194a4af-9875-11ea-a3d0-06b4694bee2a/forms/subscribe)
+I am planning to do more articles like this, you can stay up to date with them
+by following me on [dev.to](https://dev.to/waylonwalker), subscribing to my
+[rss feed](https://waylonwalker.com/rss.xml).

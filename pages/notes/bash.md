@@ -153,9 +153,7 @@ find . -n "*.md" | xargs grepr python python3
 
 _++Vanilla Bonus_
 
-
-https://waylonwalker.com/refactor-in-cli/
-
+[[ refactor-in-cli ]]
 
 > I use these replace commands heavily when doing large refactorings.
 
@@ -309,7 +307,7 @@ done
 
 ## convert markdown files to reveal.js
 
-https://github.com/jgm/pandoc/wiki/Using-pandoc-to-produce-reveal.js-slides
+[https://github.com/jgm/pandoc/wiki/Using-pandoc-to-produce-reveal.js-slides](https://github.com/jgm/pandoc/wiki/Using-pandoc-to-produce-reveal.js-slides){.hoverlink}
 install pandoc
 
 ``` bash
@@ -352,7 +350,6 @@ see the [docs](https://click.palletsprojects.com/en/7.x/bashcomplete/) for more 
 shtab [https://github.com/iterative/shtab](https://github.com/iterative/shtab "https://github.com/iterative/shtab")
 
 ## Ensure functions reset context
-
 
 ``` bash
 project_log() {
@@ -397,10 +394,9 @@ mu diff -U0 --color | bat
 mu sh $(grep -iRl "KEDRO_GID=0" | xargs sed -i "s/KEDRO_GID=0/KEDRO_GID=5/g")
 ```
 
-https://waylonwalker.com/mu-repo/
+[[ mu-repo ]]
 
 > See the full post for mu-repo for more
-
 
 ## mu unregister all
 
@@ -409,7 +405,6 @@ I ran into some issues with mu unregister * before, but this seems to work every
 ``` bash
 mu list | tail -n +3 | xargs -I {} mu unregister {}
 ```
-
 
 ## mu register all repos that have an rg match
 

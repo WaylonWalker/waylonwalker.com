@@ -7,7 +7,7 @@ published: true
 
 ---
 
-https://youtu.be/LbQNdCAUogE
+[https://youtu.be/LbQNdCAUogE](https://youtu.be/LbQNdCAUogE){.youtube-embed}
 
 This one starts a new chapter in our series that is going to open up a whole
 new set of workflow productivity options, understanding how the `new-session`
@@ -29,10 +29,9 @@ tmux new-session -s me
 tmux new-session -As me
 ```
 
-https://waylonwalker.com/tmux-nav-2021/
+[[ tmux-nav-2021 ]]
 
 > for more information on how I navigate tmux, check out this full post
-
 
 Also check out the full YouTube
 [tmux-playlist](https://www.youtube.com/playlist?list=PLTRNG6WIHETB4reAxbWza3CZeP9KL6Bkr)

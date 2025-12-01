@@ -7,7 +7,7 @@ published: true
 
 ---
 
-https://youtu.be/Vm5rRtcVXLw
+[https://youtu.be/Vm5rRtcVXLw](https://youtu.be/Vm5rRtcVXLw){.youtube-embed}
 
 Join-pane allows you to join panes that you have broken away from your window,
 or created in a different window to the window you want it in.  As far as I
@@ -27,7 +27,7 @@ bind -n M-M select-pane -M # unmark
 bind -n M-< join-pane
 ```
 
-https://waylonwalker.com/tmux-nav-2021/
+[[ tmux-nav-2021 ]]
 
 > for more information on how I navigate tmux, check out this full post
 

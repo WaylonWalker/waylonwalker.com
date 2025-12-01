@@ -1,14 +1,11 @@
 ---
 templateKey: blog-post
-tags: []
-title: "\U0001F4E2 Announcing find-kedro"
+tags:
+  - kedro
+title: 📢 Announcing find-kedro
 date: 2020-05-04T11:53:00Z
 published: true
-description: kedro is an amazing project that allows for super-fast prototyping of
-  data pipelines, yet yielding production-ready pipelines. find-kedro enhances this
-  experience by adding a pytest-like node discovery eliminating the need to bubble
-  up pipelines through modules.
-
+description: kedro is an amazing project that allows for super-fast prototyping of data pipelines, yet yielding production-ready pipelines. find-kedro enhances this experience by adding a pytest-like node discovery eliminating the need to bubble up pipelines through modules.
 ---
 
 `find-kedro` is a small library to enhance your kedro experience.  It looks through your modules to find kedro pipelines, nodes, and iterables (lists, sets, tuples) of nodes.  It then assembles them into a dictionary of pipelines, each module will create a separate pipeline, and `__default__` being a combination of all pipelines.  This format is compatible with the kedro `_create_pipelines` format.

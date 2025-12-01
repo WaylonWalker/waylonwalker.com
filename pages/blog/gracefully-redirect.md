@@ -16,7 +16,7 @@ posts there, and sometimes it picks some crazy file names (based on my titles).
 It was time to refactor.
 
 
-https://waylonwalker.com/refactor-in-cli
+[[ refactor-in-cli ]]
 
 > When refactorings similar to this get really big I often need to do some
 > project wide find an replace, I usually do this right from the command line.

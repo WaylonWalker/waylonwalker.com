@@ -8,19 +8,31 @@ jinja: false
 
 ---
 
+!!! Caution
+    None of the testproject.io urls resolve anymore in JAN 2025, I removed all
+    of the broken links.
+
+
 As I continue to build out [waylonwalker.com](https://waylonwalker.com/) I
 sometimes run into some errors that are not caught because I do not have good
 testing implemented.  I want to explore some integration testing options using
 GitHub's actions.
 
-Running integration tests will not prevent bugs from happening completely, but it will allow me to quickly spot them and rollback.
-
+Running integration tests will not prevent bugs from happening completely, but
+it will allow me to quickly spot them and rollback.
 
 ---
 
 ## 🤔 What to test first?
 
-The very first thing that comes to my mind is anything that is loaded or ran client-side.  Two things quickly came to mind here.  I run gatsby so most of my content is statically rendered, and it yells at me if something isn't as expected.  For performance reasons I lazy load cards on my blogroll, loading all of the header images gets heavy and kills lighthouse (if anyone actually cares). I am also loading some information from the top open-source libraries that I have created.  To prevent the need to rebuild the whole site to get the latest information I am just using the GitHub API client-side.
+The very first thing that comes to my mind is anything that is loaded or ran
+client-side.  Two things quickly came to mind here.  I run gatsby so most of my
+content is statically rendered, and it yells at me if something isn't as
+expected.  For performance reasons I lazy load cards on my blogroll, loading
+all of the header images gets heavy and kills lighthouse (if anyone actually
+cares). I am also loading some information from the top open-source libraries
+that I have created.  To prevent the need to rebuild the whole site to get the
+latest information I am just using the GitHub API client-side.
 
 
 things I was looking for from features to test
@@ -36,7 +48,8 @@ features on my blog to consider testing
 
 ## Repo Cards
 
-I chose to start with the GitHub repos as they seemed a bit more straight forward, and it's been a while since I have done any selenium.
+I chose to start with the GitHub repos as they seemed a bit more straight
+forward, and it's been a while since I have done any selenium.
 
 <p style='text-align: center'>
 <img src='https://images.waylonwalker.com/open-source-cards.png' style='width:600px; max-width:80%; margin: auto;' alt='Open Source cards as they look on waylonwalker.com'/>
@@ -46,10 +59,17 @@ I chose to start with the GitHub repos as they seemed a bit more straight forwar
 
 ## TestProject.io
 
-I am trying out [TestProject.io](https://TestProject.io) for the first time on this project.  My experience so far has been top-notch.  There was an existing suite of docker images/files set up to run the TestProject agent in a docker container alongside headless chrome and firefox drivers.  The first thing that you are going to need is a [TP\_DEV\_TOKEN ](https://app.TestProject.io/#/integrations/sdk) and [TP\_API\_KEY](https://app.TestProject.io/#/integrations/api).  These will give TestProject access to your account so that it can automatically post results to your [dashboard](https://app.TestProject.io/#/reports)
+I am trying out TestProject dot io for the first time on
+this project.  My experience so far has been top-notch.  There was an existing
+suite of docker images/files set up to run the TestProject agent in a docker
+container alongside headless chrome and firefox drivers.  The first thing that
+you are going to need is a TP_DEV_TOKEN and
+TP_API_KEY.  These will give
+TestProject access to your account so that it can automatically post results to
+your dashboard.
 
-* [TP\_DEV\_TOKEN ](https://app.TestProject.io/#/integrations/sdk)
-* [TP\_API\_KEY](https://app.TestProject.io/#/integrations/api)
+* TP_DEV_TOKEN
+* TP_API_KEY
 
 ### Put these in secrets in your repo
 
@@ -80,9 +100,15 @@ To expedite development I went ahead and set up development environment that I c
 ## 🐍 Pytest
 _you can see all of the tests ran with pytest on [github](https://github.com/waylonwalker/waylonwalker-com-tests/tree/main/tests)_
 
-I chose to go down the route of using pytest.  I really liked the idea of utilizing fixtures, automatically running my test functions, and utilizing a bit of the pytest reporting capabilities.
+I chose to go down the route of using pytest.  I really liked the idea of
+utilizing fixtures, automatically running my test functions, and utilizing a
+bit of the pytest reporting capabilities.
 
-**NOTE** per pytest standard practice I named the directory containing tests `tests`.  While this works, TestProject.io uses this director as the default name for the project.  If I were to go back I would either rename the directory to what I want to show up on TestProject.io or configure the project name inside of the config.
+**NOTE** per pytest standard practice I named the directory containing tests
+`tests`.  While this works, TestProject.io uses this director as the default
+name for the project.  If I were to go back I would either rename the directory
+to what I want to show up on TestProject.io or configure the project name
+inside of the config.
 
 
 ## conftest.py
@@ -117,9 +143,14 @@ The above sample is a bit **simplified**.  I ran into some inconsistencies in th
 _see the full [testrepos.py](https://github.com/WaylonWalker/waylonwalker-com-tests/blob/main/tests/test_repos.py) on GitHub_
 
 
-I have initially set up 3 different tests for the repo cards.  I set a list of repos that I expect to show up in the cards.  These tests are quite easy to do with TestProject.io as it is using selenium and a headless browser to execute javascript under the hood.
+I have initially set up 3 different tests for the repo cards.  I set a list of
+repos that I expect to show up in the cards.  These tests are quite easy to do
+with TestProject.io as it is using selenium and a headless browser to execute
+javascript under the hood.
 
-If you are not familiar a **headless browser** runs the engine as your browser without a graphical user interface.  JavaScript gets fully loaded and parsed, and the dom is completely interactive programmatically.
+If you are not familiar a **headless browser** runs the engine as your browser
+without a graphical user interface.  JavaScript gets fully loaded and parsed,
+and the dom is completely interactive programmatically.
 
 ``` python
 """
@@ -251,14 +282,22 @@ jobs:
         TP_AGENT_URL: http://localhost:8585
 ```
 
-In the test job you can see that we have rendered the [TP\_API\_KEY](https://app.TestProject.io/#/integrations/api) into the [docker-compose.yml](https://github.com/WaylonWalker/waylonwalker-com-tests/blob/main/.github/ci/docker-compose.yml) using `envsubst` file so that TestProject has access to it.  We have also exposed our [TP\_DEV\_TOKEN ](https://app.TestProject.io/#/integrations/sdk) to pytest.
+In the test job you can see that we have rendered the TP_API_KEY into the
+[docker-compose.yml](https://github.com/WaylonWalker/waylonwalker-com-tests/blob/main/.github/ci/docker-compose.yml)
+using `envsubst` file so that TestProject has access to it.  We have also
+exposed our TP_DEV_TOKEN to pytest.
 
 
 ## docker-compose.yml
 
 _[docker-compose.yml](https://github.com/WaylonWalker/waylonwalker-com-tests/blob/main/.github/ci/docker-compose.yml)_
 
-The following [docker-compose.yml](https://github.com/WaylonWalker/waylonwalker-com-tests/blob/main/.github/ci/docker-compose.yml) file was graciously contributed by [@vitalybu](https://github.com/vitalybu) in the [testproject-io/java-sdk](https://github.com/testproject-io/java-sdk/blob/master/.github/ci/docker-compose.yml) repo.  It sets up a template with the **`TP_API_KEY`** as a variable for envsubst, headless browsers for chrome and firefox, and the TestProject.io agent.
+The following
+[docker-compose.yml](https://github.com/WaylonWalker/waylonwalker-com-tests/blob/main/.github/ci/docker-compose.yml)
+file was graciously contributed by [@vitalybu](https://github.com/vitalybu) in
+the testproject-io/java-sdk repo.  It sets up a template with the
+**`TP_API_KEY`** as a variable for envsubst, headless browsers for chrome and
+firefox, and the TestProject.io agent.
 
 ``` yaml
 version: "3.1"
@@ -319,7 +358,7 @@ done
 
 ## TestProject.io Dashboard 〽
 
-One one of the coolest features that you get from TestProject.io are the [reports](https://app.testproject.io/#/reports) dashboard.  To me, this felt like a premium feature for **free**.  Here you can see a time-series plot of your tests success rate over time.  It gives you a bit of an ability to slice in, but not a lot.  Some of the filters are pre-canned, like the past 2 days are past 30 days cannot be customized.
+One one of the coolest features that you get from TestProject.io are the reports dashboard.  To me, this felt like a premium feature for **free**.  Here you can see a time-series plot of your tests success rate over time.  It gives you a bit of an ability to slice in, but not a lot.  Some of the filters are pre-canned, like the past 2 days are past 30 days cannot be customized.
 
 <p style='text-align: center'>
   <img

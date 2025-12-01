@@ -1,0 +1,28 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pvc-inspector
+  namespace: waylonwalker-com
+spec:
+  restartPolicy: Never
+  containers:
+    - image: registry.wayl.one/devtainer:slim
+      name: pvc-inspector
+      command: ["sleep", "300"]
+      # volumeMounts:
+      #   - mountPath: /pvc-registry
+      #     name: pvc-registry
+      #   - mountPath: /pvc-registry-auth
+      #     name: pvc-registry-auth
+      #   - mountPath: /pvc-registry-config
+      #     name: pvc-registry-config
+  # volumes:
+  # - name: pvc-registry
+  # persistentVolumeClaim:
+  #   claimName: registry
+  # - name: pvc-registry-auth
+  # persistentVolumeClaim:
+  #   claimName: registry-auth
+  # - name: pvc-registry-config
+  # persistentVolumeClaim:
+  #   claimName: registry-config

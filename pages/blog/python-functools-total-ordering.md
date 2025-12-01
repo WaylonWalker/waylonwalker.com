@@ -4,7 +4,7 @@ templateKey: til
 title: python functools total ordering
 tags:
   - python
-published: false
+published: true
 
 ---
 
@@ -15,6 +15,17 @@ remember all of them.
 > From the Docs: The class must define one of \_\_lt\_\_(), \_\_le\_\_(),
 > \_\_gt\_\_(), or \_\_ge\_\_ In addition, the class should supply an
 > \_\_eq\_\_() method.
+
+one of these
+
+* __lt__()
+* __le__()
+* __gt__()
+* __ge__()
+
+and required to have this one
+
+* __eq__()
 
 [Total Ordering Docs](https://docs.python.org/3/library/functools.html#functools.total_ordering)
 

@@ -54,7 +54,7 @@ activity](https://images.waylonwalker.com/linkedin-activity-slides.gif)
 
 With less success (shares, views, likes) I have been converting articles over to Twitter threads as they are released, again not every article works well this way, but many do.
 
-<https://twitter.com/_WaylonWalker/status/1349716127887347717>
+[https://twitter.com/_WaylonWalker/status/1349716127887347717](https://twitter.com/_WaylonWalker/status/1349716127887347717){.hoverlink}
 
 ## Simplicity
 
@@ -68,7 +68,7 @@ I have come cli tooling in place to simplify my process. Expect more of that to 
 
 I have set up a podcast where I read out my posts, but the time that I have available to read them is very constraining to the process. It may be something that I figure out how to work out or something that I drop. It's something that I think would be really nice, but still trying to figure out how to do it.
 
-<https://waylonwalker.com/audio-for-blog/>
+[https://waylonwalker.com/audio-for-blog/](https://waylonwalker.com/audio-for-blog/){.hoverlink}
 
 I personally really like this as I often find a cool blog article that I want to read, but it's time to cook dinner or drive somewhere. Articles with audio make it super convenient to consume while doing a task requiring eye contact.
 

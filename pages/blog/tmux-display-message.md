@@ -7,7 +7,7 @@ published: true
 
 ---
 
-https://youtu.be/utfLA6L8o5s
+[https://youtu.be/utfLA6L8o5s](https://youtu.be/utfLA6L8o5s){.youtube-embed}
 
 You've got some long running tasks, and you're trying to stay productive and
 knock tasks off that board, but you keep finding that your processes finish and
@@ -56,11 +56,9 @@ Without setting the target-pane `display-message` defaults to the active pane.
 This is a very handy feature that allows us to switch windows, or sessions and
 still recieve the message.
 
-
-https://waylonwalker.com/tmux-nav-2021/
+[[ tmux-nav-2021 ]]
 
 > for more information on how I navigate tmux, check out this full post
-
 
 Also check out the full YouTube
 [tmux-playlist](https://www.youtube.com/playlist?list=PLTRNG6WIHETB4reAxbWza3CZeP9KL6Bkr)

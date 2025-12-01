@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+    {% include "nav.html" %}
+    {% include 'social.html' %}
+    <h1 class="flair text-center">{{ feed.config.title }}</h1>
+    <p class='max-w-md text-center mx-auto'>{{ feed.config.description }}</p>
+    <ul class="archive-tags">
+        <li>
+            <a href="/python/" hx-boost="true"> python </a>
+        </li>
+        <li>
+            <a href="/linux/" hx-boost="true"> linux </a>
+        </li>
+        <li>
+            <a href="/vim/" hx-boost="true"> vim </a>
+        </li>
+        <li>
+            <a href="/kedro/" hx-boost="true"> kedro </a>
+        </li>
+    </ul>
+    {% include 'feed_partial.html' %}
+    {% include 'footer.html' %}
+{% endblock %}

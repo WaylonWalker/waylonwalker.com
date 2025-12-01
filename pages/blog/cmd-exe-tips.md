@@ -1,11 +1,11 @@
 ---
 templateKey: blog-post
-tags: []
+tags:
+  - cli
 title: cmd.exe tips
 date: 2020-01-23T15:18:45.000+00:00
 published: true
 description: cmd.exe tips
-
 ---
 
 I spend a lot of my time at the terminal for my daily work, mostly in Linux or wsl.  One big reason for using wsl over cmd.exe is the ease of walking through history that fzf provides.  This week we had a windows bug in a cli and I was stuck in vanilla cmd.exe 😭

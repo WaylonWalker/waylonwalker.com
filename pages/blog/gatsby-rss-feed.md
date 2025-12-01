@@ -1,12 +1,12 @@
 ---
 templateKey: blog-post
-tags: []
+tags:
+  - webdev
 title: RSS feed for your Gatsby Site
 date: 2020-01-21T13:58:59Z
 published: false
 description: Add an rss feed to your Gatsby Site
-cover: ''
-
+cover: ""
 ---
 Adding an rss feed to your gatsby js site is super simple.
 

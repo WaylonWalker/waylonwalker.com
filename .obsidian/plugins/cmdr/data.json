@@ -1,0 +1,64 @@
+{
+  "confirmDeletion": true,
+  "showAddCommand": true,
+  "debug": false,
+  "editorMenu": [
+    {
+      "id": "templater-obsidian:create-new-note-from-template",
+      "icon": "templater-icon",
+      "name": "Templater: Create new note from template",
+      "mode": "any"
+    }
+  ],
+  "fileMenu": [
+    {
+      "id": "templater-obsidian:create-new-note-from-template",
+      "icon": "templater-icon",
+      "name": "Templater: Create new note from template",
+      "mode": "any"
+    }
+  ],
+  "leftRibbon": [
+    {
+      "id": "templater-obsidian:create-new-note-from-template",
+      "icon": "templater-icon",
+      "name": "Templater: Create new note from template",
+      "mode": "any"
+    }
+  ],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [
+    {
+      "id": "templater-obsidian:create-new-note-from-template",
+      "icon": "templater-icon",
+      "name": "Templater: Create new note from template",
+      "mode": "any"
+    }
+  ],
+  "pageHeader": [],
+  "macros": [],
+  "explorer": [
+    {
+      "id": "templater-obsidian:create-new-note-from-template",
+      "icon": "templater-icon",
+      "name": "Templater: Create new note from template",
+      "mode": "any"
+    }
+  ],
+  "hide": {
+    "statusbar": [],
+    "leftRibbon": []
+  },
+  "spacing": "8",
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 1,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": false,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 26
+  }
+}

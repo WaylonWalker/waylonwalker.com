@@ -16,7 +16,7 @@ memory in their notebook.
 
 > How do I clear the memory in a Jupyter notebook?
 
-## Pre check the status of memory.
+## Pre check the status of memory
 
 There are a number of ways that you can check the amount of memory on your
 system.  The easiest is not necessarily my first go to is free... literally
@@ -36,7 +36,6 @@ terminal process explorer that shows cpu usage, mem usage, and running
 processes.
 
 _<small><mark>htop</mark></small>_
-
 
 ``` bash
 sudo apt-get install htop # install it from your package repo
@@ -98,8 +97,8 @@ More details on creating swapfiles checkout
 It is my favorite linux tutorial site!
 
 ## Refactor - functions
-_keep big datasets inside functions returning aggregations_
 
+_keep big datasets inside functions returning aggregations_
 
 Sometimes there is a clear quick and simple way to just let the python garbage
 collector.  Often we pull in large datasets to create features then aggregate
@@ -128,7 +127,6 @@ _check out more on reset from the [ipython docs](https://ipython.readthedocs.io/
 The last resort I would lean on here is an `ipython` specific feature `%reset`
 and `%reset_selective`.  These will flush out all user define variables or
 selecive ones based on a regex respectively.
-
 
 Following two example are directly from the [ipython docs](https://ipython.readthedocs.io/en/stable/interactive/magics.html#magic-reset)
 
@@ -185,7 +183,6 @@ In [11]: who_ls
 Out[11]: ['a']
 ```
 
-
 ## Develop faster utilizing autoreload in ipython
 
 The above tips will help you reclaim used memory in ipython, but the following
@@ -206,6 +203,6 @@ development over anything else.
 
 ## Want automatic imports??
 
-https://waylonwalker.com/pyflyby/
+[[ pyflyby ]]
 
 > This article covers how I setup automatic imports in ipython

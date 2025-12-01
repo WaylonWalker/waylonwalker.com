@@ -27,7 +27,7 @@ These are mostly my notes to remind myself, I'd Highly reccomend watching
 When I started running `sudo snapper -c root create-config /`  I ran into the
 following error.
 
-![snapshots-already-exists](https://screenshots.waylonwalker.com/snapshots-already-exists.webp)
+![snapshots-already-exists.webp](https://dropper.wayl.one/api/file/689b85ad-aa94-44d2-a05b-111de5f29400.webp)
 
 ```
 Creating config failed (creating btrfs subvolume .snapshots failed since it already exists).
@@ -53,7 +53,7 @@ sudo snapper -c home create-config /home
 sudo btrfs subvolume list /
 ```
 
-![btrfs-subvolume-list](https://screenshots.waylonwalker.com/btrfs-subvolume-list.webp)
+![btrfs-subvolume-list.webp](https://dropper.wayl.one/api/file/dbd2e2ee-3bd7-47a3-a808-578f96d3d6d4.webp)
 
 ``` bash
 sudo btrfs subvolume delete /.snapshots
@@ -78,7 +78,7 @@ lsblk
 
 You should now see `.snapshots` in mountpoints.
 
-![lsblk-snapshots](https://screenshots.waylonwalker.com/lsblk-snapshots.webp)
+![lsblk-snapshots.webp](https://dropper.wayl.one/api/file/c551d2be-0441-4dc7-8ee5-6ba600faa126.webp)
 
 ## Setting the default to @
 
@@ -89,7 +89,7 @@ sudo btrfs subvol get-default /
 sudo btrfs subvol list /
 ```
 
-![btrfs-subvol-get-default](https://screenshots.waylonwalker.com/btrfs-subvol-get-default.webp)
+![btrfs-subvol-get-default.webp](https://dropper.wayl.one/api/file/231bb2a9-1679-4c42-9fd9-1fa6d7490cb2.webp)
 
 ``` bash
 sudo btrfs subvol set-default 256 /
@@ -97,7 +97,7 @@ sudo btrfs subvol get-default /
 ## ID 256 gen 105268 top level 5 path @
 ```
 
-![btrfs-subvol-set-default]( https://screenshots.waylonwalker.com/btrfs-subvol-set-default.webp )
+![btrfs-subvol-set-default.webp](https://dropper.wayl.one/api/file/1780cbfe-0c71-432e-bef6-00db6a7d9563.webp)
 
 ## snapper ls
 
@@ -105,7 +105,7 @@ sudo btrfs subvol get-default /
 sudo snapper ls
 ```
 
-![snapper-ls-init](https://screenshots.waylonwalker.com/snapper-ls-init.webp)
+![snapper-ls-init.webp](https://dropper.wayl.one/api/file/24741b02-db31-41fe-957b-6eec2600db2b.webp)
 
 leaving off for now
 

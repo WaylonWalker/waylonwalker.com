@@ -1,6 +1,9 @@
 ---
 date: 2022-01-25 02:36:52.632437
 templateKey: gratitude
+tags:
+  - gratitude
+
 title: Gratitude 131
 
 ---

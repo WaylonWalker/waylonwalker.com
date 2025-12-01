@@ -57,7 +57,7 @@ presented with the glances webui.
 
 ## Links
 
-* [pipx](https://pypa.github.io/pipx/)
+* [pipx](https://pipx.pypa.io/stable/)
 * [website](https://nicolargo.github.io/glances/)
 * [docs](https://glances.readthedocs.io/en/latest/index.html)
 * [github](https://github.com/nicolargo/glances)

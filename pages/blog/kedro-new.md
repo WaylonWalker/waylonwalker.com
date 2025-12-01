@@ -7,14 +7,14 @@ published: true
 
 ---
 
-https://youtu.be/uqiv5LAiJe0
+[https://youtu.be/uqiv5LAiJe0](https://youtu.be/uqiv5LAiJe0){.youtube-embed}
 
 Kedro new is simply a wrapper around the cookiecutter templating library.  The
 kedro team maintains a ready made template that has everything you need for a
 kedro project.  They also maintain a few kedro starters, which are very similar
 to the base template.
 
-https://waylonwalker.com/what-is-kedro/
+[[ what-is-kedro ]]
 
 > Unsure what kedro is, Check out yesterdays post on What is Kedro.
 
@@ -78,6 +78,6 @@ very specific version.
 pipx run --spec kedro==0.16.6 kedro new
 ```
 
-https://waylonwalker.com/kedro-environment/
+[[ kedro-environment ]]
 
 > The next post in this series will help you create your virtual environment for your new kedro project.

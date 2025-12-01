@@ -4,8 +4,6 @@ templateKey: til
 title: Python's Dict Union Operator | Pep 584
 tags:
   - python
-  - python
-  - python
 
 ---
 
@@ -40,8 +38,7 @@ print(config)
 # {'url': 'https://waylonwalker.com', 'assets_dir': 'static'}
 ```
 
-
-https://waylonwalker.com/python-args-kwargs/
+[[ python-args-kwargs ]]
 
 > More on unpacking in this post.
 

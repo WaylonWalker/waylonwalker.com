@@ -1,6 +1,9 @@
 ---
 date: 2022-02-03 03:28:01.800544
 templateKey: gratitude
+tags:
+  - gratitude
+
 title: Gratitude 140
 
 ---
@@ -21,4 +24,4 @@ enjoying the fruits of Rhiannon's hard work.  We made a really awesome igloo in
 the pile of snow that turned into a tunnel through the pile.  He was super
 impressed and was had a ton of fun playing it.
 
-[![Wyatt in the snow tunnel](https://images.waylonwalker.com/wyatt-snow-tunnel-2022.webp)](https://images.waylonwalker.com/wyatt-snow-tunnel-2022-full.webp)
+![Wyatt in the snow tunnel](https://dropper.wayl.one/api/file/21b2b1fe-4e54-4243-98f1-c177c6658a98.png)

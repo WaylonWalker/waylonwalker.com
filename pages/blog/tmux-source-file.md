@@ -7,7 +7,7 @@ published: true
 
 ---
 
-https://youtu.be/dDq0depPrTs
+[https://youtu.be/dDq0depPrTs](https://youtu.be/dDq0depPrTs){.youtube-embed}
 
 So you have been tricking out that `.tmux.conf`, you're looking for a silky
 smooth workflow that lets you fly through tmux with super speed, but every time
@@ -34,7 +34,6 @@ It also works from the tmux command line.
 source-file ~/.tmux.conf
 ```
 
-
 ## tmux hotkey
 
 It's very common to set this up as a keybinding so that you can do it easily
@@ -57,10 +56,9 @@ autocmd bufwritepost .tmux.conf execute ':!tmux source-file %'
 autocmd bufwritepost .tmux.local.conf execute ':!tmux source-file %'
 ```
 
-https://waylonwalker.com/tmux-nav-2021/
+[[ tmux-nav-2021 ]]
 
 > for more information on how I navigate tmux, check out this full post
-
 
 Also check out the full YouTube
 [tmux-playlist](https://www.youtube.com/playlist?list=PLTRNG6WIHETB4reAxbWza3CZeP9KL6Bkr)

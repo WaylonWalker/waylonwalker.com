@@ -1,0 +1,89 @@
+<script type="module">
+  async function enhanceGlossaryTerms() {
+    const res = await fetch('/glossary-terms.json');
+    const glossary = await res.json();
+    const postBody = document.querySelector('#post-body');
+    if (!postBody) return;
+
+    const terms = Object.keys(glossary);
+
+    const paragraphs = postBody.querySelectorAll('p');
+    for (const p of paragraphs) {
+      for (const term of terms) {
+        const slug = glossary[term];
+        const regex = new RegExp(`\\b(${term})\\b`, 'i');
+
+        // Walk direct child text nodes of the <p>
+        for (const node of Array.from(p.childNodes)) {
+          if (node.nodeType === Node.TEXT_NODE && regex.test(node.textContent)) {
+            const parts = node.textContent.split(regex);
+            const frag = document.createDocumentFragment();
+
+            for (let i = 0; i < parts.length; i++) {
+              if (i % 2 === 1) {
+                // matched term
+                const wrapper = document.createElement('span');
+                wrapper.tabIndex = 0;
+                wrapper.className =
+                  'glossary-term group cursor-help border-b border-dotted border-pink-500 inline-block relative';
+                wrapper.dataset.slug = slug;
+
+                const link = document.createElement('a');
+                link.href = `https://waylonwalker.com/glossary/${slug}`;
+                link.className = 'no-underline';
+
+                const tooltip = document.createElement('span');
+                tooltip.className =
+                  'glossary-tooltip hidden absolute z-50 bg-white dark:bg-gray-900 text-black dark:text-white border border-gray-300 dark:border-gray-600 shadow-lg p-2 w-64 max-w-sm';
+
+                link.appendChild(document.createTextNode(parts[i]));
+                link.appendChild(tooltip);
+                wrapper.appendChild(link);
+                frag.appendChild(wrapper);
+              } else if (parts[i]) {
+                frag.appendChild(document.createTextNode(parts[i]));
+              }
+            }
+
+            // Replace the original text node with our new fragment
+            p.replaceChild(frag, node);
+            break; // only replace first occurrence per term in this paragraph
+          }
+        }
+      }
+    }
+
+    // Tooltip fetch & display logic
+    document.querySelectorAll('.glossary-term').forEach(termEl => {
+      const slug = termEl.dataset.slug;
+      const tooltip = termEl.querySelector('.glossary-tooltip');
+      let loaded = false;
+
+      async function loadTooltip() {
+        if (loaded) return;
+        try {
+          const res = await fetch(`https://waylonwalker.com/glossary/${slug}/partial/index.html`);
+          if (!res.ok) throw new Error(`Failed to load tooltip for ${slug}`);
+          tooltip.innerHTML = await res.text();
+          loaded = true;
+        } catch (err) {
+          tooltip.innerHTML = `<em>Failed to load content</em>`;
+        }
+      }
+
+      termEl.addEventListener('mouseenter', async () => {
+        await loadTooltip();
+        tooltip.classList.remove('hidden');
+      });
+      termEl.addEventListener('focus', async () => {
+        await loadTooltip();
+        tooltip.classList.remove('hidden');
+      });
+      termEl.addEventListener('mouseleave', () => tooltip.classList.add('hidden'));
+      termEl.addEventListener('blur', () => tooltip.classList.add('hidden'));
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', enhanceGlossaryTerms);
+</script>
+

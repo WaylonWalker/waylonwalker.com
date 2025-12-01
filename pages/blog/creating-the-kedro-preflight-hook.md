@@ -17,12 +17,12 @@ ability.
 
 kedro hooks are an exciting upcoming feature of kedro `0.16.0`.  They allow you to hook into `catalog_created`,`pipeline_run`, and `node_run`(nouns). With a `before`, or `after` (adjective).  This really reminds me of reacts lifecycle hooks, that let you hook into various state of react web components.  This is going to make kedro so extendable by the community.  I am super pumped to see what the community is able to do with this ability.
 
-
-https://waylonwalker.com/what-is-kedro/
+[[ what-is-kedro ]]
 
 > If you are completely unsure what kedro is be sure to check out my what is kedro post
 
 ## Docs
+
 _a work in progress_
 
 As this is a part of an upcoming release you will need to look in the `latest` docs, **not** `stable` and you will find a [15_hoooks](https://kedro.readthedocs.io/en/stable/07_extend_kedro/02_hooks.html) page.  As these docs are still in development they are not very complete at this point and do require a bit more existing `kedro` knowledge to understand.  I am sure they will get much better as we approach the realease of hooks.
@@ -30,6 +30,7 @@ As this is a part of an upcoming release you will need to look in the `latest` d
 > This doesn't mean that we can't still install the latest/unstable version and have some fun learning!
 
 ## Installation
+
 _Straight from GitHub_
 
 As this is part of an upcoming release you will need to get the library straight from github.  Since this is not a stable release of `kedro` I cannot express the importance of using a virtual environment enough.  Trying to install this version in the same place that you are trying to develop a pipeline potentially break your existing working development environment.
@@ -37,7 +38,7 @@ As this is part of an upcoming release you will need to get the library straight
 ``` bash
 conda create -n kedro0160 -y
 conda activate kedro0160 # may also be source activate kedro0160 or activate kedro0160
-pip install git+https://github.com/quantumblacklabs/kedro.git
+pip install git+https://github.com/kedro-org/kedro.git
 pip install colorama
 ```
 
@@ -46,11 +47,13 @@ pip install colorama
 ## Create a sample project
 
 > ### Kedro new
+>
 > For more details check out my full post on [kedro new](https://waylonwalker.com/create-new-kedro-project/)
 
 For this post I really just want a working pipeline as fast as possible.  For this I am going to use iris pipeline that is generated from the `kedro new` command in the cli.  It's **important** that you answer `y` to create an example pipeline.
 
 > ### Hold On ✋
+>
 > Did you create a separate environment for this?  Please do.
 
 ``` bash
@@ -102,6 +105,7 @@ Before we start developing any hooks lets make sure everything is setup correctl
 ``` bash
 kedro run
 ```
+
 ## Let's make a hook
 
 _getting to the meat of the post_
@@ -123,8 +127,8 @@ Now that we have a project scaffolded up and running we can develop a hook for i
 > `after_node_run`
 
 ## debug_hook (class)
-_quick and dirty_
 
+_quick and dirty_
 
 I highly recommend this as your first hook.  It's super easy to make and lets you explore the arguments passed into the hook.  For this one I am going to pop the following class right into `kedro-hooks/src/kedro-hooks/run.py`, remember that I chose `kedro-hooks` as my project name.  Your path might be slightly different.  If you wanted to make a real hook it might make sense to put it in its own module, but for simplicity of your first hook you can put it directly in the same module that it gets implemented.
 
@@ -136,7 +140,6 @@ class debug_hook:
         print('I hooked in right before the pipeline run')
         breakpoint()
 ```
-
 
 It is really that easy to create a kedro hook!  Now lets apply it to our project.  All we need to do is add one line (`hooks = [debug_hook]`) to the existing `ProjectContext` class within `kedro-hooks/src/kedro-hooks/run.py`.  Once we do that our `ProjectContext` will look like this.
 
@@ -159,12 +162,11 @@ class ProjectContext(KedroContext):
 
 Run it!  While you are in the debugger, explore what the `run_params`, `pipeine`, and `catalog` arguments give you.  This will give you some insight to what to expect when creating your next hook.
 
-
 ## preflight hook (module)
+
 _giving it a bit more flair_
 
 Create a new file `kedro-hooks/src/kedro-hooks/preflight.py` and place the following content into the file.  This will raise a `DataSetNotFoundError` before wasting time running any of the pipeline.  This could be useful to save some developer time for long running pipelines by warning them that they don't have all of the raw data they need before running.
-
 
 ``` python
 # kedro-hooks/src/kedro-hooks/preflight.py
@@ -189,12 +191,13 @@ def before_pipeline_run(run_params, pipeline, catalog):
 Once we are happy with this hook, it can live anywhere.  It can be a module inside our project.  It can be a separate libarary that gets handed out as a back ally wheel, or we can even publish it as its own package to pypi so that anyone can easily pip install it.
 
 ### One Step Back
+
 _a bit of explanation of preflight_
 
 If you are not familiar, `pipeline.inputs()` gives us all of the edge inputs into the pipeline.  kedro does also have a `pipeline.all_inputs()` that tells us all of the edge and internal pipeline inputs that will be called throughout the pipeline run.  For this hook we are just concerned with the edge inputs as internal inputs will be generated during the run.
 
 Also each one of the kedro datasets have an `_exists()` method attached to them to check if the dataset exists or not.  For a more robust implementation of `preflight` it would probably be best to ignore `AttributeError`s, i.e the dataset type does not have an implementation of `_exists`.  It would probably also be a good idea to filter for types such as `SQLQueryDataSet`s that assume `_exists` is False by default.
 
-##  Ideas
+## Ideas
 
 Now that the juices are flowing what ideas do you have for `kedro` hooks?

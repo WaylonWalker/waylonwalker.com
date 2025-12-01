@@ -15,28 +15,25 @@ live feedback to what is changing. Today I was watching Josh Branchaud's
 Vim-Unalphabet series on Youtuve and realized that his vim was doing this and I
 had to have it.
 
-https://twitter.com/_WaylonWalker/status/1346081617199198210
+<https://twitter.com/_WaylonWalker/status/1346081617199198210>
 
+## How to do it
 
-## How to do it.
-
-I had to do a bit of searching and found a great post from [vimcasts](http://vimcasts.org/episodes/neovim-eyecandy/) that shows exactly how to get the live search and replace highlighting using `inccomand`
-
+I had to do a bit of searching and found a great post from [vimcasts](https://vimcasts.org/episodes/neovim-eyecandy/) that shows exactly how to get the live search and replace highlighting using `inccomand`
 
 ## :h inccommand
 
-
 ``` vim
-'inccommand' 'icm'	string	(default "")
-			global
+'inccommand' 'icm' string (default "")
+   global
 
-	"nosplit": Shows the effects of a command incrementally, as you type.
-	"split"	 : Also shows partial off-screen results in a preview window.
+ "nosplit": Shows the effects of a command incrementally, as you type.
+ "split"  : Also shows partial off-screen results in a preview window.
 
-	Works for |:substitute|, |:smagic|, |:snomagic|. |hl-Substitute|
+ Works for |:substitute|, |:smagic|, |:snomagic|. |hl-Substitute|
 
-	If the preview is too slow (exceeds 'redrawtime') then 'inccommand' is
-	automatically disabled until |Command-line-mode| is done.
+ If the preview is too slow (exceeds 'redrawtime') then 'inccommand' is
+ automatically disabled until |Command-line-mode| is done.
 
 ```
 
@@ -60,4 +57,4 @@ substitution](https://images.waylonwalker.com/nvim-live-substitute-inccommand.gi
 
 Check out Josh Branchaud's great series on the Vim-Unalphabet.
 
-https://www.youtube.com/watch?v=5jMiYtXz2QA
+<https://www.youtube.com/watch?v=5jMiYtXz2QA>

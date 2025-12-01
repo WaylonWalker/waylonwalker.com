@@ -1,0 +1,81 @@
+{# safe defaults, avoid None #}
+{% set img = post.image|default('', true) %}
+{% set li = img|lower %}
+{% set is_priority = priority|default(false) %}
+
+{# suffix checks via slicing; no methods, no split #}
+{% set is_mp4  = li[-4:] == '.mp4' %}
+{% set is_webm = li[-5:] == '.webm' %}
+{% set is_avi  = li[-4:] == '.avi' %}
+{% set is_mov  = li[-4:] == '.mov' %}
+{% set is_mkv  = li[-4:] == '.mkv' %}
+
+{% set is_video = is_mp4 or is_webm or is_avi or is_mov or is_mkv %}
+
+<li class="group {{ post.templatekey }} h-entry hentry {{ post.card_classes }}">
+<a href="/{{ markata.config.path_prefix }}{{ post.slug }}/"
+    class="u-url"
+    rel="bookmark"
+    hx-boost="true"
+    aria-label="{{ post.description|default(post.title, true)|default('', true)|e }}"
+  >
+
+
+  {# only add width=250 for images from dropper #}
+  {% if img.startswith('https://dropper.wayl.one') %}
+    {% if '?' in img %}
+      {% set img = img ~ '&width=320' %}
+      {% else %}
+      {% set img = img ~ '?width=320' %}
+    {% endif %}
+  {% endif %}
+
+  {% if is_video %}
+    {% set mime =
+      'video/mp4' if is_mp4 else
+      'video/webm' if is_webm else
+      'video/x-msvideo' if is_avi else
+      'video/quicktime' if is_mov else
+      'video/x-matroska'
+    %}
+    <p>
+      <video
+        autoplay
+        loop
+        muted
+        playsinline
+        controls
+        class="aspect-square object-cover"
+        aria-hidden="true"
+        {% if is_priority %}
+          preload="auto"
+          fetchpriority="high"
+        {% else %}
+          preload="metadata"
+        {% endif %}
+        >
+        <source src="{{ img }}" type="{{ mime }}">
+        your browser does not support the video tag.
+      </video>
+    </p>
+  {% else %}
+    {% set alt_text = post.description|default(post.title, true)|default('', true) %}
+    <img
+      title="{{ post.title|e }}"
+      alt="{{ alt_text|e }}"
+      src="{{ img }}"
+      decoding="async"
+      class="aspect-square object-cover"
+      {% if is_priority %}
+        loading="eager"
+        fetchpriority="high"
+      {% else %}
+        loading="lazy"
+      {% endif %}
+    >
+    <noscript><img title="{{ post.title|e }}" alt="{{ alt_text|e }}" src="{{ img }}"></noscript>
+  {% endif %}
+
+</a>
+</li>
+

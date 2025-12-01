@@ -10,7 +10,14 @@ tags:
 
 ## inspiration
 
-<https://blog.ostermiller.org/removing-and-purging-files-from-git-history/>
+My original inspiration for this post came from steven ostermiller's blog post
+that no longer exists from my last check in May, 2024.
+
+[https://blog.ostermiller.org/removing-and-purging-files-from-git-history/](https://blog.ostermiller.org/removing-and-purging-files-from-git-history/){.hoverlink}
+
+I was able to find it on the way back machine though.
+
+[https://web.archive.org/web/20240222195617/https://blog.ostermiller.org/removing-and-purging-files-from-git-history/](https://web.archive.org/web/20240222195617/https://blog.ostermiller.org/removing-and-purging-files-from-git-history/)
 
 ```bash
 git log --all --pretty=format: --name-only --diff-filter=D | sed -r 's|[^/]+$||g' | sort -u

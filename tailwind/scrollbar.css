@@ -1,0 +1,19 @@
+::-webkit-scrollbar {
+  @apply h-4 w-4;
+}
+
+::-webkit-scrollbar-track {
+  @apply rounded-sm rounded-full bg-zinc-900;
+}
+
+body::-webkit-scrollbar-track {
+  @apply rounded-sm rounded-full bg-zinc-800;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply rounded-sm rounded-full bg-zinc-600 hover:bg-zinc-500;
+}
+
+body::-webkit-scrollbar-thumb {
+  @apply rounded-sm rounded-full bg-zinc-600 hover:bg-zinc-500;
+}

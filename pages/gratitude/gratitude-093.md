@@ -1,6 +1,8 @@
 ---
 date: 2019-05-20
 templateKey: gratitude
+tags:
+  - gratitude
 ---
 
 ### Wyatt Graduated OT

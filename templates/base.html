@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="icon" href="/8bitcc.ico" type="image/png" />
+        <meta name="og:type" content="website" />
+        <title>{{post.title|e}}</title>
+        {% include 'head.html' %}
+        {% include 'avatar.html' %}
+        {% include 'mermaid.html' %}
+        {% include 'glossary.html' %}
+        {% include 'chartjs.html' %}
+        <script src="/admonition.js" defer></script>
+        <script src="/fragmention.min.js"></script>
+        <script src="/htmx.min.js" defer></script>
+        <script src="https://unpkg.com/@popperjs/core@2" defer></script>
+        <script src="https://unpkg.com/tippy.js@6" defer></script>
+        <script>
+            document.addEventListener("mouseup", function () {
+                const selectedText = window.getSelection().toString().trim().replace(/\s+/g, "+");
+                console.log(selectedText);
+                if (!selectedText) return;
+                history.replaceState(null, "", `${window.location.pathname}##${selectedText}`);
+            });
+        </script>
+        <script>
+            navigator.serviceWorker.getRegistrations().then(function (registrations) {
+                for (let registration of registrations) {
+                    registration.unregister();
+                }
+            });
+
+        </script>
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "WebPage",
+                "name": "{{post.title|e}}",
+                "headline": "{{post.title|e}}",
+                "datePublished": "{{post.date}}",
+                "dateModified": "{{post.date}}",
+                "author": {
+                    "@type": "Person",
+                    "name": "Waylon Walker",
+                    "url": "https://waylonwalker.com"
+                },
+                "image": [
+                    "https://shots.wayl.one/shot/?url={{ config.url }}{{ slug }}/og/&height=600&width=1200&scaled_width=1200&scaled_height=600"
+                ],
+                "speakable":
+                {
+                    "@type": "SpeakableSpecification",
+                    "cssSelector": [
+                        "#title",
+                        "#post-body"
+                    ]
+                },
+                "url": "{{config.url}}{{slug}}"
+            }
+        </script>
+    </head>
+    <body position="relative">
+        <div class="dubs">
+            {% block content %}{% endblock %}
+        </div>
+    </body>
+
+</html>

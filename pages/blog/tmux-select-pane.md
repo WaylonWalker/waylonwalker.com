@@ -7,7 +7,7 @@ published: true
 
 ---
 
-https://youtu.be/CPZJZjN9YTY
+[https://youtu.be/CPZJZjN9YTY](https://youtu.be/CPZJZjN9YTY){.youtube-embed}
 
 These are my MOST often used keybindings that I use in tmux.  They allow me to
 jump between splits with ease with a vim style layout.  I can hold mod and jump
@@ -20,6 +20,6 @@ bind -n M-k select-pane -U
 bind -n M-j select-pane -D
 ```
 
-https://waylonwalker.com/tmux-nav-2021/
+[[ tmux-nav-2021 ]]
 
 > for more information on how I navigate tmux, check out this full post

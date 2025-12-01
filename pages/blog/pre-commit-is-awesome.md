@@ -195,7 +195,7 @@ Sometimes you have a CLI tool that you want to run, but there is no plugin. No w
     - repo: local
       hooks:
           - id: interrogate
-   		  name: "Interrogate docstring coverage check"
+       name: "Interrogate docstring coverage check"
           types: [file, python]
           entry: interrogate -f 100 -vv
 ```
@@ -203,5 +203,3 @@ Sometimes you have a CLI tool that you want to run, but there is no plugin. No w
 ***
 
 I have been writing short snippets about my mentality breaking into the tech/data industry in my newsletter, 👇 check it out and lets get the conversation started.
-
-[![Sign up for my Newsletter](https://images.waylonwalker.com/waylon-walker-newsletter.png)](https://emailoctopus.com/lists/b194a4af-9875-11ea-a3d0-06b4694bee2a/forms/subscribe)

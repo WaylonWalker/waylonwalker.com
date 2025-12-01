@@ -22,4 +22,4 @@ config_overrides:
 
 ---
 
-![creating a new app called polls](https://screenshots.waylonwalker.com/djangopolls-startapp.png)
+![djangopolls-startapp.png](https://dropper.wayl.one/api/file/388f4342-8623-4ac7-9b4b-1d63cd82d2ad.png)

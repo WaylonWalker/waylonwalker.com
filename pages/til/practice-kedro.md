@@ -15,8 +15,7 @@ saying that you need to spend all your free time practicing, but a few
 minutes trying new things can go a long way in how you understand what
 you are doing and make a hue impact on your long term productivity.
 
-
-https://waylonwalker.com/what-is-kedro/
+[[ what-is-kedro ]]
 
 ## Start practicing
 
@@ -53,7 +52,7 @@ pipx run kedro new
 
 > I use this quite often to try out new things in a safe place.
 
-## Make a virtual environment.
+## Make a virtual environment
 
 ### Using Conda
 
