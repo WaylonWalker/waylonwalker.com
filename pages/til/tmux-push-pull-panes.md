@@ -2,7 +2,7 @@
 date: 2022-12-04 13:25:54
 templateKey: til
 title: tmux push/pull panes
-status: 'draft'
+published: true
 tags:
   - cli
   - tmux
