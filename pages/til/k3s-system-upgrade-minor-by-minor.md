@@ -67,3 +67,6 @@ spec:
     image: rancher/k3s-upgrade
   channel: https://update.k3s.io/v1-release/channels/v1.33
 ```
+
+I'd love to see a better way if you have a way to upgrade through minors, or
+manually control the minor of your cluster let me know.
