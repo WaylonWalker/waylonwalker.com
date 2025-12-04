@@ -10,7 +10,9 @@ published: True
 
 I have several feeds that you can consume my content with.  Many posts will
 cross between them, so if you would like to follow a certain stream of content
-in your rss reader thats what this is for.
+in your rss reader thats what this is for. This one might feel like it has some
+extra noise with multiple posts per day, including starts, and instagram style
+posts, for a bit less look at the [[ main ]] feed.
 
 !!! Note TLDR
     If you are looking for everything look here <https://waylonwalker.com/archive/rss.xml>
@@ -21,6 +23,15 @@ This is a feed of everything that I have published on my site to date.
 
 * [web](https://waylonwalker.com/published)
 * [rss](https://waylonwalker.com/published/rss.xml)
+
+## Main
+
+Like the All feed, but drops the shots (instagram style posts) and stars
+(github stars).
+
+
+* [web](https://waylonwalker.com/main)
+* [rss](https://waylonwalker.com/main/rss.xml)
 
 ## til - daily(ish)
 

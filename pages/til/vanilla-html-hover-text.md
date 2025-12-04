@@ -4,7 +4,7 @@ templateKey: til
 title: vanilla html hover text
 published: true
 tags:
-  - python
+  - html
 
 ---
 
