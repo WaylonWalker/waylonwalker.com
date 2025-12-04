@@ -448,7 +448,7 @@ description = 'A feed of my thoughts of links from the internet originally poste
 [[markata.feeds]]
 slug = 'archive'
 # dropper needs to have a smaller image size
-filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts', 'stars', 'daily', 'shots'] and published and 'family' not in tags"
+filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts', 'stars', 'daily', 'shots', 'ping'] and published and 'family' not in tags"
 # filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts', 'stars', 'daily'] and published and 'family' not in tags"
 sort = "date"
 reverse = true
@@ -456,28 +456,28 @@ description = 'The main feed of all my main posts'
 
 [[markata.feeds]]
 slug = 'pagefind'
-filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts', 'stars'] and published"
+filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts', 'stars', 'ping'] and published"
 sort = "date"
 reverse = true
 description = 'A feed for pagefind search to use for searching the site.'
 
 [[markata.feeds]]
 slug = 'published'
-filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts', 'stars'] and published"
+filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts', 'stars', 'ping'] and published"
 sort = "date"
 reverse = true
 description = 'The main feed of all my main posts'
 
 [[markata.feeds]]
 slug = 'lasthirty'
-filter = "date<today and date>today-timedelta(days=30) and templateKey in ['blog-post', 'til', 'thoughts'] and published"
+filter = "date<today and date>today-timedelta(days=30) and templateKey in ['blog-post', 'til', 'thoughts', 'ping'] and published"
 sort = "date"
 reverse = true
 description = 'The main feed of the last thirty days of my main posts'
 
 [[markata.feeds]]
 slug = 'recent'
-filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts'] and published"
+filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts', 'ping'] and published"
 head = 10
 sort = "date"
 reverse = true
@@ -497,7 +497,7 @@ description = "The last 10 thoughts (comments) I've written to other people"
 
 [[markata.feeds]]
 slug = 'recently-written'
-filter = "date<=today and templateKey in ['blog-post', 'til'] and published"
+filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts', 'ping'] and published"
 head = 10
 sort = "date"
 reverse = true
@@ -521,7 +521,7 @@ description = 'The main feed of all my full blog posts'
 
 [[markata.feeds]]
 slug = 'draft'
-filter = "(not published or date>today) and templateKey in ['blog-post', 'til', 'thoughts']"
+filter = "(not published or date>today) and templateKey in ['blog-post', 'til', 'thoughts', 'ping']"
 sort = "date"
 reverse = true
 description = 'A feed of all my draft posts'
@@ -2789,6 +2789,14 @@ sort = "date"
 reverse = true
 description = 'A feed of all my shots, inspired by https://justin.searls.co/shots/'
 card_template='image-card.html'
+
+[[markata.feeds]]
+title = 'Pings'
+slug = 'pings'
+filter = "date<=today and templateKey in ['ping'] and 'family' not in tags"
+sort = "date"
+reverse = true
+description = 'A feed of all my pings, short social media style posts.'
 
 [[markata.feeds]]
 title = 'Famlily Shots'
