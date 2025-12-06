@@ -463,7 +463,7 @@ description = 'A feed for pagefind search to use for searching the site.'
 
 [[markata.feeds]]
 slug = 'published'
-filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts', 'stars', 'ping'] and published"
+filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts', 'stars', 'shots', 'ping'] and published"
 sort = "date"
 reverse = true
 description = 'The main feed of all my main posts'
