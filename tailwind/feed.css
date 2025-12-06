@@ -39,7 +39,6 @@
 }
 
 #posts .thoughts p {
-  @apply text-lg;
 }
 
 #posts .blog-post h2 {
@@ -77,6 +76,27 @@
   /* @apply bg-pink-900; */
 
   @apply rounded-sm;
+}
+
+#posts .ping {
+  @apply bg-pink-500/3;
+  @apply col-span-4;
+  @apply rounded-xl;
+  @apply border-l-4 border-pink-600/50;
+  @apply my-4;
+}
+
+#posts .ping p {
+  @apply m-0;
+}
+
+#posts .ping .card-footer {
+  @apply py-0;
+}
+
+
+#posts .ping h2 {
+  @apply hidden;
 }
 
 #posts .blog-post {

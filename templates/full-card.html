@@ -20,9 +20,9 @@
         {{post['article_html']}}
 
         <div class="card-footer">
-            <p rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
+            <div rel="category tag" class="p-category m-0 p-0 text-white/60 group-hover:text-white">
                 {{post.templateKey.replace('til', 'TIL: Today I Learned')}}
-            </p>
+            </div>
             <time class="dt-published published m-0 p-0 text-white/60 group-hover:text-white"
                   datetime="{{ post.date }}">
                 {{ post.date.year }}-{{ post.date.month }}-{{ post.date.day }}

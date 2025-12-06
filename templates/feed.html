@@ -6,17 +6,24 @@
     <p class='max-w-md text-center mx-auto'>{{ feed.config.description }}</p>
     <ul class="archive-tags">
         <li>
-            <a href="/python/" hx-boost="true"> python </a>
+            <a href="/archive/" hx-boost="true"> All </a>
         </li>
         <li>
-            <a href="/linux/" hx-boost="true"> linux </a>
+            <a href='/til/' hx-boost="true"> TIL </a>
         </li>
         <li>
-            <a href="/vim/" hx-boost="true"> vim </a>
+            <a href="/shots/" hx-boost="true"> Shots </a>
         </li>
         <li>
-            <a href="/kedro/" hx-boost="true"> kedro </a>
+            <a href='/pings/' hx-boost="true"> Pings </a>
         </li>
+        <li>
+            <a href='/thoughts/' hx-boost="true"> Thoughts </a>
+        </li>
+        <li>
+            <a href='/feeds/' hx-boost="true"> Feeds </a>
+        </li>
+
     </ul>
     {% include 'feed_partial.html' %}
     {% include 'footer.html' %}
