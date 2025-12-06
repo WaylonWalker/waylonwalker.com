@@ -14,6 +14,8 @@ Running kubernetes in your homelab is complex, time consuming, there are almost
 no docs to help you (homelab focused docs for things you want to install), and
 nothing is copy paste.  You have to make everything happen yourself.
 
+## The Wrong Reasons To Run Kubernetes In Your Homelab
+
 * I run compose and think kubernets is the next logical step
 * Techno Tim runs it
 * I heard it's what cool kids do
