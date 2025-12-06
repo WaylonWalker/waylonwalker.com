@@ -4,6 +4,7 @@ templateKey: shots
 title: Sledding 2025 - Call My Boss
 tags:
   - shots
+  - family
 published: True
 slug: shots/sledding-2025---call-my-boss
 image: https://dropper.wayl.one/file/9eaa8b16-1055-4706-bdea-f1208c6a612e.mp4

@@ -4,6 +4,7 @@ templateKey: shots
 title: 2025 Holiday Diarama 1
 tags:
   - shots
+  - family
 published: True
 slug: shots/2025-holiday-diarama-1
 image: https://dropper.wayl.one/file/747843cc-2952-4c0c-af28-c7b4f7297253.webp

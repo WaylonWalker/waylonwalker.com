@@ -4,6 +4,7 @@ templateKey: shots
 title: 2025-Holiday-Diarama-2
 tags:
   - shots
+  - family
 published: True
 slug: shots/2025-holiday-diarama-2
 image: https://dropper.wayl.one/file/9c78b29c-6d53-493d-913e-028a346b4129.webp
