@@ -63,9 +63,9 @@ from __future__ import annotations
 from typing import Any, Dict, Union
 
 import pydantic
-from bs4 import BeautifulSoup
-from bs4.element import Tag
 from markata.hookspec import hook_impl, register_attr
+from lxml import html as lxml_html
+from lxml.etree import _Element as LxmlElement  # type: ignore[attr-defined]
 
 MARKATA_PLUGIN_NAME = "Dropper Media Wrapper"
 MARKATA_PLUGIN_PACKAGE_NAME = "dropper-media-wrapper"
@@ -97,33 +97,30 @@ class Config(pydantic.BaseModel):
 @register_attr("config_models")
 def config_model(markata: "Markata") -> None:  # type: ignore[name-defined]
     """Register the plugin's config model with Markata."""
-
     markata.config_models.append(Config)
 
 
-def _find_video_media_tag(video: Tag, base_url: str) -> tuple[str | None, Tag | None]:
-    """Find the effective media URL for a `<video>` tag.
-
-    Preference order:
-    1. First `<source>` child whose `src` starts with `base_url`.
-    2. The `<video>`'s own `src` attribute, if present and matching.
-
-    Returns a tuple of `(src, tag_with_src)` where `tag_with_src` is the
-    element whose `src` attribute should be updated (either the `<source>` or
-    the `<video>` itself). If no matching URL is found, returns `(None, None)`.
+def _find_video_media_tag_lxml(
+    video: LxmlElement,
+    base_url: str,
+) -> tuple[str | None, LxmlElement | None]:
     """
+    For an <video> element, find the effective media URL and the element
+    whose src should be updated.
 
+    Preference:
+    1. First <source> child with src starting with base_url
+    2. <video src="..."> if present and starting with base_url
+    """
     base_url = base_url.rstrip("/")
 
-    # Prefer <source> children
-    for source in video.find_all("source", recursive=False):
-        if not isinstance(source, Tag):  # pragma: no cover - defensive
-            continue
+    # 1) Prefer direct <source> children (no deep recursion)
+    for source in video.xpath("./source[@src]"):
         src = source.get("src")
         if src and src.startswith(base_url):
             return src, source
 
-    # Fallback to <video src="..."> if present
+    # 2) Fallback to <video src="...">
     src = video.get("src")
     if src and src.startswith(base_url):
         return src, video
@@ -131,104 +128,142 @@ def _find_video_media_tag(video: Tag, base_url: str) -> tuple[str | None, Tag | 
     return None, None
 
 
-def _wrap_dropper_media_in_links(
+def _wrap_dropper_media_in_links_lxml(
     html: str,
     *,
     base_url: str,
     default_width: int,
 ) -> str:
-    """Wrap Dropper `<img>`/`<video>` tags in anchors and size them.
+    """
+    Faster implementation using lxml instead of BeautifulSoup.
 
-    - Only touches media whose URL begins with `base_url`.
-      - For `<img>`, this is the `src` on the `<img>` itself.
-      - For `<video>`, this can be either the `src` on `<video>` or the `src`
-        of the first `<source>` child within the `<video>`.
-    - Wraps each `<img>` / `<video>` in an `<a>` to the original (pre-sized)
-      URL.
-    - Adds `?width=default_width` to the media URL when no query string exists.
-    - Adds `data-dropper-*` attributes for debugging.
+    - Only parses if base_url is present at all.
+    - Finds <img> with src starting with base_url.
+    - Finds <video> that either:
+      * has src starting with base_url, or
+      * has a <source> child whose src starts with base_url.
+    - Wraps media in <a> to original URL, adds ?width=default_width if needed.
     """
 
     if not html:
         return html
 
-    soup = BeautifulSoup(html, "html.parser")
+    # Fast skip: if no Dropper URLs, don't parse at all.
+    if base_url not in html:
+        return html
 
-    # Normalise base_url: we only care about prefix matching
     base_url = base_url.rstrip("/")
 
-    # Only affect <img> and <video> elements
-    for node in soup.find_all(["img", "video"]):
-        if not isinstance(node, Tag):  # pragma: no cover - defensive
+    try:
+        doc = lxml_html.fromstring(html)
+    except Exception:
+        # If parsing fails, don't kill the build – just return original.
+        return html
+
+    # --- Handle <img> elements ---
+    # XPath: all img with src starting with base_url
+    img_nodes: list[LxmlElement] = doc.xpath(
+        f"//img[starts-with(@src, '{base_url}')]"
+    )
+
+    for img in img_nodes:
+        media_url = img.get("src")
+        if not media_url:
             continue
 
-        media_url: str | None
-        media_tag: Tag
+        original_href = media_url
 
-        if node.name == "img":
-            media_url = node.get("src")
-            media_tag = node
-        else:  # node.name == "video"
-            media_url, media_tag_or_none = _find_video_media_tag(node, base_url)
-            if media_tag_or_none is None:
-                # No matching <source> or <video src> with our base_url
-                continue
-            media_tag = media_tag_or_none
-
-        if not media_url or not media_url.startswith(base_url):
-            continue
-
-        original_href = media_url  # what we link to
-
-        # Ensure width query param only if there is no existing query
+        # Decide width handling
         if "?" in media_url:
-            node["data-dropper-width"] = "existing-query"
+            img.set("data-dropper-width", "existing-query")
         else:
             if default_width:
                 sized_src = f"{media_url}?width={int(default_width)}"
-                media_tag["src"] = sized_src
-                node["data-dropper-width"] = "added"
+                img.set("src", sized_src)
+                img.set("data-dropper-width", "added")
             else:
-                node["data-dropper-width"] = "no-default"
+                img.set("data-dropper-width", "no-default")
 
-        # Mark the root media node (img/video) as processed
-        node["data-dropper"] = "processed"
+        img.set("data-dropper", "processed")
 
-        # Check if already inside an <a>
-        anchor_ancestor: Tag | None = None
-        parent = node.parent
-        while parent is not None and isinstance(parent, Tag):
-            if parent.name == "a":
-                anchor_ancestor = parent
-                break
-            parent = parent.parent
+        # Reuse existing <a> ancestor if present
+        anchor = next(
+            (a for a in img.iterancestors("a")),
+            None,
+        )
 
-        if anchor_ancestor is not None:
-            # Reuse existing anchor
-            anchor_ancestor["data-dropper-anchor"] = "existing"
-            if not anchor_ancestor.get("href"):
-                anchor_ancestor["href"] = original_href
-            node["data-dropper-wrap"] = "already-wrapped"
+        if anchor is not None:
+            anchor.set("data-dropper-anchor", "existing")
+            if not anchor.get("href"):
+                anchor.set("href", original_href)
+            img.set("data-dropper-wrap", "already-wrapped")
+        else:
+            # Wrap in new <a>
+            new_anchor = lxml_html.Element("a", href=original_href)
+            new_anchor.set("data-dropper-anchor", "created")
+            img.set("data-dropper-wrap", "new-wrapper")
+
+            parent = img.getparent()
+            if parent is not None:
+                parent.replace(img, new_anchor)
+                new_anchor.append(img)
+
+    # --- Handle <video> elements ---
+    video_nodes: list[LxmlElement] = doc.xpath("//video")
+
+    for video in video_nodes:
+        media_url, media_tag = _find_video_media_tag_lxml(video, base_url)
+        if not media_url or media_tag is None:
             continue
 
-        # Create a new <a> wrapper and wrap the node in-place
-        new_anchor = soup.new_tag("a", href=original_href)
-        new_anchor["data-dropper-anchor"] = "created"
-        node["data-dropper-wrap"] = "new-wrapper"
-        node.wrap(new_anchor)
+        original_href = media_url
 
-    return str(soup)
+        # Width handling on the actual tag that holds src
+        if "?" in media_url:
+            video.set("data-dropper-width", "existing-query")
+        else:
+            if default_width:
+                sized_src = f"{media_url}?width={int(default_width)}"
+                media_tag.set("src", sized_src)
+                video.set("data-dropper-width", "added")
+            else:
+                video.set("data-dropper-width", "no-default")
+
+        # Mark root <video> as processed
+        video.set("data-dropper", "processed")
+
+        # Check if video already lives inside an <a>
+        anchor = next(
+            (a for a in video.iterancestors("a")),
+            None,
+        )
+
+        if anchor is not None:
+            anchor.set("data-dropper-anchor", "existing")
+            if not anchor.get("href"):
+                anchor.set("href", original_href)
+            video.set("data-dropper-wrap", "already-wrapped")
+        else:
+            # Create a new <a> and wrap the <video>
+            new_anchor = lxml_html.Element("a", href=original_href)
+            new_anchor.set("data-dropper-anchor", "created")
+            video.set("data-dropper-wrap", "new-wrapper")
+
+            parent = video.getparent()
+            if parent is not None:
+                parent.replace(video, new_anchor)
+                new_anchor.append(video)
+
+    # Serialize back to HTML string
+    return lxml_html.tostring(doc, encoding="unicode")
 
 
 @hook_impl
 def post_render(markata: "Markata") -> None:  # type: ignore[name-defined]
-    """After render, wrap Dropper media in anchors and add sizing.
+    """
+    After render, wrap Dropper media in anchors and add sizing.
 
-    Handles both string and dict forms of `post.html`:
-
-    - If `post.html` is a string, it is transformed directly.
-    - If `post.html` is a dict (e.g. `{"index": ..., "partial": ..., "og": ...}`),
-      each value is transformed independently.
+    Handles both string and dict forms of `post.html`.
     """
 
     cfg: DropperMediaWrapperConfig = markata.config.dropper_media_wrapper
@@ -248,6 +283,16 @@ def post_render(markata: "Markata") -> None:  # type: ignore[name-defined]
         if not html:
             continue
 
+        # String: single HTML variant
+        if isinstance(html, str):
+            post.html = _wrap_dropper_media_in_links_lxml(
+                html,
+                base_url=base_url,
+                default_width=default_width,
+            )
+            continue
+
+        # Dict of variants: {"index": ..., "partial": ...}
         if isinstance(html, dict):
             new_html: Dict[str, str] = {}
             for name, html_variant in html.items():
@@ -255,18 +300,12 @@ def post_render(markata: "Markata") -> None:  # type: ignore[name-defined]
                     new_html[name] = html_variant
                     continue
 
-                new_html[name] = _wrap_dropper_media_in_links(
+                new_html[name] = _wrap_dropper_media_in_links_lxml(
                     html_variant,
                     base_url=base_url,
                     default_width=default_width,
                 )
 
             post.html = new_html
-        elif isinstance(html, str):
-            post.html = _wrap_dropper_media_in_links(
-                html,
-                base_url=base_url,
-                default_width=default_width,
-            )
-        # Any other type is ignored silently to avoid breaking builds.
+        # Other types are ignored silently.
 
