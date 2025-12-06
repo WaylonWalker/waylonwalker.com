@@ -16,17 +16,17 @@ nothing is copy paste.  You have to make everything happen yourself.
 
 ## The Wrong Reasons To Run Kubernetes In Your Homelab
 
-* I run compose and think kubernets is the next logical step
+* I run compose and think kubernetes is the next logical step
 * Techno Tim runs it
 * I heard it's what cool kids do
 * Kubernetes BTW
-* Talos linux looks cool
-* I found a cool helm chart on github
+* Talos Linux looks cool
+* I found a cool helm chart on GitHub
 * I need scale
 
 There are also [[ the-right-reasons-to-run-kubernetes-in-your-homelab ]].
 
-## I run compose and think kubernets is the next logical step
+## I run compose and think kubernetes is the next logical step
 
 No it's not.  It's much different than running docker, compose, swarm.  It's
 meant for scale, it's complex, it's made for enterprise, not your local
@@ -46,15 +46,15 @@ Kubernetes does not make you look cool, it makes you look like you are trying
 to over optimize and over engineer your life.  It's not worth it, in fact
 nothing in life is worth worrying about what everyone else thinks of you.
 
-## Talos linux looks cool
+## Talos Linux looks cool
 
-Talos is an S tier os wherever you deploy it.  It is a secure, minimal,
-kubernetes first os.  They also have some really great people working there
-putting talos in some really cool places like
+Talos is an S tier OS wherever you deploy it.  It is a secure, minimal,
+kubernetes first OS.  They also have some really great people working there
+putting Talos in some really cool places like
 [backpack](https://justingarrison.com/blog/petaflop-cluster/) or [Apple Power
 Mac](https://justingarrison.com/cubernetes/)
 
-## I found a cool helm chart on github
+## I found a cool helm chart on GitHub
 
 No you didn't.  Everything in homelab is compose first.  A few things have a
 k8s option, but almost nothing is k8s first.
