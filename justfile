@@ -214,3 +214,5 @@ dev:
 get-fragmention:
     curl https://raw.githubusercontent.com/chapmanu/fragmentions/refs/heads/master/fragmention.min.js > static/fragmention.min.js
     curl https://raw.githubusercontent.com/kartikprabhu/fragmentioner/refs/heads/master/fragmentioner.js > static/fragmentioner.js
+get-snowfall:
+    curl -o static/snow-fall.js https://raw.githubusercontent.com/zachleat/snow-fall/refs/heads/main/snow-fall.js
