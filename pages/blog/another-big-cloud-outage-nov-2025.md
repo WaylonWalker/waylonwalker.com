@@ -4,8 +4,9 @@ templateKey: blog-post
 title: Another Big Cloud Outage Nov 2025
 published: true
 tags:
-  -
+  - cloud
 ---
+
 Today I woke up to finding out that cloudflare hade a widespread outage.  My [[Reader]] uses tailwind cdn for styles and it was down. Otherwise it was not so impactful to me and felt kike they were quick to have it up.
 
 > I'm not really researching here, just jotting thoughts down from a parking lot waiting for pickup.
