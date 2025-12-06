@@ -19,7 +19,10 @@ posts, for a bit less look at the [[ main ]] feed.
 
 ## All
 
-This is a feed of everything that I have published on my site to date.
+
+This is a feed of everything that I have published on my site to date
+including [[ blog ]], [[ til ]], [[ thoughts ]], [[ stars ]], [[ shots ]],
+[[ ping ]].
 
 * [web](https://waylonwalker.com/published)
 * [rss](https://waylonwalker.com/published/rss.xml)
@@ -35,6 +38,8 @@ Like the All feed, but drops the shots (instagram style posts) and stars
 
 ## til - daily(ish)
 
+_think gist with a tweet_
+
 This is a feed of all of my TIL's (Today I Learned).  These are generally short
 single topic posts that I write up quickly.  They are generally things that are
 fairly new to me, often things that I struggled to find support for on the
@@ -42,6 +47,25 @@ internet, and felt that It needed yet one more article with my voice.
 
 * [web](https://waylonwalker.com/til)
 * [rss](https://waylonwalker.com/til/rss.xml)
+
+## shots - daily(ish)
+
+_think Instagram_
+
+This feed is a collection of images, sometimes I post a few a day, sometimes a
+few weeks will go by, it really just depends on what I have going on.
+
+* [web](https://waylonwalker.com/shots)
+* [rss](https://waylonwalker.com/shots/rss.xml)
+
+## pings - daily(ish)
+
+_think tweet_
+
+These are ephemeral thoughts that pop in my head and I post as they occur.
+Maybe inspired by something I see or hear, but typically no more context is
+provided.  I hate how social media has become very much trigger engagement
+bait... This is adjacent to that, but I try to be less hard on the bait.
 
 ## Thoughts - daily+
 
