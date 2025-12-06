@@ -22,9 +22,9 @@ posts, for a bit less look at the [[ main ]] feed.
 
 This is a feed of everything that I have published on my site to date
 including [[ blog ]], [[ til ]], [[ thoughts ]], [[ stars ]], [[ shots ]],
-[[ ping ]].
+[[ pings ]].
 
-* [web](https://waylonwalker.com/published)
+* [web](https://waylonwalker.com/published/)
 * [rss](https://waylonwalker.com/published/rss.xml)
 
 ## Main
@@ -33,7 +33,7 @@ Like the All feed, but drops the shots (instagram style posts) and stars
 (github stars).
 
 
-* [web](https://waylonwalker.com/main)
+* [web](https://waylonwalker.com/main/)
 * [rss](https://waylonwalker.com/main/rss.xml)
 
 ## til - daily(ish)
@@ -45,7 +45,7 @@ single topic posts that I write up quickly.  They are generally things that are
 fairly new to me, often things that I struggled to find support for on the
 internet, and felt that It needed yet one more article with my voice.
 
-* [web](https://waylonwalker.com/til)
+* [web](https://waylonwalker.com/til/)
 * [rss](https://waylonwalker.com/til/rss.xml)
 
 ## shots - daily(ish)
@@ -55,7 +55,7 @@ _think Instagram_
 This feed is a collection of images, sometimes I post a few a day, sometimes a
 few weeks will go by, it really just depends on what I have going on.
 
-* [web](https://waylonwalker.com/shots)
+* [web](https://waylonwalker.com/shots/)
 * [rss](https://waylonwalker.com/shots/rss.xml)
 
 ## pings - daily(ish)
@@ -66,6 +66,9 @@ These are ephemeral thoughts that pop in my head and I post as they occur.
 Maybe inspired by something I see or hear, but typically no more context is
 provided.  I hate how social media has become very much trigger engagement
 bait... This is adjacent to that, but I try to be less hard on the bait.
+
+* [web](https://waylonwalker.com/pings/)
+* [rss](https://waylonwalker.com/pings/rss.xml)
 
 ## Thoughts - daily+
 
@@ -81,14 +84,14 @@ hope that I give the people helping me out along the way just a little bit of a
 boost.  Two, they serve as a permanant commented bookmark for me to search, and
 come back to later when I have forgotten where I have seen something.
 
-* [web](https://waylonwalker.com/thoughts)
+* [web](https://waylonwalker.com/thoughts/)
 * [rss](https://waylonwalker.com/thoughts/rss.xml)
 
 ## stars
 
 I pull in all of my github stars into one feed [[ pesos ]] style.
 
-* [web](https://waylonwalker.com/stars)
+* [web](https://waylonwalker.com/stars/)
 * [rss](https://waylonwalker.com/stars/rss.xml)
 
 ## Recent
@@ -96,7 +99,7 @@ I pull in all of my github stars into one feed [[ pesos ]] style.
 This is a shorter version of **All**, as it is filtered down to only the posts
 created within the last 30 days.
 
-* [web](https://waylonwalker.com/recent)
+* [web](https://waylonwalker.com/recent/)
 * [rss](https://waylonwalker.com/recent/rss.xml)
 
 ## Blog - weekly/monthly
@@ -106,7 +109,7 @@ typically take a bit more time to put together.  I write fewer of them these
 days than I used to.  I'd like to think that they are the more polished posts
 of the bunch.
 
-* [web](https://waylonwalker.com/blog)
+* [web](https://waylonwalker.com/blog/)
 * [rss](https://waylonwalker.com/blog/rss.xml)
 
 ## Today
@@ -114,28 +117,28 @@ of the bunch.
 These are only the posts that went live the day that the site last built.  If
 my scheduled builds keep working as intended they are today's posts.
 
-* [web](https://waylonwalker.com/today)
+* [web](https://waylonwalker.com/today/)
 * [rss](https://waylonwalker.com/today/rss.xml)
 
 ## Python
 
 These are all the posts related to the python programming language.
 
-* [web](https://waylonwalker.com/python)
+* [web](https://waylonwalker.com/python/)
 * [rss](https://waylonwalker.com/python/rss.xml)
 
 ## Linux
 
 These are all the posts related to linux.
 
-* [web](https://waylonwalker.com/linux)
+* [web](https://waylonwalker.com/linux/)
 * [rss](https://waylonwalker.com/linux/rss.xml)
 
 ## vim
 
 These are all the posts related to the greatest way to edit text, vim.
 
-* [web](https://waylonwalker.com/vim)
+* [web](https://waylonwalker.com/vim/)
 * [rss](https://waylonwalker.com/vim/rss.xml)
 
 > Careful, you might not make it out
@@ -144,12 +147,12 @@ These are all the posts related to the greatest way to edit text, vim.
 
 These are all the posts related to the python data engineering framework kedro.
 
-* [web](https://waylonwalker.com/kedro)
+* [web](https://waylonwalker.com/kedro/)
 * [rss](https://waylonwalker.com/kedro/rss.xml)
 
 ## gratitude
 
 I used to do daily gratitude posts, I might get back into it.
 
-* [web](https://waylonwalker.com/gratitude)
+* [web](https://waylonwalker.com/gratitude/)
 * [rss](https://waylonwalker.com/gratitude/rss.xml)
