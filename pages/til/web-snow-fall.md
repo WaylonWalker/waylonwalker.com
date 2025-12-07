@@ -34,8 +34,10 @@ get-snowfall:
 Now add the component to your page.
 
 ``` html
+<!-- This belongs somewhere inside head -->
 <script type="module" src="snow-fall.js"></script> <!-- Adjust the src to your path -->
 
+<!-- This belongs somewhere inside body -->
 <!-- Anything before will be below the snow. -->
 <snow-fall></snow-fall>
 <!-- Anything after will show above the snow. -->
