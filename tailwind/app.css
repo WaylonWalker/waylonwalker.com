@@ -104,16 +104,31 @@ audio {
 }
 
 
-img, video {
-  @apply rounded-xl;
-  @apply border-pink-500;
-  @apply border;
-  @apply mx-auto;
-  @apply shadow-2xl;
-  @apply shadow-[0_0_45px_5px_rgba(219,39,119,.2)];
-  @apply object-cover;
-}
+img,
+video {
+  @apply mx-auto rounded-xl object-cover shadow-2xl;
 
+  /* Fake multi-color border */
+  border: 2px solid transparent;
+  background:
+    linear-gradient(#0000, #0000) padding-box,
+    linear-gradient(
+      135deg,
+      theme(colors.pink.900),
+      theme(colors.pink.800),
+      theme(colors.red.800),
+      theme(colors.amber.800),
+      theme(colors.yellow.800),
+      theme(colors.cyan.800),
+      theme(colors.purple.800),
+      theme(colors.purple.900)
+    ) border-box;
+
+  /* Ambient glow */
+  box-shadow:
+    0 0 25px rgba(219, 39, 119, 0.25),
+    0 0 45px rgba(251, 146, 60, 0.2);
+}
 #post-body p:has(img.cinematic),
 #post-body p:has(img.more-cinematic),
 #post-body p:has(img.wide) {
