@@ -6,7 +6,7 @@ ENV PATH="$VIRTUAL_ENV/bin:$PATH"
 
 # cargo required for pydantic-core?
 # libxml2 libxslt for lxml
-RUN apt-get update && apt-get install -y git curl cargo
+RUN apt-get update && apt-get install -y git curl cargo rsync
 RUN curl -LsSf https://astral.sh/uv/install.sh | sh
 RUN uv python install 3.12
 RUN uv venv $VIRTUAL_ENV
