@@ -729,7 +729,6 @@ markdown = ['webdev']
 react = ['webdev']
 htmx = ['webdev']
 html = ['webdev']
-og = ['webdev']
 aws = ['cloud']
 serverless = ['infrastructure', 'webdev']
 cloud = ['infrastructure', 'dev']
@@ -2250,7 +2249,7 @@ reverse = true
 description = "Posts about aws"
 
 [[markata.feeds]]
-slug = "og"
+slug = "og-feed"
 filter = "date<=today and 'og' in str(tags).lower() and published"
 sort = "date"
 reverse = true
