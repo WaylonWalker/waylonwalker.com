@@ -4,7 +4,7 @@ templateKey: blog-post
 title: One Year Of Shots
 tags:
   - python
-published: False
+published: True
 
 ---
 
