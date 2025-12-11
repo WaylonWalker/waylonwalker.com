@@ -34,13 +34,13 @@ https://dev.waylonwalker.com/one-year-of-shots/
 
     !!! vsplit Original Post Image
 
-        ![](https://shots.wayl.one/shot/?url=https://dev.waylonwalker.com/one-year-of-shots/&height=600&width=1200&scaled_width=1200&scaled_height=600")
+        ![](https://shots.wayl.one/shot/?url=https://dev.waylonwalker.com/one-year-of-shots/&height=600&width=1200&scaled_width=1200&scaled_height=600)
 
         > originally I simply used an image of the post itself
 
     !!! vsplit New OG Image
 
-        ![](https://shots.wayl.one/shot/?url=https://dev.waylonwalker.com/one-year-of-shots/og/&height=600&width=1200&scaled_width=1200&scaled_height=600")
+        ![](https://shots.wayl.one/shot/?url=https://dev.waylonwalker.com/one-year-of-shots/og/&height=600&width=1200&scaled_width=1200&scaled_height=600)
 
         > In Feb 2025 I made OG specific templates to use for the OG images.
 
