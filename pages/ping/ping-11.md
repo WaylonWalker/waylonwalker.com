@@ -5,6 +5,8 @@ title:
 published: true
 tags:
   - ping
+  - meta
+  - blog
 
 ---
 
