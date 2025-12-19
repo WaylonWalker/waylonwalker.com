@@ -1,10 +1,10 @@
 ---
-date: 2025-12-19 08:44
+date: 2025-12-19T09:44:00
 templateKey: blog-post
 title: Developer Vs Artist Ai
 published: true
 tags:
-  -
+  - ai
 ---
 The other day I was watching [thePrimeTimeagen]https://youtube.com/@theprimetimeagen?si=jVcp23FbfQSFZfDc) and he talked about devs loving ai and artists revolting.  There was some discussion in chat about art being more creative and prime quickly squashed that.  He ended with being oddly confused why developers are jumping on board and artists are not.  Both had their art stolen to build out the models.
 
