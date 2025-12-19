@@ -1,5 +1,5 @@
 ---
-date: <% tp.file.creation_date() %>
+date: <% tp.date.now("YYYY-MM-DDTHH:mm:ss") %>
 templateKey: blog-post
 title: <%*
   const originalFileName = await tp.system.prompt("Enter file name");

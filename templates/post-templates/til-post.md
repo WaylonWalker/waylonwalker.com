@@ -1,5 +1,5 @@
 ---
-date: <% tp.file.creation_date() %>
+date: <% tp.date.now("YYYY-MM-DDTHH:mm:ss") %>
 templateKey: til
 title: <%*
   const originalFileName = await tp.system.prompt("Enter file name");
@@ -12,7 +12,7 @@ title: <%*
 -%>
 published: true
 tags:
-  -
+  - 
 ---
 <%*
 const fileName = originalFileName.toLowerCase().replace(/\s+/g, '-');
