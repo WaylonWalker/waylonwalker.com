@@ -7,7 +7,7 @@
   @apply backdrop-blur-xs;
   @apply flex flex-col items-center sm:grid grid-flow-row-dense;
   @apply gap-1 lg:gap-2;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 600px), 1fr));
 }
 
 #posts ul#shots-feed {
@@ -68,7 +68,7 @@
 }
 
 #posts .til {
-  @apply col-span-2 row-span-2;
+  @apply col-span-2;
   @apply ring-2 ring-pink-500/50;
   -webkit-box-shadow: 0px 0px 20px 5px rgba(255, 0, 255, 0.1);
   -moz-box-shadow: 0px 0px 20px 5px rgba(255, 0, 255, 0.1);
@@ -80,7 +80,7 @@
 
 #posts .ping {
   @apply bg-pink-500/3;
-  @apply col-span-4;
+  @apply col-span-full;
   @apply rounded-xl;
   @apply border-l-4 border-pink-600/50;
   @apply my-4;
@@ -137,4 +137,36 @@
 #posts .shots.col-span-2 img {
   @apply w-full h-full;
   @apply aspect-[2/1] object-cover;
+}
+
+/* Archive page text overflow fixes */
+.archive-list .post {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.archive-list .post a {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.archive-list .description {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    hyphens: auto;
+}
+
+/* Fix long URLs and text */
+.archive-list .description a {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-all;
+    white-space: normal;
 }
