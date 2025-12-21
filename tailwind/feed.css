@@ -5,14 +5,28 @@
 
 #posts ul {
   @apply backdrop-blur-xs;
-  @apply flex flex-col items-center sm:grid grid-flow-row-dense;
+  @apply flex flex-col items-center;
+  /* @apply sm:grid grid-flow-row-dense; */
   @apply gap-1 lg:gap-2;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 600px), 1fr));
+  /* grid-template-columns: repeat(auto-fit, minmax(min(100%, 600px), 1fr)); */
 }
 
+#posts ul#family-shots-feed,
 #posts ul#shots-feed {
   @apply grid grid-flow-row-dense;
   grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+#posts ul#family-shots-feed li,
+#posts ul#family-shots-feed p,
+#posts ul#family-shots-feed img,
+#posts ul#family-shots-feed video,
+#posts ul#shots-feed li,
+#posts ul#shots-feed p,
+#posts ul#shots-feed img,
+#posts ul#shots-feed video {
+  @apply h-full w-full;
+  @apply p-0 m-0;
 }
 
 #posts a {

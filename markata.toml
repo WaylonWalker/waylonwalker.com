@@ -252,7 +252,7 @@ font_color = "rgb(255,255,255)"
 value = "<title>{{ post.title|e }}</title>"
 
 [[markata.head.link]]
-href='/app.css?v=57'
+href='/app.css?v=58'
 rel='stylesheet'
 
 [[markata.head.meta]]

@@ -12,7 +12,7 @@
 
 {% set is_video = is_mp4 or is_webm or is_avi or is_mov or is_mkv %}
 
-<li class="group {{ post.templatekey }} h-entry hentry {{ post.card_classes }}">
+<li class="group {{ post.templatekey }} h-entry hentry aspect-square {{ post.card_classes }}">
 <a href="/{{ markata.config.path_prefix }}{{ post.slug }}/"
     class="u-url"
     rel="bookmark"
@@ -24,9 +24,9 @@
   {# only add width=250 for images from dropper #}
   {% if img.startswith('https://dropper.wayl.one') %}
     {% if '?' in img %}
-      {% set img = img ~ '&width=320' %}
+      {% set img = img ~ '&width=380' %}
       {% else %}
-      {% set img = img ~ '?width=320' %}
+      {% set img = img ~ '?width=380' %}
     {% endif %}
   {% endif %}
 
@@ -45,7 +45,7 @@
         muted
         playsinline
         controls
-        class="aspect-square object-cover"
+        class="object-cover"
         aria-hidden="true"
         {% if is_priority %}
           preload="auto"
