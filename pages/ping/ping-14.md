@@ -8,5 +8,5 @@ tags:
 
 ---
 
-I've been all in on `just` for a while now, but `mise` looks so good it might
+I've been all in on just for a while now, but mise looks so good it might
 be my next move.
