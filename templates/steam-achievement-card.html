@@ -1,0 +1,26 @@
+
+<li class="group {{ post.templatekey }} h-entry hentry aspect-square {{ post.card_classes }}">
+<a href="/{{ markata.config.path_prefix }}{{ post.slug }}/"
+    class="u-url"
+    rel="bookmark"
+    hx-boost="true"
+    aria-label="{{ post.description|default(post.title, true)|default('', true)|e }}"
+  >
+    <img
+      title="{{ post.title|e }}"
+      alt="{{ alt_text|e }}"
+      src="{{ post.steam.achievement.icon }}"
+      decoding="async"
+      class="aspect-square object-cover"
+      {% if is_priority %}
+        loading="eager"
+        fetchpriority="high"
+      {% else %}
+        loading="lazy"
+      {% endif %}
+    >
+    <noscript><img title="{{ post.title|e }}" alt="{{ alt_text|e }}" src="{{ img }}"></noscript>
+
+</a>
+</li>
+

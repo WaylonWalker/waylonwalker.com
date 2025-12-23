@@ -1,0 +1,164 @@
+{% extends "base.html" %}
+{% block content %}
+    {% include "nav.html" %}
+    <div class=''>
+        <div id='didyoumean-search-wrapper' class='max-w-xl mx-auto my-4'>
+            {% include 'didyoumean_partial.html' %}
+        </div>
+        <div class='col-span-1 xl:col-span-4'>
+            <article class="steam-game-page h-entry">
+                {% include 'post-title.html' %}
+                
+                <!-- Game Progress Section -->
+                <div class="steam-game-progress my-8 p-6 bg-gradient-to-r from-indigo-900/20 to-indigo-950/20 rounded-xl border border-pink-500/30">
+                    <h2 class="text-2xl font-bold mb-4 text-center text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-yellow-400">
+                        Game Progress
+                    </h2>
+                    
+                    <!-- Progress Bar -->
+                    <div class="progress-bar relative w-full h-8 bg-gray-800 rounded-full overflow-hidden mb-4 shadow-lg">
+                        <div class="progress absolute top-0 left-0 h-full bg-gradient-to-r from-green-500 to-emerald-400 transition-all duration-500 ease-out flex items-center justify-center" 
+                             style="width: {{ game.completion_percentage }}%">
+                            <span class="text-black font-bold text-sm drop-shadow-md">
+                                {{ game.completion_percentage }}% Complete
+                            </span>
+                        </div>
+                        <div class="absolute top-0 left-0 w-full h-full flex items-center justify-center">
+                            <span class="text-white font-semibold text-sm">
+                                {{ game.unlocked_achievements }}/{{ game.total_achievements }} Achievements
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Playtime Information -->
+                    {% if game.playtime_forever is defined and game.playtime_forever %}
+                    <div class="playtime-info mt-6 p-4 bg-black/30 rounded-lg">
+                        <h3 class="text-lg font-semibold mb-2 text-pink-400">Playtime Statistics</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div class="text-center">
+                                <p class="text-gray-400 text-sm">Total Playtime</p>
+                                <p class="text-2xl font-bold text-yellow-400">
+                                    {{ (game.playtime_forever / 60) | round(1) }} hours
+                                </p>
+                            </div>
+                            {% if game.playtime_last_two_weeks is defined and game.playtime_last_two_weeks %}
+                            <div class="text-center">
+                                <p class="text-gray-400 text-sm">Last Two Weeks</p>
+                                <p class="text-2xl font-bold text-cyan-400">
+                                    {{ (game.playtime_last_two_weeks / 60) | round(1) }} hours
+                                </p>
+                            </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+
+                <!-- Achievements Section -->
+                <div class="achievements-section my-8">
+                    <h2 class="text-3xl font-bold mb-6 text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-400">
+                        Achievements
+                    </h2>
+
+                    <!-- Unlocked Achievements -->
+                    {% if unlocked %}
+                    <div class="unlocked-achievements mb-8">
+                        <h3 class="text-xl font-semibold mb-4 text-green-400 flex items-center">
+                            <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            Unlocked ({{ unlocked|length }})
+                        </h3>
+                        <div class="achievements-grid grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+                            {% for achievement in unlocked %}
+                            <div class="achievement unlocked group relative p-4 bg-gradient-to-br from-green-900/30 to-emerald-900/30 rounded-xl border border-green-500/50 hover:from-green-800/40 hover:to-emerald-800/40 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-green-500/25">
+                                <div class="flex flex-col items-center text-center">
+                                    <img src="{{ achievement.icon }}" 
+                                         alt="{{ achievement.name }}" 
+                                         class="w-16 h-16 rounded-lg mb-2 shadow-lg group-hover:scale-110 transition-transform duration-300"
+                                         loading="lazy">
+                                    <span class="text-sm font-semibold text-green-300 group-hover:text-green-200">
+                                        {{ achievement.name }}
+                                    </span>
+                                    {% if achievement.description %}
+                                    <p class="text-xs text-gray-400 mt-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                        {{ achievement.description }}
+                                    </p>
+                                    {% endif %}
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    {% endif %}
+
+                    <!-- Locked Achievements -->
+                    {% if locked %}
+                    <div class="locked-achievements">
+                        <h3 class="text-xl font-semibold mb-4 text-gray-400 flex items-center">
+                            <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd"/>
+                            </svg>
+                            Locked ({{ locked|length }})
+                        </h3>
+                        <div class="achievements-grid grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+                            {% for achievement in locked %}
+                            <div class="achievement locked group relative p-4 bg-gradient-to-br from-gray-900/30 to-slate-900/30 rounded-xl border border-gray-600/50 hover:from-gray-800/40 hover:to-slate-800/40 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-gray-500/25 opacity-75 hover:opacity-90">
+                                <div class="flex flex-col items-center text-center">
+                                    <img src="{{ achievement.icon }}" 
+                                         alt="{{ achievement.name }}" 
+                                         class="w-16 h-16 rounded-lg mb-2 shadow-lg grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-300"
+                                         loading="lazy">
+                                    <span class="text-sm font-semibold text-gray-400 group-hover:text-gray-300">
+                                        {{ achievement.name }}
+                                    </span>
+                                    {% if achievement.description %}
+                                    <p class="text-xs text-gray-500 mt-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                        {{ achievement.description }}
+                                    </p>
+                                    {% endif %}
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    {% endif %}
+
+                    <!-- No achievements message -->
+                    {% if not unlocked and not locked %}
+                    <div class="no-achievements text-center py-12">
+                        <p class="text-gray-400 text-lg">No achievements data available for this game.</p>
+                    </div>
+                    {% endif %}
+                </div>
+
+                <!-- Additional Game Content -->
+                {% if body %}
+                <div class="additional-content my-8">
+                    <div class="e-content" id="post-body" {{ 'data-pagefind-body' if post in markata.feeds.pagefind.posts else '' }}>
+                        {{ body }}
+                    </div>
+                </div>
+                {% endif %}
+
+                <!-- Reply by email section -->
+                <a class="flex items-baseline justify-center text-center mt-8" 
+                   target="_blank" 
+                   href="mailto:hello@waylonwalker.com?subject=Re:{{ post.title }}&body=Hi Waylon, I was reading {{config.url}}{{ post.slug }}">
+                    <div class="meta-svg px-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512" fill="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M64 112c-8.8 0-16 7.2-16 16l0 22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1l0-22.1c0-8.8-7.2-16-16-16L64 112zM48 212.2L48 384c0 8.8 7.2 16 16 16l384 0c8.8 0 16-7.2 16-16l0-171.8L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64l384 0c35.3 0 64 28.7 64 64l0 256c0 35.3-28.7 64-64 64L64 448c-35.3 0-64-28.7-64-64L0 128z"></path>
+                        </svg>
+                    </div>
+                    Reply by email
+                </a>
+
+            </article>
+
+            <article>
+                {% include 'recent.html' %}
+            </article>
+        </div>
+    </div>
+    {% include 'footer.html' %}
+{% endblock %}

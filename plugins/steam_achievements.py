@@ -617,24 +617,24 @@ def cli(app, markata):
             return
 
 
-@hook_impl
-def pre_render(markata: "Markata"):
-    """Load achievement data into posts during build (posts already created by CLI hook)."""
-    config = markata.config.steam_achievements
-
-    if not config.api_key or not config.steam_id:
-        return
-
-    for post in markata.filter("not skip"):
-        steam_config = post.get("steam")
-        if isinstance(steam_config, dict):
-            app_id = steam_config.get("app_id")
-            if isinstance(app_id, int) and app_id > 0:
-                steam_data = fetch_steam_achievements(
-                    markata, app_id, config.api_key, config.steam_id
-                )
-                if steam_data:
-                    post.steam_achievements = steam_data
+# @hook_impl
+# def pre_render(markata: "Markata"):
+#     """Load achievement data into posts during build (posts already created by CLI hook)."""
+#     config = markata.config.steam_achievements
+#
+#     if not config.api_key or not config.steam_id:
+#         return
+#
+#     for post in markata.filter("not skip"):
+#         steam_config = post.get("steam")
+#         if isinstance(steam_config, dict):
+#             app_id = steam_config.get("app_id")
+#             if isinstance(app_id, int) and app_id > 0:
+#                 steam_data = fetch_steam_achievements(
+#                     markata, app_id, config.api_key, config.steam_id
+#                 )
+#                 if steam_data:
+#                     post.steam_achievements = steam_data
 
 
 if __name__ == "__main__":
