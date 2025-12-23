@@ -21,7 +21,9 @@ default_cache_expire = 1209600
 output_dir = "markout"
 assets_dir = "static"
 hooks = [
+  "plugins.steam_achievements",
     'plugins.dropper_resize',
+    'plugins.webmention',
     # 'plugins.qrcode',
     'plugins.csv_fence',
     'plugins.doctype_enforcer',
@@ -208,11 +210,16 @@ name = ""
 'GitHub' = 'https://github.com/WaylonWalker/'
 
 
+[markata.steam_achievements]
+api_key = "${STEAM_API_KEY}"
+steam_id = "${STEAM_ID}"
+
 [markata.glob]
 glob_patterns = "pages/**/*.md"
 
 # fast patterns for testing
 # glob_patterns = "pages/shots/**/*.md"
+# glob_patterns = "pages/gratitude/**/*.md"
 # glob_patterns = "pages/glossary/**/*.md"
 # glob_patterns = "pages/sample.md"
 # glob_patterns = ["pages/glossary/**/*.md","pages/sample.md"]
