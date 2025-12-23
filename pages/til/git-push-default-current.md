@@ -42,13 +42,13 @@ instructions given.  Just copy and paste it in.
 git push --set-upstream origin feat/ingest-inventory-data
 ```
 
-## Option 2: push to current bransh wihtout setting upstream
+## Option 2: push to the current branch without setting upstream
 
-Honestly I am pretty aware of the branch I am on, and Very few times have I
-ever accidently pushed to the wrong branch.  The one that you might have a
+Honestly, I am pretty aware of the branch I am on, and Very few times have I
+ever accidentally pushed to the wrong branch.  The one that you might have a
 bigger chance with a more detrimental effect is `main`, which I will argue you
-should have blocked to require a passing `ci`, and potentially reviewers to
-merge in.  Therefore you can't even push to `main` anyways.
+should have blocked to require a passing `ci`, and potential reviewers to
+merge in.  Therefore you can't even push to `main` anyway.
 
 To just push to the branch you are currently on each and every time and never
 see this error again, you can run this to configure git to always push to your
