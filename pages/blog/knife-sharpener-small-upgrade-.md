@@ -4,7 +4,7 @@ templateKey: blog-post
 title: Knife Sharpener Small Upgrade 
 published: true
 tags:
-  -
+  - knife
 ---
 
 I've used this knife sharpener that I printed for a few years now.  I thought

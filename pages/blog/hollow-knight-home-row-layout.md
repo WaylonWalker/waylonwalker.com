@@ -7,6 +7,8 @@ tags:
   - gaming
   - hollow-knight
 published: True
+steam:
+  app_id: 367520  # Hollow Knight
 
 ---
 
