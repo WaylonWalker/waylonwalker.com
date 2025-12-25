@@ -338,8 +338,8 @@ slug: "steam/{safe_game_name}"
 
 .achievements-grid {{
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
-  gap: 8px;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  gap: 12px;
   margin: 20px 0;
 }}
 
@@ -361,9 +361,9 @@ slug: "steam/{safe_game_name}"
 }}
 
 .achievement-icon {{
-  width: 40px;
-  height: 40px;
-  border-radius: 6px;
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
   border: 2px solid #444;
   transition: border-color 0.2s ease;
 }}
@@ -440,7 +440,7 @@ slug: "steam/{safe_game_name}"
 </div>
 
 <div class="steam-game-progress">
-## 🎮 Game Progress & Stats
+## Game Progress & Stats
 
 <div class="stats-grid">
   <div class="stat-card">
@@ -477,7 +477,7 @@ slug: "steam/{safe_game_name}"
     if unlocked:
         content += f"""
 <div class="achievement-section">
-<h2>🏆 Unlocked Achievements ({len(unlocked)})</h2>
+<h2><span style="font-size: 0.8em;">🏆</span> Unlocked Achievements ({len(unlocked)})</h2>
 
 <div class="achievements-grid">
 """
@@ -531,7 +531,7 @@ slug: "steam/{safe_game_name}"
     if locked:
         content += f"""
 <div class="achievement-section">
-<h2>🔒 Locked Achievements ({len(locked)})</h2>
+<h2><span style="font-size: 0.8em;">🔒</span> Locked Achievements ({len(locked)})</h2>
 
 <div class="achievements-grid">
 """
