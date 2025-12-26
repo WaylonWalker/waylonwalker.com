@@ -194,7 +194,7 @@ date: "{post_date}"
 templateKey: steam_game
 steam:
   game: "{json.dumps(game_data.name).replace('"', "")}"
-  app_id: {game_data.appid}"
+  app_id: {game_data.appid}
   total_achievements: {game_data.total_achievements}
   unlocked_achievements: {game_data.unlocked_achievements}
   completion_percentage: {game_data.completion_percentage}
@@ -338,8 +338,8 @@ slug: "steam/{safe_game_name}"
 
 .achievements-grid {{
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
-  gap: 12px;
+  grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  gap: 8px;
   margin: 20px 0;
 }}
 
@@ -361,9 +361,9 @@ slug: "steam/{safe_game_name}"
 }}
 
 .achievement-icon {{
-  width: 64px;
-  height: 64px;
-  border-radius: 8px;
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
   border: 2px solid #444;
   transition: border-color 0.2s ease;
 }}
@@ -440,7 +440,7 @@ slug: "steam/{safe_game_name}"
 </div>
 
 <div class="steam-game-progress">
-## Game Progress & Stats
+## 🎮 Game Progress & Stats
 
 <div class="stats-grid">
   <div class="stat-card">
@@ -477,7 +477,7 @@ slug: "steam/{safe_game_name}"
     if unlocked:
         content += f"""
 <div class="achievement-section">
-<h2><span style="font-size: 0.8em;">🏆</span> Unlocked Achievements ({len(unlocked)})</h2>
+<h2>🏆 Unlocked Achievements ({len(unlocked)})</h2>
 
 <div class="achievements-grid">
 """
@@ -531,7 +531,7 @@ slug: "steam/{safe_game_name}"
     if locked:
         content += f"""
 <div class="achievement-section">
-<h2><span style="font-size: 0.8em;">🔒</span> Locked Achievements ({len(locked)})</h2>
+<h2>🔒 Locked Achievements ({len(locked)})</h2>
 
 <div class="achievements-grid">
 """
@@ -621,7 +621,7 @@ date: "{date_str}"
 templateKey: steam_achievement
 steam:
   game: "{json.dumps(game_data.name).replace('"', "")}"
-  app_id: {game_data.appid}"
+  app_id: {game_data.appid}
   achievement:
     name: "{json.dumps(achievement.name or "").replace('"', "")}"
     description: "{json.dumps(achievement.description or "").replace('"', "")}"
