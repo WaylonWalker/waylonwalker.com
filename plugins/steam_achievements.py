@@ -211,7 +211,9 @@ slug: "steam/{safe_game_name}"
 <style>
 .game-header {{
   display: flex;
-  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 30px;
   margin: 30px 0;
   padding: 20px;
@@ -338,7 +340,7 @@ slug: "steam/{safe_game_name}"
 
 .achievements-grid {{
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(125px, 1fr));
   gap: 8px;
   margin: 20px 0;
 }}
@@ -356,13 +358,11 @@ slug: "steam/{safe_game_name}"
 }}
 
 .achievement-icon-wrapper {{
-  display: inline-block;
-  padding: 2px;
 }}
 
 .achievement-icon {{
-  width: 40px;
-  height: 40px;
+    margin:0;
+    padding:0;
   border-radius: 6px;
   border: 2px solid #444;
   transition: border-color 0.2s ease;
@@ -428,19 +428,12 @@ slug: "steam/{safe_game_name}"
         if game_data.developers
         else ""
     }
-    <div class="game-links">
-      <a href="https://store.steampowered.com/app/{
-        game_data.appid
-    }/" target="_blank" rel="noopener noreferrer">🛒 Steam Store</a>
-      <a href="https://steamcommunity.com/app/{
-        game_data.appid
-    }/" target="_blank" rel="noopener noreferrer">💬 Community</a>
-    </div>
+
   </div>
 </div>
 
 <div class="steam-game-progress">
-## 🎮 Game Progress & Stats
+<h2>🎮 Game Progress & Stats</h2>
 
 <div class="stats-grid">
   <div class="stat-card">
