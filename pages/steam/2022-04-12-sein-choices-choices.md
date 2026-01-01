@@ -1,7 +1,7 @@
 ---
 title: "Choices Choices"
-description: "Use your first ability point"
-date: 2022-04-12
+description: "sein: Use your first ability point"
+date: "2022-04-12"
 templateKey: steam_achievement
 steam:
   game: "sein"
@@ -10,20 +10,19 @@ steam:
     name: "Choices Choices"
     description: "Use your first ability point"
     api_name: "activateFirstSkill"
-    unlock_time: 1649772575
+    unlock_time: "1649772575"
     unlock_date: "2022-04-12T14:09:35+00:00"
     icon: "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/387290/5aa217085a5710bcbe15f407b1b44921e49d7cb3.jpg"
     icongray: "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/387290/2f5d97fed0da8c5fca6f05bcf2d3a59e606d8f10.jpg"
 tags: ["steam", "achievement", "sein"]
+slug: "steam/choices-choices"
 ---
-
-# Choices Choices
 
 <img src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/387290/5aa217085a5710bcbe15f407b1b44921e49d7cb3.jpg" alt="Choices Choices" style="width: 64px; height: 64px;">
 
 Use your first ability point
 
-Unlocked in **sein** on April 12, 2022 at 02:09 PM.
+Unlocked in **[sein](/sein/)** on April 12, 2022 at 02:09 PM.
 
 ---
 

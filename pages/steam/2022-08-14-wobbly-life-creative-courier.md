@@ -1,7 +1,7 @@
 ---
 title: "Creative Courier"
-description: "Complete Furniture Job"
-date: 2022-08-14
+description: "Wobbly Life: Complete Furniture Job"
+date: "2022-08-14"
 templateKey: steam_achievement
 steam:
   game: "Wobbly Life"
@@ -10,20 +10,19 @@ steam:
     name: "Creative Courier"
     description: "Complete Furniture Job"
     api_name: "COMPLETE_JOB_FURNITURE"
-    unlock_time: 1660499864
+    unlock_time: "1660499864"
     unlock_date: "2022-08-14T17:57:44+00:00"
     icon: "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1211020/2791386e107ec7fd70756c4109bef529858ade5f.jpg"
     icongray: "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1211020/03ca27ef9131a81810963223ff4e07884b271957.jpg"
 tags: ["steam", "achievement", "wobbly-life"]
+slug: "steam/creative-courier"
 ---
-
-# Creative Courier
 
 <img src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1211020/2791386e107ec7fd70756c4109bef529858ade5f.jpg" alt="Creative Courier" style="width: 64px; height: 64px;">
 
 Complete Furniture Job
 
-Unlocked in **Wobbly Life** on August 14, 2022 at 05:57 PM.
+Unlocked in **[Wobbly Life](/wobbly-life/)** on August 14, 2022 at 05:57 PM.
 
 ---
 

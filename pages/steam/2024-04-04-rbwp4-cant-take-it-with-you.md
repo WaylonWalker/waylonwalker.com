@@ -1,7 +1,7 @@
 ---
 title: "Can't Take it With You"
-description: ""
-date: 2024-04-04
+description: "RBWP4: "
+date: "2024-04-04"
 templateKey: steam_achievement
 steam:
   game: "RBWP4"
@@ -10,20 +10,19 @@ steam:
     name: "Can't Take it With You"
     description: ""
     api_name: "goneShopping"
-    unlock_time: 1712237274
+    unlock_time: "1712237274"
     unlock_date: "2024-04-04T13:27:54+00:00"
     icon: "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1205970/613d1b1413ca1b02b8826b049ec71d123ddad31b.jpg"
     icongray: "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1205970/cf90bfc5d2e6937f09569d05a34c354cef036259.jpg"
 tags: ["steam", "achievement", "rbwp4"]
+slug: "steam/cant-take-it-with-you"
 ---
-
-# Can't Take it With You
 
 <img src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1205970/613d1b1413ca1b02b8826b049ec71d123ddad31b.jpg" alt="Can't Take it With You" style="width: 64px; height: 64px;">
 
 
 
-Unlocked in **RBWP4** on April 04, 2024 at 01:27 PM.
+Unlocked in **[RBWP4](/rbwp4/)** on April 04, 2024 at 01:27 PM.
 
 ---
 
