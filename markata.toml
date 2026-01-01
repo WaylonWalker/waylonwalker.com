@@ -645,6 +645,16 @@ reverse = true
 description = 'A feed of all my stars posts'
 
 [[markata.feeds]]
+slug = 'recent-pings'
+filter = "date<=today and templateKey == 'ping' and published"
+head = 10
+sort = "date"
+reverse = true
+card_template='feed_card_sm.html'
+partial_template='feed_sm_partial.html'
+description = 'Recent ping posts'
+
+[[markata.feeds]]
 slug = 'recent-stars'
 filter = "templateKey == 'stars'"
 head = 10
@@ -2812,3 +2822,30 @@ sort = "date"
 reverse = true
 description = 'A feed of my family shots'
 card_template='image-card.html'
+
+[[markata.feeds]]
+title = 'Steam Achievements'
+slug = 'steam-achievements'
+filter = "'steam' in tags and 'achievement' in tags"
+sort = "date"
+reverse = true
+description = 'A feed of my steam achievements'
+card_template='steam-achievement-card.html'
+
+[[markata.feeds]]
+title = 'Steam Games'
+slug = 'steam-games'
+filter = "'steam' in tags and 'gaming' in tags"
+sort = "date"
+reverse = true
+description = 'A feed of my steam achievements'
+# card_template='steam-achievement-card.html'
+
+[[markata.feeds]]
+title = 'Steam'
+slug = 'steam'
+filter = "'steam' in tags"
+sort = "date"
+reverse = true
+description = 'A feed of my steam.'
+# card_template='steam-achievement-card.html'
