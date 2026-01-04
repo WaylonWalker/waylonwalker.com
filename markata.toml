@@ -23,7 +23,7 @@ assets_dir = "static"
 hooks = [
   "plugins.steam_achievements",
     'plugins.dropper_resize',
-    'plugins.webmention',
+    # 'plugins.webmention',
     # 'plugins.qrcode',
     'plugins.csv_fence',
     'plugins.doctype_enforcer',
