@@ -1,3 +1,4 @@
+{% set alt_text = post.steam.game + post.description|default(post.title, true)|default('', true) %}
 
 <li class="group {{ post.templatekey }} h-entry hentry aspect-square {{ post.card_classes }}">
 <a href="/{{ markata.config.path_prefix }}{{ post.slug }}/"
@@ -8,7 +9,7 @@
   >
     <img
       title="{{ post.title|e }}"
-      alt="{{ alt_text|e }}"
+      alt="{{ post.description|e }}"
       src="{{ post.steam.achievement.icon }}"
       decoding="async"
       class="aspect-square object-cover"

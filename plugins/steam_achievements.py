@@ -18,6 +18,7 @@ steam_id = "your_steam_id"      # Your Steam ID
 posts_dir = "pages/steam"       # Directory to create achievement posts
 template = "steam_achievement"  # Jinja2 template name
 cache_duration = 3600           # Cache duration in seconds (default: 1 hour)
+min_playtime_hours = 3          # Minimum playtime in hours to include games (default: 3)
 ```
 
 # Usage
@@ -63,12 +64,33 @@ MARKATA_PLUGIN_NAME = "SteamAchievements"
 MARKATA_PLUGIN_PACKAGE_NAME = "steam_achievements"
 
 
+TROPHY_SVG = """
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 18.75h-9m9 0a3 3 0 0 1 3 3h-15a3 3 0 0 1 3-3m9 0v-3.375c0-.621-.503-1.125-1.125-1.125h-.871M7.5 18.75v-3.375c0-.621.504-1.125 1.125-1.125h.872m5.007 0H9.497m5.007 0a7.454 7.454 0 0 1-.982-3.172M9.497 14.25a7.454 7.454 0 0 0 .981-3.172M5.25 4.236c-.982.143-1.954.317-2.916.52A6.003 6.003 0 0 0 7.73 9.728M5.25 4.236V4.5c0 2.108.966 3.99 2.48 5.228M5.25 4.236V2.721C7.456 2.41 9.71 2.25 12 2.25c2.291 0 4.545.16 6.75.47v1.516M7.73 9.728a6.726 6.726 0 0 0 2.748 1.35m8.272-6.842V4.5c0 2.108-.966 3.99-2.48 5.228m2.48-5.492a46.32 46.32 0 0 1 2.916.52 6.003 6.003 0 0 1-5.395 4.972m0 0a6.726 6.726 0 0 1-2.749 1.35m0 0a6.772 6.772 0 0 1-3.044 0" />
+</svg>
+"""
+
+LOCK_SVG = """
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
+</svg>
+
+"""
+
+CHART_SVG = """
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z" />
+</svg>
+"""
+
+
 class SteamAchievementsConfig(pydantic.BaseModel):
     api_key: Optional[str] = None
     steam_id: Optional[str] = None
     posts_dir: str = "pages/steam"
     template: str = "steam_achievement"
     cache_duration: int = 3600  # 1 hour default
+    min_playtime_hours: float = 3.0  # Minimum playtime in hours to include games
 
     class Config:
         validate_assignment = True
@@ -181,6 +203,21 @@ def create_game_post(
         else None
     )
 
+    # Convert achievements to JSON-serializable format for frontmatter
+    achievements_json = []
+    for achievement in game_data.achievements:
+        achievements_json.append(
+            {
+                "apiname": achievement.apiname,
+                "name": achievement.name,
+                "description": achievement.description,
+                "icon": achievement.icon,
+                "icongray": achievement.icongray,
+                "achieved": achievement.achieved,
+                "unlocktime": achievement.unlocktime,
+            }
+        )
+
     # Write post content with properly quoted frontmatter
     post_date = last_played_date or datetime.now().strftime("%Y-%m-%d")
     content = f"""---
@@ -191,7 +228,7 @@ description: "Steam achievements and progress for {
         game_data.unlocked_achievements
     }/{game_data.total_achievements} achievements unlocked."
 date: "{post_date}"
-templateKey: steam_game
+templateKey: steam_achievement
 steam:
   game: "{json.dumps(game_data.name).replace('"', "")}"
   app_id: {game_data.appid}
@@ -203,8 +240,8 @@ steam:
   description: "{json.dumps(game_data.description or "").replace('"', "")}"
   developers: {json.dumps(game_data.developers or [])}
   publishers: {json.dumps(game_data.publishers or [])}
-tags: {json.dumps(["steam", "game", safe_game_name])}
-url: "{game_url}"
+  achievements: {json.dumps(achievements_json)}
+tags: {json.dumps(["steam-game", "steam", "game", safe_game_name])}
 slug: "steam/{safe_game_name}"
 ---
 
@@ -433,7 +470,7 @@ slug: "steam/{safe_game_name}"
 </div>
 
 <div class="steam-game-progress">
-<h2>🎮 Game Progress & Stats</h2>
+<h2>{CHART_SVG} Game Progress & Stats</h2>
 
 <div class="stats-grid">
   <div class="stat-card">
@@ -470,7 +507,7 @@ slug: "steam/{safe_game_name}"
     if unlocked:
         content += f"""
 <div class="achievement-section">
-<h2>🏆 Unlocked Achievements ({len(unlocked)})</h2>
+<h2>{TROPHY_SVG} Unlocked Achievements ({len(unlocked)})</h2>
 
 <div class="achievements-grid">
 """
@@ -524,7 +561,7 @@ slug: "steam/{safe_game_name}"
     if locked:
         content += f"""
 <div class="achievement-section">
-<h2>🔒 Locked Achievements ({len(locked)})</h2>
+<h2>{LOCK_SVG} Locked Achievements ({len(locked)})</h2>
 
 <div class="achievements-grid">
 """
@@ -623,7 +660,7 @@ steam:
     unlock_date: "{json.dumps(unlock_date.isoformat()).replace('"', "")}"
     icon: "{json.dumps(achievement.icon or "").replace('"', "")}"
     icongray: "{json.dumps(achievement.icongray or "").replace('"', "")}"
-tags: {json.dumps(["steam", "achievement", safe_game_name])}
+tags: {json.dumps(["steam-achievement", "steam", "achievement", safe_game_name])}
 slug: "steam/{safe_achievement_name}"
 ---
 
@@ -884,6 +921,7 @@ def create_steam_game_posts(
 ) -> int:
     """Create game posts for all Steam games with achievements."""
     print("🎮 Creating Steam game posts...")
+    config = markata.config.steam_achievements
 
     # Get all games from user's Steam library
     games = get_steam_games(api_key, steam_id)
@@ -892,15 +930,26 @@ def create_steam_game_posts(
         return 0
 
     game_posts_created = 0
+    games_filtered = 0
 
     for game in games:
         app_id = game.get("appid")
         game_name = game.get("name", f"Game {app_id}")
+        playtime_forever = game.get("playtime_forever", 0)
+        playtime_hours = playtime_forever / 60  # Convert minutes to hours
 
         if not app_id:
             continue
 
-        print(f"🎯 Processing game: {game_name} (ID: {app_id})")
+        # Filter games by minimum playtime
+        if playtime_hours < config.min_playtime_hours:
+            games_filtered += 1
+            print(
+                f"  ⏭️  Skipping {game_name} - {playtime_hours:.1f}h (minimum: {config.min_playtime_hours}h)"
+            )
+            continue
+
+        print(f"🎯 Processing game: {game_name} (ID: {app_id}) - {playtime_hours:.1f}h")
         steam_data = fetch_steam_achievements(markata, app_id, api_key, steam_id, game)
 
         if steam_data and steam_data.achievements:
@@ -909,6 +958,11 @@ def create_steam_game_posts(
                 game_posts_created += 1
         else:
             print(f"  ⚠️  No achievement data for {game_name}")
+
+    if games_filtered > 0:
+        print(
+            f"📊 Filtered out {games_filtered} games with less than {config.min_playtime_hours}h playtime"
+        )
 
     return game_posts_created
 
@@ -986,14 +1040,30 @@ def cli(app, markata):
             total_posts_created = 0
             games_processed = 0
 
+            config = markata.config.get("steam_achievements", SteamAchievementsConfig())
+            games_processed = 0
+            games_filtered = 0
+
             for game in games:
                 app_id = game.get("appid")
                 game_name = game.get("name", f"Game {app_id}")
+                playtime_forever = game.get("playtime_forever", 0)
+                playtime_hours = playtime_forever / 60  # Convert minutes to hours
 
                 if not app_id:
                     continue
 
-                print(f"🎯 Processing: {game_name} (ID: {app_id})")
+                # Filter games by minimum playtime
+                if playtime_hours < config.min_playtime_hours:
+                    games_filtered += 1
+                    print(
+                        f"  ⏭️  Skipping {game_name} - {playtime_hours:.1f}h (minimum: {config.min_playtime_hours}h)"
+                    )
+                    continue
+
+                print(
+                    f"🎯 Processing: {game_name} (ID: {app_id}) - {playtime_hours:.1f}h"
+                )
                 steam_data = fetch_steam_achievements(
                     markata, app_id, api_key, steam_id, game
                 )
@@ -1037,6 +1107,11 @@ def cli(app, markata):
                         print(f"  ℹ️  No unlocked achievements for {steam_data.name}")
                 else:
                     print(f"  ⚠️  No achievement data for {game_name}")
+
+            if games_filtered > 0:
+                print(
+                    f"📊 Filtered out {games_filtered} games with less than {config.min_playtime_hours}h playtime"
+                )
 
             print(
                 f"\n🎉 Created {total_posts_created} achievement posts from {games_processed} games"
