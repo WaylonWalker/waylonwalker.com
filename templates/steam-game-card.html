@@ -4,6 +4,9 @@
        rel="bookmark"
        hx-boost="true"
        aria-label="{{ post.steam.game }} - {{ post.steam.unlocked_achievements }}/{{ post.steam.total_achievements }} achievements unlocked">
+       
+        <!-- Preload fallback image to prevent flashing -->
+        <link rel="preload" as="image" href="https://cdn.akamai.steamstatic.com/steam/apps/{{ post.steam.app_id }}/library_600x900.jpg">
         
         <!-- Game Title -->
         <h2 class="p-name entry-title text-lg font-bold mb-3 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400 line-clamp-2">
@@ -15,9 +18,10 @@
             <img src="https://cdn.akamai.steamstatic.com/steam/apps/{{ post.steam.app_id }}/header.jpg" 
                  alt="{{ post.steam.game }} header" 
                  loading="lazy"
-                 onerror="this.src='https://cdn.akamai.steamstatic.com/steam/apps/{{ post.steam.app_id }}/library_600x900.jpg'"
-                 class="w-full h-24 object-cover transition-transform duration-300 group-hover:scale-105">
-            <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                 onerror="this.onerror=null; this.src='https://cdn.akamai.steamstatic.com/steam/apps/{{ post.steam.app_id }}/library_600x900.jpg'"
+                 class="w-full h-24 object-cover transition-all duration-300 group-hover:scale-105"
+                 style="background: linear-gradient(135deg, #1e293b, #2d3748); min-height: 96px;">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent pointer-events-none"></div>
         </div>
         
         <!-- Progress Bar -->
@@ -39,18 +43,18 @@
         <!-- Playtime Info -->
         <div class="mb-3 grid grid-cols-2 gap-2 text-xs">
             <div class="text-center p-2 bg-blue-900/30 rounded-lg border border-blue-500/30">
-                <p class="text-blue-300 font-semibold">Playtime</p>
-                <p class="text-white font-bold">{{ "%.1f"|format(post.steam.playtime_hours or 0) }}h</p>
+                <p class="text-blue-300 font-semibold contents">Playtime</p>
+                <p class="text-white font-bold contents">{{ "%.1f"|format(post.steam.playtime_hours or 0) }}h</p>
             </div>
             {% if post.steam.last_played %}
             <div class="text-center p-2 bg-purple-900/30 rounded-lg border border-purple-500/30">
-                <p class="text-purple-300 font-semibold">Last Played</p>
+                <p class="text-purple-300 font-semibold contents">Last Played</p>
                 <p class="text-white font-bold text-xs">{{ post.steam.last_played[:7] if post.steam.last_played else 'Never' }}</p>
             </div>
             {% else %}
             <div class="text-center p-2 bg-gray-900/30 rounded-lg border border-gray-600/30">
-                <p class="text-gray-400 font-semibold">Last Played</p>
-                <p class="text-gray-500 font-bold text-xs">Never</p>
+                <p class="text-gray-400 font-semibold contents">Last Played</p>
+                <p class="text-gray-500 font-bold text-xs contents">Never</p>
             </div>
             {% endif %}
         </div>
@@ -275,4 +279,6 @@
 .drop-shadow {
     text-shadow: 0 1px 2px rgba(0,0,0,0.5);
 }
+
+
 </style>
