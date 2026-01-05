@@ -9,6 +9,100 @@
             <article class="steam-game-page h-entry">
                 {% include 'post-title.html' %}
                 
+                <!-- Game Header Section -->
+                <div class="game-header mb-8 p-6 bg-gradient-to-r from-slate-900/80 to-slate-800/90 rounded-xl border border-slate-700">
+                    <div class="flex flex-col md:flex-row gap-6 items-center md:items-start">
+                        <!-- Game Cover -->
+                        <div class="flex-shrink-0">
+                            <img src="https://cdn.akamai.steamstatic.com/steam/apps/{{ post.steam.app_id }}/library_600x900.jpg" 
+                                 alt="{{ post.steam.game }} box art" 
+                                 loading="lazy" 
+                                 onerror="this.src='https://cdn.akamai.steamstatic.com/steam/apps/{{ post.steam.app_id }}/header.jpg'"
+                                 class="w-48 h-64 md:w-64 md:h-64 rounded-xl shadow-2xl border border-slate-600">
+                        </div>
+                        
+                        <!-- Game Info -->
+                        <div class="flex-1 min-w-0">
+                            <h1 class="text-3xl md:text-4xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">
+                                {{ post.steam.game }}
+                            </h1>
+                            
+                            {% if post.steam.short_description %}
+                            <p class="text-lg text-gray-300 mb-4 leading-relaxed">
+                                {{ post.steam.short_description }}
+                            </p>
+                            {% endif %}
+                            
+                            {% if post.steam.developers %}
+                            <p class="text-sm text-gray-400 mb-3">
+                                <span class="font-semibold text-blue-400">Developed by:</span>
+                                {% for developer in post.steam.developers[:3] %}
+                                    {{ developer }}{% if not loop.last %}, {% endif %}
+                                {% endfor %}
+                                {% if post.steam.developers|length > 3 %}...{% endif %}
+                            </p>
+                            {% endif %}
+                            
+                            <div class="flex flex-wrap gap-3 text-sm text-gray-400 mb-6">
+                                {% if post.steam.genres %}
+                                <div class="flex items-center gap-1">
+                                    <span class="font-semibold text-purple-400">Genres:</span>
+                                    {% for genre in post.steam.genres[:3] %}
+                                        <span class="px-2 py-1 bg-slate-700 rounded text-xs">{{ genre }}</span>
+                                    {% endfor %}
+                                    {% if post.steam.genres|length > 3 %}<span class="text-gray-500">...</span>{% endif %}
+                                </div>
+                                {% endif %}
+                                
+                                {% if post.steam.release_date %}
+                                <div class="flex items-center gap-1">
+                                    <span class="font-semibold text-green-400">Released:</span>
+                                    <span class="px-2 py-1 bg-slate-700 rounded text-xs">{{ post.steam.release_date }}</span>
+                                </div>
+                                {% endif %}
+                                
+                                {% if post.steam.platforms %}
+                                <div class="flex items-center gap-1">
+                                    <span class="font-semibold text-cyan-400">Platforms:</span>
+                                    {% if post.steam.platforms.windows %}<span class="px-2 py-1 bg-blue-900 rounded text-xs">Windows</span>{% endif %}
+                                    {% if post.steam.platforms.mac %}<span class="px-2 py-1 bg-gray-700 rounded text-xs">macOS</span>{% endif %}
+                                    {% if post.steam.platforms.linux %}<span class="px-2 py-1 bg-orange-900 rounded text-xs">Linux</span>{% endif %}
+                                </div>
+                                {% endif %}
+                            </div>
+                            
+                            <!-- Game Links -->
+                            <div class="flex flex-wrap gap-2 pt-4 border-t border-slate-700">
+                                {% if post.steam.website %}
+                                <a href="{{ post.steam.website }}" target="_blank" rel="noopener noreferrer" 
+                                   class="inline-flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors duration-200 text-sm font-medium">
+                                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M12.586 4.586a2 2 0 112.828 0 2 2v10a2 2 0 112.828 0 2 2H4.172A2 2 0 102.344 12H4.172V6a2 2 0 012 2v10a2 2 0 112.828 0 2 2zm-11.372 1.414L16.95 14.95a7 7 0 007.071 7h2.828a5.002 5.002 0 017.071-5.002H7.07V9.07c-2.435 0-4.525 1.596-4.864l1.414-1.414c-.93-.263-1.605-.424-1.907-.417l1.414 1.414H10.828c-1.106 0-1.999-.896-2.697-2.464l1.414 1.414z" clip-rule="evenodd"/>
+                                    </svg>
+                                    Official Website
+                                </a>
+                                {% endif %}
+                                
+                                <a href="https://store.steampowered.com/app/{{ post.steam.app_id }}/" target="_blank" rel="noopener noreferrer" 
+                                   class="inline-flex items-center gap-2 px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg transition-colors duration-200 text-sm font-medium">
+                                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M3 1a1 1 0 011-1h1a1 1 0 011 1v3a1 1 0 011 1H3a1 1 0 01-1V3a1 1 0 00-1zM7 8a1 1 0 011-1h1a1 1 0 011 1v6a1 1 0 011 1H7a1 1 0 01-1V8a1 1 0 00-1zm-4 0a1 1 0 011-1h1a1 1 0 011 1v2a1 1 0 011 1H3a1 1 0 01-1v2a1 1 0 00-1zm9 3a1 1 0 011-1h1a1 1 0 011 1v6a1 1 0 011 1H9a1 1 0 01-1v6a1 1 0 00-1zm-5 0a1 1 0 011-1h1a1 1 0 011 1v8a1 1 0 011 1H3a1 1 0 01-1v8a1 1 0 00-1z" clip-rule="evenodd"/>
+                                    </svg>
+                                    Steam Store
+                                </a>
+                                
+                                <a href="https://steamcommunity.com/app/{{ post.steam.app_id }}/" target="_blank" rel="noopener noreferrer" 
+                                   class="inline-flex items-center gap-2 px-4 py-2 bg-orange-600 hover:bg-orange-700 text-white rounded-lg transition-colors duration-200 text-sm font-medium">
+                                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M18 3a1 1 0 00-1h-3a1 1 0 00-1v2a1 1 0 001-1V3a1 1 0 00-1h-2a1 1 0 00-1v2a1 1 0 001 1h-2a1 1 0 00-1V3a1 1 0 00-1zM15 7a1 1 0 00-1v2a1 1 0 001 1h2a1 1 0 00-1v2a1 1 0 001 1h2a1 1 0 00-1V7a1 1 0 001 1h2a1 1 0 00-1V7a1 1 0 001 1zm4 4a1 1 0 00-1h8a1 1 0 001 1v8a1 1 0 001 1h8a1 1 0 001 1v8a1 1 0 001 1z" clip-rule="evenodd"/>
+                                    </svg>
+                                    Community
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
                 <!-- Game Progress Section -->
                 <div class="steam-game-progress my-8 p-6 bg-gradient-to-r from-indigo-900/20 to-indigo-950/20 rounded-xl border border-pink-500/30">
                     <h2 class="text-2xl font-bold mb-4 text-center text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-yellow-400">
@@ -136,7 +230,7 @@
                 {% if body %}
                 <div class="additional-content my-8">
                     <div class="e-content" id="post-body" {{ 'data-pagefind-body' if post in markata.feeds.pagefind.posts else '' }}>
-                        {{ body }}
+                        {{ body | safe }}
                     </div>
                 </div>
                 {% endif %}

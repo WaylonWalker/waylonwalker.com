@@ -17,6 +17,25 @@
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
+#posts ul#steam-achievements-feed {
+  @apply grid grid-flow-row-dense;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+}
+
+#posts ul#steam-games-feed {
+  @apply grid grid-flow-row-dense;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+#posts ul#steam-achievements-feed li,
+#posts ul#steam-achievements-feed p,
+#posts ul#steam-achievements-feed img,
+#posts ul#steam-achievements-feed video,
+#posts ul#steam-games-feed li,
+#posts ul#steam-games-feed p,
+#posts ul#steam-games-feed img,
+#posts ul#steam-games-feed video,
 #posts ul#family-shots-feed li,
 #posts ul#family-shots-feed p,
 #posts ul#family-shots-feed img,
