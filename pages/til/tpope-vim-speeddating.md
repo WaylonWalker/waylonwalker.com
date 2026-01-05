@@ -1,5 +1,5 @@
 ---
-date: 2025-01-04 16:59:33
+date: 2026-01-04 16:59:33
 templateKey: til
 title: tpope vim-speeddating
 published: true
