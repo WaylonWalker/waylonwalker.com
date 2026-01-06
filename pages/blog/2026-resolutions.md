@@ -97,6 +97,10 @@ is catching up to Claude.
 * sandbox them
 * quick to POC
 * quick to move on from broken attempts
+* learn to lead
+* learn to let go of syntax opinions
+* learn what makes good products/tools/apis hold the vibes to this.
+
 
 ## Not Everything will be a side hustle
 
@@ -129,9 +133,14 @@ hangouts, more art.
 
 > New dart board in the basement
 
+More creativity.  I designed and built fingerboard obstacles to work like legos with 3/4" plywood last November.
+
 ![](https://dropper.wayl.one/file/fb569b3a-d91d-4ad4-92f8-12e83c39fbda.webp)
 
 > building a fingerboard park in the basement
+
+
+More building
 
 ![](https://dropper.wayl.one/file/f34e94d4-c6d4-4a89-96f7-14f67c954307.webp)
 ![](https://dropper.wayl.one/file/48e6a2ef-a4db-462e-acda-16b270e7053d.webp)
@@ -141,6 +150,8 @@ hangouts, more art.
 ![](https://dropper.wayl.one/file/44be3230-29cc-4a5b-a495-4dd7c4e11c2b.webp)
 
 > building boxes for Jolly Holiday with Wyatt
+
+More bike rides, fewer nice days wasted, they are relaxing and get good energy out.
 
 ![](https://dropper.wayl.one/file/f9199d9b-74dc-4650-b1cf-2ac1ffd50e02.webp)
 
