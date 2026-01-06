@@ -101,6 +101,9 @@ is catching up to Claude.
 * learn to let go of syntax opinions
 * learn what makes good products/tools/apis hold the vibes to this.
 
+There's something here, very respectable people are betting on this, but its
+not working for me, I don't think I have the right tools.  I already have it a
+day, and got a few hundred LOC out while theo is claiming opus can do 10k.
 
 ## Not Everything will be a side hustle
 
@@ -156,3 +159,5 @@ More bike rides, fewer nice days wasted, they are relaxing and get good energy o
 ![](https://dropper.wayl.one/file/f9199d9b-74dc-4650-b1cf-2ac1ffd50e02.webp)
 
 > Bike Rides
+
+
