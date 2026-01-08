@@ -8,11 +8,11 @@ tags:
   - hollow-knight
 published: True
 slug: shots/mantis-lords-defeat-hollow-knight-keeb-run
-image: https://dropper.wayl.one/api/file/98e34601-2cdd-4a38-98a1-97719b38c843.mp4
+image: https://dropper.waylonwalker.com/api/file/98e34601-2cdd-4a38-98a1-97719b38c843.mp4
 description: The Knight falls victim to the Mantis Lords in his first attempt to challenge them.
 
 ---
 
-![mantis lords defeat hollow knight keeb run](https://dropper.wayl.one/api/file/98e34601-2cdd-4a38-98a1-97719b38c843.mp4)
+![mantis lords defeat hollow knight keeb run](https://dropper.waylonwalker.com/api/file/98e34601-2cdd-4a38-98a1-97719b38c843.mp4)
 
 > The Knight falls victim to the Mantis Lords in his first attempt to challenge them.

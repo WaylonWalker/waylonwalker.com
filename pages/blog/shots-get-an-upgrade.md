@@ -12,7 +12,7 @@ Today I updated my jinja templates and feeds to include shots posts in the main
 feed.  These posts will prominently show the image in the feed with a small
 post for each one.
 
-![screenshot-2025-09-21T01-19-39-934Z.png](https://dropper.wayl.one/api/file/37dea007-e66f-42a5-bd90-6722dd1084dd.png)
+![screenshot-2025-09-21T01-19-39-934Z.png](https://dropper.waylonwalker.com/api/file/37dea007-e66f-42a5-bd90-6722dd1084dd.png)
 
 [Shots](https://waylonwalker.com/shots/) are instagram style imge posts
 inspired by https://justin.searls.co/shots/.

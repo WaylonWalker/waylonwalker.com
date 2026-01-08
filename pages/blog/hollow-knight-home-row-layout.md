@@ -36,7 +36,7 @@ My daily driver keyboard is a custom built 40% monoblock keyboard I absolutely
 love using it, it perfectly plops down on a laptop when I am in laptop mode and
 really fits me quite well for my wrok as a software/infrastructure engineer.
 
-![screenshot-2025-05-06T02-36-55-641Z.png](https://dropper.wayl.one/api/file/9fd1dbf7-4c5d-4bb3-adaf-138755f90d54.png)
+![screenshot-2025-05-06T02-36-55-641Z.png](https://dropper.waylonwalker.com/api/file/9fd1dbf7-4c5d-4bb3-adaf-138755f90d54.png)
 
 ## WASD
 
@@ -119,7 +119,7 @@ controller, doing pogos he's never done before.
 The recording somehow stuck on the menu screen and did not record video, but I
 got this screenshot of the victory.
 
-![image](https://dropper.wayl.one/api/file/be00de02-1cac-4dc2-8c05-9c52c9f1f124.webp)
+![image](https://dropper.waylonwalker.com/api/file/be00de02-1cac-4dc2-8c05-9c52c9f1f124.webp)
 
 ## Vengeful Spirit
 
@@ -128,7 +128,7 @@ cast.  Everything is starting to feel much better and more natural.
 Surprisingly my main issue is with up and down since they are used a bit less,
 left with my pinky has not been any issue.
 
-![hollow-knight-keeb-run-vengeful-spirit.mp4](https://dropper.wayl.one/api/file/3c461bd2-3276-45da-8411-c85073f66497.mp4)
+![hollow-knight-keeb-run-vengeful-spirit.mp4](https://dropper.waylonwalker.com/api/file/3c461bd2-3276-45da-8411-c85073f66497.mp4)
 
 ## Hornet Battle 1
 
@@ -136,7 +136,7 @@ I made it successfully through the first hornet battle I was able to snag this
 clip of a few nicely timed pogos.  Its getting better, I am still really
 struggling between down srike and up strike.
 
-![hollow-knight-keeb-run-hornet-pogos.mp4](https://dropper.wayl.one/api/file/f627cb2c-8da5-4508-9d05-c3a12ed4c2b9.mp4)
+![hollow-knight-keeb-run-hornet-pogos.mp4](https://dropper.waylonwalker.com/api/file/f627cb2c-8da5-4508-9d05-c3a12ed4c2b9.mp4)
 
 ## Mothwing Cloak
 
@@ -144,9 +144,9 @@ I got so lucky  with the finish of hornet, I thought she hit me while healing,
 kinda lost where we were tanked a hit and almost took one last hit again and
 beat her to the final punch.
 
-![hollow-knight-keeb-run-hornet-finish.mp4](https://dropper.wayl.one/api/file/d8784c22-2baa-410a-af23-d7ebebaa6608.mp4)
+![hollow-knight-keeb-run-hornet-finish.mp4](https://dropper.waylonwalker.com/api/file/d8784c22-2baa-410a-af23-d7ebebaa6608.mp4)
 
-![20250507172106_1.jpg](https://dropper.wayl.one/api/file/d82dd000-a7b1-401e-8f78-72939a296328.jpg)
+![20250507172106_1.jpg](https://dropper.waylonwalker.com/api/file/d82dd000-a7b1-401e-8f78-72939a296328.jpg)
 
 ## Gruz Mother
 
@@ -156,7 +156,7 @@ done for, there was no recovering from this.  I was already at 2 hearts, and a
 mistake left me with one.  You can see me fumble for the up key in the clip as
 I get repositioned fully on back on the board.
 
-![hollow-knight-keeb-run-gruz-mother.mp4](https://dropper.wayl.one/api/file/0a6ffb43-f416-46e4-9e17-05c3ac9c3429.mp4)
+![hollow-knight-keeb-run-gruz-mother.mp4](https://dropper.waylonwalker.com/api/file/0a6ffb43-f416-46e4-9e17-05c3ac9c3429.mp4)
 
 Now we have Sly the merchant unlocked and can buy items from him.
 
@@ -167,7 +167,7 @@ were getting put on top of the game instead of layer in behind. I've never seen
 this, so I really have no idea what it is.  During the thorny area it was in
 and out and right as I entered the city it locked on top and did not leave.
 
-![image](https://dropper.wayl.one/api/file/f2fe3da0-9078-4292-9fef-9f4efd306d63.webp)
+![image](https://dropper.waylonwalker.com/api/file/f2fe3da0-9078-4292-9fef-9f4efd306d63.webp)
 
 ## Soul Master
 
@@ -175,13 +175,13 @@ I made my way over to the soul master, dying several times along the way to a
 few [Soul Twisters](https://hollowknight.fandom.com/wiki/Soul_Twister), its
 time to battle.
 
-![hollow-knight-keeb-run-soul-meeting-master.mp4](https://dropper.wayl.one/api/file/2d664476-ac45-4461-8e33-43211d493e9e.mp4)
+![hollow-knight-keeb-run-soul-meeting-master.mp4](https://dropper.waylonwalker.com/api/file/2d664476-ac45-4461-8e33-43211d493e9e.mp4)
 
 After beating his second room, (this clip makes him look way too easy as he
 wasn't targeting me fore some reason at the end), I picked up desolate dive,
 which brings a new key combo to get familiar with down+cast.
 
-![hollow-knight-keeb-run-soul-master-finish.mp4](https://dropper.wayl.one/api/file/af9df166-33cd-4260-85df-910e8a18116c.mp4)
+![hollow-knight-keeb-run-soul-master-finish.mp4](https://dropper.waylonwalker.com/api/file/af9df166-33cd-4260-85df-910e8a18116c.mp4)
 
 ## Moss Knight
 
@@ -191,41 +191,41 @@ few months off and just got some geo from the moss knights for awhile.  I got
 this decent clip of clearing them, I'm no pro, but getting better at timing on
 the keeb layout.
 
-![hollow-knight-keeb-moss-knight.mp4](https://dropper.wayl.one/api/file/d8571451-7a1e-4997-85eb-b5ce2cfdc209.mp4)
+![hollow-knight-keeb-moss-knight.mp4](https://dropper.waylonwalker.com/api/file/d8571451-7a1e-4997-85eb-b5ce2cfdc209.mp4)
 
 ## Lumafly Lantern
 
 While I had a lot of geo from the Moss Knights I finished out getting 1800 geo
 to get the lumafly lantern from sly's shop at dirtmouth.
 
-![hollow-knight-keeb-lumafly-lantern.mp4](https://dropper.wayl.one/api/file/2ea5790c-66d7-401d-95c7-c81a2bccb743.mp4)
+![hollow-knight-keeb-lumafly-lantern.mp4](https://dropper.waylonwalker.com/api/file/2ea5790c-66d7-401d-95c7-c81a2bccb743.mp4)
 
 ## Royal Waterway
 
 I decided to head back to the city of tears and into the royal waterway to
 fight the dung defender and collect Isma's tear.
 
-![hollow-knight-keeb-royal-waterway-unlock.mp4](https://dropper.wayl.one/api/file/3713bdd1-c645-46c5-85d2-451356383842.mp4)
+![hollow-knight-keeb-royal-waterway-unlock.mp4](https://dropper.waylonwalker.com/api/file/3713bdd1-c645-46c5-85d2-451356383842.mp4)
 
-![hollow-knight-keeb-royal-waterway-entering.mp4](https://dropper.wayl.one/api/file/58235f4d-701f-4ddc-a26d-ab5f9e0bdbfc.mp4)
+![hollow-knight-keeb-royal-waterway-entering.mp4](https://dropper.waylonwalker.com/api/file/58235f4d-701f-4ddc-a26d-ab5f9e0bdbfc.mp4)
 
-![hollow-knight-keeb-royal-waterway-bench.mp4](https://dropper.wayl.one/api/file/bdf1985b-6a32-4bf4-9f9a-d6f814db7136.mp4)
+![hollow-knight-keeb-royal-waterway-bench.mp4](https://dropper.waylonwalker.com/api/file/bdf1985b-6a32-4bf4-9f9a-d6f814db7136.mp4)
 
 The Dung Defender battle, great lore with this guy, lots of bouncy movement,
 but overall not too hard of a boss.  He is not very accurate with attacks, so
 you have time to just sit in the corners and heal.
 
-![hollow-knight-keeb-dung-defender.mp4](https://dropper.wayl.one/api/file/982091a0-a65a-44a4-aca6-fbffcff9ed90.mp4)
+![hollow-knight-keeb-dung-defender.mp4](https://dropper.waylonwalker.com/api/file/982091a0-a65a-44a4-aca6-fbffcff9ed90.mp4)
 
 Once the Dung Defender was defeated, I continued on up to the Kings Station and unlocked it.
 
-![hollow-knight-keeb-kings-station.mp4](https://dropper.wayl.one/api/file/3651c0e1-6d99-4b54-95eb-5b955323a2e9.mp4)
+![hollow-knight-keeb-kings-station.mp4](https://dropper.waylonwalker.com/api/file/3651c0e1-6d99-4b54-95eb-5b955323a2e9.mp4)
 
 I could not remember where ismas tear was and I ended up all the way down in
 deep nest, the climb out is a bit of a challenge, here I am going right by the
 route you take with crystal dash to get isma's tear.
 
-![climbing-out-of-deep-nest.mp4](https://dropper.wayl.one/api/file/9a4befef-e694-4a3c-8b0e-edd06a3f741c.mp4)
+![climbing-out-of-deep-nest.mp4](https://dropper.waylonwalker.com/api/file/9a4befef-e694-4a3c-8b0e-edd06a3f741c.mp4)
 
 ## Isma's Tear
 
@@ -233,21 +233,21 @@ I managed to find my way through the royal waterway and where you crystal dash
 over to isma's tear.  This battle took two attempts, because the first I had no
 health left and walked in with two masks.
 
-![hollow-knight-keeb-ismas-tear-battle.mp4](https://dropper.wayl.one/api/file/4dd7d2cd-7d4a-473e-a483-f8f8512c6442.mp4)
+![hollow-knight-keeb-ismas-tear-battle.mp4](https://dropper.waylonwalker.com/api/file/4dd7d2cd-7d4a-473e-a483-f8f8512c6442.mp4)
 
 Now the tear coats our shell and allows us to swim through the acid, and we can
 get a lot more places, and some places are just easier to get without precision
 parkour over the acid.
 
-![hollow-knight-keeb-ismas-tear.mp4](https://dropper.wayl.one/api/file/c6a334a4-d8d3-4742-82ea-3b6e9eaa9923.mp4)
+![hollow-knight-keeb-ismas-tear.mp4](https://dropper.waylonwalker.com/api/file/c6a334a4-d8d3-4742-82ea-3b6e9eaa9923.mp4)
 
 ## Thorny Mask
 
 I wandered around the world a bit today and found a few small items, nothing of major concequence.
 
-![hollow-knight-keeb-thorny-mask-shard.mp4](https://dropper.wayl.one/api/file/2b9b5302-7437-4910-a98c-bc96650e353c.mp4)
-![hollow-knight-keeb-spore-shroom.mp4](https://dropper.wayl.one/api/file/a15c7895-bd25-4238-9634-f58c2590730a.mp4)
-![hollow-knight-keeb-thorny-wanderers-journal.mp4](https://dropper.wayl.one/api/file/d8cdee6e-4627-444a-99a0-b5b35e960dd8.mp4)
+![hollow-knight-keeb-thorny-mask-shard.mp4](https://dropper.waylonwalker.com/api/file/2b9b5302-7437-4910-a98c-bc96650e353c.mp4)
+![hollow-knight-keeb-spore-shroom.mp4](https://dropper.waylonwalker.com/api/file/a15c7895-bd25-4238-9634-f58c2590730a.mp4)
+![hollow-knight-keeb-thorny-wanderers-journal.mp4](https://dropper.waylonwalker.com/api/file/d8cdee6e-4627-444a-99a0-b5b35e960dd8.mp4)
 
 ## Challenging Mantis Lords
 
@@ -256,20 +256,20 @@ myself that I am getting better at this layout.
 
 I drew my nail and ready for the challenge.
 
-![hollow-knight-keeb-challenging-mantis-lords.mp4](https://dropper.wayl.one/api/file/dfe1c93b-3dd8-4941-8991-7ec8d4b49beb.mp4)
+![hollow-knight-keeb-challenging-mantis-lords.mp4](https://dropper.waylonwalker.com/api/file/dfe1c93b-3dd8-4941-8991-7ec8d4b49beb.mp4)
 
 First try I made it past the first one, and deep into the second one, I think
 If I would have remembered the healing window for them I would have had a shot
 at a first try on them.
 
-![hollow-knight-keeb-mantis-lords-1.mp4](https://dropper.wayl.one/api/file/98e34601-2cdd-4a38-98a1-97719b38c843.mp4)
+![hollow-knight-keeb-mantis-lords-1.mp4](https://dropper.waylonwalker.com/api/file/98e34601-2cdd-4a38-98a1-97719b38c843.mp4)
 
 After three tries I had it.  Maybe its not apples to apples with my first ever
 run years ago on steam deck, but it took months.  I would have about 20 minutes
 a day waiting for kids pickup at school and I would just keep grinding at them
 for what added up to be likely several hours.
 
-![hollow-knight-keeb-defeating-mantis-lords.mp4](https://dropper.wayl.one/api/file/90bb2a30-c781-4dfd-98aa-ed933b24f1e3.mp4)
+![hollow-knight-keeb-defeating-mantis-lords.mp4](https://dropper.waylonwalker.com/api/file/90bb2a30-c781-4dfd-98aa-ed933b24f1e3.mp4)
 
 After defeating them I'm let into the treasure room where I get a bench,
 Hallownest seal, a big loot box, and the [mark of
@@ -278,4 +278,4 @@ one of my favorite charms as it gives you an extra 25% range to your nail
 attacks.  This opens up the window for pogos and reach attacks without taking
 damage.
 
-![hollow-knight-keeb-mark-of-pride.mp4](https://dropper.wayl.one/api/file/b9af2296-60e9-4d92-989f-1529a59c75a1.mp4)
+![hollow-knight-keeb-mark-of-pride.mp4](https://dropper.waylonwalker.com/api/file/b9af2296-60e9-4d92-989f-1529a59c75a1.mp4)

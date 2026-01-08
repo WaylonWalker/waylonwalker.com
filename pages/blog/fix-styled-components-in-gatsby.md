@@ -35,11 +35,11 @@ plugins: [
 
 ## Before
 
-![2020-02-06 15-27-45_Start.png](https://dropper.wayl.one/api/file/80cb807b-f84d-4649-88bd-44c5867b0352.png)
+![2020-02-06 15-27-45_Start.png](https://dropper.waylonwalker.com/api/file/80cb807b-f84d-4649-88bd-44c5867b0352.png)
 
 ## After
 
-![2020-02-07 17-20-31_Start.png](https://dropper.wayl.one/api/file/7e38cf4c-e69c-4df3-b8f1-14aa023c9c38.png)
+![2020-02-07 17-20-31_Start.png](https://dropper.waylonwalker.com/api/file/7e38cf4c-e69c-4df3-b8f1-14aa023c9c38.png)
 
 ## Why did it take so long to Fix?
 

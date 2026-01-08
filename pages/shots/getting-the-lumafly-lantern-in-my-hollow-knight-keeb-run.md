@@ -8,11 +8,11 @@ tags:
   - gaming
 published: True
 slug: shots/getting-the-lumafly-lantern-in-my-hollow-knight-keeb-run
-image: https://dropper.wayl.one/api/file/2ea5790c-66d7-401d-95c7-c81a2bccb743.mp4
+image: https://dropper.waylonwalker.com/api/file/2ea5790c-66d7-401d-95c7-c81a2bccb743.mp4
 description: Purchasing the Lumafly Lanten from Sly's shop in Dirtmouth during my Hollow Knight keeb only run.
 
 ---
 
-![getting the lumafly lantern in my hollow knight keeb run](https://dropper.wayl.one/api/file/2ea5790c-66d7-401d-95c7-c81a2bccb743.mp4)
+![getting the lumafly lantern in my hollow knight keeb run](https://dropper.waylonwalker.com/api/file/2ea5790c-66d7-401d-95c7-c81a2bccb743.mp4)
 
 > Purchasing the Lumafly Lanten from Sly's shop in Dirtmouth during my Hollow Knight keeb only run.

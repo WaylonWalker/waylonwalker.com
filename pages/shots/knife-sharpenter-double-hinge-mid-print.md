@@ -7,11 +7,11 @@ tags:
   - knife
 published: True
 slug: shots/knife-sharpenter-double-hinge-mid-print
-image: https://dropper.wayl.one/api/file/ed5c4cae-8608-4b11-aa03-866bf550bc25.png
+image: https://dropper.waylonwalker.com/api/file/ed5c4cae-8608-4b11-aa03-866bf550bc25.png
 description: A bambu A1 printer printing my double hinge mid print under a uv light
 
 ---
 
-![knife sharpenter double hinge mid print](https://dropper.wayl.one/api/file/ed5c4cae-8608-4b11-aa03-866bf550bc25.png)
+![knife sharpenter double hinge mid print](https://dropper.waylonwalker.com/api/file/ed5c4cae-8608-4b11-aa03-866bf550bc25.png)
 
 > A bambu A1 printer printing my double hinge mid print under a uv light

@@ -21,11 +21,11 @@ nearly one year apart.  Impressions are only 60% of its value a year ago while
 clicks are only 35% of where they were a year ago.  I'm getting less
 impressions and even less clicks.
 
-![blogging-in-2024-20240805080104035.webp](https://dropper.wayl.one/api/file/2706f990-f2fa-4ccb-a7a9-142ee20686c7.webp)
+![blogging-in-2024-20240805080104035.webp](https://dropper.waylonwalker.com/api/file/2706f990-f2fa-4ccb-a7a9-142ee20686c7.webp)
 
 > May 2023
 
-![blogging-in-2024-20240805080137554.webp](https://dropper.wayl.one/api/file/cd708a26-27d2-4a33-9f22-b0cb0dd54fc5.webp)
+![blogging-in-2024-20240805080137554.webp](https://dropper.waylonwalker.com/api/file/cd708a26-27d2-4a33-9f22-b0cb0dd54fc5.webp)
 
 > June 2024
 

@@ -80,7 +80,7 @@ environment deactivated, so when I went to pip install something it gave me an
 error that it was not active.  Situations like this are an easy way to pollute
 your system with packages that it does not need installed.
 
-![pip-require-virtualenv-direnv-error.webp](https://dropper.wayl.one/api/file/fdb3d2bc-fd70-4b5b-acaa-aedc91c528b0.webp)
+![pip-require-virtualenv-direnv-error.webp](https://dropper.waylonwalker.com/api/file/fdb3d2bc-fd70-4b5b-acaa-aedc91c528b0.webp)
 
 ## TLDR
 

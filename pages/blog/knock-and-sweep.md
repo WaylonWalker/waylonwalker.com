@@ -14,13 +14,13 @@ I'm working on creating some gcode to create a whole set of key caps in one prin
 
 To figure out the coordinates I printed one key cap, and manually jogged the printer in position to knock off the cap, then sweep it out of the way.
 
-![designing-a-knock-off-key-20240803095740665.webp](https://dropper.wayl.one/api/file/26a0eaf3-fbee-4570-80a7-0c14debf2017.webp)
+![designing-a-knock-off-key-20240803095740665.webp](https://dropper.waylonwalker.com/api/file/26a0eaf3-fbee-4570-80a7-0c14debf2017.webp)
 > print head in position to knock
 
-![designing-a-knock-off-key-20240803095731272.webp](https://dropper.wayl.one/api/file/03dcb61b-79d7-43ab-a1ac-f9503b7b921e.webp)
+![designing-a-knock-off-key-20240803095731272.webp](https://dropper.waylonwalker.com/api/file/03dcb61b-79d7-43ab-a1ac-f9503b7b921e.webp)
 > Position before the knock
 
-![designing-a-knock-off-key-20240803150150445.webp](https://dropper.wayl.one/api/file/066c28a9-bfd6-4214-83e0-54d2e93e94c9.webp)
+![designing-a-knock-off-key-20240803150150445.webp](https://dropper.waylonwalker.com/api/file/066c28a9-bfd6-4214-83e0-54d2e93e94c9.webp)
 > Position after the sweep
 
 ## gcode
@@ -162,4 +162,4 @@ python render.py 42
 
 The final result here is me printing out 42 new caps in this beautiful black and purple silk fillament.
 
-![knock-and-sweep.mp4](https://dropper.wayl.one/api/file/7dacc55a-666f-4592-bc3b-cb46324227f8.mp4)
+![knock-and-sweep.mp4](https://dropper.waylonwalker.com/api/file/7dacc55a-666f-4592-bc3b-cb46324227f8.mp4)

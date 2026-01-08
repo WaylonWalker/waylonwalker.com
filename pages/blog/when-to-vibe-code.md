@@ -16,7 +16,7 @@ to remind myself of some of these things.
 
 ## The skill/read spectrum
 
-![screenshot-2025-09-03T00-32-08-321Z.png](https://dropper.wayl.one/api/file/209e62d2-4687-4ce0-880b-c7375867f616.png)
+![screenshot-2025-09-03T00-32-08-321Z.png](https://dropper.waylonwalker.com/api/file/209e62d2-4687-4ce0-880b-c7375867f616.png)
 
 The first diagram describes that there has become a spectrum of agentic coding
 from vibe coding where you don't ready anything, to looking at everything in
@@ -37,7 +37,7 @@ didn't read but critical Zone.
 This is the list that prompted this post, I think it serves as a good reminder
 when you should care a bit more.
 
-![screenshot-2025-09-03T00-24-17-121Z.png](https://dropper.wayl.one/api/file/3093511a-f1fd-49cb-8152-bc6c60cc80e2.png)
+![screenshot-2025-09-03T00-24-17-121Z.png](https://dropper.waylonwalker.com/api/file/3093511a-f1fd-49cb-8152-bc6c60cc80e2.png)
 
 ## You still need to know how code works if you want to be a coder
 

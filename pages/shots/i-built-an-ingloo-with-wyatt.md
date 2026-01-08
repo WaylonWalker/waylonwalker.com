@@ -7,11 +7,11 @@ tags:
   - family
 published: True
 slug: shots/i-built-an-ingloo-with-wyatt
-image: https://dropper.wayl.one/api/file/04b75909-b1eb-4903-bfd7-a992f8b3ee4e.png
+image: https://dropper.waylonwalker.com/api/file/04b75909-b1eb-4903-bfd7-a992f8b3ee4e.png
 description: Wyatt standing next to an igloo in our back yard wearing full winter gear and holding up a peace sign.
 
 ---
 
-![I built an ingloo with Wyatt](https://dropper.wayl.one/api/file/04b75909-b1eb-4903-bfd7-a992f8b3ee4e.png)
+![I built an ingloo with Wyatt](https://dropper.waylonwalker.com/api/file/04b75909-b1eb-4903-bfd7-a992f8b3ee4e.png)
 
 > Wyatt standing next to an igloo in our back yard wearing full winter gear and holding up a peace sign.

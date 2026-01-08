@@ -33,8 +33,8 @@ mcat ~/git/dropper/data/01b21044-0bf8-4b06-9db1-a002c0519df6.mp4
 mcat ~/git/dropper/data/0e659c05-1c12-4524-aa54-ef52ba680865.webm
 ```
 
-<!-- ![1fa2e162-deeb-4bb5-b1c5-961632abd452.mp4](https://dropper.wayl.one/api/file/1fa2e162-deeb-4bb5-b1c5-961632abd452.mp4) -->
-![1fa2e162-deeb-4bb5-b1c5-961632abd452.webm](https://dropper.wayl.one/api/file/663a3793-6426-4b91-a7df-835540d16910.webm)
+<!-- ![1fa2e162-deeb-4bb5-b1c5-961632abd452.mp4](https://dropper.waylonwalker.com/api/file/1fa2e162-deeb-4bb5-b1c5-961632abd452.mp4) -->
+![1fa2e162-deeb-4bb5-b1c5-961632abd452.webm](https://dropper.waylonwalker.com/api/file/663a3793-6426-4b91-a7df-835540d16910.webm)
 
 ## But it doesn't always work
 

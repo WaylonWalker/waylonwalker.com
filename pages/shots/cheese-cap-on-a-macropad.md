@@ -6,12 +6,12 @@ tags:
   - shots
 published: True
 slug: shots/cheese-cap-on-a-macropad
-image: https://dropper.wayl.one/api/file/4b2c0fb1-3216-4c5c-a659-fbaf9ef189ae.jpg
+image: https://dropper.waylonwalker.com/api/file/4b2c0fb1-3216-4c5c-a659-fbaf9ef189ae.jpg
 description: A cheese keycap placed in the middle of a macropad, currounded by black/purple caps in a blue case.
 
 ---
 
-![Cheese cap on a macropad](https://dropper.wayl.one/api/file/4b2c0fb1-3216-4c5c-a659-fbaf9ef189ae.jpg)
+![Cheese cap on a macropad](https://dropper.waylonwalker.com/api/file/4b2c0fb1-3216-4c5c-a659-fbaf9ef189ae.jpg)
 
 > A cheese keycap placed in the middle of a macropad, currounded by black/purple caps in a blue case.
 

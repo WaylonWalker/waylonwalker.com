@@ -15,7 +15,7 @@ and make [[shots]] posts, but I want to date them to about when the image was
 taken most of the time.  This allows me to quickly bump days up and down using
 `c-a` and `c-x` even around the new year.
 
-![](https://dropper.wayl.one/file/18c876c3-02ea-4c77-9f62-cdbb1bb759a1.mp4)
+![](https://dropper.waylonwalker.com/file/18c876c3-02ea-4c77-9f62-cdbb1bb759a1.mp4)
 
 > Sound on, listen to those new switches.
 

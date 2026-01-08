@@ -5,7 +5,7 @@ title: Versioning Python Projects with Hatch
 published: true
 tags:
   - python
-cover: https://dropper.wayl.one/api/file/7564575a-6264-4d38-8ead-4ddb6c86f7c4.png
+cover: https://dropper.waylonwalker.com/api/file/7564575a-6264-4d38-8ead-4ddb6c86f7c4.png
 jinja: false
 
 ---
@@ -76,7 +76,7 @@ version = "0.0.0"
 
 > Statically versioning in pyproject.toml will not work with `hatch version`
 
-![hatch-static-version-error.webp](https://dropper.wayl.one/api/file/5e0db9e0-e60a-4a50-8f96-02f194347b2c.webp)
+![hatch-static-version-error.webp](https://dropper.waylonwalker.com/api/file/5e0db9e0-e60a-4a50-8f96-02f194347b2c.webp)
 
 ``` bash
 Cannot set version when it is statically defined by the `project.version` field
@@ -160,7 +160,7 @@ hatch release
 
 Here is a screenshot of bumping a projet along.
 
-![hatch-version-cli.webp](https://dropper.wayl.one/api/file/322a0310-0cea-4320-9f13-955bcd6b5e17.webp)
+![hatch-version-cli.webp](https://dropper.waylonwalker.com/api/file/322a0310-0cea-4320-9f13-955bcd6b5e17.webp)
 
 ## GitOps
 

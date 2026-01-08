@@ -8,11 +8,11 @@ tags:
   - design
 published: True
 slug: shots/helmet-hidden-in-design
-image: https://dropper.wayl.one/api/file/4cf7ea72-ad4b-421e-92ad-9d08e47b469a.png
+image: https://dropper.waylonwalker.com/api/file/4cf7ea72-ad4b-421e-92ad-9d08e47b469a.png
 description: A CAD design for a movable hinge that turned out looking like a space helmet.
 
 ---
 
-![helmet hidden in design](https://dropper.wayl.one/api/file/4cf7ea72-ad4b-421e-92ad-9d08e47b469a.png)
+![helmet hidden in design](https://dropper.waylonwalker.com/api/file/4cf7ea72-ad4b-421e-92ad-9d08e47b469a.png)
 
 > A CAD design for a movable hinge that turned out looking like a space helmet.

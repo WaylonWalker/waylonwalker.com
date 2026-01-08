@@ -7,8 +7,8 @@ tags:
   - family
 published: True
 slug: shots/rolling-down-a-big-hill
-image: https://dropper.wayl.one/api/file/f03f6378-0dca-44fd-8fb3-c4ce8079904d.png
+image: https://dropper.waylonwalker.com/api/file/f03f6378-0dca-44fd-8fb3-c4ce8079904d.png
 
 ---
 
-![Rolling Down a Big Hill](https://dropper.wayl.one/api/file/f03f6378-0dca-44fd-8fb3-c4ce8079904d.png)
+![Rolling Down a Big Hill](https://dropper.waylonwalker.com/api/file/f03f6378-0dca-44fd-8fb3-c4ce8079904d.png)

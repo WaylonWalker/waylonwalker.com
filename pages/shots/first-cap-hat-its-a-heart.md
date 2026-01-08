@@ -6,12 +6,12 @@ tags:
   - shots
 published: True
 slug: shots/first-cap-hat,-it's-a-heart
-image: https://dropper.wayl.one/api/file/485cb6ed-520b-46f0-98a0-fed231a8626d.jpg
+image: https://dropper.waylonwalker.com/api/file/485cb6ed-520b-46f0-98a0-fed231a8626d.jpg
 description: A 3d printed keycap with a heart glued to the top of it.  The heart resembles a pixelated game asset.
 
 ---
 
-![First Cap Hat, It's a heart](https://dropper.wayl.one/api/file/485cb6ed-520b-46f0-98a0-fed231a8626d.jpg)
+![First Cap Hat, It's a heart](https://dropper.waylonwalker.com/api/file/485cb6ed-520b-46f0-98a0-fed231a8626d.jpg)
 
 > A 3d printed keycap with a heart glued to the top of it.  The heart resembles a pixelated game asset.
 

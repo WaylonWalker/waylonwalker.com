@@ -8,11 +8,11 @@ tags:
   - gaming
 published: True
 slug: shots/entering-royal-waterway-hollow-knight-keeb-run
-image: https://dropper.wayl.one/api/file/58235f4d-701f-4ddc-a26d-ab5f9e0bdbfc.mp4
+image: https://dropper.waylonwalker.com/api/file/58235f4d-701f-4ddc-a26d-ab5f9e0bdbfc.mp4
 description: Entering the royal waterway during my hollow knight keeb only run.
 
 ---
 
-![entering royal waterway hollow knight keeb run](https://dropper.wayl.one/api/file/58235f4d-701f-4ddc-a26d-ab5f9e0bdbfc.mp4)
+![entering royal waterway hollow knight keeb run](https://dropper.waylonwalker.com/api/file/58235f4d-701f-4ddc-a26d-ab5f9e0bdbfc.mp4)
 
 > Entering the royal waterway during my hollow knight keeb only run.

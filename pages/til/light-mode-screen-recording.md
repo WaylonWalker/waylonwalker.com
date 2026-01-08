@@ -26,11 +26,11 @@ ffmpeg \
    screenrecording-2026-01-01_10-10-49-light.mp4
 ```
 
-![](https://dropper.wayl.one/file/1c53dbcb-4b84-4e94-9f04-a42986ab3fa1.mp4)
+![](https://dropper.waylonwalker.com/file/1c53dbcb-4b84-4e94-9f04-a42986ab3fa1.mp4)
 
 > Dark Mode
 
-![](https://dropper.wayl.one/file/de4e3378-6df2-45b1-84d5-0cc773ceb3c5.mp4)
+![](https://dropper.waylonwalker.com/file/de4e3378-6df2-45b1-84d5-0cc773ceb3c5.mp4)
 
 > Light Mode
 

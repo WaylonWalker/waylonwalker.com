@@ -7,11 +7,11 @@ tags:
   - knife
 published: True
 slug: shots/knife-sharpener-double-hinge-first-try
-image: https://dropper.wayl.one/api/file/30335f07-9cac-4e66-b908-f0e3cfbf7582.mp4
+image: https://dropper.waylonwalker.com/api/file/30335f07-9cac-4e66-b908-f0e3cfbf7582.mp4
 description: Testing out the double hinge knife sharpener holder for the first time.
 
 ---
 
-![knife sharpener double hinge first try](https://dropper.wayl.one/api/file/30335f07-9cac-4e66-b908-f0e3cfbf7582.mp4)
+![knife sharpener double hinge first try](https://dropper.waylonwalker.com/api/file/30335f07-9cac-4e66-b908-f0e3cfbf7582.mp4)
 
 > Testing out the double hinge knife sharpener holder for the first time.

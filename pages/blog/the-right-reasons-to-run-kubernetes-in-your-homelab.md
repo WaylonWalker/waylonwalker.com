@@ -86,4 +86,4 @@ I mostly do very simple things, deployments with a container, a volume and
 ingress.  Probably things that you could easily run on fly.io.  Theres nothing
 really fancy.  I just like how easy this setup works for **me**.
 
-![She's our friend and she's crazy](https://dropper.wayl.one/file/f8e88b6b-a668-4cea-9792-65339860b07f.webp)
+![She's our friend and she's crazy](https://dropper.waylonwalker.com/file/f8e88b6b-a668-4cea-9792-65339860b07f.webp)

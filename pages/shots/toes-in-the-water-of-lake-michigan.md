@@ -7,11 +7,11 @@ tags:
   - family
 published: True
 slug: shots/toes-in-the-water-of-lake-michigan
-image: https://dropper.wayl.one/api/file/c32445a9-b834-4f5f-8a9a-757c8161480d.png
+image: https://dropper.waylonwalker.com/api/file/c32445a9-b834-4f5f-8a9a-757c8161480d.png
 description: Sitting on a paddle board on Lake Michigan, enjoying the cool water on a hot day.
 
 ---
 
-![toes in the water of Lake Michigan](https://dropper.wayl.one/api/file/c32445a9-b834-4f5f-8a9a-757c8161480d.png)
+![toes in the water of Lake Michigan](https://dropper.waylonwalker.com/api/file/c32445a9-b834-4f5f-8a9a-757c8161480d.png)
 
 > Sitting on a paddle board on Lake Michigan, enjoying the cool water on a hot day.

@@ -14,7 +14,7 @@ to pull it off the bed immediately.
 
 
 
-![PXL_20230327_233801902.jpg](https://dropper.wayl.one/api/file/6dfde440-c83f-453e-b1f0-70d57bd58808.jpg)
+![PXL_20230327_233801902.jpg](https://dropper.waylonwalker.com/api/file/6dfde440-c83f-453e-b1f0-70d57bd58808.jpg)
 
 He woke me up at 5 am to tell me he found an stl online, installed the slicer software, set it up for our printer, sliced his model, got the gcode on the sd card, to the printer and had it running already while I was sleeping.
 

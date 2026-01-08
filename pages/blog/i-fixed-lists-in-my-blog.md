@@ -47,8 +47,8 @@ and changing the html at this low level would be quite difficult, this is easy.
 
 ## Before
 
-![image](https://dropper.wayl.one/api/file/5c48f763-5ef6-49b0-9e8f-5167ab046f05.webp)
+![image](https://dropper.waylonwalker.com/api/file/5c48f763-5ef6-49b0-9e8f-5167ab046f05.webp)
 
 ## After
 
-![image](https://dropper.wayl.one/api/file/0cf1c5d9-0948-444f-9a6c-387d22b9db43.webp)
+![image](https://dropper.waylonwalker.com/api/file/0cf1c5d9-0948-444f-9a6c-387d22b9db43.webp)

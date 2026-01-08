@@ -13,7 +13,7 @@ I'm running a two node k3s cluster at home, I _thought_ I could simply mount an
 nfs share on each worker node, and essentially have the same storage accross
 all nodes.  I'm already learning why this is not reccommended.
 
-![screenshot-2025-01-31T21-18-43-543Z.png](https://dropper.wayl.one/api/file/0e1f8cc5-4212-4c9a-b71c-e714abd43692.png)
+![screenshot-2025-01-31T21-18-43-543Z.png](https://dropper.waylonwalker.com/api/file/0e1f8cc5-4212-4c9a-b71c-e714abd43692.png)
 
 ## Slow
 
@@ -26,7 +26,7 @@ to build, and something I noticed was that markata was taking minutes to run
 glob _( search for files )_, normally this happens in a few ms and I never
 notice this step.
 
-![image](https://dropper.wayl.one/api/file/57605850-2537-41f9-a3cd-15ff2d41c330.webp)
+![image](https://dropper.waylonwalker.com/api/file/57605850-2537-41f9-a3cd-15ff2d41c330.webp)
 
 > I just moved into the master node and the results were wild at ~30x faster
 
@@ -44,7 +44,7 @@ other than that it's been fine.
 
 As the cache was warm subsequent runs only got better.
 
-![image](https://dropper.wayl.one/api/file/9681f8a0-2bdc-46a7-9764-2fd58dea6e7b.webp)
+![image](https://dropper.waylonwalker.com/api/file/9681f8a0-2bdc-46a7-9764-2fd58dea6e7b.webp)
 
 > I just checked again and we are now 80x faster
 

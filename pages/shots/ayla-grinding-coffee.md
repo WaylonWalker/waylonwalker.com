@@ -7,10 +7,10 @@ tags:
   - family
 published: True
 slug: shots/ayla-grinding-coffee
-image: https://dropper.wayl.one/api/file/1edfc2ad-8cf7-48d2-9bbc-6868022bf59d.png
+image: https://dropper.waylonwalker.com/api/file/1edfc2ad-8cf7-48d2-9bbc-6868022bf59d.png
 
 ---
 
-![Ayla Grinding Coffee](https://dropper.wayl.one/api/file/1edfc2ad-8cf7-48d2-9bbc-6868022bf59d.png)
+![Ayla Grinding Coffee](https://dropper.waylonwalker.com/api/file/1edfc2ad-8cf7-48d2-9bbc-6868022bf59d.png)
 
 > Ayla trying to grind my morning coffee, she sure tried her best this morning.

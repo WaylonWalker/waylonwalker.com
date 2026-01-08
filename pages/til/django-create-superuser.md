@@ -30,7 +30,7 @@ tells me that I need to run migrations to setup some tables for the
 python manage.py migrate
 ```
 
-![trydjango-migration.png](https://dropper.wayl.one/api/file/c5774ced-b535-42d3-bbdc-8be39da7795e.png)
+![trydjango-migration.png](https://dropper.waylonwalker.com/api/file/c5774ced-b535-42d3-bbdc-8be39da7795e.png)
 
 > yes I am still running remote on from my chromebook.
 
@@ -38,7 +38,7 @@ python manage.py migrate
 python manage.py createsuperuser
 ```
 
-![trydjango-create-superuser.png](https://dropper.wayl.one/api/file/b46c5a29-56d2-413f-bc14-f49353169ea3.png)
+![trydjango-create-superuser.png](https://dropper.waylonwalker.com/api/file/b46c5a29-56d2-413f-bc14-f49353169ea3.png)
 
 The super user has been created.
 
@@ -62,7 +62,7 @@ CSRF_TRUSTED_ORIGINS = ['https://localhost.waylonwalker.com']
 
 And we are in, and welcomed for the first time with this django admin panel.
 
-![trydjango-hello.webp](https://dropper.wayl.one/api/file/839b17ce-1850-44d4-a560-014e878934bd.webp)
+![trydjango-hello.webp](https://dropper.waylonwalker.com/api/file/839b17ce-1850-44d4-a560-014e878934bd.webp)
 
 ## Remote Hosting
 

@@ -8,11 +8,11 @@ tags:
   - gaming
 published: True
 slug: shots/aquiring-ismas-tear-hollow-knight-keeb-run
-image: https://dropper.wayl.one/api/file/c6a334a4-d8d3-4742-82ea-3b6e9eaa9923.mp4
+image: https://dropper.waylonwalker.com/api/file/c6a334a4-d8d3-4742-82ea-3b6e9eaa9923.mp4
 description: The long trek has paid off and we have aquired Isma's tear, it coats our outter shell with protective coating from the acid, giving us access to new parts of the world.
 
 ---
 
-![Aquiring Ismas Tear Hollow Knight Keeb Run](https://dropper.wayl.one/api/file/c6a334a4-d8d3-4742-82ea-3b6e9eaa9923.mp4)
+![Aquiring Ismas Tear Hollow Knight Keeb Run](https://dropper.waylonwalker.com/api/file/c6a334a4-d8d3-4742-82ea-3b6e9eaa9923.mp4)
 
 > The long trek has paid off and we have aquired Isma's tear, it coats our outter shell with protective coating from the acid, giving us access to new parts of the world.

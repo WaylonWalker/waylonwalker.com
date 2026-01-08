@@ -51,7 +51,7 @@ This pops open your $EDITOR with the last command in your history.
 sudo ls -l | wc -l
 ```
 
-![screenshot-2025-07-18T13-21-46-775Z.png](https://dropper.wayl.one/api/file/9d624d65-de40-459b-9566-6e5c833cabcc.png)
+![screenshot-2025-07-18T13-21-46-775Z.png](https://dropper.waylonwalker.com/api/file/9d624d65-de40-459b-9566-6e5c833cabcc.png)
 
 ## Shell History
 

@@ -22,4 +22,4 @@ config_overrides:
 
 ---
 
-![djangopolls-startapp.png](https://dropper.wayl.one/api/file/388f4342-8623-4ac7-9b4b-1d63cd82d2ad.png)
+![djangopolls-startapp.png](https://dropper.waylonwalker.com/api/file/388f4342-8623-4ac7-9b4b-1d63cd82d2ad.png)

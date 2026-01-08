@@ -23,12 +23,12 @@ RUN apt-get update && apt-get install -y \
 
 Here's what they were looking like with broken emoji fonts.
 
-![image](https://dropper.wayl.one/api/file/6e9060f2-0e15-4f22-88b6-b6ec5ddb34de.webp)
+![image](https://dropper.waylonwalker.com/api/file/6e9060f2-0e15-4f22-88b6-b6ec5ddb34de.webp)
 
 ## After
 
 And now with the fixed emoji font.
 
-![image](https://dropper.wayl.one/api/file/8ed5e338-50c2-4130-8cce-549ecc802f01.webp)
+![image](https://dropper.waylonwalker.com/api/file/8ed5e338-50c2-4130-8cce-549ecc802f01.webp)
 
 > I put thought bubbles on my thoughts posts and stars on my github stars posts

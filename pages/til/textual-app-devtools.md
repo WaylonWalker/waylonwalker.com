@@ -95,4 +95,4 @@ FEATURES: Final = {"devtools", "debug", "headless"}
 Here it is running with `tutorial --dev` on the left, and `textual console` on
 the right.
 
-![textual-tutorial-devtools.webp](https://dropper.wayl.one/api/file/01c4b236-fc55-4760-814a-d61d141ef1db.webp)
+![textual-tutorial-devtools.webp](https://dropper.waylonwalker.com/api/file/01c4b236-fc55-4760-814a-d61d141ef1db.webp)

@@ -70,7 +70,7 @@ These measurements were taken with pyinstrument mostly out of convenience since
 there is already a pyinstrument hook built in, but also because I like
 pyinstrument.
 
-![pyinstrument-markata==0.3.0b8-tils-hot.webp](https://dropper.wayl.one/api/file/4dca6bd0-8b81-4260-a303-b062f7152a8c.webp)
+![pyinstrument-markata==0.3.0b8-tils-hot.webp](https://dropper.waylonwalker.com/api/file/4dca6bd0-8b81-4260-a303-b062f7152a8c.webp)
 
 Here is the pyinstrument report from the last run.
 
@@ -79,7 +79,7 @@ Here is the pyinstrument report from the last run.
 This comparison was not very exhaustive. It was ran on my pretty new to me
 Ryzen 5 3600 machine.
 
-![neofetch-8-21-2022.webp](https://dropper.wayl.one/api/file/80cd2f7a-8cf0-42ae-a235-d537478d00a7.webp)
+![neofetch-8-21-2022.webp](https://dropper.waylonwalker.com/api/file/80cd2f7a-8cf0-42ae-a235-d537478d00a7.webp)
 
 ## The changes
 

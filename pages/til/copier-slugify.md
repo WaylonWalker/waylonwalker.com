@@ -79,7 +79,7 @@ _jinja_extensions:
 
 Running the template looks a bit like this.
 
-![copier-cookiecutter-slugify.webp](https://dropper.wayl.one/api/file/ffd34b52-cef7-4de8-b451-4426989fb70c.webp)
+![copier-cookiecutter-slugify.webp](https://dropper.waylonwalker.com/api/file/ffd34b52-cef7-4de8-b451-4426989fb70c.webp)
 
 ---
 

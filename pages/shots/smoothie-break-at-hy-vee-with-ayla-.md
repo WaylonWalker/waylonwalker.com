@@ -7,11 +7,11 @@ tags:
   - family
 published: True
 slug: shots/smoothie-break-at-hy-vee-with-ayla-
-image: https://dropper.wayl.one/api/file/f692419c-ba67-4e8e-bfe8-a3f498299bad.webp
+image: https://dropper.waylonwalker.com/api/file/f692419c-ba67-4e8e-bfe8-a3f498299bad.webp
 description: During Ayla's lunch break for Annie Jr, we went on a smoothie run to Hy-Vee.
 
 ---
 
-![Smoothie break at Hy-Vee with Ayla ](https://dropper.wayl.one/api/file/f692419c-ba67-4e8e-bfe8-a3f498299bad.webp)
+![Smoothie break at Hy-Vee with Ayla ](https://dropper.waylonwalker.com/api/file/f692419c-ba67-4e8e-bfe8-a3f498299bad.webp)
 
 > During Ayla's lunch break for Annie Jr, we went on a smoothie run to Hy-Vee.

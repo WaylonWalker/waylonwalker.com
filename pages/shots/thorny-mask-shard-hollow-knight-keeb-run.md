@@ -8,11 +8,11 @@ tags:
   - gaming
 published: True
 slug: shots/thorny-mask-shard-hollow-knight-keeb-run
-image: https://dropper.wayl.one/api/file/2b9b5302-7437-4910-a98c-bc96650e353c.mp4
+image: https://dropper.waylonwalker.com/api/file/2b9b5302-7437-4910-a98c-bc96650e353c.mp4
 description: A tricky parkour through the thorns to yield a mask shard and complete a full mask.
 
 ---
 
-![Thorny Mask Shard Hollow Knight Keeb Run](https://dropper.wayl.one/api/file/2b9b5302-7437-4910-a98c-bc96650e353c.mp4)
+![Thorny Mask Shard Hollow Knight Keeb Run](https://dropper.waylonwalker.com/api/file/2b9b5302-7437-4910-a98c-bc96650e353c.mp4)
 
 > A tricky parkour through the thorns to yield a mask shard and complete a full mask.

@@ -13,7 +13,7 @@ Today in my homelab I wanted to setup a new service that needed a MinIO access
 key. So I created a new user and a new access key with the MinIO CLI rather
 than poking through the ui like I have before.
 
-![screenshot-2025-02-03T02-13-38-628Z.png](https://dropper.wayl.one/api/file/2f706c5d-c591-4465-8d2b-eb18ce26aeca.png){.more-cinematic}
+![screenshot-2025-02-03T02-13-38-628Z.png](https://dropper.waylonwalker.com/api/file/2f706c5d-c591-4465-8d2b-eb18ce26aeca.png){.more-cinematic}
 
 ## Global Level vs User Level
 

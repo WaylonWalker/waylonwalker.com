@@ -15,7 +15,7 @@ convert to webp and drop them in a git submodule.  I may make it something
 other than a git repo in the future, but I've learned that adding images to my
 blog repo quickly makes it heavy and hard to clone on other machines.
 
-![obsidian-image-converter-20240731211310793.webp](https://dropper.wayl.one/api/file/626d85b1-5588-45c4-a4f4-c372dc7c8ff3.webp)
+![obsidian-image-converter-20240731211310793.webp](https://dropper.waylonwalker.com/api/file/626d85b1-5588-45c4-a4f4-c372dc7c8ff3.webp)
 
 Once the images are there they are pushed and deployed as their own site to
 cloudflare pages.  I made a quick edit to my [[sick-wikilink-hover]] plugin for

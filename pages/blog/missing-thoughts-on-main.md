@@ -50,7 +50,7 @@ of the emails from search console, but I did happen to see this one, and
 thought "Huh, that's odd" and went on with my day without another thought on the
 issue.
 
-![screenshot-2025-11-04T02-59-44-259Z.png](https://dropper.wayl.one/api/file/5601435b-2c87-4598-b01f-57e5eb737ebe.png)
+![screenshot-2025-11-04T02-59-44-259Z.png](https://dropper.waylonwalker.com/api/file/5601435b-2c87-4598-b01f-57e5eb737ebe.png)
 
 > Huh, that's odd
 

@@ -47,7 +47,7 @@ what it seems at surface level.
 
 ## Just use another library
 
-![image](https://dropper.wayl.one/api/file/4404a111-40be-4066-9ba0-08720133f011.webp)
+![image](https://dropper.waylonwalker.com/api/file/4404a111-40be-4066-9ba0-08720133f011.webp)
 > ~<https://www.neverjust.net/>
 
 Here Sam asks "Why don't you just use another library?", and Alex replies "If
@@ -81,7 +81,7 @@ should not be belittled like this because Sam is full of himself.
 
 ## Suggestions
 
-![image](https://dropper.wayl.one/api/file/b84360f0-a6bf-4c63-84d2-1710c6b06eca.webp)
+![image](https://dropper.waylonwalker.com/api/file/b84360f0-a6bf-4c63-84d2-1710c6b06eca.webp)
 > ~<https://www.neverjust.net/>
 
 The suggestions are _fine_, but they feel like they are asking me to hunt

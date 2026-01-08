@@ -27,7 +27,7 @@ This is the tiny ass form nested deeply in the flow of the feed.  When I made
 it I naively just swapped out the post itself with the edit form, and swapped
 the post back in after edit.
 
-![screenshot-2024-12-19T00-58-43-976Z.png](https://dropper.wayl.one/api/file/fe60b579-18d3-450e-87e2-2f5664f32210.webp)
+![screenshot-2024-12-19T00-58-43-976Z.png](https://dropper.waylonwalker.com/api/file/fe60b579-18d3-450e-87e2-2f5664f32210.webp)
 
 > thoughts is built with HTMX btw so all html is rendered in the backend and swapped by htmx client side.
 
@@ -37,7 +37,7 @@ Now the edit is a full page modal with a nice blurry backdrop effect to the
 rest of the content.  This feels pretty similar to making a `new post` on
 twitter.
 
-![screenshot-2024-12-19T00-59-21-503Z.png](https://dropper.wayl.one/api/file/c560e113-66c1-4532-9eb7-c75eb6d3aaf3.webp)
+![screenshot-2024-12-19T00-59-21-503Z.png](https://dropper.waylonwalker.com/api/file/c560e113-66c1-4532-9eb7-c75eb6d3aaf3.webp)
 
 ### How
 

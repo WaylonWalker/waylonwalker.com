@@ -8,11 +8,11 @@ tags:
   - gaming
 published: True
 slug: shots/ismas-tear-battle-hollow-knight-keeb-run
-image: https://dropper.wayl.one/api/file/4dd7d2cd-7d4a-473e-a483-f8f8512c6442.mp4
+image: https://dropper.waylonwalker.com/api/file/4dd7d2cd-7d4a-473e-a483-f8f8512c6442.mp4
 description: Finishing the battle before accessing Isma's tear in Hollow Knight
 
 ---
 
-![ismas tear battle hollow knight keeb run](https://dropper.wayl.one/api/file/4dd7d2cd-7d4a-473e-a483-f8f8512c6442.mp4)
+![ismas tear battle hollow knight keeb run](https://dropper.waylonwalker.com/api/file/4dd7d2cd-7d4a-473e-a483-f8f8512c6442.mp4)
 
 > Finishing the battle before accessing Isma's tear in Hollow Knight

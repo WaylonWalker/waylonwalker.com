@@ -54,13 +54,13 @@ def register_pipelines(self) -> Dict[str, Pipeline]:
 We could simply print out the code we have as a variable, but thats a bit hard
 to read.
 
-![print-register-pipelines.webp](https://dropper.wayl.one/api/file/765c471d-990f-4c7c-9c99-7a039c4db900.webp)
+![print-register-pipelines.webp](https://dropper.waylonwalker.com/api/file/765c471d-990f-4c7c-9c99-7a039c4db900.webp)
 
 ## console.print
 
 printing with [rich](https://github.com/Textualize/rich)'s console makes it a little better, but not much by default.
 
-![console-print-register-pipelines.webp](https://dropper.wayl.one/api/file/b946c8b4-c1f0-4d58-8709-90c8f95a1f77.webp)
+![console-print-register-pipelines.webp](https://dropper.waylonwalker.com/api/file/b946c8b4-c1f0-4d58-8709-90c8f95a1f77.webp)
 
 ## Syntax
 
@@ -71,7 +71,7 @@ syntax = Syntax(code, 'python', line_numbers=True)
 console.print(syntax)
 ```
 
-![syntax-print-register-pipelines.webp](https://dropper.wayl.one/api/file/f9329423-c0f5-4263-b241-b8f470fc758c.webp)
+![syntax-print-register-pipelines.webp](https://dropper.waylonwalker.com/api/file/f9329423-c0f5-4263-b241-b8f470fc758c.webp)
 
 Now we are getting some really impressive print outs right in the terminal!
 
@@ -89,7 +89,7 @@ syntax = Syntax(code, 'python', line_numbers=True, highlight_lines=[4])
 console.print(syntax)
 ```
 
-![syntax-print-register-pipelines-highlight-line.webp](https://dropper.wayl.one/api/file/20b4564e-3a08-4e5a-9bed-cda07779c8fb.webp)
+![syntax-print-register-pipelines-highlight-line.webp](https://dropper.waylonwalker.com/api/file/20b4564e-3a08-4e5a-9bed-cda07779c8fb.webp)
 
 This hows the line, but still is not very accurate.
 
@@ -109,7 +109,7 @@ console.print(syntax)
 This gives us the final result we are looking for, we can easily see what is
 being targeted here.  In this case the function name `register_pipelines`.
 
-![syntax-highlight-range-register-pipelines.webp](https://dropper.wayl.one/api/file/b5f27c34-6ffe-425c-b2df-8ade7c5b6f8b.webp)
+![syntax-highlight-range-register-pipelines.webp](https://dropper.waylonwalker.com/api/file/b5f27c34-6ffe-425c-b2df-8ade7c5b6f8b.webp)
 
 This turns out to be exacly what I am looking for.  Now I have an easy way to
 print out highlighted code wtih my

@@ -6,12 +6,12 @@ tags:
   - shots
 published: True
 slug: shots/cut-away-keycap-down
-image: https://dropper.wayl.one/api/file/a767d7d4-cd81-44fe-b3a7-2500df2d92df.jpg
+image: https://dropper.waylonwalker.com/api/file/a767d7d4-cd81-44fe-b3a7-2500df2d92df.jpg
 description: A cut away keycap on a Durock lupine switched pressed all the way to bottom out.
 
 ---
 
-![cut away keycap down](https://dropper.wayl.one/api/file/a767d7d4-cd81-44fe-b3a7-2500df2d92df.jpg)
+![cut away keycap down](https://dropper.waylonwalker.com/api/file/a767d7d4-cd81-44fe-b3a7-2500df2d92df.jpg)
 
 > A cut away keycap on a Durock lupine switched pressed all the way to bottom out.
 

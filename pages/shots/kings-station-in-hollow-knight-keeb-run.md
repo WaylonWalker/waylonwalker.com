@@ -8,11 +8,11 @@ tags:
   - gaming
 published: True
 slug: shots/kings-station-in-hollow-knight-keeb-run
-image: https://dropper.wayl.one/api/file/3651c0e1-6d99-4b54-95eb-5b955323a2e9.mp4
+image: https://dropper.waylonwalker.com/api/file/3651c0e1-6d99-4b54-95eb-5b955323a2e9.mp4
 description: Unlocking Kings station in my hollow knight keyboard only run
 
 ---
 
-![Kings Station in Hollow Knight Keeb run](https://dropper.wayl.one/api/file/3651c0e1-6d99-4b54-95eb-5b955323a2e9.mp4)
+![Kings Station in Hollow Knight Keeb run](https://dropper.waylonwalker.com/api/file/3651c0e1-6d99-4b54-95eb-5b955323a2e9.mp4)
 
 > Unlocking Kings station in my hollow knight keyboard only run

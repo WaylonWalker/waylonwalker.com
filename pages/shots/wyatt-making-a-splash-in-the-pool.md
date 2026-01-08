@@ -7,11 +7,11 @@ tags:
   - family
 published: True
 slug: shots/wyatt-making-a-splash-in-the-pool
-image: https://dropper.wayl.one/api/file/e8402e34-ec76-4652-b0bc-524735212e8d.webp
+image: https://dropper.waylonwalker.com/api/file/e8402e34-ec76-4652-b0bc-524735212e8d.webp
 description: Wyatt jumping into the pool, nose plugged ready to make a splash.
 
 ---
 
-![wyatt making a splash in the pool](https://dropper.wayl.one/api/file/e8402e34-ec76-4652-b0bc-524735212e8d.webp)
+![wyatt making a splash in the pool](https://dropper.waylonwalker.com/api/file/e8402e34-ec76-4652-b0bc-524735212e8d.webp)
 
 > Wyatt jumping into the pool, nose plugged ready to make a splash.

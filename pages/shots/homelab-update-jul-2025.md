@@ -7,11 +7,11 @@ tags:
   - homelab
 published: True
 slug: shots/homelab-update-jul-2025
-image: https://dropper.wayl.one/api/file/32ea8118-9ec5-4865-b3b4-8ccd14f23268.jpg
+image: https://dropper.waylonwalker.com/api/file/32ea8118-9ec5-4865-b3b4-8ccd14f23268.jpg
 description: Basement shelf with 3 computers, a network switch, an uninterubptable power supply, one monitor underneath, and a wifi access point to the right.
 
 ---
 
-![Homelab update Jul 2025](https://dropper.wayl.one/api/file/32ea8118-9ec5-4865-b3b4-8ccd14f23268.jpg)
+![Homelab update Jul 2025](https://dropper.waylonwalker.com/api/file/32ea8118-9ec5-4865-b3b4-8ccd14f23268.jpg)
 
 > Basement shelf with 3 computers, a network switch, an uninterubptable power supply, one monitor underneath, and a wifi access point to the right.

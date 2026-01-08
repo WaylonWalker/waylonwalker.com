@@ -25,16 +25,16 @@ simultaneously with pointer and thumbs.
 
 Here are some example layouts from [keymap-editor](https://nickcoutsos.github.io/keymap-editor/)
 
-![screenshot-2025-09-17T01-06-16-427Z.png](https://dropper.wayl.one/api/file/fd4d31aa-b151-4bce-b411-8e4480898b83.png)
+![screenshot-2025-09-17T01-06-16-427Z.png](https://dropper.waylonwalker.com/api/file/fd4d31aa-b151-4bce-b411-8e4480898b83.png)
 
 > 40% layout - similar to corne
 
-![screenshot-2025-09-17T01-05-02-298Z.png](https://dropper.wayl.one/api/file/74626408-cb1e-43bd-8c4c-7fb2abb16ea2.png)
+![screenshot-2025-09-17T01-05-02-298Z.png](https://dropper.waylonwalker.com/api/file/74626408-cb1e-43bd-8c4c-7fb2abb16ea2.png)
 
 > Here it is on my Son's 3x5 macropad
 
 
-![screenshot-2025-09-17T01-05-30-687Z.png](https://dropper.wayl.one/api/file/8afdd2cd-c362-40cb-b9ef-9cd70ba4b0cb.png)
+![screenshot-2025-09-17T01-05-30-687Z.png](https://dropper.waylonwalker.com/api/file/8afdd2cd-c362-40cb-b9ef-9cd70ba4b0cb.png)
 > Here it is on my 3x3 macropad
 
 ## Timing
@@ -42,5 +42,5 @@ Here are some example layouts from [keymap-editor](https://nickcoutsos.github.io
 You can even give it a long prior timeout to really make sure that its not an
 accidental hit.
 
-![screenshot-2025-09-17T01-10-22-100Z.png](https://dropper.wayl.one/api/file/4a0c7dc0-f096-4be2-9b4d-e89cb787179a.png)
+![screenshot-2025-09-17T01-10-22-100Z.png](https://dropper.waylonwalker.com/api/file/4a0c7dc0-f096-4be2-9b4d-e89cb787179a.png)
 

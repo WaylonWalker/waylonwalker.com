@@ -21,7 +21,7 @@ can bake it in to all of them with `--login <login-name>`
 ┃ NOTE: no gitea login detected, whether falling back to login 'git.waylonwalker.com'?
 ```
 
-![image showing message NOTE: no gitea login detected, whether falling back to login 'git.waylonwalker.com'?](https://dropper.wayl.one/file/11dc820d-1680-414c-9624-cd970b057a74.webp)
+![image showing message NOTE: no gitea login detected, whether falling back to login 'git.waylonwalker.com'?](https://dropper.waylonwalker.com/file/11dc820d-1680-414c-9624-cd970b057a74.webp)
 
 ``` bash
 tea repo create --name deleteme --description 'for example' --login git.wayl.one

@@ -29,7 +29,7 @@ description of 500 characters instead of the regular 120 character description.
 
 ## Before
 
-![image](https://dropper.wayl.one/api/file/8e9cf8e3-50ab-4e0a-be76-7241fbfe44c5.webp)
+![image](https://dropper.waylonwalker.com/api/file/8e9cf8e3-50ab-4e0a-be76-7241fbfe44c5.webp)
 
 ## After
-![image](https://dropper.wayl.one/api/file/29f96255-a89f-4ec6-b9e7-f61551366264.webp)
+![image](https://dropper.waylonwalker.com/api/file/29f96255-a89f-4ec6-b9e7-f61551366264.webp)

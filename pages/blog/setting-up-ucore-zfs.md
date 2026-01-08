@@ -38,11 +38,11 @@ maxed out the ram that the motherboard will allow me.  I may have even forgot
 about this limitation and ordered a 2x32gb setup for it and it did nothing.
 That's now sitting in my new k3s master node.
 
-![image](https://dropper.wayl.one/api/file/36b2d93e-ddb1-4a13-89bd-471cd5e42f14.webp)
+![image](https://dropper.waylonwalker.com/api/file/36b2d93e-ddb1-4a13-89bd-471cd5e42f14.webp)
 
 Here's a B&H photo post of the machine, she is big and heavy but still working.
 
-![image](https://dropper.wayl.one/api/file/75c30c6e-421b-4d99-8a22-1d552ca541fe.webp)
+![image](https://dropper.waylonwalker.com/api/file/75c30c6e-421b-4d99-8a22-1d552ca541fe.webp)
 
 I'm a big fan of keeping these old machines running and avoiding the e-waste
 pile, great for running a home lab.  Admittedly this is one is probably on its

@@ -8,7 +8,7 @@ tags:
 ---
 The other day I was watching [thePrimeTimeagen]https://youtube.com/@theprimetimeagen?si=jVcp23FbfQSFZfDc) and he talked about devs loving ai and artists revolting.  There was some discussion in chat about art being more creative and prime quickly squashed that.  He ended with being oddly confused why developers are jumping on board and artists are not.  Both had their art stolen to build out the models.
 
-![](https://dropper.wayl.one/file/e0f9e8bf-bc51-415c-ad25-6f2cd473e6d0.webp)
+![](https://dropper.waylonwalker.com/file/e0f9e8bf-bc51-415c-ad25-6f2cd473e6d0.webp)
 
 !!! Note my own vibes
     I'm writing this from my phone without further research, all vibes, personal experience, and thoughts,  no research.

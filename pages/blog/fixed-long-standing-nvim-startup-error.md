@@ -39,7 +39,7 @@ into lua and reading their tracebacks.  It pops up in this pager that if I
 scroll too far it quits and the error is gone before I know what it is or how
 it got there.
 
-![image](https://dropper.wayl.one/api/file/20eafd2f-fbcd-4f93-8bd9-541edf42fba4.webp)
+![image](https://dropper.waylonwalker.com/api/file/20eafd2f-fbcd-4f93-8bd9-541edf42fba4.webp)
 
 For the longest time it just felt like it randomly showed up without much warning.
 

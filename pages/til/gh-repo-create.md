@@ -17,7 +17,7 @@ create a repo right from the command line and push to it immediately.
 gh repo create waylonwalker-cli
 ```
 
-![gh-repo-create.webp](https://dropper.wayl.one/api/file/3a889b2a-d83f-4f42-a849-1c34b8e6365c.webp)
+![gh-repo-create.webp](https://dropper.waylonwalker.com/api/file/3a889b2a-d83f-4f42-a849-1c34b8e6365c.webp)
 
 ## want to see what this repo I created is about?
 

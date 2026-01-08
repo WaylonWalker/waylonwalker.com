@@ -25,4 +25,4 @@ body [fragmention]::before {
 
 Here is what it looks like on my not yet live implementation of fragmentions.
 
-![screenshot-2025-02-15T15-43-06-372Z.png](https://dropper.wayl.one/api/file/fb693b92-3744-45a5-9220-bd914162f435.png)
+![screenshot-2025-02-15T15-43-06-372Z.png](https://dropper.waylonwalker.com/api/file/fb693b92-3744-45a5-9220-bd914162f435.png)

@@ -61,4 +61,4 @@ Once textual is installed you can open up the devtools by running textual consol
 textual console
 ```
 
-![textual-console.webp](https://dropper.wayl.one/api/file/9a528fd8-7f06-4a6d-b46e-26165e4a0e93.webp)
+![textual-console.webp](https://dropper.waylonwalker.com/api/file/9a528fd8-7f06-4a6d-b46e-26165e4a0e93.webp)

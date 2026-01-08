@@ -22,11 +22,11 @@ need to move.  My go to offset for print in place on my printer is 0.2mm,
 sometimes 0.1mm depending on the scale.
 
 
-![knife sharpener double hinge first try](https://dropper.wayl.one/api/file/30335f07-9cac-4e66-b908-f0e3cfbf7582.mp4)
+![knife sharpener double hinge first try](https://dropper.waylonwalker.com/api/file/30335f07-9cac-4e66-b908-f0e3cfbf7582.mp4)
 
 A live hinged [[ knife-sharpener-double-hinge-first-try ]].
 
-![a box of caps and a macropad](https://dropper.wayl.one/api/file/ea421e67-5cb0-4a9f-be14-08a5004df493.jpg)
+![a box of caps and a macropad](https://dropper.waylonwalker.com/api/file/ea421e67-5cb0-4a9f-be14-08a5004df493.jpg)
 
 And in the hinges of [[ a-box-of-caps-and-a-macropad ]].
 
@@ -38,7 +38,7 @@ lot of science behind press fit joints, that's not happening in my house on my
 desktop printer.  Most of us don't have that kind of ability to gauge our
 outputs so I'm doing like a cook in the kitchen and going for feel.
 
-[![PXL_20251013_011946949.webp](https://dropper.wayl.one/api/file/e23a6965-a84b-4eb0-9d84-73ddc831949f.webp)](https://dropper.wayl.one/api/file/4a90cbe1-9124-4a6b-baf9-1545afe3dd00.webp)
+[![PXL_20251013_011946949.webp](https://dropper.waylonwalker.com/api/file/e23a6965-a84b-4eb0-9d84-73ddc831949f.webp)](https://dropper.waylonwalker.com/api/file/4a90cbe1-9124-4a6b-baf9-1545afe3dd00.webp)
 
 > Here are all of the experiements lined up.
 
@@ -49,7 +49,7 @@ I again, I feel like I should have known better.  3d printers generally have
 leaves us with the sharpest corner we can do at 0.2mm.
 
 
-![b49ea6a6-115b-44f8-99c0-d5f58f7c9940.webp](https://dropper.wayl.one/api/file/5533d56c-00e4-486d-b2a0-a994bbd1f1a4.webp)
+![b49ea6a6-115b-44f8-99c0-d5f58f7c9940.webp](https://dropper.waylonwalker.com/api/file/5533d56c-00e4-486d-b2a0-a994bbd1f1a4.webp)
 
 > Diagram courtesy of gpt-5.
 
@@ -62,7 +62,7 @@ cause the printer to follow a smooth curve rather than start and stop and
 potentially overflow a bit.  This difference in fillet size will also leave a
 little room for error and allow the important flat faces to mate together.
 
-![fillets.webp](https://dropper.wayl.one/api/file/ec3a9841-9b39-4180-96e4-613be79ee793.webp)
+![fillets.webp](https://dropper.waylonwalker.com/api/file/ec3a9841-9b39-4180-96e4-613be79ee793.webp)
 
 Here are the test results after filleting the edges of the dovetails to
 compensate for printer errors.
@@ -71,11 +71,11 @@ compensate for printer errors.
 
     !!! vsplit Before Fillets
 
-        [![PXL_20251013_014851451.webp](https://dropper.wayl.one/api/file/3ed04466-6303-4e72-b292-0f446785c9cb.webp)](https://dropper.wayl.one/api/file/a289064c-960c-4f83-8b92-ec8524f51690.webp)
+        [![PXL_20251013_014851451.webp](https://dropper.waylonwalker.com/api/file/3ed04466-6303-4e72-b292-0f446785c9cb.webp)](https://dropper.waylonwalker.com/api/file/a289064c-960c-4f83-8b92-ec8524f51690.webp)
 
     !!! vsplit After Fillets
 
-        [![PXL_20251013_014909663.webp](https://dropper.wayl.one/api/file/149a93d0-bce7-45df-845d-77c7a16c3218.webp)](https://dropper.wayl.one/api/file/ea3f4651-68b7-4aac-a00d-2f11db1f11a3.webp)
+        [![PXL_20251013_014909663.webp](https://dropper.waylonwalker.com/api/file/149a93d0-bce7-45df-845d-77c7a16c3218.webp)](https://dropper.waylonwalker.com/api/file/ea3f4651-68b7-4aac-a00d-2f11db1f11a3.webp)
 
 
 ## TLDR What works for me

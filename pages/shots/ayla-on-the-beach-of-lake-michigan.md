@@ -7,11 +7,11 @@ tags:
   - family
 published: True
 slug: shots/ayla-on-the-beach-of-lake-michigan
-image: https://dropper.wayl.one/api/file/6c5c00f4-fd9a-468e-83f2-5078823ad7a8.png
+image: https://dropper.waylonwalker.com/api/file/6c5c00f4-fd9a-468e-83f2-5078823ad7a8.png
 description: Ayla on the beach, about to jump into the chilly Lake Michigan.
 
 ---
 
-![Ayla on the beach of Lake Michigan](https://dropper.wayl.one/api/file/6c5c00f4-fd9a-468e-83f2-5078823ad7a8.png)
+![Ayla on the beach of Lake Michigan](https://dropper.waylonwalker.com/api/file/6c5c00f4-fd9a-468e-83f2-5078823ad7a8.png)
 
 > Ayla on the beach, about to jump into the chilly Lake Michigan.

@@ -13,9 +13,9 @@ Today I was playing with markdown split panels.  I want to be able to compare
 and constrast occasionually, today the inspiration hit to do this using
 admonitions.
 
-<!-- ![screenshot-2025-02-04T02-28-26-951Z.png](https://dropper.wayl.one/api/file/46ead069-5731-4028-886a-f76d56792691.png){.more-cinematic} -->
+<!-- ![screenshot-2025-02-04T02-28-26-951Z.png](https://dropper.waylonwalker.com/api/file/46ead069-5731-4028-886a-f76d56792691.png){.more-cinematic} -->
 
-![screenshot-2025-02-04T02-28-46-750Z.png](https://dropper.wayl.one/api/file/e3d40c22-643d-433c-8eb4-c3ddf91d0527.png){.more-cinematic}
+![screenshot-2025-02-04T02-28-46-750Z.png](https://dropper.waylonwalker.com/api/file/e3d40c22-643d-433c-8eb4-c3ddf91d0527.png){.more-cinematic}
 
 {.rounded-xl }
 !!! Note Mobile Users 🔄

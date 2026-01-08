@@ -14,7 +14,7 @@ Before deploying to cloudflare pages with wrangler you need a cloudflare api
 token.  You can get one at
 [dash.cloudflare.com/profile/api-tokens](https://dash.cloudflare.com/profile/api-tokens).
 
-![cloudflare-pages-api-token.png](https://dropper.wayl.one/api/file/7b566e55-98ff-4d96-b0bc-3c4e5b619d68.png)
+![cloudflare-pages-api-token.png](https://dropper.waylonwalker.com/api/file/7b566e55-98ff-4d96-b0bc-3c4e5b619d68.png)
 
 ## Install Wrangler
 

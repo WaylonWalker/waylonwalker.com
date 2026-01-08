@@ -26,7 +26,7 @@ tmux popup -h 100% -w 75% -x 0% figlet "Hello"
 
 <video autoplay="" controls="" loop="true" muted="" playsinline="" width="100%" class="rounded-xl border-pink-900 border-2">
      <source
-      src="https://dropper.wayl.one/api/file/c0e80bc5-a03d-40ad-a431-20436b82cf3b.mp4"
+      src="https://dropper.waylonwalker.com/api/file/c0e80bc5-a03d-40ad-a431-20436b82cf3b.mp4"
       type="video/mp4">
      Sorry, your browser doesn't support embedded videos.
 </video>

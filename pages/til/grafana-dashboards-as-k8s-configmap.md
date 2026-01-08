@@ -19,11 +19,11 @@ any ConfigMap with the grafana_dashboard label and import it.
 
 Go to Dashboards -> Pick a Dashboard -> Export -> JSON.
 
-![image](https://dropper.wayl.one/api/file/530e8515-a72a-4341-82d7-37f6f985e327.webp)
+![image](https://dropper.waylonwalker.com/api/file/530e8515-a72a-4341-82d7-37f6f985e327.webp)
 
-![image](https://dropper.wayl.one/api/file/d792b2db-2dcf-465f-a400-e84f199ec22d.webp)
+![image](https://dropper.waylonwalker.com/api/file/d792b2db-2dcf-465f-a400-e84f199ec22d.webp)
 
-![image](https://dropper.wayl.one/api/file/684701cc-efec-4e2b-9630-c8aea7ff5b14.webp)
+![image](https://dropper.waylonwalker.com/api/file/684701cc-efec-4e2b-9630-c8aea7ff5b14.webp)
 
 ``` yaml
 apiVersion: v1

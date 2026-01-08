@@ -6,12 +6,12 @@ tags:
   - shots
 published: True
 slug: shots/heart-of-a-macropad
-image: https://dropper.wayl.one/api/file/c924cd8b-7bfc-411f-af71-4b7c0f2005bc.jpg
+image: https://dropper.waylonwalker.com/api/file/c924cd8b-7bfc-411f-af71-4b7c0f2005bc.jpg
 description: A pixel heart kecap in the center of a macropad, the macropad is admittedly dirty, filled with small bits of fuzz.
 
 ---
 
-![heart of a macropad](https://dropper.wayl.one/api/file/c924cd8b-7bfc-411f-af71-4b7c0f2005bc.jpg)
+![heart of a macropad](https://dropper.waylonwalker.com/api/file/c924cd8b-7bfc-411f-af71-4b7c0f2005bc.jpg)
 
 > A pixel heart kecap in the center of a macropad, the macropad is admittedly dirty, filled with small bits of fuzz.
 

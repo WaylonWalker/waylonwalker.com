@@ -30,4 +30,4 @@ I am using the github api to get a list of my stars and then create posts in
 the github repo for my blog.  This allows me to keep track of things I star on
 GitHub in my own way, and share them out with my rss feeds.
 
-![image](https://dropper.wayl.one/api/file/2380f814-a8cb-45d1-bb5b-538d171933e3.webp)
+![image](https://dropper.waylonwalker.com/api/file/2380f814-a8cb-45d1-bb5b-538d171933e3.webp)

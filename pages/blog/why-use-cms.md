@@ -39,7 +39,7 @@ the go. I use [forestry.io](https://forestry.io) to do this for the most part.
 It gives me an image uploader, and a markdown editor to edit this blog right
 from my phone.
 
-![forestry editor](https://dropper.wayl.one/api/file/0555114b-1c25-41c4-803b-43d0a528e3cc.png)
+![forestry editor](https://dropper.waylonwalker.com/api/file/0555114b-1c25-41c4-803b-43d0a528e3cc.png)
 
 > My Blog on forestry.io
 

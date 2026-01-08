@@ -8,11 +8,11 @@ tags:
   - hollow-knight
 published: True
 slug: shots/mark-of-pride-hollow-knight-keeb-run
-image: https://dropper.wayl.one/api/file/b9af2296-60e9-4d92-989f-1529a59c75a1.mp4
+image: https://dropper.waylonwalker.com/api/file/b9af2296-60e9-4d92-989f-1529a59c75a1.mp4
 description: The Knight collects the mark of pride charm after defeating the mantis lords.
 
 ---
 
-![mark of pride hollow knight keeb run](https://dropper.wayl.one/api/file/b9af2296-60e9-4d92-989f-1529a59c75a1.mp4)
+![mark of pride hollow knight keeb run](https://dropper.waylonwalker.com/api/file/b9af2296-60e9-4d92-989f-1529a59c75a1.mp4)
 
 > The Knight collects the mark of pride charm after defeating the mantis lords.

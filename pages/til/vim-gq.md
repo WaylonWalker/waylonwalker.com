@@ -18,8 +18,8 @@ paragraph `gqap` to format the whole paragraph and not just the current line.
 
 ## before formatting
 
-![vim-gq-20240805122634078.webp](https://dropper.wayl.one/api/file/01c19159-c0b5-4920-b73c-774284b09940.webp)
+![vim-gq-20240805122634078.webp](https://dropper.waylonwalker.com/api/file/01c19159-c0b5-4920-b73c-774284b09940.webp)
 
 ## after formattting
 
-![vim-gq-20240805122700026.webp](https://dropper.wayl.one/api/file/e068e445-43e0-4e27-ac30-ac11e9cb9088.webp)
+![vim-gq-20240805122700026.webp](https://dropper.waylonwalker.com/api/file/e068e445-43e0-4e27-ac30-ac11e9cb9088.webp)
