@@ -27,7 +27,7 @@ controller.
 
 <a href='https://sealed-secrets.netlify.app/' >
 <img
-    src='https://shots.wayl.one/shot/?url=https://sealed-secrets.netlify.app/&height=450&width=800&scaled_width=800&scaled_height=450&selectors='
+    src='https://shots.waylonwalker.com/shot/?url=https://sealed-secrets.netlify.app/&height=450&width=800&scaled_width=800&scaled_height=450&selectors='
     alt='screenshot of https://sealed-secrets.netlify.app/'
     height='450'
     width='800'

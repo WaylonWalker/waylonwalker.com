@@ -22,7 +22,7 @@ and plan to keep. enjoy.
 
 <a href='https://kompose.io' >
 <img
-    src='https://shots.wayl.one/shot/?url=https://kompose.io/&height=450&width=800&scaled_width=800&scaled_height=450&selectors='
+    src='https://shots.waylonwalker.com/shot/?url=https://kompose.io/&height=450&width=800&scaled_width=800&scaled_height=450&selectors='
     alt='screenshot of https://kompose.io/'
     height='450'
     width='800'
@@ -45,7 +45,7 @@ to get my feet wet and learn.
 
 <a href='https://argoproj.github.io/cd/' >
 <img
-    src='https://shots.wayl.one/shot/?url=https://argoproj.github.io/cd/&height=450&width=800&scaled_width=800&scaled_height=450&selectors='
+    src='https://shots.waylonwalker.com/shot/?url=https://argoproj.github.io/cd/&height=450&width=800&scaled_width=800&scaled_height=450&selectors='
     alt='screenshot of https://argoproj.github.io/cd/'
     height='450'
     width='800'
@@ -68,7 +68,7 @@ original one will be left behind and I will be stuck manually cleaning it up.
 
 <a href='https://argoproj.github.io/rollouts/' >
 <img
-    src='https://shots.wayl.one/shot/?url=https://argoproj.github.io/rollouts/&height=450&width=800&scaled_width=800&scaled_height=450&selectors='
+    src='https://shots.waylonwalker.com/shot/?url=https://argoproj.github.io/rollouts/&height=450&width=800&scaled_width=800&scaled_height=450&selectors='
     alt='screenshot of https://argoproj.github.io/rollouts/'
     height='450'
     width='800'
@@ -88,7 +88,7 @@ application Id look closer.
 
 <a href='https://sealed-secrets.netlify.app/' >
 <img
-    src='https://shots.wayl.one/shot/?url=https://sealed-secrets.netlify.app/&height=450&width=800&scaled_width=800&scaled_height=450&selectors='
+    src='https://shots.waylonwalker.com/shot/?url=https://sealed-secrets.netlify.app/&height=450&width=800&scaled_width=800&scaled_height=450&selectors='
     alt='screenshot of https://sealed-secrets.netlify.app/'
     height='450'
     width='800'

@@ -21,7 +21,7 @@ statements "Everything must be unit tested, tests make code more maintainable."
 In reality when we are not writing complex low level code unit tests are
 probably the wrong approach.
 
-[![thought 192, a thought about theo's reaction to prime's unit testing](https://shots.wayl.one/shot/?url=https%3A%2F%2Fthoughts.waylonwalker.com%2Fpost-og%2F192&height=640&width=1280&scaled_width=1280&scaled_height=640&selectors=)](https://thoughts.waylonwalker.com/post/192)
+[![thought 192, a thought about theo's reaction to prime's unit testing](https://shots.waylonwalker.com/shot/?url=https%3A%2F%2Fthoughts.waylonwalker.com%2Fpost-og%2F192&height=640&width=1280&scaled_width=1280&scaled_height=640&selectors=)](https://thoughts.waylonwalker.com/post/192)
 
 ## Most of us are assemblers
 

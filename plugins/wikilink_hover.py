@@ -78,7 +78,7 @@ def hover_links(doc):
                 class="rounded-xl transition-height ease-in duration-75 h-0 opacity-0 group-hover:opacity-100 group-hover:h-[800px] max-w-none "
                 height="800" width="600"
                 style=' box-shadow: rgba(0, 0, 0, 0.6) 0 0 500rem 500rem; '
-                src="https://shots.wayl.one/shot/?url={href}&amp;height=1600&amp;width=1200&amp;scaled_width=600&amp;scaled_height=800&amp;selectors="
+                src="https://shots.waylonwalker.com/shot/?url={href}&amp;height=1600&amp;width=1200&amp;scaled_width=600&amp;scaled_height=800&amp;selectors="
                 >
         </a>
     </span>

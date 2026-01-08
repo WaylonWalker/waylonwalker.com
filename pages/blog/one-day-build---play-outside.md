@@ -45,7 +45,7 @@ So this is what I built, its a web app that checks the weather and air quality
 in your area and determines if its safe to go outside.  It will even recommend
 limiting your time, or wearing a coat.
 
-[![](https://shots.wayl.one/shot/?url=https://play-outside.wayl.one&amp;height=1200&amp;width=600&amp;scaled_width=600&amp;scaled_height=1200&amp;selectors=)](https://play-outside.wayl.one/)
+[![](https://shots.waylonwalker.com/shot/?url=https://play-outside.wayl.one&amp;height=1200&amp;width=600&amp;scaled_width=600&amp;scaled_height=1200&amp;selectors=)](https://play-outside.wayl.one/)
 
 ## The Stack
 
@@ -120,7 +120,7 @@ calculation for the feels like temerature already built in.
 
 <a href='https://openweathermap.org/' >
 <img
-    src='https://shots.wayl.one/shot/?url=https://openweathermap.org/&height=450&width=800&scaled_width=800&scaled_height=450&selectors='
+    src='https://shots.waylonwalker.com/shot/?url=https://openweathermap.org/&height=450&width=800&scaled_width=800&scaled_height=450&selectors='
     alt='screenshot of https://openweathermap.org/'
     height='450'
     width='800'
@@ -147,7 +147,7 @@ way to look this up for it to actually be useful. For this I leaned on
 
 <a href='https://ipwhois.io/' >
 <img
-    src='https://shots.wayl.one/shot/?url=https://ipwhois.io/&height=450&width=800&scaled_width=800&scaled_height=450&selectors='
+    src='https://shots.waylonwalker.com/shot/?url=https://ipwhois.io/&height=450&width=800&scaled_width=800&scaled_height=450&selectors='
     alt='screenshot of https://ipwhois.io/'
     height='450'
     width='800'

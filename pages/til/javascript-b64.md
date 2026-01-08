@@ -24,4 +24,4 @@ decoded = atob(encoded);
 
 Here is the result.
 
-[![screenshot of https://b64.wayl.one](http://shots.wayl.one/shot/?url=https://b64.wayl.one&height=450&width=800&scaled_width=800&scaled_height=450&selectors=)](https://b64.wayl.one)
+[![screenshot of https://b64.wayl.one](http://shots.waylonwalker.com/shot/?url=https://b64.wayl.one&height=450&width=800&scaled_width=800&scaled_height=450&selectors=)](https://b64.wayl.one)

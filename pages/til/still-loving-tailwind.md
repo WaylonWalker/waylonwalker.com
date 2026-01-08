@@ -33,7 +33,7 @@ make blogging easier. I've started hosting some tools for this blog that I
 really like that I think I can turn into a service. It's been fantastic to
 quickly pump out new pages with tailwind.
 
-[![screenshot of https://fokais.com](https://shots.wayl.one/shot/?url=https://fokais.com&height=600&width=1200&scaled_width=600&scaled_height=300&selectors=)](https://fokais.com)
+[![screenshot of https://fokais.com](https://shots.waylonwalker.com/shot/?url=https://fokais.com&height=600&width=1200&scaled_width=600&scaled_height=300&selectors=)](https://fokais.com)
 
 ## HTMX
 

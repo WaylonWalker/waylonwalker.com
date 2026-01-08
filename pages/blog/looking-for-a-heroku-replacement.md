@@ -23,7 +23,7 @@ hard, it's just pointing ci to a different host after the site has built.
 
 <a href='https://pages.cloudflare.com/' >
 <img
-    src='https://shots.wayl.one/shot/?url=https://pages.cloudflare.com/&height=450&width=800&scaled_width=800&scaled_height=450&selectors='
+    src='https://shots.waylonwalker.com/shot/?url=https://pages.cloudflare.com/&height=450&width=800&scaled_width=800&scaled_height=450&selectors='
     alt='screenshot of https://pages.cloudflare.com/'
     height='450'
     width='800'
@@ -42,7 +42,7 @@ disk all ready for you to use at a moments notice.
 <a href='https://heroku.com'>
 <img
 alt='screenshot of https://heroku.com'
-src='https://shots.wayl.one/shot/?url=https://heroku.com&height=450&width=800&scaled_width=800&scaled_height=450&selectors='
+src='https://shots.waylonwalker.com/shot/?url=https://heroku.com&height=450&width=800&scaled_width=800&scaled_height=450&selectors='
 height='450'
 width='800'
 </a>
@@ -58,7 +58,7 @@ be using all the time.
 
 <a href='https://fly.io'>
 <img
-src='https://shots.wayl.one/shot/?url=https://fly.io&height=450&width=800&scaled_width=800&scaled_height=450&selectors='
+src='https://shots.waylonwalker.com/shot/?url=https://fly.io&height=450&width=800&scaled_width=800&scaled_height=450&selectors='
 alt='screenshot of https://fly.io'
 height='450'
 width='800'
@@ -103,7 +103,7 @@ have 8 dedicated cpu, 16GB RAM, 500GB boot disk, and a 4TB hard disk.
 <a href='https://www.cloudflare.com/products/tunnel/'>
 <img
 alt='screenshot of https://www.cloudflare.com/products/tunnel/'
-src='https://shots.wayl.one/shot/?url=https://www.cloudflare.com/products/tunnel/&height=600&width=1200&scaled_width=1200&scaled_height=600&selectors='
+src='https://shots.waylonwalker.com/shot/?url=https://www.cloudflare.com/products/tunnel/&height=600&width=1200&scaled_width=1200&scaled_height=600&selectors='
 height='600'
 width='1200'
 />
@@ -132,7 +132,7 @@ There has to be tools that don't take an enterprise to manage.
 <a href='https://kubernetes.io/'>
 <img
 alt='screenshot of https://kubernetes.io/'
-src='https://shots.wayl.one/shot/?url=https://kubernetes.io/&height=450&width=800&scaled_width=800&scaled_height=450&selectors='
+src='https://shots.waylonwalker.com/shot/?url=https://kubernetes.io/&height=450&width=800&scaled_width=800&scaled_height=450&selectors='
 height='450'
 width='800'
 />
@@ -153,7 +153,7 @@ rediculous that must be.
 <a href='https://k3s.io/'>
 <img
 alt='screenshot of https://k3s.io/'
-src='https://shots.wayl.one/shot/?url=https://k3s.io/&height=450&width=800&scaled_width=800&scaled_height=450&selectors='
+src='https://shots.waylonwalker.com/shot/?url=https://k3s.io/&height=450&width=800&scaled_width=800&scaled_height=450&selectors='
 height='450'
 width='800'
 />
@@ -205,7 +205,7 @@ kubernetes.
 <a href='https://kompose.io/'>
 <img
 alt='screenshot of https://kompose.io'
-src='https://shots.wayl.one/shot/?url=https://kompose.io/&height=450&width=800&scaled_width=800&scaled_height=450&selectors='
+src='https://shots.waylonwalker.com/shot/?url=https://kompose.io/&height=450&width=800&scaled_width=800&scaled_height=450&selectors='
 height='450'
 width='800'
 />

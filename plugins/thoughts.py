@@ -61,7 +61,7 @@ def load(markata: "Markata") -> None:
         post["content"] = f"""
 <a href="{ post["link"] }">
     <img
-        src="https://shots.wayl.one/shot/?url={ post["link"] }&height=450&width=800&scaled_width=800&scaled_height=450&selectors=""
+        src="https://shots.waylonwalker.com/shot/?url={ post["link"] }&height=450&width=800&scaled_width=800&scaled_height=450&selectors=""
         alt="shot of post - { post["title"] }"
         height=450
         width=800

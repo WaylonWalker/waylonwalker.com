@@ -22,7 +22,7 @@ see how to cancel subscriptions in other languages. They include code samples
 for many popular languages.
 
 <a href="https://stripe.com/docs/billing/subscriptions/cancel#canceling" title="Cancel subscriptions | Stripe Documentation">
-    <img class="object-fit aspect-[800/450] w-full rounded-lg border border-black bg-neutral-900 shadow-lg shadow-neutral-900" src="https://shots.wayl.one/shot/?url=https%3A%2F%2Fstripe.com%2Fdocs%2Fbilling%2Fsubscriptions%2Fcancel%23canceling&amp;height=450&amp;width=800&amp;scaled_width=800&amp;scaled_height=450&amp;selectors=" alt="Cancel subscriptions | Stripe Documentation" title="Cancel subscriptions | Stripe Documentation">
+    <img class="object-fit aspect-[800/450] w-full rounded-lg border border-black bg-neutral-900 shadow-lg shadow-neutral-900" src="https://shots.waylonwalker.com/shot/?url=https%3A%2F%2Fstripe.com%2Fdocs%2Fbilling%2Fsubscriptions%2Fcancel%23canceling&amp;height=450&amp;width=800&amp;scaled_width=800&amp;scaled_height=450&amp;selectors=" alt="Cancel subscriptions | Stripe Documentation" title="Cancel subscriptions | Stripe Documentation">
 </a>
 
 ## User Model
