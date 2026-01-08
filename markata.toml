@@ -35,7 +35,7 @@ hooks = [
     'plugins.md_video',
     'plugins.post_model',
     'plugins.thoughts',
-    'plugins.ping_template',
+    # 'plugins.ping_template',
     # "plugins.wikilink_hover",
     # "plugins.wa_wikilink_hover",
     "plugins.tippy_wikilink_hover",
@@ -386,10 +386,6 @@ rel = "webmention"
 [[markata.head.meta]]
 name = "theme-color"
 content = "#322D39"
-
-[[markata.head.link]]
-rel = "preconnect"
-href = "https://dropper.wayl.one"
 
 [[ markata.head.link ]]
 href="/8bitcc_48x48.png"
