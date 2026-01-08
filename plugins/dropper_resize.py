@@ -17,7 +17,7 @@ hooks = [
 
 ```toml
 [dropper_media_wrapper]
-base_url = "https://dropper.wayl.one"  # Only media with src starting with this is touched
+base_url = "https://dropper.waylonwalker.com"  # Only media with src starting with this is touched
 default_width = 500                     # When no query string exists, add ?width=500
 enabled = true                          # Turn the plugin on/off
 ```
@@ -41,13 +41,13 @@ enabled = true                          # Turn the plugin on/off
 Example result (simplified):
 
 ```html
-<a href="https://dropper.wayl.one/api/file/…" data-dropper-anchor="created">
+<a href="https://dropper.waylonwalker.com/api/file/…" data-dropper-anchor="created">
   <video
     data-dropper="processed"
     data-dropper-width="added"
     data-dropper-wrap="new-wrapper"
   >
-    <source src="https://dropper.wayl.one/api/file/…?width=500" type="video/mp4" />
+    <source src="https://dropper.waylonwalker.com/api/file/…?width=500" type="video/mp4" />
   </video>
 </a>
 ```
@@ -74,7 +74,7 @@ MARKATA_PLUGIN_PACKAGE_NAME = "dropper-media-wrapper"
 class DropperMediaWrapperConfig(pydantic.BaseModel):
     """Configuration for the dropper media wrapper plugin."""
 
-    base_url: str = "https://dropper.wayl.one"
+    base_url: str = "https://dropper.waylonwalker.com"
     default_width: Union[int, str] = 500
     enabled: bool = True
 
