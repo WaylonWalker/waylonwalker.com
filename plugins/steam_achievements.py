@@ -169,10 +169,15 @@ def create_game_post(
 ) -> bool:
     """Create a comprehensive markdown post for a Steam game with all achievements."""
     # Create safe filename for game
+    game_name = game_data.name or f"game-{game_data.appid}"
     safe_game_name = "".join(
-        c for c in game_data.name if c.isalnum() or c in (" ", "-", "_")
+        c for c in game_name if c.isalnum() or c in (" ", "-", "_")
     ).rstrip()
     safe_game_name = safe_game_name.replace(" ", "-").lower()
+
+    # Ensure we don't get empty filename
+    if not safe_game_name:
+        safe_game_name = f"game-{game_data.appid}"
 
     # Create filename and path
     filename = f"{safe_game_name}.md"
@@ -221,28 +226,28 @@ def create_game_post(
     # Write post content with properly quoted frontmatter
     post_date = last_played_date or datetime.now().strftime("%Y-%m-%d")
     content = f"""---
-title: "{json.dumps(game_data.name).replace('"', "")}"
-description: "Steam achievements and progress for {
-        json.dumps(game_data.name).replace('"', "")
-    } - {game_data.completion_percentage}% complete with {
-        game_data.unlocked_achievements
-    }/{game_data.total_achievements} achievements unlocked."
-date: "{post_date}"
+title: {json.dumps(game_data.name)}
+description: {
+        json.dumps(
+            f"Steam achievements and progress for {game_data.name} - {game_data.completion_percentage}% complete with {game_data.unlocked_achievements}/{game_data.total_achievements} achievements unlocked."
+        )
+    }
+date: {json.dumps(post_date)}
 templateKey: steam_achievement
 steam:
-  game: "{json.dumps(game_data.name).replace('"', "")}"
+  game: {json.dumps(game_data.name)}
   app_id: {game_data.appid}
   total_achievements: {game_data.total_achievements}
   unlocked_achievements: {game_data.unlocked_achievements}
   completion_percentage: {game_data.completion_percentage}
   playtime_hours: {playtime_hours}
-  last_played: "{last_played_date}"
-  description: "{json.dumps(game_data.description or "").replace('"', "")}"
+  last_played: {json.dumps(last_played_date)}
+  description: {json.dumps(game_data.description or "")}
   developers: {json.dumps(game_data.developers or [])}
   publishers: {json.dumps(game_data.publishers or [])}
   achievements: {json.dumps(achievements_json)}
 tags: {json.dumps(["steam-game", "steam", "game", safe_game_name])}
-slug: "steam/{safe_game_name}"
+slug: {json.dumps(f"steam/{safe_game_name}")}
 ---
 
 <style>
@@ -616,14 +621,26 @@ def create_achievement_post(
     date_str = unlock_date.strftime("%Y-%m-%d")
 
     # Create filename
+    game_name = game_data.name or f"game-{game_data.appid}"
     safe_game_name = "".join(
-        c for c in game_data.name if c.isalnum() or c in (" ", "-", "_")
+        c for c in game_name if c.isalnum() or c in (" ", "-", "_")
     ).rstrip()
     safe_game_name = safe_game_name.replace(" ", "-").lower()
+
+    # Ensure we don't get empty game name
+    if not safe_game_name:
+        safe_game_name = f"game-{game_data.appid}"
+
     safe_achievement_name = "".join(
         c for c in (achievement.name or "") if c.isalnum() or c in (" ", "-", "_")
     ).rstrip()
     safe_achievement_name = safe_achievement_name.replace(" ", "-").lower()
+
+    # Ensure we don't get empty achievement name
+    if not safe_achievement_name:
+        safe_achievement_name = (
+            f"achievement-{achievement.apiname}" if achievement.apiname else "unknown"
+        )
 
     filename = f"{date_str}-{safe_game_name}-{safe_achievement_name}.md"
     filepath = posts_dir / filename
@@ -645,23 +662,23 @@ def create_achievement_post(
 
     # Write post content with properly quoted frontmatter
     content = f"""---
-title: "{json.dumps(achievement.name or f"Achievement in {game_data.name}").replace('"', "")}"
-description: "{game_data.name}: {json.dumps(achievement.description or "").replace('"', "")}"
-date: "{date_str}"
+title: {json.dumps(achievement.name or f"Achievement in {game_data.name}")}
+description: {json.dumps(f"{game_data.name}: {achievement.description or ''}")}
+date: {json.dumps(date_str)}
 templateKey: steam_achievement
 steam:
-  game: "{json.dumps(game_data.name).replace('"', "")}"
+  game: {json.dumps(game_data.name)}
   app_id: {game_data.appid}
   achievement:
-    name: "{json.dumps(achievement.name or "").replace('"', "")}"
-    description: "{json.dumps(achievement.description or "").replace('"', "")}"
-    api_name: "{json.dumps(achievement.apiname).replace('"', "")}"
-    unlock_time: "{achievement.unlocktime}"
-    unlock_date: "{json.dumps(unlock_date.isoformat()).replace('"', "")}"
-    icon: "{json.dumps(achievement.icon or "").replace('"', "")}"
-    icongray: "{json.dumps(achievement.icongray or "").replace('"', "")}"
+    name: {json.dumps(achievement.name or "")}
+    description: {json.dumps(achievement.description or "")}
+    api_name: {json.dumps(achievement.apiname)}
+    unlock_time: {json.dumps(achievement.unlocktime)}
+    unlock_date: {json.dumps(unlock_date.isoformat())}
+    icon: {json.dumps(achievement.icon or "")}
+    icongray: {json.dumps(achievement.icongray or "")}
 tags: {json.dumps(["steam-achievement", "steam", "achievement", safe_game_name])}
-slug: "steam/{safe_achievement_name}"
+slug: {json.dumps(f"steam/{safe_achievement_name}")}
 ---
 
 {badge_html}
@@ -887,9 +904,16 @@ def fetch_steam_achievements(
                 else []
             )
 
+        # Get game name from multiple sources
+        game_name = schema_data["game"].get("gameName")
+        if not game_name and game_data:
+            game_name = game_data.get("name")
+        if not game_name:
+            game_name = f"Game {app_id}"
+
         steam_game_data = SteamGameData(
             appid=app_id,
-            name=schema_data["game"].get("gameName", f"Game {app_id}"),
+            name=game_name,
             achievements=achievements,
             total_achievements=total_achievements,
             unlocked_achievements=unlocked_achievements,

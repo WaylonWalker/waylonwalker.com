@@ -2,7 +2,7 @@
 title: "ANIMAL WELL"
 description: "Steam achievements and progress for ANIMAL WELL - 80.0% complete with 16/20 achievements unlocked."
 date: "2025-06-06"
-templateKey: steam_game
+templateKey: steam_achievement
 steam:
   game: "ANIMAL WELL"
   app_id: 813230
@@ -14,8 +14,8 @@ steam:
   description: ""
   developers: []
   publishers: []
-tags: ["steam", "game", "animal-well"]
-url: "/animal-well/"
+  achievements: [{"apiname": "COLLECT_MAP", "name": "EXPLORER", "description": "Find the map", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/4bbbed9216852d1eb0ff7a9958cda1faff07bd95.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/50527e78efbb47e043479a9e960eeb2a4d55ba0a.jpg", "achieved": 1, "unlocktime": 1718066736}, {"apiname": "COLLECT_EGG", "name": "SECRET EGG", "description": "", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/931bc11f79bb2dd4d2031887ca25b83b24e993fd.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/50527e78efbb47e043479a9e960eeb2a4d55ba0a.jpg", "achieved": 1, "unlocktime": 1718066326}, {"apiname": "COLLECT_8_EGGS", "name": "EGG ENJOYER", "description": "", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/67666b8dffd5821527b45bbc3700d2a96b228599.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/50527e78efbb47e043479a9e960eeb2a4d55ba0a.jpg", "achieved": 1, "unlocktime": 1718573036}, {"apiname": "COLLECT_16_EGGS", "name": "EGG HOBBYIST", "description": "", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/705f4a039a16f1f1fb360afc0bb42112bff665d9.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/50527e78efbb47e043479a9e960eeb2a4d55ba0a.jpg", "achieved": 1, "unlocktime": 1718647085}, {"apiname": "COLLECT_32_EGGS", "name": "EGG LORD", "description": "", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/6c79fe492b58f6d8fea24c9ec54234e8a4c2fce5.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/50527e78efbb47e043479a9e960eeb2a4d55ba0a.jpg", "achieved": 1, "unlocktime": 1719334785}, {"apiname": "COLLECT_ALL_EGGS", "name": "EGG WELL", "description": "", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/8af0fbfaf4360a574eee911c978ee182db7d9f9f.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/50527e78efbb47e043479a9e960eeb2a4d55ba0a.jpg", "achieved": 0, "unlocktime": 0}, {"apiname": "FIND_RABBIT", "name": "SECRET RABBIT", "description": "", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/a2ca0d439c080e2fe2c95c1e8c43b2ccd325cb4b.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/50527e78efbb47e043479a9e960eeb2a4d55ba0a.jpg", "achieved": 1, "unlocktime": 1719536279}, {"apiname": "DEFEAT_CHAMELEON", "name": "CHAMELEON", "description": "", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/77b9c8684d6655207398681c47cbe91a2ace0f10.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/50527e78efbb47e043479a9e960eeb2a4d55ba0a.jpg", "achieved": 1, "unlocktime": 1719073588}, {"apiname": "DEFEAT_GHOST_DOG", "name": "GHOST", "description": "", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/72213dca4480c51f821b5da5e8b0ace552213ba0.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/50527e78efbb47e043479a9e960eeb2a4d55ba0a.jpg", "achieved": 1, "unlocktime": 1719792097}, {"apiname": "DEFEAT_SEAHORSE", "name": "SEAHORSE", "description": "", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/c552dad4473ef810557def44365bfa0d63ac4adc.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/50527e78efbb47e043479a9e960eeb2a4d55ba0a.jpg", "achieved": 1, "unlocktime": 1719535873}, {"apiname": "DEFEAT_OSTRICH", "name": "OSTRICH", "description": "", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/953f5501f27eb91fdc2caf246a1eebc175afaaea.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/50527e78efbb47e043479a9e960eeb2a4d55ba0a.jpg", "achieved": 1, "unlocktime": 1719794516}, {"apiname": "LIGHT_ALL_CANDLES", "name": "CANDLE BRIGHT", "description": "", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/4031f8ca0e462cf80eead1560d27b1be38c14989.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/50527e78efbb47e043479a9e960eeb2a4d55ba0a.jpg", "achieved": 1, "unlocktime": 1720659664}, {"apiname": "DEFEAT_MANTICORE", "name": "MANTICORE", "description": "", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/b2445d174dbf192475d426ac54400413a72fb25c.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/50527e78efbb47e043479a9e960eeb2a4d55ba0a.jpg", "achieved": 1, "unlocktime": 1719967983}, {"apiname": "GET_CRUSHED_BY_CHINCHILLA", "name": "GOOD ENDING", "description": "", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/56c7443888119e60b29017a724119edf4386e05a.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/50527e78efbb47e043479a9e960eeb2a4d55ba0a.jpg", "achieved": 0, "unlocktime": 0}, {"apiname": "RIDE_FRISBEE", "name": "BACK AND FORTH FOREVER", "description": "", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/00a015b4b1b16658f63daf1e08dc68b489e5dc0f.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/50527e78efbb47e043479a9e960eeb2a4d55ba0a.jpg", "achieved": 1, "unlocktime": 1718573774}, {"apiname": "POP_BUBBLES", "name": "BUBBLE ECSTASY", "description": "", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/e9188bf7f7ba2a6595e9c75c49b90e3b97a573a0.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/50527e78efbb47e043479a9e960eeb2a4d55ba0a.jpg", "achieved": 1, "unlocktime": 1719267804}, {"apiname": "LEAVE_WELL", "name": "EXIT", "description": "", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/b67e348882bab4d3519b915f4d332dec65a5b3c7.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/50527e78efbb47e043479a9e960eeb2a4d55ba0a.jpg", "achieved": 0, "unlocktime": 0}, {"apiname": "TOUCH_SQUIRREL", "name": "SNEAK", "description": "", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/c7aaac0e7bf1507298427f0f0d74c1c6ee54dd03.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/50527e78efbb47e043479a9e960eeb2a4d55ba0a.jpg", "achieved": 0, "unlocktime": 0}, {"apiname": "FLUTE_WARP", "name": "TRAVEL FLUTE", "description": "", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/6b669c974a60b4554799ee4311d54d269d1e0f17.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/50527e78efbb47e043479a9e960eeb2a4d55ba0a.jpg", "achieved": 1, "unlocktime": 1719334378}, {"apiname": "YOYO_RIDE", "name": "WALK THE DOG", "description": "", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/27cb14fe24e211ca7c8b694660a5e4ead36085a6.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813230/50527e78efbb47e043479a9e960eeb2a4d55ba0a.jpg", "achieved": 1, "unlocktime": 1718585382}]
+tags: ["steam-game", "steam", "game", "animal-well"]
 slug: "steam/animal-well"
 ---
 
@@ -240,7 +240,11 @@ slug: "steam/animal-well"
 </div>
 
 <div class="steam-game-progress">
-<h2>🎮 Game Progress & Stats</h2>
+<h2>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z" />
+</svg>
+ Game Progress & Stats</h2>
 
 <div class="stats-grid">
   <div class="stat-card">
@@ -269,7 +273,11 @@ slug: "steam/animal-well"
 
 
 <div class="achievement-section">
-<h2>🏆 Unlocked Achievements (16)</h2>
+<h2>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 18.75h-9m9 0a3 3 0 0 1 3 3h-15a3 3 0 0 1 3-3m9 0v-3.375c0-.621-.503-1.125-1.125-1.125h-.871M7.5 18.75v-3.375c0-.621.504-1.125 1.125-1.125h.872m5.007 0H9.497m5.007 0a7.454 7.454 0 0 1-.982-3.172M9.497 14.25a7.454 7.454 0 0 0 .981-3.172M5.25 4.236c-.982.143-1.954.317-2.916.52A6.003 6.003 0 0 0 7.73 9.728M5.25 4.236V4.5c0 2.108.966 3.99 2.48 5.228M5.25 4.236V2.721C7.456 2.41 9.71 2.25 12 2.25c2.291 0 4.545.16 6.75.47v1.516M7.73 9.728a6.726 6.726 0 0 0 2.748 1.35m8.272-6.842V4.5c0 2.108-.966 3.99-2.48 5.228m2.48-5.492a46.32 46.32 0 0 1 2.916.52 6.003 6.003 0 0 1-5.395 4.972m0 0a6.726 6.726 0 0 1-2.749 1.35m0 0a6.772 6.772 0 0 1-3.044 0" />
+</svg>
+ Unlocked Achievements (16)</h2>
 
 <div class="achievements-grid">
 
@@ -437,7 +445,12 @@ slug: "steam/animal-well"
 </div>
 
 <div class="achievement-section">
-<h2>🔒 Locked Achievements (4)</h2>
+<h2>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
+</svg>
+
+ Locked Achievements (4)</h2>
 
 <div class="achievements-grid">
 

@@ -1475,7 +1475,7 @@ reverse = true
 description = "Posts about stl"
 
 [[markata.feeds]]
-slug = "fastapi"
+slug = "fastapi-feed"
 filter = "date<=today and 'fastapi' in str(tags).lower() and published"
 sort = "date"
 reverse = true
@@ -2826,7 +2826,7 @@ card_template='image-card.html'
 [[markata.feeds]]
 title = 'Steam Achievements'
 slug = 'steam-achievements'
-filter = "'steam' in tags and 'achievement' in tags"
+filter = "'steam-achievement' in tags"
 sort = "date"
 reverse = true
 description = 'A feed of my steam achievements'
@@ -2835,11 +2835,11 @@ card_template='steam-achievement-card.html'
 [[markata.feeds]]
 title = 'Steam Games'
 slug = 'steam-games'
-filter = "'steam' in tags and 'gaming' in tags"
+filter = "'steam-game' in tags"
 sort = "date"
 reverse = true
 description = 'A feed of my steam achievements'
-# card_template='steam-achievement-card.html'
+card_template='steam-game-card.html'
 
 [[markata.feeds]]
 title = 'Steam'

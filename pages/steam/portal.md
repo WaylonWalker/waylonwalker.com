@@ -2,7 +2,7 @@
 title: "Portal"
 description: "Steam achievements and progress for Portal - 26.67% complete with 4/15 achievements unlocked."
 date: "2022-06-02"
-templateKey: steam_game
+templateKey: steam_achievement
 steam:
   game: "Portal"
   app_id: 400
@@ -14,8 +14,8 @@ steam:
   description: ""
   developers: []
   publishers: []
-tags: ["steam", "game", "portal"]
-url: "/portal/"
+  achievements: [{"apiname": "PORTAL_GET_PORTALGUNS", "name": "Lab Rat", "description": "Acquire the fully powered Aperture Science Handheld Portal Device.", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400/portal_getportalguns.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400/portal_getportalguns_bw.jpg", "achieved": 1, "unlocktime": 1647392938}, {"apiname": "PORTAL_KILL_COMPANIONCUBE", "name": "Fratricide", "description": "Do whatever it takes to survive.", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400/portal_kill_companioncube.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400/portal_kill_companioncube_bw.jpg", "achieved": 1, "unlocktime": 1648269563}, {"apiname": "PORTAL_ESCAPE_TESTCHAMBERS", "name": "Partygoer", "description": "Make the correct party escort submission position decision.", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400/portal_escape_testchambers.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400/portal_escape_testchambers_bw.jpg", "achieved": 1, "unlocktime": 1654000678}, {"apiname": "PORTAL_BEAT_GAME", "name": "Heartbreaker", "description": "Complete Portal.", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400/portal_beat_game.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400/portal_beat_game_bw.jpg", "achieved": 0, "unlocktime": 0}, {"apiname": "PORTAL_INFINITEFALL", "name": "Terminal Velocity", "description": "Fall 30,000 feet.", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400/portal_infinitefall.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400/portal_infinitefall_bw.jpg", "achieved": 0, "unlocktime": 0}, {"apiname": "PORTAL_LONGJUMP", "name": "Long Jump", "description": "Jump 300 feet.", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400/portal_longjump.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400/portal_longjump_bw.jpg", "achieved": 0, "unlocktime": 0}, {"apiname": "PORTAL_BEAT_2ADVANCEDMAPS", "name": "Cupcake", "description": "Beat two Portal advanced maps.", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400/portal_beat_2advancedmaps.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400/portal_beat_2advancedmaps_bw.jpg", "achieved": 0, "unlocktime": 0}, {"apiname": "PORTAL_BEAT_4ADVANCEDMAPS", "name": "Fruitcake", "description": "Beat four Portal advanced maps.", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400/portal_beat_4advancedmaps.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400/portal_beat_4advancedmaps_bw.jpg", "achieved": 0, "unlocktime": 0}, {"apiname": "PORTAL_BEAT_6ADVANCEDMAPS", "name": "Vanilla Crazy Cake", "description": "Beat all six Portal advanced maps.", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400/portal_beat_6advancedmaps.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400/portal_beat_6advancedmaps_bw.jpg", "achieved": 0, "unlocktime": 0}, {"apiname": "PORTAL_GET_ALLBRONZE", "name": "Basic Science", "description": "Earn bronze medals on all Portal challenges.", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400/portal_get_allbronze.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400/portal_get_allbronze_bw.jpg", "achieved": 0, "unlocktime": 0}, {"apiname": "PORTAL_GET_ALLSILVER", "name": "Rocket Science", "description": "Earn silver medals on all Portal challenges.", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400/portal_get_allsilver.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400/portal_get_allsilver_bw.jpg", "achieved": 0, "unlocktime": 0}, {"apiname": "PORTAL_GET_ALLGOLD", "name": "Aperture Science", "description": "Earn gold medals on all Portal challenges.", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400/portal_get_allgold.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400/portal_get_allgold_bw.jpg", "achieved": 0, "unlocktime": 0}, {"apiname": "PORTAL_DETACH_ALL_CAMERAS", "name": "Camera Shy", "description": "Detach security cameras from the walls.", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400/portal_detach_all_cameras.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400/portal_detach_all_cameras_bw.jpg", "achieved": 0, "unlocktime": 0}, {"apiname": "PORTAL_HIT_TURRET_WITH_TURRET", "name": "Friendly Fire", "description": "Knock down a turret with another turret.", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400/portal_hit_turret_with_turret.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400/portal_hit_turret_with_turret_bw.jpg", "achieved": 1, "unlocktime": 1648268281}, {"apiname": "PORTAL_TRANSMISSION_RECEIVED", "name": "Transmission Received", "description": "..?", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400/cfc27e918907ca28d9a4b77f7f4537cf52b4bfa2.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400/d3a7fbca2549d043955d33cb5eaf30259dcf41ac.jpg", "achieved": 0, "unlocktime": 0}]
+tags: ["steam-game", "steam", "game", "portal"]
 slug: "steam/portal"
 ---
 
@@ -240,7 +240,11 @@ slug: "steam/portal"
 </div>
 
 <div class="steam-game-progress">
-<h2>🎮 Game Progress & Stats</h2>
+<h2>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z" />
+</svg>
+ Game Progress & Stats</h2>
 
 <div class="stats-grid">
   <div class="stat-card">
@@ -269,7 +273,11 @@ slug: "steam/portal"
 
 
 <div class="achievement-section">
-<h2>🏆 Unlocked Achievements (4)</h2>
+<h2>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 18.75h-9m9 0a3 3 0 0 1 3 3h-15a3 3 0 0 1 3-3m9 0v-3.375c0-.621-.503-1.125-1.125-1.125h-.871M7.5 18.75v-3.375c0-.621.504-1.125 1.125-1.125h.872m5.007 0H9.497m5.007 0a7.454 7.454 0 0 1-.982-3.172M9.497 14.25a7.454 7.454 0 0 0 .981-3.172M5.25 4.236c-.982.143-1.954.317-2.916.52A6.003 6.003 0 0 0 7.73 9.728M5.25 4.236V4.5c0 2.108.966 3.99 2.48 5.228M5.25 4.236V2.721C7.456 2.41 9.71 2.25 12 2.25c2.291 0 4.545.16 6.75.47v1.516M7.73 9.728a6.726 6.726 0 0 0 2.748 1.35m8.272-6.842V4.5c0 2.108-.966 3.99-2.48 5.228m2.48-5.492a46.32 46.32 0 0 1 2.916.52 6.003 6.003 0 0 1-5.395 4.972m0 0a6.726 6.726 0 0 1-2.749 1.35m0 0a6.772 6.772 0 0 1-3.044 0" />
+</svg>
+ Unlocked Achievements (4)</h2>
 
 <div class="achievements-grid">
 
@@ -317,7 +325,12 @@ slug: "steam/portal"
 </div>
 
 <div class="achievement-section">
-<h2>🔒 Locked Achievements (11)</h2>
+<h2>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
+</svg>
+
+ Locked Achievements (11)</h2>
 
 <div class="achievements-grid">
 

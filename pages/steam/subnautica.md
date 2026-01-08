@@ -2,7 +2,7 @@
 title: "Subnautica"
 description: "Steam achievements and progress for Subnautica - 5.88% complete with 1/17 achievements unlocked."
 date: "2023-03-19"
-templateKey: steam_game
+templateKey: steam_achievement
 steam:
   game: "Subnautica"
   app_id: 264710
@@ -14,8 +14,8 @@ steam:
   description: ""
   developers: []
   publishers: []
-tags: ["steam", "game", "subnautica"]
-url: "/subnautica/"
+  achievements: [{"apiname": "DiveForTheVeryFirstTime", "name": "Getting Your Feet Wet", "description": "", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264710/89b61cdeb0e1b6d22532245ce394f00d0a4277e1.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264710/680214ffd7727865ea404b897aecbc0f667a9377.jpg", "achieved": 1, "unlocktime": 1669990796}, {"apiname": "RepairAuroraReactor", "name": "Extinction Event Avoided", "description": "", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264710/1c59192a1e1ce720cd3dc77a1ea4e663f1f5516f.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264710/680214ffd7727865ea404b897aecbc0f667a9377.jpg", "achieved": 0, "unlocktime": 0}, {"apiname": "FindPrecursorGun", "name": "Ancient Technologies", "description": "", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264710/2f259d67e1dc3ef2b5e5ddc7be831913f31cb487.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264710/680214ffd7727865ea404b897aecbc0f667a9377.jpg", "achieved": 0, "unlocktime": 0}, {"apiname": "FindPrecursorLavaCastleFacility", "name": "Thermal Activity", "description": "", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264710/7c1974d7b0f21d2468fe5b5502f199f5a29d9db3.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264710/680214ffd7727865ea404b897aecbc0f667a9377.jpg", "achieved": 0, "unlocktime": 0}, {"apiname": "FindPrecursorLostRiverFacility", "name": "Follow the Lost River", "description": "", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264710/8ab1258816b3ac7335e8a47117c96873bc48ae0c.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264710/680214ffd7727865ea404b897aecbc0f667a9377.jpg", "achieved": 0, "unlocktime": 0}, {"apiname": "FindPrecursorPrisonFacility", "name": "Fourteen Thousand Leagues Under the Sea", "description": "", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264710/66edf908be6a6173f888b5310cf2428a0b40a4e8.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264710/680214ffd7727865ea404b897aecbc0f667a9377.jpg", "achieved": 0, "unlocktime": 0}, {"apiname": "CureInfection", "name": "Optimal Health", "description": "", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264710/5d53afaee44fab645a077d1fcb9ad4bfde5b1e55.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264710/680214ffd7727865ea404b897aecbc0f667a9377.jpg", "achieved": 0, "unlocktime": 0}, {"apiname": "DeployTimeCapsule", "name": "Leave Only Time Capsules", "description": "", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264710/aa59a1fe5fbb7817c019ebc4231192bc46b2b135.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264710/680214ffd7727865ea404b897aecbc0f667a9377.jpg", "achieved": 0, "unlocktime": 0}, {"apiname": "FindDegasiFloatingIslandsBase", "name": "Seaside Living with an Ocean View", "description": "", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264710/3c47b1e46f21afed1a296d4fe383722a7d312223.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264710/680214ffd7727865ea404b897aecbc0f667a9377.jpg", "achieved": 0, "unlocktime": 0}, {"apiname": "FindDegasiJellyshroomCavesBase", "name": "Follow the Degasi", "description": "", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264710/530a49b76aad005d02e6cc3b6cf19b3fb60815e4.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264710/680214ffd7727865ea404b897aecbc0f667a9377.jpg", "achieved": 0, "unlocktime": 0}, {"apiname": "FindDegasiDeepGrandReefBase", "name": "Seamonsters", "description": "", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264710/e67c2496dd850ae266c8222147a0b78fadaf0157.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264710/680214ffd7727865ea404b897aecbc0f667a9377.jpg", "achieved": 0, "unlocktime": 0}, {"apiname": "BuildBase", "name": "Settling in for the Long Haul", "description": "", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264710/21fa099607c13201052f4ff3069586b03acc060f.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264710/680214ffd7727865ea404b897aecbc0f667a9377.jpg", "achieved": 0, "unlocktime": 0}, {"apiname": "BuildSeamoth", "name": "Personal Propulsion", "description": "", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264710/86ebd72e1995e5e028d3349210a0a7edd35eb74a.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264710/680214ffd7727865ea404b897aecbc0f667a9377.jpg", "achieved": 0, "unlocktime": 0}, {"apiname": "BuildCyclops", "name": "40-foot Sub For One", "description": "", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264710/05ff8c856aff58c01afdc178391cf91d23590c46.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264710/680214ffd7727865ea404b897aecbc0f667a9377.jpg", "achieved": 0, "unlocktime": 0}, {"apiname": "BuildExosuit", "name": "Ordered the Prawn", "description": "", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264710/404e5925552ad55132869fd9793e573afb3966a8.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264710/680214ffd7727865ea404b897aecbc0f667a9377.jpg", "achieved": 0, "unlocktime": 0}, {"apiname": "LaunchRocket", "name": "Go Among the Stars", "description": "", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264710/473d07e72c5c13d2d24cb1b96c779654a919979c.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264710/680214ffd7727865ea404b897aecbc0f667a9377.jpg", "achieved": 0, "unlocktime": 0}, {"apiname": "HatchCutefish", "name": "\"Man's Best Friend\"", "description": "", "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264710/7e5b3420b69b9077e7d068dc6f9c646725577599.jpg", "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264710/680214ffd7727865ea404b897aecbc0f667a9377.jpg", "achieved": 0, "unlocktime": 0}]
+tags: ["steam-game", "steam", "game", "subnautica"]
 slug: "steam/subnautica"
 ---
 
@@ -240,7 +240,11 @@ slug: "steam/subnautica"
 </div>
 
 <div class="steam-game-progress">
-<h2>🎮 Game Progress & Stats</h2>
+<h2>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z" />
+</svg>
+ Game Progress & Stats</h2>
 
 <div class="stats-grid">
   <div class="stat-card">
@@ -269,7 +273,11 @@ slug: "steam/subnautica"
 
 
 <div class="achievement-section">
-<h2>🏆 Unlocked Achievements (1)</h2>
+<h2>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 18.75h-9m9 0a3 3 0 0 1 3 3h-15a3 3 0 0 1 3-3m9 0v-3.375c0-.621-.503-1.125-1.125-1.125h-.871M7.5 18.75v-3.375c0-.621.504-1.125 1.125-1.125h.872m5.007 0H9.497m5.007 0a7.454 7.454 0 0 1-.982-3.172M9.497 14.25a7.454 7.454 0 0 0 .981-3.172M5.25 4.236c-.982.143-1.954.317-2.916.52A6.003 6.003 0 0 0 7.73 9.728M5.25 4.236V4.5c0 2.108.966 3.99 2.48 5.228M5.25 4.236V2.721C7.456 2.41 9.71 2.25 12 2.25c2.291 0 4.545.16 6.75.47v1.516M7.73 9.728a6.726 6.726 0 0 0 2.748 1.35m8.272-6.842V4.5c0 2.108-.966 3.99-2.48 5.228m2.48-5.492a46.32 46.32 0 0 1 2.916.52 6.003 6.003 0 0 1-5.395 4.972m0 0a6.726 6.726 0 0 1-2.749 1.35m0 0a6.772 6.772 0 0 1-3.044 0" />
+</svg>
+ Unlocked Achievements (1)</h2>
 
 <div class="achievements-grid">
 
@@ -287,7 +295,12 @@ slug: "steam/subnautica"
 </div>
 
 <div class="achievement-section">
-<h2>🔒 Locked Achievements (16)</h2>
+<h2>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
+</svg>
+
+ Locked Achievements (16)</h2>
 
 <div class="achievements-grid">
 
