@@ -25,4 +25,4 @@ planning and excited to work on the forklift next.  Overall there is just so
 much stress in the world right now, the best I can do is be grateful that I
 still have those around me at the end of the day.
 
-![Wyatt focused on the crane build](https://dropper.wayl.one/api/file/9aa6341a-bc52-4faf-8019-bb92080c6033.png)
+![Wyatt focused on the crane build](https://dropper.waylonwalker.com/api/file/9aa6341a-bc52-4faf-8019-bb92080c6033.png)

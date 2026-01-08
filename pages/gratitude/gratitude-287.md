@@ -10,4 +10,4 @@ The weather is beautiful, overcast, has an odd humid warmness to the chest and c
 
 I just took Ayla to reindeer practice and she was singing the whole way.  That girl can sing.  She has an amazing voice, it's in there and she is learning to control it more and more, I can hear the improvement.  Today she popped out some soprano Galinda and wow, I think it's fantastic.  I'm not vocal coach so I might have my rose tinted dad glasses on here, but it seems like that's her range somehow and she has been trying to make the wrong range work for her 
 
-![looking down at my sawdusty busted shoes in the orange leaves](https://dropper.wayl.one/file/35ccab0b-27b6-4f5c-af7f-9e3407aa683d.webp?width=500)
+![looking down at my sawdusty busted shoes in the orange leaves](https://dropper.waylonwalker.com/file/35ccab0b-27b6-4f5c-af7f-9e3407aa683d.webp?width=500)

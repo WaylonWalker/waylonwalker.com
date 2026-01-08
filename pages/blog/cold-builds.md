@@ -13,7 +13,7 @@ long time and would like to have some references to go back to, and wish I had
 kept a few profiles of cold builds laying around to compare with. The time is
 now lets keep some cold build links around for reference.
 
-![screenshot-2025-01-31T21-23-56-725Z.png](https://dropper.wayl.one/api/file/cd8f9d96-948a-4e94-aa3d-2c352bb5657b.png){.more-cinematic}
+![screenshot-2025-01-31T21-23-56-725Z.png](https://dropper.waylonwalker.com/api/file/cd8f9d96-948a-4e94-aa3d-2c352bb5657b.png){.more-cinematic}
 
 ## 01/27/2025
 

@@ -6,12 +6,12 @@ tags:
   - shots
 published: True
 slug: shots/bambu-poop-flinger-jammed
-image: https://dropper.wayl.one/file/4225fa8a-65cd-48fe-81aa-31ad3ac86dc4.webp
+image: https://dropper.waylonwalker.com/file/4225fa8a-65cd-48fe-81aa-31ad3ac86dc4.webp
 description: My bambu A1 poop flinger has been getting jammed up for awhile now, here is an image of it in the jammed position.
 
 ---
 
-![bambu poop flinger jammed](https://dropper.wayl.one/file/4225fa8a-65cd-48fe-81aa-31ad3ac86dc4.webp)
+![bambu poop flinger jammed](https://dropper.waylonwalker.com/file/4225fa8a-65cd-48fe-81aa-31ad3ac86dc4.webp)
 
 > My bambu A1 poop flinger has been getting jammed up for awhile now, here is an image of it in the jammed position.
 

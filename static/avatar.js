@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (url.origin === window.location.origin) return;
     if (url.origin === 'https://waylonwalker.com') return;
     if (url.origin === 'https://wayl.one') return;
-    if (url.origin === 'https://dropper.wayl.one') return;
+    if (url.origin === 'https://dropper.waylonwalker.com') return;
     let faviconUrl = "https://avatars.wayl.one/avatar/" + encodeURIComponent(url.origin) + "/";
     link.style.setProperty('--favicon-url', `url(${faviconUrl})`);
     link.setAttribute("data-favicon", faviconUrl);

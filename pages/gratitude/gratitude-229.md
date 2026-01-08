@@ -14,4 +14,4 @@ through the woods occasionally wondering if we would ever find it again.
 Occasionally wondering if turning back would be faster to get back or if we
 should keep moving forward to finish the journey.
 
-![image](https://dropper.wayl.one/api/file/fff4e50a-2687-4a3b-ab73-489b1e857b77.webp){.more-cinematic}
+![image](https://dropper.waylonwalker.com/api/file/fff4e50a-2687-4a3b-ab73-489b1e857b77.webp){.more-cinematic}

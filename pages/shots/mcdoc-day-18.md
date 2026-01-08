@@ -8,11 +8,11 @@ tags:
 - minecraft
 published: true
 slug: shots/mcdoc-day-18
-image: https://dropper.wayl.one/api/file/2435ba65-066b-468e-aaed-05a1bc3fbaf8.webp
+image: https://dropper.waylonwalker.com/api/file/2435ba65-066b-468e-aaed-05a1bc3fbaf8.webp
 description: A crows nest added atop the storage silo offers a high lookout.
 ---
 
-![Minecraft Doc Day 18](https://dropper.wayl.one/api/file/2435ba65-066b-468e-aaed-05a1bc3fbaf8.webp)
+![Minecraft Doc Day 18](https://dropper.waylonwalker.com/api/file/2435ba65-066b-468e-aaed-05a1bc3fbaf8.webp)
 
 > A crows nest added atop the storage silo offers a high lookout.
 

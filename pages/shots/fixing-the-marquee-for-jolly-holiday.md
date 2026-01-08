@@ -6,12 +6,12 @@ tags:
   - shots
 published: True
 slug: shots/fixing-the-marquee-for-jolly-holiday
-image: https://dropper.wayl.one/file/48e6a2ef-a4db-462e-acda-16b270e7053d.webp
+image: https://dropper.waylonwalker.com/file/48e6a2ef-a4db-462e-acda-16b270e7053d.webp
 description: Waylon up at the Marquee of the theater fixing the fallen letters before the night show.
 
 ---
 
-![Fixing the Marquee for Jolly Holiday](https://dropper.wayl.one/file/48e6a2ef-a4db-462e-acda-16b270e7053d.webp)
+![Fixing the Marquee for Jolly Holiday](https://dropper.waylonwalker.com/file/48e6a2ef-a4db-462e-acda-16b270e7053d.webp)
 
 > Waylon up at the Marquee of the theater fixing the fallen letters before the night show.
 

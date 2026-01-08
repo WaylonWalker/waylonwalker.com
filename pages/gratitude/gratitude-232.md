@@ -22,4 +22,4 @@ sense, but I get this.
 * Cat Quest III
 * Homelabbing, talking about arch
 
-![image](https://dropper.wayl.one/api/file/4d7c7191-2510-4643-9a8f-678ecfe5dd7b.webp){.more-cinematic}
+![image](https://dropper.waylonwalker.com/api/file/4d7c7191-2510-4643-9a8f-678ecfe5dd7b.webp){.more-cinematic}

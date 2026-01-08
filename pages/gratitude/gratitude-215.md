@@ -14,4 +14,4 @@ enought that it was.  In the beginning I tended to make things a bit too tight,
 but giving an extra half mm or so generally gives good slip fit for the
 printer.
 
-![image](https://dropper.wayl.one/api/file/bea1b351-4303-4eb5-b4db-dbcba7d550a3.webp)
+![image](https://dropper.waylonwalker.com/api/file/bea1b351-4303-4eb5-b4db-dbcba7d550a3.webp)

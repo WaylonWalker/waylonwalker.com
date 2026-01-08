@@ -22,4 +22,4 @@ person.  It was surprisingly easy to build with the nearly slushy snow
 that we had today. He was so excited to show Rhiannon that he did a
 video call wtih with her right from the comfort of the igloo.
 
-![screenshot-2025-08-15T00-50-13-322Z.png](https://dropper.wayl.one/api/file/04b75909-b1eb-4903-bfd7-a992f8b3ee4e.png)
+![screenshot-2025-08-15T00-50-13-322Z.png](https://dropper.waylonwalker.com/api/file/04b75909-b1eb-4903-bfd7-a992f8b3ee4e.png)

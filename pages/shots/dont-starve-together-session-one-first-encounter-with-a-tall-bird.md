@@ -6,12 +6,12 @@ tags:
   - shots
 published: True
 slug: shots/first-encounter-with-a-tall-bird
-image: https://dropper.wayl.one/api/file/8bb62b1c-4a0f-4660-9f54-1c4ad04b28cf.mp4
+image: https://dropper.waylonwalker.com/api/file/8bb62b1c-4a0f-4660-9f54-1c4ad04b28cf.mp4
 description: On the first day I made a look around my home biome, and ran into a Tall Bird
 
 ---
 
-![First encounter with a Tall Bird](https://dropper.wayl.one/api/file/8bb62b1c-4a0f-4660-9f54-1c4ad04b28cf.mp4)
+![First encounter with a Tall Bird](https://dropper.waylonwalker.com/api/file/8bb62b1c-4a0f-4660-9f54-1c4ad04b28cf.mp4)
 
 > On the first day I made a look around my home biome, and ran into a Tall Bird
 

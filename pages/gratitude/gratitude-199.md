@@ -14,4 +14,4 @@ afternoon trip, we got there as the sun was setting, did some fishing and a
 ranger ride.  I am so glad that we were able to do it.  On the ride home, we
 almost ran out of juice, but made it home on E.
 
-![screenshot-2025-06-01T01-39-18-512Z.png](https://dropper.wayl.one/api/file/e0078b8d-7846-451b-8a59-40e1ef7925df.png)
+![screenshot-2025-06-01T01-39-18-512Z.png](https://dropper.waylonwalker.com/api/file/e0078b8d-7846-451b-8a59-40e1ef7925df.png)

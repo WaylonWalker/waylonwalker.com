@@ -16,7 +16,7 @@ support, was snappy enough, complex models were a bit sluggish, but fine.
 Lately something happened and simple models bring it to its knees.  It got
 unusable!
 
-![](https://dropper.wayl.one/file/a06bbf8b-abea-472e-8d96-4255d522444d.webp)
+![](https://dropper.waylonwalker.com/file/a06bbf8b-abea-472e-8d96-4255d522444d.webp)
 
 > The print I happen to be working on is some custom designed gumdrops for a
 > theater set.  The ui is working and not lagging 30s between clicks causing

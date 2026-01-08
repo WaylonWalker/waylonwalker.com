@@ -17,7 +17,7 @@ so they aren't so big.
 
 This is my current wallpaper.
 
-![trying-obsidian-20240731135759007.webp](https://dropper.wayl.one/api/file/fe97308b-00f8-4860-be80-6869fa45d05a.webp)
+![trying-obsidian-20240731135759007.webp](https://dropper.waylonwalker.com/api/file/fe97308b-00f8-4860-be80-6869fa45d05a.webp)
 
 > I took he screenshot and just pasted it in.
 
@@ -36,13 +36,13 @@ I just finished moving my backend over to md-it-python, which comes with some
 good wiliklink support. I even make a [[sick-wikilink-hover]] feature that
 previews wikilinks on hover.
 
-![trying-obsidian-20240804194656515.webp](https://dropper.wayl.one/api/file/fe12e8ca-fdfd-41de-adcb-dc14155324c3.webp)
+![trying-obsidian-20240804194656515.webp](https://dropper.waylonwalker.com/api/file/fe12e8ca-fdfd-41de-adcb-dc14155324c3.webp)
 
 Inside of obsidian when you start a wikilink it starts searching for posts to
 link.  I get this feature in using the marksman lsp, and it's nice to see that
 it works pretty similarly, but with much less setup and configuration.
 
-![trying-obsidian-20240804194934445.webp](https://dropper.wayl.one/api/file/4e0883a8-2430-49bf-99f3-2ce4df9516f5.webp)
+![trying-obsidian-20240804194934445.webp](https://dropper.waylonwalker.com/api/file/4e0883a8-2430-49bf-99f3-2ce4df9516f5.webp)
 
 ## creating new files
 

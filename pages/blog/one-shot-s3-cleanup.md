@@ -14,7 +14,7 @@ So I made a mistake in an app I am working on and ended up creating thumbnails
 of thumbnails, and thumbnails of thumbnails of thumbnails... etc. I was able to
 delete them all, but I wanted to make a one-shot script to do it.
 
-![screenshot-2025-01-31T21-20-56-934Z.png](https://dropper.wayl.one/api/file/e804dd2c-e3d9-4a83-83fa-95a720cdc92b.png)
+![screenshot-2025-01-31T21-20-56-934Z.png](https://dropper.waylonwalker.com/api/file/e804dd2c-e3d9-4a83-83fa-95a720cdc92b.png)
 
 ## One Shot App
 
@@ -22,7 +22,7 @@ I got the idea of the one shot app from [Simon
 Willison](https://simonwillison.net/2024/Dec/19/one-shot-python-tools/) and
 replicated his setup in a chatgpt project
 
-![screenshot-2025-01-12T18-16-57-443Z.png](https://dropper.wayl.one/api/file/78d6eea9-29a2-43ed-b09e-1585762c991c.webp)
+![screenshot-2025-01-12T18-16-57-443Z.png](https://dropper.waylonwalker.com/api/file/78d6eea9-29a2-43ed-b09e-1585762c991c.webp)
 
 ## Initial Prompt
 

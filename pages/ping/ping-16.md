@@ -11,4 +11,4 @@ tags:
 New keeb feeling so good I don't want to leave it.  I'm going to go from having
 my worse favorite at work, to having my new favorite at work.
 
-![](https://dropper.wayl.one/file/9cf75771-e3a5-428f-a3a9-0e32fda0e037.webp)
+![](https://dropper.waylonwalker.com/file/9cf75771-e3a5-428f-a3a9-0e32fda0e037.webp)

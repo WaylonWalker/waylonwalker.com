@@ -59,7 +59,7 @@ It makes checkpoints, when you die, you go back to your last checkpoint.
 Checkpoints can be invisible, and have a link that turns them into a door to
 another level.
 
-![66c5b984-5450-48ee-9978-00fec4815807.mp4](https://dropper.wayl.one/api/file/66c5b984-5450-48ee-9978-00fec4815807.mp4)
+![66c5b984-5450-48ee-9978-00fec4815807.mp4](https://dropper.waylonwalker.com/api/file/66c5b984-5450-48ee-9978-00fec4815807.mp4)
 
 
 ## no art

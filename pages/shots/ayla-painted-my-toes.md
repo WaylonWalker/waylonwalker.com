@@ -7,11 +7,11 @@ tags:
   - family
 published: True
 slug: shots/ayla-painted-my-toes
-image: https://dropper.wayl.one/api/file/f0fbd064-b4aa-4c4a-bbb4-26afa7b6205c.png
+image: https://dropper.waylonwalker.com/api/file/f0fbd064-b4aa-4c4a-bbb4-26afa7b6205c.png
 description: A set of hairy toes painted blue standing on off-white carpet.
 
 ---
 
-![Ayla Painted My Toes](https://dropper.wayl.one/api/file/f0fbd064-b4aa-4c4a-bbb4-26afa7b6205c.png)
+![Ayla Painted My Toes](https://dropper.waylonwalker.com/api/file/f0fbd064-b4aa-4c4a-bbb4-26afa7b6205c.png)
 
 > A set of hairy toes painted blue standing on off-white carpet.

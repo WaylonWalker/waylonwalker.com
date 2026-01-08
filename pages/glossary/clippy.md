@@ -10,7 +10,7 @@ output_html: markout/glossary/clippy/index.html
 
 ---
 
-![screenshot-2025-09-03T01-36-09-835Z.png](https://dropper.wayl.one/api/file/afcb19dc-f886-4d5e-b263-b81f3569f1bc.png)
+![screenshot-2025-09-03T01-36-09-835Z.png](https://dropper.waylonwalker.com/api/file/afcb19dc-f886-4d5e-b263-b81f3569f1bc.png)
 
 Clippy is a virtual office assistant from Microsoft, shipped from office 97 to
 office 2003.  It was used to help train people how to use the software that was

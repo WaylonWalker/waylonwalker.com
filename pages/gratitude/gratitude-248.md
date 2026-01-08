@@ -15,7 +15,7 @@ sensing the water taking us a bit adrift.  Watching out for other vehicles in
 the low visibility.  Only missing one turn while trying to pay more attention
 to the road and only following the lane number shown on the GPS.
 
-![PXL_20250730_143532253.mp4](https://dropper.wayl.one/api/file/8ee60707-0308-4e6b-a545-326cd468fc47.mp4)
+![PXL_20250730_143532253.mp4](https://dropper.waylonwalker.com/api/file/8ee60707-0308-4e6b-a545-326cd468fc47.mp4)
 
 The rain had let up by this point, but I grabbed a quick shot of the gutter
 fulls of rain coming off the gas station while we filled up.

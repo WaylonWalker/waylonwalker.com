@@ -17,7 +17,7 @@ now turned my monitor stand.  The trim is made of Wyatt's zoo that he had in
 his room about 10 years ago.  Its a beautiful amalgamation of all things from
 our family.
 
-![image](https://dropper.wayl.one/api/file/f692419c-ba67-4e8e-bfe8-a3f498299bad.webp)
+![image](https://dropper.waylonwalker.com/api/file/f692419c-ba67-4e8e-bfe8-a3f498299bad.webp)
 
 I got to have lunch with Ayla at the park, and go on a special run with her to
 get a smoothie "to give her energy" to finish out the last 2 hours of
@@ -28,4 +28,4 @@ I ended the day doing some modeling, inspired by this guy that shows up in our
 short feeds that is making modular storage containers to mount on a wall we are
 starting work on some modular storage boxes, we started prototyping the handle.
 
-![image](https://dropper.wayl.one/api/file/7b5e04f1-1005-43d4-a1de-61603c1162dc.webp)
+![image](https://dropper.waylonwalker.com/api/file/7b5e04f1-1005-43d4-a1de-61603c1162dc.webp)

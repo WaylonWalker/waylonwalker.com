@@ -15,4 +15,4 @@ down and having a hard day and cuddle up with her.  Ginger is our guard cat,
 she guards the door anytime we are gone.  Today Mom lost her dog Cali, it's sad
 to hear that she is gone and really makes me appreciate our animals.
 
-![image](https://dropper.wayl.one/api/file/d56aa7a5-736a-4d9a-9282-d68a2635dee6.webp)
+![image](https://dropper.waylonwalker.com/api/file/d56aa7a5-736a-4d9a-9282-d68a2635dee6.webp)

@@ -11,9 +11,9 @@ Ayla helped with Coffee by recording and dictating my every move with grinding
 through the french press.  She gave grinding a go, but her arms could not go
 very quickly.
 
-![screenshot-2025-08-07T13-27-40-413Z.png](https://dropper.wayl.one/api/file/1edfc2ad-8cf7-48d2-9bbc-6868022bf59d.png)
+![screenshot-2025-08-07T13-27-40-413Z.png](https://dropper.waylonwalker.com/api/file/1edfc2ad-8cf7-48d2-9bbc-6868022bf59d.png)
 
-![french-press-dictation.mp4](https://dropper.wayl.one/api/file/84aa33e5-9b1f-4c87-8164-776c451a1353.mp4)
+![french-press-dictation.mp4](https://dropper.waylonwalker.com/api/file/84aa33e5-9b1f-4c87-8164-776c451a1353.mp4)
 
 > Audio on and you can hear Ayla's dictation of every move
 
@@ -41,11 +41,11 @@ that was hard to reschedule, she took it from the cool comfort of our barely
 keeping up Air Conditioning while I took the kids down to the beach for one
 last swim in the beautiful lake.
 
-![screenshot-2025-08-07T13-18-11-810Z.png](https://dropper.wayl.one/api/file/8cf5387a-efb5-4a45-9c9a-89b6d0218f94.png)
+![screenshot-2025-08-07T13-18-11-810Z.png](https://dropper.waylonwalker.com/api/file/8cf5387a-efb5-4a45-9c9a-89b6d0218f94.png)
 
 > Rhiannon getting some great shots of the flowers
 
-![screenshot-2025-08-07T13-20-29-681Z.png](https://dropper.wayl.one/api/file/bbd2b6a5-c6dd-4f64-b87f-8b2e0cfe9dcd.png)
+![screenshot-2025-08-07T13-20-29-681Z.png](https://dropper.waylonwalker.com/api/file/bbd2b6a5-c6dd-4f64-b87f-8b2e0cfe9dcd.png)
 
 > Wyatt in the zone capturing the beauty of the lake
 
@@ -60,7 +60,7 @@ under construction.  It was under a huge bubbly black tarp used to keep lead
 paint dust out of the water while they stripped it down for a fresh coat of
 paint.
 
-![screenshot-2025-08-07T13-27-05-912Z.png](https://dropper.wayl.one/api/file/6c5c00f4-fd9a-468e-83f2-5078823ad7a8.png)
+![screenshot-2025-08-07T13-27-05-912Z.png](https://dropper.waylonwalker.com/api/file/6c5c00f4-fd9a-468e-83f2-5078823ad7a8.png)
 
 Now we are wrapping up the last full day of vacation in the beach house.  We
 have had a fantastic time!  Not everything here is perfect, but it's all been

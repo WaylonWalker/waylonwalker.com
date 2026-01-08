@@ -15,11 +15,11 @@ lot of ideas for my own model, but for now I'm going to print some spacers to
 help get repeatable angles.
 
 
-![PXL_20250822_211720540.jpg](https://dropper.wayl.one/api/file/c587bfe8-e310-429d-a3fd-ee617670f6ef.jpg)
+![PXL_20250822_211720540.jpg](https://dropper.waylonwalker.com/api/file/c587bfe8-e310-429d-a3fd-ee617670f6ef.jpg)
 
 > setting the angle on my sharpener
 
-![PXL_20250822_211926948.jpg](https://dropper.wayl.one/api/file/d09ababd-e1e3-4290-ac35-725181df89b7.jpg)
+![PXL_20250822_211926948.jpg](https://dropper.waylonwalker.com/api/file/d09ababd-e1e3-4290-ac35-725181df89b7.jpg)
 
 > Where I want to place a fixed height collar
 
@@ -37,5 +37,5 @@ help get repeatable angles.
 
 ## so I may have went to the next level
 
-![30335f07-9cac-4e66-b908-f0e3cfbf7582.mp4](https://dropper.wayl.one/api/file/30335f07-9cac-4e66-b908-f0e3cfbf7582.mp4)
+![30335f07-9cac-4e66-b908-f0e3cfbf7582.mp4](https://dropper.waylonwalker.com/api/file/30335f07-9cac-4e66-b908-f0e3cfbf7582.mp4)
 

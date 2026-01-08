@@ -13,4 +13,4 @@ year immediately like they never took a break.  They are both already
 progressing past where they were just after going twice this year.  I am so
 proud of them and so grateful that we have this pool that we are able to go to.
 
-![image](https://dropper.wayl.one/api/file/e8402e34-ec76-4652-b0bc-524735212e8d.webp)
+![image](https://dropper.waylonwalker.com/api/file/e8402e34-ec76-4652-b0bc-524735212e8d.webp)

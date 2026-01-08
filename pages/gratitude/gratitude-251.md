@@ -14,6 +14,6 @@ they will have for life.  Wyatt made guac for the tacos, and he does a damn
 good job of it.  It warms my heart to see them do something autonomously like
 this and enjoy eating it together.
 
-![screenshot-2025-08-03T01-55-36-113Z.png](https://dropper.wayl.one/api/file/49b1e054-a82d-40f9-bc21-2f2a1feccf99.png)
+![screenshot-2025-08-03T01-55-36-113Z.png](https://dropper.waylonwalker.com/api/file/49b1e054-a82d-40f9-bc21-2f2a1feccf99.png)
 
 > Wyatt thought this was the **perfect** avocado cut.

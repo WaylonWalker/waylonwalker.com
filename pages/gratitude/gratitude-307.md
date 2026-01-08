@@ -12,4 +12,4 @@ Best of all was after school, we all went down to play a round of darts and ever
 
 I printed a hornet that I've wanted to have in my office for awhile today and took time to paint it this evening.  I really like how the bench turned out with a bronzy gold highlight.  Its hard to see in person, but her dress has some shading and distressing along with the pin as well. Her silk even turned out well as a wire.  The model images used elwire and it looked sick, but this will do.
 
-![](https://dropper.wayl.one/file/5eb1c0c6-8f48-4b36-82ac-62a35b6063e4.webp)
+![](https://dropper.waylonwalker.com/file/5eb1c0c6-8f48-4b36-82ac-62a35b6063e4.webp)

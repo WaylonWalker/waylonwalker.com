@@ -11,4 +11,4 @@ tags:
 This morning I set up notifications for changes to my static site builds
 leveraging [[ git-name-status ]] and ntfy.
 
-![notification of changes](https://dropper.wayl.one/file/1c69e648-5aa3-4f66-9085-a045b99450a5.webp)
+![notification of changes](https://dropper.waylonwalker.com/file/1c69e648-5aa3-4f66-9085-a045b99450a5.webp)

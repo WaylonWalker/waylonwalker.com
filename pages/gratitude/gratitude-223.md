@@ -12,6 +12,6 @@ is congratulating each other, she does such a good job at making sure to to
 congratulate everyone and make sure they know they did a good job.  I am so
 grateful for how well the show is ran and how great this community is.
 
-![image](https://dropper.wayl.one/api/file/3bf8cd7c-6f58-4a2c-b96f-470e2aa72b43.webp)
+![image](https://dropper.waylonwalker.com/api/file/3bf8cd7c-6f58-4a2c-b96f-470e2aa72b43.webp)
 
 > Ayla in front of the theater sign on opening night

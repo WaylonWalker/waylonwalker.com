@@ -27,4 +27,4 @@ over the next hour!
 I ran out of time, but I will still mention that she painted her first set of
 toes.
 
-![Ayla Painted My Toes](https://dropper.wayl.one/api/file/f0fbd064-b4aa-4c4a-bbb4-26afa7b6205c.png)
+![Ayla Painted My Toes](https://dropper.waylonwalker.com/api/file/f0fbd064-b4aa-4c4a-bbb4-26afa7b6205c.png)
