@@ -313,11 +313,11 @@ content = "{{ config.url }}{{ post.slug }}/"
 
 [[markata.head.meta]]
 property = "og:image"
-content = "https://shots.waylonwalker.com/shot/?url={{ config.url }}{{ post.slug }}/og/&height=600&width=1200&scaled_width=1200&scaled_height=600"
+content = "https://shots.waylonwalker.com/shot/?url={{ config.url }}{{ post.slug }}/og/&height=600&width=1200&scaled_width=1200&scaled_height=600&format=jpg"
 
 [[markata.head.meta]]
 name = "twitter:image"
-content = "https://shots.waylonwalker.com/shot/?url={{ config.url }}{{ post.slug }}/og/&height=640&width=1280&scaled_width=1280&scaled_height=640"
+content = "https://shots.waylonwalker.com/shot/?url={{ config.url }}{{ post.slug }}/og/&height=640&width=1280&scaled_width=1280&scaled_height=640&format=jpg"
 
 [[markata.head.meta]]
 name = "twitter:image:alt"
