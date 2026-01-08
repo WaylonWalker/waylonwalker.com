@@ -1,10 +1,4 @@
 My personal website, mostly a blog, always a work in progress.  See the
 finished product at https://waylonwalker.com/
 
-## Stargazers
-
-[![Stargazers repo roster for @waylonwalker/waylonwalkerv2](https://reporoster.com/stars/waylonwalker/waylonwalkerv2)](https://github.com/waylonwalker/waylonwalkerv2/stargazers)
-
-## Forkers
-
-[![Forkers repo roster for @waylonwalker/waylonwalkerv2](https://reporoster.com/forks/waylonwalker/waylonwalkerv2)](https://github.com/waylonwalker/waylonwalkerv2/network/members)
+[![screenshot of https://waylonwalker.com/archive](http://shots.wayl.one/shot/?url=https://waylonwalker.com/archive&height=1920&width=1080&scaled_width=1080&scaled_height=1920&selectors=)](https://waylonwalker.com/archive)
