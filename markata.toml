@@ -2824,28 +2824,10 @@ description = 'A feed of my family shots'
 card_template='image-card.html'
 
 [[markata.feeds]]
-title = 'Steam Achievements'
-slug = 'steam-achievements'
-filter = "'steam-achievement' in tags"
-sort = "date"
-reverse = true
-description = 'A feed of my steam achievements'
-card_template='steam-achievement-card.html'
-
-[[markata.feeds]]
 title = 'Steam Games'
-slug = 'steam-games'
+slug = 'steam'
 filter = "'steam-game' in tags"
 sort = "date"
 reverse = true
-description = 'A feed of my steam achievements'
+description = 'A feed of my steam games and their achievements progress'
 card_template='steam-game-card.html'
-
-[[markata.feeds]]
-title = 'Steam'
-slug = 'steam'
-filter = "'steam' in tags"
-sort = "date"
-reverse = true
-description = 'A feed of my steam.'
-# card_template='steam-achievement-card.html'
