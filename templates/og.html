@@ -48,7 +48,7 @@
                     {# Without image - much larger #}
                     {% if title_length > 100 %}
                         <h1 id="og-title" class='font-bold leading-tight line-clamp-4' style="font-size: 1rem;">
-                    {% if title_length > 80 %}
+                    {% elif title_length > 80 %}
                         <h1 id="og-title" class='font-bold leading-tight line-clamp-4' style="font-size: 2rem;">
                     {% elif title_length > 60 %}
                         <h1 id="og-title" class='font-bold leading-tight line-clamp-3' style="font-size: 3rem;">
