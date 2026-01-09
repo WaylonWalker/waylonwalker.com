@@ -46,6 +46,8 @@
                     {% endif %}
                 {% else %}
                     {# Without image - much larger #}
+                    {% if title_length > 100 %}
+                        <h1 id="og-title" class='font-bold leading-tight line-clamp-4' style="font-size: 1rem;">
                     {% if title_length > 80 %}
                         <h1 id="og-title" class='font-bold leading-tight line-clamp-4' style="font-size: 2rem;">
                     {% elif title_length > 60 %}
@@ -85,7 +87,6 @@
                 </div>
             </div>
             <p class='text-lg text-gray-400 mx-4' style="font-family: 'Inter', sans-serif !important;">{{ post.date.strftime('%B %-d, %Y') }}
-            - {{ title_length }}
             </p>
 
         </div>
