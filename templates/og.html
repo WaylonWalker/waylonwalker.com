@@ -45,11 +45,14 @@
                 {{ post.title }}
             </h1>
         </div>
+        {% set img = post.image|default('', true) %}
+        {% if img and img.strip() %}
         <img 
-            src="{{ post.image }}" 
+            src="{{ img }}" 
             alt="{{ post.title }}"
             class="max-h-[50vh]" 
         >
+        {% endif %}
 
             <!-- Footer -->
         <div class='flex items-center justify-between border-t border-pink-800 pt-4 bg-black absolute left-0 right-0 bottom-0 overflow-hidden px-12'>
