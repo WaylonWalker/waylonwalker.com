@@ -16,36 +16,57 @@
         }
     </style>
 
-    <div class='min-h-screen flex flex-col items-center justify-center p-8 pb-22' style="height: 600px; max-height: 600px;">
-        <div class='w-full max-w-4xl flex flex-col justify-between h-full overflow-hidden'>
+    {% set img = post.image|default('', true) %}
+    <div class='min-h-screen flex {{ "flex-row items-center" if img and img.strip() else "flex-col items-center justify-center" }} p-8 pb-22' 
+        style="height: 600px; max-height: 600px;"
+
+        >
+        <!-- <div class='w-full max-w-4xl flex {{ "flex-col justify-between" if img and img.strip() else "flex-col justify-between" }} h-full overflow-hidden'> -->
             <!-- Title Container with max height -->
-            <div class="flex-1 flex items-center">
+            <div class="{{ "flex-1 flex items-center" if img and img.strip() else "flex-1 flex items-center" }}">
                 {% set title_length = post.title | string | length %}
-                {% if post.image is not none %}
-                    <h1 id="og-title" class='font-bold leading-tight line-clamp-3 max-w-6xl' style="font-size: 2rem;">
+                {% if img and img.strip() %}
+                    {# With image - much smaller #}
+                    {% if title_length > 70 %}
+                        <h1 id="og-title" class='font-bold leading-tight line-clamp-4' style="font-size: 1.4rem;">
+                    {% elif title_length > 50 %}
+                        <h1 id="og-title" class='font-bold leading-tight line-clamp-4' style="font-size: 1.6rem;">
+                    {% elif title_length > 40 %}
+                        <h1 id="og-title" class='font-bold leading-tight line-clamp-3' style="font-size: 1.8rem;">
+                    {% elif title_length < 10 %}
+                        <h1 id="og-title" class='font-bold leading-tight' style="font-size: 3.5rem;">
+                    {% elif title_length < 20 %}
+                        <h1 id="og-title" class='font-bold leading-tight' style="font-size: 3rem;">
+                    {% elif title_length < 30 %}
+                        <h1 id="og-title" class='font-bold leading-tight' style="font-size: 2.8rem;">
+                    {% elif title_length < 40 %}
+                        <h1 id="og-title" class='font-bold leading-tight line-clamp-2' style="font-size: 2.2rem;">
+                    {% else %}
+                        <h1 id="og-title" class='font-bold leading-tight line-clamp-3' style="font-size: 2rem;">
+                    {% endif %}
                 {% else %}
-                {% if title_length > 100 %}
-                    <h1 id="og-title" class='font-bold leading-tight line-clamp-3 max-w-3xl' style="font-size: 2rem;">
-                {% elif title_length > 70 %}
-                    <h1 id="og-title" class='font-bold leading-tight line-clamp-3 max-w-3xl' style="font-size: 2.5rem;">
-                {% elif title_length > 40 %}
-                    <h1 id="og-title" class='font-bold leading-tight line-clamp-2 max-w-3xl' style="font-size: 3rem;">
-                {% elif title_length < 10 %}
-                    <h1 id="og-title" class='font-bold leading-tight max-w-3xl' style="font-size: 8rem;">
-                {% elif title_length < 20 %}
-                    <h1 id="og-title" class='font-bold leading-tight max-w-3xl' style="font-size: 6rem;">
-                {% elif title_length < 30 %}
-                    <h1 id="og-title" class='font-bold leading-tight max-w-3xl' style="font-size: 5rem;">
-                {% elif title_length < 40 %}
-                    <h1 id="og-title" class='font-bold leading-tight line-clamp-2 max-w-3xl' style="font-size: 4rem;">
-                {% else %}
-                    <h1 id="og-title" class='font-bold leading-tight line-clamp-2 max-w-3xl' style="font-size: 3.5rem;">
-                {% endif %}
+                    {# Without image - much larger #}
+                    {% if title_length > 80 %}
+                        <h1 id="og-title" class='font-bold leading-tight line-clamp-4' style="font-size: 2rem;">
+                    {% elif title_length > 60 %}
+                        <h1 id="og-title" class='font-bold leading-tight line-clamp-3' style="font-size: 3rem;">
+                    {% elif title_length > 40 %}
+                        <h1 id="og-title" class='font-bold leading-tight line-clamp-2' style="font-size: 4rem;">
+                    {% elif title_length < 10 %}
+                        <h1 id="og-title" class='font-bold leading-tight' style="font-size: 9rem;">
+                    {% elif title_length < 20 %}
+                        <h1 id="og-title" class='font-bold leading-tight' style="font-size: 7rem;">
+                    {% elif title_length < 30 %}
+                        <h1 id="og-title" class='font-bold leading-tight' style="font-size: 6rem;">
+                    {% elif title_length < 40 %}
+                        <h1 id="og-title" class='font-bold leading-tight line-clamp-2' style="font-size: 5rem;">
+                    {% else %}
+                        <h1 id="og-title" class='font-bold leading-tight line-clamp-2' style="font-size: 4rem;">
+                    {% endif %}
                 {% endif %}
                 {{ post.title }}
             </h1>
         </div>
-        {% set img = post.image|default('', true) %}
         {% if img and img.strip() %}
         <img 
             src="{{ img }}" 
@@ -63,8 +84,11 @@
                     <p class='text-lg text-gray-400'>waylonwalker.com</p>
                 </div>
             </div>
-            <p class='text-lg text-gray-400 mx-4' style="font-family: 'Inter', sans-serif !important;">{{ post.date.strftime('%B %-d, %Y') }}</p>
+            <p class='text-lg text-gray-400 mx-4' style="font-family: 'Inter', sans-serif !important;">{{ post.date.strftime('%B %-d, %Y') }}
+            - {{ title_length }}
+            </p>
+
         </div>
-    </div>
+    <!-- </div> -->
     </div>
 {% endblock %}
