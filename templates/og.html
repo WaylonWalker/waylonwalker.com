@@ -74,14 +74,12 @@
             {% set is_video = img_path.lower().endswith('.mp4') or img_path.lower().endswith('.webm') or img_path.lower().endswith('.ogg') or img_path.lower().endswith('.mov') or img_path.lower().endswith('.avi') or img_path.lower().endswith('.mkv') %}
             
             {% if is_video %}
-            <video 
-                src="{{ img }}" 
+            {% set thumb_img = img_path.rsplit('.', 1)[0] + '_thumb.webp' %}
+            <img 
+                src="{{ thumb_img }}" 
                 alt="{{ post.title }}"
                 class="max-h-[50vh]" 
-                autoplay
-                muted
-                loop
-            ></video>
+            >
             {% else %}
             <img 
                 src="{{ img }}" 
