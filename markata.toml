@@ -55,7 +55,7 @@ hooks = [
     # "plugins.slug",
     # "plugins.one_line_link",
     # "plugins.include",
-    # 'markata.plugins.analytics',
+    'markata.plugins.analytics',
     "markata.plugins.jinja_md",
     "default",
     # 'plugins.link_collector',
