@@ -41,11 +41,11 @@ Next [[ thps-1-downtown-gaps ]]
 
 ## Over The Pipe
 
-![THPS1-4-OverThePipe.mp4](/api/file/90c96ad4-be68-4ab0-a907-0cc45d0aa853.mp4)
+![THPS1-4-OverThePipe.mp4](https://dropper.waylonwalker.com/api/file/90c96ad4-be68-4ab0-a907-0cc45d0aa853.mp4)
 
 ## Over the Rafters
 
-![THPS1-4-OverTheRafters.mp4](/api/file/278ca420-8fe2-4f37-bdf9-14eae25fa07d.mp4)
+![THPS1-4-OverTheRafters.mp4](https://dropper.waylonwalker.com/api/file/278ca420-8fe2-4f37-bdf9-14eae25fa07d.mp4)
 
 ## Pool 2 Walkway
 
@@ -57,7 +57,7 @@ Next [[ thps-1-downtown-gaps ]]
 
 ## Pool Rail Trans
 
-![THPS1-4-PoolRailTrans.mp4](/api/file/6a72262c-6a31-4408-91c5-15e95d7fe4a7.mp4)
+![THPS1-4-PoolRailTrans.mp4](https://dropper.waylonwalker.com/api/file/6a72262c-6a31-4408-91c5-15e95d7fe4a7.mp4)
 
 ## Rafter Rail
 

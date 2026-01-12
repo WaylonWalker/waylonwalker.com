@@ -124,7 +124,7 @@ next [[ thps-1-mall-gaps ]]
 
 ## Gigantic Rail
 
-![THPS1-2-GiganticRail.mp4](/api/file/7beb12ae-3b44-466f-a7d5-59bde6584929.mp4)
+![THPS1-2-GiganticRail.mp4](https://dropper.waylonwalker.com/api/file/7beb12ae-3b44-466f-a7d5-59bde6584929.mp4)
 
 ## Ridiculous Rail
 
