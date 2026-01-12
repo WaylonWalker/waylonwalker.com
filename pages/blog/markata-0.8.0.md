@@ -1,7 +1,7 @@
 ---
 date: 2025-01-31 20:17:00
 templateKey: blog-post
-title: markta 0.8.0
+title: markata 0.8.0
 tags:
   - markata
 published: True
@@ -16,10 +16,10 @@ release that we got pydantic support, and multi feeds.
 
 ## Pydantic Support Was kinda big
 
-Markata is leaning on pydanttic for configuration and Post models.  These
+Markata is leaning on pydantic for configuration and Post models.  These
 models are filled with validators such that you can give it an empty markdown
 post and it will figure out some pretty sane default values for the
-frontmatter. From there you can progressivly enhance your post with more
+frontmatter. From there you can progressively enhance your post with more
 information like title, date, tags, slug, description.
 
 > **validators are awesome!!** for instance I don't set the description on many
@@ -29,19 +29,19 @@ information like title, date, tags, slug, description.
 ## Multi Feeds
 
 Markata==0.8.1 brought multiple feeds into the mix, and started to take place
-of rss and sitemap.  Feeds are a list of posts that are configured with a slug,
+of RSS and sitemap.  Feeds are a list of posts that are configured with a slug,
 filter, sort, reverse, description, and a template.  These feeds then become
-objects you can use to access posts, as well as html pages, rss feeds and
+objects you can use to access posts, as well as html pages, RSS feeds and
 sitemaps.
 
 ## Jinja Templates
 
 The final major change within this series is the change out from string
 templates to proper jinja templates with partial templates that you can
-include.  This has made maintaing templates much easier, as well as the ability
-to customize.  Markata will load templates from both your local templates
-directory then from its built in templates directory if it does not find a
-template locally.
+include.  This has made maintaining templates much easier, as well as the
+ability to customize.  Markata will load templates from both your local
+templates directory then from its built in templates directory if it does not
+find a template locally.
 
 ``` toml
 [[markata.feeds]]
@@ -66,11 +66,11 @@ The rest of the post is details directly from the release notes.
 ## 0.8.2
 
 * Fix: markata installs setuptools required by one dependency
-* Fix: cleaup cli output
-* Fix: speed up cli starup with some lazy imports
+* Fix: cleanup cli output
+* Fix: speed up cli startup with some lazy imports
 * Fix: all cache.adds were replaced with cache.set
 * Fix: Updated to new typer format requiring name=
-* Fix: teardown only runs if a the build process was started, i.e. some clis
+* Fix: teardown only runs if the build process was started, i.e. some cli's
   will not need to teardown
 
 ## 0.8.1
@@ -78,7 +78,7 @@ The rest of the post is details directly from the release notes.
 ### Feeds have partials
 
 The `feeds` plugin now has configurable `partial_template` that can be used to
-render only the inside of the feeds page.  This is indended to allow you to
+render only the inside of the feeds page.  This is indented to allow you to
 load small feeds into a page with htmx.
 
 ### Better Jinja Templates
@@ -98,7 +98,7 @@ markata templates show
 #### Variables
 
 The following variables are available within jinja templates for post
-templates.  This is now consistent accross all three built in plugins that
+templates.  This is now consistent across all three built in plugins that
 render jinja templates.
 
 ##### post_template
