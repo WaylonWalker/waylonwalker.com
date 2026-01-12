@@ -12,7 +12,7 @@ I realize that I never did a post on markata  0.8.0, so here it is. 0.8.0 was
 released on Jan 2, 2024, just over a year ago at this point.  This was the
 release that we got pydantic support, and multi feeds.
 
-![screenshot-2025-02-01T02-37-59-690Z.png](/api/file/76e6f022-360f-4566-9b35-a06cecd48738.png){.more-cinematic}
+![screenshot-2025-02-01T02-37-59-690Z.png](https://dropper.waylonwalker.com/file/76e6f022-360f-4566-9b35-a06cecd48738.png){.more-cinematic}
 
 ## Pydantic Support Was kinda big
 
