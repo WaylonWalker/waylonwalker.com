@@ -1,11 +1,9 @@
 ---
-date: 2026-01-09 16:45:57
+date: 2026-01-07 21:29:59
 templateKey: gratitude
-title: Gratitude 309
+published: false
+tags:
+- gratitude
 
 ---
-
-Finishing out the week strong with some progress on some work projects. Getting
-some polish, some cleanup, and overall stuff done.  I'm having longer windows
-of time feeling good, still really hitting a low point in the afternoon with
-lots of aches, coughing, and very tired.
+Long day of work, and I think I'm going backwards.  This was the first day off of Prednisone and its feeling like sick symptoms are getting worse.  There will be progress, I know there will be, but right now its not progress in the right direction.  This Christmas flu hit a lot of people hard this year, somehow our family got hit extra hard.  Glad that kids are feeling better and back in school.  I'm grateful that I can work from home and keep up with some light duty things, Less talking things from home.
