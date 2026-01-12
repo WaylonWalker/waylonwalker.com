@@ -1340,7 +1340,7 @@ reverse = true
 description = "Posts about microcontroller"
 
 [[markata.feeds]]
-slug = "ai"
+slug = "ai-feed"
 filter = "date<=today and 'ai' in str(tags).lower() and published"
 sort = "date"
 reverse = true

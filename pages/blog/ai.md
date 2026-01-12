@@ -8,7 +8,12 @@ tags:
   - ai
   - llm
 ---
+
 Last updated Jan 2026.
+
+!!! seealso
+
+    Looking for all posts tagged with ai see [[ ai-feed ]]
 
 Ai is a tool I use a lot for code generation, research, image generation, and
 debugging.  The words I publish on this site are my own unless explicitly
