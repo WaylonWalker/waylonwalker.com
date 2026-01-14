@@ -433,8 +433,7 @@ sizes="512x512"
 prevnext_color_angle = "#ff66c4"
 
 [[markata.feeds]]
-name = 'markatafeed'
-slug = 'markata-feed'
+slug = 'tag/markata'
 filter = "date<=today and 'markata' in str(tags).lower() and published"
 sort = "date"
 reverse = false
@@ -442,8 +441,8 @@ card_template='feed_card_sm.html'
 description = 'A feed of my posts about my static site generator markata.'
 
 [[markata.feeds]]
-name = 'thoughtsfeed'
-slug = 'thoughts-feed'
+name = 'thoughts'
+slug = 'tag/thoughts'
 filter = "date<=today and templateKey in ['thoughts',] and published"
 sort = "date"
 reverse = false
@@ -545,56 +544,56 @@ sort = "date"
 reverse = true
 
 [[markata.feeds]]
-slug = 'python'
+slug = 'tag/python'
 filter = "date<=today and 'python' in str(tags).lower()"
 sort = "date"
 reverse = true
 description = 'A feed of all my python posts'
 
 [[markata.feeds]]
-slug = 'python-draft'
+slug = 'draft/python'
 filter = "date<=today and 'python' in str(tags).lower() and not published"
 sort = "date"
 reverse = true
 description = 'A feed of all my python draft posts'
 
 [[markata.feeds]]
-slug = 'linux'
+slug = 'tag/linux'
 filter = "date<=today and 'linux' in str(tags).lower()"
 sort = "date"
 reverse = true
 description = 'A feed of all my linux posts'
 
 [[markata.feeds]]
-slug = 'linux-draft'
+slug = 'draft/linux'
 filter = "date<=today and 'linux' in str(tags).lower() and not published"
 sort = "date"
 reverse = true
 description = 'A feed of all my linux draft posts'
 
 [[markata.feeds]]
-slug = 'vim'
+slug = 'tag/vim'
 filter = "date<=today and 'vim' in str(tags).lower()"
 sort = "date"
 reverse = true
 description = 'A feed of all my vim posts'
 
 [[markata.feeds]]
-slug = 'vim-draft'
+slug = 'draft/vim'
 filter = "date<=today and 'vim' in str(tags).lower() and not published"
 sort = "date"
 reverse = true
 description = 'A feed of all my vim draft posts'
 
 [[markata.feeds]]
-slug = 'kedro-feed'
+slug = 'tag/kedro'
 filter = "date<=today and 'kedro' in str(tags).lower()"
 sort = "date"
 reverse = true
 description = 'A feed of all my kedro posts'
 
 [[markata.feeds]]
-slug = 'kedro-draft'
+slug = 'draft/kedro'
 filter = "date<=today and 'kedro' in str(tags).lower() and not published"
 sort = "date"
 reverse = true
@@ -615,21 +614,21 @@ reverse = true
 description = 'A feed of all my til posts'
 
 [[markata.feeds]]
-slug = 'til-vim'
+slug = 'til/vim'
 filter = "date<=today and templateKey == 'til' and 'vim' in str(tags).lower()"
 sort = "date"
 reverse = true
 description = 'A feed of all my vim til posts'
 
 [[markata.feeds]]
-slug = 'slashes'
+slug = 'tag/slash'
 filter = "date<=today and 'slash' in str(tags).lower()"
 sort = "date"
 reverse = true
 description = 'A collection of all of my slash posts'
 
 [[markata.feeds]]
-slug = 'meta'
+slug = 'tag/meta'
 filter = "date<=today and 'meta' in str(tags).lower()"
 sort = "date"
 reverse = true
@@ -808,532 +807,490 @@ filter = "date<=today and published"
 # ---- GENERATED TAGS ----
 
 [[markata.feeds]]
-slug = "data"
+slug = "tag/data"
 filter = "date<=today and 'data' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about data"
 
 [[markata.feeds]]
-slug = "sql"
+slug = "tag/sql"
 filter = "date<=today and 'sql' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about sql"
 
 [[markata.feeds]]
-slug = "webdev"
+slug = "tag/webdev"
 filter = "date<=today and 'webdev' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about webdev"
 
 [[markata.feeds]]
-slug = "catalytic"
+slug = "tag/catalytic"
 filter = "date<=today and 'catalytic' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about catalytic"
 
 [[markata.feeds]]
-slug = "actions"
+slug = "tag/actions"
 filter = "date<=today and 'actions' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about actions"
 
 [[markata.feeds]]
-slug = "stream"
+slug = "tag/stream"
 filter = "date<=today and 'stream' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about stream"
 
 [[markata.feeds]]
-slug = "blog"
+slug = "tag/blog"
 filter = "date<=today and 'blog' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about blog"
 
 [[markata.feeds]]
-slug = "javascript"
+slug = "tag/javascript"
 filter = "date<=today and 'javascript' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about javascript"
 
 [[markata.feeds]]
-slug = "goals"
+slug = "tag/goals"
 filter = "date<=today and 'goals' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about goals"
 
 [[markata.feeds]]
-slug = "datascience"
+slug = "tag/datascience"
 filter = "date<=today and 'datascience' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about datascience"
 
 [[markata.feeds]]
-slug = "git"
+slug = "tag/git"
 filter = "date<=today and 'git' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about git"
 
 [[markata.feeds]]
-slug = "cli"
+slug = "tag/cli"
 filter = "date<=today and 'cli' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about cli"
 
 [[markata.feeds]]
-slug = "twitter"
+slug = "tag/twitter"
 filter = "date<=today and 'twitter' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about twitter"
 
 [[markata.feeds]]
-slug = "soft"
+slug = "tag/soft"
 filter = "date<=today and 'soft' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about soft"
 
 [[markata.feeds]]
-slug = "personal"
+slug = "tag/personal"
 filter = "date<=today and 'personal' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about personal"
 
 [[markata.feeds]]
-slug = "single-page"
+slug = "tag/single-page"
 filter = "date<=today and 'single-page' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about single-page"
 
 [[markata.feeds]]
-slug = "ci-cd"
+slug = "tag/ci-cd"
 filter = "date<=today and 'ci-cd' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about ci-cd"
 
 [[markata.feeds]]
-slug = "minecraft"
+slug = "tag/minecraft"
 filter = "date<=today and 'minecraft' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about minecraft"
 
 [[markata.feeds]]
-slug = "pre-commit"
+slug = "tag/pre-commit"
 filter = "date<=today and 'pre-commit' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about pre-commit"
 
 [[markata.feeds]]
-slug = "neovim"
+slug = "tag/neovim"
 filter = "date<=today and 'neovim' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about neovim"
 
 [[markata.feeds]]
-slug = "dicuss"
-filter = "date<=today and 'dicuss' in str(tags).lower() and published"
-sort = "date"
-reverse = true
-description = "Posts about dicuss"
-
-[[markata.feeds]]
-slug = "arch"
+slug = "tag/arch"
 filter = "date<=today and 'arch' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about arch"
 
 [[markata.feeds]]
-slug = "keeb"
-filter = "date<=today and 'keeb' in str(tags).lower() and published"
-sort = "date"
-reverse = true
-description = "Posts about keeb"
-
-[[markata.feeds]]
-slug = "tip"
+slug = "tag/tip"
 filter = "date<=today and 'tip' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about tip"
 
 [[markata.feeds]]
-slug = "docker"
+slug = "tag/docker"
 filter = "date<=today and 'docker' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about docker"
 
 [[markata.feeds]]
-slug = "tmux"
+slug = "tag/tmux"
 filter = "date<=today and 'tmux' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about tmux"
 
 [[markata.feeds]]
-slug = "discuss"
+slug = "tag/discuss"
 filter = "date<=today and 'discuss' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about discuss"
 
 [[markata.feeds]]
-slug = "homelab"
+slug = "tag/homelab"
 filter = "date<=today and 'homelab' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about homelab"
 
 [[markata.feeds]]
-slug = "self-hosted"
+slug = "tag/self-hosted"
 filter = "date<=today and 'self-hosted' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about self-hosted"
 
 [[markata.feeds]]
-slug = "example"
+slug = "tag/example"
 filter = "date<=today and 'example' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about example"
 
 [[markata.feeds]]
-slug = "opnsense"
+slug = "tag/opnsense"
 filter = "date<=today and 'opnsense' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about opnsense"
 
 [[markata.feeds]]
-slug = "security"
+slug = "tag/security"
 filter = "date<=today and 'security' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about security"
 
 [[markata.feeds]]
-slug = "k8s"
-filter = "date<=today and 'k8s' in str(tags).lower() and published"
-sort = "date"
-reverse = true
-description = "Posts about k8s"
-
-[[markata.feeds]]
-slug = "kubernetes"
+slug = "tag/kubernetes"
 filter = "date<=today and 'kubernetes' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about kubernetes"
 
 [[markata.feeds]]
-slug = "game"
-filter = "date<=today and 'game' in str(tags).lower() and published"
-sort = "date"
-reverse = true
-description = "Posts about game"
-
-[[markata.feeds]]
-slug = "ipython"
+slug = "tag/ipython"
 filter = "date<=today and 'ipython' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about ipython"
 
 [[markata.feeds]]
-slug = "terminal"
+slug = "tag/terminal"
 filter = "date<=today and 'terminal' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about terminal"
 
 [[markata.feeds]]
-slug = "startup"
+slug = "tag/startup"
 filter = "date<=today and 'startup' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about startup"
 
 [[markata.feeds]]
-slug = "vscode"
+slug = "tag/vscode"
 filter = "date<=today and 'vscode' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about vscode"
 
 [[markata.feeds]]
-slug = "3d-printing"
+slug = "tag/3d-printing"
 filter = "date<=today and '3d-printing' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about 3d-printing"
 
 [[markata.feeds]]
-slug = "tmk"
-filter = "date<=today and 'tmk' in str(tags).lower() and published"
-sort = "date"
-reverse = true
-description = "Posts about tmk"
-
-[[markata.feeds]]
-slug = "slash"
+slug = "tag/slash"
 filter = "date<=today and 'slash' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about slash"
 
 [[markata.feeds]]
-slug = "k3s"
+slug = "tag/k3s"
 filter = "date<=today and 'k3s' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about k3s"
 
 [[markata.feeds]]
-slug = "trailmakers"
+slug = "tag/trailmakers"
 filter = "date<=today and 'trailmakers' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about trailmakers"
 
 [[markata.feeds]]
-slug = "gaming"
+slug = "tag/gaming"
 filter = "date<=today and 'gaming' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about gaming"
 
 [[markata.feeds]]
-slug = "nvim"
-filter = "date<=today and 'nvim' in str(tags).lower() and published"
-sort = "date"
-reverse = true
-description = "Posts about nvim"
-
-[[markata.feeds]]
-slug = "wondercraft"
+slug = "tag/wondercraft"
 filter = "date<=today and 'wondercraft' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about wondercraft"
 
 [[markata.feeds]]
-slug = "newsletter"
+slug = "tag/newsletter"
 filter = "date<=today and 'newsletter' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about newsletter"
 
 [[markata.feeds]]
-slug = "ansible"
+slug = "tag/ansible"
 filter = "date<=today and 'ansible' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about ansible"
 
 [[markata.feeds]]
-slug = "rich"
+slug = "tag/rich"
 filter = "date<=today and 'rich' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about rich"
 
 [[markata.feeds]]
-slug = "desktop"
+slug = "tag/desktop"
 filter = "date<=today and 'desktop' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about desktop"
 
 [[markata.feeds]]
-slug = "gamedev"
+slug = "tag/gamedev"
 filter = "date<=today and 'gamedev' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about gamedev"
 
 [[markata.feeds]]
-slug = "pygame"
+slug = "tag/pygame"
 filter = "date<=today and 'pygame' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about pygame"
 
 [[markata.feeds]]
-slug = "django"
+slug = "tag/django"
 filter = "date<=today and 'django' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about django"
 
 [[markata.feeds]]
-slug = "markdown"
+slug = "tag/markdown"
 filter = "date<=today and 'markdown' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about markdown"
 
 [[markata.feeds]]
-slug = "react"
+slug = "tag/react"
 filter = "date<=today and 'react' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about react"
 
 [[markata.feeds]]
-slug = "aws"
+slug = "tag/aws"
 filter = "date<=today and 'aws' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about aws"
 
 [[markata.feeds]]
-slug = "github"
+slug = "tag/github"
 filter = "date<=today and 'github' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about github"
 
 [[markata.feeds]]
-slug = "pydantic"
+slug = "tag/pydantic"
 filter = "date<=today and 'pydantic' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about pydantic"
 
 [[markata.feeds]]
-slug = "animal-well"
+slug = "tag/animal-well"
 filter = "date<=today and 'animal-well' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about animal-well"
 
 [[markata.feeds]]
-slug = "dotfiles"
+slug = "tag/dotfiles"
 filter = "date<=today and 'dotfiles' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about dotfiles"
 
 [[markata.feeds]]
-slug = "infrastructure"
+slug = "tag/infrastructure"
 filter = "date<=today and 'infrastructure' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about infrastructure"
 
 [[markata.feeds]]
-slug = "deployment"
+slug = "tag/deployment"
 filter = "date<=today and 'deployment' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about deployment"
 
 [[markata.feeds]]
-slug = "cloudflare"
+slug = "tag/cloudflare"
 filter = "date<=today and 'cloudflare' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about cloudflare"
 
 [[markata.feeds]]
-slug = "llm"
+slug = "tag/llm"
 filter = "date<=today and 'llm' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about llm"
 
 [[markata.feeds]]
-slug = "htmx"
+slug = "tag/htmx"
 filter = "date<=today and 'htmx' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about htmx"
 
 [[markata.feeds]]
-slug = "obsidian"
+slug = "tag/obsidian"
 filter = "date<=today and 'obsidian' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about obsidian"
 
 [[markata.feeds]]
-slug = "networking"
+slug = "tag/networking"
 filter = "date<=today and 'networking' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about networking"
 
 [[markata.feeds]]
-slug = "social"
+slug = "tag/social"
 filter = "date<=today and 'social' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about social"
 
 [[markata.feeds]]
-slug = "postiz"
+slug = "tag/postiz"
 filter = "date<=today and 'postiz' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about postiz"
 
 [[markata.feeds]]
-slug = "containers"
+slug = "tag/containers"
 filter = "date<=today and 'containers' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about containers"
 
 [[markata.feeds]]
-slug = "compose"
+slug = "tag/compose"
 filter = "date<=today and 'compose' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about compose"
 
 [[markata.feeds]]
-slug = "weeknote"
+slug = "tag/weeknote"
 filter = "date<=today and 'weeknote' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about weeknote"
 
 [[markata.feeds]]
-slug = "dev"
+slug = "tag/dev"
 filter = "date<=today and 'dev' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about dev"
 
 [[markata.feeds]]
-slug = "keyboard"
+slug = "tag/keyboard"
 filter = "date<=today and 'keyboard' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about keyboard"
 
 [[markata.feeds]]
-slug = "microcontroller"
+slug = "tag/microcontroller"
 filter = "date<=today and 'microcontroller' in str(tags).lower() and published"
 sort = "date"
 reverse = true
@@ -1341,1442 +1298,1309 @@ description = "Posts about microcontroller"
 
 [[markata.feeds]]
 name = "aifeed"
-slug = "ai-feed"
+slug = "tag/ai"
 filter = "date<=today and 'ai' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about ai"
 
 [[markata.feeds]]
-slug = "rag"
+slug = "tag/rag"
 filter = "date<=today and 'rag' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about rag"
 
 [[markata.feeds]]
-slug = "gaming"
+slug = "tag/gaming"
 filter = "date<=today and 'gaming' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about gaming"
 
 [[markata.feeds]]
-slug = "x"
-filter = "date<=today and 'x' in str(tags).lower() and published"
-sort = "date"
-reverse = true
-description = "Posts about x"
-
-[[markata.feeds]]
-slug = "dev"
+slug = "tag/dev"
 filter = "date<=today and 'dev' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about dev"
 
 [[markata.feeds]]
-slug = "markdown"
+slug = "tag/markdown"
 filter = "date<=today and 'markdown' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about markdown"
 
 [[markata.feeds]]
-slug = "css"
+slug = "tag/css"
 filter = "date<=today and 'css' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about css"
 
 [[markata.feeds]]
-slug = "webdev"
+slug = "tag/webdev"
 filter = "date<=today and 'webdev' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about webdev"
 
 [[markata.feeds]]
-slug = "agentic"
+slug = "tag/agentic"
 filter = "date<=today and 'agentic' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about agentic"
 
 [[markata.feeds]]
-slug = "llm"
+slug = "tag/llm"
 filter = "date<=today and 'llm' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about llm"
 
 [[markata.feeds]]
-slug = "kubernetes"
+slug = "tag/kubernetes"
 filter = "date<=today and 'kubernetes' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about kubernetes"
 
 [[markata.feeds]]
-slug = "helm"
+slug = "tag/helm"
 filter = "date<=today and 'helm' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about helm"
 
 [[markata.feeds]]
-slug = "nvim"
-filter = "date<=today and 'nvim' in str(tags).lower() and published"
-sort = "date"
-reverse = true
-description = "Posts about nvim"
-
-[[markata.feeds]]
-slug = "self-host"
-filter = "date<=today and 'self-host' in str(tags).lower() and published"
-sort = "date"
-reverse = true
-description = "Posts about self-host"
-
-[[markata.feeds]]
-slug = "marketing"
+slug = "tag/marketing"
 filter = "date<=today and 'marketing' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about marketing"
 
 [[markata.feeds]]
-slug = "blog"
+slug = "tag/blog"
 filter = "date<=today and 'blog' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about blog"
 
 [[markata.feeds]]
-slug = "htmx"
+slug = "tag/htmx"
 filter = "date<=today and 'htmx' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about htmx"
 
 [[markata.feeds]]
-slug = "stl"
+slug = "tag/stl"
 filter = "date<=today and 'stl' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about stl"
 
 [[markata.feeds]]
-slug = "fastapi-feed"
+slug = "tag/fastapi"
 filter = "date<=today and 'fastapi' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about fastapi"
 
 [[markata.feeds]]
-slug = "uv"
+slug = "tag/uv"
 filter = "date<=today and 'uv' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about uv"
 
 [[markata.feeds]]
-slug = "status"
+slug = "tag/status"
 filter = "date<=today and 'status' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about status"
 
 [[markata.feeds]]
-slug = "fly"
-filter = "date<=today and 'fly' in str(tags).lower() and published"
-sort = "date"
-reverse = true
-description = "Posts about fly"
-
-[[markata.feeds]]
-slug = "server"
+slug = "tag/server"
 filter = "date<=today and 'server' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about server"
 
 [[markata.feeds]]
-slug = "containers"
+slug = "tag/containers"
 filter = "date<=today and 'containers' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about containers"
 
 [[markata.feeds]]
-slug = "css"
+slug = "tag/css"
 filter = "date<=today and 'css' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about css"
 
 [[markata.feeds]]
-slug = "adhd"
+slug = "tag/adhd"
 filter = "date<=today and 'adhd' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about adhd"
 
 [[markata.feeds]]
-slug = "feed"
+slug = "tag/feed"
 filter = "date<=today and 'feed' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about feed"
 
 [[markata.feeds]]
-slug = "docker"
+slug = "tag/docker"
 filter = "date<=today and 'docker' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about docker"
 
 [[markata.feeds]]
-slug = "testing"
+slug = "tag/testing"
 filter = "date<=today and 'testing' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about testing"
 
 [[markata.feeds]]
-slug = "tailscale"
+slug = "tag/tailscale"
 filter = "date<=today and 'tailscale' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about tailscale"
 
 [[markata.feeds]]
-slug = "office"
+slug = "tag/office"
 filter = "date<=today and 'office' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about office"
 
 [[markata.feeds]]
-slug = "cloud"
+slug = "tag/cloud"
 filter = "date<=today and 'cloud' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about cloud"
 
 [[markata.feeds]]
-slug = "k8s"
-filter = "date<=today and 'k8s' in str(tags).lower() and published"
-sort = "date"
-reverse = true
-description = "Posts about k8s"
-
-[[markata.feeds]]
-slug = "3d-printing"
+slug = "tag/3d-printing"
 filter = "date<=today and '3d-printing' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about 3d-printing"
 
 [[markata.feeds]]
-slug = "argo"
+slug = "tag/argo"
 filter = "date<=today and 'argo' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about argo"
 
 [[markata.feeds]]
-slug = "html"
+slug = "tag/html"
 filter = "date<=today and 'html' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about html"
 
 [[markata.feeds]]
-slug = "sqlmodel"
+slug = "tag/sqlmodel"
 filter = "date<=today and 'sqlmodel' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about sqlmodel"
 
 [[markata.feeds]]
-slug = "gridfinity"
+slug = "tag/gridfinity"
 filter = "date<=today and 'gridfinity' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about gridfinity"
 
 [[markata.feeds]]
-slug = "3d-printing"
+slug = "tag/3d-printing"
 filter = "date<=today and '3d-printing' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about 3d-printing"
 
 [[markata.feeds]]
-slug = "pc"
+slug = "tag/pc"
 filter = "date<=today and 'pc' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about pc"
 
 [[markata.feeds]]
-slug = "fingerboard"
+slug = "tag/fingerboard"
 filter = "date<=today and 'fingerboard' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about fingerboard"
 
 [[markata.feeds]]
-slug = "cli"
+slug = "tag/cli"
 filter = "date<=today and 'cli' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about cli"
 
 [[markata.feeds]]
-slug = "typer"
+slug = "tag/typer"
 filter = "date<=today and 'typer' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about typer"
 
 [[markata.feeds]]
-slug = "database"
+slug = "tag/database"
 filter = "date<=today and 'database' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about database"
 
 [[markata.feeds]]
-slug = "postgres"
+slug = "tag/postgres"
 filter = "date<=today and 'postgres' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about postgres"
 
 [[markata.feeds]]
-slug = "tui"
+slug = "tag/tui"
 filter = "date<=today and 'tui' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about tui"
 
 [[markata.feeds]]
-slug = "textual"
+slug = "tag/textual"
 filter = "date<=today and 'textual' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about textual"
 
 [[markata.feeds]]
-slug = "ticklemykeys"
+slug = "tag/ticklemykeys"
 filter = "date<=today and 'ticklemykeys' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about ticklemykeys"
 
 [[markata.feeds]]
-slug = "3dprinting"
-filter = "date<=today and '3dprinting' in str(tags).lower() and published"
-sort = "date"
-reverse = true
-description = "Posts about 3dprinting"
-
-[[markata.feeds]]
-slug = "qmk"
+slug = "tag/qmk"
 filter = "date<=today and 'qmk' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about qmk"
 
 [[markata.feeds]]
-slug = "keyboard"
+slug = "tag/keyboard"
 filter = "date<=today and 'keyboard' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about keyboard"
 
 [[markata.feeds]]
-slug = "trackpad"
+slug = "tag/trackpad"
 filter = "date<=today and 'trackpad' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about trackpad"
 
 [[markata.feeds]]
-slug = "zulip"
+slug = "tag/zulip"
 filter = "date<=today and 'zulip' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about zulip"
 
 [[markata.feeds]]
-slug = "chat"
+slug = "tag/chat"
 filter = "date<=today and 'chat' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about chat"
 
 [[markata.feeds]]
-slug = "self-hosted"
+slug = "tag/self-tag/hosted"
 filter = "date<=today and 'self-hosted' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about self-hosted"
 
 [[markata.feeds]]
-slug = "helix"
+slug = "tag/helix"
 filter = "date<=today and 'helix' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about helix"
 
 [[markata.feeds]]
-slug = "regex"
+slug = "tag/regex"
 filter = "date<=today and 'regex' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about regex"
 
 [[markata.feeds]]
-slug = "refactoring"
+slug = "tag/refactoring"
 filter = "date<=today and 'refactoring' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about refactoring"
 
 [[markata.feeds]]
-slug = "sqlite"
+slug = "tag/sqlite"
 filter = "date<=today and 'sqlite' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about sqlite"
 
 [[markata.feeds]]
-slug = "editor"
+slug = "tag/editor"
 filter = "date<=today and 'editor' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about editor"
 
 [[markata.feeds]]
-slug = "podman"
+slug = "tag/podman"
 filter = "date<=today and 'podman' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about podman"
 
 [[markata.feeds]]
-slug = "distrobox"
+slug = "tag/distrobox"
 filter = "date<=today and 'distrobox' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about distrobox"
 
 [[markata.feeds]]
-slug = "zmk"
+slug = "tag/zmk"
 filter = "date<=today and 'zmk' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about zmk"
 
 [[markata.feeds]]
-slug = "tailscale"
+slug = "tag/tailscale"
 filter = "date<=today and 'tailscale' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about tailscale"
 
 [[markata.feeds]]
-slug = "career"
+slug = "tag/career"
 filter = "date<=today and 'career' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about career"
 
 [[markata.feeds]]
-slug = "vm"
+slug = "tag/vm"
 filter = "date<=today and 'vm' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about vm"
 
 [[markata.feeds]]
-slug = "skate"
+slug = "tag/skate"
 filter = "date<=today and 'skate' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about skate"
 
 [[markata.feeds]]
-slug = "zettelkasten"
+slug = "tag/zettelkasten"
 filter = "date<=today and 'zettelkasten' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about zettelkasten"
 
 [[markata.feeds]]
-slug = "sql"
+slug = "tag/sql"
 filter = "date<=today and 'sql' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about sql"
 
 [[markata.feeds]]
-slug = "tui"
+slug = "tag/tui"
 filter = "date<=today and 'tui' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about tui"
 
 [[markata.feeds]]
-slug = "product"
+slug = "tag/product"
 filter = "date<=today and 'product' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about product"
 
 [[markata.feeds]]
-slug = "seo"
+slug = "tag/seo"
 filter = "date<=today and 'seo' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about seo"
 
 [[markata.feeds]]
-slug = "ccatalytic"
-filter = "date<=today and 'ccatalytic' in str(tags).lower() and published"
-sort = "date"
-reverse = true
-description = "Posts about ccatalytic"
-
-[[markata.feeds]]
-slug = "bazzite"
+slug = "tag/bazzite"
 filter = "date<=today and 'bazzite' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about bazzite"
 
 [[markata.feeds]]
-slug = "keyboards"
-filter = "date<=today and 'keyboards' in str(tags).lower() and published"
-sort = "date"
-reverse = true
-description = "Posts about keyboards"
-
-[[markata.feeds]]
-slug = "chrome"
+slug = "tag/chrome"
 filter = "date<=today and 'chrome' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about chrome"
 
 [[markata.feeds]]
-slug = "http"
+slug = "tag/http"
 filter = "date<=today and 'http' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about http"
 
 [[markata.feeds]]
-slug = "arch"
+slug = "tag/arch"
 filter = "date<=today and 'arch' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about arch"
 
 [[markata.feeds]]
-slug = "blogging"
-filter = "date<=today and 'blogging' in str(tags).lower() and published"
-sort = "date"
-reverse = true
-description = "Posts about blogging"
-
-[[markata.feeds]]
-slug = "fastapi"
-filter = "date<=today and 'fastapi' in str(tags).lower() and published"
-sort = "date"
-reverse = true
-description = "Posts about fastapi"
-
-[[markata.feeds]]
-slug = "3d"
+slug = "tag/3d"
 filter = "date<=today and '3d' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about 3d"
 
 [[markata.feeds]]
-slug = "printing"
-filter = "date<=today and 'printing' in str(tags).lower() and published"
-sort = "date"
-reverse = true
-description = "Posts about printing"
-
-[[markata.feeds]]
-slug = "gcode"
+slug = "tag/gcode"
 filter = "date<=today and 'gcode' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about gcode"
 
 [[markata.feeds]]
-slug = "infra"
-filter = "date<=today and 'infra' in str(tags).lower() and published"
-sort = "date"
-reverse = true
-description = "Posts about infra"
-
-[[markata.feeds]]
-slug = "open-source"
+slug = "tag/open-source"
 filter = "date<=today and 'open-source' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about open-source"
 
 [[markata.feeds]]
-slug = "keeb"
-filter = "date<=today and 'keeb' in str(tags).lower() and published"
-sort = "date"
-reverse = true
-description = "Posts about keeb"
-
-[[markata.feeds]]
-slug = "pod"
+slug = "tag/pod"
 filter = "date<=today and 'pod' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about pod"
 
 [[markata.feeds]]
-slug = "container"
+slug = "tag/container"
 filter = "date<=today and 'container' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about container"
 
 [[markata.feeds]]
-slug = "web"
+slug = "tag/web"
 filter = "date<=today and 'web' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about web"
 
 [[markata.feeds]]
-slug = "cyberdeck"
+slug = "tag/cyberdeck"
 filter = "date<=today and 'cyberdeck' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about cyberdeck"
 
 [[markata.feeds]]
-slug = "api"
+slug = "tag/api"
 filter = "date<=today and 'api' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about api"
 
 [[markata.feeds]]
-slug = "shipping"
+slug = "tag/shipping"
 filter = "date<=today and 'shipping' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about shipping"
 
 [[markata.feeds]]
-slug = "catalyst"
-filter = "date<=today and 'catalyst' in str(tags).lower() and published"
-sort = "date"
-reverse = true
-description = "Posts about catalyst"
-
-[[markata.feeds]]
-slug = "meme"
+slug = "tag/meme"
 filter = "date<=today and 'meme' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about meme"
 
 [[markata.feeds]]
-slug = "tailwindcss"
+slug = "tag/tailwindcss"
 filter = "date<=today and 'tailwindcss' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about tailwindcss"
 
 [[markata.feeds]]
-slug = "digital-garden"
+slug = "tag/digital-garden"
 filter = "date<=today and 'digital-garden' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about digital-garden"
 
 [[markata.feeds]]
-slug = "right-to-repair"
+slug = "tag/right-to-repair"
 filter = "date<=today and 'right-to-repair' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about right-to-repair"
 
 [[markata.feeds]]
-slug = "distrobox"
+slug = "tag/distrobox"
 filter = "date<=today and 'distrobox' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about distrobox"
 
-# [[markata.feeds]]
-# slug = "just"
-# filter = "date<=today and 'just' in str(tags).lower() and published"
-# sort = "date"
-# reverse = true
-# description = "Posts about just"
-
 [[markata.feeds]]
-slug = "just-feed"
+slug = "tag/just"
 filter = "date<=today and 'just' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about just"
 
 [[markata.feeds]]
-slug = "justfile"
-filter = "date<=today and 'justfile' in str(tags).lower() and published"
-sort = "date"
-reverse = true
-description = "Posts about justfile"
-
-[[markata.feeds]]
-slug = "cheatsheet"
+slug = "tag/cheatsheet"
 filter = "date<=today and 'cheatsheet' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about cheatsheet"
 
 [[markata.feeds]]
-slug = "sst"
+slug = "tag/sst"
 filter = "date<=today and 'sst' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about sst"
 
 [[markata.feeds]]
-slug = "serverless"
+slug = "tag/serverless"
 filter = "date<=today and 'serverless' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about serverless"
 
 [[markata.feeds]]
-slug = "programming"
-filter = "date<=today and 'programming' in str(tags).lower() and published"
-sort = "date"
-reverse = true
-description = "Posts about programming"
-
-[[markata.feeds]]
-slug = "terminal"
+slug = "tag/terminal"
 filter = "date<=today and 'terminal' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about terminal"
 
 [[markata.feeds]]
-slug = "ssh"
+slug = "tag/ssh"
 filter = "date<=today and 'ssh' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about ssh"
 
 [[markata.feeds]]
-slug = "tech"
+slug = "tag/tech"
 filter = "date<=today and 'tech' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about tech"
 
 [[markata.feeds]]
-slug = "k3s"
+slug = "tag/k3s"
 filter = "date<=today and 'k3s' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about k3s"
 
 [[markata.feeds]]
-slug = "redis"
+slug = "tag/redis"
 filter = "date<=today and 'redis' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about redis"
 
 [[markata.feeds]]
-slug = "hogwarts"
+slug = "tag/hogwarts"
 filter = "date<=today and 'hogwarts' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about hogwarts"
 
 [[markata.feeds]]
-slug = "sqlite"
+slug = "tag/sqlite"
 filter = "date<=today and 'sqlite' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about sqlite"
 
 [[markata.feeds]]
-slug = "graphql"
+slug = "tag/graphql"
 filter = "date<=today and 'graphql' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about graphql"
 
 [[markata.feeds]]
-slug = "workflow"
+slug = "tag/workflow"
 filter = "date<=today and 'workflow' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about workflow"
 
 [[markata.feeds]]
-slug = "healthchecks"
+slug = "tag/healthchecks"
 filter = "date<=today and 'healthchecks' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about healthchecks"
 
 [[markata.feeds]]
-slug = "linting"
+slug = "tag/linting"
 filter = "date<=today and 'linting' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about linting"
 
 [[markata.feeds]]
-slug = "data"
+slug = "tag/data"
 filter = "date<=today and 'data' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about data"
 
 [[markata.feeds]]
-slug = "go"
+slug = "tag/go"
 filter = "date<=today and 'go' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about go"
 
 [[markata.feeds]]
-slug = "sqlalchemy"
+slug = "tag/sqlalchemy"
 filter = "date<=today and 'sqlalchemy' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about sqlalchemy"
 
 [[markata.feeds]]
-slug = "low-code"
+slug = "tag/low-tag/code"
 filter = "date<=today and 'low-code' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about low-code"
 
 [[markata.feeds]]
-slug = "java"
+slug = "tag/java"
 filter = "date<=today and 'java' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about java"
 
 [[markata.feeds]]
-slug = "sqlmodel"
+slug = "tag/sqlmodel"
 filter = "date<=today and 'sqlmodel' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about sqlmodel"
 
 [[markata.feeds]]
-slug = "sqlalchemy"
+slug = "tag/sqlalchemy"
 filter = "date<=today and 'sqlalchemy' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about sqlalchemy"
 
 [[markata.feeds]]
-slug = "orm"
+slug = "tag/orm"
 filter = "date<=today and 'orm' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about orm"
 
 [[markata.feeds]]
-slug = "jinja"
+slug = "tag/jinja"
 filter = "date<=today and 'jinja' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about jinja"
 
 [[markata.feeds]]
-slug = "hosting"
+slug = "tag/hosting"
 filter = "date<=today and 'hosting' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about hosting"
 
 [[markata.feeds]]
-slug = "indieweb"
+slug = "tag/indieweb"
 filter = "date<=today and 'indieweb' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about indieweb"
 
 [[markata.feeds]]
-slug = "stripe"
+slug = "tag/stripe"
 filter = "date<=today and 'stripe' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about stripe"
 
 [[markata.feeds]]
-slug = "words"
+slug = "tag/words"
 filter = "date<=today and 'words' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about words"
 
 [[markata.feeds]]
-slug = "icons"
+slug = "tag/icons"
 filter = "date<=today and 'icons' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about icons"
 
 [[markata.feeds]]
-slug = "aws"
+slug = "tag/aws"
 filter = "date<=today and 'aws' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about aws"
 
 [[markata.feeds]]
-slug = "og-feed"
+slug = "tag/og"
 filter = "date<=today and 'og' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about og"
 
 [[markata.feeds]]
-slug = "tailwind"
-filter = "date<=today and 'tailwind' in str(tags).lower() and published"
-sort = "date"
-reverse = true
-description = "Posts about tailwind"
-
-[[markata.feeds]]
-slug = "twitter"
+slug = "tag/twitter"
 filter = "date<=today and 'twitter' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about twitter"
 
 [[markata.feeds]]
-slug = "interviews"
+slug = "tag/interviews"
 filter = "date<=today and 'interviews' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about interviews"
 
 [[markata.feeds]]
-slug = "shell"
+slug = "tag/shell"
 filter = "date<=today and 'shell' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about shell"
 
 [[markata.feeds]]
-slug = "zsh"
+slug = "tag/zsh"
 filter = "date<=today and 'zsh' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about zsh"
 
 [[markata.feeds]]
-slug = "database"
+slug = "tag/database"
 filter = "date<=today and 'database' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about database"
 
 [[markata.feeds]]
-slug = "installer"
+slug = "tag/installer"
 filter = "date<=today and 'installer' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about installer"
 
 [[markata.feeds]]
-slug = "github"
+slug = "tag/github"
 filter = "date<=today and 'github' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about github"
 
 [[markata.feeds]]
-slug = "search"
+slug = "tag/search"
 filter = "date<=today and 'search' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about search"
 
 [[markata.feeds]]
-slug = "wasm"
+slug = "tag/wasm"
 filter = "date<=today and 'wasm' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about wasm"
 
 [[markata.feeds]]
-slug = "curl"
+slug = "tag/curl"
 filter = "date<=today and 'curl' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about curl"
 
 [[markata.feeds]]
-slug = "fts"
+slug = "tag/fts"
 filter = "date<=today and 'fts' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about fts"
 
 [[markata.feeds]]
-slug = "prettier"
+slug = "tag/prettier"
 filter = "date<=today and 'prettier' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about prettier"
 
 [[markata.feeds]]
-slug = "screenshot"
+slug = "tag/screenshot"
 filter = "date<=today and 'screenshot' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about screenshot"
 
 [[markata.feeds]]
-slug = "docs"
+slug = "tag/docs"
 filter = "date<=today and 'docs' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about docs"
 
 [[markata.feeds]]
-slug = "playwright"
+slug = "tag/playwright"
 filter = "date<=today and 'playwright' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about playwright"
 
 [[markata.feeds]]
-slug = "vuejs"
+slug = "tag/vuejs"
 filter = "date<=today and 'vuejs' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about vuejs"
 
 [[markata.feeds]]
-slug = "pydantic"
+slug = "tag/pydantic"
 filter = "date<=today and 'pydantic' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about pydantic"
 
 [[markata.feeds]]
-slug = "desktop"
+slug = "tag/desktop"
 filter = "date<=today and 'desktop' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about desktop"
 
 [[markata.feeds]]
-slug = "alembic"
+slug = "tag/alembic"
 filter = "date<=today and 'alembic' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about alembic"
 
 [[markata.feeds]]
-slug = "duckdb"
+slug = "tag/duckdb"
 filter = "date<=today and 'duckdb' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about duckdb"
 
 [[markata.feeds]]
-slug = "cloud"
+slug = "tag/cloud"
 filter = "date<=today and 'cloud' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about cloud"
 
 [[markata.feeds]]
-slug = "s3"
+slug = "tag/s3"
 filter = "date<=today and 's3' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about s3"
 
 [[markata.feeds]]
-slug = "rich"
+slug = "tag/rich"
 filter = "date<=today and 'rich' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about rich"
 
 [[markata.feeds]]
-slug = "debugging"
+slug = "tag/debugging"
 filter = "date<=today and 'debugging' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about debugging"
 
 [[markata.feeds]]
-slug = "auth"
+slug = "tag/auth"
 filter = "date<=today and 'auth' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about auth"
 
 [[markata.feeds]]
-slug = "pywebview"
+slug = "tag/pywebview"
 filter = "date<=today and 'pywebview' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about pywebview"
 
 [[markata.feeds]]
-slug = "jinja2"
-filter = "date<=today and 'jinja2' in str(tags).lower() and published"
-sort = "date"
-reverse = true
-description = "Posts about jinja2"
-
-[[markata.feeds]]
-slug = "security"
+slug = "tag/security"
 filter = "date<=today and 'security' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about security"
 
 [[markata.feeds]]
-slug = "harlequin"
+slug = "tag/harlequin"
 filter = "date<=today and 'harlequin' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about harlequin"
 
 [[markata.feeds]]
-slug = "pandas"
+slug = "tag/pandas"
 filter = "date<=today and 'pandas' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about pandas"
 
 [[markata.feeds]]
-slug = "pytest"
+slug = "tag/pytest"
 filter = "date<=today and 'pytest' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about pytest"
 
 [[markata.feeds]]
-slug = "websockets"
+slug = "tag/websockets"
 filter = "date<=today and 'websockets' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about websockets"
 
 [[markata.feeds]]
-slug = "urlib"
+slug = "tag/urlib"
 filter = "date<=today and 'urlib' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about urlib"
 
 [[markata.feeds]]
-slug = "presentation"
+slug = "tag/presentation"
 filter = "date<=today and 'presentation' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about presentation"
 
 [[markata.feeds]]
-slug = "json"
+slug = "tag/json"
 filter = "date<=today and 'json' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about json"
 
 [[markata.feeds]]
-slug = "jq"
+slug = "tag/jq"
 filter = "date<=today and 'jq' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about jq"
 
 [[markata.feeds]]
-slug = "systemd"
+slug = "tag/systemd"
 filter = "date<=today and 'systemd' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about systemd"
 
 [[markata.feeds]]
-slug = "zfs"
+slug = "tag/zfs"
 filter = "date<=today and 'zfs' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about zfs"
 
 [[markata.feeds]]
-slug = "flask"
+slug = "tag/flask"
 filter = "date<=today and 'flask' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about flask"
 
 [[markata.feeds]]
-slug = "payment"
+slug = "tag/payment"
 filter = "date<=today and 'payment' in str(tags).lower() and published"
 sort = "date"
 description = "Posts about payment"
 reverse = true
 
 [[markata.feeds]]
-slug = "steamdeck"
+slug = "tag/steamdeck"
 filter = "date<=today and 'steamdeck' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about steamdeck"
 
 [[markata.feeds]]
-slug = "fly-io"
+slug = "tag/fly-io"
 filter = "date<=today and 'fly-io' in str(tags).lower() and published"
 sort = "date"
 description = "Posts about fly-io"
 reverse = true
 
 [[markata.feeds]]
-slug = "github-stars"
+slug = "tag/github-stars"
 filter = "date<=today and 'github-stars' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about github-stars"
 
 [[markata.feeds]]
-slug = "plugin-report"
+slug = "tag/plugin-report"
 filter = "'plugin-report' in str(tags).lower()"
 sort = "date"
 reverse = true
 description = "Markata build plugin reports"
 
 [[markata.feeds]]
-slug = "ahrefs"
+slug = "tag/ahrefs"
 filter = "date<=today and 'ahrefs' in tags and published"
 sort = "date"
 reverse = true
 description = "Posts about ahrefs"
 
 [[markata.feeds]]
-slug = "minio"
+slug = "tag/minio"
 filter = "date<=today and 'minio' in tags and published"
 sort = "date"
 reverse = true
 description = "Posts about minio"
 
 [[markata.feeds]]
-slug = "starship"
+slug = "tag/starship"
 filter = "date<=today and 'starship' in tags and published"
 sort = "date"
 reverse = true
 description = "Posts about starship"
 
 [[markata.feeds]]
-slug = "data-viz"
+slug = "tag/data-viz"
 filter = "date<=today and 'data-viz' in tags and published"
 sort = "date"
 reverse = true
 description = "Posts about data-viz"
 
 [[markata.feeds]]
-slug = "seaborn"
+slug = "tag/seaborn"
 filter = "date<=today and 'seaborn' in tags and published"
 sort = "date"
 reverse = true
 description = "Posts about seaborn"
 
 [[markata.feeds]]
-slug = "font"
+slug = "tag/font"
 filter = "date<=today and 'font' in tags and published"
 sort = "date"
 reverse = true
 description = "Posts about font"
 
 [[markata.feeds]]
-slug = "nerdfont"
+slug = "tag/nerdfont"
 filter = "date<=today and 'nerdfont' in tags and published"
 sort = "date"
 reverse = true
 description = "Posts about nerdfont"
 
 [[markata.feeds]]
-slug = "thps-gaps"
+slug = "tag/thps-gaps"
 filter = "date<=today and 'thps-gaps' in tags and published"
 sort = "date"
 reverse = true
 description = "Tony Hawk Pro Skater Gaps Project, getting clips of every gap in the game"
 
 [[markata.feeds]]
-slug = "longhorn"
+slug = "tag/longhorn"
 filter = "date<=today and 'longhorn' in tags and published"
 sort = "date"
 reverse = true
 description = "Posts about longhorn"
 
 [[markata.feeds]]
-slug = "nextcloud"
+slug = "tag/nextcloud"
 filter = "date<=today and 'nextcloud' in tags and published"
 sort = "date"
 reverse = true
 description = "Posts about nextcloud"
 
 [[markata.feeds]]
-slug = "hollow-knight"
+slug = "tag/hollow-knight"
 filter = "date<=today and 'hollow-knight' in tags and published"
 sort = "date"
 reverse = true
 description = "Posts about hollow-knight"
 
 [[markata.feeds]]
-slug = "ruff"
+slug = "tag/ruff"
 filter = "date<=today and 'ruff' in tags and published"
 sort = "date"
 reverse = true
 description = "Posts about ruff"
 
 [[markata.feeds]]
-slug = "otel"
+slug = "tag/otel"
 filter = "date<=today and 'otel' in tags and published"
 sort = "date"
 reverse = true
 description = "Posts about otel"
 
 [[markata.feeds]]
-slug = "grafana"
+slug = "tag/grafana"
 filter = "date<=today and 'grafana' in tags and published"
 sort = "date"
 reverse = true
 description = "Posts about grafana"
 
 [[markata.feeds]]
-slug = "vhs"
+slug = "tag/vhs"
 filter = "date<=today and 'vhs' in tags and published"
 sort = "date"
 reverse = true
 description = "Posts about vhs"
 
 [[markata.feeds]]
-slug = "awesomewm"
+slug = "tag/awesomewm"
 filter = "date<=today and 'awesomewm' in tags and published"
 sort = "date"
 reverse = true
 description = "Posts about awesomewm"
 
 [[markata.feeds]]
-slug = "video-editor"
+slug = "tag/video-editor"
 filter = "date<=today and 'video-editor' in tags and published"
 sort = "date"
 reverse = true
 description = "Posts about video-editor"
 
 [[markata.feeds]]
-slug = "oss"
+slug = "tag/oss"
 filter = "date<=today and 'oss' in tags and published"
 sort = "date"
 reverse = true
 description = "Posts about oss"
 
 [[markata.feeds]]
-slug = "versioning"
+slug = "tag/versioning"
 filter = "date<=today and 'versioning' in tags and published"
 sort = "date"
 reverse = true
 description = "Posts about versioning"
 
 [[markata.feeds]]
-slug = "writing"
+slug = "tag/writing"
 filter = "date<=today and 'writing' in tags and published"
 sort = "date"
 reverse = true
 description = "Posts about writing"
 
 [[markata.feeds]]
-slug = "event"
+slug = "tag/event"
 filter = "date<=today and 'event' in tags and published"
 sort = "date"
 reverse = true
 description = "Posts about event"
 
 [[markata.feeds]]
-slug = "recommended"
+slug = "tag/recommended"
 filter = "date<=today and 'recommended' in tags and published"
 sort = "date"
 reverse = true
 description = "Posts about recommended"
 
 [[markata.feeds]]
-slug = "observability"
+slug = "tag/observability"
 filter = "date<=today and 'observability' in tags and published"
 sort = "date"
 reverse = true
 description = "Posts about observability"
 
 [[markata.feeds]]
-slug = "vibes"
+slug = "tag/vibes"
 filter = "date<=today and 'vibes' in tags and published"
 sort = "date"
 reverse = true
 description = "Posts about vibes"
 
 [[markata.feeds]]
-slug = "fleeting"
+slug = "tag/fleeting"
 filter = "date<=today and 'fleeting' in tags and published"
 sort = "date"
 reverse = true
 description = "Posts about fleeting"
 
 [[markata.feeds]]
-slug = "loki"
+slug = "tag/loki"
 filter = "date<=today and 'loki' in tags and published"
 sort = "date"
 reverse = true
 description = "Posts about loki"
 
 [[markata.feeds]]
-slug = "tempo"
+slug = "tag/tempo"
 filter = "date<=today and 'tempo' in tags and published"
 sort = "date"
 reverse = true
 description = "Posts about tempo"
 
 [[markata.feeds]]
-slug = "vector"
+slug = "tag/vector"
 filter = "date<=today and 'vector' in tags and published"
 sort = "date"
 reverse = true
 description = "Posts about vector"
 
 [[markata.feeds]]
-slug = "copier"
+slug = "tag/copier"
 filter = "date<=today and 'copier' in tags and published"
 sort = "date"
 reverse = true
@@ -2823,3 +2647,690 @@ sort = "date"
 reverse = true
 description = 'A feed of my steam games and their achievements progress'
 card_template='steam-game-card.html'
+
+[[markata.feeds]]
+slug = "tag/glossary"
+filter = "date<=today and 'glossary' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about glossary"
+
+[[markata.feeds]]
+slug = "tag/satire"
+filter = "date<=today and 'satire' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about satire"
+
+[[markata.feeds]]
+slug = "tag/story"
+filter = "date<=today and 'story' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about story"
+
+[[markata.feeds]]
+slug = "tag/knife"
+filter = "date<=today and 'knife' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about knife"
+
+[[markata.feeds]]
+slug = "tag/tech-culture"
+filter = "date<=today and 'tech-culture' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about tech-culture"
+
+[[markata.feeds]]
+slug = "tag/agents"
+filter = "date<=today and 'agents' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about agents"
+
+[[markata.feeds]]
+slug = "tag/design"
+filter = "date<=today and 'design' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about design"
+
+[[markata.feeds]]
+slug = "tag/archlinux"
+filter = "date<=today and 'archlinux' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about archlinux"
+
+[[markata.feeds]]
+slug = "tag/hyprland"
+filter = "date<=today and 'hyprland' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about hyprland"
+
+[[markata.feeds]]
+slug = "tag/kubenetes"
+filter = "date<=today and 'kubenetes' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about kubenetes"
+
+[[markata.feeds]]
+slug = "tag/ffmpeg"
+filter = "date<=today and 'ffmpeg' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about ffmpeg"
+
+[[markata.feeds]]
+slug = "tag/gitea"
+filter = "date<=today and 'gitea' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about gitea"
+
+[[markata.feeds]]
+slug = "tag/forgejo"
+filter = "date<=today and 'forgejo' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about forgejo"
+
+[[markata.feeds]]
+slug = "tag/opencode"
+filter = "date<=today and 'opencode' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about opencode"
+
+[[markata.feeds]]
+slug = "tag/steam-game"
+filter = "date<=today and 'steam-game' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about steam-game"
+
+[[markata.feeds]]
+slug = "tag/among-us"
+filter = "date<=today and 'among-us' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about among-us"
+
+[[markata.feeds]]
+slug = "tag/astroneer"
+filter = "date<=today and 'astroneer' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about astroneer"
+
+[[markata.feeds]]
+slug = "tag/badger"
+filter = "date<=today and 'badger' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about badger"
+
+[[markata.feeds]]
+slug = "tag/bloons-td-6"
+filter = "date<=today and 'bloons-td-6' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about bloons-td-6"
+
+[[markata.feeds]]
+slug = "tag/bopl-battle"
+filter = "date<=today and 'bopl-battle' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about bopl-battle"
+
+[[markata.feeds]]
+slug = "tag/brotato"
+filter = "date<=today and 'brotato' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about brotato"
+
+[[markata.feeds]]
+slug = "tag/colossal-order-game"
+filter = "date<=today and 'colossal-order-game' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about colossal-order-game"
+
+[[markata.feeds]]
+slug = "tag/core-keeper"
+filter = "date<=today and 'core-keeper' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about core-keeper"
+
+[[markata.feeds]]
+slug = "tag/craftopia"
+filter = "date<=today and 'craftopia' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about craftopia"
+
+[[markata.feeds]]
+slug = "tag/dave-the-diver"
+filter = "date<=today and 'dave-the-diver' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about dave-the-diver"
+
+[[markata.feeds]]
+slug = "tag/descenders"
+filter = "date<=today and 'descenders' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about descenders"
+
+[[markata.feeds]]
+slug = "tag/escape-simulator"
+filter = "date<=today and 'escape-simulator' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about escape-simulator"
+
+[[markata.feeds]]
+slug = "tag/factorio"
+filter = "date<=today and 'factorio' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about factorio"
+
+[[markata.feeds]]
+slug = "tag/firewalker"
+filter = "date<=today and 'firewalker' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about firewalker"
+
+[[markata.feeds]]
+slug = "tag/frozen-flame"
+filter = "date<=today and 'frozen-flame' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about frozen-flame"
+
+[[markata.feeds]]
+slug = "tag/golf-with-friends"
+filter = "date<=today and 'golf-with-friends' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about golf-with-friends"
+
+[[markata.feeds]]
+slug = "tag/grounded"
+filter = "date<=today and 'grounded' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about grounded"
+
+[[markata.feeds]]
+slug = "tag/harry-potter-quidditch-champions"
+filter = "date<=today and 'harry-potter-quidditch-champions' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about harry-potter-quidditch-champions"
+
+[[markata.feeds]]
+slug = "tag/hollow-knight-silksong"
+filter = "date<=today and 'hollow-knight-silksong' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about hollow-knight-silksong"
+
+[[markata.feeds]]
+slug = "tag/hot-wheels-unleashed"
+filter = "date<=today and 'hot-wheels-unleashed' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about hot-wheels-unleashed"
+
+[[markata.feeds]]
+slug = "tag/human-fall-flat"
+filter = "date<=today and 'human-fall-flat' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about human-fall-flat"
+
+[[markata.feeds]]
+slug = "tag/hydroneer"
+filter = "date<=today and 'hydroneer' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about hydroneer"
+
+[[markata.feeds]]
+slug = "tag/knockout-city"
+filter = "date<=today and 'knockout-city' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about knockout-city"
+
+[[markata.feeds]]
+slug = "tag/lovika"
+filter = "date<=today and 'lovika' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about lovika"
+
+[[markata.feeds]]
+slug = "tag/mimpi-dreams"
+filter = "date<=today and 'mimpi-dreams' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about mimpi-dreams"
+
+[[markata.feeds]]
+slug = "tag/monster-energy-supercross---the-official-videogame-3"
+filter = "date<=today and 'monster-energy-supercross---the-official-videogame-3' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about monster-energy-supercross---the-official-videogame-3"
+
+[[markata.feeds]]
+slug = "tag/monster-energy-supercross---the-official-videogame-5"
+filter = "date<=today and 'monster-energy-supercross---the-official-videogame-5' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about monster-energy-supercross---the-official-videogame-5"
+
+[[markata.feeds]]
+slug = "tag/monster-energy-supercross---the-official-videogame"
+filter = "date<=today and 'monster-energy-supercross---the-official-videogame' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about monster-energy-supercross---the-official-videogame"
+
+[[markata.feeds]]
+slug = "tag/muck"
+filter = "date<=today and 'muck' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about muck"
+
+[[markata.feeds]]
+slug = "tag/multiversus"
+filter = "date<=today and 'multiversus' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about multiversus"
+
+[[markata.feeds]]
+slug = "tag/mxgp3---the-official-motocross-videogame"
+filter = "date<=today and 'mxgp3---the-official-motocross-videogame' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about mxgp3---the-official-motocross-videogame"
+
+[[markata.feeds]]
+slug = "tag/oxygen-not-included"
+filter = "date<=today and 'oxygen-not-included' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about oxygen-not-included"
+
+[[markata.feeds]]
+slug = "tag/party-animals"
+filter = "date<=today and 'party-animals' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about party-animals"
+
+[[markata.feeds]]
+slug = "tag/patagonia"
+filter = "date<=today and 'patagonia' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about patagonia"
+
+[[markata.feeds]]
+slug = "tag/peak"
+filter = "date<=today and 'peak' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about peak"
+
+[[markata.feeds]]
+slug = "tag/phx"
+filter = "date<=today and 'phx' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about phx"
+
+[[markata.feeds]]
+slug = "tag/poly-bridge-2"
+filter = "date<=today and 'poly-bridge-2' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about poly-bridge-2"
+
+[[markata.feeds]]
+slug = "tag/poly-bridge"
+filter = "date<=today and 'poly-bridge' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about poly-bridge"
+
+[[markata.feeds]]
+slug = "tag/portal-2"
+filter = "date<=today and 'portal-2' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about portal-2"
+
+[[markata.feeds]]
+slug = "tag/portal"
+filter = "date<=today and 'portal' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about portal"
+
+[[markata.feeds]]
+slug = "tag/powerwash-simulator"
+filter = "date<=today and 'powerwash-simulator' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about powerwash-simulator"
+
+[[markata.feeds]]
+slug = "tag/rbwp4"
+filter = "date<=today and 'rbwp4' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about rbwp4"
+
+[[markata.feeds]]
+slug = "tag/rc-plane-3"
+filter = "date<=today and 'rc-plane-3' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about rc-plane-3"
+
+[[markata.feeds]]
+slug = "tag/rounds"
+filter = "date<=today and 'rounds' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about rounds"
+
+[[markata.feeds]]
+slug = "tag/sein"
+filter = "date<=today and 'sein' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about sein"
+
+[[markata.feeds]]
+slug = "tag/session-skate-sim"
+filter = "date<=today and 'session-skate-sim' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about session-skate-sim"
+
+[[markata.feeds]]
+slug = "tag/slime-rancher-2"
+filter = "date<=today and 'slime-rancher-2' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about slime-rancher-2"
+
+[[markata.feeds]]
+slug = "tag/slime-rancher"
+filter = "date<=today and 'slime-rancher' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about slime-rancher"
+
+[[markata.feeds]]
+slug = "tag/star-wars-jedi-fallen-order"
+filter = "date<=today and 'star-wars-jedi-fallen-order' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about star-wars-jedi-fallen-order"
+
+[[markata.feeds]]
+slug = "tag/starbound---unstable"
+filter = "date<=today and 'starbound---unstable' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about starbound---unstable"
+
+[[markata.feeds]]
+slug = "tag/stardew-valley"
+filter = "date<=today and 'stardew-valley' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about stardew-valley"
+
+[[markata.feeds]]
+slug = "tag/steamworld-newgame2017"
+filter = "date<=today and 'steamworld-newgame2017' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about steamworld-newgame2017"
+
+[[markata.feeds]]
+slug = "tag/steep"
+filter = "date<=today and 'steep' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about steep"
+
+[[markata.feeds]]
+slug = "tag/stumble-guys"
+filter = "date<=today and 'stumble-guys' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about stumble-guys"
+
+[[markata.feeds]]
+slug = "tag/subnautica"
+filter = "date<=today and 'subnautica' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about subnautica"
+
+[[markata.feeds]]
+slug = "tag/terraria"
+filter = "date<=today and 'terraria' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about terraria"
+
+[[markata.feeds]]
+slug = "tag/the-farmer-was-replaced"
+filter = "date<=today and 'the-farmer-was-replaced' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about the-farmer-was-replaced"
+
+[[markata.feeds]]
+slug = "tag/there-is-no-game-wrong-dimension"
+filter = "date<=today and 'there-is-no-game-wrong-dimension' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about there-is-no-game-wrong-dimension"
+
+[[markata.feeds]]
+slug = "tag/ultimate-chicken-horse"
+filter = "date<=today and 'ultimate-chicken-horse' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about ultimate-chicken-horse"
+
+[[markata.feeds]]
+slug = "tag/upload-labs"
+filter = "date<=today and 'upload-labs' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about upload-labs"
+
+[[markata.feeds]]
+slug = "tag/witch-hunt"
+filter = "date<=today and 'witch-hunt' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about witch-hunt"
+
+[[markata.feeds]]
+slug = "tag/wizard-with-a-gun"
+filter = "date<=today and 'wizard-with-a-gun' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about wizard-with-a-gun"
+
+[[markata.feeds]]
+slug = "tag/wobbly-life"
+filter = "date<=today and 'wobbly-life' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about wobbly-life"
+
+[[markata.feeds]]
+slug = "tag/silksong"
+filter = "date<=today and 'silksong' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about silksong"
+
+[[markata.feeds]]
+slug = "tag/later"
+filter = "date<=today and 'later' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about later"
+
+[[markata.feeds]]
+slug = "tag/environment"
+filter = "date<=today and 'environment' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about environment"
+
+[[markata.feeds]]
+slug = "tag/social-media"
+filter = "date<=today and 'social-media' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about social-media"
+
+[[markata.feeds]]
+slug = "tag/cms"
+filter = "date<=today and 'cms' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about cms"
+
+[[markata.feeds]]
+slug = "tag/woodworking"
+filter = "date<=today and 'woodworking' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about woodworking"
+
+[[markata.feeds]]
+slug = "tag/self-hosting"
+filter = "date<=today and 'self-hosting' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about self-hosting"
+
+[[markata.feeds]]
+slug = "tag/automotive"
+filter = "date<=today and 'automotive' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about automotive"
+
+[[markata.feeds]]
+slug = "tag/software"
+filter = "date<=today and 'software' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about software"
+
+[[markata.feeds]]
+slug = "tag/solar"
+filter = "date<=today and 'solar' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about solar"
+
+[[markata.feeds]]
+slug = "tag/moto"
+filter = "date<=today and 'moto' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about moto"
+
+[[markata.feeds]]
+slug = "tag/kubernets"
+filter = "date<=today and 'kubernets' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about kubernets"
+
+[[markata.feeds]]
+slug = "tag/kuberntes"
+filter = "date<=today and 'kuberntes' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about kuberntes"
+
+[[markata.feeds]]
+slug = "tag/windows"
+filter = "date<=today and 'windows' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about windows"
+
+[[markata.feeds]]
+slug = "tag/edc"
+filter = "date<=today and 'edc' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about edc"
+
+[[markata.feeds]]
+slug = "tag/homepage"
+filter = "date<=today and 'homepage' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about homepage"
+
+[[markata.feeds]]
+slug = "tag/dunno"
+filter = "date<=today and 'dunno' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about dunno"
+
+[[markata.feeds]]
+slug = "tag/fonts"
+filter = "date<=today and 'fonts' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about fonts"
+
+[[markata.feeds]]
+slug = "tag/pypi"
+filter = "date<=today and 'pypi' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about pypi"
+
+[[markata.feeds]]
+slug = "tag/low-code"
+filter = "date<=today and 'low-code' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about low-code"
+

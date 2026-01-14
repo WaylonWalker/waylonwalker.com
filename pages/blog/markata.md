@@ -52,7 +52,7 @@ and wanted to build something with based on pluggy when I had started markata.
 
 ## More Posts
 
-I have more posts about markata in the [[markata-feed]].
+I have more posts about markata in the [[ tag/markata ]].
 
 {% for post in markata.feeds.markatafeed.map(reverse=True) %}
 
