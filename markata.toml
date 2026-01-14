@@ -1340,6 +1340,7 @@ reverse = true
 description = "Posts about microcontroller"
 
 [[markata.feeds]]
+name = "aifeed"
 slug = "ai-feed"
 filter = "date<=today and 'ai' in str(tags).lower() and published"
 sort = "date"
@@ -1401,13 +1402,6 @@ filter = "date<=today and 'agentic' in str(tags).lower() and published"
 sort = "date"
 reverse = true
 description = "Posts about agentic"
-
-[[markata.feeds]]
-slug = "ai"
-filter = "date<=today and 'ai' in str(tags).lower() and published"
-sort = "date"
-reverse = true
-description = "Posts about ai"
 
 [[markata.feeds]]
 slug = "llm"
