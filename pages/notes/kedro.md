@@ -8,7 +8,7 @@ description: My Notes about using kedro
 
 ---
 
-See all of my kedro related posts in [[ kedro-feed ]].
+See all of my kedro related posts in [[ tag/kedro ]].
 
 ## [#kedrotips](https://twitter.com/search?q=%23kedrotips&f=live)
 
