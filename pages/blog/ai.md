@@ -13,7 +13,7 @@ Last updated Jan 2026.
 
 !!! seealso
 
-    Looking for all posts tagged with ai see [[ ai-feed ]]
+    Looking for all posts tagged with ai see [[ tag/ai ]]
 
 Ai is a tool I use a lot for code generation, research, image generation, and
 debugging.  The words I publish on this site are my own unless explicitly
@@ -54,3 +54,11 @@ occasionally.
 > I'm not an artist, sometimes I like to include art that I would not otherwise
 > be able to.  Most of the art you see on a post is AI generated, and may not
 > be called out.
+
+## [[ Techbrophobic ]]
+
+I feel this term strongly.  I find ai tooling useful, but the industry and hype bros bring a bad taste.
+
+The tools do not not do everything right, you still have to think, watch its output.  You have to put the work in to do proper software engineering.  Its not a magic pill, but it has the ability to implement ideas, plans, very quickly.
+
+Also the whole industry creeps me out.  The theft that happened to get here was wrong.  AI shovoled into everything as slop sucks.  The stock market pump is sus.
