@@ -1,10 +1,11 @@
 ---
-date: 2026-01-13T13:08:47
-templateKey: ping
-title: Don't Trust Users Tokens
-published: false
+date: 2026-01-14 19:49:43
+templateKey: blog-post
+title: Dont Trust Users Tokens
 tags:
-  - ping
+  - python
+published: True
+
 ---
 
 User states: Upon picking up and old project and trying to install pip says
