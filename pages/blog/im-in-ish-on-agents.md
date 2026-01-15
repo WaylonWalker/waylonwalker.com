@@ -3,8 +3,7 @@ date: 2026-01-11T12:02:15
 templateKey: blog-post
 title: I'm In-ish On Agents
 published: false
-tags:
-  -
+tags: []
 ---
 It's the start of 2026 and agents are getting a lot better than they were.  I'm using opencode at home, free mode with Zen and big pickle.  At work I have access to a wider variety of models including what seems to be the gold standard 3 from anthropic opus, sonnet, haiku.
 
