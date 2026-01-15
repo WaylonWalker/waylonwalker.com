@@ -1,7 +1,7 @@
 ---
 title: "Session: Skate Sim"
 description: "Steam achievements and progress for Session: Skate Sim - 18.75% complete with 9/48 achievements unlocked."
-date: "2026-01-02"
+date: "2026-01-08"
 templateKey: steam_achievement
 steam:
   game: "Session: Skate Sim"
@@ -10,7 +10,7 @@ steam:
   unlocked_achievements: 9
   completion_percentage: 18.75
   playtime_hours: 316.8
-  last_played: "2026-01-02"
+  last_played: "2026-01-08"
   description: ""
   developers: []
   publishers: []
@@ -265,7 +265,7 @@ slug: "steam/session-skate-sim"
   
   <div class="stat-card">
     <h3>Last Played</h3>
-    <div class="stat-value">2026-01-02</div>
+    <div class="stat-value">2026-01-08</div>
     <p>Most recent session</p>
   </div>
 </div>
