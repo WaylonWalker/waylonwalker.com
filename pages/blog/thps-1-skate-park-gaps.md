@@ -69,7 +69,7 @@ Next [[ thps-1-downtown-gaps ]]
 
 ## Walkway Rail Trans
 
-![THPS1-4-WalkwayRailTrans.mp4](/api/file/e5af0838-371d-45c7-b0f2-2589e6c5e0d9.mp4)
+![THPS1-4-WalkwayRailTrans.mp4](https://dropper.waylonwalker.com/api/file/e5af0838-371d-45c7-b0f2-2589e6c5e0d9.mp4)
 
 ## Wall Gap
 
@@ -81,4 +81,4 @@ Next [[ thps-1-downtown-gaps ]]
 
 ## Whoop Gap
 
-![THPS1-4-WhoopGap.mp4](/api/file/461c9b3c-891f-4c83-a158-932e5aa9f0ae.mp4)
+![THPS1-4-WhoopGap.mp4](https://dropper.waylonwalker.com/api/file/461c9b3c-891f-4c83-a158-932e5aa9f0ae.mp4)
