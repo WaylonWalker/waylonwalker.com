@@ -220,6 +220,7 @@ steam_id = "${STEAM_ID}"
 glob_patterns = "pages/**/*.md"
 
 # fast patterns for testing
+# glob_patterns = "pages/blog/**/*.md"
 # glob_patterns = "pages/shots/**/*.md"
 # glob_patterns = "pages/gratitude/**/*.md"
 # glob_patterns = "pages/glossary/**/*.md"
@@ -433,6 +434,7 @@ sizes="512x512"
 prevnext_color_angle = "#ff66c4"
 
 [[markata.feeds]]
+name = 'markatafeed'
 slug = 'tag/markata'
 filter = "date<=today and 'markata' in str(tags).lower() and published"
 sort = "date"
@@ -3330,6 +3332,14 @@ description = "Posts about pypi"
 [[markata.feeds]]
 slug = "tag/low-code"
 filter = "date<=today and 'low-code' in tags and published"
+sort = "date"
+reverse = true
+description = "Posts about low-code"
+
+
+[[markata.feeds]]
+slug = "slashes"
+filter = "date<=today and 'slash' in tags and published"
 sort = "date"
 reverse = true
 description = "Posts about low-code"
