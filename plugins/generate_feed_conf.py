@@ -20,6 +20,7 @@ def check_feed_conflicts(tag, existing_feeds):
         if any(pattern in feed_slug for pattern in slug_patterns):
             conflicts.append(
                 {
+                    "name": tag,
                     "slug": feed_slug,
                     "filter": getattr(feed_config, "filter", ""),
                     "description": getattr(feed_config, "description", ""),

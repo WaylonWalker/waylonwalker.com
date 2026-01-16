@@ -39,31 +39,15 @@ def expand_tags(tags: Set[str], additional: Dict[str, List[str]]) -> Set[str]:
 
 
 @hook_impl
-def post_configure(markata: "Markata") -> None:
-    """Initialize tag_aggregator_data structure for other plugins to use."""
-    markata.tag_aggregator_data = {
-        "canonical_to_aliases": {},
-        "alias_to_canonical": {},
-        "all_canonical_tags": set(),
-        "all_processed_tags": set(),
-    }
-
-
-@hook_impl
 def pre_render(markata: "Markata") -> None:
     synonyms = markata.config.tag_aggregator.synonyms
     additional = markata.config.tag_aggregator.additional
 
     tag_changes = []
     added_tags_report = []
-    canonical_to_aliases = {}
-    alias_to_canonical = {}
-    all_canonical_tags = set()
-    all_processed_tags = set()
 
     for post in markata.posts:
         original_tags = set(post.get("tags", []))
-        all_processed_tags.update(original_tags)
 
         # Normalize tags using synonyms
         normalized_tags = set()
@@ -74,12 +58,6 @@ def pre_render(markata: "Markata") -> None:
                     normalized_tags.add(correct_tag)
                     tag_changes.append(f"[[ {post['slug']} ]]: {tag} -> {correct_tag}")
                     normalized = True
-
-                    # Track alias relationships
-                    if correct_tag not in canonical_to_aliases:
-                        canonical_to_aliases[correct_tag] = []
-                    canonical_to_aliases[correct_tag].append(tag)
-                    alias_to_canonical[tag] = correct_tag
                     break
             if not normalized:
                 normalized_tags.add(tag)
@@ -93,19 +71,6 @@ def pre_render(markata: "Markata") -> None:
             added_tags_report.append(f"[[ {post['slug']} ]]: {', '.join(added_tags)}")
 
         post["tags"] = sorted(final_tags)
-
-        # Track all canonical tags
-        all_canonical_tags.update(final_tags)
-
-    # Store tag relationship data for other plugins
-    markata.tag_aggregator_data.update(
-        {
-            "canonical_to_aliases": canonical_to_aliases,
-            "alias_to_canonical": alias_to_canonical,
-            "all_canonical_tags": all_canonical_tags,
-            "all_processed_tags": all_processed_tags,
-        }
-    )
 
     # Generate content for report
     today = datetime.now().strftime("%Y-%m-%d")
@@ -144,11 +109,11 @@ Generated on {today}
     # Create a blog post
     post_args = {
         "markata": markata,
-        "templateKey": "plugin-report",
-        "path": "tag-aggregator-report.md",
+        "templateKey": "post",
+        "path": "tag-aggregator.md",
         "content": content,
         "raw": content,
-        "tags": ["plugin-report"],
+        "tags": ["debug"],
         "slug": "tag-aggregator-report",
         "title": "Tag Aggregator Report",
         "description": "Generated report from the tag aggregator plugin",
