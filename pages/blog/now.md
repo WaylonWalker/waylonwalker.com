@@ -11,7 +11,6 @@ aliases:
   - upto
 
 ---
-
 This page is meant to be simple view into what is happening in my life right now. Inspired by [@NowNowNow](https://nownownow.com/). and Derek Sivers.
 
 Last Update 2025-10-29
