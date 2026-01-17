@@ -56,3 +56,5 @@ allows us to see the forest for the trees.  It can let us work on more things
 at the same time.  I predict by the end of the year there will be podcast
 episodes talking about burnout, and specifically feeling burnt out on planning
 for agents work.
+
+## 2026 is to ai as 2012 was for js frameworks
