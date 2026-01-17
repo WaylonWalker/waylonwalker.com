@@ -42,3 +42,17 @@ center plans (so many in place right now not all of these companies will
 survive, not predicting any mass bubble pop here, that's above my pay grade).
 But 2026 is not that year.
 
+## Agents will overwork us
+
+There is going to be burnout this year, people are going to be running point on
+12 agents for most of their day and be plain ass burnt out by the end of the
+year.  This shit feels different and its hard to see right now.  Most of us can
+feel programming work, the stress it brings, the joy it brings.  We have a
+decent sense of being almost there, just 10 more minutes to wrap up.  It's
+taken us a long time to hone this craft.  We don't have a sense for an agent
+almost being there.  The work we put into planning for agents feels different.
+It doesn't _feel_ as hard, but it engages a higher level of thinking that
+allows us to see the forest for the trees.  It can let us work on more things
+at the same time.  I predict by the end of the year there will be podcast
+episodes talking about burnout, and specifically feeling burnt out on planning
+for agents work.
