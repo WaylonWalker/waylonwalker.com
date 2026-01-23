@@ -11,6 +11,9 @@ published: false
 This is a listing of all the things that I use on a daily basis to build data
 pipelines, lead my team, and build this website.
 
+## older editions
+
+[[ uses-2021 ]]
 
 ## Installation
 

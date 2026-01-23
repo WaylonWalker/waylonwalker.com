@@ -6,7 +6,6 @@ published: false
 tags:
   - predictions
 ---
-
 I'm late on this one so I've seen everyone else's.  I'll try my best to make
 some bold predictions I've not seen elsewhere 
 
@@ -58,3 +57,18 @@ episodes talking about burnout, and specifically feeling burnt out on planning
 for agents work.
 
 ## 2026 is to ai as 2012 was for js frameworks
+
+This year we will see tooling and tecnique churn like crazy.  I think there are already some clear winners with copilot, cursor, claude code, and opencode.  I think these will remain in their respective camps as winners and do well.  What I think is going to churn a lot is what we hook into them, whether its mcp, lsp, or clis.  
+
+Currently as I write this we have an issue managing context, getting the right context to the agents, managing bloat and token count.  There's a lot of talk about memory.  I think the first half of the year we are going to see a lot of tools that hook into the agentic tools to give them more memory, the right context in the session.  
+
+Thres also an issue around getting the agents to run longer, this is where we are seeing the Ralph loop come in as a perfect example of what I'm talking about.
+
+The type of things that are going to have new things come out each week will be tools that...
+
+* Manage context
+* Get agents to run longer
+* Add skills
+* Hook in via CLI or mcp
+
+Right now I think we have some clear winners around the parent tools, but a layer underneath is ready for a lot of churn.
