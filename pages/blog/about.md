@@ -1,7 +1,6 @@
 ---
 templateKey: blog-post
-tags: ['meta', 'slash']
-title:  Waylon Walker
+title: Waylon Walker
 tags:
   - meta
   - slash
