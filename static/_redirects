@@ -7,9 +7,6 @@
 /feed.xml                                                   /archive/rss.xml
 /index.xml
 
-/podroll                                                    https://reader.waylonwalker.com/podcast/
-/blogroll                                                   https://reader.waylonwalker.com/written/
-/postroll                                                   https://thoughts.waylonwalker.com/
 
 # image upload
 /upload                                                     https://github.com/WaylonWalker/images.waylonwalker.com/upload/main/static
