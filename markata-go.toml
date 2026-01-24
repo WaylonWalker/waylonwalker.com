@@ -339,13 +339,698 @@ max_entries_per_feed = 50
 fallback_image_service = "https://shots.waylonwalker.com/shot/?url={url}&height=160&width=240&scaled_width=240&scaled_height=160&format=jpg"
 
 [[markata-go.blogroll.feeds]]
+url = "https://daverupert.com/atom.xml"
+title = "David Rupert"
+description = "Web developer at Microsoft, co-host of ShopTalk Show podcast, CSS and design systems expert"
+category = "development"
+tags = ["css", "design", "design-systems", "frontend", "web", "accessibility", "javascript", "podcast", "written"]
+site_url = "https://daverupert.com"
+[[markata-go.blogroll.feeds]]
+url = "https://joelhooks.com/rss.xml"
+title = "Joel Hooks"
+description = "Founder of egghead.io, writes about developer education, course building, and bootstrapped businesses"
+category = "development"
+tags = ["javascript", "react", "education", "course-building", "business", "developer-relations", "typescript", "written"]
+site_url = "https://joelhooks.com"
+[[markata-go.blogroll.feeds]]
+url = "https://swyx.io/rss.xml"
+title = "Swyx"
+description = "Fosters the Rise of the AI Engineer, writer on AI/ML, developer experience, and learning in public"
+category = "development"
+tags = ["ai", "machine-learning", "javascript", "typescript", "react", "svelte", "developer-experience", "learning", "written"]
+site_url = "https://www.swyx.io"
+[[markata-go.blogroll.feeds]]
+url = "https://chriscoyier.net/feed/"
+title = "Chris Coyier"
+description = "Co-founder of CodePen and CSS-Tricks, web designer, developer, educator, and community builder"
+category = "development"
+tags = ["css", "html", "javascript", "frontend", "web-design", "web-development", "podcast", "codepen", "written"]
+site_url = "https://chriscoyier.net"
+[[markata-go.blogroll.feeds]]
+url = "https://mathspp.com/blog.rss"
+title = "Rodrigo@mathsppblog"
+description = "Python expert and author, focuses on elegant Python programming, mathematics, and algorithms"
+category = "development"
+tags = ["python", "mathematics", "algorithms", "programming", "comprehensions", "itertools", "written"]
+site_url = "https://mathspp.com"
+[[markata-go.blogroll.feeds]]
+url = "https://blog.jim-nielsen.com/feed.xml"
+title = "Jim Nielsen"
+description = "Web designer and developer with 20+ years experience, writes about design, code, and web technology"
+category = "development"
+tags = ["web-design", "web-development", "css", "html", "javascript", "design-process", "netlify", "written"]
+site_url = "https://blog.jim-nielsen.com"
+[[markata-go.blogroll.feeds]]
+url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCyU5wkjgQYGRB0hIHMwm2Sg"
+title = "Syntax.fm"
+description = "Tasty web development treats podcast with Wes Bos and Scott Tolinski - full-stack JavaScript development"
+category = "podcast"
+tags = ["podcast", "javascript", "web-development", "css", "html", "react", "nodejs", "frontend", "backend", "video"]
+site_url = "https://syntax.fm"
+[[markata-go.blogroll.feeds]]
+url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCkbwOi_U5CBkevtlVhuzWnA"
+title = "Backend Banter"
+description = "The only podcast dedicated to backend development, technologies, and careers by Lane Wagner"
+category = "podcast"
+tags = ["podcast", "backend", "golang", "python", "rust", "javascript", "devops", "software-engineering", "video"]
+site_url = "https://www.backendbanter.fm"
+[[markata-go.blogroll.feeds]]
+url = "https://blog.boot.dev/feed/"
+title = "boot.dev"
+description = "Learn backend development the smart way - backend development programming education platform"
+category = "development"
+tags = ["backend", "golang", "python", "rust", "web-development", "programming-education", "computer-science", "written"]
+site_url = "https://blog.boot.dev"
+[[markata-go.blogroll.feeds]]
+url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCUyeluBRhGPCW4rPe_UvBZQ"
+title = "ThePrimeTime"
+description = "Controversial hot takes on web development, Rust, and core CS tutorials with lightning-fast vim coding"
+category = "video"
+tags = ["video", "rust", "typescript", "vim", "web-development", "core-cs", "programming", "controversial"]
+site_url = "https://www.youtube.com/@theprimetimenews"
+[[markata-go.blogroll.feeds]]
+url = "https://jrs-s.net/feed/"
+title = "Jim Salter"
+description = "Mercenary sysadmin, technology reporter, author of Sanoid ZFS project, co-host of 2.5 Admins podcast"
+category = "development"
+tags = ["sysadmin", "zfs", "linux", "bsd", "infrastructure", "podcast", "open-source", "disaster-recovery", "written"]
+site_url = "https://jrs-s.net"
+[[markata-go.blogroll.feeds]]
 url = "https://simonwillison.net/atom/everything/"
 title = "Simon Willison"
-description = "Creator of Datasette, Django co-creator, AI/LLM enthusiast"
-category = "Technology"
-tags = ["python", "ai", "llm", "sqlite", "datasette"]
+description = "Co-creator of Django, creator of Datasette, writes about web development, AI, and open source"
+category = "development"
+tags = ["python", "django", "sqlite", "datasette", "ai", "machine-learning", "open-source", "web-development", "written"]
 site_url = "https://simonwillison.net"
-aliases = ["simonwillison.net"]
+[[markata-go.blogroll.feeds]]
+url = "https://blakewatson.com/feed/"
+title = "Blake Watson"
+description = "Frontend developer for NASA projects, disability advocate, writes about accessibility and assistive technology"
+category = "personal"
+tags = ["accessibility", "frontend", "web-development", "disability", "assistive-technology", "design", "nasa", "written"]
+site_url = "https://blakewatson.com"
+[[markata-go.blogroll.feeds]]
+url = "https://blog.kubesimplify.com/rss.xml"
+title = "KubeSimplify"
+description = "Mission to simplify cloud native and Kubernetes for everyone with easy-to-understand tutorials"
+category = "development"
+tags = ["kubernetes", "docker", "cloud-native", "devops", "containers", "cnf", "microservices", "written"]
+site_url = "https://blog.kubesimplify.com"
+[[markata-go.blogroll.feeds]]
+url = "https://kerkour.com/feed.xml"
+title = "Sylvain Kerkour"
+description = "Author of Black Hat Rust, writes about security, offensive programming, and ethical technology use"
+category = "development"
+tags = ["rust", "security", "cybersecurity", "offensive-security", "programming", "black-hat", "encryption", "written"]
+site_url = "https://kerkour.com"
+[[markata-go.blogroll.feeds]]
+url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCbRP3c757lWg9M-U7TyEkXA"
+title = "t3dotgg"
+description = "Theo Browne's YouTube channel covering software development, T3 stack, and tech content"
+category = "programming"
+tags = ["video", "typescript", "react", "nextjs", "t3-stack", "web-development"]
+site_url = "https://www.youtube.com/@t3dotgg"
+[[markata-go.blogroll.feeds]]
+url = "https://changelog.com/master/feed"
+title = "Changelog"
+description = "Software development and open source weekly news and interviews"
+category = "podcast"
+tags = ["podcast", "open-source", "software-development", "interviews", "news", "tech"]
+site_url = "https://changelog.com/podcast"
+[[markata-go.blogroll.feeds]]
+url = "https://pythonbytes.fm/episodes/rss"
+title = "PythonBytes"
+description = "Weekly Python news and headlines podcast by Michael Kennedy and Brian Okken"
+category = "podcast"
+tags = ["podcast", "python", "news", "headlines", "weekly", "development"]
+site_url = "https://pythonbytes.fm"
+[[markata-go.blogroll.feeds]]
+url = "https://talkpython.fm/episodes/rss"
+title = "TalkPython"
+description = "Python conversations and deep-dive interviews hosted by Michael Kennedy"
+category = "podcast"
+tags = ["podcast", "python", "interviews", "development", "conversation", "tech"]
+site_url = "https://talkpython.fm"
+[[markata-go.blogroll.feeds]]
+url = "https://feeds.transistor.fm/test-code-in-python"
+title = "TestAndCode"
+description = "Python testing podcast hosted by Brian Okken"
+category = "podcast"
+tags = ["podcast", "python", "testing", "pytest", "quality", "development"]
+site_url = "https://testandcode.com"
+[[markata-go.blogroll.feeds]]
+url = "https://vickiboykis.com/index.xml"
+title = "Vicki Boykis"
+description = "Machine learning engineering blog focusing on embeddings, MLOps, and production systems"
+category = "data-science"
+tags = ["written", "machine-learning", "embeddings", "mlops", "data-science", "production"]
+site_url = "https://vickiboykis.com"
+[[markata-go.blogroll.feeds]]
+url = "https://maggieappleton.com/rss.xml"
+title = "Maggie Appleton"
+description = "Visual essays about programming, design, and anthropology from GitHub Next"
+category = "design"
+tags = ["written", "design", "anthropology", "visual-essays", "programming", "tools-for-thought"]
+site_url = "https://maggieappleton.com"
+[[markata-go.blogroll.feeds]]
+url = "https://github.com/jbranchaud/til/commits/master.atom"
+title = "jbranchaud"
+description = "Josh Branchaud's Today I Learned collection with 2,200+ micro-learning posts"
+category = "programming"
+tags = ["written", "git", "vim", "ruby", "javascript", "til", "learning"]
+site_url = "https://github.com/jbranchaud/til"
+[[markata-go.blogroll.feeds]]
+url = "https://daringfireball.net/feeds/main"
+title = "John Gruber"
+description = "Technology commentary and Apple-focused analysis"
+category = "personal"
+tags = ["written", "apple", "technology", "commentary", "analysis", "mac"]
+site_url = "https://daringfireball.net"
+[[markata-go.blogroll.feeds]]
+url = "https://www.youtube.com/feeds/videos.xml?channel_id=UC2SvcdTaeU8qX1oxKNwIMnw"
+title = "Ben Orenstein"
+description = "Developer content and Tuple CEO insights"
+category = "personal"
+tags = ["video", "programming", "career", "tuple", "pair-programming", "development"]
+site_url = "https://www.youtube.com/@r00k123123"
+[[markata-go.blogroll.feeds]]
+url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCsjCKly4KtkvVyDjG_XkzEA"
+title = "Joe Scotto"
+description = "Custom mechanical keyboards and DIY keyboard building"
+category = "hardware"
+tags = ["video", "mechanical-keyboards", "diy", "keyboards", "3d-printing", "customization"]
+site_url = "https://www.youtube.com/joe_scotto"
+[[markata-go.blogroll.feeds]]
+url = "https://daniel.haxx.se/blog/feed/"
+title = "Daniel Stenberg"
+description = "curl creator's blog about open source and networking"
+category = "system-administration"
+tags = ["written", "curl", "open-source", "networking", "c", "protocols"]
+site_url = "https://daniel.haxx.se"
+[[markata-go.blogroll.feeds]]
+url = "https://micro.thomasbaart.nl/feed/"
+title = "Thomas Baart"
+description = "Microblog covering keyboards, productivity, and personal tech"
+category = "personal"
+tags = ["written", "keyboards", "productivity", "microblog", "tech", "personal"]
+site_url = "https://micro.thomasbaart.nl"
+[[markata-go.blogroll.feeds]]
+url = "https://austencam.com/feed"
+title = "Austen Cameron"
+description = "Web development blog with tutorials and design insights"
+category = "personal"
+tags = ["written", "web-development", "design", "laravel", "statamic", "tailwind"]
+site_url = "https://austencam.com"
+[[markata-go.blogroll.feeds]]
+url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCDAck-gFPTrgTx_qp59-bQA"
+title = "Mischa van den Burg"
+description = "DevOps career guidance and Linux content"
+category = "system-administration"
+tags = ["video", "devops", "career", "linux", "kubernetes", "cloud"]
+site_url = "https://www.youtube.com/@mischavandenburg"
+[[markata-go.blogroll.feeds]]
+url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCJWAqA9DzA1bHwCd0TOUWsw"
+title = "Late Night Linux Family"
+description = "Linux podcast network covering open source and free software"
+category = "podcast"
+tags = ["video", "linux", "open-source", "free-software", "podcast-network"]
+site_url = "https://www.youtube.com/latenightlinux"
+[[markata-go.blogroll.feeds]]
+url = "https://www.youtube.com/feeds/videos.xml?channel_id=UC6QNjBn6KMq5-pe3OE11zZg"
+title = "Slant 3D"
+description = "Large-scale 3D printing and manufacturing services"
+category = "hardware"
+tags = ["video", "3d-printing", "manufacturing", "large-scale", "production", "farming"]
+site_url = "https://www.youtube.com/@slant3d"
+[[markata-go.blogroll.feeds]]
+url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCHugE6eRhqB9_AZQh4DDbIw"
+title = "Jupiter Broadcasting"
+description = "Linux and open source podcast network"
+category = "podcast"
+tags = ["video", "linux", "open-source", "technology", "community", "podcast"]
+site_url = "https://www.jupiterbroadcasting.com"
+[[markata-go.blogroll.feeds]]
+url = "https://feeds.transistor.fm/fork-around-and-find-out"
+title = "FAFO.fm"
+description = "Fork Around And Find Out - building, running, and maintaining software and systems"
+category = "podcast"
+tags = ["podcast", "software-engineering", "infrastructure", "devops", "systems", "interviews"]
+site_url = "https://www.fafo.fm"
+[[markata-go.blogroll.feeds]]
+url = "https://feeds.transistor.fm/makeitwork"
+title = "makeitwork"
+description = "Make It Work podcast with Sarah Wong about work-life balance for working parents"
+category = "podcast"
+tags = ["podcast", "work-life-balance", "parenting", "career", "workplace", "leadership"]
+site_url = "https://makeitwork.podcast"
+[[markata-go.blogroll.feeds]]
+url = "https://cassidoo.co/rss.xml"
+title = "Cassidy Williams"
+description = "Weekly newsletter and blog by Cassidy Williams covering tech, career, and web development"
+category = "programming"
+tags = ["written", "web-development", "career", "javascript", "css", "tech"]
+site_url = "https://cassidoo.co"
+[[markata-go.blogroll.feeds]]
+url = "https://justingarrison.com/index.xml"
+title = "Justin Garrison"
+description = "DevOps, cloud, and infrastructure engineering blog"
+category = "programming"
+tags = ["written", "devops", "cloud", "kubernetes", "infrastructure", "linux"]
+site_url = "https://justingarrison.com"
+[[markata-go.blogroll.feeds]]
+url = "https://treyhunner.com/atom.xml"
+title = "Trey Hunner"
+description = "Python programming blog with tutorials and best practices"
+category = "programming"
+tags = ["written", "python", "programming", "tutorials", "best-practices"]
+site_url = "https://treyhunner.com"
+[[markata-go.blogroll.feeds]]
+url = "https://micro.webology.dev/feed.xml"
+title = "Jeff Triplett"
+description = "Microblog about web development and tech topics"
+category = "personal"
+tags = ["written", "microblog", "web-development", "tech", "programming"]
+site_url = "https://micro.webology.dev"
+[[markata-go.blogroll.feeds]]
+url = "https://matthiasott.com/feed"
+title = "Matthias Ott"
+description = "Web design, development, and digital ethics"
+category = "personal"
+tags = ["written", "web-design", "ethics", "development", "user-experience", "accessibility"]
+site_url = "https://matthiasott.com"
+[[markata-go.blogroll.feeds]]
+url = "https://buttondown.com/ownyourweb/rss"
+title = "ownyourweb"
+description = "Newsletter about owning your web presence and data"
+category = "personal"
+tags = ["written", "web-ownership", "privacy", "data-sovereignty", "indie-web", "newsletter"]
+site_url = "https://buttondown.com/ownyourweb"
+[[markata-go.blogroll.feeds]]
+url = "https://csswizardry.com/feed.xml"
+title = "CSS Wizardry"
+description = "CSS performance, optimization, and front-end engineering"
+category = "design"
+tags = ["written", "css", "performance", "frontend", "optimization", "web-design"]
+site_url = "https://csswizardry.com"
+[[markata-go.blogroll.feeds]]
+url = "https://bryanhogan.com/rss.xml"
+title = "Bryan Hogan"
+description = ".NET development and software engineering blog"
+category = "programming"
+tags = ["written", ".net", "csharp", "dotnet", "software-engineering"]
+site_url = "https://bryanhogan.com"
+[[markata-go.blogroll.feeds]]
+url = "https://brittanyellich.com/index.xml"
+title = "Brittany Ellich"
+description = "Web development and programming blog"
+category = "personal"
+tags = ["written", "web-development", "programming", "tech", "frontend"]
+site_url = "https://brittanyellich.com"
+[[markata-go.blogroll.feeds]]
+url = "https://jvns.ca/atom.xml"
+title = "Julia Evans"
+description = "Programming and systems engineering blog with visual explanations and zines"
+category = "programming"
+tags = ["written", "programming", "systems", "linux", "debugging", "visual"]
+site_url = "https://jvns.ca"
+[[markata-go.blogroll.feeds]]
+url = "https://www.rockpapershotgun.com/feed/features"
+title = "Rock Paper Shotgun Features"
+description = "Gaming journalism and features"
+category = "personal"
+tags = ["written", "gaming", "journalism", "features", "reviews", "industry"]
+site_url = "https://rockpapershotgun.com/features"
+[[markata-go.blogroll.feeds]]
+url = "https://qmacro.org/feed.xml"
+title = "DJ Adams"
+description = "SAP development and enterprise programming blog"
+category = "personal"
+tags = ["written", "sap", "enterprise", "programming", "business-software", "development"]
+site_url = "https://qmacro.org"
+[[markata-go.blogroll.feeds]]
+url = "https://dbushell.com/rss.xml"
+title = "David Bushell"
+description = "Web development and design blog"
+category = "personal"
+tags = ["written", "web-development", "design", "frontend", "programming", "ui"]
+site_url = "https://dbushell.com"
+[[markata-go.blogroll.feeds]]
+url = "https://dbushell.com/notes/rss.xml"
+title = "David Bushell Notes"
+description = "Personal notes and thoughts from David Bushell"
+category = "personal"
+tags = ["written", "notes", "thoughts", "personal", "web-development"]
+site_url = "https://dbushell.com/notes"
+[[markata-go.blogroll.feeds]]
+url = "https://whitep4nth3r.com/feed.xml"
+title = "Whitep4nth3r"
+description = "Web development and programming blog"
+category = "personal"
+tags = ["written", "web-development", "programming", "frontend", "javascript", "css"]
+site_url = "https://whitep4nth3r.com"
+[[markata-go.blogroll.feeds]]
+url = "https://css-tricks.com/feed/"
+title = "CSS Tricks"
+description = "Web development tutorials and CSS techniques"
+category = "personal"
+tags = ["written", "css", "web-development", "tutorials", "frontend", "design"]
+site_url = "https://css-tricks.com"
+[[markata-go.blogroll.feeds]]
+url = "https://willmcgugan.github.io/feed"
+title = "Will McGugan"
+description = "Python and game development blog"
+category = "personal"
+tags = ["written", "python", "game-development", "programming", "graphics", "rich"]
+site_url = "https://willmcgugan.github.io"
+[[markata-go.blogroll.feeds]]
+url = "https://josephthacker.com/feed"
+title = "Joseph Thacker"
+description = "Security and software development blog"
+category = "personal"
+tags = ["written", "security", "software-development", "programming", "cybersecurity", "tech"]
+site_url = "https://josephthacker.com"
+[[markata-go.blogroll.feeds]]
+url = "https://martinheinz.dev/rss"
+title = "Martin Heinz"
+description = "DevOps and software engineering blog"
+category = "personal"
+tags = ["written", "devops", "software-engineering", "python", "infrastructure", "best-practices"]
+site_url = "https://martinheinz.dev"
+[[markata-go.blogroll.feeds]]
+url = "https://snarky.ca/rss/"
+title = "Brett Cannon"
+description = "Python core developer blog and technical insights"
+category = "programming"
+tags = ["written", "python", "core-development", "cpython", "language-design"]
+site_url = "https://snarky.ca"
+[[markata-go.blogroll.feeds]]
+url = "https://lukeplant.me.uk/blog/categories/software-development.xml"
+title = "Luke Plant"
+description = "Web development and Django framework insights"
+category = "programming"
+tags = ["written", "django", "python", "web-development", "programming"]
+site_url = "https://lukeplant.me.uk"
+[[markata-go.blogroll.feeds]]
+url = "https://bernsteinbear.com/feed.xml"
+title = "Max Bernstein"
+description = "Computer science and programming concepts blog"
+category = "programming"
+tags = ["written", "computer-science", "programming", "algorithms", "education"]
+site_url = "https://bernsteinbear.com"
+[[markata-go.blogroll.feeds]]
+url = "https://derekkedziora.com/feed.xml"
+title = "Derek Kedziora"
+description = "Software development and programming blog"
+category = "personal"
+tags = ["written", "software-development", "programming", "tech", "web-development"]
+site_url = "https://derekkedziora.com"
+[[markata-go.blogroll.feeds]]
+url = "https://pype.dev/all/rss.xml"
+title = "Pype dot Dev"
+description = "Python and software development blog"
+category = "personal"
+tags = ["written", "python", "software-development", "programming", "tech"]
+site_url = "https://pype.dev"
+[[markata-go.blogroll.feeds]]
+url = "https://selfh.st/rss/"
+title = "Selfhosted"
+description = "Self-hosting and personal infrastructure blog"
+category = "personal"
+tags = ["written", "self-hosting", "infrastructure", "privacy", "diy", "personal-cloud"]
+site_url = "https://selfh.st"
+[[markata-go.blogroll.feeds]]
+url = "https://overreacted.io/rss.xml"
+title = "Dan Abramov"
+description = "React co-creator's blog on JavaScript and React patterns"
+category = "programming"
+tags = ["written", "react", "javascript", "frontend", "patterns"]
+site_url = "https://overreacted.io"
+[[markata-go.blogroll.feeds]]
+url = "https://jsx.lol/rss.xml"
+title = "jsx.lol"
+description = "JavaScript and React development blog"
+category = "personal"
+tags = ["written", "javascript", "react", "jsx", "frontend", "development"]
+site_url = "https://jsx.lol"
+[[markata-go.blogroll.feeds]]
+url = "https://blog.dreamsofcode.io/rss.xml"
+title = "Dreams of Code"
+description = "Software development and programming tutorials"
+category = "personal"
+tags = ["written", "software-development", "programming", "tutorials", "tech", "learning"]
+site_url = "https://blog.dreamsofcode.io"
+[[markata-go.blogroll.feeds]]
+url = "https://hamy.xyz/blog/rss"
+title = "Hammy Labs"
+description = "Development and technology blog"
+category = "personal"
+tags = ["written", "development", "technology", "programming", "tech", "projects"]
+site_url = "https://hamy.xyz"
+[[markata-go.blogroll.feeds]]
+url = "https://justin.searls.co/atom.xml"
+title = "Justin Searls"
+description = "Software development and testing blog"
+category = "personal"
+tags = ["written", "software-development", "testing", "programming", "quality", "tdd"]
+site_url = "https://justin.searls.co"
+[[markata-go.blogroll.feeds]]
+url = "https://world.hey.com/dhh/feed.atom"
+title = "David Heinemeier Hansson"
+description = "Ruby on Rails creator's blog on programming and business"
+category = "personal"
+tags = ["written", "ruby-on-rails", "programming", "business", "basecamp", "entrepreneurship"]
+site_url = "https://world.hey.com/dhh"
+[[markata-go.blogroll.feeds]]
+url = "https://thecynical.dev/index.xml"
+title = "The Cynical Dev"
+description = "Critical take on software development practices"
+category = "personal"
+tags = ["written", "software-development", "criticism", "opinion", "tech-industry"]
+site_url = "https://thecynical.dev"
+[[markata-go.blogroll.feeds]]
+url = "https://daniel.feldroy.com/feeds/atom.xml"
+title = "Daniel Roy Greenfeld"
+description = "Django, Python, and web development insights"
+category = "personal"
+tags = ["written", "django", "python", "web-development", "programming", "tutorials"]
+site_url = "https://daniel.feldroy.com"
+[[markata-go.blogroll.feeds]]
+url = "https://endtimes.dev/feed.xml"
+title = "End Times"
+description = "Software development apocalypse humor and commentary"
+category = "personal"
+tags = ["written", "humor", "software-development", "apocalypse", "tech-satire", "commentary"]
+site_url = "https://endtimes.dev"
+[[markata-go.blogroll.feeds]]
+url = "https://tonsky.me/atom.xml"
+title = "Niki Tonsky"
+description = "Software design, minimalism, and thoughtful development"
+category = "personal"
+tags = ["written", "software-design", "minimalism", "development", "user-interface", "thoughtfulness"]
+site_url = "https://tonsky.me"
+[[markata-go.blogroll.feeds]]
+url = "https://www.miriamsuzanne.com/feed.xml"
+title = "Miriam Suzanne"
+description = "CSS, web standards, and responsive design blog"
+category = "design"
+tags = ["written", "css", "web-standards", "responsive-design", "layout", "frontend"]
+site_url = "https://www.miriamsuzanne.com"
+[[markata-go.blogroll.feeds]]
+url = "https://www.ssp.sh/index.xml"
+title = "Simon Späti"
+description = "Web development and indie hacking blog"
+category = "programming"
+tags = ["written", "web-development", "indie-hacking", "javascript", "side-projects"]
+site_url = "https://ssp.sh"
+[[markata-go.blogroll.feeds]]
+url = "https://www.seangoedecke.com/rss.xml"
+title = "Sean Goedecke"
+description = "Software engineering and development blog"
+category = "personal"
+tags = ["written", "software-engineering", "development", "programming", "tech", "web"]
+site_url = "https://www.seangoedecke.com"
+[[markata-go.blogroll.feeds]]
+url = "https://simplecto.com/rss/"
+title = "Sam Texas"
+description = "Software development and consulting blog"
+category = "personal"
+tags = ["written", "software-development", "consulting", "programming", "tech", "business"]
+site_url = "https://simplecto.com"
+[[markata-go.blogroll.feeds]]
+url = "https://ericwbailey.website/feed/feed.xml"
+title = "Eric Bailey"
+description = "Accessibility and web standards blog"
+category = "personal"
+tags = ["written", "accessibility", "web-standards", "inclusive-design", "a11y", "frontend"]
+site_url = "https://ericwbailey.website"
+[[markata-go.blogroll.feeds]]
+url = "https://nicknisi.com/rss.xml"
+title = "Nick Nisi"
+description = "Web development and design blog"
+category = "personal"
+tags = ["written", "web-development", "design", "javascript", "css", "frontend"]
+site_url = "https://nicknisi.com"
+[[markata-go.blogroll.feeds]]
+url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCsUalyRg43M8D60mtHe6YcA"
+title = "CultRepo"
+description = "Technology and software development YouTube channel"
+category = "personal"
+tags = ["video", "technology", "software-development", "programming", "tech", "education"]
+site_url = "https://www.youtube.com/@cultrepo"
+[[markata-go.blogroll.feeds]]
+url = "https://frica.github.io/blog/feeds/all.atom.xml"
+title = "Fabien Rica"
+description = "Personal tech blog and development notes"
+category = "personal"
+tags = ["written", "development", "programming", "tech", "personal", "notes"]
+site_url = "https://frica.github.io"
+[[markata-go.blogroll.feeds]]
+url = "https://terminaltrove.com/blog.xml"
+title = "Terminal Trove Blog"
+description = "Terminal tools and command-line productivity blog"
+category = "personal"
+tags = ["written", "terminal", "command-line", "productivity", "tools", "cli"]
+site_url = "https://terminaltrove.com/blog"
+[[markata-go.blogroll.feeds]]
+url = "https://terminaltrove.com/totw.xml"
+title = "Terminal Tool of the Week"
+description = "Weekly terminal tool recommendations"
+category = "personal"
+tags = ["written", "terminal", "tools", "cli", "command-line", "productivity"]
+site_url = "https://terminaltrove.com/tool-of-the-week"
+[[markata-go.blogroll.feeds]]
+url = "https://jesseleite.com/feed"
+title = "Jesse Leite"
+description = "Web development and programming blog"
+category = "personal"
+tags = ["written", "web-development", "programming", "tech", "frontend", "design"]
+site_url = "https://jesseleite.com"
+[[markata-go.blogroll.feeds]]
+url = "https://feeds.transistor.fm/campfire-coders"
+title = "Jesse Leite and Austen Cameron"
+description = "Web development podcast and discussions"
+category = "audio"
+tags = ["audio", "web-development", "podcast", "programming", "tech", "discussion"]
+site_url = "https://campfirecoders.com"
+[[markata-go.blogroll.feeds]]
+url = "https://www.bigwengineering.com/blog-feed.xml"
+title = "Adam Whitthauer"
+description = "Software engineering and development blog"
+category = "personal"
+tags = ["written", "software-engineering", "development", "programming", "tech", "architecture"]
+site_url = "https://www.bigwengineering.com"
+[[markata-go.blogroll.feeds]]
+url = "https://www.ladybug.dev/episodes?format=rss"
+title = "Ladybug Podcast"
+description = "Tech podcast focused on development and technology"
+category = "audio"
+tags = ["audio", "technology", "development", "podcast", "programming", "tech"]
+site_url = "https://ladybug.dev"
+[[markata-go.blogroll.feeds]]
+url = "https://kennethreitz.org/feed.xml"
+title = "Kenneth Reitz"
+description = "Python development and requests library creator's blog"
+category = "personal"
+tags = ["written", "python", "requests", "web-development", "programming", "open-source"]
+site_url = "https://kennethreitz.org"
+[[markata-go.blogroll.feeds]]
+url = "https://anniemueller.com/posts_feed"
+title = "Annie Mueller"
+description = "Web development and programming blog"
+category = "personal"
+tags = ["written", "web-development", "programming", "tech", "frontend", "design"]
+site_url = "https://anniemueller.com"
+[[markata-go.blogroll.feeds]]
+url = "https://maurycyz.com/index.xml"
+title = "Maurycyz"
+description = "Software development and tech blog"
+category = "personal"
+tags = ["written", "software-development", "programming", "tech", "web-development"]
+site_url = "https://maurycyz.com"
+[[markata-go.blogroll.feeds]]
+url = "https://pthorpe92.dev/rss"
+title = "Preston Thorpe"
+description = "Software development and programming blog"
+category = "personal"
+tags = ["written", "software-development", "programming", "tech", "web", "development"]
+site_url = "https://pthorpe92.dev"
+[[markata-go.blogroll.feeds]]
+url = "https://www.zachleat.com/web/feed/"
+title = "Zach Leatherman"
+description = "Web performance, Eleventy, and front-end development blog"
+category = "personal"
+tags = ["written", "web-performance", "eleventy", "jamstack", "static-sites", "frontend"]
+site_url = "https://zachleat.com"
+[[markata-go.blogroll.feeds]]
+url = "https://danielmiessler.com/feed.rss"
+title = "Daniel Miessler"
+description = "Security, technology, and AI analysis blog"
+category = "personal"
+tags = ["written", "security", "technology", "ai", "cybersecurity", "analysis"]
+site_url = "https://danielmiessler.com"
+[[markata-go.blogroll.feeds]]
+url = "https://henry.codes/rss/writing.xml"
+title = "Henry (From Online)"
+description = "Web development and programming blog"
+category = "personal"
+tags = ["written", "web-development", "programming", "tech", "frontend", "javascript"]
+site_url = "https://henry.codes"
+[[markata-go.blogroll.feeds]]
+url = "https://henry.codes/rss/reading-list.xml"
+title = "Henry (From Online) Reading List"
+description = "Henry's reading list and book recommendations"
+category = "personal"
+tags = ["written", "reading-list", "books", "recommendations", "learning"]
+site_url = "https://henry.codes"
+[[markata-go.blogroll.feeds]]
+url = "https://www.joanwestenberg.com/rss/"
+title = "Joan Westenberg"
+description = "Tech marketing, PR, and startup strategy blog"
+category = "personal"
+tags = ["written", "tech-marketing", "pr", "startups", "strategy", "communications"]
+site_url = "https://www.joanwestenberg.com"
+[[markata-go.blogroll.feeds]]
+url = "https://stephango.com/feed.xml"
+title = "Steph Ango"
+description = "Note-taking, tools, and digital organization blog"
+category = "personal"
+tags = ["written", "note-taking", "tools", "digital-organization", "productivity", "knowledge-management"]
+site_url = "https://stephango.com"
+[[markata-go.blogroll.feeds]]
+url = "https://localghost.dev/feed.xml"
+title = "Sophie"
+description = "Web development and personal tech blog"
+category = "personal"
+tags = ["written", "web-development", "programming", "tech", "personal", "projects"]
+site_url = "https://localghost.dev"
+[[markata-go.blogroll.feeds]]
+url = "https://lucumr.pocoo.org/feed.xml"
+title = "Armin Ronacher"
+description = "Python programming and Flask framework creator's blog"
+category = "programming"
+tags = ["written", "python", "flask", "web-development", "open-source"]
+site_url = "https://lucumr.pocoo.org"
+[[markata-go.blogroll.feeds]]
+url = "https://steipete.me/rss.xml"
+title = "Peter Steinberger"
+description = "iOS development and mobile programming blog"
+category = "personal"
+tags = ["written", "ios", "mobile-development", "swift", "iphone", "programming"]
+site_url = "https://steipete.me"
+[[markata-go.blogroll.feeds]]
+url = "https://www.lastweekinaws.com/feed/"
+title = "Corey Quinn"
+description = "AWS news and commentary with Last Week in AWS newsletter"
+category = "system-administration"
+tags = ["written", "aws", "cloud", "news", "aws-weekly", "commentary"]
+site_url = "https://lastweekinaws.com"
+[[markata-go.blogroll.feeds]]
+url = "https://thoughts.melonking.net/rss/"
+title = "Melonking Thoughts"
+description = "Personal thoughts and technology blog"
+category = "personal"
+tags = ["written", "technology", "personal", "thoughts", "blog", "tech"]
+site_url = "https://thoughts.melonking.net"
 
 [markata-go.theme]
 palette = 'everforest-dark'
