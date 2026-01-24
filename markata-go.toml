@@ -80,41 +80,190 @@ filter = "published == true and templateKey == \"til\""
 sort = "date"
 reverse = true
 
-# Python feed
+# =============================================================================
+# ADDITIONAL FEEDS (migrated from Python markata)
+# =============================================================================
+
+# Blog Feed - full blog posts only (different from /blog which includes TIL)
 [[markata-go.feeds]]
-slug = "python"
-title = "Python"
-description = "Posts about Python"
-filter = "published == true and \"python\" in tags"
+slug = "blog-feed"
+title = "Blog Feed"
+description = "Full blog posts"
+filter = "published == true and templateKey == \"blog-post\""
 sort = "date"
 reverse = true
 
-# Linux feed
+# Daily notes feed
 [[markata-go.feeds]]
-slug = "linux"
-title = "Linux"
-description = "Posts about Linux"
-filter = "published == true and \"linux\" in tags"
+slug = "daily"
+title = "Daily Notes"
+description = "Daily notes posts"
+filter = "templateKey == \"daily\""
 sort = "date"
 reverse = true
 
-# Vim feed
+# Draft posts - unpublished or future dated
 [[markata-go.feeds]]
-slug = "vim"
-title = "Vim"
-description = "Posts about Vim"
-filter = "published == true and \"vim\" in tags"
+slug = "draft"
+title = "Drafts"
+description = "Draft and unpublished posts"
+filter = "published == false or date > today"
 sort = "date"
 reverse = true
 
-# Kedro feed
+# Family shots - photos tagged with family
 [[markata-go.feeds]]
-slug = "kedro"
-title = "Kedro"
-description = "Posts about Kedro"
-filter = "published == true and \"kedro\" in tags"
+slug = "family-shots"
+title = "Family Shots"
+description = "Family photo posts"
+filter = "templateKey == \"shots\" and \"family\" in tags"
 sort = "date"
 reverse = true
+
+# Gratitude feed
+[[markata-go.feeds]]
+slug = "gratitude-feed"
+title = "Gratitude"
+description = "Gratitude posts"
+filter = "templateKey == \"gratitude\""
+sort = "date"
+reverse = true
+
+# Last thirty days - temporarily using published filter until date arithmetic is supported
+[[markata-go.feeds]]
+slug = "lasthirty"
+title = "Last 30 Days"
+description = "Posts from the last 30 days"
+filter = "published == true and date <= today"
+sort = "date"
+reverse = true
+items_per_page = 100
+
+# Pings - short social posts
+[[markata-go.feeds]]
+slug = "pings"
+title = "Pings"
+description = "Short social media style posts"
+filter = "templateKey == \"ping\" and not \"family\" in tags"
+sort = "date"
+reverse = true
+
+# Published feed
+[[markata-go.feeds]]
+slug = "published"
+title = "Published"
+description = "All published posts"
+filter = "published == true"
+sort = "date"
+reverse = true
+
+# Recent - last 10 posts
+[[markata-go.feeds]]
+slug = "recent"
+title = "Recent Posts"
+description = "Last 10 posts"
+filter = "published == true"
+sort = "date"
+reverse = true
+items_per_page = 10
+
+# Recently written - last 10 written posts
+[[markata-go.feeds]]
+slug = "recently-written"
+title = "Recently Written"
+description = "Last 10 written posts"
+filter = "published == true and (templateKey == \"blog-post\" or templateKey == \"til\" or templateKey == \"thoughts\" or templateKey == \"ping\")"
+sort = "date"
+reverse = true
+items_per_page = 10
+
+# Recent pings
+[[markata-go.feeds]]
+slug = "recent-pings"
+title = "Recent Pings"
+description = "Last 10 ping posts"
+filter = "published == true and templateKey == \"ping\""
+sort = "date"
+reverse = true
+items_per_page = 10
+
+# Recent stars
+[[markata-go.feeds]]
+slug = "recent-stars"
+title = "Recent Stars"
+description = "Last 10 GitHub stars"
+filter = "templateKey == \"stars\""
+sort = "date"
+reverse = true
+items_per_page = 10
+
+# Recent thoughts
+[[markata-go.feeds]]
+slug = "recent-thoughts"
+title = "Recent Thoughts"
+description = "Last 10 thoughts"
+filter = "published == true and templateKey == \"thoughts\""
+sort = "date"
+reverse = true
+items_per_page = 10
+
+# Scheduled posts - future dated
+[[markata-go.feeds]]
+slug = "scheduled"
+title = "Scheduled"
+description = "Posts scheduled for the future"
+filter = "date > today"
+sort = "date"
+reverse = true
+
+# Slashes feed
+[[markata-go.feeds]]
+slug = "slashes"
+title = "Slashes"
+description = "Slash command posts"
+filter = "published == true and \"slash\" in tags"
+sort = "date"
+reverse = true
+
+# Stars feed - GitHub stars
+[[markata-go.feeds]]
+slug = "stars"
+title = "GitHub Stars"
+description = "GitHub stars posts"
+filter = "templateKey == \"stars\""
+sort = "date"
+reverse = true
+
+# Today's posts
+[[markata-go.feeds]]
+slug = "today"
+title = "Today"
+description = "Posts from today"
+filter = "date == today"
+sort = "date"
+reverse = true
+
+# Shots feed - photo/video posts
+[[markata-go.feeds]]
+slug = "shots"
+title = "Shots"
+description = "Photo and video posts"
+filter = "templateKey == \"shots\""
+sort = "date"
+reverse = true
+
+# Thoughts feed
+[[markata-go.feeds]]
+slug = "thoughts"
+title = "Thoughts"
+description = "Thoughts and comments"
+filter = "published == true and templateKey == \"thoughts\""
+sort = "date"
+reverse = true
+
+# =============================================================================
+# AUTO-GENERATED FEEDS
+# =============================================================================
 
 # Enable auto-generated tag feeds
 [markata-go.auto_feeds.tags]
@@ -141,3 +290,5 @@ description = "Creator of Datasette, Django co-creator, AI/LLM enthusiast"
 category = "Technology"
 tags = ["python", "ai", "llm", "sqlite", "datasette"]
 site_url = "https://simonwillison.net"
+[markata-go.theme]
+palette = 'everforest-dark'
