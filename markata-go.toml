@@ -1,0 +1,143 @@
+# markata-go configuration for waylonwalker.com migration
+
+[markata-go]
+# Site metadata
+title = "Waylon Walker"
+description = "Waylon Walker's personal blog"
+url = "https://waylonwalker.com"
+
+# Output directory
+output_dir = "output"
+
+# Use built-in templates (no custom template_dir specified)
+
+# =============================================================================
+# POST OUTPUT FORMATS
+# =============================================================================
+[markata-go.post_formats]
+html = true       # Standard HTML pages
+markdown = true   # Raw markdown source (/slug/index.md)
+text = true       # Plain text (/slug/index.txt)
+og = true         # OpenGraph cards (/slug/og/index.html)
+
+[markata-go.glob]
+# Glob patterns for finding content - must include directory path
+patterns = ["pages/**/*.md"]
+use_gitignore = true
+
+# =============================================================================
+# FEED CONFIGURATION
+# =============================================================================
+
+# Global feed defaults
+[markata-go.feed_defaults]
+items_per_page = 20
+orphan_threshold = 3
+
+[markata-go.feed_defaults.formats]
+html = true
+rss = true
+atom = true
+json = true
+markdown = true
+text = true
+
+# Archive feed - all published posts, newest first
+[[markata-go.feeds]]
+slug = "archive"
+title = "Archive"
+description = "All published posts"
+filter = "published == true"
+sort = "date"
+reverse = true
+items_per_page = 50
+
+# All posts feed (same as archive but at /all/)
+[[markata-go.feeds]]
+slug = "all"
+title = "All Posts"
+description = "Complete list of all published posts"
+filter = "published == true"
+sort = "date"
+reverse = true
+items_per_page = 10000  # Very large to show all posts on one page
+
+# Blog feed - only blog posts
+[[markata-go.feeds]]
+slug = "blog"
+title = "Blog"
+description = "Full blog posts"
+filter = "published == true and templateKey == \"blog\""
+sort = "date"
+reverse = true
+
+# TIL feed - Today I Learned posts
+[[markata-go.feeds]]
+slug = "til"
+title = "Today I Learned"
+description = "Short TIL posts"
+filter = "published == true and templateKey == \"til\""
+sort = "date"
+reverse = true
+
+# Python feed
+[[markata-go.feeds]]
+slug = "python"
+title = "Python"
+description = "Posts about Python"
+filter = "published == true and \"python\" in tags"
+sort = "date"
+reverse = true
+
+# Linux feed
+[[markata-go.feeds]]
+slug = "linux"
+title = "Linux"
+description = "Posts about Linux"
+filter = "published == true and \"linux\" in tags"
+sort = "date"
+reverse = true
+
+# Vim feed
+[[markata-go.feeds]]
+slug = "vim"
+title = "Vim"
+description = "Posts about Vim"
+filter = "published == true and \"vim\" in tags"
+sort = "date"
+reverse = true
+
+# Kedro feed
+[[markata-go.feeds]]
+slug = "kedro"
+title = "Kedro"
+description = "Posts about Kedro"
+filter = "published == true and \"kedro\" in tags"
+sort = "date"
+reverse = true
+
+# Enable auto-generated tag feeds
+[markata-go.auto_feeds.tags]
+enabled = true
+slug_prefix = "tags"
+
+[markata-go.auto_feeds.tags.formats]
+html = true
+rss = true
+
+# =============================================================================
+# BLOGROLL & READER
+# =============================================================================
+[markata-go.blogroll]
+enabled = true
+cache_dir = "cache/blogroll"
+cache_duration = "1h"
+max_entries_per_feed = 50
+
+[[markata-go.blogroll.feeds]]
+url = "https://simonwillison.net/atom/everything/"
+title = "Simon Willison"
+description = "Creator of Datasette, Django co-creator, AI/LLM enthusiast"
+category = "Technology"
+tags = ["python", "ai", "llm", "sqlite", "datasette"]
+site_url = "https://simonwillison.net"
