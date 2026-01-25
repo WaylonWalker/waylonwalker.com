@@ -75,12 +75,33 @@ og = true         # OpenGraph cards (/slug/og/index.html)
 
 [markata-go.glob]
 # Glob patterns for finding content - must include directory path
-patterns = ["pages/**/*.md"]
+patterns = ["pages/**/*.md", "thoughts/**/*.md"]
 use_gitignore = true
 
 # =============================================================================
-# FEED CONFIGURATION
+# PLUGIN CONFIGURATION
 # =============================================================================
+
+# Enable thoughts plugin for PESOS functionality
+hooks = ["default", "thoughts"]
+
+# =============================================================================
+# THOUGHTS PLUGIN CONFIGURATION (PESOS)
+# =============================================================================
+
+[markata-go.thoughts]
+enabled = true
+thoughts_dir = "thoughts"
+cache_dir = "cache/thoughts"
+max_items = 200
+
+# Import thoughts from thoughts.waylonwalker.com (JSON API)
+[markata-go.thoughts.sources]
+thoughts_waylonwalker = { type = "json", url = "https://thoughts.waylonwalker.com/posts/waylonwalker/", handle = "waylonwalker", active = true, max_items = 50 }
+
+# Syndication configuration (disabled by default - enable when ready to post outward)
+[markata-go.thoughts.syndication]
+enabled = false
 
 # Global feed defaults
 [markata-go.feed_defaults]
@@ -100,7 +121,7 @@ text = true
 slug = "archive"
 title = "Archive"
 description = "All published posts"
-filter = "published == true"
+filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts', 'stars', 'daily', 'shots', 'ping'] and published and 'family' not in tags"
 sort = "date"
 reverse = true
 items_per_page = 50
@@ -110,7 +131,7 @@ items_per_page = 50
 slug = "all"
 title = "All Posts"
 description = "Complete list of all published posts"
-filter = "published == true"
+filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts', 'stars', 'daily', 'shots', 'ping'] and published and 'family' not in tags"
 sort = "date"
 reverse = true
 items_per_page = 10000  # Very large to show all posts on one page
@@ -121,6 +142,15 @@ slug = "blog"
 title = "Blog"
 description = "Full blog posts"
 filter = "published == true and templateKey == \"blog\""
+sort = "date"
+reverse = true
+
+# Steam
+[[markata-go.feeds]]
+slug = "steam"
+title = "Steam"
+description = "Steam posts"
+filter = "published == true and 'steam-game' in tags"
 sort = "date"
 reverse = true
 
@@ -260,6 +290,50 @@ sort = "date"
 reverse = true
 items_per_page = 10
 
+# =============================================================================
+# THOUGHTS FEEDS (NEW - integrated with PESOS)
+# =============================================================================
+
+# All thoughts (local + imported from thoughts.waylonwalker.com)
+[[markata-go.feeds]]
+slug = "thoughts"
+title = "Thoughts"
+description = "All thoughts and micro-posts from waylonwalker.com and thoughts.waylonwalker.com"
+filter = "template == 'thought.html' or path startswith 'thoughts/'"
+sort = "date"
+reverse = true
+items_per_page = 50
+
+# External thoughts only (imported from thoughts.waylonwalker.com)
+[[markata-go.feeds]]
+slug = "external-thoughts"
+title = "External Thoughts"
+description = "Thoughts imported from thoughts.waylonwalker.com"
+filter = "template == 'thought.html' and thought_source == 'thoughts_waylonwalker'"
+sort = "date"
+reverse = true
+items_per_page = 30
+
+# Micro thoughts (short form content)
+[[markata-go.feeds]]
+slug = "micro"
+title = "Micro"
+description = "Micro thoughts and quick notes"
+filter = "template == 'thought.html' and length(content) < 300"
+sort = "date"
+reverse = true
+items_per_page = 25
+
+# Thoughts with links (commentary on external content)
+[[markata-go.feeds]]
+slug = "thought-links"
+title = "Thought Links"
+description = "Thoughts that link to and comment on external content"
+filter = "template == 'thought.html' and original_url != null"
+sort = "date"
+reverse = true
+items_per_page = 20
+
 # Scheduled posts - future dated
 [[markata-go.feeds]]
 slug = "scheduled"
@@ -305,14 +379,14 @@ filter = "templateKey == \"shots\""
 sort = "date"
 reverse = true
 
-# Thoughts feed
-[[markata-go.feeds]]
-slug = "thoughts"
-title = "Thoughts"
-description = "Thoughts and comments"
-filter = "published == true and templateKey == \"thoughts\""
-sort = "date"
-reverse = true
+# # Thoughts feed
+# [[markata-go.feeds]]
+# slug = "thoughts"
+# title = "Thoughts"
+# description = "Thoughts and comments"
+# filter = "published == true and templateKey == \"thoughts\""
+# sort = "date"
+# reverse = true
 
 # =============================================================================
 # AUTO-GENERATED FEEDS
@@ -1033,4 +1107,29 @@ tags = ["written", "technology", "personal", "thoughts", "blog", "tech"]
 site_url = "https://thoughts.melonking.net"
 
 [markata-go.theme]
-palette = 'everforest-dark'
+palette = 'dracula'
+
+[markata-go.plugins.steam]
+enabled = true
+api_key = "${STEAM_API_KEY}"
+steam_id = "${STEAM_ID}"
+posts_dir = "pages/steam"
+template = "steam_achievement"
+cache_duration = 3600
+min_playtime_hours = 3.0
+
+[markata-go.wikilinks]
+warn_broken = true
+
+# Navigation links
+[[markata-go.nav]]
+label = "blogroll"
+url = "/blogroll/"
+
+[[markata-go.nav]]
+label = "reader"
+url = "/reader/"
+
+[[markata-go.nav]]
+label = "archive"
+url = "/archive/"
