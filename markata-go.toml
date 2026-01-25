@@ -5,11 +5,64 @@
 title = "Waylon Walker"
 description = "Waylon Walker's personal blog"
 url = "https://waylonwalker.com"
+author = "Waylon Walker"
 
 # Output directory
 output_dir = "output"
 
 # Use built-in templates (no custom template_dir specified)
+
+# =============================================================================
+# NAVIGATION
+# =============================================================================
+# Top-level nav items (legacy format, works with default templates)
+[[markata-go.nav]]
+label = "Home"
+url = "/"
+
+[[markata-go.nav]]
+label = "Start Here"
+url = "/start/"
+
+[[markata-go.nav]]
+label = "Archive"
+url = "/archive/"
+
+[[markata-go.nav]]
+label = "About"
+url = "/about/"
+
+[[markata-go.nav]]
+label = "RSS"
+url = "/feeds/"
+
+# =============================================================================
+# COMPONENTS CONFIGURATION
+# =============================================================================
+[markata-go.components.nav]
+enabled = true
+position = "header"
+style = "horizontal"
+
+[markata-go.components.footer]
+enabled = true
+show_copyright = true
+text = ""
+
+[[markata-go.components.footer.links]]
+label = "Twitter"
+url = "https://twitter.com/waylonwalker"
+external = true
+
+[[markata-go.components.footer.links]]
+label = "GitHub"
+url = "https://github.com/waylonwalker"
+external = true
+
+[[markata-go.components.footer.links]]
+label = "LinkedIn"
+url = "https://linkedin.com/in/waylonwalker"
+external = true
 
 # =============================================================================
 # POST OUTPUT FORMATS
@@ -290,5 +343,7 @@ description = "Creator of Datasette, Django co-creator, AI/LLM enthusiast"
 category = "Technology"
 tags = ["python", "ai", "llm", "sqlite", "datasette"]
 site_url = "https://simonwillison.net"
+aliases = ["simonwillison.net"]
+
 [markata-go.theme]
 palette = 'everforest-dark'
