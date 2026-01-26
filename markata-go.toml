@@ -335,6 +335,8 @@ enabled = true
 cache_dir = "cache/blogroll"
 cache_duration = "1h"
 max_entries_per_feed = 50
+# Fallback screenshot service for entries without images (2x size for retina: 240x160 displayed at 120x80)
+fallback_image_service = "https://shots.waylonwalker.com/shot/?url={url}&height=160&width=240&scaled_width=240&scaled_height=160&format=jpg"
 
 [[markata-go.blogroll.feeds]]
 url = "https://simonwillison.net/atom/everything/"
