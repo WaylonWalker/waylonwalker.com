@@ -1,4 +1,6 @@
 # markata-go configuration for waylonwalker.com migration
+[markata-go.theme]
+palette = 'dracula'
 
 [markata-go]
 # Site metadata
@@ -125,6 +127,7 @@ filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts', 'stars
 sort = "date"
 reverse = true
 items_per_page = 50
+pagination_type = "htmx"        # "manual", "htmx", or "js"
 
 # All posts feed (same as archive but at /all/)
 [[markata-go.feeds]]
@@ -1107,33 +1110,6 @@ category = "personal"
 tags = ["written", "technology", "personal", "thoughts", "blog", "tech"]
 site_url = "https://thoughts.melonking.net"
 
-[markata-go.theme]
-palette = 'dracula'
-
-[markata-go.plugins.steam]
-enabled = true
-api_key = "${STEAM_API_KEY}"
-steam_id = "${STEAM_ID}"
-posts_dir = "pages/steam"
-template = "steam_achievement"
-cache_duration = 3600
-min_playtime_hours = 3.0
-
-[markata-go.wikilinks]
-warn_broken = true
-
-# Navigation links
-[[markata-go.nav]]
-label = "blogroll"
-url = "/blogroll/"
-
-[[markata-go.nav]]
-label = "reader"
-url = "/reader/"
-
-[[markata-go.nav]]
-label = "archive"
-url = "/archive/"
 
 [markata-go.plugins.steam]
 enabled = true
