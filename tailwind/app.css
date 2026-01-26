@@ -70,7 +70,7 @@ body {
   position: relative;
   background-color: transparent;
   background-image: url("/w.svg");
-  background-size: 5rem auto;
+  background-size: 5rem calc(5rem * 1005.76 / 1788.4);
   background-repeat: repeat;
   background-attachment: fixed;
   z-index: 0;
@@ -371,7 +371,8 @@ article {
   @apply mx-auto max-w-full sm:max-w-2xl md:max-w-3xl lg:max-w-4xl xl:max-w-5xl;
   @apply shadow-[0_0_60px_-20px_rgba(0,0,0,0.5)] shadow-violet-600/40 ring-2 ring-white/40;
   @apply prose-2xl prose-invert lg:prose-xl;
-  @apply bg-gray-950;
+  @apply bg-gray-950/95;
+  @apply backdrop-blur-md;
   @apply rounded-3xl;
 }
 

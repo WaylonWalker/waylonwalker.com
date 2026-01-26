@@ -1,6 +1,58 @@
 # markata-go configuration for waylonwalker.com migration
 [markata-go.theme]
-palette = 'dracula'
+palette = 'everforest-dark'
+
+# Background effects configuration
+[markata-go.theme.background]
+enabled = true
+
+# Article background styling for readability over decorative backgrounds
+article_bg = "rgba(22, 22, 22, 0.95)"
+article_blur = "8px"
+article_shadow = "0 4px 24px rgba(0, 0, 0, 0.4)"
+article_radius = "12px"
+
+# Custom CSS for background styling
+css = """
+.background-layer {
+  width: 100%;
+  height: 100%;
+}
+
+/* Optional: Add a background image */
+/* Using background layers below instead */
+
+/* Style for snow-fall custom element */
+snow-fall {
+  display: block;
+}
+"""
+
+# Load the snow-fall.js script
+scripts = ["/snow-fall.js"]
+
+# Repeating W.svg background pattern
+[[markata-go.theme.background.backgrounds]]
+html = """<div style="position: fixed; inset: 0; pointer-events: none; z-index: -2; background-image: url('/w.svg'); background-size: 150px 84.4px; background-repeat: repeat; filter: invert(1) opacity(0.03);"></div>"""
+z_index = -2
+
+# Snow effect layers (like your live site)
+[[markata-go.theme.background.backgrounds]]
+html = '<snow-fall count="200" style="--snow-fall-size: 5px"></snow-fall>'
+z_index = -1
+
+[[markata-go.theme.background.backgrounds]]
+html = '<snow-fall></snow-fall>'
+z_index = -1
+
+# Additional colorful snow (purple variant)
+[[markata-go.theme.background.backgrounds]]
+html = """<div class="dubs">
+  <snow-fall count="5" style="--snow-fall-color: rebeccapurple"></snow-fall>
+  <snow-fall count="5"></snow-fall>
+</div>"""
+z_index = -1
+
 
 [markata-go]
 # Site metadata
@@ -123,7 +175,7 @@ text = true
 slug = "archive"
 title = "Archive"
 description = "All published posts"
-filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts', 'stars', 'daily', 'shots', 'ping'] and published and 'family' not in tags"
+filter = "date<=today and (templateKey == 'blog-post' or templateKey == 'til' or templateKey == 'thoughts' or templateKey == 'stars' or templateKey == 'daily' or templateKey == 'shots' or templateKey == 'ping') and published and 'family' not in tags"
 sort = "date"
 reverse = true
 items_per_page = 50
@@ -134,7 +186,7 @@ pagination_type = "htmx"        # "manual", "htmx", or "js"
 slug = "all"
 title = "All Posts"
 description = "Complete list of all published posts"
-filter = "date<=today and templateKey in ['blog-post', 'til', 'thoughts', 'stars', 'daily', 'shots', 'ping'] and published and 'family' not in tags"
+filter = "date<=today and (templateKey == 'blog-post' or templateKey == 'til' or templateKey == 'thoughts' or templateKey == 'stars' or templateKey == 'daily' or templateKey == 'shots' or templateKey == 'ping') and published and 'family' not in tags"
 sort = "date"
 reverse = true
 items_per_page = 10000  # Very large to show all posts on one page
