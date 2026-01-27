@@ -1175,6 +1175,11 @@ min_playtime_hours = 3.0
 [markata-go.wikilinks]
 warn_broken = true
 
+# Image zoom/lightbox functionality
+[markata-go.image_zoom]
+enabled = true
+auto_all_images = true  # Make ALL images zoomable
+
 # Navigation links
 [[markata-go.nav]]
 label = "blogroll"
