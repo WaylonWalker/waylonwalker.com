@@ -1,6 +1,31 @@
 # markata-go configuration for waylonwalker.com migration
+
 [markata-go.theme]
-palette = 'dracula'
+# palette = "catppuccin-frappe"
+# palette = "catppuccin-latte"
+# palette = "catppuccin-macchiato"
+# palette = "catppuccin-mocha"
+# palette = "default-dark"
+# palette = "default-light"
+# palette = "dracula"
+# palette = "everforest-dark"
+# palette = "everforest-light"
+# palette = "gruvbox-dark"
+# palette = "gruvbox-light"
+# palette = "kanagawa-dragon"
+# palette = "kanagawa-lotus"
+# palette = "kanagawa-wave"
+# palette = "matte-black"
+# palette = "nord-dark"
+# palette = "nord-light"
+palette = "rose-pine"
+# palette = "rose-pine-dawn"
+# palette = "rose-pine-moon"
+# palette = "solarized-dark"
+# palette = "solarized-light"
+# palette = "tokyo-night"
+# palette = "tokyo-night-day"
+# palette = "tokyo-night-storm"
 
 # Background effects configuration
 [markata-go.theme.background]
@@ -142,6 +167,30 @@ show_copyright = true
 text = ""
 
 [[markata-go.components.footer.links]]
+label = "/about"
+url = "/about/"
+
+[[markata-go.components.footer.links]]
+label = "/now"
+url = "/now/"
+
+[[markata-go.components.footer.links]]
+label = "/colophon"
+url = "/colophon/"
+
+[[markata-go.components.footer.links]]
+label = "/blogroll"
+url = "/blogroll/"
+
+[[markata-go.components.footer.links]]
+label = "/reader"
+url = "/reader/"
+
+[[markata-go.components.footer.links]]
+label = "/ai"
+url = "/ai/"
+
+[[markata-go.components.footer.links]]
 label = "Twitter"
 url = "https://twitter.com/waylonwalker"
 external = true
@@ -175,7 +224,7 @@ use_gitignore = true
 # =============================================================================
 
 # Enable thoughts plugin for PESOS functionality
-hooks = ["default", "thoughts"]
+hooks = ["default", "thoughts", "wikilink_hover"]
 
 # =============================================================================
 # THOUGHTS PLUGIN CONFIGURATION (PESOS)
@@ -1213,6 +1262,9 @@ min_playtime_hours = 3.0
 [markata-go.wikilinks]
 warn_broken = true
 
+[markata-go.wikilink_hover]
+enabled = true
+
 # Image zoom/lightbox functionality
 [markata-go.image_zoom]
 enabled = true
@@ -1230,4 +1282,3 @@ url = "/reader/"
 [[markata-go.nav]]
 label = "archive"
 url = "/archive/"
-
