@@ -27,6 +27,12 @@ palette = "rose-pine"
 # palette = "tokyo-night-day"
 # palette = "tokyo-night-storm"
 
+# Theme switcher - enables dropdown to select from all 70+ palettes
+[markata-go.theme.switcher]
+enabled = true
+include_all = true
+position = "header"
+
 # Background effects configuration
 [markata-go.theme.background]
 article_blur_enabled = false
@@ -91,7 +97,7 @@ main {
 }
 """
 
-# Load the snow-fall.js script
+# Load scripts (snow effect)
 scripts = ["/snow-fall.js"]
 
 # Repeating W.svg background pattern
