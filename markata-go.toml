@@ -133,7 +133,8 @@ author = "Waylon Walker"
 # Output directory
 output_dir = "output"
 
-# Use built-in templates (no custom template_dir specified)
+# Custom templates for card types (shots, gratitude, blog-post, etc.)
+templates_dir = "templates"
 
 # =============================================================================
 # NAVIGATION
@@ -1275,6 +1276,24 @@ enabled = true
 [markata-go.image_zoom]
 enabled = true
 auto_all_images = true  # Make ALL images zoomable
+
+# =============================================================================
+# WEBMENTION CONFIGURATION
+# =============================================================================
+
+# Receiving webmentions - adds <link rel="webmention"> to HTML head
+[markata-go.webmention]
+enabled = true
+endpoint = "https://webmention.io/waylonwalker.com/webmention"
+
+# Sending webmentions - automatically sends webmentions for external links
+[markata-go.webmentions]
+enabled = true
+outgoing = true
+cache_dir = ".cache/webmentions"
+concurrent_requests = 5
+timeout = "30s"
+webmention_io_token = "${WEBMENTION_IO_TOKEN}"
 
 # Navigation links
 [[markata-go.nav]]
