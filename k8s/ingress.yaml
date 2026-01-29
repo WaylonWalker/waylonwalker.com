@@ -1,0 +1,27 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: waylonwalker-com
+  namespace: go-waylonwalker-com
+  labels:
+    app.kubernetes.io/name: waylonwalker-com
+  annotations:
+    # Uncomment for nginx ingress controller
+    # nginx.ingress.kubernetes.io/rewrite-target: /
+    # nginx.ingress.kubernetes.io/proxy-body-size: "10m"
+    #
+    # Uncomment for Traefik ingress controller
+    # traefik.ingress.kubernetes.io/router.entrypoints: web
+spec:
+  ingressClassName: nginx  # Change to your ingress controller class
+  rules:
+    - host: go.waylonwalker.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: waylonwalker-com
+                port:
+                  name: http
