@@ -1,0 +1,81 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-config
+  namespace: go-waylonwalker-com
+  labels:
+    app.kubernetes.io/name: waylonwalker-com
+data:
+  default.conf: |
+    server {
+        listen 80;
+        server_name _;
+        root /usr/share/nginx/html;
+        index index.html;
+
+        # Custom MIME types for markata-go output formats
+        types {
+            # Standard types (inherit from /etc/nginx/mime.types)
+            include /etc/nginx/mime.types;
+
+            # Markdown files - served as text/markdown (RFC 7763)
+            text/markdown md markdown;
+
+            # Plain text (already in mime.types but explicit for clarity)
+            text/plain txt text;
+        }
+
+        # Gzip compression - include markdown and text
+        gzip on;
+        gzip_vary on;
+        gzip_min_length 1024;
+        gzip_proxied any;
+        gzip_types text/plain text/css text/xml text/javascript text/markdown application/javascript application/xml application/json application/rss+xml application/atom+xml image/svg+xml;
+
+        # Security headers
+        add_header X-Frame-Options "SAMEORIGIN" always;
+        add_header X-Content-Type-Options "nosniff" always;
+        add_header X-XSS-Protection "1; mode=block" always;
+        add_header Referrer-Policy "strict-origin-when-cross-origin" always;
+
+        # Cache static assets
+        location ~* \.(css|js|jpg|jpeg|png|gif|ico|svg|woff|woff2|ttf|eot)$ {
+            expires 1y;
+            add_header Cache-Control "public, immutable";
+        }
+
+        # RSS/Atom/JSON feeds - shorter cache
+        location ~* \.(xml|rss|atom|json)$ {
+            expires 1h;
+            add_header Cache-Control "public";
+        }
+
+        # Markdown and text files - moderate cache, proper content type
+        location ~* \.md$ {
+            default_type text/markdown;
+            charset utf-8;
+            expires 1d;
+            add_header Cache-Control "public";
+        }
+
+        location ~* \.txt$ {
+            default_type text/plain;
+            charset utf-8;
+            expires 1d;
+            add_header Cache-Control "public";
+        }
+
+        # Try files, then directories, then fall back to index.html
+        location / {
+            try_files $uri $uri/ $uri/index.html =404;
+        }
+
+        # Clean URLs - serve /foo/index.html for /foo
+        location ~ ^/([^.]+)$ {
+            try_files $uri $uri/ $uri/index.html =404;
+        }
+
+        # Error pages
+        error_page 404 /404.html;
+        error_page 500 502 503 504 /50x.html;
+    }
