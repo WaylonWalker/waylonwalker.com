@@ -13,18 +13,6 @@ data:
         root /usr/share/nginx/html;
         index index.html;
 
-        # Custom MIME types for markata-go output formats
-        types {
-            # Standard types (inherit from /etc/nginx/mime.types)
-            include /etc/nginx/mime.types;
-
-            # Markdown files - served as text/markdown (RFC 7763)
-            text/markdown md markdown;
-
-            # Plain text (already in mime.types but explicit for clarity)
-            text/plain txt text;
-        }
-
         # Gzip compression - include markdown and text
         gzip on;
         gzip_vary on;
