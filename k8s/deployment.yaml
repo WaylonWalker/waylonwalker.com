@@ -17,27 +17,44 @@ spec:
         app.kubernetes.io/name: waylonwalker-com
         app.kubernetes.io/component: web
     spec:
+      securityContext:
+        fsGroup: 65532  # nonroot group - ensures volumes are writable
       initContainers:
-        # Build the site using markata-go
-        - name: build-site
-          image: ghcr.io/waylonwalker/markata-go:latest
+        # Step 1: Clone the repository and set permissions
+        - name: clone-repo
+          image: alpine/git:latest
           command:
             - /bin/sh
             - -c
             - |
-              set -e
-              echo "Cloning repository..."
-              git clone --depth 1 --branch markata-go-migration \
+              git clone --depth=1 --branch=markata-go-migration \
                 https://github.com/WaylonWalker/waylonwalker.com.git /site
-              cd /site
-              echo "Building site with markata-go..."
-              markata-go build
-              echo "Copying output to shared volume..."
-              cp -r /site/output/* /output/
-              echo "Build complete!"
+              chown -R 65532:65532 /site
           volumeMounts:
-            - name: site-content
-              mountPath: /output
+            - name: site-source
+              mountPath: /site
+          resources:
+            requests:
+              memory: "64Mi"
+              cpu: "100m"
+            limits:
+              memory: "128Mi"
+              cpu: "200m"
+
+        # Step 2: Build the site with markata-go
+        - name: build-site
+          image: ghcr.io/waylonwalker/markata-go:latest
+          args:
+            - build
+          workingDir: /site
+          securityContext:
+            runAsUser: 65532
+            runAsGroup: 65532
+          volumeMounts:
+            - name: site-source
+              mountPath: /site
+            - name: site-output
+              mountPath: /site/output
           resources:
             requests:
               memory: "256Mi"
@@ -45,6 +62,7 @@ spec:
             limits:
               memory: "512Mi"
               cpu: "500m"
+
       containers:
         - name: nginx
           image: nginx:alpine
@@ -54,7 +72,7 @@ spec:
               containerPort: 80
               protocol: TCP
           volumeMounts:
-            - name: site-content
+            - name: site-output
               mountPath: /usr/share/nginx/html
               readOnly: true
             - name: nginx-config
@@ -83,8 +101,11 @@ spec:
             limits:
               memory: "128Mi"
               cpu: "200m"
+
       volumes:
-        - name: site-content
+        - name: site-source
+          emptyDir: {}
+        - name: site-output
           emptyDir: {}
         - name: nginx-config
           configMap:
