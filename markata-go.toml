@@ -445,7 +445,7 @@ items_per_page = 10
 
 # All thoughts (local + imported from thoughts.waylonwalker.com)
 [[markata-go.feeds]]
-slug = "thoughts"
+slug = "thoughts-feed"
 title = "Thoughts"
 description = "All thoughts and micro-posts from waylonwalker.com and thoughts.waylonwalker.com"
 filter = "template == 'thought.html' or path startswith 'thoughts/'"
