@@ -133,6 +133,15 @@ author = "Waylon Walker"
 # Output directory
 output_dir = "output"
 
+# =============================================================================
+# SEO CONFIGURATION
+# =============================================================================
+[markata-go.seo]
+twitter_handle = "@_waylonwalker"
+default_image = "https://waylonwalker.com/8bitcc.png"
+author_image = "/88-8bitcc.webp"
+og_image_service = "https://shots.waylonwalker.com/shot/"
+
 # Custom templates for card types (shots, gratitude, blog-post, etc.)
 templates_dir = "templates"
 
@@ -1276,6 +1285,11 @@ enabled = true
 [markata-go.image_zoom]
 enabled = true
 auto_all_images = true  # Make ALL images zoomable
+
+# Contribution graph for GitHub-style calendar heatmaps
+[markata-go.contribution_graph]
+enabled = true
+theme = "default"
 
 # =============================================================================
 # WEBMENTION CONFIGURATION
