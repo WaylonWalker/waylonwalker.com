@@ -105,6 +105,37 @@ scripts = ["/snow-fall.js"]
 html = """<div style="position: fixed; inset: 0; pointer-events: none; z-index: -2; background-image: url('/w.svg'); background-size: 150px 84.4px; background-repeat: repeat; filter: invert(1) opacity(0.03);"></div>"""
 z_index = -2
 
+# Noise overlay using SVG filters
+[[markata-go.theme.background.backgrounds]]
+html = """
+<svg
+  style="
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: overlay;
+  "
+  xmlns="http://www.w3.org/2000/svg">
+
+  <filter id="noiseFilter">
+    <feTurbulence 
+      type="fractalNoise" 
+      baseFrequency="0.9" 
+      numOctaves="4" 
+      stitchTiles="stitch"/>
+    <feColorMatrix type="saturate" values="0"/>
+    <feComponentTransfer>
+      <feFuncA type="discrete" tableValues="0 0.5 1"/>
+    </feComponentTransfer>
+  </filter>
+
+  <rect width="100%" height="100%" filter="url(#noiseFilter)" opacity="0.8"/>
+</svg>"""
+z_index = -1
+
 # Snow effect layers
 [[markata-go.theme.background.backgrounds]]
 html = '<snow-fall count="200" style="--snow-fall-size: 5px"></snow-fall>'
