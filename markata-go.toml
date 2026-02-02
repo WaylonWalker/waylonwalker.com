@@ -1352,3 +1352,7 @@ url = "/reader/"
 [[markata-go.nav]]
 label = "archive"
 url = "/archive/"
+
+[markata-go.error_pages]
+enable_404 = true                    # default: true
+custom_404_template = "post.html"    # default: post.html
