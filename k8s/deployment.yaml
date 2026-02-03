@@ -50,11 +50,23 @@ spec:
           securityContext:
             runAsUser: 65532
             runAsGroup: 65532
+          env:
+            # Enable pagefind auto-install for scratch container
+            - name: MARKATA_GO_SEARCH_PAGEFIND_AUTO_INSTALL
+              value: "true"
+            # Set cache directory to writable emptyDir
+            - name: MARKATA_GO_SEARCH_PAGEFIND_CACHE_DIR
+              value: "/tmp/pagefind-cache"
+            # Enable verbose output for debugging
+            - name: MARKATA_GO_SEARCH_PAGEFIND_VERBOSE
+              value: "true"
           volumeMounts:
             - name: site-source
               mountPath: /site
             - name: site-output
               mountPath: /site/output
+            - name: pagefind-cache
+              mountPath: /tmp/pagefind-cache
           resources:
             requests:
               memory: "2056Mi"
@@ -106,6 +118,8 @@ spec:
         - name: site-source
           emptyDir: {}
         - name: site-output
+          emptyDir: {}
+        - name: pagefind-cache
           emptyDir: {}
         - name: nginx-config
           configMap:
