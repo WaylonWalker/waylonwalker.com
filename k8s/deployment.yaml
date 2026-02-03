@@ -57,11 +57,11 @@ spec:
               mountPath: /site/output
           resources:
             requests:
-              memory: "256Mi"
-              cpu: "200m"
-            limits:
-              memory: "512Mi"
+              memory: "2056Mi"
               cpu: "500m"
+            limits:
+              memory: "8012Mi"
+              cpu: "2"
 
       containers:
         - name: nginx
