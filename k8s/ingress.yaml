@@ -13,7 +13,7 @@ metadata:
     # Uncomment for Traefik ingress controller
     # traefik.ingress.kubernetes.io/router.entrypoints: web
 spec:
-  ingressClassName: nginx  # Change to your ingress controller class
+
   rules:
     - host: go.waylonwalker.com
       http:
