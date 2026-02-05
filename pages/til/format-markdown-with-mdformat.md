@@ -5,34 +5,34 @@ title: format markdown with mdformat
 published: true
 tags:
   - python
-
 ---
 
-I really wish I would have got this right a few years ago.  Theres a couple of
+I really wish I would have got this right a few years ago. Theres a couple of
 flags I had to use to get mdformat to do hard wraps at 80 characters and not
-wreck tables.  This mix of flags and plugins is workign really well for me so
+wreck tables. This mix of flags and plugins is workign really well for me so
 far.
 
-``` bash
+```bash
 mdfmt() {
-  uvx \
-    --with "mdformat-ruff" \
-    --with "mdformat-beautysh" \
-    --with "mdformat-web" \
-    --with "mdformat-config" \
-    --with "mdformat-gfm" \
-    mdformat \
-    --wrap 80 \
-    --end-of-line lf \
-    --codeformatters python \
-    --codeformatters bash \
-    "$@"
+    uvx \
+        --with "mdformat-ruff" \
+        --with "mdformat-beautysh" \
+        --with "mdformat-web" \
+        --with "mdformat-config" \
+        --with "mdformat-gfm" \
+        --with "mdformat-front-matters" \
+        mdformat \
+        --wrap 80 \
+        --end-of-line lf \
+        --codeformatters python \
+        --codeformatters bash \
+        "$@"
 }
 ```
 
 And as pre-commmit.
 
-``` bash
+```yaml
 repos
   - repo: https://github.com/hukkin/mdformat
     rev: 1.0.0  # pin to the version you want
