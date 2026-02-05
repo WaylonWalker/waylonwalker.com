@@ -5,6 +5,8 @@ metadata:
   namespace: go-waylonwalker-com
   labels:
     app.kubernetes.io/name: waylonwalker-com
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/part-of: waylonwalker-com
 data:
   default.conf: |
     server {
@@ -56,6 +58,17 @@ data:
         # Try files, then directories, then fall back to index.html
         location / {
             try_files $uri $uri/ $uri/index.html =404;
+        }
+
+        # Pagefind search files
+        location /_pagefind/ {
+            try_files $uri =404;
+        }
+        location /reader/ {
+            try_files $uri =404;
+        }
+        location /blogroll/ {
+            try_files $uri =404;
         }
 
         # Clean URLs - serve /foo/index.html for /foo
