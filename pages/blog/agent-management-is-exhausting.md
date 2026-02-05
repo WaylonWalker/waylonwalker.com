@@ -4,16 +4,59 @@ templateKey: blog-post
 title: Agent Management Is Exhausting
 published: true
 tags:
-  -
+  - ai
+  - llm
+  - agents
 ---
-The state of development in early 2026 is all wrapped around learning how to manage many agents, keep them all up and running in parallel.
 
-The secret I've discovered works well for me right now is a good well defined plan.  This could be a markdown file or an issue.  Agents do really good at writing these for you, including reproduced steps for issues, spelling out the changes that need made.
+The state of development in early 2026 is all wrapped around learning how to
+manage many agents running in parallel. Everyone's trying to figure out the
+workflow.
 
-**This** is your opportunity to read the issue, the plan, step in, look for halucinations, where its going off track and what its doing right.  Get in there and edit the plan.  I had one today where it laid out the steps to reproduce really well, but I was able to add network requests for more context to the issue.  This is the missing phase really tripping a lot of people up right now and it has agents doing things you didn't ask for or solving the wrong problem.
+## The Plan Is Everything
 
-Now with all of this said, managing these things is exhausting.  Depending on the day they can move so damn fast compared to the time it takes you to do things.  Sometimes I can barely research, find, and raise issues as fast is it can implement features and fixes.
+The secret I've discovered is a good, well-defined plan. This could be a
+markdown file or a GitHub issue. Agents are actually great at writing these for
+you. They'll include reproduction steps, outline changes needed, and structure
+the work.
 
-This is a completely different way of working that I have experienced before. It stretches a different part of the brain than I'm used to.  It requires learning new skills around issue tracking and management.  Knowing what models are good at what task.  Knowing when your session is going to go to shit from too much context, wrong context, a compaction.  Its all new skills with a very different workflow.
+**This** is your opportunity to step in. Read the plan. Look for hallucinations.
+Spot where it's going off track. Edit the plan before the agent starts coding.
 
-There is something different about them this year, I'm not going to be a hype bro and tell you your wrong, you probably want to give them a chance if you have the opportunity and actually learn good techniques, its not easy it requires managing and learning.
+I had one today where it laid out reproduction steps beautifully, but I could
+add context about network requests that completely changed the approach. This
+editing phase is what most people are missing right now. Skip it and you'll
+watch your agent solve the wrong problem with impressive efficiency.
+
+## The Pace Problem
+
+Here's what nobody warned me about: managing these things is *exhausting*.
+
+Depending on the day, agents move so damn fast. I can barely research, find, and
+raise issues as fast as Claude can implement features and fixes. It's like
+trying to speedrun a Minecraft seed when you just figured out how to craft a
+pickaxe.
+
+## A Different Kind of Work
+
+This stretches a different part of my brain than I'm used to using. I'm learning
+new skills around:
+
+- Issue tracking and management at high velocity
+- Knowing which models handle which tasks best
+- Spotting when a session is about to go sideways from context bloat or bad
+  compaction
+
+I had a session yesterday where the context got poisoned with a wrong
+assumption. The agent spent 20 minutes building on that false premise before I
+caught it. That's 20 minutes of perfectly executed code solving the wrong
+problem entirely.
+
+## Worth It, But Hard
+
+I'm not going to hype-bro you and say this is easy or that you're wrong to be
+skeptical. If you have the opportunity to work with agents, it's worth learning
+proper techniques.
+
+It's not easy. It requires actual management skills, not just
+prompting skills. And yeah, I'm tired.
