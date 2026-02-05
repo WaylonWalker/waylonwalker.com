@@ -1326,7 +1326,13 @@ theme = "default"
 # WEBMENTION CONFIGURATION
 # =============================================================================
 
-# Receiving webmentions - adds <link rel="webmention"> to HTML head
+# Ensure the Webmention endpoint is discoverable in HTML <head>
+[markata-go.head]
+[[markata-go.head.link]]
+rel = "webmention"
+href = "https://webmention.io/waylonwalker.com/webmention"
+
+# Receiving webmentions - endpoint configuration (incoming mentions are fetched from webmention.io)
 [markata-go.webmention]
 enabled = true
 endpoint = "https://webmention.io/waylonwalker.com/webmention"
