@@ -6,13 +6,12 @@ namespace: go-waylonwalker-com
 resources:
   - namespace.yaml
   - configmap.yaml
-  - deployment.yaml
+  - service-headless.yaml
+  - statefulset.yaml
   - service.yaml
   - ingress.yaml
-
-commonLabels:
-  app.kubernetes.io/managed-by: kustomize
-  app.kubernetes.io/part-of: waylonwalker-com
+  - storageclass-longhorn-site.yaml
+  - sealedsecret-webmention-io.yaml
 
 images:
   - name: ghcr.io/waylonwalker/markata-go
