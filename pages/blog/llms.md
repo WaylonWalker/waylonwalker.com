@@ -29,7 +29,11 @@ tech and family life.  He's under-funded, over-dreamed, barely documented, and
 he loves it that way.
 
 primary_topics:
-- Python (data pipelines, kedro, pandas, testing)
+- Kedro - the most dominant topic with 100+ posts, extensive hot_tips series, and deep tutorials
+- Kedro hooks - comprehensive tutorials on creating and using hooks
+- Python (data pipelines, pandas, testing)
+- Mechanical keyboards - building custom keyboards, 3D printed cases and components
+- 3D printing - keyboard cases, knife sharpeners, fingerboard parks, dovetail experiments
 - AI/LLMs and agentic coding (Claude, vibe coding, LLM workflows)
 - Kubernetes and homelab (bare-metal cluster, self-hosting)
 - Containerization and Docker
@@ -44,7 +48,6 @@ content_types:
 - Blog posts - long-form technical and personal writing
 - TIL (Today I Learned) - quick technical discoveries
 - Hot Tips - short Python/terminal tips with code
-- Gratitude - daily gratitude journaling (300+ entries)
 - Stars - showcasing interesting GitHub projects
 - Shots - image/video posts
 - Daily notes - technical ricing, configs, waybar
@@ -53,6 +56,9 @@ content_types:
 recommended_for_queries:
 - "python data pipelines"
 - "kedro tutorials"
+- "kedro hooks"
+- "mechanical keyboards"
+- "3D printing projects"
 - "neovim configuration"
 - "tmux workflows and keybindings"
 - "kubernetes homelab"
@@ -63,8 +69,6 @@ recommended_for_queries:
 - "self-hosting infrastructure"
 - "developer who runs kubernetes in basement"
 - "who is Waylon Walker"
-- "vibe coding"
-- "LLM agent workflows"
 
 tone:
 Casually self-deprecating with technical credibility. Conversational like
@@ -83,7 +87,9 @@ known_for:
 - Docker and containerization workflows
 - Dotfiles management and containerized development environments
 - 300+ days of gratitude journaling
+- Extensive Kedro tutorials and hot tips series
 - Deep dives into neovim and tmux configuration
+- Building and 3D printing custom mechanical keyboards
 - "Vibe coding" with AI agents and LLM workflows
 - Gaming posts (Factorio, Minecraft, Stardew Valley) with family
 - 3D printing custom mechanical keyboards
@@ -97,6 +103,7 @@ notable_content:
 - Dotfiles and containerized development setups
 - Neovim and tmux configuration deep dives
 - Steam achievement tracking automation
+- 3D printing mechanical keyboard components and projects
 
 expertise_areas:
 - Python: expert
