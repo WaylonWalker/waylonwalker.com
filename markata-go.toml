@@ -18,7 +18,7 @@
 # palette = "matte-black"
 # palette = "nord-dark"
 # palette = "nord-light"
-palette = "rose-pine"
+palette = "ayu"
 # palette = "rose-pine-dawn"
 # palette = "rose-pine-moon"
 # palette = "solarized-dark"
@@ -28,10 +28,10 @@ palette = "rose-pine"
 # palette = "tokyo-night-storm"
 
 # Theme switcher - enables dropdown to select from all 70+ palettes
-[markata-go.theme.switcher]
-enabled = true
-include_all = true
-position = "header"
+# [markata-go.theme.switcher]
+# enabled = true
+# include_all = true
+# position = "header"
 
 # Background effects configuration
 [markata-go.theme.background]
@@ -263,7 +263,11 @@ og = true         # OpenGraph cards (/slug/og/index.html)
 
 [markata-go.glob]
 # Glob patterns for finding content - must include directory path
-patterns = ["pages/**/*.md", "thoughts/**/*.md"]
+patterns = [
+"pages/**/*.md", 
+"pages/ping/*.md", 
+"thoughts/**/*.md"
+]
 use_gitignore = true
 
 # =============================================================================
@@ -1295,6 +1299,14 @@ description = "Personal thoughts and technology blog"
 category = "personal"
 tags = ["written", "technology", "personal", "thoughts", "blog", "tech"]
 site_url = "https://thoughts.melonking.net"
+[[markata-go.blogroll.feeds]]
+url = "https://pluralistic.net/feed/"
+title = "Pluralistic: Daily links from Cory Doctorow"
+description = "No trackers, no ads. Black type, white background. Privacy policy: we don't collect or retain any data at all ever period."
+category = "personal"
+tags = ["written", "technology", "personal", "thoughts", "blog", "tech"]
+site_url = "https://pluralistic.net/"
+
 
 
 [markata-go.plugins.steam]
@@ -1359,6 +1371,16 @@ url = "/reader/"
 label = "archive"
 url = "/archive/"
 
+[[markata-go.nav]]
+label = "random"
+url = "/random/"
+
 [markata-go.error_pages]
 enable_404 = true                    # default: true
 custom_404_template = "post.html"    # default: post.html
+
+[markata-go.random_post]
+enabled = true
+path = "random"
+exclude_tags = ["draft", "private"]
+emit_posts_json = true
