@@ -27,7 +27,7 @@ it requires planning, it requires agents, it requires tooling.
 
 Is anyone doing this all day?  Probably not. At least not outside of the
 startup companies that are building out tools to do this.  Yes there are some,
-theres always outliers, but its going to be rare.  To have multiple agents
+there's always outliers, but its going to be rare.  To have multiple agents
 running in parallel add day you need a lot of tokens, access to good models,
 and right now a low to medium risk application.
 
@@ -41,7 +41,7 @@ lost, no traffic accidents, no security breaches, no missed deadlines.
 ## not with chat
 
 chatbots like chatgpt, are not getting you to run 5 agents in parallel.  Maybe
-you take a sip of your coffee while it spits out its response, but you dont
+you take a sip of your coffee while it spits out its response, but you don't
 have enough time to jump between many of them.  If this is your experience so
 far, I understand how confusing it would be to think that someone is running 5
 agents in parallel.  But they are, and they are doing it with tools that are
@@ -56,7 +56,7 @@ seconds. You probably could have done it just as fast and better.
 
 For the plan itself, Send agents off to research.  Agents are not good at
 solving problems without a good plan, but this does not mean you have to
-tediusly write out the plan from scratch.  They are really good a reading docs,
+tediously write out the plan from scratch.  They are really good a reading docs,
 specs, standards, finding them on the web.  Reading your codebase to understand
 where and how a bug might be happening.  They are really good at running bash,
 browser automation, they can reproduce your bugs for you and provide detailed
@@ -72,7 +72,16 @@ logs with expected and actual behaviors in your plans.
     yourself and paste the results back in.  Sure there are better ways, but
     without any set up this works.
 
-Executing plans
+Executing plans, if you have well scoped and documented work for the agent to
+do, as of right now they are happy to keep working.  I dont think there yet
+exists any sort of best practice here yet.  I prefer to keep it out of the
+agent tools plan mode only because that is so deeply tied to the session.  If
+you get context poisoning or a shit compaction your session might be hosed
+and unrecoverable, I'm sure you could go into the agents session files and do
+something to get it back, but I've yet to need one back that bad to really
+care.
 
-
+What you need is a system that agents can access to tell them what to do, a
+simple markdown file works, GitHub issues work, I'm sure boards, and kanban
+work if it has an api the agent can understand.
 
