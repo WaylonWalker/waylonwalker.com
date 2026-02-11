@@ -1,5 +1,6 @@
 ---
 date: 2026-01-19 20:41:14
+updated: 2026-02-11 
 templateKey: til
 title: format markdown with mdformat
 published: true
@@ -21,6 +22,8 @@ mdfmt() {
         --with "mdformat-config" \
         --with "mdformat-gfm" \
         --with "mdformat-front-matters" \
+        --with "mdformat-wikilink" \
+        --with "mdformat-simple-breaks" \
         mdformat \
         --wrap 80 \
         --end-of-line lf \
@@ -54,4 +57,6 @@ repos
           - mdformat-config
           - mdformat-gfm
           - mdformat-front-matters
+          - mdformat-wikilink
+          - mdformat-simple-breaks
 ```
