@@ -1,0 +1,37 @@
+---
+title: '💭 Using OPNsense with Tailscale · Tailscale Docs'
+date: 2024-12-03T17:37:52
+templateKey: link
+link: https://tailscale.com/kb/1097/install-opnsense
+tags:
+  - opnsense
+  - tailscale
+published: true
+
+---
+
+> On reboot of my opnsense router it did not tailscale up.  I'm not sure if a key expired or what happened.  The fix was to first enable ssh, then ssh in and run tailscale up.
+
+## enable ssh
+
+In opnsense System > Settings > Administration > Secure Shell > Enable Secure Shell
+
+## tailscale up
+
+``` bash
+ssh <opnsense ip>
+8 # to select shell
+tailscale up
+```
+
+Follow the link to log in.
+
+## disable ssh
+
+now uncheck secure shell to lock down the opnsense machine.
+
+
+In opnsense System > Settings > Administration > Secure Shell > Enable Secure Shell
+
+
+[Original thought](https://tailscale.com/kb/1097/install-opnsense)

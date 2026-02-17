@@ -1,0 +1,44 @@
+---
+title: '💭 Handling Errors - FastAPI'
+date: 2023-12-17T03:47:43
+templateKey: link
+link: https://fastapi.tiangolo.com/tutorial/handling-errors/
+tags:
+  - webdev
+  - fastapi
+published: true
+
+---
+
+> This page shows how to customize your fastapi errors.  I found this very useful to setup common templates so that I can return the same 404's both programatically and by default, so it all looks the same to the end user.
+
+
+``` python
+from fastapi import FastAPI, Request
+from fastapi.responses import JSONResponse
+
+
+class UnicornException(Exception):
+    def __init__(self, name: str):
+        self.name = name
+
+
+app = FastAPI()
+
+
+@app.exception_handler(UnicornException)
+async def unicorn_exception_handler(request: Request, exc: UnicornException):
+    return JSONResponse(
+        status_code=418,
+        content={"message": f"Oops! {exc.name} did something. There goes a rainbow..."},
+    )
+
+
+@app.get("/unicorns/{name}")
+async def read_unicorn(name: str):
+    if name == "yolo":
+        raise UnicornException(name=name)
+    return {"unicorn_name": name}
+```
+
+[Original thought](https://fastapi.tiangolo.com/tutorial/handling-errors/)

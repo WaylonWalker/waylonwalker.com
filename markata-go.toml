@@ -158,8 +158,18 @@ z_index = 5
 # Site metadata
 title = "Waylon Walker"
 description = "Waylon Walker's personal blog"
+url = "https://go.waylonwalker.com"
+# author = "Waylon Walker"
+# social = { twitter = "waylonwalker", bluesky = "waylonwalker.com", github = "WaylonWalker" }
+
+[markata-go.authors.authors.waylon]
+name = "Waylon Walker"
+email = "hello@waylonwalker.com"
+role = "Author"
 url = "https://waylonwalker.com"
-author = "Waylon Walker"
+avatar = '/waylon.webp'
+social = { twitter = "waylonwalker", bluesky = "waylonwalker.com", github = "WaylonWalker" }
+default = true
 
 # Output directory
 output_dir = "output"
@@ -265,8 +275,9 @@ og = true         # OpenGraph cards (/slug/og/index.html)
 # Glob patterns for finding content - must include directory path
 patterns = [
 "pages/**/*.md", 
-"pages/ping/*.md", 
-"thoughts/**/*.md"
+# "pages/ping/*.md", 
+# "thoughts/**/*.md"
+# "pages/**/pm-not-babysitter.md", 
 ]
 use_gitignore = true
 
@@ -284,7 +295,7 @@ hooks = ["default", "thoughts", "wikilink_hover"]
 [markata-go.thoughts]
 enabled = true
 thoughts_dir = "thoughts"
-cache_dir = "cache/thoughts"
+cache_dir = ".markata.cache/thoughts"
 max_items = 200
 
 # Import thoughts from thoughts.waylonwalker.com (JSON API)
@@ -302,6 +313,7 @@ orphan_threshold = 3
 
 [markata-go.feed_defaults.formats]
 html = true
+simple_html = true
 rss = true
 atom = true
 json = true
@@ -599,7 +611,7 @@ rss = true
 # =============================================================================
 [markata-go.blogroll]
 enabled = true
-cache_dir = "cache/blogroll"
+cache_dir = ".markata-cache/blogroll"
 cache_duration = "1h"
 max_entries_per_feed = 50
 # Fallback screenshot service for entries without images (2x size for retina: 240x160 displayed at 120x80)
@@ -1353,7 +1365,7 @@ endpoint = "https://webmention.io/waylonwalker.com/webmention"
 [markata-go.webmentions]
 enabled = true
 outgoing = true
-cache_dir = ".cache/webmentions"
+cache_dir = ".markata-cache/webmentions"
 concurrent_requests = 5
 timeout = "30s"
 webmention_io_token = "${WEBMENTION_IO_TOKEN}"
@@ -1384,3 +1396,18 @@ enabled = true
 path = "random"
 exclude_tags = ["draft", "private"]
 emit_posts_json = true
+
+[markata-go.link_avatars]
+enabled = true
+
+# CSS selector for links to enhance (default: "a[href^='http']")
+selector = "a[href^='http']"
+
+# Avatar size in pixels (default: 16)
+size = 16
+
+# Position: "before" or "after" the link text (default: "before")
+position = "before"
+
+# Mode: "js", "local", or "hosted" (default: "js")
+mode = "local"
