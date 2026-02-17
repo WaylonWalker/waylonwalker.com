@@ -33,6 +33,12 @@ palette = "ayu"
 # include_all = true
 # position = "header"
 
+[markata-go.theme.variables]
+# "--content-width" = "12ch"
+# "--content-max-width" = "300px"
+"--content-width" = "clamp(56ch, 60vw, 72ch)"
+"--text-base" = "1.2rem"
+
 # Background effects configuration
 [markata-go.theme.background]
 article_blur_enabled = false
