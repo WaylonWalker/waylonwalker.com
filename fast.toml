@@ -12,7 +12,7 @@ patterns = [
 "pages/blog/start.md",
 "pages/blog/now.md",
 "pages/blog/analytics.md",
-"pages/shots/*.md",
+# "pages/shots/*.md",
 ]
 
 
