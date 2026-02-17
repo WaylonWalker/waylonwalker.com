@@ -2,7 +2,6 @@
 title: "Robots"
 slug: robots
 published: true
-private: true
 jinja: true
 ---
 
