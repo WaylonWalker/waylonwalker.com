@@ -37,6 +37,9 @@ def generate_post(post: dict) -> str:
     title = "💭 " + cleaned_title.lstrip("💭 ")
     title = title.replace("'", "''")
     tags = [tag.strip() for tag in post["tags"].split(",")]
+    tags.append("thoughts")
+    tags.append("thought")
+    tags.append("link")
     link = (
         post.get("link") or f"https://waylonwalker.com/thoughts/thought-{post['id']}/"
     )
@@ -48,7 +51,7 @@ def generate_post(post: dict) -> str:
     content = f"""---
 title: '{title}'
 date: {date}
-templateKey: link
+template: link
 link: {link}
 tags:
 {tags_yaml}
@@ -56,9 +59,14 @@ published: true
 
 ---
 
-> {message}
+![[{link}]]
 
-[Original thought]({link})
+{message}
+
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts
 """
     return content
 

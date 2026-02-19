@@ -1,17 +1,22 @@
 ---
 title: '💭 First-class session support in FastAPI · Issue #754 · tiangolo...'
 date: 2023-07-28T14:59:37
-templateKey: link
+template: link
 link: https://github.com/tiangolo/fastapi/issues/754
 tags:
   - python
   - fastapi
   - security
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Here is a snippet provided by @tiangolo to store the users jwt inside of a session cookie in fatapi.  This was written in feb 12, 2020 and admits that this is not a well documented part of fastapi.
+![[https://github.com/tiangolo/fastapi/issues/754]]
+
+Here is a snippet provided by @tiangolo to store the users jwt inside of a session cookie in fatapi.  This was written in feb 12, 2020 and admits that this is not a well documented part of fastapi.
 
 > It's already in place. More or less like the rest of the security tools. And it's compatible with the rest of the parts, integrated with OpenAPI (as possible), but probably most importantly, with dependencies.
 
@@ -84,4 +89,7 @@ def read_private(username: str = Depends(get_current_user)):
 
 
 
-[Original thought](https://github.com/tiangolo/fastapi/issues/754)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

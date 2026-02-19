@@ -1,16 +1,21 @@
 ---
 title: '💭 FastAPI - dependency inside Middleware? - Stack Overflow'
 date: 2023-12-17T17:05:46
-templateKey: link
+template: link
 link: https://stackoverflow.com/questions/72243379/fastapi-dependency-inside-middleware#answer-72480781
 tags:
   - fastapi
   - webdev
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> After struggling to get dependencies inside of middleware I learned that you can make global dependencies at the app level.  I used this to set the user on every single route of the application without needing Depend on getting the user on each route.
+![[https://stackoverflow.com/questions/72243379/fastapi-dependency-inside-middleware#answer-72480781]]
+
+After struggling to get dependencies inside of middleware I learned that you can make global dependencies at the app level.  I used this to set the user on every single route of the application without needing Depend on getting the user on each route.
 
 
 ``` python
@@ -40,4 +45,7 @@ async def root(request: Request):
     return {"foo_from_dependency": request.state.foo}
 ```
 
-[Original thought](https://stackoverflow.com/questions/72243379/fastapi-dependency-inside-middleware#answer-72480781)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

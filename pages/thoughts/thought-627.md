@@ -1,15 +1,20 @@
 ---
 title: '💭 What ChatGPT is NOT - Tech Raven Blog'
 date: 2025-05-09T13:45:18
-templateKey: link
+template: link
 link: https://blog.techravenconsulting.com/what-chatgpt-is-not/
 tags:
   - llm
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> > Do you remember regression models from college: given some data, you find a best fit line that allows you to predict Y given X. At the end of the day, ChatGPT, and LLMs in general, are the same thing as the regression model – it’s just that ChatGPT is the largest and fanciest model we currently have to model language and information.
+![[https://blog.techravenconsulting.com/what-chatgpt-is-not/]]
+
+> Do you remember regression models from college: given some data, you find a best fit line that allows you to predict Y given X. At the end of the day, ChatGPT, and LLMs in general, are the same thing as the regression model – it’s just that ChatGPT is the largest and fanciest model we currently have to model language and information.
 
 
 I really am coming to the idea of calling it a "word calculator", this seems to be the most succinct description of llms that the lay person can comprehend and relate to.
@@ -28,4 +33,7 @@ I've become really bad at this.  This is slowly becoming my starting point for a
 
 I really like this description and it matches up with my last comment.
 
-[Original thought](https://blog.techravenconsulting.com/what-chatgpt-is-not/)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

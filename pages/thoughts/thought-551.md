@@ -1,15 +1,20 @@
 ---
 title: '💭 Migration guide for config loaders — kedro 0.19.11 documentation'
 date: 2025-02-05T18:16:44
-templateKey: link
+template: link
 link: https://docs.kedro.org/en/stable/configuration/config_loader_migration.html
 tags:
   - kedro
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Migrating from kedro 0.18.4 to the latest version involves handling the deprecated OmegaConf loader.  Switching over does not look as bad as I originally thought.
+![[https://docs.kedro.org/en/stable/configuration/config_loader_migration.html]]
+
+Migrating from kedro 0.18.4 to the latest version involves handling the deprecated OmegaConf loader.  Switching over does not look as bad as I originally thought.
 
 
 1. installing kedro 0.18.5+
@@ -22,4 +27,7 @@ published: true
 8. Globals are handled different
 9. OmegaConfig does not support jinja2 sytax, but rather a `${variable}` syntax
 
-[Original thought](https://docs.kedro.org/en/stable/configuration/config_loader_migration.html)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

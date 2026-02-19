@@ -1,16 +1,21 @@
 ---
 title: '💭 argocd automated sync'
 date: 2024-04-19T19:36:47
-templateKey: link
+template: link
 link: none
 tags:
   - k8s
   - kubernetes
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> ```  yaml
+![[none]]
+
+```  yaml
 ---
 
 apiVersion: argoproj.io/v1alpha1
@@ -32,4 +37,7 @@ spec:
       prune: true
 ```
 
-[Original thought](none)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

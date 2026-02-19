@@ -1,16 +1,21 @@
 ---
 title: '💭 Automatic browser reloading in FastAPI'
 date: 2023-10-08T15:16:56
-templateKey: link
+template: link
 link: https://gist.github.com/vrslev/6d0602bfa939a01844f645c608afb85a
 tags:
   - webdev
   - fastapi
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> I just discovered [arel](https://pypi.org/project/arel/) for hot reloading python applications when content changes from this snippet that implements it for fatapi.
+![[https://gist.github.com/vrslev/6d0602bfa939a01844f645c608afb85a]]
+
+I just discovered [arel](https://pypi.org/project/arel/) for hot reloading python applications when content changes from this snippet that implements it for fatapi.
 
 On app startup add the `/hot-reload` routes if in **DEBUG** mode.
 
@@ -63,4 +68,7 @@ In the template, load the script when in debug mode.
 </body>
 ```
 
-[Original thought](https://gist.github.com/vrslev/6d0602bfa939a01844f645c608afb85a)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

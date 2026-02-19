@@ -1,15 +1,20 @@
 ---
 title: '💭 The Future of HTMX - YouTube'
 date: 2025-01-13T02:45:27
-templateKey: link
+template: link
 link: https://www.youtube.com/watch?v=0rtpsJSLb44&t=624s
 tags:
   - webdev
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> I like the charts that Theo brings to to these videos.  Shout out for a positive k8s reference and not shitting on it.
+![[https://www.youtube.com/watch?v=0rtpsJSLb44&t=624s]]
+
+I like the charts that Theo brings to to these videos.  Shout out for a positive k8s reference and not shitting on it.
 
 ![image](https://dropper.wayl.one/api/file/6b2d4ec0-98f2-4e58-8ab4-936b7356e7f4.webp)
 
@@ -21,4 +26,7 @@ htmx brings us back to the ease of jquery ajax without any complex swapping or j
 
 ![image](https://dropper.wayl.one/api/file/aa09051d-7e36-43a3-b6da-a6257cad1cc9.webp)
 
-[Original thought](https://www.youtube.com/watch?v=0rtpsJSLb44&t=624s)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

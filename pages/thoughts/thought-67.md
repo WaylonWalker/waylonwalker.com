@@ -1,15 +1,23 @@
 ---
 title: '💭 Tailwind CSS Crash Course - YouTube'
 date: 2023-08-04T12:55:03
-templateKey: link
+template: link
 link: https://www.youtube.com/watch?v=UBOj6rqRUME
 tags:
   - webdev
   - css
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Nice intro into tailwind, I definitely started grasping some of the concepts after watching Brad.
+![[https://www.youtube.com/watch?v=UBOj6rqRUME]]
 
-[Original thought](https://www.youtube.com/watch?v=UBOj6rqRUME)
+Nice intro into tailwind, I definitely started grasping some of the concepts after watching Brad.
+
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

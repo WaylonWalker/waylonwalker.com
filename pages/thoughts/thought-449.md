@@ -1,16 +1,21 @@
 ---
 title: '💭 Damn, I love dropper already'
 date: 2024-12-18T00:42:07
-templateKey: link
+template: link
 link: https://thoughts.waylonwalker.com/post/448
 tags:
   - blog
   - meta
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Damn I'm loving using dropper already, I am able to copy paste images right into posts on thoughts.  This is my first post that really utilizes them heavily to show how different styled rss feeds look in the post.  These were super quick to screenshot and paste in, this is a DREAM workflow for me. 
+![[https://thoughts.waylonwalker.com/post/448]]
+
+Damn I'm loving using dropper already, I am able to copy paste images right into posts on thoughts.  This is my first post that really utilizes them heavily to show how different styled rss feeds look in the post.  These were super quick to screenshot and paste in, this is a DREAM workflow for me. 
 
 ![image](https://dropper.wayl.one/api/file/6b452d8c-030f-4075-93eb-a9714fa63aa5.webp)
 
@@ -20,4 +25,7 @@ When I paste an image into my thoughts chrome extension it automatically uploads
 
 check out https://thoughts.waylonwalker.com/post/448  for some sweet styled rss
 
-[Original thought](https://thoughts.waylonwalker.com/post/448)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

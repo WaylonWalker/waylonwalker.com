@@ -3,6 +3,7 @@ date: 2025-12-06 09:59:01
 templateKey: glossary
 subroute: glossary
 title: Git
+slug: 'glossary/git'
 tags:
   - glossary
 published: True

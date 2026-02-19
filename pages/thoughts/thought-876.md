@@ -1,14 +1,22 @@
 ---
 title: '💭 Malicious Traffic and Static Sites - Jim Nielsen’s Blog'
 date: 2025-12-01T21:41:03
-templateKey: link
+template: link
 link: https://blog.jim-nielsen.com/2025/malicious-traffic-on-static-sites/
 tags:
   - blog
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> These look like fun endpoints to add anti-maliciously, give good stuff for the sleezy things to read.
+![[https://blog.jim-nielsen.com/2025/malicious-traffic-on-static-sites/]]
 
-[Original thought](https://blog.jim-nielsen.com/2025/malicious-traffic-on-static-sites/)
+These look like fun endpoints to add anti-maliciously, give good stuff for the sleezy things to read.
+
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

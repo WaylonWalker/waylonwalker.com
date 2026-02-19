@@ -1,16 +1,21 @@
 ---
 title: '💭 Realign – Chris Coyier'
 date: 2025-01-04T14:25:02
-templateKey: link
+template: link
 link: https://chriscoyier.net/2025/01/03/realign/
 tags:
   - webdev
   - blog
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Chris Coyier had a small re-align on his site, some good nuggets in here.
+![[https://chriscoyier.net/2025/01/03/realign/]]
+
+Chris Coyier had a small re-align on his site, some good nuggets in here.
 
 > I like the idea of having a photo of myself prominently on the site, so you know who you’re dealing with here.
 
@@ -22,4 +27,7 @@ I can totally relate to this, once you open the thing, you get the build tools g
 
 
 
-[Original thought](https://chriscoyier.net/2025/01/03/realign/)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

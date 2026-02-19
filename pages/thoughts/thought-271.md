@@ -1,16 +1,21 @@
 ---
 title: '💭 Dax Raad - SST, Build modern full-stack applications on AWS wi...'
 date: 2024-05-12T19:24:28
-templateKey: link
+template: link
 link: https://www.youtube.com/watch?v=V_2OLtsD0N8&t=4604
 tags:
   - sst
   - serverless
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> such a sick episode with dax.
+![[https://www.youtube.com/watch?v=V_2OLtsD0N8&t=4604]]
+
+such a sick episode with dax.
 
 SST's free tier will be free as long as aws allows a free tier, their free tier literally costs them nothing.
 
@@ -18,4 +23,7 @@ They talked about keeping SST small, the limitations that brings, but also the n
 
 If they can get through phase one of just being the go platform for a very specific audience of users, and gain marketshare, the ideas of offerings on top of this are endless.
 
-[Original thought](https://www.youtube.com/watch?v=V_2OLtsD0N8&t=4604)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

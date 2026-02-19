@@ -1,15 +1,20 @@
 ---
 title: '💭 Chris Coyier'
 date: 2025-02-14T19:40:19
-templateKey: link
+template: link
 link: https://chriscoyier.net/2024/03/03/11148/
 tags:
   - blog
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Interesting thoughts here on blog post titles, do we need them?  They are so ingrained into everything.
+![[https://chriscoyier.net/2024/03/03/11148/]]
+
+Interesting thoughts here on blog post titles, do we need them?  They are so ingrained into everything.
 
 It makes me think about markata.dev.  I don't require you to add any meta data to your post, you don't need a title at all, but you do have to name a markdown file, and this does end up being your title if you don't set one.
 
@@ -37,4 +42,7 @@ It makes me wonder where Signal gets this title is it from the title block or th
 
 
 
-[Original thought](https://chriscoyier.net/2024/03/03/11148/)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

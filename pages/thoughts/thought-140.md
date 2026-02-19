@@ -1,16 +1,21 @@
 ---
 title: '💭 Quick-Start Guide | K3s'
 date: 2023-10-20T21:32:03
-templateKey: link
+template: link
 link: https://docs.k3s.io/quick-start
 tags:
   - homelab
   - k3s
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> I recently spun up k3s in my homelab.  I'm trying to offload some work off of my free tier fly.io app in order to keep it free tier without crashing.
+![[https://docs.k3s.io/quick-start]]
+
+I recently spun up k3s in my homelab.  I'm trying to offload some work off of my free tier fly.io app in order to keep it free tier without crashing.
 
 
 ``` bash
@@ -29,4 +34,7 @@ sudo k3s server -d /mnt/vault/.rancher/k3s
 sudo ln -s /mnt/vault/.rancher/k3s /var/lib/rancher/k3s
 ```
 
-[Original thought](https://docs.k3s.io/quick-start)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

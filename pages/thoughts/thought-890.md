@@ -1,15 +1,20 @@
 ---
 title: '💭 Why is Everyone So Wrong About AI Water Use?? - YouTube'
 date: 2025-12-09T14:39:18
-templateKey: link
+template: link
 link: https://www.youtube.com/watch?v=H_c6MWk7PQc
 tags:
   - ai
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> I did not realize all the places to be considered as AI water usage.  Hank goes deep highlighting all of the sources he is aware of, most reports leave off a lot of these sources, some reports go maybe too far adding sources that may not make sense depending on the question you are asking.
+![[https://www.youtube.com/watch?v=H_c6MWk7PQc]]
+
+I did not realize all the places to be considered as AI water usage.  Hank goes deep highlighting all of the sources he is aware of, most reports leave off a lot of these sources, some reports go maybe too far adding sources that may not make sense depending on the question you are asking.
 
 As someone that runs computers with gpus in their house, and watching LTT make AIO installs on GPUs I've wondered what would AI use water for, now I understand that its a lot. No where near agriculture, but a lot.
 
@@ -25,4 +30,7 @@ Anyways Hank does a great job at saying this is not a simple answer, its complic
 
 
 
-[Original thought](https://www.youtube.com/watch?v=H_c6MWk7PQc)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

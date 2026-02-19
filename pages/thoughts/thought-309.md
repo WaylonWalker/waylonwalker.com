@@ -1,17 +1,22 @@
 ---
 title: '💭 podman requries qemu-system on ubuntu'
 date: 2024-06-12T19:29:18
-templateKey: link
+template: link
 link: https://askubuntu.com/questions/1490805/how-do-i-install-qemu-on-ubuntu-23-10
 tags:
   - linux
   - podman
   - container
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> podman requires qemu-system on 
+![[https://askubuntu.com/questions/1490805/how-do-i-install-qemu-on-ubuntu-23-10]]
+
+podman requires qemu-system on 
 
 
 ``` bash
@@ -31,4 +36,7 @@ sudo apt install qemu-system
 ```
 
 
-[Original thought](https://askubuntu.com/questions/1490805/how-do-i-install-qemu-on-ubuntu-23-10)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

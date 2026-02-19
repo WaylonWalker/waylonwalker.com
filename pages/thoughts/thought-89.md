@@ -1,17 +1,22 @@
 ---
 title: '💭 simonw/shot-scraper: A command-line utility for taking automat...'
 date: 2023-08-16T00:05:33
-templateKey: link
+template: link
 link: https://github.com/simonw/shot-scraper
 tags:
   - python
   - screenshot
   - webdev
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
->         > A command-line utility for taking automated screenshots of websites
+![[https://github.com/simonw/shot-scraper]]
+
+        > A command-line utility for taking automated screenshots of websites
 
 
 Daaaang, this is such an elegantly simple way to get web screenshots with a cli.  I was literally up and running with two commands on my arch linux machine (which it warned was unsupported by playwright).
@@ -31,4 +36,7 @@ shot-scraper shot --selector '#posts' https://thoughts.waylonwalker.com/post/89
 
 Oh and its pretty dang fast, let alone the setup time, this crushes on startup time in my attempts to use a headless browser in the past.
 
-[Original thought](https://github.com/simonw/shot-scraper)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

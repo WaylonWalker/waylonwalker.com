@@ -1,16 +1,21 @@
 ---
 title: '💭 How to Deliver Code Every Day | Jake Worth'
 date: 2024-06-01T00:48:21
-templateKey: link
+template: link
 link: https://www.jakeworth.com/posts/how-to-deliver-code-every-day/
 tags:
   - webdev
   - shipping
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Great set of tips here!
+![[https://www.jakeworth.com/posts/how-to-deliver-code-every-day/]]
+
+Great set of tips here!
 
 > No waiting. No “waiting until tomorrow” or “It’s Friday, let’s wait until Monday” to deploy. If your deploys are so slow that deploying an hour before the end of the day is a risk, that’s a separate problem. If you’re afraid of a Friday deploy, your system is too brittle, or you don’t have foolproof rollback procedures, or you don’t have people you trust on call to resolve it. Each of these is a problem that you can fix.
 
@@ -22,4 +27,7 @@ Most of us are not that team.  Most of us work on small teams supporting some so
 
 I've also been on teams where we don't deploy in the middle of the day or right before we leave for vacation because we are early, our customers are important to us, and we accept that we have not hit our marks yet on the ability to swiftly recover from some downtime so risk is high.
 
-[Original thought](https://www.jakeworth.com/posts/how-to-deliver-code-every-day/)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

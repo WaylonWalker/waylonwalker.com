@@ -1,15 +1,20 @@
 ---
 title: '💭 Network Types - Pydantic'
 date: 2024-04-30T18:12:26
-templateKey: link
+template: link
 link: https://docs.pydantic.dev/2.7/api/networks/#pydantic.networks.EmailStr
 tags:
   - 
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> pydantic has a nice built in email validator `EmailStr`
+![[https://docs.pydantic.dev/2.7/api/networks/#pydantic.networks.EmailStr]]
+
+pydantic has a nice built in email validator `EmailStr`
 
 It requires an optional pydantic dependency 
 
@@ -29,4 +34,7 @@ print(Model(email='contact@mail.com'))
 #> email='contact@mail.com'
 ```
 
-[Original thought](https://docs.pydantic.dev/2.7/api/networks/#pydantic.networks.EmailStr)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

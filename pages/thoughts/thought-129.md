@@ -1,17 +1,22 @@
 ---
 title: '💭 wincent/aspects/dotfiles/files/.zshrc at 85fc42d9e96d408a5b367...'
 date: 2023-10-10T12:38:22
-templateKey: link
+template: link
 link: https://github.com/wincent/wincent/blob/85fc42d9e96d408a/aspects/dotfiles/files/.zshrc
 tags:
   - cli
   - shell
   - zsh
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Wincent (Greg Hurrel) has a pretty solid and fast zshrc.  I recently grabbed his completion section and it seems to be working better than whatever I had.
+![[https://github.com/wincent/wincent/blob/85fc42d9e96d408a/aspects/dotfiles/files/.zshrc]]
+
+Wincent (Greg Hurrel) has a pretty solid and fast zshrc.  I recently grabbed his completion section and it seems to be working better than whatever I had.
 
 zsh completion snippet
 
@@ -53,4 +58,7 @@ zstyle ':completion:*:descriptions' format %F{default}%B%{$__WINCENT[ITALIC_ON]%
 zstyle ':completion:*' menu select
 ``` 
 
-[Original thought](https://github.com/wincent/wincent/blob/85fc42d9e96d408a/aspects/dotfiles/files/.zshrc)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

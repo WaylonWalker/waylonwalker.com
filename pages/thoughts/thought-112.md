@@ -1,17 +1,22 @@
 ---
 title: '💭 Pagefind | Pagefind — Static low-bandwidth search at scale'
 date: 2023-09-20T01:04:41
-templateKey: link
+template: link
 link: https://pagefind.app/
 tags:
   - webdev
   - search
   - wasm
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Pagefind is absolutely insane.  I've tried a number of static site searches, and found them all hard to get get going, clunky and not the best experience as a user or developer.
+![[https://pagefind.app/]]
+
+Pagefind is absolutely insane.  I've tried a number of static site searches, and found them all hard to get get going, clunky and not the best experience as a user or developer.
 
 I setup pagefind in about 2 minutes on my site where it found and indexed 833 pages in 2 minutes.
 
@@ -38,4 +43,7 @@ Then I put this on a page, it looks really nice on a white background, but would
 </script>
 ```
 
-[Original thought](https://pagefind.app/)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

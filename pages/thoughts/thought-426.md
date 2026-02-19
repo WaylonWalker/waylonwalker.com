@@ -1,16 +1,21 @@
 ---
 title: '💭 Proper handling of None in WHERE condition · Issue #109 · fast...'
 date: 2024-11-08T13:36:30
-templateKey: link
+template: link
 link: https://github.com/fastapi/sqlmodel/issues/109#issuecomment-1046223225
 tags:
   - python
   - sqlmodel
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> SQLModel models ship with an `is_`, and `is_not` that you can use to compare to None without pesky linters complaining.
+![[https://github.com/fastapi/sqlmodel/issues/109#issuecomment-1046223225]]
+
+SQLModel models ship with an `is_`, and `is_not` that you can use to compare to None without pesky linters complaining.
 
 This comment summed it up quite well.
 
@@ -22,4 +27,7 @@ This comment summed it up quite well.
 
 so rather than using `Team.heros == None` we can use `Team.seros.is_(None)` which checks for itentity not equality.
 
-[Original thought](https://github.com/fastapi/sqlmodel/issues/109#issuecomment-1046223225)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

@@ -1,15 +1,20 @@
 ---
 title: '💭 Rug pull, not cool! (Changelog & Friends #40)'
 date: 2024-04-20T01:36:03
-templateKey: link
+template: link
 link: https://changelog.com/friends/40
 tags:
   - tech
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Five star episode with Jarod and Adam shootin the crap.
+![[https://changelog.com/friends/40]]
+
+Five star episode with Jarod and Adam shootin the crap.
 
 > [The massive Cease and Desist](https://opentofu.org/blog/our-response-to-hashicorps-cease-and-desist/)
 
@@ -27,4 +32,7 @@ I later saw this through a YT short, and man does it hold up to the creepy level
 
 This is a legit cool service, that converts html into markdown
 
-[Original thought](https://changelog.com/friends/40)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

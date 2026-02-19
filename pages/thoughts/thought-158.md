@@ -1,15 +1,20 @@
 ---
 title: '💭 kv - Command | Vault | HashiCorp Developer'
 date: 2023-11-05T03:26:51
-templateKey: link
+template: link
 link: https://developer.hashicorp.com/vault/docs/commands/kv
 tags:
   - cli
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> hashi vault lets you manage secrets right from your cli.
+![[https://developer.hashicorp.com/vault/docs/commands/kv]]
+
+hashi vault lets you manage secrets right from your cli.
 
 ``` bash
 # set your vault url
@@ -87,4 +92,7 @@ vault kv get secret/creds
 
 ```
 
-[Original thought](https://developer.hashicorp.com/vault/docs/commands/kv)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

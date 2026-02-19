@@ -1,16 +1,21 @@
 ---
 title: '💭 fastapi decorators'
 date: 2024-03-26T13:50:46
-templateKey: link
+template: link
 link: None
 tags:
   - webdev
   - fastapi
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> I've been using these decorators to modify the behavior of specific routes.  It will do things like 404 admin only routes in a way that looks just like fastapi's default, or only allow certain roles into the route, or redirect unauthenticated users to login.
+![[None]]
+
+I've been using these decorators to modify the behavior of specific routes.  It will do things like 404 admin only routes in a way that looks just like fastapi's default, or only allow certain roles into the route, or redirect unauthenticated users to login.
 
 After listening to yesterday's syntaxfm I'm now really thinking about middleware and the benefits it might have.  middleware would make it easy to apply things like admin to an entire admin router, so you wont forget it on any one admin route.  It will look cleaner as the admin checker is only applied once per router, not once per route.
 
@@ -168,4 +173,7 @@ def defaults(data=default_data):
     return inner_wrapper
 ```
 
-[Original thought](None)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

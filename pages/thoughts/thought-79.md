@@ -1,15 +1,20 @@
 ---
 title: '💭 How do I post form data using Curl?'
 date: 2023-08-10T20:19:05
-templateKey: link
+template: link
 link: https://reqbin.com/req/c-sma2qrvp/curl-post-form-example
 tags:
   - 
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> How to pass form data with curl, give it the d.
+![[https://reqbin.com/req/c-sma2qrvp/curl-post-form-example]]
+
+How to pass form data with curl, give it the d.
 
 ``` bash
 curl -X POST https://reqbin.com/echo/post/form
@@ -17,4 +22,7 @@ curl -X POST https://reqbin.com/echo/post/form
    -d "param1=value1&param2=value2" 
 ```
 
-[Original thought](https://reqbin.com/req/c-sma2qrvp/curl-post-form-example)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

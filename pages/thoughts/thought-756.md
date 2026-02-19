@@ -1,16 +1,21 @@
 ---
 title: '💭 2025-07-10 Notes'
 date: 2025-07-18T15:26:28
-templateKey: link
+template: link
 link: https://pype.dev/2025-07-10-notes/
 tags:
   - linux
   - bash
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> big fan of eza and dust, I like these aliases to have some common commands at my fingertips.  I often use the tree command and yes it sometimes goes too deep to actually be useful.
+![[https://pype.dev/2025-07-10-notes/]]
+
+big fan of eza and dust, I like these aliases to have some common commands at my fingertips.  I often use the tree command and yes it sometimes goes too deep to actually be useful.
 
 ``` bash
     alias lt='eza -T --level=2'             # Tree view, 2 levels deep
@@ -20,4 +25,7 @@ published: true
     alias du2='dust -d 2'                   # Show 2 levels deep
 ```
 
-[Original thought](https://pype.dev/2025-07-10-notes/)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

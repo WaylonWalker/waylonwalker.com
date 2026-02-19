@@ -1,16 +1,21 @@
 ---
 title: '💭 Change Autocomplete Styles in WebKit Browsers | CSS-Tricks - C...'
 date: 2023-10-10T01:48:04
-templateKey: link
+template: link
 link: https://css-tricks.com/snippets/css/change-autocomplete-styles-webkit-browsers/
 tags:
   - webdev
   - css
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> All the hover, select, autofil, focus combinations have left me confused on how to consistently get my form elements styled in dark mode
+![[https://css-tricks.com/snippets/css/change-autocomplete-styles-webkit-browsers/]]
+
+All the hover, select, autofil, focus combinations have left me confused on how to consistently get my form elements styled in dark mode
 
 This snippet from CSS tricks has fixed all the different states for me to give me full control.
 ```
@@ -31,4 +36,7 @@ select:-webkit-autofill:focus {
 }
 ```
 
-[Original thought](https://css-tricks.com/snippets/css/change-autocomplete-styles-webkit-browsers/)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

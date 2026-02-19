@@ -1,15 +1,20 @@
 ---
 title: '💭 Ellie Huxtable: "Atuin v18.4 is out now! Including `atuin wrap...'
 date: 2024-12-28T06:29:12
-templateKey: link
+template: link
 link: https://bsky.app/profile/ellie.wtf/post/3lecj36r5ps2x
 tags:
   - cli
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Atuin v18.4 is out with an atuin wrapped command.
+![[https://bsky.app/profile/ellie.wtf/post/3lecj36r5ps2x]]
+
+Atuin v18.4 is out with an atuin wrapped command.
 
 
 Here's Ellie's Wrapped.
@@ -24,4 +29,7 @@ Comparing to Ellie, I'm surprised that I even have 126 package related commands,
 
 I'd venture to guess that nvim would be higher if it didn't auto start on every tmux session as well.
 
-[Original thought](https://bsky.app/profile/ellie.wtf/post/3lecj36r5ps2x)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

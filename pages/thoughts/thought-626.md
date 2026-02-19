@@ -1,15 +1,20 @@
 ---
 title: '💭 “I’d rather read the prompt” – Chris Coyier'
 date: 2025-05-09T13:09:30
-templateKey: link
+template: link
 link: https://chriscoyier.net/2025/05/08/id-rather-read-the-prompt/
 tags:
   - 
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> I'll triple down on the link-blog chain here, see this one going around all over this week and finally had time to read through when it hit my rss reader via Chris.
+![[https://chriscoyier.net/2025/05/08/id-rather-read-the-prompt/]]
+
+I'll triple down on the link-blog chain here, see this one going around all over this week and finally had time to read through when it hit my rss reader via Chris.
 
 >  It should come as no surprise that nearly every vibe-coded app on the Internet struggles with security issues; look no further than the vibe-coded recipe app that leaks its OpenAI keys. Every time one generates code by prompt, they create a new stillborn program; vibe coding is the art of stitching together their corpses into Frankenstein’s monster.
 
@@ -21,4 +26,7 @@ Damn, that is a strong statement, stitching together the corpses, strong stateme
 
 llms are not capable of being creative, they are word calculators, statistical models that predict the next likely word based on their experience, they are not capable of new discoveries.
 
-[Original thought](https://chriscoyier.net/2025/05/08/id-rather-read-the-prompt/)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

@@ -1,17 +1,22 @@
 ---
 title: '💭 How to run pods as systemd services with Podman | Enable Sysadmin'
 date: 2023-09-22T01:12:19
-templateKey: link
+template: link
 link: https://www.redhat.com/en/blog/podman-run-pods-systemd-services
 tags:
   - linux
   - podman
   - container
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> podman comes with a nice command for generating systemd service files (units).
+![[https://www.redhat.com/en/blog/podman-run-pods-systemd-services]]
+
+podman comes with a nice command for generating systemd service files (units).
 
 ``` bash
 $ podman pod create --name=my-pod
@@ -31,4 +36,7 @@ $ podman generate systemd --new --files --name my-pod
 /home/vrothberg/.config/systemd/user/container-container-a.service
 ```
 
-[Original thought](https://www.redhat.com/en/blog/podman-run-pods-systemd-services)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

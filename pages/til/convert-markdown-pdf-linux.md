@@ -1,6 +1,5 @@
 ---
 date: 2022-01-12 03:25:36.794864
-author: Waylon S. Walker
 templateKey: til
 title: Converting markdown to pdf with pandoc on linux
 tags:

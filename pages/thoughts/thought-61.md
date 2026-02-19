@@ -1,18 +1,23 @@
 ---
 title: '💭 s3-tree · PyPI'
 date: 2023-07-30T14:37:06
-templateKey: link
+template: link
 link: https://pypi.org/project/s3-tree/
 tags:
   - python
   - cloud
   - data
   - s3
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Super useful way to show a tree view of  an s3 bucket's structure!
+![[https://pypi.org/project/s3-tree/]]
+
+Super useful way to show a tree view of  an s3 bucket's structure!
 
 ``` python
 pip install s3-tree
@@ -23,4 +28,7 @@ pip install s3-tree
 s3-tree bucketname
 ```
 
-[Original thought](https://pypi.org/project/s3-tree/)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

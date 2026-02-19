@@ -1,16 +1,21 @@
 ---
 title: '💭 fastapi https url_for'
 date: 2024-03-24T18:15:48
-templateKey: link
+template: link
 link: None
 tags:
   - fastapi
   - webdev
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> 
+![[None]]
+
+
 jinja's `url_for` in fastapi does not account for https by default, there is
 probably a better way, but this is a way that allows me to configure when I use
 http vs https.
@@ -41,4 +46,7 @@ def get_templates(config: BaseSettings) -> Jinja2Templates:
 ```
 
 
-[Original thought](None)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

@@ -1,17 +1,22 @@
 ---
 title: '💭 Python API - DuckDB'
 date: 2023-07-28T14:59:37
-templateKey: link
+template: link
 link: https://duckdb.org/docs/api/python/overview.html
 tags:
   - python
   - data
   - duckdb
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> To persist data in duckdb you need to first make a connection to a duck db database.
+![[https://duckdb.org/docs/api/python/overview.html]]
+
+To persist data in duckdb you need to first make a connection to a duck db database.
 
 ``` python
 con = duckdb.connect('file.db')
@@ -29,4 +34,7 @@ con.table('test').show()
 con.close()
 ```
 
-[Original thought](https://duckdb.org/docs/api/python/overview.html)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

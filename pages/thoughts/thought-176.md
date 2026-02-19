@@ -1,16 +1,21 @@
 ---
 title: '💭 Protect API docs behind authentication? · Issue #364 · tiangol...'
 date: 2023-12-12T01:27:04
-templateKey: link
+template: link
 link: https://github.com/tiangolo/fastapi/issues/364
 tags:
   - webdev
   - fastapi
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> You can protect your fastapi docs behind auth so that not only can certain roles not run certain routes, but they cannot even see the docs at all.  This way no one that shouldn't be poking around can even discover routes they shouldn't be using.
+![[https://github.com/tiangolo/fastapi/issues/364]]
+
+You can protect your fastapi docs behind auth so that not only can certain roles not run certain routes, but they cannot even see the docs at all.  This way no one that shouldn't be poking around can even discover routes they shouldn't be using.
 
 
 Here is the soluteion provided by [@kennylajara](https://github.com/kennylajara)
@@ -64,4 +69,7 @@ async def openapi(username: str = Depends(get_current_username)):
     return get_openapi(title=app.title, version=app.version, routes=app.routes
 ```
 
-[Original thought](https://github.com/tiangolo/fastapi/issues/364)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

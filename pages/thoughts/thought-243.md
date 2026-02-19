@@ -1,16 +1,21 @@
 ---
 title: '💭 Arch Linux - News: The xz package has been backdoored'
 date: 2024-04-16T13:00:33
-templateKey: link
+template: link
 link: https://archlinux.org/news/the-xz-package-has-been-backdoored/
 tags:
   - linux
   - arch
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Check your system to see if you are vulnerable to the xz backdoor.
+![[https://archlinux.org/news/the-xz-package-has-been-backdoored/]]
+
+Check your system to see if you are vulnerable to the xz backdoor.
 
 I found this line most pertanent to me.
 
@@ -20,4 +25,7 @@ Also it appears that arch is not vulnerable as it does not directly link openssh
 
 
 
-[Original thought](https://archlinux.org/news/the-xz-package-has-been-backdoored/)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

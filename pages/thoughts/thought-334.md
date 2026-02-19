@@ -1,15 +1,20 @@
 ---
 title: '💭 Email Address Obfuscation · Cloudflare Web Application Firewal...'
 date: 2024-07-04T15:18:11
-templateKey: link
+template: link
 link: https://developers.cloudflare.com/waf/tools/scrape-shield/email-address-obfuscation/
 tags:
   - blogging
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> I recently started seeing email-decode.min.js show up on my blog posts, and I wondered what the heck ?  I didn't put it there.  Turns out that cloudflare put it there from pages to safely serve email addresses for me.
+![[https://developers.cloudflare.com/waf/tools/scrape-shield/email-address-obfuscation/]]
+
+I recently started seeing email-decode.min.js show up on my blog posts, and I wondered what the heck ?  I didn't put it there.  Turns out that cloudflare put it there from pages to safely serve email addresses for me.
 
 inspecting the page without js running we can see that the mailto email is swapped out for _email protected_.  Neat feature.
 
@@ -21,4 +26,7 @@ inspecting the page without js running we can see that the mailto email is swapp
 
 Looking deeper into this article it looks like this feature comes from Scrape Shield and enabling Email Address Obfuscation.
 
-[Original thought](https://developers.cloudflare.com/waf/tools/scrape-shield/email-address-obfuscation/)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

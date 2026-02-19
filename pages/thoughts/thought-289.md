@@ -1,15 +1,20 @@
 ---
 title: '💭 Be Fast | Jake Worth'
 date: 2024-06-01T00:38:15
-templateKey: link
+template: link
 link: https://www.jakeworth.com/posts/be-fast/
 tags:
   - catalyst
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Be Fast, Practice, Hone your craft.  There's a lot to be said here about honing your craft for editing text, picking up a few extra WPM, learning vim shortcuts.
+![[https://www.jakeworth.com/posts/be-fast/]]
+
+Be Fast, Practice, Hone your craft.  There's a lot to be said here about honing your craft for editing text, picking up a few extra WPM, learning vim shortcuts.
 
 Also just build shit.  The more you build new and different things the more not only your text editing will just roll out, your skills to see patterns in code and architecture will flourish.
 
@@ -17,4 +22,7 @@ Also just build shit.  The more you build new and different things the more not 
 
 This! is actually what turned me on to Post Malone.  I remember hearing his story in how he was just known as the guy with a guitar because he was always playing it between class and everything.
 
-[Original thought](https://www.jakeworth.com/posts/be-fast/)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

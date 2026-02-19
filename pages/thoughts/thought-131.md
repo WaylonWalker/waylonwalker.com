@@ -1,17 +1,22 @@
 ---
 title: '💭 Overflow - Tailwind CSS'
 date: 2023-10-11T19:16:21
-templateKey: link
+template: link
 link: https://tailwindcss.com/docs/overflow
 tags:
   - webdev
   - css
   - tailwind
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Controlling overflow with tailwindcss
+![[https://tailwindcss.com/docs/overflow]]
+
+Controlling overflow with tailwindcss
 
 ## Examples
 
@@ -21,4 +26,7 @@ published: true
 <div class="overflow-hidden ..."></div>
 ```
 
-[Original thought](https://tailwindcss.com/docs/overflow)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts
