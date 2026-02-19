@@ -1,17 +1,22 @@
 ---
 title: '💭 Column INSERT/UPDATE Defaults — SQLAlchemy 1.4 Documentation'
 date: 2023-07-28T14:59:37
-templateKey: link
+template: link
 link: https://docs.sqlalchemy.org/en/14/core/defaults.html#server-invoked-ddl-explicit-default-expressions
 tags:
   - python
   - sql
   - sqlalchemy
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> sqlalchemy server_defaults end up as defaults in the database when new values are inserted.
+![[https://docs.sqlalchemy.org/en/14/core/defaults.html#server-invoked-ddl-explicit-default-expressions]]
+
+sqlalchemy server_defaults end up as defaults in the database when new values are inserted.
 
 ``` python
 t = Table(
@@ -32,4 +37,7 @@ CREATE TABLE test (
 )
 ```
 
-[Original thought](https://docs.sqlalchemy.org/en/14/core/defaults.html#server-invoked-ddl-explicit-default-expressions)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

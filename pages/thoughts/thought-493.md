@@ -1,15 +1,20 @@
 ---
 title: '💭 We need to have a talk... - YouTube'
 date: 2025-01-02T03:04:14
-templateKey: link
+template: link
 link: https://www.youtube.com/watch?v=_VQl_HTk9PM&t=2607s
 tags:
   - webdev
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Theo does a fantastic history of serverless here.
+![[https://www.youtube.com/watch?v=_VQl_HTk9PM&t=2607s]]
+
+Theo does a fantastic history of serverless here.
 
 ## Kubernetes shit
 
@@ -47,4 +52,7 @@ In my python backends I often have deploy environments, but since they don't sca
 
 I would argue that this is hardly useful, because you can checkout any old version and run it locally, and you rarely are going to need to poke through these old branch deploys.  But in that case that you need to quickly do this serverless is definitely superior.
 
-[Original thought](https://www.youtube.com/watch?v=_VQl_HTk9PM&t=2607s)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

@@ -1,16 +1,21 @@
 ---
 title: '💭 inline-snapshot'
 date: 2024-04-17T18:37:15
-templateKey: link
+template: link
 link: https://15r10nk.github.io/inline-snapshot/
 tags:
   - python
   - testing
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> This is a cool snapshot testing tool that automatically creates, and updates test values for you.
+![[https://15r10nk.github.io/inline-snapshot/]]
+
+This is a cool snapshot testing tool that automatically creates, and updates test values for you.
 
 Starting with some test code.
 
@@ -40,4 +45,7 @@ def test_something():
     assert something() == snapshot(28620972)
 ```
 
-[Original thought](https://15r10nk.github.io/inline-snapshot/)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

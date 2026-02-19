@@ -1,16 +1,21 @@
 ---
 title: '💭 Adam Wathan on X: "Hear me out. https://t.co/QHkEI6SJYZ" / X'
 date: 2023-12-13T01:22:17
-templateKey: link
+template: link
 link: https://twitter.com/adamwathan/status/1734696245015494711
 tags:
   - webdev
   - css
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
->  I'm going to give this trick a shot on my sites, and see how I like it.
+![[https://twitter.com/adamwathan/status/1734696245015494711]]
+
+ I'm going to give this trick a shot on my sites, and see how I like it.
 
 ``` css
 * {
@@ -28,4 +33,7 @@ Oh and [@ryanflorence](https://twitter.com/ryanflorence) also says in the commen
 > I ... do this.
 
 
-[Original thought](https://twitter.com/adamwathan/status/1734696245015494711)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

@@ -1,17 +1,22 @@
 ---
 title: '💭 Creating k8s jobs with python'
 date: 2023-10-28T00:52:24
-templateKey: link
+template: link
 link: https://thoughts.waylonwalker.com/post-og/152
 tags:
   - homelab
   - k3s
   - containers
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> I was looking to add running kubernetes jobs to a python cli I am creating, and I found this solution, mostly thanks to `ollama run mistral:7b-instruct-q4_K_M ` and my loose understanding of what the yaml syntax is supposed to look like for a kubernetes job.  This will let me create a job in the cluster, choose the image that runs, the command that is called, and how long until the job expires and is cleaned up.  While the job still exists I can go in and look at the logs, but once its ttl has expired they are gone.
+![[https://thoughts.waylonwalker.com/post-og/152]]
+
+I was looking to add running kubernetes jobs to a python cli I am creating, and I found this solution, mostly thanks to `ollama run mistral:7b-instruct-q4_K_M ` and my loose understanding of what the yaml syntax is supposed to look like for a kubernetes job.  This will let me create a job in the cluster, choose the image that runs, the command that is called, and how long until the job expires and is cleaned up.  While the job still exists I can go in and look at the logs, but once its ttl has expired they are gone.
 
 
 ``` python
@@ -51,4 +56,7 @@ job = client.V1Job(
 api_instance.create_namespaced_job(namespace="default", body=job)
 ```
 
-[Original thought](https://thoughts.waylonwalker.com/post-og/152)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

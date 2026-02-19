@@ -1,15 +1,20 @@
 ---
 title: '💭 What''s next? – Will McGugan – Will McGugan''s essays'
 date: 2025-05-10T14:08:45
-templateKey: link
+template: link
 link: https://willmcgugan.github.io/whats-next/
 tags:
   - dev
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> > So it’s back to plan A: taking a year off. I plan on using this time to focus on my health–something I haven’t prioritized while working as a CEO / Founder of a startup.
+![[https://willmcgugan.github.io/whats-next/]]
+
+> So it’s back to plan A: taking a year off. I plan on using this time to focus on my health–something I haven’t prioritized while working as a CEO / Founder of a startup.
 
 Wish you the best Will, you have given us textual and rich, and from what I can tell left it in some great hands.
 
@@ -17,4 +22,7 @@ Wish you the best Will, you have given us textual and rich, and from what I can 
 
 Go get em Will, write to your hearts desire, and resist the urge to make an SSG company this time.
 
-[Original thought](https://willmcgugan.github.io/whats-next/)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

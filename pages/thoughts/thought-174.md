@@ -1,16 +1,21 @@
 ---
 title: '💭 Retrieve an upcoming invoice | Stripe API Reference'
 date: 2023-12-07T14:49:51
-templateKey: link
+template: link
 link: https://stripe.com/docs/api/invoices/upcoming
 tags:
   - webdev
   - stripe
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> You can find your customers next billing date through the stripe api by using `Invoice`. and passing in customer, customer_details, subscription, or schedule.
+![[https://stripe.com/docs/api/invoices/upcoming]]
+
+You can find your customers next billing date through the stripe api by using `Invoice`. and passing in customer, customer_details, subscription, or schedule.
 
 
 ``` python
@@ -29,4 +34,7 @@ currency = invoice.currency
 
 
 
-[Original thought](https://stripe.com/docs/api/invoices/upcoming)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

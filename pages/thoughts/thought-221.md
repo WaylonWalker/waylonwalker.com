@@ -1,15 +1,20 @@
 ---
 title: '💭 learning strawberry'
 date: 2024-03-20T21:43:45
-templateKey: link
+template: link
 link: None
 tags:
   - graphql
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> ``` python
+![[None]]
+
+``` python
 import logging
 from typing import List
 
@@ -148,4 +153,7 @@ app = FastAPI()
 
 ```
 
-[Original thought](None)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

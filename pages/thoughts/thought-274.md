@@ -1,15 +1,20 @@
 ---
 title: '💭 A quote from Tim Paul'
 date: 2024-05-14T02:21:17
-templateKey: link
+template: link
 link: https://simonwillison.net/2024/May/13/tim-paul/
 tags:
   - ai
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Damn this Tim Paul quote finishes hard and such a good point.  None of the stuff around llms just work.  Good ui's,  front end, back end, infrastructure, product.  All these things still need to exist, and in fact for ai to be good we need to still go hard on them otherwise everything will die in a heaping pile of [ai slop](https://simonwillison.net/2024/May/8/slop/)
+![[https://simonwillison.net/2024/May/13/tim-paul/]]
+
+Damn this Tim Paul quote finishes hard and such a good point.  None of the stuff around llms just work.  Good ui's,  front end, back end, infrastructure, product.  All these things still need to exist, and in fact for ai to be good we need to still go hard on them otherwise everything will die in a heaping pile of [ai slop](https://simonwillison.net/2024/May/8/slop/)
 
 > I’m no developer, but I got the AI part working in about an hour.
 >
@@ -21,4 +26,7 @@ published: true
 
 — [Tim Paul](https://www.timpaul.co.uk/posts/using-ai-to-generate-web-forms-from-pdfs/)
 
-[Original thought](https://simonwillison.net/2024/May/13/tim-paul/)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

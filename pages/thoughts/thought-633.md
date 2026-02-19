@@ -1,15 +1,20 @@
 ---
 title: '💭 The future of Textualize - Textual'
 date: 2025-05-10T14:27:58
-templateKey: link
+template: link
 link: https://textual.textualize.io/blog/2025/05/07/the-future-of-textualize/
 tags:
   - 
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> > Ultimately though a business needs a product. Textual has always been a solution in search of a problem. And while there are plenty of problems to which Textual is a fantastic solution, we weren't able to find a shared problem or pain-point to build a viable business around. 
+![[https://textual.textualize.io/blog/2025/05/07/the-future-of-textualize/]]
+
+> Ultimately though a business needs a product. Textual has always been a solution in search of a problem. And while there are plenty of problems to which Textual is a fantastic solution, we weren't able to find a shared problem or pain-point to build a viable business around. 
 
 I can totally see this. Finding a marketable business idea is not easy, working in the developer space where everyone wants to do it themselves is no better.  Textual specifically I could see, I really wanted to build things on it as it came out, I had ideas, it was hard to use at the time and changing, so I took a break, got busy with far too many other things, and really I 'm good with rich most of the time.
 
@@ -22,4 +27,7 @@ Damn, that hit hard, its been an adventure watching textual get built, things li
 
 Thanks for giving us amazing terminal products Will.
 
-[Original thought](https://textual.textualize.io/blog/2025/05/07/the-future-of-textualize/)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

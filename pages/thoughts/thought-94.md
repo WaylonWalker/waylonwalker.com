@@ -1,18 +1,23 @@
 ---
 title: '💭 sqlite_utils Python library - sqlite-utils'
 date: 2023-08-20T14:32:39
-templateKey: link
+template: link
 link: https://sqlite-utils.datasette.io/en/stable/python-api.html#full-text-search
 tags:
   - python
   - sql
   - sqlite
   - fts
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> sqlite-utils is primarily a cli tool for sqlite operations such as enabling full text search, and executing searches, but it also has a nice python api that is exposed and pretty straightforward to use.
+![[https://sqlite-utils.datasette.io/en/stable/python-api.html#full-text-search]]
+
+sqlite-utils is primarily a cli tool for sqlite operations such as enabling full text search, and executing searches, but it also has a nice python api that is exposed and pretty straightforward to use.
 
 ``` python
 from sqlite_utils import Database
@@ -23,4 +28,7 @@ db["post"].search("water")
 
 This returns a generator object that you can iterate over the row objects with.
 
-[Original thought](https://sqlite-utils.datasette.io/en/stable/python-api.html#full-text-search)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

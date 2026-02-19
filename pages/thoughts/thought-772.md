@@ -1,15 +1,20 @@
 ---
 title: '💭 Kubernetes Isn''t for You'
 date: 2025-08-02T14:40:42
-templateKey: link
+template: link
 link: https://sliplane.io/blog/kubernetes-isnt-for-you
 tags:
   - kubernetes
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> This post feels like it was written by someone who has never tried kubernetes, someone who reads twitter, listens to t3.gg and thePrimeagen (who cant even container let alone kubernetes).  If you cant run linux, use bash, build your own docker images, run docker comfortably.  If infra is not your thing kubernetes is probably not for you.
+![[https://sliplane.io/blog/kubernetes-isnt-for-you]]
+
+This post feels like it was written by someone who has never tried kubernetes, someone who reads twitter, listens to t3.gg and thePrimeagen (who cant even container let alone kubernetes).  If you cant run linux, use bash, build your own docker images, run docker comfortably.  If infra is not your thing kubernetes is probably not for you.
 
 > Kubernetes Was Built for Google
 
@@ -35,4 +40,7 @@ I avoided kubernetes for a long time because articles like this told me to and I
 
 Check out [[ just-fucking-use-kubernetes ]] for a satirical opposite take.
 
-[Original thought](https://sliplane.io/blog/kubernetes-isnt-for-you)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

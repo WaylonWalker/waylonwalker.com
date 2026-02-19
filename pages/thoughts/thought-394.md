@@ -1,17 +1,22 @@
 ---
 title: '💭 distrobox/docs/usage/distrobox-assemble.md at main · 89luca89/...'
 date: 2024-09-30T15:49:25
-templateKey: link
+template: link
 link: https://github.com/89luca89/distrobox/blob/main/docs/usage/distrobox-assemble.md
 tags:
   - docker
   - podman
   - distrobox
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> This page is gold.  It lays out all of the distrobox assemble api with some good examples  of how to get access to things like podman and kind from inside of containers.
+![[https://github.com/89luca89/distrobox/blob/main/docs/usage/distrobox-assemble.md]]
+
+This page is gold.  It lays out all of the distrobox assemble api with some good examples  of how to get access to things like podman and kind from inside of containers.
 
 Especially this example.
 
@@ -43,4 +48,7 @@ exported_bins="/usr/bin/htop /usr/bin/git"
 exported_bins_path="~/.local/bin"
 ````
 
-[Original thought](https://github.com/89luca89/distrobox/blob/main/docs/usage/distrobox-assemble.md)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

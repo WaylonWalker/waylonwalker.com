@@ -1,17 +1,22 @@
 ---
 title: '💭 FastHX'
 date: 2024-07-10T12:53:15
-templateKey: link
+template: link
 link: https://volfpeter.github.io/fasthx/
 tags:
   - webdev
   - fastapi
   - htmx
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Very interesting approach to htmx and fast api.  It uses separate decorators for returning template partials and json that can be stacked to include both options on a single route.  The templates are explicitly set in the decorator.  Separate decorators are used for full page and partial pages.  I don't see an example of full and partial pages being combined.  I think the demo app must be behaving in a spa like fashion where it does not get all of the data when it calls index and index will ask for user-list.
+![[https://volfpeter.github.io/fasthx/]]
+
+Very interesting approach to htmx and fast api.  It uses separate decorators for returning template partials and json that can be stacked to include both options on a single route.  The templates are explicitly set in the decorator.  Separate decorators are used for full page and partial pages.  I don't see an example of full and partial pages being combined.  I think the demo app must be behaving in a spa like fashion where it does not get all of the data when it calls index and index will ask for user-list.
 
 Definitely going to keep my eye on this project and ponder on it.
 
@@ -56,4 +61,7 @@ def htmx_only() -> list[User]:
 
 ```
 
-[Original thought](https://volfpeter.github.io/fasthx/)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

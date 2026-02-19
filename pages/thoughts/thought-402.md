@@ -1,15 +1,20 @@
 ---
 title: '💭 configuring pylsp · helix-editor/helix · Discussion #6623'
 date: 2024-10-08T02:23:03
-templateKey: link
+template: link
 link: https://github.com/helix-editor/helix/discussions/6623
 tags:
   - helix
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> How to set your python formatter to black with helix.  The following snippet lays out how to set the helix editor to auto-format on save with the black formatter.
+![[https://github.com/helix-editor/helix/discussions/6623]]
+
+How to set your python formatter to black with helix.  The following snippet lays out how to set the helix editor to auto-format on save with the black formatter.
 
 ``` toml
 [[language]]
@@ -27,4 +32,7 @@ command = "black"
 args = ["--line-length", "88", "--quiet", "-"]
 ```
 
-[Original thought](https://github.com/helix-editor/helix/discussions/6623)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts
