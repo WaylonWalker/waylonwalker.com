@@ -1,16 +1,21 @@
 ---
 title: '💭 Path Operation Advanced Configuration - FastAPI'
 date: 2023-12-12T01:37:35
-templateKey: link
+template: link
 link: https://fastapi.tiangolo.com/advanced/path-operation-advanced-configuration/#exclude-from-openapi
 tags:
   - webdev
   - fastapi
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
->         Excluding routes from fastapi docs, can be done from the route configuration using `include_in_schema`.  This is handy for routes that are not really api based or duplicates.  
+![[https://fastapi.tiangolo.com/advanced/path-operation-advanced-configuration/#exclude-from-openapi]]
+
+        Excluding routes from fastapi docs, can be done from the route configuration using `include_in_schema`.  This is handy for routes that are not really api based or duplicates.  
 
 
 ## From the Docs
@@ -52,4 +57,7 @@ def get_favicon():
 
 ```
 
-[Original thought](https://fastapi.tiangolo.com/advanced/path-operation-advanced-configuration/#exclude-from-openapi)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

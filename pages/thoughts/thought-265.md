@@ -1,15 +1,20 @@
 ---
 title: '💭 Alir3z4/html2text: Convert HTML to Markdown-formatted text.'
 date: 2024-05-01T17:50:26
-templateKey: link
+template: link
 link: https://github.com/Alir3z4/html2text
 tags:
   - 
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Super neat tool to convert html to markdown
+![[https://github.com/Alir3z4/html2text]]
+
+Super neat tool to convert html to markdown
 
 ``` python
 >>> import html2text
@@ -29,4 +34,7 @@ md = Markdown(html2text.html2text("<p><strong>Zed's</strong> dead baby, <em>Zed'
 console.print(md)
 ``` 
 
-[Original thought](https://github.com/Alir3z4/html2text)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

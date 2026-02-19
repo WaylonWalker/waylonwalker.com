@@ -1,15 +1,20 @@
 ---
 title: '💭 Switching Configs in Neovim • Michael Uloth'
 date: 2024-08-21T12:57:56
-templateKey: link
+template: link
 link: https://michaeluloth.com/neovim-switch-configs/
 tags:
   - nvim
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Switching between nvim configs can be really easy to do since they implemented the `NVIM_APPNAME` Environment Variable.
+![[https://michaeluloth.com/neovim-switch-configs/]]
+
+Switching between nvim configs can be really easy to do since they implemented the `NVIM_APPNAME` Environment Variable.
 
 ``` bash
 NVIM_APPNAME=nvim-lazyvim nvim
@@ -29,4 +34,7 @@ alias vl='NVIM_APPNAME=nvim-lunarvim nvim' # LunarVim
 ````
 
 
-[Original thought](https://michaeluloth.com/neovim-switch-configs/)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

@@ -1,15 +1,20 @@
 ---
 title: '💭 The weirdest controller I''ve ever used'
 date: 2025-01-04T17:07:40
-templateKey: link
+template: link
 link: https://www.youtube.com/watch?v=OrucAJknMys
 tags:
   - game
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Gyroscope better than a mouse??  Nerd nest really sells how having two gyros in the way they have done for noise cancelling changes the game on it, and makes it a contender to replace a mouse.
+![[https://www.youtube.com/watch?v=OrucAJknMys]]
+
+Gyroscope better than a mouse??  Nerd nest really sells how having two gyros in the way they have done for noise cancelling changes the game on it, and makes it a contender to replace a mouse.
 
 It really makes me want to try it.  I love how repairable this controller looks.  I've got to imagine that the fact that it comes as a kit, and all the parts are available that this hits S tier repairability.  My current controller of choice is a PS5 and I've had stick issues I wish I could fix.
 
@@ -19,4 +24,7 @@ micro usb, seriously, that kinda kills it for me too.
 
 **edit** I looked on their website and they have usb c in the latest version
 
-[Original thought](https://www.youtube.com/watch?v=OrucAJknMys)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

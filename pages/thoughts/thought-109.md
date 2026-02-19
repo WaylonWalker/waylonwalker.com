@@ -1,16 +1,21 @@
 ---
 title: '💭 aca/emmet-ls: Emmet support based on LSP.'
 date: 2023-09-08T12:34:38
-templateKey: link
+template: link
 link: https://github.com/aca/emmet-ls
 tags:
   - webdev
   - nvim
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> This is the greatest nvim emmet plugin I have tried.  In the past I had tried the vim plugin a few times and just could not get a good flow with the keybindings and found it confusing for my occasional use.  `emmet-ls` just uses lsp-completion, so its the same flow as other completions.
+![[https://github.com/aca/emmet-ls]]
+
+This is the greatest nvim emmet plugin I have tried.  In the past I had tried the vim plugin a few times and just could not get a good flow with the keybindings and found it confusing for my occasional use.  `emmet-ls` just uses lsp-completion, so its the same flow as other completions.
 
 You can try it out by installing with `:Mason`
 
@@ -37,4 +42,7 @@ lspconfig.emmet_ls.setup({
 })
 ```
 
-[Original thought](https://github.com/aca/emmet-ls)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

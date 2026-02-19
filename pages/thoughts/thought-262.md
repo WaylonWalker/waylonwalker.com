@@ -1,16 +1,24 @@
 ---
 title: '💭 Media Types'
 date: 2024-04-30T18:15:43
-templateKey: link
+template: link
 link: https://www.iana.org/assignments/media-types/media-types.xhtml#text
 tags:
   - webdev
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> A full list of standard `Accept` types.
+![[https://www.iana.org/assignments/media-types/media-types.xhtml#text]]
+
+A full list of standard `Accept` types.
 
 This is a handy reference.
 
-[Original thought](https://www.iana.org/assignments/media-types/media-types.xhtml#text)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

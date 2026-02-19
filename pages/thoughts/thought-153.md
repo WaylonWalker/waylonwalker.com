@@ -1,16 +1,21 @@
 ---
 title: '💭 </> htmx ~ Locality of Behaviour (LoB)'
 date: 2023-10-28T01:11:56
-templateKey: link
+template: link
 link: https://htmx.org/essays/locality-of-behaviour/
 tags:
   - htmx
   - webdev
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Interesting principle here.  What a great example, If I'm looking at the second jQuery example, I have to dig into dev tools or make some assumtions that this team uses jQuery, and selects by id, therefore I can grep for `$("#d1")`.
+![[https://htmx.org/essays/locality-of-behaviour/]]
+
+Interesting principle here.  What a great example, If I'm looking at the second jQuery example, I have to dig into dev tools or make some assumtions that this team uses jQuery, and selects by id, therefore I can grep for `$("#d1")`.
 
 > Consider two different implementations of an AJAX request in HTML, the first in htmx:
 ``` heml
@@ -30,4 +35,7 @@ published: true
 <button id="d1">Click Me</button>
 ```
 
-[Original thought](https://htmx.org/essays/locality-of-behaviour/)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

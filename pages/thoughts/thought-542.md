@@ -1,16 +1,21 @@
 ---
 title: '💭 Models - Pydantic'
 date: 2025-01-28T17:27:20
-templateKey: link
+template: link
 link: https://docs.pydantic.dev/latest/concepts/models/#rebuilding-model-schema
 tags:
   - python
   - pydantic
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> I came accross from_attributes today it allows creation of pydantic models from objects such as a sqlalchemy  `Base` Model or while nesting pydantic models.  I believe in the past I have ran into some inconsistencies with nesting pydantic models and I'll bet one had from_attributes set and another did not.
+![[https://docs.pydantic.dev/latest/concepts/models/#rebuilding-model-schema]]
+
+I came accross from_attributes today it allows creation of pydantic models from objects such as a sqlalchemy  `Base` Model or while nesting pydantic models.  I believe in the past I have ran into some inconsistencies with nesting pydantic models and I'll bet one had from_attributes set and another did not.
 
 > Arbitrary class instances¶
 > _(Formerly known as "ORM Mode"/from_orm)._
@@ -21,4 +26,7 @@ published: true
 >
 > The example here uses SQLAlchemy, but the same approach should work for any ORM.
 
-[Original thought](https://docs.pydantic.dev/latest/concepts/models/#rebuilding-model-schema)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

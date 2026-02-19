@@ -1,17 +1,22 @@
 ---
 title: '💭 SQLite FTS5 Extension'
 date: 2023-08-21T13:33:24
-templateKey: link
+template: link
 link: https://www.sqlite.org/fts5.html
 tags:
   - sqlite
   - data
   - database
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> sqlite has 3 different tokenizers, `porter, ascii, trigram`.  
+![[https://www.sqlite.org/fts5.html]]
+
+sqlite has 3 different tokenizers, `porter, ascii, trigram`.  
 
 These can be used with sqlite-utils.
 
@@ -32,4 +37,7 @@ posts = list(db["post"].search(search))
 
 
 
-[Original thought](https://www.sqlite.org/fts5.html)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

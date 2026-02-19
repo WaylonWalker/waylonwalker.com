@@ -5,7 +5,6 @@ tags:
 title: How I deploy my blog in 2022
 date: 2021-10-29
 published: false
-author: '@_waylonwalker'
 jinja: false
 
 ---

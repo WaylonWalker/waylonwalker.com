@@ -1,17 +1,22 @@
 ---
 title: '💭 How to group FastAPI endpoints in Swagger UI?'
 date: 2023-12-15T15:30:37
-templateKey: link
+template: link
 link: https://stackoverflow.com/questions/63762387/how-to-group-fastapi-endpoints-in-swagger-ui#answer-63762765
 tags:
   - python
   - fastapi
   - webdev
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
->         Setting tags in your fastapi endpoints will group them in the docs.  You can also set some metadata around the tags to get nice descriptions.
+![[https://stackoverflow.com/questions/63762387/how-to-group-fastapi-endpoints-in-swagger-ui#answer-63762765]]
+
+        Setting tags in your fastapi endpoints will group them in the docs.  You can also set some metadata around the tags to get nice descriptions.
 
 Here is a full example from the post.
 
@@ -36,4 +41,7 @@ async def handle_items():
     return
 ```
 
-[Original thought](https://stackoverflow.com/questions/63762387/how-to-group-fastapi-endpoints-in-swagger-ui#answer-63762765)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

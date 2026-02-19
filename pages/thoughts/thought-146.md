@@ -1,17 +1,22 @@
 ---
 title: '💭 Translate a Docker Compose File to Kubernetes Resources | Kube...'
 date: 2023-10-22T02:04:18
-templateKey: link
+template: link
 link: https://kubernetes.io/docs/tasks/configure-pod-container/translate-compose-kubernetes/
 tags:
   - homelab
   - k3s
   - containers
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> `kompose` is a sick cli to convert docker-compose.yml to kubernetes manifest.
+![[https://kubernetes.io/docs/tasks/configure-pod-container/translate-compose-kubernetes/]]
+
+`kompose` is a sick cli to convert docker-compose.yml to kubernetes manifest.
 
 ``` bash
 # install
@@ -23,4 +28,7 @@ kompose convert -o deployment.yaml
 ```
 
 
-[Original thought](https://kubernetes.io/docs/tasks/configure-pod-container/translate-compose-kubernetes/)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

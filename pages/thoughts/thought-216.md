@@ -1,16 +1,21 @@
 ---
 title: '💭 Configure Liveness, Readiness and Startup Probes | Kubernetes'
 date: 2024-03-15T14:38:02
-templateKey: link
+template: link
 link: https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/
 tags:
   - k8s
   - kubernetes
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> What is the difference between health, liveness, readiness, and startup?  This article does a great job at a full writeup description of how it works in kubernetes, here is my TLDR.
+![[https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/]]
+
+What is the difference between health, liveness, readiness, and startup?  This article does a great job at a full writeup description of how it works in kubernetes, here is my TLDR.
 
 
 
@@ -29,4 +34,7 @@ Why the z?
 
 z is a convention that comes from google for meta endpoints to reduce conflict with actual endpoints, and can be deployed to any application.
 
-[Original thought](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

@@ -1,15 +1,20 @@
 ---
 title: '💭 python script is not found'
 date: 2023-07-28T14:59:37
-templateKey: link
+template: link
 link: None
 tags:
   - python
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> When setting up a new machine, vm, docker image you might be installing command line tools from places like pip.  They will often put executables in your `~/.local/bin` directory, but by default your shell is not looking in that directory for commands.
+![[None]]
+
+When setting up a new machine, vm, docker image you might be installing command line tools from places like pip.  They will often put executables in your `~/.local/bin` directory, but by default your shell is not looking in that directory for commands.
 
 ``` bash
   WARNING: The script dotenv is installed in '/home/falcon/.local/bin' which is not on PATH.
@@ -25,4 +30,7 @@ export PATH=$PATH:~/.local/bin
 
 To make this change permanant add this line to your shell's init script, which is likely something like `~/.bashrc` or `~/.zshrc`.
 
-[Original thought](None)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

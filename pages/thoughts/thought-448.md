@@ -1,17 +1,22 @@
 ---
 title: '💭 How to make your RSS feed pretty'
 date: 2024-12-18T00:38:24
-templateKey: link
+template: link
 link: https://cassidoo.co/post/prettify-rss/
 tags:
   - blog
   - rss
   - feed
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> I love me some styled rss, it's how the OG internet was made to be.  You choose what you want to read and when.  There is no middleman aggregator inflating the reach of things they want you to see or suffocating things against them.  It's just you and your internet friends.
+![[https://cassidoo.co/post/prettify-rss/]]
+
+I love me some styled rss, it's how the OG internet was made to be.  You choose what you want to read and when.  There is no middleman aggregator inflating the reach of things they want you to see or suffocating things against them.  It's just you and your internet friends.
 
 
 ## [Cassidy's Styled rss](https://cassidoo.co/rss.xml)
@@ -36,4 +41,7 @@ My feed comes from my static site generator [markata](markata.dev), a plugins al
 
 ![image](https://dropper.wayl.one/api/file/214bd66f-88e1-4907-8e47-51d22b376678.webp)
 
-[Original thought](https://cassidoo.co/post/prettify-rss/)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

@@ -1,15 +1,20 @@
 ---
 title: '💭 Joining the split keyboards club: a Moonlander story'
 date: 2024-03-20T00:17:59
-templateKey: link
+template: link
 link: https://carlosbecker.com/posts/split-keyboard-moonlander/
 tags:
   - 
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> I switched from a 60% vortex pok3r to a 40% corne June, 2021.  I can relate to a lot of what Carlos talks about here.  I think going from 60%-40% made my journey harder than it needed to be.  There's no going back now, but it took me a **really** long time to be able to hit all of the numbers and symbols, just figuring out how to do the layout was hard there's not much space.
+![[https://carlosbecker.com/posts/split-keyboard-moonlander/]]
+
+I switched from a 60% vortex pok3r to a 40% corne June, 2021.  I can relate to a lot of what Carlos talks about here.  I think going from 60%-40% made my journey harder than it needed to be.  There's no going back now, but it took me a **really** long time to be able to hit all of the numbers and symbols, just figuring out how to do the layout was hard there's not much space.
 
 > I didn’t touch type. I never really used my pinkies, except maybe for ESC, Shift, CTRL, Backspace et al.
 
@@ -29,4 +34,7 @@ Damn thats good.
 
 Yes, normal keebs feel awkward and like your fingers are all twisted up.
 
-[Original thought](https://carlosbecker.com/posts/split-keyboard-moonlander/)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts
