@@ -1,15 +1,20 @@
 ---
 title: '💭 How an empty S3 bucket can make your AWS bill explode | by Mac...'
 date: 2024-05-01T02:31:56
-templateKey: link
+template: link
 link: https://medium.com/@maciej.pocwierz/how-an-empty-s3-bucket-can-make-your-aws-bill-explode-934a383cb8b1
 tags:
   - aws
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Imagine waking up to a $1,300 for running an example project!  That sounds like peanuts for a cloud bill but for an individual trying to learn that hits my monthly budget real hard.
+![[https://medium.com/@maciej.pocwierz/how-an-empty-s3-bucket-can-make-your-aws-bill-explode-934a383cb8b1]]
+
+Imagine waking up to a $1,300 for running an example project!  That sounds like peanuts for a cloud bill but for an individual trying to learn that hits my monthly budget real hard.
 
 That's what happened to Marciej, make sure you check out the full article and give them a 👏 on Medium if you have an account.
 
@@ -33,4 +38,7 @@ After contacting them he was able to get it cancelled, but this is no guarantee.
 
 2024 is wild on the cloud hosting front, own your shit or be careful.
 
-[Original thought](https://medium.com/@maciej.pocwierz/how-an-empty-s3-bucket-can-make-your-aws-bill-explode-934a383cb8b1)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

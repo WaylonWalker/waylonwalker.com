@@ -1,17 +1,22 @@
 ---
 title: '💭 Center things - Textual'
 date: 2023-07-30T16:31:55
-templateKey: link
+template: link
 link: https://textual.textualize.io/how-to/center-things/
 tags:
   - python
   - textual
   - tui
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> How to center things in textual. Textual has a very unique way of styling text user interfaces for the terminal using css.  If you know css it feels natural.
+![[https://textual.textualize.io/how-to/center-things/]]
+
+How to center things in textual. Textual has a very unique way of styling text user interfaces for the terminal using css.  If you know css it feels natural.
 
 @willmcgugan, has put together a great article on how to center things in textual
 
@@ -52,4 +57,7 @@ if __name__ == "__main__":
     app.run()
 ```
 
-[Original thought](https://textual.textualize.io/how-to/center-things/)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

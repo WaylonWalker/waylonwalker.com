@@ -1,15 +1,20 @@
 ---
 title: '💭 statically makes OG images **easy**'
 date: 2024-11-17T21:48:04
-templateKey: link
+template: link
 link: https://cdn.statically.io/og/statically%20makes%20OG%20images%20**easy**
 tags:
   - blog
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Staically makes creating OG images so easy, you can just pop this in your <head> section with some og tags.
+![[https://cdn.statically.io/og/statically%20makes%20OG%20images%20**easy**]]
+
+Staically makes creating OG images so easy, you can just pop this in your <head> section with some og tags.
 
 ``` html
     <meta name="og:image" name="og:image"
@@ -21,4 +26,7 @@ published: true
 ```
 
 
-[Original thought](https://cdn.statically.io/og/statically%20makes%20OG%20images%20**easy**)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

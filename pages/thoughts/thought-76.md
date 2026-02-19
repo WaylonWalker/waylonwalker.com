@@ -1,17 +1,22 @@
 ---
 title: '💭 Create Models with a Many-to-Many Link - SQLModel'
 date: 2023-08-09T13:37:15
-templateKey: link
+template: link
 link: https://sqlmodel.tiangolo.com/tutorial/many-to-many/create-models-with-link/
 tags:
   - python
   - api
   - fastapi
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Creating many to many relationships with sqlmodel requires a LinkTable Model.  The link model will keep track of the linked id's between each of the models.
+![[https://sqlmodel.tiangolo.com/tutorial/many-to-many/create-models-with-link/]]
+
+Creating many to many relationships with sqlmodel requires a LinkTable Model.  The link model will keep track of the linked id's between each of the models.
 
 <img src="https://sqlmodel.tiangolo.com/img/tutorial/many-to-many/many-to-many.svg" alt="many-to-many relationship model" style="
     width: 100%;
@@ -49,4 +54,7 @@ class Hero(SQLModel, table=True):
     teams: List[Team] = Relationship(back_populates="heroes", link_model=HeroTeamLink)
 ```
 
-[Original thought](https://sqlmodel.tiangolo.com/tutorial/many-to-many/create-models-with-link/)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

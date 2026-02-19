@@ -1,17 +1,22 @@
 ---
 title: '💭 logs with FastAPI and Uvicorn · Issue #1508 · tiangolo/fastapi'
 date: 2023-12-15T22:04:42
-templateKey: link
+template: link
 link: https://github.com/tiangolo/fastapi/issues/1508
 tags:
   - python
   - fastapi
   - webdev
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Setting an additional log handler to the uvicorn logger for access logs in fastapi was not straightforward, but This post was very helpful.
+![[https://github.com/tiangolo/fastapi/issues/1508]]
+
+Setting an additional log handler to the uvicorn logger for access logs in fastapi was not straightforward, but This post was very helpful.
 
 
 ```
@@ -23,4 +28,7 @@ async def startup_event():
     logger.addHandler(handler)
 ```
 
-[Original thought](https://github.com/tiangolo/fastapi/issues/1508)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

@@ -1,7 +1,7 @@
 ---
 title: '💭 python - How to use a Pydantic model with Form data in FastAPI...'
 date: 2023-08-08T13:46:19
-templateKey: link
+template: link
 link: https://stackoverflow.com/questions/60127234/how-to-use-a-pydantic-model-with-form-data-in-fastapi
 tags:
   - python
@@ -9,11 +9,16 @@ tags:
   - htmx
   - pydantic
   - webdev
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> I went down the route of leveraging the `json-enc` extention in htmx, but later realized that this completely breaks browsers/users who do not wish to use javascript.  While most of the web would feel quite broken with javascript disabled, I don't want to contribute to that without good reason. 
+![[https://stackoverflow.com/questions/60127234/how-to-use-a-pydantic-model-with-form-data-in-fastapi]]
+
+I went down the route of leveraging the `json-enc` extention in htmx, but later realized that this completely breaks browsers/users who do not wish to use javascript.  While most of the web would feel quite broken with javascript disabled, I don't want to contribute to that without good reason. 
 
 Taking a second look into this issue, rather than using `json-enc`, and using as_form to get form data into a model keeps the nice DX fo everything being a pydantic model, but the site still works without js.  with js htmx kicks in, you get a spa like experience by loading partials onto the page, and without, you just get a full page reload.
 
@@ -74,4 +79,7 @@ async def me(request: Request, form: Test = Depends(Test.as_form)):
 ```
 
 
-[Original thought](https://stackoverflow.com/questions/60127234/how-to-use-a-pydantic-model-with-form-data-in-fastapi)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

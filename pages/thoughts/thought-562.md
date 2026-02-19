@@ -1,15 +1,20 @@
 ---
 title: '💭 valkey · PyPI'
 date: 2025-02-17T02:22:12
-templateKey: link
+template: link
 link: https://pypi.org/project/valkey/
 tags:
   - python
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> python bindings for valkey, forked from redis.
+![[https://pypi.org/project/valkey/]]
+
+python bindings for valkey, forked from redis.
 
 one notable difference I see from redis is that you can install with libvalkey to autmatically get faster parsing support.
 
@@ -19,4 +24,7 @@ one notable difference I see from redis is that you can install with libvalkey t
 pip install "valkey[libvalkey]"
 ```
 
-[Original thought](https://pypi.org/project/valkey/)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

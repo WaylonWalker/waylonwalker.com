@@ -1,17 +1,22 @@
 ---
 title: '💭 Debugging | pywebview'
 date: 2023-08-05T18:04:04
-templateKey: link
+template: link
 link: https://pywebview.flowrl.com/guide/debugging.html
 tags:
   - python
   - webdev
   - desktop
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> How to enable debug mode in pywebview.
+![[https://pywebview.flowrl.com/guide/debugging.html]]
+
+How to enable debug mode in pywebview.
 
 
 ``` python
@@ -21,4 +26,7 @@ webview.create_window('Woah dude!', 'https://pywebview.flowrl.com/hello')
 webview.start(debug=True)
 ```
 
-[Original thought](https://pywebview.flowrl.com/guide/debugging.html)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

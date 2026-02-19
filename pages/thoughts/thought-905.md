@@ -1,16 +1,21 @@
 ---
 title: '💭 Oxide and Friends 1/5/2026 -- Predictions 2026!! - YouTube'
 date: 2026-01-09T21:41:43
-templateKey: link
+template: link
 link: https://www.youtube.com/clip/UgkxKSVMasWf0UpGaRVRqeBmn9C5Oh1syH2Q
 tags:
   - llm
   - ai
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> I thought this was an interesting take from Simon.  I've been hearing him consistently say there will be more demand for software engineering in the future.  More companies will have the ability and need to deal with software applications, but fewer of us will be hand editing any code.  I thought this was an interesting interaction in the clip.
+![[https://www.youtube.com/clip/UgkxKSVMasWf0UpGaRVRqeBmn9C5Oh1syH2Q]]
+
+I thought this was an interesting take from Simon.  I've been hearing him consistently say there will be more demand for software engineering in the future.  More companies will have the ability and need to deal with software applications, but fewer of us will be hand editing any code.  I thought this was an interesting interaction in the clip.
 
 > Uh Simon, what do you got for us? 
 
@@ -78,4 +83,7 @@ own codegen and like
 > claude is happy to pull out GDB and just like
 
 
-[Original thought](https://www.youtube.com/clip/UgkxKSVMasWf0UpGaRVRqeBmn9C5Oh1syH2Q)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

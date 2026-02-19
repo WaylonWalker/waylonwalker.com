@@ -1,15 +1,20 @@
 ---
 title: '💭 PEP 735 – Dependency Groups in pyproject.toml | peps.python.org'
 date: 2025-10-01T16:25:57
-templateKey: link
+template: link
 link: https://peps.python.org/pep-0735/
 tags:
   - python
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> PEP 735 describes dependency groups as sets of optional dependencies that are not shipped with the package but intended for development purposes.
+![[https://peps.python.org/pep-0735/]]
+
+PEP 735 describes dependency groups as sets of optional dependencies that are not shipped with the package but intended for development purposes.
 
 The PEP includes an example for groups that include test, docs, typing, and a combo typing-test.
 
@@ -42,4 +47,7 @@ The docs describe extras as being intended to ship with the application and depe
 >
 > Users are advised to avoid creating Dependency Groups whose names match extras. Tools MAY treat such matching as an error.
 
-[Original thought](https://peps.python.org/pep-0735/)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

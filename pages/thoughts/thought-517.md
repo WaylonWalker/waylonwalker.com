@@ -1,17 +1,22 @@
 ---
 title: '💭 cyclotruc/gitingest: Replace ''hub'' with ''ingest'' in any github...'
 date: 2025-01-09T13:46:33
-templateKey: link
+template: link
 link: https://github.com/cyclotruc/gitingest
 tags:
   - ai
   - llm
   - python
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Gitingest has a python package on pypi that you can run with uvx, and it accepts the same arguments as the web version, right in your terminal
+![[https://github.com/cyclotruc/gitingest]]
+
+Gitingest has a python package on pypi that you can run with uvx, and it accepts the same arguments as the web version, right in your terminal
 
 
 ``` bash
@@ -29,4 +34,7 @@ Options:
   --help                      Show this message and exit.
 ```
 
-[Original thought](https://github.com/cyclotruc/gitingest)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts
