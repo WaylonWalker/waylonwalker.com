@@ -1,15 +1,20 @@
 ---
 title: '💭 Developer Productivity, v2 with ThePrimeagen | Preview - YouTube'
 date: 2025-02-08T15:29:52
-templateKey: link
+template: link
 link: https://www.youtube.com/watch?v=03KsS09YS4E
 tags:
   - dev
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Big fan of Primes setup.  I was not far off of his setup before he really came on the scene, but I've picked up a ton of nuggets from him and how he operates.  I took his first developer productivity course on Front End Masters as it came out.  
+![[https://www.youtube.com/watch?v=03KsS09YS4E]]
+
+Big fan of Primes setup.  I was not far off of his setup before he really came on the scene, but I've picked up a ton of nuggets from him and how he operates.  I took his first developer productivity course on Front End Masters as it came out.  
 
 It is interesting to see him roll back his ansible scripts for bash scripts here.  I converted my setup to ansible after watching his first, but have also since rolled back to bash scripts for quite similar reasons.  Ansible is great for remote tasks that need to be done on a fleet of machines, but like he says here overkill for this purpose and ends up something that you need to read the docs for every change to your dotfiles.
 
@@ -21,4 +26,7 @@ I've also really started to lean on kubernetes, it is so useful to just be able 
 
 
 
-[Original thought](https://www.youtube.com/watch?v=03KsS09YS4E)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

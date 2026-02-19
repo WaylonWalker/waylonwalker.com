@@ -1,16 +1,21 @@
 ---
 title: '💭 </> htmx ~ The client-side-templates Extension'
 date: 2023-07-28T14:59:37
-templateKey: link
+template: link
 link: https://htmx.org/extensions/client-side-templates/
 tags:
   - htmx
   - webdev
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Using templates with htmx requires the client-side-templates extension, and the template engine to be loaded in a `<script>` tag.
+![[https://htmx.org/extensions/client-side-templates/]]
+
+Using templates with htmx requires the client-side-templates extension, and the template engine to be loaded in a `<script>` tag.
 
 example htmx using templates.
 
@@ -43,4 +48,7 @@ example htmx using templates.
 </html>
 ```
 
-[Original thought](https://htmx.org/extensions/client-side-templates/)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

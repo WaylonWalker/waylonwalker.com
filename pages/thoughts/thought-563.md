@@ -1,15 +1,20 @@
 ---
 title: '💭 valkey-io/valkey: A flexible distributed key-value datastore t...'
 date: 2025-02-17T02:27:34
-templateKey: link
+template: link
 link: https://github.com/valkey-io/valkey
 tags:
   - dev
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> valkey appears to be the largest open source fork of redis that was forked just before their transition to the new source available licenses.
+![[https://github.com/valkey-io/valkey]]
+
+valkey appears to be the largest open source fork of redis that was forked just before their transition to the new source available licenses.
 
 One notable thing missing from the readme is how to run with docker, which I saw in the valkey-py docs.
 
@@ -26,4 +31,7 @@ pip install "valkey[libvalkey]"
 ```
 
 
-[Original thought](https://github.com/valkey-io/valkey)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

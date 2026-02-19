@@ -1,15 +1,20 @@
 ---
 title: '💭 Read a Range of Data - LIMIT and OFFSET - SQLModel'
 date: 2023-08-01T00:10:15
-templateKey: link
+template: link
 link: https://sqlmodel.tiangolo.com/tutorial/limit-and-offset/?h=#combine-limit-and-offset-with-where
 tags:
   - python
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Implement paging in sqlmodel with where, limit, and offset.
+![[https://sqlmodel.tiangolo.com/tutorial/limit-and-offset/?h=#combine-limit-and-offset-with-where]]
+
+Implement paging in sqlmodel with where, limit, and offset.
 
 ``` python
 def select_heroes():
@@ -20,4 +25,7 @@ def select_heroes():
         print(heroes)
 ```
 
-[Original thought](https://sqlmodel.tiangolo.com/tutorial/limit-and-offset/?h=#combine-limit-and-offset-with-where)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

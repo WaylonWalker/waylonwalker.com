@@ -1,17 +1,22 @@
 ---
 title: '💭 searching my thoughts locally'
 date: 2024-03-07T23:42:00
-templateKey: link
+template: link
 link: None
 tags:
   - sqlite
   - data
   - blog
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> First I need to fetch my thoughts from the api, and put it in a local sqlite database using `sqlite-utils`.
+![[None]]
+
+First I need to fetch my thoughts from the api, and put it in a local sqlite database using `sqlite-utils`.
 
 ``` bash
 fthoughts () {
@@ -41,4 +46,7 @@ Now I am ready to search my thoughts, which is a tiny blog format that I created
 </a>
 
 
-[Original thought](None)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

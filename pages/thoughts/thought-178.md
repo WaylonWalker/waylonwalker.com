@@ -1,15 +1,20 @@
 ---
 title: '💭 Why YOU should write a blog'
 date: 2023-12-13T01:08:51
-templateKey: link
+template: link
 link: https://tushar.lol/post/write-a-blog/
 tags:
   - blogging
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Nice message by [@tusharsadhwani](https://twitter.com/sadhlife).
+![[https://tushar.lol/post/write-a-blog/]]
+
+Nice message by [@tusharsadhwani](https://twitter.com/sadhlife).
 
 > Write it down.
 
@@ -39,4 +44,7 @@ This post itself is a thought, the smallest component to my blogging strategy.
 
 > Write it down.
 
-[Original thought](https://tushar.lol/post/write-a-blog/)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

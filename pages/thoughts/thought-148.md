@@ -1,16 +1,21 @@
 ---
 title: '💭 mkimuram/k8sviz: Generate Kubernetes architecture diagrams fro...'
 date: 2023-10-22T21:07:26
-templateKey: link
+template: link
 link: https://github.com/mkimuram/k8sviz
 tags:
   - homelab
   - k8s
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> This is a sick kubernetes architecture diagran generation tool.
+![[https://github.com/mkimuram/k8sviz]]
+
+This is a sick kubernetes architecture diagran generation tool.
 
 Here is an example
 
@@ -30,4 +35,7 @@ $ chmod u+x k8sviz.sh
 ```
 
 
-[Original thought](https://github.com/mkimuram/k8sviz)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

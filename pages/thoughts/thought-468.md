@@ -1,17 +1,22 @@
 ---
 title: '💭 4 Tips for Building a Production-Ready FastAPI Backend - YouTube'
 date: 2024-12-26T02:42:17
-templateKey: link
+template: link
 link: https://www.youtube.com/watch?v=XlnmN4BfCxw
 tags:
   - python
   - fastapi
   - webdev
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Great list of 4 tips for running fastapi applications.  
+![[https://www.youtube.com/watch?v=XlnmN4BfCxw]]
+
+Great list of 4 tips for running fastapi applications.  
 
 ## Keep routes small
 
@@ -24,4 +29,7 @@ I really like this advice!  He reccommends deploying as early as you can get a h
 https://youtu.be/XlnmN4BfCxw?si=ks1wvmgDyoQLgrv2&t=1093
 
 
-[Original thought](https://www.youtube.com/watch?v=XlnmN4BfCxw)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

@@ -1,16 +1,21 @@
 ---
 title: '💭 </> htmx ~ The response-targets Extension'
 date: 2024-04-30T18:00:54
-templateKey: link
+template: link
 link: https://htmx.org/extensions/response-targets/
 tags:
   - htmx
   - webdev
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> The htmx response-targets extension allows me to respond to errors from the backend and do normal htmx swaps.
+![[https://htmx.org/extensions/response-targets/]]
+
+The htmx response-targets extension allows me to respond to errors from the backend and do normal htmx swaps.
 
 > !!! note
     by default htmx will only swap on 200 and 300 responses
@@ -38,4 +43,7 @@ Use  the extension on an endpoint that might return a 400.
 </div>
 ```
 
-[Original thought](https://htmx.org/extensions/response-targets/)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

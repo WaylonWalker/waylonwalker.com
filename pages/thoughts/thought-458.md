@@ -1,16 +1,21 @@
 ---
 title: '💭 Lazy self-installing Python scripts with uv'
 date: 2024-12-24T03:20:33
-templateKey: link
+template: link
 link: https://treyhunner.com/2024/12/lazy-self-installing-python-scripts-with-uv/
 tags:
   - python
   - uv
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> I really like Trey's steps to making an executable python script with uv
+![[https://treyhunner.com/2024/12/lazy-self-installing-python-scripts-with-uv/]]
+
+I really like Trey's steps to making an executable python script with uv
 
 his old process seems to be the same with a new shebang
 
@@ -32,4 +37,7 @@ And here is the new format the the shebang followed by the metadata comment bloc
 ```
 
 
-[Original thought](https://treyhunner.com/2024/12/lazy-self-installing-python-scripts-with-uv/)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

@@ -1,16 +1,21 @@
 ---
 title: '💭 Inspect a Kubernetes PersistentVolumeClaim | Frank Sauerburger'
 date: 2023-10-21T01:34:08
-templateKey: link
+template: link
 link: https://frank.sauerburger.io/2021/12/01/inspect-k8s-pvc.html
 tags:
   - homelab
   - k3s
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> I was curious to see what was going on inside of my minio object storage. Great technique here by Frank to create an inspector pod, then you can do as you wish with the data.
+![[https://frank.sauerburger.io/2021/12/01/inspect-k8s-pvc.html]]
+
+I was curious to see what was going on inside of my minio object storage. Great technique here by Frank to create an inspector pod, then you can do as you wish with the data.
 
 I created the manifest as `pvc-inspector.yml`
 
@@ -47,4 +52,7 @@ ls /pvc
 kubectl delete -f pvc-inspector.yml
 ```
 
-[Original thought](https://frank.sauerburger.io/2021/12/01/inspect-k8s-pvc.html)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

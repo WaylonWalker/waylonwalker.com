@@ -1,16 +1,21 @@
 ---
 title: '💭 The One Eyed Fighting Kirby'
 date: 2024-01-26T17:21:06
-templateKey: link
+template: link
 link: https://www.youtube.com/watch?v=9_Ekt1PZBzQ&t=351s
 tags:
   - vim
   - regex
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
->  I've heard prime say just give it the one eyed fighting kirby so many times, and execute it few times, and there is no way to find it online, so this will be the link that I will come to, when I need to remember what @theprimeagen means when he says Give it the one eyed fighting kirby.
+![[https://www.youtube.com/watch?v=9_Ekt1PZBzQ&t=351s]]
+
+ I've heard prime say just give it the one eyed fighting kirby so many times, and execute it few times, and there is no way to find it online, so this will be the link that I will come to, when I need to remember what @theprimeagen means when he says Give it the one eyed fighting kirby.
 
 ``` vim
 :s/\(.*\);/console.log(\1)
@@ -64,4 +69,7 @@ So, in summary, this command searches for the pattern "here", followed by any se
 
 I used this techniq on [[ refactoring-into-wikilinks ]].
 
-[Original thought](https://www.youtube.com/watch?v=9_Ekt1PZBzQ&t=351s)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

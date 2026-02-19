@@ -1,16 +1,21 @@
 ---
 title: '💭 Kubernetes Secrets in 5 Minutes! - YouTube'
 date: 2023-10-30T16:47:19
-templateKey: link
+template: link
 link: https://www.youtube.com/watch?v=cQAEK9PBY8U&t=186
 tags:
   - infra
   - k8s
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> I am converting my docker compose env secrets over to k8s secrets.  This guide was clear and to the point how I can replicate this exact workflow.
+![[https://www.youtube.com/watch?v=cQAEK9PBY8U&t=186]]
+
+I am converting my docker compose env secrets over to k8s secrets.  This guide was clear and to the point how I can replicate this exact workflow.
 
 First set the secret, the easiest way is to use kubectl wtih --from-literal because it automatically base64 encodes for you.
 
@@ -49,4 +54,7 @@ Once you have your secret deployed, you have to update the container spec in you
       restartPolicy: Always
 ```
 
-[Original thought](https://www.youtube.com/watch?v=cQAEK9PBY8U&t=186)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

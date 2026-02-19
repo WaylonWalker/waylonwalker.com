@@ -1,17 +1,22 @@
 ---
 title: '💭 python - SQLAlchemy ORDER BY DESCENDING? - Stack Overflow'
 date: 2023-07-29T22:30:25
-templateKey: link
+template: link
 link: https://stackoverflow.com/questions/4186062/sqlalchemy-order-by-descending
 tags:
   - python
   - sql
   - sqlalchemy
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> How to sort results from a sqlalchemy based orm.
+![[https://stackoverflow.com/questions/4186062/sqlalchemy-order-by-descending]]
+
+How to sort results from a sqlalchemy based orm.
 
 ``` python
 .order_by(model.Entry.amount.desc())
@@ -83,4 +88,7 @@ async def get_posts(
 
 ```
 
-[Original thought](https://stackoverflow.com/questions/4186062/sqlalchemy-order-by-descending)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

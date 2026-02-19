@@ -1,15 +1,20 @@
 ---
 title: '💭 Haiden Deegan IN for Motocross of Nations?! | The Blair Matthe...'
 date: 2025-09-26T12:36:26
-templateKey: link
+template: link
 link: https://www.youtube.com/watch?v=kZvk4dUyWVs
 tags:
   - moto
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> I can't believe this thing is so devicive.  I kinda can't belive that I sit on the same side as Mathes and his always against the grain, non corporate influenced response.  So many others have praised Haiden for bringing back the real gladiator bloodsport that SX is, is it that though??  It's a race to the finish.  different than a lot of other racing its very unpredictable takeout moves happen, occasionally as an accident, often taking both riders down at the same time.  
+![[https://www.youtube.com/watch?v=kZvk4dUyWVs]]
+
+I can't believe this thing is so devicive.  I kinda can't belive that I sit on the same side as Mathes and his always against the grain, non corporate influenced response.  So many others have praised Haiden for bringing back the real gladiator bloodsport that SX is, is it that though??  It's a race to the finish.  different than a lot of other racing its very unpredictable takeout moves happen, occasionally as an accident, often taking both riders down at the same time.  
 
 Also different than MANY sports we have a huge industry of weekend warriors, Some of which make it into the night show of the biggest race on TV.  You see we only bring 20 riders from each class, the top half to top quarter are "Factory" riders, the rest are privateers, sometimes these privateers are completely their on their own.  
 
@@ -21,4 +26,7 @@ What's different here from last weekend (someone could really write a book on th
 
 This seems to be celebrated by half the industry, but dude you had already lost going into this night this aint cool, you lost this one put on a face let Joe have his moment, make your statement by going one one and crushing these dudes by 30 seconds metaphorically, not literally crushing them.
 
-[Original thought](https://www.youtube.com/watch?v=kZvk4dUyWVs)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

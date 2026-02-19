@@ -1,16 +1,21 @@
 ---
 title: '💭 Use an llm to automagically generate meaningful git commit mes...'
 date: 2024-04-11T13:35:50
-templateKey: link
+template: link
 link: https://harper.blog/2024/03/11/use-an-llm-to-automagically-generate-meaningful-git-commit-messages/
 tags:
   - llm
   - ai
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> This is pretty sick, I wanted this early on when I was making lockhart.  I wanted to do the git hook thing but could not figure it out and did not know that `prepare-commit-msg` was a hook that I could use.
+![[https://harper.blog/2024/03/11/use-an-llm-to-automagically-generate-meaningful-git-commit-messages/]]
+
+This is pretty sick, I wanted this early on when I was making lockhart.  I wanted to do the git hook thing but could not figure it out and did not know that `prepare-commit-msg` was a hook that I could use.
 
 > Git Hooked
 > Then I remembered! Git hooks! Lol. Why would I have that in my brain - who knows!
@@ -32,4 +37,7 @@ gpt = "!f() { git diff $1 | llm -s \"$(cat ~/.config/prompts/commit-system-promp
 I completely relate to this statement, and this is why I am trying it.
 
 
-[Original thought](https://harper.blog/2024/03/11/use-an-llm-to-automagically-generate-meaningful-git-commit-messages/)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

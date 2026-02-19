@@ -1,17 +1,22 @@
 ---
 title: '💭 How I use Obsidian Templater'
 date: 2024-12-22T17:12:50
-templateKey: link
+template: link
 link: https://thoughts.waylonwalker.com/post/455
 tags:
   - meta
   - thoughts
   - shots
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Ok, second post on this one.  I am sending only head requests, so I want to see the first request for the image, which happens in the chrome extension after pressing submit.  It will not yet come from cloudflare so I am interested in what it looks like just streaming out of object sorage.  This time I have the inspector open on the tab.
+![[https://thoughts.waylonwalker.com/post/455]]
+
+Ok, second post on this one.  I am sending only head requests, so I want to see the first request for the image, which happens in the chrome extension after pressing submit.  It will not yet come from cloudflare so I am interested in what it looks like just streaming out of object sorage.  This time I have the inspector open on the tab.
 
 ---
 
@@ -37,4 +42,7 @@ And the total request time goes from 351ms to 21ms with the Cloudflare CDN, quit
 
 Sorry with how meta these last two posts were, I needed a second post to get that fresh request graph from.
 
-[Original thought](https://thoughts.waylonwalker.com/post/455)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

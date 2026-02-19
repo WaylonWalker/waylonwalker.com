@@ -1,16 +1,21 @@
 ---
 title: '💭 casey/just: 🤖 Just a command runner'
 date: 2023-10-22T02:09:57
-templateKey: link
+template: link
 link: https://github.com/casey/just
 tags:
   - cli
   - dev
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> I think just, might just be the thing I have been looking for.  I've been looking for some ci/cd that I can host myself, but everything looks pretty big, so for now I am going to use just as my task runner.
+![[https://github.com/casey/just]]
+
+I think just, might just be the thing I have been looking for.  I've been looking for some ci/cd that I can host myself, but everything looks pretty big, so for now I am going to use just as my task runner.
 
 
 I installed with installer.
@@ -43,4 +48,7 @@ deploy-slim:
     podman push registry.wayl.one/devtainer:slim
 ```
 
-[Original thought](https://github.com/casey/just)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

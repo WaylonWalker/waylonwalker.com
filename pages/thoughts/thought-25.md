@@ -1,16 +1,21 @@
 ---
 title: '💭 encodeURIComponent() - JavaScript | MDN'
 date: 2023-07-28T14:59:37
-templateKey: link
+template: link
 link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent
 tags:
   - javascript
   - webdev
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> In order to send data that includes special characters such as `/` in a url you need to url encode it.  You have probably seen these many times in urls with things like %20 for spaces.
+![[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent]]
+
+In order to send data that includes special characters such as `/` in a url you need to url encode it.  You have probably seen these many times in urls with things like %20 for spaces.
 
 I'm working on a chrome extension to make quick blog posts, like thoughts or a persistent bookmark tool with comments.  The backend is written in fastapi and when I check to see if I have a post for a page I need to url encode it.
 
@@ -47,4 +52,7 @@ chrome.tabs.onActivated.addListener(function (activeInfo) {
 ```
 
 
-[Original thought](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

@@ -1,16 +1,21 @@
 ---
 title: '💭 Background Tasks - FastAPI'
 date: 2024-07-03T16:17:45
-templateKey: link
+template: link
 link: https://fastapi.tiangolo.com/tutorial/background-tasks/
 tags:
   - fastapi
   - webdev
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> fastapi comes with a concept of background tasks which are functions that can be ran in the background after a function has been ran.  This is handy for longer running functions that may take some time and you want to have fast response times.
+![[https://fastapi.tiangolo.com/tutorial/background-tasks/]]
+
+fastapi comes with a concept of background tasks which are functions that can be ran in the background after a function has been ran.  This is handy for longer running functions that may take some time and you want to have fast response times.
 
 Here is an example from the docs
 
@@ -32,4 +37,7 @@ async def send_notification(email: str, background_tasks: BackgroundTasks):
     return {"message": "Notification sent in the background"}
 ```
 
-[Original thought](https://fastapi.tiangolo.com/tutorial/background-tasks/)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

@@ -1,15 +1,20 @@
 ---
 title: '💭 My Keyboard Has Sublayers… and It’s Insane - YouTube'
 date: 2025-05-29T13:04:50
-templateKey: link
+template: link
 link: https://www.youtube.com/watch?v=wz5eOowV9iw
 tags:
   - keeb
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> linkarzu has a way to navigate his entire mac using a hyper key.  Everything looks so tight and polished, also a lot to remember!  Lucky he has a system of mnemonics that make it easy to remember.  His setup is very Mac focused using mac only apps, so this would not work for me, though I'm sure I could get something similar on linux.  He did mention Kanata which is cross platform.
+![[https://www.youtube.com/watch?v=wz5eOowV9iw]]
+
+linkarzu has a way to navigate his entire mac using a hyper key.  Everything looks so tight and polished, also a lot to remember!  Lucky he has a system of mnemonics that make it easy to remember.  His setup is very Mac focused using mac only apps, so this would not work for me, though I'm sure I could get something similar on linux.  He did mention Kanata which is cross platform.
 
 ## What I do
 
@@ -21,4 +26,7 @@ I do like his layered approach.  I run a 42 key keyboard so things can get a bit
 
 
 
-[Original thought](https://www.youtube.com/watch?v=wz5eOowV9iw)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

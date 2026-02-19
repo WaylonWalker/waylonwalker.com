@@ -1,15 +1,20 @@
 ---
 title: '💭 python-build-standalone/.github/workflows/release.yml at main ...'
 date: 2025-02-17T23:21:05
-templateKey: link
+template: link
 link: https://github.com/astral-sh/python-build-standalone/blob/main/.github/workflows/release.yml
 tags:
   - just
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Astral uses just in CI, kinda cool to stumble into this setup in the wild.
+![[https://github.com/astral-sh/python-build-standalone/blob/main/.github/workflows/release.yml]]
+
+Astral uses just in CI, kinda cool to stumble into this setup in the wild.
 
 ``` bash
 run: just release-run ${{ secrets.GITHUB_TOKEN }} ${{ github.event.inputs.sha }} ${{ github.event.inputs.tag }}
@@ -28,4 +33,7 @@ release-run token commit tag:
   just release-set-latest-release {{tag}}
 ```
 
-[Original thought](https://github.com/astral-sh/python-build-standalone/blob/main/.github/workflows/release.yml)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

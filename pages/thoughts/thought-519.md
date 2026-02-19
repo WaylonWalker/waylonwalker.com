@@ -1,17 +1,22 @@
 ---
 title: '💭 awesome-cursorrules/rules/py-fast-api/.cursorrules at main · P...'
 date: 2025-01-09T14:03:12
-templateKey: link
+template: link
 link: https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules/py-fast-api/.cursorrules
 tags:
   - llm
   - ai
   - agentic
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Looks like a great start to a rules file for fastapi.
+![[https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules/py-fast-api/.cursorrules]]
+
+Looks like a great start to a rules file for fastapi.
 
 > - Place the happy path last in the function for improved readability.
 
@@ -19,4 +24,7 @@ I have never heard anyone say this.  It feels weird to me.  The other early retu
 
 
 
-[Original thought](https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules/py-fast-api/.cursorrules)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

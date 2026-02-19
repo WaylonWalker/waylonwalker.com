@@ -1,16 +1,21 @@
 ---
 title: '💭 Handling Errors - FastAPI'
 date: 2023-12-17T03:47:43
-templateKey: link
+template: link
 link: https://fastapi.tiangolo.com/tutorial/handling-errors/
 tags:
   - webdev
   - fastapi
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> This page shows how to customize your fastapi errors.  I found this very useful to setup common templates so that I can return the same 404's both programatically and by default, so it all looks the same to the end user.
+![[https://fastapi.tiangolo.com/tutorial/handling-errors/]]
+
+This page shows how to customize your fastapi errors.  I found this very useful to setup common templates so that I can return the same 404's both programatically and by default, so it all looks the same to the end user.
 
 
 ``` python
@@ -41,4 +46,7 @@ async def read_unicorn(name: str):
     return {"unicorn_name": name}
 ```
 
-[Original thought](https://fastapi.tiangolo.com/tutorial/handling-errors/)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

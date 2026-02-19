@@ -1,15 +1,20 @@
 ---
 title: '💭 DHH IS RIGHT ABOUT EVERYTHING (Again)? - YouTube'
 date: 2025-06-07T22:49:47
-templateKey: link
+template: link
 link: https://www.youtube.com/watch?v=EIBxRMH4bvs
 tags:
   - dev
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Should I go to college?  Was my education worth it? Should I keep going.  A question that comes in all too often accross most industries that require some level of education.  DHH has such great takes on it, some I had never fully thought about.  He starts out with should we have people study niche topics (using Russian Poetry as an example).  Yes the world deserves people who can make their life works out of something that brings them and many other so much joy, but no you probably shouldn't go 100k's into debt to do it.  Should I get a software engineering degree, or become a doctor also have similar answers, it needs to be somewhat justified and not outrageous as has become the norm.
+![[https://www.youtube.com/watch?v=EIBxRMH4bvs]]
+
+Should I go to college?  Was my education worth it? Should I keep going.  A question that comes in all too often accross most industries that require some level of education.  DHH has such great takes on it, some I had never fully thought about.  He starts out with should we have people study niche topics (using Russian Poetry as an example).  Yes the world deserves people who can make their life works out of something that brings them and many other so much joy, but no you probably shouldn't go 100k's into debt to do it.  Should I get a software engineering degree, or become a doctor also have similar answers, it needs to be somewhat justified and not outrageous as has become the norm.
 
 We used to listen in to Dave Ramsey on long car rides and he would have people call in and say, they went half a million dollars into debt to become a dentist, only to discover they did not want to do dentistry.  At this point it's too bad, you gotta suck it up and pay that off with something that makes some serious cash, and the only skill you probably got that can bring in that level of cash is ... dentistry.
 
@@ -21,4 +26,7 @@ This all just gets your foot in the door.  If you spent none of that time learni
 
 Student debt is probably one of the biggest issues of our generation that only appears to be getting worse, everything signals your need to go to college, presige is important.  It feels like the other side is filled with glory lots of money and you will have all that debt paid off in no time.  I get it when you're 18 and you see 50k or 100k in student debt, but 80k or 150k salaries on the other side its like damn I make nothing right now I'll have that paid off in no time.  Then you get out and realize everything costs serious money, housing, kids, cars, broken AC units, and you cant pay off 50k in a year and a half making 80k.
 
-[Original thought](https://www.youtube.com/watch?v=EIBxRMH4bvs)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

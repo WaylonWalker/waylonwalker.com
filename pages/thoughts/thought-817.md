@@ -1,15 +1,20 @@
 ---
 title: '💭 This Bothers Me - YouTube'
 date: 2025-08-28T01:55:58
-templateKey: link
+template: link
 link: https://www.youtube.com/watch?v=3NFwQIoLFgE
 tags:
   - gaming
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> I'm playing through peak right now with Wyatt and it is a great game, a small wholesome  indiegame that is legit hard, but fun with the simplest concept.  You are a scout who has crashlanded on an island, your goal is to get to the peak with your friends.  You must manage hunger, stamina, weight, health and energy.  You have limited resources and must help everyone to the top, if someone is low on stamina, they are going to need a helping hand or a stonger climber to go up and set pitons and ropes.  Its a fantastic collaborative play game
+![[https://www.youtube.com/watch?v=3NFwQIoLFgE]]
+
+I'm playing through peak right now with Wyatt and it is a great game, a small wholesome  indiegame that is legit hard, but fun with the simplest concept.  You are a scout who has crashlanded on an island, your goal is to get to the peak with your friends.  You must manage hunger, stamina, weight, health and energy.  You have limited resources and must help everyone to the top, if someone is low on stamina, they are going to need a helping hand or a stonger climber to go up and set pitons and ropes.  Its a fantastic collaborative play game
 
 ![PEAK - 2025-08-27 8-49-54 PM.mp4](https://dropper.wayl.one/api/file/192b267c-f577-4282-9393-1bf74c0b629f.mp4)
 
@@ -21,4 +26,7 @@ It was insta-ripped off by roblox with microtransactions pay to win garbage.  It
 
 ![screenshot-2025-08-28T01-44-40-840Z.png](https://dropper.wayl.one/api/file/bb9c2505-7f67-42f5-8ddd-01b0b2d9d046.png)
 
-[Original thought](https://www.youtube.com/watch?v=3NFwQIoLFgE)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

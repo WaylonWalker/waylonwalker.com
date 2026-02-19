@@ -1,17 +1,22 @@
 ---
 title: '💭 Template Designer Documentation — Jinja Documentation'
 date: 2023-07-28T14:59:37
-templateKey: link
+template: link
 link: https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 tags:
   - python
   - webdev
   - jinja2
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> A feature of jinja that I just discovered is including sub templates. Here is an example from the docs.
+![[https://jinja.palletsprojects.com/en/3.1.x/templates/#include]]
+
+A feature of jinja that I just discovered is including sub templates. Here is an example from the docs.
 
 
 ``` html
@@ -32,4 +37,7 @@ And inside of my thoughts project I used it to render posts.
 
 > note that post_item.html automatically inherits the post variable.
 
-[Original thought](https://jinja.palletsprojects.com/en/3.1.x/templates/#include)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

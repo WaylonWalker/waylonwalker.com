@@ -1,16 +1,21 @@
 ---
 title: '💭 Optimizing SQLite for servers'
 date: 2024-04-01T20:55:23
-templateKey: link
+template: link
 link: https://kerkour.com/sqlite-for-servers
 tags:
   - sql
   - sqlite
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Very interesting article by Sylvain, suggested by Simon Willison.
+![[https://kerkour.com/sqlite-for-servers]]
+
+Very interesting article by Sylvain, suggested by Simon Willison.
 
 Definitely some things that I want to come back and try later on.
 
@@ -35,4 +40,7 @@ I might need to have a table of cached results, and if a write matches the count
 
 > One solution is to use a trigger on INSERT and DELETE that updates a running count in a separate table then query that separate table to find the latest count.
 
-[Original thought](https://kerkour.com/sqlite-for-servers)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

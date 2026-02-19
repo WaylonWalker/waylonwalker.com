@@ -1,14 +1,22 @@
 ---
 title: '💭 I Interviewed Uncle Bob - YouTube'
 date: 2024-05-01T02:34:03
-templateKey: link
+template: link
 link: https://www.youtube.com/watch?v=UBXXw2JSloo
 tags:
   - programming
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Fantastic interview with Uncle Bob, really it was more of a 2 way conversation.  So many of Uncle Bob's takes have been taken out of context, its cool to hear some of the well actuallys, and the experience behind some of the reasoning.
+![[https://www.youtube.com/watch?v=UBXXw2JSloo]]
 
-[Original thought](https://www.youtube.com/watch?v=UBXXw2JSloo)
+Fantastic interview with Uncle Bob, really it was more of a 2 way conversation.  So many of Uncle Bob's takes have been taken out of context, its cool to hear some of the well actuallys, and the experience behind some of the reasoning.
+
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

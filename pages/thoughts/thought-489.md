@@ -1,15 +1,20 @@
 ---
 title: '💭 Wrapping your favorite CLI in neovim - YouTube'
 date: 2024-12-31T21:02:44
-templateKey: link
+template: link
 link: https://www.youtube.com/watch?v=rerTvidyz-0&t=160s
 tags:
   - nvim
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> cool video on expanding vim with cli.
+![[https://www.youtube.com/watch?v=rerTvidyz-0&t=160s]]
+
+cool video on expanding vim with cli.
 
 
 ## piping commands into vim
@@ -21,4 +26,7 @@ published: true
 ![write a healthcheck](https://dropper.wayl.one/api/file/d90a8c88-4748-4dfe-8569-b51c023c825b.webp)
 
 
-[Original thought](https://www.youtube.com/watch?v=rerTvidyz-0&t=160s)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

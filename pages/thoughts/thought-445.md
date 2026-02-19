@@ -1,17 +1,22 @@
 ---
 title: '💭 casey/just: 🤖 Just a command runner'
 date: 2024-12-14T17:04:06
-templateKey: link
+template: link
 link: https://github.com/casey/just?tab=readme-ov-file#constants
 tags:
   - bash
   - linux
   - just
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> new versions of just now come with color variables already set.
+![[https://github.com/casey/just?tab=readme-ov-file#constants]]
+
+new versions of just now come with color variables already set.
 
 ``` bash
 [group('manage')]
@@ -21,4 +26,7 @@ version:
     echo current version {{BOLD}}{{GREEN}}$version{{NORMAL}}
 ```
 
-[Original thought](https://github.com/casey/just?tab=readme-ov-file#constants)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

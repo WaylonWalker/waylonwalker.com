@@ -1,15 +1,20 @@
 ---
 title: '💭 My harpoon config'
 date: 2024-04-16T01:34:38
-templateKey: link
+template: link
 link: None
 tags:
   - vim
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Install it
+![[None]]
+
+Install it
 
 ``` lua
 	{
@@ -75,4 +80,7 @@ end
 return M
 ```
 
-[Original thought](None)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

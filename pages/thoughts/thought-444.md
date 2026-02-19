@@ -1,17 +1,22 @@
 ---
 title: '💭 pipedream/justfile at main · thechangelog/pipedream'
 date: 2024-12-14T16:54:34
-templateKey: link
+template: link
 link: https://github.com/thechangelog/pipedream/blob/main/justfile
 tags:
   - bash
   - linux
   - just
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> I found this nugget in thechangelogs justfile, it lets you add color to your justfile with variables quite easily.
+![[https://github.com/thechangelog/pipedream/blob/main/justfile]]
+
+I found this nugget in thechangelogs justfile, it lets you add color to your justfile with variables quite easily.
 
 ``` bash
 # https://linux.101hacks.com/ps1-examples/prompt-color-using-tput/
@@ -42,4 +47,7 @@ echo:
     echo {{_BOLD}}{{_GREEN}}hello there{{_RESET}}
 ```
 
-[Original thought](https://github.com/thechangelog/pipedream/blob/main/justfile)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

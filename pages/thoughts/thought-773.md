@@ -1,15 +1,20 @@
 ---
 title: '💭 Quoting Meet Gor | Kubernetes isn''t for you'
 date: 2025-08-02T14:44:18
-templateKey: link
+template: link
 link: https://www.meetgor.com/thoughts/kubernetes-isn-t-for-you/
 tags:
   - kuberntes
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> > If you want to use it for the purpose of learning it, please do use it.
+![[https://www.meetgor.com/thoughts/kubernetes-isn-t-for-you/]]
+
+> If you want to use it for the purpose of learning it, please do use it.
 > 
 > Kubernetes as usual is a tool like others, you can't use one tool everywhere. Where bash scripts work, they just work, where they don't they fall apart too, kubernetes works like a charm.
 > 
@@ -17,4 +22,7 @@ published: true
 
 Well Said!
 
-[Original thought](https://www.meetgor.com/thoughts/kubernetes-isn-t-for-you/)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

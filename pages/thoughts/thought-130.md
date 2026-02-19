@@ -1,16 +1,21 @@
 ---
 title: '💭 How To Create a Custom Scrollbar'
 date: 2023-10-11T19:11:49
-templateKey: link
+template: link
 link: https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp
 tags:
   - webdev
   - css
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Default scrollbars on a dark theme website are just the ugliest thing.  This page covers all the pseudo selectors needed to style the scrollbar.
+![[https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp]]
+
+Default scrollbars on a dark theme website are just the ugliest thing.  This page covers all the pseudo selectors needed to style the scrollbar.
 
 ``` css
 /* width */
@@ -34,4 +39,7 @@ published: true
 }
 ```
 
-[Original thought](https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

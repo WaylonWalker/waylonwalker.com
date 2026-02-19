@@ -1,17 +1,22 @@
 ---
 title: '💭 Static Files - FastAPI'
 date: 2023-07-28T14:59:37
-templateKey: link
+template: link
 link: https://fastapi.tiangolo.com/tutorial/static-files/
 tags:
   - python
   - fastapi
   - webdev
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> Mounting static files in fastapi.
+![[https://fastapi.tiangolo.com/tutorial/static-files/]]
+
+Mounting static files in fastapi.
 
 ``` python
 from fastapi import FastAPI
@@ -22,4 +27,7 @@ app = FastAPI()
 app.mount("/static", StaticFiles(directory="static"), name="static")
 ```
 
-[Original thought](https://fastapi.tiangolo.com/tutorial/static-files/)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts

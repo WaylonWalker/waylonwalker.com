@@ -1,15 +1,20 @@
 ---
 title: '💭 My approach to running a link blog'
 date: 2024-12-23T01:47:47
-templateKey: link
+template: link
 link: https://simonwillison.net/2024/Dec/22/link-blog/#atom-everything
 tags:
   - blog
+  - thoughts
+  - thought
+  - link
 published: true
 
 ---
 
-> I still cannot believe I thought I had such a unique idea with thoughts only to find out shortly thereafter that Simon beat me to the punch by about 20 years! 
+![[https://simonwillison.net/2024/Dec/22/link-blog/#atom-everything]]
+
+I still cannot believe I thought I had such a unique idea with thoughts only to find out shortly thereafter that Simon beat me to the punch by about 20 years! 
 
 Simon put a lot of work into this [post](https://simonwillison.net/2024/Dec/22/link-blog/#thoughts.waylonwalker.com) please check it out.  Its not only filled with tons of little nuggets about blogging, it has just a ton of links to other posts I'm itching to read now.
 
@@ -72,4 +77,7 @@ I just noticed that Simon has Series on his blog in a very elegant way.  One I n
 ![image](https://dropper.wayl.one/api/file/ec59349e-cca7-4fa9-a57e-50cc442305db.webp)test
 
 
-[Original thought](https://simonwillison.net/2024/Dec/22/link-blog/#atom-everything)
+!!! note
+
+    This post is a [[ thoughts | thought ]]. It's a short note that I make
+    about someone else's content online #thoughts
