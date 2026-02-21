@@ -59,7 +59,7 @@ venv:
 build-clean:
     #!/usr/bin/env bash
     set -euxo pipefail
-    markata-go build --clean-all
+    markata-go build --clean
 
 # Fast build: only blog posts, no blogroll/reader fetches
 # Uses fast.toml + env var to disable blogroll for maximum speed
@@ -72,13 +72,13 @@ build-fast:
 build-fast-clean:
     #!/usr/bin/env bash
     set -euxo pipefail
-    MARKATA_GO_BLOGROLL_ENABLED=false markata-go build --clean-all -m fast.toml
+    MARKATA_GO_BLOGROLL_ENABLED=false markata-go build --clean-all -m fast.toml --fast
 
 # Fast build with clean cache
 serve-fast:
     #!/usr/bin/env bash
     set -euxo pipefail
-    MARKATA_GO_BLOGROLL_ENABLED=false markata-go serve -m fast.toml --host 0.0.0.0
+    MARKATA_GO_BLOGROLL_ENABLED=false markata-go serve -m fast.toml --host 0.0.0.0 --fast
 
 serve-live:
     #!/usr/bin/env bash
