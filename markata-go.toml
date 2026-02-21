@@ -104,7 +104,7 @@ main {
 """
 
 # Load scripts (snow effect)
-scripts = ["/snow-fall.js"]
+# scripts = ["/snow-fall.js"]
 
 # Repeating W.svg background pattern
 [[markata-go.theme.background.backgrounds]]
