@@ -2,7 +2,7 @@
 date: 2026-02-11T14:00:00
 templateKey: blog-post
 title: /top4
-published: false
+published: true
 tags:
   - slashpages
   - favorites
@@ -12,8 +12,6 @@ authors:
   role: drafter
   details: I drafted the first draft based on site content
 ---
-
-> drafted by kimi
 
 # /top4
 
