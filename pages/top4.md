@@ -6,6 +6,11 @@ published: false
 tags:
   - slashpages
   - favorites
+authors:
+  - waylon
+  id: kimi-k2.5-free
+  role: drafter
+  details: I drafted the first draft based on site content
 ---
 
 > drafted by kimi
@@ -16,60 +21,38 @@ Definitive ranked lists of my top 3 favorites plus an honorable mention.
 
 ## Terminal Tools
 
-1. **neovim** - modal editing changed how I think about text
-1. **tmux** - terminal sessions that survive disconnects and allow me to hop between projects at the speed of thought.
-1. **k9s** - S tier tui interface that all tuis should strive for
+1. **[neovim](https://neovim.io/)** - modal editing changed how I think about text
+1. **[tmux](https://tmux.github.io/)** - terminal sessions that survive disconnects and allow me to hop between projects at the speed of thought.
+1. **[k9s](https://k9scli.io/)** - S tier tui interface that all tuis should strive for
 
-**Honorable mention:** zsh - solid foundation, though I removed oh-my-zsh for speed
+**Honorable mention:** [ipython](https://ipython.org/)
 
 ## Python Tools
 
-1. **ipython** - `%autoreload`, `%debug`, `?` for docs. Interactive computing done right
-2. **pre-commit** - catches issues before they become problems
-3. **pathlib** - cross-platform paths without the headaches
+1. **[pandas](https://pandas.pydata.org/)** - This is what got me out of corporate spreadsheets and back into code/software.
+2. **[kedro](https://kedro.org/)** - data pipelines with opinions I agree with
+3. **[fastapi](https://fastapi.tiangolo.com/)** - my favorite python web framework
 
-**Honorable mention:** kedro - data pipelines with opinions I agree with
-
-## Mechanical Keyboard Switches
-
-1. **Gazzew Boba U4T** - thocky, tactile, just right
-2. **Kailh Box Whites** - clicky without the ping
-3. **Gateron Oil Kings** - smooth linears
-
-**Honorable mention:** Cherry MX Browns - the starter switch that got me into this
+**Honorable mention:** [typer](https://typer.tiangolo.com/) - fast cli apps
 
 ## Games to Play with Kids
 
-1. **Don't Starve Together** - cooperation, resource management, chaos
-2. **Minecraft** - infinite creativity, modding potential
-3. **Stardew Valley** - cozy, collaborative farming
+_multiplayer_
 
-**Honorable mention:** PowerWash Simulator - oddly satisfying, zero stakes
+1. **[Minecraft](https://minecraft.net/)** - infinite creativity, modding potential
+1. **[Wobbly Life](https://store.steampowered.com/app/1211020/Wobbly_Life/)** - Open World Co-op
+1. **[Stardew Valley](https://store.steampowered.com/app/892970/Stardew_Valley/)** - cozy, collaborative farming
 
-## Static Site Features I've Built
+**Honorable mention:** [Terraria](https://store.steampowered.com/app/105600/Terraria/) - 2d world builder
 
-1. **Markata** - my DIY Python static site generator
-2. **Steam achievement pages** - auto-generated from my gaming
-3. **TIL collection** - 300+ tiny learnings
+## Games to Play Alone
 
-**Honorable mention:** Hot tips - concise, code-focused posts
+_singleplayer_
 
-## Ways to Procrastinate Productively
+1. **[Hollow Knight](https://store.steampowered.com/app/367520/Hollow_Knight/)/[Hollow Knight Silksong](https://store.steampowered.com/app/1030300/Hollow_Knight_Silksong/)** - S tier 2d platformer with adventure, mystery, lore, boss fights.
+1. **[Session Skate Sim](https://store.steampowered.com/app/861650/Session_Skate_Sim/)** - The best skate sim
+1. **[Animal Well](https://store.steampowered.com/app/813230/ANIMAL_WELL/)** - epic 2d platformer with the most incredible graphics at 320p ever created and the deepest puzzles Ive seen
 
-1. **3D print keyboard parts** - useful objects from wasted time
-2. **Optimize zsh startup** - shaving milliseconds off shell init
-3. **Refactor old blog posts** - updating links, fixing typos
-
-**Honorable mention:** Organizing Steam library by completion percentage
-
-## Kubernetes Operators I Actually Use
-
-1. **ArgoCD** - gitops that makes sense
-2. **Longhorn** - distributed storage that mostly works
-3. **cert-manager** - TLS certificates without thinking
-
-**Honorable mention:** ExternalDNS - when DNS updates actually happen automatically
-
----
+**Honorable mention:** [Portal](https://store.steampowered.com/app/400/Portal/)
 
 *Inspired by [topfour.net](https://topfour.net) and [slashpages.net](https://slashpages.net)*
