@@ -173,9 +173,15 @@ name = "Waylon Walker"
 email = "hello@waylonwalker.com"
 role = "Author"
 url = "https://waylonwalker.com"
-avatar = '/waylon.webp'
+avatar = 'https://waylonwalker.com/8bitcc.png'
 social = { twitter = "waylonwalker", bluesky = "waylonwalker.com", github = "WaylonWalker" }
 default = true
+[markata-go.authors.authors.kimi-k2-5-free]
+name = "Kimi k2.5 Free"
+role = "Drafter"
+url = "https://www.kimi.com/en"
+avatar = '/kimi-logo-CegIMkbU.png'
+default = false
 
 # Output directory
 output_dir = "output"
