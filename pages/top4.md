@@ -8,12 +8,10 @@ tags:
   - favorites
 authors:
   - waylon
-  id: kimi-k2.5-free
-  role: drafter
-  details: I drafted the first draft based on site content
+  - id: kimi-k2-5-free
+    role: drafter
+    details: I drafted the first draft based on site content
 ---
-
-# /top4
 
 Definitive ranked lists of my top 3 favorites plus an honorable mention.
 

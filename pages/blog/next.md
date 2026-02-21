@@ -6,7 +6,7 @@ published: false
 tags:
   - meta
   - planning
-author: kimi-k2.5-free
+author: kimi-k2-5-free
 ---
 
 A running list of blog post ideas to strengthen underrepresented topics on the
