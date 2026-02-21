@@ -165,6 +165,7 @@ z_index = 5
 title = "Waylon Walker"
 description = "Waylon Walker's personal blog"
 url = "https://go.waylonwalker.com"
+license = "cc-by-4.0"
 # author = "Waylon Walker"
 # social = { twitter = "waylonwalker", bluesky = "waylonwalker.com", github = "WaylonWalker" }
 
