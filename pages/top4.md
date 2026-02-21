@@ -37,9 +37,9 @@ _multiplayer_
 
 1. **[Minecraft](https://minecraft.net/)** - infinite creativity, modding potential
 1. **[Wobbly Life](https://store.steampowered.com/app/1211020/Wobbly_Life/)** - Open World Co-op
-1. **[Stardew Valley](https://store.steampowered.com/app/892970/Stardew_Valley/)** - cozy, collaborative farming
+1. **[Stardew Valley](https://www.stardewvalley.net/)** - cozy, collaborative farming
 
-**Honorable mention:** [Terraria](https://store.steampowered.com/app/105600/Terraria/) - 2d world builder
+**Honorable mention:** [Terraria](https://www.terraria.org/) - 2d world builder
 
 ## Games to Play Alone
 
