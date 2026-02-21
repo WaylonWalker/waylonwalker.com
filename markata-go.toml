@@ -1417,3 +1417,5 @@ position = "before"
 
 # Mode: "js", "local", or "hosted" (default: "js")
 mode = "local"
+[markata-go.encryption]
+private_tags = { "gratitude" = "default" }
