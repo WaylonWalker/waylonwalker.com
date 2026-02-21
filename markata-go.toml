@@ -1332,6 +1332,133 @@ category = "personal"
 tags = ["written", "technology", "personal", "thoughts", "blog", "tech"]
 site_url = "https://pluralistic.net/"
 
+[[markata-go.blogroll.feeds]]
+url = "https://blog.thomaswimprine.com/feed.xml"
+title = "Cloudy with a Chance of Tech"
+description = "Thomas Guide to Building Smart Homes with Cloud Computing and Home Assistance."
+category = "development"
+tags = ["written"]
+site_url = "https://blog.thomaswimprine.com/"
+
+
+[[markata-go.blogroll.feeds]]
+url = "https://duckdb.org/feed.xml"
+title = "An in-process SQL OLAP database management system"
+description = "DuckDB is an in-process SQL OLAP database management system. Simple, feature-rich, fast & open source."
+category = "development"
+tags = ["written"]
+site_url = "https://duckdb.org/"
+
+
+[[markata-go.blogroll.feeds]]
+url = "https://frank.sauerburger.io/feed.xml"
+title = "Blog"
+description = "DESCRIPTION"
+category = "development"
+tags = ["written"]
+site_url = "https://frank.sauerburger.io/"
+
+
+[[markata-go.blogroll.feeds]]
+url = "https://hn.algolia.com/rss"
+title = "HN Search powered by Algolia"
+description = "Hacker News Search, millions articles and comments at your fingertips."
+category = "development"
+tags = ["written"]
+site_url = "https://hn.algolia.com/"
+
+
+[[markata-go.blogroll.feeds]]
+url = "https://hynek.me/index.xml"
+title = "Hynek Schlawack"
+description = "Hynek Schlawack: Pythonista, Gopher, blogger, speaker, and YouTuber from Berlin / Germany."
+category = "development"
+tags = ["written"]
+site_url = "https://hynek.me/"
+
+
+[[markata-go.blogroll.feeds]]
+url = "https://kubernetes.io/feed.xml"
+title = "Production-Grade Container Orchestration"
+description = """Kubernetes, also known as K8s, is an open source system for automating deployment, scaling, and management of containerized applications.
+It groups containers that make up an application into logical units for easy management and discovery. Kubernetes builds upon 15 years of experience of running production workloads at Google, combined with best-of-breed ideas and practices from the community.
+Planet scale Designed on the same principles that allow Google to run billions of containers a week, Kubernetes can scale without increasing your operations team."""
+category = "development"
+tags = ["written"]
+site_url = "https://kubernetes.io/"
+
+
+[[markata-go.blogroll.feeds]]
+url = "https://laughingmeme.org/feed.xml"
+title = "Kellan Elliott-McCrea: Blog"
+description = "A personal blog of Kellan Elliott-McCrea. I don’t really know what a “laughing meme” is. It sounded cool in 1999."
+category = "development"
+tags = ["written"]
+site_url = "https://laughingmeme.org/"
+
+
+[[markata-go.blogroll.feeds]]
+url = "https://maya.land/feed.xml"
+title = "welcome."
+description = "being the World Wide Web presence of one Maya, an enthusiasm enthusiast and Ã¦sthete of no renown."
+category = "development"
+tags = ["written"]
+site_url = "https://maya.land/"
+
+
+[[markata-go.blogroll.feeds]]
+url = "https://ofek.dev/feed.xml"
+title = "Well met, friend!"
+description = "Software Engineer from Knowhere"
+category = "development"
+tags = ["written"]
+site_url = "https://ofek.dev/"
+
+
+[[markata-go.blogroll.feeds]]
+url = "https://robp.dev/feed.xml"
+title = "Rob Parsons"
+description = "© Rob Parsons 2023"
+category = "development"
+tags = ["written"]
+site_url = "https://robp.dev/"
+
+
+[[markata-go.blogroll.feeds]]
+url = "https://ted-merz.com/atom.xml"
+title = "Ted Merz"
+description = "Ted Merz has lived in New York City for more than three decades. He started his career working in financial media, first as a journalist and then a product manager. He now has his own content creation agency."
+category = "development"
+tags = ["written"]
+site_url = "https://ted-merz.com/"
+
+
+[[markata-go.blogroll.feeds]]
+url = "https://willj.net/rss.xml"
+title = "Will Jessop's Writings; Sailing, Food, Programming, Technology, and other things"
+description = "I write about Ruby on Rails and Postgres scaling, performance and upgrade work, Ruby, Go and other programming topics, as well as sailing and cooking."
+category = "development"
+tags = ["written"]
+site_url = "https://willj.net/"
+
+
+[[markata-go.blogroll.feeds]]
+url = "https://www.andreinc.net/feed.xml"
+title = "andreinc"
+description = "Personal blog of Andrei N. Ciobanu."
+category = "development"
+tags = ["written"]
+site_url = "https://www.andreinc.net/"
+
+
+[[markata-go.blogroll.feeds]]
+url = "https://www.meetgor.com/rss"
+title = "Meet Gor"
+description = "Tech blog by Meet Gor"
+category = "development"
+tags = ["written"]
+site_url = "https://www.meetgor.com/"
+
 
 
 [markata-go.plugins.steam]
