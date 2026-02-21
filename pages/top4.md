@@ -45,9 +45,9 @@ _multiplayer_
 
 _singleplayer_
 
-1. **[Hollow Knight](https://store.steampowered.com/app/367520/Hollow_Knight/)/[Hollow Knight Silksong](https://store.steampowered.com/app/1030300/Hollow_Knight_Silksong/)** - S tier 2d platformer with adventure, mystery, lore, boss fights.
+1. **[Hollow Knight](https://www.hollowknight.com/)/[Hollow Knight Silksong](https://hollowknightsilksong.com/)** - S tier 2d platformer with adventure, mystery, lore, boss fights.
 1. **[Session Skate Sim](https://store.steampowered.com/app/861650/Session_Skate_Sim/)** - The best skate sim
-1. **[Animal Well](https://store.steampowered.com/app/813230/ANIMAL_WELL/)** - epic 2d platformer with the most incredible graphics at 320p ever created and the deepest puzzles Ive seen
+1. **[Animal Well](https://www.animalwell.net/)** - epic 2d platformer with the most incredible graphics at 320p ever created and the deepest puzzles Ive seen
 
 **Honorable mention:** [Portal](https://store.steampowered.com/app/400/Portal/)
 
