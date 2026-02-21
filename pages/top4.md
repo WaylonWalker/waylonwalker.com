@@ -17,8 +17,8 @@ Definitive ranked lists of my top 3 favorites plus an honorable mention.
 ## Terminal Tools
 
 1. **neovim** - modal editing changed how I think about text
-2. **tmux** - terminal sessions that survive disconnects
-3. **kitty** - fast, configurable, handles images
+1. **tmux** - terminal sessions that survive disconnects and allow me to hop between projects at the speed of thought.
+1. **k9s** - S tier tui interface that all tuis should strive for
 
 **Honorable mention:** zsh - solid foundation, though I removed oh-my-zsh for speed
 
