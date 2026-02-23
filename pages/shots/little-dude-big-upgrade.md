@@ -7,12 +7,12 @@ tags:
   - family
 published: True
 slug: shots/little-dude-big-upgrade
-image: https://dropper.wayl.one/file/254d58d6-c070-473a-939a-391d431536cb.webp 
+image: https://dropper.waylonwalker.com/file/254d58d6-c070-473a-939a-391d431536cb.webp 
 description: Little dude 
 
 ---
 
-![little dude big upgrade](https://dropper.wayl.one/file/254d58d6-c070-473a-939a-391d431536cb.webp )
+![little dude big upgrade](https://dropper.waylonwalker.com/file/254d58d6-c070-473a-939a-391d431536cb.webp )
 
 > Wyatt's first time riding a full size bike, here is is Riding my bike, which is Rhiannon's college bike.
 

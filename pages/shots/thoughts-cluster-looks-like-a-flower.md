@@ -6,12 +6,12 @@ tags:
   - shots
 published: True
 slug: shots/thoughts-cluster-looks-like-a-flower
-image: https://dropper.wayl.one/file/5e7ccf2b-bf88-4e1e-ae39-e4a9fc718083.webp
+image: https://dropper.waylonwalker.com/file/5e7ccf2b-bf88-4e1e-ae39-e4a9fc718083.webp
 description: My thoughts connections made an interesting flower layout.
 
 ---
 
-![Thoughts cluster looks like a flower](https://dropper.wayl.one/file/5e7ccf2b-bf88-4e1e-ae39-e4a9fc718083.webp)
+![Thoughts cluster looks like a flower](https://dropper.waylonwalker.com/file/5e7ccf2b-bf88-4e1e-ae39-e4a9fc718083.webp)
 
 > My thoughts connections made an interesting flower layout.
 

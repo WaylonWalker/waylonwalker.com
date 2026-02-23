@@ -12,4 +12,4 @@ Took Wyatt in for an ortho appt this morning and it went well, in and out quick 
 
 
 
-![](https://dropper.wayl.one/file/70432c14-ce44-4848-8a27-e1e0db209c45.webp)
+![](https://dropper.waylonwalker.com/file/70432c14-ce44-4848-8a27-e1e0db209c45.webp)

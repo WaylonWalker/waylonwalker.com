@@ -16,7 +16,7 @@ up in Orange text in my opencode window.  Looking into this they are exposing
 you to change between fast or slow and thinking, the later taking more time to
 prepare before doing an action.
 
-![Swapping Variants in opencode](https://dropper.wayl.one/file/0b6bfe5e-41b0-4e44-8c5a-ff88739a770e.mp4)
+![Swapping Variants in opencode](https://dropper.waylonwalker.com/file/0b6bfe5e-41b0-4e44-8c5a-ff88739a770e.mp4)
 
 It looks like this toggle may have been here for awhile and I'm just now
 discovering it. Potentially because its a new feature of the free Zen provider.

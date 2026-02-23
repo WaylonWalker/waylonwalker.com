@@ -24,4 +24,4 @@ it turned out fantastic.  I flooded the bottom with uv resin and let it level
 out, then hit it with my light for awhile before borrowing Rhiannons nail light
 which worked fantastic to cure it.
 
-![](https://dropper.wayl.one/file/1b7f257c-5193-4b74-b768-2fa4a7ccdec8.webp)
+![](https://dropper.waylonwalker.com/file/1b7f257c-5193-4b74-b768-2fa4a7ccdec8.webp)
