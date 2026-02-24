@@ -1459,7 +1459,32 @@ category = "development"
 tags = ["written"]
 site_url = "https://www.meetgor.com/"
 
+[[markata-go.blogroll.feeds]]
+url = "https://baty.net/index.xml"
+title = "Baty.net"
+description = "Recent content on Baty.net"
+site_url = "https://baty.net/"
+handle = "baty"
+image_url = "https://baty.net/img/opengraph.jpg"
+tags = ["written"]
 
+[[blogroll.feeds]]
+url = "https://fyr.io/feed"
+title = "Hello - fyr.io"
+description = "My little corner of the web where I write about life, technology, the indieweb and security. Mostly incoherently."
+site_url = "https://fyr.io/"
+handle = "fyrio"
+image_url = "https://fyr.io/images/rss-logo.png"
+tags = ["written"]
+
+[[blogroll.feeds]]
+url = "https://www.mollywhite.net/feed/feed.xml"
+title = "Molly White"
+description = "Molly White is a researcher, software engineer, and writer who focuses on the cryptocurrency industry, blockchains, web3, and tech more broadly."
+site_url = "https://www.mollywhite.net"
+handle = "mollywhite"
+image_url = "https://www.mollywhite.net/assets/images/molly_illustration.png"
+tags = ["written"]
 
 [markata-go.plugins.steam]
 enabled = true
