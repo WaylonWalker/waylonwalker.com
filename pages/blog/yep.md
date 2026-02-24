@@ -9,7 +9,7 @@ tags:
 ---
 
 Inspired by @fyrio's [yep](https://fyr.io/yep)
-[slashpage](https://slashpages.net/), a list of S tier things I enjoy, use,
+[slashpage](https://slashpages.net/), a list of **S tier** things I enjoy, use,
 recommend, want to know more about, or seek out in no particular order, updated as I think about it.
 
 !!! seealso
