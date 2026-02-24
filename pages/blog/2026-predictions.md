@@ -84,3 +84,7 @@ tools that...
 
 Right now I think we have some clear winners around the parent tools, but a
 layer underneath is ready for a lot of churn. Buckle up.
+
+## Results
+
+I'm tracking [[ 2026-prediction-results ]]
