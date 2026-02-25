@@ -1486,6 +1486,14 @@ handle = "mollywhite"
 image_url = "https://www.mollywhite.net/assets/images/molly_illustration.png"
 tags = ["written"]
 
+[[blogroll.feeds]]
+url = "http://feeds.hanselman.com/ScottHanselman"
+title = "Scott Hanselman - Coder, Blogger, Teacher, Speaker, Author"
+description = "Scott Hanselman is a programmer, teacher, speaker, technologist, podcaster, writer, inclusion advocate and more."
+site_url = "https://www.hanselman.com"
+handle = "scotthanselman"
+image_url = "https://images.hanselman.com/main/favicon.ico"
+
 [markata-go.plugins.steam]
 enabled = true
 api_key = "${STEAM_API_KEY}"
