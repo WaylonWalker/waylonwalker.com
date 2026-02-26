@@ -1501,6 +1501,15 @@ site_url = "https://www.hanselman.com"
 handle = "scotthanselman"
 image_url = "https://images.hanselman.com/main/favicon.ico"
 
+[[blogroll.feeds]]
+url = "https://techdufus.com/feed"
+title = "{ Tech Dufus }"
+description = "TechDufus writes about platform engineering, homelab rebuilds, and agent workflows that hold up in the real world."
+tags = ["written", "homelab", "kubernetes"]
+site_url = "https://techdufus.com/"
+handle = "techdufus"
+image_url = "https://techdufus.com/img/background.jpg"
+
 [markata-go.plugins.steam]
 enabled = true
 api_key = "${STEAM_API_KEY}"
