@@ -1,5 +1,12 @@
 # markata-go configuration for waylonwalker.com migration
 
+# [markata-go.theme.switcher]
+# enabled = true
+# include_all = true  # Include all 70+ built-in palettes
+[markata-go.theme.switcher]
+mode_toggle = true
+enabled = false
+
 [markata-go.theme]
 # palette = "catppuccin-frappe"
 # palette = "catppuccin-latte"
