@@ -1,0 +1,224 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: waylonwalker-com
+  namespace: go-waylonwalker-com
+  labels:
+    app.kubernetes.io/name: waylonwalker-com
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/part-of: waylonwalker-com
+    app.kubernetes.io/component: web
+spec:
+  serviceName: waylonwalker-com-headless
+  replicas: 2
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: waylonwalker-com
+      app.kubernetes.io/managed-by: kustomize
+      app.kubernetes.io/part-of: waylonwalker-com
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: waylonwalker-com
+        app.kubernetes.io/managed-by: kustomize
+        app.kubernetes.io/part-of: waylonwalker-com
+        app.kubernetes.io/component: web
+    spec:
+      securityContext:
+        fsGroup: 65532 # nonroot group - ensures volumes are writable
+
+      initContainers:
+        # Ensure the per-pod PVC has the expected directories and ownership.
+        # ext4 volumes may contain lost+found, and git will refuse operations if
+        # the repo is owned by a different UID.
+        - name: init-site-perms
+          image: busybox:1.36
+          imagePullPolicy: IfNotPresent
+          command:
+            - sh
+            - -c
+            - |
+              set -euxo pipefail
+              mkdir -p /site/repo /site/.cache /site/.markata
+              chown -R 65532:65532 /site/repo /site/.cache /site/.markata
+          volumeMounts:
+            - name: site-data
+              mountPath: /site
+
+        # Step 1: Clone or fast-forward the repo (persists on the pod's PVC)
+        - name: sync-repo
+          image: alpine/git:latest
+          imagePullPolicy: Always
+          securityContext:
+            runAsUser: 65532
+            runAsGroup: 65532
+          command:
+            - /bin/sh
+            - -c
+            - |
+              set -euxo pipefail
+              repo_url="https://github.com/WaylonWalker/waylonwalker.com.git"
+              branch="markata-go-migration"
+              repo_dir="/site/repo"
+
+              if [ -d "$repo_dir/.git" ]; then
+                git -C "$repo_dir" remote set-url origin "$repo_url" || true
+                git -C "$repo_dir" fetch --depth=1 origin "$branch"
+                git -C "$repo_dir" reset --hard FETCH_HEAD
+              else
+                mkdir -p "$repo_dir"
+                git clone --depth=1 --branch "$branch" "$repo_url" "$repo_dir"
+              fi
+          volumeMounts:
+            - name: site-data
+              mountPath: /site
+          resources:
+            requests:
+              memory: "64Mi"
+              cpu: "100m"
+            limits:
+              memory: "128Mi"
+              cpu: "200m"
+
+        # Step 2: Fetch incoming webmentions into /site/.cache/webmentions
+        - name: fetch-webmentions
+          image: ghcr.io/waylonwalker/markata-go:latest
+          imagePullPolicy: Always
+          args:
+            - --config
+            - /site/repo/markata-go.toml
+            - webmentions
+            - fetch
+          workingDir: /site/repo
+          securityContext:
+            runAsUser: 65532
+            runAsGroup: 65532
+          env:
+            - name: WEBMENTION_IO_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: webmention-io
+                  key: WEBMENTION_IO_TOKEN
+          volumeMounts:
+            - name: site-data
+              mountPath: /site
+          resources:
+            requests:
+              memory: "64Mi"
+              cpu: "100m"
+            limits:
+              memory: "256Mi"
+              cpu: "500m"
+
+        # Step 3: Build the site (incremental cache persists in /site/.markata)
+        - name: build-site
+          image: ghcr.io/waylonwalker/markata-go:latest
+          imagePullPolicy: Always
+          args:
+            - --config
+            - /site/repo/markata-go.toml
+            - build
+          workingDir: /site/repo
+          securityContext:
+            runAsUser: 65532
+            runAsGroup: 65532
+          env:
+            - name: MARKATA_GO_SEARCH_PAGEFIND_AUTO_INSTALL
+              value: "true"
+            - name: MARKATA_GO_SEARCH_PAGEFIND_CACHE_DIR
+              value: "/.cache"
+            - name: MARKATA_GO_SEARCH_PAGEFIND_VERBOSE
+              value: "true"
+          volumeMounts:
+            - name: site-data
+              mountPath: /site
+            - name: pagefind-cache
+              mountPath: /.cache
+            - name: pagefind-cache
+              mountPath: /tmp
+          resources:
+            requests:
+              memory: "2056Mi"
+              cpu: "500m"
+            limits:
+              memory: "8012Mi"
+              cpu: "2"
+
+        # Step 4: Ensure output is world-readable for nginx
+        - name: fix-output-perms
+          image: busybox:1.36
+          command:
+            - sh
+            - -c
+            - |
+              set -euxo pipefail
+              echo "Fixing perms in /site/repo/output..."
+              chmod -R a+rX /site/repo/output
+              find /site/repo/output -type d -exec chmod 755 {} \;
+              find /site/repo/output -type f -exec chmod 644 {} \;
+              find /site/repo/output -type f ! -perm -004 -print || true
+          volumeMounts:
+            - name: site-data
+              mountPath: /site
+
+      containers:
+        - name: nginx
+          image: nginx:alpine
+          imagePullPolicy: IfNotPresent
+          ports:
+            - name: http
+              containerPort: 80
+              protocol: TCP
+          volumeMounts:
+            - name: site-data
+              mountPath: /usr/share/nginx/html
+              subPath: repo/output
+              readOnly: true
+            - name: nginx-config
+              mountPath: /etc/nginx/conf.d
+              readOnly: true
+          livenessProbe:
+            httpGet:
+              path: /
+              port: http
+            initialDelaySeconds: 5
+            periodSeconds: 10
+            timeoutSeconds: 3
+            failureThreshold: 3
+          readinessProbe:
+            httpGet:
+              path: /
+              port: http
+            initialDelaySeconds: 5
+            periodSeconds: 5
+            timeoutSeconds: 3
+            failureThreshold: 3
+          resources:
+            requests:
+              memory: "64Mi"
+              cpu: "50m"
+            limits:
+              memory: "128Mi"
+              cpu: "200m"
+
+      volumes:
+        - name: pagefind-cache
+          emptyDir: {}
+        - name: nginx-config
+          configMap:
+            name: nginx-config
+      restartPolicy: Always
+
+  volumeClaimTemplates:
+    - metadata:
+        name: site-data
+        labels:
+          app.kubernetes.io/name: waylonwalker-com
+          app.kubernetes.io/component: site
+      spec:
+        accessModes:
+          - ReadWriteOnce
+        resources:
+          requests:
+            storage: 10Gi
+        storageClassName: longhorn-site

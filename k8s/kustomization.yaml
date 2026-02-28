@@ -1,0 +1,18 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: go-waylonwalker-com
+
+resources:
+  - namespace.yaml
+  - configmap.yaml
+  - service-headless.yaml
+  - statefulset.yaml
+  - service.yaml
+  - ingress.yaml
+  - storageclass-longhorn-site.yaml
+  - sealedsecret-webmention-io.yaml
+
+images:
+  - name: ghcr.io/waylonwalker/markata-go
+    newTag: latest

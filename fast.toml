@@ -1,0 +1,25 @@
+# Fast build configuration for development
+# Usage: markata-go build -m fast.toml
+# Or: just build-fast
+
+[markata-go]
+# Reduce concurrency for less resource usage for dev
+concurrency = 2
+
+[markata-go.glob]
+# Only process specific files for faster builds
+patterns = [
+"pages/blog/start.md",
+"pages/blog/now.md",
+"pages/blog/analytics.md",
+# "pages/shots/*.md",
+]
+
+
+[markata-go.blogroll]
+# Disable blogroll - huge speedup by skipping feed fetches
+enabled = false
+
+[markata-go.mentions]
+# Disable mentions (depends on blogroll)
+enabled = false

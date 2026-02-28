@@ -1,7 +1,8 @@
 ---
 date: 2024-07-07 10:24:28
 templateKey: blog-post
-title: reader
+title: My Reader Project
+slug: my-reader
 tags:
   - catalytic
   - markata
