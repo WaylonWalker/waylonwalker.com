@@ -8,7 +8,6 @@ published: True
 jinja: false
 
 ---
-
 A poc is **not** a product.  I started focais, not in a rush, but as something
 that I already had a POC for and thought it would be easy.  I wanted to build
 tools to make creating blog posts like this one easier.  I stared with `shots`

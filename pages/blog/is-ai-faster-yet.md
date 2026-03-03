@@ -53,3 +53,7 @@ I'm sure there is a wide spectrum of folks out there from some generating millio
 With this SUPER AUTO COMPLETE engine it's easy to say we found a bug affecting a user, but rather than squashing that one and getting a release out quickly squash ALL related bugs that a user might find in this category, it only takes a few more keystrokes right??
 
 Right now it feels like a lot is happening but its hard to sus out the real productivity from the noise.
+
+## FIN
+
+As with anything AI It took me a few weeks to wrap this up and everything is already different.  But I had some recent experiences of feeling slower than just doing it, and its all around context.  I have built out a lot of the systems that I maintain by hand, I really know them well and I can solve a lot of problems within the hour by hand with coffee break.  But now that I'm trying to lean on agents, I know they can do a more thorough job than I can faster, but I don't have all of the data harnessed up.  Just today I spent all day trying to solve CI problems.  I can see the issue, I know the solution, but I want agents to solve this for me in the future so I spent the say working on a CLI to pull data from ci pipeline runs, manage the tokens get the logs, status, all of the data.  Because I know this will be the way of the future, they will outpace me, I just need to have methods of getting context ready for them, and agents that know how to do it set up.
