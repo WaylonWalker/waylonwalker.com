@@ -5,6 +5,9 @@ title: Clankers got me tired
 published: true
 tags:
   - ping
+  - ai
+  - llm
+  - clankers
 
 ---
 

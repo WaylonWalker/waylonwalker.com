@@ -5,6 +5,7 @@ title: Mise looks promising
 published: true
 tags:
   - ping
+  - terminal
 
 ---
 

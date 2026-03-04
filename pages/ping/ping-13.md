@@ -5,6 +5,7 @@ title: Gross phone
 published: true
 tags:
   - ping
+  - parenthood
 ---
 
 Is there a world that giving my phone to my kids does not result in it being

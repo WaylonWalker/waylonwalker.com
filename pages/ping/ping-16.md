@@ -5,6 +5,7 @@ title: new keeb so good
 published: true
 tags:
   - ping
+  - keeb
 
 ---
 

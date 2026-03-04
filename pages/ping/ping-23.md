@@ -5,11 +5,12 @@ title:
 published: true
 tags:
   - ping
+  - parenthood
 
 ---
 
 I taught wyatt <span
 style="display:inline-block;width:1em;height:1em;background:#bada55;border:1px
-solid #000;"></span> `#bada55` green, I appologize in advance, I underestimate
+solid #000;"></span> `#bada55` green, I apologize in advance, I underestimate
 the power of immature humor has on him.
 

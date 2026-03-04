@@ -5,6 +5,7 @@ title:
 published: true
 tags:
   - ping
+  - supercross
 
 ---
 
