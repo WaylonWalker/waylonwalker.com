@@ -1,7 +1,7 @@
 ---
 date: 2026-02-26 18:49:39
 templateKey: ping
-title: 
+title: The Ghostty Guy
 published: true
 tags:
   - ping
