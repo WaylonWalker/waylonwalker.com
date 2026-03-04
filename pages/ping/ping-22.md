@@ -5,5 +5,8 @@ title: Quick Tip To Get Agents Running Longer
 published: true
 tags:
   - ping
+  - ai
+  - llm
 ---
-Heres a quick tip if you want to get your agents running longer, **prompt better**.
+
+Here's a quick tip if you want to get your agents running longer, **prompt better**.

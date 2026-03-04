@@ -5,6 +5,8 @@ title: We are the Grey Beards
 published: true
 tags:
   - ping
+  - ai
+  - llm
 
 ---
 
