@@ -55,3 +55,11 @@ I've typed far more characters and put more thought into this post than the
 tool itself, that where we are these days I guess.
 
 See the session that made `tgo` [[ses-3444b09b1ffexter3elfg5qqtg]]
+
+## Should you use it?
+
+You can its there for anyone to use, go for it, there's an easy to download
+binary.
+
+It's all vibe coded slop that you could probably do a better job doing in a
+cave with scraps anyways.  Take inspiration and make one that works for you.
