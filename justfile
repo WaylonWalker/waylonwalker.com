@@ -56,15 +56,42 @@ venv:
     source .venv/bin/activate
     uv pip install -r requirements.txt
 
-clean:
-    markata clean
-build:
+build-clean:
     #!/usr/bin/env bash
     set -euxo pipefail
-    . ./.venv/bin/activate
-    markata build
+    markata-go build --clean
+
+# Fast build: only blog posts, no blogroll/reader fetches
+# Uses fast.toml + env var to disable blogroll for maximum speed
+build-fast:
+    #!/usr/bin/env bash
+    set -euxo pipefail
+    MARKATA_GO_BLOGROLL_ENABLED=false markata-go build -m fast.toml
+
+# Fast build with clean cache
+build-fast-clean:
+    #!/usr/bin/env bash
+    set -euxo pipefail
+    MARKATA_GO_BLOGROLL_ENABLED=false markata-go build --clean-all -m fast.toml --fast
+
+# Fast build with clean cache
+serve-fast:
+    #!/usr/bin/env bash
+    set -euxo pipefail
+    MARKATA_GO_BLOGROLL_ENABLED=false markata-go serve -m fast.toml --host 0.0.0.0 --fast
+
+serve-live:
+    #!/usr/bin/env bash
+    set -euxo pipefail
+    markata-go serve --host 0.0.0.0
+
+build:
+    #!/usr/bin/env bash
+    markata-go build
+
 serve:
-    python -m http.server -b 0.0.0.0 8005 -d markout
+    python -m http.server -b 0.0.0.0 8000 -d output
+
 tailwind:
     # npx tailwindcss --input tailwind/app.css --output static/app-{{version}}.css --minify --watch
     # npx tailwindcss --input tailwind/app.css --output static/app.css --minify --watch
@@ -73,20 +100,20 @@ tailwind-dev:
     # npx tailwindcss --input tailwind/app.css --output markout/app-{{version}}.css --minify --watch
     # npx tailwindcss --input tailwind/app.css --output markout/app.css --minify --watch
     pnpm exec tailwindcss --input tailwind/app.css --output markout/app.css --minify --watch
-sync:
-    aws --endpoint-url https://minio.wayl.one s3 sync . s3://waylonwalker.com \
-        --exclude "*.venv/**/*" \
-        --exclude ".markata.cache/*" \
-        --exclude "node_modules/*"  \
-        --exclude ".git/*" \
-        --exclude ".mypy_cache/*" \
-        --exclude ".python-version"  \
-        --exclude ".github/*"  \
-        --exclude "markout/*"  \
-        --exclude ".envrc"  \
-        --exclude ".pre-commit-config.yaml"  \
-        --exclude ".gitignore"  \
-        --delete
+# sync:
+#     aws --endpoint-url https://minio.wayl.one s3 sync . s3://waylonwalker.com \
+#         --exclude "*.venv/**/*" \
+#         --exclude ".markata.cache/*" \
+#         --exclude "node_modules/*"  \
+#         --exclude ".git/*" \
+#         --exclude ".mypy_cache/*" \
+#         --exclude ".python-version"  \
+#         --exclude ".github/*"  \
+#         --exclude "markout/*"  \
+#         --exclude ".envrc"  \
+#         --exclude ".pre-commit-config.yaml"  \
+#         --exclude ".gitignore"  \
+#         --delete
 
 sync-md:
     aws --endpoint-url https://minio.wayl.one s3 sync . s3://waylonwalker.com --exclude "*" --include "pages/**/*.md"
@@ -216,3 +243,8 @@ get-fragmention:
     curl https://raw.githubusercontent.com/kartikprabhu/fragmentioner/refs/heads/master/fragmentioner.js > static/fragmentioner.js
 get-snowfall:
     curl -o static/snow-fall.js https://raw.githubusercontent.com/zachleat/snow-fall/refs/heads/main/snow-fall.js
+
+sync:
+    rsync -a --delete --chmod=F644,D755 \
+    ./output/ \
+    falcon3:/mnt/main/walkershare/waylon/sites/go.waylonwalker.com

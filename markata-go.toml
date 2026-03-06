@@ -1,0 +1,1692 @@
+# markata-go configuration for waylonwalker.com migration
+
+# [markata-go.theme.switcher]
+# enabled = true
+# include_all = true  # Include all 70+ built-in palettes
+[markata-go.theme.switcher]
+mode_toggle = true
+enabled = false
+
+[markata-go.theme]
+# palette = "catppuccin-frappe"
+# palette = "catppuccin-latte"
+# palette = "catppuccin-macchiato"
+# palette = "catppuccin-mocha"
+# palette = "default-dark"
+# palette = "default-light"
+# palette = "dracula"
+# palette = "everforest-dark"
+# palette = "everforest-light"
+palette = "gruvbox-dark"
+# palette = "gruvbox-light"
+# palette = "kanagawa-dragon"
+# palette = "kanagawa-lotus"
+# palette = "kanagawa-wave"
+# palette = "matte-black"
+# palette = "nord-dark"
+# palette = "nord-light"
+# palette = "midnight-ablaze"
+# palette = "rose-pine-dawn"
+# palette = "rose-pine-moon"
+# palette = "solarized-dark"
+# palette = "solarized-light"
+# palette = "tokyo-night"
+# palette = "tokyo-night-day"
+# palette = "tokyo-night-storm"
+
+# Theme switcher - enables dropdown to select from all 70+ palettes
+# [markata-go.theme.switcher]
+# enabled = true
+# include_all = true
+# position = "header"
+
+[markata-go.theme.variables]
+# "--content-width" = "12ch"
+# "--content-max-width" = "300px"
+"--content-width" = "clamp(56ch, 60vw, 72ch)"
+"--text-base" = "1.2rem"
+
+# Background effects configuration
+[markata-go.theme.background]
+article_blur_enabled = false
+enabled = true
+
+# Article background styling for readability over decorative backgrounds
+article_bg = "color-mix(in srgb, var(--color-background) 95%, transparent)"
+article_blur = "8px"
+article_shadow = "0 4px 24px rgba(0, 0, 0, 0.4)"
+article_radius = "12px"
+
+# Custom CSS for background styling
+css = """
+.background-layer {
+  width: 100%;
+  height: 100%;
+}
+
+/* Style for snow-fall custom element */
+snow-fall {
+  display: block;
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 5;
+}
+
+/* Ensure article, nav, header, and footer are ABOVE snow with solid backgrounds */
+article.post,
+.post-content {
+  position: relative;
+  z-index: 10;
+  background: var(--article-bg, var(--color-background));
+}
+
+.site-header,
+header {
+  position: relative;
+  z-index: 20;
+  background: var(--color-background);
+}
+
+.site-footer,
+footer {
+  position: relative;
+  z-index: 20;
+  background: var(--color-background);
+}
+
+nav,
+.sidebar,
+.site-nav {
+  position: relative;
+  z-index: 20;
+  background: var(--color-background);
+}
+
+/* Main content area above snow */
+main {
+  position: relative;
+  z-index: 10;
+}
+"""
+
+# Load scripts (snow effect)
+# scripts = ["/snow-fall.js"]
+
+# Repeating W.svg background pattern
+[[markata-go.theme.background.backgrounds]]
+html = """<div style="position: fixed; inset: 0; pointer-events: none; z-index: -2; background-image: url('/w.svg'); background-size: 150px 84.4px; background-repeat: repeat; filter: invert(1) opacity(0.03);"></div>"""
+z_index = -2
+
+# Noise overlay using SVG filters
+[[markata-go.theme.background.backgrounds]]
+html = """
+<svg
+  style="
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: overlay;
+  "
+  xmlns="http://www.w3.org/2000/svg">
+
+  <filter id="noiseFilter">
+    <feTurbulence 
+      type="fractalNoise" 
+      baseFrequency="0.9" 
+      numOctaves="4" 
+      stitchTiles="stitch"/>
+    <feColorMatrix type="saturate" values="0"/>
+    <feComponentTransfer>
+      <feFuncA type="discrete" tableValues="0 0.5 1"/>
+    </feComponentTransfer>
+  </filter>
+
+  <rect width="100%" height="100%" filter="url(#noiseFilter)" opacity="0.8"/>
+</svg>"""
+z_index = -1
+
+# Snow effect layers
+[[markata-go.theme.background.backgrounds]]
+html = '<snow-fall count="200" style="--snow-fall-size: 5px"></snow-fall>'
+z_index = 5
+
+[[markata-go.theme.background.backgrounds]]
+html = '<snow-fall></snow-fall>'
+z_index = 5
+
+# Purple snow
+[[markata-go.theme.background.backgrounds]]
+html = """<div class="dubs">
+  <snow-fall count="5" style="--snow-fall-color: rebeccapurple"></snow-fall>
+  <snow-fall count="5"></snow-fall>
+</div>"""
+z_index = 5
+
+
+[markata-go]
+# Site metadata
+title = "Waylon Walker"
+description = "Waylon Walker's personal blog"
+url = "https://go.waylonwalker.com"
+license = "cc-by-4.0"
+# author = "Waylon Walker"
+# social = { twitter = "waylonwalker", bluesky = "waylonwalker.com", github = "WaylonWalker" }
+
+[markata-go.authors.authors.waylon]
+name = "Waylon Walker"
+email = "hello@waylonwalker.com"
+role = "Author"
+url = "https://waylonwalker.com"
+avatar = 'https://waylonwalker.com/8bitcc.png'
+social = { twitter = "waylonwalker", bluesky = "waylonwalker.com", github = "WaylonWalker" }
+default = true
+[markata-go.authors.authors.kimi-k2-5-free]
+name = "Kimi k2.5 Free"
+role = "Drafter"
+url = "https://www.kimi.com/en"
+avatar = '/kimi-logo-CegIMkbU.png'
+default = false
+
+# Output directory
+output_dir = "output"
+
+# =============================================================================
+# SEO CONFIGURATION
+# =============================================================================
+[markata-go.seo]
+twitter_handle = "@_waylonwalker"
+default_image = "https://waylonwalker.com/8bitcc.png"
+author_image = "https://waylonwalker.com/8bitcc.png"
+og_image_service = "https://shots.waylonwalker.com/shot/"
+
+# Custom templates for card types (shots, gratitude, blog-post, etc.)
+templates_dir = "templates"
+
+# =============================================================================
+# NAVIGATION
+# =============================================================================
+# Top-level nav items (legacy format, works with default templates)
+[[markata-go.nav]]
+label = "Home"
+url = "/"
+
+[[markata-go.nav]]
+label = "Start Here"
+url = "/start/"
+
+[[markata-go.nav]]
+label = "Archive"
+url = "/archive/"
+
+[[markata-go.nav]]
+label = "About"
+url = "/about/"
+
+[[markata-go.nav]]
+label = "RSS"
+url = "/feeds/"
+
+# =============================================================================
+# COMPONENTS CONFIGURATION
+# =============================================================================
+[markata-go.components.nav]
+enabled = true
+position = "header"
+style = "horizontal"
+
+[markata-go.components.footer]
+enabled = true
+show_copyright = true
+text = ""
+
+[[markata-go.components.footer.links]]
+label = "/about"
+url = "/about/"
+
+[[markata-go.components.footer.links]]
+label = "/now"
+url = "/now/"
+
+[[markata-go.components.footer.links]]
+label = "/colophon"
+url = "/colophon/"
+
+[[markata-go.components.footer.links]]
+label = "/blogroll"
+url = "/blogroll/"
+
+[[markata-go.components.footer.links]]
+label = "/reader"
+url = "/reader/"
+
+[[markata-go.components.footer.links]]
+label = "/ai"
+url = "/ai/"
+
+[[markata-go.components.footer.links]]
+label = "Twitter"
+url = "https://twitter.com/waylonwalker"
+external = true
+
+[[markata-go.components.footer.links]]
+label = "GitHub"
+url = "https://github.com/waylonwalker"
+external = true
+
+[[markata-go.components.footer.links]]
+label = "LinkedIn"
+url = "https://linkedin.com/in/waylonwalker"
+external = true
+
+# =============================================================================
+# POST OUTPUT FORMATS
+# =============================================================================
+[markata-go.post_formats]
+html = true       # Standard HTML pages
+markdown = true   # Raw markdown source (/slug/index.md)
+text = true       # Plain text (/slug/index.txt)
+og = true         # OpenGraph cards (/slug/og/index.html)
+
+[markata-go.glob]
+# Glob patterns for finding content - must include directory path
+patterns = [
+"pages/**/*.md", 
+# "pages/ping/*.md", 
+# "thoughts/**/*.md"
+# "pages/**/pm-not-babysitter.md", 
+]
+use_gitignore = true
+
+# =============================================================================
+# PLUGIN CONFIGURATION
+# =============================================================================
+
+# Enable thoughts plugin for PESOS functionality
+hooks = ["default", "thoughts", "wikilink_hover"]
+
+# =============================================================================
+# THOUGHTS PLUGIN CONFIGURATION (PESOS)
+# =============================================================================
+
+[markata-go.thoughts]
+enabled = true
+thoughts_dir = "thoughts"
+cache_dir = ".markata.cache/thoughts"
+max_items = 200
+
+# Import thoughts from thoughts.waylonwalker.com (JSON API)
+[markata-go.thoughts.sources]
+thoughts_waylonwalker = { type = "json", url = "https://thoughts.waylonwalker.com/posts/waylonwalker/", handle = "waylonwalker", active = true, max_items = 50 }
+
+# Syndication configuration (disabled by default - enable when ready to post outward)
+[markata-go.thoughts.syndication]
+enabled = false
+
+# Global feed defaults
+[markata-go.feed_defaults]
+items_per_page = 20
+orphan_threshold = 3
+
+[markata-go.feed_defaults.formats]
+html = true
+simple_html = true
+rss = true
+atom = true
+json = true
+markdown = true
+text = true
+
+# Archive feed - all published posts, newest first
+[[markata-go.feeds]]
+slug = "archive"
+title = "Archive"
+description = "All published posts"
+filter = "date<=today and (templateKey == 'blog-post' or templateKey == 'til' or templateKey == 'thoughts' or templateKey == 'stars' or templateKey == 'daily' or templateKey == 'shots' or templateKey == 'ping') and published and 'family' not in tags"
+sort = "date"
+reverse = true
+items_per_page = 50
+pagination_type = "htmx"        # "manual", "htmx", or "js"
+
+# All posts feed (same as archive but at /all/)
+[[markata-go.feeds]]
+slug = "all"
+title = "All Posts"
+description = "Complete list of all published posts"
+filter = "date<=today and (templateKey == 'blog-post' or templateKey == 'til' or templateKey == 'thoughts' or templateKey == 'stars' or templateKey == 'daily' or templateKey == 'shots' or templateKey == 'ping') and published and 'family' not in tags"
+sort = "date"
+reverse = true
+items_per_page = 10000  # Very large to show all posts on one page
+
+# Blog feed - only blog posts
+[[markata-go.feeds]]
+slug = "blog"
+title = "Blog"
+description = "Full blog posts"
+filter = "published == true and templateKey == \"blog\""
+sort = "date"
+reverse = true
+
+# Steam
+[[markata-go.feeds]]
+slug = "steam"
+title = "Steam"
+description = "Steam posts"
+filter = "published == true and 'steam-game' in tags"
+sort = "date"
+reverse = true
+
+# TIL feed - Today I Learned posts
+[[markata-go.feeds]]
+slug = "til"
+title = "Today I Learned"
+description = "Short TIL posts"
+filter = "published == true and templateKey == \"til\""
+sort = "date"
+reverse = true
+
+# =============================================================================
+# ADDITIONAL FEEDS (migrated from Python markata)
+# =============================================================================
+
+# Blog Feed - full blog posts only (different from /blog which includes TIL)
+[[markata-go.feeds]]
+slug = "blog-feed"
+title = "Blog Feed"
+description = "Full blog posts"
+filter = "published == true and templateKey == \"blog-post\""
+sort = "date"
+reverse = true
+
+# Daily notes feed
+[[markata-go.feeds]]
+slug = "daily"
+title = "Daily Notes"
+description = "Daily notes posts"
+filter = "templateKey == \"daily\""
+sort = "date"
+reverse = true
+
+# Draft posts - unpublished or future dated
+[[markata-go.feeds]]
+slug = "draft"
+title = "Drafts"
+description = "Draft and unpublished posts"
+filter = "published == false or date > today"
+sort = "date"
+reverse = true
+
+# Family shots - photos tagged with family
+[[markata-go.feeds]]
+slug = "family-shots"
+title = "Family Shots"
+description = "Family photo posts"
+filter = "templateKey == \"shots\" and \"family\" in tags"
+sort = "date"
+reverse = true
+
+# Gratitude feed
+[[markata-go.feeds]]
+slug = "gratitude-feed"
+title = "Gratitude"
+description = "Gratitude posts"
+filter = "templateKey == \"gratitude\""
+sort = "date"
+reverse = true
+
+# Last thirty days - temporarily using published filter until date arithmetic is supported
+[[markata-go.feeds]]
+slug = "lasthirty"
+title = "Last 30 Days"
+description = "Posts from the last 30 days"
+filter = "published == true and date <= today"
+sort = "date"
+reverse = true
+items_per_page = 100
+
+# Pings - short social posts
+[[markata-go.feeds]]
+slug = "pings"
+title = "Pings"
+description = "Short social media style posts"
+filter = "templateKey == \"ping\" and not \"family\" in tags"
+sort = "date"
+reverse = true
+
+# Published feed
+[[markata-go.feeds]]
+slug = "published"
+title = "Published"
+description = "All published posts"
+filter = "published == true"
+sort = "date"
+reverse = true
+
+# Recent - last 10 posts
+[[markata-go.feeds]]
+slug = "recent"
+title = "Recent Posts"
+description = "Last 10 posts"
+filter = "published == true"
+sort = "date"
+reverse = true
+items_per_page = 10
+
+# Recently written - last 10 written posts
+[[markata-go.feeds]]
+slug = "recently-written"
+title = "Recently Written"
+description = "Last 10 written posts"
+filter = "published == true and (templateKey == \"blog-post\" or templateKey == \"til\" or templateKey == \"thoughts\" or templateKey == \"ping\")"
+sort = "date"
+reverse = true
+items_per_page = 10
+
+# Recent pings
+[[markata-go.feeds]]
+slug = "recent-pings"
+title = "Recent Pings"
+description = "Last 10 ping posts"
+filter = "published == true and templateKey == \"ping\""
+sort = "date"
+reverse = true
+items_per_page = 10
+
+# Recent stars
+[[markata-go.feeds]]
+slug = "recent-stars"
+title = "Recent Stars"
+description = "Last 10 GitHub stars"
+filter = "templateKey == \"stars\""
+sort = "date"
+reverse = true
+items_per_page = 10
+
+# Recent thoughts
+[[markata-go.feeds]]
+slug = "recent-thoughts"
+title = "Recent Thoughts"
+description = "Last 10 thoughts"
+filter = "published == true and templateKey == \"thoughts\""
+sort = "date"
+reverse = true
+items_per_page = 10
+
+# =============================================================================
+# THOUGHTS FEEDS (NEW - integrated with PESOS)
+# =============================================================================
+
+# All thoughts (local + imported from thoughts.waylonwalker.com)
+[[markata-go.feeds]]
+slug = "thoughts-feed"
+title = "Thoughts"
+description = "All thoughts and micro-posts from waylonwalker.com and thoughts.waylonwalker.com"
+filter = "template == 'thought.html' or path startswith 'thoughts/'"
+sort = "date"
+reverse = true
+items_per_page = 50
+
+# External thoughts only (imported from thoughts.waylonwalker.com)
+[[markata-go.feeds]]
+slug = "external-thoughts"
+title = "External Thoughts"
+description = "Thoughts imported from thoughts.waylonwalker.com"
+filter = "template == 'thought.html' and thought_source == 'thoughts_waylonwalker'"
+sort = "date"
+reverse = true
+items_per_page = 30
+
+# Micro thoughts (short form content)
+[[markata-go.feeds]]
+slug = "micro"
+title = "Micro"
+description = "Micro thoughts and quick notes"
+filter = "template == 'thought.html' and length(content) < 300"
+sort = "date"
+reverse = true
+items_per_page = 25
+
+# Thoughts with links (commentary on external content)
+[[markata-go.feeds]]
+slug = "thought-links"
+title = "Thought Links"
+description = "Thoughts that link to and comment on external content"
+filter = "template == 'thought.html' and original_url != null"
+sort = "date"
+reverse = true
+items_per_page = 20
+
+# Scheduled posts - future dated
+[[markata-go.feeds]]
+slug = "scheduled"
+title = "Scheduled"
+description = "Posts scheduled for the future"
+filter = "date > today"
+sort = "date"
+reverse = true
+
+# Slashes feed
+[[markata-go.feeds]]
+slug = "slashes"
+title = "Slashes"
+description = "Slash command posts"
+filter = "published == true and \"slash\" in tags"
+sort = "date"
+reverse = true
+
+# Stars feed - GitHub stars
+[[markata-go.feeds]]
+slug = "stars"
+title = "GitHub Stars"
+description = "GitHub stars posts"
+filter = "templateKey == \"stars\""
+sort = "date"
+reverse = true
+
+# Today's posts
+[[markata-go.feeds]]
+slug = "today"
+title = "Today"
+description = "Posts from today"
+filter = "date == today"
+sort = "date"
+reverse = true
+
+# Shots feed - photo/video posts
+[[markata-go.feeds]]
+slug = "shots"
+title = "Shots"
+description = "Photo and video posts"
+filter = "templateKey == \"shots\""
+sort = "date"
+reverse = true
+
+# # Thoughts feed
+# [[markata-go.feeds]]
+# slug = "thoughts"
+# title = "Thoughts"
+# description = "Thoughts and comments"
+# filter = "published == true and templateKey == \"thoughts\""
+# sort = "date"
+# reverse = true
+
+# =============================================================================
+# AUTO-GENERATED FEEDS
+# =============================================================================
+
+# Enable auto-generated tag feeds
+[markata-go.auto_feeds.tags]
+enabled = true
+slug_prefix = "tags"
+
+[markata-go.auto_feeds.tags.formats]
+html = true
+rss = true
+
+# =============================================================================
+# BLOGROLL & READER
+# =============================================================================
+[markata-go.blogroll]
+enabled = true
+cache_dir = ".markata-cache/blogroll"
+cache_duration = "1h"
+max_entries_per_feed = 50
+# Fallback screenshot service for entries without images (2x size for retina: 240x160 displayed at 120x80)
+fallback_image_service = "https://shots.waylonwalker.com/shot/?url={url}&height=160&width=240&scaled_width=240&scaled_height=160&format=jpg"
+pagination_type = "htmx"        # "manual", "htmx", or "js"
+
+[[markata-go.blogroll.feeds]]
+url = "https://daverupert.com/atom.xml"
+title = "David Rupert"
+description = "Web developer at Microsoft, co-host of ShopTalk Show podcast, CSS and design systems expert"
+category = "development"
+tags = ["css", "design", "design-systems", "frontend", "web", "accessibility", "javascript", "podcast", "written"]
+site_url = "https://daverupert.com"
+image_url = "https://daverupert.com/favicon.ico"
+[[markata-go.blogroll.feeds]]
+url = "https://joelhooks.com/rss.xml"
+title = "Joel Hooks"
+description = "Founder of egghead.io, writes about developer education, course building, and bootstrapped businesses"
+category = "development"
+tags = ["javascript", "react", "education", "course-building", "business", "developer-relations", "typescript", "written"]
+site_url = "https://joelhooks.com"
+image_url = "https://joelhooks.com/favicon.ico"
+[[markata-go.blogroll.feeds]]
+url = "https://swyx.io/rss.xml"
+title = "Swyx"
+description = "Fosters the Rise of the AI Engineer, writer on AI/ML, developer experience, and learning in public"
+category = "development"
+tags = ["ai", "machine-learning", "javascript", "typescript", "react", "svelte", "developer-experience", "learning", "written"]
+site_url = "https://www.swyx.io"
+image_url = "https://www.swyx.io/swyx-ski.jpeg"
+[[markata-go.blogroll.feeds]]
+url = "https://chriscoyier.net/feed/"
+title = "Chris Coyier"
+description = "Co-founder of CodePen and CSS-Tricks, web designer, developer, educator, and community builder"
+category = "development"
+tags = ["css", "html", "javascript", "frontend", "web-design", "web-development", "podcast", "codepen", "written"]
+site_url = "https://chriscoyier.net"
+image_url = "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvaTAud3AuY29tXC9jaHJpc2NveWllci5uZXRcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA3XC9Jc1VJU3ZBcV80MDB4NDAwLmpwZz9maXQ9NDAwJTJDNDAwJnNzbD0xIiwidHh0IjoiQ2hyaXMgQ295aWVyIiwidGVtcGxhdGUiOiJlZGdlIiwiZm9udCI6IiIsImJsb2dfaWQiOjc0MDc0MjQ4fQ.bvKLReBBKcA57TVb4-g9yEs2QdY7VFEGHqUPK_9OQuAMQ"
+[[markata-go.blogroll.feeds]]
+url = "https://mathspp.com/blog.rss"
+title = "Rodrigo@mathsppblog"
+description = "Python expert and author, focuses on elegant Python programming, mathematics, and algorithms"
+category = "development"
+tags = ["python", "mathematics", "algorithms", "programming", "comprehensions", "itertools", "written"]
+site_url = "https://mathspp.com"
+image_url = "https://mathspp.com/thumbnail.webp"
+[[markata-go.blogroll.feeds]]
+url = "https://blog.jim-nielsen.com/feed.xml"
+title = "Jim Nielsen"
+description = "Web designer and developer with 20+ years experience, writes about design, code, and web technology"
+category = "development"
+tags = ["web-design", "web-development", "css", "html", "javascript", "design-process", "netlify", "written"]
+site_url = "https://blog.jim-nielsen.com"
+[[markata-go.blogroll.feeds]]
+url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCyU5wkjgQYGRB0hIHMwm2Sg"
+title = "Syntax.fm"
+description = "Tasty web development treats podcast with Wes Bos and Scott Tolinski - full-stack JavaScript development"
+category = "podcast"
+tags = ["podcast", "javascript", "web-development", "css", "html", "react", "nodejs", "frontend", "backend", "video"]
+site_url = "https://syntax.fm"
+image_url = "https://www.youtube.com/img/desktop/yt_1200.png"
+[[markata-go.blogroll.feeds]]
+url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCkbwOi_U5CBkevtlVhuzWnA"
+title = "Backend Banter"
+description = "The only podcast dedicated to backend development, technologies, and careers by Lane Wagner"
+category = "podcast"
+tags = ["podcast", "backend", "golang", "python", "rust", "javascript", "devops", "software-engineering", "video"]
+site_url = "https://www.backendbanter.fm"
+image_url = "https://www.youtube.com/img/desktop/yt_1200.png"
+[[markata-go.blogroll.feeds]]
+url = "https://blog.boot.dev/feed/"
+title = "boot.dev"
+description = "Learn backend development the smart way - backend development programming education platform"
+category = "development"
+tags = ["backend", "golang", "python", "rust", "web-development", "programming-education", "computer-science", "written"]
+site_url = "https://blog.boot.dev"
+image_url = "https://blog.boot.dev/img/800/bootsballanbackground.webp"
+[[markata-go.blogroll.feeds]]
+url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCUyeluBRhGPCW4rPe_UvBZQ"
+title = "ThePrimeTime"
+description = "Controversial hot takes on web development, Rust, and core CS tutorials with lightning-fast vim coding"
+category = "video"
+tags = ["video", "rust", "typescript", "vim", "web-development", "core-cs", "programming", "controversial"]
+site_url = "https://www.youtube.com/@theprimetimenews"
+[[markata-go.blogroll.feeds]]
+url = "https://jrs-s.net/feed/"
+title = "Jim Salter"
+description = "Mercenary sysadmin, technology reporter, author of Sanoid ZFS project, co-host of 2.5 Admins podcast"
+category = "development"
+tags = ["sysadmin", "zfs", "linux", "bsd", "infrastructure", "podcast", "open-source", "disaster-recovery", "written"]
+site_url = "https://jrs-s.net"
+[[markata-go.blogroll.feeds]]
+url = "https://simonwillison.net/atom/everything/"
+title = "Simon Willison"
+description = "Co-creator of Django, creator of Datasette, writes about web development, AI, and open source"
+category = "development"
+tags = ["python", "django", "sqlite", "datasette", "ai", "machine-learning", "open-source", "web-development", "written"]
+site_url = "https://simonwillison.net"
+[[markata-go.blogroll.feeds]]
+url = "https://blakewatson.com/feed/"
+title = "Blake Watson"
+description = "Frontend developer for NASA projects, disability advocate, writes about accessibility and assistive technology"
+category = "personal"
+tags = ["accessibility", "frontend", "web-development", "disability", "assistive-technology", "design", "nasa", "written"]
+site_url = "https://blakewatson.com"
+image_url = "https://blakewatson.com/assets/images/og-image.png"
+[[markata-go.blogroll.feeds]]
+url = "https://blog.kubesimplify.com/rss.xml"
+title = "KubeSimplify"
+description = "Mission to simplify cloud native and Kubernetes for everyone with easy-to-understand tutorials"
+category = "development"
+tags = ["kubernetes", "docker", "cloud-native", "devops", "containers", "cnf", "microservices", "written"]
+site_url = "https://blog.kubesimplify.com"
+[[markata-go.blogroll.feeds]]
+url = "https://kerkour.com/feed.xml"
+title = "Sylvain Kerkour"
+description = "Author of Black Hat Rust, writes about security, offensive programming, and ethical technology use"
+category = "development"
+tags = ["rust", "security", "cybersecurity", "offensive-security", "programming", "black-hat", "encryption", "written"]
+site_url = "https://kerkour.com"
+image_url = "https://kerkour.com/icon-256.png"
+[[markata-go.blogroll.feeds]]
+url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCbRP3c757lWg9M-U7TyEkXA"
+title = "t3dotgg"
+description = "Theo Browne's YouTube channel covering software development, T3 stack, and tech content"
+category = "programming"
+tags = ["video", "typescript", "react", "nextjs", "t3-stack", "web-development"]
+site_url = "https://www.youtube.com/@t3dotgg"
+[[markata-go.blogroll.feeds]]
+url = "https://changelog.com/master/feed"
+title = "Changelog"
+description = "Software development and open source weekly news and interviews"
+category = "podcast"
+tags = ["podcast", "open-source", "software-development", "interviews", "news", "tech"]
+site_url = "https://changelog.com/podcast"
+image_url = "https://cdn.changelog.com/static/images/share/all-podcasts-7b45ddf7a9d413b02c326a4789827121.png"
+[[markata-go.blogroll.feeds]]
+url = "https://pythonbytes.fm/episodes/rss"
+title = "PythonBytes"
+description = "Weekly Python news and headlines podcast by Michael Kennedy and Brian Okken"
+category = "podcast"
+tags = ["podcast", "python", "news", "headlines", "weekly", "development"]
+site_url = "https://pythonbytes.fm"
+image_url = "https://pythonbytes.fm/static/img/favicon.png?cache_id=77921e"
+[[markata-go.blogroll.feeds]]
+url = "https://talkpython.fm/episodes/rss"
+title = "TalkPython"
+description = "Python conversations and deep-dive interviews hosted by Michael Kennedy"
+category = "podcast"
+tags = ["podcast", "python", "interviews", "development", "conversation", "tech"]
+site_url = "https://talkpython.fm"
+image_url = "https://cdn-podcast.talkpython.fm/static/img/talk-python-social-share.webp?cache_id=4dd65d"
+[[markata-go.blogroll.feeds]]
+url = "https://feeds.transistor.fm/test-code-in-python"
+title = "TestAndCode"
+description = "Python testing podcast hosted by Brian Okken"
+category = "podcast"
+tags = ["podcast", "python", "testing", "pytest", "quality", "development"]
+site_url = "https://testandcode.com"
+[[markata-go.blogroll.feeds]]
+url = "https://vickiboykis.com/index.xml"
+title = "Vicki Boykis"
+description = "Machine learning engineering blog focusing on embeddings, MLOps, and production systems"
+category = "data-science"
+tags = ["written", "machine-learning", "embeddings", "mlops", "data-science", "production"]
+site_url = "https://vickiboykis.com"
+image_url = "https://vickiboykis.com/images/logo.png"
+[[markata-go.blogroll.feeds]]
+url = "https://maggieappleton.com/rss.xml"
+title = "Maggie Appleton"
+description = "Visual essays about programming, design, and anthropology from GitHub Next"
+category = "design"
+tags = ["written", "design", "anthropology", "visual-essays", "programming", "tools-for-thought"]
+site_url = "https://maggieappleton.com"
+image_url = "https://maggieappleton.com/og.png?title=Maggie+Appleton"
+[[markata-go.blogroll.feeds]]
+url = "https://github.com/jbranchaud/til/commits/master.atom"
+title = "jbranchaud"
+description = "Josh Branchaud's Today I Learned collection with 2,200+ micro-learning posts"
+category = "programming"
+tags = ["written", "git", "vim", "ruby", "javascript", "til", "learning"]
+site_url = "https://github.com/jbranchaud/til"
+image_url = "https://images.ctfassets.net/8aevphvgewt8/4pe4eOtUJ0ARpZRE4fNekf/f52b1f9c52f059a33170229883731ed0/GH-Homepage-Universe-img.png"
+[[markata-go.blogroll.feeds]]
+url = "https://daringfireball.net/feeds/main"
+title = "John Gruber"
+description = "Technology commentary and Apple-focused analysis"
+category = "personal"
+tags = ["written", "apple", "technology", "commentary", "analysis", "mac"]
+site_url = "https://daringfireball.net"
+image_url = "https://daringfireball.net/graphics/df-wide-card.png"
+[[markata-go.blogroll.feeds]]
+url = "https://www.youtube.com/feeds/videos.xml?channel_id=UC2SvcdTaeU8qX1oxKNwIMnw"
+title = "Ben Orenstein"
+description = "Developer content and Tuple CEO insights"
+category = "personal"
+tags = ["video", "programming", "career", "tuple", "pair-programming", "development"]
+site_url = "https://www.youtube.com/@r00k123123"
+[[markata-go.blogroll.feeds]]
+url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCsjCKly4KtkvVyDjG_XkzEA"
+title = "Joe Scotto"
+description = "Custom mechanical keyboards and DIY keyboard building"
+category = "hardware"
+tags = ["video", "mechanical-keyboards", "diy", "keyboards", "3d-printing", "customization"]
+site_url = "https://www.youtube.com/joe_scotto"
+[[markata-go.blogroll.feeds]]
+url = "https://daniel.haxx.se/blog/feed/"
+title = "Daniel Stenberg"
+description = "curl creator's blog about open source and networking"
+category = "system-administration"
+tags = ["written", "curl", "open-source", "networking", "c", "protocols"]
+site_url = "https://daniel.haxx.se"
+image_url = "https://daniel.haxx.se/final-12-400-gray.jpg"
+[[markata-go.blogroll.feeds]]
+url = "https://micro.thomasbaart.nl/feed/"
+title = "Thomas Baart"
+description = "Microblog covering keyboards, productivity, and personal tech"
+category = "personal"
+tags = ["written", "keyboards", "productivity", "microblog", "tech", "personal"]
+site_url = "https://micro.thomasbaart.nl"
+[[markata-go.blogroll.feeds]]
+url = "https://austencam.com/feed"
+title = "Austen Cameron"
+description = "Web development blog with tutorials and design insights"
+category = "personal"
+tags = ["written", "web-development", "design", "laravel", "statamic", "tailwind"]
+site_url = "https://austencam.com"
+image_url = "https://austencam.com/apple-touch-icon.png"
+[[markata-go.blogroll.feeds]]
+url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCDAck-gFPTrgTx_qp59-bQA"
+title = "Mischa van den Burg"
+description = "DevOps career guidance and Linux content"
+category = "system-administration"
+tags = ["video", "devops", "career", "linux", "kubernetes", "cloud"]
+site_url = "https://www.youtube.com/@mischavandenburg"
+[[markata-go.blogroll.feeds]]
+url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCJWAqA9DzA1bHwCd0TOUWsw"
+title = "Late Night Linux Family"
+description = "Linux podcast network covering open source and free software"
+category = "podcast"
+tags = ["video", "linux", "open-source", "free-software", "podcast-network"]
+site_url = "https://www.youtube.com/latenightlinux"
+[[markata-go.blogroll.feeds]]
+url = "https://www.youtube.com/feeds/videos.xml?channel_id=UC6QNjBn6KMq5-pe3OE11zZg"
+title = "Slant 3D"
+description = "Large-scale 3D printing and manufacturing services"
+category = "hardware"
+tags = ["video", "3d-printing", "manufacturing", "large-scale", "production", "farming"]
+site_url = "https://www.youtube.com/@slant3d"
+[[markata-go.blogroll.feeds]]
+url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCHugE6eRhqB9_AZQh4DDbIw"
+title = "Jupiter Broadcasting"
+description = "Linux and open source podcast network"
+category = "podcast"
+tags = ["video", "linux", "open-source", "technology", "community", "podcast"]
+site_url = "https://www.jupiterbroadcasting.com"
+[[markata-go.blogroll.feeds]]
+url = "https://feeds.transistor.fm/fork-around-and-find-out"
+title = "FAFO.fm"
+description = "Fork Around And Find Out - building, running, and maintaining software and systems"
+category = "podcast"
+tags = ["podcast", "software-engineering", "infrastructure", "devops", "systems", "interviews"]
+site_url = "https://www.fafo.fm"
+[[markata-go.blogroll.feeds]]
+url = "https://feeds.transistor.fm/makeitwork"
+title = "makeitwork"
+description = "Make It Work podcast with Sarah Wong about work-life balance for working parents"
+category = "podcast"
+tags = ["podcast", "work-life-balance", "parenting", "career", "workplace", "leadership"]
+site_url = "https://makeitwork.podcast"
+[[markata-go.blogroll.feeds]]
+url = "https://cassidoo.co/rss.xml"
+title = "Cassidy Williams"
+description = "Weekly newsletter and blog by Cassidy Williams covering tech, career, and web development"
+category = "programming"
+tags = ["written", "web-development", "career", "javascript", "css", "tech"]
+site_url = "https://cassidoo.co"
+image_url = "https://cassidoo.co/base-card.png"
+[[markata-go.blogroll.feeds]]
+url = "https://justingarrison.com/index.xml"
+title = "Justin Garrison"
+description = "DevOps, cloud, and infrastructure engineering blog"
+category = "programming"
+tags = ["written", "devops", "cloud", "kubernetes", "infrastructure", "linux"]
+site_url = "https://justingarrison.com"
+image_url = "https://justingarrison.com/img/og-image.png"
+[[markata-go.blogroll.feeds]]
+url = "https://treyhunner.com/atom.xml"
+title = "Trey Hunner"
+description = "Python programming blog with tutorials and best practices"
+category = "programming"
+tags = ["written", "python", "programming", "tutorials", "best-practices"]
+site_url = "https://treyhunner.com"
+image_url = "https://www.gravatar.com/avatar/93a988bd85040f58f8417dc4be78c7de?s=500"
+[[markata-go.blogroll.feeds]]
+url = "https://micro.webology.dev/feed.xml"
+title = "Jeff Triplett"
+description = "Microblog about web development and tech topics"
+category = "personal"
+tags = ["written", "microblog", "web-development", "tech", "programming"]
+site_url = "https://micro.webology.dev"
+image_url = "https://micro.blog/webology/favicon.png"
+[[markata-go.blogroll.feeds]]
+url = "https://matthiasott.com/feed"
+title = "Matthias Ott"
+description = "Web design, development, and digital ethics"
+category = "personal"
+tags = ["written", "web-design", "ethics", "development", "user-experience", "accessibility"]
+site_url = "https://matthiasott.com"
+image_url = "https://matthiasott.com/og-image-std.jpg?v=001"
+[[markata-go.blogroll.feeds]]
+url = "https://buttondown.com/ownyourweb/rss"
+title = "ownyourweb"
+description = "Newsletter about owning your web presence and data"
+category = "personal"
+tags = ["written", "web-ownership", "privacy", "data-sovereignty", "indie-web", "newsletter"]
+site_url = "https://buttondown.com/ownyourweb"
+image_url = "https://marketing.buttondown.com/opengraph-image"
+[[markata-go.blogroll.feeds]]
+url = "https://csswizardry.com/feed.xml"
+title = "CSS Wizardry"
+description = "CSS performance, optimization, and front-end engineering"
+category = "design"
+tags = ["written", "css", "performance", "frontend", "optimization", "web-design"]
+site_url = "https://csswizardry.com"
+[[markata-go.blogroll.feeds]]
+url = "https://bryanhogan.com/rss.xml"
+title = "Bryan Hogan"
+description = ".NET development and software engineering blog"
+category = "programming"
+tags = ["written", ".net", "csharp", "dotnet", "software-engineering"]
+site_url = "https://bryanhogan.com"
+image_url = "https://bryanhogan.com/images/Bryan-Hogan-Preview.png"
+[[markata-go.blogroll.feeds]]
+url = "https://brittanyellich.com/index.xml"
+title = "Brittany Ellich"
+description = "Web development and programming blog"
+category = "personal"
+tags = ["written", "web-development", "programming", "tech", "frontend"]
+site_url = "https://brittanyellich.com"
+image_url = "https://brittanyellich.com/_astro/ProfilePicSquare.7t78KdLr_Z18Hm6X.jpg"
+[[markata-go.blogroll.feeds]]
+url = "https://jvns.ca/atom.xml"
+title = "Julia Evans"
+description = "Programming and systems engineering blog with visual explanations and zines"
+category = "programming"
+tags = ["written", "programming", "systems", "linux", "debugging", "visual"]
+site_url = "https://jvns.ca"
+image_url = "https://jvns.ca/favicon.ico"
+[[markata-go.blogroll.feeds]]
+url = "https://www.rockpapershotgun.com/feed/features"
+title = "Rock Paper Shotgun Features"
+description = "Gaming journalism and features"
+category = "personal"
+tags = ["written", "gaming", "journalism", "features", "reviews", "industry"]
+site_url = "https://rockpapershotgun.com/features"
+image_url = "https://assetsio.gnwcdn.com/0502_rockpapershotgun-logo-og.png?width=1200&amp;height=630&amp;fit=crop&amp;enable=upscale&amp;auto=webp"
+[[markata-go.blogroll.feeds]]
+url = "https://qmacro.org/feed.xml"
+title = "DJ Adams"
+description = "SAP development and enterprise programming blog"
+category = "personal"
+tags = ["written", "sap", "enterprise", "programming", "business-software", "development"]
+site_url = "https://qmacro.org"
+image_url = "https://qmacro.org/images/site-image.png"
+[[markata-go.blogroll.feeds]]
+url = "https://dbushell.com/rss.xml"
+title = "David Bushell"
+description = "Web development and design blog"
+category = "personal"
+tags = ["written", "web-development", "design", "frontend", "programming", "ui"]
+site_url = "https://dbushell.com"
+image_url = "https://dbushell.com/assets/images/ogimage.png"
+[[markata-go.blogroll.feeds]]
+url = "https://dbushell.com/notes/rss.xml"
+title = "David Bushell Notes"
+description = "Personal notes and thoughts from David Bushell"
+category = "personal"
+tags = ["written", "notes", "thoughts", "personal", "web-development"]
+site_url = "https://dbushell.com/notes"
+image_url = "https://dbushell.com/assets/images/ogimage.png"
+[[markata-go.blogroll.feeds]]
+url = "https://whitep4nth3r.com/feed.xml"
+title = "Whitep4nth3r"
+description = "Web development and programming blog"
+category = "personal"
+tags = ["written", "web-development", "programming", "frontend", "javascript", "css"]
+site_url = "https://whitep4nth3r.com"
+image_url = "https://res.cloudinary.com/whitep4nth3r/image/upload/w_1200,h_630,c_fill,q_auto,f_auto/w_900,c_fit,g_north_west,co_rgb:ffffff,x_20,y_20,l_text:Anton_100__line_spacing_-40:SALMA%20MAKES%20STUFF%20ON%20THE%20INTERNET./og_2026.png"
+[[markata-go.blogroll.feeds]]
+url = "https://css-tricks.com/feed/"
+title = "CSS Tricks"
+description = "Web development tutorials and CSS techniques"
+category = "personal"
+tags = ["written", "css", "web-development", "tutorials", "frontend", "design"]
+site_url = "https://css-tricks.com"
+image_url = "https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/12/default-social-css-tricks.png"
+[[markata-go.blogroll.feeds]]
+url = "https://willmcgugan.github.io/feed"
+title = "Will McGugan"
+description = "Python and game development blog"
+category = "personal"
+tags = ["written", "python", "game-development", "programming", "graphics", "rich"]
+site_url = "https://willmcgugan.github.io"
+image_url = "http://willmcgugan.github.io/images/will2025.jpeg"
+[[markata-go.blogroll.feeds]]
+url = "https://josephthacker.com/feed"
+title = "Joseph Thacker"
+description = "Security and software development blog"
+category = "personal"
+tags = ["written", "security", "software-development", "programming", "cybersecurity", "tech"]
+site_url = "https://josephthacker.com"
+image_url = "https://josephthacker.com/apple-touch-icon.png"
+[[markata-go.blogroll.feeds]]
+url = "https://martinheinz.dev/rss"
+title = "Martin Heinz"
+description = "DevOps and software engineering blog"
+category = "personal"
+tags = ["written", "devops", "software-engineering", "python", "infrastructure", "best-practices"]
+site_url = "https://martinheinz.dev"
+[[markata-go.blogroll.feeds]]
+url = "https://snarky.ca/rss/"
+title = "Brett Cannon"
+description = "Python core developer blog and technical insights"
+category = "programming"
+tags = ["written", "python", "core-development", "cpython", "language-design"]
+site_url = "https://snarky.ca"
+image_url = "https://snarky.ca/content/images/size/w1200/2016/12/104_0419.JPG"
+[[markata-go.blogroll.feeds]]
+url = "https://lukeplant.me.uk/blog/categories/software-development.xml"
+title = "Luke Plant"
+description = "Web development and Django framework insights"
+category = "programming"
+tags = ["written", "django", "python", "web-development", "programming"]
+site_url = "https://lukeplant.me.uk"
+image_url = "https://lukeplant.me.uk/favicon.ico"
+[[markata-go.blogroll.feeds]]
+url = "https://bernsteinbear.com/feed.xml"
+title = "Max Bernstein"
+description = "Computer science and programming concepts blog"
+category = "programming"
+tags = ["written", "computer-science", "programming", "algorithms", "education"]
+site_url = "https://bernsteinbear.com"
+image_url = "https://bernsteinbear.com/favicon.ico"
+[[markata-go.blogroll.feeds]]
+url = "https://derekkedziora.com/feed.xml"
+title = "Derek Kedziora"
+description = "Software development and programming blog"
+category = "personal"
+tags = ["written", "software-development", "programming", "tech", "web-development"]
+site_url = "https://derekkedziora.com"
+image_url = "https://derekkedziora.com/assets/social/derek-en-moti-16-9.jpeg"
+[[markata-go.blogroll.feeds]]
+url = "https://pype.dev/all/rss.xml"
+title = "Pype dot Dev"
+description = "Python and software development blog"
+category = "personal"
+tags = ["written", "python", "software-development", "programming", "tech"]
+site_url = "https://pype.dev"
+image_url = "https://cdn.statically.io/gh/pypeaday/pype.dev/main/pages/media/og-02.png"
+[[markata-go.blogroll.feeds]]
+url = "https://selfh.st/rss/"
+title = "Selfhosted"
+description = "Self-hosting and personal infrastructure blog"
+category = "personal"
+tags = ["written", "self-hosting", "infrastructure", "privacy", "diy", "personal-cloud"]
+site_url = "https://selfh.st"
+image_url = "https://selfh.st/content/images/size/w1200/2024/07/selfh-st-logo-banner-3.png"
+[[markata-go.blogroll.feeds]]
+url = "https://overreacted.io/rss.xml"
+title = "Dan Abramov"
+description = "React co-creator's blog on JavaScript and React patterns"
+category = "programming"
+tags = ["written", "react", "javascript", "frontend", "patterns"]
+site_url = "https://overreacted.io"
+image_url = "https://overreacted.io/opengraph-image?7c3850b1702447d4"
+[[markata-go.blogroll.feeds]]
+url = "https://jsx.lol/rss.xml"
+title = "jsx.lol"
+description = "JavaScript and React development blog"
+category = "personal"
+tags = ["written", "javascript", "react", "jsx", "frontend", "development"]
+site_url = "https://jsx.lol"
+image_url = "https://jsx.lol/assets/512x512.png"
+[[markata-go.blogroll.feeds]]
+url = "https://blog.dreamsofcode.io/rss.xml"
+title = "Dreams of Code"
+description = "Software development and programming tutorials"
+category = "personal"
+tags = ["written", "software-development", "programming", "tutorials", "tech", "learning"]
+site_url = "https://blog.dreamsofcode.io"
+image_url = "https://dreamsofcode.io/logo.svg"
+[[markata-go.blogroll.feeds]]
+url = "https://hamy.xyz/blog/rss"
+title = "Hammy Labs"
+description = "Development and technology blog"
+category = "personal"
+tags = ["written", "development", "technology", "programming", "tech", "projects"]
+site_url = "https://hamy.xyz"
+image_url = "https://hamy.xyz/static/images/favicon.png"
+[[markata-go.blogroll.feeds]]
+url = "https://justin.searls.co/atom.xml"
+title = "Justin Searls"
+description = "Software development and testing blog"
+category = "personal"
+tags = ["written", "software-development", "testing", "programming", "quality", "tdd"]
+site_url = "https://justin.searls.co"
+image_url = "https://justin.searls.co/img/square.png"
+[[markata-go.blogroll.feeds]]
+url = "https://world.hey.com/dhh/feed.atom"
+title = "David Heinemeier Hansson"
+description = "Ruby on Rails creator's blog on programming and business"
+category = "personal"
+tags = ["written", "ruby-on-rails", "programming", "business", "basecamp", "entrepreneurship"]
+site_url = "https://world.hey.com/dhh"
+[[markata-go.blogroll.feeds]]
+url = "https://thecynical.dev/index.xml"
+title = "The Cynical Dev"
+description = "Critical take on software development practices"
+category = "personal"
+tags = ["written", "software-development", "criticism", "opinion", "tech-industry"]
+site_url = "https://thecynical.dev"
+image_url = "https://thecynical.dev/images/og-cover.webp"
+[[markata-go.blogroll.feeds]]
+url = "https://daniel.feldroy.com/feeds/atom.xml"
+title = "Daniel Roy Greenfeld"
+description = "Django, Python, and web development insights"
+category = "personal"
+tags = ["written", "django", "python", "web-development", "programming", "tutorials"]
+site_url = "https://daniel.feldroy.com"
+image_url = "https://f004.backblazeb2.com/file/daniel-feldroy-com/public/images/profile.jpg"
+[[markata-go.blogroll.feeds]]
+url = "https://endtimes.dev/feed.xml"
+title = "End Times"
+description = "Software development apocalypse humor and commentary"
+category = "personal"
+tags = ["written", "humor", "software-development", "apocalypse", "tech-satire", "commentary"]
+site_url = "https://endtimes.dev"
+[[markata-go.blogroll.feeds]]
+url = "https://tonsky.me/atom.xml"
+title = "Niki Tonsky"
+description = "Software design, minimalism, and thoughtful development"
+category = "personal"
+tags = ["written", "software-design", "minimalism", "development", "user-interface", "thoughtfulness"]
+site_url = "https://tonsky.me"
+image_url = "https://dynogee.com/gen?id=24m2qx9uethuw6p&title=That+yellow+website"
+[[markata-go.blogroll.feeds]]
+url = "https://www.miriamsuzanne.com/feed.xml"
+title = "Miriam Suzanne"
+description = "CSS, web standards, and responsive design blog"
+category = "design"
+tags = ["written", "css", "web-standards", "responsive-design", "layout", "frontend"]
+site_url = "https://www.miriamsuzanne.com"
+image_url = "https://www.miriamsuzanne.com/images/headshots/GBoSaie2zL-1600.jpeg"
+[[markata-go.blogroll.feeds]]
+url = "https://www.ssp.sh/index.xml"
+title = "Simon Späti"
+description = "Web development and indie hacking blog"
+category = "programming"
+tags = ["written", "web-development", "indie-hacking", "javascript", "side-projects"]
+site_url = "https://ssp.sh"
+image_url = "https://www.ssp.sh/og-ssp-image.png"
+[[markata-go.blogroll.feeds]]
+url = "https://www.seangoedecke.com/rss.xml"
+title = "Sean Goedecke"
+description = "Software engineering and development blog"
+category = "personal"
+tags = ["written", "software-engineering", "development", "programming", "tech", "web"]
+site_url = "https://www.seangoedecke.com"
+image_url = "https://www.seangoedecke.com/og-image.jpg"
+[[markata-go.blogroll.feeds]]
+url = "https://simplecto.com/rss/"
+title = "Sam Texas"
+description = "Software development and consulting blog"
+category = "personal"
+tags = ["written", "software-development", "consulting", "programming", "tech", "business"]
+site_url = "https://simplecto.com"
+image_url = "https://images.unsplash.com/photo-1541417904950-b855846fe074?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDN8fHRyb3BpY2FsJTIwZHJvbmV8ZW58MHx8fHwxNzE1ODYyMjk0fDA&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;2000"
+[[markata-go.blogroll.feeds]]
+url = "https://ericwbailey.website/feed/feed.xml"
+title = "Eric Bailey"
+description = "Accessibility and web standards blog"
+category = "personal"
+tags = ["written", "accessibility", "web-standards", "inclusive-design", "a11y", "frontend"]
+site_url = "https://ericwbailey.website"
+image_url = "https://ericwbailey.website/static/favicons/social/facebook.png"
+[[markata-go.blogroll.feeds]]
+url = "https://nicknisi.com/rss.xml"
+title = "Nick Nisi"
+description = "Web development and design blog"
+category = "personal"
+tags = ["written", "web-development", "design", "javascript", "css", "frontend"]
+site_url = "https://nicknisi.com"
+image_url = "https://nicknisi.com/og-image.png"
+[[markata-go.blogroll.feeds]]
+url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCsUalyRg43M8D60mtHe6YcA"
+title = "CultRepo"
+description = "Technology and software development YouTube channel"
+category = "personal"
+tags = ["video", "technology", "software-development", "programming", "tech", "education"]
+site_url = "https://www.youtube.com/@cultrepo"
+image_url = "https://www.youtube.com/img/desktop/yt_1200.png"
+[[markata-go.blogroll.feeds]]
+url = "https://frica.github.io/blog/feeds/all.atom.xml"
+title = "Fabien Rica"
+description = "Personal tech blog and development notes"
+category = "personal"
+tags = ["written", "development", "programming", "tech", "personal", "notes"]
+site_url = "https://frica.github.io"
+[[markata-go.blogroll.feeds]]
+url = "https://terminaltrove.com/blog.xml"
+title = "Terminal Trove Blog"
+description = "Terminal tools and command-line productivity blog"
+category = "personal"
+tags = ["written", "terminal", "command-line", "productivity", "tools", "cli"]
+site_url = "https://terminaltrove.com/blog"
+image_url = "https://terminaltrove.com/og/og.png"
+[[markata-go.blogroll.feeds]]
+url = "https://terminaltrove.com/totw.xml"
+title = "Terminal Tool of the Week"
+description = "Weekly terminal tool recommendations"
+category = "personal"
+tags = ["written", "terminal", "tools", "cli", "command-line", "productivity"]
+site_url = "https://terminaltrove.com/tool-of-the-week"
+image_url = "https://terminaltrove.com/og/og.png"
+[[markata-go.blogroll.feeds]]
+url = "https://jesseleite.com/feed"
+title = "Jesse Leite"
+description = "Web development and programming blog"
+category = "personal"
+tags = ["written", "web-development", "programming", "tech", "frontend", "design"]
+site_url = "https://jesseleite.com"
+image_url = "https://jesseleite.com/apple-touch-icon.png"
+[[markata-go.blogroll.feeds]]
+url = "https://feeds.transistor.fm/campfire-coders"
+title = "Jesse Leite and Austen Cameron"
+description = "Web development podcast and discussions"
+category = "audio"
+tags = ["audio", "web-development", "podcast", "programming", "tech", "discussion"]
+site_url = "https://campfirecoders.com"
+[[markata-go.blogroll.feeds]]
+url = "https://www.bigwengineering.com/blog-feed.xml"
+title = "Adam Whitthauer"
+description = "Software engineering and development blog"
+category = "personal"
+tags = ["written", "software-engineering", "development", "programming", "tech", "architecture"]
+site_url = "https://www.bigwengineering.com"
+image_url = "https://static.wixstatic.com/media/e46759_7cbc7ecc257b431d8bef1298b85334eb%7Emv2.png/v1/fit/w_2500,h_1330,al_c/e46759_7cbc7ecc257b431d8bef1298b85334eb%7Emv2.png"
+[[markata-go.blogroll.feeds]]
+url = "https://www.ladybug.dev/episodes?format=rss"
+title = "Ladybug Podcast"
+description = "Tech podcast focused on development and technology"
+category = "audio"
+tags = ["audio", "technology", "development", "podcast", "programming", "tech"]
+site_url = "https://ladybug.dev"
+image_url = "http://static1.squarespace.com/static/5eb5862de7b09b2f4ce9d8b0/t/5ebad50b7db4ad1780ec15bc/1589302564331/ladybug.jpg?format=1500w"
+[[markata-go.blogroll.feeds]]
+url = "https://kennethreitz.org/feed.xml"
+title = "Kenneth Reitz"
+description = "Python development and requests library creator's blog"
+category = "personal"
+tags = ["written", "python", "requests", "web-development", "programming", "open-source"]
+site_url = "https://kennethreitz.org"
+image_url = "https://kennethreitz.org/static/images/social-card.jpg"
+[[markata-go.blogroll.feeds]]
+url = "https://anniemueller.com/posts_feed"
+title = "Annie Mueller"
+description = "Web development and programming blog"
+category = "personal"
+tags = ["written", "web-development", "programming", "tech", "frontend", "design"]
+site_url = "https://anniemueller.com"
+image_url = "https://anniemueller.com/social_preview.png"
+[[markata-go.blogroll.feeds]]
+url = "https://maurycyz.com/index.xml"
+title = "Maurycyz"
+description = "Software development and tech blog"
+category = "personal"
+tags = ["written", "software-development", "programming", "tech", "web-development"]
+site_url = "https://maurycyz.com"
+image_url = "https://maurycyz.com/favicon.ico"
+[[markata-go.blogroll.feeds]]
+url = "https://pthorpe92.dev/rss"
+title = "Preston Thorpe"
+description = "Software development and programming blog"
+category = "personal"
+tags = ["written", "software-development", "programming", "tech", "web", "development"]
+site_url = "https://pthorpe92.dev"
+image_url = "https://pthorpe92.dev/favicon.png"
+[[markata-go.blogroll.feeds]]
+url = "https://www.zachleat.com/web/feed/"
+title = "Zach Leatherman"
+description = "Web performance, Eleventy, and front-end development blog"
+category = "personal"
+tags = ["written", "web-performance", "eleventy", "jamstack", "static-sites", "frontend"]
+site_url = "https://zachleat.com"
+image_url = "https://screenshot.11ty.app/https%3A%2F%2Fwww.zachleat.com%2F%3Fcache%3D_20251031/opengraph/"
+[[markata-go.blogroll.feeds]]
+url = "https://danielmiessler.com/feed.rss"
+title = "Daniel Miessler"
+description = "Security, technology, and AI analysis blog"
+category = "personal"
+tags = ["written", "security", "technology", "ai", "cybersecurity", "analysis"]
+site_url = "https://danielmiessler.com"
+image_url = "https://danielmiessler.com/images/site-preview-image.webp?t=1772057054804"
+[[markata-go.blogroll.feeds]]
+url = "https://henry.codes/rss/writing.xml"
+title = "Henry (From Online)"
+description = "Web development and programming blog"
+category = "personal"
+tags = ["written", "web-development", "programming", "tech", "frontend", "javascript"]
+site_url = "https://henry.codes"
+image_url = "https://henry.codes/img/og/og-default.png"
+[[markata-go.blogroll.feeds]]
+url = "https://henry.codes/rss/reading-list.xml"
+title = "Henry (From Online) Reading List"
+description = "Henry's reading list and book recommendations"
+category = "personal"
+tags = ["written", "reading-list", "books", "recommendations", "learning"]
+site_url = "https://henry.codes"
+image_url = "https://henry.codes/img/og/og-default.png"
+[[markata-go.blogroll.feeds]]
+url = "https://www.joanwestenberg.com/rss/"
+title = "Joan Westenberg"
+description = "Tech marketing, PR, and startup strategy blog"
+category = "personal"
+tags = ["written", "tech-marketing", "pr", "startups", "strategy", "communications"]
+site_url = "https://www.joanwestenberg.com"
+image_url = "https://www.joanwestenberg.com/content/images/size/w1200/2025/11/Joan-x-3--Cropped-.png"
+[[markata-go.blogroll.feeds]]
+url = "https://stephango.com/feed.xml"
+title = "Steph Ango"
+description = "Note-taking, tools, and digital organization blog"
+category = "personal"
+tags = ["written", "note-taking", "tools", "digital-organization", "productivity", "knowledge-management"]
+site_url = "https://stephango.com"
+image_url = "https://stephango.com/assets/card.png"
+[[markata-go.blogroll.feeds]]
+url = "https://localghost.dev/feed.xml"
+title = "Sophie"
+description = "Web development and personal tech blog"
+category = "personal"
+tags = ["written", "web-development", "programming", "tech", "personal", "projects"]
+site_url = "https://localghost.dev"
+image_url = "https://localghost.dev/img/og-image.png"
+[[markata-go.blogroll.feeds]]
+url = "https://lucumr.pocoo.org/feed.xml"
+title = "Armin Ronacher"
+description = "Python programming and Flask framework creator's blog"
+category = "programming"
+tags = ["written", "python", "flask", "web-development", "open-source"]
+site_url = "https://lucumr.pocoo.org"
+image_url = "https://lucumr.pocoo.org/static/avatar-small.jpg"
+[[markata-go.blogroll.feeds]]
+url = "https://steipete.me/rss.xml"
+title = "Peter Steinberger"
+description = "iOS development and mobile programming blog"
+category = "personal"
+tags = ["written", "ios", "mobile-development", "swift", "iphone", "programming"]
+site_url = "https://steipete.me"
+image_url = "https://steipete.me/peter-avatar.jpg"
+[[markata-go.blogroll.feeds]]
+url = "https://www.lastweekinaws.com/feed/"
+title = "Corey Quinn"
+description = "AWS news and commentary with Last Week in AWS newsletter"
+category = "system-administration"
+tags = ["written", "aws", "cloud", "news", "aws-weekly", "commentary"]
+site_url = "https://lastweekinaws.com"
+image_url = "https://www.lastweekinaws.com/wp-content/uploads/2019/11/lwiaws-lockup-featured-square.png"
+[[markata-go.blogroll.feeds]]
+url = "https://thoughts.melonking.net/rss/"
+title = "Melonking Thoughts"
+description = "Personal thoughts and technology blog"
+category = "personal"
+tags = ["written", "technology", "personal", "thoughts", "blog", "tech"]
+site_url = "https://thoughts.melonking.net"
+image_url = "https://thoughts.melonking.net/apple-touch-icon.png"
+[[markata-go.blogroll.feeds]]
+url = "https://pluralistic.net/feed/"
+title = "Pluralistic: Daily links from Cory Doctorow"
+description = "No trackers, no ads. Black type, white background. Privacy policy: we don't collect or retain any data at all ever period."
+category = "personal"
+tags = ["written", "technology", "personal", "thoughts", "blog", "tech"]
+site_url = "https://pluralistic.net/"
+image_url = "https://i0.wp.com/pluralistic.net/wp-content/uploads/2020/02/cropped-guillotine-French-Revolution.jpg?fit=32%2C32&#038;ssl=1"
+
+[[markata-go.blogroll.feeds]]
+url = "https://blog.thomaswimprine.com/feed.xml"
+title = "Cloudy with a Chance of Tech"
+description = "Thomas Guide to Building Smart Homes with Cloud Computing and Home Assistance."
+category = "development"
+tags = ["written"]
+site_url = "https://blog.thomaswimprine.com/"
+image_url = "https://blog.thomaswimprine.com/assets/icons/favicon.ico"
+
+
+[[markata-go.blogroll.feeds]]
+url = "https://duckdb.org/feed.xml"
+title = "An in-process SQL OLAP database management system"
+description = "DuckDB is an in-process SQL OLAP database management system. Simple, feature-rich, fast & open source."
+category = "development"
+tags = ["written"]
+site_url = "https://duckdb.org/"
+image_url = "https://duckdb.org/images/sharingduckdb.jpg"
+
+
+[[markata-go.blogroll.feeds]]
+url = "https://frank.sauerburger.io/feed.xml"
+title = "Blog"
+description = "DESCRIPTION"
+category = "development"
+tags = ["written"]
+site_url = "https://frank.sauerburger.io/"
+
+
+[[markata-go.blogroll.feeds]]
+url = "https://hn.algolia.com/rss"
+title = "HN Search powered by Algolia"
+description = "Hacker News Search, millions articles and comments at your fingertips."
+category = "development"
+tags = ["written"]
+site_url = "https://hn.algolia.com/"
+image_url = "https://hn.algolia.com/public/algolia-mark-rounded-orange.png"
+
+
+[[markata-go.blogroll.feeds]]
+url = "https://hynek.me/index.xml"
+title = "Hynek Schlawack"
+description = "Hynek Schlawack: Pythonista, Gopher, blogger, speaker, and YouTuber from Berlin / Germany."
+category = "development"
+tags = ["written"]
+site_url = "https://hynek.me/"
+image_url = "https://hynek.me/img/avatar_w200h200.jpg"
+
+
+[[markata-go.blogroll.feeds]]
+url = "https://kubernetes.io/feed.xml"
+title = "Production-Grade Container Orchestration"
+description = """Kubernetes, also known as K8s, is an open source system for automating deployment, scaling, and management of containerized applications.
+It groups containers that make up an application into logical units for easy management and discovery. Kubernetes builds upon 15 years of experience of running production workloads at Google, combined with best-of-breed ideas and practices from the community.
+Planet scale Designed on the same principles that allow Google to run billions of containers a week, Kubernetes can scale without increasing your operations team."""
+category = "development"
+tags = ["written"]
+site_url = "https://kubernetes.io/"
+image_url = "https://kubernetes.io/images/kubernetes-open-graph.png"
+
+
+[[markata-go.blogroll.feeds]]
+url = "https://laughingmeme.org/feed.xml"
+title = "Kellan Elliott-McCrea: Blog"
+description = "A personal blog of Kellan Elliott-McCrea. I don’t really know what a “laughing meme” is. It sounded cool in 1999."
+category = "development"
+tags = ["written"]
+site_url = "https://laughingmeme.org/"
+
+
+[[markata-go.blogroll.feeds]]
+url = "https://maya.land/feed.xml"
+title = "welcome."
+description = "being the World Wide Web presence of one Maya, an enthusiasm enthusiast and Ã¦sthete of no renown."
+category = "development"
+tags = ["written"]
+site_url = "https://maya.land/"
+image_url = "https://maya.land/assets/vanitas-big.jpg"
+
+
+[[markata-go.blogroll.feeds]]
+url = "https://ofek.dev/feed.xml"
+title = "Well met, friend!"
+description = "Software Engineer from Knowhere"
+category = "development"
+tags = ["written"]
+site_url = "https://ofek.dev/"
+image_url = "https://ofek.dev/assets/icons/favicon.ico"
+
+
+[[markata-go.blogroll.feeds]]
+url = "https://robp.dev/feed.xml"
+title = "Rob Parsons"
+description = "© Rob Parsons 2023"
+category = "development"
+tags = ["written"]
+site_url = "https://robp.dev/"
+
+
+[[markata-go.blogroll.feeds]]
+url = "https://ted-merz.com/atom.xml"
+title = "Ted Merz"
+description = "Ted Merz has lived in New York City for more than three decades. He started his career working in financial media, first as a journalist and then a product manager. He now has his own content creation agency."
+category = "development"
+tags = ["written"]
+site_url = "https://ted-merz.com/"
+image_url = "https://ted-merz.com/wp-content/uploads/2021/04/ted-sf.jpg"
+
+
+[[markata-go.blogroll.feeds]]
+url = "https://willj.net/rss.xml"
+title = "Will Jessop's Writings; Sailing, Food, Programming, Technology, and other things"
+description = "I write about Ruby on Rails and Postgres scaling, performance and upgrade work, Ruby, Go and other programming topics, as well as sailing and cooking."
+category = "development"
+tags = ["written"]
+site_url = "https://willj.net/"
+
+
+[[markata-go.blogroll.feeds]]
+url = "https://www.andreinc.net/feed.xml"
+title = "andreinc"
+description = "Personal blog of Andrei N. Ciobanu."
+category = "development"
+tags = ["written"]
+site_url = "https://www.andreinc.net/"
+
+
+[[markata-go.blogroll.feeds]]
+url = "https://www.meetgor.com/rss"
+title = "Meet Gor"
+description = "Tech blog by Meet Gor"
+category = "development"
+tags = ["written"]
+site_url = "https://www.meetgor.com/"
+image_url = "https://meetgor.com/tbicon.png"
+
+[[markata-go.blogroll.feeds]]
+url = "https://baty.net/index.xml"
+title = "Baty.net"
+description = "Recent content on Baty.net"
+site_url = "https://baty.net/"
+handle = "baty"
+image_url = "https://baty.net/img/opengraph.jpg"
+tags = ["written"]
+
+[[blogroll.feeds]]
+url = "https://fyr.io/feed"
+title = "Hello - fyr.io"
+description = "My little corner of the web where I write about life, technology, the indieweb and security. Mostly incoherently."
+site_url = "https://fyr.io/"
+handle = "fyrio"
+image_url = "https://fyr.io/images/rss-logo.png"
+tags = ["written"]
+
+[[blogroll.feeds]]
+url = "https://www.mollywhite.net/feed/feed.xml"
+title = "Molly White"
+description = "Molly White is a researcher, software engineer, and writer who focuses on the cryptocurrency industry, blockchains, web3, and tech more broadly."
+site_url = "https://www.mollywhite.net"
+handle = "mollywhite"
+image_url = "https://www.mollywhite.net/assets/images/molly_illustration.png"
+tags = ["written"]
+
+[[blogroll.feeds]]
+url = "http://feeds.hanselman.com/ScottHanselman"
+title = "Scott Hanselman - Coder, Blogger, Teacher, Speaker, Author"
+description = "Scott Hanselman is a programmer, teacher, speaker, technologist, podcaster, writer, inclusion advocate and more."
+site_url = "https://www.hanselman.com"
+handle = "scotthanselman"
+image_url = "https://images.hanselman.com/main/favicon.ico"
+
+[[blogroll.feeds]]
+url = "https://techdufus.com/feed"
+title = "{ Tech Dufus }"
+description = "TechDufus writes about platform engineering, homelab rebuilds, and agent workflows that hold up in the real world."
+tags = ["written", "homelab", "kubernetes"]
+site_url = "https://techdufus.com/"
+handle = "techdufus"
+image_url = "https://techdufus.com/img/background.jpg"
+
+[markata-go.plugins.steam]
+enabled = true
+api_key = "${STEAM_API_KEY}"
+steam_id = "${STEAM_ID}"
+posts_dir = "pages/steam"
+template = "steam_achievement"
+cache_duration = 3600
+min_playtime_hours = 3.0
+
+[markata-go.wikilinks]
+warn_broken = true
+
+[markata-go.wikilink_hover]
+enabled = true
+
+# Image zoom/lightbox functionality
+[markata-go.image_zoom]
+enabled = true
+auto_all_images = true  # Make ALL images zoomable
+
+# Contribution graph for GitHub-style calendar heatmaps
+[markata-go.contribution_graph]
+enabled = true
+theme = "default"
+
+# =============================================================================
+# WEBMENTION CONFIGURATION
+# =============================================================================
+
+# Ensure the Webmention endpoint is discoverable in HTML <head>
+[markata-go.head]
+[[markata-go.head.link]]
+rel = "webmention"
+href = "https://webmention.io/waylonwalker.com/webmention"
+
+# Receiving webmentions - endpoint configuration (incoming mentions are fetched from webmention.io)
+[markata-go.webmention]
+enabled = true
+endpoint = "https://webmention.io/waylonwalker.com/webmention"
+
+# Sending webmentions - automatically sends webmentions for external links
+[markata-go.webmentions]
+enabled = true
+outgoing = true
+cache_dir = ".markata-cache/webmentions"
+concurrent_requests = 5
+timeout = "30s"
+webmention_io_token = "${WEBMENTION_IO_TOKEN}"
+
+# Navigation links
+[[markata-go.nav]]
+label = "blogroll"
+url = "/blogroll/"
+
+[[markata-go.nav]]
+label = "reader"
+url = "/reader/"
+
+[[markata-go.nav]]
+label = "archive"
+url = "/archive/"
+
+[[markata-go.nav]]
+label = "random"
+url = "/random/"
+
+[markata-go.error_pages]
+enable_404 = true                    # default: true
+custom_404_template = "post.html"    # default: post.html
+
+[markata-go.random_post]
+enabled = true
+path = "random"
+exclude_tags = ["draft", "private"]
+emit_posts_json = true
+
+[markata-go.link_avatars]
+enabled = true
+
+# CSS selector for links to enhance (default: "a[href^='http']")
+selector = "a[href^='http']"
+
+# Avatar size in pixels (default: 16)
+size = 16
+
+# Position: "before" or "after" the link text (default: "before")
+position = "before"
+
+# Mode: "js", "local", or "hosted" (default: "js")
+mode = "local"
+[markata-go.encryption.private_tags]
+gratitude = "default"
+family = "default"
