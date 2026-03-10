@@ -14,10 +14,10 @@ enabled = false
 # palette = "catppuccin-mocha"
 # palette = "default-dark"
 # palette = "default-light"
-# palette = "dracula"
+palette = "dracula"
 # palette = "everforest-dark"
 # palette = "everforest-light"
-palette = "gruvbox-dark"
+# palette = "gruvbox-dark"
 # palette = "gruvbox-light"
 # palette = "kanagawa-dragon"
 # palette = "kanagawa-lotus"
@@ -108,6 +108,7 @@ main {
   position: relative;
   z-index: 10;
 }
+
 """
 
 # Load scripts (snow effect)
@@ -136,8 +137,8 @@ html = """
   <filter id="noiseFilter">
     <feTurbulence 
       type="fractalNoise" 
-      baseFrequency="0.9" 
-      numOctaves="4" 
+      baseFrequency="0.02" 
+      numOctaves="6" 
       stitchTiles="stitch"/>
     <feColorMatrix type="saturate" values="0"/>
     <feComponentTransfer>
@@ -145,7 +146,7 @@ html = """
     </feComponentTransfer>
   </filter>
 
-  <rect width="100%" height="100%" filter="url(#noiseFilter)" opacity="0.8"/>
+  <rect width="100%" height="100%" filter="url(#noiseFilter)" opacity="0.2"/>
 </svg>"""
 z_index = -1
 
@@ -176,6 +177,19 @@ license = "cc-by-4.0"
 # author = "Waylon Walker"
 # social = { twitter = "waylonwalker", bluesky = "waylonwalker.com", github = "WaylonWalker" }
 
+[markata-go.searchcraft]
+enabled = true
+endpoint = "http://localhost:18000"
+ingest_key = "local-ingest"
+read_key = "local-read"
+index_prefix = "waylonwalker"
+index_per_site = true
+delete_missing = true
+batch_size = 100
+skip_on_fast_mode = true
+include_drafts = false
+include_private = false
+
 [markata-go.authors.authors.waylon]
 name = "Waylon Walker"
 email = "hello@waylonwalker.com"
@@ -202,9 +216,6 @@ twitter_handle = "@_waylonwalker"
 default_image = "https://waylonwalker.com/8bitcc.png"
 author_image = "https://waylonwalker.com/8bitcc.png"
 og_image_service = "https://shots.waylonwalker.com/shot/"
-
-# Custom templates for card types (shots, gratitude, blog-post, etc.)
-templates_dir = "templates"
 
 # =============================================================================
 # NAVIGATION
@@ -305,6 +316,11 @@ use_gitignore = true
 # PLUGIN CONFIGURATION
 # =============================================================================
 
+[markata-go.garden]
+# Set high enough to include all current posts + tags.
+# Frontend slider max is derived from generated graph node count.
+max_nodes = 100000
+
 # Enable thoughts plugin for PESOS functionality
 hooks = ["default", "thoughts", "wikilink_hover"]
 
@@ -366,7 +382,7 @@ items_per_page = 10000  # Very large to show all posts on one page
 slug = "blog"
 title = "Blog"
 description = "Full blog posts"
-filter = "published == true and templateKey == \"blog\""
+filter = "published == true and slug != '' and (templateKey == \"blog\" or templateKey == \"blog-post\" or templateKey == \"post\" or template == \"blog\" or template == \"blog-post\" or template == \"post\")"
 sort = "date"
 reverse = true
 
@@ -381,10 +397,10 @@ reverse = true
 
 # TIL feed - Today I Learned posts
 [[markata-go.feeds]]
-slug = "til"
+slug = "til-feed"
 title = "Today I Learned"
 description = "Short TIL posts"
-filter = "published == true and templateKey == \"til\""
+filter = "published == true and templateKey == \"til\" and slug != \"til\""
 sort = "date"
 reverse = true
 
@@ -428,6 +444,7 @@ filter = "templateKey == \"shots\" and \"family\" in tags"
 sort = "date"
 reverse = true
 
+
 # Gratitude feed
 [[markata-go.feeds]]
 slug = "gratitude-feed"
@@ -452,7 +469,7 @@ items_per_page = 100
 slug = "pings"
 title = "Pings"
 description = "Short social media style posts"
-filter = "templateKey == \"ping\" and not \"family\" in tags"
+filter = "published == true and templateKey == \"ping\" and \"family\" not in tags"
 sort = "date"
 reverse = true
 
@@ -524,7 +541,7 @@ items_per_page = 10
 slug = "thoughts-feed"
 title = "Thoughts"
 description = "All thoughts and micro-posts from waylonwalker.com and thoughts.waylonwalker.com"
-filter = "template == 'thought.html' or path startswith 'thoughts/'"
+filter = "published == true and (template == 'thought.html' or path.startswith('pages/thoughts/') or path.startswith('thoughts/') or (template == 'link' and ('thought' in tags or 'thoughts' in tags)))"
 sort = "date"
 reverse = true
 items_per_page = 50
@@ -603,15 +620,6 @@ description = "Photo and video posts"
 filter = "templateKey == \"shots\""
 sort = "date"
 reverse = true
-
-# # Thoughts feed
-# [[markata-go.feeds]]
-# slug = "thoughts"
-# title = "Thoughts"
-# description = "Thoughts and comments"
-# filter = "published == true and templateKey == \"thoughts\""
-# sort = "date"
-# reverse = true
 
 # =============================================================================
 # AUTO-GENERATED FEEDS
@@ -1597,6 +1605,16 @@ site_url = "https://techdufus.com/"
 handle = "techdufus"
 image_url = "https://techdufus.com/img/background.jpg"
 
+[[blogroll.feeds]]
+url = "https://aresluna.org/main.rss"
+title = "Aresluna"
+description = "Marcin Wichary’s site"
+category = "keyboard"
+tags = ["keyboard"]
+site_url = "https://aresluna.org"
+handle = "aresluna"
+image_url = "https://aresluna.org/images/ogimage.png"
+
 [markata-go.plugins.steam]
 enabled = true
 api_key = "${STEAM_API_KEY}"
@@ -1690,3 +1708,35 @@ mode = "local"
 [markata-go.encryption.private_tags]
 gratitude = "default"
 family = "default"
+
+# Each feed renders to a snippet we can include on the homepage
+[[markata-go.feeds]]
+name = "home-posts"
+slug = "snippets/home-posts"
+template = "feed_list.html"
+items_per_page = 5
+sort = "date"
+
+[[markata-go.feeds]]
+name = "home-shots"
+slug = "snippets/shots"
+template = "feed_list.html"
+items_per_page = 5
+filter = "published == true and type == 'shot'"
+sort = "date"
+
+[[markata-go.feeds]]
+name = "home-pings"
+slug = "snippets/pings"
+template = "feed_list.html"
+items_per_page = 5
+filter = "published == true and type == 'ping'"
+sort = "date"
+
+[[markata-go.feeds]]
+name = "home-links"
+slug = "snippets/links"
+template = "feed_list.html"
+items_per_page = 5
+filter = "published == true and type == 'link'"
+sort = "date"
