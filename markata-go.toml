@@ -300,6 +300,7 @@ external = true
 html = true       # Standard HTML pages
 markdown = true   # Raw markdown source (/slug/index.md)
 text = true       # Plain text (/slug/index.txt)
+ansi = true       # Plain text (/slug/index.txt)
 og = true         # OpenGraph cards (/slug/og/index.html)
 
 [markata-go.glob]
@@ -355,6 +356,7 @@ atom = true
 json = true
 markdown = true
 text = true
+ansi = true
 
 # Archive feed - all published posts, newest first
 [[markata-go.feeds]]
