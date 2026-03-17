@@ -12,8 +12,6 @@ config_overrides:
     meta:
     - content: waylonwalker
       name: author
-    - content: '@_waylonwalker'
-      name: 'twitter:creator'
     link:
     - href: https://waylonwalker.com/that-special-post/
       rel: canonical
