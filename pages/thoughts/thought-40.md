@@ -6,9 +6,7 @@ link: https://stackoverflow.com/questions/63511413/fastapi-redirection-for-trail
 tags:
   - fastapi
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

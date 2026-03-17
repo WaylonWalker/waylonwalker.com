@@ -7,9 +7,7 @@ tags:
   - python
   - cli
   - typer
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

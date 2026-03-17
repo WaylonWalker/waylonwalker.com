@@ -5,9 +5,7 @@ template: link
 link: https://daniel.feldroy.com/posts/til-2025-09-env-files-with-uv-run
 tags:
   - python
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

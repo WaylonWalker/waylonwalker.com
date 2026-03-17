@@ -5,9 +5,7 @@ template: link
 link: https://www.reddit.com/r/MechanicalKeyboards/comments/1dyf0d8/ultimate_modular_macro_keyboard_kibly/
 tags:
   - keyboard
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -5,9 +5,7 @@ template: link
 link: https://www.loggly.com/ultimate-guide/using-journalctl/
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

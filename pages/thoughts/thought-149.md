@@ -5,9 +5,7 @@ template: link
 link: https://linuxconfig.org/how-to-kill-process-based-on-the-port-number-in-linux
 tags:
   - arch
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

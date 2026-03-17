@@ -7,9 +7,7 @@ tags:
   - icons
   - font
   - nerdfont
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

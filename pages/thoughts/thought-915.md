@@ -5,9 +5,7 @@ template: link
 link: https://dockframe.com/
 tags:
   - hardware
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

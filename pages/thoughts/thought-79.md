@@ -5,9 +5,7 @@ template: link
 link: https://reqbin.com/req/c-sma2qrvp/curl-post-form-example
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

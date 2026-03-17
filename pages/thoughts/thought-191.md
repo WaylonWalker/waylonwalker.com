@@ -5,9 +5,7 @@ template: link
 link: https://mastodonpy.readthedocs.io/en/stable/
 tags:
   - python
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

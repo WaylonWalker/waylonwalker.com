@@ -6,9 +6,7 @@ link: https://www.youtube.com/watch?v=2hMrk7A8Wf0&t=2081s
 tags:
   - htmx
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

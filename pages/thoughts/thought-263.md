@@ -5,9 +5,7 @@ template: link
 link: https://medium.com/@maciej.pocwierz/how-an-empty-s3-bucket-can-make-your-aws-bill-explode-934a383cb8b1
 tags:
   - aws
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -5,9 +5,7 @@ template: link
 link: https://keeb.io/products/mill-max-hotswap-sockets?variant=32377167511646
 tags:
   - keyboard
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

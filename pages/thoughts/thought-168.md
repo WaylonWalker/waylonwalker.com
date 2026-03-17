@@ -5,9 +5,7 @@ template: link
 link: https://gobyexample.com/
 tags:
   - go
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -5,9 +5,7 @@ template: link
 link: https://techdufus.com/#timeline
 tags:
   - homepage
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

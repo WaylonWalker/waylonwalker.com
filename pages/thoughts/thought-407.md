@@ -7,9 +7,7 @@ tags:
   - vim
   - regex
   - refactoring
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

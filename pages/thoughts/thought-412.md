@@ -5,9 +5,7 @@ template: link
 link: https://github.com/Kozea/WeasyPrint/issues/2200
 tags:
   - python
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -5,9 +5,7 @@ template: link
 link: https://changelog.com/friends/7
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

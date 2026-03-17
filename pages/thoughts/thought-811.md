@@ -5,9 +5,7 @@ template: link
 link: https://github.com/cortesi/modd
 tags:
   - dev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

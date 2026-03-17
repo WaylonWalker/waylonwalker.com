@@ -5,9 +5,7 @@ template: link
 link: https://hotwired.dev/
 tags:
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

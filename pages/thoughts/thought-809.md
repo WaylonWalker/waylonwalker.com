@@ -6,9 +6,7 @@ link: https://gist.github.com/0xs34n/a5738db1cc24495e69b6d6c08a451890
 tags:
   - ai
   - llm
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

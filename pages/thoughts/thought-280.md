@@ -6,9 +6,7 @@ link: https://areweanticheatyet.com/
 tags:
   - linux
   - gaming
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -6,9 +6,7 @@ link: https://www.svgbackgrounds.com/
 tags:
   - webdev
   - css
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

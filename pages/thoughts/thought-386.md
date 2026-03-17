@@ -5,9 +5,7 @@ template: link
 link: https://www.buttery.so/icons
 tags:
   - Webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

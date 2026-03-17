@@ -5,9 +5,7 @@ template: link
 link: https://daverupert.com/2018/01/welcome-to-rss-club/
 tags:
   - blogging
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

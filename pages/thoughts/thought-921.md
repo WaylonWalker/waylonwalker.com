@@ -6,9 +6,7 @@ link: https://jerodsanto.net/2026/02/the-shovelware-cometh/
 tags:
   - llm
   - ai
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

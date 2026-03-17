@@ -5,9 +5,7 @@ template: link
 link: https://github.com/nalgeon/redka
 tags:
   - redis
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

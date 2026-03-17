@@ -5,9 +5,7 @@ template: link
 link: https://bsky.app/profile/ellie.wtf/post/3lecj36r5ps2x
 tags:
   - cli
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

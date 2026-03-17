@@ -5,9 +5,7 @@ template: link
 link: https://www.youtube.com/watch?v=9z8XdJnQp1A
 tags:
   - woodworking
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

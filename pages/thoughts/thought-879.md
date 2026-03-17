@@ -5,9 +5,7 @@ template: link
 link: https://dbushell.com/2025/12/04/deleting-code-for-performance/
 tags:
   - blog
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

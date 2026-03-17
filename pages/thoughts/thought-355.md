@@ -5,9 +5,7 @@ template: link
 link: https://x.com/verge/status/984764889754456065
 tags:
   - keyboard
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

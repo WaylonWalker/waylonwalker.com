@@ -5,9 +5,7 @@ template: link
 link: https://cluster-api.sigs.k8s.io/reference/providers
 tags:
   - k8s
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

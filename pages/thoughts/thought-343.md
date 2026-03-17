@@ -5,9 +5,7 @@ template: link
 link: https://huggingface.co/spaces/Xenova/remove-background-web
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

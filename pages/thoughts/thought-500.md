@@ -5,9 +5,7 @@ template: link
 link: https://bsky.app/profile/csswizardry.com/post/3lckq4qo6zs22
 tags:
   - rss
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

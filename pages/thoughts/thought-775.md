@@ -6,9 +6,7 @@ link: https://www.meetgor.com/thoughts/i-kind-of-hate-agentic-ides-for-the-sake-
 tags:
   - llm
   - agentic
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

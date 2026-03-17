@@ -5,9 +5,7 @@ template: link
 link: https://pype.dev/im-back-from-the-dead/
 tags:
   - note
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

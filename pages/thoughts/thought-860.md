@@ -5,9 +5,7 @@ template: link
 link: https://maurycyz.com/misc/easy_git/
 tags:
   - git
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

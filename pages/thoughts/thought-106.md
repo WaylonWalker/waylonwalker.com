@@ -6,9 +6,7 @@ link: https://v1.htmx.org/extensions/disable-element/
 tags:
   - htmx
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

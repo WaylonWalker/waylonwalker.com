@@ -5,9 +5,7 @@ template: link
 link: https://github.com/numtide/treefmt
 tags:
   - dev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -5,9 +5,7 @@ template: link
 link: https://developers.cloudflare.com/ssl/troubleshooting/version-cipher-mismatch/
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

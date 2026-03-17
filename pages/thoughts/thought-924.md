@@ -5,9 +5,7 @@ template: link
 link: https://hackaday.com/tag/naya-connect/
 tags:
   - keeb
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

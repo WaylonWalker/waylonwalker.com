@@ -5,9 +5,7 @@ template: link
 link: https://www.siderolabs.com/blog/ai-workloads-on-talos-linux/
 tags:
   - k8s
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

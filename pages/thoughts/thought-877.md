@@ -5,9 +5,7 @@ template: link
 link: https://www.youtube.com/shorts/MhZQTnfo8Ok
 tags:
   - self-hosting
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

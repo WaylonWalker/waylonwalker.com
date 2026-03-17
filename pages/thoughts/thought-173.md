@@ -6,9 +6,7 @@ link: https://stripe.com/docs/search#search-query-language
 tags:
   - webdev
   - stripe
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

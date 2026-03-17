@@ -5,9 +5,7 @@ template: link
 link: https://www.neverjust.net/
 tags:
   - catalytic
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

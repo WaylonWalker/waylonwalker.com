@@ -7,9 +7,7 @@ tags:
   - nvim
   - data
   - database
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

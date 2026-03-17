@@ -5,9 +5,7 @@ template: link
 link: https://buttondown.com/ownyourweb
 tags:
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

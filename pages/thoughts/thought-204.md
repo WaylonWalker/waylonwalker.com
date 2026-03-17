@@ -5,9 +5,7 @@ template: link
 link: https://2.5admins.com/2-5-admins-180/
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

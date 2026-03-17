@@ -5,9 +5,7 @@ template: link
 link: https://www.youtube.com/watch?v=VRjgNgJms3Q
 tags:
   - ai
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

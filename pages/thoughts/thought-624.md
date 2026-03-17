@@ -6,9 +6,7 @@ link: https://www.youtube.com/watch?v=hbEWfC4k-Gw
 tags:
   - dev
   - testing
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

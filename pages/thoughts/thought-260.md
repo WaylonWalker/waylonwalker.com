@@ -5,9 +5,7 @@ template: link
 link: https://docs.pydantic.dev/2.7/api/networks/#pydantic.networks.EmailStr
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

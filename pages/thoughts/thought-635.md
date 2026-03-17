@@ -5,9 +5,7 @@ template: link
 link: https://www.christopherbiscardi.com/wtf-is-kubernetes
 tags:
   - k8s
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

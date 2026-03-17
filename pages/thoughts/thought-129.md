@@ -7,9 +7,7 @@ tags:
   - cli
   - shell
   - zsh
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

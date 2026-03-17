@@ -7,9 +7,7 @@ tags:
   - webdev
   - meta
   - twitter
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

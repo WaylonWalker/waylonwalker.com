@@ -6,9 +6,7 @@ link: https://sealed-secrets.netlify.app/
 tags:
   - k8s
   - kubernetes
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

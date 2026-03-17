@@ -5,9 +5,7 @@ template: link
 link: https://chriscoyier.net/2025/09/02/12693/
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -6,9 +6,7 @@ link: https://stackoverflow.com/questions/8988915/sqlite-count-slow-on-big-table
 tags:
   - sql
   - sqlite
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -5,9 +5,7 @@ template: link
 link: https://transparenttextures.com/
 tags:
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

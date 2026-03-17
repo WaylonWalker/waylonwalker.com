@@ -6,9 +6,7 @@ link: https://treyhunner.com/2024/10/switching-from-virtualenvwrapper-to-direnv-
 tags:
   - python
   - uv
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

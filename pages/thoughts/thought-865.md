@@ -5,9 +5,7 @@ template: link
 link: https://www.youtube.com/watch?v=2TUER4JftGA
 tags:
   - minecraft
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

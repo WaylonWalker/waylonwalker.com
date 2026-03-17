@@ -6,9 +6,7 @@ link: https://heroicons.com/
 tags:
   - webdev
   - icons
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

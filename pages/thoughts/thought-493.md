@@ -5,9 +5,7 @@ template: link
 link: https://www.youtube.com/watch?v=_VQl_HTk9PM&t=2607s
 tags:
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

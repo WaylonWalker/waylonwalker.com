@@ -7,9 +7,7 @@ tags:
   - sqlmodel
   - sqlalchemy
   - orm
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

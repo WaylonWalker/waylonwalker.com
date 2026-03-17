@@ -6,9 +6,7 @@ link: https://slashpages.net/
 tags:
   - blog
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

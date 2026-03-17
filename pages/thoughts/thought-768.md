@@ -5,9 +5,7 @@ template: link
 link: https://youtu.be/RG69PCAslA0?si=ZogGDP9TOI6gDcMM
 tags:
   - windows
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

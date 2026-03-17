@@ -8,9 +8,7 @@ tags:
   - data
   - duckdb
   - pandas
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

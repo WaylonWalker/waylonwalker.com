@@ -6,9 +6,7 @@ link: https://htmx.org/extensions/response-targets/
 tags:
   - htmx
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

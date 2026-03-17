@@ -6,9 +6,7 @@ link: https://fastapi.tiangolo.com/tutorial/handling-errors/
 tags:
   - webdev
   - fastapi
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

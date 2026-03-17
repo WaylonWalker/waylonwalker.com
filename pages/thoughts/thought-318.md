@@ -5,9 +5,7 @@ template: link
 link: https://changelog.com/friends/49
 tags:
   - pod
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

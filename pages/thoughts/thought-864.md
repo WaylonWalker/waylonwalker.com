@@ -6,9 +6,7 @@ link: https://www.youtube.com/watch?v=AEPf9zUI_fQ
 tags:
   - database
   - oss
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

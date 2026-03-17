@@ -5,9 +5,7 @@ template: link
 link: https://www.printables.com/model/757297-gridfinity-rugged-storage-box-parametric-and-custo/files
 tags:
   - 3d printing
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

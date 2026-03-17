@@ -7,9 +7,7 @@ tags:
   - llm
   - ai
   - agentic
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

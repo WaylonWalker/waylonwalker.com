@@ -5,9 +5,7 @@ template: link
 link: https://twitter.com/simonw/status/1772043579231445366
 tags:
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

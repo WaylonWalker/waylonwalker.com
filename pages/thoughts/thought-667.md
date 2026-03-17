@@ -6,9 +6,7 @@ link: https://pype.dev/backups-interrupted-by-full-disk-usage/
 tags:
   - homelab
   - self-host
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

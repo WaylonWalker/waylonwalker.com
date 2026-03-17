@@ -5,9 +5,7 @@ template: link
 link: https://www.youtube.com/watch?v=kZvk4dUyWVs
 tags:
   - moto
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

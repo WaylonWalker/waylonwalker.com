@@ -6,9 +6,7 @@ link: https://talkpython.fm/episodes/show/433/litestar-effortlessly-build-perfor
 tags:
   - webdev
   - python
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

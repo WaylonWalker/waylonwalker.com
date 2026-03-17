@@ -6,9 +6,7 @@ link: https://blog.nashcom.de/nashcomblog.nsf/dx/k3s-podman-and-a-registry.htm
 tags:
   - homelab
   - containers
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

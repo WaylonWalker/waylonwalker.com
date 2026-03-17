@@ -6,9 +6,7 @@ link: https://github.com/rushter/selectolax
 tags:
   - python
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

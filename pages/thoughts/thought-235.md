@@ -5,9 +5,7 @@ template: link
 link: https://dotesports.com/hp/news/hogwarts-legacy-argyllshire-map-what-does-the-button-do
 tags:
   - hogwarts
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

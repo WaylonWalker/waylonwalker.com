@@ -5,9 +5,7 @@ template: link
 link: https://docs.qmk.fm/keycodes
 tags:
   - keyboard
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

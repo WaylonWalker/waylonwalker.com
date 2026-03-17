@@ -5,9 +5,7 @@ template: link
 link: https://justin.searls.co/takes/2025-09-03-14h21m54s/
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

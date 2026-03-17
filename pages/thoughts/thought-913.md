@@ -6,9 +6,7 @@ link: https://www.lastweekinaws.com/blog/i-hope-this-email-finds-you-before-i-do
 tags:
   - llm
   - ai
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

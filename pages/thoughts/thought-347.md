@@ -6,9 +6,7 @@ link: https://stackoverflow.com/questions/75886276/text-cursor-bug-in-my-chrome-
 tags:
   - webdev
   - chrome
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

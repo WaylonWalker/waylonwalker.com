@@ -6,9 +6,7 @@ link: https://x.com/aarondfrancis/status/1833533150674268469
 tags:
   - database
   - postgres
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

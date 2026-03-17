@@ -6,9 +6,7 @@ link: https://grafana.com/docs/grafana/latest/datasources/tempo/configure-tempo-
 tags:
   - grafana
   - tempo
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

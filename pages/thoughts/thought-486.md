@@ -5,9 +5,7 @@ template: link
 link: https://cassidoo.co/post/web-dev-sentence/
 tags:
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

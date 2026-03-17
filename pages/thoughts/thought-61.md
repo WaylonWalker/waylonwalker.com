@@ -8,9 +8,7 @@ tags:
   - cloud
   - data
   - s3
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

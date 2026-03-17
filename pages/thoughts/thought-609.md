@@ -5,9 +5,7 @@ template: link
 link: https://chriscoyier.net/2025/04/30/12292/
 tags:
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

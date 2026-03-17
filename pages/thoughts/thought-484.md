@@ -6,9 +6,7 @@ link: https://stackoverflow.com/questions/69456875/how-to-configure-base-url-for
 tags:
   - webdev
   - htmx
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

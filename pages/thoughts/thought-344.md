@@ -6,9 +6,7 @@ link: https://fullystacked.net/render-blocking-on-purpose/
 tags:
   - html
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

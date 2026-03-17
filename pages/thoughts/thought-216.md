@@ -6,9 +6,7 @@ link: https://kubernetes.io/docs/tasks/configure-pod-container/configure-livenes
 tags:
   - k8s
   - kubernetes
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

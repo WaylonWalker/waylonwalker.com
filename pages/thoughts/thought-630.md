@@ -6,9 +6,7 @@ link: https://www.youtube.com/watch?v=TACa-vtHQ9k&t=2s
 tags:
   - markdown
   - blogging
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -6,9 +6,7 @@ link: https://www.youtube.com/watch?v=UBOj6rqRUME
 tags:
   - webdev
   - css
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

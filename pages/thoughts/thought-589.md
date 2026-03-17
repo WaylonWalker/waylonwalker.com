@@ -5,9 +5,7 @@ template: link
 link: https://github.com/adrianlopezroche/fdupes
 tags:
   - cli
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

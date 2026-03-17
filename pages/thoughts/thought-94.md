@@ -8,9 +8,7 @@ tags:
   - sql
   - sqlite
   - fts
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

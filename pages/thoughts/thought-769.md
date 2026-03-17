@@ -5,9 +5,7 @@ template: link
 link: https://x.com/dhh/status/1950462181331349688
 tags:
   - catalytic
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

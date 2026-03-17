@@ -5,9 +5,7 @@ template: link
 link: https://syntax.fm/show/696/how-to-build-a-website-or-app
 tags:
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

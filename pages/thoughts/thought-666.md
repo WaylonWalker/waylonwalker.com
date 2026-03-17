@@ -5,9 +5,7 @@ template: link
 link: https://pype.dev/queso-notes/
 tags:
   - blog
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -8,9 +8,7 @@ tags:
   - markdown
   - cms
   - later
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -6,9 +6,7 @@ link: https://shoptalkshow.com/605/
 tags:
   - blogging
   - web
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

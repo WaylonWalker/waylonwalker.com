@@ -6,9 +6,7 @@ link: https://css-tricks.com/snippets/css/change-autocomplete-styles-webkit-brow
 tags:
   - webdev
   - css
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

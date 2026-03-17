@@ -5,9 +5,7 @@ template: link
 link: https://bsky.app/profile/letitmelo.bsky.social/post/3m4bxweqs3k2u
 tags:
   - gaming
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

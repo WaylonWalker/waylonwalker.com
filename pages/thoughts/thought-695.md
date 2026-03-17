@@ -5,9 +5,7 @@ template: link
 link: https://blog.jim-nielsen.com/2022/visualizing-my-blogs-links/
 tags:
   - blog
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

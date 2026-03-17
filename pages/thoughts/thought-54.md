@@ -8,9 +8,7 @@ tags:
   - rich
   - terminal
   - debugging
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

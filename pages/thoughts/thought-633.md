@@ -5,9 +5,7 @@ template: link
 link: https://textual.textualize.io/blog/2025/05/07/the-future-of-textualize/
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

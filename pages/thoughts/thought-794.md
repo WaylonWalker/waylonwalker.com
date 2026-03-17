@@ -6,9 +6,7 @@ link: https://justin.searls.co/slops/
 tags:
   - ai
   - llm
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

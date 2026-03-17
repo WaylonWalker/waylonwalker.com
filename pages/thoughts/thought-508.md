@@ -5,9 +5,7 @@ template: link
 link: https://matthiasott.com/notes/owning-it
 tags:
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

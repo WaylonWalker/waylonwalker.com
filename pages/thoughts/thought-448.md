@@ -7,9 +7,7 @@ tags:
   - blog
   - rss
   - feed
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

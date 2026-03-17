@@ -6,9 +6,7 @@ link: https://treyhunner.com/2024/12/lazy-self-installing-python-scripts-with-uv
 tags:
   - python
   - uv
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

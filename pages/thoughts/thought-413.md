@@ -7,9 +7,7 @@ tags:
   - zulip
   - chat
   - self-hosted
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

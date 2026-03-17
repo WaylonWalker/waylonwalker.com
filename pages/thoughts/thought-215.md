@@ -6,9 +6,7 @@ link: https://stackoverflow.com/questions/43380939/where-does-the-convention-of-
 tags:
   - docker
   - healthchecks
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

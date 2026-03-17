@@ -5,9 +5,7 @@ template: link
 link: https://vi.stackexchange.com/questions/39947/nvim-vim-o-cmdheight-0-looses-the-recording-a-macro-messages
 tags:
   - nvim
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

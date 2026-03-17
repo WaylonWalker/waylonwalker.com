@@ -5,9 +5,7 @@ template: link
 link: https://github.com/astral-sh/python-build-standalone/blob/main/.github/workflows/release.yml
 tags:
   - just
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

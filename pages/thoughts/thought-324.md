@@ -5,9 +5,7 @@ template: link
 link: https://encore.dev/blog/queueing
 tags:
   - infra
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

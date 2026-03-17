@@ -5,9 +5,7 @@ template: link
 link: https://docker-minecraft-server.readthedocs.io/en/latest/
 tags:
   - minecraft
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

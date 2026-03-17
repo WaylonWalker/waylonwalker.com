@@ -5,9 +5,7 @@ template: link
 link: https://dbushell.com/2025/05/07/glossary-web-component/
 tags:
   - blog
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

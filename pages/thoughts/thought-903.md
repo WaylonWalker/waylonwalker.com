@@ -7,9 +7,7 @@ tags:
   - webdev
   - css
   - tailwindcss
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

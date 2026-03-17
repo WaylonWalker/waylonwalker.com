@@ -7,9 +7,7 @@ tags:
   - database
   - event
   - recommended
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

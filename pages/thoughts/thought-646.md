@@ -5,9 +5,7 @@ template: link
 link: https://reader.waylonwalker.com/blogroll/
 tags:
   - rss
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

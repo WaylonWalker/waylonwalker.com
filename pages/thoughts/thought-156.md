@@ -6,9 +6,7 @@ link: https://www.youtube.com/watch?v=cQAEK9PBY8U&t=186
 tags:
   - infra
   - k8s
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

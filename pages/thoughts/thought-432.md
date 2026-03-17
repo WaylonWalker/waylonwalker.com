@@ -6,9 +6,7 @@ link: https://containers.github.io/bootc/
 tags:
   - docker
   - containers
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

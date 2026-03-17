@@ -6,9 +6,7 @@ link: https://gridfinity.perplexinglabs.com/pr/gridfinity-extended/0/0
 tags:
   - gridfinity
   - 3d printing
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

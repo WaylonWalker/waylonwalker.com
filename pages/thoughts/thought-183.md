@@ -6,9 +6,7 @@ link: https://github.com/pallets/jinja/issues/1068
 tags:
   - webdev
   - python
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

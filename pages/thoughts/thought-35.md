@@ -9,9 +9,7 @@ tags:
   - duckdb
   - textual
   - harlequin
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

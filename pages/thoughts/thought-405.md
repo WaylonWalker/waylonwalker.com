@@ -5,9 +5,7 @@ template: link
 link: https://github.com/helix-editor/helix/issues/2232
 tags:
   - helix
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

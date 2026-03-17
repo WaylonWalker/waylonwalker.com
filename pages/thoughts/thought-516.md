@@ -6,9 +6,7 @@ link: https://gitingest.com/
 tags:
   - ai
   - llm
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

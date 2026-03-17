@@ -5,9 +5,7 @@ template: link
 link: https://twitter.com/pypeaday/status/1727156823185113304
 tags:
   - words
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

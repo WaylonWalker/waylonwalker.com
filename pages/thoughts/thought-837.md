@@ -5,9 +5,7 @@ template: link
 link: https://www.bigwengineering.com/post/big-w-a-family-tradition?utm_source=linkedin&utm_medium=blog.post-promoter&utm_campaign=b9f7c31c-6725-4253-bb37-b10502942676
 tags:
   - catalytic
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

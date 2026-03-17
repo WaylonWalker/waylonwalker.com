@@ -5,9 +5,7 @@ template: link
 link: https://www.youtube.com/watch?v=Apn8ucs7AL0
 tags:
   - css
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

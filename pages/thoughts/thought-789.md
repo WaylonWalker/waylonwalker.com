@@ -5,9 +5,7 @@ template: link
 link: https://world.hey.com/dhh/omarchy-is-on-the-move-8f848fa4
 tags:
   - linux
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

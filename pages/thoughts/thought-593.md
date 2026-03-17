@@ -6,9 +6,7 @@ link: https://selfhosted.show/29?t=637
 tags:
   - homelab
   - self-host
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -5,9 +5,7 @@ template: link
 link: https://github.com/olimorris/codecompanion.nvim
 tags:
   - nvim
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

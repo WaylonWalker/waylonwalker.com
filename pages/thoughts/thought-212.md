@@ -6,9 +6,7 @@ link: https://pypi.org/project/flake8-to-ruff/
 tags:
   - python
   - linting
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

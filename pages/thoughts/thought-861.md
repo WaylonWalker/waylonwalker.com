@@ -5,9 +5,7 @@ template: link
 link: https://www.youtube.com/watch?v=kP93L683UOE
 tags:
   - oss
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

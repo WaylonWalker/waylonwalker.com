@@ -6,9 +6,7 @@ link: https://akomljen.com/kubernetes-persistent-volumes-with-deployment-and-sta
 tags:
   - homelab
   - k3s
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

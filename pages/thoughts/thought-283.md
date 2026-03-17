@@ -6,9 +6,7 @@ link: https://www.stlgears.com/generators/3dprint
 tags:
   - 3d
   - printing
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

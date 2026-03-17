@@ -5,9 +5,7 @@ template: link
 link: https://robp.dev/the-adapter-pattern-in-python/
 tags:
   - python
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

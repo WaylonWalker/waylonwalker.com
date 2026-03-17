@@ -5,9 +5,7 @@ template: link
 link: https://dbushell.com/2024/12/09/weblogging-1/
 tags:
   - blog
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

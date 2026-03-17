@@ -5,9 +5,7 @@ template: link
 link: https://simonwillison.net/2024/Oct/4/sqlite-rsync/
 tags:
   - sqlite
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

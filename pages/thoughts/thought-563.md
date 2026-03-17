@@ -5,9 +5,7 @@ template: link
 link: https://github.com/valkey-io/valkey
 tags:
   - dev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -6,9 +6,7 @@ link: https://www.youtube.com/watch?v=SQ0mBnJmd6I
 tags:
   - open-source
   - dev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

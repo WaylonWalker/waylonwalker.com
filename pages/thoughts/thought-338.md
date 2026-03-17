@@ -5,9 +5,7 @@ template: link
 link: https://github.com/svenstaro/miniserve
 tags:
   - http
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

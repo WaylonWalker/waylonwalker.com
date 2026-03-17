@@ -5,9 +5,7 @@ template: link
 link: https://brutalist.report/
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

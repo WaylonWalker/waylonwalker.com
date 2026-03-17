@@ -6,9 +6,7 @@ link: https://15r10nk.github.io/inline-snapshot/
 tags:
   - python
   - testing
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

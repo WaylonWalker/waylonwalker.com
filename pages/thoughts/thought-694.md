@@ -5,9 +5,7 @@ template: link
 link: https://dbushell.com/2025/06/13/your-framework-is-showing-nextjs-error/
 tags:
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

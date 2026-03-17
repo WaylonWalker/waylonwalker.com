@@ -6,9 +6,7 @@ link: https://developer.mozilla.org/en-US/docs/Web/CSS/page-break-after
 tags:
   - webdev
   - css
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

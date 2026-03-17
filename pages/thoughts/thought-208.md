@@ -5,9 +5,7 @@ template: link
 link: https://github.com/jesseduffield/lazydocker
 tags:
   - docker
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -5,9 +5,7 @@ template: link
 link: https://blog.jim-nielsen.com/2020/using-netlify-analytics-to-build-list-of-popular-posts/
 tags:
   - blogging
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

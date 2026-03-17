@@ -5,9 +5,7 @@ template: link
 link: https://www.zachleat.com/web/snow-fall/
 tags:
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

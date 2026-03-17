@@ -5,9 +5,7 @@ template: link
 link: https://cheatography.com/linux-china/cheat-sheets/justfile/
 tags:
   - cheatsheet
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

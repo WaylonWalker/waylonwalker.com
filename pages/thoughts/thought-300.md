@@ -5,9 +5,7 @@ template: link
 link: https://ulauncher.io/
 tags:
   - linux
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

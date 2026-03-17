@@ -5,9 +5,7 @@ template: link
 link: https://github.com/ublue-os/image-template
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

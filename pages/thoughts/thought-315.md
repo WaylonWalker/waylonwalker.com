@@ -6,9 +6,7 @@ link: https://github.com/stackrox/kube-linter
 tags:
   - k8s
   - kubernetes
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

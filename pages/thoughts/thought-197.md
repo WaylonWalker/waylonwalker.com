@@ -5,9 +5,7 @@ template: link
 link: https://github.com/charmbracelet/mods
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

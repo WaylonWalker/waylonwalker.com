@@ -6,9 +6,7 @@ link: https://forgejo.org/docs/latest/user/repo-mirror/
 tags:
   - git
   - self-hosted
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

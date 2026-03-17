@@ -7,9 +7,7 @@ tags:
   - webdev
   - seo
   - og
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

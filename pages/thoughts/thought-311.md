@@ -6,9 +6,7 @@ link: https://talkpython.fm/episodes/show/323/best-practices-for-docker-in-produ
 tags:
   - python
   - docker
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

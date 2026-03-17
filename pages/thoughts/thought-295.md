@@ -5,9 +5,7 @@ template: link
 link: https://www.howtogeek.com/446198/how-to-force-dark-mode-on-every-website-in-google-chrome/
 tags:
   - linux
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

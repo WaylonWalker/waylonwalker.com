@@ -5,9 +5,7 @@ template: link
 link: https://bsky.app/profile/castpixel.bsky.social/post/3mf52azn5oc2h
 tags:
   - pcb
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

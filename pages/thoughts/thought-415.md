@@ -7,9 +7,7 @@ tags:
   - keyboard
   - ticklemykeys
   - 3dprinting
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

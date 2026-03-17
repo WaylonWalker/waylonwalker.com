@@ -5,9 +5,7 @@ template: link
 link: https://twitter.com/cassidoo/status/1770900985382138291
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

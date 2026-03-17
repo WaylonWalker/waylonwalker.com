@@ -6,9 +6,7 @@ link: https://cassidoo.co/post/obsidian-templater/
 tags:
   - meta
   - blog
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

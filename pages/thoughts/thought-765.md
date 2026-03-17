@@ -6,9 +6,7 @@ link: https://www.youtube.com/watch?v=x-sW4sKZocA
 tags:
   - dev
   - self-hosted
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

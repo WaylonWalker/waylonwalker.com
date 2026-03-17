@@ -7,9 +7,7 @@ tags:
   - homelab
   - k3s
   - containers
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

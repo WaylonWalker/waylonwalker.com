@@ -6,9 +6,7 @@ link: https://ollama.ai/
 tags:
   - llm
   - ai
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

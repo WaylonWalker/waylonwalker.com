@@ -5,9 +5,7 @@ template: link
 link: https://halfwit.github.io/2017/05/08/keyboardblog.html
 tags:
   - keyboard
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

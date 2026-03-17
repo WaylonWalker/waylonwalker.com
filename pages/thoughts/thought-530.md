@@ -5,9 +5,7 @@ template: link
 link: https://brittanyellich.com/note/availability/
 tags:
   - dev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

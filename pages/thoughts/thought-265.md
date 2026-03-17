@@ -5,9 +5,7 @@ template: link
 link: https://github.com/Alir3z4/html2text
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

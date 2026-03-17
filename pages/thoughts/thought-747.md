@@ -5,9 +5,7 @@ template: link
 link: https://blog.thomaswimprine.com/blog/2025-07-07-Lab-Update/
 tags:
   - homelab
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

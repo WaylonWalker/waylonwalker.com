@@ -6,9 +6,7 @@ link: https://biomejs.dev/formatter/
 tags:
   - webdev
   - cli
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

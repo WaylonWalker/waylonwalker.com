@@ -6,9 +6,7 @@ link: https://github.com/qmk/qmk_firmware/blob/master/docs/features/programmable
 tags:
   - qmk
   - keeb
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

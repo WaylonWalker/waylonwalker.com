@@ -5,9 +5,7 @@ template: link
 link: https://www.linkedin.com/posts/anton-martyniuk_mark-zuckerberg-scaled-facebook-in-2005-activity-7393550498584371201-iqDA/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACM7I2cBosNBb12iAVlY0IZbLYYHgFOyIg4
 tags:
   - catalytic
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

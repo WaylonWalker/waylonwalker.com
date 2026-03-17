@@ -5,9 +5,7 @@ template: link
 link: https://tools.simonwillison.net/ffmpeg-crop
 tags:
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

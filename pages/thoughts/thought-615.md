@@ -5,9 +5,7 @@ template: link
 link: https://pypi.org/project/ty/
 tags:
   - python
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

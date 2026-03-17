@@ -5,9 +5,7 @@ template: link
 link: https://derekkedziora.com/blog/dynamic-now-page
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

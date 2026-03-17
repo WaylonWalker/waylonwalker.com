@@ -5,9 +5,7 @@ template: link
 link: https://www.youtube.com/watch?v=rerTvidyz-0&t=160s
 tags:
   - nvim
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

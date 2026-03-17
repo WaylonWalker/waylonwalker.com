@@ -5,9 +5,7 @@ template: link
 link: https://ted-merz.com/2022/09/14/20-percent-time/?utm_source=chatgpt.com
 tags:
   - tech
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

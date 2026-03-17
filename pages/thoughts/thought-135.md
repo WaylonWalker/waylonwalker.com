@@ -6,9 +6,7 @@ link: https://www.youtube.com/watch?v=EMg-AruNQQs
 tags:
   - webdev
   - interviews
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

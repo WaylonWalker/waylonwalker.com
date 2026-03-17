@@ -6,9 +6,7 @@ link: https://twitter.com/tiangolo/status/1729153717956715007
 tags:
   - fastapi
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

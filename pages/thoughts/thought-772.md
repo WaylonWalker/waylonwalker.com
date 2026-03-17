@@ -5,9 +5,7 @@ template: link
 link: https://sliplane.io/blog/kubernetes-isnt-for-you
 tags:
   - kubernetes
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

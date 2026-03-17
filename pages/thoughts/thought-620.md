@@ -8,9 +8,7 @@ tags:
   - llm
   - rag
   - vector
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

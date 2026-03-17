@@ -5,9 +5,7 @@ template: link
 link: None
 tags:
   - graphql
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

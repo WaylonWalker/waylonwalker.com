@@ -5,9 +5,7 @@ template: link
 link: https://daverupert.com/2026/02/smaller-and-dumber/
 tags:
   - dev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

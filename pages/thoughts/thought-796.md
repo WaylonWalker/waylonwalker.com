@@ -6,9 +6,7 @@ link: https://dbushell.com/2025/08/11/github-ensloppification/
 tags:
   - self-hosted
   - homelab
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

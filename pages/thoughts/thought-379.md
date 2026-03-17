@@ -5,9 +5,7 @@ template: link
 link: https://www.youtube.com/watch?v=YKeVeG6h4AA
 tags:
   - career
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

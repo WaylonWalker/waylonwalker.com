@@ -6,9 +6,7 @@ link: https://x.com/SessionGame/status/2024469214396838140
 tags:
   - gaming
   - session-skate-sim
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -6,9 +6,7 @@ link: https://www.youtube.com/watch?v=o1NJYnZCfmY
 tags:
   - blog
   - zettelkasten
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

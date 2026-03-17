@@ -5,9 +5,7 @@ template: link
 link: https://github.com/89luca89/distrobox/blob/main/docs/posts/run_libvirt_in_distrobox.md
 tags:
   - dev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

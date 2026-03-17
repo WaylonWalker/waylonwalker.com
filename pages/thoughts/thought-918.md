@@ -5,9 +5,7 @@ template: link
 link: https://steipete.me/
 tags:
   - later
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

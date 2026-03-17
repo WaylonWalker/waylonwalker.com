@@ -5,9 +5,7 @@ template: link
 link: https://github.com/WaylonWalker/nvim-manager/releases
 tags:
   - nvim
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

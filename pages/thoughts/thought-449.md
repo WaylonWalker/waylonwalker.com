@@ -6,9 +6,7 @@ link: https://thoughts.waylonwalker.com/post/448
 tags:
   - blog
   - meta
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

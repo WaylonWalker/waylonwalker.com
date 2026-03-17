@@ -5,9 +5,7 @@ template: link
 link: https://garyvaynerchuk.com/build-the-tallest-building-in-town/
 tags:
   - catalytic
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

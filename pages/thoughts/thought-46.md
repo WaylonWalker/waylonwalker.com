@@ -6,9 +6,7 @@ link: https://pywebview.flowrl.com/guide/usage.html
 tags:
   - python
   - pywebview
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

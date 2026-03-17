@@ -6,9 +6,7 @@ link: https://simonwillison.net/2024/Jul/23/sqlite-jiff/
 tags:
   - sqlite
   - sql
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

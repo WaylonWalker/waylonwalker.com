@@ -5,9 +5,7 @@ template: link
 link: https://cassidoo.co/post/pocketcal-build-log/
 tags:
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

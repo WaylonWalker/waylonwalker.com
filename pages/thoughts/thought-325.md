@@ -5,9 +5,7 @@ template: link
 link: https://micro.thomasbaart.nl/2024/06/12/overlaykey-x/
 tags:
   - keeb
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

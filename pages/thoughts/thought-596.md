@@ -6,9 +6,7 @@ link: https://marp.app/#get-started
 tags:
   - markdown
   - presentation
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

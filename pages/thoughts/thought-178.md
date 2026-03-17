@@ -5,9 +5,7 @@ template: link
 link: https://tushar.lol/post/write-a-blog/
 tags:
   - blogging
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

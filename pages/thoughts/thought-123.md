@@ -6,9 +6,7 @@ link: https://twitter.com/teej_dv/status/1708258701008593173
 tags:
   - htmx
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

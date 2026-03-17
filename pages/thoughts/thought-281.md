@@ -7,9 +7,7 @@ tags:
   - distrobox
   - containers
   - linux
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -5,9 +5,7 @@ template: link
 link: https://derekkedziora.com/blog/rss-guide
 tags:
   - rss
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

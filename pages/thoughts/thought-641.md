@@ -5,9 +5,7 @@ template: link
 link: https://www.justfuckingcode.com/
 tags:
   - dev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

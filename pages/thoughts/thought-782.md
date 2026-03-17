@@ -5,9 +5,7 @@ template: link
 link: https://simonwillison.net/2025/Aug/5/greyduet-on-rteachers/#atom-everything
 tags:
   - ai
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

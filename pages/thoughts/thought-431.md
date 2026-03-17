@@ -5,9 +5,7 @@ template: link
 link: https://github.com/Saghen/blink.cmp
 tags:
   - nvim
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

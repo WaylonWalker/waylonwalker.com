@@ -5,9 +5,7 @@ template: link
 link: https://www.youtube.com/watch?v=8D7FZoQ-z20&t=97
 tags:
   - python
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -6,9 +6,7 @@ link: https://github.com/casey/just
 tags:
   - cli
   - dev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

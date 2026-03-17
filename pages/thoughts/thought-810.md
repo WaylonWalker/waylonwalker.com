@@ -5,9 +5,7 @@ template: link
 link: https://github.com/WaylonWalker/zmk-config-42block/commit/2398fc73b247b9f491e14b605fef1c6910939298
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

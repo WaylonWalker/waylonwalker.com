@@ -6,9 +6,7 @@ link: https://pypi.org/project/pytest-subtests/
 tags:
   - python
   - pytest
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

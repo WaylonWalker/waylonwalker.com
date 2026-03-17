@@ -5,9 +5,7 @@ template: link
 link: https://neovim.io/doc/user/diagnostic.html#vim.diagnostic.reset()
 tags:
   - vim
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

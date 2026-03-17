@@ -7,9 +7,7 @@ tags:
   - python
   - terminal
   - cli
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -5,9 +5,7 @@ template: link
 link: https://podcasters.spotify.com/pod/show/garyvee/episodes/Tips-for-Being-Happier--Healthier--More-Productive-e2m4184
 tags:
   - catalytic
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -6,9 +6,7 @@ link: https://youtu.be/15_-hgsX2V0?si=MGiWN8UxFmr36_mX
 tags:
   - later
   - self-host
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

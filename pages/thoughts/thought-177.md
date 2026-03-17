@@ -6,9 +6,7 @@ link: https://fastapi.tiangolo.com/advanced/path-operation-advanced-configuratio
 tags:
   - webdev
   - fastapi
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

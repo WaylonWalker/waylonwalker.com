@@ -6,9 +6,7 @@ link: https://gist.github.com/fnky/76f533366f75cf75802c8052b577e2a5
 tags:
   - webdev
   - stripe
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

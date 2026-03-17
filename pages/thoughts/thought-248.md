@@ -7,9 +7,7 @@ tags:
   - k8s
   - kubernetes
   - k3s
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

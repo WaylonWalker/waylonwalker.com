@@ -7,9 +7,7 @@ tags:
   - python
   - fastapi
   - docker
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -6,9 +6,7 @@ link: https://archlinux.org/news/the-xz-package-has-been-backdoored/
 tags:
   - linux
   - arch
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

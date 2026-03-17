@@ -6,9 +6,7 @@ link: https://github.com/tiangolo/fastapi/issues/364
 tags:
   - webdev
   - fastapi
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

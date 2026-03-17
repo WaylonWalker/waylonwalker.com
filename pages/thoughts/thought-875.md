@@ -5,9 +5,7 @@ template: link
 link: https://simonwillison.net/2025/Nov/29/chatgpt-netflix
 tags:
   - ai
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -5,9 +5,7 @@ template: link
 link: https://chriscoyier.net/2024/03/03/11148/
 tags:
   - blog
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

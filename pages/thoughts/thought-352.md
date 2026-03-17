@@ -5,9 +5,7 @@ template: link
 link: https://github.com/ublue-os/bazzite/issues/1316
 tags:
   - bazzite
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

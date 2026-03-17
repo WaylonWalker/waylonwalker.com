@@ -5,9 +5,7 @@ template: link
 link: https://popsql.com/
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

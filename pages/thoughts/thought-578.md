@@ -5,9 +5,7 @@ template: link
 link: https://ofek.dev/pyapp/latest/
 tags:
   - python
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

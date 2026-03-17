@@ -5,9 +5,7 @@ template: link
 link: https://dbushell.com/2024/01/24/cotton-coder/
 tags:
   - blog
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

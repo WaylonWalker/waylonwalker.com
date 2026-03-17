@@ -5,9 +5,7 @@ template: link
 link: https://github.com/WaylonWalker/zmk-config-42block/commit/48c30d2ee4efcdd08266093b5ce79bba5730e6f0
 tags:
   - keyboard
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

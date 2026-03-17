@@ -6,9 +6,7 @@ link: https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp
 tags:
   - webdev
   - css
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

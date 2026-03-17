@@ -5,9 +5,7 @@ template: link
 link: https://docs.microfocus.com/OMi/10.62/Content/OMi/ExtGuide/ExtApps/URL_encoding.htm
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

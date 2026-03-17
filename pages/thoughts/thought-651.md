@@ -5,9 +5,7 @@ template: link
 link: https://x.com/ForrestPKnight/status/1927398791398719997
 tags:
   - dev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

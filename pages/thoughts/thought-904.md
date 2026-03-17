@@ -5,9 +5,7 @@ template: link
 link: https://www.youtube.com/watch?v=325HdQe4WM4
 tags:
   - environment
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

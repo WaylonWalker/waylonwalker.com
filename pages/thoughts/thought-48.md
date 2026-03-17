@@ -6,9 +6,7 @@ link: https://www.youtube.com/watch?v=UBUNrFtufWo
 tags:
   - webdev
   - auth
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -5,9 +5,7 @@ template: link
 link: https://changelog.com/master
 tags:
   - tech
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

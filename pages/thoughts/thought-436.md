@@ -5,9 +5,7 @@ template: link
 link: https://www.reddit.com/r/secretlab/comments/s6ayop/if_anyone_else_is_having_sound_clicking_with/
 tags:
   - office
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

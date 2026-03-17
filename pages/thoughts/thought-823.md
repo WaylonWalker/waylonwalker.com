@@ -5,9 +5,7 @@ template: link
 link: https://simonwillison.net/2025/Sep/2/rich-pixels/#atom-everything
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

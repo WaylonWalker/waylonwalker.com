@@ -5,9 +5,7 @@ template: link
 link: https://cassidoo.co/post/email-settings-scam/
 tags:
   - tech
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

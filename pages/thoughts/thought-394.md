@@ -7,9 +7,7 @@ tags:
   - docker
   - podman
   - distrobox
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

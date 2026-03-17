@@ -7,9 +7,7 @@ tags:
   - webdev
   - search
   - wasm
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

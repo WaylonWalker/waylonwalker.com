@@ -5,9 +5,7 @@ template: link
 link: https://world.hey.com/dhh/youtube-has-earned-its-crown-48f12ccc
 tags:
   - tech
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

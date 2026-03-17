@@ -6,9 +6,7 @@ link: https://github.com/charmbracelet/mods
 tags:
   - llm
   - ai
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

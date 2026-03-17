@@ -5,9 +5,7 @@ template: link
 link: https://github.com/jmcnamara/XlsxWriter/issues/1131
 tags:
   - pypi
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

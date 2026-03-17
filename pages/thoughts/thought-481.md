@@ -5,9 +5,7 @@ template: link
 link: https://bsky.app/profile/garyvee.com/post/3leidcd6xjk2y
 tags:
   - startup
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

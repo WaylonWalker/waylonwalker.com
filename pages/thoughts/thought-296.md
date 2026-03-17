@@ -7,9 +7,7 @@ tags:
   - cli
   - tui
   - api
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -5,9 +5,7 @@ template: link
 link: https://dbushell.com/notes/2025-12-09T05:09Z/
 tags:
   - social
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

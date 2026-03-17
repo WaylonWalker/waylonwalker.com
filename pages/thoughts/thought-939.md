@@ -5,9 +5,7 @@ template: link
 link: https://www.tinytooltown.com/
 tags:
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

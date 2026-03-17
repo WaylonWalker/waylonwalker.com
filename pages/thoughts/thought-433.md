@@ -6,9 +6,7 @@ link: https://www.youtube.com/watch?v=ox3Gx3eCTCs
 tags:
   - k8s
   - argo
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

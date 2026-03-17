@@ -7,9 +7,7 @@ tags:
   - steamdeck
   - pc
   - gaming
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

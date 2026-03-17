@@ -6,9 +6,7 @@ link: https://htmx.org/examples/update-other-content/
 tags:
   - webdev
   - htmx
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

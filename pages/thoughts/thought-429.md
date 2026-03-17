@@ -5,9 +5,7 @@ template: link
 link: https://cdn.statically.io/og/statically%20makes%20OG%20images%20**easy**
 tags:
   - blog
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

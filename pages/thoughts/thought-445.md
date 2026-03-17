@@ -7,9 +7,7 @@ tags:
   - bash
   - linux
   - just
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

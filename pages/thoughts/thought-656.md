@@ -5,9 +5,7 @@ template: link
 link: https://blog.jim-nielsen.com/about/external-links/
 tags:
   - blog
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

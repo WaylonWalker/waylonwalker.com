@@ -5,9 +5,7 @@ template: link
 link: https://blog.jim-nielsen.com/2025/more-friction-please/
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -5,9 +5,7 @@ template: link
 link: https://docs.nextcloud.com/server/latest/admin_manual/configuration_user/reset_admin_password.html
 tags:
   - homelab
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

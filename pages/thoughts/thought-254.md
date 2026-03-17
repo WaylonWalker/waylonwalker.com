@@ -6,9 +6,7 @@ link: https://blog.boot.dev/open-source/how-to-restart-all-pods-in-a-kubernetes-
 tags:
   - k8s
   - kubernetes
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -5,9 +5,7 @@ template: link
 link: https://www.youtube.com/watch?v=hT_pzOURr5c
 tags:
   - edc
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

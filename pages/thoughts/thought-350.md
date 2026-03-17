@@ -5,9 +5,7 @@ template: link
 link: https://kbd.news/DragonFruit-2178.html
 tags:
   - keyboard
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

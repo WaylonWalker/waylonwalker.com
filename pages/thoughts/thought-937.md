@@ -5,9 +5,7 @@ template: link
 link: https://simonwillison.net/2026/Feb/23/reply-guy/#atom-everything
 tags:
   - sass
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

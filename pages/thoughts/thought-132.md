@@ -6,9 +6,7 @@ link: https://github.com/sysid/sse-starlette
 tags:
   - htmx
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

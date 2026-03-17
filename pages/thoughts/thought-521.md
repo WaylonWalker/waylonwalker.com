@@ -7,9 +7,7 @@ tags:
   - blog
   - markdown
   - bash
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

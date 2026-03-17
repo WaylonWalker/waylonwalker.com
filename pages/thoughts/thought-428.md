@@ -5,9 +5,7 @@ template: link
 link: https://github.com/neovim/neovim/issues/6875
 tags:
   - nvim
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

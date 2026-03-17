@@ -5,9 +5,7 @@ template: link
 link: https://youtu.be/AyuMdNoL1Vs?si=QQ3BoV33nXR_TPnC
 tags:
   - linux
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -5,9 +5,7 @@ template: link
 link: https://uxplanet.org/alternatives-to-using-pure-black-000000-for-text-and-backgrounds-54ef0e733cdb
 tags:
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

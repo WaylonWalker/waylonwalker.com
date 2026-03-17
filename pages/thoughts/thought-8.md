@@ -7,9 +7,7 @@ tags:
   - linux
   - zfs
   - systemd
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -6,9 +6,7 @@ link: https://github.com/imagegenius/docker-immich/
 tags:
   - homelab
   - self-host
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

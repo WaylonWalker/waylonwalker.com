@@ -7,9 +7,7 @@ tags:
   - k8s
   - kubernetes
   - helm
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

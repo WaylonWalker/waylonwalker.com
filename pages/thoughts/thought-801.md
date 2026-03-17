@@ -6,9 +6,7 @@ link: https://www.youtube.com/watch?v=hJ2tqs_vksc&t=25s
 tags:
   - ai
   - llm
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

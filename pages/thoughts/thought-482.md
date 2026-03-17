@@ -5,9 +5,7 @@ template: link
 link: https://bsky.app/profile/addyosmani.bsky.social/post/3lei5jhkgdk2k
 tags:
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

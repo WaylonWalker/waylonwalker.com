@@ -5,9 +5,7 @@ template: link
 link: https://awesome-selfhosted.net/tags/note-taking--editors.html
 tags:
   - self-hosted
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

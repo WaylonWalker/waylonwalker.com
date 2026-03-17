@@ -5,9 +5,7 @@ template: link
 link: https://toergonomics.com/office-chair-popping-noise/
 tags:
   - office
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

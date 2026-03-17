@@ -6,9 +6,7 @@ link: https://youtu.be/XDAfpzjBYJQ?t=353
 tags:
   - dev
   - cli
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

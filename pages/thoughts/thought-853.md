@@ -5,9 +5,7 @@ template: link
 link: https://www.youtube.com/watch?v=J893_8HlkPM
 tags:
   - cloud
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

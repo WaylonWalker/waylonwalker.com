@@ -5,9 +5,7 @@ template: link
 link: https://opentools.com/
 tags:
   - llm
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

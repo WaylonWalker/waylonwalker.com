@@ -5,9 +5,7 @@ template: link
 link: https://simonwillison.net/2024/Dec/22/link-blog/#atom-everything
 tags:
   - blog
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -5,9 +5,7 @@ template: link
 link: https://carlosbecker.com/posts/split-keyboard-moonlander/
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

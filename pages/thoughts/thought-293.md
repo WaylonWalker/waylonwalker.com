@@ -5,9 +5,7 @@ template: link
 link: https://xxhash.com/
 tags:
   - python
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

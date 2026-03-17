@@ -5,9 +5,7 @@ template: link
 link: https://github.com/chase/awrit
 tags:
   - terminal
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

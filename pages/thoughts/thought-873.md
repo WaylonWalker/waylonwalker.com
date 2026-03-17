@@ -5,9 +5,7 @@ template: link
 link: https://pype.dev/2025-11-27-notes/
 tags:
   - dev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

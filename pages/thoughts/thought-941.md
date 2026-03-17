@@ -5,9 +5,7 @@ template: link
 link: https://x.com/jack/status/2027129697092731343?s=20
 tags:
   - dev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

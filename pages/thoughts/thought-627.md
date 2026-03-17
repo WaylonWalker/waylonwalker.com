@@ -5,9 +5,7 @@ template: link
 link: https://blog.techravenconsulting.com/what-chatgpt-is-not/
 tags:
   - llm
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

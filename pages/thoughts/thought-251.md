@@ -5,9 +5,7 @@ template: link
 link: https://arstechnica.com/gadgets/2024/04/boston-dynamics-debuts-humanoid-robot-destined-for-commercialization/
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

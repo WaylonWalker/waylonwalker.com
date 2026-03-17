@@ -5,9 +5,7 @@ template: link
 link: https://nicekeyboards.com/docs/nice-nano/pinout-schematic/
 tags:
   - keyboard
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

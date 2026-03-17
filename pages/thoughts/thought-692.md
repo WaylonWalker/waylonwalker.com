@@ -5,9 +5,7 @@ template: link
 link: https://omarabid.com/nextjs-vercel
 tags:
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

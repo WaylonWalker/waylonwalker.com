@@ -6,9 +6,7 @@ link: https://twitter.com/simonw/status/1700528222382027039
 tags:
   - llm
   - ai
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

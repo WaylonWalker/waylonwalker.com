@@ -7,9 +7,7 @@ tags:
   - sqlite
   - data
   - blog
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

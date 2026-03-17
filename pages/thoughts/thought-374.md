@@ -6,9 +6,7 @@ link: https://www.youtube.com/watch?v=7iypMRKniPU&t=3s
 tags:
   - docker
   - vm
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

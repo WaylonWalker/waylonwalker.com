@@ -5,9 +5,7 @@ template: link
 link: https://github.com/LGUG2Z/helix-vim/blob/master/config.toml
 tags:
   - helix
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

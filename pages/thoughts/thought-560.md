@@ -5,9 +5,7 @@ template: link
 link: https://hypecp.com/
 tags:
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

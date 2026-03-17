@@ -5,9 +5,7 @@ template: link
 link: http://k8sdiagram.fun/
 tags:
   - k8s
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

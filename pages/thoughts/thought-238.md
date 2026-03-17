@@ -5,9 +5,7 @@ template: link
 link: https://stackoverflow.com/questions/35968553/webkit-scrollbar-css-always-a-white-box-in-corner
 tags:
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

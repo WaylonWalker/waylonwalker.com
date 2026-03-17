@@ -6,9 +6,7 @@ link: https://x.com/BenjDicken/status/1963998076198105475
 tags:
   - cloud
   - aws
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

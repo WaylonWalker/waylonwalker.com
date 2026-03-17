@@ -5,9 +5,7 @@ template: link
 link: https://www.youtube.com/watch?v=R5B0fjG55Fw
 tags:
   - pc
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

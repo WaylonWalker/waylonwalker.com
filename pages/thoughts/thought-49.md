@@ -7,9 +7,7 @@ tags:
   - python
   - data
   - sql
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

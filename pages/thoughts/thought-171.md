@@ -5,9 +5,7 @@ template: link
 link: https://www.youtube.com/shorts/IVdaysrIS74
 tags:
   - soft
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

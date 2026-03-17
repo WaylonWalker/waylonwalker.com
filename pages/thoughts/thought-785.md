@@ -5,9 +5,7 @@ template: link
 link: https://tonsky.me/blog/lockfiles/
 tags:
   - dev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

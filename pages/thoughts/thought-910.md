@@ -7,9 +7,7 @@ tags:
   - llm
   - ai
   - later
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -37,9 +37,9 @@ def generate_post(post: dict) -> str:
     title = "💭 " + cleaned_title.lstrip("💭 ")
     title = title.replace("'", "''")
     tags = [tag.strip() for tag in post["tags"].split(",")]
-    tags.append("thoughts")
+    # tags.append("thoughts")
     tags.append("thought")
-    tags.append("link")
+    # tags.append("link")
     link = (
         post.get("link") or f"https://waylonwalker.com/thoughts/thought-{post['id']}/"
     )

@@ -8,9 +8,7 @@ tags:
   - data
   - database
   - alembic
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

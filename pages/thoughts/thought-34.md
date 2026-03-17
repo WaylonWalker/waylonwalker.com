@@ -7,9 +7,7 @@ tags:
   - python
   - data
   - duckdb
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

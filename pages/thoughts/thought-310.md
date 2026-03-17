@@ -5,9 +5,7 @@ template: link
 link: https://www.youtube.com/watch?v=tmw7oYG3vMU
 tags:
   - homelab
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

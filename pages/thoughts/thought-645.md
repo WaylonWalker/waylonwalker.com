@@ -5,9 +5,7 @@ template: link
 link: https://www.youtube.com/watch?v=warmcBBfZn0
 tags:
   - markata
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -5,9 +5,7 @@ template: link
 link: https://pype.dev/using-litestream-to-restore-my-database-for-easy-development/#Update
 tags:
   - sqlite
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -6,9 +6,7 @@ link: https://simonwillison.net/2024/Jun/9/a-link-blog-in-the-year-2024/
 tags:
   - blogging
   - web
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -5,9 +5,7 @@ template: link
 link: https://github.com/basecamp/omakub
 tags:
   - linux
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

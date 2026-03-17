@@ -5,9 +5,7 @@ template: link
 link: https://www.youtube.com/watch?v=YngwUu4bXR4&t=6039s
 tags:
   - gamedev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -5,9 +5,7 @@ template: link
 link: https://x.com/dhh/status/1928450457262850053
 tags:
   - dev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

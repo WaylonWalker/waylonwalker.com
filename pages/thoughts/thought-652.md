@@ -5,9 +5,7 @@ template: link
 link: https://www.youtube.com/watch?v=wz5eOowV9iw
 tags:
   - keeb
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

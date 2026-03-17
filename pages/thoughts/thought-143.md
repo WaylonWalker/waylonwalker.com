@@ -6,9 +6,7 @@ link: https://frank.sauerburger.io/2021/12/01/inspect-k8s-pvc.html
 tags:
   - homelab
   - k3s
-  - thoughts
   - thought
-  - link
 published: true
 
 ---
