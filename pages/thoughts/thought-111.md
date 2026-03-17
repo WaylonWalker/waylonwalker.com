@@ -5,9 +5,7 @@ template: link
 link: https://www.youtube.com/shorts/J8rbUHDlZ7k
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

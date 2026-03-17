@@ -6,9 +6,7 @@ link: https://bbs.archlinux.org/viewtopic.php?id=67729
 tags:
   - arch
   - linux
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -7,9 +7,7 @@ tags:
   - python
   - fastapi
   - sqlmodel
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

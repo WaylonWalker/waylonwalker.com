@@ -6,9 +6,7 @@ link: https://gist.github.com/vrslev/6d0602bfa939a01844f645c608afb85a
 tags:
   - webdev
   - fastapi
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

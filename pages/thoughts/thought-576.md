@@ -5,9 +5,7 @@ template: link
 link: https://www.evanandkatelyn.com/blog/ergotop
 tags:
   - keyboard
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

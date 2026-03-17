@@ -6,9 +6,7 @@ link: https://developer.chrome.com/docs/css-ui/animate-to-height-auto/
 tags:
   - css
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

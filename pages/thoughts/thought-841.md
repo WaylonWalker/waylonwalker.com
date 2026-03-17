@@ -5,9 +5,7 @@ template: link
 link: https://www.youtube.com/shorts/PWyZB1nha_o
 tags:
   - 3d-printing
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -6,9 +6,7 @@ link: https://simonwillison.net/2023/Sep/4/llm-embeddings/
 tags:
   - llm
   - ai
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

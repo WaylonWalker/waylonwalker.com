@@ -7,9 +7,7 @@ tags:
   - python
   - textual
   - tui
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

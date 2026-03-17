@@ -7,9 +7,7 @@ tags:
   - llm
   - dev
   - vibes
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

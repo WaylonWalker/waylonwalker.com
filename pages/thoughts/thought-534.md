@@ -6,9 +6,7 @@ link: https://www.keycloak.org/
 tags:
   - k8s
   - auth
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

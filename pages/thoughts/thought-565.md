@@ -5,9 +5,7 @@ template: link
 link: https://github.com/WaylonWalker/waylonwalker.com/commit/0fd994b0101f7260051ec914ea6987e1c70603bd
 tags:
   - blog
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -6,9 +6,7 @@ link: https://kerkour.com/sqlite-for-servers
 tags:
   - sql
   - sqlite
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

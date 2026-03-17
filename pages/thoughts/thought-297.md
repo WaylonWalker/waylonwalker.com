@@ -5,9 +5,7 @@ template: link
 link: https://www.andreinc.net/2024/04/24/from-the-circle-to-epicycles
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

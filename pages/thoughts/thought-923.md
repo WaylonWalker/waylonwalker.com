@@ -5,9 +5,7 @@ template: link
 link: https://frontendmasters.com/blog/background-patterns-with-css-corner-radius/
 tags:
   - webdev css
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

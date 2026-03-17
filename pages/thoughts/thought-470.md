@@ -6,9 +6,7 @@ link: https://www.youtube.com/watch?v=_TtkaIe0ZKU&t=409s
 tags:
   - 3d-printing
   - stl
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

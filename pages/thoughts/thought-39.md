@@ -6,9 +6,7 @@ link: https://htmx.org/extensions/client-side-templates/
 tags:
   - htmx
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

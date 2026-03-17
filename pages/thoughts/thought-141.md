@@ -6,9 +6,7 @@ link: https://www.reddit.com/r/kubernetes/comments/cojjf5/can_i_access_k3s_using
 tags:
   - homelab
   - k3s
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

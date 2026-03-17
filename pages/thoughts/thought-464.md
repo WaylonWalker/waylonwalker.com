@@ -5,9 +5,7 @@ template: link
 link: https://depot.dev/
 tags:
   - containers
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

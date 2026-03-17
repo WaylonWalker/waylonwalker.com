@@ -5,9 +5,7 @@ template: link
 link: https://keel.sh/
 tags:
   - k8s
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

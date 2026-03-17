@@ -5,9 +5,7 @@ template: link
 link: https://minecraft.wiki/w/Formatting_codes
 tags:
   - minecraft
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

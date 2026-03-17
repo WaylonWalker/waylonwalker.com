@@ -9,9 +9,7 @@ tags:
   - database
   - sql
   - json
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

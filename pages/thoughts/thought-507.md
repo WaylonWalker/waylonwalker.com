@@ -5,9 +5,7 @@ template: link
 link: https://www.youtube.com/watch?v=OrucAJknMys
 tags:
   - game
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

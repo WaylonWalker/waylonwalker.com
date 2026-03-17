@@ -5,9 +5,7 @@ template: link
 link: https://michaeluloth.com/neovim-switch-configs/
 tags:
   - nvim
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

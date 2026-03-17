@@ -5,9 +5,7 @@ template: link
 link: https://help.socialbee.com/article/129-how-can-i-add-my-youtube-videos-via-rss
 tags:
   - rss
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

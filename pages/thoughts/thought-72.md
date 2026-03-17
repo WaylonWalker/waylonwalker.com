@@ -7,9 +7,7 @@ tags:
   - python
   - webdev
   - desktop
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

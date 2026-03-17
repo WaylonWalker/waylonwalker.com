@@ -5,9 +5,7 @@ template: link
 link: https://stackoverflow.com/questions/51335298/concepts-of-backref-and-back-populate-in-sqlalchemy#answer-59920780
 tags:
   - sqlalchemy
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

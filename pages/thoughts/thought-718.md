@@ -5,9 +5,7 @@ template: link
 link: https://dbushell.com/notes/2025-06-22T06:11Z/
 tags:
   - dunno
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

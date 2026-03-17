@@ -5,9 +5,7 @@ template: link
 link: https://overtype.dev/?utm_source=waylonwalker.com
 tags:
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

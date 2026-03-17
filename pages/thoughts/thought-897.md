@@ -5,9 +5,7 @@ template: link
 link: https://kerkour.com/smartphones-blackhole
 tags:
   - social-media
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

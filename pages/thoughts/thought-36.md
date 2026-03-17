@@ -7,9 +7,7 @@ tags:
   - python
   - fastapi
   - security
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

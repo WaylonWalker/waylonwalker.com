@@ -6,9 +6,7 @@ link: https://github.com/florimondmanca/arel
 tags:
   - webdev
   - fastapi
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

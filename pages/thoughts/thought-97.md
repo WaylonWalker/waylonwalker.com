@@ -6,9 +6,7 @@ link: https://www.baeldung.com/linux/curl-without-cache#adding-the-pragma-http-h
 tags:
   - curl
   - cli
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

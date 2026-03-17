@@ -7,9 +7,7 @@ tags:
   - python
   - web
   - flask
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

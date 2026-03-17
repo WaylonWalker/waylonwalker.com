@@ -5,9 +5,7 @@ template: link
 link: https://developers.cloudflare.com/waf/tools/scrape-shield/email-address-obfuscation/
 tags:
   - blogging
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

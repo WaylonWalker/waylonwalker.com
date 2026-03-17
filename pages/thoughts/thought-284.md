@@ -5,9 +5,7 @@ template: link
 link: https://linuxtldr.com/gnome-de-in-distrobox/
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

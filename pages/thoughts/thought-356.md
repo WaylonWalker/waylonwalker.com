@@ -8,9 +8,7 @@ tags:
   - cli
   - product
   - seo
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

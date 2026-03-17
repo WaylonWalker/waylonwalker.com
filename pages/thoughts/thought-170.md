@@ -6,9 +6,7 @@ link: https://stackoverflow.com/questions/3893986/css-media-print-issues-with-ba
 tags:
   - webdev
   - css
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

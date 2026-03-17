@@ -6,9 +6,7 @@ link: https://simonwillison.net/2025/May/1/mark-zuckerberg/#atom-everything
 tags:
   - ai
   - llm
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

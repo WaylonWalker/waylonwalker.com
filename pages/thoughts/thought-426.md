@@ -6,9 +6,7 @@ link: https://github.com/fastapi/sqlmodel/issues/109#issuecomment-1046223225
 tags:
   - python
   - sqlmodel
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

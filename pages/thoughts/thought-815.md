@@ -5,9 +5,7 @@ template: link
 link: https://social.ericwbailey.website/@eric/115100947111974331
 tags:
   - dev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

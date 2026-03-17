@@ -5,9 +5,7 @@ template: link
 link: https://www.keyboard.university/200-courses/keyboard-mounting-styles-4lpp7
 tags:
   - keyboards
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

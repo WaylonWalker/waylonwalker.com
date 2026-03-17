@@ -6,9 +6,7 @@ link: https://www.youtube.com/watch?v=qEykeKfAnJQ&t=1068s
 tags:
   - dev
   - linux
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

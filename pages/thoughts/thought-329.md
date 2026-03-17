@@ -5,9 +5,7 @@ template: link
 link: https://github.com/joric/nrfmicro/wiki/Alternatives
 tags:
   - keeb
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

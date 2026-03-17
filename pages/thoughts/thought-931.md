@@ -5,9 +5,7 @@ template: link
 link: https://nekodot.itch.io/silksong-nes
 tags:
   - gaming
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

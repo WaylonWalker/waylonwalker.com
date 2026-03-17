@@ -6,9 +6,7 @@ link: https://github.com/David-Kunz/gen.nvim
 tags:
   - llm
   - ai
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

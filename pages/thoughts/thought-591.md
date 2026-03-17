@@ -5,9 +5,7 @@ template: link
 link: https://xeiaso.net/characters/
 tags:
   - blog
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

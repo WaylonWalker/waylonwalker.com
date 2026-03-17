@@ -6,9 +6,7 @@ link: https://depot.dev/blog/how-to-build-with-depot-on-fly
 tags:
   - containers
   - fly
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

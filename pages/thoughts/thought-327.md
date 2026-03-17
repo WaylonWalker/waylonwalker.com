@@ -6,9 +6,7 @@ link: https://www.youtube.com/shorts/v2a6Nv7RSd0
 tags:
   - vim
   - regex
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

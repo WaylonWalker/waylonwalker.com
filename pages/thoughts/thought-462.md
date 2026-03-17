@@ -6,9 +6,7 @@ link: https://www.reliablesite.net/dedicated-servers/
 tags:
   - linux
   - server
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

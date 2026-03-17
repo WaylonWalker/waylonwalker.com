@@ -5,9 +5,7 @@ template: link
 link: https://developer.hashicorp.com/vault/docs/commands/kv
 tags:
   - cli
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

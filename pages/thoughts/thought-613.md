@@ -5,9 +5,7 @@ template: link
 link: https://shoptalkshow.com/661/
 tags:
   - blog
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

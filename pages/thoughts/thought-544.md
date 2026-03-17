@@ -5,9 +5,7 @@ template: link
 link: https://www.youtube.com/watch?v=cQNyYx2fZXw
 tags:
   - llm
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

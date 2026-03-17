@@ -6,9 +6,7 @@ link: https://blog.joe.codes/creating-ssh-apps-with-charm-wish-and-laravel-promp
 tags:
   - cli
   - ssh
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

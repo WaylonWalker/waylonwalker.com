@@ -5,9 +5,7 @@ template: link
 link: https://kbd.news/Leveret-v2-lever-keycaps-2380.html
 tags:
   - keyboard
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -5,9 +5,7 @@ template: link
 link: https://blog.jim-nielsen.com/2025/you-might-also-like-my-notes-blog/
 tags:
   - blog
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

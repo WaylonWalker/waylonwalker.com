@@ -5,9 +5,7 @@ template: link
 link: https://maya.land/wants/
 tags:
   - blog
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -6,9 +6,7 @@ link: https://tailscale.com/kb/1097/install-opnsense
 tags:
   - opnsense
   - tailscale
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

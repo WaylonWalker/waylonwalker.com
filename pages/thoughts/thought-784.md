@@ -6,9 +6,7 @@ link: https://ludic.mataroa.blog/blog/i-will-fucking-piledrive-you-if-you-mentio
 tags:
   - ai
   - llm
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

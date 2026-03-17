@@ -7,9 +7,7 @@ tags:
   - pydantic
   - fastapi
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

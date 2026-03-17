@@ -5,9 +5,7 @@ template: link
 link: https://github.com/eraser-dev/eraser?tab=readme-ov-file
 tags:
   - kubernetes
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

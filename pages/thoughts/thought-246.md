@@ -5,9 +5,7 @@ template: link
 link: https://stackoverflow.com/questions/82875/how-can-i-list-the-tables-in-a-sqlite-database-file-that-was-opened-with-attach#answer-83195
 tags:
   - sqlite
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -7,9 +7,7 @@ tags:
   - python
   - webdev
   - jinja2
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -5,9 +5,7 @@ template: link
 link: https://x.com/thekitze/status/1872267874842063223?t=zxq6-kA9atVuXJeWntxfWg&s=09
 tags:
   - python
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

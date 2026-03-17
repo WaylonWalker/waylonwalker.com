@@ -6,9 +6,7 @@ link: https://dropper.wayl.one/
 tags:
   - blog
   - meta
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

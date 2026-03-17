@@ -5,9 +5,7 @@ template: link
 link: https://gridfinity.xyz/specification/
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

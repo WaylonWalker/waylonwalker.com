@@ -5,9 +5,7 @@ template: link
 link: https://pype.dev/reflection-ai-work-and-adhd/
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

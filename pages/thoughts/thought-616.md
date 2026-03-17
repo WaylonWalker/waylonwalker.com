@@ -5,9 +5,7 @@ template: link
 link: https://types.ruff.rs/
 tags:
   - python
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

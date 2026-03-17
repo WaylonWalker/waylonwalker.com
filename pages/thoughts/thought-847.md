@@ -5,9 +5,7 @@ template: link
 link: https://www.youtube.com/watch?v=GAudJhMrqwo
 tags:
   - fingerboard
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

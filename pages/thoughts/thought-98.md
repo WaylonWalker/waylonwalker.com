@@ -6,9 +6,7 @@ link: https://nerdcave.com/tailwind-cheat-sheet
 tags:
   - tailwindcss
   - css
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

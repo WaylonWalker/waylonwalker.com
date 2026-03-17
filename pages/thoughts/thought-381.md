@@ -5,9 +5,7 @@ template: link
 link: https://forum.obsidian.md/t/hotkey-to-open-link-under-at-the-text-cursor-position-while-typing-in-edit-mode/8144
 tags:
   - obsidian
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

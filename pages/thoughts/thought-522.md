@@ -5,9 +5,7 @@ template: link
 link: https://github.com/containers/podman-compose
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

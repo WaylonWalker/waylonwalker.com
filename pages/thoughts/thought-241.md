@@ -6,9 +6,7 @@ link: https://www.youtube.com/watch?v=ZRnWmNdf5IE&t=612
 tags:
   - vim
   - nvim
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

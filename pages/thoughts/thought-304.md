@@ -6,9 +6,7 @@ link: https://laughingmeme.org//2024/06/08/a-link-blog-in-2024.html
 tags:
   - blogging
   - web
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

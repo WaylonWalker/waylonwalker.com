@@ -5,9 +5,7 @@ template: link
 link: https://www.giftofspeed.com/gzip-test/
 tags:
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

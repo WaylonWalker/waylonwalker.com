@@ -6,9 +6,7 @@ link: https://x.com/MeetGor21/status/1967818642768470447
 tags:
   - sqlite
   - db
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

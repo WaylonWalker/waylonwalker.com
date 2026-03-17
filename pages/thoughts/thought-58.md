@@ -6,9 +6,7 @@ link: https://www.ibm.com/docs/en/z-logdata-analytics/5.1.0?topic=compose-reloca
 tags:
   - linux
   - docker
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

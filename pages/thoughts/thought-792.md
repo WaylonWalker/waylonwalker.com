@@ -5,9 +5,7 @@ template: link
 link: https://blakewatson.com/journal/blakewatson-com-turns-twenty/
 tags:
   - web
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

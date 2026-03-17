@@ -5,9 +5,7 @@ template: link
 link: https://www.youtube.com/clip/UgkxQevfazaval9KH22a6BjMRkdBs7541Kry
 tags:
   - vscode
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

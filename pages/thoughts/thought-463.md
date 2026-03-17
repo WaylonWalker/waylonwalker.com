@@ -6,9 +6,7 @@ link: https://www.youtube.com/watch?v=aG-utUqVrb0
 tags:
   - dev
   - ai
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

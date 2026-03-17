@@ -6,9 +6,7 @@ link: https://htmx.org/docs/#swapping
 tags:
   - htmx
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

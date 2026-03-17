@@ -7,9 +7,7 @@ tags:
   - python
   - fastapi
   - htmx
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

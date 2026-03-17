@@ -5,9 +5,7 @@ template: link
 link: https://sqlmodel.tiangolo.com/tutorial/limit-and-offset/?h=#combine-limit-and-offset-with-where
 tags:
   - python
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

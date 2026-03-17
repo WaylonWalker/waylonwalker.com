@@ -6,9 +6,7 @@ link: https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/
 tags:
   - html
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -6,9 +6,7 @@ link: https://www.youtube.com/watch?v=bPlPkDEcZBA&list=TLPQMTcwNjIwMjVHHHsm3lllj
 tags:
   - gaming
   - minecraft
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

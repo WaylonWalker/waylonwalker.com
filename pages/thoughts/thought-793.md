@@ -5,9 +5,7 @@ template: link
 link: https://x.com/noahgsolomon/status/1954035351510716670
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -5,9 +5,7 @@ template: link
 link: https://en.wikipedia.org/wiki/Point-in-time_recovery
 tags:
   - catalyst
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

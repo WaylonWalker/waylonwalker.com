@@ -6,9 +6,7 @@ link: https://levelup.gitconnected.com/how-to-format-all-files-in-a-directory-wi
 tags:
   - cli
   - prettier
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

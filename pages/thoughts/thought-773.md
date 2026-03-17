@@ -5,9 +5,7 @@ template: link
 link: https://www.meetgor.com/thoughts/kubernetes-isn-t-for-you/
 tags:
   - kuberntes
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

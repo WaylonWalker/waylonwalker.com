@@ -6,9 +6,7 @@ link: https://cassidoo.co/post/ffmpeg-dark-light/
 tags:
   - webdev
   - ffmpeg
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

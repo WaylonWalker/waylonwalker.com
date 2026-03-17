@@ -5,9 +5,7 @@ template: link
 link: https://willmcgugan.github.io/whats-next/
 tags:
   - dev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

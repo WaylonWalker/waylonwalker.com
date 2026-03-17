@@ -5,9 +5,7 @@ template: link
 link: https://daverupert.com/2025/05/week-links-2/
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

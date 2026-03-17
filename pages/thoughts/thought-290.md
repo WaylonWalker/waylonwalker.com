@@ -6,9 +6,7 @@ link: https://www.jakeworth.com/posts/how-to-deliver-code-every-day/
 tags:
   - webdev
   - shipping
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

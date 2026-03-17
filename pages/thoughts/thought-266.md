@@ -6,9 +6,7 @@ link: https://bugs.launchpad.net/ubuntu/+source/gdm3/+bug/2006590
 tags:
   - linux
   - ubuntu
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

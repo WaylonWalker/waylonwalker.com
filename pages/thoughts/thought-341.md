@@ -7,9 +7,7 @@ tags:
   - webdev
   - fastapi
   - htmx
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

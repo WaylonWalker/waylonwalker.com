@@ -6,9 +6,7 @@ link: https://www.youtube.com/watch?v=OK3HrqDXqtU&t=1675s
 tags:
   - cli
   - tui
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

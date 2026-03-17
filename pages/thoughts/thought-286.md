@@ -5,9 +5,7 @@ template: link
 link: https://maggieappleton.com/nontechnical-gardening
 tags:
   - digital garden
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

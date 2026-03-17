@@ -5,9 +5,7 @@ template: link
 link: https://www.meetgor.com/thoughts/just-fucking-use-kubernetes/
 tags:
   - kubernetes
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -8,9 +8,7 @@ tags:
   - ai
   - llm
   - opencode
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

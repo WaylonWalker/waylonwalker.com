@@ -7,9 +7,7 @@ tags:
   - python
   - urlib
   - fastapi
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

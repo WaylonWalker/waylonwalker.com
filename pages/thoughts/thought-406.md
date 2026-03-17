@@ -6,9 +6,7 @@ link: https://github.com/helix-editor/helix/issues/2232#issuecomment-1107644740
 tags:
   - helix
   - refactoring
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

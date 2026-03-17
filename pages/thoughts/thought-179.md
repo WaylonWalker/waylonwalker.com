@@ -6,9 +6,7 @@ link: https://twitter.com/adamwathan/status/1734696245015494711
 tags:
   - webdev
   - css
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

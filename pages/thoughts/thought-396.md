@@ -5,9 +5,7 @@ template: link
 link: https://telcontar.net/KBK/Cherry/images/MX/Cherry_8_mm_mount.svgz
 tags:
   - keyboard
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

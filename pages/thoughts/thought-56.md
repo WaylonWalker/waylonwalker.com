@@ -6,9 +6,7 @@ link: https://wiki.archlinux.org/title/Podman
 tags:
   - linux
   - podman
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

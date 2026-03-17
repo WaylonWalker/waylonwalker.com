@@ -5,9 +5,7 @@ template: link
 link: https://grantjenks.com/docs/diskcache/api.html#diskcache.Cache.peekitem
 tags:
   - python
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

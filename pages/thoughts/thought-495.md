@@ -5,9 +5,7 @@ template: link
 link: https://rknight.me/log/
 tags:
   - blog
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

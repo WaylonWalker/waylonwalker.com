@@ -5,9 +5,7 @@ template: link
 link: https://bitwarden.com/help/uri-match-detection/
 tags:
   - dev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

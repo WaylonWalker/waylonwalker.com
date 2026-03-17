@@ -5,9 +5,7 @@ template: link
 link: https://signature.cnrad.dev/
 tags:
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

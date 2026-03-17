@@ -6,9 +6,7 @@ link: https://docs.astral.sh/uv/guides/install-python/
 tags:
   - python
   - uv
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

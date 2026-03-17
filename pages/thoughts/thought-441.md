@@ -6,9 +6,7 @@ link: https://pype.dev/hostnamectl-to-easily-change-hostname
 tags:
   - bash
   - linux
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

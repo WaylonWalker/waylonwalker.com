@@ -7,9 +7,7 @@ tags:
   - infra
   - k8s
   - aws
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

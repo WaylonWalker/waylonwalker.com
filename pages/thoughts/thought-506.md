@@ -6,9 +6,7 @@ link: https://postiz.com/
 tags:
   - social
   - marketing
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

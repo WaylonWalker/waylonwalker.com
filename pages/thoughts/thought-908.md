@@ -6,9 +6,7 @@ link: https://simonwillison.net/2026/Jan/11/dont-fall-into-the-anti-ai-hype/#ato
 tags:
   - llm
   - ai
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

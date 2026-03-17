@@ -5,9 +5,7 @@ template: link
 link: https://simplecto.com/search-needs-a-human-solution-a-manifesto/
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

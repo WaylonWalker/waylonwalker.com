@@ -6,9 +6,7 @@ link: https://stackoverflow.com/questions/53394973/cant-create-secret-in-kuberne
 tags:
   - homelab
   - k3s
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

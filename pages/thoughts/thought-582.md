@@ -5,9 +5,7 @@ template: link
 link: https://blog.gitguardian.com/the-state-of-secrets-sprawl-2025/
 tags:
   - dev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

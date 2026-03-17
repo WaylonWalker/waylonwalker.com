@@ -6,9 +6,7 @@ link: https://www.linkedin.com/posts/garyvaynerchuk_artificialintelligence-hirin
 tags:
   - ai
   - catalytic
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

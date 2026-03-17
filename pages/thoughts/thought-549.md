@@ -5,9 +5,7 @@ template: link
 link: https://nofilmschool.com/cinematic-aspect-ratio
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

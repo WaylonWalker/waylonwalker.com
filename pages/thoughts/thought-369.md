@@ -6,9 +6,7 @@ link: https://thoughts.waylonwalker.com/post/368
 tags:
   - blog
   - zettelkasten
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

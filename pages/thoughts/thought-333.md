@@ -6,9 +6,7 @@ link: https://fastapi.tiangolo.com/tutorial/background-tasks/
 tags:
   - fastapi
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

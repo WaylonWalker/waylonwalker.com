@@ -5,9 +5,7 @@ template: link
 link: https://github.com/triliu/Heawood42
 tags:
   - keyboard
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

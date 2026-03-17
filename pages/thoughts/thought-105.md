@@ -6,9 +6,7 @@ link: https://htmx.org/attributes/hx-indicator/
 tags:
   - htmx
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

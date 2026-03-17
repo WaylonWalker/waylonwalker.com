@@ -5,9 +5,7 @@ template: link
 link: https://justingarrison.com/blog/petaflop-cluster/
 tags:
   - kubernetes
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

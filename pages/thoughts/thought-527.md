@@ -7,9 +7,7 @@ tags:
   - llm
   - ai
   - rag
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -7,9 +7,7 @@ tags:
   - python
   - websockets
   - textual
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

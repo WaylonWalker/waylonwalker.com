@@ -6,9 +6,7 @@ link: https://grafana.com/docs/loki/latest/send-data/k8s-monitoring-helm/
 tags:
   - grafana
   - loki
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

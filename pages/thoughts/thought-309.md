@@ -7,9 +7,7 @@ tags:
   - linux
   - podman
   - container
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

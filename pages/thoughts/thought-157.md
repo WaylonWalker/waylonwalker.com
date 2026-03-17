@@ -5,9 +5,7 @@ template: link
 link: https://github.com/johanhaleby/kubetail
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

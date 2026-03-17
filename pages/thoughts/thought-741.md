@@ -7,9 +7,7 @@ tags:
   - archlinux
   - hyprland
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -5,9 +5,7 @@ template: link
 link: https://blog.jim-nielsen.com/2025/run-software-on-software-youve-never-run/
 tags:
   - dev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

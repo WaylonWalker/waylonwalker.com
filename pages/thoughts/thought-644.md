@@ -5,9 +5,7 @@ template: link
 link: https://josephthacker.com/personal/2025/05/13/root-for-your-friends.html
 tags:
   - catalytic
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

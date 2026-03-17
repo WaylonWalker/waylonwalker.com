@@ -5,9 +5,7 @@ template: link
 link: https://hamy.xyz/blog/2026-01_1000-blog-posts
 tags:
   - blog
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

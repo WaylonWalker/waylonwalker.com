@@ -5,9 +5,7 @@ template: link
 link: https://mbrizic.com/blog/thinkpad-t440/
 tags:
   - linux
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

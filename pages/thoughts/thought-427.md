@@ -6,9 +6,7 @@ link: https://hynek.me/articles/docker-uv/
 tags:
   - python
   - docker
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

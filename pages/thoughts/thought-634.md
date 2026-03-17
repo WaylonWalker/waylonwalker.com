@@ -5,9 +5,7 @@ template: link
 link: https://www.youtube.com/watch?v=JYVf-Z320Y0
 tags:
   - observability
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

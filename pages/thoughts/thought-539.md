@@ -7,9 +7,7 @@ tags:
   - python
   - data-viz
   - seaborn
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

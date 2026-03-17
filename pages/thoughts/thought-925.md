@@ -7,9 +7,7 @@ tags:
   - ai
   - llm
   - agents
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

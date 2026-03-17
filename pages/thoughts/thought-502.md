@@ -5,9 +5,7 @@ template: link
 link: https://csswizardry.com/about/#section:colophon
 tags:
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

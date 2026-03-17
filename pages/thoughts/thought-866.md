@@ -5,9 +5,7 @@ template: link
 link: https://youtu.be/TyCR8YpvqhE?si=VmV389UaBzGbjdO-
 tags:
   - automotive
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

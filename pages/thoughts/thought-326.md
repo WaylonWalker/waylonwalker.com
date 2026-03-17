@@ -7,9 +7,7 @@ tags:
   - infra
   - dev
   - open source
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

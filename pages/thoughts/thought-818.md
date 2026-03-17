@@ -7,9 +7,7 @@ tags:
   - git
   - dev
   - later
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

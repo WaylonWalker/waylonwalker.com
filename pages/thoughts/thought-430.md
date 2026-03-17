@@ -6,9 +6,7 @@ link: https://x.com/wesbos/status/1856724739336859713
 tags:
   - html
   - css
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

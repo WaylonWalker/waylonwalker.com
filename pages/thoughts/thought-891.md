@@ -5,9 +5,7 @@ template: link
 link: https://www.youtube.com/watch?v=HdUbTyvrfKo
 tags:
   - kubernetes
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

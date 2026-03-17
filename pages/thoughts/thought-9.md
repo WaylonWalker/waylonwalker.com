@@ -6,9 +6,7 @@ link: https://www.tecmint.com/manage-services-using-systemd-and-systemctl-in-lin
 tags:
   - linux
   - systemd
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -5,9 +5,7 @@ template: link
 link: https://screenshots.waylonwalker.com/lonecraft.png
 tags:
   - minecraft
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

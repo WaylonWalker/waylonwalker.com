@@ -5,9 +5,7 @@ template: link
 link: https://www.smashingmagazine.com/2026/01/desktop-wallpaper-calendars-february-2026/
 tags:
   - design
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -5,9 +5,7 @@ template: link
 link: https://x.com/dhh/status/1956645753255805151
 tags:
   - linux
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

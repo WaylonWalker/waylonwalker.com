@@ -7,9 +7,7 @@ tags:
   - python
   - docs
   - playwright
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -5,9 +5,7 @@ template: link
 link: https://wiki.archlinux.org/title/java#Switching_between_JVM
 tags:
   - java
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

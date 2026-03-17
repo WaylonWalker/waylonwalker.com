@@ -5,9 +5,7 @@ template: link
 link: https://wyattbubbylee.com/dst-forever-world/
 tags:
   - gaming
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

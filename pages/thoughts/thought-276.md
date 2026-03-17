@@ -6,9 +6,7 @@ link: https://just.systems/man/en/safer-bash-shebang-recipes.html?highlight=pipe
 tags:
   - just
   - justfile
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

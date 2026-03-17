@@ -6,9 +6,7 @@ link: https://daniel.feldroy.com/posts/2025-07-uv-run-for-testing-python-version
 tags:
   - python
   - uv
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

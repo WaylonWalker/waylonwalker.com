@@ -6,9 +6,7 @@ link: https://github.com/sharkdp/bat
 tags:
   - linux
   - cli
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -7,9 +7,7 @@ tags:
   - docker
   - containers
   - k8s
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

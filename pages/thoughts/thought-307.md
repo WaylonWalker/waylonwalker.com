@@ -5,9 +5,7 @@ template: link
 link: https://github.com/darrenburns/posting
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

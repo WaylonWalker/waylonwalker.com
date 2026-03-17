@@ -5,9 +5,7 @@ template: link
 link: https://homenetworkguy.com/how-to/configure-dns-over-tls-unbound-opnsense/
 tags:
   - opnsense
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

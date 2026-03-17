@@ -6,9 +6,7 @@ link: https://github.com/1j01/textual-paint
 tags:
   - python
   - textual
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

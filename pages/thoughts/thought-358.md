@@ -5,9 +5,7 @@ template: link
 link: https://www.youtube.com/watch?v=rxh6MhK6Tbs
 tags:
   - git
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

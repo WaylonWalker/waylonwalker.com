@@ -5,9 +5,7 @@ template: link
 link: https://daniel.haxx.se/blog/2024/06/20/inside-22734-steam-games/
 tags:
   - linux
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

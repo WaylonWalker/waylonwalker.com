@@ -5,9 +5,7 @@ template: link
 link: https://github.com/jesseleite/dotfiles/commit/49794006cbc9dc0e743925ec1a7122514d7148be
 tags:
   - nvim
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

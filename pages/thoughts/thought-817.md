@@ -5,9 +5,7 @@ template: link
 link: https://www.youtube.com/watch?v=3NFwQIoLFgE
 tags:
   - gaming
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

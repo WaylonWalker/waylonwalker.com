@@ -7,9 +7,7 @@ tags:
   - linux
   - ai
   - llm
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

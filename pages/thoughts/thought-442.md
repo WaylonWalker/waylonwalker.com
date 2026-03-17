@@ -5,9 +5,7 @@ template: link
 link: https://watchfiles.helpmanual.io/
 tags:
   - python
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

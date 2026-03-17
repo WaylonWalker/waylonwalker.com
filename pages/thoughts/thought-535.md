@@ -6,9 +6,7 @@ link: https://github.com/bootandy/dust?tab=readme-ov-file
 tags:
   - linux
   - cli
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

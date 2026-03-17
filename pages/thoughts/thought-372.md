@@ -5,9 +5,7 @@ template: link
 link: https://www.youtube.com/watch?v=YfwlM-fw-aw
 tags:
   - skate
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

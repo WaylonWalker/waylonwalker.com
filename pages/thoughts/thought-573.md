@@ -5,9 +5,7 @@ template: link
 link: https://xcmkb.com/pages/zmk-bluetooth-boards
 tags:
   - keyboard
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

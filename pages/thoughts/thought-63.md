@@ -7,9 +7,7 @@ tags:
   - data
   - database
   - duckdb
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -6,9 +6,7 @@ link: https://maurycyz.com/misc/sunlight_as_a_service/
 tags:
   - science
   - solar
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

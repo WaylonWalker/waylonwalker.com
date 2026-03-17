@@ -5,9 +5,7 @@ template: link
 link: https://x.com/Zellij_dev/status/1574675207935107072
 tags:
   - meme
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

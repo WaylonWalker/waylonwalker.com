@@ -5,9 +5,7 @@ template: link
 link: https://willj.net/posts/fitting-two-hard-drives-and-an-ssd-in-a-dell-optiplex-7010-usff/
 tags:
   - homelab
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

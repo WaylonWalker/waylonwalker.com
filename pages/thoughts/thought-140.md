@@ -6,9 +6,7 @@ link: https://docs.k3s.io/quick-start
 tags:
   - homelab
   - k3s
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

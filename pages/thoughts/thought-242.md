@@ -5,9 +5,7 @@ template: link
 link: None
 tags:
   - vim
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

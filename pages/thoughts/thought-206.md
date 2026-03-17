@@ -5,9 +5,7 @@ template: link
 link: https://www.youtube.com/watch?v=VVX7JIWx-ss
 tags:
   - sqlalchemy
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

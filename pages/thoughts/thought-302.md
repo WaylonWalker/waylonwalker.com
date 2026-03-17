@@ -6,9 +6,7 @@ link: https://github.com/argoproj/argo-events?tab=readme-ov-file
 tags:
   - k8s
   - kubernetes
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

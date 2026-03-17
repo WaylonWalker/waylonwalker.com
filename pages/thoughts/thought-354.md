@@ -6,9 +6,7 @@ link: https://github.com/WaylonWalker/zmk-config-42block/commit/ce25356e88eb2439
 tags:
   - keyboard
   - zmk
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

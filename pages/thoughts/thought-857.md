@@ -5,9 +5,7 @@ template: link
 link: https://x.com/bazzite_gg/status/1983204433627623590
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

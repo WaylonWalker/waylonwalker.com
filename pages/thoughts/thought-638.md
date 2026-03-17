@@ -5,9 +5,7 @@ template: link
 link: https://simonwillison.net/2025/May/22/no-docs-no-bugs/#atom-everything
 tags:
   - dev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

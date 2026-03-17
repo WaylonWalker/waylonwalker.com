@@ -6,9 +6,7 @@ link: https://github.com/cloudnative-pg/charts/issues/325
 tags:
   - k8s
   - argo
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -5,9 +5,7 @@ template: link
 link: https://simonwillison.net/2024/May/13/tim-paul/
 tags:
   - ai
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

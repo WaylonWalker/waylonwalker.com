@@ -6,9 +6,7 @@ link: https://github.com/mkimuram/k8sviz
 tags:
   - homelab
   - k8s
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

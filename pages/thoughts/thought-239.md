@@ -5,9 +5,7 @@ template: link
 link: https://stackoverflow.com/questions/16151018/how-to-fix-npm-throwing-error-without-sudo#answer-41395398
 tags:
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

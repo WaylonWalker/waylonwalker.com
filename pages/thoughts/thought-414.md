@@ -7,9 +7,7 @@ tags:
   - qmk
   - keyboard
   - trackpad
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

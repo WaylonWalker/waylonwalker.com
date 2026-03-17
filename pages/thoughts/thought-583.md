@@ -5,9 +5,7 @@ template: link
 link: https://www.kaggle.com/datasets/ahmedsafwatgb20/hotel-bookingscsv?resource=download
 tags:
   - data
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

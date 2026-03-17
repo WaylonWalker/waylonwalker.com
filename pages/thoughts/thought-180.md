@@ -5,9 +5,7 @@ template: link
 link: https://imagemagick.org/script/color.php
 tags:
   - cli
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

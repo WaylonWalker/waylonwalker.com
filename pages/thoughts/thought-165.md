@@ -6,9 +6,7 @@ link: https://twitter.com/willmcgugan/status/1729158038551220477
 tags:
   - tui
   - textual
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

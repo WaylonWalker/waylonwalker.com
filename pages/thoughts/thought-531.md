@@ -5,9 +5,7 @@ template: link
 link: https://brittanyellich.com/why-i-write/
 tags:
   - blog
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

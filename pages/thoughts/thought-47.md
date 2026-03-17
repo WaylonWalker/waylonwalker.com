@@ -6,9 +6,7 @@ link: https://fastapi.tiangolo.com/tutorial/request-forms/#define-form-parameter
 tags:
   - fatapi
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

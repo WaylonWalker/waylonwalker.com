@@ -5,9 +5,7 @@ template: link
 link: https://indiewebify.me/
 tags:
   - indieweb
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

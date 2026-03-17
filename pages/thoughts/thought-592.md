@@ -5,9 +5,7 @@ template: link
 link: https://dbushell.com/2025/04/13/self-hosted-update-spring-2025/
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

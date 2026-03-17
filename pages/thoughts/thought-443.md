@@ -6,9 +6,7 @@ link: https://hurl.dev/
 tags:
   - webdev
   - testing
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -6,9 +6,7 @@ link: https://www.youtube.com/watch?v=spCdNeNCuFU&t=247s
 tags:
   - k8s
   - kubernetes
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -5,9 +5,7 @@ template: link
 link: https://quickshell.org/
 tags:
   - linux
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -5,9 +5,7 @@ template: link
 link: https://serverpartdeals.com/collections/manufacturer-recertified-drives
 tags:
   - homelab
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

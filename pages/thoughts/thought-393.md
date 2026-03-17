@@ -6,9 +6,7 @@ link: https://github.com/urob/zmk-config?tab=readme-ov-file
 tags:
   - keyboard
   - zmk
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

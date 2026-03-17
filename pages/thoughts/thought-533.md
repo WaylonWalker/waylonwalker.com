@@ -8,9 +8,7 @@ tags:
   - llm
   - dev
   - catalytic
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -6,9 +6,7 @@ link: https://codepen.io/Godex/pen/DLgQbg
 tags:
   - webdev
   - css
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

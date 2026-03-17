@@ -5,9 +5,7 @@ template: link
 link: https://simplecto.com/you-should-be-hiring-mullets-write-that-down/
 tags:
   - catalytic
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

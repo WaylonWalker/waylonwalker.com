@@ -6,9 +6,7 @@ link: https://www.youtube.com/watch?v=M9Li3gm4JCI
 tags:
   - gaming
   - silksong
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

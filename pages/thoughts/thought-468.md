@@ -7,9 +7,7 @@ tags:
   - python
   - fastapi
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -5,9 +5,7 @@ template: link
 link: https://selfh.st/weekly/2025-05-30/
 tags:
   - self-host
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

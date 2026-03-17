@@ -6,9 +6,7 @@ link: https://pype.dev/docker-context-and-an-issue-to-question-your-sanity
 tags:
   - docker
   - containers
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

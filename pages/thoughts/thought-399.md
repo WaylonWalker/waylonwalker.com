@@ -5,9 +5,7 @@ template: link
 link: https://x.com/jesseleite85/status/1841547565575086448
 tags:
   - editor
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

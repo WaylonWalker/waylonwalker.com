@@ -7,9 +7,7 @@ tags:
   - 3d
   - printing
   - gcode
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -6,9 +6,7 @@ link: https://docs.postiz.com/installation/kubernetes-helm
 tags:
   - homelab
   - self-host
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

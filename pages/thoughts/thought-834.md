@@ -5,9 +5,7 @@ template: link
 link: https://jesseleite.com/2025/a-new-chapter
 tags:
   - dev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

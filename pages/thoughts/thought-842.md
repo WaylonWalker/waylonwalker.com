@@ -5,9 +5,7 @@ template: link
 link: https://simonwillison.net/2025/Sep/27/dan-abramov/#atom-everything
 tags:
   - social
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -5,9 +5,7 @@ template: link
 link: https://github.com/catppuccin/ulauncher
 tags:
   - linux
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

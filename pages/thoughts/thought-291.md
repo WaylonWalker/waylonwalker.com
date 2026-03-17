@@ -6,9 +6,7 @@ link: https://replicate.com/
 tags:
   - llm
   - ai
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

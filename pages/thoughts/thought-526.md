@@ -5,9 +5,7 @@ template: link
 link: https://joelhooks.com/bluesky
 tags:
   - social
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

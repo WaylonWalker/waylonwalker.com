@@ -5,9 +5,7 @@ template: link
 link: https://simonwillison.net/2025/Dec/9/claude/#atom-everything
 tags:
   - ai
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

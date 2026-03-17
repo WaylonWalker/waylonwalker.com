@@ -6,9 +6,7 @@ link: https://htmx.org/essays/locality-of-behaviour/
 tags:
   - htmx
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

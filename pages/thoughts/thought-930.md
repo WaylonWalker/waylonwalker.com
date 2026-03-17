@@ -5,9 +5,7 @@ template: link
 link: https://x.com/LayoutPerson/status/2023551519375900957
 tags:
   - gaming
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

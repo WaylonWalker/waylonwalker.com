@@ -6,9 +6,7 @@ link: https://simonwillison.net/2024/Dec/19/one-shot-python-tools/
 tags:
   - python
   - uv
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

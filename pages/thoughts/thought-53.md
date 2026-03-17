@@ -5,9 +5,7 @@ template: link
 link: https://blog.wesleyac.com/posts/why-not-javascript-cdn
 tags:
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

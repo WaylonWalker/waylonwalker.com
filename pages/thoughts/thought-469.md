@@ -6,9 +6,7 @@ link: https://www.youtube.com/watch?v=iuBzGked-JU&t=559s
 tags:
   - linux
   - gaming
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

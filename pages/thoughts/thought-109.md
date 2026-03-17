@@ -6,9 +6,7 @@ link: https://github.com/aca/emmet-ls
 tags:
   - webdev
   - nvim
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

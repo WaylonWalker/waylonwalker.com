@@ -5,9 +5,7 @@ template: link
 link: https://www.cgsecurity.org/wiki/TestDisk_Step_By_Step
 tags:
   - linux
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

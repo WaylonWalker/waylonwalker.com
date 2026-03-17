@@ -6,9 +6,7 @@ link: https://www.lazyvim.org/installation
 tags:
   - vim
   - linux
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

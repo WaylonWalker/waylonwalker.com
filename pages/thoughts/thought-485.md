@@ -5,9 +5,7 @@ template: link
 link: https://hypixel.net/threads/teleport-to-coop-partner.2250505/
 tags:
   - minecraft
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

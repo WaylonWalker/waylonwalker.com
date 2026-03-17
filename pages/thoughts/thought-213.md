@@ -6,9 +6,7 @@ link: None
 tags:
   - python
   - nvim
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

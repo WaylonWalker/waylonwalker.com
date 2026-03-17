@@ -6,9 +6,7 @@ link: https://wiki.archlinux.org/title/pacman/Tips_and_tricks
 tags:
   - linux
   - arch
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

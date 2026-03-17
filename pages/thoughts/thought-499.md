@@ -5,9 +5,7 @@ template: link
 link: https://github.com/sturobson/myRSS/blob/master/personal-blogs.xml
 tags:
   - rss
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

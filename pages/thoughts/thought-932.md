@@ -5,9 +5,7 @@ template: link
 link: https://x.com/trashh_dev/status/2024476878015468027
 tags:
   - dev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

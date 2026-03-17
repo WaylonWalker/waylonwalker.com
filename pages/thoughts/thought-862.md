@@ -5,9 +5,7 @@ template: link
 link: https://jesseleite.com/2025/the-glorious-pipe-operator
 tags:
   - software
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

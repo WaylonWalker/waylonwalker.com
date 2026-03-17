@@ -5,9 +5,7 @@ template: link
 link: https://jvns.ca/blog/2024/03/28/git-poll-results/
 tags:
   - git
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

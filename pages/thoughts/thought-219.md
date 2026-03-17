@@ -5,9 +5,7 @@ template: link
 link: https://carlosbecker.com/posts/workflow-pt1/
 tags:
   - workflow
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

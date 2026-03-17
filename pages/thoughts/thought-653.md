@@ -5,9 +5,7 @@ template: link
 link: https://docs.gitignore.io/install/command-line
 tags:
   - linux
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

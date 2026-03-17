@@ -6,9 +6,7 @@ link: https://stripe.com/docs/billing/subscriptions/cancel#canceling
 tags:
   - webdev
   - stripe
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -5,9 +5,7 @@ template: link
 link: https://cassidoo.co/post/think-less/
 tags:
   - dev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

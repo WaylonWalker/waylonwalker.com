@@ -6,9 +6,7 @@ link: https://www.youtube.com/watch?v=4nK03E0jvnI
 tags:
   - webdev
   - low code
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

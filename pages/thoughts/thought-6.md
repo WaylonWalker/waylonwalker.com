@@ -7,9 +7,7 @@ tags:
   - linux
   - bash
   - cli
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -6,9 +6,7 @@ link: https://www.youtube.com/watch?v=RmnqdAidVeE
 tags:
   - nvim
   - arch
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

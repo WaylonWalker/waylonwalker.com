@@ -6,9 +6,7 @@ link: https://stripe.com/docs/api/invoices/upcoming
 tags:
   - webdev
   - stripe
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

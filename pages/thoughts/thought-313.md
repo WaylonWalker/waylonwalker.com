@@ -5,9 +5,7 @@ template: link
 link: https://www.youtube.com/watch?v=hjml-K-pV4E
 tags:
   - keyboard
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

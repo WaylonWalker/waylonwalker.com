@@ -5,9 +5,7 @@ template: link
 link: https://linkding.link/
 tags:
   - homelab
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

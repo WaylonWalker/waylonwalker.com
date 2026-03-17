@@ -5,9 +5,7 @@ template: link
 link: https://github.com/gitroomhq/postiz-helmchart
 tags:
   - homelab
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

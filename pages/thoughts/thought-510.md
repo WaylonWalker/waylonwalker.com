@@ -8,9 +8,7 @@ tags:
   - kubernetes
   - helm
   - nvim
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -6,9 +6,7 @@ link: https://www.youtube.com/watch?v=ZH3iKbEiks0
 tags:
   - linux
   - archlinux
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

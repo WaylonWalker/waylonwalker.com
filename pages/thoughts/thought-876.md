@@ -5,9 +5,7 @@ template: link
 link: https://blog.jim-nielsen.com/2025/malicious-traffic-on-static-sites/
 tags:
   - blog
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

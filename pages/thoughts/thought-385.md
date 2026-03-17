@@ -5,9 +5,7 @@ template: link
 link: https://www.printables.com/model/580045/files
 tags:
   - 3d-printing
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

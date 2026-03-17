@@ -7,9 +7,7 @@ tags:
   - dev
   - ai
   - llm
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

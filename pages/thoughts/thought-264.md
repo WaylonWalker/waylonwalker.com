@@ -5,9 +5,7 @@ template: link
 link: https://www.youtube.com/watch?v=UBXXw2JSloo
 tags:
   - programming
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

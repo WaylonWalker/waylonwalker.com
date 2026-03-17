@@ -5,9 +5,7 @@ template: link
 link: https://docs.datasette.io/en/stable/custom_templates.html#serving-static-files
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

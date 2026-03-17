@@ -6,9 +6,7 @@ link: https://bunny.net/
 tags:
   - webdev
   - hosting
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -5,9 +5,7 @@ template: link
 link: https://bsky.app/profile/jhey.dev/post/3lgoev36hps2h
 tags:
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -6,9 +6,7 @@ link: https://clig.dev/
 tags:
   - cli
   - dev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

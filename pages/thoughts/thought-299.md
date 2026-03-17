@@ -6,9 +6,7 @@ link: https://kbd.news/Steam-Deck-dock-2291.html
 tags:
   - cyberdeck
   - keeb
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

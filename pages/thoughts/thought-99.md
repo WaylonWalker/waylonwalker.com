@@ -6,9 +6,7 @@ link: https://preline.co/docs/index.html
 tags:
   - tailwindcss
   - css
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

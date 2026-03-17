@@ -7,9 +7,7 @@ tags:
   - meta
   - thoughts
   - shots
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

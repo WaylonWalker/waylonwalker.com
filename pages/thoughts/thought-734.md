@@ -5,9 +5,7 @@ template: link
 link: https://stackoverflow.com/questions/56755439/modifying-hover-in-tailwindcss
 tags:
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

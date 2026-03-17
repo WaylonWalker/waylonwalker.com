@@ -6,9 +6,7 @@ link: https://git.dbushell.com/explore/repos
 tags:
   - dev
   - self-hosted
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

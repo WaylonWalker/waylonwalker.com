@@ -6,9 +6,7 @@ link: https://chriscoyier.net/2025/01/03/realign/
 tags:
   - webdev
   - blog
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

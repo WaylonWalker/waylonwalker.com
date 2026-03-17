@@ -5,9 +5,7 @@ template: link
 link: https://simonwillison.net/2025/Dec/9/deprecations-via-warnings/#atom-everything
 tags:
   - python
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

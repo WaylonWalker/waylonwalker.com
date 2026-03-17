@@ -6,9 +6,7 @@ link: https://fly.io/docs/postgres/managing/deleting/
 tags:
   - infra
   - fly
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

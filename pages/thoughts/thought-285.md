@@ -5,9 +5,7 @@ template: link
 link: https://changelog.com/podcast/582
 tags:
   - right-to-repair
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -5,9 +5,7 @@ template: link
 link: https://placehold.co/
 tags:
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

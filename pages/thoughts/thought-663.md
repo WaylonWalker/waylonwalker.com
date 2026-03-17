@@ -5,9 +5,7 @@ template: link
 link: https://www.youtube.com/shorts/SIKo2lCzfhE
 tags:
   - writing
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

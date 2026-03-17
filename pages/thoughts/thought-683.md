@@ -6,9 +6,7 @@ link: https://github.com/robinroy03/videoeditor
 tags:
   - self-host
   - video-editor
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

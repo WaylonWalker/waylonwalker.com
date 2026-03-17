@@ -7,9 +7,7 @@ tags:
   - jq
   - ijq
   - json
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

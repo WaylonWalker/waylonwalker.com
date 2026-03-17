@@ -5,9 +5,7 @@ template: link
 link: https://markdowndown.vercel.app/
 tags:
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

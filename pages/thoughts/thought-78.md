@@ -6,9 +6,7 @@ link: https://vuejs.org/guide/essentials/lifecycle.html#lifecycle-diagram
 tags:
   - webdev
   - vuejs
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

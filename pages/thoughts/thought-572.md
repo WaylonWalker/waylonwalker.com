@@ -5,9 +5,7 @@ template: link
 link: https://www.printables.com/model/48505-mantis-clamp/files
 tags:
   - 3d-printing
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

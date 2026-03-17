@@ -5,9 +5,7 @@ template: link
 link: https://picocss.com/docs/colors
 tags:
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

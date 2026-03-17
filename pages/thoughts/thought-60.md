@@ -7,9 +7,7 @@ tags:
   - python
   - sql
   - sqlalchemy
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

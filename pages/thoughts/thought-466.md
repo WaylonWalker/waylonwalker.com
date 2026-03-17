@@ -6,9 +6,7 @@ link: https://status.depot.dev/
 tags:
   - containers
   - status
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

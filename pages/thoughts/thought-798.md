@@ -6,9 +6,7 @@ link: https://github.com/longhorn/longhorn/discussions/6964
 tags:
   - kubernets
   - longhorn
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

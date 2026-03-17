@@ -5,9 +5,7 @@ template: link
 link: https://git-send-email.io/
 tags:
   - git
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

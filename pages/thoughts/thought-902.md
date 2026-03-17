@@ -7,9 +7,7 @@ tags:
   - blog
   - writing
   - llm
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -6,9 +6,7 @@ link: https://uvx.sh/
 tags:
   - python
   - uv
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

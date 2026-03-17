@@ -6,9 +6,7 @@ link: https://www.youtube.com/watch?v=Yq-hxgysWLQ
 tags:
   - python
   - data
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

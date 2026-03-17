@@ -7,9 +7,7 @@ tags:
   - twitter
   - x
   - dev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

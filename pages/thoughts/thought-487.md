@@ -5,9 +5,7 @@ template: link
 link: https://daniel.haxx.se/blog/2024/12/30/curl-with-partial-files/
 tags:
   - linux
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

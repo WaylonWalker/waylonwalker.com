@@ -6,9 +6,7 @@ link: https://github.com/jose-elias-alvarez/null-ls.nvim/wiki/Formatting-on-save
 tags:
   - vim
   - nvim
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

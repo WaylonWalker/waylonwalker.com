@@ -6,9 +6,7 @@ link: https://pype.dev/2025-07-10-notes/
 tags:
   - linux
   - bash
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

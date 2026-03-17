@@ -5,9 +5,7 @@ template: link
 link: https://bryanhogan.com/blog/obsidian-gaming-backlog
 tags:
   - gaming
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

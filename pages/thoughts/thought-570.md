@@ -5,9 +5,7 @@ template: link
 link: https://www.zachleat.com/web/style-guide/
 tags:
   - blog
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

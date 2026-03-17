@@ -5,9 +5,7 @@ template: link
 link: https://tonsky.me/
 tags:
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

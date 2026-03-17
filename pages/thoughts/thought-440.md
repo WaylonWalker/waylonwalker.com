@@ -5,9 +5,7 @@ template: link
 link: https://galaxy.ansible.com/ui/repo/published/amazon/aws/content/module/s3_bucket/#examples
 tags:
   - ansible
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

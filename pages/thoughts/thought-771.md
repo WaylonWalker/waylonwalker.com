@@ -6,9 +6,7 @@ link: https://github.com/kubernetes-csi/csi-driver-smb/tree/master/deploy/exampl
 tags:
   - self-hosted
   - homelab
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

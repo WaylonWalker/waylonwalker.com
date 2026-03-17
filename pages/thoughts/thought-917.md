@@ -5,9 +5,7 @@ template: link
 link: https://tldraw.dev/blog/stay-away-from-my-trash
 tags:
   - later
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

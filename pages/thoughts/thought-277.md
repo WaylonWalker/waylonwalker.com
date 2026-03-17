@@ -5,9 +5,7 @@ template: link
 link: https://tech.ahrefs.com/how-ahrefs-gets-a-billion-dollar-worth-infrastructure-with-a-90-discount-5edd473b2399
 tags:
   - infra
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

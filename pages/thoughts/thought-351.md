@@ -5,9 +5,7 @@ template: link
 link: https://github.com/WaylonWalker/zmk-config-ninepad/commit/8b76b76e2f094453aaf7ffe51bb405ce3a25a611
 tags:
   - keyboard
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

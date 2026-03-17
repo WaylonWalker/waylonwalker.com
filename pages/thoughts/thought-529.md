@@ -6,9 +6,7 @@ link: https://kriscables.com/supermini-nrf52840/
 tags:
   - keyboard
   - microcontroller
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

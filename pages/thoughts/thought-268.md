@@ -5,9 +5,7 @@ template: link
 link: https://hatch.pypa.io/latest/blog/2024/05/02/hatch-v1100/
 tags:
   - python
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

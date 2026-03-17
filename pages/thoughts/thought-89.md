@@ -7,9 +7,7 @@ tags:
   - python
   - screenshot
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

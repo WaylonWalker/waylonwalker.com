@@ -7,9 +7,7 @@ tags:
   - cli
   - installer
   - github
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

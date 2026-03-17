@@ -5,9 +5,7 @@ template: link
 link: https://webtui.ironclad.sh/
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

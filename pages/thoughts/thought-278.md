@@ -5,9 +5,7 @@ template: link
 link: https://github.com/ublue-os/obs-studio-portable
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

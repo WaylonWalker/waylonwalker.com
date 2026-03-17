@@ -5,9 +5,7 @@ template: link
 link: https://x.com/dhh/status/2023710298201350606/photo/1
 tags:
   - terminal
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

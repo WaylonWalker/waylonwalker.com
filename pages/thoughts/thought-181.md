@@ -5,9 +5,7 @@ template: link
 link: https://github.com/DataDog/ddqa
 tags:
   - python
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

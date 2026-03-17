@@ -5,9 +5,7 @@ template: link
 link: https://x.com/XTicklemykeys/status/1840104423508312273
 tags:
   - keyboard
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

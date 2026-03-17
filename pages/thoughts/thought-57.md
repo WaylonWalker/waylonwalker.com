@@ -6,9 +6,7 @@ link: https://github.com/containers/aardvark-dns
 tags:
   - linux
   - arch
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

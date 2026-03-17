@@ -5,9 +5,7 @@ template: link
 link: https://daniel.haxx.se/blog/2024/07/03/wcurl-is-here/
 tags:
   - linux
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

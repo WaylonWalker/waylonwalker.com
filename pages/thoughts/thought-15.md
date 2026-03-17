@@ -6,9 +6,7 @@ link: https://twitter.com/changelog/status/1681306857951084544
 tags:
   - soft
   - presentation
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -5,9 +5,7 @@ template: link
 link: https://x.com/ThePrimeagen/status/1953502301173244004
 tags:
   - llm
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

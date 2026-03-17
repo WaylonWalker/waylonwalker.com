@@ -6,9 +6,7 @@ link: https://twitter.com/bbelderbos/status/1709525676154368055
 tags:
   - vim
   - regex
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

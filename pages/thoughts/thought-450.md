@@ -5,9 +5,7 @@ template: link
 link: https://daverupert.com/2024/12/adhd/
 tags:
   - adhd
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

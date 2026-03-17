@@ -6,9 +6,7 @@ link: https://docs.pydantic.dev/latest/concepts/models/#rebuilding-model-schema
 tags:
   - python
   - pydantic
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

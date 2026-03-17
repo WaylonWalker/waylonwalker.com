@@ -7,9 +7,7 @@ tags:
   - dev
   - oss
   - blog
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -5,9 +5,7 @@ template: link
 link: https://docs.kedro.org/en/stable/configuration/config_loader_migration.html
 tags:
   - kedro
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

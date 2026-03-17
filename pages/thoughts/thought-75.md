@@ -9,9 +9,7 @@ tags:
   - htmx
   - pydantic
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

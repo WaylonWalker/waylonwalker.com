@@ -5,9 +5,7 @@ template: link
 link: https://arstechnica.com/gaming/2025/09/hollow-knight-silksong-is-breaking-steam/
 tags:
   - gaming
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

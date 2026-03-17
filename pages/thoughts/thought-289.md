@@ -5,9 +5,7 @@ template: link
 link: https://www.jakeworth.com/posts/be-fast/
 tags:
   - catalyst
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

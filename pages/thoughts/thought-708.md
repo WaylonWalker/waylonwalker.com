@@ -7,9 +7,7 @@ tags:
   - python
   - blog
   - fonts
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

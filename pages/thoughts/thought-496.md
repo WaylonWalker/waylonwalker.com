@@ -5,9 +5,7 @@ template: link
 link: https://share.transistor.fm/s/a9e41e15
 tags:
   - catalytic
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

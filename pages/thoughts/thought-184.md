@@ -5,9 +5,7 @@ template: link
 link: https://twitter.com/_WaylonWalker/status/1734387536716308693
 tags:
   - blogging
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

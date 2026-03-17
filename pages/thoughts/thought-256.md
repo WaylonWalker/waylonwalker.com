@@ -6,9 +6,7 @@ link: https://developer.mozilla.org/en-US/docs/Web/CSS/white-space
 tags:
   - html
   - webdev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

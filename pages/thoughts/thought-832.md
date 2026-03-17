@@ -5,9 +5,7 @@ template: link
 link: https://www.youtube.com/watch?v=Qc_kEyLsXH0
 tags:
   - catalytic
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

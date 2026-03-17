@@ -6,9 +6,7 @@ link: https://www.printables.com/model/637028-rugged-storage-box-parametric-and-
 tags:
   - gridfinity
   - 3d printing
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

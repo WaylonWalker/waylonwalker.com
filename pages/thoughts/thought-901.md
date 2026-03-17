@@ -6,9 +6,7 @@ link: https://stephango.com/file-over-app
 tags:
   - blog
   - writing
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

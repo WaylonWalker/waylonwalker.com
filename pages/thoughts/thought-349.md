@@ -5,9 +5,7 @@ template: link
 link: https://kbd.news/NEC-M-System-1729.html
 tags:
   - keyboards
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

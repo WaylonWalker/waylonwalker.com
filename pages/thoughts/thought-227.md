@@ -6,9 +6,7 @@ link: None
 tags:
   - webdev
   - fastapi
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

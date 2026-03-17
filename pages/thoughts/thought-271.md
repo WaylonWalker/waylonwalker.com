@@ -6,9 +6,7 @@ link: https://www.youtube.com/watch?v=V_2OLtsD0N8&t=4604
 tags:
   - sst
   - serverless
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

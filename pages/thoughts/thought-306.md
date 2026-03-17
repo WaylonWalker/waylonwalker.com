@@ -6,9 +6,7 @@ link: https://simonwillison.net/2024/Apr/25/blogmarks-that-use-markdown/
 tags:
   - blogging
   - web
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

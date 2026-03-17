@@ -5,9 +5,7 @@ template: link
 link: https://github.com/tusharsadhwani/yen
 tags:
   - python
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

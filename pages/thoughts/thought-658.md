@@ -5,9 +5,7 @@ template: link
 link: https://github.com/jimniels/blog/commit/b1a250b2357d21e69a58ce3265114e1761fb47f8
 tags:
   - blog
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

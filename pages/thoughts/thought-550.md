@@ -5,9 +5,7 @@ template: link
 link: https://www.kailh.net/search?q=box+white&_pos=2&_psq=white&_ss=e&_v=1.0
 tags:
   - keyboard
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

@@ -6,9 +6,7 @@ link: https://simonwillison.net/2025/Jul/8/uv-cache-prune/#atom-everything
 tags:
   - uv
   - python
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

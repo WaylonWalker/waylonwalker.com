@@ -5,9 +5,7 @@ template: link
 link: https://lospec.com/
 tags:
   - gamedev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

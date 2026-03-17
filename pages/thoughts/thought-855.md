@@ -5,9 +5,7 @@ template: link
 link: https://bsky.app/profile/meredithmeredith.bsky.social/post/3m46a2fm5ac23
 tags:
   - 
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

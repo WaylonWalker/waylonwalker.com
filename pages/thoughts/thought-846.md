@@ -5,9 +5,7 @@ template: link
 link: https://peps.python.org/pep-0735/
 tags:
   - python
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

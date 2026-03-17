@@ -6,9 +6,7 @@ link: https://x.com/wesbos/status/1834242925401694490
 tags:
   - webdev
   - css
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

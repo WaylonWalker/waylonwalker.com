@@ -6,9 +6,7 @@ link: https://x.com/changelog/status/1860697708463378497
 tags:
   - cloud
   - k8s
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

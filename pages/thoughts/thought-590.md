@@ -6,9 +6,7 @@ link: https://www.youtube.com/watch?v=zolrLsjs1c4
 tags:
   - trailmakers
   - game
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

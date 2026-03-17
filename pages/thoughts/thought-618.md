@@ -6,9 +6,7 @@ link: https://www.fafo.fm/recovering-from-disaster-with-seth-eliot/
 tags:
   - cloud
   - dev
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

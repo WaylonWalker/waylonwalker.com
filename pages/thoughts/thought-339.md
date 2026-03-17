@@ -5,9 +5,7 @@ template: link
 link: https://unix.stackexchange.com/questions/93531/what-is-stored-in-dev-pts-files-and-can-we-open-them
 tags:
   - linux
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

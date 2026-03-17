@@ -5,9 +5,7 @@ template: link
 link: https://waylonwalker.com/thoughts/thought-623/
 tags:
   - fleeting
-  - thoughts
   - thought
-  - link
 published: true
 
 ---

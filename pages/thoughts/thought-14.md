@@ -6,9 +6,7 @@ link: https://twitter.com/chriscoyier/status/1681407724993798144
 tags:
   - webdev
   - css
-  - thoughts
   - thought
-  - link
 published: true
 
 ---
