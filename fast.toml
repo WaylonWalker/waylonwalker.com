@@ -9,10 +9,11 @@ concurrency = 2
 [markata-go.glob]
 # Only process specific files for faster builds
 patterns = [
+"pages/post/index.md",
 "pages/blog/start.md",
 "pages/blog/now.md",
 "pages/blog/analytics.md",
-# "pages/shots/*.md",
+"pages/blog/sample.md",
 ]
 
 
