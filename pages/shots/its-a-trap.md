@@ -7,11 +7,11 @@ tags:
   - trailmakers
 published: True
 slug: shots/its-a-trap
-image: http://dropper.waylonwalker.com/file/144212e0-1ed6-4c1a-9630-70ad545145c9.mp4
+image: https://dropper.waylonwalker.com/file/144212e0-1ed6-4c1a-9630-70ad545145c9.mp4
 description: Its A Trap
 original: its-a-trap.mp4
 ---
 
-![Its A Trap](http://dropper.waylonwalker.com/file/144212e0-1ed6-4c1a-9630-70ad545145c9.mp4)
+![Its A Trap](https://dropper.waylonwalker.com/file/144212e0-1ed6-4c1a-9630-70ad545145c9.mp4)
 
 > Its A Trap, abmush with Adiral Leadhead, During my second trailmakers pioneers run.

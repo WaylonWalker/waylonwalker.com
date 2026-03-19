@@ -26,33 +26,33 @@ running, primarily clos, timer, and stopwatch.
 
 A large displya clock.
 
-[![screenshot of https://clock.wayl.one](http://shots.waylonwalker.com/shot/?url=https://clock.wayl.one&height=450&width=800&scaled_width=800&scaled_height=450&selectors=)](https://clock.wayl.one)
+[![screenshot of https://clock.wayl.one](https://shots.waylonwalker.com/shot/?url=https://clock.wayl.one&height=450&width=800&scaled_width=800&scaled_height=450&selectors=)](https://clock.wayl.one)
 
 ## Timer
 
 A simple timer that counts down from thet set time.
 
-[![screenshot of https://timer.wayl.one](http://shots.waylonwalker.com/shot/?url=https://timer.wayl.one&height=450&width=800&scaled_width=800&scaled_height=450&selectors=)](https://timer.wayl.one)
+[![screenshot of https://timer.wayl.one](https://shots.waylonwalker.com/shot/?url=https://timer.wayl.one&height=450&width=800&scaled_width=800&scaled_height=450&selectors=)](https://timer.wayl.one)
 
 ## Stopwatch
 
 This is the one that inspired it all, I need to run a few stopwatches at work,
 and chose to just do it right in the google search with a few tabs running.
 
-[![screenshot of https://stopwatch.wayl.one](http://shots.waylonwalker.com/shot/?url=https://stopwatch.wayl.one&height=450&width=800&scaled_width=800&scaled_height=450&selectors=)](https://stopwatch.wayl.one)
+[![screenshot of https://stopwatch.wayl.one](https://shots.waylonwalker.com/shot/?url=https://stopwatch.wayl.one&height=450&width=800&scaled_width=800&scaled_height=450&selectors=)](https://stopwatch.wayl.one)
 
 ## Dice
 
 A simple dice roller, this one is the one that I decided to start adding `?`
 for help.
 
-[![screenshot of https://dice.wayl.one](http://shots.waylonwalker.com/shot/?url=https://dice.wayl.one&height=450&width=800&scaled_width=800&scaled_height=450&selectors=)](https://dice.wayl.one)
+[![screenshot of https://dice.wayl.one](https://shots.waylonwalker.com/shot/?url=https://dice.wayl.one&height=450&width=800&scaled_width=800&scaled_height=450&selectors=)](https://dice.wayl.one)
 
 ## UUID
 
 It displays a uuid, thats it.  <kbd>ctrl</kbd> + <kbd>c</kbd> to copy.
 
-[![screenshot of https://uuid.wayl.one](http://shots.waylonwalker.com/shot/?url=https://uuid.wayl.one&height=450&width=800&scaled_width=800&scaled_height=450&selectors=)](https://uuid.wayl.one)
+[![screenshot of https://uuid.wayl.one](https://shots.waylonwalker.com/shot/?url=https://uuid.wayl.one&height=450&width=800&scaled_width=800&scaled_height=450&selectors=)](https://uuid.wayl.one)
 
 ## b64
 
@@ -62,7 +62,7 @@ decode, e to encode, ? for help.  It took a bit to get all of the keymaps right
 with the differnt modes and make sure that for instance you don't keep typing
 in the input box while in help mode, or decode/encode while in the input box.
 
-[![screenshot of https://b64.wayl.one](http://shots.waylonwalker.com/shot/?url=https://b64.wayl.one&height=450&width=800&scaled_width=800&scaled_height=450&selectors=)](https://b64.wayl.one)
+[![screenshot of https://b64.wayl.one](https://shots.waylonwalker.com/shot/?url=https://b64.wayl.one&height=450&width=800&scaled_width=800&scaled_height=450&selectors=)](https://b64.wayl.one)
 
 ## PocketCal
 
@@ -72,7 +72,7 @@ ethos and deserves a mention here.  Its a single page calendar that is a static
 site completely rendered on the front end, data is stored in the url as you
 interact with it.  None of your data goes to a server.
 
-[![screenshot of https://pocketcal.com](http://shots.waylonwalker.com/shot/?url=https://pocketcal.com&height=450&width=800&scaled_width=800&scaled_height=450&selectors=)](https://pocketcal.com)
+[![screenshot of https://pocketcal.com](https://shots.waylonwalker.com/shot/?url=https://pocketcal.com&height=450&width=800&scaled_width=800&scaled_height=450&selectors=)](https://pocketcal.com)
 
 ## qrcode
 

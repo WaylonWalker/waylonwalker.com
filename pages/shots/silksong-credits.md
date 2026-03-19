@@ -7,12 +7,12 @@ tags:
   - hollow-knight-silksong
 published: True
 slug: shots/credits
-image: http://dropper.waylonwalker.com/file/251a07be-eb46-4a27-9317-1c7a673ba2b4.mp4
+image: https://dropper.waylonwalker.com/file/251a07be-eb46-4a27-9317-1c7a673ba2b4.mp4
 description: Credits
 original: silksong-keebrun-credits.mp4
 ---
 
-![Credits](http://dropper.waylonwalker.com/file/251a07be-eb46-4a27-9317-1c7a673ba2b4.mp4)
+![Credits](https://dropper.waylonwalker.com/file/251a07be-eb46-4a27-9317-1c7a673ba2b4.mp4)
 
 > Today I rolled the credits to Silksong, far from the end, still finishing the
 > playthrough.  also I walked away and let it sit idle and it ate my play

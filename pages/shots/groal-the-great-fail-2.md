@@ -7,11 +7,11 @@ tags:
   - hollow-knight-silksong
 published: True
 slug: shots/goal-the-great-fail-2
-image: http://dropper.waylonwalker.com/file/73bf21e9-bb8f-48f0-b2b5-840a1beec270.mp4
+image: https://dropper.waylonwalker.com/file/73bf21e9-bb8f-48f0-b2b5-840a1beec270.mp4
 description: Groal The Great Fail 2
 original: silksong-keebrun-goal-the-great-fail-2.mp4
 ---
 
-![Groal The Great Fail 2](http://dropper.waylonwalker.com/file/73bf21e9-bb8f-48f0-b2b5-840a1beec270.mp4)
+![Groal The Great Fail 2](https://dropper.waylonwalker.com/file/73bf21e9-bb8f-48f0-b2b5-840a1beec270.mp4)
 
 > Groal The Great Fail 2

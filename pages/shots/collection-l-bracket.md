@@ -7,11 +7,11 @@ tags:
   - trailmakers
 published: True
 slug: shots/collection-l-bracket
-image: http://dropper.waylonwalker.com/file/00069fdd-0baf-44d0-9102-cfc80f273327.mp4
+image: https://dropper.waylonwalker.com/file/00069fdd-0baf-44d0-9102-cfc80f273327.mp4
 description: Collection L Bracket
 original: collection-l-bracket.mp4
 ---
 
-![Collection L Bracket](http://dropper.waylonwalker.com/file/00069fdd-0baf-44d0-9102-cfc80f273327.mp4)
+![Collection L Bracket](https://dropper.waylonwalker.com/file/00069fdd-0baf-44d0-9102-cfc80f273327.mp4)
 
 > Collecting the L Bracket, During my second trailmakers pioneers run.
