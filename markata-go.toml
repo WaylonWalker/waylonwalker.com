@@ -1617,6 +1617,24 @@ site_url = "https://aresluna.org"
 handle = "aresluna"
 image_url = "https://aresluna.org/images/ogimage.png"
 
+[[blogroll.feeds]]
+url = "https://alexwlchan.net/atom.xml"
+title = "alexwlchan"
+description = "Alex Chan’s personal website"
+category = "Technology"
+site_url = "https://alexwlchan.net"
+handle = "alexwlchan"
+
+[[blogroll.feeds]]
+url = "https://bsky.app/profile/thdxr.com/rss"
+title = "thdxr"
+description = "thdxr's bluesky profile"
+category = "technology"
+tags = ["bluesky"]
+site_url = "https://bsky.app/profile/thdxr.com"
+handle = "thdxr"
+image_url = "https://cdn.bsky.app/img/avatar/plain/did:plc:rfqyqd6el63kkqckjrtq2xsi/bafkreif4i7mhs6nfzc4sz7ixpfmwu3wzvrkdfun5bb274wjxcy4qn5buhu"
+
 [markata-go.plugins.steam]
 enabled = true
 api_key = "${STEAM_API_KEY}"
