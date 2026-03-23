@@ -8,9 +8,9 @@ tags:
 published: False
 authors:
   - waylon
-  - id: gpt-5.2-codex
-    role: drafter
-    details: Initial draft prepared by the assistant.
+  - id: gpt-5-2-codex
+    role: pair programmer
+    details: Researched and implemented a compare-before-encrypt workflow to keep Git diffs clean when using Ansible Vault.
 
 ---
 

@@ -8,12 +8,24 @@ concurrency = 2
 
 [markata-go.glob]
 # Only process specific files for faster builds
+# Includes a few from each content type so the homepage feeds render
 patterns = [
 "pages/post/index.md",
 "pages/blog/start.md",
 "pages/blog/now.md",
 "pages/blog/analytics.md",
-"pages/blog/sample.md",
+"pages/til/vim-gq.md",
+"pages/til/get-python-package-versions.md",
+"pages/til/am-i-vulnerable-to-the-xz-backdoor.md",
+"pages/shots/gradient-keycap-results.md",
+"pages/shots/dont-starve-together-session-one-start.md",
+"pages/shots/high-halls-gauntlet-ending.md",
+"pages/ping/fast-changing-dev-server-today.md",
+"pages/ping/gpus-are-awesome.md",
+"pages/ping/git-worktrees-are-needed.md",
+"pages/thoughts/thought-100.md",
+"pages/thoughts/thought-102.md",
+"pages/thoughts/thought-103.md",
 ]
 
 

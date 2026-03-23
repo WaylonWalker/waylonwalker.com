@@ -1,0 +1,427 @@
+/* ==========================================================================
+   Homepage Styles (v2)
+   Extends the markata-go theme. Uses CSS custom properties from variables.css.
+   ========================================================================== */
+
+/* ── Override page-wrapper constraints for homepage ── */
+.page-home .page-wrapper {
+  max-width: 100%;
+  padding: 0;
+}
+
+/* ── Homepage header ── */
+
+.site-header--home {
+  position: relative;
+  z-index: 100;
+}
+
+.home-header {
+  max-width: var(--page-width);
+  margin: 0 auto;
+  padding: var(--space-4) var(--space-4);
+  display: flex;
+  align-items: center;
+  gap: var(--space-6);
+}
+
+.home-header .site-title {
+  font-weight: 700;
+  font-size: var(--text-lg);
+  color: var(--color-text);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.home-nav {
+  display: flex;
+  gap: var(--space-4);
+  flex: 1;
+}
+
+.home-nav a {
+  color: var(--color-text-muted);
+  text-decoration: none;
+  font-size: var(--text-sm);
+  font-weight: 500;
+  transition: color 0.15s ease;
+}
+
+.home-nav a:hover {
+  color: var(--color-primary);
+}
+
+/* ── Width container ── */
+
+.home-width {
+  max-width: var(--page-width);
+  margin: 0 auto;
+  padding: 0 var(--space-4);
+}
+
+/* ── Hero ── */
+
+.home-hero {
+  padding: var(--space-12) 0 var(--space-8);
+  position: relative;
+  z-index: 10;
+}
+
+.home-hero__inner {
+  display: flex;
+  align-items: center;
+  gap: var(--space-6);
+}
+
+.home-hero__avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid var(--color-border);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.home-hero__name {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 800;
+  line-height: 1.1;
+  margin: 0 0 var(--space-2);
+  color: var(--color-text);
+}
+
+.home-hero__tagline {
+  font-size: var(--text-lg);
+  color: var(--color-text-muted);
+  line-height: 1.5;
+  margin: 0;
+  max-width: 55ch;
+}
+
+/* ── About + Now two-column intro ── */
+
+.home-section {
+  position: relative;
+  z-index: 10;
+  padding: var(--space-6) 0;
+}
+
+.home-two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-6);
+}
+
+.home-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+}
+
+.home-card h2 {
+  font-size: var(--text-xl);
+  font-weight: 700;
+  margin: 0 0 var(--space-4);
+  color: var(--color-text);
+}
+
+.home-card h2 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.home-card h2 a:hover {
+  color: var(--color-primary);
+}
+
+.home-card p {
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  margin: 0 0 var(--space-3);
+  font-size: var(--text-base);
+}
+
+.home-card ul {
+  color: var(--color-text-muted);
+  line-height: 1.7;
+  margin: 0 0 var(--space-3);
+  padding-left: var(--space-5);
+  font-size: var(--text-base);
+}
+
+.home-card li {
+  margin-bottom: var(--space-1);
+}
+
+.home-about__links {
+  display: flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+  margin-top: var(--space-4);
+}
+
+.home-link-pill {
+  display: inline-block;
+  padding: var(--space-1) var(--space-3);
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  text-decoration: none;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.home-link-pill:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.home-now__updated {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  opacity: 0.7;
+  margin-top: var(--space-4);
+}
+
+/* ── Feed sections area ── */
+
+.home-feeds {
+  position: relative;
+  z-index: 10;
+  padding: var(--space-4) 0 var(--space-12);
+}
+
+/* ── Section headings ── */
+
+.page-home .post-content h2 {
+  font-size: var(--text-xl);
+  font-weight: 700;
+  color: var(--color-text);
+  margin: var(--space-10) 0 var(--space-5);
+  padding-bottom: var(--space-2);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.page-home .post-content h2:first-child {
+  margin-top: var(--space-2);
+}
+
+.page-home .post-content h2 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.page-home .post-content h2 a:hover {
+  color: var(--color-primary);
+}
+
+/* Hide heading anchors on homepage */
+.page-home .post-content h2 .anchor,
+.page-home .post-content h2 .heading-anchor {
+  display: none;
+}
+
+/* ── Feed card grids ── */
+
+.page-home .feed .posts,
+.page-home .feed .posts-list {
+  max-width: 100%;
+}
+
+.page-home .feed .posts-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
+  gap: var(--space-4);
+}
+
+/* Cards */
+.page-home .card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.page-home .card:hover {
+  border-color: var(--color-primary);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+.page-home .card-note {
+  max-width: 100%;
+}
+
+/* ── Two-column feed layout (TIL + Pings side by side) ── */
+
+.home-split-feeds {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-6);
+}
+
+.home-split-feeds .home-split-col .feed .posts-list {
+  grid-template-columns: 1fr;
+}
+
+/* ── Shots: wider cards for visual content ── */
+
+.page-home .home-shots-section .feed .posts-list {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* ── Photo figures (shots) ── */
+
+.page-home .photo-figure {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  margin: 0;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.page-home .photo-figure:hover {
+  border-color: var(--color-primary);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+.page-home .photo-figure img,
+.page-home .photo-figure video {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+}
+
+.page-home .photo-figure figcaption {
+  padding: var(--space-2) var(--space-3);
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  line-height: 1.4;
+}
+
+/* ── Slash pages grid ── */
+
+.home-slashes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: var(--space-3);
+}
+
+.home-slash-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-3) var(--space-4);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: var(--text-sm);
+  font-weight: 500;
+  transition: border-color 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.home-slash-link:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* ── Reduce clutter: hide chrome that belongs on posts, not homepage ── */
+
+.page-home .post-header,
+.page-home .post-graph-container,
+.page-home .guide-navigation,
+.page-home .share-container,
+.page-home .article-progress {
+  display: none;
+}
+
+/* ── Transparent backgrounds ── */
+
+.page-home .post-content {
+  background: transparent;
+  box-shadow: none;
+}
+
+.page-home .home-feeds {
+  background: transparent;
+  box-shadow: none;
+}
+
+/* Override layout-content padding for homepage */
+.page-home .layout-content--landing {
+  padding: 0;
+}
+
+/* ── Responsive ── */
+
+@media (max-width: 768px) {
+  .home-hero {
+    padding: var(--space-8) 0 var(--space-6);
+  }
+
+  .home-hero__inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home-hero__avatar {
+    width: 80px;
+    height: 80px;
+  }
+
+  .home-hero__tagline {
+    max-width: 100%;
+  }
+
+  .home-two-col {
+    grid-template-columns: 1fr;
+  }
+
+  .home-split-feeds {
+    grid-template-columns: 1fr;
+  }
+
+  .page-home .feed .posts-list {
+    grid-template-columns: 1fr;
+  }
+
+  .page-home .home-shots-section .feed .posts-list {
+    grid-template-columns: 1fr;
+  }
+
+  .page-home .post-content h2 {
+    font-size: var(--text-lg);
+    margin-top: var(--space-8);
+  }
+
+  .home-header {
+    flex-wrap: wrap;
+  }
+
+  .home-nav {
+    order: 3;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .home-slashes {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .home-card {
+    padding: var(--space-4);
+  }
+
+  .home-slashes {
+    grid-template-columns: 1fr 1fr;
+  }
+}
