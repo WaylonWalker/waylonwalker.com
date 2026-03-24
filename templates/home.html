@@ -5,7 +5,7 @@
 {% block description %}{{ post.description | default:config.description | default:'' }}{% endblock %}
 
 {% block meta %}
-{{ block.Super }}
+{{ block.Super() }}
 <link rel="canonical" href="{{ config.url }}/">
 <meta property="og:title" content="{{ config.title }}">
 <meta property="og:type" content="website">
@@ -16,31 +16,13 @@
 {% endblock %}
 
 {% block head %}
-{{ block.Super }}
+{{ block.Super() }}
 <link rel="stylesheet" href="/css/home.css">
 {% endblock %}
 
 {% block body_class %}page-home{% endblock %}
 
-{# Minimal homepage header -- just site name + quick links + controls #}
-{% block header %}
-<header class="site-header site-header--home" data-pagefind-ignore>
-  <div class="home-header">
-    <a href="/" class="site-title">{{ config.title | default:'Waylon Walker' }}</a>
-    <nav class="home-nav" aria-label="Quick links">
-      <a href="/blog/">Blog</a>
-      <a href="/start/">Start Here</a>
-      <a href="/about/">About</a>
-    </nav>
-    <div class="header-controls">
-      {% if config.search.enabled and config.search.position == 'navbar' %}
-      {% include "components/search.html" %}
-      {% endif %}
-      {% include "partials/palette-switcher.html" %}
-    </div>
-  </div>
-</header>
-{% endblock %}
+{# Use the standard site header from base.html (consistent nav, works with view transitions) #}
 
 {# No reading progress bar on homepage #}
 {% block progress %}{% endblock %}

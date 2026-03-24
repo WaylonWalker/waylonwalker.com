@@ -16,48 +16,6 @@
   padding-right: 0;
 }
 
-/* ── Homepage header ── */
-
-.site-header--home {
-  position: relative;
-  z-index: 100;
-}
-
-.home-header {
-  max-width: var(--grid-max-width, 1400px);
-  margin: 0 auto;
-  padding: var(--space-4) var(--space-6);
-  display: flex;
-  align-items: center;
-  gap: var(--space-6);
-}
-
-.home-header .site-title {
-  font-weight: 700;
-  font-size: var(--text-lg);
-  color: var(--color-text);
-  text-decoration: none;
-  white-space: nowrap;
-}
-
-.home-nav {
-  display: flex;
-  gap: var(--space-4);
-  flex: 1;
-}
-
-.home-nav a {
-  color: var(--color-text-muted);
-  text-decoration: none;
-  font-size: var(--text-sm);
-  font-weight: 500;
-  transition: color 0.15s ease;
-}
-
-.home-nav a:hover {
-  color: var(--color-primary);
-}
-
 /* ── Width container ── */
 
 .home-width {
@@ -278,7 +236,7 @@
 }
 
 /* ==========================================================================
-   SHOTS GALLERY -- Full-width photo grid with card_classes support
+   SHOTS GALLERY -- Instagram-style 3-column square grid
    ========================================================================== */
 
 .home-shots-section {
@@ -291,9 +249,8 @@
 
 .home-shots-section .feed .posts-list {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: var(--space-3);
-  grid-auto-rows: 260px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3px;
   grid-auto-flow: dense;
 }
 
@@ -306,31 +263,31 @@
 /* Photo figures in the shots grid */
 .home-shots-section .photo-figure {
   background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-lg);
   overflow: hidden;
   margin: 0;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
-}
-
-.home-shots-section .photo-figure:hover {
-  border-color: var(--color-primary);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  aspect-ratio: 1 / 1;
+  position: relative;
+  border-radius: var(--radius-lg, 0.75rem);
+  border: none;
 }
 
 .home-shots-section .photo-figure > a {
-  flex: 1;
   display: block;
-  min-height: 0;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
+}
+
+/* glightbox-link anchors extracted by image_zoom plugin need full size */
+.home-shots-section .photo-figure > a.glightbox-link {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 /* image_zoom plugin extracts <img> from the u-url anchor into a new
    glightbox-link anchor, leaving u-url empty. Hide the empty one so
-   it doesn't eat flex space and stretch the card. */
+   it doesn't eat space. */
 .home-shots-section .photo-figure > a:not(:has(img, video)) {
   display: none;
 }
@@ -341,32 +298,50 @@
   height: 100%;
   object-fit: cover;
   display: block;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, filter 0.3s ease;
 }
 
 .home-shots-section .photo-figure:hover img,
 .home-shots-section .photo-figure:hover video {
-  transform: scale(1.03);
+  transform: scale(1.05);
+  filter: brightness(0.7);
 }
 
+/* Caption overlay -- hidden by default, shown on hover */
 .home-shots-section .photo-figure figcaption {
-  padding: var(--space-2) var(--space-3);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: var(--space-3) var(--space-3);
   font-size: var(--text-sm);
-  color: var(--color-text-muted);
+  color: #fff;
   line-height: 1.4;
-  flex-shrink: 0;
-  background: var(--color-surface);
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  /* Limit to 2 lines */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
-/* card_classes wrappers need to fill the grid properly */
-.home-shots-section [class*="col-span-"],
-.home-shots-section [class*="row-span-"] {
+.home-shots-section .photo-figure:hover figcaption {
+  opacity: 1;
+}
+
+/* card_classes wrapper divs: fill grid cell, clip corners */
+.home-shots-section .posts-list > div {
   min-height: 0;
+  overflow: hidden;
+  border-radius: var(--radius-lg, 0.75rem);
 }
 
-.home-shots-section [class*="col-span-"] > .photo-figure,
-.home-shots-section [class*="row-span-"] > .photo-figure {
+.home-shots-section .posts-list > div > .photo-figure {
   height: 100%;
+  width: 100%;
+  border-radius: 0;
 }
 
 /* ==========================================================================
@@ -389,6 +364,12 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: var(--space-4);
+}
+
+/* Shots grid overrides the single-column main-content default */
+.home-main-content .home-shots-section .feed .posts-list {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3px;
 }
 
 /* Blog article cards in main column -- stacked, full width */
@@ -537,7 +518,6 @@
 
   .home-shots-section .feed .posts-list {
     grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 220px;
   }
 }
 
@@ -583,23 +563,12 @@
   }
 
   .home-shots-section .feed .posts-list {
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: 160px;
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .page-home .post-content h2 {
     font-size: var(--text-lg);
     margin-top: var(--space-8);
-  }
-
-  .home-header {
-    flex-wrap: wrap;
-  }
-
-  .home-nav {
-    order: 3;
-    width: 100%;
-    justify-content: center;
   }
 
   .home-slashes {
@@ -610,14 +579,12 @@
 /* ── Ultra-wide / 4K scaling ── */
 
 @media (min-width: 1600px) {
-  .home-header,
   .home-width {
     max-width: 1600px;
   }
 
   .home-shots-section .feed .posts-list {
-    grid-template-columns: repeat(5, 1fr);
-    grid-auto-rows: 280px;
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .home-main-rail {
@@ -626,14 +593,12 @@
 }
 
 @media (min-width: 2200px) {
-  .home-header,
   .home-width {
     max-width: 2000px;
   }
 
   .home-shots-section .feed .posts-list {
-    grid-template-columns: repeat(6, 1fr);
-    grid-auto-rows: 300px;
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .home-main-rail {
@@ -647,14 +612,12 @@
 }
 
 @media (min-width: 3200px) {
-  .home-header,
   .home-width {
     max-width: 2800px;
   }
 
   .home-shots-section .feed .posts-list {
-    grid-template-columns: repeat(7, 1fr);
-    grid-auto-rows: 340px;
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .home-main-rail {
@@ -682,8 +645,7 @@
   }
 
   .home-shots-section .feed .posts-list {
-    grid-template-columns: 1fr;
-    grid-auto-rows: 200px;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .home-slashes {

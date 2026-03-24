@@ -16,7 +16,7 @@ aliases:
 
 ## Latest [Shots](/shots/)
 
-{{ render_feed("shots", 12, "card") }}
+{{ render_feed("shots", 9, "card") }}
 
 [See all shots &rarr;](/shots/){.home-see-more}
 
