@@ -8,6 +8,7 @@ published: True
 slug: shots/gradient-keycap-results
 image: https://dropper.waylonwalker.com/file/42e82c07-5380-45a8-8cbd-a1b642dbfb3b.webp
 description: The gradient keycaps turned out pretty good, but I'm not sure what I did wrong with the interface between the raft and the caps, that came out **very** rough, but the effect works.
+card_classes: col-span-2
 
 ---
 
