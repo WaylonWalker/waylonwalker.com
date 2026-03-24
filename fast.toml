@@ -11,9 +11,18 @@ concurrency = 2
 # Includes a few from each content type so the homepage feeds render
 patterns = [
 "pages/post/index.md",
+"pages/components/sidebar.md",
 "pages/blog/start.md",
 "pages/blog/now.md",
 "pages/blog/analytics.md",
+"pages/blog/about.md",
+"pages/blog/colophon.md",
+"pages/blog/ai.md",
+"pages/blog/yep.md",
+"pages/blog/nope.md",
+"pages/blog/top4.md",
+"pages/blog/verify.md",
+"pages/blog/feeds.md",
 "pages/til/vim-gq.md",
 "pages/til/get-python-package-versions.md",
 "pages/til/am-i-vulnerable-to-the-xz-backdoor.md",

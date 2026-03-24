@@ -93,8 +93,13 @@
   {# ── Markdown content: feed sections rendered by Jinja ── #}
   <div class="home-feeds">
     <div class="home-width">
-      <div class="post-content{% if post.css_class %} {{ post.css_class }}{% endif %}">
-        {{ body | safe }}
+      <div class="home-main-rail">
+        <div class="home-main-content post-content{% if post.css_class %} {{ post.css_class }}{% endif %}">
+          {{ body | safe }}
+        </div>
+        <aside class="home-sidebar">
+          {{ include_post("components/sidebar") | safe }}
+        </aside>
       </div>
     </div>
   </div>

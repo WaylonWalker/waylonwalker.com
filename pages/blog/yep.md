@@ -4,7 +4,7 @@ templateKey: blog-post
 title: /yep
 published: true
 tags:
-  - slashpages
+  - slash
   - opinions
 ---
 
