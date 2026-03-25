@@ -292,6 +292,12 @@ label = "LinkedIn"
 url = "https://linkedin.com/in/waylonwalker"
 external = true
 
+[markata-go.components.content_sidebar]
+enabled = true
+position = "right"
+width = "380px"
+slug = "components/sidebar"
+
 # =============================================================================
 # POST OUTPUT FORMATS
 # =============================================================================
