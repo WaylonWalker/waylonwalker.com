@@ -13,13 +13,6 @@ hero_first_name: Waylon
 hero_last_name: Walker
 hero_tagline: "Software engineer, pipeline builder, and maker of things on the web. Always learning, always shipping."
 hero_avatar: /8bitcc.png
-hero_links:
-  - label: GitHub
-    url: https://github.com/waylonwalker
-  - label: LinkedIn
-    url: https://linkedin.com/in/waylonwalker
-  - label: RSS Feeds
-    url: /feeds/
 intro_cards:
   - slug: components/about-intro
     heading: About
@@ -27,7 +20,6 @@ intro_cards:
   - slug: components/now-intro
     heading: /now
     link: /now/
-sidebar_slug: components/sidebar
 
 ---
 
