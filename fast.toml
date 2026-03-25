@@ -12,6 +12,8 @@ concurrency = 2
 patterns = [
 "pages/post/index.md",
 "pages/components/sidebar.md",
+"pages/components/about-intro.md",
+"pages/components/now-intro.md",
 "pages/blog/start.md",
 "pages/blog/now.md",
 "pages/blog/analytics.md",
