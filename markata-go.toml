@@ -298,6 +298,48 @@ position = "right"
 width = "380px"
 slug = "components/sidebar"
 
+[markata-go.components.feed_sidebar]
+enabled = true
+position = "left"
+width = "250px"
+
+# ── Markdown-driven component slots ─────────────────────────────────────────
+[markata-go.components.top_banner]
+enabled = true
+slug = "components/top-banner"
+css_class = "site-top-banner"
+
+[markata-go.components.hero]
+enabled = true
+slug = "components/hero"
+css_class = "site-hero"
+
+[markata-go.components.nav_content]
+enabled = true
+slug = "components/nav-content"
+css_class = "site-nav-content"
+
+[markata-go.components.left_sidebar]
+enabled = true
+slug = "components/left-sidebar"
+css_class = "toc-sidebar"
+width = "240px"
+
+[markata-go.components.after_post]
+enabled = true
+slug = "components/after-post"
+css_class = "after-post-section"
+
+[markata-go.components.bottom_banner]
+enabled = true
+slug = "components/bottom-banner"
+css_class = "bottom-banner-section"
+
+[markata-go.components.footer_content]
+enabled = true
+slug = "components/footer-content"
+css_class = "site-footer-content"
+
 # =============================================================================
 # POST OUTPUT FORMATS
 # =============================================================================
