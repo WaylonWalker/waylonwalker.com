@@ -15,10 +15,12 @@ and headphone cases end up causing more bulk than I'd like, but My EDC is no
 where near the bulk I had as a kid with my cargo pants decked out with
 everything I could possibly need.
 
-I hold no attachment to anything in my edc.  Nothing on my person has
+I hold no attachment to anything in my EDC.  Nothing on my person has
 sentimental value.  Anything I carry can be lost, stolen, or destroyed at any
 point in time.  I pick things of sufficient usable, utilitarian, quality
 sufficient to work.  No extra fluff.
+
+---
 
 * Google Pixel 6
 * Ridge Wallet
@@ -26,16 +28,18 @@ sufficient to work.  No extra fluff.
 * Civivi Qubit - Since March 2024 after my last one was donated to the Indianapolis Stadium
 * OpenFit Shokz
 
+---
+
 ![My EDC layout](https://dropper.waylonwalker.com/file/606e48d7-bf14-42b9-a96e-87b676556ff8.webp)
 Photo taken March 2023
 
 ## Phone
 _Google Pixel 6_
 
-I will not get finance a new phone for the forseeable future again.  The last
+I will not get finance a new phone for the foreseeable future again.  The last
 time I feel like I got a phone that felt like an upgrade was 2018 when I went
 to the Pixel 3.  The pixel 6 and pixel 8 my wife has feel no different
-whatsoever to me.  It's become more of a tool that does its job, theres no
+whatsoever to me.  It's become more of a tool that does its job, there's no
 major upgrades really driving me to create more ewaste with new devices.
 
 ## Wallet
@@ -50,8 +54,8 @@ much lighter and smaller, would not change that aspect.
 ## Flashlight
 _Olight Perun_
 
-When I became a homeowner I added a dedicated flashlight to my edc.  Its light
-and out of the way.  It's the only thing Ive ever found useful to fit in the
+When I became a homeowner I added a dedicated flashlight to my EDC.  Its light
+and out of the way.  It's the only thing I've ever found useful to fit in the
 coin pocket of jeans, so I don't even notice it.  Compared to using a phone,
 its more powerful, easier to position on me with the clip on my shirt/pants, or
 magnetically to a metal surface for inspections/house work.
@@ -77,3 +81,4 @@ something that is more durable and repairable, but headphones just don't last
 forever before they stop working for me.  This latest pair was a pair my wife
 chose to try and did not like.  They sat in a drawer for a year or so until I
 started carrying them.
+
