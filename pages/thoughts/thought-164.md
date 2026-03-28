@@ -15,7 +15,7 @@ published: true
 
 Fastapi passes flask in GitHub stars!
 
-[![screenshot of https://twitter.com/tiangolo/status/1729153717956715007](http://shots.wayl.one/shot/?url=https://twitter.com/tiangolo/status/1729153717956715007&height=800&width=450&scaled_width=450&scaled_height=800&selectors=)](https://twitter.com/tiangolo/status/1729153717956715007)
+[![screenshot of https://twitter.com/tiangolo/status/1729153717956715007](https://shots.wayl.one/shot/?url=https://twitter.com/tiangolo/status/1729153717956715007&height=800&width=450&scaled_width=450&scaled_height=800&selectors=)](https://twitter.com/tiangolo/status/1729153717956715007)
 
 
 !!! note
