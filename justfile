@@ -66,7 +66,7 @@ build-clean:
 build-fast:
     #!/usr/bin/env bash
     set -euxo pipefail
-    MARKATA_GO_BLOGROLL_ENABLED=false markata-go build -m fast.toml
+    MARKATA_GO_BLOGROLL_ENABLED=false markata-go build -m fast.toml --fast
 
 # Fast build with clean cache
 build-fast-clean:
@@ -78,7 +78,7 @@ build-fast-clean:
 serve-fast:
     #!/usr/bin/env bash
     set -euxo pipefail
-    MARKATA_GO_BLOGROLL_ENABLED=false markata-go serve -m fast.toml --host 0.0.0.0 --fast
+    markata-go serve -m fast.toml --host 0.0.0.0 --fast
 
 serve-live:
     #!/usr/bin/env bash
@@ -248,3 +248,11 @@ sync:
     rsync -a --delete --chmod=F644,D755 \
     ./output/ \
     falcon3:/mnt/main/walkershare/waylon/sites/go.waylonwalker.com
+
+thoughts:
+    ./scripts/thoughts.py
+
+mentions:
+    #!/usr/bin/env bash
+    set -euxo pipefail
+    markata-go webmentions fetch
