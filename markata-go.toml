@@ -151,15 +151,15 @@ html = """
 z_index = -1
 
 # Snow effect -- single layer, respects reduced-motion
-[[markata-go.theme.background.backgrounds]]
-html = '<snow-fall count="100" style="--snow-fall-size: 4px"></snow-fall>'
-z_index = 5
-
-# Purple accent snow -- subtle
-[[markata-go.theme.background.backgrounds]]
-html = '<snow-fall count="10" style="--snow-fall-color: rebeccapurple; --snow-fall-size: 6px"></snow-fall>'
-z_index = 5
-
+# [[markata-go.theme.background.backgrounds]]
+# html = '<snow-fall count="100" style="--snow-fall-size: 4px"></snow-fall>'
+# z_index = 5
+#
+# # Purple accent snow -- subtle
+# [[markata-go.theme.background.backgrounds]]
+# html = '<snow-fall count="10" style="--snow-fall-color: rebeccapurple; --snow-fall-size: 6px"></snow-fall>'
+# z_index = 5
+#
 
 [markata-go]
 # Site metadata
@@ -305,12 +305,12 @@ width = "250px"
 
 # ── Markdown-driven component slots ─────────────────────────────────────────
 [markata-go.components.top_banner]
-enabled = true
+enabled = false
 slug = "components/top-banner"
 css_class = "site-top-banner"
 
 [markata-go.components.hero]
-enabled = true
+enabled = false
 slug = "components/hero"
 css_class = "site-hero"
 
@@ -326,12 +326,12 @@ css_class = "toc-sidebar"
 width = "240px"
 
 [markata-go.components.after_post]
-enabled = true
+enabled = false
 slug = "components/after-post"
 css_class = "after-post-section"
 
 [markata-go.components.bottom_banner]
-enabled = true
+enabled = false
 slug = "components/bottom-banner"
 css_class = "bottom-banner-section"
 
