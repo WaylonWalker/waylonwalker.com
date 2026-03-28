@@ -1,7 +1,7 @@
 ---
 date: 2026-03-27 16:35:40
 templateKey: blog-post
-title: EDC - Everyday Carry
+title: /carry/
 aliases:
   - edc
 tags:
@@ -9,6 +9,8 @@ tags:
 published: True
 
 ---
+
+## EDC
 
 I try to keep a pretty light every day carry, but it never works out, keyfobs
 and headphone cases end up causing more bulk than I'd like, but My EDC is no
@@ -29,6 +31,16 @@ sufficient to work.  No extra fluff.
 * OpenFit Shokz
 
 ---
+
+## Rules
+
+* lightweight
+* replacable
+* no emotional attachments
+* utilitarian
+* everything serves a purpose
+
+## My kit
 
 ![My EDC layout](https://dropper.waylonwalker.com/file/606e48d7-bf14-42b9-a96e-87b676556ff8.webp)
 Photo taken March 2023
