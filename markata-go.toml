@@ -211,7 +211,7 @@ output_dir = "output"
 # SEO CONFIGURATION
 # =============================================================================
 [markata-go.seo]
-twitter_handle = "@_waylonwalker"
+twitter_handle = "_waylonwalker"
 default_image = "https://waylonwalker.com/8bitcc.png"
 author_image = "https://waylonwalker.com/8bitcc.png"
 og_image_service = "https://shots.waylonwalker.com/shot/"
