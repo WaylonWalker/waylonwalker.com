@@ -11,6 +11,8 @@ concurrency = 2
 # Includes a few from each content type so the homepage feeds render
 patterns = [
 "pages/post/index.md",
+"pages/components/nav-content.md",
+"pages/components/footer-content.md",
 "pages/components/sidebar.md",
 "pages/components/about-intro.md",
 "pages/components/now-intro.md",

@@ -13,12 +13,23 @@ hero_first_name: Waylon
 hero_last_name: Walker
 hero_tagline: "Software engineer, pipeline builder, and maker of things on the web. Always learning, always shipping."
 hero_avatar: /8bitcc.png
+hero_links:
+  - label: Blog
+    url: /blog/
+  - label: Shots
+    url: /shots/
+  - label: TIL
+    url: /til/
+  - label: About
+    url: /about/
+  - label: Now
+    url: /now/
 intro_cards:
-  - slug: components/about-intro
-    heading: About
+  - heading: About
+    slug: components/about-intro
     link: /about/
-  - slug: components/now-intro
-    heading: /now
+  - heading: Now
+    slug: components/now-intro
     link: /now/
 
 ---
@@ -33,14 +44,26 @@ intro_cards:
 
 </div>
 
+<div class="home-feeds-grid">
+
+<div class="home-feeds-grid__col">
+
 ## Latest [Blog Posts](/blog/)
 
 {{ render_feed("blog-feed", 5, "card") }}
 
 [See all blog posts &rarr;](/blog/){.home-see-more}
 
+</div>
+
+<div class="home-feeds-grid__col">
+
 ## Recent [TIL](/til/)
 
-{{ render_feed("til-feed", 5, "card") }}
+{{ render_feed("til-feed", 8, "card") }}
 
 [See all TIL posts &rarr;](/til/){.home-see-more}
+
+</div>
+
+</div>
