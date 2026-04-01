@@ -14,6 +14,11 @@ description: Things to read later
 
 STOP LEAVING Browser Tabs open and save them here!
 
+* https://nesbitt.io/2026/03/04/package-managers-need-to-cool-down.html
+* https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/
+
+---
+
 * [jbrancha til](https://dev.to/jbranchaud/how-i-built-a-learning-machine-45k9)
 * [The Video Course Launch that Made Me Think](https://christoph-rumpel.com/2020/8/the-video-course-launch-that-made-me-think)
 * [photo prism](https://demo.photoprism.app/browse)
