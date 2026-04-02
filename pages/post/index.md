@@ -50,7 +50,7 @@ intro_cards:
 
 ## Latest [Blog Posts](/blog/)
 
-{{ render_feed("blog-feed", 5, "card") }}
+{{ render_feed("blog", 5, "card") }}
 
 [See all blog posts &rarr;](/blog/){.home-see-more}
 
