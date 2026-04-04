@@ -7,7 +7,7 @@
 # palette = "catppuccin-mocha"
 # palette = "default-dark"
 # palette = "default-light"
-palette = "dracula"
+# palette = "dracula"
 # palette = "everforest-dark"
 # palette = "everforest-light"
 # palette = "gruvbox-dark"
@@ -25,7 +25,7 @@ palette = "dracula"
 # palette = "solarized-light"
 # palette = "tokyo-night"
 # palette = "tokyo-night-day"
-# palette = "tokyo-night-storm"
+palette = "tokyo-night-storm"
 
 # Theme switcher - enables dropdown to select from all 70+ palettes
 # [markata-go.theme.switcher]
@@ -34,9 +34,8 @@ palette = "dracula"
 # position = "header"
 
 [markata-go.theme.variables]
-# "--content-width" = "12ch"
-# "--content-max-width" = "300px"
 "--content-width" = "clamp(56ch, 60vw, 72ch)"
+# "--content-max-width" = "300px"
 "--text-base" = "1.2rem"
 
 # Background effects configuration
@@ -167,8 +166,6 @@ title = "Waylon Walker"
 description = "Waylon Walker's personal blog"
 url = "https://go.waylonwalker.com"
 license = "cc-by-4.0"
-# author = "Waylon Walker"
-# social = { twitter = "waylonwalker", bluesky = "waylonwalker.com", github = "WaylonWalker" }
 
 [markata-go.searchcraft]
 enabled = true
@@ -191,12 +188,14 @@ url = "https://waylonwalker.com"
 avatar = '/8bitcc.png'
 social = { twitter = "waylonwalker", bluesky = "waylonwalker.com", github = "WaylonWalker" }
 default = true
+
 [markata-go.authors.authors.kimi-k2-5-free]
 name = "Kimi k2.5 Free"
 role = "Drafter"
 url = "https://www.kimi.com/en"
 avatar = '/kimi-logo-CegIMkbU.png'
 default = false
+
 [markata-go.authors.authors.gpt-5-2-codex]
 name = "GPT-5.2 Codex"
 role = "Drafter"
@@ -204,8 +203,6 @@ url = "https://openai.com/"
 avatar = '/gpt.webp'
 default = false
 
-# Output directory
-output_dir = "output"
 
 # =============================================================================
 # SEO CONFIGURATION
@@ -412,37 +409,21 @@ title = "Archive"
 description = "All published posts"
 filter = "date<=today and (templateKey == 'blog-post' or templateKey == 'til' or templateKey == 'thoughts' or templateKey == 'stars' or templateKey == 'daily' or templateKey == 'shots' or templateKey == 'ping') and published and 'family' not in tags"
 sort = "date"
+primary=true
 reverse = true
 items_per_page = 50
 pagination_type = "htmx"        # "manual", "htmx", or "js"
 
-# All posts feed (same as archive but at /all/)
-[[markata-go.feeds]]
-slug = "all"
-title = "All Posts"
-description = "Complete list of all published posts"
-filter = "date<=today and (templateKey == 'blog-post' or templateKey == 'til' or templateKey == 'thoughts' or templateKey == 'stars' or templateKey == 'daily' or templateKey == 'shots' or templateKey == 'ping') and published and 'family' not in tags"
-sort = "date"
-reverse = true
-items_per_page = 10000  # Very large to show all posts on one page
 
-# Blog feed - only blog posts
+# Blog Feed - full blog posts only (different from /blog which includes TIL)
 [[markata-go.feeds]]
 slug = "blog"
 title = "Blog"
 description = "Full blog posts"
-filter = "published == true and slug != '' and (templateKey == \"blog\" or templateKey == \"blog-post\" or templateKey == \"post\" or template == \"blog\" or template == \"blog-post\" or template == \"post\")"
+filter = "published == true and templateKey == \"blog-post\""
 sort = "date"
 reverse = true
-
-# Steam
-[[markata-go.feeds]]
-slug = "steam"
-title = "Steam"
-description = "Steam posts"
-filter = "published == true and 'steam-game' in tags"
-sort = "date"
-reverse = true
+primary=true
 
 # TIL feed - Today I Learned posts
 [[markata-go.feeds]]
@@ -452,19 +433,52 @@ description = "Short TIL posts"
 filter = "published == true and templateKey == \"til\" and slug != \"til\""
 sort = "date"
 reverse = true
+primary=true
+
+# All thoughts (local + imported from thoughts.waylonwalker.com)
+[[markata-go.feeds]]
+slug = "thoughts-feed"
+title = "Thoughts"
+description = "Link based \"commentary\" style posts, commenting on a web link"
+filter = "published == true and (template == 'thought.html' or path.startswith('pages/thoughts/') or path.startswith('thoughts/') or (template == 'link' and ('thought' in tags or 'thoughts' in tags)))"
+sort = "date"
+reverse = true
+items_per_page = 50
+primary=true
+
+# Pings - short social posts
+[[markata-go.feeds]]
+slug = "pings"
+title = "Pings"
+description = "Short to medium social media style posts"
+filter = "published == true and templateKey == \"ping\" and \"family\" not in tags"
+sort = "date"
+reverse = true
+primary=true
+
+# Shots feed - photo/video posts
+[[markata-go.feeds]]
+slug = "shots"
+title = "Shots"
+description = "Photo and video posts"
+filter = "templateKey == \"shots\""
+sort = "date"
+reverse = true
+primary=true
+
+# All posts feed (same as archive but at /all/)
+[[markata-go.feeds]]
+slug = "all"
+title = "All Posts"
+description = "An unpaginated list of every published post"
+filter = "date<=today and (templateKey == 'blog-post' or templateKey == 'til' or templateKey == 'thoughts' or templateKey == 'stars' or templateKey == 'daily' or templateKey == 'shots' or templateKey == 'ping') and published and 'family' not in tags"
+sort = "date"
+reverse = true
+items_per_page = 10000  # Very large to show all posts on one page
 
 # =============================================================================
 # ADDITIONAL FEEDS (migrated from Python markata)
 # =============================================================================
-
-# Blog Feed - full blog posts only (different from /blog which includes TIL)
-[[markata-go.feeds]]
-slug = "blog-feed"
-title = "Blog Feed"
-description = "Full blog posts"
-filter = "published == true and templateKey == \"blog-post\""
-sort = "date"
-reverse = true
 
 # Daily notes feed
 [[markata-go.feeds]]
@@ -472,6 +486,15 @@ slug = "daily"
 title = "Daily Notes"
 description = "Daily notes posts"
 filter = "templateKey == \"daily\""
+sort = "date"
+reverse = true
+
+# Steam
+[[markata-go.feeds]]
+slug = "steam"
+title = "Steam"
+description = "Steam posts"
+filter = "published == true and 'steam-game' in tags"
 sort = "date"
 reverse = true
 
@@ -492,35 +515,30 @@ description = "Family photo posts"
 filter = "templateKey == \"shots\" and \"family\" in tags"
 sort = "date"
 reverse = true
+private = true
 
 
 # Gratitude feed
-[[markata-go.feeds]]
-slug = "gratitude-feed"
-title = "Gratitude"
-description = "Gratitude posts"
-filter = "templateKey == \"gratitude\""
-sort = "date"
-reverse = true
+# [[markata-go.feeds]]
+# slug = "gratitude-feed"
+# title = "Gratitude"
+# description = "Gratitude posts"
+# # filter = "templateKey == \"gratitude\""
+# filter = "\"gratitude\" in tags"
+# sort = "date"
+# reverse = true
+# include_private = true
 
 # Last thirty days - temporarily using published filter until date arithmetic is supported
-[[markata-go.feeds]]
-slug = "lasthirty"
-title = "Last 30 Days"
-description = "Posts from the last 30 days"
-filter = "published == true and date <= today"
-sort = "date"
-reverse = true
-items_per_page = 100
+# [[markata-go.feeds]]
+# slug = "lasthirty"
+# title = "Last 30 Days"
+# description = "Posts from the last 30 days"
+# filter = "published == true and date <= today"
+# sort = "date"
+# reverse = true
+# items_per_page = 100
 
-# Pings - short social posts
-[[markata-go.feeds]]
-slug = "pings"
-title = "Pings"
-description = "Short social media style posts"
-filter = "published == true and templateKey == \"ping\" and \"family\" not in tags"
-sort = "date"
-reverse = true
 
 # Published feed
 [[markata-go.feeds]]
@@ -532,98 +550,89 @@ sort = "date"
 reverse = true
 
 # Recent - last 10 posts
-[[markata-go.feeds]]
-slug = "recent"
-title = "Recent Posts"
-description = "Last 10 posts"
-filter = "published == true"
-sort = "date"
-reverse = true
-items_per_page = 10
+# [[markata-go.feeds]]
+# slug = "recent"
+# title = "Recent Posts"
+# description = "Last 10 posts"
+# filter = "published == true"
+# sort = "date"
+# reverse = true
+# items_per_page = 10
 
 # Recently written - last 10 written posts
-[[markata-go.feeds]]
-slug = "recently-written"
-title = "Recently Written"
-description = "Last 10 written posts"
-filter = "published == true and (templateKey == \"blog-post\" or templateKey == \"til\" or templateKey == \"thoughts\" or templateKey == \"ping\")"
-sort = "date"
-reverse = true
-items_per_page = 10
+# [[markata-go.feeds]]
+# slug = "recently-written"
+# title = "Recently Written"
+# description = "Last 10 written posts"
+# filter = "published == true and (templateKey == \"blog-post\" or templateKey == \"til\" or templateKey == \"thoughts\" or templateKey == \"ping\")"
+# sort = "date"
+# reverse = true
+# items_per_page = 10
 
 # Recent pings
-[[markata-go.feeds]]
-slug = "recent-pings"
-title = "Recent Pings"
-description = "Last 10 ping posts"
-filter = "published == true and templateKey == \"ping\""
-sort = "date"
-reverse = true
-items_per_page = 10
+# [[markata-go.feeds]]
+# slug = "recent-pings"
+# title = "Recent Pings"
+# description = "Last 10 ping posts"
+# filter = "published == true and templateKey == \"ping\""
+# sort = "date"
+# reverse = true
+# items_per_page = 10
 
 # Recent stars
-[[markata-go.feeds]]
-slug = "recent-stars"
-title = "Recent Stars"
-description = "Last 10 GitHub stars"
-filter = "templateKey == \"stars\""
-sort = "date"
-reverse = true
-items_per_page = 10
+# [[markata-go.feeds]]
+# slug = "recent-stars"
+# title = "Recent Stars"
+# description = "Last 10 GitHub stars"
+# filter = "templateKey == \"stars\""
+# sort = "date"
+# reverse = true
+# items_per_page = 10
 
 # Recent thoughts
-[[markata-go.feeds]]
-slug = "recent-thoughts"
-title = "Recent Thoughts"
-description = "Last 10 thoughts"
-filter = "published == true and templateKey == \"thoughts\""
-sort = "date"
-reverse = true
-items_per_page = 10
+# [[markata-go.feeds]]
+# slug = "recent-thoughts"
+# title = "Recent Thoughts"
+# description = "Last 10 thoughts"
+# filter = "published == true and templateKey == \"thoughts\""
+# sort = "date"
+# reverse = true
+# items_per_page = 10
 
 # =============================================================================
 # THOUGHTS FEEDS (NEW - integrated with PESOS)
 # =============================================================================
 
-# All thoughts (local + imported from thoughts.waylonwalker.com)
-[[markata-go.feeds]]
-slug = "thoughts-feed"
-title = "Thoughts"
-description = "All thoughts and micro-posts from waylonwalker.com and thoughts.waylonwalker.com"
-filter = "published == true and (template == 'thought.html' or path.startswith('pages/thoughts/') or path.startswith('thoughts/') or (template == 'link' and ('thought' in tags or 'thoughts' in tags)))"
-sort = "date"
-reverse = true
-items_per_page = 50
 
 # External thoughts only (imported from thoughts.waylonwalker.com)
-[[markata-go.feeds]]
-slug = "external-thoughts"
-title = "External Thoughts"
-description = "Thoughts imported from thoughts.waylonwalker.com"
-filter = "template == 'thought.html' and thought_source == 'thoughts_waylonwalker'"
-sort = "date"
-reverse = true
-items_per_page = 30
+# [[markata-go.feeds]]
+# slug = "external-thoughts"
+# title = "External Thoughts"
+# description = "Thoughts imported from thoughts.waylonwalker.com"
+# filter = "template == 'thought.html' and thought_source == 'thoughts_waylonwalker'"
+# sort = "date"
+# reverse = true
+# items_per_page = 30
 
 # Micro thoughts (short form content)
-[[markata-go.feeds]]
-slug = "micro"
-title = "Micro"
-description = "Micro thoughts and quick notes"
-filter = "template == 'thought.html' and length(content) < 300"
-sort = "date"
-reverse = true
-items_per_page = 25
+# [[markata-go.feeds]]
+# slug = "micro"
+# title = "Micro"
+# description = "Micro thoughts and quick notes"
+# filter = "template == 'thought.html' and length(content) < 300"
+# sort = "date"
+# reverse = true
+# items_per_page = 25
 
 # Thoughts with links (commentary on external content)
-[[markata-go.feeds]]
-slug = "thought-links"
-title = "Thought Links"
-description = "Thoughts that link to and comment on external content"
-filter = "template == 'thought.html' and original_url != null"
-sort = "date"
-reverse = true
-items_per_page = 20
+# [[markata-go.feeds]]
+# slug = "thought-links"
+# title = "Thought Links"
+# description = "Thoughts that link to and comment on external content"
+# filter = "template == 'thought.html' and original_url != null"
+# sort = "date"
+# reverse = true
+# items_per_page = 20
 
 # Scheduled posts - future dated
 [[markata-go.feeds]]
@@ -661,14 +670,6 @@ filter = "date == today"
 sort = "date"
 reverse = true
 
-# Shots feed - photo/video posts
-[[markata-go.feeds]]
-slug = "shots"
-title = "Shots"
-description = "Photo and video posts"
-filter = "templateKey == \"shots\""
-sort = "date"
-reverse = true
 
 # =============================================================================
 # AUTO-GENERATED FEEDS
@@ -1856,35 +1857,4 @@ mode = "local"
 [markata-go.encryption.private_tags]
 gratitude = "default"
 family = "default"
-
-# Each feed renders to a snippet we can include on the homepage
-[[markata-go.feeds]]
-name = "home-posts"
-slug = "snippets/home-posts"
-template = "feed_list.html"
-items_per_page = 5
-sort = "date"
-
-[[markata-go.feeds]]
-name = "home-shots"
-slug = "snippets/shots"
-template = "feed_list.html"
-items_per_page = 5
-filter = "published == true and type == 'shot'"
-sort = "date"
-
-[[markata-go.feeds]]
-name = "home-pings"
-slug = "snippets/pings"
-template = "feed_list.html"
-items_per_page = 5
-filter = "published == true and type == 'ping'"
-sort = "date"
-
-[[markata-go.feeds]]
-name = "home-links"
-slug = "snippets/links"
-template = "feed_list.html"
-items_per_page = 5
-filter = "published == true and type == 'link'"
-sort = "date"
+family-shots = "default"
