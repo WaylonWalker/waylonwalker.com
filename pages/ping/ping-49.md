@@ -1,7 +1,7 @@
 ---
 date: 2026-04-13 16:12:04
 templateKey: ping
-title: 
+title: What happens when the 0 days are exposed?
 published: true
 tags:
   - ping
