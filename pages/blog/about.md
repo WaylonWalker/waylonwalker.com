@@ -4,7 +4,6 @@ title: Waylon Walker
 tags:
   - meta
   - slash
-title:  Waylon Walker
 date: 2021-11-20T10:38:00
 published: true
 jinja: True
