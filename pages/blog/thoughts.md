@@ -22,8 +22,8 @@ hope that I give the people helping me out along the way just a little bit of a
 boost.  Two, they serve as a permanant commented bookmark for me to search, and
 come back to later when I have forgotten where I have seen something.
 
-* [web](https://waylonwalker.com/thoughts)
-* [rss](https://waylonwalker.com/thoughts/rss.xml)
+* [web](https://waylonwalker.com/tags/thought)
+* [rss](https://waylonwalker.com/tags/thought/rss.xml)
 
 > All thoughts posts cross posted to my site are prefixed with a thought balloon 💭.
 
