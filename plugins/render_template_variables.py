@@ -8,7 +8,6 @@ from markata.hookspec import hook_impl, register_attr
 @register_attr("articles")
 def pre_render(markata) -> None:
     for article in markata.iter_articles("rendering markdown"):
-
         if "date" not in article.keys():
             article["date"] = datetime.datetime.today().min
 

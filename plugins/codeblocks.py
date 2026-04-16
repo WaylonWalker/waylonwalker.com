@@ -42,7 +42,6 @@ def find_codeblocks(article) -> List[Dict[str, str]]:
 @hook_impl
 @register_attr("codeblocks")
 def render(markata: "Markata") -> None:
-
     markata.codeblocks = []
     for article in markata.iter_articles(description="creating codeblocks"):
         markata.codeblocks.extend(find_codeblocks(article.content))

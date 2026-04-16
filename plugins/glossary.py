@@ -80,6 +80,9 @@ def load(markata):
     glossary_json = {term: post.slug for term, post in markata.glossary_terms.items()}
     # sort by value length
     glossary_json = {
-        k: v for k, v in sorted(glossary_json.items(), key=lambda item: len(item[1]), reverse=True)
+        k: v
+        for k, v in sorted(
+            glossary_json.items(), key=lambda item: len(item[1]), reverse=True
+        )
     }
     (markata.config.output_dir / "glossary.json").write_text(json.dumps(glossary_json))

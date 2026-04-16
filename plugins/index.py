@@ -5,8 +5,7 @@ import textwrap
 from markata.hookspec import hook_impl
 
 
-class MarkataFilterError(RuntimeError):
-    ...
+class MarkataFilterError(RuntimeError): ...
 
 
 @hook_impl
@@ -68,14 +67,14 @@ def create_card(post, template=None):
     if template is None:
         return textwrap.dedent(
             f"""
-            <li class='post {post['templateKey']}'>
-            <a href="/{post['slug']}/">
-                <h2 class='title'>{post['title']}</h2>
-                <p class='description'>{post['long_description']}</p>
+            <li class='post {post["templateKey"]}'>
+            <a href="/{post["slug"]}/">
+                <h2 class='title'>{post["title"]}</h2>
+                <p class='description'>{post["long_description"]}</p>
                 <div>
-                    <p class='date'>{post['date'].year}-{post['date'].month}-{post['date'].day}</p>
+                    <p class='date'>{post["date"].year}-{post["date"].month}-{post["date"].day}</p>
                     <p>
-                    {post['templateKey']}
+                    {post["templateKey"]}
                     </p>
                 </div>
             </a>

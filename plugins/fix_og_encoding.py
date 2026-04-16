@@ -139,4 +139,3 @@ def post_render(markata: "Markata") -> None:
             f"[meta_amp_fix] posts_touched={total_posts_touched} "
             f"meta_amp_replacements={total_replacements}"
         )
-

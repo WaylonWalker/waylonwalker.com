@@ -3,7 +3,10 @@ date: 2025-08-27 10:10:51
 templateKey: blog-post
 title: I'm Out On Agents
 tags:
-  - python
+  - ai
+  - llm
+  - agentic
+  - agents
 published: True
 
 ---

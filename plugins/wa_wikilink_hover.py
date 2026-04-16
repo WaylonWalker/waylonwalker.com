@@ -21,7 +21,7 @@ def hover_links(doc):
         title = link.text
         name = title.lower().replace(" ", "-")
 
-        link.set("id", f'{name}-wikilink')
+        link.set("id", f"{name}-wikilink")
 
         img = f"""
 <wa-tooltip 
@@ -39,7 +39,7 @@ def hover_links(doc):
     </p>
     <wa-include 
     class='w-80 h-64 sm:w-96 sm:h-96 overflow-y-hidden' 
-    src="/{href.strip('/')}/partial"
+    src="/{href.strip("/")}/partial"
     ></wa-include>
     <p class='p-4 text-right text-gray-400 text-xs' >
     ... click to see full post

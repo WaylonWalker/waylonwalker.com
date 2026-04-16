@@ -21,20 +21,20 @@ class SilentUndefined(Undefined):
     def _fail_with_undefined_error(self, *args, **kwargs):
         return ""
 
+
 @hook_impl
 def render(markata: "Markata") -> None:
     template_file = markata.config["amp_template"]
     with open(template_file) as f:
         template = Template(f.read())
 
-    if "{{" in str(markata.config.get("head", {})):
-        head_template = Template(
-            str(markata.config.get("head", {})), undefined=SilentUndefined
-        )
+    # if "{{" in f"{markata.config.get('head', '')}":
+    #     head_template = Template(
+    #         str(markata.config.get("head", {})), undefined=SilentUndefined
+    #     )
     with markata.cache as cache:
         # for article in markata.iter_articles("apply amp template"):
         for article in markata.articles:
-
             if head_template:
                 head = eval(
                     head_template.render(
@@ -62,7 +62,6 @@ def render(markata: "Markata") -> None:
                     body=article.article_html,
                     config={
                         **markata.config,
-                        **{"head": head},
                     },
                     title=article.metadata["title"],
                     slug=article.metadata["slug"],

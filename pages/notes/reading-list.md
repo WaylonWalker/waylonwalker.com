@@ -16,6 +16,7 @@ STOP LEAVING Browser Tabs open and save them here!
 
 * https://nesbitt.io/2026/03/04/package-managers-need-to-cool-down.html
 * https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/
+* https://danielmiessler.com/blog/ai-stops-being-artificially-cheap
 
 ---
 

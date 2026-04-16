@@ -57,12 +57,14 @@ def load(markata: "Markata") -> None:
         post["markata"] = markata
         post["description"] = clean_description(post["message"][:120])
         if post["link"] is None or post["link"] == "None":
-            post["link"] = "https://waylonwalker.com/" + post["slug"].lstrip('/').rstrip('/') + "/"
+            post["link"] = (
+                "https://waylonwalker.com/" + post["slug"].lstrip("/").rstrip("/") + "/"
+            )
         post["content"] = f"""
-<a href="{ post["link"] }">
+<a href="{post["link"]}">
     <img
-        src="https://shots.waylonwalker.com/shot/?url={ post["link"] }&height=450&width=800&scaled_width=800&scaled_height=450&selectors=""
-        alt="shot of post - { post["title"] }"
+        src="https://shots.waylonwalker.com/shot/?url={post["link"]}&height=450&width=800&scaled_width=800&scaled_height=450&selectors=""
+        alt="shot of post - {post["title"]}"
         height=450
         width=800
     >

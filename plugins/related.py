@@ -21,9 +21,11 @@ def pre_render(markata):
             tagged_articles = [
                 a
                 for a in articles
-                if set(article["tags"]) & set(a["tags"]) and a != article
+                if set(article["tags"]) & set(a.get("tags", [])) and a != article
             ]
-            related_articles = list(unique_everseen([*tagged_articles, *articles]))[:3]
+            related_articles = list(
+                unique_everseen([*tagged_articles, *articles], key=lambda x: x.path)
+            )[:3]
             # article["related"] = related_articles
             article.content = (
                 article.content + "\n\n---\n## Check Out These Related Posts\n\n"
@@ -36,6 +38,5 @@ def pre_render(markata):
             )
 
         except ValueError:
-
             # article is not in published articles
             pass

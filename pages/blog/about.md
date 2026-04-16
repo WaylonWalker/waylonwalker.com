@@ -4,34 +4,58 @@ title: Waylon Walker
 tags:
   - meta
   - slash
+title:  Waylon Walker
 date: 2021-11-20T10:38:00
 published: true
 jinja: True
 
 ---
 
-👋 Hi, I am Waylon Walker.  Husband, Father of two, and creator things on the
-web, learning, and teaching others.  I play lots of Minecraft, make art, and
-skate everyday with my kids.  I finish the day binging episodes of Big Bang
-Theory with my wife.
+## Hi, Hello, I'm Waylon
 
-I believe in a decentralized platform where everyone has their own space on
-this internet to share their thoughts and ideas.  I created my blogging
-platform from scratch to learn about building tools with pluggy and diskcache.
-I was frustrated with long build times, black holes of node modules, bloated
-pages, and a lack of built in SEO tools.  Instead I built my own under funded,
-over dreamed, nearly undocumented framework to that I love and maintain.
+Husband, dad of two, and hobbyist builder of things on the internet.
 
-I am a Senior Software Engineer specializing in building data pipelines and web
-platforms with python.
+When I'm not wrangling data pipeline platforms or building web platforms,
+you'll find me [[ tags/gaming | gaming ]] with my kids, making art, or skating
+around the neighborhood.  Reliving my mechanical engineering days with my 3d
+printer.  Winding down at the end of the day binge-watching Big Bang Theory
+with my wife.
 
-If you are wondering what all makes up this site and how I think about it
-see [[ about-this-site ]] or how the site is built and the specific tech
-stack in [[ colophon ]].
+## What I Do
 
-## Meta pages
+I'm a Senior Software Engineer who specializes in data pipelines and
+Python-based web platforms. I help teams turn messy data into reliable systems
+that actually work.
 
-Some evergreen pages that are more about me or this site.
+## Why I Built This Site
+
+_from scratch_
+
+I got tired of:
+- Build times that took forever
+- Node modules folders that became black holes
+- Bloated pages that took ages to load
+- SEO tools that felt like an afterthought
+
+So I built my own platform from scratch using **pluggy** and **diskcache**.
+It's under-funded, over-dreamed, barely documented, and I love it. This site is
+my sandbox for learning, teaching, and sharing ideas on my own terms.
+
+## Infrastructure
+
+Because apparently I don't have enough hobbies, I also run this site from a
+**[[ tags/kubernetes | Kubernetes ]] cluster in my basement**. Nothing says "I
+love DevOps" like maintaining your own bare-metal cluster just to host a static
+blog.
+
+## Explore
+
+Curious about the tech? Check out [[ about-this-site ]] for my philosophy on
+this space, or [[ colophon ]] for the full stack breakdown.
+
+## Meta Pages
+
+Evergreen pages about me and this site:
 
 {% for post in markata.feeds.meta.posts %}* [[ {{post.slug}} ]] - {{post.description}}
 {% endfor %}

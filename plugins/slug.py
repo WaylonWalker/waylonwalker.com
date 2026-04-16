@@ -2,6 +2,7 @@
 
 Creates a slug in article.metadata if missing based on filename.
 """
+
 from pathlib import Path, TYPE_CHECKING
 
 from markata.hookspec import hook_impl

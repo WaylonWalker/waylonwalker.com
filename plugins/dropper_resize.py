@@ -162,9 +162,7 @@ def _wrap_dropper_media_in_links_lxml(
 
     # --- Handle <img> elements ---
     # XPath: all img with src starting with base_url
-    img_nodes: list[LxmlElement] = doc.xpath(
-        f"//img[starts-with(@src, '{base_url}')]"
-    )
+    img_nodes: list[LxmlElement] = doc.xpath(f"//img[starts-with(@src, '{base_url}')]")
 
     for img in img_nodes:
         media_url = img.get("src")
@@ -308,4 +306,3 @@ def post_render(markata: "Markata") -> None:  # type: ignore[name-defined]
 
             post.html = new_html
         # Other types are ignored silently.
-

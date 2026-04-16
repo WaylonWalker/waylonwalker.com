@@ -14,7 +14,6 @@ MARKATA_PLUGIN_NAME = "Doctype Enforcer"
 MARKATA_PLUGIN_PACKAGE_NAME = "doctype_enforcer"
 
 
-
 @hook_impl(trylast=True)
 def post_render(markata: "Markata") -> None:
     """

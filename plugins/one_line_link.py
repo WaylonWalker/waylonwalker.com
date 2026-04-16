@@ -43,7 +43,7 @@ def get_one_line_link(link, markata):
         return link
     post = markata.map("post", f'slug=="{slug}"')[0]
     root_url = markata.get_config("url") or ""
-    url = f'{root_url}/{post.metadata["slug"]}/'
+    url = f"{root_url}/{post.metadata['slug']}/"
     img = f"https://covers.waylonwalker.com/{slug}.jpg"
     title = post.get("title", "")
     description = post.get("description", "")

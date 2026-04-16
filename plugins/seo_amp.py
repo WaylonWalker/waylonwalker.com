@@ -94,26 +94,26 @@ def _create_seo(
         {
             "name": "og:title",
             "property": "og:title",
-            "content": f'{article.metadata["title"]} | {markata.config["site_name"]}'[
+            "content": f"{article.metadata['title']} | {markata.config['site_name']}"[
                 :60
             ],
         },
         {
             "name": "twitter:title",
             "property": "twitter:title",
-            "content": f'{article.metadata["title"]} | {markata.config["site_name"]}'[
+            "content": f"{article.metadata['title']} | {markata.config['site_name']}"[
                 :60
             ],
         },
         {
             "name": "og:image",
             "property": "og:image",
-            "content": f'{markata.config["images_url"]}/{article.metadata["slug"]}-og.png',
+            "content": f"{markata.config['images_url']}/{article.metadata['slug']}-og.png",
         },
         {
             "name": "twitter:image",
             "property": "twitter:image",
-            "content": f'{markata.config["images_url"]}/{article.metadata["slug"]}-og.png',
+            "content": f"{markata.config['images_url']}/{article.metadata['slug']}-og.png",
         },
         {
             "name": "og:image:width",
@@ -258,7 +258,7 @@ def render(markata: Markata) -> None:
                 canonical_link = soup.new_tag("link")
                 canonical_link.attrs["rel"] = "canonical"
                 canonical_link.attrs["href"] = (
-                    f'{markata.config["url"]}/{article.metadata["slug"]}/'
+                    f"{markata.config['url']}/{article.metadata['slug']}/"
                 )
                 soup.head.append(canonical_link)
 
@@ -266,7 +266,7 @@ def render(markata: Markata) -> None:
                 meta_url.attrs["name"] = "og:url"
                 meta_url.attrs["property"] = "og:url"
                 meta_url.attrs["content"] = (
-                    f'{markata.config["url"]}/{article.metadata["slug"]}/'
+                    f"{markata.config['url']}/{article.metadata['slug']}/"
                 )
                 soup.head.append(meta_url)
 

@@ -18,6 +18,5 @@ def expand_content(content: str, markata):
 @hook_impl(trylast=True)
 def pre_render(markata):
     for article in markata.articles:
-
         if "%%include" in article.content:
             article.content = expand_content(article.content, markata)

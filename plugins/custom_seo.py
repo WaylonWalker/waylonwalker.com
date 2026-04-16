@@ -23,7 +23,7 @@ def _create_seo(
         {
             "name": "og:sm_image",
             "property": "og:sm_image",
-            "content": f'{markata.config["images_url"]}/{article.metadata["slug"]}-og_250x140.png',
+            "content": f"{markata.config['images_url']}/{article.metadata['slug']}-og_250x140.png",
         },
     ]
     return seo

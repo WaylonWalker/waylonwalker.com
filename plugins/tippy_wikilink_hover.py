@@ -32,11 +32,11 @@ def hover_links(doc):
         tooltip_html = f"""
 <div id="{name}-tooltip-content-template" class="hidden">
   <p class="p-4 text-gray-400 text-xs">
-    <a href="/{href.strip('/')}">{title}</a> wikilink
+    <a href="/{href.strip("/")}">{title}</a> wikilink
   </p>
   <div class="rounded-xl overflow-y-scroll w-80 sm:w-96 h-64 sm:h-96 text-lg">
     <div 
-      hx-get="/{href.strip('/')}/partial/"
+      hx-get="/{href.strip("/")}/partial/"
       hx-trigger="tippy:shown once"
       hx-target="this"
       hx-swap="outerHTML"
@@ -58,8 +58,21 @@ def post_render(markata):
     """Hook to inject tippy-based hover previews for wikilinks and hoverlinks."""
     with markata.cache as cache:
         for post in markata.filter("not skip"):
-            if post.html is None:
+            if post.html is None or not isinstance(post.html, (str, dict)):
                 continue
+
+            # Early exit - skip processing if no wikilinks or hoverlinks
+            html_content = post.html
+            if isinstance(html_content, dict):
+                # Check if any dict value contains wikilinks
+                if not any(
+                    ("wikilink" in content or "hoverlink" in content)
+                    for content in html_content.values()
+                ):
+                    continue
+            else:
+                if "wikilink" not in html_content and "hoverlink" not in html_content:
+                    continue
 
             if isinstance(post.html, dict):
                 for key, post_html in post.html.items():
@@ -75,7 +88,11 @@ def do_hover_links(cache, markata, post_html, post_slug):
     key = markata.make_hash("wikilink_hover_htmx_tippy", post_html)
     html_from_cache = markata.precache.get(key)
 
-    if "wikilink" in post_html or "hoverlink" in post_html:
+    # Early exit - no wikilinks or hoverlinks found
+    if "wikilink" not in post_html and "hoverlink" not in post_html:
+        return post_html
+
+    if html_from_cache is None:
         if html_from_cache is None:
             doc = html.fromstring(post_html)
             hover_links(doc)
@@ -133,7 +150,9 @@ document.addEventListener('DOMContentLoaded', function () {
             doc.xpath("//body")[0].append(script_tag)
             doc.xpath("//head")[0].append(style_tag)
 
-            html_str = html.tostring(doc, pretty_print=should_prettify, encoding="unicode")
+            html_str = html.tostring(
+                doc, pretty_print=should_prettify, encoding="unicode"
+            )
             cache.set(key, html_str)
         else:
             html_str = html_from_cache
