@@ -1,0 +1,235 @@
+# markata-go configuration for waylonwalker.com migration
+
+[markata-go]
+# Site metadata
+title = "Waylon Walker"
+description = "Waylon Walker's personal blog"
+url = "https://waylonwalker.com"
+license = "cc-by-4.0"
+include = [
+  "config/theme.toml",
+  "config/components.toml",
+  "config/feeds.toml",
+  "config/blogroll.toml",
+  "config/webmention.toml",
+]
+
+[markata-go.searchcraft]
+enabled = true
+endpoint = "http://localhost:18000"
+ingest_key = "local-ingest"
+read_key = "local-read"
+index_prefix = "waylonwalker"
+index_per_site = true
+delete_missing = true
+batch_size = 100
+skip_on_fast_mode = true
+include_drafts = false
+include_private = false
+
+[markata-go.authors.authors.waylon]
+name = "Waylon Walker"
+email = "hello@waylonwalker.com"
+role = "Author"
+url = "https://waylonwalker.com"
+avatar = '/8bitcc.png'
+social = { twitter = "waylonwalker", bluesky = "waylonwalker.com", github = "WaylonWalker" }
+default = true
+
+[markata-go.authors.authors.kimi-k2-5-free]
+name = "Kimi k2.5 Free"
+role = "Drafter"
+url = "https://www.kimi.com/en"
+avatar = '/kimi-logo-CegIMkbU.png'
+default = false
+
+[markata-go.authors.authors.gpt-5-2-codex]
+name = "GPT-5.2 Codex"
+role = "Drafter"
+url = "https://openai.com/"
+avatar = '/gpt.webp'
+default = false
+
+
+# =============================================================================
+# SEO CONFIGURATION
+# =============================================================================
+[markata-go.seo]
+twitter_handle = "_waylonwalker"
+default_image = "https://waylonwalker.com/8bitcc.png"
+author_image = "https://waylonwalker.com/8bitcc.png"
+og_image_service = "https://shots.waylonwalker.com/shot/"
+
+# =============================================================================
+# NAVIGATION
+# =============================================================================
+# Top-level nav items (legacy format, works with default templates)
+[[markata-go.nav]]
+label = "Home"
+url = "/"
+
+[[markata-go.nav]]
+label = "Start Here"
+url = "/start/"
+
+[[markata-go.nav]]
+label = "Archive"
+url = "/archive/"
+
+[[markata-go.nav]]
+label = "About"
+url = "/about/"
+
+[[markata-go.nav]]
+label = "RSS"
+url = "/feeds/"
+
+# =============================================================================
+# POST OUTPUT FORMATS
+# =============================================================================
+[markata-go.post_formats]
+html = true       # Standard HTML pages
+markdown = true   # Raw markdown source (/slug/index.md)
+text = true       # Plain text (/slug/index.txt)
+ansi = true       # Plain text (/slug/index.txt)
+og = true         # OpenGraph cards (/slug/og/index.html)
+
+[markata-go.glob]
+# Glob patterns for finding content - must include directory path
+patterns = [
+"pages/**/*.md", 
+# "pages/ping/*.md", 
+# "thoughts/**/*.md"
+# "pages/**/pm-not-babysitter.md", 
+]
+use_gitignore = true
+
+# =============================================================================
+# PLUGIN CONFIGURATION
+# =============================================================================
+
+[markata-go.garden]
+# Set high enough to include all current posts + tags.
+# Frontend slider max is derived from generated graph node count.
+max_nodes = 100000
+
+# Enable thoughts plugin for PESOS functionality
+hooks = ["default", "thoughts", "wikilink_hover"]
+
+# =============================================================================
+# THOUGHTS PLUGIN CONFIGURATION (PESOS)
+# =============================================================================
+
+[markata-go.thoughts]
+enabled = true
+thoughts_dir = "thoughts"
+cache_dir = ".markata.cache/thoughts"
+max_items = 200
+
+# Import thoughts from thoughts.waylonwalker.com (JSON API)
+[markata-go.thoughts.sources]
+thoughts_waylonwalker = { type = "json", url = "https://thoughts.waylonwalker.com/posts/waylonwalker/", handle = "waylonwalker", active = true, max_items = 50 }
+
+# Syndication configuration (disabled by default - enable when ready to post outward)
+[markata-go.thoughts.syndication]
+enabled = false
+
+# Global feed defaults
+[markata-go.feed_defaults]
+items_per_page = 20
+orphan_threshold = 3
+
+[markata-go.feed_defaults.formats]
+html = true
+simple_html = true
+rss = true
+atom = true
+json = true
+markdown = true
+text = true
+ansi = true
+
+
+# =============================================================================
+# AUTO-GENERATED FEEDS
+# =============================================================================
+
+# Enable auto-generated tag feeds
+[markata-go.auto_feeds.tags]
+enabled = true
+slug_prefix = "tags"
+
+[markata-go.auto_feeds.tags.formats]
+html = true
+rss = true
+
+# =============================================================================
+# BLOGROLL & READER
+# =============================================================================
+
+[markata-go.plugins.steam]
+enabled = true
+api_key = "${STEAM_API_KEY}"
+steam_id = "${STEAM_ID}"
+posts_dir = "pages/steam"
+template = "steam_achievement"
+cache_duration = 3600
+min_playtime_hours = 3.0
+
+[markata-go.wikilinks]
+warn_broken = true
+
+[markata-go.wikilink_hover]
+enabled = true
+
+# Image zoom/lightbox functionality
+[markata-go.image_zoom]
+enabled = true
+auto_all_images = true  # Make ALL images zoomable
+
+# Contribution graph for GitHub-style calendar heatmaps
+[markata-go.contribution_graph]
+enabled = true
+theme = "default"
+
+# Navigation links
+[[markata-go.nav]]
+label = "blogroll"
+url = "/blogroll/"
+
+[[markata-go.nav]]
+label = "reader"
+url = "/reader/"
+
+[[markata-go.nav]]
+label = "random"
+url = "/random/"
+
+[markata-go.error_pages]
+enable_404 = true                    # default: true
+custom_404_template = "post.html"    # default: post.html
+
+[markata-go.random_post]
+enabled = true
+path = "random"
+exclude_tags = ["draft", "private"]
+emit_posts_json = true
+
+[markata-go.link_avatars]
+enabled = true
+
+# CSS selector for links to enhance (default: "a[href^='http']")
+selector = "a[href^='http']"
+
+# Avatar size in pixels (default: 16)
+size = 16
+
+# Position: "before" or "after" the link text (default: "before")
+position = "before"
+
+# Mode: "js", "local", or "hosted" (default: "js")
+mode = "local"
+[markata-go.encryption.private_tags]
+gratitude = "default"
+family = "default"
+family-shots = "default"

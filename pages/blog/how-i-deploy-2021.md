@@ -1,54 +1,11 @@
 ---
 templateKey: blog-post
-tags: ['blog', ]
-title: How I deploy my blog in 2022 | https://waylonwalker.com/how-i-deploy-2022
-title: https://waylonwalker.com/how-i-deploy-2022
+tags:
+  - blog
+title: How I deploy my blog in 2021
 date: 2021-10-29
 published: false
-author: '@_waylonwalker'
 jinja: false
-styles:
-    margin:
-        bottom: 0
-        left: 0
-        right: 0
-        top: 0
-    padding:
-        bottom: 0
-        left: 10
-        right: 10
-        top: 0
-    headings:
-        '1':
-            bg: default
-            fg: '#ff66c4,bold,italics'
-            prefix: ' ⇁ '
-            suffix: ' ↽ '
-    quote:
-        side: '│'
-        style:
-            bg: default
-            fg: '#aaa'
-        top_corner: '╭'
-        bottom_corner: '╰'
-    title:
-        bg: default
-        fg: '#e1af66,bold,italics'
-        fg: '#e1af66'
-    author:
-        bg: default
-        fg: '#ff66c4,bold,italics'
-        fg: '#368ce2'
-    date:
-        bg: default
-        fg: '#ff66c4,bold,italics'
-        fg: '#368ce2,bold,italics'
-        fg: '#368ce2'
-    slides:
-        bg: default
-        fg: '#ff66c4,bold,italics'
-        fg: '#368ce2,bold,italics'
-        fg: '#368ce2'
 
 ---
 

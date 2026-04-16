@@ -3,7 +3,7 @@ date: 2026-02-24 10:36:57
 templateKey: blog-post
 title: /verify
 tags:
-  - slashpages
+  - slash
 published: True
 
 ---

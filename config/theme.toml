@@ -1,0 +1,150 @@
+[markata-go.theme]
+# palette = "catppuccin-frappe"
+# palette = "catppuccin-latte"
+# palette = "catppuccin-macchiato"
+# palette = "catppuccin-mocha"
+# palette = "default-dark"
+# palette = "default-light"
+# palette = "dracula"
+palette = "everforest-dark"
+# palette = "everforest-light"
+# palette = "gruvbox-dark"
+# palette = "gruvbox-light"
+# palette = "kanagawa-dragon"
+# palette = "kanagawa-lotus"
+# palette = "kanagawa-wave"
+# palette = "matte-black"
+# palette = "nord-dark"
+# palette = "nord-light"
+# palette = "midnight-ablaze"
+# palette = "rose-pine-dawn"
+# palette = "rose-pine-moon"
+# palette = "solarized-dark"
+# palette = "solarized-light"
+# palette = "tokyo-night"
+# palette = "tokyo-night-day"
+# palette = "tokyo-night-storm"
+
+# Theme switcher - enables dropdown to select from all 70+ palettes
+# [markata-go.theme.switcher]
+# enabled = true
+# include_all = true
+# position = "header"
+
+[markata-go.theme.variables]
+"--content-width" = "clamp(56ch, 60vw, 72ch)"
+# "--content-max-width" = "300px"
+"--text-base" = "1.2rem"
+
+[markata-go.theme.background]
+article_blur_enabled = false
+enabled = true
+article_bg = "color-mix(in srgb, var(--color-background) 95%, transparent)"
+article_blur = "8px"
+article_shadow = "0 4px 24px rgba(0, 0, 0, 0.4)"
+article_radius = "12px"
+css = """
+.background-layer {
+  width: 100%;
+  height: 100%;
+}
+
+/* Style for snow-fall custom element */
+snow-fall {
+  display: block;
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 5;
+}
+
+/* Disable snow animation for users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  snow-fall {
+    display: none;
+  }
+}
+
+/* Ensure article, nav, header, and footer are ABOVE snow with solid backgrounds */
+article.post,
+.post-content {
+  position: relative;
+  z-index: 10;
+  background: var(--article-bg, var(--color-background));
+}
+
+.site-header,
+header {
+  position: relative;
+  z-index: 20;
+  background: var(--color-background);
+}
+
+.site-footer,
+footer {
+  position: relative;
+  z-index: 20;
+  background: var(--color-background);
+}
+
+nav,
+.sidebar,
+.site-nav {
+  position: relative;
+  z-index: 20;
+  background: var(--color-background);
+}
+
+/* Main content area above snow */
+main {
+  position: relative;
+  z-index: 10;
+}
+"""
+
+# Load scripts (snow effect)
+# scripts = ["/snow-fall.js"]
+
+[[markata-go.theme.background.backgrounds]]
+html = """<div style="position: fixed; inset: 0; pointer-events: none; z-index: -2; background-image: url('/w.svg'); background-size: 150px 84.4px; background-repeat: repeat; filter: invert(1) opacity(0.005);"></div>"""
+z_index = -2
+
+[[markata-go.theme.background.backgrounds]]
+html = """
+<svg
+  style="
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: overlay;
+  "
+  xmlns="http://www.w3.org/2000/svg">
+
+  <filter id="noiseFilter">
+    <feTurbulence
+      type="fractalNoise"
+      baseFrequency="0.02"
+      numOctaves="6"
+      stitchTiles="stitch"/>
+    <feColorMatrix type="saturate" values="0"/>
+    <feComponentTransfer>
+      <feFuncA type="discrete" tableValues="0 0.5 1"/>
+    </feComponentTransfer>
+  </filter>
+
+  <rect width="100%" height="100%" filter="url(#noiseFilter)" opacity="0.05"/>
+</svg>"""
+z_index = -1
+
+# Snow effect -- single layer, respects reduced-motion
+# [[markata-go.theme.background.backgrounds]]
+# html = '<snow-fall count="100" style="--snow-fall-size: 4px"></snow-fall>'
+# z_index = 5
+#
+# # Purple accent snow -- subtle
+# [[markata-go.theme.background.backgrounds]]
+# html = '<snow-fall count="10" style="--snow-fall-color: rebeccapurple; --snow-fall-size: 6px"></snow-fall>'
+# z_index = 5

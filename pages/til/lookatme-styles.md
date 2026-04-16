@@ -6,7 +6,6 @@ tags:
   - python
   - cli
   - python
-author: '@_waylonwalker'
 styles:
     padding:
         bottom: 0

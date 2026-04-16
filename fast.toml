@@ -1,0 +1,61 @@
+# Fast build configuration for development
+# Usage: markata-go build -m fast.toml
+# Or: just build-fast
+
+[markata-go]
+# Reduce concurrency for less resource usage for dev
+concurrency = 2
+
+[markata-go.glob]
+# Only process specific files for faster builds
+# Includes a few from each content type so the homepage feeds render
+patterns = [
+"pages/post/index.md",
+"pages/components/nav-content.md",
+"pages/components/footer-content.md",
+"pages/components/sidebar.md",
+"pages/components/about-intro.md",
+"pages/components/now-intro.md",
+"pages/blog/start.md",
+"pages/blog/now.md",
+"pages/blog/analytics.md",
+"pages/blog/about.md",
+"pages/blog/colophon.md",
+"pages/blog/ai.md",
+"pages/blog/yep.md",
+"pages/blog/nope.md",
+"pages/blog/top4.md",
+"pages/blog/verify.md",
+"pages/blog/feeds.md",
+"pages/til/vim-gq.md",
+"pages/til/get-python-package-versions.md",
+"pages/til/am-i-vulnerable-to-the-xz-backdoor.md",
+# Shots: include card_classes posts + recent for a full grid
+"pages/shots/sunset-with-rhiannon-by-a-pond.md",
+"pages/shots/ayla-looking-at-the-annie-jr-marquee.md",
+"pages/shots/quary-lake-photos.md",
+"pages/shots/a-walk-through-the-woods-with-wyatt-jun-2025.md",
+"pages/shots/its-a-trap.md",
+"pages/shots/collection-party-balloon.md",
+"pages/shots/collection-l-bracket.md",
+"pages/shots/wyatt-hits-the-gap.md",
+"pages/shots/dummy13-on-a-skateboard.md",
+"pages/shots/gradient-keycap-results.md",
+"pages/shots/camp-rock-sign.md",
+"pages/shots/trobio-full.md",
+"pages/ping/fast-changing-dev-server-today.md",
+"pages/ping/gpus-are-awesome.md",
+"pages/ping/git-worktrees-are-needed.md",
+"pages/thoughts/thought-100.md",
+"pages/thoughts/thought-102.md",
+"pages/thoughts/thought-103.md",
+]
+
+
+[markata-go.blogroll]
+# Disable blogroll - huge speedup by skipping feed fetches
+enabled = false
+
+[markata-go.mentions]
+# Disable mentions (depends on blogroll)
+enabled = false

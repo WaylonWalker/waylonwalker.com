@@ -4,7 +4,7 @@ templateKey: blog-post
 title: /top4
 published: true
 tags:
-  - slashpages
+  - slash
   - favorites
 authors:
   - waylon
