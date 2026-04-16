@@ -244,10 +244,24 @@ get-fragmention:
 get-snowfall:
     curl -o static/snow-fall.js https://raw.githubusercontent.com/zachleat/snow-fall/refs/heads/main/snow-fall.js
 
-sync:
+sync-go:
     rsync -a --delete --chmod=F644,D755 \
     ./output/ \
     falcon3:/mnt/main/walkershare/waylon/sites/go.waylonwalker.com
+
+sync:
+    rsync -a --delete --chmod=F644,D755 \
+    ./output/ \
+    falcon3:/mnt/main/walkershare/waylon/sites/waylonwalker.com
+
+sync-vault:
+    rsync -a --delete --chmod=F644,D755 \
+    ./ \
+    falcon3:/mnt/main/walkershare/waylon/vaults/waylonwalker.com
+
+    rsync -a --delete --chmod=F644,D755 \
+    ./ \
+    falcon3:/mnt/main/walkershare/waylon/vaults/go.waylonwalker.com
 
 thoughts:
     ./scripts/thoughts.py

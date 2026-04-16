@@ -1,0 +1,95 @@
+[markata-go.components.nav]
+enabled = true
+position = "header"
+style = "horizontal"
+
+[markata-go.components.footer]
+enabled = true
+show_copyright = true
+text = ""
+
+[[markata-go.components.footer.links]]
+label = "/about"
+url = "/about/"
+
+[[markata-go.components.footer.links]]
+label = "/now"
+url = "/now/"
+
+[[markata-go.components.footer.links]]
+label = "/colophon"
+url = "/colophon/"
+
+[[markata-go.components.footer.links]]
+label = "/blogroll"
+url = "/blogroll/"
+
+[[markata-go.components.footer.links]]
+label = "/reader"
+url = "/reader/"
+
+[[markata-go.components.footer.links]]
+label = "/ai"
+url = "/ai/"
+
+[[markata-go.components.footer.links]]
+label = "Twitter"
+url = "https://twitter.com/waylonwalker"
+external = true
+
+[[markata-go.components.footer.links]]
+label = "GitHub"
+url = "https://github.com/waylonwalker"
+external = true
+
+[[markata-go.components.footer.links]]
+label = "LinkedIn"
+url = "https://linkedin.com/in/waylonwalker"
+external = true
+
+[markata-go.components.content_sidebar]
+enabled = true
+position = "right"
+width = "380px"
+slug = "components/sidebar"
+
+[markata-go.components.feed_sidebar]
+enabled = true
+position = "left"
+width = "250px"
+
+[markata-go.components.top_banner]
+enabled = false
+slug = "components/top-banner"
+css_class = "site-top-banner"
+
+[markata-go.components.hero]
+enabled = false
+slug = "components/hero"
+css_class = "site-hero"
+
+[markata-go.components.nav_content]
+enabled = true
+slug = "components/nav-content"
+css_class = "site-nav-content"
+
+[markata-go.components.left_sidebar]
+enabled = true
+slug = "components/left-sidebar"
+css_class = "toc-sidebar"
+width = "240px"
+
+[markata-go.components.after_post]
+enabled = false
+slug = "components/after-post"
+css_class = "after-post-section"
+
+[markata-go.components.bottom_banner]
+enabled = false
+slug = "components/bottom-banner"
+css_class = "bottom-banner-section"
+
+[markata-go.components.footer_content]
+enabled = true
+slug = "components/footer-content"
+css_class = "site-footer-content"

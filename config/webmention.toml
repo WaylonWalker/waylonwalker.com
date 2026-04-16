@@ -1,0 +1,101 @@
+[markata-go.head]
+[[markata-go.head.link]]
+rel = "webmention"
+href = "https://webmention.io/waylonwalker.com/webmention"
+
+[[markata-go.head.text]]
+value = """
+<style>
+.share-panel {
+  margin: var(--space-8, 2rem) 0 var(--space-6, 1.5rem);
+  padding-top: var(--space-4, 1rem);
+  border-top: 1px solid var(--color-border, #e1e1e1);
+}
+
+.share-panel__title {
+  font-size: var(--text-sm, 0.95rem);
+  font-weight: 600;
+  margin: 0 0 0.75rem;
+}
+
+.share-buttons,
+.share-panel__grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: var(--space-4, 1rem);
+}
+
+.share-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.2rem;
+  height: 2.2rem;
+  padding: 0;
+  background: transparent;
+  border-radius: 999px;
+  border: 1px solid var(--color-border, #d0d0d0);
+  color: var(--color-text, currentColor);
+  cursor: pointer;
+  text-decoration: none;
+  transition: border-color 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+}
+
+.share-button__icon {
+  width: 1.1rem;
+  height: 1.1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.share-button__icon svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.share-button__label,
+.share-button__name {
+  display: none;
+}
+
+.share-button__hint {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.share-button:hover,
+.share-button:focus-visible {
+  color: var(--color-primary, #4f46e5);
+  border-color: var(--color-primary, #4f46e5);
+  background: color-mix(in srgb, var(--color-primary, #4f46e5) 12%, var(--color-surface, #ffffff));
+}
+
+.share-button--copied {
+  color: var(--color-primary, #4f46e5);
+  border-color: var(--color-primary, #4f46e5);
+  background: color-mix(in srgb, var(--color-primary, #4f46e5) 16%, transparent);
+}
+</style>
+"""
+
+[markata-go.webmention]
+enabled = true
+endpoint = "https://webmention.io/waylonwalker.com/webmention"
+
+[markata-go.webmentions]
+enabled = true
+outgoing = true
+cache_dir = ".markata-cache/webmentions"
+concurrent_requests = 5
+timeout = "30s"
+webmention_io_token = "${WEBMENTION_IO_TOKEN}"
