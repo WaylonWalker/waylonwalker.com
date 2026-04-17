@@ -1,7 +1,9 @@
 # markata-go configuration for waylonwalker.com migration
 
 [markata-go]
-# Site metadata
+# ╔═════════════════════════════════════════════════════════════════════════════╗
+# ║ SITE METADATA                                                               ║
+# ╚═════════════════════════════════════════════════════════════════════════════╝
 title = "Waylon Walker"
 description = "Waylon Walker's personal blog"
 url = "https://waylonwalker.com"
@@ -12,6 +14,7 @@ include = [
   "config/feeds.toml",
   "config/blogroll.toml",
   "config/webmention.toml",
+  "config/search.toml",
 ]
 
 [markata-go.searchcraft]
@@ -51,42 +54,41 @@ avatar = '/gpt.webp'
 default = false
 
 
-# =============================================================================
-# SEO CONFIGURATION
-# =============================================================================
+# ╔═════════════════════════════════════════════════════════════════════════════╗
+# ║ SEO CONFIGURATION                                                           ║
+# ╚═════════════════════════════════════════════════════════════════════════════╝
 [markata-go.seo]
 twitter_handle = "_waylonwalker"
 default_image = "https://waylonwalker.com/8bitcc.png"
 author_image = "https://waylonwalker.com/8bitcc.png"
 og_image_service = "https://shots.waylonwalker.com/shot/"
 
-# =============================================================================
-# NAVIGATION
-# =============================================================================
-# Top-level nav items (legacy format, works with default templates)
+# ╔═════════════════════════════════════════════════════════════════════════════╗
+# ║ NAVIGATION                                                                  ║
+# ╚═════════════════════════════════════════════════════════════════════════════╝
 [[markata-go.nav]]
-label = "Home"
-url = "/"
-
-[[markata-go.nav]]
-label = "Start Here"
+label = "start here"
 url = "/start/"
 
 [[markata-go.nav]]
-label = "Archive"
+label = "archive"
 url = "/archive/"
 
 [[markata-go.nav]]
-label = "About"
-url = "/about/"
-
-[[markata-go.nav]]
-label = "RSS"
+label = "rss"
 url = "/feeds/"
 
-# =============================================================================
-# POST OUTPUT FORMATS
-# =============================================================================
+[[markata-go.nav]]
+label = "reader"
+url = "/reader/"
+
+[[markata-go.nav]]
+label = "random"
+url = "/random/"
+
+# ╔═════════════════════════════════════════════════════════════════════════════╗
+# ║ POST OUTPUT FORMATS                                                         ║
+# ╚═════════════════════════════════════════════════════════════════════════════╝
 [markata-go.post_formats]
 html = true       # Standard HTML pages
 markdown = true   # Raw markdown source (/slug/index.md)
@@ -104,9 +106,9 @@ patterns = [
 ]
 use_gitignore = true
 
-# =============================================================================
-# PLUGIN CONFIGURATION
-# =============================================================================
+# ╔═════════════════════════════════════════════════════════════════════════════╗
+# ║ PLUGIN CONFIGURATION                                                        ║
+# ╚═════════════════════════════════════════════════════════════════════════════╝
 
 [markata-go.garden]
 # Set high enough to include all current posts + tags.
@@ -116,9 +118,9 @@ max_nodes = 100000
 # Enable thoughts plugin for PESOS functionality
 hooks = ["default", "thoughts", "wikilink_hover"]
 
-# =============================================================================
-# THOUGHTS PLUGIN CONFIGURATION (PESOS)
-# =============================================================================
+# ╔═════════════════════════════════════════════════════════════════════════════╗
+# ║ THOUGHTS PLUGIN CONFIGURATION (PESOS)                                       ║
+# ╚═════════════════════════════════════════════════════════════════════════════╝
 
 [markata-go.thoughts]
 enabled = true
@@ -150,9 +152,9 @@ text = true
 ansi = true
 
 
-# =============================================================================
-# AUTO-GENERATED FEEDS
-# =============================================================================
+# ╔═════════════════════════════════════════════════════════════════════════════╗
+# ║ AUTO-GENERATED FEEDS                                                        ║
+# ╚═════════════════════════════════════════════════════════════════════════════╝
 
 # Enable auto-generated tag feeds
 [markata-go.auto_feeds.tags]
@@ -163,9 +165,9 @@ slug_prefix = "tags"
 html = true
 rss = true
 
-# =============================================================================
-# BLOGROLL & READER
-# =============================================================================
+# ╔═════════════════════════════════════════════════════════════════════════════╗
+# ║ BLOGROLL & READER                                                           ║
+# ╚═════════════════════════════════════════════════════════════════════════════╝
 
 [markata-go.plugins.steam]
 enabled = true
@@ -192,18 +194,6 @@ auto_all_images = true  # Make ALL images zoomable
 enabled = true
 theme = "default"
 
-# Navigation links
-[[markata-go.nav]]
-label = "blogroll"
-url = "/blogroll/"
-
-[[markata-go.nav]]
-label = "reader"
-url = "/reader/"
-
-[[markata-go.nav]]
-label = "random"
-url = "/random/"
 
 [markata-go.error_pages]
 enable_404 = true                    # default: true
