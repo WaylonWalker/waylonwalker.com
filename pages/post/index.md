@@ -11,19 +11,11 @@ aliases:
   - index
 hero_first_name: Waylon
 hero_last_name: Walker
-hero_tagline: "Software engineer, pipeline builder, and maker of things on the web. Always learning, always shipping."
+hero_tagline: "Father of two, husband, blog engine from scratch, kubernetes in the basement."
 hero_avatar: /8bitcc.png
 hero_links:
-  - label: Blog
-    url: /blog/
-  - label: Shots
-    url: /shots/
-  - label: TIL
-    url: /til/
-  - label: About
-    url: /about/
-  - label: Now
-    url: /now/
+  - label: Just F&*$ing use K8s
+    url: /just-fucking-use-kubernetes/
 intro_cards:
   - heading: About
     slug: components/about-intro
