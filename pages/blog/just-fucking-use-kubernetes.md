@@ -21,6 +21,13 @@ You want to run containers?
     If you don't like if you can fuck off to the next post, I'm having fun here,
     but satire is not my strong suit and needed some help.
 
+!!! seealso
+
+    * [[ should-i-kubernetes-my-homelab ]]
+    * [[ the-wrong-reasons-to-run-kubernetes-in-your-homelab ]]
+    * [[ the-right-reasons-to-run-kubernetes-in-your-homelab ]]
+    * [[ i-got-the-kubernetes-in-my-basement-autism ]]
+
 ---
 
 ## "But it’s complicated!"
