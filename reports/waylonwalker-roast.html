@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>waylonwalker.com — Design & Aesthetic Roast</title>
+<style>
+  :root{
+    --bg:#0f1216;
+    --panel:#161a21;
+    --ink:#e6e6e6;
+    --mute:#9aa3ad;
+    --rule:#262b33;
+    --accent:#ff7a3d;  /* pulled from Waylon's avatar gradient */
+    --accent2:#e7429a;
+    --accent3:#5ad18b;
+    --good:#5ad18b;
+    --bad:#ff6b6b;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);
+    font:16px/1.6 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  main{max-width:880px;margin:0 auto;padding:48px 24px 120px}
+  h1{font-size:2.2rem;margin:0 0 .25em;line-height:1.15;
+    background:linear-gradient(90deg,var(--accent),var(--accent2) 55%,var(--accent3));
+    -webkit-background-clip:text;background-clip:text;color:transparent}
+  h2{margin-top:2.4em;font-size:1.35rem;border-bottom:1px solid var(--rule);padding-bottom:.35em}
+  h3{margin-top:1.6em;font-size:1.05rem;color:var(--accent)}
+  p,li{color:var(--ink)}
+  .sub{color:var(--mute);margin-top:0}
+  a{color:var(--accent)}
+  code,kbd{font:14px/1.4 ui-monospace,Menlo,Consolas,monospace;
+    background:#1c2029;border:1px solid var(--rule);padding:1px 6px;border-radius:4px}
+  pre{background:#0b0d11;border:1px solid var(--rule);border-radius:8px;
+    padding:16px 18px;overflow:auto;font:13.5px/1.55 ui-monospace,Menlo,Consolas,monospace;
+    color:#d6dde6}
+  blockquote{border-left:3px solid var(--accent);margin:1em 0;padding:.2em 1em;color:var(--mute)}
+  .meta{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 32px}
+  .pill{display:inline-block;padding:2px 10px;border:1px solid var(--rule);
+    border-radius:999px;font-size:.78rem;color:var(--mute)}
+  .card{background:var(--panel);border:1px solid var(--rule);border-radius:10px;
+    padding:18px 22px;margin:18px 0}
+  .good::before{content:"✅ ";color:var(--good)}
+  .bad::before{content:"🔥 ";}
+  .toc{background:var(--panel);border:1px solid var(--rule);border-radius:10px;
+    padding:14px 22px;margin:12px 0 32px}
+  .toc ol{margin:0;padding-left:20px}
+  .toc a{color:var(--ink);text-decoration:none}
+  .toc a:hover{color:var(--accent)}
+  details{border:1px solid var(--rule);border-radius:10px;padding:12px 18px;margin:18px 0;background:var(--panel)}
+  details[open] summary{color:var(--accent)}
+  summary{cursor:pointer;font-weight:600}
+  hr{border:none;border-top:1px solid var(--rule);margin:48px 0}
+  .copy-btn{float:right;background:#1c2029;border:1px solid var(--rule);color:var(--ink);
+    padding:4px 10px;border-radius:6px;font-size:.75rem;cursor:pointer}
+  .copy-btn:hover{border-color:var(--accent)}
+  @media print{
+    body{background:white;color:black}
+    .copy-btn{display:none}
+    pre,details,.card,.toc{background:white;border-color:#ccc}
+    h1{color:black;-webkit-text-fill-color:black}
+    h3{color:#c03f00}
+  }
+</style>
+</head>
+<body>
+<main>
+
+<h1>waylonwalker.com — Design &amp; Aesthetic Roast</h1>
+<p class="sub">Field notes from an agent-browser walkthrough of the home, archive, blog, shots, tags, garden, reader, blogroll, and a representative post (<code>/carry/</code>).</p>
+<div class="meta">
+  <span class="pill">Date: 2026-04-17</span>
+  <span class="pill">Scope: UX / visual / IA</span>
+  <span class="pill">Not in scope: perf, a11y audit, SEO</span>
+</div>
+
+<div class="toc">
+  <strong>Contents</strong>
+  <ol>
+    <li><a href="#vibe">The overall vibe</a></li>
+    <li><a href="#header">Header &amp; nav</a></li>
+    <li><a href="#hero">Hero</a></li>
+    <li><a href="#typography">Typography</a></li>
+    <li><a href="#archive">Archive</a></li>
+    <li><a href="#pings">The "Ping" problem</a></li>
+    <li><a href="#garden">The Garden</a></li>
+    <li><a href="#reader">Reader &amp; blogroll</a></li>
+    <li><a href="#tags">Tag pages</a></li>
+    <li><a href="#shots">Shots</a></li>
+    <li><a href="#content">Content polish</a></li>
+    <li><a href="#wins">Biggest wins</a></li>
+    <li><a href="#good">What's actually good</a></li>
+    <li><a href="#handoff">Handoff prompt — markata-go agents</a></li>
+  </ol>
+</div>
+
+<h2 id="vibe">1. The overall vibe</h2>
+<p>Dark-mode-by-default, olive-on-slate, Tailwind defaults, nothing offends. Which is another way of saying: there is no <em>design</em>, there's just <em>absence of ugly</em>. You've avoided mistakes rather than made a statement. For someone who hand-rolls their own blog engine (markata) and proudly owns a decentralized-web manifesto, the site looks like every other dev-blog Tailwind starter on Hacker News. Where's the personality the content has?</p>
+
+<h2 id="header">2. The header — chaos masquerading as minimalism</h2>
+<ul>
+  <li class="bad">Nine nav items (<code>Home / Start Here / Archive / About / RSS / blogroll / reader / random / random</code>), half Title Case, half lower, plus a search bar and a moon icon wedged to the right. It's not a nav, it's a roster. Pick 5; put the rest in a footer.</li>
+  <li class="bad"><code>Home</code> is useless — the logo already does it. <code>Start Here</code> and <code>About</code> are the same doorway for a new visitor. <code>RSS</code> belongs next to a subtle icon in the footer. <code>random</code> as a top-level item is a personality tic, not a user need.</li>
+  <li class="bad">Capitalization inconsistency (<code>Archive</code> vs <code>blogroll</code> vs <code>reader</code> vs <code>random</code>) is the first thing I noticed. On a craftsman's site that's a tell.</li>
+  <li class="bad">Search bar takes ~25% of a 1280-wide header but the hint is just <code>Search…</code> + a <kbd>/</kbd> kbd hint — fine for nerds, invisible intent for everyone else. No scope (e.g. "search 2,455 posts"), no recent/suggested queries.</li>
+</ul>
+
+<h2 id="hero">3. The hero</h2>
+<ul>
+  <li class="bad"><em>"Software engineer, pipeline builder, and maker of things on the web. Always learning, always shipping."</em> — four generic LinkedIn clichés in a row. "Maker of things" is the design-equivalent of writing "I do stuff." The content below proves you're way more specific than this.</li>
+  <li class="bad">The avatar sits on an orange→magenta gradient ring, which is the only real splash of color on the page — and it lives in a single circle, never echoed anywhere else. Pull that palette into accents (link hovers, tag pills, sparkline) and the whole site would feel intentional.</li>
+  <li class="bad">Five giant pill buttons below (<code>Blog / Shots / TIL / About / Now</code>) duplicate 3 items already in the nav. That's the same links twice in the first 700px.</li>
+</ul>
+
+<h2 id="typography">4. Typography</h2>
+<ul>
+  <li class="bad">Body copy on <code>/carry/</code> is ~20px with generous line-height (fine) — but headings are all the same rounded sans, same weight progression. No display face, no drop cap, no editorial <em>thing</em> that says "this is a Waylon post." The content reads like it was extruded from a CMS, when in fact you <em>built</em> the CMS.</li>
+  <li class="bad">Every tag is the same dull pill. 300 tags and none of them feel different. The tag cloud on <code>/tags/</code> even shows you the counts (<code>ai (88)</code>, <code>webdev</code>, <code>bash (31)</code>) — lean into weighted/colored tags or at least size them.</li>
+  <li class="bad"><code>/carry/</code>'s "Slash Pages" sidebar is a great idea with terrible execution: ~10 identical grey pills stacked in a phone-book column. That's a <em>collection</em> — design it as one (small index with descriptions), not a slot machine.</li>
+</ul>
+
+<h2 id="archive">5. The archive</h2>
+<p>A flat chronological list of 1,593 posts, one per line: <code>2026-04-15 - Ping 50</code>. Honest and I love it in principle, but there's zero way to find anything. No year jump nav, no filter by type (blog vs TIL vs shot vs ping), no density of 4-per-row. The sidebar on individual posts calls itself <code>ARCHIVE (1593)</code> with a <code>1/6</code> pager — which means even <em>you</em> can't browse it ergonomically.</p>
+
+<h2 id="pings">6. The "Ping" problem</h2>
+<p>Ping 36 through Ping 50 dominate the archive. That's a firehose of micro-posts smashed into the same stream as real essays like <em>Agents Are Here</em>. A casual visitor can't tell what to read. Either:</p>
+<ul>
+  <li>Give Pings their own feed and exclude from Blog, or</li>
+  <li>Visually demote them (smaller card, icon-tagged, "digest" header).</li>
+</ul>
+<p>Right now the home page's "Latest Blog Posts" section leads with <em>Agents Are Here</em> (banger) and then <code>/carry/</code> and then just <em>Markata-Go</em> with no description. Inconsistent card shapes, inconsistent metadata, inconsistent excerpts — the one place that <em>must</em> sell your writing is the least art-directed.</p>
+
+<h2 id="garden">7. The Garden</h2>
+<p>The premise (2,455 posts · 300 tags · 7,598 connections) is genuinely cool. The execution is a Graph Preview card that shows… sliders. <code>Spacing 400</code>. <code>Repulsion 280</code>. <code>Tag size 0.6</code>. <code>Tag lines 0.60</code>. You buried the magic behind five fiddly knobs. Nobody adjusts repulsion to find a post. Show the graph big and beautiful first, put the nerd knobs behind an "Advanced" disclosure (which you already have — so why is it open?). Also: "Garden" is a gorgeous metaphor that the page does nothing visually to earn. No organic curves, no plant metaphor, no seasonal coloring — it's a force-directed blob on slate.</p>
+
+<h2 id="reader">8. Reader &amp; blogroll</h2>
+<ul>
+  <li class="bad"><strong>Reader</strong> is a genuinely differentiated feature (115 feeds you follow, aggregated) and it's rendered as a plain list of titles + dates + one-line summaries. This should be the most visually distinctive page on the site — it's your taste, curated. Give it columns, source favicons up front, group by day with a big date rail.</li>
+  <li class="bad"><strong>Blogroll</strong> groups by category (audio, data-science, design, development…) but items inside are visually identical grey blocks. A small logo/colored dot per category would turn it from a spreadsheet into a map.</li>
+</ul>
+
+<h2 id="tags">9. Tag pages</h2>
+<p><code>/tags/python/</code> has a nice touch — a tiny sparkline labeled <em>PUBLISHING RHYTHM</em>. That's personality! But it's crammed in the top-right at ~150px wide and everyone misses it. Either make it a hero strip across the top of every tag page, or don't bother. Also: 275 posts tagged Python, shown as a single vertical list with no subgrouping (year? type? star-rated?) is just scroll-purgatory.</p>
+
+<h2 id="shots">10. Shots</h2>
+<p>The "photo and video posts" section on the home reads like a Twitter thread without the pictures — just captions separated by blank lines. For a section literally called <em>Shots</em>, images should dominate. The alt-text is the caption with no visual slot.</p>
+
+<h2 id="content">11. Content polish (since this is a writer's site)</h2>
+<ul>
+  <li class="bad">Typos visible on the homepage alone: <code>too good a fucking up the whole project</code>, <code>6 months before ai writes all the code</code>, <code>agentss</code>, <code>plugigng</code>, <code>upmost importance</code>, <code>pre-commmit</code>. A writer's site that ships with typos signals "draft in public" — which is fine as a <em>stated</em> philosophy, but it's not stated. Either own it ("raw garden, unedited") or run a spellcheck on publish.</li>
+  <li class="bad">Inconsistent date formats (<code>April 10, 2026</code> on posts, <code>2026-04-15</code> in archive, <code>Apr 17, 2026</code> in reader). Pick one.</li>
+  <li class="bad">Inconsistent capitalization of tags: <code>Webdev</code> vs <code>webdev</code>, <code>3d</code> vs <code>3d printing</code> vs <code>3d-printing</code> vs <code>3dprinting</code> — four variants of the same tag, all in the A–Z list. That's a markata bug you're literally eating.</li>
+</ul>
+
+<h2 id="wins">12. The single biggest wins (if you do nothing else)</h2>
+<ol>
+  <li><strong>Cut the nav to 5 items.</strong> Kill duplicate routes. Fix the capitalization.</li>
+  <li><strong>Tagline rewrite.</strong> Replace "Software engineer, pipeline builder…" with something specific and weird — like <em>"I build a blog engine to avoid using someone else's. Currently shipping markata-go, /carry/ minimalism, and opinions on agents."</em></li>
+  <li><strong>Design the card.</strong> One beautiful post card (big title, one-line excerpt, pill for type Blog/Shot/TIL/Ping, date, minutes, tiny color-coded tag strip). Use it everywhere. The homepage stops looking like three different websites stacked.</li>
+  <li><strong>Deduplicate tags</strong> in markata before rendering. <code>3d-printing</code> only.</li>
+  <li><strong>Lead the Garden with the graph</strong>, not the controls.</li>
+  <li><strong>Separate Pings</strong> from the Blog feed visually, or give them a distinct route.</li>
+  <li><strong>Pull the avatar gradient</strong> (orange→magenta→green) into link hovers, tag accents, and the sparkline — one real accent color across the whole site instead of 12 shades of slate.</li>
+</ol>
+
+<h2 id="good">13. What's actually good (so this isn't all mean)</h2>
+<ul>
+  <li class="good">Fast. Static. No cookie banner. No newsletter popup. No AI-summary garbage at the top of posts.</li>
+  <li class="good"><code>/carry/</code>, <code>/verify/</code>, <code>/yep/</code>, <code>/nope/</code> — the slash-pages concept is genuinely charming and very you.</li>
+  <li class="good">The reader + blogroll + RSS combination is a rare public stance in 2026 and deserves pride of place.</li>
+  <li class="good">Sparklines for publishing rhythm is a lovely idea — implement it bigger and everywhere.</li>
+  <li class="good">The Garden's numbers (2,455 · 300 · 7,598) are a flex. Flex harder.</li>
+</ul>
+
+<blockquote>You've built a <em>system</em>. The roast is that the system outshines the presentation layer. The content, the custom engine, the weird slash-pages, the reader — all interesting. The surface is Tailwind-default slate with olive headings and inconsistent nav casing. Time to design the site as hard as you engineered it.</blockquote>
+
+<hr>
+
+<h2 id="handoff">14. Handoff prompt — markata-go engine agents</h2>
+<p>Use the block below as the opening message to an agent (or spawn several in parallel, one per issue). Each item is scoped so it can ship independently of the rest. Roast items that are <em>content-only</em> (tagline copy, "Start Here" rewrite) are intentionally excluded — those belong to Waylon, not the engine.</p>
+
+<details open>
+<summary>Copy-paste prompt</summary>
+<button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('handoff').innerText)">Copy</button>
+<pre id="handoff">You are a coding agent working on markata-go, the static site generator behind
+https://waylonwalker.com. Your job is to land one engine-level improvement from
+the backlog below, end-to-end, in a single PR.
+
+Repository context
+-------------------
+- Go rewrite of the Python markata static site generator.
+- Config lives in markata-go.toml (site) and markata.toml (legacy/compat).
+- Templates are Go html/template; CSS is Tailwind (see tailwind/ and
+  tailwind.config.js) with a small hand-written layer on top.
+- Output is fully static; there is no runtime server. All routes in the backlog
+  below must be generated at build time.
+- Content types include: blog posts, TIL, shots, pings, and slash-pages.
+- Tags are derived from post frontmatter; there are currently ~300 tags with
+  known duplicates (see issue ENGINE-04).
+
+Ground rules
+------------
+1. Pick ONE issue from the backlog. Do not mix scopes.
+2. Do not change copy, taglines, or post content. Engine and templates only.
+3. Preserve existing URLs unless the issue explicitly introduces a new route;
+   if a route changes, add a redirect map in the output.
+4. All changes must be covered by a test or a golden-file build comparison
+   where one already exists for that area.
+5. Build must stay fast: no new network calls at build time; no new runtime
+   JavaScript unless the issue names it as in-scope.
+6. Respect the site's "no cookie banner, no newsletter popup, no AI summary"
+   stance. If in doubt, ship less.
+
+Backlog (pick one)
+------------------
+ENGINE-01  Post card component
+  Introduce a single reusable post-card partial used by: homepage "Latest
+  Blog Posts", "Latest Shots", "Recent TIL", tag pages, archive (dense
+  variant), and search results. Card fields: title, one-line excerpt, type
+  pill (blog|til|shot|ping|slash), ISO date (rendered via a shared date
+  helper), read-time, up to 3 tag chips. Expose CSS variables for the type
+  pill color so themes can override.
+
+ENGINE-02  Unified date helper + format
+  Add a template function `fmtDate` that renders every date on the site in a
+  single format (proposal: `Apr 15, 2026`, with `<time datetime="...">` for
+  machine-readable ISO). Replace every ad-hoc date rendering in templates
+  and feeds. Add a test that scans rendered HTML for stray date formats.
+
+ENGINE-03  Ping segregation
+  Treat `ping` as a first-class post type separate from `blog`. Generate
+  /pings/ index and /pings/rss.xml; exclude pings from /blog/ and from the
+  homepage "Latest Blog Posts" section. Pings remain in the unified archive
+  and the reader/garden. Add a config flag so this can be toggled.
+
+ENGINE-04  Tag canonicalization
+  Build a tag canonicalizer that collapses case and common separator
+  variants (e.g. `Webdev`/`webdev`, `3d`/`3d printing`/`3d-printing`/
+  `3dprinting`) to a single canonical slug. Source of truth is a
+  `tags.toml` with canonical -> aliases. Fail the build on unknown tag
+  variants unless `--allow-new-tags` is passed. Migrate existing frontmatter
+  in a single commit using a codemod script included in the PR.
+
+ENGINE-05  Nav/IA consolidation
+  Reduce the primary nav to 5 slots (proposal: Blog, Shots, Garden, Reader,
+  About) configured via markata-go.toml. Move RSS, random, blogroll,
+  archive, and start-here to a redesigned footer. Enforce consistent
+  capitalization at render time from a single source list. Add redirect
+  stubs for any removed top-level routes.
+
+ENGINE-06  Garden: graph first
+  On /garden/, render the force-directed graph at full width/height as the
+  primary element above the fold. Move sliders (spacing, repulsion, tag
+  size, tag lines) into a collapsed `<details>` labelled "Advanced" and
+  default it closed. Persist slider values in localStorage so power users
+  keep their tuning. No change to the underlying graph data.
+
+ENGINE-07  Tag page sparkline as hero
+  Promote the "publishing rhythm" sparkline on /tags/:slug/ to a full-width
+  hero strip above the post list, showing monthly post counts for the tag
+  over the tag's entire lifespan. Add post-type coloring (blog/til/shot/
+  ping) as stacked bars under the sparkline.
+
+ENGINE-08  Shots thumbnails in feeds
+  Ensure every shot post has at least one image referenced in frontmatter
+  (`cover:` or first `![]()` in body). Fail the build otherwise. Generate
+  responsive thumbnails (webp, avif, fallback jpg) and render them in the
+  homepage "Latest Shots" section and the /shots/ index.
+
+ENGINE-09  Accent color system
+  Extract the avatar gradient (orange #ff7a3d → magenta #e7429a → green
+  #5ad18b) into CSS variables `--accent`, `--accent-2`, `--accent-3`.
+  Apply to: link hover, focus ring, active nav item underline, tag-chip
+  hover, sparkline stroke, and the "See all X →" arrows. Keep dark mode
+  contrast AA or better for every usage.
+
+ENGINE-10  Reader redesign
+  Restructure /reader/ as a day-grouped list with a sticky date rail on the
+  left. Each item shows source favicon (downloaded at build time and cached
+  in /static/favicons/<hash>.png), source name, title, and excerpt.
+  Add source filter chips at the top, generated from the blogroll config.
+
+Deliverable
+-----------
+One PR with:
+- Implementation.
+- Tests or golden-file updates.
+- Short PR description listing user-visible changes and any config knobs.
+- Before/after screenshots of the affected pages at 1280px and 390px widths.
+
+Do not open a new issue from the list; just ship the one you chose.
+</pre>
+</details>
+
+<hr>
+<p class="sub">Generated from a live agent-browser walkthrough on 2026-04-17. Screenshots and raw extracted text are in the same session <code>files/</code> folder.</p>
+
+</main>
+</body>
+</html>
