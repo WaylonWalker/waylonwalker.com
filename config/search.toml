@@ -1,8 +1,9 @@
-[search]
+[markata-go.search]
 backend = "bleve"          # or "pagefind" (default)
-endpoint = "/api/search"
+# endpoint = "/api/search"
+endpoint = "http://localhost:3001/api/search"
 
-[search.bleve]
+[markata-go.search.bleve]
 fuzzy = false
 limit = 20
 max_limit = 100
