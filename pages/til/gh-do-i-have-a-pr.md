@@ -8,7 +8,7 @@ tags:
 
 ---
 
-In the age of agentss sometimes work gets done on so many different worktrees
+In the age of agents sometimes work gets done on so many different worktrees
 and branches its hard to tell if there is already a PR or any of them or not,
 the great `gh` cli has us covered.
 

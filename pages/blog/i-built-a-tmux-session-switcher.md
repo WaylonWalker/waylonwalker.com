@@ -18,8 +18,8 @@ only two to three are in my immediate context at any point anyways.
 ## The Design
 _harpoon for tmux_
 
-SIMPLE, FAST, thats of utmost importance, what I want are sessions that I can
 press a hotkey followed by one more keystroke, currently any left hand letter
+SIMPLE, FAST, thats of utmost importance, what I want are sessions that I can
 can be assigned in order of importance from middle row, top row, bottom row.
 
 I added this binding to my tmux config.  Now I can press `c-a a` to go to the
