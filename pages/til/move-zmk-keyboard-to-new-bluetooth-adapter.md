@@ -15,7 +15,7 @@ week to see how things go.  The first step was to move it to the new adapter.
 I've never had multiple adapters installed so this was a new to me process.
 
 I was able to do it all with the same keyboard, It did require some juggling
-between usb and bluetooth modes plugigng and unplugging, two keyboards would be
+between usb and bluetooth modes pluging and unplugging, two keyboards would be
 simpler to reason about.
 
 I can't be bothered to change my brain to think about this machine on a
