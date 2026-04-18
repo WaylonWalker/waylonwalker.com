@@ -7,9 +7,11 @@ tags:
   - llm
   - agentic
   - agents
-published: True
+published: False
 
 ---
+
+> 🌱 This post is still growing
 
 Late last year I started writing [[im-out-on-agents]].  Agents sucked, the
 models were good, but there was still something missing between the harnesses
