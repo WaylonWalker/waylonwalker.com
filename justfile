@@ -66,7 +66,8 @@ build-clean:
 build-fast:
     #!/usr/bin/env bash
     set -euxo pipefail
-    MARKATA_GO_BLOGROLL_ENABLED=false markata-go build -m fast.toml --fast
+    # MARKATA_GO_BLOGROLL_ENABLED=false markata-go build -m fast.toml --fast
+    MARKATA_GO_BLOGROLL_ENABLED=false markata-go build --fast
 
 # Fast build with clean cache
 build-fast-clean:
@@ -245,14 +246,22 @@ get-snowfall:
     curl -o static/snow-fall.js https://raw.githubusercontent.com/zachleat/snow-fall/refs/heads/main/snow-fall.js
 
 sync-go:
-    rsync -a --delete --chmod=F644,D755 \
-    ./output/ \
-    falcon3:/mnt/main/walkershare/waylon/sites/go.waylonwalker.com
+	rsync -rlt --delete --omit-dir-times \
+	--info=progress2,stats \
+	./output/ \
+	falcon3:/mnt/main/walkershare/waylon/sites/go.waylonwalker.com
 
-sync:
+# delete this if the new sync works well
+sync-old:
     rsync -a --delete --chmod=F644,D755 \
     ./output/ \
     falcon3:/mnt/main/walkershare/waylon/sites/waylonwalker.com
+
+sync:
+	rsync -rlt --delete --omit-dir-times \
+	--info=progress2,stats \
+	./output/ \
+	falcon3:/mnt/main/walkershare/waylon/sites/waylonwalker.com
 
 sync-vault:
     rsync -a --delete --chmod=F644,D755 \
