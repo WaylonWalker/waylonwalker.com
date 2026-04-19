@@ -16,6 +16,12 @@ hero_avatar: /8bitcc.png
 hero_links:
   - label: Just F&*$ing use K8s
     url: /just-fucking-use-kubernetes/
+  - label: we beat trailmakers
+    url: /we-beat-trailmakers/
+  - label: Hollow Knight Keeb Run
+    url: /hollow-knight-home-row-layout/
+  - label: Make Minio Access Key
+    url: /make-minio-access-key/
 intro_cards:
   - heading: About
     slug: components/about-intro
