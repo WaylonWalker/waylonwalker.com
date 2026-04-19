@@ -1,14 +1,8 @@
-_default:
-   @just --list
-
+_default: thoughts mentions build-fast sync sync-go sync-vault
 
 version := `cat version`
 
 # documentation
-default:
-    #!/usr/bin/env bash
-    set -euxo pipefail
-    just --choose
 
 setup:
     #!/usr/bin/env bash
@@ -56,10 +50,6 @@ venv:
     source .venv/bin/activate
     uv pip install -r requirements.txt
 
-build-clean:
-    #!/usr/bin/env bash
-    set -euxo pipefail
-    markata-go build --clean
 
 # Fast build: only blog posts, no blogroll/reader fetches
 # Uses fast.toml + env var to disable blogroll for maximum speed
@@ -67,7 +57,7 @@ build-fast:
     #!/usr/bin/env bash
     set -euxo pipefail
     # MARKATA_GO_BLOGROLL_ENABLED=false markata-go build -m fast.toml --fast
-    MARKATA_GO_BLOGROLL_ENABLED=false markata-go build --fast
+    MARKATA_GO_BLOGROLL_ENABLED=false markata-go build --fast -m config/no-tailwind.toml
 
 # Fast build with clean cache
 build-fast-clean:
@@ -88,7 +78,18 @@ serve-live:
 
 build:
     #!/usr/bin/env bash
+    # MARKATA_GO_BLOGROLL_ENABLED=false markata-go build -m config/no-tailwind.toml
+    markata-go build -m config/no-tailwind.toml
+
+build-full:
+    #!/usr/bin/env bash
+    set -euxo pipefail
     markata-go build
+
+build-clean:
+    #!/usr/bin/env bash
+    set -euxo pipefail
+    markata-go build --clean
 
 serve:
     python -m http.server -b 0.0.0.0 8000 -d output
@@ -101,20 +102,6 @@ tailwind-dev:
     # npx tailwindcss --input tailwind/app.css --output markout/app-{{version}}.css --minify --watch
     # npx tailwindcss --input tailwind/app.css --output markout/app.css --minify --watch
     pnpm exec tailwindcss --input tailwind/app.css --output markout/app.css --minify --watch
-# sync:
-#     aws --endpoint-url https://minio.wayl.one s3 sync . s3://waylonwalker.com \
-#         --exclude "*.venv/**/*" \
-#         --exclude ".markata.cache/*" \
-#         --exclude "node_modules/*"  \
-#         --exclude ".git/*" \
-#         --exclude ".mypy_cache/*" \
-#         --exclude ".python-version"  \
-#         --exclude ".github/*"  \
-#         --exclude "markout/*"  \
-#         --exclude ".envrc"  \
-#         --exclude ".pre-commit-config.yaml"  \
-#         --exclude ".gitignore"  \
-#         --delete
 
 sync-md:
     aws --endpoint-url https://minio.wayl.one s3 sync . s3://waylonwalker.com --exclude "*" --include "pages/**/*.md"
