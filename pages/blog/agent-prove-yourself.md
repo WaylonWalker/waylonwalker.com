@@ -13,6 +13,5 @@ published: False
 > 🌱 This post is still growing
 
 
-![b249c794-9411-42c0-be01-07922c3e98da.mp4](http://dropper.wayl.one/file/b249c794-9411-42c0-be01-07922c3e98da.mp4)
+![b249c794-9411-42c0-be01-07922c3e98da.mp4](https://dropper.wayl.one/file/b249c794-9411-42c0-be01-07922c3e98da.mp4)
 a scroll through of https://github.com/WaylonWalker/markata-go/pull/1021
-

@@ -21,7 +21,7 @@ They could crank out Green Field POC's like nobody's business, but they created
 so much mess in brown field projects that it was easier to chat and edit
 yourself.
 
-![f91a8893-b1ba-422a-9390-18de5034483c.mp4](http://dropper.wayl.one/file/f91a8893-b1ba-422a-9390-18de5034483c.mp4)
+![f91a8893-b1ba-422a-9390-18de5034483c.mp4](https://dropper.wayl.one/file/f91a8893-b1ba-422a-9390-18de5034483c.mp4)
 The Beautiful Glitch - Gemini
 
 ## The Inflection Point
@@ -72,9 +72,8 @@ _what just happened?_
 
 ## Closing the editor
 
-![b289fda3-35e7-4b2f-aa21-6601c57d937a.mp4](http://dropper.wayl.one/file/b289fda3-35e7-4b2f-aa21-6601c57d937a.mp4)
+![b289fda3-35e7-4b2f-aa21-6601c57d937a.mp4](https://dropper.wayl.one/file/b289fda3-35e7-4b2f-aa21-6601c57d937a.mp4)
 Closing the Editor - Gemini
-
 
 
 
