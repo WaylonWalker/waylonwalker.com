@@ -9,6 +9,8 @@
 
 import os
 import re
+from urllib.parse import urlsplit, urlunsplit
+
 import requests
 import typer
 from datetime import datetime
@@ -17,6 +19,7 @@ THOUGHTS_API_URL = (
     "https://thoughts.waylonwalker.com/posts/waylonwalker/?page_size=9999999999"
 )
 POSTS_DIR = "pages/thoughts"
+CANONICAL_DROPPER_HOST = "dropper.waylonwalker.com"
 
 
 def clean_title(title: str) -> str:
@@ -32,6 +35,27 @@ def format_date(date_str: str) -> str:
     return dt.strftime("%Y-%m-%dT%H:%M:%S")
 
 
+def canonicalize_dropper_url(url: str) -> str:
+    parts = urlsplit(url)
+    host = parts.hostname
+    if host not in {"dropper.wayl.one", CANONICAL_DROPPER_HOST}:
+        return url
+
+    netloc = CANONICAL_DROPPER_HOST
+    if parts.port is not None:
+        netloc = f"{netloc}:{parts.port}"
+    scheme = "https"
+    return urlunsplit((scheme, netloc, parts.path, parts.query, parts.fragment))
+
+
+def normalize_dropper_urls(text: str) -> str:
+    return re.sub(
+        r"https?://(?:dropper\.wayl\.one|dropper\.waylonwalker\.com)[^\s)\]>\"']*",
+        lambda match: canonicalize_dropper_url(match.group(0)),
+        text,
+    )
+
+
 def generate_post(post: dict) -> str:
     cleaned_title = clean_title(post["title"])
     title = "💭 " + cleaned_title.lstrip("💭 ")
@@ -43,8 +67,9 @@ def generate_post(post: dict) -> str:
     link = (
         post.get("link") or f"https://waylonwalker.com/thoughts/thought-{post['id']}/"
     )
+    link = normalize_dropper_urls(link)
     date = format_date(post["date"])
-    message = post["message"]
+    message = normalize_dropper_urls(post["message"])
 
     tags_yaml = "\n".join(f"  - {tag}" for tag in tags)
 
