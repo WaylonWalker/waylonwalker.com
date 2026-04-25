@@ -4,6 +4,7 @@ templateKey: shots
 title: Gradient Keycap Results
 tags:
   - shots
+  - keeb
 published: True
 slug: shots/gradient-keycap-results
 image: https://dropper.waylonwalker.com/file/42e82c07-5380-45a8-8cbd-a1b642dbfb3b.webp

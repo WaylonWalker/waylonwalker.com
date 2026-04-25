@@ -4,6 +4,7 @@ templateKey: shots
 title: Cutaway Key Cap Up
 tags:
   - shots
+  - keeb
 published: True
 slug: shots/cutaway-key-cap-up
 image: https://dropper.waylonwalker.com/api/file/7b6d0a00-1a4a-4341-b3c9-87d7436fd55a.jpg

@@ -4,6 +4,7 @@ templateKey: shots
 title: Cut Away Keycap Down
 tags:
   - shots
+  - keeb
 published: True
 slug: shots/cut-away-keycap-down
 image: https://dropper.waylonwalker.com/api/file/a767d7d4-cd81-44fe-b3a7-2500df2d92df.jpg

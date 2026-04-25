@@ -4,6 +4,7 @@ templateKey: shots
 title: I'm Loving These Akko Creamy Yellow V3s
 tags:
   - shots
+  - keeb
 published: True
 slug: shots/i'm-loving-these-akko-creamy-yellow-v3s
 image: https://dropper.waylonwalker.com/file/cac00007-2c7a-415e-b19e-a327c04c7abd.webp

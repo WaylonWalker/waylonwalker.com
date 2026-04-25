@@ -4,6 +4,7 @@ templateKey: shots
 title: Freshly Cut Keycap Cut Away
 tags:
   - shots
+  - keeb
 published: True
 slug: shots/freshly-cut-keycap-cut-away
 image: https://dropper.waylonwalker.com/api/file/c02aff9d-bb8f-42aa-8dd8-34b391a44547.jpg

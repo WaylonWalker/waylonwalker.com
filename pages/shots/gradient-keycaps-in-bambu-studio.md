@@ -4,6 +4,7 @@ templateKey: shots
 title: Gradient Keycaps In Bambu Studio
 tags:
   - shots
+  - keeb
 published: True
 slug: shots/gradient-keycaps-in-bambu-studio
 image: https://dropper.waylonwalker.com/file/7fd8f2f8-a701-4be9-8289-8f9d3bb3c405.webp
