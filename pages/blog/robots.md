@@ -7,7 +7,7 @@ jinja: true
 
 User-agent: *
 
-Sitemap: https://waylonwalker.com/archive/sitemap.xml
+Sitemap: https://waylonwalker.com/sitemap.xml
 
 Allow: /
 
