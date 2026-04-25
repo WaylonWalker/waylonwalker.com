@@ -3,6 +3,7 @@ date: 2025-08-26 13:24:22
 templateKey: shots
 title: Wyatt Working On The Crane Trolly Assembly
 tags:
+  - 3d-printing
   - shots
   - family
 published: True
