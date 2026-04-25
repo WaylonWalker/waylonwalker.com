@@ -4,6 +4,7 @@ templateKey: blog-post
 title: hollow knight home row layout
 tags:
   - keyboard
+  - keeb
   - gaming
   - hollow-knight
 published: True
