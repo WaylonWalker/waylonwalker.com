@@ -28,7 +28,7 @@ bind-key c-b popup -E -w 80% -d '#{pane_current_path}' "\
 
 I've had this on my systems for a few weeks now and I am constantly using it
 for my [tils](https://waylonwalker.com/til/),
-[blogs](https://waylonwalker.com/archive), and my .envrc file that goes into
+[blogs](https://waylonwalker.com/archive/), and my .envrc file that goes into
 all of my projects to make sure that I have a virtual environment installed and
 running any time I open it.
 
