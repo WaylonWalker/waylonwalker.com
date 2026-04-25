@@ -14,7 +14,7 @@ published: true
 
 Damn this looks good, I've been casually keeping my eye out for something like this for quite awhile, I think this will come in handy for keeb builds.  Printing one out as I post this, damn I love 3d-printing.
 
-![image](https://dropper.wayl.one/api/file/ddbde7a1-8b8a-4096-92e2-1e602b1603a2.webp)
+![image](https://dropper.waylonwalker.com/api/file/ddbde7a1-8b8a-4096-92e2-1e602b1603a2.webp)
 
 !!! note
 

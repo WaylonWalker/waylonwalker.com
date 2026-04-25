@@ -14,7 +14,7 @@ published: true
 
 xeiaso, has the coolest characters on her blog.  Definitely something I'd like to replicate.  I really appreciate how each one has its own sprite sheet, and they have conversations with each other.
 
-![image](https://dropper.wayl.one/api/file/77dd4cb5-4fdb-4d09-8b9b-d9cdd72b2490.webp)
+![image](https://dropper.waylonwalker.com/api/file/77dd4cb5-4fdb-4d09-8b9b-d9cdd72b2490.webp)
 
 !!! note
 

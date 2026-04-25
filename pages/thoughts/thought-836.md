@@ -15,7 +15,7 @@ published: true
 
 I've never tried generated columns, but it is something that I'm interested in.  It is nice to have things computed and in the database if you ever need to query on them.  My brain is now churning with possibilities and quesions, does this work with Alembic? How does this compare to views?
 
-![screenshot-2025-09-16T13-52-48-868Z.png](https://dropper.wayl.one/api/file/2b763b3d-1709-47e6-a13d-bfec7baef47d.png)
+![screenshot-2025-09-16T13-52-48-868Z.png](https://dropper.waylonwalker.com/api/file/2b763b3d-1709-47e6-a13d-bfec7baef47d.png)
 
 !!! note
 

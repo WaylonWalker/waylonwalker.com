@@ -17,7 +17,7 @@ published: true
 
 I tried this flow [of running an opencode server on tailscale] on day one of getting opencode, I wanted to prompt from my phone while were were  running lights at the theater. It kinda worked, but the ui was really bad on phone, hard to use and the experience overall--it felt buggy.  Happy to see they are making improvements and it might now be ready for some real use.
 
-https://dropper.wayl.one/file/9065fcb2-5e40-479c-967e-498bc9bb6a4f.mp4
+https://dropper.waylonwalker.com/file/9065fcb2-5e40-479c-967e-498bc9bb6a4f.mp4
 
 !!! note
 

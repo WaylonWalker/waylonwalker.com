@@ -14,7 +14,7 @@ published: true
 
 Zuberios Mantic clamp, would ya look at it.  This thing looks like a handy tool for soldering. Excited to give it a try.
 
-![image](https://dropper.wayl.one/api/file/101b97c0-99c6-40f5-bc2c-9d0bef3babb0.webp)
+![image](https://dropper.waylonwalker.com/api/file/101b97c0-99c6-40f5-bc2c-9d0bef3babb0.webp)
 
 !!! note
 

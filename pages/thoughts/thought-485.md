@@ -14,7 +14,7 @@ published: true
 
 /p warp will warp your party to your current server in hypixel skyblock
 
-![image](https://dropper.wayl.one/api/file/a4f5be07-5f79-450c-a40d-1f48ac086e05.webp)
+![image](https://dropper.waylonwalker.com/api/file/a4f5be07-5f79-450c-a40d-1f48ac086e05.webp)
 
 !!! note
 

@@ -14,7 +14,7 @@ published: true
 
 fixing more ahrefs issues on the road to fixing all major issues within my control I found a ton of urls pointed to an url with a double slash, turns out I wasn't properly referencing slug with post.slug.
 
-![image](https://dropper.wayl.one/api/file/d821eb80-aeaa-4f96-becd-7609b798663c.webp)
+![image](https://dropper.waylonwalker.com/api/file/d821eb80-aeaa-4f96-becd-7609b798663c.webp)
 
 !!! note
 

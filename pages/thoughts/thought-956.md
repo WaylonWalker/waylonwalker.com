@@ -18,7 +18,7 @@ The claude code source code leaked today and the tweets are great, maybe twitter
 
 > Did you know you can replace the spinning verbs in Claude Code. I'm having fun with it.
 
-![8cf5cf65-40e1-4f40-8d09-b596a97dd51d.webp](http://dropper.wayl.one/file/8cf5cf65-40e1-4f40-8d09-b596a97dd51d.webp)
+![8cf5cf65-40e1-4f40-8d09-b596a97dd51d.webp](https://dropper.waylonwalker.com/file/8cf5cf65-40e1-4f40-8d09-b596a97dd51d.webp)
 
 !!! note
 

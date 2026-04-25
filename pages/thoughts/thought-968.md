@@ -14,7 +14,7 @@ published: true
 
 THIS is the future of homelab, excited to see someone who knows so much more about hardware than I do get excited about this.
 
-![f69c86b9-ab79-46ad-9ef0-4d794544e943.webp](http://dropper.waylonwalker.com/file/f69c86b9-ab79-46ad-9ef0-4d794544e943.webp)
+![f69c86b9-ab79-46ad-9ef0-4d794544e943.webp](https://dropper.waylonwalker.com/file/f69c86b9-ab79-46ad-9ef0-4d794544e943.webp)
 
 !!! note
 

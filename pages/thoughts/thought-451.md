@@ -15,7 +15,7 @@ published: true
 
 Reminder to tune in later, can't watch now, but saw a link on Dave's blog.
 
-![image](https://dropper.wayl.one/api/file/ea6d4a9f-9abe-4853-9b5b-97335130d221.webp)
+![image](https://dropper.waylonwalker.com/api/file/ea6d4a9f-9abe-4853-9b5b-97335130d221.webp)
 
 !!! note
 

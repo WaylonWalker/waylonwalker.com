@@ -26,7 +26,7 @@ Amen to this, cnpg is kick ass and has me tempted to drop sqlite for my producti
 
 ## 🤣🤣🤣 actually read the docs 🤣🤣🤣
 
-![image](https://dropper.wayl.one/api/file/9c41132e-7808-49af-9aaa-68a5e5870a4b.webp)
+![image](https://dropper.waylonwalker.com/api/file/9c41132e-7808-49af-9aaa-68a5e5870a4b.webp)
 
 ## Is This Overkill for a Homelab?
 

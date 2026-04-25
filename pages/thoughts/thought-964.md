@@ -15,7 +15,7 @@ published: true
 
 smassh is the coolest monkeytype tui clone, its impressively accurate.  Easy to install and run, all the same themes appear to be there and everything.  maybe a good way to get a few reps in while agents are running these days.
 
-![35102587-dffe-48ec-920a-a037917e7776.mp4](http://dropper.wayl.one/file/35102587-dffe-48ec-920a-a037917e7776.mp4)
+![35102587-dffe-48ec-920a-a037917e7776.mp4](https://dropper.waylonwalker.com/file/35102587-dffe-48ec-920a-a037917e7776.mp4)
 I need to go back and brush up on my skills I'm down a good 20wpm from what I should be doing.
 
 !!! note

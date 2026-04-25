@@ -14,7 +14,7 @@ published: true
 
 Gary Vee, is the goat.  leaving this image as a reminder for myself
 
-![image](https://dropper.wayl.one/api/file/074edddb-8b46-4d94-9b55-d70a7bb74366.webp)
+![image](https://dropper.waylonwalker.com/api/file/074edddb-8b46-4d94-9b55-d70a7bb74366.webp)
 
 !!! note
 

@@ -25,7 +25,7 @@ ps -ef | grep babi
 uv tool run --python=3.14 python -m pdb -p8605
 ```
 
-![screenshot-2025-10-03T01-11-02-918Z.png](https://dropper.wayl.one/api/file/b5e1a34d-c198-440a-ab30-4498bfa6962a.png)
+![screenshot-2025-10-03T01-11-02-918Z.png](https://dropper.waylonwalker.com/api/file/b5e1a34d-c198-440a-ab30-4498bfa6962a.png)
 
 
 !!! note

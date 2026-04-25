@@ -14,7 +14,7 @@ published: true
 
 In fixing a bunch of meta tags, I introduced _Open Graph URL not matching canonical_ on every page by having trailing / on canonical and not on the `og:url`.
 
-![image](https://dropper.wayl.one/api/file/1adedfb8-5fbd-4622-adda-2f3984baeb03.webp)
+![image](https://dropper.waylonwalker.com/api/file/1adedfb8-5fbd-4622-adda-2f3984baeb03.webp)
 
 This commit will fix the error.
 

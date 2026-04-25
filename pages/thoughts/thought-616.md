@@ -16,11 +16,11 @@ ty, has a playground running at types.ruff.rs.  You can edit code in there and s
 
 Here is an example where a Optional may not be defined.
 
-![image](https://dropper.wayl.one/api/file/783e4d9e-8b23-4304-8921-2ae05aebcc8a.webp)
+![image](https://dropper.waylonwalker.com/api/file/783e4d9e-8b23-4304-8921-2ae05aebcc8a.webp)
 
 Checking for existance before using it resolves the issue.
 
-![image](https://dropper.wayl.one/api/file/cc28335c-4130-4bf4-829d-0ff39f2aa32d.webp)
+![image](https://dropper.waylonwalker.com/api/file/cc28335c-4130-4bf4-829d-0ff39f2aa32d.webp)
 
 !!! note
 

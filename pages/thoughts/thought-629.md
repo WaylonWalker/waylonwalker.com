@@ -16,7 +16,7 @@ published: true
 
 This hits so close to home, I even went through the effort of making a weeknotes script, one weeknote post.  I also was inspired by obsidian but it didn't work out for me, so my script uses data from markata.
 
-![image](https://dropper.wayl.one/api/file/b1a5212b-846f-4144-82ab-51cd9ace086d.webp)
+![image](https://dropper.waylonwalker.com/api/file/b1a5212b-846f-4144-82ab-51cd9ace086d.webp)
 
 
 !!! note

@@ -14,7 +14,7 @@ published: true
 
 kitze hating on  python packaging in new ways.  Python packaging has a lot of quirks that can make it infuriating.  Not once have I thought "you know what this needs, quotes and braces"
 
-![image](https://dropper.wayl.one/api/file/566ff44b-cace-474d-b1bc-62aaf42f419f.webp)
+![image](https://dropper.waylonwalker.com/api/file/566ff44b-cace-474d-b1bc-62aaf42f419f.webp)
 
 !!! note
 

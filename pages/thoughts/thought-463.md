@@ -20,13 +20,13 @@ This was an eye opening video into agentic editing workflows.
 
 Dfferent ai tools use different rules files, windsurf uses .windsurfrules.
 
-![image](https://dropper.wayl.one/api/file/f75bf439-919f-4c19-8695-176ca8a7d52d.webp)
+![image](https://dropper.waylonwalker.com/api/file/f75bf439-919f-4c19-8695-176ca8a7d52d.webp)
 
 ## testing out rules
 
 Test out your rules file by having it say something at the beginning of the output to verify that the rules are being applied correctly.
 
-![image](https://dropper.wayl.one/api/file/ebeed79c-435b-4aab-b3dc-c744b144c438.webp)
+![image](https://dropper.waylonwalker.com/api/file/ebeed79c-435b-4aab-b3dc-c744b144c438.webp)
 
 ## First line
 

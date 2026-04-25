@@ -18,7 +18,7 @@ Theo does a fantastic history of serverless here.
 
 Theo can't have an infra video without shitting on k8s.  Specifically people who have never touched k8s pushing fear of k8s to large audiences of people who have never touched k8s.  If you are a webdev who solely lives in webdev space and never touches as much as a dockerfile listen to him.  If you touch infra at all try it before you take his opinion at face value.
 
-![image](https://dropper.wayl.one/api/file/a84ec689-e84f-458a-b1d6-fec85b310023.webp)
+![image](https://dropper.waylonwalker.com/api/file/a84ec689-e84f-458a-b1d6-fec85b310023.webp)
 
 ## Serverless shines in high variance
 
@@ -32,7 +32,7 @@ I might be missing something here, but I don't see how this point applies to ser
 
 ## Scale to Zero Services
 
-![image](https://dropper.wayl.one/api/file/a06523f8-35e1-46cf-83b8-fd6be0831d93.webp)
+![image](https://dropper.waylonwalker.com/api/file/a06523f8-35e1-46cf-83b8-fd6be0831d93.webp)
 
 https://www.youtube.com/watch?v=_VQl_HTk9PM&t=2607s
 

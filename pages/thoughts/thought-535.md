@@ -16,7 +16,7 @@ published: true
 dust is one of my favorite rust rewrite tools.  Its so useful for narrowing down file system bloat and cleaning up some disk space on your nearly full disks.  It runs right in your terminal and gives you a nice bar graph on the top directories in use.
 
 
-![image](https://dropper.wayl.one/api/file/31b206fd-d508-451e-ba96-860c5d8110d1.webp)
+![image](https://dropper.waylonwalker.com/api/file/31b206fd-d508-451e-ba96-860c5d8110d1.webp)
 
 !!! note
 

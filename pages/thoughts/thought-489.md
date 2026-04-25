@@ -17,11 +17,11 @@ cool video on expanding vim with cli.
 
 ## piping commands into vim
 
-![piping commands into vim](https://dropper.wayl.one/api/file/4283e98a-9b12-4f8a-9799-a097d5f3184d.webp)
+![piping commands into vim](https://dropper.waylonwalker.com/api/file/4283e98a-9b12-4f8a-9799-a097d5f3184d.webp)
 
 ## write a healthcheck
 
-![write a healthcheck](https://dropper.wayl.one/api/file/d90a8c88-4748-4dfe-8569-b51c023c825b.webp)
+![write a healthcheck](https://dropper.waylonwalker.com/api/file/d90a8c88-4748-4dfe-8569-b51c023c825b.webp)
 
 
 !!! note

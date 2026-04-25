@@ -17,7 +17,7 @@ published: true
 
 Everyone look away, nothing to see here.
 
-![090f03b2-e6f5-4ede-a814-bfbb4e237b54.webp](http://dropper.wayl.one/file/090f03b2-e6f5-4ede-a814-bfbb4e237b54.webp)
+![090f03b2-e6f5-4ede-a814-bfbb4e237b54.webp](https://dropper.waylonwalker.com/file/090f03b2-e6f5-4ede-a814-bfbb4e237b54.webp)
 
 !!! note
 

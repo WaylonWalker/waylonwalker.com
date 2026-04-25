@@ -17,7 +17,7 @@ published: true
 
 Anthropic safewords are the talk of the town today.
 
-![c097c6dc-4b10-4fab-a9f9-1d4181422285.webp](http://dropper.wayl.one/file/c097c6dc-4b10-4fab-a9f9-1d4181422285.webp)
+![c097c6dc-4b10-4fab-a9f9-1d4181422285.webp](https://dropper.waylonwalker.com/file/c097c6dc-4b10-4fab-a9f9-1d4181422285.webp)
 
 !!! note
 

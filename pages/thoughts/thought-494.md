@@ -17,7 +17,7 @@ A nice list of slashpages you might want to consider including / aliasing / 301i
 
 Some are serious, some very common, some quite useful.
 
-![image](https://dropper.wayl.one/api/file/ba4edf27-03d4-49ff-ab4e-712e9ab8acda.webp)
+![image](https://dropper.waylonwalker.com/api/file/ba4edf27-03d4-49ff-ab4e-712e9ab8acda.webp)
 
 !!! note
 

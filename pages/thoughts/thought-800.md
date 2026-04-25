@@ -14,7 +14,7 @@ published: true
 
 seriously cool dumb app that no one asked for but is really creative and unique.
 
-![screenshot-2025-08-17T15-46-27-287Z.png](https://dropper.wayl.one/api/file/c87fdbe3-26f2-4f14-b4fb-7dc9b231e999.png)
+![screenshot-2025-08-17T15-46-27-287Z.png](https://dropper.waylonwalker.com/api/file/c87fdbe3-26f2-4f14-b4fb-7dc9b231e999.png)
 
 !!! note
 

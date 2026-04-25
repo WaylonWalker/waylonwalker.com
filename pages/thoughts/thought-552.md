@@ -17,7 +17,7 @@ Today I learned that cloudflare free tier  universal certs do not support multil
 
 > By default, Cloudflare Universal SSL certificates only cover your apex domain and one level of subdomain.
 
-![image](https://dropper.wayl.one/api/file/7d1fe806-a3d0-47e3-8eb1-08c1a0965728.webp)
+![image](https://dropper.waylonwalker.com/api/file/7d1fe806-a3d0-47e3-8eb1-08c1a0965728.webp)
 
 !!! note
 

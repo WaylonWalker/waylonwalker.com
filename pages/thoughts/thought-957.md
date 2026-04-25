@@ -14,7 +14,7 @@ published: true
 
 webdev twitter is blowing up with implementations of pretext text calculations.  The examples are absolutely fun and ridiculous.
 
-![350a368f-0e6b-4375-98d6-6303961c0d6c.webp](http://dropper.wayl.one/file/350a368f-0e6b-4375-98d6-6303961c0d6c.webp)
+![350a368f-0e6b-4375-98d6-6303961c0d6c.webp](https://dropper.waylonwalker.com/file/350a368f-0e6b-4375-98d6-6303961c0d6c.webp)
 
 !!! note
 

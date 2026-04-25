@@ -15,10 +15,10 @@ published: true
 I found that I had _Structured data has schema.org validation error_ on essentially every single page on my blog, turns out I had made some changes and have never tried to validate it.  Damn json and its hatred towards trailing commas.
 
 
-![889378f5-6444-4a38-a7e4-c305fe93e1d7.webp](https://dropper.wayl.one/api/file/889378f5-6444-4a38-a7e4-c305fe93e1d7.webp)
+![889378f5-6444-4a38-a7e4-c305fe93e1d7.webp](https://dropper.waylonwalker.com/api/file/889378f5-6444-4a38-a7e4-c305fe93e1d7.webp)
 
 
-![image](https://dropper.wayl.one/api/file/ca373ce6-9a4a-4e5b-8a0e-0b2959915ab5.webp)
+![image](https://dropper.waylonwalker.com/api/file/ca373ce6-9a4a-4e5b-8a0e-0b2959915ab5.webp)
 
 
 

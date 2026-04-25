@@ -14,7 +14,7 @@ published: true
 
 One of the biggest scientific achievement of our lifetime happened this week.  I will forever remember sitting in a Culvers in between theater builds looking through these photos as they came live, looking at them in awe.
 
-![9987010a-a448-472d-9c60-2831b61a1d3a.webp](http://dropper.wayl.one/file/9987010a-a448-472d-9c60-2831b61a1d3a.webp)
+![9987010a-a448-472d-9c60-2831b61a1d3a.webp](https://dropper.waylonwalker.com/file/9987010a-a448-472d-9c60-2831b61a1d3a.webp)
 One of the most famous images from the shoot "Setting Earth"
 
 !!! note

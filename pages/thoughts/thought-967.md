@@ -16,7 +16,7 @@ published: true
 Is Glasswing the next inflection point
 
 
-![00bc13be-32bd-4410-b0c4-2ecc0f2f6b95.webp](http://dropper.wayl.one/file/00bc13be-32bd-4410-b0c4-2ecc0f2f6b95.webp)
+![00bc13be-32bd-4410-b0c4-2ecc0f2f6b95.webp](https://dropper.waylonwalker.com/file/00bc13be-32bd-4410-b0c4-2ecc0f2f6b95.webp)
 
 !!! note
 

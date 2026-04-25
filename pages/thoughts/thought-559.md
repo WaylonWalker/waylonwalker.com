@@ -24,15 +24,15 @@ Interesting observation what rss readers do without one.
 
 Hilariously he puts a title on the OG image for the post.  I was interested in seeing what would happen in signal, it appears to be showing the author name as well.
 
-![image](https://dropper.wayl.one/api/file/ea78bda4-d2ea-41bd-9a60-27d9b09d4825.webp)
+![image](https://dropper.waylonwalker.com/api/file/ea78bda4-d2ea-41bd-9a60-27d9b09d4825.webp)
 
 Confirmed the page has no title 
 
-![image](https://dropper.wayl.one/api/file/4a68af50-9880-4e1c-8fca-91313a154630.webp)
+![image](https://dropper.waylonwalker.com/api/file/4a68af50-9880-4e1c-8fca-91313a154630.webp)
 
 or does it?
 
-![image](https://dropper.wayl.one/api/file/66a63ca2-c705-4460-8b8a-d1633fc42f21.webp)
+![image](https://dropper.waylonwalker.com/api/file/66a63ca2-c705-4460-8b8a-d1633fc42f21.webp)
 
 It makes me wonder where Signal gets this title is it from the title block or the site_name meta data
 

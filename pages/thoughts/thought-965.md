@@ -14,7 +14,7 @@ published: true
 
 Bush on tiny desk.  Iconic band on an iconic platform.  Will be re-listening to this several times.
 
-![3b67304c-41cc-4040-b6cd-7e0c16633e3d.webp](http://dropper.wayl.one/file/3b67304c-41cc-4040-b6cd-7e0c16633e3d.webp)
+![3b67304c-41cc-4040-b6cd-7e0c16633e3d.webp](https://dropper.waylonwalker.com/file/3b67304c-41cc-4040-b6cd-7e0c16633e3d.webp)
 
 !!! note
 
