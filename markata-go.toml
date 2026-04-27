@@ -1,9 +1,8 @@
-# markata-go configuration for waylonwalker.com migration
-
-[markata-go]
 # ╔═════════════════════════════════════════════════════════════════════════════╗
 # ║ SITE METADATA                                                               ║
 # ╚═════════════════════════════════════════════════════════════════════════════╝
+# markata-go configuration for waylonwalker.com migration
+[markata-go]
 title = "Waylon Walker"
 description = "Waylon Walker's personal blog"
 url = "https://waylonwalker.com"
@@ -15,6 +14,7 @@ include = [
   "config/blogroll.toml",
   "config/webmention.toml",
   "config/search.toml",
+  "config/tag-aggregator.toml",
 ]
 
 [markata-go.searchcraft]
@@ -44,6 +44,13 @@ name = "Kimi k2.5 Free"
 role = "Drafter"
 url = "https://www.kimi.com/en"
 avatar = '/kimi-logo-CegIMkbU.png'
+default = false
+
+[markata-go.authors.authors.gemma4]
+name = "Gemma 4"
+role = "Alt text drafter"
+url = "https://deepmind.google/models/gemma/gemma-4/"
+avatar = '/gemma4.png'
 default = false
 
 [markata-go.authors.authors.gpt-5-2-codex]
@@ -91,9 +98,13 @@ url = "/random/"
 # ╚═════════════════════════════════════════════════════════════════════════════╝
 [markata-go.post_formats]
 html = true       # Standard HTML pages
-markdown = true   # Raw markdown source (/slug/index.md)
-text = true       # Plain text (/slug/index.txt)
-ansi = true       # Plain text (/slug/index.txt)
+text = true       # Plain text pages
+markdown = true   # Raw markdown pages
+ansi = true       # ANSI/text pages
+
+# markdown = false  # Disabled until raw markdown pages are actually emitted
+# text = false      # Disabled until plain text pages are actually emitted
+# ansi = false      # Disabled until ANSI/text pages are actually emitted
 og = true         # OpenGraph cards (/slug/og/index.html)
 
 [markata-go.glob]
@@ -160,10 +171,14 @@ ansi = true
 [markata-go.auto_feeds.tags]
 enabled = true
 slug_prefix = "tags"
+robots = "noindex,follow"
 
 [markata-go.auto_feeds.tags.formats]
 html = true
 rss = true
+
+[markata-go.feeds_page]
+robots = "noindex,follow"
 
 # ╔═════════════════════════════════════════════════════════════════════════════╗
 # ║ BLOGROLL & READER                                                           ║
@@ -192,6 +207,7 @@ auto_all_images = true  # Make ALL images zoomable
 # Contribution graph for GitHub-style calendar heatmaps
 [markata-go.contribution_graph]
 enabled = true
+cdn_url = "https://cdn.jsdelivr.net/npm/cal-heatmap@4.2.4/dist"
 theme = "default"
 
 
