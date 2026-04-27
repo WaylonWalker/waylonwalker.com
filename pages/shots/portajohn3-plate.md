@@ -1,7 +1,7 @@
 ---
 date: "2026-01-01 17:18:39"
 templateKey: shots
-title: "Mechanical Keyboard Plate"
+title: "Portajohn3 Keyboard Plate"
 tags:
   - shots
   - keeb
