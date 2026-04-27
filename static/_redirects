@@ -7,7 +7,8 @@
 /rss.xml                                                    /archive/rss.xml
 /feed                                                       /archive/rss.xml
 /feed.xml                                                   /archive/rss.xml
-/index.xml
+# /archive                                                    /archive/
+/index.xml                                                    /sitemap.xml
 
 
 # image upload
@@ -104,7 +105,6 @@
 /ksvh                                                       /kedro-static-viz-0-3-0/
 /kcho                                                       /kedro-class-hooks/
 /bkho                                                       /brainstorming-kedro-hooks/
-/thank-you                                                  /thank-you/
 /ty                                                         /thank-you/
 /kpre                                                       /creating-the-kedro-preflight-hook/
 /bdgl                                                       /til-bind-arguments-to-dynamically-generated-lambdas-in-python/
@@ -212,7 +212,7 @@
 # These are mystery links that I cannot find, but are dinging my ahrefs report
 # They have zero inlinks so they are likely external
 # /archive/archive/                                           /archive/
-/whats-on-your-github-profile/                              /whats-on-your-github-profile/
+/whats-on-your-github-profile/                              /whats-on-your-github-profile
 /what-is-something-that-you-recently-learned-that-you-wish-you-would-have-learned-or-understood-earlier-1/ /learn-early/
 /test-project-io-py-actions/                                /testproject-io-py-actions/
 /gratitude/good-morning/                                    /gratitude/
