@@ -4,6 +4,7 @@ templateKey: shots
 title: First Box Of Caps
 tags:
   - shots
+  - keeb
 published: True
 slug: shots/first-box-of-caps
 image: https://dropper.waylonwalker.com/api/file/203f0838-be6d-43d6-b88f-430c940cb642.jpg
