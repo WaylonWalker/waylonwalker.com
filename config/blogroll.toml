@@ -406,7 +406,7 @@ description = "Python and game development blog"
 category = "personal"
 tags = ["written", "python", "game-development", "programming", "graphics", "rich"]
 site_url = "https://willmcgugan.github.io"
-image_url = "http://willmcgugan.github.io/images/will2025.jpeg"
+image_url = "https://willmcgugan.github.io/images/will2025.jpeg"
 [[markata-go.blogroll.feeds]]
 url = "https://josephthacker.com/feed"
 title = "Joseph Thacker"

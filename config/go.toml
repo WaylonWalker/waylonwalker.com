@@ -1,0 +1,4 @@
+[markata-go]
+url = "https://go.waylonwalker.com"
+[markata-go.search]
+endpoint = "https://searchgo.waylonwalker.com/api/search"

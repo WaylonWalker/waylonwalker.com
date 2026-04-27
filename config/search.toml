@@ -1,7 +1,8 @@
 [markata-go.search]
 backend = "bleve"          # or "pagefind" (default)
 # endpoint = "/api/search"
-endpoint = "http://localhost:3001/api/search"
+# endpoint = "http://localhost:3001/api/search"
+endpoint = "https://search.waylonwalker.com/api/search"
 
 [markata-go.search.bleve]
 fuzzy = false

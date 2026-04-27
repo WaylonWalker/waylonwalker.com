@@ -14,8 +14,17 @@ pagination_type = "htmx"
 [[markata-go.feeds]]
 slug = "blog"
 title = "Blog"
-description = "Full blog posts"
+description = "Full Blog Posts"
 filter = "published == true and templateKey == \"blog-post\""
+sort = "date"
+reverse = true
+primary = true
+
+[[markata-go.feeds]]
+slug = "ping"
+title = "ping"
+description = "Short Ping Posts"
+filter = "published == true and templateKey == \"ping\""
 sort = "date"
 reverse = true
 primary = true
@@ -66,6 +75,7 @@ primary = true
 slug = "all"
 title = "All Posts"
 description = "An unpaginated list of every published post"
+robots = "noindex,follow"
 filter = "date<=today and (templateKey == 'blog-post' or templateKey == 'til' or templateKey == 'thoughts' or templateKey == 'stars' or templateKey == 'daily' or templateKey == 'shots' or templateKey == 'ping') and published and 'family' not in tags"
 sort = "date"
 reverse = true
@@ -94,6 +104,7 @@ reverse = true
 slug = "draft"
 title = "Drafts"
 description = "Draft and unpublished posts"
+robots = "noindex,follow"
 filter = "published == false or date > today"
 sort = "date"
 reverse = true
@@ -113,6 +124,7 @@ private = true
 slug = "published"
 title = "Published"
 description = "All published posts"
+robots = "noindex,follow"
 filter = "published == true"
 sort = "date"
 reverse = true
@@ -122,6 +134,7 @@ reverse = true
 slug = "scheduled"
 title = "Scheduled"
 description = "Posts scheduled for the future"
+robots = "noindex,follow"
 filter = "date > today"
 sort = "date"
 reverse = true
@@ -149,6 +162,7 @@ reverse = true
 slug = "today"
 title = "Today"
 description = "Posts from today"
+robots = "noindex,follow"
 filter = "date == today"
 sort = "date"
 reverse = true
