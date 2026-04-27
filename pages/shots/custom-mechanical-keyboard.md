@@ -5,6 +5,7 @@ title: "Custom Mechanical Keyboard"
 tags:
   - shots
   - keeb
+  - 3d-printing
 published: True
 slug: "shots/portajohn3-ironing"
 image: "http://dropper.waylonwalker.com/file/d575f8a8-a9e2-4eef-ab1c-7ff335ff6516.webp"
