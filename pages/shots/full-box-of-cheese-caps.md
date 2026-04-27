@@ -4,6 +4,8 @@ templateKey: shots
 title: Full Box Of Cheese Caps
 tags:
   - shots
+  - keeb
+  - keycaps
 published: True
 slug: shots/full-box-of-cheese-caps
 image: https://dropper.waylonwalker.com/api/file/176f26ea-8ed7-46b6-9762-e18a68938caf.jpg

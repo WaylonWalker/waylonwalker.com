@@ -4,6 +4,8 @@ templateKey: shots
 title: A Full Cheese Board
 tags:
   - shots
+  - keeb
+  - keycaps
 published: True
 slug: shots/a-full-cheese-board
 image: https://dropper.waylonwalker.com/api/file/9155b4f8-0028-45e5-a83f-52918174772c.jpg

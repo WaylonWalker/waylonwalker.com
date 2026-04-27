@@ -4,6 +4,7 @@ templateKey: shots
 title: Cheese Cap On A Macropad
 tags:
   - shots
+  - keeb
 published: True
 slug: shots/cheese-cap-on-a-macropad
 image: https://dropper.waylonwalker.com/api/file/4b2c0fb1-3216-4c5c-a659-fbaf9ef189ae.jpg
