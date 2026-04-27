@@ -5,6 +5,7 @@ title: my home row
 published: true
 tags:
   - ping
+  - keeb
 
 ---
 
