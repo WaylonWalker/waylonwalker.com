@@ -1,5 +1,5 @@
 ---
-date: "2026-04-27 08:13:30"
+date: "2024-09-30 08:13:30"
 templateKey: shots
 title: "Modular Input Device on Wood"
 tags:
