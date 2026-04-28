@@ -98,6 +98,7 @@ description = "Steam posts"
 filter = "published == true and 'steam-game' in tags"
 sort = "date"
 reverse = true
+sitemap=false
 
 # Draft posts - unpublished or future dated
 [[markata-go.feeds]]
@@ -108,6 +109,7 @@ robots = "noindex,follow"
 filter = "published == false or date > today"
 sort = "date"
 reverse = true
+sitemap=false
 
 # Family shots - photos tagged with family
 [[markata-go.feeds]]
@@ -118,6 +120,7 @@ filter = "templateKey == \"shots\" and \"family\" in tags"
 sort = "date"
 reverse = true
 private = true
+sitemap=false
 
 # Published feed
 [[markata-go.feeds]]
@@ -138,6 +141,7 @@ robots = "noindex,follow"
 filter = "date > today"
 sort = "date"
 reverse = true
+sitemap=false
 
 # Slashes feed
 [[markata-go.feeds]]
@@ -147,6 +151,7 @@ description = "Slash command posts"
 filter = "published == true and \"slash\" in tags"
 sort = "date"
 reverse = true
+sitemap=false
 
 # Stars feed - GitHub stars
 [[markata-go.feeds]]
@@ -156,6 +161,7 @@ description = "GitHub stars posts"
 filter = "templateKey == \"stars\""
 sort = "date"
 reverse = true
+sitemap=false
 
 # Today's posts
 [[markata-go.feeds]]
@@ -166,3 +172,4 @@ robots = "noindex,follow"
 filter = "date == today"
 sort = "date"
 reverse = true
+sitemap=false
