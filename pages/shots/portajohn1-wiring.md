@@ -1,5 +1,5 @@
 ---
-date: "2024:07:13 11:03:27"
+date: "2024-07-13 11:03:27"
 templateKey: shots
 title: "Laying some wire in PortaJohn 1"
 tags:
