@@ -52,3 +52,25 @@ _singleplayer_
 **Honorable mention:** [Portal](https://store.steampowered.com/app/400/Portal/)
 
 *Inspired by [topfour.net](https://topfour.net) and [slashpages.net](https://slashpages.net)*
+
+## Albums
+
+1. **[Atreyu Greatest
+   Hits](https://music.youtube.com/playlist?list=OLAK5uy_nQZeZomNaDner6XRg5FeJrzgdKXnGSJwY
+   )** - Greatest hits is 100% a cop out on my behalf, but this is legit the
+   full album I've listened to 10x more than any other album since having a cd
+   player as a kid.  This is my go to skate jam album.
+1. **[Hybrid Theory](https://music.youtube.com/playlist?list=OLAK5uy_k4Xnda2Pxyc90mpntw7hdOPCA3JKeOkRY) - Linkin Park** This album was featured in almost moto part from my youth.
+1. **[The Life of a Showgirl](https://music.youtube.com/playlist?list=OLAK5uy_ktsNq_asQthl1xOm_tXwpD9tZa5413YFc) - Taylor Swift** - Best album to listen to as a family.
+
+## Artists
+
+1. **[Killswitch Engage](https://music.youtube.com/channel/UC54RgORww0lUMVq4NwdwANQ)**
+1. **[Avenged Sevenfold](https://music.youtube.com/channel/UCFcqi7MrlzIp9RMTtUlxE8g)**
+1. **[All That Remains](https://music.youtube.com/channel/UCZzZJcadWlszIvI7CmntVbA)**
+1. **[Parkway Drive](https://music.youtube.com/channel/UCP0efewXEcuCddMFLjlCDJQ)**
+
+## Must See Gag clips
+
+1. **[Bobby Lee - Dull Samauri Sword](https://www.youtube.com/shorts/uCMu9MoRwCo)**
+1. **[Ed Bassmaster - Look at this Car!!!](https://www.youtube.com/watch?v=EF8GhC-T_Mo)**
