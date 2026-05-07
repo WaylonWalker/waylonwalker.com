@@ -10,7 +10,7 @@ tags:
 
 I just learned that forgejo has a push to create repo feature and it is a
 gamechanger.  Upon first try it didn't work, with just a couple of environment
-variables I was up and running ith push to create.
+variables I was up and running with push to create.
 
 ``` bash
 notify.wayl.one on  main is 📦 v0.1.62  v3.14.4  NO PYTHON VENV SET  USING SYSTEM NVIM
