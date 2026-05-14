@@ -57,6 +57,7 @@ slug = "components/sidebar"
 enabled = true
 position = "left"
 width = "250px"
+max_posts = 51
 
 [markata-go.components.top_banner]
 enabled = false
