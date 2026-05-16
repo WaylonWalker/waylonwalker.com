@@ -11,7 +11,7 @@ aliases:
   - index
 hero_first_name: Waylon
 hero_last_name: Walker
-hero_tagline: "Father of two, husband, blog engine from scratch, kubernetes in the basement."
+hero_tagline: "Father of two, husband, blog engine from scratch, weird keyboards, kubernetes in the basement."
 hero_avatar: /8bitcc.png
 hero_links:
   - label: Just F&*$ing use K8s
