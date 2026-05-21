@@ -1,7 +1,7 @@
 ---
 date: 2026-05-20 20:39:22
 templateKey: ping
-title: never leave after deploy
+title: remember rule 4
 published: true
 tags:
   - ping
