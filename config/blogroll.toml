@@ -994,3 +994,22 @@ tags = ["bluesky"]
 site_url = "https://bsky.app/profile/thdxr.com"
 handle = "thdxr"
 image_url = "https://cdn.bsky.app/img/avatar/plain/did:plc:rfqyqd6el63kkqckjrtq2xsi/bafkreif4i7mhs6nfzc4sz7ixpfmwu3wzvrkdfun5bb274wjxcy4qn5buhu"
+
+[[blogroll.feeds]]
+url = "https://bitflip.show/rss.xml"
+title = "BitFlip.show"
+description = "The pragmatic side of infrastructure. A podcast hosted by Alex, Adam, Geoff, and Stephen."
+tags = ["self-hosted"]
+site_url = "https://bitflip.show/"
+handle = "bitflipshow"
+image_url = "https://bitflip.show/images/podcast-cover-large.png"
+
+[[blogroll.feeds]]
+url = "https://registerspill.thorstenball.com/feed"
+title = "Register Spill | Thorsten Ball | Substack"
+description = "Thoughts about software engineering I can't keep in my head. Too ephemeral for blog posts, too long for social media.\n\nIt's the messages I'd send if you'd asked me what's on my mind. Click to read Register Spill, by Thorsten Ball, a Substack publication with thousands of subscribers."
+aliases = ["thorstenball"]
+tags = ["dev"]
+site_url = "https://registerspill.thorstenball.com/"
+handle = "registerspillthorstenballsubstack"
+image_url = "https://substackcdn.com/image/fetch/$s_!n_bn!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fthorstenball.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D1114303485%26version%3D9"
