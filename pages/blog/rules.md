@@ -15,4 +15,5 @@ jinja: True
 1. Always be available after a release.
 1. No one wants to read your slop, if you are too lazy to write it don't send
    it.
-
+1. Tech will always fail, we only have some control over blast radius
+1. strive for a blameless culture
