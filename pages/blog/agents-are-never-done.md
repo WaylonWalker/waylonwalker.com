@@ -1,6 +1,6 @@
 ---
 date: 2026-05-11 06:59:07
-templateKey: blog
+templateKey: blog-post
 title: agents are never done
 published: true
 tags:
