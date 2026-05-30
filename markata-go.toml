@@ -127,7 +127,7 @@ use_gitignore = true
 max_nodes = 100000
 
 # Enable thoughts plugin for PESOS functionality
-hooks = ["default", "thoughts", "wikilink_hover"]
+hooks = ["default", "thoughts", "wikilink_hover", "webawesome"]
 
 # ╔═════════════════════════════════════════════════════════════════════════════╗
 # ║ THOUGHTS PLUGIN CONFIGURATION (PESOS)                                       ║
