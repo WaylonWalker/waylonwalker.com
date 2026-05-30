@@ -4,7 +4,6 @@ templateKey: gratitude
 title: Gratitude 361
 
 ---
-
 Today was a very productive day, fully power-washed the rest of the front of the
 garage and all of the concrete.  Kept laundry moving. got a sunburn.  Ready to
 go spend some time with Rhiannon.
