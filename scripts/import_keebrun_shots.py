@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import argparse
 import mimetypes
+import os
 import re
 import sys
 from dataclasses import dataclass
@@ -29,6 +30,7 @@ REMOVE_TOKEN = "silksong-keebrun"
 CANONICAL_DROPPER_HOST = "dropper.waylonwalker.com"
 MAX_UPLOAD_BYTES = 100 * 1024 * 1024
 RESAMPLE_DIR_NAME = "resample"
+DROPPER_TOKEN_ENV_VAR = "DROPPER_TOKEN"
 
 QUALITY_ORDER = {
     "1080p": 4,
@@ -199,12 +201,19 @@ def pick_upload_source(
     return best, note
 
 
-def upload_file(file_path: Path, base_url: str, timeout: int = 120) -> str:
+def upload_file(
+    file_path: Path,
+    base_url: str,
+    token: str | None = None,
+    timeout: int = 120,
+) -> str:
     upload_url = f"{base_url.rstrip('/')}/api/upload?format=json"
     mime_type = mimetypes.guess_type(file_path.name)[0] or "application/octet-stream"
+    headers = {"Authorization": f"Bearer {token}"} if token else None
     with file_path.open("rb") as handle:
         response = requests.post(
             upload_url,
+            headers=headers,
             files={"file": (file_path.name, handle, mime_type)},
             timeout=timeout,
         )
@@ -311,6 +320,7 @@ def main() -> int:
     args = parse_args()
     source_dir: Path = args.source_dir
     output_dir: Path = args.output_dir
+    token = os.environ.get(DROPPER_TOKEN_ENV_VAR, "").strip() or None
 
     if not source_dir.exists() or not source_dir.is_dir():
         print(f"Source directory does not exist: {source_dir}", file=sys.stderr)
@@ -385,7 +395,7 @@ def main() -> int:
             continue
 
         try:
-            image_url = upload_file(upload_source, args.base_url)
+            image_url = upload_file(upload_source, args.base_url, token=token)
             markdown = render_markdown(meta, image_url)
             meta.output_file.write_text(markdown, encoding="utf-8")
             existing_originals.add(file_path.name)
