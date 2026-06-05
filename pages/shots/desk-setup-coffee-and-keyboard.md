@@ -4,7 +4,6 @@ templateKey: shots
 title: "Desk Setup with Keepsakes and Tools"
 tags:
   - shots
-  - gratitude
   - keeb
 published: False
 slug: "shots/desk-setup-coffee-and-keyboard"
