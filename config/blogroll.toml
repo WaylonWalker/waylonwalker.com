@@ -193,6 +193,7 @@ category = "personal"
 tags = ["written", "apple", "technology", "commentary", "analysis", "mac"]
 site_url = "https://daringfireball.net"
 image_url = "https://daringfireball.net/graphics/df-wide-card.png"
+aliases = ["daringfireball", 'johngruber']
 [[markata-go.blogroll.feeds]]
 url = "https://www.youtube.com/feeds/videos.xml?channel_id=UC2SvcdTaeU8qX1oxKNwIMnw"
 title = "Ben Orenstein"
