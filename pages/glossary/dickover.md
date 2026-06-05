@@ -14,4 +14,4 @@ tags:
 > “cookies”, subscribe to a newsletter, install the website’s mobile app, agree
 > to terms of service, or anything else that the user couldn’t give two shits
 > about.
-@daringfireball
+@daringfireball [via](https://daringfireball.net/2026/05/what_is_a_dickover)
