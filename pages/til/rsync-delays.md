@@ -2,7 +2,7 @@
 date: 2026-06-04 17:31:53
 templateKey: til
 title: rsync delays
-published: false
+published: true
 tags:
   - bash
 
