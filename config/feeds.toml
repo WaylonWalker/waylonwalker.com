@@ -69,6 +69,10 @@ filter = "templateKey == \"shots\""
 sort = "date"
 reverse = true
 primary = true
+items_per_page = 50
+
+[markata-go.feeds.templates]
+html = "feed-photo-grid.html"
 
 # All posts feed (same as archive but at /all/)
 [[markata-go.feeds]]
