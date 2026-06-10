@@ -158,7 +158,7 @@ description = "Python conversations and deep-dive interviews hosted by Michael K
 category = "podcast"
 tags = ["podcast", "python", "interviews", "development", "conversation", "tech"]
 site_url = "https://talkpython.fm"
-image_url = "https://cdn-podcast.talkpython.fm/static/img/talk-python-social-share.webp?cache_id=4dd65d"
+image_url = "https://cdn-podcast.talkpython.fm/static/img/talk_python_logo_mic.png?cache_id=dd0815"
 [[markata-go.blogroll.feeds]]
 url = "https://feeds.transistor.fm/test-code-in-python"
 title = "TestAndCode"
