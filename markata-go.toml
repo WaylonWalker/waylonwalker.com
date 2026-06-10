@@ -177,8 +177,6 @@ robots = "noindex,follow"
 html = true
 rss = true
 
-[markata-go.feeds_page]
-robots = "noindex,follow"
 
 # ╔═════════════════════════════════════════════════════════════════════════════╗
 # ║ BLOGROLL & READER                                                           ║
@@ -239,3 +237,7 @@ mode = "local"
 gratitude = "default"
 family = "default"
 family-shots = "default"
+
+[markata-go.feeds_page]
+robots = "noindex,follow"
+show_private_feeds = ["tags/gratitude"]
