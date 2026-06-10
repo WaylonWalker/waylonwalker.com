@@ -1059,3 +1059,13 @@ tags = ["podcast", "science"]
 site_url = "https://www.humanswithhank.com/"
 handle = "humans"
 image_url = "https://content.production.cdn.art19.com/images/e0/1f/16/58/e01f1658-c561-4770-a2e6-a5e6175a26a4/5cc4e0a25db1332d7ea0b898feea227ffbaf047b2264cfc9eefbcb2d12f74b1cebe1e83606b3a687bba8d0acef22fe1090a0871dbb0bf3736ebc19009f31d649.jpeg"
+
+[[blogroll.feeds]]
+url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCFsRlOn7gODgv6WUriLrzXg"
+title = "devtools-fm"
+description = "Hi, we're Andrew and Justin, two developers passionate about developer tooling. We started devtools.fm to explore this passion, to meet interesting people in the field, and to share our conversations with the world."
+category = "podcast"
+tags = ["development", "tools", "programming"]
+site_url = "https://www.youtube.com/@devtoolsfm"
+handle = "devtoolsfm"
+image_url = "https://dropper.wayl.one/file/2c418256-4a26-4ad9-96ef-08252345e1d3.webp"
