@@ -81,11 +81,11 @@ site_url = "https://blog.boot.dev"
 image_url = "https://blog.boot.dev/img/800/bootsballanbackground.webp"
 [[markata-go.blogroll.feeds]]
 url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCUyeluBRhGPCW4rPe_UvBZQ"
-title = "ThePrimeTime"
+title = "ThePrimeTimeAgen"
 description = "Controversial hot takes on web development, Rust, and core CS tutorials with lightning-fast vim coding"
-category = "video"
+category = "development"
 tags = ["video", "rust", "typescript", "vim", "web-development", "core-cs", "programming", "controversial"]
-site_url = "https://www.youtube.com/@theprimetimeagain"
+site_url = "https://www.youtube.com/@theprimetimeagen"
 image_url = "https://dropper.wayl.one/file/387d336c-baf7-4bac-b5ee-f37fcb267275.webp"
 [[markata-go.blogroll.feeds]]
 url = "https://jrs-s.net/feed/"
@@ -1049,3 +1049,13 @@ tags = ["dev"]
 site_url = "https://registerspill.thorstenball.com/"
 handle = "registerspillthorstenballsubstack"
 image_url = "https://substackcdn.com/image/fetch/$s_!n_bn!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fthorstenball.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D1114303485%26version%3D9"
+
+[[blogroll.feeds]]
+url = "https://rss.art19.com/humans"
+title = "Humans"
+description = "Hank Green is a creator and science communicator who desperately wants us to realize how bizarre and special we are. Every week he has a conversation with one of the eight billion weirdos living on planet Earth"
+category = "podcast"
+tags = ["podcast", "science"]
+site_url = "https://www.humanswithhank.com/"
+handle = "humans"
+image_url = "https://content.production.cdn.art19.com/images/e0/1f/16/58/e01f1658-c561-4770-a2e6-a5e6175a26a4/5cc4e0a25db1332d7ea0b898feea227ffbaf047b2264cfc9eefbcb2d12f74b1cebe1e83606b3a687bba8d0acef22fe1090a0871dbb0bf3736ebc19009f31d649.jpeg"
