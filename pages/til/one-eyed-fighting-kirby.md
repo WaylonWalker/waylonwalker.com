@@ -17,6 +17,13 @@ capture group.
 :'<,'>s/longhorn\(.*\)/longhorn\1-rwx
 ```
 
+This one captures pesky optional `"` and places it back at the end if it found
+one.
+
+``` vim
+:'<,'>s/longhorn\("\?\)\(.*\)/longhorn\2-rwx\1
+```
+
 !!! see-also
 
     [[ thought-200 ]]
