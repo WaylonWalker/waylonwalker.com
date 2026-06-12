@@ -1069,3 +1069,147 @@ tags = ["development", "tools", "programming"]
 site_url = "https://www.youtube.com/@devtoolsfm"
 handle = "devtoolsfm"
 image_url = "https://dropper.wayl.one/file/2c418256-4a26-4ad9-96ef-08252345e1d3.webp"
+
+[[blogroll.feeds]]
+url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCFsRlOn7gODgv6WUriLrzXg"
+title = "devtools-fm"
+description = "Hi, we're Andrew and Justin, two developers passionate about developer tooling. We started devtools.fm to explore this passion, to meet interesting people in..."
+category = "development"
+tags = ["podcast", "technology", "coding", "programming", "developer", "developer tools"]
+site_url = "https://www.youtube.com/channel/UCFsRlOn7gODgv6WUriLrzXg"
+handle = "devtoolsfm"
+image_url = "https://yt3.googleusercontent.com/ytc/AIdro_k3yUmGX4HUMqqjtPUBUtevOGr6JNnU-PRxISzSUwQqtg=s900-c-k-c0x00ffffff-no-rj"
+active = true
+
+[[blogroll.feeds]]
+url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCYzE6CMFncX_xmCG9ir9oAg"
+title = "hypermedia-tv"
+description = "Host of hx-pod, the world's only hypermedia podcast.Making the web more enjoyable to use with hypermedia"
+category = "development"
+tags = ["htmx", "web development", "laravel", "javascript"]
+site_url = "https://www.youtube.com/channel/UCYzE6CMFncX_xmCG9ir9oAg"
+handle = "hypermediatv"
+image_url = "https://yt3.googleusercontent.com/LHbG6SMSn0vIeMrBXKfeUaraXlWPSau4_-k9M2MfZgSR_-CXsCbdAiiHNtmXTZvDhwe8X2ReGw=s900-c-k-c0x00ffffff-no-rj"
+active = true
+
+[[blogroll.feeds]]
+url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCFvPgPdb_emE_bpMZq6hmJQ"
+title = "Ben Davis"
+description = "I do dev stuff and talk about whatever I'm currently nerd sniped by"
+category = "development"
+tags = ["GoLang", "TypeScript", "Backend Development", "Rust", "Startups", "Software Engineering"]
+site_url = "https://www.youtube.com/channel/UCFvPgPdb_emE_bpMZq6hmJQ"
+handle = "bendavis"
+image_url = "https://yt3.googleusercontent.com/DsHrjP4_gL_DPq88poRechoj-se-BTrZW0y4Cy_O3Iy6hg1-Yp00OQZPPDL6y4R5VBzaB_beVg=s900-c-k-c0x00ffffff-no-rj"
+active = true
+
+[[blogroll.feeds]]
+url = "https://www.youtube.com/feeds/videos.xml?channel_id=UC2mPtIOYm1XihpmfrJKXjMw"
+title = "Nerd Snipe"
+description = "Theo (https://t3.gg) and Ben (https://www.davis7.sh) talking about dev stuff (usually)."
+category = "development"
+tags = ["ai", "tech", "programming", "business", "podcast"]
+site_url = "https://www.youtube.com/channel/UC2mPtIOYm1XihpmfrJKXjMw"
+handle = "nerdsnipe"
+image_url = "https://yt3.googleusercontent.com/g6tL9pmiCJdluJtu444cooYnERIu4MEWZy8cOylBQFVMj_oiaRKSm0fZG2ci6PzHpbkRW8YhRA=s900-c-k-c0x00ffffff-no-rj"
+active = true
+
+[[blogroll.feeds]]
+url = "https://www.youtube.com/feeds/videos.xml?channel_id=UC1Qs8NS1cGoJFm4xGgaCs5A"
+title = "TheStandupPod"
+description = "@ThePrimeagen &  @teej_dv host The Standup along side regulars @cmuratori & @trashh_dev,a Top 50 podcast on software, life & memes. New episodes twice a week."
+category = "development"
+tags = ["video", "sharing", "camera phone", "video phone", "free", "upload"]
+site_url = "https://www.youtube.com/channel/UC1Qs8NS1cGoJFm4xGgaCs5A"
+handle = "thestanduppod"
+image_url = "https://yt3.googleusercontent.com/wB_QVFfumuGy32z19r5a98ODxonpTtbZdCoWETX6toyg4fghxaRD0Wh1D3PeCTBz-mWhFtLuBg=s900-c-k-c0x00ffffff-no-rj"
+active = true
+
+[[blogroll.feeds]]
+url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCbNhLf99gKKXdXm0aFfQFKw"
+title = "Nick Nisi (nicknisi)"
+description = "nicnisi"
+category = "development"
+tags = ["video", "sharing", "camera phone", "video phone", "free", "upload"]
+site_url = "https://www.youtube.com/channel/UCbNhLf99gKKXdXm0aFfQFKw"
+handle = "nicknisinicknisi"
+image_url = "https://yt3.googleusercontent.com/ytc/AIdro_kY2notY7GuELJgEDLTpFE8kcTXGAWodbT9FcBn-FAST3k=s900-c-k-c0x00ffffff-no-rj"
+active = true
+
+[[blogroll.feeds]]
+url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCYeiozh-4QwuC1sjgCmB92w"
+title = "DevOps Toolbox"
+description = "Join thousands of subscribers getting one byte of tech every Friday: https://signup.dotb.shCLI, Tmux, Neovim , Dev, Sec, and Ops, everything that's fun!"
+category = "development"
+tags = ["video", "sharing", "camera phone", "video phone", "free", "upload"]
+site_url = "https://www.youtube.com/channel/UCYeiozh-4QwuC1sjgCmB92w"
+handle = "devopstoolbox"
+image_url = "https://yt3.googleusercontent.com/ET5VddOcPWkB4gprBWSVgPDgMzIVAiLCK-mJ71ll_5-hxWUE_NUIE5474cvF6A_A8wUp_FGCjA=s900-c-k-c0x00ffffff-no-rj"
+active = true
+
+[[blogroll.feeds]]
+url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCfvFTKqwZvBeZexJZRzD6Bg"
+title = "45HomeLab"
+description = "Premium Storage Servers for the HomeLabAt 45HomeLab we know HomeLabbers have a strong vision of the infrastructure they want. But here's the problem: today's..."
+category = "development"
+tags = ["storage server", "homelab", "storage nas", "nas server", "homelab storage", "homelab server"]
+site_url = "https://www.youtube.com/channel/UCfvFTKqwZvBeZexJZRzD6Bg"
+handle = "45homelab"
+image_url = "https://yt3.googleusercontent.com/U_y4eLqxTXZoKm5YeD82ksK7kpqlcYmp0_GUXXJZxhybsYGlWUo939mdElPYnFMd3WF8UBk9_w=s900-c-k-c0x00ffffff-no-rj"
+active = true
+
+[[blogroll.feeds]]
+url = "https://www.youtube.com/feeds/videos.xml?channel_id=UC2WHjPDvbE6O328n17ZGcfg"
+title = "ForrestKnight"
+description = "Software engineer, Linux distro hopper, Java apologist. I use arch, btw."
+category = "development"
+tags = ["Computer Science", "Computer Science Degree", "Computer Science Student", "Software Development", "Software Developer", "Software", "Engineer", "Programmer", "\"Software", "En..."]
+site_url = "https://www.youtube.com/channel/UC2WHjPDvbE6O328n17ZGcfg"
+handle = "forrestknight"
+image_url = "https://yt3.googleusercontent.com/TzjkRGVvMc1M9xCgoqMK8MOVxd6tLOhSdqnhx5AjVcWEgZGXtbZQY5Ji9Yj23aBc6GOANwjD=s900-c-k-c0x00ffffff-no-rj"
+active = true
+
+[[blogroll.feeds]]
+url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCLKPca3kwwd-B59HNr-_lvA"
+title = "AI Engineer"
+description = "Talks, workshops, events, and training for AI Engineers."
+category = "development"
+tags = ["video", "sharing", "camera phone", "video phone", "free", "upload"]
+site_url = "https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA"
+handle = "aiengineer"
+image_url = "https://yt3.googleusercontent.com/ajVemEB89DAOemsbfuMY6ZOWXJAACx3cbty9z21jeqRKODaVkDBSRun1b1xfQJljEsziOWS_Mg=s900-c-k-c0x00ffffff-no-rj"
+active = true
+
+[[blogroll.feeds]]
+url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCR-DXc1voovS8nhAvccRZhg"
+title = "Jeff Geerling"
+description = "Father, author, developer, maker. Sometimes called \"an inflammatory enigma\"."
+category = "system-administration"
+tags = ["mac", "apple", "tech", "photography", "video", "ansible", "automation", "infrastructure", "kubernetes", "k8s", "raspberry pi", "cloud native", "sbc", "computers", "compute module", "linux", "kernel", "h..."]
+site_url = "https://www.youtube.com/channel/UCR-DXc1voovS8nhAvccRZhg"
+handle = "jeffgeerling"
+image_url = "https://yt3.googleusercontent.com/RndiKipuEK9TRHOw-ORouGfXDHI_-PedjdwEMYpnGNct46LMa2cnoV4b2Y_shD6kc0Dhi8kG_Q=s900-c-k-c0x00ffffff-no-rj"
+active = true
+
+[[blogroll.feeds]]
+url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA"
+title = "Fireship"
+description = "High-intensity ⚡ code tutorials and tech news to help you ship your app faster. New videos every week covering the topics every programmer should know. The o..."
+category = "development"
+tags = ["angular", "firebase", "web", "development", "javascript", "typescript"]
+site_url = "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA"
+handle = "fireship"
+image_url = "https://yt3.googleusercontent.com/3fPNbkf_xPyCleq77ZhcxyeorY97NtMHVNUbaAON_RBDH9ydL4hJkjxC8x_4mpuopkB8oI7Ct6Y=s900-c-k-c0x00ffffff-no-rj"
+active = true
+
+[[blogroll.feeds]]
+url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCOk-gHyjcWZNj3Br4oxwh0A"
+title = "Techno Tim"
+description = "I make videos that help people do awesome things with technology."
+category = "system-administration"
+tags = ["how to", "tutorial", "OBS", "SLOBS", "streaming", "mpls", "Beginner", "Technology", "pc bulds", "server builds", "technotim", "diy server", "programming", "proxmox", "diy pc", "\"techno", "tim..."]
+site_url = "https://www.youtube.com/channel/UCOk-gHyjcWZNj3Br4oxwh0A"
+handle = "technotim"
+image_url = "https://yt3.googleusercontent.com/ytc/AIdro_nGJyJb61DqT1C0fQ1CkRoalHuH3Nu8CIQbfqaflvaoUyU=s900-c-k-c0x00ffffff-no-rj"
+active = true
+
