@@ -22,3 +22,4 @@ Inspired by [mara.town/wants](https://maya.land/wants/)
 * Fancy things
 * Manual Labor in moderation
 * Vacations to far away places
+* clankers writing all of the code
