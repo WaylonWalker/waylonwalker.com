@@ -12,7 +12,7 @@ I spend a lot of my time at the terminal for my daily work, mostly in Linux or w
 
 ## > Cmder
 
-![](https://images.waylonwalker.com/main.png)
+![](https://dropper.waylonwalker.com/file/8cd2707c-4458-493b-910b-4a4721bdf4e2.webp)
 
 First off if you are stuck using cmd.exe, do yourself a favor and get cmder.  It makes life just a bit easier.  It is super confugurable and comes with several power ups that make it a bit more enjoyable than cmd.exe.
 
@@ -24,7 +24,7 @@ First off if you are stuck using cmd.exe, do yourself a favor and get cmder.  It
 
 ## Example
 
-![](https://images.waylonwalker.com/cmd_exe_history_2.gif)
+![](https://dropper.waylonwalker.com/file/131f1881-dae4-45c2-983d-432dc53c33bb.mp4)
 
 ## .bat
 
@@ -62,4 +62,4 @@ python cmd_example2.py
 
 let me know what quick cmd.exe tips you have.
 
-[![tweet your tip](https://images.waylonwalker.com/2020-01-27 06-32-34_Microsoft Text Input Application.png "tweet your tip")](https://twitter.com/intent/tweet?text=@waylonwalker%20my%20favorite%20cmd.exe%20tip%20is%20...%20https%3A//waylonwalker.com/blog/cmd-exe-tips/ "tweet your tip")
+[![tweet your tip](https://dropper.waylonwalker.com/file/898fa904-e12d-48e7-98d7-9b4dd78d5716.webp "tweet your tip")](https://twitter.com/intent/tweet?text=@waylonwalker%20my%20favorite%20cmd.exe%20tip%20is%20...%20https%3A//waylonwalker.com/blog/cmd-exe-tips/ "tweet your tip")

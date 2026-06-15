@@ -21,7 +21,7 @@ This post was inspired from Chris over at [daily-dev-tips](https://daily-dev-tip
 
 Love it or hate it passwords are hard to manage.  Everyone needs a password manager to avoid the dreaded password reuse, and to be able to quickly rotate them with a service.  I use lastpass, thus it's browser extension is my most used extension.
 
-[![lastpass](https://images.waylonwalker.com/chrome-extension-lastpass.png)](https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd?hl=en)
+[![lastpass](https://dropper.waylonwalker.com/file/11fe1593-1a42-4461-ae88-06d12d61e470.webp)](https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd?hl=en)
 
 ***
 
@@ -31,7 +31,7 @@ Stylus is an extension that allows you to add your own CSS to style pages how yo
 
 Personally I mostly use it to add my favorite syntax highlighting theme to jupyter, **onedark**.  I've long lost the original author, but have posted the CSS I use in this [gist](https://gist.github.com/WaylonWalker/b082bda9c1ce1471ea0c940c836e5714)
 
-[![lastpass](https://images.waylonwalker.com/chrome-extension-stylus.png)](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en)
+[![lastpass](https://dropper.waylonwalker.com/file/969d267b-b757-498b-897a-266e2d3bc09f.webp)](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en)
 
 ***
 
@@ -39,7 +39,7 @@ Personally I mostly use it to add my favorite syntax highlighting theme to jupyt
 
 Vimium adds vim-like keybindings to chrome.  I don't use it a ton but it comes in handy to fully utilize the keyboard on some sites that aren't well suited to keyboard use.
 
-[![vimium](https://images.waylonwalker.com/chrome-extension-vimium.png)](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en)
+[![vimium](https://dropper.waylonwalker.com/file/0e2396be-9063-456d-b9ff-2283c8a6fa6f.webp)](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en)
 
 ***
 
@@ -47,6 +47,6 @@ Vimium adds vim-like keybindings to chrome.  I don't use it a ton but it comes i
 
 Hypothesis is a notetaking app that I am trying to get on board with.  I like that they have a REST API to get your notes from. It allows you to take notes or highlight web pages and share them easily.  I am still trying to remember to use this one more.
 
-[![hypothesis](https://images.waylonwalker.com/chrome-extension-hypothesis.png)](https://chrome.google.com/webstore/detail/hypothesis-web-pdf-annota/bjfhmglciegochdpefhhlphglcehbmek?hl=en)
+[![hypothesis](https://dropper.waylonwalker.com/file/cab7ac3d-7566-416d-90a5-6c00c348a9d9.webp)](https://chrome.google.com/webstore/detail/hypothesis-web-pdf-annota/bjfhmglciegochdpefhhlphglcehbmek?hl=en)
 
 These are my most used extensions.  What are yours?

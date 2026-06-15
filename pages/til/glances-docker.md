@@ -37,7 +37,7 @@ done! ✨ 🌟 ✨
 Now running glances will also show information about your running docker
 containers.
 
-![running glances with docker installed will show your docker processes](https://images.waylonwalker.com/glances-docker.png)
+![running glances with docker installed will show your docker processes](https://dropper.waylonwalker.com/file/f105e7f3-cd6a-4245-a45b-aba468ecc8d2.webp)
 
 ## Links
 

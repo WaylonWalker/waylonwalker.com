@@ -17,7 +17,7 @@ If we take a look at the [release notes](https://github.com/kedro-org/kedro/blob
 
 This one comes a bit surprising as it was just casually mentioned in [#435](https://github.com/kedro-org/kedro/issues/435)
 
-[![auto enabled plugins mentioned in issue 435](https://images.waylonwalker.com/kedro-435.png)](https://github.com/kedro-org/kedro/issues/435)
+[![auto enabled plugins mentioned in issue 435](https://dropper.waylonwalker.com/file/61fd3ab2-ebae-4834-a2f4-c4ae8903b4ed.webp)](https://github.com/kedro-org/kedro/issues/435)
 
 ## Think pytest
 

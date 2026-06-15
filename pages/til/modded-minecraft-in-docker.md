@@ -29,7 +29,7 @@ on from curseforge will block wget.  What I do is pop open the devtools
 (f12 in chrome), click on the network tab, click the download link on
 the web page, and watch the real link show up.
 
-![minecraft mod in netwrok tab](https://images.waylonwalker.com/minecraft-mod-wget-file.png)
+![minecraft mod in netwrok tab](https://dropper.waylonwalker.com/file/cfe3359c-c8ba-454c-96ec-ef2be98f2a35.webp)
 
 ## Docker-compose
 

@@ -32,7 +32,7 @@ ta ~/git
 bind C-g display-popup -E "ta ~/git"
 ```
 
-![ta-git](https://images.waylonwalker.com/ta-git.png)
+![ta-git](https://dropper.waylonwalker.com/file/bc73f5ca-fef9-45a3-8b22-06a4615084a5.webp)
 
 ## default layout
 
@@ -40,7 +40,7 @@ By default I have my projects open with a vertical split, vim is on top, with
 my file finder open and the lower split is set to just my terminal. This is
 what I do 90% of the time that I open a project anyways.
 
-![ta-git-layout](https://images.waylonwalker.com/ta-git-layout.png)
+![ta-git-layout](https://dropper.waylonwalker.com/file/397f0a46-569a-4a1c-80a7-c62ca531804c.webp)
 
 ## More projects
 

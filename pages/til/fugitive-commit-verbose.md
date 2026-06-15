@@ -16,6 +16,6 @@ for commit, you can commit with `cc`, but today I found that you can commit
 verbose with `cvc`.  This brings up not only a commit widow with your git
 status shown, but the diff that you are about to commit.
 
-![fugitive verbose commit example](https://images.waylonwalker.com/fugitive-verbose-commit.png)
+![fugitive verbose commit example](https://dropper.waylonwalker.com/file/9a963add-494c-47ee-af26-26cb7a3912e8.webp)
 
 > example of a verbose commit in fugitive

@@ -8,7 +8,7 @@ tags:
 jinja: false
 ---
 
-![](https://images.waylonwalker.com/img-c8Fom5UqPWT6IzLefZ3YKU68.png)
+![](https://dropper.waylonwalker.com/file/b3fb31d3-a359-40f8-968c-2c9c42f6714a.webp)
 
 I've been using tailwind for a few months now and I can still say I'm loving
 it. I've been using it to create some rapid prototypes that may or may not
@@ -33,7 +33,7 @@ make blogging easier. I've started hosting some tools for this blog that I
 really like that I think I can turn into a service. It's been fantastic to
 quickly pump out new pages with tailwind.
 
-[![screenshot of https://fokais.com](https://shots.waylonwalker.com/shot/?url=https://fokais.com&height=600&width=1200&scaled_width=600&scaled_height=300&selectors=)](https://fokais.com)
+[![screenshot of https://fokais.com](https://dropper.waylonwalker.com/file/dca75157-3770-49c0-bbd2-ddcb2138ad1f.bin)](https://fokais.com)
 
 ## HTMX
 

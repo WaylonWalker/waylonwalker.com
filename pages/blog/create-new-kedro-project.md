@@ -33,7 +33,7 @@ I use conda to control my virtual environments and will create a new environment
 conda create -n kedro_iris python=3.8 -y
 ```
 
-![](https://images.waylonwalker.com/conda-create-kedro-iris.gif)
+![](https://dropper.waylonwalker.com/file/1e093fdc-550b-40d3-b05d-f6ab193ad51f.mp4)
 
 Options
 
@@ -70,7 +70,7 @@ git init
 kedro install
 ```
 
-![](https://images.waylonwalker.com/kedro-new-iris.gif)
+![](https://dropper.waylonwalker.com/file/a715d7b9-b01a-43ee-9c64-420aa8764399.mp4)
 
 ## Run the pipeline
 
@@ -84,7 +84,7 @@ Lets run from the cli while in the same directory as kedro-iris
 kedro run
 ```
 
-![](https://images.waylonwalker.com/kedro-new-iris.gif)
+![](https://dropper.waylonwalker.com/file/a715d7b9-b01a-43ee-9c64-420aa8764399.mp4)
 
 ## Viz
 
@@ -108,7 +108,7 @@ pip install kedro-viz
 kedro viz
 ```
 
-![](https://images.waylonwalker.com/kedro-viz-iris.gif)
+![](https://dropper.waylonwalker.com/file/4baf5bd5-cdc6-454c-bd3a-1dce80c8e2a3.mp4)
 
 ## 🏗 Docker
 

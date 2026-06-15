@@ -78,7 +78,4 @@ alias e=ewhich
 
 Here is a quick screencast of how it works.
 
-<video autoplay="" controls="" loop="true" muted="" playsinline="" width="100%">
-     <source src="https://images.waylonwalker.com/ewhich.webm" type="video/webm">
-     Sorry, your browser doesn't support embedded videos.
-</video>
+![30e5b198-1693-4100-a722-ad0193004e9a.webm](https://dropper.wayl.one/file/30e5b198-1693-4100-a722-ad0193004e9a.webm)

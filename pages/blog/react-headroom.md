@@ -49,7 +49,7 @@ I think this simple package completely changes the ux of your site on mobile.
 You can get that sticky nav out of the way, but its still right there with just
 a little bit of a scroll up.
 
-![showing it in action on waylonwalker.com](https://images.waylonwalker.com/react-headroom-b.gif)
+![showing it in action on waylonwalker.com](https://dropper.waylonwalker.com/file/807c8292-222c-4501-8753-a18a8efc8f8d.mp4)
 
 > Here it is on [waylonwalker.com](https://waylonwalker.com)
 
@@ -58,7 +58,7 @@ a little bit of a scroll up.
 `react-headroom` is configurable, but I did not find it necessary.  I really
 like the simplicity that it brought by just adding the `<Headroom\>` component.
 
-![react-headroom docs](https://images.waylonwalker.com/react-headroom-docs.png)
+![react-headroom docs](https://dropper.waylonwalker.com/file/0c0ad769-130b-4397-ba4f-a1623db7cce2.webp)
 
 ## Links
 

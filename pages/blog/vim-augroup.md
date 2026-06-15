@@ -35,7 +35,7 @@ great, it starts telling me that its formatting.
 autocmd bufwritepre *.py :echo("formatting with black")
 ```
 
-![too-many-formats](https://images.waylonwalker.com/vim-augroups-too-many-formats.GIF)
+![too-many-formats](https://dropper.waylonwalker.com/file/caeddb7b-459e-43c8-ad3a-1a8345eab8f1.mp4)
 
 **BUT** as every time I give it the `:so %` it formats an extra time on every
 single save.

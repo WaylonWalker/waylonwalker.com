@@ -43,4 +43,4 @@ if __name__ == "__main__":
 python yourfile.py --pdb
 ```
 
-![running this example with and without --pdb flag](https://images.waylonwalker.com/using-pdb-flag-from-cli.png)
+![running this example with and without --pdb flag](https://dropper.waylonwalker.com/file/c549e928-50e1-4076-8629-fa81c3bcc1c2.webp)

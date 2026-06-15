@@ -9,7 +9,8 @@ published: true
 
 Vim's (neovim in my case) location list can provide some very useful information while developing.  Mine gives me information about linting and type checking errors with fairly little config.  Generally, it sits nicely at the bottom of the screen and barely affects me.  Other times, especially while zoomed way in during a presentation, it just gets in the way.
 
-![location list eats the screen](https://images.waylonwalker.com/location-list-eats-screen.png)
+![location list eats the screen](https://dropper.wayl.one/file/7580be2c-0b1e-47fe-b466-4986405716ad.webp)
+location list eats the screen
 
 > Location List eating up the screen while I am zoomed in and trying to live code
 

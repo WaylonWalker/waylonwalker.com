@@ -90,11 +90,11 @@ reason to let it take up any screen real estate.
 
 ### Hiding the scrollbar
 
-![hide the scrollbar](https://images.waylonwalker.com/gnome-terminal-hide-scrollbar.png)
+![hide the scrollbar](https://dropper.waylonwalker.com/file/b0d1dc4b-127c-48fb-9ca5-d9689643687c.webp)
 
 ### Hiding the menubar
 
-![hide the menubar](https://images.waylonwalker.com/gnome-terminal-hide-menubar.png)
+![hide the menubar](https://dropper.waylonwalker.com/file/62a8ed4b-dcc5-4c5a-8f65-f6ccc92d5f41.webp)
 
 ## vim clipboard
 

@@ -18,13 +18,13 @@ description: kedro is an amazing project that allows for super-fast prototyping 
 [![Build-Docs](https://github.com/WaylonWalker/find-kedro/workflows/Build-Docs/badge.svg?branch=master)](https://find-kedro.waylonwalker.com)
 
 
-## ![Motivation](https://images.waylonwalker.com/find-kedro-release-1.png)
+## ![Motivation](https://dropper.waylonwalker.com/file/f2ba6c27-1c3c-41f2-9c76-5c9dbaf8e40f.webp)
 
 `kedro` is a ✨ fantastic project that allows for super-fast prototyping of data pipelines, while yielding production-ready pipelines. `find-kedro` enhances this experience by adding a pytest like node/pipeline discovery eliminating the need to bubble up pipelines through modules.
 
 When working on larger pipeline projects, it is advisable to break your project down into different sub-modules which requires knowledge of building python libraries, and knowing how to import each module correctly.  While this is not too difficult, in some cases, it can trip up even the most senior engineers, losing precious feature development time to debugging a library.
 
-## ![Installation](https://images.waylonwalker.com/find-kedro-release-2.png)
+## ![Installation](https://dropper.waylonwalker.com/file/19084ff9-cf0b-42e1-9533-4611a95f523a.webp)
 
 `find-kedro` is deployed to pypi and can easily be `pip` installed.
 
@@ -32,7 +32,7 @@ When working on larger pipeline projects, it is advisable to break your project 
 pip install find-kedro
 ```
 
-## ![Python Usage](https://images.waylonwalker.com/find-kedro-release-3.png)
+## ![Python Usage](https://dropper.waylonwalker.com/file/9412c98e-f94d-41a5-ae7d-ec2462b181b6.webp)
 
 The recommended usage of `find-kedro` is to implement it directly into your projects `run.py` module
 
@@ -148,7 +148,7 @@ split_node = Pipeline(
 When using fully qualified imports `from my_proj.pipelines.data_science.nodes import split_data` instead of
 relative imports `from .nodes split_data` you will need to make sure that your project is installed, in your current path, or you set the directory
 
-### ![CLI Usage](https://images.waylonwalker.com/find-kedro-release-4.png)
+### ![CLI Usage](https://dropper.waylonwalker.com/file/130ec74b-72fc-4bf7-9564-1ff989559f71.webp)
 
 The CLI provides a handy interface to search your project for nodes
 
@@ -189,21 +189,21 @@ Example ran with a slightly modified default `kedro new` project.
   ]
 }
 ```
-## ![Contributing](https://images.waylonwalker.com/find-kedro-release-5.png)
+## ![Contributing](https://dropper.waylonwalker.com/file/342856d8-b0a5-4b29-a969-832bccb6b0d7.webp)
 
 **You're Awesome** for considering a contribution!  Contributions are welcome, please check out the [Contributing Guide](https://github.com/WaylonWalker/find-kedro/blob/master/contributing.md) for more information.  Please be a positive member of the community and embrace feedback
 
-## ![Versioning](https://images.waylonwalker.com/find-kedro-release-6.png)
+## ![Versioning](https://dropper.waylonwalker.com/file/3d21b00a-9444-4ed0-a98a-b9bb9b5aefc0.webp)
 
 We use [SemVer](https://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/WaylonWalker/find-kedro/releases).
 
 
-## ![Authors](https://images.waylonwalker.com/find-kedro-release-7.png)
+## ![Authors](https://dropper.waylonwalker.com/file/ad9675b2-13f3-4b44-b429-0c039ec1ab01.webp)
 
-[![Waylon Walker](https://avatars1.githubusercontent.com/u/22648375?s=120&v=4)](https://github.com/WaylonWalker) - Waylon Walker - _Original Author_
+[![Waylon Walker](https://dropper.waylonwalker.com/file/1d0726de-a5f1-449b-bd7f-8d1479d90e32.)](https://github.com/WaylonWalker) - Waylon Walker - _Original Author_
 
-[![Zain Patel](https://avatars3.githubusercontent.com/u/30357972?s=120&v=4)](https://github.com/mzjp2) - Zain Patel
+[![Zain Patel](https://dropper.waylonwalker.com/file/13f1503f-bafc-49c9-8c3b-2018aa8ce22f.)](https://github.com/mzjp2) - Zain Patel
 
-## ![License](https://images.waylonwalker.com/find-kedro-release-8.png)
+## ![License](https://dropper.waylonwalker.com/file/5b8b7497-28c2-4971-b658-bdf4d71ccca9.webp)
 
 This project is licensed under the MIT License - see the LICENSE.md file for details

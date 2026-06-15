@@ -136,4 +136,4 @@ inputs using css.
 
 Here is the final result of me signing up for a new account in fokais.
 
-![Final Result](https://images.waylonwalker.com/fokais-signup.mp4)
+![Final Result](https://dropper.waylonwalker.com/file/b6576386-d314-402c-b253-6467192d73f0.mp4)

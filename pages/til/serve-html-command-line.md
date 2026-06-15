@@ -53,7 +53,7 @@ python -m SimpleHTTPServer --directory markout 5000
 
 ```
 
-![running a python static webserver from the command line](https://images.waylonwalker.com/python-m-http-server.png)
+![running a python static webserver from the command line](https://dropper.waylonwalker.com/file/8f120c50-eb76-45bc-b04f-5304bd194fdb.webp)
 
 ## using nodejs
 
@@ -86,4 +86,4 @@ npx http-server markout -p 5000
 
 ```
 
-![running a nodejs static webserver from the command line](https://images.waylonwalker.com/npx-http-server.png)
+![running a nodejs static webserver from the command line](https://dropper.waylonwalker.com/file/ee5a2507-fa72-43cc-8722-964cfebaf29e.webp)

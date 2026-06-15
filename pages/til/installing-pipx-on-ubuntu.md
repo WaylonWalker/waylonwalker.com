@@ -76,4 +76,4 @@ extra control and repeatability next time I have a new machine to setup.
 Here is a clip of me getting pipx running on ubuntu 21.10, and running a few of
 my favorite pipx commands.
 
-![installation video](https://images.waylonwalker.com/pipx-install-ubuntu.gif)
+![installation video](https://dropper.waylonwalker.com/file/d5be8d62-7355-48a6-9d9d-294223c04077.mp4)

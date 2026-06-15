@@ -16,7 +16,7 @@ I rarely get very complex with my semi-manual ASCII art.  I can do 98% of what I
 
 I'd say 50% of what I need is just a full-width horizontal bar to give some visual flair or separation.
 
-![](https://images.waylonwalker.com/fw-bar-print.png)
+![](https://dropper.waylonwalker.com/file/64c66938-4e0a-4235-9aba-b90e997d31eb.webp)
 
 ## Bars
 

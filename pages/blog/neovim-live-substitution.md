@@ -51,7 +51,7 @@ set inccommand=nosplit
 ## See it in Action
 
 ![example live
-substitution](https://images.waylonwalker.com/nvim-live-substitute-inccommand.gif)
+substitution](https://dropper.wayl.one/file/5dc9607e-b110-41ac-8f88-97456c60ce17.mp4)
 
 ## The Video that inspired this
 

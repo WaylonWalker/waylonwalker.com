@@ -27,4 +27,4 @@ if __name__ == "__main__":
     rich.print(ShowMe())
 ```
 
-![results of printing ShowMe with rich](https://images.waylonwalker.com/dunder_rich_showme.png)
+![results of printing ShowMe with rich](https://dropper.waylonwalker.com/file/e260b7fe-4977-4858-af88-c9ad67186014.webp)

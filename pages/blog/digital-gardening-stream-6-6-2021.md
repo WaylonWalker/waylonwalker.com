@@ -20,7 +20,7 @@ Doing some Digital Gardening on stream
 After this stream all gifs on my site are converted to mp4/webm if they exist.
 
 ``` markdown
-![tmux-navigation-2021](https://images.waylonwalker.com/tmux-navigation-2021.gif)
+![tmux-navigation-2021](https://dropper.waylonwalker.com/file/a33aa542-4928-4284-91ce-ca1b73a04f0f.mp4)
 ```
 
-![tmux-navigation-2021](https://images.waylonwalker.com/tmux-navigation-2021.gif)
+![tmux-navigation-2021](https://dropper.waylonwalker.com/file/a33aa542-4928-4284-91ce-ca1b73a04f0f.mp4)

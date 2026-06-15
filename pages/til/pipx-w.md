@@ -53,7 +53,7 @@ Glances Web User Interface started on http://0.0.0.0:61208/
 Now that its running you can open your web browser to `localhost:61208` and be
 presented with the glances webui.
 
-![running the glances webui on my system](https://images.waylonwalker.com/glances-w.png)
+![running the glances webui on my system](https://dropper.waylonwalker.com/file/aa23aff1-6350-43e2-accc-6ebafa2f2be5.webp)
 
 ## Links
 

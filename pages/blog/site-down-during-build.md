@@ -43,18 +43,13 @@ that netlify was still auto-deploying from a no longer existing directory and
 would cause 404's for every page. During build, then my build from GitHub
 Actions would deploy with the netlify cli.
 
-<div class='center-img'>
-    <img alt="images build" src="https://images.waylonwalker.com/netlify-build-images-waylonwalker.png">
-</div>
+![images build](https://dropper.waylonwalker.com/file/62db6e1a-df5b-45e4-90ab-ca30d5059e32.webp)
 
 Netlify really likes to put a lot of warnings up when you are not deploying
 from them. I tured off automatic deploys, swore to the netlify gods this is
 what I wanted. Pushed a new deploy and 🎉 THE SITE DID NOT GO DOWN.
 
-jdiv class='center-img'>
-<img alt="site build" src="https://images.waylonwalker.com/netlify-build-waylonwalker.png">
-
-</div>
+![site build](https://dropper.waylonwalker.com/file/bc427b17-8c90-4697-b196-00e5fa9a792b.webp)
 
 ## TURN OFF AUTOMATIC BUILDS WHEN SWITCHING TO A SELF BUILD
 

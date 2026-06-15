@@ -98,7 +98,7 @@ Entry points are the magic that make python cli tools available as their own com
 
 ## 🕶 See it in action
 
-![Simple-click-in-action](https://images.waylonwalker.com/simple_click3.gif)
+![Simple-click-in-action](https://dropper.wayl.one/file/fadd503a-0ae8-42eb-9c53-628c26424631.mp4)
 
 ## 📢 Discuss
 

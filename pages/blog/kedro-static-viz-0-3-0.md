@@ -21,7 +21,8 @@ Even though it's built on gatsbyjs the full site builds in under 2s even on slow
 
 Kedro viz is a fantastic kedro plugin that allows you to visualize your data pipeline.  Kedro allows you to quickly build production-ready pipelines where you just configure a catalog, then toss python functions into a big pile.  Kedro figures out the order everything needs ran in for you, allows you to run a datasets dependencies or dependents only.  [kedro-viz](https://github.com/kedro-org/kedro-viz) gives you a great way to see this ordering visually.
 
-![a visualization of a kedro data pipeline featuring data and functions flowing together.](https://images.waylonwalker.com/pipeline_visualisation-1.png "kedro visualization")
+![a visualization of a kedro data pipeline featuring data and functions flowing together.](https://dropper.waylonwalker.com/file/e3b0e46b-a6c2-499c-bc43-89f17493de39.webp)
+kedro visualization
 
 > kedro visualization from the projects readme
 
@@ -81,8 +82,8 @@ kedro run
 
 Check out some of my other articles on building kedro hooks.
 
-[![creating customizable kedro hooks](https://images.waylonwalker.com/configurable-kedro-hooks.png)](https://waylonwalker.com/kedro-class-hooks/)
+![[ kedro-class-hooks ]]
 
-[![creating the kedro preflight hook](https://images.waylonwalker.com/kedro-hooks.png)](https://waylonwalker.com/creating-the-kedro-preflight-hook/)
+![[ creating-the-kedro-preflight-hook ]]
 
 Check out the example 👉 [https://static-viz.kedro.dev/](https://static-viz.kedro.dev/)

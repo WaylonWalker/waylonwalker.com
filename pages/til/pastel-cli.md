@@ -50,11 +50,8 @@ the panel or from anywhere on my screen.
 ```bash
 pastel color-picker
 ```
-
-<video autoplay="" controls="" loop="true" muted="" playsinline="" width="100%">
-    <source src="https://images.waylonwalker.com/pastel-pick.mp4" type="video/mp4">
-    Sorry, your browser doesn't support embedded videos.
-</video>
+![pastel pick](https://dropper.wayl.one/file/8172ddae-7533-4973-897a-9f75018ab6f3.mp4)
+pastel pick
 
 ## Conversions
 
@@ -71,7 +68,7 @@ hex value.
 pastel color 50,50,50 | pastel mix cornflowerblue -f .2
 ```
 
-![my terminal output from mixing grey](https://images.waylonwalker.com/pastel-mix-grey.png)
+![my terminal output from mixing grey](https://dropper.waylonwalker.com/file/7d67bec3-251d-4ca6-b43a-0740d3033f5f.webp)
 
 I really want to get this into my workflow.  I saw it quite awhile ago but have
 not done much color work.  Lately I have been doing a bit more front end, and

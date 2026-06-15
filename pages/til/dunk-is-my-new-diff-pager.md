@@ -81,11 +81,11 @@ I have some edits to a game my son and I are working on unstaged so I
 ran `git diff` on that project with and without dunk to compare the
 differences.
 
-![default diff](https://images.waylonwalker.com/git-diff-creeper-adventure-default.png)
+![default diff](https://dropper.waylonwalker.com/file/3e368626-8c32-47e2-ba55-393cefe49505.webp)
 
 Dunk just looks so good.
 
-![dunk diff](https://images.waylonwalker.com/git-diff-creeper-adventure-dunk.png)
+![dunk diff](https://dropper.waylonwalker.com/file/8d5a8642-2bd1-4500-a50b-f402a116a4ef.webp)
 
 ## Always install
 

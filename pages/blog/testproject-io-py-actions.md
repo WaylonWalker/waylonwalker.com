@@ -51,11 +51,8 @@ features on my blog to consider testing
 I chose to start with the GitHub repos as they seemed a bit more straight
 forward, and it's been a while since I have done any selenium.
 
-<p style='text-align: center'>
-<img src='https://images.waylonwalker.com/open-source-cards.png' style='width:600px; max-width:80%; margin: auto;' alt='Open Source cards as they look on waylonwalker.com'/>
-</p>
-
-> here is what the GitHub repo cards look like
+![here is what the GitHub repo cards look like](https://dropper.wayl.one/file/49fedd75-3eec-46a1-8921-aaeef52a7067.webp)
+here is what the GitHub repo cards look like
 
 ## TestProject.io
 
@@ -76,24 +73,16 @@ your dashboard.
 In your GitHub repo go to `settings>Secrets`, or append `settings/secrets` to the URL to your repo, and add the tokens.  This will give GitHub safe access to them without them being available to the public, contributors, log files, or anything.
 
 
-<p style='text-align: center'>
-<img src='https://images.waylonwalker.com/test-waylonwalker-com-secrets.png' style='width:600px; max-width:80%; margin: auto;' alt='Secrets panel in the GitHub Repo'/>
-</p>
+![secrets panel in the GitHub Repo](https://dropper.wayl.one/file/344215cd-1884-4c55-853c-fdf51070c6e4.webp)
+secrets panel in the GitHub Repo
 
 
 ## Setup Dev
 
 To expedite development I went ahead and set up development environment that I could log into on Digital Ocean.  This allowed me to get all of my tests working a bit quicker than just running them through GitHub, but being as similar as possible.  This allowed me to learn the ins and outs of setting up TestProject without needing to do a full install every time through Github's actions.
 
-<p style='text-align: center'>
-<a href='https://waylonwalker.com/new-machine-tpio/'>
-  <img
-    style='width:500px; max-width:80%; margin: auto;'
-    src="https://images.waylonwalker.com/new-machine-tpio-rm.png"
-    alt="Test Project Dev Machine setup notes card"
-  />
-  </a>
-</p>
+
+!![[ new-machine-tpio ]]
 
 > I am not going to go into full dev machine setup here, but you can read my [setup notes](https://waylonwalker.com/new-machine-tpio/).
 
@@ -223,15 +212,7 @@ _[test-waylonwalker-com.yml](https://github.com/WaylonWalker/waylonwalker-com-te
 GitHub actions are a continuous integration, continuous delivery service by GitHub that will spin up a VM and run a set of steps upon a number of triggers including push, pull request, and schedule.
 ---
 
-<p style='text-align: center'>
-<a href='https://waylonwalker.com/github-actions-syntax/'>
-  <img
-    style='width:500px; max-width:80%; margin: auto;'
-    src="https://images.waylonwalker.com/github-actions-syntax-rm.png"
-    alt="GitHub Actions Syntax article card"
-  />
-  </a>
-</p>
+![[ github-actions-syntax ]]
 
 > If you're new to actions check out this article on using actions.
 
@@ -360,27 +341,15 @@ done
 
 One one of the coolest features that you get from TestProject.io are the reports dashboard.  To me, this felt like a premium feature for **free**.  Here you can see a time-series plot of your tests success rate over time.  It gives you a bit of an ability to slice in, but not a lot.  Some of the filters are pre-canned, like the past 2 days are past 30 days cannot be customized.
 
-<p style='text-align: center'>
-  <img
-    style='width:800px; max-width:80%; margin: auto;'
-    src="https://images.waylonwalker.com/tpio-test-repos.png"
-    alt="My Dashboard for test_repos"
-  />
-</p>
+![My Dashboard for test_repos](https://dropper.wayl.one/file/abdd8f54-1746-4043-941f-fd82ff0df151.webp)
+My Dashboard for test_repos
 
 ## A single test flow in the dashboard
 
 As you drill in you can see individual tests that have been run, select them, and see individual reports for each test.  Personally I really like the layout on the side.  It converts the steps ran by the driver into a human-readable _flowchart_, and each step can be opened up to see their values.  It would be nice if it picked up my pytest assertions, but picking up what it did was great.
 
-
-<p style='text-align: center'>
-  <img
-    style='width:350px; max-width:80%; margin: auto;'
-    src="https://images.waylonwalker.com/test_repo_stars_loaded.png"
-    alt="driver flow of test_repo_stars_loaded"
-  />
-</p>
-
+![driver flow of test_repo_stars_loaded](https://dropper.wayl.one/file/505d1f53-b110-4cc1-86aa-dffbfebb9e8b.webp)
+driver flow of test_repo_stars_loaded
 
 ## Overall 😄
 The experience I had setting up TestProject.io to run inside GitHub's actions was great.  It was fairly simple to set up and get running with many of the greatest integration testing tools of today, selenium, chrome, firefox.
@@ -393,24 +362,6 @@ Now I am going to turn the test frequency down a bit.
 
 If you're new to actions check out this article on using actions.
 
-<TABLE>
-<TR>
-   <TD>
-      <a href='https://waylonwalker.com/four-github-actions-website/'>
-      <img
-         style='margin: auto; float: left'
-         src="https://images.waylonwalker.com/four-github-actions-website-rm.png"
-         alt="GitHub Actions Syntax article card"
-         />
-      </a>
-   </TD>
-   <TD>
-      <a href='https://waylonwalker.com/four-github-actions-python/'>
-      <img
-         style='margin: auto; float: right;'
-         src="https://images.waylonwalker.com/four-github-actions-python-rm.png"
-         alt="GitHub Actions Syntax article card"
-         />
-      </a>
-   </TD>
-</TR>
+!![[ four-github-actions-website ]]
+
+!![[ four-github-actions-python ]]

@@ -8,12 +8,7 @@ published: True
 
 ---
 
-![thoughts on unit tests cover image](https://images.waylonwalker.com/thought-on-unit-tests.png)
-
-<audio controls="controls">
-  <source type="audio/mp3" src="https://dev-app.fokais.com/voice?url=https://waylonwalker.com/thoughts-on-unit-tests/"></source>
-  <p>Your browser does not support the audio element.</p>
-</audio>
+![thoughts on unit tests cover image](https://dropper.waylonwalker.com/file/09490062-ac98-487c-96a1-13a92dbf60ff.webp)
 
 Theo's response puts a lot of my feelings about unit testing into words.  Many
 of us have grown up in this world preaching unit testing.  We often hear these
@@ -21,7 +16,7 @@ statements "Everything must be unit tested, tests make code more maintainable."
 In reality when we are not writing complex low level code unit tests are
 probably the wrong approach.
 
-[![thought 192, a thought about theo's reaction to prime's unit testing](https://shots.waylonwalker.com/shot/?url=https%3A%2F%2Fthoughts.waylonwalker.com%2Fpost-og%2F192&height=640&width=1280&scaled_width=1280&scaled_height=640&selectors=)](https://thoughts.waylonwalker.com/post/192)
+![[ thought-192 ]]
 
 ## Most of us are assemblers
 
@@ -35,7 +30,7 @@ with tests that look more like unit test.  Parts like bearings, pistons,
 shafts, valves, they are all tested against sophisticated statistics of sample
 measurements.  This is quite similar to unit testing.
 
-![a qa engineer meticulously checking the size of a bearing](https://images.waylonwalker.com/gaugelab.png)
+![a qa engineer meticulously checking the size of a bearing](https://dropper.waylonwalker.com/file/a983cd67-1531-4291-a649-118275725dba.webp)
 
 You see measuring the individual sizes of these components does not guarantee
 the actual function of the component.  Before the Henry Ford assembly line
@@ -55,7 +50,7 @@ ran on a suite of cycles and should output a spec level of power, while
 emissions, temperature, fuel consumption and hundreds of other measurements
 stay within their specs.
 
-![A large engine sitting on a test bench](https://images.waylonwalker.com/engine-testing.png)
+![A large engine sitting on a test bench](https://dropper.waylonwalker.com/file/caf24647-f706-4b5e-9079-6160d1629463.webp)
 
 ## As assemblers we should be thinking of integration testing
 
@@ -117,7 +112,7 @@ alerts, then you can check production logs to see what the heck happend and
 potentially resolve the issue.  Without monitoring, you will have wild bugs
 that you never thought could exist.
 
-![An engine being used in ways unimaginable by the manufacturer being pushed to it's breaking point.](https://images.waylonwalker.com/engine-failure.png)
+![An engine being used in ways unimaginable by the manufacturer being pushed to it's breaking point.](https://dropper.waylonwalker.com/file/f267d8df-3149-4758-a7ea-014d2f4eab83.webp)
 
 ## Unit Tests are not a Golden fix all
 

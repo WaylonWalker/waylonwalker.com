@@ -31,7 +31,7 @@ If you can call it a card 🤣.  This card was just an image wrapped in an ancho
   <a href='https://waylonwalker.com/notes/eight-years-cat/'>
     <img
     style='width:500px; max-width:80%; margin: auto;'
-    src="https://images.waylonwalker.com/eight-years-cat.png"
+    src="https://dropper.wayl.one/file/99f80283-2f27-4664-8c4a-d120b6e3c3d8.webp"
     alt="My first eight years as a working professional article"
     />
   </a>
@@ -42,7 +42,7 @@ If you can call it a card 🤣.  This card was just an image wrapped in an ancho
   <a href='https://waylonwalker.com/notes/eight-years-cat'>
     <img
     style='width:500px; max-width:80%; margin: auto;'
-    src="https://images.waylonwalker.com/eight-years-cat.png"
+    src="https://dropper.wayl.one/file/99f80283-2f27-4664-8c4a-d120b6e3c3d8.webp"
     alt="My first eight years as a working professional article"
     />
   </a>
@@ -57,7 +57,7 @@ The key here is that I have to put the HTML into the markdown.  It looks a bit d
 ``` markdown
 
 <a class="onelinelink" href="https://waylonwalker.com/eight-years-cat/">
-<img style="float: right;" align='right' src="https://images.waylonwalker.com/29cdf6fcfb17d7fd766fc438144fb3e4/630fb/eight-years-cat-xmas2020.png" alt="article cover for My first eight years as a working professional.">
+<img style="float: right;" align='right' src="https://dropper.wayl.one/file/99f80283-2f27-4664-8c4a-d120b6e3c3d8.webp" alt="article cover for My first eight years as a working professional.">
 <div class="right">
     <h2>My first eight years as a working professional.</h2>
     <p class="description">
@@ -229,11 +229,11 @@ CSS is not my strong suit, but I can generally hammer something into a shape tha
 
 On mobile, it renders vertically.
 
-![mobile](https://images.waylonwalker.com/one-line-link-vertical.png)
+![mobile](https://dropper.waylonwalker.com/file/a26d09af-cdf7-4f89-8b7e-b5011e8147c9.webp)
 
 On desktop, it renders horizontally.
 
-![desktop](https://images.waylonwalker.com/one-line-link-horizontal.png)
+![desktop](https://dropper.waylonwalker.com/file/848fc68e-2dd8-467d-8868-9e57bce250e0.webp)
 
 ## Expansion
 

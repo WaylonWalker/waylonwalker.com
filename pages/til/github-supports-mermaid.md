@@ -26,8 +26,7 @@ with `control f` and everything.
       E-->F-->G-->OUT
 ```
 
-![Here is what the example looks like on
-GitHub](https://images.waylonwalker.com/example-gh-mermaid.png)
+![Here is what the example looks like on GitHub](https://dropper.waylonwalker.com/file/4c33125e-c359-415d-8695-e2c883ebebed.webp)
 
 ## Links
 

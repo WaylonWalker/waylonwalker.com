@@ -52,4 +52,4 @@ simply add a `_redirects` file to the root of your your published site with the 
 
 Now with shorter links we have more space for our content without needing to use a service like bit.ly that makes our links unreadable.
 
-![url shortener](https://images.waylonwalker.com/URL shortener.png)
+![url shortener](https://dropper.waylonwalker.com/file/cd5a0814-556c-41ad-bae5-80c10f1b412e.webp)

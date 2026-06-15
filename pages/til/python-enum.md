@@ -52,4 +52,4 @@ Lifecycle.glob.value
 Lifecycle.glob.name
 ```
 
-![using the Lifecycle Enum](https://images.waylonwalker.com/using-lifecycle-enum.png)
+![using the Lifecycle Enum](https://dropper.waylonwalker.com/file/8a171ef2-ec49-4e5f-a779-87ada00f2066.webp)

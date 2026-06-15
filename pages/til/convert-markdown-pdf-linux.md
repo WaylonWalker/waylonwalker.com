@@ -35,7 +35,7 @@ pandoc pages/til/convert-markdown-pdf-linux.md -o convert-markdown-pdf.pdf --lat
 pandoc pages/til/convert-markdown-pdf-linux.md -o convert-markdown-pdf.pdf --pdf-engine=xelatex
 ```
 
-![results of converting this post to a pdf](https://images.waylonwalker.com/convert-markdown-pdf-linux-result.png)
+![results of converting this post to a pdf](https://dropper.waylonwalker.com/file/c367ae8a-5626-4cf6-9aec-070cbf054f46.webp)
 
 > Here is an image of what converting this article over to a pdf looks
 > like.  The raw markdown is

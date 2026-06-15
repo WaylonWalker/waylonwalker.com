@@ -77,7 +77,7 @@ without all the bells and whistle that oh-my-zsh provided zsh became lightning f
 
 ## 🔌 Plugin Managers
 
-![](https://images.waylonwalker.com/steve-johnson-ZUabNmumOcA-unsplash.jpg)
+![](https://dropper.waylonwalker.com/file/d974ba61-feb5-43ad-9003-62ec8d234ef1.webp)
 
 > Photo by [Steve Johnson](https://unsplash.com/@steve_j?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/plug?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
@@ -91,7 +91,7 @@ There are a number of plugin managers for zsh, I tried each of the ones listed a
 
 _Semi-lazy loading_
 
-![](https://images.waylonwalker.com/jeppe-hove-jensen-b3eaH1hguOA-unsplash.jpg)
+![](https://dropper.waylonwalker.com/file/cf1a0790-b953-47a1-9381-3fc65ecc54a4.webp)
 
 > Photo by Jeppe Hove Jensen on [Unsplash](https://unsplash.com/s/photos/balance?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 

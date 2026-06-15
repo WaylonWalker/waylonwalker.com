@@ -7,7 +7,7 @@ published: true
 cover: "static/codeit-bro-interview.png"
 ---
 
-![profile image](https://images.waylonwalker.com/profile.jpg)
+![profile image](https://dropper.wayl.one/file/305cfd06-db8a-412d-9a21-57c280e6137c.webp)
 
 > use this profile image
 
@@ -19,15 +19,7 @@ I graduated with a Mechanical Engineering Degree 8 years ago. Much of my work
 around analyzing larger datasets for my group to understand quality, drive
 changes to improve quality or prove that quality was already good.
 
-<p style='text-align: center'>
-<a href='https://waylonwalker.com/eight-years-cat'>
-<img
-style='width:500px; max-width:80%; margin: auto;'
-src="https://images.waylonwalker.com/eight-years-cat.png"
-alt="My first eight years as a working professional article"
-/>
-</a>
-</p>
+![[ eight-years-cat ]]
 
 Three years ago I made the switch to Data Science and have loved every minute of
 it. It is a very dynamic field that is continually changing and there are
@@ -143,15 +135,7 @@ Python is my core skill, it can do so much so quickly and has a very strong ecos
 
 A skill I would add in general is to deploy early. Too often we spend months on prototypes that need rewritten for the prod environment, when they could have just been written for prod from the beginning while ci tooling could have kept the project cleaner and easier to work with. Whether its GitHub actions or Azure Pipelines CI/CD is cheaper and easier to setup than ever. There is a fluid movement that happens when you are working with clean code along the way rather than cleaning it up after its all done. Simplifying your work opens up mental space to put more focus on your problem at hand.
 
-<p style='text-align: center'>
-<a href='https://waylonwalker.com/what-are-github-actions/'>
-<img
-style='width:500px; max-width:80%; margin: auto;'
-src="https://images.waylonwalker.com/what-are-github-actions.png"
-alt="introductory article to GitHub actions"
-/>
-</a>
-</p>
+![[ what-are-github-actions ]]
 
 > check out this article about github actions
 

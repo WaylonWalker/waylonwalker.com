@@ -20,7 +20,7 @@ Once you run this you will be in a tui application similar to htop.  You can
 kill processes with k, use left and right arrows to change the sorting column,
 and up and down to select different processes.
 
-![running pipx run glances on my ubuntu 21.10 machine inside the kitty terminal](https://images.waylonwalker.com/pipx-run-glances.png)
+![running pipx run glances on my ubuntu 21.10 machine inside the kitty terminal](https://dropper.waylonwalker.com/file/159cbd51-140a-4595-907f-676fe20f510b.webp)
 
 ## Links
 

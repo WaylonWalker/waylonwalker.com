@@ -21,27 +21,7 @@ You must give it a commit message and thats it.  Optionally you can configure a 
 
 ---
 
-<p style='text-align: center'>
-<a href='https://waylonwalker.com/github-actions-syntax/'>
-  <img
-    style='width:500px; max-width:80%; margin: auto;'
-    src="https://images.waylonwalker.com/github-actions-syntax-rm.png"
-    alt="GitHub Actions Syntax article card"
-  />
-  </a>
-</p>
-
-> If you're new to actions check out this article on using actions.
-
-<p style='text-align: center'>
-<a href='https://waylonwalker.com/github-actions-syntax/'>
-  <img
-    style='width:500px; max-width:80%; margin: auto;'
-    src="https://images.waylonwalker.com/github-actions-syntax-rm.png"
-    alt="GitHub Actions Syntax article card"
-  />
-  </a>
-</p>
+![[ github-actions-syntax ]]
 
 > If you're new to actions check out this article on using actions.
 
@@ -111,25 +91,6 @@ _from the repo_
 
 If you're new to actions check out these articles on using actions.
 
-<TABLE>
-  <TR>
-    <TD>
-      <a href='https://waylonwalker.com/four-github-actions-website/'>
-      <img
-        style='width:250px; max-width:80%; margin: auto; float: left'
-        src="https://images.waylonwalker.com/four-github-actions-website-rm.png"
-        alt="GitHub Actions Syntax article card"
-        />
-      </a>
-    </TD>
-    <TD>
-      <a href='https://waylonwalker.com/four-github-actions-python/'>
-      <img
-        style='width:250px; max-width:80%; margin: auto; float: right;'
-        src="https://images.waylonwalker.com/four-github-actions-python-rm.png"
-        alt="GitHub Actions Syntax article card"
-        />
-      </a>
-    </TD>
-  </TR>
-</TABLE>
+![[ four-github-actions-website ]]
+
+![[ four-github-actions-python ]]

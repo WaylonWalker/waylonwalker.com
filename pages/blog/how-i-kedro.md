@@ -44,7 +44,7 @@ I use the starship prompt for my shell.  It works well out of
 the box.  It looks good and includes all of the information
 that I would ever need.
 
-![kedro-prompt](https://images.waylonwalker.com/kedro-prompt.png)
+![kedro-prompt](https://dropper.waylonwalker.com/file/56ba9576-d009-40a8-beae-b1d30a0cf6fa.webp)
 
 ## tmux
 
@@ -55,7 +55,7 @@ pushed myself to use only the terminal.  I felt that vscode was just getting
 slower and slower, and I was getting less benefit from it.  Especially now that
 the lsp is a part of nvim.
 
-![tmux-prefix+c-j](https://images.waylonwalker.com/tmux-navigation-2021-prefix+c-j.gif)
+![tmux-prefix+c-j](https://dropper.waylonwalker.com/file/289aa8a2-d7e1-4be6-8fc0-da577defa588.mp4)
 
 ## neovim
 
@@ -66,7 +66,7 @@ customization, and plugins I have added in my dotfiles.
 * pylsp
 * kedro-lsp
 
-![nvim-kedro](https://images.waylonwalker.com/nvim-kedro.png)
+![nvim-kedro](https://dropper.waylonwalker.com/file/cd0ffbca-8825-4a19-9ef2-212e99db3280.webp)
 
 ## ipython
 
@@ -83,7 +83,7 @@ rich is installed.
 * custom prompt
 * rich traceback
 
-![kedro-ipython](https://images.waylonwalker.com/kedro-ipython.png)
+![kedro-ipython](https://dropper.waylonwalker.com/file/04440519-d0a6-4165-9dd2-c0966e589754.webp)
 
 ## Links
 

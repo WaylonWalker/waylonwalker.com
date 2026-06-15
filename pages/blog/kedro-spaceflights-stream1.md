@@ -22,7 +22,7 @@ called out for users of kedro to record themselves doing a walk through of
 their tutorials.  I wanted to do this, but was really stuck at the fact that
 recording or editing somewhat polished vide is quite time consuming for me.
 
-![kedro-issue-606](https://images.waylonwalker.com/kedro-issue-606.png)
+![kedro-issue-606](https://dropper.wayl.one/file/112f93d0-f521-481b-8a78-3bc583041feb.webp)
 
 ## Notes
 

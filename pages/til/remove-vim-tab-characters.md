@@ -13,7 +13,7 @@ marks at the beginning of each line and trying to get rid of them.  for
 so long I didn't know what they were so trying to get rid of them was
 impossible.
 
-![example of what the tab character renders as in my editor](https://images.waylonwalker.com/vim-tab-characters.png)
+![example of what the tab character renders as in my editor](https://dropper.waylonwalker.com/file/cd79ed2e-be03-4173-a9fd-4f67c04b9b70.webp)
 
 It turns out they are tabs, and you can get rid of the little leading
 question marks with this substitution command.

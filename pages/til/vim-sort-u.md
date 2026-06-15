@@ -62,18 +62,3 @@ Then typing `vap:sort u` yields a uniqly sorted list of links.
 * [syntax-print-register-pipelines](https://screenshots.waylonwalker.com/syntax-print-register-pipelines.webp)
 ```
 
-
-<video controls muted autoplay playsinline loop=true width="100%">
-    <source src="https://images.waylonwalker.com/vim-sort-u.webm"
-            type="video/webm">
-    Sorry, your browser doesn't support embedded videos.
-</video>
-
-<div class='speed-control'>
-    <button onclick="change_speed(.25)" >
-        speed up
-    </button>
-    <button onclick="change_speed(-.25)" >
-        slow down
-    </button>
-</div>

@@ -116,16 +116,8 @@ nodes.append(
 
 ## Want a simple guide to get started with find kedro
 
-<p style='text-align: center' align='center'>
-<a href='https://find.kedro.dev/examples/iris/'>
-  <img
-    style='width:400px; max-width:80%; border-radius: 35px; margin: auto;'
-    width='400'
-    src="https://images.waylonwalker.com/find-kedro-examples-iris.png"
-    alt="Find Kedro Iris example"
-  />
-  </a>
-</p>
+[![Find Kedro Iris example](https://dropper.wayl.one/file/8f2a0641-6059-4434-81a3-6ee83f5900f8.webp)](https://find.kedro.dev/examples/iris/)
+Find Kedro Iris example
 
 In [this doc](https://find.kedro.dev/examples/iris/) I transform the kedro iris template to find-kedro.
 

@@ -53,7 +53,7 @@ D3 is the ubiquitous dynamic visualization library for building custom interacti
 
 I cant express how fun it was to build this example. I always saw d3 as being super low level and that I could never build something in it. It was so cool to watch the magic happen in such a short period of time.
 
-![final_result](https://images.waylonwalker.com/d3-day3.gif)
+![final_result](https://dropper.wayl.one/file/30e315bd-ef15-4c71-aaf7-71c9f375721a.mp4)
 
 ## Prep
 
@@ -241,7 +241,7 @@ render('math')
 </script>
  -->
 
-![d3 day 3 example 2](https://images.waylonwalker.com/d3-day3-2.gif)
+![d3 day 3 example 2](https://dropper.wayl.one/file/bceda525-540f-42e7-8889-b945b5d8fc44.mp4)
 
 _example 2 working buttons_
 
@@ -295,7 +295,7 @@ function render3(subject) {
 render3('math')
 ```
 
-![d3 day3 example 3](https://images.waylonwalker.com/d3-day3.gif)
+![d3 day3 example 3](https://dropper.wayl.one/file/30e315bd-ef15-4c71-aaf7-71c9f375721a.mp4)
 
 _example 3 nice and smooth_
 

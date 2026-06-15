@@ -14,6 +14,9 @@ https://youtu.be/t8AvImnwor0
 
 > watch the video version of this post on [YouTube](https://youtu.be/t8AvImnwor0)
 
+![57676ca9-23dd-4b3d-a084-293a0525eba5.mkv](https://dropper.wayl.one/file/57676ca9-23dd-4b3d-a084-293a0525eba5.mkv)
+Or watch the full thing here
+
 ## install
 
 `jut` is packaged and available on pypi so installing is as easy as pip installing it.
@@ -23,7 +26,7 @@ https://youtu.be/t8AvImnwor0
 pip install jut
 ```
 
-![installing jut with pip](https://images.waylonwalker.com/jut-install.gif)
+![installing jut with pip](https://dropper.wayl.one/file/f7db3e0e-cc41-44f2-b410-8e7bc5fe1a58.mp4)
 
 > ! This is my first time including snippets of the video in the article like this, let me know what you think!
 
@@ -36,7 +39,7 @@ jut https://cantera.org/examples/jupyter/thermo/flame_temperature.ipynb --head 3
 jut https://cantera.org/examples/jupyter/thermo/flame_temperature.ipynb --tail 2
 ```
 
-![running jut examples](https://images.waylonwalker.com/jut-command.gif)
+![running jut examples](https://dropper.wayl.one/file/08743803-99cc-4881-831d-6ef17d8c1065.mp4)
 
 ## what are all the commands available for jut?
 
@@ -50,7 +53,7 @@ jut --help
 There is some good information on the projects
 [readme](https://github.com/kracekumar/jut) as well.
 
-![getting help with jut](https://images.waylonwalker.com/jut-help.gif)
+![getting help with jut](https://dropper.wayl.one/file/ba21e724-3fff-4320-8fb9-4fe62442aab2.mp4)
 
 ## without installing
 _using pipx_
@@ -63,7 +66,7 @@ environment for you.  This is one of the biggest selling points for me.
 pipx run jut https://cantera.org/examples/jupyter/thermo/flame_temperature.ipynb --head 3
 ```
 
-![running jut with pipx](https://images.waylonwalker.com/jut-pipx.gif)
+![running jut with pipx](https://dropper.wayl.one/file/d4399ec7-9046-4cbe-b1cb-4a453be8bf4b.webm)
 
 ## nbconvert
 
@@ -91,7 +94,7 @@ python -m http.server
 
 > Note, nb convert does not work with a url, you will need to have the notebook locally.
 
-![nbconvert to html to see images](https://images.waylonwalker.com/jut-nbconvert-html.gif)
+![nbconvert to html to see images](https://dropper.wayl.one/file/7a3087f4-dd03-46f9-ad23-8ed655b14849.webm)
 
 ## what other options does nbconvert offer?
 
@@ -113,7 +116,7 @@ jupyter nbconvert flame_temperature.ipynb --to maarkdown
 cat flameflame_temperature.md
 ```
 
-![nbconvert to markdown and displaying in bat](https://images.waylonwalker.com/jut-nbconvert-markdown-bat.gif)
+![nbconvert to markdown and displaying in bat](https://dropper.wayl.one/file/bf2e3759-9d61-40df-9945-feaf28333e16.mp4)
 
 ### viewing markdown with glow
 
@@ -126,7 +129,7 @@ looks pretty good.
 glow flameflame_temperature.md
 ```
 
-![nbconvert to markdown and displaying in glow](https://images.waylonwalker.com/jut-nbconvert-markdown-glow.gif)
+![nbconvert to markdown and displaying in glow](https://dropper.wayl.one/file/341a0a28-dd3b-46c4-b6f6-a5aeef78e5eb.mp4)
 
 ### viewing markdown as slides with lookatme
 _[lookatme](https://github.com/d0c-s4vage/lookatme)_
@@ -146,7 +149,7 @@ headers to start new slides from.
 lookatme flameflame_temperature.md
 ```
 
-![nbconvert to markdown and displaying as slides with lookatme](https://images.waylonwalker.com/jut-nbconvert-markdown-lookatme.gif)
+![nbconvert to markdown and displaying as slides with lookatme](https://dropper.wayl.one/file/1aaca40c-883f-4013-8dd9-c7db3b8a46b4.mp4)
 
 ### viewing markdown with rich
 

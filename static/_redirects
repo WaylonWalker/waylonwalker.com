@@ -12,9 +12,9 @@
 
 
 # image upload
-/upload                                                     https://github.com/WaylonWalker/images.waylonwalker.com/upload/main/static
-/uploads                                                    https://github.com/WaylonWalker/images.waylonwalker.com/upload/main/static
-/i                                                          https://github.com/WaylonWalker/images.waylonwalker.com/upload/main/static
+/upload                                                     https://dropper.waylonwalker.com
+/uploads                                                    https://dropper.waylonwalker.com
+/i                                                          https://dropper.waylonwalker.com
 /idea                                                       https://www.canva.com/design/DAEJ1hsI7KU/d_WFYFJaf5qr0ihA472lbQ/edit?category=tACZCtLTC_A
 /s                                                          https://github.com/WaylonWalker/waylonwalkerv2/upload/main/static/stories
 /st                                                         https://github.com/WaylonWalker/waylonwalkerv2/tree/main/static/stories
@@ -54,24 +54,6 @@
 /.well-known/avatar                                         https://waylonwalker.com/8bitc.png
 /p                                                          https://waylonwalker.com/8bitc.png
 
-# latest-post
-
-# /latest                                                     https://waylonwalker.com/pyflyby/
-# /latest.png                                                 https://images.waylonwalker.com/pyflyby-og.png
-#
-# /latest-story.png                                           https://images.waylonwalker.com/tmux-nav-hub-spoke.png
-
-# Common aliases to my tags
-# /archive/python3/*                                          /python/:splat/
-# /archive/python2/*                                          /python/:splat/
-
-# /archive/neovim/*                                           /vim/:splat/
-# /archive/nvim/*                                             /vim/:splat/
-
-# /archive/unix/*                                             /linux/:splat/
-# /archive/bash/*                                             /linux/:splat/
-# /archive/command-line/*                                     /linux/:splat/
-# /archive/cli/*                                              /linux/:splat/
 
 # refactor routes
 /blog/*                                                     /:splat/
@@ -212,7 +194,7 @@
 # These are mystery links that I cannot find, but are dinging my ahrefs report
 # They have zero inlinks so they are likely external
 # /archive/archive/                                           /archive/
-/whats-on-your-github-profile/                              /whats-on-your-github-profile
+#/whats-on-your-github-profile/                              /whats-on-your-github-profile
 /what-is-something-that-you-recently-learned-that-you-wish-you-would-have-learned-or-understood-earlier-1/ /learn-early/
 /test-project-io-py-actions/                                /testproject-io-py-actions/
 /gratitude/good-morning/                                    /gratitude/
@@ -228,41 +210,41 @@ https://waylonwalker.com/automating-my-posts?ref=hackernoon.com https://waylonwa
 
 https://waylonwalker.com/84be324f285880e9934e2d86232daffa/a8734/parsing-rss-python-xmas2020.png https://images.waylonwalker.com/parsing-rss-python-og.png
 https://waylonwalker.com/52ac834bbe2cd9380151f27bf1e1abe5/a8734/gitui-xmas2020.png https://images.waylonwalker.com/gitui-og.png
-https://waylonwalker.com/stories/get-python-help-without-google.png https://images.waylonwalker.com/stories/get-python-help-without-google.png
-https://waylonwalker.com/stories/quick-tdb.png              https://images.waylonwalker.com/stories/quick-tdb.png
-https://waylonwalker.com/stories/TIL-kedro-sorts-nodes.png  https://images.waylonwalker.com/stories/TIL-kedro-sorts-nodes.png
-https://waylonwalker.com/stories/use-venv.png               https://images.waylonwalker.com/stories/use-venv.png
-https://waylonwalker.com/stories/progress-over-perfection-comment.png https://images.waylonwalker.com/stories/progress-over-perfection-comment.png
-https://waylonwalker.com/stories/find-kedro-de1-contributor.png https://images.waylonwalker.com/stories/find-kedro-de1-contributor.png
-https://waylonwalker.com/stories/new-post-designing-kedro-router.png https://images.waylonwalker.com/stories/new-post-designing-kedro-router.png
-https://waylonwalker.com/stories/three-ds-openings.png      https://images.waylonwalker.com/stories/three-ds-openings.png
-https://waylonwalker.com/stories/hacktoberfest-2020-kedro-538-tests-pass.png https://images.waylonwalker.com/stories/hacktoberfest-2020-kedro-538-tests-pass.png
-https://waylonwalker.com/stories/itertools.product-cars-regions.png https://images.waylonwalker.com/stories/itertools.product-cars-regions.png
-https://waylonwalker.com/stories/power-is-nothing-without-control.png https://images.waylonwalker.com/stories/power-is-nothing-without-control.png
-https://waylonwalker.com/stories/kedro-run-only-missing.png https://images.waylonwalker.com/stories/kedro-run-only-missing.png
-https://waylonwalker.com/stories/discovered-social-cards.png https://images.waylonwalker.com/stories/discovered-social-cards.png
-https://waylonwalker.com/stories/running-ci-for-hacktoberfest-kedro.png https://images.waylonwalker.com/stories/running-ci-for-hacktoberfest-kedro.png
-https://waylonwalker.com/stories/disable-base-pip.png       https://images.waylonwalker.com/stories/disable-base-pip.png
-https://waylonwalker.com/gitui-status.png                   https://images.waylonwalker.com/gitui-status.png
+https://waylonwalker.com/stories/get-python-help-without-google.png https://dropper.waylonwalker.com/file/86a65000-b5d1-4d2e-a74e-15b3b1b483fb.webp
+https://waylonwalker.com/stories/quick-tdb.png              https://dropper.waylonwalker.com/file/a4f9c1dc-455b-41e4-886a-362a23b3f54b.webp
+https://waylonwalker.com/stories/TIL-kedro-sorts-nodes.png  https://dropper.waylonwalker.com/file/2a66a989-24fc-4a48-9a84-bd1ab3f5c327.webp
+https://waylonwalker.com/stories/use-venv.png               https://dropper.waylonwalker.com/file/f45400e2-68ef-4691-bce1-5e0b8132290b.webp
+https://waylonwalker.com/stories/progress-over-perfection-comment.png https://dropper.waylonwalker.com/file/3f0876bd-7acd-4c5d-bcca-cdf6307b0abc.webp
+https://waylonwalker.com/stories/find-kedro-de1-contributor.png https://dropper.waylonwalker.com/file/861af050-deb9-45c8-8481-9c211afea668.webp
+https://waylonwalker.com/stories/new-post-designing-kedro-router.png https://dropper.waylonwalker.com/file/4b4da171-6909-4693-bb5b-2c2028b11e2e.webp
+https://waylonwalker.com/stories/three-ds-openings.png      https://dropper.waylonwalker.com/file/20279295-72a0-4e26-8617-dedc76fb9f04.webp
+https://waylonwalker.com/stories/hacktoberfest-2020-kedro-538-tests-pass.png https://dropper.waylonwalker.com/file/d7ad95f5-7d42-493e-929c-f92106392d2a.webp
+https://waylonwalker.com/stories/itertools.product-cars-regions.png https://dropper.waylonwalker.com/file/a3624c2c-7d1c-4d43-9468-09c8ee4bb0a9.webp
+https://waylonwalker.com/stories/power-is-nothing-without-control.png https://dropper.waylonwalker.com/file/3337ac25-bd91-4dfd-93cb-beb67d08c7d6.webp
+https://waylonwalker.com/stories/kedro-run-only-missing.png https://dropper.waylonwalker.com/file/31b00440-c130-4ac9-9020-bd6d1923a67d.webp
+https://waylonwalker.com/stories/discovered-social-cards.png https://dropper.waylonwalker.com/file/d7a215a8-bc5a-4fbb-873a-edfbdcaf03b2.webp
+https://waylonwalker.com/stories/running-ci-for-hacktoberfest-kedro.png https://dropper.waylonwalker.com/file/624f627d-a102-46d7-bb23-5a2b35ca94ca.webp
+https://waylonwalker.com/stories/disable-base-pip.png       https://dropper.waylonwalker.com/file/5ab0d7a2-180c-4d72-9ae7-8f2175491366.webp
+https://waylonwalker.com/gitui-status.png                   https://dropper.waylonwalker.com/file/9074395d-79bc-4457-a913-ffcdc5ff5c2e.webp
 https://waylonwalker.com/static/abdc8a2104d22615e0174f9a9cc42d80/a8734/assertions.png https://images.waylonwalker.com/assertions.png
 https://waylonwalker.com/abdc8a2104d22615e0174f9a9cc42d80/a8734/assertions.png https://images.waylonwalker.com/assertions.png
 https://waylonwalker.com/static/type-while-loading-plugins.gif https://imaged.waylonwalker.com/type-while-loading-plugins.gif
 https://waylonwalker.com/type-while-loading-plugins.gif https://imaged.waylonwalker.com/type-while-loading-plugins.gif
-https://waylonwalker.com/static/custom-scrollbar-with-css.gif https://images.waylonwalker.com/custom-scrollbar-with-css.gif
-https://waylonwalker.com/custom-scrollbar-with-css.gif https://images.waylonwalker.com/custom-scrollbar-with-css.gif
+https://waylonwalker.com/static/custom-scrollbar-with-css.gif https://dropper.waylonwalker.com/file/2e5cb9cc-4ddc-4d9f-9b25-459d171a6802.mp4
+https://waylonwalker.com/custom-scrollbar-with-css.gif https://dropper.waylonwalker.com/file/2e5cb9cc-4ddc-4d9f-9b25-459d171a6802.mp4
 https://waylonwalker.com/tqdm2.gif                                    https://images.waylonwalker.com/tqdm2.gif
-https://waylonwalker.com/test_autoreload4.gif                         https://images.waylonwalker.com/test_autoreload4.gif
-https://waylonwalker.com/test_autoreload_jupyter.gif                  https://images.waylonwalker.com/test_autoreload_jupyter.gif
-https://waylonwalker.com/how-i-pick-colors.gif                        https://images.waylonwalker.com/how-i-pick-colors.gif
-https://waylonwalker.com/how-i-create-gradients.gif                   https://images.waylonwalker.com/how-i-create-gradients.gif
-https://waylonwalker.com/how-i-adjust-colors.gif                      https://images.waylonwalker.com/how-i-adjust-colors.gif
+https://waylonwalker.com/test_autoreload4.gif                         https://dropper.waylonwalker.com/file/d025b6d0-4cb3-4f8f-8ce5-ca7e7adc2c1d.mp4
+https://waylonwalker.com/test_autoreload_jupyter.gif                  https://dropper.waylonwalker.com/file/b6ea7fcd-50c8-44ec-acd1-74baf0ad30f1.mp4
+https://waylonwalker.com/how-i-pick-colors.gif                        https://dropper.waylonwalker.com/file/657696d7-5d34-418c-92f2-253100be8a9f.mp4
+https://waylonwalker.com/how-i-create-gradients.gif                   https://dropper.waylonwalker.com/file/ac87858d-b362-460d-965d-fab7d97f65cf.mp4
+https://waylonwalker.com/how-i-adjust-colors.gif                      https://dropper.waylonwalker.com/file/e406a62a-1fb2-444b-b40d-44bb9be8007a.mp4
 https://waylonwalker.com/forestry_image_3.gif                         https://images.waylonwalker.com/forestry_image_3.gif
 https://waylonwalker.com/flexbox-zombies/flexbox-zombies-12.gif       https://images.waylonwalker.com/flexbox-zombies/flexbox-zombies-12.gif
 https://waylonwalker.com/alt%20z.gif                                  https://images.waylonwalker.com/alt%20z.gif
-https://waylonwalker.com/alt%20b.gif                                  https://images.waylonwalker.com/alt%20b.gif
-https://waylonwalker.com/alt%20[svx].gif                              https://images.waylonwalker.com/alt%20[svx].gif
-https://waylonwalker.com/alt%20[hjkl].gif                             https://images.waylonwalker.com/alt%20[hjkl].gif
-https://waylonwalker.com/alt%20[cnp].gif                              https://images.waylonwalker.com/alt%20[cnp].gif
+https://waylonwalker.com/alt%20b.gif                                  https://dropper.waylonwalker.com/file/9d242951-baed-4d2d-813d-753e56290972.mp4
+https://waylonwalker.com/alt%20[svx].gif                              https://dropper.waylonwalker.com/file/b073a7cf-01ff-4705-ae11-e6cd41109792.mp4
+https://waylonwalker.com/alt%20[hjkl].gif                             https://dropper.waylonwalker.com/file/14099538-c447-4c61-a2cd-c0e6b1a8f734.mp4
+https://waylonwalker.com/alt%20[cnp].gif                              https://dropper.waylonwalker.com/file/f8c775ad-514a-4b7d-a823-27885da8a2df.mp4
 https://waylonwalker.com/tmux-kill-tmux/                              https://waylonwalker.com/tmux-killing-tmux/
 https://waylonwalker.com/tmux-break-pane/                             https://waylonwalker.com/break-pane/
 https://waylonwalker.com/kedro-catalog-create/                        https://waylonwalker.com/kedro-catalog-create-cli/

@@ -51,4 +51,4 @@ only want to modify nodes in place and don't care about the context.
 
 Here is an image of me running this example through `ipython`.
 
-![getting docstrings from the ast in python](https://images.waylonwalker.com/ast-get-docstring.png)
+![getting docstrings from the ast in python](https://dropper.waylonwalker.com/file/9a534436-2881-476d-a9c3-5d1333578901.webp)

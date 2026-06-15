@@ -61,7 +61,7 @@ Following yesterdays post, I am going to rename my markdown files
 
 More info on refactoring your blog routes with netlify here.
 
-[![gracefully redirect cover image](https://images.waylonwalker.com/gracefully-redirect.png)](https://waylonwalker.com/gracefully-redirect/)
+![[ gracefully-redirect ]]
 
 ## _"Edit This post"_ Links
 
@@ -96,7 +96,7 @@ Then from GitHub go to settings>default branch> select main and accept the risk 
 
 After your default is set to main, you have no use for master in your life anymore, time to purge it completely once and for all.  Go to <repo>/branches and trash it.
 
-![delete master](https://images.waylonwalker.com/delete-master.png)
+![e1268ce3-d864-48a1-aea7-8aa0452bd02b.webp](https://dropper.wayl.one/file/e1268ce3-d864-48a1-aea7-8aa0452bd02b.webp)
 
 ## Stop the Bleeding
 

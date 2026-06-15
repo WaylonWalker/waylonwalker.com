@@ -38,7 +38,7 @@ really cutting down those kb's on your images, there is a copy cli command
 button!  If you have npx (which you should if you have nodejs and npm) already
 installed it just works without installing anything more.
 
-![The button on squoosh.app](https://images.waylonwalker.com/squoosh-cli-button.png)
+![The button on squoosh.app](https://dropper.waylonwalker.com/file/981207ae-3e55-49e7-8c18-8cb84b860c37.webp)
 
 ## Converting all of my png's to webp
 
@@ -83,7 +83,7 @@ I got 94% compression on my existing pngs without resizing anything.  This is
 dang impressive, and not too hard to do.  I do want to refactor my images site
 at some point and include this as part of the ci system.
 
-![resulting file sizes for converting png to wepb.](https://images.waylonwalker.com/squoosh-webp-results.png)
+![resulting file sizes for converting png to wepb.](https://dropper.waylonwalker.com/file/1a8fc543-513e-44fa-ba7c-c7916950496e.webp)
 
 I also converted to avif, but it sent all my cpus to 100 for quite awhile, for
 only another 2MB total.  Not sure if its worth it or not.

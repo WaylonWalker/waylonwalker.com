@@ -124,7 +124,7 @@ automatically installed and importing things without me even thinking about it.
 %load_ext pyflyby
 ```
 
-![basic example of pyflyby](https://images.waylonwalker.com/load_ext_pyflyby.gif)
+![basic example of pyflyby](https://dropper.waylonwalker.com/file/4f0c4f59-fe08-426e-a9ce-e63ee4240f4a.mp4)
 
 ## Ipython setup next level
 
@@ -264,7 +264,7 @@ augroup waylonwalker
 augroup end
 ```
 
-![running pyflyby on save in nvim](https://images.waylonwalker.com/pyflyby-nvim.gif)
+![running pyflyby on save in nvim](https://dropper.waylonwalker.com/file/1f25c523-b53d-4b3e-8fe8-701679384074.mp4)
 
 ## refactoring
 
@@ -277,7 +277,7 @@ editing the imports.  Often you can't even grab whole lines because there are
 several imports and some are needed in both places but not all.  pyflyby
 handles all this like a champ.
 
-![simple refactoring example with pyflyby](https://images.waylonwalker.com/pyflyby-refactoring.gif)
+![simple refactoring example with pyflyby](https://dropper.waylonwalker.com/file/4f981817-4911-4f24-abeb-25a8fc2c44d2.mp4)
 
 ## Where to install for vim
 
@@ -396,7 +396,7 @@ __all__ = [
 
 ```
 
-![pyflyby in **init** files](https://images.waylonwalker.com/pyflyby-__all__.gif)
+![pyflyby in **init** files](https://dropper.waylonwalker.com/file/8e91cbe6-64a8-43ff-a8c3-d071a00e4cbc.mp4)
 
 ## py command
 
@@ -413,7 +413,7 @@ py help pd.DataFrame
 py pd.read_csv 'https://waylonwalker.com/cars.csv'
 ```
 
-![pyflyby's py command can run one liners from bash or zsh even with imports](https://images.waylonwalker.com/pyflyby-py.gif)
+![pyflyby's py command can run one liners from bash or zsh even with imports](https://dropper.waylonwalker.com/file/92dea8ff-28f0-439a-b25d-8d09a3215cf0.mp4)
 
 ## Links
 

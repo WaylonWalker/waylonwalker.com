@@ -14,7 +14,7 @@ request raw data outside of the pipeline it matched expectations.
 
 **NOTE** While this story is about a kedro pipeline, it can be applied anywhere closures are put into an iterable.
 
-## ![Debugger to the rescue](https://images.waylonwalker.com/bind-dynamic-lambdas-1.png)
+## ![Debugger to the rescue](https://dropper.waylonwalker.com/file/1c2d433d-a85b-4a73-9e5b-6c52dee6d368.webp)
 
 After a few days of looking at it off and on, I pinpointed that it was all the way down in the raw layer. Right as data is coming off of the database.  For this I already had existing `sql` files stored and a `read_sql` function to get the data so I opted to just set up the pipeline to utilize the existing code as much as possible, leaning on the [kedro](https://kedro.readthedocs.io/) framework a bit less.
 
@@ -60,11 +60,11 @@ for dataset in datasets_to_clean:
    )
 ```
 
-## ![Seriously](https://images.waylonwalker.com/bind-dynamic-lambdas-2.png)
+## ![Seriously](https://dropper.waylonwalker.com/file/f07979e5-c1d9-4f3a-9d71-cbabc40c4e41.webp)
 
 As I am still oblivious to what has happened I pop in a `breakpoint()` and quickly see that during the first run the dataset passed into `read_sql` was `'inventory'`, in fact, every single one was `'inventory'`.  The lambda is just using the latest value of dataset from outside and has no `local` `dataset` attached to it.
 
-## ![The simple fix ](https://images.waylonwalker.com/bind-dynamic-lambdas-3.png)
+## ![The simple fix ](https://dropper.waylonwalker.com/file/5a579ed5-829f-47ed-81f1-4c5a03d1cefa.webp)
 
 ``` python
 # 👍 Much Better
@@ -85,7 +85,7 @@ for dataset in datasets_to_clean:
    )
 ```
 
-## ![Try it yourself](https://images.waylonwalker.com/bind-dynamic-lambdas-4.png)
+## ![Try it yourself](https://dropper.waylonwalker.com/file/f4a41a49-410a-4fa5-b773-3d5095561fa5.webp)
 
 I made a slightly more simple example so that you can try it and play with it yourself, edit it, share it with your friends, laugh at my mistake, whatever you like.
 

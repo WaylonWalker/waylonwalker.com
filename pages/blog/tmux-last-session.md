@@ -17,7 +17,7 @@ bind -n M-b switch-client -l
 
 I think of this hub and spoke model, and use `last-session` to quickly drive it.
 
-![hub and spoke](https://images.waylonwalker.com/tmux-nav-hub-spoke.png)
+![hub and spoke](https://dropper.waylonwalker.com/file/0574b548-0871-4505-95f4-48e2fb267c6e.webp)
 
 [[ tmux-nav-2021 ]]
 

@@ -114,13 +114,13 @@ python load_and_blit.py
 
 And we should get the following results.
 
-[the results of putting the image in the middle](https://images.waylonwalker.com/pygame-load-blit-center-alpha.png)
+[the results of putting the image in the middle](https://dropper.wayl.one/file/14140fbd-fceb-4fde-a8b0-378cb25ae555.webp)
 
 ## convert a transparent png
 
 What happens when we accidently use `.convert()` rather than `.convert_alpha()`?
 
-![using convert on a transparant png gets rid of all transparancy and fills with black](https://images.waylonwalker.com/pygame-load-blit-center-no-alpha.png)
+![using convert on a transparant png gets rid of all transparancy and fills with black](https://dropper.waylonwalker.com/file/3741d878-79db-4079-85aa-729f4b015adb.webp)
 
 ## Making snow
 
@@ -161,7 +161,5 @@ if __name__ == "__main__":
 
 ## the results
 
-<video autoplay="" controls="" loop="true" muted="" playsinline="" width="100%">
-    <source src="https://images.waylonwalker.com/pygame-snow.mp4" type="video/mp4">
-    Sorry, your browser doesn't support embedded videos.
-</video>
+![the results of putting the image in the middle](https://dropper.waylonwalker.com/file/af02f3b2-64af-493a-af8b-3d86fea5832a.mp4)
+snow falling down the screen

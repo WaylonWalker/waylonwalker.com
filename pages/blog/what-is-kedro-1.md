@@ -36,7 +36,7 @@ Currently, [kedro](https://kedro.readthedocs.io) is broken down into 3 different
 
 ## [kedro](https://kedro.readthedocs.io)
 
-![kedro logo](https://images.waylonwalker.com/68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f7175616e74756d626c61636b6c6162732f6b6564726f2f6d61737465722f696d672f6b6564726f5f62616e6e65722e6a7067.jpg)
+![kedro logo](https://dropper.wayl.one/file/12bac7e5-40e8-41c3-92e7-a2543c42c1ee.webp)
 
 [kedro](https://kedro.readthedocs.io) is the core of the ecosystem.  It provides the docs, getting started, `kedro new` templates, and the core library including the catalog and pipeline.
 
@@ -71,7 +71,7 @@ catalog.datasets.bikes.save(bikes_df)
 
 ### Pipeline
 
-![building pipelines](https://images.waylonwalker.com/roman-pentin-T5QT2bmiD4E-unsplash.jpg)
+![building pipelines](https://dropper.wayl.one/file/c866a76f-66aa-458e-97bf-0f9ae3678308.webp)
 
 The pipeline object is the brains of [kedro](https://kedro.readthedocs.io).  When working with [kedro](https://kedro.readthedocs.io) you simply define functions that take in data as arguments, manipulate it, and return a new dataset.  The pipeline will decide what order to execute these functions ini based on their dependencies.  It will then work with the catalog to load the data from the catalog pass it to your function, the save the returned data in the catalog.
 
@@ -117,7 +117,8 @@ cd my-kedro-project
 kedro viz
 ```
 
-![](https://images.waylonwalker.com/pipeline_visualisation.png)
+![kedro viz demo](https://dropper.wayl.one/file/b13c1f28-68c6-46db-ba8b-0907d925dc49.webp)
+kedro viz demo
 
 ## [kedro-docker](https://github.com/kedro-org/kedro-docker)
 

@@ -41,7 +41,7 @@ some examples to get a markdown file, a csv, and a png image.
 ```python
 htmx_get_md = requests.get('https://waylonwalker.com/til/htmx-get.md').content
 cars = requests.get('https://waylonwalker.com/cars.csv').content
-profile = requests.get('https://images.waylonwalker.com/8bitc.png').content
+profile = requests.get('https://waylonwalker.com/8bitc.png').content
 ```
 
 ## RTFM

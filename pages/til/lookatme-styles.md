@@ -51,7 +51,7 @@ markata.run()
 
 This is what the above slide looks like in lookatme.
 
-![default styles](https://images.waylonwalker.com/lookatme-styles-default.png)
+![default styles](https://dropper.waylonwalker.com/file/b85b01db-e93d-49a0-b669-eda5ee80c6ac.webp)
 
 ## Set focus to the most important element
 
@@ -73,7 +73,7 @@ styles:
             suffix: ' ↽ '
 ```
 
-![set the focus on the slide title styles](https://images.waylonwalker.com/lookatme-styles-focus-to-slide-title.png)
+![set the focus on the slide title styles](https://dropper.waylonwalker.com/file/bfb81dc5-430d-4bac-b9a2-9f4ded776eed.webp)
 
 
 > by default he prefix/suffix was a full block that just went transparant into
@@ -105,7 +105,7 @@ Adding author to the root of the frontmatter of the document will add it to the 
 author: '@_waylonwalker'
 ```
 
-![lookatme slides with author defined](https://images.waylonwalker.com/lookatme-styles-add-author.png)
+![lookatme slides with author defined](https://dropper.waylonwalker.com/file/57ccd02f-2ebf-4798-9147-173add8a65d1.webp)
 
 ## Style the author
 
@@ -131,7 +131,7 @@ slides:
     fg: '#368ce2'
 ```
 
-![lookatme slides with author styled](https://images.waylonwalker.com/lookatme-styles-add-author-styles.png)
+![lookatme slides with author styled](https://dropper.waylonwalker.com/file/cb900d89-f124-428b-9625-d1600423ea42.webp)
 
 ## reduce the padding
 
@@ -147,7 +147,7 @@ padding:
     top: 0
 ```
 
-![lookatme slides with no more padding](https://images.waylonwalker.com/lookatme-styles-no-padding.png)
+![lookatme slides with no more padding](https://dropper.waylonwalker.com/file/88083684-61a3-4070-80e8-7a357442daa7.webp)
 
 
 ## final results

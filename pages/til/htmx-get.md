@@ -48,7 +48,7 @@ of style so that it does not sear your delicate developer your eyes.
 Save this as `index.html` and fire up a webserver and you will be
 presented with this big beefcake of a button.
 
-![big beefcake of a button](https://images.waylonwalker.com/htmx-get-til-click-me.png)
+![big beefcake of a button](https://dropper.waylonwalker.com/file/52634e90-2000-4d8e-b015-04680cdb0417.webp)
 
 If you don't have a development server preference I reccomend opening
 the terminal and running `python -m http.server 8000` then opening your
@@ -67,7 +67,7 @@ hello
 </p>
 ```
 
-![the final results](https://images.waylonwalker.com/htmx-get-til-hello.png)
+![the final results](https://dropper.waylonwalker.com/file/8f73e924-5de6-4450-b4bc-4fb01651bee4.webp)
 
 <script src="https://unpkg.com/htmx.org@1.7.0"></script>
 
@@ -99,5 +99,5 @@ easter egg.
 
 * [python web conf 2022](https://2022.pythonwebconf.com/)
 * [htmx](https://htmx.org/)
-* [big beefcake of a button](https://images.waylonwalker.com/htmx-get-til-click-me.png)
-* [the final results](https://images.waylonwalker.com/htmx-get-til-hello.png)
+* ![big beefcake of a button](https://dropper.waylonwalker.com/file/2cf92311-605f-4079-9704-edac73f932f3.webp)
+* ![the final results](https://dropper.waylonwalker.com/file/949e4512-aafa-4385-ae23-bdeb287e3205.webp)

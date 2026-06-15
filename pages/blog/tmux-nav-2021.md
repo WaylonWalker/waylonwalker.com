@@ -43,25 +43,8 @@ windows.
 
 Let's take a quick look at how I am navigating through tmux on a day-to-day basis.
 
-<!-- ![overview of how I switch and manage tmux sessions](https://images.waylonwalker.com/tmux-navigation-2021.gif "overview") -->
-<video controls muted autoplay playsinline loop=true width="100%">
-    <source src="https://images.waylonwalker.com/tmux-navigation-2021.webm"
-            type="video/webm">
-    <source src="https://images.waylonwalker.com/tmux-navigation-2021.mp4"
-            type="video/mp4">
-    Sorry, your browser doesn't support embedded videos.
-</video>
-
-<div class='speed-control'>
-    <button onclick="change_speed(.25)" >
-        speed up
-    </button>
-    <button onclick="change_speed(-.25)" >
-        slow down
-    </button>
-</div>
-
-> 👆 Overview of how I navigate tmux
+![overview of how I switch and manage tmux sessions](https://dropper.waylonwalker.com/file/764ed3d2-7a34-4504-af48-397d0869c5a4.mp4)
+👆 Overview of how I navigate tmux
 
 ## tmux ls
 
@@ -80,26 +63,6 @@ you're in a tmux session, it does nothing, and if you're not in one, it will
 attach you to the first one.
 
 > get the full [script](https://github.com/WaylonWalker/devtainer/blob/main/bin/.local/bin/ta) from GitHub.
-
-<!-- ![overview of how I switch and manage tmux sessions](https://images.waylonwalker.com/tmux-navigation-2021-ta.gif "overview") -->
-<video controls muted autoplay playsinline loop=true width="100%">
-    <source src="https://images.waylonwalker.com/tmux-navigation-2021-ta.webm"
-            type="video/webm">
-    <source src="https://images.waylonwalker.com/tmux-navigation-2021-ta.mp4"
-            type="video/mp4">
-    Sorry, your browser doesn't support embedded videos.
-</video>
-
-<div class='speed-control'>
-    <button onclick="change_speed(.25)" >
-        speed up
-    </button>
-    <button onclick="change_speed(-.25)" >
-        slow down
-    </button>
-</div>
-
-> 👆 attaching to a session by default
 
 In my `~/.bashrc` or `~/.zshrc` I add the `ta` command to keep myself in a tmux
 session at all times.  Whenever I open my terminal, I am automatically dropped
@@ -128,26 +91,9 @@ ta ~/git
 > 🔥 Bonus, use direnv to automatically set settings, echo your git status,
 > activate your environment or whatever else you need.
 
-<!-- ![overview of how I switch and manage tmux sessions](https://images.waylonwalker.com/tmux-navigation-2021-ta-directory.gif "overview") -->
-<video controls muted autoplay playsinline loop=true width="100%">
-    <source src="https://images.waylonwalker.com/tmux-navigation-2021-ta-directory.webm"
-            type="video/webm">
-    <source src="https://images.waylonwalker.com/tmux-navigation-2021-ta-directory.mp4"
-            type="video/mp4">
-    Sorry, your browser doesn't support embedded videos.
-</video>
-
-<div class='speed-control'>
-    <button onclick="change_speed(.25)" >
-        speed up
-    </button>
-    <button onclick="change_speed(-.25)" >
-        slow down
-    </button>
-</div>
-
-> 👆 give it a directory, it will ask for input to which project and start a new
-> named session in that directory.
+![overview of how I switch and manage tmux sessions](https://dropper.waylonwalker.com/file/5bef809c-cedb-434f-92ee-dbdb826e0331.mp4)
+👆 give it a directory, it will ask for input to which project and start a new
+named session in that directory.
 
 Note that starting from outside currently does not start in a split layout like
 it does when starting from within tmux.  I am still playing with this, but
@@ -166,22 +112,8 @@ which opens in full screen.  The upper section of the screen will show every
 window opened.  While selected, you can show the splits in each window by
 hitting l, or fold it with h. You can search for a session name by hitting /.
 
-<!-- ![jump to existing sessions with prefix+w](https://images.waylonwalker.com/tmux-navigation-2021-prefix+w.gif "using prefix+w") -->
-<video controls muted autoplay playsinline loop=true width="100%">
-    <source src="https://images.waylonwalker.com/tmux-navigation-2021-prefix+w.webm"
-            type="video/webm">
-    <source src="https://images.waylonwalker.com/tmux-navigation-2021-prefix+w.mp4"
-            type="video/mp4">
-    Sorry, your browser doesn't support embedded videos.
-</video>
-<div class='speed-control'>
-    <button onclick="change_speed(.25)" >
-        speed up
-    </button>
-    <button onclick="change_speed(-.25)" >
-        slow down
-    </button>
-</div>
+![jump to existing sessions with prefix+w](https://dropper.waylonwalker.com/file/5a038223-2c45-4984-8a76-8c6bc44f9364.mp4)
+using prefix+w
 
 ``` bash
 # ~/.tmux.conf
@@ -224,22 +156,8 @@ bind C-w new-window -n "work-session-picker" "ta ~/work"
 bind C-g new-window -n "git-session-picker" "ta ~/git"
 ```
 
-<!-- ![create a new session from my ~/git directory](https://images.waylonwalker.com/tmux-navigation-2021-prefix+c-g.gif "using prefix+c-g") -->
-<video controls muted autoplay playsinline loop=true width="100%">
-    <source src="https://images.waylonwalker.com/tmux-navigation-2021-prefix+c-g.webm"
-            type="video/webm">
-    <source src="https://images.waylonwalker.com/tmux-navigation-2021-prefix+c-g.mp4"
-            type="video/mp4">
-    Sorry, your browser doesn't support embedded videos.
-</video>
-<div class='speed-control'>
-    <button onclick="change_speed(.25)" >
-        speed up
-    </button>
-    <button onclick="change_speed(-.25)" >
-        slow down
-    </button>
-</div>
+![create a new session from my ~/git directory](https://dropper.waylonwalker.com/file/52144c42-825a-4ff3-a6b7-4288b56a5b76.mp4)
+using prefix+c-g
 
 ## prefix+c-j
 
@@ -253,23 +171,8 @@ This keybinding uses fzf to fuzzy match to an existing session and attach.
 ``` bash
 bind C-j new-window -n "session-switcher" "tmux list-sessions | sed -E 's/:.*$//' | grep -v \"^$(tmux display-message -p '#S')\$\" | fzf --reverse | xargs tmux switch-client -t"
 ```
-
-<!-- ![jump to existing sessions with prefix+c-j](https://images.waylonwalker.com/tmux-navigation-2021-prefix+c-j.gif "using prefix+c-j") -->
-<video controls muted autoplay playsinline loop=true width="100%">
-    <source src="https://images.waylonwalker.com/tmux-navigation-2021-prefix+c-j.webm"
-            type="video/webm">
-    <source src="https://images.waylonwalker.com/tmux-navigation-2021-prefix+c-j.mp4"
-            type="video/mp4">
-    Sorry, your browser doesn't support embedded videos.
-</video>
-<div class='speed-control'>
-    <button onclick="change_speed(.25)" >
-        speed up
-    </button>
-    <button onclick="change_speed(-.25)" >
-        slow down
-    </button>
-</div>
+![jump to existing sessions with prefix+c-j](https://dropper.waylonwalker.com/file/7e1fc17e-2dc9-4db0-aa06-f1c57c2a93ae.mp4)
+using prefix+c-j
 
 ## M-N M-P
 
@@ -279,22 +182,8 @@ Next and Previous sessions.  This is super handy when working with under 3
 sessions to be able to cycle through sessions holding `shift+alt` and pressing
 `n` or `p`.
 
-<!-- ![jump to next or previous sessions with m-N or m-P](https://images.waylonwalker.com/tmux-navigation-2021-m-N-M-P.gif "using m-N and m-P") -->
-<video controls muted autoplay playsinline loop=true width="100%">
-    <source src="https://images.waylonwalker.com/tmux-navigation-2021-m-N-M-P.webm"
-            type="video/webm">
-    <source src="https://images.waylonwalker.com/tmux-navigation-2021-m-N-M-P.mp4"
-            type="video/mp4">
-    Sorry, your browser doesn't support embedded videos.
-</video>
-<div class='speed-control'>
-    <button onclick="change_speed(.25)" >
-        speed up
-    </button>
-    <button onclick="change_speed(-.25)" >
-        slow down
-    </button>
-</div>
+![jump to next or previous sessions with m-N or m-P](https://dropper.waylonwalker.com/file/148b7818-c46d-475b-8cc1-55f85fc7c5eb.mp4)
+using m-N and m-P
 
 ## tkill
 
@@ -313,22 +202,8 @@ alias tkill="for s in \$(tmux list-sessions | awk '{print \$1}' | rg ':' -r '' |
 I don't have this one set up with a nice hotkey, but it works for my
 fingers.  I often pop open a lower split(`M-s`), run `tkill`, and close (`M-x`).
 
-<!-- ![create a new session git-diff switch back to original session with prefix+c-g then use tkill to kill the git-diff session](https://images.waylonwalker.com/tmux-navigation-2021-tkill.gif "tkill example") -->
-<video controls muted autoplay playsinline loop=true width="100%">
-    <source src="https://images.waylonwalker.com/tmux-navigation-2021-tkill.webm"
-            type="video/webm">
-    <source src="https://images.waylonwalker.com/tmux-navigation-2021-tkill.mp4"
-            type="video/mp4">
-    Sorry, your browser doesn't support embedded videos.
-</video>
-<div class='speed-control'>
-    <button onclick="change_speed(.25)" >
-        speed up
-    </button>
-    <button onclick="change_speed(-.25)" >
-        slow down
-    </button>
-</div>
+![create a new session git-diff switch back to original session with prefix+c-g then use tkill to kill the git-diff session](https://dropper.waylonwalker.com/file/ddf78fe0-0631-424e-82d3-2cd82101cd9c.mp4)
+tkill example
 
 ## Last Session
 
@@ -344,21 +219,7 @@ bind -n M-B switch-client -l
 bind -n M-b switch-client -l
 ```
 
-<video controls muted autoplay playsinline loop=true width="100%">
-    <source src="https://images.waylonwalker.com/tmux-navigation-2021-m-b.webm"
-            type="video/webm">
-    <source src="https://images.waylonwalker.com/tmux-navigation-2021-m-b.mp4"
-            type="video/mp4">
-    Sorry, your browser doesn't support embedded videos.
-</video>
-<div class='speed-control'>
-    <button onclick="change_speed(.25)" >
-        speed up
-    </button>
-    <button onclick="change_speed(-.25)" >
-        slow down
-    </button>
-</div>
+![jump to the last session with M-B](https://dropper.waylonwalker.com/file/fa67af1e-ba7e-4c30-a228-aec255e63782.mp4)
 
 > Once I get two sessions back to back, I can switch between them with insane
 > speed and precision.
@@ -377,21 +238,7 @@ bind -n M-i new-session -A -s ww3 "cd ~/git/ww3/ && nvim"
 bind -n M-o new-session -A -s images_waylonwalker_com "cd ~/git/images.waylonwalker.com/ && nvim"
 ```
 
-<video controls muted autoplay playsinline loop=true width="100%">
-    <source src="https://images.waylonwalker.com/tmux-navigation-2021-m-i-m-o.webm"
-            type="video/webm">
-    <source src="https://images.waylonwalker.com/tmux-navigation-2021-m-i-m-o.mp4"
-            type="video/mp4">
-    Sorry, your browser doesn't support embedded videos.
-</video>
-<div class='speed-control'>
-    <button onclick="change_speed(.25)" >
-        speed up
-    </button>
-    <button onclick="change_speed(-.25)" >
-        slow down
-    </button>
-</div>
+![jump to my todo list with m-i](https://dropper.waylonwalker.com/file/700a0fb6-408f-4872-81e6-dcf580860b6d.mp4)
 
 > These few directories are always at my fingertips, encouraging me to keep better notes
 
@@ -405,7 +252,8 @@ I have really been digging this hub and spoke workflow where I am rocking away
 on a project hit `M-I`, take some notes then hit `M-b` to get back to where I
 was.
 
-![hub and spoke](https://images.waylonwalker.com/tmux-nav-hub-spoke.png)
+![hub and spoke](https://dropper.waylonwalker.com/file/2fb73629-7a5a-4771-bdcc-5063b90ed7f4.webp)
+quickly get between projects
 
 > Model of my current workflow
 
@@ -414,21 +262,8 @@ was.
 Here is an example of how I use the hub and spoke model to get to notes on my
 blog and back to my project quickly.
 
-<video controls muted autoplay playsinline loop=true width="100%">
-    <source src="https://images.waylonwalker.com/tmux-navigation-2021-quickly-access-notes.webm"
-            type="video/webm">
-    <source src="https://images.waylonwalker.com/tmux-navigation-2021-quickly-access-notes.mp4"
-            type="video/mp4">
-    Sorry, your browser doesn't support embedded videos.
-</video>
-<div class='speed-control'>
-    <button onclick="change_speed(.25)" >
-        speed up
-    </button>
-    <button onclick="change_speed(-.25)" >
-        slow down
-    </button>
-</div>
+![quickly access notes](https://dropper.waylonwalker.com/file/aecc33a4-4d0c-4ff5-9bde-060d9a8542d3.mp4)
+quickly access notes with a dedicated hotkey
 
 ## Example workflow
 

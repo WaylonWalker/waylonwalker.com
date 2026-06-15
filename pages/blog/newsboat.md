@@ -134,10 +134,10 @@ this. For now I am just going to roll with it.
 
 ## Here's how it looks
 
-![newsboat feed](https://images.waylonwalker.com/newsboat-feed-waylonwalker-com.png)
+![newsboat feed](https://dropper.waylonwalker.com/file/36e536b1-3b10-45a3-ba3f-fb3573c3144a.webp)
 
 > browsing a feed in newsboat
 
-![newsboat article](https://images.waylonwalker.com/newsboat-article.png)
+![newsboat article](https://dropper.waylonwalker.com/file/61539cda-d6c8-4a55-b8aa-c6f4b88c25d0.webp)
 
 > reading an article in newsboat

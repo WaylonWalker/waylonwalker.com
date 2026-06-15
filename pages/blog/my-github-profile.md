@@ -11,12 +11,12 @@ published: true
 
 I ran a discussion on dev that collected quite a list of examples in the comment section.  So many great calls to action, animations, memes, and weird tricks.
 
-[![dev.to whats-on-your-github-profile](https://images.waylonwalker.com/whats-on-your-github-profile.png)](https://dev.to/waylonwalker/what-s-on-your-github-profile-40p3)
+[![dev.to whats-on-your-github-profile](https://dropper.waylonwalker.com/file/441d1155-9b86-4ba4-979d-272f43935666.webp)](https://dev.to/waylonwalker/what-s-on-your-github-profile-40p3)
 
 
 ## My current profile
 
-[![Waylon Walkers GitHub profile](https://images.waylonwalker.com/github-profile.png)](https://github.com/waylonwalker/)
+[![Waylon Walkers GitHub profile](https://dropper.waylonwalker.com/file/e8f4f755-2ef6-4725-aee8-471edf0f4c9a.webp)](https://github.com/waylonwalker/)
 
 ## social icons
 

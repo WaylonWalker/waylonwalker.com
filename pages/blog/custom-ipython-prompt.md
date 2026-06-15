@@ -29,7 +29,7 @@ environment name, and git branch.
 * active environment
 * git branch
 
-![my zsh prompt](https://images.waylonwalker.com/my-zsh-prompt.png)
+![my zsh prompt](https://dropper.waylonwalker.com/file/79e8d762-3364-4975-9b44-80f066028aa3.webp)
 
 > This is my zsh prompt I am using for inspiration
 

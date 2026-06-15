@@ -32,4 +32,4 @@ for my [tils](https://waylonwalker.com/til/),
 all of my projects to make sure that I have a virtual environment installed and
 running any time I open it.
 
-![this is what it looks like when I open my copier templates popup](https://images.waylonwalker.com/copier-templates-tmux-popup.png)
+![this is what it looks like when I open my copier templates popup](https://dropper.waylonwalker.com/file/5e97af0a-f305-4480-b1bf-51c7fd33286c.webp)

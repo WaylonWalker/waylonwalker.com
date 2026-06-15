@@ -42,7 +42,7 @@ sudo apt-get install htop # install it from your package repo
 htop
 ```
 
-![htop in use](https://images.waylonwalker.com/htop-2.0.png)
+![htop in use](https://dropper.waylonwalker.com/file/e9bad2dd-e894-4a88-bad2-a1889a00ad18.webp)
 
 ## First step throw more swap at it
 
@@ -80,15 +80,7 @@ sudo swapon --show
 free -h
 ```
 
-<p style='text-align: center'>
-<a href='https://linuxize.com/post/how-to-add-swap-space-on-ubuntu-20-04/'>
-  <img
-    style='width:500px; max-width:80%; margin: auto;'
-    src="https://images.waylonwalker.com/linuxize-how-to-add-swap-space-on-ubuntu-20-04.jpg"
-    alt="How to Add Swap Space on Ubuntu 20.04"
-  />
-  </a>
-</p>
+[![How to Add Swap Space on Ubuntu 20.04](https://dropper.waylonwalker.com/file/41e9e50a-5354-4386-bb71-0ac550566613.webp)](https://linuxize.com/post/how-to-add-swap-space-on-ubuntu-20-04/)
 
 [linuxize how to add swap space on ubuntu 20.04](https://linuxize.com/post/how-to-add-swap-space-on-ubuntu-20-04/)
 
@@ -189,15 +181,7 @@ The above tips will help you reclaim used memory in ipython, but the following
 tip is one that single handedly is the reason I use Ipython for faster
 development over anything else.
 
-<p style='text-align: center'>
-<a href='https://waylonwalker.com/autoreload-ipython/'>
-  <img
-    style='width:500px; max-width:80%; margin: auto;'
-    src="https://images.waylonwalker.com/autoreload-ipython-rm.png"
-    alt="Autoreload in Ipython"
-  />
-  </a>
-</p>
+![[ autoreload-ipython ]]
 
 [autoreload-ipython](https://waylonwalker.com/autoreload-ipython/) one of my biggest productivity boosts.
 

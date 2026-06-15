@@ -42,7 +42,7 @@ One of my new open source packages [find-kedro](https://find.kedro.dev/) only hi
 interrogate find-kedro -v
 ```
 
-![verbose interrogate on find-kedro](https://images.waylonwalker.com/interrogate-python-v.png)
+![verbose interrogate on find-kedro](https://dropper.waylonwalker.com/file/fafbf8eb-dd41-4dfc-a6c2-b5c7ae52a163.webp)
 
 Personally I really like the **double verbose** output that gives you the names of everything missing a docstring and the line they occur on.
 
@@ -50,7 +50,7 @@ Personally I really like the **double verbose** output that gives you the names 
 interrogate find-kedro -vv
 ```
 
-![double verbose interrogate on find-kedro](https://images.waylonwalker.com/interrogate-python-vv.png)
+![double verbose interrogate on find-kedro](https://dropper.waylonwalker.com/file/361e24f3-8314-4777-8a83-5cc9ea01159a.webp)
 
 ## Give it a ⭐
 Every project this amazing deserves a big ol ⭐ on GitHub! Go over to [econchick/interrogate](https://github.com/econchick/interrogate) and give it a one... it deserves it! While you are there check out the **wicked** good readme. It has great examples of how to run it from your command line, as a pre-commit hook, in your ci, with your code, or pyproject.toml.

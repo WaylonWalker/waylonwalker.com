@@ -23,7 +23,7 @@ I have been playing with the netlify cms for a while now, and it has been a dece
 
 Forestry.io has this amazing feature to create _create based on existing document_ 🤯.  This is great because it sets up the `.yml` config for me without error.  And If I really want to come back later to customize it more I have that option, too.
 
-![](https://images.waylonwalker.com/Screenshot_20190503-165248.jpg)
+![c4d47a3d-392f-41d8-9f2f-6ff7d8721132.webp](https://dropper.wayl.one/file/c4d47a3d-392f-41d8-9f2f-6ff7d8721132.webp)
 
 > By far my favorite feature is _create based on existing document_
 
@@ -31,13 +31,13 @@ Forestry.io has this amazing feature to create _create based on existing documen
 
 I have a use case for a photography site where the owner wants to be able to show off sample photos of each type of work she does.  I got it working in the netlify cms, although it was not very user friendly.  Everything was nested in an accordian 😢.
 
-![](https://images.waylonwalker.com/Screenshot_20190507-144948.png)
+![594ec9b1-c574-4804-ad01-ab0a16534fa4.webp](https://dropper.wayl.one/file/594ec9b1-c574-4804-ad01-ab0a16534fa4.webp)
 
 > Netlify multi image upload
 
 Next I looked into forestry.io.  I pointed forestry.io at the existing git repo, created a template based on an existing document and **BAM**💥 a nice image grid appeared.
 
-![](https://images.waylonwalker.com/Screenshot_20190507-145044.png)
+![a7c8951a-77c6-4226-b4b2-bc07b86712b4.webp](https://dropper.wayl.one/file/a7c8951a-77c6-4226-b4b2-bc07b86712b4.webp)
 
 > Forestry multi image gallery
 
@@ -45,7 +45,7 @@ Next I looked into forestry.io.  I pointed forestry.io at the existing git repo,
 
 The forestry.io editor is on point.  I can choose to edit using the WYSIWYG editor and still use markdown syntax!  I can edit in markdown.  I can add images without fat-fingering the path and screwing up the whole post.  Its amazing!
 
-![](https://images.waylonwalker.com/2019-05-09 10-40-11_forestry.io.png)
+![ab9d7531-3cdb-45dc-8832-ca06d7b02293.webp](https://dropper.wayl.one/file/ab9d7531-3cdb-45dc-8832-ca06d7b02293.webp)
 
 ## Images
 

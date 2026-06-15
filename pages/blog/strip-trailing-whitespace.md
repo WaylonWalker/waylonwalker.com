@@ -23,17 +23,4 @@ _<small><mark>bash</mark></small>_
 git grep -I --name-only -z -e '' | xargs -0 sed -i -e 's/[ \t]\+\(\r\?\)$/\1/'
 ```
 
-
-
-<p style='text-align: center' align='center'>
-<a href='https://waylonwalker.com/pre-commit-is-awesome'>
-  <img
-    style='width:400px; max-width:80%; margin: auto;'
-    width='400'
-    src="https://images.waylonwalker.com/pre-commit-is-awesome.png"
-    alt="pre-commit article"
-  />
-  </a>
-</p>
-
-read more about how  [[pre-commit-is-awesome]]
+![[ pre-commit-is-awesome ]]

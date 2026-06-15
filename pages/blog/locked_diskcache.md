@@ -58,23 +58,7 @@ two lower splits.  Notice that the first (left split) immediately prints out
 the result, while the second one (right split) does not print out the result
 until the first is completely finished.
 
-<!-- ![](https://images.waylonwalker.com/locked_discache.gif) -->
-<video controls muted autoplay playsinline loop=true width="100%">
-    <source src="https://images.waylonwalker.com/locked_discache.webm"
-            type="video/webm">
-    <source src="https://images.waylonwalker.com/locked_discache.mp4"
-            type="video/mp4">
-    Sorry, your browser doesn't support embedded videos.
-</video>
-
-<div class='speed-control'>
-    <button onclick="change_speed(.25)" >
-        speed up
-    </button>
-    <button onclick="change_speed(-.25)" >
-        slow down
-    </button>
-</div>
+![locked diskcache](https://dropper.waylonwalker.com/file/98930c40-24c4-4b5c-9258-edfc1ddcfa6b.mp4)
 
 ## Using a context manager
 
@@ -103,23 +87,7 @@ immediatly print out their result and get to work on that sleep statement.
 This time the right right split only takes ~20s rather than ~40s since it no
 longer needs to wait for the left one to unlock the cache.
 
-<!-- ![](https://images.waylonwalker.com/unlocked_discache.gif) -->
-<video controls muted autoplay playsinline loop=true width="100%">
-    <source src="https://images.waylonwalker.com/unlocked_discache.webm"
-            type="video/webm">
-    <source src="https://images.waylonwalker.com/unlocked_discache.mp4"
-            type="video/mp4">
-    Sorry, your browser doesn't support embedded videos.
-</video>
-
-<div class='speed-control'>
-    <button onclick="change_speed(.25)" >
-        speed up
-    </button>
-    <button onclick="change_speed(-.25)" >
-        slow down
-    </button>
-</div>
+![unlocked diskcache](https://dropper.waylonwalker.com/file/ee4e94aa-779d-49bc-b96c-4f5eb98b29c6.mp4)
 
 ## I've learned
 

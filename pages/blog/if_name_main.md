@@ -51,21 +51,7 @@ python nodes.py
 
 > This will print out `you are running me as main`
 
-<video controls muted autoplay playsinline loop=true width="100%">
-    <source src="https://images.waylonwalker.com/if_name_main_python_nodes.webm"
-            type="video/webm">
-    <source src="https://images.waylonwalker.com/if_name_main_python_nodes.mp4"
-            type="video/mp4">
-    Sorry, your browser doesn't support embedded videos.
-</video>
-<div class='speed-control'>
-    <button onclick="change_speed(.25)" >
-        speed up
-    </button>
-    <button onclick="change_speed(-.25)" >
-        slow down
-    </button>
-</div>
+![if name main python nodes](https://dropper.waylonwalker.com/file/aa7658c6-b356-4511-97dc-2d41c9dc0107.mp4)
 
 [[ install-miniconda ]]
 
@@ -81,21 +67,7 @@ chmod +x nodes.py
 ./nodes.py
 ```
 
-<video controls muted autoplay playsinline loop=true width="100%">
-    <source src="https://images.waylonwalker.com/if_name_main_nodes.webm"
-            type="video/webm">
-    <source src="https://images.waylonwalker.com/if_name_main_nodes.mp4"
-            type="video/mp4">
-    Sorry, your browser doesn't support embedded videos.
-</video>
-<div class='speed-control'>
-    <button onclick="change_speed(.25)" >
-        speed up
-    </button>
-    <button onclick="change_speed(-.25)" >
-        slow down
-    </button>
-</div>
+![if name main nodes](https://dropper.waylonwalker.com/file/aa7658c6-b356-4511-97dc-2d41c9dc0107.mp4)
 
 > Note once you have set the file to be executable, it will remain executable
 > `chmod +x nodes.py` is only needed one time, even if you edit the file.
@@ -120,21 +92,7 @@ python pipeline.py
 
 > Either way it will print out `you have imported me nodes from ./pipeline.py`
 
-<video controls muted autoplay playsinline loop=true width="100%">
-    <source src="https://images.waylonwalker.com/if_name_main_pipeline.webm"
-            type="video/webm">
-    <source src="https://images.waylonwalker.com/if_name_main_pipeline.mp4"
-            type="video/mp4">
-    Sorry, your browser doesn't support embedded videos.
-</video>
-<div class='speed-control'>
-    <button onclick="change_speed(.25)" >
-        speed up
-    </button>
-    <button onclick="change_speed(-.25)" >
-        slow down
-    </button>
-</div>
+![if name main pipeline](https://dropper.waylonwalker.com/file/cf5a5f94-ce7c-4524-b15f-010b6ce44b03.mp4)
 
 ## REPL
 
@@ -155,21 +113,7 @@ The [rich](https://github.com/willmcgugan/rich) library uses it to make
 examples of each module print to the screen if it's executed.  I personally
 think this is a fantastic idea.
 
-<video controls muted autoplay playsinline loop=true width="100%">
-    <source src="https://images.waylonwalker.com/if_name_main_rich.webm"
-            type="video/webm">
-    <source src="https://images.waylonwalker.com/if_name_main_rich.mp4"
-            type="video/mp4">
-    Sorry, your browser doesn't support embedded videos.
-</video>
-<div class='speed-control'>
-    <button onclick="change_speed(.25)" >
-        speed up
-    </button>
-    <button onclick="change_speed(-.25)" >
-        slow down
-    </button>
-</div>
+![if name main rich](https://dropper.waylonwalker.com/file/b604b78c-b7fd-4abd-897c-4bea414593aa.mp4)
 
 ### etl
 

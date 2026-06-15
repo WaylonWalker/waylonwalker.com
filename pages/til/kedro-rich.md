@@ -30,7 +30,7 @@ bars and pretty prints.
 kedro run
 ```
 
-![kedro rich pretty run](https://images.waylonwalker.com/kedro-rich-run.png)
+![kedro rich pretty run](https://dropper.waylonwalker.com/file/fc807030-c03e-42e7-a721-f7787589c85a.webp)
 
 
 ## Kedro catalog
@@ -42,7 +42,7 @@ table.
 kedro catalog list
 ```
 
-![kedro rich catalog list table output](https://images.waylonwalker.com/kedro-rich-catalog-list.png)
+![kedro rich catalog list table output](https://dropper.waylonwalker.com/file/f254966b-c8e3-479d-b9df-130dfdc4e46f.webp)
 
 ## Give it a star
 

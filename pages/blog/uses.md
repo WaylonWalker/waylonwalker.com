@@ -75,7 +75,7 @@ the built in themese look good, I use the One-Half-Dark Theme, and the built in
 Cascadia Code font.  Also things like system clipboards, copy, and paste just
 seem to work better, and integrate well with wsl.
 
-![My Windows Terminal from may 2022](https://images.waylonwalker.com/Windows-Terminal-0522.webp)
+![My Windows Terminal from may 2022](https://dropper.wayl.one/file/bc2054b9-fc9b-415a-8a05-a5a290668a96.webp)
 
 ## Shell
 

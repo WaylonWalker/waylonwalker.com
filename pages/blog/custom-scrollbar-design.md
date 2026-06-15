@@ -23,7 +23,7 @@ Since [uses.tech](https://uses.tech) is open source I jumped on github, searched
 
 My first step was to take his css and copy it into a styled component for my entire layout, but it failed.  I do not fully understand why.  None of the custom style came through at all.  If you know please leave me a comment.
 
-![](https://images.waylonwalker.com/why-wont-you-work.jpg)
+![](https://dropper.waylonwalker.com/file/cf2d73bd-b73a-4479-b562-2f48b46130ee.webp)
 
 I suspect for some reason it has to do with attatching to the html element inside of a styled-component.  I think wes was able to get around this by using `createGlobalStyle`.  But I was still using much of the default gatsby template, so I did not have a `createGlobalStyle` element, but I did have a layout.css.
 
@@ -66,7 +66,8 @@ import './static/scroll.css
 
  It was a bit finicky for me to find the right place to put everything, but this is the final result.  I found out that you can have a gradient on your `scrollbar-thumb`, but the `scrollbar-track` cannot, it also cannot be transparent.  I picked a color that matched my background the best for most use cases, but when the screen gets really narrow a line starts to appear.
 
-![My final result](https://images.waylonwalker.com/custom-scrollbar-with-css.gif "my final result, an example give of the final result live on waylonwalker.com")
+![My final result](https://dropper.waylonwalker.com/file/2e5cb9cc-4ddc-4d9f-9b25-459d171a6802.mp4)
+my final result, an example give of the final result live on waylonwalker.com
 
 > My final result
 

@@ -17,7 +17,7 @@ jinja: True
 
 ## Author
 
-![Waylon Walker's Profile Picture](https://images.waylonwalker.com/profile.webp)
+![Waylon Walker's Profile Picture](https://dropper.wayl.one/file/305cfd06-db8a-412d-9a21-57c280e6137c.webp)
 
 All posts on this site are written by [Waylon
 Walker](https://waylonwalker.com), the typical content has changed and evolved

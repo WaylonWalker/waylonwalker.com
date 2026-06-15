@@ -25,7 +25,7 @@ code, some are useful more usefule for exploration.
 
 ## 📚 Catalog
 
-![catalogs](https://images.waylonwalker.com/jesse-orrico-h6xNSDlgciU-unsplash.jpg)
+![a set of metal drawers](https://dropper.wayl.one/file/c999790d-443c-414c-9943-d6d30b9e4932.webp)
 _Photo by jesse orrico on Unsplash_
 
 ### CSVLocalDataSet
@@ -179,7 +179,7 @@ ExcelLocalDataSet
 
 ## ⏳ Loading Data
 
-![loading data](https://images.waylonwalker.com/battlecreek-coffee-roasters-eg6OUchGCsw-unsplash.jpg)
+![loading data](https://dropper.wayl.one/file/f1590608-89c9-493d-8ab6-2378bab55b2c.webp)
 _Photo by Battlecreek Coffee Roasters on Unsplash_
 
 ### Simple Loading
@@ -314,7 +314,7 @@ DataCatalog({**cat1.__dict__['_data_sets'], **cat2.__dict__['_data_sets']})
 
 ## 🛢 Building pipelines
 
-![building pipelines](https://images.waylonwalker.com/roman-pentin-T5QT2bmiD4E-unsplash.jpg)
+![heavy equipment laying down large pipelines](https://dropper.wayl.one/file/f1590608-89c9-493d-8ab6-2378bab55b2c.webp)
 _Photo by roman pentin on Unsplash_
 
 ### 📍 Creating Nodes
@@ -367,7 +367,7 @@ for dataset in datasets
 
 ## 🏃‍♂️ Running Pipelines
 
-![running pipelines](https://images.waylonwalker.com/rodion-kutsaev-xNdPWGJ6UCQ-unsplash.jpg)
+![A person walking on a large pipeline](https://dropper.wayl.one/file/ce1fa2b1-d2d2-4449-a7ca-ea7f47953ca6.webp)
 _Photo by Rodion Kutsaev on Unsplash_
 
 **🔖 filter by tags**

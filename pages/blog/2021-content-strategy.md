@@ -47,8 +47,7 @@ I am really enjoying the slide output of my articles on
 [LinkedIn](https://www.linkedin.com/in/waylonwalker/detail/recent-activity/shares/). It makes for something that is unique and easy to digest. I have a pandoc script that takes in the markdown from my posts and kicks out a set of slides, so it's quick and easy to do. Not every post works well this way by many have so
 far.
 
-![my linked in slide
-activity](https://images.waylonwalker.com/linkedin-activity-slides.gif)
+![f5748ab0-f3bb-4fcf-8034-53067b170b02.mp4](https://dropper.wayl.one/file/f5748ab0-f3bb-4fcf-8034-53067b170b02.mp4)
 
 ## Threads
 

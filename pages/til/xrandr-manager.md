@@ -8,7 +8,7 @@ tags:
   - linux
 ---
 
-![a stable diffusion done with a111 web ui](https://images.waylonwalker.com/9cd8d65495366b8d57d805ca0faf5fd5.webp)
+![a stable diffusion done with a111 web ui](https://dropper.waylonwalker.com/file/23ece302-0444-40a0-84b5-a448ceb03180.webp)
 
 xrandr is a great cli to manage your windows in a linux distro using x11, which
 is most of them. The issue is that I can never remember all the flags to the

@@ -81,8 +81,7 @@ published: true
 
 I recently finished up the flexbox-zombies course to learn more about flexbox, and to become proficient with it.  I can truly say that this course has changed the way that I create layouts.  Flexbox is very intuitive now.  What this course does really well at is explaining the concepts and hitting you with a ton of examples that you can work through really quickly.
 
-
-![flexbox-zombies](https://images.waylonwalker.com/flex.png)
+![flexbox-zombies](https://dropper.wayl.one/file/2c10ccd2-fbf7-4b91-a427-643a6d9b9a81.webp)
 
 > A clip from the final round against Dave
 

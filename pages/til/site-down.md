@@ -70,7 +70,7 @@ So the latest click was released just a few hours before this build.  This
 feels like we are getting somewhere.  Either click did a poor job of issuing
 deprecation warnings, or I was ignoring them in my build pipeline.
 
-![click 8.1.0 release date on pypi](https://images.waylonwalker.com/click-8-1-0-release-date.png)
+![click 8.1.0 release date on pypi](https://dropper.waylonwalker.com/file/67075480-87c7-4e05-8d12-c1602c9261b2.webp)
 
 ## pin it and push
 _let's fix this build now_

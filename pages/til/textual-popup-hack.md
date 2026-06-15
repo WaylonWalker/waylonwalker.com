@@ -52,7 +52,7 @@ async def action_new_post(self) -> None:
 Here is what the running todo application looks like with the copier
 popup over it.
 
-![example of the popup running over textual](https://images.waylonwalker.com/textual-popup-hack.png)
+![example of the popup running over textual](https://dropper.waylonwalker.com/file/87d0b679-df6f-40df-b0f4-666608d254ec.webp)
 
 [[ tmux-popups ]]
 

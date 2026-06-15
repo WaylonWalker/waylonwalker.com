@@ -179,4 +179,4 @@ pe.run()
 Here is a short clip of me running the pluggy example in it's default
 state, then adding the LowerHook, and running a second time.
 
-![example video](https://images.waylonwalker.com/til-pluggy-example.gif)
+![example video](https://dropper.waylonwalker.com/file/529ac0bb-42e9-49d5-ae05-dda34bfc16e5.mp4)

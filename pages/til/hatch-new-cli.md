@@ -5,8 +5,7 @@ title: Create a new Python Project with the Hatch Cli
 published: true
 tags:
   - python
-cover: https://images.waylonwalker.com/hatch-new.png
-
+cover: https://dropper.waylonwalker.com/file/86bc196b-60ae-4a74-a7c9-48aebb2edc0e.webp
 ---
 
 I'm really getting into using hatch as my go to build system, and I am really
@@ -15,7 +14,7 @@ liking it so far.  I am slowly finding new  things that just work really well.
 it.
 
 
-![Hatch new cover image](https://images.waylonwalker.com/hatch-new.png)
+![Hatch new cover image](https://dropper.waylonwalker.com/file/86bc196b-60ae-4a74-a7c9-48aebb2edc0e.webp)
 
 > creating new versions created by myself with stable diffusion
 
@@ -87,7 +86,7 @@ another-project
 > Note! all of these examples will create a project directory within your
 > current working directory.
 
-!["An astronaut working in a lab, there is a series of eggs ready to hatch baby snakes on the table, experiments running, beakers, test tubes, cyberpunk, octane render, trending on artstation, neon lighting, volumetric lighting, pink lighting" -s50 -W800 -H450 -C10.0 -Ak_lms -S324995023](https://stable-diffusion.waylonwalker.com/000146.324995023.webp)
+!["An astronaut working in a lab, there is a series of eggs ready to hatch baby snakes on the table, experiments running, beakers, test tubes, cyberpunk, octane render, trending on artstation, neon lighting, volumetric lighting, pink lighting" -s50 -W800 -H450 -C10.0 -Ak_lms -S324995023](https://dropper.waylonwalker.com/file/da377ba0-89f8-4b40-b0a6-c2c742c6b11f.webp)
 
 ## --init
 _existing project_
@@ -261,4 +260,4 @@ that it created.  This is a pretty incredible startup time.
 
 ![pipx-run-hatch-hello-world.webp](https://dropper.waylonwalker.com/api/file/608b7c9c-3cff-4659-87d4-6e5618f6dbcb.webp)
 
-!["An astronaut working in a lab, there is a series of eggs ready to hatch baby snakes on the table, experiments running, beakers, test tubes, cyberpunk trending on artstation, neon lighting, volumetric lighting, pink lighting" -s50 -W800 -H450 -C7.5 -Ak_lms -S2274808816](https://stable-diffusion.waylonwalker.com/000136.2274808816.webp)
+!["An astronaut working in a lab, there is a series of eggs ready to hatch baby snakes on the table, experiments running, beakers, test tubes, cyberpunk trending on artstation, neon lighting, volumetric lighting, pink lighting" -s50 -W800 -H450 -C7.5 -Ak_lms -S2274808816](https://dropper.waylonwalker.com/file/bb318422-4943-4cf2-b987-cab4839ebfce.webp)

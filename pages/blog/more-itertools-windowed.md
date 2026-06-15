@@ -102,18 +102,7 @@ expanded_content = "\n".join(
 **meta**: 👇  This is an example of a one-line-link card that we are trying to
 achieve.
 
-<a class="onelinelink" href="https://waylonwalker.com/python-args-kwargs/">
-<img style="float: right;" align='right' src="https://images.waylonwalker.com/python-args-kwargs-slides-dev_250x105.png" alt="article cover">
-<div class="right">
-    <h2>understanding python *args and **kwargs</h2>
-    <p class="description">
-    Python `*args` and `**kwargs` are super useful tools, that when used properly can make you code much simpler and easier to maintain.  Large manual conversions from a dataset to function arguments can be packed and unpacked into lists or dictionaries. Beware though, this power **can** lead to some really unreadable/unusable code if done wrong.
-    </p>
-    <p class="url">
-    <span class="read-more">read more</span>  waylonwalker.com
-    </p>
-</div>
-</a>
+![[ python-args-kwargs ]]
 
 > Not sure what *line is, check out this article.
 

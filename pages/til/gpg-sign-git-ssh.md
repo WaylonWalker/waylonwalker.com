@@ -36,7 +36,7 @@ export GPG_TTY=$(tty)
 
 This is what it looks like when it asks for the passphrase.
 
-![enter your passphrase to unlock your gpg key](https://images.waylonwalker.com/gpg-passphrase-unlock.png)
+![enter your passphrase to unlock your gpg key](https://dropper.waylonwalker.com/file/9089a37a-fdbb-4f00-9f4a-3fef8e0402f3.webp)
 
 ## EDIT-another way
 
