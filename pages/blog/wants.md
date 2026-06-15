@@ -1,7 +1,7 @@
 ---
 date: 2025-05-27 21:01:14
 templateKey: blog-post
-title: wants
+title: /wants
 tags:
   - slash
 published: True
