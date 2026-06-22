@@ -23,6 +23,7 @@ CANONICAL_DROPPER_HOST = "dropper.waylonwalker.com"
 
 
 def clean_title(title: str) -> str:
+    title = title.replace("💭", "")
     title = re.sub(r"\(\d+[^)]*\)", "", title)
     title = title.strip()
     if len(title) > 65:
@@ -58,8 +59,7 @@ def normalize_dropper_urls(text: str) -> str:
 
 def generate_post(post: dict) -> str:
     cleaned_title = clean_title(post["title"])
-    title = "💭 " + cleaned_title.lstrip("💭 ")
-    title = title.replace("'", "''")
+    title = cleaned_title.replace("'", "''")
     tags = [tag.strip() for tag in post["tags"].split(",")]
     # tags.append("thoughts")
     tags.append("thought")
@@ -87,11 +87,6 @@ published: true
 ![[{link}]]
 
 {message}
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts
 """
     return content
 
