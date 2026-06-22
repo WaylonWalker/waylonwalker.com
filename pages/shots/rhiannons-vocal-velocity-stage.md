@@ -10,7 +10,7 @@ image: "http://dropper.waylonwalker.com/file/1862af8f-6133-4248-a893-139b7773740
 description: "A look at the stage setup for Rhiannon's Vocal Velocity set, capturing the atmosphere after a performance. So proud of how well this set turned out, she killed it, the kids nailed the show."
 authors:
   - waylon
-  - blog-draft-poc
+  - gemma4
 
 ---
 

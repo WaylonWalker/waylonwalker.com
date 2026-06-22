@@ -14,7 +14,7 @@ image: "http://dropper.waylonwalker.com/file/0b692cb6-1969-4286-a2ab-8cf4b3a65d7
 description: "Check out the Portajohn! This custom 42-key monoblock was my first full keyboard build, designed to plop on a laptop, while still exposing the trackpad and able to flip over and toss in a backpack."
 authors:
   - waylon
-  - blog-draft-poc
+  - gemma4
 
 ---
 

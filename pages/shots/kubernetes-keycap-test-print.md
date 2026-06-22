@@ -13,7 +13,7 @@ image: "http://dropper.waylonwalker.com/file/aac943d2-70ca-46a5-8656-6705cbe7f1c
 description: "This test print features a custom keycap designed with a Kubernetes logo."
 authors:
   - waylon
-  - blog-draft-poc
+  - gemma4
 
 ---
 

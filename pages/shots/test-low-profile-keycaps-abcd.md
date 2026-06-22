@@ -13,7 +13,7 @@ image: "http://dropper.waylonwalker.com/file/ca30665f-1a15-453e-aab8-221901c7df9
 description: "Finally got my first set of keycaps with letters! These low-profile keys look perfect for customizing my keyboard setup."
 authors:
   - waylon
-  - blog-draft-poc
+  - gemma4
 
 ---
 

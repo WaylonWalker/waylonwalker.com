@@ -12,7 +12,7 @@ image: "http://dropper.waylonwalker.com/file/569e5358-57aa-48dc-babe-7ace148ce54
 description: "This leather-topped palm rest was the final home for my keebmaker Corne, perfectly positioning the mouse right in the middle for optimal ergonomics."
 authors:
   - waylon
-  - blog-draft-poc
+  - gemma4
 
 ---
 

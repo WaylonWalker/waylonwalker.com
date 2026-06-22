@@ -12,7 +12,7 @@ image: "http://dropper.waylonwalker.com/file/c3659136-dfee-418f-97d2-3738d7d7fff
 description: "I'm setting up production workloads on my desktop, perhaps against my better judgment, building my blog hourly without much fuss"
 authors:
   - waylon
-  - blog-draft-poc
+  - gemma4
 
 ---
 

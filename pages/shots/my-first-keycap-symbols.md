@@ -13,7 +13,7 @@ image: "http://dropper.waylonwalker.com/file/6e693ed5-846f-4caf-829f-9961f7aca4a
 description: "These are more keycaps from my very first set that I designed and printed myself. Some of the symbols are a little wonky, and a few were too thin to print cleanly."
 authors:
   - waylon
-  - blog-draft-poc
+  - gemma4
 
 ---
 

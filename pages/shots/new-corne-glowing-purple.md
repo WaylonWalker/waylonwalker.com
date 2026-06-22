@@ -13,7 +13,7 @@ image: "http://dropper.waylonwalker.com/file/0ac13714-bbf4-4dd3-b7e0-c575a459056
 description: "These kaihl browns, loving them. This is going to be a trip to get used to, I thought typing on a column stagger layout would be hard to get used to, nope, its the symbols, that 4th layer is hard to get rid of."
 authors:
   - waylon
-  - blog-draft-poc
+  - gemma4
 
 ---
 

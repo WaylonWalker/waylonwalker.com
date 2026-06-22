@@ -13,7 +13,7 @@ image: "http://dropper.waylonwalker.com/file/661743eb-fe6a-430b-b36a-a0e8bf1b9bb
 description: "Completing my first batch of keycaps designed and printed entirely by myself on the Bambu Lab A1."
 authors:
   - waylon
-  - blog-draft-poc
+  - gemma4
 
 ---
 

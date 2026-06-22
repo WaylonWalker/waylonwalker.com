@@ -11,7 +11,7 @@ image: "http://dropper.waylonwalker.com/file/b3d39b10-dd9f-4825-9436-41cd67a0130
 description: "These Shun knives are my daily driversm in the kitchen, offering both performance and style."
 authors:
   - waylon
-  - blog-draft-poc
+  - gemma4
 
 ---
 
