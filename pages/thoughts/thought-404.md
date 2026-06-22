@@ -1,5 +1,5 @@
 ---
-title: '💭 Background Image | Wallpaper · Issue #3059 · helix-editor/helix'
+title: 'Background Image | Wallpaper · Issue #3059 · helix-editor/helix'
 date: 2024-10-08T13:02:53
 template: link
 link: https://github.com/helix-editor/helix/issues/3059
@@ -40,8 +40,3 @@ inherits = "dracula"
 # ~/.config/helix/config.toml
 theme="dracula_transparant"
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

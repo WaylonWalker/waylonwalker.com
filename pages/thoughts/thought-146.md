@@ -1,5 +1,5 @@
 ---
-title: '💭 Translate a Docker Compose File to Kubernetes Resources | Kube...'
+title: 'Translate a Docker Compose File to Kubernetes Resources | Kube...'
 date: 2023-10-22T02:04:18
 template: link
 link: https://kubernetes.io/docs/tasks/configure-pod-container/translate-compose-kubernetes/
@@ -25,8 +25,3 @@ kompose convert
 kompose convert -o deployment.yaml
 ```
 
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

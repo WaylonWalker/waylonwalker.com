@@ -1,5 +1,5 @@
 ---
-title: '💭 Realign – Chris Coyier'
+title: 'Realign – Chris Coyier'
 date: 2025-01-04T14:25:02
 template: link
 link: https://chriscoyier.net/2025/01/03/realign/
@@ -24,8 +24,3 @@ I really like this after thinking about it and I think I am going to make sure I
 I can totally relate to this, once you open the thing, you get the build tools greased up, and your confidence high that re-deploying isn't going to mess something up, I tend to start digging in to other things.
 
 
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

@@ -1,5 +1,5 @@
 ---
-title: '💭 Handling Errors - FastAPI'
+title: 'Handling Errors - FastAPI'
 date: 2023-12-17T03:47:43
 template: link
 link: https://fastapi.tiangolo.com/tutorial/handling-errors/
@@ -43,8 +43,3 @@ async def read_unicorn(name: str):
         raise UnicornException(name=name)
     return {"unicorn_name": name}
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

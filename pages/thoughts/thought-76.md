@@ -1,5 +1,5 @@
 ---
-title: '💭 Create Models with a Many-to-Many Link - SQLModel'
+title: 'Create Models with a Many-to-Many Link - SQLModel'
 date: 2023-08-09T13:37:15
 template: link
 link: https://sqlmodel.tiangolo.com/tutorial/many-to-many/create-models-with-link/
@@ -51,8 +51,3 @@ class Hero(SQLModel, table=True):
 
     teams: List[Team] = Relationship(back_populates="heroes", link_model=HeroTeamLink)
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

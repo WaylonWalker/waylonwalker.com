@@ -1,5 +1,5 @@
 ---
-title: '💭 Damn, I love dropper already'
+title: 'Damn, I love dropper already'
 date: 2024-12-18T00:42:07
 template: link
 link: https://thoughts.waylonwalker.com/post/448
@@ -22,8 +22,3 @@ When I paste an image into my thoughts chrome extension it automatically uploads
 ![image](https://dropper.waylonwalker.com/api/file/1d2da59e-5212-4a56-82f8-81b9e5356159.webp)
 
 check out https://thoughts.waylonwalker.com/post/448  for some sweet styled rss
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

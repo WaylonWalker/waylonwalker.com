@@ -1,5 +1,5 @@
 ---
-title: '💭 Background Tasks - FastAPI'
+title: 'Background Tasks - FastAPI'
 date: 2024-07-03T16:17:45
 template: link
 link: https://fastapi.tiangolo.com/tutorial/background-tasks/
@@ -34,8 +34,3 @@ async def send_notification(email: str, background_tasks: BackgroundTasks):
     background_tasks.add_task(write_notification, email, message="some notification")
     return {"message": "Notification sent in the background"}
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

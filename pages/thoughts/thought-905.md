@@ -1,5 +1,5 @@
 ---
-title: '💭 Oxide and Friends 1/5/2026 -- Predictions 2026!! - YouTube'
+title: 'Oxide and Friends 1/5/2026 -- Predictions 2026!! - YouTube'
 date: 2026-01-09T21:41:43
 template: link
 link: https://www.youtube.com/clip/UgkxKSVMasWf0UpGaRVRqeBmn9C5Oh1syH2Q
@@ -80,8 +80,3 @@ own codegen and like
 
 > claude is happy to pull out GDB and just like
 
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

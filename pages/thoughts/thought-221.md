@@ -1,5 +1,5 @@
 ---
-title: '💭 learning strawberry'
+title: 'learning strawberry'
 date: 2024-03-20T21:43:45
 template: link
 link: None
@@ -150,8 +150,3 @@ router = GraphQLRouter(
 app = FastAPI()
 
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

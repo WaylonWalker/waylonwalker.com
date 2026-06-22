@@ -1,5 +1,5 @@
 ---
-title: '💭 jesseduffield/lazydocker: The lazier way to manage everything ...'
+title: 'jesseduffield/lazydocker: The lazier way to manage everything ...'
 date: 2024-03-07T14:14:17
 template: link
 link: https://github.com/jesseduffield/lazydocker
@@ -17,8 +17,3 @@ I've been using this for a few weeks now and it's fantastic.  It's reminds me of
 > tldr `docker ps` on steroids
 
 ![](https://github.com/jesseduffield/lazydocker/blob/master/docs/resources/demo3.gif?raw=true)
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

@@ -1,5 +1,5 @@
 ---
-title: '💭 The Future of HTMX - YouTube'
+title: 'The Future of HTMX - YouTube'
 date: 2025-01-13T02:45:27
 template: link
 link: https://www.youtube.com/watch?v=0rtpsJSLb44&t=624s
@@ -23,8 +23,3 @@ Htmx brings html/css just a bit further down the complexity graph with little to
 htmx brings us back to the ease of jquery ajax without any complex swapping or json parsing, all of the object parsing and html templating is done in the backend, the front end just tracks where to put it.  HTMX couples the frontend and backend much tigher, since all of the front end html is generated in the backend, done correctly it is not possible for the front end to get out of sync and try to do things that the back end does not know how to handle, vice versa.
 
 ![image](https://dropper.waylonwalker.com/api/file/aa09051d-7e36-43a3-b6da-a6257cad1cc9.webp)
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

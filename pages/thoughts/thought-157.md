@@ -1,5 +1,5 @@
 ---
-title: '💭 johanhaleby/kubetail: Bash script to tail Kubernetes logs from...'
+title: 'johanhaleby/kubetail: Bash script to tail Kubernetes logs from...'
 date: 2023-10-31T01:04:16
 template: link
 link: https://github.com/johanhaleby/kubetail
@@ -26,8 +26,3 @@ Now with kubetail I can tail all the logs for every shot-wayl-one pod in the sho
 ```
 
 ![output from running the kubetail command](https://screenshots.waylonwalker.com/kubetail.png)
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

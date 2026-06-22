@@ -1,5 +1,5 @@
 ---
-title: '💭 API — Jinja Documentation'
+title: 'API — Jinja Documentation'
 date: 2023-08-04T23:35:09
 template: link
 link: https://jinja.palletsprojects.com/en/3.0.x/api/#jinja2.FileSystemLoader
@@ -29,8 +29,3 @@ loader = FileSystemLoader("templates")
 # A list of paths can be given. The directories will be searched in order, stopping at the first matching template.
 loader = FileSystemLoader(["/override/templates", "/default/templates"])
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

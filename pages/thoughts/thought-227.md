@@ -1,5 +1,5 @@
 ---
-title: '💭 fastapi decorators'
+title: 'fastapi decorators'
 date: 2024-03-26T13:50:46
 template: link
 link: None
@@ -170,8 +170,3 @@ def defaults(data=default_data):
 
     return inner_wrapper
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

@@ -1,5 +1,5 @@
 ---
-title: '💭 Retrieve an upcoming invoice | Stripe API Reference'
+title: 'Retrieve an upcoming invoice | Stripe API Reference'
 date: 2023-12-07T14:49:51
 template: link
 link: https://stripe.com/docs/api/invoices/upcoming
@@ -31,8 +31,3 @@ currency = invoice.currency
 ```
 
 
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

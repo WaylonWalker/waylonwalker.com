@@ -1,5 +1,5 @@
 ---
-title: '💭 Build UIs that don''t suck - YouTube'
+title: 'Build UIs that don''t suck - YouTube'
 date: 2025-04-15T13:50:53
 template: link
 link: https://www.youtube.com/watch?v=-h9rH539x1k
@@ -18,8 +18,3 @@ How to make an entire clickable without presenting the entire content of the car
 
 * isolate - scope z-index inside this element so that it does not leak out.
 * [.relative [.absolute, inset-0, z-10]] - the inset zero is a modern shorthand for zeroing all sides, top-0, right-0, bottom-0, left-0.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

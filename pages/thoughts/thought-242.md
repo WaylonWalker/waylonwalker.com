@@ -1,5 +1,5 @@
 ---
-title: '💭 My harpoon config'
+title: 'My harpoon config'
 date: 2024-04-16T01:34:38
 template: link
 link: None
@@ -77,8 +77,3 @@ end
 
 return M
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

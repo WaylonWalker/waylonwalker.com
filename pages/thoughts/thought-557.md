@@ -1,5 +1,5 @@
 ---
-title: '💭 Proompted Kiddies Learning The Hard Way - YouTube'
+title: 'Proompted Kiddies Learning The Hard Way - YouTube'
 date: 2025-02-14T19:15:41
 template: link
 link: https://www.youtube.com/watch?v=eNIBie_uYMI
@@ -20,8 +20,3 @@ Damn prime makes an interesting point near then end of this video.  He's seen a 
 
 ![image](https://dropper.waylonwalker.com/api/file/d43265cd-7fe1-4cb4-a22e-d82a37a2e368.webp)
 
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

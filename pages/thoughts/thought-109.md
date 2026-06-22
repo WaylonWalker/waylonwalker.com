@@ -1,5 +1,5 @@
 ---
-title: '💭 aca/emmet-ls: Emmet support based on LSP.'
+title: 'aca/emmet-ls: Emmet support based on LSP.'
 date: 2023-09-08T12:34:38
 template: link
 link: https://github.com/aca/emmet-ls
@@ -39,8 +39,3 @@ lspconfig.emmet_ls.setup({
     }
 })
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

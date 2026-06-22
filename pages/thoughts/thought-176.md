@@ -1,5 +1,5 @@
 ---
-title: '💭 Protect API docs behind authentication? · Issue #364 · tiangol...'
+title: 'Protect API docs behind authentication? · Issue #364 · tiangol...'
 date: 2023-12-12T01:27:04
 template: link
 link: https://github.com/tiangolo/fastapi/issues/364
@@ -66,8 +66,3 @@ async def get_redoc_documentation(username: str = Depends(get_current_username))
 async def openapi(username: str = Depends(get_current_username)):
     return get_openapi(title=app.title, version=app.version, routes=app.routes
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

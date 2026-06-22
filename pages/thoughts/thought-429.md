@@ -1,5 +1,5 @@
 ---
-title: '💭 statically makes OG images **easy**'
+title: 'statically makes OG images **easy**'
 date: 2024-11-17T21:48:04
 template: link
 link: https://cdn.statically.io/og/statically%20makes%20OG%20images%20**easy**
@@ -23,8 +23,3 @@ Staically makes creating OG images so easy, you can just pop this in your <head>
     <meta name="og:image:width" content="1280" />
 ```
 
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

@@ -1,5 +1,5 @@
 ---
-title: '💭 Releases · bootandy/dust'
+title: 'Releases · bootandy/dust'
 date: 2025-01-19T18:58:42
 template: link
 link: https://github.com/bootandy/dust?tab=readme-ov-file
@@ -17,8 +17,3 @@ dust is one of my favorite rust rewrite tools.  Its so useful for narrowing down
 
 
 ![image](https://dropper.waylonwalker.com/api/file/31b206fd-d508-451e-ba96-860c5d8110d1.webp)
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

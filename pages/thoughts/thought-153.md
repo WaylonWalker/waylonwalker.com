@@ -1,5 +1,5 @@
 ---
-title: '💭 </> htmx ~ Locality of Behaviour (LoB)'
+title: '</> htmx ~ Locality of Behaviour (LoB)'
 date: 2023-10-28T01:11:56
 template: link
 link: https://htmx.org/essays/locality-of-behaviour/
@@ -32,8 +32,3 @@ Interesting principle here.  What a great example, If I'm looking at the second 
 ``` html
 <button id="d1">Click Me</button>
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

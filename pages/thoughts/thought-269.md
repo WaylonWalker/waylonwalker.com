@@ -1,5 +1,5 @@
 ---
-title: '💭 Fields - Pydantic'
+title: 'Fields - Pydantic'
 date: 2024-05-09T20:28:27
 template: link
 link: https://docs.pydantic.dev/2.7/concepts/fields/#field-representation
@@ -29,8 +29,3 @@ user = User(name='John', age=42)
 print(user)
 #> name='John'
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

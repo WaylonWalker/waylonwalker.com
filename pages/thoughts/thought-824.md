@@ -1,5 +1,5 @@
 ---
-title: '💭 Vibe code is legacy code | Val Town Blog'
+title: 'Vibe code is legacy code | Val Town Blog'
 date: 2025-09-03T02:14:45
 template: link
 link: https://blog.val.town/vibe-code
@@ -21,8 +21,3 @@ Brilliantly said.  Vibe coding is legacy code.  It's code that we forget exists.
 > As you can imagine, the first phase is ecstatic. I can wave this little piece of plastic in stores and take whatever I want! ...
 
 Read more in the full [post](https://blog.val.town/vibe-code)
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

@@ -1,5 +1,5 @@
 ---
-title: '💭 pipedream/justfile at main · thechangelog/pipedream'
+title: 'pipedream/justfile at main · thechangelog/pipedream'
 date: 2024-12-14T16:54:34
 template: link
 link: https://github.com/thechangelog/pipedream/blob/main/justfile
@@ -44,8 +44,3 @@ Usage
 echo:
     echo {{_BOLD}}{{_GREEN}}hello there{{_RESET}}
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

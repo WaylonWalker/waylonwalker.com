@@ -1,5 +1,5 @@
 ---
-title: '💭 DHH IS RIGHT ABOUT EVERYTHING (Again)? - YouTube'
+title: 'DHH IS RIGHT ABOUT EVERYTHING (Again)? - YouTube'
 date: 2025-06-07T22:49:47
 template: link
 link: https://www.youtube.com/watch?v=EIBxRMH4bvs
@@ -23,8 +23,3 @@ Something I had never put thoughts to is how do you feel when class is cancelled
 This all just gets your foot in the door.  If you spent none of that time learning it will become apparent really fast and you will not climb the ladder.  Yes climbing the corp ladder is cliche, but at some point you probably want paid more and get opportunity to make more decisions.  And if it turns out you really suck, you're going to find yourself looking for a new job with no skill and a big pile of student debt sitting behind you.
 
 Student debt is probably one of the biggest issues of our generation that only appears to be getting worse, everything signals your need to go to college, presige is important.  It feels like the other side is filled with glory lots of money and you will have all that debt paid off in no time.  I get it when you're 18 and you see 50k or 100k in student debt, but 80k or 150k salaries on the other side its like damn I make nothing right now I'll have that paid off in no time.  Then you get out and realize everything costs serious money, housing, kids, cars, broken AC units, and you cant pay off 50k in a year and a half making 80k.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

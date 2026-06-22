@@ -1,5 +1,5 @@
 ---
-title: '💭 cURL Command Without Using Cache | Baeldung on Linux'
+title: 'cURL Command Without Using Cache | Baeldung on Linux'
 date: 2023-08-21T13:39:41
 template: link
 link: https://www.baeldung.com/linux/curl-without-cache#adding-the-pragma-http-header
@@ -22,8 +22,3 @@ curl -H 'Cache-Control: no-cache, no-store' http://www.example.com
 curl -H 'Pragma: no-cache' http://www.example.com
 curl http://www.example.com/?xyzzyspoon
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

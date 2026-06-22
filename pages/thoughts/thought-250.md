@@ -1,5 +1,5 @@
 ---
-title: '💭 Rug pull, not cool! (Changelog & Friends #40)'
+title: 'Rug pull, not cool! (Changelog & Friends #40)'
 date: 2024-04-20T01:36:03
 template: link
 link: https://changelog.com/friends/40
@@ -29,8 +29,3 @@ I later saw this through a YT short, and man does it hold up to the creepy level
 > [MarkdownDown](https://markdowndown.vercel.app/)
 
 This is a legit cool service, that converts html into markdown
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

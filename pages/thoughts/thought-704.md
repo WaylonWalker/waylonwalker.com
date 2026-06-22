@@ -1,5 +1,5 @@
 ---
-title: '💭 Bug: Pypi metadata is wrong (Requires: Python >=3.6) · Issue #...'
+title: 'Bug: Pypi metadata is wrong (Requires: Python >=3.6) · Issue #...'
 date: 2025-06-18T02:04:41
 template: link
 link: https://github.com/jmcnamara/XlsxWriter/issues/1131
@@ -23,8 +23,3 @@ It appears to have broken builds on Canonical/checkbox for ubuntu 18.04.  Checkb
 https://github.com/canonical/checkbox/actions/runs/14644718138/job/41098549191#step:8:125
 
 ![image](https://dropper.waylonwalker.com/api/file/6fe3e01b-e180-4d2a-a00c-6b9fab727626.webp)
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

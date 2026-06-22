@@ -1,5 +1,5 @@
 ---
-title: '💭 Cursor + Windsurf Settings to 5x AI''s Output Quality (Works wi...'
+title: 'Cursor + Windsurf Settings to 5x AI''s Output Quality (Works wi...'
 date: 2024-12-24T21:28:08
 template: link
 link: https://www.youtube.com/watch?v=aG-utUqVrb0
@@ -35,8 +35,3 @@ He suggests to use this key rule for debugging purposes, otherwise you are guess
 ``` txt
 Every time you choose to apply a rule(s), explicitly state the rule(s) in the output.  You can abbreviate the rule description to a single word or phrase.
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

@@ -1,5 +1,5 @@
 ---
-title: '💭 charmbracelet/mods: AI on the command line'
+title: 'charmbracelet/mods: AI on the command line'
 date: 2024-01-26T02:15:14
 template: link
 link: https://github.com/charmbracelet/mods
@@ -25,8 +25,3 @@ You can continue the conversation with a `-C`
 ```
 
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

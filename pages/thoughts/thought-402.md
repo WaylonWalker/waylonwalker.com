@@ -1,5 +1,5 @@
 ---
-title: '💭 configuring pylsp · helix-editor/helix · Discussion #6623'
+title: 'configuring pylsp · helix-editor/helix · Discussion #6623'
 date: 2024-10-08T02:23:03
 template: link
 link: https://github.com/helix-editor/helix/discussions/6623
@@ -29,8 +29,3 @@ plugins.pycodestyle.maxLineLength = 88
 command = "black"
 args = ["--line-length", "88", "--quiet", "-"]
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

@@ -1,5 +1,5 @@
 ---
-title: '💭 Filter Data - WHERE - SQLModel'
+title: 'Filter Data - WHERE - SQLModel'
 date: 2023-07-28T14:59:37
 template: link
 link: https://sqlmodel.tiangolo.com/tutorial/where/#filter-rows-using-where-with-sqlmodel
@@ -34,8 +34,3 @@ async def get_post_by_link(
 
     return post
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

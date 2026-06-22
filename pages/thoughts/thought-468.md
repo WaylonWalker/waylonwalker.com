@@ -1,5 +1,5 @@
 ---
-title: '💭 4 Tips for Building a Production-Ready FastAPI Backend - YouTube'
+title: '4 Tips for Building a Production-Ready FastAPI Backend - YouTube'
 date: 2024-12-26T02:42:17
 template: link
 link: https://www.youtube.com/watch?v=XlnmN4BfCxw
@@ -26,8 +26,3 @@ I really like this advice!  He reccommends deploying as early as you can get a h
 
 https://youtu.be/XlnmN4BfCxw?si=ks1wvmgDyoQLgrv2&t=1093
 
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

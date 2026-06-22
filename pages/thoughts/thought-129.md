@@ -1,5 +1,5 @@
 ---
-title: '💭 wincent/aspects/dotfiles/files/.zshrc at 85fc42d9e96d408a5b367...'
+title: 'wincent/aspects/dotfiles/files/.zshrc at 85fc42d9e96d408a5b367...'
 date: 2023-10-10T12:38:22
 template: link
 link: https://github.com/wincent/wincent/blob/85fc42d9e96d408a/aspects/dotfiles/files/.zshrc
@@ -55,8 +55,3 @@ zstyle ':completion:*:descriptions' format %F{default}%B%{$__WINCENT[ITALIC_ON]%
 # (not just tab/shift-tab but cursor keys as well):
 zstyle ':completion:*' menu select
 ``` 
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

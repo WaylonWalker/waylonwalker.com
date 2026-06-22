@@ -1,5 +1,5 @@
 ---
-title: '💭 Lazy self-installing Python scripts with uv'
+title: 'Lazy self-installing Python scripts with uv'
 date: 2024-12-24T03:20:33
 template: link
 link: https://treyhunner.com/2024/12/lazy-self-installing-python-scripts-with-uv/
@@ -34,8 +34,3 @@ And here is the new format the the shebang followed by the metadata comment bloc
 # ///
 ```
 
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

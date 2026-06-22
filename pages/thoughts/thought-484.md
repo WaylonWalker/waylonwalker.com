@@ -1,5 +1,5 @@
 ---
-title: '💭 How to configure base url for all requests using HTMX? - Stack...'
+title: 'How to configure base url for all requests using HTMX? - Stack...'
 date: 2024-12-30T16:25:49
 template: link
 link: https://stackoverflow.com/questions/69456875/how-to-configure-base-url-for-all-requests-using-htmx
@@ -24,8 +24,3 @@ Today I learned how to configure the baseurl for htmx using the <base> tag.  Thi
     Click Me!
   </button>
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

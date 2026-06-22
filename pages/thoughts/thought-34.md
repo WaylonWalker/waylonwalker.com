@@ -1,5 +1,5 @@
 ---
-title: '💭 Python API - DuckDB'
+title: 'Python API - DuckDB'
 date: 2023-07-28T14:59:37
 template: link
 link: https://duckdb.org/docs/api/python/overview.html
@@ -31,8 +31,3 @@ con.table('test').show()
 # explicitly close the connection
 con.close()
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

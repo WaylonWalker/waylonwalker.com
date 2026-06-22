@@ -1,5 +1,5 @@
 ---
-title: '💭 Taildrop · Tailscale Docs'
+title: 'Taildrop · Tailscale Docs'
 date: 2024-09-24T13:19:09
 template: link
 link: https://tailscale.com/kb/1106/taildrop?tab=linux
@@ -19,8 +19,3 @@ What was not obvious to me was how to receive the file on linux.  The linux tail
 ``` bash
 sudo tailscale file get .
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

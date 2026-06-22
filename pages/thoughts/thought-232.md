@@ -1,5 +1,5 @@
 ---
-title: '💭 Optimizing SQLite for servers'
+title: 'Optimizing SQLite for servers'
 date: 2024-04-01T20:55:23
 template: link
 link: https://kerkour.com/sqlite-for-servers
@@ -37,8 +37,3 @@ I might need to have a table of cached results, and if a write matches the count
 > SQLite doesn't keep statistics about its indexes, unlike PostgreSQL, so COUNT queries are slow, even when using a WHERE clause on an indexed field: SQLite has to scan for all the matching records.
 
 > One solution is to use a trigger on INSERT and DELETE that updates a running count in a separate table then query that separate table to find the latest count.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

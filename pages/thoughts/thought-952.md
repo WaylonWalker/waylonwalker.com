@@ -1,5 +1,5 @@
 ---
-title: '💭 paynepride dot com outage on vacation'
+title: 'paynepride dot com outage on vacation'
 date: 2026-03-26T08:20:22
 template: link
 link: https://pype.dev/paynepride-dot-com-outage-on-vacation/
@@ -17,8 +17,3 @@ oof, outage on the homelab during vacation, brutal.  I can think of a couple of 
 An untested DR plan is not a DR plan.
 
 An untested backup does not exist.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

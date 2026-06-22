@@ -1,5 +1,5 @@
 ---
-title: '💭 URL Decoding query strings or form parameters in Python | URLD...'
+title: 'URL Decoding query strings or form parameters in Python | URLD...'
 date: 2023-07-28T14:59:37
 template: link
 link: https://www.urldecoder.io/python/
@@ -35,8 +35,3 @@ async def get_post_by_link(
 
     return post
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

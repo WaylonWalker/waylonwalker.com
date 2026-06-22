@@ -1,5 +1,5 @@
 ---
-title: '💭 Using Rich Inspect to interrogate Python objects - Textual'
+title: 'Using Rich Inspect to interrogate Python objects - Textual'
 date: 2023-07-29T00:58:00
 template: link
 link: https://textual.textualize.io/blog/2023/07/27/using-rich-inspect-to-interrogate-python-objects/
@@ -28,8 +28,3 @@ I have a pyflyby entry for it so that I can just run it ang get automatic import
 ``` python
 from rich import inspect as rinspect
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

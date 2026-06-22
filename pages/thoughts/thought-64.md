@@ -1,5 +1,5 @@
 ---
-title: '💭 Read a Range of Data - LIMIT and OFFSET - SQLModel'
+title: 'Read a Range of Data - LIMIT and OFFSET - SQLModel'
 date: 2023-08-01T00:10:15
 template: link
 link: https://sqlmodel.tiangolo.com/tutorial/limit-and-offset/?h=#combine-limit-and-offset-with-where
@@ -22,8 +22,3 @@ def select_heroes():
         heroes = results.all()
         print(heroes)
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

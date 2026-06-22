@@ -1,5 +1,5 @@
 ---
-title: '💭 </> htmx ~ The client-side-templates Extension'
+title: '</> htmx ~ The client-side-templates Extension'
 date: 2023-07-28T14:59:37
 template: link
 link: https://htmx.org/extensions/client-side-templates/
@@ -45,8 +45,3 @@ example htmx using templates.
 </body>
 </html>
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

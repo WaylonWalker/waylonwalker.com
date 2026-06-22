@@ -1,5 +1,5 @@
 ---
-title: '💭 Custom Gridfinity Bins For ANYTHING! - YouTube'
+title: 'Custom Gridfinity Bins For ANYTHING! - YouTube'
 date: 2024-12-26T19:02:29
 template: link
 link: https://www.youtube.com/watch?v=_TtkaIe0ZKU&t=409s
@@ -20,8 +20,3 @@ This tip of using tinkercad to do boolean operations on an stl of a solid gridfi
 It took me a minute to find the Merge button that Uncle Jessy mentioned, they call it a group in TinkerCAD.
 
 ![image](https://dropper.waylonwalker.com/api/file/a22fc486-d627-4e37-8d58-e963919bb8a0.webp)
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

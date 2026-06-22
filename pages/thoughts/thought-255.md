@@ -1,5 +1,5 @@
 ---
-title: '💭 </> htmx ~ The response-targets Extension'
+title: '</> htmx ~ The response-targets Extension'
 date: 2024-04-30T18:00:54
 template: link
 link: https://htmx.org/extensions/response-targets/
@@ -40,8 +40,3 @@ Use  the extension on an endpoint that might return a 400.
     <div id="not-found"></div>
 </div>
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

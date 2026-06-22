@@ -1,5 +1,5 @@
 ---
-title: '💭 Explaining the Most Important Artemis II Photos - YouTube'
+title: 'Explaining the Most Important Artemis II Photos - YouTube'
 date: 2026-04-09T21:44:47
 template: link
 link: https://www.youtube.com/watch?v=oaXRREHVkHo
@@ -18,8 +18,3 @@ What an amazing set of photos created by the Artemis II crew accompanying a fant
 I like this one, as its probably one of the ones not shred a ton
 
 Whole gallery is worth looking at https://www.nasa.gov/gallery/lunar-flyby/
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

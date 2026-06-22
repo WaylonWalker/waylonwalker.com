@@ -1,5 +1,5 @@
 ---
-title: '💭 One Script Tag Just Pwn''d Over 100,000 Websites - YouTube'
+title: 'One Script Tag Just Pwn''d Over 100,000 Websites - YouTube'
 date: 2024-06-28T16:08:20
 template: link
 link: https://www.youtube.com/watch?v=ILvNG1STUZU&t=286s
@@ -17,8 +17,3 @@ Supply chain attacks are so big these days engineers definitely need to take the
 > What I see has happened in this case is that the owner of the domain polyfill.io changed. so anyone who directly linked to them got a malware injected script used.  
 
 I can only imagine the number of applicatons that are not even being maintained anymore getting hit by this.  TLDR, if you are taking something to production, where you are goind to deploy it and let it run, host the js yourself.  these cdns are great for prototyping, but tread with caution.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

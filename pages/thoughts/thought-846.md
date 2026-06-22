@@ -1,5 +1,5 @@
 ---
-title: '💭 PEP 735 – Dependency Groups in pyproject.toml | peps.python.org'
+title: 'PEP 735 – Dependency Groups in pyproject.toml | peps.python.org'
 date: 2025-10-01T16:25:57
 template: link
 link: https://peps.python.org/pep-0735/
@@ -44,8 +44,3 @@ The docs describe extras as being intended to ship with the application and depe
 > Note that this specification does not forbid having an extra whose name matches a Dependency Group.
 >
 > Users are advised to avoid creating Dependency Groups whose names match extras. Tools MAY treat such matching as an error.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

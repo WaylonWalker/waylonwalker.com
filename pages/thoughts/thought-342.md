@@ -1,5 +1,5 @@
 ---
-title: '💭 FastHX'
+title: 'FastHX'
 date: 2024-07-10T12:53:15
 template: link
 link: https://volfpeter.github.io/fasthx/
@@ -58,8 +58,3 @@ def htmx_only() -> list[User]:
     return [User(first_name="Billy", last_name="Shears")]
 
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

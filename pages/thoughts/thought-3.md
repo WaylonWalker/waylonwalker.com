@@ -1,5 +1,5 @@
 ---
-title: '💭 python script is not found'
+title: 'python script is not found'
 date: 2023-07-28T14:59:37
 template: link
 link: None
@@ -27,8 +27,3 @@ export PATH=$PATH:~/.local/bin
 ```
 
 To make this change permanant add this line to your shell's init script, which is likely something like `~/.bashrc` or `~/.zshrc`.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

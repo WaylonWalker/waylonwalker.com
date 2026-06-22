@@ -1,5 +1,5 @@
 ---
-title: '💭 kv - Command | Vault | HashiCorp Developer'
+title: 'kv - Command | Vault | HashiCorp Developer'
 date: 2023-11-05T03:26:51
 template: link
 link: https://developer.hashicorp.com/vault/docs/commands/kv
@@ -89,8 +89,3 @@ vault kv get secret/creds
 # passcode    my-long-passcode
 
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

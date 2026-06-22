@@ -1,5 +1,5 @@
 ---
-title: '💭 pacman/Tips and tricks - ArchWiki'
+title: 'pacman/Tips and tricks - ArchWiki'
 date: 2024-07-06T16:52:09
 template: link
 link: https://wiki.archlinux.org/title/pacman/Tips_and_tricks
@@ -18,8 +18,3 @@ The arch wiki is always full of good content, and pacman tips and tricks does no
 ``` bash
 pacman -Qdtq | pacman -Rns -
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

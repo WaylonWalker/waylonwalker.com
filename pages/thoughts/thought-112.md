@@ -1,5 +1,5 @@
 ---
-title: '💭 Pagefind | Pagefind — Static low-bandwidth search at scale'
+title: 'Pagefind | Pagefind — Static low-bandwidth search at scale'
 date: 2023-09-20T01:04:41
 template: link
 link: https://pagefind.app/
@@ -40,8 +40,3 @@ Then I put this on a page, it looks really nice on a white background, but would
     });
 </script>
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

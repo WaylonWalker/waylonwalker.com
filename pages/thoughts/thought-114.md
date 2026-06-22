@@ -1,5 +1,5 @@
 ---
-title: '💭 How to run pods as systemd services with Podman | Enable Sysadmin'
+title: 'How to run pods as systemd services with Podman | Enable Sysadmin'
 date: 2023-09-22T01:12:19
 template: link
 link: https://www.redhat.com/en/blog/podman-run-pods-systemd-services
@@ -33,8 +33,3 @@ $ podman generate systemd --new --files --name my-pod
 /home/vrothberg/.config/systemd/user/container-container-b.service
 /home/vrothberg/.config/systemd/user/container-container-a.service
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

@@ -1,5 +1,5 @@
 ---
-title: '💭 Document how to provide a negative number as an argument · fas...'
+title: 'Document how to provide a negative number as an argument · fas...'
 date: 2024-10-30T01:28:56
 template: link
 link: https://github.com/fastapi/typer/discussions/798
@@ -39,8 +39,3 @@ def working_good(value: float):
 if __name__ == "__main__":
     app()
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

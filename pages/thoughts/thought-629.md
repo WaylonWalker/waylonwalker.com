@@ -1,5 +1,5 @@
 ---
-title: '💭 Week Links №2: April 2025 - daverupert.com'
+title: 'Week Links №2: April 2025 - daverupert.com'
 date: 2025-05-09T13:49:04
 template: link
 link: https://daverupert.com/2025/05/week-links-2/
@@ -18,8 +18,3 @@ This hits so close to home, I even went through the effort of making a weeknotes
 
 ![image](https://dropper.waylonwalker.com/api/file/b1a5212b-846f-4144-82ab-51cd9ace086d.webp)
 
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

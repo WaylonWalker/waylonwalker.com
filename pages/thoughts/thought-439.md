@@ -1,5 +1,5 @@
 ---
-title: '💭 Using OPNsense with Tailscale · Tailscale Docs'
+title: 'Using OPNsense with Tailscale · Tailscale Docs'
 date: 2024-12-03T17:37:52
 template: link
 link: https://tailscale.com/kb/1097/install-opnsense
@@ -36,8 +36,3 @@ now uncheck secure shell to lock down the opnsense machine.
 
 In opnsense System > Settings > Administration > Secure Shell > Enable Secure Shell
 
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

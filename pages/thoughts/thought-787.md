@@ -1,5 +1,5 @@
 ---
-title: '💭 20 Percent Time – Ted Merz'
+title: '20 Percent Time – Ted Merz'
 date: 2025-08-07T14:19:33
 template: link
 link: https://ted-merz.com/2022/09/14/20-percent-time/?utm_source=chatgpt.com
@@ -21,8 +21,3 @@ I clearly remember having a conversation with a colleague several salary grades 
 > That said, I don’t think any major tech company is going to adopt 20% time these days. It’s too chaotic, too hard to manage and impossible to measure.
 
 This line from Ted feels exactly why 20 percent time generally blows up and likely turns into another [killed-by-google](https://killedbygoogle.com/) product that has a small user base and is furious about it being killed.  With enough of these at least one **cough** _reader_ **cough** has affected us all.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

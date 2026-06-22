@@ -1,5 +1,5 @@
 ---
-title: '💭 Adam Wathan on X: "Hear me out. https://t.co/QHkEI6SJYZ" / X'
+title: 'Adam Wathan on X: "Hear me out. https://t.co/QHkEI6SJYZ" / X'
 date: 2023-12-13T01:22:17
 template: link
 link: https://twitter.com/adamwathan/status/1734696245015494711
@@ -30,8 +30,3 @@ Oh and [@ryanflorence](https://twitter.com/ryanflorence) also says in the commen
 
 > I ... do this.
 
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

@@ -1,5 +1,5 @@
 ---
-title: '💭 jack cuts block in half'
+title: 'jack cuts block in half'
 date: 2026-02-27T11:29:10
 template: link
 link: https://x.com/jack/status/2027129697092731343?s=20
@@ -21,8 +21,3 @@ Much better than the get rid of people cause AI can do the work.  Honestly I fee
 I'm far from working in a large software org like this and I'm feeling it.  I only imagine that it gets worse the more people that have to orchestrate around each other.
 
 Appreciate the honesty and transparance, but man this sucks for those impacted and the job market right now.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

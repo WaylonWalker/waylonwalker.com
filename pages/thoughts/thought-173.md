@@ -1,5 +1,5 @@
 ---
-title: '💭 Search | Stripe Documentation'
+title: 'Search | Stripe Documentation'
 date: 2023-12-06T21:54:17
 template: link
 link: https://stripe.com/docs/search#search-query-language
@@ -18,8 +18,3 @@ Stripe has it's own query language for querying data.  I'm just getting into usi
 ``` python
 stripe.Price.search(query="active: 'true' and product: 'prod_P8SfwtxJ45cWE2'")
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

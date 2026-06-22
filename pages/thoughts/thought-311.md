@@ -1,5 +1,5 @@
 ---
-title: '💭 Episode #323 Best practices for Docker in production - [Talk P...'
+title: 'Episode #323 Best practices for Docker in production - [Talk P...'
 date: 2024-06-16T00:55:12
 template: link
 link: https://talkpython.fm/episodes/show/323/best-practices-for-docker-in-production
@@ -21,8 +21,3 @@ Don't trust base images for security, upgrade your packages.  Vulnerabilties bec
 For job based containers pre-compile your pyc for faster startup.
 
 Alpine linux is probably not what you want for python.  Many packages such as postgres ship pre-copiled binaries that work for most linux distributions wich use glibc, but alpine uses musl so the binaries will be incompatable requiring you to need to install a bunch of build dependencies.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

@@ -1,5 +1,5 @@
 ---
-title: '💭 Use an llm to automagically generate meaningful git commit mes...'
+title: 'Use an llm to automagically generate meaningful git commit mes...'
 date: 2024-04-11T13:35:50
 template: link
 link: https://harper.blog/2024/03/11/use-an-llm-to-automagically-generate-meaningful-git-commit-messages/
@@ -34,8 +34,3 @@ gpt = "!f() { git diff $1 | llm -s \"$(cat ~/.config/prompts/commit-system-promp
 
 I completely relate to this statement, and this is why I am trying it.
 
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

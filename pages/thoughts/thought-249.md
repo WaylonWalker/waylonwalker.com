@@ -1,5 +1,5 @@
 ---
-title: '💭 argocd automated sync'
+title: 'argocd automated sync'
 date: 2024-04-19T19:36:47
 template: link
 link: none
@@ -34,8 +34,3 @@ spec:
     automated:
       prune: true
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

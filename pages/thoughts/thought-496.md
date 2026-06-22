@@ -1,5 +1,5 @@
 ---
-title: '💭 Fork Around And Find Out | Remaining Authentic in Retirement w...'
+title: 'Fork Around And Find Out | Remaining Authentic in Retirement w...'
 date: 2025-01-03T16:39:51
 template: link
 link: https://share.transistor.fm/s/a9e41e15
@@ -20,8 +20,3 @@ Justin even mentions how Google has more killedbygoogle projects than Amazon has
 > If we knew how hard it would be, we would never build it.
 
 Autumn's Fav quote from ep1 of shipit
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

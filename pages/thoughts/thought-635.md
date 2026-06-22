@@ -1,5 +1,5 @@
 ---
-title: '💭 Chris Biscardi''s Digital Garden'
+title: 'Chris Biscardi''s Digital Garden'
 date: 2025-05-12T13:05:33
 template: link
 link: https://www.christopherbiscardi.com/wtf-is-kubernetes
@@ -22,8 +22,3 @@ There are a lot of beginner friendly k8s distros that you can setup with relativ
 ## When else might you want k8s
 
 Internal, on-prem, self hosted.  If you are trying to avoid the cloud for cost, rules, regulations, red tape, kubernetes is a great option to manage your container workflows yourself without needing to have a cloud budget, get approvals and sign offs on running workflows in a public cloud.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

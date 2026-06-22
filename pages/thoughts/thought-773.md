@@ -1,5 +1,5 @@
 ---
-title: '💭 Quoting Meet Gor | Kubernetes isn''t for you'
+title: 'Quoting Meet Gor | Kubernetes isn''t for you'
 date: 2025-08-02T14:44:18
 template: link
 link: https://www.meetgor.com/thoughts/kubernetes-isn-t-for-you/
@@ -19,8 +19,3 @@ published: true
 > Use your grug brains a little and choose wisely! In the end, who the hell cares if you use kubernetes or bash scripts to scale if your users are happy?
 
 Well Said!
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

@@ -1,5 +1,5 @@
 ---
-title: '💭 all lt keys to hl · WaylonWalker/zmk-config-42block@ce25356'
+title: 'all lt keys to hl · WaylonWalker/zmk-config-42block@ce25356'
 date: 2024-07-22T13:42:46
 template: link
 link: https://github.com/WaylonWalker/zmk-config-42block/commit/ce25356e88eb2439182201700314133de719457e
@@ -30,8 +30,3 @@ Today I swapped out all of my keys that are used dual purpose for letters and la
             flavor = "tap-preferred";
         };
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

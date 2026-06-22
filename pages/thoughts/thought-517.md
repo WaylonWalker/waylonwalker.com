@@ -1,5 +1,5 @@
 ---
-title: '💭 cyclotruc/gitingest: Replace ''hub'' with ''ingest'' in any github...'
+title: 'cyclotruc/gitingest: Replace ''hub'' with ''ingest'' in any github...'
 date: 2025-01-09T13:46:33
 template: link
 link: https://github.com/cyclotruc/gitingest
@@ -31,8 +31,3 @@ Options:
   -i, --include-pattern TEXT  Patterns to include
   --help                      Show this message and exit.
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

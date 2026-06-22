@@ -1,5 +1,5 @@
 ---
-title: '💭 There’s a TUI for that with Nick Janetakis (Changelog & Friend...'
+title: 'There’s a TUI for that with Nick Janetakis (Changelog & Friend...'
 date: 2024-07-24T02:47:39
 template: link
 link: https://changelog.com/friends/53
@@ -24,8 +24,3 @@ As experts we often come up wtih a post title for the exact thing that we are tr
 Definitely an eye opening conversation listening to two experts sit in shock as the beginner just gets dropped big tech articles, and Nick Jani-freakin-takis doesn't even hit the query page after page.
 
 Also hats off to Nick for keeping a 2014 machine alive, I got you beat by a few years on my 2011 free give away machine, but I stopped daily driving that two years ago, and its purely a homelab now.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

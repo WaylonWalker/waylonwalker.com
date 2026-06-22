@@ -1,5 +1,5 @@
 ---
-title: '💭 Pinout and Schematic - nice!nano'
+title: 'Pinout and Schematic - nice!nano'
 date: 2024-07-10T12:40:26
 template: link
 link: https://nicekeyboards.com/docs/nice-nano/pinout-schematic/
@@ -58,8 +58,3 @@ Pinout for nice!nano boards.   Note that P0.15 means gpio port 0 pin 15, they ca
 
 
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

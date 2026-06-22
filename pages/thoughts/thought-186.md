@@ -1,5 +1,5 @@
 ---
-title: '💭 logs with FastAPI and Uvicorn · Issue #1508 · tiangolo/fastapi'
+title: 'logs with FastAPI and Uvicorn · Issue #1508 · tiangolo/fastapi'
 date: 2023-12-15T22:04:42
 template: link
 link: https://github.com/tiangolo/fastapi/issues/1508
@@ -25,8 +25,3 @@ async def startup_event():
     handler.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(message)s"))
     logger.addHandler(handler)
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

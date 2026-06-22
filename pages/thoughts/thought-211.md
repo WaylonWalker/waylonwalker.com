@@ -1,5 +1,5 @@
 ---
-title: '💭 searching my thoughts locally'
+title: 'searching my thoughts locally'
 date: 2024-03-07T23:42:00
 template: link
 link: None
@@ -43,8 +43,3 @@ Now I am ready to search my thoughts, which is a tiny blog format that I created
   <img src="https://stuff.charm.sh/vhs/badge.svg">
 </a>
 
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

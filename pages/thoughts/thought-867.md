@@ -1,5 +1,5 @@
 ---
-title: '💭 Post | LinkedIn'
+title: 'Post | LinkedIn'
 date: 2025-11-11T02:43:05
 template: link
 link: https://www.linkedin.com/posts/anton-martyniuk_mark-zuckerberg-scaled-facebook-in-2005-activity-7393550498584371201-iqDA/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACM7I2cBosNBb12iAVlY0IZbLYYHgFOyIg4
@@ -17,8 +17,3 @@ Lean on your skills and your goals. If your goals are to have fun, use whatever 
 The sentiment in this post is fine at best the picture feels triggering and oversimplies  way too much.  If you like kubernetes [[ just-fucking-use-kubernetes ]].
 
 This topic deserves a full on post, maybe later.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

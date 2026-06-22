@@ -1,5 +1,5 @@
 ---
-title: '💭 How to Configure DNS over TLS (DoT) Using Unbound DNS in OPNsense'
+title: 'How to Configure DNS over TLS (DoT) Using Unbound DNS in OPNsense'
 date: 2024-06-09T15:40:11
 template: link
 link: https://homenetworkguy.com/how-to/configure-dns-over-tls-unbound-opnsense/
@@ -16,8 +16,3 @@ Setting up DNS overTLS in opnsense has made my dns just a bit more secure and re
 
 !!! Note
    I did try to setup the family resolver and found it was blocking some sites I am ok with.  I decided to drop back to the vanilla resolver and let other services within opnsense control blocking where I can caontrol the whitelist myself.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

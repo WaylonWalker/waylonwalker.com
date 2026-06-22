@@ -1,5 +1,5 @@
 ---
-title: '💭 charmbracelet/mods: AI on the command line'
+title: 'charmbracelet/mods: AI on the command line'
 date: 2024-01-26T02:15:42
 template: link
 link: https://github.com/charmbracelet/mods
@@ -30,8 +30,3 @@ You can pass it some data
 ``` bash
 curl https://waylonwalker.com/thoughts-on-unit-tests/ | mods -f 'summarize this post'
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

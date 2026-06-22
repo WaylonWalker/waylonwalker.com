@@ -1,5 +1,5 @@
 ---
-title: '💭 distrobox/docs/usage/distrobox-assemble.md at main · 89luca89/...'
+title: 'distrobox/docs/usage/distrobox-assemble.md at main · 89luca89/...'
 date: 2024-09-30T15:49:25
 template: link
 link: https://github.com/89luca89/distrobox/blob/main/docs/usage/distrobox-assemble.md
@@ -45,8 +45,3 @@ exported_apps="htop"
 exported_bins="/usr/bin/htop /usr/bin/git"
 exported_bins_path="~/.local/bin"
 ````
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

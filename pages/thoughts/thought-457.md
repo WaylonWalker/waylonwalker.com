@@ -1,5 +1,5 @@
 ---
-title: '💭 My approach to running a link blog'
+title: 'My approach to running a link blog'
 date: 2024-12-23T01:47:47
 template: link
 link: https://simonwillison.net/2024/Dec/22/link-blog/#atom-everything
@@ -74,8 +74,3 @@ I just noticed that Simon has Series on his blog in a very elegant way.  One I n
 
 ![image](https://dropper.waylonwalker.com/api/file/ec59349e-cca7-4fa9-a57e-50cc442305db.webp)test
 
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

@@ -1,5 +1,5 @@
 ---
-title: '💭 inline-snapshot'
+title: 'inline-snapshot'
 date: 2024-04-17T18:37:15
 template: link
 link: https://15r10nk.github.io/inline-snapshot/
@@ -42,8 +42,3 @@ def something():
 def test_something():
     assert something() == snapshot(28620972)
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

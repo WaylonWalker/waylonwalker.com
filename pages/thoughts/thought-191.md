@@ -1,5 +1,5 @@
 ---
-title: '💭 Mastodon.py — Mastodon.py 1.8.1 documentation'
+title: 'Mastodon.py — Mastodon.py 1.8.1 documentation'
 date: 2023-12-21T01:59:43
 template: link
 link: https://mastodonpy.readthedocs.io/en/stable/
@@ -34,8 +34,3 @@ mastodon.log_in(
 
 mastodon.toot('Tooting from Python using #mastodonpy !')
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

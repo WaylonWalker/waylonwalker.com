@@ -1,5 +1,5 @@
 ---
-title: '💭 fastapi https url_for'
+title: 'fastapi https url_for'
 date: 2024-03-24T18:15:48
 template: link
 link: None
@@ -43,8 +43,3 @@ def get_templates(config: BaseSettings) -> Jinja2Templates:
     return templates
 ```
 
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

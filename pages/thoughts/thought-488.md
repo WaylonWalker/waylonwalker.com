@@ -1,5 +1,5 @@
 ---
-title: '💭 Why Your Backend Shouldn''t Serve Files - YouTube'
+title: 'Why Your Backend Shouldn''t Serve Files - YouTube'
 date: 2024-12-31T16:24:28
 template: link
 link: https://www.youtube.com/watch?v=aybSXT9ZJ8w
@@ -19,8 +19,3 @@ My problem going straight out of minio right now is how do i set headers for cac
 ---
 
 I went back and played with presigned urls and you can in fact control and set response headers, this is definitely the way and I have been wrong.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

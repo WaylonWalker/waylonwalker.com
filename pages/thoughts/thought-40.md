@@ -1,5 +1,5 @@
 ---
-title: '💭 python 3.x - FastAPI redirection for trailing slash returns no...'
+title: 'python 3.x - FastAPI redirection for trailing slash returns no...'
 date: 2023-07-28T14:59:37
 template: link
 link: https://stackoverflow.com/questions/63511413/fastapi-redirection-for-trailing-slash-returns-non-ssl-link
@@ -38,8 +38,3 @@ To solve this issue, the post directs to set the `--forwarded-allow-ips` to '*'
 ``` bash
 uvicorn thoughts.api.app:app --port 5000 --reload --log-level info --host 0.0.0.0 --workers 1 --forwarded-allow-ips '*'
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

@@ -1,5 +1,5 @@
 ---
-title: '💭 Pin versions of dependencies · Issue #2200 · Kozea/WeasyPrint'
+title: 'Pin versions of dependencies · Issue #2200 · Kozea/WeasyPrint'
 date: 2024-10-11T13:36:19
 template: link
 link: https://github.com/Kozea/WeasyPrint/issues/2200
@@ -26,8 +26,3 @@ I fixed it by locking in pydyf at 0.8.0
 pydyf==0.8.0
 ```
 
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

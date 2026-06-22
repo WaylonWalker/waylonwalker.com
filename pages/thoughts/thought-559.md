@@ -1,5 +1,5 @@
 ---
-title: '💭 Chris Coyier'
+title: 'Chris Coyier'
 date: 2025-02-14T19:40:19
 template: link
 link: https://chriscoyier.net/2024/03/03/11148/
@@ -39,8 +39,3 @@ It makes me wonder where Signal gets this title is it from the title block or th
 
 
 
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

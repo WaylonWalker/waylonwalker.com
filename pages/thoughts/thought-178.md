@@ -1,5 +1,5 @@
 ---
-title: '💭 Why YOU should write a blog'
+title: 'Why YOU should write a blog'
 date: 2023-12-13T01:08:51
 template: link
 link: https://tushar.lol/post/write-a-blog/
@@ -41,8 +41,3 @@ At the end of the day.
 This post itself is a thought, the smallest component to my blogging strategy.
 
 > Write it down.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

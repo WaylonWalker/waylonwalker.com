@@ -1,5 +1,5 @@
 ---
-title: '💭 pywebview'
+title: 'pywebview'
 date: 2023-07-28T14:59:37
 template: link
 link: https://pywebview.flowrl.com/guide/usage.html
@@ -21,8 +21,3 @@ import webview
 webview.create_window('Woah dude!', 'https://thoughts.waylonwalker.com')
 webview.start()
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

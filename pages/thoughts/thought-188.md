@@ -1,5 +1,5 @@
 ---
-title: '💭 FastAPI - dependency inside Middleware? - Stack Overflow'
+title: 'FastAPI - dependency inside Middleware? - Stack Overflow'
 date: 2023-12-17T17:05:46
 template: link
 link: https://stackoverflow.com/questions/72243379/fastapi-dependency-inside-middleware#answer-72480781
@@ -42,8 +42,3 @@ app = FastAPI(dependencies=[Depends(recalculate_resources)])
 async def root(request: Request):
     return {"foo_from_dependency": request.state.foo}
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

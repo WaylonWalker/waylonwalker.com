@@ -1,5 +1,5 @@
 ---
-title: '💭 page-break-after - CSS: Cascading Style Sheets | MDN'
+title: 'page-break-after - CSS: Cascading Style Sheets | MDN'
 date: 2023-11-30T02:38:49
 template: link
 link: https://developer.mozilla.org/en-US/docs/Web/CSS/page-break-after
@@ -28,8 +28,3 @@ h3 {
   page-break-before: auto;
 }
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

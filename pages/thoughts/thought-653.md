@@ -1,5 +1,5 @@
 ---
-title: '💭 Command Line | gitignore.io / docs'
+title: 'Command Line | gitignore.io / docs'
 date: 2025-05-29T16:22:42
 template: link
 link: https://docs.gitignore.io/install/command-line
@@ -19,8 +19,3 @@ function gi() { curl -sLw \"\\\n\" https://www.toptal.com/developers/gitignore/a
 ```
 
 This now has me wondering "What else can build like this?"
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

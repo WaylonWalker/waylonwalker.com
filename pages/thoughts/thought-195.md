@@ -1,5 +1,5 @@
 ---
-title: '💭 Read a Range of Data - LIMIT and OFFSET - SQLModel'
+title: 'Read a Range of Data - LIMIT and OFFSET - SQLModel'
 date: 2024-01-12T02:18:35
 template: link
 link: https://sqlmodel.tiangolo.com/tutorial/limit-and-offset/
@@ -33,8 +33,3 @@ session.query(User, Images).join(Images).where(User.id == 3).all()
 ```
 
 
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

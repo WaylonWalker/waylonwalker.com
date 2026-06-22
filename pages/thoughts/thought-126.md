@@ -1,5 +1,5 @@
 ---
-title: '💭 Automatic browser reloading in FastAPI'
+title: 'Automatic browser reloading in FastAPI'
 date: 2023-10-08T15:16:56
 template: link
 link: https://gist.github.com/vrslev/6d0602bfa939a01844f645c608afb85a
@@ -65,8 +65,3 @@ In the template, load the script when in debug mode.
   %}
 </body>
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

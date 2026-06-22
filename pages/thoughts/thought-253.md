@@ -1,5 +1,5 @@
 ---
-title: '💭 ⭐⭐⭐⭐⭐ Changelog Master Feed'
+title: '⭐⭐⭐⭐⭐ Changelog Master Feed'
 date: 2024-04-20T01:47:19
 template: link
 link: https://changelog.com/master
@@ -17,8 +17,3 @@ Jerod (It's ya boi) and Adam are my favorite tech news nerds, and have the sicke
 Subscribe to one pod if you want, but I recommend collecting them all with the master feed.
 
 ⭐⭐⭐⭐⭐
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

@@ -1,5 +1,5 @@
 ---
-title: '💭 python 3.14 highlights! - YouTube'
+title: 'python 3.14 highlights! - YouTube'
 date: 2025-10-03T01:04:57
 template: link
 link: https://www.youtube.com/watch?v=-Z-BDux-TRk
@@ -27,8 +27,3 @@ uv tool run --python=3.14 python -m pdb -p8605
 
 ![screenshot-2025-10-03T01-11-02-918Z.png](https://dropper.waylonwalker.com/api/file/b5e1a34d-c198-440a-ab30-4498bfa6962a.png)
 
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

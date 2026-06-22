@@ -1,5 +1,5 @@
 ---
-title: '💭 A quote from Tim Paul'
+title: 'A quote from Tim Paul'
 date: 2024-05-14T02:21:17
 template: link
 link: https://simonwillison.net/2024/May/13/tim-paul/
@@ -23,8 +23,3 @@ Damn this Tim Paul quote finishes hard and such a good point.  None of the stuff
 > It would be ironic, and a huge shame, if AI hype sucked all the investment out of those things.
 
 — [Tim Paul](https://www.timpaul.co.uk/posts/using-ai-to-generate-web-forms-from-pdfs/)
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

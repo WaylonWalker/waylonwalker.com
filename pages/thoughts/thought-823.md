@@ -1,5 +1,5 @@
 ---
-title: '💭 Rich Pixels'
+title: 'Rich Pixels'
 date: 2025-09-02T13:43:58
 template: link
 link: https://simonwillison.net/2025/Sep/2/rich-pixels/#atom-everything
@@ -25,8 +25,3 @@ Some not so good, and needed the terminal font size cranked up.
 ![screenshot-2025-09-02T13-38-16-641Z.png](https://dropper.waylonwalker.com/api/file/a532f113-185e-44ef-bcf8-30eed7e3f62a.png)
 
 ![screenshot-2025-09-02T13-38-46-814Z.png](https://dropper.waylonwalker.com/api/file/a66d4d7a-975d-4909-88a2-3761e2d3348f.png)
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

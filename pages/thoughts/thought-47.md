@@ -1,5 +1,5 @@
 ---
-title: '💭 Form Data - FastAPI'
+title: 'Form Data - FastAPI'
 date: 2023-07-28T14:59:37
 template: link
 link: https://fastapi.tiangolo.com/tutorial/request-forms/#define-form-parameters
@@ -27,8 +27,3 @@ app = FastAPI()
 async def login(username: Annotated[str, Form()], password: Annotated[str, Form()]):
     return {"username": username}
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

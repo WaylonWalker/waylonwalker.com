@@ -1,5 +1,5 @@
 ---
-title: '💭 The One Eyed Fighting Kirby'
+title: 'The One Eyed Fighting Kirby'
 date: 2024-01-26T17:21:06
 template: link
 link: https://www.youtube.com/watch?v=9_Ekt1PZBzQ&t=351s
@@ -66,8 +66,3 @@ The given Vim substitute regex :%s/\(here\)\(.*\)\(there\)/\3\2\1 performs the f
 So, in summary, this command searches for the pattern "here", followed by any sequence of characters, and ending with "there", and replaces it with the same pattern but reversed ("there", followed by the original sequence of characters, and ending with "here").
 
 I used this techniq on [[ refactoring-into-wikilinks ]].
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

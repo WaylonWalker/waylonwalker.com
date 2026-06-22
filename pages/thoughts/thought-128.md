@@ -1,5 +1,5 @@
 ---
-title: '💭 Change Autocomplete Styles in WebKit Browsers | CSS-Tricks - C...'
+title: 'Change Autocomplete Styles in WebKit Browsers | CSS-Tricks - C...'
 date: 2023-10-10T01:48:04
 template: link
 link: https://css-tricks.com/snippets/css/change-autocomplete-styles-webkit-browsers/
@@ -33,8 +33,3 @@ select:-webkit-autofill:focus {
   transition: background-color 5000s ease-in-out 0s;
 }
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

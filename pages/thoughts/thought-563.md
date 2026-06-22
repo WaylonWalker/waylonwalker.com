@@ -1,5 +1,5 @@
 ---
-title: '💭 valkey-io/valkey: A flexible distributed key-value datastore t...'
+title: 'valkey-io/valkey: A flexible distributed key-value datastore t...'
 date: 2025-02-17T02:27:34
 template: link
 link: https://github.com/valkey-io/valkey
@@ -28,8 +28,3 @@ python -m venv .venv
 pip install "valkey[libvalkey]"
 ```
 
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

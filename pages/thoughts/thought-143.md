@@ -1,5 +1,5 @@
 ---
-title: '💭 Inspect a Kubernetes PersistentVolumeClaim | Frank Sauerburger'
+title: 'Inspect a Kubernetes PersistentVolumeClaim | Frank Sauerburger'
 date: 2023-10-21T01:34:08
 template: link
 link: https://frank.sauerburger.io/2021/12/01/inspect-k8s-pvc.html
@@ -49,8 +49,3 @@ ls /pvc
 # cleanup
 kubectl delete -f pvc-inspector.yml
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

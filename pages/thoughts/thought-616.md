@@ -1,5 +1,5 @@
 ---
-title: '💭 Playground | Red Knot'
+title: 'Playground | Red Knot'
 date: 2025-05-02T01:02:31
 template: link
 link: https://types.ruff.rs/
@@ -21,8 +21,3 @@ Here is an example where a Optional may not be defined.
 Checking for existance before using it resolves the issue.
 
 ![image](https://dropper.waylonwalker.com/api/file/cc28335c-4130-4bf4-829d-0ff39f2aa32d.webp)
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

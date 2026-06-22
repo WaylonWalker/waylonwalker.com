@@ -1,5 +1,5 @@
 ---
-title: '💭 How to Use HTML to Open a Link in a New Tab'
+title: 'How to Use HTML to Open a Link in a New Tab'
 date: 2023-08-09T13:44:01
 template: link
 link: https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/
@@ -20,8 +20,3 @@ Use this with restraint as this can make your site feel janky and do things that
 ``` html
 <p>Check out <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">freeCodeCamp</a>.</p>
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

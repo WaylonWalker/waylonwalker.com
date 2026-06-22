@@ -1,5 +1,5 @@
 ---
-title: '💭 Self-hosting Github'
+title: 'Self-hosting Github'
 date: 2025-12-02T03:45:10
 template: link
 link: https://www.youtube.com/shorts/MhZQTnfo8Ok
@@ -24,8 +24,3 @@ It will be interesting to see play out.
 
 ![](https://dropper.waylonwalker.com/file/95ae2a95-308b-4d1d-bff8-8ce6194db132.webp)
 
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

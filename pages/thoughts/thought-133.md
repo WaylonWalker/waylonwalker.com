@@ -1,5 +1,5 @@
 ---
-title: '💭 Ollama'
+title: 'Ollama'
 date: 2023-10-14T02:31:03
 template: link
 link: https://ollama.ai/
@@ -25,8 +25,3 @@ ollama list
 ```
 
 
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

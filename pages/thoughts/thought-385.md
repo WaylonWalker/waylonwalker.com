@@ -1,5 +1,5 @@
 ---
-title: '💭 NOT - LTT Screwdriver - Fancy by Erer2001 | Download free STL ...'
+title: 'NOT - LTT Screwdriver - Fancy by Erer2001 | Download free STL ...'
 date: 2024-08-27T02:13:03
 template: link
 link: https://www.printables.com/model/580045/files
@@ -23,8 +23,3 @@ I've had mine for about a year now, and I use it quite often.  I used to be a de
 Highly recommended print.  Sorry for not buying the real deal Linux, I got kids to feed here.  I owe you a t-shirt order or something.
 
 ![screenshot-2025-08-02T01-43-36-796Z.png](https://dropper.waylonwalker.com/api/file/c09f9f15-e9af-405c-b1bc-41c9759156ce.png)
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

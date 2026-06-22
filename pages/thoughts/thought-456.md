@@ -1,5 +1,5 @@
 ---
-title: '💭 How I use Obsidian Templater'
+title: 'How I use Obsidian Templater'
 date: 2024-12-22T17:12:50
 template: link
 link: https://thoughts.waylonwalker.com/post/455
@@ -39,8 +39,3 @@ And the total request time goes from 351ms to 21ms with the Cloudflare CDN, quit
 ---
 
 Sorry with how meta these last two posts were, I needed a second post to get that fresh request graph from.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

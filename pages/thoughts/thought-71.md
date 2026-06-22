@@ -1,5 +1,5 @@
 ---
-title: '💭 `ValueError: Constraint must have a name` in alembic 1.10.0 · ...'
+title: '`ValueError: Constraint must have a name` in alembic 1.10.0 · ...'
 date: 2023-08-05T01:25:07
 template: link
 link: https://github.com/sqlalchemy/alembic/issues/1195
@@ -27,8 +27,3 @@ The change I needed to make to get my migration to run.
 
         + batch_op.create_foreign_key('fk_post_author_id_user', 'user', ['author_id'], ['id'])
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

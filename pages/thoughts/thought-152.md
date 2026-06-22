@@ -1,5 +1,5 @@
 ---
-title: '💭 Creating k8s jobs with python'
+title: 'Creating k8s jobs with python'
 date: 2023-10-28T00:52:24
 template: link
 link: https://thoughts.waylonwalker.com/post-og/152
@@ -53,8 +53,3 @@ job = client.V1Job(
 # Call the Kubernetes API to create the job
 api_instance.create_namespaced_job(namespace="default", body=job)
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

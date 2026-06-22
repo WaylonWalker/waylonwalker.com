@@ -1,5 +1,5 @@
 ---
-title: '💭 Handling Errors - FastAPI'
+title: 'Handling Errors - FastAPI'
 date: 2024-04-30T18:08:35
 template: link
 link: https://fastapi.tiangolo.com/tutorial/handling-errors/
@@ -48,8 +48,3 @@ async def read_unicorn(name: str):
 
 
 This post sat in draft for months.  I stumbled upon it again and found great success returning good error messages based on user preferences.  the default remains json, but if a user requests `text/html` it will be an html response, and text for `application/rtf` or `text/plain`
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

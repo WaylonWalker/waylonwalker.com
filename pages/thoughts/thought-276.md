@@ -1,5 +1,5 @@
 ---
-title: '💭 Safer Bash Shebang Recipes - Just Programmer''s Manual'
+title: 'Safer Bash Shebang Recipes - Just Programmer''s Manual'
 date: 2024-05-14T22:29:49
 template: link
 link: https://just.systems/man/en/safer-bash-shebang-recipes.html?highlight=pipefail#safer-bash-shebang-recipes
@@ -24,8 +24,3 @@ foo:
   hello='Yo'
   echo "$hello from Bash!"
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

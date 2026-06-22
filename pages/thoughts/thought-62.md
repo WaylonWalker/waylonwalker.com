@@ -1,5 +1,5 @@
 ---
-title: '💭 Center things - Textual'
+title: 'Center things - Textual'
 date: 2023-07-30T16:31:55
 template: link
 link: https://textual.textualize.io/how-to/center-things/
@@ -54,8 +54,3 @@ if __name__ == "__main__":
     app = CenterApp()
     app.run()
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

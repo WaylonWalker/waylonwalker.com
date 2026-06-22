@@ -1,5 +1,5 @@
 ---
-title: '💭 SQLite FTS5 Extension'
+title: 'SQLite FTS5 Extension'
 date: 2023-08-21T13:33:24
 template: link
 link: https://www.sqlite.org/fts5.html
@@ -34,8 +34,3 @@ posts = list(db["post"].search(search))
 
 
 
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

@@ -1,5 +1,5 @@
 ---
-title: '💭 AI, DevOps, and Kubernetes: Kelsey Hightower on What’s Next - ...'
+title: 'AI, DevOps, and Kubernetes: Kelsey Hightower on What’s Next - ...'
 date: 2025-12-13T04:07:15
 template: link
 link: https://www.youtube.com/watch?v=HdUbTyvrfKo
@@ -21,8 +21,3 @@ That's your api, your platform, this is your product as a platform engineer.  It
 https://www.youtube.com/watch?v=HdUbTyvrfKo&t=429s
 
 > timestamped
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

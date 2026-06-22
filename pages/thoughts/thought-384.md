@@ -1,5 +1,5 @@
 ---
-title: '💭 Installing Python - uv'
+title: 'Installing Python - uv'
 date: 2024-08-23T14:55:10
 template: link
 link: https://docs.astral.sh/uv/guides/install-python/
@@ -22,8 +22,3 @@ uv python install 3.12
 uv python list
 ```
 
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

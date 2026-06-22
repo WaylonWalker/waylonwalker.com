@@ -1,5 +1,5 @@
 ---
-title: '💭 How Ahrefs Gets a Billion Dollar-Worth Infrastructure With a 9...'
+title: 'How Ahrefs Gets a Billion Dollar-Worth Infrastructure With a 9...'
 date: 2024-05-16T01:38:42
 template: link
 link: https://tech.ahrefs.com/how-ahrefs-gets-a-billion-dollar-worth-infrastructure-with-a-90-discount-5edd473b2399
@@ -25,8 +25,3 @@ Colo's are the new hotness, and will continue to grow!
 ---
 
 I just notices that they didn't even account for egress, support and taxes, egress costs would make  a difference.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

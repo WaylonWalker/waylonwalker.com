@@ -1,5 +1,5 @@
 ---
-title: '💭 My Keyboard Has Sublayers… and It’s Insane - YouTube'
+title: 'My Keyboard Has Sublayers… and It’s Insane - YouTube'
 date: 2025-05-29T13:04:50
 template: link
 link: https://www.youtube.com/watch?v=wz5eOowV9iw
@@ -23,8 +23,3 @@ I use a far different system that is fast loose and easy.  On every system I run
 I do like his layered approach.  I run a 42 key keyboard so things can get a bit cramped quickly. And when thinking in mnemonics you only get 26 letters in the alphabet, but prefixing these with another layer this number goes up exponentially.  Sublayers sound sick to be honest.
 
 
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

@@ -1,5 +1,5 @@
 ---
-title: '💭 First-class session support in FastAPI · Issue #754 · tiangolo...'
+title: 'First-class session support in FastAPI · Issue #754 · tiangolo...'
 date: 2023-07-28T14:59:37
 template: link
 link: https://github.com/tiangolo/fastapi/issues/754
@@ -86,8 +86,3 @@ def read_private(username: str = Depends(get_current_user)):
 ```
 
 
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

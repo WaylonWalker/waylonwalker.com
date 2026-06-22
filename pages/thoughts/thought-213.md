@@ -1,5 +1,5 @@
 ---
-title: '💭 My New Python Lsp Setup'
+title: 'My New Python Lsp Setup'
 date: 2024-03-09T02:58:03
 template: link
 link: None
@@ -21,8 +21,3 @@ I figured out the killer combination for python lsp servers, ruff and jedi!  ruf
 		jedi_language_server = {},
 }
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

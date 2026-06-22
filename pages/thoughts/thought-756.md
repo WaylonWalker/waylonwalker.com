@@ -1,5 +1,5 @@
 ---
-title: '💭 2025-07-10 Notes'
+title: '2025-07-10 Notes'
 date: 2025-07-18T15:26:28
 template: link
 link: https://pype.dev/2025-07-10-notes/
@@ -22,8 +22,3 @@ big fan of eza and dust, I like these aliases to have some common commands at my
     alias du1='dust -d 1'                   # Show only 1 level deep
     alias du2='dust -d 2'                   # Show 2 levels deep
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

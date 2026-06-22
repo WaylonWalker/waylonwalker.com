@@ -1,5 +1,5 @@
 ---
-title: '💭 Kubernetes Isn''t for You'
+title: 'Kubernetes Isn''t for You'
 date: 2025-08-02T14:40:42
 template: link
 link: https://sliplane.io/blog/kubernetes-isnt-for-you
@@ -37,8 +37,3 @@ If you are kube curios give kind and kompose a try, you will be surprised at how
 I avoided kubernetes for a long time because articles like this told me to and I never gave it a fair try.
 
 Check out [[ just-fucking-use-kubernetes ]] for a satirical opposite take.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

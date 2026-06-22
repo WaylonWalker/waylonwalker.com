@@ -1,5 +1,5 @@
 ---
-title: '💭 Conventional Commits'
+title: 'Conventional Commits'
 date: 2025-06-17T16:37:14
 template: link
 link: https://www.conventionalcommits.org/en/v1.0.0/
@@ -34,8 +34,3 @@ chore!: drop support for Node 6
 
 BREAKING CHANGE: use JavaScript features not available in Node 6.
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

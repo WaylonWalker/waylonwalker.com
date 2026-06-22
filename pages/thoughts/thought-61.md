@@ -1,5 +1,5 @@
 ---
-title: '💭 s3-tree · PyPI'
+title: 's3-tree · PyPI'
 date: 2023-07-30T14:37:06
 template: link
 link: https://pypi.org/project/s3-tree/
@@ -25,8 +25,3 @@ pip install s3-tree
 ``` python
 s3-tree bucketname
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

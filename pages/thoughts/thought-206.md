@@ -1,5 +1,5 @@
 ---
-title: '💭 Creating One-To-Many Relationships in Flask-SQLAlchemy - YouTube'
+title: 'Creating One-To-Many Relationships in Flask-SQLAlchemy - YouTube'
 date: 2024-03-06T14:35:17
 template: link
 link: https://www.youtube.com/watch?v=VVX7JIWx-ss
@@ -16,8 +16,3 @@ Great example from Anthony showing how easy it is to practice building database 
 
 !!! Note
    Anthony uses backref here, thats legacy, use back_populates on both parent and child.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

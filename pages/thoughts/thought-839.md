@@ -1,5 +1,5 @@
 ---
-title: '💭 Haiden Deegan IN for Motocross of Nations?! | The Blair Matthe...'
+title: 'Haiden Deegan IN for Motocross of Nations?! | The Blair Matthe...'
 date: 2025-09-26T12:36:26
 template: link
 link: https://www.youtube.com/watch?v=kZvk4dUyWVs
@@ -23,8 +23,3 @@ We celebrate these as a fight to the finish, anything goes, you just gotta cross
 What's different here from last weekend (someone could really write a book on the build up of tension, shit talking, lack of harsh penalties in the rules) is really that Haiden had zero shot at the championship.  He was winning the race, Joe in Second with a secure championship.  This is when Haiden started riding behind him, slowing down for Joe to catch up, and taking shots at Joe until he broke his own collarbone.  He went out knowing he needed to knock Joe down enough to cover the points deficit and the penalty.  This was not a pass for the win, or a pass for the last spot in the night show, this was a pass to clear a deficit which required Joe on the ground.
 
 This seems to be celebrated by half the industry, but dude you had already lost going into this night this aint cool, you lost this one put on a face let Joe have his moment, make your statement by going one one and crushing these dudes by 30 seconds metaphorically, not literally crushing them.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

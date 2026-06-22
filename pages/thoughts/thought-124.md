@@ -1,5 +1,5 @@
 ---
-title: '💭 Bob Belderbos on X: "Forget Python for a sec, here''s how Vim h...'
+title: 'Bob Belderbos on X: "Forget Python for a sec, here''s how Vim h...'
 date: 2023-10-05T01:34:19
 template: link
 link: https://twitter.com/bbelderbos/status/1709525676154368055
@@ -26,8 +26,3 @@ I need to learn regex capture groups better.  This is so dang powerful. I really
 > Easy to do with Python, but what about a bit of > regex in Vim?
 >
 > :%s/\v([^,]+,[^,]+),.*/\1/
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

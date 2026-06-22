@@ -1,5 +1,5 @@
 ---
-title: '💭 What ChatGPT is NOT - Tech Raven Blog'
+title: 'What ChatGPT is NOT - Tech Raven Blog'
 date: 2025-05-09T13:45:18
 template: link
 link: https://blog.techravenconsulting.com/what-chatgpt-is-not/
@@ -30,8 +30,3 @@ I've become really bad at this.  This is slowly becoming my starting point for a
 > In ChatGPT, just like in the shelf full of the Encyclopedia Britannica I had when I was a kid, information on topics has been reduced to good summaries and presented in logical format. In this case we have removed the human authors and replaced them with a very large neural network.
 
 I really like this description and it matches up with my last comment.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

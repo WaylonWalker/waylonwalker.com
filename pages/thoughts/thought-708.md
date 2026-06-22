@@ -1,5 +1,5 @@
 ---
-title: '💭 Notes – 09:32 Thu 19 Jun 2025 – David Bushell – Web Dev (UK)'
+title: 'Notes – 09:32 Thu 19 Jun 2025 – David Bushell – Web Dev (UK)'
 date: 2025-06-19T13:18:20
 template: link
 link: https://dbushell.com/notes/2025-06-19T09:32Z/
@@ -23,8 +23,3 @@ This is new to me, I had no idea that markdown libraries did this, I'm now inter
 > For subsetting I use the fontTools library but I’ve no idea how to setup Python environments. I got it working once and failed to document the process. 
 
 David, David, David, I'm sorry python has done you this dirty.  I should do a post on making python environments in the age of [[ uv ]].  You got options to run in docker/podman, a whole ass vm, uv venv, uvx, uv run, uv script, python -m venv, virtualenv, poetry, hatch, and too many more.  The ones that matter are containers or uv.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

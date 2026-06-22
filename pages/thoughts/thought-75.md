@@ -1,5 +1,5 @@
 ---
-title: '💭 python - How to use a Pydantic model with Form data in FastAPI...'
+title: 'python - How to use a Pydantic model with Form data in FastAPI...'
 date: 2023-08-08T13:46:19
 template: link
 link: https://stackoverflow.com/questions/60127234/how-to-use-a-pydantic-model-with-form-data-in-fastapi
@@ -76,8 +76,3 @@ async def me(request: Request, form: Test = Depends(Test.as_form)):
     return form
 ```
 
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

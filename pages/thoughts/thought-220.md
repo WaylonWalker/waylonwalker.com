@@ -1,5 +1,5 @@
 ---
-title: '💭 Joining the split keyboards club: a Moonlander story'
+title: 'Joining the split keyboards club: a Moonlander story'
 date: 2024-03-20T00:17:59
 template: link
 link: https://carlosbecker.com/posts/split-keyboard-moonlander/
@@ -31,8 +31,3 @@ Damn thats good.
 > The bad news is that I’ll need to bring my keyboard with me everywhere I go now…
 
 Yes, normal keebs feel awkward and like your fingers are all twisted up.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

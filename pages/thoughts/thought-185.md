@@ -1,5 +1,5 @@
 ---
-title: '💭 How to group FastAPI endpoints in Swagger UI?'
+title: 'How to group FastAPI endpoints in Swagger UI?'
 date: 2023-12-15T15:30:37
 template: link
 link: https://stackoverflow.com/questions/63762387/how-to-group-fastapi-endpoints-in-swagger-ui#answer-63762765
@@ -38,8 +38,3 @@ app = FastAPI(openapi_tags=tags_metadata)
 async def handle_items():
     return
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

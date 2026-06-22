@@ -1,5 +1,5 @@
 ---
-title: '💭 mkimuram/k8sviz: Generate Kubernetes architecture diagrams fro...'
+title: 'mkimuram/k8sviz: Generate Kubernetes architecture diagrams fro...'
 date: 2023-10-22T21:07:26
 template: link
 link: https://github.com/mkimuram/k8sviz
@@ -32,8 +32,3 @@ $ chmod u+x k8sviz.sh
 ./k8sviz.sh --kubeconfig ~/.config/kube/falcon-k3s.yaml -t png -o k8sviz.png
 ```
 
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

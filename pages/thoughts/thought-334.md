@@ -1,5 +1,5 @@
 ---
-title: '💭 Email Address Obfuscation · Cloudflare Web Application Firewal...'
+title: 'Email Address Obfuscation · Cloudflare Web Application Firewal...'
 date: 2024-07-04T15:18:11
 template: link
 link: https://developers.cloudflare.com/waf/tools/scrape-shield/email-address-obfuscation/
@@ -23,8 +23,3 @@ inspecting the page without js running we can see that the mailto email is swapp
 ```
 
 Looking deeper into this article it looks like this feature comes from Scrape Shield and enabling Email Address Obfuscation.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

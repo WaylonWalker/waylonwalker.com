@@ -1,5 +1,5 @@
 ---
-title: '💭 Template Designer Documentation — Jinja Documentation'
+title: 'Template Designer Documentation — Jinja Documentation'
 date: 2023-07-28T14:59:37
 template: link
 link: https://jinja.palletsprojects.com/en/3.1.x/templates/#include
@@ -34,8 +34,3 @@ And inside of my thoughts project I used it to render posts.
 ```
 
 > note that post_item.html automatically inherits the post variable.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

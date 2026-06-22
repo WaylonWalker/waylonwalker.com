@@ -1,5 +1,5 @@
 ---
-title: '💭 valkey · PyPI'
+title: 'valkey · PyPI'
 date: 2025-02-17T02:22:12
 template: link
 link: https://pypi.org/project/valkey/
@@ -21,8 +21,3 @@ one notable difference I see from redis is that you can install with libvalkey t
 ``` bash
 pip install "valkey[libvalkey]"
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

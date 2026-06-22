@@ -1,5 +1,5 @@
 ---
-title: '💭 Uptime Kuma'
+title: 'Uptime Kuma'
 date: 2023-11-11T02:46:12
 template: link
 link: https://uptime.kuma.pet/
@@ -26,8 +26,3 @@ I deployed it in my homelab today.
 
 [![screenshot of https://twitter.com/_WaylonWalker/status/1723077941649707468](https://shots.wayl.one/shot/?url=https://twitter.com/_WaylonWalker/status/1723077941649707468&height=800&width=450&scaled_width=450&scaled_height=800&selectors=)](https://twitter.com/_WaylonWalker/status/1723077941649707468)
 
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

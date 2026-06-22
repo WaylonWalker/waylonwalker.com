@@ -1,5 +1,5 @@
 ---
-title: '💭 Configure Liveness, Readiness and Startup Probes | Kubernetes'
+title: 'Configure Liveness, Readiness and Startup Probes | Kubernetes'
 date: 2024-03-15T14:38:02
 template: link
 link: https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/
@@ -31,8 +31,3 @@ These probes are commonly deployed at `/healthz` and `/livez` endpoints.
 Why the z?
 
 z is a convention that comes from google for meta endpoints to reduce conflict with actual endpoints, and can be deployed to any application.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

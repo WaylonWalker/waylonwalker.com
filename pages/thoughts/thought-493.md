@@ -1,5 +1,5 @@
 ---
-title: '💭 We need to have a talk... - YouTube'
+title: 'We need to have a talk... - YouTube'
 date: 2025-01-02T03:04:14
 template: link
 link: https://www.youtube.com/watch?v=_VQl_HTk9PM&t=2607s
@@ -49,8 +49,3 @@ At the end he covers a dumb side project that has branch deploys.  It had a 100s
 In my python backends I often have deploy environments, but since they don't scale to zero they have at least some cost even if its small, with this I cannot just keep hundreds of them running because that cost would add up.
 
 I would argue that this is hardly useful, because you can checkout any old version and run it locally, and you rarely are going to need to poke through these old branch deploys.  But in that case that you need to quickly do this serverless is definitely superior.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

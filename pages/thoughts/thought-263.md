@@ -1,5 +1,5 @@
 ---
-title: '💭 How an empty S3 bucket can make your AWS bill explode | by Mac...'
+title: 'How an empty S3 bucket can make your AWS bill explode | by Mac...'
 date: 2024-05-01T02:31:56
 template: link
 link: https://medium.com/@maciej.pocwierz/how-an-empty-s3-bucket-can-make-your-aws-bill-explode-934a383cb8b1
@@ -35,8 +35,3 @@ After contacting them he was able to get it cancelled, but this is no guarantee.
 > AWS was kind enough to cancel my S3 bill. However, they emphasized that this was done as an exception.
 
 2024 is wild on the cloud hosting front, own your shit or be careful.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

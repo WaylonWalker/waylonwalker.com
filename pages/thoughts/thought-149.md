@@ -1,5 +1,5 @@
 ---
-title: '💭 How to kill process based on the port number in Linux - Linux ...'
+title: 'How to kill process based on the port number in Linux - Linux ...'
 date: 2023-10-23T15:15:02
 template: link
 link: https://linuxconfig.org/how-to-kill-process-based-on-the-port-number-in-linux
@@ -29,8 +29,3 @@ You can also get information about the process by running `lsof`
 COMMAND      PID   USER   FD   TYPE    DEVICE SIZE/OFF NODE NAME
 thoughts 1058292 waylon   11u  IPv4 119622828      0t0  TCP *:commplex-main (LISTEN)
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

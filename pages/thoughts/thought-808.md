@@ -1,5 +1,5 @@
 ---
-title: '💭 Why everyone is quitting social media - YouTube'
+title: 'Why everyone is quitting social media - YouTube'
 date: 2025-08-25T01:36:35
 template: link
 link: https://www.youtube.com/watch?v=zN-rElTzR_4
@@ -17,8 +17,3 @@ Damn, social media is at an all time low.  I've felt all of these issues and whe
 Social Media has morphed from follows likes and similar, to viral posts by creators I don't recognize.  posting and immediately getting like by two **hot** women with accounts created this week.  The rest of the real creators left on there are stuck trying to keep up, echo viral trends, trying to keep up the content treadmill.   A few come through, but most feel somewhat forced.  A lot of it is ai generated, and whats not mostly doesn't feel that human anyways.
 
 The people on here seem to really tie the internet to social media and are ready to quit the internet.  I think there is more to the internet, we can find each other, but setting up rss feeds, following others, and scrolling their own website lacks that dopamine hit social media has right now.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

@@ -1,5 +1,5 @@
 ---
-title: '💭 florimondmanca/arel: Lightweight browser hot reload for Python...'
+title: 'florimondmanca/arel: Lightweight browser hot reload for Python...'
 date: 2023-10-08T15:22:23
 template: link
 link: https://github.com/florimondmanca/arel
@@ -24,8 +24,3 @@ When in development mode, this snippet gets injected directly on the page and do
 const ws = new WebSocket("ws://localhost:5000/hot-reload");
 ws.onmessage = () => window.location.reload();
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

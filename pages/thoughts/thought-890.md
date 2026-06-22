@@ -1,5 +1,5 @@
 ---
-title: '💭 Why is Everyone So Wrong About AI Water Use?? - YouTube'
+title: 'Why is Everyone So Wrong About AI Water Use?? - YouTube'
 date: 2025-12-09T14:39:18
 template: link
 link: https://www.youtube.com/watch?v=H_c6MWk7PQc
@@ -27,8 +27,3 @@ Something I find interesting is that Altman is doing the same thing here that he
 Anyways Hank does a great job at saying this is not a simple answer, its complicated.  Things are moving so fast that its hard to be accurate, its hard for infrastructure to keep up.  There's a lot more to think about than the water use on a single query.
 
 
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

@@ -1,5 +1,5 @@
 ---
-title: '💭 basecamp/omakub: Opinionated Ubuntu Setup'
+title: 'basecamp/omakub: Opinionated Ubuntu Setup'
 date: 2024-06-06T16:20:19
 template: link
 link: https://github.com/basecamp/omakub
@@ -17,8 +17,3 @@ This is DHH's linux startup script.  Call it a distro if you want, but he doesn'
 > No need to write bespoke configs for every essential tool just to get started or to be up on all the latest command-line tools. Omakub is an opinionated take on what Linux can be at its best.
 
 Check it out and give it a ⭐ [basecamp/omakub](https://github.com/basecamp/omakub){.hoverlink}.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

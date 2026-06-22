@@ -1,5 +1,5 @@
 ---
-title: '💭 neverjust'
+title: 'neverjust'
 date: 2025-06-23T23:55:57
 template: link
 link: https://www.neverjust.net/
@@ -17,8 +17,3 @@ I just never quite understood why the word *just* can send people over the top. 
 I pulled this out into a full post [[ just ]]
 
 
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

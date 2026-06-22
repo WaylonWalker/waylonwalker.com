@@ -1,5 +1,5 @@
 ---
-title: '💭 Talking with Typecraft - YouTube'
+title: 'Talking with Typecraft - YouTube'
 date: 2024-12-24T20:24:42
 template: link
 link: https://www.youtube.com/watch?v=qEykeKfAnJQ&t=1068s
@@ -31,8 +31,3 @@ Dax hates on c-a, both typecraft and dax use c-s, which normally freezes a termi
 ## Selling coffee without a web front end
 
 Dax talks about terminal.shop and how they originally planned to have a web front end, but after they had so much success they stuck with it.  now they are leaning harder into it and are building out integrations with a bunch of languages and an api, but no front end.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

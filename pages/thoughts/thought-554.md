@@ -1,5 +1,5 @@
 ---
-title: '💭 Developer Productivity, v2 with ThePrimeagen | Preview - YouTube'
+title: 'Developer Productivity, v2 with ThePrimeagen | Preview - YouTube'
 date: 2025-02-08T15:29:52
 template: link
 link: https://www.youtube.com/watch?v=03KsS09YS4E
@@ -23,8 +23,3 @@ In the past year I've moved bazzite, an immutable distro.  It comes with podman 
 I've also really started to lean on kubernetes, it is so useful to just be able to start a pod in k8s using the same exact develop setup as I would have locally.  Nothing needs installed, I can just bring my dev setup to the cluster where the network and data I might need to debug is.
 
 
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

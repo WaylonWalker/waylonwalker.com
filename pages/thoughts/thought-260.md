@@ -1,5 +1,5 @@
 ---
-title: '💭 Network Types - Pydantic'
+title: 'Network Types - Pydantic'
 date: 2024-04-30T18:12:26
 template: link
 link: https://docs.pydantic.dev/2.7/api/networks/#pydantic.networks.EmailStr
@@ -31,8 +31,3 @@ class Model(BaseModel):
 print(Model(email='contact@mail.com'))
 #> email='contact@mail.com'
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

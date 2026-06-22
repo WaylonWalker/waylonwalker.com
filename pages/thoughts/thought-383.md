@@ -1,5 +1,5 @@
 ---
-title: '💭 Switching Configs in Neovim • Michael Uloth'
+title: 'Switching Configs in Neovim • Michael Uloth'
 date: 2024-08-21T12:57:56
 template: link
 link: https://michaeluloth.com/neovim-switch-configs/
@@ -31,8 +31,3 @@ alias va='NVIM_APPNAME=nvim-astrovim nvim' # AstroVim
 alias vl='NVIM_APPNAME=nvim-lunarvim nvim' # LunarVim
 ````
 
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

@@ -1,5 +1,5 @@
 ---
-title: '💭 Proper handling of None in WHERE condition · Issue #109 · fast...'
+title: 'Proper handling of None in WHERE condition · Issue #109 · fast...'
 date: 2024-11-08T13:36:30
 template: link
 link: https://github.com/fastapi/sqlmodel/issues/109#issuecomment-1046223225
@@ -24,8 +24,3 @@ This comment summed it up quite well.
 
 
 so rather than using `Team.heros == None` we can use `Team.seros.is_(None)` which checks for itentity not equality.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

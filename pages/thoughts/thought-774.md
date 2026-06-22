@@ -1,5 +1,5 @@
 ---
-title: '💭 Meet Gor | Just Fucking use kubernetes'
+title: 'Meet Gor | Just Fucking use kubernetes'
 date: 2025-08-02T14:53:45
 template: link
 link: https://www.meetgor.com/thoughts/just-fucking-use-kubernetes/
@@ -21,8 +21,3 @@ This hurts.  I know others with this learning style that need to see the full pi
 > You know what, let's fucking use Kubernetes.
 
 Let's Gooo.  Use what is right for you and stop parroting kubernets is hard, heavy, for big companies, maybe actually try it first.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

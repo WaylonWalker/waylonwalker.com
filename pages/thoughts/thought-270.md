@@ -1,5 +1,5 @@
 ---
-title: '💭 Install Pokemon TCG Live on Steam Deck - Installation Guide - ...'
+title: 'Install Pokemon TCG Live on Steam Deck - Installation Guide - ...'
 date: 2024-05-11T13:27:19
 template: link
 link: https://www.youtube.com/watch?v=zfN4hk7FelI
@@ -21,8 +21,3 @@ I had no idea that you could just drop an msi installer right in steam.  This wo
 * click gear icon > compatability > proton experimental
 * click play
 * profit
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

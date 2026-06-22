@@ -1,5 +1,5 @@
 ---
-title: '💭 Owning It · Matthias Ott'
+title: 'Owning It · Matthias Ott'
 date: 2025-01-06T13:23:23
 template: link
 link: https://matthiasott.com/notes/owning-it
@@ -17,8 +17,3 @@ I can say I had the same kind of feelings when I first saw something called "Own
 The changelog has covered this several times, do they need to go to the crazy lengths they do to run their site, no probably not, but it keeps them in the loop.  They are using the tech they talk about in a very real and production critical way to run the show.
 
 Cant wait to see more from ownyourweb.site
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

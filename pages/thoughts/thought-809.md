@@ -1,5 +1,5 @@
 ---
-title: '💭 The Death of the User Interface'
+title: 'The Death of the User Interface'
 date: 2025-08-25T01:48:19
 template: link
 link: https://gist.github.com/0xs34n/a5738db1cc24495e69b6d6c08a451890
@@ -22,8 +22,3 @@ Then there is the level of accuracy.  There's a level of interpretation that hap
 Last is privacy, there is going to be a privacy epidemic that is going to pwn so many people giving these things full access to email, chat, ALL of YOUR FILES, and computer, your whole network.
 
 Look I get it this is where things are going, but dude is early, like too early.  These things need to become far more accurate, less power hungry, and run locally before I give up my whole filesystem.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

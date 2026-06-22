@@ -1,5 +1,5 @@
 ---
-title: '💭 This is Goodbye? - YouTube'
+title: 'This is Goodbye? - YouTube'
 date: 2024-07-26T19:03:00
 template: link
 link: https://www.youtube.com/watch?v=YfwlM-fw-aw
@@ -17,8 +17,3 @@ Damn Johnny is always such a positive vibe, just getting steamrolled by this bra
 Also kinds shows what shoes are good when he goes to buy shoes cause no one will send him any and he goes with Etnies.
 
 Johnny keep it going!
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

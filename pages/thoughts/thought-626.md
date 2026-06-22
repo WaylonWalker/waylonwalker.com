@@ -1,5 +1,5 @@
 ---
-title: '💭 “I’d rather read the prompt” – Chris Coyier'
+title: '“I’d rather read the prompt” – Chris Coyier'
 date: 2025-05-09T13:09:30
 template: link
 link: https://chriscoyier.net/2025/05/08/id-rather-read-the-prompt/
@@ -23,8 +23,3 @@ Damn, that is a strong statement, stitching together the corpses, strong stateme
 > The whole point of making creative work is to share one’s own experience - if there’s no experience to share, why bother? If it’s not worth writing, it’s not worth reading.
 
 llms are not capable of being creative, they are word calculators, statistical models that predict the next likely word based on their experience, they are not capable of new discoveries.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

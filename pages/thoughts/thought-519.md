@@ -1,5 +1,5 @@
 ---
-title: '💭 awesome-cursorrules/rules/py-fast-api/.cursorrules at main · P...'
+title: 'awesome-cursorrules/rules/py-fast-api/.cursorrules at main · P...'
 date: 2025-01-09T14:03:12
 template: link
 link: https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules/py-fast-api/.cursorrules
@@ -21,8 +21,3 @@ Looks like a great start to a rules file for fastapi.
 I have never heard anyone say this.  It feels weird to me.  The other early return, find and handle errors early all make sense to me, but happy path last is new to me.
 
 
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

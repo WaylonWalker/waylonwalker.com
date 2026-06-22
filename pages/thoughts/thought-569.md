@@ -1,5 +1,5 @@
 ---
-title: '💭 python-build-standalone/.github/workflows/release.yml at main ...'
+title: 'python-build-standalone/.github/workflows/release.yml at main ...'
 date: 2025-02-17T23:21:05
 template: link
 link: https://github.com/astral-sh/python-build-standalone/blob/main/.github/workflows/release.yml
@@ -30,8 +30,3 @@ release-run token commit tag:
   just release-upload-distributions {{token}} ${datetime} {{tag}}
   just release-set-latest-release {{tag}}
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

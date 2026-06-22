@@ -1,5 +1,5 @@
 ---
-title: '💭 Arch Linux - News: The xz package has been backdoored'
+title: 'Arch Linux - News: The xz package has been backdoored'
 date: 2024-04-16T13:00:33
 template: link
 link: https://archlinux.org/news/the-xz-package-has-been-backdoored/
@@ -22,8 +22,3 @@ I found this line most pertanent to me.
 Also it appears that arch is not vulnerable as it does not directly link openssh to liblzma, so the known attack vecotor is not possible.  read to the end of the linked article for more.
 
 
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

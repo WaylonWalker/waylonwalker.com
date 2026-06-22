@@ -1,5 +1,5 @@
 ---
-title: '💭 Some Git poll results'
+title: 'Some Git poll results'
 date: 2024-03-29T02:04:41
 template: link
 link: https://jvns.ca/blog/2024/03/28/git-poll-results/
@@ -34,8 +34,3 @@ great poll of git questions
 
 
 This one explains a lot.  I _think_ I knew this, I might have seen it somewhere, but I have definitely noticed it go both ways and confuse the crap out of me.  Feels very similar to how `--ours` and `--theirs` flip flops.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

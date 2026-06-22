@@ -1,5 +1,5 @@
 ---
-title: '💭 Hybrid theory is the greatest album of our generation - YouTube'
+title: 'Hybrid theory is the greatest album of our generation - YouTube'
 date: 2026-04-28T21:31:51
 template: link
 link: https://www.youtube.com/shorts/4BwsqMbruJA
@@ -17,8 +17,3 @@ Jaime's title hooked me in here, what guitar riff from Linkin Park had the great
 The very first note of "One Step Closer" plays and I'm immediately transported back to 2003 sitting in my garage watching [HuevosIII](https://www.youtube.com/watch?v=AoQ6fUTuYvg&list=PLoSp9yq_oDOdCOfCp_QTS017cjAi4Cv_0&index=2) on repeat.  I can still remember the timing that Wes Miller did on the edit.  I can see the riders I looked up to for so long riding in formation.
 
 Turns out this riff is so recognizable it takes me exactly where I was when I listened to it hundreds of times.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

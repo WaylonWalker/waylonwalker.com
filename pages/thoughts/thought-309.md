@@ -1,5 +1,5 @@
 ---
-title: '💭 podman requries qemu-system on ubuntu'
+title: 'podman requries qemu-system on ubuntu'
 date: 2024-06-12T19:29:18
 template: link
 link: https://askubuntu.com/questions/1490805/how-do-i-install-qemu-on-ubuntu-23-10
@@ -33,8 +33,3 @@ sudo apt update
 sudo apt install qemu-system
 ```
 
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

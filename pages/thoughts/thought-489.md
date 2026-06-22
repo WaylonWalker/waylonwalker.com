@@ -1,5 +1,5 @@
 ---
-title: '💭 Wrapping your favorite CLI in neovim - YouTube'
+title: 'Wrapping your favorite CLI in neovim - YouTube'
 date: 2024-12-31T21:02:44
 template: link
 link: https://www.youtube.com/watch?v=rerTvidyz-0&t=160s
@@ -23,8 +23,3 @@ cool video on expanding vim with cli.
 
 ![write a healthcheck](https://dropper.waylonwalker.com/api/file/d90a8c88-4748-4dfe-8569-b51c023c825b.webp)
 
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

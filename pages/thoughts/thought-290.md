@@ -1,5 +1,5 @@
 ---
-title: '💭 How to Deliver Code Every Day | Jake Worth'
+title: 'How to Deliver Code Every Day | Jake Worth'
 date: 2024-06-01T00:48:21
 template: link
 link: https://www.jakeworth.com/posts/how-to-deliver-code-every-day/
@@ -24,8 +24,3 @@ Not deploying on Friday is totally what that team should be doing.
 Most of us are not that team.  Most of us work on small teams supporting some sort of product that Should be able to be tested and rolled back.  I completely agree with Jake here, if your not willing to deploy on Friday you are not confident in your product.   You need to work on better testing, rollback strategies, and feature flagging is what you need.
 
 I've also been on teams where we don't deploy in the middle of the day or right before we leave for vacation because we are early, our customers are important to us, and we accept that we have not hit our marks yet on the ability to swiftly recover from some downtime so risk is high.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

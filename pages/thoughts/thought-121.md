@@ -1,5 +1,5 @@
 ---
-title: '💭 Point-in-time recovery - Wikipedia'
+title: 'Point-in-time recovery - Wikipedia'
 date: 2023-10-03T13:25:36
 template: link
 link: https://en.wikipedia.org/wiki/Point-in-time_recovery
@@ -13,8 +13,3 @@ published: true
 ![[https://en.wikipedia.org/wiki/Point-in-time_recovery]]
 
 I just learned that the term PITR means **Point In Time Recovery**.  I have never seen this term, but it is most often referred to in relation to database recoveries.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

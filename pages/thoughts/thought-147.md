@@ -1,5 +1,5 @@
 ---
-title: '💭 casey/just: 🤖 Just a command runner'
+title: 'casey/just: 🤖 Just a command runner'
 date: 2023-10-22T02:09:57
 template: link
 link: https://github.com/casey/just
@@ -45,8 +45,3 @@ build-slim:
 deploy-slim:
     podman push registry.wayl.one/devtainer:slim
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

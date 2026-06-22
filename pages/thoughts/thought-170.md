@@ -1,5 +1,5 @@
 ---
-title: '💭 CSS @media print issues with background-color; - Stack Overflow'
+title: 'CSS @media print issues with background-color; - Stack Overflow'
 date: 2023-11-30T03:00:52
 template: link
 link: https://stackoverflow.com/questions/3893986/css-media-print-issues-with-background-color#answer-14784655
@@ -21,8 +21,3 @@ body{
   print-color-adjust:exact !important;
 }
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

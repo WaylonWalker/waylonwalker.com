@@ -1,5 +1,5 @@
 ---
-title: '💭 SQL on Pandas - DuckDB'
+title: 'SQL on Pandas - DuckDB'
 date: 2023-07-28T14:59:37
 template: link
 link: https://duckdb.org/docs/guides/python/sql_on_pandas
@@ -22,8 +22,3 @@ duckdb can just query any pandas dataframe that is in memory.
 ``` python
 Make sure that "posts" is either a pandas.DataFrame, duckdb.DuckDBPyRelation, pyarrow Table, Dataset, RecordBatchReader, Scanner, or NumPy ndarrays with supported format
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

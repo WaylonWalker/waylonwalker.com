@@ -1,5 +1,5 @@
 ---
-title: '💭 Column INSERT/UPDATE Defaults — SQLAlchemy 1.4 Documentation'
+title: 'Column INSERT/UPDATE Defaults — SQLAlchemy 1.4 Documentation'
 date: 2023-07-28T14:59:37
 template: link
 link: https://docs.sqlalchemy.org/en/14/core/defaults.html#server-invoked-ddl-explicit-default-expressions
@@ -34,8 +34,3 @@ CREATE TABLE test (
     index_value integer default 0
 )
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

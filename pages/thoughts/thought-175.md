@@ -1,5 +1,5 @@
 ---
-title: '💭 Cancel subscriptions | Stripe Documentation'
+title: 'Cancel subscriptions | Stripe Documentation'
 date: 2023-12-10T04:28:33
 template: link
 link: https://stripe.com/docs/billing/subscriptions/cancel#canceling
@@ -28,8 +28,3 @@ stripe.Subscription.modify(
 ```
 
 You can even inverse it by flipping `True` to `False` and re activate the subscription.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

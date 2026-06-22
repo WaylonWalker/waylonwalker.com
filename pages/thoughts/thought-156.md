@@ -1,5 +1,5 @@
 ---
-title: '💭 Kubernetes Secrets in 5 Minutes! - YouTube'
+title: 'Kubernetes Secrets in 5 Minutes! - YouTube'
 date: 2023-10-30T16:47:19
 template: link
 link: https://www.youtube.com/watch?v=cQAEK9PBY8U&t=186
@@ -51,8 +51,3 @@ Once you have your secret deployed, you have to update the container spec in you
           resources: {}
       restartPolicy: Always
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

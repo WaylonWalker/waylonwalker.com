@@ -1,5 +1,5 @@
 ---
-title: '💭 Quick-Start Guide | K3s'
+title: 'Quick-Start Guide | K3s'
 date: 2023-10-20T21:32:03
 template: link
 link: https://docs.k3s.io/quick-start
@@ -31,8 +31,3 @@ sudo k3s server -d /mnt/vault/.rancher/k3s
 # without editing systemd service
 sudo ln -s /mnt/vault/.rancher/k3s /var/lib/rancher/k3s
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

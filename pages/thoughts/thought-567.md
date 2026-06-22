@@ -1,5 +1,5 @@
 ---
-title: '💭 fix json schema · WaylonWalker/waylonwalker.com@deebd40'
+title: 'fix json schema · WaylonWalker/waylonwalker.com@deebd40'
 date: 2025-02-17T22:26:01
 template: link
 link: https://github.com/WaylonWalker/waylonwalker.com/commit/deebd400e638bfaa41db953530597983ae0df82a
@@ -21,8 +21,3 @@ I found that I had _Structured data has schema.org validation error_ on essentia
 ![image](https://dropper.waylonwalker.com/api/file/ca373ce6-9a4a-4e5b-8a0e-0b2959915ab5.webp)
 
 
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

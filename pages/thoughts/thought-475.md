@@ -1,5 +1,5 @@
 ---
-title: '💭 Ellie Huxtable: "Atuin v18.4 is out now! Including `atuin wrap...'
+title: 'Ellie Huxtable: "Atuin v18.4 is out now! Including `atuin wrap...'
 date: 2024-12-28T06:29:12
 template: link
 link: https://bsky.app/profile/ellie.wtf/post/3lecj36r5ps2x
@@ -26,8 +26,3 @@ This is a pretty sick command, I've only been using Atuin about as long as I've 
 Comparing to Ellie, I'm surprised that I even have 126 package related commands, being on an immutable distro most of my packages come from the container, I don't need to run packaging commands.  My cd is also super low, I use tmux sessions to take me where I need to be most of the time, which is a project's root directory, It's pretty rare to see me outside of a project root directory.
 
 I'd venture to guess that nvim would be higher if it didn't auto start on every tmux session as well.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

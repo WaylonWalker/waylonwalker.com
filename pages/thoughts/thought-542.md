@@ -1,5 +1,5 @@
 ---
-title: '💭 Models - Pydantic'
+title: 'Models - Pydantic'
 date: 2025-01-28T17:27:20
 template: link
 link: https://docs.pydantic.dev/latest/concepts/models/#rebuilding-model-schema
@@ -23,8 +23,3 @@ I came accross from_attributes today it allows creation of pydantic models from 
 > To do this, set the from_attributes config value to True (see the documentation on Configuration for more details).
 >
 > The example here uses SQLAlchemy, but the same approach should work for any ORM.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

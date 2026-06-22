@@ -1,5 +1,5 @@
 ---
-title: '💭 How to make your RSS feed pretty'
+title: 'How to make your RSS feed pretty'
 date: 2024-12-18T00:38:24
 template: link
 link: https://cassidoo.co/post/prettify-rss/
@@ -38,8 +38,3 @@ https://github.com/genmon/aboutfeeds/blob/main/tools/pretty-feed-v3.xsl
 My feed comes from my static site generator [markata](markata.dev), a plugins all the way down static site generator written in python, made for customizing, lacking just about any and all docs so you are on your own.
 
 ![image](https://dropper.waylonwalker.com/api/file/214bd66f-88e1-4907-8e47-51d22b376678.webp)
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

@@ -1,5 +1,5 @@
 ---
-title: '💭 How To Create a Custom Scrollbar'
+title: 'How To Create a Custom Scrollbar'
 date: 2023-10-11T19:11:49
 template: link
 link: https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp
@@ -36,8 +36,3 @@ Default scrollbars on a dark theme website are just the ugliest thing.  This pag
   background: #555;
 }
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

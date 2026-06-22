@@ -1,5 +1,5 @@
 ---
-title: '💭 The weirdest controller I''ve ever used'
+title: 'The weirdest controller I''ve ever used'
 date: 2025-01-04T17:07:40
 template: link
 link: https://www.youtube.com/watch?v=OrucAJknMys
@@ -21,8 +21,3 @@ No analog triggers, I'm out.  Maybe they will make it an option in the future id
 micro usb, seriously, that kinda kills it for me too.  
 
 **edit** I looked on their website and they have usb c in the latest version
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

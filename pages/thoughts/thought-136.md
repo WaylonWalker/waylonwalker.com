@@ -1,5 +1,5 @@
 ---
-title: '💭 Twitter Requires full image_urls'
+title: 'Twitter Requires full image_urls'
 date: 2023-10-17T17:30:09
 template: link
 link: None
@@ -27,8 +27,3 @@ Yet again twitter cards were causing me pain.  This time it was me not realizing
 ``` html
     <meta name="twitter:image" content="https://thoughts.waylonwalker.com/shot/?path={{ request.url|quote_plus }}" content-type='image/png'/>
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

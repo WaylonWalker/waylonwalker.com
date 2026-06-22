@@ -1,5 +1,5 @@
 ---
-title: '💭 The future of Textualize - Textual'
+title: 'The future of Textualize - Textual'
 date: 2025-05-10T14:27:58
 template: link
 link: https://textual.textualize.io/blog/2025/05/07/the-future-of-textualize/
@@ -24,8 +24,3 @@ Damn, that hit hard, its been an adventure watching textual get built, things li
 
 
 Thanks for giving us amazing terminal products Will.
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts

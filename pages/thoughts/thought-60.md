@@ -1,5 +1,5 @@
 ---
-title: '💭 python - SQLAlchemy ORDER BY DESCENDING? - Stack Overflow'
+title: 'python - SQLAlchemy ORDER BY DESCENDING? - Stack Overflow'
 date: 2023-07-29T22:30:25
 template: link
 link: https://stackoverflow.com/questions/4186062/sqlalchemy-order-by-descending
@@ -85,8 +85,3 @@ async def get_posts(
     return posts
 
 ```
-
-!!! note
-
-    This post is a [[ thoughts | thought ]]. It's a short note that I make
-    about someone else's content online #thoughts
