@@ -12,6 +12,8 @@ I'm tracking results of [[ 2026-predictions ]]
 
 ## more open source, less open contribution
 
+![embed](https://www.youtube.com/watch?v=dFnZyoLXVa4)
+
 ## 2026 is not the year to build hardware
 
 ## Agents will overwork us
