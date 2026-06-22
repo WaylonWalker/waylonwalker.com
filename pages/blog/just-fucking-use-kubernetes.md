@@ -5,6 +5,9 @@ title: just fucking use kubernetes
 tags:
   - kubernetes
   - satire
+authors:
+  - waylon
+  - gpt-5-2-codex
 published: True
 
 ---
@@ -14,14 +17,13 @@ You want to run containers?
 **JUST FUCKING USE KUBERNETES.**
 
 !!! tip "Obvious satire"
+
     If you don't like harsh language this is not the post for you.  Obviously
     ripping off [motherfuckingwebsite](https://motherfuckingwebsite.com/).
 
-!!! warning "ThIs is AI SLoP"
-    If you don't like if you can fuck off to the next post, I'm having fun here,
-    but satire is not my strong suit and needed some help.
-
 !!! seealso
+
+    Some more serious posts
 
     * [[ should-i-kubernetes-my-homelab ]]
     * [[ the-wrong-reasons-to-run-kubernetes-in-your-homelab ]]
