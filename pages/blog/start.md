@@ -23,8 +23,6 @@ rss reader, you can find them on my [[ feeds ]] page.
 
 ## Slash posts
 
-[[ slashes ]]
-
 [Slash pages](https://slashpages.net/) are some evergreen pages that I will do my best to keep up to date,
 they are typically not targeted to a specific moment in time, but designed to
 be ever living.
