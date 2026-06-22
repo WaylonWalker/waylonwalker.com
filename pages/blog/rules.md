@@ -3,7 +3,7 @@ date: 2025-10-30 08:38:48
 templateKey: blog-post
 title: Rules
 tags:
-  - dev
+  - slash
 published: True
 jinja: True
 
@@ -18,3 +18,5 @@ jinja: True
 1. Tech will always fail, we only have some control over blast radius
 1. strive for a blameless culture
 1. Need a tool Make a tool
+1. Recognize the right idea when you hear it.
+1. Always cary a knife
