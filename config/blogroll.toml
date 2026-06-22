@@ -1377,3 +1377,15 @@ handle = "joshuablais"
 image_url = "https://joshblais.com/og-images/og-image.png"
 active = true
 
+[[blogroll.feeds]]
+url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCld68syR8Wi-GY_n4CaoJGA"
+title = "Brodie Robertson"
+description = "Linux, tech, steam/gaming sometimes"
+category = "development"
+type = "video"
+tags = ["brodie robertson", "arch linux", "archlinux", "gentoo", "gentoo linux", "linux rice", "i3 rice", "i3 blocks", "i3 tutorial", "linux tutorial", "bash tutorial", "\"bash", "progr..."]
+site_url = "https://www.youtube.com/channel/UCld68syR8Wi-GY_n4CaoJGA"
+handle = "brodierobertson"
+image_url = "https://yt3.googleusercontent.com/ytc/AIdro_mfmPEv0_faow63TOWIMqzx3Idan_GRCOtQubiP32skc38=s900-c-k-c0x00ffffff-no-rj"
+active = true
+

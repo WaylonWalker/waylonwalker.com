@@ -3,41 +3,56 @@
 slug = "archive"
 title = "Archive"
 description = "All published posts"
-filter = "date<=today and (templateKey == 'blog-post' or templateKey == 'til' or templateKey == 'thoughts' or templateKey == 'stars' or templateKey == 'daily' or templateKey == 'shots' or templateKey == 'ping') and published and 'family' not in tags"
+filter = """
+  date<=today and (
+    path.startswith('pages/blog/') or
+    path.startswith('pages/til/') or
+    path.startswith('pages/thoughts/') or
+    path.startswith('pages/stars/') or
+    path.startswith('pages/daily/') or
+    path.startswith('pages/shots/') or
+    path.startswith('pages/ping/')
+  ) 
+  and published and 'family' not in tags
+  """
 sort = "date"
-primary = true
 reverse = true
+primary = true
 items_per_page = 50
 pagination_type = "htmx"
+sidebar=true
 
 # Blog feed - full blog posts only
 [[markata-go.feeds]]
 slug = "blog"
 title = "Blog"
 description = "Full Blog Posts"
-filter = "published == true and templateKey == \"blog-post\""
+filter = "published == true and path.startswith('pages/blog/')"
 sort = "date"
 reverse = true
 primary = true
+sidebar=true
 
 [[markata-go.feeds]]
 slug = "ping"
 title = "ping"
 description = "Short Ping Posts"
-filter = "published == true and templateKey == \"ping\""
+filter = "published == true and path.startswith('pages/ping/')"
 sort = "date"
 reverse = true
 primary = true
+sidebar=true
 
 # TIL feed - Today I Learned posts
 [[markata-go.feeds]]
-slug = "til-feed"
+slug = "til"
 title = "Today I Learned"
 description = "Short TIL posts"
-filter = "published == true and templateKey == \"til\" and slug != \"til\""
+filter = "published == true and path.startswith('pages/til/') and slug != 'til'"
 sort = "date"
 reverse = true
 primary = true
+sidebar=true
 
 # All thoughts (local + imported from thoughts.waylonwalker.com)
 [[markata-go.feeds]]
@@ -49,27 +64,30 @@ sort = "date"
 reverse = true
 items_per_page = 50
 primary = true
+sidebar=true
 
 # Pings - short social posts
 [[markata-go.feeds]]
 slug = "pings"
 title = "Pings"
 description = "Short to medium social media style posts"
-filter = "published == true and templateKey == \"ping\" and \"family\" not in tags"
+filter = "published == true and path.startswith('pages/ping/') and \"family\" not in tags"
 sort = "date"
 reverse = true
 primary = true
+sidebar=true
 
 # Shots feed - photo/video posts
 [[markata-go.feeds]]
 slug = "shots"
 title = "Shots"
 description = "Photo and video posts"
-filter = "templateKey == \"shots\""
+filter = "path.startswith('pages/shots/')"
 sort = "date"
 reverse = true
 primary = true
 items_per_page = 50
+sidebar=true
 
 [markata-go.feeds.templates]
 html = "feed-photo-grid.html"
@@ -80,19 +98,31 @@ slug = "all"
 title = "All Posts"
 description = "An unpaginated list of every published post"
 robots = "noindex,follow"
-filter = "date<=today and (templateKey == 'blog-post' or templateKey == 'til' or templateKey == 'thoughts' or templateKey == 'stars' or templateKey == 'daily' or templateKey == 'shots' or templateKey == 'ping') and published and 'family' not in tags"
+filter = """
+  date<=today and (
+    path.startswith('pages/blog/') or
+    path.startswith('pages/til/') or
+    path.startswith('pages/thoughts/') or
+    path.startswith('pages/stars/') or
+    path.startswith('pages/daily/') or
+    path.startswith('pages/shots/') or
+    path.startswith('pages/ping/')
+  ) and published and 'family' not in tags
+  """
 sort = "date"
 reverse = true
 items_per_page = 10000
+sidebar=true
 
 # Daily notes feed
 [[markata-go.feeds]]
 slug = "daily"
 title = "Daily Notes"
 description = "Daily notes posts"
-filter = "templateKey == \"daily\""
+filter = "path.startswith('pages/daily/')"
 sort = "date"
 reverse = true
+sidebar=false
 
 # Steam feed
 [[markata-go.feeds]]
@@ -103,6 +133,7 @@ filter = "published == true and 'steam-game' in tags"
 sort = "date"
 reverse = true
 sitemap=false
+sidebar=false
 
 # Draft posts - unpublished or future dated
 [[markata-go.feeds]]
@@ -114,17 +145,19 @@ filter = "published == false or date > today"
 sort = "date"
 reverse = true
 sitemap=false
+sidebar=false
 
 # Family shots - photos tagged with family
 [[markata-go.feeds]]
 slug = "family-shots"
 title = "Family Shots"
 description = "Family photo posts"
-filter = "templateKey == \"shots\" and \"family\" in tags"
+filter = "path.startswith('pages/shots/') and \"family\" in tags"
 sort = "date"
 reverse = true
 private = true
 sitemap=false
+sidebar=false
 
 # Published feed
 [[markata-go.feeds]]
@@ -135,6 +168,7 @@ robots = "noindex,follow"
 filter = "published == true"
 sort = "date"
 reverse = true
+sidebar=false
 
 # Scheduled posts - future dated
 [[markata-go.feeds]]
@@ -146,6 +180,7 @@ filter = "date > today"
 sort = "date"
 reverse = true
 sitemap=false
+sidebar=false
 
 # Slashes feed
 [[markata-go.feeds]]
@@ -156,16 +191,18 @@ filter = "published == true and \"slash\" in tags"
 sort = "date"
 reverse = true
 sitemap=false
+sidebar=false
 
 # Stars feed - GitHub stars
 [[markata-go.feeds]]
 slug = "stars"
 title = "GitHub Stars"
 description = "GitHub stars posts"
-filter = "templateKey == \"stars\""
+filter = "path.startswith('pages/stars/')"
 sort = "date"
 reverse = true
 sitemap=false
+sidebar=false
 
 # Today's posts
 [[markata-go.feeds]]
@@ -177,3 +214,4 @@ filter = "date == today"
 sort = "date"
 reverse = true
 sitemap=false
+sidebar=false

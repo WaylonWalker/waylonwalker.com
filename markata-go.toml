@@ -15,6 +15,7 @@ include = [
   "config/webmention.toml",
   "config/search.toml",
   "config/tag-aggregator.toml",
+  "config/authors.toml",
 ]
 
 [markata-go.searchcraft]
@@ -30,35 +31,6 @@ skip_on_fast_mode = true
 include_drafts = false
 include_private = false
 
-[markata-go.authors.authors.waylon]
-name = "Waylon Walker"
-email = "hello@waylonwalker.com"
-role = "Author"
-url = "https://waylonwalker.com"
-avatar = '/8bitcc.png'
-social = { twitter = "waylonwalker", bluesky = "waylonwalker.com", github = "WaylonWalker" }
-default = true
-
-[markata-go.authors.authors.kimi-k2-5-free]
-name = "Kimi k2.5 Free"
-role = "Drafter"
-url = "https://www.kimi.com/en"
-avatar = '/kimi-logo-CegIMkbU.png'
-default = false
-
-[markata-go.authors.authors.gemma4]
-name = "Gemma 4"
-role = "Alt text drafter"
-url = "https://deepmind.google/models/gemma/gemma-4/"
-avatar = '/gemma4.png'
-default = false
-
-[markata-go.authors.authors.gpt-5-2-codex]
-name = "GPT-5.2 Codex"
-role = "Drafter"
-url = "https://openai.com/"
-avatar = '/gpt.webp'
-default = false
 
 
 # ╔═════════════════════════════════════════════════════════════════════════════╗
@@ -241,3 +213,6 @@ family-shots = "default"
 [markata-go.feeds_page]
 robots = "noindex,follow"
 show_private_feeds = ["tags/gratitude"]
+
+[markata-go.tailwind]
+build = false
