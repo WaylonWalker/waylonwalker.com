@@ -4,7 +4,8 @@ templateKey: til
 title: ^M for carriage return
 published: false
 tags:
-  - python
+  - linux
+  - vim
 
 ---
 
