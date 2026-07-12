@@ -5,7 +5,6 @@ title: Groal The Great Bench
 tags:
   - shots
   - hollow-knight-silksong
-published: False
 slug: shots/groal-the-great-bench
 image: https://dropper.waylonwalker.com/file/08220e04-8639-456c-b348-681dae69eeff.mp4
 description: Goal The Great Bench
