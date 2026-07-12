@@ -19,4 +19,7 @@ jinja: True
 1. strive for a blameless culture
 1. Need a tool Make a tool
 1. Recognize the right idea when you hear it.
-1. Always cary a knife
+1. Always carry a knife
+1. One Breath at a time
+1. Let Glue Dry
+1. [Obsess over quality.](https://x.com/jesseleite85/status/2071574906131673146)
