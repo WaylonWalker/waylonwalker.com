@@ -13,7 +13,7 @@ aliases:
 ---
 This page is meant to be simple view into what is happening in my life right now. Inspired by [@NowNowNow](https://nownownow.com/). and Derek Sivers.
 
-* testing md.waylonwalker.com
+* testing md.waylonwalker.com from my phone
 
 Last Update 2025-10-29
 
