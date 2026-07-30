@@ -1,6 +1,5 @@
 ---
 template: "photo"
-image: ""
 title: "highlighter drawing"
 slug: "highlighter-drawing"
 date: "2026-07-29"
@@ -8,7 +7,7 @@ published: true
 draft: false
 tags: []
 description: ""
-image: https://dropper.waylonwalker.com/file/20af2798-a78a-4eb9-b930-c41599f5e8bf.webp
+image: "https://dropper.waylonwalker.com/file/20af2798-a78a-4eb9-b930-c41599f5e8bf.webp"
 ---
 
 
