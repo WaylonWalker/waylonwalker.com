@@ -6,6 +6,5 @@ tags:
 - gratitude
 
 ---
-Busy day going back and forth to get Ayla to and from a full day of practice and lunch.  I'm so grateful that she has this as a place to go, a place that che enjoys, a place with friends that are good to her.  Its good during days I need to work from home when one of the kids can get out and not have interactions all day.  Wyatt did great all day too.
-
-I got my work notes completely redone for how it deploys today. Built and everything is greased up, bleve search is now in rather than the slower to build pagefind search.
+<!-- markata-encrypted-source:v1 key=default -->
+0PCdylNXh/x2L/gzQ2ptvoz85f6REJjK94cIBSGsPFPWUtiF3Wlzn0e3WZelIawObRPJX4989hZMSrEitpCugQCKdM8hXm9aeo1e31kU8Fi2Cqkfxp7NiPmehTEVYbgENmakhUxVjkqHfcuz6iOJdliCgM+j7zkg1klri4Ap9KzQSWa+daOqQPzlmYxS9uTPFoW2B2XY62gJNr5L1ETkFwZsNIgxahc/3Ld/vd7SvwPKIfjJw5Biy3xIdJlOIWIRiSL/t6tc+fiJZKoxtecW3OJ7oOix7lA+rXAQVxRnJxZI28DChwGGIpte68usbVdgF0nzzd1L8pQk0P+n0B0A7q9WqwqpxjnJI1uguyB2RscIbns3xkNfw6lbAVyoT6LWs1R5bxl5icId548yutgA+9Nag90EkL/OdPPDsYlUoaX40kxl9rXtT/qxhxKzLnIEyJQqVrmLZDX5rUybUg/dJ0Ny462WByaUlEweIRPXOcuFuBKXVXbzKxud6U923TaggWA/OZUb/dE7uvZ+6TBS3VHgKkVCmpOtY6pG6cxYNJO6fV4AkhkbV25zU+0GtVHeTPuNUCf3w+YfqdqtnduiZcFxzq9Sc1kjrnmhRbyvY+eQZPV1MJvhxi7ws5KIduJEeFs7dbtEqEFoBi1HOn21afWyO7DK/4b5+c1IpZShS4dOMipIWWuIc7ZN/IjAgK3Lh520UtqXoRNlmxrlh7sl5IwuIGO41XJ61mT/yhuiBihz5YxQ1GSm7ecu

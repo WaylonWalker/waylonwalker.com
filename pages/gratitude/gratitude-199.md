@@ -7,11 +7,5 @@ tags:
 
 
 ---
-
-A few weeks back we took a trip back to my family farm and Rhiannon took this
-amazing picture of the two of us.  We all had a great time, it was just a quick
-afternoon trip, we got there as the sun was setting, did some fishing and a
-ranger ride.  I am so glad that we were able to do it.  On the ride home, we
-almost ran out of juice, but made it home on E.
-
-![screenshot-2025-06-01T01-39-18-512Z.png](https://dropper.waylonwalker.com/api/file/e0078b8d-7846-451b-8a59-40e1ef7925df.png)
+<!-- markata-encrypted-source:v1 key=default -->
+T7vmWs8RRmJshm1ftq7Vo2Kxvx4/JwN8S80NN1SNxQF/CZ9cpceanFPpxsdRWOblbrMnnt4C05egv3fTyIh+hx3Ks9PgNFwlC0nyfR2mo+yAzmMTlqSsHGUyA/mgchsymBv2YIwm6BSd3Jdcw7nnKVRcPariKsSYCzJ62WDR9K0X8y5AsL5iY/Scztr43ty382mnu9W9hJFTaHzhrmKGkDGDlrkkr8EwXWLOIqXeAGgR9J+nuT9k2B6hYwIox5XF8tjqROFwDE2zl+3ity721Sqwe7dUNERDcIhHM9F+7h4KDJOaY9LSorRLnkYbuuDuTqttGVtWWkdJnNaIlYoFlf6xuD92z3UKVkmDMZ2/hZvYeQb4MFoilZdKcDJtRPIhGqIQEjmAND4fOjZDMPDxVlUVdDyOGIYNDqH28MwGwGH3S/eNO8eFwd6D8F65H/7bvhNHD2hY+PMiIKjHJ0yaRlcBCZmwzOxBdAjm7j8bF4GtZ1ad+JcgLtlmKp/TrLYlOOPYgSJpzqooW4o49rHOKSaVVLbm16jJCIDDZajBZdd8uIvP7c8d896rh12exu9b1tCSmfWHwG9drcJ9La8yyLizgjC+X61Ge1mlCGT2GMA2jo3c/I1UFtzf5DUwaFWoCnK8mHqAmjjHoleW3+3/BVl74kuO9G7clk3ihYq1iije02o2RsjpFS2PdpP1fxRlrM2/8Q==

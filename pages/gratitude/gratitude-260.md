@@ -4,10 +4,5 @@ templateKey: gratitude
 title: Gratitude 260
 
 ---
-
-Happy Anniversary to us.  19 years together to this day, wow I feel old
-thinking about that, those are old people numbers right there, and I'm proud of
-it.  So far have we come from two young kids to having kids not that far off
-from that same age.  We have it pretty great together, and do a pretty good job
-tackling everything we do together, time to grab some cheesecake for
-celebration.
+<!-- markata-encrypted-source:v1 key=default -->
+rD2IH2kFxt0YXxhlZDFDNAlM/Z03XM+4Xm5uIadgw4h5B7NjbmQfTz1ndE0pitVwmM6ZNi76dYeDiXyLATba+XnaeazpXhcn/darmU7wtF9lxdREsWRq/T38U18Z7WqBRnsC+6Bev6Yx+mFuOI5ZniziYxzD+6P6bc64zDjsIg4nzn2xh3sy1YBAKuTCzXyxgTn4r+zP0VCfiz+/yIKzwvaPQUFYecqPHbdVHoEjLOcxhj7Nn5BD1c1bLub3MDLJA/cXSl54o5FSHAI6OJ3PzvZZR73wRu4wgYIG/wfjSvGO2AFrkGtCo2gVRZy4nxmGCz04HeNqvj0V9MA1oTyDv5k6yoxLph0NnNMPmcsJanCXd7umylmYC/N7XwZKdYpOnavi//lzAwwz5s16UebOqqg3VV16OHYTXOf3L9Ae0zBi+cTtfKJ6FddAeQ/9vU8i4iJKAilzbLtkZVcaKPAsz+uvhGGn60qjm8i4I8n5PdS9MRCSyKPicrKcGFL2kj05ro/8WGc4mgxpI+EgXdZXsc0KqUqApX2UC9HRutSEExmXj2lnKUczKHfeOX0CiJooWZsXQg==

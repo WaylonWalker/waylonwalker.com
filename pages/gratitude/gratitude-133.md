@@ -7,10 +7,5 @@ tags:
 title: Gratitude 133
 
 ---
-
-
-Chemo day today, and it seemed like an ok one this time round, Rhiannon was
-able to get a good rest in this afternoon.  That always seems to help her quite
-a bit.  The house paperwork is flying in and rhiannon is squashing it as fast
-as it hits our inbox.  I help with what I can, but honestly most of it is done
-within minutes of it getting to us.  She is really crushing this beast mode.
+<!-- markata-encrypted-source:v1 key=default -->
+mh8NGlmcIb3kBhZ51O0uY4aljIYjAqLX4aIqdwIBd0P0R8bMjzv2NnbWwpobL1TGI/qmiUMimqnuMaCnXNGKo6QTiW1OsQ3IwsrRP/99tGCuDPZbiVn58/ggX1ASUtGJAcZpRdxC08BiAP0kFSfBnCqCDKFfRD2NJhd1wB5V1G7rW+frYUmpuk0RxcVkhY8kFy2p4dSKtxpTD0tJ6MJnB8nRLlT+NiGzUu1g6pFfm7xXms8OsKXkd2tpD0R4k3Mp7XytVi2CmUmjAR+xy6X/LeYPr6YLDpw+NhYiUPoys9URnczOANr47gIVntj0EjvDqbS35fcn/yb2NFICfdblki0rHpyn99hZ7GuVfLzAfTsO/URyyFUgEkh9PK6gd/6FIghWP0RbRSHFwbyvsnzNBr69FFc7vqyJrih/MjHm3ZmXOSgDFjKMGdSKjxgPtr8dj2wAmEQFGKyTsD3/Ij1LzFVnxVIFuRFhxB2nanTL34dkXLGZVr7UaN2i0VaHztAOeQn3eABdVpIHcFNwXt/5xSsaUn4C0H3nmkblG6tyobJFYvaTebJyhmqHd2QNRXaRm/R7PQ==

@@ -7,15 +7,5 @@ date: 2018-01-22
 templateKey: gratitude
 
 ---
-
-#### Encouragement
-
-[CuttinScrap.com](https://www.cuttinscrap.com) was released last night!!!  I am
-very excited with how it is turning out.  I am even more excited to see
-Rhiannon start using it and getting some more content built up.  This is the by
-far the biggest front end project that I have ever done.  I think most of all I
-really like seeing how much Rhiannon likes site.   She seems blown away and has
-commented that she did not think that it would turn out anywhere close to this
-good. She would have been proud to own it either way just knowing that I built
-it for her.  Seeing her face light up during each preview that we did really
-kept me going to finish.
+<!-- markata-encrypted-source:v1 key=default -->
+nY3w+iqMsWCGuAAzHHHanvGuss4geRfAzFVy/Cyaf/Zg/Cu+Uw6NU1NBLc4brpEy+3qxxA1Ri6jO/k2PKfDtXmIwWdW7RiIuoKKz6uoYxCyCpjq7tMW2DjCWawaJc46L/TUEEUM9GOP3aOf1+dFoJqfblDJbfcoudCvAegBUD+en1sen2vwKdN3Ub0GJe2eAJXiliZXwgKSMOYxpO4elJyfB3TFaCTd8gp8CDz790MJixzDw5br4kOB/YmkUv6JiMgt1nbDzpjQmF7nUyUAUqzwAYcqEXlTsMz9AhrfQWYUrT/pXcKtBCudqmrm28r6nYcMJ/XaFcQyXygpkA+Wo7dg7AU1ei/2vGPuVhwZDt4i0JAfUGK2Q0CUQ//Nkd9gc5iGHFulx0rY988pcjwPD1gXYVujtewEbBKwSOtN0qgWBtn8TaWxx+R7VosvrYlvDHNKhUG8P9Ls9sjjQEkQ/frPt0KCucA0HjH54kkhjMh1YG+uH9722mR3mYncDWdlRtQ3CObVpeVz8o9MZMaeJRfY0i82FHmGnSGJX8BOcg0q3dJPUD7oO/3aPn7zAXqF/tbAR5fV5eimBOLYij5jWhsCxycgVz95t54usyPRrAr/D5ZXMoxL0EiZot07gTrexFyW2kmH+VjjLohdTGAMxqZCVDTzB+K16Jr0DV54XH7GpYIjiRSeqKZFu8XL4/QyB6EIiohiqU1FL7hlzPv0EA4EgKQOiUbsraQxVrcQhSUM6MWvNNvz4yQLrwiNea5jQvBtfmac2zVKwVukgQ3LUOZ4Iv2Cfu8gSB+AW62wgUUtY282S1IC9HJsGXq3pfOWP1/VrUvhSOVtl0HW2viW9ShiWibizcLy6djIoQ6liFM/MMhlyCsZ5IstJz3foHV4lHfW0ZDzcrgx/L00rjLmpiR5+u3l2RuiDXumEGW7ajV9mXBJOubs+/CURcKm4

@@ -7,14 +7,5 @@ date: 2018-01-07
 templateKey: gratitude
 
 ---
-
-
-#### Adult Time
-
-There is something special about having pure uninterrupted adult time with your spouse.  Last night I went out with Rhiannon and we had an absolute blast.  We went to the brand new brewery in town "Industry Brewing Company".  It was absolutely amazing.  The food was good, but the beer was completely flawless.  There is just something beautiful about something that is so flawless.  Each style I had was brewed to a T.  My favorite of course was the "Industry Standard", a super hoppy pale ale.
-
-Next we were off to the local big box quilting store to get some supplies for Rhiannon's next project on Cuttin Scrap.  It was fun, we looked at a bunch of different stuff.  And she was able to talk shop.
-
-After that we were off to see the latest Pitch perfect movie. before we were able to do that I required coffee to stay up through the whole thing.  So we went downtown to check out Zion coffee roasters for the first time.  It was a beautiful shop that reminded me of Horizon Line Coffee in downtown Des Moines, Iowa.  We finished the night off in the movies and headed home.
-
-I am so grateful to be able to spend such quality time with my best friend.  We have great friends that are able to watch the crazy kids.  We are able to afford a simple night out.  Lastly Rhiannon and I are getting closer than we ever have before.
+<!-- markata-encrypted-source:v1 key=default -->
+NomiG0fp8+oc3a3VYnf0ncwcjM9PFH9yeclSos5LSspShMN9jV1/3cWDR+o2KpatGdvDihW0Qp0ZUxgfR+rdA5YlUZuVpBQjL2yNAolPXM47anyqfGuBD+fxrabrh+cD62FX7+iTf37CUm1T9YrUFYiJaH9Zqi8Vnv0e3a7N590vSILbawQkVIE6GP+pJOaVsHP6+DV0TKa8N8ougsiHBjow1PTol5DeCaWoyTEUZEAMfMmmKzS16rx4lZRRd4fFxxwHZkmzCMyIRWZvcvaVyczhxoSdhhw4EB0WCsQ6f80SOLJNzv0ezRtj45zdA6BeGuFTVA27ScO0F6OaeUqAQChXcGBHsfp0tkAInKqj99/4grmA2fk1CyjqMC6idrQjr6UUoYa+PXyZAQGRloau8COu1fnCOn4ieOxJZf4/8eLd4eTuYwU7fI6xPnVBEvr5bDW+hGpo5kkKRdOrY/DB53T5GQAcQBWJWuxSVpR/qOSZgCbyym+79er2THt1HjlaqU+ENVaWM4vczIvBkNCWWoaF42c1wIkT4AjK+QOukOKiCTSAillDxSAXFQDh/Fw9mhNzaiK1FSwkKwpf4zNVmSbCiCeg1LwQeOktQJIt9siCe4S70XVb8KMCYfOyy6y4moWAunX158qtV4D78WBAUhDmc/mlnqdabc/oEzOU5fvc5Ijj8c5gUqqQ07wIIWS48csPMWmoQV84NanIrQ7O4VTlsbbYb24eFFqTmeuR7mGcwyx47wqV31lOrDK3ATdITzYzB88HecTuWGwpMIS+97FsGepu5AlkW9bAQ93Jh4TbZW54TokYAcr4w1gLDe6ywOH2zNXsT7k+xZEFg0A64O/oukuYi78eLUBdErjSvvMipEeF5m1ApVNTlGLZLtj89VTpaJsl5J7B7BchepBmLX+C/4b33sxyHravb6aTVIDsTJuEIt0eypVsJ6EGjaEyEQndlHzEVrix/9ktsa4JMs0b7Ta6Ncpneo3KQu8ELT5LChCeDlwB+TCM2mJwXgVP5J5ZyYgDv4vDD/XRQlCjUMKVaOASLBhgulb5fpArVvvrUOmx5gAA9eIqD/wJkTJF/ivOLlN+VJ2XlXkFnvCNKMswUNgpXhv0+h07ISrpfi7YQ/3C4gKBgX7MQASOF+RqfS+y6YeoG5C/rCNLMRopDciPgIhLWydUd6AnsnnEAHIpOUdSShX0p4Wq98dKIotD4mSrYy1d2kMaL3gchK1CCfsYHqiQy6d/UZgVjHLZ3XPmBp25SHU0zMKdKY3Ia/9O3c2yYRhncO5JmdunPr/Ob9FbVYrEqAEgykVdRouI0QNPyvclItMAb6c9bSKXaCILoNRBxuic18IMAKCk+MB4eGH0x1m41V6zMP4IlKqxl1cpcwIi1hwA+MBwGcZo2yIfHrjewuHF8NDiYTE8Y0AUtUs8+36TMHNwKJlumxDeEKTXKrJU1WtNx+ruVpm2cjJKzQatxV36ifWzkBhJQlL/SsqPoXwB+d1mXggxsgsis6OPgOrRRSdZD1wx9VkN4ue4+082JLr9R9FlGNf/L7nNqnU0hY3UirS9SN94RIfPRyqaBZ9wTZoCoghG9tFrRPWk2eIJj9J3oJvfmEjnhjCXC4IC2kSqkv0ZieMrQz5xrHgfFvlssTd2xrHUbUjW9kiaWw1TJ8WWtH4IHf2N5ayR6p2GNNI/K41Fn+d7lzGhwQZ0FooJh05Ewb3bP8seYnfAVetlDRxtQ7uTqUhfi6K02COsyJPDBHCOG8qUSIpgZVxsLn1YX2rg5UV4LSWfboKtLLDE0U7KfAdTGp06bgGAAdn0nj4+XVkXJthUs8O7UCntb+vA7mp4ejc/MwB3fmI=

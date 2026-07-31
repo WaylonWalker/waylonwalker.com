@@ -7,21 +7,5 @@ tags:
 title: Gratitude 096
 
 ---
-
-## It's been awhile
-
-It's been quite awhile since I have done a gratitude journal, like really long,
-but lately i've felt that it's time to start back up again.
-
-## Doc
-
-Lately I've been battling some nasty allergies, today I
-went to the doctor to get checked out and prescribed some
-medication that I think is going to make a big difference.
-Aparantly my nose was pretty filled up.  I could
-definitely feel some immediate relief as my nose started
-clearing up through the day. I am so grateful that
-Rhiannon pushed me to getting checked out.  I am so
-grateful that my doctor took me back in as a patient after
-not seeing him for so long though the pandemic.  Finally I
-am ready for some relief.
+<!-- markata-encrypted-source:v1 key=default -->
+WypOqEg4j1zNs0I8W6t7cLkuZVbvWAR6SbnNCT+szdlZJgs8RtT2/HEqBQdmwODrfXfmJmI8Cn/+SXx1ZpbTR8otqBwdF4LmBasfbEZb5BZFfsx0C/movEuihu0HN4EdHnCwFZQ5GAkbZPbNVlPyubj2jubHMEsJ2R9xr0WH6JQMwwZ2uBkdi4NOvRc5DeXnxC30O0BPTNMqY5Io6EKS26BAv2U9gYzNRDx9nch2uc1gxN56QGrC7FChd+MWr1JbenOP2r4Hqtoz50Xt+Gp6ABC+aOh1IKDD2SQSqNXtxCs88Q39c6fLJRdggMz14PCPe03WWkCYkPIfaziEFP7ZZmRwA8qHV84njRtKmWZCt+dNSTD7cfuuYoH6HMN1RPQJ4DnoocXSP+jCLWMZZURhxaJlaOt7L0KfuTgpdVAWQxCic6yuvD9ZhqiHrhpF2HDN8xL+eCNnvA2j7YP36aoyaGbWRhpd/6XrQ0umNwefo+nwy4NL/Vrpy2ukUVyGD8Fl4w9Et1xgzIPjxDI5hlWuMICVMwqkb3NxJE289RARNuhMBY6bys4mjRLQTD7j6BUGBX25A3kYCtbOaNOW6/FpgkhzybXHCk2jBio4q8L8bR6OveCDKYy6rokyQqnDa8BuUuTVpUjldc/Pg3tjgVkf7V6Y80N1eeqAh4FJPKtM3Y8GeSbJNEGY/yhqm3nvpvFvVFJXHLL93dW0Vn1nljAbeOr/QMTXcykXGUpLodaY9QKe1I3rh9BF4D+LC93vPmmLzTENKHz4Wp1fJ7D5juXgGLxvIc7m0kyCDCMXdd+G49/BXzmdRHQvfO8mZx/Kz/gGlbj+hefeng6fmDC6VvHMNA2gZO42wf6YnIEdjqNs+sQBJPeaocVfn5rTvAVpCV4TQ6qoL3Pvy1ODMhdB0abuwFhvLlFHKsBGR/1XF1vauNq4Jl2Jz7X9nhCRm7/r3PpEECqsiFHGCNo1yPPJaiyRB/If+FBB

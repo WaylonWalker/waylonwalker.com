@@ -4,14 +4,5 @@ templateKey: gratitude
 title: Gratitude 223
 
 ---
-
-Ayla finished out her fourth show tonight and did so great.  Opening night she
-really struggled with energy at the end, and tonight she came out on stage and
-knocked it out so well no matter how tired she felt.  After the show everyone
-is congratulating each other, she does such a good job at making sure to to
-congratulate everyone and make sure they know they did a good job.  I am so
-grateful for how well the show is ran and how great this community is.
-
-![image](https://dropper.waylonwalker.com/api/file/3bf8cd7c-6f58-4a2c-b96f-470e2aa72b43.webp)
-
-> Ayla in front of the theater sign on opening night
+<!-- markata-encrypted-source:v1 key=default -->
+NOK2xGB7P+4NBUjUjhV/FPWwSlktRbzX9cCouDhymis+o6yc3gmkoYgCseFYh+rU/mP8yoWAKCGV4YEyTbLPK6kzISXB7KpGyDTH/Rsqy+LjCqnp85MjKBfyeBp9eT8+mWfTkdXxSV1ltfNH0NY4fzGxm5Zo1yvQefQfzrvDkE62GONgxojQN9f1k0MYm0huRV0jrIbiE0O+CIftfoRbjqeYLMmKBmOBTSr5vLCaBb3gLsb36bWkmqdWZ95Hvo5PONfTTpYceTqNY3UpdUa1vW/z9+JYldp7itFXH6178w/ID8YVJV4bPFRkAwXGVW5Q5tFdu9z1JkK1scmwBM/qZQ8F1in3V2+LApE/fidFne8jxA/4YnP20GgChGRlQ6GkgyP0Gja3XVAsL62twINR4cem5EeCXXl5wvZsgnY5zsryZq4yzf3OIELN1b6btsDrTTUBBMtGbI//W8mvaNbhb/sbLPxTMeTNAAMQXV2oxDKbVF7bRdqwDx/jvk2R9p6fRjV6D7K2+Dt5t5pJsW23wyOYzwUlUR0HbIx7zDpMeHtunSXwCI2NmZO6ok7sksnlbZPKCBCmQIYiZc8lJzI1FCl+DNQbSwD7fQqizbhA+GDUdhapWQ/XHfUd3xEQoL3x6H3Zpn9eat7Yk6jrqCASgs2BV2QxrEpiu22VmjAybItbtvbbfv/4JLVe1nZ0bsUqqnYUWBVF8VE2UQCTO+aenDHP+qKEvHuO7LWAKWDXVpRcw8Kv6Pi6GahqymLsJmeRbrwMSyNyyipwY+bLu2+aKWbvg57yvGm3F+uFic7tvaAXw59vNa+ieofey3TZDoG1CIYz4h9aotXq+0F2dohSUad5FUz72ZhLVpqlu4Y=

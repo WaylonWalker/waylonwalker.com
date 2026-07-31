@@ -4,11 +4,5 @@ templateKey: gratitude
 title: Gratitude 262
 
 ---
-
-What a heat wave we are getting hit with here, and it sneaks up on you.  I
-Mowed the yard and thought I was doing well, but I'm definitely not conditioned
-well for this heat anymore and I think it hit me harder than I'd like to admit.
-Felt kinda crappy the rest of the day.  I'm grateful that I don't have to push
-through and bear it out there, I can relax and go at whatever pace makes sense.
-Rest of the day was chill, played games watched stuff with the family, Jett
-wrapped up the 450 championship one round early, and Deegs takes it to the end.
+<!-- markata-encrypted-source:v1 key=default -->
+100niZJvYcW80DulcBp05Wh9Kh/jFWQPlEGZ+PnXqnC1VEjDb01Wehy8hCdrhVyo66uKWqwIvZDmSkWuZJg0CbJhSd70cmIK3qVQam6uoCzhJukQGl39WnS3oMcJRDB61io9o4cCnD3P6kFPE37D2UOHh2IFhKh9+/+jC8cPwRrQY6YpM/jrvek042OdQJhdJZuAZVNePhkxTemkZQKPiKkmT0LGaJxsGU+d30GNu1+5U9N6Vt8/bng0vtkjkPbs8zCjDQQngkJxv/jGqiN15owQC6nLbnllQuDMpVzX0LJmgwtGJDgpQwltaO9hdlZMcYgIDLoDCTrY4guZlzHn9c5YccabYSdJuwmIDFDwIiHfbPM8UhITgJwIMFThTQCiDSXjrtVvjzT3hC+fBTx32oChRTlvL/YkP3oMtRKp3HyB4Gsolc/8hdvemGvNUL5SrxrWVtNuVcFd+vtOavp/h5WF8KQFQMLkPTEYrMMZXd1OG1dWiZv93uNv7lu5EDEazj0xvEGHTFKjvzgaQY4tf37cCsPioOBAwTtIGvm+S4HmYzjGHeYiGFQIYqr0kMYgERkKRZMjdLuQ6SMNXGlHGmMbXAo6iOzng9tsFogPY0PuNLx3hnFaSJpleNcTqTdfyMYj7nsP03jQpO3fJk0HtQbyQaU2nTV/WH4Mr5cfQ6hkKji74J7OVzB7iczVcecYeBe0VeZAGmaM/N3VFs71XWQAKpB7ktgyrjiYBQV1/2lyyJdFswJRUCjc1KSd50RNrHqnCCQh2nyPh338yOPHypDgOw==

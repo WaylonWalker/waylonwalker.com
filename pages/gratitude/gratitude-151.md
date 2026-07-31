@@ -7,12 +7,5 @@ tags:
 title: Gratitude 151
 
 ---
-
-Today felt like a mostly productive day, I got some good packing in.
-Played with the kids.  Wyatt and I continued on with our amazing boat
-course in minecraft.
-
-At the end of the day Dobby and I had a huge play session with lots of
-heavy running back and fourth.  He got a huge workout. I have never seen
-him move like that, but I could see that it really made him very happy
-to play that heavy with someone.
+<!-- markata-encrypted-source:v1 key=default -->
+SCF1xJaz1cqV88U+TpOH0XXmhcem3HymETV8QXtlHPj1R+LC7QgqpraTpqmQQM35VrZq7toIQA/RHcExYRU4WZXBndRVzq5kV6GG+SOFlJULJy1oGbDmnJYjJO4pChxCKtjwtW9odJM+WS+qnkbdFmoV1i0lJJpsGbNoBnfCDMuLMFeiUCis2PJ7hlsj9h56/FIxWe06hynL2Cwh3mvyP9tPB0a4b0vntgGb5ZmcAMGFwmCoM4t4Lkj+v6cU/ham7mJxJaHDAPeBtAB1sKGcdacg6YdIDrQm6anen+pBmUAj5DLPtjifXsqOai6DKjpY8Y+DxWYj6MhpRzSz4WwuX1Rjvr1Z77V0BdNNDpopGnqK1B6epM2Z+au/FyPSc6Jmi5T4fCRzspv4nPqNRDH/gXrLLHOcuRT4emXj2L5bFrmPcvn9OFQI49AqY9g+0WqIo9w0rLyA9oZV1k1VYP6ckplq47O++8y+wDGcgF2OvXNG9hXSGOocMmfFaUBrQCAcXctX0ep/GWwsGy5DJr5j2Ts7gi1sYyAgeNiP7mmEA4IwnsaAE1NS1Axu6tt4vh9gZZWfiEh1GrBnsWBTQAWHPIaMcDRctA==

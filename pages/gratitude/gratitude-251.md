@@ -4,16 +4,5 @@ templateKey: gratitude
 title: Gratitude 251
 
 ---
-
-Great Saturday winding down from the end of vacation, helping Ayla heal up from
-her procedure and just chillin.  Nothing but just low key chill day before we
-get back to the work week.  Made tacos with Wyatt, I always love when the kids
-come in to help and take over making one of the dishes on their own.  It gives
-them something to do, takes something off of my plate, and gives them a skill
-they will have for life.  Wyatt made guac for the tacos, and he does a damn
-good job of it.  It warms my heart to see them do something autonomously like
-this and enjoy eating it together.
-
-![screenshot-2025-08-03T01-55-36-113Z.png](https://dropper.waylonwalker.com/api/file/49b1e054-a82d-40f9-bc21-2f2a1feccf99.png)
-
-> Wyatt thought this was the **perfect** avocado cut.
+<!-- markata-encrypted-source:v1 key=default -->
+YXC1nQU4Oq924bYiLPt6ym8EPF/EOKrUIyLC9pEsZl6KQoz4vj0w520+C7ctYTM6APuuN3l5L8CDsMKgLAiyVz0MS0nWugEszybWyOCrF2UStm16eLDoA6WKdu+VlsGIO5GHFYTVyv7Aqy/A9WO8CkbVFyedfaJQNcZqpjh3J2vMxjWbp3luHOK0vBdEdVl+DiOHpZLO1ly6JuCsQoSC+Fu12Qq1P8qJi32TkimnFNKiKRQEQaSGzKcptYBBgxbQaKaUEI5TqhheLnN39JAFFhSc8zzOqcVijhcDD3mlvHWTPQ+iFSmo8boVMADCYBjy+Y5Fx+Oj1rcveGNTwGbHj3kEO3lfm0zxVb4Mx5dZ17hkD4u8A9ZMvaT/m1a4yS1Q7fiMyf/g1xumOh3kKgV8MgmlshSHRWZ6C0I0bdRtaC63NcDV1FgXi0FaN60VqxDN8YupqGQPqzMgWW3lqufZJ6l6HwNr1AlLwBzFKUb2sAQq+4c/ei1NDINNJ1x+Tp2a/emi7GvNxLaWRLAYgk7wHdUauUJ3pwwoQmTdvoZIotzq4dkYuRE28bTMPThL7uPSIVpIqjvmSLVnMIdD3RtMU29i/UNlWMWfVnq3GWDYUSghLwjJEPnrd1aBvjCOYWlXyGeSqDu7ajrxSVy27zTvXGatDZ8AHo3rA549hbuvZjbG8zDiR7Zyn444LKxTseyrc2w163M0GDngNqv2bYVveZQxalOMqcA2RP8l1M6vL0lz0/PZhbCuGY5bC/CXBFl5iPh8kW+kW/OiGQ6obvD2dyuRxjuVtY37hs6wEmJ4edsVPg9nZUJMRAUOLqyBHT0GSOhfZpyNLxX4rD1YeHQVW9A/v6eMRLGRnWcEOUC5fju9r66XXoMVA6q90o9n+6FKV0fwdS5IRuzUjWm1h3zurL1TRA9ofKKKP9fV65OZxg7hqJJkWD7FFpqSlVaKlpD0LbRwWKEgOEh2ATsqbev21Iy/waykq8ZsEEmwQcCyFhALbmYrc2r0WRJbWW7SH1z3TbO7bglvjLxnPbFJrLIlGoTpX51KtptXee9mzRrwrUa96ee/SpO9Dnf6Hw==

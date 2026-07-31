@@ -7,16 +7,5 @@ tags:
 title: Gratitude 163
 
 ---
-
-Do you ever wish that you could just get through to someone, try to get them to
-understand your side?  Right now I would really like to know how to explain to
-my family what my wife means to me. The mother of our children.  My best friend
-for as long as I can remember, the only friend I've really had any where near
-this long in my life.
-
-On the flip side, I would also really like to try to understand their side.  I
-think I know, but its so damn foreign to me that it just makes no sense.  I
-feel we just have very similarly opposing feelings there, just not
-understanding where the other is coming from.  It all feels so rediculous, but
-every day, every big event I feel like I just loose a bit more of them.  It
-make me feel sad.
+<!-- markata-encrypted-source:v1 key=default -->
+ND6JSVF7lAXF8cR9YRTyqgXoPj8laHwKHcZGn/AHCYCWlICm9fE5nyLam7VCnJ31zxEgDwIPOaWGt/UFufPDn21rKXbsaQmWOSQ0wdY0WsTinrahmXCtriKLVsNUbwcNMFQ+VN5c8oMnVpT7mM9YfwXbR5KiyYHzXvOeCPTJcNi40xnahdJn062FtgZk/KAoiXkfDpmgnDSOoBfakAcQN839TKxZVLgJMZxLRB3vlwqedH/8NRgcIo2s1IDl11TKqxifn40xUbW9n/LPPuOBaqOBKYbF/X/S1G+VgUpVVY4piebEWsFfpm9aTqwiyGOMjunJ8MOgQszXeKd2tfLaMYGFCviQr06p08TTRDlc04TOc1kxlTjwOB1T89tX26Fbuysx6KoBJzCu/LcdCRzf2gQg34iLO27P6zt4sqAXPmhA96FimSMv/aapicAIJq2KTQpHQESl83PtG0zC5ULqST+b1YokzYO/ZhCt+X/FudSQ3mVvkmhfuLbkRfJa2ODKtYca23b9TfhxiFdKUL4n1E9mdlLMDdQ73osDBx5dXeHNPq4YJUUg0D6BhMPLfxVJq4nr9xo3bP3ypMOiPTJSKXjV6R8BlmqWGggWWULc5vbzkKSjjTZTudj/wfD8CXiJb0ikF9mQg1l8qmUQi2fh6srgvvpsNUaa7XAw61YfSZvubP8i9gEjaYEr58aeS0tohnINMT9tlfiic9Gr6Ig+Cbq9JyN/L/KZFz4Gi1BLgwVL/2V30Pa+ih2c5svbY8D/hxGdlOTmzgbHfvY4SOBiAe3t6EMm308KzZY2q43ckkSDOMnwgcpoZyajNa6viO6GJEVCLuTMBMPZ8p5d4SBdfHGTSAKDzyhEK2bOwe1MfiAZimyibxVh6gc9dur936Ib9CbH4ATWsVRB+FZ+noN4hnBZ6ukEuM1lfXWTr40Rum/WntMhDZtlfppBoFUFdCKcTTKS0qMMrOymHiJZQ06h36bN0rWTCviIF3gLTPZKIXFvgBnGO8Z2qW0SSZMG/y0TV+/heuB9znXqrO3O

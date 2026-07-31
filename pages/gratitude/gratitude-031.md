@@ -7,7 +7,5 @@ date: 2018-01-26
 templateKey: gratitude
 
 ---
-
-#### Pick me up
-
-Sometimes you just need a bit of help and it is hard to pick yourself up.  This morning was one of those days.  I just felt overwhelmed and like there was no stopping it.  Rhiannon gave me a call and after talking through some things I felt a huge weight lifted.  I wouldn't say that I was healed, but I would say I was on a good trajectory.  It's really hard to battle things as a family. We are all in it together and that picking each other up will help everyone.
+<!-- markata-encrypted-source:v1 key=default -->
+7VMWMa1X+gD/aTaKMfxtXFn118C0HHmkhI0uva4Ixy9IkYfkvVofT/GGg+MECNVDxndlgto/BftQplhunDcvTX+fxgtshZHdGCKkZGed1/NYig858TiOfbDlB8o8/Q/npPdEcTYzpxIaYzacxbHB+R4qx+0E9HswSWZVeJ1UnmN2/ePZ588zdSNzZrwt2NOwmDl1HziJHqfNfFCCZatkL5n/+/I0L86KvDhh9XYql2Oa0pwmmp9EJiKqakeWbuaxlwH11CpYNv5wQIEoOnMLJ0qx+p8rOj0zrc4HtuwmgjAstUqvjWwT/nklIrB4t13Z5Y2bWfChuGM02R6+m9ChetNuG3gqXN7463RSaz65bVdpIds6DZSwcPNUz1nvLI+k1F+vR4JFlh8nkgO78JwAf6X+QFTrd6YqwA1DEcOaMJ5W/2wtLvMgns2Q8JfPn/AiXnLpAe5AS6XatNrdqUYlc7FwC3fcFUHE5JGx3J8zWatlxsYJBxyaCTtK/uXdF2w3Wnnnv99ovFkHeMD4LASpqbMLsYei+l/VPLKKzwTueO+OYOviSj2XeKovUrY+cQcz8cS6PWnUtM4xLsh8MysILZczI7xMFmCUK8z7mBP1IjKLhVjFTPg+9dtiRVM0OWIaXGmx0HjXfhlgx0SKAAhv7sRb59HNYJGeKLQdPiajzAPy6wxmdvQB7sWUzaYob9zttA==

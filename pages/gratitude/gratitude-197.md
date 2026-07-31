@@ -7,21 +7,5 @@ tags:
 title: Gratitude 197
 
 ---
-
-Today was a pretty great day.  Started the day off with a few work meetings
-with some really positive feedback.  Then in the afternoon Rhiannon walked with
-me to pick Ayla up from school.  This was really special and I really enjoy
-when she is able to come along and we make the time for the both of us to go.
-Getting back to work for the last hour of the day and I crushed an issue I have
-been having with some slow database queries making them 70x faster.  I was
-pretty pumped when i found the culprit.
-
-On to the night Wyatt wanted to go to an ice skating event with the church.  I
-really enjoyed the time out with him.  I thought it was pretty special to take
-him on his first ice skating event.  It was a really fun time, but he struggled
-really hard.  So much that he did not want to go back out after completing the
-first stretch of ice.  After getting a bit of rest he was ready and we finished
-one whole lap.  This was pretty big for him as he was a bit unstable an just
-scared of really trusting himself out there.
-
-I am really proud of him for finishing his first lap.
+<!-- markata-encrypted-source:v1 key=default -->
+RWx9bz9F8piAVXZH4eJ9TNsqeYbKeEzMAEn0x40bkX4+/dE6TVuUF2uqUUxgVS+WKOdSH2E3S3/e1mRoklCfKcnkCrqmRGGkRaV5epSQZP4qGGEfl3Yoh2yBm39deEIDawG79fSSTFyIr28hmTk/JIgs63FPbxJp6jJ1Pw5XE0iPDu32KUItWNx7MgZfleJWxi7NVEGr68JZytF5qtzjbFB5DvqRzUSmYxP9YiiNToO9l6jZCfwS47ApMEwOoUzCTzKEL1Myx5r93gBsxA3lNACJhDRjwrp108g7Rdsf/1NsCfLeuUVgNEQi1glCMX7nd+/63bwiJmUXfR8yYzOXS2PVNRw+En8fQ4qzXpjxXJxzEBYKfrum2RXfxglMDzr68kjI8KCS81muy9DqQpub9fEL48y5BipDpuINsN6jsiNk53qtm52GORzNPRgPThytmOFxAeIxDlOBszC5PBW7QMG9/fUj7JhhBp7DFvgG8L5wqLQU2JEDhQI4bPYGozIRqusrB1izvBDjYdoTDICD1Afv8s78JFzRW9Y5X1rwwRSQNdcb2Ap+0V3AvbKTEc3I3YRbm8qa4YPVe/nYOJbvAIduaPHGtaJ2HrtJEb57bayNVbtHaRvNKysK0/fxIrC8ExM6nRtke+FU4tNzSfXnvNHQfhJ++Rg5tM+mUlAVwdLfKDAaqe0KsvJ8v2U2ZutSL2Zb9XTMoBnNRVR52tYwDdipwC8RPfU7xgw+kS0JO1KjEMv+9FGN5qyEm05tO2UlQB7ZiLU9//P2aMTA97FnYUIhf69NNm+MTY3qzzJDD6P/JqwYV1STGZRyf4lrN1MSngLD8duPxvX2vD4zLYbJwnNnflW14jOUBQqmGroXFyaq0PbCkDEDWjAguuuyHnzu4uZxKdlDcpZMOUiCD3u31uy7Cph3y8Kyfo8wOojwsgM2RE8ZWlJQu/mhwjx6nCoXYHrVZVl5RjlAM4j/oP9N5PU5lpW/KBrcS7VAYTxAYMZnihlwr2GWTqB3VGT128mZPAZwHAE24JTd15upCCJcxqLwxBj9nCdfbhjYnZDoBELVLhVRFcUoqpN2+gjEc2y+6i+vCf4r/MXX3oTvrLWq7LLQs21qgFVwhBjnwtTebWPga4qkJN9dCSaRSdJYbvTJWNv+4LvS9edjDIciAttMtspVnHPEvCfjuNmnkVhHkEXjj6XC1x/rdmpUouhkkUsmVb8BNOh52bpnTSbjBKYPgZZoInzJI9hTpskb/nWLnBa9ppIhCE3EKe1fasBTvy49uVw9dyPCVrUTOZXjppB+NEQgf5xvH3tz+8h/571j5+ItSom4JvYpe7swpiBonoAr+xhzla5hRi/6NY9hx8K3X03sJ/VqpD1JvXv4hdQWQM04eRJ5+zPXG1ugSubV9ymNZ7TUUfo2jH+OMUumSPEBNVnrE4BxLlQ93pQXj5OiupgjzRg18F2dut3j2nioIPkEMvDqueoTLAGvBoiaghrwvIGOSdMH

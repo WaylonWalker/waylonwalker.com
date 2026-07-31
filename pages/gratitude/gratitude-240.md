@@ -4,10 +4,5 @@ templateKey: gratitude
 title: Gratitude 240
 
 ---
-
-Had a fun evening with Wyatt on the trampoline.  The weather was beautiful and
-we had a blast, I am so grateful to be able to enjoy this weather, and have the
-ability to keep up with him and jump on a trampoline with him through his
-childhood.  This is not something my parents were really able to do with me,
-and I'm sure so many others out there are not either.  I cherish these moments
-and try not to take them for granted.
+<!-- markata-encrypted-source:v1 key=default -->
+OtX8GHDohehEH7vJ+fGK/jQ9g4V87p4Pn9VhcxE8wFbpoPT/JjEQtb9A5Z2PxOzrrtGB9/N2TFvZiSU7Hap7dImxJRxbtcdn8pQLotVL7h51SupK2heiJ4U+HesQNjb7dj9ix7AqBvtUEdSLSFM2lgXr+TKEwz6WdCUunS4z0CO7ioLgm9mTp1kzNTQ7GEmCiYov63O9+dK1xTntxJWVBdonUQ7Y9TsFIFVgY53e5ufsCdRocWLkf6qpC9Pa+z/IXELIXYizeZR0pM5LJt2+Z12AduhAudaz+sMqAgUJ0Tjz6DgzDW/qmf3bY0blNrFiWpX5EzIeZ+iqRl50xnyVPbO5sSr4re3GU8m9iWbembb2vN8Cj9GK/VTkzkOhm0Hv8R8Cpn47ckGDJTfZr4IU/aisuLlhz5PeeIDXxG4+RenmSk2iAu/SGzDDxj7Stx+um294mj8d6uGX7BSwEF/L2fsTmtgb9E3Mxv43gP3jpSKAol3wgzsjbjdr8z2dXR9YbYbR9usgOtXDU81zvHSIL8qfcTDaPDC9LOOKIs3hXwgcHwYAHlh3mWse99G81CccmCP/3PFKmUBEPRfVkJMXuFz25ao5synMsCCuvtHCLb6ghews2hP01w==

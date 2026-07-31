@@ -4,9 +4,5 @@ templateKey: gratitude
 title: Gratitude 225
 
 ---
-
-Last night was the last night of Annie Jr, we did strike (set tear down) and
-transported everything to the storage unit 20 minutes away, it was a long
-night.  I am so happy for Ayla and how well she did in this show, she left it
-all out on stage the last night.  She focused on staying in character and doing
-her role.  We are so proud of her and excited for the next one... after a break.
+<!-- markata-encrypted-source:v1 key=default -->
+vhVkC7ibC8PJnZ6Fb7y0CTld6PTmj0U5U4sbR1SnNmePrDtpmczu2gXMXLGHxah5SGqBiz+7cT9lMzFAr4GD1Avbj6y8oKNfQbSy8z3TfbV/amxIpOpq8SD6P7f1kYgm+5D8QFWydI8KiOjd0nFWElXMyX/VibI2c+u7eAUS+lPtOnbE1p4yzXxLojGh9po33m4AM75dc3pCUbGpksU5nJUkdrF1sZNjwJgflAHat3NQ6ynYD26wH3AF0Pcm9YxT4Q1zn7A0zCdl2vJjShDG/WdGTvMBD3cZOxobtApNIYUa7VUHm+4JSB4StDZ9hHcgsIHXrmpIvNUxkE+q/Q7+a/nYvwjJSmZh0T00VqQTdrEU2SoLqavbMO9G0j+9wRv5oKtBitO7RI5k5Iz+O6EG99fLnQ+HydtY/yf2+b75VTIuYs6Dy5PymeFMDFnrBOUkOYMwjlqsrHLm7Nm3Au+Y77RdwiwxeX3sjWP/307qdJdGtb9czMypjF5WtXroAK1eNk4S1c5FfI50bkv6e0Kw2yFMPn3tG5Fb5FbKd1bNAwJzqoqHQtnvYuIW//k8PDZdmLfp

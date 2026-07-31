@@ -7,7 +7,5 @@ date: 2019-01-05
 templateKey: gratitude
 
 ---
-
-#### Great Friends
-
-Today we are getting ready for  our big move.  I am very gratefull to have such great friends to help us pack up our junk, and get rid of the things we dont need.  We started our minalist journey 2 years ago and during the last move we ended up with a bunch of boxes that were maybies that we are now getting rid of.  Anyways.  We just finished up a full day of prepping for a move, and our friends were so awesome.  Everyone was super helpful, positive, encouraging and no complaints from anyone.  Some even offered to take some things off of our hands as they would get more use out of them than we would in our new place, much better than seeing them hit the landfill.
+<!-- markata-encrypted-source:v1 key=default -->
+6HUJQEB2vGoXUTS2GaDTnPLBzoH8+toxFSLVoDgBZL9olyVAAxhlIwvtW0Z7zxE3FX3wYaz5/zXJJsDed6vOD2b6j/+8f2M+ChRqbXC4YDpSNdtgEdoXtokXTFz6a4Sc2R+OfETbzy9I7hCiBILW+/vXlEMNZytMAdgOWZp7UA5/i+iR+1d9xHNXtgBYNTdlgxhQXHIpV2OHIzi4oScaH7kmyEeoyfu+d15g1ZRuCN1qL1anMrQQhdxOmmXKQDID7V+1Aq1NrIzpiACFPEAeNrSfzrdTDhRHAkCjUDiP6HA+zDDZ/XxY04Lx4Xy0eo1xN4iIrjVQWkdN9GPZqOkWdD/zFtqyjkcSYsHTQWK2dgxm0YTf+NMH4UUJ96rkz/LJi6gGYij+Q9KatluNKjo+yKV9SpMrJ6ujhmcMARFCl57Ty+wOlU+DOXSX8IqEGcmaDwpqlGp2WUifwTAJ5J6pKJ4ZcqWqe9HKBHIuOdrIF/MfnqhoQt/BSxiKRU1sqbysrwY8PsTyJUu7B4qBAERvJXl0r5Y6M0mYW02v3096wMfU//MeQNN3f2HimFu8D0AvWn0Z1KaPDVy05LI0/qR6guDxeiqQyGlbdM40I/QJ2QPw2SwAHbSTi4HCdmH/3nHnTnr5NWognckHZKzw4viuwpvaQH/DWYXcYj2+3oWW9ETbuslhy7ytSPHaLaGapFWrjXIq5RaG45IatXylxDkyhArSLKLmo0/QS3/f20FBVgxmRrXzqzgqJ/w4Irt82Xu4G2At3/meP2jAxLcsUlSE3rJP9PZ42uNewJQarC+ZEoLXmIlUvH+gnOf7HunF8aMaa0d6Y46MpZIJNO3WXkacYV9PFUYg7jiJf5/y+DXUZC4ywqi2HUJcKIeJV4/7a/2nLfEuyUzv0kb0nZzjyyuaFREN8uOKE4z/ujetR2I24hjK2f0+XysCompkeLZu3ouDoST78sen+xgr1Y33VwQTH7M=

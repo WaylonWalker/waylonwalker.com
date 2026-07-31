@@ -7,10 +7,5 @@ date: 2017-12-29
 templateKey: gratitude
 
 ---
-
-#### Time Off
-
-I am currently in the middle of a week long holiday break.  Its nice to take some time off from the everyday hustle to refresh the brain and focus on some other things.  We are able to do quite a bit of traveling and see family that we do not get to see very often.  I am able to spend more time with my wife and the kids.  I have also started making a website for my wife.  Its probably something that I would not otherwise have time to dig deeply into and make nearly the same progress as quickly.
-
-
-The time in the car can be a nice time to connect.  We have taken quite a bit of time to plan out Rhiannon's new adventure, CuttinScrap.  It is a YouTube channel that will serve as her creative outlet, combining her love of speech and Drama with Crafting.  I am really excited to see her find her voice and get into a rhythm with the channel.  She is really excited as well.  We have been doing a lot of planning and behind the scenes work and anxiously awaiting time to make episode 0.
+<!-- markata-encrypted-source:v1 key=default -->
+G5M29SIUoVzIxqtgCpdmgCg5IplkFfk525v1RmmOAbLT3zJ/6SgIYv4lNY5eI0Pa8rnq3QOcb0kMzz1CwSl1HUsWeRQyxzHEojUzPV5Q6YHO/aZirbnMSVJ/RdJSKDt9EMIaTG/fkjhnvgBrTgcucXKOIfQCfBO+rx23k0DqvsACnY2QwkV5b3pKoyXVyA6wyWAb6Q6WFuYyAfggVGglDhjNt9MTMMyGs86+S1DnSyskAC+UDOs5JeNTdF6vpNlfeju3gYRREuGPHVEgexMLZL3qKUqqx5YPuTs2jb1kS8RbtVx8o8ZPUpHGPu9jgGTN6K9aGpbVNwPTXGoZ2bukopNlA7kWuv9toBJK/mUatyzk/A88577VM6SXGHIGRV80JBqdWIj7nEYPeuKaGwP20Vy5d5EGSVRsDReVtiXBBWrZGG4kZB//120LUCHA6QsxH4r3TWGpMIipZ1JCfSMXVNTMJ1S92O5MMxBRuiup3VHuPwO/RB8nKyFTt3gW4XOcErnJO6JshfiifO6WtF2Rhg/fsqEShaipOovHObsCFZ74k1kp7wEcEBjrMzjMFoPgW+dbVlM4jiGBJGaDlmEiKFYRjROS0VABirRIQxu2PtSlcIUwnC9ZG32k15gpV41XUz17bROSzMpZhDfaI7+KmEcr4PsyLESVLFH9rFSEmBeWK0CE5nqkguEbQ2Ck26xYM6w2B6NIiKVloQpTlPCMlz5zEa31MxKO4pBEUkqbNfXX3GWSxB5fu0gtzkJSUUzchn8vGBWcMT76MZrrPX1S/qByWhY6yd11frFDBoUOs9TDXzfdIDRLHrahZbC0OCdsLxOOScFU0OXwAgWgIZ+uADXNaFZAx9IzWOciT61a11G5KGH9hEolxKLKu7PCZ0YP6G6NvLz9RZ+/UTkz+JDLrHK7E33uv4E1G67NiH4uB+UKH08duuLOBF3FMjSbu8YxGRGW525lucLktXaAiw7OCRtdMZCJqIpTCu3IbGWPcd8LbSTMTvARCqU1L6A9bIxFRvJ0HGZ5pjvdS3fGTLfLonJHy8iY6wQS30Fm4WghM6gjrRuQ2DeRr1bsVB77KNSjmPsy1b2FWc+REUsgm+4vyUIluq/nLwit+0xHlS6vabIMHZaYArS4stZdkxKU/EK0z4gKaD6Yk2d2j3JicwEDccgUU4tgf+OHR/YxQvqvh3/l+3SnG9qBT/3QPOoC+56zE5R1taH2H+iwHRJiR6wOAGI4HE0WIEtY20LMLMdCVSQAWuj/U3etLJDqASuF+hN6PDPOTyjgnM1DRZ9K8l6qseE+Fbj0KhWkVwE18bzdYiLYfnyulYyjcGBa42w183xKkJipZg2UVCBAHs1wqYT1p7oKokG+ISS1GL6OCLP3DGha7V6UQ4LLBoc=

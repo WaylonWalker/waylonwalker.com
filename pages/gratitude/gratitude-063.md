@@ -7,7 +7,5 @@ date: 2019-01-02
 templateKey: gratitude
 
 ---
-
-#### Shaggy No More
-
-2019 I will be more professional looking every day... not just when convenient and to kick it off I got my hair cut today.  I have gone a few months now without a hair cut so I was pretty excited to get the shaggs cut down.  It was very nice to just get out of the house and away for a short period and come back looking like $1M bucks.  Rhiannon has been on me about my hair and my wrickly shirts in the past.  No more, this is the year that I will keep up on it myself without needing my wife to hold my hand!
+<!-- markata-encrypted-source:v1 key=default -->
+Pu+u4ZgFrCmBl8wyQSJg9sH9aWk6pyQz0sKu/uVVOk8NeJ98vh0OH9WMzwrmEcQZD7O4lvdLmaD3qb9kuKCxaVcwYKxCyF9V1/ztr7YnI5wypHVgdm2ylMm5P31YXMLcsHjIv33U74L1yXAANuPiQyZcvZDS3RDN+HhfO2ipyuu0WxIX7D+ribdF57+QZeL06RPQqZHQFjdWDkF2S9hbWyfUn9XMqOc949WO2kBBLTQeak9SsI5vSfsH4rzRS4E+sboj7krLc6IR14utNraYjKNTB6WxBkFoHHC2eFaDkLHBXIZf5Mh9Xr7PCWZ+VV3rgRJTJcu+n7un2aYjPrxNOOEXJ0O2AiYpKCkb9iJwZk2bOMAmX5OmsjI81KoJtuAAiElmaI5zvfmI9XR2vCdSQyJpm28BOUdFv3DfJ4h9wgLZcjMBp9XZ1nE8bnhQOlYwqqjkrLGrUQ7IHSpRSPg3sovOm0TPpIdRTluWfINoM9CRvpr5qAw0UTp0qBXRobfDisY76HZr4CqMYPXwfRslQ2OwGq7sptlq4jtR0buayFLcER64P1Yc/pXDNDlkTW1yEJP4kJrzz8bxb6S8UjbMSTblOl11/Vxh3T1A1IfS7LNKjI1Yu1NtioZk8W67c+s+9ZVzIZeWbvymT0yxKg/pdZqzhr8pTGyZCNfr6hVvwy0roxorb4eB3XJyTv53AM1efnPii+AqjbnOgGdfn6GTOymb5iGRXIl3RMqI2dQwO5jEfimv6GDMNcy6wh2emoQoLwE=

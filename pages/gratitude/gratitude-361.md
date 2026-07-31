@@ -4,12 +4,5 @@ templateKey: gratitude
 title: Gratitude 361
 
 ---
-Today was a very productive day, fully power-washed the rest of the front of the
-garage and all of the concrete.  Kept laundry moving. got a sunburn.  Ready to
-go spend some time with Rhiannon.
-
-![](https://dropper.waylonwalker.com/file/c43bdf4c-762a-42ca-9dd5-7ba26a7dd4ad.webp)
-Power washing the sidewalk
-
-![](https://dropper.waylonwalker.com/file/d95c43eb-0716-4c75-b861-9ec776f88174.webp)
-Burgers for dinner
+<!-- markata-encrypted-source:v1 key=default -->
+BgtUIRlH20tFaCNdjmuNYZhl/AqFF6S+Irhnfvg390vbxxxqQYi7Ni0v95WxDlRt7hxM8Lm8Y+X+QU9pobsYX0lmyGBv22MkRvZ+VI9Qkz9zSPTKDKuMFPxzrFoP8TNjo5gIvF99LysmZwajZi7NVzw2VRqC47YkZLVlgpgs0f+HtzJfHGFbRySSYKveQwD4V9/kgZ3rRgMWW3iEAlzR8gzrO2nfnw6BRGOaFTGvYuhkRjjgG2W9g6lCjLx5JD7hzuOl8uw9pVNEFhnrWnwl0e0JfQL3JZ8Jj2b9rC8a95fZ6ZTzTaxegy3JrJmBQ/oUrgnz5+JL0VK5Pnf2BPPWfvmLShW08zatlOL2VbykV9ldDaPFm5zddwSZeUuU2n1zsXTIoFXJdZpnW5vqSPTNWKvUFzoTb9oLbhfpvu+KHIVMhDkpsNkTYRFbMKoo2Q8LsFfZfxV3D1xTC4Y2aM3YEBRMlhKh1Lmwrrno9Xnon7SRfw1aLT+caRvFNx+hah/PjrnW3LAwOJYuZJsFXGIDG+fooJ8KBM4PZJ/2nzrjorjKPAwqz9W0qEwyENgBXPgg490ktJsX8v2leyuM95zw7K9b5AduzBvM

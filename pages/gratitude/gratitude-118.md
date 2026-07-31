@@ -7,15 +7,5 @@ tags:
 title: Gratitude 118
 
 ---
-
-What a day today was, we were really tossed into the home moving process
-on all fronts.  We checked out a rental that is really close to where we
-currently are.  It's quite a bit smaller, more expensive, and has no
-backyard.  It does seem like it would not be a bad short term option
-though.  Our current house was viewed by a potential buyer, this was
-completely tossed on us last minute, throwing us in a complete scramble
-to tidy up.  And finally we just started talking with a home mortgage
-company about the possibility of purchasing a home.  It's all a lot.
-This house has been good to us, and getting through the last year in
-quarantine, but out time here is running short.  It's exciting, and I am
-so grateful that we have some options.
+<!-- markata-encrypted-source:v1 key=default -->
+U25YhfChyeXHmkiZNThuHG30UV8T7KCryHxe2wGXz+ie06BVSPG3qKlXDI1Peh62CkTmhvbLnxsEPDf/ckETuF9A4GHfCntbg1PpIDC44oLQ5Phc41IxclDWB5vyaLce91yKhLsNqsLIQIis1zNh7pfTuDIqc9hWQPmHHa3pw/7CZQC4HoaCEjtG8jr4POAqdalOQC33VyCLicJCl/I+WeVoXNiOMxyTue4EsbygV96DRcKZ+JdR1yIeEohaI6hzofgjWy9jviPuIH/Rqbe3JV5/m8f/E+Nnlj0yWSqihpdC12FaqNkB8hSHeRFGfghtF4fkoI2A6ZXaW1tuDIj9+inGriETu4AZZp5rrGRpawIHjB3sYZtP35btaz8go3xlB1FGNELN0rJuuHpTdqJEAIWdK8Jo78FATBu9qgdk2anAl8hmM9h9iad+BzxcCqrZ6hhUg8BOdplDyvvuvEvk8bUpfO1zTnj4yvA2EAyOGaUIzlhineUlFDWxpQ4EyJgYeAfY2ms/pTFCHElanLiUSFR5I0K+VSjswFM3qG76dv7Qvw2H7TWs6FUtFUgaCCX2m3nS1C8kTj74wjBHMXGk5P78Y8J/ohXwtpXV/Lw3wVOSp/38Og+WICy66Si8MDUmVlSj60vRgTNoNJe04UBSwQwcVe/aF/u5+SPBQlDK6KUxzJEa/4NA8Ax8oYYHlukEMpmTziTdwCEVSla3ariPXA0+8P/Ufmwtyc7LM7nMuDRvfPo/JOj9GyM2Zg8YmqaJinMif/tlpx/CvkHGXE63UDYJMQr23xDiLN1wvKmzdy/TRqaIzwGAoJ/OUkPuuOHToKFCDjtwBl1C8eYUIG+TZcsYtOn4JrFOoyti+494ZDuw0SeQJYQjf0dP/qT1PQpkcAoOVE2ST+x3dzjkKnqJX97DlQfv2HeqViIC1imOp766LTpvEWaNw5+MU5Iv+6uPN9T5FDrvVV65zg7TkOu9fa6RdB2AY/c9CkpV7+NxprW4GBEchoyLO8T5LMBmd+7d+NEf9/fcbqXsn+izikLc97bmp7F+lw==

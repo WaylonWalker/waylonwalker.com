@@ -7,15 +7,5 @@ tags:
 title: Gratitude 106
 
 ---
-
-Today was a super calm and chill day. It worked out because Rhiannon is coming
-down with something that is hitting her hard.  No covid symptoms yet, we are
-hoping that its not that.  Anyways multiple times today she had asked what are
-the kids doing. Which is weird because they usually let you know what they are
-doing without needing to ask.
-
-We were back to Minecraft, this morning we jumped straight into it, all three of
-us.  I am really proud of how far Wyatt has come towards welcoming and helping
-Ayla.  He is doing really well at accepting her and letting her in more to play
-with us.  Not that he doesn't, we do all get time to interact together, but its
-just becoming more and more regular.
+<!-- markata-encrypted-source:v1 key=default -->
+s+TszrAfWQI5H78PPCqAfK33LXfy9J5DFr0ljQWQNBQdTaG/+R2W6nz7BI/BxtgzRpDWLu54S3cpsZb8zdS9rChZ0j3t4Ow3N9zxxjn5C4oB2D65nCOX4n0m1a2NOAfTW+cWUSzG8JfPJwxIZLGojbrWLXUhRfHqxT90zFSFTYkXQFXblkT2zNG2AJohqnDDCEsz25PqE/z59YDC4chbnEBGA7rMVLL03txdx7Fs5koiZXsx5x/xmegev4FEQo6S7XfLS3Gmapdho1aE8SLNiULBnwJAjOBelgN6qmqx227hvSpSJ+s2jY5YO4hNVaCXOv0CrVpTN4rHLiLB2bQox33iyeypUwzWIrpgf44v43U53mLPiDrNeCpnZwstm7SHw+hEXIW1IIsdkO7dzqQUIIxEwCxaWTfrsB1lLmGhs4GpoynFeZOAybqB+u/8p6iaoL+fP2VhXFf4LL+ASxTM/h4S6XRVkzhjjJpE3H9yGLWEzlhk7BY0+NOqeM4+SUJRBs2goReNH8A2KJdY4DZ9djHqjlDiq7SmYKygj4YRsg2fn7lYa1savST6eUkOfhiAOdocef5FJNNq0QkQoqKKY4Khno00wzWPC8BpNsS2iwEs7eX1kAQGSMXtj1WYb6FSPcoc6ZKVHu/noSpfiF7WeUF9T50a41khAkP1h0y7xUE/pHcfcL8sgyqIMMNRRskVGzl1abIhv/VLYL9Yo4iCnQRSa4LVtfp3ZaUivKRtBgqr9ByGGP9T/PBy9LWmyECMtDUE692kCOruiS6z9T4VHkbtvkJ7HUEsx3yw+NeqVLspHzkb7w1Rmcc/rxqOh3X98KEcyX0wIAwP/STsfsv/GGwloGWcm79n12iZiVNSicOX0T1P4m/GQAxB/tWTTl8ws56FZKrvF2Y5z3uJ1YN1iG+7tBvpLsoDrxNwAnCRNsu2+xxVWa9V+481j2TVI0po3GeBO6fONj2d33sPgirflnrz5cSWOGwzn8PD

@@ -5,10 +5,5 @@ published: true
 tags:
   - gratitude
 ---
-
-Aws went down today and it sent waves of panic through the world as we realize
-how much we have centralized on just a few points of failure for critical
-services like airlines.  I'm grateful that it's back up and did not leave
-people stranded for days like the cloud strike failure last year.  I'm grateful
-for as much chaos it caused at work that there was not anything directly in my
-  line of fire.
+<!-- markata-encrypted-source:v1 key=default -->
+fkUkbyvw40VI+ehh27yraSLj+sEHqD8RE0mBUyV2LKanZY57SmmxFkTNPUprAflFdQ1XEYXT0xbBj2xyfjwxFu2eKJM/Cvf4hl50B5FtHvrWnx+vtocHr1/3XetVXaIXu5Eki9dpjs/yfuHN12lc++lX3TVTxYpsJ7hCCQdZxyOtInMSgzdcIPBxmMtbes3OyhpeWksk9FunIcv7CAOBiaRPScr2kYXN9u1sfLX52rG2UbTmBwce2Ssx1Wdzj/eu8wX/m25F86g3sE1lRRtQUIGztmjf2oekY8yvY65CBi7PmHV5NmlupkKGgKEwzsEiNpS25w1Zk83Rwqs3k/qpcP70eqCJ0kowP+pt9zLztfV6dw+UVcqWkhSlu1JDpWqivPK3NlY0Rselj6LuYYYEKKuh1y26UzRlM9GXnF+L+EOxkkWBZhrlylFEY2F+yfgo2ugXAILdtb54p4ZpHp2RGGy0SEw1NgDjWSEUg8xpMc8H42jLmnp5AEai2KBt/jjswItBOLihcxo6vT7FqKl5V8RoyNp0I6qqzjIBTdu/oP1r35Z4mxShzSdkfxL0i0JR+V23N4lB6Dl+snv0BqDz

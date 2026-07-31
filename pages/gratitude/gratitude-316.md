@@ -4,10 +4,5 @@ templateKey: gratitude
 title: Gratitude 316
 
 ---
-
-Today was good, the cough is going away, the energy is coming back, but the
-afternoon crash is still there pretty hard.  Overall good end to the week, had
-an outage right at the end of the day, I have a feeling another patch out of
-my control killed me.  But I'm grateful that I saw it quick on the status page
-and was able to recover before any reports.  Tonight we had biscuits and gravy
-it was so good, played Uno with Ayla and Fingerboarding with Wyatt.
+<!-- markata-encrypted-source:v1 key=default -->
+JT49rOifFqfZ4LUGpquj4CrkJmVx5xpc+7X3vtfbvZKLK+Q5VILZ96dVxAcJ4/SvLJVagju2sj1ohdT2q1Scaj6IUBuGKiBTQnKf9YEerdIsQlzvyON+F0jps0Rv+kDBDckEmAlRTsfRo7OHFT8B8YVo9+kPqPqgFyVYT1mms8fGXOiLDJAvgozkvOYFeQyl1D0cmQ5ZgR1NH+VdUbdIB+qqFrijkzeADH2SJbdsMBa/rPH/it4Mtj2JRwb5Fzw5PBXJ0+fQL6lL+F1yEq9oktb01jMCUVh+jP/z/zd32boyy7xyfo82epH9RLPjoQDd2bqseH9Qxo3yfrGryPxuchH7xcENuR4x0YKkGKFp9zwz6X9FFLLsAk1Jf6VOr/2W6yOdj3iLo0py3SWTA+me/ny3n0u83ZPJvprQMSaYpKI0sokFi48tWquJChDnh2yV2mnfBu5lLQYoBOYQ59yk/xOkt6D0dzTxc1gHWrXh/IlpoEv/5yLjLppMGPgpvML5z1qzQdrAxKcOQUYm8TAexiJEp5vO9NUHnUBvLIWwtaNhzimHMdTavYTJEDOWxwH3wkvxFilWiVKrCBadXIjm5tGn5PAHiwGmX10Pnm7yJe0aiylqJCeTC1PS5t64cjsVBq5i5/0PKUKCtuqF64yKTwJsAoEruGc=

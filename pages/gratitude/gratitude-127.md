@@ -7,12 +7,5 @@ tags:
 title: Gratitude 127
 
 ---
-
-We lost the house we were really dreaming of today. It's been tough.  I think
-the toughest part is that we are going to have to spend more to get a house
-that we don't love as much.  This system sucks.
-
-On the bright side, we found a house that we do really like.  One that if we
-hadn't seen the other would really feel a whole lot better about.  It's
-actually really close and checks a lot of the boxes that our family wants.
-Fingers crossed this one is not a crazy as the last.
+<!-- markata-encrypted-source:v1 key=default -->
+wDIYZfpDP7fzSji9XbXAUoEqRUBylTVqkOHEXnhzLFls/aTA/+ziTWZWe0ERl+QrxCRJcPCAYM4nTQdf/OyNXreKOdDTqYryy6w8TBpUMhk3Nl0pR7Hb8czVlW4exoJRDagOHLFTjUIVZDiILlmxYnR9kqor/uC+ORksFAR4Hqov6gSA40ikxSB0cQDQzgSzQUAc44IlkN1yOcYaKIcFAGnSGHd9O9fewf0bxhqFz9eQsxRAOOkAjnNcWjaQmjvUY8oxGdIPqu0CxCX7jyZXKuIPFoHB/jWA+Oo1zelLszf4Yj6h4Gneu9KreQ5frtcA6F1coTzjgoyEazVebIMrb+JmyOEqwMDQin3TwjebfLTJXFizJP21WRQ1w8sA3M+SzeUaq4sxy7FVkoJi4t6gABX5BQwk7sA4JedHyRn6bQwZb5oCkeYmD+lK4gPHmZ2Oo5uwpSrtsw1b46iXvhsJ7U78y/mOZtGFFxQc8its7z5raIjQ+HD9Kue+4uQUyCIugSlIBbeH6ZgglnERIfzKenvbaMm9PGzZpuHlLIP79fUQ3jhz5vUU8o5ze6UqaKSfoVM4hco5dXCSbSlLOmQj4+Bs77dmWI26TtZ1So6R746caiDyPHc8gDXAD27HiiCKy+vhfOrFnCfTcSSTaXOqvcwa4P/UZ5OTD6t67xnNJRHo/0e6krwFdYAwmF6r

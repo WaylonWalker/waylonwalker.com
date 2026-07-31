@@ -4,28 +4,5 @@ templateKey: gratitude
 title: Gratitude 214
 
 ---
-
-Today was better.  I am getting a more comfortable desk setup and that is
-making a huge difference.  I got a full back chair, and Rhiannon made me a
-monitor stand so that my monitor is at eye level.  On the desk my stock monitor
-stand was setting the top of the monitor about 3 inches below my eyes.  Being
-hunched over in a small chair all day for day one was not comfortable.  I am so
-grateful for the stand that Rhiannon made for me, it is beautiful, not quite
-finished, but beautiful.  Its made from flooring that we put down on our house,
-a chunk of plywood I used as a table saw, turned Wyatts desk in the old house,
-now turned my monitor stand.  The trim is made of Wyatt's zoo that he had in
-his room about 10 years ago.  Its a beautiful amalgamation of all things from
-our family.
-
-![image](https://dropper.waylonwalker.com/api/file/f692419c-ba67-4e8e-bfe8-a3f498299bad.webp)
-
-I got to have lunch with Ayla at the park, and go on a special run with her to
-get a smoothie "to give her energy" to finish out the last 2 hours of
-rehearsal.  She is at Annie rehearsal for 5 hours with a 1 hour lunch break in
-the middle.  That kid is putting in some hard work, I am so proud of her.
-
-I ended the day doing some modeling, inspired by this guy that shows up in our
-short feeds that is making modular storage containers to mount on a wall we are
-starting work on some modular storage boxes, we started prototyping the handle.
-
-![image](https://dropper.waylonwalker.com/api/file/7b5e04f1-1005-43d4-a1de-61603c1162dc.webp)
+<!-- markata-encrypted-source:v1 key=default -->
+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

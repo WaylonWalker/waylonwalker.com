@@ -4,25 +4,5 @@ templateKey: gratitude
 title: Gratitude 201
 
 ---
-
-Making time, I am feeling inspired to write more, everywhere, including in this
-journal, I just crossed the 200 mark, but really this should be much higher,
-like 2000 if I were to really keep it going daily.  What am I missing right
-now, its not the motivation, ability, or desire to write more, its the priority
-setting.
-
-These days it does not take me much time to get a post out, render template,
-write, publish.  I just really need to make the time to do it.  I need to have
-a time of day that is my writing time, do it and move on.  It really helps get
-ideas out of my head.
-
-I just watched Speed's [I Tried 30 Viral Health Trends For 30 Days to See
-What's Worth It](https://www.youtube.com/watch?v=nygR3g0-lts), followed by
-Nichola Cole's [10 Reasons You Aren’t Writing Online (And How To Fix
-Them)](https://www.youtube.com/watch?v=QeE_vPNatUQ&list=PLvLJ46qa__5rQbF1uuzcRiCzag3C5RbnN&index=2).
-James from speed reviewed all of the viral health trends at the end, a lot were
-garbage or just too much.  One thing he said made him really feel better was
-daily journaling, and he was going to keep it.
-
-So today I am grateful for these inspirational posts that not only inspred me
-but help identify what I am missing (dedicated time).
+<!-- markata-encrypted-source:v1 key=default -->
+ngVlF3S8Szy7s5KTbgIANRfyKKh7I9ZS4mWlSeZwc8hTjzR0a1p1sB9SEZLwZB4vZLT0EFJe5hPJC+ZdZcG/YFK5mzFaKQ1gkXJ/epXAsZWGrtAyCtqttKYi9EzXoXDFsx3OEeVUV+1y89nbOCzqQsQPEijPXNRR1rZyAWRApHgzTgJK0Cb8gKlr8m5bRWI7mipQBd5kSL6D2v3mQqDRViviSJhVLlac4PjBwRLskzFTCbEtQ/5WLofWCFtBr0xUqHls3X6i6/sSugKpCwM/aCKWadiMkmw+QZG6Fr+mQ7H7ZTWCe0WygXfzcPd3BVPMS86qI0bkyVp5R6TZZZfdlCthqL6+kdxw0/ELQjL3pFIga9AkhPmUCfiujVIjkQLMFY0skowS+klBZNdl0mwqeNc8CAtAQNfii8jZh6YF6vY0W3QmL73UhA0Nxb7IBqPBo9T2nM4/YwQhzNK3gdC5K213wZDMh/N4rkSBITFAeOTsBaXv6viXg6RWnG4+8/s2sSCSfO5ho52Zs5x6mBZ9Ote5LAdrwg7xFyEWF3vpbkesKk9MyiDWrYPve7HgyX1udbV8xj6aDxCwMt43tiEmBP5VOqn3bEQdWYTmUJvjDHdhhLOkkeSnHorFFBspv3Vu1BanX+9Ln1WzEkEg6pYMKeLC5GXjvyVT8lun6FNAK9wqmEniAhmHSZU/Wo6jedt2SeRqgAkiom/HQmV5NGUWd0E4RDktMqkyxRzXuOjuhlmQHzgOZM7QUFDaEEDOGmd7OY6/6GcsEEerigIQlW5WLYDu4bywW0a6QS4BECqBhDGRqdHpy0mVqTYGFS5pdVY9RmYobg20YFFm0u4PZF6M89GYzPFc7NmOhqXYLQpZVgTm7zU9Gu+UvHeGSqTa0qgRK0wAYcA1gzOBQgpBwz3nvSV5MYEC6SYNa9yb7H4tf5gmqpAdyd9KOPL195nhrzfXNQ3YsYSWF7J3pvO15Sk2zyxj2HC8wspeA0UsIK8e5Rhl/iV6/+Bn/vipO0VB6BTDBD+9hFbbq/FyQZuhtg2J5BzvvMMz+13J/redtA8oaJIJ//q1GQ3vqcp+TjQbPnWWCoCeGFM+7a1WEeMXAvlUcKDgU1Bkxm3HKoJgnmVIly7Gtav4j9XCI/3+HnOdr2nnHzyC/0gz0E29AkGnn/O0o2vO17tVRT/H210ZgmdgQ1aV21zaUxtKzIY0fUH9jgyC79wsAL3LbPwoqMyLEyoTX0OubABEmqZAAMdCrX2ZFnhDY1BymXe9jm75ySNNLvCbocY/iBeeT7jhvADI7HwbCdLt+fIzcfHoTWlYF/KmV3PAsP4+CmE8Ptzs78VX/1u4zHdONNJfxc7U/gI4Bd+kC5U3gv5GXaD16Is2iqv321OldRoSs8nNbhgjNkJza7ONzGFUDWgQZRLAnQ1n5G2zfKKwt2m2XA0qM+IOgQ9TTbJ6Gm6Z8iWbK0NyBVk4fYc+PVpW/KEOYPos32uiUTg6jLietJWXIW5TRHNPmtSdihrt0ymk45bZ0pM7fNN/GIvQkL5pX/AsP+0GK2CfOvTBAcoAUqZPHQcu+6DWqMa/OAyXbWrDv1vgF3a4YcVZuvUWGzcfmez+qCUMe8wilb9Uth97g1N8MVFbH7dCawm9sEMz5FBSOdlzOQxX6bjNoeRV+JQt+jf925OR1GIlu9dsVARow5ldQwB17FeE2F8Xc2FMyP/2

@@ -7,15 +7,5 @@ tags:
 title: Gratitude 102
 
 ---
-
-Today has been a day.  Ayla has been on some serious mood swings and doing some
-very out of character activity.  At the end of the day we had a nice talk.  We
-talked about how we both made some mistakes thoughout the day, everyone does
-they are a part of life.  But we don't need to let those mistakes define how our
-day goes, we get to choose if we continue down a good or bad path for the rest
-of the day.
-
-I am so grateful that after this talk we both had a much better night, we
-understood the feelings that each other was processing and were able to really
-turn our night around and have a much better time cooperating with each other
-from there on out.
+<!-- markata-encrypted-source:v1 key=default -->
+/PutT1iblIKxNEDo+6SUxRW9DVMTqEeO8kfBXUF2VXmmDArI+Wi1M+YYeZ/lrpgHwpbNkyXZwViD7+NSOM0wmG+yU7xOj+YFw6aPSLTtklTP8f8wAnDgatxdx1fy7+Jryi0yUckioTHkLdfqKwmf16kyUOttwtC4ItZueC63tfSOe6ahr3nCN6T0y6UnPls/2bYR7FnPqr0LI8kNLB9gHfMOFe5vg2RLEGNALpU8dCQcMWxyhf3a/huP4vzEWTO8d9sEdmo40r1D3vc3DirwXhihNOJv6giy5t5nt7OUrZY/WizVt27BHQK/AhqDV/iqrZDkvYa/58l1PHfaRLlpI2JlCozWSO98zi6Z0IPOjegx4TCC+KCu8ZN9daxeifawoxGvUico7wZX3/yceWuRnDUBqKr6gRN4CDY2QSnRtlJ44JCzIP4x87N6fridZOsafJKPUxla0JXFs/ixIaBu2OV4ZaFqwiWJAYvQqo5thZbiWyYesWqS9chHbLGn7CLKWbznA3biPnXlfQrhTShk1OX88FtlX6cA440gVHaLYTaRJrEr+Yq0Jjef0SODhJvEOUBXn2GWoVxFlBowEkQNjLwLCOvjHk1wrY2Slq4MgHbEW9RgTsW0JIfL/q6A6jqbAHYOtvbG5DiYjtiZS2aklVk6MjRtuhgX6/JRrnwYASnQWiGSaXsBMu2B8skZbhmGXjg3FXSd7Sjxj/ZNVpx9xnM+X4kLf9ohfZM43U567qNzj+wf0iE1IcGBV1d0nzJ8fVwQK5sXbY0ZEFSV0oNGOPXjhGyh6c+KswHc0uv+rgod9cQAZujcj9C+xZh5jm4LC76YuCR9wJdTXNu19uT3Cz2uz42aHOIkOBJrdxaBD/ztLs6w2WS/KnJE5My9gD6y8Q+BMnObaVjxBAefg26RwgFBNvBjnx8Bdts2cc1cutM=

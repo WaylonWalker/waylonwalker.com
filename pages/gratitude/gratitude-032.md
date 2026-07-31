@@ -7,10 +7,5 @@ date: 2018-01-29
 templateKey: gratitude
 
 ---
-
-#### Get out and move
-
-
-This weekend was an abnormally warm January weekend, which meant that we were able to ge the kids out and moving more than normal.  On Saturday we started to build Wyatt Walkers Walking path through the thick brush.  Both kids were really into it and were guiding me through the thick brush letting me know where the path should turn next.  Wyatt kept very busy with his tree pruners trimming the leftover branches.
-
-On Sunday the kids and I went out to the skate park while mommy had a lunch date with a friend.  Ayla enjoyed throwing a small frisbee off of the top of the pyramid while Wyatt rode his scooter and daddy's skateboard around the park.
+<!-- markata-encrypted-source:v1 key=default -->
+y0NCWagBpNyGuQUyxCijndZC/o833u/czGwH1tr0+Qs/uinvfHig+d9fyX1kqo3uEPd5sXv6iPhGkDqFdEsoH9g8Uydv+MGNxWELm4WA/PN3Jz51w5XnPeUqmfnmVIags1iX6DhFx2SiI/C8eqUozru/sxuX5hu8nAuqx8JlkVHMTdU2eOYER9yx+dYP/n6rTzOwLCzyrIz0IG2PtRGwSpFkAHvqS37jY4gwiqyervDkx4CYZiebQcc6L/DL7DMTYZZqvamrgqsGn35eAvc0+jkirqf/1ImYXCP/A0jxDhgI5vtmEb6AkWG6jiUF7OxsVI+juTftU5W68MbWHU3R6+WrWmlYGnHCGwNiouCc7jEKwpm/S0V/G8MT7bfpm5njC3d/lRoYMcSliNngykrOOBkZJfknIc91klWKF8LS6HywXynuzeNgnfKnZJFIYZSC+jOWFTxxmxI4zaEF3+0Tb51LQjWfJFeV4NLxpy8NGuk+dpRMBsDzEdB+64GBbsJLDmhtTU6tZtGP9zqdPTyiC2f9vUMJPw/QOHNHLS5DRAhI2aHmspK4G4CSP1WfsR4yJVosZxUPIUBCLCHWYORMQiZmooYk5DJKlmzA/6D8pluooY9crD7axDb5SZophTjWRpTSwt9dGRrw/usFN4RBMYGHYZI8KNfRuKBZfCiBXyRHENijMxIt8UwO5n/FBHMB87Vtqccie1SOYMbtIP7Knxxr3f8C72AEpSkE/opF18x2MpPaecU1gcF1Fz0yreEbKA+QmDSg2dM2X7SiDZRle/EC9OBGCYsS+zFXDW3J8DNaRm9NhxJo6tIro4K0YntxlAOw8Uz8C0P/MTpnoPjiko4eVNbxJ+kDLlHlmrEepyH+BJV519xzydDMBLkTOcFaStnDqcJh5qodUYKfuakakCgle5sYRd3Vw7HUcFRwBlKiFKlo2mj74wfGQ+cZTAP1

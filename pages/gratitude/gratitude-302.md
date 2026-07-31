@@ -4,11 +4,5 @@ templateKey: gratitude
 title: Gratitude 302
 
 ---
-
-Night two in the books, what a great performance, everyone hit their marks with
-precision, much fewer mistakes than last night.  I'm so proud of everyone.  I'm
-happy for the small community of friends that we are building up here.
-
-![](https://dropper.waylonwalker.com/file/48e6a2ef-a4db-462e-acda-16b270e7053d.webp)
-
-> Waylon up on the Marquee fixing the fallen letters before the show
+<!-- markata-encrypted-source:v1 key=default -->
+0hco4fBY+gEkd1PeEQoAzIOYaLmE6X1zrYXgAVbaiEY3L4wjRc1pDFUed7947vSZ+uGAtVHBx1Qp67IJaHt2olHpNmdsboi3yq1YMFpXTuYp9G4frmaDGnOqvug4PJr3tqfXovyH4EuKAKFewCyCOtW750TqP2a5zTghGLP0hqscjnYAlVhE8PqZSCPhccPN3u4nQ9XJRJUtlaHYwcC/ZQO9AP9KUl+EDxnSwaisUqzSHuUqqDDhErntu/t4uyulzFH3s387mEK01v1uzvnrkAGOEGfXo6RiWLYIFLx/7Dcx+l77iEzidnnHWt0bcvj+wjSk2HJNjrQNkaRxFENmHGzrQkv3XU6dSGsJrO19xQGAEH8bfBILxV3WcDeU2Oz5ctS52CkNgWv39ffTj+J4L0uECjDAfSpzWBS+bGh01k5eBNlviXdrW2CBV1NimwSE69T0uRcFjb/DAL6MrLhcrCCzlngABGw4vJRU4An64jOwlwyl8bJjgXkS2Y8Uv50DV5WydfT0lTK1/PYXHNKYSz28uN3ljU42TZi8LxIt9xSPPiTGXh7tGDL3JRCAv8J7

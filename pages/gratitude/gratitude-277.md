@@ -5,9 +5,5 @@ published: true
 tags:
   - gratitude
 ---
-
-All done with the biggest birthday party event we have ever done for either of
-our kids.  It went really well.  Everyone had a great time.  In the end our
-house was probably cleaner than before, feels weird.  We hosted in the basement
-and it was a wreck and took a lot of work to really clean back up.  I'm so
-happy with how well it turned out, and how much fun everyone had.
+<!-- markata-encrypted-source:v1 key=default -->
+EuagT99n9Hlq9IyN4Rbaj4XtkfRipGFMuvSNWG5wP9rFAThkol5mMHeHDLNwck9W/eOoA1uBPebaPeScSF+5rsq/oQPDDBbBud4ffmDe9RXGZ/ulYcRvznOTwoZFsw3EUmQd/NJa3QGALBhnDDSr4a/UU9mKajRio+i79d3b3djl97MJnlEeiq4N4kSRLNCTgz2yzYgGFae5oHQcTT6wbhysJ7KJGgcyNzWDEwoguM5Q3KRKAyCZPgaka91ShW6T/62sBI6QdPwNk+8AzhUxGHEQsXYN1a9uP/prN1fSV9X8eBfwezxDywpwDIAYBb9zNFyjKhTDKEqq/Yhk/WT1hmztqMjOJzcqv2K+Fs8wICXknMSjZ6V9aPRYa2IEyYadmBF90Hrjxlqs1r34ypZD/QzVZOyhSPCTt2+P086u/qt6pBGkxqGKFB2Ul3tgkD6bPVWoVnTXRgSfsIYsLP9f+bqL2Zg3uF0/Gbk71uqdQpv1tpSWch9GDdQDqseY+x9Rk4EgSqzXDqogzj2a+V9cKYiriREZjRO89RZ5B/UjQKGiSCj/OQ==

@@ -7,10 +7,5 @@ tags:
 title: Gratitude 173
 
 ---
-
-So we started the podcast back up, and it was super fun.  Rhiannon and I
-just recorded a podcast super tired and exhausted, but no excuses we did
-it, we recorded a damn podcast.  It actually didn't turn out that great
-because my stupid interface went low on me, but whatever we did it.  I'm
-actually excited to get back into it and make some time each week to
-just chat to her about whatever.
+<!-- markata-encrypted-source:v1 key=default -->
+uXRN8a5fDMV9V3V3kBezJOHisVja9SdvGbTw4obrdq8BDr5U4GpxOJAxLkwZDaJa63yN6t9jcVOpdhFgJDp08aitDXJfdTctm7XsscjpWQmWQ89QaoWSdoO+GX3Q/wzQ8L6dJbT9SLmTKf19ZuAd88n+joWCBFrFoZT9p72zDQbbr+33pZxy6mv8siBMMG+eN6PrLNBKwEhE5bgsINmZRNlE2mIPdQgumME4rcY6lHoK+3UOb1NZ8jWnGJHzcnhTyT2Entnt7lLOmeYAOLxo5MO3fkOpJsBe8edDYVC5rwgTkj52n2bGgGUg71K1uyocR87i5Ft6M6M1Ca8Orzxahq9OjV6+M4roTdslDt/CAjHKF6Url/mt3buWpdx3KLwbDf3srCfzPkuAgupkppEgaaqcEatKYve9geSb0CVriZshGjNAdcSUTc3HELmHfaXCpUE9lMxEmfXW3zAj4+2rpx02vdYV5IHXqVC1NzaSifLQ410mR2P8XHBJ8/HfXwxKAQjVj/aUO7CKiqNoRVjqSj+EgkZUfeGo3b6X9kenX9t8QyoaU9cxhknKGZJczH5tyEeuV2Hn

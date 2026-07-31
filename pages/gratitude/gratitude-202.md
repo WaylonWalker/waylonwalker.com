@@ -4,12 +4,5 @@ templateKey: gratitude
 title: Gratitude 202
 
 ---
-
-Tonight Wyatt and I had a good chunk of time just the two of us.  We worked on
-so many different projects as one does when spending time with the neurospicy.
-We put up 2 full sheets of drywall (4 halves) for Rhiannon's wall.  He was such
-a help, telling me which side of the wall we were missing screws on, stud
-finding, holding heavy sheets of drywall to get the first screws in.  We both
-worked on games in pygame.  We watched some bossfighrs from undertale, which I
-have never played so spoilers for me.  oddly enough we didn't even play any
-games.
+<!-- markata-encrypted-source:v1 key=default -->
+6Px8rgm2KExExJRgorEmgFeBTdRQo1pOj/IgTgVXzMl1iF0RP8glFGUel/+7g+XRsfKooJ9T4XT2cGznhK9vucstb68G+Pb1PiUK9y97vUIt5H4lSe2zKs7nhYUUTfwQsBoUWseJXocmf1VvNu6nQrpcnoqe5z0kag3Hj4/Sw0a/wFCnoojLgQlzG7+slUwIW7Ag6Ga6CQa6dwGRuzs7XCS8aKn5wFPeStKOkrA6jAiAaQQMYakBumLX/VK8cqYSD/AUwE3vFt7YPVdcBQxhKBURPotaOLmfvNAvsydEq71ZxtF8Th7hB63ALlD6b39RsISCA4JNn+L8pCOaGltRuMjgLZIIeqvq/3dSbNDFKEqcaooEmJyCpONHbQPzKSt0gyJTBrMWlBb/mH9UEY0xQSCk/ikMfijPa+f6S4MGC7H7ax6Mo1wq8KxFT7wZEA14TaKm04JHfFXRWZdlKwEtYk8wbg0vUtUceyq2a9glsBuTQxVt4SXMoI44Chw3PVvEf3uW5/GqrIT7WEEj+pCsK6QvVBLC6LiTI3RBwS10txyoP4IAM2743uUax+hS71CN0yIg9eFKttzzMBRYyqt9tBUty6ne7/qZyY8zuFbppphVtTyLja38gUb0Jkb9JcjQL9f4akHt48MFaErwZkyO3yFAyZl0V+W3sd6J5aP/nGrFm7ywB3++mYXKsgm7bBjbhSAC4zTqQIqeZjUShb9chvT/6jeQIbgbk/IR7jX5CY5gcZ18zeEtCNpFbGCDg2n0Pw1AMmcBtubrAgk6I3hHEm6ToYTP

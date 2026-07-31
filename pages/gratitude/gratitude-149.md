@@ -7,16 +7,5 @@ tags:
 title: Gratitude 149
 
 ---
-
-I am so proud of Ayla and all of the progress she has made lately.  She is
-doing really well with Mr. Black, her teacher from school.  He has been really
-good at helping us navigate what to expect.  Rhiannon has been giving her gum
-during school and it really seems to help her ability to focus and work.
-
-She has been doing really well with her peristeen and getting her independence
-back.  It's really hard for her to want to do it, but she does really good at
-understanding that she needs to do it.
-
-Today she gave me her number, oh and her house is 4.
-
-![Ayla's Nummber from feb 2022](https://dropper.waylonwalker.com/api/file/1cb8c196-d356-46f6-88e6-96e96abe2859.png)
+<!-- markata-encrypted-source:v1 key=default -->
+qTU3UyjbV2lt5BFEPDX3yI8vdQoQaVDy+xRgZHtS0jveNj9ZpThys+7T86X6s3INt7eERn+ojg/vWTD+fsPA/gIwkhkRFLDh85Hquzh6kPo41o+aHwuC3LBwsTVQGGo+toa9wj0fJC1Cl3yami4TTRiM2FfqCkbiwBi7RJyWY/SAr5DEaWmEgBKP7hdFazteKSJjaFT6RgKcZ1XO8/jXRWGLLPWU9wPOr0kDEuPIOkbK9VnXbLsskdLvOXpTE6HKqOq0qxf8s+FTVkudyx70lGfdYSq9rYw/51ftJIfU/sxIbBtfEreZkTcQuzTpwn123IbSWz63EE7s7KmlaG7p5OmXgxVRXIczdKRrC76yIQPx4zvy19mT8L5qT4HZqxElDpHg/h/qFGyIFMNPNHCJODXaZjlQ8l8KSp18xVxqdI0XkaItgeVw2S69sVjDdvRukPbses4OIrPtY3mBnMXFjfAltVpWXoU+RrqtM+DfY4SWBVlKg3BLl7adIGyJVHYQdjnMHdToPwKNwDg4IMlen1gw3BLZ7qh/aiyUMaiu/OMYFleQfvH+lvgGDzfZzIF+qg7gHGHDflgDiRYmFzCdnMquqBN/nmFGb/NBqZ2X0T6E2+lKZojGpxogTRUtxy45YreTUuUSvo8nggzFPdoaf61TVOTN1cXWRbDR7SsQqaaDJeN/1WrSwwwjYd9xphkyKFozwn1ZsgYJDbySZPkWNlzx69TzYE1nRVZjBVJ5K5x+sd52a121hm7iAJOU+2phSzGfwj+0sM4BQsH64UC9FNt7452wTNUXoxc80gVFHUcmU7fBqkbXx3fyHB9wkk2FUB3MwWFVfmtBFf0SmCHV+HGlV1kmCCOnzBkXoGL7qL9HYuEcO5TL7zS1d1hx6xfuQDVNrwF3wCgeQF06vnvkSbZdz5x4kmTwXJ8ms7AsctbAPbqdGLUuKs4fQKObrA==

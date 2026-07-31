@@ -4,11 +4,5 @@ templateKey: gratitude
 title: Gratitude 203
 
 ---
-
-So proud of Wyatt today.  Tomorrow is the last day of school for the year, this
-is his first full year back in public school since 2020.  Today was graduation
-day from elementary school to middle school.  He has improved so much in his
-skills at school, both academically and socially.  Today he cheered on his peers with full
-confidence and enthusiasm as they won various awards.  He is filled with the
-biggest heart and is a great friend to those who choose to understand and treat
-him well.
+<!-- markata-encrypted-source:v1 key=default -->
+8j8mA00TgtEdepwyGb8eKxcsn2Zr/BffzIoXc9jpFyBiwNhdQKC3xCA4YMQz1YKwnR3r27grd6a6WQ7Xdiv2s2CdaWoADkCy7klmWxM7EEibxvxuAa4TxPIvv4ffsxdPQvm/3WrJPP9P1mAus+0R2YfWdJIyLPcMaeWkb/ev+rjKl15ygDY2bmN5BrGHqc8NoHrRzbEV+JcQ+Z3XxFVFc2HqCepDUEvmeTf5UXpy6wIRKikBBib6C3ObjYHpfqGryKMsfjpGZ2c6GIVev5OTTfrxRx6K3xM/wbldB5TjriZCGRI8M/0LAZjDXLZWiczI6648zoyMOoNGkw0KWv6k5lkkfYyG53sZHqBpcBpO1OqHNLBqByi2SLYHTNIk6LQMyCyP8CnybYhEtR8Ivly2ImN30KN+LYUsHeJe4EE5mZsvmWsSOTV7vBqW9vHcWQRcWt6XGTpqSb6+4IUnNTDi+TjxYR/YVBPh5uiyh/A8upxJ1/eAFZk4srE5HfHBjFygXm8wcJjjeWbYRXgLikl//+9XOsso4pSfELduiHw4D/XFxoN0jYeLhdspKUBeRqFEVb6MPmtbhlf2BRoX4Hei9KFppcbxFWcKXcUf5TPpWzC2NJCW009jL8/kNYzogmCuEQM5dU9yxE1iPKHtG3YejwonaZtd5gnNbtUQmmBCAYs02bagbK45Wi2BoKphg1Z+dAS2A8pI4n6BOAU=

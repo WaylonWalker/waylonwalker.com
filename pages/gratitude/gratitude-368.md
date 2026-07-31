@@ -6,15 +6,5 @@ tags:
 - gratitude
 
 ---
-NEWSIES show 4/8 tonight, kids are killing it!  Ayla is doing so good with her part.  She has such a big personality on the stage.
-
-We lost another one of our crew at work to RTO.  He got a bigger better role and gets to work from the comfort of his home.
-
-Huge wins at work this week, more nodes in the cluster, more resilience, 8 releases went out even with a vacation day.  
-
-
-Rhiannon assembled a whole stack of custom papers for Mathew, and his reaction was absolute gold.  He was so excited and appreciative of her hard work to get his custom paper in the sat/sun shows
-
-![415c51a6-6bdb-4ae0-a514-f6eb01ab16b3.webp](https://dropper.wayl.one/file/415c51a6-6bdb-4ae0-a514-f6eb01ab16b3.webp)
-Absolute pure joy from these two 
- 
+<!-- markata-encrypted-source:v1 key=default -->
+CjQ9TbE9QImxBUiZjcUwewZJ/eYHJclTObtJRVnrsijFZDEdwW6DzbWmZLIPrCjMQkx6UdFi8KDtL0HtWdULy2NdrPCOCSCiw0lAGgLvusL2cXm/ylHDgVRJvCQEWg/CAUlf021AQZGsMWU2127wjfrtjx7FcucvJegoblSlTrjVpyEA8Sj96McFFlmPRbSq4YQz7C9B1pEXKdGle2LIyZ3zcAM/ZLQQ+Y/k/t1bCxTR94SDh5i3IY4Z9NzmrKKxe42A5JZGRh15KeytqaknsZd7W1QtU+gHJDmp7mrAOmYPQQN4cq3pZCeLbnet4PmKQEsk34bpt5NkIQ7EopeBUNF0lT+qmDx83cXqiqVq9N0SOzcOphnhbTSyYWN/cy+QqVGY6vz5SNelXWWNsDKXAGPXy5HWa89g04kxRd2IKN5pSa9URzXwlnKvt9tLp7TM33semiyoK3RS1snZuOPJcgaZQHkzY3T/n6IIIc6miKF60ZFOhd/zaIqYlieID1yKcEP29tjTDDgXRu/6UTRNQlW9S82Dbk9ZDEniV64MrF/1wh0Hp4HEqhtByccOIlXmGIK5K9cTQp2QP4zJkWlxJhOS+6sIpwN9Idpt/eE1nzs2MSnhKVDPs+kFkFI6iEMPsefYC1bXAoEX63dCvyWGvfE14CRCv30QAGkDGa7AR4/SINGZdNVqHMylm32gjtKTtXztCZG50VcbDAIe584H0Mj+7qpm9U1UN//UgNcjjd7CjpkZpDNDo8s6aS0pDl/xV3Yt5hzLvLF1teXbrUdXoLRmtMswX0gBLBUqk6kFcPHk+wm4XhrfpzDaoDD3U0wh9nKMs8X6V8a85HsLVG3vs+x1WEHeWvZwrv9xq7EkuM38KdUgDswJhaCN+Yu4CA8ujXULLtTvKLKuHk1mWbbwb1j8jnp2BwHpNF1isHuG4g2ysblasqIv76N3fYRgJG//nMdbkqGsKpUQoNSMvg3bl3ku6dqleYdIDgp92ICArWcJEZ/AgfSuUE9uJHNZtlSrUWEsntrI

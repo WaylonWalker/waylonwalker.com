@@ -4,11 +4,5 @@ templateKey: gratitude
 title: Gratitude 295
 
 ---
-
-Final stretch of the year, wrapping up, and going through all of the goals and
-evaluations.  This is one of my favorite times of the work year.  It's quiet.
-There's less noise, less churn, less breaking.  There's a lot of time to jump
-into special projects to set up and make next year better.  I've almost always
-came out with some good end of year projects, this year is no different.  I
-appreciate this wind down time.
-
+<!-- markata-encrypted-source:v1 key=default -->
+mw2mAUqHXfjG4lnrLu7ZcEUlTwqC8hiu+ARm51mZgI2+j3iO2mGtvx7LGF72x8cjMyRzkp0iVmn3C8/sqmio9WVERT+sItYCC73XO+4zOac/pNE7ZfueFGUO91YTfcPTcxUt8bZTUqxkoGCq8INU1KLpCOnlklRWZQaoHY8N92YaDEjmCimx2j+8int3DbLlJGxqLnkkVJi6gthrs18Aj55H6JHsAzva3tzbq8x4t3arQoqUlz6fnAT6xVHL7II6tyHUFr3PBCExO9Af2tno3aU5gd32GgbC8t/irX8ov8QVbPdIETPLvT4/MU7EhktzwypyIqoN8d8dhB+miFb+T4piD5KqCJibCHUDUDoP7WYlbZ3Nc5mVBXMHJqMWDrlDA+rHYt9MajLi6WYiC3nFYXKwPydMgrJagkcko+piZ8M6OEhoIdFDETb5nbU2CUf2gI6aziIiSx1lu6CLmwyyy2059eK0825SUoFPvADTJKUzWP4FmxrnYs7gVwnpZRLtJ8JOEOQsHhJvL36X9sasxNJrk25NkzqIQwoa89QDuT3T05PXBeMI0iyWLbLW5toO9uVN7W58UAcu4Aq1QDbeuYhY3PbN2ukAPQ+O4i6LUgf6LDat

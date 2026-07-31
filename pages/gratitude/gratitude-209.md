@@ -4,10 +4,5 @@ templateKey: gratitude
 title: Gratitude 209
 
 ---
-
-Today was rehersal night for Ayla, I am so proud of her she seems to really be
-thriving in the musical scene so far.  She auditioned on the day after
-auditions on a lucky extra audition night that we happened to hear about hours
-before, she went in there and did so well that they cast her into two roles.
-She really has quite a confidence about her on stage.  I'm so proud of her
-putting in the work every day of practice so far!
+<!-- markata-encrypted-source:v1 key=default -->
+nwb+o4z8XzEfMsZPIadmDq6fRRTFRa9GmPWBYix8wRgh8N5QNiee4RayFlUS0d1nPyOZUjB9w8xpRxFBCWKkXrh/NVm4d0+OnZX2d/VEu1ms3fU9f/EGPzxdBjooEesjhGqduG/knF1YOdc+rS1Hetdsb8ufnGbCQpVvrvAnHHJ8xZFnYcui2jn4ygzB8rC1Y9pNF961MOEo3IITRh6lwwR+Y9dxOA+QkA++IDnSrUFowe4naunBWRkggdz+s1oI0wSHqFceQmPimI5eLrGs32rhVYljhLriwQY++86aIgTNQ9mSgUeI43XQzJiX6706hWlMLiBEVUM6yHHHH493d7pwui2THb/fbGP/+LyfUPzaFOyubYHVa/7wQbOX+xP4UnpOih9+wgtne/ln3/OP2ods96Vi5PwV9MQa6hEYtXoQUu2z22DUt1B5x1/iS+4uD7WPAIQeepXPKnmc+FvwpA1xfkVVXt3gDXsMCbzvW7WzO6EhLxsQ3EPOTRPtQp2aaSk0On2f8Tp9OeaFktZgTgtNYJRaWY2kDtJR+Wg7TKDTylHidlFCgSXZd+uQbxbEeuxNwetGDG8Ac3607HSR7dzsZZDG50BBXfaBxnRc7rv/bK3L72ePKEdaJOc=

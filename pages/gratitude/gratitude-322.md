@@ -6,6 +6,5 @@ tags:
 - gratitude
 
 ---
-Today has gone backwards in this cough, is it the cold air rolling in.  The cough is kicking back in.  The kids are home from the cold weather, we have a feels like of -15 with full sun and no wind.  It's been a pretty good day with them so far, mostly working and doing a thing or two here and there.
-
-Today I am grateful for our warm house, reliable vehicles that can brave the cold, and the ability to have work from home day.
+<!-- markata-encrypted-source:v1 key=default -->
+iUI4hhlJcKisZUzMPOjZ3k/3Xw9FVB+9MR7cbSKgdFPRYzY070G9z4+Sh6BjVSHvcCo/HFwuTIvCUqwIIWMUZ7dX4rjWeXwXf2KfMURrdvK2t6fdLuMP4XBGURUZb+3Qbif2QIrDqCrlDDH4rG2AHklG8NV3/k+nr6+KnZj5VeNLmfZ3DufVOvCUol6UJ5nEF97gmbodT5szzJSNJhheW908Hj0bkCHWTQkBvsuSOsXA5XPTYppQwKZdt0IhhDQjDtfO3eyTjC6t6ENxN27rcoJ+B6cp4EXb8RUmFF4ZN/yGSdlm3DZdM1trPUFHebMqUEL/TgMJNxEVQg2tIA6A4rVaA3TCcb+z9Is+tSmuvN7aI+DfOnJXpTUum1zvfq7S+R64gYh2reiBv2fncGdk6ZrXa8BC+yqpCD/dms3ieHXChC9aw2wYII0K4TU4yiLG1KOBxSx75qvTHbvGXB5LNzOd6PPQL831J44fX1IJKTH31EptsMjW/CHstK2shJvG6iLiQLYXqLoYruFsTJv52UVnHSJNZSRaw4YO8cFcxdEcLnAmb5a7VnFpAo8k4TBniRgDBIEGUPXRaEtIeGkcoMncGzhOWHsA4qHWB8hitc4j4VT1FvF/3Oc=

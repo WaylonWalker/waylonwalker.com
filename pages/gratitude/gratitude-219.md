@@ -4,12 +4,5 @@ templateKey: gratitude
 title: Gratitude 219
 
 ---
-
-Rhiannon and I have been super busy on set build and watching the progress of
-the whole stage come together has been so gratifying.  I'm so glad that we have
-this activity together that combines our love of music, theater, story telling,
-and woodworking / construction.  The other people there have been so great its
-kinda nice to start finding a community again.  For so many years since college
-the focus has been on our kids, and they have not wanted to do a lot of these
-kind of activities.  I am excited to see the set come together and see the show
-this weekend.
+<!-- markata-encrypted-source:v1 key=default -->
++NjRWQxgVZJSCohW1pSl4FvwtJ4LYuJkTGHzqxV9lBti1M50Tgk0LSStmfBzKOicuMr4Kwnzp59IP0R2TdzaAgaDo0tfhowrJxU2dJm/Rqj7A4L94yZ7pf5CElT02/WYtKX9OJVBGGdaj0wG0xaX3FcOBvWPcA+JR6D+/Ej8iqrYVbKmyeGvF5z/JvgcUnGJjKrUAro+NGI9O1HwVCDPmb8Wh55Aw6CCEnCUzhw8QmCJZ7hUCKaZcHVjD36YU1XkVV9K8RUD7j4dUBSw+tTGkdl4J0WA9b0NTMPwJ4O3elxJitdSfzA1cx5aW/ldNkz2pcZJqYTcD0QQholH4uxvWXEBievh5/wfwZKclsqo4MpgOyqKXnN6O1dSzXt8xkaIQpWWRkh4s434SKnvyH8zrPHl2XcO6L7oS+DWpdQrw2E4scyDNCu3z2epYYk1xM0ZrZ0WmDfnQapjlZy92n7Pj3suu0qMQKUhTIyyWQ0jVyGTu4v2n6/8vHCPVSjUnwyPbv3mb0c9vX9fmF0iDA2iLbqf4oKIDuMkPJlOADS7qHOz10b9j9DNnvhii0m2huqr7IbZbtlq/VypA9YlPc5gX6z/IdSSBC1gmzyD80yL3Gb9bRbMQWSckAhFkeXJMIKssQ7m657eaYTex/ux11UN1Trr1I2GLK9n900U4u+vL13zCWLTw74UHMBB5x8aE2qAuBWt5p5sbctn2oHf4Pk8wxpAiEVwga1orLUqPVdhzMjVm6DCQLxm1wdlTGKYrbZPChCth7ERQedZjvdH25zyB7sscTH9NmtaDhuh0v9VwP1+Q6gtCq4=

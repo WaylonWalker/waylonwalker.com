@@ -4,11 +4,5 @@ templateKey: gratitude
 title: Gratitude 218
 
 ---
-
-Today was set build day for Annie Jr, and wow this old theater was amazing to
-be in, there was so much history and character wrapped up in that building.
-The retired gentleman that was helping us build knew so much about set build it
-was really amazing to take in.  He was celebrating his birthday that day and
-was still there with us.  He had so much patience teaching others who were less
-handy and even children how to cut, drill, screw and build the whole set.  This
-man Howie was an amazing man and it was an honor to meet him today.
+<!-- markata-encrypted-source:v1 key=default -->
+feyNJ/Nvf0njLMiy1p0tueYKu/WCOyJ8f/Jj1YjSv1pZwg4JziBUERq4J4vdgE50wmYspY4cyrA5IgTadtKk/TO8aexWQryzJYdBTgynDYT6Z8KPPL1uAX4U4cnGStnWmiFaZmIUmVoX/6vwebST5rgGHtnzTnYeQFdnRhOEl0uYK3W6N5zW2HdOm2lZA6uKPe2PW3sOj8GJIXDUA/Oh+189f3qSD8gCZiZWYw+Ep2spW5agaLTzMTU0YNCAgni4+wQXtcLKHEJKkrGHtM6NcHeEK+elSkrLknyCPy2GQYtJfSfZwPG5B3wb3cfCwB050LcLWtH63Tt3kRWCCVw1OI0LJPXTr20wpT+uZZzj/l0EnuGqE+j4HyRY4uJ9gdLChbrKnIx0pcTvdIodMCHUZod4sRLgKzi4jZioO3z2xg1Dene5kMMkJfuYo40IRAqIUIH0u6nhjCJEcYZuEoVpYxn3CrGskLHaMIFgERzntG/p0BEsJ67q2FaU9B/xJl1uk19/6/M3ScJMf0otuorFA/HJW+mEc4uNv7PFelfcdQtSFJLOWbKqnwG/7NAWL011hpp4ie9aRvIeZxNvNbIFNjX+l8ZUHTzgp7xYY7qfZfIAZSz78ptwcqWp6Jgg3yAeHN0qI9OEHOZhqI6U57nPSgLoQj7lzA/Q319SuM/xu29q9u7qFXGNalVIq9AVNwBaKX6g293zCROAnk3389vPn3kGWUHagEfMDzZAnszcBKKBGRdOUSq6Ox5dZfUEVGYbAMD49Jr+vCU=

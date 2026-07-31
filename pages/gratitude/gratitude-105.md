@@ -7,25 +7,5 @@ tags:
 title: Gratitude 105
 
 ---
-
-We've switched to scratch.  My son and I have one on one time twice per day,
-usually right at his chaotic times while medicine is kicking in.  Generally
-it's Minecrafts as that is a safe place to be as chaotic as we need to be, but
-today its been a day of scratch.  Its fun to see how quickly he is picking it
-up, he is already on his own setting up new sprites, reskinning them, and
-setting up keys to move them around.  I step in with some things that are just
-outside of his zone.  The first time we go through it, it seems like he is
-paying no attention and does not care, but after a few times of going through a
-concept he seems to be picking it up.
-
-I have really been trying to get him to do the problem solving as much as
-possible, so if we are paired up and I am "writing" the code, I try to get him
-to drive as much as possible.  Even if its not a direct we need a forever
-block, describing to me what the sprite should do and what the player needs to
-do to make it happen is a huge step.  I try to make him give me as small of a
-step as he can without pushing too hard because I understand that it is his
-time that he is a bit chaotic.
-
-I am so grateful that this technology exists and we can make games together.
-This is totally not something I had as a kid and would have loved to have or
-been encouraged to pursue.
+<!-- markata-encrypted-source:v1 key=default -->
+K0ZnXg4bJpibwgMqsBaXEPrKFVFoNQluGjcjGMGmpay6RF4iHxSiQGAIEd47jU8tyN5GsG5a28TDgALZOEMXlNeSEEWzvKY1gZUqH3i37o32+n8aY/49bsXK68kUuHAOJzA5sadyyUSavW+GFVIQT+6Hk6d6jNz30KbhGjYJd5M5OW/va4mjW5sMdvdsDPfYcofe/MOeS0ejYfxMmcrJHAQQuEZ6dUa1KFmFTPKYyfHYpKRULU8SpqptnnGOCt4vZOMpW5IdB+ELInegB1wcSIOrkvbykYz/zaQ0x0uYAH8jxMcYSARmvTd72Q+8UM1pEG70XB6FLp0HAMjjiE5MAFxWTO1NDBvTdSSdqnBX/JPbRheANKE8/7Hc8I8Ro+/HB64WSZvKQSNAtCX0b4APp/ZcSW7SK1odN2PCojBDZClK8lsC+CRS/bQSVm0dA7K6ZFiRz5fZ5wBOntzSBvhN7vO44KodCjhSXt+Ietrl4ip7QyIUu14grUfVTzOBzWlB3CRVvpsBshhNDd4PWuoczsHzUts94Q9oexO0v/M4YAHB6gboCP0e7HXDoUtzowY1LMAIQvm/rzusgb1Ar6tbXkYuP/1acjcUIPAG/bYRwJugdpc579BRMLB0D2/uWwg4EyTLCnVsxtVWNG/nnyyUdbiLTvZcX5ud7eErusc7FLDYnKgUg3wRtU2UBwDHKsBee0Yb3203N7lGHCam6328WLE+czC5HUgfTjdwUE3xprTjIr1ekjGf7KEpRCL7D5zhbIR0+sO5iPMCEilq7ybVQTa1WIpyq7eby31mBsVxUJXQs+n4M0jEv2ZMbrsqOEqb/sDHTP0oDNVep+S6M6VnFsaQMGhBuEMKkCKfW7OHfXXM/R0edPb860j8/nX/VV2WhuMwfAf8n2N1/VS6ZsMiFc39uRzb6tBliZpGnDZpifItTOR9pB832Zw87JZSQVuL7qzC3tBit1hQccFMGrElGNQy/gv9E/7DDg0EDgJBdKT6HGvb2Dwzh3dvLahRLS/NzsQ/7ftIN3bUBZgJO3Buwn1JXz2gKNvKwcXA84keexcv1C/6kqzBMDBe4brG8XwpQywMJERd7lK0vwTip8oGhrEZyapi5mcgI3CHpinL0esKQ6c/HfMer8clQ3G97SjzWtHYRr6aii0fkjdF3Xh5wtHC1O6fa4LiD+5jDYfAO9arw8SAgKC8gYzmrqAry/6CGNoi7K1HaOWp2LqAA8HqslpAXoktPp3HSHnso0vv2K3bzjHFLO3ZtVerx2tocHWOzYQSBcnHBWi+JJi3yAUTZVy2hEw0pdYvX9keGlUq4C8tNDPhIiyQfQQmqnx6zqB+SkAh0QkGruYDnLD9Dyzqlef/iiRrBGsyRoiyTSaSHr4NKBKG2GvJqnM2vMBZITSBeARbNhQx4F47Apw4tklfNDOwAaMhVmGtcHZdPSmNhgvu441mzgJw6O33SiRjuZRtyLcOPlKIIusQBQUeYZOvEs+wEIBMhpTCICdRwr3PLRYuvNPyp/LP88s4vvd1M9ueLLXj7K0nLMeAqhdaKySjiBDnijRi3PZCTueVqem4Y/gLtDqh/9jPzCMqj3WbmA7E5F45ZLZU0BEnzo+bdp0dWRRQzKPEFNPu0NZ0jFtmDaCz4aGTx5aibD7fqZByHIE/bvNTc2Ze5H/2zNmcjGbiN6Ga9MKxALNelyqJKhESKkR6PCeHLYscaa7C7Q/ZxkhldCw6Hxws1JA/DNhuVQ5f4WOOR10IUYMqHikeWwW/k2Rfg/HP2Sh4i0XAfAtt1l+RtFM4zzoW3BIJB0BE4rYQ4DD5ZFJD+mweOG1BKEEwCQ==

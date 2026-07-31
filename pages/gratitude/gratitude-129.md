@@ -7,15 +7,5 @@ tags:
 title: Gratitude 129
 
 ---
-
-It all started when we decided to celebrate buying our house 🎉.  We decided
-screw making supper and doing dishes, we are going to order something.  We got
-pizza for the kids and burritos for the parents.  Rhiannons did not come out
-quite as good as she would have hoped, so she barely ate any.  Little did she
-know the storm that burrito bowl was brewing.  She was throwing up all last
-night and just trying to get comfortable and make it through the day today.  I
-am very grateful for our kids patience and understanding trying to get her what
-she needs to get through the day.  Sadly we are likely going to have to cancel
-our SuperCross date night tonight to let her finally get some rest, but we can
-always watch it not live tomorrow.  Let's hope for a better day for her
-tomorrow.
+<!-- markata-encrypted-source:v1 key=default -->
+znAy5gvvBYUeP5W/8BCXG9sHN0PFYHNetbgwatGy9agpQMXc9T2ytiJ7kQp4U2HTETuYrgI2QYvaREuxXRMMmTxNAqGis1JYmCYgHyszqLV+PZ6hjUQMg6itJXB21qIKO8JYLrPWjLdE4wyXpFMqlfVWOlPDUB/41F5tJvpYttHxCoPHNXY3D12NDPVnQ7q8mlmqC3wvQPVxanmLmjYE98jQSqBKQVyaLYP0wOg9IPXOPoJW+0tNNFH+n9KQ3k8rq25UiPMv2rdn+BywTxWLMgBvYEQGsEsTpS3p9yrC+c1SeDOADbjIgcIWzQvLiES84+e16vmaUHn8xBX6IsE4YCtzCklW/y2dLXJMQ7z1YFn3M/J7Ml43CGHh9F5JdYMBtZeRwpNRIE23dq3o0h7ycUaQp8zqIU5bW12sGZ4VfMdi8zBUZNBmaOp3J29ogqgGV1F2HETdxbGfn7HcOMOaKYwQPkl4R4qeS1YrGJo2aJ0JT+hZFtTFS3taVYDGpv9BU5DnqFzqyIImOuQzpCo++/r5kRgbbY4I7LUbHBzbcVw1Wblunnh8ZiahjIgtHgZpySECs3TkyjoGlAzP5lwybTYyJ7SSQbb9Jkr7uqMCW8Z84wBCYPPhGtW73qlYlWjpwKqM8N8nwy1qbfQd+2yhlcD9b4MRhVXQRy88hnetNazlg0zz8egFiGE6bssD+MvYDvWe1UPBsf+WI2LKldKWNF1sCQJJwJs5R20R1dbEWAXN5bS2MXA7Kd5avHXNYtAxTJhVGovIJ/lU4kpzZHtKyjVvBI15m6XB0JA/w/NnuAHZ0PZnWG5sKY3Invl6wB0MrBKbmAmHGb1OjdqeWmB4J3/Fu+ILagnfpf2Xokl8md4fALNKXDwmeGQgxBs+xAkh5uDXQ06LheqOYnVULqxDl14f5aEFUBMqaTRHX0WBEcvzccJIjT9wDpIdlgsEC5N8LRt8qf4VnwmQJtfXE9Ch8M6VFU76UgR9H+wHm2KnpQ/wWRM+8fG0EZzs09987/48fiasWaW5JA/P8YH5lm2xt5xJcd04/sl14rXs/WZ1wsbkqxxmvg2XcqiB1Q56k0VGzGhLWVl2FA34AOUECoPK98E=

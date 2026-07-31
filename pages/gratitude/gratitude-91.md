@@ -7,7 +7,5 @@ date: 2019-05-17
 templateKey: gratitude
 
 ---
-
-#### Maintenance
-
-Today I am grateful for having our housing maintenance taken care of for us.  Our AC went out last night. We called them up this morning and they had it fixed by the afternoon.  The relief of not having something else to contend with is ver nice.  I didn't have to waste my time checking the simple things or worry that we are spending their minimum price to flip a breaker.
+<!-- markata-encrypted-source:v1 key=default -->
+IvTNFbqo8b1ZvpV3Qoz53sB9YMVl/uoDwuMUlKZjqbqArS1qiLEONlQBHBvbWTSw9MBGLn2wYgkzgCEieycQrzWZIAo+iDdvmZ+ok0GIFz1PjluGR3Muhro9HDDBxi5mRbeSVFmUDQXzACDjWNU9jH5/53Jr/DUm80H1la6kHnutAw/e1LKSgJUCh2TolPLO7MAChiQpu/rtbPqrJKAaD2rUU7nwUE9A+a64IvhbLICjSLcwKKosu9wrB4GR40JAF774aRV53WcxLslRF8wSu2rYnqlkjN+T9S6xOlMJKCn12Wz8X6Twpl/x1pO6LLmKt7UcILxPJieLkwrEtB3SNTdKy8TEko8xAACM98FC4Gfbs901R+LQ1LCHKvCoxfM3XlF2WqaxE8a5Beh/GJnalnYEnO075TPWQN7jD5Qow4JvzFUd5eL3uA8Xxpyn5iCMzWf/3j9WuApwuZNF1EIgH57P9zxXfMncChaqrQ9/pZCBcAGHTXJR7TPqR2pI/57WoQU48Y3T7rkfI16A1sMn28xiMs7BoWdDmFIoAjMVmPvJnOUYz+GLFg+Qb4W+Lg4j/Z+tQr+y

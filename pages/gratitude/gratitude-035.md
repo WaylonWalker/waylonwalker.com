@@ -7,12 +7,5 @@ date: 2018-02-01
 templateKey: gratitude
 
 ---
-
-#### Peace
-
-Today I am strugging to come up with a new topic for my gratitude journal.  I feel like I have written about many of the things I am grateful for recently.  As I am sitting here with a nice display of color and listening to the frogs, from our kids's lighted sound machine of course.  I realize that I am just enjoying this moment of peace.  It is nice to not have to worry about anything for a few minutes and just let the words flow.  I think this is why I enjoy doing this gratitude journal, becuase I feel a nice sense of peace after completeing it for the day.  Sometimes the days are crazy, sometimes they are normal, sometimes they are quiet each day is new and none like the other.  But whatever the day brings most of them have included this 5 minutes of peace for the last 35 days.  Thank you Rhiannon for pushing me to start this journal.
-
-> Sometimes the days are crazy, sometimes they are normal, sometimes they are quiet each day is new and none like the other.
-
-
-<style>@import url("https://goo.gl/RrPQm5")</style>
+<!-- markata-encrypted-source:v1 key=default -->
+yySymvaVdh0YcFhU1RX4ltYAVp8j4nsjLe1taGhtfIy254/McH+6YwKdt8+FzYJhtKByNzHXcmE0aJgVUYr8R8jm/gH7fX/3kTDxh67jTk57NcfKuJ+hPlsCV98YnapB+oI362XK9Bdt3AxNVtmZXfg9eutB2SCiftDEDE6UuPI3VPNGQl2MvrzWTUMJu8csPQgBUnGOPfb7XAAwo5AKvhGoVsLcKeJq9LCxAfTh2o0LRCxJs8fDoNTVveBFU7r9rFDSWnh8ts7Mhd7sz+jaoSnM/KoH6+QH86rXSoFoxBYV7QQjcl0KhARPUTZhSAex1+J0lNO/RRg1HubiSmTHJuNDP9l1gCAv0iySujTjObRhgoNhsaMRai0KdOCqNSISOZXjqjlh5cicMqbUvrzHIej/w/0SJWDt9M2pRlhBFJ21ejp48NEUmzGK55aMSu+nXqdfiiWSWcwcI+NIZH4Br4wwYWLk7Ln8lC4e/5sbgIqvCem4kGLiuiAG/knFa5nQ2lxaQHcSt0OMKem1Yf5sih4al5T9j3XRxgGkYlXSRX1F0Uu0GoRs5vzbY3cNWD3sDIlXi1i/GU7eRJYXGtqra+q58fUuv9SYUWtPuovCj33c8maR4hHwxbe/7LiHmQ7imeSoMQhCjtJ83vb3zCmg1jsJsKFh11kCnolQ/zq7ZruS5sw5sGs+Rh4npx6sZ2y5zo30itSub6bvLHTpKPAi0dxVhVxmSIc65mHkzUmhQTZTchqk0Z5jVxgYDe8MOgaPAZV22Zfl///UxeyiT4jYKfKPdIZ+GGl6pqvowNUoQmw0yaA/J3txC8qz0Aa13xeNBvZ4A9scGEX08ExduXkCDGuJg2/QUyiolmkLrvHZzZoVZAJwr8w0OswPLXA0IHkpjnOGkti9mTQlPw5QfhurC0AJgDunxlJQdoA877KCbjEC17xcxx07nas5naQf0Ru3h1Dk4DFMsBGo5a1ZVxNJa8jg+I/3KwP1KIr9MdgQ42JiOdlus0ZiKWU+KPPLzv/uRPnpI3iZrBxIf0i3p9wk3qSIJR+RDBqlOKvQD/A3/qcPb+yeXlnghzIP0CAySomkn/gUAbtqY8Xzcjz+9XGk+yLCsjXRxRs1UNbH2KYWkO3aJJ1/FMTXCysZUjmwQ9FXQnFj/19ZxuZFafHyAAxiL4VCv3P/uKGjdzl1u1t+KoTtZ1AXXNOzbP5CamFJRhsKeKzXLkDRcLkyW560P9g0vI01HfgpsQOKFVdAFQ5J2r7kNxrQ9GBWf7rskpQzv0hFkfmL3eqSq3vjrPYWsC0kkPD6PT3qyJu473hXJow2TphkEERjJHmKE1bfkxOO7UTGjJ6FvH6Tlljj3Ii8Bg32uEbbUuaF3/iXK61wfPyvQb+EGv7RHJhNpvM8s5kPM+LhiZ9YvLm+4OK2IIoLXx4iDv5djytQEBZT0UrESlTtdA==

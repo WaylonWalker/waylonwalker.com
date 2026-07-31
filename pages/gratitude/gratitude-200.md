@@ -4,14 +4,5 @@ templateKey: gratitude
 title: Gratitude 200
 
 ---
-
-I've long neglected my gratitude journal, but here I am.  Today is a tough day
-fighting for my rights to WFH.  I am so grateful that I have had the
-opportunity to for so long, I'm able to be here with my family when it counts.
-I am really grateful for my kickass home setup that is really a great place to
-get a lot done in.  Its filled with good camera, mic, speakers, monitors,
-keyboards, all so grateful to have the comfort of things I really enjoy using.
-The thought of going back to a crowded, distracted office, sit at a chair I did
-not pick, look at a monitor I did not pick, be given a membrane keyboard I will
-toss in a drawer.  I'm remaining hopeful, I have a lot of personal issues that
-I don't fully share here that play very heavy on my heart with this.
+<!-- markata-encrypted-source:v1 key=default -->
+wvnrqBAiq+HzLJf93j9cn8QumwwTSOtxtrHAYGABbuMKPMC7SxW5aQjUFntR7wjlfzxxV+AGoZtiHdlFrUYeD5bZjFZwWvSL1TpjaO+cFFOWaojdOtC1ARrA2LMnHBER2iIp5hG93LxYXC4cF7GHIAemctHrYHmAKzLBiSjvdN2PSDjHO7b2WjDimcfCGj0VvD+kIxzcfl1GHdL4FUucIUJKsKOck10VfbJL6V6uCHXp25gaTgRHFBXTpNFIeUL9XGlKc8P3N5MVtwY2VLpRLac1GSF7tNnZQTCFFFyKVUoxc0O3Oi31L97K54NCT3LIFn2ErVocrEM4N6pMaJC9h29o4htCxRPffMNdaQP2Go9dQqjjZK9S0aJttuSPKYRsrLoEWl0aDkVr+sjl/xAQujhj2kpvVwPHMrYFrSd23ViDEO41NfBfdBArt07D/g0PL+GAENA/vi5oiGV05LE9AVFFLUwd3MaFszsxtD4Jr7QmYgMDnh1sxOloYN4atxmoPjgJtBiRKZ3ZI3dQHgVppG4JF1anxsnMdp7V7Gka6BCQpm1BMF6HxsnDjDTJe/SQUMAipoKKGZn6ELvPA1oS0Y9+EnLe5DUudjXTuhcPZlBKFivha2ubLQhonnSQMW1ouKGqAQJaQrsvBmVA+gCrc62GrhjpWo5msEJrB4Wwk8nalfTazRHPneG1ea9b3x2R9fW0arwpiSHRl6+IM0wyHA3IvEP4q9i2X4ommoC8eTwfnsckoBrvWfRgqA5d+7cnSCuzH44Xevl0482XDsO69MDZyJ08921TmSekLVcK6MxXXSbWNmu1ukHkrcHGSz7aLzDluLPmj38Gj6loFivkGh0FMj6qHgxdMsXgk6j/A45mTDNZ/nnSOPR/g8DjTPeY9Tdfp29x0x0zjm+qdMO6MseQsiWpDlf9yYwoBBydG+mTduns1A318npwn+RwDgful4WZS7+qMaD/JdrqUZneDTUDfXNqG5ZMVuPkZ45ylwgRPNEGZoGSbpyaDVCJfJbgjImb/L88owp8NkBYYyKTntS4zkDm9PCCqrGHF/5BPH/lgE84U0Y/0Kzf6YU=

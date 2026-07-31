@@ -7,14 +7,5 @@ tags:
 title: Gratitude 097
 
 ---
-
-##  Chemo day
-
-Today was the every 3 week chemo therapy day for my wife.  Today I am grateful
-that it all went well and that she got her favorite nurse, Dee, to administer
-it.  They have a really great relationship, and it makes me feel great for
-Rhiannon to have such a companion through this.  Even though I am still not
-able to get into the cancer center due to COVID-19 restrictions I feel that she
-is well taken care of.
-
-> Thank you Dee we appreciate you so much
+<!-- markata-encrypted-source:v1 key=default -->
+fLmRftTfqF16juvw4TxxLVYQFU+IFOMMjgvT+39vn3URs16pAXkszWGHGo6dlaq3/fZKIvTFLZD/ZAxpxxajgq1liRF0C2bn5vP1SaWXs+vqDZZ0y6YXRZz/Bq/5t0jsefq0pmXRbb2w1WDS9EUUErGCFw4dmmMkqR3MJ47sqpIzj6pT7iVqN1+Q7o+Xx/PZ2CnLSIvC9YAwc2j1AvjdzrFk7Tm0i01thk/nn+oHRRyCHqoRUr96ch2Ry70aYrmmABiTAHUw8j5p8Vd4pCuXcqKvLzcPwaIqsxFklntPnTrpHuJmkw+d1/fCXaLKQNkcYWvaa6JeqdGefFmPcYKbB1vqmNTt37w2Zv5vDFLwno2zd+FIUvSuRZ2RgDk1VNReS5oUOMqMVFls4QECZZL3ZvwoRycRno5WxBObNI3CL1zfGzNGZPTh7GANkZovo7F8GN1jww4VFdp2+/BEqE+9ud+imBXUCLTiHh0LAZJWrpJzb6w24/mPk/Th9LT1XO2GsQjTFNiI0pzBHWga3Np3NmxRt5w9LInBYsavgMNWMLnFx/0Qrm0F5URGRY2fO9pXZEBLa4zYavzWnuz8wwG0NdF3ByVSIPS/90Dbigks2EdU8JWi8VQWeBzf6bQ13EhxyUVwg0R3PFzN8oRV25iRjNtZnQ0hoQxrWMGzldGVyEW8aw==

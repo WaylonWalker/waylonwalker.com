@@ -7,14 +7,5 @@ tags:
 title: Gratitude 135
 
 ---
-
-Today felt busy AF.  It was just a solid day of activity.  Tyring to get Ayla
-through her homework, through school, Deployed 2 projects at work, and.... and
-.... we are getting ready for Dobby to come home tomorrow.  I am so excited for
-him to be home with us.  Everyone is.  Its just so joyful to see the excitement
-that everyone has for him.  Rhiannon has done some fantastic research to
-understan what we need to do to trai him properly.  We have never gotten a pet
-that was not a rescue.  This was in part to knowing the family he is coming
-from, and the fact that he is going to be Rhiannons medical alert animal.  We
-wanted him to be trained from t start for what she needs him to do.  So excited
-for the big day.
+<!-- markata-encrypted-source:v1 key=default -->
+2viCG6EKm2oCjAw4jalRjWVRWqpAXCN3oJzKLd8/ejL4uHW70LISKw7nbSVO8FpybOGZWMQIKPBp+sjfn1OHPbs7obWxs+Q+d9xgsrPnuKlU6Z4KhQnMBKV6sGaW4gdCsZmrkcwEJgcN/c9FeLymTFs88yES9tVLo1/4/VhijctKMOAJotsmsiSTFljAgtSaFokqZx/I3IyjWTNBr7e8vPsOeWunmdZ0UAKleoEbqwKwcZ8DL9GVEU+VqqWRgSDTLxMAy1VSfpmiSLKsmw8Kmq+mkJTkUQu2T9MNOy7nutBC/EBKdx1IAc3rPeYvVfnuqw7bhvYuwufaEtoGLlfsXgEvXDlmYvMJezNoALjyrs49XnMztXdWYd3Ry+78NLIbW8lqox5Fcx9oWW21cmqZKE8AifHwrDAp0sWH9t3c4ZhC149hVTmQAWQqiA8AB6Szrz7q47G2z/QwSEDMTlnt7HAss42tqH/sB4MBAYQ3BEclVKp0gSPsCrmXDsytvEoqITB5SWvMsyEkLIgeK9XoVagIaB63XnORMrjnYizfhN18a9u7qiT44fmerKNZw6/9s7On4GWo3WK9Hyq6e85PhA35eeUyZnKnDKzEHL5np4H4vADrppplQ5g2M5CpiaKd0vwaxNS1xYOKq5gYuDH3AC1DEgCwnIR1HM5dfOvcyYzryZYRySvrobx6JeDm2BRFI+8tplpV13Xe8T+urimY2BYtdSJ/dVGfNrhDfq/WBqqOPWrDkBEjS8sxBMWMZwwF3lB5is9xHjyWX3grWKovs6LiQBRJlUbv2zbKVNihbADUzNnCSYhxaPkxRS/MyK1BKdnD5OZuVDi0NB3wZmLu9ITGQ8/9t62PYKF1Lrfjv1pTUDwyshDSCu9kOWkjy1rcMGuYzJa84XdIx9P1rlMUcoPDc+n9nr7TYVvtrLZT4LLewBrdGp4r1PjGDshuqu8HJ31rI5ymguGX9jbxRlKYW4YzCrV7aatNeB75WzUdGCXJsfaeMjl2+xI8br4F

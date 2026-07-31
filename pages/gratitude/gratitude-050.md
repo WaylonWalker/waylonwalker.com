@@ -7,7 +7,5 @@ date: 2018-10-18
 templateKey: gratitude
 
 ---
-
-#### Happy Birthday Ayla
-
-Today was Ayla's fourth birthday, what an adventure it took to get here.  I am so grateful for how far she has came.  Her medical issues are all resolved, her speech is on point, and she is overall a very happy and healthy four year old girl.  Today we were able to celebrate her birthday at home as a family.  She absolutely loved the presents that we got her.  It was very fun to watch the excitement on her face all day long.  She is very attached to her new toys and hasnt stopped playing with them yet.  It has been a long journey for us to get here with us, and it was worth all of the effort!
+<!-- markata-encrypted-source:v1 key=default -->
+HwOzqIAqxtVT4shkyzY4Qy2yXctIQ0VBlFmD+ho7PB1O0PF37LEVwLW50JdOBPi0s51ck8xssRMjbIaxuKZnaw8OShZXkO0iKlMSPoxuFstznMhhZblDl3Qsbdo+RmP9Yp39YribY5RM2ujoY+hlLT1VjyBQHuklA6JClpvv9ejrQBkS+Q90ASDfZjd9Gn/RLOKke0P7gpJYt+ECFFn36RBV2K7eDu/ZXFwUAxYyqALevbmxR3ZceworSAiI7/qnjdR983L+Ypt64toVyUL0g15Couycunmrbct0zFBkoHqR8Q/DvThzXzEh+cQRcO6K5AuVk5IHoJFpieDqxaLkHENEN1ADa9DrFQKD3JvBv/JVXhVC4sYIE8vSUHf+kkM6e8sO67ViBOMFYl8d0bocqqcof57KBNiNdGY9LB0kYr3jurb5NkEszGIFEh/x9wl1BpMWNYEmr7OKP5+DJrdOfGYk1ipWra8KOEFZRogpXVWLZwi6j8ytj6NL/H10nv52QN/0qy00n4o8Q5RoESj/LHxKPKBRKcsQKuaml+F9hEsALHawmB2lXSyOgdDFgvpdedy2KxAgVDea9nE2eiX743G9ejaeSJPjLnXwkHKv9PiI8utMC4kYC9u4A+d8alKOb1HmfoQIGC834HcQmHDdEn1LZBwyQh1KJDiSO4t5qP3yud8Sjw6wI75zU1zMaRU28i7mPfkr+P9tpyTUdJpJgVnUnVEFZjcNXLPQ5r8q0hQU+VqIhUuav8gMvLyqu74u9P9Tq8vd4Q0oozJZIoVUkv9tEo2OQRe9cxu5UWtptc+a5Plk6eSoHwk3HQfwnr7NeiHLHR32ogC4UViadTSIeVjll8KrS0cdCIl5xpf3DQMgBRme7/VsUmJAkDTs9YQ=

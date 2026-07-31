@@ -7,10 +7,5 @@ date: 2017-12-23
 templateKey: gratitude
 
 ---
-
-####  Happy Holidays Round 1
-
-I am grateful that we have been able to make it to my family for Christmas time.  I am so glad to see how much fun my parents and the kids have together.  They all get along so well. I am glad to see some of the changes that my parents are making to get through their tough times at home.  They seem to be quite a bit happier that the past few times that we have been home.   We all got some really nice gifts, and I am glad that everyone was able to at least get something that they enjoy, even if it wasn't much.  The kids were so excited to see all of the gifts, and had such fun opening them.  They have been playing with them all day.  I am very grateful to see them sharing and having fun together rather than fighting over who gets what.  Wyatt has really been stepping it up as a big brother, and even spent his own hard earned money to buy Ayla a gift!
-
-
-> I am very grateful to see them sharing and having fun together
+<!-- markata-encrypted-source:v1 key=default -->
+VGilSjGGQlL/rP/LbO4A01q2HLMU0+9wyk7zf/tNlVJ32G4sbGXA1yr/jU42cf+y2uGRS0ZcYGbkgcUxyMQ30je3azFDGpwDvo5DkWD859cXG9nPxwBGkB5vuI9Viy0REUO8KB4cS8v00Y0ALeYzb28wE9FVnRWsNMdjTL+Ria2QAnpU77fxmL5E216K4sNuGiQE5aEluMr7tyH+MVZJwRJI7T30nQMZPdwzg7Jm2yMrO4GcHOBOqPNOqGcbLyJHvrqXeXvGoWT1M3Y4F6ru3o7FU3VREVCnWJaKD1Kg7QU8MxaXLC/EK6R7ip4PSkI+2gjgSOkvptS4cLEQNNLaqfEN50TSmRE4OuVnkiOXovwfnvJQpRCuYrfGIAMaPqzuVKw92d+Fs7h4GJS81PRzsieUjtVPZLyUwjA/ykTHgu8tXeTwqTE7wTnOpIGkW6f7MNbdIR5KYUcH6N4j3NjE/ETDerNmxejSeO5FI7+9Ps6A4NvSzLv6wyohsXkdb+FNY5EklVJEFQOJbn6qr/BHER8VbKK8HOC/UJYR/z0BE0rZbqRN5YQKB/C5BxbIzB+W3FCKUuMixUas1db4YhA2iKs6dGE2iV4m/KuZh/jUfbouBu0eCWtn7OnuHDCoe9ZJZFOYup58cLbb6kXtNrf81lnG0JKrAuPW1xGWvb71bDphbOjkKou5eZeopZqkfPqXaSZtNBeyF167Yn4hnK/I5LktcCyBEo/Ql493NeTwN5QxWpcT75YQfIjq3qSWUtSlV6gHYrlqBniNFeRzJ9/Eg+vc5tt1sG7+JA7KkVuNxDNqCUUp95xYsd2WKS8NFMPJb7b3Xwcf6rctcY0f8oR3MbFfsXqqTgdRrDkxcZWOT2T/vgQ0VIHe2jGJMaVIHNV7cBKNUqvFu11jTnxRFejShqCKHwlH+VCYiv2uaep6ADcvxyEiICWegmO5WeROyt4xvhUZV2IbW+xHjtHJ7aVjB1aJEKISqvs9JtX+NLLURtxizT6mTuFswBzyF2TJHU6OA7UGWFOwCMFU4u6g5hhIHVC0IP7GoXgwlMAAT8VVmH9WFkVkbq4pudSRsJ3JQyc10aj0IWuEKem5osqHvf+NP/Y+Zfmk4y3a14/yA1Aor3K3rJ0oOqni30i0sAqWI5kGzmwZSMLPbKXjMpQc3C5u9I1rWoKmZ5z2Hhkw0U0fihtX53Ta+irXW7NYNAatez0pjHoEvNdQzQnI+rwwUSk6P5t+sgH4bztt0uU39PbGFWsTinoHh3Ld2a8Y23xaV4yvOrYL94RIzYdkSRZF0Jf2DiRwnojOOXOx85JM+4EVfSaNrS5HSWIdvOPpn7s=

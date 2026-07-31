@@ -7,10 +7,5 @@ date: 2017-12-26
 templateKey: gratitude
 
 ---
-
-#### Long Days, Good Times
-
-This Christmas we had two events on Christmas day, with 5 hours of travel, and a final destination to sleep at.  I am very grateful that we were able to get through all of the travel in one piece.  THe kids had a blast!  It was a very fun Christmas for them.  Wyatt got his most wished for gift this year, Maui's hook from Moana.  It was so fun to watch him open it.  He was absolutely speechless.
-
-
-I am glad everyone was able to enjoy the food.  Both events were very accomodating to our family allergies.  The first event was a potato bar where everything was kept separate and you could personalize your dish.  The kids really just wanted to snack all day.  At the second event they went out of their way to find dairy free butter to cook wtih.  There were only one or two items that had dairy in them.  It feels good to be supported by your family.
+<!-- markata-encrypted-source:v1 key=default -->
+x014RGSY4+DscLJYABMeX9X3yHpq+jGWfSWROFLwv185BibNfvgPHSUkmjUnOpi3ralfoeLkKRZ6YVqMNdzPByNiM+O4Fci6ZjcVcyU1HHYy/kXfXKDVtymSC50tLWGHmn026mWD2x/2NytaVgXpwWHswrzGzDVvJVVRkcsWg2s70q7I0ZEslRv3Q6EEYh8mebcB22543/FPw+W/cOmfCoXI5gj19jNPINT1RCZX65Jo/o6HPTzCQ1KW2Pbz8OKYpV4aVRZ3urZB8sQdnwwpC8Cm51YE6Ys2K+ZGbN2o4+q367xEDRdYYNpOLDgKRixUhtQwdJRNqabZi48Y4QAlScctsf+crJSSWMZzA3vug5XJfpEWve1N4PpfuZDPfd3cv55zNE2SypNsq/QHMD/DQ6kgY1c5sWj7Nr06Hth2KfNdUHZaXPywvybIEScb2VBh6//Dtk3vgWb9ZscgObEZE3OXcZBvTWQEaNYPxdDW17qjhfc7wQcIaWYLqlkpAu7KTm3FFwe9jpL2I7E6QwJA4S5ubNLjBK/8qWszx9MNA1HE35zBgHObm/9NOArFNybPi57aSuCDuOJtFFGhgpxwjSdfNwV0RVExrWNMtQ7IbrqenngGJJYTlKsoBtzBX4JPpRnW32+DDdvFVT5crzzmZsSxg25Yh9vhpSfX/KRzD3+NSEGvWulyk8PefBftKhk43veJf27PugxSvSh/gqZ09p0gzFqsIzu/eOoUo79+8S1ooV8oCZ7bDafQognbSGflP5ZR+MCn9w5FWdU6i3qEcJSK/CRSdGwY7nquBArORQkZIlkcmcSVqgb/sDOngS1b1vjRffLABXqUvgmEB85k1CoXOdnUZNc8jgHICbZWE+GC+8q59XPBMHcxw1j1U3iCNaBcNcOXH9Y9YV5kof8wZ2eTKlgyNJRE7XC13ctzrZqo/zMfN56/jzC1a4VgFEGVnPY9+lGv04Dsx7X82KU8Z2OmBVegCH6izlrMBxjyvbqlIcUBQNgLRlzCoT/wswRk1rXMS7QaeIaeZBb/4j0eKVGl0B9D7Qs/VpBFgofbRyJ8uWeMj8S5crD/e9CEAXXGMUZkkmkZj/xcNjbaS39lJmJaZmGE8cUvXM0QCd/Lr1Hf1CxGNq0crk534iX8jw1dWq1X1pK8gKjQaTKw5JPC6p/FxYDaR/oopG+kubTdFXDcJhiHHmcVVIoF5olU0ck2hfGyrrLQmNjBQX2f1iO/

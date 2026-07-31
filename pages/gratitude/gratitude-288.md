@@ -6,14 +6,5 @@ tags:
 - gratitude
 
 ---
-
-Progress is being made on theater boxes.  We made one boo boo on not
-redesigning after switching from 1/2" to 3/4" ply.  We are going to do a bit of
-re cutting and they will turn out great.  Right now the tops don't fit.
-
-![](https://dropper.waylonwalker.com/file/44be3230-29cc-4a5b-a495-4dd7c4e11c2b.webp?width=500)
-
-Work lately has had 3 outages within the last week.  I'm so grateful that we
-have been able to get through them with relative ease.  Some of them have been
-out of our control and some due to a lack of transparency which we are
-correcting for.
+<!-- markata-encrypted-source:v1 key=default -->
+QFaq4KCpAp0N16XkIPnEbEhRb/HEr182EAbD4wm7kGkQ6/2h7+QeItnRFbyTBSQCO5O1BpYA6dSX4a2gyYdbEaMDsQnKxPO7SZzxTBUBPXrH3pYhP3BZwg2xpMHJlNsEK8WAqdfH9fX3rxAjk/weB8vQPTn0bRtu9OXq1oTm8C7KH0aYIXDZBwfeQx4DQErKaVNYP9vOtK7VoC/DctZ95UYg3M3fGbIs7mXBgsTfvAnyfKAQC008ouGx14Hil1X9lZeJz/gv3rU8AlVkmpAqrfQ5KLQi/npqWE7yUtmi9+C5CQbWR+J+dYZtc/ETq88KtPUgCOWEmsKXFHKv4wTsgYVM9wENBkSz8iWnO6l1TgSNqFrzhlP8wKlTbx/LdDIgU5k6nzV75zxrFOXDuTItHy6Mb9DDYf/kUBDobNI+ZCSA19l8iwkRPQmBQJVDfoGHIOW6SfvZ9Ny9hIZ8J3ZMgfqLnpEZlWXBBlSqNmrMi2hMmYJzBEsMo11pvxlVTrUtjkS8g3v33BZPHXCXEAK+IP3VEPVAk4KTWrRIcEm9jxV7hasrqdd0NGXhUUlIqee2qY9tzlDFM0S972cTF6Yk9L8kTjttEN3+WiXuJv70Anl/Ra/lTlF/C1C+DRB4saRXLzE1z0LcTQmgBIsE/RvtVBNWxIqOxNjuh44dkmRSGxOJw0hBE1+JG3SVRVEXHsWrivoAQTOoiqchdeWaDtU9EJbv6v83/kaCZyiXApd+y+tAYiIHEFZ5/s+FtvoC9KsgySOcK3sxIjHtzzrFxXYNYArBYbgAPPDTB8z/9BYq

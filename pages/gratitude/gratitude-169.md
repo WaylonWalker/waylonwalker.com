@@ -7,13 +7,5 @@ tags:
 title: Gratitude 169
 
 ---
-
-Tonight we started a new adventure into Blender.  It's something that Wyatt has
-been asking about for a long time and we finally just did it.  I will say the
-barrier to entry was way lower than I thought it would be.  Within minutes we
-had it installed on both of our computers and were sculpting silly characters
-out of virtual clay.  It was so fun.  I am so grateful for the tools that we
-have available these days for cheap or free.  This type of software was far
-from even possible when I was a kid and what was out there was not available to
-kids.  I am excited to see him grow and stretch his muscles into game
-development, simulation, digital art, or whatever may come of it.
+<!-- markata-encrypted-source:v1 key=default -->
+6C+7a9TQDtfNaX8B3FADpjduVD418lkCNo0PmL8PNdyuhdkDU7Xq1RyR2uEKkw9XDPC6XmB2HIzQghNpUffsSjYVKONx9b3liN7bZSqrXkUkIBlEj8mwwKHB1tTXg5B3WRbysB8LpRhgQSv1m9xt8HqflHb2b4J/kNd+L5fQbZS5l4JmZ4iT/wYngQBdaMrcjJC3coLpjwsfQaqOH/cMC8QJHb/VuHvOmXYYgRzI2wlQtgtZ4bOggM6/Bs9pXEiIzdmhpI7vv0ZUUljSzqTcJt8L6nox4Pogosf6OPzmzF0rn9nxk8eT0zs4DWea7DyWTyekF5Tj2UbpsqWWL3lw87ohfszduWP13nvWEw+z2bUTDqrmu3lXNgKmmHRnViw0zxV7JSrv/O8kxI82bxDKF7/d8dF7c3+0PDp3NmA5iyWwhqIt1q/EqUZZRLTHKG1Y1U+Cfes9DhSEL2D02DrglxzwwiuG6ek2RBJxvxpk/wjNAYvuwvcerzGk58YFjmr8iO/wFhJOQS408rt4vLlq5wz5SBW/XFan1U1oYtrwW00jQQ11fGYVjDJ+C/hkpNuFQG4I+marW7BK8R0Qt2NK0bIaD9GCBAvevn+kA+882b8TgYMyjSN8N9RLlC5zgaf3qM7yhP3bHeHUEQjXhRLLKHHossSRKgiLAmRs7GRyX5TE7CALftsGdHvV87zs7xmKia81nLDqv5y/0In5IvXyuoXkQWI5/ri2QxhoVYCi3VArMw0o2yQAQQv5UL8vrdzw1FrX1tv4qk8x3ddAvHpRo7Q5uU/W9sV4P0rXrActeCEB4YXNWG1qRsqIb2E6iHajK6UoIZxOmsV1U4tKiWOXASXMeTO1GrMPPwpVoeXbc/tiYRmZKG2GFbFMOXAktxR1rLbc9Wga42KhFY/cjZjhJtnJYO3sb/W8/VvJIbpkh1JMa/DoSNV09qy7EeCjcDwzm/9YWRQLQdE=

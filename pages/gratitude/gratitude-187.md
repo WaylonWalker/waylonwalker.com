@@ -7,13 +7,5 @@ tags:
 title: Gratitude 187
 
 ---
-
-
-Today I had my first and final physical therapy
-appointment for my knee.  It went really well. I went to
-one that we really trust, and he was able to asure me that
-everything was healing and looking well.  He told me what
-to look out for and what to do to keep healing the right
-way.  I am just go grateful that everything has turned out
-well from this simple accident that could have been even
-worse.
+<!-- markata-encrypted-source:v1 key=default -->
+EEU7evstAvmx7gU/yUnqCz7JtYP9Ky2EPWc2XWyAJVpo1/ooFgI1kDTZyFdUJn1th6hdBW+nqzvpe5SvMc8gfijuyY55moLalAnTPo9pTes3MvgIa/COXG+drOPNb3+bDBHPJuY68VGwdLVwRZbriOCxekxQhzCmOr5efDwFG2L8VOwebFc09tSrsCBAgJTRPYvPdV+zksTSySb22Cbhe6w4+k7c+yhmr5dtVKsLwyh2+M5P+c4l4QL5RUAgodYBc0bbUos3YkjXkf2VqHQWH8+pFI9cgOEL+p2VM0yxZse9GEwxNrylmGahF48GbaTksSTD/+T1JM+xmo8wVCW6C0weo85jpyKohos3FiJo9k7NqJjVz8Y/ndsdNGNXeaUEt/t3DRkBJQDyPptEscALYNEzjHUrxb8UYL/X1kwee3NQUBOIfAUdtlkOhSFL/nwJLY9X1NvV+Q1Jya4dBVNHnYVv0BQMsh5ofMOFtP6qBW90Pfo5tEN3OwuLpN2fBrpYEhW2E2zeV75BL/GWkiXlMi+kxpmLsBpbggMfic2ajuJcsqeII8xxjwpWv5e4WMJkKhuglPA5ttzQcirHpn2TLw==

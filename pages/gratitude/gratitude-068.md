@@ -7,7 +7,5 @@ templateKey: gratitude
 date: 2019-01-09
 
 ---
-
-#### Amazing People
-
-This morning we informed Wyatt's bus diver that we were going to be moving and this was his last week riding the bus with her.  It was sad to let her know that we are leaving.  She has done so well with him, and they have become the best of friends.  He is the first one on the bus in the morning and sits right next to her.  She is able to start her day off early with a level of energy that is only parallelled by him, which is something that he needs.  He really attracts to positive people that can match his level of energy and enthusiasm for the day.  I am so grateful for people like her, who can bring so much positivity and gratitude to our life.  Some people are repelled by Wyatt's level of enthusiasm, so it is always exciting to see this.
+<!-- markata-encrypted-source:v1 key=default -->
+XCYouW76MunJEwO0v7xT7msd8/gv2txZ06mf9iICzVevL5ZShYFT4x2rmf8oQKUJnt9IbFqaiABxCdoBSNuh5+Lh3ltnECXSD6ZU/PZ0el/i81ohFoTwQajFrsvllobr/VfCK6fCSLLMLwdnOG95rrlUv41180ka/OdFYvl4gLbnzALqBks+O5/bvDAaUcwcPz4YCkqQdj2kLI075Wh5N7a5JcYDFtI9IQDxUd0k3yCUxyjXSR+CskdhKaE3SXW/lKwNDIxMMhnT1t6WHRjB5pE19VIDmQWhvZWucHnaP+AhtAWBh4RlJkoYF79F9SXV146/Wd4/uqf3JBkU3MlYP/8xQbw1FmODxJgyE5XdInIcpZjAbNfDXYIjO2AoMp/3FQcZlpoy2kyaSorlOF+ehElKU142a0O0Xm9ctygotdaBu8sKBZ/hlT+ZqUaw6EAB47AgeTCFypvskUpYNkkJCUh0ubzsdPuxVXt68mOR5wzZSsYOFuxFrEhGCw/TDHpdY/mbeGiCO5C4mlgt7flVClHAockFI26yeOwBhW72S51dvmdgNRBhtDVc+D3t9gE4WkVnUt+lvfOaPSNjd+PJiRwVDH95s+qajmKpTLblOwrI5usJmqcanIA6M0GiIRfBf1Dmn8q7HLGYZEr2PPsOglZNEsNSyP86oe+8AgUcC3ablDlaC75uyVY0Ce67Jpe0CLPdZB6T2qPFWFpDRjwZZCHVzXbrOQPiV2dGiAC0DHPSBL5pfww0SNtTBKjUH1T0oDXqKDz/XXT7Eykhgu736n5ftEiLIKeJAXVQD1MmBpUMZUzZROPuMoasyR92iH8/eSdF4N8U/vEvnbzkFoHpZPu6WX/TMxty09eKX5vs/M1CenZOqvlxaVv4Mcu5+sQFOOXLzynjRLa+hKGO3NLmPmNPoE6QQe7vjr2VAaTL0pg68FpQuedTRdB3ALK8erZK2D0ngC1zSTHymLwkvITPxWUsCZ51jCfV2YTJh9IdsCoHYkYqm6w14XH22d+MUrcaBHtC7HqY8UIg6N68juBZawtHEluEb04sgGZl5vKwuTXj6u5PGM1KYry4gfTeeyy02Og=

@@ -6,16 +6,5 @@ tags:
 - gratitude
 
 ---
-
-Theater boxes all done.  Had to do a one off after batching out 16 we realized
-that they needed 17.  It was fun to knock one out in one shot.  All the jugs
-were still setup pretty well to do it so it went pretty quick.  Id say just
-over an hour.
-
-![](https://dropper.waylonwalker.com/file/af7b072c-e40b-42fd-b243-8b09ba652a75.webp)
-
-> Full stack of boxes.
-
-![](https://dropper.waylonwalker.com/file/46bba5a4-d1e7-4d3c-b3ce-ff193d4e06ed.webp)
-
-> One stack in the corner clamps
+<!-- markata-encrypted-source:v1 key=default -->
+wS6xbL9L7AsAVy17gmqocgpgk0KeZ/8ulzVgdc3+mMJ92eRCWZo+cBtWuCfndsENUJMWZPut3iydIpSb2P4itt8ozf7TdJoVXNMwIe+Sn3KZCTAGWSHQbpQGnbo5HfMNvGh2AREThMbtDg45exjB5IKEkzMmoH3aVc+GYwXaO+1UrXAcMzSYPRT4lPQHn149alSfjJvMRmolzjP1PmLyp/652zAQ1leygNmGDfzQmSgY6BMZSS977B7pq5krZxU5RbifbAbmg6VCbnvUbLc/c4JUVo1nTzKOkcRdM8XcqJ6BIaUYhv8vpzf9Xt5jfmLbv0Qf/VN6JS4ZG6d4axfGe2jG7kW/03SK85D7/6w0SaGaVOEaI+51wk/IUgrPqip2HFVwD20VKgmG0zgjf7gUVbkDVRIPQzfjLyV2v02r3ELQPuPnipup3QN6MkTMxoEP9moZnlKAGy2dpaInywYBigAkewHu/2tL6stCRGeKWEi8JbokYGUGAJXtppQN/11Utpw97VP/BZCiXIFYVaChMqS18/gX7VcWQXInxqkzMRc2PySPVVF29ayNQT2nYSEcjdU1ofgCeNRAyiFQYvUFgC5Jgd+ROYNUJhxL7OOSEods2+eWaGH1KLG0XqLC3byvrSAg28QtTLVDTap5qhcum830fGm80Z4ghaufAYBe7EZ7AtdLhKUu+Cc=

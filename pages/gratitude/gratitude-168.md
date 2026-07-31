@@ -7,7 +7,5 @@ tags:
 title: Gratitude 168
 
 ---
-
-Making progress.  Today was a very productive day, brand new door
-handles on 3 doors,  and nearly got one of the new ceiling fans up.
-Maybe tonight we can continue and get a cabinet up.
+<!-- markata-encrypted-source:v1 key=default -->
+hLCbgHX+E7Hv2Z5PErKa1gllx8Q43IKAo98jjXUvcfuU3xbJqqJJiRaQDdgG4HolsSSdh3nWl7HM/hPwQTHy/2iq67FmjNQjK4QEL3ho3dgCVVI2sYSNpI7qrT5Sh1U+kg0JkGQV4ITeWpwIQrX7CR9nuhx8ZR2Gpyq9Y1YeHUDeNUS0rgIoXN7M97QMvqjHKDgIO20WPMDvoC9r/rOUAjRrC9a0zpLeQmc03Xf9m28zzERf1s6TICc5jzn6k4fWKtDaEFCuwngIaIkZObeb83HA34g73qS74FL6Qavg6nAhiNGJB0Oi

@@ -4,14 +4,5 @@ templateKey: gratitude
 title: Gratitude 204
 
 ---
-
-Today is the first day of summer, and the last day of work before a long
-Memorial day weekend.  Kid energy is high, I'm grateful for the weekend to
-start transitioning us into summer.  As hard as it is to have them so dependent
-on us, I am so grateful to be so involved in our kids's life.  We are learning
-to find the balance between needing a parent involved in everything and
-nothing.  I love playing with them and being involved in everything they do,
-but they do need to learn some independence and do some things on their own.
-During the school year they get used to having a parent playing with them for a
-large portion of their time at home.  I am so grateful that this is the case,
-but not feasible in summer.
+<!-- markata-encrypted-source:v1 key=default -->
+HUrAIvZl2s3D6YmZW7t2sz5y6aPVQuestZ7B2pmtIxaj7WGGKZnQo6pQ4zjxMz9xP8+79OpzDWbXykmZ92V+mP3YNyEShcDJxSeQT6oIKdw1INWGhrOI+har2K0XrquaryLrWqZqZbiGhI+DmrdPfrwqwxPH94wS+Nx+F9DCE58knds+A/GWn9lfUFp10I0rh/FJ7iV5Yl3m8bru8UwSV0LXsZYWRflLNuVNqEdtxQjCWhjTREM6KqOp/ot/AP/o6cxIXF0CkYsAyyd/2barFgiTVtom0IZxGIf2GlKXMfSQTrCSn1Ad8cnZF2oFWO6B/s4fDrX7ovIyx3Z6SsJjJQ5MrBjhCfAb/qQPGXlaauKmlx9LIOCcqVV4EJEDCGA5Nk0e31xxJ6xPUulHaofkYVRYsVSU8LveHsqQctEIhp7mtFn0U3zcQP7GB1vNPLGeRMWWhQsqJ0NiOf8Y+0MD9IElIWoRvS6hqbBiZbrmJmce1usgtxxcbV3luXIBqNBmTAPy4RK0hYJYVa3COgwLt3oUBv7dXIs1PL+3EwU5OIildSW9TETG9wprkSaqtwCNh4om/NzWFnbheaSZWQiK7gdtr4cUeuFtDpBJlhjw3HYf9+vNN35j5ZxevuTkeVyk/tpQypgRWqA3kZjslu8fUcPwG7R2kz5lVDlQbthWcg3rLoeyPWjE+0VlFBG/FzmkZZjuTKM2so98BSdbdYIJGDMUgiv2g+aOTUdFtcOUQtpbt5rKyxTDkJ8W+r5nI2M/r+VWVDs1Xh2ktsTxCXccux23lXZB7C7lpTvOoC7Psot5AeQo9qhSYotrpTtY0PozmsTg7AhIpOJsGOBNndEjYPbNd2m8FDsmUQ7NaqLci9zX3EbPcc0uqDSGBSsjsN3Pv1EfhF5mMTpDABy7wrB+l52yEpgbhhQLzgt4LRsmso6unTQKb7RJ1IHAUl1gFg8HtfL1QfvGtIVvKhvAn2due4JYNMZXJD7Ky9Up2X/2170tu2GHq/QIVtYJZoI=

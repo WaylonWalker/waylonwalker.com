@@ -7,9 +7,5 @@ tags:
 title: Gratitude 191
 
 ---
-
-Last night I took Dobby for his first bike run, and he absolutely loved it!  He
-was running alongside with a big smile the whole time.  We took it nice and
-easy our first time on the sidewalk, didn't go too fast and paid attention to
-not wrap any fire hydrants or anything.  I am ready to head out with him again,
-now is the time.
+<!-- markata-encrypted-source:v1 key=default -->
+Zc6grYdHMrAGEMP4eevb2iISpPoXnc+otnTXE7kKji62fTjOrrdNZ1ADK+Mer7r5a/yT+JJGFdlMRXfwUFPROToRgwwCJmsnMJ/r4Eyd6RWD43gIKo3qAmfBx9xT3awqDZr0bKSkHwXKBhrLJHLvcKVhPgWVya5rG8eUwckZUTTorZ1xWRkK7zhNhIf9qhoM17+JJN8xCBgO01qlRPhCW7omb9uw61BxVZ65erCH9KMCDxaJRHnneyliVVpQfBPknoDPO1yaMS6+uObdrhiJ+A/u3teqnVMIQqP5vkUPmUuujRReH+gX+3Xpf1LMthrZhbGNlbjA+G4rhMFnXPGEZokuwBv+VTkuPXZ6m9hPKI6iQ1PZApKnLsiPRFFIDD8cHZVzHzUI941TRAsv7xGZa6QXzZA98hdaGp5Si4CK2Gv9NVf+IY8cD0Iu8agbkcDSw/W8IKwGspuipwyUu056r/ixbdzCSoYU7WJXRCuZtSYgSx+axFlYIw==

@@ -7,10 +7,5 @@ tags:
 title: Gratitude 101
 
 ---
-
-Christmas has been a blast so far. Everyone has been just having so much fun,
-with almost no arguing or complaining.  There is so much gratitude shown for
-the things that we have recieved big or small, fun or utilitarian.  We are sad
-that we cannot go see our extended family, but its been really nice to have
-this focused time with just our close family bringing us together even
-stronger.
+<!-- markata-encrypted-source:v1 key=default -->
+AS05AFQRUbzt7Ldmc+lkDvj79IXW12SyKcmwc6oVtjZ2vCQ77pT08XS0XTvlShtrXhveArJ7PqiIAqAc6WwWXaMkonzfl81TGgMsq/eHliEhKpI1i1MF70cjAnc7i3mXvqhPTAsb9xWJrmASZhdCgkGR549cBfpuwyaqNWT5lKo9n2SkxPvNoPXwcLJYYJU6I9hd++zasqcjvNpk2XZhyr6JBr3aCf6zIzDhyl/JA+EmtQFluGzP0CNo2xLpM6293AcVQbpP77DUgm2xIsl/IujIlCglVj11/uFHUfknSlODAPqnqY7/s0Bvmqqo+UD0duxbDsekxOlnfFOTyYQUIy4hcVhVdZBevVvex/U2TwQKXe/2Tb0c7bU3wCBR1i3cnA9AwcPFLUiUHlqn0qnaVoHrd+1+N9SXspGVirsk2OEU7D6HwTcZb+KBEujbquTH7qVFljaxMW9Uif6b8eJbJ/UQeHmcqc11X3hp7Py23BmAUqTeS3fZ2P/km/sZfkBB8YeyUPa7A6sBPq8GGoxEclFUsfhl1lfnYPCMkO11PrkixF0+1aKdNBg1ifdgjV7saO2djQ==

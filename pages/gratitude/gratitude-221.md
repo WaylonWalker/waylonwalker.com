@@ -4,8 +4,5 @@ templateKey: gratitude
 title: Gratitude 221
 
 ---
-
-Today was super busy with a lot of the same as the rest of the week, and ending
-the day very late after set build.  I'm very grateful to get to go on a walk
-with Dobby around the neighborhood with Wyatt.  Nothing special but appreciate
-being able to do that today.
+<!-- markata-encrypted-source:v1 key=default -->
+/EDEzrJcea/lyhhI/xx8i74vPfoQrUCbNz+21ivX8xxjNGZJZTK5GQBrLnBuPhECpkkWb23fscJ8nuD2YbEtENGB0zHS3bsfir+6mcECWsPJN47APGwfbjnJEqg2qCIz3b4HJcs8hAmTXoon3/JTaUbx/bFDDiBpQOzu/STuRaSG8s0zuxNPwRIJy+OS/o2xatm31CZFDZsV+h/rXhSU+QhfxneJbaeJzty64O+RqlG5+x+Giv5fGlgNbW7i0QHo8V64eI7BiNtdQn5PExVnsexrUPG6PftZKu+NO5/42cx/BfE4NCPMo8D1mVF7v2oM46mSpkBb0HoQ4WGIlZ8Sd0z5yuoPMPitjMf8Y7tiaQlBHMiQLvJyBe4lr9J+fQO5S4DOsHwnztmqWPl5M8QLwT91fAFjbg==

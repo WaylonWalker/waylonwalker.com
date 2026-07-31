@@ -4,14 +4,5 @@ templateKey: gratitude
 title: Gratitude 205
 
 ---
-
-Today was DnD day for Wyatt, he is playing DnD at a local summer camp on
-Sundays for the next few weeks and is having a great time with it.  While he
-was there I walked around the park.  Its in the middle of a quite large park,
-almost big enough to get lost in if you are not paying attention.  I started
-following paved sidewalk trails, it quickly turned to covered sidewalks to
-trees over sidewalks to patched up busted sidewalks.  It was like slowly
-stepping into a long forgotten park, I could see other sections of sidewalk
-accross the creek pushed up and snapped.  Some bridges in emacualte condition,
-some completely gone.  I was a relaxing walk with nearly no more sound of the
-city, everything was calm and quiet.  I am very grateful for this moment.
+<!-- markata-encrypted-source:v1 key=default -->
+wEf8a66UKvt2mhCB1hbvNjJFUc4DEb9f+d2BgkPpF1nP4D7qDaRQ8xq32SBX85B6XHFbh+x0kfGhuGcY9uhgzfYreD8n6R+ppv8EsDofTIfgGNf4nFDyaIF33TcJUP9lC8BMaJWzuP/SZwQuRrinYCwZlJDGYS241ll6mIHAxFm5XgfulFPIrK8H83dqqFuaZTZGOST+1WO9xV9WyvFvumOSo98/BATNhiJADGXmqQeqPba44AQ4LqrsZfmFuiHHtjxFdNNivJzzOIgEkqjtnYOVMJcxtwtqs1h2AdOt/AqHMB/vw0JGvw9DRItw3oDibg+b+GdLCDAg8ag9N0vqI+Twr0KkVWsep7IuqTDpcJMbX4bj7/b4OPeLjQgWVzirdyEIUl/+CexbO2w9oc/ONk8WQZSfLBJEqbR0WF/yp6CZjCUJt0/HJkh9NoI2l72vD+RxPXUUeSY3ZJGfku6wLSTnCc1R3jDyUdblGI/25ASjn2qXh/nZ+v+MD2I7lRfilSCF2K5Fy1a6mJ2BAcg85cYoMVCY/osUolQc16a3ubb62/u72X+kmR1C+qti+cah/dp8BG8sAE6ATzLskeGicORhuFcz/u4prUK8uV2fGowYWmRrlPVqFqqeGhz8g9r6Iyk7bWJCdw4ZVUcA1wT7GSL6GcdI7y1oV/6MW2yP3N0r+70CS7IUg3xNUmaVRTqwRCP3duYcg+wyUuGOa/2/l88AwHK6hFZa4SUS0wDoftvGMWFklRfgCa3Hf+JP1jcXW6b1GS4CMA09kPrLqIyX10kB2kj0m0oKXfcVxWSPW9AnkBL6/jAbFZZrlPfxEaWzBz0OGNWlJWuJg9mowGkiuxI5ZfGXH0dl8uVRO2vReWhNR5kcMuti7HJqapDPoakBpCKO9Ff3FJwqJIe6/jnm7Zo/r4kKuPbE/y0AFF6135tiSKktkfRUiIJKGzmZSHRVhuFlClbiEMT5uqa1GJoT8fGqnp45oqi2TB6Xuq0z/9FaCXmY1SPuxPkDwofjAEEgEuYN+mXn5NBP17338MDm8txwt4PDhT0nHxwh7G6BQVU6idDJWQ==

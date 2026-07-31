@@ -4,15 +4,5 @@ templateKey: gratitude
 tags:
   - gratitude
 ---
-
-### My own Pace
-
-Last night Wyatt was up in the night and was often coming in to ask for things.
-This often calls for a rough day. On this day though, he crashed about 8:00
-and took a big nap. This gave me time to get up and out of bed At my own pace.
-I make my own coffee, listened to my own music, and was able to work one my own
-website! It is very relaxing to just do your own thing for a moment every once
-in awhile. Without my family life would be very boring. I am grateful for
-every one of them, but sometimes living at my own pace is very relaxing.
-
-> I totally guessed at this date
+<!-- markata-encrypted-source:v1 key=default -->
+y1sqRqr5fVNQ4kgEt+RZMfgNcSh52nm31GL8TzclA2ulS7+yGye0VvB4N48wWtJp4O0SwYVafeSqRZzvxpEJU2rVqgyfPCFJTHZWfhNB5FKFfYeAVV1RrAGfMiYUh8c0MkeBT7JUz4rOJCO3oqYtZe9ADaJkPk6vsdumqU3TdIFmmekLfBlVRd7mIzsHpkri0nn0/pT8oSvNsMl+R3AG+NOrCkaFIR/o/sXcuAOw70Y+vwxdJ6mQcdjQgo3paMoXI3dcsTtKhXwnffshRbXsGqfgUZn0zhAeaopRZvtVSEJJIC9DbiRAbRHZkWTafTic45EfB1awbVHYV8YXu0c139np6FONh6ZgDumKMK0ndTsn5i4reLSCd2LoQAU6Oq85zOhZL8VeOvtW4CH7S+uNwTWrNWDlZCYiQSj1stCwirZYSmkSK1gEJAT0h5wd9buULSF2oKXQZNcoCLuRmHoh+ib6m3AHtM9j4csrIoSaOQcb0+amcasJnnjK5c3cT+cbw1ZjiyK6CZZlbgl9YNBhtYBVOr2SOQhYfSfeWUdWJHMWYxDoVLBzKcLQ5QU+XsvgO6f9MWTHUZqyo21+y7Cfdz2Q55XagSLBK3O1N5AQtXFoetlvbcoc/4AHr/zHG8oR/g4rX9yHvPpk751Ymn6IYn51+907qo62OlvjA0kivSQoYwRMVCqEy1gr/gKC8aZzNUIfpUvzzRdugfZweYw3sksVuAUVEKFmeEvvmbGvvCxNhHTI18yZfyvHmGXvG5u92v2RF1uXOcmDLQWQRjbAHAoWdb090liMKKXQILaJfM3vmUA1HB+/RA9WAkzFl3O8vrmapGiHen+7GJqg4Q==

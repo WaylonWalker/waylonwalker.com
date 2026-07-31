@@ -7,21 +7,5 @@ tags:
 title: Gratitude 117
 
 ---
-
-What a DAY, the landlord reached out to us last minute asking if he
-could show the house we are renting to potential buyers tomorrow, giving
-us only one days notice!  It was a bit chaotic, a lot of emotions around
-letting someone in our house, especially while the biggest wave of COVID
-is in full force.
-
-I am so gratefult that we can do all the things that we need without
-much need of bringing anyone into our house.  I am so glad this house
-has been reliable for use and not needed much maintenance.  For the most
-part our groceries are delivered to us, or for a short period was
-gathered for us and we picked it up.
-
-It's just so nervewracking letting people in right now.  I am just
-asking for everyone to be ok.  Most people can handle this just fine,
-but Rhiannon's lungs are barely hanging in there with her current
-illness as is, there is no way she could get through without a least a
-rough hospital stay.
+<!-- markata-encrypted-source:v1 key=default -->
+Gbmc+pwgTBCgxqDGTPN+iu+TKEycG9/fbQMN7m6bF2LtdK4rfLHOXZ0fHEGs5GJaRRZvecjXjizWMcY0eSRAHWzzYumh40674uWJsGi/yTwvQ27sEwf4VLFUuhfEhE+YTI/9tqpwNlryKejQqp82qcxAjXN4huAsWrWlnLvjpZsprZpfhtk2YuauxwJVeYDBVVu7Jo/BueGl44E87f3w7l1ir1Tur5VfNucAEEVk2V0frJRSrTJfmYqnA/JpgCMvIb55Pe8E4526mP9J5Tuqk46YyMT78DnA2R2T2RHTnMMwVSMA4DZFXKWyRyecpgWKKzOU1rEFFyw1RLuRyatNV04l4eTk4bTrTvv/TqEMDXMDjYX/hkN03+f7FNaLXS6Uc2XygPxah11MrZ1Bz5WjE6thtN0lN3QxZZ/ni8KwD2pCjLArbKpJLlNr5E6yJfhKp7ETTvVmIiB3Uew/aLr428b+4/rZ62dLPxkPgfJ7uIcS2ycIuwTCmbqNFdWzAcxAKoSx7VY94WHMs/X+FcyVvUqu4vG48MqNvPuYzCf1yYLR+xWvjgc2qN1BN+DnZ51fbD2Euds6tBE8dwjjmsUbC57Gip6fa6ezxvyVvbkkK/JdAMY8x1/gjzTG/zZBGL6Oqz6MG7gtfprLn/WN7pZs0KPL8pxV7HUz6qfw8QKNXAESCntjlhPa5h1eadmfYoSS0zaR25EnY1j5MUf9Qbl11ap+Zr/WTJQuUvtcoCHSLWjpGLuB3TnoyKm45g/KD53K0EB7tzWmVzLAvcpGaNX/tCGDstFXOLkzK//R7j8BWT0+xfTkCl0YuPXHovOzVJKL+Z+NK89U3dj0uONJKfIoPpwGJwVFVh0j9pl9LhTozIIwEAi/+UsNMq1nZ6TrAjISMQpxeujOz12cxkNRevhDGc/BQLh5QqFDvQ2n2RGfTpUUyTy1HjfoVRwsiVMcs6MdQ7iX6/dfxkrqFOxfjFikTLBHCR3TVyNrHWsfebbquxJu4/P+KDSOV7yRVFzVQmQs98YGMbv4v07GwcW6r7T+CUumo//u12LJe+5SnSXR0hb28mXbnrPI0Cy8T42ot/ULsiJ/58sA2JAr5NuE5ofTsg0zX/CrHz/Oaln5Tnyow9YZ0rgr/zj7phAg770jdJd00Rdjd+Dl1MhZNLKMtes3bVRTayVnR8I8GI4Zf8HS89D7Ke5eRpnNiIASv3EpXgmak3xOwC4dmjQcMtoYTyRAqI6n2NCxMcvm633JpiqQ5lT6FGaDVUpWn3tJ+lzZ31lQCJA=

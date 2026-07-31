@@ -7,10 +7,5 @@ tags:
 title: Gratitude 152
 
 ---
-
-We bought out house today!!  This all happened so fast and has been such
-a mix of emotions all the way.  I am just so happy to be able to provide
-my family with a house they can love and cherish and grow up in.  We
-woke up today thinking that it was going to be at lease four more days
-as we were waiting on the irs, but due to some Mortgage company magic we
-were able to close today!
+<!-- markata-encrypted-source:v1 key=default -->
+nySG+OOQtKNF0uHXAZtCp665+6Zzqg0slxWjQY0PZcKg7mKyTdBNW+Q8bCBUV4tnmW+NM4bZNkJTdT8sugG/F6Ot3baEnzIoaOA1iJCNAiajdaeaJh1KbcRC5BLyYOs2lfBhFiqKfr+AYB5eTnhI5Zt03je+PB3bOL+E0k3ihTFH2i4JbDq9RdxCPHv9fHkBtJRBCodWmG6VROjaKM1XESLE1uAvzxXqmzGO9hD/D3IFzEMqc05M7VPGCmGzBbcrUoOzjRkW+0gGY+bFM3lE84pXxoap9wM2XXgs0A359sxVlG47d2e5G6SPQWbuMcfGEp2Ab448yfpfVzFqBCQksVhHGQ0qCbi6HJs+bdLZpCCyvZ0tOqxmS52CSbVT2NP/wkaZ37tSGeqgazlBtZtKeF7x/QdW2lhXreSGu8SEi0LlrEGXCbOcfodXosra3ZhMzF/tGK4jzzIctucisa6Gd6FwFxceG6hvLvz1puhtE72qwvWK2BNcqObrANWyQVCUUO/N4RJMvT138oKXTLm5Q2B1saEaORJLsZ7ecmKlVqmXRa1UMC6mfj92mgLnpA==

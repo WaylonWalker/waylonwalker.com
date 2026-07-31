@@ -11,6 +11,5 @@ image: https://dropper.waylonwalker.com/file/0d91910d-888c-425d-9e98-96ba7fc60f2
 description: Big trail ride with Wyatt April 2026, to replicate our overlook picture.
 
 ---
-
-![On the trail with Wyatt Apr 2026](https://dropper.waylonwalker.com/file/0d91910d-888c-425d-9e98-96ba7fc60f26.webp)
-Big trail ride with Wyatt April 2026, to replicate our overlook picture.
+<!-- markata-encrypted-source:v1 key=default -->
+763OGJO/tG2ZwLXMXtvMsjsKTFgtd8zqW9cYu6WDCkz9XPP9EfAs8nH6W+g9L/RNEF1WkJ5OkbvtvuAcTRBMcfX/qm9CqgJnT5YYaa3F3WVEfIuzC2PjjkXqTjr8fI5q9GCu7sa1w7jB002xn6eSk0Rjct78mPSbphMA+HK5A/GvQ9ZZwePyzDO4Jwre1jp37ketPRjX7Uh1zh/OAeLf3KSwuaL/gX5Jg04gfsLdUvjmH+MbuV5LOcVJIzbEi3Octm9W4biFwfLZEUel3RsNed5mvwjqezUmsxDof74TdRT9+nbzALzk7eNdPA==

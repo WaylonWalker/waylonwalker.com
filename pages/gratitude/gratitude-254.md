@@ -4,9 +4,5 @@ templateKey: gratitude
 title: Gratitude 254
 
 ---
-
-Big trip back to the homeland today to spend with the inlaws.  Grandma wanted a
-get together of all the cousins and great grandchildren.  It's a bit of a
-stretch, long day in the car both ways, but spending time with everyone was
-great.  Some we have not seen in a long time, new babies we have not met.
-Overall great trip, our kids had fun there and were happy to bond with family.
+<!-- markata-encrypted-source:v1 key=default -->
+7Fd9UQq8u7iPZEKNBaO7TCswpnVRxBBitsx+7C4c3EsQiHLuGdncvao2azdFenzphQqthJiDtxovWjz6G/5cKfRveNOoN47lQlx/MJ5HD8AXm4Wg60izNSzon8ruZPzxucSWmrlFAUdh+URzM0od3kj8bE93vAEZWZxOguWP/TF+tyl06q9EV92Vk0vGhxZNG/wlTSMji/JfX5vBBVgbxGP6Jo7lMghD/+Cu4zJXsP0VAKP15qB9uJ8xgCRz4cEXfSIM3q/c5CrkFZsUp7nYIayuObZKyaqWYQZJ2RvRT7qvf2b+hbMyftgWV1d1CX0Ne2mqW8EIhPJLA0zDmfFzH86ARf5TCfGv30t3ym2cEj6gOrbPbSdEt8lF95HAMwbjlwcV+LsiGOs8LY4x98dXtmQAqLIO3YalRCkiynX1FrYIBFiTiw+qAZJMQJDjI8pGAzEIbQDjNAZZlShTcIfmpRuie+o7HXjmfSeHIq7X9h0+3e+t3Gv+F3vtqMmPqir9J9cUfV0wtUu7sFlaYUGvhGqPMY2OwMe/sGb6ekN+o0WP9B/oGe5UjOEPtlc=

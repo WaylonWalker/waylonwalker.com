@@ -7,7 +7,5 @@ date: 2019-02-05
 templateKey: gratitude
 
 ---
-
-#### Learning Resources
-
-Recently I have been thinking about all of the resources that have been available for me to learn.  I am so grateful to have these at my disposal.  Learning how to improve myself, and increase my productivity in the long run is a  passion of mine.  I spend many days spinning my wheels with something, but I am always learning.  Even though those few hours were lost in the short term, in the long term I always come away having learned something.  These small wins each day cumulativly add up to something that gives me a lot of productivity in my daily work and allows me to succeed.
+<!-- markata-encrypted-source:v1 key=default -->
+mQIkqnCgaMg6P6lSqmawk//kXmDrNa8RdsUu7Pf2bqCqKevL+bsD5u7hrGHFXWcS5enPsLXfCb/flfUAIr4TQLXlyJQmai9++rtdIp2P4ivlRwKsc6ebarDmlvjvAYkCzL8jWawDuB4iI4VZNkgaiICWgYyDmegWfy7BULit7PhPOEjjIaPGaiLQ1XRzvzb3lp9y29UvlRnc7eY9MwZEJinkB3/ZOEHobVbkqo/XVgZApBBQ0uJlWhXG3DqYasVJZm//RaKN4f0/KpKJEDFCL/4xRImi1rLIsZwcNsz4ups7g47bdRpTL7YQYwrubDjzUdxapX8NCASMCunb8EDPqAZi/vmDTSzjg6Im2xJx9Zs0pf3c41r8Ho5BAPj7yk5Qb+rKlCYFWcZYFnIBuyZSa+C3Q8FHEvIPM5ehq2ufXKileJTbudj6SprmVyVGSwSvotOHrnVIKjRuhZ5XuXNzHM6Ao4+ldFYQOp9zaL3iiqpHV9MW6Sc4ahwtsV2/UNWcXggq9uaXgPUP5vH7rFUSWwokPT6nOaH29G4Zk7yqS6kdhhfu+67353WZbWha0QLAr6KxwAfP2DrL11ZAG3et8v4BpeueOT0Q2wE60QAVzCeM+baGXGOoG7EnUwaCv8QBxcrWOSmitmBy2Io/6alS4W8zQJyiGQ2IApMBPCJd1iB5oTzG6p2L9K1BTv2mK9Ak+eJurmjVTjkqf3yLoqOhOG3AtW++A/mniblgmBrjZlGi0vHW12xZumShvsxYesuguO9uC+h19RCUzrhXalxcUudHIXdOn+ejp7t8WGtAcbUoe7HVKlt9LHUyxBCfl+/EnxmD45GTu04mSLQGqWc0RlJzkb3OJW67bxp/DKMPJYY=

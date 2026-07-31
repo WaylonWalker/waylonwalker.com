@@ -11,7 +11,5 @@ image: https://dropper.waylonwalker.com/api/file/283b3612-3e58-4367-97a3-a75f18d
 description: Waylon is happily holding Dobby on his first day home, Dobbies eyes look a bit nervous.
 
 ---
-
-![Waylon with Dobby on his first day home](https://dropper.waylonwalker.com/api/file/283b3612-3e58-4367-97a3-a75f18d56acf.png)
-
-> Waylon is happily holding Dobby on his first day home, Dobbies eyes look a bit nervous.
+<!-- markata-encrypted-source:v1 key=default -->
+0yUjOKPjlZeIas9vpbrry5UO6jGxOQ+BNkS02IVrKztv55jf4os2fjGJouV74VvFKuNkre/MlSoeBhcIZ3PmfeHS2XQBoabzRGwp+FjupWaoenYBBWeZJYrN5QFNvd4d7bIFAAEidVXx//SSAwgUMax8mM16J11nXyGyJIx+NLeMRJ6MdeRIF+MNBrc0DNilsNLUqX0YixXiqqPlhvTai/8FnDZqrMNNNBZjkKnnt2uIy/op7mp5DXJoR8toGlgxlU1AJuLB0XXCXbz2OaJkWLUOAaQ2SWDNePdrqq8hpa23E3PgNuKjAFKcMC6wkRCIspPK76u4qqR6V1Pt4SZuUpuDBdXeWV8=

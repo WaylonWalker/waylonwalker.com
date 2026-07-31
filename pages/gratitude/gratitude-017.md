@@ -7,18 +7,5 @@ date: 2018-01-01
 templateKey: gratitude
 
 ---
-
-#### Breaks
-
-Breaks are a good time for refresh and focus on some other things.  During this
-holiday break I have been able to spend quite a bit of time with my beautiful
-wife Rhiannon.  I have really enjoyed helping her setup her new adventure
-cuttinscrap.com.  It will be a nice creative outlet for her
-to combine her love of sewing and crafting with her love of speech and writing.
-I am really excited to see her get going.
-
-We have also spent some time at nights playing games and watching YouTube.  Its
-really nice to not have to worry about anything work related and focus on the
-family.  The extra time has helped strengthen our marriage and allow us to
-discuss some things that have been on our minds for awhile.  Now its time to
-start 2018 Fresh and Strong.
+<!-- markata-encrypted-source:v1 key=default -->
+7gj+oov9dBSQJY+KGRn2m33gRICRmlFbTS8fVxZtppaAv36BtM62jTEyg+Y7W8x4MsdPEI9jVR6cefgwJAS99vCj37zEUmyzDA7VRwlSYo3M/UXoqjEosl+ASpOcX1Tdhs8nVtek9YotCpDP9THJZgeZXbmYE1a6SPceAETqXZiSAp11VbfLT+MB6D5IIhSf+K79ASyWmUl2wuNq8njBoqXFmK8CA1p1gwh3GvebxS7qjEHrjT1qKaJ3Exk7zFFUXb9PKeRxcehiphsOfIq7dd5Pt2p2aEiNm5HcUbZcw18vumJq2PiuIIViBR/sSPXD7l9lfIV7mwGwqL2R/vVJTabl1s8CQ28supr7s+dF1Tn+xzXaLMzPx4t7MOx6ECgJ+OPPjfsPl9pyp8OKgCKDjFIuazbGoU07F+gfSrqj6Z8h8tPfimRxxhmScZ/LKSkGufP/EbtgCQcdIurMWmV/lrciHU+pGSckqG6kc+fRlMYvSGXh3psxIfjs1SBI/ggttzOqgZ3vHEyV/D3/liViG7oox8SdV43idut04zJp5VzwALvwhZCknntldMXGROZpxp8iz0STI1B4bAXsbFqD5Q7y20tjtuGAhjMTmLBQDPDAqvQy06PcDS3KCzYtL38Oqmwdoc1q/Y3naun1fZskPX6JhgcbdveC08ppzuJUELH5B1CwoBpf9fzxyA3Qjo8qQhx73CYyxZn92xxlLPCyRQucvm78msXIm9Bg8qGZA2LnUpOvpRNRqFucoePjULjOvYr5HpmnWxgumxKtiFwvfsGwfPmWb/UP6BpbRqnN1v7IcrIiUdRcBalcXUeysGTYoc9ZA8k3hPPxJwCTpo/7Yrq4e8vy1DVkI5uPMLA4hOJlzsBfnEl0f/uUog/8Tj73QGym0YnJScdtLHsreZ6szWjlExHZ1O0b+q3oJbek3seue6oAuW7sIZCqkxmYLs6nesbM3sA3s3KQcfp6x6KJhe4vm4h3CMKBJ4OIwxY1lbGDSdw1FKU5CsbiAg6F4bQRcSjV2j2x31GcImvrMRVBxmJq+bjzKZeXCJc9QTz1kj2r2+ox7v+Jc1P4hlI=

@@ -6,6 +6,5 @@ tags:
 - gratitude
 
 ---
-Today Rhiannon is doing a newborn photoshoot, I am so excited to see her results and to see her flourish in her craft.  She is so good at what she does, and does not get enough opportunity to let it really shine.  She is going to get some truly fantastic results and give these new parents photos they can cherish forever.
-
-Her birthday is coming up and I'm really excited to get to spend the full day with her uninterrupted.  I've been thinking about it a lot.  We don't have a ton planned out, just a nice day together.
+<!-- markata-encrypted-source:v1 key=default -->
+BFJDWs1mQvLPvQ7FA3VUvk4Oa71SxjJcN9GrDN4GKVJ5gVYwLTNe0EibVDZ1FqiHVhfHNNvZYQ+HJdkfj36K++8sTigMsbpuZqY+LxQqeTq5To64x0QauXWUToaP/svIA5c07HILt7hNi0BSazdAgFNktfbstyDw+I03P3AqZfcF8eLtzQtKPgc9N3VUcqTjVIrBVD01tZxKPuCcPRZYol8skUzEvfrzCHYos/XUv4eNkjrUh9G3v7GgWrKmAEleKf4WTzWVyJ7h9tVQtUWtS5awyeeS+qxq5GnwcQ04cdOUVS/L2+6SaRjaSIKn6eMtyJOVqRgRQxwkHl5Fo2bJAR/tUnlnUn3DdUalLLmHgvtgYQlD84tJzmZ8YWgn4YFI5kwuE+KQvrUiD6cEdFT4wOk9D0wYPwFxgBDmVPgQBJpWNxYpuVtF0JJw0UqhyCM+uFlrnAs43Xoh8ah2aN+b+bwrp9aPNajLOxOG1oCcbtnYS8ogbakb7e93XXJihz2W+xqO1R5w3vqcIVooh2slpjvJ0RYXAfyrCsh07gmDjvLDVDywPaaPU7Bd+REOb9NyqCiAyUfx0GiaDeZg0YsJgjkvIslN5j65NDNWvgNlXHhbkLaUYBSmb1e8Y5Eramgx43LxwkMdWwNniUEHfJ0SUcbofJRgJrES8kUSXmTdTij78TBnEw6Vyof4EOoEc32p1ByZ3cgL07kLymJSY5tCQxfei3lpTKkd/2kaMop+UJpPpGYw7w==

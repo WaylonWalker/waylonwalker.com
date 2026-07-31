@@ -7,20 +7,5 @@ tags:
 title: Gratitude 184
 
 ---
-
-
-Today was mothers day, and it was one of the most chill mother's day we have
-ever had.  We, maybe I should say I, did not go so wild with things.  Mom got
-some handmade artwork, and easy afternoon, and a mothers day theme sidewalk
-chaulk art.
-
-At the end of the day we went to Hy Vee, and dang am I impressed with how well
-Wyatt did.  Both did very well till the end, where Ayla really lost it when she
-saw things that she thought that she really needed, but didn't.  It's so hard
-when you have not been in a store for so long to get so see real things for
-sale.
-
-Anyways, Wyatt was fantastic.  I pushed mom in the wheel chair and he took the
-cart.  He very calmly and maturely pushed the cart through the entire store,
-and even filled it with all the things we needed, and nothing more.  Not once
-did we have to remind him that we were there just for groceries.
+<!-- markata-encrypted-source:v1 key=default -->
+yD8VcOM5mVKpVopak0M+SnM2d1jp8xYORWEKsL0DQS4l9G6rBnBvV5VVnUOHqCCp4V8pSzFlddfeFrWM5n4X6UlpMGkQIZbUnaGyOZHQNF4kMP3Zzk9fyIWegeT+9LDZo3NW0Kh+d+m8awI4NzuFZ1kI1IfAVSQ8jLlMLdpjP3mu4BBNZ0/XTL/qUxfcCc+RNHFge1qSZDZZsfn8WnggMNTw7RKtRbScx1JellOgHkZpV0JzxsXAwVxnlvmvyJm1W9I7UzNefYNvKSEGa5/pJYH6BNu9M+iCC2VtpNOjVpdhSODpiqB+FfHiDJ3QG0ssCoH0ZyNImpOz3ZTzPnqIyN4Rr4JbDgrp0Toh5pNXp2GCU8mPCuoOwak8PGTRnWst4Y6dj/NaK2ciyvTKH9s4DGkYye5oQ9u+vfYp9S0KO87qiBrDvAMWaYjcQ4Xv8EyO4MRMHXDU4FzcxL1BBiLz9o4Ted+x3s1hY5O/A+D7fPETRiucLFmwJWUzp2uvIUOCkqhRYjPc4WIDid6fh1cwJDro9QdBZDs4+aRbP1xukxEov2pmC3iAxQBsdXp7cCq8Vai+Sx0Of7c1lX9Y9wCHB/YiBBpHFs9eFhlyjKHTciBAlNNNBPSGmCwfEIjhdFhrBQSeEu9hAA/Oqn5g5vovwns7U9NMK/ySsOf0jJ+XsUm30iNqg1A7v8nr9SN987fzgkXoe97YEG/rpRQLi6W5NhyNnxesf17fhe1LnqEXveuv/DK9IPE78Ml1m6V7yFJd/337ku1Uf+kVjjij38g9lJ6U1bv2Bs+49Fqal7crg3vCpoeTJ1mphtzymtVXZlAOKipN5lwKlhN/9n+7bxquEFdvihbf6CEpMTy+B2ZB1D2iXgPoRWYCHaYRaK3nlwaw39NmXJzYgY5gdHeWzulYhhzH9eAn629DfL1EPUTksTOXtzZmUfa4wlZ888xfApwqe7YRxqbuM8LNARXAKfII/wdoONLgKAvHi91DYQRGNQIa8mXjw6P0SFzUMasfByIddc1aFV3FsrB1cOtD726RSXcR/2H7L4pWQKrFQiWflYw9aGKrwPBKwv6gHl0DcDbeVe3wJhR/u9gds8hKdGMn5hphkA8EVILDtzRejG4hU+LSIfsa51ILFQIrS5pt/7wLRE9DcqFEt3dc3I14aKo/8VUW5JY1vZfbhPLV/pMLod812n9JPlR1qoxAKdv7

@@ -7,7 +7,5 @@ date: 2019-01-21
 templateKey: gratitude
 
 ---
-
-#### Team Work
-
-The Boxes are slowly disappearing, the laundry pile is creeping down to the final pieces.  We are nearing the final stages of the move thanks to some great teamwork.  We have been working though the day and late into the night, consistently putting the hours in.   Each day we creep closer to our final goal that seemed like it would never come.   Our  things are slowly finding their way to their home, placed with care  and precision.  Getting all of our things that we love brings us joy.  Some of these things were not seen since the last move.  I cannot wait to see the day's progress.
+<!-- markata-encrypted-source:v1 key=default -->
+2G69CkURppz/eKRMZNikYNXJt1LvZpWtb10J3kVcZE6BYOPPygH2hF/OxJPrl7zqR98bR9QWR0NfFqgJW44cvawtWx7tidLaNuAF0peG2nMfV8r7mFAgAnjV8ZHZ57aLEMWr+hpa2Nf+Iqql6u4vlD9yJzAXT1jUF9WXu1n9CDN6/XxqgVLq1iCew7qAvomPY5DxftvIE4QCrhp/xfxaHauGnZDHr3jLKilyFSDHqgs6PdV8GhGr0fUBckcgVdcAQrZ+ZaRx/sYuEOWbeXelZA2TKnk1dypq7cOl9rARz9C2C29pnSXhfKo4ZVTOvrPGBmYzE1vrca1YTrMBRPYE7p6mTFgPmksbLAVIoMP5aFgYBOVNxW0jI1tOmL4Ke+Raqorh1HV6Xmg5Njee622LbtntMxbutHFFKHpbnFJKHmAioTSytgjNvpO7pDGcOloXE5Vv+FTy9Owv5ds+nJn9P1+wiieEkfU4hJIr25acEQoJJ1hRbBiQMj6G1j7YCp/QndS4NN15FjXSYQIgbTj2h2CZNDwPlARUffkd1CEH335cbhG5vMYUdIvFvLez2C3fnhefvJLj863YilI+kmWMo3Tg7iFy+teMzr+HSxyAX8xg1U61XZz4/Iz3aotjtSFhPx0ggP2Cj5f0eQmRFGbTo6vVJR1TYqukkJ25eMRXmhQTUyIwX/IOKCQDyzYWqoNagHBrlUjP0SKOe/G36bPSKR6HoOrymWWrYVjZFcLEtSvYFLY2qa87Vk1zaCPfiQPrquUlfMG81h2G/YLgsgXE6s8ec9XPEdybI5joIzHoOz9eLd6LSP9oBagg/rp4veAP9xPFetokCaD9nY94XXHvHvkTNxF6dY6aJQRuSw==

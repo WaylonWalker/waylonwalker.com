@@ -6,5 +6,5 @@ tags:
 - gratitude
 
 ---
-
-Today was a busy distraction filled day.  Lots of medical stuff, trying to write up some docs, but lack of motivation, inspiration and distractions for the best of me.  Happy that not all days go this way, there's always going to be ups and downs that's ok.  I'm happy everything was rock solid today despite the cloudflare outage that we dodged.  I'm happy to have good momentum that feels like some real progress is still happening despite having an off day.
+<!-- markata-encrypted-source:v1 key=default -->
+fDhfYonXBKUAXVgfUFrsy+kJ7EVfd0Hmls27cz2TR3FGdNevWToDhm2nO6zu7p7uqX93/5POIowj3m6abr02+JvU/ZQapor111HA9reucFiSXyW1a4dCn6/gMgaYuqjUU/oM2Mt0ApBJGQxQYQ2LD+Ocx/RfD9k7Ow87/ybvlA4ccUle6FKEuJkwkcgv3SjM4ApkePonKlr7AqsQQxKQca4iuAL9Tvf+BaSb+X9X7GcMwmM6mWgdTI6VONDZ/ScGCS2yaQa2DcDxFoolqN0sotZ8GGhfhlWQISIygzzMo+j2WT3BoKPwef3qqDgq8qI02yagoRkdj9ZtRgVY/55kZrcwNksBQX6NxXVAhYOtkxBVnLonUzWcavaOdaTO3GQ7PgDtoqoqKwuKMSBCvNew9dmD0TEPx/RkvezsLoKGMZLL0MetvatFLIoDm/16vG36GSMYYl/YmAw/7JCztoSEuypqV0R7DUrAmrqeRFAoNaWgQCv2liImqnWZ8EhcEBabsKbPgUb8VOJkXFaYYKdjz9iPimzkb9f9nJUSsxSQRWCFMZv0QPTFAfS54g9uvIGrQpPgMlsX1aRgWJhNQyVczCmnPvXsrTQ0pktuZvVGRW9Vt3sdeUFVzDj4kVBUGm/6diBZsNhZjiA/o8kQ5Pfhu/U7If0c1rcvspQ=

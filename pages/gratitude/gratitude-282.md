@@ -5,12 +5,5 @@ published: true
 tags:
   - gratitude
 ---
-Tonight was the fall showcase for Ayla, a culmination of her work from this
-falls acting and singing classes.  It was amazing to see how well she is doing.
-She loves it.  She really practiced hard and knew her stuff.  She was in step,
-in line, didn't miss a beat.
-
-It's always heartwarming to see Rhiannon's name on the handouts for set build.
-I wasn't on there this time as I was with Wyatt during all the builds this time
-around.  It's great to see that through everything we go through Ayla still has
-a solid support group for her activities.
+<!-- markata-encrypted-source:v1 key=default -->
+ta3d/YEQhtCwtO0AtHtcIQTluR8RFqoTKeWXGdGbe7zOmNMU9i4jMmJbv8FNFJUdvx1W2fl4ZG6PcgKUGO1ri3Eu03f+bbh/zc6eeGYhwEaqtdl7mXnaVZ80iaKNMJIIwG0jJbeVso43b7eAVJBAKcYHXPCGdun1z/f/NZL/r9ZvHAdFgbX4U+3bnB8VjORhlz81UeJuxMyb85kCPaN/rbVHb4bgmqDMAqMcsfHWTixPuHrJ+5OZf55ESV+ZHeGiBYJOc/5msgZXSAhFVzORFvsX2UxMnDHPK9gYuf4kg2jBIU01JVmyHC2js6NjWbslpD70PbgoFYgXR0vnpvJR7AEeDMgDzv+RcD9mUvrKVOHUGMkemlBborG/Trt4yBt059FmCTccTIzdS2lZZadQRxb5xVF0pHSLkyY+Jrvt2FzGERyLyujTvJaXpbxkSn8T1SWtQj4uNh5WowWma6cDE/VnwikWTzXw+22xt43vVGbBKrPOCi0T31xUvHHbId3qaEL1HYzYRhDwLG5iREBBp3I/vJOtNtIeAsFORRLQtH2rhsBLf9MPYijVv9Fm+LDfHUPr4m3QN7ZhjGLvlghLIDbcPYLlYu9/rPbhNOMVxHSJm5rjgVcGTLjHoXnaq1ojy4/5zwI2BNtkuAGaiThkOZq7OZDHmodi8G3zB61ltGnWXh24c0KXY20KLweQQc1hEtEquTDQlB4mI0BiH9+u+8raFK6M774rim8l1GU70Lrmpfz7ZclqxTurykPhB3xdujr7JKVgaAlDg7EaDcE=

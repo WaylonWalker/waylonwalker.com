@@ -7,34 +7,5 @@ tags:
 title: Gratitude 148
 
 ---
-
-It's been a few weeks since I have talked to Mom, It kinda hurts.  I
-really don't know what to do.  This stupid pandemic is to dang politcal
-for it's own good.  I for once am standing strong beside my wife and am
-supporting her the best I can.  Her doctors have told her that there is
-no way her body could survive getting COVID-19 so it is really hard for
-me to understand anyone who chooses to go unvaccinated.
-
-Ok so I can kinda get it wtih the vegan hipsters that don't take any
-modern medication and use yoga to cure their pneumonia.  Not getting the
-vaccine aligns right in with their core values.  But those who are
-slinging fried food, steak, burgers, and beer on a regular basis.  I
-really cannot fathom a "my body, my choice" argument.  It just does not
-compute with me.  We live in a society that depends on each other.  As
-much as some people would like to think they can survive in the woods,
-the fact is they don't.  They live in a society built on groups of
-people working together.  The fact that this thing is still going on is
-rediculous.  The fact that DEATH RATES, not just cases is higher than
-when it started, with the unvaccinated getting taken down 20x more is
-just insane to me.
-
-What really hurts is that there are people like Rhiannon dying during
-the large spikes because they cannot get the care they need.  Hospitals
-are overwhelmed with unvaccinated, who had a choice in the matter.
-Rhiannon is living with an uncurable cancer, she has absolutely no
-choice in the matter when her body decides it's going to shut down and
-need an ICU bed.
-
-It's really just hard to imagine that anyone we thought was close to us
-really give two fucks about her at the end of the day if they are not
-doing their part.
+<!-- markata-encrypted-source:v1 key=default -->
+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

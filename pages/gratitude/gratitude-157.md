@@ -7,9 +7,5 @@ tags:
 title: Gratitude 157
 
 ---
-
-Another busy one today!  Lot's of people in and out of the house to get
-all of our services up and running.  I think we are gettting settled in
-pretty well.  Tomorrow we will be able to access our basement, and have
-nothing scheduled, so we will be able to just do the things that we
-need/want to do without needing to be somewhere else.
+<!-- markata-encrypted-source:v1 key=default -->
+KIzuKfu/ql1WAA3V6SBo0/Wk6LnyULlstnbQbosCflsRiiCTx06DjTyaN20u60E/sFPDceBM6Lzb+2w9desCL7r2LAZVpRGkBy8nb1lUHTXiDJWSkWyDoR6X0tHL5RCn4B3ccDx+5waDynnQn8ybELnfPi7qSwvfS13f8OjqBeoDAlzEQmmqzOJ4EHisTpUKq2jFUhKKRWW3vEVoWvi3kACJ2y5Nep9v8+6BSS6UA6F0VKepJh63D5NXl2pgNPBb6jVA3aferwu2XnjPewBTPnXYqbdR50JvY1+0owR21lc3JmqWzfhUBZLxZE/Nnl3HVtGJkOyBiU6vmWewQ0Qex/y5+K/g9Q63NTD2BvAPLvpzy5vkKaUOa2YZE69MdkHyD+PwnWQqEwiRkniR0q3PWVAORMUSmHKluPe98xteBMI6GKnobKBlCjHGdxHNXKCgXImwHRSXcZQwS4uwuSVUeIQSV0iKp49qUBqmr1tv1LvglREJ/2b2IaX+5U51KPA=

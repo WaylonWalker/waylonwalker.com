@@ -7,13 +7,5 @@ tags:
 title: Gratitude 120
 
 ---
-
-Holy nother day! This process is moving so fast, this morning we stepped
-into the house that we have been looking for.  It's honestly one that
-has came up several times in our searches over the past while and we
-keep saying we really like it, but its only for sale.  Now we are trying
-to buy it!!  We already have our offer drafted and submitted.  We got a
-lot of paperwork to sift through, and some big decisions to think about.
-I am so grateful that this one came up and just looks so perfect for us.
-It's outside of Peoria a little ways and in a much less competitive
-market.
+<!-- markata-encrypted-source:v1 key=default -->
+JQKAhZVPAjWwFhkoqFhYbi8/UBS7J8+GCuymiwhKSiwSbM28OPpe/+x3pj4damV8Cm1/xjfldX92dMaGsIeHSzy3l4UD9HjPI3H9PlxifqTvtujJbA7f5hPwqCxObONKA3+BqJZn16xhfQROy5uj038IISu+sVo3NwxHd0KbhlfQ0rfcE5wBfY3GNVYzFvSAb3SYSib64bEsBGBO7BZ8IEAmsrRS44/CYlZYmux/4sDWBPNKiskhV0nY4EHpifpjJ3lanYf5EtzxJG7zeYcBUjvlPBZ3ivsb8I+Q8CuujpwgocGKKIyPSUgp/s16QaEn7wiGZezUMyv180Fr0o+UD93CaMLGiI33NjBm+wN1nbFiyCXuhQkLoXuyxqTFzdoc8thyQcTjenZqE667z84s9s/eVdKm91V2xLc2pPaEotTGHGBPEDWcWU54splZqrlMfpVu5k9W2CEZODOylf8WMHPYP1qrZIyI19Uax/FDF1Lh294Npuihr+HRWgjT6ISkWyQv5V77bUOYHhXF/KNTuePvEl2Z97600rvnmyYT6F+B+fcfQWi30k8NcWJ+wEE+onij2JE2BwppKSFrlyIpuRTmt6adx6ENbJ8fWAW7koE+6eALHjPCqgeE7j8aG66C636ux5He9hK0W5T2jBS7arbCzpdr1kk1R7KH/VreYNYczVG+sxtHo0rRNce9exkHgoo6wCT+/0Q2VTgiMae2IcSYm0dUjE8ta0vME0AnQaA06BEe6RZiAMz3ZrIDGkLNCcIfz6dW6wsIe4doLgrlc5VhU/ta3kwHlxnJvQuY6jstOiAKeeeiKVqkrcDfTUjz

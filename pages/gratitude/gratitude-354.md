@@ -6,4 +6,5 @@ tags:
 - gratitude
 
 ---
-Today is a bit of a break day, every day this week has big things going on, but Not Today.  Today I basque in the glory of no extra trips, carpools, or anything.  Just doing my best self.  That's it, that's all.
+<!-- markata-encrypted-source:v1 key=default -->
+4GuwD8Sx9uksz6o59LLWM9ztsd7K7AH8vWp3QyK0h5TP8J3vmDkKHI6/LoyH5GQqk9LUmpUy3ZNArCzoUIGs6h1h7+GizJW/PLkLkzA3EhK6CVcLqWkyOy0fdfemTWMq2MWWxGQ7lQEBrpcP02WQD1x+Kj33bOGBtyeo2QSqeI0Z/xLyBWmdkqKULWrix67Eu0LvEbxphDWO2qvCB1LYrf02298IFNbr/qHoHYLiTLu9wneNfnggfQn4IR7NNsNhdaWmAywp9H22HCsgGYVBXCEw+xNsUss0O/TnuuMgSNHqVeojV1y44SFIdVd8VEBQdnbWTxXFtzin10gaYfv6

@@ -6,9 +6,5 @@ tags:
 - gratitude
 
 ---
-Opening night!!  The show is going so well Ayla is killing it doing her part. Everything looks so good and the show is turning out great.  Set is holding together, looking good, costumes are phenomenal.
-
-![8f4e2892-ba52-4d8b-bf02-dfa5f010e370.webp](https://dropper.wayl.one/file/8f4e2892-ba52-4d8b-bf02-dfa5f010e370.webp)
-Ayla front and center ready to strike 
-
-My favorite part of listening to their practice was Aylas confidence.  They were singing parts as the whole cast and you could easily pick her out of the crowd with no one mic'd up.
+<!-- markata-encrypted-source:v1 key=default -->
+26l4SRYNeBQ0GKJObMBPMXVJrOAe+AcvfFO4LVZFnjvmE08WrQo5228kxPm8AThxR/xO9SSiCGqbOEnwahINbV7et2X+yU1ZE5IgfG7FN2w7k9YovkQ9o7cqoVVsgnpQYt6LsbExRH/X2TFw/5A7TsZ+qiKarlKsjCpZFnd/3DqhJp79018Sh784gZdCqSv1JklNITOgtxlv7/BdegqXEluQ04HcVyVmMsnPYlUzgZU6Z6316Zk/ddvvffHNd7CtFZSwbyYaqXdLo88oyTMh8Gs0pFpG2f56lkooqVyMMlBHAJfiKToggmVcDkRtIdA5dTUGVlZ7suVIaTUUN5bBXUI0arw26kesFb++GEwgAMGCeQgWBVccRcBz6TVvQ2j1VHg0JgGMQd4WD4IC8NXcEsEURt7MKSg204Q7nNLyyOE33NxgeTA7sL3SRNK7UICKWjcBScgsnD1AckbH4givfNUn13vG3fZHWdKYLRe1RZWQUrgOdgi47l+XGtIYTROoeioDWiA6ATrgoA4eZNfC6IHrtuqgRq2769lGZvuX3y9yzp+L4xSerR3itP8j9p/+qqE6uDw9jK7mcqw2ccxSyIfDpJwFPgRQzHYhHcUcAZ2P/AAKvnM+YiLvuwWqIjmUpC07bOxRzfa5osdVcN1AeUzfjkPBO1h8jEaqTjvEZcQMxfjNv40KkJIlYkI+qCuGNEmaym3mJd5MJ4+abllYSBNt/K+7hCTJhb+6t4ri+zZCpDtgU3P7pyZ+30J/QSIUCD38LjcJrun4vvg=

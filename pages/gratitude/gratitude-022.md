@@ -7,12 +7,5 @@ date: 2018-01-08
 templateKey: gratitude
 
 ---
-
-
-#### Kid Time
-
-Sometimes you just need some time to be a kid.  Today was that day... it was a snow day.  During which the kids were very generous at letting me work, but we were also able to have some quality moments.  First of which happened at lunch.  Wyatt decided that we were having pancakes, and the kids would help make them.   I was really impressed at their cooperation.  They did really well at taking turns putting ingredients into the batter, and stirring.
-
-> I was really impressed at their cooperation.
-
-The second bit of kid time came late in the afternoon after the kids had a nap.  We went outside to go sledding.  They were both a bit crabby to get clothes on, but cheered up once we got outside.  We all had a blast, Even Ayla who has had a terrible fear of the snow this year.  She just stood in it for the longest time before warming up to it.  Eventually she braved up enough, aka was forced on to the sled with daddy.  She loved it! She was absolutely smiling ear to ear when we hit the bottom.  From there on the kids took turns riding down with daddy for the next 2 hrs!
+<!-- markata-encrypted-source:v1 key=default -->
+iQzAVGCzdsurpn+wmtgiKaGyrxsEcdForMz3DGVD8i7cZ+jzn792S03V6FHhapA12RlEclbWJ5qw0SbzahCigFTNjM7s5QY7/S3/5ow2boRl7bIWSWr7wVZuD7ytozwvUSpndBTz5UAhsjM7IsFcAs+CtjpmumLsxFacohbOgANGnE9Bw/lww3B2S42LBXEstTTyY1jtHyRBpelp/PeieDIxtHGFBjhuznzDyycRVGGNd1g1EtObr2Vj/qfGVsxt4wuNNqDN8d9bgzLr/9G7jKMkegwIayg9yky/aEnLM7ao/7zJyGxWStg+ir7a2tJrG7TYpQeCT8TQgUFgWKYTaC7FcMWT8DI+wXK/joJZi39htimAMIOcSiRreiQ9C445GfKea24uDXnE3RhoexPgi3PKH9F7XUcWXdlajXim7bGiUfIaPMaQeZNR4lIhp8SmRT8Vdb8Ium48jlajSqQw4+gDVC9nFQy9ELwEfcMK+8nV//pna7dnb8lo05RfiH6mTARJ9lixbOFoBLPSBsj0ZbcO93gt7KMpo8+eAvPWCYLHQI4wNAG30y1nsqWLc6iO1nFEEE8MlRmsZsW5pUdqs2heyy44qLrVjmBWo0XWdXuJwRteDElypJhOguzvfeXMQrdNpr43SPwx5f2MuFYKhjPROWtq6uauYS9zdX1EcUv1/2qHTqY+hnIx3rAhaOjg6suH5mjG9JVtpcJ5YHC6kznUc1TQLEsls5+Mvsb9jCDRMG/PUYBLt5/dDrwJ4bgJzjwOVgL7vj4RjAalKgRemaOkl+XRoSX95vFhSimPPtntPtkJtyISPAIfEE70Y/erQqKe/BHyi1m60P1xPrh572WFmcpATzdXDsrGBP9P8CVfDncwZ65iov5+5n20t9/Gyg+JAeQ3pLE9FQU0FkElgMvqyn8x3RpuPzLVMXOzPMu7PgaksI6zREzyr1DClZbnHOQxtsve03AT2iCVoptGTOlGkuBHfyuW8GL+uPgliexuaWDU6JTIzR0FtAh1bb8oFO8nGHBze4ac0IFAs1zFRKJwUcvI+VKBAj1hYAmEjfMOTxHBt1qES4g3gKN5V2v/cTxe9oWPtfXHOz8cgwm9/KFynhFph0/aM8v4QjtkWAL04UZX2LkqKmMn+5XsPlFKiLrgDaffKouhazsUnZEO0E5vOBiMGZ1HQhPwRIBlAG5otQpcwuxhTD7iSQgHyhF32AqK3dG1WMTI0CzjBa5J0Km/9ysPYGI7djkhIVPdcKjWKJQuPPov9Ih3lLGHM1T7yV0ozyMNaVPX9WCpjW0SjmjkvwKw8ZA8vfHi9E6rv7eUbyx4g3Ej818FBw9pbmDZEIEiYfB/c2Db/vZYT7kSgn3aEOljTbKUXB4331WCoqRjDeD9Pj08qjjT8rt18NjU8x2Y33XCD6GF6ccCXYovH7mZMBtg4e0O4tonJhKAzd/V8G/yfzqqjTfAR2tF90Es6qV7VD6mMe+eXYaTP8/bhVwulpP5GGCflMl/u862YkwCcDLlt/k=

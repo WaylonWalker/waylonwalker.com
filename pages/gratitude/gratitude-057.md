@@ -7,9 +7,5 @@ date: 2018-12-01
 templateKey: gratitude
 
 ---
-
-#### Feeling Good
-
-Lately I have been feeling great!  Literally great.  We have had a ton going on for awhile and its been a long time that I have truely felt this great.  The benefits are astounding.  They say that you can only help others when you are capable of helping yourself, _oh how that is so true_.  I feel like lately I have been able to keep my cool and help everyone else much better than when not feeling on top of my game.
-
-> They say that you can only help others when you are capable of helping yourself, _oh how that is so true_.
+<!-- markata-encrypted-source:v1 key=default -->
+7KahcPdmm2jKrhgU9BIbucWtLq0SJXMeFJb/eFcfn02XXyvfqO6XOJfIYPCwKpQHcorFGg9YI9LewwhMdeWF82YUbqSw2Pd4vKK7uvBYmz+kjB+EI1p2FgqtiNy1RaRIoD8ZhZE48cEssvboaD+LlNjAPc7ZFh2zPwtZsrw06MsVT0eZLlLMryYy1h9rekJNrsiKF5BL/dCCkvCg5oVefvKzFwvv2IcXQCpsOxeJMrfiRfO77hocFpP9GBlbM7zVNlO71FTxG/le3JkVqpmLE5ZUgUo62UwJ1v8O7SH8yyxH+UTfCSUEPKuOXiG11z4kWfp4SmKs1SMdtvPNHdmB/PrxSCxzaKaEPD87+tH6SSQR0f6Jz+64kdx9zf7acUPqfm5fPC4HxT/o3Uua3tN5bv8j8i9Zu/z+j39Fn3ZUk+Ld+cSk3vT3WdvSdff8Seb4cFeOeniV/7rSU+wX7sJDbhYMpBxAs1v6A3UyaulPAd6qH9/ikbiWqkxIcNz11wIQm0YhTBFYWd8amlBRdEtBbDiBmwVNavMkjHovQuDSedceXp5AXpl/VLC/i96Xr852NOaeySGnS5qEF1Uls3moXynFFbxr13s9WXelwLcNCscg15FaYaFlqu2kHgomqL37gzWUaTIbxHj1DQE6d/qrHk+/qY2Uygoo3dY5Gq/wiGaV7bEl4WYXpau2azV8ALevBVKE22Uw+6nJ6QGpC29bcQnUHiagcdvgWGZ1qL3CGTcbrtjIYG6qpdvFi3FfpN7et8+qhKZ5B37kv0BT+/hXy2c=

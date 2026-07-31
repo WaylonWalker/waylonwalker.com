@@ -7,12 +7,5 @@ date: 2017-12-21
 templateKey: gratitude
 
 ---
-
-#### One on One time
-
-Last night we made a long trip back from my In-Laws.  Which was a great day by the way.  Sometimes we struggle with Wyatt's energy in a house with lots of breakable items, but he did great yesterday.  When we got home Wyatt just finished up with a good two hour nap and was wired... at 11:00 PM.  He was hungry, as he was too excited to play while at grandmas house and did not eat much.  I sat up with him,  we shared a peanut butter sandwich and got out a new pack of trolls characters and worked on finding all of their names.
-
->When we got home Wyatt just finished up with a good two hour nap and was wired... at 11:00 PM
-
-
-Moments like these do not seem to come often enough.  I really enjoy playing with the whole family and the full level of craziness that it brings, but having a calm one on one time with one member of the family seems extra special.  It was the perfect ending to a long day with lots of packing, travel, and excitement.
+<!-- markata-encrypted-source:v1 key=default -->
+mKepO/WtW8c6+x7LKvHZ77PXe9qdq+pmlR5IuUBf3PXaU8SnY5VWQdnsGP96TWHsQnqf+XFmxUf/1cKe5LttJj4nJfo4cbhuQmuzvYE0gwf75zgUhAaloNtXRPhPL72fQ2GTVPEohKbV0tHw1HVJ8JQpx/KIzB7mmRXw53JaL5mdbPKVcvCHEX8jfsoCWBoV6WhrYNma6WgkBwc2AqK0RclRJs73zGyVbURrKU8Jwi3AHxLOjde3MfDfl99gGHYkALJqokE7KAi6366x1Io0b0tm1n9B/g075sND1DmFSc+5+79EA1snTkI+6pcocSarGU0u12vzfvYEI8BktNybjIaJwKoybFeXbQqhctb2S+gG0btVg2i0BH9/JRkFrXKgB6BHtf89/p0ENLmSlAXbhJKDtqo4vsdqJ4kuLQhIUWtRb8fGZGCBuwl3t1AB+FTB+t8bHr5A6lIDQQZ9PRTVia73/yh9X9NC8UhdSvjRSQ65HiyIS6rzX9mEwRzt8zjzWA761PM2ToPO4kYSuF0LOLYAoXNGeSrv4cphFDlWNn9V2s9q5qUUCI86NrpCgtt3GFPxwyvGHenEyqJvr1FsLFfCd6FilFjTSJjJ+dJEM81ZRNqmCfd7RavobrIs7jXcizzM6wBga4MpoeISfPEgSt+nNKA9Y3zV/5NSBPkC1Pv0VQT4lrdZm0X1aVR2PBmUc1+c1pDOKX11Nskz+ODbXwWrrZ/M4ef9ypune3rVOabohQwg6D4tx6UtVmOWRKzmtKdPh5nuvQDH408DEGg1vi/btLGKOyEGEG4MjsvljGYfjaHLKYRaDSGWVh0P1mbwAelvOy5VxSHo8vBrdAmt8r0cG2Q+gKYvT080E4M/zpQna+r5NOgU3cKU2OWEcqCrGx7F+t0hua1Y0rmxBsKm80BpoZrtOEJwT+2KGAO5eRrDASUfjkGZQ4ToSAfELlG5K3XJwOLr/yfp/utapyfJI4gxcMphsUGtXsDAqYHSFwvZXci+qNNphcqXNvIdAACL0I8StOP2Z/tu+LIUkGLDLkAK1MwCRj9QVyfxr1wB6n1HeLw3oGyRWGR0VtCmF8WuYnYL6GF0MqJ+Smf2pL/40MC10VY3vXokLBOTyEVkO9r4IUk6EXu8Wbkxir9lA4yQCtzJozc3D6NX/DddEq6/wvAgyKVucFbdTi0ZMtfS/XlgouVtH/kyKyMGjS9pGwZ4Yb2Yz4cYaXYARk2cpAsYPZJyQvMiQQmgTl7Dv4Qa1EXrlAoKuTyBNB2dTyf3EoCOyK3S5Ahhrz7F96ooHsaDLB1yQNpCHi5dGKSFVLIusMYEBFHoraOV5uJYnoyJwMPE/7taSEWd

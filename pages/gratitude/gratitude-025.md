@@ -7,12 +7,5 @@ date: 2018-01-14
 templateKey: gratitude
 
 ---
-
-
-#### Support
-
-
-I am so grateful that I have Rhiannon in my life.  Last night we were able to go out of our way to help a family member in  need.  I am so proud that she is able to stand up for what is right and help someone who really needs it.  This family member was in a really dark place and Rhiannon was able to spot that and stand up to help her.  This person really just needed someone there for her, to give her a hug, and not feel alone.  I am so proud of Rhiannon for being able to hold this persons hand, and walk her to a better place in life.
-
-
-I think there is a real sense of maturity that comes with being there yourslef and climbing out of that hole and realizing how much better life is on the other side if you can just put your head down, make some hard decisions and consiously control your life and direct it to where you want it to be.
+<!-- markata-encrypted-source:v1 key=default -->
+6LTS71w/ThSCgiJ7qDHxYcKboffEiFRUftmbXFEBX3XtkiTaaPMCxl1Y7BCg2WCEn7QMAc2EKtO4+3VeMIPX48AMLB1XSUQigyIjCk3iGQa6m4Me35jY7hkTg0Xbg494x6L/dt/bnZIApl0eiAvFC9PsiMvj2AAfLpUokZZyqcSLYRjipwzr1JqPvtM1oMGLZGxXxIwqtZP9l2ZqDiDXyG2A3hzoCr31pCfdMOS8JdcJ/9rkkwtdULaTGt+QRoPGZHGBlrykzTKDQaA9A5o5/Cw6KXQRRUXoUvB5Y3VhWG9UVr4F+erylk7+kNE+wSnwHUFG8xm6V0ASlxjP9a1WG7M39HDB//KoJ8Q818LDLkq+TNT39tKNxCU2IoE13OT04u+v2yJgth9BjPHsH04ifmfmhrskacBpENrsPmUu9P4YOXm7uT3s10sDRjIFiD+Y5OJcfJUWtpMPVqQZNQ32iw82MqlscyoJMdUunAprJjNap1hPoTgaGg1jxgx2NipjcsbfVERogiePTYV8DSvRf1lPAbyTkQWmWLhktKX2he3StkoMlHkTGltAPHXqK+k10fH8OqbnC6HHzROq2gIJfBDtm6mih28IRD6jcOH/CF9dU8m+9l+v1XbOWLC31e2KVT/lPVyPybDZZXIvZu+4iskH386jhp1S4ElzzcHLFqhCjyMeiGbwUBrJDh0KG+0EdZHErV8prPxyzTinpl2kkFQ89xylmoISB8nAWRVo7qTK+laXt5gr1eTCdX/plnOtuw1rLxvbZYXNIA/iJaiCULXoeZ98A8btyJ48Rbf9wFQZ+jqbPMU8DX/Rfp32RRSIWTVNQjd2m8t2WnifvNGQqhyiqTbJVGCIfOQkLJw31aCP00ns2TfR1hCdc88PRWrl0Vio8zbjTbjYqaVdhMl5goP8RIje/2GvxtsYFyuaQOmuN+Eo1r5WzzPyxOHs8mTNK0AZjW6ST8IeWl889P9jhMFXhqIPhN0zNcnein7mvGiCvVWmV/eb/8wCJjRpoSvXmqz1sjV0KC/HTjo7ekqSb0YsNng2y7Ayfs47X1rc5L/w2pnDoFpbUP5YuJUMyLqACtAN3FzMruK+QxB7wVy8Q+Fj/vBEaEroNGbMquteUwiCqXjMmD79cei8pCIxHhHsKFxAEu3SGlMvKRuD42ZGkoYe4+KVfJgXoNxKQjDz+lbELUr1WzGF+50=

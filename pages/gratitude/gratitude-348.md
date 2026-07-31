@@ -6,12 +6,5 @@ tags:
 - gratitude
 
 ---
-Had a bit of a rough few days around here, lots of big feelings, kids with big feelings, dealing with kids's big feelings, its all a lot.  I'm glad that we are mostly moving forward and progressing in a good direction.
-
-This weekend we built Wyatt's gaming keyboard, it was super fun and seems like its going to work .  We made some big improvements to it, exactly to his specifications.
-
-![](https://dropper.waylonwalker.com/file/f5769ee4-7094-4527-a27c-c4b9f3d58bc2.mp4)
-
-![](https://dropper.waylonwalker.com/file/0c4daa3e-8097-4e91-b54a-a3a84e1e0a48.mp4)
-
-![](https://dropper.waylonwalker.com/file/32510980-2e53-4294-9198-c2fc5a6fb96a.webp)
+<!-- markata-encrypted-source:v1 key=default -->
+CZ7w0/pWNRgxAu7zT6ThvHIXokmUyi5+6PiTQlGsQcpv0xnkExUMAJlhnOc6ShFAGHUAC06wE8SkF8CYxwamvQIiMsMHqkWgk32AvGw2nENGuvKT4LZPpD+JR9eU/b6IUxnpcczZGAdV7wde3NIRT5z203I6kROJJu2N0JN4ZPAHmtF3cB3hOK6EFW6nKPoUVhMu/Sp9DFBAXf6+IwQG6wwdJdYBYb6zOodleBk7hXHZlHX6gJg8UswNTpbjfNT926JEsxaOW9Voxv8MK7l5maHv/88z9uYkS5vrlT7wKNzl6wM13CNR7cXCz8/HVQwzpBXZO8HlXDQ0LTSvGudwyKANBdwRhRlP9MiJrCR6Fq6KwFtrommEkwiWk1pFaB7WnUhnNxak8elz1hofT1I9EsMek7F2dON+UXlJIPROspHIT4vKQiubCKI8YDFKnGutB+7i9RkVdOFj7QM/2vgJDTZwCxaf8eBExGwq1kCFUfEGtO8JgRL/YJT4ybg+skw+Qke/ud7JeUynhopQeBlElX7IpkecX1GEbjKnN7B7zZPXM+vmL3TRkoyBr1aPqLL2qBlsuFZF8Zxv+3sncZa7BW5RDK3LxQicP3fEfpMiVsyr9WaMm5XcJc4XMZQtLVoQwcghbrpQ/Wsa80i16BL1iRMLr2Idlaz9agTV4IlTzgmabgM70kUpgDl14dI6+dXrhQ0EQWFu+VO3hQQ/t7Yc6VLJjeAMf+fHtAfJ2Ir6fchvCh3SmoVPZdUoxoIcQzKn7h1j4SPZQSl2SRqQo7D5U7s3/XZxXadLcrLDwbwe+shkLZRJO4jkM9pijJpEVW+6E976mDVn9nHcIyy6T1+EffVvh/x0jPvwgcp2O3DlhyiUyRV7k3b6XA2Un/SnSGauNnrt0RsrLxpNaFG0yOoU8g==

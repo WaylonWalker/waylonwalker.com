@@ -7,9 +7,5 @@ date: 2018-04-14
 templateKey: gratitude
 
 ---
-
-#### Time Out
-
-Yesterday Rhiannon and I were able to get some much needed time away for some  very overdue haircuts.  It was really nice to be able to just take off and leave the kids with friends on a whim. While it takes all that she's got to go anywhere I am still very grateful that she is able to get out of the house.  It was nice to spend a dreary day out with her.  Dreary days are the best because the air is always fresh and clear of most environmental smoke.
-
-> While it takes all that she's got to go anywhere I am still very grateful that she is able to get out of the house.
+<!-- markata-encrypted-source:v1 key=default -->
+j2JCIgeeKRWZ0/vQTWtxFzUvx7Y/d20tHMOnk+FmYXrqKjvkxXUqN5+B7S4WgVFkxClD5td9y2lxL8JXst9JqkNpgTGXDF8hXSbwLLgyYbOy8vl1f7jwHn/t+lC0PMxkYxW9OOkFq2SVQs23HyicjUK6YBNRTJYLMlNklim9TjHyTmpV7HSPIwPn3vifEOVzUCGveLEcMFe0w09gNpx99DOD4bv1eBdPTONrlnvq+PUh+oFVVAOvwNQy6mTpkUiKbCUF+ARGOtph4AD7sG1e9nm18NGCoHQJ1QRPEojQnrqw5RtyhWqtgvvkPe2qB8AhCzviZ16UoLA9jZ0ctm/NFjbm8BIItkW2JViAIOdG07WYDWlAbYLZDzDb/RkCigCYgsebSMooZEJ4jK3/Zvarp77Fj1hV9RzqPrd0QA1FaafVGu/2rOYXHmp/a0EBgb9nGx5kEi4D0/qV2ONeTALuQtuLYyIw1MHyRZ6yGWrDVyX/TD8hLpGLogrmdLVGDDYGjV185UAdBmchM8UqKfSE0TvWGTyBkixLf40g2y4o+xE6aPLDVL4LkjBjozyyUD8VKx/AgsDILBvF0GkpoHhLxHlCjLVuVpAimKr+N6yzhWHG0K2Ey2uaKsWgxfffwDsctjge71T2klIDjVhx4L+vUFy9xarBQ7B/0GabvlKp9m2CSUNMO1C3huPpKN2x2DmPKKQhUW/ckqL0XR0mle25WCscZW6cwVqnVVxPL2VCM/oWCFiX//7X4OaulcqzVOl5PONUpsN2a/bR9QqgBehLbWFskGUW/E/YHcdYTH4u21s/Lx7gq0cPDtsxaoZDTfZVgGr+3ANY1UxECg==

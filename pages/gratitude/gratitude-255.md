@@ -4,9 +4,5 @@ templateKey: gratitude
 title: Gratitude 255
 
 ---
-
-Chill rainy Sunday.  Made progress on getting the garage usable again, hung big
-bikes on the wall, tore down a temporary table/saw horses, and finally got to
-skate in there a little bit.  Had a big incident with the Freezer, we are all
-pretty upset it's no one persons fault, any one of us could have caught it at
-some point. Wyatt and I got back into factorio, super fun, but hard to put down.
+<!-- markata-encrypted-source:v1 key=default -->
+O9qdNusR1P85o7TpwKAHcx/y/EYrTlFpWyO+PcOqh1klB6Xj46sDhsC4XyUGAnyfLuHPOeo2W/D5A3lFucbdzRqMSwcMvYC0pBSWv9j0vr7xWrxDDtl+ZniYFQediQMawA0i8IfviOLnTgmNYAevmSBKnbE3rq6XruSQEvTmuDZhNCg6CQkSyzDc1PhvoH8lwyZmBzUdbaKMwgDp3sIQ7wBv11tO0/C/KgW8EU8Z03pLVhvoM3HeB+uHgGPV/tt6Aep+DNpUPStzXAXmImYJzcRFbDhCl/xFScsKAIaODqN229gJ+gGTzb/A5UHAzsiqtPwnRq5pihxw25qTiE013o61b954IcccPzmmXqjAwcZfnkpzW1A9fWFdgLn2iWNYHsQV90o1rRL7NJXINflykNUUCD5/aa1d9kvQtcj6XiRSq1V7V+lLxv1FpFEZ/S5W/snobS5Wyf6F4jKesjHhxFkNj/ejMHzoPAW4JgKhp2seQwOdrv6c9mUssCcVnASNV3OH6rPrCQyKVO2ACqwxTvgKaw4sjSC7v3DunF7dxY8NL7MZeiBoVurJK7yOSibg5+ERJQFFVgo=

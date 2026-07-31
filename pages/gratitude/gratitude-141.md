@@ -7,18 +7,5 @@ tags:
 title: Gratitude 141
 
 ---
-
-Brisket night!  We had a fantastic Brisket delivered to us by Butcher
-Box, and everyone absolutely loved it.  Ayla was so skeptical, that it
-was kinda funny.  she went from "ew, I don't want that", to "Maybe I'll
-try some", to "YES give me some", to "Can I have MORE!".
-
-We all seem to be coming down with a bit of a winter cold.  It's a bit
-rough, but so glad that it's not covid, we have been testing like crazy.
-At this point I feel like we are one of the few left who have not got
-it, we are also so crazy protecting ourselves from it for the sake of
-Rhiannons life!  There is no way she could survive it so we must do
-everything in our power to avoid it.  I think the hardest part is that
-the rest of the world is like   'eh its ok, nothing bad will happen', ya
-know what, at this point most of the rest of the world has had it at
-some point.
+<!-- markata-encrypted-source:v1 key=default -->
+W0eLkGoQWrWf59Xx5NUvOz+pOTTX/7eMeSfXDEGAZzljzvDTLulwTLFwJfnvrp9gjXI4UWDnCXo7X+/YbzGaTHSoGhCsb8FbefLWRw9b80EkqTB23hm+STyBr1bv7qVZ0I1mJrGWvG00O0HssB30tGWmWe0mf2uz9VAqAlSNRFCb+DLcSD6Oa8J4ssc1ZXAgRGce4PDKjC4rnnG5+9kcbMm3HnxEpyjRqR1hPI9O0SiUwrbZZHXBe6Kk6LSxoPBbQeYsiJV9Z6MH5Kebnjotzw/MWTWQf7FQIp2wsO/UQ8LExoxtC9EdnQFPhYWn2LYu1I+s5XEYLSv4UOe66Vgiz1sgx6/nQL+C/6nRPwcr1tWSr8TBUXHTnjB+ZvU4S3M84PfNgxmqJ/Gk4BPaW+8qh7BlJUKv1A+h4rQn+WEfltCbyUdn6xNqwNIBM/juw9/pkh4VPjHC6ToExy8Hd4OuN/HEpIfq8/LkLjir3Tuq8VQnLhG4hGdqzFUUkBMWhRuh0Kp+i916XM8QgMqpAM/x00vLtfcqra90Zpr0/9pctst6FvAw9hwyCrQga/viiO36iUoDV+H3PPNPuTE2dB0Gju6KCG5wP4U/lwC+HSxJHLl4EEgOrFb/Vg8EosAQ7bUkO1aGDfkR8aMeOeM8uSuvUi/DyeIMHDdfA22kHOx0bmQ3lws6QuSUl1K3Jf81JX8ymJxlERTuglKeVJTkVsbw1sd5ELB1eVH9OZ84AxvL+aSoh0Z5jvdyxQpOG/QhpbhOGxmuww+Jx339FMIX3H1jhQSUrPwK2TsHw3GPrZKdNkaGSeXZ0mASTWnQYRNfg2Ko241YAdKu9uErrYIETh7vkUDWTZAnwua3Yf8SuwyEK4eb6PTbhaJ+djWMGhZ5Rq7ut+bO/AVC1NxGqi9ly4kNofofMVHsypqNIwq3o50HLxosSBhaKbZaOsuccEPTz5rxAh2R5r29CoIvbDud13/qkduyi3WeaVFleIRaKldvD9DsbZpksbc/rSes7LGn4pHu5dmumd4jc5IWRtSKg/MXnad9rFqHiD0dKb9JHNMojTpGbUqtTY8AsiXPkOauLRzG6/E1UOTEg4yTUSwbbtLaiw7EL8SslthqFNE0NAWOIIRFcKUU0Hx5rBRh2kq8kq9Uk13kGMbADOQC/XcOxG59TMR+WQIzfEBkIwOR3u0=

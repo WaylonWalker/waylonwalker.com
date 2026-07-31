@@ -4,11 +4,5 @@ templateKey: gratitude
 title: Gratitude 231
 
 ---
-
-Tonight Ayla and I went to two different parks and had a blast just being super
-silly.  She recorded some silly videos of us doing skits talking about the part
-in my day and it was super fun.  My phone wouldnt stick to the swing in
-horizontal mode so I couldnt get us both in the frame at the same time, but I
-grabbed a frame of her with just the happiest face.
-
-![image](https://dropper.waylonwalker.com/api/file/c215942e-61f6-45f5-a06d-935caf529480.webp)
+<!-- markata-encrypted-source:v1 key=default -->
+SkJel/H1n9uCdgUe7bUmCXZyaQ3PE1VKuHBJBQF+a6viDbhVlvEkMi6bhgDs8iSa7sg3c8jmAFnc8X/SY04EghFPsJ8q9IpJW7hrrSHy9HIHTXY0kxdxn959aUbpsERPZ3jbCk+BOYgu4kt6pUkNkTWNk89Ts1RVcC8AThnCERVevTpRTZy6yXE5GBzTy21TS6cp0cLW6FfRB/1OZvwvU6eu7+dsHmEDSfDyZvjsqqnTAlf9SFddB1hsw3A1BwEnFtc4cQPoRuAp2VuF4wrslBcpu8kc+SvBNxO8f5MjDxO6Y7bwmz1QDnkWlTKvfN4gvPhJHDtm+1S2tc/A+N5W9fE7nHVU3nKqwRBEiVKeB3ZXnWLU4hxZqzftUT5185OD8WF44Yj3yIrHGyFMsoMlJ8/CUN7K7C/KXGRtYXbLnUvyBjwohkicRLob4u4AfdBthPZYsFAIaLAeFI2YasKVggLri56YPa/rUjS55fn8Sl1+scR8EvPBo9R50KHWvYSf1IMLhdrU+q3/GszcF0hNZANxbY0BoR6tFBYqFQs9HfZ2fPlj0q0PiMwgRe0/H7R7Y2zEPpUTDp7HMG6UM8eUumo7WG0yxlDBJgrVjrruAL51CJ++DnDqPnSmFsk4o24N3+4D7APfnNi0ZTLIpeppBIl081hbrQ==

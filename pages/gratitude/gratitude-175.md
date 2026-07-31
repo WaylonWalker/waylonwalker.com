@@ -7,11 +7,5 @@ tags:
 title: Gratitude 175
 
 ---
-
-Not a year goes by where this is not a tough day for her, but every year
-progress is made.  Healing was put on hold for many years, and did not
-start until she was truly able to grieve for what was lost.  Since then
-she has made so many improvements to herself, she has put in so much
-work that it is easier.  The hard days around this one get fewer and
-fewer.  Her power on this day grows strong.  All I can say is that I am
-damn proud of what she has accomplished.
+<!-- markata-encrypted-source:v1 key=default -->
+nXzw77L8f4S50nYlhYQVgub1Zju5QfSoq6BhR4jYmYMJx9Rw6023dUCfTYDMvKruZqbfEK3q+RcJIN8PLEGIpfsFCIjfQWtEipY4hSkLnU+k2GF8ZJza7YLxxpMrJky5+wJqN5SgeP/Z7I86Z6Ut2XraLWSFMRIEYVx3EItyq65nk46zv2XWwSeBfYlrl72mAZm8RFlCSOWl4oybSmc7fmjdlRe406WKBciqg7LvLY4Aw/YeX/4u1jb1iwYWHVvkm4OxNnHUQOZ7lNnhK3eF+N8Ve/MUEikJULjHd0DqkOoM3mtVzUpMKZlIT/MMIgD/p+3c4EVyyDXj/SQwGH8ncsgSCKMFM+yYFbWflA0Ap1WCBRju3MFe9WupMZlAP8tLhThcLCmSJu3/C3LGmy90Bs/E+1gnXqmZuPEtapfLvcfmW/vscfUT+6wHAApvqvebNU6uD8SPj9j1Erl4ldrbBebA2SKUmg4AaF9xOptE2aH8ZjfC04vidsQtv/LC3AdUdRnILPU4lOMnyNQcXtrg5tF1cUeuCeFhkfPTw+C1ZZ6bwwQgEA+KbxOTrFN5ztwcaRXvxVrhRIwcLlFQj1ed7Gs0SVZ4Mdnv2JJEz/lUJhx6UQNkkgM8bDO0BeEh2VdfHD6W5wGzmnakIPRs4G/+poijIsHRW2HMgYNp7hHyL8E=

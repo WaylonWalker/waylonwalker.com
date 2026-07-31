@@ -6,6 +6,5 @@ tags:
 - gratitude
 
 ---
-Show one down.  Great work team!  Rhiannon keeps getting compliments for her elf houses that turned out amazing.  I am so proud of her!  The show turned out so good.
-
-![](https://dropper.waylonwalker.com/file/d4e0f7eb-cc68-4ae1-96d5-35d920812229.webp)
+<!-- markata-encrypted-source:v1 key=default -->
+VZfXNwhh2GL/eexmQGXSyXSl100Ra5lHcp70tFa+Ea/QbXhhLxn44q8vpA1yJEM4719Wo8oKK5DIRTIVZyLaLFV0dPQmAIpPi5jrU8bh5aoQqv6+IN8y3XJWHNKmEbl1iKeKwCIxuQyDuwYMKQNFpmFSW+IHKq65OyQvBmTSZPgizWWrU4NwEKXPQBTYpN9LDoJHJGDNOXFC8yiTDtsv6ru42FpAdFDDm/MB/YwCrQPhFNWJ8DONBcwPRleMaPFdlFjt58ejGs6fWIwHUaYVGdFaM5hfc3xsz54ndYjdiohHvyLCpDktvQguaQIJlm5BW8GagofHtWCu9jZfdKobpp6X9u9fimzxS9KM35g2oHT/PqJAVsUSRHyQhVYeiM7KJMurSl0cBFA=

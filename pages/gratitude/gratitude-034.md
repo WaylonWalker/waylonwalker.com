@@ -7,8 +7,5 @@ date: 2018-01-29
 templateKey: gratitude
 
 ---
-
-#### Communication
-
-
-Today I am grateful that I am able to communicate with my beautiful wife Rhiannon. I am so glad that we are able to help each other out on our worst days, and keep going even after our bad moments.  We are able to grow and build off of each other.  I am grateful that we have an open and honest relationship that we are able to talk about anything.  We have had a rough month, and will continue to have a rough patch until after Feb. 20.  Its to be expected that we have these patches with her illness. I am really grateful that we are able to get through them together, so that we can enjoy the good days.  Good days are coming, lets make the best out of the rough ones together.
+<!-- markata-encrypted-source:v1 key=default -->
+x4rAKga5KHCvc1fKlmpvzKyLnlDzUHTChDRQo4gXZZtdRFIo8rCAS5vUYd4YubRfGosEM1RqbF+Elq86mnhNljIQ2scBnbgzM9E9smkX4VMbzpqyHlWTUTjoYQh8XeTeJVNZ0gSEE9KnqN02vCLsbt09vmuvb8gRytWdjqkOrjUVyWPu6W2r6AzAEy7MYvAxEfZjHrqoXmZeP/idLPltfeZzW+F8u3+ten9opSay3e6tbDuVrZZyReoLT9eZlKaLvUvHSnIqI9cVK7TXJ5TZGqzD1D9x8UBwzd6bUNzflntxj8XErkIvKO8cCOZzHJkUYXY4DhADiqImYIk6Ed9hYn436A1LsOxUxT4K1UVLfMvDpe4diUbjamLtAdcTU556Uz176J8XygMeefoJ8ycAzE1i/2dzh7aBRwFmoAz5g+CIBFqiAG8H4yfpFAcq8Y+a11iNqDCpsD61So6QMOfuAHywWEPdZP2ghA3aW5bF7VkhZsoyG+NF842z6tMe00vdmsbemaaUP09QHSYHH69VZxy13iq/2JheedkuGWZ0c+SchNq4J6ADRgj6w15FDx1bUVmapsu+3DT+6UCO6/UcouK0iECvIS2OCKgIT6BufmBBZbPPu4uEi6o+pMY7z2uR/EWNI9+oO/Wc3OVe5sE15IlneIeCslYdLLsYBUZSCn0qDPcjgyNOyjVdd4OaBec3mj3/DemG9qP2krphkO2o0MPlPlthz+zftq56HQenEafM+oHgmdKgBkCX9YzVm8jTAgMgMxGKf5zdKlxU2h8b6Qx2ryJGKnhIBgJCoIX0wW4umcfGmL6UCOVbjN8c9M3XYgQwcg1jar3w0RrMpY5ii68TpMo5Hm6V3Z+fg5DnUYH7yFM66P+fdNoWcs/t4YvMVDMDgPb4ZvOSQDxUHQvSqdBuO8elhLrjsYGoh1yqoZnphMNm1vyUXMLY5tolcKIkVeQg/Z2eMGhG/IKP9bsjcX+frPMohBfH1ACu

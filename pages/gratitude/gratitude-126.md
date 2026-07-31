@@ -7,15 +7,5 @@ tags:
 title: Gratitude 126
 
 ---
-
-We are getting ghosted by sellers again, they are really cramping the
-style on this whole gratitude journal.  I am very grateful that we have
-a great team on our end trying to get us into a house that we love
-before we are sent out of this one.  They are really doing everything
-that they can to help us, it's just hard when there is no response from
-the other end.  This house really meets so many of our wishes, many
-wishes that we didnt even realize that we had.  It's hard to look at
-other houses, especially when most are more in the city and more
-expensive.   We still have our hopes up.  We really want a house that
-our whole family can love and we can grow together in without worry
-about where we are going to be living next.
+<!-- markata-encrypted-source:v1 key=default -->
+gfo0Zxi/MRIz9Q9e0+fcBJ+ViMUX0VMHGNqnNOcQGqTYBEgd8oOx7efHBCg5ONYdPGy3rlLL936AZC/27ZoNFsh3bmpUHZgLEOSAedsvEk5V3wodv8tU817L+jX/Ds/BUQEvyScmDWqSO+eqYqUd5fPjpIGP1RQc3ZXnLba0tZUf/9SqVB6csVEQWxZ3uKDU5FqI91d503Nk1VoGc4CGN/U3HaCDDA5hGOHD64Eo4quSztEmH6nFTMigyHtGCjAMR4+z9lwa7MGGHh4A9bpBTs4J0RLUw/3SJyngb+yAKmQnzzgBh5mv3DKtCAUedrPUuso6yC2B2kTb37K6lOwll9DKdCwsOmGWOtcIcSBxjGqNv0sJrMbn+tKFDcV2gWGHtUmji9h6T3o6j/BtnO21VhQQZ1bSr9DIV5ZeORJS4GWfYeD0tPU8tx+6cXwbFdEEN2F1gE60w4+/qjSyUv7SSt/0o+HuV6errK5xisS80DkIjQoMqNtWQV6pfwI+HFkVMTw5TtK56IGHn1m8aIi5Y43S+pgwealbExp1qcLpV/c5PmETgMFD1nWrlK50fVNBRVu5fUIunBNDb+8sweUOY51//WYzdzx1qzHasdwZ/IvHhi6EKkbzb9MWqUpelRFCgdTRKXGUomr8kYAbEpUYy9Plq0ejPezQ343E0jielRwHnAR/UjgHY/oELzKioZGgEEhnVvNWpVCH7vyy2K3wr1951F/IaS2nsDwuUm1hU+QSf0w8/1J5R/i2sDTxIv6JdZtFD+84QSL4EBeWckpqolU24nYB4MRMOkrnqGvilqdvBAVMhItkDbFUYhdFBa5DBh+xpyAGuid7FjAPbNA8W/enKGYM9cJtXwDrgI82f3avn42nQGDwqj3mUYlwAKzVysgwx1N0b+/h3gq0TJnWw5mvzNd3otZXYptSGRqMcURLR7mkKINYWWrs7vT9SggwxohZANSoDLwdYqkseoouiQzu1+/JMEPfErXEqV419Rt4Tbv2ADuS5bZ+1HbY484K641qsyWDBSMj5rCj

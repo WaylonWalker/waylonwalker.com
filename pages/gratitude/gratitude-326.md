@@ -6,4 +6,5 @@ tags:
 - gratitude
 
 ---
-Wrapping up a good week today from home, had to run Ayla to an appointment this morning and worked the rest from home.  I'm glad that I'm able to still work from home as needed as I would have otherwise missed meetings with my team .  This is the first full week that I have not felt sick and foggy, I'm so grateful that its clearing up and I am able to think clearly and talk without coughing like crazy.
+<!-- markata-encrypted-source:v1 key=default -->
+1JixeJEL3hfik1xzzPYFuJ8OSK+chOfZKUBvoWc0/5l4UKFHAUz7LqeA+B7tCVVD395k9l9sYKbNiOshl9ctlXMEKSeeoZjjQYtlZL1azBeT5ZVfy+m9Njp7UC9GNtOgifRKh7OleTv8S5jvB6AtxZH43bRxk6eIHv63WxGbRSvDW+0JeM9rh3rjqjC+uC10GVRjt0NWE3RynxZ6nO736lOE5jRU1IH4cd49tCNRlKm5t/5CiHxmPLiL7QoUYQ3iOz87r/VmBpuXGg2WnaAOMPqxi4AEyrElEGbNW3ZC0sXw/t63Z2x4b9E2S9W++2+iqOxIUlAtsVRGkuZG3hO23uUFpD+Us/ZT3jS+EF4rR896r/ZIsiSyUNk3qto43nWFMl3BOqdXIOnwN5B5x2ad7Fkq+HLJFQVkYPAO/9OU69SVYiBpUAuHXAtayZdaCNs1CywM4Pl5rPLEJexv/SZr2K3M9PUCdbRfh4NMHFC41jK8df7dkArOUmGdaGfVSCAOG3w6LVrm+XwJ8EiOGvXyzV0WhvDWHOTMRxZwhFHx+WZdM2putZzU8vTZsnQiPLO75yr8hiM73Sjv+82qVyNNQ68=

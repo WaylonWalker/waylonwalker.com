@@ -6,7 +6,5 @@ tags:
 - gratitude
 
 ---
-Chemo day.  I'm so grateful that it went well.  I'm grateful it went smooth.  I'm grateful that we had our favorite nurse on staff today.  I'm grateful that we have changes to the schedule coming in to help her more!
-
-Not a lot of work done today as there is so much at home.  That's okay, and I'm so grateful that this is okay to have days like this without adding pressure to the plate.
-
+<!-- markata-encrypted-source:v1 key=default -->
+P9/GMii62YGhyTn2o70ddlMHSV6Z3gkkU0j9tvS5ljH9fS8pPkEIrJusf/SMa9vE9A0q8CFWum2As8DkRXzs7JSvpcvyh7kcqwCJQvNDsMzUuLi0nTUBZZqKVfbUoBH6BSXrR9qkbQX6t5sxClz93PxlW3yiadJI3pZHCp+1Qmat/fRbiwgecCeFqkcBZXtWJxen5JKZm2hOB/hrr+NC3vPA5OGiyuffaknkScbb9Pz68gl8i9y1Zg3M3OoFsAbrK4B/4gF3sfvMaSpkwLnn7uIPsXKtNditlBHgG/4V0b8EBJ6kdgU//HFyG0w3o+QbPLiZOAfuShT5HggZTi9BEPHMk3DBoh5oD32Bm4hkTweFMCYTCy2f5HrL8HpLc3+pOJ3lWMlhBrxSmr7VIw8LFao0MVoV4BwNpc8fzzlXNuO23X7HqheOcdINXbrORmYZfUxoNpG7jZtfnmsQT/PaW+lVY8DeOpQKMWb0xxNleqhlkMEeWOQyc1sWxvT4imnD9P4tbx/jUrbBebV6kiMaSYru3XDDkkQXedY6r4ZEr1kAzMsa2s6f02xzcNTnqGSN6jg=

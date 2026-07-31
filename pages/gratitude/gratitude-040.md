@@ -7,10 +7,5 @@ date: 2018-03-18
 templateKey: gratitude
 
 ---
-
-#### No More Credit Cards
-
-Let's face it we all know that credit cards are bad and we should not let them get out of control, but you know what life happens and when you dont have an emergency fund in order using one is better than being stranded with a broken car, or missing out on a very important family event.  I am very grateful to say that today we not only do we have a good emergency fund in place, but we also have our last credit card paid off.  I cannot explain how great this feels.   We had stretched ourselves too thin and were using debt for emergencies for a few years, and it had gotten to the point that I felt like we were in an endless cycle that we could never get out of.
-
-
-This would not have been possible without the help of several folks.  First off Rhiannon, as if you are not on the same page as your wife with finances, you will never fix your financial problems.  Second Dave Ramsey for showing us the light. And finally our friends who have supported us more than we can even thank them for.
+<!-- markata-encrypted-source:v1 key=default -->
+fghQQr0podfX9D4EGk9B5LbG4OBaEqEvJ7BpGpwSli3cwwBrUeD5UjupehK8p++Ve3ou6Pk8LAuPvWO2uouhczMjNy1fVvu9YHBtPbf3RKmKiKSKOWDK5p796sAga4aWH9R8eCPMZPucgG7E+3sXSUtKUAQdj4gM1pHgeInAnJiZWWF6uM1eFIRPyW7QYk3KJixBzjERyxmQ9axFCDP/FrPIseSpxUqaMKo3hcZaPIjMdroGEPk1Jo6M5LSe4CDkroTv3eUmG8RpgQ1d/EGUJ9mGzUMbpBERcZRV/xJA0zCtqkkUsYoLJsM98NvPfX8Zr/OWejechh/+Nv5yhYIe8IKDmrBT4BCHZQ8yTe+YS8tUfs9PVNjrvn0En6QYMlMISBb8hUtAJ5HTjuMdup31kgirEKbsaxNUCPPrdbobbngmBZHjP5iB2kxGHR3BzXt7WZdIeVoDJ3nRiHup3ltGAQy/px1+Wc0kxvvnyICqXUIxj5440TNZ6JZbZtRKc7+E0kRlJkV+jLxvdJrKbINDUWMOYBSWTs//FSMopd7dVAEM7K3nqfbBa+j6RVdn0w0Z8IkhGAPiyS35t9PdLLuvGvW1amw9rxsMvjUXQWBYHyt/Rv0u5yY25zr9kWLU2iWL7WuOTb1bvcED3cqH8j53eGYcI/Mx1jfQe4fTnMin5uvQTeEguoQmSnxIlpvVo83tcWk/ubGTRdSRe8moDg3SvKMzULnd0XcKH5vTqciqrHE+8ardAlatRGzhKXNIu6CY1HJNsgeouW1BdWX6Hx7s4cS5A6JKPVIU5VPTwI6VncrCsNyMrROjLbcd9x4RoGAkIXfLmkemiyjEO+CLZAKrEaetueculNsUDGCUah5SAmbmiKdtRWFskG9w/nSnKgJShQr0wnxN643D7TPH1sTKlBjcn+AVxvbBVCbx7hOM+Cd74YyXwglceTCUtJUxo/m39jAqavKAjEbNpQZLuWxsXm8/cZiQzLfWrFdSX5Sx6pYEIRb7u9mNaQsQVUYPRecMnLXPxFZXoh2dCgC8j8nldRhwXBrg31vpCBbDAiIqUDCf1MVx4jwuFgcZI85jDWZDaaEtLaxpZUJcjOxlC3FK1VNoZ4TK+m2cWd6cb26S9shKB230J1tqTgX9vGz1SorzVeluZXKyBDlrz3GpMkO+IGq+7VcwkZ6bE8U4zctwEitxFgGi4aclgsE/uzfSuXWRCOSSVYjj3s+EScl8nNnldoPwl6JQIRM1b5I+OqevtzZvCddZZiDIGPx+mgpfhMFuEOOZuSqZCxn+J+ByRx/VHTlx/WLhpzsB8TJ7s27Ryex4R9FmNS8cyu7ut6cAMUAkYfbXjAaK0sUiFvWmWMrah7IR0Q18aBwVG4BlWLlKkTB3vWuRxZ1oF5CRrYPb7Irvs6d2gCNBMg0MDNyMYw==

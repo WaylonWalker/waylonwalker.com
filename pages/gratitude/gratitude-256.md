@@ -4,9 +4,5 @@ templateKey: gratitude
 title: Gratitude 256
 
 ---
-
-Back to school night was tonight.  So proud of Ayla for how well she does in
-school, and how well she makes friends.  I am so grateful for the teachers that
-she has had in the past.  We had to go to every past teacher to say hi to them,
-it's part of her routine, she loves talking to them.  She got the teacher that
-she wanted this year so I forsee the trend continuing.
+<!-- markata-encrypted-source:v1 key=default -->
+8RC5QRICtzGIEHj9Ihot6rqA6/a5Fqo2650sxVjAZd8WCRmAzt/0ns/aq60naczFpNNYfnsF3MX744Amsh/vfLTQ8KqNV9WYva61tMO/ETUy4bfdjTzslzfYHfvlUA5cSrKpIqXE4Ir5xZjXgCQBI9fOWEbfk9eDMrlP21/C26+k5wPWoG2rIMVTbRmapqQWpIAmo469hG7RoENJsC6WQ3iM8F9m7lh/Ubif/GEQR73ECm/n4zfPq6SwHxmFQmcthQq03/7AfzLQZgkV1nn80XrUF7EWtpd7f2grn9bZPhkIitxX79lc5NiDk23RyKtzPWHz0hGjI3W3Yd2vVftzf+LhX1BBy5m/XixEyb1CuMIZh+AXqNSU7glk0I8aXequuoWwo7kGYJU6fcqL7qRnrYSS0ikWmY74k5egsgOcnDi99wBEsljYyQy5Yu0aq/Oyd8VtsUQcNUNyNQfTdmyACPpj1TnyqAGFsBYFF1+px00jS921HMp1Fbwy+klpoMlPsW8oUHzaKy3ESegrcX0aIpwgP3nqNa82NUxUQujUFhE=

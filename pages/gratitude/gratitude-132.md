@@ -7,14 +7,5 @@ tags:
 title: Gratitude 132
 
 ---
-
-Tonight was the first night with Ayla's new routine and it went very
-well.  I could tell it was much easier and more comfortable for her.
-
-I got to see our new house today during the home inspection, and it
-looks very nice. It has plenty of space for all of us, and should be
-much more maintainable at about half the total square feet that we are
-in right now.  We are all excited to pick out our paint colors and start
-designing out our own spaces.  The home inspection went quite well.
-There was some small maintenance things that he pointed out, but it was
-all really good.
+<!-- markata-encrypted-source:v1 key=default -->
+60RpuL2cJmEfovYaRc00q1sgT4cueVt0Y3VJSvOqbuqu6imYyaQLeiPr6KqM50L6O/krrEVI2KPqH+o9wx3/BCcnrXqAhPPLIZjP/a+HS5POmYspAJvSB7Yzih/mCbkvvk9mtDNSKdwvbupvlSidHO+jPAtMH9TrkRLjRR3WnKz9mqx/zOgjVGNJbVaTuSVFymwpVc8sdBg2//FdDL9n2Or9XXP3ndPLrs1Fm5hIw/jpSTjWf1P+xNLgLqlVxxDpnjp0MZcXb4NUNOTpe0hoUhqoi1P9BjJkSA12gPGW+1fFrC2vztabLRci6ZP0eCBx5slpn8Zb6uY2vrhjGdaC94i8u11yayWwIumfQu1s5/ZCG1P2/a9o3MqCgEjlqE1JfHZfLULSHUwcec3MBtDizPRZQrdxipINA+qRNo0Awfj3nv6zxBRc/4oo+sh0jywfM9uG8HTZpNP3yjdsUXJk8Y0XaspwAEoHI2BHs4oDn3p8AV5xj8B2bKQcRzT+GHzUIJjU12uVDj2XYYJvbC2/qA8PZKgWwwnasV1pVYaDxWdeh0/KZT3wXylJ8KtAYlaiEVYFYuO8zJGh9oCNRA82/bPteOMSUyhkzU5Vlw0amUk9V61Ykb7qJGpWsxoTViRd9G2u9+kThMRTuB8SwU8srPr09NCo2tVgRQkI3OSSA2ImQKSmqcU3BOGQB1RvaAA2VLiVwcpbLzWXdP/A2uHySMpuGD8uIgTlbM38dFORsN9+QHtg3tWr0RKmZ8FzBNdXqMma/P/kQScBzb7zzjiagHanTbE/IW79Ijb3EIHCiCC7pD6hX36vAbypPPoAVQ==

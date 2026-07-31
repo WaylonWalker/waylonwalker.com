@@ -7,10 +7,5 @@ date: 2019-02-14
 templateKey: gratitude
 
 ---
-
-
-
-#### Oh the Love
-
-
-Today is Valentines day, and I have been getting all sorts of love from my family, and it is really amazing.  Rhiannon helped the kids create this massive heart out of post it notes that include all the ways that the kids love me.  The things they said were so sweet, and really made me feel good.  It really reminded me of the difference I make in their lives every day.  Rhiannon remade a sign that we used to have haning in our house.  It has a saying that we always used to say _" Forever and Ever"_.  She made it really modern and it looks amazing.  I also felt really good helping the kids give mommy a present, and giving the kids their presents from me.  Since Ayla was home sick, I decided to bring her a single rose home.  Seeing her face light up when she saw it was well worth it.
+<!-- markata-encrypted-source:v1 key=default -->
+L1nKoTcvCE+GOkuG6eCmOXzOGSb7s1846WAYsm26DZOmnVaCrlIRzprSeyjR+6FWGOO2Sv9iNESG+c+veIzyv4S0oUDr6XQoMiV+7bXvpnwP7LzPBoKQFRZDGztdQbREtAdHRSS2i+oRk4gAbT419Km6D3BOPP565TX8k5d2jBzHDVQLZEz3mrNiM7l5a6PW27WFC3tupEC7Hf0hONLIHDdi1Y49HOAySrLB8SQ+hBKaQkopc1bqD5ersjELLxGzG/AmZHBgq6X9n5l3nrBg1ugw7F6wIHdVQhHPCZM33vnpDUgBLotddMoBzTCQofSKO/xCqndBG3SCmAp36oWLlXp98B8Id/M//MbJ/0f9u4CCt/NiOwRnrZ+ANVFZ/l95rSTsMi9TR612ZfCdppj9FmU0Hw0Blk0+OAwB9c1aGsstiCaHfjmX5oBsW/B8aopJxkjVr+XxCQpO9DzHU0J+BqW0CtIETCE16r9pbEf6dqladXkrzGUgKIPkc0OA5OEkemvD/cTX0uCvOP9o7NLQ+BH9jhC+l8Kj+a+xExjHh4YE05xgvc/wNw/Fq2o8WPuaK3NlRw4Ug1W2gPmIGZFM99LJ0xgMbmU0R9U/8192ZsTomY5IGzlHorMe1b76cDGdvIP/g/SqEQQTKWDNWJtcruAAMEfpVO3TTgdZg8L/BxaKGV72xyJz+rOk4oc/vDJy9hMET3GXQKoX3WHrBFJ11jGHdpadp5buqy265zuHudYJeOxKZnbnv9XYk4cTIAbfVC0AwTtqqyAL6lQo2H0vMleEm+0V2yyisyt3PLaxXrgep5wgfRHBojudlFhQ+UHROC/TpTQGQwwfRvOOSU3JL3eBeH3GYvYr2g8PA0MPStpjPng0m+F4AmMg/ouNJl/uLazguQYTeMzsUQ7QQF6BQq1tgmLJ3zCiHyRyL+Du6RSnVKMo1Hs9oenlApBPG23JBObh3I4rx8cmTZR13zl1aJzyh03CcW4QLCz9KZBZ0x8I4RNn6TEsGzf7LoxIs4p5zxiuH0Yor0kuJxtJYoPOxcmo3RBR5SU1/9v+4cb7rvzJNKFYh4mGpshRPVo654jw3xQv7zXfDbJQyMugO6c+Ky6NxJXk6UoZ64awCyH/Em0af3QK5VbBfvVNgA==

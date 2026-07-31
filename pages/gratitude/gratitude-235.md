@@ -4,8 +4,5 @@ templateKey: gratitude
 title: Gratitude 235
 
 ---
-
-Back to the grind... not really this week is a Holiday week so per usual it's
-pretty chill time to crank through some stuff that has been on the backlog for
-awhile and make some good progress while it's quiet.  Glad to have a good reset
-week with a half crew and a day off.
+<!-- markata-encrypted-source:v1 key=default -->
+9xapuufYCvsEH5Z11FTC+Qf6HKjyKGhLKduT390j/qmZPI5YVzEDVYo52dQdGi7QXTVp7ShGcQxkq+l6bRr4AYJoPVm0QBYZkuv9Jf97OTOAwtHBUj+FciRriaTUP1VWVHkdlT42uSDvuCDCPmHr+v8RJfqsZOuF3P1CG/jjCrBzWkYNaSyBXspiqnyEVJEQnXOCYmt4xoZzwPdKL1Y58CwU+4dro6IivHIyDBFTmkCBGaLgL2EwU5NQ5ht1ugj799fU7ZEJfNOWY4DnwIe7nElA7Sw3quMpMLeXdm+XisAvlFjlBug3kFrTRBhP56PCP14ZwK2sLN1tgf4Myb98L48C4LN3H294ApDf7hck0I0aeExpTXliq5n3uTnBRBifLLL48PRo2ALeOWhQiZb54MkJFEWabQ1ZT+tQOocKyQ==

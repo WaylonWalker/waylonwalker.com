@@ -4,19 +4,5 @@ templateKey: gratitude
 title: Gratitude 207
 
 ---
-
-New Tricks, we have a trampoline in our backyard.  We had one in 2023, but 2024
-it was broken and out of use, and again this year we are back to having one.
-There is something about going out with the kids and working on new tricks that
-is very satisfying.  Lately Ayla has really been getting good at handsprings,
-Wyatt and I are working on different ways to break down tricks that are small
-steps in between what she knows and things that we can do.
-
-Tonight was the first time where Wyatt got a trick that we are working on
-together ahead of me and had to break down what he is doing.  It was a back
-bounce front flip, we are not on feet yet, but more of a roll out.  It takes a
-lot of spin from a really awkward angle and commitment.  We took a slow motion
-video and broke down what steps he is doing when and I got it, only a few days
-after him.  I am really grateful for these days where we are somewhat on par
-with things like this, I know this overlap is short lived.  It goes quickly
-from kids learning to walk, jump, and tumble, to double front flip wizards.
+<!-- markata-encrypted-source:v1 key=default -->
+F1TbdAr0o5YS0o0kGZH7RcyKcq4HOtqVh7+1MV7kYHPU3ThhdD3PCRqsBzqnCPundQ+aD7CYZUX+5awpy8lbm9RjE8O9Em24NcjLvPYo1VyIBVJpQrYYdEkl/GcDtLfVjIL9zv4IjIATU6tFnPIf5hvYa1YnYckypG8dGTdvs9Mzix0xxR4PRnxSsgtNVpFH6Cpx06U8C1XRww0oK9x5nKWQd9t0zin12aoGP+y62gfIJls6BolASZktVffq+BOdabFMLbd65DJlpMai85XQr6ZjscynjghdmO2H3X/5QGj13ruVu3wXEtnsd8kmGCHkFmWqZhxRes0vfZejxGd4VjN8EbVE1DjafjxQjBwcbQl+1uykP9UkZ0YNUFPKZBOruQ/rcEQSvcabgVN1PTWFESw7IsuayarMr0leB31fa0oAZsFVRKXcKFIHe4ulKPIeWCjhqZj30yO3aSq+N1y+SJmfTgqvs6yAwE4HiGKoS/v+5RZQTWIcU1zqfZoYOaRG1Ea4eOold+VtS2KvDjqgNhmwx9xZF+7+P6L9qtOGgqvuodDq5b/oMEIMtYEgCTv4U3V5y/vy8cy17kvn32EfWy3PDBRj/1cvd8J3qt2Qocp4tXcKyTdh+aWcot+jR2xYdSToXVCKv9CkPe8Wnmoy2dNyCDCNSDRjmo9oolDtuvkyh9ASmGVziJwl0Y4w/KW9t5j2CN9EtD2yX9AJ812ipM6IvJLdmzecnt+0qCbUTBpcqmyiaqOwU3TvdqSAxZAPMgCJmgM3V0yiDTzu1QiKFTB+G7UF9L6jK44JShBE3lv6FdCEIGlEeJ+nMoGvWopxVrNviXP+ZQKh1bjbc0psXYim9PL1we2jLczjguSgQF2Hm+vyWin9hOBgjYu6cNapqlq1bR29FPVgI7vOBxXTPimg8pOxCJSqfBeX7R42rP3yoM/T4V2biaaz1fpWXLUwvpNp/vQp2UK41IyAjktIjojwGkq6OmJ7/7UK2KofEfg7oa9WkSwqIHa7lU38ZPegsjWti4fZKNu1xqI61vDijapiHHxGreEC8kOuLjEs3pU2yAtBCJext9fbDGIaeG63dsZuKkAor840mUe0OEYIvgHErPx0rCxv5zXiZXP5RVxoB3JXLGqoZa31ezHxpf/+n4S/NnwlTDT1ZTu4VLXvT3Ea2luOBfetPpYku8ZQrA/3nkIuhcQjhg+W9gFGDkT9odQ0SlJZYIInceVO7bFZNbSF4XvnOs3JdGdQxxwtbQBnxSiuXh2ezzEORhLiDNKdQi0AfTdPE1t2sYKkPc7U0k4sNej4KRmfzUGQE4NeRxkqObBTo2Nt1sCmLIqsqbuCzupbKnjaorPY8h5ZCTvKW3CFlkR3+7sVUacRITHeV0yWuuwZvDdSUjOVHxdJi0WgD+th4FSvT3JyQAw+Q8WrXZdM2LyMK/AXaOwP4C2XF2mAir0Su4LQ7DtSkXPUQX6bfd9aDS+aCc+75A==

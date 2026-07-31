@@ -4,14 +4,5 @@ templateKey: gratitude
 title: Gratitude 206
 
 ---
-
-Today I completed the removal of the arch in our house, well mostly.  There
-were a couple of 2x4's left that we will get later.  These have bothered
-Rhiannon to her core since purchasing the house, its something she cant quite
-explain, it just does.  In the middle of one of the arches we found this
-message from the builder, aparantly he felt the same way about the arch, and we
-thought that made it hilarious.  We have some water lines behind one of the
-partial walls that we will need to re-build a new partial wall for, I think
-this will make a great side to some built in shelving.
-
-![image](https://dropper.waylonwalker.com/api/file/7fcc8594-6abd-410d-b499-237c56f5490e.webp)
+<!-- markata-encrypted-source:v1 key=default -->
+S5EmYuw/gZ0N47lRORYplGAA2hICixZR5IKNwPddJ0arWpH+cmY0S9LWLfNL0pf3ZR0v/FI7lKVi8gZUI3cRfW/e9tMDh8BbIu3imWBgEGC6PWeIpxVdrtTI0dvWICXsEgokh7YZWZfZlnkarumz/mtWNls7/H/JICIi1z9vc5R66kfrQXuRHUhPCnEfP2T5dB3HzjSIKNBTt/i0RPHwwZX1QNnqnOWiA09o4FWX4OAkS6IRnE0LlxC6O7GQ/T+ErU4AoNcahfNYZ4fWnu3wBAXlssWp/AXRnNX6iwlgmcRchZoFHs4bJnPxcKQ4fui+cthyWdCcPIvBJ6FayBpuEgSdvDx9UzTEH87s76h8SLSdZWYyZwgEjkzuQvvs36bp6HvqgyWVAmZtkn+Bq3eBxitdwu87kww2ZLx1KQgNm6GNR3CQIw+cqtjvUXqGw0c/kKwQMdMC1OKgYNjngyfKX+vB3FgxKK+lzJYvtuW39H6d7tXDowIVu2MfHqRQ5Qte6NBg0kq0381rVf8F8lkjFL9V39G7AdptOMzCrndSulBAAQ8Uwrx0OAzT8kegv08MBs2b3fmtMA6iH6EdJNsYnFiw9nhiS5oN8J949J4GEMALYRNQNGAvs88mhga3adFy+9UnJZPj5k0mKlZlb6gDm7UxMRa0xL5sRkaPNGOOT7zeJd8nF/DWQu9DaPHXL5HF6WjvExt+LgVO3a82jSinDDIucY3Gcd8qqfY6nlac2SdLqBU2txI1ONFVs9YHZR20uVExhKQFol/MwlDNlAXDxhZr4sUXaoFmpqbpjizNGewz/Bt2PnKWOOlBsHOjg9/B8fgXeh16fU2pChAdw6sRcAIo5KwKprGjCyho83S8AmOLHSDLs8WfpDP4EzxN2oJ0lO+2qX38RMuR4QiPS5VyMC+YNcdKlJ1lbgkB3qe9JyLCrvhoh8YOvQ460voKYoFa/WvK0zrJbQ==

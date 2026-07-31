@@ -7,7 +7,5 @@ date: 2018-11-09
 templateKey: gratitude
 
 ---
-
-#### 6 years
-
-The past 6 years have taught me a lot about life. Especially about the most important part  **Family**.  Family are those who have your back at any moment, and you have their back at any given moment.  6 years ago we expanded our family when we brought our first child into it.  Since then has been quite the journey.  Throughout those 6 years every single one of use have had our ups and downs, but the others always have our backs and help us through anything.  Not only is that sweet boy turning 6 today, but he is the one that needs a bit of extra attention right now.  We have his back and will help him through his journey.
+<!-- markata-encrypted-source:v1 key=default -->
+kAT0io9I2HmZcShrYYUpWSiziSrRftIg35caVWvqZwoaNv9dVPuUnufVH6xXjGv9k/f1vGSkbBRZQZ517fOYcd0OIPip6x6ulNB0PJ1O5Ah8fvQLOiR2RS3q++XGcBy3w0tmPgdBRy9fRnP28d1LKJT/069gEwDGVyC5U7+CQ4RitZmmGi3JQfpL91KEua4XFGqLZKjnqbmzf696THWNH1v5LJ+V1L1qkMqJ5Jo97mEbECvum4ykOotC3s/4lnk0Our3uagPQcZ0P2BgCDBXYjzVAK8wNME8tXmxrTBfOLxOAMlBLRZ1VE3G5FY7EDplHGcJEroCGnloTq0d3+oGSchgQ8retQpYD0UnAR4jHMF/UbuyQt6du6zObtyod4hFUJ+Yfirw8LMF9fDxxvWmWtM3O3x1nrH6kXsqK51FMxOJmCoe1usWzoqZqrcO32z2woQ0F6c0i5dHkIGZBDOXJ1nL6dw7f8Rnixb+2xx6kesrP0vfmYDO9GDBJqYI920aRbnz6QqhMpqH58A+zQeDepvaGOxa24Ff4nT2/OPx7pVodM5cTMPf1QsXIH/mryzDqdqonH8KqpAYDi8ZP/v5nc0+O1AyXpO9GI6taNox26Kkn53mg6oq7CumjylzwUwW3xm4dRK0i2mq3+b/Me2IcOMpEae7EQpwaYZfP3Twi+2FL7aiMURvDNOMP7LZ9dlYUWLZSytFNwMo6keJFG0ng6X/wChNIzUdmwmlcHwn5WpLi4FqrwhktHovWOK0oHiM3XN0o0QIWfx3XQz8js87rU9sNM6bMGDeV5xqat46QfqM61pEVpFFmP2GDaocfBmbNKAo7clT2AUpDLaDFd0goaDW8P0QYj9TQuKKoiS45k/vTltC3+7L7QIUSHlkolapgj1NkgeojRoafWkOMsfKsXs=

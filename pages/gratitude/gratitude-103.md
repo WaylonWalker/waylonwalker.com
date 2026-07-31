@@ -7,31 +7,5 @@ tags:
 title: Gratitude 103
 
 ---
-
-Today I really tried to shift focus to on the kids.  It's been a wild
-ride this year and I have really been stuck in the motions, wake up, get
-kids food, work, get Rhiannon meds, work, get food, .... all the utilitarian
-things that we all need day in and day out.  Then vacation hit and all
-the extra time was on cleaning and holiday things.  It was hard to just
-use the extra time to do fun things with them that we normally have not
-been doing.
-
-This morning Wyatt and I finished Wally his robot dog.  It was so cute,
-and he loved it.  Honestly the kit was super cool, complicated, and the
-directions were only mostly there.  It turned into a lot of can you
-find A15 for me, do you want to cut it, thank you, this is where I am
-going to put it.  He loved watchig it come together, but I could feel
-that it was too much for him to do, even with help.
-
-In the afternoon we went out to the front and went skating/bike riding.
-Everyone did great, and Ayla made some really good improvements on
-riding her bike uphill.  She was making it uphill with less and less
-help each time.
-
-Finally after supper Wyatt Ayla and I all built things in scratch.  Ayla
-sang the most beautiful song, and I animated the ballerina that she
-picked out to sing her song.  Then Wyatt made a Dream Character move and
-fight a boss, he drew a custom sword, and I make it so the sword
-followed dream.
-
-Just tryin to make the best of the holidays
+<!-- markata-encrypted-source:v1 key=default -->
+35mOC2J8/jC/9qocPxhqZXuDWmUydxCGFfF9H1R6gdLSDn/K11g5vnUgw33TnyJ5xr85hwLCBC5vvpCktlUgm6JhZzsyj7/uaQ8AsiXWJebD8Bs3c0rtTRGwt9lx1TQ+YMCkWCYeupEqa11utYKcMEHTrYsoZJ4EwbL9sHxtNqlII7ppTqouZt9HRcS0cVX1qbd6p4I0X3Y0BGdHsMdg0ldSNE8oRpqfXmEgs/wKJVGlFiq+4CbaZtfAKzuyBBWWaENLHgNdgke70E/yZ6CgDUhOf5oVeiDkIS7Dmusd3bhoqRT7WqtvaJiu4kWEbcxU2wEPp6+9bf3RKyL6Pk/0Iu5hXGbwe80/IJEOTVFbrpxGZbz46QhyVsa25KU9bGMs5r0dcmGS+qLe7/tpA0jOPz6GADE+xLz/w4qOg0cSbqv59Jj4EOaxBmHMjuewKktAxcYk0FCeIqOz8PLvcxdS7cIQcEHe3FYEv0hDD5W8aFNgUfKCPnF79f/3PkQd6eyRUe8/ASut2NqRu0ibwOGQkQjMwTd7Uj8mMy02kmx5SaknGs9DBtWkTr+A03ai0neWcWI3yXdTnDZhEz9be/wAa0C4xbAVAEsOjWZiatohrsEo9ZRemXGIlGWkDWN5DfUhZutUwSXhQ23Dz4CQQ5GcY/mtay5XzJMebMaJTxEYsGz8zX3CKPJ9b1vfsedlKIil72UA4EbtVJZRPKL29FYb7msF/rwk2/SOZ5aReCyw63Uu0FTcN+a5VNZKjbYuJtQlPDsoLbOB+r/yhALBFERBR9z8T5zdxbg/Xhp6/2arAeEvBdfmRL4PcGmDQUv3qQukgZwA+bnRfVhppRXP/6W/+UHatSAuPrBmKcvWFymBrCStAdihqHJPpFFtj3EOpNOaCn8MMw0+bBfowAO4osX3xVL9Uz7aeTsrA+E6FL1JHt1D0jQeYSkzKAkrvn+arlWOo9tI76RBco67OXtBLOsZNWI8ym22CcVX7sLG9+Eiegn1thFIQqvSy051GfwrYdt7EhNcTEHq1OdU2+seZOJwWcXaKYoch4JfwJbPTK4NqcWoJCVJiCCkealAftdG4sQ/+DsQpftTneiWE8kqFEhq5XASZ0ILXLNe7RoZIXFaEFjbRlG+izmziNtkMhKuJA3TzbD2X7CZgpxtYI4iSCHzhHRm4SYU4H84UcfiU2PlEtmssmdC9j+62fc3ICk+njz7NfomhJO2/pXPblJMIrH1sEdzw2lFdTgIWk+8wQeKpEiGoNr9BZzXOYIjVBSd4+v7QKUr9NaqPg4c1eRX4nk8RIcJ0FXJBNrIJwh0NZ3q5p9aF4ynPk+W8QCXzoj2YUivCOXGmAWOO4XqwxRFQLZ5H695Yjh0ivX1LRmyaG6e7YEaDh7N0bq77G1y8gw5kxiW+3WJ90Zx05zd2sjXNs4fsAvoz+pm4u9+Ez9xBXMFEqenSdNgbvPr8Uxrql2T09fJCxfuEdeh39atD/uYM7GbNsZngReOhRlA1Ydu6Ozu/QoHMzX5Gv/UL77RzrEo12T9sRx+N1mm3IgrWTZxnvlV4wlZbmG0MpG51vDBBkkeEbRoZ37OpmV4Ne3bMidwKw0xtEaMLGjkkX0ipncx/IDosJn0Ojfd3Nog4yb6lzymYg5EqwkVxSzCHo1FE2BEB6R3S1otLythjODd+jYpg6PJ8b8twdYPy4Ova96aA8nvF3W7Z2eiJ9lmwk5O2s16F4nVQ9ZJ+rnTXlIUttSUt3468VQz+6+nBg6SYybYAknHVxnjVv5ZJjgWG26U4mrkN/o6EEvi3KOj9/ccJO/AVZvxJrF9Ez8XxUhBTv9y/U41ZT8WRQtAwZuJND3s9oLBejh9c+B6QffUnlAEPZURfP6agUFyCIn3tcsiRy7bHn6FIbgThvlKZ7hgaBL7D2HGyumRFFshZ0Ey4T/uUVb5hV5qZyqu622KPmg=

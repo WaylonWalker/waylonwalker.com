@@ -7,11 +7,5 @@ tags:
 title: Gratitude 186
 
 ---
-
-Tonight I got to stream and knock out a big feature in a side project
-that I have really been wanting to knock out.  I made my website builder
-themable sot hat users can choose thier own colors without needing to
-write any html and css, I am pretty excited for it.  I got to play with
-the kids early on, and made a hard stop where I was going to stop and do
-my own thing.  I think this will help me get a few more hours for myself
-here and there.
+<!-- markata-encrypted-source:v1 key=default -->
+4buvSK9I6PuZ6zNZwhp6QoCD41Nrvz3DgMyY39vT5yFdlAGX8v67C4RALjGA1Uhk+gM8Kb/o5wFKcq4zmdvbxihn53SGWMRpxCptJOBwBUJhiMTDt+7cpuPF4TBH4GUfw5ZEKuTEEayIvPTxuM0xPp2Gh2ufEcQWGl05iqDymw7LK/AVSFcerf2rYrZcKVUkc9JE0o6AxzgDFwRWFVl+aGTLjisFX8mbvCThEUEM/9u3xTLRafs/7PN7lyrE4NPzB28ZhbhzCgJZLeXaY1uYf8hESw3hsWdO4i1MOilxEZDl1YmMmfbP+lBGpyCWGQvL6x22zvQ7COeT/KcJ8AuaCIquFDV1tFO3T5UEo2ZdA816cxzDDyuAUvgi8i7nzbQPlcXs1pwWN4GSz3bzqS14pa5RtzDhGQRGBtBCukJ/pM1kIp1k6tFXUBEdD5weXWkZyL6gzwt63CoBy2WEiTcBKy3KOy7OAiqAe1PfLZGGxT4trx4Q35BzWOM+qqsQ1OGYlnbP08y+6DDzUa0h57XzrYhsMWkRfP60JhZ+wJLXSa+7KpwYHGDO9RbNbq1SHodprSOI+VmgFCHC/l3JZGKvcocoQ1kv4SguviofOajrVUWa9/6QfC0XpxJ6q4LgcyTqktBnoa4yfKUpR3RD

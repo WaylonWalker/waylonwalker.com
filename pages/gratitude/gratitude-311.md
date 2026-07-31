@@ -4,20 +4,5 @@ templateKey: gratitude
 title: Gratitude 311
 
 ---
-
-It's Saturday, and round one of Supercross is about to start.  I love this time
-of year and am ready to enjoy some good racing.  I'm sad that Jet is out, but
-from what I know there is a lot of guys coming in healthy.  A lot on new teams.
-
-Had a lot of fun today with kids, we worked on painting, Don't Starve Together,
-and DND.  I made some more keyboard progress.  I'm about to start printing out
-a new one.  This one is supposed to be a clone of the last one with some issues
-fixed.  I want two really good working ones that are clones of each other.
-
-Tonight Wyatt went out with Mom to the grocery store and sent me the most
-heartwarming message while he was out.  Sometimes taking kids to the grocery
-store is not the easiest thing.  It gets complicated, things don't go quick and
-smooth.  Everyone ends up frustrated and what was an intent to have a nice
-journey out with them turns into regret.  Based on the message I got this was
-nothing even close to that, it was a memory of a great trip with Mom, maybe
-even a core memory for him.
+<!-- markata-encrypted-source:v1 key=default -->
+4UhXem0Fc2E8kOvcg8PLly/VzdZ4KQOe25Nk188QZMxIt9X64qD7FUMWF7+u/OTpmGvwFdllBaXGcvvluU2gL7RFJwoXDtA0m41hrIwxodN9XAtnrplZRZIdoBC6yG1DbeQloI7nUsIvJM/cTBu/WpMNvt0QyxqBBSgKiRlqD01AdvtdCQu2gQf+AVPNqInmg/ykP//OGvwm9SKxkONlfFonO1Xyn1M1Yk7J/ULsrkde5QJxPBONK1T2qF92s0ngc/YAxbA4755JLISdbNT+e0s73pbhRJHeS3+UDKHhEUHHsLJd3QZT4VuzeXd9j7Vouq4Ufmy9awxmrBU4CuEsGsItHhqwOgf5NFfewc1P7J58rViiJPPDw7K9K7G9UNrJ4EDpPfxshL7FX9c3WLIJKZB26qLgbNzTDMHpYLj0/puo9vmwl7BytA/iVKeX+8VtE9UG5TgsdVOjutjfjJNvZ4ZvqRDawKYHHSJbjFSvREQ6eM5RlUgJis4jwBejBLAYIGLwIeVL2hzhZlNFzQmPDFeBcAJCRODyms4swZzSiSFl3Uzj2RSNeG7OsnRbfMR2I+OZUPqgX+eAu+wEOmX/F6ShMfsnk+MzRgNBIihC4VRRLATwt4UrCCC4T2B45Y9EqCuuuVP5TA+mgKS8eGgYGJ1CkQt3cTpoD7Ak1LMQPF4gKbB4m3X4WBlKz5DvFBLZ31t8pdMUZZpNgzo609b2kZYo1n8/V9tE3f67KrlKhfr/4flwIC0dfwG15sEEunQKBfRqOugATYi1uckE4Bhpnbp4tentMlpJeuHIACbMV2bmKPTsv9Mji1kjBqL71nWeWXFJ8SSi07DemJGx2zUotqUFKNXYVPW2tlud5ID5tP32S7MbLjMH9o76fiuXzlrudt+mpKuiTORehmsab9XTx/OHX4tW956NutCIGayqBgFk5zas4soe0D6zFzVwL7kdJgKV2VrlnbyEFU8Ygk61vesMtvUOalNYWzP8AWXiqOaRt/iOLBT1Z7/59TwEopHzTybM60EZ+C3mcO4m4hK7vMFollhV+zha/zepjZJs0d3aSCdf4cdbb7+KPCs2NOXKVieBnnFAJSP1K34ubdwqoZG5ZsLhqCZZlQ91iQkyrkmrLB4xmUEeHqjwZTAOwKlvG9nIKDyEdI8xpCMcJdijRTEMkVv+l+C8x6myJ4RatfBWDDUJtYqFUmv+9Wv9sZkFid0DBdBQXQuKbnlN9mwNFvHxpWmNwZExf+/TWQUjpGTWrEKBoxTLAJUgvqXZBCOZ6dQUKGjST8wgmmhIYE16zgyaNzZvAgTWr6oFvt+aPDYhTmw07ncSo30H7TehCg0iuuYMdpw6c/tKYDvBcXyKV567FplTQ4faFtHOW9kX2L2JsnytGRPZ5fP1mG1csI2vYVt3DNU2AHYKmyKL5a565XENVxttADbghs0c1AiP3g==

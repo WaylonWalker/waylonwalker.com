@@ -7,14 +7,5 @@ tags:
 title: Gratitude 143
 
 ---
-
-BOOSTED x2.  Rhiannon is double boosted as of today.  She is so far handling it
-like a champ.  I can tell it's having its effect on her, but the real effects
-are going to come over the next few days.  I really think the timing is great,
-she will have some time to recover before the move really starts to happen and
-she will be fully boosted right as all the major stuff is happening, keeping
-her as absolutely safe as possible.
-
-Tonight is date night, super excited to chill and watch the race with her for
-the night.  This season has been pretty exciting so far and its been really fun
-to get back into it with her.
+<!-- markata-encrypted-source:v1 key=default -->
+cT+KAA3EHHFMJqKRWTyneOWneCi5yGwN2VrVpJDjWdPtx2r+GGro7c9hANsy7szksmvLaVIzq3yCkS2YamCCFFCufIw78kC2Ktmt6jtkRSd16t+wOF3wX0ALv2g9pNhlJpHAk8XSmT6brYxLN/UudiuOfQcpdCXiNl0Fx4KB21mYzbAlX5GJ0v1eWQg2k5xY58v6RBeFXT/TrjLg2E5pIPtXty4cg3H7lW5FkLoiCG+ugzvkzcOd4zSvRGRwaFmg6HAjjLiRLI0gqMO1o3p5YBxcJWSOIN9hK6XpKE9xdWrRR4TVWc8PpUFZ1/c7ssobmQq8QLTo8DJz/5JFAJuoj1D2exzEXlwr4GgyVnJ3HIrcDilbK9tbjJWJZPvuUo5vUeJOvLh63WR0NRxxOEiNN6ZDNeT/WyMtFB8m/6vs3rg3IP3RybL8JA5g2iv6i5X3ZS4/9OxysCfa7ck1J3Fl3Cawnxgyb2cQqQn9aBSPsHOefr2v+Qp7wG9b4alohMCLJcJ6HSqJs+WMFLYjBN9rAeljp974vdo3LXU5ZEnGli0utW2fz3ChFnssUGwcX6dtAkrcPaUElozSM8LaYhN5Eq0Ov/lT2Tm4qizar3fkImkZyRtu5I3PNEcleZDSVTKIXOoLheC0xutEeDHbAwhQaJp9lPtd4jUuOIIl9auVW2im0kKM7c6xL00LHsc3ao/iGmSKECjWefQuuUQoJeP87e5Q1K7x8UVql7HyB3BCby38OTZAXHRlJtzNS/PP3cTKfVUgD5XwnM5D8k+VRE5j/8YjpU/9NfrZ3mEoHAzGaPsVaraoFLmRQDqS+lw/FHC/8eRZUHuUfynM8vdQXtrGK85IaWMfyH83L6whckwgCgGry5rLw33P

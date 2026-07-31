@@ -4,14 +4,5 @@ templateKey: gratitude
 title: Gratitude 229
 
 ---
-
-A productive Sunday, that sums up the day pretty well.  Yard mowed and trimmed,
-cars washed, and camps went to.  After D&D camp Wyatt wanted to go through a
-walk through the surrounding woods, as hot as it was we had a fantastic time.
-There was a swift breeze under the dense canopy of trees overhead providing a
-much needed relief from the direct sunlight.  We followed a busted old sidewalk
-through the woods occasionally wondering if we would ever find it again.
-Occasionally wondering if turning back would be faster to get back or if we
-should keep moving forward to finish the journey.
-
-![image](https://dropper.waylonwalker.com/api/file/fff4e50a-2687-4a3b-ab73-489b1e857b77.webp){.more-cinematic}
+<!-- markata-encrypted-source:v1 key=default -->
+TVOSxtISsR4buHU/kJkU8HBlhM6KYu97cnsQ2XdY3CWqTWLsHV/8c+nanKvsR9zekilWp24yELQ8PffCc/VreBEMuwHhMPc3OaQS61ePhjbjf28Ck5cyc3PkN9EqSCtod6CSJD5qIo0G1c5/3i5lljjhGTAKUYe9D4leOHUkZfdkOyKx6mSO0SUWAcsqtLphLGEvorsFGXQi1IDjuWoVvT79mLf6g8DM+4ahq6gmS/m1sy7VdMQa7rjEkYbChZ/nzJ5DydhHjYAaHEy4wPJvwtKBJ6nctwgOJh7nvRks27m8REddgdIl/4SL0cDTNkNemyk3JhiWdcOJG8HbrYvC/eO3M2SsR447usWaeSkoc9Ncl0DlRdMwVWUvjfl19XyXJDoAQjn8G4Q30ijnRQSNEI8lnsgSuzx8v8WXRnFKTU3Acds8XshvTRsOMc6fHisD490ys6m7e25/9zqtcOVVy57996ZFucIeKWjUr325LB0oD6hPu6/EeJDJd/nDcqQ9kmA8KVkzI8/5EjM44iVDjXv9j3XJRT/mLEFEl8LJy+PRbaengQhkKjykaugz5Qo0u/Epw5BOFPECHHS0pKSjyxp2BLBJqyARI7aL8uH1etaYyGbvs7otfps1mCz6VJQJeEArp9jOZoXwO6OKl2RBsAEb18XeJ2oG6NnM02adXh/wO+oBoGGNaQLthK2iNE9s4o3z+zSuJlQAuvZEW4QquYHJpg1uFWIwh0M86yhHPyiAH2tISffhzrU/PzolStRTfwqnlt6giolDINIJ3rR/rgHERN+MY2iR2vfWP976iZOaSGreFj/+NCKKeHFgA3I63IPI/Mnx+wcziZZW34eo7+AIuiwkUsji8OlN80lg6RR4jHLnTo+2yJRw8xeUggjsUgbX8XpheGl95Xvfv6DbrSN8U1N0P1yaw1NhyVy6DkuyRZfw+MyEKLM4cfFa/w3BD5NrlHbWDWgrBAoWnVpRhulntKjt9F+hk9PeicQ=

@@ -6,4 +6,5 @@ tags:
 - gratitude
 
 ---
-Today Rhiannon made the most fantastic chicken lunch from scratch, it had potatos, green beans, a nice sauce, and some really well done chicken.  I thoroughly enjoyed our time together with it.
+<!-- markata-encrypted-source:v1 key=default -->
+Z3D2Kg8kpM8Vg/SsHVv/VkW+M5bmhxPkk7VgYn+aIjSwzkT1LUB6PsZDXgegSSgRRxi+A9zYirnJFxuKJnPpEAWpMS5lHe8oltbgYw5A0s9x1Pa6vyX3KtEJxXYz/apME9H7LqPuOxCghCjc89MXtXjavB7iliBdjKiNmXOpmiL32IOH4GsI7X4mZ7LMe0uBTvQmEYJCQg6SLTY4Tyll4JCBJ69WFwLq5bJqXTWc0uOS6CG0nv125JOXn9vJLXiK2rAM5l+mhwUOYIGAQUmUTv6DHeMhOI5nQdTBFLMUCRRDZwcPZReIy1bcsqpM

@@ -7,8 +7,5 @@ date: 2019-02-01
 templateKey: gratitude
 
 ---
-
-
-#### Teacher Appreciation
-
-It's the dead of winter, the cold January months, so cold in fact schools closed down for two days due to an arctic wind.  For these two days Wyatt brought home homework to do at home.  Nothing big just a few simple things.  This really opened my eyes up to what teachers have to go through every day.  It is really tough to get him focused on doing the work for very long at all.  It is tough as an adult when you are _sooo_ close to the end of the task to let go and give a break, or to let him do it his way when you know he is capable of doing better.  For this I am grateful that we have teachers that are experts at working with kids like Wyatt to give him the best education possible, because without them I would loose my mind!
+<!-- markata-encrypted-source:v1 key=default -->
+dsTtO5SrMxn/XCuo+Sma6lomJa9GZCAL8nAcWqqIHTSHUfs8M3wcjFcPzp2lFLzqz93bZ+4yyUzZ7WTv7ZNljaUlJSUCHmn+8m6QhElXS8cXZvFtP1/vgrmmG759O9tMOS3oZRzK+3XDVKjpbOvlaOCFaciBmsoZiCB4m6R8DiC+YTmRLmX3HPm1+BeM/dJVlPWR27GRiNoswzzU2uyY+5Ax9WXBxkomsgWDWDLqWqK2YkX3evliOZ0U13lB2AEKDSVGkeqYa3gUuJNYoIXw7lR7rLrvxYn/lJH4ncaXxCtNcQqaJjkbFn6nX/yF7cWdV6EhkZD9SxZP92a/aLyLUqdYMvfFkQGi7VqmCU/qi1w93tQK9vVCMCDq1QVMu9FmWVGMr0QFF9E8wkRRMmoTRBrNT6KI33RKQhxEY1gyM3cPOi+YIJjiK+IbmP6kX0cdvVA86RO/W0DFk2BNWDTANae0WSLxzRvyKPGhwoNNVUDfkefbYP52FDYjU3VseEhbdDuLxIa9fFtYKA7HCXxmFaYq1a6KGzP6MmJoWF4mU5AZasmXCgLcQ+5oGn8k2ID0bIbfg+sB/1DO9Ppzy3flli6TyC+gecSTlodgezGLIYS5bLTEE4rdV540Aur/XfpCnUcNWlvxwxw5jlefe+Tb6e8J90iDCgN1zDNtFg31BlWGnz83yjTccM9NdVcvvo8cFBZwtlp0j/smwRzHaYvDPpVg+ZRwv3KPRLlzdUTBmhCRR5f1SFl9RWLDkMnwEbcOcWgw/DtvoTAOLBT40aw6ELScELPxF+JDqh+i8iT2B9yNJ0SgsOCLAGqgeyDb7cKwXGyEcCI4Ehj7M9HKmaXOYDuRjST9CHRT3AV4HA/SnhdDZV3RA6YBandI00DDRdwfzjO/+98L0MNEgIPCu5gEEICV4NtrztCAd5mQ6LGAEbCUObeqj0ESw/SyE64cOGX7yd3msNEOYtr6GGh3+wi0HBbHXk6H2PSpXXAEjZZqjRxeYQjIA/lwjikqfVYujFZ1+WIWaqLSBo4zguWqUOb6V/Hn65UWpTJ6yt6+agVXBvm80DyzXUiOWzM=

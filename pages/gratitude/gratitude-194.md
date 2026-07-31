@@ -7,10 +7,5 @@ tags:
 title: Gratitude 194
 
 ---
-
-Bike rides have been the theme lately.  I am really excited that Wyatt has been
-coming along to many of them lately, and Ayla for a few, but Wyatt usually
-holds out a bit more and really gives dobby a good run.  It's quite fun, but we
-go so fast that I have to hold Dobby back a bit, I just don't want him to make
-the wrong move and get hit by the bike.  When we leave the house we have a
-gentle downhill and he is fully pulling me on the bike all the way down.
+<!-- markata-encrypted-source:v1 key=default -->
+Y2JkHtckQIG2uTCRS7F5edcjQnAgipQtW9FQbwhy2dewhZX3Z1F+C923pCifbYJIwkK+1U8dgZ/VpfuUpY19F5INmcoXIRArYXWIfLSGm1M+iS7N/Fi9JWGw0c5qARmPH+K1spHcvqcwrPSIvn/4ho8TF20/BBEaN7yj2/U+vLiGYHvKMYrSLBP92b+zOfZRG6ipmUXMXKbfVc53yYl6o8mVX5CqvE4BsHXveLWEmkLN+xl8slqsDLMBKLA3UYhG1fdni6Q/ogkehsY1bkbaYqHqFjJwDixtT2oIc/zSqf+XrfatQjQF5IsHqkOJg8pqyyaZAEilfwj10UiNLQwPMTGblyAa8Dilx+ekKiSU2V5poSDSejRclnZqhnKDsI+NP8gmwFl4LRs8hIWhcMHMytfjENJFK5brkKCDS0+WC03hsMTVRhUOooBDrkaPHQB5G/boszbfzasQK0KM9lnG8dZXBk/5pw63uLO/RJq7e6ox/4Fpwe7jQ8q2bgD2r9fqCwzfT8so1udDzqrUzbJiVP4r/kaX5qSHzJ5umop/OTJhIBwaNBMbdzieZP/O3PxvIwq2HhaTf2lwok5qigeTAeWy1UBzdep9gssdsRv1/i/R26UUXQR0LaoSeYc3dl15NHQyk9yZoLkU5bfFUYsUzD7wfAfpvI+GSYDu

@@ -6,9 +6,5 @@ tags:
 - gratitude
 
 ---
-Landed a good interviewee today and just had a solid conversation for 40 minutes with them.  It was the first one that felt like I was talking to a friend, a coworker.  Someone I could go for a walk with, or spend a late night debugging in the rare occurrencesces that this happens.
-
-A few days back I got out on the trampoline with the kids, we had a great time, popped some fronties as we say, and grabbed a silly picture on the way out.  I'm grateful for the weather to allow it, my lungs getting better to handle it, and our tranmpoline for surviving the winder months.
-
-![](https://dropper.waylonwalker.com/file/e805c35d-b245-4aa4-9e1f-d1a947b61338.webp)
-Great time with the kids on our trampoline
+<!-- markata-encrypted-source:v1 key=default -->
+YAuV+9gLXLXuZN9PeCZWQ5hP5I2+VdbU4Rz9EpGQisWl/zftq2BrM/syGULKQKhd0UymvVOBzl8/mty5fWpbPiZU6hNoxKbR2Y6eaot8dRzYJ876sgCn5Ju9xVjs83HBQX9TYBZEDJgnF2EycUJi6rtGCTqzr1BzYwSscl2t8wugN8/w8PLHFvKzdCFTRPkKTMfnkC7/aI6dK+2R6E66XwNMqZim5lGp1wZRU5fpYs6nsoYmDl+G0QjhY9Gabvd32zmjjvNhZF+LWe1W8YDvSFLANQUHfQSYMxRsXosv26yTjkq+6RK7Z3E4eB4EeH909quuM8mTTJpkK86+poCcgjemzEoe8bVsefScNPgUxsc/ORs5oPUYUa2uNXjDCL53dYmiMkkJWPAwjLP1kMFxwXOTYUHUoBuWxUTODny8UwPDWx3wE7ZmKtFLvkkLoi7NgKseS0JqRhILbnpk11YMKjXaG8QMZNWfktMg7nsXZaTwJDu63ziRdaaZx4rfNZyjLYWOhBDog8zFhre804MXU7BucoatSNdoF4fgYXpKTsx+ok3vY67TJEcXf0YkfnWLRFjChEDHhbldIUeNOp5M9ismLtXF+N4btV7LBIHU6o6LaAhsv5E1vHtBnpK7HhuS8V2QxxkBnG/Z330lr4x3RT/oB/X2R/pBuIAiMYMfubr2WLrbTFfIO+nIKPSKdEzmcKqRV+wnwXqzQUgYWxOxoXaQwo9nHEXOFUfGDorLZnSxZmnYt+J/+I9E3QOugQYk4kWqBhTgL9NFkvJGTdYkSqly0Qti3P45Sv0F3+cBsVZxmaeHJ8//fb+3dFNKgPthpckEIXvzUzspuI0APQ2ED1kknRM6l6o/YLbFNCIHRroxX0ZyY05Qm9SPjqopkovtPx8iuzu3zXwWf/FcXP1YctqjpgD9cOzV7MuBUArRsvyB0wnq/vtWtH94qa0EAtq5DeniA/YYaP7dluWpKvXCxee3OW19WLB6Z4M=

@@ -7,14 +7,5 @@ tags:
 title: Gratitude 159
 
 ---
-
-Laundry room is working!  It appears that for years the dryer vent has been
-just kinda set on top of the hole in the floor, not attached at all..... This
-had blown dryer lint over everything in the laundry room, and I am curious if
-it contributed tot he excessive duest on everyting in the whole house.  I got
-it all cleaned out and hooked up to the best of my ability.  The connections
-have a solid couple inches overlap and taped tight.
-
-The one issue that we ran into was. I fully setup the washer, then pulled it
-back out, and forgot to put the drain back on before running a load and
-draining in onto the floor.
+<!-- markata-encrypted-source:v1 key=default -->
+AgpHRxA8UdcqDNbaPlVzo8s/FM5uAnbefrd52eRHZEFG7TiQqAmQiY9admuOe/MW8D6tMcAQOkqVaq+cHDVPJbSg4HjEh+AUEHd6j7jq3/QAvA4fwk7tyDXDi3WuGCS+pScGnSW2DPC03CjQvMjYbhkTyvAPsjMCuqoDJe8WvuPiCv/Lnvm9PCq7tGyZBSc5jBdumKu3sxmCP/ce/PIYBEYjzsOlqdgz5HPFFQZ5hE5MpXCKFj7MjmI2SoQ76MDxez+o2pK4obE0WpdgkQm1CwXUNwTKIpKmARhYaxxI0M032op1Kzefdj3ommjnwwLioIlqIlZDiTjTWT4SuRiOGoA5EB8AiqQ7sxcj7pk/LTBsz3nYHdulMaZQCkLvxM8nmsRb+1BJB6nsgWm6f24YnyPDWCyIaGAJ21QbSCH9WefJr+AL39xoiQlGjpKibtqSMSpSoeVU0W6esi2YJx88f9pH64ibZtEq4Ku4lXtDkjsPcYQWU1EVD2EpGmbqeiOWhCn5SLkWWwsUJHyYKv8HccODWbR8hbhvFNLMQwIm7Rwszw9psOmZXOqFy11i68ap/rakDLVqDew2aAgbLDjG9fwZwgM0vTJL/VGzFy8/nlXPEGorepG0NUi2/Ux969EH741DI41KmERohSrYecpfE470flW8pDcIt6WqEOrSU6ZYTdgBwCyzhuE/+tVPQPbU6QKoboJFWgpWPjO8JY6pyWR5qf4N35OPUPN/aOqcdC6JN92FDe9hoQ+NsgexQTitQ4PeGtCXPjJf6bRb6/z22PxB9xmAbls+eOdLJnflAME0vJk55JlzBQSNNN/ic6hAu84rRK/YIUjwqXRox+u1ukcgXrk6FDo/QfRwDjEHk3EJirQRni4=

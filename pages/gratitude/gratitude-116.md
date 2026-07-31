@@ -7,10 +7,5 @@ tags:
 title: Gratitude 116
 
 ---
-
-Supercross is back.  Rhiannon and I took a few years off from watching
-supercross, the first time I had since I was probably 15 or so.  I am
-not sure what happened mentally, but we had a bad experience while going
-to one live and just kinda stopped watching for a few years, but now we
-are back and it made for a fun date night night in.  I am so glad to
-have her with me and just as excited to get back into it as I am.
+<!-- markata-encrypted-source:v1 key=default -->
+w4QXhhRb29dmJkUkR5TR8Ek3wwGhxR0RyClRegb0eJhRAe1cHznR6Z8g/B6L467W62CW2KjZV6Losdph7ouBRNpe1oF9HZmsq4NMc3oIv9W2e5DxydVtXdM3l/80Un4N6vC8cagQF2SRY8/ISs7QPlgxQ87qS4obv5Qv+Py3JSgTuEhvd16fPbPU/V+pcxXMlZ5fKTPlq/1S7Mh5nRE5+fdS+pk4sxbL7ccdT8mDYiJmsetNHvGle6bJLiCbosnOVxhwzsJs4H5RkpZd20oBJspeor8TLePbpcISCzWwKmyuwG+ZN2wk6Jitd0ZYbK0bHO2q6cQ1OvSBF8eYzGxLRP0ZtChWuAJ3e2/kAzVJja062/ZAQbXbRHlvWlG+r2CnxgNr/D16hpKR61/29E9loiHYyeRENG3mphQQz1jngO1qgZQLedtzZT++/ZJoyCXinHKR4KMg77RhNN4HPu1CYyXwP8k6bC0aBvPRyD/LQZhU6PJJDPNeAwexkHKhX2bC0976dD6Bo1nHIJhqS61qk8Q+0z+/7qeQB4AgyC01AJQNmUTaUPSTvWMoj621IVemLRGfnxp/EL0fj1IKwqOYcmLsnjQN6KUqicnfGlNAbkZpVg==

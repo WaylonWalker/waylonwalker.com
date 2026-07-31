@@ -7,12 +7,5 @@ date: 2018-01-24
 templateKey: gratitude
 
 ---
-
-#### Finishing
-
-Last night was a night that I had to run back into work late at night to run some analysis.  I was able to get in and get it done fairly quickly, and it felt really good to have it done and not have to worry about it in the last hour before the presentation.  I also stuck to my No More Death by powerpoint rule, and did not include an eye chart in the slides.  This was something that I always said I would change when I took over the role, but never did.  Now that I have vowed to never again break the principles of Death by PowerPoint I had to change.
-
-
-Secondly my wife is a rockstar.  She was up with our crazy son most of the night, as he was really struggling to sleep.  He was just up and ready to go really early in the morning.  I am grateful that I was able to get somme sleep, and really hope that she is able to get some rest while the house is quiet today.
-
-<style>@import url("https://goo.gl/RrPQm5")</style>
+<!-- markata-encrypted-source:v1 key=default -->
+uwnNbBt1j3KqVCejYTVnJl3NsZmRpz9TaJTKmIX/BDKPT3ci4BVc7xfRD5MWGrW3NEXokN3zTU/sPseh63nv7q0crxwauikelN91Hp8nP8hhuUCoT5lhLuFI/WFG90YvZDd6ux5IJxwB1jjOKHa1CpqTe5BZWcS5nJAFRIGCtXo0nrx4i1CKqX0tc1pGEZfy7yDwVj+5Ct0dcGK2LcROvqWQznp8I7mapmCruuZ6IY4pfmk4M07RPXE3i5+YfwqbZeAnSX34aFvrKWD75cLsiKIyeeJUf+w/8DRJqZBwOkSBkszI7hAzSgImV2QpftSXt3Va6VhvI8swkDDvV357fRuWTKSpJmkqUz6USvpL0iH5Bx2tJPHFscGuIDBJAO9blHmY93xXCAjr2mgA27sQjJ6tp42r7xykv+bgFRmHPbwmY6Zqn96tk2mr3UmzCiVlU6a4LXQFxsGHyQnGIJCPQLfywqxiJFtF/Bk7vYNYubujOlk1l1ypPv9q7WNaJl1Ges8JUqQXTe0VIeibiwWU/S38fKpMqGnMr70mhuxIZma8yOnbcCzFruyqXk2q1XNq67zf1j+/DHjhiZPBaCLxShD3qogoIMY8DXJulCB/FL8i7J9toaLOfg7/W5sg0BUyCv0YwPrlXMcHVu7uwLpR/3iQ3JmoBNZZzKi8w6WpS/2VGlF1KbT2VT0tIxR0mlww6UOmx2A7MOCVyazRV6wcipcWuk04kuFCuoq6ii8I6rw+dfqg/D5HTy39gyKzxBAPq9EvKhhovowT1Sokf5Jl3ht5vtFkl37XrSzNN977CUn64B1w8E0hEdwvFU+zONme5W9Ycn/TIfUQynqhLJphfd6S8asa2r5ECdZPdDAHvoZLW6EGjN7lYhkOSTy7/EN5Slrq5wrC1yx6BLyxCci63v1U5+vEqOpglGymTpae8S4DgGsOcY1IG7+8M+uuAvsgR2H7sKBsJvuNqxrf+YI1+jMux2RD29BsabaUT0nZarEAhD2WuQeEzzAT6g9wpm1x8BuIuFUQuTgl4NdKl0hgNq2KfVo9S6ab4dyZD3Y20TYatD2z80e4Pves8n9SL3ptx+uFw7egGVsp1kPQ/VHXGnlJM4WwD7o0yYQZSsR2qNQRqMixZjxvVRH8Yr1Dq7CgBjXw2i0GWwf2Birn50sav5kSb+1rqEhsq0Am3dRA/PbDGBXS3yEhgRTD11xZw7Jo71ETZYloBl7gJN8QKvGa/vKPChc1kKu3Suu7s6OrFJSwAol48EwkCvitrpjZCF4HKaUc2nTq/Sv3UzUO/vNmGgIeBIIeoDulux8=

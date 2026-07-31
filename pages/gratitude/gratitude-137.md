@@ -7,16 +7,5 @@ tags:
 title: Gratitude 137
 
 ---
-
-First full day with Dobby home went fantastically!   We did have one
-accident inside the house, he let me know that he needed to go, but I
-wanted to put real pants on first.  Well that didn't work out so well,
-peed right as I set him down.  We live and we learn.  At least we still
-have a really good pet spot vac from Gizmo's final year where he really
-started to have some serious bladder issues.
-
-
-Last night was date night.  It was super fun we are really getting back
-into the flow of watching supercross every Saturday again.  It brings
-back a ton of memories for me, as I have watched almost every race since
-2005.  It's just been so fun to get back into it with Rhiannon.
+<!-- markata-encrypted-source:v1 key=default -->
+ljMw7ZBfCFGzceWIyVkaeVlp6HC+LX/Enj4md7HBj6ScAwjJy/eICeBvXSdqUDJ2vMr8+O11XTybyDLllJM48mM/+NutSlfRyEPnEcFdjVGd4xc8r8kxy9kAPPtUKLTguV+5fCIxZrMACOf2PoNdySSBqBFlQp4LAnEExbKru59aA0D4wCGwdrJBC7DU5v3kRuWn0qHkbPo0y6uBHvwIfizxltaCnJWTwV+jYjnLAGAADweZglRh35wo8UcuPEO48P/ws6v+9s6qrPftPagniG6jNliIGp8dgg5zlcHEh4UCidQpLe2kRZFNE9lefELW+fphaq3bRolxXk2xdojen9WnPMP3rq5iIPuAdYiO4R8Qo14NM0lh+Ekys/tlSKePmZeJoo0j9HpnxTmu5EwZcEKyZbO47+LBnX1GxPflEYW7ki89x9KHhb5CRwEqjppKh70Xev5JAp1uE7ZpuCSGFKahe0TFbdxbJE7KvNU0mBHjPCV6tbRy5JZbm5tdqjj1XcBim/qnCNxPGdwIRTeNajSuNECgF6wf8RR6XB5eKO0aii0doI3fCJ5BKaqLi7ZxmVyMpbOieRXuxEo5oCYZNQVqpWRjPSebzTlXU1SOTtoN1HnsTeJKhlFPmuTnnTXg0fysOcsxn06DcVE7Xd7aSsBNin0VOmjm5Qw5t9CyhJeKWE2puXRno2MkTlrC/UVhd98Dc6eh3jA52ZsXQtSreYH/XuF1BJxEA6Oe3H9J/GJoJn57h3igkjvgdhrbJolMB/jwmx3ZEQi6wGuOhRhYVmGVzvV28XCm4Z9kIRZG2CrtnfoQxsOYzuVOCPx8O5O+omJ7M20an6Q8Elu6pdNhC06mevuXlxAKc90lBCiTn0c6QqSq60v4A4YjFdJxWHQ/qXk+25LTxBR+S5RtFbx27gX7wanmw6MCKHF+ieDdwmIluf7v1GXs048gX7v0Zk3NgdRlsxw=

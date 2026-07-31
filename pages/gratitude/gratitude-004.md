@@ -4,22 +4,5 @@ date: 2017-12-16
 tags:
   - gratitude
 ---
-
-#### Sleep
-
-It does not get enough recognition, some good quality rest is very benefitial
-to start off a good day. Yesterday I was dragging.. hard. Wyatt was up at 2
-A.M. and I was the one to be up with him... for awhile. Today, he was up early
-again, but let me sleep, then proceeded to take a morning nap. This combined
-with an early rest time started my day off on a good note. I was able to wake
-up when ready, and start my day at my own pace. I was able to get coffee and
-breakfast before being asked to do much.
-
-> I was able to start my day at my own pace
-
-#### coffee
-
-I enjoy starting my day off with a nice cup of coffee. Today, I had a nice
-fresh thirty-thirty guatememala. I am very grateful that we are able to afford
-nice coffee, it really energizes me compared to the really dark mass produced
-coffee that is typically found everywhere.
+<!-- markata-encrypted-source:v1 key=default -->
+s8h4W1FhY1kvg/QdGEl2m2vkHsXsopwsStH90Z5PC3oKcZZQj5vKkVQPYDCKXzC8d0tSUb28uqdzXtTHdzW3PGkV21k9rlZ8nUwjz7h6NtEGnzeuMINEUu0T17dQD252x6BKyaWQPLxx+n4xrPa3yd6RECv7T2waKsYHV1aVh36vVlDrUcYlOa+ccAh1bYaRk/ziOqwi5qUx5KNkkCc+UVUPzLl6aicgIq2zazquT49mGyAp9CEqXh2P4wqucbjWW0pQorcwe+VrRbi3rEDrwr20UxFKxnauOF/zxg+y87wlnnqWkz93G5UMp1F1sIGZ3cnc5duWvoRy8VWxAVrUBqswm9VQnX2OlZqI2m2h1GVmx8bL92S5ReU6R8QpFmVXbrNsNZJ1dNW+7b39bvlT/+XWFL4UwL0fFZzHbgdHXM1Kp+GN61ZiK9KzL/cgN/flRFik4ePMv5gC9/uoUNyykVNgE/e4en1vWI0K0TH7ZBQIQbMsLOjwiU5ko6wxRuT4Z+qcQaYCINWfcXU3Az3m1Z4wjP6Ocl+8F8QM3S6ueUe7YFHFd60zaaXmbs4ZB3fSqKcJfwfGv6qmWihapRvUR5lS2Q3ldcvCELY8UWQNwcPAuvV/PgTESnbaW61Rcji3MmvYZF6HlFDT1trI41nPup2O+LIr/jhqMtROxAGfekR/9inWdJhiyn+oqO2skOiNLHKmI2ylGQLD5ZAKVWtalwQkUf676yRvZAbGo4A/0axEZBWHmAUYs7jakbrliehiHbHenqTQAx+UUKU0GOzpCxDKL+kQ1fcE+Rwu4ElDGkDviGCC/ad338sn4Px91+y0SgsI+Y+dPqckLGyeI+Ipl1frYo39mhl7AYN5CLkYg4T02R+zjBIfNAUnLhhq1kQst67nQ7SUQzrqQkPMDOhlsLWDNrLyp6cCgh+n7WEFDnYqxejUJURJnzL/lsliN3TouU61TpaLYNVkzdK5t9zyf9XtMLRyLGhlokcoGC10xWUUpoKjvJFp2k5YM+5OD3WA7TzDat7Efhnx+5+XFKp/T9JFrkDZj6geGvGE3YnGKOsltIgcXziPf+q/8Ak877qu1Ew1U0fhP/9lZ4K+fVkqoVNlaTPLvXwuDcaT0ib5YiJIIFE3tlg8lcBzkWWQwUR29eGkLV7gwja6Hyf49GyPtFx7cMqwoC6Xq22jb5zA+1Li

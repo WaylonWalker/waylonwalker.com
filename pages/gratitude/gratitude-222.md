@@ -4,8 +4,5 @@ templateKey: gratitude
 title: Gratitude 222
 
 ---
-
-Set build is complete, the show is tomorrow, everything is looking beautiful!
-Rhiannon and I were both talking on the way home about how grateful we are to
-be part of this community of parents supporting their kids.  Everyone involved
-has been fantastic.
+<!-- markata-encrypted-source:v1 key=default -->
+cr2s51tyMhrOwYf484P01jeqyICL9kPjk8Rou1gCg/vK1lXTIC2e/T1eg3NRLURG9N1V/YUFyTA5JMJe1ofJzrHx0+X2twEmfLK5j2bXwSK9jAz72Mg2WxQSzqaPkApJ+vn/OxAo9RFRC8DT1iWSiV/hzuvaE6IDlnnJoVOWZ0bYVMc1Nz2pRDj+aTLskRo162mNBloqI5lS7kQq9HwmE5wyqRsxlYFJQJxTT6Slk3PPLNEyglMpckPvsqvWzvODv59MgjsriOpjcQCrHZ1WNggXkXFSofqV+INhyZ2bsreQwRzmmWj63DoLBqXWqRmwtZs2HUCxwiP4tBKaEhSi0thCfYmkTtfoT6SQH08AMMEh+94j2m7DnM7RlCcYAZSkrLroX+KXKg+kQANt

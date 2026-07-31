@@ -7,19 +7,5 @@ tags:
 title: Gratitude 104
 
 ---
-
-SNOW DAY!!!
-
-Today was the first day of snow! The kids and I took full advantage.  We
-scooped the driveway and sidewalk first so that it doesn't build up into
-a sheet of ice since it never sees sun this time of year.  We built a
-giant snow man at its tallest point it was taller than I could reach.
-We went sledding down the hill by the trail.  Wyatt was the only one
-that braved the trek all the way to the top.  I made sure that he didn't
-hit the pile of logs at the bottom, but I was afraid I would have hit it
-hard and hurt myself.  Ayla went pretty high up and had the biggest
-smile on her face the hole time she was going down.
-
-![snowman](https://dropper.waylonwalker.com/api/file/eae3b10f-7fc1-495c-8440-b4d2a0cf475b.png)
-
-> Our snowman at about half of its maximum height.
+<!-- markata-encrypted-source:v1 key=default -->
+R9o+SpS5EmYBslsP7P/gVhM+TxLH94SyGVXE3NagwNp9AMF1mM9+nFK1pWl2Ze0eKqsi9ZdPlG77oMTWE0tc0u+aBWr2j241BH/Zuc570z/dqsohI57hfwQN21g6MvBdPaA1xsAZJvclQdohQEVjWKtVO8eNZRdrDZhDsatcZ90G4lo5Sytj5L4nFCXzz+vM2aoUOJf5glS/d6/owlM5EFr91dJTDQueF1p38FTGLNTlUl6ufEXoLn5jwB1Q6b0seCFu6+nzntPBCsqV8fsm4J3tihxde6H8t9loqdrg6T8/z4Ht/5hvnU3egHLvx4WhcwAgnKvpS4rkYf8a3RC6xeKWIfAFwQUEww2oLR6QgPWCRlzQo/aKoKu8CCt8DIb0vsOXWQFnSJhJSrMedqjYogl+/0l/Q4FejEpCpnXS5awBQLyMh1bLwYKCrjTVIxNu2E/9nrb7L3V95e9KmOPg1agoMpZes9ubVo1HB/wkHDF0w6gpyUYRY7YSC2AEgC87190QUHBMTLAbmviOkOmfWcpXEYvqJx3srZWad1urnLi8nlpacQ+NmUZC89xjiO77E2ddFuM2f8WIttBERneVvbjn10iLcwwV7M88RxVpqfe/3OZx/TLNNkyXadnYf/Q/gwnlH1IuNJK4Pu1pysqgV8eTy76XnmTClcWGYyM+UW+LAY4RHKkf6Dk+zdJuJAQ7AQ/mrXM/9MT0w5wh86NTchQxKIlGlNqqvFaA4x3M3rGVMcISgVbqrcO/N75+svendLG6OWIkFNt7wZOh4dFYBmWh92n1ruvXezgri7l1q1UBBwIZniL8v6zSbK+w1rGaOM2FFm74DoWdEBpxPNSlJs27sTorjEuUJwxpUzwejP8IZMyAh2zfbMki578+KSlbxtox3pH5ot1JXS7ayel5pV0nxn+WAVOcR1zcLxoRFLUGocBBSdb0K5BQZPXBuHXqjb6JUEDskqYuzUsnZiBqz4lYuWzI+aAULWW9cCAkN86ug8lJsT0KfMTymbzb6U4+LstzDyVS/eoTtycHGv30BLj6n3dkkM+/tGyc1lCf1GsliQCqlIzdI3IaeAjPJZGWkkvMTi2rUFxkSbM=

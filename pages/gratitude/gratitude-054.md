@@ -7,9 +7,5 @@ date: 2018-11-13
 templateKey: gratitude
 
 ---
-
-#### Hanging in there...
-
-Through everything we have gone through we have always came out on top.  Nothing has knocked us down so bad that we cannot get back up.  Some days it may feel like we will never recover, but we always do.  Some days everything just is too much and is too overwhelming, but we find our way to the top.  Some days we feel crushed, but somehow we find the strength to kick that boulder off of our chest and rise above.  We are human, we have our good days and out bad days.  Our bad days feel so low we think it may never end, but it always does.  We rise back to the top and crush this thing we call life.  Everyone has their own struggles that they deal with every day, and their own battles to fight.  Next time your down, just remember it will **not** last forever and your day will come to crush it.  We will stand strong, concour our enemies, and rise to the top.
-
-> Forever and Ever.
+<!-- markata-encrypted-source:v1 key=default -->
+caqKcD/A/xLgebuZasv2+2dgMToqgSGlCp1yYvUqv7rK6fDQte3v5v22N2z0gHxmFWDpxEabHtn8jQNKigqMwbuPy4od/EcJQAu2j9wCCak5cRAfLIc9KG9IJG2wzTJzumuqrMGFtHi8AuPpfY4HFalAG+rQSVUWr+m24s2qAtTRRPWmpF4pMqHMgom2sU2mpw+2RTcVLEiOH7FWDjCP/CJssHeZJq9JEpZP+8uLykjKBlTwCGCoT/sGFEZqhi/+qRExljf5YUxtGiLYTpN3doILdv4hgifTubzX23bcv9SIsjOhkfn38HB4frvb98dS45OWATlu27Ds9v9GAstPzSxu4jtpKS4FGSewjDhp/wVYwhYxBgqw2T6H8pItw9bbR+waPxiC7r81lT1zcnnllbNmNrXgfVemR6MyChviRwNSCOpt5Bn7ewL8e6uE4xqEPXTpEE4TgHx6lmDBFf0FnQTOQ2aBKYoP/Q5BFFBY/im+jTOcEioSv2wRYlvEP3WXAQNa7QOTO4NOOGT+ECqH6hBPoWez+cNAUTq2QQBibb3JXz2g7qZiR0UloL0vS39UHGik6RKdr/4yene1iNhMbfDFb3YxK4kVgmfRNWWWri0ur27PXMWgesZlknqRLNq+Q4Ja5bEExkpsWlSykHYglG6tAOEE+rbe+96rgia09otXGN0hOS0MnRepqesZoxS1iGVTX0U+tDKNNG3syGaxHpW3Dgg+jDGIo6r0gnhUuP1oMq1U240H9RW2iIc57KE8Cfab6iu884p1DgNlFWZD9NrFoHbzfswrzsrXIySc2g12ApE9sEmZj7aJVL+ls7ZBSyzLOlq5LNDGJmvMOZT05YQHO+WkmOHUWLmeudXOPcIC7A8pvJTQJEX9FaEUdva/QqK73BKbUS+p7KvqUNPUt6GXuNoqk45bIGv5BpUtCAK8cymeB8CJjIh4wQrhB2bs/bRRl7T5xqLJj6ftIUjrGP3SdEwXCXvADxDPBoYXRU4xnDvmkjnU5uXvUYx0rI2mC0rr5ar/ApVKa2QBQ85gaA0nJcykcux6PYMT8nCSigcH9c4tM1rmoAVd41FzIG5iFjvJKRfgfcBB1LGzFAl8cSjlA2woIQpbceNg7hpF4gN7OzhIB7JqSvbm9LBxH0PXEGfL57VgR7AoJPY1bEFC48DCfDoVCB+43T5U7D0CeYKELGw6sdcrAJcMtuimy5GcPRoVoOHRIiaX77aMoFTdPImwKLNA1HvyiuAkA8BikI/D86TDPjEsdHW+ORAyTZg=

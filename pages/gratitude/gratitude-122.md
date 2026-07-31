@@ -7,21 +7,5 @@ tags:
 title: Gratitude 122
 
 ---
-
-😬 Today has been a bit nervewracking.  The sellers of our house are
-MIA, and we are waiting for them to sign some documents.  We are getting
-nervous that they are having second thoughts about the deal before it
-gets finalized, but I'm sure they are just away from their devices for
-personal reasons.
-
-On a less nervewracking note, Wyatt and I played on our first Modded
-minecraft server today.  He has been asking me for weeks to set it up
-and we have just been swamped that I have just told him no lets just
-focus on playing something that works.  It took over an hour, maybe two
-to get all figured out and running, but we did it.  There was no guide
-out there for Linux, and all the gui's are written for windows and not
-working for me.  Everything felt like what I needed to do was
-straightforward, but it I had to run the same command several
-times over with different results to get going.  We had a blast, he was
-just super pumped and trying to tell me all these things he knows about
-modded minecraft.
+<!-- markata-encrypted-source:v1 key=default -->
+YMCVurqeYVvtKYVunVuukf5IYBDJTqeXmX/qWmMfqa/ZKwZVNdkcZUpZiCUbffHYAa7QsqDL8IL9LyxCmUvGel54Bk6Oww9rGKSXFM9ny8ETbmjIX5y7aGLkL79GBSSyNVwPiooHK3Upm3abepN7Cd+Q5FLaCbJ06DZLC3/tOIhBSeAh8GqQMkJgiwbN4Rfj7MBDViwhbu3nxGrd0bRXn1hgfaonLdEW6xhfvRQ1FU7t9uVzj2RluVkstCW277bIv6BWDAFJ2isNpMHR7P8F7dTH4Hsicq26lb0JgwsKB6AiTDp3P3rzb3oTMYbENaLtTAVoiLxSUNZn+TdM9/mFcba1VErnPkmObMRykS3NlkjmJFvvbRSUJIu+xn/mrG0N46muV/mXHh2l73Wk/CXRJwlI+CpY0kEPMqENQYzghYmAbgQCYCtirG0+CMKFsFKwxP/KWvIZP6Dv9Eo3C/6XrmMS12prlw/cTcwg/JEkmj5zNeHbz8vcTod2b9lgxEPYs93Gt/X740pU+1ya/KUHfSpbvSA/HRqe/6zwphed6xTLygbC1sgPB0qllpNvtSUa7DccpHjeAYo+E409++YJRx0pNQYUrGWic0+j8bJBm10s7C9/whhYhwoHVf0HJkQmq29Ccz9mLaGKDlUqodFGO3mBs+vXQv5Dumdzumnaj405catfL4yAil2SQD2MlCxowUBG2Iaf4ORdETFW0yefLHT+tC+wcvewKquaSu2K4UyZoNVGMkys3DOY8e9W1pKYemOgxjH86Q223e0vINOs3aBg6LLF0oHO1WhuxwXqY6r3Bx1PgQ5254XtTQT53idx4++ATEr44KovN0omsUaInvUTfBGDBEsAwTPFX+VxOQMJx0tKPGCS0tQKIK2c06J4oAufOhyOWrJr4JZfKa7RTV76cZDjkCBEHp/RJruRsuKhDDy0CvEmuDYN1qgaLythADOihEXcIaM5gye/SyPjdim3ZStMm0X6//zqCuYwf1vFHl1CZ2dsKICqD4vjQ7SKp8AWttx3/3Wbk0HD99SB56PzdCZ+Xe/emP+ue+p1AgB9u4odEBl2+J76X4EDM3oR9dSI4Gp94DxrmO9cDuMTwtoEQfIhf3d1Ba4mPVCQgUOvG8IWkSiQNiZCGIuoB5yv4lwaRky9ZaiPaevHwTSt8fcJ+ZICweAOMQqDo8Q6phVqDymC+3lKLqqANQBlOCLXJ6OJjJS1UNB24TqTirk8bbEh2mRIMBEh/QG3ivQ1thTgU6LehK3k54yhkeFB/KwISKUK+0iFVrq7cR+6doiRk0RRSu1YMpa/Smh/Ywuc3gwpWYqvVEnLSm9ScjBOqJtDxdRdhX3CVrzR9BBddMPJc+GVSPHDlhpjPJhCCVppnwFRDdz/CFSUl3r1THMq+1dkfg==

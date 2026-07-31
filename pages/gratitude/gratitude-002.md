@@ -4,22 +4,5 @@ date: 2017-12-14
 tags:
   - gratitude
 ---
-
-#### Persistence
-
-Persistence is one of the great talents of my wife. Today I am grateful for her
-persistence because she has the medicine that she needs for her MRI today.
-Yesterday there was a struggle to get the doctors to get her prescription
-submitted to the pharmacy, and after calling many times she got it done within
-the last hour of the pharmacies operating hours. Seriously who can get a
-prescription filled after 7:00PM! I am just glad that she is able to have the
-medicine that she needs today. It will make the procedure much easier.
-
-> Seriously who can get a prescription filled after 7:00PM!
-
-#### Health
-
-Seriously though without her persistence she would not even be here today. Her
-persistence to get an accurate diagnosis was what kept her alive on more than
-one occasion. There is something to be said for trusting your gut and standing
-behind what you believe in.
+<!-- markata-encrypted-source:v1 key=default -->
+c9ffchc/02V43tg3+3MqtSMNl8PjW58OhLjgj7AqQojm5hSpHDfjtetqVxCU+ODIICGK5QG/qR0Jpw/WXnhS8PIQIQ+HxCm5Xfm5laI2rznxGwAcYPfUraQnlauKw6MADgcKGFAH7Ytfw7+1NtDgb/pEK1AX4Ng1SbL3T8uwiMq2tg73fdZl0Tq1YQwHD+cdpcBtZLfe5I9xXxDX1rARKo0tOidHp3evE3Ds2831cYBSjDZkAZpnjhrX4WRbcFotSkc+T3IZpDrb7Xj1Ye+NeoUpmnX3sGuEHDTTlRE7XKXTx9SjcCOlcqcfxYtaXELf3X0PFOOVd7UWGOdhui2/+MpxNxwUaOk4qtRnmu6EinnuW+Nm6CE/uwYJERsYS7x71/NaYyVX7GC6KMNuM58onM5uyc7Rrd+LDTfWgxtOmg7iBz2K9QNdd0zuilMaKsYqKHnLkLFxb4+N1h5xSlSOrLcW/iDFH5NeDsuLmZnlL3iAxpGtRTV7YtLkWTAV07wS3C6upNR+cr1GOmhi+VucdX/9zi521duOLgYJQuuQKlcBG5MsA6fiCibRbYCrtXKANGWw1k28RJNb1cq/VrwakSeS9LgPfm6oh9cWDbM45AkFeSAUT3MIzpxSCjxVh+lh0S+b0R5N/DGFthAUPBMnINgNYGmU+IRtUHoefJ3N76vZcVvnMCGUvRpPXYfYPR7nyytXpvcgCDn8DJ9U3daneXVXoyrHSlexkSsrhir/h4IGzCqD1QJfnANrtS0/wAo8ECdjMzc1upNsIEuwVxb7srWtBWF1oSeblbRQbJYVK1wBUlZmotGEoZmohWbOi7SnuemdBOwDHan3LPuV1d9+qcyFpY863gyS8VR6DRqOtOIILDGvEeZoGmnnO894t0t5d14J/+ZvUixXViBpIgb8RCov/FU34HH1Wx5WGGCo/+I4yPNJXPTkJXT4ZDNLGaRvnHN7iKvNwMH/RedV5HD0Db+SjuZQ1zmYZ0VBrSnuA2lPMzm1MvsCwgl/wr7YBZA39xmlJQhFeAcvh82hOPoPyefaYQOi4DPESmr71fTfLORZuitkK0yLfvwVnMxQ55U2T99oG4ML9rpDgUjyq01YVN7klXFRWYYJ7Z23lMApG2RpBlT+pRyK/38DOZuCW2vF7vje3gihLFD4B/yZ1RjOGHiCbiXnkncJ9Yo+ngm1xiEzKy5h/4eso9ta8ZMI20sgKChPCYWoIvL8UGc8GqVOyvG9+6Q=

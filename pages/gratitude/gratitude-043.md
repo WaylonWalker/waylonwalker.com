@@ -7,7 +7,5 @@ date: 2018-03-30
 templateKey: gratitude
 
 ---
-
-####  Prep and Reflect
-
-I have recently found a new podcast, The Ken Coleman Show, from the Ramsey network.  I really like Ken's style.  He recently talked about 2 two things that you should do everyday.  Prepare and reflect. If you are not doing these things it is very difficult to progress in your goals.  I really like how the gratitude journal works into the reflect piece of life.  It brings me positivity and a chance to look back on the day.  I like how I am able to reflect on the day, or last few days and find something positive that happened.  It also helps me think about how I can improve myself.  I am  also reflecting throughout the day as I think about things that I might write about in the journal.
+<!-- markata-encrypted-source:v1 key=default -->
+X6A8otFWRQnSRSr1NMNfcR4M2G9Y2n2POk/IjjTo0ar0EE0sCRuk+azhplrVLGO92c4MRk/+jBUwLXLLvT43U+KDUgnRIO1Nh+FVpK6i4N/Qc56+P3IYAItws1q9KkzFzjSo9gIdsp/rt6g3LLo2VBHzXS+DexR4j40PAMmGYgYG4qvFbjPIyjdItzT5Kq3tMeSjawuQlK/lNUDdX09OL24kfG5FOTN7ZbzKvwwubEQy+9dTMn70H2Pjtvdi1fwQMHBChvzg1pA4gWNgLWkHF0R9BNEiwcS1Fz522B8P9C8lz/i5erHLbhJFkWJSmDaLRcyH3E9XjpQLMxTYqXgsdXYZL+7zX2E3xE2ThpnrAgqEM4eFFon+PG9I5eguGcXIVM+7K2yCCbcUFo5aM8GUC76l9XOnRIIDgKsp1MW0m3jCmP0oS7cxoY9bgq1dkbEwvuaT8bJVA9nzjRlMalmRb+zWrukixTeQmsCJtYxOWpvVPC0tcTOtCHR4SPFVjWFc5w4QLP2IDN7hvllWl3IAW7LuCCiSvVIfyZhLD+0iW+rbESpEAol97BjuSG035Tcpp5XvE6xZ+tL1fxxXHUg4jkP9Kr0qD+93e2P6m7ElZys3TN4mbBYPMlLTChgCwaDTFkpmfD6/17A141oWGaB38llMG4yExZ/0W/pRp8jXHL0PiTKS/XSqCe/tNJaxLFU+2e2FSps69yIfhXTeE5DvWdwzx9la+r7Mn2v6wZeDIWa6wDDeAq5pxczIphCDHT2ovHasrVJYd3ji1S3l0lyr7LZhbVCCk628rbLXEKhy2gW9h2rI2b+3/asoyk66H1QwJw3spYxRnf5X+ipBmV6COUigrdG98/fIQ4AFh/TG6rh7IRg/AlaD6yFNhliglkgtEXjv3ySUVB/0zx235MSBrnWHU+9XmK7Iw+3yUwaLSA+NihWIJWLvyw+Ns46zG2G0jrJYNr1V/1eyirW6jqybG/Y2jyEKzfxCgBnPg5xKewUgTiBNTsl+3LK/qg==

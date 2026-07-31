@@ -7,10 +7,5 @@ tags:
 title: Gratitude 155
 
 ---
-
-Big day today!!! Movers are coming to box everything in our house!.  It
-feels crazy but this move is about to happen.  We could sit back and
-just tlet them do everything, but that is not our style.  I am too cheap
-to let them do everything without me doing as much as I can, and
-Rhiannon is too anxious to let them.  She also likes to save money, but
-I dont think its in quite the frugal fashion as me.
+<!-- markata-encrypted-source:v1 key=default -->
+0L6a8A/SMuLmObNB+dVRCkgPBRy5o4TSUk25HcyQRCNkkSPcNVWMH3/eXUmmN/9xC80r7915THqW0AinpI1qTWDdmIUy2CLPHAImcBKNmDbtX9S+ghi8y2J842wiiZJqIacjBrSuWdX8UL6kv7WZv9YZLPV15W7TZdAMC9VhH0wC+rbgvdAFqVg0k4MFSWzsncpFGkqD/Ukoe9Ffk8i2JV1BRYpG878v05oQaaMjPXpyjYQNaM69mrXvgBn0Yd8kVWSaDTIcu4W9txYEELa3Nz+JEUoYD6zML3j3SQSCBOzsKnTdYnF1x4UlrXeVdvnQ/3aZSuAR6KotgEzLCOUC24ZJwhHNIOsZydF6W3iv1eZoQhD3ELBMWkUnvHb6tOCZtkuUBFPWitFx1dedrNdLxqfxUC3p2nwPg2JHLq8mCLqgUI+xSZNLHx1qtZhEuzG0Qz6UCfdXYHPvRP7OiDhtWSfFiZ080WRqHAWRVzkcWNGRmxAaZpvggU6Zqrx6aK1QX5XTvO9KleRob5jnKc8EXzJ2AhHXV/Jp2s+Bv78osoK5d/fi9lGHX9pdCSZGEyoHK7yuvVp6nzfyrHuJ1wc4Xg==

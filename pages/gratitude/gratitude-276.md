@@ -4,18 +4,5 @@ templateKey: gratitude
 title: Gratitude 276
 
 ---
-
-Chill day, nothing pressing that needs done in a rush.  Started cleaning up my
-office and desk after a long period of projects and inability to do it.  It's
-got a long ways to go, but already feels so much nicer in here.  Made more
-progress in SilkSong with Wyatt,  I had to help him past Sister Splinter, which
-unlocks a whole set of new areas in the map with wall jump.
-
-Just dropped my first post in a little while, feels good to document progress
-on some things like [[ 3d-printing-dovetails-experiment ]].
-
-Oh and I didn't journal yesterday, but we played a good couple of games of Flux
-with Ayla and had a blast.  I really enjoy those game nights as a family.  It
-can be so hard as the kids never seem to agree and wont both play.  It's also
-hard to put the phone down when I think of things and want to take note or look
-something up right away, but its good to do.
+<!-- markata-encrypted-source:v1 key=default -->
+uMOwreEgpF3vbCLSRjg9YXzoqhbPNmIAqIihI9cNkcEQSHg7TUEvKtLElAFHsHAmNA6xcQ19boAr5sjgEKPI4YLTaFkmAcJxyBVmpvqt+3Cpt7tE57TWW2csKR9JjusnBNYKa7TybDWoRttlPvbr9giZbKpqEBzrR/9e+ZWuY/ercNZ9b66mL0lrDiD+OdWCnYfxWvdhsktzCJBPWg9glsK04voZCx/wwzmh5OPaJvXbZyvzWOnCqvOSLDfKfcrtIapUfMQ4Sq5KaJ2MpG+6Y3MlbtaFD5Z8XZ/vitiwWW+gN3kKWN2iY0o7z7FHXmZSzbQ88+E/A/o/yfEzbcadNEEMov+xodJHO2+XwX/tevOf6m1P4RZv6zSVq+bCIJh1LuLuzo812gi2uJZXqt5BhXh70ZBs8p3v2G4WKtxV9NBBlpaFy1JHpgPN5ZPgnwu+yHCESwytOnwSFTbzxTHpJjqhKURwOy0k6duD6hHR6aKz1Clzc1yz8+hRehsqNTsgfPIsgPAeIW5NXEq+iTrC6m56KF12LArI15lNGpUu9swbt1tKOxVj+hLOU8cp3PncB93Wevha0x48z7rGp3y8nsLmlG+KhJU3Q3rGFdjDZKBsw+HZ7R8CyKe4YAbo9K6P+taguk0t02uabpvRg20WDaGzbML2/JYp2ToiVDcdwmBkTIDh6U3Z4zFD9FcFkGSH0TnPEprsKTSInKT6ijHbhsU4KEnIxNs/UDYS/hNnPigqlEKUp0zXkuUPEcR/gHxIa7RoSEIiBiFZ/HVGGjYheoGLQ8fDQoh5RWBN6orapvDOFFmKPRmP4Y4s5ZMGFNCEUQWVXU/am3o7fmOzZWt1EWmFAkqdKTDdW9lrvDUp9vu13a6akpWAuczNBXxjjPWudqd3QgM9YEgEMQki+1XyliEhNRmAI9lJcV67bID68NdWgLImECtxBlPvMH1WLfO6UxJ5x4NdHbdRkS8cVaVjYzj8uarHOj9uiqowRC6QsR+8oywtn9PBh+QoXFnwidRCEZldq003gbq0hWIQQ5nceOwrc7O71GMg1KZqXhrjFnvuykpcbdD7oWsvEbasT+k6FJZUl3OMFfqUUUMrMVdcatlERUd716b/glHm78zOS7D85EKfBYHIuzkIEIJbyVLg4W9ulZYvHSI/HJeZdaGx+dJvtsG8+XC9nZ5Avw/Pz/24SIE4O5LiXPR3ag+oZoyK9iU+03Wy

@@ -7,7 +7,5 @@ tags:
   - gratitude
 
 ---
-
-wow it's been awhile since I've written, didn't even finish my last post.  So much has happened, we are having a great summer, so many PAPA's shows and camps.  Many bike rides with Wyatt.  Then the heat really kicked in over the last couple of weeks along with wildfires and it has been brutal, we have really been stuck inside since we have sensitive lungs in the family.
-
-Today was chemo day and the kids did surprisingly well.
+<!-- markata-encrypted-source:v1 key=default -->
+Wwdxd+H1sMXyOz/ocd3rO9Ls44UyOXtWc3sB22XzQabYfMjbm8o9ut6gNVQ460O/51MKCJ5N7qV5Szib1s8tMiv6JDjp7d9JTQNwWgA345vngxPClWBZwBtWKJ71BDjN9bqkzJJyPgqmYYPvLTEzoUlYr7HZhMKpXevS5xeTMX/+7sEXLBU3BLrLTTCSp7/j4kJ3OAJmuoQIikNdaExovUFGwqP/6ahYD9G9D1CXKPe91WzuDMdvIBrxm0EODz9kXtmtnQ7gtnxx/MrzdQVYN3DkinbiRlFP/jtfd7DhUmBhVd+t/6fIm5nWc/I9gBG8gFy9UXVanQzSOIXXGRhnnVV7YkiOh9XAqYQ50q0YLSWsUKgbeflmomv0LIw+xzdjuPASrZcTQPlq/HI7P3pRspCY2sfxM125RoSQ3/HTGhzn063y3MYPsQWNIUqZjb4lIUVnln6mCPK9VFDLkAavzKmJI60BhpMuX15qVOy8a8RAmljWR56yh+wsRn1Z1GYBdF52LRHTXpK32Bhq+B+T66MDyWwYXAum/6irI58RANO8Kb1XSXea8LqyqvXToIGvTJFfASFFQKkPxG4+yPOekS6sRksagVWw7VTfEK7q3ynERFRbEH/gzwduOw==

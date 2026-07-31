@@ -6,13 +6,5 @@ tags:
 - gratitude
 
 ---
-Another weekend has come to pass, on to the work week.  The busy work week, these days lately have been pretty busy without nic and trying to find his replacement. 
-
-Last night was a good supercross race ending with ET3 getting 8 time Daytona win followed by a chipped tooth from breaking the trophy on his face, it looked rough.
-
-Today had a lot of quality time with Wyatt, skateboarding twice, one cold ride all the way around the neighborhood.  We also worked on 30s quite a bit here and there, I still do not think he quite knows what he wants to do with it, but its still fun to try to world build with him.
-
-We made French toast for supper, suggested by Wyatt and heavily made by him, he did a really good job.
-
-![](https://dropper.waylonwalker.com/file/7b0066f3-909a-4da9-b4dd-19b0617a1658.webp)
-I leave you with a picture of Ginger laying on the pile of kids clothes that I need to wash.
+<!-- markata-encrypted-source:v1 key=default -->
+8EpmD2BIODkGypodOSo5qfginrEDFZsdaP/HubGoLX7bJu33h2M0Fpagq+Gqe1fbK67POgQn4MPw0aG2yVYJC1ot6uq5UihfO2GM7mp9I0gvmwe9G0eVe0ceklP83mt0vSj2u62AZdcI7+/aswCohJcGEbJGKgVi2oQgtNGHMdgUizKRRtex2+g+UYk+OT+9kTCp9JAg7hldJoVHX/hrg7xm8FszgNzMlfuuBlK3oDlZgqilhw3OrvYOMoWrDEH+80X1IzifVkUZ2Rdxk/K3qyFaHK7FSkbVmwGMdLvf5JOMC5qtyMgVhlujVkDuOzJmkskAkjswyhUI9L/j+EUCqLLqmc7n91r28oR6DHidfgrJdluHM8aj0PJEGNLubdEwsX2l8U9oPp0NyaYAAhZDuXVTdTqkEOUl1BTv/AEPEmTZ4X+ws8cNwboRiGLAei+C0iFs4SZN5eoePretqGv/gkkh7lspCFNk7fjYfq2YN7nBKgbHInZPkB4ItlFgtBrGm6S1cO/Eiycj0AqLXGwivZi4Ux5pXP+RPb1fXtfC235FVWqgu+eTT523rP1gytcxXydsdY8nZdOzQF0GNiLXJ+VOqQRXhGWl5AhkqkeBl1DfCZNC/mUi1m48/Z/jnf0agdnQeTtrYHGsYs//K51xUBuGPsAOlen3OnOmJG+tQyhLqRbUATRgoduC9CLBINnkTtPmr5q0Zoh0J4r30HP6oILqmL+ZxM+ZrA1Me/0e/Qm6jR65hseXJ5DNWh28CrH4by6VLXCExxEkC8qqwz7Mhk6ozAHvNkU+h5QOuqsXcErfuwoFDwGOnGf4VqTwCE9BHkgpSbamk1j87y4QquXHbQU40Ug3FfMF+CGNIUD2qOJzvdJsSb/0Sh6WJkJCBnlGcrlGCCoqUpz4VDjPYcqkPr4EZykzKkIbWzFBHBUpZ5QfhmlVDyXwWfQ67NwCgjTlZr6d4jsvCVXTERTNLuLz6ELZ0fEheZ++ICjYIxNPAFclNk4vV2+fqYdrpn4Xa8bN4u9GugMVIyGVK5wagNehONnO39l0v/rb51yzYEs7cF8FuJcT+bo1EXkmlGAcSx1nNUnjvrgUk+XoPTzysnN2p0/AxIspva5vlJ3LLjS7hC4sM0/MqdRoku7/cESQwJjaCeER79t0TEyoGcqMkAyeQCD8QJQ3KVuue0FTbhFu6M5sRnTM+HqOaNm5NXczepSLmLbYeUxwWhTXvSsP42wkqn1AlIPSM49u29QJ

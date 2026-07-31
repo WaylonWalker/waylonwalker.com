@@ -7,13 +7,5 @@ tags:
 title: Gratitude 099
 
 ---
-
-So much for better sleep, we made it to 2:00 am before kids were up.
-They were exhausted today, fingers crossed for tomorrow.I
-
-Today I played a new game with wyatt called 0A.D its a real time
-strategy game similar to Age of Empires, we had a blast.  Honestly its
-probably more up my alley than his so I don't see us playing it too
-much.  It was fun to mix up our normal Minecraft time with something
-new, but it was pretty complicated and a completely new category of game
-so it was quite overwhelming with new content, and felt very fast paced.
+<!-- markata-encrypted-source:v1 key=default -->
+HPiQ6hwkwU/T8ik+HmyMgQa3+/hZaZkINAZEt9QddeK437NgEZMFkSRKkON2wbnlBCqSJ/Fzyx6y9Nj3kl/10k5EkaYF7sG+THDeA8d2r4DXZxD4gkgKBIfNDCGAInaVKUi5eRakokjVSNXY3wMM9pAlSRiv3w9Ydv8iTeF+ssqHaFQORKgVq4S/9p7nDBaLVUxnxbmVFDD75/xwcww1f9xuVNnilTcxexTFYnyq9t9kGeVP36/ZtanhRRbt9jizOCaPxlbi3rKS6+1UjXhJf0C48h4PuEkeFSiTFdcqDiV6r3m5p7puzBl9VeW+LZKkTAzrSLaMm+fQvbDULT2seSIUJOG3Hgxh0XRJRtCMWTaW/GeY4WER4vnKB9O0Ej2qjY8cC4HMONltVbrmlBetAEn7bXIil3OVi92MzLwBpb+lvlxb7fXoK3ThVsQHh/3aw3tjiXV3Dd7t4S/3+1bwpDBduGfbgik4b+iglXnuROkJD42tQa5G6oex2EfgBWcWVUHMmXY6RPMEeISM5ifd/RElQdGhg/vY3TYzob0zeCQxxpziU+xWWkd/fzKPuuM5Qx/FrN2tHySoXU2lk3NSp6gAYblC2QEZYwMGUVmLtmJH3+PZGX0lYoy1N/2ILfAh0br87s4jWwXrsKZox27yQYNgykTYaDfrYXO/dNlb8NHArWp1/vc8vjSQ5hCio/kEixZtD3E9nb4icI7ety6TdhlFo3kbqlNwXtcaFN9odK04dNLTb2MI1FGqB3o+w1ncbUsU2ras2zQG2tghK0mdmQ==

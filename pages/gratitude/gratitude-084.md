@@ -7,8 +7,5 @@ date: 2019-02-11
 templateKey: gratitude
 
 ---
-
-#### Reputation
-
-
-Today I am very proud of the reputation that I have buit.  I am very well respected inside my community.  My opinions are valued.  I am known to be very reliable.  I will deliver what I have promised on time, or give plenty heads up that it's not going to happen.  I work in an organization that is very closed doors.  Folks keep their knowledge to themselves, and are generally not willing to help others accross the organization without a kick back.  I give out all of my best knowledge for free, and will at lease give anyone a few mintutes of time to point them in the right direction. I am really proud of where this has lead me, and the reputation I have gained.
+<!-- markata-encrypted-source:v1 key=default -->
++OLJyZBL2rIT5z9foFf2iTel4YNaajZCAJJgypye56ePgpUTY5RMjOdABhBZ0CsTKKhuyU/BGcSJUl5j6Z2cw4qioLOakmEJWJMsG+JF25b8r903Nu6PvdSontfl2atC7zFaVmNEWye9u3NwEs8fLTc0L0zcDXroLHtTDU8x+Uf1hqsQ3X+i81cfsCy76VROGt3UhgvxuoVdXxzYKReq4j1raN2h7vI2AqC6WuP7yzYSS1T8s4yfEuLZwrxJMrJ1NnPM5UwR1RFDNyCiA/jFPm4mtEPispUYqkXRBsqTo3f3kEiDGT0551dFsum2NdWX+4R0sbvwIVoKbJvtpi24xH2Vkjhg+je+sWHz+eQ+nBqGhnQ4vpwru8CndC5ftJV4Y5s7wr/LNIaFwtb1I6o0b9jTb6WyYScopV/s8blGrRe1T7P0bSXDsF38DhPHGrE/XibD6l7LgUvLY81FeTL5UYHiDKjfke7kWBYs1p4mAOlNeklV5xz1MQh21M+Zfq5N24jG+a4CBfHwJ+0psPjXqJFyvIauZ3xX7gXmcBfm+IUvfADBFvf6jb5lUYqzUVPQ1KSdiVrgFxMA6aNrAtmsuL2k0WS8yDxc/MymGm+1VZ3E1N8EkGgba7p+bw6rVY4SRg03r5WhJaYccX5kUZU0Fj/4rkkjjCvZfdnC7p3X8w0K3SWo4tG78WJNrSCyLx0xEs8Yc08WxF3ZnFZArF0OnERI2Jzi2h/7LZD/tZOolkxVI60jicbOtFbB6u/pupHrvbxzt2LYlbi+oA0/6wbQxC2085MF4tkPvV5Hj66TQZ4miNECLvdlEH8H+DJPrkgap8dB6F9waeyBcW2zdmbj93YtvqWU1oSF5HhMEA8hId7WSnSAKNv+o1tbHvEkrnhhpZqDFj1LaRjVMAJVulXCoqH/Xog17P82Bl92gleTkbbt3HRdtZPBl+1WY2bCN6TblLgJGXUUGa65b1S4

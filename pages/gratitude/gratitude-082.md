@@ -7,7 +7,5 @@ date: 2019-02-08
 templateKey: gratitude
 
 ---
-
-#### Working Remotely
-
-I am so grateful that I am working in a space in which I can work remotely often.  As a mechanical engineer I really struggled.  Our team was really structured for onsite work, and did not play well for remote folks.  Moving into data science, as long as I have a good connection to the data I need I can be productive from anywhere.  Actually Sometimes I find there to be fewer distractions at home.  Generally I work from home due to someone else's medical needs.  Today was different, my voice is completely gone.  This winter has been a rough one.  I am so grateful that I can cancel all of my meetings, push them to next week and take time to heal.  I can also put my head down and get some great work done without needing to use my voice.
+<!-- markata-encrypted-source:v1 key=default -->
+A86anHr96JmTEmLaPUamTOQHqNV8x2ARf4+pLnQLP1ro933zftz8Z/9z5bblKBU6bxJblaaU1AJv1D37+Rapj5Tw+70rD91pbpn5cCWG84ujBIaud0fP+lbeXP3WeMyeaazxfXuNLL8G+4g59I7cVKauGC40t4kL2btCT9vMLsquUMPBMUifb9vdgD8dsj+YC9jGhD/YoMpJhkAn1m08ZlSh84ZzZnnwovKQqObqEV+5kTQ0pirwtsGi0yM96Ezrl79WbEPdnFH8oic6QVwgG6dYmbUIq6so+Gh0kTS2I5fdsrWGffamCOVVrArkPKPnHpk8Q0T7Zb1mPj8gNiHRJ0bcnAvV0cqXOVMDfgnRP8I+6sHRv/G28Z3NmRc7aFGQ59DB/Ed2/3u2wQvykv3piPl196aizhxnpNFNjmdjKhBdmdTRrAZRxlaF6TtSr/oKu64LXdiLDz4YENw2HsaaFY435mk2C9xY/afOCruYIFzcRS49Y8uLus28PSiN2ldocZ72wTsvKLHyhNpqf6JEf7TxLa+6EJbkeRQfhuzTPYeVnn572U1aM2rulWafRl27PzbvE1ffT8i+VF/buGQsp43j4JBHu02FTuaYCTn9l3Xxkk0HcFAat8YZ8u5oB6Cm6NVqbg5WxJ2R8hpV2R5XkUO25l0i9POl/BAhM5BLzaMLLKZOWJON7slbhCEYamecAGsrp3dGSpF7CYjW5AkgR+3V1D97INEcBy38fAIMk5fTRn4/CAxX50s1I5Jhq0KJT5tEdHQOee8wIvvEok7FnUeQWzPKkGfOSHbEXfJ5k8piRnVoUeT6baIAGanEI4do6EhmTfyVfYdE6TmTrDsMnVZkgdhARQayszl+vGkHbnAIXJoyD1BXq8ulbeBJ/qq84uW2xSjvSBrHhLnTpGdndpIQUgVMgyVVu972rJY0ma2+ZnXujD+oMHSCqe1MrpYCiAupVaiurRuQrHWpGQgEoItdiuGNhJvovbZHD7BtgBerJENxNXH4dwZ83/+mRDFK4U9IqGMqzqKyGekX4XI9eqCzehHh4eKYDX06qsNt/qI5IiCjqjh+0AKY9an8

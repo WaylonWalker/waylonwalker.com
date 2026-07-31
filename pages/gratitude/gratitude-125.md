@@ -7,16 +7,5 @@ tags:
 title: Gratitude 125
 
 ---
-
-We heard back from the owners of our house! As exciting as it is they still
-kinda left us hanging.  They admitted to just ghosting everyone and that they
-will get back to us tomorrow.  It's frustrating that there are so many layers
-in between us, but at the same time I am grateful for the team of people
-helping us.  There is so much that goes into buying a house that We would never
-think of wtihout tons of research.
-
-
-Today Was the repeat trip back to Iowa City, another 12 hours in the car for
-the kids.  I am so grateful for how supportive they are of Rhiannon, they will
-do anything for her.  It was a bit chaotic at times, but overall I am proud of
-them for getting through this stressfull trip.
+<!-- markata-encrypted-source:v1 key=default -->
+DuPX6H7vQI7DCyRoa3TkrKsjqYP+jP87uRQxuExZ+/ab9LTYpO5qMCSsOcmDi9wOcypqeD5vblPh2LagHs9dyid9veB1nixDGF+1/fe22QSHeW0nQ8RE14YEc9r0pQF9jhjfSqhXAUyDSk7JIn81ZyvjfZNFVRSG/HEgEHofBmIrLjzrHcvDwemypjU1hFbLd6ZykTm9WcltSx5R1AzBT6BOp1/TqeeChTIeYR9rthJP1KZon71QMFh88M+kAWKu2zhg8YVpMfx5R7Nrg97HT9EA2MKC4raYjrn15aH6YsYIsPGPAe0flTZywO1CqQEjDnbAwE9azrq0ZiIc2GRM2UiUPzm7ATSTHghVnXqfqDj5di+B6Uz02bq0C5UIBF14zRF8GNOfkatolnxhaJRYu0Ss3KFtAkn79uprCtyL2VkvJHEu4Ii8Tt/9LU7iQxMtMJmPuiBbAf1Ip8chVKW4OkB/aYIiKmvh/S7vdqgKZOUqHvrTmFcQQEDsXhE7Bpgo7Opwc8sYO6bkTzC14tbOvf4yypdWiEuiqJ+jmVIGey2MEp2MSc1kP2XqQR9s93+4QivYDLVfq7wjoybrBc3/C0nCKs12YTxSJ2uO806AmMeeAeJR3cZgk/rI5ibqjHteSG930LWiGXKuXc/pxyUxtHSxDuWSkLcvtGzItZulBsjAWcHNqMVUtnogcCurnGWuYUOj214I73jt4n2ZO8S6ABQKo+Y3ag4nmjwUR2lTEhbw2U6Hfngf28EtzCS73FtdlmFC/UOehrrGdVW9nRgFruxJ8wRBFrGXDQ0zbYiSbhdfZRfh1PdA1YIQR0KFd8NaMNPn7Sd/N4YJ7HvSySYtXn7WjyMjXYru9inCnFEERiglkOkKo27HRRCNeCxkEtxnwrcHf2sxOAOTOFvH8kKNX7B/nkEVgsb3BEogRwHjdyY4RS2plge5SfieS1LEGLQsTOPts9OVZdkWlo5RhH92Cx0cuIRNR+KDiOgryrg=

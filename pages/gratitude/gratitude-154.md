@@ -7,13 +7,5 @@ tags:
 title: Gratitude 154
 
 ---
-
-Big play session tonight with Dobby and the kids, everyone was sprinting
-through the basement like crazy.  All with HUGE smiles on their face. We ran so
-hard for so long that eventually dobby just stopped and laid down.
-
-While Dobby and Wyatt got a good cuddle session.  Wyatt was so happy.  He said
-that it was soo calming for him and he just loved it.  Generally they are both
-just so high energy that Wyatt inadvertantly gets nipped and does not like it.
-
-Also got a bunch of boxes packed up!
+<!-- markata-encrypted-source:v1 key=default -->
+jSDh+i0v2PZWYZsOvG7xRnyQcQGMhpKb290G8l2fOE1vEnycmJbEa/t1DaG7dVtgNFMAh51V1gZMWy1j8x9LaKyVExancIgsj3ar1VTnw5VlSC40f/5oNSTnJrXp+8JN2NRgDyFFAAl/UJbBEfrMpyK3eTT2E/HhM8pHV46SuthmTlP5zOuF9xqMqyfy3/qDydpjtXszL06bbwNHPDOAf9Gt8qO4gZdfeg+JG6NEQPG7uirCfeD+fbIhNzkJuqeldj558YfsuoRKU5dIEFql+lj48iTL4fLocYBGrlcEDNWsq3oEyVmQO0eFbaoAAws/Am/DlQf8k2HVKHXWYIuVUYWmQ9GBvCt3Y3K0GJE1FAXkdWMtl1XlHNH+4mF50m2xM/4MZletSxa4vRfLyfChxMLk8OwXID7biwrl/z5ArjvYuLVzhEEA5krS7Sm0aMUkvPDDtl14wKmlijc5URxdUa6gRGqBsnY0evc/8ZOjNkv5OafI29Br8ADpFwS6teBi7p8d6Z7D+DSVduXI5Ag5mgx2aEaVdQty+ZOuSmxd/pudIz+TyWDf7urpxfCBr6PxuYYRSmTPmpiDsaqU4q0VEyZ0iRdETrBEM8gxTp6hW4BhhVyicwJ+EE6hPFf522ZN0fNWpgqq41a1nkBvBIzZDmmTnK3IA0WD++gtTCeZM6yF7Z2OrBqiUr2g4frgXfhzUgf24F3Em4fdvjvJug==

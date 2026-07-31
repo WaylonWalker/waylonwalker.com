@@ -6,4 +6,5 @@ tags:
 - gratitude
 
 ---
-Oh the weather outside is getting nice, its time to go out and enjoy, folic in the breeze.  We are in the magical few weeks between hot and cold right now.  I came home today to help support Rhiannon and make lunch I was able to cook up some good fried rice outside on the flattop.  I was even prepped from the day before with a good set of fridge stale rice.  Turned out great and we enjoyed it together.
+<!-- markata-encrypted-source:v1 key=default -->
+bEFV/b3SCc5g94TOonysahsUFaJCavWNwwvV37gCOPC4SxbCc+GvXT0t4qU2jL0JSpA7nuW0VmdVMweTo/+VnrFG0YzspBwr/tEaZCeiT847KrDFGkXT4Hj61tOEtCCZUr31KmpMGFerXqzP+NrzhYjXYEnQGpqg523dr3wChbQ8BU7yYtJAcmsc0KtjEf3b+Qd1vkjNgFtaIADjy6ka6roGRqdovkRcLi1x6PMVgH/MY1dE3Lm2SeCbP1liHI3hh68DN1KPfYGmLvw1fcL1NU44ev3dnJVTWnUf+CbiPEhT7zmJbSTm5YlpJHqcFH/eT3WBoHs95oxYQcsFEU33Osns8wbHC/eKUOtuT+MEVMgpsYzMXuj9tza5Jkw9/qP75vjBpIbVRKjS8CpzLBLeigiodRrYYumd2MJZLl1f5lrIhMMPnYFR2NF0OaxfFV2UevOvpAM/ySNVlZCXshz3ZI2eTgjQb+zH8546RkAmd3tbugL4C9TaIuel2jL3uCbXD8KIu+wvmT3T0pGc8SGuRXkUO12RJc8DiUkWNJrT3kVs+jjxt3ZIcRvBG4eU2hz4lL7vckr9OHZM7Yj/Nut2Ia0=

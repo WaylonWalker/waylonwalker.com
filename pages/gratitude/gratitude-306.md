@@ -6,8 +6,5 @@ tags:
 - gratitude
 
 ---
-Went to the doc yesterday and got started on some good meds for the Bronchus.  Energey is starting to return and beast cleaned the main floor today.  Everything vacuumed up .  Still a lot of cleaning to do from being sick for so long, but its good progress.  My switches came in today, and they feel so good, I no longer have a hodge podge of switches, and these really do feel like my favorite that I've ran.  They are really good.  Loving this hotswap, I want to get some clickys from this line to run occassionally, idk what for other than why not.
-
-![](https://dropper.waylonwalker.com/file/cac00007-2c7a-415e-b19e-a327c04c7abd.webp)
-
-> Here's a picture of getting in the Akko creamy v3s installed
+<!-- markata-encrypted-source:v1 key=default -->
+eaN4T7gQcJeDcmtAKdLtlaOtYdfQEVxsSVg3E1t2sehAA6QwV/vCkHIRwEEPCJKSklMYdduFT2I3IDTxcY9+RvhQawVQ3eFbZkWz87/RDv+P5msTvU3RvcrW19flSPsYFcwkauFWK63fohFC+cRDvOwK5ATp783AgW7Fv8GmYsNpn/SyqVBsTYoRBpxXKipSDKf39AUs/QMz/2QAxc4FY2R2jmYpYBczVH88EySJUYigMfwiJJuql6k57pMOtNfZbVA8Y4cKhiMbsKFVaTaAKZPRebRpjYCXN9x3nehXIyLr7wS/WnwjubkNKDJqPA7tPDqZ5GYtf4Y9lnSF5UIZgTqQtTFsW7x/iA/9JbaszW/ZvQiBe4Mazyqxvdb5vP/ABRekmdAkzL5Ak479Zh5+mj4ltPbs8QUxCeaD7F8JPruTA7z5cmrdIJQryY1NY2ENxjBaGxrSqztdznyiucxTxkBpZ5UFyod79Gkzmwjzk0tI6Dvq9p0xc3PlTmlRno700FVOHEq//rvldI/u4RbyQBbIguljRS7NZ7LcLsVD8LxkqGwUmBFLQGK9NoCFQenIgMjMgY8Du4S0keRo8Vdxyso/0r9AU8Psj1WhoMX37/G7M5rbdt2BsXadqr0RVL3ej+tr6p8R+4QQojJ6jNahMCibqm/mFWGib5ayL8LGIXX5DInbp+umh5FLPyOb5CTniYrSq+DsDjpRJyqKy7gAp207P/ITAw8UgNoE8UPIWPuwUREx4M/AQmbV4+Vxm2fV/N6DT6eyRWKlpjZ2+aBVtGjP8sMGu4MSl7dd+Yn+DvQMTvRt6A86zcYt2HVLqSEoZv0CM4WhD3rj36nesmWzzUGy6E15NQleV1gzfBsZUbq76AA57yr9XYIfGYFi6Mcdk7woxJ860vPGWTfMzP4ea+0j9+wM3CEDSJ8AuGmFR5E288vPECMLfdvQIIrOhTCWYgLiRHpEt8OSUJwEBqzVoUzJiegdUR5ZVKY=

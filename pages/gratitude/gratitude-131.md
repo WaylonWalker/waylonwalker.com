@@ -7,14 +7,5 @@ tags:
 title: Gratitude 131
 
 ---
-
-
-Today Ayla got a new night time routine for her enema, its called a peristeen.
-We have been looking forward to this step for awhile now.  The progress we have
-made so far has been great.  She is gaining back a lot of independence and
-confidence in herself, but the night time routine itself has been a sore spot.
-It's been uncomfortable and causes cramping.  Rhiannon said the peristeen went
-so well today at the appointment, that its going to be so much better.  We are
-really just trying to do the best that we can for her, and want her to suceed
-and go on with the most confidence she can.  We really do not want her scarred
-from having accidents for all of her childhood.
+<!-- markata-encrypted-source:v1 key=default -->
+Z9lh7Q68rtsgJ3ObmncO9Kl57qmJO4H+DQubRS/JXrJJiOAuK8OhxPdeck9XTsvCCXo9R5HYSY9ZJWPPog/fSu2zB90W0bwtFGPdhePSAGu1HUFfgSzjczLUH0zYAkW5q8BQOZSIWvK9Gq4JcSxqcTw4jWLEarH64lzDqDdt7NNi4zlpe9+9NDA0/1FCqazevNM/ri+1g0IZySyTqUt/h+ixii8zWok6DHXXBj5iyvKTSihR8MobDYWNQ2SVJaTMutVHwQdj75T/God8ybdvc3TySCNSRD+zLh2k9emujMoInrbz2pHSQFWjsG33CkAhxUD/6hiN/4WyHkg+O6rcmGOaEvm42zjvNTJrct8grNf7mgeyVU62RngKt5axXgkds/Ccy6RpHVm4CNHlWR6bh4azCSc9IYySL0oYwZVdQwQNJ/InvUvZiT3beMzzLVsnmADdB3edDwwWakYjhtfZTeNzbouL/Kj9jxh33JSFh6YtoKiIxnm3eab1cxUmudpHjxUqgEw0U+ODnxMF8zdBYfH8qb2cpcrhoAf336VevAjjCbNrH+WjqK15tSXm6k1FHk2SBbbPHJj16t8yXjvPsMf3/rY+c8vmHM9Yp1yLojUFSt5R5RG9wd33073JtqL8N5KVKCcNJk/4xTwz3cvvQhTOGuhIzOU2vSDN9zUPEufHzJflD7jWKj4uSl5WGlyA0kRHLyeSIEk/9Y/zMlNjWpTGEvGO+cawGXYLajz4KBLEYve/4WdLCgcUfIjZ4yPILXs69L+af7c4/KUB4fGRPLLrjd38oXTKV/ceiAsOpS+s+ajhiXqusmtHrgaQxm544f3s4qJGI22JbWBK0SfJsG5NREUjsd+VpK/q9bjq7g+RoT4zcF9Pi1nOfguhSorg6xhWHxVcpaBuia/GKx9DwO1X3F/fuW65IwAqYJxZavifmMfQiqJDXBlbvi1Ka6xOm7c=

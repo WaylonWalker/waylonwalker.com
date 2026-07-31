@@ -7,13 +7,5 @@ tags:
 title: Gratitude 123
 
 ---
-
-They are still MIA, we have our hopes up that somethings serious happened, or
-they are taking the holiday weekend off.  We still have time, but not much, so
-we started looking into alternatives today so that we arent without a house
-before this is done.
-
-Rhiannon and I are back to watching supercross as date nights on Saturday.  We
-took a few years off after an event that happened in Daytona.  We are both
-really enjoying trying to figure out what has changed since we stopped and
-watching together each week.
+<!-- markata-encrypted-source:v1 key=default -->
+Ug3fSC3nBPSmmNEuHh2PbYDz/FRUjniCXlFajQCpJ7gdBvbu2Xy7lKjkSmFDvb+G7zGwDKp8nvz7d0M/eZrIes3RID60aZF1QtV10rtO5YVv22jL80LWapPo5O6P8rC9YcMhAakXkBGXgnOgiiWzNygri8d4dIZ/qXpllrDUvJoWqLWivdNgoqnNePRQoGEC6wNsEInVlZ8+mOj7vdzsjYSu8ME5EPHUSdpLQWh4/YnmRu6QYRYBSbjCOFa8FUc2JH5v8SPCK/Bggp9fzHwHECkhIkkGAyoEUHR72g1m1VFXcLbnIibc3ZMgrHVzISr5blX9oG/aTQJLc1N4R7iVibLv8cghVCdUzGP2UO3NIhc1CW+sgFnVweF7m8wWGyvu45avWDlbST9LmahaOLH+Z605lFQJvSbktSZzy2hkvdUVo3/ZSstEclFlIS03ttvJV2SCmpbYC4WRpHS2Qylo/gtwkhcmVLE7taE5rdOQZPw4EwQnExuI9a35vmlK5LL6IUencYcPDkGoz/VG2oe7lf96dqhAWczMeruCxO/9pXJR7c0cUKHDkYdaNKXPZ9+TPc4OM5Hsuct9NcREcg8HqTqjZZAjgZPsc8ny1dWTQpOH1VOCM66En1PzvtePsu+42kKvfOJuLOQ5ilUNMmu8/McElAd0AZf9Pr6lH0gmqY1trVdq2M+StCpMhAdPMrHY4UhbHT0gWpA84LDDM3gRnoRfB9kz7Og4rCu9uUmy

@@ -7,9 +7,5 @@ tags:
 title: Gratitude 198
 
 ---
-
-Today felt like a busy day.  It was a nice day outside so we got a couple of
-bike rides in.  Wyatt and I did a big scooter ride in the day and had a great
-time doing it.  Then after supper Wyatt, Ayla and I went out again for a ride
-through the neighborhood.  Very grateful for the fantastic weather that is
-allowing this for us.
+<!-- markata-encrypted-source:v1 key=default -->
+M4UuDqMyH2G25os8zEe+ipos9mSIMsd4RQ46BmOLCEXHbV1A6RNLAEzmySSxpZH6avR11oVTOcvrZrotoqZzibIDF8S2y6Wli/3lUC2uhOjV2Y+UNrUMefH3YHjBTii4RjdPRH46fKq0YxFV05FJLa1rms6H58Hz4S0ATCNONH6EYJXGEgIqIXR7ua340mXSPh/82X1SPdMiUTALNGjDKoLMo5zObmC1XQi/ahveWzq1G+zhHcZw/ZIQd24cW28xFCqb18BVPcHWuloSsZVAW6B3+AmOG4NjC2/KRqyitaJdP1J8zbBvDX5n+9Yl8JLSbmXDu5MfXmgYS55JmD0WEUWHrVotsP6TBkKviVB1MVoNlziMCXZ0mcIBXs880vKVr/K1uJpH/HBDZjRcu03iBpjpxaremE1dK32IPhOK3uXerVPzqcVXJRZtcZQbiiuv9wGloOVonqL4O+JgPvjhlQ0qDk3vi5wrLW9+LA3ygOFGlMrU/b82

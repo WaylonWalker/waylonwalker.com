@@ -7,7 +7,5 @@ date: 2019-02-06
 templateKey: gratitude
 
 ---
-
-#### Fun
-
-This morning Wyatt had a 2 hr delay.  I still took Ayla to school on time.  I did some work, but still had some time for fun on the MineCraft server.  This is a new world that Wyatt named Nathan.  We did a 20 minute mining session, and at the end wyatt found the first diamonds of the server.  He was in a really fun mood, and we were chatting it up the whole time, working together towards a common goal.  He was so cooperative, taking on tasks of his own, giving me tasks, divying up materials along the way to make sure each could accomplish their task.
+<!-- markata-encrypted-source:v1 key=default -->
+JQ+TwNhv8WUyDLxckgkGCuMfjAM6muFywhSELXyHBTwFlTBSf8GDASH6l04lCtwugNv7zBCBI8DvEyrmMVsZxZT3bAlK3Oeo/9r1PaRbml8loe++hZKs3Oc786HcZpLWc2Rz19iEm3iVJoLucKinJ2AF6y3dNBAxWDSItqtn7f4jT4GJQwR+YLHirAFGZ8s/IYL9xmCZRd5WaQFIworRmhjE8HXqqhB+QWXWBn+ZxogwxGvZzbSo1egHYRyFGUrIlbCI2EUXYlvU0cBhQOmDMIwViwlJYsYe5hcrwED9z/MfcqRGcfcSSSJAIXATYnJlhPZZhYlswchUycDF9L44jcfYfhNjxkkqlTwUfOf5QGBA2ogi4Nx8MlJaXDy9MyMK5eMCmczDna1KfJU7ANfVc5VhOgHclnwS5jBx1jD02nQQbUl/cPhcfRhIEVJk6+BC3bf3J1J5dxaB5SEbqcIW7SlwCoZzo2Tt+BiUShQpYPwtJodvj+CeYhsbtxg6mWyps+tZ1hoZms0muoPtxiJSR5VhKItcmS6pHj7RxZBl5pGgvsU8smXCbj1bOHRj6tCPfrhvdG/bnHvSjWwVOWUVAsgNatr+JgaF3Lquy94bZKVzp9QE96PElQqYGm9vXxb7kvb5OnnzAloPJO3ZW4I/vbxzKdiym1MsNQENsWrdIGbtNDzjZ/yVQ8+TbGXboewiOhpOUC1VP8GAamF62jh9SpmPD+M/cn3FCWXDe6NjZrffd/ffwNub8rZkZ79311PV5Dq595Q/1ZBe3PtLGW5YXp+s3gfvBqu9Gud6Mx0lsclLc8YG

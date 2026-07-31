@@ -6,13 +6,5 @@ tags:
 - gratitude
 
 ---
-
-19 years, can you believe its been an entire 19 years.   We've been together
-longer than our entire childhoods.  In a way it kinda feels weird how it
-doesn't always work out for everyone, but for some reason, we both always knew
-that it was going to work out for us.  Maybe its just that we knew that we
-would be willing to put in the work to make it happen.  The next 19 will take
-us all the way to 54!  That is wild, that puts us so close to halfway between
-being kids and retired and able to do what we want.  Maybe by then we will had
-grandkids idk, it sounds so far away right now, but so did 2024 when we first
-were together.  Here's to the next 19.  Forever, ...
+<!-- markata-encrypted-source:v1 key=default -->
+IZzTx6ZgZ8S8cggHE5xnx/DVoupgZkYxlEcYGOxbgNM7n3skO9JwTzGUmubRY69EvlOqDDk6QJPCeq/Gt/iCu8o7Q8sAQfWNVoTOgT2JsVaZsTe+0UWsMY/eIYCEkFLxM7AazqbY8dzXRSuBhkIl+c3SJu1YeupLnIOaRwwADppUGC1282/MU+fmIyrJO+MpdPAvaoSWxdAu98xoWvVdnZGfSOqCungQwnfyoOr07MxWWwCLiwDp3pwVg4sI0TqHFFbMcQj2bIyOMXKQHAVpzeaQRs6TZ1zqPnYYIA03eePjDgN1PLK/CrVUh8INa77e+rAfKRmAzSFZu7rhm/Tuy5cak12u5j3Ki1QxMlOj9SrFUHfoRBAyl8/gbW3ymY5TONz+OnOirYfvNyTPmPYTGupH45q5ZPLGP/saWrrxIDUDQi6g7AS+2td9cjRF/OHuhxA1J7Ki5qis0gAcJT7OK+xWsBOqG9e0QtjiDa2QUy+QQRYJRt7ecI5zyhIQeSMSHnI7OMNzCEpX6uYOcq5B3fL0kRPFRMyXqRHlaMNeS1/rNkpgVmUS4RaKu35SqSPxbIWILellXTkK7+5Pq5GKUhEVMqW6345EaQlhyGbkA46IAvBaCwStilOBP0R7m4eP4bE/AVHJnvmvz3w8pPNUD9xv9Z9jVkos5pTOiEBkvn+u+cL+TvvwfKsR3uE1x96p6eaxsXOjS/XqiALv6Loz+yImxfPWuyNYpBahS4zp+jdoqgjSipppeQyX3eYhIqssO3d1b/CCHmhwLK0VuiY3zhtFAaUY27VznyuG3/TCw0fMuNjd4mC0+ezza+XvP6dPUqlsWDg60EU9FlXiNiD/POqEHqNSlxka8U9pxEQUROQ4hozsjXrcm+Mp8xj3zSwEb0XpJLsvnBObYLonEE3jIkaPv0GbYuO8HSrs2p4zfr7+zIR6PZP5BBPo7A==

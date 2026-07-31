@@ -6,12 +6,5 @@ tags:
 - gratitude
 
 ---
-Last night we cleaned up the garage workbench and started painting some set signs that are the size of a full size bed, nearly 4'x8'.  Wyatt started painting his fingerboard park set black, he is going for a black and white set.
-
-
-![](https://dropper.waylonwalker.com/file/8210990a-51d2-4377-8537-5af76d872e0b.webp)
-
-
-Here is a bigger park setup we were working on before we had to clean up for sanding and painting.  Trying to set up a stairset on each end with a pyramid in the middle.
-
-![](https://dropper.waylonwalker.com/file/60281144-e6c6-45fd-ab18-f6c01bdb6fac.webp)
+<!-- markata-encrypted-source:v1 key=default -->
+B+jlnJeABe8tgz8N+u5r7zLJqpZKwedFQ+yQ7qbIdKUm5IH19Ec67DjCrHwaZ/4hN2XVDlwQeXABk0Jk5/U62fDiHJ15LX8vSGaznaVHPUO66H/Ss1hs1A57p8Kj4gkrJr7sWzlgHtoPmo/EeV/pxPm6fcXSPUkREQhZT7iNkXHIP7puL/HrzxHb7wMzr830HvxBG9ga8t6FHvdo8ZmnZSfZsJoSR5SCDo2T4/+ZT37ZaCQseS31dILo50t5icZtB0Xp3Qdn3bdtL9ndiO8UsQPDayHIafekDuGQCJWbdG64b1vK6TOCOFFJrbAHrt0mUhezIzCf95YazT58K1QfZcZnFMV8khtd3xUk40qptl9HTTUfxrw6vFJeDBg6+5wTyupuqzKUdTVhpqLAVsnVkNcSx5eXEFNFaEweOiUNhZdJEn9hrJCJLzi4hGTQkJet230UgPPgjybM+zWQxQ1cKmEya7gJohd9WSobdKejluA+cB6MN5U3ci+rRzkGgn9ZyoJ1mMg6rHbjXrY4ilh5mAjw/ePcaHXsZ0NbpdWUC1TUBfEqL+LxKSzMHPJPwDkVwrOM+oPkB3GOi+cCuIpZ7c7MRV7RGkpdxV0O+4eYW9k6+r51gJYjb4ChF1sKj91WRNaef0A7nJyQai0LBoOwilhkcP69wvwMrD/5eVCGeniXzo2G6Z718522GhXN3SHfalRYBmpLwvAMFl/Zt5Xd5POiXeLhaRkQcJXMbJDiYcQMMhJyNifE5oAtZfifJO+EL1x41f94TVywpTiR8l8Ml7tOz3E/BN+K6ZtUG3Q1Zya9gaFWgQ6u3/s=

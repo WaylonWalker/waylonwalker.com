@@ -7,7 +7,5 @@ date: 2018-08-30
 templateKey: gratitude
 
 ---
-
-#### Support
-
-Today I woke up to find a very inspiring note from Rhiannon.  It was hand writtent front and back!  In the note she talked about the stuggles that we have had over the last 2 years, and that while reading through her journal there was one thing that kept her going day in and day out, me.  I have been there through the hard times for her.  Yesterday I heard some news that was very sad for me to hear, and made me very unsure of the future.  She left me this note to let me know that no matter what happens she will be there by my side and we will get through it together.
+<!-- markata-encrypted-source:v1 key=default -->
+1It2ehx89PRBE+tftL1tkz3T8V+No+jazSSgPFWLfN1ecQB/eYt9Gkg50Pgf958fSpTPm49kKE76TcT0y2oRwJbGCs0gnSDs/Q2ZlnIq1Ju8CK0kLL7IBuFV5RSNsYf8G8+gAm42pbEghzopyDdwrvSNPNW/6IsODeHHyAh1u6l7Gq8uYfHFzvYERdC5zIKUhtx0hQmeAPG60gC0T8z93yQz4yp6mz9t9WQzgqA5o5e3tSnqx/CHQQKpG/D/oX9aMPx2FpJr3f2VBRlBrhWoJc28HxesmXMLK9qwOB9Yp03gfXWToM+bWKkGQnakgBJ+tWzGCVChHVsAJHMPsvyLgmzlLxYXB0TE/V8zahvu5ks1Oi+rFd0BbIT0nox+1EvjjdkoesFN7C62yt5TP8k/yyENWBg16SYOichdJhF4RqOd0qdLWVTgk8eYBP4xeHIzjT1c/ol2T2TuK0WSuKg8vagy5lB/Du9NFDJoZE89y6TD1wiZalB/7nrz7YZR/eP4W3XK7QNn7O6G6ph+V8qwtZKBA4Qr+zB+/7TbPAF6EPfZLw073gPaS4W/HpP08QoVIOsP944Z9GDK0MqW1UWAcjVG71Kr7B7Nb7GvUZl6IuLM3FfUQtJEclaHs7E+mfY5acs8BqpeAbW8oALyHdf1aN4mbbutU3szxIBTBK/NfGBfCh2BAnv7/5Q+HDnMaPtm8FWesOH2UJLK4RbgRxUkhOf61H1IoH24SRO/mFrQ2zQlLXlabcIbrGbB1kh11S8GlKpMENth6iLjs1WG2RXJ64v8RQBiHP9xLtDwQcYaLsWnFjbLpQsG6X+kpgXCS7oJOpmnHdJDeRlV

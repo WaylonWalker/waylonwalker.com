@@ -7,14 +7,5 @@ tags:
 title: Gratitude 190
 
 ---
-
-Today Wyatt landed his first front flip on the trampoline to feet.  It was
-quite stumbly, but I've told him all along I count anything that he stays up
-on, no matter how sloppy.  Everyone was super happy and supportive for him, he
-has been working on this for probably near a month.  I first notices how close
-he was I set him a challenge and we worked hard on it all that week and after 4
-days I got it.  I think after that he lost a bit of steam, but has been working
-pretty hard on it still.  The last few days he has been really close, landing
-on his feet, holding some weight, but loosing balance.  This has really
-inspired him to kick it back into gear and this morning he got it.  I am so
-proud of him!!!!
+<!-- markata-encrypted-source:v1 key=default -->
+DllVt20/1S1RbFerb0j1Dxmvo+JoFImu83iz0AjlYbTqW1kU19niwjmYxFeZY7FvHGs/zO0uI8SO+1Q2wF4vOXE4K39paKPabwTjXS8OQDmhPtuMEpZC6O1liL95ExgQKaACaX95jISxHEhRsopPODNy0ql+ew6D/kPiqqNot/MB48/cpAFy92osikHhlIMvjLaxRG7Tp/mQy/GMgBAB52ZZFC2TYEjcwi1XC6GjX81nPw+aGLvZEk3Lc8dsHMLbPUHh/KaJaRX9HVokBX+5ByhMpu5ud+G2LM+v5KTlu94weSJQrVpabTgfxNS38TJkCQejJDguNdk1M+1A1D9GXupBnuDyBVaT/EFnpJjCezQhBZB6zAIJy2RlJIbLGt7C7yAykoUP7lKCRAuPaWIOfFIX53STxr6J3yssG6n5gkqAhaWOx2G1jo/cWF4ESs1LL+7sPcXwxeqqa4dNVxyfopUWGY1t4R9KzPVbMep/PJwRBzpinxt0606UBxsUIltbBHHWldMucEgl1597cEW4LRxDiX1+Ptxuddh40A0en5ASz4OQRPp1dXlkoyH1I/rRvuI0foBS/toeGhK6/5/h9Kb6rqaEXopK/12FlJpy6+c93yrBrPF4Ksy0T8dmKckbeNM+qHT11oN+6rD+WmMmsRkFySKGQC8xsIGG2MMtGMBa64A+T2WJanBzPPLQ31DYdCST2tzlEvOgD2f6Zc0O5dRt6IeSp52fQB8CN/X4v6vc5O+uGXkNPBwvysJM22U38/s5M10g2YrSzODgeNInUWmWbJEC7UxWwY9jBuoifqXIddEkBqvDhkHNUF/HZM7M6BbqVnmRxOQ+qXJDiv/30ZDM461Wa/VjG2wLyRU5PvCP4Df6ufJCOQPhs7R9QEyJzsHx/7DKjBvz4NOS9lYZ3SkygfMbhYkhcZgjRbG6C0OCYSqN7LSsaAQHG3jkM1Ea95gG/7skNp+S4dGaDvT1Dks1dvP0MyGFwdsCAFIa+mjuL1YcD1g=

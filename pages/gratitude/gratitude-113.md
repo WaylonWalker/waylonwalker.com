@@ -7,13 +7,5 @@ tags:
 title: Gratitude 113
 
 ---
-
-Getting back into our rythm.  It's starting to feel busy here again,
-work is cranking along with quite a bit of pull.  I have have 1 of 3
-major pieces of the next release of one of my big projects submitted for
-PR!  Wyatt and I are fully in scratch and having a good 3 sessions per
-day.  Rhiannon and I have a really big meeting with the school tomorrow,
-so I am trying to read up a bit on that as I can.  Ayla and I had a full
-silly swinging around session.  I am just so grateful to feel the love
-from all angles of life.  It's chaotic sometimes, but in a very loving
-manner.  I couldn't be any happier.
+<!-- markata-encrypted-source:v1 key=default -->
+/rp/KOESYlMs9TJh9/0kHpvxihnLCZ8iOa14GmoecrCTR09ARfRz9bgkUw8mxtb2ZIV+3IdFKIPOekJKIMt/Ig39D4wpI7/1J1XGTgxcHQqL5TWUJdiG4KIYbull8lDJtP2V7gyWyH318GuxONVTqUOtduNx6P/c2LuBjDx56lcFWWSiaXCjztaMSikU+sGuWPSB31zXIuRyk6FL2TChPRyd6zVQSEj6RPJefwpzYRJKs0s7i5UJ/qKc1J2b3sxrQSJ6k1oTOkAWuPWfTQ9503SnBeYixsGNaOK0sXipoalWdHbJ3GbH7okpL33TVpM7+GQLY503iveaAs7uH2qxmtkmhNo2nt5IRMIVmWmAjCNB1RgCN5lmMxf9AuhnSIIKvDY9pu5E7+lS+74/1H05BcRPNj6s4dtX11wg8vQZBTolsPTapuo260XNu/MaeSzv4gwxrJY0j0OH3PNAYHFyE/qEUo9PFCGZTo1q2PdnbjtdNQZloX5pQqir2725+X0cmcOVLEjjdL35R1k3s+DXSYTDYJWDDejSj7piztW9iTnKyhHLbgrRWDxYyt8JD8Ly3NpP6nutQmVmOE2WkbxXNriM8MBFoM3qtbBxqBA/6V/b8UJDXy/gy+CwM1PkLw2JXMfY8A+/4/zhnrVrPsiAZuXTytOTmJTNO0r9xD2oLF9cS1QcvqW4wcBQFDcK5YUYeQSKopmCSjO0poPTicdPhKUyAKmd8CLg1ZKC471IvAZ8w1iRyxhFTpFGHfNQkRsBmBJ++jNIk3xpCAdrlFdeiMbWnImyXISkHSWEd/h8M5cRhOowDcNGsYNWJxRqZCs6+F2ji9UwjSSAdUg9CWPHxRCfifxgmedeH+jL

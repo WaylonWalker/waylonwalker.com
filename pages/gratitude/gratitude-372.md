@@ -8,5 +8,5 @@ tags:
 private: true
 
 ---
-
-puzzles down, rhiannon and i have been doing puzzles at night https://cluesbysam.com/ and https://www.hankgreen.com/fourbythree/.  It's veen a great way to wind down at night.  I missed a few days abd it was good to get back to them with Rhiannon.  We generally work through them together as a team.  Im the long term strategist and she is our gut feel guesser.
+<!-- markata-encrypted-source:v1 key=default -->
+atJ/4d9dCc+AeOpIRKlvmQBTrddlibvA3vQNXC3Q4R19DOfG4kTCam3iUko8eE8o4D1NXKutiU9wbLSFIjkgCj0JuvbqviYwtIb39mzzuyWspNsoP6rX29AcoTeZf4bVrePF2MgnKqzMGCVz3FU5aUVOlaoR9e41tXhF8opsVDWAdr5bA2zxv/XR+mX5LxAptLjB7uMI+vcQTBNg/Kn5avRBvd2hMdYU/ZNNMg1CZHJkDDCxE1WYfGv28jZen6+O+6dbd8urhH4whJoAsrTil/OF6bFrN6O2fMXIfaMveWSE/knARRVfFw7ZI/U7299ntzERu3wZIYuFrZB9nRztLe/2+jDFe8OIRH3NKEts17WE2ggcnJeMw6yF78qho3sKICECixq7Lj5PuFxhV66M+VjxvQSqY+/l9kamukpbGAc/z44vRUvzDqMhUHMC9qoAZ49RnzSgQOQkKuJAKHH0/9t/of7L68jELV25Joi96nztMoTvQYgKHpIz/xzRAzOUweIOKvcDUP6nCSV0Gyn+rgN8byKxzg==

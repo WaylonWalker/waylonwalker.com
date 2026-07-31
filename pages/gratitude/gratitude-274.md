@@ -4,17 +4,5 @@ templateKey: gratitude
 title: Gratitude 274
 
 ---
-
-What a roller coaster of a day, started off crushing some tasks getting some
-really good progress in, getting a high level of polish on one of my main
-projects and feeling great about it.  Then home hit and kids had a rough night.
-woof its been a whirlwind of emotions for them.  We try our best to guide them
-in the right direction, and it's so hard to not just say the same things you
-remember your parents saying.  In between this I tried to migrate
-fluffed-up.com to Rhiannon's code-server and just got taken out by file
-permissions errors over and over.  I was able to mount the same files on both
-ends, have a nice edit experience, but nginx was not able to access them.  I
-really think it was a user permissions issue.  Came back after supper and
-punted to just hosting out of the same file system her smb share is on, and boom
-it just freaking work ended the day with another big win.
-
+<!-- markata-encrypted-source:v1 key=default -->
+DaGQxYFdC+7S1kbSh4fwaj/XzBQzBQETvM7ZmHTRmjzSMwTNXpXXMM7FrjcPslfIKaTNM+PLl0KWGQkArnOLzwGKli2WZpSd7gUR3EfWrE5el/DGtcp22Cx277WQYhi7Uk156+e9aENqYDihucyAQg2ZLuVuczt3zN5R0onKrVb7CZPWFbMl1R/4MxmFF1BkMqw68Qfi2wFZFUTnpD7RUZYqBIi5gqg5kbRPctjq8fPjit91iTqk8hiG1tjhpyArjngk9lQOO9MmEpmUI9iFmX58j1x4w18JnYZ3k1HjKdiYbY8NA1Y4/73SbJScUlkj4vgK2CzvmiKK/BBm8Gi06jDN9TcHVL0UCqpGEMzkjabTb5EPaA6Z5yiM6yBrI+E/hojOdDhXBHD0KTWOLYDTzVqJlTrQUkyi/w4xCEQNWYKcEq1aNI5ZD6FVbNrMjfd7DgqOLuitTTY7P8NS6YS+bl2QrsPwiO0YhM++KVKNG9i2a7+Ovwm1EtyyW5QQLjCDFNPd3Oset/cF56wTYIspwq4Fhu2adAqnT8U0QZTIqDd0O2GXoQhAcOQZEzdQpUSY4GDQVtE+UORcLpd3ZhZ9GhzAOgTwc5iY2OPskBeMT2iJ5SmpF3EpMkWuIn5R15hMhGcZX8ByNRNmoRzCd2oXwM/PCExVooMmRzkTcOP+uuu3MQHpzxdfp6QRCckiMDn0296f7i2W/ZSR4nsNrBHecwQaosm60Rh5tzxLbH4e05nKw8EhDhwBgtgeNWepmcoQw5qfvVOWMxe/thqCd/TSiTn+Q1RwLxI95TH6jFw0FGbhAcIHKh8TOnfXJrO5IF8w0ZASv4CNH51MhEoz34t+gYvzVemcLkBGWI7Pxcn/Gbfh/dcJqqUDJw823ETpTxTaRHaRtJH6/QtulOYID/kLmQsu90RNQ61MxsqS/HWSSUrq3gvB87Z7iE+7iDt8iBGcQZAA8hwkShILkYY64ccGNZ1blP3kd9Ie2NYw/MbtZTlxbX47TV3jKmXS/OmZWfRd7MQBpq485llSrbz2YOsX1LC3vjjCOv58cGrpGRhMqrM7Q5VQ9av4Eenca951rQzaRuCQnF9DGeAN89T5/s9Ysgy/WXFq+j6m5tr2iHcq1rMALpZWYSoKll68LxgD4g3FDCW9GaSoJGhBfogFb/DOjmGeNmrUjOt0B8pSlFNOqV/LDuljZyb/UseqPaTwBIGSUE8fcjuaq1TJBLkgREiYHtlz6M7RFcovEQzY

@@ -4,10 +4,5 @@ templateKey: gratitude
 title: Gratitude 211
 
 ---
-
-Today was a chill Saturday, time with family, mowing done.  Nothing super
-special.  While not exciting I am grateful for them, sometimes chill days are
-few and far between and life really gets to be a rat race (struggling to think
-of the right phrase off the cuff).  Exciting days are good, but come at a cost
-when they are too many.  Oh we did go on a bike ride with Dobby, that was great
-too.
+<!-- markata-encrypted-source:v1 key=default -->
+oGrW15aboUsZVnZ3/wYc22S7PgIQ4AUatGOpeXCUQgNE3m2z0Kt8SUXy9TjeDq4vhQpdClVjr8PZiDHiZFQGi+3Q+m01ug5k7c6/mcTibI6KC5o3ZBGWvkKSiehwspnCUv30bJ8uwbZMaxgKc4BMRzG/OlAc/arnS+QWWj9sPHzJbk+uAw0Er0daHi+VdSqRjggd1117tAZOHHXNMp0TdfsJzQVHF99nF48PsfoosPBPoNg0InXXC2nvwgngCktBtC7cAuC4U8WGyZHfUDe3OYVB+oj2opITelUNiyL3ke2FIZ4CmfeEk5yBVN6Z0EBnNni3KHJuBVU+WNFEaJqM4Q6kK9aEfZwN5wYDtGuT2cVyjxU3nviK23Z/jM8dwImTi9n2/fn9KeBgswIim1JYfSOXxVuPOt46kyFw0q1PVBaeu7Wd0Luwn7qF4XNQV51lKff4X6Ixd0Fdl5IGF+wVnzALKddjnCUy21boWxn7A678FO2rPoMePbOeomKAhpabRhjnR42CmAZygf+pP75L/oQfZsZk3dfbyAZc9gtUk3D1Q/yyC1T15gpfwZGTXxDJGaHWWquPb2Y=

@@ -4,8 +4,5 @@ templateKey: gratitude
 title: Gratitude 212
 
 ---
-
-Tomorrow is the first day of RTO.  I'm dreading it.  I am so grateful for my
-family support though, they have been so good through the transition so far.  I
-know they will be fine, I'm telling myself this.  I am so grateful to have them
-here and so strong.
+<!-- markata-encrypted-source:v1 key=default -->
+HeAI/cXlvza/9LbKeFOMbRz+xZwjAczqoGysHM+vgtLVRnolHHyoQ7S3MMOfg+UYPWzs9fTkW6axfZgd7XHzwKcYUwB8qE5no0tf9PopqnEZYna5tstoLamqfPLdYhruBAey2DSTtsqiQwqeoSJix0vOC2iFjFgXnyRWMS3y5eDPiSlfYqw+LiyXU4CQryNM3W7OvW3VhwAQUKYHpoaGnRf/U2HRzn/cnoFKRLtroDO9j/maRK0qHFump/FJ4IogmYNkd/7zdQssO1L0d9EkBPOWf9TPDGgBwsHCIENQOmE+9i0Kusd9mMJLlwARb86XR+zjKp70iDCTD11miAq+70a7Tn/RY1KZRZkZ8/4FwdYvKQfLfYbM2zgAfz4UpGpDmceIiUGlLLDl0zXzvQo=

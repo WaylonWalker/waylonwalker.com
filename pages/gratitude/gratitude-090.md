@@ -7,7 +7,5 @@ date: 2019-02-25
 templateKey: gratitude
 
 ---
-
-#### Back to School
-
-Kiddos are all back in school, and doing better.  Wyatt is still running a bit slower than his normal 110% energetic self, but is hanging in there.  I am grateful that we are back on track with a regular schedule and we are all able to do our own things that we need to throughout the day.  I really enjoy being able to help everyone while they are down, but it really wears on me as everyone stacks up their down days back to back.  It felt good to have some quiet time to get some work done and feel productive.
+<!-- markata-encrypted-source:v1 key=default -->
+3PdaAZ9BwkVG77FVb+XNCNz3cB7tabp66+EtgXRlVg6JFDM+AOSWYDfJEAOP4HPW1VOr2NpMPvy+WWEwne9duXOf7meEwnGNhlx/d3fQmrFq2mJeRHjm7wC1njTsH4SLBk30502xfZnkETXVX/NRibb/SoC6VkhJFRCtOxSW06Ksu4x1wHuAGvoMUU7/TO46rPe6NUpEG2Z1ZY8TgCS7M2HqzksB0kDRR2Dt7KRuxfisfjBxj4tvU5HAbOsfzunLMIa41FN2eEtI5VZ6NdUzR2sjCd0lT+GhkKA+ugM9B8FMYzLAAxsZoepZjk99gRUqd53VcHLEfJsMDeyY9lClJolSGG6UXIfNpg0ZK2kb+42TlfB7oQT0xN3G41Y6b5KZgdkxLkxDyBQ6RPBFpFiFHI2cokTF78aVeKT70Ztb6w7rS7Mpy7Y5y/5KOfrLVbXcXDIDB2MUQ3q3AK5/DXkYPsTwK3t46yWqvcK1arr89wG+9LpTa76ZsWDY2g/FGM0byQjDbebDHzmoBcJZSubuZj5v4Jq645dypbr9D8upqH9bLSKKSVV+xZe319OZfBRSgr/QORA4F7uU2qWB8sqvFooewOf2pcDgq7yndZprPsd6sKm2iRv1Kne6hqdE1uqOyi+M/HWqtjPm6M6OGFj7b/EHg6SDRtuRJ4MNXYZ+HScmW/0/ONgeQijJ5kKlQm6ahwHAvk7utmx/mQGGzRiaSAD0GlE+VJ65ofkdYwJ2UUvE/anzBPblXkEwrsLDxW3VjCmANg==

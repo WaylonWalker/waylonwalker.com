@@ -4,9 +4,5 @@ templateKey: gratitude
 title: Gratitude 224
 
 ---
-
-Today Ayla had so much support from all over show up.  We had Friends from
-Iowa, Family from Iowa, more friends from Iowa, her 3rd grade teacher, and a
-best friend from school.  I am so proud of her and happy for the support that
-she is getting!  Great work Ayla, Two more shows to go tomorrow.  Its going to
-be such a sudden change from chaos to silence in this house.
+<!-- markata-encrypted-source:v1 key=default -->
+0IFi5mCI5K9JnfNzjFOETxQ4cJMwUQWalrnDeVPcd07EjmHYoWxe0bQUe0iKKLiSED0T+ExgU9pRaHtqwWniKl3ZxlYO1mtUlnwrYzcojNndOeOQ3f0B/gkeOS2gsrUM4H80AcK4mpT/FnETdrYMc1Wl2ztfMW6bYgFji819/PYEuIG5IXJeOj1qJ6hkSdrlJUXp1NUjjd+7NkcoClm3BO/dz1FVJ5bH80kntnS7njQmOm0xVLKFFFpaCFV5HCtTv87RPvrD0VNLN2+poduF84pzKrBT54jNGvz0S7POlGaRTdb4W99bR6GLtL8why3Qzk6qh7X7befN9Qkxz1WWWkRdWCwsvX7O9Ehv4VSJ64fTOxohrBAigZunLf8ibh2YaCL7823mLfzzXPysqlD45zIiqMInSG3i04O69pVva/xKmoT+jmQMxcXgwe2dWdsxEcP1m4t//tQ4ryaBKoLBzAIFFu1d1LxXhfgyRS+6QJTPHHbUWK12vZ1iWxjYhhmO19JnzygzatvLZn5rJd3+zMspjltzKhJsus8PPg3IgA==

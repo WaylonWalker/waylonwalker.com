@@ -7,21 +7,5 @@ tags:
 title: Gratitude 140
 
 ---
-
-HUGE SNOW DAY.  Today we got one of the biggest snows we have had since moving
-to Illinois nearly 10 years ago.  The one that feels close was the first year
-we were here, the day Becca came to see us in Minier we got dumped on.  I
-remember calling in that day and the response was well, if you don't think you
-can make it you can use a vacation day.... it was my first year and my very
-little vacation was pro-rated.  Oh what different times we are in now!
-
-Rhiannon scooped the drive... well she hired it out.  I am so grateful for her
-doing that, because as I watched neighbors snowblow their driveways I realized
-how back breaking shoveling would have been.
-
-While everyone else way blowing off their drives after work Wyatt and I were
-enjoying the fruits of Rhiannon's hard work.  We made a really awesome igloo in
-the pile of snow that turned into a tunnel through the pile.  He was super
-impressed and was had a ton of fun playing it.
-
-![Wyatt in the snow tunnel](https://dropper.waylonwalker.com/api/file/21b2b1fe-4e54-4243-98f1-c177c6658a98.png)
+<!-- markata-encrypted-source:v1 key=default -->
+sTnW5Kn0ugm3F9qIP+QN+0ZXBE68EWZ99KE4uG0QAEvhDonrDGM6T0iP6HffKAbmT0a2YdT5H+DsTCHIEirrQ5z7ZLMFe4W8e4aPZhU9/APPyYPk3dsZY+kdWl2y5nEdqe63cDs/+IkskXUZ/QpYb7pyHmNnhwCyZsS8okDKXZYUMLuRmemUM2KlqRUq15Ff22sbzQsCNpv7SZZo03aiVlJqC3vjclpYi44AbD/REGBMPc9DqV1CPkKn+9HSHrYOZChT6rVym4u3WVF5qlFmq/agQBb2CQCfNVrWZVOZI0MRmRznVFM9JdnQZRIOPWx5/+SRolOItIDt/rAzhUwo2QH6y3NfaSX3ZmnigWJx2evaS7vTSycicfNClNSOwSEAf4/i3G2UPwJVgl+3cvauqE9Nq4+UwSh1HZ+wbh+MsnlnffxxmAs2OICL58JVr2T67pzJtZchwJJMZyIUkdb8IAt/QnYuRhsI7mrGUjF1CS1hHGZgxXicTz3bs29L53WpNMKnkh0CIcAaFERo46Urg4b4S52TXBsi2JYPOkWQ/wK8qaYLXFaug0189mvX6XuXknlA0sJgNiJaFOkayob5Sq1P6Qix2VkTJFXJYALtQZfQk1P5fYWYG2j963tvB8Ku9p500ozATQAff2/u0pOTkenW+XGA44piOPTFq1j4HFDCHtWt+p5YvgKA9R1QKn9wue8WccsQdTMYxhqQ40J5xcmXUopNvIILYid47XN6UVNJyS/PLxOcEeEsRWd2czItyPJrQxlzsMTwtOr7p29lpBTMpGq56Miy6WA/Yd6usoYMyIDfZLZ41Hs48T20jtSiB1hp8pqO9wfye08WUEw5FdR9f3jhIwIYR5Yt/RcF/Q1yS3ernQnmq6QThZXejbOYXEyfYRd0wMA9qpd1Dv8Vn7zi9Dj6nRJXY2SQ8bte1K9NWBq0MLv7fBhOQ416cWSZ5MZAMd0J7QMfK8TnNE4vDZ0sdV4m25+WPbcpGGSa+QoYqxAi8nHiQUX9mpeV0FS0q7vUVwRhnyf5bDPY9YbCj4JniGZ3YLAm1JwWs6WDYiDkgtoZiV9sTBOxbB1ZWjiAhVRSGwa7oCbZoNfLGHssKW6b9A0NdCJLKXg8Yu5WMkwpk0KBnTzciCTmaHmeMVJbu4m/paiICTgs4sMasUx+J0VzeTSvWcOS6HFHIXEBc5MZWdM265gHz+9dLFqvHZClB3JECo2ASEyQxmHGdmWJphgLsLSe7TogY30ak1izKodKu5wghcUKe40PHc2XrmMel1GVqulTbyiyqF8YgT7hlZdBNNT1TnYuEiUqAcc/xdt6CK6PU0TTC0m0qKChkBs/5g0ycUDLta/EQR0d/29wnejCbZGMYi1MK+gzgvUFze4S2A9UJjIp/2OqOHhkesHVIlXWt7He0e1ioSR7Mle5GEnZK9/P9O/2Txb2eegl6duqkRqrXCY/npE+Aw==

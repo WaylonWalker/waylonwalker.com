@@ -4,15 +4,5 @@ templateKey: gratitude
 title: Gratitude 236
 
 ---
-
-Happy Birthday America, today is a day spending time with family around home.
-Not all that much different than normal but the neighborhood is buzzing with
-activity, and the Neighbors always invite us over for a barbeque on all the
-holidays.  I am so grateful for the community that we have around us, how
-welcoming they are for our kids.
-
-!!! note fireworks time
-    ![image](https://dropper.waylonwalker.com/api/file/2330dd9c-a170-4163-9459-f55b44993705.webp)
-
-    > This was the only picture I grabbed, today was a day in the moment.  This was
-    > right before going out to watch fireworks with Ayla.
+<!-- markata-encrypted-source:v1 key=default -->
+SCTA77Nn/lg8AWMFTcVmMJeNh96NlYLODGsFXooOL0U+PwK5/OXBA1QB96dygKKsrl1a1B6XaO5+jHL5xhEYCv9cWulFw7w8WKRCN3uDRoKoNX5tCnnpkyTlmNsz9Tlv6EV9R/w/cEgEkishOT5kDM0vWWySd/o5GAH3AVXRvGIZ2Yjlmynvg7X6n2Db9Z/A0PXa5H6BZe8gpYkjJohbRzg3Ej5OSWWx9xfVh1TCddwTaVWfpq/cvry6yrpjKqJYQN4bPp38S5LWVhC5h2tuNlYgAA6eGJI1Iawe+/NetMg+UybaDSCkVHrPANkOZ0qsNS3ePLcK5ggsiLG9jlo8SRHHnF4mTP27iZXkg+McXbeCorwX6cam2ruU3SgFY9cYF95x8eI4JIX25JaM2JORd4O3DkQ0VqNYNSY4v7mX2rA/s1NaoGQx3hFddgqOD6e8q6meWn55vj/s1JQ4h/GdavhfBamREdPG4K3j7Y0PZXlHu3Vs9ODbDU00dXB9FYp2UkP5mO7AKfDWGsPDBXgNbV/Q9gjEb6qjnBj/74Sk3ehh3TDp6NlbiDlMJ6Qi0FrOrt99hVrK8ttYC7kosSn8rRYjHRY+JYPM26gdV1TtQgQ37UZoBFUEqTRiLxyEaVy22dx4fcbCdHNKCF0TjRh+NCkwYfuNJ8D0XYD57nSmtSu1tlYOhVA9Tdr5wD6vndFZ8sjIzqWsN5vNiz/NHYHh7WtMpma4gE1H9tubh/byliP5muhWXAg6lP+51rir7M22hhWnPMIT733KWa8Ak/y/fmhh7k+OE9VNChrxGnyAqLjMMsqUhZ1D7gVzjZJVY78bM4abEhfUy7c6ovYoocJcNzMKHIeqPy9S+VU=

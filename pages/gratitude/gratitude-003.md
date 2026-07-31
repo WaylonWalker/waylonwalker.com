@@ -4,19 +4,5 @@ date: 2017-12-15
 tags:
   - gratitude
 ---
-
-#### Community
-
-I know that I am not the most social person that is ready to talk to everyone
-in the room about anything. I am still grateful for the communities that I am a
-part of. Without our group of friends we would not be able to make it through
-all of the medical issues that we have had throughout the past few years.
-Rhiannon and I are currently making great strides in our marriage and fincance
-thanks to the great help from Scott and Ali. Without Rhiannon's medical
-community she would not be here today. From getting her diagnosis to executing
-their plans every step along the way has given her more years on her life.
-Those years will be happily spent with the kids and I.
-
-> "Without Rhiannon's medical community she would not be here today"
-
-.
+<!-- markata-encrypted-source:v1 key=default -->
+bopWpSAJyzchSgrjLcw94fi/3s/Y/GB7wtmY9ntj93A7VKM/yVecxoS49ecRAMTpxjFdQu8dIpCN3MpFYCCKlUT3rYAcyWWLAo8EUrlrpPgLd3q/8ZIMvumrJmvAB7RvcU7//eOAoTukEkoi8eL77BV88hs+j45265LnyOeEJMAI/+X+Yh5OltkUu0uSbXmmMYhHKxKQJXHL9Q/0/RH7KrQG88HW3GjhTZtP2zk9vj1dz5P4YjpAwMDZbcFgx+ICgB6iw5zfUmigrgE/Du1G32fBb2I9fhN/h7EepXK5zJMKa6oq2/5PyKIA40WeK/n2FbsuXGMm8UXHKqJb0fzg1DvAL/Y46rz7/bMq+cblCwNpbZ0mDhYOp+RLckzt8zT47qbYgI+VHzCaY8WZ51AJFav8exVeASgDJclME3WJvAxH/wOenOo0VRSDHCFqRKGQGdyVjc16C0eoTzfFsWzEPStzl1wQk5pDBXtLccF46kHZ3+m1xgyiKfBXYKSl5zJdLJFq6kjBSTJE7COozv4wr76Qeua/HOxdZNpwM7T2AfGo2qE31nBRDz9IT7GAP+bmPZF20XrE0AvKhuL+GxU0I2HZHONJRxxvMNyD7nVkgXNbS0FVd/TCjdq7JIOV/O517f1VU4SUjGRgOn/4UGuzDxnHKT3fQI3T2hzb6yjpIJklVWLV7kqgbmQPZJxhSE77W+poYI1/EudGbLYYNjBA+4DRBSqCtmLrKs21UI2wo55BvAPQulc4AyaUpoiw+H1LW11kAQutu3zBmrL496/Vmz3sAu829uuSe2JDVanChdkBSlZ28Grri2FNcH8AVHtCBJGENrm6xIX+RMVdb+Ca5cZsoDnxwW752DwxHNs3fGrIHtJ139UjyYyr1a4wQzfkRy4NoLVNPLKfbkIitcNeV68gMd8kfWEKWL0x7r9ie4lLvgyDVMCAlYx3/NUSFngRsSf6v5JzNgoqZ0/TopytSd2dGsL8Bjg5CRQvA6M5KBws32Xk/MV+8f3c/M8A3vXLgtVmifr25deBhs1/lY3EXPwuEhZSmRdqu6Zg9vMP++GQSYQx

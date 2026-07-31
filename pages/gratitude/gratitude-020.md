@@ -7,21 +7,5 @@ date: 2019-01-03
 templateKey: gratitude
 
 ---
-
-
-#### Good Tunes
-
-Recently the kids have really been into singing in the car with Daddy on the way to and from Preshool.  It is so fun, because we are all belting it out so loud, and each take over for our special parts.  It's interesting how Ayla has grown into liking it.  For the longest time I thought that she did not like Wyatt and I being so loud, but she never complained about it.  Then over the past week I noticed during some parts of the songs she is the **LOUDEST** one in the car.  After each song the kids both ask, "Did I sing the whole song?", and I try to get super into it and have a very motivational Radio DJ style of voice encouraging them to continue and tell them how well they did.
-
->during some parts of the songs she is the **LOUDEST** one in the car.
-
-
-#### Kids Current Favorite songs
-
-* Californication by Red Hot Chili Peppers
-* Stressed Out by Twenty One Pilots
-* Emperor's New Clothes by Panic! at the Disco
-* An 11 Year Old Wrote This About His Bully by Mac Lethal
-* Ride by Twenty One Pilots
-
-P.S. Its so awesome to see how into the Mac Lethal song they are.  It has a really cool message about being kind to others, and treating everyone with respect.
+<!-- markata-encrypted-source:v1 key=default -->
+JinYfk6zEPMihiJV+VygU0WkPluNdQcuDdp2jY4x6+Rm91X6KtNGcD+oYrZ+2Vu2BisLsAg8cuXm2MCUmJ9WWZrHXBaj+0YzEzj/PvlsTwtvxUswLhKqj9Ax5kLIIot0GUa3w2TcAMnj+rRyUOfFnB5Wk93QWMP+Gk5IZ+jEPapAxpNUD6ZaCfYd2C50jYswH4JS3koBrJs5D+Y2aWOFCUEJYeyhIiBJccmZrlYFeOPHDgf3JJ9iLIHLDXvWV2InbXzS7eCkDKtbx4wuwH+Ad7PGcK7PQluydTLPB3xNIbjzFOASpMBUt1qUe/7rzUeUMhUOebouCcvypCMxkCLmTYD6Lm8g7MeBAHuIf/j86HmEaUGzyWh4pLdkU7HGxefGPscUZmAaqBBUB42rDiFJcf8llFr0akb500Stt3/fmYUUy9Wq5k/z2bJGHEuAHmzZ96Ngc2HjwMSL+KqHq89FL1gXQusBN95KlrdDKJlJXG1tUwzUCkYuj6LWI03VfZCEVPAqpOEg199VlkB19+nTqhabfXvzZpE8SYmCckinwm4FwiOIfD1I5WNHrHSBjIhqq2Ht1FLLpTGwWYeK+1z/t5qHZfg/s5oMMw9wW8fE43Ddw5+cgnV2dvg/gtoGNxVkuTAdkis8FHCb75H0eceXCPOyszUpwwC8MiOGJ1sAhj6wqq/jZGh3l+umuZbT72MXP3PKzqjT2IZ41dda6eAOG0fWgcNbXO0S/MmProGIa80bfLiZZGcxEtlfexwEyOqVtI6g+CD1Izn2wOHTd7DKtkVr5mF/KEQ7DcqZwBYoIaHBM9MnRUC/GjF94MOCZBCkyg8G3NRZuH13ngsv/ibmjQ+ArJ+3ZqpOh55htY3G2I2qsVxx0/tGexXJvjWgpDJUxUZ/syq2mYdzFid+fn8Bl3LqSR0NRZKBGdHTaisdj1jM8aYgP44f7YwGuLnkeVMGdPKhd+SooKDXvGNjIV9UnPPt5KuqDGspfUSG90Sp9ywCV+iUmqMEFa6ovzE6WuOMxuYBoQdRdLZCAqzQDMnkFlZeJts5xdgyR4jcewEmEKRh8AhL25SxhoMU1KZ0xuQAoU5HipWgdDlwZv2lf0rJi/Hk4rp+gM1J1ySyo4AYkvXTwSktrW4oBwGEGYPSUhaYLs57GEHQ9nB3l6y3vtnZChmvs8ik2DXhW4GIoLdCtmkm0bYUdXLBhpUCUaUpeAKWpxpjde2eMflDo/wcON5alYqCFw/TIg3j1nEAf93DUxJiiDEqF4nlvN8nV3sytJH1538Mpe8n1trGlZMoLyto9qhARh+DTFRvwwARJ+wwgecD+80wF+e3iLEpVvSCoHM/I0uKwR5Icpmw6i6lkTYmNCKg02UPYftJaAz34mDb83u17hcvFOhdZlxn3awzZuL+8QTdCpfA/XN/+8z9PbAnie6HAMf7dw4v+/oGM8AvRYQTo7NGv/txmyEAtkIqsNr9+UmBmevLDBRN6ckAuTtUzhb8uGvB07Hf4oHbgHn65zhsWRZwKdMBeqcP53yZ1n4+Zm0y57cSQw+2SdHEUVochVLWSpICKvwbCkC/fun1NtYruVchT2uN8uSFqfbcpj4n+1KCD4vOmsUZAtZSlgpa8S5hG3mpcPjTqLWUhegJC2J7

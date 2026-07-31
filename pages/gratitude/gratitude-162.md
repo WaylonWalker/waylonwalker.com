@@ -7,13 +7,5 @@ tags:
 title: Gratitude 162
 
 ---
-
-Slowly back into it.  After the longest break I have had from work
-(other than shut downs) in quite awhile I am back at it.  It felt really
-good to know that the team that I am building at work is becoming
-capable of sustaining themsleves without me.  A few years ago this was
-not the case.  We hired a bunch of people really fast and threw them all
-into it without onboarding.  Since then we have taken the time to really
-grow them into where they are, and have been much more careful about
-onboarding new foks.  I am so proud of this team for being able to
-sustain themselves all on their own.
+<!-- markata-encrypted-source:v1 key=default -->
+g7c2RDHSCkfMB9ToOjnus+3ly5ukEyuC2PssVdU9WALOX53NNIX9txjahDw7JAWkClOWd70WoMtnxnBauOskkxY69EXelpyIoKxIQYRilNKLzeQy3KsxjxIkrmc6mm/FJ2w1xhgVJlgYdTaJtBLfgjmRhfkHvovUhETlBG6wyZxzZVP21Z33NaoACbXiqaCb2ousnkPA3gcxIdYZG+Cjf7Eu9+rLcwGLa3HNdf8vsArTfi9TbRS3iy9tqApRakT6jxZiVwQZ+k8U9q0ZUmj6tqYpJelcjBvl5MTIciLA7+7aSWoC2SUVQTjTFYQlDybdqENuG1m46DD84V+cFljx1Jrb43RjCBRi0VKIWlAOB7QGjtLYBMaoEsvy0d2kFHQF71RlgAz0vqprsxjPNX6Ani5beQFxvAZ1Z3YYbG6YJSFju6w6wK/pJuD4SYxa6PsVwyt2ewBfCAn8zfikaGTFWoMOGTSkTXgYcoIpTXJK0LY0+LPEIfT597NNN7VJd93+owbEhI+6QQYDmcnjMOaalxTlSDt5w56SYmAkmUhQ8du8bUatR6kvEf1qryaLJDWKRcrsDfab83zqn9Rne9yqJBXNMsAgXorHKgaLFGwT1GxhaPXhf7bMFlWzvbxQYyZEOAIJNl0erX+dIpuyXd3lqmBSvhYoWAr9uFfMe+RC32YZUcbvvNgYpIXvwv/D53cA4lueyzrc48yYMR+ckRGigqNR/TIc7QrjzSls2p2BW7vhWH7OoXSZZoPgvT+JN7KYdp2u7aYSV5Ca57Vwv6p0VStYW2remjEaFV0l2q9bRcYxo8ZaHnIAlRBZThLsx6KQtlflhq84IWGKUUgRcZKq8DU=

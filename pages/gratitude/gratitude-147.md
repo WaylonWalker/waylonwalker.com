@@ -5,13 +5,5 @@ title: Gratitude 147
 tags:
   - gratitude
 ---
-
-Rhiannon is kicking butt today 🦵!  She finished setting up our movers,
-started looking into full house cleaning services.  And the greatest
-jeans ever came in the mail... for me!  I've wore holes right through my
-favorite jeans that I wear every single day, and have been needing to
-replace them.  She went the extra mile and researched the most
-comfortable dad jeans ever.  Mom jeans are a pretty popular thing, and
-keep your crack in, Dad jeans though, I was completely convinced these
-did not exist.  She found some.  They fit and move so much better than
-my old ones.
+<!-- markata-encrypted-source:v1 key=default -->
+37w+weOeUuJjYvMURSERIqTcDPwqhLzP4TphwzShdVbGMlwUDa3FNvonm6CpUD91iK2Jq4o7X18KHwhVJgwrUpg3CbGsXPWf9o2dW7QX/hYn8omT7BVkivA/pUbH4OEWbHUg4+fRWrrAwHQpDPuHjQ1OkCwkCS7sqBk9DBW13W//jRtj7kFuhyzCvHEQfln2Er5rS1lUs8ENNnoIhg07paZ/+C0wPPw3pmscQSvAt3WeLKhEzdi7Ntm2MfgI65oKbMk+aOlnMXy2atjzOUkZuBQZTtt/WTqR7R5CyvJQjU77rgnAS4nrmnuRR6lCBcMkwRLVEM82Lssqz5U33H5FkSkUqJyzSfH8XuuElMq++2G7piAj7+Yr7vIWmtL8Logjo8WNpdaSFvG7TmyzbwetBOv74u6tSpMCZDKSRHnwdFjde9gHm/vVO5GYwOWmMDVBgBpYbBm02DFKrH5Za9Z0QgIoFMBBmNxYWeZPUEf75XDFBa42eyhGJJnPgAw57VLgFF6zYwb7AGqN+RIegvgNOY/Tya1D/8RkLemtoSZd/5U9XAVII7j17n+8WAFk4SmPE4Hws9tTJxjbgjgPB8aOYzxQT0izLt+fMuljnrI+PX+aGt+2l5WInBB903/KVNetdPk5mvMCWoQCxhRzUXyT++LBnRwiohjQ5NFr17vHSPKZ36Ae142D014SjIC0Du/iWGfRuy/Qik3KDgOOBs7J9zAGQVdkNYmlWiHSTH+MUZ1MIPkpx1Jjv9F/khTMzgFZ1txIjQK4nECL8nR0VWOGOhCTkxpm7GXg5fOJzQytMRJnEnBW1N1U6pBhCv4=

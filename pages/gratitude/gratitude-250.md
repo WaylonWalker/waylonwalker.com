@@ -4,9 +4,5 @@ templateKey: gratitude
 title: Gratitude 250
 
 ---
-
-Today both kids had hard doc appointments with procedures involved, proud of
-those strong kids able to tough through it.  They were champs and toughed
-through it.  Ayla has to rest for 24 hours and will have some pain for a few
-days, she is really struggling with this right now, but is doing her best.
-
+<!-- markata-encrypted-source:v1 key=default -->
+mJlNNkbIYAarXGxzATu93G5XqR2cgItOU7myonG2QtLooMUo6z6GMuTdN5F04395cSymmbe9sZC+BziCPdu6u7lHmonCaTfA15uW5LEz3hZxAm6v5XiffHzqoxat0UNL4J6CfuhLvCGNZLh5qv9uV9v83z0cTL4xrcn8em7U6Iyobnp9DA97w1dKmHEerEgbmmkhlgEzIzNOH485y/hxUvRo7X/NZwCCZS1ImldAFRYIc1J6R8uzGB+2R+Zx0q3PJ3mNgkiYNtjNHlvqcbJRbBY5Cj52euFMmPBo8VYtVIro3bzQjF6Us6rRmy2/Ke6QRFn4beRCp7NI0YljyfKmTenrM+71UL3JCgrYeHCUsJl6UquvKVSiabXtpsd7x5VlUovX94DIf4aDonRKKDy3JajsgB5XQ7RnqISyTGILhTSJfzvoxBmqS3qq1UbMDZFtDhIY6vOMYKhxyHBaxw==

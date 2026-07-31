@@ -7,9 +7,5 @@ date: 2018-01-23
 templateKey: gratitude
 
 ---
-
-#### Time
-
-I am not sure that time heals all wounds, but some wounds just take time.  Yesterday during therapy Rhiannon finally had a chance to talk about some very tough topics.  It was very tough to talk about at the time, and I did have a bit of a rough afternoon following the appointment.  I am not sure why, but I just needed some space and time.  Today I feel quite a bit better and am ready to start my day on a good note!  I am not sure how long it will take for these wounds to heal but time will help.
-
-I am very grateful that Rhiannon was able to give me some space and time yesterday after our appointment.  I know that it is very difficult for her to see me down.  I am also very grateful that she setup therapy for us and has given us this outlet to discuss topics like this.  I am grateful that we were able to bring it up and talk about it with a neutral party.
+<!-- markata-encrypted-source:v1 key=default -->
+XtV7Pzv+zAnoTZw+jaeIoyG9+v2PlfNix7kPFlUmUWavwSfl5R1TTwKMyj88BHMXmbsT5Fg72XGE9WbeqdH8sgbdvttiaC2jN7UigMxJaTIauEYg6DQU61NSG9kAqxDWcaiTfseNVchvIVV4qoy3AGwGQyt4WytXarr/MWi/EfNgVSeIBB2PkaxroAL9pxbO6j90meGDjYqRWJ8rBWtKQpQ/cofmmpyMfIjCwpJLSinhX68/jbNA4xY8r7IxEGHWFGo80wrF0Uy3JUh3D502Pjgwxo9HYt8XwW/Ge6aZ9xdgz6QO13x+PhA+JLO7FuxKUil4jMF4CmWBkKzcpsrMjoYh6ZWkwsYeR8uGvm2Fc1i60ZhtorCLjhlq/3BLwjSDoCPheANiUcruVydrbNsglHXfwF7IqlbLaDbsfHaXgVOVL5L+SMI8il+dluKCy0Q2OlZa9YCQzcWvvPaKRJpQIqV8qLzi0V2ZlOICtnlONIS4Oh+y1rVMppFaFuGpG0EsEw0CmsJsJHAohjlhhqDI9wOHLRx64nhtI1EoCht9U6Hv0hxtHcOs9bjgWC9uP5JZo38i6UBXmd7VRZnvoov2Kt4XOMmbuOwrZzQ8wKaHN5XQwZ4vDiHWsKmZshpWk9ahIb8/mqVM32uQYRe2EU6HOnF5vOHt2YfAOSsiR8rwm5MvRx0+2qxiJobNNm//APdBUrsG/ZHxI1lOoooDq4wb4UjZIx/zCVzWUjZcEEfPhTF1gGAC5/bbE2mmCkFxUoMqMKV1aR4Mr4U6lqyRFFso3f+APznMoDGDAOpym7a+Q+YOUfL6HwhyYSXVPg2kKuNjprQeLYSmutWF5Kov/iT/zlTdKws0tqSQlIhDRi9A33JcK1xR42fqpStOdE/w0LiFJArMImrabp6lscGIaln3YSZRvhOTTP/ySi+bnvnZY6JZ7AjpnI5GgoKH/Xdz+Q6hYMAXQDd4p90lnEsWVrY3/FM00zSHa5UFKkfw60N6LKMV2Ys8MWK+61s7hr1X79Mj6PfpjQjxyKJtAAVQ9v+/kogtfcHBrJ6KGZGUoeBwB65SRj07D+yD4a56OL1dvO5fo8u2F8KuzL3SVwJ1Bn3B6+Q8g936+HsN8l9B5bdQ4k5DSfC08spjRf/hWtkX+389B1fh65aorccXLStPM+arrh6QIjt+hYz/p+0un1Ab0uvyTrs0yWmt71QkT5cWbw3YyvF5AIOaBy1cARVd

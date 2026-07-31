@@ -6,14 +6,5 @@ tags:
 - gratitude
 
 ---
-
-On the eve of the final day of summer I'm thinking back to the summer that our
-kids had, it was a fantastic summer filled with activity.  Boy did we have more
-activities and camps and vacations than ever.  I'm so proud of Ayla for
-discovering her love for theater and allowing Rhiannon and I to discover our
-love of set building.  I'm proud for Wyatt sticking through his dnd camps and
-getting out to socialize.  Our vacation to lake Michigan is one that we will
-never forget and will likely go back for.  Wyatt is now running arch BTW and
-Ayla is writing her own screenplay.  Goodbye summer you were good to us, hello
-new school year.
-
+<!-- markata-encrypted-source:v1 key=default -->
+hjLU4v+xzMLgwYv1jai3cAHE1szqO2I5SIDGJvPbHbztXKmKXzMzNKpExnf7bDVhGEMGUoPJdvyWQOWaYAY31SQ8kkXj+J98zTDQUZxIretmTLVwvpuqe+8Y/fJTU0Nx0YLoCoM+eqrUZPikgQ3Hj21u7WiwRs2KB7J2Pe3m2DAS6uQ8w2FjjO+8ZyCbOXeO63uE6iEWceDlQJaF62huLBb/K3aRexOoqrtrHZdGn+W0uR/cjktlmqI0RAgI9PWqu+0m9w8PklYrvpekKn92DQ8UVcw5LJQmy7BRrrPe7/2ghso9mXPANxQt2vq5Avci4RT+9lkSNO1QfAKdqHyi1wuk2RX6uzm58/G3m5/nKCLVd/Eafdq9+oiSicCj81RxJktKhGBmNAYpyN0MUFoAzD/ySIsfDNTx3blW2G943YZgMnMUP+eBwbLN4oi63GaSJmTX07tzL2IFXy86JTzwZIdLqZBdgEJJnMnhMNiYNg0jIoL2xA1fhtlC6GFTITpNsnHC26ON0ARnkOhDrImkIcCiKFsXoTQoz9CqF1j2q83CZjRz+K1LR1eLatoLkGFR1snWiH4OrV/k4ClyaAQrS1jJzY/7EcQvz4uah7ebwwRzY4Uxe2J57v+oZK4Eofy5YfRe6ZB6WT+2DkVorHzWsOZjdXBhJjwTFNJ3Vhe8zmzjiqnkQZZJsFdCGL8xnF5rBHtccrfEyVCLnycL7X547IqeM3f4SLy/8zkmU9d2zfkDj+bPSP107Twzt3ZahwxMVBXJpmJFHOJEH4kYv4ewO5KScNFh7zwhcMB5Tb1Ge9Nt0F6rOqGfypzw1n9P8MEwpe2B+WYC859F47c7qS0AcCv8ABArMBfPhtdPhIL/dWQYXtOiG8LS5t3LFkkclCPGpqa1UEodFwlUgw==

@@ -4,11 +4,5 @@ templateKey: gratitude
 title: Gratitude 264
 
 ---
-
-This week has been quite productive, I've been riding the lightning in a bottle
-of inspiration and knocking out a project that I did not think I would get to
-for months, but a small part was needed sooner and its turning out great.  So
-grateful to be able to ride the wave of inspiration and not be stuck to the
-jira grindstone, held to the rigors of what PM thinks is best.  In this
-project I'm full fucking stack, front end, back end, PM, jira ticket zarr.
-It has its ups and downs, and right now it feels up.
+<!-- markata-encrypted-source:v1 key=default -->
+wUB+7pk4bHlrtRys7HO1Bq+79eYiPfZhjCH6M/frYAZlO6nOQ5ckL5ttbYEF7UCE6GpG953JCgWfvZGKTIhW01+A6mkwnGw3KmA7kw8GDletCDV8h2LOh41h3xfZ6uR9W65ikOCKpS8hTrVncCeCPjTg/8UaYfb10SmgLgWmdD8Lwr7vLE8t9CEp1WMrWLzGd2CLuyn0gAC7XhIsu4dBRVVhcCbgOzEHpk5f2rcR+DDTGgWm6q6p2FyjWQi+R1HUsjWEA/SFSDfOPCjnSthtwnn8djuOsgxHFjCEIKwmU9gM3YTDQu7dBCitZq79b3ofyNPWsHm+YkKu/fvncfsgXMFcMtx5oYk96Z/+RXD38eY7Cm4W0yPfuBNwpNYF2LUMeLHLn9rXyqfXisWI7YPkVtXqwxG38nK6dIoIfHl8My2TLmzQWrF+0dTReLAOzVqZg3US/9ucBgYPoKGpOpUB5Q+A5UZknp+qoII5sumiVqP3oyQhNHkI34HW6ZJDGKtqL+JG78ARhNl1IM3dYTDMXv5Efr0Bc6nyohmqfd0IUiT/8lVCFKJ4O4+r21IFeDRJhHZtmWMd7h+CAZFWqZIWCsF9v4ivDrZb6cfkY0dJbX8zWeIyRq2Wxd+Hvw+LaVT4ueEJ+UZ03uHhDK4hjjZozvqN8g8AnCVssnbKWp3Di/+4SYaeKtjjTjOs9SDIFjsaSpYoPhcoI9GKM6dECeERr5ob00mACWjdyFxGgB4=

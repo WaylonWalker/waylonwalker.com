@@ -7,14 +7,5 @@ date: 2018-11-19
 templateKey: gratitude
 
 ---
-
-#### Reflection
-
-Today is Thanksgiving here in the United States, what a great day to take a reflection on the past year, and think about what I am grateful for.
-
-
-Ayla is a singing, speaking, yelling, and screeeeeming pro.  Over this last year she has gone from nearly mute to graduating from Speech therapy!  Her progress has been astounding, and seeing her now you would have no idea where she was one year ago.  I would say she has some of the best enunciation I have heard from a 4 year old.
-
-Wyatt got his CPAP, and has a plan to help him start sleeping better.  We are all hoping for the best for this little boy.  Fingers crossed that some sleep will help his ADHD.
-
-I am also very grateful for where our marriage is and where it has came from over the last year.  It has been rocky, but what relationship isn't _we're people_.  But we have learned so much about each other, and continue to get better each and every day.  I think that it's pretty amazing that we can take everything that life throws at us and stay on top!.
+<!-- markata-encrypted-source:v1 key=default -->
+k4j61sNcL4XjDRL0yoZ5YLqCuAwneVN/bizgR/udnpUzxvoddA/yMrzKGw0gN7lp4u86JmQKse3bKHjtIRKqtZUTC+8XHzYXJtHoNIdmjU428DV/Pdbo7qjnWTxnTGCPxZO6VBvJRYZ6ldKdG9CQSVTCNFpeMVjB1ZsJzYKidkSyro+JU31BUI6MUbriEHQZK7H5PFWI3KY9oQbQ8ZC3OWsahQp5g4uxdT7XnYOkBNf2afQ+BoyhTn4wgnCWqZjqzcvVfvGYkyHnBYjC+z2qJBC7SZ/zLa+C97u7m3T4nA76jIloD1zR/cSrN63MCPResiU1SeGlAqMeiuQNbpfyGv84jx+eLbuL3vXnsKD9QN2nhM/7TDY8avTOt31T3dmK/smjmYZNTOvJ1D9EqIDdhL6M41qmyXleECid7J2BaOy7n3cygI6f4C3rmGReqiqp4MmRXt8xWU7+eLc0weSkoBCpRyeehpo3yqqSXVN0cuZKodiF+er23JBAnOfV9lC8uVqL6+YaDlZ6VhAi5SQGyU/ZBW46YCj/KesqZ8D4HV8tVsGGOWYM0PffX1t9S6PXRf/HHDe3FrUtjcHM2nGx8OuAX7ZZK6nfBoK+42vMNsET+M/5SRrLXfW4nmXa11h34OZu/3UDW1s6UHUdHJ7kI71FnFyoIGKPhzDltfZRGwGc/EuYjJ1neKY3IxJRDKDssfHHjRt4cdK53M5js3r/YpesqiDvoOor9m/ubT7SzAWucYOQY8sXz0CVljJsU/wK4DZglMyt7p7jJkQeM4LPjaKL5xsBmmBxrbtJo3Y1bzF6adGWPnf4deOHpY4wbf42iEWgYFNhENh47b6Zmn8K48U4JdjUfuNKazQPtsKt4bY1+VCHCOvHH17fsvbUMkgV2N0NkrAGBHrd4DBTkXC/HoYT2s1HudtHw2mwmq1MkP0OqndfGaf2ekUbvOpmsBN9RJR2OPn7/UWH5rUfqvy7xwQOmLAMXEOz/05anT/BvocyqKlOiAvv2BZR9aMUQDGvkf1d4SS1kAKht/cG9t4qqnFoFSFWi0vm1cvD7nSnkGoJkRxp0GHJBQkVuEJFh0dwSba+bOcOWHn1oBxWOYKqH9zAe4XlIO4EPfDYIx6MLVhAueFdWx6DosDC5O7qIUCyGvpoA7ViFu/VGwKg2w5aiNgvRME9LXp5n8ZtmjKBb6K3/KBkFdERAKMVLMWgU2L+OHDL9xCmJCpWHhjy3HmVRw87wzfc8cmjRIaQvkaUp8H8I5hya7DNOvxZm04RN1y+Tyl9YQg8a1R6iMh9UfTI0rdZJH7GEOZvgPlBC8acDMGD8KqBiwUO+udMXlRV9PoR5LkrNMdqIgpCZ8QeUgNvhyNeVRnuYCD9b8woEJfJh9QCmOUra5MHh5+UBxzrDaQ0DEQtoda6nBivdiTPkc477js6AUioVg==

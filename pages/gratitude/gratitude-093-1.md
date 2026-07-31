@@ -7,6 +7,5 @@ tags:
 title: Gratitude 094
 
 ---
-### Let's get outside
-
-The weather outside lately has been rainy and dreary, making it difficult for us to get outside much.  Yesterday there was a break of great weather.  The kids and I took advantage of the opportunity.  We got outside to go on walks, to parks, and even was able to try to fly a little bit, though it was a bit windy for flying.
+<!-- markata-encrypted-source:v1 key=default -->
+BwHAY8TnfTbTLcrUjsej1T3KWvfps6UPqVjYei2NS/ADfzJHKE4+lIjfMThivyeBbN+lGa3tbrLMF5/X+LnYs0Ssoea1tD9rneWzP6xaeGkRNpLNKvQtnMqF3s+M4bXq6g9c1Ul/VnVRuYFDDNvA6udUCZwFy1XZgJ4cC0Tw2pD4tIHhpKJiWq0rGwifnOwGiUuYotLfDMhQ2lDICcO/AjmADX2BkuPgh6qd9mhnZrzcGkX8sAtqWTUQURL11cd4BqiAX3YmHO+16faac9SZHzD3VvGxmNxvSSNKHi29+8ghGK7rISQw9QVi//Z6cmkNim2u1XjiFwd5OR2ZGHz1ExAysWLwT3XhdyJEvIRH5vv53zSDqEW+MJNQV9nXSQMS6rjB7XhaLxsUrpbJuSJ0rYg8RTi/BH1OarWQjX58JpxjnOREJryllvsa3YPUd4P/uXrSMtAdONu1Nd0vw5uorlapDVX1XEIGWdv1m9G5hS7MyDvbZWKUe5IQkzFpJ3AqQygDjHa8mtqX

@@ -7,11 +7,5 @@ tags:
 title: Gratitude 130
 
 ---
-
-In my 32 years I cannot recall ever dropping an f-bomb in front of my mom, heck
-besides a short period in my life were I developed shop mouth I rarely drop
-one.  Like twice a year at most.  Tonight it was not only in her presence, it
-was directed right at her.  I am still processing how I feel about it, but I
-think it was a discussion that was a long time coming that we needed to have.
-I'm glad to get it off my chest, but I also feel lost and not quite sure where
-to go from here.
+<!-- markata-encrypted-source:v1 key=default -->
+cig+b4oLZSf8P20cS7t475EnL2oKeeoqkj3w7a379aauONgpMycfAxXAUs91F8cRq5T/gOEuTqcQEumADkli9ry7cMWndNzetkp/Bkdv7eAZThmhbH74CYPOocIlZiIMRDDbLJVfg6378008zE1vPK/cnfg+md5rdKao6rmmGvEV/rrgK2x6EO2YNzQuZjFCtLf0sb61BVIj7YEhklMuI/L53Fwr492ei47lHu9l9vau+9SeHxqOGgWFgPLPxzYvRY45rlC6Jv4TwoYGB0N4Q3wlNOTWL+UHwLcCCBxtE62PZ0IA5iNyQ+2qrTjpMDdImLXZZnYPKF/rLEcsi8eoqcNpc0mdojgKh0cke40YOhu5qhEicBO4kn+NgHVcaA/sZvARj8KYlg0+S5+ruQQ+qUEmS0fSBuq7ZgUsK9+WRQkX+jSaVn/ceXXYFNmla9CaeWm7xFQYhi+gDr5W6w6zxAdSUURoGpmjYt8R0nJNSvCgll/O5oWs4riVIaO1uBqRPfI1QgeYpIPNmmpd8xnl/Bxp6eS0WCik7S1zfaRicXBvztycu3hDObH8G7546G7XUHKQxjrJjuLVl94CvZpmWkKz89QmgUiBfy64MiAZYAvtBBcWv7Px7id+y+KZzk2FrVeIcgQYX+immqaui/CGP7vKMhpS40DnNnZPvISBoTGZZsAB2TZUZuQlmcX933aN7MA=

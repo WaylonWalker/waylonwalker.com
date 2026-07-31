@@ -7,8 +7,5 @@ date: 2018-04-22
 templateKey: gratitude
 
 ---
-
-
-#### Playdate
-
-Today We had a playdate for the kids.  While its good to get the kids out and interacting with others, its good for the adults as well.  I am not typically one to spring up an event with other adults, so its great that the kids drive that for us.  The adults were able to play a board game while the kids were playing.  I am very grateful that I was able to get out and enjoy some time with other adults, and that the kids had a really good afternoon.  The game we played was new to me and was a blast to play.
+<!-- markata-encrypted-source:v1 key=default -->
+Fec5oetmSpbssTJdbN2ECoCiHqlfJgBZoBI6dP69X5G0KD3/Am1TNDWgiKOacBMlxQeanpclY66ofq4/qn45co4YaTrVMdvvBFLpRL3ML6We0GoyPWi33TiCxqSfbmc3imvJToSIWxIDoWgFHVjqmyof4AllSXHyklbFAkhBs7j9xV8oSdxU+F9fGKwnAaWw7baM4G0Khgsz+TejELYRa+NWsBmh/mnLUYzJxbY989seTdMM0Ls5qMKh9JGLYQm7Q/D9ny1/tx4MhoCyOku4POBfR6GnQ8uMwr5wY8YycyV8ZlLvorYdRMB2DolF8CTP0kog3J74kw29rJC0MYt+9AEndhYLXkQsCQsWbsQYXsGi1bfSrG+4y4Bu2ZQa/A2Xqi87d/wbDxvvsPT9g0NBfoLcSzJLO91S50OzaTVSfWhWk20SeHachfbiynyHWrUoVi/WlKVBpI09e3tzAiICXht7NObcTOlBhS2/hRybBjx4RRp1AFwp61oAMtBBd8asZQOd3LcvgwcQWSkAsPVj0d9ODs4icEAVTS26ocdqfu+SrzEim/lW63C0xX1Gtn7yg9P912MmEcYnQkLkI/OnPdleNC/0N7FbfEtsnib6UvsfRZ2QvDx9oTQV0zqXIQnVVK34wkmT5Is/qbM0F629s65EnYBsJdRBPEKch6dhYSJGovsjD2U8CM6l+2nVaB0f3kHWsMzsDlq8LQ9jWjj5pQcdQWPRu2SYNyJzDh2rAQXQmc18Fq61t3zuJ6c=

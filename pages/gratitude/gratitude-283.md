@@ -6,9 +6,5 @@ tags:
 - gratitude
 
 ---
-
-Today was a bit of a rough afternoon.  I got a migraine while at work.  I am so
-grateful that I had the time and opportunity to lay down eyes closed for a bit.
-I am grateful that we have a small community carpool to get Ayla to practice.
-I am grateful that my migraine cleared, I was able to spend some quality time
-with Wyatt and drive to pick up Ayla afterwards.
+<!-- markata-encrypted-source:v1 key=default -->
+AU7+uzp8Zudb/53FRt34+qmt/ecjK/t5pGNKNdBcg0nc7hVkm7dLe48G78Q0cB6rJReZ+CYznPuhD3jr8d+CHg1nddJEpOtHLK65t6sgv1ToZWWmcaa94IOhT2GiLpP0IA4zmQ8s8elGJnv0bvVMhtFv5F42tbbAVk0uj4qamGDsBQnIDWFjaUIvaEWFR6708ajXW+/dYPHxWYHUjGy57BsE4Zl3+IPY6f0Q4xT+gSLxb4bF4XAbKIC0fqDS1DMefwBepMJ4ptWVm1PiuCxAxo75I5zIxwwMK9Z3Sz/bPBKjFE1UaWyQC9rVYnJtZ3YsTOvnlSfFcyZi2JITBlW58S+E3ggz8UtXgAJsB7TDspxeUUnBkt7iwA7ktaRdB6cPGntNeHhAHSXf8qZB5FY6Nvfzoi7/X7SqwIopHHrZ0LXAOTTt69qD7BcBsXVNkDvFQVf+D+ItFSTGB2JRdmuptU34P1YKeNQCWvyCVZAFTk/Pbr9e9W+gA8TXKDs9K1hAxfK/D/KLZGYcOwMoogJBoaSay3tDt95yAjg=

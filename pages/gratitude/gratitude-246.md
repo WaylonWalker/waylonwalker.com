@@ -4,35 +4,5 @@ templateKey: gratitude
 title: Gratitude 246
 
 ---
-
-As the sweat drips off my brow we wrap up another fantastic day of vacation on
-the beach.  The afternoon humidity really hits this place hard and we've had a
-full day out in the sun so I'm leaving this one a bit shorter.
-
-We started off with an early morning wake up by the kids.  
-
-> "Can we go to the warehouse?"
-
-![screenshot-2025-08-03T01-49-33-042Z.png](https://dropper.waylonwalker.com/api/file/2373edca-95be-4845-ab23-c609af210234.png)
-
-![screenshot-2025-08-03T01-50-38-252Z.png](https://dropper.waylonwalker.com/api/file/70ed1920-13e1-4a39-a64e-b0ebb3d463e0.png)
-
-The warehouse is what they call the giant rec room of this old wedding venue, I
-find the name cute.  So I stumbled down to the kitchen area pleases to find a
-tea kettle and a french press that made damn good work of the fresh beans I
-brought from home.  I sat in the office for a few minutes to enjoy.  "the
-office" is what we call this cool crows nest kind of place that overlooks "the
-warehouse" and has 270degree wrap around bay windows.
-
-About the time I wrapped up my coffee Rhiannon was making her way up, and we
-got ready to go to the beach.  From there on out it was a great day out on the
-lake, out to Culvers to eat, and to Piggly Wiggly to pick up our supper chicken
-taco salad that we made at the house without producing any extra heat.
-
-![screenshot-2025-08-03T01-53-38-008Z.png](https://dropper.waylonwalker.com/api/file/d5fbc521-7bb3-4bcb-a689-d7fde98d0cf2.png)
-
-I'm about to soak through my fresh shirt already sitting in "The Office", so
-I'm calling it good.  I am so grateful to be able to provide this trip for my
-family and everyone to have the strength and energy to enjoy it.
-
-![screenshot-2025-08-03T01-54-28-286Z.png](https://dropper.waylonwalker.com/api/file/c32445a9-b834-4f5f-8a9a-757c8161480d.png)
+<!-- markata-encrypted-source:v1 key=default -->
+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

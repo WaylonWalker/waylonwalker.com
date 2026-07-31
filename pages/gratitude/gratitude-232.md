@@ -4,22 +4,5 @@ templateKey: gratitude
 title: Gratitude 232
 
 ---
-
-Tonight Wyatt and I had a Dude's night in as Ayla wen to a cast party.  We had
-a blast, between trampolining and Cat Quest III it was so much fun.  He is
-really getting more interested in self hosting and linux again, he really wants
-something more customizable than bazzite.  More power to him, I love it, we
-just gotta find a way for him to play before he makes it his main thing.  He
-instantly knew the way was a virtual machine, but bazzite was holding us back a
-bit.  I'm not sure how much he wants to do self hosting vs sees me doing it and
-wants to mirror me.  His first request was backing up his files, very legit
-request, in the past its been combinations of things that don't make a lot of
-sense, but I get this.
-
-* Cat Quest III
-* Trampoline
-* Chicken Sandwiches togehter
-* Cat Quest III
-* Homelabbing, talking about arch
-
-![image](https://dropper.waylonwalker.com/api/file/4d7c7191-2510-4643-9a8f-678ecfe5dd7b.webp){.more-cinematic}
+<!-- markata-encrypted-source:v1 key=default -->
+cwGBw7UNA4NXDOqDoMTjyzSleV9mkaRbuNltBv0G7wXdq/8lX6nUn8aff8VkTgU2XzsZQe4PSs1xJMOe0T8UVpD3hWdjONWDkmwQ2z1qKLN3ykpwBWLZhZ6OmqbaF75bGh0o6hcZqJ8aFStw10tRz8Xp2aHoStFkU+GXZWvEvAY0NgznpIP5OXmm6Xvvn4YDJRGwmOZXxS9MiAQnmmKjDoVTCVACiHkeUpbKdA/E/J7pMrJzZ2Vb+8hBg4MxanmRTmsyXmHh5Efc2XY+SAYqICWtzrSgP0tpM+y7s9qJSdp4tHUe93lZe8WbVS537ql8TusG35qZ3hpHVU2faQGqjne8XPceRUjwsGSNpWA97fYxWXpFp4u6JcXDHOtzg4Ozsocc/Hg848YwN9kS2ZuH2aAvUOcze1hrIL3R1vMg8Wx0OX55BXzDJxwvkLvQIaopqpl8DLIKl+Fx7kBJpd6HcC17KwYGWD6DyrW+c5xBJvUj0yvX4Cmoh8Dt57qxttU1gwBCKih6CupgUsjqb/qxdbBlDlqugr2qFKcpF8aG0WOKmegv53bSomIbrAbkAaIBi8jS6gyqdVMQLbrJ4cjBckUQ/g/W49Ko67y2tYvQNdruW9Pf30T/ANgvO0I3387wtKFtWhVL6A9hwQMR8o2wb82sBeG7MVDtB+Y/1SpzThenu4pT+sEqFevkkkX+rQljnJaayIBwdmsvjSNGDF5pRs41SV1WTyNtTqnZ0fEDZRrQz5ibWI+UtxEtIqFBT3bhLPTlUuzkoextqKw1/f+wdj1IfkIOPYEdXlRGQp9B4eBN1Z7DEbTVLomGgLHYc/vIbpBea3/NTEgx+PVq8sMeIFXed51QizF5r0NWD+bK9yw4KCdMxn7/zpUeUTADHdSxGmHD+Y5pIj9WPMsiiooSzgo1pumgxuy5kPo4JpeeWpTGC/pNQwA+49++gWlPeFIKQ8Mbak0O+jJ11nDnQdV6D9h6vB4g07o2OVWv/RD21vGCcDs4Bt1uYrHWLYq1Cl4W1Dxmhs4PHaE087GA6TXtp510IIN+w3dFfr4mSE6pgmn0WcrJhtdl2K6GlMvZydS6zWNs5efM4nbSnWPZA054wkEw/juZ4GDRLONCktNM11vQ4ckozS3aKV47XwzS6jjdPeoHVtdmz9Oa2OjYr12GFnd7KBtmBedchDKwX0TDRjxHVSq9ndwLNopitiPd0hM5hT6xPU6d6V/5nZ+MaGxwbtRmZGu3jScPq8P+SOCWpTblJwE+nq9odFw65QTXxgyzaIVWYbUbrUWjFtg7s0atfRyXbqqzuZFkqlreVBLBbA==

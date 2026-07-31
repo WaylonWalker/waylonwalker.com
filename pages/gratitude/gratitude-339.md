@@ -6,7 +6,5 @@ tags:
 - gratitude
 
 ---
-Today is a busy day combining phone screenings with chemo day, literally right up till the minute that I needed to leave.  As always, I'm grateful to be there with her and care for her through these moments.  Sometimes life gets in the way and other things seem more important in the moment, but this is the important part of life.
-
-
-![](https://dropper.wayl.one/file/60c6737f-6ae8-427a-934f-088821798996.webp)I snapped this picture of the puzzle @Rhiannon finished.
+<!-- markata-encrypted-source:v1 key=default -->
+u+8FhNrcAo1DD9WYDbQjz/+PI+tKaWgHC7dux/2u0N6ldDFtA1tZJ7ygDUV0tTPOONvcbpJIglqYgAcp0lwqGhRvuuvzC5kKanLcw0Kz5LbGJH7WQyvoY4qDOnYqeTqMDTUFAKh/J9WDWs/Tyzm1CPtOEYlFIefP4Z4ZJyEeIuqyj49SvqPTvk5/K8GfdnPp7dX9MwacZn1C9wB36cg0ufOKF+v/A6SjL1mlxlJQVBQH4KddF60hZaNIU/ufHN8aREj+Uqi+F9MiZ71yAlW634PE0bNW7iCHxgC18qr889N/Yk0yI1wCmL10NzXcHeCKXXGS99lY135v1VLkjPn6dVMwV1Qattd0D2n8Ec8wrWdTTjedd14QlwVArxhamABc/405RpxXWvnJkF2FOMVeG9z9TP91HrZFMRg6PbAe+Jy+Z0kYx1W4oeT/EhYZ28n79B59c21MgX+lCB2rPvYpziq3w3mkS7juHf9LhPTauILlOedAATWFY68miVZ2USKNpV+cZDg4dqWo13uKoZapP+yTssMEzn34kDdQR94pGlRizqXnyZfrF8oZ0KwbV5ESrSdSLpWGVMkCmKsAaTMUBEI0z9TMWdZtsiCN5CByEGdzhFZnSCUWsVomM8TMDhDigvsymtmVQc8i+pCQ/TOpKy3PjSHN/NcvB3PizKZC

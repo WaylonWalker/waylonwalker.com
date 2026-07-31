@@ -4,36 +4,5 @@ templateKey: gratitude
 title: Gratitude 213
 
 ---
-
-Today was the first day of RTO, pretty much as expected motivation is at a
-minimum.  The cube farm has no soul, no creative spark, it feels like a
-machine.  It's really hard to be grateful right now. I just worked through
-everything with Rhiannon, and there is no reason for any of it.  Every single
-thing that there that could be better here has a but.
-
-I am grateful for the clean air, the building actually has a TON of vertical
-airspace and ventilation.  Allergies and Wildfire smoke has been crazy of the
-past few weeks and It was noticeably clean in there.  The water is really good,
-I went for a walk to fill up my water bottle, and the same fountains that used
-to be super hard water are now fresh and filtered.  I am 1000% grateful for the
-support I have, everyone from my wife, kids, co-workers, manager, and his
-manager are super helpful in the transition.  Most of all Rhiannon, she is
-stepping up, she is helping with feelings, she is really kicking some but right
-now.  The walks are nice exercise, I go on a 10 minute walk about once an hour
-for one thing or another, this is pretty normal in this building with
-everything spread out so far.
-
-I am grateful that I have a good job.  At the end of the day this is what I
-need to provide for my family.  I am grateful that it's easy work that does not
-result in pain, tired, and bruised at the end of the day.  Without a job right
-now in this market, we'd be running door dash, draining retirement, probably
-moved in with friends, and still going into debt.  This is not what anyone
-wants or needs and would set us up to depend on our kids in our late years
-rather than enjoying them.  As much as the world sucks right now, having a good
-paying job that is easy on the body is not all that bad at the end of the day.
-
-Everything is going to work out, kids are getting older and much more
-supportive and helpful around the house.  Heck this will probably teach them
-some more responsibility.  Rhiannon will be OK, her health is doing really well
-right now.  Getting back into rhythm is not easy, but it will happen and
-everything will be okay in the end.
+<!-- markata-encrypted-source:v1 key=default -->
+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

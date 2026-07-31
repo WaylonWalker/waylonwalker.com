@@ -7,8 +7,5 @@ date: 2019-02-10
 templateKey: gratitude
 
 ---
-
-
-#### Manners
-
-This weekend we re-implemented the ticket system in our house.  It is really supposed to help focus ADHD kids.  The kids have been really responsive to it.  Not only have they been really helpful to earn tickets so that they can have been cleaning up and doing nice things without being asked to.  They have been arguing less, and playing cooperatively more.  I really hope this is a sign of what is to come.  I am really grateful to have a wife that understands this kind of stuff and can research the latest techniques to help them.  She is just able to pick up and see things in kids that is far above normal.  She is then able to research and implement things to help them that are very targeted to their needs.
+<!-- markata-encrypted-source:v1 key=default -->
+ncjKxEZyJTOwZMjtikrd/seRgA+BE84bqG/DU3BVjR5Yysc4cbmP3V0j7bjevcM68MnXXWRvENVdguu9jUaGhNfI1P/jlpCl94TiFeoo1NUqXEfc1QUT+fl3WXfz2WHWFvUu86l4PXH2VHzFSbo1iFF/ZKu6EOrzTPEN2Xb6U6vldadzMf7WnprFusLFHWTZIK3bgILffCITX/Q9VOcX7akKhY4CFTs7j7PTB3G7VVHwZoYZNJoZMrPTkybcMcC6+ZPq7XXk9YghbZXyqi8sIUIeO+colVCOBDLlg5nuac4HQtRfTDRhAguoEgntccKJv7gJk3MDp1KRxjhdIA4I3Fwh+HrnMGjPIX79XCYLeNg9sItZyuEmdqIpAbioVUkQYHnmvYrRWgKRxQFTkwN6ViXyhN4PnoQ7Jgd8yyvG6dY9sLIU9gD1VN5NN5A8bQxnrQgB9sdbdf61cKqgyBn3t9NKqERvmd2jXWt4wCd4EKvcvnKnlDjvvwDykYgkBzWUuRgBVIY73IXyiJWtvMjH71XqeEeKCjGcRXAHxaneLgehnj/KHbP5hxiCVA/2plAnafV6C+SxfKSl+Qylowvhp0/j5yufctgjHFdDSUxaCzBXeCm6kJcuVVXMi8Gv+STPvBo1RXjCikCU4t0YF5YVChhuB//44Ie1T0gKV5wW8zGeP7Ibm9pzF/T8VDLqbHjwdl+w+jpIrFohRt0xM+OYoNbhVrM16dGYB0L0tx6uy8edWiHoqrLb/5lZKZ800bhEod3PFE+sQlNqCfyILVJVpOS6PIK/uyFCf93bPLJRqUCPHLhFrOyzX/OLM+5NVej+VnPkR+fZNQc2qvVTM/VjsGdkZwdkoU4rC9RUySg7UFtxcCLZfMYAZXUEmXo7CORP27Af6O5+sZoJH3SMitgOxZ02z4nTDO/CvkBw6xfzLKUYopKTZ/ZP+xenGRZoDE93HTKN4+s8IJqhmtCjmXXkCz32VpRI++5QYt7iY4e0V0oxmavAxEp5BFRL38Qw5H6GffcfRhbH2co=

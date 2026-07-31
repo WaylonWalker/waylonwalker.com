@@ -4,9 +4,5 @@ templateKey: gratitude
 title: Gratitude 237
 
 ---
-
-Great Saturday, two big walks with the family and dogs. We are dogsitting the
-neighbors dog and are getting both out and walking.  It was a beautiful day, a
-bit hot, but great.  Wyatt and I walked all the way out to stonewater park, it
-was a great walk but took us nearly an hour and it got a bit hot we were tired
-when we got home.  Off to watch Millville National.
+<!-- markata-encrypted-source:v1 key=default -->
+ZVRgLElzCfG/rd+CrQJMNa1zniw81yN/BMSp32vbwjDSLcQrYTtrQCp6fM1JVpcwJM3IVS/SdoyzqLavWhLbgNOi92oh0l/7GgvORQ+ZLHbyFEoT4eoCJDi2dgNbeNU47xylSwgEyhOL+3Ycd55i8huZh/b8lN+Wo2tqj3RLXhyK8aV5Bw1ke89rCztCpkjJIvHocugI6DrauL3sTWQOgRHjyefl+pdtV+WsqGAWbL4l5HPC2Rxv2UHuqD6x0fNWgvesFfPmK5eGDfaTbckAlv76H1R3ZmMbC/vkz0sIlJyqODP4NtwQdCTv/N/XK2bTlkdtxB7wNRyQrL5tprxa31naRzvfBtGdaYqLzqxutEvlhh/MPP20Njdc4CyVaXi4JIVHhH4IF+QSg8O69NkujQsFZk9q8YpMG7jTk69wecqycIKLMz1jbqwzNeUUxWZ8QUPzFcVn+/gnxcmssmIzm65UM4pH50OXT0JaCjZpColPm0wuoa995qLdUsadaMX9XWCDVZzFSnun+oznF5vzKs7kMMm9bva/La0qmQ==

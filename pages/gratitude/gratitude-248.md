@@ -4,20 +4,5 @@ templateKey: gratitude
 title: Gratitude 248
 
 ---
-
-Vacation coming to an end we woke up early to the sound of thunder rolling into
-the area as we started to load the van with all of our belongings.  What
-incredible timing, while it started out as a heat wave, we were still able to
-hit the lake for activities.  The weather held out till the last moment that we
-had our airbnb.  I cannot be more grateful for how this turned out.  It turned
-into a bit of a stressful ride home very focused on every moment of the wheels,
-sensing the water taking us a bit adrift.  Watching out for other vehicles in
-the low visibility.  Only missing one turn while trying to pay more attention
-to the road and only following the lane number shown on the GPS.
-
-![PXL_20250730_143532253.mp4](https://dropper.waylonwalker.com/api/file/8ee60707-0308-4e6b-a545-326cd468fc47.mp4)
-
-The rain had let up by this point, but I grabbed a quick shot of the gutter
-fulls of rain coming off the gas station while we filled up.
-
-We made it home unpacked, and got our pets, they were so happy to see us again.
+<!-- markata-encrypted-source:v1 key=default -->
+OqNU29+2tSgpUWewNncWMlFbcCsuBre1otp0X67kDIotDhlxeIG2Yboo50OIwmzfvYVDU1Ulc+1RV6WotGmhBL5Yttrhcd2gY/eMd/M71JpkeTY/PVmRrdL2kH+obPhim91ZryU7YQeAEWVukMiGL7rTmII/dEDBuaqU8IB5CgPYSmu9NDQh+cHsZWz2WPpi5IRrANAfVUan7ontQt2yiUtfK3jHCzz9LXOUB9yZzr4ESfqDC6aKXM/TE6O2JuMpY7H5EdvqeMBg17cwBMyldmsDbJULVERyn0oBHR1PO2jakHedWOq7OzTmaDngBCxnEyN6QmY+W6hzrcC7qpP4YN4kgFBativjUCri0pAJgi+OaP9A2IrF6SD6bY5E2fQvgSbgUv5Wna0+xCtFo1Bq9TSFJEEG69zvNyliQzfhPwPiA2e25L9r45hW9j9J1DYB72x/r6GOZzmYH4I9r1vdUCHyD4g1MruTR2Gb3oQebvNgQOB7w45WV7KAHtcRev9UT9VYYxwb206fBDF1rnv8Ye1wZK4Zj3pAYVN4t8maIR86Y2MD88YfBA7rGbQfhdCPYPR045lERiKfBKY6KzkzZSgOIjDShv90el4AUeniOePl7W1FU13vfFPKlkvFashFn4jplAB3VuHd95dB2JhanJ0Kr43E7tVsKYIhlyHQ0cJxUl1EBa5JWDcM2wKZh5BLnZDjmVmhzceJOrQvoQa3U/eRvw+nvieQz/RuXun1jMTBfsFUumrJugVXCkor2V3Y5CFRl62/eagRYU6F+Z43Fhdo1WTHjaflYnUXI/8R1BGy7X/nsIUNKoL/NsY+XDCVRd3a1ROIJrDAGO5WwdVlqbchY3T4G7MXoqn/KncoFNRQZ4qQ4gy7TT0AA/sK0aq6TGprudklQWGVz07mGZaT55DJxtwi25MO2dw6x2uDgU2ibfVyLqu+lsNVWBxgcDKYwvhs8HA/g9JPKHJluH9eojGmpGLcfwPaQR1RVNTpaWJ11tkEpMAUXI0+SUkemfyku/w2EThLw6xgZuedZmJ/Tj2y0cNK62ydLyVlxfhqH/mCkp2uiypaUE2OphmnJ7sIYWEOIBuo3dfJDedRkJjfCLb5ry+ptXh32C5t+Q551b1+Gq5fxDhvwol/wApdb3NhOyAD43eQegN+AE9+q8GJWokO95NpW9tIjaEodhsyq5MQwXCqZKc3f5yVIZ+bSVmTMEimIcsyoG/ylSJ16LB4BDvU/oNuomOJHW3qK9QRK896DCcQTFbpdsYLDTB03J0ThHerHGjOqvJs4FIvH5utKekhnPV9mflvMefc8sWEm+Qn+iDQWR6l7kChTA0BX2bda8izIMmmakLLcJxNA5VTvS5UjTSHwtd0fu23yUVEEIvxJ+Dbv0KdjD8aHmiJo69wgWkV1oYs9kIXDmmPG/E=

@@ -7,12 +7,5 @@ tags:
 title: Gratitude 112
 
 ---
-
-Today was Chemo day for Rhiannon, and a rough one at that.  We did get a
-whole box of Casey's delicious doughnuts and cookies to enjoy together.
-That only goes so far towards seeing her suffer continuously all day.  I
-am just grateful that its only like this for one day every month, in
-another day or two she will be back to her best, but today is her worst.
-It's not easy being the one caught between caring for everyone, but we
-all make due and try our best to give Mama some extra love and support
-on this one day each month.
+<!-- markata-encrypted-source:v1 key=default -->
+yQxZdAbSxfKeh0ww9YEa7xSMIs6lbBuaU95Z4MamhAs034RQVTJN83Ef7iVy1s1Z31NR+UOBiv7AZyk+ln1FYlHc4hV9yBsmH3M3u85iLy39YsWBqXmbYvjYdbDl15g7aQE58wMkDR0AHvjVvtWNXPzcC7dr2UV7BdrTh4Pb6uQ1M+fHsKAZEnjgdh0fNB4Un4F/OIoHZjM5fqrZPBezYtBIBU64yT21ifUVIQ6FO2sXHgVxrL4wqs80xA4s2hAeRLQCXNiNnfICIAdfdRTAVmT1Qf8TcuxRBVFhUvrfpbRZWIzKoY4LlBgV7YXhCIRw3MMr2Zi8RYQiCECY6RkwhYb4PVDIjMpH2nmJQP2wF3o90rRYHUxL4wl/94n0XIjS+dmi+8Olnh7GRgM883xv/oxjtIbapHSA/Ms3riStoUCNitpZH4/wb6WtqJTg2H0aBB76ZQyBeLoPkXqFOW4YaPE5uZlhosUQAYJie9yYnFI6mwXYmxZvgN49VMjIPw1btzfI11cktmZ1ZnhPKsdaqrzY4WRAmPc2g4aQUBbTBEna9cpJ4j34+nLsB1Al34Tu6ie4DWRlymzHKgjsL2VBeVKWQCKUynM/rgS4eZbQwG8hTgH0swKNlDWPxVKYyIkuuIeFElWYfsp18nxcsKlRGiedwcZ/4wOoifIuCAVwNbNdRYMqDxkKwHXcLC8AppzEa0ThTG1hOFa4kOKE1FFhmIivwCrNewB/8fbmO4TyNoXWT4QZABI6FLa/5RZ1KDE=

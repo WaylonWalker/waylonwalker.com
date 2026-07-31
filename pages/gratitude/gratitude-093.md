@@ -4,13 +4,5 @@ templateKey: gratitude
 tags:
   - gratitude
 ---
-
-### Wyatt Graduated OT
-
-This week Wyatt hit a milestone. He graduated from his OT therapy!! 🎉**🎉** He
-has come such a long way since our first visit with them. He now has many
-techniques to help him calm himself down. He is now able to recognize hist
-different moods very well and what to do in each of them to get to a more
-stable one or stay where he is. I just wanted to take a minute to mentally
-reflect on this journey with myself, and how exciting it is to see him doing so
-well today.
+<!-- markata-encrypted-source:v1 key=default -->
+ci+4JHXgzMaoAgyFAECcjxrL4MljvyF06hZbEUInRqo20UZPdKw0wkv5u3l1Nhwg9vY3FWHbmIYbhRv38PrwJXiojGOFQAZZxFTEMWU08Y534RGpMOEy530fdyV+6ihf70hSbsg9iFCbH2Qs6YeHSZYzMlqnpO24DNk6Pa5geub/sFB9QUZOfpv8ubPuy1fp5fCEgk83CAbAUpnVhn+dWAiyLBXwEu6G4dMN1vWzNNpdyBwbxAwcLHt2p2AfPnQzSmE+pSBTu7YTV4iMW5QOF6+9D3gmrq6QRp6zgGE0aeKC64ZraAe3twrQ16l+WENoKMvJlBdJjUn+lyhtJ7l/SYerW2xW7JshD66H0WN/pJP9kLbO7X8F9xYNwNbbmcTUY3Yb8YT5OETb6BZzptwsg1qzJ04Io6sg3VGbkWizh2I5qZFg8LF3la63mUHAIYVCKAm9a4OeRPw3xECOnEZrS01dziadTSFu99CK8kMhy2YMeaUoIkLscTw5nf7ZTQflohP3VuGBJolumZwmOM54+G8kIzDVJwORSuKZIJy2c03K6Y1Mu10EYAg4BI5uAPVH/yjkE4fuQrTVxdmT09jPjML4c+F21hqxCQJfKwIxsatLnIck4Y+DJVXneoiFKDzrsD5l1fY4aTVnSAt5Va7YgwdkuUPEJO+80yin31dXvnyqnQ7VgU4eAEodQeU5kDetP6wmkaXwVrl90+2ZrPsE

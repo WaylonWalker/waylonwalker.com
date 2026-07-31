@@ -6,6 +6,5 @@ tags:
 - gratitude
 
 ---
-Friday day.  Taking Ayla to practice and thinking about tech week next week, It's probably going to start getting hectic around home.  I'm so cglad that this weeks chemo day landed where it did and not during tech week, really dodged that one didn't we.
-
-New laptop at work and taking some time to really think about setup, simplicity and trying to squash issues as I run into them rather than working around them.  Carefully making sure that setup steps are well documented for the rest of the team.  It's felt a bit less productive but godd things are coming out of it.
+<!-- markata-encrypted-source:v1 key=default -->
+f3PlSwWOkR9mKQR4qqJWVxYvtGs6Z+y6AunMAbBUXYYK1snSNSW57trd7X1aW1FMY9QQMnXtdoC/AUDNyXquDGTEN/R9UJXukLzYMM2y/k7xcahw0gDwF3Up7fjONHlJ9pmlYtU1vbmJmXa/dhv9Wr0cPueVVgcea06zm89rW5TAZauwsbQOwQhGlK3vz6XzcWNEoqm7u/0gitNvj1Sb4aA46zs4REPywxxvThZAJ/LC71Krw7BT3aKFAD6yI1i88NgRErdQBahbILMuT+keodDMRPiR0cQ2c2yYCUa86jACA+TByv3N+RIZtrYtAEGaGDbIuH++ar1dwHzODvSWeI7MyqzYKBtnmb/ctVUGtM4A8VzbnbK1x/cj5Qexzox8ig4/hMPPDzpocM5vAD2IQZCI7zvoSpkGkdKUiYFwKewhgCidlS/CWzi4tLm8H4/a/ikZ0ziuL4/lhuToIdLcyubyHjSungkW1JHwJkm69o+/20zEQx71AnJGCa8vr4o4go8eFB8O9y1c+wmGqplCnzFdet039qJGhZH1tthPw7TVAQSOs/oODFJznyOlDmiGRzXTMbWXIMSGCwvMz/lv5gdoouX+T8+U5dCLDcXYX2pcTtknksvtHqNWs7jwHxFYPsKRJ2FZUH/x3Fqhiyrsj1AunZRrePMTK/C/tTUjAU9idae6T94y8mZOQ/xgrCfbfzI70oRVnpClrAjpHoIgOOWT/SmGuZ/dUGZyQiPC67PLMpFpBUH1JiaQktLjaTWEWLYCbYDyL27U1uU/WwMmkYIyEkvBMge5LO3ojT0fuC/WPepSvtyR

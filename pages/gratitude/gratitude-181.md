@@ -7,14 +7,5 @@ tags:
 title: Gratitude 181
 
 ---
-
-Getting back into a rythm.  It's been crazy around here with my broken leg, but
-things are finally finding their way back into a somewhat normal rythm.  Today
-was Saturday and it was fairly focused on playing with the kids hacking on my
-blog, and running an errand with everyone.  I nearly have my blog tooling fixed
-up from the issues I was having with copier, and now understand why it was
-completely deleting projects any time it had an issue.  I also got my
-screenshot tool up and running in full force.  I can now take screenshots,
-publish them, and paste right into my blog with a single key.  This is
-something that I have really been wanting to add to my workflow for a long
-time, and am pretty excited to have it running.
+<!-- markata-encrypted-source:v1 key=default -->
+fldtO1Q5X8lkwEvv0bKlf/Aev8lXk1zTZHATrxgcqBFlz0MNd2JAOpuETh0Q6gpbuNEoXZxcDtie8XbjugSgDy3HYxvcdzNOeak2fQuqIJEDQSCmGXeWbg/qw/rcj6bRN8FUQ0uEBqpynJF37z9o5+6aYdtCMLdeaN49pSAnafvi44AH5ti0D796eJjtxryHLgN2cmGVUEoQXDd05gjoYEYNm0kw2XDJxTD0Aj8l7HHPY6E8ULFvskHK01Zu6mRh5mBrfHjv7Yv0svun8f3/nNSgGxWE6qtcit0xkTdJPCwiFG2o+G6bLuzHoNYhIJpST6GImwMO2Whnrt07lVmKgrzMRjXEFciVplaNUIQOsDJqKLo2R9bWv1aPqosaAlQ+wiJz2VltyZJeh+fLN3PV9+IEzY6L5X/ikQmvDt4WtL0z+GAtWcS9SqdSfDJzXNhypbBscnXKhQqWYKZNUjxbSi1WDhuNUBR4SNyzCcNLYLmT+8gllc+tj5kgVSxT4sGZZxSUL7ULsBZP2fDe4aNoYSJr+M3hCij4LdO/B/WymNSgkVm9QLKBt7PS5o9FndetS5wyC7OlAOD5EcU7deEpssPIQOkxFb8gcUkSlrUEtKhdtfE9UJi3lVl36tCd3FHF8R4JIDZk7bsUnTh8G6ewUCL3M47ZQ7uADDX1P9bnT5ZUs9GTuzWBIZAIlbfyUybahlj2+eKeygJD6J+viMjlhDVsWsixK0zDm0BJFAll5gzncKnxpLOdoXrRTdVDIZC3STgCHRMvxQJB5cPfOkdjlh4n1OjbCuPqXfHDioARYDrnkPIaL0rddSu45AMN0CLKWRn0DkZB8wP3uIV9Mh9XlUQC8Y825IvobFfixT7JCn36dxsb2zFRxHqyadcssTEgl7w5gOmCgzwTV/q7/lMDp1tM5+VkY/Ky63GIPv8GamODFMEQUfpLA46c8Da9n151n/J/YYTZ8GLjXC3lNH7ciAyKJyKsCTjWGc8oyqHWw6Qr3pcHhiSOrx80eSd+qPaVdAeNMn2kTZk=

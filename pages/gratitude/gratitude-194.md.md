@@ -6,13 +6,5 @@ tags:
 - gratitude
 
 ---
-
-It's back to school busy lately, getting kids stuff ready for school, changing
-routine, getting kids out the door on time, picked up on time, it gets a little
-wild, every parent goes through this.  I am so grateful that Rhiannon does such
-an impecible job navigating the school and getting all of their stuff lined up
-on time for the start of school.  I do a pretty good job of getting into the
-routine and running the checklist every day, but its the initial communication
-with the school, going through all the lists, figuring out what they
-want/like/need that is just not my specialty, but Rhiannon does a great job at
-it and I am so grateful to have her.
+<!-- markata-encrypted-source:v1 key=default -->
+LasApcOgNDz1yIVdW+EBtW7EoU1IIx7HCV/H2k1Rk1y3KoDmhov6TEvwleRRJl+iFCEHmJaonLWacJQX6R59WJ9Pw4Sa74ss06yu9BYBXa3VJ2GF1wU8IQJL1LlBHH2B9broTqSCaUYj/F4z6G3/ooyCZMWbM/UjKfHd1jDukJy16uSJT2blgBr02kossgJ5S0Jze/NuvUw9gNe3jqW2yfi5oA0qMyVgOtfrYjhPTDUdtxJGq8uLnj6XMpcVstTYtIJcFqlkQZSYlLVyj8ZjcZPIc3TIKAy2OrbTiX8py/be25hcfU/m5CW4QaS4KzkWXXn6ov4YwtvS+KQASHsuEAVGXSyz0jYiKJ9RSere7ULfwsOcB1FpKyxXTaQYRdEs6VpGx9TbGx6h/Xd4/akiqh3VzgrP1cf6VNw8Y1Vu+VZSQRpOQS1y+OjUGzS+zEPU5IsZTKLWYTlD6RWFHw1cnpglIn9/wEkVZ+isCeBcgjb2nSN2FTba0ZHaT2DLkcBjGoMHvzv1krsqdGfEleLR0LZrwq5gt2/FK5f9A1P1t9bGmR5vWD8BoiLKQcyj7H6Eo+brztKfIGVvi44+DwMOy2cmBWJXiQ0XdsKYzXXI4y/EzpAnmOFmxExUEdQWeFI3LKY3svglES3TdmO7V1rnMHPv1HXdGYZK9v8T/bAyLJvDloU0Gnq4pPbQFa0KjmOrw1mGufagjxND13/przsdDTDr3qhMQGx7PU2L+fzdNJvE+nWERwqAMKJO5J9EdOS8g4b3i1GkPzRwF9PnXZkC58n5AfwGbPjvLOtlYKhcahE9VWjQ1gGIAdAqTXBJ9xO/fD75YlvkJq1MEKS4IP/ecFE7lbBfN7ZsYhsh58Ugh0e83ZaqvAbofxRaMqGZmEMxcVGDIeYNzTMYiB4AMVPhkOCoVfCvgEAPr55rEPvRtTM=

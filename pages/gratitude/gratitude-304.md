@@ -6,6 +6,5 @@ tags:
 - gratitude
 
 ---
-Final day of 2025, we have all been pretty sick for about a week now.  It's nice not to have to work through it, but definitely not getting the  things done we wanted to.  I started pushing through to get a new keyboard built.  I want a similar pair for work and home.  My work one is very sticky from some resin in a few switches.  I really like that board.  It's a low profile and feels really good, it just has a few quirks.  Glad to be able to start building it's replacement.
-
-![](https://dropper.waylonwalker.com/file/11c3f58d-c495-4450-b17a-e9a4c0ab59e2.webp)
+<!-- markata-encrypted-source:v1 key=default -->
+beLRJs1P6mwcoKgBcdoWZ/6wT8mvleDzehjo1xu9IrDP8AMqIa/zseuh3aGJR3bS7e/YdwQmDoUWsG2qCOXYHzBv/1o/FZ7Ed+jUzJ3DqEQi2XpfS4uGvpMlRS95H5aV9D6IU6h/u1+nTjwz24Pq4DZfKgQNgO87gycaWhfjroOW3mYd4/YsksbkosZmM8qkQ+iVpTMc6GYXR9nFqxiBO14V5eNRg9hyE9vc+uGjtOrehXOpYR/4uOrRVp7E1VjvuKI3ZUc8k5vUveS+kWyJurjUadiFRh/yh7CO6bAvQaVo1GM0Pf2CXYgxkXfQfXo252JcpJKFF+K3twRs5dD9rp9rqLtwZ4yOsoiJlkfuxlFIHO8sQJPQyzMYvE3jSBApk/dqVnvD1eQCgZ1ABDTNp5VQf6MmHwSCGvLzyAhEX2JFsZ6HPjjw/bL524XpDu2CMm+BTAa7sPviIBs5S8O3ZPzL1KRn4l6yabpwAllfFyl2uP+UoAjXBrfgHRaWF3ymhqyv+qsWibZilL+iUaA/ShGMziYxDXNjYYilFbZQyWSPlPiA7sbJDUvGPLTUmBEjl2nAU18FmVjhUkU9uqvUvTkpuogo4K82UQfXoWJYlgI1A1crn5/UVBIdiAcC8rj4Fk48AzROcN/OwEtnfVil5UjDKRwogX++BdgxSIHztk09T39Buem/9w9OKylClSIcwZ2JWyigDEk5N//7seuw8dJkKDxB452rbfsN/fuWUaAkcJocX6rsHmmcrkLH5n88cy0aFcR1SWuV4kcC75XHASaDMLm0I4GSrd1jU9KTf2PvLyU=

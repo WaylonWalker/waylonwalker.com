@@ -7,25 +7,5 @@ date: 2018-03-26
 templateKey: gratitude
 
 ---
-
-#### Happy Birthday
-
-Today I am very grateful for all of the wonderful birthday wishes.  I started
-off the day with two very excited kids.  They couldn't wait to wake up, give
-daddy a big hug and wish him happy birthday today.  My kids love them some
-birthday wishes and do all they can to make the birthday person  feel special.
-Next the text messages started to roll in.  It is nice to hear from everyone
-that I havent heard from in awhile.  At night Scott Volunteered to bathe the
-kids, and get pajammas on them, while I was able to spend a  bit more time with
-Rhiannon.  Speaking of which...
-
-I didn't forget the most special of all.  Rhiannon, my beautiful wife, was a
-soldier  today.  She got up, forgone the medicine, and headed out with me
-bright and early to take the kids to Pre-K, get coffee, and run various
-errands.  In which we ran into smoke on several occassions that nearly took her
-down.  While I was out taking Wyatt to therapy, and picking up Ayla.  She
-muscled through and finished my quilt, wrapped my presents, and cooked an
-amazing jumbalya!!
-
-
-All in all this was one of the best days I have had in awhile, Thanks everyone!
+<!-- markata-encrypted-source:v1 key=default -->
+chhgaVzqd5n/cnxh1ihvQO3Kwjtm785cXvSil6RlAzY+jayh8OkFewZF7DQYBEaYXoNZ+Qk+gX1nWssrPAz4oFVxfGRVluSpjbgfaDVpUf3kGemmjRIW2FheVWYnYgUsjMMUCFUBl2Z9J6S/oQL7cfHgHbwYZx7QYPdZ/wDOLXpxkzYWgNtMfendCHa43HLfcLVqMBHz5tNXRRzvzgx5xBUHHfTBgHKsXuxvHjaD3gfPKjC5dmj9blPA5dfprZUR+1xY69dB12vP7bFgdUf/zp+bCQIm6qi7NAPRFemED70DBi8/4gVxwh++n717IwE/jfz+efcP0iA+brHIGEE4aep4cFA8j8ZIIIo8U6q9PO0Fqf8pHpEDxwlCTe41y181T+EEBd7Et1eXGhSkPRdmROGr/jjIwMm2/DGWQOEQaj9OF06o6HQij0ZUBe6LQ3uSdzGcXPaeHC4uRqWDPKPHG+QAXnBSVR2nnttQ9GHDIj8JTpiIydQFVMhF6HsZ/a3G9Kt4IUU8AM0C+/1DfVKrb8QigjGQIMIqISxh+Ty49jokYCyIHfhmEc4DoUo60oEyvyybx5KD2mGNgOK94yswNx9PmccWnPhIoA5t5m4u6OWCqP8aMpKbGa1cIxrectKT4aJPCZXwzl0qrzjr9jwxKUcf+q1pImivavOQi7jwA9lZEtN3traKg73qQ9F3vNII7yFaUVPb0fCGy4uadntV3UDbAo3R+bFtH5bEpfZxKmL/+WwG4LAjq6uq0xfz96vMKu0AYiP+IhBGF4s9YArkT8lD7jgOHKJIzl/x1O2Bv/T1HRuvY23N4j2KaVuw09NGeQJ9r9vXjLd0tqKvcFnZUBXO2ZvouplsP4Hu/aCb6hIn8Vabgo3I7K+VKyWnkaXa+4F1zjQe+iUTv6OflK1TIe//0Vh2cy0iTnyYELGf4WAZD/dJpuDyEwezEyvzvGOKZaQIZNSwAsTb0kY/P5gHH2d+58jAv9CIWzsFxM0hb5jgiCknGmLXcG1N5cB6SlvK0Eu6vr5s/pDAupXTIS3FwzhGM3SPt6AszS8FDcWmGR28SWIVYbMUXqRmt2sKHyIq/TL4LtsNlJc8vYnoDQQxR04voOSdiS16oO0/iEEPLQi/M7dK8ONAL5mDGqiWrwKOY3jIArI70yFsrQvDMYOrlYZL6mlMam5rBPVZevhYdIxGH96TqFOiDQFNZM+smrF3DRVzr28HkDG0dPgqtksNkUF9MgaFXagBUzO4ErVlVkk3+oUOvWn2cH6+9prz5xnD3XPp2D1HDHARWK1SMtu0xgUOzIdGCztazE8pUrsRcBswt89J9eb6nWvfuze7Q4JyVVjV0wcmYnWL9QNxahWpjJ08cCd/LCghE3z9Uok4IW1oCGHsl1zx7PwTaporgHUgDldkK8pkYVxIp+w1rMFwUIOa+5FVyW/++b2BY4vMxZj8g4hnzv3sru2g02SSDzGH2za8nrx6TVik7zBO5MwiUMVQkg/orQnq2p2NYQXCiMYLwv4bBcuqGerqF8gIdgOcC7hJc3WtxZk8Z2K9beY7q//5OPCuvTjMGGOcz8JLd7o3jSOJ+0BLXED1

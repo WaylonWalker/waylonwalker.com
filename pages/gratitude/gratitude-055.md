@@ -7,7 +7,5 @@ date: 2018-11-19
 templateKey: gratitude
 
 ---
-
-#### Signs of Improvement
-
-Ayla was born 4 years ago with her fair share of medical issues.  Most of which are resolved... potty training continues to be a source of difficulty for us.   We have relaxed and are letting her take the wheel at the moment.  It is slow going, but every once in awhile she shows us a spark of hope that she will get it. Yesterday was one of those days.  It is good to continue to let these moments revive our hope that she can do it and that when we are ready to push her again she will be ready to take charge.
+<!-- markata-encrypted-source:v1 key=default -->
+F0EZeKwSYWuV11GcZRUNyok1xb77oGjW5K9er4cqAwNbzQeDz1ehLq740J6ZqaP4dWu6H6GZ8iPr9R1bsO7Y/q2MqaRZi7qzBD6ZHnY8iwUfR0ma1E2eaH4uhuPU6aq7hAl7NDsAc4rXeIRzbZm/yXBjmUrQcgQujxflvRMfyzGLBC3b8VEWrilYViW7V/NLx2vVwkLLwDgWWbYYXxZ+ZC4SJZ48QjwHp0FL9L2n8BebKYJHxgsHYeqRaAVcoFV0Wr8tCK62RsctwfJyyZxi8TxlHCvFKtzzR9/j1U6nQvlBoPSvMp14y65sDVEmT/O79sZxHVvwsvfbKpC3npuUMxTMoef0U6KZZmxR2c90IhjvgP1RLqEQTAq7dJDjsLSk2LBJFnUS3g8qOjsjkTYcztOUQqGggENykQl8acV6FqkmyIvKZul51vDNgw9kK4kEwHvOM9ZRr3xWota7CQ0ZTcN8q48TMaStBtqHDU7TCPTWXKPuqS+8OAgBJRykR1HJBXR91Uc7fJCaZNRA9RHvRB5K4S8aYd9GvUpUQWL1vEi/7Xa7XJ6OUnBn7SqRMP5oDIW7GODzPv9p5YSt39IwCeJN6/gPpxutKWM8+a+a8+BuuPOyD0VGnKFrw/oBHZCkmr4SqTHISe3bKSMvw+HKtoQ0Qwf923gfAlasYOklumsFY/VMwyFhEuGPLQpJpqrmgdxJQpdCRQ0d1yZFrHKbidOUJKH6r6HXaDL48e3uAx5+WM1i28T8RlAYuTXEWZnXSGT2y1uOj8cB

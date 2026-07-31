@@ -7,15 +7,5 @@ tags:
 title: Gratitude 139
 
 ---
-
-Today Ayla was quarantined in her room after having a sick evening yesterday.
-She seems to be doing great overall today, no more symptoms.  I completely
-expect tomorrow to be back to normal.  We set her up with all sorts of fun
-activities and meals in her room.  We even gave her one of our Alexas so that
-she could drop into my office anytime that she needed.  She would drop in, tell
-me jokes, and all about the things she was up to.  Overall I am very impressed
-with how well she did today.  She is so good with all of these kind of things.
-
-Oh and I would drop by with dobby at the door each time we needed to go out for
-a puppy peek to help us feel better, it would bring the biggest smile to her
-face each time.
+<!-- markata-encrypted-source:v1 key=default -->
+jB9HETK3LtznE0bWj/LXdchxkx5oHmv9LhNhjA1gAaiDsf45s2dGwIzsy9SY1KWCwqsJPBUpuPntbH7k+BssfdN7VRar4oH9j+7knDxU70gLOVboO7zvnHKkM3B3yWfTkVTf7nhRHJV8X4cwvDrgcurBApuvAi03+zi+hJRyijDvgkwXzBbODBefoefV86NjywEzVy/16UYRgaCfSkRB/BBchvM9rx2siwnIDsGo5tUkRwW/deNU92N1e0GTDEZPmW2xUGv76dLF+tGsznYi2uRuFSnJhIEa6awwErrLzOiQ5HGW+OiB3kasW8BDlaLJUoUxI1yXnGAqu2uAcyD0bgy6v0AOYmT4sPXSKQq4L7kVNk7RIaaBMXoRSHPclZP81Wg99MufMpJerydIiTXJiPUWaztIiRKJmlLmFXFVuXdG3yXb12T4ebcPJDXZ4zn8RTZ7bQkXqRQfZwDHwA03AzdGVXdyaqesXmAu99QCL/gcvrG/fg+HLknX+mYwo+OwE/JiEcjQOCvrqll2ZAJaX6nCfVAJZeD1ZwaQ/4sMq5tMa8PyEO074Zk14sT57ev0TIlS43WaklieecxuX77w/5hlenluveETp9ip6HzUYzDk2dmcduhH6+76Zg/JvxYTYdW/yrqtH3JswKrnDrdMzSeVWeiSciSH8ervZgyur4c8hwFvINCNNGXp6tLcFVDqARuMO161yzfhsBocLRDsZHl643Tj4p4ujEMz8l+tMVh2uuJ2oDNjtAwXhcSYfAqqaZnm+81oPLMNo5GxA+SSg8T6u0Tr3NvOFm1a4AdvxZ7LjIGYlzNMRAaY33/yEya8iA5FH0Ep3+NxT11x8U+0QujDRqkqmFD2zApqoimicwmQIyB0uWqzMxc9mM0IVZY+rtpTxcy08F6POcByBPy74TDoDK4W/eZcrXK+u0CuTSSP1iOxKFxG3XBnwUhSPUABbrHIKbgdVmSVazQVs7yF9MokOREE7QRB3eAXsDgnnsDhJSmr6o5MrRH1Ow==

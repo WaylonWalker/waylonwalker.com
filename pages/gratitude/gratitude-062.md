@@ -7,7 +7,5 @@ date: 2019-01-01
 templateKey: gratitude
 
 ---
-
-#### Productive Break
-
-It's nearing the end of the annual shutdown. We have had a lot of illness running through the house over the course of the break, but the last couple of days have been very productive.  We have been **Spring Cleaning**.  We have cleared out a lot of unnecessary things, scrubbed the house, and packed up a lot of things in preparation for the upcoming move.  It feels great to finally start to see some progress on these tasks after talking about them for so long.
+<!-- markata-encrypted-source:v1 key=default -->
+WpQ8EUIu9ISzwAk01u1DLK9EaiPJvPE8/vWJLIXrAYFoX7Ygf4FdrFIfJ7JJkWWpIHAYDhln22IxVzu2aZb2Rvc9q5FEX/Bz8Gh/YmJWF6nzS4FKrWwbxxtyCyzCTGVvGAl3PUIRwW+G0DBuGM5ppP905Xr/gqY4Y5E/3LBkVfnHDThxJFVgvIxBegZGoopnrdU0pRYH8y/JD7FBFymXEjmhyWs0c4lA37NFcymWbMy7Be8imBWBHOMAE802jyNxH+dxdYR/ksjo+RfrqFsypPJh3Cbt0ed9h0SxPcgY9/5FxSHDvDs81UOB7h01usIVpBcDPJPyLckTRBMr8DQgggeiPX/oMO5wE2oBwgAt+c9OZFsAki7VlDU5OB3obrhfaIW+HustuppS4Gl4BzDDLsHYCcgwZJToYennb4K3bOA4R2zg6yTqGCqZ9TX95T7FpCleOonNZ8PH2jfrivoOHU5TnyN7OFNDCM2QG/38NxUvUKtg/i0zK1FLfN0ZCUL2dzeUdPxwUuEiB58YF/aqrnQgarpqNZDh2sq9r1Y9awjHgdKXNeQ9S6SVpsGJ4h5ZyxXAa14euReBKNG1HSTgRB7LnAJW8p4IVrUSj8VoZp00FoD0YK/VgHAxwFBQnsmMGSK3V5H4upUBthc/xFbmbwi8cuA+Zp6MWxEN7C0ZMII0vTsNGrBTv1ga7AyerfPac/77e2Y=

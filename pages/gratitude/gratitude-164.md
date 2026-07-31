@@ -7,10 +7,5 @@ tags:
 title: Gratitude 164
 
 ---
-
-Today we went on a family walk around the block and met some of the nicest
-neighbors.  I am so grateful that we have a nice neighborhood to take the whole
-family on walks around.  Dobby did so good at his leash training.  Ayla and I
-collected trash to throw away, and Wyatt was way ahead of us all with a
-skateboard.  I am so proud of Ayla, part way through it started to sprinkle on
-us and she stayed relatively calm and collected.
+<!-- markata-encrypted-source:v1 key=default -->
+s3Nr7ptcmQpsa7IFvFbN7bzGn0Ef8BUr8uICqimcKOllFXBmscxVQ1Y+IlJjYdv0BSJ63+b+QmfcN5MHno+hzQtUe/gcPbO/16qwWE6zmfpzmRjviWWl7Yr++h4alvv5HGnCICspQumC9NFESgxHcRPyfZvcp7ijPc8kudMd1Q559SnaePc0BLZOQ798z121ZRnqsvi3i5ob12fB+KLurTYbbMyOVHggOv9R1FRhA9Ej5jIvl/6QrF594KGiZzqBGl4+6Mps+rAbxdCFmqMwXr1AY5vo+EIMC3XEyH2QFnDLvfOUdlMUueg6X4LOnE3e9700k/gY61UwamFGy0N/aHYxayodO7OV7If7p3r/V/DQZeRJJf8S7rohfYe3VSeFcCMF/rkPhefJUrxDQ3A9cJ7RZkjGeN7Q+SivLeK1r5wouyy9T1EwBWv/VTVYn4F0zH5hco9Z4gkxGLd/Pyi9qbZ/sQvXr5XKYRXJ7bcYHKTyDegCHjvyJsCywkg8vanuadu0kpDLygBo2bwtbCrwxqTItKxXmOYXPsuTW81pB2XYIoHHstNXv5idnOufXmNtacs98qmfjk1HwB8vy7S4Gwx59P6DfweurcxlKHJVwq2Mrcwkxrn0k3OJVwDBUg==

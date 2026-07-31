@@ -7,10 +7,5 @@ tags:
 title: Gratitude 189
 
 ---
-
-Tonight I played power washing simulator with Rhiannon.  She was playing with
-wyatt before he went to bed.  When he was sleepy I took over to finish up the
-fire station level with her.  I really enjoyed it.  It has been quite awhile
-since we have played a video game together.  I absolutely love playing with the
-kids, but it was fun to have a change in pace and do something different with
-her.
+<!-- markata-encrypted-source:v1 key=default -->
+vReVtY4hPFxHekb3BrvGDFEg/IiZl3FuufiQMYv4dspDBA+iDs8Fj7tKqZNZypocbmwLshSWGgp3yD1eF9nGnj7DP/z9AIR7qi+Dw+0vMp4Skje05yH4FZklz5Y3QjGJVoSfTUeg/VSuyrqHKK3YcR4BWDYaWQo6tEZdr0Wc7wS0mhLWv30ZgmgP98ImqTJsg7ecTo8dOwl/kDElmqQn+9oQKcopm9RTWddA4DJekViYNIgv3GBVkfsHCBC0hV4QefibIadbRRAvD2LkXKMl/E+HRNhJD8K8fxL/fDvrUsYVX0FBGISWFVDl3tf1IdBtYMYsbM/TrensZ5iX0cSuzvzaKnrlBDN39tdmBjnapciWKkGpjCnxUUjIQwJwsBSLWWNV9LI0g+HDiL7GtSZLVGbPKAuiyE6cgFe1Et0twZmUzqxzWn0o6Npwd7upzVV+hdhtGei8nAmXQG0VifvhpCYbjv4PuIBd4xURvuHVG7yP8M0rHKtavoAIT2GK8qkzHU26ExgzpmJeEzEe5eaYx398AO7OyMj9E1OSUo63jJPqdwbbzjpOc83J9GjFuXZlWb/GIq2yVWPO

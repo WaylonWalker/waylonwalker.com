@@ -7,11 +7,5 @@ tags:
 title: Gratitude 192
 
 ---
-
-I am making some progress back on my open source projects.  Just this morning I
-created a plugin that turns a markdown document into a set of slides on a
-webpage just like my favorite terminal presentation tool lookatme does, except
-in a web browser.  I really like the ability to create presentations in a
-single markdown document its so quick and fluid.  I really like that I now have
-another option to host them and include images.  Images is one of the few
-things I was missing from lookatme, that I am no longer missing.
+<!-- markata-encrypted-source:v1 key=default -->
+ZuSYN8zT//L2C7pIcN7oSdr+SJUwaiCsIJzMP6Z2yG9ORau23nrq6tB8/lXmgCEBe+hWDAJzr7W4ekmHqEGsaEYtb+KcXuR2/JpSXcYbWA7K4Livy8gYuHv3+2Cw/+/1C4C7/FJuKOLtlQ31TRSI8e95FALnOt7hKn/rmX8mBj7QxNQoG9pydm1lI5wVTkggZkhgrDLZu9uwx14udlV2YEbCetQ9vPaP2sWDM3uSj+cjeVIiW3QvhaTwAzhAEHV6snJW4X2K0FvaLUxeQEh7Dh/IIhgDLCoCiWUOV9A2+Y+2t+xcPbG3eIkKC3NJfK4eGCw1YOC0hfkvx2FLE710oFjdbnhBSUy82wZL9yT7aGafO3aB9xRwFlbrE7YE/Vse6OybqGp6LN5Y6++8OvaJmyitvthSvoPT7iUZ579UhTJ6bxnphFUnGOdRdqFro9UBZKm6RrJp+GuxXtXIZrtQF/SRLWfWLsuslbQviZL1tsF92dlnk040E/LArhJWZ9LIW4KVJWUqtEkqkGIzNBAK/ISJbviRwRz/F07leEt6xcJFSNTbJD3bByr6kwwFNkW4VwnO5WPwFUhUseTqDDJSbkfAhl3i6Kq58bs4Gxfta/6jQsMS761UNmAvaiSAITPZaogzfElFinPuClgLLgX+yUr1sSYHWxX3RBTJBAL7wsIuy2V1nTll+DqcIjmg+S001yU6FtP0jneFszcmApPmGv8eUCxuKCLwV5JJiASE0fqd82vYZsBYlmPGpw==

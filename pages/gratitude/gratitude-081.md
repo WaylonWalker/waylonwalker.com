@@ -7,7 +7,5 @@ date: 2019-02-07
 templateKey: gratitude
 
 ---
-
-#### Freedom to learn
-
-I am very grateful that I have the freedom to learn the things I need to in order to advance my skills and grow my career.  I am very stretched for time, just like everyone else, but I am able to get the things done that I need to and still find time for learning.  I talk to some people that do not have the time.  They are piled so high with tasks to do that there is no time to learn.  I a grateful that my leadership sees value in it and do not really ask questions as long as tasks are being completed on time.
+<!-- markata-encrypted-source:v1 key=default -->
+J4rpXexAvC1eLPZ5mXOlrY+z8/HhOs57dtidfB5NEm1f1KVtALe8HsYlS0cSHGV0a6LiVV4OX6NmUDx+pxVl9HOVNhOhcBofjeyJiEBqlZuaqNMQwYVCwutafL+e60i83c3CYPFR7yoj1vgZlQc6NNKohZ4ZtHSymx24goz4QFDFpYP/ALFRmmx4+OuJdcvOMGeENoHR+spnnPQBk9k9XKY5boIZ6tqk7mK2MyG6/Rnl/O7qisNzJeqWUmvaC1wDCnCgRIN/OWA3ZpslbAtuz1yO6odrrqCMQO6MNoL77mGLtnssVqXrcqidksUFi6XBZPqWphoHh6BkgeRZi8u/ML8pSHuewtYgnoz01V9UEFk8FTgiaqyeK8IkMLyuZRvHCdLxnHEATyYQYr6q4fWYpgCCK4IEbiWmJxEgdagGlEvaWwwcjrMMcYWYQFVbOS/r2E6ySlakiIEqYsSkVtzcqAi4GiLVIY7KM8U8+RK3at84e7JkzaDwyxUQ8KwDu3Vl2D6KTWMi+UkhxPwNXMQyDZkw6hPCJRDuvaAqX0sU+FbLSWS9JExjyvLHL0ikUWea2MbLf3uqQtsh3tztFJRahozZquqVFKLYsWFLNN1B/wLlIwWF/k2RREaDSNW3oD2FTVAnGYGALFAwAbTIcF+f1JLPYqlJkseYyyrY3zLYlLGEVCa8KhB4WHAk7pJ+p5WSw9YkGujzv/DxncJ+OjNC+4W2BAqSDlys2E9YiH1XftsMel+Dm1AZlX/wLJjioL4r7bi+zfc5QuA=

@@ -6,9 +6,5 @@ tags:
 - gratitude
 
 ---
-Yesterday Wyatt rode a full size grown up bike for the first time. It looks big on him, but he's got it.  It's too big for him to really touch the ground easy, but he had the mount/dismount immediately.  He's upgrading from his bike that came with training wheels!  And no this is not the official upgrade, this is Rhiannons old bike that I ride, we are feeling out what kind and size of bike he wants next.
-
-
-![](https://dropper.waylonwalker.com/file/254d58d6-c070-473a-939a-391d431536cb.webp)
-
-It felt good to get out and go on a bike ride with him, I should have dressed a bit better and we could have went longer, the back of the neighborhood had some wicked wind going through it.
+<!-- markata-encrypted-source:v1 key=default -->
+Am7jkrXn3xrzZ7re1SA3cOKhFkldO2XJQUhlaoHvanqU21X+scMwZmv8Jpk8/yGFwH2746qYxpzTXMTV4bX8e+xslPmUTyK23K3LIFzZFuu53F8ucxR0URAjjf/qUNKL9cltOtZ8eQdJvE45etSatEMCZNwjZiT0rRKH/bt7kdiBE2pMlfFBTA/eLTrE5wi2WNwnpU2tmET6ZozkXpem93cE5Ls4+nkHLbapFA40L9kuadWklrfBJWVvVzdMyHlTdjDLSKFjbKG8RsTgGjn7B7Tj/cjjXvsPPU4ZujvdY9e1G/CYpnd5CZhWz6NdhBIRg1ng39ABfMdAClQKh6Or5f5M+uaGexVAGAVFfx7raT7HAMfe055eM/Dugnp5x4+8RhVBzR/8QyNdpQa2SeyI6LUPIyXWS49emT/wrex4IHHmydIhrwbCCUlGtMimUibWOzE0YqmTtZeym4snIwLFsnDOajQJwySY9clXE9CtVRliNtMQNHN+fFRARn5T1SMGo/qpX68ibIjqeGUDFDai5XMBbA8QngO8w2t9Rob1jlwj+ZrkPgbhsvKFAaF6jNkd0xfnkzy/euyRfYegeLI14huEEyoaTGxMZjOBP2F1Q4kRj2oaJPBZiFDFesA/ORrnezV85HYDgQyjwk30FQErfj9plLM7tQG6GwLk7IBwrGZ76e8hAPVtY2/5NpHpNFxU5ClN+cc4Pdp5dDoYo2tBkMpC3K/rZdguF4h2DMaQDtvnRgidzs1GgdVF4JRxJ6gncNdMlFmZv0sMMDHromA9KE77rBaEPkzNcANtruOm1Yq2ctfgKhNtNSTERo99wjz3v6pWP4qUbVUkBqznhMgEVoUJX23haiDXXRq3UwLCAfm+9r+CoE/hfRokEkdmr8B6WCDzdO8aigl7xU+MY/iMoog9Uh57+mFO2PDCMbUUEXNL7FT+sOhGc9kROHKeo8OLXz/UWpIlaOfO

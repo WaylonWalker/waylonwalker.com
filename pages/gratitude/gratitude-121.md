@@ -7,15 +7,5 @@ tags:
 title: Gratitude 121
 
 ---
-
-I think we did it!! We put an offer in on a house, negotiated, and accepted a
-counter offer.  This is all moving so fast, there is so much more to go, but I
-really think we are going to have a place to live before we are sent out of
-here! It is down to the wire, its so close, but there is a really good chance
-everything is going to come together.  I seriously cannot believe this.  In no
-way did we think we were ready less than a week ago, and as we started looking
-into rentals all the same feelings come back.  The houses are kinda what we
-want, but never quite the home we imagine, and there is not much we can do
-about it.  And the fate of where we are next month is always in the fate of
-someone elses hands.  Now it's still between us and the bank, but as long as we
-hold up on our end there is not much that can actually happen, unlike renting.
+<!-- markata-encrypted-source:v1 key=default -->
+3wXZigDdbmdI90uUGZQhHQ51W6nvo2FqSdbC2Vx8ir55XR+vXEmN3eRmBREvFodNOIZNDJuHtZndQbrf1z7dnpgtGJo4JST32GxRtmMgPOd/g/JbMA3eByPX+BxmEFhSNszAIh9S0u/Or3ZusJwXndOhC/Lx25uwIz51qzkPThuWo9pNJTF3xqHqhLJqhy5ygCjpmM+9IrirE7oloK9SvnRfjQodafce41Or2KD21TfkP/HzPru+yjsh+miYkduHMWacWFg5WrerhIY30+4S8agwvec3rGia1Bct3cTZ7UBb3408bLvtRcIodekFwqOi0REXKiyljagoiz2qG5zX+Fux+wfbZUGH5tzXkl7Ne5qVcNpDvd1TJ6uSiledKG9LdcZDvMYRN5pWYsGpva62t4Bw8EeHf7YikUmDShF6npQI9reKOW74t9tDiKg4Op/q8WKC/9HoKAsD4nROkklIwqxA532z98wTrWYY6+46xQsBVBYrL9b39On1RKAtZrTY2kl1NqvFvN9oM3EH5drE92WipLusgx1sPQLnzYSOkDCBt0pelDH0lkPTJLsR3BnZcKW0fBam06cfovrgfaQ9dZgFpceNPBD3kHOLAc/hQKb6yGz3nzTDQxP+GloN3iHDdh9OmTzo+uQ6WhUHaxeEQrX7aST6xFbl7faEijUNHQNeHRyHLoPZ1dCPv8mEG+NIa3botdvPDK8kKagN+LIdFtzbsQ+qPnOzMNMcoY4Ei7aiAxddorqwp3oSAg3ZIxj5HJhFqlltwvZkCI1M3G89XXgxqHbtYhMe4vDci+zNr3ov6dNKEWlgnf/CSUHe/5nz6yceUPxZdprFfxgC0sUwdlEZ1epTFVYIWrjrfJrslWTPLwYNmYYxZfvNonXVUzzyhXlqNiIpeZokvJ5VqfciB2SXcS5rhCp9R2AUMCMccf3eEEhYljBhAuLci6DlxINooyr6Q1c/zsLDe23YUhbEowDVNK5mBuOwBg4nM7V7EzlzGglV1iT5jnOgQ43OvRPW1ozt3Z94DS1YcyyXplKPBqc3iw+e6Z75kCtZrYCGlOasE57RRkBmOwANNighvxzgvIvksufiT9RSjOfXEsLm3juG3mQl1vJ3+cHZr8KkSObcTSS0s/Pn6NZLvkWMiWDirii/J5BjVBfYNrwoSRH0d5fxlzDZafZUyvLH9YEtI0VI3DWZ

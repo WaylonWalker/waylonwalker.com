@@ -7,15 +7,5 @@ tags:
 title: Gratitude 166
 
 ---
-
-Happy Birthday Rhiannon, I love the chill day that we had.  Sometimes
-Birthdays get over hyped the the kids kinda go over board, but today
-they just did fantastic.  We started with a great trip to Hy Vee to pick
-up the cake, flowers, and a few extras.  We came back and set up
-decorations just in time for my first and only real meeting of the day.
-Had a good lunch date that included pop tarts and a cinnamon role
-doughnut.  Then Rhiannon spent the afternoon dying her hair, and it came
-out with just the most vibrant purple, it looks so good on her.
-Finished up the day with a great potato soup, as requested, and cake.
-Getting ready to go kick her butt in game night now.  Just because it's
-her birthday does not mean she can't lose at some games.
+<!-- markata-encrypted-source:v1 key=default -->
+VRDGwgqezqzpRpq3NIXKaHyfe08jSLSVI5M+hL8QU76EruyCc1uEliJL/PoaxsetwQWu41+H8RlPE8smQLSNeAfSezxpuONIRoBBhSBATVDzMY1xRRXp3hJdPc7kTGH1uDx6UpcHPpKGFwRyzIpJwAmLznac/XiUR2MlxgSOtEquTSx8ZUS/45zyzpVWEhxQsHxMrPmZWSWDTlod9oIMOSk2EBHl4/OX7gJuUp/uVEuvmu5Hp0xQngOb8ljOnWBL2IxgJ6irqLcV/x8V3BN3QbWTS3AJhpxLoWlQbhR5+pHt67XxMdYqTPkXQg5uxa+GJ7vTjMmJ465XVUJcsunYXzI8CdScAQgZahRToWxjyOatua0ltKPEPyYFbRTEH0chAu/xjJ7J5Cihgo1/fRuYRQbDMynV2NOLBWECJzYF12kzg5rJlcAgQ/wzY4bj++gJZtsUbKEp2ShGS0ui2wBN16+z/oPyqzh34J7yAxGXegeWxVtDMfqdUnYNFk64OCxW38qUYB1b/ABLLIPAeVAB/Uy1apUGESzYg5RnCSDfWFzY7beGNDQwvYuCeecdknTKwgkPT4OPEQFVi7DN/kvqwB4l6KJjubU6X8Cf4FBya8KviYXRmuHSnyAQOMBo05UJaNkuj82pN2dpuK5H9nujWLQqAF2FKgbZqepQJho5PrGN/f3/ZxReojLGSlD71SUhFkW8TXQ6IqB4hsTYT+P4jCDeRZ6J0KakV53sIT+BVmC8xKdvN5YDj3PUDORCt6xbF3aQG5wZ7TJTl4qb//D1a8BRNAMZMrf4ApsqulY2Za7S7qYCpAQ8NVYxQKNJccQvlBl5BC35akWOraml9I/n3HP3WfGHtJHhv2LZruSxgYz8clEm0a2NdodrylGZjfOBhjPuk4Cw080HxGTK8eRb4w5kDcCm8inBZbdA4U7VVNpJWyz/BPpYFsHcwOs7iEkJj7FnnEPco7fjFL6/eG1tRCARkyOd00cY5T+2kUlu5fnqLcfJQcYm6fUaEVLSH16uvICmqovuaOFDRdtb9KUzHTVNDAnrirwtab72KQ==

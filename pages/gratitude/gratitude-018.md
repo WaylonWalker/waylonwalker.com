@@ -7,24 +7,5 @@ date: 2018-01-01
 templateKey: gratitude
 
 ---
-
-## My First French Braid
-
-Tonight was the last night of the big holiday vacation and I finally got that
-special moment with every single family member over break.  It was Ayla's turn
-tonight.  We had our break when Wyatt wanted mommy to play Minecraft with him
-and did not want daddy to play.  Ayla's hair looked like a bird was trying to
-built its nest in it.  We made our way upstairs with a spray bottle, comb,
-brush and a whole lot of excitement.  We filled the spray bottle with water,
-and I let Ayla start going to town spraying everything in sight.  Although it
-was explicitly stated that it would not be used for its intended purpose,
-de tangling hair.  That OK though as I was able to get some moisture in with my
-hands.  I continued to do my first french braid on her.  The first attempt was
-a fail as Ayla was moving too much and I lost it.  The second attempt was a
-success.  After this Ayla proceeded to water, brush, wipe, and comb daddy's hair
-over the next hour!
-
-I ran out of time, but I will still mention that she painted her first set of
-toes.
-
-![Ayla Painted My Toes](https://dropper.waylonwalker.com/api/file/f0fbd064-b4aa-4c4a-bbb4-26afa7b6205c.png)
+<!-- markata-encrypted-source:v1 key=default -->
+FYJzz2HiH2SgtLTE6HlX8qf7HM8nPbwKpyKNZWfYghPss3flJ5Q+pUNXi976DKizlNhVwfryrzYFdhRzJfK2nIi2boWFaI93QEgj+Z7MAJT2prKttwjwyqeJJzaP+XO2JEBK/hD+6o7qwRp3XDzIPKGMnGcKQXYpYQMtHiGmNHC7h/rgGhQ9XUBk7AxpBcDeU9wXeXZ8TlDnyc4+35/Q8eUM1BHLWVSEGIT6OjNHQGrcj3SZfalv3X8SOjqGCzhi4XCMLzvMbYrgo/z+u9tDc2Eu38t5jtsQpDiVE0eaEHtYJbeUw+X/Zri27rKKzR0MLVD68mejSQNKHhb6PzT1G9OT2b2KOh/W8cPjVViInX50FB+QMKq4pF4vA41EkKuzkoNkAbys3M1aMpxpWxzFqm3FxjxEGIBSvJSEnc4w7yacxlG81HrQSLgMF//zwP33MP37T/DpxFu4LiymjBIeQbOrOnNRHn2sa1++Ky/ZIlRKOSle6J5cBl/l/fumkdy2TwJ37Xh1FGe+Sp8U+sQuIQj84a+b9fzEU5d0vGhd4f9nRhmbhftFan3WpQZilC/tIrmX10TczYmyKadvbo67tiyP7VW68iHQy7/ZgDlLACoMTJg6itcwKPzTwRYTYXwI7R+2rRIr/+bwu1XLElRLN7fjNet8tunRct0G+ZkKdRmzIknrFIN4wfRBUyCTLABP6vYqMNkzfcksfN8T8mWgnHd7TH5NH29Zc8ICZcuayB4PuV7lQqgwE1P1w0drvfD737/+xX/c1qWcqrLygztQ8JErNeQr3xz5zqd/LsyFjUaE6AssuJvfGLjIWxIPARR1fULIGQMLwKyosV0fpHU1zX/ii4mcAqHcxXGoZctDc5r3iCM5jLrUEjJ0FUSqCzYzNp3I25lIIM5dvL4xB5Nlqzqa1e/QuqW+Ithe+ARvLbDBZgBu21tOq3pLuEm4ZharsFyaLTC/DQiWelNL26SUnEbksxt5dz6RJeFjuvaiUUJ1HkadLHlRYXd3jCKimZa0T99UdmGHyc9aJIjc3lHYXgzOTAJPNWwSBHo8HUtN/8fQip24TmDIj63xKiWXlvPGUhXjej8awqxAkb9kZcHGxw7dA7h+3vH8k3aeGxN2r12DRYdbxeHaU/E3hc/u53DSUmh2VUA7uaJfBc7cr5st0KkJR5ScqUKk/DLy9xyzX4zm9NPra114q6hKHZ743Xor4sL0Zt5K+u0rVsGLJnSEiTQtOeksR86ueYoolUYpKRwq1Us5YgK35CHi56NAgzZ9l3368QdNUjTSbe5/PwBK2HbqF36QGmwRaQ20n83cuLM6A8/es8z+3+oJU10CeVke5UUtzsVooBPgq0qidC0ySFqJuQOHe1bip64MAwNVWN7N+w+5/lA3bwPgFvLAVY50EkTT4u8Qqf/+7v6zt/bvWChm0L0Xj8CLbA3tOt3yQwm/+95c1xg/n8y6lypv7LHMXKWEM5thzENHMNt7UCSxOtIX/p/EOK27a5ExCJYNSUtCTZDnw4VqqS+0joUQORweaoqwoAH0h6TICZB9+so2MuntoGuDKooqcnq6Geub3xYjEy0RLBCbDmE6mMV7MDT8KWZNAut5cony7GS5ZqVs2kjm

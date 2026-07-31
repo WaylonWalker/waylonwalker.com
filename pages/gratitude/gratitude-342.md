@@ -6,6 +6,5 @@ tags:
 - gratitude
 
 ---
-Great day today, got good quality time with both kids, building games with Wyatt and crocheting with Ayla, she is so good at it for just starting within the past few months, she is teaching me now.  I keep getting tension wrong, but she is teaching me.
-
-We have a black mold issue in the kids bathroom. I'm so glad that we found it and are taking care of it.  It sucks to have to deal with, but will be glad to have that all cleaned up and repaired moving forward.
+<!-- markata-encrypted-source:v1 key=default -->
+2s7vW1/c8jAfYCzOt4EyLea4nTGGQBPFNKZiuhJcgl5YG7S/8LibLplu1WxfrPTuz3VbGA9SiG1GdJtrbABV5A0+R/y/958gB1OZa0jCvaEH6dVVIo7izlltL195MoNzHPBmfzkjjDS3KABNBAQhlJZauH1To9dGqnVuWcb+3r9XKlUHsNEnFOyxSSlmiE7kpZLPO/iMvkYENrtCBwTtrjeR7HrGK1Ots3eux2/LwDR3HZN42crzzdySvDBSc6A6IfB4Nf2iUHZ2/i4pvPjmRLp1Hi1venGDoWYo8Pfbv6SY80zLrIMzVEfo+QVrbRjixdlVvPo8OneY2aMU3gPLPNMcMNFilhLyFJZvav0rdbHew/D7iU9SNzHdIn+BAQJNvBu9aRS1QTB2vafsNvlkMB0F/KGUWW3Twz009YhnptIFz0/ZL1XO5KsyDMmG8AgQKJVm+B00SpVYEZMGVH4uxr9S6jM56xDKX9k/5zs0kEADQRhF7A78GNkSBnVX5/Tg6eVSG3skv+iX0LS/jdhD3yfFmYQ+NfWGYuFHRruBi7unHyLlksQJT2IkYWyA/SBXprCtE0wc+0BV2rfoQl9OPCRizEFONVldEPz2d1y5gh/jk/IkXGxqauaKDn2dbgODQuQOBiCds7fMNd5YxMInhhlAZyb1piNEqa0Jog==

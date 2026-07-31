@@ -7,7 +7,5 @@ date: 2017-12-21
 templateKey: gratitude
 
 ---
-
-#### Good Doctors
-
-Today we are nearing the last week before Rhiannon's Next Treatment in chemotherapy.  It was a rough day, she had a bad carcinoid attack last night and was on edge of another all day today.  I am grateful that we were able to get in with a really good oncologist.  The best in the area in terms of carcinoid cancer.  I am really glad that he has a plan for us and it is helping get through most of the month between doses.  Since it is such a rare type of cancer there are few knowledgeable in the subject, which just makes it that much better that we are in with the best.   It allows us to have some really good days.
+<!-- markata-encrypted-source:v1 key=default -->
+/j4nDEEjiZMLX9ZwtA07ok6x1KciJHaYhNer7LpJYVHPq7xW7R8fNx0Al4/WRzjATeGJa+H0qI4iocXqzbi3qlV37SGyzRfJE2c3wDj0ybZJkYZgNV8rYxv+N6oPQvB7GGUVB2q9HwMp2znUuJ/a2DVkr7KcatltrfnGiyxasAf/FIZfbOwj5+adPrS12587RV5IH7IkXIBxa1TrmlcoMhg4c8awfkfGXqZG/AbbGJk42mflgNDv2MduHFNtKnDJEVkl/skl10KdqH+76GDuk1j9TDNSpyb0UZLx8WEE5SVyUAAKDahaapDKI/8ty9kwY/obP+8bBJUQZccG/EvURQIKGqPCz5/VVFb4oSTHgcg3/kh3MEkel0jHi6HZCrdezx+cdhc1SUu1gVyPej92R0AZo+4VeDf/G1oOMqvjDW7z6/nHQROgmahXDoa1rkXkyHYWN7EH73C7+ud/lQzd9bREPiOaqXUf3OqseMq5PHVV8mnF5gQ/5BveqJXKl4U2+jHwx1XKOg40yWiRJFo31zFtqA2/DLd7/6h68A3snxKH5X4F8WyLxiPUTYrJghEMBHQaTbpKX9umfVDrx6bKYAVqqMwJpWQqOhIQL64Bhf7H7j5reYVWZVp1BEhaH3TWkXoXTygGxUdUUusM9lgwnKUt3j/V9A7naxcHBymTY02f8UgAckbZfcDz9nzR6jRhb5R8WTb5c0HDUZEDdhCEa4yKpgJ5gBqxxTeBTE9xdZfXpyNyAQcU7qfVk34DqD07mnFYZzmlVur2Mn2ytViT9AX32q7tX9VihkOuaFPtHeYYtuiK5oYdXx4IjESWvwI3V+so3UQNwNN5rIsW+w0UZq3z/RfWpaK0pbvE2gZASElxYJGoVvSbFn5YaECsnN6Qs4CNeNaAs9Inya4t

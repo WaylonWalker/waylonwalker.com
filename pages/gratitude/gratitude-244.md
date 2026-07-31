@@ -4,9 +4,5 @@ templateKey: gratitude
 title: Gratitude 244
 
 ---
-
-Emotions heavy, ready for a big event with the kids, they are a mix of excited
-and overwhelmed, we made it through the day and on to the next.  They don't
-quite know whats ahead of them but it's something I am very grateful that we
-are able to provide to them.
-
+<!-- markata-encrypted-source:v1 key=default -->
+0me1XhvimhF1CoN+0OCPbXvZZpAth50uIXDGTVJfkT01lHL822u2kRipJafrWhfiTAptRGYOqhpHvjEbmbFhMaGDKtWa2EAZCrODzfk/GObHGxL4V5vYGlUixtP5PlvQLa7mR0+G5qM2ZU9hftnuDU2AImjLZQISFx8OlHK08F81ajkn7a5qhAjhTVgHgYeQUGvn5PsjjcLK/fVXRnHlV1RUfnUYfeJTOPxCl/NfXtuooRV1mLtghWfjE+gej3hAPdnZ6RNlMF74tWTS7oT2xGv6Ehvhh4HlH0a4HrLur2LtRhYx/8mXD4v601PbyUvLwRPKI5cH6C/fkIAZJFA3/FnQMRDMPBvC96bnW/fXSApL6rZlmMdw5m+IOadGAWhfs8jwXB7tBtO0mMGxxRxi62orpg==

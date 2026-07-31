@@ -7,9 +7,5 @@ tags:
 title: Gratitude 185
 
 ---
-
-Today we got out of the house for a walk around the neighborhood.  It
-feels good to help everyone get back out and active.  I can't skate with
-the kids yet, but they can still ride their scooters.  Rhiannon came
-with us and I am very grateful, because Ayla was really struggling and
-needed a whole parent to focus on her.
+<!-- markata-encrypted-source:v1 key=default -->
+uKxp1MmFtVj/tcEHK1AbogbYoyXEsXKxsUgEw9WhPHbJov/xXetBLdRDMHEdQX70frPbwfNP06O1rr0IgBRDSoflP3Hlgi1WRTf71G9TKc67eH+FB7MmKqaoAhXnyYa8bl0I4BOfSSofZtc/YKp2Gt+e+3Lx6mhgcx0eHZMiU9gIinnFDmxZJfJxG4kB6dQSgvSe9BlAxMabVHtHb1hf6K49fO1oiUu0JOH1NCxCBbTmnJHEyznM+CvTpT1tCM7C653vyjn8yPw6KvgiIuIRSB7vfI2kCOx3+cE3pDz5QZ0sc6WcO3XzZpGXvsclLiFZvxh4WFRatQiXASH5lw8U3QK19WjQFjY4xkgksQojfXYn2L6yDCJi4wJQJB14YazE8poqJFlANuJfMRoBn6edpqSeWQSbrsfZDezMIX9waC0Tl7OnmrtEE1wNlA+Y6Dmzaue8T6TcGt5ab6F2HoP/wwxmc1l2wjkkYJWeJrkdzg==

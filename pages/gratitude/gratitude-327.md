@@ -6,6 +6,5 @@ tags:
 - gratitude
 
 ---
-This morning was a slam bam appointment emergency filled morning requiring trips to school, setup and out the door, emails to school.  Things got a little hectic.  So grateful that I have the job I do, that I've put in the reps to set us up well, myself well to move fast and get things done.  So grateful for the grace I am allowed despite needing to go into the office.
-
-This weekend we took a trip back to Iowa, just realizing that we really took no pictures while we were there.  Everything went so smooth, the kids had a fantastic time, family was all great and cooperative.  Wyatt went Ice fishing and caught 3 fish that he was able to cook with Papa right afterwards, so proud of him.
+<!-- markata-encrypted-source:v1 key=default -->
+i3+QcLsH2FVws8w+vnZIwJ/B2XzggkG91IdLdR+1YmCyjvSW0+bUDoh4x7AZXnhcphwWqwMhJYhgSm2CgIupubAxbRzlZqNzmsRFgZlkcXi2qr8Ls/sdVXKj2GEYWspYM326h+Rj+SBVtYTF2yek2jrDNq31zRqmwn2Zp5U8Hh8Bft8SbivWNKFAkF03Qw7fO8versLQWw2DTq9RmsTZHesxw/wZfZ5E4eVAKJnO3QXg60y8QeTRMVFlOFzGjnTuHKA0NnKeo64o3zQUV90X1SbVgA6SV9nabOcatZD5n0KvrYQL+VNbA3ojTue5JX/w6EC8RAiDYTTWO+t0f8XBgjQqWUjmRqrUL8zmhfHNj1C78aYDFM5K4IMebqQGBxqafcr/NgsQjf2CYVKH8xw5cpEdTfn998QclU7h+/tvqv2lRICImgx5fH8e3QEf7OLEG1JZEguvTScMuRIkG3cHKsIwVMqPTBhlqjxNi/IDzdM1yeyJbTm52HtXCe1CsWQ4ih4ZlE4MPkkt2KxRH9TRN0A2U/M+m3LquzgUSv/7zz9zTBnZyjEaIsSJz10yzC0D8VNl57PVD+ceiXZq9XHXPmWNGs9eNBJHuTmGAHqOnxdyzbrYM0Z2cg+56ba4R+Id1JLb+aEBQQCdkndizRjCxJ91y0vCKD6MTnP0AEyhFmvR++c/MrBbmFP328sQlzJyjCMzfamlqDgL9+HTOSBkv5mx/oaNGciw8WinRY1U5O/DgPoRwkrE3UC26hurTQvYaPhrY29Z/waN+Bzbz4WNs4tY8gGbNQ6oiE1mZ0ixQJ1NHJeJp+KBojFQw4tqxI3QN7M7Mn1fZUnhUyho9UKDgQBZUoV0g1fFPbGzdrg89QWei/KVWeXIYutLzb4v6mwGKbAKdZ2CP1n0/FvKZKGEK6o5hd3ASj3VtJdZBpxRnEi5RwXCOwhuTAPBL2KLzlgs3h6E2MD5aPcygZr/mslq

@@ -6,6 +6,5 @@ tags:
 - gratitude
 
 ---
-Back at a full day today.  So many early outs, sick kids, snow days lately things are piling up.  I feel like I have a lot going on, but I am 100% so grateful that it does not include pressure from the top.  There's a key difference between feeling like you have a full plate than when your plate is full and you have someone sitting on it.  Overall everything is going really well, no major outages, no major issues, good uptime all around.
-
-Ayla is in the full swing on Wonka right now starting to get more and more practices.  Excited to see this show in only a couple of weeks, wow its creeping in.
+<!-- markata-encrypted-source:v1 key=default -->
+hbq6E4qE12RQhnQqflecDXIDxvL48ojyfJSfcmCTce+ap24yPr56YZVi+RV3BoCCbsPBV0afMxmg6nbaX5yQz36svd43g8UFs0aRhgK2FqjOPFu89QkqxM9P11Xmfvjo/GJSw2TLU2dBGHXJ6mIm5Mu1cKd2B4fvVYlE1c4uVjgqIFQENxCmwCyepXcZG0CPoZ0jtCDK6L66PApvjVcYk9tLLQSs6vFZhkBnG/5ZO4gU2cLZb1r6XjkHdleGVyE0ZKP1ycMBOvgP+SIdGm9pw3Q/kTM/yDrlkLeAiInUKMPMPixt+CUW40aR2czDaNrpUg5Oe1bHqg+w19GkEkgE0w73FbSM1V9TYuEohJ2JhMm10L9LZNK9Z4AG6ngDiKIdYFU3wjc1USqYuWlZ8HPd5nZ3BY0xU7bOW5wkU+lh7N7r7v/bThyOmFRjCwia/g37weuUer7R5utdtbsmKq2uTVMvSQZJBpfUW8fl+qT9K8/XVtDxK0ooj/TQdMsJ8rhJ0CZTl4zKRY/WTnVwsrXsOy/Ue9PkjtzdrrLDnybA8MdALtlLcLaoqfzql7WQkv3F7wt/NIwQ/9Z02gxEdkq1R775fBY04h2DMaE+T44HDTYVqYSBjFPqnovFMzj9PWoklxXPxWUjdxkBwJqd6QSf5Lx61KyUuhvQFg5/jD191J8kcKPceI4j6AB3pxY32vvBPws8Xi1PCBXt9d/aOCUJQUaz5YXoaFQ/iNsF3W1e58/SfeoAEwfXYQFIAE0PP4caCB0o47lZAgcVN4pBANRfnr7On35o3G/+evnOY98VMPT9WRh6TimhXpxr8z5AJL9jv5b3ZbvwPiqUyoXQZ4NcY0a2l3zC+Q==

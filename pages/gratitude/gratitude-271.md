@@ -4,9 +4,5 @@ templateKey: gratitude
 title: Gratitude 271
 
 ---
-
-Today was the first sip of coffee that I have had in nearly a week.  I am
-grateful to be nearly back to myself, and feeling better.  I am grateful for
-the ability to get back to work after a day off followed by a holiday weekend
-nursing this illness.  I am hopeful that it does not hit anyone else in the
-house that hard.
+<!-- markata-encrypted-source:v1 key=default -->
+xlu1AkwFnWTEnc69PkbA5MKXAlYWuh8wRBIwrZ6Q33Y32T9bqFvxWlEyYD2IK3oGVI7w+8g1taQohY7WNQj/oq9byq/pIIUTlRZvDnqCkzGG17RuTvYDDCgD8fDcEByaWRWArbR4DTomskddE6Yy+hrxpPr/QdHC4gHYCcFFxsJUS7GAUaIv7sG6gDg4B4K4WibXlLkc3OHJFFoYIIEoYnEvUr6g8nDzbxkfnP3Aph85b57v1zxkuVmoJIrGDgKy8+TmKLkEtmLVFoPQH0P0OzatH1QebONYSWk9G4LEXHN/UkIsTRbJ8tTE7iWkhfAIQ+NRiK9JaeJXLZfOJU9a4Qh8r0T7d+eFFIzNTMnQPGOoxsmeL9EY+eyRQsCCakU13IlK0ou0sFfaPM366JScDpanV7xn/QjFhFBPdzMNOT6m/jWM5GYNJQ5Bd9fS6zdkuFmD86cVRDQKlYUovuJX8XXHdWdpQH9VmGcRvzG4Tw==

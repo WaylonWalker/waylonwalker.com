@@ -7,7 +7,5 @@ date: 2018-04-17
 templateKey: gratitude
 
 ---
-
-#### Kid Help
-
-I am very grateful that we have help with the kids when we need it on a moments notice.  Today I came home with a migrane, and was able to rest up for a little while before helping them with bedtime.  Rather than pushing though and being miserable, I was able to take a short break then proceed with a nice night with the kids and Rhiannon.
+<!-- markata-encrypted-source:v1 key=default -->
+v66wicuHD+REVXGVwrszVKqWv9l0HqUZ9gLY0RjSQzQ7KcsKitIwJM9kcZ3qX+I+lv2E5F57WWD2LUUKZTs7++O9tHkA7be8j81ziib3DKDFAF1yU2XZIWFfkKD9tK6FPOdtTz2sHruLmXcbuu2J7Oa3MDTjcan0DtlQlDElQKRGG41ZcQPSt+IYgcHPA6bHB10kqRufJxcnuDDpAT1lj3my4ynqnBzXU3/LBo0vS6F8Csl+Fu46LS0CscWoTGvGKiuMPF7MQIWNOKNufR284fSAV87LcdJPtcysDDPcTam253LjLE2pkEE+HVqwAXMYFr5k12OZ6BYthKxJglgnz4WqSoOuUqwtxK+4OuK855JWt5S05fbndqd++F0Mjv4XlDBEsJet3eorAi3Tx7lGQmNhcHiAab5WC/ZJPiWDNEStETYhZVd4nr8hs+H4Aze0TwYPCpmC57nIdMUoo3I305m+VQMtBIF0D2paWX+oXG0IbIN6/n67hTyXG0acL6xao10Q/uEHfZo4Mevm6xPfjGI=

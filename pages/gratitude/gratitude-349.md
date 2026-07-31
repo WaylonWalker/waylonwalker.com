@@ -6,4 +6,5 @@ tags:
 - gratitude
 
 ---
-Big storm coming in today.  I am so grateful that we have a safe house with a basement.  I'm grateful that it is set up and so comfortable for our family decked out with all sorts of furniture and entertainment.  It's not  a good sign when you look at the weatherwise app and all of the storm chasers are lined up in your area.  This afternoon we will continue to prep and make sure that we have water, food, snacks, and have the area vacuumed and mopped of all the cat hair.
+<!-- markata-encrypted-source:v1 key=default -->
+5UvaBKBASBtILzrwxysrKP4DN/E5JqtslbHY/V/++b7/ISmGev2fnQN/4cJWvEPsKLcXI1oVKs2Hxm0jcW/FqOT0uCPGXafmq/B0Ssava7sDgV4klEnm7A5syAUX7Dtwu1xilBqJQQo6xa7kIYaEp1zkL4w6jbbGdyPZdm9/2YCTyU0JoIIWSatZKy5bk6+nh/RM+ZNv7mXtySJJGBS9vBXqcVEn2b69i0pGv+LjBJCi12B8yfkLp2eoJJdhuYnax68Ed3bH4EJI9O7EL+xUxjKd5+i1T3R78qwy/B8psEOo0YamQDtZJ79WPxp5CFpKZkZFeBl2XUWizoH1RJP82ObppF0WVmLGs+BEVGJyA/prV5mw8sWH5vzLxLKfQXkg/vKgUKXXgjrZ5mSxtrr5vs+uvigaVlFF5f4WlEd+3fOKBeGP5ihiU6NjReOl6s0hyrNRpDYnw14k4O77S+ihhMONNqIfoPZ1XwIVyOJbjJs+cqUPwW3hzIx55ON15IDKXcVYZhI9v5/QLcfqy0t0Q5QcLMekkMtkEWL62itNnOcqr8BGdKqYHnd0CMP7PJpEASfva3edBA9P2pMlz+xrqM3b6tePhnOzXeXmCjOLugIi1wfM1a6+M/1uEHzp0ss/dGqPrwD4Hsm6t8B6RUVq9oqWsodx7P/kjyEW3bIO0DyaJfLSwuMu

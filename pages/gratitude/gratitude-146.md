@@ -7,14 +7,5 @@ tags:
 title: Gratitude 146
 
 ---
-
-We got the appraisal back on our house today.  It came in a bit under,
-and we are going to need to bring some cash to the closing, but it's ok
-it was not over our budget.  We will get out of here and in there before
-our lease here expires, but it might limit some of the things that we
-are able to do with it.  I am just excited that we are moving forward,
-and do not need to be in the middle of this mess for a long time.
-Hopefully for a REALLY long time, we have moved WAY too often over the
-course of my 12 years being out of my parents house, I'm pretty sure
-that I have held 11 different addresses over those years, its time for
-that to slow down big time.
+<!-- markata-encrypted-source:v1 key=default -->
+O5XwMlnzNprg78Tgz+NyuyGVoBw1dnPqT0CPvHEWK00/9K+AUP2DhwBJ004+MGqu0FJVCrUeNgRgCZAwwaGuBfMnOVngP8QJp9ASFiQ2bxCjY40/HUNUxZmCiGFwl6m8p4vLgRRMcv44548AY/yZX7h4T8DxvNCB6vCi8nmKnT+9QSRsowmjQUQ5J02yN70fSbrojo/jfxNNuj3cUCx8PJFc5aF3++p2Xlr4nX+eYlDj9qnia7lIsZ4Jfwlr9/wz10Bl6TqhV/HhrFktTqrRmFFkok3A631Gzeo/1uh1SxiO57MyvwOuoQRvjyVKSPAb1GZvJZFBvccjaegjeyvkTwx850oO2vQJyeZtMZFur3TIgbdM0T1oMsUfy+8X8qyV5II3PkCYeQdwxnOAhoI/ziPhExqNXZJ6QAKF/LizdfIIQlH5CBubssosQkYpqwK/sO9TX9cLKLN4b4NWTtKTh7jnX5/DMysLd9XtKqdSFSaE0I3KO3VW3aM1X3MQlbC3jX+KWPaDbKUir+i/T5zmFvGkBythhYCik9PSllLVYNUfMbYb76xO6S0JQj5Q61TuZhfS1tHJ+I+QpwESK77iovLdWzcZw6YGpp/xcRJecvSr0CXnqONzgzW7jSlyXUWsh9xEv8nq9KTjBpeBrB/Kc4u/kkHMLxpBftkR8Wf54FvZlUF9YJFawnxrprxFvmKumkCxLX1jjCKxX5clHVbh3EHPVXpcap1UjYazPnvmwEFO+LLisUpeTalC3SiyzWaxM0873M9z9MxoXfFbvdcpJapNMgmNB3o7n0xOInAualNtLejDXPRkSD21RPQqrxmja7JBkw1B9GbpTdEN1yCh577ReVbiVAbHWyHwEg0oGHsYVHYzVFBVBsiOn8SJLr7laktxnom8+hsTwlp9LJ87hQ6VSofjAMXfIIS7w5Vw96kAAF8=

@@ -6,4 +6,5 @@ tags:
 - gratitude
 
 ---
-Long day of work, and I think I'm going backwards.  This was the first day off of Prednisone and its feeling like sick symptoms are getting worse.  There will be progress, I know there will be, but right now its not progress in the right direction.  This Christmas flu hit a lot of people hard this year, somehow our family got hit extra hard.  Glad that kids are feeling better and back in school.  I'm grateful that I can work from home and keep up with some light duty things, Less talking things from home.
+<!-- markata-encrypted-source:v1 key=default -->
+Cu0QtQ67AkpHtdQwCePI3YSPPv+veUuUuiRz9hf0divuInZrgVrfXJ65kSfRQbFInlrIPwXpaDvrLfsiv8ii911dmFyVMAj+SDsYiZ18m20Re4cCaDrXr5Z8XxC1yg5fxwvz4dlwJTEKG/eHDKtok/vJ0uI5pJRGpojdFD//nxlLA9JPsrUq6q13uk69qLe+csnMRNMiAklNY6NvTYvh+u5vgKT+GFxEb3/f6vaSL89cA85oNYAGkUEcOYJI/I+8Jskd54MNI0YjtHySvUTZhTWuhyo/MJvGNmpcVLTjws+4jJ0FrxBww/by6Z+EgPW/bzNJjEpwRCx1sh5DrOR0x2jb8tZKTaFXGIjcxaN5C8ZFaLwDNPMA7TQP6s5WgU8UvrP1Xp292FeRMp1fXG4ZjCSx7ekJc/PN7ONBQMYKh/ZjYrrE1FIBdnKMnKCbB2Z9Hx+Ki0y8fZikNuXl5J2WRzeAQfuVxYiUnHt66yhSXbWgo0UGBSWDi609xGTT9hik30WYBYtCCygEvbiPOTVDAbKujv/ENptb02gAuqaHCk5dm/XYqNEY5ktfCGLlkimkTY6quHtAo3+iekCuO8Q+621sl506ORQY48FUF9Mddw+9VUj/GMU1cKedXI6RlTVHLWLS8UWR3t7TWR8QtSHnaKk5l6TsUt/CasDxJb4r1PUJZoljUkyXidZk6qdcaLHBuHVaetC7wyiB+WY62sqAMJswhLdtLPBsU01A

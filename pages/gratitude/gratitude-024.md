@@ -7,7 +7,5 @@ date: 2018-01-11
 templateKey: gratitude
 
 ---
-
-#### Support
-
-Over the past few years we have recieved tons of support from other people.   This is something that I am very grateful for and we would not be where we are today without it.  Along our journey we have came in contact with some very generous folks.  Yesterday was our opportunity to give a little back  to another.  One of Rhiannon's close friends boyfriends had passed away.  While we did not know him very well, he meant a whole lot to someone who means a whole lot to us.  I am very grateful that we were able to take the day off and make the long trip in good health.
+<!-- markata-encrypted-source:v1 key=default -->
+dT2KxHmTUxKJ04VNhJWUleGNPRMOB9+A1bc41wvtq2ojyqsti5JIDXyspfF9ilNBYgfnp36n/TVMy8G7+wY6y+B53nhQsADpimMPzMblxiOZ6o2VC95gV+W6WIry2l2D9qZwwvgswrrf5+OgU5yY8CXCBSCBKWTCSXMC2WMsWkvSfUuQlXjbmTWwFpSNa0sqCkI/nsMq4pWtoF+fal4TxnFS2HlOCG+R6lyti6Sr3Qvgn1g4/uPbsjZ5ibKHSCtP5zdiVYdTxBmxGMlObjwf/09Wd6Of1OnqeJm6Fbh/2JkdA0sq+W+6S5w/2qkbSnCkckqvXLgK1dEbol2K1mb7snC6qhvafa/xC2zoW+QWTvAN17wsQsXdxKCN+NVJs2LIw9VvILSpukDAsS8c2DWtn1XPu4IyZh50yN5FMWZqSdI1b7la07vn0dN/Zyy11Ug0ATMInZ70UKK6Z3vIjmM2mh2OcGgMkgRbeS+42iffMVkSBsfUUooDwmpNAPS+e7/OzR7LcsfXX2baacCg5/xwnE1BNbVtIlKQx0jvKcnYJbz1zIU0orQD6Uf8I6jnVmMaL8HgkQ7gReALJwUH/HPzO/n7e348pnl3N4avUzviW6S4bRiBuLSUTSLqh0WAQ8APvGYNdBsdXmAswUKTy97gg0na5l0T9qOBNpz+qC+DF5pP7//xI/5kx21RNwSHM+QgQ6FPbnor9SHnnSE9pZ3Dxhu/F1+pDHlLTVMq59DYh/1SaqiEaN2qd1sTusO25HEbmE9Ouz5KJ6xj+47Y6O9ivzI9Ts4fdMvFPxpR+f5cIMaPWZm0YCWfJRs3xlMcgUyrn+gYXDgafg==

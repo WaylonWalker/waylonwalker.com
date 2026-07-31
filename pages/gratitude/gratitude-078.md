@@ -7,7 +7,5 @@ date: 2019-02-04
 templateKey: gratitude
 
 ---
-
-#### Simplicity
-
-We have been moved into the new apartment now for about 2 weeks, and I am really amazed how it feels to have simplified a lot of things along the way. There is a lot less clutter.  Cleaning is a breeze.  The kids are able to find their things and put them away with ease (for the most part).  There feels to be much less of a weight in each room.  Everywhere in the place feels light, clean, and easy to breathe.  There is very little in the way of stress of clutter and cleanliness.  The daily burden is quite minimal and everything can be cleaned up with very little effort.
+<!-- markata-encrypted-source:v1 key=default -->
+Z6oaTyKL1JqwqDzok0CyrmnTguoQlsPwxtfL7mw5X3+3QA80QJcYEcHDHcUgRSwH1XOy0e2ksbLj8jnbC5zzDdbHR1QlW300QYP+iLt45jgMCrscBGItJhvu69FmKeLe7ffiAvNOPse5mh+C+IQBHRp28LX+DyfMONfDRRt6x3WshygU1RnyedQ2l88+dUYSJe0UAtxRkon58yLwKjv+FED1uA/5fgpdwBOr7HGRVylZhKORq+9wJQ8/ajKd8wjOlIsIXVofnsYgobi9LrNBYbpHlbxRT/ZBEkVLHEy2dPIWPOkwfJQSngP2GKFzAj3JRRL42lVWfWJZsOQbIWUOOSnIMQvMwz//TUXlhlyRbeMrys1rGMBJC3yrMKvw7zI/Yv2MbzgVtQJLCebzqCFY+7x2nX65SBrQc3P2JuMskbBKONQT0uUEMnMaaNWUn4yG2WvEAWfuHlID8YI+bfQevhEyU0j7rMHaqn9GW2BGU6UalAGhjUQBx0yDh5oHaWDBIAdbaf9pkBxaIEH3nV63m107zIIyLheBCHn1aNhiR6p6GwCx+DLrzAqvbXwXDzn3yhOio5Jy9fEV+hJaBXoZaDaGO0MvvnshA6cWhxxOcyeuPBcnWd5I57iemo6/vUPsIwNuq5KRH2SWkmJ5otqgMGzDBNWQOvqQ0jfrVUiu+tuEv9HkAyrsF5l59ik9pPZiCGNFelbiPKfin9iUEHtP6OHhb7S3rT6Z+Wlr+GdzVVl2zL92IHZlO1u9iEhrBgn2tlEsFlFIEFkISlwG/f+OapjFJ41wsOHUWf1lMQxA05oFe3qyk5jC80RbieqEBEciZ5galqOtd76UWupE1oVQ

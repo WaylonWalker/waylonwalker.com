@@ -6,19 +6,5 @@ tags:
 - gratitude
 
 ---
-
-## Saturday shows.   
-
-
-Fixed a couple of feather fans this morning , found just the right bolt to go right into them to replace a broken plastic pin and cap them with some hot glue over the end.
-
-![188892d1-838c-43a0-8898-2d6d755473c7.webp](https://dropper.wayl.one/file/188892d1-838c-43a0-8898-2d6d755473c7.webp)
-Brooklyn's here
-
-
-![61f42b51-2953-4a11-a2b5-ec39f92d73c0.webp](https://dropper.wayl.one/file/61f42b51-2953-4a11-a2b5-ec39f92d73c0.webp)
-Done with show 5
-## shot flow improvements 
-
-Working on a better, nicer shot flow to go from phone pictures to post on site.  Eventually will get a nice webapp running for it but worked out a nice clipboard to post, correctly dated.
-
+<!-- markata-encrypted-source:v1 key=default -->
+p15iCM90f5/bk3tqC6G47X6KsI9uBkr+zceXZiTH0IE5GJQaMwDstos8Sxcxg4/Sh5NecgTX50VzZXL/quRtMzAUliv6H7igYDJYp9hWTuHfO3fICR0dvw+GiChaFvRVgZe9DBV0GNQCcfSrBuA2wkK0ySyUAmkOfq5gcZuIQDsvIGD26ufqfp1ux812EzFeyhizdClKiQYPH/ZO1PJCBdoUlMXGfVQ94fqjvKY8pMeKyWd+nx2wkG6xzz/dNpv7m/+PWtRDiUTzJ92G03UIVj3tl86Uinow94mdm4ZSuYTgfRyMvX+V1Ki39BtJHBrGRz4l/0w/ukZUIqHM7MvuRI4Hy6yD6GRiMnz9CAhUSd3Aa7p31hOjXD2FAfY1EjqLGEM4ocXmIklTOkG17cxKSrx7c8+7rsfPeHta5PjBVN5jQ4QIJyA13MzVcsXYOIYXp7mresmffvaQkrdTj6p5MnHUmVM9A+be5z+4wfLacV3oJacTSx0F7/VA+mT+XUQ5lrqyaQjBUk6Ipho4wud+QInbkzPuQceN8bxikgz8B7fzCB2puTS7MqkkZwT3E5GsFBcAGZ58vl6FV6qsUTkWvHIdmjzlJJvKxjigsayG7g/kVnmhuUtgftJdOLsF1Wt6cg0U6NQfx27sj3HeKL4RZXIyfQq9UePJIYDmsHG7JLNIiejkTQPg/HduSNL5+B8BR5QhKzoRI2zXVvhY7rNOzScCYrKs6GWgtT7wLa6/abAwF8A0y2NJmJI7jLEcIcQ4lF8i1b4iewt7eGk5nrbmOIYxmNBkrYYKeDftDOSStu9ldWnF9hdUoPQJIl8OQWWsH3Qb5Dt5dfwViWTE1f81MGRxOFwfBVaL7KvXrkdmedeDgs5ZwqVAkpRiUz4tCJIc6XRO88gB8ircBxO1P+yLWuGr3zVUqDgoHiyGwd+a8i0T7CEKuxmcQKjPYohjiHtUIqefeKztntVLcw==

@@ -7,9 +7,5 @@ date: 2018-04-13
 templateKey: gratitude
 
 ---
-
-#### Running
-
-Over the course of the winter the kids and I have been creating trails through the woods behind our house.  It has been really fun.  The forrest is really thick with lots of small bits of brush,  a stream, logs and various old junk.  The kids have enjoyed having a place to get out of the house and stop around.  It has been a great outlet for us.
-
-Recently I have started running on them.  I have been getting better and better.  I feel like I am starting to get back inot a bit of shape where I am not winded within minutes, but can at least make a few laps.  I find the trails really fun to run on, as I have always really struggled running on a track or even sidewalk.  I am always looking for something to make it more exciting.
+<!-- markata-encrypted-source:v1 key=default -->
+ueTyIPW3ajYe2SIQUCYIvVHNogTFzHpW5wu4u4m9LvswUzyucBOeuFpUodq0E/ALFw88UJjrjfcRW2Xs+3dXQLPoUdE3TY/O6eN0OyrIaniRUapN4F4KQDZLU5U8e+yXc5PZHRUUTlXgGACKFhRECVJfxjePQcR61DWqQWO/DBu5+70Iyy6lPpwr/hsTAq+Tjv9qH7kd2QuaTNA5RBsGYmPLJQlE0N6sZvQ/3CGLIvJPrVRrO++8wreJYXA4B/QL0o1PTi2fVjN+rwGTubieLFJS7pRsBViuboR11ge3il59C43YKYc5XTL9aOthnkN7xYr4zMWZbxuT6/XUA54BTEOP3IYUiCABLaXKVT28OHrKmffC/phzEf15pW4tq2SbGVkbfD2lmvChiCioqHpSjQeT20bxGJeGFtOZgSLRvezhIz6KmHgtw6T6PRQWJSLG37hRyhJcqunlv9HEJJICMZPvdckxJBfGDlPlmdtbJv8PrcpzkORCG6KxWRjGjqtBGRDTxsw9pz+TDsba7xtYonY1/HcHpSoJBKxD8dz5tEas/25HsiFTX4JJgg8YtGmHmSxxUDCC0UIuygjEKxM7u0o8EXmuntagb6HxOTZ5awALHaMBAOnkjvJtSJPkuSk5PHdCUyEx3ieh1LHdYJAyqMW7eCyDQHR3IsW2lUfFdJjpJeotv/qSfp6oy+GLGEpN72y4KKgHTNoPC7l8AITEUMg7GFnCFPCEr1S+OP/PxmMlmo4qdZ8T+Dainx726BE8SIfG8ZFEf+5TWGZ1Qqi75H9E91jMSZ0Dqw3jb6IdGAuQUJiDHyK18MAFJZBb9e8cvV1Tv9jZksXiTY+tqBQQA08WGlCyPB5Z4sPX9s8ZiJjqz0ZUJqL5lD4FhfUYApFoorn8cSP0ki+R1Avhumk1ZfNhdpywtXw9AfSyq1s6+X1Hdagvo7ThWv2kXFUvkHhH/hvjl1E4VDYdhyI0QEYZaJ7cHp8rFz/bxlQlsiBBzSy5Fb4vX33rIIdd0zbf+0/IJY97hH53h8d75DKo5sg/y5BHm/0x7N0cJA==

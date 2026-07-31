@@ -7,13 +7,5 @@ tags:
 title: Gratitude 128
 
 ---
-
-We got a house, for real this time.  I am actually 99% sure, maybe 90%,
-anyways it's solid.  We put in an offer and it was accepted this time.
-It's very close to here, so Ayla will be going to the same school
-district, different school.  Her 3rd year in school will also be her 3rd
-school in the same district, all within a 5 minute drive of each other,
-its wild.  It has an appropriate amount of space for all of us, and a
-very big back yard that we plan to fence in and let the kids roam to
-their hearts content as soon as we can.  It looks like a very nice house
-we are excited to get started with our new journey in it.
+<!-- markata-encrypted-source:v1 key=default -->
+IebqUCfKmvPpT5Q1cKgtdSdaSQioi7cO5qOlH5/VsqBTJAlcsUTTwDx6nluBb+9YnG17lSNpAOzq2hMAR6OHE0K7d5n9wLSfRQjLPYnDa9oTcrv7SC1LSjTnYxHAKBY5hC3njT3M/BKg4Kj/yJC0ip4MttO7KQwg37bbbjpddzXBftQfb/jNDfpvbzqfi0PaHtgXr7BC22Dteub3rW+ei4EAWv9xorBBnEyFoz8HFyWw3Fh5PNPdEmGFnLm7YDemQ72O+mEoIrNkpy6yzNN+NhVW1kiRpAX0a1Ru+Y7oC27P+AowtJDg3YvhiJLfiBreVVbI+4IjmOqCG2v3234ttcyc84R47BQZB9mMkP++MQ51Kt9hKvnZeMuhs7+kj8s7Lk8P2re/O8Cn/4UWm6/NPROtQ0SOxYZNvkeGfv4ffSs0m+627DDxyPJ0oDuYWGwfFde/XgQQlYtwH6CPwqsAeI9GKjRD2i2KFUfnjfXyJg0/82DXnHyVGJjIw/YOup3E5buYoQXHUn998uTOh5LgRk5eftnxXbGDjqR9M7s+YKDx5Nvz+6BXblj5bMXAAocZD6kOmdyhrNWxoY6B4RVhUOJ4o0WDUkMVA1mvqFQoTtFEeWxpa1jumHBdo3c+djUxcjxYIFt0TzLayRIORbziqoGhD3MpNg4vIXbd64qCDjYJ7GL4mRcbNV1BMzSRgyTzNtnK4VD+bR89PRxK65gzP0BRFP8QAI79acgpVwpqU8fnx23/OTpdij1rh4/rE6Rzv7eAGh04JdOzuFaghmvYZ200HY6ZmqwK/KQ4qLGvSWLKomELKCRlHTHsvg1yz7ilTPQp9Qo6Id01L3UDqmmKo16LCxSKhwuyS5CKyS/c24Y2dxM6lag96pSJOi2J

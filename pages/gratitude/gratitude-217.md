@@ -4,10 +4,5 @@ templateKey: gratitude
 title: Gratitude 217
 
 ---
-
-I'm not missing a day here, I'm on a streak!  We are getting hit with heavy
-wildfire smoke here, we are right in the middle of the jetstream. Some days its
-even hitting us with visibility warnings.  I am so grateful that we have clean
-air inside of our houses and vehicles.  I am grateful that we are not getting
-hit with wildfires or any other natural disasters, and all we are hit with is
-being constrained inside a bit more with a family of sensitive lungs.
+<!-- markata-encrypted-source:v1 key=default -->
+PfJw/6DE6QLjML60YNBBEgLXX3MNrVLOhzoTlAOysSO0fr59Xnem4N3uRgNwOOx8XiolQnNJVFhu2zPU/y4VZSwZaN7LhsCzJXC312VsMsg9+Fo10I8XqKg16LzGHVJ6cvmxtWfltntrIfK4+cM1Dr21hnriQmPONXVNaSOf9c095tSdfb2SDNsp5FTGC6663p7qwYVyiKAtpC+qV1LMnZ3QCo3JdHXemuozLV5+ymFFD4xizJRsWIXociIHoeglkf1itFhrmtyDVoa6dg9jaMmxGhrD5gXofsnc+ZL0teZbsA7a/8jWm9ANlS7/vuaZbktMUUTewU8Wr9nHeEV0XmW4mR5JgMyCejlaEPyam6qUhVL+uxH28RKC1Pkztf6peJm87Lier8w7l2F30fqd51aHWpO7ztztQ1vQDio+ijoQv9p3b34mhRUy+TXxItR7NtuAM2i/0XD7a5sfIWhpV0m126JgDRW/lg1cUk2SQIzNlW3CUr3jUHiUxbIaTVl93+Az3gb8OSM6qCUR8xIWkLTAuv9VvkdNvQpoVz8o8zBKYJsTt7JO/bxE6jsJ2Jj4U6fmw4sSZxoLY05nmLBTXMjrocVyWU7sF75YwmoGoe6BEArJYKTJQoRLLyjzSi4sUfGW4bitfB70fSlLEtcqibqUEjRXs+VmplE=

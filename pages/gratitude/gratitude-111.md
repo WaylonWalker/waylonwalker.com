@@ -7,15 +7,5 @@ tags:
 title: Gratitude 111
 
 ---
-
-First day back to work for the new year I feel much more tired after a day of
-work, never in my life did I think I would say that about office work, but hard
-thinking all day takes more out of you than one realizes.  Being up multiple
-times throughout the night also likely plays into it.
-
-Anyways all went pretty well, It was good to see everyone (online).  There was a
-moment where I was pretty heads down problem solving live in front of two
-co-workers, Actually trying to get their project working for them so they could
-continue on without me, and the kids just erupted.  I was so grateful that
-Rhiannon had my back, she got the kids what they needed and I was able to finish
-up that working session fairly quick, and get them going.
+<!-- markata-encrypted-source:v1 key=default -->
+msuE8uXf7N7sn9gOYn16dQEdVqDcwXpM3nTVPRAzGFZSiOkfGugzd9yjvRhie0Nvhil3kFYNWlAsd+SryAujGYE4FiRRcHSIMim1I0R5NIcwrJToqAS8rdYAPv/CFVM0b2mk6AdbS/VhjX4M8iIuTMDH2jXvlr6gUPq5fEXFtleMsc/E9Y709Pr/IW1UFHKYeSnDmvrRXEtZWnr2qHAwG+jVVQz4ZDCJNy9yslV1gMh1C2f9n7eIaMTQrkFTOcRPbcjzcbHhwhXvj5j+LP3Q+0LE8DMXjWKoVHTgCOhD8CpTb/tc5Blmjavxv1HShNUz6SWu3bDG+XZCHUEQhw4MePm3k18gWOUpmW02BS3xIvvtOuy9UM9aVio0KZHO7vZ7Nclxj+DW6pBptJlNK0+6rAutQ1GvXsQsL9UNvfpdNUjPvbXuGQik9NETHsyjabMdVCvrlbgYl+2BPQ+C1lYmrTHQsLC1CQAQ6TCSPpbYUPiv5ygbkhoorhKrtM29/3vv6c5RQWtzD0eyfRa8ExIQGojyIKCEgNqpL4v4yIRBR8P6+MK9A81d+yzk0vb+Oi6OxdusNuzWUGBXx0u1MlLsvva4tBXCjIa5vtIM/pnxbjdwqz3+P6HPX7f4idp8LIl0uFDlfxnVcfQV95XvXtW5RIJoktHTWPcbL5MsRoocN9uygUmJ3ZTyuHuUciPzOtSPyoP2pTutDQOQ32oInh+WDcbPWlnIAYQSO1M3/4bLjcXVgHWx5th9uiJV0BqGLjrkZmti/kx4Ub4udcRvZrS6dfrMKzpdCEho4Wo6elCL0dEytCSDETQ7FEyBINXxLQTQv/FHxtY1wIMny65Ak4G8GC+glIjrCzp0x/olAWMIch7T94vv+q1ffLCPTIZnohYXZjSpmodF3DeSbUWwfRZY7VX8l8lGlSl33hCOleNMYIBt00P4O85o2XcLIMLrOkOJyt1q4Lv8Mb8brJsuDmY2IjGv3Ww7YfPSPvmKwvtvSHnrIAKWRFak1LLAvcMZQbURbgCJgWZdHJ2f/U3dnV1RvQ==

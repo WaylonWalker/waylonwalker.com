@@ -7,7 +7,5 @@ date: 2018-11-11
 templateKey: gratitude
 
 ---
-
-#### She is a RockStar
-
-We recently _(today)_ found out that that Wyatt has moderatly severe Sleep apnea.  This explains a  lot for him, and is a bit scary for us at the moment, and we are hoping for the best for him.  We wouldnt have found out any of this if it wasnt for Rhiannon.  She is an advocate for these kids like nothing else.  The mom gene is strong wiht this one.  When she knows something is wrong in her gut, she stops at nothing to find answers.
+<!-- markata-encrypted-source:v1 key=default -->
+pNfB2wBd5jxOGte3Jka+oT/GPyBAAXrQEl+AD+BhsVrSkD1lx6OoNE9E3isSU5hCeewSsbwg0A+wNjAFqPvnBjIENjZ7gsVOLKY57RuGJYn6wSYcu41JKfg6gAZntfcIsFkhn2aM7W7he+gR347CPJmaWzKhaUYbUUlq8aiPd5d0aL6xB1Kw51dQJMDs76s/RE1Y1j4BmQumviWsGIFk73CDKKqXOU52uUEco+YiWJlxbGv9R5Jdpa/78MhNEWZc2TFnYYttoWOR6g0HEbgjRxvNBjh+5ib8OIWUg1WfQ5qYcSqnJyYI52cvuiHbAN4B+jkKI5e3z53dS02zIv9e7F3Sz5e9WgWGbBmbvzohl3AYq4bffB7TdFI4VDaCA8GjSkh+u3FZ9vsxV/7bOZKeP4LKSsdtLvGxPNThstacp3Qo+aBSFUFeccQukQlk0gFKESgBpLuO9ByCOGS2VMP8cdjEuqIlsgJ0+Jl+cdHv2rirROOZTzZe2wyy1QIG3qy3qKKDYMXagLDiYZcRTcQI2eJO3/WtGf/dhq/OJVy3GX5gVNTCdEpkUx/UbHAX4lpYa5ZaoPjFQNwL+r9PuiHlWCe4gT1KbE7xejUWMkS0LVd+6XYvWsjiBjLZwpttr2dghTnFnXOqMBTdiNcdKeojKByZH14DVkWeq5w=

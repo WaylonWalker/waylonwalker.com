@@ -4,15 +4,5 @@ templateKey: gratitude
 title: Gratitude 216
 
 ---
-
-I am grateful for our pets and their health, they can be quite the pains in the
-arses.  Ginger cant stay out of food and wakes everyone up if she senses she
-can get food, and Dobby is in a barking phase.  But they bring so much love and
-joy to the house.  Wyatt loves his cat so much they have quite the special
-relationship that is irreplaceable.  She puts up with so much from him and
-gives him all the love when he is anxious.  Both animals know when Rhiannon is
-down and having a hard day and cuddle up with her.  Ginger is our guard cat,
-she guards the door anytime we are gone.  Today Mom lost her dog Cali, it's sad
-to hear that she is gone and really makes me appreciate our animals.
-
-![image](https://dropper.waylonwalker.com/api/file/d56aa7a5-736a-4d9a-9282-d68a2635dee6.webp)
+<!-- markata-encrypted-source:v1 key=default -->
++W1LhGFBHm99/B+wz1LLX0zHAi+t+fLfDVUkCulWV00k5hXHlI+hPjKwdESMm+L801FXe/iqN2hIFZ1GQlCTDUL6SFVU5/mCz7zt/mRfz8I0rAed6RoqBOZEGdWSUIpT6HLJky7nOG2PI4y9DpNLgp1Vr4kJ8pN3jtv/xDauJwXov/siGoqvssUTQ7zVFkeqo8KUaeBEHjHtFEOVpsVU2p52DRxwfCrkhhQjBFsow0wljV5hIw0AVbOhynxG7887pgKdvvUL64r3hCcBQZcnNzzbVrF5mZeWYDf1DBjmpnjFk0LFWZ64f0To2SY3+E3J8kRiur9OB0Ld0G9ednipM4l8JeiI445zFozXpLuVsW/ivY7UmWlwDJRDSaJNjWFl7MPaRvkcjYo7/V599VcZWPOwzlySYv7SFG9Slwe19nOYIZpKZ2n4libN4g/+5CbdD3LoWkl6QfgrU3g+I5umJhW/GpiZLM4sRyjzHytT/DoPFVEdQ1c5b/9jsEEaYK7RWLab+3raq2AerlNCTIq13XRjOte1/FKHL2Rf4KfR+yioFFObR6ZXOySCWp4DJkY/4hH95CBHQ+x5OlaYCncE+FZzLyOt3uPBCZ5cDUgPrRUSfFBPTWIuCkhimnBVBHYNPz1VzqTRmE0THgUcsVAR6srjKwvW+yXB+QXer+1oa5P1Sf9pYOSVcbzrmWlTA1zTin4QURpC89LdEEDvUfbDyBxkKl2wM2sxqMh8FTtycqfYBX7kPep4W+HBU2cQpBqqJQm9Y+mJ+jt6zBvdbt2bkwFe+y0EA7U2D2xq66gomtZkrBLYWfEBPTePN1cfkMsN51X5DGuXvBtn6miSOdxcHLu173K5F1UicOzYu8SjIuHoJuBelrc0M9tSXgQaB6bwtfqMoq60GilGGGmNKBhkHJr0/3UB5ClvSbcVTxjaVmS/pzSCQta5Ed3Cx3dzRzxC0s3OP+c/Ln6Ts+oho+lZpSBHvTJloFkIf0oBwSp/gskYMTpoy+ecq9CM8/V1tZ/Q6p3U69nuhY9S0R+Y/TLFvB9w+v32wkTOCfA24OtfqaAwpq6Q0D6yKo3PiRXUXEMhKf8IIHP6YsAa+xdZQ3oyFA==

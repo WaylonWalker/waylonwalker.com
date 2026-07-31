@@ -4,13 +4,5 @@ templateKey: gratitude
 title: Gratitude 267
 
 ---
-
-Today I got some really good feedback at work, I just looked it up, and it's
-called a covert compliment.  It was the opposite of a backhanded compliment (an
-insult disguised as a compliment).  The guy did not really intend it, but the
-comments made proved a lot is going in the right direction.  I am grateful to
-have the respect of this community, that I am somehow someone of importance and
-meaning, and most of all able to bring something very meaningful to the table.
-It shocks me how I got here with just hard persistent work, yet somehow stay
-ahead of the curve.  I magically fell into a role where the work interests me
-and it makes it easy to learn and keep going.
+<!-- markata-encrypted-source:v1 key=default -->
+j7MjElWs6r1Jh7g5pki03NxMVNYse/FbNtq0wzdy5/GE3HK9RfUQTMht5b8RYr62Z1uy7UMiI/xMvH0oPAEmc4GRE4MUn73FaSxr5gMUwEYfxvoz0IfHfVX49dM40GHFNcVebKJ1NPJn8tH0Gjrlh7GzzpQhb8VdZwa9iJQXpKPUXXBTQ5fgO59OaviNybT276DH1X0WKS6Jc43n2pGvlJrzEg7PCoRye6HqNOP6n2Q2P3m2Jrak8u98vhg+kkxbfjfcW2T2Sf+TEY1I2t8AM9BJdvRtv79Vs3n87BaRlNEtgPyM3YA39AA40KptBI1fcslef5/wV2WtxIPT8B1A/xmLzSV6N5NZpxG5QhkMGfwDE0/216Y9ng+QfirEYp1BCRKDifyuVn8JeiOS8i1vCscS9FCkJNnXR/N8Cq+ecozd0UdETDaBbQZtMHfcW9nAKiJB473pKqeiej8boZp+Ti+OiVlU+L8yincJrLINO+Qkeja5IuaYOMUmyapI4VFGIdFm/mCyaRamyHxNIBDYNwpHErW26GBPNcrJDWkN8tWhueGJ9JTZs8UPGLBxoNe8KiKsdBEYao3QB7ygF7Yomt/Yf3vgAcaIqPeYo2xHwCNKJwgQnKSYTasqFbifRZER57fpT74VIzEx/Q3szIhcs+lhdTZ62dKv/P3YTuBAPFmd8ZkBqDfHSnhm+9oP/YdSdihvWa2p7HrKkAGHGoDKdSP9ueUb6i5NL+dfe0RbG0Drj9VgtFP39RaxPUag+qqJAgswni2ui/cwRlGRnirOIK1ovWbXMeyW8c/oMaTUlsLEicExH+E+rfQAqisfl1Hoj41uVYXdcEVzfxVQU6kk1zjXy+yu1zaBMkyiVPV5nvwlNrTC8O8gBBFTFGEzjN1ap9dfpcj14IJaQ3emYooaRIyQ28Kimm3t254UNYMvX6JtOaQy2571V0fAcQvWag==

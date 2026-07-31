@@ -6,4 +6,5 @@ tags:
 - gratitude
 
 ---
-Friday, and productive AF last 24 hours.  Yesterday we stayed outside in the nice weather, took Dobby for a big walk and enjoyed the weather, came back and got markata-go a new release, and more coming soon.  Today I got some big updates on the way for work, a lot of stuff done to higher completeness than  I would have had time for by myself without agents churning it out.
+<!-- markata-encrypted-source:v1 key=default -->
+Jc1MPQLet0MDKN4KWSndEFlPHb5xDGuHjQSjIt1s6vAw4hP3h7RNpOMUnstGSHknRFvgQ3586acVJcjEcJXcdZyB7spPNBcg1DgXVhYD7AGnfDBSy+gXBM3gRpYFHu5yRcW1+9XNQGspI55gR0QnfxcCagJLlzILAOj/et8js6trLM4WfkjrbEYgzqtGZ9go+M4R3rsL1tVGCY3iZubWVI821jkYNt4gPNNmfRr79Cug3/DNn0gJIICDbK0BsJ2jYI/FnJQm1sNDSGFYk2NQzz4bFIj+Oohh+xc0WSFxzzIOqytCMMn5qjmAGA74Xvo4EZgkk0fjPn8JID6Jz3pWcG8OWZIzJYg0fnl/QCUDTkVSXU27zBUQNhZx2+cCLiebQoCQnHIMSqKrrTsTrULI35mgvU+Spaa+gvHu6zR32N8J/M/6vqLL8u/6z3Mxujs6J10dBqvqBlkk3IlZaBTxb/P6QsfaxYsTlGwNgizAExBEzf9beh9c+UhOvWiqVufHwtfl6/MdYW9wWEtEZeqUwbrh5fvuouD7KOf7okUpKATrlTY=

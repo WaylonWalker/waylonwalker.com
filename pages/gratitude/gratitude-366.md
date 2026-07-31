@@ -6,16 +6,5 @@ tags:
 - gratitude
 
 ---
-Starting in on some set progress today trying to make some boxes look like newspaper.  First iteration came out a bit big and we need to scale, down. Not a big deal.
-
-
-![cdbb0889-8a3f-4b44-8dbf-671c03cd431b.webp](https://dropper.wayl.one/file/cdbb0889-8a3f-4b44-8dbf-671c03cd431b.webp)
-
-
-While Rhiannon was out she bumped us up to the big boy class of tools and got us a brand new set of 20v drivers.  They have some zip, mo powa baby.  First test nearly sent a screw through a 2x4 without trying, not just the threads, the whole head of the screw buried to the last inch.  This is going to be such a welcome upgrade from the old 12v setup we've been using for years.
-
-![14f24f9d-c56c-4add-8328-8156bf26e880.webp](https://dropper.wayl.one/file/14f24f9d-c56c-4add-8328-8156bf26e880.webp)
-
-
-Bless this beautiful weather we are having  today too.  Been getting out and doing some bike rides with Wyatt and walks with Dobby almost daily.
-
+<!-- markata-encrypted-source:v1 key=default -->
+jZxvCozKOC4+p2QmaCtE2K35SVF/u9xlb6XqRP6yFGbLD+yt95AlSfuKauXLs77nQjwrgCzJNXU5hTza97h7nh9/bwrHqnUrYat2qQr6OqwqsixX1DUnnfo8WLpq0ngdwffL75LlwHzspA+5JD25ftRSjifWKkAGvttqxUb4CyKkVPDhMbFDmyvmDqEvaUOZ222i8k2PdsKnYAKAaCaFvhuJwEHvvofE5dopMv0I8Orqnh6A7Gd1P0pAGeeyo7F2vDcTSUPMaj3NW3+MKFWXFyTN+uLwFEzQmY+JMUKxjaewkwTxCnQ65mfB7KuSv5akTnj2jKA5N8UuEChsSbm8Vnh28QxP0f6cXUu88vjaN2JMZLt4Qqpu3ymP5CY63YpUDj6rqi0B9GAbAm/Xll6PZY5Vflxq11FNihj7AORSqVncPiQ6B2Ix36LCId7pxSykLSDeYLoD77mqKJDB3fiZ/VxeVyGcBWSXOP6hji8PIRNHp7g5TGKBNnCCwLQx18cSUk76ZRvIGol9lAqIYofxNSxcs86hHjAPsCaHltFfBCzbUBwDoyUpiDrWJehmswZcXpcikjhJqAtYr2/f73UPnI2y+zCm8DU+OM722I+lCBa5o9vLYzByGlSrYwolqgtLUI3MIE0YyWe16JVPy68lVDUQmh26AFd6Ptq5ZTmRovwCvttlmXOo1+Ude96Phev7CKkkRm73ZSVPzsXDsIPk/+J/K8YHrs1npngmQNnOseIHDrodmmZvqp99/Wojvqm5yFuyWqKyD1zCzECoRIdYPphZYCmirDPnkhMwtKAOHU2vsUdd6vHHl+Cxq7TvfzY7dLsfHtJikLP0FZgmzz+DBRS/KQUb7W1i/goV9dSLkStoS33jW4YfNX/dP2WucTHWHrhEMGdAPif7kp+2ApkcCd6mim7Lt18fKGfL+yVhhJpquvzqhkkL/V4S8yOXdrHcx6TPc6lMvrOj3EOS7Qo6WFTujtqkokb1k4sqGPNpEFaCbJEH99TDluxA8tkLyYOQl0j2lhAvlalMcWW1Vi2xfDbEC0nyEtPAZwXWzmsQGgXiwp28MPX66yWhhsKqwo8PKtQsTmHJR7BkPQx3XNercmNAtGPJr0RzsRTd8uT37DkOOT254ZbHXe4TBm4Lh7B2y2VG2MhMfrNei/k2ln6/GLn9nGaaPMZYSYvdp4UNc1CmqnxYH2UE5net9gWTsu/zXSR+71iHcQ5o333r24MEHzdBcHJ7xok8M2mFul/sRlapWEIOu6OjBwstI02wuGyFxlx7N9LG6Rrq7JhDjnosktxebg==

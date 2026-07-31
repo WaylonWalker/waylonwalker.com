@@ -7,12 +7,5 @@ date: 2019-01-03
 templateKey: gratitude
 
 ---
-
-#### Good Moods
-
-
-This morning I was graced with the greatest mood that my son could possibly have.  He was incredibly courteous, grateful, willing to do things on his own.  He got himself dressed, put his own shoes on, and when I told him that we had an early morning Dr. appointment he did not throw a fit and was 100% on board with going.  He was at the top of his game, and as happy as could be.
-
->   Watching his gratitude and positivity shine this morning was more thatn enough motivation to start my day off on the right foot.
-
-These are the moments that we long for as parents, and it is important to not brush over them and forget them.  It's important to to watch him grow into a great meaningful member of society.  Watching his gratitude and positivity shine this morning was more thatn enough motivation to start my day off on the right foot, and we did. We dropped off Ayla at preschool, attended his Dr. Appointment then came back to play and continue our wonderful morning.
+<!-- markata-encrypted-source:v1 key=default -->
+KXzqO2XsjwcnrV8jb2QDQi5OQqf9tjUK9g28jlED1Ry0Ndk++KNcadmKq5htdh/zmNSbJrdv6c6ucp9R1LR2+/YxHdXXbe3G0yNzxFAf4chCS94ymIoaWnMC/hxR8Onl3PrURTlaens0qEsJ0L+0zAtoTNWJ5FAxEU4b9FQEYXNfs3G28JXVtBV4xORb3b7m29CKK+K4w1hKBtI24L/0mxGxs3b++gEvT1hjSqWfDU/vr/Oa8sF9h3h3S3REXzkux/Uk8ajrjqoaUb+8WiZBY6pl+Qd0ijRxMo8uD1zzjFkNJxr11st04/SEvRKeCEDH14silVJ/Y46mdC8b9eBbnYmeVtm+4W45D8nN2h7PxDhm2NvryEyxxXXhqsclbD68EjzCdaCAVKZzWjZU/1AClkxlz88KkQAS+qcR5rZYFDNuhVj2AypGSDIGPNo3fCTyx/ZZI2Fyw3K0sDCwwV9XbGBl6dr63rgx86FzsCsBQ+xbpy5nqCpD6GMQA9TKrMxEFXmm8C3p9eXxah2wo+vwy1k0YBkMvSoV1fNa7B8AAg8dW4CdUUy13/4Xl5rVgeFRlKCEeJ28VxbBYvVbS/lg2p5uYR2qo7HDWS+Wu7faKjxbgFIP0od4jrBu3jlwZpk4Sr0gZ9g0ppBEvVMuiFL8KHunmIrxUvY5JJGdM3XbB6EOYs03mcW5Bchf5txkaqEdZ9hC7qc2lG9z8x94VaU/WdEg8tyZEUGppJhTgW17diZh2Mw8by56BpibTakDlzILgYS8oC2s93oPbr2Sx7WbMr3ysN0rnKmUNa8QCO2FwdA0Be4D2SZz18ks1MrNnMdcPDncdH31snSyHxmnnTlJOPEsLAYqALYjGfFU6waSdHJmggNtH7p/N3AIK+pwuA8oiC/Rbb7eFmFaWdjC1P8gQqTr8CpKCjCWKAP4WyY5bmbyel34zStwAkX/sj4myA/u0nM+JO+56W9uXb1BRBLdiJm0cs5dUyFSlGJF+d6yYF+odNqtWq0PV8uCkX3uM0owvjKywmnTecsmIzQ9NCYuGUphd2FSvoRKZ3CADC1/XLiUIUDPwypu6AUjSKVTfxJ34rizs9P34UUiU/2baU45el3CVnSfSVsqn0RmjqzsKCTCEMfZRO/tYqNBxMc2YtX33TugRtlqU8hhHwKS9coSr+dV85KfZ/l1U/hWXpANj9HeC8pUM6949lA6WFBuYNH31xq35uj9Z6k0HJXTi///97f+/BVAfJwJE45Jl5nAg5NE5ICgY/KXcXNM1H1VwunSItlc+t9yHBiDyupd9rBu2Ta0dZkeP+yEldI8O6uP/YBVBDsvWLZnyiMfkd+EZ9MQWOKPOkCHKln+9vQu36RagXSTibmiAwjRFCTT

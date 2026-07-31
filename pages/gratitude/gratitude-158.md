@@ -7,17 +7,5 @@ tags:
 title: Gratitude 158
 
 ---
-
-Cabinets are cleaned up, well to the best of my ability, and are geting
-filled up.  You might not think this is such a big deal, or what crazy
-person needs to clean the cabinets of their new house before putting
-anything in them...
-
-Well let me tell you these had 20 years of greasy grime and dust coating
-them making them feel like a fly trap, giving the kitchen its own
-special smell and just waiting for the next poor bug to land on it.
-
-This was so bad that on the last ones nearest to the stove I had to pull
-out the paint thinner to get the bulk of it off.  in the end they still
-feel slightly sticky.  Anyways, thanks very much to, not a sponsor,
-Drill Brush for making this happen.
+<!-- markata-encrypted-source:v1 key=default -->
+i0P4aE/cGM6ldSFoEuAEkXd+SgijsnMibB1TgzYmKVfpU0eCA9RHtXRUK7fdWwOM1k8PnKANYY7FzO2ENci9UAgdunTLSiydIYH5qlv81baXuCA5n+VZMtA9zlcM3B4M1NqThuFJl9vC6h2Pl6ZS/RXBmjDuQYA9wn9Qz7IDf6kpY3Gx8EIOoNW4k54lT7zWQTzQWhGVF0QTfXvPXsxBoIln1GnJdg7ub7f3f1gDDctDbsY4FV7fDBsU95bKzDeuk3ZUJ40iRcjHEEGYLXdGxp8d1izDTu2siymFA0fYSDgylbl/tB3xCgum9aTMIAeC5J4n/gTpN6U9kUqYltL/buInD6bbbxj2wndRKipW4ziDgDBnbfLcZR+utcvVAdk4rrk95A/ur3tv5Y6eRovWw1SaZeKflxXeJY0AFKzJFFgFUkDALjP8ktKSKNLdm49Qoq8x9MQj3z+KSzzsLJFR5AXjtDK3kwk0a+I0Xcy6jpHAlVqB7cAsPLRJ6MZgLXrsvzaMslPNFzuSwAe+5iEFhNly93xB0mCUWseYpM/CPcv0C6dl7Xly/gC7RzbMe8tnqdd2R3xufXKsKMzLazgr88P8S4a/kOnsfzuWU8zTKAsRF1aJ8n7iUWwnaS8nKQ3k7YCSKa0LTfwmZ57svefDV2z7nlxOrnVglesMChqVzzv+g4j7WuZO8lsnntwVS043jd20vcImEV/2jZA1Yb/cDVLMZTt+k4MUYplzhmBwPv3S+25kgh0YsCz6jwiHIr7HGBgcpcbY5MhNI/V4eA6gBjtLqwbmmAd8PgUgwUdLJ1752Ovn9vO4NtEgRIDqkL7O5gvEGW8kLoJ98aLIJ+Pl73PiQibfPe9SLSK1fCqDoaHG6X4BlIkCBK28RBhM4wEjI8MgIIMt+eSmOKyIr7tDqIcRDxV8jiSE8SyCIJ3+hsKcMj0uVegyqxsd+wB4ozsISgIZLS1LoRVFbwvaxb1B

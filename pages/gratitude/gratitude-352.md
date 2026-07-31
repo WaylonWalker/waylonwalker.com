@@ -6,6 +6,5 @@ tags:
 - gratitude
 
 ---
-Today a work colleague got in a car accident.  They had to take the day off to take care of it, but they were okay.  I'm so grateful that they are okay and nothing serious happened.
-
- Wyatt was home today.  In the small picture it makes it so hard to keep up with work, him, and everything going on.  In the big picture, I en
+<!-- markata-encrypted-source:v1 key=default -->
+zXO+gHk06naN8OV6lcGdNo78gzq1FLzndT6jfGWF45+FVX+WE+EzvtYlxo6dsIJNe44uXiotirogkZ0jWoOyJ2jiw5VKnXcbNfGTSUBj3+GWukzG2GHE8udFlD0xe52/t0DdnPg6FFV35MzZC/lcBfgO7LIYuQGsRz5VnuK/NGYgNEslpoPcKA3eAofDFlmoWHqG/w0LAN3ErRjhpYe38cXsp0rKiCfD/LYHl1fIm7pXtZhYcmnXEI/xWIlMVb4ClrMzVIrras/uQkH7Q1uM4rJAwjttbMEW+w9FFm9u8v5KREdkCQ3lyfbxy8RQniis0pkcinFToqyU8kktABzz6N/jvD0hYtUqdPGbRQnZZDE3/R8S9soULhzXjo4NPvgmWah0xBTAj/ZoTchFQzpds3INIFNsV/zCjRS1PvIlcn2iu4FtM6Apm6/eeSm238E78mjYIm5335/dhAZ5RKGr1nlkAEozJCNxOri64eMs5svd

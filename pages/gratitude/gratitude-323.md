@@ -6,4 +6,5 @@ tags:
 - gratitude
 
 ---
-I am back!  I'm not sure what flipped, but yesterday afternoon the crash did not hit, and I was actually doing really well, woke up this morning doing just as well and ready to go. I feel like I've woken from a long daze unable to think clear, unable to talk without coughing.  I am really grateful that it feels like this thing is finally moving on and I can move on from it soon.
+<!-- markata-encrypted-source:v1 key=default -->
+P7VKaMBT67MO/HV5XtN/NG2goXlIstSeOpIPpYLq3GXO9h5v6rDAoF/rpPdNJ8DvSOLmNGHa1ZYzcKVNRPUcS5JgduH4OZ5QyQAmSJfA69ySklyvADiMzk4E5cCxV8sd52PkjQCwT1AmWWu7r78zdcWSgC+D23QtYXO5yb3md47XynwSxJE+/cw4e18yfggsYCwhMpzsEs1bEAfqzuXHm6xkeWlGfoIgAYcY9rAIUiyYdAeC74twRAqg5Vp5qgazAJ3eO8bb0ABKMJFKfw8AMqEuu8cX2IMfZA+ZseGr2A4X62EsB//RQ+lpofCxHleQr5U6WrZamS8hDBXA0NlOShyOm6gp7ilzA2vKde402b5AzDObeBa+ETbWP32UY3kEYgtjS3zRAOa9j5OHxTPzOHDFfMmNixwgUE2/y4xuDpKZlfooMdR8+HWR8KaEqcTbzi4aF0z/X2gECisPv/xL/SctE6YvdLL4KBs8zwZwi1IqDnPu13VHU4L7PYXXXCkH//AVRkpwDmzguM2jCGaUzZDA64lREEIoy/3wC57eInJkC7A7VXFy4ko=

@@ -4,9 +4,5 @@ templateKey: gratitude
 title: Gratitude 269
 
 ---
-
-I'm a bit down today, these fall allergies are running through my nasal cavity
-like sandpaper and dragging my energy down.  I'm grateful to have the support
-that I do to take the time to rest.  I'm grateful for everyone around me to
-give me some time, grace, and space.  We modify play time with the kids a bit
-so that its not so energetic.
+<!-- markata-encrypted-source:v1 key=default -->
+VwBXnXegikDoDDhttOARyz89brKwLAsC+RgUk7KfcHFYNgaXpVRwJDNvVry85wH8BRFPRK79YdR7WXetZdfIxn0YiCgusYx4v6zMXOQDd+uc7EIsmLahicYN5KiMtRq2xlG875fVaKqLtezww21RCY6ErXToA+ZFTXOn9jjMC/d0BwJrH8lw+AipICwC8hryZ31CiH/HKQt/VI3ACI2Fy2i5Ug8IPZThTfDa/cQHRmqntHNGtZ2ma0M24GNvZfWYAkZpTnJ/IHZF1C2E9GfcXDYTL+yY0lkXKoZx+QuENwNlCkzRTTQGJwYGPlLG3b469BeAlMtunMQi3WO/Ra8XlBIuuNaMb9TicUnkJ0CFPEozL70YLuhSwX2y0tr/IHEaW52yIjQc2vzf8mlzl6qJHGHDAPu6XVhjISlcJusXSCDZh6vfTVxEmSfwaalVb4Hjp5o0pf4eS9IJXJxedXwWJoMl/7e+8ksYAQMD3OBzIudhDEo5ANAD6Mj0HOKkGitnacM=

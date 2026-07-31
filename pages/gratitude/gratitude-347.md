@@ -6,6 +6,5 @@ tags:
 - gratitude
 
 ---
-Back to work today.  Started the day off with an interview, I underestimated how much prep and wind down time I needed, Glad that I had it.  Interview overall was not good, and this was probably the best candidate that we have.  Not looking forward to continuing the search.
-
-Remember to spring clean your cat.  I brushed out ginger today and oh my there was so much that came off of her, glad to get it off and not all over the place.
+<!-- markata-encrypted-source:v1 key=default -->
+wEgtbwmfUWX7rwM6VDpp65NqO3mo2AfN9sZqzgVXjBInR8ADCpttLWGteu5b36V+4AnM2FWvGk0iaKXfCJPZm/oaVkj4+Uepdv8v860tDFsoRmLGOQvdPIPa/trYEdEVasJ5STirehJMKck9SRgl81Sqgv7uT4WNpi2UMatyZulgslfdB5Lp60MuedMNLqDwq3HTvyAK0ruw9EvoLWXzRlOVATM03KrreMaYSBLRbwmj4XbODKawtkCkadxZY0pzO0JGZ1AdS+6+3CRMalL/8JZyoiclblh2pf0oxxQK9U79RnRAp8hPdE9qAZjaNCc6msBMLAMF44w2VSRb644dERV8iTogGu9KdxDxC90Ra/sWYM8TmSZdbZi6Nq/3ncJfy+bwB+c8bBc9+DXD/Vt/VjIWz4JuueXgoUWRj2P0xT+5KJ2ZAFUudL+48BZkYujrpbbSWMtVyew3fE8BxYY4DUM/JtKGHAwdSyKftmrxZ4ON1J6iEbHcbH4XRn7R/PInkCzpjrSgHoBTid3s2TaLevj+Rg4t6penD07wyy36mhFesidWj1vHtIAGzzIoWexSys/uTVbpt+zSHhT6jfjWq8rYb9itOoCOWx/6lybCzDyzmEXWbFfH3GalmIyofi0=

@@ -4,14 +4,5 @@ templateKey: gratitude
 title: Gratitude 215
 
 ---
-
-I am grateful for the ability to create really cool and useful things out of
-almost thin air with 3d printing at home.  This morning I modeled this
-microphone mount for my desk in about 15minutes, printed it and it worked first
-try!  I'm really getting the hang of my printer tolerances and what it will
-spit out.  I may not have things perfect first try, but this one was easy
-enought that it was.  In the beginning I tended to make things a bit too tight,
-but giving an extra half mm or so generally gives good slip fit for the
-printer.
-
-![image](https://dropper.waylonwalker.com/api/file/bea1b351-4303-4eb5-b4db-dbcba7d550a3.webp)
+<!-- markata-encrypted-source:v1 key=default -->
+6uufFXXvgApibYcuRsMtTSSMQQXKIw4RJw6P4TKpCSdOkhAuU4iWtIlNmRxVxNO2H/oevIfTFAXfJte6WuoXor9fQYhnDOKjMA4/rDUqPMRiOpdo2R1qQk4V96qYsyFT4Mvih9LlNYUU49EADyPEh6zakU+iHgYZvszxEUtkntZDa4h3zhZWIQ7VSgrONQPv/drojAtRkl8/YW8T0P+dLc6e4bs7HE2JyLUjKZtzRcQH22K0e7TGIJs07wORVo7K55Cb5/gy1oqVqgQ8NcYsNNgq1cJOxhMa4nVfIuIe0jm0oCCTENSV+F0DyHMHgplgNd8njQJHosyo57ZMU8nlGOT+ax+xJGYu9n690oebbLoBrJjgEhmJiY0qFk7Ck+0NqvNZi3HkTH5ePUEWS2m0y9TCI/NOBKgxvawMuRpziWGKoyJlRc4lhYig4gyl29qGwiBuR3vt/iYwL/gutlraOy6qIvxtH67pNNZ6omumIFNOg24xFWrsd/C/pr53/aOf5EWtIAFzsMnrxtcMyStCJibsLWUwgAQS5+GmPj5EZrgYyOB4IB0GSwuBosL7ML7sgLsUPwexnq25D+A1YK+RLE08MIEpfQfWjO41AUzLJGUEiRYgNNJAeNl6JVNiWNjw12LwuPXgHJGyvZOpDfXzOdUo6Lj33OOSrYlW/htxCtkKjn9xgPtTUr6GnDKfQiAluyL0HMOugup2f/lta0fFmFXjxAaA3SxShwqmHLuqUsWTG8Ce1CBYZ7qcV50nCMM+acV05FwvzsT3UszTOSMH1KTSR2G7SmFo4G8TGbukvGPS4qzE/j10Z/m2F8nvgOxI00+RrhDSzwqRl/DS8aCVBAYJ2Wbtz923x3GWlc5RHc4dRKIZRQjt5QRcpK9dGW7YvC/a+2lp4g==

@@ -7,9 +7,5 @@ tags:
 title: Gratitude 195
 
 ---
-
-Today we opened up the game Skip-Bo for the first time in quite awhile, Ayla is
-pretty darn good at the game.  She really loves playing physical card and board
-games like this.  Skip-Bo and Uno are great ones that are simple enough for
-her, yes does not get too boring for the adults.  We played two games, I took
-the first round and she took the second.
+<!-- markata-encrypted-source:v1 key=default -->
+lXUqtnSr803adNnNTrQOg9UgSpezniIYuunFEqN8PSBAwWVPNh5o1b3ybkIgCvg8jVc08FjZTpM0dp8REIPf6wc/OItctRebnf7K/ukSQONhPD4ricj7vRHjQlImJiw17yzTAQ5qUfmILKlYYZlMWPy/j9bfzwy8pgeNTt+rUvCSPZgiounXn1VvVtGHqfaz30pR78DYRfZRzemvEbm35Gd/od8IU085AKoWzWgkf5V8w4dTbO3rX9JOIe3XsXdZqkfHj78/W3wfkeWfKere+JMgH4ziz2rX9ogwY4VzNhlBb23CZ7If/Ivq54ZezkTQdiiaKSmuzRMqKwPuSFw2tACjdVEgPPXhWjTs+DWe5v0TFkpjPgWaaHXkI21H1LiUv0beL9J5Wp+wYLHw5vTTtpkjIEzM94opo4ymfB5AYMsUwsYtvJ8tmXOE+HajN3s332mrBIZoBsJTozitG0WmZ9VAs2t//ikHosKuXhzS5csd8nHtlx6vHCmxtbWTzgcrbQcKssgrJdRuBVEzxj4XdQ==

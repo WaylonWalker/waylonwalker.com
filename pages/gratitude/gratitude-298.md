@@ -6,4 +6,5 @@ tags:
 - gratitude
 
 ---
-Long day at the theater.  So much got done.  It's looking so good.  I'm so proud of everyone.  Especially Rhiannon who has to step in as a build manager today with the bad weather a lot of people were not able to make it in.  Big thanks to the parents who took our kids to go play fun games for a few hours.  They had so much fun and did great.
+<!-- markata-encrypted-source:v1 key=default -->
+ujffT+CtJ7zJT2gzf7X9lhlZ3yZXcQLk2c+MF+1r/9P/YnZfKwwFe95vnijJtxGVZZ4v0Mh+8IyUNeAVhnOtgv3rD64/Bd99OiWhii/zFHhg5pq1jNem1lpxi7vwgope11FD7PjDYNMDbKf0lC6WyuntfaGyW5BA4rIwaI1bPGU9dkGdNjp5d31dioNyI1RuJireRehag2USbXonAeo/m3qRQqCIADaBTycAu6uDa0bmePhmkVjI6QhNG6du9duCRWI5bZbBJUhXGfTS/Yr7O2iq3m0wsfPeWFgWLBsH8XIEbywKZ34A5eIfMuNlDF/lgsZNLKdGNYiMHVBwjD4friRvTrvUXu+8Wr1BWScolcx9PP3U/ymIqbXD0AUjnmAgG3WCAuDnT/nbAxpXDnsToI4V9B2WpNErq0sjNQjqpZU18gm/fQdupgcd5TsrSnGi5GXz2keldcDVL2TTAFLDW10+imz+BC4DyC/oeO1PXdm7iQAmxiq1cK0CJ6L3uNuqARxtuw==

@@ -7,11 +7,5 @@ tags:
 title: Gratitude 134
 
 ---
-
-We got a passing home inspection today.  There were comments on it of course, a
-few things we need to fix up, and a few things that we requested to be cleared
-up before finalizing the deal.  But nothing seemed like a deal stopper at all.
-Rhiannon keeps superstaring all the documents within the hour they hit our
-inbox she has them turned around and back on the different places involved.
-Again this feels like such a huge process, I am so grateful that we found such
-a great team to help us through it successfully.
+<!-- markata-encrypted-source:v1 key=default -->
+xgR84LuI4xIQWoNOEv+tpHkhuyH7EvcfHvqbEzaExo/v6zy+IZ9dqlQByeT9XvcC1vm2RyAiG5wWdbP2bjympl0FAl4/HkBgpIdLV4V+d4DqnD011ZVaMcuF1ipcJnKY0gubi2/YoXgZTpaT2y0xtK+0b1+boQYylsF4YSkz+E8wp/pdoNO+LaIhBJORcHcT0SSsJovxSdIGGB5Zy87k8HmykXgctbPL3GkaKhZqOK5txV2kbYWCaEGzrQTh4J47vgzys4P8v7FLq9j3XyIRyAS4OaRsAktZ81pW+LKP43lUKoCx23sEzwwLiOwsjUs6UA04TUxlFYvud7LGI2T79HxpwzoYAvUioLENOWtcmOPg6VJRrfRLbCDlqrVLImjpY0L52dFH447oP4g6e8ECH0Oy35W5uGNc3xW08RzPJ4ed3DtbTL96lKe2VYg8MmZs8MIXNZ9iOeOgq8wk9LM8gLlUwrXIFypvvXyvl4L3y7s2WGOEr7wO9QpWzkn7u5OlatTUGaKnTcUf7djjgFVzxq5NOSo1c4kKazTgd5/cVFJtbrQWN7Eu7m0vGYa45CGKrVFmFsxZNGinK680RMGeCgE1HEMjMVVDF+4a/iHrx8yNSGglZDBSsT4hRXNtc2/xPOhg7O8OR/G+xpZsyOKmHjtFSDINtHiG7eC69IAlGlnB/QrEpGmRylWAGRNxIhTdtr4d1zyvozg8mL6zWf/OBi61Tfjgv2VR6aCd05Pc8ge7fQ==

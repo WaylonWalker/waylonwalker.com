@@ -7,15 +7,5 @@ tags:
 title: Gratitude 109
 
 ---
-
-This is the end of the long winter break and time to get back to the normal
-flow of life.  It's been a great 2 weeks off.  I was able to spend a lot of
-quality time with the kids and get a lot of side project work done.  Markata
-has come so far, and has made releasing new posts so much easier.
-
-It's a good time to get a reset and remember what is most important, and not
-let work me stressed out.  It's always going to be there and stressing over it
-is not going to make much change to it.  We hae a ton of things going on in our
-life that requires my attention, and thats ok.  This is why I am on such a
-flexible work schedule.  There are times to push and really make a lot of
-progress, and times to focus on helping family with their needs.
+<!-- markata-encrypted-source:v1 key=default -->
+iIVLZqLnD7LPKRk/90PXR9vzN4Qfrm3r8kgsJSnuXoCCEcXKIMbFf3NFH86VWYXXYXmbprgg2yNyg63DyV+mcNmHyyhbysd0m0KsP7p8NaQcDg5TEWs2Xaxo/C35+8zXwW07lygoGYw+8hPAuuNoe/dPGEK93SMx7/qu9L9/On+auwH2KIrtg5+w8128uZSKme2XdfvGhRUTnjXLmatLrke06lUSmnAF9SakjO2onvWRRSGNMdrAtAenAI7wQ3bbAFDdb9t84/232LKnu+7oD3cr7sK1efuhBBOkVEVymqFYQ7ZxN4n4waxqQcywxmtsGGKarthc9gWT6H0OD1vUNvmjmgT0tu3/vz0V6wbEQ/TJcvPFmESM5K2nlGx2AxlwcJjqkiijqVNtCNzofC10hQCGdUnLBf5A47CFPYA7s9v3/h/LqPnzo/nqLuw+EK39wpzqtwrzHH0uAY8dgKislOX4cEKTRUdkbSsBdmX88U3aEodMvBznFbCL8I5vnyv+cq/E0egWGn433v0p86f2Pdcl3wVhwtKmg4TODSUygI9tC9JvctaveQZbn+pfQFrpCJPyMPB/f7Y/MFdhPivzEAGqaRpHL0U72J+nWTDRV9F3Fa5cLVK7O8f7NXbo17CNFbu/YQJBofRs3MZ+IZENOk4WbPWIWhShkS0fe65gBDqniylWB6Yci2wKB3bQ2WoJWyL4dsH7AGXtY+SmVr13r3VORtG8u4mAok6itPigW7k62oenYMHf7l3E5ucYAw9mbTsuEYB011atER45+Ae/WzGcijaGWL9lxio0525743mGoR4InXniAy5rVPFCeYmIRQcH/CSbiWHzbOoCOOmKgyDh0/4994+7/wpfdYZOjd8sU/wozeoBFEYUOWn7s1pjrP3LXjY0/r8hHK9lBTtOMK7AqXYPGaD+/f6atjARwV7yqOEMFtIZ77baXTH8CKTXF7zfTPYf10BpeedFatIGpDpk8trW6z+wHdAqQGotO18MBcvE3fQrTJihpNwtsNxYPoz1j2IGIrWqzP+/YI+Zj6rpIe7dG9A=

@@ -4,11 +4,5 @@ templateKey: gratitude
 title: Gratitude 239
 
 ---
-
-Today was a hard goddam day.  I am grateful that it did not turn out worse.  I
-am grateful that changes endured will not have a large impact onto my family
-and home life.  I am feeling very hurt by dumbass decisions that affect people
-I care about, projects I care about, and will affect the outcome of projects
-I'm involved in.  Things could be a lot worse.  I am trying to remain positive
-and look for the good in things while I feel like I'm surrounded in dark
-clouds.
+<!-- markata-encrypted-source:v1 key=default -->
+Dwqcey5Q61R9wIAJGfpq/dvAvf8rCrCHzRDNUEtsRINKLl0wMXoQKnhVv1hN6pwpmQyD80o+9jihJFOr/QT3O4eDi4jdooLeRF7Taxf62MbsS4Nvm1sy1B2XcF0lb3Z9TCYEf5nNr41chgkpBW0qxDg3xQakiTc0baQPJHjEUAmW6xd8BNabDKN2eHEDNW02pKLrHycGH0/wd+UPaD+VgzSePSQlfkENdYgZU8vd8EcsAu544sbFlS8JYAlLn6RbF0klgBh508C34esc3eKVEY+3N4+u1uW6DuHGO+XqRVYn8XKEGK0ONnqvtm6MIkohvyZrg8rTDDGVqnglw7CNNSOI0GjZRqchB8kg15q1LfT273CUTa/p89uWl1MaHeWDNVZhia+lzLwONkbS45oDFSez5w36IUpH2dworUoEjtvTFDkPwklzOz7SlvpjU4ga+3UnQ+IhFrA6leKyOUBa6vXVV+iS9QXuLz1sPIA+kM9wMDL6mNDYRjNTbpFd+3Oywlj3VFB6Cx4vUCrgT9eDtxrGFMknmimwmt+GFNCW9R2AuUejGd/tQnBVa7/GJ7dFRkMGvXGpg+wYNLnlvMyFQryQJWF3boqP9+p6mQKGZUJMkYgsOChOy4NhXSTw+S8Kq7rZoH0824eVJ2E+FcIfQbIpmICz9xsXMM4KlzWx+r5bZoGpaw==

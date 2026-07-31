@@ -5,4 +5,5 @@ published: true
 tags:
   - gratitude
 ---
-What a great day today, we were able to go out to lunch all together, Wyatt was able to be ven bring a friend.  Lots of play today, from astroneer to golf with your friends to what the meme homemade family edition to Minecraft hypixel server.  Overall fantastic day, very fun day, and kids did so well.
+<!-- markata-encrypted-source:v1 key=default -->
+Fo8hQangINXVkWV/uOOAV8FPiSVRJMEcU6NmJf+dr5NXr2lJDuHujCduBdVHS5BG/bEpD7p7uv0EHae5C21L0hDMvHkldvEy8JvquApKcE1AIROratxzjumQNsvhVVmDKDJMe7w4inuVBftT4Bkx3VabGtlwHPVPHTiLeKmqn6h7TkDxzjMRRbR+0Aku2wsdV9i7Q2AnqqE0kJAlU3QQ6e0L5KDYAWV3JNkesJXnwZMh5PNprI08L3qpDP7tRQ+J3Fd+1YipNjwZpNeWyVj4tbjrjDXmNaHErxRG6lR1+0Si/T4RiTTI1JmkJfjndM7xYCRtS963grLLo8aqZDK0vaT1VGcrQOAUBN+49XZAEJ+TbEuS6i+iAMTZFuVYvgOon7R71vIOShNbY68MM9hAF+vgyw34w9FyEAjwAjQ46xjzkvNMeWVaSjT00LRCfL9sCuQDBHpOXXw/3g==

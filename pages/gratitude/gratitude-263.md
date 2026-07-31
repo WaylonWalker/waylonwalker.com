@@ -4,13 +4,5 @@ templateKey: gratitude
 title: Gratitude 263
 
 ---
-
-Today was a chill day back in the office, heads down focused on my work.  I'm
-grateful for these days, days filled with meeting get difficult.  I had a spark
-of inspiration and just followed it for the day making progress on some stuff
-on my roadmap that I wasn't really planning on getting to for a long time, but
-it all grouped together in a way that depended on each other and I made some
-big strides.
-
-Rhiannon brought me lunch and I enjoy those so much with her, so glad that she
-makes the trek when she can so that we can enjoy that time together.
+<!-- markata-encrypted-source:v1 key=default -->
+Nkrc8y11jwBymBdPrc5zqEQ9obk6eaBVmpOpnpoqfGGnKzTn4dGdZLUDdaiR2s91eQ38mvUkqedyeiJDbCnRANYObSbpe9Aksbgs4rjIdL1n7jlgX5pjKCVSjQ11K5rT0wiS6Mo1PGu6Ha4JSNK8imrXvVI3WR5N4L6fpwt4Hf7wYvWnqFkPcXOFCV5YaUkpx3SlTquVLoznic+hDKqfc+bajBIvg4o7ZgnRBbX0cYVRVBYXTS20HjwL4Xqb1GJCBVKv/y2uiOJbUNftp0fkx4YoxlsOvcR2DHIXzAa51DaiUOkLN+4nnEibhw9qoZrfSmxpWn+TjjOyxPlR6IXh+3O2mllaukysP69N12Kp28NIoCWk+JGBg1bPZfFd8mIWIWnoZtt2yrEAU53pEZEHtx7a+MVdFJiPeayPUjEYKwgcZXKBH06de1svmva9NfHh2x4KQACyz/hkIRDEVrb0ca5kS2F+dKheUP7QrLVsaoPxlyfZLg7W9THb2z2kBvF+ToW2+ObcgkaC66ifFGf+V8JTW/3XM/27bbyC5QDrFUFY1wz6vRhs9kPbI8EAmk34Y9/tzdftRjyI2tgxL8N7FDUTvi0o9ezboppnpnYdf43GCTINpGHFZ7aMG8ZTKrNwJKdcPhhowkEWQ2WBBuVguDpTLHnSVntA13qrxA3HX0xsJKQsHwjU5apwkFiRssBC6oW86I5J/B4oqD1XTwTTZQLPdE2GgfQLpWzWnr2NfnC3pJsUSXlt9oYlrGcohqWbEY+L0XBMNoXnCMSfIL8jn0KCCML+90c=

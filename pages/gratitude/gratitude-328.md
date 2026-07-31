@@ -6,10 +6,5 @@ tags:
 - gratitude
 
 ---
-Working on a new set build with Rhiannon, well almost all her, but I'm remotely printing out some letters in some sweet tri-color filliment.  
-
-Took Wyatt in for an ortho appt this morning and it went well, in and out quick to get a wire replaced.
-
-
-
-![](https://dropper.waylonwalker.com/file/70432c14-ce44-4848-8a27-e1e0db209c45.webp)
+<!-- markata-encrypted-source:v1 key=default -->
+w/Bvbny4nSptxT7IES00MwP9JvoYWCLwal7ybEaX7RGZZ5JA26EE7XKLaiKP1q8mn4cbsNnyTKdKci+ln23fzOqGcw0mkkMTxikP3QzTTx/Q1wHF10aE5t1fY5iPpPo6s4WDu4hk2TEVi1brwEtLorg1j5mlnYbx1YtJzLJqqL1SBqw8hHf4UKQwYCvkH5VVCq+OOz2h3PhnJ6CmvDu9Jw6gcDPvUlvendM5G7xMkRyMhlVCeqkFpNNHRS6Oi4+IVNXpHlCnvhcWU6HeqiotEcADxYAHByOcJDQhe5RLXc/AKN2pN9wzdJBDdb+GoEg/GRW+19rseBRoXZ5DKK+7w93+PvIZlS9MtmDdL0c1irKQI++KBvmaIx1PZ7OqcRB7fOPa6YUpKe/IBZrdvRo4WR3rx+8JwXjtABvXYrHGEP98HiDH050OLA/3CZSp6ecgzYaN0dxTAFKf4Rrul6ziG0iD8qi6eqH6bJ0TQj7Gjkbx8EQHg9sQtXUq2g==

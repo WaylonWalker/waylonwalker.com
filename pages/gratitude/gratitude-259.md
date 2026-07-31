@@ -4,19 +4,5 @@ templateKey: gratitude
 title: Gratitude 259
 
 ---
-
-[[ 2025-08-14-notes ]] made great progress on my [ shots ](https://waylonwalker.com/shots) feed.  Currently
-its just a feed of family photos, this was not my original intent, but I really
-like it so I might have to have yet more feeds so that I can keep my family
-only shots feed as I add more shots that are non family.  I'm really happy with
-how the page is turning out, reminds me of old instagram.  I never got SUPER
-deep in instagram, but used it a bit and can appreciate the nostalgia of
-setting up an instagram grid, maybe that's still a thing.  This was fun to
-build out nearly completely out of my brain, currently at work I have a design
-related thing, not this but close enough, and I have been trying to get ai to
-just do this part for me and its failing really bad.  It always amazes me at
-how good ai can kick off designs and make something that looks fine, but when
-prompted to build what you want or need it really falls flat.  This took quite
-a turn for a gratitude post, what I'm trying to say is that I'm really happy
-and excited where [ shots ](https://waylonwalker.com/shots) is going.
-
+<!-- markata-encrypted-source:v1 key=default -->
+/STIFoyKvn8R+Cp41/37bX+QSY5iANYpQXLZauZM9xZgCuCt2o0GSgKChb0FqbsPqDlHqlOPnRGWWb5Gvs7jVphT3f7cbkrX89aD3didRrS7SVqnFWpgF/ev/6qaAi0fP0wAGYJWwgdz1rhHBHwPbuj5vRPVsFRwpdzbarRe4hquKwSWPH+31S+TBxnBAwRxxnWYBn9uo0gLIdB4lNUhZxIRRXcpCtegLSMf5PfDXUQ7NjvyzWeNJHVi9jLg+zIMh9RqaM3jZPlCKGCzpb03uxejNjwyWujg1yPF3CGFXeG++a8cPeVxdnZV73ZBOceF84QK8eGFxv5wf4lUVmPLQk66vZdl0VMdLgSGRTGJV7GorQmHNRUi4hHSV3PmH3zdumHMiVhtZouYMd6Rro0CcKNxqtZV15rUlyhuRvkYd24kYhL+uaFhrxtkqVID86FmxRRiBpMdmhytDuMd9iMF06nyEpsq28tw5vDRrr574qEUvBt7p7PmQ7OQfTU5NMeIaMWOTvswysBzklwq1f70hr0atnE+RKZwP+zXwrwrs2lfr+aPJFkX24T5JDOr30rMhoZUYzMQAaSKSfydwz0v0tSL5G1ShOCv25bbxswTbHQSOFFWABF/v0l9VXgXZQMZkfzJlBlr4CjIdtt33MHDR5+6/msSDYGYH04IH2XsFo8tjfuz0tjp4G5m4Hna4h3F+vs3/vlk4Y1kebSsu9jOSX/UMzRmMmUubX+nW0NiI0noulNO6NqU1Xon9SRjNFefbFH4LnXmG6tqXa4O+8eh2sATB5asNHoSMFV5k1LzsbunurZRg1vb+zuY+BjNGoIQJc9yuolnqfZDRo0R9JLyeDN6KWRSWOp9vygTaF4033YJ63/sij0BrEykf34fSum0A4oXpJMcnptHW+l8jOMkpsNiZN8JwGdNSM3f3KFuQ9Ku95EtIn8kmevGm0/MUJGfrK93DLBTILEA++B4ii1HFScvcldT7d6X9rd8ooItIdA99MksooMJKFGysOWYbs5SAXxUtTC7pXlKDBG8n/ovdLp7mDwYvXWNq+bzKxl6u/91B/ZpuR3Soe0waYp/h4lhRNjnDKRgJ5l8Ba74JcUCmT+0UCJI7AHDYvoJrzRmLxO0cshX8F/PvQX8h3npNE+dflMAZKnF/5iKCsV8RU9K2Wf7KbcgxVx1aeDwrKiqt9H67H46zEKz4vHXlSuOz/0PAGSDt/veuLk29FSsk089cSSxskKS++VVCP5OfXoA+0hCVpc8DcM3vYeHckgQfUDB+hpfSj+QhPWgWsU4XUfkm//AEhFHRuozI8FXomup7dfVNZedOvMRT7D1zENk0A1Uopa13IdosKuzx+h6uP7tiSa6RLF/Rew0mtx0V/FiyAQ2EsT65l7mKre54eX1Lf+7vv1kTcTo2TSaNalLRQqFtvV0erSLZrirzSQCg3Q40OZLlLbBLJk8eWns5RPiIDT4iDjTSO/O0nFn+FcQGzEdDZwvT9/SW5O4fEbRo2yz+dJusbCGZGE5Kkq25Ux/wEMe4w==

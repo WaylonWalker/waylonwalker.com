@@ -6,7 +6,5 @@ tags:
 - gratitude
 
 ---
-Back at it after a long holiday weekend.  We made such good progress on Wonka set over the weekend
-
-![](https://dropper.waylonwalker.com/file/e7cfd915-1484-4a29-beb1-16063940bfd6.webp)
-
+<!-- markata-encrypted-source:v1 key=default -->
+M0jdpZi/VMG82Jsz89AQLRCRGz9ccIMYjFOJmHLvxTAAortYIPLx8QVHgl7102wVPq7TRNj0EpIPFjjGCSgMYaKVPzJTMchjsvMmZz7eWicrFvy48A9P9XFQjUuY3HN9nSruTOFHoUKbBQv0Uyah++eZ3r6QsWQtsD2kDFOqJSNlkm8Kdnl6At+KlyhQ9YkyQYnw4rtuY2zcJv4Jmtio2r1iQMBWEzGBpUbYZ31tQEk3hNNFXOstrCgVnHSAsSBXAgSnx2cjqvKTtkQ00LEMnSXzZqsKuYTpptZHgMDOBm8ElU+ykPs=

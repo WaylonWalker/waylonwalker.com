@@ -6,4 +6,5 @@ tags:
 - gratitude
 
 ---
-Ayla got her retainer today and it fit !!  We've tried to get her expander twice now and it didn't fit both times.  Her teeth are moving so fast.  This was a great win and hopefully helps make sure we have success with the next round of expander.
+<!-- markata-encrypted-source:v1 key=default -->
+y/14bol7fTD4fdxKolxcagQxf4xqxvApqZ0t8445htPLsRue5uSnrpCqkAykdR2jsJHMLdCAYpAsB82b5dF+sXXaC5sSmd9ZgdVVFYQz9u+ARPCRq/DKez0+BlzbuFiMnrYH4MFt2eRoXmWvitqGCCHV9vSGqZFMKEL14NF3CDBgXghXOa91tZ5lianXRkkWShxH+lbPWDXXmsGlqFrxDAgAEWWquH1xZ264QnnfS9cp8BWswVcXlem6HEpf91Wlw3pwgDV9+Tdi8f6fZvZbMPepeI4P+0KyBvUs0yxCcq5YroK4oTDd/UB0C+SDTPv+jJv77l3+IE8WSSLZ3hQQD93HrpMbCjrJIeOQRkTR3Dk+aBCFwnSOZTycTuWZGmkh36E=

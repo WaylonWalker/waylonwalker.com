@@ -6,9 +6,5 @@ tags:
 - gratitude
 
 ---
-
-Today is chemo day.  Yaya start off with the sad note here.  I am so grateful
-to be here with my wife supporting her.  Some days we have to juggle kids and
-work and everything in between during these appointments.  Today is all about
-her, no worries about other things.  The appointment time slotted right in with
-no issues.
+<!-- markata-encrypted-source:v1 key=default -->
+kHXVHp5fGm3mggK0Op0Rrnnzw1apMl0arVDWfwTjQFA9BO+K+MXTkCscIR1rdeLqzARBkPhZaJB6+uSj50GZwRsREX9qkt/k21vxqsRoNpHbhH/E4PkKYbyCaXS9/XX0sqRRQZl3lUk70AWVJPo/Y8sYipYn0VH7UE0ok9DN3L9jK5QtrGQOwpanKrR8qFyu8YTkmOGJbv9pJHlfkOhMDc03XvqliqN/L+2lRGV+rqCt4GgWju0JswlrWpGTs2ZChMks7q3Yt7TMzBR16koepb4HwzkMa5SDW3iUqNgScrrnigAyOVx+wRr7lLTy2ncFnvFbI1N1P/ImrLdCCsLzO9V0Lo4YuFME/Mxp5YZ9nskbmp9w2XaHe+c7Nv69sO0G3H7aaaX3PZnpmSxoll5SK+7YRm3QnkxkjDaD7fkkNRRHhVOWckN1hv21mQfMrsbmXeizaIW9OgT3G0UD6IRF0wQXSVSihQ7kKBklxY51u0ARkw==

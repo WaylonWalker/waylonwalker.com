@@ -7,9 +7,5 @@ tags:
 title: Gratitude 153
 
 ---
-
-Whew, an exhausting day.  Packing, running with Dobby and the kids, and fully
-scooped the drive at two houses.  We had our first chance to just hang out as a
-family at the new house, and it was pretty nice.  The kids had a ton of energy
-as one would expect, but it was nice to actually spend some non rushed time
-there to really poke around at OUR HOUSE.
+<!-- markata-encrypted-source:v1 key=default -->
+Sz1A2JPxuo2dot2PMUzXW/M9skzalMIiXVHqHtAGNXfNZgBxNC9pnCEqmUwKhZxlAG526WOPj0UYgb5tb7n5bYzwoKIJVmUuxpneCwhvFHAZnT0B7/qBll6NeczZoQePyicBoXsGXKl+Ia8cBuk8v0VO+ElRASjL7ikVzl2C98ooL2ghLkXGdd0SniFtvVihOg0qhc71WIbZfQ4Dg5ZAsEYEocrVqaS5Nvch7dvP8tthq4p0TDxQLoQcPUoYvKZDlSOBGxugM+3K+obnxuTzr5KESaIEJZmHiNkWX+C4RFvWWGC0nAYbblHwwDZt8WXFmNad+cyWS49lw0fhYI57VIe1f+yIhJMoIyOP+7x1v9PPUeQhkqh/xSVmI0Y1UPuWPxN2j0trF5J+P9VgnS2lklugKaHIwkcMzhiBLudq4Y2ficTZOgraOC0gqtnZ63deAv6MW5KVmENSAHUfvqZWJbFsJo/ubCd7yksbzrqOpgILYQFjBvvWRPCs3ieEWdfj4sId7211ZLuij0vXaKLNJw==

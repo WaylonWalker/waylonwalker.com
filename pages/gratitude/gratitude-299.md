@@ -6,7 +6,5 @@ tags:
 - gratitude
 
 ---
-Elf houses done!  Woop woop.  We've put some long hours in at the theater... Maybe till 2am last night.  It's been tiring, but they look good and should be built to last year to year in storage.  So proud of us.
-
-
-![](https://dropper.waylonwalker.com/file/f34e94d4-c6d4-4a89-96f7-14f67c954307.webp)
+<!-- markata-encrypted-source:v1 key=default -->
+BV7sA3lIJh+vVQDXcNOpG/nJy09zonGX82vyPBe9DOavzHW5Nab8ld8+oL2mlxqal7fIsZ7Od6juHL+9/hHS0uV2OtLo0ZN9mFtlGLU73RF2PqTaIllQrhpNxZoEICaat/2eZRsD9zD+G+QhajHUh0gvAZkaqhURv4vHrsDgnh03qIGqy2vZYPgD3izqEi+BUVW8k6RB/hoLnEvUUg90VACmLzr2nHZkEE9i0mPfxehgdkjtKgC3huagVTavTlPupFxCjtLdO6y7nFCmBI2aEby5lxmaFbO4zJYiNCUuENIxY2vlEmYk9Q8dLPFp/ZYC8AhUIv8cUYOXtdHmZ+MW4nesjRLIyIUbzPZnj6E5MFfYPPgs4WUzeCOp+umY41J1cg7S60AMLEbdnVvA7AVTpYKwZIVYh3xHwZEdbc57oL1yOEmPKJmOeg6bak/Rt35L1kZugj5JdA==

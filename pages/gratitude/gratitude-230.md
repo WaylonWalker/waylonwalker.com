@@ -4,11 +4,5 @@ templateKey: gratitude
 title: Gratitude 230
 
 ---
-
-Today I got my work notes ironed out and working really well.  For some reason
-a lot of the ideas of  zettelkasten really came through as I started building it
-out.  In doing so I needed an inlinks system setup like obsidian, it was tricky
-to layer into markata, but I got it working and am excited to bring that work
-over here.  It's been a long time coming to actually have a good system that is
-not tied to a OneDrive, or notes.  Markdown has become so natural to me over
-the last 9 years running this blog, I don't know why I have not done it sooner.
+<!-- markata-encrypted-source:v1 key=default -->
+mvrNkfBB8N8/WJLCgXdXHqBQRXXGuwjq53GpxeQMVajh3jbW81v54Hw4Bo+PcDwViPzekU2lNawq2Q4JDTIel9RPZEoZn4lvsTzIEiOSHvHWCu9lpRAEUz86Noc5vvaIP8LtEvN6Zu024HtvRoow8y3Cwtyloj/qJA9bObvmAUEaabmHBKJa6ke+jKfifeI6dszoT9yLLcmmmMVbGBLMeAykYG6QjFlMOciwybmeNAIetcEplGBsLkweNm3Tyw7Tmb+LEqYWhCjwS6lo8RiBhBKnxCXRIqd9zTtr89Gfqa5G421mExYOp3taXAFPvcBtM389BNQ/6QRgE8RErcL0+wOj4ZQiivFC4nXx2hnep8nyNDronDtiDOZpProlsyUlZ5iUy53dQBEcE6DuzgsMt+CQtdKscc7YGlF+nKSLgFj4TjgCFR5JJ41cdwSGlmBuO7So8tNPVo875U4Ior9wNIELnohfURBGm8GVc2PPYOtVOe3gDlffiMm1PZOXlgdok1aXys6RyDEuXF7SIZOt2I1uwisA5jYN61njJq/x9lyqMRaDGlkgIC2tJ0EOuwY4U/lAPvYciWCZttvOlSmhQLWT7tikbva2H2h1BN1SbY2FaUSKz98OLaBhC9li7NzR7Cfb8J5SDi0M9Dj+9eDVkmtTlIzkDKBaKyvzCTFQVxVO5XBaNcsucWHnQRDJINxG1vlXIhoxy/B8Dkku4m4BmELGMVG/EqXcwPBvcqDQQ69zCUbVeRy3rmXE0ZndrkevWovdb7/v+sb2Xf3ut3tfG/uhrn3IwNyl

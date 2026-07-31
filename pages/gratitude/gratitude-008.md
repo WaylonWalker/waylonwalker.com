@@ -4,11 +4,5 @@ date: 2017-12-20
 tags:
   - gratitude
 ---
-
-#### Strength
-
-I have been getting back on my feet after a long turn of a low mindset. My wife has been my main inspiration through this process. She is working very hard herself to be a more positive person, and has been for several months. She has been my inspiration. I have started this journal, drinking keytones, tracking goals, keeping up with email, trello, using pomodoro, and started working out. All of these steps are giving me strength to keep a positive attitude through a very rough time in our life. I am very happy with the improvements that I have made over the last 8 days, and glad that these changes are giving me the strength to keep a positive attitude through the day.
-
-> these steps are giving me strength to keep a positive attitude
-
-After working out for the first time in a long time I feel great this morning. My body feels stronger, I have more energy, and I feel that I can hold my positive attitude through more events in the day. I am grateful that I was able to get this system in place, and I am ready to continue executing through 2018.
+<!-- markata-encrypted-source:v1 key=default -->
+IB5U46erA+b/QKiUp7Slft0YLwcOPoH51+8gUP/JTPbkvp8efS/s3DWLU702jig3oQ2QIDgQMoRpKrGbvjeZ1exsHvST15m5OSQ7ZIxX+xePLSm4RBDOsQjGB7J7GmzmTNl9D17ipvA24WsJeYlpL/U1+aT5YHke+ttk+U5AglY0PIFmPAu3bz3mA6tqg1326q/ZxjNTfYT/Wm/PIShx0pA/NjxldV0zaQSN3o0NPd0BqcriveivFphJkjX/ClxwYC3RLGl4DejWdQ8A0nRmKi3ikqgvlKPvFCR1PP9xXZhKToOZpko3rl9JEZK+7rA9an2epUIazkKvkR0RWXyY2JWby7KNtCn8q0rpACew646solL0VJehYLjguA07CKb9sYa8rfw7ZydaZX7+tVtcWWc9sUR7qQraifGqDJ2BPe1AkU83LO6hWMD/EAKXNXNzH0//V1ELm1ifSEpaCq+h2EJ8sSigB/LFQnc/xMIYIyl9TDq3WcDOAoLSeWoh66+lp3/rxuaEoK2a2de0oVVweXlBzHp+AZMaofZccEJ0cItJ/UoFZCWOwCEdV9c0cTc0nEbdP0e0iInnwgjQoJOtI9aDYArA6yjjTWROn9GyGy0FbjS/uf0h+hrZUsSVerXFruM+V3D2kpz0YEK0E0JcvTB6FqXHVb9tbUx0526jOhTWTyk1pkrb0u3X1QBlNn01NId1bl3Z8QigiSOhDotPL0RuoT6/tlHx4LerjiBFz2bO1z/zlqyQXL5Iz32aUEGOi+t3KrCUlS7gGPZUmnlOyKmeF+1uGbhpWnYwP1XMGEDWBHG2vkHrZoWDwAe25RRzf24mdusrMA2u2aTXkiQxCVupD5qAkLPN0V619i9ghNcuaGNjydiT+4NdtKz7yyHyG8fY3vInFsWT6Um3ZND9FoP2bXPGaflegniARPSJXA08FSSeww5iqV9qi8yt5WRN2MiOYWckuLbrLOnxs8tTm42QhB3dUOvmnJ1Dl9DMoGUu4ByPMdih/N2Nh4mM4t6yDrA2T15z0J3XFcawafQizx322e528C9yYJ8wIjtx/YK2Y+h1xjbxdmF7NeVogjLDjCAL/SQWeGin6GCai/Wd5YsxMHV1lANqv01QBcgypDIOWjZyqkQhpB8xwN70MeTaPxQ5yN9n9agI70kumYWgPSMdVGEjm8J19D+GFvVD2XxbUlmJ2ye6Vfhc0bdu9DvOoBmMwD3CGDaRg39qWDmSC5tfvSIK0fNiPQ7HZtkgGQuap8cJGNxK+pQH8DySUyI1PuuPfUsYrnX9sqmZoLPciLu9ICVwdscVYZ19bh2WAMJyZkiYkZb+iLR3H44w3wk2VGCE5pQtnecaHn2vz2HUOE+UtaOIyl+8GQuZ59Y1AdfUkE681SfefVI5b/yLS7yMQIJBf++J7sm+S/mhSQrSVYOOk/wVZ9AB04nZZATkx3Z9v/R4WHFFAjx0kWN90tbi/KZdnyWTunAKRtXr1Ks=

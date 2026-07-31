@@ -6,22 +6,5 @@ tags:
 - gratitude
 
 ---
-
-Today started off good, but the coughing is kicking in this afternoon, its a
-bit rough.  Glad that the energy is coming back more and more, but dang some of
-the coughing fits are rough.  I have all of the parts of my next keyboard
-printed and its feeling good.  The one that I'm on right now feels great, but
-this one is really going to feel nice.  It was printed strong n slow, and will
-be sanded down smooth.  Its going to take awhile but will be worth it, its
-going to last.  
-
-Yesterday I got the flu shot on top of already having the flu, not sure how
-they double in, but woof last night I was tired, got to sleep early and slept
-hard.  I woke up in quite a daze a few times.
-
-Today after work I wrapped up my latest [[ shots/heringbone-fingerboard ]], and
-it turned out fantastic.  I flooded the bottom with uv resin and let it level
-out, then hit it with my light for awhile before borrowing Rhiannons nail light
-which worked fantastic to cure it.
-
-![](https://dropper.waylonwalker.com/file/1b7f257c-5193-4b74-b768-2fa4a7ccdec8.webp)
+<!-- markata-encrypted-source:v1 key=default -->
+r1xlSPu4Y7VoMxtd7JybYnOuGP3rJF/1Q7ff/PPN9AXlvZefnQuNn5vJqjQpa07fpQe1MktqHdvEuwR9/DjR6y1vxXdgKGgqndwz198vPmS+P6uxIPU5kLKAmNw5y7m3W33MyOH4ErBALFBN6cczNaP5QeU0z4NZ6jJsdPaxzorc46rcZvP0aUDPZkogG4CFIzWAERMSgwcCfRajZpIfOxBGjUvNEuBj0QwYA4nVr6mWlgHS97miVO7Hpc6OOs1xr77avn6aAx7Zr1kUXrKsNVOgm4qgqcAr/4zr3WLoN9kcsy5XwJqlM1mr8KCwMjdFCamoMCRmBz13/H081PtM6HD4f8nD+oM1mMvoQdEY0VsykJsuqqv957n/JuR6yTRYWQ7GPmrYkeeZsrzTaYRiTdhOtptwbWDhgf4RkfhGlijS+UHtlGJFHRBGybivgq/MZa8vzkVA/Z6+o7na0ZneYJf+3fnddhofzbS+5ZWnoTyWMskc6hqXXh/DU0qZm/HnDIqVigtLArvB/3AT2GAuboZ62Ua6MLB1tBX0gtxYWoe4/TP91AXWItFiYsI1ZCj87NBzTGuRN49zT/5BorWLC7TiEKg231EE4d5X/tY18r8MempsD9F6uzQqyxG8mmVmzJSd6yC5FfHgA5Q0CVcSpcAZ+wluiHMuZHVROrqol6P0PJ4HDFTnOGhtOF+aaQPOimFH9Cahrsv1M64XKlMmTuqvHv0G0qgcRUGFEPcukSTlrVAYIP1JaaCD3It95dLWris2C21JNcWGPXm7z6nzBnhhU6ndVl65Hr11oMBO4+YZqoxnggxy5FtvCztERrDjlo8MWdMwrpzVlnCmQMxSVoWe6SB7L9D0V1nn/DSr7sEwzKYbd7945cadnnHDyNn2ErxdxbYy/8tq1GqCcChriXSwi8tI9iSIGTlkKOBZMFGXDd+P7f7dp0Q5gsGLe6h3EZM9xehJgoOpTnHkR+zL/+QDlxcb9vcA1BAqP+tLhm1/WLI+YHSPQgTAu0+Cqibvc3W/zeaPFiteFaan/yY43A11xEo56wrOUAIOofQ54nVBDZFNfF1QHME9L/u5cISndvq1xO3Msh1kTwsX0c7om9WcRfbW/k0VxXEmV3oDbYSi0/qwM50avmgpJx3bW2vZmrhl6t6eYPvidnZU3zCJ0scblbUlGAmMRvzbOC0osUieILTaKf6gt4K/M1dYlOEBOEcPH0F1R61bkw3SpY0tLoCmLRSX7gNjey8xSnMH1fjpVx2DIOmMebdINN5cJZkHlIcqTFCvF8FJ/aN0rCialfoBXfFMEU25tEc33tTNtu8uTwLYG5P9s9DppTX6GYc8DQny0pqFi7RJB84N3bd8+2eMRrNaDO3PC3ZtwQSrt59FaKHaH6INijAudOVZiBELPkP137I5MJQXewGN0ALl3IsQ1ZDFOw6anzFZrA6/

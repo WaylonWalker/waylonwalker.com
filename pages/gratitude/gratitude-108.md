@@ -7,9 +7,5 @@ tags:
 title: Gratitude 108
 
 ---
-
-What a blizzard.  Wyatt and I braved the cold, had a snowball fight,
-scooped the front sidewalk and just explored.  This is probably the most
-snow Wyatt has yet to see, it was magnificently beautful.  I am so
-grateful to have this time off each year to really spend time with the
-family without feeling like I constantly need to get to something.
+<!-- markata-encrypted-source:v1 key=default -->
+2a8QecYPH22dSHXE4vA53Z2i2bSL9EWtGwic8odHg2Bi2N6gvPQzozO7vZW7YRkP8ggmxXRRWR3oR/vsV1OQoijrnY89rnuJJNvMJQXScZYIxESgsJ8V0zfgWGvpOcpdJfIw2NwuXqeXayABo/sl8iN2f6gau1d2nm6iwFk74Zo9ETle8SPba2ZP3xanzNGwAC06LGiQwOTQ/XRCbIqxoeWuNLGWNbYliSanktwVDLLo6gKyEmdfWn6qQqg2eV22SFHjuNYqJnveLgZb3jLhA3okimH+FtoVvLgInWMB4Bx+qlMMVZqILwJNAnkDLcpDMevTueuwW9IdjSUdAT30br3g9WL60YGzfhxA9NX21EcHjhq5/zHydGXwmF9ZV7mFGWuEa4L6Z/673Uzpr24XFfg4/MBj1SEiZKRR9I48Ehn3Z6QbfQfWAO+b2FOb7LktG/12g42z2vUlmr0ns2CP7/Ax0NQPSUGKR170wxkX67yqQIlhSUCWdwrF/lkMXF/GPeCMFDM94tk=

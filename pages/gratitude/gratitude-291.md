@@ -6,6 +6,5 @@ tags:
 - gratitude
 
 ---
-Last night we took a sample box to the theater and the director loved it.  So happy with the progress that we are making, and excited to get them all assembled for the show.
-
-I took Wyatt to Chuck e cheese for the first time ever last night with a friend of his.  He had an absolute blast with his friend.  I'm happy for him to develop new friendships with people his age, he is doing so fantastic.
+<!-- markata-encrypted-source:v1 key=default -->
+5TkgSOUQZ9n3wz3f1ryHaVtOGlZTpdo+z0/6QkTlsLrLQonthFtbDABQyJuW2boYYHHjsuF4q1yoc/GUVnoOtTj+c5Fdi0VqT/ENQZUMkdf6DeYviAIF0T3LTMKcImFvLJXPxt674wGi2MYKSG/IsW+ORp4raVN4Opse0faygy8Pdpfr0dYK3Gw3KkMZMwsX/kWlfcyR7bnTBux9SGr+RggAYNWRlgM8E4erNXLsjXRHDxDHak5fv/5DOBbr9fu2IYoq1StPXcAahnFaKCTI0Nn97J8zg+2043r2Qoqa9gjVygLIHc4rfj2Tyyap2LJVMhfePEdaJqqw02LXrlnwi92UzXoKddBEBS7pBpWTAFN+h21nCJNJ4/rfmcofGfuOA58dWUsTMPvqViN2lq97/zQGFeoa55yI3t+hMoxivkYruNulH51BUp7RzhL9KNdJvY6/Vp0MWnmTk/bvhEC9EC7CF7KCSIbMOGuSVaOdi56L5wvBzTSCE3pw+UB9VLABHYYPhSCIFEPVH7n3WGBP3DlyteUUn6dMlI9HQ1rczFiejf3xF2i1ufcR3RhKLrP0U9Vcwcjgx9jW2g==

@@ -4,15 +4,5 @@ templateKey: gratitude
 title: Gratitude 242
 
 ---
-
-Today was a battle of the pharmacy, actually they were absolutely fantastic, it
-was more about getting busy doctors to submit forms quickly so that we didn't
-miss medicine doses since they accidentally hit not approve on some forms.  At
-the last hour of the day we got the pharmacy to get us a few days of emergency
-fill since it is not controlled, but by the time we picked it up the doc had
-sumbitted everything.  Seriously someone needs to build a better system for
-this stuff, a lot of it still runs on fax.  I thought fax was dead when I was a
-kid let alone now having critical things built on it.  I am so grateful for our
-pharmacists pushing it through and getting it filled so quickly.  It'd not
-necessarily their job and these days it can be hard to find someone to fight
-for you through these things rather than pushing you down the line.
+<!-- markata-encrypted-source:v1 key=default -->
+Gopf0sGDly79lAV66mNehWTJkCdkHRQ5/gcjDdYtT6AxEKk9vsBAx+tu6lFumtiFQgXA9d9Ore5DrA49nWKj+hCc7jSH9NZOG1APDanVKPxf75v/745mBpShs8/MEf+Ljppy4QBxsIVxT35ZGOsyZlg+HYWilU18grd4fMZ9uNdyE3uP4T3csDRaVeL4vysF8PxGggvvziBFaqVX8ort55KaqhSpjMSR+HhFVdspzS5ahsh3rnPtx584tGiPHCgCCPWuLsobkGsmhHBVj7/GrwdbJqb2e36qnGcTdnNF7iyN3Ez11k8jgMqapdke4me5zZqicic/YRzyUWbh5StY2LUJN4a7egfW7jIW1vdSpaoel+0kDUsc3p3w6bClxXRja3W77BY+ndbLdoAHhb3CNgIAGDUlLQ15pF2YMdndlJLUImrNOIOstMx1p3VP1vSd+65+mlK8myvtabRz6+SdPCXqFM9vqeYM9+SJv4KR/57op+XdCy/OSsmLD4wz3VedLUecp6jzhGJlpoDAs+YcKEGsARnrOGc4o93BEMfwP7CWq7FCWkD5Whu0Q7TVI4A6gUFXsJ1fZ+O8PoD4ORPYjgfGuiGL+cJD1h25ho573qpPOLxs7obk5NDB4LystSG3rUWEctDGv6gyIj0r8TxlmB1bR9QEgco1By3lrUqKCHnTFCkfo/xZEWY08LL7xaMe/EuJp/2ksPHAnHCHSfo3xWwpXyh1ABpkqHOkGJYQjNGCN7KA8rS5uqwWy1AtzPwHepw3QZ1D0bJq3T3b7IP89VjVhEJbG097DMOcx5qz/rmyIPHmTE6854Zp4TeTRtX0DEhCvAaAiOenRXVdkep6v5sqDxOfNEnt8Ir/QD9xcu6UQ2pIcswKzHJpsjvhWU4LuiLZy8EMR/J5pPFcJ7hybIB4KRXFug2JCqDNP6iDsfCXhbSZnRXaY73O8rkVt2kUmSj9C7BEGoXb71psBNLEX+Pdbrxc+Yq9TbxuiNOSnNBLg5LIXn9PbrUbBRzCuEgU5J6iTHJc0G5ZE+7nkybt97hDA1zB3LySuhLtJCBAy3PJ/989EvfFmbCRuZqAxBaJupbZPm02kjSjIAOhh+I+1g+x1CZrsNRPZWC+AMg3rAWHcRDkelDg326kXW+ezvusp28410NQ3IhjeiNSbNbMi07FXgNOTaQJ59jMwQaC

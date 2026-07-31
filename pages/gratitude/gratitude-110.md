@@ -7,14 +7,5 @@ tags:
 title: Gratitude 110
 
 ---
-
-Really the last day before it all starts back up.  Today, I totally
-thought it was a work day.  Got dressed and everything, popped out the
-laptop and realized it was a floating holiday.  Well it was a good dry
-run, cause after a few weeks off getting up and at em on top of getting
-everyone their things they need in the morning I was not getting going
-at the normal time.
-
-Today Ayla and I had a fantastic coloring session.  We each made some
-heart eye emojis to give to each other and they turned out awesome.  She
-even cut them out for me.
+<!-- markata-encrypted-source:v1 key=default -->
+0zJwlTKXVgi1YY0BY9a5dfuc74FrMUsLhVx9Rhm536yTIG7UfQk4x39cCwhUJruTxrgsIYHfZB0iBxSazktBc+HaviEjTg1flKxepRUtL28Oq/INYodAjiyqd5bzmvtaPSi2biJYL69CXcHq+VC6giAnpK/ZeGIIDDXyISc5tzzG91OqSzLKEiSQZ5KDnQbjY0+rd4m2RmHSKdfDP348IU+OczarhWaO114jBNS6w3NfBaB47FKKmldiI4qk0yRaQXUrlVg58rvP8OpmUqcExOkYSz6hbHac5nIEODFYwox3TIyD8LgRNW5cKz6mOwXiPrymIKHcE6dxTX3gzC0xyIIx4uMOeg4dP5FJ8G7PLzXSw0d35Cp7+aETvV2vvvB0faJzgS49ETMxbRzUgUyg/Vu5OhISkfMAM9Pu48nAfweuJsr4w32Wvrmm/sKdUSyzPk3kT6rvm8V20icAxK5B8w028OVGYW8YBh/q6S4She6Kv4efs5URXQE2BIiRlsbG8RgzD3Rj+dROf6YxTlyrsYAROSUSMZE8dZ0wVDeYBlnUZKKb8TXKag5O1uFb5jp9oWw7bZVLd/TFUpBAw4Awn+Gxm1NQE0fIaJalB/5/4LwIapnc14W9FQvPMmFRmeAkUEqXM08a2oZhWwoGyn48sAJ24T8rAjrI7lALjmAq3zrWJMd3XymUFgVOTzJ25ul80hxfZwEsllIdfrKJQZoyKmdzhcsuVdoSkkfO//QzTHfhE1guCyvg2bgB0GeovF15y8p3WYL7BcvQihcs

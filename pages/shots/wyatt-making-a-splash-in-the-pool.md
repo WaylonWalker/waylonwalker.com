@@ -11,7 +11,5 @@ image: https://dropper.waylonwalker.com/api/file/e8402e34-ec76-4652-b0bc-5247352
 description: Wyatt jumping into the pool, nose plugged ready to make a splash.
 
 ---
-
-![wyatt making a splash in the pool](https://dropper.waylonwalker.com/api/file/e8402e34-ec76-4652-b0bc-524735212e8d.webp)
-
-> Wyatt jumping into the pool, nose plugged ready to make a splash.
+<!-- markata-encrypted-source:v1 key=default -->
+vzrXYAHsHJIx4zDxGGoG5VbP/7aI73gCHoBNH/uiUgw/9i4meKs6xEY3n4sD6f65sEskVPETAfSvuvHwdd57HRK1VxdeKdILW82OScS7qh3e0kmH04YphsFTj2MayzPAOc3JtcYBKZh7Z3VreUPgdIDO16IbD6cigfcHDASk0qkj53edVAJ07oNwg2fuaCBiGnL4JXQ+SQE6uLZCar6VcvMat6DFN0qKrFaVAVgIiK8vEBRObUzFGGNGr/sj8UtwJzo5iGlY7nNVfLLQWBzL4pFsdKNIbfLvmPQQG5ruTWabstF3pX7QMPDcOUw=

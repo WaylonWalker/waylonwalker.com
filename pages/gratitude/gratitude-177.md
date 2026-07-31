@@ -7,15 +7,5 @@ tags:
 title: Gratitude 177
 
 ---
-
-Getting back into the rythm.  It's so interesting how easily a good habit can
-die.  I stopped journeling here for a few days and used that time to prepare
-for a conference talk, which seemed to go pretty well, and well a week has gone
-by with no more posts.
-
-Today Rhiannon and I started Casey Neistat's monthly .com course and I am
-excited to learn storytelling and video production from such an icon.  But
-probably more importantly I am excited to enjoy it with Rhiannon.  I feel like
-we are at such a great place in our releationship and little activities like
-this really do help bring us even closer together, and understand one another
-even more as we grow together.
+<!-- markata-encrypted-source:v1 key=default -->
+jJES9FfuvCLVM6r+A6A/RvVGm0ix4999f5JWMxnHu7ohY+Ubsf+g4dfdbp5lp3OCqd1nqBhZ8YS4bDJgUIwliYrD0NVvyyAsjVoxSyvBTlREXH7qbiyC156femjxJ8RKksMCm14f5AfkRewztQj4DZqrWi/XOfev6e80aQTv282KWo91VwHuD2EgWHUADmthzoiGpWwwJ2+344cprkeDDbbwak7/9Poe1zFmcATaY2WXSopsFaPcQ0CyI2OZLsHy8iGK6x7TNmp5293QBSMt9jtfYfTr0FFL4Xf2zqL4DO0WrkT63n+LibDuQnHw4mrL2X9BKgJHXM/GFvStxEN7lfkxE1nK/cnl62F5bptGnDnP4owkg2Gu4BUAVzSaTD4iBNhqq6g/pX4bFWmiHJi03wfAbuMzc/XPjRMAJ/F4w8vJX4J6I0pSkjtDZdznGsk86+WUX2VPagxd/krmVs93oD5XLQfoXv7kUcHwMlJ/RQNv6oJ/Vcz7nPoIkURwY4yMbs6BGPjrVhloPHS1z/zvBeZgl4W4MuNRmqkKYvU21CelUJX+oIq0ePInoWn74kl3Lph1hMaiNzb+/7zwRFUzTggpUM9QPTAqrMScieF+nsySYC7gTJkINnSWnR7IetoFcKmdcAZISUwOXFOBXI+Bp9O10c99mL9zuWHaEk3sPvvUysjs8iVGndguodXXVt7aPqGv+tLK5OVr8tosVznGcgPWZK4OmDPfYZcRPHjw8dW3EibNejEG6yczR0Gn8CF6d2GUNckMxCM7+uPk9XReiySux1XANGIMz2BNeEFZ2eKQ23nDOSMPoySnEbMrga0sF9ObdIzES+/OifdwK2lA3GXlz8+YnKxjFZ4EwWLrlVpOIWy7Dk5jV3SXeyv2Wb/1ac4ESjHzQojFDP8EkrTVBWaXl03xttjwI6jvDcODP5rDo7+23WSXVNwa8ihJ2Q==

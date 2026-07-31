@@ -7,17 +7,5 @@ tags:
 title: Gratitude 098
 
 ---
-
-Both kids are starting to sleep again, we switched their medicine around and
-are doing things like thier vitamins in the morning and compensated some others
-for their increased age/weight.  It's been weeks since Wyatt has made it past
-3am, and its been wearing on everyone, we are all quite tired from the
-interrupted or lack of sleep.
-
-Today we met with Ayla's surgical team again.  We are making some great
-progress to giving her some independence back, having daily bowel movements, no
-accidents, and we might not need to go the surgical route.  She has been
-handling the new routine like a champ and we are all getting figuring out how
-to make the best of it.  Despite what it is, it often gives me and her some
-time together where we are both a bit silly and trying to not let the stress of
-the routine get to us.
+<!-- markata-encrypted-source:v1 key=default -->
+AwfXzW3rBdqZ9xsbqpoE+IpqSeMKeWxFGtGr6vJVjJ6oNnzI4KSe4n7XC5dYz6iTmBX8ubSYx2iFm86imI8IY9iUXojDcUJTsBdhv4egEsGAvU+ND50cl37gkWo4MiFgCIhDQ2F8t8PxqIFRwyrgx1bUSTqvc9lwei/JsiUjhzYOmIBaqkOqH+OkSMnqiv9sXj6HkbDk+Tzrpl+ZnZqkBgTJ4yZlmoKYi792VuFak+Pc1f/cGoVCxDIhAHUIWVLq69jfrlQKhNAwIt/YKoLoWv62sLzvkgrBj0fpZmhnnKB92VT2WdhXcUYhFYBNpSUotmYkuJCEdxEt+6qonbR/uibSeQKXaVjXfqQB6ZNs9zao0QdgHvSM5PvhG1KI6M4NVmE71FF9t+kl67zFgvqeAAxe/p0EGlwoq+Urs2IlxUKx5eTgUSWyAkgZFKoCNmnMb8Iw1DaAwHyHZOhpQOm2tONhyYyuG/8OYiDTl9FaQiPKcJbYkwQkEos+Pywu2yArw1Dbcrl8gbGqGs5ZyHZ1bc1t4aJVS9BJ4OemfbEidNSQ4i6tFjqPqVQL9PlAj8NlKXNjeHk4iLDW2y98N6+YEd/8sB8n1bmXq63e8+myYXimMrB7CtuokiEb435K+pvfF6Q6mAPMH1HkN9gjt4+pl8TAY/L6PCTOcwCTQV0AtxfMjEVNDMNe2K9/I2IuCntuPiHwj7voY0LR4IbyyZUQ6BYUg4im73ydcxVd+Xh1xNf4S9IO0hAA06DEumjrND03UXKVLvu8LhDt59kIJ/wwDSn9zfaRNIhNuQhbcNGZZtIWadCSHFvrX7eIK/2/m+w5Js5wFRqUfYtZkf/P6F70vK/tHv0G60rMgaXpJwWMzaEVCfEFf4CvKobkkiJbawc8tNPd5ySZeTQhUOCqn4rZc9ImOwX0UsarsfjHZY2BvmIpJeJ42zkrYd8dret8PccUQurkLo/AWZESsvPaXqeUseclg9rszAK8v1rbmUVEDShlDuOsczzqwIJ5Sju4mpx9paMcV27ug05wpU66TO3t1xNYvpL7GQRXEDJVfC4RREbY7qPS63OtRWp//a5wCsHY/urXbJfb+cWPmJiX9mB6KW4T3hZ16RzAZMI+pPaI6cilLhXFvI8c2drffKwsY+kG

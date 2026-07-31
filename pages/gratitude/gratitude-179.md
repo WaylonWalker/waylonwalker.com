@@ -7,16 +7,5 @@ tags:
 title: Gratitude 178
 
 ---
-
-I cannot believe that I went nearly an entire month witout posting here, well I
-am back.  Habits are hard to change right, you are either in the flow or not,
-but once you are on one side transitioning to the other is hard.  That theory
-will hold up here.  It's time to get back into the things that I love to do.  I
-really like taking just a few minutes per day to this journal and it will
-continue to happen.
-
-Today was a bit coastery,  we had some big highs and low lows, but overall the
-lows were pretty short and we made it through and ended with a chipoltle treat.
-Rhianon continued to kick some serious ass on all the house and installed a
-brand new deadbolt.  It looks super nice and makes for a fantastic updtate to
-our previous old one.
+<!-- markata-encrypted-source:v1 key=default -->
+HeQa1bBbL6by6S0Sv+Pod9hcESwwxEpzzGDQ+DJLMLQYLGAZIfByB49srJVujZY+rww873AMBuYDLSNPzjQt5GvDox+gD1y3OW/lXPT21eQ2n0DkKxRhWcEvq6xnGwsKi+t6xPD7G7LBohp4DHAjMCsKNBVM4LMm1V0iGJ+1aNiFsZFekIgJku7/mSOeGjZcnZtf03koO/ur8PC5CTWKw0ypL/3kEDPcXlozqKVMbOTopdZImXJBnfnMGL0NPUCMJewLAAQ+7Y99gfKb2GvvUM30pVy1hiMicFxgIVfVjd5J1JuN5D3WNyOOT7xQXocWJjNG3E1uErr1/6EUkHNom00YXCR8lQWO1MEz0OJFh4wLY6D7gELcJvW5godHpVDk4VSTQYskXIQWJUoQbWTtR8aZSUvCgurpp+CzPfGLAGf3715BafKPExhsCMJ508aX4ECDEyPnl/HatKDBWO1tcLAJa6j/TNFOOE0XWMAt5cqmKx9J1okBKWDCq+/BnG7BLHOvXdRmwCaho8YQBM06xxwYqQW7mldjCnLAsBZAAcvXm4up5PDmHnWgZdy6y2aprg8cTdF0nrUOObU6VNMFWVXNDmAyX7jowlNR1mXCH32SfcgK9XW8e2QoxmUMWJNjhRvoWxY5kB3xo1IBa+da2qioVDW/Jg1i8gxKDg06c6Mi80b0RNJVyYpBIzdzKYovwk1TB3mP6zEUQwosWa85E3uNzyYjPACsZkQswjXEmd8GjGz+fBqgjkXzBf7h7DkTIAOj2WT28m7n9U/lAgWxBR/QP6xzAfWCVyfKvP/JrfnBiOiCryxtQXCcxLo0XrO8em7BKfC2MLh4lH5OkJfguoVaef89wyF5gUtDkEu1zihxCGGXo+PHv6nY9HpDS6Cn5KlzhsTlOJN5uRsiK1xhfXpAdCvEchhAyROJnTMbE2eVgsl0FHsWcOtsZZmnJJ08YCFJF9lEGOnOezrObaLD88KEHXixDOqsxBuZSIyzEHJCl6Gjqr2HVoI5Y3QsY5NEEz4UI39ZAmo9kunmce4W8OCiFoSVC9s=

@@ -7,32 +7,5 @@ tags:
 title: Gratitude 180
 
 ---
-
-Whoof It took a hot minute to get this post started, my template engine had a
-bunch of breaking changes.  Today was a therapy day for Wyatt, which can be
-quite chaotic, and it sure did not let down.  He had a great day leading in and
-through it, but afterwards is where it all hits the fan.  Today did not
-disappoint, and I can take a majority of the blame here.  You see, part of him
-and what makes him who he is, cleaning up is INCREDIBLY DIFFICULT for him. Well
-complete basement desctruction had happened at some point through the week, but
-was just discovered.  I generally help quite graciously, at least I hope I do.
-Generally I try to pick up the best I can after him throughout the day so that
-things don't go too chaotic, and trust me sometimes it's a lot to keep up with.
-
-Currently I have a broken leg and its not so easy to get up and down, so I was
-pushing him a little harder than I maybe should have.  I really just wanted him
-to take some responsibility and at least help in some way.  I did a great job
-at calmly talking through it with him, but I was not able to help.  But we only
-went backwards, more legos ended up on the floor than were actually picked up
-and more cardboard scraps were created than were picked up.  I stayed calm and
-did not push hard, I just stayed with him and talked to him.
-
-Where I failed is communicating with Rhiannon,  you see she was down with him
-for about 15 mintues before she had to go.  Once she left I gave them both a
-pretty gracious break before we got back to cleaning up.  All felt mostly good,
-but what I did not realize is that she agreed with him that he had already done
-enough with her and did not need to participate anymore.
-
-In all, its been quite awhile since I have not just simply picked up after him
-with very little question.  I feel like I learned something from this
-experience and hope we all have a better day tomorrow.
+<!-- markata-encrypted-source:v1 key=default -->
+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

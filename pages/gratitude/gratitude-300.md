@@ -6,4 +6,5 @@ tags:
 - gratitude
 
 ---
-Dress rehearsal all done and dusted, it went almost completely smooth.  Everything came together so well.  The set looks amazing, the cast is amazing, the orchestra is spectacular.  It's been a lot of late nights, three more big ones to go.  These kids are tired, we are tired.  But the show will go on.  Rhiannon really stepped up.  So grateful for everything she is doing.  Im so grateful to see her shining at her skills.  I'm so grateful to see her get recognized for all the hard work she is doing.
+<!-- markata-encrypted-source:v1 key=default -->
+XCWnBU+WB3gFr8t0w6PSMbyvusOAFRmd5DLgXjlPSkGTvR3oUhwQcGtGN7J2Hvntwhg+G8zv8h9bClS6vBkow3NxtHkQbvM98x6mablEMr890W1OOXYmHoNDAxPXTM2smFnyKkf/a9trMSPMchnBVEAle9SWLptNbyFMXYjFlx14zVqCyDwLYO9Ay/TyLKD7+LdsOeZX/61dDjXBagR8FJix9rznAPQoqpY1JqvZPFeE2jgoibexUNvQMoQlBtSFSNyyhGuYToyRGloBFl9ZznpnX5NK5bcZkPIv4V9WuLLOHJ0CCYoaIdiUrF4Yes5YRmPB0XYZo94HRi2fr08IHmZmMDF+AfsGj3UJLOSIW/wwE0rOZClH7RNZ93KI02HEmOnyM/1BsLiFcTy1+s2zDidtQ3nhIQ59pjIo281VlQosjWj8Rcz7GUS+toDKhnnufgKXwPhvw7N5DN5e04tcCOkv2DsztXeTZ2aelUnFHIgctxP/jKLlv1nYQA3y7CCTaYItt11Xsh0bu36R1SqOL8Nuvq/TThdAkqWPmicfpCJ2rHuKMWfDqwJ2LUakgxSnrnydOXhP+FdTPqs9lArIkuKpZTJba91H1oRYoD/u7rTMvj77w48zxpFOyDh20TngzYeHhgOtXOWQsFP1FC1xqWov2LdF9RSSv4UV9Sf4Mt1LrkJsGGh5jnd6M8baIHdVn5yunfXmXUEH956if54PRVGKSQ==

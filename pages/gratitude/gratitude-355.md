@@ -6,4 +6,5 @@ tags:
 - gratitude
 
 ---
- Today we got Wyatt from school early for a head injury, everything turned out okay.  So grateful that everything is okay.  Grateful that I was able to take time from work to take him and its not an issue at all right now.  Grateful that he will be able to go to a calm house afterwards and rest as instructed.
+<!-- markata-encrypted-source:v1 key=default -->
+DE2TgIFpDrC28+bs51jntgY/VYRVjzjUlDttNyMr4glKR0/KBrvtBTCL6Nj8kenIgAGHkxoQFrSKDdDfxgqfBRTZZVpLELtBEyEQvQAG6wmAvmhLs1Bu8G+t3tG7xWdH8P+YTGd0aVv2t0OlxpYHhdtW5juPmNh3wEGIQ5iN63Pt2AxUqZCO8cw0uezextEd+jHMlEg+fI5DjpX0Gcoop5YE9kqYtGjkHTq57orlIWfBn5oz7Esv5CBJsQdEpOfbwtafEoL5Cw5aQbOELUJc471iRo5sApEGjRPXAqaoV1dOJCTsx8u7B+1fV3RpYZG+wR+vzQT8mgSh8sZ6iTuYT+b49iM+1lRaJLkbKgCaO1TxPf0LvUrq98HcRuh7E8PBa6lKQwcGgnMz65ku6F3MPtN9c3R7A0oXVIvNmdCPKhWsCNfkM8CZOC/u2aKXKgfBAwjeh9bk3Yz8mQz0BIT/N8FC

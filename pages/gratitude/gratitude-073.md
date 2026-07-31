@@ -7,9 +7,5 @@ date: 2019-01-15
 templateKey: gratitude
 
 ---
-
-#### Great Friends
-
-We're officially moved into ouur new place today.  I cannot thank all of our great friends enough for helping us get through the move.  They helped us get the truck on the coldest and snowiest day of the year, pack it up in the snow, unload it, and return the truck.  But they did not leave before helping with the kids's number one concern.... **bunk beds**.  Last night two of them pulled a very late night to assemble the kids's bed so they could sleep.  These kids have been talking non-stop for a long time about these bunk beds and they were so excited when they saw them.
-
-**Thank You** everyone who helped us throughout our move!
+<!-- markata-encrypted-source:v1 key=default -->
++WxNBGqGJexyAQGfKKDL0Tw3ykFJKDeoqT6oI4THOYcy5dRKGZrvgdz9KLjH0qqJVC0CclbcDzkJ59iKIQZOH/GSK9dwdsuTLTNtEnHgFg5ZHh0cug9ZNYlIzbu7AK+seBYDktCKRSdiB/towp3Gnu+WghGzYzAVymAof/qqC1Q2BOLXXAZ5uwD9Ej0ufCseIq9WllMMHkhzuEPQn3e6sUXpFfAbIFoqFYS5dxbxheAGAuWOnVR702+SkuYZk9vfbu6WmxsphV3I4rHdHeZIPiui/NQCa/6VNeGYMszXfx4TjwihTdY5zbnShgvRAbEq84qSfEpDxFXLHaHCZEg8c1ptMOvd/xJif25hXHiXMpax39XQd8mAQ6MJzWsrpUqsh6JTkEMEsbO7N2o1/Mg/tY7/bOSRdA4wQGW04MGQnM3MSe3kGtGIJjD/0mVi7fpmX66rw+G4VYI+9ecCDO45eiYerchz/9B2bGGSXs1YV/hi/TUy12ex771HbV/8Lyqe/jj1IYqXWmCKSpmGLKPmX3++ircX9FZlFlg6mY2Q7MQoLYNswQB3orDvjdh/M3sRWxM7DGd+DXiWKJPaJzcCjhj9chocbuL3kL3Ipt501/NfZXompdX4R9aQs4eMDdH6OQrlL5kuOKvki2Fy0y9iiDjnnhg1c9YR4wQzx7YqWAQ7r0KE1CQkFbuqEbyivsvwgqGzGF6hRRZonEc1OSiD35li5RZuZEcSwjA1GVpxgxKCH6xAXsPKwjbL6L3IsIzeV+XFUpxQBW1Li200CoqjP2DsIzOGqQVCmPSPHWAdGfWDX83aBhkHO/UlGpP0D2a/DGlCleCidUHLF1l9T9T8bh77GYsv39YTjO52btJf1kVJf7kNLOH2BuC/VRDPmRyBfsGQk4US8KAyod/5fiGTdH785oxBaBnsdwlWa1PW7g==

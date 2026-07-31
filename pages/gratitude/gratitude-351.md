@@ -6,10 +6,5 @@ tags:
 - gratitude
 
 ---
-Snow DAY.  This morning we woke up to an unexpected snow day.  The snow was supposed to hit us Sunday, and heavier snow going north, but somehow we hit the right mix of snow and ice that left us with a snow day.
-
-Wyatt is also running a fever, and it feels like all of us are on the verge of coming down with something.
-
-Tonight we celebrated late Grandma Kathy picking up Culvers on the way home from theater practice.  Its always a tough day but this one seemed like one of the easier ones.  Filled with distraction from kids all day.
-
-Today I am grateful everyone was safe from the storms, kids were able to be home, I was able to be home with them, and actually had a fairly productive day.
+<!-- markata-encrypted-source:v1 key=default -->
+JWhHSm6A1TM7TfnuUDlP+AWTpphlXvBpZHUUqu0GUEflEs4m644ixsYw3y4yfwmfE8CPhx8zrn1QO1loj62HaTzA97XkonUCtrUkSMsEWpFsNAugOuzggLhGLzR1aBIZWEiyEWY5OJ8CV/WHgFl6gUJx3+qKznh3XYDcbSuHwLSK7zijg1i5X1S566HbzecE/fZB/+SQvJjMjxm2O39h9NrAd/WxSg0E1ZMSGJH9etestiJvMRX1PxW9skuTacQzSMRXESr62OVHjKKs42CRW3P5O3lyaymvt2gG6alUQAVHQK5PjltB+q+lnP+lcPDaCxTfbCm+nuenID01Idf1dImCgCMWEcvFmQz0AnPxGXY6Yd1UYj5WDRA4HXHBJfvoOBIIZmeqk/Y0aZRFPWDAK505ZzjmdtFX/q4IjozgLGEfEO1YNrXs6MvP4qFgS/GSQloDrXCk8Hn+hQpGDfE60XsPAOpGmVpDP81CIA4ckJ4MZiuTy9/jEiiGRFyl6vP6vTGGqw/NF/uZVzwH657UhtWoqWkb9mWgxcK05dfbPZXhsDLxgkk16E+QRv1LV/oaJtfak5IMxhl8eyOXTZH8m4knPOEayQtlAFfTrFIkJ4lHk92gzRVwd0YBNnz5wHmW5Ii4TwPZKR039k/a5RPxfIAOPnAQszjvxIMI91LtzHOdIhFnSFfUiE8mxyLkuAHucJX8XK/4hMueeW1eTZbQEAPvcvaiCZX4inAlNWvyo+LGQ7g7tGp+8zjrZrt0Qp8mRUHiheNz/92Kob/B41Nivi+f+lwv2WG/WOtXkn7Hy4/Da2sU5vDfe1pFlUXaSvbgQoldQd3dNQdtp45UhRUs/dGRNc9WTRSt/345zD5+9CRjiB43qIngWxMoK6PZ3ZRSyiDoRpy4PsA8AmajP97amWp9UgBKaEWrYyAmpwRO+iyxf5JtcghV2mr6tXVjco4Na0dI5et6Smglc3sWqpPw0PZ1

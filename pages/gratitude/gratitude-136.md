@@ -7,20 +7,5 @@ tags:
 title: Gratitude 136
 
 ---
-
-Dobby (our new pup) came home today, and he is just the cutest pup ever.
-He is already filling our house with some much needed love.  I know the
-next few weeks are going to get a bit crazy and his need for us is only
-going to add to it, but it will be so worth it.
-
-Rhiannon has done so much research, I am so proud of her!  It feels so
-different going into this with someone who knows what they are doing
-than just winging it.  I really feel like we are setting Dobby up for
-success in our house.  Much of the care is focused on positivity and
-love rather than yelling, hitting, or any punishment.  We only let him
-go places that he is allowed, and when he is doing an undesirable
-activity we simply redirect him to a desireable activity.  There's
-obviously a lot more detail that goes into this, but distilled down as
-far as I can this is the essential strategy we are taking.
-
-![Waylon sitting with Dobby on his first day home](https://dropper.waylonwalker.com/api/file/283b3612-3e58-4367-97a3-a75f18d56acf.png)
+<!-- markata-encrypted-source:v1 key=default -->
+erW9CRVoQkaXFR8obdKqbERf8dNoOyLe01RztX0xfusKUv0ooqxOixhTncunBW/s+4F7aNVGRheUvQvgHdzg3DZ/sv+cGnli4f9lowwwz1dVAOyP4u0U2M/Vmkh1aGKTrYrb511GdBefp+yHLHWxeEJ6RaQLJ41LlE1tmKajDR1aMRquRe7o/+M6lOdRFVduJS3Rdwb01jNBxJX49eyRyHDdgkAptnBCb1L/ivd1uLqaDv0EAINCkszA89zOeReXvWcSqxDhN6U4WZNdZAp9lMmC6yCAGXIVz19TkjdgLKHn6M0ubifnWtWL9SFTnt9ag87NHr71GBR09eURrTlmmZhL5/sMHjrKzffFv1jUm5w/OFDaPJG9eY5Vf8m57icdIjgYNeuF4atd4YFQo1pXec6zPl5ukJQ3P1acHSsjTnbkAiCJgDFuvR62G2UKnONTJhze/5p0FWTeHutCrWcC17uRtVEbC0X2Z1+ZH/9jC/ZIiPQ2FRF+eUxR9iug0qeGbbMmckFO9YlNieUplxxmXgdlsCYeMNwRCCOO61Ts37e0jucXh1NZ/ptSV+eK4FWKo++nVU82zM+sink9OIm7U8t5YUvihR8vdiXF1EylsBIXQV31lJ+KKkCVNZEwipu2xqSv57a1c4l1HVbDE4UtQ8i8j2DMgg/e4amCF/T4e/KYXwF8lNL3PhR0vuTaAmIF+IKeoTI4vCjDUyg7g/BsOto7teEKf/SMWW6HPQ7tbcf3OWmPEg7IpmIVt9FFR+XDeQH6R30OyWAxrE4abhq/F9Tt2ZwkDsoPtK7xCsH+wrNCam41u+5oSjEitbRCRR4+lUWZiNtXRembhX8j98iOcjUgMhUrsyUS7utc0zZnlJmWoqOYYtX26eTLrvIpzKuwdXbIPmaatQigZ7PNBSwJ4MYX6CF69EzT1M7mpRsPxmGdMFbtQNjtit0kmaVZH2neUDxmOGrsKndAwx9wRoB43EC6kJDtC8idOYRUxG14fW8mrc24oP6S3/qTQBD5dFQkwWmCDHZID0nAQrCN4smx+9k9K1rhf3z4JDaZsdQylZsW7kx1uPlIIo86Om/o8GUIEUvRWDg2bd6ncQzoH6n47ouwYMqnuLqP3tpFL7lUPrZO8KHD0o4um0F+1cf+juM33heISoxl1b5/adkj4V+tU3/sFIhxZ9M9E/If4DV+t2JhINs2IuoWc2a++0V6w2z+LoU/gpLlZFzcb3fdI6zhfEPiSuemX+GfMTSTaRMTBWdqf6hD/mqkPOi0U2Y64e/9TxezE+dysG0jJNMSX3jVa86gUeFByLphKCd0SLpPgTqPqmjbIPeRqQ66IsYf2jow48nL+CF3ZJZgeU6cjsytIasnjqFP5w4fDpLsWpbi5FFaP087JsNiI4/yo2enLzckTqHDew==

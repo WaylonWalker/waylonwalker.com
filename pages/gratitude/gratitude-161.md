@@ -7,11 +7,5 @@ tags:
 title: Gratitude 161
 
 ---
-
-Today we opened up the house for Dobby, so far he has been pretty confined to
-his play pen and a few extra areas that were boarded up with boxes.  He has
-done ok, but you could tell that he just wants to be with everyone.  He
-absolutely loved it!  He was just sprinting around the house like a crazy pup.
-There were definitely some hillarias slide outs on the tile floor.  Wyatt
-especially loved having that extra space to run with him.  They did so well
-together.
+<!-- markata-encrypted-source:v1 key=default -->
+39zNp6HPueRzFp4H9zPM1WNInQt9e+iR8tM2i6Mh8tQen5yEPXClNtfus6KQ1I9XbyZhsh21Ebzw5NR9inFuIl6a1aftDz8uQdp6e2b3DVhYmj5GZYP3DPwK4QWiRpFMe/NB4MINWpHxbml40fiTfVUr1qZaXQkHVdUvusluih56Nyv2HpkRCsOxzLf47JNwmr41jTHhCoFi731CuxWpwp6+arVmdrYN9Mwb0qMn6fM4Z/q0bncEJHQ3NggO/xW5s1rnn7QAN30k/19UKvq2kQ9LfDReNX9qvnuga2X7lFUE07wFamdF724rUaHYhEjuID3wgreUH/yMjckW/6jCuAl7gPWjFUMPY8gvzSo3kzhoWa4JbGUgSifIxLAkAOx0+3yFjPU7X+d8YKPAH7XCoY8K7dbsBW4xFvtH48KmBXJytXqhtrfG50cziGQ3vlcISUhc2CLVgzClWop0eWbzfmPX5f8NkySZynHCXIzFyGUZ5w4+fjXytOX622fzmNbCmZtQTrm1kJaB99V7ci2I52/Xg6f83ev11mN7omrbA+4FImp38QiXn8efYHubad4pEM28+ByJjHZt4uCGsIvJomGz4zAw0Kku9fX6kJTSiYdhqUBsNtp0+oQ1d78gOFvihqAoQTpbxGmESJhDljm83MQ7PMT7SxztOvdtBBjC

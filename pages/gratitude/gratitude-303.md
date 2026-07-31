@@ -6,15 +6,5 @@ tags:
 - gratitude
 
 ---
-Haircut day, I'm so grateful for my multi-talented wife who can make a fantastic hair cut at home.  I enjoy going to our local guy, but it adds up a lot.
-
-
-![](https://dropper.waylonwalker.com/file/9c1e7df3-e83d-4c9b-9941-faf49bca0fa7.webp)
-
-> Before
-
-![](https://dropper.waylonwalker.com/file/d110f4fd-2b2c-49c7-9e05-a39409d2f683.webp)
-
-> After
-
-Thanks Rhiannon, I got many compliments on the nice hair cut 
+<!-- markata-encrypted-source:v1 key=default -->
+9KWtwpBok2tgz2v+WYNEm0pytyLJINf1w5PWH/sdnD6BFDPWw23cJrfUbg4Im3e8cN242jEv4thZJtkp0eHPMHtTW9Q5Oa6hZqzokNj/br/dbKIoNMe80T2MRN01zkZQjJoEDOjUkS3zs416DGgJMV5+4lll8TXQ5XrTIkvW0bVQt9gH+vfmNdSPAPgkCx2ORapYX2A/+XdyTUzOolunkRHq2zm+lAvd5D7O7l/h1ald6K2CSMCGXLrkAhmh/N8agHeMSPHRP4JPJGXgzubNEWHGvEQMF7WtE9g/k5d2LpLJpcZHnlVHbRAbV6AU0F6dUR8nMK1SepasedSdiapp76ntAKIRox4re5D4O0yfOKzpMXC7cZK5Aukj7RNkjCTUOI5J8acKdWLJq37RYvgmDKKdZ5TZaXnaT+pI0Xq6BRoEPXvDDKkUUx4jXVo4rYFnmKoOGbopuJpat1DiDKYu1VA/MlME/ySgapexw1iQej9UJY8aKUcUqSZQSI8CStqefAfvZyMFLns2+YmhJTb70YRs8tcKa7iFeCf7JPonkq6zY1CYAVuo9QLE9FCvaRUhxkhzksWP+r3wKYZH15HkWUh97O5c

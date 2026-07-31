@@ -4,9 +4,5 @@ templateKey: gratitude
 title: Gratitude 258
 
 ---
-
-First day of school went great for both kids, grateful for everything to come
-together in the end.  Buses, paperwork all the timing and everything.  The
-middle of the day is now much calmer with the chaos enhanced at either end of
-the day as we ramp up for school and bring home all the pent up energy.  Its
-fine though its good to have a bit of quiet in the middle.
+<!-- markata-encrypted-source:v1 key=default -->
+ePhYoCiiCmMIej5SA8LP50EDFRVVGwlPDeS5pcO5u/NQKiHLmox8lL0Bi+VNDhLNOzVwQ2FJZ9R66SFRAYkuF+2DSfTMLqkUueNAwNi+bmfq/BW+vv5g/GgMmAuy57vtwXxIFUvOSO+mkFTvpbB6fLXxkfrsmMtB4QGbTm9akFgAyvqIlSMFIuHPezOpHRB8dZssUXg7sJTg6ZGFCOmuwM08evtqWTljh7OW/jclMuAW2224tOCBC8L7GWQeUi+HMJYlZ2eit0J0rIFY7vW2chsVGndg83n+X9iJUwKFuFV1OyerbtwLc6GXbHLVoTomvgrysrt95TLkKNlrLhkckFSsDXbatnj/yxVgCZo+uYjShBltvY9CBsXOfV4WERFOKcmIJ+uujJ6bZ2gBWp5JH68o1askV5/wgAL+JSMGzPtGoxyZKp8uI1kgxIxk6HUZdx4Qq/IAXIeqFYEXcKFbxJighXTudpeAaFCDemDSw/9f46ExOcRJZ9hJFOF+Sxu8GEgGaEARbF8GdtDv2LlRFv1TdgZ0wGXNl+2TVQ==

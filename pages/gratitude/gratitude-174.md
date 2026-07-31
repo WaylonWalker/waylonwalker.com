@@ -7,9 +7,5 @@ tags:
 title: Gratitude 174
 
 ---
-
-What a busy morning today.  We got our sink unclogged, Dobby had a
-follow up Vet apt, and a trainer apt.  So glad that our sink is finally
-fixed and we did not end up with any bad kitchen floods in the process.
-Well there was that time when I was taking out the old broken dishwasher
-and it dumped all over on the way out, but it was quickly mopped up.
+<!-- markata-encrypted-source:v1 key=default -->
+5iU5M2EtG1de2uaBuS1mweeSY4oxgIyGDx3h7oyjP7452VFQMWV5gH1uvQbF+hBrQAx0NKHY+2kXPGam37pH+HLtunSahVRgTw5XUIID7Mb7zR+S3hC+jQ6psNTM6tSOadwGEaLRJ8OKxPmPomY+v0wbdW8QqOzUAgVMlNx8CHi+zJjyJ/fvJ1Pp+NIsfaxHfJRpe1jgrPJ71BJDBaA8/Oc3qq0G0AxHClyOMKZKWaGdCzPedA1GHtokaAbJiL9PspPXsiQkMdwOhlGZjKZOewIqdAjodyAEfRqw7a0cxbYg5HFzYaPTtonwAqRR2uAcyAcYD7N+n5p+cok3TPXvAP5U/sCkkYDZQ0UHgxZV7IxN793plHdFYgBurP4he917RmdWxIz8v14EirzEY+4MUXnKCvj4Ivb24bmnbJ979881fKVT7JDQLfwde/iqDs9WGQyHLXY+nDxPhLMJkb/jdYlj01DTG5wbhOTfNqS7B4cMcz9j+nmRe5/NO0XrVa2DlNx0rclfl/BIEeSkunI=

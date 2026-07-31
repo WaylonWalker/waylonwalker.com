@@ -6,7 +6,5 @@ tags:
 - gratitude
 
 ---
-
-Friday, about time for the weekend.  This week felt like a medium week mixed between work and home just didn't feel like as much was accomplished as planned.  Things came up, battles were faught and won.
-
-Today we had a plumbing guy come out and replace a sewage ejector that was out.  I should have seen the signs, it was obvious in retrospective, but its needed done anyways, its been on the ya we need to do that eventually since moving into the house.
+<!-- markata-encrypted-source:v1 key=default -->
+xtGAe4buKwlPeEzQ367czmc0GwuaAOcRg0sCn9gfriI/zQSeGRSeOJ8wMWkDcTqOEJLSGhKzpGeF2lJ6n8kyeD6s2hF9THIjhRLtvuSd8eeg4DsFp0etAB7zLn5/4kWUMMPJFRGVMStg8MLrM04CAb56DuJF9qZoAXuFpljo1DmO461ySyTx28Kxfq7JUXrgiwgJu2C3OZ1JvxWWqrBX/mV+39dN32dCGpJ9OcY7+6DxqMyFA+GxuHat3arRaEu0iBsgkIsuWgPOdb83Hl+ZxFTZOd+JoSH8EfTrnlSnCx47YEtf14BPT1wlSvfGInLziBdYt4zsGu5Ym4fH7Oc65d+eIk40wxilHgA0H1HSeRuBalICvva4ec9qegldb5Ez15/L/IKnvZFww7DYCfItFM7w/T6C098V2PE9gCfedQyXtDv/mwPLCeRUTxw7Ph79ajYR44u/hkNmkvlEN9doefB64YfwHDLKoF/nZg7G8Tc/DJMKgpaFz+zWtnuo8990GqggMrMxub0Z+m5pROjYSd7V1u/3j3HnKuiCwBEhx4a6hqlkBmUloFhiESBKe4C8yWIMj1bpEB8LQtliWm9j9cPAlZCXzCrIXl6ORS2XtB7fUrhunH1f4Uu8daInJXhNqlKMhXoDS93XeX8tTJYq13BtcCo=

@@ -7,11 +7,5 @@ tags:
 title: Gratitude 165
 
 ---
-
-This afternoon Wyatt and I went on a big skate throught the
-neighborhood.  He had such a good time he wanted to do a second lap, and
-another later right at dark.  I am grateful that the sidewalks are so
-nice for us to ride on wtih very few cracks that would fully take anyone
-out. The traffic is also very mild.   There are very few cars on the
-roads and the ones that are there are all going at a vy nice pace.  No
-one really races through our neighborhood.
+<!-- markata-encrypted-source:v1 key=default -->
+r840J/xS9Euh6L/kodtNXQ4plh21abWVpoDmmbP1fw8il9+7NJy55n3FCRsgi+bokqShVnnzBOXSlvATlB4Ju3lrsOCEyT4Jj+GaLT2LlOzsthWMRR1y1r8XBnHScwyjMLJov1l13dZ4SSOjmxOePBaqKYc1hAcgCTXIsRAl7Cd2DPiTs3X1Oqi/UF8y6CTNlkS2wKt+hukErUI3HzHthSvjAzt2XFdq/qFPU1zm+QPECs7uO5kuWCsCmoERsGV/Fk2OCrwtn6Xdoh5mdY5yZnx0uhWT9SbP8GZ53wNHKggLTmhGGbfRZHvB5g7SP1tzOFMFqhWgecYL6jLIFdCL5G6vS5aTi3/7HYwUE08YfvAnGc9fK3d4vyMOuhFIaZCmFD0V4aJhlwEJWZ3K6QQ61Dv9GyAk5nFDC9/EJXTzwa4GC6UaJ2KpjSUbYi0Kh8FfMCSyjRWQi+/76xr2zeiEaKPUiyODRYf1BxOP0rzZTCB+QsEKU9xmHZO2f3X7jd3QhZCjDs0oubXOJ5znPMLIkiZo4P3u65PxTcC6UzAm1LV729ln/NBeA2tjNlBPX5CUV77KyYbWro24zHAYerYT11PoIimHrmU498iSV02h9Bj7sSdsBp7y1fq897Wr3tvKFbOn1EyNaxdhzIH8b1w8Xc/Pmb7Oz3eb

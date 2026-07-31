@@ -7,18 +7,5 @@ date: 2019-01-10
 templateKey: gratitude
 
 ---
-
-#### New Devices
-
-Alright I do not usually mix gratitude with material things, but hear me out
-here.  Today is the second day with my new to me refurbished three year old
-phone, and I am really enjoying it.  I wanted to pay cash, didn't want to pay
-$800, wanted good performance, and didn't really care about having the Latest
-show room floor tech.  So far it is treating me really well.  The biggest
-reason that I got a new phone was that my signal was cutting out, and with our
-crazy lifestyle with lots of emergencies that I need to respond to I need
-somehing reliable.  Today I was at work and this phone had signal in places
-within my work that none of my last 2-3 devices could get signal in.  I was
-blown away when I could walk anywhere in the building and hold a conversation
-with my wife.  This gives me the confidence that my phone will have signal when
-I need it and I can respond to any emergency that I need to.
+<!-- markata-encrypted-source:v1 key=default -->
+BMx48iaR2FIcwO8mQdj+4z+1OOACehzW5xfRyEUMy1ET+b3xcDd1cmIxmKp10kbzD5VjwbMUGZK+U8thBUaQcgY+y8kdU6QrXCgpgEx7gQU9RGHhZKNqI76Hg7fP+7iurWgzCEcFDL36TU5KQW1HFMP+4Rrxe1m33cmwH8nijnrNQIgVLytd/pa5oOfMKY9sI0Mg/fqF0HoH2iPHOea567fZ1Rzw9BqxN97EnbSPjbHhumvKrcmsFkyV/JCtDK4lbxnsFyfb9A3ENtXlbRFzoQzJFAnp2heCCBsbRGQ+hvAK0PZ80IqmAirxTsxswxjk7Yc5gxxbStVwk6Cl0jyRk146D1sDlZx/YGLXmPIpNlozQJVdQXPuWbxkIBY1pDaXS5EwV8TlSaCY8LkNV++tAtPXlmH8KXe8bqP+BMSMa7I90OWg2trroQ1SXtOOZPRzkUEtStTkJ/5GUwUD9/yKQuQYRoMPVcxUPA8+o2Rmu9kJ/fWTc3kvbI4s8Vv9jL3ZpqYU/jY/3ASMUmKOivfaXXlYE/zjaQJDB5/+RMnu7oibl9SfEFozvMyLZIQxFBgdnUG0i5aBujqypFtkawPee8JumdRnaH7p/NqLGh3kh8yA/DGwP7b6ZPW2BwnK3Wv/98WHjePFCaTUrd47bWhWD9AJxvg8j2PDel67tUnzrZXdTGDEU00K0hkuOrC5986gkaxJl9RnStC1dNiUQ6qjhthFCt6wUcRCdD5N//BVZitYmZTGn1HGCdbAcy81kBbQq33aLxAymVRFGHH3+rpi3uftOS6UgkN8JnoCV1+8mnzECF/UG7tWZiVgBj74ufVVHSeoJiOItLgdRA6Nsf3qCsJtLHai2bpHsPDFuSB3Ust7weIwrrWuYwbGrRO58q3bcH379QrWTcNCFJd+Y00fGDTcb8STHvcM9tlSnKSr6wBv5lTgePw2PZxmEHhUzEAujlyB0ug2ocvtNiuVRgE8LiL3UEsq43MQxRZA5Yi5zvCvKnfpKczPXDqBpOTE/A3nnhY7hTs+gvi1C60DjyF9u58RlnnrU1QaJS2sOu/kRnZRujU4LZsXj8j6iOLl2lH9VoKLn9eJt2u31lZygW3t7sJuaHtkGFDE+/wsT9rZTPZXtVbHaZtbxC+L9A+NOhKp383djd59Mc+GR6oXBuUQ91N4j0ZwlN6Qwg1J5uv/GKkkinBFCArrecgO5mer6f/nOIFnmITccX8MtiL1iVa9+WJwbbA0kdsH3JQ/LcX3cSdTOJ4BJSWBVlAPdQzO3H8A2miOiGd54aY2nw==

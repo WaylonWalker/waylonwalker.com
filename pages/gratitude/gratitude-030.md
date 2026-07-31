@@ -7,7 +7,5 @@ date: 2018-01-25
 templateKey: gratitude
 
 ---
-
-#### Great Friends
-
-I am grateful that I have such great friends that are able to help us through a very difficult time.  Today I am able to work and not have to worry about Rhiannon or the kids, knowing that someone is home with them.  The peace of mind is invaluable when you have a family member with a severe medical issue.
+<!-- markata-encrypted-source:v1 key=default -->
+DrI1//pwZWy3hCiMP/hRHEZAdtoAOyNe5TGZ4pPRSk+0q60xW8BkVrWQ2w833mIcQzdbl1DuR8zmuPOCFEGtpEHDXVwjHl6jUQf3nQclgvj4UmmhxwRXvVtd3GTPteHJqHWoOCw9qLVyAATbFJ0HUS1nQ21E4XUcF6/r/HTuhyRZH1hxvHmn6F5Yop1PVJVbloeJHi4gNVsxQlxvK4KX6ioiqOFW3rTPbMyDRJuZ0gog9HA2UXJTFMcDeNrcwBK4Ky0Bf2lrH8lZz/1Td49JQjzXDs7UO+4xSWQRWA7k8gBHhWsrfTijf4/5tkOc4xvGrl4n+C1FwCpR+UB4qjcCFv+S/1KwK3N4YgKg/pl9nS2Ck/Bpl9e11vO9V7ybu5Uqy+5Gcn50fzUVX968qSNloaFCQZMGAyX5FuhDuRCIkVxZM3AA8oXj8w0tqLj470IxMQSkQt82tt9xHtftzxFi7iE/vQMWXYMBw4IzO7rRsBhNrmppyQ==

@@ -7,19 +7,5 @@ tags:
 title: Gratitude 144
 
 ---
-
-Today it warmed up quite a bit and the sun was in full force on the big
-dump of snow that we got last week.  It made just the most epically
-packable snow.  This is something that we dont often see in our area so
-we took full advantage.  The front yard was fully shaded and was still
-powder, but the back yard had this packing snow.  I wanted to build a
-huge snowman in the back and Wyatt wanted to continue his fort in the
-front.  We compromised and built a fort in the back.
-
-It was super fun and soemthing I home we talk about for years to come.
-It turned out as the most epic igloo that I have ever witnessed in
-person.  It was surprisingly easy to build with the nearly slushy snow
-that we had today. He was so excited to show Rhiannon that he did a
-video call wtih with her right from the comfort of the igloo.
-
-![screenshot-2025-08-15T00-50-13-322Z.png](https://dropper.waylonwalker.com/api/file/04b75909-b1eb-4903-bfd7-a992f8b3ee4e.png)
+<!-- markata-encrypted-source:v1 key=default -->
+DoUOsG3/mwNSSgKGSg9udhlv94BVFqGJW20Mb4vN9h/L0kPd/76AOMDc4xJMj1iGqVXeuePFaW48ntkX/6hrsh+UPj0mV+YsXL+MPYwaaonCq7//DTWTy895Kt4e72/PUikKaS0FBQIveSmDjVVEYCjAuu3E7U4gkCh3aEvJoeY0nR7utnbX+QopFs+RbTj/khLO9RU8cBaJxUslnkjnTTNuP2SwDXMCQ50YOFmHQeRInEn+QUAVXY4qIIz2drOXdH8T0iuT+uBp/Q0Vg67GTKZdKUnL2vq3leqi0mFtfL6fORPCLzNk/I2EUIyXLgUKQnnnAf199odoH4YnVZVLpgDrcIorRgtXemu3HwJ/jWa0lBW1dvPqqcgSheP9SZlhGKuYiNlsNrAg1aRq2G5j+69EnUHG6lY+yZwgCY41gIxDnXLHUvznOe16ojQpAFaisSvFX4J6rhgfH7rYf+1HkDCw70eLubrn23+Eu00lx5AQk3S7lnASEkxw8WuH4r2JyPMAnqKgHkTQ/7I6WLHs5+RCNZHC/Z0+lk9TT764WsEUM9X1uXwFZEzsAxOo79+/vaf4zuISxsiWqhkC9TVD4oi6YvVI5W4BAJ/sk0mJ21HYvqdE04myt1Ct4sLZ5IWQsveu6HcUkGmn/EMmiFh/ErP1C60DTk0mRvdGLyUUIEwIUHP70kTFZY5AfJf5n1IqlJqG2wrgdXCFIGoz5YcyG8TaSl5sA2e8srHxC9k+L6A24vWdjKY876/BXDoPIu4lsXEKXPBR+Zx7yw+CjlQ7zBY7ch2hdHH0K068VgZ/hBhslvg1qJjS/7iSufFK0PUwAaRpjhJk5odJfAqWK1PYriLOPLCEYQkhqspt+ciOuB5ODQLK0jWPoDPZOcLkd8WIoR9dzO+g01Q0ZpdwA5PcQC1mBo6ww/WonP47xrrpqSAgJD/Z51tXAmbIg3t0lfUjBUWx8mMnR2lsQNCNOhmTeYg6iAJTysTtxM+1in/zvid96EZsbS/uf+YQ87H73755IDLpL4iDzWA+4P4G18euCV+qkjMBXw+MogbwVPmK0EcPat+vLrw9FRzdsnF/bhz/VnEY0kkjz604Ryl7tg7+tAmYArte4XJ6gsHsFlS4GAE9zGjGs+/Pj9rAR5KdzO7KvfN4wMg6BmWKQ0E4QgVB34jVQdIy6IyhDVjJ+esV2r1jNMfjPZDvla3RZ+jM8zdVtOyx13cUXnGbumKr8sBmXZFeYwrh+k3iPMgfU4drjycZuNSGfeMiJhEPHDmen+wMxo38JcnkNC1wcTDPNgSFdffjvHBi/AUXn2XIUpc=

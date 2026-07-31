@@ -6,4 +6,5 @@ tags:
 - gratitude
 
 ---
-I am looking forward to taking some time off tomorrow and spending it with Rhiannon.  Its been busy, tired, and a lot going on for awhile now. The chill day will be a relief.  I'm looking forward to going kickboxing with her and to our planned lunch.  I'm very grateful for vacation days to take time with those most important to us on their important days.  Excited to get a little bit of a mid week reset without having to manage anything.
+<!-- markata-encrypted-source:v1 key=default -->
++Sqbt3LdPoVMXauL9RfZgvgtBC6HQPsy+SlQlDIX3/LiOatnHCdVB7p8xMRY+cG8716G5FoSAYeYMfYL9LnZrhWK5XOzqY5mAik8MrN+DCFeBs85YClT0DLgZD0Kga+VgRqNAD4dkQQN8IMm1KtEopNxVeuQtOvb+tobu9Zygu2t9PJKcucFjlEGdc71uhaxTzsNT3O6WWKuva+qUm4WJywYcGvJA2Usgr0+rbW8GOgUUu4CtdnzY4pM1h1iu/z02wqcXqk5gCxydBxeLEDkAwzd0yh7BILwFEC4/D2VA8oJfyOj67gQ2gIFT2GID+PNBP3PLpwl4J1Mpx0VR10BWatw6LX4WSNqStic6Ii7uxuvHYaptzukFYL4edbJhbAFG+PQgWeFPRzi5tuVw1bMds86EyYIVN42W9/hYVhfiT4cdXoVsEBBoYgVzh66MrLlSQarxHK/dIn/hboAIRmqbuvmjwtx0iDi5DU89Gisy5Z4np9G2PzjUeBj/dNn1L7hGjC2owV6UFW/Ls0nvQBLMuA+cJpXtqRti/r8LBJFsMkbFfDatFX/Q9RwnDNC31FIFxT295xtujZUqe7GvjZxiH2UPx+3wczpVLXp8Nsg2LjMQlLoLJiuDWGGAULlkwUUaMTs8Z8=

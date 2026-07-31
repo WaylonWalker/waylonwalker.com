@@ -7,7 +7,5 @@ templateKey: gratitude
 date: 2019-01-14
 
 ---
-
-### Preparation
-
-Yesterday was packing day for a big move.  We have been getting ready for a few weeks now... Rhiannon has been getting ready for a few weeks and I kinda helped.  She really nocked this one out of the park.  Everything was so well organized into boxes and labeled we were able to load the truck really fast. She has been pushing herself really hard for a few weeks now.  We were both really impressed with how little the truck was filled.  We got the largest size Uhaul and only filled it half way.  We have had this same truck in the past, and filled it.  We have expanded our family, and yet trimmed down on the stuff.
+<!-- markata-encrypted-source:v1 key=default -->
+vdmoioElyIJLhkvAEZkC4Q9xAHEyyoDev3ZX7YaxCjGUr4sfXrYALrLMLnCZ6FFYVwbCLLsE55kGRJWQu2VmhWjvAkpVkzN3K99Z7yrRuCRbMjgnarobMrvOAwgcuDc41ySZBJQoEo3VPwHf3hKcJVo17cf/4UyBwLYHHTgxZeBiKTQCVp5S7gtJ3K+uU3O/o8fXo0wtStEZjb2g7dv4t/1pRsaU43bzl/v6gSspr2a+aiShsgUT96nRQkMmhjOwFJDD5jXuhaXKWZGdweIbYSwpzzhLLF3jJooja1WFJhZ3I2c/Y54GcL99LD1/HWiAsNHa5QuSyXHfg1qgZk/mTiZ8jyIIGU1uVrFdhGd/QQSZoVhlG5wYEdS5G88xBGiN3JUZvH5HQ/il03yxIrUhZhKcgK+30CEL8X+Hv4FtiiLcpgFf8y3U2PK78QNmeLieXC/FdnIqGyM1ujrjnNZ9cXt6z+OOuZwQzt7XiHwp6hqOOBBgQTu1eda00fvU1cwYbaBHFqTftE0+BlrCpEb3GUT1pR3hD9btBULDzdfxk8UiUmu30Ly6I8a+bonR2CAe8j/KYi7YphM5+13f57+rahFU6RFyyV6kti4xnlCgmStump6K2dnV8ehRx5AE3LfZNFnGTFidvLrvhTZTU4RBOV2wa6kJnMFxhLbNXU3yQouxTO1GwzciXe0nRHrwuyR3a4dbNbAq2Dp/8Hk47YvkgNeCgrEULPqQ9hUW/QMiFGUSbs0XAlET85Dh/BkL67VuF94+TC+n5SRRnJCMRwH1OtR6jgqJTCIxZNx2jqF7EJAPw9mwQH8867lKxjIlZQGyqLdxyFC11IDKI0zsjecD3w4bKfAuoDTEPbiefEGYPloT1A8f1od/uX7lq7xlE1+kdHuqFqc72Zn1og==

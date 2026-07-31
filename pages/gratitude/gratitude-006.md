@@ -4,9 +4,5 @@ date: 2017-12-18
 tags:
   - gratitude
 ---
-
-#### Restart
-
-Restarting each day is important for a very healthy attitude. Having a son with ADHD there are times where we need to restart each hour on a new foot. His mind runs at such a faster pace than everyone else's that is can be hard to keep up with him. Sometimes we have meltdowns. It is very important to be able to coach him through it, present him with a resolution, and walk away. It is very hard as an adult to quickly bring down your emotions form a very high stress situation, but it is important for him to avoid going right back into another meltdown. Our family is very good at restarting each day on a new foot and not holding grudges against each other. This keeps us very strong through such hard times.
-
-> It is very hard as an adult to quickly bring down your emotions form a very high stress situation
+<!-- markata-encrypted-source:v1 key=default -->
+MjSDgknqgqbxYcHO6x7vJacN76DwJ2KOPy8C5gjTjOvyjvbQLBsJP0srWXSafV029YyrriARuypCnCkafr2ijYE1cOB6jnHnO7C4Gz/dTjDqG98R7IHezuqxDvbUazQVH6/sIDvnK5cBpT3XMSyWwDhPBbJ/aF1IStEdEEYmtwLP+Vapo/Vp4yc+XSH9pmcLsJcHZWWQb48K4IanSkzlrBgvMX3bSY3HNwqFICKQmKTAM5J402PE/9UNduEAMGdzO+omM9P8CDMJ1TItBsIPX0IJwkPjs+Jy6R7RjrcP7F/Gyc9AGx3wwm6HHdIpgBPKNPcGHAbs58VeTPxHxU6E3mHHK2mGgsFh3fE6tARc9gpARlI0B+N47IC+0mtfN69emSJFRAjk5i1s3kecQQPXfIjFccqtGZrBL1R67Ax/oyM4oXrxUwaRlmGBAjCKH3MJUT3rpFLDaAep7k3UGw7LMLviK5rPYEsNi67FdURmSvMh6q7NDHEBLtgpo7+AvSG8DD3bI0afjVvFoeFFvaZPLAv2k/FZxYCJcfFz4U7NlvORGNrk9hshoNku4D3OkqnGX289qtC6c0cCBIJkNkjRo5NzLF5leGqYIIh0b31b7ifR61ZbwFDOUqbBsBZn+3zv+Ijcokn5IPKLhygsd/ruqblWeKzHl0LTJrnMzpnWKzCBSD546rGDI7Ugn3mPHLwUByGXUYGBvGn7MMW9jTPSMQmlFzKXDFGwmqHbr8ORFYBhajUy/npFb/naoquSsoggJdy28UdyjR9ZLDgSokvsjSrbti2z3YUyvEpnhMPQbrNmMd12ymz9AOg9E1Mg7HfTVUPGfp9RcF2sQi5iSS5b71t/A2OyuRNd3igSiKrD6MRqHXYx7SyLcJM/wEmrAIu9Iht9EMyziRKJkozn7XkRHIiXygo5NENLh+/yhOUeAqA2M+s6MmhP+u/Zwh3QYAJ38UE2/835KNPR3odtIJE2Fp95QZA8Z9sX3Wk68t+qMaU6qkklD+qt8ZqrLc5QX5Z8rcRqme5Wjhd5h0aZSUbZc9msOIN1A9xAqTNuHNdhj1pOztyX26qlHwlrSJaKPdhdqw6HzjyE+cQQqzOBxawgsOE9aWGPkPmGsgvYYpLgLFlLZuZEGbfxiNMZ84WLM1coZVSMlrmqmSoM

@@ -7,12 +7,5 @@ tags:
 title: Gratitude 196
 
 ---
-
-15 years. It's been a fantastic 15 year journey that I could have never
-imagined.  I never would have guessed half of our journey that we have been on,
-but id say we were half right from teh start.  Right from the start we both
-knew that we had found the other person that we wanted to spend the rest of our
-life with.  We wanted to go to the same college, have two wonderful kids, and a
-house.  We could have told you many of these big picture items from very early
-on, but the journey that it took to get here has been exciting.  It's been full
-of highs and lows, but nothing I would have ever traded for the world.
+<!-- markata-encrypted-source:v1 key=default -->
+/w8JssQUz7/YgRAIR8eHyDhamRCWPh+sCgZzFWmcLqVjiyHd22CZPR9bbLxTGTKYiOEmrQnp4/8XvSgM0ChX57zsk2LjtmBWDuKJf4ReO3Zq8BZGkD6MDB2N3x2Jv81vrsh6QPaxJURMBJQ5mwmOxlIxGe8FBjkBrFGxUE+qQJ+ZLEEEzesmig2vdGQ96iPfoEi7Xu5no/ybrIC/Pwf0wl4GRsek9g0/KVaBE1Mf6L9L6Px1TiKI9N0a+HEOIik3rujXzgaomh+vOMQ5vomU2vyZmR7uYHqX8FtrgCfcocLw9rcHe/bhWP1+nMz8j27VvnTPlXXGvE9Lo6/9vh7PrecYM2JpMNv8gM1BIw/xEIpPg8VHt2+n2G3Ok46M1AK7N5K/S/nJrp2wliAeIyF1WfzO6lstmm9fAOKcPmhYNgKapUUJKQyxiD81+VV368FWri0VX74IZWRsk+i1c84Ub/P1JTaPpcncbp7K9OPA1ADVxonpKr9iSr2t6yoeRRvrJdiLaHcJYp6Fm6eN4a9uwrt0MTTVfRuNn+v0mnkm1mCxu1JOyrvE2nf8LNQur+7tLmO9dTzuAjDQw3wCQlVSak0VD4COtuxsY6eBFEqhf9z8q7HLCuBfSc9Cxj0NGDB/nq5hVYxoQjuVFNuhArAF1MOW+/wd9f+0rcTowQDdvoyrakBSyK9xTbnY4PRp655yZ40/MH6qcMjswVBajtmoltnb6FYpSOPLdL6TZXlbnShZL6EEFDrJgmlErcNmjDEMDn9wvy5RTyoNvD/Z8HT78p4Zq5WP/K/JQBv31Cv/M7v04uM4hreAzY0fbx/vU2VbdLaPHRu1TM+FELrjGs3UAiP8hBWlPQeoop5XuFm2RztqxWRbUBIR

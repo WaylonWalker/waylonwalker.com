@@ -4,25 +4,5 @@ templateKey: gratitude
 title: Gratitude 308
 
 ---
-
-The sickness rolls onward, the afternoons are hard.  I feel achy and tired, I
-push through, get kids to bed and I feel myself still tired, but like I've
-pushed through and no longer am ready to sleep.
-
-I did make it through a work presentation today that I think went really well.
-Our team presented to another on how we do things in a similar space.  We got
-some decent discussion going, but it feels like theres something about the half
-in half out that really does not foster good discussion.  I really feel like we
-get better discussions all one way or another.  In this case we had people from
-all over the country, there was no way we were going to all be in the same
-room.  The POSITIVES though, keeping it positive here.  Presentation went well
-and it was well recieved.  I am very grateful that my cough and my energy held
-up throughout the presentation.
-
-Tonight I worked on my website, I used [[ krayt ]] to successfully diagnose an
-issue on the build and got build times back down under 20s!  I got OG images
-all looking good, with and without images, at a wide variety of sizes.  I did a
-lot of good things for them to clean up the process, adding HEAD requests to
-shots, jpg format, none of that fixed my issues of signal desktop not rendering
-them, but I'm glad it's all better anyways.
-
+<!-- markata-encrypted-source:v1 key=default -->
+gadebGwU1w6E1Pjb9iHJBbKubi41nfVgj5DxJLe6HIMvmyiSmGolUj6pBla68d34IGOANLcBq+XE1jjSd+whIy/ZxxjGBkiRiCL07GKlOA+4q9w0/irARB0GyyDqAS0jvgUD2AWTKWl05FBNUhhWCeF7Zd4BtcnELUfmr6V4HTS4DcNXE0LZWs+s/Cca2+9MWYqnhCeFyCmN6moLTnKS/sBgxyL6EmOEXCV0ygVzmZFjubVxvU974mPhE6nn3rHQvriM23mk8VMRRKpjSukxPu50G9AFHVDxDzyRYQi1+mFVjwJk5gmLPuTOwO3tFc8WZVIQnXaZw+DXEb5a43VuAm7aHHCdiSphcjNKcsfuk4bVSHT/FQ51z6ral3+liVixY+MIg0rt6yOexhAxJH3ZIIr/KYNsIGGHteRKp4lY5xkIvHnn1IC3rpmePaE5/ln1Y8NnJ/uDq4JRmDWsKVRnqJghxKM2BTuEhxQ9d93nOmuOOTJZgXZX1xwC585+lYh+LGt2/fQDWZ59S/VtEsBvTqAgQXis8VwMkxAOk/Jw9QMbl+FMZBFIyzt8RGxAfRb1G9b659lSIDpHVKOkVZTQ/9kIuR8Ur1Ca46lje2sZZx0J6FV4Cs1QeFSujPz900C6j5go8psu4yK+Mqw85Glxrz4sb1Jutpj7PkDbRpgY4b7tAnB63mnyOSu0e13kSAYoHiAO7YIDcOLxHYe7yuNCaDL0BV6gcnL5q3y1RPMJ9XSAZES6fL6s3Pjhh5nWNJs3Nju+Hcc+A1TCu5Cq/4SA190rCdVel1xTKetqbJP9dUDeNrQmv/DO7+YA9TGbNDmiWWNkxlVVVwlC9qvQ86ATVBAFNpiRnw2jSMq5Vn4H4I9g+KXiH99kx+6tegyE96lnFrBwiIwp2qBtb8Hc1q7ex3Yva8pyLA8P4c6b24D1Zlq5pPKYdunY0dQM64n9YwMWBg/6fPYDWfzaNJwh8xcUQxfZQy+ujoSSC4j0IkH3FlE5XmpQIc/Ox+wDYFUcuiOajzFGzA7wx9I8Hqo9+TCFCISDOYmhPZbAY4CCUPGJNXGIpt5jHDoLjIHTu3nYConRR8BAG1qbi0QXSOV/i+yYgGhWJQU+w9xjod6ON/Jtwo0UNJ9L8jrcWzTjy47YMlZb1jcA/pd3x7JdfMs9aLLdsskUjofnRXcMha8DE/8spBLUGHslFSyBamu2OkKrawONHNBkd4pmUS3pn5qfr15mce4dPb3+ZLQ1r9RqSJuwjDt4UyJCzdBh0zzIZWXFQU+Jl3Xqwrxu0/rdgXRzfQik9GHfV2btMwIGv9LPYlOGWC2ovhFSX6Wq+l8odguWJVKj3kDOPhpn/8URL7eefU6Of9WA22CuFlyMBOPwNoreJJEUYKviHgleJd+PplWse8/ZwvDfsvTEDgxs244X6snEE+YwJEmWO2i8NVNH0hNy3by4QRmbqR9jWiyczaookejaxDa2ivsUr97+nbDRiTlwz3LA2L4wn0aOmAGW0MCxYq88IXhCiQuD0iZnomWjvtaXf8+0IF6UUxIukfr93zbfVOl6hvYeuO6vADoU1OF+qZYypaUCDoykMOFZn0cVt0HL6kiyNeKJjcRMAYUVJm16ARvZuVjcajV9NNhpE1Jknun6+0GNXB/Bzp6aU48ulHv0pD1loH4asZ//3kIt6TvBmvmBfu7F8PSk08sTQRO5aV3rEGA9JVRg1h97uT0KCLDFVnkeyUfRlzDxcSxXi1/wvfeR0aL2kHEWScXSluISJpp1LM1FumFamdzMyjcTb2QgKc//hg==

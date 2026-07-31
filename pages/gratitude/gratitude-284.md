@@ -5,4 +5,5 @@ published: true
 tags:
   - gratitude
 ---
-Well we made it.  The house was clean, the decorations were hung, the cupcakes were good.  So grateful that family was able to come see us for their annual once a year gathering here.  The kids did great, it's so hard for them to connect when they see them so little.  
+<!-- markata-encrypted-source:v1 key=default -->
+6PxmqjabJbFDAMg1EIMYQFg/VucSd/aGGAluAuJ3FFabmTSeQCE+hOQV+HR5ZkjWsus8TAHfIhJaiC5ncpkzgS3ifgBaEVzxj05XnLgudw6m3nfJqIuIxAw+QbpEcBDiLoeZEpuufrlhY6ZWnnBJZ60z3+4zOo3CadKAqD09wGRMZ36yvarb3im/yZBlCVGUzZCOJFC8u7A2L7gC4Uo4njADY1MMuwV8hzDElVSBHWDsoPLFMCta7CKHJ3DqkQZswh/2HkCSJR+vW+DAU+YVzPtwU+dynZwnbqh8jWOiX515PW0mE05Tm4Bw13xrcREyXiDK7AZh8w/rI/wo0AF6s0NK8ZoXXD1O3iz9j7Hhw0BDucbDI1/R/HvSUbgsfJiIyv6JAbeppGZn7s2YJS0QrMr1Jv5p2R1GqA==

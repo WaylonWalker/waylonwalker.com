@@ -7,27 +7,5 @@ tags:
 title: Gratitude 167
 
 ---
-
-Today felt felt a bit like a busy one.  It all goes back a few weeks ago
-to when I was cleaning out and installing washer and dryer.  I had
-pushed the washer in and out like 3 times.  well on the last time I
-decided not I probably was not done yet and I was not going to button it
-up.  Instead I would leave it out a few inches and not install the drain
-hose, because it was probably coming back out soon again anyways.
-Weeealll.... I kinda forgot about this later as I finished mopping up
-and decided to just nudge it back into place on my way out.
-
-
-So today I wake up to a backed up sink, and after many hours of trying
-to unclog it, I go to the basement to explore for another cleanout
-somewhere.  Maybe there is something down here that can reach the clog.
-Well to my surprise I walk into the guest bedroom to find two ceiling
-tiles on the floor, about a dozen ruined, along with some mattress
-sheets.  At first I was in complete disbelief of what I was actually
-looking at, until I remembered what had happened a few weeks ago.
-
-I am so grateful that it simply dropped through some ceiling tiles, and
-onto a tiled floor.  Made for not too bad of a cleanup.  Now as a
-homeowner I get to fix it and now answer to a landlord.
-
-Lesson learned, water on the floor equals check the basement.
+<!-- markata-encrypted-source:v1 key=default -->
+Z9mFO0QOBOYb+XsvmwXdr/MDxTuBig6qbzInYo06lUmdH9Gn+nK6KByUs836xUI2qvIHGa2abjq9ZqB1NpdHq5ukkP+cnc7iS/UfPAUT/uQRVQQoWOVYhi5BJv8+J0LcnZ1O4FjYP0SPGLpLcm9liU7Taa74QXJ3mAxnjj8AqA7B8vVcTYm14G6hgzIFY0DqnuweWGJNzekvfCMg52zsjLmZuBOxVV9WS82F4D8ei0n/NK87ARVCVcc2egRNqtdP71KBSc0WNMLTLJmEay4YWLWm3CN6JwqW2EfoCXZJpu4gyX84rWRFl3bLxoUhg3mxsZojeeuB5t8b8yhnCbvG3pBwRtCPq0rt2b/ogBZwIOq/36OYnu6saIz0f715nrmmM36We0Fcf3fssMGqQ3yEYLDpI1x6u6aiJCy6JzEYul0HKMFmrpOMFqiG78ukyIK64AJ6wmtyzu4sLALeUjJRnyQwAEM8erL25sWKoaNV2BnixH1yw1VP6JZmBvpTvKSuFntT9F+GUXKnFYTVdxBB6hxzPcOslIpxQ13z9VBF19PsHrBmjqcI4WsMbbDWo9H/ztNCGf/PxNc9sBtEsfypAqben0gCWi7XeA+D3G1m0mE+u+RslQvaKZMN4GRWs7A+8Cy0rVkpQyigsoqqq8zZjUXDf7wCCtdTQr2ZZpdo0E3U5/tHmwr53rSruwks+MD7JwobZDFO+ry5aoOC23RZvcphJ9aAifpSSZRwVFwJZQCpzmohHwzxfBf72U6sM2A/bOOnQagZp3anyh4N+etAMX3gJxDuohq83Pi9/3x5GqCIbI+xPStw3MWTD40zIglHyao5KufPQQ7zNoSQFfc02uZyUPl1fhjbDBImgx25pr5zYdp6PmOC4KYoOahAvRv1LRivFxCkYWkEegCs3K54N+OlmfwEymZ4qIUS3lalVGLvUDmJlajoNnUGAw3CqnYUeCltm0v0diisYw+LDIVv46Y4XRx66y7ML6WKcw1vea6GDDVn1gjimJtg7RkXxbc/nMdNi6ku2w+ZAGJXcvNPDSOcZnhK4uOmC5Ic+aOCLjHlmVx1s1YBJlwu9AwgKT7sYjAQISGUIrPwtbI2FBD0aDn2vgCmQ2KawSCHUmdoUPxCpHbqA9QB76rGsCKBJ1KIEtlsiRUDV7g/QaQ0aogDPK1iESihQ7uVeKMESe6HWCvkaVBALn5K8Oak6XmMQuG0Eraqu3BnA1ynEkSzd+OfR0NJzSRb8x8tTsfPgF3rSYjIm2smA5K231dBMKJCnWi3V7iGpglv0EsJpMDCWchGh9Y47+jL2uKC6JnpHJ8cdRCX0h3MO3gk9EcQxQNbg7CFBIUebH+JC+qWTrz4LEYoJSGPaXtdFICQV3A7olSyEqzBaHyvc3Yo2pVTKRQRfyp+VA0+vrmANDdtkjUhL32hOJraH7wPvbcrZvXr4ch2SBVlW06Uoypz+wYESZppYWOGBJPqPdGinY4IF4mO7O4MiQqexMG4Veq4wqj30TtvWaBLsAxc8B0Am3yGBiqwlYaGt5Q4ILnZ6yaOvUwMUPA8cjNZvu6vaYKOV0Y4KMUX8yyavxBq95pngDc19vJ86WHWM/exonBFSGe7SH2FrPGA0mpAH38rbisAxoYWkjIBKX7bzFqOHjlCJRInLvFPl66sD2Rx7jH29iEPu56kgMXVNnBTyfoYgp6nsxqI29XQHqvnKKJKv7Hz3dQU6FL16a546gwsqleR6VuMaSdKnhPNIThBp5yxXss6rIVo6n7kA1bu8h7PmCtLW6s=

@@ -7,14 +7,5 @@ tags:
 title: Gratitude 119
 
 ---
-
-
-Let the home buying process begin!  Just a few days ago we thought our
-only option was to continue renting for yet another lease, and here we
-are today working with what seems like a fantastic mortgage company and
-realator trying to figure out what we want in a house.  I think we are
-just at the point where we would like to be in just a bit better
-situation before purchasing, but at the same time, we are done getting
-kicked to the street or needing to upgrade every 1-2 years we have
-currently lived in 6 different Addresses in the last 10 years, let's
-hope the next 10 have much fewer than this.
+<!-- markata-encrypted-source:v1 key=default -->
+C5lUn8bgLBpRx1Y5qWRdt/liSCpYjIpZ/MP4xFY4vCVmZQ0WrR20qgpLJBa0QWCmhkBEwBRy0655Rp6K0uuAPE7EW943AUWUJXPFe5S27McTz2HCFlD2oi5T6+u3dJ/EJCiV1KmREAeyxd/Kw6cVj7p0M2aXWz54nyjrqdBbB7ZX5AwAYcCs3eOGT0jV1ycFP2TfaMvERzfuOhvfX7yhjV1GkPm3jaIpe199hkkuGsGPtmTKiwDbtzg82NOkqs/jqSI5QQAZ9KbJqtV6dnsegJp+BKVn5HG7cnYkgt52aR9Fuu3Yxdg3tz0nUVNXWzbHjvHAbpx+VCyX3nYbBd37JWItZoRxOVrGLVUgHeak4MkQ/UQ9iruWU5G4t6OlFrErNrJBh5PGu4fKJ8kLlbYfHV1ZFwGR9tpqoZP7FCNyXAEJ833YlNGT6EIeQD81aVCO68+RwgUTcGBlAqU9BPLmwqP1wB+gsnSAQkTT1jw2OPFlLazZ7NEwYzs2l9S97JR1Ba+X9Zh0yUWx0d+QnskpvemIaxdMQc0mlKBcvgFifimw19egqDCdiJqVBLbj/O/SKbxiHd3JS6S5NQ3LZEUkbQOObrhbeF99LjiugyHWxYqYxm7gcnH+Dk7fg0JmSu9TmmjhX++3ullSOkMgQwjli+b8AFvQRKQ/hGXs98SdMQQ+PpgkJtoUQdJL0y/T1qxy+Kvi4/dKkcUjxS9eRcT0EpRBXNdqXi7U9hIlY8/FfKW/bipDWWAIfZzUrRdioHy8YHTODnmSnyy5eGxVs8ZFD0yLgvlNJFvsdIVev8A4golEMhPIw8RBY9uY2cihhXcvme+KK3YLH9zHwZX92OXB0kfmQKvkANU=

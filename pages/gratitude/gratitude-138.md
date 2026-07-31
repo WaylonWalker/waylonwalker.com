@@ -7,20 +7,5 @@ tags:
 title: Gratitude 138
 
 ---
-
-
-Boxes came today!  Getting ready to really dig into the next phase of
-this move.  It's a combination of exciting and overwhelming.  I am so
-incredibly grateful that this is the last time that we have to do this
-semi-unwillingly for a long time!  There is no more landlord, no more
-owner to deal with.  The next place is all for us to decide what to do
-with.  We get to pick the colors, we get to pick what new appliances to
-put in.  Most importantly we get to choose when we want to move.  We
-will be in a very stable place where we are in much more control.
-
-Dobby is still cute as can be and spent quite a bit of the morning time
-with me.  In fact he completely fell asleep on my desk for one meeting I
-was in.  He is so far doing fantastic with all things puppy, fingers
-crossed that we can continue to guide him to good and not need to battle
-him every step of the way.  We really could not ask for a better puppy
-for us!
+<!-- markata-encrypted-source:v1 key=default -->
+XLNu0GJNi68MVR65B7AyhrDB3w/SYPRyKoDhQqCd/7COqznmxogLIdZRUqVYZKuf4zyhet1WnP+Byfqa2l9+V3qrZ1YB5VCZEXbn2TzYgeJvEOh2PAQ+eFtPGSks9m5xmEPWY0L9O8bHMAzPCuyzHNmOydd5REs3FA+zWXPTgeCPFEQs1BfER9ssz/XhV8BcxBuPZGRyIC5JzvIxHrSN+4moM5Hq+WI4QCGCt4mqqc0SA8kd0ft4b60FxuuCQCTClTh48udiQbjCpDL51KZyQRYw6mBdctJHBlssSUZzfgjbilvPSdSo5iVzqkymNXDqXNWzrrXxpU0UWFPM0SXeFe2ExJzst+ReQEPfw+km96Jfk9sEZ6EGn+SmgF2RJb5fIoXv0/aZ7aAc55c/ImvMWm0wL4/GyUqvtIMl0UF2H123P5NIDN+9gzsTpggUY6lEMsL+zdI+2GJeAMZ1TnMpdjk29ngQf/c3kcBz/Ess13eIvEU6zl0tc+Ul1qtOvqJ7w7Y5qvQ/bX0PFaXWE70gLs0vTujZAiphEctUi2ltFe/+pLxyo6kts3lpWZg1LZ2aKw6ZveSJxwz50R8WlYMnlyyW3cCosIYkXJf+Xk1pBBITLzXerq8bbxjCioONalzsoeq3jwvEI/eve8BAj4mGIVQ909n1UnPbgPqOqoL6jNgTQTom7IPXFQ63wWbDrYGWEMibvyMEvkuly+qS6UlD4N2M9dI43NUcJkzuUeQoM9jJ1FUbKqCiLh57cpFbJbmE7oRc3nBK7U14A+bdouShWlFi+litkDQ1ZhUNhJ5LPxems2faRAqsLvCxc2SNJnLnE+QJtd0sCNg8vxMFI16g1B+FGJ3HfYQ5jaVL7QHsW8732BPCbx/f+RqFFsqGEckuZk3EzHpfIDlTdWy0sfjdcOixXUBTeMpau9apbe5/r725puzavqfNtzuUwKlPfCcabySIpUN7tCOMtkuqOaTDmHwropklkuuql0FQAnAkbtDdR5Q8Cxh5DTHU3wlzvZyK1Mf1dL3S8bCCkfFRuK1BtXOe7uenzozW5iToQWW5voayCudqnfmnFwLQ/qoPD7Nz8KL+cgapCUCvZXLsqG9TQGxdZUj/3EPYDOW32a4K1WznZKp5bIJX5MjNzx1ojYuzONW+g/bj7QyH7xeV0vQqZNPYbAAiocevVDldqnPqmCVZ1+JR3vw91zRfVYFbQ4SwMwChwRUNhkHSH22I0VithPolepSMb3gMPZxd7yeJtCO4Uvt+JpYJxAc4ch9joL2Jon+l1lffhAHQvj4K

@@ -7,18 +7,5 @@ tags:
 title: Gratitude 100
 
 ---
-
-It's Christmas eve and the love and excitement is in the air.  It's
-definitely been a chaotic day with emotions going high and low.  Ayla
-has been singing her heart out, she even recorded one on Mommy's phone
-and sent it to me.  Wyatt and I hav play many rounds of Minecraft,
-installed a crazy number of new mods, and got a few rounds of 0AD in.
-
-
-Best of all we had a special supper, and enjoyed a movie all together,
-that's right Wyatt, the king of not being able to stay put for 5 mintues
-enjoyed at least half a movie with us before we cut out early to go
-play.  I am so grateful that I have this time off to enjoy with them and
-see them just so happy and joyful.
-
-Merry Christmas Everyone.
+<!-- markata-encrypted-source:v1 key=default -->
+5rzw2qhSmsOCzASkQZRv/wxKATacFGcXKjtG4i3A1rkewQDvNZ8mkSKO1mxVkBfrgk4iGv0tlQK5jGuaKP3ZKJ2UajDYKjgpBFv5HjGwOa01IUYR2mMRF/KljBdCsUnX/wxDmlplMs5ZQfGEwnan5PkdSM1eNl6hlDR3RykYjUBV173AGhiZSumBy7Cb0xFtaUeGJEldVFmM+kjtSlepYDykef2EgWt74V/KHWixo5qPdpIXMQwq0T+DiyiHD8vexESPieIYq/n0Z4W2rxggdP81ZJ+58vuk9RnyEHG0Kwqm4kXqTHgCTVpqQFFSsRCoWsbclSJXtwBzjXUvGTddwGTzc5oB6KJfvmYKfxbxygTTOL6c+W0eQ1/wND1VuP5IT9oqPmXt+kQBpC/0l8Rxm0gy+D9n6hOJ0F2Ig8CuDcmvmEgckSwc2vEG6hXI3ayp+8E2l44KdigVqRh3UW2JFRciJOxG4mhg6UgHYj/+YPvH/yz/mnAMCuXgb0LF7nNxNTxP9Ps1wqjVoECIihj3LiUZRFbtVKXGz1kme+Wun/igs8xLk6AEQSAa1QfxxR4cKrOVDh9R1hlprzd6TVtFi0A1CXf0EJ9i1Bpr8T+dQnpbFByBVoaM+53MGJiyH1pe4f9qCPMa9Ne89F9YHtzE+FkptQS9Zl69kjQgGm7n5eSD9wnY1MuixTOAAZlC9TyeTbOQQdzOGQQmtE9sgFZQiYcMpfPh5JkVjpvmmsmFviZXjO4/JBkCFkHcLzlUixbG4YyQJawjFQRmpE9vmiS2w2l/lmMgXEI9hnBGgM3m96Q74BMcps2gKs3Lh0/DBPfAC4z3Gv8PIeGkHkicGkPnbh+a8360gU7HOxKcY1h4dE1L22+rlbTrvsdFnhuJkSQaYJEQcDGcHD5+0TkfRKsLkC+hW4+OVpjbDCoq69jQRGMUqY9voLxKYXZo0h3mtJcrsilRqMwG98CodU9TL9icgVUNW10=

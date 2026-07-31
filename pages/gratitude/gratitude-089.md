@@ -7,8 +7,5 @@ date: 2019-02-24
 templateKey: gratitude
 
 ---
-
-#### Keeping Busy
-
-
-Lately has seemed incredibly busy.  I feel like I just dont quite have enough time to the things done that I want to get done. Key word to remember is want.  I am extremely grateful that my opinion is valued so much that it keeps me this busy.  I am gratful that the things that **need** to get done, do get done.  I am grateful that I am still able to get **some** of the things that I **want** to get done each day.  Each day is a new one, with exciting challenges along the way.  It's what keeps life exciting.
+<!-- markata-encrypted-source:v1 key=default -->
+7GXx6En0gUrkbL2YZexPvrYp76zq6dPp1wl8xfKHpLbLroqjCEV4laoI+n1RZ1E/dhLpb+ykMARoqkxJVPc7IAiHpj8xv4dX7DMp8OksL1H1sTLriwEMtTMtakU/ZwJgqDGu0sAbBcduB2I4yFhffmcEG0gzSiKV0JklH7jwnMUnTCQdv/f6Vook7JPFqT4RamIIL0fTDR5u6lofDy539v0YEetIdeCrXcyxu/AfzuacQTEtlTDYABG7GyZCM2PeHCGPXc+mCACfRTB5SA/Vhrc7tDfbG4OOhwBRXALA/6LTpY/CdSjnN9G4udN/BV6MmpjJAMSh9XiHK7fjhfTuEyQXZrdty/e3PxU1G6zBXc1VUvBsa97+PZD5dfMVnmArkOnG1lkRF9TyE2unO276+LvT8AT03chbpi5k1yjii734vqqUXG3wDryD2ThU+nx+2IWUJkEUL13pPIv0GvJIjs2fLkHmuPOaQ+wqUAcV1kuPt1h75ZydVSZScdFV2xKFrf4fmTLwlXxjvliMOiEk/wkC0QTliOxqmKfQ5DYO4KUXa9aQHHIfje92Dpp1MwIdIvPDvVNfPKw3ANY4PLdUcTqekoM94LP/qImYXckmvlQ2ee+iIYrejuM6fT3Y+T6Y3b2WKj7QSvodMGCIxVgjcxoCVxnbG1/MgWxRxMh0j090WLXbAKkS/4Un0HNmheZf/b13aKJPWP/dVRnzZhA02wLs4cIThw9/zGm7dG8v52WCuEGcQuUy/gIlfFwcpAqYzy/O

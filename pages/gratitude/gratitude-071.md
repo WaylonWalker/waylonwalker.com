@@ -7,8 +7,5 @@ date: 2019-01-12
 templateKey: gratitude
 
 ---
-
-
-#### The Right Words
-
-Yesterday we got a call from Wyatt's principal.  It was something that I did not quite know how to deal with.  These things are not in my wheelhouse at all!  Rhiannon jumped right in and was able to talk to him and say all of the right things that he needed to hear.  I was amazed at the way she was able to speak to him with positivity, gratitude, and most of all inspiration.  She did not try to tear him down for what he did, but try to higlight the person that he was in those moments, and paint a picture of the person that he wants to be.  I was just amazed at how she was able to translate what we wanted to see from him into his terms, and give great example of things that he would really care about.  Hang in there mama we are on the right path to help him.
+<!-- markata-encrypted-source:v1 key=default -->
+bWe0ZUCFFJYzq4pceRdKnfGRHN/J+olKZMrc1nBL0bp8sMYGY/mtxwqE1sqqD9O9fDErzqt9YgK07vfkFrvgSdn4teafpWWuWTajxJ2x9RyiU+6R5y7RrCs2aL2UfcV46w7y21n4Tyvx11PPRS8KOB3flkWiU5fJJqBuLhg9vcI7smWn+7PISuN5Vqhh3/xoR0Pankb57YbOS9MFztaJuLQwxDD//775AUaY6wQLfQlIda0mD8N72vhDarTsgE5//OZ0DuZ+tLUtpDafkUk0IyBeqxAHJHFf8xRIvo7+j+ZNAteM2FY7JZIa6T6fpn6H6PbVX/VwyQgGD4mHyXeX1TP8sVTPqHCM0NSec9BFlvkFvmhI9FGayVMhNQUOQTJAGnYWQJi7RxKc/u76ZyHBMfwtjF0j2IYc/dKk0o9vt2hGqozBISbeV++OlqhoAaCSeTf8eQjnphuoydcCTLZTXKEuLFc8VrfYZZ+E6f5WimZdzHwymvm+DpZ627rUF8THjXmkahEEQvwV8pdmXrMRO+D7VCPIbJ7zA2gPBFBT/wiVlkhDNPnutOKx1uGiP9Fp81+N9vbtGGLYQtYGdG2G8Uqf6Rb9VUGvV4LOkJNUGOdE0cpUiFiEiBIB8m9g+isQHb2Ve/L8WCxE4Ui1jFhb66/ZUVpHl3N0duC1CacgcTCJRZQ1Nic2QESf3gh19+hRFeFp13xX8wzsi8oIrz0vVoxIaX2D1aaCx4o4j6rnB+bxqgcakg7tHTOcW7eT5gl5VNgVEzWeBpC0s7yfR2rPKbr/SXE1Xmhn/3O2TTuwgzfUemaH888c6Vqays+YxKWDj3gyQaTYHYiAPLc0xBNhjEp31FMnXlkoEWm8l8Okn+p8dOuxt+erJ/quz8PUjk22jjFAKCy80xR6WKRqgKMZ867gjisdwy3pWXT8vNoNK+pSWUUMl7yJBtsY+aS+SxxZ6xYkAy20EsV/MfPJJJHbJnWpHx5b4wYSQHgC2f1l6XQqMT2G0G4hEMw2X8vqEUDMbR7FrIWFfi1Bf6aR5kTPbORb5P9QaEheBO3PCCI7AWbwUwhjOqes9zZ1D0+/8SkQKAKVi8HrUMaaS9Hky/zNwjIRH7M=

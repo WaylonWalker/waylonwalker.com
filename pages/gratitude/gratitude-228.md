@@ -4,13 +4,5 @@ templateKey: gratitude
 title: Gratitude 228
 
 ---
-
-Summer time pool time. We've been back to going to the pool semi daily, the
-kids have a blast and get lots of energy out even on these super hot days where
-it's hard to get outside in the heat of the day.  Both kids are really learning
-to swim quite well this year and hit the pool with all the skills they had last
-year immediately like they never took a break.  They are both already
-progressing past where they were just after going twice this year.  I am so
-proud of them and so grateful that we have this pool that we are able to go to.
-
-![image](https://dropper.waylonwalker.com/api/file/e8402e34-ec76-4652-b0bc-524735212e8d.webp)
+<!-- markata-encrypted-source:v1 key=default -->
+e+hLWKcmecGb7WAWVAI/gM+wyaoDuR7ycIFmbw/QRDxElAOYSPRVVvvMp1fMmMJnePO7HYbvPXr+Ga158ZJJBRIQBXXyFwDQ8KsRRxFGsB36IRXu7l17MmAQ82Nc7fuWqkpllzzwr5Y5TSHc28t+HvONr5WdkpBH22Wu4NqVlv/zjsDvmZ1RKSYYqDc6IP4cwS23MI3FBj/SnehCMNf4AAKXr1FfzHy1RRaH+EUfL+kHUSAs8AQhfP565995sXe14t3I415ytDdGky8BWZOp4gEuSNgy/KEtr0gZHbTBFE5gV1yWU+PCUnf8InfBCRcpDtpm6+Ce+lQX8s1I3eKJEmLReeD2jxdo4EoTNcQawQkI138bzYRyFOS4Mnd/6QWgq5ozuf3NKmYT9c86o8XTMzAgDeeEdqXZFsrO4B78rn/9G/Ah+z1qT4r8jYYB5KeEGjy/wObcATx7mahwEU0PcUHH0TO0HYGXBCwnWNeaSwgWhH+/NUPEfv+7ztEpr4EKaFoYhhRetuHDNz7QaQzVc6E+DYaYz5FEPv/GLL9hgeLhzePnc0ct0VJ1OOAlwbDJBL/tcFZexedJ37IJrncHVmVyQbUQBKQAE10v6pW9LqP7QHYYxOeOmOG3E01UZ3SKoEYYE1LcZ+JOvouiQitjd4T/IQU0KK2BP4T+V5yIr05brjPbf/EjIgqwWuEB1u9sNZL5a7AQaDNZdaeCkvr43RnT+2VJBMLGiD4ySrBYY2bZOSO0u7vvTkLo4wh4gcy/wP8nDl1PB/tlQyfBmdq0VXoBF0ugZHDIOHuNG1/Sozksc+nTk5jxAHwejmvJ/8amVs6gJeTkf5awz9dASHwsRyJPXM2Jlrs1iSMlTcZXLMIQYc+56OFJ3R9Ez/xsZ24KtQz2ltpFYE9gPw==

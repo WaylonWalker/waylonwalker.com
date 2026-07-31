@@ -4,25 +4,5 @@ templateKey: gratitude
 title: Gratitude 268
 
 ---
-
-
-I was [[ shots/doing-some-keeb-modeling-and-thought-this-was-cool ]].  It's the
-inside of a keyboard before the key tools are used to cut away the board
-material revealing hotswaps, print in place support and keywells.  I've gotten
-back in to refining the model for my next keyboard, all of the details take a
-long time and can get tedius, but its actually really realaxing when you are
-working in a model that you laid out really nice and is a pleasure to work
-with.  This is about the 3rd iteration or more of this model so it's actually
-setup really well, theres currently 281 features in this model, on top of the
-hundreds more in the derived geometry.  It gets very complicated, less than I
-first thought, but more that I thought it would be when I really got into it.
-
-Today I am very grateful for my family, and to be able to enjoy time with them
-every day.  I took Ayla to acting class today where she started to learn
-improv, and tell me about it on the way home.  Wyatt and I are are back to
-working on the crane, and getting very close to the end.  He is already
-planning and excited to work on the forklift next.  Overall there is just so
-much stress in the world right now, the best I can do is be grateful that I
-still have those around me at the end of the day.
-
-![Wyatt focused on the crane build](https://dropper.waylonwalker.com/api/file/9aa6341a-bc52-4faf-8019-bb92080c6033.png)
+<!-- markata-encrypted-source:v1 key=default -->
+H59yitRY5nC4rGxxV+kzL1iGmCiAUUnn30foaD9LqZ4NGT89+PsNN4lP/3uAjXx76bTQQtWWQTfdmfAYwKoJGWjttKJX6cqfJVCBvxH6p5rDWbA90RAOP2R9ZsFYIAONlwogyVNfcLVpa464EI0LW1oBancIDZavPX5qheh2gPSxP+PFgN8BKBw1Op04RwKohK1HB98WZndzyz9KFHB3ofSX1Kse/JIsRgldnupmfmeqPzcm074s+V8WPAE8jOY/FeGnSD7qiDethKd15rJpAmEUo+HM1Fdzn56SL5giyKbsMd+IF3tG7cx9yu75Rzrw2rfCq8b8MfIEmMVsOf7JCr1eju0vjAWKZ8BDg65/NYPBPIaRDkskOWMv+bHdMhx7y4Zjaz4t3xu1RVFPSOViPREVaAUu6G/GDLr+0Wda9fnKmMczLZKAMk/HLN4/H8KlWOyQE2tSvWvtJL9VKvZ1BgrOrlyQ7KpGp1PgYztmNtmGGWzjvBanVYvfOCK1tiYn756SHl6+WO5QszNN2AULiUk1XQ8MkCD/X3scNLQhFdZnEU21jyYyLaKRWe+Bte7C8xPxuzAthneeRpL9g4R/FNUSYnEMhk7C6ou9YvKOnDR6NRlUeF7S1+LxUG7Y0DUY1NtGvbLDKNR6wyWExhrhG4QA76lINha6Lq3ck5wyLzTomYpGd3ArENMSsbGUtIvrIAqhI1j4iPXCo9CweObHtlkHNuuiqgWByom6cfNGYspvdahLSAVf3OdoTG9tCFumnr21VIiTtyv1m5hRguKGYgFy4q2vueWVMdwocfyYCKnV0ASVDjxsFI4XBeV/bmmV1yYrsX8wdSNSdVyeRwx3MwFea7jJAK62XFwjFnpBZ2bunYL0JbllOkWp0A+DFchHbWomX3hVNy5ivAnaeU+NOJD7WvNh3D+Vh5yD4jqTtKwdGX+hczjmtD0Ugp6+3gTVD8YIp5BMoZ8zdcnZmtDYI8UKUDJQ/V+g9PR1GR4yt1vCEscU493kVNNypVeI3eVsv37feQxet1RyZHQnc57paifhrdO0dnLT5kN7e3/gDwuHoXcqIsFNd//2BW4CTDlWDOSjawMNkiZXm/cgCp3Tc3awypXgZx2nPZFgCorGPRUCsg7+vROsvoMNhjZ6Ai39YyFmcMU3An+A8J8Jz4ka6DwMNUbNTKkmgtDRmgB5jSfCQ3s/6VxT26SPIOv2JtN2xUJg5JPkVf0yuG3m27WSfsdtNb4u5ah2JyKkxeWVmgx4z/3mTL976V6JhTMoyWI7Jot7zf7t5F92irQAbJN6iZlJnABltqa3PGFLhRFXkNLQiNgMG/otF6jvDnfE7vixYj/1kzvOooNqRfSPoKW8zIgRi7YV4wo3rCMncFOe/Hp0PseUXxunXJM5JBd2adyIXhFIctj5qd8ttKGbZ5kSR+sdTbxx3n0Rli/x4U9lQwDr+dUrzyY0TPGt2p/iWVSRxH97GUZtWdfqzCpJunVih2vccnshhGZtUBFFv9lzX7EsN7yXuGDFf96kvDeoFVMBgIWEkHBDWknzHXpBqHsbaQwtouacQPT9kvwbNVz+pZU1r5U4HH/ZWnZlQ8gNWjzCvKYr6ld4IVlFwMAo0U725UUnK64STRN3YOefz/EwrpBWtRxMGHzdlcmvfeWTngMhh9k2Um5bPcI/aDyLFs0UORIu6pkjp+7tg9jHgLT1oZhmy3KH56x4tJTosKVReG6OVumEptuXXvMhhr/KblsyYFrTGYnynjudIo4qUGcZAsJ7uFls/qInNewSzX/s17PPruKBQzSHnmKx2UkcYFXHIrIzod9PlVqS71U/UWTKa4nQNLf1TqAcijUCY4bbPSaxob48MCFqoc3W7AkbTsZogMF32vg4tdmM1sKUxqhCC338RAHGgxj1J7jT67ZmiJDiUjvo0A==

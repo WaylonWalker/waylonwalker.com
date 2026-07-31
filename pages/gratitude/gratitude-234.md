@@ -4,19 +4,5 @@ templateKey: gratitude
 title: Gratitude 234
 
 ---
-
-Today wyatt and I had a boys day, while Rhiannon and Ayla went to the theatre
-for a friends show.  We started off the day washing moms car, then going to D&D
-camp after lunch.  From there we got lemonade from the gas station, and Wyatt
-bless his heart is so grateful, we don't often go out and spend money on
-extra things so the little things mean the world to him.  He told me the
-whole ride home how much he appreciated it, how fun it was to go mix our own
-drink at the fountain and how refreshing it was on such a hot day.  Then I
-mowed while he jumped on the trampoline with the hose.  Afterwards I was so
-hot we decided to go to the pool to cool off.  I am so grateful for these
-days where we hang out and do a bunch of activities, they get very busy, but
-they are the best, and very memorable.
-
-![image](https://dropper.waylonwalker.com/api/file/f3ac8949-2587-42b5-8a34-a7650d612b6f.webp)
-
-> Lemonades from Becks
+<!-- markata-encrypted-source:v1 key=default -->
+7qqUNmwtkzlWWPHqjhUEkkWysW6eaY8mpYbdS3yzxYQmqGgT4DUy5Qdxlh3bvX71WPd0py4BwGNW1e8h7vUiFmihWwYA+pUrn94/V0PbB02v0Qtvv8Cr2Q4Aia3xsD9XUEBt6MGKTBTJ5N7fbaNADiC+hHJPoQWyMD4aIGeIBqs2TJIGsNNqP8jVOKLvuS0TVKIqPnoU5NEHWn5Hw2OnzAGJrh5Gp7+vgByhm90OQUrdCUgRx4erY1MhOvOIjeELKeGnsa6knLkgg5o89u6dPF3+QZa78WmnI3W+sVRPXbzqF9IDt9lAXJw+bHZq3pvWkJfg6xAY8apaNLqIgwhQFEd7YxUGvZIo8TnNZdS5ClNhYQQX9KQav3Q+oTZzTj42I+NaYpJl3pUU7BY5pkrVaXwUATkGbMfpjZ84xtjhO0jbR8ebVMm0BVTNpVyklio9iNcv1Cm21nnIjL6sIQEGRV0mQGrXZInqgGNbyWsX0fXT2GyHt4CuEcuyjkCGyBHvqeL2c3TU49EIQ9EH5B6Fjg58aMXw7We5SLeQh9R2/AeVfvE4qB+JHsAyf28dxEoEROaPbQkBz9YV1zPhBRxLHCXWbWMKNN9gx9MAAJPz0U8dRZrjwqiOi/ieCGT+MeFpCcVqUb6+gEIrxOb+zulf2kDr2UV1SlaIBCBlHYD4i7OFJs+m+iII9SQIbOHjs8leMO+nbLXzK16iOchr8yH8g7NjxooC2/QUXN089jbi3CEyD9UG/RteE3yWWK3JsHPF+UZPzXIP+VcJXgE2yqZjH9Lt73Wv+AzkwXTNpfZAM6ckEfhLQZDgb9J0vrwFWjitgggHLkkr6cVIO7C0IVI79+IPl5CPNv1mJ0JpHB9UYFvqV9hMtE8qJ/YhoDFP6uKu1AT9CaxJIZ1A/rPht0Y4ytsUE8B6dXq0TExprU7aADMPVCjWPKgV25P8D+ZYZkTv+aeaSKKA0Loz/WebpK6eWPMp8QAwBTvc4s2djWX9GxjQ2tDNFrxmfbhnGtb0j5Ho1mh4xdWBw/PkfL47lpiLMVEvdlHMioiW5RCiLUEqX5XMdusSZBif+17mJhNr/HOjkrGtnuilpYKyP+J5mpHJuJPVS5WFFC+09RtX0/eJUD2DymOSx4rVQLYCAlUlb/eXn9scBPkieIMI26YaEDwK0GePubRiyw6wSfAbCkZ7gM/LpmF8hlokhHezUKWKVvAv9NIrlpo4aNg+sSQ8ZFM5YeJ2F9140axdIClso94SVR3modMVHJFp8Z8C3cg3SJvmKWrP9g==

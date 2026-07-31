@@ -7,15 +7,5 @@ date: 2017-12-25
 templateKey: gratitude
 
 ---
-
-
-#### The Good Days
-
-Good days are the best.  I enjoy the days where everything seems to fall into place seemingly without effort.  The air is clean and easy to breathe.  The kids are cooperating.  I am working on a project with my best friend in the world.  I play with my kids, and we all have a great time together.
-
-Today was one of those days.  I spent much of the day helping Rhiannon set up the Cuttin Scrap channel.  We are setting up a really nice area for her to work on a craft that she is very passionate about.  It is the place that she has dreamed of for years.  No its not perfect with the most space available, but it is the best with what we have got, and it is all hers.  At the end of the day we were able to sit down and begin working through her website and socials.
-
-> It is the place that she has dreamed of for years.
-
-
-I also really enjoyed getting to play in the fresh snow with Wyatt.  He loved it.  We shoveled it into big piles to jump in, threw snowballs, and just had the best of adventure.  Ayla and Rhiannon came to the window to watch, and they laughed at us while we acted silly.  Today was Christmas, one of the most magical days of the year to spend with the ones you love most.
+<!-- markata-encrypted-source:v1 key=default -->
+Tju78Ou8S4ayhsY6/aH1TZOk+mqqj0YqxemqTq3omjCpotxX4lmNZmWbIM2gEfZ+iZMrzLcR64Cz3vI63EQlhLTBRh1/AKjsEYKchFArpgVMvrRhVKjtxVVzsaUyozbeeNWPDuzW5Q6JYWZIMaTKw0+0iV7YHSuXpE3Zy0MfSZQ6ZslZ0DwxCIE1Rwa1gI1w++u8Ga9Ft5Uqsa9vhLu+YbR8E4hJ7azwKJc3xqXKgQb0L60JEdmMreAcmzGhAo/xb5ARR8y4LLkjOiehmuzCoT18PnVjRSb6wIOGFhJcQU4WqHRD5HpT5tIV51V2O8WX1Yr3T33zWgrRNaRGze/Q19+E1advSYNQ/Cs1UwOBG43U/XfNdt8kT0Y87X64G2P2VQKvvTh4rOlkbOTlWzEIH+xWhcf1IUi1IZe23Zgv43etPE1JCk9XZwqYwEzJ/3Crpp+I3FKdY6rpcO6EvrczSEJ1/Hsu9tZKFbAFo8qGVqGLlDu+eY4zhGFbRXtj+xSfH2NJB6FCfdMU32G1vjtYLrJFLV2uSDoc3PXnqfP0p6oihHP5kQJE+v1MEkPkyYqGWww+iV4MXi2f1P0UvxlSV+IzCHztrUQSJA/zqySPCJgB6ygm0kbSmj3XDtMbqX/MzJGUVvixWrD5At/G/i6lR92DXVky0pjOAAJGziTPPJCqd8lSDVUFaCzNww5BZu7n+oQW0xn8sUJQeFlhiUWxrq2Vu3k5gZoi/tCbnljQDu7cqCGBleX3h6dXBroTwdFMVK4n9TOGzIxoYRM9S4gsji6B0Ykr/VHp55MfItZCfkORdFCcVmn1i9G+WLZky4lEoDOjzkpgAtizRcE85lwjEiCUAWD4HTvzN0rWZ//xEVydqx2JZ2QZv/C82INZcNIwQaLbVddNELXRLCC1PjkJZEW3SvqrF8TIs01MqJhJnDeioUvmybisGWwI8Sr8I1PoD+irrGWTbrn4sbAa5mN9BhhM9fUPSW5TK/m7ohHaPJ9iYjsWNGuDrSM4wfNMQMk0fMbmm35OrSZKvMH1AtsJ5fnvWnngKVw+0t2qiapUOyVZnZz7q0MYbPW09GD/SIvY9NmW/ivQT57tpuzNUyIlzz9bp6OjVnU9sqMGWprIoCD0OgwL1u+RGHkULaOnudLLwvPJVV37e/428XneEd+B/Xs/223B9KL9dhAhjFHk2X+OlguMXSTe+Vij51NckWWBH1+1t52LmkopwujpjKIhUeGImiBiEpajzxaXNPdfQRqzAzl/hNf4be//D4MvW8AZ2CZNmClMoLfDo6GHYYt3Hx/FeTzUct+yn6e9/Xal1E3od8xHTZuXQYUyK9GDgY+JyBp3qj3Qgy+RT/fw0RrYMllidn0MsSM/dwogtMdUH+CT/AULbel6JAdlaWYlzuAGUTbVvDObW2ziK8xE1SVWNZcBJUbYXJV2KLFj9hQNNfWBiDiJ0Jv2zXUe7OD9FPIeuOVcaOqIWyec3tt5/uRItVl4wdb9PxKc3uTyN0rWwv1n32kLPhifCY4ACwz6v1QzKNYHVLObkv1BafRJInqP7uIMsVua2l/tO/7IOUQuTcLypKX1/tEk03VNEwF5dATwnA+aNlUz1mROTTHnL3ccjvrNWAZI9BhiZrAVwrjLsGN7WRevnhY4cmHudRL7E0j55LhG6+Wf/nUGuVxD0g==

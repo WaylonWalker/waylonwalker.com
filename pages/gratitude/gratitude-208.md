@@ -4,17 +4,5 @@ templateKey: gratitude
 title: Gratitude 208
 
 ---
-
-I don't mean to have two trampoline related posts in a row, but today I am so
-proud of Ayla, she landed a trick that she has been working towards for months.
-It's impressive to watch her learn and grow with something more athletic like
-this.  Her joints hold her back from a lot of things, so it really is hard for
-her.  She is generally much more timid and reserved than kids of her age on
-something like the trampoline and afraid of hurting herself.  She takes things
-very slow and only goes for something when shes got it.
-
-Glad to have Rhiannon back home today, she left for two days to see her new
-nephew.  The kids were fantastic without her here, but I can tell they were
-holding a bit more back with her gone, probably bottling up a little bit.  They
-do so good when we are down one, but somehow expect 4x when the both of us are
-here.
+<!-- markata-encrypted-source:v1 key=default -->
+Z6mOmB6J/vFeztUs/wmhSJXkDe8SRkR8Lsnz7v3EGN+XFpPlPq1HCJaBi9ST57PbMiPPDgeBKCzJnlzRBHWyR8spvSEF3L3+WMyXVXKV+J3gRV/RQr6ubiO8IIhWJr6vn+SwKZKnON3tvye0QteBg0SwcbToFPBfcU8Xr8tALNdQcI+0V1Zla0HHmwmUYXtO+r8Awoemtgf3pOzcImtJyeaSqsgEVjWU1fa+i6g4kSRxu2oLJTAMsuBOcoXvhFDBCr72KEaIU+C6DkiFgjcG43mpbNy13USrs9IOyIs5T7VV+MnXyaJzloZ2vl0RhNqJBeDLylT9pu3pVaNClkBGFHgSnv23lCYoBApXvfaoQGqBfWRfgjKfbxrNkEkMCi5MSTvhP1+Ef90TpZkpF10F7fDefxb43hO5Nj84h6OXstQdewG2xdkoQJPzncvgduO89y3GpIzaswpASc4gmPFzvD3xmvxBDR0xCdt2GfJ1h5ouT7qeY0nLVfBXYLuSoeI93d+oU47kBSDIlk0AIxTpOo6fPbjhJxhuhKPnz1/wpXxHdE5/QgBCiZ7FrT0FiMkgaYIOWhJnms8VTSFHW7nrq8SOUTY3jmxyWYj7cRI2Io2zN1I79ltiQSxj2ZiGS2CEn151SQER9Hh5cCiS8uCSzsZC/LgXnivSs/1idYjmFydRkMnP9DyNjS2EIQAnpxlwlyCTva0JcdRYMU8ayjZfq7Zl63EsB9cJbKmlJMU271lfmReTQFST8i4mRac40FjtPWvXRSRA1eSyh89GHbaWbQqHiNHXAdkw3vGp/z17T82DwwRv4osx2Av9YhJIQhMxTaM291tVHR/ohjQ4wcilfnX+PQkNY9a2NjR82N1tRC8R0+0TG9XavagDky30bHDUXBM/ebaMxw1/L4PvuXCPyRXM3W7Re2tLTV6ol0/Q8wdjNmRqudmpXTZin4XmAMysyZT920JX7+Bd+DiBuOZfwCb5UgmxgLssncrGgrQo01XznJcYYmHhf4YUYPWB843gPZhxAIPsevk1CQ/SBF4O360UTXF1+kPPdgqshSjy5RcsAuhVGUkscgCvCsog0/pc3M3+g4Urfka1mJQu3bE2moIRM8t4A3ezt1B0s4mjG2kQQ5VG67NKAWwd9CgF9gduQ0+i6nzgaMTwBkLkVXeCAlliWIOwjQ21CA==

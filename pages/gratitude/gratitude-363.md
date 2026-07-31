@@ -6,6 +6,5 @@ tags:
 - gratitude
 
 ---
-Nice holiday today.  I'm so grateful for our neighbor and the great mean she always makes on these days.  I'm so grateful that our kids get along with hers and have each other.
-
-I'm working on a new flow for the gratitude journal today, I'm out of my rythm and not doing it so much and my pipeline to get it into the blog is a little bit off right now.  Glad to have some time today to think about it, its not quite ready but about to be there.
+<!-- markata-encrypted-source:v1 key=default -->
+LnKSFpf3rE8E2Oqv3bnJcfVQaU03+9q99OeqEAiPa09lwUdKZOIGEv02zWQ+byqZxj2jh4H/D4YKyqKOKQiwo4BOjlI0y912rtfKdA+zdZtO7kM7U3/2LwwKJ3OYrAr90cLqhRHiQee3hSJfCm+xw4AlQ7Qtze2DheM1hdtsplH5nbvQMCtUz50wVsq8pOpjp6lS80KXNPNJRv1F+bML26dxRCEtl80lW9CYWADAB1Y19KjiW0ScDs+iPLcaRzVlh0narEOv3ZnTb6B6j0vXX706WT2xgLbWw3X72FQI/NBQ6I53Hq5nTvFc/FbDwf9O9uk7H6ljP+V0//Nxb//VH//4rvPPsLMdIwOv/fhDpEh+X/YOCNAWZlSQF8wJ3CkR3gB8pxb7RcFtg2GNgc20cjCUWmXZo9T4hJaG4vao91wrFMIjocQtdT9xLRCIV+kRgi57+MIM2XRnXTydJAet+oY7Tsmf/qnj4ujHPjBcrmad7kgjCkOdi9RrKbyr9PHx3uN4z4XzWUY6d8UkQXz9WU99BK80r2czyMUA0s/V38iyfDigxhzHTzSqmdKcvvpK0VHny6lIFw+0Bz+LiiP2YTjSvnfr8MQlDFTXX34zQxGJ+soQIf9LeHsA+dASHlz1BpgPo4NHneo=

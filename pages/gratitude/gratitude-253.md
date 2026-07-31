@@ -4,12 +4,5 @@ templateKey: gratitude
 title: Gratitude 253
 
 ---
-
-Tough day today, not sure what happened, went to a doc appt and got nauseous on
-the way and it never kicked throughout the day.  So happy to have my supportive
-wife help get me to stop working, stop worrying about the kids and take a
-break.  Also she is fucking crushing it right now so proud of her.  She is
-hitting the gym early in the day, she is rocking getting all of the kids's
-school stuff lined up, and working through their mountain of emotions on the
-way back.  I appreciate everything she does so much.
-
+<!-- markata-encrypted-source:v1 key=default -->
+w+EPkKErHE6aVd/j3QJYprQhGX9C8Z/1kMSTPPXVaq0v6R331os1DaEpfOcmUQwMAgutYkMfbcr09hYa8DNClUGPa+XUGsEyoemLckxoXJ+Qa9gYhlp8YVKfo6FMbYs4Jxar6AceQ8kVCdKYj0V4nHYcIX5Tu1JgtxT/SVJtIGIEVSZU4OcQjVUDmzBH9FTTL+uE/cJd0lov4hcqxFYY97vMaO6SVpj/Yl9SM6eWtTV+41zHPmLq5vsLZILbtCIdZAo2/txOQ6b1KWYP2b/XR29VrHe50smhKl403feovyzIOzP72X8VOhiXAD+nVzS9n1ogggf6HTudLRuVKZ1ibRiKGMC0kLMInd0AmmoxPW8noXAv98DRY8DTexpqPxjF9KC7MTv1Eoh0Vy2vmVAou0ZDPaMXwwqQVoe3dMFET4fZ9es0iVwVGxPUAgQMWc8HYpw/+a4zDGKagSxCeuAS5EUQq+vjUDrklWiAymvq3dP+IiiC6NWYxroyYeoj2XdaWeIUBW1rM1PmnzeZkoXg+WlXWly7xVY6fDjzsKRC/hYjF4gEo2fuQxWb7VAVjUW8cY7YgNX2gYmXIyelo6UZHY0BBXkWrZuRVFVbkq3kCVR2x8hizFpt/kfjlgykTYX8Mgo/c5/pbdkhaxKKAKUScA3OJjYr+acuPvyg6fQCI7e0XR2k9jMRtpEhPf5SbpDuAsvqNYkaiC+gDvpcDCy4KdrvFkTv1iRLf1vtrT1VFio=

@@ -7,13 +7,5 @@ tags:
 title: Gratitude 178
 
 ---
-
-It's Chemo Day once again.  And once again the emotional toll is high on
-everyone.  I am not sure what has been going on for the last few months,
-but I feel so bad for Rhiannon.  I just want to support her, show my
-love, and give her everything she needs on chemo day, but lately it's
-been hard.  There has been some emotional toll that seems to just
-multiply on everyone and make it really hard to put her at the forefront
-without everything else falling apart.  I wish I understood it better.
-Hopefully we can find our groove again and get back to giving her what
-she needs on these days.
+<!-- markata-encrypted-source:v1 key=default -->
+mq/mQjrBtXRVpkrA4BIx3dRL29DqxvXvbTSDgfDr+xNIDOO5WOwFowYkb6U/I0q4pRlyfuyvN3Ng/VttLRz9VMrPTHclTViK/xZGLTE+YYGCu9N+Lv4aTc8ddSVL8WhE2epbtq+SQ8ahKrtt2FAd4dS6QwTQ0S4hXK2Uh+fqaTdfJ6zb3Q7hf0ebuWT4hFYELAB28sVuxM846+QA8rX6a4Y06doZ1MDxqUzf5Fi6f3s5AweImnq2csy7rEYd0PBx9/7GrOpMBsRANk7AWWPbPmVoQd+f3qa3CIz5SKbR0DPGgayneXeNj9x5Iof3PYWFbATm4R6gWpM6+wcIke+k9f7tmIuRmfTfm6dVSS3Ykh1V0fi1SQLZABX/BfqYdVmkyUMAWstS8yMdYJUPyBe4A/AR0kXLtYpuXxNsD9Jzkw5EqvN9h/+4YbfsRSd6P54gEzEW6ZO9yP7A5wvX6ERLAZoZsdWZ9jE+VXMQWHAL2Pp+bT89O3BQXv7sbKM0YkFlq8vQioBtWgf0DEhzsGCfM1Hh5V//tH4EGhu2X9h6WAtWeIzbB0oEnvYtUzgKo7KLAkzULCqJVkNJxHTo7YJgsZwYxi3cVGz+urqqp5yackNOojruD0z6C36KJqZWuznMLTitMqM8ZWSHG02xzpbdgx5nSckjVLNQCmM3N7P48dcllGSPTqvSrvnJnnE/CHCA+mnpa8cvhoKdwrORqWKQUl0zpkcg90dAMBHMddu0iZxf6xyqA6vVj4dYApwozuuE+c4BBcLbXuXK238qoOTVof4o9fcjS6KAVkBth5dPQXp+/U2FM2R4Js5eULGOjkzD5J05gHmnfWr7zbtl

@@ -4,24 +4,5 @@ date: 2017-12-13
 tags:
   - gratitude
 ---
-
-#### Initial post
-
-Thank You for getting up with me this morning. I really appreciate all of the
-extra help. It means a lot to have my life partner there with me in the morning
-helping with the kids.
-
-#### Thank You
-
-Those two words are very powerful. This morning when I was helping Rhiannon cut
-her hair she looked at me and told me thank you very sincerely. It cut really
-deep inside, and made me feel really good. I dont think I expressed my
-gratitude for it very well as I had not yet had my coffee, and my response time
-was a bit lacking. This is something that I would like to work on with my kids.
-We really focus on our please's but, sometimes Thank Yous are forgotten, and we
-are just happy that they are happy.
-
-> "It cut really deep inside, and made me feel really good."
-
-Overall I am most grateful today for the good morning that I have had with my
-beautiful wife Rhiannon and our two kids, Ayla and Wyatt.
+<!-- markata-encrypted-source:v1 key=default -->
+gZr9Ck7dS7Rd8WEuVsCoaim8Y8/CzGL6Seg3DCmZIez8acoDaIl0zet029PV50PQ7Z3pq8IvxtZT8JnvtBOQKdqG0eIw4IX0ObsKR/3r9Mglkc4ymwTXXZBzIu0Lz9BFTsk6ZdhOprQ5tBSItqCvyqrdaFAPG3jTHaCkWCynBB4DUFcCcgDvSDOZgskBs7I1X5lVhZUT1K749mKtiL+CfV71m4l5G0Oc4wP41/YC0bPpAnIcpuWsFfj6DvLQ5CEqwtpHM04rcTzaPFO+iIFgr5lVznYYX29O19agmIW28F6Gmn+RmEKKw5W+b5WIc5O0rC2FX9xJg1yUvJxQaZijE8eN6AdSZ3gSJDE+niJHRwQm2CLp2Oi/hlF2Z3XsmGnQaVXY6CGFbCyWYhE1sbGqciiD1o5J9ndtAkla8W/vAMqC33XTakxKRzId0mx4dElImybrCIh6z3Q6Yq2JBoAh/Uv91Pj4aaJJDsVpeVosx1cVCWAnOOIPPFc53mmFgMtFEyAC44HULAXDiiPQh1vQIZCiiCUQdFdR1dU60dGAbxU9EI3g73ZJc/o6qRQDr38DJ/Dmkzgyg0+OtX/fkBuy8hukFxOneOs0VIfhuT9yII4AziK2Upx+ZmEwchqryRr7VNcaVGK9SyhWIYq6GfAtJ5h6IZvrez3LbJx3zQpYlzMgUo9b2t2yEBhbcONLkNLu6jsirjYIc+SOF21PeXb8t9/06l3BJHNsOyWAD73jxvaPw/w3cdnuYopxxmQl5IfQ8d2wS/5If/m4nnQxaUqgAmwS8CY2e9Kt7zJtvv75YwSKp5c/ZprOM9MAF0u+HkNRo0yAI6yN7eYiD3pbFV/jcEp8ecbbFOABx6FBOWyP1EHsQ7IHya0J+/g6/VP6vUidAGOBbozNqLGwkkBBnaWbhsZDW4rXOKIFZ8OoEqywYcVTdkiWRcujDdRC2xHIkMUME9OV7urBJw09fe77Tnvh05DjsqfegI/J/9yYSDWaeV6hu6o87ixvV3BqBT7qh4hnjuZEg8kvo5K0xbE2SlO4ONwfxXin4vc7/L7dzhqkC0G3hQbT079Vxeatf18GWJtJ+Zb9JBa2UwnVaOFY8b/YrfE068UmnLjRgBtm7K/E6ydKAa07v+86ER/Zhv6AQxsx5pNW5arbMidjOt5xKRG+yEXWsFNadfGUPYWi90ANbdYEqX7o2WrmBV/VsmOQ8umjsJjL61tXvZvTTN0Jf3XHdNGdu8IIfIEx0ZDUEM6/MXe6PUKwHyj4Pa8Owq6bL3byavYTAlPI

@@ -7,8 +7,5 @@ date: 2018-01-10
 templateKey: gratitude
 
 ---
-
-
-#### Excitement
-
-This year I started a new position at work.  Everything about it is enjoyable.  Not sure if that is jut the honeymoon phase or not.  I am working as a data scientist.  Its exciting that there is so much low hanging fruit to be had.  In my previous role as an engineer I was in a very established role.  While this role was great,  I really enjoyed it, and had no intentions of moving until  this oppotunity landed in my lap.  I felt like being in such an establishd role the job was to follow the processes that had been previously set up.  Now being in a much less established role there is a lot more room for creativity.  I like getting to work and really being excited to get to work creating things that add value to the organization.
+<!-- markata-encrypted-source:v1 key=default -->
+DBF0AZyHVwv/R02iMhBvhrz8tlG3SKoE+zXAff8j5m9CMEmX9CvFvYEv6w7rzIr50q8x1MaZWuumjQy45zSsLXmH7fmeIwC88p5zqq1hZlx23RQBx7K5peI4pRFNBiDAnCW2VSNUjxOAbdWgIsMcrpimhklZdw2iUjrB9z4NMKqMF63fw105slYZwuKpVqjbgIQdotvIPxNCaW7ilaGyG3ANTJ+3afKrg/h4j/KEuQv1J9csKsM+sXjpjtL0Sq2FWM+n44aPdqV7hjlIC599LsVTCO4mQD/tkBtMjdpjUPTSrpMYhlS6m839ouMWzT0HtnLr4VqfBDsjH32MqBYC9I6qFrttW8OfsW+4Hto1+GaBZjYFVNMOVS53/TQBkXxPpHPvbhWH+kr9cmAxEaLa42xUJngIws8viHyjHNUldcBBRWF19Sz463bohxMF50Yz8mAvqNcc2F6KvghUtQ0vBwlydX+7FXcOehjVScsrXR/Hv2A4+chUydggusmaplDGMSDRVXovN0JIR5PFkYvZA55jG2UbFJJvy6bMT6nM5G1FUL2BO7yhY3XTc5Od3JK3BhA5aHWNIVml+9Jy9vZRWCjU3vWameqZU/BgUuxKZkbb+F3bXhy5IlcV61ZcB8P+uKpBJ5tWYTuDGKkqkbEl1eWfsgzIHfhlPG1hQ3PctxLqwAc1aOwXnmqDyJkqb//TooK8MVL8Q95NL7WqBAivVEe+h2xFLHJTqHU+plm+NuSF00sWOPpoLllxhmwkA/48aaZ1LTKp/7Ml9d9i9Y9UW+ugGj06o6BHs6pinhJI8scdA1gm31qVvK1wf41GCBdKBS131XFoPF4fcsg7nZ3O199X+16U85MQxGCTfRB4g8QOSuPfqkrwvmvDJ8uUEcVcFwEnXKvIi8hspxdRH6kozuIBTlh+ukM6XaqHcBRjzsBI00/W8fbg9yLbWUrvqxUQXvz1uQUGprjBLQSnyA66qOEzqZpsBVsiB0eNMIae+1YyW/h6k3VldVbPILY7bZjnufyCVal3+yPYH0d6j4VatvoxSEnHpGrvGbrr0caEj4rJhME=

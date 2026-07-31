@@ -4,9 +4,5 @@ date: 2017-12-17
 tags:
   - gratitude
 ---
-
-#### Family
-
-Having a close family is one of the most important things in life. They keep us grounded. They are able to tell us things that no one else can. We are able to share our whole lives with out family. Having a supportive family is very important, because without their support things get awkward. I am glad to live in a family where we can talk about anything, and support each other through almost anything as well, though we aren't afraid to point out each others dumb ideas if something really seems off. There is also the physical part of family. We are able to share some of the workloads. Today we had some extra family in the house and it was nice to have a few minutes here and there that I could get away and know that someone would take care of the kids if they needed something.
-
-> I am glad to live in a family where we can talk about anything
+<!-- markata-encrypted-source:v1 key=default -->
+eUak39vBI2A4RJrkVVFad9ERv3Lpmbv0SBvkTOSFiHNICaMp5QsxxmihKF8smoGR2sv3NhCR5HH6FUQ0spAdrafij63zd/IYuoscKuAt2feno7S88tzW0rDwCsfTzA1i4JKlPW+6eVKqLc4eFDQdLA7OQQggb8Qa2pkYmpmhNCQt1Vz8G1Kf5iGiEBOY2XevzDuSMyehscYc94aOMmarHDmmcn07B0MkZYuBqUFrTILRg3KVT82cHeTX2BU0u98Cfdlbms0fR4t+L2h+5lRjDBj1vcsBfaRfARuNOtCPTqEWvAhwqoaoHWmqpd7avN9CyhD69XqJezvh0/fNaT0IDXqEHLU0PPNy6CmKoz2HI928YTEfNUbzQB+tMXc2L7Jv1FmPcV1V1V39eE0WHpyny8IAY7GCWk34hevnHHaHr+AV71Nk6cD7YaWh0JHGaMx5TGbgXeGmPa1l4yfy85j3sASz9BxebDwqnl1i5YRGJ4hNEoXAFICR6Mno7BhkeZNIQA3mRHpzzHlQPSdRt+Sr0Xry20RJRR8ovG+jv+bS+4YsR8I7/2vD5HJGHyVNFPEoHPZbM69y3+0NYP8hpQmIN2fiDM4LgQXiR5CWTj7TbuS8HueXZ1F+Y1z6R0kdX6NIwEvE0PSSfgQHE/VCmxcv2m5rd3V8nj2KjF4rifOJ5SGTIvEyZXeXrUGTV9w4MPGl/Zs6hlla5cRUMpFY4jw3J/Vsvab+0Z1JXM3c+rJaVl5l5dx8yfeX7773YZkutAPs4UDS5IW+LvIGgWXyYXfTsuQkcQ92gamNGEo3qGG9vUBxTxfEkklRx2IbHBhqYteMoTvAUK5zn3kWlbjFWMYYCYbWgWIzO6nduW0erwFAh3RgeLdax4ABs3ftcxdjUvlKD9u2f7lU509Snf0S56N1C/fyNBSih7Cf3n7xU8RB2vtDSNtx3P9rjAd7GqM+k9zELcg7gk6LxprD/1QSYYd/ySSvbUYXZlAzGl5DnbuWm6e35VT0M229XeGLRGW3e7WTNTRV69cPLoGGPvGyIb152RkQqCo6O/dm4S44evNCbgtjKgsI2yA5o6VRJHrt5Dgya97ybCJIloz0jB5xD9ryzUrx5ij4Q5hPJ/3/xHYbMk1QI4DIAlDdK0cq/Dj4CwSt8Nza2s2u6jmMFs0NP9tEPZpvy/hlomyBDaDD87loIfKXrE3zH6rAlVpSeic+56A=

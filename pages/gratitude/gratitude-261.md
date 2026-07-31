@@ -6,15 +6,5 @@ tags:
 - gratitude
 
 ---
-
-Big progress on file system and file shares today, I've tried a bunch of things
-that left a messy trail behind, have fought file permissions between all of
-them and I think I've landed on something simple that works and is getting
-cleaned up very nice.  I'm grateful for the ability and to have the time to
-invest in this it's going to make file sharing and backup much simpler and
-better.  I'm grateful to have the hardware sitting in my basement to run it
-all, the knowledge to do it, a friend group to help.  I'm happy to be able to
-have all of my files in one place, see them on any device in the family from
-anywhere.  I'm happy that I can put my mind at ease that the photos from any of
-our phones will be able to be stored safely in our house with no fear if
-loosing them.
+<!-- markata-encrypted-source:v1 key=default -->
+fRym0t4kHWpO/U/XNHgd0SqHESQjsYrkruXLEFx6FmNbfvi5ZHyKhuqkevvONMdUEZNJOIc6OHDcY3XeyRuE0QE1NF6DQVD1uOtdR5onh2+bec1MHPzOftaoayuwJOzqnmZv9/+ePZkxasXjCwm0ic5DCT7k+z4gcJdPO2EDfE6qKqxejQvD2kcp+OqtGrSOTXf6g6I999JwArd0UAcFUVjwHqXlufYxrWT4GKE2Btql+SqeJMSr7UOb0O8LekhjUnjIxQsRLwrDLGofhTkUYhEFBV4kAimhQnEV6/a2F6AkBVCi3o9z2XxezBRO+/FB9YgyIQIiI0Id1NDOazzB45P87k0iCaE1YgXf6wxm+JrSpoEM91QZt3nGAALU1YFcYX+yWnWlKjNC2l31LmR/aJo/CLafXIct0zFEaSkzansotGCq7jlwO7yXXOZwoUHlOMWZA1QNXYx6F8qTqBB107EmUs9D8r0d76DMyBitLOmDFt3gcGgZw13QjwJk/X+mS/PwvUy2f70nPantV/3+KG+o8d//70ZXQnECh8HIvCrJHZ3fhRNEee10Jr7HW+9fBR7SFpjeZTf/WcbpKS2hY5VxxMEpcP6+YIXfLhRNFgC1N9xXe/7RbGTm0iWXHrfs7R3E9hevz3DEPnJvB2U4ApAFJKw3N+LzU4Lp7dY+3V/7Rv8PtfONydnOQsKI35Buas3rThfHtoBVcu3NmhzAywDvsW8vATXOj1N/ybSOEAJTcJ96c2FyzCI/4wqgfwKxCyR1sxCPrZhwyjK934VUXWCp+CA8cqYrOyRZF/FT9ycHyGKD3Pz83kQ9sQXj1igeqQKwEAt3xAGaLoGxTfLzc35HU+HE6Iq/3AEH8c0DTdC7P+dXmJn5QaurWLINhzdMmURi9o0JBsnR+hFxcbCmhCYrn6J5MOZu7atzuQMTB6pqlXCdtWuUwzFMPKPFC/bedbiaJHJG+Zql1m6mv8Sjvda4Unmd9/CbMlciTzKofki8frGwSha00XXhDI6DCOEyEd5bMFtbYA+KbuH9lgvd5+KPa38115J757zfotA7WutOiag17Q/q2Rl2RXQF4x9J+vCxiujCtdhh

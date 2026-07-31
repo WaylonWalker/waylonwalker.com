@@ -6,4 +6,5 @@ tags:
 - gratitude
 
 ---
-Rhiannon had me do a 2 minute walk sit, woof my quads are barking.  Feels good to do, I need to get back to doing some more self work out.  It was much easier to squeeze in some pushups and squats throughout the day while working from home.  Im getting a few walks in a day at work, but it's not quite the same.
+<!-- markata-encrypted-source:v1 key=default -->
+9hCRWpsS9JPZcjS5PxwtA1t5RHiVzxk2H193z9NLgD9z6D/VXjbQL6Bh7ylW0MxXV/HR/Hr1S3LFihMZolPxdK5HtO5TF/Rl8LkQWrHYtfuwN80pMgZLWQJbitXapvYsN1OhF+xk8TGK5A1IjD+zsP+ma/l9Ls39dxbHltYl3ILuKhuaJzo2xK0Abynym9kkS1kxJBY/PveLTdfBeH1NhAzT9Xkz9nR80afCB2z8QmvOaMY6bJROdJ+ri6vTIZCjqqVb5yODC28RIOEKettbw5Kub1dpbBp37p9cUsePVaw6ZihgT5otJ27qrz5sfGil43p6DEDvTWdxVRPqM1PPscpWMTpaipGcefUdXeJdPCywSUZ/HqrtxfOwLKs0hxUy0PALP3vXfa6DdTlRaetxXkgC0gc52g311C7AShu8HnoMVuQ5lqSKx/K/VP+3nP3y0PFLw11nxQi4kKeSXz1wKt9P/Q==

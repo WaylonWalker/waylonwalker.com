@@ -12,7 +12,5 @@ description: Captured this photo of Rhiannon and I at sunset by a pond in Iowa.
 card_classes: row-span-2 col-span-2
 
 ---
-
-![Sunset with Rhiannon by a pond](https://dropper.waylonwalker.com/api/file/e0078b8d-7846-451b-8a59-40e1ef7925df.png)
-
-> Captured this photo of Rhiannon and I at sunset by a pond in Iowa.
+<!-- markata-encrypted-source:v1 key=default -->
+QbLh+kPfkaiw16yUQ1shF24X22ZYjLqH6IagBkd1FzXzdMgm1r+ZawH+kSJaPnp9ah1tW3v1nOytsHoOE5abQEHSbCKWtECbd/7jrZOwYIyjD3IoKL/hHgqgll8u11rrpaaidzTbQa354orLbtouik+mR4RozqfI5gW6GL9UYxvJsj6tUVWW+5fR0tOsAddtV1B7OpnrjPfAk43muPbDl7ra5olmX4isHYuHLxEH3VaiAqgD/Hc8ftGN60Xf3k8HOdlS/yKk2WQu+M3Pr/qHFHZtV/UNr3ESZhLi82gw4BFLOOkdqHSYErg=

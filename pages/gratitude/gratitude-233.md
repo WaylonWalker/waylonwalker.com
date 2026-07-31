@@ -4,14 +4,5 @@ templateKey: gratitude
 title: Gratitude 233
 
 ---
-
-
-Today we washed our van... Ourselves. In our journey to save all that we can we
-are ditching the car wash and trying this out ourselves.  The results were
-fantastic, it looks better than it does after a good automatic car wash, but
-let me tell you it was some effort.  I think we can get the process down to
-foam cannon and rinse and get similar quality for much less effort, but we full
-detailed this exterior, windows, wheels, tires, the works.  I'll be interested
-to see how it holds up over time.  Not sure that we are going to stick out this
-cost savings measure, but we can at lease save a few months of washing during
-the summer.
+<!-- markata-encrypted-source:v1 key=default -->
+ZKMTLok+GHkBNq8vDM82KysxuLTYldIbGPtf7mSN9AefRZ2J4dCD3yw8OGfQyJY1C8me9vTCoH8mrC4lkr1BqCWmtGOnSJ+/fT2YX3unGo4oSOezu81nNYtSBjJAKM9OJ0MoCQCBIg3GTXzcZo6/LJBLxElUUX/q3CwHkob+oJKEKeEpOOt/8jVyoGq1fgvNr420j4hnV/gXRKLZQCGF0fWBlHW239jrC3Kaiwv+xX+gpK8ls7L9ibif4JMfoboGhVGn5uylU7dWMFLEOSqJANkBTUGJtxfMu2uPqO/INL51GLVpLHC/vk8yQLLWl1E34h422wKoWHEcpdWan/UEjZwoQuJMtvDS+naRwpO7oC9LQbtEz1qOYcv6XfVRFzuSrLroC8Mh8F4pDHlwDi5vEqFA48/kMe5QDcH0XQZ8JgOd0yH3vfXRFpU9+omdgK9Uob8gkGDqrz0Y+Vy4hDMEKkClh/lzs+yhy6XqILjn6YqQVaQPIiMrWLzDgb229bcq+/6mzq+cibc0LQgdkZu6h8pCPDr+eaCdQhs5g2IBNJ33eg98wj3tHjhOuTDiD+Z6hwCvBMl74yJrWvymkVrGD+AGGzX//eY8ht8b+iFVealFR9zcQDf9nzuaGyZp2cIcaNFpzJriyldrnfrDpeM8v3mPaNxLAsY7l2zvBpV25NjeGVcM0x5ya/yFSjqpl2EhxUcZwdcx/oiB/PbCQXMI/ix2Mnu5tX8KBTT6dN0p4iy+qxurlBVgNizttIio5foKRH8Seawkne+WNVh8DfRLVyp/uxWhUKMPwjJgplBpy8XXVrPY672jPVHe/gZKqwCZ3qFVNR1SvvUpW6Iu+1EMe3Sl/jHE2jpu3P5vee8AUF15cceDGv/0a7Dy9BiGeuAvyJplWISSKKb2JOY=

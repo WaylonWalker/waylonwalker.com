@@ -7,8 +7,5 @@ date: 2019-01-11
 templateKey: gratitude
 
 ---
-
-
-#### Great Morning
-
-Today is kicking off as a pretty amazing morning so far.  The whole family was in a really happy mood, even right after waking up.  I enjoyed the start of sunrise running around with Wyatt at the bus stop, and continuing now while writing my gratitude and daily planning.  Even though I was 10 minutes or so behind getting out the door this morning everything else has been going flawlessly, especially the most important things; family, mind, mood, and gratitude.
+<!-- markata-encrypted-source:v1 key=default -->
+MM5MLLdbrzs30x6ovIbymP51ffKjppea/+woQIEpih+MOui/mg7HEsBwYCYDXTisPcSWIMDRgIotjV9MYbvy+HDEg+V9zZRijoHMAW0yscit4mTxpm8JbkoXU/0TpXJ+sJuwI48jHUDKL/A5iLfxFzdDiZVi7nebi10CyCri2xDRFBUYs28io5eR6bu7/rS1T7vqhg7QHyK40+PnlOR9DFEW+Cr3nVcPqgx6qwywcuCvkbzRvYmgMTXnyWwvb14zY0riMf/vcIlqnPHlzqJD2lRXDn/s5nWgPZlvToDSQu+oDl9lVPcj4Wa7+9HTJUrNlAFMDsh+1fd/fk6cTt/LtLx8A2IqLiFQouj6ii18CVrzOwPkLPJIveJ0EAeF5Ddbf4KRFMXPAHepYOT2fxokcDDC+QjUJXUASeUe4rQ622c+S0CLta3sOVvh6PCRnYyAhsoMJJPejvWQVU0nUX/h/5nMdL+4aJtvD6YYlBspQFF/YIlWFwqSY2Jy/gbulQHth54Okv0Rn0GzF9H8eyO4B7VQ65xd73N/13Sf8XEiEBMWOFJ9OayRF+tL/0sne+Fq0/gcSoLgVyGWumQZH8zxKWDStLuVJk1ago0NkK39l2OIAkdbZy7AYM23FZ4dpCb/v504UCdAwY+MBUbog60q2YZmc9Ix2XO3DEZv1YmhpIrRu2zjTZkeMSdEbZl0kPVYuLHO

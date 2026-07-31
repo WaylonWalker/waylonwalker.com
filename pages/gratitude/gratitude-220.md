@@ -4,9 +4,5 @@ templateKey: gratitude
 title: Gratitude 220
 
 ---
-
-Both kids sleeping in past 7am this morning who dis.  I am so proud of those
-two for putting in so much hard work for the musical.  They haven't slept in
-this late in years, usually up by 5-5:30am.  These later nights mixed with hard
-work has them wiped.  It's really good to see everyone working towards a common
-goal.
+<!-- markata-encrypted-source:v1 key=default -->
+PIzYTKiXLWgllfrHAveIOGss/OvvQkR5yJK2UD0MV+GiFF0VFuCxz987N/Zi/79w8tnHIVc/UJ9RhYQ4sLFgVVjmkkgNDDr9UjI3pezQKC/1EkHl01LsvrcDnU4RjjOwxb7Kyvge4oX3/scLafQqhRyOnu3+kY/cuyui+2M5+hnSPOYax8QzgJBX3z5h4HnXGmiwuvfyJyhWt6ZDTIEV6biZyVG7J2sbSivosf9HfIPJnjfFAZbGFoYh/Kls8YpcE8eqBSUedgwFSBKMmrKX3ina7koDJLWfS1oKGHMfumnmATm4Anoz6qYJApg7088oAaVpZ3mRb9goMGFzVbXzcuCCnf/I4lnXRD5kWtE314rvDFDUZoNpa3WIOk64yzt18lZbSaWoidAo5oaLEpk78l97GrK5B265rsO61L1Uy15NLtQOs3S3aLHxYwSQ/i3Hh3rEXopVyUtpchK3mWPTzpG/xYwNxof+wLHxTLo=

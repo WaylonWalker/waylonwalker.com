@@ -6,8 +6,5 @@ tags:
 - gratitude
 
 ---
-Yesterday I took Ayla along with to Wyatt's last appointment with Meridith at her current location.  Its usually som#down time for me, but I did enjoy our game of apples to apples while we waited.  I got some lucky cards that were really good and she still tried convincing me that hers was better even though it was completely unrelated.
-
-Despite getting vaccine yesterday that has had me off and on pretty tired today, its been a pretty great day. Lots of heads down progress on projects and issue solving.
-
-It's now apparently the last day of school for the week for the kids as they have already cancelled school due to low temperatures rolling in tomorrow.  I'm very grateful that we have a good warm house that already has plenty of the things that we need ready to go, food, water, toiletries.
+<!-- markata-encrypted-source:v1 key=default -->
+AulZCSpKMN88PbaGGhnjNXjZNIYBQHrQ7y0bGqltnJgWXLolmeLLmpLNtX7YqZcn/3KLf5L3l41qtJzVNGOhfUzQQaUBZ4/uxEl9fDefV3AKhcbLpXcWXjsGUvyF5FaSddNDq3LaCm/u64OOV5ZcOO5+NF+uWnrFtTBQO88WVPYh/TvWYZBfpGgQWu/1/OP8+ilj/FqBTrcnDFyYR6DmNC1ED+5GL+lAL3rNHlWA4Xh8/6//18sqZVA6ajSdFkULE6y6Z9rDWSIzGqURSIUakuDuLltSA/jQ447AeXq3Hgtzex/NV03B7wJa7YZJ6TwffvDHfn7Q2NBIHQNFDu2WJDm9lxCavcR6bqJZMsDCFZxSyFUhItOA/c/SMvl05Bky3iPyiq5jfqz6IjYOuBj2+Yzaau+mgHfLtBAT/BbRRdPK/O4L4oUtcKX53jh+OU6B2vl12SUsKOy1Je6qPJ22WUciPmSB5gb+MCEL1jWx+s8vxWamtD/UDRlZI4ngHaEJWTIrB7sh2FwhsVqpIflGe4iByNtDKVr7YBDgvySI+H6L6jbkvlAtcM0c59k9Y1sk2u4G6zjdQ+08cODM3CWlrDtUPFKcQMcbPQqRT4V2jEohjna052AxMS/Z6WRUSSeCY3CNv4Cu0bbc5HVMz4JsHBAmLD4KPTLU2i3hIpWRQMdr+0+MoBnbt9PlwimI2jfpyGE6b2vRtskH8pg+frrBSNI59RMD3ewQHP4IOKaidMIcAch/ivU1r3Ol8Ps7JqmGP3iwvAyVZA2knoM8Ph2wBDZLSGCSPMxsZkzQ8eApE0d98mgDnLg+6z4iQoxq4yQRsJdM1sjdcQ/wTMAUYOhyGTlviM/vupC7ORqqlnyK1WKjZsMB0h31DFYqvYHhvGcbkYBeGUZBYKRA1fAjKs27eC+Dx5dycRQQiFrA3tS1NydA5S2+6RF7kZL5g7QcsO86WQ+VQ6k6zvA8mygWU+EfpOXKUUQBq6UuECTkzZPBGxTuwYaHjBDmarHwWeNKJhQngvpijiDzMNPp5sj5qvaD/ditQC+Yjs6ZhMsjji/ulZ6QAfBd+rnS3HvhohR7F1WJbwyyw3u+CYMbJQ/XixEWUP7YKGojadc/v7lGrw==

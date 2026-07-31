@@ -7,13 +7,5 @@ tags:
 title: Gratitude 182
 
 ---
-
-Crutches are gone, whoop whoop!  But dang this leg is weak.  It's crazy how
-much strength you loose after 3 weeks of no weight bearing, but also impressive
-to see how quickly it starts coming back.  After just half the day back on my
-feet I am walking without crutches pretty well.
-
-Wyatt has been so helpful lately it has been very impressive.  Since our big
-meltdown night he has been ready to help without too much push back.  This has
-been a huge relief and really helped get through the tail end of this stint on
-crutches.
+<!-- markata-encrypted-source:v1 key=default -->
+SBC6ElGq9Bcx/ftSaVVQwIBsW8lA79LgFy4v5jgdfqcUtFAWDMrT4D/0mlPhp4oRBkeUxU9C6qPiKHR89Jo04KmyK/vExWWrizRNKcCmkn5IbGC2Rkm4kVo5URCNK1O8bYj863UhiSB8cTcAEsJjBJdylbucEQ3yAwn6i1ssjrMCIbXKggc9M3N08ouLEIaiSKs/6n+3qPoyjt6G7hzJJGpVcR1USo3duH9d/HKnVGXCAoTVyGuF5MEcVD+iVup2abkjRDYPNyslVa4aS9l/01Nnru+NszbBgQHzKVK//oIpZMD6tnBZX76fkrPf2+ZEmvPI8mX6usjeghu+HYDLKuEhgcDVbwiag0Ya/BtfP8GxxsdbLwKXf44ekRc8WiuUjHTQpM/ik8MiGqf3yFcA9T8g6RWEoiWK1fLGuL0wDKXWnqyMh9YpBZIt/tLjK8B2+xZqj5CZBz7LaD2n0Z5pJbDb1YU3iJA3d3reZlxbB23YyU+w2MkPuQ6QTrRe23/kZYLnBUqtLTouM/gBoIuXrG+UwYZUyx+ILWoJUlJ9jzJT8QMOlmCnu73ISFYEOZbfoLbc+h1srFRUEM3pOBwlfHtIMrTLqio0vFceon4I6a4hP6SVhAVKQuKff2TBbUD0E7lDN14gCGzrgns5+iHa+bJeHtdMPj+UPDUlpzIfn86rAN6/PUU2lryYl+TQIi3gc+mDEe6XDJnbpd3EK1B2lLVvGj4J9NKVZhSKUFv5qwS6v8xcC4LqKRqwl4iZ

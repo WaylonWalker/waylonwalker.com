@@ -6,4 +6,5 @@ tags:
 - gratitude
 
 ---
-Last night Ayla was fever free all day and feeling really well.  She was able to go to practice and that let me get into the theater to help with building.  It was great to meet a new crew of folks that is only there for the holiday production and get to do some construction.  Rhiannon has two whole elf houses that are coming together fantastically.  Love that we have this family activity.
+<!-- markata-encrypted-source:v1 key=default -->
+LYTK2WtYH6yjeWeR4ieMnkEIEso6m7bzz/MOAzwwQhFNaLRnKBog1tszmJDaEk9Feq6fNSLEYFcjcLxqb7enG/9K3gDB0TnHG745u4mykJuTm8VGzPbZwsa93+iG5+sGJm2Zyjrb0QUo2KJME/Ze6XyKAHzgTztnDjB/QjPXOlpJHlz9F20cUNwJl7CTghuZlvydVA86vP3YjYjBrVCNCRjV4aICi0qOoUOXHMU8K3pV1K+ty5e2ax8I/AX7mTfGTNucvvJk5uCgduxOXmpEjK+VjMPFRAQzU3fmcGvPJmCmkLW3r/9TSPjYOtfrxQpkJ2Y80UCEephCAmxGjYq0hn+uiPXQZSoJCDQa/MvCi6ELJugLI3Fh+TJ2VxDDpF3wh55nocSFOR7d2S3acS2VXEUBBAEoPwiNIRuus6ZTy3H+iuD9vhH4fw9Hq/j3tiJUrqDTLwMA7e/5r2cv+E7hooAwzNJPNMwz8hVemW0YFg7P90BId+VVhinMA8SLNLILLwZQG1D9KetSykOclPtkK6M3S+Mxbs7w26bIrQZRlMXoFaG+SsTpbu+J5iHYx5LczwLQjA==

@@ -7,12 +7,5 @@ tags:
 title: Gratitude 114
 
 ---
-
-We made it through the first week back at it.  I am so grateful that We made it
-through the important meetings with Ayla's school, and Rhiannon is still
-testing negative for COVID.  It's heartbreaking to see that she is so sick, yet
-everything reads as if she is just fine.  I wish there was something that we
-could do for her, but the doctors just don't do much when all the labs come
-back "fine".  Again I am grateful that is has not yet proved to be something
-super dangerous.  Doing my best to keep it positive in this space, but the
-unknown can be quite scary with this one.
+<!-- markata-encrypted-source:v1 key=default -->
+Mh1NyNjP5+O7ayNWYXg/bGcoClVaeWKI3yHS0Pq8A8K85Wpe+sH3UG2o5mXFW2SQedyX6Tbx3tRkg9d8/U7ONMthoD/FSyIpELf0+bsqWX2/5voV/UtOkeSaHkuZxapB6x4CBUWO5dCRGfFZS/ljOCmR1qNoSxSf0RWkJXB/6XkhDzP0fCQGCYESQN6ueRo+6XJaSqtiD2xqm2vorRIUs6sOzIs8TCfCREnmq0OKMnomIKMH6V2bWBwxeGdWAsjL02mBT8B0LI9e9cS6S5KDHIii+XdAdsYSerSEpJIh6FJ0AdrIRhGPkw9F0l7Qf+xawtKLGy+YzqEFJ7tED3sslY0hiwCTZvS1msZHuzuC36QU9uWw3iQPcpejmfEJJzvcOvczETnz2peDTak0IfbpwkdEiQfSwxyLGgDoKYnGbQKQy0xKagDIBbaeu6Zy4kf+8ESiqVtsPbmkU2y2wYpqzfsZ0lVpEdLPL9wrcghckn/Ph08xZvBceOYZkms8Jb9HxfRGGdlB7kCjsxXxYEB9MCD7xQZSfuQb4HUT/9MGYDVUAOWYsMU4cGGdV5BbcTfnIs1MGF+9sJNZt4ifT/lzCVWjRT685nrnXs18N/w8a5QsR6/R+zJKBBSf50V6x2nkav1kUlMHws1W45b5n9zkHUHQTrf6sz6PeBWrxG/SkHUayUf1IdK9kK2GA7K6Kw9sSuX2CvmIHiRm96D8gE5p5op7/u7do7K0g2V5S+6lbsUdK2OSBfWSzNVk14IqO82+jKAfsQy33nWgqLA2BA70F9lrjf/ey8IBWLevPsogF0f91mYVn+ndyyPT6us5ej7JXw==

@@ -7,13 +7,5 @@ tags:
 title: Gratitude 188
 
 ---
-
-It's been a lot lately, just a lot of everything, but it feels like things are
-ligthening up.  Mostly with Rhiannon's help.  I really appreciate all that she
-helps me with.  Lately she has been working with me to set good boundaries with
-the kids.  Which is well needed, lately I've really been letting it go too far
-and let them run everything.  I really struggle to allow them some time when
-they need it, but setup good boundaries when its time.  Overall though I would
-not trade being able to be with them everyday for anything.  It's hard, but I
-completely appreciate that I am able to spend so much time with them throughout
-each day.
+<!-- markata-encrypted-source:v1 key=default -->
+OsvlQJxgzWsLT2kP5Fej2HZ4y3eA0l2olZuC5EVc0JKv5EQFxdFlQjq5G9hDQC4ADbH0/93pGwsxRWaHniS3owaww/50+PUYNDq4SHXrlIYs9g5fYAPXx0sPiQsV0cdOFGCyi6YBxLC6O3sttPVlD1fPQ4kBhMieW/cI1Od2TLgRzH0yDLAn8T0GTTSX4z+edmCe49xeTrWc4pWvOpsGpUClRCEAa1sY110r2C/8keqIiDjwFDsxJLhJVkXtejgUN/6i79jxk5hxTGDDuO33w/3uG0fLUUV/udG9LEiSrW2brIMV4gCqETAk8Nr7yGgFfPZU1GrK96dhVEKMGgsGCCt9FFhjvTtypPp/1L8ipBix/pmxdhieLESQIm43WGDU34fP2XE4vh/+o0B/jZVXD8gWw7hTdLFRgNOUrYHrvNk0S+z01L4Zr67z0j2NI5xoOunUdap6elmX+hEdhG3ele5jFsHKBzrE50M8IgXHXwaf9flRLdEp3wjQGv6p1114kOHwQLQXeHbIp2jTnu8GUrBkxCe1qn6i5cn28tJjA3YLcPKsujNPZknsIFGHYcnpoM5EyhOKZBfZt6IspSU68/1WPqBgwHoin3VfTtcxOvE5e6JZ/ceerPyxV6tYx5xbrDExaWCE0dy9mXXkh5VSBpeQQSZK08qnl5xrp71s8mLbE/2Amll7PxPHYSFGJyWSowjO7PSSUuGoCSuZtBKoJxDjpDc0nxsGlj0dyRizwVMHZHrsdwvmKhyus/FCGuMzmLrM4pdNxOFeZXI1OwMfNK4/1q5VTrQcOE5XBzGtjzZg8w+DzoKpmLwqIlVUdseQ9tZrdXslssEmbuV1FtDCJlM97lzUqLPYXFDzK/GtHrIbTFIROVSMp2zO0KwViF4TXcDkDPd0w4P9ohKuETo=

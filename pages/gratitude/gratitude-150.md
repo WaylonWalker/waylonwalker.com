@@ -7,12 +7,5 @@ tags:
 title: Gratitude 150
 
 ---
-
-Today feels sad, it just does.  The politics of this stupid pandemic
-just hurt.  Its really amplifying a lot of things that have been there
-for years and it hurts.
-
-Wyatt and I played a vehicle mod for Minecraft today, It was super fun,
-we ended up making a boat course where we made big jumps with different
-water elements.  He was definitely the better boat operator.  I would
-spot where he was landing and making landings in those place.
+<!-- markata-encrypted-source:v1 key=default -->
+1bFC1aNhTRZPLolBhhWf6jcXDCDFJpCp/hEoJgRGuIT03YXhRAMhDr+9S4LsOlqeamjDx/JefCJpzNi2U8MNCICqektn/dYnfAJo7VWP/yVRRLR50GwWaLg3vX+oTfKtVrt4+K5YX6KC5cgUcEePQ2N4LhKyG2pYOZ5XimKc2itxjxPpAH2DylsKSZI6o9rg0mnlVnzFHVHyLHym5kn7rmIFZeIiOzjYV+AZ15vOuLnJcIXb5d8T/IHPDP/Feq0bKiaQ2gc5FTI9NESYcGFGUJCayJC/Kl/T/ybFEuoaZW7o/en91vKKpEXszk3AtnTWC+a9fS7vthu+sTYQMqDUS7Ef0aETa7knRleAm/obdcwW7zcyPN36wgVSf/nnscOo3zDcvc/IrBS25GPY9ozA+CF2AZoph2USJU6aNfiPpNqZQ5pQcsrhwLmyJOdnPsT4O6vxuB97duWGd5oAXA5Q3f12TPqNA8FiJJ/y6GcFXhQ39YScj/2CdcOA/ZJiFCcGFWPIM9g/6LoJMy3C+orveFym4EyZhvil6fpfcBGrphUaG2DQdDkgKG2vl+m2gkiF1gJdoAx7baDl9gO05z3s/Jp/6eTJwP9t5Rf387vhHvjrK9Efu0Kt4DcOLA0bSE/PRyR21S1i

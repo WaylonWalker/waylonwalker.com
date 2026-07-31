@@ -6,14 +6,5 @@ tags:
 - gratitude
 
 ---
-Dad achievement unlocked, for her Birthday Ayla picked out a Nirvana sweatshirt
-which she wore today, and people asked "oh you like Nirvana", her response was
-Idk I never heard it before.  Tonight we sat down and she taught me how to make
-bracelets while I taught her about a little known band out of Seattle
-Washington from the late 80s.  Ironically enough when I sit down to do projects
-lately with Wyatt (cyberbrick) we listen to Foo Fighters.
-
-Later tonight Wyatt and I were out late after dark and we found comet Lemmon,
-at least we think we did.  We were pretty late to the party and could have seen
-it better days ago.  We found the Big Dipper and there was a faint glow over
-the second star on the big dipper handle as described by his science teacher.
+<!-- markata-encrypted-source:v1 key=default -->
+BFNGuO/dqO6iGWJqby+ZxFBiASEK2p3LL3dt/ewlkVFoYuynBfSTmsTD4ONeHLEvWN3MQERQe3W7sRRg8FIWTp+Q5gomrzudruUFf0Py7IsBZt5dKcJNObxvSzLot/FeLizmBeqWfrufxlfdb/O4uS9WvFM373n0yXJybt1Kwgntvr27Na792vEmuEJ3VSzX0nt9qibcgn0jQZYM5cIYXAlaAg1h8cPYak3/g3r4RdxwON4F0GtHUGYwz1hyeQdE2hDNeDC+4hctBnipg/Nl6c9lOD4mHy7ZsxfqGXwVv12TeBWzZ447G7o8MwWyDTIKtAAQqHdmdgzUbNpn6LEHdlKyzcaRhStE4/nrVMNeMiuDArqOxAMgljb7yNo3CRrPiq7RoghUOxEQ7JuP1R1XxiSM40vkghxjZMHAxh39MJX+DGQ+YuSJCgDG37OkaH1cgx85urNpsY6srTdkyHD+mjGgOKjvEp9UKg8qkC78aVjV+JZimrQAGFXYr90EVaJRh9MAmvekutKz080hpBVSHDsLSt+0fm7vXo0d4Th47QomZMrJFYjGI/iT4tlASQSuljbun5IleDMRs2cfErC2dJHUNPMdYlOzTtT/6S3hH5TigAW+JrPD1LnRNBzuLvy0fBJxxa4qZ8bYOl4LVPM21SaNPhzDsCcYFCtAX02nazU3Thohzd919oicxJlauBmr8C47iEg2b2JVk/+67xdPiB10S1LOJ0s+V9gk6HqNmzXtZer7QmhO5FiF2QT/RvwStOowkyZWAOcPwdyptChFAmkcWbex54GdKXguns7SHAyaZVVWZHvgHWmpuW4uXm2ghE9rXCYp6hl2Dk6Drf7wcpo4gkmd2IQLAxnxF4BOcYTDh/iH+JI/b/YglRn1QzZkDq22j1VgC1YwKwwCcE3TQ+f293I1SCeOujC3+vaQY2TTAkaGell98ZG5FZN+OINiGVsuus7oGyToX5rL/r7MVDnW1bzHI0RAI5u9dtONyMyKNLRYy7DQPvMc67C7ywX13/TQVhri/SQAJ0jlj4evrZjacvq4pDw0KVOMmc4ohyhYRhbmzQ==

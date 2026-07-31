@@ -7,10 +7,5 @@ tags:
 title: Gratitude 160
 
 ---
-
-Nearly finished.  We have the keys to our old house for one more day, and we
-are co close to being finished with it.  Rhiannon has been crushing it over
-there, like seriously 🦵 crushing it.  She spent most of the day there with the
-move out cleanup maids, and has gone back to pick up the last of the clutter,
-skim coat holes in the wall, and paint.  It is looking remarkable over there by
-the video I have seen of the place.
+<!-- markata-encrypted-source:v1 key=default -->
+GD88tqTr73xylkXofS1YTLZhNWP3QOp0PJiR30RJMafBktrVIMUaKlt6u0DPDDNRvsNs+Q+lPxQ31o1Vd+dn5HDSEnV+Y/KQ8D97r2ax7s8vkSjZHUsdgCZGmVNjBBNJXnVNYfhjbP18dh0GRLwzvmOlHKb9sIpaZKvpEX/P0Hqq/Y2wwZ+rgClksDQERz83PoZACMqMd2t+gvcMITGKm9dsVlWlFt4Ly61lokFH0oX07ozs1lmE3bVfeLOdW80RG91/3CeL+mPqrsefiK0wV6cY/fYRLzVA1m2+L65pN3UI6Y34HYKJQZ58Qt6GTo0Fp5GWSURo2zN4GRxhjqMCl8v2siu0XmUkE93+hR8piIWOGyeOXV1nXE29/0om25UwTdbVNp+AHyWsn80ZU1tquMZY2S8fI//KDGUpg4AiFVd+1GA7XWsA88vtowWOWXa7vU9Th0yfq+6GfgsKw+pQPSxGGS9QdYZcEDdfahKZvWuEIxHz5yWpOISvrhVosgAxPdstFw0/lpBj8YaWQnwvwFLxmbXt98TUi/h2LwuMkFPR2VPyhZq4E99EbZ0W4Hea8P7Z9C6zOtVZ00s290Rn2kYx7vEfqGLvXlxiDDeYRhkuJosaUPifMrUs

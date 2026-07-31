@@ -5,4 +5,5 @@ published: true
 tags:
   - gratitude
 ---
-So glad to have a chill day.  Emotions have been running high lately and it's good to get over the big events and have some time before the next one.  I had some time to start working on my blog again, doing some clean up, performance, and finally getting tooltips right for glossary and wikilinks.  They are looking really good and work well on desktop and mobile.  This one has been in flight for awhile and so glad to see it start to come together.
+<!-- markata-encrypted-source:v1 key=default -->
+JuNG5lrpne9HjWac0rPGVWl88A/dNeaInXkia4nj/GGL4sd7tkaZh5eZln9iyBjnFc+7DNM/339CRYwl6+NaZ18VgfQL92FS9WZIrLUmcVyh32tx5PsilWy7+fuhQIi0fgipLH2fjgXUbooybXjXqyzn544IhpDHpYSAQ/V5mgNJBz6gw98nMFyy5M0vEkYSmkx9sqWra2xJ9Xw5MRhGHGWRkp6StTHAS1lHTxNbxiOq/4ewyr6Yy0801alOzZ86ogwn68GeFC09fti5AozuSS7Iyjox9svlCMUreQYiWtJxpWCnQhvKSgZaRKIYaNtC77ULQL3WsTDVpMyeZAXK5vrvOPkRtrG6uc2rIq+atJvBTY2WXbLyJ3mvZxI39ksq7G6Qai5mhdV0m+9aGWniqHZf8KsaHoXwwkGawIIiUu9TvEEgJDEonLpB0aq4iKz8k9fTiq9VXkglpAH22ZjBIyB6x9cN3FGsWnPe3+tf7dL5h+dVts6jnKVedHccm6RbUbLJDBkZ6qxb3nDzKdUi6BNuuKUDZMIIWx4q3hj8T1dt5CTbpfNpf9oOqgCHg1Z5MSsrjnjFybn6HhoVqYCbFy8b87gzc2Nn3OfTE1ETX3VXtr+THMW6roqoL8uWKbcBRYWj8ckvYVlL96+IYTVA

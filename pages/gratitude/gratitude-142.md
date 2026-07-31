@@ -7,13 +7,5 @@ tags:
 title: Gratitude 142
 
 ---
-
-Today I got some good Dobby training time in.  He and I took a long walk
-around the park. He did really good, even in the deep snow that we have
-going on.  Later on tonight we did a bit of training.  This was my first
-chance at training with treats, and its amazing how fast just a young
-pup is picking up commands.  He seems REALLY smart compared to most
-other animals that I have had close contact with.  It could also be that
-with Rhiannon's great research we are starting him off on the right foot.
-
-![Dobby Jumping Through the Snow](https://dropper.waylonwalker.com/api/file/861b1e6b-0ac2-4df9-9283-8ab3e7b29c60.png)
+<!-- markata-encrypted-source:v1 key=default -->
+7nlxH6jDN6P6x18URTI+tBkEJO6QRYqTuMB9RKLmH/yTrrnEMhfdoo4Bs0PXjeZTasa54p9U/jAOC9iD7HQPoUW4zc0L1dChLD7+q5mg3ohenNw7skPUzBDHJpnzdk7XRS7WVNYIowTnFoyRSfj/zcNwwVS8I0jXSIbG/JCpa5TUuTFYODYFMF/Hz5o5ItJcqXS0lMaRY0EmvHQUWJT5mBnzqTaXdZ88zw1kQMiY/DPkzcIyT+WznR28M9w4Vpjj8WM5LHykL1xNYN0Lr+EyvTbm+GzlXbHYVnAl/7CbBLW5rffUcR7R2MI2iX/V7t0L1qSCOShP8jqAQlSL7mhjx6XxET6wa2BgJNcr/Y7kuPFSuIXqCRErp+w4Rl5iZhIQaEAtEo+/YZnrYYyge335lp/oH/v88A1evDabywjBmqaZNUJVmFirI8uCoAqbYAbYF6geFssrfGrl6qp3mlxrH/clL76dGMiKR1TZyh8ey3VEJEhcX25OHR1C+zh8c07zNTCE57MCkAoqXlTzq51ukc6smOgRhkoYcuCL5HVvI+9Wi3pyDATDmELilOotYljunI7gLN7kpb5g6slwpqLq7kuNV10k+Vd20RD4zZBf0bZMI+D+VJ5s+/pwrltLdVaMHiHGsAB/xFtHnvHvKpf5fB+yZkC386rZ0ybE1GuKW/S3vKfzxeY7uQbfY5lrHaAnCnoJ1xY/wsR/ho4Jqy5EPjOO649Mu+mDvlPq7ffFqBP+IBinpnKyGU6ZToxy3XtgauToy8WP7OyCcN0BM63OWQiqJtAWHNlwXX26z7liheS8jxO4RBZm88yoeidVqeIBjhwb9W0hdTvcndiWBQpxaf4+SOfaEfjXPWeZCE1GbpzHYCcGnVUZhkzF9Q==
