@@ -11,6 +11,7 @@ I really like using conda (`miniconda`) as my python virtual environment
 manager of choice.  It's simple and it includes its own python interpreter
 using the version that I specify at creation.
 
+
 ## Mamba
 
 _from their [readme](https://github.com/mamba-org/mamba)_
@@ -89,3 +90,5 @@ c-extensions and install certain troublesome packages, but I haven't used a
 * GitHub: https://github.com/mamba-org/mamba
 * Gitter: https://gitter.im/QuantStack/Lobby
 * Documentation: https://mamba.readthedocs.io/en/latest/
+
+See Also: [[ install-miniconda ]]

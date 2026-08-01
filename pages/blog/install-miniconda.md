@@ -83,3 +83,5 @@ install_miniconda > miniconda_install.log 2>&1
 ## Cross posted to DEV
 
 Check out this post and many more on [dev.to/waylonwalker](https://dev.to/waylonwalker/installing-miniconda-on-linux-from-the-command-line-4ad7)
+
+See Also: [[ install-micromamba ]]
