@@ -1,0 +1,50 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+HOST="${LIGHTHOUSE_LOCAL_HOST:-127.0.0.1}"
+PORT="${LIGHTHOUSE_LOCAL_PORT:-4173}"
+BASE_URL="http://${HOST}:${PORT}"
+OUTPUT_DIR="${LIGHTHOUSE_LOCAL_OUTPUT_DIR:-.markata/lighthouse-analysis-local}"
+
+server_log="$(mktemp)"
+
+cleanup() {
+  if [[ -n "${server_pid:-}" ]] && kill -0 "${server_pid}" 2>/dev/null; then
+    kill "${server_pid}" 2>/dev/null || true
+    wait "${server_pid}" 2>/dev/null || true
+  fi
+  rm -f "${server_log}"
+}
+trap cleanup EXIT
+
+python3 -m http.server "${PORT}" -b "${HOST}" -d output >"${server_log}" 2>&1 &
+server_pid=$!
+
+ready=0
+for _ in $(seq 1 50); do
+  if python3 - <<PY
+import sys
+from urllib.request import urlopen
+try:
+    with urlopen("${BASE_URL}/", timeout=1) as response:
+        sys.exit(0 if response.status < 500 else 1)
+except Exception:
+    sys.exit(1)
+PY
+  then
+    ready=1
+    break
+  fi
+  sleep 0.2
+done
+
+if [[ "${ready}" -ne 1 ]]; then
+  echo "failed to start local server at ${BASE_URL}" >&2
+  cat "${server_log}" >&2
+  exit 1
+fi
+
+./scripts/lighthouse-analysis \
+  --base-url "${BASE_URL}" \
+  --output-dir "${OUTPUT_DIR}" \
+  "$@"
