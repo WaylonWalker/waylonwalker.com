@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['kedro', 'python']
 title: Running your Kedro Pipeline from the command line
-date: 2021-08-24T22:40:45
+date: 2021-08-24T22:40:45Z
 published: true
 
 ---

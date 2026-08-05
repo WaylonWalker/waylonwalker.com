@@ -1,6 +1,6 @@
 ---
 title: 'Episode #433 Litestar: Effortlessly Build Performant APIs - [T...'
-date: 2023-10-17T18:45:08
+date: 2023-10-17T18:45:08Z
 template: link
 link: https://talkpython.fm/episodes/show/433/litestar-effortlessly-build-performant-apis
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Developer Productivity, v2 with ThePrimeagen | Preview - YouTube'
-date: 2025-02-08T15:29:52
+date: 2025-02-08T15:29:52Z
 template: link
 link: https://www.youtube.com/watch?v=03KsS09YS4E
 tags:

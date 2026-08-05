@@ -1,6 +1,6 @@
 ---
 title: 'The Death of the User Interface'
-date: 2025-08-25T01:48:19
+date: 2025-08-25T01:48:19Z
 template: link
 link: https://gist.github.com/0xs34n/a5738db1cc24495e69b6d6c08a451890
 tags:

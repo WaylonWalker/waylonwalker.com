@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['blog']
 title: Blogging For Me
-date: 2021-01-21T00:00:00
+date: 2021-01-21
 published: true
 
 ---

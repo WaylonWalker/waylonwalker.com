@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ["python", "webdev", "markata"]
 title: Building Rich a Dev Server
-date: 2021-03-27T11:23:26
+date: 2021-03-27T11:23:26Z
 published: true
 ---
 

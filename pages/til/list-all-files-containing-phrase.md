@@ -1,5 +1,5 @@
 ---
-date: 2021-12-31T20:24:48
+date: 2021-12-31T20:24:48Z
 templateKey: til
 title: List all the files containing a phrase
 tags:

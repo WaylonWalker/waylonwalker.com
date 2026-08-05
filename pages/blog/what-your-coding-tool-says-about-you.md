@@ -1,5 +1,5 @@
 ---
-date: 2026-01-21T16:25:41
+date: 2026-01-21T16:25:41Z
 templateKey: blog-post
 title: What Your Coding Tool Says About You
 published: true

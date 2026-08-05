@@ -1,6 +1,6 @@
 ---
 title: 'florimondmanca/arel: Lightweight browser hot reload for Python...'
-date: 2023-10-08T15:22:23
+date: 2023-10-08T15:22:23Z
 template: link
 link: https://github.com/florimondmanca/arel
 tags:

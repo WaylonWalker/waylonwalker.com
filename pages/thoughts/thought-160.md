@@ -1,6 +1,6 @@
 ---
 title: 'Uptime Kuma'
-date: 2023-11-11T02:46:12
+date: 2023-11-11T02:46:12Z
 template: link
 link: https://uptime.kuma.pet/
 tags:

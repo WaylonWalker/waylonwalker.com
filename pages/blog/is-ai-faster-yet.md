@@ -1,5 +1,5 @@
 ---
-date: 2026-02-20T14:37:36
+date: 2026-02-20T14:37:36Z
 templateKey: blog-post
 title: Is Ai Faster Yet
 published: false

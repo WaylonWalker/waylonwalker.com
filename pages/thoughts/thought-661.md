@@ -1,6 +1,6 @@
 ---
 title: 'DHH on X: "You don''t need a mentor. There''s no secret sauce le...'
-date: 2025-05-31T19:49:38
+date: 2025-05-31T19:49:38Z
 template: link
 link: https://x.com/dhh/status/1928856582588076171
 tags:

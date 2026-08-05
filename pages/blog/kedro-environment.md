@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ["kedro", "python"]
 title: kedro Virtual Environment
-date: 2021-08-23T20:40:45
+date: 2021-08-23T20:40:45Z
 published: true
 ---
 

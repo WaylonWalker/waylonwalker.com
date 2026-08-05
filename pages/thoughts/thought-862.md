@@ -1,6 +1,6 @@
 ---
 title: 'The Glorious Pipe Operator (Elixir for PHP Devs) | Jesse Leite'
-date: 2025-11-02T15:36:24
+date: 2025-11-02T15:36:24Z
 template: link
 link: https://jesseleite.com/2025/the-glorious-pipe-operator
 tags:

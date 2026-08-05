@@ -1,6 +1,6 @@
 ---
 title: 'Repository Mirrors | Forgejo – Beyond coding. We forge.'
-date: 2025-08-29T00:50:50
+date: 2025-08-29T00:50:50Z
 template: link
 link: https://forgejo.org/docs/latest/user/repo-mirror/
 tags:

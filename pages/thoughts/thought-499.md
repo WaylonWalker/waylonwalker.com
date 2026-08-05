@@ -1,6 +1,6 @@
 ---
 title: 'myRSS/personal-blogs.xml at master · sturobson/myRSS'
-date: 2025-01-03T22:54:32
+date: 2025-01-03T22:54:32Z
 template: link
 link: https://github.com/sturobson/myRSS/blob/master/personal-blogs.xml
 tags:

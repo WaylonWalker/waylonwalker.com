@@ -1,6 +1,6 @@
 ---
 title: 'Heroicons'
-date: 2023-11-14T01:06:12
+date: 2023-11-14T01:06:12Z
 template: link
 link: https://heroicons.com/
 tags:

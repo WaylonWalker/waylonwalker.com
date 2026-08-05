@@ -3,7 +3,7 @@ templateKey: blog-post
 tags:
   - cli
 title: cmd.exe tips
-date: 2020-01-23T15:18:45.000+00:00
+date: 2020-01-23T15:18:45Z
 published: true
 description: cmd.exe tips
 ---
@@ -12,7 +12,7 @@ I spend a lot of my time at the terminal for my daily work, mostly in Linux or w
 
 ## > Cmder
 
-![](https://dropper.waylonwalker.com/file/8cd2707c-4458-493b-910b-4a4721bdf4e2.webp)
+![image](https://dropper.waylonwalker.com/file/8cd2707c-4458-493b-910b-4a4721bdf4e2.webp)
 
 First off if you are stuck using cmd.exe, do yourself a favor and get cmder.  It makes life just a bit easier.  It is super confugurable and comes with several power ups that make it a bit more enjoyable than cmd.exe.
 
@@ -24,7 +24,7 @@ First off if you are stuck using cmd.exe, do yourself a favor and get cmder.  It
 
 ## Example
 
-![](https://dropper.waylonwalker.com/file/131f1881-dae4-45c2-983d-432dc53c33bb.mp4)
+![image](https://dropper.waylonwalker.com/file/131f1881-dae4-45c2-983d-432dc53c33bb.mp4)
 
 ## .bat
 

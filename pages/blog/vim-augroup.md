@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['linux', 'vim',]
 title: You must use augroup with autocmd in vim | Here's how
-date: 2021-12-08T08:43:43
+date: 2021-12-08T08:43:43Z
 published: true
 
 ---

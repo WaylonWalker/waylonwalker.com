@@ -1,6 +1,6 @@
 ---
 title: 'How can I add my YouTube videos via RSS? - SocialBee Help Docu...'
-date: 2024-04-03T01:42:29
+date: 2024-04-03T01:42:29Z
 template: link
 link: https://help.socialbee.com/article/129-how-can-i-add-my-youtube-videos-via-rss
 tags:

@@ -1,6 +1,6 @@
 ---
 title: '"I shipped code I don''t understand and I bet you have too" – J...'
-date: 2026-01-14T02:15:41
+date: 2026-01-14T02:15:41Z
 template: link
 link: https://www.youtube.com/watch?v=eIoohUmYpGI
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Using journalctl - The Ultimate Guide To Logging'
-date: 2024-05-02T01:20:51
+date: 2024-05-02T01:20:51Z
 template: link
 link: https://www.loggly.com/ultimate-guide/using-journalctl/
 tags:

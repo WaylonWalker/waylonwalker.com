@@ -1,6 +1,6 @@
 ---
 title: 'Bluesky is more like Twitter than X is'
-date: 2025-01-11T02:17:50
+date: 2025-01-11T02:17:50Z
 template: link
 link: https://joelhooks.com/bluesky
 tags:

@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['python']
 title: 🐍 Pluggable Architecture with Python
-date: 2021-01-23T00:00:00
+date: 2021-01-23
 published: false
 
 ---

@@ -1,5 +1,5 @@
 ---
-date: 2026-03-10T14:36:43
+date: 2026-03-10T14:36:43Z
 templateKey: blog-post
 title: The Ai Wars Are So Much Worse Than The Framework Wars
 published: false

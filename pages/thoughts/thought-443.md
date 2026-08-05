@@ -1,6 +1,6 @@
 ---
 title: 'Hurl - Run and Test HTTP Requests'
-date: 2024-12-14T16:41:38
+date: 2024-12-14T16:41:38Z
 template: link
 link: https://hurl.dev/
 tags:

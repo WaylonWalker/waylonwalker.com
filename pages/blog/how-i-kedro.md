@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['kedro']
 title: How I Kedro
-date: 2021-08-16T22:34:45
+date: 2021-08-16T22:34:45Z
 published: true
 
 ---

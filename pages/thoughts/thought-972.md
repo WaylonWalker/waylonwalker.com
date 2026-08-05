@@ -1,6 +1,6 @@
 ---
 title: 'How does Claude Code *actually* work? - YouTube'
-date: 2026-04-13T10:15:26
+date: 2026-04-13T10:15:26Z
 template: link
 link: https://www.youtube.com/watch?v=I82j7AzMU80
 tags:

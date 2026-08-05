@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ["python"]
 title: Automatic Conda Environments
-date: 2021-03-22T00:00:00
+date: 2021-03-22
 published: false
 ---
 

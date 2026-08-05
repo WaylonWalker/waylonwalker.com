@@ -1,6 +1,6 @@
 ---
 title: 'Devin''s Upwork "side hustle" exposed (Changelog News #90)'
-date: 2024-04-18T01:18:04
+date: 2024-04-18T01:18:04Z
 template: link
 link: https://changelog.com/news/90
 tags:

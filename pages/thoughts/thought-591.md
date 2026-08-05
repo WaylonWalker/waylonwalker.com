@@ -1,6 +1,6 @@
 ---
 title: 'Characters - Xe Iaso'
-date: 2025-04-12T20:02:35
+date: 2025-04-12T20:02:35Z
 template: link
 link: https://xeiaso.net/characters/
 tags:

@@ -1,5 +1,5 @@
 ---
-date: 2025-12-09 12:44:39
+date: 2025-12-09
 templateKey: blog-post
 title: One Year Of Shots
 tags:
@@ -34,13 +34,13 @@ template specific to open graph images.
 
     !!! vsplit Original Post Image
 
-        ![](https://shots.waylonwalker.com/shot/?url=https://dev.waylonwalker.com/one-year-of-shots/&height=600&width=1200&scaled_width=1200&scaled_height=600)
+        ![image](https://shots.waylonwalker.com/shot/?url=https://dev.waylonwalker.com/one-year-of-shots/&height=600&width=1200&scaled_width=1200&scaled_height=600)
 
         > originally I simply used an image of the post itself
 
     !!! vsplit New OG Image
 
-        ![](https://shots.waylonwalker.com/shot/?url=https://dev.waylonwalker.com/one-year-of-shots/og/&height=600&width=1200&scaled_width=1200&scaled_height=600)
+        ![image](https://shots.waylonwalker.com/shot/?url=https://dev.waylonwalker.com/one-year-of-shots/og/&height=600&width=1200&scaled_width=1200&scaled_height=600)
 
         > In Feb 2025 I made OG specific templates to use for the OG images.
 

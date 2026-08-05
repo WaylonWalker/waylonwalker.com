@@ -1,6 +1,6 @@
 ---
 title: 'Make your own luck (do this to stand out in a crowded industry...'
-date: 2024-08-02T13:08:44
+date: 2024-08-02T13:08:44Z
 template: link
 link: https://www.youtube.com/watch?v=YKeVeG6h4AA
 tags:

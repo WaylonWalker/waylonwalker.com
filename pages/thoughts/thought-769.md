@@ -1,6 +1,6 @@
 ---
 title: 'DHH on X: "You have all the time you need, you''re just spendin...'
-date: 2025-07-31T00:56:40
+date: 2025-07-31T00:56:40Z
 template: link
 link: https://x.com/dhh/status/1950462181331349688
 tags:

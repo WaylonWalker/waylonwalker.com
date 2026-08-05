@@ -1,6 +1,6 @@
 ---
 title: 'Justfile Cheat Sheet by linux_china - Download free from Cheat...'
-date: 2024-05-14T22:17:30
+date: 2024-05-14T22:17:30Z
 template: link
 link: https://cheatography.com/linux-china/cheat-sheets/justfile/
 tags:

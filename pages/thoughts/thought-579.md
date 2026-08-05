@@ -1,6 +1,6 @@
 ---
 title: 'Why did Framework build a desktop? - YouTube'
-date: 2025-03-12T13:01:44
+date: 2025-03-12T13:01:44Z
 template: link
 link: https://www.youtube.com/watch?v=zI6ZQls54Ms
 tags:

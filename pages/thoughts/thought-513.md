@@ -1,6 +1,6 @@
 ---
 title: 'WaylonWalker/nvim-manager: manage dotfiles with nvim_appname'
-date: 2025-01-08T17:11:34
+date: 2025-01-08T17:11:34Z
 template: link
 link: https://github.com/WaylonWalker/nvim-manager/releases/tag/v0.0.2
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'helix-vim/config.toml at master · LGUG2Z/helix-vim'
-date: 2024-10-09T15:37:18
+date: 2024-10-09T15:37:18Z
 template: link
 link: https://github.com/LGUG2Z/helix-vim/blob/master/config.toml
 tags:

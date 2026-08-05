@@ -1,6 +1,6 @@
 ---
 title: 'Post | LinkedIn'
-date: 2025-11-11T02:43:05
+date: 2025-11-11T02:43:05Z
 template: link
 link: https://www.linkedin.com/posts/anton-martyniuk_mark-zuckerberg-scaled-facebook-in-2005-activity-7393550498584371201-iqDA/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACM7I2cBosNBb12iAVlY0IZbLYYHgFOyIg4
 tags:

@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['cli', 'git']
 title: How to use git cherry pick
-date: 2021-05-13T08:51:45
+date: 2021-05-13T08:51:45Z
 published: false
 
 ---

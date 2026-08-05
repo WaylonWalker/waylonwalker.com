@@ -1,6 +1,6 @@
 ---
 title: 'What ChatGPT is NOT - Tech Raven Blog'
-date: 2025-05-09T13:45:18
+date: 2025-05-09T13:45:18Z
 template: link
 link: https://blog.techravenconsulting.com/what-chatgpt-is-not/
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'xxhash · PyPI'
-date: 2024-06-03T13:34:05
+date: 2024-06-03T13:34:05Z
 template: link
 link: https://pypi.org/project/xxhash/
 tags:

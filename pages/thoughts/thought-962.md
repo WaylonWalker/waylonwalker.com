@@ -1,6 +1,6 @@
 ---
 title: 'Tuesday, March 31, 2026 | Baty.net'
-date: 2026-03-31T21:09:19
+date: 2026-03-31T21:09:19Z
 template: link
 link: https://baty.net/journal/31mar26/
 tags:

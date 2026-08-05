@@ -1,6 +1,6 @@
 ---
 title: 'Text cursor bug in my Chrome browser that causes the blinking ...'
-date: 2024-07-12T14:16:32
+date: 2024-07-12T14:16:32Z
 template: link
 link: https://stackoverflow.com/questions/75886276/text-cursor-bug-in-my-chrome-browser-that-causes-the-blinking-cursor-to-appear-e
 tags:

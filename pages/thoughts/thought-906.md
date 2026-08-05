@@ -1,6 +1,6 @@
 ---
 title: 'Diffs, from Pierre'
-date: 2026-01-10T23:28:59
+date: 2026-01-10T23:28:59Z
 template: link
 link: https://diffs.com/
 tags:

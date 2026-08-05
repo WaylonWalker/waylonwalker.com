@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['bash', 'linux']
 title: Supercharge Zsh Startup
-date: 2020-01-03T06:00:00.000+00:00
+date: 2020-01-03T06:00:00Z
 published: true
 
 ---
@@ -77,7 +77,7 @@ without all the bells and whistle that oh-my-zsh provided zsh became lightning f
 
 ## 🔌 Plugin Managers
 
-![](https://dropper.waylonwalker.com/file/d974ba61-feb5-43ad-9003-62ec8d234ef1.webp)
+![image](https://dropper.waylonwalker.com/file/d974ba61-feb5-43ad-9003-62ec8d234ef1.webp)
 
 > Photo by [Steve Johnson](https://unsplash.com/@steve_j?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/plug?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
@@ -91,7 +91,7 @@ There are a number of plugin managers for zsh, I tried each of the ones listed a
 
 _Semi-lazy loading_
 
-![](https://dropper.waylonwalker.com/file/cf1a0790-b953-47a1-9381-3fc65ecc54a4.webp)
+![image](https://dropper.waylonwalker.com/file/cf1a0790-b953-47a1-9381-3fc65ecc54a4.webp)
 
 > Photo by Jeppe Hove Jensen on [Unsplash](https://unsplash.com/s/photos/balance?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
@@ -129,7 +129,7 @@ _any single easy to type command, these are my common commands that I will open 
 
 The second benefit was that I can continue typing while plugins are loading.
 
-![](https://waylonwalker.com/type-while-loading-plugins.gif)
+![image](https://waylonwalker.com/type-while-loading-plugins.gif)
 
 ## >Prompt
 

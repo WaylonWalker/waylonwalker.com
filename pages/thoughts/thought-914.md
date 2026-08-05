@@ -1,6 +1,6 @@
 ---
 title: 'make no mistakes by Beginbot | Suno'
-date: 2026-01-19T20:25:15
+date: 2026-01-19T20:25:15Z
 template: link
 link: https://suno.com/song/f5821216-ea6e-49c3-98de-67880e517a89
 tags:

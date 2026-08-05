@@ -1,6 +1,6 @@
 ---
 title: 'PyAnnotate: Auto-generate PEP-484 annotations'
-date: 2024-06-26T21:37:14
+date: 2024-06-26T21:37:14Z
 template: link
 link: https://github.com/dropbox/pyannotate
 tags:

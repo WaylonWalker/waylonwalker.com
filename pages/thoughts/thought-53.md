@@ -1,6 +1,6 @@
 ---
 title: 'Wesley Aptekar-Cassels | Reasons to avoid Javascript CDNs'
-date: 2023-07-29T00:31:14
+date: 2023-07-29T00:31:14Z
 template: link
 link: https://blog.wesleyac.com/posts/why-not-javascript-cdn
 tags:

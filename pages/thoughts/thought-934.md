@@ -1,6 +1,6 @@
 ---
 title: 'Post by @castpixel.bsky.social — Bluesky'
-date: 2026-02-19T17:11:42
+date: 2026-02-19T17:11:42Z
 template: link
 link: https://bsky.app/profile/castpixel.bsky.social/post/3mf52azn5oc2h
 tags:

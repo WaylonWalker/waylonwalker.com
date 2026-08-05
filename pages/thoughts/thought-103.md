@@ -1,6 +1,6 @@
 ---
 title: '</> htmx ~ Examples ~ Updating Other Content'
-date: 2023-08-26T01:03:10
+date: 2023-08-26T01:03:10Z
 template: link
 link: https://htmx.org/examples/update-other-content/
 tags:

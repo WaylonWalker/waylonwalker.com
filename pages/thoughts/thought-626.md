@@ -1,6 +1,6 @@
 ---
 title: '“I’d rather read the prompt” – Chris Coyier'
-date: 2025-05-09T13:09:30
+date: 2025-05-09T13:09:30Z
 template: link
 link: https://chriscoyier.net/2025/05/08/id-rather-read-the-prompt/
 tags:

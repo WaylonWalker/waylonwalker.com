@@ -1,6 +1,6 @@
 ---
 title: 'Nerd Fonts - Iconic font aggregator, glyphs/icons collection, ...'
-date: 2025-01-21T01:04:01
+date: 2025-01-21T01:04:01Z
 template: link
 link: https://www.nerdfonts.com/cheat-sheet
 tags:

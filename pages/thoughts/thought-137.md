@@ -1,6 +1,6 @@
 ---
 title: 'Delete a Postgres Cluster · Fly Docs'
-date: 2023-10-17T18:42:30
+date: 2023-10-17T18:42:30Z
 template: link
 link: https://fly.io/docs/postgres/managing/deleting/
 tags:

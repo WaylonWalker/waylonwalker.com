@@ -1,6 +1,6 @@
 ---
 title: 'TestDisk Step By Step - CGSecurity'
-date: 2023-07-29T01:00:51
+date: 2023-07-29T01:00:51Z
 template: link
 link: https://www.cgsecurity.org/wiki/TestDisk_Step_By_Step
 tags:

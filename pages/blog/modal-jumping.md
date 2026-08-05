@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['vim', ]
 title: Modal jumping
-date: 2021-06-03T21:30:35
+date: 2021-06-03T21:30:35Z
 status: draft
 
 ---

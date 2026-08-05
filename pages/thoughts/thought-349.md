@@ -1,6 +1,6 @@
 ---
 title: 'NEC M-System'
-date: 2024-07-15T17:11:38
+date: 2024-07-15T17:11:38Z
 template: link
 link: https://kbd.news/NEC-M-System-1729.html
 tags:

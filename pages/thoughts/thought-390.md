@@ -1,6 +1,6 @@
 ---
 title: 'triliu/Heawood42: Files for the Heawood42 ortholinear split ke...'
-date: 2024-09-18T22:57:30
+date: 2024-09-18T22:57:30Z
 template: link
 link: https://github.com/triliu/Heawood42
 tags:

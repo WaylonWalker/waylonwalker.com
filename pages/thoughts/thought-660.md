@@ -1,6 +1,6 @@
 ---
 title: 'Self-Host Weekly'
-date: 2025-05-31T16:29:26
+date: 2025-05-31T16:29:26Z
 template: link
 link: https://selfh.st/weekly/2025-05-30/
 tags:

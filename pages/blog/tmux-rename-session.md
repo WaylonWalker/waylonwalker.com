@@ -2,7 +2,7 @@
 Tags: ['cli', 'linux', 'tmux',]
 templateKey: blog-post
 title: tmux rename session
-date: 2021-08-03T23:51:21
+date: 2021-08-03T23:51:21Z
 published: true
 
 ---

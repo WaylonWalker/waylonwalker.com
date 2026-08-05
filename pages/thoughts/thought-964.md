@@ -1,6 +1,6 @@
 ---
 title: 'GitHub - kraanzu/smassh at terminaltrove · GitHub'
-date: 2026-04-02T09:07:37
+date: 2026-04-02T09:07:37Z
 template: link
 link: https://github.com/kraanzu/smassh?ref=terminaltrove
 tags:

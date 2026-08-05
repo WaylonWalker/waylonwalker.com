@@ -1,6 +1,6 @@
 ---
 title: 'Quick Start - kotaemon Docs'
-date: 2025-01-11T16:34:26
+date: 2025-01-11T16:34:26Z
 template: link
 link: https://cinnamon.github.io/kotaemon/
 tags:

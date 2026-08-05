@@ -1,6 +1,6 @@
 ---
 title: 'Search | Stripe Documentation'
-date: 2023-12-06T21:54:17
+date: 2023-12-06T21:54:17Z
 template: link
 link: https://stripe.com/docs/search#search-query-language
 tags:

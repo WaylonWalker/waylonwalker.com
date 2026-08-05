@@ -1,6 +1,6 @@
 ---
 title: '/Tips-for-Being-Happier--Healthier--More-Productive'
-date: 2024-07-20T18:02:22
+date: 2024-07-20T18:02:22Z
 template: link
 link: https://podcasters.spotify.com/pod/show/garyvee/episodes/Tips-for-Being-Happier--Healthier--More-Productive-e2m4184
 tags:

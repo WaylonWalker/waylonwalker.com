@@ -1,6 +1,6 @@
 ---
 title: 'doyensec/wsrepl: WebSocket REPL for pentesters'
-date: 2023-07-28T14:59:37
+date: 2023-07-28T14:59:37Z
 template: link
 link: https://github.com/doyensec/wsrepl
 tags:

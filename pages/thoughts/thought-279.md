@@ -1,6 +1,6 @@
 ---
 title: 'ublue-os/image-template: Build your own custom Universal Blue ...'
-date: 2024-05-22T12:36:10
+date: 2024-05-22T12:36:10Z
 template: link
 link: https://github.com/ublue-os/image-template
 tags:

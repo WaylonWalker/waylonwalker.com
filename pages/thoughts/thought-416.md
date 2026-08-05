@@ -1,6 +1,6 @@
 ---
 title: 'Will McGugan on X: "New Version of #Textual released! 😎🤓🦾 The ...'
-date: 2024-10-27T02:51:07
+date: 2024-10-27T02:51:07Z
 template: link
 link: https://x.com/willmcgugan/status/1849831271289012463
 tags:

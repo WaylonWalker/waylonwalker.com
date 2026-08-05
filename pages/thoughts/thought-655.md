@@ -1,6 +1,6 @@
 ---
 title: 'Could I Have Some More Friction in My Life, Please? - Jim Niel...'
-date: 2025-05-31T01:49:35
+date: 2025-05-31T01:49:35Z
 template: link
 link: https://blog.jim-nielsen.com/2025/more-friction-please/
 tags:

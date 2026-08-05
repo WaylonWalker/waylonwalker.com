@@ -1,6 +1,6 @@
 ---
 title: 'Using OPNsense with Tailscale · Tailscale Docs'
-date: 2024-12-03T17:37:52
+date: 2024-12-03T17:37:52Z
 template: link
 link: https://tailscale.com/kb/1097/install-opnsense
 tags:

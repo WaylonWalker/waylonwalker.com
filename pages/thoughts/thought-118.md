@@ -1,6 +1,6 @@
 ---
 title: 'Why I Built Litestream - Litestream'
-date: 2023-09-30T16:16:47
+date: 2023-09-30T16:16:47Z
 template: link
 link: https://litestream.io/blog/why-i-built-litestream/
 tags:

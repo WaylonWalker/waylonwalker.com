@@ -1,6 +1,6 @@
 ---
 title: 'How to Configure DNS over TLS (DoT) Using Unbound DNS in OPNsense'
-date: 2024-06-09T15:40:11
+date: 2024-06-09T15:40:11Z
 template: link
 link: https://homenetworkguy.com/how-to/configure-dns-over-tls-unbound-opnsense/
 tags:

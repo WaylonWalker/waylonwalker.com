@@ -1,6 +1,6 @@
 ---
 title: 'Flask Trailing Slashes 404'
-date: 2023-07-28T14:59:37
+date: 2023-07-28T14:59:37Z
 template: link
 link: https://stackoverflow.com/questions/33241050/trailing-slash-triggers-404-in-flask-path-rule
 tags:

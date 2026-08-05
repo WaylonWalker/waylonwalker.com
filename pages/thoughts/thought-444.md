@@ -1,6 +1,6 @@
 ---
 title: 'pipedream/justfile at main · thechangelog/pipedream'
-date: 2024-12-14T16:54:34
+date: 2024-12-14T16:54:34Z
 template: link
 link: https://github.com/thechangelog/pipedream/blob/main/justfile
 tags:

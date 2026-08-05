@@ -2,7 +2,7 @@
 templateKey: 'blog-post'
 title: D3 Day 5
 slug: d3-day-5
-date: 2018-05-08T10:40:39
+date: 2018-05-08T10:40:39Z
 tags:
     - webdev
 published: true

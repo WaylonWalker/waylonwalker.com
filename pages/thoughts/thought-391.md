@@ -1,6 +1,6 @@
 ---
 title: 'Taildrop · Tailscale Docs'
-date: 2024-09-24T13:19:09
+date: 2024-09-24T13:19:09Z
 template: link
 link: https://tailscale.com/kb/1106/taildrop?tab=linux
 tags:

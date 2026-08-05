@@ -1,6 +1,6 @@
 ---
 title: 'Resetting a lost admin password — Nextcloud latest Administrat...'
-date: 2025-03-24T00:26:45
+date: 2025-03-24T00:26:45Z
 template: link
 link: https://docs.nextcloud.com/server/latest/admin_manual/configuration_user/reset_admin_password.html
 tags:

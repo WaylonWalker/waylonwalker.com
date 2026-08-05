@@ -1,6 +1,6 @@
 ---
 title: 'Installing Python - uv'
-date: 2024-08-23T14:55:10
+date: 2024-08-23T14:55:10Z
 template: link
 link: https://docs.astral.sh/uv/guides/install-python/
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Self-hosting Github'
-date: 2025-12-02T03:45:10
+date: 2025-12-02T03:45:10Z
 template: link
 link: https://www.youtube.com/shorts/MhZQTnfo8Ok
 tags:
@@ -22,5 +22,5 @@ In this world I don't see how we sustain the amount of engineers we have created
 
 It will be interesting to see play out.
 
-![](https://dropper.waylonwalker.com/file/95ae2a95-308b-4d1d-bff8-8ce6194db132.webp)
+![image](https://dropper.waylonwalker.com/file/95ae2a95-308b-4d1d-bff8-8ce6194db132.webp)
 

@@ -1,6 +1,6 @@
 ---
 title: 'Debugging | pywebview'
-date: 2023-08-05T18:04:04
+date: 2023-08-05T18:04:04Z
 template: link
 link: https://pywebview.flowrl.com/guide/debugging.html
 tags:

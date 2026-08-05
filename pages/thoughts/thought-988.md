@@ -1,6 +1,6 @@
 ---
 title: 'Programming Still Sucks. — Writing'
-date: 2026-05-07T08:50:59
+date: 2026-05-07T08:50:59Z
 template: link
 link: https://www.stvn.sh/writing/programming-still-sucks-fqffhyp
 tags:

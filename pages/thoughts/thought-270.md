@@ -1,6 +1,6 @@
 ---
 title: 'Install Pokemon TCG Live on Steam Deck - Installation Guide - ...'
-date: 2024-05-11T13:27:19
+date: 2024-05-11T13:27:19Z
 template: link
 link: https://www.youtube.com/watch?v=zfN4hk7FelI
 tags:

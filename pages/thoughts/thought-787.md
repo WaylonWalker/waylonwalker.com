@@ -1,6 +1,6 @@
 ---
 title: '20 Percent Time – Ted Merz'
-date: 2025-08-07T14:19:33
+date: 2025-08-07T14:19:33Z
 template: link
 link: https://ted-merz.com/2022/09/14/20-percent-time/?utm_source=chatgpt.com
 tags:

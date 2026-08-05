@@ -1,6 +1,6 @@
 ---
 title: 'Wes Bos on X: "🔥 The stale-while-revalidate header is suuuuuup...'
-date: 2023-10-28T14:29:59
+date: 2023-10-28T14:29:59Z
 template: link
 link: https://twitter.com/wesbos/status/1717923624559005977
 tags:

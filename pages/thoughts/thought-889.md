@@ -1,6 +1,6 @@
 ---
 title: 'Notes – 05:09 Tue 9 Dec 2025 – David Bushell – Web Dev (UK)'
-date: 2025-12-09T14:08:20
+date: 2025-12-09T14:08:20Z
 template: link
 link: https://dbushell.com/notes/2025-12-09T05:09Z/
 tags:

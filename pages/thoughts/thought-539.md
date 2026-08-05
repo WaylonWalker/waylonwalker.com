@@ -1,6 +1,6 @@
 ---
 title: 'Choosing color palettes — seaborn 0.13.2 documentation'
-date: 2025-01-22T13:47:54
+date: 2025-01-22T13:47:54Z
 template: link
 link: https://seaborn.pydata.org/tutorial/color_palettes.html
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Hollow Knight: Silksong - Sea of Sorrow Teaser'
-date: 2025-12-16T04:28:37
+date: 2025-12-16T04:28:37Z
 template: link
 link: https://www.youtube.com/watch?v=qDFEeeLy6ws
 tags:

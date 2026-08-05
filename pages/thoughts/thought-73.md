@@ -1,6 +1,6 @@
 ---
 title: 'Formatting on save · jose-elias-alvarez/null-ls.nvim Wiki'
-date: 2023-08-06T01:19:23
+date: 2023-08-06T01:19:23Z
 template: link
 link: https://github.com/jose-elias-alvarez/null-ls.nvim/wiki/Formatting-on-save#code
 tags:

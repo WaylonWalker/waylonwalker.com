@@ -1,6 +1,6 @@
 ---
 title: 'DjangoCon Europe 2023 | Use SQLite in production - YouTube'
-date: 2023-10-03T13:22:19
+date: 2023-10-03T13:22:19Z
 template: link
 link: https://www.youtube.com/watch?v=yTicYJDT1zE&t=2s
 tags:

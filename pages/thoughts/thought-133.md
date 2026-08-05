@@ -1,6 +1,6 @@
 ---
 title: 'Ollama'
-date: 2023-10-14T02:31:03
+date: 2023-10-14T02:31:03Z
 template: link
 link: https://ollama.ai/
 tags:

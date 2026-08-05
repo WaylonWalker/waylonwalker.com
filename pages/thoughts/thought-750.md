@@ -1,6 +1,6 @@
 ---
 title: 'Stop Complaining About Ubuntu...Just Switch To Arch Already! -...'
-date: 2025-07-15T01:48:46
+date: 2025-07-15T01:48:46Z
 template: link
 link: https://www.youtube.com/watch?v=HbBF-bmGe2I
 tags:

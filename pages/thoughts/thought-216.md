@@ -1,6 +1,6 @@
 ---
 title: 'Configure Liveness, Readiness and Startup Probes | Kubernetes'
-date: 2024-03-15T14:38:02
+date: 2024-03-15T14:38:02Z
 template: link
 link: https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/
 tags:

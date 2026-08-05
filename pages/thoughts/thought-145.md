@@ -1,6 +1,6 @@
 ---
 title: 'Daniel Nashed''s Blog'
-date: 2023-10-21T01:49:41
+date: 2023-10-21T01:49:41Z
 template: link
 link: https://blog.nashcom.de/nashcomblog.nsf/dx/k3s-podman-and-a-registry.htm
 tags:

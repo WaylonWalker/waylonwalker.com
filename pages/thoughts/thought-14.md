@@ -1,6 +1,6 @@
 ---
 title: 'Chris Coyier on Twitter: "I was unaware of `text-wrap: pretty;...'
-date: 2023-07-28T14:59:37
+date: 2023-07-28T14:59:37Z
 template: link
 link: https://twitter.com/chriscoyier/status/1681407724993798144
 tags:

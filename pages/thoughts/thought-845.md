@@ -1,6 +1,6 @@
 ---
 title: 'Running Software on Software You’ve Never Run'
-date: 2025-09-29T18:54:45
+date: 2025-09-29T18:54:45Z
 template: link
 link: https://blog.jim-nielsen.com/2025/run-software-on-software-youve-never-run/
 tags:

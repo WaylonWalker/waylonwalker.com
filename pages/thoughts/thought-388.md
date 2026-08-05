@@ -1,6 +1,6 @@
 ---
 title: 'Alternatives to Using Pure Black (#000000) for Text and Backgr...'
-date: 2024-09-13T15:47:25
+date: 2024-09-13T15:47:25Z
 template: link
 link: https://uxplanet.org/alternatives-to-using-pure-black-000000-for-text-and-backgrounds-54ef0e733cdb
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'GPT-5 + Codex is so fast that when I… | justin․searls․co'
-date: 2025-09-03T19:27:01
+date: 2025-09-03T19:27:01Z
 template: link
 link: https://justin.searls.co/takes/2025-09-03-14h21m54s/
 tags:

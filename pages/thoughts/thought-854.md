@@ -1,6 +1,6 @@
 ---
 title: 'Ellie Huxtable on evolving Atuin (her shell history tool) for ...'
-date: 2025-10-24T00:53:16
+date: 2025-10-24T00:53:16Z
 template: link
 link: https://www.youtube.com/watch?v=OK3HrqDXqtU&t=1675s
 tags:

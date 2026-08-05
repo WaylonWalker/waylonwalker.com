@@ -1,6 +1,6 @@
 ---
 title: 'Depot'
-date: 2024-12-25T02:17:47
+date: 2024-12-25T02:17:47Z
 template: link
 link: https://depot.dev/
 tags:

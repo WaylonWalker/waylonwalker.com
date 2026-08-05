@@ -1,6 +1,6 @@
 ---
 title: 'argoproj/argo-events: Event-driven Automation Framework for Ku...'
-date: 2024-06-09T14:30:26
+date: 2024-06-09T14:30:26Z
 template: link
 link: https://github.com/argoproj/argo-events?tab=readme-ov-file
 tags:

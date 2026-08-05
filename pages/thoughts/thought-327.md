@@ -1,6 +1,6 @@
 ---
 title: 'Find And Replace one eyed kirby'
-date: 2024-06-30T17:30:38
+date: 2024-06-30T17:30:38Z
 template: link
 link: https://www.youtube.com/shorts/v2a6Nv7RSd0
 tags:

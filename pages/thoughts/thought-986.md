@@ -1,6 +1,6 @@
 ---
 title: 'Red Squares — the GitHub outage graph'
-date: 2026-05-06T20:36:00
+date: 2026-05-06T20:36:00Z
 template: link
 link: https://red-squares.cian.lol/
 tags:

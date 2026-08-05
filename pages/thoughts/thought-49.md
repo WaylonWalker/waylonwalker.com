@@ -1,6 +1,6 @@
 ---
 title: 'sqlite-utils now supports plugins'
-date: 2023-07-28T14:59:37
+date: 2023-07-28T14:59:37Z
 template: link
 link: https://simonwillison.net/2023/Jul/24/sqlite-utils-plugins/
 tags:

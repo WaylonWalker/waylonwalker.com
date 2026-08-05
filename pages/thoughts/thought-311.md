@@ -1,6 +1,6 @@
 ---
 title: 'Episode #323 Best practices for Docker in production - [Talk P...'
-date: 2024-06-16T00:55:12
+date: 2024-06-16T00:55:12Z
 template: link
 link: https://talkpython.fm/episodes/show/323/best-practices-for-docker-in-production
 tags:

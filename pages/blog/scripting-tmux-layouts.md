@@ -4,7 +4,7 @@ tags:
 - bash
 - tmux
 title: Scripting Tmux Layouts
-date: 2020-12-13T00:00:00
+date: 2020-12-13
 published: false
 
 ---

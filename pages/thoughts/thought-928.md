@@ -1,6 +1,6 @@
 ---
 title: 'uvx.sh | Astral'
-date: 2026-02-16T14:21:29
+date: 2026-02-16T14:21:29Z
 template: link
 link: https://uvx.sh/
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Overflow - Tailwind CSS'
-date: 2023-10-11T19:16:21
+date: 2023-10-11T19:16:21Z
 template: link
 link: https://tailwindcss.com/docs/overflow
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Welcome to RSS Club - daverupert.com'
-date: 2024-06-24T17:12:16
+date: 2024-06-24T17:12:16Z
 template: link
 link: https://daverupert.com/2018/01/welcome-to-rss-club/
 tags:

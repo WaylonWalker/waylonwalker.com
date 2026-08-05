@@ -1,6 +1,6 @@
 ---
 title: 'My harpoon config'
-date: 2024-04-16T01:34:38
+date: 2024-04-16T01:34:38Z
 template: link
 link: None
 tags:

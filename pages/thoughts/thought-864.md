@@ -1,6 +1,6 @@
 ---
 title: 'Rewriting SQLite from prison with Preston Thorpe - YouTube'
-date: 2025-11-02T15:46:38
+date: 2025-11-02T15:46:38Z
 template: link
 link: https://www.youtube.com/watch?v=AEPf9zUI_fQ
 tags:

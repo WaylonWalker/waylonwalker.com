@@ -1,6 +1,6 @@
 ---
 title: 'DHH: Future of Programming, AI, Ruby on Rails, Productivity & ...'
-date: 2025-08-06T01:22:39
+date: 2025-08-06T01:22:39Z
 template: link
 link: https://www.youtube.com/clip/UgkxskUJsmJ6E7KVPyPdn1jy1WZQerR-L1Bm
 tags:

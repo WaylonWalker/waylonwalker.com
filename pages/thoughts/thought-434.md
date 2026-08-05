@@ -1,6 +1,6 @@
 ---
 title: 'How to make a good first impression in business #dewalt #tools...'
-date: 2024-11-24T20:39:24
+date: 2024-11-24T20:39:24Z
 template: link
 link: https://www.youtube.com/shorts/dq0p_APdNME
 tags:

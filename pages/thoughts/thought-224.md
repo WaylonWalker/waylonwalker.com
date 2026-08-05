@@ -1,6 +1,6 @@
 ---
 title: 'Simon Willison on X: "TIL Google Chrome has a --headless optio...'
-date: 2024-03-25T03:10:39
+date: 2024-03-25T03:10:39Z
 template: link
 link: https://twitter.com/simonw/status/1772043579231445366
 tags:

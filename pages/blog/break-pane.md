@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['cli', 'linux', 'tmux',]
 title: tmux break-pane
-date: 2021-07-26T23:51:21
+date: 2021-07-26T23:51:21Z
 published: true
 
 ---

@@ -1,6 +1,6 @@
 ---
 title: 'python - How to use a Pydantic model with Form data in FastAPI...'
-date: 2023-08-08T13:46:19
+date: 2023-08-08T13:46:19Z
 template: link
 link: https://stackoverflow.com/questions/60127234/how-to-use-a-pydantic-model-with-form-data-in-fastapi
 tags:

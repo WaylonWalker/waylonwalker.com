@@ -1,5 +1,5 @@
 ---
-date: 2026-03-04 20:47:37
+date: 2026-03-04
 templateKey: blog-post
 title: I Built A Tmux Session Switcher
 tags:
@@ -38,7 +38,7 @@ more projects sitting in more phases between research, implementation, fully
 orchestrated agents, and sessions that need their hand held to get things
 right.
 
-![](https://dropper.waylonwalker.com/file/7c5765a0-126d-430a-ad86-eb83eb440e1b.webp)
+![image](https://dropper.waylonwalker.com/file/7c5765a0-126d-430a-ad86-eb83eb440e1b.webp)
 Image of the `tgo` tool in action, I'd show you a video, but its not really
 that interesting, it just flashes up and goes to the next session as fast as
 you can press the key.

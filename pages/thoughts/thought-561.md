@@ -1,6 +1,6 @@
 ---
 title: 'Fragmentions - linking to any text'
-date: 2025-02-15T15:39:33
+date: 2025-02-15T15:39:33Z
 template: link
 link: https://www.kevinmarks.com/fragmentions.html#%22eventually%20every%20URL%20ends%20up%20as%20a%20porn%20site%22
 tags:

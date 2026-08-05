@@ -1,6 +1,6 @@
 ---
 title: 'Chris Coyier'
-date: 2025-02-14T19:40:19
+date: 2025-02-14T19:40:19Z
 template: link
 link: https://chriscoyier.net/2024/03/03/11148/
 tags:

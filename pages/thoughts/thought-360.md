@@ -1,6 +1,6 @@
 ---
 title: 'add quick-tap-ms and require-prior-idle-ms · WaylonWalker/zmk-...'
-date: 2024-07-25T13:40:14
+date: 2024-07-25T13:40:14Z
 template: link
 link: https://github.com/WaylonWalker/zmk-config-42block/commit/cb2cda4cf7b3776995dbc2e8608b60670a2cf8b2
 tags:

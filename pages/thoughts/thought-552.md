@@ -1,6 +1,6 @@
 ---
 title: 'Fix VERSION_OR_CIPHER_MISMATCH · Cloudflare SSL/TLS docs'
-date: 2025-02-05T20:43:52
+date: 2025-02-05T20:43:52Z
 template: link
 link: https://developers.cloudflare.com/ssl/troubleshooting/version-cipher-mismatch/
 tags:

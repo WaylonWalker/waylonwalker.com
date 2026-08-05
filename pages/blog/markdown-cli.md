@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['python', 'blog']
 title: Markdown Cli
-date: 2021-01-20T00:00:00
+date: 2021-01-20
 published: true
 
 ---

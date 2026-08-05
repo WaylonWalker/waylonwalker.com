@@ -1,6 +1,6 @@
 ---
 title: 'Relocating the Docker root directory - IBM Documentation'
-date: 2023-07-29T01:07:06
+date: 2023-07-29T01:07:06Z
 template: link
 link: https://www.ibm.com/docs/en/z-logdata-analytics/5.1.0?topic=compose-relocating-docker-root-directory
 tags:

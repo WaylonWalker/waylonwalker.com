@@ -1,6 +1,6 @@
 ---
 title: 'Damn, I love dropper already'
-date: 2024-12-18T00:42:07
+date: 2024-12-18T00:42:07Z
 template: link
 link: https://thoughts.waylonwalker.com/post/448
 tags:

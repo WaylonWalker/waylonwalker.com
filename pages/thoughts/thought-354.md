@@ -1,6 +1,6 @@
 ---
 title: 'all lt keys to hl · WaylonWalker/zmk-config-42block@ce25356'
-date: 2024-07-22T13:42:46
+date: 2024-07-22T13:42:46Z
 template: link
 link: https://github.com/WaylonWalker/zmk-config-42block/commit/ce25356e88eb2439182201700314133de719457e
 tags:

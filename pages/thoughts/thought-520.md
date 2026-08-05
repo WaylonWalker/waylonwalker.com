@@ -1,6 +1,6 @@
 ---
 title: 'Animate to height: auto; (and other intrinsic sizing keywords)...'
-date: 2025-01-09T14:20:25
+date: 2025-01-09T14:20:25Z
 template: link
 link: https://developer.chrome.com/docs/css-ui/animate-to-height-auto/
 tags:

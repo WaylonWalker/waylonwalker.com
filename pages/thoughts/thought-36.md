@@ -1,6 +1,6 @@
 ---
 title: 'First-class session support in FastAPI · Issue #754 · tiangolo...'
-date: 2023-07-28T14:59:37
+date: 2023-07-28T14:59:37Z
 template: link
 link: https://github.com/tiangolo/fastapi/issues/754
 tags:

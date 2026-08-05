@@ -1,6 +1,6 @@
 ---
 title: 'My approach to running a link blog'
-date: 2024-12-23T01:47:47
+date: 2024-12-23T01:47:47Z
 template: link
 link: https://simonwillison.net/2024/Dec/22/link-blog/#atom-everything
 tags:

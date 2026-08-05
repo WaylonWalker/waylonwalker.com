@@ -1,6 +1,6 @@
 ---
 title: 'python 3.14 highlights! - YouTube'
-date: 2025-10-03T01:04:57
+date: 2025-10-03T01:04:57Z
 template: link
 link: https://www.youtube.com/watch?v=-Z-BDux-TRk
 tags:

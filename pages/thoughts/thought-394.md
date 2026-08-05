@@ -1,6 +1,6 @@
 ---
 title: 'distrobox/docs/usage/distrobox-assemble.md at main · 89luca89/...'
-date: 2024-09-30T15:49:25
+date: 2024-09-30T15:49:25Z
 template: link
 link: https://github.com/89luca89/distrobox/blob/main/docs/usage/distrobox-assemble.md
 tags:

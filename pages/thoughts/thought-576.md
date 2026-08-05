@@ -1,6 +1,6 @@
 ---
 title: 'Ergonomic Laptop — Evan and Katelyn'
-date: 2025-02-28T14:01:14
+date: 2025-02-28T14:01:14Z
 template: link
 link: https://www.evanandkatelyn.com/blog/ergotop
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Slops | justin․searls․co'
-date: 2025-08-10T17:41:56
+date: 2025-08-10T17:41:56Z
 template: link
 link: https://justin.searls.co/slops/
 tags:

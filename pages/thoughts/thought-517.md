@@ -1,6 +1,6 @@
 ---
 title: 'cyclotruc/gitingest: Replace ''hub'' with ''ingest'' in any github...'
-date: 2025-01-09T13:46:33
+date: 2025-01-09T13:46:33Z
 template: link
 link: https://github.com/cyclotruc/gitingest
 tags:

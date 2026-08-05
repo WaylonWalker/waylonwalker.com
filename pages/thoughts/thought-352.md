@@ -1,6 +1,6 @@
 ---
 title: 'Can''t use System update - invalid signature when validating AS...'
-date: 2024-07-18T02:00:01
+date: 2024-07-18T02:00:01Z
 template: link
 link: https://github.com/ublue-os/bazzite/issues/1316
 tags:

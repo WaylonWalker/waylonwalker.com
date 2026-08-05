@@ -1,5 +1,5 @@
 ---
-date: 2026-01-26T14:38:35
+date: 2026-01-26T14:38:35Z
 templateKey: blog-post
 title: Agent Management Is Exhausting
 published: true

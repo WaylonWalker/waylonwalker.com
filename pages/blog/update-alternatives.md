@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ["linux", "bash"]
 title: Update Alternatives in Linux
-date: 2021-11-20T10:38:00
+date: 2021-11-20T10:38:00Z
 published: false
 ---
 

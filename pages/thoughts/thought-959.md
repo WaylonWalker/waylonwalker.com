@@ -1,6 +1,6 @@
 ---
 title: 'no one read the source'
-date: 2026-03-31T18:47:59
+date: 2026-03-31T18:47:59Z
 template: link
 link: https://x.com/ThePrimeagen/status/2038978962089492631
 tags:

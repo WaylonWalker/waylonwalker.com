@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['kedro', 'python']
 title: Creating pypi-list with kedro
-date: 2021-05-23T22:02:16
+date: 2021-05-23T22:02:16Z
 published: false
 
 ---

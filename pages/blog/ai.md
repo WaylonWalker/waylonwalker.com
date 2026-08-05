@@ -1,5 +1,5 @@
 ---
-date: 2026-01-11T13:48:43
+date: 2026-01-11T13:48:43Z
 templateKey: blog-post
 title: Ai
 published: true

@@ -1,6 +1,6 @@
 ---
 title: 'Marp: Markdown Presentation Ecosystem'
-date: 2025-04-17T13:01:40
+date: 2025-04-17T13:01:40Z
 template: link
 link: https://marp.app/#get-started
 tags:

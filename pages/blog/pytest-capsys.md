@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ["python"]
 title: Pytest capsys
-date: 2021-04-05T08:46:08
+date: 2021-04-05T08:46:08Z
 published: true
 ---
 

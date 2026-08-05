@@ -1,6 +1,6 @@
 ---
 title: '</> htmx ~ The response-targets Extension'
-date: 2024-04-30T18:00:54
+date: 2024-04-30T18:00:54Z
 template: link
 link: https://htmx.org/extensions/response-targets/
 tags:

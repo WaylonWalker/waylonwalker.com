@@ -1,6 +1,6 @@
 ---
 title: 'Dax Raad - SST, Build modern full-stack applications on AWS wi...'
-date: 2024-05-12T19:24:28
+date: 2024-05-12T19:24:28Z
 template: link
 link: https://www.youtube.com/watch?v=V_2OLtsD0N8&t=4604
 tags:

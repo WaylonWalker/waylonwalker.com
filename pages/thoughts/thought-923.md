@@ -1,6 +1,6 @@
 ---
 title: 'Background Patterns with CSS `corner-radius` – Frontend Master...'
-date: 2026-02-10T08:41:45
+date: 2026-02-10T08:41:45Z
 template: link
 link: https://frontendmasters.com/blog/background-patterns-with-css-corner-radius/
 tags:

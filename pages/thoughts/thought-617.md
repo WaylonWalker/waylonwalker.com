@@ -1,6 +1,6 @@
 ---
 title: 'Red-Knot: Ruff''s new Type Checker - Talk Python Live Stream - ...'
-date: 2025-05-02T01:06:05
+date: 2025-05-02T01:06:05Z
 template: link
 link: https://www.youtube.com/watch?v=XVwpL_cAvrw
 tags:

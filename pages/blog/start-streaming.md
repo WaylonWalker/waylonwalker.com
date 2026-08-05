@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: [stream, kedro, python, blog]
 title: I Started Streaming on Twitch
-date: 2021-06-12T10:11:00
+date: 2021-06-12T10:11:00Z
 published: true
 
 ---

@@ -1,6 +1,6 @@
 ---
 title: 'Own Your Web • Buttondown'
-date: 2025-01-03T16:43:26
+date: 2025-01-03T16:43:26Z
 template: link
 link: https://buttondown.com/ownyourweb
 tags:

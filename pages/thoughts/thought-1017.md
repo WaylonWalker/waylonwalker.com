@@ -1,6 +1,6 @@
 ---
 title: 'Sustainable Augmented Development • Kent Beck • YOW! 2025'
-date: 2026-07-08T12:22:18
+date: 2026-07-08T12:22:18Z
 template: link
 link: https://youtube.com/watch?v=sMujMp4h_EY
 tags:

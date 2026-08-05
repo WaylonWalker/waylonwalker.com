@@ -1,6 +1,6 @@
 ---
 title: 'Idea to Product in Seconds #PortalPrints - YouTube'
-date: 2025-09-16T01:43:59
+date: 2025-09-16T01:43:59Z
 template: link
 link: https://www.youtube.com/shorts/47CQMbkzX9o
 tags:

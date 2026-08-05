@@ -1,6 +1,6 @@
 ---
 title: 'Styling better custom inputs with Dave Rupert - YouTube'
-date: 2024-12-18T02:15:14
+date: 2024-12-18T02:15:14Z
 template: link
 link: https://www.youtube.com/watch?v=azUEOy8_GHo
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'flake8-to-ruff · PyPI'
-date: 2024-03-09T02:29:51
+date: 2024-03-09T02:29:51Z
 template: link
 link: https://pypi.org/project/flake8-to-ruff/
 tags:

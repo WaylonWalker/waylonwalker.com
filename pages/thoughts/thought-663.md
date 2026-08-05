@@ -1,6 +1,6 @@
 ---
 title: 'The 1-3-1 Writing Technique'
-date: 2025-06-02T20:07:09
+date: 2025-06-02T20:07:09Z
 template: link
 link: https://www.youtube.com/shorts/SIKo2lCzfhE
 tags:

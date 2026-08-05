@@ -1,6 +1,6 @@
 ---
 title: 'Keyboard Build Log | Halfwit’s Dev Blog'
-date: 2024-08-05T13:39:15
+date: 2024-08-05T13:39:15Z
 template: link
 link: https://halfwit.github.io/2017/05/08/keyboardblog.html
 tags:

@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['kedro', 'python']
 title: Custom Kedro Logger
-date: 2021-05-02T09:45:22
+date: 2021-05-02T09:45:22Z
 published: false
 
 ---

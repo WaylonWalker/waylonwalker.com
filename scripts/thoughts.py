@@ -9,11 +9,11 @@
 
 import os
 import re
+from datetime import datetime, timezone
 from urllib.parse import urlsplit, urlunsplit
 
 import requests
 import typer
-from datetime import datetime
 
 THOUGHTS_API_URL = (
     "https://thoughts.waylonwalker.com/posts/waylonwalker/?page_size=9999999999"
@@ -33,7 +33,9 @@ def clean_title(title: str) -> str:
 
 def format_date(date_str: str) -> str:
     dt = datetime.fromisoformat(date_str.replace("Z", "+00:00"))
-    return dt.strftime("%Y-%m-%dT%H:%M:%S")
+    return dt.astimezone(timezone.utc).isoformat(timespec="seconds").replace(
+        "+00:00", "Z"
+    )
 
 
 def canonicalize_dropper_url(url: str) -> str:

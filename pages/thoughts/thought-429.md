@@ -1,6 +1,6 @@
 ---
 title: 'statically makes OG images **easy**'
-date: 2024-11-17T21:48:04
+date: 2024-11-17T21:48:04Z
 template: link
 link: https://cdn.statically.io/og/statically%20makes%20OG%20images%20**easy**
 tags:

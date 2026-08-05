@@ -1,6 +1,6 @@
 ---
 title: 'a new chapter'
-date: 2025-09-16T01:30:36
+date: 2025-09-16T01:30:36Z
 template: link
 link: https://jesseleite.com/2025/a-new-chapter
 tags:

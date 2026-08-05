@@ -1,6 +1,6 @@
 ---
 title: 'Big W: A Family Tradition'
-date: 2025-09-19T14:03:04
+date: 2025-09-19T14:03:04Z
 template: link
 link: https://www.bigwengineering.com/post/big-w-a-family-tradition?utm_source=linkedin&utm_medium=blog.post-promoter&utm_campaign=b9f7c31c-6725-4253-bb37-b10502942676
 tags:

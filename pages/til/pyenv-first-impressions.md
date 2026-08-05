@@ -1,5 +1,5 @@
 ---
-date: 2021-12-30T15:26:01
+date: 2021-12-30T15:26:01Z
 templateKey: til
 title: My first impressions with pyenv
 tags:

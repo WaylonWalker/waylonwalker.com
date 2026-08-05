@@ -1,6 +1,6 @@
 ---
 title: 'Customize and apply backgrounds fast | SVG Backgrounds'
-date: 2024-06-12T16:09:25
+date: 2024-06-12T16:09:25Z
 template: link
 link: https://www.svgbackgrounds.com/
 tags:

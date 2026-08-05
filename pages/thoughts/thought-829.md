@@ -1,6 +1,6 @@
 ---
 title: 'Ben Dicken on X: "I am once again begging you to put your data...'
-date: 2025-09-05T23:45:00
+date: 2025-09-05T23:45:00Z
 template: link
 link: https://x.com/BenjDicken/status/1963998076198105475
 tags:

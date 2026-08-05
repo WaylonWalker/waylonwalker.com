@@ -1,6 +1,6 @@
 ---
 title: 'How I use Obsidian Templater'
-date: 2024-12-22T16:53:28
+date: 2024-12-22T16:53:28Z
 template: link
 link: https://cassidoo.co/post/obsidian-templater/
 tags:

@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['cli', 'linux', ]
 title: notify-send
-date: 2021-08-01T10:33:17
+date: 2021-08-01T10:33:17Z
 published: false
 
 ---

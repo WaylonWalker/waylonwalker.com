@@ -1,6 +1,6 @@
 ---
 title: 'Document how to provide a negative number as an argument · fas...'
-date: 2024-10-30T01:28:56
+date: 2024-10-30T01:28:56Z
 template: link
 link: https://github.com/fastapi/typer/discussions/798
 tags:

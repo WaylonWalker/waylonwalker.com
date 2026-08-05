@@ -1,6 +1,6 @@
 ---
 title: 'We have a right to repair! with Kyle Wiens, Founder and CEO at...'
-date: 2024-05-30T15:13:14
+date: 2024-05-30T15:13:14Z
 template: link
 link: https://changelog.com/podcast/582
 tags:

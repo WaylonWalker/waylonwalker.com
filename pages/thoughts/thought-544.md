@@ -1,6 +1,6 @@
 ---
 title: 'AI Is Making You An Illiterate Programmer - YouTube'
-date: 2025-01-30T14:23:10
+date: 2025-01-30T14:23:10Z
 template: link
 link: https://www.youtube.com/watch?v=cQNyYx2fZXw
 tags:

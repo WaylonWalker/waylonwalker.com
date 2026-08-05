@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 tags:
 - single-page
 title: Awesome People
-date: 2021-06-05T10:57:59
+date: 2021-06-05T10:57:59Z
 published: false
 
 ---

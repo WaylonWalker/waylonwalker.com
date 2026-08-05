@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['cli', 'linux', 'tmux']
 title: tmux rotate-window
-date: 2021-07-22T23:51:21
+date: 2021-07-22T23:51:21Z
 published: true
 
 ---

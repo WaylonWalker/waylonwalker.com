@@ -1,6 +1,6 @@
 ---
 title: 'Transparent Textures'
-date: 2025-07-22T01:14:59
+date: 2025-07-22T01:14:59Z
 template: link
 link: https://transparenttextures.com/
 tags:

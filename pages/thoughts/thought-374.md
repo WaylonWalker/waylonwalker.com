@@ -1,6 +1,6 @@
 ---
 title: 'How Fly.io uses Docker (without Docker) - YouTube'
-date: 2024-07-27T01:14:21
+date: 2024-07-27T01:14:21Z
 template: link
 link: https://www.youtube.com/watch?v=7iypMRKniPU&t=3s
 tags:

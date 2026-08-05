@@ -1,6 +1,6 @@
 ---
 title: 'The Real Reason Your Power Bill Doubled (It''s Not Inflation) -...'
-date: 2025-08-18T13:01:04
+date: 2025-08-18T13:01:04Z
 template: link
 link: https://www.youtube.com/watch?v=hJ2tqs_vksc&t=25s
 tags:

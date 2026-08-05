@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['python', 'blog', 'data']
 title: Blog Data With Python
-date: 2021-01-18T00:00:00
+date: 2021-01-18
 published: false
 
 ---

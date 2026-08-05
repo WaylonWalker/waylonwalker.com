@@ -1,6 +1,6 @@
 ---
 title: 'Kubernetes Isn''t for You'
-date: 2025-08-02T14:40:42
+date: 2025-08-02T14:40:42Z
 template: link
 link: https://sliplane.io/blog/kubernetes-isnt-for-you
 tags:

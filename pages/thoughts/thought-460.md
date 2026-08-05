@@ -1,6 +1,6 @@
 ---
 title: 'PEP 723 – Inline script metadata | peps.python.org'
-date: 2024-12-24T15:53:29
+date: 2024-12-24T15:53:29Z
 template: link
 link: https://peps.python.org/pep-0723/
 tags:

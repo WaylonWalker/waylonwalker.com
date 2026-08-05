@@ -1,6 +1,6 @@
 ---
 title: 'configuring pylsp · helix-editor/helix · Discussion #6623'
-date: 2024-10-08T02:23:03
+date: 2024-10-08T02:23:03Z
 template: link
 link: https://github.com/helix-editor/helix/discussions/6623
 tags:

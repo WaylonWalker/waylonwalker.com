@@ -1,6 +1,6 @@
 ---
 title: 'ten year computer'
-date: 2026-03-17T09:32:50
+date: 2026-03-17T09:32:50Z
 template: link
 link: https://alexwlchan.net/2026/ten-year-computer/
 tags:

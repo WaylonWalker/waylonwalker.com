@@ -1,6 +1,6 @@
 ---
 title: 'wincent/aspects/dotfiles/files/.zshrc at 85fc42d9e96d408a5b367...'
-date: 2023-10-10T12:38:22
+date: 2023-10-10T12:38:22Z
 template: link
 link: https://github.com/wincent/wincent/blob/85fc42d9e96d408a/aspects/dotfiles/files/.zshrc
 tags:

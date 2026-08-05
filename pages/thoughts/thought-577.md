@@ -1,6 +1,6 @@
 ---
 title: 'CSS Battle - Re-create an Image with CSS in the Fewest Charact...'
-date: 2025-03-01T16:22:07
+date: 2025-03-01T16:22:07Z
 template: link
 link: https://www.youtube.com/watch?v=B32NKRKJ_Cc
 tags:

@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['python', 'ipython', 'terminal']
 title: Smoother Python with automatic imports | pyflyby
-date: 2021-12-20T11:34:47
+date: 2021-12-20T11:34:47Z
 published: true
 
 ---

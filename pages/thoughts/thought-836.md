@@ -1,6 +1,6 @@
 ---
 title: 'Meet Gor on X: "SQLite added generated columns in 3.31 (around...'
-date: 2025-09-16T13:54:52
+date: 2025-09-16T13:54:52Z
 template: link
 link: https://x.com/MeetGor21/status/1967818642768470447
 tags:

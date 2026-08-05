@@ -1,6 +1,6 @@
 ---
 title: 'Filter Data - WHERE - SQLModel'
-date: 2023-07-28T14:59:37
+date: 2023-07-28T14:59:37Z
 template: link
 link: https://sqlmodel.tiangolo.com/tutorial/where/#filter-rows-using-where-with-sqlmodel
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Malicious Traffic and Static Sites - Jim Nielsen’s Blog'
-date: 2025-12-01T21:41:03
+date: 2025-12-01T21:41:03Z
 template: link
 link: https://blog.jim-nielsen.com/2025/malicious-traffic-on-static-sites/
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'white-space - CSS: Cascading Style Sheets | MDN'
-date: 2024-04-30T18:03:17
+date: 2024-04-30T18:03:17Z
 template: link
 link: https://developer.mozilla.org/en-US/docs/Web/CSS/white-space
 tags:

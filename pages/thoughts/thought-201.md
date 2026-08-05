@@ -1,6 +1,6 @@
 ---
 title: 'I''m Skeptical Of Low Code - YouTube'
-date: 2024-01-30T23:07:40
+date: 2024-01-30T23:07:40Z
 template: link
 link: https://www.youtube.com/watch?v=4nK03E0jvnI
 tags:

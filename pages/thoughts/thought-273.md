@@ -1,6 +1,6 @@
 ---
 title: 'PopSQL - Collaborative SQL Editor - Bring Order to SQL Chaos'
-date: 2024-05-12T19:29:58
+date: 2024-05-12T19:29:58Z
 template: link
 link: https://popsql.com/
 tags:

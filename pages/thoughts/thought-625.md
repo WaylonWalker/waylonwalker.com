@@ -1,6 +1,6 @@
 ---
 title: 'The Rule - YouTube'
-date: 2025-05-09T13:01:16
+date: 2025-05-09T13:01:16Z
 template: link
 link: https://www.youtube.com/shorts/emlDGTXuhts
 tags:

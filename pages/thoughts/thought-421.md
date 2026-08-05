@@ -1,6 +1,6 @@
 ---
 title: 'Gridfinity Generator'
-date: 2024-11-04T16:29:57
+date: 2024-11-04T16:29:57Z
 template: link
 link: https://gridfinity.perplexinglabs.com/pr/gridfinity-extended/0/0
 tags:

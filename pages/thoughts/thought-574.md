@@ -1,6 +1,6 @@
 ---
 title: 'I Made My Own JBOD Enclosure For CHEAP - YouTube'
-date: 2025-02-23T22:30:42
+date: 2025-02-23T22:30:42Z
 template: link
 link: https://www.youtube.com/watch?v=QGkqwdM0L6g&t=781s
 tags:

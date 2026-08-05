@@ -1,6 +1,6 @@
 ---
 title: 'How to Install Silksong mods on the Steam Deck | Long Play Tech'
-date: 2026-05-09T09:46:52
+date: 2026-05-09T09:46:52Z
 template: link
 link: https://longplaytech.com/posts/how-to-install-silksong-mods-on-the-steam-deck/
 tags:

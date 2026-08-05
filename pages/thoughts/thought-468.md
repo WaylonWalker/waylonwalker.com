@@ -1,6 +1,6 @@
 ---
 title: '4 Tips for Building a Production-Ready FastAPI Backend - YouTube'
-date: 2024-12-26T02:42:17
+date: 2024-12-26T02:42:17Z
 template: link
 link: https://www.youtube.com/watch?v=XlnmN4BfCxw
 tags:

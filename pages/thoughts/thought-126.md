@@ -1,6 +1,6 @@
 ---
 title: 'Automatic browser reloading in FastAPI'
-date: 2023-10-08T15:16:56
+date: 2023-10-08T15:16:56Z
 template: link
 link: https://gist.github.com/vrslev/6d0602bfa939a01844f645c608afb85a
 tags:

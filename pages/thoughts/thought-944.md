@@ -1,6 +1,6 @@
 ---
 title: 'No one under 18 installs Linux'
-date: 2026-03-09T11:46:15
+date: 2026-03-09T11:46:15Z
 template: link
 link: https://youtube.com/clip/UgkxVmrLKcNieh6FffrnSu2-iXD8SVFzSCzj?si=rV4k2piZM3Jcq9w0
 tags:

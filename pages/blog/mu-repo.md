@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: []
 title: Maintianing multiple git repos with mu-repo
-date: 2021-06-10T10:44:17
+date: 2021-06-10T10:44:17Z
 published: false
 
 ---

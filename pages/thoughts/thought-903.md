@@ -1,6 +1,6 @@
 ---
 title: 'feat: add llms.txt endpoint for LLM-optimized documentation by...'
-date: 2026-01-08T01:22:02
+date: 2026-01-08T01:22:02Z
 template: link
 link: https://github.com/tailwindlabs/tailwindcss.com/pull/2388#issuecomment-3717222957
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'XCMKB: ZMK/Bluetooth Boards'
-date: 2025-02-21T14:23:18
+date: 2025-02-21T14:23:18Z
 template: link
 link: https://xcmkb.com/pages/zmk-bluetooth-boards
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'python 3.x - FastAPI redirection for trailing slash returns no...'
-date: 2023-07-28T14:59:37
+date: 2023-07-28T14:59:37Z
 template: link
 link: https://stackoverflow.com/questions/63511413/fastapi-redirection-for-trailing-slash-returns-non-ssl-link
 tags:

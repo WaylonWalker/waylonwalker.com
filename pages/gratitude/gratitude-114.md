@@ -1,5 +1,5 @@
 ---
-date: 2022-01-07T20:39:01
+date: 2022-01-07T20:39:01Z
 templateKey: gratitude
 tags:
   - gratitude

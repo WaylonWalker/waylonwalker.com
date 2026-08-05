@@ -1,6 +1,6 @@
 ---
 title: 'I Will Fucking Piledrive You If You Mention AI Again — Ludicity'
-date: 2025-08-06T16:39:28
+date: 2025-08-06T16:39:28Z
 template: link
 link: https://ludic.mataroa.blog/blog/i-will-fucking-piledrive-you-if-you-mention-ai-again/?ref=wheresyoured.at
 tags:

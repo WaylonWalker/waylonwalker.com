@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['linux', 'bash']
 title: Create a Virtual File Gallery with Symlinks
-date: 2021-05-05T08:23:33
+date: 2021-05-05T08:23:33Z
 published: true
 
 ---

@@ -1,6 +1,6 @@
 ---
 title: 'Cassidy on X: "I MADE AN APP ✨ https://t.co/BiyX8XZqDK" / X'
-date: 2024-03-21T23:44:43
+date: 2024-03-21T23:44:43Z
 template: link
 link: https://twitter.com/cassidoo/status/1770900985382138291
 tags:

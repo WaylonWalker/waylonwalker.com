@@ -1,6 +1,6 @@
 ---
 title: 'teej dv 🔭 on X: "Hypermedia fixes this HATEOAS gonna hate" / X'
-date: 2023-10-05T01:13:37
+date: 2023-10-05T01:13:37Z
 template: link
 link: https://twitter.com/teej_dv/status/1708258701008593173
 tags:

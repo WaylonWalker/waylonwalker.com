@@ -1,6 +1,6 @@
 ---
 title: 'Arch Linux - News: The xz package has been backdoored'
-date: 2024-04-16T13:00:33
+date: 2024-04-16T13:00:33Z
 template: link
 link: https://archlinux.org/news/the-xz-package-has-been-backdoored/
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Eric: "This was pushed out with a rus…" - Mastodon'
-date: 2025-08-27T20:35:30
+date: 2025-08-27T20:35:30Z
 template: link
 link: https://social.ericwbailey.website/@eric/115100947111974331
 tags:

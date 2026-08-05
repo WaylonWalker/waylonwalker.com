@@ -1,6 +1,6 @@
 ---
 title: 'Desktop Crash 2026'
-date: 2026-05-02T10:30:05
+date: 2026-05-02T10:30:05Z
 template: link
 link: https://pype.dev/desktop-crash-2026/
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'ticklemykeys on X: "working on a new model. * seams less visib...'
-date: 2024-10-04T01:49:28
+date: 2024-10-04T01:49:28Z
 template: link
 link: https://x.com/XTicklemykeys/status/1840104423508312273
 tags:

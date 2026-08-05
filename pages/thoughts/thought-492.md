@@ -1,6 +1,6 @@
 ---
 title: 'linkding | linkding'
-date: 2025-01-02T02:51:03
+date: 2025-01-02T02:51:03Z
 template: link
 link: https://linkding.link/
 tags:

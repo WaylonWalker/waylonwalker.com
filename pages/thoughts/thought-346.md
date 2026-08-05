@@ -1,6 +1,6 @@
 ---
 title: 'python is simultaneously at the top and the bottom of the tier...'
-date: 2024-07-11T13:41:04
+date: 2024-07-11T13:41:04Z
 template: link
 link: https://www.youtube.com/watch?t=326&v=2fopl7-2wT0
 tags:

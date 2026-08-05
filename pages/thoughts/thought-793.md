@@ -1,6 +1,6 @@
 ---
 title: 'noah on X: "this is about to be my go to on plane flights. u d...'
-date: 2025-08-10T17:07:18
+date: 2025-08-10T17:07:18Z
 template: link
 link: https://x.com/noahgsolomon/status/1954035351510716670
 tags:

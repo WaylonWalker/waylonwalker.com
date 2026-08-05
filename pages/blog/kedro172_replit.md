@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['kedro', 'python']
 title: kedro replit
-date: 2021-04-15T12:37:29
+date: 2021-04-15T12:37:29Z
 published: true
 
 ---

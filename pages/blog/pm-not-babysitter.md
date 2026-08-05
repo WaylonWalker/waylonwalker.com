@@ -1,5 +1,5 @@
 ---
-date: 2026-02-06T14:04:25
+date: 2026-02-06T14:04:25Z
 templateKey: blog-post
 title: Pm Not Babysitter
 published: true

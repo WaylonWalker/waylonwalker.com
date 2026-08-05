@@ -1,6 +1,6 @@
 ---
 title: '@nicknisi.com on Bluesky'
-date: 2026-03-31T10:19:49
+date: 2026-03-31T10:19:49Z
 template: link
 link: https://bsky.app/profile/nicknisi.com/post/3mhgcbpm4ds2p
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Open source, not open contribution with Ben Johnson (Changelog...'
-date: 2023-10-05T01:11:19
+date: 2023-10-05T01:11:19Z
 template: link
 link: https://changelog.com/podcast/433
 tags:

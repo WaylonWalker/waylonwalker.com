@@ -1,6 +1,6 @@
 ---
 title: 'Queso Notes'
-date: 2025-06-06T15:50:43
+date: 2025-06-06T15:50:43Z
 template: link
 link: https://pype.dev/queso-notes/
 tags:

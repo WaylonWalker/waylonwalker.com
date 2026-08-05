@@ -1,6 +1,6 @@
 ---
 title: 'The Internet I Grew Up With Doesn’t Exist Anymore - cleberg.net'
-date: 2026-07-05T12:27:54
+date: 2026-07-05T12:27:54Z
 template: link
 link: https://cleberg.net/blog/internet.html
 tags:

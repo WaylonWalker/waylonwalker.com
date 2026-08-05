@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['kedro', 'python']
 title: Silence Kedro Logs
-date: 2021-05-20T13:13:38
+date: 2021-05-20T13:13:38Z
 published: true
 
 ---

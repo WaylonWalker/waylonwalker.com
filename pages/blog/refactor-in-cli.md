@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: []
 title: Large Refactor At The Command Line
-date: 2020-12-30T00:00:00
+date: 2020-12-30
 published: true
 
 ---

@@ -1,6 +1,6 @@
 ---
 title: 'True Non-Planar Slicing is Here - YouTube'
-date: 2025-04-19T15:39:34
+date: 2025-04-19T15:39:34Z
 template: link
 link: https://www.youtube.com/watch?v=M51bMMVWbC8
 tags:

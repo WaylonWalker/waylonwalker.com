@@ -1,5 +1,5 @@
 ---
-date: 2026-05-01 07:40:44
+date: 2026-05-01
 templateKey: til
 title: image compare in markata go
 published: true
@@ -13,7 +13,7 @@ nice web component with a slider to compare two images.
 
 ::: wa-comparison
 ![d628ffba-de18-4fff-91a8-700f037df119.webp](https://dropper.wayl.one/file/d628ffba-de18-4fff-91a8-700f037df119.webp)
-![](https://dropper.waylonwalker.com/file/ca30665f-1a15-453e-aab8-221901c7df99.webp)
+![image](https://dropper.waylonwalker.com/file/ca30665f-1a15-453e-aab8-221901c7df99.webp)
 :::
 
 It's done with a class wrapper around the image components.
@@ -21,7 +21,7 @@ It's done with a class wrapper around the image components.
 ``` md
 ::: wa-comparison
 ![d628ffba-de18-4fff-91a8-700f037df119.webp](https://dropper.wayl.one/file/d628ffba-de18-4fff-91a8-700f037df119.webp)
-![](https://dropper.waylonwalker.com/file/ca30665f-1a15-453e-aab8-221901c7df99.webp)
+![image](https://dropper.waylonwalker.com/file/ca30665f-1a15-453e-aab8-221901c7df99.webp)
 :::
 ```
 

@@ -1,6 +1,6 @@
 ---
 title: 'Root for Your Friends · Joseph Thacker'
-date: 2025-05-27T02:27:24
+date: 2025-05-27T02:27:24Z
 template: link
 link: https://josephthacker.com/personal/2025/05/13/root-for-your-friends.html
 tags:

@@ -1,5 +1,5 @@
 ---
-date: 2021-12-28T20:26:38
+date: 2021-12-28T20:26:38Z
 templateKey: shots
 title: Snow Day 2021
 tags:

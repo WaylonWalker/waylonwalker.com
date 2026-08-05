@@ -1,6 +1,6 @@
 ---
 title: 'Cache Ruins Everything Around Me - YouTube'
-date: 2024-04-08T13:50:43
+date: 2024-04-08T13:50:43Z
 template: link
 link: https://www.youtube.com/watch?v=j8oD976nhZk
 tags:

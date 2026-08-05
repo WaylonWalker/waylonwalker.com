@@ -1,6 +1,6 @@
 ---
 title: 'The One Eyed Fighting Kirby'
-date: 2024-01-26T17:21:06
+date: 2024-01-26T17:21:06Z
 template: link
 link: https://www.youtube.com/watch?v=9_Ekt1PZBzQ&t=351s
 tags:

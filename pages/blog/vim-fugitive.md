@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['kedro', 'python']
 title: Vim Fugitive
-date: 2021-05-08T22:51:53
+date: 2021-05-08T22:51:53Z
 published: false
 
 ---

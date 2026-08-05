@@ -1,6 +1,6 @@
 ---
 title: 'Spring 2025: Self-Hosted Update – David Bushell – Web Dev (UK)'
-date: 2025-04-13T13:59:32
+date: 2025-04-13T13:59:32Z
 template: link
 link: https://dbushell.com/2025/04/13/self-hosted-update-spring-2025/
 tags:

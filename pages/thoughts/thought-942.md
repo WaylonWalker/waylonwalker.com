@@ -1,6 +1,6 @@
 ---
 title: 'I need a new blog to subscribe to. Know… | justin․searls․co'
-date: 2026-03-09T08:31:53
+date: 2026-03-09T08:31:53Z
 template: link
 link: https://justin.searls.co/takes/2026-03-08-23h18m29s/
 tags:

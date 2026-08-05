@@ -1,6 +1,6 @@
 ---
 title: 'Fitting two hard drives and an SSD in a Dell OptiPlex 7010 SFF'
-date: 2024-11-27T16:53:53
+date: 2024-11-27T16:53:53Z
 template: link
 link: https://willj.net/posts/fitting-two-hard-drives-and-an-ssd-in-a-dell-optiplex-7010-usff/
 tags:

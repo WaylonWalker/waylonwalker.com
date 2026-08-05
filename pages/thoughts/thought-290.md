@@ -1,6 +1,6 @@
 ---
 title: 'How to Deliver Code Every Day | Jake Worth'
-date: 2024-06-01T00:48:21
+date: 2024-06-01T00:48:21Z
 template: link
 link: https://www.jakeworth.com/posts/how-to-deliver-code-every-day/
 tags:

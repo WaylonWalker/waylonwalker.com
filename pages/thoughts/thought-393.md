@@ -1,6 +1,6 @@
 ---
 title: 'urob/zmk-config: Personal ZMK firmware configuration for vario...'
-date: 2024-09-29T16:50:30
+date: 2024-09-29T16:50:30Z
 template: link
 link: https://github.com/urob/zmk-config?tab=readme-ov-file
 tags:

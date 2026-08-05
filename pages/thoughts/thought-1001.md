@@ -1,6 +1,6 @@
 ---
 title: 'My First Time Hearing Lamb Of God. What Took Me So Long? - You...'
-date: 2026-05-24T20:37:13
+date: 2026-05-24T20:37:13Z
 template: link
 link: https://youtube.com/watch?v=5-E9blpVDQ4&si=OAzRl-xf5KfbswN9
 tags:

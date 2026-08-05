@@ -1,6 +1,6 @@
 ---
 title: 'Where DOESN’T curl run with curl BDFL Daniel Stenberg (Changel...'
-date: 2024-06-25T23:39:38
+date: 2024-06-25T23:39:38Z
 template: link
 link: https://changelog.com/friends/49
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Blueskii on X: "this underground creator named "sN0UK" made Qu...'
-date: 2026-02-17T08:02:51
+date: 2026-02-17T08:02:51Z
 template: link
 link: https://x.com/LayoutPerson/status/2023551519375900957
 tags:
@@ -14,4 +14,4 @@ published: true
 
 Wyatt would absolutely love this banger of a level.
 
-![](https://x.com/i/status/2023551519375900957)
+![image](https://x.com/i/status/2023551519375900957)

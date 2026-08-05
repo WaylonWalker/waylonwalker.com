@@ -1,5 +1,5 @@
 ---
-date: 2021-12-29T20:24:48
+date: 2021-12-29T20:24:48Z
 templateKey: til
 title: Installing Homebrew on Linux
 tags:

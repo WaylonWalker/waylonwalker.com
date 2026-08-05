@@ -1,6 +1,6 @@
 ---
 title: '"Pacman is currently in use, please wait."'
-date: 2025-09-16T01:26:33
+date: 2025-09-16T01:26:33Z
 template: link
 link: https://bbs.archlinux.org/viewtopic.php?id=67729
 tags:

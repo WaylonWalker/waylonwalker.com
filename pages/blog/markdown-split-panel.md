@@ -1,5 +1,5 @@
 ---
-date: 2025-02-03 13:21:23
+date: 2025-02-03
 templateKey: blog-post
 title: markdown split panel
 tags:
@@ -85,6 +85,7 @@ Here is the result of that markdown.
         for cli.
 
     !!! vsplit ""
+
         ``` python
         #!/usr/bin/env -S uv run --quiet --script
         # ///

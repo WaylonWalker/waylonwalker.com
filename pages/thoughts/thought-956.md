@@ -1,6 +1,6 @@
 ---
 title: 'you can replace the spinning verbs in Claude Code'
-date: 2026-03-31T18:31:56
+date: 2026-03-31T18:31:56Z
 template: link
 link: https://x.com/joshmedeski/status/2039010741039120417
 tags:

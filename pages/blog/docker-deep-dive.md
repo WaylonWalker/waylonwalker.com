@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['docker', 'linux']
 title: 📝 Docker Deep Dive - Notes
-date: 2021-04-23T09:41:29
+date: 2021-04-23T09:41:29Z
 published: false
 
 ---

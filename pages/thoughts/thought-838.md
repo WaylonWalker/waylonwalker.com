@@ -1,6 +1,6 @@
 ---
 title: 'Chris Joslin 360 Flips El Toro!!!!! - YouTube'
-date: 2025-09-20T15:58:45
+date: 2025-09-20T15:58:45Z
 template: link
 link: https://www.youtube.com/watch?v=5cRKSwWSd5U&t=631s
 tags:

@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ["blog"]
 title: My Content Strategy For 2021
-date: 2021-01-19T00:00:00
+date: 2021-01-19
 published: true
 ---
 

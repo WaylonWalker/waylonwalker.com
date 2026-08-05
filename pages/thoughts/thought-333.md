@@ -1,6 +1,6 @@
 ---
 title: 'Background Tasks - FastAPI'
-date: 2024-07-03T16:17:45
+date: 2024-07-03T16:17:45Z
 template: link
 link: https://fastapi.tiangolo.com/tutorial/background-tasks/
 tags:

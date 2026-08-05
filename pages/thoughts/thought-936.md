@@ -1,6 +1,6 @@
 ---
 title: 'Smaller and dumber - daverupert.com'
-date: 2026-02-23T08:36:05
+date: 2026-02-23T08:36:05Z
 template: link
 link: https://daverupert.com/2026/02/smaller-and-dumber/
 tags:

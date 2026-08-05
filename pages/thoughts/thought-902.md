@@ -1,6 +1,6 @@
 ---
 title: 'Photoshop for text — Steph Ango'
-date: 2026-01-06T02:48:34
+date: 2026-01-06T02:48:34Z
 template: link
 link: https://stephango.com/photoshop-for-text
 tags:

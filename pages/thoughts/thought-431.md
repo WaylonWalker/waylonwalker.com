@@ -1,6 +1,6 @@
 ---
 title: 'Saghen/blink.cmp: Performant, batteries-included completion pl...'
-date: 2024-11-19T14:45:06
+date: 2024-11-19T14:45:06Z
 template: link
 link: https://github.com/Saghen/blink.cmp
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'HTMX looks pretty neat #coding #javascript - YouTube'
-date: 2023-07-28T14:59:37
+date: 2023-07-28T14:59:37Z
 template: link
 link: https://www.youtube.com/shorts/IqE7juQBr6A
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'paynepride dot com outage on vacation'
-date: 2026-03-26T08:20:22
+date: 2026-03-26T08:20:22Z
 template: link
 link: https://pype.dev/paynepride-dot-com-outage-on-vacation/
 tags:

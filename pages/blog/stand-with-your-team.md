@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['catalytic']
 title: Stand With Your Team
-date: 2021-01-22T00:00:00
+date: 2021-01-22
 published: true
 
 ---

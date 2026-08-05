@@ -1,6 +1,6 @@
 ---
 title: 'How To Become The BEST Engineer At Your Company - YouTube'
-date: 2025-09-10T16:08:36
+date: 2025-09-10T16:08:36Z
 template: link
 link: https://www.youtube.com/watch?v=Qc_kEyLsXH0
 tags:

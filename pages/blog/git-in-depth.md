@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['git', ]
 title: Git in Depth Notes
-date: 2021-07-31T08:44:44
+date: 2021-07-31T08:44:44Z
 published: true
 
 ---

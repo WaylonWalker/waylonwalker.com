@@ -1,6 +1,6 @@
 ---
 title: 'How to Build a Website or App'
-date: 2023-11-28T02:04:02
+date: 2023-11-28T02:04:02Z
 template: link
 link: https://syntax.fm/show/696/how-to-build-a-website-or-app
 tags:

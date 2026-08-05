@@ -1,6 +1,6 @@
 ---
 title: 'Availability'
-date: 2025-01-13T02:20:16
+date: 2025-01-13T02:20:16Z
 template: link
 link: https://brittanyellich.com/note/availability/
 tags:

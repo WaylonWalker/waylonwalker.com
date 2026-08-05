@@ -1,6 +1,6 @@
 ---
 title: 'Jonathan Blow Made Me Quit My Job | Prime Reacts - YouTube'
-date: 2026-05-23T20:46:22
+date: 2026-05-23T20:46:22Z
 template: link
 link: https://www.youtube.com/watch?v=znmZA_n485I
 tags:

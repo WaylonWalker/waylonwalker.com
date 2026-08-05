@@ -1,6 +1,6 @@
 ---
 title: 'Configure the Tempo data source | Grafana documentation'
-date: 2025-05-07T01:38:20
+date: 2025-05-07T01:38:20Z
 template: link
 link: https://grafana.com/docs/grafana/latest/datasources/tempo/configure-tempo-data-source/
 tags:

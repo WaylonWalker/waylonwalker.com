@@ -1,6 +1,6 @@
 ---
 title: 'How to run pods as systemd services with Podman | Enable Sysadmin'
-date: 2023-09-22T01:12:19
+date: 2023-09-22T01:12:19Z
 template: link
 link: https://www.redhat.com/en/blog/podman-run-pods-systemd-services
 tags:

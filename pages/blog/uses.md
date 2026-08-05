@@ -4,7 +4,7 @@ tags:
   - meta
   - tmux
 title: Uses
-date: 2021-11-20T10:38:00
+date: 2021-11-20T10:38:00Z
 published: false
 ---
 

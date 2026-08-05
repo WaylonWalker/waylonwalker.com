@@ -1,6 +1,6 @@
 ---
 title: 'awesome-cursorrules/rules/py-fast-api/.cursorrules at main · P...'
-date: 2025-01-09T14:03:12
+date: 2025-01-09T14:03:12Z
 template: link
 link: https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules/py-fast-api/.cursorrules
 tags:

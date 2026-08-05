@@ -1,6 +1,6 @@
 ---
 title: 'File over app — Steph Ango'
-date: 2026-01-05T18:54:06
+date: 2026-01-05T18:54:06Z
 template: link
 link: https://stephango.com/file-over-app
 tags:

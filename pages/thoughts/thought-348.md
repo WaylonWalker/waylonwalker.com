@@ -1,6 +1,6 @@
 ---
 title: 'Red Herring - Solenoid Edition sound test - YouTube'
-date: 2024-07-15T17:09:18
+date: 2024-07-15T17:09:18Z
 template: link
 link: https://www.youtube.com/watch?v=n52y4MOQAjw&t=40s
 tags:

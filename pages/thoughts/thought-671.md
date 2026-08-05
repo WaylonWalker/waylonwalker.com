@@ -1,6 +1,6 @@
 ---
 title: 'WebTUI'
-date: 2025-06-07T22:32:42
+date: 2025-06-07T22:32:42Z
 template: link
 link: https://webtui.ironclad.sh/
 tags:

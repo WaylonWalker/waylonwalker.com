@@ -1,6 +1,6 @@
 ---
 title: 'Let''s Make Sure Github Doesn''t Become the only Option - Edward...'
-date: 2025-08-28T23:45:53
+date: 2025-08-28T23:45:53Z
 template: link
 link: https://blog.edwardloveall.com/lets-make-sure-github-doesnt-become-the-only-option
 tags:

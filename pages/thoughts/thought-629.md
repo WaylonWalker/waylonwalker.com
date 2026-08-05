@@ -1,6 +1,6 @@
 ---
 title: 'Week Links №2: April 2025 - daverupert.com'
-date: 2025-05-09T13:49:04
+date: 2025-05-09T13:49:04Z
 template: link
 link: https://daverupert.com/2025/05/week-links-2/
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Using Obsidian as a Gaming Backlog Library'
-date: 2025-01-03T22:59:05
+date: 2025-01-03T22:59:05Z
 template: link
 link: https://bryanhogan.com/blog/obsidian-gaming-backlog
 tags:

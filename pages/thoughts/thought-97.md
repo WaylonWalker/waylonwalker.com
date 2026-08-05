@@ -1,6 +1,6 @@
 ---
 title: 'cURL Command Without Using Cache | Baeldung on Linux'
-date: 2023-08-21T13:39:41
+date: 2023-08-21T13:39:41Z
 template: link
 link: https://www.baeldung.com/linux/curl-without-cache#adding-the-pragma-http-header
 tags:

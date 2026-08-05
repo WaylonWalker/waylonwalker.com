@@ -1,6 +1,6 @@
 ---
 title: 'Has 3D Printing Reduced Adam Savage''s Maker''s High? - YouTube'
-date: 2026-03-25T20:37:06
+date: 2026-03-25T20:37:06Z
 template: link
 link: https://youtu.be/l8vxTYJbzSY?t=107
 tags:

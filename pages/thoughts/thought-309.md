@@ -1,6 +1,6 @@
 ---
 title: 'podman requries qemu-system on ubuntu'
-date: 2024-06-12T19:29:18
+date: 2024-06-12T19:29:18Z
 template: link
 link: https://askubuntu.com/questions/1490805/how-do-i-install-qemu-on-ubuntu-23-10
 tags:

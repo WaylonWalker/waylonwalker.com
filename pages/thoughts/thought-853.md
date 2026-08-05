@@ -1,6 +1,6 @@
 ---
 title: 'My Bed Doesn''t Work Because of AWS Outage? TheStandup - YouTube'
-date: 2025-10-24T00:48:31
+date: 2025-10-24T00:48:31Z
 template: link
 link: https://www.youtube.com/watch?v=J893_8HlkPM
 tags:

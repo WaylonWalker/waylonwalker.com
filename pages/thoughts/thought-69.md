@@ -1,6 +1,6 @@
 ---
 title: 'API — Jinja Documentation'
-date: 2023-08-04T23:54:05
+date: 2023-08-04T23:54:05Z
 template: link
 link: https://jinja.palletsprojects.com/en/3.0.x/api/#jinja2.Environment.compile_templates
 tags:

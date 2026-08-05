@@ -1,6 +1,6 @@
 ---
 title: 'AI workloads on Talos Linux - Sidero Labs'
-date: 2025-02-14T19:27:54
+date: 2025-02-14T19:27:54Z
 template: link
 link: https://www.siderolabs.com/blog/ai-workloads-on-talos-linux/
 tags:

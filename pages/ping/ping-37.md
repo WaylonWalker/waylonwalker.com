@@ -1,5 +1,5 @@
 ---
-date: 2026-03-27T14:11:49
+date: 2026-03-27T14:11:49Z
 templateKey: ping
 title: Where Is The Tech Industry Going
 published: true

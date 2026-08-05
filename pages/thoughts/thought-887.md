@@ -1,6 +1,6 @@
 ---
 title: 'A quote from Claude'
-date: 2025-12-09T13:56:30
+date: 2025-12-09T13:56:30Z
 template: link
 link: https://simonwillison.net/2025/Dec/9/claude/#atom-everything
 tags:

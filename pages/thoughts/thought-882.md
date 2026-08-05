@@ -1,6 +1,6 @@
 ---
 title: 'Building the PERFECT Linux PC with Linus Torvalds - YouTube'
-date: 2025-12-06T21:23:37
+date: 2025-12-06T21:23:37Z
 template: link
 link: https://www.youtube.com/watch?v=mfv0V1SxbNA
 tags:

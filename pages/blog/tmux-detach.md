@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ["cli", "linux", "tmux"]
 title: tmux detach
-date: 2021-08-01T23:51:21
+date: 2021-08-01T23:51:21Z
 published: true
 ---
 

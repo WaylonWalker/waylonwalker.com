@@ -3,7 +3,7 @@ templateKey: blog-post
 tags:
   - kedro
 title: Kedro-Broken-Urls
-date: 2021-10-20T00:00:00
+date: 2021-10-20
 published: false
 
 ---

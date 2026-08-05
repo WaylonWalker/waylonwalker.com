@@ -1,6 +1,6 @@
 ---
 title: 'Translate a Docker Compose File to Kubernetes Resources | Kube...'
-date: 2023-10-22T02:04:18
+date: 2023-10-22T02:04:18Z
 template: link
 link: https://kubernetes.io/docs/tasks/configure-pod-container/translate-compose-kubernetes/
 tags:

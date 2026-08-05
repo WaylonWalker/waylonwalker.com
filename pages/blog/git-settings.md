@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['git', 'linux']
 title: How I configure git
-date: 2021-06-25T20:50:45
+date: 2021-06-25T20:50:45Z
 published: false
 
 ---

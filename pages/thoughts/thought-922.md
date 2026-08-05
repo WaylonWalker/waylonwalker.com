@@ -1,6 +1,6 @@
 ---
 title: 'The shovelware cometh'
-date: 2026-02-03T21:45:51
+date: 2026-02-03T21:45:51Z
 template: link
 link: https://jerodsanto.net/2026/02/the-shovelware-cometh/
 tags:

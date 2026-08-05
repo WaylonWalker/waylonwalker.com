@@ -1,6 +1,6 @@
 ---
 title: 'GitHub - ngalaiko/tree-sitter-go-template: Golang template gra...'
-date: 2025-01-06T18:49:13
+date: 2025-01-06T18:49:13Z
 template: link
 link: https://github.com/ngalaiko/tree-sitter-go-template
 tags:

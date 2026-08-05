@@ -1,6 +1,6 @@
 ---
 title: 'Safer Bash Shebang Recipes - Just Programmer''s Manual'
-date: 2024-05-14T22:29:49
+date: 2024-05-14T22:29:49Z
 template: link
 link: https://just.systems/man/en/safer-bash-shebang-recipes.html?highlight=pipefail#safer-bash-shebang-recipes
 tags:

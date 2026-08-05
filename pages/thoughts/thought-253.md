@@ -1,6 +1,6 @@
 ---
 title: '⭐⭐⭐⭐⭐ Changelog Master Feed'
-date: 2024-04-20T01:47:19
+date: 2024-04-20T01:47:19Z
 template: link
 link: https://changelog.com/master
 tags:

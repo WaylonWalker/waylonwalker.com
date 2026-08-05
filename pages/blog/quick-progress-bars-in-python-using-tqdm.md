@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Quick Progress Bars in python using TQDM
-date: 2019-09-18T05:00:00.000+00:00
+date: 2019-09-18T05:00:00Z
 published: true
 description: Quick Progress Bars in python using TQDM
 tags:
@@ -16,7 +16,7 @@ unsure of performance.  It allows me to be patient when the process is going
 well and will finish in sufficient time, and allows me to 💥 kill it and find a
 way to make it perform better if it will not finish in sufficient time.
 
-![](/tqdm2.gif)
+![image](/tqdm2.gif)
 
 > for more gifs like these follow me on twitter
 [@waylonwalker](https://twitter.com/_WaylonWalker)

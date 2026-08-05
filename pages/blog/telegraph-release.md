@@ -4,7 +4,7 @@ tags:
   - vim
   - linux
 title: I made a neovim plugin
-date: 2021-10-05T08:04:44
+date: 2021-10-05T08:04:44Z
 published: true
 ---
 

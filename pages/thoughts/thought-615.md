@@ -1,6 +1,6 @@
 ---
 title: 'pypi package ty'
-date: 2025-05-01T20:44:27
+date: 2025-05-01T20:44:27Z
 template: link
 link: https://pypi.org/project/ty/
 tags:

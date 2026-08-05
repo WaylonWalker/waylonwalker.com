@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Forestry.io
-date: 2019-04-23T08:02:00.000+00:00
+date: 2019-04-23T08:02:00Z
 published: true
 description: Creating Posts from forestry.io.
 tags:
@@ -51,7 +51,7 @@ The forestry.io editor is on point.  I can choose to edit using the WYSIWYG edit
 
 Image upload is on point!  Just click the add image button, it pops you into your media library, choose an image, or upload it, and you're off to the races 🏇.
 
-![](/forestry_image_3.gif)
+![image](/forestry_image_3.gif)
 
 ## Im Sold 💲
 

@@ -1,6 +1,6 @@
 ---
 title: 'External Links - Jim Nielsen’s Blog'
-date: 2025-05-31T01:51:13
+date: 2025-05-31T01:51:13Z
 template: link
 link: https://blog.jim-nielsen.com/about/external-links/
 tags:

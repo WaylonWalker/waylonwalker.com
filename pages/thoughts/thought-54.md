@@ -1,6 +1,6 @@
 ---
 title: 'Using Rich Inspect to interrogate Python objects - Textual'
-date: 2023-07-29T00:58:00
+date: 2023-07-29T00:58:00Z
 template: link
 link: https://textual.textualize.io/blog/2023/07/27/using-rich-inspect-to-interrogate-python-objects/
 tags:

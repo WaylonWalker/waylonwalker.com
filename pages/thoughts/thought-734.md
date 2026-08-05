@@ -1,6 +1,6 @@
 ---
 title: 'tailwind hover'
-date: 2025-07-06T02:05:52
+date: 2025-07-06T02:05:52Z
 template: link
 link: https://stackoverflow.com/questions/56755439/modifying-hover-in-tailwindcss
 tags:

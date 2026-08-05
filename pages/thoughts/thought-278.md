@@ -1,6 +1,6 @@
 ---
 title: 'ublue-os/obs-studio-portable: OCI container image of OBS Studi...'
-date: 2024-05-21T01:46:59
+date: 2024-05-21T01:46:59Z
 template: link
 link: https://github.com/ublue-os/obs-studio-portable
 tags:

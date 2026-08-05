@@ -1,6 +1,6 @@
 ---
 title: 'From Prisma Founder to LiveStore: Building local-first apps wi...'
-date: 2025-05-31T20:58:05
+date: 2025-05-31T20:58:05Z
 template: link
 link: https://www.youtube.com/watch?v=aKTbGIrkrLE&t=3260s
 tags:

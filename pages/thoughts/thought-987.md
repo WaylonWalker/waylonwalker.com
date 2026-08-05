@@ -1,6 +1,6 @@
 ---
 title: 'Ghostty is leaving GitHub'
-date: 2026-05-06T20:38:11
+date: 2026-05-06T20:38:11Z
 template: link
 link: https://news.ycombinator.com/item?id=47939579
 tags:

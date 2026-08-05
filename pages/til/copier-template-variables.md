@@ -1,5 +1,5 @@
 ---
-date: 2022-01-03T12:37:32
+date: 2022-01-03T12:37:32Z
 templateKey: til
 title: copier template variables
 tags:

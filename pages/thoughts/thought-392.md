@@ -1,6 +1,6 @@
 ---
 title: 'add init hooks and exported bins · WaylonWalker/devtainer@2e4c6da'
-date: 2024-09-28T01:34:08
+date: 2024-09-28T01:34:08Z
 template: link
 link: https://github.com/WaylonWalker/devtainer/commit/2e4c6da537f5672209d1b3922fad754190aef938#diff-38878343c551520f8af2a3986e5f6085b03df197a56a92abc42a44b200f0264aR19
 tags:

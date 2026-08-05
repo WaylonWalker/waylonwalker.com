@@ -1,6 +1,6 @@
 ---
 title: 'The future of Coding and Code Quality - YouTube'
-date: 2026-03-17T09:07:41
+date: 2026-03-17T09:07:41Z
 template: link
 link: https://www.youtube.com/watch?v=baIHCeccbbw
 tags:

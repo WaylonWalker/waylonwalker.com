@@ -1,6 +1,6 @@
 ---
 title: 'jack cuts block in half'
-date: 2026-02-27T11:29:10
+date: 2026-02-27T11:29:10Z
 template: link
 link: https://x.com/jack/status/2027129697092731343?s=20
 tags:

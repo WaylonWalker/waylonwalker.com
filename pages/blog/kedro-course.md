@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ["python"]
 title: Kedro Course
-date: 2021-12-04T11:34:47
+date: 2021-12-04T11:34:47Z
 published: false
 ---
 

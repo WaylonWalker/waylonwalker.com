@@ -1,6 +1,6 @@
 ---
 title: 'DragonFruit'
-date: 2024-07-15T17:14:20
+date: 2024-07-15T17:14:20Z
 template: link
 link: https://kbd.news/DragonFruit-2178.html
 tags:

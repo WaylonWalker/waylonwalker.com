@@ -1,6 +1,6 @@
 ---
 title: 'Separations of Concerns is a Lie - YouTube'
-date: 2023-11-27T14:49:31
+date: 2023-11-27T14:49:31Z
 template: link
 link: https://www.youtube.com/watch?v=eMTFzpxR0QQ&t=326
 tags:

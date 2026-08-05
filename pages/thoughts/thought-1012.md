@@ -1,6 +1,6 @@
 ---
 title: 'Revisiting the closed canon'
-date: 2026-05-31T11:15:38
+date: 2026-05-31T11:15:38Z
 template: link
 link: https://derekkedziora.com/notes/revisiting-the-closed-canon-
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'sqlite-utils command-line tool - sqlite-utils'
-date: 2023-07-28T14:59:37
+date: 2023-07-28T14:59:37Z
 template: link
 link: https://sqlite-utils.datasette.io/en/stable/cli.html#inserting-json-data
 tags:

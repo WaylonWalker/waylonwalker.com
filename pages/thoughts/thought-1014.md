@@ -1,6 +1,6 @@
 ---
 title: 'Dumb people lay off - YouTube'
-date: 2026-06-14T14:12:27
+date: 2026-06-14T14:12:27Z
 template: link
 link: https://www.youtube.com/shorts/ss0brGFXVwE
 tags:

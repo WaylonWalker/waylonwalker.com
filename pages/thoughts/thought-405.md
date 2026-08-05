@@ -1,6 +1,6 @@
 ---
 title: 'Support regex substitution command · Issue #2232 · helix-edito...'
-date: 2024-10-08T13:12:24
+date: 2024-10-08T13:12:24Z
 template: link
 link: https://github.com/helix-editor/helix/issues/2232
 tags:

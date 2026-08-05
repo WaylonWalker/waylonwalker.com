@@ -1,6 +1,6 @@
 ---
 title: 'Buttery icons'
-date: 2024-09-07T21:04:18
+date: 2024-09-07T21:04:18Z
 template: link
 link: https://www.buttery.so/icons
 tags:

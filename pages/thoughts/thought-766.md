@@ -1,6 +1,6 @@
 ---
 title: 'What the EDC Community Gets Wrong About Pry Bars - YouTube'
-date: 2025-07-26T20:27:28
+date: 2025-07-26T20:27:28Z
 template: link
 link: https://www.youtube.com/watch?v=hT_pzOURr5c
 tags:

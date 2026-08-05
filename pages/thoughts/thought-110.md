@@ -1,6 +1,6 @@
 ---
 title: 'Simon Willison on X: "Anyone got a lead on a good embedding mo...'
-date: 2023-09-10T00:05:15
+date: 2023-09-10T00:05:15Z
 template: link
 link: https://twitter.com/simonw/status/1700528222382027039
 tags:

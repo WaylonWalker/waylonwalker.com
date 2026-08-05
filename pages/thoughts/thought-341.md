@@ -1,6 +1,6 @@
 ---
 title: 'FastHX'
-date: 2024-07-10T12:53:15
+date: 2024-07-10T12:53:15Z
 template: link
 link: https://volfpeter.github.io/fasthx/
 tags:

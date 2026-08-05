@@ -1,6 +1,6 @@
 ---
 title: 'How to Use HTML to Open a Link in a New Tab'
-date: 2023-08-09T13:44:01
+date: 2023-08-09T13:44:01Z
 template: link
 link: https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/
 tags:

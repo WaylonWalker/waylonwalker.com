@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: [python]
 title: Windowing Python Lists
-date: 2020-12-10T10:44:19
+date: 2020-12-10T10:44:19Z
 published: true
 
 ---

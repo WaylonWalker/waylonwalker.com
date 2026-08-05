@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ["kedro", "python"]
 title: Comprehensive guide to creating kedro nodes
-date: 2021-06-03T21:30:35
+date: 2021-06-03T21:30:35Z
 published: false
 ---
 

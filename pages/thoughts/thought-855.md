@@ -1,6 +1,6 @@
 ---
 title: 'Post by @meredithmeredith.bsky.social — Bluesky'
-date: 2025-10-28T02:16:52
+date: 2025-10-28T02:16:52Z
 template: link
 link: https://bsky.app/profile/meredithmeredith.bsky.social/post/3m46a2fm5ac23
 tags:

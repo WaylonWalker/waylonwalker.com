@@ -1,6 +1,6 @@
 ---
 title: 'Louis Rossmann''s Keynote Speech on Right to Repair - YouTube'
-date: 2025-04-27T19:35:21
+date: 2025-04-27T19:35:21Z
 template: link
 link: https://www.youtube.com/watch?v=2ol3rMem_Eg
 tags:

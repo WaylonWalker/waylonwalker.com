@@ -1,6 +1,6 @@
 ---
 title: 'dax on X: "finally got around to setting up an always on openc...'
-date: 2026-02-03T08:18:39
+date: 2026-02-03T08:18:39Z
 template: link
 link: https://x.com/thdxr/status/2017691649384620057
 tags:

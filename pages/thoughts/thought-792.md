@@ -1,6 +1,6 @@
 ---
 title: 'blakewatson.com              - blakewatson.com turns 20'
-date: 2025-08-09T19:48:58
+date: 2025-08-09T19:48:58Z
 template: link
 link: https://blakewatson.com/journal/blakewatson-com-turns-twenty/
 tags:

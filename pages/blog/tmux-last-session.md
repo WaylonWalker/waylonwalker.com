@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['cli', 'linux', 'tmux']
 title: tmux last session
-date: 2021-07-16T23:51:21
+date: 2021-07-16T23:51:21Z
 published: true
 
 ---

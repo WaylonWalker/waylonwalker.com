@@ -1,6 +1,6 @@
 ---
 title: 'Using Netlify Analytics to Build a List of Popular Posts - Jim...'
-date: 2024-03-18T02:12:20
+date: 2024-03-18T02:12:20Z
 template: link
 link: https://blog.jim-nielsen.com/2020/using-netlify-analytics-to-build-list-of-popular-posts/
 tags:

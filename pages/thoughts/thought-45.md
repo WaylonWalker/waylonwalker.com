@@ -1,6 +1,6 @@
 ---
 title: 'Column INSERT/UPDATE Defaults — SQLAlchemy 1.4 Documentation'
-date: 2023-07-28T14:59:37
+date: 2023-07-28T14:59:37Z
 template: link
 link: https://docs.sqlalchemy.org/en/14/core/defaults.html#server-invoked-ddl-explicit-default-expressions
 tags:

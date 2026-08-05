@@ -1,6 +1,6 @@
 ---
 title: 'Glossary Web Component – David Bushell – Web Dev (UK)'
-date: 2025-07-25T02:11:58
+date: 2025-07-25T02:11:58Z
 template: link
 link: https://dbushell.com/2025/05/07/glossary-web-component/
 tags:

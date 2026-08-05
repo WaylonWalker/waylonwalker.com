@@ -1,6 +1,6 @@
 ---
 title: 'casey/just: 🤖 Just a command runner'
-date: 2024-12-14T17:04:06
+date: 2024-12-14T17:04:06Z
 template: link
 link: https://github.com/casey/just?tab=readme-ov-file#constants
 tags:

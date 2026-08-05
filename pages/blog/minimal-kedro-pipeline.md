@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['python', 'kedro', 'data']
 title: Minimal Kedro Pipeline
-date: 2021-01-20T00:00:00
+date: 2021-01-20
 published: true
 
 ---

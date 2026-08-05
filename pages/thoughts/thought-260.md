@@ -1,6 +1,6 @@
 ---
 title: 'Network Types - Pydantic'
-date: 2024-04-30T18:12:26
+date: 2024-04-30T18:12:26Z
 template: link
 link: https://docs.pydantic.dev/2.7/api/networks/#pydantic.networks.EmailStr
 tags:

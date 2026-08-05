@@ -1,5 +1,5 @@
 ---
-date: 2026-02-11T14:00:00
+date: 2026-02-11T14:00:00Z
 templateKey: blog-post
 title: /interests
 published: false

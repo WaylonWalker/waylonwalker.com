@@ -42,7 +42,7 @@ website") desktop app to pick colors out of my text editor theme or colors that
 seems to match up with your taste, goes well with a color that you want to
 highlight or anything that inspires you.
 
-![](https://dropper.waylonwalker.com/file/657696d7-5d34-418c-92f2-253100be8a9f.mp4)
+![image](https://dropper.waylonwalker.com/file/657696d7-5d34-418c-92f2-253100be8a9f.mp4)
 
 ### Tweaking colors
 
@@ -54,7 +54,7 @@ numbers.  I typically just google color picker and use the one built into
 google search.  There are probably ones built into vscode now, but I have been
 doing this for years now.
 
-![](https://dropper.waylonwalker.com/file/e406a62a-1fb2-444b-b40d-44bb9be8007a.mp4)
+![image](https://dropper.waylonwalker.com/file/e406a62a-1fb2-444b-b40d-44bb9be8007a.mp4)
 
 ## Gradient editor
 
@@ -63,7 +63,7 @@ I heavily used [cssgradient.io/](https://cssgradient.io/
 very common for me to put the same color on both sides and slightly pulling the
 color a bit darker or lighter until I liked the look.
 
-![](https://dropper.waylonwalker.com/file/ac87858d-b362-460d-965d-fab7d97f65cf.mp4)
+![image](https://dropper.waylonwalker.com/file/ac87858d-b362-460d-965d-fab7d97f65cf.mp4)
 
 ### Matching Gradients
 
@@ -80,7 +80,7 @@ images since starting to cross post to dev.to.  I did not like how they clashed
 and moved the text.   I also swapped over from gatsby fixed and gatsby fluid to
 make sure that the cover art always fits the card correctly.
 
-![](https://dropper.wayl.one/file/0a6ecf31-c91b-4cba-bcc5-bfab3ad1d6a4.webp)
+![image](https://dropper.wayl.one/file/0a6ecf31-c91b-4cba-bcc5-bfab3ad1d6a4.webp)
 
 ## Feeling Inspired
 
@@ -91,7 +91,7 @@ the next.  So many splash screens and logos include these now.
 
 I have been really inspired by the **sick** lighting that has been hot on youtube and twitch lately.  As I was gearing up to re-design my cards I saw this post by [@chrisbiscardi](https://twitter.com/chrisbiscardi "@chrisbiscardi on twitter") and knew right then that I needed to do a similar lighting effect on my redesign!  This was literally my jumping off point at which I started the re-design.
 
-![](https://dropper.waylonwalker.com/file/0d54e6c7-6b29-4d84-a0a6-2fb68296b7cd.webp)
+![image](https://dropper.waylonwalker.com/file/0d54e6c7-6b29-4d84-a0a6-2fb68296b7cd.webp)
 
 ### Shadows
 
@@ -110,7 +110,7 @@ box-shadow:
 
 ## Complete format
 
-![](https://dropper.waylonwalker.com/file/a6e320a0-7b14-4bee-91e3-66908253f54f.webp)
+![image](https://dropper.waylonwalker.com/file/a6e320a0-7b14-4bee-91e3-66908253f54f.webp)
 
 ## A few days too late
 
@@ -118,10 +118,10 @@ A few days later I saw this thread of tweets by
 [@sarah_edo](https://twitter.com/sarah_edo) and
 [@swyx](https://twitter.com/swyx) and realized that this style is called
 **neomorphism**.  There are some sweet tools referenced here, check
-the![](https://dropper.waylonwalker.com/file/8d505da6-c4b1-487a-b7b3-fc047a4cb53a.webp)m out if you are
+the![image](https://dropper.waylonwalker.com/file/8d505da6-c4b1-487a-b7b3-fc047a4cb53a.webp)m out if you are
 going for this design style.
 
-[![](https://dropper.waylonwalker.com/file/89de6aff-0ac3-42fc-99a5-95b05e0c3877.webp)](https://twitter.com/sarah_edo/status/1227694049118679040?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1227694049118679040&ref_url=http%3A%2F%2F127.0.0.1%3A5500%2Findex.html "neomorphism.io tweet from Sarah Drasner")
+[![image](https://dropper.waylonwalker.com/file/89de6aff-0ac3-42fc-99a5-95b05e0c3877.webp)](https://twitter.com/sarah_edo/status/1227694049118679040?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1227694049118679040&ref_url=http%3A%2F%2F127.0.0.1%3A5500%2Findex.html "neomorphism.io tweet from Sarah Drasner")
 
 [![follow up list of resources from Shawn swyx Wang](https://dropper.wayl.one/file/b35a6422-4e30-47b4-8b12-d14ae63b8797.webp)](https://twitter.com/swyx/status/1227697956587032576)
 

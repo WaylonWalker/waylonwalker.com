@@ -1,6 +1,6 @@
 ---
 title: 'Protect API docs behind authentication? · Issue #364 · tiangol...'
-date: 2023-12-12T01:27:04
+date: 2023-12-12T01:27:04Z
 template: link
 link: https://github.com/tiangolo/fastapi/issues/364
 tags:

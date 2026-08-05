@@ -1,6 +1,6 @@
 ---
 title: 'Creating SSH Apps with Charm Wish and Laravel Prompts | Joe Ta...'
-date: 2024-04-30T18:05:21
+date: 2024-04-30T18:05:21Z
 template: link
 link: https://blog.joe.codes/creating-ssh-apps-with-charm-wish-and-laravel-prompts
 tags:

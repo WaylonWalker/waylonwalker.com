@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ["vim"]
 title: Notes for second vim-fundamentals course meetup
-date: 2021-08-27T22:40:45
+date: 2021-08-27T22:40:45Z
 published: false
 ---
 

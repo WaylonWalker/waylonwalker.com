@@ -1,5 +1,5 @@
 ---
-date: 2022-01-21 14:27:32.053092
+date: 2022-01-21
 templateKey: til
 title: Gradual Typing in Python
 tags:

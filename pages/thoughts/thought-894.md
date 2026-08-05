@@ -1,6 +1,6 @@
 ---
 title: '“You should never build a CMS” | Sanity'
-date: 2025-12-17T15:21:41
+date: 2025-12-17T15:21:41Z
 template: link
 link: https://www.sanity.io/blog/you-should-never-build-a-cms
 tags:

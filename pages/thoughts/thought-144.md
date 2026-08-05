@@ -1,6 +1,6 @@
 ---
 title: 'Kubernetes Persistent Volumes with Deployment and StatefulSet'
-date: 2023-10-21T01:47:58
+date: 2023-10-21T01:47:58Z
 template: link
 link: https://akomljen.com/kubernetes-persistent-volumes-with-deployment-and-statefulset/
 tags:

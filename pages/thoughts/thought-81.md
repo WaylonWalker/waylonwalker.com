@@ -1,6 +1,6 @@
 ---
 title: '#learning #webdevelopment - YouTube'
-date: 2023-08-11T18:33:40
+date: 2023-08-11T18:33:40Z
 template: link
 link: https://www.youtube.com/shorts/wsEuPYFpDgk
 tags:

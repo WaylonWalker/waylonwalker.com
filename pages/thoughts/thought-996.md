@@ -1,6 +1,6 @@
 ---
 title: 'The Office | AI Episode | Claude - YouTube'
-date: 2026-05-20T11:50:45
+date: 2026-05-20T11:50:45Z
 template: link
 link: https://www.youtube.com/watch?v=7z-KdFnDs3w
 tags:

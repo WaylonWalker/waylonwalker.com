@@ -1,6 +1,6 @@
 ---
 title: 'We need to have a talk... - YouTube'
-date: 2025-01-02T03:04:14
+date: 2025-01-02T03:04:14Z
 template: link
 link: https://www.youtube.com/watch?v=_VQl_HTk9PM&t=2607s
 tags:

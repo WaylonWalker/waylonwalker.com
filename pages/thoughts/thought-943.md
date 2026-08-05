@@ -1,6 +1,6 @@
 ---
 title: 'The web is bearable with RSS'
-date: 2026-03-09T09:00:55
+date: 2026-03-09T09:00:55Z
 template: link
 link: https://pluralistic.net/2026/03/07/reader-mode/
 tags:

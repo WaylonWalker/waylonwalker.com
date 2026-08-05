@@ -1,6 +1,6 @@
 ---
 title: 'There’s a TUI for that with Nick Janetakis (Changelog & Friend...'
-date: 2024-07-24T02:47:39
+date: 2024-07-24T02:47:39Z
 template: link
 link: https://changelog.com/friends/53
 tags:

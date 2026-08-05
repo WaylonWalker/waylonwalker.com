@@ -1,6 +1,6 @@
 ---
 title: 'STOP. Using AI Right now - YouTube'
-date: 2025-11-02T15:42:29
+date: 2025-11-02T15:42:29Z
 template: link
 link: https://www.youtube.com/watch?v=qw4fDU18RcU
 tags:

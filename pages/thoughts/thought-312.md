@@ -1,6 +1,6 @@
 ---
 title: 'Adam Wathan, Creator of TailwindCSS - YouTube'
-date: 2024-06-16T22:09:17
+date: 2024-06-16T22:09:17Z
 template: link
 link: https://www.youtube.com/watch?v=FhJfm-kzopc&t=2578s
 tags:

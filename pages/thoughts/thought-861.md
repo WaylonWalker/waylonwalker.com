@@ -1,6 +1,6 @@
 ---
 title: 'is AI ruining opensource? - YouTube'
-date: 2025-11-02T15:31:24
+date: 2025-11-02T15:31:24Z
 template: link
 link: https://www.youtube.com/watch?v=kP93L683UOE
 tags:

@@ -2,7 +2,7 @@
 Tags: ['cli', 'linux', 'tmux',]
 templateKey: blog-post
 title: tmux show-messages
-date: 2021-08-14T09:03:09
+date: 2021-08-14T09:03:09Z
 published: true
 
 ---

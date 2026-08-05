@@ -1,5 +1,5 @@
 ---
-date: 2026-03-05 16:33:27
+date: 2026-03-05
 templateKey: blog-post
 title: A Gaming Keyboard
 tags:
@@ -29,4 +29,4 @@ published: False
                     ╰────┴────┴────╯
 ```
 
-![](https://dropper.waylonwalker.com/file/f5769ee4-7094-4527-a27c-c4b9f3d58bc2.mp4)
+![image](https://dropper.waylonwalker.com/file/f5769ee4-7094-4527-a27c-c4b9f3d58bc2.mp4)

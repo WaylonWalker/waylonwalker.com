@@ -1,6 +1,6 @@
 ---
 title: 'The Subtle Details That Make Hollow Knight Great - YouTube'
-date: 2025-05-22T19:00:50
+date: 2025-05-22T19:00:50Z
 template: link
 link: https://www.youtube.com/watch?v=Vxt8uud5o_4&t=1s
 tags:

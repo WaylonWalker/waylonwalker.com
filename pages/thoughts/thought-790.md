@@ -1,6 +1,6 @@
 ---
 title: 'The Brutalist Report'
-date: 2025-08-08T02:12:48
+date: 2025-08-08T02:12:48Z
 template: link
 link: https://brutalist.report/
 tags:

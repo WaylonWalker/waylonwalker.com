@@ -1,6 +1,6 @@
 ---
 title: 'Command Line Interface Guidelines'
-date: 2024-07-11T12:57:45
+date: 2024-07-11T12:57:45Z
 template: link
 link: https://clig.dev/
 tags:

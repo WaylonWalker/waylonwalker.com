@@ -1,6 +1,6 @@
 ---
 title: 'Python API - DuckDB'
-date: 2023-07-28T14:59:37
+date: 2023-07-28T14:59:37Z
 template: link
 link: https://duckdb.org/docs/api/python/overview.html
 tags:

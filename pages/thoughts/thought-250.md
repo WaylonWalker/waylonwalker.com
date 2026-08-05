@@ -1,6 +1,6 @@
 ---
 title: 'Rug pull, not cool! (Changelog & Friends #40)'
-date: 2024-04-20T01:36:03
+date: 2024-04-20T01:36:03Z
 template: link
 link: https://changelog.com/friends/40
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'There are many Style Guides but this is Mine—zachleat.com'
-date: 2025-02-18T01:56:24
+date: 2025-02-18T01:56:24Z
 template: link
 link: https://www.zachleat.com/web/style-guide/
 tags:

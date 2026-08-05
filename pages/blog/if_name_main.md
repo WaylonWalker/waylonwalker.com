@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['python']
 title: What is if __name__ == "__main___", and how do I use it.
-date: 2021-05-07T09:47:24
+date: 2021-05-07T09:47:24Z
 published: true
 
 ---

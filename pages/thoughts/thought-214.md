@@ -1,6 +1,6 @@
 ---
 title: 'Placehold | A simple, fast and free image placeholder service'
-date: 2024-03-14T15:46:22
+date: 2024-03-14T15:46:22Z
 template: link
 link: https://placehold.co/
 tags:

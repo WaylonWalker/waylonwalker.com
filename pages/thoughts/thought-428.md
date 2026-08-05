@@ -1,6 +1,6 @@
 ---
 title: 'E576: Error while reading ShaDa file: there is an item at posi...'
-date: 2024-11-16T16:04:27
+date: 2024-11-16T16:04:27Z
 template: link
 link: https://github.com/neovim/neovim/issues/6875
 tags:

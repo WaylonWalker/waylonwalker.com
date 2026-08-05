@@ -1,6 +1,6 @@
 ---
 title: 'Wrapping your favorite CLI in neovim - YouTube'
-date: 2024-12-31T21:02:44
+date: 2024-12-31T21:02:44Z
 template: link
 link: https://www.youtube.com/watch?v=rerTvidyz-0&t=160s
 tags:

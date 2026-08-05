@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['python']
 title: ⚙ How Python Tools Are Configured
-date: 2021-01-21T00:00:00
+date: 2021-01-21
 published: false
 
 ---

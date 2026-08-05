@@ -1,6 +1,6 @@
 ---
 title: 'Home'
-date: 2025-09-04T01:36:40
+date: 2025-09-04T01:36:40Z
 template: link
 link: https://lospec.com/
 tags:

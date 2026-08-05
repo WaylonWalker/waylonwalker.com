@@ -1,5 +1,5 @@
 ---
-date: 2026-02-11 20:48:08
+date: 2026-02-11
 templateKey: blog-post
 title: First W In Brotato
 tags:
@@ -19,7 +19,7 @@ overly invested.
 > Watching back I cannot believe how lucky I got, barely scraping by with 1hp at this point
 
 
-![](https://dropper.waylonwalker.com/file/f1711b94-dad1-4f97-b6ac-1de34db4a779.mp4)
+![image](https://dropper.waylonwalker.com/file/f1711b94-dad1-4f97-b6ac-1de34db4a779.mp4)
 
 > the last 80s of the game
 

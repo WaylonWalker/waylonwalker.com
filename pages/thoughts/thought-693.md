@@ -1,6 +1,6 @@
 ---
 title: 'I DONT KNOW WHY - YouTube'
-date: 2025-06-14T22:44:34
+date: 2025-06-14T22:44:34Z
 template: link
 link: https://www.youtube.com/shorts/Se6HHCcy8q4
 tags:

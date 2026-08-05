@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ["personal"]
 title: vows
-date: 2021-05-20T10:07:29
+date: 2021-05-20T10:07:29Z
 published: false
 ---
 

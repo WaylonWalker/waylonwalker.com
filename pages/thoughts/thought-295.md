@@ -1,6 +1,6 @@
 ---
 title: 'How to Force Dark Mode on Every Website in Google Chrome'
-date: 2024-06-03T18:52:25
+date: 2024-06-03T18:52:25Z
 template: link
 link: https://www.howtogeek.com/446198/how-to-force-dark-mode-on-every-website-in-google-chrome/
 tags:

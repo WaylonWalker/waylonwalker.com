@@ -1,6 +1,6 @@
 ---
 title: 'PolyFill Vulnerability is WILD - YouTube'
-date: 2024-06-28T19:48:03
+date: 2024-06-28T19:48:03Z
 template: link
 link: https://www.youtube.com/watch?si=6NK4iCu1b1rCDo7a&t=555&v=mmlHQyMOK7Y&feature=youtu.be
 tags:

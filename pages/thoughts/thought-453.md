@@ -1,6 +1,6 @@
 ---
 title: 'docker context (and an issue to question your sanity) | Pype.dev'
-date: 2024-12-19T17:56:46
+date: 2024-12-19T17:56:46Z
 template: link
 link: https://pype.dev/docker-context-and-an-issue-to-question-your-sanity
 tags:

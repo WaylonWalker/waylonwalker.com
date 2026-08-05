@@ -1,6 +1,6 @@
 ---
 title: 'OpenAI Is Actually Terrible - YouTube'
-date: 2025-01-31T03:46:29
+date: 2025-01-31T03:46:29Z
 template: link
 link: https://www.youtube.com/watch?v=2D9ON1ZQhnA&t=359s
 tags:

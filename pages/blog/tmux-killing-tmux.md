@@ -2,7 +2,7 @@
 Tags: ['cli', 'linux', 'tmux',]
 templateKey: blog-post
 title: killing tmux
-date: 2021-08-11T09:03:09
+date: 2021-08-11T09:03:09Z
 published: true
 
 ---

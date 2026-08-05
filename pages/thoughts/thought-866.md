@@ -1,6 +1,6 @@
 ---
 title: 'Ford Thinks We''re Cooked, I agree- YouTube'
-date: 2025-11-06T16:35:18
+date: 2025-11-06T16:35:18Z
 template: link
 link: https://youtu.be/TyCR8YpvqhE?si=VmV389UaBzGbjdO-
 tags:

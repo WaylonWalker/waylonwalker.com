@@ -1,6 +1,6 @@
 ---
 title: 'How to kill process based on the port number in Linux - Linux ...'
-date: 2023-10-23T15:15:02
+date: 2023-10-23T15:15:02Z
 template: link
 link: https://linuxconfig.org/how-to-kill-process-based-on-the-port-number-in-linux
 tags:

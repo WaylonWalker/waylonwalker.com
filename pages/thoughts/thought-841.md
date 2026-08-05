@@ -1,6 +1,6 @@
 ---
 title: 'This printed design holds a steel tube where the tube goes. #o...'
-date: 2025-09-27T02:16:06
+date: 2025-09-27T02:16:06Z
 template: link
 link: https://www.youtube.com/shorts/PWyZB1nha_o
 tags:

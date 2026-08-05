@@ -1,6 +1,6 @@
 ---
 title: 'Sealed Secrets'
-date: 2024-03-28T01:07:06
+date: 2024-03-28T01:07:06Z
 template: link
 link: https://sealed-secrets.netlify.app/
 tags:

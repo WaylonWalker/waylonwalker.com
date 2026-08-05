@@ -1,6 +1,6 @@
 ---
 title: 'Session vs Token Authentication in 100 Seconds - YouTube'
-date: 2023-07-28T14:59:37
+date: 2023-07-28T14:59:37Z
 template: link
 link: https://www.youtube.com/watch?v=UBUNrFtufWo
 tags:

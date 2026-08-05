@@ -1,6 +1,6 @@
 ---
 title: 'XBOX DISC TO DIGITAL COMING SOON #shorts - YouTube'
-date: 2026-07-16T10:25:55
+date: 2026-07-16T10:25:55Z
 template: link
 link: https://www.youtube.com/shorts/pdy00S2dxuI
 tags:

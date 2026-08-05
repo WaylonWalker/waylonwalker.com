@@ -1,6 +1,6 @@
 ---
 title: 'linux - What is stored in /dev/pts files and can we open them?...'
-date: 2024-07-07T01:08:38
+date: 2024-07-07T01:08:38Z
 template: link
 link: https://unix.stackexchange.com/questions/93531/what-is-stored-in-dev-pts-files-and-can-we-open-them
 tags:

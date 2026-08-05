@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: []
 title: Reader-2020
-date: 2020-07-12T05:00:00.000+00:00
+date: 2020-07-12T05:00:00Z
 published: true
 description: Notes about my reader idea
 cover: ""

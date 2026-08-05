@@ -1,6 +1,6 @@
 ---
 title: 'pacman/Tips and tricks - ArchWiki'
-date: 2024-07-06T16:52:09
+date: 2024-07-06T16:52:09Z
 template: link
 link: https://wiki.archlinux.org/title/pacman/Tips_and_tricks
 tags:

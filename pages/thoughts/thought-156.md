@@ -1,6 +1,6 @@
 ---
 title: 'Kubernetes Secrets in 5 Minutes! - YouTube'
-date: 2023-10-30T16:47:19
+date: 2023-10-30T16:47:19Z
 template: link
 link: https://www.youtube.com/watch?v=cQAEK9PBY8U&t=186
 tags:

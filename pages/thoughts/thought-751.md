@@ -1,6 +1,6 @@
 ---
 title: 'Quickshell'
-date: 2025-07-16T00:30:48
+date: 2025-07-16T00:30:48Z
 template: link
 link: https://quickshell.org/
 tags:

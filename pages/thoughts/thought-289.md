@@ -1,6 +1,6 @@
 ---
 title: 'Be Fast | Jake Worth'
-date: 2024-06-01T00:38:15
+date: 2024-06-01T00:38:15Z
 template: link
 link: https://www.jakeworth.com/posts/be-fast/
 tags:

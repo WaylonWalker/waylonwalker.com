@@ -1,6 +1,6 @@
 ---
 title: 'Ubuntu Summit 2024 | UMU - A unified tool for easily running y...'
-date: 2024-12-26T16:47:13
+date: 2024-12-26T16:47:13Z
 template: link
 link: https://www.youtube.com/watch?v=iuBzGked-JU&t=559s
 tags:

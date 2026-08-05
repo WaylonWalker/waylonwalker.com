@@ -1,6 +1,6 @@
 ---
 title: 'Why is Everyone So Wrong About AI Water Use?? - YouTube'
-date: 2025-12-09T14:39:18
+date: 2025-12-09T14:39:18Z
 template: link
 link: https://www.youtube.com/watch?v=H_c6MWk7PQc
 tags:

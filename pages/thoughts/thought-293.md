@@ -1,6 +1,6 @@
 ---
 title: 'xxHash - Extremely fast non-cryptographic hash algorithm'
-date: 2024-06-03T13:34:30
+date: 2024-06-03T13:34:30Z
 template: link
 link: https://xxhash.com/
 tags:

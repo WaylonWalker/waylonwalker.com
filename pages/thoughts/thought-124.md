@@ -1,6 +1,6 @@
 ---
 title: 'Bob Belderbos on X: "Forget Python for a sec, here''s how Vim h...'
-date: 2023-10-05T01:34:19
+date: 2023-10-05T01:34:19Z
 template: link
 link: https://twitter.com/bbelderbos/status/1709525676154368055
 tags:

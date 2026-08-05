@@ -2,8 +2,7 @@
 templateKey: til
 tags: ['kedro', 'python']
 title: Add New Dependencies to Your Kedro Project
-date: 2022-01-28T21:30:48
-
+date: 2022-01-28T21:30:48Z
 ---
 
 As you work on your kedro projects you are bound to need to add more

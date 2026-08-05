@@ -1,6 +1,6 @@
 ---
 title: 'jpillora/installer: One-liner for installing binaries from Git...'
-date: 2023-09-23T00:59:09
+date: 2023-09-23T00:59:09Z
 template: link
 link: https://github.com/jpillora/installer
 tags:

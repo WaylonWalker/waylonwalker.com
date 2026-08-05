@@ -1,6 +1,6 @@
 ---
 title: 'How I Use Computers Now - YouTube'
-date: 2025-07-26T14:41:22
+date: 2025-07-26T14:41:22Z
 template: link
 link: https://www.youtube.com/watch?v=x-sW4sKZocA
 tags:

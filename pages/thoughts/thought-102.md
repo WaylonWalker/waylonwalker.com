@@ -1,6 +1,6 @@
 ---
 title: 'Bigger Applications - Multiple Files - FastAPI'
-date: 2023-08-24T14:51:23
+date: 2023-08-24T14:51:23Z
 template: link
 link: https://fastapi.tiangolo.com/tutorial/bigger-applications/#another-module-with-apirouter
 tags:

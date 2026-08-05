@@ -1,6 +1,6 @@
 ---
 title: 'Average Theo video be like - YouTube'
-date: 2026-05-25T14:27:48
+date: 2026-05-25T14:27:48Z
 template: link
 link: https://www.youtube.com/watch?v=h1p9zdUtUdo
 tags:

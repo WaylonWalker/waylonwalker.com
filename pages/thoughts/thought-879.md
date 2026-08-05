@@ -1,6 +1,6 @@
 ---
 title: 'Deleting Code for Performance – David Bushell – Web Dev (UK)'
-date: 2025-12-04T16:12:19
+date: 2025-12-04T16:12:19Z
 template: link
 link: https://dbushell.com/2025/12/04/deleting-code-for-performance/
 tags:

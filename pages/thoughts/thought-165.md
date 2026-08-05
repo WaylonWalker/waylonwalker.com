@@ -1,6 +1,6 @@
 ---
 title: 'Will McGugan on X: "Just a wee thing that came up today. I thi...'
-date: 2023-11-27T16:31:33
+date: 2023-11-27T16:31:33Z
 template: link
 link: https://twitter.com/willmcgugan/status/1729158038551220477
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Too much magic – Will McGugan – Will McGugan''s essays'
-date: 2025-05-10T01:49:34
+date: 2025-05-10T01:49:34Z
 template: link
 link: https://willmcgugan.github.io/too-much-magic/
 tags:

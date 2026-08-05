@@ -1,6 +1,6 @@
 ---
 title: 'This is Goodbye? - YouTube'
-date: 2024-07-26T19:03:00
+date: 2024-07-26T19:03:00Z
 template: link
 link: https://www.youtube.com/watch?v=YfwlM-fw-aw
 tags:

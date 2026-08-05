@@ -1,6 +1,6 @@
 ---
 title: 'How to Format All Files in a Directory with Prettier | by Dr. ...'
-date: 2023-08-19T14:58:09
+date: 2023-08-19T14:58:09Z
 template: link
 link: https://levelup.gitconnected.com/how-to-format-all-files-in-a-directory-with-prettier-5f0ff5f4ffb2
 tags:

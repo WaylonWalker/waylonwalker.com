@@ -1,6 +1,6 @@
 ---
 title: 'The decline of "i use vim btw" - YouTube'
-date: 2025-06-29T17:46:52
+date: 2025-06-29T17:46:52Z
 template: link
 link: https://www.youtube.com/watch?v=RmnqdAidVeE
 tags:

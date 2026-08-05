@@ -1,5 +1,5 @@
 ---
-date: 2021-12-27T20:24:48
+date: 2021-12-27T20:24:48Z
 templateKey: til
 title: Opening files in vim from output of command
 tags:

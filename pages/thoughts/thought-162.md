@@ -1,6 +1,6 @@
 ---
 title: 'Pype|Dev🐍 (py-puh-day) on X: "@wtravishubbard Management is ab...'
-date: 2023-11-22T03:27:24
+date: 2023-11-22T03:27:24Z
 template: link
 link: https://twitter.com/pypeaday/status/1727156823185113304
 tags:

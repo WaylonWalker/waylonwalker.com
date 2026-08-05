@@ -1,6 +1,6 @@
 ---
 title: 'Talking with Typecraft - YouTube'
-date: 2024-12-24T20:24:42
+date: 2024-12-24T20:24:42Z
 template: link
 link: https://www.youtube.com/watch?v=qEykeKfAnJQ&t=1068s
 tags:

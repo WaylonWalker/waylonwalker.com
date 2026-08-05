@@ -1,6 +1,6 @@
 ---
 title: 'From Vim To Zed - YouTube'
-date: 2024-04-13T13:42:56
+date: 2024-04-13T13:42:56Z
 template: link
 link: https://www.youtube.com/watch?v=ZRnWmNdf5IE&t=612
 tags:

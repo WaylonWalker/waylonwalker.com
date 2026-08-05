@@ -1,6 +1,6 @@
 ---
 title: 'argocd automated sync'
-date: 2024-04-19T19:36:47
+date: 2024-04-19T19:36:47Z
 template: link
 link: none
 tags:

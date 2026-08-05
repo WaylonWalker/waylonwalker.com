@@ -1,6 +1,6 @@
 ---
 title: 'qmk_firmware/docs/features/programmable_button.md at master · ...'
-date: 2024-06-26T01:19:41
+date: 2024-06-26T01:19:41Z
 template: link
 link: https://github.com/qmk/qmk_firmware/blob/master/docs/features/programmable_button.md
 tags:

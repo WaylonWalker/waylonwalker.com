@@ -1,6 +1,6 @@
 ---
 title: 'Releases · bootandy/dust'
-date: 2025-01-19T18:58:42
+date: 2025-01-19T18:58:42Z
 template: link
 link: https://github.com/bootandy/dust?tab=readme-ov-file
 tags:

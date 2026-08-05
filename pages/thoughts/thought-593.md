@@ -1,6 +1,6 @@
 ---
 title: 'Self-Hosted 29: Perils of Self-Hosting'
-date: 2025-04-15T13:18:51
+date: 2025-04-15T13:18:51Z
 template: link
 link: https://selfhosted.show/29?t=637
 tags:

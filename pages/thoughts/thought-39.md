@@ -1,6 +1,6 @@
 ---
 title: '</> htmx ~ The client-side-templates Extension'
-date: 2023-07-28T14:59:37
+date: 2023-07-28T14:59:37Z
 template: link
 link: https://htmx.org/extensions/client-side-templates/
 tags:

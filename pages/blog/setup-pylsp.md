@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['vim', 'linux', 'python']
 title: python lsp setup
-date: 2021-05-17T16:13:42
+date: 2021-05-17T16:13:42Z
 published: false
 
 ---

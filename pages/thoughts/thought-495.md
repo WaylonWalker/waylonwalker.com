@@ -1,6 +1,6 @@
 ---
 title: 'Changelog • Robb Knight'
-date: 2025-01-02T18:16:10
+date: 2025-01-02T18:16:10Z
 template: link
 link: https://rknight.me/log/
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Path Operation Advanced Configuration - FastAPI'
-date: 2023-12-12T01:37:35
+date: 2023-12-12T01:37:35Z
 template: link
 link: https://fastapi.tiangolo.com/advanced/path-operation-advanced-configuration/#exclude-from-openapi
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'olimorris/codecompanion.nvim: ✨ AI-powered coding, seamlessly ...'
-date: 2025-01-09T02:18:50
+date: 2025-01-09T02:18:50Z
 template: link
 link: https://github.com/olimorris/codecompanion.nvim
 tags:

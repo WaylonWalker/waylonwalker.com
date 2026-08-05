@@ -1,6 +1,6 @@
 ---
 title: 'Inside Argo: Automating the Future - YouTube'
-date: 2024-11-22T02:29:00
+date: 2024-11-22T02:29:00Z
 template: link
 link: https://www.youtube.com/watch?v=ox3Gx3eCTCs
 tags:

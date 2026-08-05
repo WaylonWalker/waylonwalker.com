@@ -1,6 +1,6 @@
 ---
 title: 'numtide/treefmt: one CLI to format your repo [maintainers=@zim...'
-date: 2025-06-08T00:20:41
+date: 2025-06-08T00:20:41Z
 template: link
 link: https://github.com/numtide/treefmt
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Hogwarts Legacy Argyllshire Map: What does the button do? - Do...'
-date: 2024-04-03T01:45:36
+date: 2024-04-03T01:45:36Z
 template: link
 link: https://dotesports.com/hp/news/hogwarts-legacy-argyllshire-map-what-does-the-button-do
 tags:

@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['python']
 title: How I Review Pipeline Code
-date: 2021-03-21T00:00:00
+date: 2021-03-21
 published: false
 
 ---

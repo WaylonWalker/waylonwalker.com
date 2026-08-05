@@ -1,6 +1,6 @@
 ---
 title: 'Proompted Kiddies Learning The Hard Way - YouTube'
-date: 2025-02-14T19:15:41
+date: 2025-02-14T19:15:41Z
 template: link
 link: https://www.youtube.com/watch?v=eNIBie_uYMI
 tags:

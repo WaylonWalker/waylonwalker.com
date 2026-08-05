@@ -2,7 +2,7 @@
 Tags: ['cli', 'linux', 'tmux',]
 templateKey: blog-post
 title: tmux new-session
-date: 2021-08-01T23:51:21
+date: 2021-08-01T23:51:21Z
 published: true
 
 ---

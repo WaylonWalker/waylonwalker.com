@@ -1,6 +1,6 @@
 ---
 title: 'The Website Specification'
-date: 2026-06-01T11:15:24
+date: 2026-06-01T11:15:24Z
 template: link
 link: https://specification.website/
 tags:

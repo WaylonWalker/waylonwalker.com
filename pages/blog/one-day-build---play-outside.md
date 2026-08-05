@@ -1,5 +1,5 @@
 ---
-date: 2024-04-10 12:32:20
+date: 2024-04-10
 templateKey: blog-post
 title: One Day Build - Play Outside
 slug: odb-play-outside
@@ -45,7 +45,7 @@ So this is what I built, its a web app that checks the weather and air quality
 in your area and determines if its safe to go outside.  It will even recommend
 limiting your time, or wearing a coat.
 
-[![](https://shots.waylonwalker.com/shot/?url=https://play-outside.wayl.one&amp;height=1200&amp;width=600&amp;scaled_width=600&amp;scaled_height=1200&amp;selectors=)](https://play-outside.wayl.one/)
+[![image](https://shots.waylonwalker.com/shot/?url=https://play-outside.wayl.one&amp;height=1200&amp;width=600&amp;scaled_width=600&amp;scaled_height=1200&amp;selectors=)](https://play-outside.wayl.one/)
 
 ## The Stack
 

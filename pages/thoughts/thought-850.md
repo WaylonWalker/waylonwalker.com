@@ -1,6 +1,6 @@
 ---
 title: '2025 The Year Of The Linux Desktop - YouTube'
-date: 2025-10-10T13:14:37
+date: 2025-10-10T13:14:37Z
 template: link
 link: https://www.youtube.com/watch?v=GQJZ96l-XQ4
 tags:

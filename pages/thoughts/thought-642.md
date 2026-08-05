@@ -1,6 +1,6 @@
 ---
 title: 'Billy Basso on code architecture of Animal Well! - YouTube'
-date: 2025-05-24T19:38:21
+date: 2025-05-24T19:38:21Z
 template: link
 link: https://www.youtube.com/watch?v=YngwUu4bXR4&t=6039s
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Hackernews query by url'
-date: 2025-05-31T01:54:59
+date: 2025-05-31T01:54:59Z
 template: link
 link: https://hn.algolia.com/api/v1/search?query=waylonwalker.com&restrictSearchableAttributes=url
 tags:

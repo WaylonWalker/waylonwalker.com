@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['bash', 'python']
 title: How to Install micromamba on linux (from the comamnd line only)
-date: 2021-04-21T13:32:27
+date: 2021-04-21T13:32:27Z
 published: true
 
 ---

@@ -1,6 +1,6 @@
 ---
 title: '</> htmx ~ hx-indicator Attribute'
-date: 2023-09-02T16:59:30
+date: 2023-09-02T16:59:30Z
 template: link
 link: https://htmx.org/attributes/hx-indicator/
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'pype.dev - https://github.com/steveyegge/beads'
-date: 2026-03-26T08:24:05
+date: 2026-03-26T08:24:05Z
 template: link
 link: https://pype.dev/my-thoughts-on-beads/
 tags:

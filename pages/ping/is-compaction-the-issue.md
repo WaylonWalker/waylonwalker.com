@@ -1,5 +1,5 @@
 ---
-date: 2026-03-26T09:37:47
+date: 2026-03-26T09:37:47Z
 templateKey: ping
 title: Is Compaction The Issue
 published: true

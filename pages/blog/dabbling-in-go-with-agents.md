@@ -1,5 +1,5 @@
 ---
-date: 2026-01-23T14:46:07
+date: 2026-01-23T14:46:07Z
 templateKey: blog-post
 title: Dabbling In Go With Agents
 published: false

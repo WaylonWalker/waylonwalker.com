@@ -1,6 +1,6 @@
 ---
 title: 'DiskCache API Reference — DiskCache 5.6.1 documentation'
-date: 2024-07-03T13:35:12
+date: 2024-07-03T13:35:12Z
 template: link
 link: https://grantjenks.com/docs/diskcache/api.html#diskcache.Cache.peekitem
 tags:

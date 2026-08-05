@@ -1,6 +1,6 @@
 ---
 title: 'An attempt at a balanced perspective on AI - YouTube'
-date: 2026-02-22T21:09:05
+date: 2026-02-22T21:09:05Z
 template: link
 link: https://www.youtube.com/watch?v=FC7YGG0FzZ0
 tags:

@@ -3,7 +3,7 @@ templateKey: blog-post
 tags:
   - linux
   - tmux
-date: 2021-06-25T20:50:45
+date: 2021-06-25T20:50:45Z
 published: false
 ---
 These are the notes that I used as I set up my first ever ubuntu desktop.

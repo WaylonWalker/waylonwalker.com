@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['soft', ]
 title: Build A Portfolio
-date: 2021-05-21T11:26:18
+date: 2021-05-21T11:26:18Z
 published: false
 
 ---

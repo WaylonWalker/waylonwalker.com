@@ -1,5 +1,5 @@
 ---
-date: 2022-01-04T10:55:12
+date: 2022-01-04T10:55:12Z
 templateKey: til
 title: Changing copier template strings (_endops)
 tags:

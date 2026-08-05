@@ -1,6 +1,6 @@
 ---
 title: 'Dropper'
-date: 2024-12-16T22:26:59
+date: 2024-12-16T22:26:59Z
 template: link
 link: https://dropper.waylonwalker.com/
 tags:

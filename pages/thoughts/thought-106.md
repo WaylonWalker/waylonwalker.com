@@ -1,6 +1,6 @@
 ---
 title: '</> htmx ~ The disable-element Extension'
-date: 2023-09-02T17:02:58
+date: 2023-09-02T17:02:58Z
 template: link
 link: https://v1.htmx.org/extensions/disable-element/
 tags:

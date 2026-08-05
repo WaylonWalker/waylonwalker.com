@@ -1,6 +1,6 @@
 ---
 title: 'inline-snapshot'
-date: 2024-04-17T18:37:15
+date: 2024-04-17T18:37:15Z
 template: link
 link: https://15r10nk.github.io/inline-snapshot/
 tags:

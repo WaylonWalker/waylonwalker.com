@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['kedro', 'python']
 title: Writing your first kedro Nodes
-date: 2021-09-13T22:40:45
+date: 2021-09-13T22:40:45Z
 published: true
 
 ---

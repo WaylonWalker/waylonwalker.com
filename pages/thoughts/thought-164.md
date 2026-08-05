@@ -1,6 +1,6 @@
 ---
 title: 'Sebastián Ramírez on X: "Now @FastAPI has 65k+ GitHub stars! ✨...'
-date: 2023-11-27T16:15:36
+date: 2023-11-27T16:15:36Z
 template: link
 link: https://twitter.com/tiangolo/status/1729153717956715007
 tags:

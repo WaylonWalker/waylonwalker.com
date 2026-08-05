@@ -1,6 +1,6 @@
 ---
 title: 'You’ll own NOTHING and be happy? - YouTube'
-date: 2025-12-06T21:33:15
+date: 2025-12-06T21:33:15Z
 template: link
 link: https://www.youtube.com/watch?v=S45rLuY48w4
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Reflections on 13 years and 1,000 posts of writing on my blog'
-date: 2026-01-13T03:15:54
+date: 2026-01-13T03:15:54Z
 template: link
 link: https://hamy.xyz/blog/2026-01_1000-blog-posts
 tags:

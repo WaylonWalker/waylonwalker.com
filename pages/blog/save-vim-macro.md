@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['vim']
 title: Save Vim Macro
-date: 2021-01-04T00:00:00
+date: 2021-01-04
 published: true
 
 ---

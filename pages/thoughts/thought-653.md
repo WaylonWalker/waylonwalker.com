@@ -1,6 +1,6 @@
 ---
 title: 'Command Line | gitignore.io / docs'
-date: 2025-05-29T16:22:42
+date: 2025-05-29T16:22:42Z
 template: link
 link: https://docs.gitignore.io/install/command-line
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'The Github Tax (I can''t believe they actually did this...) - Y...'
-date: 2025-12-17T15:04:09
+date: 2025-12-17T15:04:09Z
 template: link
 link: https://www.youtube.com/watch?v=xTSar1SEmIU
 tags:

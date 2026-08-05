@@ -1,6 +1,6 @@
 ---
 title: 'Releases · WaylonWalker/nvim-manager'
-date: 2025-01-08T03:09:30
+date: 2025-01-08T03:09:30Z
 template: link
 link: https://github.com/WaylonWalker/nvim-manager/releases
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'basecamp/omakub: Opinionated Ubuntu Setup'
-date: 2024-06-06T16:20:19
+date: 2024-06-06T16:20:19Z
 template: link
 link: https://github.com/basecamp/omakub
 tags:

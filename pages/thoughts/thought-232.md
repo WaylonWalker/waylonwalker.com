@@ -1,6 +1,6 @@
 ---
 title: 'Optimizing SQLite for servers'
-date: 2024-04-01T20:55:23
+date: 2024-04-01T20:55:23Z
 template: link
 link: https://kerkour.com/sqlite-for-servers
 tags:

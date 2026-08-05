@@ -1,6 +1,6 @@
 ---
 title: 'STLGears.com | The Free STL Gear Designer'
-date: 2024-05-26T00:04:56
+date: 2024-05-26T00:04:56Z
 template: link
 link: https://www.stlgears.com/generators/3dprint
 tags:

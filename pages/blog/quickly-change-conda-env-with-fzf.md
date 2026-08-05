@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['python']
 title: Quickly Change Conda Env With Fzf
-date: 2021-01-11T00:00:00
+date: 2021-01-11
 published: true
 
 ---

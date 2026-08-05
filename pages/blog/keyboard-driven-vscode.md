@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Keyboard Driven VSCode
-date: 2019-07-07T05:00:00.000+00:00
+date: 2019-07-07T05:00:00Z
 published: true
 description: Reimagining my tmux configuration inside of vscode.
 tags:
@@ -154,7 +154,7 @@ Sometimes the terminal window gets a bit cramped inside of splits and you need t
 
 I am often using this one when I have a process running that I watch like gatsby, and I need to quickly pop into a new pane to run a git command and back in to gatsby before jumping up to my editor.
 
-![](https://dropper.waylonwalker.com/file/f8c775ad-514a-4b7d-a823-27885da8a2df.mp4)
+![image](https://dropper.waylonwalker.com/file/f8c775ad-514a-4b7d-a823-27885da8a2df.mp4)
 
 ``` json
 [
@@ -183,7 +183,7 @@ I am often using this one when I have a process running that I watch like gatsby
 
 This last one doesnt work as well as I would like but it sure does get the job done.  It Zooms (z) into the terminal from anywhere in vscode.  I can be in my editor and zoom out of the terminal to make more room, or zoom in to see what happened from my last edit.
 
-![](https://dropper.waylonwalker.com/file/a70d8ace-1cf3-4d71-aa72-c27ef1f07cf9.mp4)
+![image](https://dropper.waylonwalker.com/file/a70d8ace-1cf3-4d71-aa72-c27ef1f07cf9.mp4)
 
 ``` json
 [

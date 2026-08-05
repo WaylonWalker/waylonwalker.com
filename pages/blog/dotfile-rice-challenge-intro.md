@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ["linux", "bash"]
 title: 30 days dotfile ricing
-date: 2021-11-29T11:34:47
+date: 2021-11-29T11:34:47Z
 published: true
 ---
 

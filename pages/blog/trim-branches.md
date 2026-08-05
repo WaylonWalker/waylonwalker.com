@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['git', 'bash', 'linux']
 title: Trim unused git branches
-date: 2021-05-07T09:47:24
+date: 2021-05-07T09:47:24Z
 published: true
 
 ---

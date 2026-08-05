@@ -1,6 +1,6 @@
 ---
 title: 'Inspect a Kubernetes PersistentVolumeClaim | Frank Sauerburger'
-date: 2023-10-21T01:34:08
+date: 2023-10-21T01:34:08Z
 template: link
 link: https://frank.sauerburger.io/2021/12/01/inspect-k8s-pvc.html
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'DuckDB vs. MotherDuck — should you switch to the cloud version...'
-date: 2023-07-31T22:36:12
+date: 2023-07-31T22:36:12Z
 template: link
 link: https://kestra.io/blogs/2023-07-28-duckdb-vs-motherduck
 tags:

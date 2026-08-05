@@ -1,6 +1,6 @@
 ---
 title: 'Search Needs a Human Solution: A Manifesto'
-date: 2025-08-21T01:23:08
+date: 2025-08-21T01:23:08Z
 template: link
 link: https://simplecto.com/search-needs-a-human-solution-a-manifesto/
 tags:

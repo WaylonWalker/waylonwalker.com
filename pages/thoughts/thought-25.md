@@ -1,6 +1,6 @@
 ---
 title: 'encodeURIComponent() - JavaScript | MDN'
-date: 2023-07-28T14:59:37
+date: 2023-07-28T14:59:37Z
 template: link
 link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent
 tags:

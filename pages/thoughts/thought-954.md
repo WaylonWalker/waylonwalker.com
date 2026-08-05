@@ -1,6 +1,6 @@
 ---
 title: 'To Live In A World Without AI'
-date: 2026-03-26T08:29:37
+date: 2026-03-26T08:29:37Z
 template: link
 link: https://pype.dev/to-live-in-a-world-without-ai/
 tags:

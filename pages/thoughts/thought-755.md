@@ -1,6 +1,6 @@
 ---
 title: 'Vimothée Chalamet shares his new favorite shell command from a...'
-date: 2025-07-18T12:56:59
+date: 2025-07-18T12:56:59Z
 template: link
 link: https://www.youtube.com/watch?v=0-SUk1G9xMg
 tags:

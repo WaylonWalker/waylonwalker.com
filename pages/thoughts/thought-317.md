@@ -1,6 +1,6 @@
 ---
 title: 'Keyboard Mounting Styles — Keyboard University'
-date: 2024-06-24T17:19:17
+date: 2024-06-24T17:19:17Z
 template: link
 link: https://www.keyboard.university/200-courses/keyboard-mounting-styles-4lpp7
 tags:

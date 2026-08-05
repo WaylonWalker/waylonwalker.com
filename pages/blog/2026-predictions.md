@@ -1,5 +1,5 @@
 ---
-date: 2026-01-16T08:16:24
+date: 2026-01-16T08:16:24Z
 templateKey: blog-post
 title: 2026 Predictions
 published: false

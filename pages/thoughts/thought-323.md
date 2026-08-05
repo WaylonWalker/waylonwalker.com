@@ -1,6 +1,6 @@
 ---
 title: 'One Script Tag Just Pwn''d Over 100,000 Websites - YouTube'
-date: 2024-06-28T16:08:20
+date: 2024-06-28T16:08:20Z
 template: link
 link: https://www.youtube.com/watch?v=ILvNG1STUZU&t=286s
 tags:

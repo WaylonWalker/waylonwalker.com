@@ -1,6 +1,6 @@
 ---
 title: 'Are We Anti-Cheat Yet?'
-date: 2024-05-22T12:37:55
+date: 2024-05-22T12:37:55Z
 template: link
 link: https://areweanticheatyet.com/
 tags:

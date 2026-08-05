@@ -1,5 +1,5 @@
 ---
-date: 2026-01-11T12:02:15
+date: 2026-01-11T12:02:15Z
 templateKey: blog-post
 title: I'm In On Agents
 published: false

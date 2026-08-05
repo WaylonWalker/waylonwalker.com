@@ -1,6 +1,6 @@
 ---
 title: '661: Working Vacations, Ripping Out JavaScript, and Non-US Clo...'
-date: 2025-05-01T14:00:47
+date: 2025-05-01T14:00:47Z
 template: link
 link: https://shoptalkshow.com/661/
 tags:

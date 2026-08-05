@@ -1,6 +1,6 @@
 ---
 title: 'Omarchy is on the move'
-date: 2025-08-07T14:28:34
+date: 2025-08-07T14:28:34Z
 template: link
 link: https://world.hey.com/dhh/omarchy-is-on-the-move-8f848fa4
 tags:

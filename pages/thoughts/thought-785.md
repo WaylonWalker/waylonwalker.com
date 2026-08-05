@@ -1,6 +1,6 @@
 ---
 title: 'We shouldn’t have needed lockfiles @ tonsky.me'
-date: 2025-08-06T20:11:31
+date: 2025-08-06T20:11:31Z
 template: link
 link: https://tonsky.me/blog/lockfiles/
 tags:

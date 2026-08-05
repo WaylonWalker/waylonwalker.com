@@ -1,6 +1,6 @@
 ---
 title: 'Models - Pydantic'
-date: 2025-01-28T17:27:20
+date: 2025-01-28T17:27:20Z
 template: link
 link: https://docs.pydantic.dev/latest/concepts/models/#rebuilding-model-schema
 tags:

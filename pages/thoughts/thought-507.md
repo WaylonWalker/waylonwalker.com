@@ -1,6 +1,6 @@
 ---
 title: 'The weirdest controller I''ve ever used'
-date: 2025-01-04T17:07:40
+date: 2025-01-04T17:07:40Z
 template: link
 link: https://www.youtube.com/watch?v=OrucAJknMys
 tags:

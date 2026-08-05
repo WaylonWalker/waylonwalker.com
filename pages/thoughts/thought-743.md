@@ -1,6 +1,6 @@
 ---
 title: 'uv cache prune'
-date: 2025-07-09T19:41:13
+date: 2025-07-09T19:41:13Z
 template: link
 link: https://simonwillison.net/2025/Jul/8/uv-cache-prune/#atom-everything
 tags:

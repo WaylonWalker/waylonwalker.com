@@ -1,6 +1,6 @@
 ---
 title: 'The Worst OS - YouTube'
-date: 2025-05-01T12:54:12
+date: 2025-05-01T12:54:12Z
 template: link
 link: https://www.youtube.com/watch?v=8T5pyGiTPdE
 tags:

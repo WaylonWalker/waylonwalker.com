@@ -1,6 +1,6 @@
 ---
 title: 'johanhaleby/kubetail: Bash script to tail Kubernetes logs from...'
-date: 2023-10-31T01:04:16
+date: 2023-10-31T01:04:16Z
 template: link
 link: https://github.com/johanhaleby/kubetail
 tags:

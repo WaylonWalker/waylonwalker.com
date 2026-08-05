@@ -1,6 +1,6 @@
 ---
 title: '"Am I Crazy?" [Wading Through AI - Episode 3]'
-date: 2026-04-16T21:10:02
+date: 2026-04-16T21:10:02Z
 template: link
 link: https://www.youtube.com/watch?v=Sp1EmFRDquA
 tags:

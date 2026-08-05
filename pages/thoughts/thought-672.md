@@ -1,6 +1,6 @@
 ---
 title: 'DHH IS RIGHT ABOUT EVERYTHING (Again)? - YouTube'
-date: 2025-06-07T22:49:47
+date: 2025-06-07T22:49:47Z
 template: link
 link: https://www.youtube.com/watch?v=EIBxRMH4bvs
 tags:

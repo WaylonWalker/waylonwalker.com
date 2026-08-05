@@ -1,6 +1,6 @@
 ---
 title: 'Java - ArchWiki'
-date: 2024-01-26T13:37:36
+date: 2024-01-26T13:37:36Z
 template: link
 link: https://wiki.archlinux.org/title/java#Switching_between_JVM
 tags:

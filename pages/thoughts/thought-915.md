@@ -1,6 +1,6 @@
 ---
 title: 'DockFrame - Modular USB-C Hub with Framework-Compatible Expans...'
-date: 2026-01-21T21:21:53
+date: 2026-01-21T21:21:53Z
 template: link
 link: https://dockframe.com/
 tags:

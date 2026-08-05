@@ -1,6 +1,6 @@
 ---
 title: 'Please don''t give Reflect Orbital money: (Maurycy''s blog)'
-date: 2025-10-29T12:45:07
+date: 2025-10-29T12:45:07Z
 template: link
 link: https://maurycyz.com/misc/sunlight_as_a_service/
 tags:

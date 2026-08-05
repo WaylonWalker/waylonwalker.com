@@ -1,6 +1,6 @@
 ---
 title: 'Pipes: Blocking Communication - YouTube'
-date: 2026-07-21T07:37:12
+date: 2026-07-21T07:37:12Z
 template: link
 link: https://www.youtube.com/shorts/BG4tjLZ7G1Q
 tags:

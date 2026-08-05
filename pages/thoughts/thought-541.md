@@ -1,6 +1,6 @@
 ---
 title: 'If Mitchell Hashimoto succeeds, Tmux & Zellij will disappear -...'
-date: 2025-01-28T13:18:40
+date: 2025-01-28T13:18:40Z
 template: link
 link: https://www.youtube.com/watch?v=o-qtso47ECk
 tags:

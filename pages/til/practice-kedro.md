@@ -1,7 +1,7 @@
 ---
 templateKey: til
 title: Practice making pipelines with kedro
-date: 2022-01-27T21:07:37
+date: 2022-01-27T21:07:37Z
 tags:
     - python
     - kedro

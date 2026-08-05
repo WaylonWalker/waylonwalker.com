@@ -1,6 +1,6 @@
 ---
 title: 'Why Agent Harness Layer is DYING - YouTube'
-date: 2026-05-23T20:41:44
+date: 2026-05-23T20:41:44Z
 template: link
 link: https://www.youtube.com/watch?v=thMFsqe8kbQ
 tags:

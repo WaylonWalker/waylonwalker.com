@@ -1,6 +1,6 @@
 ---
 title: 'World''s easiest Live dashboard with htmx - YouTube'
-date: 2025-03-29T15:04:45
+date: 2025-03-29T15:04:45Z
 template: link
 link: https://www.youtube.com/watch
 tags:

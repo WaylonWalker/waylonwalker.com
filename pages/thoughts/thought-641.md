@@ -1,6 +1,6 @@
 ---
 title: 'Just fucking code.'
-date: 2025-05-24T19:31:09
+date: 2025-05-24T19:31:09Z
 template: link
 link: https://www.justfuckingcode.com/
 tags:

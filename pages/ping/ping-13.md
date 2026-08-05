@@ -1,5 +1,5 @@
 ---
-date: 2025-12-19T09:51:00
+date: 2025-12-19T09:51:00Z
 templateKey: ping
 title: Gross phone
 published: true

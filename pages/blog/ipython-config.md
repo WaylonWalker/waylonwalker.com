@@ -2,7 +2,7 @@
 templateKey: blog-post
 tags: ['python']
 title: Ipython-Config
-date: 2020-12-20T00:00:00
+date: 2020-12-20
 published: true
 
 ---

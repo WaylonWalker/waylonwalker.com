@@ -1,6 +1,6 @@
 ---
 title: 'GrafanaCON 2025 Keynote Livestream - YouTube'
-date: 2025-05-11T02:59:15
+date: 2025-05-11T02:59:15Z
 template: link
 link: https://www.youtube.com/watch?v=JYVf-Z320Y0
 tags:

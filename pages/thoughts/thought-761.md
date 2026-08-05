@@ -1,6 +1,6 @@
 ---
 title: 'An Ode To My 10-Year-Old Thinkpad T440'
-date: 2025-07-25T01:33:47
+date: 2025-07-25T01:33:47Z
 template: link
 link: https://mbrizic.com/blog/thinkpad-t440/
 tags:

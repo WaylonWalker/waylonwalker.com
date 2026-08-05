@@ -1,6 +1,6 @@
 ---
 title: 'On Rendering Diffs :: Pierre Computer Company'
-date: 2026-05-29T20:50:35
+date: 2026-05-29T20:50:35Z
 template: link
 link: https://pierre.computer/writing/on-rendering-diffs
 tags:

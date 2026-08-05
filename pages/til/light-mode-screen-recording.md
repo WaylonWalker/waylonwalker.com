@@ -1,5 +1,5 @@
 ---
-date: 2026-01-01 10:14:17
+date: 2026-01-01
 templateKey: til
 title: light mode screen recording
 published: true
@@ -26,11 +26,11 @@ ffmpeg \
    screenrecording-2026-01-01_10-10-49-light.mp4
 ```
 
-![](https://dropper.waylonwalker.com/file/1c53dbcb-4b84-4e94-9f04-a42986ab3fa1.mp4)
+![image](https://dropper.waylonwalker.com/file/1c53dbcb-4b84-4e94-9f04-a42986ab3fa1.mp4)
 
 > Dark Mode
 
-![](https://dropper.waylonwalker.com/file/de4e3378-6df2-45b1-84d5-0cc773ceb3c5.mp4)
+![image](https://dropper.waylonwalker.com/file/de4e3378-6df2-45b1-84d5-0cc773ceb3c5.mp4)
 
 > Light Mode
 

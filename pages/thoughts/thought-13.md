@@ -1,6 +1,6 @@
 ---
 title: 'Full-text search - Datasette documentation'
-date: 2023-07-28T14:59:37
+date: 2023-07-28T14:59:37Z
 template: link
 link: https://docs.datasette.io/en/latest/full_text_search.html#enabling-full-text-search-for-a-sqlite-table
 tags:

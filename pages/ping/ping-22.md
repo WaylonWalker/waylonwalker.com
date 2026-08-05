@@ -1,5 +1,5 @@
 ---
-date: 2026-01-21T16:22:26
+date: 2026-01-21T16:22:26Z
 templateKey: ping
 title: Quick Tip To Get Agents Running Longer
 published: true

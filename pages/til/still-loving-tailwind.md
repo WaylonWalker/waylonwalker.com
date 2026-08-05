@@ -1,5 +1,5 @@
 ---
-date: 2023-11-30 11:54:52
+date: 2023-11-30
 templateKey: til
 title: Still Loving Tailwind
 published: true
@@ -8,7 +8,7 @@ tags:
 jinja: false
 ---
 
-![](https://dropper.waylonwalker.com/file/b3fb31d3-a359-40f8-968c-2c9c42f6714a.webp)
+![image](https://dropper.waylonwalker.com/file/b3fb31d3-a359-40f8-968c-2c9c42f6714a.webp)
 
 I've been using tailwind for a few months now and I can still say I'm loving
 it. I've been using it to create some rapid prototypes that may or may not
