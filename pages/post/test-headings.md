@@ -21,11 +21,11 @@ Intro paragraph with **ordinary strong**, _ordinary emphasis_,
 
 Some normal paragraph text between headings.
 
-## Build a `personal web` that feels **yours**.
+## Build a `personal web` that feels ^**yours**^.
 
 More ordinary prose.
 
-## Follow the [small web](https://waylonwalker.com), not the crowd.
+## Follow the [~small~ web](https://waylonwalker.com), not the cr^owd^.
 
 ## Make a ~~perfect~~ memorable site.
 
@@ -37,8 +37,8 @@ More ordinary prose.
 
 ## ==A highlighted phrase can be long enough to wrap onto another line and test the highlight background.==
 
-## Make a [**small corner of the web**](https://waylonwalker.com) that feels _like yours._
+## Make a [**~small~ corner of the web**](https://waylonwalker.com) that feels _like yours._
 
-## Chemistry should still work: H~2~O and x^2^
+## Chemistry should still work: H~2~**O** and x^2^
 
 ## Keyboard syntax should still work: ++Ctrl+C++
