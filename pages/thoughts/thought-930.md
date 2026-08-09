@@ -14,4 +14,4 @@ published: true
 
 Wyatt would absolutely love this banger of a level.
 
-![](https://x.com/i/status/2023551519375900957)
+![image](https://x.com/i/status/2023551519375900957)

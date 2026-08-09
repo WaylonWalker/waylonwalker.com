@@ -14,4 +14,4 @@ published: true
 
 To the untrained eye this passes as any normal gui editor.
 
-![](https://dropper.waylonwalker.com/file/86d45a22-9ed4-4f14-8070-5f0cadee9bad.webp)
+![image](https://dropper.waylonwalker.com/file/86d45a22-9ed4-4f14-8070-5f0cadee9bad.webp)

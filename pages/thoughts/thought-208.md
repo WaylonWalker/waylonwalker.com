@@ -16,4 +16,4 @@ I've been using this for a few weeks now and it's fantastic.  It's reminds me of
 
 > tldr `docker ps` on steroids
 
-![](https://github.com/jesseduffield/lazydocker/blob/master/docs/resources/demo3.gif?raw=true)
+![image](https://github.com/jesseduffield/lazydocker/blob/master/docs/resources/demo3.gif?raw=true)
