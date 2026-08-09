@@ -23,3 +23,5 @@ jinja: True
 1. One Breath at a time
 1. Let Glue Dry
 1. [Obsess over quality.](https://x.com/jesseleite85/status/2071574906131673146)
+1. blocking others is a p0
+1. creating process is a cardinal sin
