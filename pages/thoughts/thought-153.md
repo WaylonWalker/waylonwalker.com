@@ -1,6 +1,6 @@
 ---
 title: '</> htmx ~ Locality of Behaviour (LoB)'
-date: 2023-10-28T01:11:56Z
+date: 2023-10-28T06:11:56Z
 template: link
 link: https://htmx.org/essays/locality-of-behaviour/
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Next.js 15.1+ is unusable outside of Vercel | Omar Abid - Pers...'
-date: 2025-06-14T18:10:58Z
+date: 2025-06-14T23:10:58Z
 template: link
 link: https://omarabid.com/nextjs-vercel
 tags:

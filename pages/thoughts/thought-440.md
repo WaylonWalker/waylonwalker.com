@@ -1,6 +1,6 @@
 ---
 title: 'Ansible Galaxy - amazon.aws'
-date: 2024-12-05T00:06:23Z
+date: 2024-12-05T06:06:23Z
 template: link
 link: https://galaxy.ansible.com/ui/repo/published/amazon/aws/content/module/s3_bucket/#examples
 tags:

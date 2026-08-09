@@ -1,6 +1,6 @@
 ---
 title: 'searching my thoughts locally'
-date: 2024-03-07T23:42:00Z
+date: 2024-03-08T05:42:00Z
 template: link
 link: None
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'SQLite FTS5 Extension'
-date: 2023-08-21T13:33:24Z
+date: 2023-08-21T18:33:24Z
 template: link
 link: https://www.sqlite.org/fts5.html
 tags:

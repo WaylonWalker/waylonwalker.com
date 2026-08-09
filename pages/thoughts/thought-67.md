@@ -1,6 +1,6 @@
 ---
 title: 'Tailwind CSS Crash Course - YouTube'
-date: 2023-08-04T12:55:03Z
+date: 2023-08-04T17:55:03Z
 template: link
 link: https://www.youtube.com/watch?v=UBOj6rqRUME
 tags:

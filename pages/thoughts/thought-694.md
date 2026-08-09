@@ -1,6 +1,6 @@
 ---
 title: 'Your Framework is Showing 😳 – David Bushell – Web Dev (UK)'
-date: 2025-06-15T00:02:28Z
+date: 2025-06-15T05:02:28Z
 template: link
 link: https://dbushell.com/2025/06/13/your-framework-is-showing-nextjs-error/
 tags:

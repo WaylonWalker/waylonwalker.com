@@ -1,6 +1,6 @@
 ---
 title: 'catppuccin/ulauncher: 🇺 Soothing pastel theme for Ulauncher'
-date: 2024-06-07T03:59:30Z
+date: 2024-06-07T08:59:30Z
 template: link
 link: https://github.com/catppuccin/ulauncher
 tags:

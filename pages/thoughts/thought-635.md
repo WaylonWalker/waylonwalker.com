@@ -1,6 +1,6 @@
 ---
 title: 'Chris Biscardi''s Digital Garden'
-date: 2025-05-12T13:05:33Z
+date: 2025-05-12T18:05:33Z
 template: link
 link: https://www.christopherbiscardi.com/wtf-is-kubernetes
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'RSS is dead - YouTube'
-date: 2025-02-01T02:57:59Z
+date: 2025-02-01T08:57:59Z
 template: link
 link: https://www.youtube.com/shorts/epQr2kF-1bU
 tags:

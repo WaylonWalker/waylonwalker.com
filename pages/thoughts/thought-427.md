@@ -1,6 +1,6 @@
 ---
 title: 'Production-ready Python Docker Containers with uv'
-date: 2024-11-15T14:34:10Z
+date: 2024-11-15T20:34:10Z
 template: link
 link: https://hynek.me/articles/docker-uv/
 tags:

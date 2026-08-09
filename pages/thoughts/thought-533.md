@@ -1,6 +1,6 @@
 ---
 title: 'The Worst Thing You Can Do For Your Career - YouTube'
-date: 2025-01-17T14:54:14Z
+date: 2025-01-17T20:54:14Z
 template: link
 link: https://www.youtube.com/watch?v=CVG6f1N0VT8
 tags:

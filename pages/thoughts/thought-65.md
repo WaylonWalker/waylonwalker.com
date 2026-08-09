@@ -1,6 +1,6 @@
 ---
 title: 'GZIP Compression Test | GiftOfSpeed'
-date: 2023-08-01T13:11:35Z
+date: 2023-08-01T18:11:35Z
 template: link
 link: https://www.giftofspeed.com/gzip-test/
 tags:

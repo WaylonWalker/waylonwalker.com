@@ -1,6 +1,6 @@
 ---
 title: '3d Printing a Geared Vice - Will It work? - YouTube'
-date: 2025-12-07T21:28:39Z
+date: 2025-12-08T03:28:39Z
 template: link
 link: https://www.youtube.com/watch?v=9z8XdJnQp1A
 tags:

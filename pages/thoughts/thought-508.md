@@ -1,6 +1,6 @@
 ---
 title: 'Owning It · Matthias Ott'
-date: 2025-01-06T13:23:23Z
+date: 2025-01-06T19:23:23Z
 template: link
 link: https://matthiasott.com/notes/owning-it
 tags:

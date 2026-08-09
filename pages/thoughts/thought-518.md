@@ -1,6 +1,6 @@
 ---
 title: 'Generate Custom .cursorrules for Your Project Based on Communi...'
-date: 2025-01-09T13:53:40Z
+date: 2025-01-09T19:53:40Z
 template: link
 link: https://egghead.io/generate-custom-cursorrules-for-your-project-based-on-community-examples~eimq2
 tags:

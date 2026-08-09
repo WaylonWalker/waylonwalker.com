@@ -1,6 +1,6 @@
 ---
 title: 'Conventional Commits'
-date: 2025-06-17T16:37:14Z
+date: 2025-06-17T21:37:14Z
 template: link
 link: https://www.conventionalcommits.org/en/v1.0.0/
 tags:

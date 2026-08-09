@@ -1,6 +1,6 @@
 ---
 title: 'Introduction - bootc'
-date: 2024-11-21T01:45:34Z
+date: 2024-11-21T07:45:34Z
 template: link
 link: https://containers.github.io/bootc/
 tags:

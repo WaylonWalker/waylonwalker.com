@@ -1,6 +1,6 @@
 ---
 title: 'Changelog on X: "🗣️@dhh on Kubernetes'' migration pitch: “Oh, w...'
-date: 2024-11-25T02:30:44Z
+date: 2024-11-25T08:30:44Z
 template: link
 link: https://x.com/changelog/status/1860697708463378497
 tags:

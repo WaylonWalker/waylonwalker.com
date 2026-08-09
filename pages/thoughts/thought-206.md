@@ -1,6 +1,6 @@
 ---
 title: 'Creating One-To-Many Relationships in Flask-SQLAlchemy - YouTube'
-date: 2024-03-06T14:35:17Z
+date: 2024-03-06T20:35:17Z
 template: link
 link: https://www.youtube.com/watch?v=VVX7JIWx-ss
 tags:

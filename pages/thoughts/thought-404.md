@@ -1,6 +1,6 @@
 ---
 title: 'Background Image | Wallpaper · Issue #3059 · helix-editor/helix'
-date: 2024-10-08T13:02:53Z
+date: 2024-10-08T18:02:53Z
 template: link
 link: https://github.com/helix-editor/helix/issues/3059
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'help on setting up ruff formatter + ruff + pyright please : r/...'
-date: 2024-10-08T02:25:37Z
+date: 2024-10-08T07:25:37Z
 template: link
 link: https://www.reddit.com/r/HelixEditor/comments/17gglgm/help_on_setting_up_ruff_formatter_ruff_pyright/
 tags:

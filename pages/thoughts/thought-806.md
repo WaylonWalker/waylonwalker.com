@@ -1,6 +1,6 @@
 ---
 title: 'You Should Be Hiring Mullets. (write that down)'
-date: 2025-08-21T01:14:21Z
+date: 2025-08-21T06:14:21Z
 template: link
 link: https://simplecto.com/you-should-be-hiring-mullets-write-that-down/
 tags:

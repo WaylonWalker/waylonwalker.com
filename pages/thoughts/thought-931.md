@@ -1,6 +1,6 @@
 ---
 title: 'Silksong Demastered'
-date: 2026-02-17T18:20:18Z
+date: 2026-02-18T00:20:18Z
 template: link
 link: https://nekodot.itch.io/silksong-nes
 tags:

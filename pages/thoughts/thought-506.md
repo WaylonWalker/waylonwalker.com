@@ -1,6 +1,6 @@
 ---
 title: 'Postiz: The All-in-One Social Media Management Tool'
-date: 2025-01-04T15:39:27Z
+date: 2025-01-04T21:39:27Z
 template: link
 link: https://postiz.com/
 tags:

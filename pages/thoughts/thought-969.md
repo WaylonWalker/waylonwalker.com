@@ -1,6 +1,6 @@
 ---
 title: 'An AI state of the union: We’ve passed the inflection point & ...'
-date: 2026-04-08T09:29:40Z
+date: 2026-04-08T14:29:40Z
 template: link
 link: https://www.youtube.com/watch?v=wc8FBhQtdsA
 tags:

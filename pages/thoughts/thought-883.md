@@ -1,6 +1,6 @@
 ---
 title: 'The Secret of the AWS Outage | The Standup - YouTube'
-date: 2025-12-06T21:29:48Z
+date: 2025-12-07T03:29:48Z
 template: link
 link: https://www.youtube.com/watch?v=r3bPmtEP9SQ
 tags:

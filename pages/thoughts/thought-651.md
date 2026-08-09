@@ -1,6 +1,6 @@
 ---
 title: 'Forrest Knight on X: "you''re not allowed to write comments in ...'
-date: 2025-05-29T01:41:41Z
+date: 2025-05-29T06:41:41Z
 template: link
 link: https://x.com/ForrestPKnight/status/1927398791398719997
 tags:

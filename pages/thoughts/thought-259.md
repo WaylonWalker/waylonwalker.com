@@ -1,6 +1,6 @@
 ---
 title: 'rich.panel — Rich 13.6.0 documentation'
-date: 2024-04-30T18:10:37Z
+date: 2024-04-30T23:10:37Z
 template: link
 link: https://rich.readthedocs.io/en/stable/reference/panel.html
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Neovim vs Emacs | Roundtable w/ TJ DeVries, DistroTube, Greg A...'
-date: 2025-07-25T02:13:59Z
+date: 2025-07-25T07:13:59Z
 template: link
 link: https://www.youtube.com/clip/UgkxQevfazaval9KH22a6BjMRkdBs7541Kry
 tags:

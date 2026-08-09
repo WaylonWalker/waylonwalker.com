@@ -1,6 +1,6 @@
 ---
 title: 'I Think I Love Deepseek R1 - YouTube'
-date: 2025-02-01T16:29:43Z
+date: 2025-02-01T22:29:43Z
 template: link
 link: https://www.youtube.com/watch?v=GNHuJE_GARc
 tags:

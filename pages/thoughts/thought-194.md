@@ -1,6 +1,6 @@
 ---
 title: 'Template Designer Documentation — Jinja Documentation'
-date: 2023-12-26T22:00:42Z
+date: 2023-12-27T04:00:42Z
 template: link
 link: https://jinja.palletsprojects.com/en/3.0.x/templates/#whitespace-control
 tags:

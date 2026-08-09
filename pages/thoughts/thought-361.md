@@ -1,6 +1,6 @@
 ---
 title: 'Note-taking with Zettelkasten - An Introduction - YouTube'
-date: 2024-07-25T23:06:28Z
+date: 2024-07-26T04:06:28Z
 template: link
 link: https://www.youtube.com/watch?v=o1NJYnZCfmY
 tags:

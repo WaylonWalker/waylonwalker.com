@@ -1,6 +1,6 @@
 ---
 title: 'Mastodon.py — Mastodon.py 1.8.1 documentation'
-date: 2023-12-21T01:59:43Z
+date: 2023-12-21T07:59:43Z
 template: link
 link: https://mastodonpy.readthedocs.io/en/stable/
 tags:

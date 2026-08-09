@@ -1,6 +1,6 @@
 ---
 title: 'Pinout and Schematic - nice!nano'
-date: 2024-07-10T12:40:26Z
+date: 2024-07-10T17:40:26Z
 template: link
 link: https://nicekeyboards.com/docs/nice-nano/pinout-schematic/
 tags:

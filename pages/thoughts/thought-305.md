@@ -1,6 +1,6 @@
 ---
 title: 'A Link Blog in the Year 2024'
-date: 2024-06-10T02:44:35Z
+date: 2024-06-10T07:44:35Z
 template: link
 link: https://simonwillison.net/2024/Jun/9/a-link-blog-in-the-year-2024/
 tags:

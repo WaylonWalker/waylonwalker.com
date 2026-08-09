@@ -1,6 +1,6 @@
 ---
 title: 'THE STANDUP - Coding DIRTY Episode 7'
-date: 2025-05-07T18:00:09Z
+date: 2025-05-07T23:00:09Z
 template: link
 link: https://www.youtube.com/watch?v=hbEWfC4k-Gw
 tags:

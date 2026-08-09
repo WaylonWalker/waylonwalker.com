@@ -1,6 +1,6 @@
 ---
 title: 'Hollow Knight: Silksong is breaking Steam, Nintendo’s eShop - ...'
-date: 2025-09-04T17:20:03Z
+date: 2025-09-04T22:20:03Z
 template: link
 link: https://arstechnica.com/gaming/2025/09/hollow-knight-silksong-is-breaking-steam/
 tags:

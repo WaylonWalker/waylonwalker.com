@@ -1,6 +1,6 @@
 ---
 title: 'The State of Secrets Sprawl 2025'
-date: 2025-03-14T18:16:07Z
+date: 2025-03-14T23:16:07Z
 template: link
 link: https://blog.gitguardian.com/the-state-of-secrets-sprawl-2025/
 tags:

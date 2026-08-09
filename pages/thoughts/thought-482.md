@@ -1,6 +1,6 @@
 ---
 title: 'Addy Osmani: "Tip: Chrome DevTools can override the content of...'
-date: 2024-12-30T02:48:43Z
+date: 2024-12-30T08:48:43Z
 template: link
 link: https://bsky.app/profile/addyosmani.bsky.social/post/3lei5jhkgdk2k
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'A love letter to Pi | Lucas Meijer'
-date: 2026-04-15T16:12:33Z
+date: 2026-04-15T21:12:33Z
 template: link
 link: https://www.youtube.com/watch?v=fdbXNWkpPMY
 tags:

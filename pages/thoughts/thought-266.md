@@ -1,6 +1,6 @@
 ---
 title: 'Bug #2006590 “gdm3 crashes with SIGTRAP on startup” : Bugs : g...'
-date: 2024-05-02T00:54:02Z
+date: 2024-05-02T05:54:02Z
 template: link
 link: https://bugs.launchpad.net/ubuntu/+source/gdm3/+bug/2006590
 tags:

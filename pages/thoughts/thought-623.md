@@ -1,6 +1,6 @@
 ---
 title: 'Learning monitoring'
-date: 2025-05-07T15:05:45Z
+date: 2025-05-07T20:05:45Z
 template: link
 link: https://waylonwalker.com/thoughts/thought-623/
 tags:

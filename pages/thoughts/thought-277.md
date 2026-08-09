@@ -1,6 +1,6 @@
 ---
 title: 'How Ahrefs Gets a Billion Dollar-Worth Infrastructure With a 9...'
-date: 2024-05-16T01:38:42Z
+date: 2024-05-16T06:38:42Z
 template: link
 link: https://tech.ahrefs.com/how-ahrefs-gets-a-billion-dollar-worth-infrastructure-with-a-90-discount-5edd473b2399
 tags:

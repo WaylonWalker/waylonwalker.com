@@ -1,6 +1,6 @@
 ---
 title: 'Ulauncher — Application launcher for Linux 🐧'
-date: 2024-06-07T03:58:16Z
+date: 2024-06-07T08:58:16Z
 template: link
 link: https://ulauncher.io/
 tags:

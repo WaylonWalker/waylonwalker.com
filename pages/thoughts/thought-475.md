@@ -1,6 +1,6 @@
 ---
 title: 'Ellie Huxtable: "Atuin v18.4 is out now! Including `atuin wrap...'
-date: 2024-12-28T06:29:12Z
+date: 2024-12-28T12:29:12Z
 template: link
 link: https://bsky.app/profile/ellie.wtf/post/3lecj36r5ps2x
 tags:

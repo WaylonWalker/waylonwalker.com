@@ -1,6 +1,6 @@
 ---
 title: 'Mantis Clamp by zuberio | Download free STL model | Printables...'
-date: 2025-02-18T22:24:06Z
+date: 2025-02-19T04:24:06Z
 template: link
 link: https://www.printables.com/model/48505-mantis-clamp/files
 tags:

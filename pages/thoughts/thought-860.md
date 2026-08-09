@@ -1,6 +1,6 @@
 ---
 title: 'You already have a git server: (Maurycy''s blog)'
-date: 2025-10-29T13:04:20Z
+date: 2025-10-29T18:04:20Z
 template: link
 link: https://maurycyz.com/misc/easy_git/
 tags:

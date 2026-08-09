@@ -1,6 +1,6 @@
 ---
 title: 'Forming URIs for Autofill | Bitwarden'
-date: 2025-06-30T13:21:15Z
+date: 2025-06-30T18:21:15Z
 template: link
 link: https://bitwarden.com/help/uri-match-detection/
 tags:

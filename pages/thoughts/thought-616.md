@@ -1,6 +1,6 @@
 ---
 title: 'Playground | Red Knot'
-date: 2025-05-02T01:02:31Z
+date: 2025-05-02T06:02:31Z
 template: link
 link: https://types.ruff.rs/
 tags:

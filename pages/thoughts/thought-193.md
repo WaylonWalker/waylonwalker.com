@@ -1,6 +1,6 @@
 ---
 title: 'Minecraft Server on Docker (Java Edition)'
-date: 2023-12-25T16:45:59Z
+date: 2023-12-25T22:45:59Z
 template: link
 link: https://docker-minecraft-server.readthedocs.io/en/latest/
 tags:

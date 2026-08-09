@@ -1,6 +1,6 @@
 ---
 title: 'csi-driver-smb/deploy/example/smb-provisioner at master · kube...'
-date: 2025-08-01T19:50:39Z
+date: 2025-08-02T00:50:39Z
 template: link
 link: https://github.com/kubernetes-csi/csi-driver-smb/tree/master/deploy/example/smb-provisioner
 tags:

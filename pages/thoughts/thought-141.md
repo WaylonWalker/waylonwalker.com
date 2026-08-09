@@ -1,6 +1,6 @@
 ---
 title: 'Can I access k3s using just kubectl (no sudo and no k3s comman...'
-date: 2023-10-20T22:52:00Z
+date: 2023-10-21T03:52:00Z
 template: link
 link: https://www.reddit.com/r/kubernetes/comments/cojjf5/can_i_access_k3s_using_just_kubectl_no_sudo_and/
 tags:

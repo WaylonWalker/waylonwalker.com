@@ -1,6 +1,6 @@
 ---
 title: 'How Claude Code’s Creator Starts EVERY Project - YouTube'
-date: 2026-04-15T16:07:26Z
+date: 2026-04-15T21:07:26Z
 template: link
 link: https://www.youtube.com/watch?v=KWrsLqnB6vA
 tags:

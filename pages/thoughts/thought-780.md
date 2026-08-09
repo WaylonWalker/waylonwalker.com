@@ -1,6 +1,6 @@
 ---
 title: 'Colors • Pico CSS'
-date: 2025-08-04T14:58:33Z
+date: 2025-08-04T19:58:33Z
 template: link
 link: https://picocss.com/docs/colors
 tags:

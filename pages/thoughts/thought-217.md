@@ -1,6 +1,6 @@
 ---
 title: '605: Jim Nielsen on Subversive URLs, Blogging + AI, and Design...'
-date: 2024-03-15T14:42:30Z
+date: 2024-03-15T19:42:30Z
 template: link
 link: https://shoptalkshow.com/605/
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'DDR5 Prices are Crashing... Kind Of. - YouTube'
-date: 2026-04-08T08:41:16Z
+date: 2026-04-08T13:41:16Z
 template: link
 link: https://www.youtube.com/watch?v=0jCMF7OeH9w&t=328s
 tags:

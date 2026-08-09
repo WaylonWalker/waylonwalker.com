@@ -1,6 +1,6 @@
 ---
 title: 'ChatGPT made me delusional'
-date: 2025-11-12T02:35:21Z
+date: 2025-11-12T08:35:21Z
 template: link
 link: https://www.youtube.com/watch?v=VRjgNgJms3Q
 tags:

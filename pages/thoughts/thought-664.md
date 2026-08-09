@@ -1,6 +1,6 @@
 ---
 title: 'minio/minio Tags | Docker Hub'
-date: 2025-06-04T13:58:40Z
+date: 2025-06-04T18:58:40Z
 template: link
 link: https://hub.docker.com/r/minio/minio/tags?name=RELEASE.2025-04-08
 tags:

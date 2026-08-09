@@ -1,6 +1,6 @@
 ---
 title: 'Note-taking & Editors - awesome-selfhosted'
-date: 2025-08-11T14:27:23Z
+date: 2025-08-11T19:27:23Z
 template: link
 link: https://awesome-selfhosted.net/tags/note-taking--editors.html
 tags:

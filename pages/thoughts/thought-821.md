@@ -1,6 +1,6 @@
 ---
 title: 'Learn to use email with git!'
-date: 2025-08-29T13:23:08Z
+date: 2025-08-29T18:23:08Z
 template: link
 link: https://git-send-email.io/
 tags:

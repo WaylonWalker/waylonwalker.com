@@ -1,6 +1,6 @@
 ---
 title: 'Short Month, Big Ideas (February 2026 Wallpapers Edition) — Sm...'
-date: 2026-02-02T08:48:03Z
+date: 2026-02-02T14:48:03Z
 template: link
 link: https://www.smashingmagazine.com/2026/01/desktop-wallpaper-calendars-february-2026/
 tags:

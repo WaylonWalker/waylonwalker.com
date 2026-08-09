@@ -1,6 +1,6 @@
 ---
 title: 'How to Manage ''Systemd'' Services and Units Using ''Systemctl'' i...'
-date: 2023-07-28T14:59:37Z
+date: 2023-07-28T19:59:37Z
 template: link
 link: https://www.tecmint.com/manage-services-using-systemd-and-systemctl-in-linux/
 tags:

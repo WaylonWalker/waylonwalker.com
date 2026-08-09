@@ -1,6 +1,6 @@
 ---
 title: '</> htmx ~ The json-enc Extension'
-date: 2023-07-28T14:59:37Z
+date: 2023-07-28T19:59:37Z
 template: link
 link: https://htmx.org/extensions/json-enc/
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Lab Update | Cloudy with a Chance of Tech'
-date: 2025-07-12T02:16:40Z
+date: 2025-07-12T07:16:40Z
 template: link
 link: https://blog.thomaswimprine.com/blog/2025-07-07-Lab-Update/
 tags:

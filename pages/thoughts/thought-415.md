@@ -1,6 +1,6 @@
 ---
 title: 'ticklemykeys on X: "Porta john got some pink caps https://t.co...'
-date: 2024-10-27T02:20:51Z
+date: 2024-10-27T07:20:51Z
 template: link
 link: https://x.com/XTicklemykeys/status/1850361138791195069
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Search: 5 results found for "box white" – Kailh switch'
-date: 2025-02-03T15:24:40Z
+date: 2025-02-03T21:24:40Z
 template: link
 link: https://www.kailh.net/search?q=box+white&_pos=2&_psq=white&_ss=e&_v=1.0
 tags:

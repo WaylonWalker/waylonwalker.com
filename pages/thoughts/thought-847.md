@@ -1,6 +1,6 @@
 ---
 title: 'This $15 Fingerboard Mold from Amazon SHOCKED me!! - YouTube'
-date: 2025-10-03T00:59:29Z
+date: 2025-10-03T05:59:29Z
 template: link
 link: https://www.youtube.com/watch?v=GAudJhMrqwo
 tags:

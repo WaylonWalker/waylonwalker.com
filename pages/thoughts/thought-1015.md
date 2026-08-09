@@ -1,6 +1,6 @@
 ---
 title: 'Nibelungenlied40 | Book Split Keyboard Design'
-date: 2026-06-24T13:53:11Z
+date: 2026-06-24T18:53:11Z
 template: link
 link: https://www.reddit.com/r/MechanicalKeyboards/comments/1u9awcz/nibelungenlied40_book_split_keyboard_design/?utm_source=cassidoo&utm_medium=email&utm_campaign=u1f6b8-you-can-make-anything-by-writing-cs-lewis
 tags:

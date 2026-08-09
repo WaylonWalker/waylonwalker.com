@@ -1,6 +1,6 @@
 ---
 title: 'Bo Burnham, I mean Miriah, says lower your programming expecta...'
-date: 2023-09-13T18:51:55Z
+date: 2023-09-13T23:51:55Z
 template: link
 link: https://www.youtube.com/shorts/J8rbUHDlZ7k
 tags:

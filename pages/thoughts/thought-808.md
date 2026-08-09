@@ -1,6 +1,6 @@
 ---
 title: 'Why everyone is quitting social media - YouTube'
-date: 2025-08-25T01:36:35Z
+date: 2025-08-25T06:36:35Z
 template: link
 link: https://www.youtube.com/watch?v=zN-rElTzR_4
 tags:

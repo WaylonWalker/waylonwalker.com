@@ -1,6 +1,6 @@
 ---
 title: 'python - SQLAlchemy ORDER BY DESCENDING? - Stack Overflow'
-date: 2023-07-29T22:30:25Z
+date: 2023-07-30T03:30:25Z
 template: link
 link: https://stackoverflow.com/questions/4186062/sqlalchemy-order-by-descending
 tags:

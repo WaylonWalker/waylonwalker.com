@@ -1,6 +1,6 @@
 ---
 title: 'Meet Gor | Just Fucking use kubernetes'
-date: 2025-08-02T14:53:45Z
+date: 2025-08-02T19:53:45Z
 template: link
 link: https://www.meetgor.com/thoughts/just-fucking-use-kubernetes/
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'ImageMagick – Color Names'
-date: 2023-12-13T17:23:32Z
+date: 2023-12-13T23:23:32Z
 template: link
 link: https://imagemagick.org/script/color.php
 tags:

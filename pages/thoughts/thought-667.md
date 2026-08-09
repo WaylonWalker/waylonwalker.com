@@ -1,6 +1,6 @@
 ---
 title: 'Backups interrupted by full disk usage'
-date: 2025-06-06T15:53:41Z
+date: 2025-06-06T20:53:41Z
 template: link
 link: https://pype.dev/backups-interrupted-by-full-disk-usage/
 tags:

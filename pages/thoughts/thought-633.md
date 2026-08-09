@@ -1,6 +1,6 @@
 ---
 title: 'The future of Textualize - Textual'
-date: 2025-05-10T14:27:58Z
+date: 2025-05-10T19:27:58Z
 template: link
 link: https://textual.textualize.io/blog/2025/05/07/the-future-of-textualize/
 tags:

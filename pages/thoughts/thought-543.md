@@ -1,6 +1,6 @@
 ---
 title: 'Why is Kubernetes everywhere? | Kelsey Hightower - YouTube'
-date: 2025-01-29T16:28:21Z
+date: 2025-01-29T22:28:21Z
 template: link
 link: https://www.youtube.com/watch?v=MQbkN99eBD8
 tags:

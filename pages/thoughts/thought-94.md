@@ -1,6 +1,6 @@
 ---
 title: 'sqlite_utils Python library - sqlite-utils'
-date: 2023-08-20T14:32:39Z
+date: 2023-08-20T19:32:39Z
 template: link
 link: https://sqlite-utils.datasette.io/en/stable/python-api.html#full-text-search
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Inside 22,734 Steam games | daniel.haxx.se'
-date: 2024-07-06T16:48:21Z
+date: 2024-07-06T21:48:21Z
 template: link
 link: https://daniel.haxx.se/blog/2024/06/20/inside-22734-steam-games/
 tags:

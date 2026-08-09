@@ -1,6 +1,6 @@
 ---
 title: 'Create Models with a Many-to-Many Link - SQLModel'
-date: 2023-08-09T13:37:15Z
+date: 2023-08-09T18:37:15Z
 template: link
 link: https://sqlmodel.tiangolo.com/tutorial/many-to-many/create-models-with-link/
 tags:

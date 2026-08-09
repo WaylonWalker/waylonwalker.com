@@ -1,6 +1,6 @@
 ---
 title: 'Boston Dynamics’ new humanoid moves like no robot you’ve ever ...'
-date: 2024-04-20T01:36:39Z
+date: 2024-04-20T06:36:39Z
 template: link
 link: https://arstechnica.com/gadgets/2024/04/boston-dynamics-debuts-humanoid-robot-destined-for-commercialization/
 tags:

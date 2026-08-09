@@ -1,6 +1,6 @@
 ---
 title: 'Add a healthcheck to your FastAPI app | Pype.dev'
-date: 2024-12-16T19:05:50Z
+date: 2024-12-17T01:05:50Z
 template: link
 link: https://pype.dev/add-a-healthcheck-to-your-fastapi-app
 tags:

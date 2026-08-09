@@ -1,6 +1,6 @@
 ---
 title: '2025-11-27 Notes'
-date: 2025-12-01T17:28:13Z
+date: 2025-12-01T23:28:13Z
 template: link
 link: https://pype.dev/2025-11-27-notes/
 tags:

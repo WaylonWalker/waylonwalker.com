@@ -1,6 +1,6 @@
 ---
 title: 'bic | Static blog generator, in bash'
-date: 2025-01-09T14:22:47Z
+date: 2025-01-09T20:22:47Z
 template: link
 link: https://bic.sh/
 tags:

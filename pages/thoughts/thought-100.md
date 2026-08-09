@@ -1,6 +1,6 @@
 ---
 title: 'Custom pages and templates - Datasette documentation'
-date: 2023-08-23T14:37:27Z
+date: 2023-08-23T19:37:27Z
 template: link
 link: https://docs.datasette.io/en/stable/custom_templates.html#serving-static-files
 tags:

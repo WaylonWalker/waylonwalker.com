@@ -1,6 +1,6 @@
 ---
 title: 'You Might Also Like: My Notes Blog - Jim Nielsen’s Blog'
-date: 2025-12-19T16:11:31Z
+date: 2025-12-19T22:11:31Z
 template: link
 link: https://blog.jim-nielsen.com/2025/you-might-also-like-my-notes-blog/
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'The Future of HTMX - YouTube'
-date: 2025-01-13T02:45:27Z
+date: 2025-01-13T08:45:27Z
 template: link
 link: https://www.youtube.com/watch?v=0rtpsJSLb44&t=624s
 tags:

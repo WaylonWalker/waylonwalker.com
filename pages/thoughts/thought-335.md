@@ -1,6 +1,6 @@
 ---
 title: 'wcurl is here | daniel.haxx.se'
-date: 2024-07-06T16:46:19Z
+date: 2024-07-06T21:46:19Z
 template: link
 link: https://daniel.haxx.se/blog/2024/07/03/wcurl-is-here/
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Status | Depot'
-date: 2024-12-25T02:22:53Z
+date: 2024-12-25T08:22:53Z
 template: link
 link: https://status.depot.dev/
 tags:

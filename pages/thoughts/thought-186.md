@@ -1,6 +1,6 @@
 ---
 title: 'logs with FastAPI and Uvicorn · Issue #1508 · tiangolo/fastapi'
-date: 2023-12-15T22:04:42Z
+date: 2023-12-16T04:04:42Z
 template: link
 link: https://github.com/tiangolo/fastapi/issues/1508
 tags:

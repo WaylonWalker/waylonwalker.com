@@ -1,6 +1,6 @@
 ---
 title: 'YouTube has earned its crown'
-date: 2025-08-07T14:22:58Z
+date: 2025-08-07T19:22:58Z
 template: link
 link: https://world.hey.com/dhh/youtube-has-earned-its-crown-48f12ccc
 tags:

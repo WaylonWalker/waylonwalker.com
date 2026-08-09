@@ -1,6 +1,6 @@
 ---
 title: 'nvim: `vim.o.cmdheight=0`'
-date: 2023-12-14T14:20:17Z
+date: 2023-12-14T20:20:17Z
 template: link
 link: https://vi.stackexchange.com/questions/39947/nvim-vim-o-cmdheight-0-looses-the-recording-a-macro-messages
 tags:

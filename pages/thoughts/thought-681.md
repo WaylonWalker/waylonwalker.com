@@ -1,6 +1,6 @@
 ---
 title: 'Taming file zoos: Data science with DuckDB database files - Al...'
-date: 2025-06-09T13:31:30Z
+date: 2025-06-09T18:31:30Z
 template: link
 link: https://www.youtube.com/watch?v=Yq-hxgysWLQ
 tags:

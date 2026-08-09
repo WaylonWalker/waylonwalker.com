@@ -1,6 +1,6 @@
 ---
 title: 'How I use Obsidian Templater'
-date: 2024-12-22T17:08:32Z
+date: 2024-12-22T23:08:32Z
 template: link
 link: https://thoughts.waylonwalker.com/post/454
 tags:

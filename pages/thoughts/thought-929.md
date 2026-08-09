@@ -1,6 +1,6 @@
 ---
 title: 'Home / X'
-date: 2026-02-17T07:58:16Z
+date: 2026-02-17T13:58:16Z
 template: link
 link: https://x.com/dhh/status/2023710298201350606/photo/1
 tags:
@@ -14,4 +14,4 @@ published: true
 
 To the untrained eye this passes as any normal gui editor.
 
-![image](https://dropper.waylonwalker.com/file/86d45a22-9ed4-4f14-8070-5f0cadee9bad.webp)
+![](https://dropper.waylonwalker.com/file/86d45a22-9ed4-4f14-8070-5f0cadee9bad.webp)

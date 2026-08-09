@@ -1,6 +1,6 @@
 ---
 title: 'poolers.postgresql.cnpg.io CRD metadata.annotations Too long ·...'
-date: 2025-01-21T17:06:21Z
+date: 2025-01-21T23:06:21Z
 template: link
 link: https://github.com/cloudnative-pg/charts/issues/325
 tags:

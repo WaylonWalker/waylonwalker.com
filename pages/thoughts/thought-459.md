@@ -1,6 +1,6 @@
 ---
 title: 'Switching from virtualenvwrapper to direnv, Starship, and uv'
-date: 2024-12-24T03:30:57Z
+date: 2024-12-24T09:30:57Z
 template: link
 link: https://treyhunner.com/2024/10/switching-from-virtualenvwrapper-to-direnv-starship-and-uv/
 tags:

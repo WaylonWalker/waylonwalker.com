@@ -1,6 +1,6 @@
 ---
 title: 'Cherry 8 mm keycap mount'
-date: 2024-10-02T12:58:55Z
+date: 2024-10-02T17:58:55Z
 template: link
 link: https://telcontar.net/KBK/Cherry/images/MX/Cherry_8_mm_mount.svgz
 tags:

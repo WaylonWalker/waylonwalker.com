@@ -1,6 +1,6 @@
 ---
 title: '{ TechDufus }'
-date: 2025-07-02T13:35:45Z
+date: 2025-07-02T18:35:45Z
 template: link
 link: https://techdufus.com/#timeline
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'safe words'
-date: 2026-03-31T18:46:01Z
+date: 2026-03-31T23:46:01Z
 template: link
 link: https://x.com/metedata/status/2038924041453441422
 tags:

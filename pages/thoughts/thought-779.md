@@ -1,6 +1,6 @@
 ---
 title: 'rushter/selectolax: Python binding to Modest and Lexbor engine...'
-date: 2025-08-04T13:52:15Z
+date: 2025-08-04T18:52:15Z
 template: link
 link: https://github.com/rushter/selectolax
 tags:

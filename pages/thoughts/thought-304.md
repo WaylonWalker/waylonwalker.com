@@ -1,6 +1,6 @@
 ---
 title: 'A Link Blog in the Year 2024 | Kellan Elliott-McCrea: Blog'
-date: 2024-06-10T02:40:20Z
+date: 2024-06-10T07:40:20Z
 template: link
 link: https://laughingmeme.org//2024/06/08/a-link-blog-in-2024.html
 tags:

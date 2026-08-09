@@ -1,6 +1,6 @@
 ---
 title: 'BumpMesh by CNC Kitchen'
-date: 2026-04-05T10:54:20Z
+date: 2026-04-05T15:54:20Z
 template: link
 link: https://bumpmesh.com/
 tags:

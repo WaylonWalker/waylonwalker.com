@@ -1,6 +1,6 @@
 ---
 title: 'RAM Prices Are Getting Worse - YouTube'
-date: 2025-12-24T02:34:55Z
+date: 2025-12-24T08:34:55Z
 template: link
 link: https://www.youtube.com/watch?v=R5B0fjG55Fw
 tags:

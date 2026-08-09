@@ -1,6 +1,6 @@
 ---
 title: 'A quote from Tim Paul'
-date: 2024-05-14T02:21:17Z
+date: 2024-05-14T07:21:17Z
 template: link
 link: https://simonwillison.net/2024/May/13/tim-paul/
 tags:

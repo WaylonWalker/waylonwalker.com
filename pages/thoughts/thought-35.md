@@ -1,6 +1,6 @@
 ---
 title: 'Harlequin SQL IDE - DuckDB'
-date: 2023-07-28T14:59:37Z
+date: 2023-07-28T19:59:37Z
 template: link
 link: https://duckdb.org/docs/guides/sql_editors/harlequin
 tags:

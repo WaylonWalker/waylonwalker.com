@@ -1,6 +1,6 @@
 ---
 title: 'Releases · stackrox/kube-linter'
-date: 2024-06-24T17:09:37Z
+date: 2024-06-24T22:09:37Z
 template: link
 link: https://github.com/stackrox/kube-linter
 tags:

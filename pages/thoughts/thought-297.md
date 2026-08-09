@@ -1,6 +1,6 @@
 ---
 title: 'From the Circle to Epicycles (Part 1) - An animated introducti...'
-date: 2024-06-06T14:02:50Z
+date: 2024-06-06T19:02:50Z
 template: link
 link: https://www.andreinc.net/2024/04/24/from-the-circle-to-epicycles
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Why You Should Build Your Homelab Now - YouTube'
-date: 2024-06-14T22:58:22Z
+date: 2024-06-15T03:58:22Z
 template: link
 link: https://www.youtube.com/watch?v=tmw7oYG3vMU
 tags:

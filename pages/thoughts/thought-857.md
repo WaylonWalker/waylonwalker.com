@@ -1,6 +1,6 @@
 ---
 title: 'Bazzite on X: "@thesvpanda @_Messier_33 @LeagueOfLegends Unfor...'
-date: 2025-10-28T21:46:30Z
+date: 2025-10-29T02:46:30Z
 template: link
 link: https://x.com/bazzite_gg/status/1983204433627623590
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Meet Gor | I kind of hate Agentic IDEs for the sake of product...'
-date: 2025-08-02T15:00:38Z
+date: 2025-08-02T20:00:38Z
 template: link
 link: https://www.meetgor.com/thoughts/i-kind-of-hate-agentic-ides-for-the-sake-of-productivity/
 tags:

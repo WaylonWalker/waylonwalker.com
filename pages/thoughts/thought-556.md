@@ -1,6 +1,6 @@
 ---
 title: 'Colors - Core concepts - Tailwind CSS'
-date: 2025-02-09T21:32:57Z
+date: 2025-02-10T03:32:57Z
 template: link
 link: https://tailwindcss.com/docs/colors
 tags:

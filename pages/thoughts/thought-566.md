@@ -1,6 +1,6 @@
 ---
 title: 'Weblogging: Part 1 – David Bushell – Web Dev (UK)'
-date: 2025-02-17T21:01:00Z
+date: 2025-02-18T03:01:00Z
 template: link
 link: https://dbushell.com/2024/12/09/weblogging-1/
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'A ChatGPT prompt equals about 5.1 seconds of Netflix'
-date: 2025-12-01T21:34:30Z
+date: 2025-12-02T03:34:30Z
 template: link
 link: https://simonwillison.net/2025/Nov/29/chatgpt-netflix
 tags:

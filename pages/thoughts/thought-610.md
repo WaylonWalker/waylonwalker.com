@@ -1,6 +1,6 @@
 ---
 title: 'A quote from Mark Zuckerberg'
-date: 2025-05-01T12:50:52Z
+date: 2025-05-01T17:50:52Z
 template: link
 link: https://simonwillison.net/2025/May/1/mark-zuckerberg/#atom-everything
 tags:

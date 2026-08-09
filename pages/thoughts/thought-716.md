@@ -1,6 +1,6 @@
 ---
 title: 'Software engineer get laid off in 2025 - YouTube'
-date: 2025-06-23T13:13:58Z
+date: 2025-06-23T18:13:58Z
 template: link
 link: https://www.youtube.com/shorts/_HcN2zdNoms
 tags:

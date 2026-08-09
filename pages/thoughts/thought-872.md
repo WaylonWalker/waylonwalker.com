@@ -1,6 +1,6 @@
 ---
 title: 'K8s Diagram Builder - Free Visual Kubernetes Architecture Desi...'
-date: 2025-12-01T14:10:55Z
+date: 2025-12-01T20:10:55Z
 template: link
 link: http://k8sdiagram.fun/
 tags:

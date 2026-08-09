@@ -1,6 +1,6 @@
 ---
 title: 'Retrieve an upcoming invoice | Stripe API Reference'
-date: 2023-12-07T14:49:51Z
+date: 2023-12-07T20:49:51Z
 template: link
 link: https://stripe.com/docs/api/invoices/upcoming
 tags:

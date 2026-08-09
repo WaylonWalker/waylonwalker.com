@@ -1,6 +1,6 @@
 ---
 title: 'How to make your RSS feed pretty'
-date: 2024-12-18T00:38:24Z
+date: 2024-12-18T06:38:24Z
 template: link
 link: https://cassidoo.co/post/prettify-rss/
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'How to fix ZFS pool not importing at boot :: ./techtipsy — Her...'
-date: 2023-07-28T14:59:37Z
+date: 2023-07-28T19:59:37Z
 template: link
 link: https://ounapuu.ee/posts/2021/02/01/how-to-fix-zfs-pool-not-importing-at-boot/
 tags:

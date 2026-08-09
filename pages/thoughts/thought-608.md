@@ -1,6 +1,6 @@
 ---
 title: 'Helm - Postiz Docs'
-date: 2025-04-30T21:44:17Z
+date: 2025-05-01T02:44:17Z
 template: link
 link: https://docs.postiz.com/installation/kubernetes-helm
 tags:

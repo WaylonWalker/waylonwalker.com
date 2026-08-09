@@ -1,6 +1,6 @@
 ---
 title: 'casey/just: 🤖 Just a command runner'
-date: 2023-10-22T02:09:57Z
+date: 2023-10-22T07:09:57Z
 template: link
 link: https://github.com/casey/just
 tags:

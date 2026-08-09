@@ -1,6 +1,6 @@
 ---
 title: 'Sqlite-jiff'
-date: 2024-07-24T03:12:14Z
+date: 2024-07-24T08:12:14Z
 template: link
 link: https://simonwillison.net/2024/Jul/23/sqlite-jiff/
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Remove Background Web - a Hugging Face Space by Xenova'
-date: 2024-07-11T12:50:22Z
+date: 2024-07-11T17:50:22Z
 template: link
 link: https://huggingface.co/spaces/Xenova/remove-background-web
 tags:

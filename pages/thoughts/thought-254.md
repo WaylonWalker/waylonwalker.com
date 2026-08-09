@@ -1,6 +1,6 @@
 ---
 title: 'How to Restart All Pods in a Kubernetes Namespace | Boot.dev'
-date: 2024-04-25T21:59:56Z
+date: 2024-04-26T02:59:56Z
 template: link
 link: https://blog.boot.dev/open-source/how-to-restart-all-pods-in-a-kubernetes-namespace/
 tags:

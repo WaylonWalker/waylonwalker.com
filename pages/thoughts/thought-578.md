@@ -1,6 +1,6 @@
 ---
 title: 'PyApp'
-date: 2025-03-03T01:52:54Z
+date: 2025-03-03T07:52:54Z
 template: link
 link: https://ofek.dev/pyapp/latest/
 tags:

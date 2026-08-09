@@ -1,6 +1,6 @@
 ---
 title: 'Getting a Dev Job in 2025 - YouTube'
-date: 2024-12-27T02:53:55Z
+date: 2024-12-27T08:53:55Z
 template: link
 link: https://www.youtube.com/watch?v=2PiM2e4RtTg
 tags:

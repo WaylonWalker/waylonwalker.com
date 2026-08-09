@@ -1,6 +1,6 @@
 ---
 title: 'simonw/shot-scraper: A command-line utility for taking automat...'
-date: 2023-08-16T00:05:33Z
+date: 2023-08-16T05:05:33Z
 template: link
 link: https://github.com/simonw/shot-scraper
 tags:

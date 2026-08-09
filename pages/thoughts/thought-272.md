@@ -1,6 +1,6 @@
 ---
 title: 'Pricing | PopSQL'
-date: 2024-05-12T19:27:05Z
+date: 2024-05-13T00:27:05Z
 template: link
 link: https://popsql.com/pricing
 tags:

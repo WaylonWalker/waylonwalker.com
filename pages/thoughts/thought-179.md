@@ -1,6 +1,6 @@
 ---
 title: 'Adam Wathan on X: "Hear me out. https://t.co/QHkEI6SJYZ" / X'
-date: 2023-12-13T01:22:17Z
+date: 2023-12-13T07:22:17Z
 template: link
 link: https://twitter.com/adamwathan/status/1734696245015494711
 tags:

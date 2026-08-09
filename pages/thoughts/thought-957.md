@@ -1,6 +1,6 @@
 ---
 title: 'the cheng lou pretext tweet'
-date: 2026-03-31T18:38:39Z
+date: 2026-03-31T23:38:39Z
 template: link
 link: https://x.com/_chenglou/status/2037713766205608234
 tags:

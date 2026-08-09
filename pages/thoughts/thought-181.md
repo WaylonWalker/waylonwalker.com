@@ -1,6 +1,6 @@
 ---
 title: 'DataDog/ddqa: Datadog''s QA manager for releases of GitHub repo...'
-date: 2023-12-13T22:18:06Z
+date: 2023-12-14T04:18:06Z
 template: link
 link: https://github.com/DataDog/ddqa
 tags:

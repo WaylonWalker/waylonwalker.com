@@ -1,6 +1,6 @@
 ---
 title: 'GitHub Ensloppification – David Bushell – Web Dev (UK)'
-date: 2025-08-12T02:29:16Z
+date: 2025-08-12T07:29:16Z
 template: link
 link: https://dbushell.com/2025/08/11/github-ensloppification/
 tags:

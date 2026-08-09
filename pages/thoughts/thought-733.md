@@ -1,6 +1,6 @@
 ---
 title: 'I was wrong - YouTube'
-date: 2025-07-04T16:53:47Z
+date: 2025-07-04T21:53:47Z
 template: link
 link: https://www.youtube.com/watch?v=ZH3iKbEiks0
 tags:

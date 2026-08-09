@@ -1,6 +1,6 @@
 ---
 title: 'How to group FastAPI endpoints in Swagger UI?'
-date: 2023-12-15T15:30:37Z
+date: 2023-12-15T21:30:37Z
 template: link
 link: https://stackoverflow.com/questions/63762387/how-to-group-fastapi-endpoints-in-swagger-ui#answer-63762765
 tags:

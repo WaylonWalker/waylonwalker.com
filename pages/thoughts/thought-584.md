@@ -1,6 +1,6 @@
 ---
 title: 'Redis configuration | Docs'
-date: 2025-03-20T20:14:57Z
+date: 2025-03-21T01:14:57Z
 template: link
 link: https://redis.io/docs/latest/operate/oss_and_stack/management/config/
 tags:

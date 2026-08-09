@@ -1,6 +1,6 @@
 ---
 title: 'How an empty S3 bucket can make your AWS bill explode | by Mac...'
-date: 2024-05-01T02:31:56Z
+date: 2024-05-01T07:31:56Z
 template: link
 link: https://medium.com/@maciej.pocwierz/how-an-empty-s3-bucket-can-make-your-aws-bill-explode-934a383cb8b1
 tags:

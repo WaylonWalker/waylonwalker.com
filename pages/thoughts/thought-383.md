@@ -1,6 +1,6 @@
 ---
 title: 'Switching Configs in Neovim • Michael Uloth'
-date: 2024-08-21T12:57:56Z
+date: 2024-08-21T17:57:56Z
 template: link
 link: https://michaeluloth.com/neovim-switch-configs/
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'svenstaro/miniserve: 🌟 For when you really just want to serve ...'
-date: 2024-07-06T21:55:59Z
+date: 2024-07-07T02:55:59Z
 template: link
 link: https://github.com/svenstaro/miniserve
 tags:

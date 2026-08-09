@@ -1,6 +1,6 @@
 ---
 title: 'Smartphones are black holes'
-date: 2025-12-24T02:29:01Z
+date: 2025-12-24T08:29:01Z
 template: link
 link: https://kerkour.com/smartphones-blackhole
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'snow-fall Web Component—zachleat.com'
-date: 2025-12-06T15:25:11Z
+date: 2025-12-06T21:25:11Z
 template: link
 link: https://www.zachleat.com/web/snow-fall/
 tags:

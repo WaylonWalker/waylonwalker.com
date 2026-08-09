@@ -1,6 +1,6 @@
 ---
 title: 'Session: Skate Sim on X: "Our long-awaited Skate Core Update i...'
-date: 2026-02-19T17:10:18Z
+date: 2026-02-19T23:10:18Z
 template: link
 link: https://x.com/SessionGame/status/2024469214396838140
 tags:

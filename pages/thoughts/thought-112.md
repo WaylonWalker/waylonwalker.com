@@ -1,6 +1,6 @@
 ---
 title: 'Pagefind | Pagefind — Static low-bandwidth search at scale'
-date: 2023-09-20T01:04:41Z
+date: 2023-09-20T06:04:41Z
 template: link
 link: https://pagefind.app/
 tags:

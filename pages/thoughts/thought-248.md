@@ -1,6 +1,6 @@
 ---
 title: 'Manual Upgrades | K3s'
-date: 2024-04-19T12:51:03Z
+date: 2024-04-19T17:51:03Z
 template: link
 link: https://docs.k3s.io/upgrades/manual
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Diagnostic - Neovim docs'
-date: 2023-10-25T14:01:06Z
+date: 2023-10-25T19:01:06Z
 template: link
 link: https://neovim.io/doc/user/diagnostic.html#vim.diagnostic.reset()
 tags:

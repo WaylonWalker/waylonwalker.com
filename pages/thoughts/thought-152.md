@@ -1,6 +1,6 @@
 ---
 title: 'Creating k8s jobs with python'
-date: 2023-10-28T00:52:24Z
+date: 2023-10-28T05:52:24Z
 template: link
 link: https://thoughts.waylonwalker.com/post-og/152
 tags:

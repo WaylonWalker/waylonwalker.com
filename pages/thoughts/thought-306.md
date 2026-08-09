@@ -1,6 +1,6 @@
 ---
 title: 'Blogmarks that use markdown'
-date: 2024-06-10T02:47:52Z
+date: 2024-06-10T07:47:52Z
 template: link
 link: https://simonwillison.net/2024/Apr/25/blogmarks-that-use-markdown/
 tags:

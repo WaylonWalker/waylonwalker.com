@@ -1,6 +1,6 @@
 ---
 title: 'Deleting Specific Lines in a File with sed or yq'
-date: 2023-07-28T14:59:37Z
+date: 2023-07-28T19:59:37Z
 template: link
 link: https://nickjanetakis.com/blog/deleting-specific-lines-in-a-file-with-sed-or-yq
 tags:

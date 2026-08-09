@@ -1,6 +1,6 @@
 ---
 title: 'fix json schema · WaylonWalker/waylonwalker.com@deebd40'
-date: 2025-02-17T22:26:01Z
+date: 2025-02-18T04:26:01Z
 template: link
 link: https://github.com/WaylonWalker/waylonwalker.com/commit/deebd400e638bfaa41db953530597983ae0df82a
 tags:

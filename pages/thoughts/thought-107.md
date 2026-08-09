@@ -1,6 +1,6 @@
 ---
 title: 'Formatter'
-date: 2023-09-07T00:32:00Z
+date: 2023-09-07T05:32:00Z
 template: link
 link: https://biomejs.dev/formatter/
 tags:

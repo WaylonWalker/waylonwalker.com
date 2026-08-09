@@ -1,6 +1,6 @@
 ---
 title: 'mkimuram/k8sviz: Generate Kubernetes architecture diagrams fro...'
-date: 2023-10-22T21:07:26Z
+date: 2023-10-23T02:07:26Z
 template: link
 link: https://github.com/mkimuram/k8sviz
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'POV: You install Clawdbot on VPS - YouTube'
-date: 2026-02-16T10:22:40Z
+date: 2026-02-16T16:22:40Z
 template: link
 link: https://www.youtube.com/shorts/bof8TkZkr1I
 tags:

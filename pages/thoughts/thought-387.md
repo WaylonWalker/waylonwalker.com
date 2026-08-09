@@ -1,6 +1,6 @@
 ---
 title: 'Wes Bos on X: "Are you using position: absolute; to overlap el...'
-date: 2024-09-13T15:43:03Z
+date: 2024-09-13T20:43:03Z
 template: link
 link: https://x.com/wesbos/status/1834242925401694490
 tags:

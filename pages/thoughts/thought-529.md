@@ -1,6 +1,6 @@
 ---
 title: 'SuperMini nRF52840 Wireless Controller Development Board - kri...'
-date: 2025-01-13T01:51:24Z
+date: 2025-01-13T07:51:24Z
 template: link
 link: https://kriscables.com/supermini-nrf52840/
 tags:

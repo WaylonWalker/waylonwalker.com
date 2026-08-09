@@ -1,6 +1,6 @@
 ---
 title: 'A quote from Dan Abramov'
-date: 2025-09-27T16:11:23Z
+date: 2025-09-27T21:11:23Z
 template: link
 link: https://simonwillison.net/2025/Sep/27/dan-abramov/#atom-everything
 tags:

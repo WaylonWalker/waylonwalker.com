@@ -1,6 +1,6 @@
 ---
 title: 'Realign – Chris Coyier'
-date: 2025-01-04T14:25:02Z
+date: 2025-01-04T20:25:02Z
 template: link
 link: https://chriscoyier.net/2025/01/03/realign/
 tags:

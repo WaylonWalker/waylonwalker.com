@@ -1,6 +1,6 @@
 ---
 title: 'Mill-Max Hotswap Sockets  – Keebio'
-date: 2025-03-14T01:02:15Z
+date: 2025-03-14T06:02:15Z
 template: link
 link: https://keeb.io/products/mill-max-hotswap-sockets?variant=32377167511646
 tags:

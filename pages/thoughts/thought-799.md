@@ -1,6 +1,6 @@
 ---
 title: 'DHH on X: "Rewiring your muscle memory for copy/paste when you...'
-date: 2025-08-17T15:39:42Z
+date: 2025-08-17T20:39:42Z
 template: link
 link: https://x.com/dhh/status/1956645753255805151
 tags:

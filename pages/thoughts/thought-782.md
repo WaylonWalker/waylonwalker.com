@@ -1,6 +1,6 @@
 ---
 title: 'A quote from greyduet on r/teachers'
-date: 2025-08-05T16:01:16Z
+date: 2025-08-05T21:01:16Z
 template: link
 link: https://simonwillison.net/2025/Aug/5/greyduet-on-rteachers/#atom-everything
 tags:

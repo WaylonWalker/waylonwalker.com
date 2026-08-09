@@ -1,6 +1,6 @@
 ---
 title: 'If Netflix Made a ‘Day in the Life of a Software Engineer’ - Y...'
-date: 2025-06-23T12:51:39Z
+date: 2025-06-23T17:51:39Z
 template: link
 link: https://www.youtube.com/watch?v=bvINaJEQNSQ
 tags:

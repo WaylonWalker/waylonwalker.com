@@ -1,6 +1,6 @@
 ---
 title: 'DHH on X: "NIH: Not Invented Here Syndrome might come from a g...'
-date: 2025-05-31T15:40:11Z
+date: 2025-05-31T20:40:11Z
 template: link
 link: https://x.com/dhh/status/1928450457262850053
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Center things - Textual'
-date: 2023-07-30T16:31:55Z
+date: 2023-07-30T21:31:55Z
 template: link
 link: https://textual.textualize.io/how-to/center-things/
 tags:

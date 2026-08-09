@@ -1,6 +1,6 @@
 ---
 title: 'Header Parameters - FastAPI'
-date: 2023-07-28T14:59:37Z
+date: 2023-07-28T19:59:37Z
 template: link
 link: https://fastapi.tiangolo.com/tutorial/header-params/#declare-header-parameters
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'sql - How can I list the tables in a SQLite database file that...'
-date: 2024-04-18T01:13:59Z
+date: 2024-04-18T06:13:59Z
 template: link
 link: https://stackoverflow.com/questions/82875/how-can-i-list-the-tables-in-a-sqlite-database-file-that-was-opened-with-attach#answer-83195
 tags:

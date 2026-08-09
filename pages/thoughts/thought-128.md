@@ -1,6 +1,6 @@
 ---
 title: 'Change Autocomplete Styles in WebKit Browsers | CSS-Tricks - C...'
-date: 2023-10-10T01:48:04Z
+date: 2023-10-10T06:48:04Z
 template: link
 link: https://css-tricks.com/snippets/css/change-autocomplete-styles-webkit-browsers/
 tags:

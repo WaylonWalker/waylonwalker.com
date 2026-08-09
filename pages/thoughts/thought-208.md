@@ -1,6 +1,6 @@
 ---
 title: 'jesseduffield/lazydocker: The lazier way to manage everything ...'
-date: 2024-03-07T14:14:17Z
+date: 2024-03-07T20:14:17Z
 template: link
 link: https://github.com/jesseduffield/lazydocker
 tags:
@@ -16,4 +16,4 @@ I've been using this for a few weeks now and it's fantastic.  It's reminds me of
 
 > tldr `docker ps` on steroids
 
-![image](https://github.com/jesseduffield/lazydocker/blob/master/docs/resources/demo3.gif?raw=true)
+![](https://github.com/jesseduffield/lazydocker/blob/master/docs/resources/demo3.gif?raw=true)

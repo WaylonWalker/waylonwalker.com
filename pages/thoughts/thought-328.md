@@ -1,6 +1,6 @@
 ---
 title: 'Waylon Walker - handwired macropads on X: "First bit of hand w...'
-date: 2024-07-01T02:02:31Z
+date: 2024-07-01T07:02:31Z
 template: link
 link: https://x.com/_WaylonWalker/status/1807594004453667134
 tags:

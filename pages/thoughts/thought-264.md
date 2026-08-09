@@ -1,6 +1,6 @@
 ---
 title: 'I Interviewed Uncle Bob - YouTube'
-date: 2024-05-01T02:34:03Z
+date: 2024-05-01T07:34:03Z
 template: link
 link: https://www.youtube.com/watch?v=UBXXw2JSloo
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Using Litestream to Restore My Database for Easy Development'
-date: 2025-09-29T18:49:12Z
+date: 2025-09-29T23:49:12Z
 template: link
 link: https://pype.dev/using-litestream-to-restore-my-database-for-easy-development/#Update
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'His presence is still felt in the codebase to this day 😂 #codi...'
-date: 2026-05-29T20:28:35Z
+date: 2026-05-30T01:28:35Z
 template: link
 link: https://www.youtube.com/shorts/sAFy__T8-7Q
 tags:

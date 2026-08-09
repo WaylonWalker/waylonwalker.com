@@ -1,6 +1,6 @@
 ---
 title: 'Lazy self-installing Python scripts with uv'
-date: 2024-12-24T03:20:33Z
+date: 2024-12-24T09:20:33Z
 template: link
 link: https://treyhunner.com/2024/12/lazy-self-installing-python-scripts-with-uv/
 tags:

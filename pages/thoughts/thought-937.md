@@ -1,6 +1,6 @@
 ---
 title: 'Reply guy'
-date: 2026-02-23T08:39:41Z
+date: 2026-02-23T14:39:41Z
 template: link
 link: https://simonwillison.net/2026/Feb/23/reply-guy/#atom-everything
 tags:

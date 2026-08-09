@@ -1,6 +1,6 @@
 ---
 title: '3D Printable Power Brick Bracket Designer'
-date: 2025-05-01T14:17:43Z
+date: 2025-05-01T19:17:43Z
 template: link
 link: https://bracket.engineer/?width=113.5&height=63&depth=98&bracketThickness=3&ribbingCount=9&ribbingThickness=2.5&holeDiameter=5&holeCount=1&earWidth=17&keyHole=on&color=%2344ff00
 tags:

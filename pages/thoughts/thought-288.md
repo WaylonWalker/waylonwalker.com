@@ -1,6 +1,6 @@
 ---
 title: 'Zellij on X: "POV your sysadmin rigged your terminal to show t...'
-date: 2024-05-30T19:38:23Z
+date: 2024-05-31T00:38:23Z
 template: link
 link: https://x.com/Zellij_dev/status/1574675207935107072
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Migration guide for config loaders — kedro 0.19.11 documentation'
-date: 2025-02-05T18:16:44Z
+date: 2025-02-06T00:16:44Z
 template: link
 link: https://docs.kedro.org/en/stable/configuration/config_loader_migration.html
 tags:

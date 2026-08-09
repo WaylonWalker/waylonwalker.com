@@ -1,6 +1,6 @@
 ---
 title: 'kitze 🚀 on X: "holy fk I thought package.json was bad but TIL ...'
-date: 2024-12-27T02:51:27Z
+date: 2024-12-27T08:51:27Z
 template: link
 link: https://x.com/thekitze/status/1872267874842063223?t=zxq6-kA9atVuXJeWntxfWg&s=09
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Update Kconfig.shield rec by bravekarma · WaylonWalker/zmk-con...'
-date: 2024-07-17T00:08:56Z
+date: 2024-07-17T05:08:56Z
 template: link
 link: https://github.com/WaylonWalker/zmk-config-ninepad/commit/8b76b76e2f094453aaf7ffe51bb405ce3a25a611
 tags:

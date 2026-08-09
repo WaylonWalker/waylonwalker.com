@@ -1,6 +1,6 @@
 ---
 title: 'google chrome - Webkit scrollbar CSS, always a white box in co...'
-date: 2024-04-09T16:55:55Z
+date: 2024-04-09T21:55:55Z
 template: link
 link: https://stackoverflow.com/questions/35968553/webkit-scrollbar-css-always-a-white-box-in-corner
 tags:

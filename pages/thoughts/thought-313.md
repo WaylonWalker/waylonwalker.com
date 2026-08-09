@@ -1,6 +1,6 @@
 ---
 title: 'How to Build a Handwired Keyboard - YouTube'
-date: 2024-06-24T17:03:52Z
+date: 2024-06-24T22:03:52Z
 template: link
 link: https://www.youtube.com/watch?v=hjml-K-pV4E
 tags:

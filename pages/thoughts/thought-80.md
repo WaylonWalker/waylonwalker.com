@@ -1,6 +1,6 @@
 ---
 title: 'HTML Over The Wire | Hotwire'
-date: 2023-08-11T01:12:07Z
+date: 2023-08-11T06:12:07Z
 template: link
 link: https://hotwired.dev/
 tags:

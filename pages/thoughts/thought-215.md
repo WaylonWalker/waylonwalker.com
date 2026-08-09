@@ -1,6 +1,6 @@
 ---
 title: 'docker - Where does the convention of using /healthz for appli...'
-date: 2024-03-15T14:34:23Z
+date: 2024-03-15T19:34:23Z
 template: link
 link: https://stackoverflow.com/questions/43380939/where-does-the-convention-of-using-healthz-for-application-health-checks-come-f
 tags:

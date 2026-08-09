@@ -1,6 +1,6 @@
 ---
 title: 'Copyparty - YouTube'
-date: 2025-07-27T17:23:57Z
+date: 2025-07-27T22:23:57Z
 template: link
 link: https://youtu.be/15_-hgsX2V0?si=MGiWN8UxFmr36_mX
 tags:

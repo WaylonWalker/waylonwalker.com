@@ -1,6 +1,6 @@
 ---
 title: 'PocketCal Build Log'
-date: 2025-06-08T00:29:14Z
+date: 2025-06-08T05:29:14Z
 template: link
 link: https://cassidoo.co/post/pocketcal-build-log/
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'The beautiful sentence that is the web'
-date: 2024-12-30T21:25:08Z
+date: 2024-12-31T03:25:08Z
 template: link
 link: https://cassidoo.co/post/web-dev-sentence/
 tags:

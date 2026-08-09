@@ -1,6 +1,6 @@
 ---
 title: 'kubernetes is beautiful r/kubernetes'
-date: 2026-03-23T21:29:40Z
+date: 2026-03-24T02:29:40Z
 template: link
 link: https://www.reddit.com/r/kubernetes/comments/1rzyhip/kubernetes_is_beautiful/
 tags:

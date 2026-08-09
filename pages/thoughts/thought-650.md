@@ -1,6 +1,6 @@
 ---
 title: 'The adapter pattern in python | Rob Parsons'
-date: 2025-05-28T21:19:27Z
+date: 2025-05-29T02:19:27Z
 template: link
 link: https://robp.dev/the-adapter-pattern-in-python/
 tags:

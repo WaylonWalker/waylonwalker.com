@@ -1,6 +1,6 @@
 ---
 title: 'The Verge on X: "Stress testing a snack-proof keyboard https:/...'
-date: 2024-07-23T14:24:08Z
+date: 2024-07-23T19:24:08Z
 template: link
 link: https://x.com/verge/status/984764889754456065
 tags:

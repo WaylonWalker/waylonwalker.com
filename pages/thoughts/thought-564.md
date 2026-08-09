@@ -1,6 +1,6 @@
 ---
 title: 'Cotton Coder – David Bushell – Web Dev (UK)'
-date: 2025-02-17T03:05:12Z
+date: 2025-02-17T09:05:12Z
 template: link
 link: https://dbushell.com/2024/01/24/cotton-coder/
 tags:

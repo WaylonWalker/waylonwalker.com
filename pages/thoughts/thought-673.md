@@ -1,6 +1,6 @@
 ---
 title: 'Dopamine Driven Development - YouTube'
-date: 2025-06-07T22:59:04Z
+date: 2025-06-08T03:59:04Z
 template: link
 link: https://www.youtube.com/watch?v=AWZ9AgjPfwo&t=654s
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'URL escape codes'
-date: 2025-01-07T02:03:16Z
+date: 2025-01-07T08:03:16Z
 template: link
 link: https://docs.microfocus.com/OMi/10.62/Content/OMi/ExtGuide/ExtApps/URL_encoding.htm
 tags:

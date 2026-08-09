@@ -1,6 +1,6 @@
 ---
 title: 'Database Remote-Copy Tool For SQLite (draft)'
-date: 2024-10-05T20:56:49Z
+date: 2024-10-06T01:56:49Z
 template: link
 link: https://simonwillison.net/2024/Oct/4/sqlite-rsync/
 tags:

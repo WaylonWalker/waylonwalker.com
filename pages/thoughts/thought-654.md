@@ -1,6 +1,6 @@
 ---
 title: 'A Gentle Intro to RSS'
-date: 2025-05-31T01:44:36Z
+date: 2025-05-31T06:44:36Z
 template: link
 link: https://derekkedziora.com/blog/rss-guide
 tags:

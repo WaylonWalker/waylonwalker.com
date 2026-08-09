@@ -1,6 +1,6 @@
 ---
 title: 'Show some equivalent list comprehensions in filter examples · ...'
-date: 2023-12-14T20:28:34Z
+date: 2023-12-15T02:28:34Z
 template: link
 link: https://github.com/pallets/jinja/issues/1068
 tags:

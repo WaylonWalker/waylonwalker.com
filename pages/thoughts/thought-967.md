@@ -1,6 +1,6 @@
 ---
 title: '@seldo.com on Bluesky'
-date: 2026-04-08T07:31:34Z
+date: 2026-04-08T12:31:34Z
 template: link
 link: https://bsky.app/profile/seldo.com/post/3miybjol76p2r
 tags:

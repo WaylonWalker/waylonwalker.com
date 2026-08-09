@@ -1,6 +1,6 @@
 ---
 title: 'Package Managers Need to Cool Down'
-date: 2026-03-31T20:40:50Z
+date: 2026-04-01T01:40:50Z
 template: link
 link: https://simonwillison.net/2026/Mar/24/package-managers-need-to-cool-down/
 tags:

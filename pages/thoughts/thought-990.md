@@ -1,6 +1,6 @@
 ---
 title: 'Cloudflare cuts 1100'
-date: 2026-05-08T08:59:48Z
+date: 2026-05-08T13:59:48Z
 template: link
 link: https://blog.cloudflare.com/building-for-the-future/
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Quick-Start Guide | K3s'
-date: 2023-10-20T21:32:03Z
+date: 2023-10-21T02:32:03Z
 template: link
 link: https://docs.k3s.io/quick-start
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Handling Errors - FastAPI'
-date: 2023-12-17T03:47:43Z
+date: 2023-12-17T09:47:43Z
 template: link
 link: https://fastapi.tiangolo.com/tutorial/handling-errors/
 tags:

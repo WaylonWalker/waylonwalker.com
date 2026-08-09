@@ -1,6 +1,6 @@
 ---
 title: 'If anyone else is having sound clicking with chair : here is t...'
-date: 2024-11-25T22:28:46Z
+date: 2024-11-26T04:28:46Z
 template: link
 link: https://www.reddit.com/r/secretlab/comments/s6ayop/if_anyone_else_is_having_sound_clicking_with/
 tags:

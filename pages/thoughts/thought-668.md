@@ -1,6 +1,6 @@
 ---
 title: 'Arch Wizard Brodie Robertson vs My Mac Life - Will He Convert ...'
-date: 2025-06-07T01:05:25Z
+date: 2025-06-07T06:05:25Z
 template: link
 link: https://www.youtube.com/watch?v=bAmJQuX4-ak&t=1684s
 tags:

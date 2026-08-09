@@ -1,6 +1,6 @@
 ---
 title: 'omarchy/install/webapps.sh at master · basecamp/omarchy'
-date: 2025-07-08T18:02:18Z
+date: 2025-07-08T23:02:18Z
 template: link
 link: https://github.com/basecamp/omarchy/blob/master/install/webapps.sh
 tags:

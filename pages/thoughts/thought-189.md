@@ -1,6 +1,6 @@
 ---
 title: 'IndieWebify.Me - a guide to getting you on the IndieWeb'
-date: 2023-12-20T15:04:21Z
+date: 2023-12-20T21:04:21Z
 template: link
 link: https://indiewebify.me/
 tags:

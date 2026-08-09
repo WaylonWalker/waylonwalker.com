@@ -1,6 +1,6 @@
 ---
 title: 'Kustomize: The Best Way to Manage Your Kubernetes Configs - Yo...'
-date: 2024-07-03T13:31:47Z
+date: 2024-07-03T18:31:47Z
 template: link
 link: https://www.youtube.com/watch?v=spCdNeNCuFU&t=247s
 tags:

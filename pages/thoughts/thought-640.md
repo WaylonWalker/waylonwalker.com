@@ -1,6 +1,6 @@
 ---
 title: 'The Plot of "Hollow Knight" in One Minute - YouTube'
-date: 2025-05-24T00:01:07Z
+date: 2025-05-24T05:01:07Z
 template: link
 link: https://www.youtube.com/shorts/3xWgKFISG5U
 tags:

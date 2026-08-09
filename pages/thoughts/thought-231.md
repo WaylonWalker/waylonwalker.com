@@ -1,6 +1,6 @@
 ---
 title: 'From Nursing to Programming ft. Trash Puppy | Backend Banter 0...'
-date: 2024-04-01T20:21:37Z
+date: 2024-04-02T01:21:37Z
 template: link
 link: https://www.youtube.com/watch?v=fsExvZY4pe4
 tags:

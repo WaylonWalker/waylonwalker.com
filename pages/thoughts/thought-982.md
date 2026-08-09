@@ -1,6 +1,6 @@
 ---
 title: 'Hybrid theory is the greatest album of our generation - YouTube'
-date: 2026-04-28T21:31:51Z
+date: 2026-04-29T02:31:51Z
 template: link
 link: https://www.youtube.com/shorts/4BwsqMbruJA
 tags:

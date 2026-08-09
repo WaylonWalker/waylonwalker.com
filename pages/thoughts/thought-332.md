@@ -1,6 +1,6 @@
 ---
 title: 'markdown-it-pyrs · PyPI'
-date: 2024-07-03T13:56:30Z
+date: 2024-07-03T18:56:30Z
 template: link
 link: https://pypi.org/project/markdown-it-pyrs/
 tags:

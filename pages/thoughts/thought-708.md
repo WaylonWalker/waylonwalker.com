@@ -1,6 +1,6 @@
 ---
 title: 'Notes – 09:32 Thu 19 Jun 2025 – David Bushell – Web Dev (UK)'
-date: 2025-06-19T13:18:20Z
+date: 2025-06-19T18:18:20Z
 template: link
 link: https://dbushell.com/notes/2025-06-19T09:32Z/
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'I am slowly coming around to AI assisted programming.'
-date: 2026-04-14T15:17:09Z
+date: 2026-04-14T20:17:09Z
 template: link
 link: https://x.com/ThePrimeagen/status/2043861800819761382
 tags:

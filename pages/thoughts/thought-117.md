@@ -1,6 +1,6 @@
 ---
 title: 'I''m All-In on Server-Side SQLite · The Fly Blog'
-date: 2023-09-30T14:54:33Z
+date: 2023-09-30T19:54:33Z
 template: link
 link: https://fly.io/blog/all-in-on-sqlite-litestream/
 tags:

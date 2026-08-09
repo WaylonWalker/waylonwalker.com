@@ -1,6 +1,6 @@
 ---
 title: 'Install a Zulip server — Zulip 9.2 documentation'
-date: 2024-10-16T15:12:47Z
+date: 2024-10-16T20:12:47Z
 template: link
 link: https://zulip.readthedocs.io/en/stable/production/install.html
 tags:

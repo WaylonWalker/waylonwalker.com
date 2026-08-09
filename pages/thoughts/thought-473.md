@@ -1,6 +1,6 @@
 ---
 title: 'are we cooked w/ o3? - YouTube'
-date: 2024-12-27T16:09:32Z
+date: 2024-12-27T22:09:32Z
 template: link
 link: https://www.youtube.com/watch?v=kjOxkPl3RGo
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'UUID as a service?!'
-date: 2026-05-28T16:42:54Z
+date: 2026-05-28T21:42:54Z
 template: link
 link: https://youtube.com/watch?v=DtWvu65LeTQ&si=uMCjpzXJVj3ID7Oo
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Vectorizing Your Databases with Steve Pousty'
-date: 2025-05-04T17:54:39Z
+date: 2025-05-04T22:54:39Z
 template: link
 link: https://www.fafo.fm/vectorizing-your-databases-with-steve-pousty/
 tags:

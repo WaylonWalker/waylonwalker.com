@@ -1,6 +1,6 @@
 ---
 title: 'Media Types'
-date: 2024-04-30T18:15:43Z
+date: 2024-04-30T23:15:43Z
 template: link
 link: https://www.iana.org/assignments/media-types/media-types.xhtml#text
 tags:

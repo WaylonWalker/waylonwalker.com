@@ -1,6 +1,6 @@
 ---
 title: 'Queueing – An interactive study of queueing strategies – Encor...'
-date: 2024-06-28T16:19:37Z
+date: 2024-06-28T21:19:37Z
 template: link
 link: https://encore.dev/blog/queueing
 tags:

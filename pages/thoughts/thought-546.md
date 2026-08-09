@@ -1,6 +1,6 @@
 ---
 title: 'Behold, the Steam Brick | Rock Paper Shotgun'
-date: 2025-01-31T13:27:21Z
+date: 2025-01-31T19:27:21Z
 template: link
 link: https://www.rockpapershotgun.com/behold-the-steam-brick
 tags:

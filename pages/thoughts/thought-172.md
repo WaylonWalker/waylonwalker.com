@@ -1,6 +1,6 @@
 ---
 title: 'Stripe keys and IDs'
-date: 2023-12-06T13:46:44Z
+date: 2023-12-06T19:46:44Z
 template: link
 link: https://gist.github.com/fnky/76f533366f75cf75802c8052b577e2a5
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'The 3D Printed Mantis Clamp! #3dprinting #shorts #diy - YouTube'
-date: 2025-02-18T22:22:54Z
+date: 2025-02-19T04:22:54Z
 template: link
 link: https://www.youtube.com/shorts/a8uzENYZ72k
 tags:

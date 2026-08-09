@@ -1,6 +1,6 @@
 ---
 title: 'Quoting Meet Gor | Kubernetes isn''t for you'
-date: 2025-08-02T14:44:18Z
+date: 2025-08-02T19:44:18Z
 template: link
 link: https://www.meetgor.com/thoughts/kubernetes-isn-t-for-you/
 tags:

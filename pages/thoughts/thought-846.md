@@ -1,6 +1,6 @@
 ---
 title: 'PEP 735 – Dependency Groups in pyproject.toml | peps.python.org'
-date: 2025-10-01T16:25:57Z
+date: 2025-10-01T21:25:57Z
 template: link
 link: https://peps.python.org/pep-0735/
 tags:

@@ -1,6 +1,6 @@
 ---
 title: '`ValueError: Constraint must have a name` in alembic 1.10.0 · ...'
-date: 2023-08-05T01:25:07Z
+date: 2023-08-05T06:25:07Z
 template: link
 link: https://github.com/sqlalchemy/alembic/issues/1195
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'sharkdp/bat: A cat clone with wings.'
-date: 2023-08-21T13:28:06Z
+date: 2023-08-21T18:28:06Z
 template: link
 link: https://github.com/sharkdp/bat
 tags:

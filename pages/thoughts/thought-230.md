@@ -1,6 +1,6 @@
 ---
 title: 'Some Git poll results'
-date: 2024-03-29T02:04:41Z
+date: 2024-03-29T07:04:41Z
 template: link
 link: https://jvns.ca/blog/2024/03/28/git-poll-results/
 tags:

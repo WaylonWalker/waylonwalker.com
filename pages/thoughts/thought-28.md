@@ -1,6 +1,6 @@
 ---
 title: 'Doyensec on Twitter: "Announcing wsrepl, the WebSocket testing...'
-date: 2023-07-28T14:59:37Z
+date: 2023-07-28T19:59:37Z
 template: link
 link: https://twitter.com/Doyensec/status/1681320727465672706
 tags:

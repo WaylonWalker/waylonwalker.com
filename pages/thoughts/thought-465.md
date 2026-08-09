@@ -1,6 +1,6 @@
 ---
 title: 'Deploy to Fly using a Depot builder'
-date: 2024-12-25T02:20:08Z
+date: 2024-12-25T08:20:08Z
 template: link
 link: https://depot.dev/blog/how-to-build-with-depot-on-fly
 tags:

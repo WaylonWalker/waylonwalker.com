@@ -1,6 +1,6 @@
 ---
 title: 'Microsoft keeps losing - YouTube'
-date: 2025-11-15T17:51:23Z
+date: 2025-11-15T23:51:23Z
 template: link
 link: https://youtu.be/AyuMdNoL1Vs?si=QQ3BoV33nXR_TPnC
 tags:

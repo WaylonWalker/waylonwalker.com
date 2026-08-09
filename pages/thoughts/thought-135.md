@@ -1,6 +1,6 @@
 ---
 title: 'Has Web Development Regressed? A Conversation with Wes Bos | B...'
-date: 2023-10-17T01:33:41Z
+date: 2023-10-17T06:33:41Z
 template: link
 link: https://www.youtube.com/watch?v=EMg-AruNQQs
 tags:

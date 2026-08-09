@@ -1,6 +1,6 @@
 ---
 title: 'Text Decoration - Tailwind CSS'
-date: 2024-05-30T18:32:45Z
+date: 2024-05-30T23:32:45Z
 template: link
 link: https://tailwindcss.com/docs/text-decoration
 tags:

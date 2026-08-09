@@ -1,6 +1,6 @@
 ---
 title: 'Don''t fall into the anti-AI hype'
-date: 2026-01-12T03:03:25Z
+date: 2026-01-12T09:03:25Z
 template: link
 link: https://simonwillison.net/2026/Jan/11/dont-fall-into-the-anti-ai-hype/#atom-everything
 tags:

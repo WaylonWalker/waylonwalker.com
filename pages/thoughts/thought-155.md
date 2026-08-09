@@ -1,6 +1,6 @@
 ---
 title: 'Waylon Walker 🐍 on X: "Which is more complicated" / X'
-date: 2023-10-30T13:25:53Z
+date: 2023-10-30T18:25:53Z
 template: link
 link: https://twitter.com/_WaylonWalker/status/1718300097174270193
 tags:

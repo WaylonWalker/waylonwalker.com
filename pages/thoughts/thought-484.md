@@ -1,6 +1,6 @@
 ---
 title: 'How to configure base url for all requests using HTMX? - Stack...'
-date: 2024-12-30T16:25:49Z
+date: 2024-12-30T22:25:49Z
 template: link
 link: https://stackoverflow.com/questions/69456875/how-to-configure-base-url-for-all-requests-using-htmx
 tags:

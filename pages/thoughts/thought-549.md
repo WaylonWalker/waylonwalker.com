@@ -1,6 +1,6 @@
 ---
 title: 'A Cinematic Aspect Ratio Guide for Every Filmmaker | No Film S...'
-date: 2025-02-01T20:33:01Z
+date: 2025-02-02T02:33:01Z
 template: link
 link: https://nofilmschool.com/cinematic-aspect-ratio
 tags:

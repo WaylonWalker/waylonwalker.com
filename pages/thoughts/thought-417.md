@@ -1,6 +1,6 @@
 ---
 title: 'Aaron Francis on X: "📣 We''re excited to announce Mastering Pos...'
-date: 2024-10-27T02:52:38Z
+date: 2024-10-27T07:52:38Z
 template: link
 link: https://x.com/aarondfrancis/status/1833533150674268469
 tags:

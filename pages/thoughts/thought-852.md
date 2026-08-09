@@ -1,6 +1,6 @@
 ---
 title: '#artificialintelligence #hiring | Gary Vaynerchuk | 20 comments'
-date: 2025-10-24T00:39:49Z
+date: 2025-10-24T05:39:49Z
 template: link
 link: https://www.linkedin.com/posts/garyvaynerchuk_artificialintelligence-hiring-activity-7387261666289373184-BOIo
 tags:

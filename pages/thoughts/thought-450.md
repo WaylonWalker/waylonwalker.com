@@ -1,6 +1,6 @@
 ---
 title: 'I got the ADHD, too - daverupert.com'
-date: 2024-12-18T02:12:45Z
+date: 2024-12-18T08:12:45Z
 template: link
 link: https://daverupert.com/2024/12/adhd/
 tags:

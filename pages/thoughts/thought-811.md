@@ -1,6 +1,6 @@
 ---
 title: 'GitHub - cortesi/modd: A flexible developer tool that runs pro...'
-date: 2025-08-25T15:40:39Z
+date: 2025-08-25T20:40:39Z
 template: link
 link: https://github.com/cortesi/modd
 tags:

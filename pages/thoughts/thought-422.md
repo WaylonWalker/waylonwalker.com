@@ -1,6 +1,6 @@
 ---
 title: 'Cluster API book'
-date: 2024-11-05T04:17:37Z
+date: 2024-11-05T10:17:37Z
 template: link
 link: https://cluster-api.sigs.k8s.io/reference/providers
 tags:

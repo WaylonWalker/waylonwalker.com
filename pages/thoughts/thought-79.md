@@ -1,6 +1,6 @@
 ---
 title: 'How do I post form data using Curl?'
-date: 2023-08-10T20:19:05Z
+date: 2023-08-11T01:19:05Z
 template: link
 link: https://reqbin.com/req/c-sma2qrvp/curl-post-form-example
 tags:

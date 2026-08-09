@@ -1,6 +1,6 @@
 ---
 title: 'The Internet is Dying: AI, Bots, and The End of Human Content ...'
-date: 2025-08-18T13:04:56Z
+date: 2025-08-18T18:04:56Z
 template: link
 link: https://www.youtube.com/watch?v=J5ZmLvy_Jfg&t=182s
 tags:

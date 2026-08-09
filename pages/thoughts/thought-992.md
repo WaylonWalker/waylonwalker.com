@@ -1,6 +1,6 @@
 ---
 title: 'Microsoft Doesn''t Have it in Them to Win - YouTube'
-date: 2026-05-09T12:00:01Z
+date: 2026-05-09T17:00:01Z
 template: link
 link: https://youtu.be/n5gE2RX2GVA?si=Wu08hMDV8fREPJKJ
 tags:

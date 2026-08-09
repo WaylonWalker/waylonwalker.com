@@ -1,6 +1,6 @@
 ---
 title: 'Go by Example'
-date: 2023-11-29T14:11:42Z
+date: 2023-11-29T20:11:42Z
 template: link
 link: https://gobyexample.com/
 tags:

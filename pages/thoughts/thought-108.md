@@ -1,6 +1,6 @@
 ---
 title: 'LLM now provides tools for working with embeddings'
-date: 2023-09-07T00:35:55Z
+date: 2023-09-07T05:35:55Z
 template: link
 link: https://simonwillison.net/2023/Sep/4/llm-embeddings/
 tags:

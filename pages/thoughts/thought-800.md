@@ -1,6 +1,6 @@
 ---
 title: 'Digitized Signatures'
-date: 2025-08-17T15:47:05Z
+date: 2025-08-17T20:47:05Z
 template: link
 link: https://signature.cnrad.dev/
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'uv run for running tests on versions of Python'
-date: 2025-07-21T20:25:40Z
+date: 2025-07-22T01:25:40Z
 template: link
 link: https://daniel.feldroy.com/posts/2025-07-uv-run-for-testing-python-versions
 tags:

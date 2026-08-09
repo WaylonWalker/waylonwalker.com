@@ -1,6 +1,6 @@
 ---
 title: 'Hatch v1.10.0 - Hatch'
-date: 2024-05-02T14:06:57Z
+date: 2024-05-02T19:06:57Z
 template: link
 link: https://hatch.pypa.io/latest/blog/2024/05/02/hatch-v1100/
 tags:

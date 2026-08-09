@@ -1,6 +1,6 @@
 ---
 title: 'The 3D Printed Ball Vise Every Creative Should Own - YouTube'
-date: 2025-12-06T15:22:45Z
+date: 2025-12-06T21:22:45Z
 template: link
 link: https://www.youtube.com/watch?v=bQhVKB64r4U
 tags:

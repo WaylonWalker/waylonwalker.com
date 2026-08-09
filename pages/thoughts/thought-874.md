@@ -1,6 +1,6 @@
 ---
 title: 'A pretty good email scam'
-date: 2025-12-01T18:22:02Z
+date: 2025-12-02T00:22:02Z
 template: link
 link: https://cassidoo.co/post/email-settings-scam/
 tags:

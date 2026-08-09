@@ -1,6 +1,6 @@
 ---
 title: 'Gridfinity Rugged Storage Box, Parametric and Customizable by ...'
-date: 2024-11-06T20:33:58Z
+date: 2024-11-07T02:33:58Z
 template: link
 link: https://www.printables.com/model/757297-gridfinity-rugged-storage-box-parametric-and-custo/files
 tags:

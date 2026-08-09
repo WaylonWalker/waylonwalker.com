@@ -1,6 +1,6 @@
 ---
 title: 'Steam Deck dock'
-date: 2024-06-06T17:25:14Z
+date: 2024-06-06T22:25:14Z
 template: link
 link: https://kbd.news/Steam-Deck-dock-2291.html
 tags:

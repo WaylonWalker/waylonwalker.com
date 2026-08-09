@@ -1,6 +1,6 @@
 ---
 title: 'OverType - The Markdown Editor That''s a Textarea'
-date: 2025-08-21T00:50:01Z
+date: 2025-08-21T05:50:01Z
 template: link
 link: https://overtype.dev/?utm_source=waylonwalker.com
 tags:

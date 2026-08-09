@@ -1,6 +1,6 @@
 ---
 title: 'Not a split keyboard, but perhaps a companion to one: the Ploo...'
-date: 2024-10-20T00:02:57Z
+date: 2024-10-20T05:02:57Z
 template: link
 link: https://www.reddit.com/r/ErgoMechKeyboards/comments/1g5phts/not_a_split_keyboard_but_perhaps_a_companion_to/
 tags:

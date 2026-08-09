@@ -1,6 +1,6 @@
 ---
 title: 'What''s next? – Will McGugan – Will McGugan''s essays'
-date: 2025-05-10T14:08:45Z
+date: 2025-05-10T19:08:45Z
 template: link
 link: https://willmcgugan.github.io/whats-next/
 tags:

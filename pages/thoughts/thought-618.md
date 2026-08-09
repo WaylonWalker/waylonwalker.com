@@ -1,6 +1,6 @@
 ---
 title: 'Recovering from Disaster with Seth Eliot'
-date: 2025-05-04T17:48:54Z
+date: 2025-05-04T22:48:54Z
 template: link
 link: https://www.fafo.fm/recovering-from-disaster-with-seth-eliot/
 tags:

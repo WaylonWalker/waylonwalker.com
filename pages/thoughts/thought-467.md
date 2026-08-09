@@ -1,6 +1,6 @@
 ---
 title: 'Building Python tools with a one-shot prompt using uv run and ...'
-date: 2024-12-25T02:26:31Z
+date: 2024-12-25T08:26:31Z
 template: link
 link: https://simonwillison.net/2024/Dec/19/one-shot-python-tools/
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Waylon Walker (getting focus''d fokais.com) on X: "Bloggers whe...'
-date: 2023-12-15T14:53:33Z
+date: 2023-12-15T20:53:33Z
 template: link
 link: https://twitter.com/_WaylonWalker/status/1734387536716308693
 tags:

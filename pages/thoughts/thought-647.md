@@ -1,6 +1,6 @@
 ---
 title: 'wants | maya.land'
-date: 2025-05-28T02:00:31Z
+date: 2025-05-28T07:00:31Z
 template: link
 link: https://maya.land/wants/
 tags:

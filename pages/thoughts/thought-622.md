@@ -1,6 +1,6 @@
 ---
 title: 'Kubernetes Monitoring Helm tutorial | Grafana Loki documentation'
-date: 2025-05-07T01:42:38Z
+date: 2025-05-07T06:42:38Z
 template: link
 link: https://grafana.com/docs/loki/latest/send-data/k8s-monitoring-helm/
 tags:

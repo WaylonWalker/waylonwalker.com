@@ -1,6 +1,6 @@
 ---
 title: 'jq Cheat Sheet'
-date: 2023-07-28T14:59:37Z
+date: 2023-07-28T19:59:37Z
 template: link
 link: https://lzone.de/cheat-sheet/jq
 tags:

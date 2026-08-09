@@ -1,6 +1,6 @@
 ---
 title: 'GitHub - chase/awrit: A full graphical web browser for Kitty t...'
-date: 2025-07-07T17:57:42Z
+date: 2025-07-07T22:57:42Z
 template: link
 link: https://github.com/chase/awrit
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'The BIGGEST lie in software development - YouTube'
-date: 2025-08-27T20:24:38Z
+date: 2025-08-28T01:24:38Z
 template: link
 link: https://www.youtube.com/watch?v=U9eMAiTwMhI
 tags:

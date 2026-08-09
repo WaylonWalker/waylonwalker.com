@@ -1,6 +1,6 @@
 ---
 title: 'Vibe code is legacy code | Val Town Blog'
-date: 2025-09-03T02:14:45Z
+date: 2025-09-03T07:14:45Z
 template: link
 link: https://blog.val.town/vibe-code
 tags:

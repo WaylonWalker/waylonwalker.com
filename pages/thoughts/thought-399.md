@@ -1,6 +1,6 @@
 ---
 title: 'Elwin Ransom 👽 on X: "Help, I''m being Helix pilled by my own f...'
-date: 2024-10-04T01:42:50Z
+date: 2024-10-04T06:42:50Z
 template: link
 link: https://x.com/jesseleite85/status/1841547565575086448
 tags:

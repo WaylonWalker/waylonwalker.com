@@ -1,6 +1,6 @@
 ---
 title: 'Fields - Pydantic'
-date: 2024-05-09T20:28:27Z
+date: 2024-05-10T01:28:27Z
 template: link
 link: https://docs.pydantic.dev/2.7/concepts/fields/#field-representation
 tags:

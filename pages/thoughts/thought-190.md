@@ -1,6 +1,6 @@
 ---
 title: 'bunny.net - The Content Delivery platform that truly Hops!'
-date: 2023-12-20T16:14:28Z
+date: 2023-12-20T22:14:28Z
 template: link
 link: https://bunny.net/
 tags:

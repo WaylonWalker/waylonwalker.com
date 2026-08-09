@@ -1,6 +1,6 @@
 ---
 title: 'Pin versions of dependencies · Issue #2200 · Kozea/WeasyPrint'
-date: 2024-10-11T13:36:19Z
+date: 2024-10-11T18:36:19Z
 template: link
 link: https://github.com/Kozea/WeasyPrint/issues/2200
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'How To Build The Tallest Building In Town'
-date: 2025-08-02T15:04:49Z
+date: 2025-08-02T20:04:49Z
 template: link
 link: https://garyvaynerchuk.com/build-the-tallest-building-in-town/
 tags:

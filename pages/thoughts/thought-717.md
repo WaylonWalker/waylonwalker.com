@@ -1,6 +1,6 @@
 ---
 title: 'neverjust'
-date: 2025-06-23T23:55:57Z
+date: 2025-06-24T04:55:57Z
 template: link
 link: https://www.neverjust.net/
 tags:

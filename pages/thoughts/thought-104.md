@@ -1,6 +1,6 @@
 ---
 title: 'The Truth About HTMX | Prime Reacts - YouTube'
-date: 2023-09-01T19:02:47Z
+date: 2023-09-02T00:02:47Z
 template: link
 link: https://www.youtube.com/watch?v=2hMrk7A8Wf0&t=2081s
 tags:

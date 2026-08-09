@@ -1,6 +1,6 @@
 ---
 title: 'Formatting codes – Minecraft Wiki'
-date: 2024-03-07T14:16:23Z
+date: 2024-03-07T20:16:23Z
 template: link
 link: https://minecraft.wiki/w/Formatting_codes
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Think less, ship more'
-date: 2025-06-10T13:02:28Z
+date: 2025-06-10T18:02:28Z
 template: link
 link: https://cassidoo.co/post/think-less/
 tags:

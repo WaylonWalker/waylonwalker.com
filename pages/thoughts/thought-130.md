@@ -1,6 +1,6 @@
 ---
 title: 'How To Create a Custom Scrollbar'
-date: 2023-10-11T19:11:49Z
+date: 2023-10-12T00:11:49Z
 template: link
 link: https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp
 tags:

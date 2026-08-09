@@ -1,6 +1,6 @@
 ---
 title: 'TIL: Loading .env files with uv run'
-date: 2025-09-29T18:42:01Z
+date: 2025-09-29T23:42:01Z
 template: link
 link: https://daniel.feldroy.com/posts/til-2025-09-env-files-with-uv-run
 tags:

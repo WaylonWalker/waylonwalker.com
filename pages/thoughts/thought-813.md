@@ -1,6 +1,6 @@
 ---
 title: 'Reflection - AI Work and ADHD'
-date: 2025-08-27T20:15:48Z
+date: 2025-08-28T01:15:48Z
 template: link
 link: https://pype.dev/reflection-ai-work-and-adhd/
 tags:

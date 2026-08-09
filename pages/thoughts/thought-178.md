@@ -1,6 +1,6 @@
 ---
 title: 'Why YOU should write a blog'
-date: 2023-12-13T01:08:51Z
+date: 2023-12-13T07:08:51Z
 template: link
 link: https://tushar.lol/post/write-a-blog/
 tags:

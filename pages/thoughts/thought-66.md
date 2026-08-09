@@ -1,6 +1,6 @@
 ---
 title: 'GitHub - wagoodman/dive: A tool for exploring each layer in a ...'
-date: 2023-08-02T12:14:01Z
+date: 2023-08-02T17:14:01Z
 template: link
 link: https://github.com/wagoodman/dive
 tags:

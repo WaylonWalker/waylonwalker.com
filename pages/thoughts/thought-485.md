@@ -1,6 +1,6 @@
 ---
 title: 'Teleport to coop partner | Hypixel Forums'
-date: 2024-12-30T17:19:10Z
+date: 2024-12-30T23:19:10Z
 template: link
 link: https://hypixel.net/threads/teleport-to-coop-partner.2250505/
 tags:

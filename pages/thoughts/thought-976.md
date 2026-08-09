@@ -1,6 +1,6 @@
 ---
 title: 'Write It First, Then Let AI Drive - Kenneth Reitz'
-date: 2026-04-14T20:05:11Z
+date: 2026-04-15T01:05:11Z
 template: link
 link: https://kennethreitz.org/essays/2026-04-12-write_it_first_then_let_ai_drive
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'AIs aren’t good rule followers'
-date: 2026-04-14T15:16:11Z
+date: 2026-04-14T20:16:11Z
 template: link
 link: https://x.com/unclebobmartin/status/2044065822067282396
 tags:

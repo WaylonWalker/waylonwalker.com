@@ -1,6 +1,6 @@
 ---
 title: 'k8s-monitoring-helm/charts/k8s-monitoring/docs/examples/privat...'
-date: 2025-05-23T19:58:59Z
+date: 2025-05-24T00:58:59Z
 template: link
 link: https://github.com/grafana/k8s-monitoring-helm/blob/main/charts/k8s-monitoring/docs/examples/private-image-registries/globally/values.yaml#L29
 tags:

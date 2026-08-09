@@ -1,6 +1,6 @@
 ---
 title: 'This Web Server Is 100% Solar Powered - YouTube'
-date: 2025-10-11T22:21:38Z
+date: 2025-10-12T03:21:38Z
 template: link
 link: https://www.youtube.com/watch?v=Gz56Cm-B6kg
 tags:

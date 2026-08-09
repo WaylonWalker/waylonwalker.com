@@ -1,6 +1,6 @@
 ---
 title: 'he''s back again'
-date: 2024-07-25T23:09:50Z
+date: 2024-07-26T04:09:50Z
 template: link
 link: https://thoughts.waylonwalker.com/post/368
 tags:

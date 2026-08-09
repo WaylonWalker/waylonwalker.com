@@ -1,6 +1,6 @@
 ---
 title: 'eraser-dev/eraser: 🧹 Cleaning up images from Kubernetes nodes'
-date: 2024-05-25T01:26:09Z
+date: 2024-05-25T06:26:09Z
 template: link
 link: https://github.com/eraser-dev/eraser?tab=readme-ov-file
 tags:

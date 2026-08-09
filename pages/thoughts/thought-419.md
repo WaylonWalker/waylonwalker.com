@@ -1,6 +1,6 @@
 ---
 title: 'My Favorite Fingerboard Obstacles & WHY - YouTube'
-date: 2024-10-31T01:27:56Z
+date: 2024-10-31T06:27:56Z
 template: link
 link: https://www.youtube.com/watch?v=fDCmiL3qaL0
 tags:

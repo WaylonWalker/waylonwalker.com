@@ -1,6 +1,6 @@
 ---
 title: 'My workflow, part 1'
-date: 2024-03-19T23:52:31Z
+date: 2024-03-20T04:52:31Z
 template: link
 link: https://carlosbecker.com/posts/workflow-pt1/
 tags:

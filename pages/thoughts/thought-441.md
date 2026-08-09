@@ -1,6 +1,6 @@
 ---
 title: 'hostnamectl to easily change hostname | Pype.dev'
-date: 2024-12-06T14:30:41Z
+date: 2024-12-06T20:30:41Z
 template: link
 link: https://pype.dev/hostnamectl-to-easily-change-hostname
 tags:

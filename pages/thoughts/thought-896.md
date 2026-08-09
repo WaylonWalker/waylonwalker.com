@@ -1,6 +1,6 @@
 ---
 title: 'Using stderr/stdout correctly - YouTube'
-date: 2025-12-22T15:35:30Z
+date: 2025-12-22T21:35:30Z
 template: link
 link: https://youtu.be/XDAfpzjBYJQ?t=353
 tags:

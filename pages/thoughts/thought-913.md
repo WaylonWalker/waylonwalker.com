@@ -1,6 +1,6 @@
 ---
 title: 'I Hope This Email Finds You Before I Do - Last Week in AWS Blog'
-date: 2026-01-19T15:24:34Z
+date: 2026-01-19T21:24:34Z
 template: link
 link: https://www.lastweekinaws.com/blog/i-hope-this-email-finds-you-before-i-do/
 tags:

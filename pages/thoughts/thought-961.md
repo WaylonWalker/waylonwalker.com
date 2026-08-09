@@ -1,6 +1,6 @@
 ---
 title: 'Release 0.9.17 · astral-sh/uv · GitHub'
-date: 2026-03-31T21:02:17Z
+date: 2026-04-01T02:02:17Z
 template: link
 link: https://github.com/astral-sh/uv/releases/tag/0.9.17
 tags:

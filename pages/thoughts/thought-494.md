@@ -1,6 +1,6 @@
 ---
 title: 'slash pages'
-date: 2025-01-02T16:17:51Z
+date: 2025-01-02T22:17:51Z
 template: link
 link: https://slashpages.net/
 tags:

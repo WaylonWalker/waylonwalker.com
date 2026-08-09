@@ -1,6 +1,6 @@
 ---
 title: 'FFmpeg video crop'
-date: 2026-02-25T08:29:59Z
+date: 2026-02-25T14:29:59Z
 template: link
 link: https://tools.simonwillison.net/ffmpeg-crop
 tags:

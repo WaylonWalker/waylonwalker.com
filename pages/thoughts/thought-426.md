@@ -1,6 +1,6 @@
 ---
 title: 'Proper handling of None in WHERE condition · Issue #109 · fast...'
-date: 2024-11-08T13:36:30Z
+date: 2024-11-08T19:36:30Z
 template: link
 link: https://github.com/fastapi/sqlmodel/issues/109#issuecomment-1046223225
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Deprecations via warnings don’t work for Python libraries'
-date: 2025-12-09T14:01:29Z
+date: 2025-12-09T20:01:29Z
 template: link
 link: https://simonwillison.net/2025/Dec/9/deprecations-via-warnings/#atom-everything
 tags:

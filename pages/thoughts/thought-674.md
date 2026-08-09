@@ -1,6 +1,6 @@
 ---
 title: 'Keynote Speaker - Cory Doctorow - YouTube'
-date: 2025-06-07T23:00:50Z
+date: 2025-06-08T04:00:50Z
 template: link
 link: https://www.youtube.com/watch?v=ydVmzg_SJLw
 tags:

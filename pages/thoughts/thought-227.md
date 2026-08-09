@@ -1,6 +1,6 @@
 ---
 title: 'fastapi decorators'
-date: 2024-03-26T13:50:46Z
+date: 2024-03-26T18:50:46Z
 template: link
 link: None
 tags:

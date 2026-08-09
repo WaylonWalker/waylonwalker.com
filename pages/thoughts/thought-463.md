@@ -1,6 +1,6 @@
 ---
 title: 'Cursor + Windsurf Settings to 5x AI''s Output Quality (Works wi...'
-date: 2024-12-24T21:28:08Z
+date: 2024-12-25T03:28:08Z
 template: link
 link: https://www.youtube.com/watch?v=aG-utUqVrb0
 tags:

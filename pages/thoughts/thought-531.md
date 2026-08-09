@@ -1,6 +1,6 @@
 ---
 title: 'Why I Write'
-date: 2025-01-13T02:28:21Z
+date: 2025-01-13T08:28:21Z
 template: link
 link: https://brittanyellich.com/why-i-write/
 tags:

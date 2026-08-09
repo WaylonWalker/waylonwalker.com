@@ -1,6 +1,6 @@
 ---
 title: 'What Happens When AI Stops Being Artificially Cheap | Daniel M...'
-date: 2026-04-01T12:04:12Z
+date: 2026-04-01T17:04:12Z
 template: link
 link: https://danielmiessler.com/blog/ai-stops-being-artificially-cheap
 tags:

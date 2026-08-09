@@ -1,6 +1,6 @@
 ---
 title: 'Bug: Pypi metadata is wrong (Requires: Python >=3.6) · Issue #...'
-date: 2025-06-18T02:04:41Z
+date: 2025-06-18T07:04:41Z
 template: link
 link: https://github.com/jmcnamara/XlsxWriter/issues/1131
 tags:

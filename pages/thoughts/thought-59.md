@@ -1,6 +1,6 @@
 ---
 title: 'kndndrj/nvim-dbee: Interactive database client for neovim'
-date: 2023-07-29T01:08:20Z
+date: 2023-07-29T06:08:20Z
 template: link
 link: https://github.com/kndndrj/nvim-dbee
 tags:

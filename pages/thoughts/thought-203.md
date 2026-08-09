@@ -1,6 +1,6 @@
 ---
 title: 'Replace Github Copilot with a Local LLM - YouTube'
-date: 2024-01-30T23:14:01Z
+date: 2024-01-31T05:14:01Z
 template: link
 link: https://www.youtube.com/watch?v=F1bXfnrzAxM
 tags:

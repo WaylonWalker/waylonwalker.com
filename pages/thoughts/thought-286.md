@@ -1,6 +1,6 @@
 ---
 title: 'Digital Gardening for Non-Technical Folks'
-date: 2024-05-30T15:41:59Z
+date: 2024-05-30T20:41:59Z
 template: link
 link: https://maggieappleton.com/nontechnical-gardening
 tags:

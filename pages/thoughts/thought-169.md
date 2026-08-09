@@ -1,6 +1,6 @@
 ---
 title: 'page-break-after - CSS: Cascading Style Sheets | MDN'
-date: 2023-11-30T02:38:49Z
+date: 2023-11-30T08:38:49Z
 template: link
 link: https://developer.mozilla.org/en-US/docs/Web/CSS/page-break-after
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'This Bothers Me - YouTube'
-date: 2025-08-28T01:55:58Z
+date: 2025-08-28T06:55:58Z
 template: link
 link: https://www.youtube.com/watch?v=3NFwQIoLFgE
 tags:

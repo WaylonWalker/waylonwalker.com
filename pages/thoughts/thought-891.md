@@ -1,6 +1,6 @@
 ---
 title: 'AI, DevOps, and Kubernetes: Kelsey Hightower on What’s Next - ...'
-date: 2025-12-13T04:07:15Z
+date: 2025-12-13T10:07:15Z
 template: link
 link: https://www.youtube.com/watch?v=HdUbTyvrfKo
 tags:

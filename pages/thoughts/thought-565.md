@@ -1,6 +1,6 @@
 ---
 title: 'fix: Open Graph URL not matching canonical · WaylonWalker/wayl...'
-date: 2025-02-17T20:53:22Z
+date: 2025-02-18T02:53:22Z
 template: link
 link: https://github.com/WaylonWalker/waylonwalker.com/commit/0fd994b0101f7260051ec914ea6987e1c70603bd
 tags:

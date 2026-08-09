@@ -1,6 +1,6 @@
 ---
 title: 'Tailwind CSS Cheat Sheet'
-date: 2023-08-21T15:03:41Z
+date: 2023-08-21T20:03:41Z
 template: link
 link: https://nerdcave.com/tailwind-cheat-sheet
 tags:

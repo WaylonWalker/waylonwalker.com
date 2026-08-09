@@ -1,6 +1,6 @@
 ---
 title: 'curl with partial files | daniel.haxx.se'
-date: 2024-12-30T21:29:52Z
+date: 2024-12-31T03:29:52Z
 template: link
 link: https://daniel.haxx.se/blog/2024/12/30/curl-with-partial-files/
 tags:

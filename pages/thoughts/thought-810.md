@@ -1,6 +1,6 @@
 ---
 title: 'combos only on default layer · WaylonWalker/zmk-config-42block...'
-date: 2025-08-25T12:58:37Z
+date: 2025-08-25T17:58:37Z
 template: link
 link: https://github.com/WaylonWalker/zmk-config-42block/commit/2398fc73b247b9f491e14b605fef1c6910939298
 tags:

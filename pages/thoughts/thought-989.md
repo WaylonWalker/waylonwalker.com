@@ -1,6 +1,6 @@
 ---
 title: 'Programming Sucks'
-date: 2026-05-08T08:41:49Z
+date: 2026-05-08T13:41:49Z
 template: link
 link: https://www.stilldrinking.org/programming-sucks
 tags:

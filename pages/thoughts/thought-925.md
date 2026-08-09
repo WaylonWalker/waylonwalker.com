@@ -1,6 +1,6 @@
 ---
 title: 'OpenClaw: The Viral AI Agent that Broke the Internet - Peter S...'
-date: 2026-02-16T10:19:08Z
+date: 2026-02-16T16:19:08Z
 template: link
 link: https://www.youtube.com/watch?v=YFjfBk8HI5o
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Changelog on Twitter: "🗣️ @kelseyhightower on his demos: That ...'
-date: 2023-07-28T14:59:37Z
+date: 2023-07-28T19:59:37Z
 template: link
 link: https://twitter.com/changelog/status/1681306857951084544
 tags:

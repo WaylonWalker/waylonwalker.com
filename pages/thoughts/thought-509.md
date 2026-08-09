@@ -1,6 +1,6 @@
 ---
 title: 'imagegenius/docker-immich: Monolithic (Single) Docker Containe...'
-date: 2025-01-06T14:44:08Z
+date: 2025-01-06T20:44:08Z
 template: link
 link: https://github.com/imagegenius/docker-immich/
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'The ethics of README ads – Will McGugan – Will McGugan''s essays'
-date: 2025-06-05T14:49:09Z
+date: 2025-06-05T19:49:09Z
 template: link
 link: https://willmcgugan.github.io/the-ethics-of-readme-ads/
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'I''m back from the dead'
-date: 2026-01-25T20:48:26Z
+date: 2026-01-26T02:48:26Z
 template: link
 link: https://pype.dev/im-back-from-the-dead/
 tags:

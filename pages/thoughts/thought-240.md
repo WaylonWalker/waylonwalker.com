@@ -1,6 +1,6 @@
 ---
 title: 'Use an llm to automagically generate meaningful git commit mes...'
-date: 2024-04-11T13:35:50Z
+date: 2024-04-11T18:35:50Z
 template: link
 link: https://harper.blog/2024/03/11/use-an-llm-to-automagically-generate-meaningful-git-commit-messages/
 tags:

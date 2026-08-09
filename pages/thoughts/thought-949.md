@@ -1,6 +1,6 @@
 ---
 title: 'More Details Than You Probably Wanted to Know About Recent Upd...'
-date: 2026-03-23T12:26:22Z
+date: 2026-03-23T17:26:22Z
 template: link
 link: https://blog.jim-nielsen.com/2026/notes-site-updates/
 tags:

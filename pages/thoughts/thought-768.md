@@ -1,6 +1,6 @@
 ---
 title: 'Rewriting alt-tab to save 0.1s - YouTube'
-date: 2025-07-28T12:46:30Z
+date: 2025-07-28T17:46:30Z
 template: link
 link: https://youtu.be/RG69PCAslA0?si=ZogGDP9TOI6gDcMM
 tags:

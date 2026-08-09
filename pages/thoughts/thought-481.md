@@ -1,6 +1,6 @@
 ---
 title: 'Gary Vaynerchuk: "2025 : the year of action … who’s finally re...'
-date: 2024-12-30T02:45:02Z
+date: 2024-12-30T08:45:02Z
 template: link
 link: https://bsky.app/profile/garyvee.com/post/3leidcd6xjk2y
 tags:

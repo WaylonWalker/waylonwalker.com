@@ -1,6 +1,6 @@
 ---
 title: 'What happens when your team 5x their token usage - YouTube'
-date: 2026-07-20T19:53:05Z
+date: 2026-07-21T00:53:05Z
 template: link
 link: https://www.youtube.com/watch?v=oDUBsE09n5c&t=483s
 tags:

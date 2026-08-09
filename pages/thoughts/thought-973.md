@@ -1,6 +1,6 @@
 ---
 title: 'A quote from Steve Yegge'
-date: 2026-04-13T21:10:23Z
+date: 2026-04-14T02:10:23Z
 template: link
 link: https://simonwillison.net/2026/Apr/13/steve-yegge/#atom-everything
 tags:

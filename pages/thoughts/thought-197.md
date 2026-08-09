@@ -1,6 +1,6 @@
 ---
 title: 'charmbracelet/mods: AI on the command line'
-date: 2024-01-26T02:15:14Z
+date: 2024-01-26T08:15:14Z
 template: link
 link: https://github.com/charmbracelet/mods
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Render-blocking on purpose'
-date: 2024-07-11T12:55:28Z
+date: 2024-07-11T17:55:28Z
 template: link
 link: https://fullystacked.net/render-blocking-on-purpose/
 tags:

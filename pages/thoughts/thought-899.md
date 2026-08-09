@@ -1,6 +1,6 @@
 ---
 title: 'Convert a video from dark mode to light mode with FFmpeg!'
-date: 2026-01-01T18:00:56Z
+date: 2026-01-02T00:00:56Z
 template: link
 link: https://cassidoo.co/post/ffmpeg-dark-light/
 tags:

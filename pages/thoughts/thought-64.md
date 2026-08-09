@@ -1,6 +1,6 @@
 ---
 title: 'Read a Range of Data - LIMIT and OFFSET - SQLModel'
-date: 2023-08-01T00:10:15Z
+date: 2023-08-01T05:10:15Z
 template: link
 link: https://sqlmodel.tiangolo.com/tutorial/limit-and-offset/?h=#combine-limit-and-offset-with-where
 tags:
