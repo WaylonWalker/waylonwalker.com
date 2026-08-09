@@ -87,3 +87,7 @@ code that does not fit on the screen once you create it then resize the window.
 I even added query params to pass hex codes in for `color` and `bg`.
 
 [![screenshot of https://b64.wayl.one](https://shots.waylonwalker.com/shot/?url=https://qrcode.waylonwalker.com/?text=https://waylonwalker.com/replacing-google-search-apps-with-self-hosted-web-apps%2F%3Ftext%3Dhttps%3A%2F%2Fshots.waylonwalker.com%2F%26color%3Dff69b4%26bg%3Dffcc00&width=450&height=500)](https://qrcode.waylonwalker.com/?text=https://waylonwalker.com/replacing-google-search-apps-with-self-hosted-web-apps/)
+
+## caps
+
+![00d1b257-0882-4f5f-9dac-8b5a7e544c4a.mp4](https://dropper.wayl.one/file/00d1b257-0882-4f5f-9dac-8b5a7e544c4a.mp4)
