@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Sample
-date: 2021-01-25T00:00:00
+date: 2021-01-25
 published: false
 tags:
   - meta
@@ -351,6 +351,7 @@ A clean vsplit
         for cli.
 
     !!! vsplit ""
+
         ``` python
         #!/usr/bin/env -S uv run --quiet --script
         # ///
@@ -380,6 +381,7 @@ html without the markdown atrribute will not be parsed as markdown
 !!! vsplit ""
 
     !!! vsplit ""
+
         ``` markdown
         <div>
         # markdown in html
@@ -400,6 +402,7 @@ parsed and rendered as html inside of that tag.
 
 !!! vsplit ""
     !!! vsplit ""
+
         ``` markdown
         <div markdown="1">
 
@@ -633,6 +636,7 @@ architecture-beta
 
 !!! vsplit ""
     !!! vsplit ""
+
         ```` markdown
         ``` mermaid
         architecture-beta
@@ -650,6 +654,7 @@ architecture-beta
         ````
 
     !!! vsplit ""
+
         ``` mermaid
         architecture-beta
             group api(logos:aws-lambda)[API]

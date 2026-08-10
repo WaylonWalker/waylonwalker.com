@@ -5,6 +5,7 @@ slug: "test-headings"
 date: 2026-08-07T02:06:50Z
 published: false
 draft: false
+version: 1
 tags: 
   - meta
 description: "This is a test page to test out different heading styles"
