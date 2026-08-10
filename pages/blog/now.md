@@ -14,7 +14,7 @@ aliases:
 This page is meant to be simple view into what is happening in my life right now. Inspired by [@NowNowNow](https://nownownow.com/). and Derek Sivers.
 
 * testing md.waylonwalker.com to trigger builds, second time is a charm, testing new deploy
-* testing build in prod again
+* testing build in prod again now
 
 Last Update 2025-10-29
 
