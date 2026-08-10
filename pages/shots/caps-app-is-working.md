@@ -1,5 +1,5 @@
 ---
-date: 0000:00:00 00:00:00
+date: 2026-08-09 08:46:06
 templateKey: shots
 title: Caps App Is Working
 tags:
