@@ -1,0 +1,11 @@
+---
+date: 2026-08-11T20:53:06Z
+templateKey: gratitude
+title: Gratitude 379
+published: true
+tags:
+  - gratitude
+
+---
+<!-- markata-encrypted-source:v1 key=default -->
+Fn7aOAAKaADiiznEdSNULLQDTOzOKeRebB1a+ORxGdKKSkKofZ+90BcBg3ipL+dDKDGMosYYbsgG/c2uBzUzjW4eIhV8M2lXgfSONZG7oiTFr3KVLPniuIVMgwX2xXQGXjf3TT1KLq1Ut0ApX6jxyGVh2hzO1PQe6Gk5rQihijcwD+6lLu59ix2ApGqv7F+WL03hacBdHgM6NcHzruCgKxysfOiyoEBLt5FzumetJ47YkxpDrcQIB6jPMlDBN4skHwI4lLqYs9K+IP1a+N/YJ46ivNRo7rf/Di4uPGptqlJJzNfWyrtivaAv6lCiq6JhloUeKb12ccJKKoaxaS0PLlYrTnYvrHigEpl6PbeP1JHt3nyAR/Hdgb1QOighK97hOYfciIta2Y3ahHLnE1dWv8zd2wgtZGBehonJeaX8rJX5hnPu/RnFNg8j02hGEjBP0KJ0KdBZIvR4YhmNEe/e0AR8T2M+JXujhDU1oZ5+NqTkgUiNCOb9LueBWe7rAWjZ+1wZyuE5zY34IAOqBH0jrbVLxn+sdIxwuYT8PHIeXX/In7I0WpmS9C8+gzOtsOFH5cnBf4B9lEw0eOCNfbFcfc4Vo2hUmc/o83L4TLHxGxaortiOqVuEf1rfYwKRF+u0eTXQQDyXr9EueIy6YH47RDojKaah3D7yio5kkqcQpPL4D24k3VG9F8v48RX0aETywoqBdqxjKZpZYhpfQQOADNUvGrEi0hxv1A==
