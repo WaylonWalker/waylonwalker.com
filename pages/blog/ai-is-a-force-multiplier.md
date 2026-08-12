@@ -31,3 +31,5 @@ This person is constantly climing feature mountain, getting dopamine hits from e
 ## The ==I'll do it **myself**==
 
 This person has always struggled with taking on more than they can chew because the exiting tech out there is just not quite good enough for them.  It's not configurable enough or too complex.  It's not written in their favorite language or deployed on their infra of choice.
+
+This person has taken on an unhealthy amount of side projects.  At this point the problem is so bad they have stopped even looking for existing solutions, stopped looking at the hacker news feed, github feed, twitter feed.  Everything is now AI slop and nothing will be how they want it anyways so they might as well just make everything they need for themself.  What does battle tested even mean anymore if its all changed on vibes anyways?
