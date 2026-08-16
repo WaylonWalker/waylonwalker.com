@@ -4,6 +4,7 @@
 # markata-go configuration for waylonwalker.com migration
 [markata-go]
 title = "Waylon Walker"
+fontpack = 'painted-sign'
 description = "Waylon Walker's personal blog"
 url = "https://waylonwalker.com"
 license = "cc-by-4.0"
@@ -17,6 +18,10 @@ include = [
   "config/tag-aggregator.toml",
   "config/authors.toml",
 ]
+
+[markata-go.content_index]
+enabled = true
+output = "content-index.json"
 
 [markata-go.searchcraft]
 enabled = true
