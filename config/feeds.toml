@@ -8,6 +8,7 @@ filter = """
     path.startswith('pages/blog/') or
     path.startswith('pages/til/') or
     path.startswith('pages/thoughts/') or
+    path.startswith('pages/link/') or
     path.startswith('pages/stars/') or
     path.startswith('pages/daily/') or
     path.startswith('pages/shots/') or
@@ -59,7 +60,7 @@ sidebar=true
 slug = "thoughts-feed"
 title = "Thoughts"
 description = "Link based \"commentary\" style posts, commenting on a web link"
-filter = "published == true and (template == 'thought.html' or path.startswith('pages/thoughts/') or path.startswith('thoughts/') or (template == 'link' and ('thought' in tags or 'thoughts' in tags)))"
+filter = "published == true and (template == 'thought.html' or path.startswith('pages/thoughts/') or path.startswith('pages/link/') or path.startswith('thoughts/') or (template == 'link' and ('thought' in tags or 'thoughts' in tags)))"
 sort = "date"
 reverse = true
 items_per_page = 50
@@ -103,6 +104,7 @@ filter = """
     path.startswith('pages/blog/') or
     path.startswith('pages/til/') or
     path.startswith('pages/thoughts/') or
+    path.startswith('pages/link/') or
     path.startswith('pages/stars/') or
     path.startswith('pages/daily/') or
     path.startswith('pages/shots/') or
