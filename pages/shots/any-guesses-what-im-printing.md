@@ -4,6 +4,7 @@ templateKey: shots
 title: "Any Guesses What I'M Printing"
 tags:
   - shots
+  - keeb
 published: true
 slug: shots/any-guesses-what-im-printing
 image: "https://dropper.waylonwalker.com/file/c92946fe-3e0c-4cda-b4d1-8abb89951bef.webp"
