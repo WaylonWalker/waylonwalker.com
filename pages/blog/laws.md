@@ -11,3 +11,7 @@ published: false
 ## [Hyrum's Law](https://www.hyrumslaw.com/)
 
 Any implementation detail in your software will become depended on whether you like it or not.
+
+## Parkinson's law
+
+Work will expand to fill its space
