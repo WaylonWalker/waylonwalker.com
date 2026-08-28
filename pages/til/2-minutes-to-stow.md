@@ -58,7 +58,7 @@ deeper level.
 mkdir ~/dotfiles/nvim/.config/nvim/ -p
 cd ~/dotfiles
 mv ~/.config/nvim/ ~/dotfiles/nvim/.config/nvim/
-stow zsh
+stow nvim
 ```
 
 > !notice how the nvim directory inside of dotfiles is structured like it would
