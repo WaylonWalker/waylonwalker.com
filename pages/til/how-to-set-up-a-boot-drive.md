@@ -22,8 +22,12 @@ Here I see my good ol Trans-It Drive.  It's not fancy, it wasnt even at the time
     This is a full reformat of the drive, nothing on the drive will be recoverable afterwards.  I keep this drive around as a boot disk and it just changes distro occasionally.
 
 ``` bash
-sudo dd if=~/Downloads/omarchy-4.0.1.iso of=/dev/sdb status=progress oflag=sync
+sudo dd if=~/Downloads/omarchy-4.0.1.iso of=/dev/sdb bs=4M status=progress conv=fsync
 ```
+
+!!! note
+
+    Don't forget the bs, the default block size is so slow it will take an eternity to copy a linux iso on to a boot drive.
 
 ## Installing omarchy
 
@@ -48,5 +52,5 @@ nvme0n1     931.5G Samsung SSD 980 1TB        nvme    0
                                                         /
 
 ~  NO PYTHON VENV SET  USING SYSTEM NVIM
-❯ sudo dd if=~/Downloads/omarchy-4.0.1.iso of=/dev/sdb status=progress oflag=sync
-```
+❯ sudo dd if=~/Downloads/omarchy-4.0.1.iso of=/dev/sdb bs=4M status=progress conv=fsync
+```c
