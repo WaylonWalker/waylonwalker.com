@@ -53,4 +53,4 @@ nvme0n1     931.5G Samsung SSD 980 1TB        nvme    0
 
 ~  NO PYTHON VENV SET  USING SYSTEM NVIM
 ❯ sudo dd if=~/Downloads/omarchy-4.0.1.iso of=/dev/sdb bs=4M status=progress conv=fsync
-```c
+```
