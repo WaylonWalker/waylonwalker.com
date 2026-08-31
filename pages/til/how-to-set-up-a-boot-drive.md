@@ -18,7 +18,8 @@ Here I see my good ol Trans-It Drive.  It's not fancy, it wasnt even at the time
 
 !!! warning
 
-   This is a full reformat of the drive, nothing on the drive will be recoverable afterwards.  I keep this drive around as a boot disk and it just changes distro occasionally.
+    
+    This is a full reformat of the drive, nothing on the drive will be recoverable afterwards.  I keep this drive around as a boot disk and it just changes distro occasionally.
 
 ``` bash
 sudo dd if=~/Downloads/omarchy-4.0.1.iso of=/dev/sdb status=progress oflag=sync
