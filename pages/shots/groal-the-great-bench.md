@@ -9,8 +9,8 @@ slug: shots/groal-the-great-bench
 image: https://dropper.waylonwalker.com/file/08220e04-8639-456c-b348-681dae69eeff.mp4
 description: Goal The Great Bench
 original: silksong-keebrun-goal-the-great-bench.mp4
+published: true
 ---
 
 ![Goal The Great Bench](https://dropper.waylonwalker.com/file/08220e04-8639-456c-b348-681dae69eeff.mp4)
-
-> Goal The Great Bench
+Groal The Great Bench
