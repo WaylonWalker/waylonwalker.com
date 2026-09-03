@@ -4,7 +4,7 @@ templateKey: blog-post
 title: "Stl Text Lab Update"
 tags:
   - "3d-printing"
-published: false
+published: true
 
 ---
 
