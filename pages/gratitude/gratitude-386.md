@@ -2,6 +2,7 @@
 date: 2026-08-31 21:54:22
 templateKey: gratitude
 title: Gratitude 386
+published: true
 
 ---
 
