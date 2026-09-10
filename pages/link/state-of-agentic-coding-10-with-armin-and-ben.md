@@ -23,4 +23,8 @@ An interesting side topic on open weight models.  Armin opened with them being t
 
 This is next level of whispering just the right tokens to thr model to get it to magically do things for you that it otherwise wouldn't.
 
-He also commented this tends to work with distillation refusals too.  He said he will get refusals for false distalation atrempts when working on pi. 
+He also commented this tends to work with distillation refusals too.  He said he will get refusals for false distalation atrempts when working on pi.
+
+## new tools??
+
+Armin admits that he tries all of the new ai tools as the come out, maybe not all, but a lot.  He says he has adopted a whopping zero of them and his ai tools has not changed in the last year.  They just dont seem to add anything for him.  Agents with a good harness and some skills is about all he needs.
