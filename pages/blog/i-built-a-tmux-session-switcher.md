@@ -5,6 +5,7 @@ title: I Built A Tmux Session Switcher
 tags:
   - cli
 published: True
+link: https://dropper.waylonwalker.com/file/7c5765a0-126d-430a-ad86-eb83eb440e1b.webp
 
 ---
 
