@@ -199,15 +199,15 @@ the keeb layout.
 While I had a lot of geo from the Moss Knights I finished out getting 1800 geo
 to get the lumafly lantern from sly's shop at dirtmouth.
 
-![Purchasing the Lumafly Lanten from Sly’s shop in Dirtmouth during my Hollow Knight keeb only run.](https://dropper.waylonwalker.com/api/file/2ea5790c-66d7-401d-95c7-c81a2bccb743.mp4)
-Purchasing the Lumafly Lanten from Sly’s shop in Dirtmouth during my Hollow Knight keeb only run.
+![The night walks into Sly's shop and makes a purchase of the lumafly lantern.](https://dropper.waylonwalker.com/api/file/2ea5790c-66d7-401d-95c7-c81a2bccb743.mp4)
+Purchasing the Lumafly Lantern from Sly’s shop in Dirtmouth during my Hollow Knight keeb only run.
 
 ## Royal Waterway
 
 I decided to head back to the city of tears and into the royal waterway to
 fight the dung defender and collect Isma's tear.
 
-![Using the simple key to unlock the Royal Waterway in Hollow Knight during my keeb only run.](https://dropper.waylonwalker.com/api/file/3713bdd1-c645-46c5-85d2-451356383842.mp4)
+![The night unlocks the royal waterway. A sewer lid pops open revealing a bright beam of light coming from the waterways.](https://dropper.waylonwalker.com/api/file/3713bdd1-c645-46c5-85d2-451356383842.mp4)
 Using the simple key to unlock the Royal Waterway in Hollow Knight during my keeb only run.
 
 ![Entering the royal waterway during my hollow knight keeb only run.](https://dropper.waylonwalker.com/api/file/58235f4d-701f-4ddc-a26d-ab5f9e0bdbfc.mp4)
