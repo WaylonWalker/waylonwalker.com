@@ -5,6 +5,7 @@ title: "Stl Text Lab Update"
 tags:
   - "3d-printing"
 published: true
+image: https://dropper.wayl.one/file/0a8d8ea3-6dac-47e6-89a1-920adc38c98f.webp
 
 ---
 
