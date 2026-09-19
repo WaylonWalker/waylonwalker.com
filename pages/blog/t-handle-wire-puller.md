@@ -5,6 +5,7 @@ title: T Handle Wire Puller
 tags:
   - keeb
 published: True
+image: https://dropper.waylonwalker.com/file/162e035b-4711-4cfc-892b-e613dc364b83.webp
 
 ---
 
