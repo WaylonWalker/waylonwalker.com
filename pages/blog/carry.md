@@ -7,6 +7,7 @@ aliases:
 tags:
   - slash
 published: True
+link: https://dropper.waylonwalker.com/file/606e48d7-bf14-42b9-a96e-87b676556ff8.webp
 
 ---
 
