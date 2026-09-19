@@ -199,18 +199,22 @@ the keeb layout.
 While I had a lot of geo from the Moss Knights I finished out getting 1800 geo
 to get the lumafly lantern from sly's shop at dirtmouth.
 
-![hollow-knight-keeb-lumafly-lantern.mp4](https://dropper.waylonwalker.com/api/file/2ea5790c-66d7-401d-95c7-c81a2bccb743.mp4)
+![Purchasing the Lumafly Lanten from Sly’s shop in Dirtmouth during my Hollow Knight keeb only run.](https://dropper.waylonwalker.com/api/file/2ea5790c-66d7-401d-95c7-c81a2bccb743.mp4)
+Purchasing the Lumafly Lanten from Sly’s shop in Dirtmouth during my Hollow Knight keeb only run.
 
 ## Royal Waterway
 
 I decided to head back to the city of tears and into the royal waterway to
 fight the dung defender and collect Isma's tear.
 
-![hollow-knight-keeb-royal-waterway-unlock.mp4](https://dropper.waylonwalker.com/api/file/3713bdd1-c645-46c5-85d2-451356383842.mp4)
+![Using the simple key to unlock the Royal Waterway in Hollow Knight during my keeb only run.](https://dropper.waylonwalker.com/api/file/3713bdd1-c645-46c5-85d2-451356383842.mp4)
+Using the simple key to unlock the Royal Waterway in Hollow Knight during my keeb only run.
 
-![hollow-knight-keeb-royal-waterway-entering.mp4](https://dropper.waylonwalker.com/api/file/58235f4d-701f-4ddc-a26d-ab5f9e0bdbfc.mp4)
+![Entering the royal waterway during my hollow knight keeb only run.](https://dropper.waylonwalker.com/api/file/58235f4d-701f-4ddc-a26d-ab5f9e0bdbfc.mp4)
+Entering the royal waterway during my hollow knight keeb only run.
 
-![hollow-knight-keeb-royal-waterway-bench.mp4](https://dropper.waylonwalker.com/api/file/bdf1985b-6a32-4bf4-9f9a-d6f814db7136.mp4)
+![Using desolate dive to unlock the Royal Waterway bench in my Hollow Knight keeb only run.](https://dropper.waylonwalker.com/api/file/bdf1985b-6a32-4bf4-9f9a-d6f814db7136.mp4)
+Using desolate dive to unlock the Royal Waterway bench in my Hollow Knight keeb only run.
 
 The Dung Defender battle, great lore with this guy, lots of bouncy movement,
 but overall not too hard of a boss.  He is not very accurate with attacks, so

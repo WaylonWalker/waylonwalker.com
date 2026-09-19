@@ -24,7 +24,7 @@ Given the following markdown with attrs added to the image and to the paragraph
 block.
 
 ``` markdown
-![screenshot-2025-01-31T14-50-00-094Z.png](https://dropper.waylonwalker.com/api/file/50cfa8dc-9d46-4f02-877b-688fa5510a83.png){.aspect-[2.39/1]}
+![a stable diffusion generated image of an astronaut working in a neon pink lab with beakers and papers all over, he is reading through pages.](https://dropper.waylonwalker.com/api/file/50cfa8dc-9d46-4f02-877b-688fa5510a83.png){.aspect-[2.39/1]}
 
 ![screenshot-2025-01-31T14-50-00-094Z.png](https://dropper.waylonwalker.com/api/file/50cfa8dc-9d46-4f02-877b-688fa5510a83.png){.cinematic}
 

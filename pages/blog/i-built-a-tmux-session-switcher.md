@@ -38,8 +38,8 @@ more projects sitting in more phases between research, implementation, fully
 orchestrated agents, and sessions that need their hand held to get things
 right.
 
-![image](https://dropper.waylonwalker.com/file/7c5765a0-126d-430a-ad86-eb83eb440e1b.webp)
-Image of the `tgo` tool in action, I'd show you a video, but its not really
+![Image of the tgo tool in action, I'd show you a video, but its not reallythat interesting, it just flashes up and goes to the next session as fast asyou can pre](https://dropper.waylonwalker.com/file/7c5765a0-126d-430a-ad86-eb83eb440e1b.webp)
+Image of the tgo tool in action, I'd show you a video, but its not reallythat interesting, it just flashes up and goes to the next session as fast asyou can pre
 that interesting, it just flashes up and goes to the next session as fast as
 you can press the key.
 

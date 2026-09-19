@@ -12,7 +12,7 @@ published: True
 A side effect of [[ markata-didyoumean ]] is that we are able to implement some
 rudimentary search based on slug, title, tags, and description.
 
-![screenshot-2025-01-31T14-50-00-094Z.png](https://dropper.waylonwalker.com/api/file/50cfa8dc-9d46-4f02-877b-688fa5510a83.png){.more-cinematic}
+![a stable diffusion generated image of an astronaut working in a neon pink lab with beakers and papers all over, he is reading through pages.](https://dropper.waylonwalker.com/api/file/50cfa8dc-9d46-4f02-877b-688fa5510a83.png){.more-cinematic}
 
 I made a video of the early work on using this side effect to search for content on markata.dev.
 
