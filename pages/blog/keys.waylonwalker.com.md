@@ -5,6 +5,7 @@ title: Keys.waylonwalker.com
 tags:
   - webdev
 published: True
+image: https://dropper.wayl.one/file/73e71d2d-eaf9-4a0a-9e04-0039a1df0b26.mp4
 
 ---
 
