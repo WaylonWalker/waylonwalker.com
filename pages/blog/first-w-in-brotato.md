@@ -5,6 +5,7 @@ title: First W In Brotato
 tags:
   - gaming
 published: True
+image: https://dropper.waylonwalker.com/file/9b108e98-1f43-4b94-8824-467abcbf9e54.webp
 
 ---
 
