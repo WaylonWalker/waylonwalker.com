@@ -210,10 +210,10 @@ fight the dung defender and collect Isma's tear.
 ![The night unlocks the royal waterway. A sewer lid pops open revealing a bright beam of light coming from the waterways.](https://dropper.waylonwalker.com/api/file/3713bdd1-c645-46c5-85d2-451356383842.mp4)
 Using the simple key to unlock the Royal Waterway in Hollow Knight during my keeb only run.
 
-![Entering the royal waterway during my hollow knight keeb only run.](https://dropper.waylonwalker.com/api/file/58235f4d-701f-4ddc-a26d-ab5f9e0bdbfc.mp4)
+![The Knight enters the brigh light emerging from the sewer. Once he lands in the sewer he starts walking left where he is presented with a Royal Waterways overlay greeting.](https://dropper.waylonwalker.com/api/file/58235f4d-701f-4ddc-a26d-ab5f9e0bdbfc.mp4)
 Entering the royal waterway during my hollow knight keeb only run.
 
-![Using desolate dive to unlock the Royal Waterway bench in my Hollow Knight keeb only run.](https://dropper.waylonwalker.com/api/file/bdf1985b-6a32-4bf4-9f9a-d6f814db7136.mp4)
+![The Knight uses his desolate dive skill to break through the floor and unlock the first bench in Royal Waterways.](https://dropper.waylonwalker.com/api/file/bdf1985b-6a32-4bf4-9f9a-d6f814db7136.mp4)
 Using desolate dive to unlock the Royal Waterway bench in my Hollow Knight keeb only run.
 
 The Dung Defender battle, great lore with this guy, lots of bouncy movement,

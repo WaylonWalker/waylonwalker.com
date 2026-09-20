@@ -20,7 +20,8 @@ overly invested.
 > Watching back I cannot believe how lucky I got, barely scraping by with 1hp at this point
 
 
-![image](https://dropper.waylonwalker.com/file/f1711b94-dad1-4f97-b6ac-1de34db4a779.mp4)
+![Player is in the last 80s of brotato wave 20, at one point ends up at 1hp.](https://dropper.waylonwalker.com/file/f1711b94-dad1-4f97-b6ac-1de34db4a779.mp4)
+The last 80s of the game got wild.
 
 > the last 80s of the game
 
