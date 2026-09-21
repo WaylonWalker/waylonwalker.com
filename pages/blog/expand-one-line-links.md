@@ -31,7 +31,7 @@ If you can call it a card 🤣.  This card was just an image wrapped in an ancho
   <a href='https://waylonwalker.com/notes/eight-years-cat/'>
     <img
     style='width:500px; max-width:80%; margin: auto;'
-    src="https://dropper.wayl.one/file/99f80283-2f27-4664-8c4a-d120b6e3c3d8.webp"
+    src="https://dropper.waylonwalker.com/file/99f80283-2f27-4664-8c4a-d120b6e3c3d8.webp"
     alt="My first eight years as a working professional article"
     />
   </a>
@@ -42,7 +42,7 @@ If you can call it a card 🤣.  This card was just an image wrapped in an ancho
   <a href='https://waylonwalker.com/notes/eight-years-cat'>
     <img
     style='width:500px; max-width:80%; margin: auto;'
-    src="https://dropper.wayl.one/file/99f80283-2f27-4664-8c4a-d120b6e3c3d8.webp"
+    src="https://dropper.waylonwalker.com/file/99f80283-2f27-4664-8c4a-d120b6e3c3d8.webp"
     alt="My first eight years as a working professional article"
     />
   </a>
@@ -57,7 +57,7 @@ The key here is that I have to put the HTML into the markdown.  It looks a bit d
 ``` markdown
 
 <a class="onelinelink" href="https://waylonwalker.com/eight-years-cat/">
-<img style="float: right;" align='right' src="https://dropper.wayl.one/file/99f80283-2f27-4664-8c4a-d120b6e3c3d8.webp" alt="article cover for My first eight years as a working professional.">
+<img style="float: right;" align='right' src="https://dropper.waylonwalker.com/file/99f80283-2f27-4664-8c4a-d120b6e3c3d8.webp" alt="article cover for My first eight years as a working professional.">
 <div class="right">
     <h2>My first eight years as a working professional.</h2>
     <p class="description">

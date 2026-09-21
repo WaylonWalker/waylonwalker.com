@@ -116,7 +116,7 @@ nodes.append(
 
 ## Want a simple guide to get started with find kedro
 
-[![Find Kedro Iris example](https://dropper.wayl.one/file/8f2a0641-6059-4434-81a3-6ee83f5900f8.webp)](https://find.kedro.dev/examples/iris/)
+[![Find Kedro Iris example](https://dropper.waylonwalker.com/file/8f2a0641-6059-4434-81a3-6ee83f5900f8.webp)](https://find.kedro.dev/examples/iris/)
 Find Kedro Iris example
 
 In [this doc](https://find.kedro.dev/examples/iris/) I transform the kedro iris template to find-kedro.

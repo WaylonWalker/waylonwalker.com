@@ -59,14 +59,14 @@ For what we are creating in these posts d3 is way overkill and very verbose, but
 
 Today I will be learning about d3 scales, and adding them to the bar chart that we created yesterday.  Follow along as I try to create something interesting.
 
-![today's_result](https://dropper.wayl.one/file/c1f33f43-96dd-4aa7-b308-f88a9cca738c.mp4)
+![today's_result](https://dropper.waylonwalker.com/file/c1f33f43-96dd-4aa7-b308-f88a9cca738c.mp4)
 
 ## Recall Example 3 from yesterday
 _maybe a few days ago.... give me a break I have a lot of other priorities_
 
 In [yesterdays](https://waylonwalker.com/d3-day3) post we created a working example of a horizontal bar chart that shows grades for a set of 5 students that are all in two classes; 'Math' and 'Science'.  The chart is interactive, and will switch subjects at the press of a button.
 
-![d3 day 3 final result](https://dropper.wayl.one/file/30e315bd-ef15-4c71-aaf7-71c9f375721a.mp4)
+![d3 day 3 final result](https://dropper.waylonwalker.com/file/30e315bd-ef15-4c71-aaf7-71c9f375721a.mp4)
 
 <!--
 <div id="chart3" class='chart'>
@@ -261,7 +261,7 @@ width: 50%
 </script>
  -->
 
-![today's_result](https://dropper.wayl.one/file/c1f33f43-96dd-4aa7-b308-f88a9cca738c.mp4)
+![today's_result](https://dropper.waylonwalker.com/file/c1f33f43-96dd-4aa7-b308-f88a9cca738c.mp4)
 
 ### Final Markup
 

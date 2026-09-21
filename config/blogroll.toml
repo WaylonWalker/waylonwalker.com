@@ -96,7 +96,7 @@ category = "development"
 type = "video"
 tags = ["video", "rust", "typescript", "vim", "web-development", "core-cs", "programming", "controversial"]
 site_url = "https://www.youtube.com/@theprimetimeagen"
-image_url = "https://dropper.wayl.one/file/387d336c-baf7-4bac-b5ee-f37fcb267275.webp"
+image_url = "https://dropper.waylonwalker.com/file/387d336c-baf7-4bac-b5ee-f37fcb267275.webp"
 [[markata-go.blogroll.feeds]]
 url = "https://jrs-s.net/feed/"
 title = "Jim Salter"
@@ -149,7 +149,7 @@ category = "development"
 type = "video"
 tags = ["video", "typescript", "react", "nextjs", "t3-stack", "web-development"]
 site_url = "https://www.youtube.com/@t3dotgg"
-image_url = "https://dropper.wayl.one/file/5bdac005-2f55-4e07-97e7-df8b62cccff2.webp"
+image_url = "https://dropper.waylonwalker.com/file/5bdac005-2f55-4e07-97e7-df8b62cccff2.webp"
 
 [[markata-go.blogroll.feeds]]
 url = "https://changelog.com/master/feed"
@@ -203,7 +203,7 @@ category = "indieweb"
 type = "written"
 tags = ["written", "design", "anthropology", "visual-essays", "programming", "tools-for-thought"]
 site_url = "https://maggieappleton.com"
-image_url = "https://dropper.wayl.one/file/3135b43b-6c93-4a0f-ae8b-9576c62fff0d.webp"
+image_url = "https://dropper.waylonwalker.com/file/3135b43b-6c93-4a0f-ae8b-9576c62fff0d.webp"
 [[markata-go.blogroll.feeds]]
 url = "https://github.com/jbranchaud/til/commits/master.atom"
 title = "jbranchaud"
@@ -231,7 +231,7 @@ category = "development"
 type = "video"
 tags = ["video", "programming", "career", "tuple", "pair-programming", "development"]
 site_url = "https://www.youtube.com/@r00k123123"
-image_url = "https://dropper.wayl.one/file/6fe08db4-f22a-4990-ae79-4b1943e7ba28.webp"
+image_url = "https://dropper.waylonwalker.com/file/6fe08db4-f22a-4990-ae79-4b1943e7ba28.webp"
 [[markata-go.blogroll.feeds]]
 url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCsjCKly4KtkvVyDjG_XkzEA"
 title = "Joe Scotto"
@@ -240,7 +240,7 @@ category = "keyboard"
 type = "video"
 tags = ["video", "mechanical-keyboards", "diy", "keyboards", "3d-printing", "customization"]
 site_url = "https://www.youtube.com/joe_scotto"
-image_url = "https://dropper.wayl.one/file/a563a457-4942-4800-9975-859645d08111.webp"
+image_url = "https://dropper.waylonwalker.com/file/a563a457-4942-4800-9975-859645d08111.webp"
 [[markata-go.blogroll.feeds]]
 url = "https://daniel.haxx.se/blog/feed/"
 title = "Daniel Stenberg"
@@ -276,7 +276,7 @@ category = "system-administration"
 type = "video"
 tags = ["video", "devops", "career", "linux", "kubernetes", "cloud"]
 site_url = "https://www.youtube.com/@mischavandenburg"
-image_url = "https://dropper.wayl.one/file/61d5bdaf-86a9-4395-8d75-151d3582b0e8.webp"
+image_url = "https://dropper.waylonwalker.com/file/61d5bdaf-86a9-4395-8d75-151d3582b0e8.webp"
 [[blogroll.feeds]]
 url = "https://mischavandenburg.com/index.xml"
 title = "Mischa van den Burg"
@@ -286,7 +286,7 @@ type = "written"
 tags = ["development", "kubernetes", "vim", "linux"]
 site_url = "https://mischavandenburg.com/"
 handle = "mischavandenburg"
-image_url = "https://dropper.wayl.one/file/61d5bdaf-86a9-4395-8d75-151d3582b0e8.webp"
+image_url = "https://dropper.waylonwalker.com/file/61d5bdaf-86a9-4395-8d75-151d3582b0e8.webp"
 [[markata-go.blogroll.feeds]]
 url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCJWAqA9DzA1bHwCd0TOUWsw"
 title = "Late Night Linux Family"
@@ -295,7 +295,7 @@ category = "podcast"
 type = "video"
 tags = ["video", "linux", "open-source", "free-software", "podcast-network"]
 site_url = "https://www.youtube.com/latenightlinux"
-image_url = "https://dropper.wayl.one/file/5d6446b4-f935-49f8-a240-8073aa7b7ef4.webp"
+image_url = "https://dropper.waylonwalker.com/file/5d6446b4-f935-49f8-a240-8073aa7b7ef4.webp"
 [[markata-go.blogroll.feeds]]
 url = "https://www.youtube.com/feeds/videos.xml?channel_id=UC6QNjBn6KMq5-pe3OE11zZg"
 title = "Slant 3D"
@@ -304,7 +304,7 @@ category = "3d-printing"
 type = "video"
 tags = ["video", "3d-printing", "manufacturing", "large-scale", "production", "farming"]
 site_url = "https://www.youtube.com/@slant3d"
-image_url = "https://dropper.wayl.one/file/b8955dd0-daf0-4921-bed7-074e3d7a6999.webp"
+image_url = "https://dropper.waylonwalker.com/file/b8955dd0-daf0-4921-bed7-074e3d7a6999.webp"
 [[markata-go.blogroll.feeds]]
 url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCHugE6eRhqB9_AZQh4DDbIw"
 title = "Jupiter Broadcasting"
@@ -473,7 +473,7 @@ category = "development"
 type = "written"
 tags = ["written", "css", "web-development", "tutorials", "frontend", "design"]
 site_url = "https://css-tricks.com"
-image_url = "https://dropper.wayl.one/file/ee704121-acb3-4dde-908f-0876f14cdf42.webp"
+image_url = "https://dropper.waylonwalker.com/file/ee704121-acb3-4dde-908f-0876f14cdf42.webp"
 [[markata-go.blogroll.feeds]]
 url = "https://willmcgugan.github.io/feed"
 title = "Will McGugan"
@@ -1195,7 +1195,7 @@ type = "video"
 tags = ["development", "tools", "programming"]
 site_url = "https://www.youtube.com/@devtoolsfm"
 handle = "devtoolsfm"
-image_url = "https://dropper.wayl.one/file/2c418256-4a26-4ad9-96ef-08252345e1d3.webp"
+image_url = "https://dropper.waylonwalker.com/file/2c418256-4a26-4ad9-96ef-08252345e1d3.webp"
 
 [[blogroll.feeds]]
 url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCFsRlOn7gODgv6WUriLrzXg"
@@ -1388,4 +1388,3 @@ site_url = "https://www.youtube.com/channel/UCld68syR8Wi-GY_n4CaoJGA"
 handle = "brodierobertson"
 image_url = "https://yt3.googleusercontent.com/ytc/AIdro_mfmPEv0_faow63TOWIMqzx3Idan_GRCOtQubiP32skc38=s900-c-k-c0x00ffffff-no-rj"
 active = true
-

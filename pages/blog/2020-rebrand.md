@@ -16,7 +16,7 @@ I **want** to.
 
 ## Starting point
 
-![This is what we are working with.](https://dropper.wayl.one/file/be43d688-9f4a-4f54-ac0b-00bd3b235bf6.webp)
+![This is what we are working with.](https://dropper.waylonwalker.com/file/be43d688-9f4a-4f54-ac0b-00bd3b235bf6.webp)
 
 This is what we are working with.  It has been my card design for at least a
 year now.  Its not bad but, its a bit play, doesnt fit my new cover art style,
@@ -80,7 +80,7 @@ images since starting to cross post to dev.to.  I did not like how they clashed
 and moved the text.   I also swapped over from gatsby fixed and gatsby fluid to
 make sure that the cover art always fits the card correctly.
 
-![image](https://dropper.wayl.one/file/0a6ecf31-c91b-4cba-bcc5-bfab3ad1d6a4.webp)
+![image](https://dropper.waylonwalker.com/file/0a6ecf31-c91b-4cba-bcc5-bfab3ad1d6a4.webp)
 
 ## Feeling Inspired
 
@@ -123,7 +123,7 @@ going for this design style.
 
 [![image](https://dropper.waylonwalker.com/file/89de6aff-0ac3-42fc-99a5-95b05e0c3877.webp)](https://twitter.com/sarah_edo/status/1227694049118679040?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1227694049118679040&ref_url=http%3A%2F%2F127.0.0.1%3A5500%2Findex.html "neomorphism.io tweet from Sarah Drasner")
 
-[![follow up list of resources from Shawn swyx Wang](https://dropper.wayl.one/file/b35a6422-4e30-47b4-8b12-d14ae63b8797.webp)](https://twitter.com/swyx/status/1227697956587032576)
+[![follow up list of resources from Shawn swyx Wang](https://dropper.waylonwalker.com/file/b35a6422-4e30-47b4-8b12-d14ae63b8797.webp)](https://twitter.com/swyx/status/1227697956587032576)
 
 ## Tool Links
 

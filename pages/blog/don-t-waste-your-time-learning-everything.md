@@ -11,7 +11,7 @@ description: Stick to what you know, and learn a little bit of something new eve
 
 > "Don’t waste your time learning everything."
 
-![LinkedIn Post from Tarry](https://dropper.wayl.one/file/42ca32bd-0338-4314-945c-20bf17406fc2.webp)
+![LinkedIn Post from Tarry](https://dropper.waylonwalker.com/file/42ca32bd-0338-4314-945c-20bf17406fc2.webp)
 LinkedIn Post from Tarry
 
 > Inspired by this [linkedIn post](https://www.linkedin.com/posts/activity-6633818327070326784--Ksl)
@@ -36,4 +36,4 @@ Its important to keep your finger on the state of technology, but dont Overwhelm
 
 ## I'll leave you with this inspirational video by Kitze
 
-[![Navigating the hype-driven frontend development world without going insane - KITZE](https://dropper.wayl.one/file/6b1732d8-13ab-43aa-b53b-bee400ec8eae.webp)](https://www.youtube.com/watch?v=_kVxXV0TQ7M)
+[![Navigating the hype-driven frontend development world without going insane - KITZE](https://dropper.waylonwalker.com/file/6b1732d8-13ab-43aa-b53b-bee400ec8eae.webp)](https://www.youtube.com/watch?v=_kVxXV0TQ7M)
