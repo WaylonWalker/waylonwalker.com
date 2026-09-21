@@ -28,6 +28,10 @@ DEFAULT_BASE_URL = "https://dropper.waylonwalker.com"
 DEFAULT_TEMPLATE = Path.home() / ".copier-templates" / "shots"
 CANONICAL_DROPPER_HOST = "dropper.waylonwalker.com"
 DATE_FORMAT = "%Y-%m-%d %H:%M:%S"
+FILENAME_DATE_PATTERNS = (
+    re.compile(r"(?<!\d)(\d{4}-\d{2}-\d{2})[_T -](\d{2})[-:](\d{2})[-:](\d{2})(?!\d)"),
+    re.compile(r"(?<!\d)(\d{8})[_T -](\d{2})[-:]?(\d{2})[-:]?(\d{2})(?!\d)"),
+)
 MIME_SUFFIXES = {
     "image/jpeg": ".jpg",
     "image/png": ".png",
@@ -174,6 +178,31 @@ def exif_date(file_path: Path) -> str | None:
         value = line.strip()
         if value:
             return value
+    return None
+
+
+def filename_date(file_path: Path) -> str | None:
+    """Return a timestamp encoded in a screenshot filename, if present.
+
+    Hyprshot names screenshots like ``Screenshot_2026-08-16_12-34-56.png``.
+    Those files normally have no EXIF timestamp, and copying one through the
+    clipboard gives the temporary file a new mtime, so the filename is the
+    useful source of the capture time.
+    """
+    for pattern in FILENAME_DATE_PATTERNS:
+        match = pattern.search(file_path.stem)
+        if match is None:
+            continue
+        date_part, hour, minute, second = match.groups()
+        if len(date_part) == 8:
+            date_part = f"{date_part[:4]}-{date_part[4:6]}-{date_part[6:]}"
+        try:
+            captured = datetime.strptime(
+                f"{date_part} {hour}:{minute}:{second}", DATE_FORMAT
+            )
+        except ValueError:
+            continue
+        return captured.strftime(DATE_FORMAT)
     return None
 
 
@@ -394,6 +423,8 @@ def main() -> int:
         with TemporaryDirectory(prefix="clipboard-shot-") as tmp:
             clipboard_image = copy_clipboard_image(Path(tmp))
             image_date = exif_date(clipboard_image.path)
+            if image_date is None:
+                image_date = filename_date(clipboard_image.path)
             if image_date is None:
                 image_date = datetime.fromtimestamp(clipboard_image.path.stat().st_mtime).strftime(DATE_FORMAT)
                 if command_path("exiftool") is None:

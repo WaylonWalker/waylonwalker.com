@@ -114,7 +114,7 @@ python load_and_blit.py
 
 And we should get the following results.
 
-[the results of putting the image in the middle](https://dropper.wayl.one/file/14140fbd-fceb-4fde-a8b0-378cb25ae555.webp)
+[the results of putting the image in the middle](https://dropper.waylonwalker.com/file/14140fbd-fceb-4fde-a8b0-378cb25ae555.webp)
 
 ## convert a transparent png
 

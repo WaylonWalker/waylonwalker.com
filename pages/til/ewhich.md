@@ -78,4 +78,4 @@ alias e=ewhich
 
 Here is a quick screencast of how it works.
 
-![30e5b198-1693-4100-a722-ad0193004e9a.webm](https://dropper.wayl.one/file/30e5b198-1693-4100-a722-ad0193004e9a.webm)
+![30e5b198-1693-4100-a722-ad0193004e9a.webm](https://dropper.waylonwalker.com/file/30e5b198-1693-4100-a722-ad0193004e9a.webm)

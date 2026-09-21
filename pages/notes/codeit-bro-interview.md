@@ -7,7 +7,7 @@ published: true
 cover: "static/codeit-bro-interview.png"
 ---
 
-![profile image](https://dropper.wayl.one/file/305cfd06-db8a-412d-9a21-57c280e6137c.webp)
+![profile image](https://dropper.waylonwalker.com/file/305cfd06-db8a-412d-9a21-57c280e6137c.webp)
 
 > use this profile image
 

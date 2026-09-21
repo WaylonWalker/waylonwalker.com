@@ -6,16 +6,16 @@ tags:
   - shots
 published: True
 slug: shots/waiting-for-my-weekly-token-allowance
-image: https://dropper.wayl.one/file/818c2d71-521a-4286-a831-cccec1f9b82b.webp
+image: https://dropper.waylonwalker.com/file/818c2d71-521a-4286-a831-cccec1f9b82b.webp
 description: Openai gives me a token allowance for my $20 tier subscription, if I'm careful it lasts a few days of heavy side project work.
 
 ---
 
-![Waiting for my weekly token allowance](https://dropper.wayl.one/file/818c2d71-521a-4286-a831-cccec1f9b82b.webp)
+![Waiting for my weekly token allowance](https://dropper.waylonwalker.com/file/818c2d71-521a-4286-a831-cccec1f9b82b.webp)
 Openai gives me a token allowance for my $20 tier subscription, if I'm careful it lasts a few days of heavy side project work.
 
-![image](https://dropper.wayl.one/file/59a85775-c597-42f9-95be-28f250d4e72b.webp)
+![image](https://dropper.waylonwalker.com/file/59a85775-c597-42f9-95be-28f250d4e72b.webp)
 Opencode Zen out of tokens
 
-![image](https://dropper.wayl.one/file/35052eef-9b3d-41ab-8d99-ed30f5015442.webp)
+![image](https://dropper.waylonwalker.com/file/35052eef-9b3d-41ab-8d99-ed30f5015442.webp)
 Openai out of tokens

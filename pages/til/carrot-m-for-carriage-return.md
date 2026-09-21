@@ -26,7 +26,7 @@ gone, I dont want them all over my editor.  I'm not sure what this would look
 like on windows, I haven't been able to afford a windows machine in years, but
 its gross on my machine.
 
-![131d6463-bcbb-4ee8-80aa-bb7355915eb9.webp](https://dropper.wayl.one/file/131d6463-bcbb-4ee8-80aa-bb7355915eb9.webp)
+![131d6463-bcbb-4ee8-80aa-bb7355915eb9.webp](https://dropper.waylonwalker.com/file/131d6463-bcbb-4ee8-80aa-bb7355915eb9.webp)
 
 Remove them with a substitution command from normal mode.
 

@@ -8,7 +8,7 @@ tags:
   - markata
 ---
 
-![image from Dall-e](https://dropper.wayl.one/file/af225f43-ba71-454c-b0b9-257371d0cf87.webp)
+![image from Dall-e](https://dropper.waylonwalker.com/file/af225f43-ba71-454c-b0b9-257371d0cf87.webp)
 
 > a sprinter edging out his opponent by Dall-e
 

@@ -10,7 +10,7 @@ tags:
 
 I updated [plaindown](https://waylonwalker.com/) to support _cool_ heading formats, and I'm digging it, markata you are next.  Time to make the web weird again and really start writing more again.
 
-![b7e0cda4-779c-4ffa-9865-1e1981fcb91b.webp](https://dropper.wayl.one/file/b7e0cda4-779c-4ffa-9865-1e1981fcb91b.webp)
+![b7e0cda4-779c-4ffa-9865-1e1981fcb91b.webp](https://dropper.waylonwalker.com/file/b7e0cda4-779c-4ffa-9865-1e1981fcb91b.webp)
 
 ---
 

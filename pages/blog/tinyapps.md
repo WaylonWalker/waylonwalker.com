@@ -90,4 +90,4 @@ I even added query params to pass hex codes in for `color` and `bg`.
 
 ## caps
 
-![00d1b257-0882-4f5f-9dac-8b5a7e544c4a.mp4](https://dropper.wayl.one/file/00d1b257-0882-4f5f-9dac-8b5a7e544c4a.mp4)
+![00d1b257-0882-4f5f-9dac-8b5a7e544c4a.mp4](https://dropper.waylonwalker.com/file/00d1b257-0882-4f5f-9dac-8b5a7e544c4a.mp4)

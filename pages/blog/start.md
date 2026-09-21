@@ -14,7 +14,7 @@ Welcome to waylonwalker.com, my small corner of the internet.  I currently have
 {{ posts | length }} posts published,
 here are some links to help you get started around here.
 
-![305cfd06-db8a-412d-9a21-57c280e6137c.webp](https://dropper.wayl.one/file/305cfd06-db8a-412d-9a21-57c280e6137c.webp)
+![305cfd06-db8a-412d-9a21-57c280e6137c.webp](https://dropper.waylonwalker.com/file/305cfd06-db8a-412d-9a21-57c280e6137c.webp)
 
 ## Feeds
 

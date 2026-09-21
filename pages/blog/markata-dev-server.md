@@ -112,7 +112,7 @@ style='color: red'>server died</span> followed by the
 sever back up and running on a new pid.
 
 
-![2b596662-2135-4341-867e-51e77ef8e91c.mp4](https://dropper.wayl.one/file/2b596662-2135-4341-867e-51e77ef8e91c.mp4)
+![2b596662-2135-4341-867e-51e77ef8e91c.mp4](https://dropper.waylonwalker.com/file/2b596662-2135-4341-867e-51e77ef8e91c.mp4)
 
 ```python
 
@@ -149,4 +149,4 @@ class Server:
 Future state this is going to be integrated into the main layout for my
 personal website SSG markata.
 
-![8fd54492-71a3-46af-81e9-2dff769de079.webp](https://dropper.wayl.one/file/8fd54492-71a3-46af-81e9-2dff769de079.webp)
+![8fd54492-71a3-46af-81e9-2dff769de079.webp](https://dropper.waylonwalker.com/file/8fd54492-71a3-46af-81e9-2dff769de079.webp)

@@ -50,7 +50,7 @@ the panel or from anywhere on my screen.
 ```bash
 pastel color-picker
 ```
-![pastel pick](https://dropper.wayl.one/file/8172ddae-7533-4973-897a-9f75018ab6f3.mp4)
+![pastel pick](https://dropper.waylonwalker.com/file/8172ddae-7533-4973-897a-9f75018ab6f3.mp4)
 pastel pick
 
 ## Conversions

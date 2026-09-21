@@ -5,7 +5,7 @@ title: Keys.waylonwalker.com
 tags:
   - webdev
 published: True
-image: https://dropper.wayl.one/file/73e71d2d-eaf9-4a0a-9e04-0039a1df0b26.mp4
+image: https://dropper.waylonwalker.com/file/73e71d2d-eaf9-4a0a-9e04-0039a1df0b26.mp4
 
 ---
 
@@ -21,7 +21,7 @@ page apps.
 The main feature is to be able to see when alt+key or shift+key is pressed, the
 keyboard tester was not able to do this.
 
-![73e71d2d-eaf9-4a0a-9e04-0039a1df0b26.mp4](https://dropper.wayl.one/file/73e71d2d-eaf9-4a0a-9e04-0039a1df0b26.mp4)
+![73e71d2d-eaf9-4a0a-9e04-0039a1df0b26.mp4](https://dropper.waylonwalker.com/file/73e71d2d-eaf9-4a0a-9e04-0039a1df0b26.mp4)
 Here is a video of me using it.
 
 I tend to use keyboard tester a lot as I build a lot of weird keyboards so I

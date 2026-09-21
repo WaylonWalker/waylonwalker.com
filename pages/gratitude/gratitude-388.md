@@ -5,7 +5,7 @@ title: Gratitude 388
 published: true
 tags:
   - gratitude
-image: https://dropper.wayl.one/file/1e9eb256-78f6-4587-8c9f-ada78d243661.webp
+image: https://dropper.waylonwalker.com/file/1e9eb256-78f6-4587-8c9f-ada78d243661.webp
 
 ---
 <!-- markata-encrypted-source:v1 key=default -->

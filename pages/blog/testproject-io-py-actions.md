@@ -51,7 +51,7 @@ features on my blog to consider testing
 I chose to start with the GitHub repos as they seemed a bit more straight
 forward, and it's been a while since I have done any selenium.
 
-![here is what the GitHub repo cards look like](https://dropper.wayl.one/file/49fedd75-3eec-46a1-8921-aaeef52a7067.webp)
+![here is what the GitHub repo cards look like](https://dropper.waylonwalker.com/file/49fedd75-3eec-46a1-8921-aaeef52a7067.webp)
 here is what the GitHub repo cards look like
 
 ## TestProject.io
@@ -73,7 +73,7 @@ your dashboard.
 In your GitHub repo go to `settings>Secrets`, or append `settings/secrets` to the URL to your repo, and add the tokens.  This will give GitHub safe access to them without them being available to the public, contributors, log files, or anything.
 
 
-![secrets panel in the GitHub Repo](https://dropper.wayl.one/file/344215cd-1884-4c55-853c-fdf51070c6e4.webp)
+![secrets panel in the GitHub Repo](https://dropper.waylonwalker.com/file/344215cd-1884-4c55-853c-fdf51070c6e4.webp)
 secrets panel in the GitHub Repo
 
 
@@ -341,14 +341,14 @@ done
 
 One one of the coolest features that you get from TestProject.io are the reports dashboard.  To me, this felt like a premium feature for **free**.  Here you can see a time-series plot of your tests success rate over time.  It gives you a bit of an ability to slice in, but not a lot.  Some of the filters are pre-canned, like the past 2 days are past 30 days cannot be customized.
 
-![My Dashboard for test_repos](https://dropper.wayl.one/file/abdd8f54-1746-4043-941f-fd82ff0df151.webp)
+![My Dashboard for test_repos](https://dropper.waylonwalker.com/file/abdd8f54-1746-4043-941f-fd82ff0df151.webp)
 My Dashboard for test_repos
 
 ## A single test flow in the dashboard
 
 As you drill in you can see individual tests that have been run, select them, and see individual reports for each test.  Personally I really like the layout on the side.  It converts the steps ran by the driver into a human-readable _flowchart_, and each step can be opened up to see their values.  It would be nice if it picked up my pytest assertions, but picking up what it did was great.
 
-![driver flow of test_repo_stars_loaded](https://dropper.wayl.one/file/505d1f53-b110-4cc1-86aa-dffbfebb9e8b.webp)
+![driver flow of test_repo_stars_loaded](https://dropper.waylonwalker.com/file/505d1f53-b110-4cc1-86aa-dffbfebb9e8b.webp)
 driver flow of test_repo_stars_loaded
 
 ## Overall 😄

@@ -18,4 +18,4 @@ Play with your kubernetes events.  Ya, my homelab is far from perfect, dont judg
 kubectl get events -A -w | uvx --from nothing-less nless
 ```
 
-![ceda8873-cb08-4436-a3ac-b5bf4a0b2379.mp4](http://dropper.wayl.one/file/ceda8873-cb08-4436-a3ac-b5bf4a0b2379.mp4)
+![ceda8873-cb08-4436-a3ac-b5bf4a0b2379.mp4](http://dropper.waylonwalker.com/file/ceda8873-cb08-4436-a3ac-b5bf4a0b2379.mp4)
