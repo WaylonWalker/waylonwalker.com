@@ -10,7 +10,6 @@ filter = """
     path.startswith('pages/thoughts/') or
     path.startswith('pages/link/') or
     path.startswith('pages/stars/') or
-    path.startswith('pages/daily/') or
     path.startswith('pages/shots/') or
     path.startswith('pages/ping/')
   ) 

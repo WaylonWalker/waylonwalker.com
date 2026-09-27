@@ -8,8 +8,6 @@ description: none
 cover: "./flex.png"
 ---
 
-# Conda Build
-
 ## Install Conda Build
 
 ```bash
