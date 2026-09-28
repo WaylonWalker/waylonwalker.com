@@ -27,8 +27,8 @@ yearly posting history directly from the current content set.
 ```contribution-graph
 {
   "data": [
-    {% for post in core.filter("published == true") %}
-    {"date": "{{ post.Date.Format \"2006-01-02\" }}", "value": 1}{% if not loop.last %},{% endif %}
+    {% for post in core.Filter("published==true and date!=nil") %}
+    {"date": "{{ post.Date.Format("2006-01-02") }}", "value": 1}{% if not forloop.Last %},{% endif %}
     {% endfor %}
   ],
   "options": {

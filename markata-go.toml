@@ -4,7 +4,7 @@
 # markata-go configuration for waylonwalker.com migration
 [markata-go]
 title = "Waylon Walker"
-fontpack = 'painted-sign'
+fontpack = "handwritten"
 description = "Waylon Walker's personal blog"
 url = "https://waylonwalker.com"
 license = "cc-by-4.0"

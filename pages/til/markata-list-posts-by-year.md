@@ -3,7 +3,6 @@ date: 2025-05-01 22:35:47
 templateKey: til
 title: Markata list posts by year
 published: true
-jinja: true
 tags:
   - python
   - markata
@@ -67,11 +66,11 @@ You could also do it with jin right inside of a markdown post using the
 [jinja_md](https://markata.dev/markata/plugins/jinja-md/) plugin.
 
 ``` md
-{% raw %}
-{% for title, slug, date in markata.map('title, slug, date', filter='date.year==2016', sort='date') %}
-* [{{title}}]({{slug}}) - {{date}}
+{% for post in core.Filter("published==true and date!=nil") %}
+{% if post.Date.Year() == 2016 %}
+* [{{ post.Title }}]({{ post.Href }}) - {{ post.Date.Format("2006-01-02") }}
+{% endif %}
 {% endfor %}
-{% endraw %}
 ```
 
 !!! Note
@@ -79,6 +78,5 @@ You could also do it with jin right inside of a markdown post using the
 
 ### Result
 
-{% for title, slug, date in markata.map('title, slug, date', filter='date.year==2016', sort='date') %}
-* [{{title}}]({{slug}}) - {{date}}
-{% endfor %}
+The snippet lists each published post dated 2016.  I keep those posts in the
+[[ archive ]].

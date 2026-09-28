@@ -62,4 +62,4 @@ python cmd_example2.py
 
 let me know what quick cmd.exe tips you have.
 
-[![tweet your tip](https://dropper.waylonwalker.com/file/898fa904-e12d-48e7-98d7-9b4dd78d5716.webp "tweet your tip")](https://twitter.com/intent/tweet?text=@waylonwalker%20my%20favorite%20cmd.exe%20tip%20is%20...%20https%3A//waylonwalker.com/blog/cmd-exe-tips/ "tweet your tip")
+[![tweet your tip](https://dropper.waylonwalker.com/file/898fa904-e12d-48e7-98d7-9b4dd78d5716.webp "tweet your tip")](https://twitter.com/intent/tweet?text=@waylonwalker%20my%20favorite%20cmd.exe%20tip%20is%20...%20https%3A%2F%2Fwaylonwalker.com%2Fblog%2Fcmd-exe-tips%2F "tweet your tip")

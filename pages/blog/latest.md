@@ -5,7 +5,6 @@ title: latest
 tags:
   - meta
 published: false
-jinja: true
 
 ---
 

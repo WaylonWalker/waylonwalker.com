@@ -6,7 +6,6 @@ tags:
   - webdev
   - markata
 published: false
-jinja: true
 ---
 
 I've added htmx to my blog.  It's extra bloatware that I long avoided, but it's
@@ -22,11 +21,13 @@ Mb's of react that did not provide any value for the end user.
 
 ## can it be done with jinja
 
+```jinja
 <div>
 {% with feed = markata.feeds.recent_thoughts %}
 {% include 'feed_sm_partial.html' %}
 {% endwith %}
 </div>
+```
 
 ## Feed Partials
 

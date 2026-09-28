@@ -7,7 +7,6 @@ tags:
   - markata
   - slash
 published: true
-jinja: true
 ---
 
 This post is a work in progress.
@@ -53,8 +52,3 @@ and wanted to build something with based on pluggy when I had started markata.
 ## More Posts
 
 I have more posts about markata in the [[ tag/markata ]].
-
-{% for post in markata.feeds.markatafeed.map(reverse=True) %}
-
-* [{{post.title}}](/{{post.slug}}) - {{post.date}}
-{% endfor %}
