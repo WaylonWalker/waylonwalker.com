@@ -74,11 +74,11 @@ enabled = true
 slug = "components/nav-content"
 css_class = "site-nav-content"
 
-[markata-go.components.left_sidebar]
-enabled = true
-slug = "components/left-sidebar"
-css_class = "toc-sidebar"
-width = "240px"
+# [markata-go.components.left_sidebar]
+# enabled = true
+# slug = "components/left-sidebar"
+# css_class = "toc-sidebar"
+# width = "240px"
 
 [markata-go.components.after_post]
 enabled = false
