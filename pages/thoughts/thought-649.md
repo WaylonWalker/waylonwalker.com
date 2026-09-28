@@ -4,7 +4,6 @@ date: 2025-05-28T18:56:38Z
 template: link
 link: https://derekkedziora.com/blog/dynamic-now-page
 tags:
-  - 
   - thought
 published: true
 

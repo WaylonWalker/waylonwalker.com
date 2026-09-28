@@ -4,7 +4,6 @@ date: 2025-05-31T06:49:35Z
 template: link
 link: https://blog.jim-nielsen.com/2025/more-friction-please/
 tags:
-  - 
   - thought
 published: true
 

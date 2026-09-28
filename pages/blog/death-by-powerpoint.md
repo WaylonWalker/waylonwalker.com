@@ -11,8 +11,6 @@ description: none
 ---
 
 
-# No More Death By PowerPoint
-
 > I Waylon S. Walker vow that from this point forward I will no longer create powerpoints to be considerec **DEATH BY POWERPOINT**
 
 

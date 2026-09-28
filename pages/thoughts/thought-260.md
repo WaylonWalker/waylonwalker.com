@@ -4,7 +4,6 @@ date: 2024-04-30T23:12:26Z
 template: link
 link: https://docs.pydantic.dev/2.7/api/networks/#pydantic.networks.EmailStr
 tags:
-  - 
   - thought
 published: true
 

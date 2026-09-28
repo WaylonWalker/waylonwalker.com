@@ -7,8 +7,6 @@ tags:
   - vim
 ---
 
-# vim notes
-
 ## nvim lua
 [norcalli/neovim-plugin](https://github.com/norcalli/neovim-plugin)
 

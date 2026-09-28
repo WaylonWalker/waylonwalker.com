@@ -33,10 +33,10 @@ Mine is the python debugger. I was a long holdout thinking that print statements
     <ipython-input-4-530890de75cd> in repeater(msg, repeats)
           1 def repeater(msg, repeats=1):
           2     "repeats messages {repeats} number of times"
-    ----> 3     print(f'{msg}\n' * repeats)
-          4
+----> 3     print(f'{msg}\n' * repeats)
+           4
 
-# Debug with iPython/Jupyter
+## Debug with iPython/Jupyter
 
     %debug
 
@@ -53,6 +53,6 @@ For more information about the debugger checkout the real python article. [https
 
 Also keep a bookmark of the table of pdb commands from the article [https://realpython.com/python-debugging-pdb/#essential-pdb-commands](https://realpython.com/python-debugging-pdb/#essential-pdb-commands "https://realpython.com/python-debugging-pdb/#essential-pdb-commands")
 
-# Debug Session
+## Debug Session
 
 [![debug session](https://res.cloudinary.com/practicaldev/image/fetch/s--ShQ3NN06--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/1tnri6wdwimwk7i83cvg.png)](https://res.cloudinary.com/practicaldev/image/fetch/s--ShQ3NN06--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/1tnri6wdwimwk7i83cvg.png)

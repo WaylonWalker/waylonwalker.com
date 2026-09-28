@@ -4,7 +4,6 @@ date: 2025-01-28T19:18:40Z
 template: link
 link: https://www.youtube.com/watch?v=o-qtso47ECk
 tags:
-  - 
   - thought
 published: true
 

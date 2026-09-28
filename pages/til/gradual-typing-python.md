@@ -14,7 +14,7 @@ rather than getting slammed with typing errors.
 
 https://youtu.be/Rk-Y71P_9KE
 
-# Step 1
+## Step 1
 
 Run Mypy as is, don't get fancy yet.  This will not reach into any functions
 unless they are alreay explicitly typed.  It will not enforce you to type them

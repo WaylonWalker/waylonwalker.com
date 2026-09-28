@@ -4,7 +4,6 @@ date: 2025-09-04T00:27:01Z
 template: link
 link: https://justin.searls.co/takes/2025-09-03-14h21m54s/
 tags:
-  - 
   - thought
 published: true
 

@@ -4,7 +4,6 @@ date: 2024-06-12T19:30:36Z
 template: link
 link: https://github.com/darrenburns/posting
 tags:
-  - 
   - thought
 published: true
 

@@ -4,7 +4,6 @@ date: 2026-01-04T00:14:32Z
 template: link
 link: https://simonwillison.net/2026/Jan/2/most-popular-blogs-of-hacker-news/#atom-everything
 tags:
-  - 
   - thought
 published: true
 

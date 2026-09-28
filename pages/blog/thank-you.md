@@ -11,7 +11,7 @@ description: You're awesome! Thanks for subscribing to my newsletter.
 
 <meta name='og:article:modified_time' content='2020-06-23T14:53:23Z'/>
 
-# ✨ You're Awesome
+## ✨ You're Awesome
 
 Thank you so much for subscribing to my newsletter.  It's still early days, please let me know what you want to hear about, I would love to get the conversation started!
 

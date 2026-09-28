@@ -4,7 +4,6 @@ date: 2024-05-13T00:29:58Z
 template: link
 link: https://popsql.com/
 tags:
-  - 
   - thought
 published: true
 

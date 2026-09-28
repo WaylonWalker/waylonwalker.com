@@ -4,7 +4,6 @@ date: 2025-05-09T18:09:30Z
 template: link
 link: https://chriscoyier.net/2025/05/08/id-rather-read-the-prompt/
 tags:
-  - 
   - thought
 published: true
 

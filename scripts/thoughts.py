@@ -62,7 +62,7 @@ def normalize_dropper_urls(text: str) -> str:
 def generate_post(post: dict) -> str:
     cleaned_title = clean_title(post["title"])
     title = cleaned_title.replace("'", "''")
-    tags = [tag.strip() for tag in post["tags"].split(",")]
+    tags = [tag.strip() for tag in post["tags"].split(",") if tag.strip()]
     # tags.append("thoughts")
     tags.append("thought")
     # tags.append("link")

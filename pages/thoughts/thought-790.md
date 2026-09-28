@@ -4,7 +4,6 @@ date: 2025-08-08T07:12:48Z
 template: link
 link: https://brutalist.report/
 tags:
-  - 
   - thought
 published: true
 

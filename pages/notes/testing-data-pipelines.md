@@ -9,14 +9,14 @@ published: false
 description: Thinking through testing best practices for Data Pipelines
 ---
 
-# Lint/Format/Doc
+## Lint/Format/Doc
 
 - black
 - flake8
 - interrogate
 - mypy
 
-# Pipeline Assertions
+## Pipeline Assertions
 
 - pipeline constructs
 - pipeline as expected nodes
@@ -24,13 +24,13 @@ description: Thinking through testing best practices for Data Pipelines
 - test minimum tags
 - test alternate tags
 
-# Catalog Assertions
+## Catalog Assertions
 
 - test catalog follows naming structure
 -
 
-# Node Tests
+## Node Tests
 
 - test function does the correct operations on test data
 
-# Great Expectations
+## Great Expectations

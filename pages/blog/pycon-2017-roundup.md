@@ -10,8 +10,6 @@ cover: "./pycon-cityscape.png"
 ---
 
 
-# Pycon 2017 Roundup
-
 Good afternoon fellow Data Geeks.  Last week [Pycon](https://www.youtube.com/channel/UCrJhliKNQ8g0qoE_zvL8eVg) released 141 videos of greatness.  Here are my top picks from the event.
 
 ## \#3 Kelsey Hightower - Keynote - Pycon 2017

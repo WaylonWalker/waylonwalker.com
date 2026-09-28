@@ -4,7 +4,6 @@ date: 2025-08-21T06:23:08Z
 template: link
 link: https://simplecto.com/search-needs-a-human-solution-a-manifesto/
 tags:
-  - 
   - thought
 published: true
 

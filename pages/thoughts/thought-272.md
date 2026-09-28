@@ -4,7 +4,6 @@ date: 2024-05-13T00:27:05Z
 template: link
 link: https://popsql.com/pricing
 tags:
-  - 
   - thought
 published: true
 

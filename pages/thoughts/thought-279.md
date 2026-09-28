@@ -4,7 +4,6 @@ date: 2024-05-22T17:36:10Z
 template: link
 link: https://github.com/ublue-os/image-template
 tags:
-  - 
   - thought
 published: true
 

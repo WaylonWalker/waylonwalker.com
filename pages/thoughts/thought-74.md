@@ -4,7 +4,6 @@ date: 2023-08-08T06:13:03Z
 template: link
 link: https://github.com/chebykinn/sedmario
 tags:
-  - 
   - thought
 published: true
 

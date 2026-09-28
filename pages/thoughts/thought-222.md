@@ -4,7 +4,6 @@ date: 2024-03-22T04:44:43Z
 template: link
 link: https://twitter.com/cassidoo/status/1770900985382138291
 tags:
-  - 
   - thought
 published: true
 

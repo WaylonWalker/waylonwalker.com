@@ -8,8 +8,6 @@ tags:
   - python
 ---
 
-# My favorite pandas pattern
-
 I work with a lot of transactional timeseries data that includes categories. I often want to create timeseries plots with each category as its own line. This is the method that I use almost data to achieve this result. Typically the data that am working with changes very slowly and trends happen over years not days or weeks. Plotting daily/weekly data tends to be noisy and hides the trend. I use this pattern because it works well with my data and is easy to explain to my stakeholders.
 
 ```python

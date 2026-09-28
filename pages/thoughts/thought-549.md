@@ -4,7 +4,6 @@ date: 2025-02-02T02:33:01Z
 template: link
 link: https://nofilmschool.com/cinematic-aspect-ratio
 tags:
-  - 
   - thought
 published: true
 

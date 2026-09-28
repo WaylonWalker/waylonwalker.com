@@ -4,7 +4,6 @@ date: 2025-09-04T06:43:39Z
 template: link
 link: https://chriscoyier.net/2025/09/02/12693/
 tags:
-  - 
   - thought
 published: true
 

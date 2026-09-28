@@ -4,7 +4,6 @@ date: 2024-07-11T17:50:22Z
 template: link
 link: https://huggingface.co/spaces/Xenova/remove-background-web
 tags:
-  - 
   - thought
 published: true
 

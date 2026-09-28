@@ -4,7 +4,6 @@ date: 2024-03-20T05:17:59Z
 template: link
 link: https://carlosbecker.com/posts/split-keyboard-moonlander/
 tags:
-  - 
   - thought
 published: true
 

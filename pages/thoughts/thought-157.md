@@ -4,7 +4,6 @@ date: 2023-10-31T06:04:16Z
 template: link
 link: https://github.com/johanhaleby/kubetail
 tags:
-  - 
   - thought
 published: true
 

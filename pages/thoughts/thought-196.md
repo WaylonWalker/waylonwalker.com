@@ -4,7 +4,6 @@ date: 2024-01-14T20:52:55Z
 template: link
 link: https://gridfinity.xyz/specification/
 tags:
-  - 
   - thought
 published: true
 

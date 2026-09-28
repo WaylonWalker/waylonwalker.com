@@ -207,7 +207,7 @@ conda info --envs | grep my_env && echo "my_env environment is installed" || con
 source activate my_env
 ```
 
-# Rename multiple files
+## Rename multiple files
 
 more info from [linuxize](https://linuxize.com/post/how-to-rename-files-in-linux/)
 

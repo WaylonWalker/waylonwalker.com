@@ -16,7 +16,7 @@ This is a very rough idea for a kedro package to prevent time lost to get partwa
 
 - check that inputs exist or are of a type to skip (sql)
 
-# Good to haves
+## Good to haves
 
 - check that all input and output databases are accessible with good credentials
 - check for s3 bucket access

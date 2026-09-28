@@ -4,7 +4,6 @@ date: 2025-08-10T22:07:18Z
 template: link
 link: https://x.com/noahgsolomon/status/1954035351510716670
 tags:
-  - 
   - thought
 published: true
 

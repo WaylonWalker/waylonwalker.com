@@ -6,7 +6,7 @@ date: 2021-05-20T10:07:29Z
 published: false
 ---
 
-# Story
+## Story
 
 I can still rememember the day that we we realized our new baby girl had gone
 days without a bowel movement. Holding her while she looked as if she was
@@ -35,7 +35,7 @@ she had given us.
 Together we are stronger after the battles we have faced. The long battles we
 have won. Stronger than ever we are ready for anything.
 
-# Promise
+## Promise
 
 I promise to stay strong and grow with you.
 
@@ -49,7 +49,7 @@ you cannot shake until its been checked.
 I promise to sit by your side when you are down, no matter how many times we
 re-watch Big Bang Theory it will never be too much.
 
-# support
+## support
 
 I will accept support on my bad days. I know that I try to be the rock of the
 family and push until I cannot push anymore, no matter how much you tell me to

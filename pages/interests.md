@@ -10,8 +10,6 @@ tags:
 
 > drafted by kimi
 
-# /interests
-
 Things I'm passionate about and why they excite me.
 
 ## Mechanical Keyboards

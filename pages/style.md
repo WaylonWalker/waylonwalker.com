@@ -10,8 +10,6 @@ tags:
 
 > drafted by kimi
 
-# /style
-
 How I write and build this site.  A personal style guide.
 
 ## Tone of Voice

@@ -16,7 +16,7 @@ Intro paragraph with **ordinary strong**, _ordinary emphasis_,
 ==ordinary highlight==, `ordinary code`, a
 [normal link](https://waylonwalker.com), and ~~deleted text~~.
 
-# Build **good places** for _interesting people_.
+## Build **good places** for _interesting people_.
 
 ## Make room for ==the weird idea.==
 

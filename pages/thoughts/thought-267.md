@@ -4,7 +4,6 @@ date: 2024-05-02T06:20:51Z
 template: link
 link: https://www.loggly.com/ultimate-guide/using-journalctl/
 tags:
-  - 
   - thought
 published: true
 

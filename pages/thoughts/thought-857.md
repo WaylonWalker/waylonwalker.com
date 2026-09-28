@@ -4,7 +4,6 @@ date: 2025-10-29T02:46:30Z
 template: link
 link: https://x.com/bazzite_gg/status/1983204433627623590
 tags:
-  - 
   - thought
 published: true
 

@@ -66,7 +66,7 @@ items:
 * dev.to post
 * Twitter Search # user will need an api key
 
-# Methodology
+## Methodology
 
 Each url will be pulled in and parsed into a standard data scructure.  Some items may yield special feaures, a schemaless/nosql datastructure may be best.  Pipeline will decide to how to weight posts based on users weight, recent position on feed, .
 

@@ -4,7 +4,6 @@ date: 2023-07-28T19:59:37Z
 template: link
 link: https://changelog.com/friends/7
 tags:
-  - 
   - thought
 published: true
 

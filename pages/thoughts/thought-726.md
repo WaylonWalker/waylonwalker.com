@@ -4,7 +4,6 @@ date: 2025-07-02T06:45:11Z
 template: link
 link: https://techdufus.com/tech/2025/06/30/building-a-talos-kubernetes-homelab-on-proxmox-with-terraform.html
 tags:
-  - 
   - thought
 published: true
 
