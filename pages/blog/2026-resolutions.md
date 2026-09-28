@@ -132,7 +132,8 @@ of extra health precautions that lasted longer than most other people.
 This year I should do more of this.  More bike rides, more skate, more basement
 hangouts, more art.
 
-![image](https://dropper.waylonwalker.com/file/46091653-f759-4a53-b3b7-e9e6226a5a12.webp)
+![A traditional looking 1-20 dartboard that has the word Narwhal at the top and Kingston at the bottom hung overtop of a whiteboard.](https://dropper.waylonwalker.com/file/46091653-f759-4a53-b3b7-e9e6226a5a12.webp)
+We got a new dart board in the basement.
 
 > New dart board in the basement
 
