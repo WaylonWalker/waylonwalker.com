@@ -19,7 +19,7 @@ here are some links to help you get started around here.
 ## Feeds
 
 I have quite a few different feeds that you can browse or subscribe to in your
-rss reader, you can find them on my [[ feeds ]] page.
+rss reader, you can find them on my [[ feeds ]] page. #meta
 
 ## Slash posts
 
