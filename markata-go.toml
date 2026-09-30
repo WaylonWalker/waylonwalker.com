@@ -59,6 +59,10 @@ label = "archive"
 url = "/archive/"
 
 [[markata-go.nav]]
+label = "pins"
+url = "/pins/"
+
+[[markata-go.nav]]
 label = "rss"
 url = "/feeds/"
 
