@@ -22,4 +22,6 @@ I think we still need people that can carry this torch.  Its going to be a long 
 
 ## Maybe the ==new== normal
 
-Thinking practically though.  I think we are going to need a lot less of this.  What we really need is someone who can translate real business requirements into action.
+Thinking practically though.  I think we are going to need a lot less of this.  What we really need is someone who can translate real business requirements into action.  For **most** people paid to write code the code is still not the key part of the output for the business.  It's an artifact used to drive value to it's customers.  How many customers do you think care about the code your company writes... Outside of a rare consoluting firm or something that the job is to give code to another business it's ZERO, **nada**, _none_.
+
+Even a company like GitHub, I don't care if the code is beautifully chiseled ruby or the most eye bleeding rust you can imagine.  What I care about is uptime, features.  Do the features I paid for work?  Are the new features something that is going to matter to me?  Is the service getting better or worse?
