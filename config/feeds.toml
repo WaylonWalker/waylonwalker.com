@@ -6,6 +6,7 @@ description = "All published posts"
 filter = """
   date<=today and (
     path.startswith('pages/blog/') or
+    path.startswith('pages/post/') or
     path.startswith('pages/til/') or
     path.startswith('pages/thoughts/') or
     path.startswith('pages/link/') or
@@ -104,6 +105,7 @@ robots = "noindex,follow"
 filter = """
   date<=today and (
     path.startswith('pages/blog/') or
+    path.startswith('pages/post/') or
     path.startswith('pages/til/') or
     path.startswith('pages/thoughts/') or
     path.startswith('pages/link/') or
