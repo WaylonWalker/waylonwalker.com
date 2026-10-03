@@ -10,7 +10,7 @@ tags:
 templateKey: blog-post
 ---
 
-I watched through this video earlier of this guy roasting t3.gg and his level of agentic ai brain rot.
+I'm I watched through this video earlier of this guy roasting t3.gg and his level of agentic ai brain rot.
 
 https://youtube.com/watch?v=ZumXpZzDsgo
 
