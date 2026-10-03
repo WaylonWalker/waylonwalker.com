@@ -6,6 +6,7 @@ date: 2026-10-03T15:40:39Z
 published: true
 tags: 
  - webdev
+image: https://shots.waylonwalker.com/shot/?url=https%3A%2F%2Fvoice-reverse.waylonwalker.com%2F&height=630&width=1200&scaled_width=1200&scaled_height=630&format=jpg
 
 ---
 
