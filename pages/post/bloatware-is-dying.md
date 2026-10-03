@@ -14,7 +14,7 @@ Yesterday my daughter an I were waiting for her practice to start and we wanted 
 1. play it back in reverse to the next person
 1. The next person says exactly what they hear without thinking
 
-![19da0872-340f-4470-bcbc-475282808de9.webm](https://dropper.wayl.one/file/19da0872-340f-4470-bcbc-475282808de9.webm)
+![19da0872-340f-4470-bcbc-475282808de9.webm](https://dropper.wayl.one/file/19da0872-340f-4470-bcbc-475282808de9.webm?width=400)
 
 Every single one was followed up with a _Suppa ==Hot== Fire_ Ahh^hhh^~hh~ reaction by everyone around. They all sounded like complete gibberish, yet came out like the person was talking in a weird accent. Everyone was shocked to hear it was understandable what they were saying revering their reverse speech.
 
