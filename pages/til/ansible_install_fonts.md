@@ -1,4 +1,5 @@
 ---
+slug: ansible-install-fonts
 date: 2021-12-25T20:24:48Z
 templateKey: til
 title: Installing system nerd-fonts with ansible

@@ -1,4 +1,5 @@
 ---
+slug: locked-diskcache
 templateKey: blog-post
 tags: ['python']
 title: Python Diskcahe is locked

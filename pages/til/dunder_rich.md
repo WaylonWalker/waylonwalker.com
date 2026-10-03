@@ -1,4 +1,5 @@
 ---
+slug: dunder-rich
 date: 2021-12-23T19:34:18Z
 templateKey: til
 title: Adding __rich__ methods to python classes

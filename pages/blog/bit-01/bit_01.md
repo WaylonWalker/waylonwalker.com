@@ -1,4 +1,5 @@
 ---
+slug: bit-01
 templateKey: "blog-post"
 title: Minimal Project Structure
 date: 2019-02-10

@@ -12,4 +12,4 @@ published: true
 
 ![[https://pype.dev/queso-notes/]]
 
-Taking this as inspiration to do more non-tech on my blog, I've branched out into [[gaming]], but need take it to the next step.  excited to watch [pype.dev](pype.dev) evolve as well.
+Taking this as inspiration to do more non-tech on my blog, I've branched out into [[gaming]], but need take it to the next step.  excited to watch [pype.dev](https://pype.dev) evolve as well.

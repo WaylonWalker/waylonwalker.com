@@ -1,4 +1,5 @@
 ---
+slug: ansible-install-if-not-callable
 date: 2021-12-24T20:24:48Z
 templateKey: til
 title: Installing packages with ansible only if they do not exist

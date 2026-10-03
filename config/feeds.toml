@@ -92,6 +92,9 @@ sidebar=true
 [markata-go.feeds.templates]
 html = "feed-photo-grid.html"
 
+# Set every retained format explicitly below. A sitemap=false-only table
+# currently falls back to all feed defaults in markata-go.
+
 # All posts feed (same as archive but at /all/)
 [[markata-go.feeds]]
 slug = "all"
@@ -115,6 +118,16 @@ reverse = true
 items_per_page = 10000
 sidebar=true
 
+[markata-go.feeds.formats]
+html = true
+simple_html = true
+rss = true
+atom = true
+json = true
+markdown = true
+text = true
+sitemap = false
+
 # Daily notes feed
 [[markata-go.feeds]]
 slug = "daily"
@@ -133,8 +146,17 @@ description = "Steam posts"
 filter = "published == true and 'steam-game' in tags"
 sort = "date"
 reverse = true
-sitemap=false
 sidebar=false
+
+[markata-go.feeds.formats]
+html = true
+simple_html = true
+rss = true
+atom = true
+json = true
+markdown = true
+text = true
+sitemap = false
 
 # Draft posts - unpublished or future dated
 [[markata-go.feeds]]
@@ -145,8 +167,17 @@ robots = "noindex,follow"
 filter = "published == false or date > today"
 sort = "date"
 reverse = true
-sitemap=false
 sidebar=false
+
+[markata-go.feeds.formats]
+html = true
+simple_html = true
+rss = true
+atom = true
+json = true
+markdown = true
+text = true
+sitemap = false
 
 # Family shots - photos tagged with family
 [[markata-go.feeds]]
@@ -157,8 +188,17 @@ filter = "path.startswith('pages/shots/') and \"family\" in tags"
 sort = "date"
 reverse = true
 private = true
-sitemap=false
 sidebar=false
+
+[markata-go.feeds.formats]
+html = true
+simple_html = true
+rss = true
+atom = true
+json = true
+markdown = true
+text = true
+sitemap = false
 
 # Published feed
 [[markata-go.feeds]]
@@ -171,6 +211,16 @@ sort = "date"
 reverse = true
 sidebar=false
 
+[markata-go.feeds.formats]
+html = true
+simple_html = true
+rss = true
+atom = true
+json = true
+markdown = true
+text = true
+sitemap = false
+
 # Scheduled posts - future dated
 [[markata-go.feeds]]
 slug = "scheduled"
@@ -180,8 +230,17 @@ robots = "noindex,follow"
 filter = "date > today"
 sort = "date"
 reverse = true
-sitemap=false
 sidebar=false
+
+[markata-go.feeds.formats]
+html = true
+simple_html = true
+rss = true
+atom = true
+json = true
+markdown = true
+text = true
+sitemap = false
 
 # Slashes feed
 [[markata-go.feeds]]
@@ -191,8 +250,17 @@ description = "Slash command posts"
 filter = "published == true and \"slash\" in tags"
 sort = "date"
 reverse = true
-sitemap=false
 sidebar=false
+
+[markata-go.feeds.formats]
+html = true
+simple_html = true
+rss = true
+atom = true
+json = true
+markdown = true
+text = true
+sitemap = false
 
 # Stars feed - GitHub stars
 [[markata-go.feeds]]
@@ -202,8 +270,17 @@ description = "GitHub stars posts"
 filter = "path.startswith('pages/stars/')"
 sort = "date"
 reverse = true
-sitemap=false
 sidebar=false
+
+[markata-go.feeds.formats]
+html = true
+simple_html = true
+rss = true
+atom = true
+json = true
+markdown = true
+text = true
+sitemap = false
 
 # Today's posts
 [[markata-go.feeds]]
@@ -214,5 +291,14 @@ robots = "noindex,follow"
 filter = "date == today"
 sort = "date"
 reverse = true
-sitemap=false
 sidebar=false
+
+[markata-go.feeds.formats]
+html = true
+simple_html = true
+rss = true
+atom = true
+json = true
+markdown = true
+text = true
+sitemap = false

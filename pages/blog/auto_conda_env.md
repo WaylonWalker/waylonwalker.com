@@ -1,4 +1,5 @@
 ---
+slug: auto-conda-env
 templateKey: blog-post
 tags: ["python"]
 title: Automatic Conda Environments

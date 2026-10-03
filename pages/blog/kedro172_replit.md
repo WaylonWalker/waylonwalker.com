@@ -1,4 +1,5 @@
 ---
+slug: kedro172-replit
 templateKey: blog-post
 tags: ['kedro', 'python']
 title: kedro replit
