@@ -49,6 +49,8 @@ Tip of the at to low tech mag.  Leaning in on building cool things on the weird 
 
 This is part of the ==_charm_== now.  I know that its a common _trope_  something twitter likes to laugh at and poke fun at.  I'll wipe my tears away with my six figure job that I am able to do really well because I have a place to low risk do new tech on a platform that is very similar to what makes $$ in infrastructure.  I think I will be okay, and if I have an outtage, we will lean into that as the charm of a side project running on kubernetes in my basement that does not get quite the same level of attention as work I get paid to do and includes crazy new things I'm not yet willing to try in a real app with paying users.
 
+Everything from the git repo, the site build, the production traffic all routes through hardware that I own and can touch, no one can turn off and stop.  I rely on one cloudflare tunnel to get it out to the public otherwise its all on me.
+
 ## Analytics
 
 I ==do not== track users, I respect the privacy of my readers and do not track
