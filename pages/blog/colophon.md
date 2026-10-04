@@ -57,6 +57,8 @@ I ==do not== track users, I respect the privacy of my readers and do not track
 their information.  I do track [[ analytics ]] on my own writing a post rate.
 Its more of an interesting history of the site.
 
+I try to take some time each year to review and highlight some of the highs and lows, some of the different trends on that [[ analytics ]] page.  Its a fun summary of year over year.
+
 ## meta
 
 Some evergreen pages that are more about me or this site from the [[ meta ]] feed.
