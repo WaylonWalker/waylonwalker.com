@@ -35,13 +35,21 @@ are pulled in as a regular posts, all is hosted on cloudflare pages.
 
 * [[ markata ]]
 * [[ thoughts ]]
-* cloudflare pages
+* ~~GitHub Pages~, ~netlify~, ~cloudflare pages~, basement kubernetes.
 
 see more about these components in [[ about-this-site ]]
 
+## Basement Kubernetes
+
+==Yes== I run kubernetes in my basement.  ==Yes== it is build on a hodge podge of trash and enough new parts to get it to work.  **No** this does not have 100% uptime, my house looses power, flaky deploys sometimes have brief outages.  
+
+!!! Tip tip of the at to low tech mag
+
+
+![embed](https://solar.lowtechmagazine.com/about/the-solar-website/)
 ## Analytics
 
-I do not track users, I respect the privacy of my readers and do not track
+I ==do not== track users, I respect the privacy of my readers and do not track
 their information.  I do track [[ analytics ]] on my own writing a post rate.
 Its more of an interesting history of the site.
 
