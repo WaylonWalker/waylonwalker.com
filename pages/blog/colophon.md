@@ -35,13 +35,16 @@ are pulled in as a regular posts, all is hosted on cloudflare pages.
 
 * [[ markata ]]
 * [[ thoughts ]]
-* ~~GitHub Pages~, ~netlify~, ~cloudflare pages~, basement kubernetes.
+* ~~GitHub Pages~, ~~netlify~~, ~~cloudflare pages~~, basement kubernetes.
 
 see more about these components in [[ about-this-site ]]
 
 ## Basement Kubernetes
 
-==Yes== I run kubernetes in my basement.  ==Yes== it is build on a hodge podge of trash and enough new parts to get it to work.  **No** this does not have 100% uptime, my house looses power, flaky deploys sometimes have brief outages.  
+![Homelab update Jul 2025](https://dropper.waylonwalker.com/api/file/32ea8118-9ec5-4865-b3b4-8ccd14f23268.jpg)
+Literally my homelab, a bunch of stuff stuffed in the basement, There's one fully hidden dell optiplex in the back.
+
+==Yes== I run kubernetes in my basement.  **Yes** it is build on a hodge podge of trash and enough new parts to get it to work.  **No** this does not have 100% uptime, my house looses power, flaky deploys sometimes have brief outages.  
 
 Tip of the at to low tech mag.  Leaning in on building cool things on the weird edges of the internet.  Not being so tied to 9 9s, infinite uptime, instant gratitude always on demand.
 
@@ -53,7 +56,7 @@ Everything from the git repo, the site build, the production traffic all routes 
 
 ## Analytics
 
-I ==do not== track users, I respect the privacy of my readers and do not track
+I **do not** track users, I respect the privacy of my readers and do not track
 their information.  I do track [[ analytics ]] on my own writing a post rate.
 Its more of an interesting history of the site.
 
