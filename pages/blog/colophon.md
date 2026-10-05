@@ -26,6 +26,32 @@ stay pretty much as they were published originally.
 
 see more in [[ about ]]
 
+## Why I Built This Site
+
+_from scratch_
+
+I got tired of:
+- Build times that took forever
+- Node modules folders that became black holes
+- Bloated pages that took ages to load
+- SEO tools that felt like an afterthought
+
+> You know what I think I can do this better.
+
+So I built my own platform chiseled from scratch by hand using python, some
+open source modules and many ideas in my head of what I wanted for my own
+system.  Then Agents hit the market in Nov 2025 and by Jan 2026 I was
+interested in trying some spec driven development.  I carefully created a
+prompt to have the latest gpt models at the time re-imaging what I made by hand
+in go.  It continues to grow at a much faster pace now that I can have agents
+doing the work.  Its still my playground.  My personal software that I get to
+craft into just exactly what I want it to be.  Its not always perfect or
+correct, but it generally trends up.
+
+It's under-funded, over-dreamed, barely documented, and I
+love it. This site is my sandbox for learning, teaching, and sharing ideas on
+my own terms.
+
 ## tech
 
 This site is a static site build with my own static site generator [[ markata
