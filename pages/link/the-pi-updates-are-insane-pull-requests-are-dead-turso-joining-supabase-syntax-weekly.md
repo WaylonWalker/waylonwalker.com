@@ -11,4 +11,8 @@ description: "Scott, Wes, and CJ break down the latest Pi updates, including dur
 
 ---
 
-prs are dead.  called it [[ 2026-predictions ]] 
+prs are dead.  called it [[ 2026-predictions ]] .
+
+Its sad to see all of these great open source projects die.  The bigger the project, the greater the project, the bigger the flood of shit from random people with random harness, random, models
+
+I like the idea of keeping issues open. I see a flow in the future of a claw like system for some projects that just kick on investigation right away, auto close duplicates, solved etc.  When maintainer approves it just makes it.  As cool as this sounds it also sounds sad and souless.
