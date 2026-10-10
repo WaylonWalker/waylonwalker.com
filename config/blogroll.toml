@@ -115,6 +115,15 @@ type = "written"
 tags = ["python", "django", "sqlite", "datasette", "ai", "machine-learning", "open-source", "web-development", "written"]
 site_url = "https://simonwillison.net"
 [[markata-go.blogroll.feeds]]
+url = "https://lobste.rs/rss"
+title = "Lobsters"
+description = "Community-run link aggregation for hacker news, tech, and software development discussions"
+category = "development"
+type = "written"
+tags = ["news", "open-source", "software-development", "hacker-news", "community", "tech", "written"]
+site_url = "https://lobste.rs"
+image_url = "https://lobste.rs/favicon.ico"
+[[markata-go.blogroll.feeds]]
 url = "https://blakewatson.com/feed/"
 title = "Blake Watson"
 description = "Frontend developer for NASA projects, disability advocate, writes about accessibility and assistive technology"
