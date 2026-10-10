@@ -89,6 +89,8 @@ reverse = true
 primary = true
 items_per_page = 50
 sidebar=true
+views = ["default", "simple", "calendar", "shorts"]
+shorts_path = "/shorts/"
 
 [markata-go.feeds.templates]
 html = "feed-photo-grid.html"
