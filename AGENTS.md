@@ -92,3 +92,13 @@ just compile      # Update requirements.txt from requirements.in
 - Stream of consciousness is fine
 - Link heavily to other content
 - Don't overthink it
+
+## Editorial attribution
+
+For post copy edits, internal linking, unchanged editorial reviews, or imports
+of existing agent edits, read `docs/editorial-workflow.md` before modifying
+posts.  Use `scripts/editorial.py` to capture the baseline, credit the actual
+contributor and role, commit only owned changes, and record revision links.
+Preserve prior authors and editorial history.  Report every resulting commit
+SHA to the user.  When called by `editorial.py review`, leave edits uncommitted;
+the calling script finishes the session and reports its commits.
