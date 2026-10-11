@@ -15,6 +15,23 @@ authors:
   - id: gpt-6-luna
     role: copy editor
     details: "Corrected spelling and grammar with GPT-6 Luna."
+editorial_history:
+- schema_version: 1
+  event_id: bed11545-87fe-4d62-851a-71086e431cc1:pages/link/i-make-my-own-field-notes-and-it-costs-almost-nothing.md
+  author: gpt-6-luna
+  role: copy-editor
+  action: edited
+  recorded_by: gpt-6-codex
+  recorded_at: '2026-10-11T15:07:10.434688+00:00'
+  base_commit: 5de74ebc0a1023cf815006572f5cb63816ad81db
+  commit: d3b1fe7083dbeffea0e28578ec8c1d0b2833e478
+  path: pages/link/i-make-my-own-field-notes-and-it-costs-almost-nothing.md
+  content_digest: sha256:cb02379bbe3f7bdb326d37842c8a20adddeb0532dae9233698efabef3089c11a
+  digest_version: editorial-v1
+  file_url: https://github.com/waylonwalker/waylonwalker.com/blob/d3b1fe7083dbeffea0e28578ec8c1d0b2833e478/pages/link/i-make-my-own-field-notes-and-it-costs-almost-nothing.md
+  diff_url: https://github.com/waylonwalker/waylonwalker.com/commit/d3b1fe7083dbeffea0e28578ec8c1d0b2833e478#diff-b7c6a45d02e045eac3c74ed6e4cba0092f3161ea14afc95057843ac916ef2a5e
+  summary: Imported GPT-6 Luna copy edits after the owner confirmed exclusive authorship
+    of these post diffs.
 ---
 
 This is the first time I've seen or heard of Perry Daniels, I really like his editing style, it reminds me of Good Eats; the tone, tempo, the research, the odd camera angles.

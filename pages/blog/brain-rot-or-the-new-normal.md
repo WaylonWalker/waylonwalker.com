@@ -13,6 +13,23 @@ authors:
   - id: gpt-6-luna
     role: copy editor
     details: "Corrected spelling and grammar with GPT-6 Luna."
+editorial_history:
+- schema_version: 1
+  event_id: bed11545-87fe-4d62-851a-71086e431cc1:pages/blog/brain-rot-or-the-new-normal.md
+  author: gpt-6-luna
+  role: copy-editor
+  action: edited
+  recorded_by: gpt-6-codex
+  recorded_at: '2026-10-11T15:07:10.307868+00:00'
+  base_commit: 5de74ebc0a1023cf815006572f5cb63816ad81db
+  commit: d3b1fe7083dbeffea0e28578ec8c1d0b2833e478
+  path: pages/blog/brain-rot-or-the-new-normal.md
+  content_digest: sha256:a9b8af6c54a728284901701690f28aa03e8b0acc84ef4a66899aec8094b897fb
+  digest_version: editorial-v1
+  file_url: https://github.com/waylonwalker/waylonwalker.com/blob/d3b1fe7083dbeffea0e28578ec8c1d0b2833e478/pages/blog/brain-rot-or-the-new-normal.md
+  diff_url: https://github.com/waylonwalker/waylonwalker.com/commit/d3b1fe7083dbeffea0e28578ec8c1d0b2833e478#diff-4a111919110f3693536d33b99eda3ee2815139e2f1403071c706601cee7ae97e
+  summary: Imported GPT-6 Luna copy edits after the owner confirmed exclusive authorship
+    of these post diffs.
 ---
 
 I watched through this video earlier of this guy roasting t3.gg and his level of agentic ai brain rot.

@@ -10,6 +10,23 @@ authors:
   - id: gpt-6-luna
     role: copy editor
     details: "Corrected spelling and grammar with GPT-6 Luna."
+editorial_history:
+- schema_version: 1
+  event_id: bed11545-87fe-4d62-851a-71086e431cc1:pages/til/how-to-set-up-a-boot-drive.md
+  author: gpt-6-luna
+  role: copy-editor
+  action: edited
+  recorded_by: gpt-6-codex
+  recorded_at: '2026-10-11T15:07:10.750991+00:00'
+  base_commit: 5de74ebc0a1023cf815006572f5cb63816ad81db
+  commit: d3b1fe7083dbeffea0e28578ec8c1d0b2833e478
+  path: pages/til/how-to-set-up-a-boot-drive.md
+  content_digest: sha256:2dbb5bb1ccf08bd165fb66b7cb3a223554badec3a96b92d15defbeb9ce7e6149
+  digest_version: editorial-v1
+  file_url: https://github.com/waylonwalker/waylonwalker.com/blob/d3b1fe7083dbeffea0e28578ec8c1d0b2833e478/pages/til/how-to-set-up-a-boot-drive.md
+  diff_url: https://github.com/waylonwalker/waylonwalker.com/commit/d3b1fe7083dbeffea0e28578ec8c1d0b2833e478#diff-0b144b4c4e1b9bfa3dd6b567a2a5e0e076837417c1ce90eccee9cf87dd3a0634
+  summary: Imported GPT-6 Luna copy edits after the owner confirmed exclusive authorship
+    of these post diffs.
 ---
 
 First, find your usb disk. You should be able to identify it by size and name using lsblk.

@@ -14,6 +14,23 @@ authors:
   - id: gpt-6-luna
     role: copy editor
     details: "Corrected spelling and grammar with GPT-6 Luna."
+editorial_history:
+- schema_version: 1
+  event_id: bed11545-87fe-4d62-851a-71086e431cc1:pages/thoughts/thought-1030.md
+  author: gpt-6-luna
+  role: copy-editor
+  action: edited
+  recorded_by: gpt-6-codex
+  recorded_at: '2026-10-11T15:07:10.738217+00:00'
+  base_commit: 5de74ebc0a1023cf815006572f5cb63816ad81db
+  commit: d3b1fe7083dbeffea0e28578ec8c1d0b2833e478
+  path: pages/thoughts/thought-1030.md
+  content_digest: sha256:7e5a2688dca840f66fe8981d961b506d64ea9f7c17f2ff87cdf739109fdc4674
+  digest_version: editorial-v1
+  file_url: https://github.com/waylonwalker/waylonwalker.com/blob/d3b1fe7083dbeffea0e28578ec8c1d0b2833e478/pages/thoughts/thought-1030.md
+  diff_url: https://github.com/waylonwalker/waylonwalker.com/commit/d3b1fe7083dbeffea0e28578ec8c1d0b2833e478#diff-8b368994be924eb56a62cba8216707c5348c88b093263e99dca44b8ab88719f2
+  summary: Imported GPT-6 Luna copy edits after the owner confirmed exclusive authorship
+    of these post diffs.
 ---
 
 ![[https://justin.searls.co/takes/2026-08-30-00h26m42s/]]

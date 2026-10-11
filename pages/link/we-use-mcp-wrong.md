@@ -13,6 +13,23 @@ authors:
   - id: gpt-6-luna
     role: copy editor
     details: "Corrected spelling and grammar with GPT-6 Luna."
+editorial_history:
+- schema_version: 1
+  event_id: bed11545-87fe-4d62-851a-71086e431cc1:pages/link/we-use-mcp-wrong.md
+  author: gpt-6-luna
+  role: copy-editor
+  action: edited
+  recorded_by: gpt-6-codex
+  recorded_at: '2026-10-11T15:07:10.504597+00:00'
+  base_commit: 5de74ebc0a1023cf815006572f5cb63816ad81db
+  commit: d3b1fe7083dbeffea0e28578ec8c1d0b2833e478
+  path: pages/link/we-use-mcp-wrong.md
+  content_digest: sha256:1428a6dea5b0958efa36277f62686c837f1c67613a9ec098d53288e92dfc09ab
+  digest_version: editorial-v1
+  file_url: https://github.com/waylonwalker/waylonwalker.com/blob/d3b1fe7083dbeffea0e28578ec8c1d0b2833e478/pages/link/we-use-mcp-wrong.md
+  diff_url: https://github.com/waylonwalker/waylonwalker.com/commit/d3b1fe7083dbeffea0e28578ec8c1d0b2833e478#diff-a2bf54f1e4c50875f17c9b4ddbc1ac4e1f77e4f358eb339a10a781c1a7d17825
+  summary: Imported GPT-6 Luna copy edits after the owner confirmed exclusive authorship
+    of these post diffs.
 ---
 
 

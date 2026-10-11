@@ -13,6 +13,23 @@ authors:
   - id: gpt-6-luna
     role: copy editor
     details: "Corrected spelling and grammar with GPT-6 Luna."
+editorial_history:
+- schema_version: 1
+  event_id: bed11545-87fe-4d62-851a-71086e431cc1:pages/link/state-of-agentic-coding-10-with-armin-and-ben.md
+  author: gpt-6-luna
+  role: copy-editor
+  action: edited
+  recorded_by: gpt-6-codex
+  recorded_at: '2026-10-11T15:07:10.466758+00:00'
+  base_commit: 5de74ebc0a1023cf815006572f5cb63816ad81db
+  commit: d3b1fe7083dbeffea0e28578ec8c1d0b2833e478
+  path: pages/link/state-of-agentic-coding-10-with-armin-and-ben.md
+  content_digest: sha256:a118f032d448a292c0db525f71deff04ecefbb289a4e06015625f08f5dde61a4
+  digest_version: editorial-v1
+  file_url: https://github.com/waylonwalker/waylonwalker.com/blob/d3b1fe7083dbeffea0e28578ec8c1d0b2833e478/pages/link/state-of-agentic-coding-10-with-armin-and-ben.md
+  diff_url: https://github.com/waylonwalker/waylonwalker.com/commit/d3b1fe7083dbeffea0e28578ec8c1d0b2833e478#diff-942176b9fce79d0bde781176c8415ab761c97fe40c87344fc1cc46afc1aa8d89
+  summary: Imported GPT-6 Luna copy edits after the owner confirmed exclusive authorship
+    of these post diffs.
 ---
 
 The state of agentic coding is one of my favorite new podcasts of late.  The name sounds just like the same slop as everything else, but Ben and Armin are top tier hosts that actually do this stuff for work and on the side.

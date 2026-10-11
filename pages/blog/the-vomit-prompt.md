@@ -10,6 +10,23 @@ authors:
   - id: gpt-6-luna
     role: copy editor
     details: "Corrected spelling and grammar with GPT-6 Luna."
+editorial_history:
+- schema_version: 1
+  event_id: bed11545-87fe-4d62-851a-71086e431cc1:pages/blog/the-vomit-prompt.md
+  author: gpt-6-luna
+  role: copy-editor
+  action: edited
+  recorded_by: gpt-6-codex
+  recorded_at: '2026-10-11T15:07:10.332316+00:00'
+  base_commit: 5de74ebc0a1023cf815006572f5cb63816ad81db
+  commit: d3b1fe7083dbeffea0e28578ec8c1d0b2833e478
+  path: pages/blog/the-vomit-prompt.md
+  content_digest: sha256:aaba93b5adf07a17bef11e956720f5b529880cd4e1289128ee88751395e6bd0c
+  digest_version: editorial-v1
+  file_url: https://github.com/waylonwalker/waylonwalker.com/blob/d3b1fe7083dbeffea0e28578ec8c1d0b2833e478/pages/blog/the-vomit-prompt.md
+  diff_url: https://github.com/waylonwalker/waylonwalker.com/commit/d3b1fe7083dbeffea0e28578ec8c1d0b2833e478#diff-f73199c0c9286db2cac3da4e3aa782f010895a45bd018eea57e2486be86956c2
+  summary: Imported GPT-6 Luna copy edits after the owner confirmed exclusive authorship
+    of these post diffs.
 ---
 I heard Lex Friedman talk about this method he uses to create Greenfield apps really fast and he claimed worked really well with the latest Gen models at the time.  This was during the DHH round 2, 5 hour interview.
 

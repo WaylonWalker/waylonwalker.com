@@ -12,6 +12,23 @@ authors:
   - id: gpt-6-luna
     role: copy editor
     details: "Corrected spelling and grammar with GPT-6 Luna."
+editorial_history:
+- schema_version: 1
+  event_id: bed11545-87fe-4d62-851a-71086e431cc1:pages/post/bloatware-is-dying.md
+  author: gpt-6-luna
+  role: copy-editor
+  action: edited
+  recorded_by: gpt-6-codex
+  recorded_at: '2026-10-11T15:07:10.528875+00:00'
+  base_commit: 5de74ebc0a1023cf815006572f5cb63816ad81db
+  commit: d3b1fe7083dbeffea0e28578ec8c1d0b2833e478
+  path: pages/post/bloatware-is-dying.md
+  content_digest: sha256:3d711720d068c164c6b06378833fc3cdc8a176cd8b5f411353eccad810056fb5
+  digest_version: editorial-v1
+  file_url: https://github.com/waylonwalker/waylonwalker.com/blob/d3b1fe7083dbeffea0e28578ec8c1d0b2833e478/pages/post/bloatware-is-dying.md
+  diff_url: https://github.com/waylonwalker/waylonwalker.com/commit/d3b1fe7083dbeffea0e28578ec8c1d0b2833e478#diff-79eec5095bd2bb38d8b4a4d6003711e90feb7f0bea42e2316f5e856595eca5e6
+  summary: Imported GPT-6 Luna copy edits after the owner confirmed exclusive authorship
+    of these post diffs.
 ---
 
 Yesterday my daughter and I were waiting for her practice to start and we wanted to play a game.  She downloaded an app on her phone that allows you to record your voice and play it in reverse.  Here's the game we came up with.
