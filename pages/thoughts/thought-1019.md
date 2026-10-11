@@ -9,9 +9,13 @@ tags:
   - agents
   - thought
 published: true
-
+authors:
+  - waylon
+  - id: gpt-6-luna
+    role: copy editor
+    details: "Corrected spelling and grammar with GPT-6 Luna."
 ---
 
 ![[https://bsky.app/profile/thdxr.com/post/3mqsgohylgd2v]]
 
-So much nuance in model selection its hard to keep up.
+So much nuance in model selection.  It's hard to keep up.

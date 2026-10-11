@@ -9,9 +9,13 @@ tags:
 published: True
 slug: shots/a-nice-august-bike-ride-with-wyatt
 image: https://dropper.waylonwalker.com/file/fa2f4651-601b-4014-b233-4e620be87f41.webp
-description: Wyatt and I out on the trail for a bike ride in Early August.
-
+description: Wyatt and I out on the trail for a bike ride in early August.
+authors:
+  - waylon
+  - id: gpt-6-luna
+    role: copy editor
+    details: "Corrected spelling and grammar with GPT-6 Luna."
 ---
 
 ![a nice august bike ride with wyatt](https://dropper.waylonwalker.com/file/fa2f4651-601b-4014-b233-4e620be87f41.webp)
-Wyatt and I out on the trail for a bike ride in Early August.
+Wyatt and I out on the trail for a bike ride in early August.

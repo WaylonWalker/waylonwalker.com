@@ -11,6 +11,11 @@ slug: im-done-with-terminals
 template: link
 image: ""
 url: "https://youtube.com/watch?v=dLhcLqoff6k"
+authors:
+  - waylon
+  - id: gpt-6-luna
+    role: copy editor
+    details: "Corrected spelling and grammar with GPT-6 Luna."
 ---
 
 Hard agree with Theo, terminals suck to use on a phone.  Unless you have an attached keyboard they are unusable IMHO.
@@ -21,6 +26,6 @@ https://youtu.be/dLhcLqoff6k?t=1354&is=xDCw0PpqH2zkZDou
 
 This part of the pitch is fantastic.  I think most of the people I talk to can relate to being unsure about when to start work because you want to keep your agents working.
 
-My morning process generally includes walking around tmux greeting all of my agents that were working hard last night and unblocking them to get them going for the day.  Before even opening team chat, but after checking status pages that #1.
+My morning process generally includes walking around tmux greeting all of my agents that were working hard last night and unblocking them to get them going for the day.  Before even opening team chat, but after checking status pages that's #1.
 
 My going home routine now has to start about an hour before I leave questioning whether I should start a session or not.

@@ -7,9 +7,13 @@ tags:
   - dev
   - thought
 published: true
-
+authors:
+  - waylon
+  - id: gpt-6-luna
+    role: copy editor
+    details: "Corrected spelling and grammar with GPT-6 Luna."
 ---
 
 ![[https://www.youtube.com/shorts/BG4tjLZ7G1Q]]
 
-I had no idea how these pipes work, I've accidentally spawned so many that have sat there and waited for something to come down the pipe, but did not know this is what was happening.
+I had no idea how these pipes worked, I've accidentally spawned so many that have sat there and waited for something to come down the pipe, but did not know this was what was happening.

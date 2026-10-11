@@ -5,10 +5,14 @@ title: "Is Your Org Ready For Agents"
 tags:
   - "Agents"
 published: true
-
+authors:
+  - waylon
+  - id: gpt-6-luna
+    role: copy editor
+    details: "Corrected spelling and grammar with GPT-6 Luna."
 ---
 
-Listening to this video and feeling inspired.  Its crazy how the Conference ==AI Engineer== feels like such a hype bro conference ready to tell you just do more, let go, you're cooked if your not on the train, gaslighting you to believe something they lack evidence in.  But what it really is, is a group of talks that are done by some of the best engineers trying to make it through this transisition just like the rest of us.  Drawing the lines between the past and the current.  How do you get comfortable with the current without letting go, without giving in to shipping slop, but shipping real good work with confidence.
+Listening to this video and feeling inspired.  It's crazy how the Conference ==AI Engineer== feels like such a hype bro conference ready to tell you just do more, let go, you're cooked if you're not on the train, gaslighting you to believe something they lack evidence for.  But what it really is, is a group of talks that are done by some of the best engineers trying to make it through this transition just like the rest of us.  Drawing the lines between the past and the current.  How do you get comfortable with the current without letting go, without giving in to shipping slop, but shipping real good work with confidence.
 
 https://youtube.com/watch?v=Se8jHLliLXE
 
@@ -28,7 +32,7 @@ I'm sure I'm missing a lot here, but this is what I'm thinking off the cuff.  If
 ## Testing
 _do new changes cause regressions to working features_
 
-Can you to the best of your ability say what you are about to ship is of high quality and provides new features with fewer bugs?  Can you prove that your code compiles?  Can you prove that your code is not going to shit the bed given a valid input type from the user?
+Can you, to the best of your ability, say what you are about to ship is of high quality and provides new features with fewer bugs?  Can you prove that your code compiles?  Can you prove that your code is not going to shit the bed given a valid input type from the user?
 
 ## CI
 
@@ -36,16 +40,16 @@ Everything done in testing, done automatically and blocking merge into the main 
 
 ## CD
 
-Once you have passed all of your tests and made the merge, do you have a system to build good reliable repeatable artifacts.  Does it include the smallest possible surface area for attack, thinkig heavily about supply chain attacks at%his point in time.
+Once you have passed all of your tests and made the merge, do you have a system to build good reliable repeatable artifacts.  Does it include the smallest possible surface area for attack, thinking heavily about supply chain attacks at this point in time.
 
 ## OTEL
 
 _Monitoring with logs, spans, and traces_
 
-Can you see bugs in production, who is affected by them and make good decisions around how to fix, what to fix, rollback vs fix forward.
+Can you see bugs in production, who is affected by them, and make good decisions about how to fix them, what to fix, and whether to roll back or fix forward?
 
 ## Flexible Infrastructure
 
-Can you rollback quickly?
+Can you roll back quickly?
 
-Can you rollout a new release quickly?
+Can you roll out a new release quickly?

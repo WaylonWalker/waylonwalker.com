@@ -10,6 +10,11 @@ tags:
   - ai
   - Linux
   - dev
+authors:
+  - waylon
+  - id: gpt-6-luna
+    role: copy editor
+    details: "Corrected spelling and grammar with GPT-6 Luna."
 ---
 
-Will models become more stubborn as we use them more and feed us using them as long running agents where we simply ask for what seems to be an impossible task to be spit out by the all mighty clanker with all of the time in the world to try every way possible, add obnoxious amounts of telemetry, and somehow digest the flood of data it brings back?
+Will models become more stubborn as we use them more and feed us using them as long running agents where we simply ask for what seems to be an impossible task to be spit out by the almighty clanker with all of the time in the world to try every way possible, add obnoxious amounts of telemetry, and somehow digest the flood of data it brings back?

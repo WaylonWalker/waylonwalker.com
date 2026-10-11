@@ -5,16 +5,20 @@ title: "how to set up a boot drive"
 tags:
   - "linux"
 published: true
-
+authors:
+  - waylon
+  - id: gpt-6-luna
+    role: copy editor
+    details: "Corrected spelling and grammar with GPT-6 Luna."
 ---
 
-First Find your usb disk. You should be able to identify it by size and name using lsblk.
+First, find your usb disk. You should be able to identify it by size and name using lsblk.
 
 ``` bash
 lsblk -o NAME,SIZE,MODEL,TRAN,RM,MOUNTPOINTS
 ```
 
-Here I see my good ol Trans-It Drive.  It's not fancy, it wasnt even at the time it was new, but I have it and it works. next we run the ==disk destroyer== `dd` to copy raw bytes right on to the drive.
+Here I see my good ol Trans-It Drive.  It's not fancy.  It wasn't even at the time it was new, but I have it and it works. Next, we run the ==disk destroyer== `dd` to copy raw bytes right on to the drive.
 
 !!! warning
 

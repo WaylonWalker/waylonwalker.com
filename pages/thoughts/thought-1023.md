@@ -7,9 +7,13 @@ tags:
   - life
   - thought
 published: true
-
+authors:
+  - waylon
+  - id: gpt-6-luna
+    role: copy editor
+    details: "Corrected spelling and grammar with GPT-6 Luna."
 ---
 
 ![[https://youtube.com/watch?v=oMnpatXgMzU&is=Hc3yGTgzP2WsRQBi]]
 
-Interesting tangent here on sleep, Adam talks about jet lag and his experience taking abien to shift his sleep schedule.  In his experience it helped fix the sleep schedule, but did nothing to change how he actually felt during that time of re orienting in a new drastically different time zone.  He was reminded of all of the sleep studies they did on mythbusters and how they found that it did not matter so much how much "sleep" you got that lying there still and quiet was nearly as effective as sleeping.  Knowing this will, like others mentioned, will greatly relieve the sleep pressure I feel on nights of restlessness.
+Interesting tangent here on sleep, Adam talks about jet lag and his experience taking Ambien to shift his sleep schedule.  In his experience it helped fix the sleep schedule, but did nothing to change how he actually felt during that time of reorienting in a new drastically different time zone.  He was reminded of all of the sleep studies they did on MythBusters and how they found that it did not matter so much how much "sleep" you got that lying there still and quiet was nearly as effective as sleeping.  Knowing this, as others mentioned, will greatly relieve the sleep pressure I feel on nights of restlessness.

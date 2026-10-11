@@ -10,10 +10,14 @@ tags:
   - notetaking
   - gift
 description: "I don't know where Field Notes gets off charging $5.00 a pop for pocket notebooks, but you can make a DIY version for less than a buck. Tools Used (Affiliate..."
-
+authors:
+  - waylon
+  - id: gpt-6-luna
+    role: copy editor
+    details: "Corrected spelling and grammar with GPT-6 Luna."
 ---
 
-This is the first time I've seen or heard of Perry Daniels, I really like his editing style, it reminds me of good eats; the tone, tempo, the resesarch, the odd camera angles.
+This is the first time I've seen or heard of Perry Daniels, I really like his editing style, it reminds me of Good Eats; the tone, tempo, the research, the odd camera angles.
 
 I found this video very inspiring to go make something, My wife likes to keep field notes and sometimes has one for a few different tasks at the same time.  It would be so cool to make her some custom ones for each.
 

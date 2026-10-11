@@ -9,9 +9,13 @@ tags:
 published: True
 slug: shots/wild-turkey-on-the-bike-trail
 image: https://dropper.waylonwalker.com/file/cfb26921-19b6-4e7b-891c-7eecbe67dc1c.webp
-description: There was a wild turkey chillin on the side of the bike trail on wyatt and I's ride.
-
+description: There was a wild turkey chillin on the side of the bike trail during my ride with Wyatt.
+authors:
+  - waylon
+  - id: gpt-6-luna
+    role: copy editor
+    details: "Corrected spelling and grammar with GPT-6 Luna."
 ---
 
 ![wild turkey on the bike trail](https://dropper.waylonwalker.com/file/cfb26921-19b6-4e7b-891c-7eecbe67dc1c.webp)
-There was a wild turkey chillin on the side of the bike trail on wyatt and I's ride.
+There was a wild turkey chillin on the side of the bike trail during my ride with Wyatt.

@@ -5,7 +5,11 @@ title:
 published: true
 tags:
   - ping
-
+authors:
+  - waylon
+  - id: gpt-6-luna
+    role: copy editor
+    details: "Corrected spelling and grammar with GPT-6 Luna."
 ---
 
 Usage Resets??
@@ -16,7 +20,7 @@ they auto apply and this is why I get the weirdest reset experience on the
 usage chart or what.
 
 ![ce50cedb-fd88-4e39-83d3-698b2f7be399.webp](https://dropper.waylonwalker.com/file/ce50cedb-fd88-4e39-83d3-698b2f7be399.webp)
-I have 3?  they expire soon, how many have I missed out on.
+I have 3?  They expire soon.  How many have I missed out on?
 
 
 ![e231adb7-aa02-49e7-a2f1-ccd149947cfd.webp](https://dropper.waylonwalker.com/file/e231adb7-aa02-49e7-a2f1-ccd149947cfd.webp)

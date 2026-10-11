@@ -6,12 +6,16 @@ published: true
 tags:
   - linux
   - vim
-
+authors:
+  - waylon
+  - id: gpt-6-luna
+    role: copy editor
+    details: "Corrected spelling and grammar with GPT-6 Luna."
 ---
 
-I don't run into windows file endings very often, so when I see little `^M`'s
-all over your file, I think "shit I know what these are and cant remember"
-They represent the windows carriage return.
+I don't run into Windows file endings very often, so when I see little `^M`'s
+all over your file, I think "shit I know what these are and can't remember"
+They represent the Windows carriage return.
 
 ## Linux vs Unix Line Endings
 
@@ -21,9 +25,9 @@ to press to get a new line and return the carriage back to the beginning.
 
 ## Vim/Neovim
 
-When I open up a file and see this garbage all over, its not cozy, I want them
-gone, I dont want them all over my editor.  I'm not sure what this would look
-like on windows, I haven't been able to afford a windows machine in years, but
+When I open up a file and see this garbage all over, it's not cozy, I want them
+gone, I don't want them all over my editor.  I'm not sure what this would look
+like on Windows, I haven't been able to afford a Windows machine in years, but
 its gross on my machine.
 
 ![131d6463-bcbb-4ee8-80aa-bb7355915eb9.webp](https://dropper.waylonwalker.com/file/131d6463-bcbb-4ee8-80aa-bb7355915eb9.webp)

@@ -7,10 +7,14 @@ published: true
 tags: 
  - webdev
 image: https://shots.waylonwalker.com/shot/?url=https%3A%2F%2Fvoice-reverse.waylonwalker.com%2F&height=630&width=1200&scaled_width=1200&scaled_height=630&format=jpg
-
+authors:
+  - waylon
+  - id: gpt-6-luna
+    role: copy editor
+    details: "Corrected spelling and grammar with GPT-6 Luna."
 ---
 
-Yesterday my daughter an I were waiting for her practice to start and we wanted to play a game.  She downloaded an app on her phone that allows you to record your voice and play it in reverse.  Here's the game we come up with.
+Yesterday my daughter and I were waiting for her practice to start and we wanted to play a game.  She downloaded an app on her phone that allows you to record your voice and play it in reverse.  Here's the game we came up with.
 
 1. say a word in the recording
 1. play it back in reverse to the next person
@@ -18,23 +22,23 @@ Yesterday my daughter an I were waiting for her practice to start and we wanted 
 
 ![19da0872-340f-4470-bcbc-475282808de9.webm](https://dropper.wayl.one/file/19da0872-340f-4470-bcbc-475282808de9.webm?width=400)
 
-Every single one was followed up with a _Suppa ==Hot== Fire_ Ahh^hhh^~hh~ reaction by everyone around. They all sounded like complete gibberish, yet came out like the person was talking in a weird accent. Everyone was shocked to hear it was understandable what they were saying revering their reverse speech.
+Every single one was followed up with a _Suppa ==Hot== Fire_ Ahh^hhh^~hh~ reaction by everyone around. They all sounded like complete gibberish, yet came out like the person was talking in a weird accent. Everyone was shocked to hear it was understandable what they were saying reversing their speech.
 
 ## Seriously give it a try
 
-==especially== if you have kids, its so **fun** to have a small group of people speaking gibberish and out comes something understandable.
+==Especially== if you have kids, it's so **fun** to have a small group of people speaking gibberish and out comes something understandable.
 
 ## Next Day
 
 The next day I was out with my son and telling him about how cool the game was and how you just gotta hear it to understand it.  I was driving so I handed him my phone and said download an app that reverses your voice.
 
-## The app store is broke
+## The app store is broken
 
-He proceeded to download 4 apps.  One required an external log in. The other 3 started rolling 2 minute ads before we were allowed in.  It was all shitty bloatware.  I'm not sure if my daughter got lucky or they protect kids from getting the same level of **garbage** I was getting from the app store, but **every** single one we tried was hot trash.
+He proceeded to download four apps.  One required an external log in. The other 3 started rolling 2 minute ads before we were allowed in.  It was all shitty bloatware.  I'm not sure if my daughter got lucky or they protect kids from getting the same level of **garbage** I was getting from the app store, but **every** single one we tried was hot trash.
 
 > At this point I'm getting ==pissed==.
 
-I was getting frustrated, this should be the most basic app.  Like something 100 people have shipped out there as a demo app for their portfolio.  The basics cannot be that complicated and just build on what android already gives you right?  I'm getting pissed, I just want a thing to do a thing, its simple right? 
+I was getting frustrated, this should be the most basic app.  Like something 100 people have shipped as a demo for their portfolio.  The basics cannot be that complicated and just build on what android already gives you right?  I'm getting pissed, I just want a thing to do a thing, it's simple, right? 
 
 ## just hand me the phone
 _==GIVE== me that thing_
@@ -58,6 +62,6 @@ I want to keep this a pure `one-shot` as much as I can for now, but I wanted the
 
 ## Personal Software FTW
 
-This is the age of personal software.  For those of you asking _If this **ai** stuff is so good where is the shovelware?_  here it is.  Its killing the shovelware.  You can just make your own thing the moment you need it, ship it, share it, or throw it away.  There's no need to market it or sell it or shove it in anyone's face, they can just make their own how they want it.
+This is the age of personal software.  For those of you asking _If this **ai** stuff is so good where is the shovelware?_  here it is.  It's killing the shovelware.  You can just make your own thing the moment you need it, ship it, share it, or throw it away.  There's no need to market it or sell it or shove it in anyone's face, they can just make their own how they want it.
 
-I hear DHH say that eventually languages will be dead and we will be asking in English and machine code for any CPU architecture you want will just pop out.  That's a little wild and far fetched, but we are kinda there.  I've yet to have an experience like this.  A fairly ==normie== experience where I cant find what I want and wish it into existence and it just pops out.  No agents or anything fancy _besides maybe the k8s deployment_ and I just got an app that I was looking for better and faster than we could find one on the app store.  Maybe there are 100 like this out there on the web and we just didn't look, maybe there's one on the apple store you can pay two bucks for, but now this one is mine and I can make it do whatever the heck I want it to do by whispering sweet nothings into the magic genies ear
+I hear DHH say that eventually languages will be dead and we will be asking in English and machine code for any CPU architecture you want will just pop out.  That's a little wild and far fetched, but we are kinda there.  I've yet to have an experience like this.  A fairly ==normie== experience where I can't find what I want and wish it into existence and it just pops out.  No agents or anything fancy _besides maybe the k8s deployment_ and I just got an app that I was looking for better and faster than we could find one on the app store.  Maybe there are 100 like this out there on the web and we just didn't look, maybe there's one on the Apple Store you can pay two bucks for, but now this one is mine and I can make it do whatever the heck I want it to do by whispering sweet nothings into the magic genie's ear

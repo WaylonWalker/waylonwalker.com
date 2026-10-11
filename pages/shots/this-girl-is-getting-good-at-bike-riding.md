@@ -7,9 +7,13 @@ tags:
 published: true
 slug: shots/this-girl-is-getting-good-at-bike-riding
 image: "https://dropper.waylonwalker.com/file/e4bdfb0b-6ab6-460e-8d8d-f72eaf690336.webp"
-description: "Ayla has put in so much effort in lately to get over her fears of riding a bike and has gone all the way up to laps around the entire neighborhood."
-
+description: "Ayla has put in so much effort lately to get over her fears of riding a bike and has gone all the way up to laps around the entire neighborhood."
+authors:
+  - waylon
+  - id: gpt-6-luna
+    role: copy editor
+    details: "Corrected spelling and grammar with GPT-6 Luna."
 ---
 
 ![This Girl Is Getting Good At Bike Riding](https://dropper.waylonwalker.com/file/e4bdfb0b-6ab6-460e-8d8d-f72eaf690336.webp)
-Ayla has put in so much effort in lately to get over her fears of riding a bike and has gone all the way up to laps around the entire neighborhood.
+Ayla has put in so much effort lately to get over her fears of riding a bike and has gone all the way up to laps around the entire neighborhood.

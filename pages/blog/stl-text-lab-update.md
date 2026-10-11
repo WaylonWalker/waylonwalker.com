@@ -6,10 +6,14 @@ tags:
   - "3d-printing"
 published: true
 image: https://dropper.waylonwalker.com/file/0a8d8ea3-6dac-47e6-89a1-920adc38c98f.webp
-
+authors:
+  - waylon
+  - id: gpt-6-luna
+    role: copy editor
+    details: "Corrected spelling and grammar with GPT-6 Luna."
 ---
 
-I'm building out a set of tools for 3d printing.  Things that I have not found out there yet, they may exist, they may not.  The first was [[ caps ]], Now I'm taking the core of that project and starting a new one. Not sure if it counts as an update when I have had a lack of really posting about it.
+I'm building out a set of tools for 3d printing.  Things that I have not found out there yet, they may exist, they may not.  The first was [[ caps ]].  Now I'm taking the core of that project and starting a new one. Not sure if it counts as an update when I have had a lack of really posting about it.
 
 ## putting text on stl
 

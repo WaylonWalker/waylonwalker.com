@@ -5,7 +5,11 @@ title: unlock a locked gpg key
 published: true
 tags:
   - python
-
+authors:
+  - waylon
+  - id: gpt-6-luna
+    role: copy editor
+    details: "Corrected spelling and grammar with GPT-6 Luna."
 ---
 
 I ran into an issue where my `pinentry` was unable to connect, blocking me from
@@ -18,5 +22,5 @@ gpg-connect-agent updatestartuptty /bye
 printf test | gpg \
   --local-user 9A47900E81415D65C32C630066E2BF2B4190EFE4 \
   --pinentry-mode loopback \
-  --sign >/dev/nul
+  --sign >/dev/null
 ```

@@ -7,11 +7,15 @@ tags:
   - dev
   - thought
 published: true
-
+authors:
+  - waylon
+  - id: gpt-6-luna
+    role: copy editor
+    details: "Corrected spelling and grammar with GPT-6 Luna."
 ---
 
 ![[https://youtube.com/watch?v=sMujMp4h_EY]]
 
-Interesting thoughts from a real OG Kent Beck.  He argues we are whitnissing the biggest advancement in computing in 40 years.  For 40 years we have been almost exclusively writing in compiled languages.  Languages that output to some sort of binary compiled assembly instructions for each processor type.  Before that it was all hand written instructions directly to CPU.  Now we are seeing the genie revolution.  The genie is good a writing in many different programming languages given english prompts.  It loves to complete problems and is not afraid to write lots of code very quickly.  Its quite good at skirting around our best judgement in order to accomplish the goal we set.
+Interesting thoughts from a real OG Kent Beck.  He argues we are witnessing the biggest advancement in computing in 40 years.  For 40 years we have been almost exclusively writing in compiled languages.  Languages that output to some sort of binary compiled assembly instructions for each processor type.  Before that it was all hand written instructions directly to CPU.  Now we are seeing the genie revolution.  The genie is good at writing in many different programming languages given English prompts.  It loves to complete problems and is not afraid to write lots of code very quickly.  It's quite good at skirting around our best judgement in order to accomplish the goal we set.
 
-Some take aways from this talk is that NO ONE knows what the fuck is next.  No one knows the best ways to use these things.  Everyone has their own opinion wrapped around their experience that might be wildly different than yours.  It seems clear this is changing every day and ways no one can measure, predict, or prepare for.  So much sits in the hands of model labs and model providers.  Without real access to any of it, its all magic.
+One takeaway from this talk is that NO ONE knows what the fuck is next.  No one knows the best ways to use these things.  Everyone has their own opinion wrapped around their experience that might be wildly different than yours.  It seems clear this is changing every day in ways no one can measure, predict, or prepare for.  So much sits in the hands of model labs and model providers.  Without real access to any of it, it's all magic.
