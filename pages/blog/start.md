@@ -7,7 +7,10 @@ tags:
   - slash
 published: True
 jinja: True
-
+authors:
+- waylon
+- id: gpt-6.1-sol
+  role: copy editor
 ---
 
 Welcome to waylonwalker.com, my small corner of the internet.  I currently have
@@ -27,5 +30,5 @@ rss reader, you can find them on my [[ feeds ]] page. #meta
 they are typically not targeted to a specific moment in time, but designed to
 be ever living.
 
-{% for post in posts %}{% if "slash" in post.tags %}* [[ {{ post.slug }} ]] - {{ post.description }}
+{% for post in posts %}{% if "slash" in post.tags %}* [{{ post.title }}](/{{ post.slug }}/) - {{ post.description | striptags }}
 {% endif %}{% endfor %}
