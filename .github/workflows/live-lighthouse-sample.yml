@@ -1,0 +1,112 @@
+name: Live Lighthouse sample
+on:
+  push:
+    branches: [audit/lighthouse-site-sample-20261013]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+      matrix:
+        include:
+          - {key: home, path: /}
+          - {key: article, path: /i-built-a-tmux-session-switcher/}
+          - {key: archive, path: /archive/}
+          - {key: feeds, path: /feeds/}
+          - {key: reader, path: /reader/}
+          - {key: shots, path: /shots/}
+          - {key: garden, path: /garden/}
+          - {key: shorts, path: /shorts/}
+          - {key: images, path: /images/}
+    steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Lighthouse
+        run: npm install --global lighthouse@latest && lighthouse --version
+      - name: Run two mobile and one desktop audits
+        env:
+          PAGE_KEY: ${{ matrix.key }}
+          PAGE_PATH: ${{ matrix.path }}
+        run: |
+          set -euo pipefail
+          mkdir -p reports
+          url="https://waylonwalker.com$PAGE_PATH"
+          for profile in mobile mobile desktop; do
+            if [[ "$profile" == "desktop" ]]; then
+              number=1
+              preset="--preset=desktop"
+            elif [[ -e "reports/$PAGE_KEY-mobile-1.json" ]]; then
+              number=2
+              preset=""
+            else
+              number=1
+              preset=""
+            fi
+            report="reports/$PAGE_KEY-$profile-$number.json"
+            echo "RUNNING $url $profile #$number"
+            rc=0
+            lighthouse "$url" --quiet --chrome-flags="--headless --no-sandbox --disable-dev-shm-usage" --only-categories=performance,accessibility,best-practices,seo --max-wait-for-load=45000 --output=json --output-path="$report" $preset >"$report.log" 2>&1 || rc=$?
+            if [[ -s "$report" ]]; then
+              jq -c --arg key "$PAGE_KEY" --arg profile "$profile" --arg number "$number" '{key:$key,profile:$profile,number:($number|tonumber),url:.requestedUrl,final_url:.finalDisplayedUrl, scores:(.categories|with_entries(.value=(if .value.score == null then null else (.value.score*100|round) end))),metrics:{lcp_ms:.audits["largest-contentful-paint"].numericValue,fcp_ms:.audits["first-contentful-paint"].numericValue,tbt_ms:.audits["total-blocking-time"].numericValue,cls:.audits["cumulative-layout-shift"].numericValue},error:.runtimeError.message}' "$report" >"reports/$PAGE_KEY-$profile-$number.summary.json" || true
+            fi
+            if [[ ! -s "reports/$PAGE_KEY-$profile-$number.summary.json" ]]; then
+              jq -nc --arg key "$PAGE_KEY" --arg profile "$profile" --arg number "$number" --arg rc "$rc" '{key:$key,profile:$profile,number:($number|tonumber),error:("Lighthouse failed (exit "+$rc+")")}' >"reports/$PAGE_KEY-$profile-$number.summary.json"
+            fi
+            echo "LIGHTHOUSE_RESULT $(cat "reports/$PAGE_KEY-$profile-$number.summary.json")"
+          done
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: lighthouse-${{ matrix.key }}
+          path: reports/
+          retention-days: 14
+
+  summary:
+    needs: audit
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: lighthouse-*
+          path: reports/
+          merge-multiple: true
+      - name: Summarize
+        run: |
+          python3 - <<'PY'
+          import glob, json, statistics, pathlib
+          rows = [json.load(open(f)) for f in glob.glob("reports/*.summary.json")]
+          names = ["home","article","archive","feeds","reader","shots","garden","shorts","images"]
+          def val(items,key):
+              xs=[r["scores"].get(key) for r in items if r.get("scores") and r["scores"].get(key) is not None]
+              return str(round(statistics.median(xs),1)) if xs else "-"
+          def metric(items,key,scale=1):
+              xs=[r["metrics"].get(key) for r in items if r.get("metrics") and r["metrics"].get(key) is not None]
+              return str(round(statistics.median(xs)/scale,2)) if xs else "-"
+          lines=["# Live Lighthouse: 2 mobile + 1 desktop per page", "", "| Page | Mobile Perf | Desktop Perf | A11y | Best Practices | SEO | Mobile LCP (s) | Mobile TBT (ms) | CLS |",
+                 "|---|---:|---:|---:|---:|---:|---:|---:|---:|"]
+          for name in names:
+              m=[r for r in rows if r["key"]==name and r["profile"]=="mobile"]
+              d=[r for r in rows if r["key"]==name and r["profile"]=="desktop"]
+              lines.append("| "+" | ".join([name,val(m,"performance"),val(d,"performance"),val(m,"accessibility"),val(m,"best-practices"),val(m,"seo"),metric(m,"lcp_ms",1000),metric(m,"tbt_ms"),metric(m,"cls")])+" |")
+          lines += ["", "## Failed audits", ""]
+          for r in rows:
+              if r.get("error"):
+                  lines.append("- "+r["key"]+" "+r["profile"]+" #"+str(r["number"])+": "+str(r["error"]))
+          output="\n".join(lines)+"\n"
+          pathlib.Path("summary.md").write_text(output)
+          print(output)
+          PY
+          cat summary.md >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: lighthouse-summary
+          path: summary.md
+          retention-days: 14
