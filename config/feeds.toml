@@ -19,9 +19,7 @@ filter = """
 sort = "date"
 reverse = true
 primary = true
-# Keep the mixed archive page light. Older posts remain available through HTMX
-# pagination instead of rendering dozens of full-content TIL cards at once.
-items_per_page = 20
+items_per_page = 50
 pagination_type = "htmx"
 sidebar=true
 
