@@ -9,15 +9,15 @@ published: True
 jinja: True
 authors:
 - waylon
-- id: gpt-6.1-sol
+- id: gpt-6-luna
   role: copy editor
 editorial_history:
 - schema_version: 1
   event_id: 9c60e8f3-c1f2-45fc-bcd9-412e86863e44:pages/blog/start.md
-  author: gpt-6.1-sol
+  author: gpt-6-luna
   role: copy-editor
   action: edited
-  recorded_by: gpt-6.1-sol
+  recorded_by: gpt-6-luna
   recorded_at: '2026-10-13T23:37:34.182278+00:00'
   base_commit: c17ef1c17f376ab8834a2053ce94c3c23b3b9563
   commit: 725f802db43dc81fa579d53c3a152eba9062853d
