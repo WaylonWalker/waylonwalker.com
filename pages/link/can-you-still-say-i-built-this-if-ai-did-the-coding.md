@@ -11,4 +11,4 @@ description: "Video Credit Mentioned in the This Video: https://www.youtube.com/
 
 ---
 
-What a doomer take.  Hard to argue with any of it.  Basically a large portion of us are cooked, if you think your not what do you think happens when half of the population gets displaced?
+What a doomer take.  Hard to argue with with Chris here.  Im trying to stay positive a s just do my job to thr best of my ability without getting too wrapped up in negativity.  Basically he repeats the claims of ai labs and how many have been eventually correct.  If it continues a large portion of us are cooked, if you think your not what do you think happens when half of the population gets displaced?

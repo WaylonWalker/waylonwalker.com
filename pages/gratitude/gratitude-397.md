@@ -1,0 +1,11 @@
+---
+date: 2026-10-14T00:07:40Z
+templateKey: gratitude
+title: Gratitude 397
+published: true
+tags:
+  - gratitude
+
+---
+<!-- markata-encrypted-source:v1 key=default -->
+QrelYs7ISv8PutcBSgDaSZ3VPV/7+B+sc97CcSuChALzGRRL14ruVf1NnDqAI1ZerWNcs+LhcShfAoHyYZGCYanBqZlEjJOB0ENzbUg3qUgtsSWcoogYablYwqu1/P4jNDhobr+A4b3JaZZSVjlRkQltOvx4YYQE/jF+i5hUvmwEM2s3NMa26gr7+zjh5mGsP/CSNb0NSqhYp1TKGgLfLupe6jPmUdGEitD6+phyRybnx1rTxUQTwgA7J9KAam0XODuQJHWgZ4p7JYkyIsbSKaxPD41HkMbbuBt4iWUB6ZoxP0lhgdQ7e+G0ePLF2t8ggseNN0LafIF2JqfhV9BbzcDuDWvEYYWHRnaXzaeKJ09Zwu9uSDN/Ami7G81yCwQM3Gbs/2yOzjlwd37RolTHbgv+O5kxqcOLTZsrxjC1hUXfklzvZbdWeTPENFj+9lYC+pRevLNr/92p/fB+iyujHC81PhaRmQl+TMB/8HLmHuFGn99NpsoZjWdg1aLbJhxbaFYWhSfWN5zHpPtRLXfoJOeoFrmbUsTrX1ZZEFoTfoE5kvS7+9WQLhg90WMmwc32TxGwYZK8P8zWrnVYLjhnQnKE2GF6R5ZG03+TvtKREtPdVAeFfhflPgMnJgwTVmaLq3NAUUYmSprg44WFcZt79hWKk39OCgCxlpgyQTUSBKMGbINzQLF6lM1PiKIES6VDQxLlEcKE/ZOBqv1ZL0I28cLpgIVFl7eKLY76gtpQwfhxiEZkP0yXbjVJ0B+HrGE8mn0=
