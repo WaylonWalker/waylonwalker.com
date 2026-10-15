@@ -104,7 +104,10 @@ use_gitignore = true
 max_nodes = 100000
 
 # Enable thoughts plugin for PESOS functionality
-hooks = ["default", "thoughts", "wikilink_hover", "webawesome"]
+hooks = ["default", "thoughts", "wikilink_hover", "webawesome", "image_optimization"]
+
+[markata-go.image_optimization]
+enabled = true
 
 # ╔═════════════════════════════════════════════════════════════════════════════╗
 # ║ THOUGHTS PLUGIN CONFIGURATION (PESOS)                                       ║
