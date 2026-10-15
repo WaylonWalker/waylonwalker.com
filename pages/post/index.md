@@ -58,7 +58,7 @@ intro_cards:
 
 ## Recent [TIL](/til/)
 
-{{ render_feed("til", 8, "card") }}
+{{ render_feed("til", 8, "summary") }}
 
 [See all TIL posts &rarr;](/til/){.home-see-more}
 
