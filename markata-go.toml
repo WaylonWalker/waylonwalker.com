@@ -11,6 +11,7 @@ license = "cc-by-4.0"
 hooks = ["default", "thoughts", "wikilink_hover", "webawesome", "image_optimization"]
 include = [
   "config/theme.toml",
+  "config/homepage-performance.toml",
   "config/components.toml",
   "config/feeds.toml",
   "config/blogroll.toml",
