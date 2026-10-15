@@ -1,3 +1,6 @@
 [markata-go.css_bundle]
 enabled = true
 pages = ["index.html"]
+
+[markata-go.css_purge]
+enabled = true
