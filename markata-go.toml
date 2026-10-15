@@ -8,6 +8,7 @@ fontpack = "handwritten"
 description = "Waylon Walker's personal blog"
 url = "https://waylonwalker.com"
 license = "cc-by-4.0"
+hooks = ["default", "thoughts", "wikilink_hover", "webawesome", "image_optimization"]
 include = [
   "config/theme.toml",
   "config/components.toml",
@@ -104,7 +105,7 @@ use_gitignore = true
 max_nodes = 100000
 
 # Enable thoughts plugin for PESOS functionality
-hooks = ["default", "thoughts", "wikilink_hover", "webawesome", "image_optimization"]
+hooks = ["default", "thoughts", "wikilink_hover", "webawesome"]
 
 [markata-go.image_optimization]
 enabled = true
