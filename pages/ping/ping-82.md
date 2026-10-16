@@ -1,10 +1,10 @@
 ---
-date: 2026-10-16T23:27:04Z
+date: 2026-10-14T00:14:19Z
 templateKey: ping
-title: "Personal software is better"
+title: "Start your own learning platform"
 published: true
 tags:
   - ping
 
 ---
-If gippity can vomit out software 80% of what you made I aint using it anymore, I get way more value from asking the magic clanker to make it for me that I do trying to figure out how to use yours.
+a 
