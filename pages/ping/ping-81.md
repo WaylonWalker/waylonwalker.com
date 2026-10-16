@@ -1,10 +1,11 @@
 ---
-date: 2026-10-14T00:14:19Z
+date: 2026-10-16T14:02:40Z
 templateKey: ping
-title: "Start your own learning platform"
+title: "delete agents md after model release"
 published: true
 tags:
   - ping
 
 ---
-a 
+
+Friendly reminder that you need to delete your agents.md
