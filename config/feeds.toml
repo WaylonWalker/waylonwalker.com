@@ -3,6 +3,7 @@
 slug = "archive"
 presentation = "editorial"
 title = "Archive"
+presentation = "editorial"
 description = "All published posts"
 filter = """
   date<=today and (
