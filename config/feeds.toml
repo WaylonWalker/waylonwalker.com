@@ -1,6 +1,7 @@
 # Archive feed - all published posts, newest first
 [[markata-go.feeds]]
 slug = "archive"
+presentation = "editorial"
 title = "Archive"
 description = "All published posts"
 filter = """
