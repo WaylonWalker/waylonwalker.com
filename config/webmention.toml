@@ -88,6 +88,28 @@ value = """
 </style>
 """
 
+[[markata-go.head.text]]
+value = """
+<style>
+@font-face {
+  font-family: "Source Sans 3 Fallback";
+  src: local("Arial");
+  size-adjust: 90.48%;
+  ascent-override: 113.17%;
+  descent-override: 44.21%;
+  line-gap-override: 0%;
+}
+html[data-fontpack="handwritten"],
+html[data-fontpack="dry-brush"],
+html[data-fontpack="field-notebook"],
+html[data-fontpack="marker-note"],
+html[data-fontpack="painted-sign"] {
+  --font-body: "Source Sans 3", "Source Sans 3 Fallback", system-ui,
+    -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+</style>
+"""
+
 [markata-go.webmention]
 enabled = true
 endpoint = "https://webmention.io/waylonwalker.com/webmention"
