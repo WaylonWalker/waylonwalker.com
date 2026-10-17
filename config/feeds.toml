@@ -20,8 +20,8 @@ filter = """
 sort = "date"
 reverse = true
 primary = true
-items_per_page = 50
-pagination_type = "htmx"
+items_per_page = 12
+pagination_type = "htmx-infinite"
 sidebar=true
 
 # Blog feed - full blog posts only
