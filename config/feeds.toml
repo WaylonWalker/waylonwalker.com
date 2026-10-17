@@ -20,8 +20,10 @@ filter = """
 sort = "date"
 reverse = true
 primary = true
-items_per_page = 12
-pagination_type = "htmx-infinite"
+# The compact weekly editorial layout benefits from a longer reading window.
+# Use explicit page links: HTMX infinite-scroll hides navigation with JavaScript enabled.
+items_per_page = 30
+pagination_type = "manual"
 sidebar=true
 
 # Blog feed - full blog posts only
