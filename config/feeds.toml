@@ -20,9 +20,12 @@ filter = """
 sort = "date"
 reverse = true
 primary = true
-# The compact weekly editorial layout benefits from a longer reading window.
-# Use explicit page links: HTMX infinite-scroll hides navigation with JavaScript enabled.
-items_per_page = 30
+# Keep an approximately eight-week editorial reading window while retaining
+# ordinary, crawlable older/newer links. markata-go PR #1651 ensures a week
+# isn't split when the minimum post count is reached.
+# This value is a minimum; a busy final week can extend the page.
+items_per_page = 48
+# Manual pagination keeps navigation accessible without JavaScript.
 pagination_type = "manual"
 sidebar=true
 
