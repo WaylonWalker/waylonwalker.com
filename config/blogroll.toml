@@ -1397,3 +1397,18 @@ site_url = "https://www.youtube.com/channel/UCld68syR8Wi-GY_n4CaoJGA"
 handle = "brodierobertson"
 image_url = "https://yt3.googleusercontent.com/ytc/AIdro_mfmPEv0_faow63TOWIMqzx3Idan_GRCOtQubiP32skc38=s900-c-k-c0x00ffffff-no-rj"
 active = true
+
+
+# Source of the verification quote in ping-84. Verified via Lauren's own
+# no.lol site and her linked @poteto social/GitHub profiles.
+[[markata-go.blogroll.feeds]]
+url = "https://www.no.lol/rss.xml"
+title = "Lauren Tan"
+description = "Software engineer writing about programming, engineering and leadership"
+category = "development"
+type = "written"
+tags = ["engineering", "programming", "leadership", "written"]
+site_url = "https://www.no.lol/"
+handle = "poteto"
+aliases = ["laurentan"]
+active = true
