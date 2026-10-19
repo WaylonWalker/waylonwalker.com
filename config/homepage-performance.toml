@@ -4,32 +4,3 @@ pages = ["index.html"]
 
 [markata-go.css_purge]
 enabled = true
-
-# Temporary production guard for runtime-only drawer states. The current
-# Markata CSS purge omits .sidebar--pinned because it appears only after JS
-# opens the drawer. Inline critical CSS is not purged, and costs <1 KiB until
-# markata#1711 is published and the site is rebuilt with its corrected engine.
-[[markata-go.head.text]]
-value = """
-<style>
-.feed-sidebar.sidebar--pinned,
-.doc-sidebar.sidebar--pinned,
-.content-sidebar.sidebar--pinned {
-  visibility: visible;
-  transform: none;
-  transition-delay: 0s;
-}
-.feed-sidebar.feed-sidebar--expanded .feed-nav-drawer {
-  max-height: 12rem;
-  opacity: 1;
-}
-@media (min-width: 1201px) {
-  .page-wrapper:has(> .feed-sidebar--left.sidebar--pinned) { --push-left: var(--feed-sidebar-width, 250px); }
-  .page-wrapper:has(> .doc-sidebar--left.sidebar--pinned) { --push-left: var(--doc-sidebar-width, 250px); }
-  .page-wrapper:has(> .content-sidebar--left.sidebar--pinned) { --push-left: var(--content-sidebar-width, 340px); }
-  .page-wrapper:has(> .feed-sidebar--right.sidebar--pinned) { --push-right: var(--feed-sidebar-width, 250px); }
-  .page-wrapper:has(> .doc-sidebar--right.sidebar--pinned) { --push-right: var(--doc-sidebar-width, 250px); }
-  .page-wrapper:has(> .content-sidebar--right.sidebar--pinned) { --push-right: var(--content-sidebar-width, 340px); }
-}
-</style>
-"""
