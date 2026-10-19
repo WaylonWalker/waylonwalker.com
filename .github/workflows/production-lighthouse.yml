@@ -38,9 +38,9 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 90
     env:
-      AUDIT_PAGES: "${{ inputs.pages || 'home,article,archive,feeds,reader,shots,garden,shorts,images' }}"
-      AUDIT_MOBILE_RUNS: "${{ inputs.mobile_runs || 3 }}"
-      AUDIT_DESKTOP_RUNS: "${{ inputs.desktop_runs || 1 }}"
+      AUDIT_PAGES: "${{ github.event_name == 'pull_request' && 'archive,feeds,images' || inputs.pages || 'home,article,archive,feeds,reader,shots,garden,shorts,images' }}"
+      AUDIT_MOBILE_RUNS: "${{ github.event_name == 'pull_request' && 1 || inputs.mobile_runs || 3 }}"
+      AUDIT_DESKTOP_RUNS: "${{ github.event_name == 'pull_request' && 1 || inputs.desktop_runs || 1 }}"
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -67,7 +67,7 @@ jobs:
               --dump-header ".markata/lighthouse-analysis/archive-${attempt}.headers" \
               --output /dev/null https://waylonwalker.com/archive/
           done
-      - name: Benchmark production page types
+      # Keep PR smoke checks lightweight; the weekly/manual matrix scans all nine\n      # page types with repeated cold runs for stable medians.\n      - name: Benchmark production page types
         run: |
           bash ./scripts/lighthouse-analysis \
             --pages "$AUDIT_PAGES" \
