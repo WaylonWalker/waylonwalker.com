@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import html
 import json
+import statistics
 import shutil
 import subprocess
 import sys
@@ -47,8 +48,18 @@ PAGES = [
     Page("home", "Home", "/"),
     Page("about-site", "About This Site", "/about-this-site/"),
     Page("article", "Article: Tmux Session Switcher", "/i-built-a-tmux-session-switcher/"),
+    Page("archive", "Archive", "/archive/"),
     Page("feeds", "Feeds", "/feeds/"),
+    Page("reader", "Reader", "/reader/"),
+    Page("shots", "Shots", "/shots/"),
+    Page("garden", "Garden", "/garden/"),
+    Page("shorts", "Shorts", "/shorts/"),
+    Page("images", "Images", "/images/"),
 ]
+
+# Keep About This Site addressable by --pages, but compare the same nine page
+# types as the October 13 production baseline by default.
+DEFAULT_PAGE_KEYS = "home,article,archive,feeds,reader,shots,garden,shorts,images"
 
 
 def parse_args() -> argparse.Namespace:
@@ -62,13 +73,21 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--pages",
-        default=",".join(page.key for page in PAGES),
+        default=DEFAULT_PAGE_KEYS,
         help="Comma-separated page keys to scan. Available: %s" % ", ".join(page.key for page in PAGES),
     )
     parser.add_argument(
         "--output-dir",
         default=".markata/lighthouse-analysis",
         help="Directory to store raw JSON, HTML, and compact agent reports.",
+    )
+    parser.add_argument(
+        "--mobile-runs", type=int, default=3,
+        help="Cold mobile runs per selected page (median reported; default: 3).",
+    )
+    parser.add_argument(
+        "--desktop-runs", type=int, default=1,
+        help="Cold desktop runs per selected page (default: 1).",
     )
     parser.add_argument(
         "--timeout-seconds",
@@ -124,11 +143,14 @@ def format_cls(value: float | None) -> str:
     return f"{value:.3f}"
 
 
-def run_lighthouse(url: str, json_path: Path, timeout_seconds: int, chrome_flags: str) -> None:
+def run_lighthouse(
+    url: str, json_path: Path, timeout_seconds: int, chrome_flags: str, device: str
+) -> None:
     cmd = [
         "lighthouse",
         url,
         "--quiet",
+        "--preset=desktop" if device == "desktop" else "--form-factor=mobile",
         f"--chrome-flags={chrome_flags}",
         "--only-categories=" + ",".join(CATEGORIES),
         "--output=json",
@@ -176,12 +198,30 @@ def parse_report(page: Page, url: str, report: dict[str, Any]) -> dict[str, Any]
         "scores": category_scores,
         "metrics": {
             "lcp_ms": metric_value(audits, "largest-contentful-paint"),
+            "fcp_ms": metric_value(audits, "first-contentful-paint"),
+            "ttfb_ms": metric_value(audits, "server-response-time"),
             "tbt_ms": metric_value(audits, "total-blocking-time"),
             "cls": metric_value(audits, "cumulative-layout-shift"),
             "si_ms": metric_value(audits, "speed-index"),
         },
         "failed_audits": collect_failed_audits(report),
     }
+
+
+def median_samples(samples: list[dict[str, Any]]) -> dict[str, Any]:
+    """Keep the representative run's findings and median numeric measurements."""
+    scores = {
+        category: int(round(statistics.median(sample["scores"][category] for sample in samples)))
+        for category in CATEGORIES
+    }
+    metrics = {}
+    for key in samples[0]["metrics"]:
+        values = [sample["metrics"][key] for sample in samples if sample["metrics"][key] is not None]
+        metrics[key] = statistics.median(values) if values else None
+    representative = min(
+        samples, key=lambda sample: abs(sample["scores"]["performance"] - scores["performance"])
+    )
+    return {**representative, "scores": scores, "metrics": metrics}
 
 
 def average_scores(results: list[dict[str, Any]]) -> dict[str, int]:
@@ -257,9 +297,16 @@ def render_markdown(summary: dict[str, Any], previous: dict[str, Any] | None) ->
             f"{name} {page['scores'][name]} ({change_badge(score_delta[name])})"
             for name in CATEGORIES
         )
-        lines.append(f"- Scores: {score_bits}")
+        lines.append(f"- Mobile scores (median of {page['mobile_runs']}): {score_bits}")
         lines.append(
-            "- Metrics: "
+            "- Desktop scores ({} run{}): ".format(
+                page["desktop_runs"], "" if page["desktop_runs"] == 1 else "s"
+            ) + ", ".join(f"{name} {page['desktop_scores'][name]}" for name in CATEGORIES)
+        )
+        lines.append(
+            "- Mobile metrics: "
+            + f"FCP {format_seconds(page['metrics']['fcp_ms'])}, "
+            + f"TTFB {format_ms(page['metrics']['ttfb_ms'])}, "
             + f"LCP {format_seconds(page['metrics']['lcp_ms'])}, "
             + f"TBT {format_ms(page['metrics']['tbt_ms'])}, "
             + f"CLS {format_cls(page['metrics']['cls'])}, "
@@ -298,7 +345,12 @@ def render_text(summary: dict[str, Any], previous: dict[str, Any] | None) -> str
             )
         )
         lines.append(
-            "  Metrics :: "
+            "  Desktop scores :: " + ", ".join(
+                f"{name} {page['desktop_scores'][name]}" for name in CATEGORIES
+            )
+        )
+        lines.append(
+            "  Mobile metrics :: "
             + f"LCP {format_seconds(page['metrics']['lcp_ms'])}, "
             + f"TBT {format_ms(page['metrics']['tbt_ms'])}, "
             + f"CLS {format_cls(page['metrics']['cls'])}"
@@ -331,6 +383,10 @@ def render_html(summary: dict[str, Any], previous: dict[str, Any] | None) -> str
         score_delta = diff_map(page["scores"], prev_page["scores"] if prev_page else None)
         badges = "".join(
             f"<span class=\"mini-score\"><strong>{html.escape(name)}</strong> {page['scores'][name]} <em>{html.escape(change_badge(score_delta[name]))}</em></span>"
+            for name in CATEGORIES
+        )
+        badges += "".join(
+            f'<span class="mini-score"><strong>Desktop {html.escape(name)}</strong> {page["desktop_scores"][name]}</span>'
             for name in CATEGORIES
         )
         findings = compact_findings(page, limit=5)
@@ -422,7 +478,7 @@ def render_html(summary: dict[str, Any], previous: dict[str, Any] | None) -> str
   <div class=\"wrap\">
     <section class=\"hero\">
       <h1>Lighthouse Analysis</h1>
-      <p>Run <code>{html.escape(summary['run_id'])}</code> for <strong>{html.escape(summary['base_url'])}</strong>. Deltas compare against the previous saved run.</p>
+      <p>Run <code>{html.escape(summary['run_id'])}</code> for <strong>{html.escape(summary['base_url'])}</strong>. Mobile scores and metrics are medians of cold runs; desktop scores are shown separately. Deltas compare against the previous saved run.</p>
     </section>
     <section class=\"score-overview\">{''.join(cards)}</section>
     <section class=\"page-list\">{''.join(page_rows)}</section>
@@ -443,6 +499,8 @@ def write_latest(output_dir: Path, run_dir: Path) -> None:
 def main() -> int:
     args = parse_args()
     require_binary("lighthouse")
+    if args.mobile_runs < 1 or args.desktop_runs < 1:
+        raise SystemExit("--mobile-runs and --desktop-runs must each be >= 1")
 
     selected = {item.strip() for item in args.pages.split(",") if item.strip()}
     pages = [page for page in PAGES if page.key in selected]
@@ -460,16 +518,30 @@ def main() -> int:
     results: list[dict[str, Any]] = []
     for page in pages:
         url = urljoin(args.base_url.rstrip("/") + "/", page.path.lstrip("/"))
-        json_path = run_dir / f"{page.key}.json"
-        print(f"analyzing {page.label}: {url}", file=sys.stderr)
-        run_lighthouse(url, json_path, args.timeout_seconds, args.chrome_flags)
-        report = json.loads(json_path.read_text())
-        results.append(parse_report(page, url, report))
+        samples: dict[str, list[dict[str, Any]]] = {"mobile": [], "desktop": []}
+        for device, count in (("mobile", args.mobile_runs), ("desktop", args.desktop_runs)):
+            for number in range(1, count + 1):
+                json_path = run_dir / f"{page.key}-{device}-{number}.json"
+                print(f"analyzing {page.label} ({device} {number}/{count}): {url}", file=sys.stderr)
+                run_lighthouse(url, json_path, args.timeout_seconds, args.chrome_flags, device)
+                samples[device].append(parse_report(page, url, json.loads(json_path.read_text())))
+        mobile = median_samples(samples["mobile"])
+        desktop = median_samples(samples["desktop"])
+        mobile.update(
+            desktop_scores=desktop["scores"],
+            desktop_metrics=desktop["metrics"],
+            mobile_runs=args.mobile_runs,
+            desktop_runs=args.desktop_runs,
+        )
+        results.append(mobile)
 
     summary = {
         "run_id": run_id,
         "generated_at": datetime.now(UTC).isoformat(),
         "base_url": args.base_url,
+        "lighthouse_version": subprocess.check_output(["lighthouse", "--version"], text=True).strip(),
+        "mobile_runs": args.mobile_runs,
+        "desktop_runs": args.desktop_runs,
         "pages": results,
         "averages": average_scores(results),
     }
