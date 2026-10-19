@@ -1,6 +1,11 @@
 name: Production Lighthouse matrix
 
 on:
+  pull_request:
+    paths:
+      - 'scripts/lighthouse_analysis.py'
+      - 'tests/test_lighthouse_analysis.py'
+      - '.github/workflows/production-lighthouse.yml'
   workflow_dispatch:
     inputs:
       pages:
