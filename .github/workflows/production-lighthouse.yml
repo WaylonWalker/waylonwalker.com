@@ -1,0 +1,87 @@
+name: Production Lighthouse matrix
+
+on:
+  workflow_dispatch:
+    inputs:
+      pages:
+        description: Comma-separated page keys (default covers the original nine template classes)
+        type: string
+        required: false
+        default: home,article,archive,feeds,reader,shots,garden,shorts,images
+      mobile_runs:
+        description: Cold mobile runs per page
+        type: number
+        required: false
+        default: 3
+      desktop_runs:
+        description: Cold desktop runs per page
+        type: number
+        required: false
+        default: 1
+  schedule:
+    - cron: '13 13 * * 1'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: lighthouse-production
+  cancel-in-progress: false
+
+jobs:
+  lighthouse:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    env:
+      AUDIT_PAGES: "${{ inputs.pages || 'home,article,archive,feeds,reader,shots,garden,shorts,images' }}"
+      AUDIT_MOBILE_RUNS: "${{ inputs.mobile_runs || 3 }}"
+      AUDIT_DESKTOP_RUNS: "${{ inputs.desktop_runs || 1 }}"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22.19.0'
+      - name: Install pinned Lighthouse
+        run: npm install --global lighthouse@13.5.0
+      - name: Validate analysis script
+        run: |
+          python3 -m py_compile scripts/lighthouse_analysis.py
+          python3 -m unittest discover -s tests -p 'test_lighthouse_analysis.py' -v
+      - name: Restore previous baseline
+        uses: actions/cache/restore@v4
+        with:
+          path: .markata/lighthouse-analysis/latest
+          key: lighthouse-production-${{ github.run_id }}
+          restore-keys: |
+            lighthouse-production-
+      - name: Capture archive edge response headers
+        run: |
+          mkdir -p .markata/lighthouse-analysis
+          for attempt in 1 2; do
+            curl --fail --silent --show-error --location \
+              --dump-header ".markata/lighthouse-analysis/archive-${attempt}.headers" \
+              --output /dev/null https://waylonwalker.com/archive/
+          done
+      - name: Benchmark production page types
+        run: |
+          ./scripts/lighthouse-analysis \
+            --pages "$AUDIT_PAGES" \
+            --mobile-runs "$AUDIT_MOBILE_RUNS" \
+            --desktop-runs "$AUDIT_DESKTOP_RUNS"
+      - name: Cache current baseline for next comparison
+        if: success()
+        uses: actions/cache/save@v4
+        with:
+          path: .markata/lighthouse-analysis/latest
+          key: lighthouse-production-${{ github.run_id }}
+      - name: Add human-readable report to job summary
+        if: success()
+        run: cat .markata/lighthouse-analysis/latest/agent.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Retain raw runs and reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lighthouse-production-${{ github.run_id }}
+          path: .markata/lighthouse-analysis
+          if-no-files-found: warn
+          retention-days: 90
