@@ -1,0 +1,48 @@
+{# Link Card - URL preview style for links, bookmarks, TIL posts #}
+{# Shows title, external link domain, description in preview card style #}
+<article class="card card-link h-entry">
+  <header class="card-header">
+  <div class="card-link-wrapper">
+    {% if post.image %}
+    <div class="card-link-image">
+      {% if feed_presentation == "editorial" %}
+      {% with post.image|editorial_card_image:item.Lead as preview_image %}
+      {% with preview_image|responsive_srcset:"160,240,320,480,600,720" as thumbset %}
+      <img src="{% if item.Lead %}{{ preview_image | with_size:"720,450" }}{% else %}{{ preview_image | with_size:"480,300" }}{% endif %}"{% if thumbset %} srcset="{{ thumbset }}" sizes="(max-width: 480px) 92vw, (max-width: 760px) 40vw, 330px"{% endif %} alt="" class="u-photo" width="720" height="450" loading="lazy" decoding="async">
+      {% endwith %}
+      {% endwith %}
+      {% else %}
+      <img src="{{ post.image | with_size:"120,80" }}" alt="" class="u-photo" width="120" height="80" loading="lazy">
+      {% endif %}
+    </div>
+    {% endif %}
+
+      <div class="card-link-content">
+      <a href="{{ post.href }}" class="card-title p-name u-url">{{ post.title | default:post.slug }}</a>
+      {% set link_source_url = post.link | external_url %}
+        {% if not link_source_url %}{% set link_source_url = post.url | external_url %}{% endif %}
+      {% if link_source_url %}
+      <a href="{{ link_source_url }}" class="card-domain" rel="noopener noreferrer" target="_blank" aria-label="Visit {{ link_source_url | domain }}">{{ link_source_url | domain }} ↗</a>
+      <data class="u-bookmark-of" value="{{ link_source_url }}" hidden></data>
+      {% endif %}
+    </div>
+  </div>
+  </header>
+
+  <div class="card-body">
+    <div class="card-excerpt p-summary">{% if feed_presentation == "editorial" %}{% if post.article_html %}{{ post.article_html|summary:320 }}{% else %}{{ post.description|truncate:320 }}{% endif %}{% else %}{{ post.article_html|summary:1200 | default:post.description }}{% endif %}</div>
+  </div>
+
+  <footer class="card-meta">
+    {% if post.date %}
+    <time class="dt-published" datetime="{{ post.date | atom_date }}">{{ post.date | human_date }}</time>
+    {% endif %}
+    {% if post.tags %}
+    <div class="card-tags">
+      {% for tag in post.tags %}
+      <a href="/tags/{{ tag | slugify }}/" class="tag p-category">{{ tag }}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </footer>
+</article>

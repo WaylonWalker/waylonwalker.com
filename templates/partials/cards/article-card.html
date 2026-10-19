@@ -1,0 +1,32 @@
+{# Article Card - Embed-style card with optional cover image #}
+{# Shows: cover image (if available), title, description/excerpt, meta #}
+{# Check both image and cover frontmatter fields #}
+{% with post.image|default:post.cover as cover_val %}
+{% with cover_val|media_url:post.video as media_src %}
+<article class="card card-article h-entry{% if media_src %} has-cover{% endif %}">
+{% if media_src %}
+<a href="{{ post.href }}" class="card-cover u-url">
+{% if media_src|is_video %}{% set poster_candidate = post | poster_url:media_src %}<video class="card-cover-img u-video" muted loop playsinline preload="none" data-adaptive-preview width="220" height="160"{% if poster_candidate %} poster="{{ poster_candidate | with_size:"600" }}"{% endif %}>
+<source src="{{ media_src|with_size:"600" }}"{% with media_src|video_mime as mime %}{% if mime %} type="{{ mime }}"{% endif %}{% endwith %}>
+</video>
+{% else %}<img src="{{ media_src|with_size:"600" }}"{% if media_src|responsive_srcset:"160,240,320,480,600,800,960,1200" %} srcset="{{ media_src|responsive_srcset:"160,240,320,480,600,800,960,1200" }}" sizes="auto, 220px"{% endif %} alt="{{ post.title | default:post.slug }}" class="card-cover-img u-photo" width="220" height="160" loading="lazy">
+{% endif %}
+</a>
+{% endif %}
+<div class="card-content">
+<header class="card-header">
+<h2 class="card-title p-name"><a class="u-url" href="{{ post.href }}">{{ post.title | default:post.slug }}</a></h2>
+</header>
+<div class="card-body">
+    <div class="card-excerpt p-summary">{% if feed_presentation == "editorial" %}{% if post.article_html %}{{ post.article_html|summary:320 }}{% else %}{{ post.description|truncate:320 }}{% endif %}{% else %}{{ post.article_html|summary:1000 | default:post.description }}{% endif %}</div>
+</div>
+<footer class="card-meta">
+{% if post.date %}<time class="dt-published" datetime="{{ post.date | atom_date }}">{{ post.date | human_date }}</time>{% endif %}
+{% if post.reading_time %}<span class="reading-time">{{ post.reading_time }} min read</span>{% endif %}
+{% include "partials/webmention-counts.html" %}
+{% if post.tags %}<div class="card-tags">{% for tag in post.tags %}<a href="/tags/{{ tag | slugify }}/" class="tag p-category">{{ tag }}</a>{% endfor %}</div>{% endif %}
+</footer>
+</div>
+</article>
+{% endwith %}
+{% endwith %}
