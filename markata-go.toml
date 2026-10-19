@@ -111,6 +111,12 @@ hooks = ["default", "thoughts", "wikilink_hover", "webawesome"]
 [markata-go.image_optimization]
 enabled = true
 
+# Keep first paint bounded while preserving native page links and
+# full-library search through Markata's optional image-library pagination.
+# Requires WaylonWalker/markata#1723 and a verified production builder.
+[markata-go.images]
+page_size = 48
+
 # ╔═════════════════════════════════════════════════════════════════════════════╗
 # ║ THOUGHTS PLUGIN CONFIGURATION (PESOS)                                       ║
 # ╚═════════════════════════════════════════════════════════════════════════════╝
