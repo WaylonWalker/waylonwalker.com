@@ -69,7 +69,7 @@ jobs:
           done
       - name: Benchmark production page types
         run: |
-          ./scripts/lighthouse-analysis \
+          bash ./scripts/lighthouse-analysis \
             --pages "$AUDIT_PAGES" \
             --mobile-runs "$AUDIT_MOBILE_RUNS" \
             --desktop-runs "$AUDIT_DESKTOP_RUNS"
@@ -89,4 +89,5 @@ jobs:
           name: lighthouse-production-${{ github.run_id }}
           path: .markata/lighthouse-analysis
           if-no-files-found: warn
+          include-hidden-files: true
           retention-days: 90
