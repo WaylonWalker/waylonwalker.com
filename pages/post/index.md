@@ -16,12 +16,12 @@ hero_avatar: /8bitcc.png
 hero_links:
   - label: Just F&*$ing use K8s
     url: /just-fucking-use-kubernetes/
-  - label: we beat trailmakers
-    url: /we-beat-trailmakers/
+  - label: Are you ready for Agents?
+    url: /is-your-org-ready-for-agents/
   - label: Hollow Knight Keeb Run
     url: /hollow-knight-home-row-layout/
-  - label: Make Minio Access Key
-    url: /make-minio-access-key/
+  - label: My Apps
+    url: https://apps.waylonwalker.com/
 intro_cards:
   - heading: About
     slug: components/about-intro
