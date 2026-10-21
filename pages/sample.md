@@ -9,6 +9,15 @@ version: 12
 
 ---
 
+This page is a **rendering test gallery** for Markdown and interactive components.
+Use it to check the site at phone and desktop widths, in light and dark themes,
+and with JavaScript turned off. Sections below intentionally include both simple
+and complex content.
+
+Jump to [tables](#table), [containers](#containers), [admonitions](#admonitions),
+[side-by-side panels](#vsplit), [Mermaid](#mermaid-diagrams), or
+[scroll-drawn roads](#scroll-drawn-roads).
+
 ## title
 
 ## subtitle
@@ -154,7 +163,7 @@ X^2^
 
 ## Emoji
 
-Emoji support not yet working
+Common emoji shortcodes are rendered; use underscore-separated shortcode names.
 
 ``` markdown
 That is so funny! :joy:
@@ -172,9 +181,9 @@ That is so funny! :joy:
 
 :rocket:
 
-:thumbs-up:
+:thumbs_up:
 
-:grinning-face:
+:grinning_face:
 
 :fire:
 
@@ -203,74 +212,70 @@ is maintained by the W3C.
 
 ## Containers
 
-::: container {.bg-pink-500}
-_here be dragons_
+Fenced containers use matching colon-only closing markers. For nested content,
+the inner fence must be longer than the outer fence. The examples here use
+Markata's built-in, responsive layout components.
 
-here
+::: md-card
+### A simple card
+
+A quiet, readable surface around Markdown content, including **bold text**,
+[links](/about/), and a short list.
+
+- No custom HTML needed
+- Remains readable without JavaScript
 :::
 
-warning
+### Two-column comparison
 
-{.bg-pink-500}
-::: warning
-_here be dragons_
-be careful
-:::
+::: md-columns {data-gap="sm"}
 
-more containers
+:::: md-card
+#### Before
 
-:::: name
-::: name
-_markdown_
-:::
-::::
+A plain paragraph without a surrounding component.
 
-{.text-pink-900}
-::::
-{.bg-pink-500}
-:::
-container
-
-## here
-
-there
-
-## there
-
-``` python
-import this
-```
-
-:::
-
-:::
-second container
-
-I still have pink text, but no pink background
-:::
+- Simple
+- No layout
 
 ::::
 
-## carousel
+:::: md-card
+#### After
 
-{.carousel}
+A contained component with matching spacing and a subtle surface.
+
+- Responsive
+- Works with Markdown
+
 ::::
+
 :::
-hi
-:::
-:::
-hi
-:::
-:::
-hi
-:::
-:::
-hi
-:::
-:::
-hi
-:::
+
+### Nested container
+
+::: md-stack {data-gap="sm"}
+The outer container remains open while its inner card closes.
+
+:::: md-card
+This card is nested inside the stack. The next sentence must appear outside
+this card but remain inside the stack.
+
 ::::
+
+This is still inside the outer stack.
+
+:::
+
+## Carousel
+
+The gallery should show two images, descriptive alt text, and accessible
+navigation. If enhancement is unavailable, the content should still be readable.
+
+::: wa-carousel {navigation="true" pagination="true"}
+![Waylon Walker site icon](/8bitcc.png)
+![The site's repeating W logo](/w.svg)
+:::
 
 ## Admonitions
 
@@ -798,7 +803,6 @@ architecture-beta
             disk1:T -- B:server
         ```
 
-version {{ version }}
 
 <wa-tooltip  for="inline-tooltip" trigger='manual' id='inline-tooltip-tooltip'>
     <div class='bg-black rounded-xl border-2 border-pink-500 max-h-96 overflow-y-scroll'>

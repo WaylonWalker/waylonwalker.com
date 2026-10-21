@@ -38,7 +38,8 @@ text_size = "x-large"
 # position = "header"
 
 [markata-go.theme.variables]
-"--content-width" = "clamp(56ch, 60vw, 72ch)"
+# Keep the intended desktop reading measure, but never force 56ch on phones.
+"--content-width" = "min(clamp(56ch, 60vw, 72ch), calc(100vw - 2rem))"
 # "--content-max-width" = "300px"
 "--text-base" = "1.2rem"
 
