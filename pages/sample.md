@@ -68,8 +68,8 @@ print("that")
 | Header | Title |
 | Paragraph | Text |
 
-Tables with a header row are sortable in the default theme. Select a header to
-sort by that column, then select it again to reverse the order. These examples
+Tables with a header row are sortable in the default theme.  Select a header to
+sort by that column, then select it again to reverse the order.  These examples
 cover text, numbers, equal values, and empty cells.
 
 | Feature | Release | Sort order |
@@ -120,7 +120,8 @@ This paragraph has a class attribute. {.sample-note}
 
 ## Wikilinks
 
-Wikilinks point to other posts by title or slug: [[about]] and [[blogging-for-me]].
+Wikilinks point to other posts by title or slug: [[about]] and
+[[blogging-for-me]].
 They can also show hover previews when that feature is enabled by the site.
 
 ## Highlight
@@ -546,7 +547,7 @@ graph TD
 
 Road containers turn lists of links into paths that draw as the reader scrolls.
 The default theme includes styles for timelines, steps, snake paths, cycles,
-constellations, Git histories, and editorial timelines. The links below use
+constellations, Git histories, and editorial timelines.  The links below use
 pages on this site.
 
 ::: road timeline
