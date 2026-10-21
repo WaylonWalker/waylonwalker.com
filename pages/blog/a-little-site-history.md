@@ -30,6 +30,22 @@ editorial_history:
   diff_url: https://github.com/waylonwalker/waylonwalker.com/commit/5ea047ce11d7bc66e6e77018ac866844f3f39171#diff-1fb258da34a9a645b68e90398c1d8fee4ccf0482f73a45bc9b2a50201f7bafbc
   summary: Cross-checked the site timeline against homelab, Argo, and application
     repository history.
+- schema_version: 1
+  event_id: bfc0d1a9-77b8-43b4-bc58-ab4d43766f20:pages/blog/a-little-site-history.md
+  author: gpt-6-luna
+  role: copy-editor
+  action: edited
+  recorded_by: gpt-6-luna
+  recorded_at: '2026-10-21T04:08:31.433310+00:00'
+  base_commit: ce0db0c5259f72b1d879f15ce21835aae2b5168b
+  commit: 7aced87f57b8925f2e4c2af66be4a9d65fdee2f7
+  path: pages/blog/a-little-site-history.md
+  content_digest: sha256:e8614f70735377c2da51de69bda6df0dde395802b540e53d9e68e46de2b1e3db
+  digest_version: editorial-v1
+  file_url: https://github.com/waylonwalker/waylonwalker.com/blob/7aced87f57b8925f2e4c2af66be4a9d65fdee2f7/pages/blog/a-little-site-history.md
+  diff_url: https://github.com/waylonwalker/waylonwalker.com/commit/7aced87f57b8925f2e4c2af66be4a9d65fdee2f7#diff-1fb258da34a9a645b68e90398c1d8fee4ccf0482f73a45bc9b2a50201f7bafbc
+  summary: Added the 2017 GitHub Pages repo, the deprecated Gatsby 2 site, and archived
+    CMS experiments to the site history.
 ---
 
 I went looking for the beginning of this site.  The trail is split between old
