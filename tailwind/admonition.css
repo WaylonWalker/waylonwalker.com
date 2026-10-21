@@ -1,15 +1,19 @@
 .admonition .admonition-title {
-  @apply text-3xl;
-  @apply font-light;
-  @apply flex gap-2;
-  @apply my-8;
-  @apply break-all;
+  @apply text-base sm:text-lg;
+  @apply font-semibold;
+  @apply flex gap-2 items-center;
+  @apply my-3;
+  @apply break-words;
+  line-height: 1.4;
+  min-width: 0;
 }
 
 .admonition {
-  @apply my-8;
-  @apply mx-8;
-  @apply px-4;
+  @apply my-4;
+  @apply mx-0 sm:mx-4;
+  @apply px-4 py-3;
+  min-width: 0;
+  overflow-wrap: break-word;
 }
 .admonition.note .admonition-title {
   @apply text-pink-500;
