@@ -37,18 +37,35 @@ GitHub repositories, the current site, and a few projects on my Forgejo server.
 Some dates are solid commit dates.  Others come from my own recollection written
 down later.  This is the winding road I can reconstruct so far.
 
-The earliest public clue is my own [about this site](/about-this-site/) page:
-I registered the domain and started making content in 2017, after a rough year
-in tech made me want a place and a body of work I controlled.  The Git history
-does not reach that far.  The oldest surviving repository I found is
-[`waylonwalker`](https://github.com/WaylonWalker/waylonwalker), whose first
-commit is July 8, 2020.  That is the start of the Git trail, not the start of
-the site.
+I registered the domain and started making content in 2017, after a rough
+year in tech made me want a place and a body of work I controlled.  I found
+an older breadcrumb than the local clone had: the GitHub repo
+[`waylonwalker.github.io`](https://github.com/WaylonWalker/waylonwalker.github.io)
+was created in May 2017.  It has a `CNAME` for both `waylonwalker.com` and
+`www.waylonwalker.com`, and GitHub Pages is enabled.  The repo includes
+Pelican configuration and a blog, so the first version looks like a
+Pelican-powered GitHub Pages site.
+
+In January 2019, a second site repo appears:
+[`waylonwalkerv2`](https://github.com/WaylonWalker/waylonwalkerv2).  It is a
+Gatsby 2 site with waylonwalker.com as its homepage.  Its own description now
+labels it deprecated, though the repo kept receiving commits until 2023.  By
+February 2020, I was writing that the site had been on Netlify for nearly two
+years.  That puts the move from GitHub Pages to Netlify around 2018, while
+the Gatsby rebuild was taking shape.
+
+There are also archived side experiments from spring 2019, including
+[`gatsby-starter-blog-forestry`](https://github.com/WaylonWalker/gatsby-starter-blog-forestry),
+[`TestGatsbySanity`](https://github.com/WaylonWalker/TestGatsbySanity), and
+two [Netlify and Fauna demos](https://github.com/WaylonWalker/netlify-faunadb-example).
+They look like CMS and serverless trials around the main site, rather than
+separate versions of the domain.
 
 ::: road winding
 
-- [A domain of my own](/about-this-site/) 2017
-- [First surviving site repo](https://github.com/WaylonWalker/waylonwalker/commit/09b6b657ac43ee1dfb94815c40b2a3c1cafd42fe) July 2020
+- [The first domain repo goes live on GitHub Pages](https://github.com/WaylonWalker/waylonwalker.github.io) May 2017
+- [A Gatsby rebuild starts](https://github.com/WaylonWalker/waylonwalkerv2) January 2019
+- [Netlify has become home](/should-i-switch-to-zeit-now/) by February 2020
 - [The Markata rebuild](https://github.com/waylonwalker/waylonwalker.com/commit/f3aad49a) March 2021
 - [Notes find their way in](https://github.com/waylonwalker/waylonwalker.com/commit/9da75145) June 2021
 - [Netlify gives way to Cloudflare Pages](/colophon/) by October 2021
@@ -71,11 +88,9 @@ the site.
 ## The site keeps moving
 
 The first site was a blog, and the hosting moved around with it.  From the
-posts and deployment history, I can trace Netlify, Cloudflare Pages, and then
-the basement Kubernetes cluster.  GitHub Pages also appears in the repo's
-deployment experiments, but the posts do not give me a clear date when it
-served the main site.  Cloudflare Tunnel now carries the self-hosted site out
-to the internet.
+posts and deployment history, I can trace GitHub Pages, Netlify, Cloudflare
+Pages, and then the basement Kubernetes cluster.  Cloudflare Tunnel now
+carries the self-hosted site out to the internet.
 
 The code changed just as much.  In March 2021 I started a new version of the
 site built with Markata, the static site generator I was making for myself.
@@ -83,9 +98,10 @@ The first commit is literally called `init v3`.  Markdown and frontmatter
 became the durable part.  The generator could change without taking all the
 writing with it.
 
-The hosting trail is less tidy.  In February 2020, I wrote that the site had
-been on Netlify for nearly two years, which puts that move around 2018.  By
-October 2021, my deployment writeup says I had moved to Cloudflare Pages.  The
+The hosting trail is less tidy.  The first repo points to GitHub Pages in
+2017.  In February 2020, I wrote that the site had been on Netlify for nearly
+two years, which puts that move around 2018.  By October 2021, my deployment
+writeup says I had moved to Cloudflare Pages.  The
 homelab repo shows the screenshot service using Kubernetes by October 2023.
 It adds a build job for waylonwalker.com in January 2025, and in September
 2025 I wrote that I was building the site in Kubernetes.  That narrows the
@@ -118,11 +134,12 @@ ride.
 
 ## Sources
 
-This timeline combines commit history from the old GitHub site repositories,
+This timeline combines commit history and repository metadata from the old
+GitHub site repositories,
 the Forgejo-hosted thoughts, Dropper, and shot-scraper-api projects, and the
 homelab and homelab-argo repositories.  I cross-checked those with recollections
 in [about this site](/about-this-site/), the deployment writeups, and the
-[colophon](/colophon/).  The 2017 starting point comes from that recollection.
-The 2020 date is the earliest surviving repository commit I found.  Hosting
-cutovers are less completely recorded than code changes, so the main site's
-move to Kubernetes is a window rather than a day.
+[colophon](/colophon/).  The 2017 starting point has both my recollection and
+the first domain repo behind it.  Hosting cutovers are less completely
+recorded than code changes, so the main site's move to Kubernetes is a window
+rather than a day.
