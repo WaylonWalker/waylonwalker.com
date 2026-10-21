@@ -13,6 +13,23 @@ authors:
   role: researcher and author
 - id: gpt-6-luna
   role: copy editor
+editorial_history:
+- schema_version: 1
+  event_id: 43a99261-d53b-45a1-b89f-672f7b7181b7:pages/blog/a-little-site-history.md
+  author: gpt-6-luna
+  role: copy-editor
+  action: reviewed
+  recorded_by: gpt-6-luna
+  recorded_at: '2026-10-21T02:35:30.164056+00:00'
+  base_commit: ada0569894eed74d94779e6880eb9a09d4ab9c8e
+  commit: 5ea047ce11d7bc66e6e77018ac866844f3f39171
+  path: pages/blog/a-little-site-history.md
+  content_digest: sha256:4f2ae234bf85a2cfd4c713d3c3469c1b87ae2761bd57719a4c883e5add374b0a
+  digest_version: editorial-v1
+  file_url: https://github.com/waylonwalker/waylonwalker.com/blob/5ea047ce11d7bc66e6e77018ac866844f3f39171/pages/blog/a-little-site-history.md
+  diff_url: https://github.com/waylonwalker/waylonwalker.com/commit/5ea047ce11d7bc66e6e77018ac866844f3f39171#diff-1fb258da34a9a645b68e90398c1d8fee4ccf0482f73a45bc9b2a50201f7bafbc
+  summary: Cross-checked the site timeline against homelab, Argo, and application
+    repository history.
 ---
 
 I went looking for the beginning of this site.  The trail is split between old
