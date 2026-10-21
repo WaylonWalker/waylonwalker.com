@@ -1,7 +1,7 @@
 #post-body > .vsplit {
   @apply col-span-full;
   @apply grid grid-cols-1 md:grid-cols-2;
-  @apply gap-0;
+  @apply gap-3 md:gap-4;
   @apply justify-center;
   @apply mx-0 px-0;
   @apply col-start-1;
@@ -22,8 +22,10 @@
   @apply grid;
   grid-auto-rows: min-content;
   align-content: start;
+  min-width: 0;
+  overflow-wrap: anywhere;
 
-  grid-template-columns: .5rem 1fr 1fr .5rem;
+  grid-template-columns: .5rem minmax(0, 1fr) minmax(0, 1fr) .5rem;
 }
 
 #post-body > .vsplit .vsplit > * {
@@ -33,9 +35,14 @@
 
 #post-body > .vsplit .vsplit pre {
   @apply my-0;
-  @apply h-full;
-  @apply col-start-auto;
-  @apply col-end-auto;
+  @apply col-start-2! col-end-4!;
+  @apply max-w-full overflow-x-auto;
+  min-width: 0;
+}
+
+#post-body > .vsplit .vsplit :is(img, video, svg) {
+  max-width: 100%;
+  height: auto;
 }
 
 #post-body >.vsplit > div.vsplit:first-of-type {
