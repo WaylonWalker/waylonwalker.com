@@ -100,7 +100,7 @@ This ~~old example~~ has been replaced with a current one.
 
 Footnotes can hold a detail without interrupting the paragraph.[^sample-note]
 
-[^sample-note]: This is the footnote text. It can include **Markdown** too.
+[^sample-note]: This is the footnote text.  It can include **Markdown** too.
 
 ## Definition list
 
@@ -567,7 +567,7 @@ on narrow screens.
 - [Write](/blogging-for-me/) Share it
 :::
 
-The other built-in layouts work with the same linked list. These compact
+The other built-in layouts work with the same linked list.  These compact
 examples keep every road style available for checking in the default theme.
 
 ::: road winding
