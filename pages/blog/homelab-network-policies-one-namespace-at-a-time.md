@@ -2,7 +2,7 @@
 date: 2026-10-23
 title: Homelab network policies, one namespace at a time
 description: >-
-  Retiring unused cluster tools, mapping service calls, and testing four narrow
+  Retiring unused cluster tools, mapping service calls, and testing six narrow
   Kubernetes network policies.
 published: true
 draft: false
@@ -43,7 +43,7 @@ Headlamp's Service remains, but there is no running backend or public route.
 
 A policy needs a list of required calls.  The [dependency graph][graph]
 started with connections in Kubernetes manifests, Helm values, and app source
-under `~/git`.  It now records 21 public-safe edges with a source workload,
+under `~/git`.  It now records 23 public-safe edges with a source workload,
 destination, port, reason, evidence path, and confidence level.  A separate
 local map holds eight connections found in private app repositories.
 
@@ -84,6 +84,18 @@ Valkey and has other outbound auth and AI paths.  The public HTTP routes stayed
 healthy, and a direct request from another pod was refused.  A WebSocket
 upgrade returned HTTP 101; a complete room session remains untested.
 
+The fifth policy covers the public [Shot API][shot-pr].  It allows Traefik and
+the queue cleanup job to reach the API on TCP 5000.  A pod with the cleanup
+label received HTTP 200.  An unrelated pod could not connect.  The public route
+also returned HTTP 200.  The API and worker egress rules remain open because
+they use Redis, MinIO, telemetry, and external services.
+
+The sixth policy narrows [OpenGraph ingress][opengraph-chart-pr].  Its old rule
+allowed every pod in `kube-system`.  The chart now allows only the live Traefik
+pods on TCP 8000.  The public route and an analysis request returned HTTP 200.
+An unrelated pod could not connect.  Brainrot calls the public OpenGraph host,
+so that request still enters through Traefik.
+
 Those checks show that the rules worked for the paths tested.  A full speed
 test and a long soak remain.  Connected apps need their own traffic evidence
 before outbound rules are added.
@@ -99,14 +111,15 @@ token volume, and its public routes still worked.
 
 ## What comes next
 
-The next pass is to match deployed workloads against source config, traces,
-logs, and jobs that run only sometimes.  Each connection needs an owner and a
-reason before it becomes an allow rule.  Then one namespace can be changed,
-tested, observed, and rolled back through GitOps if needed.
+The next pass is to check the next Shot cleanup run and match more deployed
+workloads against source config, traces, logs, and jobs that run only sometimes.
+Each connection needs an owner and a reason before it becomes an allow rule.
+Then one namespace can be changed, tested, observed, and rolled back through
+GitOps if needed.
 
 The [issue remains open][issue]
-for that work.  The first four policies reduced easy lateral paths.  They did
-not establish that every required connection is documented or that the whole
+for that work.  The six policies reduced easy lateral paths.  They did not
+establish that every required connection is documented or that the whole
 cluster is isolated.
 
 [issue]: https://github.com/WaylonWalker/homelab-argo/issues/174
@@ -116,6 +129,8 @@ cluster is isolated.
 [librespeed-pr]: https://github.com/WaylonWalker/homelab-argo/pull/180
 [themes-pr]: https://github.com/WaylonWalker/homelab-argo/pull/181
 [lantern-pr]: https://github.com/WaylonWalker/homelab-argo/pull/187
+[shot-pr]: https://github.com/WaylonWalker/homelab-argo/pull/191
+[opengraph-chart-pr]: https://git.waylonwalker.com/waylon/k8s-basic/pulls/1
 [whoami-token-pr]: https://github.com/WaylonWalker/homelab-argo/pull/182
 [librespeed-token-pr]: https://github.com/WaylonWalker/homelab-argo/pull/183
 [themes-token-pr]: https://github.com/WaylonWalker/homelab-argo/pull/185
