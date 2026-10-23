@@ -2,7 +2,7 @@
 date: 2026-10-23
 title: Homelab network policies, one namespace at a time
 description: >-
-  Retiring unused cluster tools, mapping service calls, and testing ten narrow
+  Retiring unused cluster tools, mapping service calls, and testing eleven narrow
   Kubernetes network policies.
 published: true
 draft: false
@@ -43,7 +43,7 @@ Headlamp's Service remains, but there is no running backend or public route.
 
 A policy needs a list of required calls.  The [dependency graph][graph]
 started with connections in Kubernetes manifests, Helm values, and app source
-under `~/git`.  It now records 26 public-safe edges with a source workload,
+under `~/git`.  It now records 27 public-safe edges with a source workload,
 destination, port, reason, evidence path, and confidence level.  A separate
 local map holds eight connections found in private app repositories.
 
@@ -130,6 +130,11 @@ The next Shot cleanup job also had connection refusals at startup.  [A follow-up
 change][shot-retry-pr] makes curl retry that error.  The next scheduled run
 will show whether this removes the job's initial failures.
 
+The eleventh policy narrows [Linker ingress][linker-policy-pr] to Traefik on
+TCP 8000.  Its public health and readiness paths still return HTTP 200, and an
+unrelated pod cannot connect.  The root route still returns HTTP 500 from a
+Jinja error in the app.  That error is separate from the NetworkPolicy.
+
 Those checks show that the rules worked for the paths tested.  A full speed
 test and a long soak remain.  Connected apps need their own traffic evidence
 before outbound rules are added.
@@ -145,14 +150,13 @@ token volume, and its public routes still worked.
 
 ## What comes next
 
-The next pass is to watch Shot's cleanup job for more connection retries and
-review other public apps with namespace-wide ingress rules.  Each connection
-needs an owner and a reason before it becomes an allow rule.  Then one
-namespace can be changed, tested, observed, and rolled back through GitOps if
-needed.
+The 13:45 Shot cleanup will test the connection retries.  The previous Job
+failed after seven connection refusals, so Argo marks `shots` Degraded.  The
+app also has a cache volume pending deletion.  After the run, review any
+remaining broad ingress rules and the Linker app error.
 
 The [issue remains open][issue]
-for that work.  The ten policies reduced easy lateral paths.  They did not
+for that work.  The eleven policies reduced easy lateral paths.  They did not
 establish that every required connection is documented or that the whole
 cluster is isolated.
 
@@ -170,6 +174,7 @@ cluster is isolated.
 [models-pr]: https://github.com/WaylonWalker/homelab-argo/pull/195
 [models-storage-pr]: https://github.com/WaylonWalker/homelab-argo/pull/196
 [shot-retry-pr]: https://github.com/WaylonWalker/homelab-argo/pull/197
+[linker-policy-pr]: https://github.com/WaylonWalker/homelab-argo/pull/198
 [whoami-token-pr]: https://github.com/WaylonWalker/homelab-argo/pull/182
 [librespeed-token-pr]: https://github.com/WaylonWalker/homelab-argo/pull/183
 [themes-token-pr]: https://github.com/WaylonWalker/homelab-argo/pull/185
