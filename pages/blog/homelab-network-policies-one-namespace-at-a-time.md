@@ -2,7 +2,7 @@
 date: 2026-10-23
 title: Homelab network policies, one namespace at a time
 description: >-
-  Retiring unused cluster tools, mapping service calls, and testing three narrow
+  Retiring unused cluster tools, mapping service calls, and testing four narrow
   Kubernetes network policies.
 published: true
 draft: false
@@ -43,7 +43,7 @@ Headlamp's Service remains, but there is no running backend or public route.
 
 A policy needs a list of required calls.  The [dependency graph][graph]
 started with connections in Kubernetes manifests, Helm values, and app source
-under `~/git`.  It now records 20 public-safe edges with a source workload,
+under `~/git`.  It now records 21 public-safe edges with a source workload,
 destination, port, reason, evidence path, and confidence level.  A separate
 local map holds eight connections found in private app repositories.
 
@@ -78,9 +78,24 @@ a mounted webroot and has no configured upstream proxy.  Traefik can still
 reach the site, and the pod can still resolve DNS.  A selected test pod could
 not reach another pod.  The public page returned HTTP 200 after the rollout.
 
+The fourth policy covers the public [Lantern Table app][lantern-pr].  It allows
+Traefik to reach the app but leaves app egress open.  Lantern Table calls
+Valkey and has other outbound auth and AI paths.  The public HTTP routes stayed
+healthy, and a direct request from another pod was refused.  A WebSocket
+upgrade returned HTTP 101; a complete room session remains untested.
+
 Those checks show that the rules worked for the paths tested.  A full speed
-test and a long soak remain.  The connected apps have more outbound calls and
-need their own rules.
+test and a long soak remain.  Connected apps need their own traffic evidence
+before outbound rules are added.
+
+## Remove idle tokens
+
+The `whoami`, LibreSpeed, and themes pods also received projected Kubernetes
+API tokens through their default ServiceAccounts.  None of those workloads
+uses the Kubernetes API.  Three small GitOps changes removed the token mounts
+from [whoami][whoami-token-pr], [LibreSpeed][librespeed-token-pr], and
+[themes][themes-token-pr].  Each replacement pod came up ready without the
+token volume, and its public routes still worked.
 
 ## What comes next
 
@@ -90,7 +105,7 @@ reason before it becomes an allow rule.  Then one namespace can be changed,
 tested, observed, and rolled back through GitOps if needed.
 
 The [issue remains open][issue]
-for that work.  The first three policies reduced easy lateral paths.  They did
+for that work.  The first four policies reduced easy lateral paths.  They did
 not establish that every required connection is documented or that the whole
 cluster is isolated.
 
@@ -100,4 +115,8 @@ cluster is isolated.
 [whoami-pr]: https://github.com/WaylonWalker/homelab-argo/pull/177
 [librespeed-pr]: https://github.com/WaylonWalker/homelab-argo/pull/180
 [themes-pr]: https://github.com/WaylonWalker/homelab-argo/pull/181
+[lantern-pr]: https://github.com/WaylonWalker/homelab-argo/pull/187
+[whoami-token-pr]: https://github.com/WaylonWalker/homelab-argo/pull/182
+[librespeed-token-pr]: https://github.com/WaylonWalker/homelab-argo/pull/183
+[themes-token-pr]: https://github.com/WaylonWalker/homelab-argo/pull/185
 [graph]: https://github.com/WaylonWalker/homelab-argo/blob/main/docs/security/issue-174-dependencies.yaml
