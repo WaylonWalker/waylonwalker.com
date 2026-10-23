@@ -89,6 +89,9 @@ the queue cleanup job to reach the API on TCP 5000.  A pod with the cleanup
 label received HTTP 200.  An unrelated pod could not connect.  The public route
 also returned HTTP 200.  The API and worker egress rules remain open because
 they use Redis, MinIO, telemetry, and external services.
+The first scheduled cleanup run had two connection failures, then completed on
+its third pod attempt.  The successful request returned zero queued, completed,
+or failed items.  The next scheduled run needs observation for more retries.
 
 The sixth policy narrows [OpenGraph ingress][opengraph-chart-pr].  Its old rule
 allowed every pod in `kube-system`.  The chart now allows only the live Traefik
@@ -111,11 +114,11 @@ token volume, and its public routes still worked.
 
 ## What comes next
 
-The next pass is to check the next Shot cleanup run and match more deployed
-workloads against source config, traces, logs, and jobs that run only sometimes.
-Each connection needs an owner and a reason before it becomes an allow rule.
-Then one namespace can be changed, tested, observed, and rolled back through
-GitOps if needed.
+The next pass is to watch Shot's cleanup job for more connection retries and
+match more deployed workloads against source config, traces, logs, and jobs that
+run only sometimes.  Each connection needs an owner and a reason before it
+becomes an allow rule.  Then one namespace can be changed, tested, observed,
+and rolled back through GitOps if needed.
 
 The [issue remains open][issue]
 for that work.  The six policies reduced easy lateral paths.  They did not
