@@ -2,7 +2,7 @@
 date: 2026-10-23
 title: Homelab network policies, one namespace at a time
 description: >-
-  Retiring unused cluster tools, mapping service calls, and testing six narrow
+  Retiring unused cluster tools, mapping service calls, and testing seven narrow
   Kubernetes network policies.
 published: true
 draft: false
@@ -99,6 +99,14 @@ pods on TCP 8000.  The public route and an analysis request returned HTTP 200.
 An unrelated pod could not connect.  Brainrot calls the public OpenGraph host,
 so that request still enters through Traefik.
 
+The seventh policy narrows [Family Dashboard ingress][family-dashboard-pr] from the `notify-bridge`
+namespace.  The dashboard accepts event requests from `notify-bridge-app`; its
+cleanup job only removes old media.  The policy now allows the app pods on TCP
+8080.  A matching pod reached the service and received HTTP 200.  An unrelated
+pod in the same namespace could not connect.  The public dashboard hosts still
+returned HTTP 200.  This change only narrows ingress.  The dashboard has other
+service dependencies that need separate review before egress rules.
+
 Those checks show that the rules worked for the paths tested.  A full speed
 test and a long soak remain.  Connected apps need their own traffic evidence
 before outbound rules are added.
@@ -121,7 +129,7 @@ becomes an allow rule.  Then one namespace can be changed, tested, observed,
 and rolled back through GitOps if needed.
 
 The [issue remains open][issue]
-for that work.  The six policies reduced easy lateral paths.  They did not
+for that work.  The seven policies reduced easy lateral paths.  They did not
 establish that every required connection is documented or that the whole
 cluster is isolated.
 
@@ -134,6 +142,7 @@ cluster is isolated.
 [lantern-pr]: https://github.com/WaylonWalker/homelab-argo/pull/187
 [shot-pr]: https://github.com/WaylonWalker/homelab-argo/pull/191
 [opengraph-chart-pr]: https://git.waylonwalker.com/waylon/k8s-basic/pulls/1
+[family-dashboard-pr]: https://git.waylonwalker.com/waylon/family-dashboard/pulls/1
 [whoami-token-pr]: https://github.com/WaylonWalker/homelab-argo/pull/182
 [librespeed-token-pr]: https://github.com/WaylonWalker/homelab-argo/pull/183
 [themes-token-pr]: https://github.com/WaylonWalker/homelab-argo/pull/185
