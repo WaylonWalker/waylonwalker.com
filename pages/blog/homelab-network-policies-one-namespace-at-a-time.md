@@ -2,8 +2,8 @@
 date: 2026-10-23
 title: Homelab network policies, one namespace at a time
 description: >-
-  Retiring unused cluster tools, mapping service calls, and testing eleven narrow
-  Kubernetes network policies.
+  Mapping app dependencies, narrowing Kubernetes access, and turning off unused
+  workloads.
 published: true
 draft: false
 tags:
@@ -12,8 +12,10 @@ tags:
   - security
 template: post
 authors:
-  - id: codex
-    role: draft author
+- id: codex
+  role: draft author
+- id: codex
+  role: copy editor
 ---
 
 Unused services and unknown dependencies shaped this homelab security pass.
@@ -149,12 +151,50 @@ from [whoami][whoami-token-pr], [LibreSpeed][librespeed-token-pr], and
 [themes][themes-token-pr].  Each replacement pod came up ready without the
 token volume, and its public routes still worked.
 
+The same check found tokens on five more static nginx sites.  Their pods serve
+files from read-only webroots.  They do not call the Kubernetes API.  Separate
+site overlays now disable token mounts for [30s][token-30s-pr], [Go for
+Wyatt][token-go-pr], [App][token-app-pr], [Apps][token-apps-pr], and [3D
+Workshop][token-3d-pr].  Argo reports each app Synced and Healthy.  Each new pod
+has no token volume, and each public route returned HTTP 200.
+
+## Pause unused apps
+
+Postiz and its Redis Deployment were already set to zero replicas in GitOps.
+No Postiz app pods run.  Its database cluster is hibernated, and all four
+Postiz PVCs remain Bound.  I made no changes to its database, files, or secrets.
+
+Dozzle was also set to zero replicas, with no running pods.  Its ClusterRole
+and binding remain.  They let its ServiceAccount read pods, logs, and nodes,
+and create pod exec and attach sessions.  I left these permissions in place
+because this change only pauses Dozzle.  A separate change can remove them if
+Dozzle stays retired.  Its Ingress remains, but its Service has no endpoints.
+
+Installer still had one running pod.  [A GitOps change][installer-pause-pr]
+sets its Deployment to zero replicas.  Argo reports Synced and Healthy.  The
+pod is gone, and the Service has no endpoints.  The Ingress remains configured.
+
+## Keep the cache
+
+The Shot cache PV had a deletion timestamp from March, but its claim remained
+Bound and mounted by four API pods and two workers.  Kubernetes does not let
+users clear a deletion timestamp.  I stopped those six pods, released the
+claim, and recreated the PV and PVC with the same Retain policy and host path.
+The cache path stayed available.  `/cache` still reports the same 3.6 TB file
+system and 40 KiB of files.  All six pods are ready, and Argo reports the Shot
+app Synced and Healthy.
+
 ## What comes next
 
-The `shots` app still reports Progressing because its cache volume has a
-deletion request that dates to March.  The claim remains Bound, so I have not
-changed the volume.  The next step is to plan a safe recovery for that claim.
-Review the Linker app error separately; its NetworkPolicy is already scoped.
+The Linker root route still returns HTTP 500 from an app error.  Its health and
+readiness routes return HTTP 200, and its NetworkPolicy is scoped to Traefik.
+The app error needs a separate fix.
+
+A refined inventory matched 60 token-bearing pods to standard Ingress backend
+Services.  The scan includes internal hosts and routes.  This is not a count of
+internet-facing pods.  The next step is to review the
+remaining app and job identities against their API use and RoleBindings.  The
+Dozzle ClusterRoleBinding also needs a separate retirement decision.
 
 The [issue remains open][issue]
 for that work.  The eleven policies reduced easy lateral paths.  They did not
@@ -179,4 +219,10 @@ cluster is isolated.
 [whoami-token-pr]: https://github.com/WaylonWalker/homelab-argo/pull/182
 [librespeed-token-pr]: https://github.com/WaylonWalker/homelab-argo/pull/183
 [themes-token-pr]: https://github.com/WaylonWalker/homelab-argo/pull/185
+[token-30s-pr]: https://github.com/WaylonWalker/homelab-argo/pull/200
+[token-go-pr]: https://github.com/WaylonWalker/homelab-argo/pull/201
+[token-app-pr]: https://github.com/WaylonWalker/homelab-argo/pull/202
+[token-apps-pr]: https://github.com/WaylonWalker/homelab-argo/pull/203
+[token-3d-pr]: https://github.com/WaylonWalker/homelab-argo/pull/204
+[installer-pause-pr]: https://github.com/WaylonWalker/homelab-argo/pull/206
 [graph]: https://github.com/WaylonWalker/homelab-argo/blob/main/docs/security/issue-174-dependencies.yaml
