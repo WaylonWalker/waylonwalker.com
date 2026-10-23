@@ -2,7 +2,7 @@
 date: 2026-10-23
 title: Homelab network policies, one namespace at a time
 description: >-
-  Retiring unused cluster tools, mapping service calls, and testing eight narrow
+  Retiring unused cluster tools, mapping service calls, and testing ten narrow
   Kubernetes network policies.
 published: true
 draft: false
@@ -43,7 +43,7 @@ Headlamp's Service remains, but there is no running backend or public route.
 
 A policy needs a list of required calls.  The [dependency graph][graph]
 started with connections in Kubernetes manifests, Helm values, and app source
-under `~/git`.  It now records 24 public-safe edges with a source workload,
+under `~/git`.  It now records 26 public-safe edges with a source workload,
 destination, port, reason, evidence path, and confidence level.  A separate
 local map holds eight connections found in private app repositories.
 
@@ -114,6 +114,22 @@ active Forgejo chart.  A render comparison showed that only its NetworkPolicy
 changed.  The policy allows the live Traefik pods on TCP 8000.  The public
 route returned HTTP 200, and an unrelated pod was blocked.
 
+The ninth and tenth policies narrow [Models][models-pr] and Models Dev ingress
+on TCP 8080.
+Both routes use Traefik ForwardAuth, so public requests without a session still
+return HTTP 302.  The policies now select only Traefik pods.  Existing DNS and
+PostgreSQL egress rules remain.  The source scan found no direct in-cluster
+clients for either service.
+
+The Models sync also exposed a stale database size in GitOps.  The manifest
+asked for 5 GiB while the three live database volumes were 40 GiB.  CloudNativePG
+blocked the shrink.  [A small follow-up][models-storage-pr] restored the 40 GiB
+request before Argo completed the sync.
+
+The next Shot cleanup job also had connection refusals at startup.  [A follow-up
+change][shot-retry-pr] makes curl retry that error.  The next scheduled run
+will show whether this removes the job's initial failures.
+
 Those checks show that the rules worked for the paths tested.  A full speed
 test and a long soak remain.  Connected apps need their own traffic evidence
 before outbound rules are added.
@@ -136,7 +152,7 @@ namespace can be changed, tested, observed, and rolled back through GitOps if
 needed.
 
 The [issue remains open][issue]
-for that work.  The eight policies reduced easy lateral paths.  They did not
+for that work.  The ten policies reduced easy lateral paths.  They did not
 establish that every required connection is documented or that the whole
 cluster is isolated.
 
@@ -151,6 +167,9 @@ cluster is isolated.
 [opengraph-chart-pr]: https://git.waylonwalker.com/waylon/k8s-basic/pulls/1
 [family-dashboard-pr]: https://git.waylonwalker.com/waylon/family-dashboard/pulls/1
 [avatars-policy-pr]: https://github.com/WaylonWalker/homelab-argo/pull/193
+[models-pr]: https://github.com/WaylonWalker/homelab-argo/pull/195
+[models-storage-pr]: https://github.com/WaylonWalker/homelab-argo/pull/196
+[shot-retry-pr]: https://github.com/WaylonWalker/homelab-argo/pull/197
 [whoami-token-pr]: https://github.com/WaylonWalker/homelab-argo/pull/182
 [librespeed-token-pr]: https://github.com/WaylonWalker/homelab-argo/pull/183
 [themes-token-pr]: https://github.com/WaylonWalker/homelab-argo/pull/185
