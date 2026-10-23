@@ -33,6 +33,21 @@ editorial_history:
   diff_url: https://github.com/waylonwalker/waylonwalker.com/commit/3f5a482a1b638b2874a8b2263f4930f3eba40597#diff-fa2d24930cca966e95857caacf3cb76d700541182acd405aeb459035c0364c5e
   summary: 'Added verified token, paused-app, and Shot cache recovery results from
     issue #174.'
+- schema_version: 1
+  event_id: 2dac2030-81a2-4de9-a802-0a313a6ada4a:pages/blog/homelab-network-policies-one-namespace-at-a-time.md
+  author: codex
+  role: copy-editor
+  action: edited
+  recorded_by: codex
+  recorded_at: '2026-10-23T14:46:29.797307+00:00'
+  base_commit: 80f375770d8da15496023919f671c681a1232846
+  commit: 5b4b880f2cfc5e06257e8a22bf9975fd6872a7ec
+  path: pages/blog/homelab-network-policies-one-namespace-at-a-time.md
+  content_digest: sha256:78ebc9650d09d723f814d61c371b54cabb8c6e0c057d6cca85b481686a7062ac
+  digest_version: editorial-v1
+  file_url: https://github.com/waylonwalker/waylonwalker.com/blob/5b4b880f2cfc5e06257e8a22bf9975fd6872a7ec/pages/blog/homelab-network-policies-one-namespace-at-a-time.md
+  diff_url: https://github.com/waylonwalker/waylonwalker.com/commit/5b4b880f2cfc5e06257e8a22bf9975fd6872a7ec#diff-fa2d24930cca966e95857caacf3cb76d700541182acd405aeb459035c0364c5e
+  summary: Documented Magnet SMP replica and Argo ownership status.
 ---
 
 Unused services and unknown dependencies shaped this homelab security pass.
