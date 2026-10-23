@@ -6,7 +6,10 @@ published: false
 tags:
   - meta
 version: 12
-
+authors:
+- waylon
+- id: gpt-6-codex
+  role: copy editor
 ---
 
 ## title
@@ -211,25 +214,23 @@ here
 
 warning
 
-{.bg-pink-500}
-::: warning
+::: warning {.bg-pink-500}
 _here be dragons_
 be careful
 :::
 
 more containers
 
-:::: name
 ::: name
+:::: name
 _markdown_
-:::
 ::::
+:::
 
-{.text-pink-900}
-::::
-{.bg-pink-500}
-:::
+::: container {.text-pink-900}
+:::: container {.bg-pink-500}
 container
+::::
 
 ## here
 
@@ -241,36 +242,32 @@ there
 import this
 ```
 
-:::
-
-:::
+:::: container
 second container
 
 I still have pink text, but no pink background
-:::
-
 ::::
+:::
 
 ## carousel
 
-{.carousel}
+::: container {.carousel}
+:::: container
+hi
+::::
+:::: container
+hi
+::::
+:::: container
+hi
+::::
+:::: container
+hi
+::::
+:::: container
+hi
 ::::
 :::
-hi
-:::
-:::
-hi
-:::
-:::
-hi
-:::
-:::
-hi
-:::
-:::
-hi
-:::
-::::
 
 ## Admonitions
 
