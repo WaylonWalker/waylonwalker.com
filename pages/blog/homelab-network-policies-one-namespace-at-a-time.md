@@ -2,7 +2,7 @@
 date: 2026-10-23
 title: Homelab network policies, one namespace at a time
 description: >-
-  Retiring unused cluster tools, mapping service calls, and testing seven narrow
+  Retiring unused cluster tools, mapping service calls, and testing eight narrow
   Kubernetes network policies.
 published: true
 draft: false
@@ -43,7 +43,7 @@ Headlamp's Service remains, but there is no running backend or public route.
 
 A policy needs a list of required calls.  The [dependency graph][graph]
 started with connections in Kubernetes manifests, Helm values, and app source
-under `~/git`.  It now records 23 public-safe edges with a source workload,
+under `~/git`.  It now records 24 public-safe edges with a source workload,
 destination, port, reason, evidence path, and confidence level.  A separate
 local map holds eight connections found in private app repositories.
 
@@ -99,13 +99,20 @@ pods on TCP 8000.  The public route and an analysis request returned HTTP 200.
 An unrelated pod could not connect.  Brainrot calls the public OpenGraph host,
 so that request still enters through Traefik.
 
-The seventh policy narrows [Family Dashboard ingress][family-dashboard-pr] from the `notify-bridge`
-namespace.  The dashboard accepts event requests from `notify-bridge-app`; its
-cleanup job only removes old media.  The policy now allows the app pods on TCP
-8080.  A matching pod reached the service and received HTTP 200.  An unrelated
-pod in the same namespace could not connect.  The public dashboard hosts still
-returned HTTP 200.  This change only narrows ingress.  The dashboard has other
-service dependencies that need separate review before egress rules.
+The seventh policy narrows [Family Dashboard ingress][family-dashboard-pr]
+from the `notify-bridge` namespace.  The dashboard accepts event requests from
+`notify-bridge-app`; its cleanup job only removes old media.  The policy now
+allows the app pods on TCP 8080.  A matching pod reached the service and
+received HTTP 200.  An unrelated pod in the same namespace could not connect.
+The public dashboard hosts still returned HTTP 200.  This change only narrows
+ingress.  The dashboard has other service dependencies that need separate
+review before egress rules.
+
+The eighth policy narrows the [Avatars service][avatars-policy-pr].  The app
+used a chart from an archived GitHub mirror, so its Argo source now uses the
+active Forgejo chart.  A render comparison showed that only its NetworkPolicy
+changed.  The policy allows the live Traefik pods on TCP 8000.  The public
+route returned HTTP 200, and an unrelated pod was blocked.
 
 Those checks show that the rules worked for the paths tested.  A full speed
 test and a long soak remain.  Connected apps need their own traffic evidence
@@ -123,13 +130,13 @@ token volume, and its public routes still worked.
 ## What comes next
 
 The next pass is to watch Shot's cleanup job for more connection retries and
-match more deployed workloads against source config, traces, logs, and jobs that
-run only sometimes.  Each connection needs an owner and a reason before it
-becomes an allow rule.  Then one namespace can be changed, tested, observed,
-and rolled back through GitOps if needed.
+review other public apps with namespace-wide ingress rules.  Each connection
+needs an owner and a reason before it becomes an allow rule.  Then one
+namespace can be changed, tested, observed, and rolled back through GitOps if
+needed.
 
 The [issue remains open][issue]
-for that work.  The seven policies reduced easy lateral paths.  They did not
+for that work.  The eight policies reduced easy lateral paths.  They did not
 establish that every required connection is documented or that the whole
 cluster is isolated.
 
@@ -143,6 +150,7 @@ cluster is isolated.
 [shot-pr]: https://github.com/WaylonWalker/homelab-argo/pull/191
 [opengraph-chart-pr]: https://git.waylonwalker.com/waylon/k8s-basic/pulls/1
 [family-dashboard-pr]: https://git.waylonwalker.com/waylon/family-dashboard/pulls/1
+[avatars-policy-pr]: https://github.com/WaylonWalker/homelab-argo/pull/193
 [whoami-token-pr]: https://github.com/WaylonWalker/homelab-argo/pull/182
 [librespeed-token-pr]: https://github.com/WaylonWalker/homelab-argo/pull/183
 [themes-token-pr]: https://github.com/WaylonWalker/homelab-argo/pull/185
