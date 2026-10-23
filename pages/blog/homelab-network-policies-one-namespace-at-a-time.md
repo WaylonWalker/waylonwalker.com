@@ -191,6 +191,12 @@ Installer still had one running pod.  [A GitOps change][installer-pause-pr]
 sets its Deployment to zero replicas.  Argo reports Synced and Healthy.  The
 pod is gone, and the Service has no endpoints.  The Ingress remains configured.
 
+Magnet SMP was already at zero replicas, with no pod or Service endpoint.  Its
+two PVCs remain Bound.  Its manifest is not part of the active Kustomization,
+and the live Deployment has no Argo tracking annotation.  GitOps does not
+enforce its stopped state.  Adopting the manifest would also bring its Service,
+PDB, and PVCs under Argo management, so ownership needs review first.
+
 ## Keep the cache
 
 The Shot cache PV had a deletion timestamp from March, but its claim remained
