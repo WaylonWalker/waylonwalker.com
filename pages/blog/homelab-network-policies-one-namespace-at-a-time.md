@@ -16,6 +16,23 @@ authors:
   role: draft author
 - id: codex
   role: copy editor
+editorial_history:
+- schema_version: 1
+  event_id: 000cc311-7f55-46a5-87db-ac768e1d9e2e:pages/blog/homelab-network-policies-one-namespace-at-a-time.md
+  author: codex
+  role: copy-editor
+  action: edited
+  recorded_by: codex
+  recorded_at: '2026-10-23T14:40:30.928622+00:00'
+  base_commit: 7648c1b93396459c48036565b924da0dc5572a08
+  commit: 3f5a482a1b638b2874a8b2263f4930f3eba40597
+  path: pages/blog/homelab-network-policies-one-namespace-at-a-time.md
+  content_digest: sha256:a4d7c1597537cf68b6058234c6113ca7f39ad457df5a666a9fbc0887e70b4e8e
+  digest_version: editorial-v1
+  file_url: https://github.com/waylonwalker/waylonwalker.com/blob/3f5a482a1b638b2874a8b2263f4930f3eba40597/pages/blog/homelab-network-policies-one-namespace-at-a-time.md
+  diff_url: https://github.com/waylonwalker/waylonwalker.com/commit/3f5a482a1b638b2874a8b2263f4930f3eba40597#diff-fa2d24930cca966e95857caacf3cb76d700541182acd405aeb459035c0364c5e
+  summary: 'Added verified token, paused-app, and Shot cache recovery results from
+    issue #174.'
 ---
 
 Unused services and unknown dependencies shaped this homelab security pass.
