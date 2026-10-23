@@ -2,7 +2,7 @@
 date: 2026-10-23
 title: Homelab network policies, one namespace at a time
 description: >-
-  Retiring unused cluster tools, mapping service calls, and testing two narrow
+  Retiring unused cluster tools, mapping service calls, and testing three narrow
   Kubernetes network policies.
 published: true
 draft: false
@@ -43,7 +43,7 @@ Headlamp's Service remains, but there is no running backend or public route.
 
 A policy needs a list of required calls.  The [dependency graph][graph]
 started with connections in Kubernetes manifests, Helm values, and app source
-under `~/git`.  It now records 18 public-safe edges with a source workload,
+under `~/git`.  It now records 20 public-safe edges with a source workload,
 destination, port, reason, evidence path, and confidence level.  A separate
 local map holds eight connections found in private app repositories.
 
@@ -72,6 +72,12 @@ Both public hosts and the checked backend routes still returned HTTP 200.
 A temporary selected pod again resolved DNS while another pod connection was
 blocked.  The test pods were removed after verification.
 
+The third policy isolated the static
+[`themes.waylonwalker.com` site][themes-pr].  Its nginx pod serves files from
+a mounted webroot and has no configured upstream proxy.  Traefik can still
+reach the site, and the pod can still resolve DNS.  A selected test pod could
+not reach another pod.  The public page returned HTTP 200 after the rollout.
+
 Those checks show that the rules worked for the paths tested.  A full speed
 test and a long soak remain.  The connected apps have more outbound calls and
 need their own rules.
@@ -84,7 +90,7 @@ reason before it becomes an allow rule.  Then one namespace can be changed,
 tested, observed, and rolled back through GitOps if needed.
 
 The [issue remains open][issue]
-for that work.  The first two policies reduced easy lateral paths.  They did
+for that work.  The first three policies reduced easy lateral paths.  They did
 not establish that every required connection is documented or that the whole
 cluster is isolated.
 
@@ -93,4 +99,5 @@ cluster is isolated.
 [headlamp-pr]: https://github.com/WaylonWalker/homelab-argo/pull/176
 [whoami-pr]: https://github.com/WaylonWalker/homelab-argo/pull/177
 [librespeed-pr]: https://github.com/WaylonWalker/homelab-argo/pull/180
+[themes-pr]: https://github.com/WaylonWalker/homelab-argo/pull/181
 [graph]: https://github.com/WaylonWalker/homelab-argo/blob/main/docs/security/issue-174-dependencies.yaml
