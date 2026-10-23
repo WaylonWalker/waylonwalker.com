@@ -10,6 +10,22 @@ authors:
 - waylon
 - id: gpt-6-codex
   role: copy editor
+editorial_history:
+- schema_version: 1
+  event_id: 2df3857e-79fb-4562-b4ea-354a04d56e74:pages/sample.md
+  author: gpt-6-codex
+  role: copy-editor
+  action: edited
+  recorded_by: gpt-6-codex
+  recorded_at: '2026-10-23T23:17:15.125289+00:00'
+  base_commit: 05aa2d626a52f571e2d9d7c437c20bc8e24bc6c7
+  commit: 3a88fc9cd57ffa796ef40f01f29f31e3db83fd03
+  path: pages/sample.md
+  content_digest: sha256:302da404f3acb5fbffcd117186098d00e6b60f71a9c35c2c06d76f4e3bea13dc
+  digest_version: editorial-v1
+  file_url: https://github.com/waylonwalker/waylonwalker.com/blob/3a88fc9cd57ffa796ef40f01f29f31e3db83fd03/pages/sample.md
+  diff_url: https://github.com/waylonwalker/waylonwalker.com/commit/3a88fc9cd57ffa796ef40f01f29f31e3db83fd03#diff-9cef86a1e0ae69ee8b6ae7c37d1487b7d5ff1fdf959a8c9a3d56b5719e4a9d1d
+  summary: Repaired nested container fences and carousel markup on the sample page.
 ---
 
 ## title
