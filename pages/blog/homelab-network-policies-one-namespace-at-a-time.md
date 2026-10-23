@@ -127,8 +127,9 @@ blocked the shrink.  [A small follow-up][models-storage-pr] restored the 40 GiB
 request before Argo completed the sync.
 
 The next Shot cleanup job also had connection refusals at startup.  [A follow-up
-change][shot-retry-pr] makes curl retry that error.  The next scheduled run
-will show whether this removes the job's initial failures.
+change][shot-retry-pr] makes curl retry that error.  The 13:45 run succeeded
+after one refused connection.  Its cleanup request returned 31 queued items and
+zero completed or failed items.  Argo now reports the CronJob Healthy.
 
 The eleventh policy narrows [Linker ingress][linker-policy-pr] to Traefik on
 TCP 8000.  Its public health and readiness paths still return HTTP 200, and an
@@ -150,10 +151,10 @@ token volume, and its public routes still worked.
 
 ## What comes next
 
-The 13:45 Shot cleanup will test the connection retries.  The previous Job
-failed after seven connection refusals, so Argo marks `shots` Degraded.  The
-app also has a cache volume pending deletion.  After the run, review any
-remaining broad ingress rules and the Linker app error.
+The `shots` app still reports Progressing because its cache volume has a
+deletion request that dates to March.  The claim remains Bound, so I have not
+changed the volume.  The next step is to plan a safe recovery for that claim.
+Review the Linker app error separately; its NetworkPolicy is already scoped.
 
 The [issue remains open][issue]
 for that work.  The eleven policies reduced easy lateral paths.  They did not
