@@ -27,3 +27,10 @@ role = "Drafter"
 url = "https://openai.com/"
 avatar = '/gpt.webp'
 default = false
+
+[markata-go.authors.authors.codex]
+name = "Codex"
+role = "Draft author"
+url = "https://openai.com/"
+avatar = '/gpt.webp'
+default = false
