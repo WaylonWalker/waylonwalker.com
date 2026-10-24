@@ -154,7 +154,7 @@ X^2^
 
 ## Emoji
 
-Emoji support not yet working
+Recognized emoji shortcodes render inline; unknown names remain literal.
 
 ``` markdown
 That is so funny! :joy:
@@ -172,9 +172,9 @@ That is so funny! :joy:
 
 :rocket:
 
-:thumbs-up:
+:thumbs_up:
 
-:grinning-face:
+:grinning_face:
 
 :fire:
 
@@ -225,10 +225,8 @@ _markdown_
 :::
 ::::
 
-{.text-pink-900}
-::::
-{.bg-pink-500}
-:::
+:::: sample-nested text-pink-900
+::: sample-nested-inner bg-pink-500
 container
 
 ## here
@@ -243,7 +241,7 @@ import this
 
 :::
 
-:::
+::: sample-nested-sibling
 second container
 
 I still have pink text, but no pink background
@@ -253,21 +251,20 @@ I still have pink text, but no pink background
 
 ## carousel
 
-{.carousel}
-::::
-:::
+:::: carousel
+::: carousel-slide
 hi
 :::
-:::
+::: carousel-slide
 hi
 :::
-:::
+::: carousel-slide
 hi
 :::
-:::
+::: carousel-slide
 hi
 :::
-:::
+::: carousel-slide
 hi
 :::
 ::::
@@ -714,6 +711,9 @@ timeline
     2006 : Twitter
 ```
 
+Architecture diagrams below use Mermaid 10-compatible flowcharts.  The
+`architecture-beta` diagram family requires a newer Mermaid runtime.
+
 ```mermaid
 flowchart LR
     subgraph API["API"]
@@ -781,16 +781,16 @@ flowchart LR
     !!! vsplit ""
 
         ``` mermaid
-        architecture-beta
-            group api(logos:aws-lambda)[API]
-
-            service db(logos:aws-aurora)[Database] in api
-            service disk1(logos:aws-glacier)[Storage] in api
-            service disk2(logos:aws-s3)[Storage] in api
-            service server(logos:aws-ec2)[Server] in api
-
-            db:L -- R:server
-            disk1:T -- B:server
+        flowchart LR
+            subgraph API["API"]
+                db[("Database")]
+                disk1[("Storage 1")]
+                disk2[("Storage 2")]
+                server["Server"]
+            end
+            db --- server
+            disk1 --- server
+            disk2 --- db
         ```
 
 version {{ version }}
