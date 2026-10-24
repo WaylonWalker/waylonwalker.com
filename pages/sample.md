@@ -219,14 +219,14 @@ be careful
 
 more containers
 
-:::: name
 ::: name
+:::: name
 _markdown_
-:::
 ::::
+:::
 
-:::: sample-nested text-pink-900
-::: sample-nested-inner bg-pink-500
+::: sample-nested text-pink-900
+:::: sample-nested-inner bg-pink-500
 container
 
 ## here
@@ -239,35 +239,35 @@ there
 import this
 ```
 
-:::
+::::
 
-::: sample-nested-sibling
+:::: sample-nested-sibling
 second container
 
 I still have pink text, but no pink background
-:::
-
 ::::
+
+:::
 
 ## carousel
 
-:::: carousel
-::: carousel-slide
+::: carousel
+:::: carousel-slide
 hi
-:::
-::: carousel-slide
-hi
-:::
-::: carousel-slide
-hi
-:::
-::: carousel-slide
-hi
-:::
-::: carousel-slide
-hi
-:::
 ::::
+:::: carousel-slide
+hi
+::::
+:::: carousel-slide
+hi
+::::
+:::: carousel-slide
+hi
+::::
+:::: carousel-slide
+hi
+::::
+:::
 
 ## Admonitions
 
