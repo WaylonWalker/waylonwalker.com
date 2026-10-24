@@ -154,7 +154,7 @@ X^2^
 
 ## Emoji
 
-Emoji support not yet working
+Recognized emoji shortcodes render inline; unknown names remain literal.
 
 ``` markdown
 That is so funny! :joy:
@@ -172,9 +172,9 @@ That is so funny! :joy:
 
 :rocket:
 
-:thumbs-up:
+:thumbs_up:
 
-:grinning-face:
+:grinning_face:
 
 :fire:
 
@@ -219,16 +219,14 @@ be careful
 
 more containers
 
-:::: name
 ::: name
+:::: name
 _markdown_
-:::
 ::::
+:::
 
-{.text-pink-900}
-::::
-{.bg-pink-500}
-:::
+::: sample-nested text-pink-900
+:::: sample-nested-inner bg-pink-500
 container
 
 ## here
@@ -241,36 +239,35 @@ there
 import this
 ```
 
-:::
+::::
 
-:::
+:::: sample-nested-sibling
 second container
 
 I still have pink text, but no pink background
-:::
-
 ::::
+
+:::
 
 ## carousel
 
-{.carousel}
+::: carousel
+:::: carousel-slide
+hi
+::::
+:::: carousel-slide
+hi
+::::
+:::: carousel-slide
+hi
+::::
+:::: carousel-slide
+hi
+::::
+:::: carousel-slide
+hi
 ::::
 :::
-hi
-:::
-:::
-hi
-:::
-:::
-hi
-:::
-:::
-hi
-:::
-:::
-hi
-:::
-::::
 
 ## Admonitions
 
@@ -625,40 +622,39 @@ Ship the post and link to it.
 
 gitgraph
 
+These GitGraph examples use syntax supported by the deployed Mermaid 10.9.5 renderer.
+
 ```mermaid
 
-gitGraph:
-    commit "Ashish"
+gitGraph
+    commit id: "Ashish"
     branch newbranch
     checkout newbranch
-    commit id:"1111"
-    commit tag:"test"
+    commit id: "1111"
+    commit tag: "test"
     checkout main
-    commit type: HIGHLIGHT
-    commit
+    commit id: "main-work"
     merge newbranch
-    commit
+    commit id: "release"
     branch b2
-    commit
+    checkout b2
+    commit id: "b2-work"
 ```
 
 ```mermaid
 
-gitGraph:
-    commit "new stuff"
+gitGraph
+    commit id: "start"
     branch make-server-feature
     checkout make-server-feature
-    commit "go"
-    commit tag:"test"
-    commit
-    commit
-    commit
-    rebase
+    commit id: "go"
+    commit tag: "test"
+    commit id: "feature-1"
+    commit id: "feature-2"
     checkout main
-    commit type: HIGHLIGHT
-    commit
+    commit id: "main-work"
     merge make-server-feature
-    commit
+    commit id: "release"
 
 ```
 
@@ -715,49 +711,49 @@ timeline
     2006 : Twitter
 ```
 
+Architecture diagrams below use Mermaid 10-compatible flowcharts.  The
+`architecture-beta` diagram family requires a newer Mermaid runtime.
+
 ```mermaid
-architecture-beta
-    group api(cloud)[API]
-
-    service db(database)[Database] in api
-    service disk1(disk)[Storage] in api
-    service disk2(disk)[Storage] in api
-    service server(server)[Server] in api
-
-    db:L -- R:server
-    disk1:T -- B:server
-    disk2:T -- B:db
+flowchart LR
+    subgraph API["API"]
+        db[("Database")]
+        disk1[("Storage 1")]
+        disk2[("Storage 2")]
+        server["Server"]
+    end
+    db --- server
+    disk1 --- server
+    disk2 --- db
 
 ```
 
 ```` markdown
 ``` mermaid
-architecture-beta
-    group api(logos:aws-lambda)[API]
-
-    service db(logos:aws-aurora)[Database] in api
-    service disk1(logos:aws-glacier)[Storage] in api
-    service disk2(logos:aws-s3)[Storage] in api
-    service server(logos:aws-ec2)[Server] in api
-
-    db:L -- R:server
-    disk1:T -- B:server
-    disk2:T -- B:db
+flowchart LR
+    subgraph API["API"]
+        db[("Database")]
+        disk1[("Storage 1")]
+        disk2[("Storage 2")]
+        server["Server"]
+    end
+    db --- server
+    disk1 --- server
+    disk2 --- db
 ```
 ````
 
 ```mermaid
-architecture-beta
-    group api(logos:aws-lambda)[API]
-
-    service db(logos:aws-aurora)[Database] in api
-    service disk1(logos:aws-glacier)[Storage] in api
-    service disk2(logos:aws-s3)[Storage] in api
-    service server(logos:aws-ec2)[Server] in api
-
-    db:L -- R:server
-    disk1:T -- B:server
-    disk2:T -- B:db
+flowchart LR
+    subgraph API["API"]
+        db[("Database")]
+        disk1[("Storage 1")]
+        disk2[("Storage 2")]
+        server["Server"]
+    end
+    db --- server
+    disk1 --- server
+    disk2 --- db
 
 
 ```
@@ -769,33 +765,32 @@ architecture-beta
 
         ```` markdown
         ``` mermaid
-        architecture-beta
-            group api[logos:aws-lambda](API)
-
-            service db(logos:aws-aurora)[Database] in api
-            service disk1(logos:aws-glacier)[Storage] in api
-            service disk2(logos:aws-s3)[Storage] in api
-            service server(logos:aws-ec2)[Server] in api
-
-            db:L -- R:server
-            disk1:T -- B:server
-            disk2:T -- B:db
+        flowchart LR
+            subgraph API["API"]
+                db[("Database")]
+                disk1[("Storage 1")]
+                disk2[("Storage 2")]
+                server["Server"]
+            end
+            db --- server
+            disk1 --- server
+            disk2 --- db
         ```
         ````
 
     !!! vsplit ""
 
         ``` mermaid
-        architecture-beta
-            group api(logos:aws-lambda)[API]
-
-            service db(logos:aws-aurora)[Database] in api
-            service disk1(logos:aws-glacier)[Storage] in api
-            service disk2(logos:aws-s3)[Storage] in api
-            service server(logos:aws-ec2)[Server] in api
-
-            db:L -- R:server
-            disk1:T -- B:server
+        flowchart LR
+            subgraph API["API"]
+                db[("Database")]
+                disk1[("Storage 1")]
+                disk2[("Storage 2")]
+                server["Server"]
+            end
+            db --- server
+            disk1 --- server
+            disk2 --- db
         ```
 
 version {{ version }}
