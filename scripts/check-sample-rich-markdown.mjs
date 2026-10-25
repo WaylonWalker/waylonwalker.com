@@ -26,6 +26,11 @@ function audit(source){
     if(!containers.length){failures.push(`line ${lineNo}: unmatched container closing fence`);continue}
     const top=containers.pop();
     if(top.depth!==stripped.length)failures.push(`line ${lineNo}: expected ${top.depth} colons to close container from line ${top.lineNo}`);
+    const nextLine = lines[i + 1]?.trim() ?? "";
+    const nextClose = nextLine.match(/^(:{3,})$/);
+    if (containers.length && nextClose && nextClose[1].length < top.depth) {
+     failures.push(`line ${lineNo+1}: separate nested and parent closing fences with a blank line to keep the nested content boundary intact`);
+    }
   }
  }
  if(fence)failures.push(`line ${fence.start}: unclosed Markdown code fence`);
