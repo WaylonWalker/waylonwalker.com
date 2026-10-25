@@ -161,9 +161,9 @@ That is so funny! :joy:
 
 :rocket:
 
-:thumbs_up:
+:thumbsup:
 
-:grinning_face:
+:grinning:
 
 :fire:
 ```
@@ -172,9 +172,9 @@ That is so funny! :joy:
 
 :rocket:
 
-:thumbs_up:
+:thumbsup:
 
-:grinning_face:
+:grinning:
 
 :fire:
 
