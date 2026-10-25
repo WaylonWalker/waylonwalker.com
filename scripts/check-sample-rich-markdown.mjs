@@ -7,6 +7,14 @@ import { dirname, resolve } from "node:path";
 
 function audit(source){
  const failures=[];const diagramBlocks=[];const containers=[];let fence=null;
+ // Keep shortcode examples aligned with the aliases supported by Markata's
+ // goldmark emoji extension. Underscored CLDR names render as literal text.
+ for(const shortcode of ["joy","rocket","thumbsup","grinning","fire"]){
+  if(!source.includes(`:${shortcode}:`))failures.push(`sample emoji shortcode :${shortcode}: is missing`);
+ }
+ for(const shortcode of ["thumbs_up","grinning_face"]){
+  if(source.includes(`:${shortcode}:`))failures.push(`unsupported sample emoji shortcode :${shortcode}: renders literally`);
+ }
  const lines=source.split(/\r?\n/);
  for(let i=0;i<lines.length;i++){
   const line=lines[i],lineNo=i+1;
