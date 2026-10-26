@@ -1,0 +1,35 @@
+name: Production road geometry smoke
+
+on:
+  pull_request:
+    paths:
+      - .github/workflows/road-production-geometry.yml
+      - scripts/verify-road-production.mjs
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  road-geometry:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install pinned browser tooling
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Measure production road at mobile and desktop widths
+        run: node scripts/verify-road-production.mjs
+      - name: Retain geometry and screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: production-road-geometry-${{ github.run_id }}
+          path: artifacts/road-layout
+          if-no-files-found: warn
+          retention-days: 30
