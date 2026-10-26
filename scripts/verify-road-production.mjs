@@ -26,6 +26,7 @@ try {
       await page.evaluate(() => document.fonts?.ready);
       await page.waitForFunction(
         () => document.querySelectorAll('.road[data-road-ready] .road-card').length > 0,
+        undefined,
         { timeout: 25000 },
       );
       await page.waitForTimeout(350);
