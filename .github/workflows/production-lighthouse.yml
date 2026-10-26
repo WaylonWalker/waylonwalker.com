@@ -67,7 +67,9 @@ jobs:
               --dump-header ".markata/lighthouse-analysis/archive-${attempt}.headers" \
               --output /dev/null https://waylonwalker.com/archive/
           done
-      # Keep PR smoke checks lightweight; the weekly/manual matrix scans all nine\n      # page types with repeated cold runs for stable medians.\n      - name: Benchmark production page types
+      # Keep PR smoke checks lightweight; the weekly/manual matrix scans all nine
+      # page types with repeated cold runs for stable medians.
+      - name: Benchmark production page types
         run: |
           bash ./scripts/lighthouse-analysis \
             --pages "$AUDIT_PAGES" \
