@@ -33,6 +33,5 @@ editorial_history:
   summary: Imported GPT-6 Luna copy edits after the owner confirmed exclusive authorship
     of these post diffs.
 ---
-
-![wild turkey on the bike trail](https://dropper.waylonwalker.com/file/cfb26921-19b6-4e7b-891c-7eecbe67dc1c.webp)
-There was a wild turkey chillin on the side of the bike trail during my ride with Wyatt.
+<!-- markata-encrypted-source:v1 key=default -->
++Pu2ReGZHQ/Tidr9sKCoULZsFPCW+hCMgsaKc7fvTmWNLg2t/DEIDyxXtagv01eJoaRklFXCd45ECwyialPRsPm5ykeKiF2UCAmMhwqZbvrLXEgar644HKrN3Ap/DbqVUIGxTWoyUZb5TUAPBkD0gUm2LTlbSc6DVEweZkr29RILMuGFU/d/y6rwmfOYW0A7yTbu363pFq9ehPjgBlj6ZcsyUkTOdx6WKXoundYvwv21Le9p6j4rImQcUAedjo7oODHvhIC7/pD/dT3nE5zMtpJjVjGlH9bTD+nbFhRBuqgJQiTzCOVLLUYS9aQfzwpyF3MPu4vvh/0=

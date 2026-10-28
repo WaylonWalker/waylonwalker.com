@@ -32,6 +32,5 @@ editorial_history:
   summary: Imported GPT-6 Luna copy edits after the owner confirmed exclusive authorship
     of these post diffs.
 ---
-
-![Ayla's biggest ride yet](https://dropper.waylonwalker.com/file/a78448cb-4f77-4c75-ad17-5f9cf9c8d0a9.mp4)
-Ayla is getting really close to riding Wyatt's old bike.  I am so proud of how hard she is working to learn.
+<!-- markata-encrypted-source:v1 key=default -->
+wVtzLORkcq7YzZpN8jAWCue60C+Dxxw3NBvWvf1/pzr9eiYfo9g4mkYVBfj/wZvxPdTNu6j1+YsJVstawjKXMonLp9+D6aewGd9fbDdO/MRiSh007//L8Gpo/TTG7F8q7ySG4XDzWt96y7YA1FhiFKIc88zo5sJgCRi+mJ6iS6GbM65Pxjko0W56Gg3o60y89/mRiwS+gD7IvcFHHrGdWybyYjtfI/E0L4EJ2t9ALRgvjqooV04od/6xpPmUXxP6N9GoQD0iTF5D1sG3qHVmRRbHO6FZy7bOfZA33ohGEEJtxhL99yR91d6PJ31qyv3/LhnSkJi7VPK0su1RtDu2wn5YoKbN

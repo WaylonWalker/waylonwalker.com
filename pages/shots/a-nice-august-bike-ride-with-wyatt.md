@@ -33,6 +33,5 @@ editorial_history:
   summary: Imported GPT-6 Luna copy edits after the owner confirmed exclusive authorship
     of these post diffs.
 ---
-
-![a nice august bike ride with wyatt](https://dropper.waylonwalker.com/file/fa2f4651-601b-4014-b233-4e620be87f41.webp)
-Wyatt and I out on the trail for a bike ride in early August.
+<!-- markata-encrypted-source:v1 key=default -->
+Iki8Iu0TucAEBckJa8bvHjOlb0gsq10D3lZffIWrwWJLxkb7ISfKZxk7XokDFQdGZV6zIyA7iKitUgpBYTO+Mp/EZn14nwEFhTXsLNFr2TjCrvr8en021NLMaTStVTAxko/V2CDAVFOcm5fjaCRjokeonb3fnNzJJsmGZzWI07kGujtHhYEL33ujlYS1cjkfW3lqAHCTPcRVrUjV0o0z30yo7053NByWPZiqbc6v5i/aKDOmT2xCOzTiRh9XgOyCe3KVWcIq06uNcvmI0RFtKdsTiMFQv83Be5ENifVSu1bSBQ==

@@ -26,23 +26,5 @@ editorial_history:
   summary: Imported GPT-6 Luna copy edits after the owner confirmed exclusive authorship
     of these post diffs.
 ---
-
-Second time writing this as I wrote it in my
-new browser based editor and lost it, still
-working out the kinks there.
-
-NEW PUSH UP PR 60 reps in one set!
-
-I can't believe I was able to hit 60 reps in one set.  I think I could have
-pushed a bit more and got maybe 65.  Not all that long ago I was out of
-shape/practice and 20 was rough.  I took a couple of days off so it was a bit
-easier coming in fresh, but I've been hitting my 100/day pretty consistently
-lately.
-
-I've also been hitting stretches pretty consistently in the mornings.  I'm far
-from claiming flexibility, but I can touch my toes fairly easily, and if you know
-me that is pretty huge.
-
-I know that I'm not getting in a wide variety of workouts in right now, but I'm
-prioritizing family, work, hobbies, and fun a bit more than working out.  I'm
-just happy to see myself consistently doing it and seeing improvements.
+<!-- markata-encrypted-source:v1 key=default -->
+Zf3DW73TJpxvhBVscE9vGmCf9eZDPVn+jSV2G0/F2Uu7LZjDebPVErokSdtnL2K3DeMRPRsoJ0jV9l/nZw+lityMXzQ++2cHiT6bqQTqpJO+sjUw+azeKQ86+E1Djx2w+dQO5cqWPPLfSvi7qAxjXZZwDQZaxxomyMzB9zgQP2FWi6zzCrsC89vQetxnJek1ciiOAv7EF7tS/U0nv7d4FNTKG/DTNnanBRSyhZjEv1QJqudwpRVH3UpnAZiC2WmIDUvVHH6Kb8qy+X6pCh3AHmlb955iPu22T0pZAXGpGDOUHifqjfSpCddoIPr7WmwhczrPtAHxIwAEYY+L4+Q4Q4Cv15ZAaNdfng84BuhKkzyzvlH4E5nUzBBOZoFKCxbfPcQm+ZXm4+RPBSEFKED6iCkvZOMY6DwLsO3yZoJ4j8L9SCZNOx2TgXdAI+2YEaZ1UevAGOyJrnZ3ZSsA4HfispT8Bq1j/gLDA5MX57y1Ui+dxRmj477icoE8TV0DrZ5EbmqUxW4inj4rcJxc2Ldy5W0VsO7E5fzIOUGj7PYir3rFPAK5NAZoZIj6iRPRciGNXn3oAWNkbrlJ9/ot/+02gT9zB6v6y46Qo4VX+ukAWHDHUS5KOhI0e91YACdCTtZL+eh1hRneSV0SK+6uAm42yBJHmBGOSzSHwZP4N1UKvi+1zHgIOhwU6ZWmwkev5eAbrt+0buY31yuJk0Kze9gGAGWvPSYwG4Ie9bXVk+2x4f06NTsGu1PJAzsAN7Sea7V3G1FU9QdfPgz5I9StZZilLcvAyorVo0kp26UI8HXWWId+04+/gw2OQMPs/ox3SuiHM+xvdXbyJ3hgIU82xN8c6cRj0sBbPVzYV0UKrbcpHCAB3BszYJgLI0oaVpB5rE0BG9s9yaOZe1e97lDCRBkC1mmtKg4ncGH4rc/+oLjapilut81zpHd9lG799qIQC5tUBp56KKnFLcg1S7aWWRhz9re71Hme3T7zpg8xT32X1tXubdzOO0J/80p4Q1UKFQHS0h8r4KeucfVUhOwVgI4fZ2Xi3h/CUb3UJX1++sTPM3pISXh24OyTuNqSfvqZ4sNBa8qRxK1rjh8riYvXOD4CzCceccMCz0bYFtuVGmJl1PfjrrbMEIm9osYzVP4oCwiBuM+5RN7GzuLmwEluyzsOuWB2PM2oUATac2K/MsOv++yA7ZUwZwKVpM2jqAnrVPSCWzwuvhhyW1zczA0gbhhRbw==
