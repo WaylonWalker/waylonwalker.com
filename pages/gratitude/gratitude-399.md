@@ -1,11 +1,2 @@
----
-date: 2026-10-25T17:20:00Z
-templateKey: gratitude
-title: Gratitude 399
-published: true
-tags:
-  - gratitude
-
----
 <!-- markata-encrypted-source:v1 key=default -->
-QUjweLBdhLbMG03m0OmEzdcHzQr0/hY+lZ2luJjF9HpCPazeNcP92UlRcX3E4AgH5Q6gFORjnWPw9XncKLBhsqy+lfT+xsBFtDBNyiQh8BgITYJIorvGxAj0u6iQXmtEMOCB1v9tWBNQxWXPR7wL5duP5wbRVjqmRnRkAUFbVLxK7XuP+RhKWohUVLYAtX9QYgqIhBTdD0BAefTDXFE52431QHsA80LQjUV9OCrDx/OvJ4o6gWAYB7z3rdLH98rOsabLe/1qm8hmqn1tqxlTvwMT77h2Bgvd8zNbitoMTWeWvSf8ZrF518fm4dpNiSTJ35HgJRnxVaKHzzw18RsKCqk+DIQd2pIGtq/DlqCCuADVJzOgiqfDi7Yr0QHqKpVQETwc+wzWcDQ8UGyqW0kBwgWGFjuFj28LYJj+tnw+bYugUqQNLDCoqEEgnFLEW23x6d2RgVrOtNEod63mt2CrKn75iS6DyK4NW2Bm0st2Nq4J
+gQkyjhED0+p5GWCQ8QZJycQf4nwCJiUjGKGss909GcNS/G801nFOCCZcFRJ9
