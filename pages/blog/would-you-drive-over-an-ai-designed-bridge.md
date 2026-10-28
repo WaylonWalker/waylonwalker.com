@@ -20,7 +20,7 @@ The time is coming.
 
 The writing is on the wall.
 
-This round of model drops Astra just pwnd every other lab with its insane modeling skills.  These things are being RL'd on the mad right now to beat them at this benchmark.
+In this round of model drops (oct 2026) Astra just pwnd every other lab with its insane modeling skills.  These things are being RL'd on the mad right now to beat them at this benchmark.
 
  I know, because software engineers have seen this before.
 
