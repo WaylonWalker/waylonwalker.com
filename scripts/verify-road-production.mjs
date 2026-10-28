@@ -1,4 +1,4 @@
-// Production-only visual acceptance for the winding road in site history.
+// Production-only visual acceptance for winding and editorial roads in site history.
 // No edits, logins, or deploys; screenshots and geometry are retained as CI artifacts.
 import { chromium } from "playwright";
 import { mkdir, writeFile, appendFile } from "node:fs/promises";
@@ -25,7 +25,7 @@ try {
       if (!response?.ok()) throw new Error(`HTTP ${result.httpStatus} loading production page`);
       await page.evaluate(() => document.fonts?.ready);
       await page.waitForFunction(
-        () => document.querySelectorAll('.road[data-road-ready] .road-card').length > 0,
+        () => [...document.querySelectorAll('.road[data-road-ready]')].some((root) => root.querySelector('.road-card, .road-entry')),
         undefined,
         { timeout: 25000 },
       );
@@ -38,15 +38,20 @@ try {
           return { left: round(box.left), top: round(box.top), right: round(box.right), bottom: round(box.bottom) };
         };
         return roots.map((root) => {
-          const cards = [...root.querySelectorAll(".road-card")].map(rect);
-          const anchors = [...root.querySelectorAll(".road-point")];
-          const inner = root.querySelector(".road-inner");
-          let following = root.nextElementSibling;
+          const editorial = root.dataset.road === "editorial";
+          const cards = [...root.querySelectorAll(editorial ? ".road-entry" : ".road-card")].map(rect);
+          const anchors = [...root.querySelectorAll(editorial ? ".road-entry-dot" : ".road-point")];
+          const inner = editorial ? root : root.querySelector(".road-inner");
+          // A road may be the last child of an md-section. Find the next
+          // visible sibling of that section, not only of the road itself.
+          let container = root;
+          while (container && !container.nextElementSibling) container = container.parentElement;
+          let following = container?.nextElementSibling ?? null;
           while (following && (["SCRIPT", "STYLE"].includes(following.tagName) || !following.getClientRects().length)) {
             following = following.nextElementSibling;
           }
           const violations = [];
-          if (!inner || cards.length === 0) violations.push("road has no rendered cards");
+          if (!inner || cards.length === 0) violations.push("road has no rendered milestones");
           if (!following) violations.push("cannot identify following article content");
           for (let i = 0; i < cards.length; i++) {
             const a = cards[i];
@@ -106,9 +111,9 @@ const failed = results.filter((r) => r.errors.length);
 const summary = [
   "## Production road geometry (not deployment verification)",
   "",
-  "| Viewport | HTTP | Road cards | Result |",
+  "| Viewport | HTTP | Milestones | Result |",
   "| --- | --- | ---: | --- |",
-  ...results.map((r) => `| ${r.width}px | ${r.httpStatus ?? "—"} | ${r.roads?.[0]?.cardCount ?? 0} | ${r.errors.length ? r.errors.join("; ") : "PASS"} |`),
+  ...results.map((r) => `| ${r.width}px | ${r.httpStatus ?? "—"} | ${r.roads?.reduce((sum, road) => sum + road.cardCount, 0) ?? 0} | ${r.errors.length ? r.errors.join("; ") : "PASS"} |`),
   "",
   "Screenshots and measured card/following-content bounds are in the road-layout artifact.",
   "",
