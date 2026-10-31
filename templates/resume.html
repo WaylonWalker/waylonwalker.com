@@ -16,11 +16,12 @@ itself via the inside-left and inside-right admonitions.
 <meta name="robots" content="noindex,nofollow">
 <link rel="canonical" href="{{ config.url }}{{ post.href }}">
 <style>
-  /* Static weights, self-hosted under private names.  Static files keep
-     Chrome PDF spacing correct, variable fonts get uneven letter gaps. */
+  /* Static weights from Fontsource on jsDelivr, pinned, under private names.
+     Static files keep Chrome PDF spacing correct, variable fonts get uneven
+     letter gaps.  Latin subset only, which covers the en dash and middot. */
   @font-face {
     font-family: "Resume Name";
-    src: url("/fonts/resume/outfit-300.woff2") format("woff2");
+    src: url("https://cdn.jsdelivr.net/npm/@fontsource/outfit@5.3.0/files/outfit-latin-300-normal.woff2") format("woff2");
     font-weight: 300;
     font-style: normal;
     font-display: block;
@@ -28,7 +29,7 @@ itself via the inside-left and inside-right admonitions.
 
   @font-face {
     font-family: "Resume Name";
-    src: url("/fonts/resume/outfit-700.woff2") format("woff2");
+    src: url("https://cdn.jsdelivr.net/npm/@fontsource/outfit@5.3.0/files/outfit-latin-700-normal.woff2") format("woff2");
     font-weight: 700;
     font-style: normal;
     font-display: block;
@@ -36,7 +37,7 @@ itself via the inside-left and inside-right admonitions.
 
   @font-face {
     font-family: "Resume Heading";
-    src: url("/fonts/resume/space-grotesk-300.woff2") format("woff2");
+    src: url("https://cdn.jsdelivr.net/npm/@fontsource/space-grotesk@5.3.0/files/space-grotesk-latin-300-normal.woff2") format("woff2");
     font-weight: 300;
     font-style: normal;
     font-display: block;
@@ -44,7 +45,7 @@ itself via the inside-left and inside-right admonitions.
 
   @font-face {
     font-family: "Resume Heading";
-    src: url("/fonts/resume/space-grotesk-600.woff2") format("woff2");
+    src: url("https://cdn.jsdelivr.net/npm/@fontsource/space-grotesk@5.3.0/files/space-grotesk-latin-600-normal.woff2") format("woff2");
     font-weight: 600;
     font-style: normal;
     font-display: block;
@@ -52,7 +53,7 @@ itself via the inside-left and inside-right admonitions.
 
   @font-face {
     font-family: "Resume Heading";
-    src: url("/fonts/resume/space-grotesk-700.woff2") format("woff2");
+    src: url("https://cdn.jsdelivr.net/npm/@fontsource/space-grotesk@5.3.0/files/space-grotesk-latin-700-normal.woff2") format("woff2");
     font-weight: 700;
     font-style: normal;
     font-display: block;
@@ -60,7 +61,7 @@ itself via the inside-left and inside-right admonitions.
 
   @font-face {
     font-family: "Resume Body";
-    src: url("/fonts/resume/onest-400.woff2") format("woff2");
+    src: url("https://cdn.jsdelivr.net/npm/@fontsource/onest@5.3.1/files/onest-latin-400-normal.woff2") format("woff2");
     font-weight: 400;
     font-style: normal;
     font-display: block;
@@ -68,7 +69,7 @@ itself via the inside-left and inside-right admonitions.
 
   @font-face {
     font-family: "Resume Body";
-    src: url("/fonts/resume/onest-600.woff2") format("woff2");
+    src: url("https://cdn.jsdelivr.net/npm/@fontsource/onest@5.3.1/files/onest-latin-600-normal.woff2") format("woff2");
     font-weight: 600;
     font-style: normal;
     font-display: block;
@@ -76,7 +77,20 @@ itself via the inside-left and inside-right admonitions.
 
   @page {
     size: letter;
-    margin: 0.4in 0.55in;
+    margin: 0.55in 0.7in 0.5in;
+
+    /* Name on every page after the first, in case the sheets get split. */
+    @bottom-right {
+      content: "Waylon Walker \00b7  Page " counter(page);
+      color: #5b5f6a;
+      font: 7.5pt "Resume Body", "Helvetica Neue", Arial, sans-serif;
+    }
+  }
+
+  @page :first {
+    @bottom-right {
+      content: none;
+    }
   }
 
   body.resume-page {
@@ -125,12 +139,12 @@ itself via the inside-left and inside-right admonitions.
     max-width: 8.5in;
     min-height: 11in;
     margin: 0 auto 3rem;
-    padding: 0.55in 0.65in;
+    padding: 0.6in 0.75in;
     background: var(--resume-paper);
     color: var(--resume-ink);
     font-family: var(--resume-font-body);
-    font-size: 9.5pt;
-    line-height: 1.35;
+    font-size: 10pt;
+    line-height: 1.45;
     /* Fractional glyph positions, avoids rounding gaps at small sizes. */
     text-rendering: geometricPrecision;
     text-align: left;
@@ -141,6 +155,12 @@ itself via the inside-left and inside-right admonitions.
   .resume * {
     color: inherit;
     font-family: inherit;
+  }
+
+  /* Selected text in Cat yellow with black ink, the brand pairing. */
+  .resume ::selection {
+    background: var(--resume-brand-bright);
+    color: #000;
   }
 
   .resume .heading-anchor,
@@ -173,14 +193,15 @@ itself via the inside-left and inside-right admonitions.
   .resume .admonition.inside-right {
     float: right;
     width: 38%;
+    padding-top: 0.2rem;
     text-align: right;
-    font-size: 9pt;
+    font-size: 8.5pt;
     color: var(--resume-muted);
   }
 
   .resume .admonition.inside-right p {
     margin: 0;
-    line-height: 1.45;
+    line-height: 1.3;
   }
 
   .resume .admonition.inside-right a {
@@ -237,14 +258,26 @@ itself via the inside-left and inside-right admonitions.
 
   .resume h2 {
     clear: both;
-    margin: 0.85rem 0 0.4rem;
+    margin: 1.25rem 0 0.45rem;
     padding-bottom: 0.15rem;
+    position: relative;
     border-bottom: 1px solid var(--resume-rule);
-    color: var(--resume-accent);
+    color: var(--resume-ink);
     font-size: 10.5pt;
     font-weight: 700;
     letter-spacing: 0.08em;
     text-transform: uppercase;
+  }
+
+  /* A short Cat yellow tab at the start of each section rule. */
+  .resume h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 2.25rem;
+    height: 3px;
+    background: var(--resume-brand-bright);
   }
 
   .resume h2 em {
@@ -256,21 +289,93 @@ itself via the inside-left and inside-right admonitions.
 
   .resume .admonition.inside-right + h2,
   .resume .admonition.inside-right ~ h2:first-of-type {
-    padding-top: 0.9rem;
+    padding-top: 1.2rem;
   }
 
+  /* Experience borrows the Camp timeline hierarchy: title on the left,
+     years on the right of the same row, and a quiet rail with one node per
+     role.  Yellow marks only the current role.  The markdown puts each
+     role's years line right before its #### heading. */
   .resume h3 {
-    margin: 0.65rem 0 0;
+    margin: 0.7rem 0 0.35rem;
+    font-size: 13pt;
+    font-weight: 600;
+    line-height: 16pt;
+  }
+
+  .resume h3 .years,
+  .resume p:has(+ h4) {
+    color: var(--resume-muted);
+    font-family: var(--resume-font-heading);
+    font-size: 7.5pt;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Company years sit inline after the name, so the right edge stays a
+     single column of role dates. */
+  .resume h3 .years {
+    margin-left: 0.7em;
+  }
+
+  /* Every block after the company, until the next section, sits on a thin
+     rail.  Margins become padding so the line never breaks. */
+  .resume h3 ~ :not(h2, h3, hr, h3 ~ h2, h3 ~ h2 ~ *),
+  .resume h3 ~ .admonition:not(h3 ~ h2 ~ *) {
+    display: flow-root;
+    margin: 0 0 0 0.3rem;
+    padding: 0 0 0 1rem;
+    border-left: 1px solid var(--resume-rule);
+  }
+
+  .resume h3 ~ p:not(h3 ~ h2 ~ *) {
+    padding-block: 0.1rem 0.3rem;
+  }
+
+  /* The years line is one role-title row tall and pulled up under the
+     title, so it lands right aligned on the title's row. */
+  .resume h3 ~ p:has(+ h4) {
+    position: relative;
+    top: 1.5pt;
+    margin-bottom: -14.3pt;
+    padding-block: 0.9rem 0;
+    line-height: 14.3pt;
+    text-align: right;
+  }
+
+  .resume h3 + p:has(+ h4) {
+    padding-top: 0.1rem;
+    color: var(--resume-ink);
+  }
+
+  .resume h4 {
+    position: relative;
+    margin: 0;
+    padding-right: 7rem;
+    font-family: var(--resume-font-heading);
     font-size: 11pt;
     font-weight: 600;
+    line-height: 14.3pt;
   }
 
-  /* The line right under a job heading holds the title and years. */
-  .resume h3 + p {
-    margin-top: 0;
-    color: var(--resume-muted);
-    font-weight: 600;
+  /* Small solid nodes, gray for past roles, Cat yellow for now. */
+  .resume h3 ~ h4::before {
+    content: "";
+    position: absolute;
+    top: calc(7.15pt - 3pt);
+    left: calc(-0.5px - 3pt);
+    width: 6pt;
+    height: 6pt;
+    border-radius: 50%;
+    background: #c4c7ce;
   }
+
+  .resume h3 + p + h4::before {
+    background: var(--resume-brand-bright);
+  }
+
 
   .resume p {
     margin: 0.15rem 0 0.35rem;
@@ -278,12 +383,12 @@ itself via the inside-left and inside-right admonitions.
 
   .resume ul,
   .resume ol {
-    margin: 0.2rem 0 0.5rem;
+    margin: 0.3rem 0 0.6rem;
     padding-left: 1.1rem;
   }
 
   .resume li {
-    margin: 0.04rem 0;
+    margin: 0.14rem 0;
   }
 
   .resume li::marker {
@@ -302,12 +407,15 @@ itself via the inside-left and inside-right admonitions.
     display: none !important;
   }
 
+  /* Bold is for the one number per bullet that proves it. */
   .resume strong {
+    color: #000;
     font-weight: 600;
   }
 
+  /* No extra accent colors next to Cat yellow, the joke works in ink. */
   .resume .text-cyan-600 {
-    color: #0891b2;
+    color: inherit;
   }
 
   /* Technical skills: small caps label over an inline list of tools, on a
@@ -366,8 +474,131 @@ itself via the inside-left and inside-right admonitions.
     padding: 0;
   }
 
+  /* Lock screen, styled like a resume section on paper: tracked heading
+     with the yellow tab, quiet copy, a Cat yellow button.  The theme rules
+     live in @layer components, so these unlayered ones win. */
   .resume .encrypted-content__locked {
-    margin: 2rem auto;
+    max-width: 24rem;
+    margin: 1.25in auto;
+    padding: 1.75rem 1.75rem 1.5rem;
+    border: 1px solid var(--resume-rule);
+    border-radius: 4px;
+    background: var(--resume-paper);
+    color: var(--resume-ink);
+    color-scheme: light;
+    text-align: left;
+  }
+
+  /* The title is an h3, keep the experience rail rules off its siblings. */
+  .resume .encrypted-content__locked > * {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: 0;
+  }
+
+  .resume .encrypted-content__icon {
+    display: none;
+  }
+
+  .resume .encrypted-content__title {
+    position: relative;
+    margin: 0 0 0.6rem;
+    padding-bottom: 0.2rem;
+    border-bottom: 1px solid var(--resume-rule);
+    font-family: var(--resume-font-heading);
+    font-size: 10.5pt;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    line-height: 1.4;
+    text-transform: uppercase;
+  }
+
+  .resume .encrypted-content__title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 2.25rem;
+    height: 3px;
+    background: var(--resume-brand-bright);
+  }
+
+  .resume .encrypted-content__message {
+    margin: 0 0 1rem;
+    color: var(--resume-muted);
+    font-size: 9.5pt;
+  }
+
+  .resume .encrypted-content__form {
+    display: flex;
+    gap: 0.5rem;
+    margin: 0;
+  }
+
+  .resume .encrypted-content__input {
+    flex: 1;
+    min-width: 0;
+    padding: 0.55rem 0.75rem;
+    border: 1px solid #c4c7ce;
+    border-radius: 4px;
+    background: #fff;
+    color: var(--resume-ink);
+    font: 10pt var(--resume-font-body);
+  }
+
+  .resume .encrypted-content__input::placeholder {
+    color: #8a8e98;
+  }
+
+  .resume .encrypted-content__input:focus,
+  .resume .encrypted-content__input:focus-visible {
+    border-color: #000;
+    outline: 2px solid var(--resume-brand-bright);
+    outline-offset: 1px;
+  }
+
+  .resume .encrypted-content__button {
+    padding: 0.55rem 1.1rem;
+    border: 1px solid #000;
+    border-radius: 4px;
+    background: var(--resume-brand-bright);
+    color: #000;
+    font: 600 10pt var(--resume-font-heading);
+    letter-spacing: 0.02em;
+    cursor: pointer;
+  }
+
+  .resume .encrypted-content__button:hover:not(:disabled) {
+    background: #000;
+    color: var(--resume-brand-bright);
+  }
+
+  .resume .encrypted-content__button:focus-visible {
+    outline: 2px solid #000;
+    outline-offset: 2px;
+  }
+
+  .resume .encrypted-content__remember-label {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.45rem;
+    margin-top: 0.85rem;
+    color: var(--resume-muted);
+    font-size: 8.5pt;
+  }
+
+  .resume .encrypted-content__remember {
+    accent-color: #000;
+  }
+
+  .resume .encrypted-content__error {
+    margin: 0.85rem 0 0;
+    padding: 0.5rem 0.75rem;
+    border-left: 3px solid #b42318;
+    background: #fef3f2;
+    color: #b42318;
+    font-size: 9pt;
   }
 
   .resume .encrypted-content__decrypted::after {
@@ -397,7 +628,7 @@ itself via the inside-left and inside-right admonitions.
     }
 
     .resume .technical-skills + ul {
-      columns: 2;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
 
@@ -427,13 +658,25 @@ itself via the inside-left and inside-right admonitions.
       display: none !important;
     }
 
-    .resume hr {
-      display: block;
-      height: 0;
-      margin: 0;
-      border: 0;
-      break-after: page;
-      page-break-after: always;
+    /* The break rides on the block after the ---, so a page that is
+       already full never ends with a lone break and a blank page. */
+    .resume hr + * {
+      break-before: page;
+      page-break-before: always;
+    }
+
+    /* Keep each role whole: no break between its years, title, intro and
+       bullets, so a role that does not fit moves to the next page. */
+    .resume h3 ~ p:has(+ h4),
+    .resume h3 ~ h4,
+    .resume h3 ~ h4 + p {
+      break-after: avoid;
+      page-break-after: avoid;
+    }
+
+    .resume h3 ~ .admonition {
+      break-inside: avoid;
+      page-break-inside: avoid;
     }
 
     body.resume-page .page-wrapper,
@@ -455,12 +698,14 @@ itself via the inside-left and inside-right admonitions.
     }
 
     .resume h2,
-    .resume h3 {
+    .resume h3,
+    .resume h4 {
       break-after: avoid;
       page-break-after: avoid;
     }
 
-    .resume h3 + p {
+    .resume h3 + p,
+    .resume p:has(+ h4) {
       break-after: avoid;
       page-break-after: avoid;
     }
