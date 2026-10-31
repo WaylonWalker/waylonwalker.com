@@ -1,0 +1,492 @@
+{% extends "base.html" %}
+
+{% comment %}
+Resume layout: a single sheet of paper on screen, clean letter-size pages
+when printed to PDF.  Works with encrypted bodies, the styles target the
+decrypted HTML as well as plain markdown.  The header comes from the post
+itself via the inside-left and inside-right admonitions.
+{% endcomment %}
+
+{% block body_class %}resume-page{% endblock %}
+{% block title %}{{ post.title_text }} | Resume{% endblock %}
+{% block description %}{{ post.description | default:'' }}{% endblock %}
+
+{% block meta %}
+{{ block.Super() }}
+<meta name="robots" content="noindex,nofollow">
+<link rel="canonical" href="{{ config.url }}{{ post.href }}">
+<style>
+  /* Static weights, self-hosted under private names.  Static files keep
+     Chrome PDF spacing correct, variable fonts get uneven letter gaps. */
+  @font-face {
+    font-family: "Resume Name";
+    src: url("/fonts/resume/outfit-300.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+    font-display: block;
+  }
+
+  @font-face {
+    font-family: "Resume Name";
+    src: url("/fonts/resume/outfit-700.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: block;
+  }
+
+  @font-face {
+    font-family: "Resume Heading";
+    src: url("/fonts/resume/space-grotesk-300.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+    font-display: block;
+  }
+
+  @font-face {
+    font-family: "Resume Heading";
+    src: url("/fonts/resume/space-grotesk-600.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+    font-display: block;
+  }
+
+  @font-face {
+    font-family: "Resume Heading";
+    src: url("/fonts/resume/space-grotesk-700.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: block;
+  }
+
+  @font-face {
+    font-family: "Resume Body";
+    src: url("/fonts/resume/onest-400.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: block;
+  }
+
+  @font-face {
+    font-family: "Resume Body";
+    src: url("/fonts/resume/onest-600.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+    font-display: block;
+  }
+
+  @page {
+    size: letter;
+    margin: 0.4in 0.55in;
+  }
+
+  body.resume-page {
+    --resume-ink: #1c1d21;
+    --resume-muted: #5b5f6a;
+    --resume-rule: #d6d8de;
+    --resume-accent: #2f5d8a;
+    /* Caterpillar yellow and black.  Yellow fails contrast as text on white,
+       so it is only for bars and markers, text stays black. */
+    --resume-brand: #000000;
+    --resume-brand-bright: #ffcd11;
+    --resume-paper: #ffffff;
+    /* Outfit name, Space Grotesk headings, Onest body. */
+    --resume-font-name: "Resume Name", sans-serif;
+    --resume-font-heading: "Resume Heading", sans-serif;
+    --resume-font-body: "Resume Body", "Helvetica Neue", Arial, sans-serif;
+  }
+
+  .resume-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    max-width: 8.5in;
+    margin: 1.5rem auto 0.75rem;
+    padding: 0 1rem;
+    font-size: 0.9rem;
+  }
+
+  .resume-toolbar a,
+  .resume-toolbar button {
+    color: var(--color-text-muted, inherit);
+    font: inherit;
+  }
+
+  .resume-toolbar button {
+    padding: 0.4rem 0.9rem;
+    border: 1px solid var(--color-border, #ccc);
+    border-radius: 6px;
+    background: var(--color-surface, transparent);
+    cursor: pointer;
+  }
+
+  .resume {
+    box-sizing: border-box;
+    max-width: 8.5in;
+    min-height: 11in;
+    margin: 0 auto 3rem;
+    padding: 0.55in 0.65in;
+    background: var(--resume-paper);
+    color: var(--resume-ink);
+    font-family: var(--resume-font-body);
+    font-size: 9.5pt;
+    line-height: 1.35;
+    /* Fractional glyph positions, avoids rounding gaps at small sizes. */
+    text-rendering: geometricPrecision;
+    text-align: left;
+    border-top: 4px solid var(--resume-brand-bright);
+    box-shadow: 0 2px 24px rgb(0 0 0 / 0.18);
+  }
+
+  .resume * {
+    color: inherit;
+    font-family: inherit;
+  }
+
+  .resume .heading-anchor,
+  .resume .admonition-title,
+  .resume p:empty {
+    display: none;
+  }
+
+  /* Admonitions are only used for layout here, strip the theme chrome. */
+  .resume .admonition {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: none;
+    box-shadow: none;
+  }
+
+  .resume .admonition::before,
+  .resume .admonition::after {
+    display: none;
+  }
+
+  /* Header: name and tagline on the left, contact on the right. */
+  .resume .admonition.inside-left {
+    float: left;
+    width: 62%;
+  }
+
+  .resume .admonition.inside-right {
+    float: right;
+    width: 38%;
+    text-align: right;
+    font-size: 9pt;
+    color: var(--resume-muted);
+  }
+
+  .resume .admonition.inside-right p {
+    margin: 0;
+    line-height: 1.45;
+  }
+
+  .resume .admonition.inside-right a {
+    color: inherit;
+  }
+
+  .resume h1,
+  .resume h1 * {
+    font-family: var(--resume-font-name);
+  }
+
+  .resume h2,
+  .resume h2 *,
+  .resume h3,
+  .resume h3 *,
+  .resume .technical-skills + ul > li {
+    font-family: var(--resume-font-heading);
+  }
+
+  .resume .technical-skills + ul > li > ul {
+    font-family: var(--resume-font-body);
+  }
+
+  .resume h1 {
+    margin: 0 0 0.2rem;
+    font-size: 28pt;
+    font-weight: 300;
+    letter-spacing: -0.03em;
+    line-height: 1.05;
+  }
+
+  .resume h1 .font-bold {
+    font-weight: 700;
+  }
+
+  .resume .font-bold {
+    font-weight: 700;
+  }
+
+  .resume .font-light {
+    font-weight: 300;
+  }
+
+  .resume .admonition.inside-left p {
+    margin: 0;
+    color: var(--resume-muted);
+  }
+
+  .resume .admonition.inside-left h1 + p {
+    color: var(--resume-brand);
+    font-size: 11.5pt;
+    font-weight: 600;
+  }
+
+  .resume h2 {
+    clear: both;
+    margin: 0.85rem 0 0.4rem;
+    padding-bottom: 0.15rem;
+    border-bottom: 1px solid var(--resume-rule);
+    color: var(--resume-accent);
+    font-size: 10.5pt;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .resume h2 em {
+    color: var(--resume-muted);
+    font-style: normal;
+    letter-spacing: 0.02em;
+    text-transform: none;
+  }
+
+  .resume .admonition.inside-right + h2,
+  .resume .admonition.inside-right ~ h2:first-of-type {
+    padding-top: 0.9rem;
+  }
+
+  .resume h3 {
+    margin: 0.65rem 0 0;
+    font-size: 11pt;
+    font-weight: 600;
+  }
+
+  /* The line right under a job heading holds the title and years. */
+  .resume h3 + p {
+    margin-top: 0;
+    color: var(--resume-muted);
+    font-weight: 600;
+  }
+
+  .resume p {
+    margin: 0.15rem 0 0.35rem;
+  }
+
+  .resume ul,
+  .resume ol {
+    margin: 0.2rem 0 0.5rem;
+    padding-left: 1.1rem;
+  }
+
+  .resume li {
+    margin: 0.04rem 0;
+  }
+
+  .resume li::marker {
+    color: var(--resume-muted);
+  }
+
+  .resume a {
+    color: var(--resume-accent);
+    text-decoration: none;
+  }
+
+  /* No link favicons from the link_avatars plugin on a resume. */
+  .resume a.has-avatar::before,
+  .resume a.has-avatar::after {
+    content: none !important;
+    display: none !important;
+  }
+
+  .resume strong {
+    font-weight: 600;
+  }
+
+  .resume .text-cyan-600 {
+    color: #0891b2;
+  }
+
+  /* Technical skills: small caps label over an inline list of tools, on a
+     grid so the rows line up across columns. */
+  .resume .technical-skills + ul {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.5rem 1.5rem;
+    margin: 0.35rem 0 0.5rem;
+    padding: 0;
+    list-style: none;
+  }
+
+  .resume .technical-skills + ul > li {
+    margin: 0;
+    color: var(--resume-ink);
+    font-size: 7.5pt;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    line-height: 1.5;
+    text-transform: uppercase;
+  }
+
+  .resume .technical-skills + ul > li > ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.1rem 0 0;
+    padding: 0;
+    list-style: none;
+    color: var(--resume-muted);
+    font-size: 9pt;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.4;
+    text-transform: none;
+  }
+
+  .resume .technical-skills + ul > li > ul > li {
+    margin: 0;
+    white-space: nowrap;
+  }
+
+  /* Commas, not dots, so a wrapped line never ends on a bare separator. */
+  .resume .technical-skills + ul > li > ul > li:not(:last-child)::after {
+    content: ",\00a0";
+  }
+
+  /* A --- in the markdown marks the print page break, nothing on screen. */
+  .resume hr {
+    display: none;
+  }
+
+  /* Encrypted posts wrap the body, flatten that wrapper once decrypted. */
+  .resume .encrypted-content {
+    margin: 0;
+    padding: 0;
+  }
+
+  .resume .encrypted-content__locked {
+    margin: 2rem auto;
+  }
+
+  .resume .encrypted-content__decrypted::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  @media (max-width: 9in) {
+    .resume {
+      min-height: 0;
+      margin: 0 1rem 2rem;
+      padding: 1.5rem 1.25rem;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .resume .admonition.inside-left,
+    .resume .admonition.inside-right {
+      float: none;
+      width: auto;
+      text-align: left;
+    }
+
+    .resume .admonition.inside-right {
+      margin-top: 0.5rem;
+    }
+
+    .resume .technical-skills + ul {
+      columns: 2;
+    }
+  }
+
+  @media print {
+    :root,
+    html,
+    body.resume-page {
+      color-scheme: light !important;
+      background: #fff !important;
+    }
+
+    body.resume-page .skip-link,
+    body.resume-page .resume-toolbar,
+    body.resume-page .background-decorations,
+    body.resume-page #view-transition-progress,
+    body.resume-page .encrypted-content__locked,
+    body.resume-page .site-header,
+    body.resume-page .site-footer,
+    body.resume-page .shortcuts-toggle-btn,
+    body.resume-page .shortcuts-modal,
+    body.resume-page .format-links,
+    body.resume-page [class*="rss"],
+    body.resume-page [class*="subscribe"],
+    body.resume-page a[href$=".xml"],
+    body.resume-page a[href^="/_markata/"],
+    body.resume-page markata-dev-settings {
+      display: none !important;
+    }
+
+    .resume hr {
+      display: block;
+      height: 0;
+      margin: 0;
+      border: 0;
+      break-after: page;
+      page-break-after: always;
+    }
+
+    body.resume-page .page-wrapper,
+    body.resume-page .main-content {
+      display: block;
+      max-width: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .resume {
+      max-width: none;
+      min-height: 0;
+      margin: 0;
+      padding: 0.15in 0 0;
+      box-shadow: none;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    .resume h2,
+    .resume h3 {
+      break-after: avoid;
+      page-break-after: avoid;
+    }
+
+    .resume h3 + p {
+      break-after: avoid;
+      page-break-after: avoid;
+    }
+
+    .resume li,
+    .resume p {
+      break-inside: avoid;
+      page-break-inside: avoid;
+      orphans: 3;
+      widows: 3;
+    }
+  }
+</style>
+{% endblock %}
+
+{% block header %}{% endblock %}
+{% block progress %}{% endblock %}
+{% block footer %}{% endblock %}
+
+{% block content %}
+<nav class="resume-toolbar" aria-label="Resume actions">
+  <a href="/">&larr; waylonwalker.com</a>
+  <button type="button" onclick="window.print()">Print / Save PDF</button>
+</nav>
+
+<article class="resume" data-pagefind-ignore>
+  {{ body | safe }}
+</article>
+{% endblock %}
