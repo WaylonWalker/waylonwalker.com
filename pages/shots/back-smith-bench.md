@@ -7,11 +7,11 @@ tags:
   - skate
 published: True
 slug: shots/back-smith-bench
-image: https://dropper.waylonwalker.com/file/a024a37e-73f0-4ace-89b3-138beaefef32.mp4
+image: https://dropper.waylonwalker.com/file/8d760125-2ae4-4cdf-b08e-dd4bc62232ef.mp4
 description: Back Smith Bench
 original: back-smith-bench.mp4
 ---
 
-![Back Smith Bench](https://dropper.waylonwalker.com/file/a024a37e-73f0-4ace-89b3-138beaefef32.mp4)
+![Back Smith Bench](https://dropper.waylonwalker.com/file/8d760125-2ae4-4cdf-b08e-dd4bc62232ef.mp4)
 
 > Back Smith Bench
