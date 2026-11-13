@@ -4,6 +4,8 @@ image: https://i.ytimg.com/vi/kODgReWwrWM/hqdefault.jpg
 template: link
 title: '"Nobody''s Going to Write the Next React" ft. Armin Ronacher & Mario Zechner - Ep 08'
 url: https://www.youtube.com/watch?v=kODgReWwrWM
+date: 2026-11-13
+published: true
 ---
 
 GOATED Panel on this episode.  I thought the chat about PRs being Theater was
