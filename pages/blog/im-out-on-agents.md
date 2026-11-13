@@ -13,7 +13,7 @@ published: True
 
 Its the year 2025 and we are only a few years into having 6 months to live
 before ai takes our jobs, and the big push right now is agents, managing
-agents.  I will fully concede to I'm not doing it right, or a future state gets
+agents. I will fully concede to I'm not doing it right, or a future state gets
 better than where we are right now, but right now they kinda suck.
 
 !!! Note Transparency
@@ -112,3 +112,9 @@ big boys for some heavy work getting the context right for them locally would
 make a huge difference.  Currently local llms are too slow and dumb.
 
 So will this bubble pop or explode, we can only wait to find out.
+
+## Update F26
+
+_that aged like Milk_ 
+
+Boy did I think these things were garbage at the time.  I thought we had so much runway before these things really took off and stole my need for a highly tuned nvim config.
