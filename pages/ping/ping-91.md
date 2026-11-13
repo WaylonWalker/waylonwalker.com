@@ -11,3 +11,5 @@ tags:
 Nobody thinks about react anymore.
 
 ![embed](https://youtu.be/_BNWYC_DCQk)
+
+![embed](https://www.youtube.com/watch?v=kODgReWwrWM)
