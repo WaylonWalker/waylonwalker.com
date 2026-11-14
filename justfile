@@ -377,6 +377,25 @@ import-keebrun-shots *args='':
     [ -n "${DROPPER_TOKEN:-}" ] || { printf '%s\n' 'Missing DROPPER_TOKEN in .env. Run: just shots-pat' >&2; exit 1; }
     uv run scripts/import_keebrun_shots.py {{args}}
 
+import-skate-shots *args='':
+    #!/usr/bin/env bash
+    set -euo pipefail
+
+    env_file='{{ justfile_directory() }}/.env'
+    [ -f "$env_file" ] || { printf '%s\n' 'Missing .env. Run: just shots-pat' >&2; exit 1; }
+
+    set -a
+    . "$env_file"
+    set +a
+
+    [ -n "${DROPPER_TOKEN:-}" ] || { printf '%s\n' 'Missing DROPPER_TOKEN in .env. Run: just shots-pat' >&2; exit 1; }
+    uv run scripts/import_keebrun_shots.py \
+        --source-dir /home/waylon/mnt/walkershare/waylon/waylonwalker-gaming/Skate \
+        --game-tag skate \
+        --remove-token '' \
+        --transcode-h264 \
+        {{args}}
+
 shots-clipboard *args='':
     #!/usr/bin/env bash
     set -euo pipefail
