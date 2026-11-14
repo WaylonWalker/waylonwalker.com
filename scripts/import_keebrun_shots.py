@@ -12,7 +12,10 @@ import argparse
 import mimetypes
 import os
 import re
+import shutil
+import subprocess
 import sys
+import tempfile
 from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
@@ -21,12 +24,13 @@ from urllib.parse import urlsplit, urlunsplit
 import requests
 
 DEFAULT_SOURCE_DIR = Path(
-    "/run/user/1000/gvfs/smb-share:server=192.168.1.168,share=waylon/"
-    "waylonwalker-gaming/SilkSong/keeb-run-1"
-)
+    "~/mnt/walkershare/waylon/waylonwalker-gaming/"
+    "SilkSong/keeb-run-1"
+).expanduser()
 DEFAULT_BASE_URL = "https://dropper.waylonwalker.com"
 DEFAULT_OUTPUT_DIR = Path("./pages/shots")
-REMOVE_TOKEN = "silksong-keebrun"
+DEFAULT_REMOVE_TOKEN = "silksong-keebrun"
+DEFAULT_GAME_TAG = "hollow-knight-silksong"
 CANONICAL_DROPPER_HOST = "dropper.waylonwalker.com"
 MAX_UPLOAD_BYTES = 100 * 1024 * 1024
 RESAMPLE_DIR_NAME = "resample"
@@ -51,10 +55,11 @@ class ShotMeta:
     output_file: Path
 
 
-def clean_stem(file_path: Path) -> str:
+def clean_stem(file_path: Path, remove_token: str) -> str:
     stem = file_path.stem.lower()
-    stem = re.sub(rf"^{re.escape(REMOVE_TOKEN)}[-_]*", "", stem)
-    stem = re.sub(rf"[-_]*{re.escape(REMOVE_TOKEN)}[-_]*", "-", stem)
+    if remove_token:
+        stem = re.sub(rf"^{re.escape(remove_token)}[-_]*", "", stem)
+        stem = re.sub(rf"[-_]*{re.escape(remove_token)}[-_]*", "-", stem)
     stem = re.sub(r"-{2,}", "-", stem).strip("-")
     return stem or file_path.stem.lower()
 
@@ -81,8 +86,10 @@ def file_creation_timestamp(file_path: Path) -> float:
     return float(stat.st_ctime)
 
 
-def build_meta(file_path: Path, output_dir: Path) -> ShotMeta:
-    stem_clean = clean_stem(file_path)
+def build_meta(
+    file_path: Path, output_dir: Path, remove_token: str
+) -> ShotMeta:
+    stem_clean = clean_stem(file_path, remove_token)
     slug = normalize_slug(stem_clean)
     if not slug:
         slug = normalize_slug(file_path.stem)
@@ -104,7 +111,7 @@ def build_meta(file_path: Path, output_dir: Path) -> ShotMeta:
     )
 
 
-def render_markdown(meta: ShotMeta, image_url: str) -> str:
+def render_markdown(meta: ShotMeta, image_url: str, game_tag: str) -> str:
     return "\n".join(
         [
             "---",
@@ -113,7 +120,7 @@ def render_markdown(meta: ShotMeta, image_url: str) -> str:
             f"title: {meta.title}",
             "tags:",
             "  - shots",
-            "  - hollow-knight-silksong",
+            f"  - {game_tag}",
             "published: True",
             f"slug: shots/{meta.slug}",
             f"image: {image_url}",
@@ -143,6 +150,73 @@ def canonicalize_dropper_url(url: str) -> str:
 
 def format_bytes(size_bytes: int) -> str:
     return f"{size_bytes / 1024 / 1024:.1f} MB"
+
+
+def video_codec(file_path: Path) -> str | None:
+    mime_type = mimetypes.guess_type(file_path.name)[0]
+    if not mime_type or not mime_type.startswith("video/"):
+        return None
+
+    result = subprocess.run(
+        [
+            "ffprobe",
+            "-v",
+            "error",
+            "-select_streams",
+            "v:0",
+            "-show_entries",
+            "stream=codec_name",
+            "-of",
+            "default=noprint_wrappers=1:nokey=1",
+            str(file_path),
+        ],
+        check=True,
+        capture_output=True,
+        text=True,
+    )
+    return result.stdout.strip() or None
+
+
+def transcode_h264(file_path: Path, temp_dir: Path) -> tuple[Path, str | None]:
+    codec = video_codec(file_path)
+    if not codec or codec.lower() == "h264":
+        return file_path, codec
+
+    output_path = temp_dir / f"{file_path.stem}-h264.mp4"
+    subprocess.run(
+        [
+            "ffmpeg",
+            "-hide_banner",
+            "-loglevel",
+            "error",
+            "-y",
+            "-i",
+            str(file_path),
+            "-map",
+            "0:v:0",
+            "-map",
+            "0:a?",
+            "-c:v",
+            "libx264",
+            "-preset",
+            "medium",
+            "-crf",
+            "22",
+            "-pix_fmt",
+            "yuv420p",
+            "-c:a",
+            "aac",
+            "-b:a",
+            "128k",
+            "-movflags",
+            "+faststart",
+            str(output_path),
+        ],
+        check=True,
+        capture_output=True,
+        text=True,
+    )
+    return output_path, codec
 
 
 def quality_rank(file_path: Path) -> int:
@@ -272,7 +346,7 @@ def existing_index(output_dir: Path) -> tuple[set[str], set[str]]:
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description=(
-            "Upload keeb-run files to dropper and generate pages/shots markdown files."
+            "Upload video files to Dropper and generate pages/shots markdown files."
         )
     )
     parser.add_argument(
@@ -285,6 +359,21 @@ def parse_args() -> argparse.Namespace:
         "--base-url",
         default=DEFAULT_BASE_URL,
         help="Dropper base URL.",
+    )
+    parser.add_argument(
+        "--remove-token",
+        default=DEFAULT_REMOVE_TOKEN,
+        help="Filename token to remove when creating titles and slugs.",
+    )
+    parser.add_argument(
+        "--game-tag",
+        default=DEFAULT_GAME_TAG,
+        help="Game tag to add to each generated shot post.",
+    )
+    parser.add_argument(
+        "--transcode-h264",
+        action="store_true",
+        help="Transcode non-H.264 videos to H.264 MP4 before upload.",
     )
     parser.add_argument(
         "--output-dir",
@@ -322,6 +411,17 @@ def main() -> int:
     output_dir: Path = args.output_dir
     token = os.environ.get(DROPPER_TOKEN_ENV_VAR, "").strip() or None
 
+    if args.transcode_h264:
+        missing_tools = [
+            tool for tool in ("ffmpeg", "ffprobe") if shutil.which(tool) is None
+        ]
+        if missing_tools:
+            print(
+                f"Missing required tools for --transcode-h264: {', '.join(missing_tools)}",
+                file=sys.stderr,
+            )
+            return 1
+
     if not source_dir.exists() or not source_dir.is_dir():
         print(f"Source directory does not exist: {source_dir}", file=sys.stderr)
         return 1
@@ -344,7 +444,7 @@ def main() -> int:
         print(f"Processing limit: {args.limit}")
 
     for file_path in files:
-        meta = build_meta(file_path, output_dir)
+        meta = build_meta(file_path, output_dir, args.remove_token)
         slug_value = f"shots/{meta.slug}"
         upload_source, upload_note = pick_upload_source(file_path, MAX_UPLOAD_BYTES)
         if upload_source is None:
@@ -383,20 +483,44 @@ def main() -> int:
                 print(f"  upload file: {upload_source.name}")
             if upload_note:
                 print(f"  upload choice: {upload_note}")
+            if args.transcode_h264:
+                codec = video_codec(upload_source)
+                if codec and codec.lower() != "h264":
+                    print(f"  video codec: {codec}; would transcode to H.264")
             print(f"  title: {meta.title}")
             print(f"  date to use: {meta.date_string}")
             print(f"  expected slug: {slug_value}")
             print(f"  would write: {meta.output_file}")
             if args.print_post:
                 dry_run_image_url = f"{args.base_url.rstrip('/')}/<uploaded-file-url>"
-                markdown_preview = render_markdown(meta, dry_run_image_url)
+                markdown_preview = render_markdown(
+                    meta, dry_run_image_url, args.game_tag
+                )
                 print("  markdown preview:")
                 print(markdown_preview)
             continue
 
         try:
-            image_url = upload_file(upload_source, args.base_url, token=token)
-            markdown = render_markdown(meta, image_url)
+            if args.transcode_h264:
+                with tempfile.TemporaryDirectory(prefix="shot-import-") as temp_dir:
+                    prepared_source, original_codec = transcode_h264(
+                        upload_source, Path(temp_dir)
+                    )
+                    if prepared_source.stat().st_size > MAX_UPLOAD_BYTES:
+                        raise ValueError(
+                            "H.264 output exceeds the 100 MB upload limit; "
+                            "prepare a smaller resample and retry"
+                        )
+                    image_url = upload_file(
+                        prepared_source, args.base_url, token=token
+                    )
+                if prepared_source != upload_source:
+                    print(
+                        f"transcoded {file_path.name} from {original_codec} to H.264"
+                    )
+            else:
+                image_url = upload_file(upload_source, args.base_url, token=token)
+            markdown = render_markdown(meta, image_url, args.game_tag)
             meta.output_file.write_text(markdown, encoding="utf-8")
             existing_originals.add(file_path.name)
             existing_slugs.add(slug_value)
