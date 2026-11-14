@@ -3,7 +3,7 @@ image: https://dropper.waylonwalker.com/file/e77757c2-bf54-47dd-bfd3-6354b83f2d2
 tags:
     - 3d printing
 template: photo
-date: 11-14-2026
+date: 2026-11-14
 published: true
 title: 12 frame stiles in gcode
 ---
