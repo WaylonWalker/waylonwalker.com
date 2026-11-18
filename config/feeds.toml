@@ -13,6 +13,7 @@ filter = """
     path.startswith('pages/link/') or
     path.startswith('pages/stars/') or
     path.startswith('pages/shots/') or
+    path.startswith('pages/photo/') or
     path.startswith('pages/ping/')
   ) 
   and published and 'family' not in tags
@@ -89,7 +90,7 @@ sidebar=true
 slug = "shots"
 title = "Shots"
 description = "Photo and video posts"
-filter = "path.startswith('pages/shots/')"
+filter = "path.startswith('pages/shots/') or path.startswith('pages/photo/')"
 sort = "date"
 reverse = true
 primary = true
@@ -120,6 +121,7 @@ filter = """
     path.startswith('pages/stars/') or
     path.startswith('pages/daily/') or
     path.startswith('pages/shots/') or
+    path.startswith('pages/photo/') or
     path.startswith('pages/ping/')
   ) and published and 'family' not in tags
   """
@@ -194,7 +196,7 @@ sitemap = false
 slug = "family-shots"
 title = "Family Shots"
 description = "Family photo posts"
-filter = "path.startswith('pages/shots/') and \"family\" in tags"
+filter = "(path.startswith('pages/shots/') or path.startswith('pages/photo/')) and \"family\" in tags"
 sort = "date"
 reverse = true
 private = true
