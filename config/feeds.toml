@@ -48,8 +48,8 @@ description = "Short Ping Posts"
 filter = "published == true and path.startswith('pages/ping/')"
 sort = "date"
 reverse = true
-primary = true
-sidebar=true
+primary = false
+sidebar = false
 
 # TIL feed - Today I Learned posts
 [[markata-go.feeds]]

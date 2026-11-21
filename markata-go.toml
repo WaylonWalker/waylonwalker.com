@@ -4,8 +4,9 @@
 # markata-go configuration for waylonwalker.com migration
 [markata-go]
 title = "Waylon Walker"
+author = "Waylon Walker"
 fontpack = "handwritten"
-description = "Waylon Walker's personal blog"
+description = "Software, automation, and building things on the web."
 url = "https://waylonwalker.com"
 license = "cc-by-4.0"
 hooks = ["default", "thoughts", "wikilink_hover", "webawesome", "image_optimization"]
@@ -61,7 +62,15 @@ label = "archive"
 url = "/archive/"
 
 [[markata-go.nav]]
-label = "rss"
+label = "blog"
+url = "/blog/"
+
+[[markata-go.nav]]
+label = "shots"
+url = "/shots/"
+
+[[markata-go.nav]]
+label = "feeds"
 url = "/feeds/"
 
 [[markata-go.nav]]

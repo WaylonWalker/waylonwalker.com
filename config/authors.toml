@@ -4,7 +4,7 @@ email = "hello@waylonwalker.com"
 role = "Author"
 url = "https://waylonwalker.com"
 avatar = '/8bitcc.png'
-social = { twitter = "waylonwalker", bluesky = "waylonwalker.com", github = "WaylonWalker" }
+social = { twitter = "_waylonwalker", bluesky = "waylonwalker.com", github = "WaylonWalker" }
 default = true
 
 [markata-go.authors.authors.kimi-k2-5-free]
@@ -24,6 +24,20 @@ default = false
 [markata-go.authors.authors.gpt-5-2-codex]
 name = "GPT-5.2 Codex"
 role = "Drafter"
+url = "https://openai.com/"
+avatar = '/gpt.webp'
+default = false
+
+[markata-go.authors.authors.gpt-6]
+name = "GPT-6"
+role = "Editor"
+url = "https://openai.com/"
+avatar = '/gpt.webp'
+default = false
+
+[markata-go.authors.authors.gpt-6-luna]
+name = "GPT-6 Luna"
+role = "Editor"
 url = "https://openai.com/"
 avatar = '/gpt.webp'
 default = false
