@@ -8,6 +8,7 @@ filter = """
   date<=today and (
     path.startswith('pages/blog/') or
     path.startswith('pages/post/') or
+    path.startswith('pages/note/') or
     path.startswith('pages/til/') or
     path.startswith('pages/thoughts/') or
     path.startswith('pages/link/') or
@@ -115,6 +116,7 @@ filter = """
   date<=today and (
     path.startswith('pages/blog/') or
     path.startswith('pages/post/') or
+    path.startswith('pages/note/') or
     path.startswith('pages/til/') or
     path.startswith('pages/thoughts/') or
     path.startswith('pages/link/') or
