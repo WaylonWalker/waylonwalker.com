@@ -37,7 +37,8 @@ default = false
 
 [markata-go.authors.authors.gpt-6-luna]
 name = "GPT-6 Luna"
-role = "Editor"
+role = "Copy editor"
 url = "https://openai.com/"
 avatar = '/gpt.webp'
 default = false
+

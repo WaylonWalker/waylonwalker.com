@@ -31,6 +31,37 @@ items_per_page = 48
 pagination_type = "manual"
 sidebar=true
 
+# Calendar feed - publishing activity across years and months.
+# Same posts as the archive feed, rendered with the built-in
+# calendar-feed.html template (Jim Nielsen-style publishing calendar).
+# The template reads the complete feed.posts collection, so pagination
+# does not truncate the calendar history.
+[[markata-go.feeds]]
+slug = "calendar"
+title = "Calendar"
+description = "Publishing calendar across years and months"
+filter = """
+  date<=today and (
+    path.startswith('pages/blog/') or
+    path.startswith('pages/post/') or
+    path.startswith('pages/til/') or
+    path.startswith('pages/thoughts/') or
+    path.startswith('pages/link/') or
+    path.startswith('pages/stars/') or
+    path.startswith('pages/shots/') or
+    path.startswith('pages/photo/') or
+    path.startswith('pages/ping/')
+  )
+  and published and 'family' not in tags
+  """
+sort = "date"
+reverse = true
+primary = true
+sidebar=true
+
+[markata-go.feeds.templates]
+html = "calendar-feed.html"
+
 # Blog feed - full blog posts only
 [[markata-go.feeds]]
 slug = "blog"

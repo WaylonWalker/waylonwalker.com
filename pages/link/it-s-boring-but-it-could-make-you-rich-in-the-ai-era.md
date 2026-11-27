@@ -2,6 +2,7 @@
 template: link
 templateKey: link
 title: "It’s Boring, But It Could Make You Rich in the AI Era"
+slug: "link/it-s-boring-but-it-could-make-you-rich-in-the-ai-era"
 date: 2026-11-18
 published: true
 url: "https://www.youtube.com/watch?v=zdjXvH3_u-Q"

@@ -2,6 +2,7 @@
 template: link
 templateKey: link
 title: "too many agents on X"
+slug: "link/too-many-agents-on-x"
 date: 2026-11-17
 published: true
 url: "https://x.com/ThePrimeagen/status/2122714461660447028"

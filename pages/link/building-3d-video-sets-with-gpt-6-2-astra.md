@@ -2,6 +2,7 @@
 template: link
 templateKey: link
 title: "Building 3D video sets with GPT-6.2 Astra"
+slug: "link/building-3d-video-sets-with-gpt-6-2-astra"
 date: 2026-11-17
 published: true
 url: "https://www.youtube.com/watch?v=tKoDPOrLMX0"
