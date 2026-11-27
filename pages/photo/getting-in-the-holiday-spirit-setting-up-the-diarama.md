@@ -13,3 +13,4 @@ Here is the design of the shelf bracket.
 
 ![[ skate-shelf-gcode ]]
 
+![[ skate-shelf-in-action ]]
