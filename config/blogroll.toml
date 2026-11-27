@@ -1412,3 +1412,16 @@ site_url = "https://www.no.lol/"
 handle = "poteto"
 aliases = ["laurentan"]
 active = true
+
+[[blogroll.feeds]]
+url = "https://rss.beehiiv.com/feeds/NggVbrRMab.xml"
+title = "Nick Taylor | One Tip a Week"
+description = "One developer tip a week. Short & valuable. That's it!"
+category = "development"
+type = "written"
+tags = ["programming"]
+site_url = "https://one-tip-a-week.beehiiv.com/"
+handle = "nicktaylor"
+image_url = "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/publication/thumbnail/e873e0ca-6b39-402e-8c1e-9eadfeae594f/landscape_Cloudinary_Image_1200x630.jpg?v=1795750720"
+active = true
+
